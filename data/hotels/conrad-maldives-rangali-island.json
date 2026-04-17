@@ -20,7 +20,12 @@
   "price_per_night_usd": { "min": 800, "max": 3000 },
   "adults_only": false,
   "amenities": ["spa", "overwater villas", "beach", "pool", "room service", "butler service", "snorkeling", "diving"],
-  "photos": [],
+  "photos": [
+    { "url": "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?w=1200&q=80", "alt": "Conrad Maldives overwater villas at sunset", "type": "hero" },
+    { "url": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&q=80", "alt": "Infinity pool overlooking the Indian Ocean", "type": "room" },
+    { "url": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&q=80", "alt": "Spa treatment room", "type": "spa" },
+    { "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80", "alt": "Underwater restaurant dining", "type": "dining" }
+  ],
   "tripadvisor_rating": 9.2,
   "couples_review_pct": 78,
   "content": {

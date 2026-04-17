@@ -1,0 +1,57 @@
+{
+  "slug": "singita-grumeti-tanzania",
+  "name": "Singita Sasakwa Lodge",
+  "destination": "serengeti",
+  "country": "tanzania",
+  "experience_types": ["safari", "luxury", "adults-only"],
+  "honeymoon_score": 88,
+  "score_breakdown": { "adults_only": 25, "couples_pct": 20, "spa": 15, "award": 15, "pool": 10, "beach": 0, "room_service": 5, "stars": 10, "luxury": 5 },
+  "stars": 5,
+  "price_per_night_usd": { "min": 2000, "max": 5500 },
+  "adults_only": true,
+  "amenities": ["spa", "pool", "adults-only", "room service", "game drives", "butler service", "tennis"],
+  "photos": [
+    { "url": "https://images.unsplash.com/photo-1516426122078-c23e76319801?w=1200&q=80", "alt": "Singita Sasakwa infinity pool overlooking the Serengeti", "type": "hero" },
+    { "url": "https://images.unsplash.com/photo-1628458396714-d52db7d61d47?w=800&q=80", "alt": "Luxury suite with savanna views", "type": "room" }
+  ],
+  "tripadvisor_rating": 9.7,
+  "tripadvisor_award": true,
+  "couples_review_pct": 75,
+  "content": {
+    "verdict": "Singita Sasakwa is the pinnacle of African safari luxury — a hilltop Edwardian manor floating above the Serengeti with views that stretch to the horizon. For honeymooners who want to combine breathtaking wildlife with world-class luxury, this is one of the finest choices on Earth. The game viewing in the Grumeti Reserves is exceptional (private concession = no crowds), the food is extraordinary, and watching the Great Migration from your infinity pool is genuinely life-changing. The price is steep, but Singita is not just a hotel — it is an experience that will define your honeymoon memory for decades.",
+    "best_room": "Book the Sasakwa Hill Suite for the most spectacular Serengeti views from your private terrace and plunge pool. The Sasakwa Cottage offers similar privacy with a more intimate garden feel. All accommodations at Sasakwa are excellent — the difference is in the view angle and degree of seclusion.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Bush Landing & Sundowners", "description": "Charter flight from Arusha or Kilimanjaro to the Singita airstrip. Afternoon game drive with your private guide. First sundowners in the bush — gin and tonic as the sun sets over the Serengeti." },
+      { "day": 2, "title": "Dawn Drive & Migration", "description": "5:30am departure for the dawn game drive. If timing is right (July–October), witness the Great Migration river crossing. Return to lodge for brunch and a pool afternoon." },
+      { "day": 3, "title": "Walking Safari", "description": "Guided walking safari with an armed ranger — the most intimate way to experience the bush. Afternoon spa treatment at the lodge spa." },
+      { "day": 4, "title": "Hot Air Balloon", "description": "Pre-dawn balloon safari over the Serengeti. Champagne breakfast in the bush after landing. This is the most romantic morning of your honeymoon." },
+      { "day": 5, "title": "Private Picnic Drive", "description": "Game drive with a private bush picnic set up by your guide in a scenic location. Full-day experience, back at lodge for evening cocktails." },
+      { "day": 6, "title": "Village & Conservation", "description": "Singita's community program visit to a local Maasai village. Afternoon conservation briefing with the anti-poaching team. Dinner under the stars." },
+      { "day": 7, "title": "Final Dawn & Departure", "description": "Last 5:30am game drive hoping for lion sightings. Bush breakfast before charter flight back to Arusha for international connection." }
+    ],
+    "honest_caveats": [
+      "The price is all-inclusive but at $2,000–$5,500/night it is one of the most expensive properties in Africa — budget carefully",
+      "The hot air balloon costs an additional $600+ per person and is run by a third-party operator",
+      "Charter flights to the Grumeti airstrip add significant cost (budget $500–$1,000 per person from Arusha)",
+      "The Serengeti is not beach — if you want ocean on your honeymoon, combine with Zanzibar (3–4 nights each)",
+      "Safari schedules require early mornings — 5:30am game drives every day may not suit night-owl couples"
+    ],
+    "hotel_email_template": "Subject: Honeymoon Safari — [Names], [Dates]\n\nDear Singita Grumeti Reservations,\n\nWe will be honeymooning at Singita Sasakwa Lodge from [date] to [date]. This is our dream trip and we would love to make it unforgettable.\n\nWe would like to arrange:\n1. Hot air balloon safari on [preferred date]\n2. Private bush dinner for two — please advise on best location/date\n3. Couples spa treatment booking\n4. Any migration-specific driving recommendations for our dates\n\nWe are experienced travelers but first-time safari guests — please advise on what to bring.\n\nWith excitement,\n[Your Names]",
+    "faqs": [
+      { "question": "Is Singita Sasakwa adults-only?", "answer": "Yes — Singita Sasakwa Lodge and all lodges in the Singita Grumeti Reserves are adults-only (no guests under 16). You are guaranteed a romance-forward, child-free environment throughout your stay." },
+      { "question": "When is the best time for a Serengeti honeymoon safari?", "answer": "July–October for the Great Migration river crossings (the most dramatic wildlife spectacle on Earth). January–February for calving season (newborn wildebeest, predator action). The Serengeti has excellent game year-round, but these windows are extraordinary." },
+      { "question": "Is the food good at Singita?", "answer": "Singita is renowned for its food — it consistently ranks among the best-fed safari experiences in Africa. The wine cellar (Singita owns vineyards in South Africa) is exceptional. Multi-course bush dinners under the stars are a regular feature." },
+      { "question": "How do you get to Singita Grumeti?", "answer": "Charter flight from Arusha (45 min) or Kilimanjaro Airport, or connect from Seronera airstrip. Singita arranges all charter logistics. This is a remote concession — there are no roads in from the gate." },
+      { "question": "What should you pack for a Singita honeymoon safari?", "answer": "Neutral colors (khaki, olive, tan) for game drives — avoid blue, which attracts tsetse flies. Light layers for dawn departures. One smart casual outfit for dinner. Good binoculars. Reef-safe sunscreen. The lodge provides most equipment." },
+      { "question": "Can you combine Singita with a beach honeymoon?", "answer": "Absolutely — the classic Tanzania honeymoon is 4 nights Serengeti + 4 nights Zanzibar. The contrast between bush and beach is perfect. Singita's concierge can help arrange the Zanzibar portion as well." }
+    ],
+    "true_cost_breakdown": [
+      { "item": "7 nights Sasakwa Cottage (all-inclusive)", "cost_usd": "$21,000–$28,000" },
+      { "item": "Charter flights (Arusha ↔ Grumeti, per couple)", "cost_usd": "$1,500" },
+      { "item": "Hot air balloon safari (per couple)", "cost_usd": "$1,200" },
+      { "item": "Private bush dinner extras", "cost_usd": "$300" },
+      { "item": "Total (estimated)", "cost_usd": "$24,000–$31,000" }
+    ]
+  },
+  "last_updated": "2026-04-17T00:00:00.000Z"
+}

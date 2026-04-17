@@ -1,0 +1,58 @@
+{
+  "slug": "four-seasons-bora-bora",
+  "name": "Four Seasons Resort Bora Bora",
+  "destination": "bora-bora",
+  "country": "french-polynesia",
+  "experience_types": ["overwater-bungalows", "luxury"],
+  "honeymoon_score": 96,
+  "score_breakdown": { "adults_only": 0, "couples_pct": 20, "spa": 15, "award": 15, "pool": 10, "beach": 10, "room_service": 5, "stars": 10, "luxury": 5 },
+  "stars": 5,
+  "price_per_night_usd": { "min": 1800, "max": 4200 },
+  "adults_only": false,
+  "amenities": ["spa", "overwater villas", "beach", "pool", "room service", "butler service", "snorkeling", "lagoon"],
+  "photos": [
+    { "url": "https://images.unsplash.com/photo-1501595091296-3aa970afb3ff?w=1200&q=80", "alt": "Four Seasons Bora Bora overwater bungalow", "type": "hero" },
+    { "url": "https://images.unsplash.com/photo-1439130490301-25e322d45abb?w=800&q=80", "alt": "Lagoon view from villa deck", "type": "room" }
+  ],
+  "tripadvisor_rating": 9.6,
+  "tripadvisor_award": true,
+  "couples_review_pct": 82,
+  "content": {
+    "verdict": "The Four Seasons Bora Bora is the gold standard for overwater bungalow honeymoons. Perched above the most impossibly turquoise lagoon on Earth, with Mount Otemanu as your backdrop, this resort delivers a honeymoon experience that genuinely lives up to the hype. The overwater bungalows with private plunge pools are among the most romantic accommodations in the world. Worth it without reservation if you can afford it — the service, the setting, and the food all deliver at the price point. Skip it only if you want a more intimate boutique experience with fewer fellow travelers.",
+    "best_room": "Book the Overwater Bungalow with Pool (OWP) for the definitive Bora Bora experience. The private plunge pool over the lagoon and the glass floor panel letting you watch fish below are worth every dollar of the premium. Request a unit with the best Mount Otemanu view when booking.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival & Lagoon Welcome", "description": "Arrive by seaplane transfer from Papeete. Private check-in with welcome champagne. Spend the afternoon on your deck watching the lagoon change colors." },
+      { "day": 2, "title": "Morning Snorkel & Spa", "description": "Early morning guided snorkel in the coral garden before other guests are up. Afternoon couples massage at the Spa at Four Seasons." },
+      { "day": 3, "title": "Island Excursion", "description": "Take the hotel's outrigger canoe to explore nearby motu islands. Romantic beach picnic arranged by the concierge." },
+      { "day": 4, "title": "Jet Ski & Sunset Sail", "description": "Morning jet ski around the lagoon. Private sunset sailing tour with Champagne and canapés." },
+      { "day": 5, "title": "Overwater Breakfast & Dive", "description": "In-villa breakfast on your deck. Afternoon PADI discover scuba dive with the resort's marine biologist." },
+      { "day": 6, "title": "Cultural Immersion", "description": "Polynesian cultural workshop on traditional weaving and tattoo history. Evening at Fare Hoa bar watching the dance show." },
+      { "day": 7, "title": "Last Sunrise & Departure", "description": "Wake at 5:30 for the most spectacular sunrise over Mount Otemanu. Final villa breakfast before seaplane transfer." }
+    ],
+    "honest_caveats": [
+      "This is not a small, intimate resort — there are 100 bungalows and you will share the lagoon with other guests",
+      "The seaplane transfer adds ~$500 per couple round-trip on top of room rates",
+      "Dining on-property is excellent but extremely expensive — budget $400+ per couple per day for food and drinks",
+      "The best bungalows face Mount Otemanu — specifically request this at booking, not at check-in",
+      "Peak season (July–August) brings more families — consider April–June or September–October for maximum romance"
+    ],
+    "hotel_email_template": "Subject: Honeymoon Special Request — [Your Names], [Arrival Date]\n\nDear Four Seasons Bora Bora Concierge,\n\nWe will be staying at your property from [dates] for our honeymoon. We would be grateful for:\n\n1. A bungalow with Mount Otemanu view (OWP category)\n2. Rose petals and sparkling wine in the villa on arrival\n3. Reservation at Fare Beach at sunset on [preferred date]\n4. Couples massage booking for [date]\n\nWe are celebrating [years together] years together and this is our dream trip. Any additional touches would be deeply appreciated.\n\nWarm regards,\n[Your Names]",
+    "faqs": [
+      { "question": "Is the Four Seasons Bora Bora worth the price for a honeymoon?", "answer": "Yes, if overwater villas are on your honeymoon must-have list. The experience justifies the premium — the lagoon, service, and setting are genuinely world-class. Budget $1,800–$2,500/night for a plunge pool bungalow plus $400+/day for dining." },
+      { "question": "What is the best time to visit Bora Bora for a honeymoon?", "answer": "April–June and September–October offer the best balance of good weather, fewer crowds, and slightly lower rates than peak July–August. The dry season (May–October) is generally preferred." },
+      { "question": "How do you get to Four Seasons Bora Bora?", "answer": "Fly to Papeete (PPT) in Tahiti, then take a 45-minute flight to Bora Bora Airport (BOB), then a boat transfer to the resort. The hotel can arrange all transfers. Many guests splurge on the seaplane for the arrival experience." },
+      { "question": "Are there good restaurants at Four Seasons Bora Bora?", "answer": "Yes — Fare Hoa is the main all-day restaurant with excellent fresh seafood. Sunset cocktails at Motu Bar (on a private islet) are unmissable. Budget $150–$250 per person per meal for dinner." },
+      { "question": "Is the spa good at Four Seasons Bora Bora?", "answer": "The spa is excellent, with overwater treatment rooms and a menu focused on Polynesian traditional techniques. Book the couples' massage in an overwater bungalow suite — it is one of the most memorable experiences on the property." },
+      { "question": "What should you pack for a Four Seasons Bora Bora honeymoon?", "answer": "Reef-safe sunscreen (required), rash guard for snorkeling, one nice dinner outfit, waterproof phone case, and insect repellent for evenings. Leave the formal wear at home — Polynesian resort casual is the dress code." }
+    ],
+    "true_cost_breakdown": [
+      { "item": "7 nights Overwater Bungalow with Pool", "cost_usd": "$12,600–$17,500" },
+      { "item": "Seaplane transfer (round-trip, per couple)", "cost_usd": "$500" },
+      { "item": "Dining (7 days × $400/day)", "cost_usd": "$2,800" },
+      { "item": "Couples spa treatments (2×)", "cost_usd": "$600" },
+      { "item": "Excursions (snorkel, sunset sail, jet ski)", "cost_usd": "$800" },
+      { "item": "Total (estimated)", "cost_usd": "$17,300–$22,200" }
+    ]
+  },
+  "last_updated": "2026-04-17T00:00:00.000Z"
+}

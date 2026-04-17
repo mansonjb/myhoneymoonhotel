@@ -61,6 +61,7 @@ export interface Hotel {
   photos: HotelPhoto[]
   booking_url?: string
   tripadvisor_rating?: number
+  tripadvisor_award?: boolean
   couples_review_pct?: number
   content: HotelContent
   last_updated: string

@@ -1,0 +1,59 @@
+{
+  "slug": "jade-mountain-st-lucia",
+  "name": "Jade Mountain Resort",
+  "destination": "st-lucia",
+  "country": "saint-lucia",
+  "experience_types": ["luxury", "adults-only"],
+  "honeymoon_score": 94,
+  "score_breakdown": { "adults_only": 25, "couples_pct": 20, "spa": 15, "award": 15, "pool": 10, "beach": 0, "room_service": 5, "stars": 10, "luxury": 5 },
+  "stars": 5,
+  "price_per_night_usd": { "min": 1200, "max": 3500 },
+  "adults_only": true,
+  "amenities": ["spa", "private pool", "infinity pool", "adults-only", "room service", "butler service", "yoga"],
+  "photos": [
+    { "url": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=1200&q=80", "alt": "Jade Mountain sky sanctuary with Piton views", "type": "hero" },
+    { "url": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=800&q=80", "alt": "Private infinity pool in the sanctuary", "type": "room" }
+  ],
+  "tripadvisor_rating": 9.4,
+  "tripadvisor_award": true,
+  "couples_review_pct": 91,
+  "content": {
+    "verdict": "Jade Mountain is, quite simply, one of the most architecturally dramatic honeymoon hotels on Earth. Every room — called a 'sanctuary' — is missing its fourth wall, opening completely to a private infinity pool and a direct view of the Piton Mountains rising from the Caribbean. This is adults-only, honeymoon-forward, and utterly committed to creating a once-in-a-lifetime experience. Worth it if you want something unlike anything else in the Caribbean. The Piton views from your own pool, at sunrise, with your partner, are the stuff of honeymoon legend.",
+    "best_room": "Book a Celestial or Galaxy sanctuary for the highest position on the hillside and the most dramatic Piton views. The rooms literally have no fourth wall — the entire side of your suite opens to your private infinity pool and the sky. The difference in price between tiers is significant; Celestial is worth the jump.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival & First Sunset from Your Pool", "description": "Check in, pour a rum punch, and float in your private infinity pool as the sun sets behind the Pitons. Order room service and don't leave until you must." },
+      { "day": 2, "title": "Morning Yoga & Anse Chastanet Beach", "description": "Sunrise yoga on the yoga platform. Afternoon at sister property Anse Chastanet's beach — free shuttle, excellent snorkeling just 20m offshore." },
+      { "day": 3, "title": "Piton Hike", "description": "Guided sunrise hike up Gros Piton (2.5 hours, stunning views). Afternoon recovery massage at Kai Mer Spa." },
+      { "day": 4, "title": "Sailing & Snorkel Day", "description": "Day sail charter around the southern coast, stopping at Anse Cochon for snorkeling. Arrive back to a private candlelit dinner on your terrace." },
+      { "day": 5, "title": "Chocolate & Rum Tour", "description": "Rabot Estate chocolate farm tour (owned by Hotel Chocolat, nearby). Evening rum tasting at the bar." },
+      { "day": 6, "title": "Pool Day & Jade Cuisine", "description": "Full day in your sanctuary. Book the Jade Cuisine experience — private cooking class and 5-course dinner in your room, cooked by your personal chef." },
+      { "day": 7, "title": "Final Morning Swim & Departure", "description": "Last sunrise swim in your infinity pool. Late checkout if possible. The view never gets old." }
+    ],
+    "honest_caveats": [
+      "The beach is not great — you need to take the shuttle to Anse Chastanet for a real beach experience",
+      "The hillside location means lots of stairs — not ideal if mobility is a concern",
+      "This is truly remote — nightlife and dining out requires effort; you're here for the property",
+      "Rooms have no air conditioning (deliberately — the open wall creates natural airflow), which surprises some guests",
+      "The property has a 'no Wi-Fi in sanctuaries' policy — some love this, some don't"
+    ],
+    "hotel_email_template": "Subject: Honeymoon Request — [Your Names], Arrival [Date]\n\nDear Jade Mountain Reservations Team,\n\nMy partner and I are arriving [date] for our honeymoon and will be staying [X] nights in a [sanctuary category].\n\nWe would love:\n1. Champagne and flowers on arrival if possible\n2. To book the Jade Cuisine private dining experience on [preferred date]\n3. Sunrise yoga reservation for [date]\n4. Any recommendations for private beach picnic arrangements\n\nThis is our dream honeymoon — we cannot wait to see those Piton views.\n\nWith gratitude,\n[Your Names]",
+    "faqs": [
+      { "question": "What makes Jade Mountain different from other luxury resorts?", "answer": "Every sanctuary has no fourth wall — your room literally opens to your private infinity pool and an unobstructed Piton view. There is no glass, no window, just open air. It is one of the most architecturally unique honeymoon experiences in the world." },
+      { "question": "Is Jade Mountain adults-only?", "answer": "Yes. The resort does not accept guests under 16, and in practice it's essentially 100% couples. This is one of the most honeymoon-forward resorts in the Caribbean." },
+      { "question": "Is there air conditioning at Jade Mountain?", "answer": "No — and deliberately so. The open-wall design creates natural ventilation. Ceiling fans are provided. St. Lucia's trade winds keep the sanctuaries comfortable most of the year, but if you need cold AC, this may not be your property." },
+      { "question": "What is the best time to visit St. Lucia for a honeymoon?", "answer": "December–April is peak dry season with the best weather. May and June offer lower rates and fewer crowds before hurricane season. Avoid August–October (peak hurricane risk)." },
+      { "question": "How far is Jade Mountain from the airport?", "answer": "About 1.5–2 hours from Hewanorra International Airport (UVF) by road. The resort provides private transfers. Helicopter transfers are also available and deeply romantic." },
+      { "question": "Can you see the Pitons from every room?", "answer": "Yes — every sanctuary at Jade Mountain is specifically oriented to face the Pitons. Higher-tier sanctuaries (Celestial, Galaxy) have higher positions on the hill and more dramatic angles." }
+    ],
+    "true_cost_breakdown": [
+      { "item": "7 nights Celestial Sanctuary", "cost_usd": "$11,200–$14,000" },
+      { "item": "Private airport transfers (round-trip)", "cost_usd": "$250" },
+      { "item": "Dining (7 days — half board available)", "cost_usd": "$1,400" },
+      { "item": "Jade Cuisine private dinner", "cost_usd": "$500" },
+      { "item": "Piton hike + guided excursions", "cost_usd": "$300" },
+      { "item": "Couples spa treatments", "cost_usd": "$400" },
+      { "item": "Total (estimated)", "cost_usd": "$14,050–$16,850" }
+    ]
+  },
+  "last_updated": "2026-04-17T00:00:00.000Z"
+}
