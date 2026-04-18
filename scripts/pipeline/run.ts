@@ -1,5 +1,10 @@
-import * as fs from 'fs'
+import * as dotenv from 'dotenv'
 import * as path from 'path'
+// Load .env.local from project root before anything else
+dotenv.config({ path: path.join(process.cwd(), '.env.local') })
+dotenv.config({ path: path.join(process.cwd(), '.env') })
+
+import * as fs from 'fs'
 import { collectHotelsForDestination, RawHotel } from './collect'
 import { calculateHoneymoonScore, meetsQualityGate } from './score'
 import { generateHotelContent } from './generate'

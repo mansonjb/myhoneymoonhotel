@@ -19,15 +19,36 @@ interface RawHotelData {
 }
 
 export function calculateHoneymoonScore(hotel: RawHotelData): HoneymoonScore {
+  const nameLower = hotel.name?.toLowerCase() ?? ''
+  const expTypes = hotel.experience_types ?? []
+
+  // Infer spa from experience types or name
+  const hasSpa = hotel.amenities?.some(a => a.toLowerCase().includes('spa')) ||
+    nameLower.includes('spa') || nameLower.includes('wellness')
+
+  // Infer pool from experience types, amenities, or name
+  const hasPool = hotel.amenities?.some(a => a.toLowerCase().includes('pool')) ||
+    expTypes.includes('overwater-bungalows') // overwater villas always have lagoon/pool access
+
+  // Infer beach from amenities, experience types, or destinations known for beach
+  const hasBeach = hotel.amenities?.some(a =>
+    a.toLowerCase().includes('beach') || a.toLowerCase().includes('beachfront')
+  ) || expTypes.includes('beach')
+
+  // couples_pct: lower threshold for boutique/romantic hotels (40% is sufficient signal)
+  const couplePct = hotel.couples_review_pct ?? 0
+  const coupleScore = couplePct > 60 ? 20 : couplePct > 40 ? 10 : 0
+
+  // award: also grant if rating ≥ 4.3 (boutique hotels have fewer reviews but are still excellent)
+  const hasAward = hotel.tripadvisor_award || (hotel.tripadvisor_rating ?? 0) >= 4.4
+
   const breakdown = {
     adults_only: hotel.adults_only ? 25 : 0,
-    couples_pct: (hotel.couples_review_pct ?? 0) > 60 ? 20 : 0,
-    spa: hotel.amenities?.some(a => a.toLowerCase().includes('spa')) ? 15 : 0,
-    award: hotel.tripadvisor_award ? 15 : 0,
-    pool: hotel.amenities?.some(a => a.toLowerCase().includes('pool')) ? 10 : 0,
-    beach: hotel.amenities?.some(a =>
-      a.toLowerCase().includes('beach') || a.toLowerCase().includes('beachfront')
-    ) ? 10 : 0,
+    couples_pct: coupleScore,
+    spa: hasSpa ? 15 : 0,
+    award: hasAward ? 15 : 0,
+    pool: hasPool ? 10 : 0,
+    beach: hasBeach ? 10 : 0,
     room_service: hotel.amenities?.some(a => a.toLowerCase().includes('room service')) ? 5 : 0,
     stars: (hotel.stars ?? 0) >= 4 ? 10 : 0,
     luxury: hotel.price_tier === 'luxury' || hotel.price_tier === 'ultra-luxury' ? 5 : 0,
