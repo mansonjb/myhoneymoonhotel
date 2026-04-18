@@ -65,7 +65,7 @@ export default function HomePage() {
         <div className="relative z-10 px-8 sm:px-12 pb-14 sm:pb-20 max-w-3xl">
           <p className="text-white/60 text-xs tracking-[0.2em] uppercase mb-5">Honeymoon Hotel Guide</p>
           <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl text-white leading-[1.05] mb-6">
-            Is this hotel worth it<br />for your honeymoon?
+            Hotels as unforgettable<br />as your love story.
           </h1>
           <p className="text-white/70 text-base sm:text-lg max-w-md mb-10 leading-relaxed">
             Every property scored for romance. Real verdicts, room picks, 7-night itineraries, and the exact email to send before arrival.
