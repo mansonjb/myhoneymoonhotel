@@ -24,6 +24,7 @@ async function run() {
   console.log('Step 1/3: Collecting hotels...')
   const rawHotels = await collectHotelsForDestination(destination, limit)
   console.log(`  Found ${rawHotels.length} hotels\n`)
+  console.log(`  📸 Images will be downloaded and compressed to public/images/hotels/\n`)
 
   if (rawHotels.length === 0) {
     console.log('❌ No hotels found. Check TravelMyth connectivity or use seed data.')

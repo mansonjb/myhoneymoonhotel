@@ -45,3 +45,6 @@ data/cache/
 
 # local env
 .env.local
+
+# Downloaded hotel images (large files - regenerate with npm run migrate:images)
+public/images/hotels/

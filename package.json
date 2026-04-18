@@ -7,8 +7,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+    "migrate:images": "ts-node --project scripts/tsconfig.json scripts/pipeline/migrate-images.ts",
     "pipeline": "ts-node --project scripts/tsconfig.json scripts/pipeline/run.ts",
-    "pipeline:maldives": "ts-node --project scripts/tsconfig.json scripts/pipeline/run.ts --destination maldives --limit 5",
+    "pipeline:maldives": "ts-node --project scripts/tsconfig.json scripts/pipeline/run.ts --destination=maldives --limit=10",
+    "pipeline:bora-bora": "ts-node --project scripts/tsconfig.json scripts/pipeline/run.ts --destination=bora-bora --limit=10",
+    "pipeline:st-lucia": "ts-node --project scripts/tsconfig.json scripts/pipeline/run.ts --destination=st-lucia --limit=10",
     "pipeline:bali": "ts-node --project scripts/tsconfig.json scripts/pipeline/run.ts --destination bali --limit 5"
   },
   "dependencies": {
@@ -16,7 +19,8 @@
     "cheerio": "^1.2.0",
     "next": "16.2.4",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "sharp": "^0.34.5"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

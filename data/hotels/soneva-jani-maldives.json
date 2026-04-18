@@ -3,16 +3,51 @@
   "name": "Soneva Jani",
   "destination": "maldives",
   "country": "maldives",
-  "experience_types": ["overwater-bungalows", "luxury", "adults-only"],
+  "experience_types": [
+    "overwater-bungalows",
+    "luxury",
+    "adults-only"
+  ],
   "honeymoon_score": 97,
-  "score_breakdown": { "adults_only": 25, "couples_pct": 20, "spa": 15, "award": 15, "pool": 10, "beach": 10, "room_service": 5, "stars": 10, "luxury": 5 },
+  "score_breakdown": {
+    "adults_only": 25,
+    "couples_pct": 20,
+    "spa": 15,
+    "award": 15,
+    "pool": 10,
+    "beach": 10,
+    "room_service": 5,
+    "stars": 10,
+    "luxury": 5
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 2500, "max": 8000 },
+  "price_per_night_usd": {
+    "min": 2500,
+    "max": 8000
+  },
   "adults_only": true,
-  "amenities": ["spa", "overwater villas", "beach", "pool", "adults-only", "room service", "butler service", "observatory", "open-air cinema"],
+  "amenities": [
+    "spa",
+    "overwater villas",
+    "beach",
+    "pool",
+    "adults-only",
+    "room service",
+    "butler service",
+    "observatory",
+    "open-air cinema"
+  ],
   "photos": [
-    { "url": "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?w=1200&q=80", "alt": "Soneva Jani overwater villa with retractable roof", "type": "hero" },
-    { "url": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&q=80", "alt": "Master bedroom with ocean floor beneath", "type": "room" }
+    {
+      "url": "/images/hotels/soneva-jani-maldives/hero.webp",
+      "alt": "Soneva Jani overwater villa with retractable roof",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/soneva-jani-maldives/room.webp",
+      "alt": "Master bedroom with ocean floor beneath",
+      "type": "room"
+    }
   ],
   "tripadvisor_rating": 9.8,
   "tripadvisor_award": true,
@@ -21,13 +56,41 @@
     "verdict": "Soneva Jani earns its reputation as the highest-scoring honeymoon hotel in the Maldives through one signature feature alone: overwater villas with retractable roofs that open to reveal the night sky above your bed. Lying in your king bed, watching the Milky Way from under your open roof, with the Indian Ocean moving beneath the glass floor — there is no more romantic hotel experience on Earth. Add a private pool, butler service, the world's best adults-only atmosphere, and an open-air cinema in the lagoon, and Soneva Jani is the definitive answer to 'what is the best honeymoon hotel in the Maldives?'",
     "best_room": "Book a 1-Bedroom Water Retreat with Pool — it has the retractable roof, private pool, glass floor bathroom, and direct lagoon access. The 2-bedroom option is unnecessary for couples. Request a villa facing east for the best sunrise views from your pool. The retractable roof feature works best in the 1BW category.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Seaplane Arrival & First Night Under the Stars", "description": "Arrive by seaplane to the Noonu Atoll. Private check-in in your villa. Open your roof at sunset and watch the stars appear as you float in your pool." },
-      { "day": 2, "title": "Marine Biology & Dolphin Cruise", "description": "Morning session with Soneva's resident Marine Biologist to learn about the reef. Afternoon dolphin cruise at sunset — pods of spinner dolphins are almost guaranteed." },
-      { "day": 3, "title": "Cinema Paradiso", "description": "Morning snorkel on the house reef. Evening at the open-air water cinema — floating in the lagoon watching a film is one of the most unique date experiences available anywhere." },
-      { "day": 4, "title": "Detox & Spa Day", "description": "Morning yoga and meditation session. Full day at the Soneva Soul spa — the Maldivian coconut scrub followed by a couples massage in an overwater treatment room is the best spa experience in the archipelago." },
-      { "day": 5, "title": "Private Sandbank Picnic", "description": "Your butler arranges a private seaplane transfer to a deserted sandbank. Champagne, fresh-caught seafood, and nothing but ocean in every direction." },
-      { "day": 6, "title": "Night Dive & Stargazing", "description": "Afternoon PADI dive briefing, evening night dive on the reef with bioluminescent plankton. Return for a nightcap under your open roof, using the villa's telescope." },
-      { "day": 7, "title": "Final Sunrise Pool & Departure", "description": "5:30am: open the roof. Watch the sunrise from your pool. Order villa breakfast. Seaplane transfer to Malé for onward connection." }
+      {
+        "day": 1,
+        "title": "Seaplane Arrival & First Night Under the Stars",
+        "description": "Arrive by seaplane to the Noonu Atoll. Private check-in in your villa. Open your roof at sunset and watch the stars appear as you float in your pool."
+      },
+      {
+        "day": 2,
+        "title": "Marine Biology & Dolphin Cruise",
+        "description": "Morning session with Soneva's resident Marine Biologist to learn about the reef. Afternoon dolphin cruise at sunset — pods of spinner dolphins are almost guaranteed."
+      },
+      {
+        "day": 3,
+        "title": "Cinema Paradiso",
+        "description": "Morning snorkel on the house reef. Evening at the open-air water cinema — floating in the lagoon watching a film is one of the most unique date experiences available anywhere."
+      },
+      {
+        "day": 4,
+        "title": "Detox & Spa Day",
+        "description": "Morning yoga and meditation session. Full day at the Soneva Soul spa — the Maldivian coconut scrub followed by a couples massage in an overwater treatment room is the best spa experience in the archipelago."
+      },
+      {
+        "day": 5,
+        "title": "Private Sandbank Picnic",
+        "description": "Your butler arranges a private seaplane transfer to a deserted sandbank. Champagne, fresh-caught seafood, and nothing but ocean in every direction."
+      },
+      {
+        "day": 6,
+        "title": "Night Dive & Stargazing",
+        "description": "Afternoon PADI dive briefing, evening night dive on the reef with bioluminescent plankton. Return for a nightcap under your open roof, using the villa's telescope."
+      },
+      {
+        "day": 7,
+        "title": "Final Sunrise Pool & Departure",
+        "description": "5:30am: open the roof. Watch the sunrise from your pool. Order villa breakfast. Seaplane transfer to Malé for onward connection."
+      }
     ],
     "honest_caveats": [
       "Soneva Jani is among the most expensive resorts in the world — $2,500–$8,000/night before food and activities",
@@ -38,21 +101,60 @@
     ],
     "hotel_email_template": "Subject: Honeymoon Arrangements — [Names], [Dates]\n\nDear Soneva Jani Reservations Team,\n\nWe are arriving [date] via seaplane for our honeymoon and staying until [date] in a 1 Bedroom Water Retreat with Pool.\n\nWe would like to request:\n1. Villa facing east for sunrise views, if available\n2. Champagne and tropical flowers on arrival\n3. Private sandbank picnic on [preferred date] — we are celebrating [occasion]\n4. Couples spa booking at Soneva Soul for [date]\n5. Cinema Paradiso reservation on [date]\n\nThis is our honeymoon and we have been dreaming of Soneva Jani for years. We cannot wait.\n\nWith deep excitement,\n[Your Names]",
     "faqs": [
-      { "question": "What makes Soneva Jani special for honeymooners?", "answer": "The retractable roof. Every 1-bedroom Water Retreat has a roof that opens completely above your bed, turning your room into an open-air observatory. Waking up under the Milky Way in the Maldives, with your partner, is the single most romantic thing you can do at any hotel anywhere in the world." },
-      { "question": "Is Soneva Jani adults-only?", "answer": "Yes — Soneva Jani is strictly adults-only (no guests under 18). The atmosphere is calm, intimate, and entirely oriented toward romance and relaxation." },
-      { "question": "How do you get to Soneva Jani?", "answer": "Fly to Malé (MLE), then take a 30-minute seaplane to the Noonu Atoll. Soneva operates its own seaplane fleet (Soneva in the Sky). The seaplane schedule is fixed — plan your international connection accordingly." },
-      { "question": "Is food included at Soneva Jani?", "answer": "No — food and beverage are extra. The restaurants are excellent (the resort grows much of its own produce), but dining costs add $400–$700 per couple per day. Some packages include meals; ask about the Soneva All-Inclusive option." },
-      { "question": "What is the open-air cinema at Soneva Jani?", "answer": "Cinema Paradiso is a floating movie screen in the lagoon, with guests watching from floating deckchairs or a pontoon. It operates most evenings. It is completely unique — there is no other cinema like it in the Maldives." },
-      { "question": "When is the best time to visit Soneva Jani?", "answer": "November–April is the dry season with the best weather and visibility for diving/snorkeling. January–March is peak season. May–October brings some rain but also lower rates and lush green vegetation — still very beautiful." }
+      {
+        "question": "What makes Soneva Jani special for honeymooners?",
+        "answer": "The retractable roof. Every 1-bedroom Water Retreat has a roof that opens completely above your bed, turning your room into an open-air observatory. Waking up under the Milky Way in the Maldives, with your partner, is the single most romantic thing you can do at any hotel anywhere in the world."
+      },
+      {
+        "question": "Is Soneva Jani adults-only?",
+        "answer": "Yes — Soneva Jani is strictly adults-only (no guests under 18). The atmosphere is calm, intimate, and entirely oriented toward romance and relaxation."
+      },
+      {
+        "question": "How do you get to Soneva Jani?",
+        "answer": "Fly to Malé (MLE), then take a 30-minute seaplane to the Noonu Atoll. Soneva operates its own seaplane fleet (Soneva in the Sky). The seaplane schedule is fixed — plan your international connection accordingly."
+      },
+      {
+        "question": "Is food included at Soneva Jani?",
+        "answer": "No — food and beverage are extra. The restaurants are excellent (the resort grows much of its own produce), but dining costs add $400–$700 per couple per day. Some packages include meals; ask about the Soneva All-Inclusive option."
+      },
+      {
+        "question": "What is the open-air cinema at Soneva Jani?",
+        "answer": "Cinema Paradiso is a floating movie screen in the lagoon, with guests watching from floating deckchairs or a pontoon. It operates most evenings. It is completely unique — there is no other cinema like it in the Maldives."
+      },
+      {
+        "question": "When is the best time to visit Soneva Jani?",
+        "answer": "November–April is the dry season with the best weather and visibility for diving/snorkeling. January–March is peak season. May–October brings some rain but also lower rates and lush green vegetation — still very beautiful."
+      }
     ],
     "true_cost_breakdown": [
-      { "item": "7 nights 1 Bedroom Water Retreat with Pool", "cost_usd": "$17,500–$45,000" },
-      { "item": "Dining + drinks (7 days × $600/day)", "cost_usd": "$4,200" },
-      { "item": "Seaplane transfer (round-trip, per couple)", "cost_usd": "$800" },
-      { "item": "Sandbank private picnic", "cost_usd": "$500" },
-      { "item": "Spa treatments (couples)", "cost_usd": "$700" },
-      { "item": "Dive courses + night dive", "cost_usd": "$400" },
-      { "item": "Total (estimated)", "cost_usd": "$24,100–$51,600" }
+      {
+        "item": "7 nights 1 Bedroom Water Retreat with Pool",
+        "cost_usd": "$17,500–$45,000"
+      },
+      {
+        "item": "Dining + drinks (7 days × $600/day)",
+        "cost_usd": "$4,200"
+      },
+      {
+        "item": "Seaplane transfer (round-trip, per couple)",
+        "cost_usd": "$800"
+      },
+      {
+        "item": "Sandbank private picnic",
+        "cost_usd": "$500"
+      },
+      {
+        "item": "Spa treatments (couples)",
+        "cost_usd": "$700"
+      },
+      {
+        "item": "Dive courses + night dive",
+        "cost_usd": "$400"
+      },
+      {
+        "item": "Total (estimated)",
+        "cost_usd": "$24,100–$51,600"
+      }
     ]
   },
   "last_updated": "2026-04-17T00:00:00.000Z"

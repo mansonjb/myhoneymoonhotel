@@ -148,11 +148,15 @@ async function enrichWithSerpApi(hotel: RawHotel, destination: string): Promise<
 
   if (result.amenities) hotel.amenities = result.amenities
   if (result.images) {
-    hotel.photos = result.images.slice(0, 5).map((img, i) => ({
+    const rawPhotos = result.images.slice(0, 5).map((img, i) => ({
       url: img.original_image || img.image || '',
       alt: `${hotel.name} - ${['room', 'view', 'spa', 'dining', 'pool'][i] || 'hotel'}`,
-      type: (['hero', 'room', 'spa', 'dining', 'activity'] as const)[i] || 'hero'
+      type: (['hero', 'room', 'spa', 'dining', 'activity'] as const)[i] as 'hero' | 'room' | 'spa' | 'dining' | 'activity'
     }))
+    // Download & compress to local WebP
+    const { downloadAndCompressPhotos } = await import('./download-images')
+    const processed = await downloadAndCompressPhotos(hotel.slug, rawPhotos)
+    hotel.photos = processed
   }
   if (result.overall_rating) hotel.tripadvisor_rating = result.overall_rating
   if (result.rate_per_night) {

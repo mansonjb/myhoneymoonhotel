@@ -3,16 +3,48 @@
   "name": "Amanyara",
   "destination": "turks-and-caicos",
   "country": "turks-and-caicos",
-  "experience_types": ["luxury", "adults-only"],
+  "experience_types": [
+    "luxury",
+    "adults-only"
+  ],
   "honeymoon_score": 91,
-  "score_breakdown": { "adults_only": 25, "couples_pct": 20, "spa": 15, "award": 15, "pool": 10, "beach": 10, "room_service": 5, "stars": 10, "luxury": 5 },
+  "score_breakdown": {
+    "adults_only": 25,
+    "couples_pct": 20,
+    "spa": 15,
+    "award": 15,
+    "pool": 10,
+    "beach": 10,
+    "room_service": 5,
+    "stars": 10,
+    "luxury": 5
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 1500, "max": 5000 },
+  "price_per_night_usd": {
+    "min": 1500,
+    "max": 5000
+  },
   "adults_only": true,
-  "amenities": ["spa", "beach", "pool", "adults-only", "room service", "diving", "butler service"],
+  "amenities": [
+    "spa",
+    "beach",
+    "pool",
+    "adults-only",
+    "room service",
+    "diving",
+    "butler service"
+  ],
   "photos": [
-    { "url": "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=1200&q=80", "alt": "Amanyara beach pavilion at sunset", "type": "hero" },
-    { "url": "https://images.unsplash.com/photo-1540541338287-41700207dee6?w=800&q=80", "alt": "Private villa pool", "type": "room" }
+    {
+      "url": "/images/hotels/amanyara-turks-caicos/hero.webp",
+      "alt": "Amanyara beach pavilion at sunset",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/amanyara-turks-caicos/room.webp",
+      "alt": "Private villa pool",
+      "type": "room"
+    }
   ],
   "tripadvisor_rating": 9.5,
   "tripadvisor_award": true,
@@ -21,13 +53,41 @@
     "verdict": "Amanyara sits on one of the most beautiful beaches in the world — Grace Bay's quieter western cousin — and does everything the Aman way: minimal, meditative, and quietly perfect. This is not a resort that impresses through scale or amenity lists; it impresses through the quality of silence and the depth of stillness. For honeymooners who want to genuinely disconnect, Amanyara may be the finest beach resort in the Caribbean. The diving here is world-class (the best in Turks & Caicos), the food is exceptional, and the adults-only atmosphere keeps the energy calm and romantic throughout.",
     "best_room": "Book a 1-bedroom Villa for the most private experience — your own pool, bedroom, and living pavilion set among the native landscaping. The Beach Pavilion rooms are excellent but share the pool. If budget allows, the 4-bedroom Family Villa (used by couples as their private estate) is the ultimate Amanyara experience.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Quiet Arrival", "description": "Private transfer from Providenciales Airport. Arrive at your villa as the sun moves toward the horizon. The check-in ritual at Amanyara involves no paperwork — just a cold towel and a tour of your pavilion." },
-      { "day": 2, "title": "Morning Snorkel & Spa", "description": "Guided reef snorkel at sunrise before breakfast. Afternoon Aman Nourish couples treatment at the spa." },
-      { "day": 3, "title": "Dive Discovery", "description": "PADI Discover Scuba or guided dive on the reef wall. Amanyara's house reef is consistently rated one of the best in the Caribbean." },
-      { "day": 4, "title": "Island Day", "description": "Take the hotel's boat to a deserted sandbar for a private picnic arranged by the concierge. Just the two of you and the turquoise water." },
-      { "day": 5, "title": "Kayak & Sunset Cocktails", "description": "Morning kayaking through the mangroves. Evening at the bar watching the famous Turks & Caicos sunset." },
-      { "day": 6, "title": "Full Villa Day", "description": "Order breakfast to your villa. Float in your pool. Read. Order lunch. Float again. This is the Aman way." },
-      { "day": 7, "title": "Sunrise Walk & Departure", "description": "Final sunrise beach walk along the quiet west coast. Late checkout. The silence of Amanyara stays with you for weeks." }
+      {
+        "day": 1,
+        "title": "Quiet Arrival",
+        "description": "Private transfer from Providenciales Airport. Arrive at your villa as the sun moves toward the horizon. The check-in ritual at Amanyara involves no paperwork — just a cold towel and a tour of your pavilion."
+      },
+      {
+        "day": 2,
+        "title": "Morning Snorkel & Spa",
+        "description": "Guided reef snorkel at sunrise before breakfast. Afternoon Aman Nourish couples treatment at the spa."
+      },
+      {
+        "day": 3,
+        "title": "Dive Discovery",
+        "description": "PADI Discover Scuba or guided dive on the reef wall. Amanyara's house reef is consistently rated one of the best in the Caribbean."
+      },
+      {
+        "day": 4,
+        "title": "Island Day",
+        "description": "Take the hotel's boat to a deserted sandbar for a private picnic arranged by the concierge. Just the two of you and the turquoise water."
+      },
+      {
+        "day": 5,
+        "title": "Kayak & Sunset Cocktails",
+        "description": "Morning kayaking through the mangroves. Evening at the bar watching the famous Turks & Caicos sunset."
+      },
+      {
+        "day": 6,
+        "title": "Full Villa Day",
+        "description": "Order breakfast to your villa. Float in your pool. Read. Order lunch. Float again. This is the Aman way."
+      },
+      {
+        "day": 7,
+        "title": "Sunrise Walk & Departure",
+        "description": "Final sunrise beach walk along the quiet west coast. Late checkout. The silence of Amanyara stays with you for weeks."
+      }
     ],
     "honest_caveats": [
       "Amanyara is extremely expensive — factor in a 'resort fee' style all-inclusive add-on if eating on property daily",
@@ -38,20 +98,56 @@
     ],
     "hotel_email_template": "Subject: Honeymoon Stay — [Names], [Dates]\n\nDear Amanyara Guest Relations,\n\nWe are thrilled to be celebrating our honeymoon at Amanyara from [date] to [date], staying in [room type].\n\nWe would be grateful if you could arrange:\n1. A bottle of Champagne and flowers on arrival\n2. Private sandbar picnic on [preferred date] — please advise on logistics\n3. Couples spa booking for [date]\n4. Guided dive for both of us on [date] — we are both beginners\n\nThank you for making this trip extraordinary.\n\n[Your Names]",
     "faqs": [
-      { "question": "Is Amanyara worth the price for a honeymoon?", "answer": "If you value absolute privacy, natural beauty, and effortless service over amenities and entertainment, yes. Amanyara delivers the most meditative, undisturbed honeymoon experience in the Caribbean. It is expensive, but you are paying for silence as much as luxury." },
-      { "question": "How is the diving at Amanyara?", "answer": "Exceptional. The coral reefs off the west coast of Providenciales are some of the healthiest in the Caribbean, with outstanding visibility (30m+), wall dives, and regular sightings of eagle rays, sharks, and turtles. Amanyara's dive operation is the best on the island." },
-      { "question": "Is Amanyara adults-only?", "answer": "Yes. The resort's tranquil atmosphere is specifically designed for adults (guests under 16 are not accepted), making it one of the most reliably peaceful luxury resorts in the Caribbean." },
-      { "question": "What is the food like at Amanyara?", "answer": "Excellent. The restaurant focuses on fresh local seafood and Asian-influenced dishes. The quality is very high. Expect $200–$300+ per couple for dinner. The more casual beach bar is excellent for lunch." },
-      { "question": "When is the best time to visit Turks and Caicos?", "answer": "December–April is perfect: dry, warm, no hurricanes. May–June is excellent with fewer crowds. Avoid August–October (hurricane season)." },
-      { "question": "How far is Amanyara from the airport?", "answer": "About 20 minutes from Providenciales International Airport (PLS) by private transfer. The resort arranges all transfers." }
+      {
+        "question": "Is Amanyara worth the price for a honeymoon?",
+        "answer": "If you value absolute privacy, natural beauty, and effortless service over amenities and entertainment, yes. Amanyara delivers the most meditative, undisturbed honeymoon experience in the Caribbean. It is expensive, but you are paying for silence as much as luxury."
+      },
+      {
+        "question": "How is the diving at Amanyara?",
+        "answer": "Exceptional. The coral reefs off the west coast of Providenciales are some of the healthiest in the Caribbean, with outstanding visibility (30m+), wall dives, and regular sightings of eagle rays, sharks, and turtles. Amanyara's dive operation is the best on the island."
+      },
+      {
+        "question": "Is Amanyara adults-only?",
+        "answer": "Yes. The resort's tranquil atmosphere is specifically designed for adults (guests under 16 are not accepted), making it one of the most reliably peaceful luxury resorts in the Caribbean."
+      },
+      {
+        "question": "What is the food like at Amanyara?",
+        "answer": "Excellent. The restaurant focuses on fresh local seafood and Asian-influenced dishes. The quality is very high. Expect $200–$300+ per couple for dinner. The more casual beach bar is excellent for lunch."
+      },
+      {
+        "question": "When is the best time to visit Turks and Caicos?",
+        "answer": "December–April is perfect: dry, warm, no hurricanes. May–June is excellent with fewer crowds. Avoid August–October (hurricane season)."
+      },
+      {
+        "question": "How far is Amanyara from the airport?",
+        "answer": "About 20 minutes from Providenciales International Airport (PLS) by private transfer. The resort arranges all transfers."
+      }
     ],
     "true_cost_breakdown": [
-      { "item": "7 nights 1-bedroom Villa", "cost_usd": "$10,500–$21,000" },
-      { "item": "Dining (7 days × $350/day)", "cost_usd": "$2,450" },
-      { "item": "Couples spa treatments", "cost_usd": "$600" },
-      { "item": "Sandbar private picnic", "cost_usd": "$400" },
-      { "item": "Dive courses + guided dives", "cost_usd": "$500" },
-      { "item": "Total (estimated)", "cost_usd": "$14,450–$24,950" }
+      {
+        "item": "7 nights 1-bedroom Villa",
+        "cost_usd": "$10,500–$21,000"
+      },
+      {
+        "item": "Dining (7 days × $350/day)",
+        "cost_usd": "$2,450"
+      },
+      {
+        "item": "Couples spa treatments",
+        "cost_usd": "$600"
+      },
+      {
+        "item": "Sandbar private picnic",
+        "cost_usd": "$400"
+      },
+      {
+        "item": "Dive courses + guided dives",
+        "cost_usd": "$500"
+      },
+      {
+        "item": "Total (estimated)",
+        "cost_usd": "$14,450–$24,950"
+      }
     ]
   },
   "last_updated": "2026-04-17T00:00:00.000Z"
