@@ -57,7 +57,7 @@ const DESTINATION_META: Record<string, {
     }
   },
   'turks-and-caicos': {
-    hero: 'https://images.unsplash.com/photo-1533760881669-80db4d7b341c?w=1920&q=80',
+    hero: 'https://images.unsplash.com/photo-1519046904884-53103b34b206?w=1920&q=80',
     intro: 'Turks & Caicos is home to Grace Bay, consistently ranked the world\'s best beach. Unlike many Caribbean destinations, the reefs here are spectacularly healthy — world-class diving and snorkelling right from the shore. The islands are ultra-luxury focused: fewer budget options, exceptional high-end resorts.',
     bestTime: 'Dec–May',
     flightFrom: '9–10h from London',
