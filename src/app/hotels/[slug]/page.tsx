@@ -8,6 +8,7 @@ import Stay22MapWidget from '@/components/Stay22MapWidget'
 import HotelCard from '@/components/HotelCard'
 import CopyButton from '@/components/CopyButton'
 import StickyBookingBar from '@/components/StickyBookingBar'
+import HeroImage from '@/components/HeroImage'
 
 interface Props { params: Promise<{ slug: string }> }
 
@@ -64,7 +65,7 @@ export default async function HotelPage({ params }: Props) {
         {/* ── HERO ── */}
         <div className="relative h-[75vh] min-h-[500px] overflow-hidden">
           {heroPhoto ? (
-            <Image src={heroPhoto.url} alt={heroPhoto.alt} fill priority className="object-cover" sizes="100vw" />
+            <HeroImage src={heroPhoto.url} alt={heroPhoto.alt} destination={hotel.destination} priority />
           ) : (
             <div className="w-full h-full bg-zinc-100" />
           )}
