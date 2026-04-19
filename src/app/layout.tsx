@@ -49,10 +49,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </nav>
 
             <Link
-              href="/experiences/overwater-bungalows"
-              className="text-[13px] font-medium text-white bg-zinc-900 hover:bg-zinc-700 px-5 py-2 rounded-full transition-colors"
+              href="/quiz"
+              className="text-[13px] font-medium text-white bg-rose-500 hover:bg-rose-600 px-5 py-2 rounded-full transition-colors"
             >
-              Explore Hotels
+              Find My Hotel
             </Link>
           </div>
         </header>

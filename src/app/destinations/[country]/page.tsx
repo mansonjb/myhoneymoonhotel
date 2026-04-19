@@ -37,7 +37,7 @@ const DESTINATION_META: Record<string, {
 }> = {
 
   'bora-bora': {
-    hero: 'https://images.unsplash.com/photo-1592364395653-83e648b20cc2?w=1920&q=80',
+    hero: '/images/hotels/four-seasons-bora-bora/hero.webp',
     tagline: 'The original overwater bungalow destination. Nothing else comes close.',
     intro: 'Bora Bora is the destination that invented the overwater bungalow in 1968 — and after 50+ years, nothing has surpassed it. Mount Otemanu rises 727m from the most turquoise lagoon on earth, ringed by a barrier reef and a string of white-sand motu islands where every luxury resort competes to give you the most cinematic honeymoon possible. This is where couples come when they want the photograph to match the feeling.',
     bestTime: 'May–Oct',

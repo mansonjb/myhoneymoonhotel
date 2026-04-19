@@ -29,7 +29,7 @@ const EXPERIENCE_META: Record<string, ExperienceMeta> = {
   'overwater-bungalows': {
     label: 'Overwater Villas',
     tagline: 'Sleep above the most beautiful water on earth',
-    hero: 'https://images.unsplash.com/photo-1573843981267-be1999ff37cd?w=1920&q=80',
+    hero: '/images/hotels/four-seasons-bora-bora/hero.webp',
     intro: 'The overwater bungalow is the defining honeymoon experience — a private villa suspended above a turquoise lagoon, where you slip into the water directly from your deck, watch fish through a glass floor panel, and fall asleep to the sound of the Pacific or Indian Ocean. Invented in Bora Bora in the 1960s, perfected in the Maldives in the 1990s, and now available at over 50 destinations worldwide, the overwater villa remains the most sought-after room type in luxury travel.',
     stats: [
       { icon: '🌊', value: '18', label: 'Scored Properties' },
@@ -106,7 +106,7 @@ const EXPERIENCE_META: Record<string, ExperienceMeta> = {
   'adults-only': {
     label: 'Adults-Only Resorts',
     tagline: 'No families. No compromise. The honeymoon atmosphere you actually want.',
-    hero: 'https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=1920&q=80',
+    hero: '/images/hotels/samanvaya-adults-only-bali/hero.webp',
     intro: 'Adults-only resorts are the single most underrated choice for honeymooners. The atmosphere is categorically different from family resorts — quieter pools, earlier mornings, more intimate restaurants, and a guest demographic almost entirely made up of couples celebrating something. The cumulative effect on a honeymoon is not subtle: everything feels more romantic when everyone around you is also focused on romance.',
     stats: [
       { icon: '💑', value: '8', label: 'Scored Properties' },
@@ -180,7 +180,7 @@ const EXPERIENCE_META: Record<string, ExperienceMeta> = {
   'safari': {
     label: 'Safari Honeymoons',
     tagline: 'The most unforgettable shared experience in travel',
-    hero: 'https://images.unsplash.com/photo-1516426122078-c23e76319801?w=1920&q=80',
+    hero: '/images/hotels/singita-grumeti-tanzania/hero.webp',
     intro: 'A safari honeymoon occupies a category of its own. No other honeymoon type creates the same depth of shared experience — watching lions hunt at dawn, the Great Migration crossing the Mara River, the Milky Way over the Serengeti unobstructed by light pollution, the silence of the bush at 11pm. Paired with the extraordinary luxury of top African lodges, the safari honeymoon consistently ranks as the most memorable travel experience couples have ever had.',
     stats: [
       { icon: '🦁', value: '1', label: 'Scored Properties' },
@@ -256,7 +256,7 @@ const EXPERIENCE_META: Record<string, ExperienceMeta> = {
   'beach': {
     label: 'Beach Honeymoons',
     tagline: 'The classic honeymoon — elevated',
-    hero: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1920&q=80',
+    hero: '/images/hotels/jade-mountain-st-lucia/hero.webp',
     intro: 'Beach honeymoons remain the dominant honeymoon category globally for good reason: the combination of warm water, white sand, tropical sun, and exceptional resorts delivers the sensory experience most couples imagine when they picture their honeymoon. The range is vast — from the $150/night all-inclusive in the Dominican Republic to the $5,000/night private island in the Maldives — and choosing well requires understanding what you are actually buying in each case.',
     stats: [
       { icon: '🏖️', value: '65', label: 'Scored Properties' },
@@ -332,7 +332,7 @@ const EXPERIENCE_META: Record<string, ExperienceMeta> = {
   'wellness': {
     label: 'Wellness & Spa Honeymoons',
     tagline: 'The honeymoon that changes how you feel, not just where you go',
-    hero: 'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1920&q=80',
+    hero: '/images/hotels/six-senses-zil-pasyon-seychelles/hero.webp',
     intro: 'Wellness honeymoons are the fastest-growing category in luxury travel — couples increasingly want to arrive home from their honeymoon feeling genuinely better than when they left, not just rested. The best wellness-focused properties offer not just world-class spas, but a full sensory architecture: extraordinary cuisine, sleep programmes, movement and yoga, and spa treatments drawn from traditional healing systems that have been refined over centuries.',
     stats: [
       { icon: '🧘', value: '58', label: 'Spa-Equipped Properties' },
@@ -407,7 +407,7 @@ const EXPERIENCE_META: Record<string, ExperienceMeta> = {
   'luxury': {
     label: 'Ultra-Luxury Honeymoons',
     tagline: 'The finest hotel experiences in the world, scored for romance',
-    hero: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1920&q=80',
+    hero: '/images/hotels/four-seasons-maldives-landaa-giraavaru/hero.webp',
     intro: 'Ultra-luxury honeymoon hotels are not defined by price alone — they are defined by the calibre of attention, the singularity of the setting, and the degree to which every detail is configured for intimacy. At properties scoring 90+ on the Honeymoon Score, two things are always true: you stop wanting to leave, and you stop thinking about anything except being in that place with that person.',
     stats: [
       { icon: '⭐', value: '66', label: 'Luxury Properties' },
@@ -495,7 +495,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 const MONTH_COLORS: Record<string, string> = {
-  Peak: 'bg-zinc-900 text-white',
+  Peak: 'bg-rose-600 text-white',
   Good: 'bg-emerald-50 text-emerald-700 border border-emerald-200',
   Shoulder: 'bg-amber-50 text-amber-700 border border-amber-200',
   Low: 'bg-zinc-50 text-zinc-400 border border-zinc-100',
@@ -642,11 +642,11 @@ export default async function ExperiencePage({ params }: Props) {
             <h2 className="font-display text-3xl sm:text-4xl mb-8">What your budget buys</h2>
             <div className="grid sm:grid-cols-3 gap-4">
               {meta.budgetTiers.map((tier, i) => (
-                <div key={i} className={`rounded-2xl p-6 ${i === 1 ? 'bg-zinc-900 text-white' : 'border border-zinc-100'}`}>
-                  <div className={`text-xs font-semibold tracking-widest uppercase mb-1 ${i === 1 ? 'text-rose-400' : 'text-rose-400'}`}>{tier.tier}</div>
+                <div key={i} className={`rounded-2xl p-6 ${i === 1 ? 'bg-rose-700 text-white' : 'border border-zinc-100'}`}>
+                  <div className={`text-xs font-semibold tracking-widest uppercase mb-1 ${i === 1 ? 'text-rose-200' : 'text-rose-400'}`}>{tier.tier}</div>
                   <div className={`font-display text-2xl mb-3 ${i === 1 ? 'text-white' : 'text-zinc-900'}`}>{tier.range}</div>
-                  <p className={`text-sm leading-relaxed mb-3 ${i === 1 ? 'text-zinc-300' : 'text-zinc-500'}`}>{tier.desc}</p>
-                  <p className={`text-xs ${i === 1 ? 'text-zinc-400' : 'text-zinc-400'}`}><span className="font-medium">Examples:</span> {tier.hotels}</p>
+                  <p className={`text-sm leading-relaxed mb-3 ${i === 1 ? 'text-rose-100' : 'text-zinc-500'}`}>{tier.desc}</p>
+                  <p className={`text-xs ${i === 1 ? 'text-rose-200' : 'text-zinc-400'}`}><span className="font-medium">Examples:</span> {tier.hotels}</p>
                 </div>
               ))}
             </div>
@@ -695,7 +695,7 @@ export default async function ExperiencePage({ params }: Props) {
                     <tr key={h.slug} className="border-b border-zinc-50 hover:bg-zinc-50 transition-colors">
                       <td className="py-4 pr-4 font-medium">
                         <Link href={`/hotels/${h.slug}`} className="hover:text-rose-600 transition-colors capitalize">{h.name}</Link>
-                        {i === 0 && <span className="ml-2 text-xs bg-zinc-900 text-white px-2 py-0.5 rounded-full">Top pick</span>}
+                        {i === 0 && <span className="ml-2 text-xs bg-rose-500 text-white px-2 py-0.5 rounded-full">Top pick</span>}
                       </td>
                       <td className="py-4 pr-4"><span className="font-display text-lg">{h.honeymoon_score}</span><span className="text-zinc-300">/100</span></td>
                       <td className="py-4 pr-4 capitalize text-zinc-500">{h.destination.replace(/-/g, ' ')}</td>
