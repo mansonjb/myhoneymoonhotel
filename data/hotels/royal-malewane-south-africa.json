@@ -1,0 +1,51 @@
+{
+  "slug": "royal-malewane-south-africa",
+  "name": "Royal Malewane",
+  "destination": "south-africa",
+  "country": "south-africa",
+  "experience_types": ["safari", "luxury", "wellness"],
+  "honeymoon_score": 94,
+  "score_breakdown": { "adults_only": 0, "couples_pct": 20, "spa": 15, "award": 10, "pool": 10, "beach": 0, "room_service": 10, "stars": 20, "luxury": 9 },
+  "stars": 5,
+  "price_per_night_usd": { "min": 1500, "max": 4000 },
+  "adults_only": false,
+  "amenities": ["spa", "pool", "game drives", "room service", "butler service", "private plunge pools", "fine dining", "resident astronomer", "bush walks"],
+  "photos": [
+    { "url": "/images/hotels/royal-malewane-south-africa/hero.webp", "alt": "royal-malewane-south-africa — hero", "type": "hero" },
+    { "url": "/images/hotels/royal-malewane-south-africa/room.webp", "alt": "royal-malewane-south-africa — room", "type": "room" },
+    { "url": "/images/hotels/royal-malewane-south-africa/pool.webp", "alt": "royal-malewane-south-africa — pool", "type": "pool" },
+    { "url": "/images/hotels/royal-malewane-south-africa/spa.webp", "alt": "royal-malewane-south-africa — spa", "type": "spa" },
+    { "url": "/images/hotels/royal-malewane-south-africa/dining.webp", "alt": "royal-malewane-south-africa — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 9.6,
+  "tripadvisor_award": true,
+  "couples_review_pct": 74,
+  "content": {
+    "verdict": "Royal Malewane sits in the Greater Kruger's Thornybush Private Nature Reserve, offering just eight exquisitely appointed suites and the rare pleasure of Africa House — a private villa experience for two. The resident astronomer is a genuinely unique romantic touch, positioning couples beneath the Southern Hemisphere's brilliant night sky with expert narration. This is one of Africa's most personalised safari experiences.",
+    "best_room": "The Royal Suite is the pinnacle offering: a vast private compound with its own pool, outdoor shower, and uninterrupted bushveld views. For ultimate intimacy, Africa House is a private six-bedroom property bookable exclusively for two — with your own chef, ranger, vehicle, and complete seclusion. The personal service at both reaches a level rarely found even among Africa's elite lodges.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival & Sunset Drive", "description": "Touch down at Hoedspruit Airport and transfer by road through the reserve. A chilled towel and welcome drink greet you on arrival. The afternoon game drive winds through acacia scrub before pausing for sundowners on a kopje, the Drakensberg glowing on the western horizon." },
+      { "day": 2, "title": "Big 5 Safari & Spa", "description": "The morning drive ventures into the heart of Thornybush in search of the Big 5. After brunch, the Africa Spa — staffed by some of the continent's most accomplished therapists — awaits with a signature couple's treatment using rooibos-infused oils and local botanicals." },
+      { "day": 3, "title": "Astronomy Evening", "description": "Today's afternoon game drive gives way to the lodge's signature experience: a private session with the resident astronomer. Recline on bush beds under a sky ablaze with stars, learning the Southern Cross and ancient Shangaan star lore while sipping fine South African wine." },
+      { "day": 4, "title": "Walking Safari & Bush Lunch", "description": "Don your boots for a guided walking safari, experiencing the bush at a micro level — tracking beetles, reading animal spoor, and identifying medicinal plants used by generations of Shangaan healers. The ranger lays out a bush lunch in a dry riverbed before the afternoon drive." },
+      { "day": 5, "title": "Leopard Country & Private Dinner", "description": "Thornybush has one of the highest leopard densities in the Greater Kruger, and the morning drive ventures into classic leopard habitat along rocky ridges. The evening culminates in a private candlelit dinner set in the bush, complete with flickering lanterns and a personal chef." },
+      { "day": 6, "title": "Elephant Interaction & Sunset Cruise", "description": "Elephants are a constant presence in Thornybush, and today's drive often yields extraordinary close encounters with bachelor herds. In the late afternoon, a sundowner cruise on the Thornybush River provides a different perspective — hippos snorting, fish eagles calling overhead." },
+      { "day": 7, "title": "Final Morning & Farewell", "description": "A last early morning drive captures the bush at its most magical — dew still on the grass, lions returning from the night hunt. Return for a lavish farewell breakfast by your private pool before the transfer to Hoedspruit. Your ranger presents a memento of the tracked animals encountered." }
+    ],
+    "caveats": [
+      "Thornybush Reserve does not border Kruger directly — it is in the Greater Kruger ecosystem but game movement differs slightly from Sabi Sand properties.",
+      "Malaria prophylaxis is recommended; consult your physician before travel to the Limpopo lowveld.",
+      "Africa House requires a minimum stay and is priced substantially above the main lodge; plan for this if considering an exclusive-use booking."
+    ],
+    "faqs": [
+      { "question": "Good for honeymooners?", "answer": "Royal Malewane is exceptional for honeymooners. Eight suites means genuine intimacy, the service is intensely personal, and the resident astronomer creates a romantic evening experience unavailable almost anywhere else in Africa. The lodge actively curates honeymoon moments — from petal-strewn baths to private bush dinners." },
+      { "question": "Best time to visit?", "answer": "The dry winter months of May through September provide the best game viewing as animals cluster around water sources. August and September are particularly good for predator activity. The green season from November to March brings baby animals and lush scenery at lower rates, though heat and humidity increase." },
+      { "question": "Book in advance?", "answer": "Royal Malewane's tiny inventory means it fills quickly. Book 9 to 12 months ahead for peak season, and 6 months ahead for shoulder periods. Africa House in particular needs very early reservation. Always communicate your honeymoon at the time of booking." },
+      { "question": "Adults-only?", "answer": "Royal Malewane is not formally adults-only, but the intimate atmosphere and remote bush setting cater overwhelmingly to adult couples. Children are welcome but game drives require a minimum age, and the sophisticated ambience is thoroughly couples-oriented." },
+      { "question": "Best room type?", "answer": "The Royal Suite offers the most private and luxurious experience within the main lodge, with its own pool and expansive deck. However, booking Africa House exclusively for two is the definitive romantic option — complete privacy, your own chef, ranger, and vehicle for a genuinely once-in-a-lifetime experience." },
+      { "question": "How to get there?", "answer": "Fly to Johannesburg O.R. Tambo, then connect to Hoedspruit Eastgate Airport on a direct flight (approximately 1 hour). Royal Malewane arranges road transfers into the reserve. Alternatively, fly to Phalaborwa or Nelspruit and drive. The lodge can also arrange helicopter transfers for a spectacular arrival." }
+    ],
+    "email_template": "Subject: Honeymoon inquiry — Royal Malewane\n\nDear Royal Malewane reservations team,\n\nWe are planning our honeymoon [DATE]-[DATE] and are interested in [Royal Suite / Africa House exclusive use]. Please advise on availability, honeymoon inclusions, the astronomy experience scheduling, and any private dining options.\n\nThank you,\n[Your names]"
+  },
+  "last_updated": "2026-04-19T00:00:00.000Z"
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "anantara-peace-haven-tangalle-sri-lanka",
+  "name": "Anantara Peace Haven Tangalle Resort",
+  "destination": "sri-lanka",
+  "country": "sri-lanka",
+  "experience_types": ["beach", "luxury", "wellness"],
+  "honeymoon_score": 85,
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 18,
+    "spa": 15,
+    "award": 5,
+    "pool": 10,
+    "beach": 10,
+    "room_service": 5,
+    "stars": 10,
+    "luxury": 5
+  },
+  "stars": 5,
+  "price_per_night_usd": { "min": 400, "max": 1200 },
+  "adults_only": false,
+  "amenities": ["spa", "pool", "room service", "restaurant", "bar", "private beach", "sea turtle conservation", "water sports"],
+  "photos": [
+    { "url": "/images/hotels/anantara-peace-haven-tangalle-sri-lanka/hero.webp", "alt": "anantara-peace-haven-tangalle-sri-lanka — hero", "type": "hero" },
+    { "url": "/images/hotels/anantara-peace-haven-tangalle-sri-lanka/room.webp", "alt": "anantara-peace-haven-tangalle-sri-lanka — room", "type": "room" },
+    { "url": "/images/hotels/anantara-peace-haven-tangalle-sri-lanka/pool.webp", "alt": "anantara-peace-haven-tangalle-sri-lanka — pool", "type": "pool" },
+    { "url": "/images/hotels/anantara-peace-haven-tangalle-sri-lanka/spa.webp", "alt": "anantara-peace-haven-tangalle-sri-lanka — spa", "type": "spa" },
+    { "url": "/images/hotels/anantara-peace-haven-tangalle-sri-lanka/dining.webp", "alt": "anantara-peace-haven-tangalle-sri-lanka — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 9.0,
+  "tripadvisor_award": false,
+  "couples_review_pct": 66,
+  "content": {
+    "verdict": "Anantara Peace Haven spreads across a spectacular clifftop above Tangalle Bay with two private beaches, an active sea turtle conservation programme, and the refined Thai-Sri Lankan spa that Anantara has become known for across Asia. The 152-villa scale means it is not the most intimate resort on this coast, but the sheer quality of the setting — cinnamon-scented clifftops, protected turtle beaches, and the deep blue of the Indian Ocean — makes it a strong choice for honeymooners who value beach access, variety, and polished service at a more accessible price point than Amanwella.",
+    "best_room": "The Ocean Pool Villas on the higher clifftop terraces offer the most romantic setting — a private plunge pool suspended over the ocean, unobstructed bay views, and the sunset colours visible from both bed and pool. Upper-terrace villas are worth the premium. The Signature Pool Villas add a second bedroom lounge for couples who want the maximum space.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival & Two Beaches", "description": "Check in at the hilltop reception and take a tour of the resort's two beaches — Peacehaven Beach for swimming and the quieter turtle nesting beach to the east. Sundowners at the clifftop infinity bar are mandatory: the Tangalle Bay panorama with crashing waves below is one of the south coast's great views. Dinner in the main restaurant showcases both Sri Lankan and Anantara's signature Thai cuisine." },
+      { "day": 2, "title": "Sea Turtle Release Programme", "description": "The resort's conservation team operates an egg protection and hatchling release programme active November to April. Morning visits to the hatchery and, when timing aligns, the release of baby leatherbacks into the Indian Ocean together is among the most moving wildlife experiences a honeymoon can offer. Afternoon in the spa for a Thai herbal compress massage." },
+      { "day": 3, "title": "Galle Fort & Coastal Drive", "description": "A 90-minute coastal drive west through fishing villages, rubber plantations, and coconut groves brings you to Galle Fort. Spend the morning walking the rampart walls and exploring the boutique streets. Lunch at a fort restaurant, then return via the Mirissa whale watching harbour to register for an early morning excursion tomorrow." },
+      { "day": 4, "title": "Blue Whale Watching from Mirissa", "description": "Pre-dawn boat departure from Mirissa Harbour for a three-hour whale watching excursion. Sri Lanka's southern waters host some of the largest blue whale aggregations accessible from shore anywhere in the world. Return for a late brunch and a long afternoon by the resort's clifftop infinity pool, watching the ocean from directly above." },
+      { "day": 5, "title": "Anantara Spa Full Day", "description": "The Anantara Spa draws on both Ayurvedic and traditional Thai traditions. A full-day couples' programme begins with a hot herbal ball massage, continues with a Signature Journey treatment (body scrub, wrap, and massage using local cinnamon, clove, and coconut), and ends with a private floating bath strewn with tropical flowers. Dinner on the beach under lanterns arranged by the romance team." },
+      { "day": 6, "title": "Cooking Class & Spice Garden", "description": "The resort's signature 'Spice Spoons' Sri Lankan cooking class runs each morning on the outdoor kitchen terrace — a resident cook leads you through the preparation of authentic black pork curry, dhal, fresh coconut roti, and a selection of pickles (acharu). Afternoon: take a tuk-tuk into Tangalle town for the colourful fish market and local spice shops." },
+      { "day": 7, "title": "Farewell Morning", "description": "A final swim on the quieter of the two beaches — early morning when the sand is undisturbed and the water still cool. Breakfast on your villa terrace with fresh fruits, hoppers, and Ceylon tea. The resort's driver takes you along the southern coastal road to Colombo or to your onward destination, the memories of Tangalle's cliffs and turtles accompanying you home." }
+    ],
+    "caveats": [
+      "Peace Haven's 152 villas make it significantly larger than the more intimate boutique resorts on this coast — while villa privacy is good, the main restaurant, pool areas, and clifftop bar can feel busy during peak season. It is an excellent resort, but not an intimate hideaway.",
+      "Swimming conditions vary: the main Peacehaven Beach is protected and swimmable December to April, but the current and shore-break can be strong during shoulder and monsoon months. Always check conditions with the beach team.",
+      "The Thai-Sri Lankan spa blending is a genuine strength, but some guests expecting a purely Ayurvedic or purely Sri Lankan experience may find the hybrid approach less locally rooted than the spa at a dedicated Ayurvedic retreat."
+    ],
+    "faqs": [
+      { "question": "Is Anantara Peace Haven good for honeymooners?", "answer": "Yes, particularly for couples who want a polished international five-star resort with genuine wildlife conservation elements and strong Anantara service standards. The Ocean Pool Villa setting is genuinely romantic, the turtle programme adds emotional depth, and the two-beach layout provides variety. It is a more accessible price point than Amanwella for a comparable southern coast experience." },
+      { "question": "What is the best time to visit?", "answer": "December to April is optimal: calm seas for swimming, turtle hatchling releases, and whale watching from Mirissa. January and February are the driest months. The turtle nesting season peaks November to March. Avoid June to September when the southwest monsoon dominates the south coast." },
+      { "question": "What should we book in advance?", "answer": "The turtle hatchery morning visit and beach release (when available) should be mentioned at booking — the conservation team accommodates guests based on natural timing but advance notice helps. The Spice Spoons cooking class fills quickly; reserve when you arrive. Whale watching should be booked through the concierge one day ahead." },
+      { "question": "Is it adults-only?", "answer": "No — with 152 villas and extensive activities including a children's pool and kids' programme, Peace Haven is genuinely family-friendly. However, the Ocean Pool Villas are sufficiently separate from family areas that couples can enjoy real privacy. Choosing the right villa category is important for a romantic stay." },
+      { "question": "What's the best room for a honeymoon?", "answer": "Ocean Pool Villas on the upper clifftop terraces — as high and as ocean-facing as possible. The private plunge pool facing the Indian Ocean is the hotel's most romantic feature. The Signature Pool Villas add space but do not necessarily improve the view; prioritise elevation and ocean orientation." },
+      { "question": "How do we get there?", "answer": "From Colombo Bandaranaike International Airport: approximately 4 to 4.5 hours by private car via the Southern Expressway (E01) to the Tangalle exit. The hotel arranges private car transfers. Mattala Rajapaksa International Airport (HRI) near Hambantota is approximately 45 minutes away and served by some regional flights." }
+    ],
+    "email_template": "Subject: Honeymoon booking inquiry — Anantara Peace Haven Tangalle\n\nDear Anantara Peace Haven team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: an Ocean Pool Villa on a high clifftop terrace.\n\nCould you please let us know:\n- Current availability for our dates\n- Any honeymoon packages or complimentary amenities\n- Whether turtle hatchling releases will be available during our stay\n\nThank you for your time.\n\n[Your names]"
+  },
+  "last_updated": "2026-04-19T00:00:00.000Z"
+}

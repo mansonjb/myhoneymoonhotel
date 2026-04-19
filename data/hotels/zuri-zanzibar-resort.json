@@ -1,0 +1,61 @@
+{
+  "slug": "zuri-zanzibar-resort",
+  "name": "Zuri Zanzibar Hotel & Resort",
+  "destination": "zanzibar",
+  "country": "tanzania",
+  "experience_types": ["beach", "luxury", "wellness"],
+  "honeymoon_score": 85,
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 16,
+    "spa": 15,
+    "award": 10,
+    "pool": 10,
+    "beach": 10,
+    "room_service": 5,
+    "stars": 10,
+    "luxury": 5
+  },
+  "stars": 5,
+  "price_per_night_usd": { "min": 400, "max": 1200 },
+  "adults_only": false,
+  "amenities": ["spa", "pool", "beach", "room service", "eco-lodge", "snorkeling", "yoga", "diving", "fitness center"],
+  "photos": [
+    { "url": "/images/hotels/zuri-zanzibar-resort/hero.webp", "alt": "zuri-zanzibar-resort — hero", "type": "hero" },
+    { "url": "/images/hotels/zuri-zanzibar-resort/room.webp", "alt": "zuri-zanzibar-resort — room", "type": "room" },
+    { "url": "/images/hotels/zuri-zanzibar-resort/pool.webp", "alt": "zuri-zanzibar-resort — pool", "type": "pool" },
+    { "url": "/images/hotels/zuri-zanzibar-resort/spa.webp", "alt": "zuri-zanzibar-resort — spa", "type": "spa" },
+    { "url": "/images/hotels/zuri-zanzibar-resort/dining.webp", "alt": "zuri-zanzibar-resort — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 9.1,
+  "tripadvisor_award": true,
+  "couples_review_pct": 68,
+  "content": {
+    "verdict": "Zuri Zanzibar is Zanzibar's most thoughtful eco-luxury resort — a zero-plastic, solar-powered retreat built into the banyan and baobab trees of the northwest Kendwa coast in a series of treehouse-inspired structures that feel genuinely original. The architecture and ethos will resonate deeply with couples who care about how their travel impacts the environment, without wanting to sacrifice five-star comfort. The north coast setting means excellent swimming year-round and the famous Kendwa sunset just steps away — it is best suited to eco-conscious, adventurous honeymooners.",
+    "best_room": "The Treehouse Suites are Zuri's signature accommodation — elevated timber structures connected by walkways through the canopy, with open-air showers, king beds suspended slightly above the floor, and views through the branches to the Indian Ocean beyond. Each suite has a private deck and hammock. The Beach Suite category trades the treehouse drama for direct beach access and a private plunge pool, making it the better choice for couples who prioritise ocean proximity over architectural excitement.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Welcome to the Canopy", "description": "Arrive to Zuri's extraordinary arrival experience — a winding jungle path, no plastic anywhere in sight, and your treehouse suite waiting with fresh coconut water and a handwritten welcome note. In the evening, dine at the main restaurant where the menu is built around locally sourced, organic ingredients and the wine list is genuinely exceptional for East Africa." },
+      { "day": 2, "title": "Sunrise Yoga & Snorkel Morning", "description": "Zuri offers a complimentary sunrise yoga session on the ocean-facing platform three mornings a week — the view is breathtaking. Follow with a guided snorkel just offshore from the northern beach, where the reef remains largely intact. The Kendwa area offers some of the island's best year-round swimming due to its sheltered northern position." },
+      { "day": 3, "title": "Spa & Sustainability Tour", "description": "The Zuri Spa offers treatments using exclusively local, organic ingredients — coconut oil, ylang ylang, clove, and neem are the foundation of every ritual. Book the 'Island Elements' couples' treatment, a two-hour full-body journey. In the afternoon, the sustainability manager offers a fascinating tour of the resort's solar array, water filtration system, and zero-waste kitchen." },
+      { "day": 4, "title": "Full Moon Beach Party or Nungwi Excursion", "description": "Zuri is famous for its full moon beach parties — if the timing aligns, this is one of the most romantic evenings on the island. On other nights, take a tuk-tuk north to Nungwi village to visit the sea turtle sanctuary and walk the active dhow-building yards where artisans still construct ocean-going vessels by hand." },
+      { "day": 5, "title": "Deep Blue Dive Day", "description": "The resort's PADI dive centre offers introductory dives for non-certified guests and multi-dive packages for certified divers — the northwest coast sites include large coral pinnacles at Mnemba Atoll accessible by day trip (about one hour by speedboat). This is one of the Indian Ocean's great dive days." },
+      { "day": 6, "title": "Spice Plantation & Sunset Dhow", "description": "An immersive spice plantation tour through the island's agricultural interior is wonderfully fragrant and genuinely educational. Combine it with a sunset dhow cruise on the way back, watching the sky turn crimson over the Kendwa headland as a crew serves Champagne and grilled prawns from a charcoal brazier on deck." },
+      { "day": 7, "title": "Last Morning in the Trees", "description": "Your final breakfast is laid out on your treehouse deck — a spread of tropical fruits, house-baked sourdough, and Zanzibar spiced chai. Spend a slow morning reading in your hammock before checkout. Zuri provides every departing guest with a small package of resort-grown organic spices to take home — a genuinely meaningful parting gift." }
+    ],
+    "caveats": [
+      "The treehouse design means no private pool in the signature treehouse suites — you share the main infinity pool. Only the Beach Suite category has a private plunge pool.",
+      "Zuri is not adults-only and families do visit, which can affect the quiet, intimate atmosphere particularly around the main pool.",
+      "The eco-ethos means certain typical luxury hotel features are deliberately absent: single-use plastics, air-conditioning in some areas, and a less rigid service style — guests who prefer a conventional five-star experience may find it slightly unconventional."
+    ],
+    "faqs": [
+      { "question": "Is Zuri Zanzibar good for honeymooners?", "answer": "Zuri is an excellent honeymoon choice for couples who are passionate about sustainability and want a genuinely unique architectural experience — the treehouse design is unlike anything else in East Africa. The north coast location means excellent swimming and access to Kendwa's famous sunset beach. Couples who prioritise private pools and conventional luxury may find the tradeoffs of the eco approach worth considering." },
+      { "question": "What is the best time to visit?", "answer": "The northwest coast enjoys favourable conditions from June through October and again from December through February. Kendwa is particularly well-positioned as it remains largely protected from the southeast trade winds, meaning swimming is good for a larger part of the year than the east coast resorts." },
+      { "question": "What should we book in advance?", "answer": "Reserve the 'Island Elements' couples' spa treatment and a private sunset dhow cruise at the time of booking. Also note whether your dates coincide with a full moon — Zuri's full moon beach parties are legendary and worth planning around." },
+      { "question": "Is it adults-only?", "answer": "Zuri Zanzibar is not adults-only. Families with children do visit, and the design of the resort — with its walkways and treehouse structures — is actually popular with older children. Couples seeking a guaranteed adults-only environment should look at Baraza or Zawadi." },
+      { "question": "What's the best room type for a honeymoon?", "answer": "The Treehouse Suite is Zuri's most romantic and visually stunning room type — worth choosing purely for the experience of sleeping in the canopy with ocean views. If a private pool is important, upgrade to the Beach Suite instead, which sacrifices the treehouse drama for direct beach access and a private plunge pool." },
+      { "question": "How do we get there?", "answer": "Fly to Zanzibar International Airport (ZNZ) in the south of the island. Zuri is on the northwest coast near Kendwa, approximately 45–55 minutes from the airport by private transfer. The resort arranges transfers and the coastal drive through Nungwi is scenic and a preview of the island's character." }
+    ],
+    "email_template": "Subject: Honeymoon booking inquiry — Zuri Zanzibar Hotel & Resort\n\nDear Zuri Zanzibar team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: a Treehouse Suite and the Island Elements couples' spa treatment.\n\nCould you please let us know:\n- Current availability for our dates\n- Any honeymoon packages or complimentary upgrades\n- Whether a full moon beach party falls during our stay, and how to arrange a sunset dhow\n\nThank you for your time.\n\n[Your names]"
+  },
+  "last_updated": "2026-04-19T00:00:00.000Z"
+}

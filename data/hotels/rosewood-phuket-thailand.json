@@ -1,0 +1,79 @@
+{
+  "slug": "rosewood-phuket-thailand",
+  "name": "Rosewood Phuket",
+  "destination": "thailand",
+  "country": "thailand",
+  "experience_types": ["beach", "luxury", "wellness"],
+  "honeymoon_score": 88,
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 19,
+    "spa": 14,
+    "award": 12,
+    "pool": 10,
+    "beach": 10,
+    "room_service": 5,
+    "stars": 10,
+    "luxury": 8
+  },
+  "stars": 5,
+  "price_per_night_usd": { "min": 600, "max": 1800 },
+  "adults_only": false,
+  "amenities": ["spa", "pool", "beach", "room service", "butler service", "private villas", "sunset bar", "multiple restaurants", "water sports", "yoga pavilion"],
+  "photos": [
+    { "url": "/images/hotels/rosewood-phuket-thailand/hero.webp", "alt": "rosewood-phuket-thailand — hero", "type": "hero" },
+    { "url": "/images/hotels/rosewood-phuket-thailand/room.webp", "alt": "rosewood-phuket-thailand — room", "type": "room" },
+    { "url": "/images/hotels/rosewood-phuket-thailand/pool.webp", "alt": "rosewood-phuket-thailand — pool", "type": "pool" },
+    { "url": "/images/hotels/rosewood-phuket-thailand/spa.webp", "alt": "rosewood-phuket-thailand — spa", "type": "spa" },
+    { "url": "/images/hotels/rosewood-phuket-thailand/dining.webp", "alt": "rosewood-phuket-thailand — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 9.3,
+  "tripadvisor_award": true,
+  "couples_review_pct": 76,
+  "content": {
+    "verdict": "Rosewood Phuket is one of the most architecturally dramatic resorts on the island, cascading down a hillside in a series of villa complexes that tumble toward Emerald Bay — a small, protected cove on Phuket's southwest coast. The Rosewood's design is striking without being ostentatious, blending Thai architectural language with modern luxury in a way that feels authentic. For honeymooners, the combination of stunning private villas with plunge pools, the extraordinary Asaya wellness spa, and one of Phuket's best sunset bars makes it a strong, characterful choice.",
+    "best_room": "Book a Cliffside or Beachfront Pool Villa for direct access to Emerald Bay or dramatic cliff-top views over the Andaman Sea. The Cliffside Villas offer the most romantic panoramas — sunset views from a private infinity pool over the Andaman are genuinely breathtaking. The Beachfront Villas put you steps from the beach with a private garden and plunge pool.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival & Emerald Bay", "description": "Arrive from Phuket Airport in the hotel's private car and wind down a steep private road to the resort carved into the hillside above Emerald Bay. Check in and change, then walk the steps down to the intimate beach cove — Emerald Bay is small and private, with calm waters lapping a crescent of soft sand sheltered from the headlands on both sides. Sundowners at the cliffside bar as the Andaman blazes in the sunset are mandatory." },
+      { "day": 2, "title": "Asaya Wellness Spa", "description": "The Asaya Spa is the Rosewood's signature wellness program — a comprehensive health and healing philosophy that goes beyond standard resort spa menus. Book the Reconnect Couples Journey, a 3-hour experience that opens with a breathing ritual, progresses through Thai herbal poultice massage, and closes with a private hydrotherapy session. The spa pavilions are open-air and set within rainforest gardens." },
+      { "day": 3, "title": "Phang Nga Bay Exploration", "description": "Take a private speedboat from the resort's beach through the Andaman Sea and into Phang Nga Bay for a full day of island hopping. Visit James Bond Island, paddle sea kayaks through mangrove tunnels, and find a deserted beach for a private picnic prepared by the hotel's culinary team. Return to the resort in time to watch the sun set from your villa's private pool." },
+      { "day": 4, "title": "Snorkel & Dive at Racha Islands", "description": "The Racha Islands (Racha Yai and Racha Noi) are considered some of the best dive and snorkel sites in the Phuket area, with excellent visibility and abundant marine life including reef sharks and manta rays. Book a private speedboat transfer with the hotel's dive center for an early morning departure and return by afternoon for a relaxed poolside evening." },
+      { "day": 5, "title": "Phuket Old Town & Thai Cuisine", "description": "Rent a car for a cultural day in Phuket Old Town, where Sino-Portuguese shophouses in pastel colors line streets adorned with street art and Buddhist shrines. Browse art galleries and antique shops, stop at Raya Restaurant for the best Phuket-style noodles, and visit Wat Chalong, Phuket's most important Buddhist temple. Return to the resort for sunset cocktails at the clifftop bar." },
+      { "day": 6, "title": "Private Villa Dinner & Beach Night", "description": "Arrange a private villa dinner through the butler — the culinary team will set a flower-strewn table in your villa or on the beach with a personalized Thai menu. Spend the day as lazily as you please before the candlelit evening meal. After dinner, walk down to Emerald Bay for a night swim in the warm, phosphorescent waters." },
+      { "day": 7, "title": "Farewell Morning", "description": "Take a final early morning swim in Emerald Bay — the cove at 7am is completely calm and usually deserted, the water crystal clear in the tropical morning light. Return to your villa for a leisurely breakfast from room service on your terrace, then pack for the 35-minute drive to Phuket airport." }
+    ],
+    "caveats": [
+      "Emerald Bay is a small cove — while beautiful and sheltered, it is not a long-walk beach and honeymooners wanting expansive sands should supplement with trips to nearby Patong or Kata beaches.",
+      "The resort's hillside location means many villas involve stairs — not ideal for those with mobility considerations, though the property does have some flatter options.",
+      "Phuket's southwest monsoon (May–October) brings heavy afternoon rain and rougher seas; the resort is lovely year-round but ocean activities are limited in the wet season."
+    ],
+    "faqs": [
+      {
+        "question": "Is Rosewood Phuket good for honeymooners?",
+        "answer": "Strongly yes. The combination of dramatic architecture, private villas with Andaman views, the Asaya wellness spa, and the intimate Emerald Bay setting makes it one of the most romantic resorts in Phuket. The Rosewood's attention to personalized service and detail creates an experience that feels crafted specifically for couples, and the sunset views from the cliffside bar are among the most beautiful in Southeast Asia."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "November through April is peak season on Phuket's Andaman coast, with calm seas, sunshine, and excellent conditions for water activities. December and January are the most popular months. May through October is the southwest monsoon season — the resort remains stunning but afternoon downpours are common and the sea can be too rough for boat excursions."
+      },
+      {
+        "question": "How is the beach at Rosewood Phuket?",
+        "answer": "Emerald Bay is one of Phuket's most beautiful small coves — a protected, clear-water beach with natural tree shade and a calm, swimmable sea. It is small and intimate, which is perfect for honeymooners seeking privacy but limiting for those who want a grand beach experience. The resort's beach club has loungers, service, and excellent cocktails."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "The Beachfront and Cliffside Pool Villas are the most sought-after accommodations and should be reserved 3–6 months ahead for high season. Asaya Spa couples' treatments and private boat excursions should be arranged before arrival through the pre-arrival concierge. Dinner reservations at the signature restaurant should also be made in advance."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "No, Rosewood Phuket is family-friendly. The villa layout creates natural privacy and separation, and the resort's clientele tends toward couples and adults seeking a sophisticated experience. Families are not a dominant presence given the property's design and price point."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "Fly into Phuket International Airport (HKT), approximately 35 minutes from the resort by private car. The hotel arranges private airport transfers. Direct and one-stop flights from Europe typically route through Bangkok, Kuala Lumpur, Singapore, or Dubai. The resort is on Phuket's southwest coast between Patong and Rawai."
+      }
+    ],
+    "email_template": "Subject: Honeymoon booking inquiry — Rosewood Phuket\n\nDear Rosewood Phuket team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: a Cliffside Pool Villa or Beachfront Pool Villa.\n\nCould you please let us know:\n- Current availability for our dates\n- Any honeymoon packages or complimentary upgrades available\n- How to arrange the Reconnect Couples Journey at Asaya Spa and a private Phang Nga Bay boat excursion\n\nThank you for your time.\n\n[Your names]"
+  },
+  "last_updated": "2026-04-19T00:00:00.000Z"
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "hoshinoya-kyoto-japan",
+  "name": "Hoshinoya Kyoto",
+  "destination": "japan",
+  "country": "japan",
+  "experience_types": ["luxury", "wellness"],
+  "honeymoon_score": 90,
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 20,
+    "spa": 15,
+    "award": 10,
+    "pool": 5,
+    "beach": 0,
+    "room_service": 5,
+    "stars": 10,
+    "luxury": 5
+  },
+  "stars": 5,
+  "price_per_night_usd": { "min": 600, "max": 2000 },
+  "adults_only": false,
+  "amenities": ["spa", "onsen", "room service", "restaurant", "bar", "boat access", "yoga"],
+  "photos": [
+    { "url": "/images/hotels/hoshinoya-kyoto-japan/hero.webp", "alt": "hoshinoya-kyoto-japan — hero", "type": "hero" },
+    { "url": "/images/hotels/hoshinoya-kyoto-japan/room.webp", "alt": "hoshinoya-kyoto-japan — room", "type": "room" },
+    { "url": "/images/hotels/hoshinoya-kyoto-japan/pool.webp", "alt": "hoshinoya-kyoto-japan — pool", "type": "pool" },
+    { "url": "/images/hotels/hoshinoya-kyoto-japan/spa.webp", "alt": "hoshinoya-kyoto-japan — spa", "type": "spa" },
+    { "url": "/images/hotels/hoshinoya-kyoto-japan/dining.webp", "alt": "hoshinoya-kyoto-japan — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 9.5,
+  "tripadvisor_award": true,
+  "couples_review_pct": 78,
+  "content": {
+    "verdict": "Hoshinoya Kyoto is one of the most dramatically romantic hotels in all of Asia — reachable only by a 10-minute boat journey up the Oi River through the Arashiyama bamboo and maple forest, it feels genuinely removed from the modern world. With just 25 rooms hugging a riverside cliff face, in-room onsen baths, and some of the most beautiful seasonal scenery in Japan framed through every window, this is a once-in-a-lifetime honeymoon setting.",
+    "best_room": "The Deluxe River-Facing Room is the definitive choice: floor-to-ceiling windows frame the Oi River and forested mountainside, and the in-room soaking tub positioned at the window means you bathe while watching herons drift past on the current below. Rooms are compact but exquisitely designed — every element of Japanese craft is at work here, from washi paper lanterns to hand-placed river stone floors.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival & The Boat Journey", "description": "Meet your hotel contact at Katsura Embarkation Point in Arashiyama. The 10-minute boat transfer up the Oi River is your first moment of magic — cliff walls close in, green canopy overhead, the boatman's oar dipping silently. Check in to your riverside suite and soak in the in-room onsen as twilight turns the water silver. Dinner is a kaiseki meal served in the dining room with a river panorama." },
+      { "day": 2, "title": "Bamboo Grove at Dawn", "description": "Rise before the tourist coaches and walk to Sagano Bamboo Grove — five minutes from the embarkation point — when it belongs only to you and the rustling canes. Return for a Japanese breakfast: grilled fish, miso soup, soft-set egg, pickled plum. Afternoon: book a private tea ceremony in the hotel's riverside tearoom, then an Otoha Spa massage to ease travel tension." },
+      { "day": 3, "title": "Togetsukyo & Tenryu-ji", "description": "Cross the iconic Togetsukyo Bridge on foot at a slow pace, watching cormorant fishermen if the season is right. Spend the morning in the UNESCO World Heritage garden of Tenryu-ji — the raked gravel and reflected mountain are outstanding. Lunch at a tofu restaurant near the temple, then return by boat for an afternoon of reading and room service sake by the river window." },
+      { "day": 4, "title": "Kodo Incense Ceremony", "description": "The hotel regularly hosts kodo — the ancient Japanese art of listening to incense — for guests. Sit together in a tatami room as the fragrance master layers aloeswood and sandalwood combinations, teaching you to identify the scents. This meditative art connects you to a cultural tradition over a thousand years old. The afternoon is free; consider renting rowboats on the river." },
+      { "day": 5, "title": "Nijo Castle & Gion Evening", "description": "Take the hotel boat to Arashiyama, then a taxi to Nijo Castle — the shogun's Kyoto residence, famous for its nightingale floors. Spend the afternoon exploring Gion's preserved ochaya teahouse district on foot before a dinner reservation at a Gion kappo counter (hotel will book). Return by taxi and boat as evening lanterns reflect on the Oi River." },
+      { "day": 6, "title": "Hot Spring Wellness Day", "description": "Reserve this day entirely for the hotel. The rooftop open-air bath looks directly onto the forested mountains — use it at both sunrise and dusk. Book a two-hour couples' massage at the Otoha Spa. In between, the kitchen prepares a private kaiseki picnic delivered to your riverside terrace — wooden bento boxes, seasonal sashimi, local sake." },
+      { "day": 7, "title": "Farewell Morning", "description": "Your final breakfast arrives at the in-room level: seasonal Japanese fare brought to your tatami table while morning mist rises from the Oi River. Take a last slow walk along the hotel's riverside path before your boat transfer back to the world. The Arashiyama boat journey is just as enchanting in reverse — a farewell ceremony the river performs for you." }
+    ],
+    "caveats": [
+      "Access is entirely by boat — the 10-minute transfer on the Oi River is a feature, not an inconvenience, but guests with significant mobility issues should note there are steps and uneven riverside walkways involved in embarkation.",
+      "Rooms are intimate and beautifully designed but not large by international luxury standards; if you require a sprawling villa or multiple living spaces, Hoshinoya Kyoto may feel snug.",
+      "Seasonal demand is extreme: cherry blossom and autumn foliage periods (April and November) book out more than a year in advance and prices surge — plan accordingly or consider the quieter magic of winter or early summer."
+    ],
+    "faqs": [
+      { "question": "Is Hoshinoya Kyoto good for honeymooners?", "answer": "Extraordinarily so. The combination of boat-only access, intimate scale (25 rooms), in-room onsen baths with river views, and the enveloping bamboo and maple forest creates a feeling of complete romantic isolation that is very hard to replicate elsewhere in Japan. Staff quietly anticipate needs without intrusion, which is exactly what honeymooners want." },
+      { "question": "What is the best time to visit?", "answer": "Autumn foliage (late October to mid-November) and cherry blossom (late March to early April) are transcendent but require booking 12+ months ahead. Winter is underrated — the forest is quiet, the onsen feels earned, and room rates dip slightly. Early June green maple and late summer are also beautiful with fewer crowds than peak season." },
+      { "question": "What should we book in advance?", "answer": "Spa treatments book out within days of arrival; arrange these through the hotel before you leave home. The kodo incense ceremony and private tea ceremony also have limited slots. If you plan to dine at specific Kyoto restaurants beyond the hotel, the concierge will need at least two to three weeks notice for top-tier kaiseki counters." },
+      { "question": "Is it adults-only?", "answer": "No, but the setting, ryokan etiquette, and atmosphere are naturally focused on adult guests. Children are rare and the resort does not market itself as family-friendly. The boat journey and in-room onsen format are genuinely better appreciated by adults seeking tranquillity." },
+      { "question": "What's the best room for a honeymoon?", "answer": "Request a Deluxe River-Facing Room — the river panorama through floor-to-ceiling windows transforms your entire stay. The in-room soaking tub positioned at the view window is the hotel's signature romantic moment. If budget allows, the Superior and Deluxe categories at the upper floors have the most unobstructed forest-and-river vistas." },
+      { "question": "How do we get there?", "answer": "The hotel's boat embarkation point is in Arashiyama, roughly 30 minutes by taxi from central Kyoto or Kyoto Station. From Osaka or Kyoto Airport (Kansai International), plan on roughly 90 minutes and one hour respectively by combination of train and taxi. The hotel provides clear embarkation instructions and a meet-and-greet at the dock." }
+    ],
+    "email_template": "Subject: Honeymoon booking inquiry — Hoshinoya Kyoto\n\nDear Hoshinoya Kyoto team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: a Deluxe River-Facing Room with private onsen bath.\n\nCould you please let us know:\n- Current availability for our dates\n- Any honeymoon packages or complimentary upgrades\n- Scheduling for the in-house tea ceremony or kodo ceremony during our stay\n\nThank you for your time.\n\n[Your names]"
+  },
+  "last_updated": "2026-04-19T00:00:00.000Z"
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "chromata-hotel-santorini",
+  "name": "Chromata Hotel Santorini",
+  "destination": "santorini",
+  "country": "greece",
+  "experience_types": ["luxury", "wellness"],
+  "honeymoon_score": 88,
+  "score_breakdown": { "adults_only": 0, "couples_pct": 20, "spa": 13, "award": 13, "pool": 10, "beach": 0, "room_service": 5, "stars": 10, "luxury": 17 },
+  "stars": 5,
+  "price_per_night_usd": { "min": 500, "max": 1800 },
+  "adults_only": false,
+  "amenities": ["spa", "pool", "infinity pool", "caldera views", "cave-style architecture", "butler service", "jacuzzi", "room service", "fine dining"],
+  "photos": [
+    { "url": "/images/hotels/chromata-hotel-santorini/hero.webp", "alt": "chromata-hotel-santorini — hero", "type": "hero" },
+    { "url": "/images/hotels/chromata-hotel-santorini/room.webp", "alt": "chromata-hotel-santorini — room", "type": "room" },
+    { "url": "/images/hotels/chromata-hotel-santorini/pool.webp", "alt": "chromata-hotel-santorini — pool", "type": "pool" },
+    { "url": "/images/hotels/chromata-hotel-santorini/spa.webp", "alt": "chromata-hotel-santorini — spa", "type": "spa" },
+    { "url": "/images/hotels/chromata-hotel-santorini/dining.webp", "alt": "chromata-hotel-santorini — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 9.1,
+  "tripadvisor_award": true,
+  "couples_review_pct": 83,
+  "content": {
+    "verdict": "Chromata is Imerovigli's most intimate boutique hotel — 32 exquisitely designed suites carved into the caldera cliff, each with its own personality of arches, domes, and cave walls rendered in warm white and natural stone. At a price point below many of Santorini's most famous names, it delivers caldera views, an infinity pool, and a deeply romantic atmosphere that routinely earns it best-of-Santorini accolades from couples who chose it over the more marketed alternatives.",
+    "best_room": "The Grand Suite with Private Heated Pool is the pinnacle Chromata experience — a split-level cave suite with a heated private plunge pool on the caldera-edge terrace, a separate lounge, and sweeping views across the volcanic caldera to Thirassia. At sunrise and sunset the light plays across the white walls and volcanic rock in colours that feel almost designed.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Caldera Arrival", "description": "Transfer to Imerovigli from the airport (20 minutes) and descend the caldera steps to your Chromata suite. The first view of the caldera from your private terrace — the blue of the Aegean contrasting with the dark volcanic rock — is one of Santorini's finest. Settle in with a glass of local Assyrtiko wine poured from the welcome basket." },
+      { "day": 2, "title": "Caldera Path & Oia Walk", "description": "Walk the famous caldera path from Imerovigli to Oia — a 45-minute cliff-top walk with extraordinary views at every turn. Explore Oia's blue-domed churches, boutique galleries, and narrow alleys before catching the sunset from Oia Castle. Return by taxi or the scenic path back." },
+      { "day": 3, "title": "Spa & Pool Day", "description": "Book a couple's treatment at the Chromata spa — a combination of Greek honey and yogurt body wrap with a deep-tissue caldera-view massage. Spend the afternoon at the infinity pool with views across the entire caldera, with the service bringing cold Assyrtiko and mezze to your poolside loungers." },
+      { "day": 4, "title": "Volcano & Thermal Springs Excursion", "description": "Join a caldera boat tour from Ammoudi Bay — visiting the active Nea Kameni volcano, the sulphuric thermal springs of Palea Kameni, and the red beach on Santorini's southern coast. The full-day tour gives a geological perspective on the cataclysmic eruption that created this landscape." },
+      { "day": 5, "title": "Fira & Wine Country", "description": "Take a morning taxi to Fira for the Archaeological Museum and a walk through the capital's more animated atmosphere. In the afternoon, join a guided Santorini wine tour visiting Santo Wines or Domaine Sigalas for Assyrtiko and Vinsanto tastings — the island's volcanic soil produces wines of extraordinary mineral intensity." },
+      { "day": 6, "title": "Private Suite Dinner & Stargazing", "description": "Arrange an in-suite dinner for the final evening — the Chromata kitchen sends a full Greek tasting menu to your terrace as the sun sets over the caldera. After dinner, the Cycladic sky above the caldera — with no significant light pollution to the west — is spectacular for stargazing from your private plunge pool." },
+      { "day": 7, "title": "Imerovigli Sunrise & Farewell", "description": "Rise for the Imerovigli sunrise — the caldera catches the first light in a way that Oia's famous sunset cannot quite match for sheer drama. A final breakfast on the terrace, one last swim in the heated pool, and transfer to the airport with the Aegean blue permanently in mind." }
+    ],
+    "caveats": [
+      "Chromata is on the caldera cliff with no beach access — swimming requires a 20-30 minute transfer to Perissa, Kamari, or Perivolos beaches.",
+      "The cave-style architecture is part of the romance but involves steps throughout the property — guests with limited mobility should confirm room accessibility before booking.",
+      "Imerovigli is quieter than Oia or Fira for dining and nightlife; the village has a small selection of excellent restaurants but couples wanting more urban energy will need to taxi to Fira."
+    ],
+    "faqs": [
+      { "question": "Is Chromata Hotel good for honeymooners?", "answer": "It is one of Santorini's best value luxury honeymoon options — cave suites with heated private pools, caldera views, and boutique service at prices below the island's most famous names. Highly recommended for couples prioritizing intimacy and views." },
+      { "question": "What is the best time to visit Santorini?", "answer": "May through June and September through October offer the best combination of warm weather, manageable crowds, and lower prices. The famous caldera sunsets are best from April through October. July and August are the hottest and most crowded." },
+      { "question": "How far in advance should you book?", "answer": "Book 4-6 months in advance for peak season. The Grand Suite with Private Pool books out very early — honeymoon dates in July and August should be secured 8+ months ahead." },
+      { "question": "Is Chromata adults-only?", "answer": "No, but the boutique scale and romantic atmosphere mean it attracts overwhelmingly couples. The cave-suite architecture and caldera-edge terraces make it impractical for families with young children." },
+      { "question": "What makes Imerovigli better than Oia for some honeymooners?", "answer": "Imerovigli is 20 minutes quieter than Oia, sits at the highest point on the caldera rim, and has arguably even more dramatic 360-degree views. It offers a more genuinely peaceful escape while still being accessible to Oia and Fira by taxi." },
+      { "question": "How do you get to Chromata?", "answer": "Fly into Santorini Airport (JTR). Taxi to Imerovigli takes approximately 20-25 minutes. The resort can arrange airport transfers." }
+    ],
+    "email_template": "Subject: Honeymoon inquiry — Chromata Hotel Santorini\n\nDear team,\n\nWe are planning our honeymoon [DATE]-[DATE] and interested in the Grand Suite with Private Heated Pool. Please advise on availability, any honeymoon packages, and whether an in-suite dinner service is available.\n\nThank you,\n[Your names]"
+  },
+  "last_updated": "2026-04-19T00:00:00.000Z"
+}

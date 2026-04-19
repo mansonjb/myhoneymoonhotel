@@ -1,0 +1,61 @@
+{
+  "slug": "villa-delisle-hotel-spa-reunion",
+  "name": "Villa Delisle Hotel & Spa",
+  "destination": "reunion",
+  "country": "reunion",
+  "experience_types": ["luxury", "wellness"],
+  "honeymoon_score": 83,
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 20,
+    "spa": 15,
+    "award": 8,
+    "pool": 10,
+    "beach": 5,
+    "room_service": 5,
+    "stars": 10,
+    "luxury": 10
+  },
+  "stars": 5,
+  "price_per_night_usd": { "min": 300, "max": 900 },
+  "adults_only": false,
+  "amenities": ["spa", "pool", "restaurant", "room service", "concierge", "fitness centre", "bar"],
+  "photos": [
+    { "url": "/images/hotels/villa-delisle-hotel-spa-reunion/hero.webp", "alt": "villa-delisle-hotel-spa-reunion — hero", "type": "hero" },
+    { "url": "/images/hotels/villa-delisle-hotel-spa-reunion/room.webp", "alt": "villa-delisle-hotel-spa-reunion — room", "type": "room" },
+    { "url": "/images/hotels/villa-delisle-hotel-spa-reunion/pool.webp", "alt": "villa-delisle-hotel-spa-reunion — pool", "type": "pool" },
+    { "url": "/images/hotels/villa-delisle-hotel-spa-reunion/spa.webp", "alt": "villa-delisle-hotel-spa-reunion — spa", "type": "spa" },
+    { "url": "/images/hotels/villa-delisle-hotel-spa-reunion/dining.webp", "alt": "villa-delisle-hotel-spa-reunion — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 8.9,
+  "tripadvisor_award": false,
+  "couples_review_pct": 70,
+  "content": {
+    "verdict": "Villa Delisle is a five-star boutique hotel in Saint Pierre on Réunion's south coast — a rare property that combines colonial Creole architecture with modern luxury spa facilities and exceptional French-Creole cuisine in a genuinely intimate setting. Unlike the west coast beach resorts, Villa Delisle is not a beach hotel — it is a style-led culinary and wellness destination in a lively southern town, ideal for honeymooners who prioritise food, culture, and spa over lagoon swimming. The southern Réunion base also gives excellent access to the Piton de la Fournaise volcano, the wild Plaine des Sables, and the dramatic south coast cliffs.",
+    "best_room": "The Junior Suites in the renovated colonial villa building are the most atmospheric choice — high ceilings, plantation-era architectural details, and modern spa-style bathrooms create an unusual luxury that the newer annexe rooms don't match. The Prestige Suite is the top-of-range option with a private garden terrace and a large double bathtub. All rooms access the central pool and spa.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival in Saint Pierre", "description": "Saint Pierre is Réunion's second city and the capital of the south — more authentic and less touristy than the west coast resort strip. Villa Delisle sits in a restored colonial-era property in the town centre, a short walk from the seafront promenade and the covered market. Check in, explore the town on foot, and dine at the hotel's restaurant, which is considered one of the best addresses for French-Creole cuisine on the island." },
+      { "day": 2, "title": "Piton de la Fournaise", "description": "Saint Pierre is the closest major town to the volcano — the drive to the Pas de Bellecombe viewpoint takes around 1.5 hours. A licensed guide from the hotel's concierge leads a full summit hike across the Enclos Fouqué lava fields. The alien landscape of hardened lava rivers, collapse craters, and active fumaroles is one of the great natural spectacles of the Indian Ocean region." },
+      { "day": 3, "title": "Spa Day & Saint Pierre Exploration", "description": "Villa Delisle's spa is one of Réunion's most sophisticated — a full menu of treatments drawing on Creole botanical traditions. Couples treatments use local ylang-ylang, vanilla, and tropical plant extracts. Morning at the spa, afternoon exploring Saint Pierre's colourful market, the Chinese temple, and the Hindu kovil — the multicultural identity of the city is fascinating." },
+      { "day": 4, "title": "Plaine des Cafres & Cité du Volcan", "description": "The high plateau of the Plaine des Cafres, en route to the volcano, has a distinct mountain character — cattle farming, misty grasslands, and the extraordinary Cité du Volcan museum. A full day exploring this high-altitude zone combines natural history with the best introduction to Réunion's geological story." },
+      { "day": 5, "title": "South Coast Cliffs & Manapany", "description": "The south coast between Saint Pierre and Petite Île has dramatic black basalt cliffs, natural rock pools, and the small resort beach of Manapany-les-Bains — one of the few safe south coast swimming spots. A coastal drive with swimming stops, followed by lunch at a clifftop Creole restaurant, makes for an excellent day away from the hotel." },
+      { "day": 6, "title": "Grand Bassin Waterfall Trek", "description": "The Grand Bassin is an isolated valley accessible only on foot, reached by a dramatic descent of 700 metres from the rim of the Cirque de Cilaos. The waterfall at the valley floor is spectacular. The hike requires a full day and reasonable fitness — but it is one of Réunion's most rewarding walks and finishes with a cold river plunge." },
+      { "day": 7, "title": "Farewell Morning", "description": "A final breakfast at Villa Delisle's terrace restaurant, a last coffee on the colonial veranda. The drive to Roland Garros Airport from Saint Pierre takes around 45 minutes via the south coast expressway." }
+    ],
+    "caveats": [
+      "Villa Delisle is not a beach hotel — the nearest swimming beach is a short drive away, and guests focused on lagoon beach time should consider the west coast resorts instead.",
+      "Saint Pierre is a genuine working city — ambient urban noise and street life are part of the experience. Light sleepers should request rooms facing the internal garden rather than the street.",
+      "The south coast of Réunion has no protected lagoon and swimming conditions on the open ocean beaches require care. The hotel team will advise on safe swimming options."
+    ],
+    "faqs": [
+      { "question": "Is Villa Delisle good for honeymooners?", "answer": "It is exceptional for honeymooners who prioritise culinary excellence, architectural beauty, and wellness over beach-focused resort life. The intimacy of a boutique colonial hotel, the quality of the restaurant, and the spa make it a superb romantic destination — it simply operates on a different register than the beach resorts." },
+      { "question": "What is the best time to visit?", "answer": "May through October is the dry season. June and July bring excellent weather on the south coast. Unlike the west coast, Saint Pierre can receive more cloud cover year-round due to its southern position, but rain showers are typically brief and the green landscape is beautiful." },
+      { "question": "What should we book in advance?", "answer": "The Prestige Suite and Junior Suites in the colonial building book up quickly. Pre-arrange the volcano guided hike, couples spa treatments, and the Grand Bassin walk if fitness allows." },
+      { "question": "Is it adults-only?", "answer": "No, Villa Delisle welcomes children, though the boutique atmosphere and sophisticated culinary focus make it predominantly popular with adult couples and food-oriented travellers." },
+      { "question": "What's the best room for a honeymoon?", "answer": "A Junior Suite in the original colonial villa building for the architectural character, or the Prestige Suite for maximum space and the private garden terrace." },
+      { "question": "How do we get there?", "answer": "Fly to Roland Garros Airport (RUN) then take a taxi or transfer southward along the expressway — approximately 45 minutes to Saint Pierre. The hotel concierge can arrange airport transfers." }
+    ],
+    "email_template": "Subject: Honeymoon booking inquiry — Villa Delisle Hotel & Spa\n\nDear Villa Delisle team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: a Junior Suite in the colonial villa building or the Prestige Suite\n\nCould you please let us know:\n- Current availability for our dates\n- Any honeymoon packages or complimentary upgrades\n- Details on couples spa treatments and volcano excursion arrangements\n\nThank you for your time.\n\n[Your names]"
+  },
+  "last_updated": "2026-04-19T00:00:00.000Z"
+}
