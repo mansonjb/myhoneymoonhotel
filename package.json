@@ -12,7 +12,12 @@
     "pipeline:maldives": "ts-node --project scripts/tsconfig.json scripts/pipeline/run.ts --destination=maldives --limit=10",
     "pipeline:bora-bora": "ts-node --project scripts/tsconfig.json scripts/pipeline/run.ts --destination=bora-bora --limit=10",
     "pipeline:st-lucia": "ts-node --project scripts/tsconfig.json scripts/pipeline/run.ts --destination=st-lucia --limit=10",
-    "pipeline:bali": "ts-node --project scripts/tsconfig.json scripts/pipeline/run.ts --destination bali --limit 5"
+    "pipeline:bali": "ts-node --project scripts/tsconfig.json scripts/pipeline/run.ts --destination bali --limit 5",
+    "pipeline:batch": "ts-node --project scripts/tsconfig.json scripts/pipeline/batch-run.ts",
+    "pipeline:batch:p2": "ts-node --project scripts/tsconfig.json scripts/pipeline/batch-run.ts --phase=2",
+    "pipeline:batch:p3": "ts-node --project scripts/tsconfig.json scripts/pipeline/batch-run.ts --phase=3",
+    "pipeline:batch:all": "ts-node --project scripts/tsconfig.json scripts/pipeline/batch-run.ts --phase=all",
+    "pipeline:dry-run": "ts-node --project scripts/tsconfig.json scripts/pipeline/batch-run.ts --dry-run --phase=all"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.90.0",

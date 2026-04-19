@@ -367,8 +367,9 @@ const DESTINATION_QUERIES: Record<string, string[]> = {
     'romantic beach villa Thailand',
   ],
   'south-africa': [
-    'luxury honeymoon safari lodge South Africa',
-    'romantic adults only game reserve South Africa',
+    'luxury honeymoon safari lodge South Africa Kruger',
+    'romantic adults only game reserve Kruger South Africa',
+    'luxury boutique hotel Cape Town honeymoon',
   ],
   tanzania: [
     'luxury safari honeymoon lodge Tanzania Serengeti',
@@ -383,14 +384,9 @@ const DESTINATION_QUERIES: Record<string, string[]> = {
     'romantic beachfront villa Mauritius',
   ],
   'french-polynesia': [
-    'luxury honeymoon resort Tahiti overwater bungalow',
-    'romantic overwater villa French Polynesia',
-  ],
-  'new-caledonia': [
-    'luxury honeymoon resort New Caledonia',
-  ],
-  macao: [
-    'luxury honeymoon hotel Macau',
+    'luxury honeymoon resort Moorea overwater bungalow',
+    'romantic overwater villa Tahiti honeymoon',
+    'luxury adults only resort French Polynesia',
   ],
   kenya: [
     'luxury honeymoon safari lodge Kenya Masai Mara',
@@ -398,7 +394,8 @@ const DESTINATION_QUERIES: Record<string, string[]> = {
   ],
   indonesia: [
     'luxury honeymoon resort Lombok Indonesia',
-    'romantic beach resort Komodo Indonesia',
+    'romantic overwater villa Nusa Lembongan Bali',
+    'luxury private island resort Komodo Indonesia',
   ],
   cambodia: [
     'luxury honeymoon resort Siem Reap Cambodia',
@@ -430,9 +427,59 @@ const DESTINATION_QUERIES: Record<string, string[]> = {
     'luxury honeymoon resort Tulum Mexico adults only',
     'romantic all-inclusive resort Riviera Maya',
   ],
-  'caribbean': [
+  caribbean: [
     'luxury honeymoon resort Caribbean adults only',
     'romantic beachfront resort St Barts',
+  ],
+  fiji: [
+    'luxury overwater bungalow resort Fiji honeymoon',
+    'romantic private island resort Fiji Yasawa',
+    'luxury honeymoon resort Fiji adults only',
+  ],
+  japan: [
+    'luxury ryokan honeymoon Kyoto Japan',
+    'romantic onsen resort Hakone Japan',
+    'luxury honeymoon hotel Tokyo Japan suite',
+  ],
+  morocco: [
+    'luxury riad honeymoon Marrakech Morocco',
+    'romantic boutique riad Marrakech medina',
+    'luxury desert camp honeymoon Morocco Sahara',
+  ],
+  croatia: [
+    'luxury honeymoon hotel Dubrovnik Croatia',
+    'romantic boutique hotel Hvar Croatia',
+    'luxury villa honeymoon Dalmatian coast Croatia',
+  ],
+  portugal: [
+    'luxury honeymoon hotel Algarve Portugal',
+    'romantic boutique hotel Douro Valley Portugal wine',
+    'luxury adults only resort Madeira Portugal',
+  ],
+  'st-barts': [
+    'luxury honeymoon villa St Barts Caribbean',
+    'romantic boutique hotel Gustavia St Barths',
+  ],
+  'cape-verde': [
+    'luxury honeymoon resort Boa Vista Cape Verde',
+    'romantic beachfront hotel Sal Cape Verde',
+  ],
+  mozambique: [
+    'luxury honeymoon island resort Mozambique Benguerra',
+    'romantic beach lodge Bazaruto Mozambique',
+  ],
+  'sri-lanka': [
+    'luxury honeymoon resort Sri Lanka beach south',
+    'romantic boutique hotel Galle Fort Sri Lanka',
+    'luxury tea estate hotel Ella Sri Lanka',
+  ],
+  reunion: [
+    'luxury honeymoon hotel Reunion Island Indian Ocean',
+    'romantic boutique resort Saint-Gilles Reunion',
+  ],
+  'new-zealand': [
+    'luxury honeymoon lodge Queenstown New Zealand',
+    'romantic boutique hotel Fiordland New Zealand',
   ],
 }
 
