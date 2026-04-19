@@ -112,10 +112,15 @@ export default async function HotelPage({ params }: Props) {
 
         {/* ── PHOTO GALLERY STRIP ── */}
         {galleryPhotos.length > 0 && (
-          <div className="grid grid-cols-4 gap-1.5 px-1.5 mt-1.5">
+          <div className={`grid gap-1.5 px-1.5 mt-1.5 ${
+            galleryPhotos.length === 1 ? 'grid-cols-1 max-w-2xl mx-auto' :
+            galleryPhotos.length === 2 ? 'grid-cols-2' :
+            galleryPhotos.length === 3 ? 'grid-cols-3' :
+            'grid-cols-4'
+          }`}>
             {galleryPhotos.map((photo, i) => (
               <div key={i} className="relative aspect-[4/3] overflow-hidden rounded-xl">
-                <Image src={photo.url} alt={photo.alt} fill loading="lazy" className="object-cover hover:scale-105 transition-transform duration-500" sizes="25vw" />
+                <Image src={photo.url} alt={photo.alt} fill loading="lazy" className="object-cover hover:scale-105 transition-transform duration-500" sizes={galleryPhotos.length === 1 ? '50vw' : '25vw'} />
               </div>
             ))}
           </div>
