@@ -226,6 +226,7 @@ export default async function HotelPage({ params }: Props) {
           </section>
 
           {/* ── TRUE COST ── */}
+          {hotel.content.true_cost_breakdown && hotel.content.true_cost_breakdown.length > 0 && (
           <section>
             <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">No Surprises</p>
             <h2 className="font-display text-3xl text-zinc-900 mb-6">True cost breakdown — 7 nights</h2>
@@ -251,6 +252,7 @@ export default async function HotelPage({ params }: Props) {
               </table>
             </div>
           </section>
+          )}
 
           {/* ── STAY22 ── */}
           <section id="availability">
@@ -287,7 +289,7 @@ export default async function HotelPage({ params }: Props) {
             <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">Honest Assessment</p>
             <h2 className="font-display text-3xl text-zinc-900 mb-6">What to know before you book</h2>
             <div className="space-y-3">
-              {hotel.content.honest_caveats.map((caveat, i) => (
+              {(hotel.content.honest_caveats ?? hotel.content.caveats ?? []).map((caveat, i) => (
                 <div key={i} className="flex gap-4 bg-amber-50 border border-amber-100 rounded-2xl px-6 py-4">
                   <span className="shrink-0 text-amber-500 font-bold text-lg leading-snug">!</span>
                   <p className="text-zinc-700 text-sm leading-relaxed">{caveat}</p>
@@ -303,11 +305,11 @@ export default async function HotelPage({ params }: Props) {
                 <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">Pre-Arrival</p>
                 <h2 className="font-display text-3xl text-zinc-900">Email to send the hotel</h2>
               </div>
-              <CopyButton text={hotel.content.hotel_email_template} />
+              <CopyButton text={hotel.content.hotel_email_template ?? hotel.content.email_template ?? ''} />
             </div>
             <div className="bg-zinc-950 rounded-3xl p-6 sm:p-8">
               <pre className="text-zinc-300 text-sm whitespace-pre-wrap font-mono leading-relaxed overflow-auto">
-                {hotel.content.hotel_email_template}
+                {hotel.content.hotel_email_template ?? hotel.content.email_template}
               </pre>
             </div>
             <p className="text-zinc-400 text-xs mt-3">Send 2 weeks before arrival. Fill in names, dates, and preferences. Hotels respond to personalised requests.</p>

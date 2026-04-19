@@ -24,10 +24,12 @@ export interface HotelContent {
   verdict: string
   best_room: string
   itinerary_7_nights: ItineraryDay[]
-  honest_caveats: string[]
-  hotel_email_template: string
+  honest_caveats?: string[]
+  caveats?: string[]
+  hotel_email_template?: string
+  email_template?: string
   faqs: FAQ[]
-  true_cost_breakdown: TrueCostItem[]
+  true_cost_breakdown?: TrueCostItem[]
 }
 
 export interface HoneymoonScore {
