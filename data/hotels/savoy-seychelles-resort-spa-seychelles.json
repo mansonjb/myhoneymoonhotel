@@ -14,34 +14,34 @@
   "photos": [
     {
       "url": "/images/hotels/savoy-seychelles-resort-spa-seychelles/hero.webp",
-      "alt": "Savoy Seychelles Resort & Spa — hero",
+      "alt": "Savoy Seychelles Resort & Spa \u2014 hero",
       "type": "hero"
     },
     {
       "url": "/images/hotels/savoy-seychelles-resort-spa-seychelles/room.webp",
-      "alt": "Savoy Seychelles Resort & Spa — room",
+      "alt": "Savoy Seychelles Resort & Spa \u2014 room",
       "type": "room"
     },
     {
       "url": "/images/hotels/savoy-seychelles-resort-spa-seychelles/spa.webp",
-      "alt": "Savoy Seychelles Resort & Spa — spa",
+      "alt": "Savoy Seychelles Resort & Spa \u2014 spa",
       "type": "spa"
     },
     {
       "url": "/images/hotels/savoy-seychelles-resort-spa-seychelles/dining.webp",
-      "alt": "Savoy Seychelles Resort & Spa — dining",
+      "alt": "Savoy Seychelles Resort & Spa \u2014 dining",
       "type": "dining"
     },
     {
       "url": "/images/hotels/savoy-seychelles-resort-spa-seychelles/activity.webp",
-      "alt": "Savoy Seychelles Resort & Spa — activity",
+      "alt": "Savoy Seychelles Resort & Spa \u2014 activity",
       "type": "activity"
     }
   ],
   "experience_types": [
-    "luxury",
     "beach",
-    "resort"
+    "luxury",
+    "wellness"
   ],
   "price_per_night_usd": {
     "min": 400,
@@ -64,13 +64,13 @@
     "luxury": 5
   },
   "content": {
-    "verdict": "The Savoy Seychelles sits on Beau Vallon beach — Mahé's longest and most swimmable beach, on the northwest coast. That is the core proposition: a resort with easy, honest beach access on a strip of sand where you can actually walk for a kilometre in each direction, eat at multiple independent restaurants, and explore a functioning local beach town. The Savoy is the most accessible Seychelles luxury experience in terms of price-to-location ratio. It is also the most lively — Beau Vallon is not a secluded cove but a popular beach destination with watersports, local vendors, and other resorts. For honeymooners who want a genuine Seychellois beach town experience alongside their hotel rather than isolation from it, the Savoy is underrated. The 4.3 TripAdvisor rating reflects some inconsistency; book the upper room categories and manage expectations on service to get the most from it. Best for: couples who want beach access, variety, and affordability over romance seclusion.",
-    "best_room": "Book the Premium Ocean Suite — upper floor units with direct sea views over Beau Vallon. Request a high floor facing north toward the bay. Standard rooms face inland or the pool and miss the view that justifies the location. The suite category also gives you a separate living area that makes the room liveable for a week. Avoid ground-floor units near the pool bar for noise reasons.",
+    "verdict": "The Savoy Seychelles sits on Beau Vallon beach \u2014 Mah\u00e9's longest and most swimmable beach, on the northwest coast. That is the core proposition: a resort with easy, honest beach access on a strip of sand where you can actually walk for a kilometre in each direction, eat at multiple independent restaurants, and explore a functioning local beach town. The Savoy is the most accessible Seychelles luxury experience in terms of price-to-location ratio. It is also the most lively \u2014 Beau Vallon is not a secluded cove but a popular beach destination with watersports, local vendors, and other resorts. For honeymooners who want a genuine Seychellois beach town experience alongside their hotel rather than isolation from it, the Savoy is underrated. The 4.3 TripAdvisor rating reflects some inconsistency; book the upper room categories and manage expectations on service to get the most from it. Best for: couples who want beach access, variety, and affordability over romance seclusion.",
+    "best_room": "Book the Premium Ocean Suite \u2014 upper floor units with direct sea views over Beau Vallon. Request a high floor facing north toward the bay. Standard rooms face inland or the pool and miss the view that justifies the location. The suite category also gives you a separate living area that makes the room liveable for a week. Avoid ground-floor units near the pool bar for noise reasons.",
     "itinerary_7_nights": [
       {
         "day": 1,
         "title": "Arrival & Beau Vallon Sunset",
-        "description": "Transfer from Mahé airport is 20–25 minutes, making the Savoy the most accessible resort on the island. Check in quickly and walk directly onto Beau Vallon beach for the sunset — the northwest-facing bay catches exceptional evening light. Eat dinner at one of the independent beach restaurants rather than the hotel on night one; the local grilled fish at Baobab Pizzeria or La Plage is excellent and inexpensive."
+        "description": "Transfer from Mah\u00e9 airport is 20\u201325 minutes, making the Savoy the most accessible resort on the island. Check in quickly and walk directly onto Beau Vallon beach for the sunset \u2014 the northwest-facing bay catches exceptional evening light. Eat dinner at one of the independent beach restaurants rather than the hotel on night one; the local grilled fish at Baobab Pizzeria or La Plage is excellent and inexpensive."
       },
       {
         "day": 2,
@@ -80,40 +80,40 @@
       {
         "day": 3,
         "title": "Victoria Day Trip",
-        "description": "Mahé's capital Victoria is only 10 minutes from Beau Vallon — the easiest capital access of any Seychelles resort. Spend a morning at Sir Selwyn Clarke Market for fresh produce, the Clock Tower, and the Natural History Museum. Good for a short cultural dose before returning to the beach. Victoria has a growing selection of cafés; lunch at Marie Antoinette restaurant (a Seychellois institution) on the hill above town."
+        "description": "Mah\u00e9's capital Victoria is only 10 minutes from Beau Vallon \u2014 the easiest capital access of any Seychelles resort. Spend a morning at Sir Selwyn Clarke Market for fresh produce, the Clock Tower, and the Natural History Museum. Good for a short cultural dose before returning to the beach. Victoria has a growing selection of caf\u00e9s; lunch at Marie Antoinette restaurant (a Seychellois institution) on the hill above town."
       },
       {
         "day": 4,
         "title": "Silhouette Island Day Trip",
-        "description": "The Savoy's location makes it the best hotel for Silhouette Island day trips — a 45-minute boat ride to the third-largest Seychelles island, largely covered in national park. The snorkeling around Silhouette's granite outcrops is outstanding and the island has an untouched quality rare in the inner islands. Book through the resort; trips run daily in good weather."
+        "description": "The Savoy's location makes it the best hotel for Silhouette Island day trips \u2014 a 45-minute boat ride to the third-largest Seychelles island, largely covered in national park. The snorkeling around Silhouette's granite outcrops is outstanding and the island has an untouched quality rare in the inner islands. Book through the resort; trips run daily in good weather."
       },
       {
         "day": 5,
-        "title": "Mahé South Drive & Spa",
-        "description": "Hire a driver through the hotel for a south Mahé exploration — Anse Intendance, the tea plantation at Trois Frères, and a stop at a local rum distillery. Return by 2pm for the Savoy's Infinity Spa: the signature couples treatment in the ocean-view treatment room. Dinner at the resort's main restaurant with the full Creole seafood menu."
+        "title": "Mah\u00e9 South Drive & Spa",
+        "description": "Hire a driver through the hotel for a south Mah\u00e9 exploration \u2014 Anse Intendance, the tea plantation at Trois Fr\u00e8res, and a stop at a local rum distillery. Return by 2pm for the Savoy's Infinity Spa: the signature couples treatment in the ocean-view treatment room. Dinner at the resort's main restaurant with the full Creole seafood menu."
       },
       {
         "day": 6,
         "title": "Sunset Sailing & Private Dinner",
-        "description": "Book a private sunset catamaran from Beau Vallon — several local operators offer 2-hour private trips around the northern tip of Mahé with champagne on board. Return for a room service private dinner ordered to your suite. The Savoy's ocean suite terrace has good sunset views — end the evening watching the last light over the bay."
+        "description": "Book a private sunset catamaran from Beau Vallon \u2014 several local operators offer 2-hour private trips around the northern tip of Mah\u00e9 with champagne on board. Return for a room service private dinner ordered to your suite. The Savoy's ocean suite terrace has good sunset views \u2014 end the evening watching the last light over the bay."
       },
       {
         "day": 7,
         "title": "Final Morning & Departure",
-        "description": "Breakfast on your ocean-view terrace, one last swim on Beau Vallon. The airport is 25 minutes away — the closest of any Seychelles resort to international departures, which makes the Savoy useful for a late checkout and final afternoon swim."
+        "description": "Breakfast on your ocean-view terrace, one last swim on Beau Vallon. The airport is 25 minutes away \u2014 the closest of any Seychelles resort to international departures, which makes the Savoy useful for a late checkout and final afternoon swim."
       }
     ],
     "honest_caveats": [
-      "Beau Vallon is a public, popular beach with vendors, watersports, and other hotels. There is no sense of private or exclusive beach access — if exclusivity matters, the Savoy is the wrong choice.",
+      "Beau Vallon is a public, popular beach with vendors, watersports, and other hotels. There is no sense of private or exclusive beach access \u2014 if exclusivity matters, the Savoy is the wrong choice.",
       "The TripAdvisor rating of 4.3 is the lowest on this list and reflects some service inconsistency. Read recent reviews carefully and book the suite category to access the better service tiers.",
-      "The resort has a large pool and can feel busy in high season — families are a regular guest segment. The romance quotient is lower than boutique alternatives.",
-      "Beau Vallon faces northwest and can receive some swell during the December–March NW trade wind season. The beach remains swimmable but can be less pristine than in calm season."
+      "The resort has a large pool and can feel busy in high season \u2014 families are a regular guest segment. The romance quotient is lower than boutique alternatives.",
+      "Beau Vallon faces northwest and can receive some swell during the December\u2013March NW trade wind season. The beach remains swimmable but can be less pristine than in calm season."
     ],
-    "hotel_email_template": "Subject: Honeymoon Booking — [Your Names] — [Check-in Date]\n\nDear Savoy Seychelles Reservations Team,\n\nMy partner and I are honeymooning at your resort from [check-in] to [check-out] (Booking reference: [reference]).\n\nTwo preferences we would be grateful for:\n1. A Premium Ocean Suite on a high floor with direct views over Beau Vallon Bay — facing north away from the pool bar if possible to minimize ambient noise\n2. We would like to book a couples treatment at the Infinity Spa for the morning of [date] — the signature coconut massage treatment in the ocean-view room if available\n\nFor a special request: could we arrange a private in-room dinner delivered to our suite terrace on the evening of [date]? We would appreciate the catch-of-the-day seafood menu if the kitchen can accommodate.\n\nMany thanks, and we look forward to our stay.\n\nWarmly,\n[Your Names]",
+    "hotel_email_template": "Subject: Honeymoon Booking \u2014 [Your Names] \u2014 [Check-in Date]\n\nDear Savoy Seychelles Reservations Team,\n\nMy partner and I are honeymooning at your resort from [check-in] to [check-out] (Booking reference: [reference]).\n\nTwo preferences we would be grateful for:\n1. A Premium Ocean Suite on a high floor with direct views over Beau Vallon Bay \u2014 facing north away from the pool bar if possible to minimize ambient noise\n2. We would like to book a couples treatment at the Infinity Spa for the morning of [date] \u2014 the signature coconut massage treatment in the ocean-view room if available\n\nFor a special request: could we arrange a private in-room dinner delivered to our suite terrace on the evening of [date]? We would appreciate the catch-of-the-day seafood menu if the kitchen can accommodate.\n\nMany thanks, and we look forward to our stay.\n\nWarmly,\n[Your Names]",
     "faqs": [
       {
         "question": "Is Savoy Seychelles Resort & Spa good for a honeymoon?",
-        "answer": "It can be — the Beau Vallon beach location is genuinely excellent and the access to watersports, local restaurants, and Victoria gives it variety other resorts cannot match. Manage expectations: it is a large beach resort rather than a romantic escape, and service is not as consistently refined as more expensive alternatives. Book a suite and it delivers solid value."
+        "answer": "It can be \u2014 the Beau Vallon beach location is genuinely excellent and the access to watersports, local restaurants, and Victoria gives it variety other resorts cannot match. Manage expectations: it is a large beach resort rather than a romantic escape, and service is not as consistently refined as more expensive alternatives. Book a suite and it delivers solid value."
       },
       {
         "question": "Best room for honeymooners?",
@@ -121,49 +121,49 @@
       },
       {
         "question": "Best time to visit the Seychelles?",
-        "answer": "April–May and October–November offer the calmest conditions on Beau Vallon — flat water, good snorkeling visibility, and consistent sunshine. The NW trade winds (December–March) can bring some choppiness to the northwest-facing bay. June–August is the SE trade wind season when Beau Vallon is generally calm and well-sheltered — a good budget-season option."
+        "answer": "April\u2013May and October\u2013November offer the calmest conditions on Beau Vallon \u2014 flat water, good snorkeling visibility, and consistent sunshine. The NW trade winds (December\u2013March) can bring some choppiness to the northwest-facing bay. June\u2013August is the SE trade wind season when Beau Vallon is generally calm and well-sheltered \u2014 a good budget-season option."
       },
       {
         "question": "Which island is the Savoy on and how do you get there?",
-        "answer": "The Savoy is on Mahé, the main island, at Beau Vallon beach on the northwest coast — just 20–25 minutes from Seychelles International Airport. No domestic transfer is needed. It is the most accessible of all the Seychelles luxury resorts from the airport, which is an advantage if you want to minimize travel on arrival and departure day."
+        "answer": "The Savoy is on Mah\u00e9, the main island, at Beau Vallon beach on the northwest coast \u2014 just 20\u201325 minutes from Seychelles International Airport. No domestic transfer is needed. It is the most accessible of all the Seychelles luxury resorts from the airport, which is an advantage if you want to minimize travel on arrival and departure day."
       },
       {
         "question": "What's the snorkeling/diving like?",
-        "answer": "Good — the headland rocks at the north end of Beau Vallon have decent reef fish and occasional turtles. For better diving, local operators at Beau Vallon offer trips to sites including Shark Bank, one of the most famous dive sites in Seychelles with large pelagics including whale sharks in season. The Savoy's proximity to multiple independent dive operators is an advantage."
+        "answer": "Good \u2014 the headland rocks at the north end of Beau Vallon have decent reef fish and occasional turtles. For better diving, local operators at Beau Vallon offer trips to sites including Shark Bank, one of the most famous dive sites in Seychelles with large pelagics including whale sharks in season. The Savoy's proximity to multiple independent dive operators is an advantage."
       },
       {
         "question": "Insider tip for honeymooners?",
-        "answer": "Skip the hotel restaurants at least twice and eat at independent restaurants along Beau Vallon beach — La Plage and Baobab Pizzeria serve excellent fresh Creole fish at a fraction of hotel prices. This leaves budget for the thing worth splashing on at the Savoy: a private catamaran sunset from Beau Vallon, one of the most beautiful and inexpensive romantic experiences on Mahé."
+        "answer": "Skip the hotel restaurants at least twice and eat at independent restaurants along Beau Vallon beach \u2014 La Plage and Baobab Pizzeria serve excellent fresh Creole fish at a fraction of hotel prices. This leaves budget for the thing worth splashing on at the Savoy: a private catamaran sunset from Beau Vallon, one of the most beautiful and inexpensive romantic experiences on Mah\u00e9."
       }
     ],
     "true_cost_breakdown": [
       {
         "item": "7 nights Premium Ocean Suite",
-        "cost_usd": "$3,500–$6,300"
+        "cost_usd": "$3,500\u2013$6,300"
       },
       {
         "item": "Flights to Seychelles (per couple, from Europe/US)",
-        "cost_usd": "$2,400–$5,000"
+        "cost_usd": "$2,400\u2013$5,000"
       },
       {
         "item": "Inter-island transfers (if applicable)",
-        "cost_usd": "$0 (Mahé — no transfer needed)"
+        "cost_usd": "$0 (Mah\u00e9 \u2014 no transfer needed)"
       },
       {
         "item": "Dining (7 days)",
-        "cost_usd": "$500–$900"
+        "cost_usd": "$500\u2013$900"
       },
       {
         "item": "Couples spa",
-        "cost_usd": "$300–$500"
+        "cost_usd": "$300\u2013$500"
       },
       {
         "item": "Island hopping / excursions",
-        "cost_usd": "$400–$700"
+        "cost_usd": "$400\u2013$700"
       },
       {
         "item": "Total (estimated)",
-        "cost_usd": "$7,100–$13,400"
+        "cost_usd": "$7,100\u2013$13,400"
       }
     ]
   },
