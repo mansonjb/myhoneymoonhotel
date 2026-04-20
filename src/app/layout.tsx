@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import { Geist } from 'next/font/google'
 import { Instrument_Serif } from 'next/font/google'
 import Link from 'next/link'
+import CookieBanner from '@/components/CookieBanner'
+import NewsletterCapture from '@/components/NewsletterCapture'
 import './globals.css'
 
 const geist = Geist({ subsets: ['latin'], variable: '--font-geist' })
@@ -104,14 +106,24 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <div>
                   <h3 className="text-xs font-semibold uppercase tracking-widest text-zinc-400 mb-4">About</h3>
                   <ul className="space-y-2.5 text-sm text-zinc-500">
-                    <li className="text-zinc-400 text-xs leading-relaxed">Honeymoon Score™ — our algorithmic ranking on romance-specific criteria</li>
-                    <li className="mt-4 flex gap-2 flex-wrap">
-                      <span className="border border-zinc-200 text-zinc-400 rounded-full px-3 py-1 text-xs">4,200+ Hotels</span>
-                      <span className="border border-zinc-200 text-zinc-400 rounded-full px-3 py-1 text-xs">30+ Destinations</span>
-                    </li>
+                    <li><Link href="/about" className="hover:text-zinc-900 transition-colors">Our story</Link></li>
+                    <li><Link href="/quiz" className="hover:text-zinc-900 transition-colors">Find my hotel</Link></li>
+                    <li><Link href="/contact" className="hover:text-zinc-900 transition-colors">Contact</Link></li>
+                    <li><Link href="/affiliate-disclosure" className="hover:text-zinc-900 transition-colors">Affiliate disclosure</Link></li>
+                    <li><Link href="/privacy" className="hover:text-zinc-900 transition-colors">Privacy</Link></li>
+                    <li><Link href="/terms" className="hover:text-zinc-900 transition-colors">Terms</Link></li>
                   </ul>
                 </div>
               </div>
+            </div>
+
+            {/* Newsletter capture */}
+            <div className="border-t border-zinc-100 pt-10 pb-10 mb-4 max-w-xl">
+              <h3 className="font-display text-2xl text-zinc-900 mb-2">Get the best new honeymoon hotels</h3>
+              <p className="text-zinc-500 text-sm mb-5 leading-relaxed">
+                One email a month. The 3 newest properties we scored above 90, plus the honest pick of the month. No spam, unsubscribe any time.
+              </p>
+              <NewsletterCapture />
             </div>
 
             <div className="border-t border-zinc-100 pt-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs text-zinc-400">
@@ -121,6 +133,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </div>
         </footer>
 
+        <CookieBanner />
       </body>
     </html>
   )
