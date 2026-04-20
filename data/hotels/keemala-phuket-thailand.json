@@ -3,7 +3,10 @@
   "name": "Keemala Phuket",
   "destination": "thailand",
   "country": "thailand",
-  "experience_types": ["luxury", "wellness"],
+  "experience_types": [
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 89,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +20,50 @@
     "luxury": 10
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 600, "max": 2000 },
+  "price_per_night_usd": {
+    "min": 600,
+    "max": 2000
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "room service", "butler service", "tree-house villas", "pool nests", "cocoon villas", "two restaurants", "yoga", "meditation", "rainforest setting"],
+  "amenities": [
+    "spa",
+    "pool",
+    "room service",
+    "butler service",
+    "tree-house villas",
+    "pool nests",
+    "cocoon villas",
+    "two restaurants",
+    "yoga",
+    "meditation",
+    "rainforest setting"
+  ],
   "photos": [
-    { "url": "/images/hotels/keemala-phuket-thailand/hero.webp", "alt": "keemala-phuket-thailand — hero", "type": "hero" },
-    { "url": "/images/hotels/keemala-phuket-thailand/room.webp", "alt": "keemala-phuket-thailand — room", "type": "room" },
-    { "url": "/images/hotels/keemala-phuket-thailand/pool.webp", "alt": "keemala-phuket-thailand — pool", "type": "pool" },
-    { "url": "/images/hotels/keemala-phuket-thailand/spa.webp", "alt": "keemala-phuket-thailand — spa", "type": "spa" },
-    { "url": "/images/hotels/keemala-phuket-thailand/dining.webp", "alt": "keemala-phuket-thailand — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/keemala-phuket-thailand/hero.webp",
+      "alt": "keemala-phuket-thailand — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/keemala-phuket-thailand/room.webp",
+      "alt": "keemala-phuket-thailand — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/keemala-phuket-thailand/pool.webp",
+      "alt": "keemala-phuket-thailand — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/keemala-phuket-thailand/spa.webp",
+      "alt": "keemala-phuket-thailand — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/keemala-phuket-thailand/dining.webp",
+      "alt": "keemala-phuket-thailand — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.5,
   "tripadvisor_award": true,
@@ -34,13 +72,41 @@
     "verdict": "Keemala is unlike any other resort in Thailand — a collection of spectacular villa types built into a tropical rainforest hillside above Kamala Beach, each inspired by mythical Thai clans with extraordinary architectural fantasy. Guests choose from Pool Nests (elevated sphere-shaped villas in the forest canopy), Tree Houses (glass-and-bamboo structures suspended between trees), Cocoon Villas (cocoon-shaped rooms on stilts), or Tent Pool Villas. Every villa has a private pool, butler service, and a sense of being entirely suspended in the rainforest. It is one of the most visually extraordinary honeymoon experiences in the world.",
     "best_room": "The Tree House Pool Villas are the most iconic — suspended wooden structures between ancient trees, with 180-degree forest views from a wraparound glass-walled bedroom and a private infinity pool on the deck. For maximum fantasy, the Pool Nests are the resort's most photographed rooms — spherical structures nestled in the forest canopy that glow like lanterns at night and feel like sleeping inside a work of art.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Rainforest Immersion", "description": "Arrive from Phuket Airport (30 minutes) and step from the hotel car into a fragrant tropical forest where birdsong and the sound of cicadas replace the sounds of the world you left behind. Your villa is reached by a rainforest path lit by lanterns, and the experience of opening the door to your Tree House or Pool Nest for the first time — suspended in the canopy with a private pool glowing in the dusk — is an unforgettable honeymoon moment. Dinner at Mala, the resort's Thai restaurant in a rainforest pavilion, sets the enchanted tone." },
-      { "day": 2, "title": "Mala Spa & Forest Bathing", "description": "Book the Keemala Couples Retreat — a 3-hour experience at Mala Spa that weaves Thai herbal compress massage, a shared ceremonial herbal bath in a private forest pool, and a closing restorative sound healing session. The spa itself is one of the most beautiful in Asia — open-air treatment salas built into the hillside with forest views on all sides. Follow with a forest bathing walk guided by the resident wellness practitioner." },
-      { "day": 3, "title": "Kamala Beach & Surin Beach", "description": "Walk the 5-minute forested path down to Kamala Beach for a morning on Phuket's most peaceful stretch of sand — wide, calm, and lined with casuarina trees rather than tourist infrastructure. In the afternoon, take a 10-minute drive to Surin Beach, considered the most beautiful beach on Phuket's west coast, for a late swim and sunset cocktails at one of the chic beach restaurants." },
-      { "day": 4, "title": "Phang Nga Bay by Private Speedboat", "description": "Arrange a private speedboat charter from nearby Ao Po Grand Marina for a full day in Phang Nga Bay — the karst-studded bay is 45 minutes from Kamala Beach and entirely worth the transfer. Visit James Bond Island, kayak sea caves, and discover hidden lagoons in the limestone towers. The resort's culinary team prepares a Thai picnic basket for a perfect lunch on the water." },
-      { "day": 5, "title": "Yoga in the Trees & Candlelit Dinner", "description": "Begin with a private sunrise yoga session on the floating yoga deck above the resort's main pool — an extraordinary setting for practice, surrounded by forest on all sides and with views of the Andaman Sea through the tree canopy. Spend the day at leisure in your villa, then request the 'Dinner in the Forest' private dining setup — a candlelit table for two set on a private forest deck with fireflies and frogs as your ambiance." },
-      { "day": 6, "title": "Snorkel & Spa Day", "description": "Take a morning boat trip to the offshore islands near Kamala for snorkeling over healthy coral reefs, then return for a second afternoon at the spa — perhaps the traditional Thai herbal steam followed by a customized facial using ingredients from the resort's organic herb garden. The evening belongs to your villa's private pool as the forest fills with evening sounds." },
-      { "day": 7, "title": "Farewell Morning", "description": "Rise with the forest — the birds and insects begin their morning chorus well before dawn. Sit in your villa's pool watching morning light filter through the canopy and know that very few places on Earth offer this quality of beauty and tranquility. A final Thai breakfast from room service on the villa terrace, then the walk down the lantern-lit path to the waiting car." }
+      {
+        "day": 1,
+        "title": "Arrival & Rainforest Immersion",
+        "description": "Arrive from Phuket Airport (30 minutes) and step from the hotel car into a fragrant tropical forest where birdsong and the sound of cicadas replace the sounds of the world you left behind. Your villa is reached by a rainforest path lit by lanterns, and the experience of opening the door to your Tree House or Pool Nest for the first time — suspended in the canopy with a private pool glowing in the dusk — is an unforgettable honeymoon moment. Dinner at Mala, the resort's Thai restaurant in a rainforest pavilion, sets the enchanted tone."
+      },
+      {
+        "day": 2,
+        "title": "Mala Spa & Forest Bathing",
+        "description": "Book the Keemala Couples Retreat — a 3-hour experience at Mala Spa that weaves Thai herbal compress massage, a shared ceremonial herbal bath in a private forest pool, and a closing restorative sound healing session. The spa itself is one of the most beautiful in Asia — open-air treatment salas built into the hillside with forest views on all sides. Follow with a forest bathing walk guided by the resident wellness practitioner."
+      },
+      {
+        "day": 3,
+        "title": "Kamala Beach & Surin Beach",
+        "description": "Walk the 5-minute forested path down to Kamala Beach for a morning on Phuket's most peaceful stretch of sand — wide, calm, and lined with casuarina trees rather than tourist infrastructure. In the afternoon, take a 10-minute drive to Surin Beach, considered the most beautiful beach on Phuket's west coast, for a late swim and sunset cocktails at one of the chic beach restaurants."
+      },
+      {
+        "day": 4,
+        "title": "Phang Nga Bay by Private Speedboat",
+        "description": "Arrange a private speedboat charter from nearby Ao Po Grand Marina for a full day in Phang Nga Bay — the karst-studded bay is 45 minutes from Kamala Beach and entirely worth the transfer. Visit James Bond Island, kayak sea caves, and discover hidden lagoons in the limestone towers. The resort's culinary team prepares a Thai picnic basket for a perfect lunch on the water."
+      },
+      {
+        "day": 5,
+        "title": "Yoga in the Trees & Candlelit Dinner",
+        "description": "Begin with a private sunrise yoga session on the floating yoga deck above the resort's main pool — an extraordinary setting for practice, surrounded by forest on all sides and with views of the Andaman Sea through the tree canopy. Spend the day at leisure in your villa, then request the 'Dinner in the Forest' private dining setup — a candlelit table for two set on a private forest deck with fireflies and frogs as your ambiance."
+      },
+      {
+        "day": 6,
+        "title": "Snorkel & Spa Day",
+        "description": "Take a morning boat trip to the offshore islands near Kamala for snorkeling over healthy coral reefs, then return for a second afternoon at the spa — perhaps the traditional Thai herbal steam followed by a customized facial using ingredients from the resort's organic herb garden. The evening belongs to your villa's private pool as the forest fills with evening sounds."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "Rise with the forest — the birds and insects begin their morning chorus well before dawn. Sit in your villa's pool watching morning light filter through the canopy and know that very few places on Earth offer this quality of beauty and tranquility. A final Thai breakfast from room service on the villa terrace, then the walk down the lantern-lit path to the waiting car."
+      }
     ],
     "caveats": [
       "Keemala is not a beach resort — it is a rainforest hillside retreat above the coast, and the beach (Kamala) requires a 5-minute walk or short drive. Couples who want direct beachfront access should choose a different resort.",

@@ -3,7 +3,11 @@
   "name": "Tokoriki Island Resort",
   "destination": "fiji",
   "country": "fiji",
-  "experience_types": ["beach", "adults-only", "luxury"],
+  "experience_types": [
+    "beach",
+    "adults-only",
+    "luxury"
+  ],
   "honeymoon_score": 89,
   "score_breakdown": {
     "adults_only": 20,
@@ -17,15 +21,49 @@
     "luxury": 4
   },
   "stars": 4,
-  "price_per_night_usd": { "min": 600, "max": 1800 },
+  "price_per_night_usd": {
+    "min": 600,
+    "max": 1800
+  },
   "adults_only": true,
-  "amenities": ["spa", "pool", "beach", "room service", "adults-only", "snorkeling", "diving", "water sports", "tennis", "all-inclusive available"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beach",
+    "room service",
+    "adults-only",
+    "snorkeling",
+    "diving",
+    "water sports",
+    "tennis",
+    "all-inclusive available"
+  ],
   "photos": [
-    { "url": "/images/hotels/tokoriki-island-resort-fiji/hero.webp", "alt": "tokoriki-island-resort-fiji — hero", "type": "hero" },
-    { "url": "/images/hotels/tokoriki-island-resort-fiji/room.webp", "alt": "tokoriki-island-resort-fiji — room", "type": "room" },
-    { "url": "/images/hotels/tokoriki-island-resort-fiji/pool.webp", "alt": "tokoriki-island-resort-fiji — pool", "type": "pool" },
-    { "url": "/images/hotels/tokoriki-island-resort-fiji/spa.webp", "alt": "tokoriki-island-resort-fiji — spa", "type": "spa" },
-    { "url": "/images/hotels/tokoriki-island-resort-fiji/dining.webp", "alt": "tokoriki-island-resort-fiji — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/tokoriki-island-resort-fiji/hero.webp",
+      "alt": "tokoriki-island-resort-fiji — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/tokoriki-island-resort-fiji/room.webp",
+      "alt": "tokoriki-island-resort-fiji — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/tokoriki-island-resort-fiji/pool.webp",
+      "alt": "tokoriki-island-resort-fiji — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/tokoriki-island-resort-fiji/spa.webp",
+      "alt": "tokoriki-island-resort-fiji — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/tokoriki-island-resort-fiji/dining.webp",
+      "alt": "tokoriki-island-resort-fiji — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.2,
   "tripadvisor_award": true,
@@ -34,13 +72,41 @@
     "verdict": "Tokoriki Island Resort is one of the Mamanuca Islands' finest adults-only retreats — 35 individual villas on a compact, beautiful island with Fiji's famous west-coast sunset views available every single evening. The adults-only policy creates a guaranteed romantic atmosphere throughout, and the optional all-inclusive package makes budgeting simple. The four-star rating reflects honest positioning rather than any quality deficit — the product is excellent, genuinely romantic, and substantially more accessible in price than the private island alternatives. Perfect for couples who want a true Fijian island honeymoon without private island pricing.",
     "best_room": "The Beachfront Pool Villas are Tokoriki's top category and the clear choice for honeymooners — individual bures with private plunge pools stepped directly onto the beach, king beds under ceiling fans, and large outdoor bathrooms with garden showers. The outdoor shower under the Mamanuca stars is one of the villa's most romantic features. Request a villa on the island's western shore for the most direct sunset view over the Mamanuca group.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & First Fijian Sunset", "description": "The transfer boat from Port Denarau takes about one hour across the Mamanuca channel — on a clear day the islands are visible from the mainland and the anticipation builds with every nautical mile. Arrival at the Tokoriki jetty with a traditional Bula welcome from the team and a cold fresh coconut is followed by the discovery of your villa and the first Mamanuca sunset, which the west coast of Fiji turns into something spectacular every evening." },
-      { "day": 2, "title": "Snorkel & Lagoon Discovery", "description": "Tokoriki's house reef is accessible directly from the beach and offers a reliable introduction to Fijian reef snorkeling — coral gardens, sergeant major fish, and the occasional passing shark from the deeper water beyond the reef edge. A guided snorkel excursion to the best nearby sites deepens the experience. The adults-only atmosphere means the beach and ocean are shared only with other couples — immediately apparent and deeply pleasant." },
-      { "day": 3, "title": "Couples' Spa & Infinity Pool Afternoon", "description": "Tokoriki's spa is small but well-run — a couples' traditional Fijian massage using coconut oil and frangipani is beautifully relaxing. In the afternoon, the infinity pool overlooking the western channel is one of the best sunset-watching locations on the island. Order a cocktail from the pool bar and watch the Yasawa Islands appear as silhouettes on the horizon as the sky changes colour." },
-      { "day": 4, "title": "Day Trip to Cloud 9 & Nearby Islands", "description": "Cloud 9, a floating pizzeria and champagne bar moored above a reef in the Mamanuca group, is one of Fiji's most celebrated afternoon experiences — a sundowner destination accessible by water taxi from Tokoriki. Alternatively, a boat trip to the uninhabited sandbank islands north of Tokoriki for a private picnic is one of the most quietly perfect day-trip options in the Mamanucas." },
-      { "day": 5, "title": "PADI Dive & Kava Night", "description": "The Mamanuca dive sites include healthy coral walls and a famous soft coral dive at E6 accessible within 30 minutes of the island. A morning two-tank dive with the resident PADI instructor is followed by a lazy afternoon. In the evening, the Tokoriki team hosts a traditional kava ceremony for all guests — the sevusevu, the clapping, and the meke songs are a genuine and joyful introduction to Fijian culture." },
-      { "day": 6, "title": "Private Beach Dinner", "description": "Tokoriki's team sets up a private candlelit dinner for two on the beach away from the main restaurant — a table, lanterns, a bottle of wine, and the sound of the Pacific as your evening's soundtrack. The kitchen produces genuinely good food: fresh Fijian fish, Pacific lobster in season, and tropical desserts. The night sky over the Mamanucas without city light pollution is enormous and extraordinary." },
-      { "day": 7, "title": "Final Morning Swim & Farewell", "description": "A last morning in the turquoise Mamanuca water before the boat transfer back to Denarau. Tokoriki's team is renowned for warm, personal farewells — the connections made with staff over a week feel genuine rather than transactional. A handwoven Fijian basket with island produce is a standard parting gift." }
+      {
+        "day": 1,
+        "title": "Arrival & First Fijian Sunset",
+        "description": "The transfer boat from Port Denarau takes about one hour across the Mamanuca channel — on a clear day the islands are visible from the mainland and the anticipation builds with every nautical mile. Arrival at the Tokoriki jetty with a traditional Bula welcome from the team and a cold fresh coconut is followed by the discovery of your villa and the first Mamanuca sunset, which the west coast of Fiji turns into something spectacular every evening."
+      },
+      {
+        "day": 2,
+        "title": "Snorkel & Lagoon Discovery",
+        "description": "Tokoriki's house reef is accessible directly from the beach and offers a reliable introduction to Fijian reef snorkeling — coral gardens, sergeant major fish, and the occasional passing shark from the deeper water beyond the reef edge. A guided snorkel excursion to the best nearby sites deepens the experience. The adults-only atmosphere means the beach and ocean are shared only with other couples — immediately apparent and deeply pleasant."
+      },
+      {
+        "day": 3,
+        "title": "Couples' Spa & Infinity Pool Afternoon",
+        "description": "Tokoriki's spa is small but well-run — a couples' traditional Fijian massage using coconut oil and frangipani is beautifully relaxing. In the afternoon, the infinity pool overlooking the western channel is one of the best sunset-watching locations on the island. Order a cocktail from the pool bar and watch the Yasawa Islands appear as silhouettes on the horizon as the sky changes colour."
+      },
+      {
+        "day": 4,
+        "title": "Day Trip to Cloud 9 & Nearby Islands",
+        "description": "Cloud 9, a floating pizzeria and champagne bar moored above a reef in the Mamanuca group, is one of Fiji's most celebrated afternoon experiences — a sundowner destination accessible by water taxi from Tokoriki. Alternatively, a boat trip to the uninhabited sandbank islands north of Tokoriki for a private picnic is one of the most quietly perfect day-trip options in the Mamanucas."
+      },
+      {
+        "day": 5,
+        "title": "PADI Dive & Kava Night",
+        "description": "The Mamanuca dive sites include healthy coral walls and a famous soft coral dive at E6 accessible within 30 minutes of the island. A morning two-tank dive with the resident PADI instructor is followed by a lazy afternoon. In the evening, the Tokoriki team hosts a traditional kava ceremony for all guests — the sevusevu, the clapping, and the meke songs are a genuine and joyful introduction to Fijian culture."
+      },
+      {
+        "day": 6,
+        "title": "Private Beach Dinner",
+        "description": "Tokoriki's team sets up a private candlelit dinner for two on the beach away from the main restaurant — a table, lanterns, a bottle of wine, and the sound of the Pacific as your evening's soundtrack. The kitchen produces genuinely good food: fresh Fijian fish, Pacific lobster in season, and tropical desserts. The night sky over the Mamanucas without city light pollution is enormous and extraordinary."
+      },
+      {
+        "day": 7,
+        "title": "Final Morning Swim & Farewell",
+        "description": "A last morning in the turquoise Mamanuca water before the boat transfer back to Denarau. Tokoriki's team is renowned for warm, personal farewells — the connections made with staff over a week feel genuine rather than transactional. A handwoven Fijian basket with island produce is a standard parting gift."
+      }
     ],
     "caveats": [
       "Tokoriki is a four-star property and the room finish and service level reflects this — excellent but not at the level of five-star private island properties. Couples expecting Laucala or Kokomo quality at Tokoriki's price point will be disappointed.",
@@ -48,12 +114,30 @@
       "Transfer to the island from Port Denarau takes one hour by boat in normal conditions — in rough weather this can be uncomfortable."
     ],
     "faqs": [
-      { "question": "Is Tokoriki Island Resort good for honeymooners?", "answer": "Tokoriki is one of Fiji's most popular honeymoon destinations at its price point — the adults-only guarantee, beautiful west-facing sunset beach, private plunge pool villas, and genuine Fijian island atmosphere create an excellent honeymoon at a much more accessible price than the ultra-luxury private islands. The overwhelming majority of guests are honeymooners and couples, making the atmosphere consistently romantic." },
-      { "question": "What is the best time to visit?", "answer": "May through October is Fiji's dry season and best for Tokoriki — calm seas for the transfer boat, excellent snorkeling and diving visibility, and reliably warm weather. The western Mamanuca islands receive less rainfall than the eastern islands year-round, making Tokoriki one of the more weather-reliable choices." },
-      { "question": "What should we book in advance?", "answer": "Reserve a Beachfront Pool Villa specifically at booking and request a western sunset-facing unit. Book the all-inclusive package at reservation time for the best rates. Pre-arrange the private beach dinner as the team needs at least 24 hours notice to set up the location and prepare the menu." },
-      { "question": "Is it adults-only?", "answer": "Yes, Tokoriki Island Resort is strictly adults-only — a core part of the resort's identity and its primary differentiator within the Mamanuca group. Guests must be 18 years or older. The adults-only atmosphere is consistent throughout the property including the beach, pool, and all restaurants." },
-      { "question": "What's the best room type for a honeymoon?", "answer": "The Beachfront Pool Villa is the definitive honeymoon choice — private plunge pool directly on the sand, an outdoor garden shower, and the best sunset views on the island. The Garden Pool Villa category is an excellent alternative at a lower price point for couples who don't require beachfront positioning." },
-      { "question": "How do we get there?", "answer": "Transfer from Port Denarau Marina, approximately 30 minutes south of Nadi International Airport, by Tokoriki's own transfer boat — the journey takes about one hour. Transfers are included in most room packages. Seaplane transfers are available from Nadi for a faster but more expensive option." }
+      {
+        "question": "Is Tokoriki Island Resort good for honeymooners?",
+        "answer": "Tokoriki is one of Fiji's most popular honeymoon destinations at its price point — the adults-only guarantee, beautiful west-facing sunset beach, private plunge pool villas, and genuine Fijian island atmosphere create an excellent honeymoon at a much more accessible price than the ultra-luxury private islands. The overwhelming majority of guests are honeymooners and couples, making the atmosphere consistently romantic."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "May through October is Fiji's dry season and best for Tokoriki — calm seas for the transfer boat, excellent snorkeling and diving visibility, and reliably warm weather. The western Mamanuca islands receive less rainfall than the eastern islands year-round, making Tokoriki one of the more weather-reliable choices."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "Reserve a Beachfront Pool Villa specifically at booking and request a western sunset-facing unit. Book the all-inclusive package at reservation time for the best rates. Pre-arrange the private beach dinner as the team needs at least 24 hours notice to set up the location and prepare the menu."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "Yes, Tokoriki Island Resort is strictly adults-only — a core part of the resort's identity and its primary differentiator within the Mamanuca group. Guests must be 18 years or older. The adults-only atmosphere is consistent throughout the property including the beach, pool, and all restaurants."
+      },
+      {
+        "question": "What's the best room type for a honeymoon?",
+        "answer": "The Beachfront Pool Villa is the definitive honeymoon choice — private plunge pool directly on the sand, an outdoor garden shower, and the best sunset views on the island. The Garden Pool Villa category is an excellent alternative at a lower price point for couples who don't require beachfront positioning."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "Transfer from Port Denarau Marina, approximately 30 minutes south of Nadi International Airport, by Tokoriki's own transfer boat — the journey takes about one hour. Transfers are included in most room packages. Seaplane transfers are available from Nadi for a faster but more expensive option."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Tokoriki Island Resort\n\nDear Tokoriki Island Resort team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: a Beachfront Pool Villa on the sunset side and the all-inclusive package.\n\nCould you please let us know:\n- Current availability for our dates\n- Details on the all-inclusive package and honeymoon enhancements\n- How to arrange a private beach dinner and the kava ceremony schedule\n\nThank you for your time.\n\n[Your names]"
   },

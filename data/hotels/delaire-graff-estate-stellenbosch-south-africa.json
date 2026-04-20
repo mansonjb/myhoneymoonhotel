@@ -3,19 +3,60 @@
   "name": "Delaire Graff Estate",
   "destination": "south-africa",
   "country": "south-africa",
-  "experience_types": ["luxury", "wellness"],
+  "experience_types": [
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 91,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 20, "spa": 15, "award": 10, "pool": 10, "beach": 0, "room_service": 10, "stars": 20, "luxury": 6 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 20,
+    "spa": 15,
+    "award": 10,
+    "pool": 10,
+    "beach": 0,
+    "room_service": 10,
+    "stars": 20,
+    "luxury": 6
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 700, "max": 2500 },
+  "price_per_night_usd": {
+    "min": 700,
+    "max": 2500
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "room service", "butler service", "wine cellar", "private pools", "art gallery", "fine dining", "vineyards"],
+  "amenities": [
+    "spa",
+    "pool",
+    "room service",
+    "butler service",
+    "wine cellar",
+    "private pools",
+    "art gallery",
+    "fine dining",
+    "vineyards"
+  ],
   "photos": [
-    { "url": "/images/hotels/delaire-graff-estate-stellenbosch-south-africa/hero.webp", "alt": "delaire-graff-estate-stellenbosch-south-africa — hero", "type": "hero" },
-    { "url": "/images/hotels/delaire-graff-estate-stellenbosch-south-africa/room.webp", "alt": "delaire-graff-estate-stellenbosch-south-africa — room", "type": "room" },
-    { "url": "/images/hotels/delaire-graff-estate-stellenbosch-south-africa/pool.webp", "alt": "delaire-graff-estate-stellenbosch-south-africa — pool", "type": "pool" },
-    { "url": "/images/hotels/delaire-graff-estate-stellenbosch-south-africa/spa.webp", "alt": "delaire-graff-estate-stellenbosch-south-africa — spa", "type": "spa" },
-    { "url": "/images/hotels/delaire-graff-estate-stellenbosch-south-africa/dining.webp", "alt": "delaire-graff-estate-stellenbosch-south-africa — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/delaire-graff-estate-stellenbosch-south-africa/hero.webp",
+      "alt": "delaire-graff-estate-stellenbosch-south-africa — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/delaire-graff-estate-stellenbosch-south-africa/room.webp",
+      "alt": "delaire-graff-estate-stellenbosch-south-africa — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/delaire-graff-estate-stellenbosch-south-africa/pool.webp",
+      "alt": "delaire-graff-estate-stellenbosch-south-africa — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/delaire-graff-estate-stellenbosch-south-africa/spa.webp",
+      "alt": "delaire-graff-estate-stellenbosch-south-africa — spa",
+      "type": "spa"
+    }
   ],
   "tripadvisor_rating": 9.4,
   "tripadvisor_award": true,
@@ -24,13 +65,41 @@
     "verdict": "Delaire Graff Estate is diamantaire Laurence Graff's magnificent gift to the Cape Winelands — perched on the Helshoogte Pass between Stellenbosch and Franschhoek with mountain panoramas that stop visitors cold. Ten private lodges each have their own infinity pool, set amid the vines and indigenous gardens, while the estate's two acclaimed restaurants, glittering diamond jewellery boutique, and world-class spa make it a complete romantic world. This is wine country romance at its absolute apex.",
     "best_room": "The Owner's Cottage is the estate's crown jewel — a completely private two-bedroom retreat with its own pool, outdoor shower, and vineyard views in every direction. Among the lodges, the Vineyard Lodge units combine private plunge pools with the most immersive vineyard views and direct access to the walking trails. Each lodge is individually furnished with Graff's extraordinary art collection, so no two rooms are alike.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Helshoogte Sunset", "description": "Arrive from Cape Town Airport (just 40 minutes away) and be shown to your lodge, where a private pool overlooks rows of vines with the Simonsberg and Jonkershoek mountains beyond. The estate's welcome includes a vertical tasting of Delaire Graff wines — from crisp Chenin Blanc to their flagship Botmaskop red." },
-      { "day": 2, "title": "Estate Tour & Indochine Dinner", "description": "Begin with a vineyard walking tour guided by the winemaker — learning the terroir of Helshoogte and the farming philosophy. The afternoon is spa time: a vineyard-inspired vinotherapy treatment using grape seed extracts. Dinner at Indochine, the estate's celebrated Southeast Asian-inflected restaurant, is a pure sensory journey." },
-      { "day": 3, "title": "Franschhoek Valley", "description": "The Franschhoek Wine Tram takes you through the valley's greatest estates — Haute Cabrière, La Motte, and Boekenhoutskloof among them. Lunch in the village at one of the valley's outstanding restaurants before returning to the estate for an afternoon swim in your private pool with mountain views." },
-      { "day": 4, "title": "Diamond Experience & Spa Day", "description": "A private viewing at the Graff diamond boutique on the estate — extraordinary gems mounted in contemporary settings. The Delaire Graff Spa offers a full day of treatments: the signature Graff facial, hot stone massage, and the couple's hydrotherapy circuit. Dinner at the Delaire Graff Restaurant under the stars on the terrace." },
-      { "day": 5, "title": "Stellenbosch Wine Route", "description": "Explore the Stellenbosch wine route by private car — the oldest wine-producing area in the Cape, with estates like Rust en Vrede, Warwick, and Meerlust. A private cellar tour at one of the historical manor house estates illuminates three centuries of Cape wine history. Return for sunset cocktails at the estate's lounge." },
-      { "day": 6, "title": "Cape Town Day Trip", "description": "An easy 40-minute drive brings you to Cape Town for a day of urban exploration: Table Mountain, the V&A Waterfront, Bo-Kaap neighbourhood, and the markets of Oranjezicht. Return to the tranquillity of the estate in time for a private braai (barbecue) dinner prepared at your lodge by your dedicated chef." },
-      { "day": 7, "title": "Final Harvest Walk & Departure", "description": "A dawn walk through the vineyards — dew on the leaves, mountain mist lifting — before a final breakfast of Cape produce on your lodge terrace. The estate's cellar offers a farewell purchase of your favourite bottles from the week before the transfer to Cape Town Airport." }
+      {
+        "day": 1,
+        "title": "Arrival & Helshoogte Sunset",
+        "description": "Arrive from Cape Town Airport (just 40 minutes away) and be shown to your lodge, where a private pool overlooks rows of vines with the Simonsberg and Jonkershoek mountains beyond. The estate's welcome includes a vertical tasting of Delaire Graff wines — from crisp Chenin Blanc to their flagship Botmaskop red."
+      },
+      {
+        "day": 2,
+        "title": "Estate Tour & Indochine Dinner",
+        "description": "Begin with a vineyard walking tour guided by the winemaker — learning the terroir of Helshoogte and the farming philosophy. The afternoon is spa time: a vineyard-inspired vinotherapy treatment using grape seed extracts. Dinner at Indochine, the estate's celebrated Southeast Asian-inflected restaurant, is a pure sensory journey."
+      },
+      {
+        "day": 3,
+        "title": "Franschhoek Valley",
+        "description": "The Franschhoek Wine Tram takes you through the valley's greatest estates — Haute Cabrière, La Motte, and Boekenhoutskloof among them. Lunch in the village at one of the valley's outstanding restaurants before returning to the estate for an afternoon swim in your private pool with mountain views."
+      },
+      {
+        "day": 4,
+        "title": "Diamond Experience & Spa Day",
+        "description": "A private viewing at the Graff diamond boutique on the estate — extraordinary gems mounted in contemporary settings. The Delaire Graff Spa offers a full day of treatments: the signature Graff facial, hot stone massage, and the couple's hydrotherapy circuit. Dinner at the Delaire Graff Restaurant under the stars on the terrace."
+      },
+      {
+        "day": 5,
+        "title": "Stellenbosch Wine Route",
+        "description": "Explore the Stellenbosch wine route by private car — the oldest wine-producing area in the Cape, with estates like Rust en Vrede, Warwick, and Meerlust. A private cellar tour at one of the historical manor house estates illuminates three centuries of Cape wine history. Return for sunset cocktails at the estate's lounge."
+      },
+      {
+        "day": 6,
+        "title": "Cape Town Day Trip",
+        "description": "An easy 40-minute drive brings you to Cape Town for a day of urban exploration: Table Mountain, the V&A Waterfront, Bo-Kaap neighbourhood, and the markets of Oranjezicht. Return to the tranquillity of the estate in time for a private braai (barbecue) dinner prepared at your lodge by your dedicated chef."
+      },
+      {
+        "day": 7,
+        "title": "Final Harvest Walk & Departure",
+        "description": "A dawn walk through the vineyards — dew on the leaves, mountain mist lifting — before a final breakfast of Cape produce on your lodge terrace. The estate's cellar offers a farewell purchase of your favourite bottles from the week before the transfer to Cape Town Airport."
+      }
     ],
     "caveats": [
       "The Winelands can be hot and dry in mid-summer (January-February); spring (September-November) and autumn (March-May) offer the most pleasant temperatures.",
@@ -38,12 +107,30 @@
       "The diamond boutique is very much present on the estate — some couples find this a wonderful treat, others prefer not to window-shop jewellery on their honeymoon."
     ],
     "faqs": [
-      { "question": "Good for honeymooners?", "answer": "Delaire Graff is one of South Africa's most romantic properties. Private lodge pools, vineyard sunsets, world-class food and wine, and a spa of exceptional quality combine to create a honeymoon experience that feels genuinely extraordinary. The mountain-and-vine setting is postcard-perfect in every season." },
-      { "question": "Best time to visit?", "answer": "The Cape Winelands are beautiful year-round. Harvest (February-April) is particularly atmospheric with activity in the cellars. Spring (September-November) brings wildflowers and cool mornings. Summer (December-January) is hot and festive but crowded. Winter (June-August) is quiet, green after rain, and excellent for cosy fireside dinners." },
-      { "question": "Book in advance?", "answer": "The Owner's Cottage books out furthest ahead, sometimes a year or more in advance. Individual lodges can usually be secured 3 to 6 months ahead. Mention your honeymoon for special arrangements including private pool décor and complementary welcome amenities." },
-      { "question": "Adults-only?", "answer": "Delaire Graff is not adults-only, but the sophisticated wine estate setting and lodge configuration attract predominantly adult couples. The atmosphere is romantic, calm, and entirely oriented toward pleasure and relaxation." },
-      { "question": "Best room type?", "answer": "The Owner's Cottage is the ultimate choice for honeymooners seeking total privacy with its own pool, gardens, and views. Among the standard lodges, the Vineyard Lodges offer the most immersive vineyard setting with private pools and direct access to the estate walks." },
-      { "question": "How to get there?", "answer": "Delaire Graff is 40 minutes from Cape Town International Airport on the R310 through Stellenbosch, up the Helshoogte Pass. Private transfers are arranged by the estate. The pass itself is one of the most scenic drives in the Cape — a beautiful approach to the estate through mountain fynbos." }
+      {
+        "question": "Good for honeymooners?",
+        "answer": "Delaire Graff is one of South Africa's most romantic properties. Private lodge pools, vineyard sunsets, world-class food and wine, and a spa of exceptional quality combine to create a honeymoon experience that feels genuinely extraordinary. The mountain-and-vine setting is postcard-perfect in every season."
+      },
+      {
+        "question": "Best time to visit?",
+        "answer": "The Cape Winelands are beautiful year-round. Harvest (February-April) is particularly atmospheric with activity in the cellars. Spring (September-November) brings wildflowers and cool mornings. Summer (December-January) is hot and festive but crowded. Winter (June-August) is quiet, green after rain, and excellent for cosy fireside dinners."
+      },
+      {
+        "question": "Book in advance?",
+        "answer": "The Owner's Cottage books out furthest ahead, sometimes a year or more in advance. Individual lodges can usually be secured 3 to 6 months ahead. Mention your honeymoon for special arrangements including private pool décor and complementary welcome amenities."
+      },
+      {
+        "question": "Adults-only?",
+        "answer": "Delaire Graff is not adults-only, but the sophisticated wine estate setting and lodge configuration attract predominantly adult couples. The atmosphere is romantic, calm, and entirely oriented toward pleasure and relaxation."
+      },
+      {
+        "question": "Best room type?",
+        "answer": "The Owner's Cottage is the ultimate choice for honeymooners seeking total privacy with its own pool, gardens, and views. Among the standard lodges, the Vineyard Lodges offer the most immersive vineyard setting with private pools and direct access to the estate walks."
+      },
+      {
+        "question": "How to get there?",
+        "answer": "Delaire Graff is 40 minutes from Cape Town International Airport on the R310 through Stellenbosch, up the Helshoogte Pass. Private transfers are arranged by the estate. The pass itself is one of the most scenic drives in the Cape — a beautiful approach to the estate through mountain fynbos."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — Delaire Graff Estate Stellenbosch\n\nDear Delaire Graff reservations team,\n\nWe are planning our honeymoon [DATE]-[DATE] and are interested in [Owner's Cottage / Vineyard Lodge]. Please advise on availability, honeymoon packages, private dining options at the lodges, and any special inclusions.\n\nThank you,\n[Your names]"
   },

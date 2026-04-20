@@ -3,7 +3,11 @@
   "name": "Wild Coast Tented Lodge",
   "destination": "sri-lanka",
   "country": "sri-lanka",
-  "experience_types": ["luxury", "beach", "safari"],
+  "experience_types": [
+    "luxury",
+    "beach",
+    "safari"
+  ],
   "honeymoon_score": 88,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,47 @@
     "luxury": 5
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 600, "max": 1800 },
+  "price_per_night_usd": {
+    "min": 600,
+    "max": 1800
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "room service", "restaurant", "bar", "beach access", "safari", "yoga"],
+  "amenities": [
+    "spa",
+    "pool",
+    "room service",
+    "restaurant",
+    "bar",
+    "beach access",
+    "safari",
+    "yoga"
+  ],
   "photos": [
-    { "url": "/images/hotels/wild-coast-tented-lodge-yala-sri-lanka/hero.webp", "alt": "wild-coast-tented-lodge-yala-sri-lanka — hero", "type": "hero" },
-    { "url": "/images/hotels/wild-coast-tented-lodge-yala-sri-lanka/room.webp", "alt": "wild-coast-tented-lodge-yala-sri-lanka — room", "type": "room" },
-    { "url": "/images/hotels/wild-coast-tented-lodge-yala-sri-lanka/pool.webp", "alt": "wild-coast-tented-lodge-yala-sri-lanka — pool", "type": "pool" },
-    { "url": "/images/hotels/wild-coast-tented-lodge-yala-sri-lanka/spa.webp", "alt": "wild-coast-tented-lodge-yala-sri-lanka — spa", "type": "spa" },
-    { "url": "/images/hotels/wild-coast-tented-lodge-yala-sri-lanka/dining.webp", "alt": "wild-coast-tented-lodge-yala-sri-lanka — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/wild-coast-tented-lodge-yala-sri-lanka/hero.webp",
+      "alt": "wild-coast-tented-lodge-yala-sri-lanka — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/wild-coast-tented-lodge-yala-sri-lanka/room.webp",
+      "alt": "wild-coast-tented-lodge-yala-sri-lanka — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/wild-coast-tented-lodge-yala-sri-lanka/pool.webp",
+      "alt": "wild-coast-tented-lodge-yala-sri-lanka — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/wild-coast-tented-lodge-yala-sri-lanka/spa.webp",
+      "alt": "wild-coast-tented-lodge-yala-sri-lanka — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/wild-coast-tented-lodge-yala-sri-lanka/dining.webp",
+      "alt": "wild-coast-tented-lodge-yala-sri-lanka — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.3,
   "tripadvisor_award": true,
@@ -34,13 +70,41 @@
     "verdict": "Wild Coast Tented Lodge is the most design-forward and visually striking safari camp in Sri Lanka — 28 cocoon-shaped tented suites that look like they have grown from the Yala National Park scrubland, sitting between a leopard-dense jungle and an empty beach on the Indian Ocean. No other camp in Asia puts you simultaneously on an Indian Ocean beach and within a major wildlife reserve, and the sleek, award-winning architecture makes it one of the most photographed and coveted honeymoon properties in the region.",
     "best_room": "All 28 cocoon tents are identical in format but positioned differently: request a tent at the outer perimeter of the camp, furthest from the main lodge and closest to the bush boundary — these have the most direct wildlife sightings from your private deck, with elephants, sambar deer, and sometimes leopard moving within metres at dawn. All tents include a private plunge pool.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & First Leopard Drive", "description": "Arrive by road from the south coast (Tangalle 90 minutes, Mirissa 2 hours) or by private helicopter. Check in and join the afternoon Yala National Park game drive in the resort's open-sided electric buggies — quieter than diesel jeeps and better for wildlife photography. Yala has the world's highest leopard density, and late afternoon drives frequently produce sightings. Return as the camp lights its lanterns for a bush dinner under the stars." },
-      { "day": 2, "title": "Dawn Safari & Beach Morning", "description": "Pre-dawn departure for the opening drive of Yala — leopards, elephants, sloth bears, and crocodiles are most active at first light. Return by 9am for breakfast, then walk through the camp to the private beach — Indian Ocean swimming just minutes from where leopards patrol the shoreline. This extraordinary combination is unique to Wild Coast. Afternoon: couples' massage at the spa tent." },
-      { "day": 3, "title": "Full Yala Immersion", "description": "Spend the full day in Yala National Park — morning and late afternoon drives book-end a long lunch back at camp. Your dedicated naturalist guide focuses on leopard tracking, explaining territorial markings, kill signs, and the complex social behaviours of Yala's famous cats. The park also hosts wild elephants, jackals, painted storks, mugger crocodiles, and water buffalo in extraordinary density." },
-      { "day": 4, "title": "Beach Day & Snorkeling Excursion", "description": "The beach directly accessible from the camp is wild, deserted, and framed by the national park forest — no other development visible in either direction. The hotel arranges a snorkeling boat trip to offshore reefs where spinner dolphins, reef fish, and sea turtles are frequently encountered. Return for the spa's signature Jungle Journey treatment: a full-body exfoliation with wild bee honey and cinnamon bark oil." },
-      { "day": 5, "title": "Elephant Gathering at Udawalawe", "description": "A two-hour drive inland to Udawalawe National Park, famous for its year-round concentration of wild elephants — sometimes 300 in a single day at the reservoir. The contrast between Yala's dense scrub and Udawalawe's open grassland creates completely different wildlife photography opportunities. Late afternoon: return to Wild Coast for sundowners on the beach, watching the sun drop into the Indian Ocean." },
-      { "day": 6, "title": "Conservation Talk & Sunset Dinner on the Beach", "description": "The camp hosts evening conservation talks with resident naturalists about Yala's ecology, leopard research, and Sri Lanka's wildlife challenges. This evening programme deepens your understanding and connection to the landscape. Tonight's dinner is arranged on the beach itself — a private table on the sand, lanterns in the scrubwood, the ocean darkening beyond, and the wilderness behind." },
-      { "day": 7, "title": "Farewell Morning", "description": "A final dawn game drive — the Yala light at sunrise over the leopard territory is its own reward. Return for a hearty bush breakfast at the camp's tree-shaded communal table. The electric buggy carries your bags to the camp entrance as the wildlife sounds of Yala provide the farewell soundtrack. No honeymoon in the Indian Ocean region combines beach, big cats, and bold design quite like this." }
+      {
+        "day": 1,
+        "title": "Arrival & First Leopard Drive",
+        "description": "Arrive by road from the south coast (Tangalle 90 minutes, Mirissa 2 hours) or by private helicopter. Check in and join the afternoon Yala National Park game drive in the resort's open-sided electric buggies — quieter than diesel jeeps and better for wildlife photography. Yala has the world's highest leopard density, and late afternoon drives frequently produce sightings. Return as the camp lights its lanterns for a bush dinner under the stars."
+      },
+      {
+        "day": 2,
+        "title": "Dawn Safari & Beach Morning",
+        "description": "Pre-dawn departure for the opening drive of Yala — leopards, elephants, sloth bears, and crocodiles are most active at first light. Return by 9am for breakfast, then walk through the camp to the private beach — Indian Ocean swimming just minutes from where leopards patrol the shoreline. This extraordinary combination is unique to Wild Coast. Afternoon: couples' massage at the spa tent."
+      },
+      {
+        "day": 3,
+        "title": "Full Yala Immersion",
+        "description": "Spend the full day in Yala National Park — morning and late afternoon drives book-end a long lunch back at camp. Your dedicated naturalist guide focuses on leopard tracking, explaining territorial markings, kill signs, and the complex social behaviours of Yala's famous cats. The park also hosts wild elephants, jackals, painted storks, mugger crocodiles, and water buffalo in extraordinary density."
+      },
+      {
+        "day": 4,
+        "title": "Beach Day & Snorkeling Excursion",
+        "description": "The beach directly accessible from the camp is wild, deserted, and framed by the national park forest — no other development visible in either direction. The hotel arranges a snorkeling boat trip to offshore reefs where spinner dolphins, reef fish, and sea turtles are frequently encountered. Return for the spa's signature Jungle Journey treatment: a full-body exfoliation with wild bee honey and cinnamon bark oil."
+      },
+      {
+        "day": 5,
+        "title": "Elephant Gathering at Udawalawe",
+        "description": "A two-hour drive inland to Udawalawe National Park, famous for its year-round concentration of wild elephants — sometimes 300 in a single day at the reservoir. The contrast between Yala's dense scrub and Udawalawe's open grassland creates completely different wildlife photography opportunities. Late afternoon: return to Wild Coast for sundowners on the beach, watching the sun drop into the Indian Ocean."
+      },
+      {
+        "day": 6,
+        "title": "Conservation Talk & Sunset Dinner on the Beach",
+        "description": "The camp hosts evening conservation talks with resident naturalists about Yala's ecology, leopard research, and Sri Lanka's wildlife challenges. This evening programme deepens your understanding and connection to the landscape. Tonight's dinner is arranged on the beach itself — a private table on the sand, lanterns in the scrubwood, the ocean darkening beyond, and the wilderness behind."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "A final dawn game drive — the Yala light at sunrise over the leopard territory is its own reward. Return for a hearty bush breakfast at the camp's tree-shaded communal table. The electric buggy carries your bags to the camp entrance as the wildlife sounds of Yala provide the farewell soundtrack. No honeymoon in the Indian Ocean region combines beach, big cats, and bold design quite like this."
+      }
     ],
     "caveats": [
       "Yala National Park is closed for maintenance during September — a critical month when the park shuts entirely. If your honeymoon falls in September, this property is unavailable as the safari experience is the core offering.",
@@ -48,12 +112,30 @@
       "Leopard sightings, though frequent in Yala compared to any other national park globally, are never guaranteed — some drives produce extraordinary encounters, others produce empty scrubland. The park's density of wildlife ensures every drive yields something significant, but the 'iconic' leopard moment cannot be promised."
     ],
     "faqs": [
-      { "question": "Is Wild Coast Tented Lodge good for honeymooners?", "answer": "Extremely — especially for adventurous couples who want both wildlife and beach without compromise. The design is striking, the setting is unique in Asia (leopards and the Indian Ocean simultaneously), and the camp's small scale of 28 tents ensures intimate service. Couples who have done beach resorts before and want something with genuine wilderness drama will find this transformative." },
-      { "question": "What is the best time to visit?", "answer": "February to July is the driest and best wildlife season for Yala — leopard and elephant activity is highest when waterholes concentrate animals. August is good but crowds build before the September closure. January and December are also excellent with fewer visitors. Avoid September entirely (park closed). The beach is swimmable most of the year on this sheltered south coast stretch." },
-      { "question": "What should we book in advance?", "answer": "Wild Coast fills quickly in peak season (February–July) — book 3 to 6 months ahead. The private beach dinner should be requested when booking or immediately on arrival. If combining with the Udawalawe elephant excursion, arrange the vehicle through the camp in advance. Helicopter transfers from Colombo should be arranged well ahead." },
-      { "question": "Is it adults-only?", "answer": "No, but the bush environment, open-sided electric vehicle game drives, and the remote setting are better suited to adults and older children. The camp accommodates families but the overwhelming guest profile is couples, honeymooners, and wildlife enthusiasts. Very young children and the bush environment are not an ideal combination." },
-      { "question": "What's the best room for a honeymoon?", "answer": "Request outer perimeter cocoon tents closest to the bush boundary — these positions maximise wildlife sightings from your private deck and plunge pool at dawn. All tents are architecturally identical; position relative to the wildlife corridor is the primary differentiator. All include private plunge pools and outdoor rain showers." },
-      { "question": "How do we get there?", "answer": "By road from Colombo: approximately 5 hours via the Southern Expressway to the Hambantota exit, then east along the coastal road to Yala. From Tangalle: approximately 90 minutes. From Mirissa: approximately 2 hours. Private helicopter transfers from Colombo to the camp's helipad take approximately 90 minutes and can be arranged through the hotel. Nearest town is Tissamaharama." }
+      {
+        "question": "Is Wild Coast Tented Lodge good for honeymooners?",
+        "answer": "Extremely — especially for adventurous couples who want both wildlife and beach without compromise. The design is striking, the setting is unique in Asia (leopards and the Indian Ocean simultaneously), and the camp's small scale of 28 tents ensures intimate service. Couples who have done beach resorts before and want something with genuine wilderness drama will find this transformative."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "February to July is the driest and best wildlife season for Yala — leopard and elephant activity is highest when waterholes concentrate animals. August is good but crowds build before the September closure. January and December are also excellent with fewer visitors. Avoid September entirely (park closed). The beach is swimmable most of the year on this sheltered south coast stretch."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "Wild Coast fills quickly in peak season (February–July) — book 3 to 6 months ahead. The private beach dinner should be requested when booking or immediately on arrival. If combining with the Udawalawe elephant excursion, arrange the vehicle through the camp in advance. Helicopter transfers from Colombo should be arranged well ahead."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "No, but the bush environment, open-sided electric vehicle game drives, and the remote setting are better suited to adults and older children. The camp accommodates families but the overwhelming guest profile is couples, honeymooners, and wildlife enthusiasts. Very young children and the bush environment are not an ideal combination."
+      },
+      {
+        "question": "What's the best room for a honeymoon?",
+        "answer": "Request outer perimeter cocoon tents closest to the bush boundary — these positions maximise wildlife sightings from your private deck and plunge pool at dawn. All tents are architecturally identical; position relative to the wildlife corridor is the primary differentiator. All include private plunge pools and outdoor rain showers."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "By road from Colombo: approximately 5 hours via the Southern Expressway to the Hambantota exit, then east along the coastal road to Yala. From Tangalle: approximately 90 minutes. From Mirissa: approximately 2 hours. Private helicopter transfers from Colombo to the camp's helipad take approximately 90 minutes and can be arranged through the hotel. Nearest town is Tissamaharama."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Wild Coast Tented Lodge\n\nDear Wild Coast Tented Lodge team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: a perimeter cocoon tent with bush views and private plunge pool.\n\nCould you please let us know:\n- Current availability for our dates\n- Any honeymoon packages or special arrangements\n- Whether a private beach dinner can be arranged during our stay\n\nThank you for your time.\n\n[Your names]"
   },

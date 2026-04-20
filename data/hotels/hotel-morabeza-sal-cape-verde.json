@@ -3,19 +3,63 @@
   "name": "Hotel Morabeza",
   "destination": "cape-verde",
   "country": "cape-verde",
-  "experience_types": ["beach", "wellness"],
+  "experience_types": [
+    "beach",
+    "wellness"
+  ],
   "honeymoon_score": 84,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 16, "spa": 12, "award": 10, "pool": 10, "beach": 20, "room_service": 5, "stars": 8, "luxury": 3 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 16,
+    "spa": 12,
+    "award": 10,
+    "pool": 10,
+    "beach": 20,
+    "room_service": 5,
+    "stars": 8,
+    "luxury": 3
+  },
   "stars": 4,
-  "price_per_night_usd": { "min": 200, "max": 600 },
+  "price_per_night_usd": {
+    "min": 200,
+    "max": 600
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "beach", "room service", "fishing", "kitesurfing", "fine dining"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beach",
+    "room service",
+    "fishing",
+    "kitesurfing",
+    "fine dining"
+  ],
   "photos": [
-    { "url": "/images/hotels/hotel-morabeza-sal-cape-verde/hero.webp", "alt": "hotel-morabeza-sal-cape-verde — hero", "type": "hero" },
-    { "url": "/images/hotels/hotel-morabeza-sal-cape-verde/room.webp", "alt": "hotel-morabeza-sal-cape-verde — room", "type": "room" },
-    { "url": "/images/hotels/hotel-morabeza-sal-cape-verde/pool.webp", "alt": "hotel-morabeza-sal-cape-verde — pool", "type": "pool" },
-    { "url": "/images/hotels/hotel-morabeza-sal-cape-verde/spa.webp", "alt": "hotel-morabeza-sal-cape-verde — spa", "type": "spa" },
-    { "url": "/images/hotels/hotel-morabeza-sal-cape-verde/dining.webp", "alt": "hotel-morabeza-sal-cape-verde — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/hotel-morabeza-sal-cape-verde/hero.webp",
+      "alt": "hotel-morabeza-sal-cape-verde — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/hotel-morabeza-sal-cape-verde/room.webp",
+      "alt": "hotel-morabeza-sal-cape-verde — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/hotel-morabeza-sal-cape-verde/pool.webp",
+      "alt": "hotel-morabeza-sal-cape-verde — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/hotel-morabeza-sal-cape-verde/spa.webp",
+      "alt": "hotel-morabeza-sal-cape-verde — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/hotel-morabeza-sal-cape-verde/dining.webp",
+      "alt": "hotel-morabeza-sal-cape-verde — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.1,
   "tripadvisor_award": true,
@@ -24,13 +68,41 @@
     "verdict": "Hotel Morabeza is a Cape Verdean institution — the island's most beloved hotel since it opened in 1967, long before mass tourism reached Sal. The name 'morabeza' means the warmth and hospitality of the Cape Verdean spirit, and the hotel has embodied that spirit for nearly 60 years. With 133 rooms on the best stretch of Santa Maria beach, a deep-sea fishing fleet, kitesurfing school, and an atmosphere of authentic Cape Verdean character that the modern resorts cannot replicate, Morabeza is the soul of Sal.",
     "best_room": "The Superior Rooms with direct sea view and balcony over Santa Maria beach are the best accommodation at Morabeza — wake up to the turquoise Atlantic filling your window, step onto the balcony for a coffee with the trade winds in your hair, and be on the beach in three minutes. The Deluxe Rooms closer to the shore with garden views are an excellent value option for couples focused on beach proximity over views.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Morabeza Welcome", "description": "Arrive at Sal Airport and transfer 20 minutes to Hotel Morabeza. Unlike the modern resort strip arrivals, Morabeza has genuine personality — the staff who have been here for decades, the bougainvillea over the original pool terrace, the fishing boat photographs on the wall. The Cape Verdean welcome is immediate and warm. The beach is directly outside." },
-      { "day": 2, "title": "Santa Maria Beach & Deep-Sea Fishing", "description": "Morabeza's deep-sea fishing boats are one of the hotel's oldest traditions. A half-day Atlantic fishing trip for yellowfin tuna and wahoo — fish caught are cooked that evening by the hotel kitchen — is quintessential Sal. Return for an afternoon on Santa Maria's famous beach, where the combination of white sand and turquoise water creates one of the Atlantic's most beautiful settings." },
-      { "day": 3, "title": "Kitesurfing & Morna Music", "description": "Morabeza's in-house kitesurfing school operates from the beach with experienced multilingual instructors. The trade winds and shallow Santa Maria flats are ideal for learning. In the evening, the hotel occasionally hosts Cape Verdean morna music — the melancholic, deeply beautiful national music form that UNESCO added to its cultural heritage list." },
-      { "day": 4, "title": "Pedra de Lume & Local Cachupa", "description": "A morning excursion to the Pedra de Lume salt crater lake — the floating experience in the hypersaline crater is surreal and memorable. Return via the fishing village of Espargos (Sal's actual town, not the tourist strip) for lunch of authentic cachupa, the Cape Verdean national dish of slow-cooked corn, beans, and fish." },
-      { "day": 5, "title": "Snorkeling & Sunset Cruise", "description": "The Morabeza organizes guided snorkeling trips to the coral outcrops and rocky reefs off Santa Maria's southern tip where sea turtles, eagle rays, and reef fish are regularly encountered. In the evening, a sunset sailing catamaran cruise along the Sal coastline is one of the best ways to appreciate the island's volcanic silhouette against the Atlantic sky." },
-      { "day": 6, "title": "Spa & Private Cape Verdean Dinner", "description": "Morning at the Morabeza spa. In the evening, ask the hotel to arrange a private dinner on the beach terrace — the kitchen's fresh Atlantic fish, grilled octopus, and local wines create an outstanding meal. The sound of the Atlantic and the Sahara-dry warm Cape Verde evening air make outdoor dining here genuinely magical." },
-      { "day": 7, "title": "Final Morning on Morabeza's Beach", "description": "A last Atlantic swim off the hotel's private beach, breakfast on the seafront terrace, and a warm sendoff from the staff who by now have learned your names and preferences. Morabeza's 'morabeza' — that Cape Verdean warmth — will be what you remember most." }
+      {
+        "day": 1,
+        "title": "Morabeza Welcome",
+        "description": "Arrive at Sal Airport and transfer 20 minutes to Hotel Morabeza. Unlike the modern resort strip arrivals, Morabeza has genuine personality — the staff who have been here for decades, the bougainvillea over the original pool terrace, the fishing boat photographs on the wall. The Cape Verdean welcome is immediate and warm. The beach is directly outside."
+      },
+      {
+        "day": 2,
+        "title": "Santa Maria Beach & Deep-Sea Fishing",
+        "description": "Morabeza's deep-sea fishing boats are one of the hotel's oldest traditions. A half-day Atlantic fishing trip for yellowfin tuna and wahoo — fish caught are cooked that evening by the hotel kitchen — is quintessential Sal. Return for an afternoon on Santa Maria's famous beach, where the combination of white sand and turquoise water creates one of the Atlantic's most beautiful settings."
+      },
+      {
+        "day": 3,
+        "title": "Kitesurfing & Morna Music",
+        "description": "Morabeza's in-house kitesurfing school operates from the beach with experienced multilingual instructors. The trade winds and shallow Santa Maria flats are ideal for learning. In the evening, the hotel occasionally hosts Cape Verdean morna music — the melancholic, deeply beautiful national music form that UNESCO added to its cultural heritage list."
+      },
+      {
+        "day": 4,
+        "title": "Pedra de Lume & Local Cachupa",
+        "description": "A morning excursion to the Pedra de Lume salt crater lake — the floating experience in the hypersaline crater is surreal and memorable. Return via the fishing village of Espargos (Sal's actual town, not the tourist strip) for lunch of authentic cachupa, the Cape Verdean national dish of slow-cooked corn, beans, and fish."
+      },
+      {
+        "day": 5,
+        "title": "Snorkeling & Sunset Cruise",
+        "description": "The Morabeza organizes guided snorkeling trips to the coral outcrops and rocky reefs off Santa Maria's southern tip where sea turtles, eagle rays, and reef fish are regularly encountered. In the evening, a sunset sailing catamaran cruise along the Sal coastline is one of the best ways to appreciate the island's volcanic silhouette against the Atlantic sky."
+      },
+      {
+        "day": 6,
+        "title": "Spa & Private Cape Verdean Dinner",
+        "description": "Morning at the Morabeza spa. In the evening, ask the hotel to arrange a private dinner on the beach terrace — the kitchen's fresh Atlantic fish, grilled octopus, and local wines create an outstanding meal. The sound of the Atlantic and the Sahara-dry warm Cape Verde evening air make outdoor dining here genuinely magical."
+      },
+      {
+        "day": 7,
+        "title": "Final Morning on Morabeza's Beach",
+        "description": "A last Atlantic swim off the hotel's private beach, breakfast on the seafront terrace, and a warm sendoff from the staff who by now have learned your names and preferences. Morabeza's 'morabeza' — that Cape Verdean warmth — will be what you remember most."
+      }
     ],
     "caveats": [
       "As a 4-star hotel opened in 1967, Morabeza's rooms and facilities are not to the same standard as the newer 5-star resorts. The charm and beach position are exceptional but the room interiors are comfortable rather than ultra-luxurious.",
@@ -38,12 +110,30 @@
       "Deep-sea fishing is weather and catch dependent — do not plan the entire trip around catching fish. The experience of being on the Atlantic in a Cape Verdean fishing boat is worthwhile regardless of what you catch."
     ],
     "faqs": [
-      { "question": "Is Hotel Morabeza good for honeymooners?", "answer": "Yes, for couples who want authentic Cape Verdean character over modern resort luxury. The best beach position on Sal, genuine local hospitality built over six decades, deep-sea fishing, and Cape Verdean culture make Morabeza the most characterful hotel on Sal. For couples who would rather have personality than perfection, it is exceptional value." },
-      { "question": "What is the best time to visit?", "answer": "November through April for the most reliable sunshine and ideal trade winds for water sports. February and March are particularly good — warm, consistent, and less crowded than Christmas. June through August is the warmest period with calmer sea conditions." },
-      { "question": "How far in advance should you book?", "answer": "Book 2–3 months ahead for peak season and 4–6 weeks for shoulder dates. Morabeza has 133 rooms and the sea-view rooms sell out earliest." },
-      { "question": "Is Hotel Morabeza adults-only?", "answer": "No, families are welcome. Morabeza has hosted generations of family groups alongside couples over its 60-year history. The atmosphere is mixed and friendly." },
-      { "question": "What is the best room type?", "answer": "Superior Room with sea view balcony — the best position in the hotel with direct Santa Maria beach views. Worth the supplement over the garden-view rooms for the morning Atlantic panorama from your balcony." },
-      { "question": "How do you get to Hotel Morabeza?", "answer": "Fly into Sal's Amílcar Cabral International Airport (SID) — direct flights from major European hubs. Transfer to Morabeza is 20 minutes. The hotel arranges airport transfers and a local vehicle service for island excursions." }
+      {
+        "question": "Is Hotel Morabeza good for honeymooners?",
+        "answer": "Yes, for couples who want authentic Cape Verdean character over modern resort luxury. The best beach position on Sal, genuine local hospitality built over six decades, deep-sea fishing, and Cape Verdean culture make Morabeza the most characterful hotel on Sal. For couples who would rather have personality than perfection, it is exceptional value."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "November through April for the most reliable sunshine and ideal trade winds for water sports. February and March are particularly good — warm, consistent, and less crowded than Christmas. June through August is the warmest period with calmer sea conditions."
+      },
+      {
+        "question": "How far in advance should you book?",
+        "answer": "Book 2–3 months ahead for peak season and 4–6 weeks for shoulder dates. Morabeza has 133 rooms and the sea-view rooms sell out earliest."
+      },
+      {
+        "question": "Is Hotel Morabeza adults-only?",
+        "answer": "No, families are welcome. Morabeza has hosted generations of family groups alongside couples over its 60-year history. The atmosphere is mixed and friendly."
+      },
+      {
+        "question": "What is the best room type?",
+        "answer": "Superior Room with sea view balcony — the best position in the hotel with direct Santa Maria beach views. Worth the supplement over the garden-view rooms for the morning Atlantic panorama from your balcony."
+      },
+      {
+        "question": "How do you get to Hotel Morabeza?",
+        "answer": "Fly into Sal's Amílcar Cabral International Airport (SID) — direct flights from major European hubs. Transfer to Morabeza is 20 minutes. The hotel arranges airport transfers and a local vehicle service for island excursions."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — Hotel Morabeza\n\nDear Morabeza team,\n\nWe are planning our honeymoon [DATE]-[DATE] and interested in a Superior Room with sea view balcony. Please advise on availability, deep-sea fishing trip booking, and whether a private beach dinner can be arranged during our stay.\n\nThank you,\n[Your names]"
   },

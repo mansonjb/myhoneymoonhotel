@@ -3,7 +3,11 @@
   "name": "Halekulani Hotel Honolulu",
   "destination": "hawaii",
   "country": "usa",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 86,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,47 @@
     "luxury": 7
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 600, "max": 1500 },
+  "price_per_night_usd": {
+    "min": 600,
+    "max": 1500
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "beach", "room service", "La Mer fine dining", "live entertainment", "fitness center", "cooking classes"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beach",
+    "room service",
+    "La Mer fine dining",
+    "live entertainment",
+    "fitness center",
+    "cooking classes"
+  ],
   "photos": [
-    { "url": "/images/hotels/halekulani-honolulu-hawaii/hero.webp", "alt": "halekulani-honolulu-hawaii — hero", "type": "hero" },
-    { "url": "/images/hotels/halekulani-honolulu-hawaii/room.webp", "alt": "halekulani-honolulu-hawaii — room", "type": "room" },
-    { "url": "/images/hotels/halekulani-honolulu-hawaii/pool.webp", "alt": "halekulani-honolulu-hawaii — pool", "type": "pool" },
-    { "url": "/images/hotels/halekulani-honolulu-hawaii/spa.webp", "alt": "halekulani-honolulu-hawaii — spa", "type": "spa" },
-    { "url": "/images/hotels/halekulani-honolulu-hawaii/dining.webp", "alt": "halekulani-honolulu-hawaii — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/halekulani-honolulu-hawaii/hero.webp",
+      "alt": "halekulani-honolulu-hawaii — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/halekulani-honolulu-hawaii/room.webp",
+      "alt": "halekulani-honolulu-hawaii — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/halekulani-honolulu-hawaii/pool.webp",
+      "alt": "halekulani-honolulu-hawaii — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/halekulani-honolulu-hawaii/spa.webp",
+      "alt": "halekulani-honolulu-hawaii — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/halekulani-honolulu-hawaii/dining.webp",
+      "alt": "halekulani-honolulu-hawaii — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.3,
   "tripadvisor_award": true,
@@ -34,13 +70,41 @@
     "verdict": "The Halekulani — meaning 'House Befitting Heaven' in Hawaiian — is Waikiki's most storied luxury retreat, a low-rise hideaway of white buildings and lush gardens sitting directly on a quiet stretch of Waikiki Beach. It has been the address of choice for discerning honeymooners since the 1930s, with an intimate scale and an old-world elegance that stands apart from the massive towers of Waikiki. The legendary La Mer restaurant, serving French-Hawaiian cuisine, and the SpaHalekulani make it a deeply romantic, culturally rich choice for couples who want Oahu's energy alongside genuine serenity.",
     "best_room": "Book an Oceanfront Suite for direct views of Diamond Head and the Pacific from your private lanai — these corner rooms are iconic, bathed in afternoon gold light and trade winds. The suites include a separate dressing room, oversized soaking tub, and access to the hotel's dedicated concierge floor. Deluxe Ocean View rooms offer a more affordable entry to the Halekulani experience.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Waikiki Beach", "description": "Arrive at Honolulu International Airport and make the short 20-minute journey to the hotel, where a quiet, lei-scented lobby awaits. Claim your pair of signature Halekulani loungers on the hotel's private stretch of Waikiki Beach and sip welcome drinks as Diamond Head looms at the far end of the bay. Begin your first evening with cocktails at House Without a Key — an open-air bar with live Hawaiian music and hula dancing at sunset — before dinner at Orchids." },
-      { "day": 2, "title": "Diamond Head & Pearl Harbor", "description": "Rise early for the 1.4-mile hike up Diamond Head crater for panoramic views of Waikiki and the Pacific. Return for a spa morning at SpaHalekulani, which offers lomilomi-inspired treatments using traditional Hawaiian botanical ingredients. In the afternoon, consider a respectful visit to Pearl Harbor and the USS Arizona Memorial — a profound and moving experience for anyone traveling to Oahu." },
-      { "day": 3, "title": "La Mer Dinner & Beach Day", "description": "A slow beach day is in order — the hotel's beach service provides chilled towels, fresh fruit, and sunscreen on demand. In the evening, dress for La Mer, Hawaii's only AAA Five Diamond restaurant, for a Relais & Châteaux-caliber dinner of contemporary French cuisine with Hawaiian ingredients and a legendary wine cellar — the tasting menu is one of the finest meals in the Pacific." },
-      { "day": 4, "title": "North Shore Adventure", "description": "Rent a car and drive the H-2 north to the famed North Shore, stopping at the Dole Plantation for a famous pineapple soft serve. Watch big wave surfers (in winter) at Banzai Pipeline or walk the white sand of Sunset Beach, then stop at Giovanni's shrimp truck in Kahuku for the best garlic shrimp plate on the island before heading back through the pineapple and sugarcane country." },
-      { "day": 5, "title": "Manoa Falls & Nuuanu Pali", "description": "Hike to Manoa Falls, a lush 150-foot waterfall deep in a rainforest valley just 15 minutes from Waikiki. Continue to the Nuuanu Pali Lookout for dramatic views of the windward Oahu coast and the Ko'olau mountain range — often shrouded in clouds and mist, creating an ethereal atmosphere. Return for an afternoon couples' treatment at SpaHalekulani." },
-      { "day": 6, "title": "Cooking Class & Sunset Sail", "description": "Join the hotel's private Hawaiian cooking class to learn to make poi, fresh poke, and haupia coconut pudding under a chef's guidance — a memorable and interactive morning together. In the afternoon, board a sunset catamaran cruise from Waikiki Beach for champagne and trade winds as Diamond Head glows in the last light. A final dinner at the Orchids restaurant seals the night perfectly." },
-      { "day": 7, "title": "Farewell Morning", "description": "Have a final breakfast at the Halekulani's Orchids restaurant, which serves an outstanding Sunday brunch, or enjoy room service on your lanai one last time with the trade winds coming off the Pacific. Take a final barefoot walk along the beach before checking out — the hotel's valet will have your luggage waiting and a lei farewell ready." }
+      {
+        "day": 1,
+        "title": "Arrival & Waikiki Beach",
+        "description": "Arrive at Honolulu International Airport and make the short 20-minute journey to the hotel, where a quiet, lei-scented lobby awaits. Claim your pair of signature Halekulani loungers on the hotel's private stretch of Waikiki Beach and sip welcome drinks as Diamond Head looms at the far end of the bay. Begin your first evening with cocktails at House Without a Key — an open-air bar with live Hawaiian music and hula dancing at sunset — before dinner at Orchids."
+      },
+      {
+        "day": 2,
+        "title": "Diamond Head & Pearl Harbor",
+        "description": "Rise early for the 1.4-mile hike up Diamond Head crater for panoramic views of Waikiki and the Pacific. Return for a spa morning at SpaHalekulani, which offers lomilomi-inspired treatments using traditional Hawaiian botanical ingredients. In the afternoon, consider a respectful visit to Pearl Harbor and the USS Arizona Memorial — a profound and moving experience for anyone traveling to Oahu."
+      },
+      {
+        "day": 3,
+        "title": "La Mer Dinner & Beach Day",
+        "description": "A slow beach day is in order — the hotel's beach service provides chilled towels, fresh fruit, and sunscreen on demand. In the evening, dress for La Mer, Hawaii's only AAA Five Diamond restaurant, for a Relais & Châteaux-caliber dinner of contemporary French cuisine with Hawaiian ingredients and a legendary wine cellar — the tasting menu is one of the finest meals in the Pacific."
+      },
+      {
+        "day": 4,
+        "title": "North Shore Adventure",
+        "description": "Rent a car and drive the H-2 north to the famed North Shore, stopping at the Dole Plantation for a famous pineapple soft serve. Watch big wave surfers (in winter) at Banzai Pipeline or walk the white sand of Sunset Beach, then stop at Giovanni's shrimp truck in Kahuku for the best garlic shrimp plate on the island before heading back through the pineapple and sugarcane country."
+      },
+      {
+        "day": 5,
+        "title": "Manoa Falls & Nuuanu Pali",
+        "description": "Hike to Manoa Falls, a lush 150-foot waterfall deep in a rainforest valley just 15 minutes from Waikiki. Continue to the Nuuanu Pali Lookout for dramatic views of the windward Oahu coast and the Ko'olau mountain range — often shrouded in clouds and mist, creating an ethereal atmosphere. Return for an afternoon couples' treatment at SpaHalekulani."
+      },
+      {
+        "day": 6,
+        "title": "Cooking Class & Sunset Sail",
+        "description": "Join the hotel's private Hawaiian cooking class to learn to make poi, fresh poke, and haupia coconut pudding under a chef's guidance — a memorable and interactive morning together. In the afternoon, board a sunset catamaran cruise from Waikiki Beach for champagne and trade winds as Diamond Head glows in the last light. A final dinner at the Orchids restaurant seals the night perfectly."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "Have a final breakfast at the Halekulani's Orchids restaurant, which serves an outstanding Sunday brunch, or enjoy room service on your lanai one last time with the trade winds coming off the Pacific. Take a final barefoot walk along the beach before checking out — the hotel's valet will have your luggage waiting and a lei farewell ready."
+      }
     ],
     "caveats": [
       "Waikiki is an urban beach environment — while the Halekulani is a true luxury oasis, the surrounding area is very commercial and crowded, which can feel at odds with a romantic escape compared to Maui or Kauai.",

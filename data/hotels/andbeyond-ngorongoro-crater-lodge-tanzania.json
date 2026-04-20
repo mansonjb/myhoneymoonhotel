@@ -3,19 +3,65 @@
   "name": "&Beyond Ngorongoro Crater Lodge",
   "destination": "tanzania",
   "country": "tanzania",
-  "experience_types": ["safari", "luxury"],
+  "experience_types": [
+    "safari",
+    "luxury"
+  ],
   "honeymoon_score": 95,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 20, "spa": 15, "award": 10, "pool": 10, "beach": 0, "room_service": 10, "stars": 20, "luxury": 10 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 20,
+    "spa": 15,
+    "award": 10,
+    "pool": 10,
+    "beach": 0,
+    "room_service": 10,
+    "stars": 20,
+    "luxury": 10
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 1500, "max": 4500 },
+  "price_per_night_usd": {
+    "min": 1500,
+    "max": 4500
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "game drives", "room service", "butler service", "fine dining", "crater access", "masai experiences", "fireplace suites"],
+  "amenities": [
+    "spa",
+    "pool",
+    "game drives",
+    "room service",
+    "butler service",
+    "fine dining",
+    "crater access",
+    "masai experiences",
+    "fireplace suites"
+  ],
   "photos": [
-    { "url": "/images/hotels/andbeyond-ngorongoro-crater-lodge-tanzania/hero.webp", "alt": "andbeyond-ngorongoro-crater-lodge-tanzania — hero", "type": "hero" },
-    { "url": "/images/hotels/andbeyond-ngorongoro-crater-lodge-tanzania/room.webp", "alt": "andbeyond-ngorongoro-crater-lodge-tanzania — room", "type": "room" },
-    { "url": "/images/hotels/andbeyond-ngorongoro-crater-lodge-tanzania/pool.webp", "alt": "andbeyond-ngorongoro-crater-lodge-tanzania — pool", "type": "pool" },
-    { "url": "/images/hotels/andbeyond-ngorongoro-crater-lodge-tanzania/spa.webp", "alt": "andbeyond-ngorongoro-crater-lodge-tanzania — spa", "type": "spa" },
-    { "url": "/images/hotels/andbeyond-ngorongoro-crater-lodge-tanzania/dining.webp", "alt": "andbeyond-ngorongoro-crater-lodge-tanzania — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/andbeyond-ngorongoro-crater-lodge-tanzania/hero.webp",
+      "alt": "andbeyond-ngorongoro-crater-lodge-tanzania — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/andbeyond-ngorongoro-crater-lodge-tanzania/room.webp",
+      "alt": "andbeyond-ngorongoro-crater-lodge-tanzania — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/andbeyond-ngorongoro-crater-lodge-tanzania/pool.webp",
+      "alt": "andbeyond-ngorongoro-crater-lodge-tanzania — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/andbeyond-ngorongoro-crater-lodge-tanzania/spa.webp",
+      "alt": "andbeyond-ngorongoro-crater-lodge-tanzania — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/andbeyond-ngorongoro-crater-lodge-tanzania/dining.webp",
+      "alt": "andbeyond-ngorongoro-crater-lodge-tanzania — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.6,
   "tripadvisor_award": true,
@@ -24,13 +70,41 @@
     "verdict": "&Beyond Ngorongoro Crater Lodge is the most visually theatrical safari lodge in Africa — banana-leaf towers rising from the misty crater rim of the world's largest intact caldera, where Big 5 animals roam 20km below. The 30 suites combine baroque extravagance with genuine drama: fireplaces, chandelier-lit dining, and a butler who delivers a hand-stitched hot water bottle each evening. This is where Africa's wildlife spectacle meets European grand hotel luxury in one breathtaking package.",
     "best_room": "The North Camp suites have the most coveted positions directly on the crater rim, with floor-to-ceiling windows framing the caldera 600 metres below — waking to clouds drifting across the crater floor with elephant silhouettes below is among Africa's most extraordinary experiences. South Camp is slightly more sheltered from the rim winds. Each suite has a fireplace, butler, claw-foot bath, and an outdoor viewing deck. The Presidential Suite adds a private lounge and is the ultimate romantic option.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Crater Rim at Dusk", "description": "Fly into Kilimanjaro Airport and transfer by road through Arusha and up the Forest Road to the crater rim — the descent into cloud and sudden emergence at the crater edge is a theatrical reveal. Check into your suite as the afternoon mist softens the caldera. Your butler lights the fireplace and champagne appears as the crater turns golden at dusk." },
-      { "day": 2, "title": "Crater Descent — Big 5 Day", "description": "Descend 600 metres into the crater floor at dawn — the world's most concentrated wildlife arena. Lion prides, elephant, buffalo, hippo, and the critically endangered black rhino are all resident within the caldera. Spend a full day exploring the crater floor with your &Beyond guide before ascending to the lodge for a candlelit dinner." },
-      { "day": 3, "title": "Serengeti Day Trip", "description": "Drive through the Ngorongoro Conservation Area into the Serengeti's southern plains for a day game drive — the transition from misty highlands to open savannah is extraordinary. The southern Serengeti hosts calving season (January-February) and year-round predator activity. Return to the crater rim for an evening of cloud-draped romance by the fire." },
-      { "day": 4, "title": "Maasai Highlands Walk", "description": "The Ngorongoro Conservation Area is co-managed by the Maasai, whose cattle herds share the highland grasslands with zebra and wildebeest. A walking visit to a traditional Maasai enkang (homestead) reveals the daily rhythms of a cattle-keeping culture unchanged in its fundamentals for centuries. Return for a spa afternoon and private dinner in your suite." },
-      { "day": 5, "title": "Olduvai Gorge — Cradle of Mankind", "description": "A morning excursion to Olduvai Gorge — where Mary Leakey discovered the 1.8 million-year-old Homo habilis remains and the stone tool industry that transformed human history. The small museum is fascinating, and standing in the gorge beside early human ancestors' footprints is a profoundly moving experience." },
-      { "day": 6, "title": "Second Crater Descent & Stargazing", "description": "A second crater descent focuses on specific species — the black rhino location is shared by guides via radio, and approaching these animals on foot is possible under ranger escort. Return to the lodge for the signature stargazing experience from the rim: at 2,300m altitude, far from any city, the Milky Way overhead is extraordinary." },
-      { "day": 7, "title": "Farewell Breakfast on the Rim & Departure", "description": "A private breakfast on your suite's crater-view deck — coffee and fresh fruit as the morning mist clears below to reveal the full 20km width of the caldera. Transfer to Kilimanjaro Airport via the Forest Road, passing Maasai herders and a landscape that feels unchanged since the Pleistocene." }
+      {
+        "day": 1,
+        "title": "Arrival & Crater Rim at Dusk",
+        "description": "Fly into Kilimanjaro Airport and transfer by road through Arusha and up the Forest Road to the crater rim — the descent into cloud and sudden emergence at the crater edge is a theatrical reveal. Check into your suite as the afternoon mist softens the caldera. Your butler lights the fireplace and champagne appears as the crater turns golden at dusk."
+      },
+      {
+        "day": 2,
+        "title": "Crater Descent — Big 5 Day",
+        "description": "Descend 600 metres into the crater floor at dawn — the world's most concentrated wildlife arena. Lion prides, elephant, buffalo, hippo, and the critically endangered black rhino are all resident within the caldera. Spend a full day exploring the crater floor with your &Beyond guide before ascending to the lodge for a candlelit dinner."
+      },
+      {
+        "day": 3,
+        "title": "Serengeti Day Trip",
+        "description": "Drive through the Ngorongoro Conservation Area into the Serengeti's southern plains for a day game drive — the transition from misty highlands to open savannah is extraordinary. The southern Serengeti hosts calving season (January-February) and year-round predator activity. Return to the crater rim for an evening of cloud-draped romance by the fire."
+      },
+      {
+        "day": 4,
+        "title": "Maasai Highlands Walk",
+        "description": "The Ngorongoro Conservation Area is co-managed by the Maasai, whose cattle herds share the highland grasslands with zebra and wildebeest. A walking visit to a traditional Maasai enkang (homestead) reveals the daily rhythms of a cattle-keeping culture unchanged in its fundamentals for centuries. Return for a spa afternoon and private dinner in your suite."
+      },
+      {
+        "day": 5,
+        "title": "Olduvai Gorge — Cradle of Mankind",
+        "description": "A morning excursion to Olduvai Gorge — where Mary Leakey discovered the 1.8 million-year-old Homo habilis remains and the stone tool industry that transformed human history. The small museum is fascinating, and standing in the gorge beside early human ancestors' footprints is a profoundly moving experience."
+      },
+      {
+        "day": 6,
+        "title": "Second Crater Descent & Stargazing",
+        "description": "A second crater descent focuses on specific species — the black rhino location is shared by guides via radio, and approaching these animals on foot is possible under ranger escort. Return to the lodge for the signature stargazing experience from the rim: at 2,300m altitude, far from any city, the Milky Way overhead is extraordinary."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Breakfast on the Rim & Departure",
+        "description": "A private breakfast on your suite's crater-view deck — coffee and fresh fruit as the morning mist clears below to reveal the full 20km width of the caldera. Transfer to Kilimanjaro Airport via the Forest Road, passing Maasai herders and a landscape that feels unchanged since the Pleistocene."
+      }
     ],
     "caveats": [
       "The crater rim sits at 2,300 metres elevation — nights are cold (sometimes near 0°C) even in summer; the fireplace is a practical necessity, not just an affectation.",
@@ -38,12 +112,30 @@
       "Ngorongoro Conservation Area entrance fees are substantial and separate from the lodge rate; confirm the all-inclusive policy at booking."
     ],
     "faqs": [
-      { "question": "Good for honeymooners?", "answer": "Ngorongoro Crater Lodge is genuinely one of the world's most romantic hotels. The combination of theatrical architecture, fireplace suites, the evening hot water bottle ritual, and the incomparable crater view creates an atmosphere unlike anywhere else on earth. The dedicated butler service ensures every honeymoon detail is anticipated and delivered." },
-      { "question": "Best time to visit?", "answer": "The crater is accessible year-round and wildlife viewing is consistent throughout. January and February are dry on the crater floor and particularly good for predator activity. The long rains (April-May) make the crater floor lush but some tracks muddy. June through October is dry and excellent. The cold rim nights are actually at their most extreme in the dry season." },
-      { "question": "Book in advance?", "answer": "North Camp crater-rim suites book out 8 to 12 months ahead for peak season. The Presidential Suite requires even earlier reservation. &Beyond handles bookings directly and through luxury travel specialists. Always specify your honeymoon — the team creates truly special moments for celebrating couples." },
-      { "question": "Adults-only?", "answer": "No — &Beyond Ngorongoro Crater Lodge welcomes all ages. The dramatic and sophisticated atmosphere naturally lends itself to adult romance, and the fireplace suites are thoroughly couple-focused. The lodge experience itself is overwhelmingly booked by couples and small adult groups." },
-      { "question": "Best room type?", "answer": "North Camp suites on the crater rim are the most dramatic position — directly facing the caldera with the longest views. The Presidential Suite adds a private lounge and the largest terrace. All 30 suites share the same extraordinary architecture; North Camp simply has the most precipitous rim position." },
-      { "question": "How to get there?", "answer": "Kilimanjaro International Airport (JRO) is the primary gateway, with direct international connections from Amsterdam, London, Nairobi, Doha, and other hubs. The overland transfer from Arusha to the crater rim takes approximately 3 to 4 hours through stunning highland scenery. Chartered flights to Manyara airstrip (1.5 hours from the rim) are also an option." }
+      {
+        "question": "Good for honeymooners?",
+        "answer": "Ngorongoro Crater Lodge is genuinely one of the world's most romantic hotels. The combination of theatrical architecture, fireplace suites, the evening hot water bottle ritual, and the incomparable crater view creates an atmosphere unlike anywhere else on earth. The dedicated butler service ensures every honeymoon detail is anticipated and delivered."
+      },
+      {
+        "question": "Best time to visit?",
+        "answer": "The crater is accessible year-round and wildlife viewing is consistent throughout. January and February are dry on the crater floor and particularly good for predator activity. The long rains (April-May) make the crater floor lush but some tracks muddy. June through October is dry and excellent. The cold rim nights are actually at their most extreme in the dry season."
+      },
+      {
+        "question": "Book in advance?",
+        "answer": "North Camp crater-rim suites book out 8 to 12 months ahead for peak season. The Presidential Suite requires even earlier reservation. &Beyond handles bookings directly and through luxury travel specialists. Always specify your honeymoon — the team creates truly special moments for celebrating couples."
+      },
+      {
+        "question": "Adults-only?",
+        "answer": "No — &Beyond Ngorongoro Crater Lodge welcomes all ages. The dramatic and sophisticated atmosphere naturally lends itself to adult romance, and the fireplace suites are thoroughly couple-focused. The lodge experience itself is overwhelmingly booked by couples and small adult groups."
+      },
+      {
+        "question": "Best room type?",
+        "answer": "North Camp suites on the crater rim are the most dramatic position — directly facing the caldera with the longest views. The Presidential Suite adds a private lounge and the largest terrace. All 30 suites share the same extraordinary architecture; North Camp simply has the most precipitous rim position."
+      },
+      {
+        "question": "How to get there?",
+        "answer": "Kilimanjaro International Airport (JRO) is the primary gateway, with direct international connections from Amsterdam, London, Nairobi, Doha, and other hubs. The overland transfer from Arusha to the crater rim takes approximately 3 to 4 hours through stunning highland scenery. Chartered flights to Manyara airstrip (1.5 hours from the rim) are also an option."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — &Beyond Ngorongoro Crater Lodge\n\nDear &Beyond Ngorongoro reservations team,\n\nWe are planning our honeymoon [DATE]-[DATE] and are interested in a North Camp rim suite [or Presidential Suite]. Please advise on availability, honeymoon inclusions, crater descent scheduling, and butler service arrangements.\n\nThank you,\n[Your names]"
   },

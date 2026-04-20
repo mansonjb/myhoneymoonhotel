@@ -3,19 +3,62 @@
   "name": "The Springs Resort & Spa Arenal",
   "destination": "costa-rica",
   "country": "costa-rica",
-  "experience_types": ["luxury", "wellness"],
+  "experience_types": [
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 83,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 15, "spa": 15, "award": 5, "pool": 18, "beach": 0, "room_service": 5, "stars": 15, "luxury": 10 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 15,
+    "spa": 15,
+    "award": 5,
+    "pool": 18,
+    "beach": 0,
+    "room_service": 5,
+    "stars": 15,
+    "luxury": 10
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 300, "max": 900 },
+  "price_per_night_usd": {
+    "min": 300,
+    "max": 900
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "room service", "hot springs", "volcano views", "wildlife refuge"],
+  "amenities": [
+    "spa",
+    "pool",
+    "room service",
+    "hot springs",
+    "volcano views",
+    "wildlife refuge"
+  ],
   "photos": [
-    { "url": "/images/hotels/the-springs-resort-arenal-costa-rica/hero.webp", "alt": "the-springs-resort-arenal-costa-rica — hero", "type": "hero" },
-    { "url": "/images/hotels/the-springs-resort-arenal-costa-rica/room.webp", "alt": "the-springs-resort-arenal-costa-rica — room", "type": "room" },
-    { "url": "/images/hotels/the-springs-resort-arenal-costa-rica/pool.webp", "alt": "the-springs-resort-arenal-costa-rica — pool", "type": "pool" },
-    { "url": "/images/hotels/the-springs-resort-arenal-costa-rica/spa.webp", "alt": "the-springs-resort-arenal-costa-rica — spa", "type": "spa" },
-    { "url": "/images/hotels/the-springs-resort-arenal-costa-rica/dining.webp", "alt": "the-springs-resort-arenal-costa-rica — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/the-springs-resort-arenal-costa-rica/hero.webp",
+      "alt": "the-springs-resort-arenal-costa-rica — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/the-springs-resort-arenal-costa-rica/room.webp",
+      "alt": "the-springs-resort-arenal-costa-rica — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/the-springs-resort-arenal-costa-rica/pool.webp",
+      "alt": "the-springs-resort-arenal-costa-rica — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/the-springs-resort-arenal-costa-rica/spa.webp",
+      "alt": "the-springs-resort-arenal-costa-rica — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/the-springs-resort-arenal-costa-rica/dining.webp",
+      "alt": "the-springs-resort-arenal-costa-rica — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 8.9,
   "tripadvisor_award": false,
@@ -24,13 +67,41 @@
     "verdict": "The Springs Resort & Spa is the best value luxury option in the Arenal volcano area, offering 16 natural hot spring pools fed directly by Arenal's geothermal activity, a 72-room property with wildlife refuge on site, and the adults-only Sky River Grotto thermal complex that is among the most dramatic hot spring experiences in Costa Rica. It delivers a genuine luxury volcanic spa experience without the ultra-premium pricing of the Nayara properties next door.",
     "best_room": "The Presidential Suite offers the best volcano views in the house — a sprawling multi-room suite with a private terrace, deep soaking tub, and panoramic floor-to-ceiling windows looking directly at Arenal's cone. For couples on a slightly tighter budget, the Junior Suites with Volcano View hit the sweet spot between comfort and value, with impressive Arenal vistas from their private balconies.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Hot Springs", "description": "Arrive from San José or Liberia via private transfer. The Springs sits in a dramatic position above the La Fortuna valley with Arenal framed behind the hot spring terraces. Check in and head immediately for the Sky River Grotto — the adults-only thermal complex built into the volcanic hillside above the Arenal River is one of the great experiences in Costa Rica." },
-      { "day": 2, "title": "Wildlife Refuge & Spa", "description": "The Springs Wildlife Refuge on the hotel grounds is home to rescued cats (margay, ocelot, jaguarundi), monkeys, macaws, and reptiles. A guided morning tour is fascinating and unlike typical zoo visits — many animals roam semi-freely in large rainforest enclosures. Afternoon couples treatments at the Springs Spa." },
-      { "day": 3, "title": "Arenal Volcano National Park", "description": "Guided hike through the lava fields of Arenal Volcano National Park with a certified naturalist. The park trail loops through spectacular terrain including solidified lava flows from the 1968 eruption that destroyed several villages. The volcano looms overhead throughout the hike. Return for sunset in the hot spring terraces." },
-      { "day": 4, "title": "La Fortuna Waterfall & Lunch", "description": "The 70-meter La Fortuna Waterfall, a 20-minute drive from the resort, plunges into a cold turquoise pool at the base of a dramatic volcanic gorge. The 500-step descent is worth every step. The Springs can arrange a picnic lunch at the falls, or return to the resort's Forest Café overlooking the volcano for a late lunch." },
-      { "day": 5, "title": "Kayaking on Lake Arenal", "description": "Lake Arenal is the largest lake in Costa Rica and ideal for morning kayaking when the surface is calm and the volcano reflection is perfect. A guided naturalist tour by boat offers excellent birdwatching along the forested lakeshore. Return for an afternoon in the 16-pool hot spring complex — each pool is a different temperature, from 28°C to 42°C." },
-      { "day": 6, "title": "Zip-line & Chocolate Tour", "description": "Arenal has some of Costa Rica's most spectacular zip-line circuits, with cables crossing the rainforest canopy at heights of over 60 meters. Combine with an afternoon cacao farm visit — the La Fortuna area grows some of Costa Rica's finest cacao, and tasting fresh chocolate in its origin region is a genuine pleasure." },
-      { "day": 7, "title": "Final Morning Soak & Departure", "description": "Use your last morning for a long final session in the Sky River Grotto thermal pools before checkout. Volcano views from the hilltop pools on a clear morning are among the best in the Arenal area. The Springs team arranges smooth transfers back to San José or Liberia." }
+      {
+        "day": 1,
+        "title": "Arrival & Hot Springs",
+        "description": "Arrive from San José or Liberia via private transfer. The Springs sits in a dramatic position above the La Fortuna valley with Arenal framed behind the hot spring terraces. Check in and head immediately for the Sky River Grotto — the adults-only thermal complex built into the volcanic hillside above the Arenal River is one of the great experiences in Costa Rica."
+      },
+      {
+        "day": 2,
+        "title": "Wildlife Refuge & Spa",
+        "description": "The Springs Wildlife Refuge on the hotel grounds is home to rescued cats (margay, ocelot, jaguarundi), monkeys, macaws, and reptiles. A guided morning tour is fascinating and unlike typical zoo visits — many animals roam semi-freely in large rainforest enclosures. Afternoon couples treatments at the Springs Spa."
+      },
+      {
+        "day": 3,
+        "title": "Arenal Volcano National Park",
+        "description": "Guided hike through the lava fields of Arenal Volcano National Park with a certified naturalist. The park trail loops through spectacular terrain including solidified lava flows from the 1968 eruption that destroyed several villages. The volcano looms overhead throughout the hike. Return for sunset in the hot spring terraces."
+      },
+      {
+        "day": 4,
+        "title": "La Fortuna Waterfall & Lunch",
+        "description": "The 70-meter La Fortuna Waterfall, a 20-minute drive from the resort, plunges into a cold turquoise pool at the base of a dramatic volcanic gorge. The 500-step descent is worth every step. The Springs can arrange a picnic lunch at the falls, or return to the resort's Forest Café overlooking the volcano for a late lunch."
+      },
+      {
+        "day": 5,
+        "title": "Kayaking on Lake Arenal",
+        "description": "Lake Arenal is the largest lake in Costa Rica and ideal for morning kayaking when the surface is calm and the volcano reflection is perfect. A guided naturalist tour by boat offers excellent birdwatching along the forested lakeshore. Return for an afternoon in the 16-pool hot spring complex — each pool is a different temperature, from 28°C to 42°C."
+      },
+      {
+        "day": 6,
+        "title": "Zip-line & Chocolate Tour",
+        "description": "Arenal has some of Costa Rica's most spectacular zip-line circuits, with cables crossing the rainforest canopy at heights of over 60 meters. Combine with an afternoon cacao farm visit — the La Fortuna area grows some of Costa Rica's finest cacao, and tasting fresh chocolate in its origin region is a genuine pleasure."
+      },
+      {
+        "day": 7,
+        "title": "Final Morning Soak & Departure",
+        "description": "Use your last morning for a long final session in the Sky River Grotto thermal pools before checkout. Volcano views from the hilltop pools on a clear morning are among the best in the Arenal area. The Springs team arranges smooth transfers back to San José or Liberia."
+      }
     ],
     "caveats": [
       "The Springs is a larger resort (72 rooms) and attracts families as well as couples — it is not as exclusively romantic as the Nayara properties. The Sky River Grotto adults-only area is a good refuge for honeymooners, but the wider resort is mixed.",
@@ -38,12 +109,30 @@
       "Arenal's cloud cover is unpredictable — clear volcano views are never guaranteed. Morning arrivals at the hot springs when mist lingers dramatically around the cone are often more atmospheric than full-visibility blue-sky days."
     ],
     "faqs": [
-      { "question": "Is The Springs good for honeymooners?", "answer": "Yes, especially for couples who prioritize hot spring experiences and value over exclusivity. The 16 natural thermal pools, the adults-only Sky River Grotto, and the volcano setting create a genuinely romantic atmosphere at a more accessible price point than the Nayara properties. It is the best-value luxury Arenal option for honeymooners." },
-      { "question": "What is the best time to visit?", "answer": "December through April is the dry season with more reliable volcano views and clearer skies. The green season (May–November) brings lusher surroundings and lower rates. The hot springs are enjoyable in any weather — soaking in thermal waters as tropical rain falls around you is one of Costa Rica's most memorable experiences." },
-      { "question": "How far in advance should you book?", "answer": "Book 2–3 months in advance for holiday periods and 4–6 weeks for other dates. The Springs has more availability than the boutique Nayara properties but still sells out during peak season." },
-      { "question": "Is The Springs adults-only?", "answer": "No, The Springs welcomes families and has a children's pool and wildlife refuge that appeals to family travelers. However, the Sky River Grotto is strictly adults-only, providing honeymooners with a dedicated thermal sanctuary separate from families." },
-      { "question": "What is the best room type?", "answer": "The Presidential Suite or Junior Suite with Volcano View for the best Arenal sightlines. All rooms have comfortable amenities but the volcano-view rooms deliver the defining Arenal visual experience. The Sky River Grotto access is included for all guests regardless of room category." },
-      { "question": "How do you get to The Springs?", "answer": "Fly into San José (SJO) and take a 3.5-hour private transfer, or fly into Liberia (LIR) for a 2.5-hour drive. Domestic flights to La Fortuna (FON) reduce the journey significantly. Private transfers from all airports can be arranged through the hotel." }
+      {
+        "question": "Is The Springs good for honeymooners?",
+        "answer": "Yes, especially for couples who prioritize hot spring experiences and value over exclusivity. The 16 natural thermal pools, the adults-only Sky River Grotto, and the volcano setting create a genuinely romantic atmosphere at a more accessible price point than the Nayara properties. It is the best-value luxury Arenal option for honeymooners."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "December through April is the dry season with more reliable volcano views and clearer skies. The green season (May–November) brings lusher surroundings and lower rates. The hot springs are enjoyable in any weather — soaking in thermal waters as tropical rain falls around you is one of Costa Rica's most memorable experiences."
+      },
+      {
+        "question": "How far in advance should you book?",
+        "answer": "Book 2–3 months in advance for holiday periods and 4–6 weeks for other dates. The Springs has more availability than the boutique Nayara properties but still sells out during peak season."
+      },
+      {
+        "question": "Is The Springs adults-only?",
+        "answer": "No, The Springs welcomes families and has a children's pool and wildlife refuge that appeals to family travelers. However, the Sky River Grotto is strictly adults-only, providing honeymooners with a dedicated thermal sanctuary separate from families."
+      },
+      {
+        "question": "What is the best room type?",
+        "answer": "The Presidential Suite or Junior Suite with Volcano View for the best Arenal sightlines. All rooms have comfortable amenities but the volcano-view rooms deliver the defining Arenal visual experience. The Sky River Grotto access is included for all guests regardless of room category."
+      },
+      {
+        "question": "How do you get to The Springs?",
+        "answer": "Fly into San José (SJO) and take a 3.5-hour private transfer, or fly into Liberia (LIR) for a 2.5-hour drive. Domestic flights to La Fortuna (FON) reduce the journey significantly. Private transfers from all airports can be arranged through the hotel."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — The Springs Resort & Spa Arenal\n\nDear The Springs team,\n\nWe are planning our honeymoon [DATE]-[DATE] and interested in a Junior Suite or Presidential Suite with volcano views. Could you advise on availability, any honeymoon packages, and Sky River Grotto access details?\n\nThank you,\n[Your names]"
   },

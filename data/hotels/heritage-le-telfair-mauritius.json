@@ -3,7 +3,11 @@
   "name": "Heritage Le Telfair Golf & Wellness Resort",
   "destination": "mauritius",
   "country": "mauritius",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 83,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,49 @@
     "luxury": 11
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 400, "max": 1200 },
+  "price_per_night_usd": {
+    "min": 400,
+    "max": 1200
+  },
   "adults_only": false,
-  "amenities": ["private pool suites", "private beach", "Chenot Spa", "pool", "room service", "butler service", "multiple restaurants", "golf course", "concierge", "water sports"],
+  "amenities": [
+    "private pool suites",
+    "private beach",
+    "Chenot Spa",
+    "pool",
+    "room service",
+    "butler service",
+    "multiple restaurants",
+    "golf course",
+    "concierge",
+    "water sports"
+  ],
   "photos": [
-    { "url": "/images/hotels/heritage-le-telfair-mauritius/hero.webp", "alt": "heritage-le-telfair-mauritius — hero", "type": "hero" },
-    { "url": "/images/hotels/heritage-le-telfair-mauritius/room.webp", "alt": "heritage-le-telfair-mauritius — room", "type": "room" },
-    { "url": "/images/hotels/heritage-le-telfair-mauritius/pool.webp", "alt": "heritage-le-telfair-mauritius — pool", "type": "pool" },
-    { "url": "/images/hotels/heritage-le-telfair-mauritius/spa.webp", "alt": "heritage-le-telfair-mauritius — spa", "type": "spa" },
-    { "url": "/images/hotels/heritage-le-telfair-mauritius/dining.webp", "alt": "heritage-le-telfair-mauritius — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/heritage-le-telfair-mauritius/hero.webp",
+      "alt": "heritage-le-telfair-mauritius — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/heritage-le-telfair-mauritius/room.webp",
+      "alt": "heritage-le-telfair-mauritius — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/heritage-le-telfair-mauritius/pool.webp",
+      "alt": "heritage-le-telfair-mauritius — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/heritage-le-telfair-mauritius/spa.webp",
+      "alt": "heritage-le-telfair-mauritius — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/heritage-le-telfair-mauritius/dining.webp",
+      "alt": "heritage-le-telfair-mauritius — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 8.9,
   "tripadvisor_award": false,
@@ -34,13 +72,41 @@
     "verdict": "Heritage Le Telfair is a beautifully conceived resort in the former sugar estate of Bel Ombre on Mauritius's south coast — all colonial plantation architecture, 156 suites with private pools, and a setting in a UNESCO-proposed biosphere reserve that gives it an extraordinary sense of place. The resort's Chenot Spa is one of the most rigorous wellness programs in the Indian Ocean, and the surrounding Bel Ombre nature reserve provides hiking, mountain biking, and nature experiences that few beach resorts can match. For honeymooners who want a beach, a spa, a pool, and a sense of being somewhere genuinely special, Le Telfair delivers.",
     "best_room": "The Junior Suites with private pool and garden are the defining Le Telfair experience — private plunge pools in the garden of a colonial-style villa, with direct access to the resort grounds. The Beach Suites offer the most direct beach access. For total immersion in the plantation aesthetic, the Signature Suite in the main heritage building offers an authentically atmospheric stay with the most historical character.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Colonial Sugar Estate", "description": "Arrive at Bel Ombre and enter a resort that feels entirely different from any other in Mauritius — the colonial plantation architecture, the heritage sugar estate context, and the UNESCO biosphere setting create an atmosphere of living history and natural beauty. The welcome at Le Telfair is gracious and unhurried. A first sunset at the beachfront restaurant, where the south coast's wild ocean energy is immediately apparent." },
-      { "day": 2, "title": "Bel Ombre Nature Reserve", "description": "The resort is embedded within the Bel Ombre nature reserve — arrange a guided nature walk in the morning through endemic forest where Mauritius's rare wildlife survives. The Java sparrow, echo parakeet, and Mauritius kestrel are all resident here. Return to the resort for a long afternoon at the pool or beach, with the wild south coast ocean providing a dramatic soundtrack." },
-      { "day": 3, "title": "Chenot Spa & Wellness", "description": "The Chenot Spa uses Dr. Henri Chenot's medical wellness method — a sophisticated European biontological system that goes well beyond typical spa treatments into genuine health assessment and targeted therapies. Book a morning consultation and a tailored half-day programme. The spa's facilities include a hydrotherapy pool, phytotherapy treatments, and nutritional consultation — an unusually serious wellness offering for a beach resort." },
-      { "day": 4, "title": "South Coast & Chamarel", "description": "Hire a driver for a day exploring the southwest. The Chamarel Seven Coloured Earths and the waterfalls are a 45-minute drive. Continue to the village of Case Noyale for a traditional Creole lunch, and end at the Le Morne peninsula — a World Heritage site with extraordinary cultural significance as a place of freedom for escaped enslaved people in the 19th century." },
-      { "day": 5, "title": "Golf & Beach Day", "description": "Heritage Golf Club's course at Bel Ombre is one of the finest in the Indian Ocean, designed by Peter Matkovich with fairways that run along the coastline with extraordinary Indian Ocean views. Even non-golfers will enjoy a sunset cart tour of the course's most scenic holes. Beach morning, golf afternoon, sunset at the resort's overwater bar." },
-      { "day": 6, "title": "Private Pool Day & Sunset Dinner", "description": "Stay entirely within the resort today — morning by the private pool in your suite garden, a long spa treatment at Chenot in the afternoon, and a sunset dinner at the beachfront restaurant where the chef prepares a special colonial-era Creole tasting menu with wine pairings from a Mauritian rum and wine selection. The south coast sunset at Le Telfair is genuinely spectacular." },
-      { "day": 7, "title": "Farewell Morning", "description": "Final coffee on the suite terrace, one last walk through the colonial estate grounds before the airport transfer. Le Telfair's farewell is typically a small gift of locally produced heritage rum from the Bel Ombre estate distillery — a distinctive keepsake from one of the more historically grounded hotels in the Indian Ocean." }
+      {
+        "day": 1,
+        "title": "Colonial Sugar Estate",
+        "description": "Arrive at Bel Ombre and enter a resort that feels entirely different from any other in Mauritius — the colonial plantation architecture, the heritage sugar estate context, and the UNESCO biosphere setting create an atmosphere of living history and natural beauty. The welcome at Le Telfair is gracious and unhurried. A first sunset at the beachfront restaurant, where the south coast's wild ocean energy is immediately apparent."
+      },
+      {
+        "day": 2,
+        "title": "Bel Ombre Nature Reserve",
+        "description": "The resort is embedded within the Bel Ombre nature reserve — arrange a guided nature walk in the morning through endemic forest where Mauritius's rare wildlife survives. The Java sparrow, echo parakeet, and Mauritius kestrel are all resident here. Return to the resort for a long afternoon at the pool or beach, with the wild south coast ocean providing a dramatic soundtrack."
+      },
+      {
+        "day": 3,
+        "title": "Chenot Spa & Wellness",
+        "description": "The Chenot Spa uses Dr. Henri Chenot's medical wellness method — a sophisticated European biontological system that goes well beyond typical spa treatments into genuine health assessment and targeted therapies. Book a morning consultation and a tailored half-day programme. The spa's facilities include a hydrotherapy pool, phytotherapy treatments, and nutritional consultation — an unusually serious wellness offering for a beach resort."
+      },
+      {
+        "day": 4,
+        "title": "South Coast & Chamarel",
+        "description": "Hire a driver for a day exploring the southwest. The Chamarel Seven Coloured Earths and the waterfalls are a 45-minute drive. Continue to the village of Case Noyale for a traditional Creole lunch, and end at the Le Morne peninsula — a World Heritage site with extraordinary cultural significance as a place of freedom for escaped enslaved people in the 19th century."
+      },
+      {
+        "day": 5,
+        "title": "Golf & Beach Day",
+        "description": "Heritage Golf Club's course at Bel Ombre is one of the finest in the Indian Ocean, designed by Peter Matkovich with fairways that run along the coastline with extraordinary Indian Ocean views. Even non-golfers will enjoy a sunset cart tour of the course's most scenic holes. Beach morning, golf afternoon, sunset at the resort's overwater bar."
+      },
+      {
+        "day": 6,
+        "title": "Private Pool Day & Sunset Dinner",
+        "description": "Stay entirely within the resort today — morning by the private pool in your suite garden, a long spa treatment at Chenot in the afternoon, and a sunset dinner at the beachfront restaurant where the chef prepares a special colonial-era Creole tasting menu with wine pairings from a Mauritian rum and wine selection. The south coast sunset at Le Telfair is genuinely spectacular."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "Final coffee on the suite terrace, one last walk through the colonial estate grounds before the airport transfer. Le Telfair's farewell is typically a small gift of locally produced heritage rum from the Bel Ombre estate distillery — a distinctive keepsake from one of the more historically grounded hotels in the Indian Ocean."
+      }
     ],
     "caveats": [
       "The south coast of Mauritius has rougher seas than the sheltered west coast lagoons — swimming can be affected by swell and wind, particularly June-September. The resort's beach is beautiful but not the flattest calm lagoon swimming of the west coast.",

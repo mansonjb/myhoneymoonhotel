@@ -3,7 +3,12 @@
   "name": "Four Seasons Resort Mauritius at Anahita",
   "destination": "mauritius",
   "country": "mauritius",
-  "experience_types": ["beach", "luxury", "wellness", "overwater-bungalows"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness",
+    "overwater-bungalows"
+  ],
   "honeymoon_score": 92,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +22,49 @@
     "luxury": 9
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 800, "max": 2500 },
+  "price_per_night_usd": {
+    "min": 800,
+    "max": 2500
+  },
   "adults_only": false,
-  "amenities": ["overwater villas", "private beach", "Four Seasons Spa", "multiple pools", "room service", "butler service", "multiple restaurants", "golf course", "water sports", "concierge"],
+  "amenities": [
+    "overwater villas",
+    "private beach",
+    "Four Seasons Spa",
+    "multiple pools",
+    "room service",
+    "butler service",
+    "multiple restaurants",
+    "golf course",
+    "water sports",
+    "concierge"
+  ],
   "photos": [
-    { "url": "/images/hotels/four-seasons-anahita-mauritius/hero.webp", "alt": "four-seasons-anahita-mauritius — hero", "type": "hero" },
-    { "url": "/images/hotels/four-seasons-anahita-mauritius/room.webp", "alt": "four-seasons-anahita-mauritius — room", "type": "room" },
-    { "url": "/images/hotels/four-seasons-anahita-mauritius/pool.webp", "alt": "four-seasons-anahita-mauritius — pool", "type": "pool" },
-    { "url": "/images/hotels/four-seasons-anahita-mauritius/spa.webp", "alt": "four-seasons-anahita-mauritius — spa", "type": "spa" },
-    { "url": "/images/hotels/four-seasons-anahita-mauritius/dining.webp", "alt": "four-seasons-anahita-mauritius — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/four-seasons-anahita-mauritius/hero.webp",
+      "alt": "four-seasons-anahita-mauritius — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/four-seasons-anahita-mauritius/room.webp",
+      "alt": "four-seasons-anahita-mauritius — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/four-seasons-anahita-mauritius/pool.webp",
+      "alt": "four-seasons-anahita-mauritius — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/four-seasons-anahita-mauritius/spa.webp",
+      "alt": "four-seasons-anahita-mauritius — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/four-seasons-anahita-mauritius/dining.webp",
+      "alt": "four-seasons-anahita-mauritius — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.5,
   "tripadvisor_award": true,
@@ -34,13 +73,41 @@
     "verdict": "The Four Seasons Anahita is the best-integrated overwater villa resort in Mauritius — set on a private island connected by wooden boardwalks within the Beau Champ lagoon on the east coast, with overwater villas that offer genuine Indian Ocean overwater living at a standard only Four Seasons can deliver. The combination of overwater villas, an award-winning championship golf course (designed by Ernie Els), the Four Seasons Spa, and the resort's private island feel creates one of the most complete luxury resort experiences in the Indian Ocean.",
     "best_room": "The Two-Bedroom Water Villa is the ultimate honeymoon overwater option — direct water access from your private deck, glass floor panels above the lagoon, and Four Seasons service delivered to your private pier. The One-Bedroom Water Villas are also superb and more appropriate for just two guests. For couples who prefer land, the Beach Villas on the resort's private beaches are among the finest beach villas in Mauritius.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Island Arrival", "description": "Transfer from the airport and board the resort's boat for a short water transfer to the private island — the arrival across the Beau Champ lagoon with the overwater villas appearing through the mangroves is one of the great Indian Ocean resort arrivals. Your butler is waiting at your villa pier with Champagne and the Four Seasons welcome that the brand has made into an art form. First dinner at the main restaurant's lagoon terrace." },
-      { "day": 2, "title": "Overwater Morning & Lagoon Day", "description": "Wake up on your overwater deck to absolute silence broken only by the soft lapping of the lagoon below. Breakfast served on your private deck, then a morning of snorkeling directly off the villa into the warm Mauritius lagoon. The Four Seasons Spa opens at 8am — book a Creole healing treatment before lunch, and spend the afternoon in the overwater hammock or your private pool." },
-      { "day": 3, "title": "Dolphin Encounter & West Coast", "description": "Arrange the resort's famous dolphin snorkeling excursion — Mauritius's west coast is one of the few places in the world where spinner dolphins gather in large pods every morning, and swimming alongside them in the open ocean is extraordinary. The drive to the west coast (about 1 hour) passes through the island's most scenic sugar cane landscapes." },
-      { "day": 4, "title": "Four Seasons Spa & Golf Sunset", "description": "Full day at the Four Seasons Spa — Mauritius-specific treatments using local tropical plant extracts, traditional Creole massage techniques, and the spa's signature Anahita ritual treatment. In the afternoon, take a sunset golf cart tour of the Ernie Els championship course even if you don't play — the views from the course over the lagoon at golden hour are remarkable." },
-      { "day": 5, "title": "Île aux Cerfs & Snorkeling Safari", "description": "Boat to the famous Île aux Cerfs for the day. The Four Seasons can arrange a private snorkeling safari with a marine biologist guide — following the reef from the island around to the outer coral garden where the diversity of marine life is exceptional. Return to Anahita for the evening and a special butler-arranged private dinner on the villa pier under the stars." },
-      { "day": 6, "title": "Mauritius Cultural Immersion", "description": "Hire a driver through the concierge for a full Mauritius cultural day. Visit the Eureka Colonial House in Moka for an insight into 19th-century plantation life, continue to Port Louis's vibrant central market, and finish at the stunning Pamplemousses Botanical Garden — established in 1770, it's one of the finest tropical gardens in the world with its famous giant Victoria amazonica water lilies." },
-      { "day": 7, "title": "Farewell Morning", "description": "A final dawn on the overwater deck as the lagoon turns from silver to blue below you. Breakfast in bed, one last swim off the villa pier, and the gentle pace of a Four Seasons departure. The boat transfer back to the mainland and the drive to the airport passes through a Mauritius that feels familiar now — the coconut palms, the lagoon colors, the sugar cane fields. You will be planning your return before you land." }
+      {
+        "day": 1,
+        "title": "Island Arrival",
+        "description": "Transfer from the airport and board the resort's boat for a short water transfer to the private island — the arrival across the Beau Champ lagoon with the overwater villas appearing through the mangroves is one of the great Indian Ocean resort arrivals. Your butler is waiting at your villa pier with Champagne and the Four Seasons welcome that the brand has made into an art form. First dinner at the main restaurant's lagoon terrace."
+      },
+      {
+        "day": 2,
+        "title": "Overwater Morning & Lagoon Day",
+        "description": "Wake up on your overwater deck to absolute silence broken only by the soft lapping of the lagoon below. Breakfast served on your private deck, then a morning of snorkeling directly off the villa into the warm Mauritius lagoon. The Four Seasons Spa opens at 8am — book a Creole healing treatment before lunch, and spend the afternoon in the overwater hammock or your private pool."
+      },
+      {
+        "day": 3,
+        "title": "Dolphin Encounter & West Coast",
+        "description": "Arrange the resort's famous dolphin snorkeling excursion — Mauritius's west coast is one of the few places in the world where spinner dolphins gather in large pods every morning, and swimming alongside them in the open ocean is extraordinary. The drive to the west coast (about 1 hour) passes through the island's most scenic sugar cane landscapes."
+      },
+      {
+        "day": 4,
+        "title": "Four Seasons Spa & Golf Sunset",
+        "description": "Full day at the Four Seasons Spa — Mauritius-specific treatments using local tropical plant extracts, traditional Creole massage techniques, and the spa's signature Anahita ritual treatment. In the afternoon, take a sunset golf cart tour of the Ernie Els championship course even if you don't play — the views from the course over the lagoon at golden hour are remarkable."
+      },
+      {
+        "day": 5,
+        "title": "Île aux Cerfs & Snorkeling Safari",
+        "description": "Boat to the famous Île aux Cerfs for the day. The Four Seasons can arrange a private snorkeling safari with a marine biologist guide — following the reef from the island around to the outer coral garden where the diversity of marine life is exceptional. Return to Anahita for the evening and a special butler-arranged private dinner on the villa pier under the stars."
+      },
+      {
+        "day": 6,
+        "title": "Mauritius Cultural Immersion",
+        "description": "Hire a driver through the concierge for a full Mauritius cultural day. Visit the Eureka Colonial House in Moka for an insight into 19th-century plantation life, continue to Port Louis's vibrant central market, and finish at the stunning Pamplemousses Botanical Garden — established in 1770, it's one of the finest tropical gardens in the world with its famous giant Victoria amazonica water lilies."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "A final dawn on the overwater deck as the lagoon turns from silver to blue below you. Breakfast in bed, one last swim off the villa pier, and the gentle pace of a Four Seasons departure. The boat transfer back to the mainland and the drive to the airport passes through a Mauritius that feels familiar now — the coconut palms, the lagoon colors, the sugar cane fields. You will be planning your return before you land."
+      }
     ],
     "caveats": [
       "The east coast location means the resort is affected by trade winds June-August, which can make the lagoon choppy on some days — the overwater villas' protected lagoon position mitigates this, but ocean-facing activities may be limited during windy periods.",

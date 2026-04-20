@@ -3,19 +3,66 @@
   "name": "Four Seasons Safari Lodge Serengeti",
   "destination": "tanzania",
   "country": "tanzania",
-  "experience_types": ["safari", "luxury", "wellness"],
+  "experience_types": [
+    "safari",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 93,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 18, "spa": 15, "award": 10, "pool": 15, "beach": 0, "room_service": 10, "stars": 15, "luxury": 10 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 18,
+    "spa": 15,
+    "award": 10,
+    "pool": 15,
+    "beach": 0,
+    "room_service": 10,
+    "stars": 15,
+    "luxury": 10
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 1200, "max": 4000 },
+  "price_per_night_usd": {
+    "min": 1200,
+    "max": 4000
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "game drives", "room service", "butler service", "hot spring pool", "fine dining", "yoga", "bush walks"],
+  "amenities": [
+    "spa",
+    "pool",
+    "game drives",
+    "room service",
+    "butler service",
+    "hot spring pool",
+    "fine dining",
+    "yoga",
+    "bush walks"
+  ],
   "photos": [
-    { "url": "/images/hotels/four-seasons-serengeti-tanzania/hero.webp", "alt": "four-seasons-serengeti-tanzania — hero", "type": "hero" },
-    { "url": "/images/hotels/four-seasons-serengeti-tanzania/room.webp", "alt": "four-seasons-serengeti-tanzania — room", "type": "room" },
-    { "url": "/images/hotels/four-seasons-serengeti-tanzania/pool.webp", "alt": "four-seasons-serengeti-tanzania — pool", "type": "pool" },
-    { "url": "/images/hotels/four-seasons-serengeti-tanzania/spa.webp", "alt": "four-seasons-serengeti-tanzania — spa", "type": "spa" },
-    { "url": "/images/hotels/four-seasons-serengeti-tanzania/dining.webp", "alt": "four-seasons-serengeti-tanzania — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/four-seasons-serengeti-tanzania/hero.webp",
+      "alt": "four-seasons-serengeti-tanzania — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/four-seasons-serengeti-tanzania/room.webp",
+      "alt": "four-seasons-serengeti-tanzania — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/four-seasons-serengeti-tanzania/pool.webp",
+      "alt": "four-seasons-serengeti-tanzania — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/four-seasons-serengeti-tanzania/spa.webp",
+      "alt": "four-seasons-serengeti-tanzania — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/four-seasons-serengeti-tanzania/dining.webp",
+      "alt": "four-seasons-serengeti-tanzania — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.3,
   "tripadvisor_award": true,
@@ -24,13 +71,41 @@
     "verdict": "The Four Seasons Safari Lodge sits in the heart of Central Serengeti with the only swimming pool fed by natural hot springs in the entire ecosystem — a uniquely romantic touch that sets it apart. With 77 suites and villas, this is one of the larger luxury properties in Tanzania, bringing Four Seasons' consistently excellent service standard to the world's most iconic safari landscape. Year-round wildlife and Central Serengeti's consistent access to the Great Migration make this an outstanding choice for any time of year.",
     "best_room": "The Serengeti Villa is the ultimate romantic retreat — a private two-bedroom villa with its own infinity pool, butler, and uninterrupted game-drive views from the deck. The Safari Suite category offers the best balance of space and romance within the main lodge, with large private terraces where elephants and buffalo regularly wander past at dawn. The hot spring main pool creates a surreal evening experience — warm water under a star-filled Serengeti sky.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Hot Spring Welcome", "description": "Fly from Kilimanjaro or Dar es Salaam to Seronera airstrip, then transfer 20 minutes to the lodge. After check-in, the natural hot spring pool awaits for an afternoon swim — warm, soothing water in the middle of the Serengeti is an extraordinary sensory experience. The evening game drive often yields Big 5 sightings in the surrounding hills." },
-      { "day": 2, "title": "Central Serengeti Game Drive", "description": "The Central Serengeti's year-round resident wildlife includes large elephant herds, lion prides, and the world's densest leopard population. Your Four Seasons guide leads a morning drive through the kopjes (rocky outcrops) where leopards are regularly sighted. The afternoon is for spa treatments using African botanicals." },
-      { "day": 3, "title": "Great Migration Plains", "description": "Depending on the season, the migration herds may be in the Central Serengeti plains — a spectacle of wildebeest and zebra stretching to the horizon. Game drives into the Seronera Valley reveal the drama of predator-prey interaction at its most intense: lion ambushes, cheetah chases, and crocodile river crossings." },
-      { "day": 4, "title": "Bush Walk & Maasai Village", "description": "A guided bush walk explores the Serengeti at foot level — a completely different scale from the vehicle. In the afternoon, visit a traditional Maasai boma to learn about cattle-keeping, beadwork, and the cosmological significance of the Serengeti to the Maasai people. Return for dinner on your suite's terrace." },
-      { "day": 5, "title": "Balloon Safari", "description": "Pre-dawn wake-up for the Serengeti's signature experience: a hot air balloon over the plains at sunrise. Drift silently over herds of wildebeest, elephants at waterholes, and lion prides with cubs. Land for a champagne bush breakfast in the middle of the Serengeti — one of East Africa's great romantic moments." },
-      { "day": 6, "title": "Ngorongoro Day Trip", "description": "An excursion to the Ngorongoro Crater — the world's largest intact volcanic caldera and a UNESCO World Heritage Site. Descend into the 20km-wide crater floor where 25,000 animals live in a closed ecosystem including the Big 5. Return to the Four Seasons in the late afternoon, the hot spring pool a welcome relief." },
-      { "day": 7, "title": "Final Sunrise Drive & Departure", "description": "A last dawn game drive as the Serengeti turns gold — lions on kopjes catching the early warmth, giraffes silhouetted against a crimson sky. Return for a farewell breakfast and pool morning before the transfer to Seronera for your outbound flight. The memory of the hot spring pool under stars remains long after." }
+      {
+        "day": 1,
+        "title": "Arrival & Hot Spring Welcome",
+        "description": "Fly from Kilimanjaro or Dar es Salaam to Seronera airstrip, then transfer 20 minutes to the lodge. After check-in, the natural hot spring pool awaits for an afternoon swim — warm, soothing water in the middle of the Serengeti is an extraordinary sensory experience. The evening game drive often yields Big 5 sightings in the surrounding hills."
+      },
+      {
+        "day": 2,
+        "title": "Central Serengeti Game Drive",
+        "description": "The Central Serengeti's year-round resident wildlife includes large elephant herds, lion prides, and the world's densest leopard population. Your Four Seasons guide leads a morning drive through the kopjes (rocky outcrops) where leopards are regularly sighted. The afternoon is for spa treatments using African botanicals."
+      },
+      {
+        "day": 3,
+        "title": "Great Migration Plains",
+        "description": "Depending on the season, the migration herds may be in the Central Serengeti plains — a spectacle of wildebeest and zebra stretching to the horizon. Game drives into the Seronera Valley reveal the drama of predator-prey interaction at its most intense: lion ambushes, cheetah chases, and crocodile river crossings."
+      },
+      {
+        "day": 4,
+        "title": "Bush Walk & Maasai Village",
+        "description": "A guided bush walk explores the Serengeti at foot level — a completely different scale from the vehicle. In the afternoon, visit a traditional Maasai boma to learn about cattle-keeping, beadwork, and the cosmological significance of the Serengeti to the Maasai people. Return for dinner on your suite's terrace."
+      },
+      {
+        "day": 5,
+        "title": "Balloon Safari",
+        "description": "Pre-dawn wake-up for the Serengeti's signature experience: a hot air balloon over the plains at sunrise. Drift silently over herds of wildebeest, elephants at waterholes, and lion prides with cubs. Land for a champagne bush breakfast in the middle of the Serengeti — one of East Africa's great romantic moments."
+      },
+      {
+        "day": 6,
+        "title": "Ngorongoro Day Trip",
+        "description": "An excursion to the Ngorongoro Crater — the world's largest intact volcanic caldera and a UNESCO World Heritage Site. Descend into the 20km-wide crater floor where 25,000 animals live in a closed ecosystem including the Big 5. Return to the Four Seasons in the late afternoon, the hot spring pool a welcome relief."
+      },
+      {
+        "day": 7,
+        "title": "Final Sunrise Drive & Departure",
+        "description": "A last dawn game drive as the Serengeti turns gold — lions on kopjes catching the early warmth, giraffes silhouetted against a crimson sky. Return for a farewell breakfast and pool morning before the transfer to Seronera for your outbound flight. The memory of the hot spring pool under stars remains long after."
+      }
     ],
     "caveats": [
       "At 77 suites, this is one of the larger Serengeti lodges; couples seeking maximum intimacy should consider smaller camps.",
@@ -38,12 +113,30 @@
       "Tanzania requires a visa; obtain an e-visa before travel. Yellow fever vaccination may be required depending on your routing."
     ],
     "faqs": [
-      { "question": "Good for honeymooners?", "answer": "The Four Seasons Serengeti offers excellent honeymoon credentials — the hot spring pool is a unique romantic amenity, the villa category provides total privacy, and Four Seasons' service consistency is renowned. Central Serengeti's year-round wildlife means honeymooners visiting any month of the year will encounter extraordinary game." },
-      { "question": "Best time to visit?", "answer": "Central Serengeti offers good game viewing year-round. January and February bring calving season on the southern plains with dramatic predator activity. June through October is dry season with excellent predator viewing. The migration passes through the Central Corridor between May and July. November through March offers lush scenery and fewer visitors." },
-      { "question": "Book in advance?", "answer": "The villa category books out 6 to 9 months ahead. Safari Suites can typically be reserved 3 to 6 months in advance. The balloon safari requires advance booking through the lodge as places are limited. Mention your honeymoon for complimentary room touches." },
-      { "question": "Adults-only?", "answer": "No — Four Seasons Serengeti welcomes families and children have their own programming. The villa category provides the greatest privacy for honeymooners. The resort's scale means it can accommodate families and couples simultaneously without one group impacting the other." },
-      { "question": "Best room type?", "answer": "The Serengeti Villa is the definitive honeymoon option — completely private with a personal pool, butler, and uninterrupted game views. Within the main lodge, Safari Suites offer the best combination of space, terrace views, and access to the hot spring pool. Request an upper floor for maximum game sighting from the deck." },
-      { "question": "How to get there?", "answer": "Fly to Kilimanjaro International Airport (JRO) and connect on a charter or scheduled flight to Seronera airstrip in the central Serengeti (approximately 1 hour). Alternatively, fly via Dar es Salaam. The lodge arranges transfers from the airstrip. International connections operate via Nairobi, Doha, Amsterdam, and London." }
+      {
+        "question": "Good for honeymooners?",
+        "answer": "The Four Seasons Serengeti offers excellent honeymoon credentials — the hot spring pool is a unique romantic amenity, the villa category provides total privacy, and Four Seasons' service consistency is renowned. Central Serengeti's year-round wildlife means honeymooners visiting any month of the year will encounter extraordinary game."
+      },
+      {
+        "question": "Best time to visit?",
+        "answer": "Central Serengeti offers good game viewing year-round. January and February bring calving season on the southern plains with dramatic predator activity. June through October is dry season with excellent predator viewing. The migration passes through the Central Corridor between May and July. November through March offers lush scenery and fewer visitors."
+      },
+      {
+        "question": "Book in advance?",
+        "answer": "The villa category books out 6 to 9 months ahead. Safari Suites can typically be reserved 3 to 6 months in advance. The balloon safari requires advance booking through the lodge as places are limited. Mention your honeymoon for complimentary room touches."
+      },
+      {
+        "question": "Adults-only?",
+        "answer": "No — Four Seasons Serengeti welcomes families and children have their own programming. The villa category provides the greatest privacy for honeymooners. The resort's scale means it can accommodate families and couples simultaneously without one group impacting the other."
+      },
+      {
+        "question": "Best room type?",
+        "answer": "The Serengeti Villa is the definitive honeymoon option — completely private with a personal pool, butler, and uninterrupted game views. Within the main lodge, Safari Suites offer the best combination of space, terrace views, and access to the hot spring pool. Request an upper floor for maximum game sighting from the deck."
+      },
+      {
+        "question": "How to get there?",
+        "answer": "Fly to Kilimanjaro International Airport (JRO) and connect on a charter or scheduled flight to Seronera airstrip in the central Serengeti (approximately 1 hour). Alternatively, fly via Dar es Salaam. The lodge arranges transfers from the airstrip. International connections operate via Nairobi, Doha, Amsterdam, and London."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — Four Seasons Safari Lodge Serengeti\n\nDear Four Seasons Serengeti reservations team,\n\nWe are planning our honeymoon [DATE]-[DATE] and are interested in [Serengeti Villa / Safari Suite]. Please advise on availability, honeymoon packages, balloon safari booking, and any complimentary inclusions.\n\nThank you,\n[Your names]"
   },

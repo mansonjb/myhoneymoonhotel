@@ -3,7 +3,10 @@
   "name": "Le Sirenuse",
   "destination": "amalfi",
   "country": "italy",
-  "experience_types": ["luxury", "beach"],
+  "experience_types": [
+    "luxury",
+    "beach"
+  ],
   "honeymoon_score": 95,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +20,49 @@
     "luxury": 10
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 900, "max": 3000 },
+  "price_per_night_usd": {
+    "min": 900,
+    "max": 3000
+  },
   "adults_only": false,
-  "amenities": ["rooftop pool", "spa", "beach access", "room service", "butler service", "Michelin-starred restaurant", "bar", "concierge", "boutique", "boat hire"],
+  "amenities": [
+    "rooftop pool",
+    "spa",
+    "beach access",
+    "room service",
+    "butler service",
+    "Michelin-starred restaurant",
+    "bar",
+    "concierge",
+    "boutique",
+    "boat hire"
+  ],
   "photos": [
-    { "url": "/images/hotels/le-sirenuse-positano-amalfi/hero.webp", "alt": "le-sirenuse-positano-amalfi — hero", "type": "hero" },
-    { "url": "/images/hotels/le-sirenuse-positano-amalfi/room.webp", "alt": "le-sirenuse-positano-amalfi — room", "type": "room" },
-    { "url": "/images/hotels/le-sirenuse-positano-amalfi/pool.webp", "alt": "le-sirenuse-positano-amalfi — pool", "type": "pool" },
-    { "url": "/images/hotels/le-sirenuse-positano-amalfi/spa.webp", "alt": "le-sirenuse-positano-amalfi — spa", "type": "spa" },
-    { "url": "/images/hotels/le-sirenuse-positano-amalfi/dining.webp", "alt": "le-sirenuse-positano-amalfi — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/le-sirenuse-positano-amalfi/hero.webp",
+      "alt": "le-sirenuse-positano-amalfi — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/le-sirenuse-positano-amalfi/room.webp",
+      "alt": "le-sirenuse-positano-amalfi — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/le-sirenuse-positano-amalfi/pool.webp",
+      "alt": "le-sirenuse-positano-amalfi — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/le-sirenuse-positano-amalfi/spa.webp",
+      "alt": "le-sirenuse-positano-amalfi — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/le-sirenuse-positano-amalfi/dining.webp",
+      "alt": "le-sirenuse-positano-amalfi — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.7,
   "tripadvisor_award": true,
@@ -34,13 +71,41 @@
     "verdict": "Le Sirenuse is the most iconic hotel in Positano and arguably the greatest grand hotel on the entire Amalfi Coast — a 58-room palazzo owned by the Sersale family since 1951, when they converted their summer residence into a hotel that has since hosted Truman Capote, John Steinbeck, Sophia Loren, and virtually every celebrated guest who has ever come to the coast. The rooftop pool with its panoramic view of the pastel village cascading to the sea, the Michelin-starred La Sponda restaurant with 400 hand-lit candles each evening, and the Sersale family's personal curation of antiques and art throughout create an experience that is genuinely irreplaceable.",
     "best_room": "The Superior Rooms with Sea View terraces are where most honeymooners should begin — the terrace views framing the iconic Positano church dome and village against the sea are the image that defines Positano photography worldwide. For the absolute pinnacle, the Junior Suites and Suites offer more space and the most coveted terraces. The Sirenuse Suite is the crown jewel with its panoramic wraparound terrace. Book with a sea-view terrace regardless of category — it is the entire point.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Positano's Finest Welcome", "description": "Arrive at Le Sirenuse and be escorted to your terrace, where the view of Positano's famous church dome and the blue-green sea below is exactly as you have imagined it — and better. The evening ritual is perfect: aperitivi at the Champagne & Oyster Bar at the rooftop pool, followed by dinner at La Sponda, where the dining room glows with over 400 candles and the tasting menu draws from the finest Campanian producers." },
-      { "day": 2, "title": "The Rooftop Pool & Village", "description": "Morning at the rooftop pool watching the village wake up below. The pool itself seems to hover above the rooftops, with Positano tumbling dramatically below and the sea beyond. Walk down into the village mid-morning before the tourist boats arrive — the steps and lanes of Positano are at their most beautiful and navigable before 10am. Return for a pool lunch and afternoon at the hotel's Aveda spa." },
-      { "day": 3, "title": "Private Boat to Li Galli & Capri", "description": "Book a private Gozzo boat for the day through the concierge. Cruise to the Li Galli islands for morning swimming, then continue to Capri for afternoon lunch and exploration. The return journey as the sun drops toward the horizon behind Positano is one of the great Mediterranean experiences — the village lit by afternoon gold with Le Sirenuse's terrace glowing above." },
-      { "day": 4, "title": "Cooking with the Chef", "description": "Le Sirenuse offers exclusive private cooking experiences for guests. Spend the morning learning to make the pasta, sauces, and local sfogliatelle that appear on La Sponda's menu, then eat your creations at lunch with the sommelier's wine pairings. Afternoon free on your terrace — this might be the day you write the postcards you will never actually send." },
-      { "day": 5, "title": "Spa & Cinema Evening", "description": "Full morning at the Aveda spa with couples' treatments, then lunch at the sea-level Buca di Bacco bar below the hotel. The concierge can arrange a private film screening in one of Positano's historic spaces — or simply spend the evening at the Champagne bar watching the village lights come on one by one as darkness falls over the sea." },
-      { "day": 6, "title": "Ravello Excursion", "description": "Take the hotel's car up the mountain to Ravello for the day. The contrast between buzzing Positano and the aristocratic stillness of Ravello is striking and wonderful. Visit Villa Cimbrone at midday when the day-trippers have thinned, have lunch at the Ristorante Salvatore with its panoramic terrace, and descend back to Positano in time for a final sunset aperitivo at the rooftop pool." },
-      { "day": 7, "title": "Farewell Morning", "description": "The last morning at Le Sirenuse has an almost ceremonial quality among honeymooners. The Sersale family have ensured that departures are as graceful as arrivals — a final breakfast on your terrace, a bouquet of local flowers wrapped by the staff, and the particular Italian blessing of a farewell that feels like a promise to return." }
+      {
+        "day": 1,
+        "title": "Positano's Finest Welcome",
+        "description": "Arrive at Le Sirenuse and be escorted to your terrace, where the view of Positano's famous church dome and the blue-green sea below is exactly as you have imagined it — and better. The evening ritual is perfect: aperitivi at the Champagne & Oyster Bar at the rooftop pool, followed by dinner at La Sponda, where the dining room glows with over 400 candles and the tasting menu draws from the finest Campanian producers."
+      },
+      {
+        "day": 2,
+        "title": "The Rooftop Pool & Village",
+        "description": "Morning at the rooftop pool watching the village wake up below. The pool itself seems to hover above the rooftops, with Positano tumbling dramatically below and the sea beyond. Walk down into the village mid-morning before the tourist boats arrive — the steps and lanes of Positano are at their most beautiful and navigable before 10am. Return for a pool lunch and afternoon at the hotel's Aveda spa."
+      },
+      {
+        "day": 3,
+        "title": "Private Boat to Li Galli & Capri",
+        "description": "Book a private Gozzo boat for the day through the concierge. Cruise to the Li Galli islands for morning swimming, then continue to Capri for afternoon lunch and exploration. The return journey as the sun drops toward the horizon behind Positano is one of the great Mediterranean experiences — the village lit by afternoon gold with Le Sirenuse's terrace glowing above."
+      },
+      {
+        "day": 4,
+        "title": "Cooking with the Chef",
+        "description": "Le Sirenuse offers exclusive private cooking experiences for guests. Spend the morning learning to make the pasta, sauces, and local sfogliatelle that appear on La Sponda's menu, then eat your creations at lunch with the sommelier's wine pairings. Afternoon free on your terrace — this might be the day you write the postcards you will never actually send."
+      },
+      {
+        "day": 5,
+        "title": "Spa & Cinema Evening",
+        "description": "Full morning at the Aveda spa with couples' treatments, then lunch at the sea-level Buca di Bacco bar below the hotel. The concierge can arrange a private film screening in one of Positano's historic spaces — or simply spend the evening at the Champagne bar watching the village lights come on one by one as darkness falls over the sea."
+      },
+      {
+        "day": 6,
+        "title": "Ravello Excursion",
+        "description": "Take the hotel's car up the mountain to Ravello for the day. The contrast between buzzing Positano and the aristocratic stillness of Ravello is striking and wonderful. Visit Villa Cimbrone at midday when the day-trippers have thinned, have lunch at the Ristorante Salvatore with its panoramic terrace, and descend back to Positano in time for a final sunset aperitivo at the rooftop pool."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "The last morning at Le Sirenuse has an almost ceremonial quality among honeymooners. The Sersale family have ensured that departures are as graceful as arrivals — a final breakfast on your terrace, a bouquet of local flowers wrapped by the staff, and the particular Italian blessing of a farewell that feels like a promise to return."
+      }
     ],
     "caveats": [
       "Positano's main beach, La Spiaggia Grande, is a public pebble beach and can be extremely crowded in July-August; it is not a private paradise. The hotel's access to the beach involves navigating the village steps and streets.",

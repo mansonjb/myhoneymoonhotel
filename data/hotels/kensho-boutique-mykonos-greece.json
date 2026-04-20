@@ -3,7 +3,11 @@
   "name": "Kensho Boutique Hotel & Suites",
   "destination": "greece",
   "country": "greece",
-  "experience_types": ["luxury", "beach", "wellness"],
+  "experience_types": [
+    "luxury",
+    "beach",
+    "wellness"
+  ],
   "honeymoon_score": 87,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,49 @@
     "luxury": 11
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 600, "max": 2000 },
+  "price_per_night_usd": {
+    "min": 600,
+    "max": 2000
+  },
   "adults_only": false,
-  "amenities": ["infinity pool", "Japanese-influenced spa", "beach access", "room service", "restaurant", "bar", "concierge", "private terraces", "yoga", "butler service"],
+  "amenities": [
+    "infinity pool",
+    "Japanese-influenced spa",
+    "beach access",
+    "room service",
+    "restaurant",
+    "bar",
+    "concierge",
+    "private terraces",
+    "yoga",
+    "butler service"
+  ],
   "photos": [
-    { "url": "/images/hotels/kensho-boutique-mykonos-greece/hero.webp", "alt": "kensho-boutique-mykonos-greece — hero", "type": "hero" },
-    { "url": "/images/hotels/kensho-boutique-mykonos-greece/room.webp", "alt": "kensho-boutique-mykonos-greece — room", "type": "room" },
-    { "url": "/images/hotels/kensho-boutique-mykonos-greece/pool.webp", "alt": "kensho-boutique-mykonos-greece — pool", "type": "pool" },
-    { "url": "/images/hotels/kensho-boutique-mykonos-greece/spa.webp", "alt": "kensho-boutique-mykonos-greece — spa", "type": "spa" },
-    { "url": "/images/hotels/kensho-boutique-mykonos-greece/dining.webp", "alt": "kensho-boutique-mykonos-greece — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/kensho-boutique-mykonos-greece/hero.webp",
+      "alt": "kensho-boutique-mykonos-greece — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/kensho-boutique-mykonos-greece/room.webp",
+      "alt": "kensho-boutique-mykonos-greece — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/kensho-boutique-mykonos-greece/pool.webp",
+      "alt": "kensho-boutique-mykonos-greece — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/kensho-boutique-mykonos-greece/spa.webp",
+      "alt": "kensho-boutique-mykonos-greece — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/kensho-boutique-mykonos-greece/dining.webp",
+      "alt": "kensho-boutique-mykonos-greece — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.1,
   "tripadvisor_award": false,
@@ -34,13 +72,41 @@
     "verdict": "Kensho is a sophisticated boutique hotel above Ornos beach on Mykonos, distinguished by its Japanese-influenced Wabi Spa — one of the finest wellness spaces on the island — and its 35 elegant suites positioned to maximize Aegean sea views. The Japanese-Cycladic aesthetic creates a refined, somewhat calmer counterpoint to the typical Mykonos luxury hotel, appealing to honeymooners who want the island's energy and beach culture without quite as much of its frenetic social scene. The infinity pool above Ornos bay is one of the more beautiful pool settings on the island.",
     "best_room": "The Cliff Suites with private infinity pools and panoramic Aegean views are the honeymoon standard — the combination of Japanese design sensibility, warm Cycladic whites, and private infinity pools above the sea creates genuinely beautiful spaces. The Master Suite is the property's most spacious and private option with a wraparound terrace. All suites feature Kensho's distinctive Japanese-influenced interiors with natural materials and considered minimalism.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Japanese Minimalism Meets the Aegean", "description": "Arrive at Kensho and be immediately struck by the design — the Japanese minimalism of the common spaces and the warm Cycladic architecture create a unique visual language on an island of predominantly white box hotels. Settle into your suite terrace, order from the room service menu (excellent sushi alongside Greek mezze), and plan your first sunrise session at the infinity pool." },
-      { "day": 2, "title": "Ornos Beach & the Wabi Spa", "description": "Begin with the Wabi Spa's signature sunrise ritual — an ancient Japanese concept of finding beauty in imperfection that is translated into a genuinely exceptional wellness treatment. Then walk down to Ornos beach, one of Mykonos's most beautiful and sheltered bays, for a morning swim. Return to the hotel's infinity pool for lunch and an afternoon reading your way through the Aegean afternoon light." },
-      { "day": 3, "title": "Mykonos Town", "description": "Take a taxi to Chora for a day in Mykonos Town. The iconic Little Venice neighbourhood — where the houses overhang the sea — is beautiful at any time of day, but particularly magical in the late afternoon light. Explore the archaeological museum, the Lena House folk museum, and the famous windmills. Stay for dinner in town before returning to Kensho." },
-      { "day": 4, "title": "Delos Expedition", "description": "Take the morning ferry from the Old Port to Delos — the sacred island and mythological birthplace of Apollo. With a private guide arranged through Kensho's concierge, the ancient temples, mosaic floors, and terrace of the lions come alive with extraordinary historical context. Return for afternoon beach time at Ornos and a sunset cocktail at Kensho's pool terrace." },
-      { "day": 5, "title": "Beach Hopping by Water Taxi", "description": "Mykonos's beaches are best explored by water taxi from Ornos bay. Visit the exclusive Psarou beach, the famous Paradise beach (more energetic), and the quieter Elia beach on the southern coast — one of the longest and most beautiful on the island. Pack a picnic from Kensho's kitchen or stop at beach tavernas en route." },
-      { "day": 6, "title": "Spa Immersion & Sunset Dinner", "description": "Dedicate the day to the Wabi Spa with its Japanese-inspired treatments — the Shirodhara (warm oil poured in a steady stream across the forehead) and the Kobido facial are exceptional. Lunch on the terrace, afternoon in the private plunge pool, then dress for a final dinner at Kensho's restaurant, where the Japanese-Mediterranean fusion menu reaches its most ambitious expression." },
-      { "day": 7, "title": "Farewell Morning", "description": "A final sunrise from the infinity pool, Japanese-style breakfast on your suite terrace, and a slow preparation for departure that the Kensho staff will make as unhurried as possible. The transfer to Mykonos airport is a 10-minute drive from the hotel — genuinely one of the better aspects of this island's geography." }
+      {
+        "day": 1,
+        "title": "Japanese Minimalism Meets the Aegean",
+        "description": "Arrive at Kensho and be immediately struck by the design — the Japanese minimalism of the common spaces and the warm Cycladic architecture create a unique visual language on an island of predominantly white box hotels. Settle into your suite terrace, order from the room service menu (excellent sushi alongside Greek mezze), and plan your first sunrise session at the infinity pool."
+      },
+      {
+        "day": 2,
+        "title": "Ornos Beach & the Wabi Spa",
+        "description": "Begin with the Wabi Spa's signature sunrise ritual — an ancient Japanese concept of finding beauty in imperfection that is translated into a genuinely exceptional wellness treatment. Then walk down to Ornos beach, one of Mykonos's most beautiful and sheltered bays, for a morning swim. Return to the hotel's infinity pool for lunch and an afternoon reading your way through the Aegean afternoon light."
+      },
+      {
+        "day": 3,
+        "title": "Mykonos Town",
+        "description": "Take a taxi to Chora for a day in Mykonos Town. The iconic Little Venice neighbourhood — where the houses overhang the sea — is beautiful at any time of day, but particularly magical in the late afternoon light. Explore the archaeological museum, the Lena House folk museum, and the famous windmills. Stay for dinner in town before returning to Kensho."
+      },
+      {
+        "day": 4,
+        "title": "Delos Expedition",
+        "description": "Take the morning ferry from the Old Port to Delos — the sacred island and mythological birthplace of Apollo. With a private guide arranged through Kensho's concierge, the ancient temples, mosaic floors, and terrace of the lions come alive with extraordinary historical context. Return for afternoon beach time at Ornos and a sunset cocktail at Kensho's pool terrace."
+      },
+      {
+        "day": 5,
+        "title": "Beach Hopping by Water Taxi",
+        "description": "Mykonos's beaches are best explored by water taxi from Ornos bay. Visit the exclusive Psarou beach, the famous Paradise beach (more energetic), and the quieter Elia beach on the southern coast — one of the longest and most beautiful on the island. Pack a picnic from Kensho's kitchen or stop at beach tavernas en route."
+      },
+      {
+        "day": 6,
+        "title": "Spa Immersion & Sunset Dinner",
+        "description": "Dedicate the day to the Wabi Spa with its Japanese-inspired treatments — the Shirodhara (warm oil poured in a steady stream across the forehead) and the Kobido facial are exceptional. Lunch on the terrace, afternoon in the private plunge pool, then dress for a final dinner at Kensho's restaurant, where the Japanese-Mediterranean fusion menu reaches its most ambitious expression."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "A final sunrise from the infinity pool, Japanese-style breakfast on your suite terrace, and a slow preparation for departure that the Kensho staff will make as unhurried as possible. The transfer to Mykonos airport is a 10-minute drive from the hotel — genuinely one of the better aspects of this island's geography."
+      }
     ],
     "caveats": [
       "Kensho is not adults-only — families do stay, though the Japanese-influenced design and wellness focus create an atmosphere that skews significantly toward couples.",

@@ -3,7 +3,11 @@
   "name": "Sugar Beach A Viceroy Resort",
   "destination": "st-lucia",
   "country": "st-lucia",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 91,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,50 @@
     "luxury": 7
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 700, "max": 3000 },
+  "price_per_night_usd": {
+    "min": 700,
+    "max": 3000
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "beach", "butler service", "room service", "multiple restaurants", "fitness centre", "water sports", "diving", "snorkeling", "tennis"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beach",
+    "butler service",
+    "room service",
+    "multiple restaurants",
+    "fitness centre",
+    "water sports",
+    "diving",
+    "snorkeling",
+    "tennis"
+  ],
   "photos": [
-    { "url": "/images/hotels/sugar-beach-viceroy-st-lucia/hero.webp", "alt": "sugar-beach-viceroy-st-lucia — hero", "type": "hero" },
-    { "url": "/images/hotels/sugar-beach-viceroy-st-lucia/room.webp", "alt": "sugar-beach-viceroy-st-lucia — room", "type": "room" },
-    { "url": "/images/hotels/sugar-beach-viceroy-st-lucia/pool.webp", "alt": "sugar-beach-viceroy-st-lucia — pool", "type": "pool" },
-    { "url": "/images/hotels/sugar-beach-viceroy-st-lucia/spa.webp", "alt": "sugar-beach-viceroy-st-lucia — spa", "type": "spa" },
-    { "url": "/images/hotels/sugar-beach-viceroy-st-lucia/dining.webp", "alt": "sugar-beach-viceroy-st-lucia — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/sugar-beach-viceroy-st-lucia/hero.webp",
+      "alt": "sugar-beach-viceroy-st-lucia — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/sugar-beach-viceroy-st-lucia/room.webp",
+      "alt": "sugar-beach-viceroy-st-lucia — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/sugar-beach-viceroy-st-lucia/pool.webp",
+      "alt": "sugar-beach-viceroy-st-lucia — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/sugar-beach-viceroy-st-lucia/spa.webp",
+      "alt": "sugar-beach-viceroy-st-lucia — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/sugar-beach-viceroy-st-lucia/dining.webp",
+      "alt": "sugar-beach-viceroy-st-lucia — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.3,
   "tripadvisor_award": true,
@@ -34,13 +73,41 @@
     "verdict": "Sugar Beach A Viceroy Resort occupies what may be the single most spectacular setting of any resort in the Caribbean — a white sand beach nestled directly between the Petit Piton and Gros Piton, two UNESCO World Heritage volcanic peaks that frame every view like a dream postcard. Built on the ruins of an 18th-century sugar plantation in a valley of jungle and tropical forest, the resort's 100 cottages and villas are scattered through the rainforest canopy, connected by walkways that make every commute to the beach feel like a nature walk. The combination of extraordinary natural drama, five-star Viceroy standards, and one of the Caribbean's most storied settings makes Sugar Beach an exceptional honeymoon destination.",
     "best_room": "The Pool Villas are the top tier at Sugar Beach — standalone structures in the forest with private infinity pools overlooking the Pitons and the Caribbean. They come with dedicated plunge pools, outdoor showers, and spacious interiors with plantation-era architectural references. For couples who want the most immersive Pitons experience, the villas positioned in the upper forest section have the most dramatic views of Gros Piton. Beach Cottages offer direct beach access with a more classic cottage resort feel.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival Between the Pitons", "description": "The boat transfer from Soufrière to Sugar Beach's private dock delivers one of the great Caribbean arrival experiences — the Pitons rising from the water on both sides, the white sand beach ahead. Check into your villa or cottage and take time to adjust to the extraordinary scale of the setting. The beach is immediately accessible and the late afternoon light between the Pitons is extraordinary." },
-      { "day": 2, "title": "Plantation Ruins & Beach Day", "description": "Sugar Beach's grounds encompass the ruins of the Val des Pitons sugar estate — stone windmills, aqueducts, and processing buildings stand in the forest. A guided plantation walk tells the complex history of this site. After the tour, a full afternoon on the white sand beach, with the house snorkeling reef immediately offshore." },
-      { "day": 3, "title": "Viceroy Spa & Sunset Drinks", "description": "Sugar Beach's spa offers an elevated wellness programme in treatment pavilions built into the forest hillside. Couples treatment options include volcanic stone massage (using material from the Pitons' volcanic geology), rainforest body treatments, and Ayurvedic-influenced rituals. Sunset cocktails at the beach bar as the Pitons shadow over the sand is a daily ritual worth planning." },
-      { "day": 4, "title": "Gros Piton Hike", "description": "Gros Piton is a UNESCO World Heritage Site and the more accessible of the two Piton peaks. The guided hike from the Fond Gens Libres village takes 2–3 hours to the summit, with extraordinary views over the entire southern Caribbean. Book through the resort's excursion team. Return rewarded and ready for the villa pool." },
-      { "day": 5, "title": "Scuba Diving the Piton Marine Reserve", "description": "The marine reserve surrounding the Pitons is among the Caribbean's most protected and biologically rich dive environments. Sugar Beach's dive centre takes guests to the underwater slopes of the Pitons, where black coral, large sea fans, and pelagic encounters are reliably excellent. The dive from the resort's beach is rated one of the Caribbean's top shore dives." },
-      { "day": 6, "title": "Catamaran Cruise & Private Dinner", "description": "A catamaran cruise along the western St Lucia coast — past Soufrière Bay, the Sulphur Springs from the sea, and the Pitons from a completely new perspective — is the classic St Lucia day out. Return to Sugar Beach for a private dinner arranged in the villa or on the beach, with the Piton silhouette as backdrop." },
-      { "day": 7, "title": "Farewell Morning", "description": "A final breakfast looking up at the Pitons, one last swim from the private beach, and the resort's boat transfer back to Soufrière for the journey to Hewanorra Airport." }
+      {
+        "day": 1,
+        "title": "Arrival Between the Pitons",
+        "description": "The boat transfer from Soufrière to Sugar Beach's private dock delivers one of the great Caribbean arrival experiences — the Pitons rising from the water on both sides, the white sand beach ahead. Check into your villa or cottage and take time to adjust to the extraordinary scale of the setting. The beach is immediately accessible and the late afternoon light between the Pitons is extraordinary."
+      },
+      {
+        "day": 2,
+        "title": "Plantation Ruins & Beach Day",
+        "description": "Sugar Beach's grounds encompass the ruins of the Val des Pitons sugar estate — stone windmills, aqueducts, and processing buildings stand in the forest. A guided plantation walk tells the complex history of this site. After the tour, a full afternoon on the white sand beach, with the house snorkeling reef immediately offshore."
+      },
+      {
+        "day": 3,
+        "title": "Viceroy Spa & Sunset Drinks",
+        "description": "Sugar Beach's spa offers an elevated wellness programme in treatment pavilions built into the forest hillside. Couples treatment options include volcanic stone massage (using material from the Pitons' volcanic geology), rainforest body treatments, and Ayurvedic-influenced rituals. Sunset cocktails at the beach bar as the Pitons shadow over the sand is a daily ritual worth planning."
+      },
+      {
+        "day": 4,
+        "title": "Gros Piton Hike",
+        "description": "Gros Piton is a UNESCO World Heritage Site and the more accessible of the two Piton peaks. The guided hike from the Fond Gens Libres village takes 2–3 hours to the summit, with extraordinary views over the entire southern Caribbean. Book through the resort's excursion team. Return rewarded and ready for the villa pool."
+      },
+      {
+        "day": 5,
+        "title": "Scuba Diving the Piton Marine Reserve",
+        "description": "The marine reserve surrounding the Pitons is among the Caribbean's most protected and biologically rich dive environments. Sugar Beach's dive centre takes guests to the underwater slopes of the Pitons, where black coral, large sea fans, and pelagic encounters are reliably excellent. The dive from the resort's beach is rated one of the Caribbean's top shore dives."
+      },
+      {
+        "day": 6,
+        "title": "Catamaran Cruise & Private Dinner",
+        "description": "A catamaran cruise along the western St Lucia coast — past Soufrière Bay, the Sulphur Springs from the sea, and the Pitons from a completely new perspective — is the classic St Lucia day out. Return to Sugar Beach for a private dinner arranged in the villa or on the beach, with the Piton silhouette as backdrop."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "A final breakfast looking up at the Pitons, one last swim from the private beach, and the resort's boat transfer back to Soufrière for the journey to Hewanorra Airport."
+      }
     ],
     "caveats": [
       "The resort's forest setting means the cottages and villas are separated from the beach by walkways and some elevation — guests who require immediate, flat beach access should request a Beach Cottage rather than a forest villa.",
@@ -48,12 +115,30 @@
       "Sugar Beach is a full luxury resort and priced accordingly — budget for the five-star Viceroy F&B costs in addition to the room rate, as dining at the resort is excellent but adds significantly to the daily spend."
     ],
     "faqs": [
-      { "question": "Is Sugar Beach A Viceroy Resort good for honeymooners?", "answer": "It is one of the Caribbean's most celebrated honeymoon resorts and the Pitons setting delivers a visual drama that no amount of money can replicate elsewhere. The combination of UNESCO landscape, private beach, excellent spa, and Viceroy service standards makes it a natural first choice for St Lucia honeymooners." },
-      { "question": "What is the best time to visit?", "answer": "January through April is the peak dry season with optimal weather. December is the start of peak season but occasionally sees a brief rain shower. May through November is wetter but the resort is beautiful year-round and rates are lower in the off-season." },
-      { "question": "What should we book in advance?", "answer": "Pool Villas and Beach Cottages in the most coveted positions require early booking for peak season. Pre-arrange the Piton hike, couples spa day, diving, and private beach dinner well before arrival." },
-      { "question": "Is it adults-only?", "answer": "No. Sugar Beach welcomes families and children. It is actively popular with families alongside honeymooners, particularly in school holiday periods." },
-      { "question": "What's the best room for a honeymoon?", "answer": "A Pool Villa in the upper forest section for the most dramatic Piton views and complete privacy. A Beach Cottage for the most direct beach experience. Both are outstanding — the choice depends on whether you prioritise Piton views or beach immediacy." },
-      { "question": "How do we get there?", "answer": "Fly to Hewanorra International Airport (UVF) in southern St Lucia. A road transfer or water taxi to Soufrière takes 45–60 minutes. From Soufrière, Sugar Beach's private boat shuttle transfers you directly to the resort's beach dock in around 10 minutes." }
+      {
+        "question": "Is Sugar Beach A Viceroy Resort good for honeymooners?",
+        "answer": "It is one of the Caribbean's most celebrated honeymoon resorts and the Pitons setting delivers a visual drama that no amount of money can replicate elsewhere. The combination of UNESCO landscape, private beach, excellent spa, and Viceroy service standards makes it a natural first choice for St Lucia honeymooners."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "January through April is the peak dry season with optimal weather. December is the start of peak season but occasionally sees a brief rain shower. May through November is wetter but the resort is beautiful year-round and rates are lower in the off-season."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "Pool Villas and Beach Cottages in the most coveted positions require early booking for peak season. Pre-arrange the Piton hike, couples spa day, diving, and private beach dinner well before arrival."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "No. Sugar Beach welcomes families and children. It is actively popular with families alongside honeymooners, particularly in school holiday periods."
+      },
+      {
+        "question": "What's the best room for a honeymoon?",
+        "answer": "A Pool Villa in the upper forest section for the most dramatic Piton views and complete privacy. A Beach Cottage for the most direct beach experience. Both are outstanding — the choice depends on whether you prioritise Piton views or beach immediacy."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "Fly to Hewanorra International Airport (UVF) in southern St Lucia. A road transfer or water taxi to Soufrière takes 45–60 minutes. From Soufrière, Sugar Beach's private boat shuttle transfers you directly to the resort's beach dock in around 10 minutes."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Sugar Beach A Viceroy Resort\n\nDear Sugar Beach team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: a Pool Villa with Piton views\n\nCould you please let us know:\n- Current availability for our dates\n- Any honeymoon packages or complimentary upgrades\n- Details on the couples spa programme and private beach dinner arrangements\n\nThank you for your time.\n\n[Your names]"
   },

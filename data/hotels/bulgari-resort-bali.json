@@ -3,7 +3,11 @@
   "name": "Bulgari Resort Bali",
   "destination": "bali",
   "country": "indonesia",
-  "experience_types": ["luxury", "beach", "wellness"],
+  "experience_types": [
+    "luxury",
+    "beach",
+    "wellness"
+  ],
   "honeymoon_score": 95,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,48 @@
     "luxury": 15
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 1500, "max": 6000 },
+  "price_per_night_usd": {
+    "min": 1500,
+    "max": 6000
+  },
   "adults_only": false,
-  "amenities": ["spa", "beach club", "pool", "room service", "butler service", "cliff elevator", "fine dining", "private pool villas", "ocean views"],
+  "amenities": [
+    "spa",
+    "beach club",
+    "pool",
+    "room service",
+    "butler service",
+    "cliff elevator",
+    "fine dining",
+    "private pool villas",
+    "ocean views"
+  ],
   "photos": [
-    { "url": "/images/hotels/bulgari-resort-bali/hero.webp", "alt": "bulgari-resort-bali — hero", "type": "hero" },
-    { "url": "/images/hotels/bulgari-resort-bali/room.webp", "alt": "bulgari-resort-bali — room", "type": "room" },
-    { "url": "/images/hotels/bulgari-resort-bali/pool.webp", "alt": "bulgari-resort-bali — pool", "type": "pool" },
-    { "url": "/images/hotels/bulgari-resort-bali/spa.webp", "alt": "bulgari-resort-bali — spa", "type": "spa" },
-    { "url": "/images/hotels/bulgari-resort-bali/dining.webp", "alt": "bulgari-resort-bali — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/bulgari-resort-bali/hero.webp",
+      "alt": "bulgari-resort-bali — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/bulgari-resort-bali/room.webp",
+      "alt": "bulgari-resort-bali — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/bulgari-resort-bali/pool.webp",
+      "alt": "bulgari-resort-bali — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/bulgari-resort-bali/spa.webp",
+      "alt": "bulgari-resort-bali — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/bulgari-resort-bali/dining.webp",
+      "alt": "bulgari-resort-bali — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.6,
   "tripadvisor_award": true,
@@ -34,13 +71,41 @@
     "verdict": "Bulgari Resort Bali is the most glamorous resort on the island — a clifftop sanctuary above the Indian Ocean at Uluwatu, where 59 private pool villas cascade down a dramatic limestone cliff face, connected by a private cliff elevator to the resort's exclusive beach club below. The famous Italian jeweller's design sensibility permeates every surface: local volcanic stone paired with dark teak, bespoke Italian furnishings, and a standard of finish that is genuinely extraordinary. For honeymooners who want the absolute pinnacle of Bali luxury, Bulgari is in a category of its own.",
     "best_room": "The Ocean Villa is the most romantic — positioned at the cliff's edge with a private infinity pool that appears to pour directly into the Indian Ocean below, and panoramic views from every corner of the villa. The Ocean Front Villa adds a larger terrace and is positioned to face the full sweep of the southern Indian Ocean horizon.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Clifftop First Impressions", "description": "The resort is approximately one hour from Denpasar Airport, with the final approach along Uluwatu's dramatic coastline setting the scene. Check into your villa and step onto the terrace — the Indian Ocean stretches to the horizon below you, the cliff face drops away in a curtain of jungle, and the private infinity pool glows in the afternoon light. Order a Negroni from your butler and take it all in." },
-      { "day": 2, "title": "Beach Club Day", "description": "Take the cliff elevator down to the resort's private beach club — an exclusive stretch of Indian Ocean frontage at the cliff's base. The snorkelling is excellent from the rocky edges, and the beach club service is impeccable. Return to the clifftop for the afternoon and watch the surf break at Uluwatu from your villa terrace — on a good swell day, the view of the break from above is extraordinary." },
-      { "day": 3, "title": "Bulgari Spa Immersion", "description": "The Bulgari Spa draws on Indonesian traditional healing traditions alongside Western luxury spa techniques. Book the Balinese Ceremony for Two: a two-and-a-half-hour ritual of warm stone massage, floral bath, and a botanical body scrub using locally harvested spices. The couples' suite is set on the cliff edge — the sound of the ocean 100 metres below accompanies every treatment." },
-      { "day": 4, "title": "Uluwatu Temple Sunset", "description": "Just a short drive from the resort, Pura Luhur Uluwatu is one of Bali's most sacred sea temples — perched on a 70-metre cliff above the crashing Indian Ocean. Arrive in time for the sunset Kecak fire dance performed in the clifftop amphitheatre: one of Bali's most theatrical and moving ceremonies. Return to the resort for the Il Bar cocktail hour and dinner at Il Ristorante." },
-      { "day": 5, "title": "Snorkelling & Private Dining", "description": "The resort's water sports team organises a private guided snorkel excursion along the Uluwatu reef — extraordinarily clear water, rich marine life, and the dramatic cliff backdrop above. Return for a leisurely afternoon in your villa pool. In the evening, request a private villa dinner: the kitchen will prepare an Italian-Indonesian tasting menu delivered to your terrace." },
-      { "day": 6, "title": "Spa & Sunset Cocktails", "description": "A final spa morning with individual treatments: the Bulgari Relaxing Massage is pure hedonism — the therapists are among the best in Bali. Afternoon at the pool, then join the resort's Il Bar for golden hour cocktails as the sun drops below the Indian Ocean — the clifftop position makes every Bulgari sunset a performance." },
-      { "day": 7, "title": "Farewell Morning", "description": "The final morning at Bulgari deserves a slow, indulgent villa breakfast on your terrace as the ocean light builds below. Take one last dip in your infinity pool — the moment of floating with nothing but sky and ocean in view is one you will describe for years. Then the drive back to Denpasar, and the return to the world." }
+      {
+        "day": 1,
+        "title": "Arrival & Clifftop First Impressions",
+        "description": "The resort is approximately one hour from Denpasar Airport, with the final approach along Uluwatu's dramatic coastline setting the scene. Check into your villa and step onto the terrace — the Indian Ocean stretches to the horizon below you, the cliff face drops away in a curtain of jungle, and the private infinity pool glows in the afternoon light. Order a Negroni from your butler and take it all in."
+      },
+      {
+        "day": 2,
+        "title": "Beach Club Day",
+        "description": "Take the cliff elevator down to the resort's private beach club — an exclusive stretch of Indian Ocean frontage at the cliff's base. The snorkelling is excellent from the rocky edges, and the beach club service is impeccable. Return to the clifftop for the afternoon and watch the surf break at Uluwatu from your villa terrace — on a good swell day, the view of the break from above is extraordinary."
+      },
+      {
+        "day": 3,
+        "title": "Bulgari Spa Immersion",
+        "description": "The Bulgari Spa draws on Indonesian traditional healing traditions alongside Western luxury spa techniques. Book the Balinese Ceremony for Two: a two-and-a-half-hour ritual of warm stone massage, floral bath, and a botanical body scrub using locally harvested spices. The couples' suite is set on the cliff edge — the sound of the ocean 100 metres below accompanies every treatment."
+      },
+      {
+        "day": 4,
+        "title": "Uluwatu Temple Sunset",
+        "description": "Just a short drive from the resort, Pura Luhur Uluwatu is one of Bali's most sacred sea temples — perched on a 70-metre cliff above the crashing Indian Ocean. Arrive in time for the sunset Kecak fire dance performed in the clifftop amphitheatre: one of Bali's most theatrical and moving ceremonies. Return to the resort for the Il Bar cocktail hour and dinner at Il Ristorante."
+      },
+      {
+        "day": 5,
+        "title": "Snorkelling & Private Dining",
+        "description": "The resort's water sports team organises a private guided snorkel excursion along the Uluwatu reef — extraordinarily clear water, rich marine life, and the dramatic cliff backdrop above. Return for a leisurely afternoon in your villa pool. In the evening, request a private villa dinner: the kitchen will prepare an Italian-Indonesian tasting menu delivered to your terrace."
+      },
+      {
+        "day": 6,
+        "title": "Spa & Sunset Cocktails",
+        "description": "A final spa morning with individual treatments: the Bulgari Relaxing Massage is pure hedonism — the therapists are among the best in Bali. Afternoon at the pool, then join the resort's Il Bar for golden hour cocktails as the sun drops below the Indian Ocean — the clifftop position makes every Bulgari sunset a performance."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "The final morning at Bulgari deserves a slow, indulgent villa breakfast on your terrace as the ocean light builds below. Take one last dip in your infinity pool — the moment of floating with nothing but sky and ocean in view is one you will describe for years. Then the drive back to Denpasar, and the return to the world."
+      }
     ],
     "caveats": [
       "The clifftop position means beach access requires the cliff elevator — guests who prefer direct beach-side villas should note this.",
@@ -48,12 +113,30 @@
       "The drive from central Ubud to Bulgari takes about 90 minutes — planning a split stay between Ubud and Uluwatu is the most common itinerary."
     ],
     "faqs": [
-      { "question": "Is Bulgari Resort Bali good for honeymooners?", "answer": "Bulgari Resort Bali is arguably the finest honeymoon resort on the island — the combination of extraordinary clifftop architecture, private infinity pools above the Indian Ocean, the exclusive beach club, and service that sets the standard for Bali luxury makes it the definitive choice for couples seeking the island's ultimate experience." },
-      { "question": "What is the best time to visit Uluwatu?", "answer": "The dry season from April to October is optimal — clear skies, calm mornings, and the best surf conditions at Uluwatu's famous breaks. The wet season (November to March) can bring afternoon showers but the resort's clifftop position means the drama of approaching storms is actually spectacular." },
-      { "question": "What should we book in advance?", "answer": "The Bulgari Spa couples' suite is extremely popular — book immediately after confirming your stay. Private villa dining and the beach club private table should also be arranged in advance. Notify the resort of your honeymoon for a personalised welcome." },
-      { "question": "Is it adults-only?", "answer": "No, Bulgari Resort Bali is not formally adults-only. However, the resort's clifftop architecture, ultra-luxury positioning, and predominantly romantic atmosphere means it essentially functions as one in practice." },
-      { "question": "What's the best room for a honeymoon?", "answer": "The Ocean Villa is the definitive honeymoon choice — cliff-edge, private infinity pool appearing to merge with the Indian Ocean, and unobstructed panoramic ocean views from the master bedroom, bathroom, and terrace alike." },
-      { "question": "How do we get there?", "answer": "Fly to Ngurah Rai International Airport (DPS) in Denpasar. The resort is approximately one hour by private car through southern Bali and the Uluwatu Peninsula. Hotel transfers can be arranged directly." }
+      {
+        "question": "Is Bulgari Resort Bali good for honeymooners?",
+        "answer": "Bulgari Resort Bali is arguably the finest honeymoon resort on the island — the combination of extraordinary clifftop architecture, private infinity pools above the Indian Ocean, the exclusive beach club, and service that sets the standard for Bali luxury makes it the definitive choice for couples seeking the island's ultimate experience."
+      },
+      {
+        "question": "What is the best time to visit Uluwatu?",
+        "answer": "The dry season from April to October is optimal — clear skies, calm mornings, and the best surf conditions at Uluwatu's famous breaks. The wet season (November to March) can bring afternoon showers but the resort's clifftop position means the drama of approaching storms is actually spectacular."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "The Bulgari Spa couples' suite is extremely popular — book immediately after confirming your stay. Private villa dining and the beach club private table should also be arranged in advance. Notify the resort of your honeymoon for a personalised welcome."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "No, Bulgari Resort Bali is not formally adults-only. However, the resort's clifftop architecture, ultra-luxury positioning, and predominantly romantic atmosphere means it essentially functions as one in practice."
+      },
+      {
+        "question": "What's the best room for a honeymoon?",
+        "answer": "The Ocean Villa is the definitive honeymoon choice — cliff-edge, private infinity pool appearing to merge with the Indian Ocean, and unobstructed panoramic ocean views from the master bedroom, bathroom, and terrace alike."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "Fly to Ngurah Rai International Airport (DPS) in Denpasar. The resort is approximately one hour by private car through southern Bali and the Uluwatu Peninsula. Hotel transfers can be arranged directly."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Bulgari Resort Bali\n\nDear Bulgari Resort Bali team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: [Ocean Villa / Ocean Front Villa]\n\nCould you please let us know:\n- Current availability for our dates\n- Any honeymoon packages or complimentary upgrades\n- Spa couples' suite availability and private villa dining options\n\nThank you for your time.\n\n[Your names]"
   },

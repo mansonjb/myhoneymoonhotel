@@ -3,7 +3,12 @@
   "name": "Kokomo Private Island Fiji",
   "destination": "fiji",
   "country": "fiji",
-  "experience_types": ["beach", "luxury", "wellness", "overwater-bungalows"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness",
+    "overwater-bungalows"
+  ],
   "honeymoon_score": 95,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +22,51 @@
     "luxury": 5
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 1500, "max": 5000 },
+  "price_per_night_usd": {
+    "min": 1500,
+    "max": 5000
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "beach", "room service", "butler service", "overwater bungalows", "diving", "turtle sanctuary", "snorkeling", "all-inclusive", "fishing", "helicopter"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beach",
+    "room service",
+    "butler service",
+    "overwater bungalows",
+    "diving",
+    "turtle sanctuary",
+    "snorkeling",
+    "all-inclusive",
+    "fishing",
+    "helicopter"
+  ],
   "photos": [
-    { "url": "/images/hotels/kokomo-private-island-fiji/hero.webp", "alt": "kokomo-private-island-fiji — hero", "type": "hero" },
-    { "url": "/images/hotels/kokomo-private-island-fiji/room.webp", "alt": "kokomo-private-island-fiji — room", "type": "room" },
-    { "url": "/images/hotels/kokomo-private-island-fiji/pool.webp", "alt": "kokomo-private-island-fiji — pool", "type": "pool" },
-    { "url": "/images/hotels/kokomo-private-island-fiji/spa.webp", "alt": "kokomo-private-island-fiji — spa", "type": "spa" },
-    { "url": "/images/hotels/kokomo-private-island-fiji/dining.webp", "alt": "kokomo-private-island-fiji — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/kokomo-private-island-fiji/hero.webp",
+      "alt": "kokomo-private-island-fiji — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/kokomo-private-island-fiji/room.webp",
+      "alt": "kokomo-private-island-fiji — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/kokomo-private-island-fiji/pool.webp",
+      "alt": "kokomo-private-island-fiji — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/kokomo-private-island-fiji/spa.webp",
+      "alt": "kokomo-private-island-fiji — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/kokomo-private-island-fiji/dining.webp",
+      "alt": "kokomo-private-island-fiji — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.7,
   "tripadvisor_award": true,
@@ -34,13 +75,41 @@
     "verdict": "Kokomo Private Island sits at the edge of the Great Astrolabe Reef in Kadavu — one of the world's largest barrier reef systems and one of Fiji's most pristine diving destinations, rarely visited by mainstream tourism. The island itself is 140 acres of jungle, white sand beaches, and coral gardens, with 21 villas and residences built into the hillside and coastline of a truly remote Fijian island. The turtle sanctuary on the island's beach, the extraordinary diving, and the intimate private-island atmosphere make Kokomo one of the Pacific's finest honeymoon destinations.",
     "best_room": "The Overwater Bures are Kokomo's signature accommodation — glass-floor villas on stilts over the lagoon at the island's northern tip, with private plunge pools, indoor-outdoor bathrooms, and direct ladder access to the reef for snorkeling at any hour. For land-based luxury, the Hillside Villas offer the most dramatic views — elevated positions with panoramic sea vistas, large private pools, and a deep sense of seclusion within the island's jungle. The Beach Houses on the southern shore provide direct sand access for couples who want to walk to the water in seconds.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival by Seaplane", "description": "The seaplane from Nadi skims the outer reef before landing in Kokomo's lagoon — the approach reveals an island of extraordinary natural beauty, jungle-covered and surrounded by the vivid blues of the Astrolabe Reef. Your personal butler meets you at the water's edge and your villa is waiting with fresh tropical flowers, chilled Champagne, and a handwritten welcome note from the island manager." },
-      { "day": 2, "title": "Great Astrolabe Reef Dive", "description": "The Great Astrolabe Reef is among the world's great dive destinations — untouched coral systems, abundant shark populations, manta rays, and an extraordinary diversity of reef fish in water with visibility frequently exceeding 40 metres. Kokomo's PADI dive centre operates multiple daily trips and the guides know the reef's most extraordinary sites intimately. This is genuinely world-class diving for any certified diver." },
-      { "day": 3, "title": "Turtle Sanctuary & Snorkel Safari", "description": "Kokomo's beach is a nesting site for endangered green and hawksbill sea turtles — the resort's conservation team monitors nesting activity year-round and arranges turtle encounters at appropriate times of year. A guided snorkel safari through the inner lagoon, where the coral garden is dense and turtle sightings are near-daily, makes for a morning that feels genuinely connected to the natural world." },
-      { "day": 4, "title": "Spa Day & Private Beach Dinner", "description": "Kokomo's spa uses Fijian botanical ingredients — tamanu oil, coconut, frangipani, and sea minerals — in an extensive treatment menu. The couples' Fijian Bula massage, delivered in an open-air treatment room with ocean views, is two hours of deeply restorative therapy. In the evening, your butler sets a private dinner on an isolated beach on the island's western shore as the sun sets behind Kadavu." },
-      { "day": 5, "title": "Helicopter Flight & Outer Atoll Picnic", "description": "A helicopter journey from the island's helipad to an outer reef atoll accessible only by air delivers you to a completely uninhabited sandbank for a private champagne picnic. The flight itself — over the Astrolabe Reef from above — reveals a geography impossible to grasp from sea level. Return by helicopter as the afternoon builds to one of the Pacific's great sunsets." },
-      { "day": 6, "title": "Village Visit to Kadavu & Night Dive", "description": "A boat trip to the main island of Kadavu visits a traditional Fijian village — the kava ceremony, weaving demonstration, and welcome song (meke) arranged by Kokomo's community liaison is authentic and genuinely moving. Return to the island in time for a guided night dive on the lagoon reef, where bioluminescence and nocturnal marine creatures transform a familiar site into a completely alien experience." },
-      { "day": 7, "title": "Final Sunrise Snorkel & Farewell", "description": "A last dawn snorkel directly from your overwater bure ladder, when the morning light filters down through the water and the reef wakes up around you. Breakfast is served on your bure deck — fresh-baked Fijian roti, tropical fruits from the island garden, and cold-pressed coconut water. The seaplane departs from the lagoon mid-morning and the island recedes behind you in a way that will produce genuine sadness and an immediate desire to return." }
+      {
+        "day": 1,
+        "title": "Arrival by Seaplane",
+        "description": "The seaplane from Nadi skims the outer reef before landing in Kokomo's lagoon — the approach reveals an island of extraordinary natural beauty, jungle-covered and surrounded by the vivid blues of the Astrolabe Reef. Your personal butler meets you at the water's edge and your villa is waiting with fresh tropical flowers, chilled Champagne, and a handwritten welcome note from the island manager."
+      },
+      {
+        "day": 2,
+        "title": "Great Astrolabe Reef Dive",
+        "description": "The Great Astrolabe Reef is among the world's great dive destinations — untouched coral systems, abundant shark populations, manta rays, and an extraordinary diversity of reef fish in water with visibility frequently exceeding 40 metres. Kokomo's PADI dive centre operates multiple daily trips and the guides know the reef's most extraordinary sites intimately. This is genuinely world-class diving for any certified diver."
+      },
+      {
+        "day": 3,
+        "title": "Turtle Sanctuary & Snorkel Safari",
+        "description": "Kokomo's beach is a nesting site for endangered green and hawksbill sea turtles — the resort's conservation team monitors nesting activity year-round and arranges turtle encounters at appropriate times of year. A guided snorkel safari through the inner lagoon, where the coral garden is dense and turtle sightings are near-daily, makes for a morning that feels genuinely connected to the natural world."
+      },
+      {
+        "day": 4,
+        "title": "Spa Day & Private Beach Dinner",
+        "description": "Kokomo's spa uses Fijian botanical ingredients — tamanu oil, coconut, frangipani, and sea minerals — in an extensive treatment menu. The couples' Fijian Bula massage, delivered in an open-air treatment room with ocean views, is two hours of deeply restorative therapy. In the evening, your butler sets a private dinner on an isolated beach on the island's western shore as the sun sets behind Kadavu."
+      },
+      {
+        "day": 5,
+        "title": "Helicopter Flight & Outer Atoll Picnic",
+        "description": "A helicopter journey from the island's helipad to an outer reef atoll accessible only by air delivers you to a completely uninhabited sandbank for a private champagne picnic. The flight itself — over the Astrolabe Reef from above — reveals a geography impossible to grasp from sea level. Return by helicopter as the afternoon builds to one of the Pacific's great sunsets."
+      },
+      {
+        "day": 6,
+        "title": "Village Visit to Kadavu & Night Dive",
+        "description": "A boat trip to the main island of Kadavu visits a traditional Fijian village — the kava ceremony, weaving demonstration, and welcome song (meke) arranged by Kokomo's community liaison is authentic and genuinely moving. Return to the island in time for a guided night dive on the lagoon reef, where bioluminescence and nocturnal marine creatures transform a familiar site into a completely alien experience."
+      },
+      {
+        "day": 7,
+        "title": "Final Sunrise Snorkel & Farewell",
+        "description": "A last dawn snorkel directly from your overwater bure ladder, when the morning light filters down through the water and the reef wakes up around you. Breakfast is served on your bure deck — fresh-baked Fijian roti, tropical fruits from the island garden, and cold-pressed coconut water. The seaplane departs from the lagoon mid-morning and the island recedes behind you in a way that will produce genuine sadness and an immediate desire to return."
+      }
     ],
     "caveats": [
       "Kokomo is remote — Kadavu is one of Fiji's more southerly island groups and the seaplane journey from Nadi is approximately 45 minutes, weather dependent. Transfers add cost and logistics to the trip.",
@@ -48,12 +117,30 @@
       "The all-inclusive pricing at Kokomo does not include helicopter flights or premium activities — the base rate is significant and special experiences add substantially to the total cost."
     ],
     "faqs": [
-      { "question": "Is Kokomo Private Island good for honeymooners?", "answer": "Kokomo is one of the Pacific's finest honeymoon islands — the Great Astrolabe Reef diving, turtle sanctuary, overwater bures, and remote private island atmosphere create an experience of extraordinary natural richness and romantic seclusion. Couples who love the ocean and want their honeymoon to feel like a genuine discovery of the world's most beautiful water will not find a better destination." },
-      { "question": "What is the best time to visit?", "answer": "May through October (Fiji's dry season) is ideal for visibility and weather. July and August are particularly beautiful. The wet season brings lush vegetation and reduced rates but also the possibility of tropical rain systems passing through. Kadavu is generally slightly wetter than the Yasawa or Mamanuca island groups." },
-      { "question": "What should we book in advance?", "answer": "The overwater bure category is in highest demand and should be booked 6 months ahead for dry season dates. Pre-arrange the helicopter excursion and couples' spa treatment, and notify the team of your honeymoon so the butler can prepare appropriate welcome touches and surprise moments throughout the week." },
-      { "question": "Is it adults-only?", "answer": "Kokomo is not adults-only. Children are welcome and the resort actively accommodates families. The villa structure and island scale mean that other guests are not intrusive regardless, but couples seeking a fully adult atmosphere should consider Namale or Tokoriki instead." },
-      { "question": "What's the best room type for a honeymoon?", "answer": "The Overwater Bure is the most romantically iconic choice — direct reef access, glass floors, plunge pool over the lagoon. The Hillside Villas are the best alternative for couples who prefer privacy and views from height, with some of the most dramatic vistas on the island." },
-      { "question": "How do we get there?", "answer": "Fly into Nadi International Airport, then take Kokomo's seaplane (approximately 45 minutes) to the island's lagoon. The resort coordinates all transfers and the seaplane journey over the Great Astrolabe Reef is itself one of the great arrival experiences in South Pacific travel." }
+      {
+        "question": "Is Kokomo Private Island good for honeymooners?",
+        "answer": "Kokomo is one of the Pacific's finest honeymoon islands — the Great Astrolabe Reef diving, turtle sanctuary, overwater bures, and remote private island atmosphere create an experience of extraordinary natural richness and romantic seclusion. Couples who love the ocean and want their honeymoon to feel like a genuine discovery of the world's most beautiful water will not find a better destination."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "May through October (Fiji's dry season) is ideal for visibility and weather. July and August are particularly beautiful. The wet season brings lush vegetation and reduced rates but also the possibility of tropical rain systems passing through. Kadavu is generally slightly wetter than the Yasawa or Mamanuca island groups."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "The overwater bure category is in highest demand and should be booked 6 months ahead for dry season dates. Pre-arrange the helicopter excursion and couples' spa treatment, and notify the team of your honeymoon so the butler can prepare appropriate welcome touches and surprise moments throughout the week."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "Kokomo is not adults-only. Children are welcome and the resort actively accommodates families. The villa structure and island scale mean that other guests are not intrusive regardless, but couples seeking a fully adult atmosphere should consider Namale or Tokoriki instead."
+      },
+      {
+        "question": "What's the best room type for a honeymoon?",
+        "answer": "The Overwater Bure is the most romantically iconic choice — direct reef access, glass floors, plunge pool over the lagoon. The Hillside Villas are the best alternative for couples who prefer privacy and views from height, with some of the most dramatic vistas on the island."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "Fly into Nadi International Airport, then take Kokomo's seaplane (approximately 45 minutes) to the island's lagoon. The resort coordinates all transfers and the seaplane journey over the Great Astrolabe Reef is itself one of the great arrival experiences in South Pacific travel."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Kokomo Private Island Fiji\n\nDear Kokomo Private Island team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: an Overwater Bure and the Great Astrolabe Reef diving.\n\nCould you please let us know:\n- Current availability for our dates\n- Details on all-inclusive pricing and what is covered\n- Availability for the helicopter outer reef excursion and couples' spa treatment\n\nThank you for your time.\n\n[Your names]"
   },

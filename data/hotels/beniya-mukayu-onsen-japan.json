@@ -3,7 +3,10 @@
   "name": "Beniya Mukayu",
   "destination": "japan",
   "country": "japan",
-  "experience_types": ["luxury", "wellness"],
+  "experience_types": [
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 91,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +20,45 @@
     "luxury": 5
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 500, "max": 1800 },
+  "price_per_night_usd": {
+    "min": 500,
+    "max": 1800
+  },
   "adults_only": false,
-  "amenities": ["spa", "onsen", "room service", "restaurant", "bar", "private onsen baths"],
+  "amenities": [
+    "spa",
+    "onsen",
+    "room service",
+    "restaurant",
+    "bar",
+    "private onsen baths"
+  ],
   "photos": [
-    { "url": "/images/hotels/beniya-mukayu-onsen-japan/hero.webp", "alt": "beniya-mukayu-onsen-japan — hero", "type": "hero" },
-    { "url": "/images/hotels/beniya-mukayu-onsen-japan/room.webp", "alt": "beniya-mukayu-onsen-japan — room", "type": "room" },
-    { "url": "/images/hotels/beniya-mukayu-onsen-japan/pool.webp", "alt": "beniya-mukayu-onsen-japan — pool", "type": "pool" },
-    { "url": "/images/hotels/beniya-mukayu-onsen-japan/spa.webp", "alt": "beniya-mukayu-onsen-japan — spa", "type": "spa" },
-    { "url": "/images/hotels/beniya-mukayu-onsen-japan/dining.webp", "alt": "beniya-mukayu-onsen-japan — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/beniya-mukayu-onsen-japan/hero.webp",
+      "alt": "beniya-mukayu-onsen-japan — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/beniya-mukayu-onsen-japan/room.webp",
+      "alt": "beniya-mukayu-onsen-japan — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/beniya-mukayu-onsen-japan/pool.webp",
+      "alt": "beniya-mukayu-onsen-japan — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/beniya-mukayu-onsen-japan/spa.webp",
+      "alt": "beniya-mukayu-onsen-japan — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/beniya-mukayu-onsen-japan/dining.webp",
+      "alt": "beniya-mukayu-onsen-japan — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.6,
   "tripadvisor_award": true,
@@ -34,13 +67,41 @@
     "verdict": "Beniya Mukayu is among the world's great ryokan — an 18-room masterpiece in the ancient onsen town of Yamanaka Onsen in Ishikawa Prefecture, where a crystalline mountain stream runs below your private terrace and award-winning chef Shintaro Tsuji serves what many food critics call the finest kaiseki in Japan. For couples who care deeply about food, craft, and the meditative rhythm of traditional Japanese inn life, this is a spiritual experience as much as a hotel stay.",
     "best_room": "The Premium Suites on the upper floor offer the most dramatic stream views — the Kakitsubata and Botan suites both have private rotenburo (open-air onsen) perched over the Kakusenkei Gorge ravine, the sound of rushing water creating a constant, hypnotic backdrop. The tatami areas are spacious, the cypress wood soaking tubs deep, and the seasonal flower arrangements changed daily by the innkeeper's hand.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Onsen Ritual", "description": "Arrive at Kaga Onsen Station (accessible from Kanazawa by limited express, 20 minutes) and be collected by the inn's driver. Your okamisan (innkeeper) greets you at the entrance in a formal kimono, leads you to your suite, and explains the onsen etiquette and meal schedule. The first evening is devoted entirely to the ryokan experience: private onsen bath, then a 12-course kaiseki dinner served in your room." },
-      { "day": 2, "title": "Kakusenkei Gorge Walk", "description": "Walk the historic Kakusenkei Gorge trail along the Daishoji River — stone steps, arched bridges, and vertiginous cedar forest above the rushing stream. The path passes traditional townhouses and small shrines. Return to the inn for a light lunch of somen noodles in cold dashi broth, then spend the afternoon in the communal wooden onsen baths, switching between indoor and outdoor pools." },
-      { "day": 3, "title": "Kanazawa Day Trip", "description": "Journey to Kanazawa — often called little Kyoto — by train for a day of cultural immersion: Kenroku-en garden (one of Japan's three great gardens), the Higashi Chaya geisha district, and the extraordinary 21st Century Museum of Contemporary Art. The inn packs you a lacquerware bento box for lunch. Return in time for the evening kaiseki, which changes entirely from the previous nights." },
-      { "day": 4, "title": "Kutani Pottery Workshop", "description": "Yamanaka Onsen is the birthplace of Yamanaka lacquerware, and Kanazawa is the home of vivid Kutani ceramics. The concierge arranges a private pottery painting session at a Kutani kiln in Kaga City — you decorate a ceramic piece together that is fired and mailed to you at home as a permanent honeymoon keepsake. Evening: private kaiseki omakase by Chef Tsuji, with sake pairing." },
-      { "day": 5, "title": "Full Spa & Relaxation", "description": "Surrender entirely to the inn. Use the private rotenburo on your terrace at dawn, when steam rises into the cold mountain air. Book a full-body hot stone massage at the in-house spa in the morning. Lunch is a lighter meal of seasonal tofu and mountain vegetables. The afternoon is for reading, sleeping, and the contemplative luxury of doing almost nothing in one of the world's most beautifully crafted interiors." },
-      { "day": 6, "title": "Noto Peninsula Excursion", "description": "The Noto Peninsula — a UNESCO Creative City of Crafts — is within two hours by car and rewards a long day trip: dramatic coastline, ancient kiriko lantern festival culture, and salt farms at Okunoto. The hotel can arrange a private car and guide. Return for your penultimate kaiseki dinner — ask the kitchen to feature local Noto seafood if the season is right." },
-      { "day": 7, "title": "Farewell Morning", "description": "Your final morning at Beniya Mukayu traditionally includes a formal tea ceremony hosted by the okamisan in the inn's tatami reception room. Breakfast is a meditative sequence of small seasonal dishes. Take a last walk along the gorge path before the inn's driver returns you to Kaga Onsen Station. The sense of deep rest and nourishment you leave with is the inn's most lasting gift." }
+      {
+        "day": 1,
+        "title": "Arrival & Onsen Ritual",
+        "description": "Arrive at Kaga Onsen Station (accessible from Kanazawa by limited express, 20 minutes) and be collected by the inn's driver. Your okamisan (innkeeper) greets you at the entrance in a formal kimono, leads you to your suite, and explains the onsen etiquette and meal schedule. The first evening is devoted entirely to the ryokan experience: private onsen bath, then a 12-course kaiseki dinner served in your room."
+      },
+      {
+        "day": 2,
+        "title": "Kakusenkei Gorge Walk",
+        "description": "Walk the historic Kakusenkei Gorge trail along the Daishoji River — stone steps, arched bridges, and vertiginous cedar forest above the rushing stream. The path passes traditional townhouses and small shrines. Return to the inn for a light lunch of somen noodles in cold dashi broth, then spend the afternoon in the communal wooden onsen baths, switching between indoor and outdoor pools."
+      },
+      {
+        "day": 3,
+        "title": "Kanazawa Day Trip",
+        "description": "Journey to Kanazawa — often called little Kyoto — by train for a day of cultural immersion: Kenroku-en garden (one of Japan's three great gardens), the Higashi Chaya geisha district, and the extraordinary 21st Century Museum of Contemporary Art. The inn packs you a lacquerware bento box for lunch. Return in time for the evening kaiseki, which changes entirely from the previous nights."
+      },
+      {
+        "day": 4,
+        "title": "Kutani Pottery Workshop",
+        "description": "Yamanaka Onsen is the birthplace of Yamanaka lacquerware, and Kanazawa is the home of vivid Kutani ceramics. The concierge arranges a private pottery painting session at a Kutani kiln in Kaga City — you decorate a ceramic piece together that is fired and mailed to you at home as a permanent honeymoon keepsake. Evening: private kaiseki omakase by Chef Tsuji, with sake pairing."
+      },
+      {
+        "day": 5,
+        "title": "Full Spa & Relaxation",
+        "description": "Surrender entirely to the inn. Use the private rotenburo on your terrace at dawn, when steam rises into the cold mountain air. Book a full-body hot stone massage at the in-house spa in the morning. Lunch is a lighter meal of seasonal tofu and mountain vegetables. The afternoon is for reading, sleeping, and the contemplative luxury of doing almost nothing in one of the world's most beautifully crafted interiors."
+      },
+      {
+        "day": 6,
+        "title": "Noto Peninsula Excursion",
+        "description": "The Noto Peninsula — a UNESCO Creative City of Crafts — is within two hours by car and rewards a long day trip: dramatic coastline, ancient kiriko lantern festival culture, and salt farms at Okunoto. The hotel can arrange a private car and guide. Return for your penultimate kaiseki dinner — ask the kitchen to feature local Noto seafood if the season is right."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "Your final morning at Beniya Mukayu traditionally includes a formal tea ceremony hosted by the okamisan in the inn's tatami reception room. Breakfast is a meditative sequence of small seasonal dishes. Take a last walk along the gorge path before the inn's driver returns you to Kaga Onsen Station. The sense of deep rest and nourishment you leave with is the inn's most lasting gift."
+      }
     ],
     "caveats": [
       "Beniya Mukayu is not easy to reach without planning — Yamanaka Onsen is a 20-minute taxi ride from Kaga Onsen Station, which itself requires a limited express train from Kanazawa. Factor in the journey when designing your Japan itinerary.",
@@ -48,12 +109,30 @@
       "Only 18 rooms means availability is limited year-round, not just during peak foliage and cherry blossom. Book at least three to six months ahead for any season."
     ],
     "faqs": [
-      { "question": "Is Beniya Mukayu good for honeymooners?", "answer": "Yes — it is one of the most intimate and culinarily extraordinary ryokan in Japan. The private rotenburo baths over a mountain stream, the matchless kaiseki cuisine, and the profound sense of care and craft in every detail create a honeymoon experience rooted in Japanese cultural depth rather than global luxury convention. It is particularly suited to couples who love food and want to understand Japan from the inside." },
-      { "question": "What is the best time to visit?", "answer": "Autumn (late October to November) brings spectacular foliage above the Kakusenkei Gorge, and winter is magical with snow-covered cedar trees and the contrast of steaming outdoor baths. Spring cherry blossoms are also beautiful. Summer (July–August) is the only shoulder season, when foliage is dense green and crowds are thin — still lovely but less dramatic." },
-      { "question": "What should we book in advance?", "answer": "The Kutani pottery workshop and any day-trip car arrangements should be confirmed before arrival. The sake pairing dinner with Chef Tsuji is limited to a few tables per evening — request this when booking your stay. If visiting Kanazawa, book the 21st Century Museum timed entry tickets online in advance." },
-      { "question": "Is it adults-only?", "answer": "No, children are technically welcome, but the ryokan environment — quiet corridors, formal kaiseki meals, meditative onsen rituals — is overwhelmingly chosen by couples and adult travellers. The intimate 18-room format means the atmosphere is consistently peaceful and adult-focused in practice." },
-      { "question": "What's the best room for a honeymoon?", "answer": "Premium Suites with private rotenburo over the gorge are the definitive honeymoon choice — specifically those in the Kakitsubata and Botan categories. The outdoor onsen tub positioned above the rushing stream below is one of the most extraordinary bathing experiences in Japan. Book well in advance as these rooms are the first to sell out." },
-      { "question": "How do we get there?", "answer": "From Tokyo: Shinkansen to Kanazawa (2.5 hours), then limited express to Kaga Onsen Station (20 minutes), then taxi (20 minutes) to Yamanaka Onsen. From Osaka: Thunderbird limited express to Kanazawa (2.5 hours), then as above. Alternatively, the hotel can arrange private car transfers from Kanazawa on request." }
+      {
+        "question": "Is Beniya Mukayu good for honeymooners?",
+        "answer": "Yes — it is one of the most intimate and culinarily extraordinary ryokan in Japan. The private rotenburo baths over a mountain stream, the matchless kaiseki cuisine, and the profound sense of care and craft in every detail create a honeymoon experience rooted in Japanese cultural depth rather than global luxury convention. It is particularly suited to couples who love food and want to understand Japan from the inside."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "Autumn (late October to November) brings spectacular foliage above the Kakusenkei Gorge, and winter is magical with snow-covered cedar trees and the contrast of steaming outdoor baths. Spring cherry blossoms are also beautiful. Summer (July–August) is the only shoulder season, when foliage is dense green and crowds are thin — still lovely but less dramatic."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "The Kutani pottery workshop and any day-trip car arrangements should be confirmed before arrival. The sake pairing dinner with Chef Tsuji is limited to a few tables per evening — request this when booking your stay. If visiting Kanazawa, book the 21st Century Museum timed entry tickets online in advance."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "No, children are technically welcome, but the ryokan environment — quiet corridors, formal kaiseki meals, meditative onsen rituals — is overwhelmingly chosen by couples and adult travellers. The intimate 18-room format means the atmosphere is consistently peaceful and adult-focused in practice."
+      },
+      {
+        "question": "What's the best room for a honeymoon?",
+        "answer": "Premium Suites with private rotenburo over the gorge are the definitive honeymoon choice — specifically those in the Kakitsubata and Botan categories. The outdoor onsen tub positioned above the rushing stream below is one of the most extraordinary bathing experiences in Japan. Book well in advance as these rooms are the first to sell out."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "From Tokyo: Shinkansen to Kanazawa (2.5 hours), then limited express to Kaga Onsen Station (20 minutes), then taxi (20 minutes) to Yamanaka Onsen. From Osaka: Thunderbird limited express to Kanazawa (2.5 hours), then as above. Alternatively, the hotel can arrange private car transfers from Kanazawa on request."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Beniya Mukayu\n\nDear Beniya Mukayu team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: a Premium Suite with private rotenburo overlooking the Kakusenkei Gorge.\n\nCould you please let us know:\n- Current availability for our dates\n- Any honeymoon packages or special arrangements\n- Whether a sake pairing dinner with Chef Tsuji can be arranged during our stay\n\nThank you for your time.\n\n[Your names]"
   },

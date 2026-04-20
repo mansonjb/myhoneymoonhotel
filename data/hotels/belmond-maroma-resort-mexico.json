@@ -3,7 +3,11 @@
   "name": "Belmond Maroma Resort & Spa",
   "destination": "mexico",
   "country": "mexico",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 88,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,49 @@
     "luxury": 7
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 600, "max": 2000 },
+  "price_per_night_usd": {
+    "min": 600,
+    "max": 2000
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "beach", "room service", "butler service", "private jungle setting", "cenote", "yoga", "multiple restaurants", "cooking class"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beach",
+    "room service",
+    "butler service",
+    "private jungle setting",
+    "cenote",
+    "yoga",
+    "multiple restaurants",
+    "cooking class"
+  ],
   "photos": [
-    { "url": "/images/hotels/belmond-maroma-resort-mexico/hero.webp", "alt": "belmond-maroma-resort-mexico — hero", "type": "hero" },
-    { "url": "/images/hotels/belmond-maroma-resort-mexico/room.webp", "alt": "belmond-maroma-resort-mexico — room", "type": "room" },
-    { "url": "/images/hotels/belmond-maroma-resort-mexico/pool.webp", "alt": "belmond-maroma-resort-mexico — pool", "type": "pool" },
-    { "url": "/images/hotels/belmond-maroma-resort-mexico/spa.webp", "alt": "belmond-maroma-resort-mexico — spa", "type": "spa" },
-    { "url": "/images/hotels/belmond-maroma-resort-mexico/dining.webp", "alt": "belmond-maroma-resort-mexico — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/belmond-maroma-resort-mexico/hero.webp",
+      "alt": "belmond-maroma-resort-mexico — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/belmond-maroma-resort-mexico/room.webp",
+      "alt": "belmond-maroma-resort-mexico — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/belmond-maroma-resort-mexico/pool.webp",
+      "alt": "belmond-maroma-resort-mexico — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/belmond-maroma-resort-mexico/spa.webp",
+      "alt": "belmond-maroma-resort-mexico — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/belmond-maroma-resort-mexico/dining.webp",
+      "alt": "belmond-maroma-resort-mexico — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.3,
   "tripadvisor_award": true,
@@ -34,13 +72,41 @@
     "verdict": "Belmond Maroma is a secluded jewel on Mexico's Caribbean coast, hidden at the end of a jungle road between Playa del Carmen and Tulum in the Riviera Maya. It occupies a private stretch of what is widely considered one of the most beautiful beaches in Mexico — 1.2 kilometers of white powdered sand and turquoise Caribbean water backed by protected mangrove forest and jungle. The resort's 65 rooms and villas are spread across the jungle and beachfront in a formula that balances utter seclusion with world-class amenities, and the Kinan Spa's Mayan healing rituals are among the most authentic wellness experiences in the Yucatan.",
     "best_room": "The Beachfront Pool Suite is the definitive Maroma room — a voluminous suite with a private plunge pool at the edge of the white sand beach, with nothing between you and the Caribbean horizon. The Casita Suites with garden pools offer more privacy and jungle immersion at a slightly more accessible price. All rooms feature hand-crafted Mexican furnishings, Talavera tile, and hand-laid stone.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Maroma Beach", "description": "Arrive at Cancun International Airport and transfer 45 minutes south through the Riviera Maya to the hidden jungle road that leads to Maroma. The moment you step onto that powder-white beach and into that luminous Caribbean blue, the journey evaporates. Settle into your suite, order fresh guacamole and fresh-squeezed margaritas at the beach, and watch the Caribbean light shift as the afternoon fades. Dinner at El Restaurante with fresh Yucatan seafood and Mexican wine." },
-      { "day": 2, "title": "Kinan Spa & Caribbean Day", "description": "The Kinan Spa is rooted in the healing traditions of the ancient Maya — book the Temazcal (traditional sweat lodge) ceremony for couples, a profound ritual in a dome-shaped temascal followed by a cool plunge and traditional massage. It is unlike any spa treatment available elsewhere. Spend the afternoon on the beach, where the water is so clear you can see every grain of sand 8 feet below the surface." },
-      { "day": 3, "title": "Tulum & Cenote Dos Ojos", "description": "Drive 45 minutes south to Tulum for a morning at the ancient Maya cliff-top ruins overlooking the Caribbean — one of the most dramatic archaeological sites in Mexico. Afterward, visit Cenote Dos Ojos, a network of crystal-clear underground river chambers connected by caverns where snorkeling in water of 99% visibility feels like swimming through liquid glass. Return by late afternoon." },
-      { "day": 4, "title": "Catamaran & Snorkel", "description": "Charter a private catamaran for a half-day offshore snorkeling expedition to the Mesoamerican Barrier Reef, the second-largest coral reef system in the world. The reefs offshore from Maroma host extraordinary marine life in crystal Caribbean water. Sail back in the afternoon with cold cervezas and fresh fruit as the resort comes back into view along its stretch of protected shore." },
-      { "day": 5, "title": "Mayan Cooking Class & Jungle Walk", "description": "Join the chef for a Mayan cooking class in the resort's outdoor kitchen — learning to grind achiote paste, prepare cochinita pibil, and make handmade tortillas on a traditional comal. In the afternoon, explore the resort's private jungle paths with a nature guide who identifies local plants used in Mayan traditional medicine — the same plants that appear in the Kinan Spa treatments." },
-      { "day": 6, "title": "Sian Ka'an Biosphere Reserve", "description": "Book a private full-day excursion to Sian Ka'an — a UNESCO World Heritage biosphere reserve at the edge of the Riviera Maya, comprising 1.3 million acres of tropical forest, mangroves, lagoons, and barrier reef. Float down an ancient Mayan canal in a life jacket, spot crocodiles and roseate spoonbills, and snorkel the reef in near-complete solitude. One of the most extraordinary nature experiences in the Americas." },
-      { "day": 7, "title": "Farewell Morning", "description": "A final sunrise walk along the entire private Maroma beach from end to end — 1.2 kilometers of white sand at dawn, when the only footprints are yours. Return for a room service breakfast in bed looking out at the Caribbean, then a slow departure and the 45-minute drive back through the jungle to Cancun Airport." }
+      {
+        "day": 1,
+        "title": "Arrival & Maroma Beach",
+        "description": "Arrive at Cancun International Airport and transfer 45 minutes south through the Riviera Maya to the hidden jungle road that leads to Maroma. The moment you step onto that powder-white beach and into that luminous Caribbean blue, the journey evaporates. Settle into your suite, order fresh guacamole and fresh-squeezed margaritas at the beach, and watch the Caribbean light shift as the afternoon fades. Dinner at El Restaurante with fresh Yucatan seafood and Mexican wine."
+      },
+      {
+        "day": 2,
+        "title": "Kinan Spa & Caribbean Day",
+        "description": "The Kinan Spa is rooted in the healing traditions of the ancient Maya — book the Temazcal (traditional sweat lodge) ceremony for couples, a profound ritual in a dome-shaped temascal followed by a cool plunge and traditional massage. It is unlike any spa treatment available elsewhere. Spend the afternoon on the beach, where the water is so clear you can see every grain of sand 8 feet below the surface."
+      },
+      {
+        "day": 3,
+        "title": "Tulum & Cenote Dos Ojos",
+        "description": "Drive 45 minutes south to Tulum for a morning at the ancient Maya cliff-top ruins overlooking the Caribbean — one of the most dramatic archaeological sites in Mexico. Afterward, visit Cenote Dos Ojos, a network of crystal-clear underground river chambers connected by caverns where snorkeling in water of 99% visibility feels like swimming through liquid glass. Return by late afternoon."
+      },
+      {
+        "day": 4,
+        "title": "Catamaran & Snorkel",
+        "description": "Charter a private catamaran for a half-day offshore snorkeling expedition to the Mesoamerican Barrier Reef, the second-largest coral reef system in the world. The reefs offshore from Maroma host extraordinary marine life in crystal Caribbean water. Sail back in the afternoon with cold cervezas and fresh fruit as the resort comes back into view along its stretch of protected shore."
+      },
+      {
+        "day": 5,
+        "title": "Mayan Cooking Class & Jungle Walk",
+        "description": "Join the chef for a Mayan cooking class in the resort's outdoor kitchen — learning to grind achiote paste, prepare cochinita pibil, and make handmade tortillas on a traditional comal. In the afternoon, explore the resort's private jungle paths with a nature guide who identifies local plants used in Mayan traditional medicine — the same plants that appear in the Kinan Spa treatments."
+      },
+      {
+        "day": 6,
+        "title": "Sian Ka'an Biosphere Reserve",
+        "description": "Book a private full-day excursion to Sian Ka'an — a UNESCO World Heritage biosphere reserve at the edge of the Riviera Maya, comprising 1.3 million acres of tropical forest, mangroves, lagoons, and barrier reef. Float down an ancient Mayan canal in a life jacket, spot crocodiles and roseate spoonbills, and snorkel the reef in near-complete solitude. One of the most extraordinary nature experiences in the Americas."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "A final sunrise walk along the entire private Maroma beach from end to end — 1.2 kilometers of white sand at dawn, when the only footprints are yours. Return for a room service breakfast in bed looking out at the Caribbean, then a slow departure and the 45-minute drive back through the jungle to Cancun Airport."
+      }
     ],
     "caveats": [
       "Maroma is 45 minutes from Cancun Airport and requires navigating a stretch of the busy Riviera Maya highway — allow extra time for airport transfers, as traffic can be heavy.",

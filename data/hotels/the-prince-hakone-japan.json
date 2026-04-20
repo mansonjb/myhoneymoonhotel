@@ -3,7 +3,10 @@
   "name": "The Prince Hakone Lake Ashinoko",
   "destination": "japan",
   "country": "japan",
-  "experience_types": ["luxury", "wellness"],
+  "experience_types": [
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 80,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +20,46 @@
     "luxury": 5
   },
   "stars": 4,
-  "price_per_night_usd": { "min": 300, "max": 900 },
+  "price_per_night_usd": {
+    "min": 300,
+    "max": 900
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "onsen", "room service", "restaurant", "bar", "lake access"],
+  "amenities": [
+    "spa",
+    "pool",
+    "onsen",
+    "room service",
+    "restaurant",
+    "bar",
+    "lake access"
+  ],
   "photos": [
-    { "url": "/images/hotels/the-prince-hakone-japan/hero.webp", "alt": "the-prince-hakone-japan — hero", "type": "hero" },
-    { "url": "/images/hotels/the-prince-hakone-japan/room.webp", "alt": "the-prince-hakone-japan — room", "type": "room" },
-    { "url": "/images/hotels/the-prince-hakone-japan/pool.webp", "alt": "the-prince-hakone-japan — pool", "type": "pool" },
-    { "url": "/images/hotels/the-prince-hakone-japan/spa.webp", "alt": "the-prince-hakone-japan — spa", "type": "spa" },
-    { "url": "/images/hotels/the-prince-hakone-japan/dining.webp", "alt": "the-prince-hakone-japan — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/the-prince-hakone-japan/hero.webp",
+      "alt": "the-prince-hakone-japan — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/the-prince-hakone-japan/room.webp",
+      "alt": "the-prince-hakone-japan — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/the-prince-hakone-japan/pool.webp",
+      "alt": "the-prince-hakone-japan — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/the-prince-hakone-japan/spa.webp",
+      "alt": "the-prince-hakone-japan — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/the-prince-hakone-japan/dining.webp",
+      "alt": "the-prince-hakone-japan — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 8.8,
   "tripadvisor_award": false,
@@ -34,13 +68,41 @@
     "verdict": "The Prince Hakone Lake Ashinoko is the most accessible and scenically rewarding mid-range option in Hakone — perched directly on the shores of Lake Ashi with Mt Fuji visible on clear mornings, large open-air hot spring baths, and a lakeside location that punches significantly above its price bracket. It is not a ryokan in the traditional sense, but for couples who want the Hakone hot spring and mountain scenery experience without the full ryokan formality or five-star pricing, it delivers excellent value.",
     "best_room": "Lake-facing rooms on upper floors of the main tower offer the most dramatic Mt Fuji and Lake Ashi panoramas — on a clear winter morning, the reflection of Fuji in the still lake from your bedroom window is a once-in-a-lifetime image. Request a Superior or Deluxe Lake View room and specify high floor at booking. The western annex rooms are quieter but sacrifice the iconic lake view.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Lake Ashi at Dusk", "description": "Arrive from Tokyo on the Odakyu Romance Car to Hakone-Yumoto, then transfer by bus or taxi to the hotel. Check in and head immediately to the lakeside terrace to catch the dusk light on Mt Fuji and the lake — if the sky is clear, this first view is unforgettable. The outdoor onsen bath complex is open in the evening: soak in sulphur-rich water as the mountain turns silhouette against the stars. Dinner in the hotel's Japanese restaurant." },
-      { "day": 2, "title": "Hakone Open Air Museum", "description": "The Hakone Open Air Museum is a world-class sculpture park housing works by Henry Moore, Rodin, and Picasso across dramatic hillside gardens with Fuji backdrops. Buy a combined Hakone Free Pass that covers the Tozan Railway and Ropeway. Picnic on the museum lawn with local onigiri from a Hakone-Yumoto convenience store. Return for the large outdoor communal bath at the hotel." },
-      { "day": 3, "title": "Ropeway & Owakudani Crater", "description": "Take the Hakone Ropeway over Owakudani volcanic crater — sulphur vents, boiling pools, and Fuji views on clear days. Continue to Togendai on Lake Ashi for a lake cruise aboard the pirate replica ship to Hakone-machi, where the old checkpoint town and lakeside torii gate of Hakone Shrine reward exploration. Return by bus." },
-      { "day": 4, "title": "Gotemba Premium Outlets & Hot Spring Evening", "description": "A bus from Hakone reaches the Gotemba Premium Outlets — Japan's best outlet mall, with Mt Fuji looming directly behind the shopping complex. An afternoon of exploring Japanese and international brands with the volcano backdrop is genuinely surreal and fun. Return to the hotel for the most therapeutic onsen soak of the trip and a quiet dinner." },
-      { "day": 5, "title": "Odawara Castle & Coastal Day Trip", "description": "Descend to Odawara for a half-day at the impressively restored Odawara Castle and its cherry-blossom-ringed park. The nearby kamaboko street produces some of Japan's finest fish-cake, eaten fresh on the spot. Return via Hakone-Yumoto for shopping: traditional wooden crafts, dried mochi, and the local craft sake breweries clustered around the ryokan district." },
-      { "day": 6, "title": "Lake Kayaking & Onsen Wellness", "description": "Rent a kayak or rowboat on Lake Ashi from the hotel's lakeside dock for a gentle morning on the water — paddling across the glassy lake toward the torii gate with Mt Fuji behind you is a quietly magical experience. Afternoon at the hotel spa for a couples' massage, then the outdoor onsen at sunset, which colours the lake gold." },
-      { "day": 7, "title": "Farewell Morning", "description": "Take a final lakeside walk along the hotel's shore path at dawn, when morning mist rises from the water and the mountain is at its sharpest. A Japanese-style breakfast in the main dining room, then a relaxed check-out and bus transfer back to Hakone-Yumoto for the Romance Car to Tokyo. The Prince Hakone has delivered scenery and onsen at a price that makes a longer Japan itinerary far more feasible." }
+      {
+        "day": 1,
+        "title": "Arrival & Lake Ashi at Dusk",
+        "description": "Arrive from Tokyo on the Odakyu Romance Car to Hakone-Yumoto, then transfer by bus or taxi to the hotel. Check in and head immediately to the lakeside terrace to catch the dusk light on Mt Fuji and the lake — if the sky is clear, this first view is unforgettable. The outdoor onsen bath complex is open in the evening: soak in sulphur-rich water as the mountain turns silhouette against the stars. Dinner in the hotel's Japanese restaurant."
+      },
+      {
+        "day": 2,
+        "title": "Hakone Open Air Museum",
+        "description": "The Hakone Open Air Museum is a world-class sculpture park housing works by Henry Moore, Rodin, and Picasso across dramatic hillside gardens with Fuji backdrops. Buy a combined Hakone Free Pass that covers the Tozan Railway and Ropeway. Picnic on the museum lawn with local onigiri from a Hakone-Yumoto convenience store. Return for the large outdoor communal bath at the hotel."
+      },
+      {
+        "day": 3,
+        "title": "Ropeway & Owakudani Crater",
+        "description": "Take the Hakone Ropeway over Owakudani volcanic crater — sulphur vents, boiling pools, and Fuji views on clear days. Continue to Togendai on Lake Ashi for a lake cruise aboard the pirate replica ship to Hakone-machi, where the old checkpoint town and lakeside torii gate of Hakone Shrine reward exploration. Return by bus."
+      },
+      {
+        "day": 4,
+        "title": "Gotemba Premium Outlets & Hot Spring Evening",
+        "description": "A bus from Hakone reaches the Gotemba Premium Outlets — Japan's best outlet mall, with Mt Fuji looming directly behind the shopping complex. An afternoon of exploring Japanese and international brands with the volcano backdrop is genuinely surreal and fun. Return to the hotel for the most therapeutic onsen soak of the trip and a quiet dinner."
+      },
+      {
+        "day": 5,
+        "title": "Odawara Castle & Coastal Day Trip",
+        "description": "Descend to Odawara for a half-day at the impressively restored Odawara Castle and its cherry-blossom-ringed park. The nearby kamaboko street produces some of Japan's finest fish-cake, eaten fresh on the spot. Return via Hakone-Yumoto for shopping: traditional wooden crafts, dried mochi, and the local craft sake breweries clustered around the ryokan district."
+      },
+      {
+        "day": 6,
+        "title": "Lake Kayaking & Onsen Wellness",
+        "description": "Rent a kayak or rowboat on Lake Ashi from the hotel's lakeside dock for a gentle morning on the water — paddling across the glassy lake toward the torii gate with Mt Fuji behind you is a quietly magical experience. Afternoon at the hotel spa for a couples' massage, then the outdoor onsen at sunset, which colours the lake gold."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "Take a final lakeside walk along the hotel's shore path at dawn, when morning mist rises from the water and the mountain is at its sharpest. A Japanese-style breakfast in the main dining room, then a relaxed check-out and bus transfer back to Hakone-Yumoto for the Romance Car to Tokyo. The Prince Hakone has delivered scenery and onsen at a price that makes a longer Japan itinerary far more feasible."
+      }
     ],
     "caveats": [
       "The Prince Hakone is a large resort hotel with up to 300+ rooms — it lacks the intimate ryokan feeling of a Gora Kadan or Beniya Mukayu, and during peak seasons (Golden Week, New Year, cherry blossom) the property can feel busy with tour groups and families.",
@@ -48,12 +110,30 @@
       "Mt Fuji visibility is never guaranteed — cloud obscures the mountain on the majority of days year-round, and summer months are particularly poor. The hotel is still excellent without the Fuji view, but temper expectations."
     ],
     "faqs": [
-      { "question": "Is The Prince Hakone good for honeymooners?", "answer": "It is a solid, well-priced option for couples who want the Hakone onsen and Mt Fuji scenery experience without the five-star ryokan cost. The lake views from upper-floor rooms and the quality of the outdoor hot spring baths provide genuine romance, though the hotel's scale means it lacks the personalised intimacy of smaller ryokan. Best used as part of a longer Japan trip rather than as a standalone honeymoon base." },
-      { "question": "What is the best time to visit?", "answer": "Winter (December–February) offers the best Fuji visibility and a crisp contrast between cold air and steaming onsen water. Spring cherry blossom (late March–April) at Lake Ashi is spectacular. Autumn foliage (October–November) colours the surrounding mountains beautifully. Summer is less recommended for Fuji views but pleasant if you plan active outdoor activities around the lake." },
-      { "question": "What should we book in advance?", "answer": "Book a specific Lake View room well in advance — the hotel sells out during peak seasons, and lake-facing rooms in upper floors are among the first to go. The Hakone Free Pass (available from Odakyu) covering trains, buses, and ropeway is the most efficient way to explore the region and should be arranged before you leave Tokyo." },
-      { "question": "Is it adults-only?", "answer": "No — The Prince Hakone actively welcomes families, and peak seasons can see many families with children. It is still a pleasant romantic destination, particularly during weekday stays and shoulder seasons, but couples seeking complete tranquillity will find the setting noisier than a boutique ryokan." },
-      { "question": "What's the best room for a honeymoon?", "answer": "Superior or Deluxe Lake View rooms on upper floors (10th floor and above) in the main tower offer the most dramatic Mt Fuji and lake panoramas. Specifying a high floor at booking is important. Twin or double configurations in these categories are both available." },
-      { "question": "How do we get there?", "answer": "From Tokyo: Odakyu Romance Car from Shinjuku to Hakone-Yumoto (85 minutes), then bus to Moto-Hakone or Hakone-machi (30 minutes) — the hotel is near Kojiri/Moto-Hakone stops on the Hakone Tozan Bus. Alternatively, Shinkansen to Odawara then Hakone Tozan Bus. Total journey from Shinjuku is approximately 2 hours." }
+      {
+        "question": "Is The Prince Hakone good for honeymooners?",
+        "answer": "It is a solid, well-priced option for couples who want the Hakone onsen and Mt Fuji scenery experience without the five-star ryokan cost. The lake views from upper-floor rooms and the quality of the outdoor hot spring baths provide genuine romance, though the hotel's scale means it lacks the personalised intimacy of smaller ryokan. Best used as part of a longer Japan trip rather than as a standalone honeymoon base."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "Winter (December–February) offers the best Fuji visibility and a crisp contrast between cold air and steaming onsen water. Spring cherry blossom (late March–April) at Lake Ashi is spectacular. Autumn foliage (October–November) colours the surrounding mountains beautifully. Summer is less recommended for Fuji views but pleasant if you plan active outdoor activities around the lake."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "Book a specific Lake View room well in advance — the hotel sells out during peak seasons, and lake-facing rooms in upper floors are among the first to go. The Hakone Free Pass (available from Odakyu) covering trains, buses, and ropeway is the most efficient way to explore the region and should be arranged before you leave Tokyo."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "No — The Prince Hakone actively welcomes families, and peak seasons can see many families with children. It is still a pleasant romantic destination, particularly during weekday stays and shoulder seasons, but couples seeking complete tranquillity will find the setting noisier than a boutique ryokan."
+      },
+      {
+        "question": "What's the best room for a honeymoon?",
+        "answer": "Superior or Deluxe Lake View rooms on upper floors (10th floor and above) in the main tower offer the most dramatic Mt Fuji and lake panoramas. Specifying a high floor at booking is important. Twin or double configurations in these categories are both available."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "From Tokyo: Odakyu Romance Car from Shinjuku to Hakone-Yumoto (85 minutes), then bus to Moto-Hakone or Hakone-machi (30 minutes) — the hotel is near Kojiri/Moto-Hakone stops on the Hakone Tozan Bus. Alternatively, Shinkansen to Odawara then Hakone Tozan Bus. Total journey from Shinjuku is approximately 2 hours."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — The Prince Hakone Lake Ashinoko\n\nDear The Prince Hakone team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: a Lake View room on a high floor with Mt Fuji views.\n\nCould you please let us know:\n- Current availability for our dates\n- Room options with the best Mt Fuji and Lake Ashi views\n- Any honeymoon packages or special touches available\n\nThank you for your time.\n\n[Your names]"
   },

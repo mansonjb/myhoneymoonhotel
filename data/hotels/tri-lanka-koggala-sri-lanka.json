@@ -3,7 +3,10 @@
   "name": "Tri Lanka",
   "destination": "sri-lanka",
   "country": "sri-lanka",
-  "experience_types": ["luxury", "wellness"],
+  "experience_types": [
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 92,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +20,47 @@
     "luxury": 5
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 1000, "max": 4000 },
+  "price_per_night_usd": {
+    "min": 1000,
+    "max": 4000
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "room service", "butler service", "restaurant", "private villa", "lake access", "yoga"],
+  "amenities": [
+    "spa",
+    "pool",
+    "room service",
+    "butler service",
+    "restaurant",
+    "private villa",
+    "lake access",
+    "yoga"
+  ],
   "photos": [
-    { "url": "/images/hotels/tri-lanka-koggala-sri-lanka/hero.webp", "alt": "tri-lanka-koggala-sri-lanka — hero", "type": "hero" },
-    { "url": "/images/hotels/tri-lanka-koggala-sri-lanka/room.webp", "alt": "tri-lanka-koggala-sri-lanka — room", "type": "room" },
-    { "url": "/images/hotels/tri-lanka-koggala-sri-lanka/pool.webp", "alt": "tri-lanka-koggala-sri-lanka — pool", "type": "pool" },
-    { "url": "/images/hotels/tri-lanka-koggala-sri-lanka/spa.webp", "alt": "tri-lanka-koggala-sri-lanka — spa", "type": "spa" },
-    { "url": "/images/hotels/tri-lanka-koggala-sri-lanka/dining.webp", "alt": "tri-lanka-koggala-sri-lanka — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/tri-lanka-koggala-sri-lanka/hero.webp",
+      "alt": "tri-lanka-koggala-sri-lanka — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/tri-lanka-koggala-sri-lanka/room.webp",
+      "alt": "tri-lanka-koggala-sri-lanka — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/tri-lanka-koggala-sri-lanka/pool.webp",
+      "alt": "tri-lanka-koggala-sri-lanka — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/tri-lanka-koggala-sri-lanka/spa.webp",
+      "alt": "tri-lanka-koggala-sri-lanka — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/tri-lanka-koggala-sri-lanka/dining.webp",
+      "alt": "tri-lanka-koggala-sri-lanka — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.5,
   "tripadvisor_award": true,
@@ -34,13 +69,41 @@
     "verdict": "Tri Lanka is arguably the most private and exclusively intimate resort in all of Sri Lanka — a three-villa clifftop estate on Koggala Lake, accommodating a maximum of just 14 guests across three independent villas, each with its own private pool and dedicated team. The stilt fishermen of Koggala cast their lines in the lake below at dusk in one of the most haunting and beautiful scenes Sri Lanka offers, and the complete privacy of the villa format means your honeymoon has an estate entirely to itself if you book the right arrangement.",
     "best_room": "Book the entire estate (all three villas) for absolute privacy — popular with honeymooners who want a private island experience without leaving the mainland. If booking a single villa, the Cliff Villa perched highest above Koggala Lake offers the most dramatic sunset views over the water and the distant ocean beyond. Each villa has its own private pool, dedicated chef, and butler.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Lake at Dusk", "description": "Arrive from Galle (30 minutes) or Colombo (3 hours) and be welcomed onto the estate by your dedicated villa team. The arrival path drops through a coconut and mango garden to your clifftop villa — below, the still surface of Koggala Lake reflects the last light. At dusk, the stilt fishermen take their positions on their crossed poles in the shallows, silhouetted against the gold horizon. Your private chef prepares dinner on your villa terrace." },
-      { "day": 2, "title": "Koggala Lake Morning", "description": "Board the estate's traditional wooden boat for an early morning exploration of Koggala Lake — paddling through overhanging vegetation to small island cinnamon gardens, Buddhist temple islands, and the lake's famous bird rookeries where painted storks and herons nest in the trees. Return for a long breakfast and a morning Ayurvedic massage with your personal spa therapist." },
-      { "day": 3, "title": "Galle Fort & Boutique Shopping", "description": "A 30-minute drive brings you to Galle Fort, Sri Lanka's finest historical monument and its most interesting boutique destination. Walk the Dutch colonial walls at sunrise, then explore the inner streets: Pedlar Street's clothing and art boutiques, Stick No Bills vintage poster shop, and the cinnamon, spice, and pottery sellers. Lunch at The Fort Bazaar hotel restaurant." },
-      { "day": 4, "title": "Full Ayurvedic Wellness Day", "description": "Tri Lanka's Ayurvedic programme is administered by a resident physician who prescribes treatments based on your individual constitution (dosha). A full day might include: morning consultation, herbal steam bath, shirodhara (warm oil poured over forehead), a two-hour synchronised four-hand massage, and a restorative herbal lunch. Afternoon yoga on the clifftop pavilion as the lake turns purple at dusk." },
-      { "day": 5, "title": "Whale Watching & Beach Day", "description": "Drive west along the coast to Mirissa (40 minutes) for a dawn whale watching excursion — blue and sperm whale encounters are frequent December to April. Return via Mirissa's crescent beach for a few hours of ocean swimming and lunch at a beachside restaurant. The contrast between Koggala's serene lake world and the open Indian Ocean adds a welcome dimension to the stay." },
-      { "day": 6, "title": "Martin Wickramasinghe Folk Museum & Paddy Walk", "description": "The Martin Wickramasinghe Folk Museum in Koggala village — dedicated to Sri Lanka's most beloved novelist — preserves an authentic 19th-century village landscape with traditional architecture, boat-building sheds, and paddy fields. Walk the rural lanes behind the estate through cinnamon and pepper gardens with a local guide. Return for a sunset cocktail and a final long dinner on your villa terrace." },
-      { "day": 7, "title": "Farewell Morning", "description": "Your personal chef serves a final breakfast on the clifftop: fresh coconut, hoppers with pol sambol, and Ceylon tea as the stilt fishermen prepare their morning's work below. The villa team brings your luggage down and the estate vehicle drives you along the southern coastal road for your onward journey. Tri Lanka is a place that you will talk about for the rest of your lives." }
+      {
+        "day": 1,
+        "title": "Arrival & Lake at Dusk",
+        "description": "Arrive from Galle (30 minutes) or Colombo (3 hours) and be welcomed onto the estate by your dedicated villa team. The arrival path drops through a coconut and mango garden to your clifftop villa — below, the still surface of Koggala Lake reflects the last light. At dusk, the stilt fishermen take their positions on their crossed poles in the shallows, silhouetted against the gold horizon. Your private chef prepares dinner on your villa terrace."
+      },
+      {
+        "day": 2,
+        "title": "Koggala Lake Morning",
+        "description": "Board the estate's traditional wooden boat for an early morning exploration of Koggala Lake — paddling through overhanging vegetation to small island cinnamon gardens, Buddhist temple islands, and the lake's famous bird rookeries where painted storks and herons nest in the trees. Return for a long breakfast and a morning Ayurvedic massage with your personal spa therapist."
+      },
+      {
+        "day": 3,
+        "title": "Galle Fort & Boutique Shopping",
+        "description": "A 30-minute drive brings you to Galle Fort, Sri Lanka's finest historical monument and its most interesting boutique destination. Walk the Dutch colonial walls at sunrise, then explore the inner streets: Pedlar Street's clothing and art boutiques, Stick No Bills vintage poster shop, and the cinnamon, spice, and pottery sellers. Lunch at The Fort Bazaar hotel restaurant."
+      },
+      {
+        "day": 4,
+        "title": "Full Ayurvedic Wellness Day",
+        "description": "Tri Lanka's Ayurvedic programme is administered by a resident physician who prescribes treatments based on your individual constitution (dosha). A full day might include: morning consultation, herbal steam bath, shirodhara (warm oil poured over forehead), a two-hour synchronised four-hand massage, and a restorative herbal lunch. Afternoon yoga on the clifftop pavilion as the lake turns purple at dusk."
+      },
+      {
+        "day": 5,
+        "title": "Whale Watching & Beach Day",
+        "description": "Drive west along the coast to Mirissa (40 minutes) for a dawn whale watching excursion — blue and sperm whale encounters are frequent December to April. Return via Mirissa's crescent beach for a few hours of ocean swimming and lunch at a beachside restaurant. The contrast between Koggala's serene lake world and the open Indian Ocean adds a welcome dimension to the stay."
+      },
+      {
+        "day": 6,
+        "title": "Martin Wickramasinghe Folk Museum & Paddy Walk",
+        "description": "The Martin Wickramasinghe Folk Museum in Koggala village — dedicated to Sri Lanka's most beloved novelist — preserves an authentic 19th-century village landscape with traditional architecture, boat-building sheds, and paddy fields. Walk the rural lanes behind the estate through cinnamon and pepper gardens with a local guide. Return for a sunset cocktail and a final long dinner on your villa terrace."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "Your personal chef serves a final breakfast on the clifftop: fresh coconut, hoppers with pol sambol, and Ceylon tea as the stilt fishermen prepare their morning's work below. The villa team brings your luggage down and the estate vehicle drives you along the southern coastal road for your onward journey. Tri Lanka is a place that you will talk about for the rest of your lives."
+      }
     ],
     "caveats": [
       "Tri Lanka is an estate of just three villas and often books out well in advance, particularly in peak season (December–April) — plan at least 3 to 6 months ahead for a honeymoon stay.",
@@ -48,12 +111,30 @@
       "Tri Lanka operates on an all-inclusive basis; the estate cost covers all meals, drinks, and a curated programme of activities. The daily rate is at the top end of the Sri Lanka market and reflects the private estate exclusivity."
     ],
     "faqs": [
-      { "question": "Is Tri Lanka good for honeymooners?", "answer": "It is among the most extraordinary honeymoon options in Asia — the combination of complete privacy (your own villa with dedicated team), the haunting beauty of Koggala Lake and its stilt fishermen, exceptional Ayurvedic wellness, and Sri Lanka's cultural richness creates a honeymoon that is immersive, intimate, and deeply restoring. Couples who value privacy and authenticity over beach glamour will find it life-changing." },
-      { "question": "What is the best time to visit?", "answer": "December to April is the optimal window: calm southern coast seas for day trips, dry sunny weather, and whale watching from Mirissa. November and May can work but carry some monsoon risk. June to September brings the southwest monsoon to the south coast — the lake is still beautiful and peaceful but beach excursions become more limited." },
-      { "question": "What should we book in advance?", "answer": "Tri Lanka books out months in advance — this is one of the properties where early reservation is critical. The Ayurvedic physician consultation and treatment programme should be specified when booking so the physician can prepare recommendations. Whale watching trips from Mirissa should be arranged 24 hours ahead through the estate team." },
-      { "question": "Is it adults-only?", "answer": "No, but with a maximum of 14 guests across three villas, the estate naturally caters to an exclusive adult market. Families occasionally book the entire estate, but single-villa bookings are almost entirely couples and honeymooners. Children are welcome but the experience is optimised for adults." },
-      { "question": "What's the best room for a honeymoon?", "answer": "The Cliff Villa offers the most dramatic Koggala Lake panorama and is the highest point on the estate — the private pool and sunset terrace perched above the water create an unrivalled visual setting. Booking the entire three-villa estate for just the two of you is the ultimate private island-style experience without actually requiring a boat." },
-      { "question": "How do we get there?", "answer": "From Colombo Bandaranaike International Airport: approximately 3 hours by private car via the Southern Expressway to the Koggala area exit. From Galle: approximately 30 minutes east along the coastal road. The estate arranges all private car transfers. Nearest domestic airstrip is Koggala (GAQ), used by charter seaplanes and light aircraft from Colombo." }
+      {
+        "question": "Is Tri Lanka good for honeymooners?",
+        "answer": "It is among the most extraordinary honeymoon options in Asia — the combination of complete privacy (your own villa with dedicated team), the haunting beauty of Koggala Lake and its stilt fishermen, exceptional Ayurvedic wellness, and Sri Lanka's cultural richness creates a honeymoon that is immersive, intimate, and deeply restoring. Couples who value privacy and authenticity over beach glamour will find it life-changing."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "December to April is the optimal window: calm southern coast seas for day trips, dry sunny weather, and whale watching from Mirissa. November and May can work but carry some monsoon risk. June to September brings the southwest monsoon to the south coast — the lake is still beautiful and peaceful but beach excursions become more limited."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "Tri Lanka books out months in advance — this is one of the properties where early reservation is critical. The Ayurvedic physician consultation and treatment programme should be specified when booking so the physician can prepare recommendations. Whale watching trips from Mirissa should be arranged 24 hours ahead through the estate team."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "No, but with a maximum of 14 guests across three villas, the estate naturally caters to an exclusive adult market. Families occasionally book the entire estate, but single-villa bookings are almost entirely couples and honeymooners. Children are welcome but the experience is optimised for adults."
+      },
+      {
+        "question": "What's the best room for a honeymoon?",
+        "answer": "The Cliff Villa offers the most dramatic Koggala Lake panorama and is the highest point on the estate — the private pool and sunset terrace perched above the water create an unrivalled visual setting. Booking the entire three-villa estate for just the two of you is the ultimate private island-style experience without actually requiring a boat."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "From Colombo Bandaranaike International Airport: approximately 3 hours by private car via the Southern Expressway to the Koggala area exit. From Galle: approximately 30 minutes east along the coastal road. The estate arranges all private car transfers. Nearest domestic airstrip is Koggala (GAQ), used by charter seaplanes and light aircraft from Colombo."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Tri Lanka\n\nDear Tri Lanka team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: the Cliff Villa, or potentially the entire estate for a fully private honeymoon experience.\n\nCould you please let us know:\n- Current availability for our dates\n- Pricing for the Cliff Villa vs full estate booking\n- What the Ayurvedic programme includes during a 7-night stay\n\nThank you for your time.\n\n[Your names]"
   },

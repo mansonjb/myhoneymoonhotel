@@ -3,7 +3,11 @@
   "name": "Hotel Bellevue Dubrovnik",
   "destination": "croatia",
   "country": "croatia",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 87,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,46 @@
     "luxury": 5
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 500, "max": 1600 },
+  "price_per_night_usd": {
+    "min": 500,
+    "max": 1600
+  },
   "adults_only": false,
-  "amenities": ["spa", "indoor sea-view pool", "beach", "room service", "cliff-side location", "sea-view restaurant", "concierge"],
+  "amenities": [
+    "spa",
+    "indoor sea-view pool",
+    "beach",
+    "room service",
+    "cliff-side location",
+    "sea-view restaurant",
+    "concierge"
+  ],
   "photos": [
-    { "url": "/images/hotels/hotel-bellevue-dubrovnik-croatia/hero.webp", "alt": "hotel-bellevue-dubrovnik-croatia — hero", "type": "hero" },
-    { "url": "/images/hotels/hotel-bellevue-dubrovnik-croatia/room.webp", "alt": "hotel-bellevue-dubrovnik-croatia — room", "type": "room" },
-    { "url": "/images/hotels/hotel-bellevue-dubrovnik-croatia/pool.webp", "alt": "hotel-bellevue-dubrovnik-croatia — pool", "type": "pool" },
-    { "url": "/images/hotels/hotel-bellevue-dubrovnik-croatia/spa.webp", "alt": "hotel-bellevue-dubrovnik-croatia — spa", "type": "spa" },
-    { "url": "/images/hotels/hotel-bellevue-dubrovnik-croatia/dining.webp", "alt": "hotel-bellevue-dubrovnik-croatia — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/hotel-bellevue-dubrovnik-croatia/hero.webp",
+      "alt": "hotel-bellevue-dubrovnik-croatia — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/hotel-bellevue-dubrovnik-croatia/room.webp",
+      "alt": "hotel-bellevue-dubrovnik-croatia — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/hotel-bellevue-dubrovnik-croatia/pool.webp",
+      "alt": "hotel-bellevue-dubrovnik-croatia — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/hotel-bellevue-dubrovnik-croatia/spa.webp",
+      "alt": "hotel-bellevue-dubrovnik-croatia — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/hotel-bellevue-dubrovnik-croatia/dining.webp",
+      "alt": "hotel-bellevue-dubrovnik-croatia — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.2,
   "tripadvisor_award": true,
@@ -34,13 +69,41 @@
     "verdict": "Hotel Bellevue Dubrovnik is an architectural statement carved into the cliffs above the secluded Miramare beach — its bold, angular design may feel more contemporary gallery than traditional palace, but the result is one of the most dramatically situated hotels in Croatia. The indoor infinity pool that appears to float above the Adriatic is a genuine showpiece, and the private access to a secluded pebble beach below gives honeymooners a feeling of rare exclusivity within easy reach of Dubrovnik. Best for design-conscious couples who appreciate minimalism and modernist architecture.",
     "best_room": "Book a Premier Sea View Room or Suite — the minimalist design pays off most in the upper-floor rooms where floor-to-ceiling windows frame the Adriatic as if it were a living painting. The cliff-side position means even standard sea-view rooms offer extraordinary perspectives; upgrading to a suite gives you a separate sitting area and a larger balcony for private sunrise breakfasts above the sea.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Cliff Arrival & First Swim", "description": "Arrive at Hotel Bellevue and descend to Miramare beach — the private pebble cove below the hotel accessible by the cliff elevator feels like a secret the rest of Dubrovnik doesn't know about. The late afternoon light on the water is magical; swim and then return to the hotel for a sunset aperitivo in the indoor pool lounge, watching the Adriatic through the glass wall." },
-      { "day": 2, "title": "Indoor Pool & Spa Morning", "description": "Begin with a long morning in the spa and the indoor infinity pool — the heated salt-water pool appears to hover over the sea, and at dawn when mist lies on the water, it feels otherworldly. Book a couples' massage using the hotel's Croatian herbal oil blend, then emerge for a late brunch on the sea-view terrace. Spend the afternoon on the private beach." },
-      { "day": 3, "title": "Old Town Discovery", "description": "A taxi or hotel shuttle drops you at the Pile Gate — walk the city walls early morning, then lose yourselves in the Baroque lanes of the Old Town. The Dubrovnik museum, Franciscan monastery pharmacy, and the views from the cable car up Srđ Hill are all within reach. Dinner at a konoba in the Prijeko street with local Plavac Mali wine and black truffle pasta from nearby Istria." },
-      { "day": 4, "title": "Sunset Sailing", "description": "Book a private sunset sailing trip from Dubrovnik's harbour — the Old Town seen from a sailboat as the sun sets is one of the great sights of the Adriatic. Many operators offer two-hour evening cruises with wine and cheese, sailing past the city walls and out to Lokrum Island. Return to Hotel Bellevue for a late dinner at Restaurant Nevera." },
-      { "day": 5, "title": "Beach Coves & Kayaking", "description": "Rent sea kayaks from the beach and paddle south along the coast to explore the hidden coves accessible only from the water — the cliffs below Dubrovnik conceal multiple small beaches where you can swim in absolute solitude. Pack a picnic from the hotel's kitchen and make a morning of it before returning for a spa treatment in the afternoon." },
-      { "day": 6, "title": "Cavtat & Konavle Valley", "description": "Head south to Cavtat by taxi or water taxi — this charming small town on a wooded peninsula is everything Dubrovnik once was before tourism arrived. Wander the promenade, visit the Račić Mausoleum, and continue inland to the Konavle Valley for a traditional konoba lunch with wine from local Dubrovačko plavac grapes. Return in the evening for dinner at the hotel." },
-      { "day": 7, "title": "Farewell Morning", "description": "A final dawn swim from the secret beach below the cliffs, then a long breakfast in your room or on your balcony watching the morning light change on the sea. The minimalist beauty of Hotel Bellevue — all clean lines and light — makes for a quietly perfect conclusion to a honeymoon." }
+      {
+        "day": 1,
+        "title": "Cliff Arrival & First Swim",
+        "description": "Arrive at Hotel Bellevue and descend to Miramare beach — the private pebble cove below the hotel accessible by the cliff elevator feels like a secret the rest of Dubrovnik doesn't know about. The late afternoon light on the water is magical; swim and then return to the hotel for a sunset aperitivo in the indoor pool lounge, watching the Adriatic through the glass wall."
+      },
+      {
+        "day": 2,
+        "title": "Indoor Pool & Spa Morning",
+        "description": "Begin with a long morning in the spa and the indoor infinity pool — the heated salt-water pool appears to hover over the sea, and at dawn when mist lies on the water, it feels otherworldly. Book a couples' massage using the hotel's Croatian herbal oil blend, then emerge for a late brunch on the sea-view terrace. Spend the afternoon on the private beach."
+      },
+      {
+        "day": 3,
+        "title": "Old Town Discovery",
+        "description": "A taxi or hotel shuttle drops you at the Pile Gate — walk the city walls early morning, then lose yourselves in the Baroque lanes of the Old Town. The Dubrovnik museum, Franciscan monastery pharmacy, and the views from the cable car up Srđ Hill are all within reach. Dinner at a konoba in the Prijeko street with local Plavac Mali wine and black truffle pasta from nearby Istria."
+      },
+      {
+        "day": 4,
+        "title": "Sunset Sailing",
+        "description": "Book a private sunset sailing trip from Dubrovnik's harbour — the Old Town seen from a sailboat as the sun sets is one of the great sights of the Adriatic. Many operators offer two-hour evening cruises with wine and cheese, sailing past the city walls and out to Lokrum Island. Return to Hotel Bellevue for a late dinner at Restaurant Nevera."
+      },
+      {
+        "day": 5,
+        "title": "Beach Coves & Kayaking",
+        "description": "Rent sea kayaks from the beach and paddle south along the coast to explore the hidden coves accessible only from the water — the cliffs below Dubrovnik conceal multiple small beaches where you can swim in absolute solitude. Pack a picnic from the hotel's kitchen and make a morning of it before returning for a spa treatment in the afternoon."
+      },
+      {
+        "day": 6,
+        "title": "Cavtat & Konavle Valley",
+        "description": "Head south to Cavtat by taxi or water taxi — this charming small town on a wooded peninsula is everything Dubrovnik once was before tourism arrived. Wander the promenade, visit the Račić Mausoleum, and continue inland to the Konavle Valley for a traditional konoba lunch with wine from local Dubrovačko plavac grapes. Return in the evening for dinner at the hotel."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "A final dawn swim from the secret beach below the cliffs, then a long breakfast in your room or on your balcony watching the morning light change on the sea. The minimalist beauty of Hotel Bellevue — all clean lines and light — makes for a quietly perfect conclusion to a honeymoon."
+      }
     ],
     "caveats": [
       "The hotel's bold minimalist design, while admired by many, may feel cold or austere to couples expecting more traditionally romantic décor — think architectural hotel rather than intimate riad.",

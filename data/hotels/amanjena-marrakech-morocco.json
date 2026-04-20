@@ -3,7 +3,10 @@
   "name": "Amanjena",
   "destination": "morocco",
   "country": "morocco",
-  "experience_types": ["luxury", "wellness"],
+  "experience_types": [
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 95,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +20,49 @@
     "luxury": 5
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 900, "max": 3500 },
+  "price_per_night_usd": {
+    "min": 900,
+    "max": 3500
+  },
   "adults_only": false,
-  "amenities": ["spa", "private pool per maison", "room service", "butler service", "palm oasis", "hammam", "outdoor pools", "fine dining", "tennis", "concierge"],
+  "amenities": [
+    "spa",
+    "private pool per maison",
+    "room service",
+    "butler service",
+    "palm oasis",
+    "hammam",
+    "outdoor pools",
+    "fine dining",
+    "tennis",
+    "concierge"
+  ],
   "photos": [
-    { "url": "/images/hotels/amanjena-marrakech-morocco/hero.webp", "alt": "amanjena-marrakech-morocco — hero", "type": "hero" },
-    { "url": "/images/hotels/amanjena-marrakech-morocco/room.webp", "alt": "amanjena-marrakech-morocco — room", "type": "room" },
-    { "url": "/images/hotels/amanjena-marrakech-morocco/pool.webp", "alt": "amanjena-marrakech-morocco — pool", "type": "pool" },
-    { "url": "/images/hotels/amanjena-marrakech-morocco/spa.webp", "alt": "amanjena-marrakech-morocco — spa", "type": "spa" },
-    { "url": "/images/hotels/amanjena-marrakech-morocco/dining.webp", "alt": "amanjena-marrakech-morocco — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/amanjena-marrakech-morocco/hero.webp",
+      "alt": "amanjena-marrakech-morocco — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/amanjena-marrakech-morocco/room.webp",
+      "alt": "amanjena-marrakech-morocco — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/amanjena-marrakech-morocco/pool.webp",
+      "alt": "amanjena-marrakech-morocco — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/amanjena-marrakech-morocco/spa.webp",
+      "alt": "amanjena-marrakech-morocco — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/amanjena-marrakech-morocco/dining.webp",
+      "alt": "amanjena-marrakech-morocco — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.6,
   "tripadvisor_award": true,
@@ -34,13 +71,41 @@
     "verdict": "Amanjena — 'peaceful paradise' in Sanskrit — was the Aman group's first property in Africa and remains one of the most beautiful hotels in the world: 40 pavilions and maisons built in rose-pink pisé (rammed earth) architecture around a 12th-century Almohad basin in a palm grove on the edge of Marrakech's Palmeraie. The Aman formula of total privacy, flawless service, and architecture that exists in perfect harmony with its landscape is fully realised here. For honeymooners who have elevated taste and a preference for serene, unhurried luxury over the glamorous bustle of La Mamounia, Amanjena is the superior choice.",
     "best_room": "Book a Maison — Amanjena's private houses with their own garden and private pool are the ultimate expression of the property. The Maisons are effectively private villas within the hotel grounds, with multiple rooms, private dining terraces, and pools hidden behind high pisé walls. Pavilions are the entry level and also beautifully designed, but the Maisons offer the seclusion that makes Amanjena's honeymoon experience truly extraordinary.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival in the Palm Grove", "description": "Arrive at Amanjena via the palm-lined approach road at the edge of the Palmeraie and feel the city immediately dissolve behind the rose-pink walls. The central bassin — a 12th-century reflecting pool with orange trees and roses — greets you in the courtyard. Your Aman butler is waiting at your pavilion with mint tea. Dinner at the Moroccan restaurant Le Pavillon within the hotel grounds, eating under the stars beside the bassin." },
-      { "day": 2, "title": "Aman Spa & Private Pool", "description": "The Aman Spa at Amanjena is among the finest in the Aman portfolio — a comprehensive Moroccan and eastern wellness offering including a traditional hammam, couples' treatment suites, and a menu that blends Moroccan argan and rhassoul clay treatments with Aman's signature Asian therapies. Book the couple's hammam ritual for the morning, then spend the afternoon in your private Maison pool." },
-      { "day": 3, "title": "Marrakech Medina", "description": "Amanjena is set in the Palmeraie rather than the medina — the 15-minute drive into the city feels like a journey between worlds. Explore the souks, the Djemaa el-Fna square, the Saadian Tombs, and the Majorelle Garden with the hotel's private guide. Return in time for afternoon tea at the bassin, watch the evening call to prayer echo across the palm grove, and have dinner in your private pavilion delivered by your butler." },
-      { "day": 4, "title": "Atlas Mountains Excursion", "description": "A private car takes you south through the foothills to the Ourika Valley in the High Atlas — clear mountain rivers, terraced Berber gardens, and the 3,167m peak of Jebel Toubkal visible from the valley floor. Lunch at a mountain restaurant with views over the valley, then a walk to the Setti-Fatma waterfalls. Return via the Asni souk on a Saturday to experience a traditional Berber market." },
-      { "day": 5, "title": "Cooking Class & Private Dinner", "description": "Amanjena's kitchen offers a private Moroccan cooking lesson — learn to make a traditional lamb and preserved lemon tagine, bastilla au pigeon with almonds and cinnamon, and a Moroccan green salad with preserved harissa. The ingredients come from the hotel's garden and the local souk. Have the results served as a private dinner in your Maison garden at night, with rose petals on the table and lanterns in the citrus trees." },
-      { "day": 6, "title": "Essaouira Day Trip", "description": "A private driver takes you two and a half hours west to Essaouira — the blue-and-white wind-lashed Atlantic port town that is entirely different from desert Marrakech, with its 18th-century Portuguese ramparts, Gnawa music street musicians, and the world's finest argan oil cooperatives. Walk the ramparts, eat fresh grilled sardines on the harbour, buy artisan woodwork in the souks, and return to the calm of Amanjena as night falls." },
-      { "day": 7, "title": "Farewell Morning", "description": "Last morning at Amanjena: a swim in your private pool as the morning sun turns the pisé walls the colour of roses, then a slow breakfast in your garden served by your butler. Aman hotels are addictive in a specific way — the silence, the service, the beauty — and Amanjena may be the most seductive of all of them. The drive back to the airport passes through the entire extraordinary theatre of Marrakech." }
+      {
+        "day": 1,
+        "title": "Arrival in the Palm Grove",
+        "description": "Arrive at Amanjena via the palm-lined approach road at the edge of the Palmeraie and feel the city immediately dissolve behind the rose-pink walls. The central bassin — a 12th-century reflecting pool with orange trees and roses — greets you in the courtyard. Your Aman butler is waiting at your pavilion with mint tea. Dinner at the Moroccan restaurant Le Pavillon within the hotel grounds, eating under the stars beside the bassin."
+      },
+      {
+        "day": 2,
+        "title": "Aman Spa & Private Pool",
+        "description": "The Aman Spa at Amanjena is among the finest in the Aman portfolio — a comprehensive Moroccan and eastern wellness offering including a traditional hammam, couples' treatment suites, and a menu that blends Moroccan argan and rhassoul clay treatments with Aman's signature Asian therapies. Book the couple's hammam ritual for the morning, then spend the afternoon in your private Maison pool."
+      },
+      {
+        "day": 3,
+        "title": "Marrakech Medina",
+        "description": "Amanjena is set in the Palmeraie rather than the medina — the 15-minute drive into the city feels like a journey between worlds. Explore the souks, the Djemaa el-Fna square, the Saadian Tombs, and the Majorelle Garden with the hotel's private guide. Return in time for afternoon tea at the bassin, watch the evening call to prayer echo across the palm grove, and have dinner in your private pavilion delivered by your butler."
+      },
+      {
+        "day": 4,
+        "title": "Atlas Mountains Excursion",
+        "description": "A private car takes you south through the foothills to the Ourika Valley in the High Atlas — clear mountain rivers, terraced Berber gardens, and the 3,167m peak of Jebel Toubkal visible from the valley floor. Lunch at a mountain restaurant with views over the valley, then a walk to the Setti-Fatma waterfalls. Return via the Asni souk on a Saturday to experience a traditional Berber market."
+      },
+      {
+        "day": 5,
+        "title": "Cooking Class & Private Dinner",
+        "description": "Amanjena's kitchen offers a private Moroccan cooking lesson — learn to make a traditional lamb and preserved lemon tagine, bastilla au pigeon with almonds and cinnamon, and a Moroccan green salad with preserved harissa. The ingredients come from the hotel's garden and the local souk. Have the results served as a private dinner in your Maison garden at night, with rose petals on the table and lanterns in the citrus trees."
+      },
+      {
+        "day": 6,
+        "title": "Essaouira Day Trip",
+        "description": "A private driver takes you two and a half hours west to Essaouira — the blue-and-white wind-lashed Atlantic port town that is entirely different from desert Marrakech, with its 18th-century Portuguese ramparts, Gnawa music street musicians, and the world's finest argan oil cooperatives. Walk the ramparts, eat fresh grilled sardines on the harbour, buy artisan woodwork in the souks, and return to the calm of Amanjena as night falls."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "Last morning at Amanjena: a swim in your private pool as the morning sun turns the pisé walls the colour of roses, then a slow breakfast in your garden served by your butler. Aman hotels are addictive in a specific way — the silence, the service, the beauty — and Amanjena may be the most seductive of all of them. The drive back to the airport passes through the entire extraordinary theatre of Marrakech."
+      }
     ],
     "caveats": [
       "Amanjena is in the Palmeraie, 15 minutes from the medina — it lacks La Mamounia's advantage of being at the medina gate. Couples who want to walk freely into the souk life of Marrakech need to take a taxi or hotel car each time.",

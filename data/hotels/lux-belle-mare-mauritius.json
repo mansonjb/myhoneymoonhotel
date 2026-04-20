@@ -3,7 +3,11 @@
   "name": "LUX* Belle Mare",
   "destination": "mauritius",
   "country": "mauritius",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 82,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,49 @@
     "luxury": 10
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 400, "max": 1200 },
+  "price_per_night_usd": {
+    "min": 400,
+    "max": 1200
+  },
   "adults_only": false,
-  "amenities": ["long private beach", "LUX* Spa", "multiple pools", "room service", "multiple restaurants", "cinema on beach", "bar", "concierge", "water sports", "boutique"],
+  "amenities": [
+    "long private beach",
+    "LUX* Spa",
+    "multiple pools",
+    "room service",
+    "multiple restaurants",
+    "cinema on beach",
+    "bar",
+    "concierge",
+    "water sports",
+    "boutique"
+  ],
   "photos": [
-    { "url": "/images/hotels/lux-belle-mare-mauritius/hero.webp", "alt": "lux-belle-mare-mauritius — hero", "type": "hero" },
-    { "url": "/images/hotels/lux-belle-mare-mauritius/room.webp", "alt": "lux-belle-mare-mauritius — room", "type": "room" },
-    { "url": "/images/hotels/lux-belle-mare-mauritius/pool.webp", "alt": "lux-belle-mare-mauritius — pool", "type": "pool" },
-    { "url": "/images/hotels/lux-belle-mare-mauritius/spa.webp", "alt": "lux-belle-mare-mauritius — spa", "type": "spa" },
-    { "url": "/images/hotels/lux-belle-mare-mauritius/dining.webp", "alt": "lux-belle-mare-mauritius — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/lux-belle-mare-mauritius/hero.webp",
+      "alt": "lux-belle-mare-mauritius — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/lux-belle-mare-mauritius/room.webp",
+      "alt": "lux-belle-mare-mauritius — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/lux-belle-mare-mauritius/pool.webp",
+      "alt": "lux-belle-mare-mauritius — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/lux-belle-mare-mauritius/spa.webp",
+      "alt": "lux-belle-mare-mauritius — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/lux-belle-mare-mauritius/dining.webp",
+      "alt": "lux-belle-mare-mauritius — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 8.9,
   "tripadvisor_award": false,
@@ -34,13 +72,41 @@
     "verdict": "LUX* Belle Mare is the most design-forward and youthfully stylish resort in Mauritius — a contemporary luxury property on the island's east coast with a long stretch of private white sand beach, multiple excellent restaurants, and the brand's signature irreverent approach to resort living. The beach cinema (films screened on the sand at night), the creative cocktail culture, and the deliberately un-stuffy LUX* approach make it ideal for honeymooners who want outstanding design and experience over traditional hotel formality.",
     "best_room": "The Beach Suites with direct sand access and private terraces are the best honeymoon option — positioned along the resort's long beachfront with the Indian Ocean as a constant companion. The Junior Suites with pool view are also excellent. LUX* Belle Mare's contemporary interiors — all clean lines, local art, and thoughtful design details — make even standard rooms feel genuinely stylish rather than generic.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "LUX* Welcome", "description": "Arrive at LUX* Belle Mare and notice immediately the difference in energy from the more traditional Mauritius luxury resorts — this is a place that knows how to have fun. The welcome includes a signature LUX* cocktail (the brand is known for its creative mixology program), and the staff have an ease and warmth that is characteristic of the brand. First dinner at one of the five restaurants — the Indian Ocean Fish Market seafood restaurant is the most atmospheric first choice." },
-      { "day": 2, "title": "The Long Beach & LUX* Spa", "description": "Belle Mare's beach is genuinely one of the finest in Mauritius — a long, wide stretch of white sand with warm, clear water and an active reef visible from the shallows. Morning beach time, then afternoon at the LUX* Spa for a couples' treatment. The spa specializes in Mauritian Creole healing techniques using local plants like turmeric, vanilla, and moringa — unusual, effective, and evocative of the island's culture." },
-      { "day": 3, "title": "Cinema on the Beach", "description": "LUX* Belle Mare's signature experience is the beach cinema — a curated film screened on the beach after dark, with blankets, cocktails, and the Indian Ocean as the soundtrack. The programme changes nightly and ranges from classic romance films to contemporary favorites. Arrive early for a spot at the front. In the daytime, snorkel the resort's reef, which has notably healthy coral in the protected east coast lagoon." },
-      { "day": 4, "title": "Île aux Cerfs Day Trip", "description": "Take a water taxi from Belle Mare to the famous Île aux Cerfs — the resort's east coast location makes this the shortest transfer of any Mauritius resort to this iconic beach island. Spend the day on its extraordinary beaches, then return to the resort for a sunset at the beachfront bar, one of the best-positioned cocktail spots in Mauritius." },
-      { "day": 5, "title": "Mauritius Cultural Half-Day", "description": "Take a morning heritage walk through Belle Mare village arranged through the concierge — one of the more traditional fishing communities on the east coast, where the day's catch is still sold directly from boats at the pier. Afternoon at the LUX* Spa for back-to-back treatments, followed by a special tasting dinner at the resort's French restaurant where Mauritius's French Creole culinary heritage is given its most refined expression." },
-      { "day": 6, "title": "Private Beach Picnic & Sundowner", "description": "Request a private beach setup from the concierge — LUX* does these particularly well, with a table for two on a quiet section of the resort's long beach, personal service, and a menu of local seafood and fresh tropical fruits. Stay through the golden hour and into sunset, then move to the beach bar for the LUX* signature cocktail hour before a final special dinner." },
-      { "day": 7, "title": "Farewell Morning", "description": "A final dawn on the east coast beach as the Indian Ocean catches the first light. LUX* Belle Mare's departures have the same creative energy as arrivals — there will be something unusual and personal waiting, whether a custom cocktail recipe card or a small piece of local art. The east coast drive to the airport takes under an hour." }
+      {
+        "day": 1,
+        "title": "LUX* Welcome",
+        "description": "Arrive at LUX* Belle Mare and notice immediately the difference in energy from the more traditional Mauritius luxury resorts — this is a place that knows how to have fun. The welcome includes a signature LUX* cocktail (the brand is known for its creative mixology program), and the staff have an ease and warmth that is characteristic of the brand. First dinner at one of the five restaurants — the Indian Ocean Fish Market seafood restaurant is the most atmospheric first choice."
+      },
+      {
+        "day": 2,
+        "title": "The Long Beach & LUX* Spa",
+        "description": "Belle Mare's beach is genuinely one of the finest in Mauritius — a long, wide stretch of white sand with warm, clear water and an active reef visible from the shallows. Morning beach time, then afternoon at the LUX* Spa for a couples' treatment. The spa specializes in Mauritian Creole healing techniques using local plants like turmeric, vanilla, and moringa — unusual, effective, and evocative of the island's culture."
+      },
+      {
+        "day": 3,
+        "title": "Cinema on the Beach",
+        "description": "LUX* Belle Mare's signature experience is the beach cinema — a curated film screened on the beach after dark, with blankets, cocktails, and the Indian Ocean as the soundtrack. The programme changes nightly and ranges from classic romance films to contemporary favorites. Arrive early for a spot at the front. In the daytime, snorkel the resort's reef, which has notably healthy coral in the protected east coast lagoon."
+      },
+      {
+        "day": 4,
+        "title": "Île aux Cerfs Day Trip",
+        "description": "Take a water taxi from Belle Mare to the famous Île aux Cerfs — the resort's east coast location makes this the shortest transfer of any Mauritius resort to this iconic beach island. Spend the day on its extraordinary beaches, then return to the resort for a sunset at the beachfront bar, one of the best-positioned cocktail spots in Mauritius."
+      },
+      {
+        "day": 5,
+        "title": "Mauritius Cultural Half-Day",
+        "description": "Take a morning heritage walk through Belle Mare village arranged through the concierge — one of the more traditional fishing communities on the east coast, where the day's catch is still sold directly from boats at the pier. Afternoon at the LUX* Spa for back-to-back treatments, followed by a special tasting dinner at the resort's French restaurant where Mauritius's French Creole culinary heritage is given its most refined expression."
+      },
+      {
+        "day": 6,
+        "title": "Private Beach Picnic & Sundowner",
+        "description": "Request a private beach setup from the concierge — LUX* does these particularly well, with a table for two on a quiet section of the resort's long beach, personal service, and a menu of local seafood and fresh tropical fruits. Stay through the golden hour and into sunset, then move to the beach bar for the LUX* signature cocktail hour before a final special dinner."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "A final dawn on the east coast beach as the Indian Ocean catches the first light. LUX* Belle Mare's departures have the same creative energy as arrivals — there will be something unusual and personal waiting, whether a custom cocktail recipe card or a small piece of local art. The east coast drive to the airport takes under an hour."
+      }
     ],
     "caveats": [
       "LUX* Belle Mare is a lively, social resort — less suited to couples seeking deep tranquility than some of Mauritius's quieter properties. The beach, pool, and restaurant areas have energy.",

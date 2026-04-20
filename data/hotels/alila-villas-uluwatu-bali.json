@@ -3,7 +3,11 @@
   "name": "Alila Villas Uluwatu",
   "destination": "bali",
   "country": "indonesia",
-  "experience_types": ["luxury", "wellness", "beach"],
+  "experience_types": [
+    "luxury",
+    "wellness",
+    "beach"
+  ],
   "honeymoon_score": 91,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,48 @@
     "luxury": 16
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 700, "max": 2500 },
+  "price_per_night_usd": {
+    "min": 700,
+    "max": 2500
+  },
   "adults_only": false,
-  "amenities": ["spa", "infinity pool", "pool", "room service", "butler service", "sustainability programme", "sunset views", "private pool villas", "yoga"],
+  "amenities": [
+    "spa",
+    "infinity pool",
+    "pool",
+    "room service",
+    "butler service",
+    "sustainability programme",
+    "sunset views",
+    "private pool villas",
+    "yoga"
+  ],
   "photos": [
-    { "url": "/images/hotels/alila-villas-uluwatu-bali/hero.webp", "alt": "alila-villas-uluwatu-bali — hero", "type": "hero" },
-    { "url": "/images/hotels/alila-villas-uluwatu-bali/room.webp", "alt": "alila-villas-uluwatu-bali — room", "type": "room" },
-    { "url": "/images/hotels/alila-villas-uluwatu-bali/pool.webp", "alt": "alila-villas-uluwatu-bali — pool", "type": "pool" },
-    { "url": "/images/hotels/alila-villas-uluwatu-bali/spa.webp", "alt": "alila-villas-uluwatu-bali — spa", "type": "spa" },
-    { "url": "/images/hotels/alila-villas-uluwatu-bali/dining.webp", "alt": "alila-villas-uluwatu-bali — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/alila-villas-uluwatu-bali/hero.webp",
+      "alt": "alila-villas-uluwatu-bali — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/alila-villas-uluwatu-bali/room.webp",
+      "alt": "alila-villas-uluwatu-bali — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/alila-villas-uluwatu-bali/pool.webp",
+      "alt": "alila-villas-uluwatu-bali — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/alila-villas-uluwatu-bali/spa.webp",
+      "alt": "alila-villas-uluwatu-bali — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/alila-villas-uluwatu-bali/dining.webp",
+      "alt": "alila-villas-uluwatu-bali — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.4,
   "tripadvisor_award": true,
@@ -34,13 +71,41 @@
     "verdict": "Alila Villas Uluwatu is a masterpiece of sustainable architecture — designed by award-winning architect Joss Coppa using poured concrete, volcanic stone, and teak to create a clifftop resort that appears to grow organically from the Uluwatu limestone plateau. All 65 villas have private infinity pools facing the Indian Ocean, the Ke'ecak sunset views are among the most dramatic in Bali, and the sustainability credentials are among the most rigorous of any luxury resort in Southeast Asia. Honeymooners who care about design, sustainability, and extraordinary ocean views will find this resort deeply satisfying.",
     "best_room": "The Cliff Villa is the most romantic category — positioned at the cliff's edge with its infinity pool facing due west over the Indian Ocean for the most dramatic sunset view on the Uluwatu Peninsula. The Signature Pool Villa is equally beautiful: a larger compound with additional garden space and a more private interior layout.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Architectural Wonder", "description": "Approximately one hour from Denpasar, Alila Villas Uluwatu reveals itself slowly as you approach: clean geometric forms in grey concrete and dark teak rising above the limestone plateau. Check in and take your first walk to your villa's infinity pool — the Indian Ocean is below you, the horizon is unbroken, and the light is extraordinary. Sundowners at the pool bar to begin your honeymoon." },
-      { "day": 2, "title": "Ke'ecak Sunset & Cultural Immersion", "description": "Nearby Pura Luhur Uluwatu's Kecak fire dance at sunset is one of Bali's great experiences — performed in the clifftop amphitheatre against the backdrop of the sunset ocean. Alila can arrange transport and reserved seats. Before the sunset performance, join a morning guided walk to the working farm that supplies the resort's kitchen — the connection to the land is a core part of the Alila ethos." },
-      { "day": 3, "title": "Spa Alila & Pool Day", "description": "Book the Spa Alila Experience for Two — a half-day wellness journey combining a deep-tissue Balinese massage, a traditional jamu herbal tonic consultation, and a floral foot ritual. The spa's clifftop position makes treatments genuinely meditative. Spend the afternoon at the resort's main infinity pool as the waves break against the limestone far below." },
-      { "day": 4, "title": "Surfing Uluwatu", "description": "Uluwatu is one of the world's most famous surf destinations — the cliff-base breaks are for experienced surfers only, but the resort's partnership with a local surf school provides access to suitable beginner and intermediate waves. Non-surfers can take the resort's guided cliff walk to observe the breaks from above, or simply spend the day in their villa pool." },
-      { "day": 5, "title": "Sustainability & Farm-to-Table", "description": "Alila's sustainability programme is genuinely impressive — solar power, rainwater harvesting, a food waste reduction system, and a working herb and vegetable farm. Join the guided sustainability tour to understand how the resort operates, then cook from the harvest at an afternoon farm-to-table cooking class. Evening dinner at Cire, the resort's open-air restaurant with the full Indian Ocean view." },
-      { "day": 6, "title": "Private Villa Indulgence", "description": "A full day in your villa: in-villa breakfast on the terrace, a morning swim in your private infinity pool, and afternoon individual spa treatments ordered to the villa. In the evening, the resort kitchen sends a private dinner service to your terrace — a four-course menu prepared to your preferences, served as the stars emerge over the ocean." },
-      { "day": 7, "title": "Farewell Morning", "description": "Last sunrise at Uluwatu: the light on the limestone cliffs, the surf breaking below, and your private pool as the foreground. Breakfast in the villa, a slow check-out, and then back to Denpasar. Alila Villas Uluwatu is a resort where the architecture, setting, and sustainability philosophy combine to make you feel that you have experienced something genuinely meaningful." }
+      {
+        "day": 1,
+        "title": "Arrival & Architectural Wonder",
+        "description": "Approximately one hour from Denpasar, Alila Villas Uluwatu reveals itself slowly as you approach: clean geometric forms in grey concrete and dark teak rising above the limestone plateau. Check in and take your first walk to your villa's infinity pool — the Indian Ocean is below you, the horizon is unbroken, and the light is extraordinary. Sundowners at the pool bar to begin your honeymoon."
+      },
+      {
+        "day": 2,
+        "title": "Ke'ecak Sunset & Cultural Immersion",
+        "description": "Nearby Pura Luhur Uluwatu's Kecak fire dance at sunset is one of Bali's great experiences — performed in the clifftop amphitheatre against the backdrop of the sunset ocean. Alila can arrange transport and reserved seats. Before the sunset performance, join a morning guided walk to the working farm that supplies the resort's kitchen — the connection to the land is a core part of the Alila ethos."
+      },
+      {
+        "day": 3,
+        "title": "Spa Alila & Pool Day",
+        "description": "Book the Spa Alila Experience for Two — a half-day wellness journey combining a deep-tissue Balinese massage, a traditional jamu herbal tonic consultation, and a floral foot ritual. The spa's clifftop position makes treatments genuinely meditative. Spend the afternoon at the resort's main infinity pool as the waves break against the limestone far below."
+      },
+      {
+        "day": 4,
+        "title": "Surfing Uluwatu",
+        "description": "Uluwatu is one of the world's most famous surf destinations — the cliff-base breaks are for experienced surfers only, but the resort's partnership with a local surf school provides access to suitable beginner and intermediate waves. Non-surfers can take the resort's guided cliff walk to observe the breaks from above, or simply spend the day in their villa pool."
+      },
+      {
+        "day": 5,
+        "title": "Sustainability & Farm-to-Table",
+        "description": "Alila's sustainability programme is genuinely impressive — solar power, rainwater harvesting, a food waste reduction system, and a working herb and vegetable farm. Join the guided sustainability tour to understand how the resort operates, then cook from the harvest at an afternoon farm-to-table cooking class. Evening dinner at Cire, the resort's open-air restaurant with the full Indian Ocean view."
+      },
+      {
+        "day": 6,
+        "title": "Private Villa Indulgence",
+        "description": "A full day in your villa: in-villa breakfast on the terrace, a morning swim in your private infinity pool, and afternoon individual spa treatments ordered to the villa. In the evening, the resort kitchen sends a private dinner service to your terrace — a four-course menu prepared to your preferences, served as the stars emerge over the ocean."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "Last sunrise at Uluwatu: the light on the limestone cliffs, the surf breaking below, and your private pool as the foreground. Breakfast in the villa, a slow check-out, and then back to Denpasar. Alila Villas Uluwatu is a resort where the architecture, setting, and sustainability philosophy combine to make you feel that you have experienced something genuinely meaningful."
+      }
     ],
     "caveats": [
       "Alila Villas Uluwatu is a clifftop resort — beach access is not direct and requires transport to nearby beaches.",
@@ -48,12 +113,30 @@
       "The Uluwatu Peninsula is 45–60 minutes from Seminyak and other Bali nightlife areas — the resort suits couples who want seclusion rather than connectivity."
     ],
     "faqs": [
-      { "question": "Is Alila Villas Uluwatu good for honeymooners?", "answer": "Alila Villas Uluwatu is one of Bali's finest honeymoon resorts — the combination of award-winning architecture, all private-pool villas with Indian Ocean views, world-class Ke'ecak sunset access, and Alila's sustainability-focused philosophy creates an experience that combines luxury with genuine purpose." },
-      { "question": "What is the best time to visit?", "answer": "April through October is ideal — dry season, excellent surf conditions, and the best sunset clarity. The resort is particularly dramatic during April and May when the skies are clearest and the crowds thinnest before peak season." },
-      { "question": "What should we book in advance?", "answer": "The Kecak fire dance tickets at Pura Uluwatu need advance booking — the resort concierge handles this. Spa Alila couples' treatments and private villa dining should be reserved before arrival." },
-      { "question": "Is it adults-only?", "answer": "No, Alila Villas Uluwatu is not formally adults-only, but the property skews heavily adult and the villa-only configuration creates an atmosphere that is overwhelmingly couples-oriented." },
-      { "question": "What's the best room for a honeymoon?", "answer": "The Cliff Villa is positioned at the peninsula's edge with the most dramatic west-facing sunset views and an infinity pool that appears to merge with the Indian Ocean. The Signature Pool Villa offers more garden privacy within a larger compound." },
-      { "question": "How do we get there?", "answer": "Fly to Ngurah Rai International Airport (DPS) and take a private car to Uluwatu — approximately one hour. The resort's concierge team can arrange airport transfers." }
+      {
+        "question": "Is Alila Villas Uluwatu good for honeymooners?",
+        "answer": "Alila Villas Uluwatu is one of Bali's finest honeymoon resorts — the combination of award-winning architecture, all private-pool villas with Indian Ocean views, world-class Ke'ecak sunset access, and Alila's sustainability-focused philosophy creates an experience that combines luxury with genuine purpose."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "April through October is ideal — dry season, excellent surf conditions, and the best sunset clarity. The resort is particularly dramatic during April and May when the skies are clearest and the crowds thinnest before peak season."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "The Kecak fire dance tickets at Pura Uluwatu need advance booking — the resort concierge handles this. Spa Alila couples' treatments and private villa dining should be reserved before arrival."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "No, Alila Villas Uluwatu is not formally adults-only, but the property skews heavily adult and the villa-only configuration creates an atmosphere that is overwhelmingly couples-oriented."
+      },
+      {
+        "question": "What's the best room for a honeymoon?",
+        "answer": "The Cliff Villa is positioned at the peninsula's edge with the most dramatic west-facing sunset views and an infinity pool that appears to merge with the Indian Ocean. The Signature Pool Villa offers more garden privacy within a larger compound."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "Fly to Ngurah Rai International Airport (DPS) and take a private car to Uluwatu — approximately one hour. The resort's concierge team can arrange airport transfers."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Alila Villas Uluwatu\n\nDear Alila Villas Uluwatu team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: [Cliff Villa / Signature Pool Villa]\n\nCould you please let us know:\n- Current availability for our dates\n- Any honeymoon packages or complimentary upgrades\n- How to book the Kecak sunset performance at Pura Uluwatu\n\nThank you for your time.\n\n[Your names]"
   },

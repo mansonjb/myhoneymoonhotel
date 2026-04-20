@@ -3,19 +3,66 @@
   "name": "Shinta Mani Wild",
   "destination": "cambodia",
   "country": "cambodia",
-  "experience_types": ["luxury", "wellness", "safari"],
+  "experience_types": [
+    "luxury",
+    "wellness",
+    "safari"
+  ],
   "honeymoon_score": 92,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 20, "spa": 15, "award": 10, "pool": 10, "beach": 0, "room_service": 10, "stars": 17, "luxury": 10 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 20,
+    "spa": 15,
+    "award": 10,
+    "pool": 10,
+    "beach": 0,
+    "room_service": 10,
+    "stars": 17,
+    "luxury": 10
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 800, "max": 3000 },
+  "price_per_night_usd": {
+    "min": 800,
+    "max": 3000
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "room service", "butler service", "zip-line entry", "fine dining", "anti-poaching programme", "jungle trekking", "elephant corridor"],
+  "amenities": [
+    "spa",
+    "pool",
+    "room service",
+    "butler service",
+    "zip-line entry",
+    "fine dining",
+    "anti-poaching programme",
+    "jungle trekking",
+    "elephant corridor"
+  ],
   "photos": [
-    { "url": "/images/hotels/shinta-mani-wild-cambodia/hero.webp", "alt": "shinta-mani-wild-cambodia — hero", "type": "hero" },
-    { "url": "/images/hotels/shinta-mani-wild-cambodia/room.webp", "alt": "shinta-mani-wild-cambodia — room", "type": "room" },
-    { "url": "/images/hotels/shinta-mani-wild-cambodia/pool.webp", "alt": "shinta-mani-wild-cambodia — pool", "type": "pool" },
-    { "url": "/images/hotels/shinta-mani-wild-cambodia/spa.webp", "alt": "shinta-mani-wild-cambodia — spa", "type": "spa" },
-    { "url": "/images/hotels/shinta-mani-wild-cambodia/dining.webp", "alt": "shinta-mani-wild-cambodia — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/shinta-mani-wild-cambodia/hero.webp",
+      "alt": "shinta-mani-wild-cambodia — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/shinta-mani-wild-cambodia/room.webp",
+      "alt": "shinta-mani-wild-cambodia — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/shinta-mani-wild-cambodia/pool.webp",
+      "alt": "shinta-mani-wild-cambodia — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/shinta-mani-wild-cambodia/spa.webp",
+      "alt": "shinta-mani-wild-cambodia — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/shinta-mani-wild-cambodia/dining.webp",
+      "alt": "shinta-mani-wild-cambodia — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.5,
   "tripadvisor_award": true,
@@ -24,13 +71,41 @@
     "verdict": "Shinta Mani Wild is Bill Bensley's most audacious creation — a tented camp suspended above a jungle stream in the Cardamom Mountains, accessed by a zip-line across a waterfall and reached through one of Cambodia's most biodiverse wilderness areas. The camp actively funds anti-poaching ranger teams protecting the elephant corridor below, making every luxury dollar contribute to conservation. This is the most adventurous luxury experience in Cambodia and one of the most thrillingly romantic in all of Southeast Asia.",
     "best_room": "All 15 tents are suspended on stilts above the Stung Tasanh stream — each one decorated with Bensley's characteristic exuberance: antique maps, Cambodian artifacts, and furniture that seems to have been assembled from a Victorian explorer's attic. The two Honeymoon Tents are positioned furthest upstream for maximum privacy, with the largest decks and the most intimate connection to the jungle stream below. The sound of running water, the calls of gibbons at dawn, and the total darkness of the Cardamom night sky make these the most romantic beds in Cambodia.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival by Zip-Line", "description": "Transfer from Phnom Penh or Sihanoukville to the Cardamom Mountains trailhead. The camp arrival is unlike anything in hospitality: a private zip-line across a waterfall and through the jungle canopy delivers you directly to the camp platform. A Campari cocktail awaits as the sound of the stream rises from below." },
-      { "day": 2, "title": "Anti-Poaching Ranger Patrol", "description": "Join the camp's Wild Ranger team on a morning patrol through the elephant corridor — the same rangers whose salaries are funded by your stay. Learn about the snares they remove, the wildlife cameras they maintain, and the extraordinary biodiversity of the Cardamom ecosystem. Return for a camp-cooked lunch on the main deck." },
-      { "day": 3, "title": "Jungle Trek & Waterfall", "description": "A full-day jungle trek with a Khmer naturalist guide through primary Cardamom forest — encountering Indochinese tiger spoor, pileated gibbon calls from the canopy, and the extraordinary plant diversity of one of Southeast Asia's last intact wilderness areas. Swim in a jungle waterfall pool before the return to camp." },
-      { "day": 4, "title": "Spa & Stream Day", "description": "Spend the day in and around camp: morning yoga on the deck with the stream singing below, followed by a couple's jungle spa treatment using Khmer traditional herbs and Cambodian krama-cloth compresses. Afternoon in the natural rock pools of the stream. As darkness falls, the jungle fills with extraordinary sound." },
-      { "day": 5, "title": "Elephant Tracking", "description": "The Cardamom Mountains support one of Cambodia's last wild elephant populations — camera traps near the camp record regular movement. A dedicated day of elephant tracking with the ranger team, reading crushed vegetation, footprints in mud, and fresh dung to understand the herd's movement through the corridor." },
-      { "day": 6, "title": "Village Visit & Traditional Cooking", "description": "A boat journey downstream to a Khmer forest community — one of the indigenous groups whose land the camp works to protect. Learn traditional Cardamom forest skills: bamboo cooking, rattan basket weaving, and wild herb medicine preparation. Return for a private stream-side dinner as fireflies illuminate the jungle." },
-      { "day": 7, "title": "Final Gibbon Dawn & Departure", "description": "Final pre-dawn wake call for the gibbons' morning territorial chorus — among the most evocative wildlife sounds in Asia, echoing through the Cardamom canopy at sunrise. Return across the zip-line for the last time, carrying the scent of the forest and the memory of the most extraordinary camp arrival in the world." }
+      {
+        "day": 1,
+        "title": "Arrival by Zip-Line",
+        "description": "Transfer from Phnom Penh or Sihanoukville to the Cardamom Mountains trailhead. The camp arrival is unlike anything in hospitality: a private zip-line across a waterfall and through the jungle canopy delivers you directly to the camp platform. A Campari cocktail awaits as the sound of the stream rises from below."
+      },
+      {
+        "day": 2,
+        "title": "Anti-Poaching Ranger Patrol",
+        "description": "Join the camp's Wild Ranger team on a morning patrol through the elephant corridor — the same rangers whose salaries are funded by your stay. Learn about the snares they remove, the wildlife cameras they maintain, and the extraordinary biodiversity of the Cardamom ecosystem. Return for a camp-cooked lunch on the main deck."
+      },
+      {
+        "day": 3,
+        "title": "Jungle Trek & Waterfall",
+        "description": "A full-day jungle trek with a Khmer naturalist guide through primary Cardamom forest — encountering Indochinese tiger spoor, pileated gibbon calls from the canopy, and the extraordinary plant diversity of one of Southeast Asia's last intact wilderness areas. Swim in a jungle waterfall pool before the return to camp."
+      },
+      {
+        "day": 4,
+        "title": "Spa & Stream Day",
+        "description": "Spend the day in and around camp: morning yoga on the deck with the stream singing below, followed by a couple's jungle spa treatment using Khmer traditional herbs and Cambodian krama-cloth compresses. Afternoon in the natural rock pools of the stream. As darkness falls, the jungle fills with extraordinary sound."
+      },
+      {
+        "day": 5,
+        "title": "Elephant Tracking",
+        "description": "The Cardamom Mountains support one of Cambodia's last wild elephant populations — camera traps near the camp record regular movement. A dedicated day of elephant tracking with the ranger team, reading crushed vegetation, footprints in mud, and fresh dung to understand the herd's movement through the corridor."
+      },
+      {
+        "day": 6,
+        "title": "Village Visit & Traditional Cooking",
+        "description": "A boat journey downstream to a Khmer forest community — one of the indigenous groups whose land the camp works to protect. Learn traditional Cardamom forest skills: bamboo cooking, rattan basket weaving, and wild herb medicine preparation. Return for a private stream-side dinner as fireflies illuminate the jungle."
+      },
+      {
+        "day": 7,
+        "title": "Final Gibbon Dawn & Departure",
+        "description": "Final pre-dawn wake call for the gibbons' morning territorial chorus — among the most evocative wildlife sounds in Asia, echoing through the Cardamom canopy at sunrise. Return across the zip-line for the last time, carrying the scent of the forest and the memory of the most extraordinary camp arrival in the world."
+      }
     ],
     "caveats": [
       "The zip-line arrival is mandatory and requires a basic level of physical confidence; those with severe vertigo or mobility limitations should confirm with the camp before booking.",
@@ -38,12 +113,30 @@
       "The jungle setting means wildlife encounters (leeches, insects, occasional snakes) are part of the experience — those uncomfortable with tropical nature should choose an urban hotel."
     ],
     "faqs": [
-      { "question": "Good for honeymooners?", "answer": "Shinta Mani Wild is one of Southeast Asia's most thrillingly romantic honeymoon destinations. The zip-line arrival, suspended tent above the stream, total jungle immersion, and the knowledge that your stay funds conservation combine to create a honeymoon memory of extraordinary uniqueness. Couples who love adventure, nature, and luxury in equal measure will find it transformative." },
-      { "question": "Best time to visit?", "answer": "November through May is the dry season in the Cardamom Mountains — optimal for trekking, ranger patrols, and stream swimming. June through October is wet season, with heavier rainfall and leech activity on trails, though the camp remains operational and the jungle is intensely lush. Elephant activity is year-round." },
-      { "question": "Book in advance?", "answer": "With only 15 tents and the two Honeymoon Tents most in demand, book 4 to 8 months ahead for peak season. The camp's global reputation means it fills quickly. Shinta Mani properties can be booked directly or through luxury travel specialists." },
-      { "question": "Adults-only?", "answer": "Shinta Mani Wild is not formally adults-only, but the physical nature of the activities, the zip-line arrival, and the remote jungle setting effectively make it a property for able-bodied adults. The age minimum for activities and the overall experience orientation is thoroughly adult." },
-      { "question": "Best room type?", "answer": "The Honeymoon Tents upstream are the first choice — furthest from the camp's common areas, most private, with the largest decks and best stream views. All 15 tents share the same extraordinary stream suspension; the Honeymoon Tents simply add privacy and space." },
-      { "question": "How to get there?", "answer": "Road transfer from Phnom Penh takes 5-6 hours through southern Cambodia. Sihanoukville (3 hours) is a closer starting point for travellers already on the coast. Charter helicopter from Phnom Penh or Sihanoukville reduces the journey to approximately 1.5-2 hours. The camp coordinates transfers and helicopter arrangements." }
+      {
+        "question": "Good for honeymooners?",
+        "answer": "Shinta Mani Wild is one of Southeast Asia's most thrillingly romantic honeymoon destinations. The zip-line arrival, suspended tent above the stream, total jungle immersion, and the knowledge that your stay funds conservation combine to create a honeymoon memory of extraordinary uniqueness. Couples who love adventure, nature, and luxury in equal measure will find it transformative."
+      },
+      {
+        "question": "Best time to visit?",
+        "answer": "November through May is the dry season in the Cardamom Mountains — optimal for trekking, ranger patrols, and stream swimming. June through October is wet season, with heavier rainfall and leech activity on trails, though the camp remains operational and the jungle is intensely lush. Elephant activity is year-round."
+      },
+      {
+        "question": "Book in advance?",
+        "answer": "With only 15 tents and the two Honeymoon Tents most in demand, book 4 to 8 months ahead for peak season. The camp's global reputation means it fills quickly. Shinta Mani properties can be booked directly or through luxury travel specialists."
+      },
+      {
+        "question": "Adults-only?",
+        "answer": "Shinta Mani Wild is not formally adults-only, but the physical nature of the activities, the zip-line arrival, and the remote jungle setting effectively make it a property for able-bodied adults. The age minimum for activities and the overall experience orientation is thoroughly adult."
+      },
+      {
+        "question": "Best room type?",
+        "answer": "The Honeymoon Tents upstream are the first choice — furthest from the camp's common areas, most private, with the largest decks and best stream views. All 15 tents share the same extraordinary stream suspension; the Honeymoon Tents simply add privacy and space."
+      },
+      {
+        "question": "How to get there?",
+        "answer": "Road transfer from Phnom Penh takes 5-6 hours through southern Cambodia. Sihanoukville (3 hours) is a closer starting point for travellers already on the coast. Charter helicopter from Phnom Penh or Sihanoukville reduces the journey to approximately 1.5-2 hours. The camp coordinates transfers and helicopter arrangements."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — Shinta Mani Wild Cardamom Mountains\n\nDear Shinta Mani Wild team,\n\nWe are planning our honeymoon [DATE]-[DATE] and are interested in a Honeymoon Tent. Please advise on availability, transfer and helicopter options, the ranger patrol experience, and any honeymoon inclusions.\n\nThank you,\n[Your names]"
   },

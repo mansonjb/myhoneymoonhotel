@@ -3,19 +3,67 @@
   "name": "Intercontinental Tahiti Resort & Spa",
   "destination": "french-polynesia",
   "country": "french-polynesia",
-  "experience_types": ["beach", "luxury", "overwater-bungalows", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "overwater-bungalows",
+    "wellness"
+  ],
   "honeymoon_score": 83,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 15, "spa": 12, "award": 10, "pool": 10, "beach": 10, "room_service": 5, "stars": 8, "luxury": 13 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 15,
+    "spa": 12,
+    "award": 10,
+    "pool": 10,
+    "beach": 10,
+    "room_service": 5,
+    "stars": 8,
+    "luxury": 13
+  },
   "stars": 4,
-  "price_per_night_usd": { "min": 400, "max": 1200 },
+  "price_per_night_usd": {
+    "min": 400,
+    "max": 1200
+  },
   "adults_only": false,
-  "amenities": ["spa", "overwater villas", "beach", "pool", "snorkeling", "lagoon access", "aquarium", "watersports", "multiple restaurants"],
+  "amenities": [
+    "spa",
+    "overwater villas",
+    "beach",
+    "pool",
+    "snorkeling",
+    "lagoon access",
+    "aquarium",
+    "watersports",
+    "multiple restaurants"
+  ],
   "photos": [
-    { "url": "/images/hotels/intercontinental-tahiti-resort-french-polynesia/hero.webp", "alt": "intercontinental-tahiti-resort-french-polynesia — hero", "type": "hero" },
-    { "url": "/images/hotels/intercontinental-tahiti-resort-french-polynesia/room.webp", "alt": "intercontinental-tahiti-resort-french-polynesia — room", "type": "room" },
-    { "url": "/images/hotels/intercontinental-tahiti-resort-french-polynesia/pool.webp", "alt": "intercontinental-tahiti-resort-french-polynesia — pool", "type": "pool" },
-    { "url": "/images/hotels/intercontinental-tahiti-resort-french-polynesia/spa.webp", "alt": "intercontinental-tahiti-resort-french-polynesia — spa", "type": "spa" },
-    { "url": "/images/hotels/intercontinental-tahiti-resort-french-polynesia/dining.webp", "alt": "intercontinental-tahiti-resort-french-polynesia — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/intercontinental-tahiti-resort-french-polynesia/hero.webp",
+      "alt": "intercontinental-tahiti-resort-french-polynesia — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/intercontinental-tahiti-resort-french-polynesia/room.webp",
+      "alt": "intercontinental-tahiti-resort-french-polynesia — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/intercontinental-tahiti-resort-french-polynesia/pool.webp",
+      "alt": "intercontinental-tahiti-resort-french-polynesia — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/intercontinental-tahiti-resort-french-polynesia/spa.webp",
+      "alt": "intercontinental-tahiti-resort-french-polynesia — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/intercontinental-tahiti-resort-french-polynesia/dining.webp",
+      "alt": "intercontinental-tahiti-resort-french-polynesia — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 8.6,
   "tripadvisor_award": false,
@@ -24,13 +72,41 @@
     "verdict": "The InterContinental Tahiti Resort & Spa is the ideal bookend resort for a French Polynesian honeymoon — positioned in Papeete on Tahiti's northwest coast, it serves as a comfortable first-night landing and last-night departure property with 40 overwater bungalows that deliver the overwater experience without the logistics of reaching the outer islands. It is not the most romantic property in French Polynesia, but its Black Shark Aquarium, quality spa, and convenient location make it a solid choice for couples splitting their honeymoon between Tahiti and the outer islands.",
     "best_room": "The Overwater Bungalow facing the iconic silhouette of Moorea across the Sea of the Moon is the most romantic room in the hotel — best at sunset, when Moorea's jagged peaks glow gold against the sky and you have a private deck with plunge pool just steps from your king bed. This is genuinely one of the most spectacular sunset views in the Pacific.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival in Papeete", "description": "Land at Faa'a International Airport just 8 minutes from the resort. Check into your overwater bungalow in time for sunset — pour champagne as Moorea's silhouette materializes across the water in the golden hour, one of the Pacific's great natural spectacles." },
-      { "day": 2, "title": "Papeete Exploration", "description": "Take the morning to explore Papeete's vibrant market, famous for fresh vanilla, monoi oil, and black pearls at far better prices than resort shops. Browse the Paul Gauguin Museum and the ornate cathedral before returning to the resort for an afternoon spa treatment." },
-      { "day": 3, "title": "Black Shark Aquarium & Snorkeling", "description": "Visit the resort's unique Black Shark Aquarium — a live lagoon aquarium featuring blacktip reef sharks, rays, and hundreds of reef fish. Then snorkel the overwater bungalow jetty for direct access to the same marine life in the open lagoon." },
-      { "day": 4, "title": "Moorea Day Trip", "description": "Take the 30-minute ferry to Moorea for a day — hike to the Belvedere lookout, swim in Cook's Bay, and explore pineapple farms. The contrast between Tahiti's urban energy and Moorea's lush serenity is striking. Return for dinner at the resort's overwater restaurant." },
-      { "day": 5, "title": "Spa Day & Pearl Shopping", "description": "A full morning at the Heloa Spa using Polynesian techniques and local ingredients. In the afternoon, explore Papeete's pearl traders for the best prices on Tahitian black pearls — consider a pearl jewelry workshop as a honeymoon keepsake activity." },
-      { "day": 6, "title": "Sunset Sunset Sailing", "description": "Book the resort's sunset sailing tour — a catamaran cruise along Tahiti's northwest coast as the sun sets behind Moorea, with Champagne and canapés served on deck. Return for a farewell dinner at the resort's signature restaurant." },
-      { "day": 7, "title": "Final Morning & International Departure", "description": "Most flights depart in the early hours from Papeete — the InterContinental is just 8 minutes from the airport, making it perfect for an easy pre-departure night. Enjoy a final breakfast over the water and transfer to Faa'a for your onward journey." }
+      {
+        "day": 1,
+        "title": "Arrival in Papeete",
+        "description": "Land at Faa'a International Airport just 8 minutes from the resort. Check into your overwater bungalow in time for sunset — pour champagne as Moorea's silhouette materializes across the water in the golden hour, one of the Pacific's great natural spectacles."
+      },
+      {
+        "day": 2,
+        "title": "Papeete Exploration",
+        "description": "Take the morning to explore Papeete's vibrant market, famous for fresh vanilla, monoi oil, and black pearls at far better prices than resort shops. Browse the Paul Gauguin Museum and the ornate cathedral before returning to the resort for an afternoon spa treatment."
+      },
+      {
+        "day": 3,
+        "title": "Black Shark Aquarium & Snorkeling",
+        "description": "Visit the resort's unique Black Shark Aquarium — a live lagoon aquarium featuring blacktip reef sharks, rays, and hundreds of reef fish. Then snorkel the overwater bungalow jetty for direct access to the same marine life in the open lagoon."
+      },
+      {
+        "day": 4,
+        "title": "Moorea Day Trip",
+        "description": "Take the 30-minute ferry to Moorea for a day — hike to the Belvedere lookout, swim in Cook's Bay, and explore pineapple farms. The contrast between Tahiti's urban energy and Moorea's lush serenity is striking. Return for dinner at the resort's overwater restaurant."
+      },
+      {
+        "day": 5,
+        "title": "Spa Day & Pearl Shopping",
+        "description": "A full morning at the Heloa Spa using Polynesian techniques and local ingredients. In the afternoon, explore Papeete's pearl traders for the best prices on Tahitian black pearls — consider a pearl jewelry workshop as a honeymoon keepsake activity."
+      },
+      {
+        "day": 6,
+        "title": "Sunset Sunset Sailing",
+        "description": "Book the resort's sunset sailing tour — a catamaran cruise along Tahiti's northwest coast as the sun sets behind Moorea, with Champagne and canapés served on deck. Return for a farewell dinner at the resort's signature restaurant."
+      },
+      {
+        "day": 7,
+        "title": "Final Morning & International Departure",
+        "description": "Most flights depart in the early hours from Papeete — the InterContinental is just 8 minutes from the airport, making it perfect for an easy pre-departure night. Enjoy a final breakfast over the water and transfer to Faa'a for your onward journey."
+      }
     ],
     "caveats": [
       "Tahiti is a working island city and the resort is near Papeete — this is not the secluded motu experience of Bora Bora or Taha'a; some road noise and boat traffic is part of the environment.",
@@ -38,12 +114,30 @@
       "While the 40 overwater bungalows are excellent, the Moorea-facing units are the most romantic — units facing the airport direction should be specifically avoided when booking."
     ],
     "faqs": [
-      { "question": "Should honeymooners choose the InterContinental Tahiti as their main resort?", "answer": "Most couples use it as a strategic start or end to a broader French Polynesia itinerary rather than the centrepiece. Its proximity to the airport and the Moorea sunset views make it perfect for first and last nights." },
-      { "question": "What is the best time to visit?", "answer": "May through October is the dry season. The resort's location in Papeete means it is accessible year-round with good value in the rainy season (November-April) for couples spending most of their time at outer island resorts." },
-      { "question": "How far in advance should you book?", "answer": "2-4 months is generally sufficient for this property. It is larger than the outer island resorts and has more availability, though overwater bungalows facing Moorea should be booked early." },
-      { "question": "Is the resort adults-only?", "answer": "No — as a Papeete city hotel with conference and business facilities, it attracts a broader mix of guests than the outer island resorts. The overwater section remains primarily couples-focused." },
-      { "question": "What is the best room type?", "answer": "Overwater Bungalow specifically facing Moorea — the sunset views of Moorea's silhouette across the water are the resort's single greatest asset for honeymooners." },
-      { "question": "How close is the resort to Faa'a International Airport?", "answer": "Just 8 minutes by car — making it ideal for arrivals at any hour and for early morning international departures. The InterContinental Tahiti is the most airport-convenient overwater bungalow hotel in French Polynesia." }
+      {
+        "question": "Should honeymooners choose the InterContinental Tahiti as their main resort?",
+        "answer": "Most couples use it as a strategic start or end to a broader French Polynesia itinerary rather than the centrepiece. Its proximity to the airport and the Moorea sunset views make it perfect for first and last nights."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "May through October is the dry season. The resort's location in Papeete means it is accessible year-round with good value in the rainy season (November-April) for couples spending most of their time at outer island resorts."
+      },
+      {
+        "question": "How far in advance should you book?",
+        "answer": "2-4 months is generally sufficient for this property. It is larger than the outer island resorts and has more availability, though overwater bungalows facing Moorea should be booked early."
+      },
+      {
+        "question": "Is the resort adults-only?",
+        "answer": "No — as a Papeete city hotel with conference and business facilities, it attracts a broader mix of guests than the outer island resorts. The overwater section remains primarily couples-focused."
+      },
+      {
+        "question": "What is the best room type?",
+        "answer": "Overwater Bungalow specifically facing Moorea — the sunset views of Moorea's silhouette across the water are the resort's single greatest asset for honeymooners."
+      },
+      {
+        "question": "How close is the resort to Faa'a International Airport?",
+        "answer": "Just 8 minutes by car — making it ideal for arrivals at any hour and for early morning international departures. The InterContinental Tahiti is the most airport-convenient overwater bungalow hotel in French Polynesia."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — InterContinental Tahiti Resort & Spa\n\nDear team,\n\nWe are planning to spend [DATE]-[DATE] at your resort as part of our French Polynesia honeymoon. We would like an Overwater Bungalow with views toward Moorea. Please advise on availability and whether any honeymoon enhancement packages are available.\n\nThank you,\n[Your names]"
   },

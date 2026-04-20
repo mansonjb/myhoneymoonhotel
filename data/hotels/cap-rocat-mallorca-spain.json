@@ -3,19 +3,64 @@
   "name": "Cap Rocat",
   "destination": "spain",
   "country": "spain",
-  "experience_types": ["luxury", "wellness", "beach"],
+  "experience_types": [
+    "luxury",
+    "wellness",
+    "beach"
+  ],
   "honeymoon_score": 92,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 20, "spa": 15, "award": 12, "pool": 10, "beach": 10, "room_service": 5, "stars": 10, "luxury": 10 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 20,
+    "spa": 15,
+    "award": 12,
+    "pool": 10,
+    "beach": 10,
+    "room_service": 5,
+    "stars": 10,
+    "luxury": 10
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 700, "max": 2500 },
+  "price_per_night_usd": {
+    "min": 700,
+    "max": 2500
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "beach", "room service", "private cove", "fine dining", "boat tours"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beach",
+    "room service",
+    "private cove",
+    "fine dining",
+    "boat tours"
+  ],
   "photos": [
-    { "url": "/images/hotels/cap-rocat-mallorca-spain/hero.webp", "alt": "cap-rocat-mallorca-spain — hero", "type": "hero" },
-    { "url": "/images/hotels/cap-rocat-mallorca-spain/room.webp", "alt": "cap-rocat-mallorca-spain — room", "type": "room" },
-    { "url": "/images/hotels/cap-rocat-mallorca-spain/pool.webp", "alt": "cap-rocat-mallorca-spain — pool", "type": "pool" },
-    { "url": "/images/hotels/cap-rocat-mallorca-spain/spa.webp", "alt": "cap-rocat-mallorca-spain — spa", "type": "spa" },
-    { "url": "/images/hotels/cap-rocat-mallorca-spain/dining.webp", "alt": "cap-rocat-mallorca-spain — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/cap-rocat-mallorca-spain/hero.webp",
+      "alt": "cap-rocat-mallorca-spain — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/cap-rocat-mallorca-spain/room.webp",
+      "alt": "cap-rocat-mallorca-spain — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/cap-rocat-mallorca-spain/pool.webp",
+      "alt": "cap-rocat-mallorca-spain — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/cap-rocat-mallorca-spain/spa.webp",
+      "alt": "cap-rocat-mallorca-spain — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/cap-rocat-mallorca-spain/dining.webp",
+      "alt": "cap-rocat-mallorca-spain — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.6,
   "tripadvisor_award": true,
@@ -24,13 +69,41 @@
     "verdict": "Cap Rocat is the most dramatically beautiful hotel in Mallorca — a 19th-century military fortress built into the limestone cliffs above Palma Bay, with 24 suites carved directly into the rock, a saltwater pool suspended between stone battlements and open sea, and a private cove beach accessible only to guests. The combination of ancient military architecture, azure Mediterranean water, and exceptional hospitality creates a honeymoon experience of singular atmosphere and beauty.",
     "best_room": "The Cap Suite is Cap Rocat's most extraordinary accommodation — a cavernous former ammunition depot converted into a dramatic suite with original vaulted stone ceilings, a private terrace cantilevered over the sea, and direct water views from the soaking tub. The Sky Loft, a split-level suite on the fortress's highest point, offers the most panoramic views over Palma Bay and is considered by many guests as the finest room in Mallorca.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival at the Fortress", "description": "Transfer from Palma Airport (just 15 minutes) to Cap Rocat's private gated entrance. The drive through the fortress gate and down to the cliff-edge hotel is one of the great hotel arrival experiences in Europe. Order sunset cocktails at the battlements bar, where the view over Palma Bay takes in the Cathedral, Bellver Castle, and the entire sweep of the bay." },
-      { "day": 2, "title": "Private Cove & Saltwater Pool", "description": "Cap Rocat's private cove is accessible by a stone stairway cut directly into the cliff. The water clarity in the protected bay is extraordinary — snorkel directly from the cove over Posidonia seagrass meadows to spot sea stars, octopus, and sea bass. The saltwater infinity pool above the cove is perfectly positioned for morning swimming with Palma Cathedral in the distant view." },
-      { "day": 3, "title": "Palma de Mallorca", "description": "Palma is just 15 minutes from Cap Rocat by hotel boat (or 15 minutes by car). Arrive by sea for the ultimate Palma entrance, dock at the marina, and explore the Cathedral La Seu's magnificent interior and the Gaudi-restored Royal Chapel. Lunch at Marc Fosh (Michelin-starred) or Bar España for market tapas, then shop in the Born boutiques before returning by water." },
-      { "day": 4, "title": "Boat Excursion along the Coast", "description": "Charter Cap Rocat's hotel boat for a private coastal excursion to the caves and sea arches of the Palma Bay coastline. Swim in remote coves only accessible by water, snorkel over posidonia reefs, and have a picnic lunch prepared by the hotel kitchen served on the boat deck. The limestone cliffs of Mallorca's southern coast are spectacular from the water." },
-      { "day": 5, "title": "Spa & Fortress Exploration", "description": "The Cap Rocat spa, built into the fortress's lower chambers, uses the stone walls' natural temperature-regulating properties for unique thermal treatments. Today is for deep rest — morning spa with couples treatment, afternoon on the cove beach, and a long sunset at the battlements before dinner at Restaurante Cap Rocat where the kitchen's Mediterranean tasting menu is outstanding." },
-      { "day": 6, "title": "Tramuntana Mountains", "description": "While the south coast around Cap Rocat is gentle and cultivated, the dramatic Tramuntana mountains are an hour's drive north. A guided day trip through the Serra de Tramuntana takes you through olive groves, the artists' village of Deià, and along the famous cliff-edge road with views over the sea. Return for cocktails at the fortress battlements as the sun sets over Palma." },
-      { "day": 7, "title": "Final Morning on the Water", "description": "One last morning swim in the private cove at dawn when the water is perfectly calm and the light is extraordinary. A slow breakfast served in your suite before a painlessly smooth checkout and transfer to Palma Airport — Cap Rocat is a 15-minute drive from the terminal, making it perhaps the world's most convenient luxury hotel for flight connections." }
+      {
+        "day": 1,
+        "title": "Arrival at the Fortress",
+        "description": "Transfer from Palma Airport (just 15 minutes) to Cap Rocat's private gated entrance. The drive through the fortress gate and down to the cliff-edge hotel is one of the great hotel arrival experiences in Europe. Order sunset cocktails at the battlements bar, where the view over Palma Bay takes in the Cathedral, Bellver Castle, and the entire sweep of the bay."
+      },
+      {
+        "day": 2,
+        "title": "Private Cove & Saltwater Pool",
+        "description": "Cap Rocat's private cove is accessible by a stone stairway cut directly into the cliff. The water clarity in the protected bay is extraordinary — snorkel directly from the cove over Posidonia seagrass meadows to spot sea stars, octopus, and sea bass. The saltwater infinity pool above the cove is perfectly positioned for morning swimming with Palma Cathedral in the distant view."
+      },
+      {
+        "day": 3,
+        "title": "Palma de Mallorca",
+        "description": "Palma is just 15 minutes from Cap Rocat by hotel boat (or 15 minutes by car). Arrive by sea for the ultimate Palma entrance, dock at the marina, and explore the Cathedral La Seu's magnificent interior and the Gaudi-restored Royal Chapel. Lunch at Marc Fosh (Michelin-starred) or Bar España for market tapas, then shop in the Born boutiques before returning by water."
+      },
+      {
+        "day": 4,
+        "title": "Boat Excursion along the Coast",
+        "description": "Charter Cap Rocat's hotel boat for a private coastal excursion to the caves and sea arches of the Palma Bay coastline. Swim in remote coves only accessible by water, snorkel over posidonia reefs, and have a picnic lunch prepared by the hotel kitchen served on the boat deck. The limestone cliffs of Mallorca's southern coast are spectacular from the water."
+      },
+      {
+        "day": 5,
+        "title": "Spa & Fortress Exploration",
+        "description": "The Cap Rocat spa, built into the fortress's lower chambers, uses the stone walls' natural temperature-regulating properties for unique thermal treatments. Today is for deep rest — morning spa with couples treatment, afternoon on the cove beach, and a long sunset at the battlements before dinner at Restaurante Cap Rocat where the kitchen's Mediterranean tasting menu is outstanding."
+      },
+      {
+        "day": 6,
+        "title": "Tramuntana Mountains",
+        "description": "While the south coast around Cap Rocat is gentle and cultivated, the dramatic Tramuntana mountains are an hour's drive north. A guided day trip through the Serra de Tramuntana takes you through olive groves, the artists' village of Deià, and along the famous cliff-edge road with views over the sea. Return for cocktails at the fortress battlements as the sun sets over Palma."
+      },
+      {
+        "day": 7,
+        "title": "Final Morning on the Water",
+        "description": "One last morning swim in the private cove at dawn when the water is perfectly calm and the light is extraordinary. A slow breakfast served in your suite before a painlessly smooth checkout and transfer to Palma Airport — Cap Rocat is a 15-minute drive from the terminal, making it perhaps the world's most convenient luxury hotel for flight connections."
+      }
     ],
     "caveats": [
       "Cap Rocat is in a military fortress on a rocky cliff — there is no sandy beach within the property, only a private cove with a rocky and pebble entry. Guests wanting expansive sandy beaches should plan day trips to Palma's beaches or the Es Trenc nature reserve.",
@@ -38,12 +111,30 @@
       "Cap Rocat has only 24 suites, making it extremely intimate but also meaning peak season availability is very limited."
     ],
     "faqs": [
-      { "question": "Is Cap Rocat good for honeymooners?", "answer": "It is one of the finest honeymoon hotels in Europe. TripAdvisor consistently rates it among the world's top romantic hotels, and the combination of fortress architecture, private cove, saltwater clifftop pool, and exceptional service creates an experience unlike anywhere else in the Mediterranean. The Sky Loft and Cap Suite are among Europe's most memorable honeymoon rooms." },
-      { "question": "What is the best time to visit?", "answer": "May through October for pool and cove swimming. June and September are ideal — warm water, long evenings, and slightly fewer crowds than July–August. April and November are excellent for the dramatic atmosphere without summer prices. The hotel has a winter closure period; check dates when booking." },
-      { "question": "How far in advance should you book?", "answer": "Book 4–6 months ahead for summer. Cap Rocat has only 24 suites and is among the most sought-after hotels in Mallorca — the Cap Suite and Sky Loft in particular need very early reservation." },
-      { "question": "Is Cap Rocat adults-only?", "answer": "No, Cap Rocat welcomes all guests. However, the fortress setting, stone architecture, and clifftop location mean it is naturally adult-oriented. Children are welcome but the property is not designed with family facilities." },
-      { "question": "What is the best room type?", "answer": "The Sky Loft for the most panoramic Palma Bay views — a split-level suite on the fortress's highest point. The Cap Suite for the most dramatic interior — vaulted stone ceilings and a terrace over the sea. Both are exceptional; the Sky Loft has slightly better views, the Cap Suite more theatrical architecture." },
-      { "question": "How do you get to Cap Rocat?", "answer": "Fly into Palma de Mallorca (PMI) — just 15 minutes from Cap Rocat. This makes it one of Europe's most convenient luxury destinations after a long-haul flight. The hotel arranges private transfers from the airport and can also arrange arrival by hotel boat from Palma marina." }
+      {
+        "question": "Is Cap Rocat good for honeymooners?",
+        "answer": "It is one of the finest honeymoon hotels in Europe. TripAdvisor consistently rates it among the world's top romantic hotels, and the combination of fortress architecture, private cove, saltwater clifftop pool, and exceptional service creates an experience unlike anywhere else in the Mediterranean. The Sky Loft and Cap Suite are among Europe's most memorable honeymoon rooms."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "May through October for pool and cove swimming. June and September are ideal — warm water, long evenings, and slightly fewer crowds than July–August. April and November are excellent for the dramatic atmosphere without summer prices. The hotel has a winter closure period; check dates when booking."
+      },
+      {
+        "question": "How far in advance should you book?",
+        "answer": "Book 4–6 months ahead for summer. Cap Rocat has only 24 suites and is among the most sought-after hotels in Mallorca — the Cap Suite and Sky Loft in particular need very early reservation."
+      },
+      {
+        "question": "Is Cap Rocat adults-only?",
+        "answer": "No, Cap Rocat welcomes all guests. However, the fortress setting, stone architecture, and clifftop location mean it is naturally adult-oriented. Children are welcome but the property is not designed with family facilities."
+      },
+      {
+        "question": "What is the best room type?",
+        "answer": "The Sky Loft for the most panoramic Palma Bay views — a split-level suite on the fortress's highest point. The Cap Suite for the most dramatic interior — vaulted stone ceilings and a terrace over the sea. Both are exceptional; the Sky Loft has slightly better views, the Cap Suite more theatrical architecture."
+      },
+      {
+        "question": "How do you get to Cap Rocat?",
+        "answer": "Fly into Palma de Mallorca (PMI) — just 15 minutes from Cap Rocat. This makes it one of Europe's most convenient luxury destinations after a long-haul flight. The hotel arranges private transfers from the airport and can also arrange arrival by hotel boat from Palma marina."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — Cap Rocat\n\nDear Cap Rocat team,\n\nWe are planning our honeymoon [DATE]-[DATE] and very interested in the Sky Loft or Cap Suite. Please advise on availability, honeymoon packages, and whether arrival by boat from Palma marina can be arranged for our check-in.\n\nThank you,\n[Your names]"
   },

@@ -3,19 +3,64 @@
   "name": "The Oyster Box",
   "destination": "south-africa",
   "country": "south-africa",
-  "experience_types": ["beach", "luxury"],
+  "experience_types": [
+    "beach",
+    "luxury"
+  ],
   "honeymoon_score": 86,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 15, "spa": 15, "award": 10, "pool": 10, "beach": 10, "room_service": 10, "stars": 10, "luxury": 6 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 15,
+    "spa": 15,
+    "award": 10,
+    "pool": 10,
+    "beach": 10,
+    "room_service": 10,
+    "stars": 10,
+    "luxury": 6
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 400, "max": 1200 },
+  "price_per_night_usd": {
+    "min": 400,
+    "max": 1200
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "beach", "room service", "butler service", "fine dining", "ocean pool", "tiffin service"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beach",
+    "room service",
+    "butler service",
+    "fine dining",
+    "ocean pool",
+    "tiffin service"
+  ],
   "photos": [
-    { "url": "/images/hotels/oyster-box-durban-south-africa/hero.webp", "alt": "oyster-box-durban-south-africa — hero", "type": "hero" },
-    { "url": "/images/hotels/oyster-box-durban-south-africa/room.webp", "alt": "oyster-box-durban-south-africa — room", "type": "room" },
-    { "url": "/images/hotels/oyster-box-durban-south-africa/pool.webp", "alt": "oyster-box-durban-south-africa — pool", "type": "pool" },
-    { "url": "/images/hotels/oyster-box-durban-south-africa/spa.webp", "alt": "oyster-box-durban-south-africa — spa", "type": "spa" },
-    { "url": "/images/hotels/oyster-box-durban-south-africa/dining.webp", "alt": "oyster-box-durban-south-africa — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/oyster-box-durban-south-africa/hero.webp",
+      "alt": "oyster-box-durban-south-africa — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/oyster-box-durban-south-africa/room.webp",
+      "alt": "oyster-box-durban-south-africa — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/oyster-box-durban-south-africa/pool.webp",
+      "alt": "oyster-box-durban-south-africa — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/oyster-box-durban-south-africa/spa.webp",
+      "alt": "oyster-box-durban-south-africa — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/oyster-box-durban-south-africa/dining.webp",
+      "alt": "oyster-box-durban-south-africa — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.1,
   "tripadvisor_award": true,
@@ -24,13 +69,41 @@
     "verdict": "The Oyster Box is one of South Africa's most beloved grand hotels — an iconic colonial-era property at Umhlanga Rocks on the warm Indian Ocean, crowned by a working red-and-white lighthouse. The famously warm KwaZulu-Natal sea, the hotel's legendary curry tiffin service, and five-star facilities at a price point well below equivalent Cape Town hotels make it exceptional value for honeymooners. The atmosphere is graciously old-world South African with genuine heart.",
     "best_room": "The Lighthouse Suites offer the most spectacular position — directly facing the lighthouse and Indian Ocean, with vast terraces and private sitting rooms decorated in a sophisticated nautical palette. The Ocean-Facing Junior Suites are the best value option, offering full ocean views at a fraction of the lighthouse suite price. All rooms benefit from the warm, personable service that has made the Oyster Box a beloved South African institution for decades.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Indian Ocean Welcome", "description": "Fly into King Shaka International Airport and transfer 20 minutes to Umhlanga Rocks. The lighthouse is illuminated at dusk as you settle into your room, waves crashing below the terrace. The Oyster Box's celebrated curry tiffin dinner — a Durban Indian Ocean tradition of biryani, rotis, and spiced chutneys — is the perfect first evening meal." },
-      { "day": 2, "title": "Ocean Swimming & Spa", "description": "The warm Indian Ocean at Umhlanga is swimmable year-round, with gentler surf than the Atlantic Cape. Spend the morning between the beach and the hotel's large seawater pool, then afternoon at the spa with an Indian-influenced Ayurvedic treatment for two. Sundowner cocktails on the lighthouse terrace as the sun dips behind the cane fields." },
-      { "day": 3, "title": "Durban City & Victoria Street Market", "description": "Durban is Africa's most Indian city — an extraordinary cultural mix. Explore the Victorian-era City Hall, the uShaka Marine World for ocean life, and the vibrant Victoria Street Market's spice stalls and saree shops. Return for the hotel's famous buffet lunch of Cape Malay and Zulu dishes beside the pool." },
-      { "day": 4, "title": "Valley of a Thousand Hills", "description": "Venture inland through the dramatic Valley of a Thousand Hills — rolling green ridges with traditional Zulu homesteads perched on crests. Visit a cultural centre to learn about Zulu beadwork and traditional music, returning via the Inanda heritage route, before a private candlelit dinner on your terrace overlooking the lighthouse." },
-      { "day": 5, "title": "Whale & Dolphin Coast", "description": "The Dolphin Coast north of Durban lives up to its name — spinner and bottlenose dolphins are regularly seen from charter vessels. A morning boat trip follows the warm Agulhas Current along a coast alive with humpback whale activity. Return for an afternoon of pure beach relaxation at the hotel's private beach access." },
-      { "day": 6, "title": "Umhlanga Village & Lagoon", "description": "Umhlanga is a charming, walkable resort town with good restaurants, boutiques, and a tidal lagoon at the end of the beach. Morning beach walk followed by brunch at a beachside café before a final spa treatment — choose from the hotel's extensive Africology and Indian-inspired menu." },
-      { "day": 7, "title": "Farewell Curry & Departure", "description": "One final morning beside the warm Indian Ocean, perhaps a sunrise walk along the Umhlanga promenade to the iconic pier. A farewell lunch featuring Durban's signature bunny chow (hollowed bread filled with curry) or the hotel's refined take on local flavours, before transfer to King Shaka airport." }
+      {
+        "day": 1,
+        "title": "Arrival & Indian Ocean Welcome",
+        "description": "Fly into King Shaka International Airport and transfer 20 minutes to Umhlanga Rocks. The lighthouse is illuminated at dusk as you settle into your room, waves crashing below the terrace. The Oyster Box's celebrated curry tiffin dinner — a Durban Indian Ocean tradition of biryani, rotis, and spiced chutneys — is the perfect first evening meal."
+      },
+      {
+        "day": 2,
+        "title": "Ocean Swimming & Spa",
+        "description": "The warm Indian Ocean at Umhlanga is swimmable year-round, with gentler surf than the Atlantic Cape. Spend the morning between the beach and the hotel's large seawater pool, then afternoon at the spa with an Indian-influenced Ayurvedic treatment for two. Sundowner cocktails on the lighthouse terrace as the sun dips behind the cane fields."
+      },
+      {
+        "day": 3,
+        "title": "Durban City & Victoria Street Market",
+        "description": "Durban is Africa's most Indian city — an extraordinary cultural mix. Explore the Victorian-era City Hall, the uShaka Marine World for ocean life, and the vibrant Victoria Street Market's spice stalls and saree shops. Return for the hotel's famous buffet lunch of Cape Malay and Zulu dishes beside the pool."
+      },
+      {
+        "day": 4,
+        "title": "Valley of a Thousand Hills",
+        "description": "Venture inland through the dramatic Valley of a Thousand Hills — rolling green ridges with traditional Zulu homesteads perched on crests. Visit a cultural centre to learn about Zulu beadwork and traditional music, returning via the Inanda heritage route, before a private candlelit dinner on your terrace overlooking the lighthouse."
+      },
+      {
+        "day": 5,
+        "title": "Whale & Dolphin Coast",
+        "description": "The Dolphin Coast north of Durban lives up to its name — spinner and bottlenose dolphins are regularly seen from charter vessels. A morning boat trip follows the warm Agulhas Current along a coast alive with humpback whale activity. Return for an afternoon of pure beach relaxation at the hotel's private beach access."
+      },
+      {
+        "day": 6,
+        "title": "Umhlanga Village & Lagoon",
+        "description": "Umhlanga is a charming, walkable resort town with good restaurants, boutiques, and a tidal lagoon at the end of the beach. Morning beach walk followed by brunch at a beachside café before a final spa treatment — choose from the hotel's extensive Africology and Indian-inspired menu."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Curry & Departure",
+        "description": "One final morning beside the warm Indian Ocean, perhaps a sunrise walk along the Umhlanga promenade to the iconic pier. A farewell lunch featuring Durban's signature bunny chow (hollowed bread filled with curry) or the hotel's refined take on local flavours, before transfer to King Shaka airport."
+      }
     ],
     "caveats": [
       "Durban's summer (November to March) is hot and humid; the Indian Ocean is warmest then but the city can feel oppressive. Winter (May-August) is dry and mild — often the best time to visit.",
@@ -38,12 +111,30 @@
       "Umhlanga is a popular local weekend destination; avoid South African public holiday weekends for maximum tranquillity."
     ],
     "faqs": [
-      { "question": "Good for honeymooners?", "answer": "The Oyster Box is a wonderfully romantic choice with a distinctive South African character unlike any other luxury hotel in the country. The warm ocean, iconic lighthouse, curry traditions, and gracious colonial atmosphere create a setting with genuine soul. It lacks the clinical perfection of some international chains, which is entirely part of its charm." },
-      { "question": "Best time to visit?", "answer": "June through September — KwaZulu-Natal's dry winter — offers warm sunny days (22-26°C), cool evenings, and calm seas. Humpback whale migration passes the coast July to November. Summer (December to March) is hot, humid, and busy with local holiday-makers. The shoulder months of May and October are excellent compromises." },
-      { "question": "Book in advance?", "answer": "Lighthouse and ocean-facing suites book out 3 to 6 months ahead, especially over South African school holidays. Standard ocean rooms are more available. Mention your honeymoon at booking for complimentary room decorations and a welcome amenity from the kitchen." },
-      { "question": "Adults-only?", "answer": "No — the Oyster Box is a family-friendly hotel and often bustles with multigenerational South African families, especially at weekends. The hotel's appeal is its warm, inclusive character, though ocean-facing suites on upper floors provide a quieter romantic retreat." },
-      { "question": "Best room type?", "answer": "The Lighthouse Suites are iconic — facing the working red lighthouse with large terraces and sitting rooms. For the best value with full ocean views, the Ocean-Facing Junior Suites are excellent. Request an upper floor for maximum privacy and views over the rooftops to the sea." },
-      { "question": "How to get there?", "answer": "King Shaka International Airport is 20 minutes from Umhlanga Rocks by private transfer. International flights connect through Johannesburg or Cape Town. The hotel arranges airport transfers. Durban is also 1.5 hours from the iSimangaliso Wetland Park and 3 hours from the Drakensberg — good add-ons for an extended honeymoon." }
+      {
+        "question": "Good for honeymooners?",
+        "answer": "The Oyster Box is a wonderfully romantic choice with a distinctive South African character unlike any other luxury hotel in the country. The warm ocean, iconic lighthouse, curry traditions, and gracious colonial atmosphere create a setting with genuine soul. It lacks the clinical perfection of some international chains, which is entirely part of its charm."
+      },
+      {
+        "question": "Best time to visit?",
+        "answer": "June through September — KwaZulu-Natal's dry winter — offers warm sunny days (22-26°C), cool evenings, and calm seas. Humpback whale migration passes the coast July to November. Summer (December to March) is hot, humid, and busy with local holiday-makers. The shoulder months of May and October are excellent compromises."
+      },
+      {
+        "question": "Book in advance?",
+        "answer": "Lighthouse and ocean-facing suites book out 3 to 6 months ahead, especially over South African school holidays. Standard ocean rooms are more available. Mention your honeymoon at booking for complimentary room decorations and a welcome amenity from the kitchen."
+      },
+      {
+        "question": "Adults-only?",
+        "answer": "No — the Oyster Box is a family-friendly hotel and often bustles with multigenerational South African families, especially at weekends. The hotel's appeal is its warm, inclusive character, though ocean-facing suites on upper floors provide a quieter romantic retreat."
+      },
+      {
+        "question": "Best room type?",
+        "answer": "The Lighthouse Suites are iconic — facing the working red lighthouse with large terraces and sitting rooms. For the best value with full ocean views, the Ocean-Facing Junior Suites are excellent. Request an upper floor for maximum privacy and views over the rooftops to the sea."
+      },
+      {
+        "question": "How to get there?",
+        "answer": "King Shaka International Airport is 20 minutes from Umhlanga Rocks by private transfer. International flights connect through Johannesburg or Cape Town. The hotel arranges airport transfers. Durban is also 1.5 hours from the iSimangaliso Wetland Park and 3 hours from the Drakensberg — good add-ons for an extended honeymoon."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — The Oyster Box Durban\n\nDear Oyster Box reservations team,\n\nWe are planning our honeymoon [DATE]-[DATE] and are interested in [Lighthouse Suite / Ocean Junior Suite]. Please advise on availability, honeymoon packages, private dining options, and any complimentary inclusions for honeymooners.\n\nThank you,\n[Your names]"
   },

@@ -3,7 +3,11 @@
   "name": "Il San Pietro di Positano",
   "destination": "amalfi",
   "country": "italy",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 94,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,48 @@
     "luxury": 9
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 900, "max": 2800 },
+  "price_per_night_usd": {
+    "min": 900,
+    "max": 2800
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "beach", "room service", "butler service", "private elevator to beach", "tennis court", "water sports", "concierge"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beach",
+    "room service",
+    "butler service",
+    "private elevator to beach",
+    "tennis court",
+    "water sports",
+    "concierge"
+  ],
   "photos": [
-    { "url": "/images/hotels/il-san-pietro-positano-amalfi/hero.webp", "alt": "il-san-pietro-positano-amalfi — hero", "type": "hero" },
-    { "url": "/images/hotels/il-san-pietro-positano-amalfi/room.webp", "alt": "il-san-pietro-positano-amalfi — room", "type": "room" },
-    { "url": "/images/hotels/il-san-pietro-positano-amalfi/pool.webp", "alt": "il-san-pietro-positano-amalfi — pool", "type": "pool" },
-    { "url": "/images/hotels/il-san-pietro-positano-amalfi/spa.webp", "alt": "il-san-pietro-positano-amalfi — spa", "type": "spa" },
-    { "url": "/images/hotels/il-san-pietro-positano-amalfi/dining.webp", "alt": "il-san-pietro-positano-amalfi — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/il-san-pietro-positano-amalfi/hero.webp",
+      "alt": "il-san-pietro-positano-amalfi — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/il-san-pietro-positano-amalfi/room.webp",
+      "alt": "il-san-pietro-positano-amalfi — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/il-san-pietro-positano-amalfi/pool.webp",
+      "alt": "il-san-pietro-positano-amalfi — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/il-san-pietro-positano-amalfi/spa.webp",
+      "alt": "il-san-pietro-positano-amalfi — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/il-san-pietro-positano-amalfi/dining.webp",
+      "alt": "il-san-pietro-positano-amalfi — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.6,
   "tripadvisor_award": true,
@@ -34,13 +71,41 @@
     "verdict": "Il San Pietro di Positano is arguably the most romantic hotel on the entire Amalfi Coast — a cliffside masterpiece carved directly into the rock face 60 meters above the sea. Every room is uniquely decorated with handmade Vietri ceramics and opens onto a private terrace with unobstructed views of the Mediterranean. The private elevator that descends through the cliff to the beach restaurant and sea platform is an experience that feels genuinely magical, and the legendary terrace dining under the stars cements this as the gold standard for honeymoons in Positano.",
     "best_room": "Book a Junior Suite with Sea View for the quintessential experience — these suites feature sprawling terraces large enough for outdoor breakfasts and evening cocktails, draped in bougainvillea with the blue sea stretching to the horizon. The Superior Rooms are beautiful but the terrace size is the real differentiator here. If budget allows, the Grand Suite offers a separate living room and the most dramatic panoramic terrace of any room on the property.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & First Impressions", "description": "Arrive by private boat transfer from Naples for the most spectacular first impression — the Amalfi Coast appearing around each headland as you approach Positano. Check in and let the staff bring Champagne to your terrace as you watch the sun sink into the Tyrrhenian Sea. Dinner at the hotel's famous terrace restaurant is non-negotiable on your first night." },
-      { "day": 2, "title": "The Private Beach & Sea Platform", "description": "Take the private cliff elevator down to the hotel's sea-level restaurant and sun platform. Spend the morning swimming in the brilliantly clear water, then enjoy a long lunch of freshly caught fish and local wine right at the water's edge. In the afternoon, book a couples' massage at the cliff-side spa before returning up to your terrace for sunset cocktails." },
-      { "day": 3, "title": "Positano by Foot & Boat", "description": "Walk down into the village of Positano in the morning — it takes about 15 minutes on foot — and explore the boutiques, ceramics shops, and the Church of Santa Maria Assunta with its majolica-tiled dome. In the afternoon, hire a private boat for a coastal cruise to the Li Galli islands, rumored to be the home of the mythological Sirens, with stops for swimming in hidden coves." },
-      { "day": 4, "title": "Day Trip to Ravello", "description": "Take the hotel's car service up the winding road to Ravello, the most elevated and romantic town on the Amalfi Coast. Visit the Villa Cimbrone gardens where the 'Terrace of Infinity' offers one of the most breathtaking views in all of Italy. Lunch at one of Ravello's hilltop restaurants before returning to the hotel in time for a sunset aperitivo on your terrace." },
-      { "day": 5, "title": "Wellness & Indulgence", "description": "Dedicate today entirely to the hotel's wellness experience. Begin with a couples' treatment in the grotto-like spa, then spend the afternoon alternating between the clifftop pool and your private terrace. Order breakfast in bed, read, and simply be present together in one of the most beautiful settings on earth. This is the day you realize why people come back to Il San Pietro year after year." },
-      { "day": 6, "title": "Amalfi Town & Scenic Drive", "description": "Drive the legendary SS163 Amalfitana to the town of Amalfi itself, where the dramatic 9th-century cathedral rises above the main piazza. Explore the Paper Museum, pick up local limoncello and ceramics, and have lunch on the harbor. On the return drive, stop at Praiano for a quieter stretch of coastline and a cocktail at one of its clifftop bars with views over the sea." },
-      { "day": 7, "title": "Farewell Morning", "description": "Rise early for one final breakfast on your terrace as the morning light turns the cliffs gold. Take a last swim at the beach platform, then linger over coffee before your transfer. The staff will wrap a bottle of local limoncello for you to take home — a ritual that ensures, they say, you will return." }
+      {
+        "day": 1,
+        "title": "Arrival & First Impressions",
+        "description": "Arrive by private boat transfer from Naples for the most spectacular first impression — the Amalfi Coast appearing around each headland as you approach Positano. Check in and let the staff bring Champagne to your terrace as you watch the sun sink into the Tyrrhenian Sea. Dinner at the hotel's famous terrace restaurant is non-negotiable on your first night."
+      },
+      {
+        "day": 2,
+        "title": "The Private Beach & Sea Platform",
+        "description": "Take the private cliff elevator down to the hotel's sea-level restaurant and sun platform. Spend the morning swimming in the brilliantly clear water, then enjoy a long lunch of freshly caught fish and local wine right at the water's edge. In the afternoon, book a couples' massage at the cliff-side spa before returning up to your terrace for sunset cocktails."
+      },
+      {
+        "day": 3,
+        "title": "Positano by Foot & Boat",
+        "description": "Walk down into the village of Positano in the morning — it takes about 15 minutes on foot — and explore the boutiques, ceramics shops, and the Church of Santa Maria Assunta with its majolica-tiled dome. In the afternoon, hire a private boat for a coastal cruise to the Li Galli islands, rumored to be the home of the mythological Sirens, with stops for swimming in hidden coves."
+      },
+      {
+        "day": 4,
+        "title": "Day Trip to Ravello",
+        "description": "Take the hotel's car service up the winding road to Ravello, the most elevated and romantic town on the Amalfi Coast. Visit the Villa Cimbrone gardens where the 'Terrace of Infinity' offers one of the most breathtaking views in all of Italy. Lunch at one of Ravello's hilltop restaurants before returning to the hotel in time for a sunset aperitivo on your terrace."
+      },
+      {
+        "day": 5,
+        "title": "Wellness & Indulgence",
+        "description": "Dedicate today entirely to the hotel's wellness experience. Begin with a couples' treatment in the grotto-like spa, then spend the afternoon alternating between the clifftop pool and your private terrace. Order breakfast in bed, read, and simply be present together in one of the most beautiful settings on earth. This is the day you realize why people come back to Il San Pietro year after year."
+      },
+      {
+        "day": 6,
+        "title": "Amalfi Town & Scenic Drive",
+        "description": "Drive the legendary SS163 Amalfitana to the town of Amalfi itself, where the dramatic 9th-century cathedral rises above the main piazza. Explore the Paper Museum, pick up local limoncello and ceramics, and have lunch on the harbor. On the return drive, stop at Praiano for a quieter stretch of coastline and a cocktail at one of its clifftop bars with views over the sea."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "Rise early for one final breakfast on your terrace as the morning light turns the cliffs gold. Take a last swim at the beach platform, then linger over coffee before your transfer. The staff will wrap a bottle of local limoncello for you to take home — a ritual that ensures, they say, you will return."
+      }
     ],
     "caveats": [
       "The hotel is built into a steep cliff, meaning there are many steps throughout the property — guests with mobility issues should request specific room locations near the elevator.",

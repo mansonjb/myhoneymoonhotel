@@ -3,19 +3,64 @@
   "name": "Florblanca Resort",
   "destination": "costa-rica",
   "country": "costa-rica",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 87,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 18, "spa": 15, "award": 5, "pool": 10, "beach": 15, "room_service": 5, "stars": 10, "luxury": 9 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 18,
+    "spa": 15,
+    "award": 5,
+    "pool": 10,
+    "beach": 15,
+    "room_service": 5,
+    "stars": 10,
+    "luxury": 9
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 400, "max": 1200 },
+  "price_per_night_usd": {
+    "min": 400,
+    "max": 1200
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "beach", "room service", "yoga", "surf", "Ayurveda"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beach",
+    "room service",
+    "yoga",
+    "surf",
+    "Ayurveda"
+  ],
   "photos": [
-    { "url": "/images/hotels/florblanca-resort-costa-rica/hero.webp", "alt": "florblanca-resort-costa-rica — hero", "type": "hero" },
-    { "url": "/images/hotels/florblanca-resort-costa-rica/room.webp", "alt": "florblanca-resort-costa-rica — room", "type": "room" },
-    { "url": "/images/hotels/florblanca-resort-costa-rica/pool.webp", "alt": "florblanca-resort-costa-rica — pool", "type": "pool" },
-    { "url": "/images/hotels/florblanca-resort-costa-rica/spa.webp", "alt": "florblanca-resort-costa-rica — spa", "type": "spa" },
-    { "url": "/images/hotels/florblanca-resort-costa-rica/dining.webp", "alt": "florblanca-resort-costa-rica — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/florblanca-resort-costa-rica/hero.webp",
+      "alt": "florblanca-resort-costa-rica — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/florblanca-resort-costa-rica/room.webp",
+      "alt": "florblanca-resort-costa-rica — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/florblanca-resort-costa-rica/pool.webp",
+      "alt": "florblanca-resort-costa-rica — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/florblanca-resort-costa-rica/spa.webp",
+      "alt": "florblanca-resort-costa-rica — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/florblanca-resort-costa-rica/dining.webp",
+      "alt": "florblanca-resort-costa-rica — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.2,
   "tripadvisor_award": true,
@@ -24,13 +69,41 @@
     "verdict": "Florblanca Resort on Santa Teresa's Pacific coast is the quintessential bohemian luxury honeymoon — a boutique yoga and wellness retreat set on one of Central America's most beautiful and unspoiled beaches. Ten open-plan villas in tropical gardens, an Ayurvedic spa, world-class surf just steps from your door, and the kind of effortless, sun-kissed lifestyle that makes you question why you ever needed an office. This is Costa Rica's most soulful beach honeymoon.",
     "best_room": "The Villa Grande is Florblanca's most spacious accommodation — an enormous open-plan villa with indoor and outdoor living areas, a private plunge pool, and a garden that blurs into the surrounding jungle. The bedroom's four-poster bed faces west toward ocean breezes through open wooden shutters. For couples who want maximum space and privacy, the Villa Grande is exceptional value at this level of design.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival in Santa Teresa", "description": "Arrive via domestic flight to Tambor or Liberia, or a combination of bus and ferry from San José. Santa Teresa's rough-and-ready entry — dirt roads and jungle tracks — only amplifies the contrast with Florblanca's refined beauty. Settle into your villa, pour a glass of something cold, and watch the long Pacific waves roll in at sunset." },
-      { "day": 2, "title": "Morning Yoga & Surf Lessons", "description": "Florblanca's yoga pavilion overlooks the ocean — a morning practice here, with the sound of waves and hummingbirds, is something you will remember forever. After yoga and a fruit breakfast, take a surf lesson on Santa Teresa's long, peeling waves — it is one of the most learner-friendly beaches in Costa Rica for beginners." },
-      { "day": 3, "title": "Ayurveda Spa Day", "description": "Book a full-day Ayurvedic spa experience — Florblanca's therapists are trained in traditional Kerala methods including Abhyanga (warm oil full-body massage), Shirodhara (forehead oil flow), and herbal steam treatments. This is among the best Ayurveda you will find outside of India. Spend the afternoon in your private plunge pool." },
-      { "day": 4, "title": "Horseback Riding on the Beach", "description": "One of the iconic Santa Teresa experiences is a horseback ride along the beach at sunrise or sunset, when the long Pacific swell catches the golden light. The horses are gentle and the route follows wild coastline, through tidal pools and past sea turtle nesting areas. Return for dinner at Florblanca's restaurant, Nectar." },
-      { "day": 5, "title": "Cabo Blanco Nature Reserve", "description": "Costa Rica's oldest national park, Cabo Blanco, is at the southern tip of the Nicoya Peninsula just 11 km from Florblanca. A guided hike through primary forest to a deserted beach with howler monkeys and white-faced capuchins overhead is one of the best half-day excursions in the area." },
-      { "day": 6, "title": "Sunset Sailing & Bioluminescence", "description": "Charter a sunset sailing trip from the nearby Mal País beach with local operators — the waters off Santa Teresa are exceptionally clear for snorkeling. Some evenings offer bioluminescent plankton in the bay, creating a magical glow in the water. Return for a final romantic dinner at Nectar with fresh ceviche and tropical cocktails." },
-      { "day": 7, "title": "Final Morning on the Beach", "description": "One last sunrise yoga session, one last swim in the warm Pacific surf, and a slow breakfast before reluctantly packing your bags. Santa Teresa has a way of getting under your skin; most couples leave already planning their return trip." }
+      {
+        "day": 1,
+        "title": "Arrival in Santa Teresa",
+        "description": "Arrive via domestic flight to Tambor or Liberia, or a combination of bus and ferry from San José. Santa Teresa's rough-and-ready entry — dirt roads and jungle tracks — only amplifies the contrast with Florblanca's refined beauty. Settle into your villa, pour a glass of something cold, and watch the long Pacific waves roll in at sunset."
+      },
+      {
+        "day": 2,
+        "title": "Morning Yoga & Surf Lessons",
+        "description": "Florblanca's yoga pavilion overlooks the ocean — a morning practice here, with the sound of waves and hummingbirds, is something you will remember forever. After yoga and a fruit breakfast, take a surf lesson on Santa Teresa's long, peeling waves — it is one of the most learner-friendly beaches in Costa Rica for beginners."
+      },
+      {
+        "day": 3,
+        "title": "Ayurveda Spa Day",
+        "description": "Book a full-day Ayurvedic spa experience — Florblanca's therapists are trained in traditional Kerala methods including Abhyanga (warm oil full-body massage), Shirodhara (forehead oil flow), and herbal steam treatments. This is among the best Ayurveda you will find outside of India. Spend the afternoon in your private plunge pool."
+      },
+      {
+        "day": 4,
+        "title": "Horseback Riding on the Beach",
+        "description": "One of the iconic Santa Teresa experiences is a horseback ride along the beach at sunrise or sunset, when the long Pacific swell catches the golden light. The horses are gentle and the route follows wild coastline, through tidal pools and past sea turtle nesting areas. Return for dinner at Florblanca's restaurant, Nectar."
+      },
+      {
+        "day": 5,
+        "title": "Cabo Blanco Nature Reserve",
+        "description": "Costa Rica's oldest national park, Cabo Blanco, is at the southern tip of the Nicoya Peninsula just 11 km from Florblanca. A guided hike through primary forest to a deserted beach with howler monkeys and white-faced capuchins overhead is one of the best half-day excursions in the area."
+      },
+      {
+        "day": 6,
+        "title": "Sunset Sailing & Bioluminescence",
+        "description": "Charter a sunset sailing trip from the nearby Mal País beach with local operators — the waters off Santa Teresa are exceptionally clear for snorkeling. Some evenings offer bioluminescent plankton in the bay, creating a magical glow in the water. Return for a final romantic dinner at Nectar with fresh ceviche and tropical cocktails."
+      },
+      {
+        "day": 7,
+        "title": "Final Morning on the Beach",
+        "description": "One last sunrise yoga session, one last swim in the warm Pacific surf, and a slow breakfast before reluctantly packing your bags. Santa Teresa has a way of getting under your skin; most couples leave already planning their return trip."
+      }
     ],
     "caveats": [
       "Getting to Santa Teresa requires either a domestic flight to Tambor plus a 1.5-hour drive, or a 5-6 hour journey from San José combining bus and ferry. The journey is part of the experience, but plan for it.",
@@ -38,12 +111,30 @@
       "The Pacific coast dry season (December–April) is the prime surf and sunshine window. The green season brings larger swells (better for experienced surfers) and more insects."
     ],
     "faqs": [
-      { "question": "Is Florblanca good for honeymooners?", "answer": "Yes, particularly for couples drawn to yoga, wellness, and surfing over conventional beach resort luxury. The boutique scale (10 villas), exceptional Ayurvedic spa, stunning beach, and bohemian luxury aesthetic create one of Costa Rica's most romantic and soulful honeymoon experiences." },
-      { "question": "What is the best time to visit Florblanca?", "answer": "December through April offers the driest weather and most consistent surf conditions. However, the green season (May–November) brings fewer tourists, lower rates, and beautifully lush surroundings. Serious surfers actually prefer May–November for larger, more powerful waves." },
-      { "question": "How far in advance should you book?", "answer": "Book 3–5 months in advance for the dry season, particularly December–January and Easter week. Florblanca has only 10 villas and the best accommodations (Villa Grande, Villa Piscina) sell out quickly for peak dates." },
-      { "question": "Is Florblanca adults-only?", "answer": "No, Florblanca is not adults-only. However, the wellness and surf focus and boutique scale (10 villas) create a naturally adult-oriented atmosphere. Children are welcome but the property is not designed as a family resort." },
-      { "question": "What is the best room type at Florblanca?", "answer": "The Villa Grande or Villa Piscina — both are large open-plan villas with private plunge pools, outdoor showers, and design that opens completely to the tropical garden and ocean breezes. The Villa Grande offers the most interior space; the Villa Piscina has the most private pool position." },
-      { "question": "How do you get to Florblanca Resort?", "answer": "The easiest route is a domestic flight from San José (SJO) to Tambor (TMU), then a 1.5-hour private transfer to Santa Teresa. Alternatively, a 5-6 hour journey by bus and passenger ferry from San José via Puntarenas is scenic but long. Most honeymooners take the domestic flight. The hotel arranges transfers." }
+      {
+        "question": "Is Florblanca good for honeymooners?",
+        "answer": "Yes, particularly for couples drawn to yoga, wellness, and surfing over conventional beach resort luxury. The boutique scale (10 villas), exceptional Ayurvedic spa, stunning beach, and bohemian luxury aesthetic create one of Costa Rica's most romantic and soulful honeymoon experiences."
+      },
+      {
+        "question": "What is the best time to visit Florblanca?",
+        "answer": "December through April offers the driest weather and most consistent surf conditions. However, the green season (May–November) brings fewer tourists, lower rates, and beautifully lush surroundings. Serious surfers actually prefer May–November for larger, more powerful waves."
+      },
+      {
+        "question": "How far in advance should you book?",
+        "answer": "Book 3–5 months in advance for the dry season, particularly December–January and Easter week. Florblanca has only 10 villas and the best accommodations (Villa Grande, Villa Piscina) sell out quickly for peak dates."
+      },
+      {
+        "question": "Is Florblanca adults-only?",
+        "answer": "No, Florblanca is not adults-only. However, the wellness and surf focus and boutique scale (10 villas) create a naturally adult-oriented atmosphere. Children are welcome but the property is not designed as a family resort."
+      },
+      {
+        "question": "What is the best room type at Florblanca?",
+        "answer": "The Villa Grande or Villa Piscina — both are large open-plan villas with private plunge pools, outdoor showers, and design that opens completely to the tropical garden and ocean breezes. The Villa Grande offers the most interior space; the Villa Piscina has the most private pool position."
+      },
+      {
+        "question": "How do you get to Florblanca Resort?",
+        "answer": "The easiest route is a domestic flight from San José (SJO) to Tambor (TMU), then a 1.5-hour private transfer to Santa Teresa. Alternatively, a 5-6 hour journey by bus and passenger ferry from San José via Puntarenas is scenic but long. Most honeymooners take the domestic flight. The hotel arranges transfers."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — Florblanca Resort\n\nDear Florblanca team,\n\nWe are planning our honeymoon [DATE]-[DATE] and are interested in a Villa Grande or Villa Piscina. Could you please advise on availability, any honeymoon packages, and whether Ayurvedic spa experiences can be pre-booked with our reservation?\n\nThank you,\n[Your names]"
   },

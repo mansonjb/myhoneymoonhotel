@@ -3,19 +3,64 @@
   "name": "Finca Cortesin Hotel Golf & Spa",
   "destination": "spain",
   "country": "spain",
-  "experience_types": ["luxury", "wellness", "beach"],
+  "experience_types": [
+    "luxury",
+    "wellness",
+    "beach"
+  ],
   "honeymoon_score": 92,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 20, "spa": 15, "award": 15, "pool": 10, "beach": 10, "room_service": 5, "stars": 10, "luxury": 7 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 20,
+    "spa": 15,
+    "award": 15,
+    "pool": 10,
+    "beach": 10,
+    "room_service": 5,
+    "stars": 10,
+    "luxury": 7
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 500, "max": 2000 },
+  "price_per_night_usd": {
+    "min": 500,
+    "max": 2000
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "beach", "room service", "golf", "tennis", "fine dining"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beach",
+    "room service",
+    "golf",
+    "tennis",
+    "fine dining"
+  ],
   "photos": [
-    { "url": "/images/hotels/finca-cortesin-casares-spain/hero.webp", "alt": "finca-cortesin-casares-spain — hero", "type": "hero" },
-    { "url": "/images/hotels/finca-cortesin-casares-spain/room.webp", "alt": "finca-cortesin-casares-spain — room", "type": "room" },
-    { "url": "/images/hotels/finca-cortesin-casares-spain/pool.webp", "alt": "finca-cortesin-casares-spain — pool", "type": "pool" },
-    { "url": "/images/hotels/finca-cortesin-casares-spain/spa.webp", "alt": "finca-cortesin-casares-spain — spa", "type": "spa" },
-    { "url": "/images/hotels/finca-cortesin-casares-spain/dining.webp", "alt": "finca-cortesin-casares-spain — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/finca-cortesin-casares-spain/hero.webp",
+      "alt": "finca-cortesin-casares-spain — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/finca-cortesin-casares-spain/room.webp",
+      "alt": "finca-cortesin-casares-spain — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/finca-cortesin-casares-spain/pool.webp",
+      "alt": "finca-cortesin-casares-spain — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/finca-cortesin-casares-spain/spa.webp",
+      "alt": "finca-cortesin-casares-spain — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/finca-cortesin-casares-spain/dining.webp",
+      "alt": "finca-cortesin-casares-spain — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.5,
   "tripadvisor_award": true,
@@ -24,13 +69,41 @@
     "verdict": "Finca Cortesin is the most luxurious hotel in southern Spain — an Andalusian estate of extraordinary scale and refinement, set among olive groves, orange trees, and manicured gardens above the Costa del Sol. The hotel's beach club, world-class spa, golf course that hosted the Volvo World Match Play Championship and the 2012 Solheim Cup, and rooms decorated with museum-quality Andalusian art make this the definitive Spanish honeymoon for couples who want unbridled luxury in a sophisticated cultural setting.",
     "best_room": "The Grand Suite is the pinnacle of Cortesin's accommodation — a palatial Andalusian suite with hand-painted ceilings, a private terrace overlooking the gardens and sea, a deep marble bath, and enough space to feel entirely private within the estate. The Junior Suites are an excellent entry point — still extraordinary in their level of Andalusian craftsmanship and detail, with private terraces overlooking olive groves.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival at the Estate", "description": "Transfer from Málaga Airport (45 minutes) or Marbella (20 minutes) to Finca Cortesin. The estate's entrance through an avenue of olive trees prepares you for what follows — a scale of Andalusian luxury that feels more private museum than hotel. Settle in, have cocktails by the main pool, and dine at Kabuki Raw for world-class Japanese cuisine." },
-      { "day": 2, "title": "Spa & Gardens", "description": "Finca Cortesin's Bodyna Spa is among the finest in Europe — an underground sanctuary with thermal circuit, hammam, flotation pool, and treatment rooms using Carita and local Andalusian botanical products. The estate gardens cover 215 hectares of manicured grounds with 5,000 olive trees, rose gardens, and fountains. Morning in the spa; afternoon exploring the gardens." },
-      { "day": 3, "title": "Beach Club Day", "description": "The Finca Cortesin beach club at Playa de Casares, 10 minutes from the hotel, is the best private beach club on the Costa del Sol — a wide, relatively quiet stretch of Mediterranean sand with impeccable service, private loungers, and excellent food. Spend the full day here with a champagne lunch of grilled seafood and Mediterranean salads." },
-      { "day": 4, "title": "Ronda Day Trip", "description": "The ancient whitewashed city of Ronda, 45 minutes from Finca Cortesin through the Serrania de Ronda mountains, is one of Andalusia's most dramatic and romantic places — a city perched on a 120-meter gorge with an 18th-century bridge. Explore the old town, visit the bullring (the oldest in Spain), and lunch at Tragatapas before returning for a sunset cocktail on the hotel terrace." },
-      { "day": 5, "title": "Golf or Horseback Riding", "description": "For golf-loving couples, Finca Cortesin's championship course (host of European Tour events and the Ryder Cup Solheim Cup) is one of the finest in Europe. For non-golfers, the nearby Andalusian countryside offers exceptional horseback riding through cork oak forests — the purebred Andalusian horse is one of Spain's most beautiful living traditions." },
-      { "day": 6, "title": "Marbella & Puerto Banús", "description": "A 20-minute drive delivers you to the legendary Golden Mile of Marbella and the glittering marina of Puerto Banús — the playground of Spanish and international wealth. Lunch at a seafront chiringuito for fresh espetos (sardines grilled on a beach fire), explore Puerto Banús's boutiques in the afternoon, and return for a final romantic dinner at Finca Cortesin's El Mosaico restaurant." },
-      { "day": 7, "title": "Final Morning on the Estate", "description": "Spend your last morning with a long breakfast on your terrace overlooking the olive groves, a final dip in the main pool, and perhaps one last visit to the spa hammam. The staff at Cortesin have a gift for making departures feel like a warm farewell rather than a checkout." }
+      {
+        "day": 1,
+        "title": "Arrival at the Estate",
+        "description": "Transfer from Málaga Airport (45 minutes) or Marbella (20 minutes) to Finca Cortesin. The estate's entrance through an avenue of olive trees prepares you for what follows — a scale of Andalusian luxury that feels more private museum than hotel. Settle in, have cocktails by the main pool, and dine at Kabuki Raw for world-class Japanese cuisine."
+      },
+      {
+        "day": 2,
+        "title": "Spa & Gardens",
+        "description": "Finca Cortesin's Bodyna Spa is among the finest in Europe — an underground sanctuary with thermal circuit, hammam, flotation pool, and treatment rooms using Carita and local Andalusian botanical products. The estate gardens cover 215 hectares of manicured grounds with 5,000 olive trees, rose gardens, and fountains. Morning in the spa; afternoon exploring the gardens."
+      },
+      {
+        "day": 3,
+        "title": "Beach Club Day",
+        "description": "The Finca Cortesin beach club at Playa de Casares, 10 minutes from the hotel, is the best private beach club on the Costa del Sol — a wide, relatively quiet stretch of Mediterranean sand with impeccable service, private loungers, and excellent food. Spend the full day here with a champagne lunch of grilled seafood and Mediterranean salads."
+      },
+      {
+        "day": 4,
+        "title": "Ronda Day Trip",
+        "description": "The ancient whitewashed city of Ronda, 45 minutes from Finca Cortesin through the Serrania de Ronda mountains, is one of Andalusia's most dramatic and romantic places — a city perched on a 120-meter gorge with an 18th-century bridge. Explore the old town, visit the bullring (the oldest in Spain), and lunch at Tragatapas before returning for a sunset cocktail on the hotel terrace."
+      },
+      {
+        "day": 5,
+        "title": "Golf or Horseback Riding",
+        "description": "For golf-loving couples, Finca Cortesin's championship course (host of European Tour events and the Ryder Cup Solheim Cup) is one of the finest in Europe. For non-golfers, the nearby Andalusian countryside offers exceptional horseback riding through cork oak forests — the purebred Andalusian horse is one of Spain's most beautiful living traditions."
+      },
+      {
+        "day": 6,
+        "title": "Marbella & Puerto Banús",
+        "description": "A 20-minute drive delivers you to the legendary Golden Mile of Marbella and the glittering marina of Puerto Banús — the playground of Spanish and international wealth. Lunch at a seafront chiringuito for fresh espetos (sardines grilled on a beach fire), explore Puerto Banús's boutiques in the afternoon, and return for a final romantic dinner at Finca Cortesin's El Mosaico restaurant."
+      },
+      {
+        "day": 7,
+        "title": "Final Morning on the Estate",
+        "description": "Spend your last morning with a long breakfast on your terrace overlooking the olive groves, a final dip in the main pool, and perhaps one last visit to the spa hammam. The staff at Cortesin have a gift for making departures feel like a warm farewell rather than a checkout."
+      }
     ],
     "caveats": [
       "Finca Cortesin is one of Spain's most expensive hotels — budget carefully and compare the included amenities (beach club transfers, spa circuit access) versus à la carte pricing at similar properties.",
@@ -38,12 +111,30 @@
       "The Costa del Sol high season (July–August) brings intense heat (35°C+), crowds on the coast, and peak pricing. May–June and September–October offer ideal temperatures with lower rates."
     ],
     "faqs": [
-      { "question": "Is Finca Cortesin good for honeymooners?", "answer": "It is the finest honeymoon hotel in southern Spain. The combination of Andalusian estate atmosphere, world-class spa, private beach club, multiple Michelin-level restaurants, and extraordinary accommodation quality makes it a genuinely exceptional honeymoon. It consistently ranks among Europe's top luxury hotels." },
-      { "question": "What is the best time to visit?", "answer": "May, June, September, and October offer the best weather — warm enough for beach club days (22–28°C) without the extreme July-August heat and summer crowds. December through February can be mild (15–18°C) and is excellent for golf and sightseeing but less reliable for beach days." },
-      { "question": "How far in advance should you book?", "answer": "Book 4–6 months ahead for peak season (June–September) and 2–3 months for shoulder season. Finca Cortesin has 67 suites and is in high demand year-round from both European and international guests." },
-      { "question": "Is Finca Cortesin adults-only?", "answer": "No, families are welcome. However, the formal estate atmosphere and high-end focus mean it naturally attracts more couples and adults than families with young children. The atmosphere is consistently refined and quiet." },
-      { "question": "What is the best room type?", "answer": "The Grand Suite for maximum space and the finest Andalusian interiors in the hotel. The Deluxe Suite with garden and sea view terrace is an excellent mid-tier option. All rooms are genuinely exceptional — no bad choices, just varying scales of luxury." },
-      { "question": "How do you get to Finca Cortesin?", "answer": "Fly into Málaga (AGP) — well-connected from major European hubs and direct from New York/Miami. Private transfer from Málaga Airport takes 45 minutes. From Marbella, it is 20 minutes by taxi. The hotel arranges all transfers and a hotel car service is available during your stay." }
+      {
+        "question": "Is Finca Cortesin good for honeymooners?",
+        "answer": "It is the finest honeymoon hotel in southern Spain. The combination of Andalusian estate atmosphere, world-class spa, private beach club, multiple Michelin-level restaurants, and extraordinary accommodation quality makes it a genuinely exceptional honeymoon. It consistently ranks among Europe's top luxury hotels."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "May, June, September, and October offer the best weather — warm enough for beach club days (22–28°C) without the extreme July-August heat and summer crowds. December through February can be mild (15–18°C) and is excellent for golf and sightseeing but less reliable for beach days."
+      },
+      {
+        "question": "How far in advance should you book?",
+        "answer": "Book 4–6 months ahead for peak season (June–September) and 2–3 months for shoulder season. Finca Cortesin has 67 suites and is in high demand year-round from both European and international guests."
+      },
+      {
+        "question": "Is Finca Cortesin adults-only?",
+        "answer": "No, families are welcome. However, the formal estate atmosphere and high-end focus mean it naturally attracts more couples and adults than families with young children. The atmosphere is consistently refined and quiet."
+      },
+      {
+        "question": "What is the best room type?",
+        "answer": "The Grand Suite for maximum space and the finest Andalusian interiors in the hotel. The Deluxe Suite with garden and sea view terrace is an excellent mid-tier option. All rooms are genuinely exceptional — no bad choices, just varying scales of luxury."
+      },
+      {
+        "question": "How do you get to Finca Cortesin?",
+        "answer": "Fly into Málaga (AGP) — well-connected from major European hubs and direct from New York/Miami. Private transfer from Málaga Airport takes 45 minutes. From Marbella, it is 20 minutes by taxi. The hotel arranges all transfers and a hotel car service is available during your stay."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — Finca Cortesin\n\nDear Finca Cortesin team,\n\nWe are planning our honeymoon [DATE]-[DATE] and interested in a Grand Suite or Deluxe Suite with sea view terrace. Please advise on availability, any honeymoon packages, and whether beach club access and spa circuit are included in our rate.\n\nThank you,\n[Your names]"
   },

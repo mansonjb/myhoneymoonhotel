@@ -3,7 +3,11 @@
   "name": "Anantara Rasananda Koh Phangan Villas",
   "destination": "thailand",
   "country": "thailand",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 84,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,50 @@
     "luxury": 7
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 400, "max": 1200 },
+  "price_per_night_usd": {
+    "min": 400,
+    "max": 1200
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "beach", "room service", "butler service", "private pool villas", "snorkeling", "kayaking", "yoga", "cooking class", "two restaurants"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beach",
+    "room service",
+    "butler service",
+    "private pool villas",
+    "snorkeling",
+    "kayaking",
+    "yoga",
+    "cooking class",
+    "two restaurants"
+  ],
   "photos": [
-    { "url": "/images/hotels/anantara-rasananda-koh-phangan-thailand/hero.webp", "alt": "anantara-rasananda-koh-phangan-thailand — hero", "type": "hero" },
-    { "url": "/images/hotels/anantara-rasananda-koh-phangan-thailand/room.webp", "alt": "anantara-rasananda-koh-phangan-thailand — room", "type": "room" },
-    { "url": "/images/hotels/anantara-rasananda-koh-phangan-thailand/pool.webp", "alt": "anantara-rasananda-koh-phangan-thailand — pool", "type": "pool" },
-    { "url": "/images/hotels/anantara-rasananda-koh-phangan-thailand/spa.webp", "alt": "anantara-rasananda-koh-phangan-thailand — spa", "type": "spa" },
-    { "url": "/images/hotels/anantara-rasananda-koh-phangan-thailand/dining.webp", "alt": "anantara-rasananda-koh-phangan-thailand — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/anantara-rasananda-koh-phangan-thailand/hero.webp",
+      "alt": "anantara-rasananda-koh-phangan-thailand — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/anantara-rasananda-koh-phangan-thailand/room.webp",
+      "alt": "anantara-rasananda-koh-phangan-thailand — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/anantara-rasananda-koh-phangan-thailand/pool.webp",
+      "alt": "anantara-rasananda-koh-phangan-thailand — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/anantara-rasananda-koh-phangan-thailand/spa.webp",
+      "alt": "anantara-rasananda-koh-phangan-thailand — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/anantara-rasananda-koh-phangan-thailand/dining.webp",
+      "alt": "anantara-rasananda-koh-phangan-thailand — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.1,
   "tripadvisor_award": true,
@@ -34,13 +73,41 @@
     "verdict": "Anantara Rasananda sits on Koh Phangan's quiet northern tip at Nai Pan Noi — one of the most beautiful and least-developed beaches in the Gulf of Thailand, a world away from the Full Moon Party crowds in the island's south. The resort's private pool villas step down a lush hillside to a white sand beach of extraordinary beauty, and the Anantara Spa's reputation for exceptional Thai treatments attracts couples seeking genuine healing alongside romance. This is a strong-value luxury option for a complete honeymoon escape at a more accessible price point than the Phuket Andaman resorts.",
     "best_room": "Book a Beach Pool Villa for direct beach access and a private pool just steps from the Gulf of Thailand. The hillside Pool Villas are more private and offer elevated sea views, making them romantic in a different way — choose based on whether you prefer the immediacy of beach access or panoramic sunset vistas. All villas include a butler service and full open-air bathroom.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Nai Pan Noi Beach", "description": "Fly to Koh Samui Airport, take a speedboat to Koh Phangan's Ban Tai pier, and transfer to the resort by the hotel car through the jungle hills to the north. The moment you crest the last hill and see Nai Pan Noi Bay below — a perfect half-moon of white sand and turquoise water backed by jungle — the journey feels entirely worth it. Change and get on that beach immediately. The resort restaurant's fresh Thai seafood dinner as stars emerge over the Gulf completes the day." },
-      { "day": 2, "title": "Anantara Spa Journey", "description": "Book the two-hour Anantara Signature Journey for couples — an immersive treatment sequence that begins with a Thai herbal steam, moves through traditional Thai massage, and closes with a deeply relaxing warm poultice body therapy. The spa pavilions are open-air with jungle and ocean views. Afternoon is best spent exploring the resort's snorkeling directly from the beach — sea grass beds shelter sea turtles and reef fish." },
-      { "day": 3, "title": "Koh Phangan Island Tour", "description": "Rent a motorbike or hire the hotel driver for a full-day island tour: visit the dramatic Than Sadet waterfall (where Thai kings historically swam), explore the jungle interior on the ring road, and discover the deserted beaches of the island's east coast. Have lunch at a local Koh Phangan restaurant for authentic Southern Thai cuisine well below resort prices. Return for a sunset cocktail on the villa terrace." },
-      { "day": 4, "title": "Sail to Ang Thong Marine Park", "description": "Book a private longtail or speedboat charter for a full day at Ang Thong National Marine Park — an archipelago of 42 islands with emerald lagoons, coral reefs, and viewpoints over one of Thailand's most stunning seascapes. The Anantara's activities team can arrange premium private tours. Return by late afternoon exhausted and sun-kissed." },
-      { "day": 5, "title": "Thai Cooking Class & Yoga", "description": "Join the resort's morning Thai cooking class, where the chef guides you through the fundamentals of Southern Thai cuisine — massaman curry paste ground from scratch, fresh spring rolls, and coconut-based desserts. Follow with an afternoon Vinyasa yoga class at the clifftop pavilion with views over the bay. The evening is yours: a private in-villa dinner works perfectly after a full activity day." },
-      { "day": 6, "title": "Kayak & Sunset Beach Walk", "description": "Collect kayaks from the beach and paddle along the forested northern coastline of Koh Phangan, exploring secluded coves accessible only by water. Return for a slow afternoon on the beach. As the evening light turns gold, walk hand in hand along the full length of Nai Pan Noi Beach — possibly the most beautiful quiet beach in Thailand — before the resort's beachside dinner setup." },
-      { "day": 7, "title": "Farewell Morning", "description": "Wake for one final sunrise on the beach — the Gulf of Thailand at dawn is a spectacle of pale pink and gold. Take a last swim, have a slow in-villa breakfast, and make the transfer back to Koh Samui Airport with at least two hours to spare. The journey home begins, but Nai Pan Noi stays with you." }
+      {
+        "day": 1,
+        "title": "Arrival & Nai Pan Noi Beach",
+        "description": "Fly to Koh Samui Airport, take a speedboat to Koh Phangan's Ban Tai pier, and transfer to the resort by the hotel car through the jungle hills to the north. The moment you crest the last hill and see Nai Pan Noi Bay below — a perfect half-moon of white sand and turquoise water backed by jungle — the journey feels entirely worth it. Change and get on that beach immediately. The resort restaurant's fresh Thai seafood dinner as stars emerge over the Gulf completes the day."
+      },
+      {
+        "day": 2,
+        "title": "Anantara Spa Journey",
+        "description": "Book the two-hour Anantara Signature Journey for couples — an immersive treatment sequence that begins with a Thai herbal steam, moves through traditional Thai massage, and closes with a deeply relaxing warm poultice body therapy. The spa pavilions are open-air with jungle and ocean views. Afternoon is best spent exploring the resort's snorkeling directly from the beach — sea grass beds shelter sea turtles and reef fish."
+      },
+      {
+        "day": 3,
+        "title": "Koh Phangan Island Tour",
+        "description": "Rent a motorbike or hire the hotel driver for a full-day island tour: visit the dramatic Than Sadet waterfall (where Thai kings historically swam), explore the jungle interior on the ring road, and discover the deserted beaches of the island's east coast. Have lunch at a local Koh Phangan restaurant for authentic Southern Thai cuisine well below resort prices. Return for a sunset cocktail on the villa terrace."
+      },
+      {
+        "day": 4,
+        "title": "Sail to Ang Thong Marine Park",
+        "description": "Book a private longtail or speedboat charter for a full day at Ang Thong National Marine Park — an archipelago of 42 islands with emerald lagoons, coral reefs, and viewpoints over one of Thailand's most stunning seascapes. The Anantara's activities team can arrange premium private tours. Return by late afternoon exhausted and sun-kissed."
+      },
+      {
+        "day": 5,
+        "title": "Thai Cooking Class & Yoga",
+        "description": "Join the resort's morning Thai cooking class, where the chef guides you through the fundamentals of Southern Thai cuisine — massaman curry paste ground from scratch, fresh spring rolls, and coconut-based desserts. Follow with an afternoon Vinyasa yoga class at the clifftop pavilion with views over the bay. The evening is yours: a private in-villa dinner works perfectly after a full activity day."
+      },
+      {
+        "day": 6,
+        "title": "Kayak & Sunset Beach Walk",
+        "description": "Collect kayaks from the beach and paddle along the forested northern coastline of Koh Phangan, exploring secluded coves accessible only by water. Return for a slow afternoon on the beach. As the evening light turns gold, walk hand in hand along the full length of Nai Pan Noi Beach — possibly the most beautiful quiet beach in Thailand — before the resort's beachside dinner setup."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "Wake for one final sunrise on the beach — the Gulf of Thailand at dawn is a spectacle of pale pink and gold. Take a last swim, have a slow in-villa breakfast, and make the transfer back to Koh Samui Airport with at least two hours to spare. The journey home begins, but Nai Pan Noi stays with you."
+      }
     ],
     "caveats": [
       "Getting here is not straightforward — a flight to Koh Samui, a ferry or speedboat to Koh Phangan, and then a drive through jungle hills to the north makes this a multi-leg journey that can exhaust some travelers on arrival.",

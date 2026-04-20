@@ -3,7 +3,10 @@
   "name": "Amanemu",
   "destination": "japan",
   "country": "japan",
-  "experience_types": ["luxury", "wellness"],
+  "experience_types": [
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 94,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +20,47 @@
     "luxury": 5
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 1500, "max": 5000 },
+  "price_per_night_usd": {
+    "min": 1500,
+    "max": 5000
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "onsen", "room service", "butler service", "restaurant", "bar", "private onsen villas"],
+  "amenities": [
+    "spa",
+    "pool",
+    "onsen",
+    "room service",
+    "butler service",
+    "restaurant",
+    "bar",
+    "private onsen villas"
+  ],
   "photos": [
-    { "url": "/images/hotels/amanemu-ise-shima-japan/hero.webp", "alt": "amanemu-ise-shima-japan — hero", "type": "hero" },
-    { "url": "/images/hotels/amanemu-ise-shima-japan/room.webp", "alt": "amanemu-ise-shima-japan — room", "type": "room" },
-    { "url": "/images/hotels/amanemu-ise-shima-japan/pool.webp", "alt": "amanemu-ise-shima-japan — pool", "type": "pool" },
-    { "url": "/images/hotels/amanemu-ise-shima-japan/spa.webp", "alt": "amanemu-ise-shima-japan — spa", "type": "spa" },
-    { "url": "/images/hotels/amanemu-ise-shima-japan/dining.webp", "alt": "amanemu-ise-shima-japan — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/amanemu-ise-shima-japan/hero.webp",
+      "alt": "amanemu-ise-shima-japan — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/amanemu-ise-shima-japan/room.webp",
+      "alt": "amanemu-ise-shima-japan — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/amanemu-ise-shima-japan/pool.webp",
+      "alt": "amanemu-ise-shima-japan — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/amanemu-ise-shima-japan/spa.webp",
+      "alt": "amanemu-ise-shima-japan — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/amanemu-ise-shima-japan/dining.webp",
+      "alt": "amanemu-ise-shima-japan — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.7,
   "tripadvisor_award": true,
@@ -34,13 +69,41 @@
     "verdict": "Amanemu occupies a singular position in Japan's luxury landscape — an Aman resort in the sacred landscape of Ise-Shima National Park, inspired by traditional shoin architecture and centred on one of Japan's most revered spiritual sites, Ise Grand Shrine. With 24 suites and villas each featuring a private indoor and outdoor onsen drawing from the resort's own thermal spring, and the Aman Spa offering one of the most extensive wellness programmes in Asia, this is a honeymoon experience that touches on every dimension of what makes Japan extraordinary.",
     "best_room": "The two-bedroom Onsen Villas are the ultimate honeymoon accommodation — a full-size private home with indoor and outdoor onsen baths, a private plunge pool, tatami reception room, and views over the Ago Bay inlet and cedar forests. For couples, the Suites with private outdoor onsen are the sweet spot: spacious shoin-style interiors, cypress wood soaking tubs, and an intimate connection to the natural landscape through floor-to-ceiling shoji screens.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Spiritual Landscape", "description": "Arrive from Nagoya by limited express to Kashikojima Station (90 minutes), from where Amanemu collects you by private car. The resort reveals itself through a cedar and hinoki forest before opening onto the Ago Bay — the same sea from which pearls have been harvested for centuries by the Ama women divers. Your suite's private onsen is drawn and ready. The welcome dinner features Ise seafood — prized spiny lobster, sea bream, and pearl oysters." },
-      { "day": 2, "title": "Ise Grand Shrine Pilgrimage", "description": "Amanemu offers exclusive early-morning access to the Ise Grand Shrine — the most sacred site in Shinto religion, dedicated to the sun goddess Amaterasu. Walking the ancient cedar-lined approach at dawn, before pilgrims arrive, is a profoundly moving experience. The hotel's cultural guide explains the rituals and spiritual significance. Return for a late breakfast before an afternoon in the Aman Spa's flotation pools and steam rooms." },
-      { "day": 3, "title": "Ama Diving with Pearl Fisherwomen", "description": "The Ama sea divers of Ise-Shima have harvested shellfish and pearls by free-diving for over 2,000 years — an almost entirely female tradition. Amanemu arranges a private meeting with a local Ama diver who demonstrates her technique in shallow waters and shares stories of this vanishing way of life. Visit a Mikimoto pearl workshop afterwards to understand how cultured pearls are crafted. Evening: couples' massage at the spa." },
-      { "day": 4, "title": "Full Aman Spa Immersion", "description": "The Aman Spa at Amanemu is one of the largest and most complete in the Aman network: a 2,500-square-metre facility with indoor and outdoor onsen pools, hamam, flotation therapy, and private treatment rooms. Book a full-day couples' programme — beginning with a joint hot spring immersion ritual, followed by a 90-minute Ama-inspired body scrub using local sea salt and camellia oil, and finishing with a restorative facial." },
-      { "day": 5, "title": "Ago Bay by Boat", "description": "Board a traditional wooden ferry for a private guided tour of Ago Bay — the shallow, island-dotted bay that produces Japan's finest pearls. Stop at a floating pearl farm for a private explanation of the cultivation process. Lunch is served on a private island beach — a picnic of Ise-region specialities including tekone sushi (local tuna hand-rolled rice) and cold wheat noodles. Return for a quiet evening in your villa onsen." },
-      { "day": 6, "title": "Coastal Foraging & Kaiseki", "description": "Join the resort's chef for a foraging walk along the Ise-Shima coastal path, identifying edible seaweeds, wild herbs, and shellfish in the tidal pools. The afternoon is free for the pool and grounds. The final evening kaiseki dinner is the kitchen's most elaborate — a 15-course progression through Mie Prefecture's coastal and mountain larder, with Aman's signature wine and sake pairing." },
-      { "day": 7, "title": "Farewell Morning", "description": "Use your private outdoor onsen at sunrise one last time — the cedar forest steaming in the early light, the smell of hinoki wood, the utter quiet. A Japanese breakfast is served on your villa terrace. The hotel's car returns you to Kashikojima Station, from where the Kintetsu line connects you to Nagoya, Osaka, or beyond. You leave carrying the calm of a landscape that has been considered sacred for over two thousand years." }
+      {
+        "day": 1,
+        "title": "Arrival & Spiritual Landscape",
+        "description": "Arrive from Nagoya by limited express to Kashikojima Station (90 minutes), from where Amanemu collects you by private car. The resort reveals itself through a cedar and hinoki forest before opening onto the Ago Bay — the same sea from which pearls have been harvested for centuries by the Ama women divers. Your suite's private onsen is drawn and ready. The welcome dinner features Ise seafood — prized spiny lobster, sea bream, and pearl oysters."
+      },
+      {
+        "day": 2,
+        "title": "Ise Grand Shrine Pilgrimage",
+        "description": "Amanemu offers exclusive early-morning access to the Ise Grand Shrine — the most sacred site in Shinto religion, dedicated to the sun goddess Amaterasu. Walking the ancient cedar-lined approach at dawn, before pilgrims arrive, is a profoundly moving experience. The hotel's cultural guide explains the rituals and spiritual significance. Return for a late breakfast before an afternoon in the Aman Spa's flotation pools and steam rooms."
+      },
+      {
+        "day": 3,
+        "title": "Ama Diving with Pearl Fisherwomen",
+        "description": "The Ama sea divers of Ise-Shima have harvested shellfish and pearls by free-diving for over 2,000 years — an almost entirely female tradition. Amanemu arranges a private meeting with a local Ama diver who demonstrates her technique in shallow waters and shares stories of this vanishing way of life. Visit a Mikimoto pearl workshop afterwards to understand how cultured pearls are crafted. Evening: couples' massage at the spa."
+      },
+      {
+        "day": 4,
+        "title": "Full Aman Spa Immersion",
+        "description": "The Aman Spa at Amanemu is one of the largest and most complete in the Aman network: a 2,500-square-metre facility with indoor and outdoor onsen pools, hamam, flotation therapy, and private treatment rooms. Book a full-day couples' programme — beginning with a joint hot spring immersion ritual, followed by a 90-minute Ama-inspired body scrub using local sea salt and camellia oil, and finishing with a restorative facial."
+      },
+      {
+        "day": 5,
+        "title": "Ago Bay by Boat",
+        "description": "Board a traditional wooden ferry for a private guided tour of Ago Bay — the shallow, island-dotted bay that produces Japan's finest pearls. Stop at a floating pearl farm for a private explanation of the cultivation process. Lunch is served on a private island beach — a picnic of Ise-region specialities including tekone sushi (local tuna hand-rolled rice) and cold wheat noodles. Return for a quiet evening in your villa onsen."
+      },
+      {
+        "day": 6,
+        "title": "Coastal Foraging & Kaiseki",
+        "description": "Join the resort's chef for a foraging walk along the Ise-Shima coastal path, identifying edible seaweeds, wild herbs, and shellfish in the tidal pools. The afternoon is free for the pool and grounds. The final evening kaiseki dinner is the kitchen's most elaborate — a 15-course progression through Mie Prefecture's coastal and mountain larder, with Aman's signature wine and sake pairing."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "Use your private outdoor onsen at sunrise one last time — the cedar forest steaming in the early light, the smell of hinoki wood, the utter quiet. A Japanese breakfast is served on your villa terrace. The hotel's car returns you to Kashikojima Station, from where the Kintetsu line connects you to Nagoya, Osaka, or beyond. You leave carrying the calm of a landscape that has been considered sacred for over two thousand years."
+      }
     ],
     "caveats": [
       "Amanemu is genuinely remote — this is a feature, not a flaw, but the resort is not within easy reach of major cities; getting here requires a 90-minute train journey from Nagoya, and the nearest urban centre (Toba or Shima) offers limited nightlife or cultural variety beyond what the resort provides.",
@@ -48,12 +111,30 @@
       "Weather in Ise-Shima can be changeable: the Kii Peninsula is the wettest region in Japan, receiving significant rainfall especially in the June rainy season and September typhoon season. Plan your honeymoon dates accordingly."
     ],
     "faqs": [
-      { "question": "Is Amanemu good for honeymooners?", "answer": "It is exceptional. The combination of Japan's most sacred landscape, private onsen villas, world-class wellness facilities, and Aman's signature unobtrusive service creates a honeymoon that is simultaneously luxurious and deeply meaningful. The spiritual dimension of the Ise Grand Shrine visit adds a layer that no purely beach resort can match." },
-      { "question": "What is the best time to visit?", "answer": "Spring (March–May) is outstanding — mild weather, cherry blossom in the national park, and clear Ago Bay waters. Autumn (October–November) brings cooler temperatures and beautiful foliage. Winter is cool and quiet, the onsen most appreciated. Avoid June (rainy season) and September (typhoon risk) if possible, though the resort remains beautiful even in rain." },
-      { "question": "What should we book in advance?", "answer": "The Ama diver experience has limited availability and must be booked well ahead through the concierge. Ise Grand Shrine early-access visits are arranged by the hotel and should be requested at booking. Spa treatments at Amanemu are very popular — reserve your full-day programme before arrival." },
-      { "question": "Is it adults-only?", "answer": "No, but the resort's spiritual orientation, the onsen protocols, and the meditative atmosphere mean that families are rare. Honeymooners, couples celebrating anniversaries, and wellness travellers make up the vast majority of guests. The resort accommodates children but does not market itself toward families." },
-      { "question": "What's the best room for a honeymoon?", "answer": "The two-bedroom Onsen Villa is the pinnacle — a complete private residence with indoor and outdoor onsen, plunge pool, and bay views. For couples seeking the definitive Aman experience at a slightly lower price point, the one-bedroom Suite with private outdoor onsen is outstanding. All accommodation draws from the resort's own geothermal spring." },
-      { "question": "How do we get there?", "answer": "From Nagoya: Kintetsu limited express to Kashikojima (90 minutes), then hotel car (15 minutes). From Osaka: Kintetsu limited express to Kashikojima (approximately 2.5 hours). From Tokyo: Shinkansen to Nagoya, then as above. Amanemu also arranges helicopter transfers from Nagoya on request for a particularly dramatic arrival." }
+      {
+        "question": "Is Amanemu good for honeymooners?",
+        "answer": "It is exceptional. The combination of Japan's most sacred landscape, private onsen villas, world-class wellness facilities, and Aman's signature unobtrusive service creates a honeymoon that is simultaneously luxurious and deeply meaningful. The spiritual dimension of the Ise Grand Shrine visit adds a layer that no purely beach resort can match."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "Spring (March–May) is outstanding — mild weather, cherry blossom in the national park, and clear Ago Bay waters. Autumn (October–November) brings cooler temperatures and beautiful foliage. Winter is cool and quiet, the onsen most appreciated. Avoid June (rainy season) and September (typhoon risk) if possible, though the resort remains beautiful even in rain."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "The Ama diver experience has limited availability and must be booked well ahead through the concierge. Ise Grand Shrine early-access visits are arranged by the hotel and should be requested at booking. Spa treatments at Amanemu are very popular — reserve your full-day programme before arrival."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "No, but the resort's spiritual orientation, the onsen protocols, and the meditative atmosphere mean that families are rare. Honeymooners, couples celebrating anniversaries, and wellness travellers make up the vast majority of guests. The resort accommodates children but does not market itself toward families."
+      },
+      {
+        "question": "What's the best room for a honeymoon?",
+        "answer": "The two-bedroom Onsen Villa is the pinnacle — a complete private residence with indoor and outdoor onsen, plunge pool, and bay views. For couples seeking the definitive Aman experience at a slightly lower price point, the one-bedroom Suite with private outdoor onsen is outstanding. All accommodation draws from the resort's own geothermal spring."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "From Nagoya: Kintetsu limited express to Kashikojima (90 minutes), then hotel car (15 minutes). From Osaka: Kintetsu limited express to Kashikojima (approximately 2.5 hours). From Tokyo: Shinkansen to Nagoya, then as above. Amanemu also arranges helicopter transfers from Nagoya on request for a particularly dramatic arrival."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Amanemu\n\nDear Amanemu team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: a Suite or Villa with private outdoor onsen.\n\nCould you please let us know:\n- Current availability for our dates\n- Any honeymoon packages or complimentary upgrades\n- Availability of the early-morning Ise Grand Shrine guided visit during our stay\n\nThank you for your time.\n\n[Your names]"
   },

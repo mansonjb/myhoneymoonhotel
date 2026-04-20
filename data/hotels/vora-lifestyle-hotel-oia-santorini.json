@@ -3,34 +3,108 @@
   "name": "Vora Lifestyle Hotel Oia",
   "destination": "santorini",
   "country": "greece",
-  "experience_types": ["luxury", "wellness"],
-  "honeymoon_score": 86,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 18, "spa": 12, "award": 12, "pool": 10, "beach": 0, "room_service": 5, "stars": 10, "luxury": 19 },
-  "stars": 5,
-  "price_per_night_usd": { "min": 500, "max": 1600 },
-  "adults_only": false,
-  "amenities": ["pool", "infinity pool", "caldera views", "cave-style architecture", "private pools", "wine bar", "room service", "local wine tastings", "butler service"],
-  "photos": [
-    { "url": "/images/hotels/vora-lifestyle-hotel-oia-santorini/hero.webp", "alt": "vora-lifestyle-hotel-oia-santorini — hero", "type": "hero" },
-    { "url": "/images/hotels/vora-lifestyle-hotel-oia-santorini/room.webp", "alt": "vora-lifestyle-hotel-oia-santorini — room", "type": "room" },
-    { "url": "/images/hotels/vora-lifestyle-hotel-oia-santorini/pool.webp", "alt": "vora-lifestyle-hotel-oia-santorini — pool", "type": "pool" },
-    { "url": "/images/hotels/vora-lifestyle-hotel-oia-santorini/spa.webp", "alt": "vora-lifestyle-hotel-oia-santorini — spa", "type": "spa" },
-    { "url": "/images/hotels/vora-lifestyle-hotel-oia-santorini/dining.webp", "alt": "vora-lifestyle-hotel-oia-santorini — dining", "type": "dining" }
+  "experience_types": [
+    "luxury",
+    "wellness"
   ],
-  "tripadvisor_rating": 9.0,
+  "honeymoon_score": 86,
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 18,
+    "spa": 12,
+    "award": 12,
+    "pool": 10,
+    "beach": 0,
+    "room_service": 5,
+    "stars": 10,
+    "luxury": 19
+  },
+  "stars": 5,
+  "price_per_night_usd": {
+    "min": 500,
+    "max": 1600
+  },
+  "adults_only": false,
+  "amenities": [
+    "pool",
+    "infinity pool",
+    "caldera views",
+    "cave-style architecture",
+    "private pools",
+    "wine bar",
+    "room service",
+    "local wine tastings",
+    "butler service"
+  ],
+  "photos": [
+    {
+      "url": "/images/hotels/vora-lifestyle-hotel-oia-santorini/hero.webp",
+      "alt": "vora-lifestyle-hotel-oia-santorini — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/vora-lifestyle-hotel-oia-santorini/room.webp",
+      "alt": "vora-lifestyle-hotel-oia-santorini — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/vora-lifestyle-hotel-oia-santorini/pool.webp",
+      "alt": "vora-lifestyle-hotel-oia-santorini — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/vora-lifestyle-hotel-oia-santorini/spa.webp",
+      "alt": "vora-lifestyle-hotel-oia-santorini — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/vora-lifestyle-hotel-oia-santorini/dining.webp",
+      "alt": "vora-lifestyle-hotel-oia-santorini — dining",
+      "type": "dining"
+    }
+  ],
+  "tripadvisor_rating": 9,
   "tripadvisor_award": false,
   "couples_review_pct": 84,
   "content": {
     "verdict": "Vora Lifestyle Hotel Oia is Santorini's most wine-forward boutique hotel — a 13-suite adults-preferred property in Oia village where the on-site Santorinian wine bar and sommelier-curated tastings of local Assyrtiko and Vinsanto are as central to the experience as the caldera views from every terrace. With an infinity pool perfectly positioned for the famous Oia sunset and a deliberate 'lifestyle' approach to design and service, it appeals to couples who want both the classic caldera romance and a genuine immersion in Santorini's extraordinary wine culture.",
     "best_room": "The Caldera Suite with Private Pool is the ideal honeymoon choice — a beautifully designed suite in traditional Cycladic white with private heated plunge pool on the terrace, the Oia sunset position across the caldera, and a curated selection of Santorinian wines waiting in the room. The suite's wine bar feature — a small built-in cellar of curated local bottles — is unique in Oia.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Oia Wine Welcome", "description": "Transfer to Oia from the airport (30-35 minutes). The Vora team greets you with a vertical tasting of local Assyrtiko vintages — a unique introduction to Santorini's wine culture that sets the hotel's tone immediately. Settle into your cave suite, open the complimentary wine from the in-room cellar, and watch the day's last light from your private terrace." },
-      { "day": 2, "title": "Sommelier Morning & Pool Day", "description": "Join the hotel's resident sommelier for a morning guided tasting at the wine bar — learning to identify the volcanic mineral character of Santorinian Assyrtiko and the unique oxidized sweetness of Vinsanto. This gives every glass of wine for the rest of the trip new meaning. Afternoon in the infinity pool with caldera views." },
-      { "day": 3, "title": "Winery Estate Visit", "description": "Vora arranges a private visit to one of Santorini's finest wine estates — Domaine Sigalas, Hatzidakis, or Gavalas, depending on the season and availability. See the unique kouloura vine-training system (low baskets protecting the grapes from the Aegean wind), taste direct from barrel, and return with a selection of bottles chosen with the sommelier." },
-      { "day": 4, "title": "Oia Village Deep Dive", "description": "Explore Oia beyond the main tourist path — the hotel team provides a neighbourhood guide to the quieter alleyways, the best local bakeries for loukoumades and tiropita, and the independent jewellers and ceramicists whose work represents genuine Santorinian craft. Watch the sunset from the hotel's private infinity pool rather than the public castle." },
-      { "day": 5, "title": "Caldera Boat Tour", "description": "A half-day private boat excursion visiting Nea Kameni volcano, the thermal springs, and the red beach. Packed with local olives, feta, and a bottle of chilled Assyrtiko for a boat-deck lunch on the open Aegean. Return in time for the Vora sunset wine bar session." },
-      { "day": 6, "title": "Private Terrace Dinner", "description": "The hotel arranges a private terrace dinner for your final evening — the chef curates a modern Greek tasting menu with a wine pairing designed by the sommelier specifically for your preferences. The sunset view from your suite terrace as the meal begins is the definitive Oia honeymoon moment." },
-      { "day": 7, "title": "Final Wine & Farewell", "description": "A leisurely final breakfast with the morning caldera light, and a parting gift from the sommelier: a curated selection of Santorinian wines for your luggage, with tasting notes and food-pairing suggestions. Transfer to the airport with the volcanic mineral taste of Assyrtiko as your lasting memory of the island." }
+      {
+        "day": 1,
+        "title": "Oia Wine Welcome",
+        "description": "Transfer to Oia from the airport (30-35 minutes). The Vora team greets you with a vertical tasting of local Assyrtiko vintages — a unique introduction to Santorini's wine culture that sets the hotel's tone immediately. Settle into your cave suite, open the complimentary wine from the in-room cellar, and watch the day's last light from your private terrace."
+      },
+      {
+        "day": 2,
+        "title": "Sommelier Morning & Pool Day",
+        "description": "Join the hotel's resident sommelier for a morning guided tasting at the wine bar — learning to identify the volcanic mineral character of Santorinian Assyrtiko and the unique oxidized sweetness of Vinsanto. This gives every glass of wine for the rest of the trip new meaning. Afternoon in the infinity pool with caldera views."
+      },
+      {
+        "day": 3,
+        "title": "Winery Estate Visit",
+        "description": "Vora arranges a private visit to one of Santorini's finest wine estates — Domaine Sigalas, Hatzidakis, or Gavalas, depending on the season and availability. See the unique kouloura vine-training system (low baskets protecting the grapes from the Aegean wind), taste direct from barrel, and return with a selection of bottles chosen with the sommelier."
+      },
+      {
+        "day": 4,
+        "title": "Oia Village Deep Dive",
+        "description": "Explore Oia beyond the main tourist path — the hotel team provides a neighbourhood guide to the quieter alleyways, the best local bakeries for loukoumades and tiropita, and the independent jewellers and ceramicists whose work represents genuine Santorinian craft. Watch the sunset from the hotel's private infinity pool rather than the public castle."
+      },
+      {
+        "day": 5,
+        "title": "Caldera Boat Tour",
+        "description": "A half-day private boat excursion visiting Nea Kameni volcano, the thermal springs, and the red beach. Packed with local olives, feta, and a bottle of chilled Assyrtiko for a boat-deck lunch on the open Aegean. Return in time for the Vora sunset wine bar session."
+      },
+      {
+        "day": 6,
+        "title": "Private Terrace Dinner",
+        "description": "The hotel arranges a private terrace dinner for your final evening — the chef curates a modern Greek tasting menu with a wine pairing designed by the sommelier specifically for your preferences. The sunset view from your suite terrace as the meal begins is the definitive Oia honeymoon moment."
+      },
+      {
+        "day": 7,
+        "title": "Final Wine & Farewell",
+        "description": "A leisurely final breakfast with the morning caldera light, and a parting gift from the sommelier: a curated selection of Santorinian wines for your luggage, with tasting notes and food-pairing suggestions. Transfer to the airport with the volcanic mineral taste of Assyrtiko as your lasting memory of the island."
+      }
     ],
     "caveats": [
       "Vora is adults-preferred rather than strictly adults-only; while very rarely an issue given the property's positioning, couples seeking guaranteed adult-exclusive environments should choose Charisma Suites or Andronis Concept instead.",
@@ -38,12 +112,30 @@
       "The wine-forward identity means the experience is designed around wine appreciation; couples who do not drink alcohol will find the hotel's central programming less relevant to them."
     ],
     "faqs": [
-      { "question": "Is Vora Lifestyle Hotel good for honeymooners?", "answer": "Excellent — particularly for wine-loving couples. The combination of Oia's iconic sunset position, cave suites with private pools, and a genuine wine program led by a resident sommelier creates a uniquely sophisticated Santorini honeymoon." },
-      { "question": "What is the best time to visit?", "answer": "May through June and September through October are ideal. The harvest season (late August-September) is a particularly special time to visit for wine lovers — estate visits include harvest participation opportunities." },
-      { "question": "How far in advance should you book?", "answer": "Book 5-7 months ahead for peak season. The Caldera Suite with Private Pool is the most sought-after room and books quickly for honeymoon-popular dates." },
-      { "question": "What makes the wine program unique?", "answer": "The hotel has a dedicated resident sommelier, an on-site wine bar stocked with curated Santorinian wines including rare library vintages, and organized winery visits as part of the guest experience. It is the only boutique Oia property with this level of wine integration." },
-      { "question": "Is the hotel adults-only?", "answer": "Adults-preferred but not strictly enforced. In practice, the intimate scale, wine-focused atmosphere, and price point ensure nearly all guests are couples." },
-      { "question": "How do you get to Vora?", "answer": "Fly into Santorini Airport (JTR) and take a taxi to Oia — approximately 30-35 minutes. The hotel arranges private transfers with luggage porterage through Oia's pedestrian lanes." }
+      {
+        "question": "Is Vora Lifestyle Hotel good for honeymooners?",
+        "answer": "Excellent — particularly for wine-loving couples. The combination of Oia's iconic sunset position, cave suites with private pools, and a genuine wine program led by a resident sommelier creates a uniquely sophisticated Santorini honeymoon."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "May through June and September through October are ideal. The harvest season (late August-September) is a particularly special time to visit for wine lovers — estate visits include harvest participation opportunities."
+      },
+      {
+        "question": "How far in advance should you book?",
+        "answer": "Book 5-7 months ahead for peak season. The Caldera Suite with Private Pool is the most sought-after room and books quickly for honeymoon-popular dates."
+      },
+      {
+        "question": "What makes the wine program unique?",
+        "answer": "The hotel has a dedicated resident sommelier, an on-site wine bar stocked with curated Santorinian wines including rare library vintages, and organized winery visits as part of the guest experience. It is the only boutique Oia property with this level of wine integration."
+      },
+      {
+        "question": "Is the hotel adults-only?",
+        "answer": "Adults-preferred but not strictly enforced. In practice, the intimate scale, wine-focused atmosphere, and price point ensure nearly all guests are couples."
+      },
+      {
+        "question": "How do you get to Vora?",
+        "answer": "Fly into Santorini Airport (JTR) and take a taxi to Oia — approximately 30-35 minutes. The hotel arranges private transfers with luggage porterage through Oia's pedestrian lanes."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — Vora Lifestyle Hotel Oia\n\nDear team,\n\nWe are planning our honeymoon [DATE]-[DATE] and interested in the Caldera Suite with Private Pool. Please advise on availability, whether the sommelier program is included or bookable separately, and if a private terrace dinner can be arranged.\n\nThank you,\n[Your names]"
   },

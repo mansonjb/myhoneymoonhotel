@@ -3,7 +3,12 @@
   "name": "Velaa Private Island",
   "destination": "maldives",
   "country": "maldives",
-  "experience_types": ["overwater-bungalows", "luxury", "wellness", "beach"],
+  "experience_types": [
+    "overwater-bungalows",
+    "luxury",
+    "wellness",
+    "beach"
+  ],
   "honeymoon_score": 98,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +22,50 @@
     "luxury": 17
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 3000, "max": 10000 },
+  "price_per_night_usd": {
+    "min": 3000,
+    "max": 10000
+  },
   "adults_only": false,
-  "amenities": ["spa", "overwater villas", "beach", "pool", "room service", "butler service", "private island", "golf", "underwater wine cellar", "fine dining", "diving"],
+  "amenities": [
+    "spa",
+    "overwater villas",
+    "beach",
+    "pool",
+    "room service",
+    "butler service",
+    "private island",
+    "golf",
+    "underwater wine cellar",
+    "fine dining",
+    "diving"
+  ],
   "photos": [
-    { "url": "/images/hotels/velaa-private-island-maldives/hero.webp", "alt": "velaa-private-island-maldives — hero", "type": "hero" },
-    { "url": "/images/hotels/velaa-private-island-maldives/room.webp", "alt": "velaa-private-island-maldives — room", "type": "room" },
-    { "url": "/images/hotels/velaa-private-island-maldives/pool.webp", "alt": "velaa-private-island-maldives — pool", "type": "pool" },
-    { "url": "/images/hotels/velaa-private-island-maldives/spa.webp", "alt": "velaa-private-island-maldives — spa", "type": "spa" },
-    { "url": "/images/hotels/velaa-private-island-maldives/dining.webp", "alt": "velaa-private-island-maldives — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/velaa-private-island-maldives/hero.webp",
+      "alt": "velaa-private-island-maldives — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/velaa-private-island-maldives/room.webp",
+      "alt": "velaa-private-island-maldives — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/velaa-private-island-maldives/pool.webp",
+      "alt": "velaa-private-island-maldives — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/velaa-private-island-maldives/spa.webp",
+      "alt": "velaa-private-island-maldives — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/velaa-private-island-maldives/dining.webp",
+      "alt": "velaa-private-island-maldives — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.8,
   "tripadvisor_award": true,
@@ -34,13 +74,41 @@
     "verdict": "Velaa Private Island is the most exclusive resort in the Maldives, and arguably one of the most extraordinary on earth. Spread across a lush island in the remote Noonu Atoll, its 47 villas deliver the very pinnacle of barefoot ultra-luxury: world-class cuisine at Aragu restaurant, the world's only underwater wine cellar, private golf holes, and a spa that routinely wins global awards. For couples who want the absolute best the Maldives has to offer and price is no object, Velaa is simply unrivalled.",
     "best_room": "The Romantic Pool Villa is purpose-built for honeymooners — a beachfront sanctuary with a private infinity pool, outdoor Jacuzzi, and a split-level interior designed by Czech architect Petr Kolar. For the ultimate in seclusion, the Private Reserve occupies its own stretch of island with a dedicated chef, spa therapist, and 24-hour butler team.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Private Island Welcome", "description": "Fly from Malé to Noonu Atoll by seaplane — a 40-minute journey over kaleidoscopic atolls that sets the tone perfectly. Your personal host meets you at the jetty with chilled Champagne and a cool towel. Check in at your villa; the welcome amenities and flower arrangements are exquisite. Watch the sunset from your private infinity pool." },
-      { "day": 2, "title": "Aragu & Underwater Wine", "description": "After breakfast delivered to your villa, spend the morning snorkelling the pristine house reef. In the evening, experience Aragu, Velaa's signature fine dining restaurant — a theatrical, multi-course fusion journey using the finest global produce. Pre-dinner, descend to the world's only underwater wine cellar to select a bottle with the sommelier surrounded by reef fish drifting past the glass." },
-      { "day": 3, "title": "Spa Immersion", "description": "Dedicate the day to Velaa's extraordinary spa. The His & Hers couples' treatment combines Maldivian herbal poultice massage with hot stone therapy and a private Jacuzzi finish. The spa compound, built over the lagoon, has private treatment decks and a meditation garden. Spend the afternoon at the pool bar, sipping freshly blended tropical cocktails." },
-      { "day": 4, "title": "Private Sandbank & Sunset Dhoni", "description": "Your host arranges a private sandbank experience — just you, a picnic basket of artisanal cheeses, oysters, and Champagne on a deserted strip of powdered coral. In the late afternoon, take a traditional Maldivian dhoni (wooden sailboat) sunset cruise to watch the sun dip below the Indian Ocean horizon." },
-      { "day": 5, "title": "Golf & Watersports", "description": "Tee off at Velaa's private golf hole, one of the world's most unusual courses — set above the Indian Ocean with panoramic atoll views. In the afternoon, try jet-skiing, wakeboarding, or take the resort's submarine for an otherworldly perspective of the reef ecosystem below. Dine at Tavaru, the overwater seafood restaurant, as the stars emerge." },
-      { "day": 6, "title": "Diving the Noonu Atoll", "description": "The Noonu Atoll is one of the Maldives' most pristine dive destinations, and Velaa's PADI dive centre runs impeccably guided dives to sites teeming with hammerhead sharks, eagle rays, and giant tuna. Non-divers can join a guided snorkel from the dive dhoni. End the day with a private beach bonfire dinner arranged by your host." },
-      { "day": 7, "title": "Farewell Morning", "description": "Linger over a final in-villa breakfast with lagoon views. Take one last swim, collect a bottle from the underwater wine cellar as a keepsake, and let your host arrange the seaplane transfer back to Malé. Velaa sets a standard so high that returning to ordinary life takes several days." }
+      {
+        "day": 1,
+        "title": "Arrival & Private Island Welcome",
+        "description": "Fly from Malé to Noonu Atoll by seaplane — a 40-minute journey over kaleidoscopic atolls that sets the tone perfectly. Your personal host meets you at the jetty with chilled Champagne and a cool towel. Check in at your villa; the welcome amenities and flower arrangements are exquisite. Watch the sunset from your private infinity pool."
+      },
+      {
+        "day": 2,
+        "title": "Aragu & Underwater Wine",
+        "description": "After breakfast delivered to your villa, spend the morning snorkelling the pristine house reef. In the evening, experience Aragu, Velaa's signature fine dining restaurant — a theatrical, multi-course fusion journey using the finest global produce. Pre-dinner, descend to the world's only underwater wine cellar to select a bottle with the sommelier surrounded by reef fish drifting past the glass."
+      },
+      {
+        "day": 3,
+        "title": "Spa Immersion",
+        "description": "Dedicate the day to Velaa's extraordinary spa. The His & Hers couples' treatment combines Maldivian herbal poultice massage with hot stone therapy and a private Jacuzzi finish. The spa compound, built over the lagoon, has private treatment decks and a meditation garden. Spend the afternoon at the pool bar, sipping freshly blended tropical cocktails."
+      },
+      {
+        "day": 4,
+        "title": "Private Sandbank & Sunset Dhoni",
+        "description": "Your host arranges a private sandbank experience — just you, a picnic basket of artisanal cheeses, oysters, and Champagne on a deserted strip of powdered coral. In the late afternoon, take a traditional Maldivian dhoni (wooden sailboat) sunset cruise to watch the sun dip below the Indian Ocean horizon."
+      },
+      {
+        "day": 5,
+        "title": "Golf & Watersports",
+        "description": "Tee off at Velaa's private golf hole, one of the world's most unusual courses — set above the Indian Ocean with panoramic atoll views. In the afternoon, try jet-skiing, wakeboarding, or take the resort's submarine for an otherworldly perspective of the reef ecosystem below. Dine at Tavaru, the overwater seafood restaurant, as the stars emerge."
+      },
+      {
+        "day": 6,
+        "title": "Diving the Noonu Atoll",
+        "description": "The Noonu Atoll is one of the Maldives' most pristine dive destinations, and Velaa's PADI dive centre runs impeccably guided dives to sites teeming with hammerhead sharks, eagle rays, and giant tuna. Non-divers can join a guided snorkel from the dive dhoni. End the day with a private beach bonfire dinner arranged by your host."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "Linger over a final in-villa breakfast with lagoon views. Take one last swim, collect a bottle from the underwater wine cellar as a keepsake, and let your host arrange the seaplane transfer back to Malé. Velaa sets a standard so high that returning to ordinary life takes several days."
+      }
     ],
     "caveats": [
       "The seaplane transfer from Malé takes approximately 40 minutes and operates during daylight hours only — late-night arrivals require an overnight in Malé before proceeding.",
@@ -48,12 +116,30 @@
       "Despite its ultra-luxury positioning, Velaa is not adults-only, so the occasional family with children is present."
     ],
     "faqs": [
-      { "question": "Is Velaa Private Island good for honeymooners?", "answer": "Velaa Private Island is arguably the finest honeymoon resort in the Maldives. The combination of exceptional cuisine at Aragu, the world's only underwater wine cellar, a world-class spa, and 47 impeccably designed villas creates an experience that surpasses even the highest expectations." },
-      { "question": "What is the best time to visit?", "answer": "November through April is the peak dry season in the Noonu Atoll — calm seas, blue skies, and exceptional marine visibility. January and February are particularly spectacular for diving and snorkelling, with hammerhead shark sightings common." },
-      { "question": "What should we book in advance?", "answer": "Reserve your Aragu tasting menu dinner and spa treatments before arrival — these fill up weeks in advance. The underwater wine cellar experience and private sandbank picnic should also be arranged ahead of time with your villa host." },
-      { "question": "Is it adults-only?", "answer": "No, Velaa Private Island accepts children. However, with only 47 villas spread across a large island, the resort never feels crowded, and the romantic atmosphere is carefully maintained." },
-      { "question": "What's the best room for a honeymoon?", "answer": "The Romantic Pool Villa is the most honeymoon-specific category — it includes a private infinity pool, outdoor Jacuzzi, and comes with dedicated butler service. For total privacy, the Private Reserve provides a standalone island compound with its own team." },
-      { "question": "How do we get there?", "answer": "Velaa is accessed by seaplane from Malé — a 40-minute flight over the atolls. Seaplanes only operate in daylight, so flights must connect with daytime arrivals into Malé. The resort can arrange overnight accommodation in Malé for late-night arrivals." }
+      {
+        "question": "Is Velaa Private Island good for honeymooners?",
+        "answer": "Velaa Private Island is arguably the finest honeymoon resort in the Maldives. The combination of exceptional cuisine at Aragu, the world's only underwater wine cellar, a world-class spa, and 47 impeccably designed villas creates an experience that surpasses even the highest expectations."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "November through April is the peak dry season in the Noonu Atoll — calm seas, blue skies, and exceptional marine visibility. January and February are particularly spectacular for diving and snorkelling, with hammerhead shark sightings common."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "Reserve your Aragu tasting menu dinner and spa treatments before arrival — these fill up weeks in advance. The underwater wine cellar experience and private sandbank picnic should also be arranged ahead of time with your villa host."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "No, Velaa Private Island accepts children. However, with only 47 villas spread across a large island, the resort never feels crowded, and the romantic atmosphere is carefully maintained."
+      },
+      {
+        "question": "What's the best room for a honeymoon?",
+        "answer": "The Romantic Pool Villa is the most honeymoon-specific category — it includes a private infinity pool, outdoor Jacuzzi, and comes with dedicated butler service. For total privacy, the Private Reserve provides a standalone island compound with its own team."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "Velaa is accessed by seaplane from Malé — a 40-minute flight over the atolls. Seaplanes only operate in daylight, so flights must connect with daytime arrivals into Malé. The resort can arrange overnight accommodation in Malé for late-night arrivals."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Velaa Private Island\n\nDear Velaa Private Island team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: [Romantic Pool Villa / Private Reserve]\n\nCould you please let us know:\n- Current availability for our dates\n- Any honeymoon packages or complimentary upgrades\n- Availability for the Aragu tasting menu and underwater wine cellar experience\n\nThank you for your time.\n\n[Your names]"
   },

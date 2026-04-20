@@ -3,7 +3,11 @@
   "name": "Anantara Vilamoura Algarve Resort",
   "destination": "portugal",
   "country": "portugal",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 82,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,30 +21,92 @@
     "luxury": 5
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 300, "max": 1000 },
+  "price_per_night_usd": {
+    "min": 300,
+    "max": 1000
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "beach access", "room service", "marina location", "golf", "multiple pools", "kids club", "tennis", "concierge"],
-  "photos": [
-    { "url": "/images/hotels/anantara-vilamoura-algarve-portugal/hero.webp", "alt": "anantara-vilamoura-algarve-portugal — hero", "type": "hero" },
-    { "url": "/images/hotels/anantara-vilamoura-algarve-portugal/room.webp", "alt": "anantara-vilamoura-algarve-portugal — room", "type": "room" },
-    { "url": "/images/hotels/anantara-vilamoura-algarve-portugal/pool.webp", "alt": "anantara-vilamoura-algarve-portugal — pool", "type": "pool" },
-    { "url": "/images/hotels/anantara-vilamoura-algarve-portugal/spa.webp", "alt": "anantara-vilamoura-algarve-portugal — spa", "type": "spa" },
-    { "url": "/images/hotels/anantara-vilamoura-algarve-portugal/dining.webp", "alt": "anantara-vilamoura-algarve-portugal — dining", "type": "dining" }
+  "amenities": [
+    "spa",
+    "pool",
+    "beach access",
+    "room service",
+    "marina location",
+    "golf",
+    "multiple pools",
+    "kids club",
+    "tennis",
+    "concierge"
   ],
-  "tripadvisor_rating": 9.0,
+  "photos": [
+    {
+      "url": "/images/hotels/anantara-vilamoura-algarve-portugal/hero.webp",
+      "alt": "anantara-vilamoura-algarve-portugal — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/anantara-vilamoura-algarve-portugal/room.webp",
+      "alt": "anantara-vilamoura-algarve-portugal — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/anantara-vilamoura-algarve-portugal/pool.webp",
+      "alt": "anantara-vilamoura-algarve-portugal — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/anantara-vilamoura-algarve-portugal/spa.webp",
+      "alt": "anantara-vilamoura-algarve-portugal — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/anantara-vilamoura-algarve-portugal/dining.webp",
+      "alt": "anantara-vilamoura-algarve-portugal — dining",
+      "type": "dining"
+    }
+  ],
+  "tripadvisor_rating": 9,
   "tripadvisor_award": true,
   "couples_review_pct": 62,
   "content": {
     "verdict": "Anantara Vilamoura brings the Thai hospitality group's signature spa philosophy to one of the Algarve's most active resorts — a marina-side property with multiple pools, an excellent spa, golf access, and easy proximity to Vilamoura's famous beach and casino. It's a polished international resort experience with the Anantara spa as its genuine differentiator; if spa-forward luxury with golf, beach, and marina nightlife on the doorstep is your honeymoon formula, this delivers it consistently well. Couples looking for a raw, romantic, or uniquely Portuguese experience may find it too international and busy.",
     "best_room": "Book a Deluxe Pool View Suite or a Superior Room with a terrace facing the gardens and pool — the resort's rooms were renovated under the Anantara brand and have a clean, Southeast Asian-influenced luxury aesthetic. Suite guests receive priority spa booking and butler service, which is worthwhile for a honeymoon. Request a room away from the pool area if noise concerns you at night.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Vilamoura Arrival", "description": "Arrive at Anantara Vilamoura and check into your room, then walk along the marina promenade — Vilamoura's marina is one of the largest and most attractive in Portugal, lined with yachts, restaurants, and bars. Order a Sagres beer or a glass of local wine at a marina-side restaurant watching the boats come and go. Return to the hotel for the welcome Anantara experience — the scented towels and Thai-inflected service standard is immediately distinct." },
-      { "day": 2, "title": "Anantara Spa Day", "description": "Dedicate a full day to the Anantara Spa, which is among the best in the Algarve — a comprehensive Southeast Asian-meets-Portuguese wellness experience with hammam, hydrotherapy pools, and signature treatments including the Douro Valley Ritual (using Portuguese grape seed and essential oils) and the classic Thai couple's massage. The spa also has a relaxation lounge overlooking the gardens." },
-      { "day": 3, "title": "Falesia Beach Day", "description": "Take the hotel shuttle to Praia da Falésia — one of the most photogenic beaches in the Algarve, with dramatic 30-metre red and ochre cliff walls running for 6km behind a wide golden beach. It's one of the least-overdeveloped major beaches in the Algarve and the contrast between the cliffs and the turquoise sea is extraordinary. The hotel beach club provides loungers and service." },
-      { "day": 4, "title": "Faro & the Ria Formosa", "description": "Drive 30 minutes to Faro — the Algarve's capital is often overlooked by tourists but has a beautifully preserved walled old town, a cathedral with a tower offering panoramic views, and the remarkable Igreja dos Ossos (a chapel decorated with the bones of clergy). From Faro, take a boat into the Ria Formosa Natural Park — a lagoon system of islands, birds, and shellfish beds that supplies most of Portugal's seafood." },
-      { "day": 5, "title": "Golf & Sunset Dinner", "description": "Vilamoura has five world-class golf courses; the Old Course is the most famous — a classic parkland layout that has hosted the Portuguese Open. Book a tee time through the hotel concierge (non-golfers can visit the clubhouse for lunch). In the evening, book the Anantara's signature restaurant Boa Mesa for a tasting menu of contemporary Portuguese cuisine that is the hotel's dining highlight." },
-      { "day": 6, "title": "Western Algarve Day Trip", "description": "Rent a car and drive west to explore the more rugged Algarve coast — the drive from Albufeira through Carvoeiro, Lagos, and out to Sagres takes you through increasingly dramatic and less developed coastal scenery. Stop at the sea caves at Ponta da Piedade near Lagos and finish at the fortress of Sagres on the southwestern tip of Europe for sunset views over the open Atlantic." },
-      { "day": 7, "title": "Farewell Morning", "description": "Last morning at the Anantara: a morning swim in the pool, then the spa's signature Hammam experience for a final indulgence before departure. The marina promenade for one last coffee, watching the morning yachts depart. Faro airport is 30 minutes away — a short, easy departure from a well-organised honeymoon resort." }
+      {
+        "day": 1,
+        "title": "Vilamoura Arrival",
+        "description": "Arrive at Anantara Vilamoura and check into your room, then walk along the marina promenade — Vilamoura's marina is one of the largest and most attractive in Portugal, lined with yachts, restaurants, and bars. Order a Sagres beer or a glass of local wine at a marina-side restaurant watching the boats come and go. Return to the hotel for the welcome Anantara experience — the scented towels and Thai-inflected service standard is immediately distinct."
+      },
+      {
+        "day": 2,
+        "title": "Anantara Spa Day",
+        "description": "Dedicate a full day to the Anantara Spa, which is among the best in the Algarve — a comprehensive Southeast Asian-meets-Portuguese wellness experience with hammam, hydrotherapy pools, and signature treatments including the Douro Valley Ritual (using Portuguese grape seed and essential oils) and the classic Thai couple's massage. The spa also has a relaxation lounge overlooking the gardens."
+      },
+      {
+        "day": 3,
+        "title": "Falesia Beach Day",
+        "description": "Take the hotel shuttle to Praia da Falésia — one of the most photogenic beaches in the Algarve, with dramatic 30-metre red and ochre cliff walls running for 6km behind a wide golden beach. It's one of the least-overdeveloped major beaches in the Algarve and the contrast between the cliffs and the turquoise sea is extraordinary. The hotel beach club provides loungers and service."
+      },
+      {
+        "day": 4,
+        "title": "Faro & the Ria Formosa",
+        "description": "Drive 30 minutes to Faro — the Algarve's capital is often overlooked by tourists but has a beautifully preserved walled old town, a cathedral with a tower offering panoramic views, and the remarkable Igreja dos Ossos (a chapel decorated with the bones of clergy). From Faro, take a boat into the Ria Formosa Natural Park — a lagoon system of islands, birds, and shellfish beds that supplies most of Portugal's seafood."
+      },
+      {
+        "day": 5,
+        "title": "Golf & Sunset Dinner",
+        "description": "Vilamoura has five world-class golf courses; the Old Course is the most famous — a classic parkland layout that has hosted the Portuguese Open. Book a tee time through the hotel concierge (non-golfers can visit the clubhouse for lunch). In the evening, book the Anantara's signature restaurant Boa Mesa for a tasting menu of contemporary Portuguese cuisine that is the hotel's dining highlight."
+      },
+      {
+        "day": 6,
+        "title": "Western Algarve Day Trip",
+        "description": "Rent a car and drive west to explore the more rugged Algarve coast — the drive from Albufeira through Carvoeiro, Lagos, and out to Sagres takes you through increasingly dramatic and less developed coastal scenery. Stop at the sea caves at Ponta da Piedade near Lagos and finish at the fortress of Sagres on the southwestern tip of Europe for sunset views over the open Atlantic."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "Last morning at the Anantara: a morning swim in the pool, then the spa's signature Hammam experience for a final indulgence before departure. The marina promenade for one last coffee, watching the morning yachts depart. Faro airport is 30 minutes away — a short, easy departure from a well-organised honeymoon resort."
+      }
     ],
     "caveats": [
       "Vilamoura is one of the most developed resort towns in the Algarve — it has excellent infrastructure but limited authentic Portuguese atmosphere. Couples wanting cultural immersion and genuine Portuguese character should explore beyond the resort bubble.",

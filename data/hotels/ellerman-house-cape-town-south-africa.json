@@ -3,19 +3,64 @@
   "name": "Ellerman House",
   "destination": "south-africa",
   "country": "south-africa",
-  "experience_types": ["luxury", "wellness"],
+  "experience_types": [
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 92,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 20, "spa": 15, "award": 10, "pool": 10, "beach": 0, "room_service": 10, "stars": 20, "luxury": 7 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 20,
+    "spa": 15,
+    "award": 10,
+    "pool": 10,
+    "beach": 0,
+    "room_service": 10,
+    "stars": 20,
+    "luxury": 7
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 1200, "max": 4000 },
+  "price_per_night_usd": {
+    "min": 1200,
+    "max": 4000
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "room service", "butler service", "wine cellar", "private art collection", "fine dining", "library"],
+  "amenities": [
+    "spa",
+    "pool",
+    "room service",
+    "butler service",
+    "wine cellar",
+    "private art collection",
+    "fine dining",
+    "library"
+  ],
   "photos": [
-    { "url": "/images/hotels/ellerman-house-cape-town-south-africa/hero.webp", "alt": "ellerman-house-cape-town-south-africa — hero", "type": "hero" },
-    { "url": "/images/hotels/ellerman-house-cape-town-south-africa/room.webp", "alt": "ellerman-house-cape-town-south-africa — room", "type": "room" },
-    { "url": "/images/hotels/ellerman-house-cape-town-south-africa/pool.webp", "alt": "ellerman-house-cape-town-south-africa — pool", "type": "pool" },
-    { "url": "/images/hotels/ellerman-house-cape-town-south-africa/spa.webp", "alt": "ellerman-house-cape-town-south-africa — spa", "type": "spa" },
-    { "url": "/images/hotels/ellerman-house-cape-town-south-africa/dining.webp", "alt": "ellerman-house-cape-town-south-africa — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/ellerman-house-cape-town-south-africa/hero.webp",
+      "alt": "ellerman-house-cape-town-south-africa — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/ellerman-house-cape-town-south-africa/room.webp",
+      "alt": "ellerman-house-cape-town-south-africa — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/ellerman-house-cape-town-south-africa/pool.webp",
+      "alt": "ellerman-house-cape-town-south-africa — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/ellerman-house-cape-town-south-africa/spa.webp",
+      "alt": "ellerman-house-cape-town-south-africa — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/ellerman-house-cape-town-south-africa/dining.webp",
+      "alt": "ellerman-house-cape-town-south-africa — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.5,
   "tripadvisor_award": true,
@@ -24,13 +69,41 @@
     "verdict": "Ellerman House is Cape Town's most exclusive address — a meticulously restored Edwardian mansion perched above Bantry Bay with sweeping Atlantic Ocean views that take the breath away. Only 11 rooms and villas, a priceless South African art collection, and a 7,000-bottle wine cellar ensure a level of intimacy and sophistication unmatched in the city. For honeymooners who want urban romance, cultural richness, and pure luxury, this is the definitive Cape Town choice.",
     "best_room": "The Ellerman Villa is a private two-bedroom sanctuary with its own pool, kitchen, and unobstructed ocean panorama — ideal for couples who want complete seclusion within the estate. In the main house, the Penthouse suite offers the most dramatic Atlantic views from a private terrace and sits at the top of the art-lined staircase. Both options deliver a sense of privileged intimacy impossible to find in larger Cape Town hotels.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Atlantic Sundowner", "description": "Arrive at Cape Town International and transfer to Bantry Bay, where the house manager welcomes you personally. After settling in, the infinity pool deck provides a front-row seat for one of Africa's great sunsets over the Atlantic, glass of Ellerman's own-label wine in hand." },
-      { "day": 2, "title": "Cape Peninsula Drive", "description": "Your private guide collects you for a full-day Cape Peninsula exploration: Boulders Beach African penguin colony, Cape Point, and Chapman's Peak Drive along sheer cliffs. Return via Constantia wine estates for a private tasting before dinner at the house's intimate restaurant." },
-      { "day": 3, "title": "Art Collection & Wine Cellar", "description": "Spend the morning with the hotel's art curator exploring the extraordinary collection of South African masters — Pierneef, Kentridge, and Stern among them. The afternoon belongs to the wine cellar: a private tasting and pairing lunch in the vault, guided by the resident sommelier." },
-      { "day": 4, "title": "Table Mountain & Spa", "description": "Take the aerial cableway to the summit of Table Mountain for panoramic views stretching to the Hottentots Holland mountains. Descend to the city for a leisurely lunch in the Company's Garden area, then return for a couple's treatment at Ellerman's discreet spa with Africology products." },
-      { "day": 5, "title": "Winelands Day Trip", "description": "A private driver takes you to Stellenbosch and Franschhoek — an hour from Cape Town — where the Cape Winelands reveal their finest estates. Lunch at one of the valley's celebrated farm restaurants before a cellar tour and tasting. Return along Helshoogte Pass as the mountains redden at dusk." },
-      { "day": 6, "title": "Camps Bay & Private Beach Club", "description": "A morning stroll along the Sea Point promenade leads to Camps Bay beach, with the Twelve Apostles mountains as a backdrop. The afternoon is at leisure — perhaps exploring the Waterfront's galleries or taking a kayak from Clifton beach. A private dinner on your room's terrace completes the evening." },
-      { "day": 7, "title": "Farewell Brunch & Departure", "description": "A final morning at leisure — perhaps a last swim in the Atlantic-view pool or a walk through the house's magnificent garden. The chef prepares a farewell brunch of Cape Malay flavours before your transfer to the airport, with the Atlantic glittering in the distance." }
+      {
+        "day": 1,
+        "title": "Arrival & Atlantic Sundowner",
+        "description": "Arrive at Cape Town International and transfer to Bantry Bay, where the house manager welcomes you personally. After settling in, the infinity pool deck provides a front-row seat for one of Africa's great sunsets over the Atlantic, glass of Ellerman's own-label wine in hand."
+      },
+      {
+        "day": 2,
+        "title": "Cape Peninsula Drive",
+        "description": "Your private guide collects you for a full-day Cape Peninsula exploration: Boulders Beach African penguin colony, Cape Point, and Chapman's Peak Drive along sheer cliffs. Return via Constantia wine estates for a private tasting before dinner at the house's intimate restaurant."
+      },
+      {
+        "day": 3,
+        "title": "Art Collection & Wine Cellar",
+        "description": "Spend the morning with the hotel's art curator exploring the extraordinary collection of South African masters — Pierneef, Kentridge, and Stern among them. The afternoon belongs to the wine cellar: a private tasting and pairing lunch in the vault, guided by the resident sommelier."
+      },
+      {
+        "day": 4,
+        "title": "Table Mountain & Spa",
+        "description": "Take the aerial cableway to the summit of Table Mountain for panoramic views stretching to the Hottentots Holland mountains. Descend to the city for a leisurely lunch in the Company's Garden area, then return for a couple's treatment at Ellerman's discreet spa with Africology products."
+      },
+      {
+        "day": 5,
+        "title": "Winelands Day Trip",
+        "description": "A private driver takes you to Stellenbosch and Franschhoek — an hour from Cape Town — where the Cape Winelands reveal their finest estates. Lunch at one of the valley's celebrated farm restaurants before a cellar tour and tasting. Return along Helshoogte Pass as the mountains redden at dusk."
+      },
+      {
+        "day": 6,
+        "title": "Camps Bay & Private Beach Club",
+        "description": "A morning stroll along the Sea Point promenade leads to Camps Bay beach, with the Twelve Apostles mountains as a backdrop. The afternoon is at leisure — perhaps exploring the Waterfront's galleries or taking a kayak from Clifton beach. A private dinner on your room's terrace completes the evening."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Brunch & Departure",
+        "description": "A final morning at leisure — perhaps a last swim in the Atlantic-view pool or a walk through the house's magnificent garden. The chef prepares a farewell brunch of Cape Malay flavours before your transfer to the airport, with the Atlantic glittering in the distance."
+      }
     ],
     "caveats": [
       "The pool and terrace face west for afternoon and evening sun — mornings can be cool with the Cape's 'southeast' summer wind.",
@@ -38,12 +111,30 @@
       "Cape Town's high season (December to February) brings strong southeaster winds; the shoulder months of April-May and September-October are often calmer and more comfortable."
     ],
     "faqs": [
-      { "question": "Good for honeymooners?", "answer": "Ellerman House is South Africa's most prestigious urban honeymoon option. The combination of extraordinary art, exceptional wine, attentive service, and that Atlantic view creates a deeply romantic atmosphere. It functions essentially as a private mansion for its guests, with staff anticipating every need. Cape Town itself — mountains, ocean, wine country — adds magnificent romantic context." },
-      { "question": "Best time to visit?", "answer": "October to April is Cape Town's summer, offering warm, sunny days ideal for beaches and outdoor activities. The shoulder months of October-November and March-April often provide the most pleasant weather without peak-season crowds or the intense southeaster wind. Winter (June-August) brings moody skies and whale watching season in Hermanus nearby." },
-      { "question": "Book in advance?", "answer": "Yes — with only 11 rooms and villas, Ellerman House sells out 6 to 9 months ahead in the summer peak season. The Villa books even earlier. Mention your honeymoon at reservation for special arrangements, and ask about private dining and curated experiences." },
-      { "question": "Adults-only?", "answer": "Ellerman House is not formally adults-only, but the refined, quiet ambience of this private mansion is entirely oriented toward adult experiences. Children are welcomed but the atmosphere is thoroughly romantic and unhurried." },
-      { "question": "Best room type?", "answer": "The Ellerman Villa provides the greatest privacy and space for honeymooners — a completely separate residence with private pool. Within the main house, the Penthouse suite combines the best Atlantic views with a private terrace perfect for sunrise breakfasts and sunset champagne." },
-      { "question": "How to get there?", "answer": "Cape Town International Airport is approximately 30 minutes from Bantry Bay by private transfer. The hotel arranges seamless airport transfers. From the city centre, Ellerman House is a 10-minute drive. International flights connect Cape Town to London, Amsterdam, Frankfurt, Dubai, and major African hubs." }
+      {
+        "question": "Good for honeymooners?",
+        "answer": "Ellerman House is South Africa's most prestigious urban honeymoon option. The combination of extraordinary art, exceptional wine, attentive service, and that Atlantic view creates a deeply romantic atmosphere. It functions essentially as a private mansion for its guests, with staff anticipating every need. Cape Town itself — mountains, ocean, wine country — adds magnificent romantic context."
+      },
+      {
+        "question": "Best time to visit?",
+        "answer": "October to April is Cape Town's summer, offering warm, sunny days ideal for beaches and outdoor activities. The shoulder months of October-November and March-April often provide the most pleasant weather without peak-season crowds or the intense southeaster wind. Winter (June-August) brings moody skies and whale watching season in Hermanus nearby."
+      },
+      {
+        "question": "Book in advance?",
+        "answer": "Yes — with only 11 rooms and villas, Ellerman House sells out 6 to 9 months ahead in the summer peak season. The Villa books even earlier. Mention your honeymoon at reservation for special arrangements, and ask about private dining and curated experiences."
+      },
+      {
+        "question": "Adults-only?",
+        "answer": "Ellerman House is not formally adults-only, but the refined, quiet ambience of this private mansion is entirely oriented toward adult experiences. Children are welcomed but the atmosphere is thoroughly romantic and unhurried."
+      },
+      {
+        "question": "Best room type?",
+        "answer": "The Ellerman Villa provides the greatest privacy and space for honeymooners — a completely separate residence with private pool. Within the main house, the Penthouse suite combines the best Atlantic views with a private terrace perfect for sunrise breakfasts and sunset champagne."
+      },
+      {
+        "question": "How to get there?",
+        "answer": "Cape Town International Airport is approximately 30 minutes from Bantry Bay by private transfer. The hotel arranges seamless airport transfers. From the city centre, Ellerman House is a 10-minute drive. International flights connect Cape Town to London, Amsterdam, Frankfurt, Dubai, and major African hubs."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — Ellerman House Cape Town\n\nDear Ellerman House team,\n\nWe are planning our honeymoon [DATE]-[DATE] and are interested in [Penthouse suite / Ellerman Villa]. Please advise on availability, honeymoon packages, private dining options, and any complimentary inclusions for honeymooners.\n\nThank you,\n[Your names]"
   },

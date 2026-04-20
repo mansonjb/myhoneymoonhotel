@@ -3,19 +3,66 @@
   "name": "Andronis Concept Wellness Resort",
   "destination": "santorini",
   "country": "greece",
-  "experience_types": ["luxury", "wellness", "adults-only"],
+  "experience_types": [
+    "luxury",
+    "wellness",
+    "adults-only"
+  ],
   "honeymoon_score": 91,
-  "score_breakdown": { "adults_only": 10, "couples_pct": 20, "spa": 15, "award": 13, "pool": 10, "beach": 0, "room_service": 5, "stars": 10, "luxury": 8 },
+  "score_breakdown": {
+    "adults_only": 10,
+    "couples_pct": 20,
+    "spa": 15,
+    "award": 13,
+    "pool": 10,
+    "beach": 0,
+    "room_service": 5,
+    "stars": 10,
+    "luxury": 8
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 700, "max": 2500 },
+  "price_per_night_usd": {
+    "min": 700,
+    "max": 2500
+  },
   "adults_only": true,
-  "amenities": ["spa", "pool", "butler service", "yoga", "wellness programs", "holistic treatments", "caldera views", "infinity pool", "meditation pavilion"],
+  "amenities": [
+    "spa",
+    "pool",
+    "butler service",
+    "yoga",
+    "wellness programs",
+    "holistic treatments",
+    "caldera views",
+    "infinity pool",
+    "meditation pavilion"
+  ],
   "photos": [
-    { "url": "/images/hotels/andronis-concept-wellness-santorini/hero.webp", "alt": "andronis-concept-wellness-santorini — hero", "type": "hero" },
-    { "url": "/images/hotels/andronis-concept-wellness-santorini/room.webp", "alt": "andronis-concept-wellness-santorini — room", "type": "room" },
-    { "url": "/images/hotels/andronis-concept-wellness-santorini/pool.webp", "alt": "andronis-concept-wellness-santorini — pool", "type": "pool" },
-    { "url": "/images/hotels/andronis-concept-wellness-santorini/spa.webp", "alt": "andronis-concept-wellness-santorini — spa", "type": "spa" },
-    { "url": "/images/hotels/andronis-concept-wellness-santorini/dining.webp", "alt": "andronis-concept-wellness-santorini — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/andronis-concept-wellness-santorini/hero.webp",
+      "alt": "andronis-concept-wellness-santorini — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/andronis-concept-wellness-santorini/room.webp",
+      "alt": "andronis-concept-wellness-santorini — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/andronis-concept-wellness-santorini/pool.webp",
+      "alt": "andronis-concept-wellness-santorini — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/andronis-concept-wellness-santorini/spa.webp",
+      "alt": "andronis-concept-wellness-santorini — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/andronis-concept-wellness-santorini/dining.webp",
+      "alt": "andronis-concept-wellness-santorini — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.3,
   "tripadvisor_award": true,
@@ -24,13 +71,41 @@
     "verdict": "Andronis Concept Wellness Resort in Imerovigli combines the most dramatic caldera views on Santorini with a deeply integrated wellness philosophy — this is the island's finest destination for couples seeking genuine rejuvenation alongside classic Cycladic romance. Adults-only with just 35 suites, every element of the experience is designed around wellbeing: from the yoga pavilion cantilevered over the caldera to the holistic spa treatments using local Santorinian herbs and volcanic minerals.",
     "best_room": "The Premium Suite with Private Pool and Caldera View is the apex of the Andronis Concept experience — a beautifully carved cave-style suite with a heated private plunge pool hovering over the caldera edge, a king bedroom with hand-picked art, and a terrace where you can watch the sun set over the Aegean with nothing between you and the horizon. The view from this suite's pool is one of the most dramatic in the Mediterranean.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Imerovigli Arrival", "description": "Take a taxi or transfer from Santorini Airport to Imerovigli — the highest point on the caldera rim, 20 minutes from the airport. Your suite is carved into the cliff face above the caldera. The first glimpse of the view — the volcanic caldera stretching to the horizon, Thirassia across the water, the Kameni islands smoking gently in the middle — stops you completely. Open the Champagne." },
-      { "day": 2, "title": "Wellness Consultation & Spa Immersion", "description": "Begin your honeymoon wellness journey with a consultation with the resort's wellness practitioner. Based on your goals, a personalized program is designed: morning yoga on the caldera-edge pavilion, a holistic spa treatment using volcanic minerals and Santorinian thyme and sage, and a nutritional consultation for the week's meals." },
-      { "day": 3, "title": "Sunrise Yoga & Oia Exploration", "description": "A 7am caldera-edge yoga session is Andronis Concept at its most powerful — practicing with the Aegean 300 metres below as the morning light turns the white-washed buildings pink. Spend the afternoon walking the caldera path to Oia (45 minutes), exploring the village, and returning by sunset for the famous Oia light show." },
-      { "day": 4, "title": "Volcano Hike & Thermal Springs", "description": "Take the resort's excursion boat to the active Nea Kameni volcano — hike the lunar landscape to the summit for views over the entire caldera, then swim in the warm sulphuric thermal springs on Palea Kameni before the boat returns. The contrast between the therapeutic springs and the cold Aegean around them is extraordinary." },
-      { "day": 5, "title": "Couples Spa Day", "description": "A full day devoted to the Andronis Concept spa — the complete couple's journey includes a volcanic mud treatment, a private hammam experience, a four-hand massage, and a closing energy ritual on the meditation terrace. Room service brings a Mediterranean lunch to your suite terrace." },
-      { "day": 6, "title": "Wine Tasting & Private Dinner", "description": "Join a guided Santorinian wine tasting — the island's unique Assyrtiko grape produces some of Greece's finest whites, cultivated in the volcanic soil. Visit a winery in the afternoon before returning for a private in-suite dinner: the chef's Santorinian tasting menu served course by course on your caldera-view terrace." },
-      { "day": 7, "title": "Final Sunrise & Departure", "description": "A final dawn meditation on the caldera edge before a long breakfast with caldera views. The volcanic landscape, the deep blue of the Aegean, and the white-washed buildings glowing in the morning light will have permanently marked you both. Transfer to the airport carrying the stillness of the Andronis Concept philosophy." }
+      {
+        "day": 1,
+        "title": "Imerovigli Arrival",
+        "description": "Take a taxi or transfer from Santorini Airport to Imerovigli — the highest point on the caldera rim, 20 minutes from the airport. Your suite is carved into the cliff face above the caldera. The first glimpse of the view — the volcanic caldera stretching to the horizon, Thirassia across the water, the Kameni islands smoking gently in the middle — stops you completely. Open the Champagne."
+      },
+      {
+        "day": 2,
+        "title": "Wellness Consultation & Spa Immersion",
+        "description": "Begin your honeymoon wellness journey with a consultation with the resort's wellness practitioner. Based on your goals, a personalized program is designed: morning yoga on the caldera-edge pavilion, a holistic spa treatment using volcanic minerals and Santorinian thyme and sage, and a nutritional consultation for the week's meals."
+      },
+      {
+        "day": 3,
+        "title": "Sunrise Yoga & Oia Exploration",
+        "description": "A 7am caldera-edge yoga session is Andronis Concept at its most powerful — practicing with the Aegean 300 metres below as the morning light turns the white-washed buildings pink. Spend the afternoon walking the caldera path to Oia (45 minutes), exploring the village, and returning by sunset for the famous Oia light show."
+      },
+      {
+        "day": 4,
+        "title": "Volcano Hike & Thermal Springs",
+        "description": "Take the resort's excursion boat to the active Nea Kameni volcano — hike the lunar landscape to the summit for views over the entire caldera, then swim in the warm sulphuric thermal springs on Palea Kameni before the boat returns. The contrast between the therapeutic springs and the cold Aegean around them is extraordinary."
+      },
+      {
+        "day": 5,
+        "title": "Couples Spa Day",
+        "description": "A full day devoted to the Andronis Concept spa — the complete couple's journey includes a volcanic mud treatment, a private hammam experience, a four-hand massage, and a closing energy ritual on the meditation terrace. Room service brings a Mediterranean lunch to your suite terrace."
+      },
+      {
+        "day": 6,
+        "title": "Wine Tasting & Private Dinner",
+        "description": "Join a guided Santorinian wine tasting — the island's unique Assyrtiko grape produces some of Greece's finest whites, cultivated in the volcanic soil. Visit a winery in the afternoon before returning for a private in-suite dinner: the chef's Santorinian tasting menu served course by course on your caldera-view terrace."
+      },
+      {
+        "day": 7,
+        "title": "Final Sunrise & Departure",
+        "description": "A final dawn meditation on the caldera edge before a long breakfast with caldera views. The volcanic landscape, the deep blue of the Aegean, and the white-washed buildings glowing in the morning light will have permanently marked you both. Transfer to the airport carrying the stillness of the Andronis Concept philosophy."
+      }
     ],
     "caveats": [
       "Andronis Concept is situated on the caldera cliff in Imerovigli — as with all caldera-rim properties, there is no beach access, and getting to a beach requires a transfer or bus ride of 20-30 minutes.",
@@ -38,12 +113,30 @@
       "The cliff-face architecture involves steps — some suites require descending stairs to reach; guests with mobility concerns should specify this when booking."
     ],
     "faqs": [
-      { "question": "Is Andronis Concept Wellness Resort good for honeymooners?", "answer": "It is outstanding — particularly for couples who want to combine the romance of Santorini's caldera views with genuine wellness programming. The adults-only environment and 35-suite scale ensure deep privacy and personal service." },
-      { "question": "What is the best time to visit Santorini?", "answer": "Late April through June and September through October offer the best balance of good weather, manageable crowds, and value. July and August are peak season — extremely hot and crowded in the villages but spectacular for swimming. The famous Santorini sunset is best experienced from March through October." },
-      { "question": "Is Andronis Concept truly adults-only?", "answer": "Yes — strictly adults-only, ensuring the wellness atmosphere is maintained throughout the resort. This is one of very few adults-only properties on the Santorini caldera." },
-      { "question": "How does Imerovigli compare to Oia for a honeymoon?", "answer": "Imerovigli is quieter, higher on the caldera rim, and generally considered to have even more dramatic views than Oia — with less tourist foot traffic. Oia has the more famous sunset-watching scene. Couples seeking more peace choose Imerovigli; couples wanting to be in the social heart of Santorini choose Oia." },
-      { "question": "What makes the wellness program unique?", "answer": "The program is genuinely personalized — beginning with a consultation, it integrates yoga, holistic spa treatments using Santorinian volcanic minerals and local herbs, nutrition guidance, and meditation into a tailored honeymoon wellness journey rather than a menu of individual treatments." },
-      { "question": "How do you get to Andronis Concept?", "answer": "Fly into Santorini International Airport (JTR). Taxi to Imerovigli takes approximately 20-25 minutes. The resort can arrange private transfers directly." }
+      {
+        "question": "Is Andronis Concept Wellness Resort good for honeymooners?",
+        "answer": "It is outstanding — particularly for couples who want to combine the romance of Santorini's caldera views with genuine wellness programming. The adults-only environment and 35-suite scale ensure deep privacy and personal service."
+      },
+      {
+        "question": "What is the best time to visit Santorini?",
+        "answer": "Late April through June and September through October offer the best balance of good weather, manageable crowds, and value. July and August are peak season — extremely hot and crowded in the villages but spectacular for swimming. The famous Santorini sunset is best experienced from March through October."
+      },
+      {
+        "question": "Is Andronis Concept truly adults-only?",
+        "answer": "Yes — strictly adults-only, ensuring the wellness atmosphere is maintained throughout the resort. This is one of very few adults-only properties on the Santorini caldera."
+      },
+      {
+        "question": "How does Imerovigli compare to Oia for a honeymoon?",
+        "answer": "Imerovigli is quieter, higher on the caldera rim, and generally considered to have even more dramatic views than Oia — with less tourist foot traffic. Oia has the more famous sunset-watching scene. Couples seeking more peace choose Imerovigli; couples wanting to be in the social heart of Santorini choose Oia."
+      },
+      {
+        "question": "What makes the wellness program unique?",
+        "answer": "The program is genuinely personalized — beginning with a consultation, it integrates yoga, holistic spa treatments using Santorinian volcanic minerals and local herbs, nutrition guidance, and meditation into a tailored honeymoon wellness journey rather than a menu of individual treatments."
+      },
+      {
+        "question": "How do you get to Andronis Concept?",
+        "answer": "Fly into Santorini International Airport (JTR). Taxi to Imerovigli takes approximately 20-25 minutes. The resort can arrange private transfers directly."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — Andronis Concept Wellness Resort\n\nDear team,\n\nWe are planning our honeymoon [DATE]-[DATE] and interested in a Premium Suite with Private Pool and Caldera View. Please advise on availability, honeymoon wellness packages, and whether a private in-suite dinner can be arranged.\n\nThank you,\n[Your names]"
   },

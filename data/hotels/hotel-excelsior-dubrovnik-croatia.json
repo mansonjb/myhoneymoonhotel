@@ -3,7 +3,11 @@
   "name": "Hotel Excelsior Dubrovnik",
   "destination": "croatia",
   "country": "croatia",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 85,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,47 @@
     "luxury": 5
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 400, "max": 1400 },
+  "price_per_night_usd": {
+    "min": 400,
+    "max": 1400
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "beach", "room service", "thalasso spa", "sea terrace", "multiple restaurants", "concierge"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beach",
+    "room service",
+    "thalasso spa",
+    "sea terrace",
+    "multiple restaurants",
+    "concierge"
+  ],
   "photos": [
-    { "url": "/images/hotels/hotel-excelsior-dubrovnik-croatia/hero.webp", "alt": "hotel-excelsior-dubrovnik-croatia — hero", "type": "hero" },
-    { "url": "/images/hotels/hotel-excelsior-dubrovnik-croatia/room.webp", "alt": "hotel-excelsior-dubrovnik-croatia — room", "type": "room" },
-    { "url": "/images/hotels/hotel-excelsior-dubrovnik-croatia/pool.webp", "alt": "hotel-excelsior-dubrovnik-croatia — pool", "type": "pool" },
-    { "url": "/images/hotels/hotel-excelsior-dubrovnik-croatia/spa.webp", "alt": "hotel-excelsior-dubrovnik-croatia — spa", "type": "spa" },
-    { "url": "/images/hotels/hotel-excelsior-dubrovnik-croatia/dining.webp", "alt": "hotel-excelsior-dubrovnik-croatia — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/hotel-excelsior-dubrovnik-croatia/hero.webp",
+      "alt": "hotel-excelsior-dubrovnik-croatia — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/hotel-excelsior-dubrovnik-croatia/room.webp",
+      "alt": "hotel-excelsior-dubrovnik-croatia — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/hotel-excelsior-dubrovnik-croatia/pool.webp",
+      "alt": "hotel-excelsior-dubrovnik-croatia — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/hotel-excelsior-dubrovnik-croatia/spa.webp",
+      "alt": "hotel-excelsior-dubrovnik-croatia — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/hotel-excelsior-dubrovnik-croatia/dining.webp",
+      "alt": "hotel-excelsior-dubrovnik-croatia — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.1,
   "tripadvisor_award": true,
@@ -34,13 +70,41 @@
     "verdict": "Hotel Excelsior Dubrovnik is the grand dame of Adriatic hospitality — a storied five-star property that has hosted royalty, heads of state, and honeymooners since the early 20th century. Its position on a private peninsula just ten minutes' walk from the Old Town walls makes it supremely well-located, and the thalasso spa using Adriatic seawater is genuinely restorative. It suits couples who want history, elegance, and direct beach access alongside easy city exploring rather than a secluded retreat.",
     "best_room": "Opt for a Junior Suite with a sea terrace — these rooms have floor-to-ceiling windows and private balconies directly above the Adriatic, with views stretching to Lokrum Island. The sea-view suites on the upper floors offer the best combination of space, light, and panorama, and the hotel's recent renovations have brought all rooms up to a sleek contemporary standard while preserving the building's historic character.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Historic Welcome", "description": "Arrive and soak in the hotel's elegant lobby and sea terrace, where afternoon tea with Adriatic views is a tradition. As evening falls, walk the ten minutes along the coast path into Dubrovnik's Old Town, buy a glass of local Plavac Mali wine from a bar on the Stradun, and watch the city light up before returning along the waterfront under the stars." },
-      { "day": 2, "title": "Thalasso Spa Morning", "description": "Begin your honeymoon proper in the hotel's Elixir Thalasso Spa, which uses heated Adriatic seawater in its pools and hydrotherapy circuits. Book the couples' Adriatic Journey treatment, which combines sea-salt exfoliation, warm algae wraps, and a dual massage. Emerge completely renewed for a long, lazy lunch on the sea terrace." },
-      { "day": 3, "title": "Old Town Day", "description": "Spend the day in Dubrovnik's Old Town — walk the city walls in the morning before the crowds arrive, explore the Franciscan monastery's medieval pharmacy, and visit the Rector's Palace. Lunch in a hidden garden restaurant off the Stradun, then climb to Srđ Hill by cable car for the most dramatic panorama of the walled city and the islands stretching south." },
-      { "day": 4, "title": "Private Beach & Lokrum Island", "description": "Morning on the hotel's private beach, where the calm, clear water and loungers with sea service make for a blissful few hours. In the afternoon, take the ten-minute ferry to Lokrum Island — a forested nature reserve with a botanical garden, a ruined Benedictine monastery, and a saltwater lake perfect for swimming. Return for sundowners on the hotel's cliff terrace." },
-      { "day": 5, "title": "Elafiti Islands Cruise", "description": "Book through the concierge a day cruise to the Elafiti Islands, stopping at Koločep, Lopud, and Šipan. Each island has its own character — Lopud's sandy Šunj beach is one of the finest on the Dalmatian coast. Swim in hidden coves, eat at a family konoba, and return in the early evening with salt on your skin and the glow of a perfect Adriatic day." },
-      { "day": 6, "title": "Culinary Croatia", "description": "Take a cooking class at a local culinary school learning to make Dalmatian specialities — brodetto fish stew, peka-roasted octopus, and honey cake with local lavender honey. In the evening, dress up for dinner at the Excelsior's flagship restaurant, which serves elevated Croatian cuisine with some of the best wine pairings in Dalmatia, pairing local Pošip and Plavac Mali with the freshest seafood." },
-      { "day": 7, "title": "Farewell Morning", "description": "Take a final morning swim from the private beach as the early light turns the water silver-gold. Order a long breakfast on your terrace, watching the ferries cross towards the islands. Walk back through the Old Town one last time to pick up local olive oil, wine, or lavender as souvenirs before heading to the airport." }
+      {
+        "day": 1,
+        "title": "Arrival & Historic Welcome",
+        "description": "Arrive and soak in the hotel's elegant lobby and sea terrace, where afternoon tea with Adriatic views is a tradition. As evening falls, walk the ten minutes along the coast path into Dubrovnik's Old Town, buy a glass of local Plavac Mali wine from a bar on the Stradun, and watch the city light up before returning along the waterfront under the stars."
+      },
+      {
+        "day": 2,
+        "title": "Thalasso Spa Morning",
+        "description": "Begin your honeymoon proper in the hotel's Elixir Thalasso Spa, which uses heated Adriatic seawater in its pools and hydrotherapy circuits. Book the couples' Adriatic Journey treatment, which combines sea-salt exfoliation, warm algae wraps, and a dual massage. Emerge completely renewed for a long, lazy lunch on the sea terrace."
+      },
+      {
+        "day": 3,
+        "title": "Old Town Day",
+        "description": "Spend the day in Dubrovnik's Old Town — walk the city walls in the morning before the crowds arrive, explore the Franciscan monastery's medieval pharmacy, and visit the Rector's Palace. Lunch in a hidden garden restaurant off the Stradun, then climb to Srđ Hill by cable car for the most dramatic panorama of the walled city and the islands stretching south."
+      },
+      {
+        "day": 4,
+        "title": "Private Beach & Lokrum Island",
+        "description": "Morning on the hotel's private beach, where the calm, clear water and loungers with sea service make for a blissful few hours. In the afternoon, take the ten-minute ferry to Lokrum Island — a forested nature reserve with a botanical garden, a ruined Benedictine monastery, and a saltwater lake perfect for swimming. Return for sundowners on the hotel's cliff terrace."
+      },
+      {
+        "day": 5,
+        "title": "Elafiti Islands Cruise",
+        "description": "Book through the concierge a day cruise to the Elafiti Islands, stopping at Koločep, Lopud, and Šipan. Each island has its own character — Lopud's sandy Šunj beach is one of the finest on the Dalmatian coast. Swim in hidden coves, eat at a family konoba, and return in the early evening with salt on your skin and the glow of a perfect Adriatic day."
+      },
+      {
+        "day": 6,
+        "title": "Culinary Croatia",
+        "description": "Take a cooking class at a local culinary school learning to make Dalmatian specialities — brodetto fish stew, peka-roasted octopus, and honey cake with local lavender honey. In the evening, dress up for dinner at the Excelsior's flagship restaurant, which serves elevated Croatian cuisine with some of the best wine pairings in Dalmatia, pairing local Pošip and Plavac Mali with the freshest seafood."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "Take a final morning swim from the private beach as the early light turns the water silver-gold. Order a long breakfast on your terrace, watching the ferries cross towards the islands. Walk back through the Old Town one last time to pick up local olive oil, wine, or lavender as souvenirs before heading to the airport."
+      }
     ],
     "caveats": [
       "The hotel is a larger property than Villa Dubrovnik, accommodating conference groups and business travellers alongside holidaymakers, which means the atmosphere can feel less exclusively intimate during busy periods.",

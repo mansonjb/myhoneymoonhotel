@@ -3,7 +3,11 @@
   "name": "Bela Vista Hotel & Spa",
   "destination": "portugal",
   "country": "portugal",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 85,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,48 @@
     "luxury": 5
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 300, "max": 1000 },
+  "price_per_night_usd": {
+    "min": 300,
+    "max": 1000
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "beach access", "room service", "Art Deco manor", "mosaic tiles", "cliff-top terrace", "fine dining", "concierge"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beach access",
+    "room service",
+    "Art Deco manor",
+    "mosaic tiles",
+    "cliff-top terrace",
+    "fine dining",
+    "concierge"
+  ],
   "photos": [
-    { "url": "/images/hotels/bela-vista-hotel-spa-algarve-portugal/hero.webp", "alt": "bela-vista-hotel-spa-algarve-portugal — hero", "type": "hero" },
-    { "url": "/images/hotels/bela-vista-hotel-spa-algarve-portugal/room.webp", "alt": "bela-vista-hotel-spa-algarve-portugal — room", "type": "room" },
-    { "url": "/images/hotels/bela-vista-hotel-spa-algarve-portugal/pool.webp", "alt": "bela-vista-hotel-spa-algarve-portugal — pool", "type": "pool" },
-    { "url": "/images/hotels/bela-vista-hotel-spa-algarve-portugal/spa.webp", "alt": "bela-vista-hotel-spa-algarve-portugal — spa", "type": "spa" },
-    { "url": "/images/hotels/bela-vista-hotel-spa-algarve-portugal/dining.webp", "alt": "bela-vista-hotel-spa-algarve-portugal — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/bela-vista-hotel-spa-algarve-portugal/hero.webp",
+      "alt": "bela-vista-hotel-spa-algarve-portugal — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/bela-vista-hotel-spa-algarve-portugal/room.webp",
+      "alt": "bela-vista-hotel-spa-algarve-portugal — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/bela-vista-hotel-spa-algarve-portugal/pool.webp",
+      "alt": "bela-vista-hotel-spa-algarve-portugal — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/bela-vista-hotel-spa-algarve-portugal/spa.webp",
+      "alt": "bela-vista-hotel-spa-algarve-portugal — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/bela-vista-hotel-spa-algarve-portugal/dining.webp",
+      "alt": "bela-vista-hotel-spa-algarve-portugal — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.2,
   "tripadvisor_award": true,
@@ -34,13 +71,41 @@
     "verdict": "Bela Vista Hotel & Spa is the Algarve's most characterful boutique hotel — a 1934 Art Deco manor perched on the cliffs above Praia da Rocha in Portimão, with only 36 rooms and an extraordinary collection of original Portuguese azulejo tile panels covering the walls. It occupies the sweet spot between genuine historic elegance and a contemporary five-star spa experience, offering a more intimate and character-filled alternative to the large resorts that dominate the Algarve coast. Perfect for honeymooners who want beauty, history, and genuine Portuguese soul rather than an international resort formula.",
     "best_room": "Book a Superior Ocean Suite or the top-floor Penthouse Suite — the ocean suites have private terraces with unobstructed views over Praia da Rocha and the Atlantic, while the original azulejo tiles and Art Deco detailing in the historic building add a layer of beauty that no modern hotel room can match. The Penthouse is the ultimate romantic option with a 360-degree rooftop terrace above the manor.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Art Deco Arrival", "description": "Arrive at Bela Vista and take in the extraordinary lobby — Art Deco arches, 20th-century Portuguese azulejo panels depicting regional life, and a grand staircase that feels like stepping into a historical novel. Your terrace overlooks Praia da Rocha, one of the Algarve's most famous beaches, curving below the ochre cliffs. Welcome cocktails on the cliff terrace, then dinner in the hotel's elegant restaurant." },
-      { "day": 2, "title": "Praia da Rocha & Sea Caves", "description": "Descend to Praia da Rocha beach — a wide stretch of golden sand flanked by dramatic rock formations. Take a boat tour from the beach to the sea caves and rock arches at Ponta da Piedade and the sea grottos east of Portimão — the golden limestone cliffs with their carved arches and hidden beaches are the defining image of the Algarve. Return for afternoon tea at Bela Vista with petiscos (Portuguese tapas) and local wine." },
-      { "day": 3, "title": "Portimão & Ferragudo", "description": "Explore the charming fishing village of Ferragudo just across the estuary from Portimão — whitewashed houses climbing up from the river, a 16th-century fortress, and excellent seafood restaurants with outdoor tables on the riverbank. Cross back to Portimão for the excellent riverside fish market. Evening at the hotel spa: book the Azulejo Journey treatment inspired by the hotel's tile heritage." },
-      { "day": 4, "title": "Lagos Day Trip", "description": "Drive or taxi 30 minutes west to Lagos — one of the finest historic towns in the Algarve, with beautifully preserved colonial architecture, outstanding azulejo churches, and access to the extraordinary cliff beaches of Ponta da Piedade. Walk the cliff path above the golden rock formations at sunset, then dinner in Lagos at a restaurant specialising in cataplana (the copper pot stew that defines Algarve cooking)." },
-      { "day": 5, "title": "Spa Day & Wine Tasting", "description": "A full spa day at Bela Vista — the spa is one of the more intimate and carefully designed in the Algarve, using premium Portuguese skincare and offering a full menu of Algarve-inspired treatments including carob body polish and sea salt exfoliation. In the afternoon the hotel can arrange a private wine tasting of Alentejo wines — the region immediately north of the Algarve produces some of Portugal's finest reds, including the prestigious Herdade do Esporão range." },
-      { "day": 6, "title": "Silves & Inland Algarve", "description": "Drive inland 30 minutes to Silves — the ancient Moorish capital of the Algarve with its impressive red sandstone castle commanding a hill above the Rio Arade. Explore the castle, the Gothic cathedral built on a Moorish mosque, and have lunch in the orange-tree-lined streets. The drive back through the hills of the Serra do Caldeirão, with its cork oaks and cistus scrub, reveals an Algarve most tourists never see." },
-      { "day": 7, "title": "Farewell Morning", "description": "Last morning at Bela Vista: breakfast on the cliff terrace watching the morning light on the ocean, a final walk along the azulejo corridors to choose a favourite tile as a memory, and a last gin and tonic on the terrace before the drive to Faro airport. The Art Deco tiles, the Atlantic horizon, and the intensely personal scale of the hotel make leaving it genuinely melancholy." }
+      {
+        "day": 1,
+        "title": "Art Deco Arrival",
+        "description": "Arrive at Bela Vista and take in the extraordinary lobby — Art Deco arches, 20th-century Portuguese azulejo panels depicting regional life, and a grand staircase that feels like stepping into a historical novel. Your terrace overlooks Praia da Rocha, one of the Algarve's most famous beaches, curving below the ochre cliffs. Welcome cocktails on the cliff terrace, then dinner in the hotel's elegant restaurant."
+      },
+      {
+        "day": 2,
+        "title": "Praia da Rocha & Sea Caves",
+        "description": "Descend to Praia da Rocha beach — a wide stretch of golden sand flanked by dramatic rock formations. Take a boat tour from the beach to the sea caves and rock arches at Ponta da Piedade and the sea grottos east of Portimão — the golden limestone cliffs with their carved arches and hidden beaches are the defining image of the Algarve. Return for afternoon tea at Bela Vista with petiscos (Portuguese tapas) and local wine."
+      },
+      {
+        "day": 3,
+        "title": "Portimão & Ferragudo",
+        "description": "Explore the charming fishing village of Ferragudo just across the estuary from Portimão — whitewashed houses climbing up from the river, a 16th-century fortress, and excellent seafood restaurants with outdoor tables on the riverbank. Cross back to Portimão for the excellent riverside fish market. Evening at the hotel spa: book the Azulejo Journey treatment inspired by the hotel's tile heritage."
+      },
+      {
+        "day": 4,
+        "title": "Lagos Day Trip",
+        "description": "Drive or taxi 30 minutes west to Lagos — one of the finest historic towns in the Algarve, with beautifully preserved colonial architecture, outstanding azulejo churches, and access to the extraordinary cliff beaches of Ponta da Piedade. Walk the cliff path above the golden rock formations at sunset, then dinner in Lagos at a restaurant specialising in cataplana (the copper pot stew that defines Algarve cooking)."
+      },
+      {
+        "day": 5,
+        "title": "Spa Day & Wine Tasting",
+        "description": "A full spa day at Bela Vista — the spa is one of the more intimate and carefully designed in the Algarve, using premium Portuguese skincare and offering a full menu of Algarve-inspired treatments including carob body polish and sea salt exfoliation. In the afternoon the hotel can arrange a private wine tasting of Alentejo wines — the region immediately north of the Algarve produces some of Portugal's finest reds, including the prestigious Herdade do Esporão range."
+      },
+      {
+        "day": 6,
+        "title": "Silves & Inland Algarve",
+        "description": "Drive inland 30 minutes to Silves — the ancient Moorish capital of the Algarve with its impressive red sandstone castle commanding a hill above the Rio Arade. Explore the castle, the Gothic cathedral built on a Moorish mosque, and have lunch in the orange-tree-lined streets. The drive back through the hills of the Serra do Caldeirão, with its cork oaks and cistus scrub, reveals an Algarve most tourists never see."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "Last morning at Bela Vista: breakfast on the cliff terrace watching the morning light on the ocean, a final walk along the azulejo corridors to choose a favourite tile as a memory, and a last gin and tonic on the terrace before the drive to Faro airport. The Art Deco tiles, the Atlantic horizon, and the intensely personal scale of the hotel make leaving it genuinely melancholy."
+      }
     ],
     "caveats": [
       "Praia da Rocha is a popular town beach and can be very busy in July and August — couples expecting seclusion at the beach will find it more crowded than the more remote Algarve coastlines to the west.",

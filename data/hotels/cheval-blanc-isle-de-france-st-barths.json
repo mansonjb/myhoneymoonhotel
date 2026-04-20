@@ -3,7 +3,11 @@
   "name": "Cheval Blanc St-Barth Isle de France",
   "destination": "st-barts",
   "country": "st-barts",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 96,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,50 @@
     "luxury": 6
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 1500, "max": 6000 },
+  "price_per_night_usd": {
+    "min": 1500,
+    "max": 6000
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "beach", "butler service", "room service", "multiple restaurants", "bar", "fitness centre", "water sports", "concierge", "Guerlain spa"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beach",
+    "butler service",
+    "room service",
+    "multiple restaurants",
+    "bar",
+    "fitness centre",
+    "water sports",
+    "concierge",
+    "Guerlain spa"
+  ],
   "photos": [
-    { "url": "/images/hotels/cheval-blanc-isle-de-france-st-barths/hero.webp", "alt": "cheval-blanc-isle-de-france-st-barths — hero", "type": "hero" },
-    { "url": "/images/hotels/cheval-blanc-isle-de-france-st-barths/room.webp", "alt": "cheval-blanc-isle-de-france-st-barths — room", "type": "room" },
-    { "url": "/images/hotels/cheval-blanc-isle-de-france-st-barths/pool.webp", "alt": "cheval-blanc-isle-de-france-st-barths — pool", "type": "pool" },
-    { "url": "/images/hotels/cheval-blanc-isle-de-france-st-barths/spa.webp", "alt": "cheval-blanc-isle-de-france-st-barths — spa", "type": "spa" },
-    { "url": "/images/hotels/cheval-blanc-isle-de-france-st-barths/dining.webp", "alt": "cheval-blanc-isle-de-france-st-barths — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/cheval-blanc-isle-de-france-st-barths/hero.webp",
+      "alt": "cheval-blanc-isle-de-france-st-barths — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/cheval-blanc-isle-de-france-st-barths/room.webp",
+      "alt": "cheval-blanc-isle-de-france-st-barths — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/cheval-blanc-isle-de-france-st-barths/pool.webp",
+      "alt": "cheval-blanc-isle-de-france-st-barths — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/cheval-blanc-isle-de-france-st-barths/spa.webp",
+      "alt": "cheval-blanc-isle-de-france-st-barths — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/cheval-blanc-isle-de-france-st-barths/dining.webp",
+      "alt": "cheval-blanc-isle-de-france-st-barths — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.6,
   "tripadvisor_award": true,
@@ -34,13 +73,41 @@
     "verdict": "Cheval Blanc St-Barth Isle de France is the LVMH flagship Caribbean hotel and broadly accepted as the most glamorous hotel address on St Barths — a property where everything from the Guerlain spa to the private Flamands beach to the culinary programme operates at an obsessive level of refinement. The 40 villas and suites are arranged in a lush tropical garden that runs down to the most beautiful beach on the island, and the white-and-timber architecture has an airy elegance that feels French Caribbean at its most elevated. For honeymooners for whom only the absolute best will do, and for whom St Barths is the destination, Cheval Blanc is the address.",
     "best_room": "The Beach Villas are the definitive honeymoon option: standalone structures with private pools, direct beach access, and butler service that anticipates every need. The interior design draws on the Maisons Cheval Blanc aesthetic — a refined French sensibility with Caribbean warmth, natural materials, and a palette that mirrors the turquoise sea outside. For those travelling at the very top of the market, the private Villa de France offers the most complete stand-alone experience on the property.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival on Flamands Beach", "description": "Cheval Blanc occupies the quieter, more secluded Flamands beach on the north-west coast — away from the party energy of St Jean and the harbour. Arrival by private transfer from the airport (around 10 minutes) delivers you to a property of breathtaking polish. Your Beach Villa opens directly to the beach. The first afternoon unfolds in the natural sequence of pool, beach, shower, and dinner at the restaurant overlooking the sea." },
-      { "day": 2, "title": "Guerlain Spa Journey", "description": "The Guerlain spa at Cheval Blanc St-Barth is one of only a handful of Guerlain spa destinations in the world and the jewel of the Caribbean wellness scene. Book a full couples spa day: the Guerlain facial, body wrap treatments using exclusive botanical extracts, and the signature island massage. Between treatments, the spa pool and garden are entirely private. This is a day that changes your understanding of what a spa can be." },
-      { "day": 3, "title": "Gustavia & Island Exploration", "description": "Rent a Mini Moke or open-top Jeep (the hotel concierge arranges all) and spend the morning in Gustavia. Lunch at a harbour restaurant, a shopping pass through the island's luxury boutiques, and a drive via the most scenic interior route back to Flamands. The contrast between the freedom of the open road and the perfection of the villa return is a pleasurable daily rhythm." },
-      { "day": 4, "title": "Private Boat Day", "description": "The hotel coordinates luxury private boat charters departing from Gustavia Marina. A full day at sea: motor to the far north beaches inaccessible by road, anchor at Île Fourchue for exceptional snorkeling, and have lunch served on deck. Return at sunset in time for pre-dinner cocktails at the Cheval Blanc bar." },
-      { "day": 5, "title": "Flamands Beach & Culinary Experience", "description": "Flamands is among St Barths' longest and most tranquil beaches — shared with the neighbouring Taiwana Hotel but generally uncrowded and spectacularly beautiful. Morning snorkeling, paddleboarding, or simply reading on the sand with a cocktail service. Evening: the Cheval Blanc chef's table experience, available for couples by arrangement — a private culinary journey through Caribbean and French ingredients." },
-      { "day": 6, "title": "Anse Colombier Hike & Final Night Dinner", "description": "The trail to Anse Colombier from the Flamands end is shorter and less travelled than the approach from Petite Anse. 20 minutes of hiking through dry coastal scrub delivers a completely secluded beach with no road access. Return for lunch by the villa pool. The final evening dinner at Cheval Blanc's main restaurant should be approached as a formal occasion — the wine cellar and cuisine justify it." },
-      { "day": 7, "title": "Farewell Morning", "description": "A last Guerlain breakfast amenity in the villa, a final swim in the private pool, and a slow walk to the beach one last time. Cheval Blanc's standard of departure is as considered as the arrival — the team ensures every detail of the journey home is coordinated." }
+      {
+        "day": 1,
+        "title": "Arrival on Flamands Beach",
+        "description": "Cheval Blanc occupies the quieter, more secluded Flamands beach on the north-west coast — away from the party energy of St Jean and the harbour. Arrival by private transfer from the airport (around 10 minutes) delivers you to a property of breathtaking polish. Your Beach Villa opens directly to the beach. The first afternoon unfolds in the natural sequence of pool, beach, shower, and dinner at the restaurant overlooking the sea."
+      },
+      {
+        "day": 2,
+        "title": "Guerlain Spa Journey",
+        "description": "The Guerlain spa at Cheval Blanc St-Barth is one of only a handful of Guerlain spa destinations in the world and the jewel of the Caribbean wellness scene. Book a full couples spa day: the Guerlain facial, body wrap treatments using exclusive botanical extracts, and the signature island massage. Between treatments, the spa pool and garden are entirely private. This is a day that changes your understanding of what a spa can be."
+      },
+      {
+        "day": 3,
+        "title": "Gustavia & Island Exploration",
+        "description": "Rent a Mini Moke or open-top Jeep (the hotel concierge arranges all) and spend the morning in Gustavia. Lunch at a harbour restaurant, a shopping pass through the island's luxury boutiques, and a drive via the most scenic interior route back to Flamands. The contrast between the freedom of the open road and the perfection of the villa return is a pleasurable daily rhythm."
+      },
+      {
+        "day": 4,
+        "title": "Private Boat Day",
+        "description": "The hotel coordinates luxury private boat charters departing from Gustavia Marina. A full day at sea: motor to the far north beaches inaccessible by road, anchor at Île Fourchue for exceptional snorkeling, and have lunch served on deck. Return at sunset in time for pre-dinner cocktails at the Cheval Blanc bar."
+      },
+      {
+        "day": 5,
+        "title": "Flamands Beach & Culinary Experience",
+        "description": "Flamands is among St Barths' longest and most tranquil beaches — shared with the neighbouring Taiwana Hotel but generally uncrowded and spectacularly beautiful. Morning snorkeling, paddleboarding, or simply reading on the sand with a cocktail service. Evening: the Cheval Blanc chef's table experience, available for couples by arrangement — a private culinary journey through Caribbean and French ingredients."
+      },
+      {
+        "day": 6,
+        "title": "Anse Colombier Hike & Final Night Dinner",
+        "description": "The trail to Anse Colombier from the Flamands end is shorter and less travelled than the approach from Petite Anse. 20 minutes of hiking through dry coastal scrub delivers a completely secluded beach with no road access. Return for lunch by the villa pool. The final evening dinner at Cheval Blanc's main restaurant should be approached as a formal occasion — the wine cellar and cuisine justify it."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "A last Guerlain breakfast amenity in the villa, a final swim in the private pool, and a slow walk to the beach one last time. Cheval Blanc's standard of departure is as considered as the arrival — the team ensures every detail of the journey home is coordinated."
+      }
     ],
     "caveats": [
       "Cheval Blanc represents the very top of the St Barths market — with flights, transfers, and island costs added, a week here is a significant financial undertaking. The quality justifies the price, but the total spend should be understood before booking.",
@@ -48,12 +115,30 @@
       "Flamands is quieter and less central than St Jean, which some guests (particularly those wanting the social scene of the island) find limiting. For those who want seclusion, this is precisely the attraction."
     ],
     "faqs": [
-      { "question": "Is Cheval Blanc St-Barth Isle de France good for honeymooners?", "answer": "It is the benchmark honeymoon address on St Barths and arguably in the Caribbean. The combination of the Guerlain spa, the Flamands beach, the culinary programme, the Beach Villa format, and the unmatched service culture of Maisons Cheval Blanc makes it genuinely difficult to surpass." },
-      { "question": "What is the best time to visit?", "answer": "December through April for peak Caribbean season. January is the island's most electric social period. November and May offer the best value with shoulder-season pricing and still-excellent weather." },
-      { "question": "What should we book in advance?", "answer": "Beach Villas require early reservation — 6–12 months for peak dates. Pre-arrange the Guerlain couples treatments, chef's table, and private boat charter. All can be organised through the hotel's pre-arrival concierge." },
-      { "question": "Is it adults-only?", "answer": "No, Cheval Blanc St-Barth Isle de France welcomes children. The atmosphere and pricing skew heavily adult in practice, and the hotel caters expertly to couples and honeymooners." },
-      { "question": "What's the best room for a honeymoon?", "answer": "A Beach Villa with private pool and direct Flamands beach access is the definitive choice. The Villa de France is available for the most exceptional level of private villa seclusion." },
-      { "question": "How do we get there?", "answer": "Fly to St Martin (SXM) or Sint Maarten (SFG) and connect via Winair to St Barths (10 minutes). Ferry from Marigot is an alternative (45 minutes). The hotel arranges private transfers from the airport." }
+      {
+        "question": "Is Cheval Blanc St-Barth Isle de France good for honeymooners?",
+        "answer": "It is the benchmark honeymoon address on St Barths and arguably in the Caribbean. The combination of the Guerlain spa, the Flamands beach, the culinary programme, the Beach Villa format, and the unmatched service culture of Maisons Cheval Blanc makes it genuinely difficult to surpass."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "December through April for peak Caribbean season. January is the island's most electric social period. November and May offer the best value with shoulder-season pricing and still-excellent weather."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "Beach Villas require early reservation — 6–12 months for peak dates. Pre-arrange the Guerlain couples treatments, chef's table, and private boat charter. All can be organised through the hotel's pre-arrival concierge."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "No, Cheval Blanc St-Barth Isle de France welcomes children. The atmosphere and pricing skew heavily adult in practice, and the hotel caters expertly to couples and honeymooners."
+      },
+      {
+        "question": "What's the best room for a honeymoon?",
+        "answer": "A Beach Villa with private pool and direct Flamands beach access is the definitive choice. The Villa de France is available for the most exceptional level of private villa seclusion."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "Fly to St Martin (SXM) or Sint Maarten (SFG) and connect via Winair to St Barths (10 minutes). Ferry from Marigot is an alternative (45 minutes). The hotel arranges private transfers from the airport."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Cheval Blanc St-Barth Isle de France\n\nDear Cheval Blanc St-Barth Isle de France team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: a Beach Villa with private pool\n\nCould you please let us know:\n- Current availability for our dates\n- Any honeymoon packages or complimentary upgrades\n- Guerlain spa availability for couples treatments and the chef's table experience\n\nThank you for your time.\n\n[Your names]"
   },

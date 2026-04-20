@@ -3,19 +3,62 @@
   "name": "Pacuare Lodge",
   "destination": "costa-rica",
   "country": "costa-rica",
-  "experience_types": ["luxury", "wellness"],
+  "experience_types": [
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 90,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 20, "spa": 15, "award": 10, "pool": 10, "beach": 0, "room_service": 5, "stars": 15, "luxury": 15 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 20,
+    "spa": 15,
+    "award": 10,
+    "pool": 10,
+    "beach": 0,
+    "room_service": 5,
+    "stars": 15,
+    "luxury": 15
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 500, "max": 1800 },
+  "price_per_night_usd": {
+    "min": 500,
+    "max": 1800
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "room service", "rainforest", "river", "whitewater rafting"],
+  "amenities": [
+    "spa",
+    "pool",
+    "room service",
+    "rainforest",
+    "river",
+    "whitewater rafting"
+  ],
   "photos": [
-    { "url": "/images/hotels/pacuare-lodge-costa-rica/hero.webp", "alt": "pacuare-lodge-costa-rica — hero", "type": "hero" },
-    { "url": "/images/hotels/pacuare-lodge-costa-rica/room.webp", "alt": "pacuare-lodge-costa-rica — room", "type": "room" },
-    { "url": "/images/hotels/pacuare-lodge-costa-rica/pool.webp", "alt": "pacuare-lodge-costa-rica — pool", "type": "pool" },
-    { "url": "/images/hotels/pacuare-lodge-costa-rica/spa.webp", "alt": "pacuare-lodge-costa-rica — spa", "type": "spa" },
-    { "url": "/images/hotels/pacuare-lodge-costa-rica/dining.webp", "alt": "pacuare-lodge-costa-rica — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/pacuare-lodge-costa-rica/hero.webp",
+      "alt": "pacuare-lodge-costa-rica — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/pacuare-lodge-costa-rica/room.webp",
+      "alt": "pacuare-lodge-costa-rica — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/pacuare-lodge-costa-rica/pool.webp",
+      "alt": "pacuare-lodge-costa-rica — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/pacuare-lodge-costa-rica/spa.webp",
+      "alt": "pacuare-lodge-costa-rica — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/pacuare-lodge-costa-rica/dining.webp",
+      "alt": "pacuare-lodge-costa-rica — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.5,
   "tripadvisor_award": true,
@@ -24,13 +67,41 @@
     "verdict": "Pacuare Lodge is the most adventurous and isolated luxury honeymoon in Costa Rica — accessible only by a thrilling whitewater raft journey down the Pacuare River or by helicopter. The lodge sits in a private 300-hectare rainforest reserve in a dramatic river canyon, with 20 jungle suites and treehouse accommodations elevated on the canyon walls above rushing Class III-IV rapids. If you want extraordinary rather than ordinary, Pacuare delivers an experience unlike anywhere else on Earth.",
     "best_room": "The Treehouse Suite is Pacuare Lodge's most extraordinary accommodation — suspended on a platform high in the forest canopy above the Pacuare River canyon, with a private deck, outdoor shower, and views over miles of unbroken rainforest. The screened walls let in the sounds of the jungle and the river far below. For more conventional luxury, the Private Reserve Suites on the canyon rim offer private plunge pools and wraparound jungle views.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival by Raft", "description": "Arrive at the Pacuare put-in near Siquirres and board your raft for the 2-hour journey through Class III-IV rapids that serves as the lodge's 'driveway.' This is your adventure beginning — your luggage is loaded separately. Arrive at the lodge exhilarated, change, and enjoy a welcome cocktail above the river." },
-      { "day": 2, "title": "Jungle Immersion", "description": "Spend the morning with the lodge's naturalist guide exploring the 300-hectare private reserve. Pacuare Canyon is one of the most biodiverse corridors in Costa Rica — expect poison dart frogs, ocelot tracks, and an extraordinary volume of bird species including multiple tanager species and the snowy cotinga. Afternoon is for hammock time and the spa." },
-      { "day": 3, "title": "Whitewater Adventure Day", "description": "Raft the Pacuare River's most challenging section — a full-day expedition through Class IV rapids in a stunning gorge. The canyon narrows dramatically in places, with waterfalls pouring off the cliff walls directly into the river. This is one of the top whitewater rivers in the world. Return to the lodge for a riverside dinner." },
-      { "day": 4, "title": "Waterfall Hike & Canyon Swim", "description": "The lodge's guides lead you up a tributary canyon to a series of waterfalls accessible only on foot through the reserve. Several have natural swimming holes of extraordinary clarity. Pack a picnic; the lodge kitchen prepares impressive packed lunches with local fruits and fresh Costa Rican fare." },
-      { "day": 5, "title": "Indigenous Community Visit", "description": "Pacuare Lodge has a long-standing relationship with the local Cabecar indigenous community whose ancestral territory borders the reserve. A half-day guided cultural exchange — including traditional plant medicine knowledge and artisan weaving — provides rare insight into pre-Columbian rainforest culture." },
-      { "day": 6, "title": "Spa & Slow Day", "description": "After days of adventure, today is for deep rest. The Pacuare spa uses rainforest botanical extracts, cacao, and healing plants in its treatments. Order breakfast to your treehouse deck, spend the morning watching the river from your hammock, and book a couples massage in the afternoon spa pavilion above the rapids." },
-      { "day": 7, "title": "Helicopter Farewell or Final Raft", "description": "Depart either by helicopter (an extraordinary 15-minute flight over unbroken primary rainforest back to civilization) or by raft for one final exhilarating journey down the Pacuare. Say goodbye to one of the most genuinely unique places you will ever sleep." }
+      {
+        "day": 1,
+        "title": "Arrival by Raft",
+        "description": "Arrive at the Pacuare put-in near Siquirres and board your raft for the 2-hour journey through Class III-IV rapids that serves as the lodge's 'driveway.' This is your adventure beginning — your luggage is loaded separately. Arrive at the lodge exhilarated, change, and enjoy a welcome cocktail above the river."
+      },
+      {
+        "day": 2,
+        "title": "Jungle Immersion",
+        "description": "Spend the morning with the lodge's naturalist guide exploring the 300-hectare private reserve. Pacuare Canyon is one of the most biodiverse corridors in Costa Rica — expect poison dart frogs, ocelot tracks, and an extraordinary volume of bird species including multiple tanager species and the snowy cotinga. Afternoon is for hammock time and the spa."
+      },
+      {
+        "day": 3,
+        "title": "Whitewater Adventure Day",
+        "description": "Raft the Pacuare River's most challenging section — a full-day expedition through Class IV rapids in a stunning gorge. The canyon narrows dramatically in places, with waterfalls pouring off the cliff walls directly into the river. This is one of the top whitewater rivers in the world. Return to the lodge for a riverside dinner."
+      },
+      {
+        "day": 4,
+        "title": "Waterfall Hike & Canyon Swim",
+        "description": "The lodge's guides lead you up a tributary canyon to a series of waterfalls accessible only on foot through the reserve. Several have natural swimming holes of extraordinary clarity. Pack a picnic; the lodge kitchen prepares impressive packed lunches with local fruits and fresh Costa Rican fare."
+      },
+      {
+        "day": 5,
+        "title": "Indigenous Community Visit",
+        "description": "Pacuare Lodge has a long-standing relationship with the local Cabecar indigenous community whose ancestral territory borders the reserve. A half-day guided cultural exchange — including traditional plant medicine knowledge and artisan weaving — provides rare insight into pre-Columbian rainforest culture."
+      },
+      {
+        "day": 6,
+        "title": "Spa & Slow Day",
+        "description": "After days of adventure, today is for deep rest. The Pacuare spa uses rainforest botanical extracts, cacao, and healing plants in its treatments. Order breakfast to your treehouse deck, spend the morning watching the river from your hammock, and book a couples massage in the afternoon spa pavilion above the rapids."
+      },
+      {
+        "day": 7,
+        "title": "Helicopter Farewell or Final Raft",
+        "description": "Depart either by helicopter (an extraordinary 15-minute flight over unbroken primary rainforest back to civilization) or by raft for one final exhilarating journey down the Pacuare. Say goodbye to one of the most genuinely unique places you will ever sleep."
+      }
     ],
     "caveats": [
       "Access requires either a 2-hour whitewater raft journey through Class III-IV rapids or a helicopter flight — this is not suitable for guests who are not comfortable with white water or heights. This is a feature as much as a caveat, but worth knowing in advance.",
@@ -38,12 +109,30 @@
       "The Pacuare region receives very high rainfall year-round; the dry season (January–April) has fewer rainy days, but the lodge is equally magical in the green season when the river runs high."
     ],
     "faqs": [
-      { "question": "Is Pacuare Lodge good for honeymooners?", "answer": "It is the most adventurous honeymoon hotel in Costa Rica and one of the most unique in the world. The combination of inaccessibility, treehouse suites, world-class whitewater, and deep rainforest immersion creates an experience that is impossible to replicate. It is perfect for couples who want extraordinary over conventional luxury." },
-      { "question": "What is the best time to visit Pacuare Lodge?", "answer": "January through April is the dry season with fewer rainy days and the most reliable sunshine. However, the lodge is open year-round and the green season brings higher river levels (more exciting rafting) and exceptionally lush jungle. Many couples prefer the dramatic atmosphere of the rainy season." },
-      { "question": "How far in advance should you book?", "answer": "Book 4–6 months in advance. Pacuare Lodge has only 20 suites and is frequently sold out during dry season and holiday periods. The Treehouse Suite in particular needs the earliest possible reservation — it is the most sought-after room in the lodge." },
-      { "question": "Is Pacuare Lodge adults-only?", "answer": "No, the lodge welcomes all guests. However, the adventurous access and remote jungle setting make it primarily popular with active adult couples. The all-inclusive rate structure and intimate atmosphere create a naturally couples-oriented environment." },
-      { "question": "What is the best room type at Pacuare Lodge?", "answer": "The Treehouse Suite is the singular most memorable accommodation — elevated in the forest canopy with the river canyon below and nothing but rainforest as far as you can see. The Private Reserve Suites with plunge pools are excellent alternatives for those who prefer ground-level luxury with more conventional comfort." },
-      { "question": "How do you get to Pacuare Lodge?", "answer": "Fly into San José (SJO). From there, it is a 2-hour private transfer to the raft launch point, then a 2-hour whitewater raft journey to the lodge. Alternatively, a helicopter flight from San José takes about 30 minutes. The lodge coordinates all arrivals and departures — contact them directly to arrange your transfer." }
+      {
+        "question": "Is Pacuare Lodge good for honeymooners?",
+        "answer": "It is the most adventurous honeymoon hotel in Costa Rica and one of the most unique in the world. The combination of inaccessibility, treehouse suites, world-class whitewater, and deep rainforest immersion creates an experience that is impossible to replicate. It is perfect for couples who want extraordinary over conventional luxury."
+      },
+      {
+        "question": "What is the best time to visit Pacuare Lodge?",
+        "answer": "January through April is the dry season with fewer rainy days and the most reliable sunshine. However, the lodge is open year-round and the green season brings higher river levels (more exciting rafting) and exceptionally lush jungle. Many couples prefer the dramatic atmosphere of the rainy season."
+      },
+      {
+        "question": "How far in advance should you book?",
+        "answer": "Book 4–6 months in advance. Pacuare Lodge has only 20 suites and is frequently sold out during dry season and holiday periods. The Treehouse Suite in particular needs the earliest possible reservation — it is the most sought-after room in the lodge."
+      },
+      {
+        "question": "Is Pacuare Lodge adults-only?",
+        "answer": "No, the lodge welcomes all guests. However, the adventurous access and remote jungle setting make it primarily popular with active adult couples. The all-inclusive rate structure and intimate atmosphere create a naturally couples-oriented environment."
+      },
+      {
+        "question": "What is the best room type at Pacuare Lodge?",
+        "answer": "The Treehouse Suite is the singular most memorable accommodation — elevated in the forest canopy with the river canyon below and nothing but rainforest as far as you can see. The Private Reserve Suites with plunge pools are excellent alternatives for those who prefer ground-level luxury with more conventional comfort."
+      },
+      {
+        "question": "How do you get to Pacuare Lodge?",
+        "answer": "Fly into San José (SJO). From there, it is a 2-hour private transfer to the raft launch point, then a 2-hour whitewater raft journey to the lodge. Alternatively, a helicopter flight from San José takes about 30 minutes. The lodge coordinates all arrivals and departures — contact them directly to arrange your transfer."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — Pacuare Lodge\n\nDear Pacuare Lodge team,\n\nWe are planning our honeymoon [DATE]-[DATE] and are very interested in the Treehouse Suite or a Private Reserve Suite. Could you please advise on availability, the all-inclusive rates, whether honeymoon amenities can be arranged, and the best arrival/departure options for our dates?\n\nThank you,\n[Your names]"
   },

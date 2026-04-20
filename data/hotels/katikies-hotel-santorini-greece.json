@@ -3,7 +3,10 @@
   "name": "Katikies Hotel Santorini",
   "destination": "greece",
   "country": "greece",
-  "experience_types": ["luxury", "adults-only"],
+  "experience_types": [
+    "luxury",
+    "adults-only"
+  ],
   "honeymoon_score": 89,
   "score_breakdown": {
     "adults_only": 20,
@@ -17,15 +20,49 @@
     "luxury": 6
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 500, "max": 1800 },
+  "price_per_night_usd": {
+    "min": 500,
+    "max": 1800
+  },
   "adults_only": true,
-  "amenities": ["three infinity pools", "spa", "room service", "restaurant", "bar", "concierge", "caldera views", "private terraces", "plunge pool suites", "wine cellar"],
+  "amenities": [
+    "three infinity pools",
+    "spa",
+    "room service",
+    "restaurant",
+    "bar",
+    "concierge",
+    "caldera views",
+    "private terraces",
+    "plunge pool suites",
+    "wine cellar"
+  ],
   "photos": [
-    { "url": "/images/hotels/katikies-hotel-santorini-greece/hero.webp", "alt": "katikies-hotel-santorini-greece — hero", "type": "hero" },
-    { "url": "/images/hotels/katikies-hotel-santorini-greece/room.webp", "alt": "katikies-hotel-santorini-greece — room", "type": "room" },
-    { "url": "/images/hotels/katikies-hotel-santorini-greece/pool.webp", "alt": "katikies-hotel-santorini-greece — pool", "type": "pool" },
-    { "url": "/images/hotels/katikies-hotel-santorini-greece/spa.webp", "alt": "katikies-hotel-santorini-greece — spa", "type": "spa" },
-    { "url": "/images/hotels/katikies-hotel-santorini-greece/dining.webp", "alt": "katikies-hotel-santorini-greece — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/katikies-hotel-santorini-greece/hero.webp",
+      "alt": "katikies-hotel-santorini-greece — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/katikies-hotel-santorini-greece/room.webp",
+      "alt": "katikies-hotel-santorini-greece — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/katikies-hotel-santorini-greece/pool.webp",
+      "alt": "katikies-hotel-santorini-greece — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/katikies-hotel-santorini-greece/spa.webp",
+      "alt": "katikies-hotel-santorini-greece — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/katikies-hotel-santorini-greece/dining.webp",
+      "alt": "katikies-hotel-santorini-greece — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.2,
   "tripadvisor_award": true,
@@ -34,13 +71,41 @@
     "verdict": "Katikies Hotel is the adults-only caldera hotel that gave Oia its reputation for honeymoon luxury — a whitewashed cliffside boutique with three terraced infinity pools cascading down toward the sea, all framing one of the world's most celebrated sunset views. The hotel is slightly more affordable than the Canaves flagship properties while delivering an experience that is firmly in the top tier of Santorini luxury. Its three pools at different levels mean there is almost always a quiet pool available, and the caldera views are among the finest in Oia.",
     "best_room": "The Cave Honeymoon Suites with private plunge pool and caldera views are the definitive booking — hand-carved into the volcanic rock, these suites combine the cave architecture of traditional Santorini cycladic design with contemporary luxury fittings and private heated plunge pools facing the caldera. The Penthouse Suite with its vast terrace and 270-degree views is the most spectacular option on the property.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Three Pools & the Caldera", "description": "Arrive and discover Katikies' extraordinary pool terracing — three infinity pools at different levels, each offering a slightly different angle on the caldera panorama. Check in and decide which pool feels most private, then settle in for an afternoon of complete inactivity. The hotel's signature cocktails at the cliffside bar as the sun approaches the horizon set up a perfect first evening." },
-      { "day": 2, "title": "Oia Morning Ritual", "description": "Wake before 7am for the best time to be in Oia — the village belongs to its few hundred permanent residents and the small number of hotel guests. Walk to the famous Oia windmills and the castle ruins at the village's tip, watching the light change across the caldera as the day begins. Return for breakfast on your plunge pool terrace, then plan nothing until evening." },
-      { "day": 3, "title": "Ammoudi Bay & Sailing", "description": "Take the steep path or donkeys down to Ammoudi Bay for morning swimming and lunch at the famous Sunset Taverna, where the catch is brought in on boats visible from your table. Arrange an afternoon catamaran trip around the caldera through the hotel's concierge — or simply return to the pools and watch the afternoon light transform the caldera walls from cream to gold." },
-      { "day": 4, "title": "Akrotiri & Santorini's South", "description": "Hire a driver for a day exploring southern Santorini. The Akrotiri archaeological site is the island's most impressive non-natural attraction — a Minoan city preserved in volcanic ash since 1620 BC. Continue to the dramatic Red Beach and the lighthouse at Akrotiri headland for sweeping island views. Return to Katikies for the hotel's most romantic evening: sunset dinner on the caldera terrace." },
-      { "day": 5, "title": "Wine Tasting & Local Life", "description": "Visit one of Santorini's celebrated wineries — the island's volcanic Assyrtiko grapes produce wines of extraordinary mineral intensity. Estate Argyros and Domaine Sigalas offer excellent tours and tastings with caldera views. In the evening, explore Oia's small artisan galleries and boutiques while the day-trippers have left, then a nightcap in Katikies' wine cellar." },
-      { "day": 6, "title": "Spa & Private Pool Evening", "description": "Full spa morning with the hotel's signature Aegean mineral treatments and couples' massages. Afternoon ordering room service to your plunge pool terrace and experiencing what complete freedom from obligation feels like. For the final evening, reserve the restaurant's best terrace table and order the full tasting menu with wine pairings from the hotel's exceptional Santorini-focused wine list." },
-      { "day": 7, "title": "Farewell Morning", "description": "A final sunrise from the plunge pool, breakfast delivered to your terrace, and a slow packing that the staff will rush even more slowly on your behalf. Katikies' farewell is warm and personal — one of the advantages of a boutique property where staff remember your name and your coffee order from day one. The transfer to the airport leaves you with views of Oia from the road above, a final panorama before the mainland." }
+      {
+        "day": 1,
+        "title": "Three Pools & the Caldera",
+        "description": "Arrive and discover Katikies' extraordinary pool terracing — three infinity pools at different levels, each offering a slightly different angle on the caldera panorama. Check in and decide which pool feels most private, then settle in for an afternoon of complete inactivity. The hotel's signature cocktails at the cliffside bar as the sun approaches the horizon set up a perfect first evening."
+      },
+      {
+        "day": 2,
+        "title": "Oia Morning Ritual",
+        "description": "Wake before 7am for the best time to be in Oia — the village belongs to its few hundred permanent residents and the small number of hotel guests. Walk to the famous Oia windmills and the castle ruins at the village's tip, watching the light change across the caldera as the day begins. Return for breakfast on your plunge pool terrace, then plan nothing until evening."
+      },
+      {
+        "day": 3,
+        "title": "Ammoudi Bay & Sailing",
+        "description": "Take the steep path or donkeys down to Ammoudi Bay for morning swimming and lunch at the famous Sunset Taverna, where the catch is brought in on boats visible from your table. Arrange an afternoon catamaran trip around the caldera through the hotel's concierge — or simply return to the pools and watch the afternoon light transform the caldera walls from cream to gold."
+      },
+      {
+        "day": 4,
+        "title": "Akrotiri & Santorini's South",
+        "description": "Hire a driver for a day exploring southern Santorini. The Akrotiri archaeological site is the island's most impressive non-natural attraction — a Minoan city preserved in volcanic ash since 1620 BC. Continue to the dramatic Red Beach and the lighthouse at Akrotiri headland for sweeping island views. Return to Katikies for the hotel's most romantic evening: sunset dinner on the caldera terrace."
+      },
+      {
+        "day": 5,
+        "title": "Wine Tasting & Local Life",
+        "description": "Visit one of Santorini's celebrated wineries — the island's volcanic Assyrtiko grapes produce wines of extraordinary mineral intensity. Estate Argyros and Domaine Sigalas offer excellent tours and tastings with caldera views. In the evening, explore Oia's small artisan galleries and boutiques while the day-trippers have left, then a nightcap in Katikies' wine cellar."
+      },
+      {
+        "day": 6,
+        "title": "Spa & Private Pool Evening",
+        "description": "Full spa morning with the hotel's signature Aegean mineral treatments and couples' massages. Afternoon ordering room service to your plunge pool terrace and experiencing what complete freedom from obligation feels like. For the final evening, reserve the restaurant's best terrace table and order the full tasting menu with wine pairings from the hotel's exceptional Santorini-focused wine list."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "A final sunrise from the plunge pool, breakfast delivered to your terrace, and a slow packing that the staff will rush even more slowly on your behalf. Katikies' farewell is warm and personal — one of the advantages of a boutique property where staff remember your name and your coffee order from day one. The transfer to the airport leaves you with views of Oia from the road above, a final panorama before the mainland."
+      }
     ],
     "caveats": [
       "No beach access — Katikies is a caldera cliff hotel with pool swimming only. East coast beaches require a 20-minute drive.",

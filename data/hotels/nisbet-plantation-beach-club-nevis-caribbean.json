@@ -3,19 +3,58 @@
   "name": "Nisbet Plantation Beach Club",
   "destination": "caribbean",
   "country": "caribbean",
-  "experience_types": ["beach", "luxury"],
+  "experience_types": [
+    "beach",
+    "luxury"
+  ],
   "honeymoon_score": 87,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 18, "spa": 10, "award": 15, "pool": 10, "beach": 19, "room_service": 5, "stars": 10, "luxury": 0 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 18,
+    "spa": 10,
+    "award": 15,
+    "pool": 10,
+    "beach": 19,
+    "room_service": 5,
+    "stars": 10,
+    "luxury": 0
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 500, "max": 1500 },
+  "price_per_night_usd": {
+    "min": 500,
+    "max": 1500
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "beach", "room service", "plantation house dining", "tennis", "snorkeling"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beach",
+    "room service",
+    "plantation house dining",
+    "tennis",
+    "snorkeling"
+  ],
   "photos": [
-    { "url": "/images/hotels/nisbet-plantation-beach-club-nevis-caribbean/hero.webp", "alt": "nisbet-plantation-beach-club-nevis-caribbean — hero", "type": "hero" },
-    { "url": "/images/hotels/nisbet-plantation-beach-club-nevis-caribbean/room.webp", "alt": "nisbet-plantation-beach-club-nevis-caribbean — room", "type": "room" },
-    { "url": "/images/hotels/nisbet-plantation-beach-club-nevis-caribbean/pool.webp", "alt": "nisbet-plantation-beach-club-nevis-caribbean — pool", "type": "pool" },
-    { "url": "/images/hotels/nisbet-plantation-beach-club-nevis-caribbean/spa.webp", "alt": "nisbet-plantation-beach-club-nevis-caribbean — spa", "type": "spa" },
-    { "url": "/images/hotels/nisbet-plantation-beach-club-nevis-caribbean/dining.webp", "alt": "nisbet-plantation-beach-club-nevis-caribbean — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/nisbet-plantation-beach-club-nevis-caribbean/hero.webp",
+      "alt": "nisbet-plantation-beach-club-nevis-caribbean — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/nisbet-plantation-beach-club-nevis-caribbean/room.webp",
+      "alt": "nisbet-plantation-beach-club-nevis-caribbean — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/nisbet-plantation-beach-club-nevis-caribbean/pool.webp",
+      "alt": "nisbet-plantation-beach-club-nevis-caribbean — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/nisbet-plantation-beach-club-nevis-caribbean/spa.webp",
+      "alt": "nisbet-plantation-beach-club-nevis-caribbean — spa",
+      "type": "spa"
+    }
   ],
   "tripadvisor_rating": 9.3,
   "tripadvisor_award": true,
@@ -24,13 +63,41 @@
     "verdict": "Nisbet Plantation Beach Club is the only beachfront plantation inn on Nevis — a small island of volcanic peaks and coconut groves that is one of the most unspoiled and romantic in the entire Caribbean. The 18th-century great house is set at the top of a long coconut palm avenue that leads directly to the beach; 36 cottages are distributed through the grounds. Alexander Hamilton, Nevis's most famous son, was born a few miles away, and the island retains an old Caribbean dignity that faster-developing islands have lost.",
     "best_room": "The Premier Beachfront Cottage is the most romantic accommodation at Nisbet — a large cottage right on the beach, with a private veranda where breakfast is served with the Caribbean inches away, a four-poster king bed, and the constant sound of the sea. The Great House Suites at the top of the coconut palm avenue offer the most historic atmosphere — original 18th-century plantation architecture with views down the avenue to the sea.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival on Nevis", "description": "Fly into Vance W. Amory International Airport on Nevis (small prop plane from St. Kitts or Antigua) or take the ferry from St. Kitts (45 minutes). Transfer 15 minutes to Nisbet Plantation. The approach down the coconut palm avenue to the great house, with the beach visible at the end of the avenue, is one of the Caribbean's most iconic hotel arrivals. Welcome rum punch on the veranda." },
-      { "day": 2, "title": "Plantation Beach & Snorkeling", "description": "Nisbet's beach is a quiet stretch of Nevis' northwest coast with calm Caribbean water and excellent snorkeling directly from the shore — hawksbill sea turtles are regularly encountered in the seagrass beds offshore, and the reef fish diversity is outstanding for an in-beach snorkel. Beach loungers directly on the sand, included food and drink service." },
-      { "day": 3, "title": "Nevis Peak Hike", "description": "The extinct volcanic cone of Nevis Peak (985m) rises directly behind the plantation. A guided full-day hike through the rainforest to the summit crater (cloud-covered on most days) is an unforgettable Nevis experience — the forest changes completely with altitude, from dry coastal scrub to cloud forest orchids, and the views over the Caribbean from partial summit clearing are extraordinary." },
-      { "day": 4, "title": "Alexander Hamilton Heritage", "description": "Hamilton's birthplace in Charlestown (5 minutes from Nisbet) is a small but genuine museum in the house where the future US Founding Father and first Treasury Secretary was born in 1755 — a compelling story. Charlestown itself is one of the most charming small Caribbean towns, with Georgian buildings, a lively market, and excellent local rum shops." },
-      { "day": 5, "title": "Day Trip to St. Kitts", "description": "The 45-minute ferry to St. Kitts carries you to a larger island with the spectacular Brimstone Hill Fortress (UNESCO World Heritage), the volcanic rainforest interior, and some of the finest street food in the Eastern Caribbean. Return to Nisbet for sundowners on the beach with the lights of St. Kitts visible across the strait." },
-      { "day": 6, "title": "Great House Dinner & Evening", "description": "Nisbet Plantation's 18th-century great house is one of the finest plantation dining rooms in the Caribbean — white tablecloths, candles, ceiling fans, and a menu of Caribbean fusion cuisine using Nevis-grown vegetables and fresh local seafood. Reserve the best table under the great house's verandah for a farewell dinner of exceptional quality." },
-      { "day": 7, "title": "Coconut Palm Morning", "description": "A final breakfast on your cottage veranda to the sound of the Caribbean, a last walk down the coconut palm avenue, and transfer to the small Nevis airport for the short hop to Antigua or St. Kitts for your connection home. Nevis is one of those Caribbean islands that most people leave swearing to return." }
+      {
+        "day": 1,
+        "title": "Arrival on Nevis",
+        "description": "Fly into Vance W. Amory International Airport on Nevis (small prop plane from St. Kitts or Antigua) or take the ferry from St. Kitts (45 minutes). Transfer 15 minutes to Nisbet Plantation. The approach down the coconut palm avenue to the great house, with the beach visible at the end of the avenue, is one of the Caribbean's most iconic hotel arrivals. Welcome rum punch on the veranda."
+      },
+      {
+        "day": 2,
+        "title": "Plantation Beach & Snorkeling",
+        "description": "Nisbet's beach is a quiet stretch of Nevis' northwest coast with calm Caribbean water and excellent snorkeling directly from the shore — hawksbill sea turtles are regularly encountered in the seagrass beds offshore, and the reef fish diversity is outstanding for an in-beach snorkel. Beach loungers directly on the sand, included food and drink service."
+      },
+      {
+        "day": 3,
+        "title": "Nevis Peak Hike",
+        "description": "The extinct volcanic cone of Nevis Peak (985m) rises directly behind the plantation. A guided full-day hike through the rainforest to the summit crater (cloud-covered on most days) is an unforgettable Nevis experience — the forest changes completely with altitude, from dry coastal scrub to cloud forest orchids, and the views over the Caribbean from partial summit clearing are extraordinary."
+      },
+      {
+        "day": 4,
+        "title": "Alexander Hamilton Heritage",
+        "description": "Hamilton's birthplace in Charlestown (5 minutes from Nisbet) is a small but genuine museum in the house where the future US Founding Father and first Treasury Secretary was born in 1755 — a compelling story. Charlestown itself is one of the most charming small Caribbean towns, with Georgian buildings, a lively market, and excellent local rum shops."
+      },
+      {
+        "day": 5,
+        "title": "Day Trip to St. Kitts",
+        "description": "The 45-minute ferry to St. Kitts carries you to a larger island with the spectacular Brimstone Hill Fortress (UNESCO World Heritage), the volcanic rainforest interior, and some of the finest street food in the Eastern Caribbean. Return to Nisbet for sundowners on the beach with the lights of St. Kitts visible across the strait."
+      },
+      {
+        "day": 6,
+        "title": "Great House Dinner & Evening",
+        "description": "Nisbet Plantation's 18th-century great house is one of the finest plantation dining rooms in the Caribbean — white tablecloths, candles, ceiling fans, and a menu of Caribbean fusion cuisine using Nevis-grown vegetables and fresh local seafood. Reserve the best table under the great house's verandah for a farewell dinner of exceptional quality."
+      },
+      {
+        "day": 7,
+        "title": "Coconut Palm Morning",
+        "description": "A final breakfast on your cottage veranda to the sound of the Caribbean, a last walk down the coconut palm avenue, and transfer to the small Nevis airport for the short hop to Antigua or St. Kitts for your connection home. Nevis is one of those Caribbean islands that most people leave swearing to return."
+      }
     ],
     "caveats": [
       "Getting to Nevis requires either a small prop plane connection from Antigua, St. Kitts, or other regional hubs, or the ferry from St. Kitts. There are no direct international flights to Nevis. Factor this into travel planning.",
@@ -38,12 +105,30 @@
       "Nevis is one of the Caribbean's most underdeveloped islands — infrastructure, roads, and nightlife are minimal. This is a feature for honeymooners who want peace but may disappoint those seeking variety."
     ],
     "faqs": [
-      { "question": "Is Nisbet Plantation good for honeymooners?", "answer": "Exceptionally so. The only beachfront plantation inn on one of the most romantic and unspoiled Caribbean islands, with 18th-century great house dining, a coconut palm avenue to the sea, and hawksbill sea turtles off the beach — Nisbet offers a Caribbean honeymoon of genuine character and historical depth." },
-      { "question": "What is the best time to visit?", "answer": "December through April for the driest weather and calmest Caribbean conditions. January through March is the peak season with reliable sunshine and comfortable temperatures (26–28°C). May through November is hurricane season — the island can be affected, and Nisbet may close for part of this period." },
-      { "question": "How far in advance should you book?", "answer": "Book 4–6 months ahead for peak season. The Premier Beachfront Cottages are very limited in number and sell out quickly for January–March dates." },
-      { "question": "Is Nisbet Plantation adults-only?", "answer": "No, families with children are welcome. However, the plantation atmosphere, limited activities beyond beach and nature, and small scale make it naturally couples-oriented." },
-      { "question": "What is the best room type?", "answer": "Premier Beachfront Cottage for direct beach access and the most romantic proximity to the Caribbean. Great House Suite for the most historic plantation atmosphere. The coconut palm avenue runs between them — both ends of it are exceptional." },
-      { "question": "How do you get to Nisbet Plantation?", "answer": "Fly into Vance W. Amory Airport on Nevis (NEV) via a small plane connection from Antigua (ANU), St. Kitts (SKB), or other Eastern Caribbean hubs. Alternatively, fly to St. Kitts and take the 45-minute ferry from Basseterre to Nevis. Nisbet arranges transfers from both the airport and the ferry dock." }
+      {
+        "question": "Is Nisbet Plantation good for honeymooners?",
+        "answer": "Exceptionally so. The only beachfront plantation inn on one of the most romantic and unspoiled Caribbean islands, with 18th-century great house dining, a coconut palm avenue to the sea, and hawksbill sea turtles off the beach — Nisbet offers a Caribbean honeymoon of genuine character and historical depth."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "December through April for the driest weather and calmest Caribbean conditions. January through March is the peak season with reliable sunshine and comfortable temperatures (26–28°C). May through November is hurricane season — the island can be affected, and Nisbet may close for part of this period."
+      },
+      {
+        "question": "How far in advance should you book?",
+        "answer": "Book 4–6 months ahead for peak season. The Premier Beachfront Cottages are very limited in number and sell out quickly for January–March dates."
+      },
+      {
+        "question": "Is Nisbet Plantation adults-only?",
+        "answer": "No, families with children are welcome. However, the plantation atmosphere, limited activities beyond beach and nature, and small scale make it naturally couples-oriented."
+      },
+      {
+        "question": "What is the best room type?",
+        "answer": "Premier Beachfront Cottage for direct beach access and the most romantic proximity to the Caribbean. Great House Suite for the most historic plantation atmosphere. The coconut palm avenue runs between them — both ends of it are exceptional."
+      },
+      {
+        "question": "How do you get to Nisbet Plantation?",
+        "answer": "Fly into Vance W. Amory Airport on Nevis (NEV) via a small plane connection from Antigua (ANU), St. Kitts (SKB), or other Eastern Caribbean hubs. Alternatively, fly to St. Kitts and take the 45-minute ferry from Basseterre to Nevis. Nisbet arranges transfers from both the airport and the ferry dock."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — Nisbet Plantation Beach Club\n\nDear Nisbet Plantation team,\n\nWe are planning our honeymoon [DATE]-[DATE] and very interested in a Premier Beachfront Cottage or Great House Suite. Please advise on availability, current rates, any honeymoon packages, and whether sea turtle snorkeling and the Nevis Peak hike can be arranged during our stay.\n\nThank you,\n[Your names]"
   },

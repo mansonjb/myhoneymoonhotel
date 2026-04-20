@@ -3,19 +3,67 @@
   "name": "Six Senses Con Dao",
   "destination": "vietnam",
   "country": "vietnam",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 91,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 20, "spa": 15, "award": 10, "pool": 10, "beach": 10, "room_service": 10, "stars": 10, "luxury": 6 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 20,
+    "spa": 15,
+    "award": 10,
+    "pool": 10,
+    "beach": 10,
+    "room_service": 10,
+    "stars": 10,
+    "luxury": 6
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 600, "max": 2000 },
+  "price_per_night_usd": {
+    "min": 600,
+    "max": 2000
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "beach", "room service", "butler service", "Six Senses Spa", "turtle conservation", "diving", "fine dining", "organic garden"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beach",
+    "room service",
+    "butler service",
+    "Six Senses Spa",
+    "turtle conservation",
+    "diving",
+    "fine dining",
+    "organic garden"
+  ],
   "photos": [
-    { "url": "/images/hotels/six-senses-con-dao-vietnam/hero.webp", "alt": "six-senses-con-dao-vietnam — hero", "type": "hero" },
-    { "url": "/images/hotels/six-senses-con-dao-vietnam/room.webp", "alt": "six-senses-con-dao-vietnam — room", "type": "room" },
-    { "url": "/images/hotels/six-senses-con-dao-vietnam/pool.webp", "alt": "six-senses-con-dao-vietnam — pool", "type": "pool" },
-    { "url": "/images/hotels/six-senses-con-dao-vietnam/spa.webp", "alt": "six-senses-con-dao-vietnam — spa", "type": "spa" },
-    { "url": "/images/hotels/six-senses-con-dao-vietnam/dining.webp", "alt": "six-senses-con-dao-vietnam — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/six-senses-con-dao-vietnam/hero.webp",
+      "alt": "six-senses-con-dao-vietnam — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/six-senses-con-dao-vietnam/room.webp",
+      "alt": "six-senses-con-dao-vietnam — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/six-senses-con-dao-vietnam/pool.webp",
+      "alt": "six-senses-con-dao-vietnam — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/six-senses-con-dao-vietnam/spa.webp",
+      "alt": "six-senses-con-dao-vietnam — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/six-senses-con-dao-vietnam/dining.webp",
+      "alt": "six-senses-con-dao-vietnam — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.4,
   "tripadvisor_award": true,
@@ -24,13 +72,41 @@
     "verdict": "Six Senses Con Dao sits on one of Vietnam's most remote and pristine island archipelagos — 16 islands virtually untouched by mass tourism, surrounded by a national marine park of extraordinary biodiversity. The resort's 50 pool villas are set among ironwood trees on the island's most beautiful beach, the sea turtle conservation programme allows honeymooners to witness hatchings, and Six Senses' signature wellness and spa philosophy ensures the deepest possible restoration. This is Vietnam's most remote luxury experience.",
     "best_room": "The Beach Pool Villas are directly on Dam Trau beach — private pool, steps to the sand, and the Con Son island's forested hills as a backdrop. The Ocean Pool Villas are elevated above the beach with panoramic South China Sea views and an infinity pool that seems to merge with the ocean at the horizon. The Hilltop Pool Villa is the most private option on the property, completely secluded with the resort's best views of the archipelago's other islands.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Con Dao Seclusion", "description": "The 45-minute flight from Ho Chi Minh City lands at Con Dao's small airport, after which a short transfer brings you to the resort on Dam Trau beach. The transition from urban Vietnam to this pristine island — forests, clean air, turquoise water — is instantaneous and profound. Welcome drinks by the beach club as the sun descends over the archipelago." },
-      { "day": 2, "title": "Sea Turtle Conservation", "description": "Con Dao is Vietnam's most important sea turtle nesting site — green and hawksbill turtles nest on the resort beach from May to October. The resort's marine biologist leads a dawn patrol to check the nests and, in season, monitor a hatching as dozens of tiny turtles make their first journey to the sea. A completely unforgettable experience for any couple." },
-      { "day": 3, "title": "Diving & Snorkelling", "description": "Con Dao National Marine Park has some of Vietnam's most pristine coral reefs — virtually no other international resort in the country has reefs of this quality. Morning two-tank dive with the resort's PADI centre on the outer reef wall: hawksbill turtles, barracuda schools, and sea fans of extraordinary size. Non-divers can snorkel the fringing reef directly from the beach." },
-      { "day": 4, "title": "Six Senses Spa Day", "description": "A dedicated wellness day: morning meditation on the beach platform at sunrise, followed by a three-hour Six Senses signature ritual for two — a Vietnamese herbal steam, coconut oil body treatment, and a combined-technique massage that draws on both traditional Vietnamese and Balinese healing methods. The organic garden supplies the evening's farm-to-table dinner." },
-      { "day": 5, "title": "Island Kayaking & Historical Con Dao", "description": "Kayak around the mangrove channels of Con Son island, where undisturbed vegetation lines the waterways and kingfishers hunt from overhanging branches. The afternoon visits the Con Dao Museum — the island's sobering history as a French colonial and American-era prison is important context for understanding modern Vietnam." },
-      { "day": 6, "title": "Private Island Picnic", "description": "The resort charters a traditional wooden boat to carry you to an uninhabited island in the Con Dao archipelago — completely deserted, pristine reef offshore, and a hamper of Con Dao specialties including crab, fresh coconut, and mango. An afternoon of paradise island living before returning to the resort for sunset yoga on the hillside pavilion." },
-      { "day": 7, "title": "Final Wellness Morning & Departure", "description": "Last sunrise on Dam Trau beach — arguably Vietnam's most beautiful beach. Morning in the Six Senses gym or a final swim before checkout. Fly back to Ho Chi Minh City or onward connection, carrying the island's peace inside you." }
+      {
+        "day": 1,
+        "title": "Arrival & Con Dao Seclusion",
+        "description": "The 45-minute flight from Ho Chi Minh City lands at Con Dao's small airport, after which a short transfer brings you to the resort on Dam Trau beach. The transition from urban Vietnam to this pristine island — forests, clean air, turquoise water — is instantaneous and profound. Welcome drinks by the beach club as the sun descends over the archipelago."
+      },
+      {
+        "day": 2,
+        "title": "Sea Turtle Conservation",
+        "description": "Con Dao is Vietnam's most important sea turtle nesting site — green and hawksbill turtles nest on the resort beach from May to October. The resort's marine biologist leads a dawn patrol to check the nests and, in season, monitor a hatching as dozens of tiny turtles make their first journey to the sea. A completely unforgettable experience for any couple."
+      },
+      {
+        "day": 3,
+        "title": "Diving & Snorkelling",
+        "description": "Con Dao National Marine Park has some of Vietnam's most pristine coral reefs — virtually no other international resort in the country has reefs of this quality. Morning two-tank dive with the resort's PADI centre on the outer reef wall: hawksbill turtles, barracuda schools, and sea fans of extraordinary size. Non-divers can snorkel the fringing reef directly from the beach."
+      },
+      {
+        "day": 4,
+        "title": "Six Senses Spa Day",
+        "description": "A dedicated wellness day: morning meditation on the beach platform at sunrise, followed by a three-hour Six Senses signature ritual for two — a Vietnamese herbal steam, coconut oil body treatment, and a combined-technique massage that draws on both traditional Vietnamese and Balinese healing methods. The organic garden supplies the evening's farm-to-table dinner."
+      },
+      {
+        "day": 5,
+        "title": "Island Kayaking & Historical Con Dao",
+        "description": "Kayak around the mangrove channels of Con Son island, where undisturbed vegetation lines the waterways and kingfishers hunt from overhanging branches. The afternoon visits the Con Dao Museum — the island's sobering history as a French colonial and American-era prison is important context for understanding modern Vietnam."
+      },
+      {
+        "day": 6,
+        "title": "Private Island Picnic",
+        "description": "The resort charters a traditional wooden boat to carry you to an uninhabited island in the Con Dao archipelago — completely deserted, pristine reef offshore, and a hamper of Con Dao specialties including crab, fresh coconut, and mango. An afternoon of paradise island living before returning to the resort for sunset yoga on the hillside pavilion."
+      },
+      {
+        "day": 7,
+        "title": "Final Wellness Morning & Departure",
+        "description": "Last sunrise on Dam Trau beach — arguably Vietnam's most beautiful beach. Morning in the Six Senses gym or a final swim before checkout. Fly back to Ho Chi Minh City or onward connection, carrying the island's peace inside you."
+      }
     ],
     "caveats": [
       "Con Dao is extremely remote with one small airstrip and one main operator (Vietnam Airlines/VASCO) from Ho Chi Minh City — flight schedules are limited and must be booked well in advance.",
@@ -38,12 +114,30 @@
       "Con Dao's isolation means limited shopping, nightlife, or urban activities — couples must be comfortable with pure nature and resort experience."
     ],
     "faqs": [
-      { "question": "Good for honeymooners?", "answer": "Six Senses Con Dao is outstanding for honeymooners who want total seclusion, pristine nature, and wellness. The sea turtle conservation programme is one of the world's most memorable honeymoon experiences, and the pristine marine park reefs are a once-in-a-lifetime diving and snorkelling destination. Couples who love nature and wellness will be transformed by this place." },
-      { "question": "Best time to visit?", "answer": "April through October is the dry season and optimal visit window — warm, calm seas, excellent diving visibility, and turtle nesting season (May-October). November through March brings more wind and swell; diving is more challenging but the resort and spa remain fully operational and rates are lower." },
-      { "question": "Book in advance?", "answer": "Flights to Con Dao are a critical constraint — book both the resort and the flights simultaneously, 3 to 6 months ahead. The resort itself is smaller with 50 villas; peak season fills by 4 months out. Beach Pool Villas are the most requested by honeymooners." },
-      { "question": "Adults-only?", "answer": "No — Six Senses Con Dao is family-friendly and has facilities for children. The remote island setting and conservation focus attract a thoughtful, nature-loving clientele. The villa configuration and resort layout ensure couples have ample privacy regardless of other guests." },
-      { "question": "Best room type?", "answer": "Beach Pool Villas for immediate sand access and the most romantic beach connection. Ocean Pool Villas for panoramic views and the infinity pool illusion. The Hilltop Pool Villa is the most exclusive and private option for couples wanting complete seclusion." },
-      { "question": "How to get there?", "answer": "Vietnam Airlines/VASCO operates daily flights from Ho Chi Minh City (Tan Son Nhat Airport) to Con Dao Airport — approximately 45 minutes. Flights are small turboprop aircraft and book out quickly. The resort coordinates transfers from the airport. Con Dao is not accessible from other Vietnamese cities directly." }
+      {
+        "question": "Good for honeymooners?",
+        "answer": "Six Senses Con Dao is outstanding for honeymooners who want total seclusion, pristine nature, and wellness. The sea turtle conservation programme is one of the world's most memorable honeymoon experiences, and the pristine marine park reefs are a once-in-a-lifetime diving and snorkelling destination. Couples who love nature and wellness will be transformed by this place."
+      },
+      {
+        "question": "Best time to visit?",
+        "answer": "April through October is the dry season and optimal visit window — warm, calm seas, excellent diving visibility, and turtle nesting season (May-October). November through March brings more wind and swell; diving is more challenging but the resort and spa remain fully operational and rates are lower."
+      },
+      {
+        "question": "Book in advance?",
+        "answer": "Flights to Con Dao are a critical constraint — book both the resort and the flights simultaneously, 3 to 6 months ahead. The resort itself is smaller with 50 villas; peak season fills by 4 months out. Beach Pool Villas are the most requested by honeymooners."
+      },
+      {
+        "question": "Adults-only?",
+        "answer": "No — Six Senses Con Dao is family-friendly and has facilities for children. The remote island setting and conservation focus attract a thoughtful, nature-loving clientele. The villa configuration and resort layout ensure couples have ample privacy regardless of other guests."
+      },
+      {
+        "question": "Best room type?",
+        "answer": "Beach Pool Villas for immediate sand access and the most romantic beach connection. Ocean Pool Villas for panoramic views and the infinity pool illusion. The Hilltop Pool Villa is the most exclusive and private option for couples wanting complete seclusion."
+      },
+      {
+        "question": "How to get there?",
+        "answer": "Vietnam Airlines/VASCO operates daily flights from Ho Chi Minh City (Tan Son Nhat Airport) to Con Dao Airport — approximately 45 minutes. Flights are small turboprop aircraft and book out quickly. The resort coordinates transfers from the airport. Con Dao is not accessible from other Vietnamese cities directly."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — Six Senses Con Dao\n\nDear Six Senses Con Dao reservations team,\n\nWe are planning our honeymoon [DATE]-[DATE] and are interested in a Beach Pool Villa [or Ocean Pool Villa]. Please advise on availability, flight coordination to Con Dao, turtle nesting activities for our dates, and any honeymoon packages.\n\nThank you,\n[Your names]"
   },

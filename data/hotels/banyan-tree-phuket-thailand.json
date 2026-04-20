@@ -3,7 +3,12 @@
   "name": "Banyan Tree Phuket",
   "destination": "thailand",
   "country": "thailand",
-  "experience_types": ["beach", "luxury", "wellness", "overwater-bungalows"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness",
+    "overwater-bungalows"
+  ],
   "honeymoon_score": 85,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +22,49 @@
     "luxury": 7
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 400, "max": 1200 },
+  "price_per_night_usd": {
+    "min": 400,
+    "max": 1200
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "beach", "room service", "butler service", "all-pool villas", "overwater villas", "multiple restaurants", "golf", "cycling"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beach",
+    "room service",
+    "butler service",
+    "all-pool villas",
+    "overwater villas",
+    "multiple restaurants",
+    "golf",
+    "cycling"
+  ],
   "photos": [
-    { "url": "/images/hotels/banyan-tree-phuket-thailand/hero.webp", "alt": "banyan-tree-phuket-thailand — hero", "type": "hero" },
-    { "url": "/images/hotels/banyan-tree-phuket-thailand/room.webp", "alt": "banyan-tree-phuket-thailand — room", "type": "room" },
-    { "url": "/images/hotels/banyan-tree-phuket-thailand/pool.webp", "alt": "banyan-tree-phuket-thailand — pool", "type": "pool" },
-    { "url": "/images/hotels/banyan-tree-phuket-thailand/spa.webp", "alt": "banyan-tree-phuket-thailand — spa", "type": "spa" },
-    { "url": "/images/hotels/banyan-tree-phuket-thailand/dining.webp", "alt": "banyan-tree-phuket-thailand — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/banyan-tree-phuket-thailand/hero.webp",
+      "alt": "banyan-tree-phuket-thailand — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/banyan-tree-phuket-thailand/room.webp",
+      "alt": "banyan-tree-phuket-thailand — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/banyan-tree-phuket-thailand/pool.webp",
+      "alt": "banyan-tree-phuket-thailand — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/banyan-tree-phuket-thailand/spa.webp",
+      "alt": "banyan-tree-phuket-thailand — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/banyan-tree-phuket-thailand/dining.webp",
+      "alt": "banyan-tree-phuket-thailand — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.1,
   "tripadvisor_award": true,
@@ -34,13 +73,41 @@
     "verdict": "Banyan Tree Phuket pioneered the all-pool villa resort concept in Thailand and remains the most acclaimed spa resort in Phuket, having won Travel + Leisure's Best Spa Resort in Asia multiple times. The resort sits within the Laguna Phuket complex on Bang Tao Bay on the north Andaman coast — its 84 pool villas are surrounded by lagoons and tropical gardens, and the award-winning Banyan Tree Spa is the most celebrated spa experience on the island. A unique feature is the Overwater Villas on the resort's lagoons, offering a maldives-style overwater experience within Thailand.",
     "best_room": "Book an Overwater Villa for the quintessential Banyan Tree experience — a villa built directly over the lagoon with a private sun deck, glass floor panels revealing the water below, and a plunge pool at the edge of the deck. For budget-conscious honeymooners, the Lagoon Pool Villas offer private pools overlooking the water at a more accessible price. All accommodations are stand-alone pool villas.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Overwater Villa", "description": "Transfer from Phuket Airport (40 minutes) to the Laguna Phuket complex on Bang Tao Bay. Check in to your villa and let the Banyan Tree's iconic butler service take over — a welcome fruit basket, orchid arrangement, and candlelit bath are already waiting. Walk to the nearby Bang Tao Beach for a sunset stroll, then dine at Saffron restaurant for Thai cuisine accompanied by traditional dance performance." },
-      { "day": 2, "title": "Banyan Tree Spa", "description": "The Banyan Tree Spa is legendary in Phuket — book the Thai Harmony treatment, a traditional Thai massage combined with herbal steam and aromatic body wrap, in the couples' pavilion set amid tropical gardens. The two-hour Royal Banyan treatment is the flagship experience, using herbal ingredients sourced from Thailand's northern highlands. Post-spa, recover in your lagoon villa." },
-      { "day": 3, "title": "Phi Phi Islands Day Trip", "description": "Board a speedboat from Bang Tao Bay for a private full-day excursion to the Phi Phi Islands — the legendary limestone island group made globally famous by The Beach. Snorkel in Maya Bay, visit the viewpoint on Koh Phi Phi Don, and anchor in a quiet cove for lunch. The Phi Phi snorkeling, with good visibility and abundant reef fish, is among the best in the Andaman." },
-      { "day": 4, "title": "Laguna Phuket Cycling & Bang Tao Beach", "description": "Collect bicycles from the hotel and explore the interconnected Laguna Phuket resort complex by bike — a collection of five luxury hotels linked by lagoons, gardens, and a private beach that stretches 1.5 kilometers. Bang Tao Beach is one of Phuket's longest, widest, and least crowded strands — spend the afternoon here with the hotel's beach service and cold beers." },
-      { "day": 5, "title": "Cooking Class & Sunset by the Lagoon", "description": "Join Banyan Tree's signature Thai cooking class in the resort's culinary studio — a 3-hour morning class covering Thai curry paste from scratch, pad thai, and traditional mango sticky rice. In the evening, request the Rainforest Romance package: a private candlelit dinner set on the lagoon deck of your overwater villa as fireflies and the sound of tropical crickets complete the mood." },
-      { "day": 6, "title": "Spa Return & Phuket Night Market", "description": "Indulge in a second spa session — the Reviving Voyage (hot and cold stone therapy with lymphatic massage) is the perfect mid-week refresh. In the evening, take the hotel car to the Phuket Weekend Night Market in Phuket Town for an authentic experience of local street food, traditional Thai desserts, and live music. Budget $10 for an extraordinary dinner." },
-      { "day": 7, "title": "Farewell Morning", "description": "Wake early and sit on the deck of your overwater villa, watching the lagoon shimmer in the morning light and listening to birdsong from the garden. A final breakfast in bed delivered by the butler, then a slow pack and the drive to Phuket Airport — carrying home the memory of the villa over water and the spa that made all the tension leave your body." }
+      {
+        "day": 1,
+        "title": "Arrival & Overwater Villa",
+        "description": "Transfer from Phuket Airport (40 minutes) to the Laguna Phuket complex on Bang Tao Bay. Check in to your villa and let the Banyan Tree's iconic butler service take over — a welcome fruit basket, orchid arrangement, and candlelit bath are already waiting. Walk to the nearby Bang Tao Beach for a sunset stroll, then dine at Saffron restaurant for Thai cuisine accompanied by traditional dance performance."
+      },
+      {
+        "day": 2,
+        "title": "Banyan Tree Spa",
+        "description": "The Banyan Tree Spa is legendary in Phuket — book the Thai Harmony treatment, a traditional Thai massage combined with herbal steam and aromatic body wrap, in the couples' pavilion set amid tropical gardens. The two-hour Royal Banyan treatment is the flagship experience, using herbal ingredients sourced from Thailand's northern highlands. Post-spa, recover in your lagoon villa."
+      },
+      {
+        "day": 3,
+        "title": "Phi Phi Islands Day Trip",
+        "description": "Board a speedboat from Bang Tao Bay for a private full-day excursion to the Phi Phi Islands — the legendary limestone island group made globally famous by The Beach. Snorkel in Maya Bay, visit the viewpoint on Koh Phi Phi Don, and anchor in a quiet cove for lunch. The Phi Phi snorkeling, with good visibility and abundant reef fish, is among the best in the Andaman."
+      },
+      {
+        "day": 4,
+        "title": "Laguna Phuket Cycling & Bang Tao Beach",
+        "description": "Collect bicycles from the hotel and explore the interconnected Laguna Phuket resort complex by bike — a collection of five luxury hotels linked by lagoons, gardens, and a private beach that stretches 1.5 kilometers. Bang Tao Beach is one of Phuket's longest, widest, and least crowded strands — spend the afternoon here with the hotel's beach service and cold beers."
+      },
+      {
+        "day": 5,
+        "title": "Cooking Class & Sunset by the Lagoon",
+        "description": "Join Banyan Tree's signature Thai cooking class in the resort's culinary studio — a 3-hour morning class covering Thai curry paste from scratch, pad thai, and traditional mango sticky rice. In the evening, request the Rainforest Romance package: a private candlelit dinner set on the lagoon deck of your overwater villa as fireflies and the sound of tropical crickets complete the mood."
+      },
+      {
+        "day": 6,
+        "title": "Spa Return & Phuket Night Market",
+        "description": "Indulge in a second spa session — the Reviving Voyage (hot and cold stone therapy with lymphatic massage) is the perfect mid-week refresh. In the evening, take the hotel car to the Phuket Weekend Night Market in Phuket Town for an authentic experience of local street food, traditional Thai desserts, and live music. Budget $10 for an extraordinary dinner."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "Wake early and sit on the deck of your overwater villa, watching the lagoon shimmer in the morning light and listening to birdsong from the garden. A final breakfast in bed delivered by the butler, then a slow pack and the drive to Phuket Airport — carrying home the memory of the villa over water and the spa that made all the tension leave your body."
+      }
     ],
     "caveats": [
       "Banyan Tree Phuket is located within the Laguna Phuket resort complex, which encompasses multiple hotels and a shopping village — while the resort itself is peaceful, the surrounding area is quite commercial and resort-dense.",

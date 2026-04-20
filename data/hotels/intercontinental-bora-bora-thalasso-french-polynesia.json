@@ -3,19 +3,67 @@
   "name": "InterContinental Bora Bora Resort & Thalasso Spa",
   "destination": "french-polynesia",
   "country": "french-polynesia",
-  "experience_types": ["beach", "luxury", "overwater-bungalows", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "overwater-bungalows",
+    "wellness"
+  ],
   "honeymoon_score": 91,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 18, "spa": 15, "award": 15, "pool": 10, "beach": 10, "room_service": 5, "stars": 10, "luxury": 8 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 18,
+    "spa": 15,
+    "award": 15,
+    "pool": 10,
+    "beach": 10,
+    "room_service": 5,
+    "stars": 10,
+    "luxury": 8
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 800, "max": 3000 },
+  "price_per_night_usd": {
+    "min": 800,
+    "max": 3000
+  },
   "adults_only": false,
-  "amenities": ["spa", "overwater villas", "beach", "pool", "butler service", "snorkeling", "thalasso therapy", "deep seawater air conditioning", "lagoon access"],
+  "amenities": [
+    "spa",
+    "overwater villas",
+    "beach",
+    "pool",
+    "butler service",
+    "snorkeling",
+    "thalasso therapy",
+    "deep seawater air conditioning",
+    "lagoon access"
+  ],
   "photos": [
-    { "url": "/images/hotels/intercontinental-bora-bora-thalasso-french-polynesia/hero.webp", "alt": "intercontinental-bora-bora-thalasso-french-polynesia — hero", "type": "hero" },
-    { "url": "/images/hotels/intercontinental-bora-bora-thalasso-french-polynesia/room.webp", "alt": "intercontinental-bora-bora-thalasso-french-polynesia — room", "type": "room" },
-    { "url": "/images/hotels/intercontinental-bora-bora-thalasso-french-polynesia/pool.webp", "alt": "intercontinental-bora-bora-thalasso-french-polynesia — pool", "type": "pool" },
-    { "url": "/images/hotels/intercontinental-bora-bora-thalasso-french-polynesia/spa.webp", "alt": "intercontinental-bora-bora-thalasso-french-polynesia — spa", "type": "spa" },
-    { "url": "/images/hotels/intercontinental-bora-bora-thalasso-french-polynesia/dining.webp", "alt": "intercontinental-bora-bora-thalasso-french-polynesia — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/intercontinental-bora-bora-thalasso-french-polynesia/hero.webp",
+      "alt": "intercontinental-bora-bora-thalasso-french-polynesia — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/intercontinental-bora-bora-thalasso-french-polynesia/room.webp",
+      "alt": "intercontinental-bora-bora-thalasso-french-polynesia — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/intercontinental-bora-bora-thalasso-french-polynesia/pool.webp",
+      "alt": "intercontinental-bora-bora-thalasso-french-polynesia — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/intercontinental-bora-bora-thalasso-french-polynesia/spa.webp",
+      "alt": "intercontinental-bora-bora-thalasso-french-polynesia — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/intercontinental-bora-bora-thalasso-french-polynesia/dining.webp",
+      "alt": "intercontinental-bora-bora-thalasso-french-polynesia — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.2,
   "tripadvisor_award": true,
@@ -24,13 +72,41 @@
     "verdict": "The InterContinental Bora Bora Resort & Thalasso Spa on Motu Piti Aau combines classic overwater bungalow romance with a world first: the only resort powered by deep seawater air conditioning, drawing cold water from 900m below the lagoon's surface to cool rooms naturally. With 80 overwater bungalows and a thalassotherapy spa unique in the Pacific, it is one of the most technologically innovative — and genuinely romantic — places to honeymoon in Bora Bora.",
     "best_room": "The Premium Overwater Bungalow with lagoon-facing deck is the sweet spot for honeymooners — spacious enough for a king bed, outdoor sun loungers, and a private ladder directly into the stunning turquoise lagoon, with unobstructed views of Mount Otemanu rising dramatically across the water. The glass floor panel lets you watch fish glide beneath you from the comfort of your room.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Lagoon Welcome", "description": "Transfer by speedboat from Bora Bora airport to Motu Piti Aau, greeted with tiare flower crowns and fresh coconut. Spend the first evening unwinding on your overwater deck watching the sunset paint Mount Otemanu shades of gold and pink over a welcome champagne." },
-      { "day": 2, "title": "Thalasso Spa Day", "description": "Book back-to-back thalasso treatments at the Deep Ocean Spa — the signature Deep Ocean Thalasso circuit uses seawater drawn from 900m depths for mineral-rich hydrotherapy pools, jet showers, and a couple's massage with Polynesian monoi oil. This is the resort's crown jewel experience." },
-      { "day": 3, "title": "Lagoon Snorkeling & Sharks", "description": "Join a guided lagoon excursion to snorkel with blacktip reef sharks and lemon sharks in the shallow waters around the motu. Rays glide beneath you while colourful reef fish dart through the coral. Return for a slow afternoon swim from your bungalow ladder." },
-      { "day": 4, "title": "Motu Picnic Excursion", "description": "Arrange a private boat to a deserted motu for a champagne picnic — the resort sets up a table in the sand, freshly caught seafood, and chilled Polynesian rosé. Snorkel the surrounding patch reef before returning for a sunset cocktail at the overwater bar." },
-      { "day": 5, "title": "Jet Ski Safari & Pearl Farm", "description": "Rent jet skis for a guided lagoon safari to the pearl farms and shallow coral gardens on the far side of Bora Bora. This afternoon, book a second spa treatment — the couples' deep ocean ritual is two hours of pure indulgence." },
-      { "day": 6, "title": "Private Dining & Stargazing", "description": "Arrange a private in-bungalow dinner — the resort's chef sends a four-course Polynesian-French menu directly to your deck, with candles set over the lagoon as the sun goes down. With no light pollution on the motu, the night sky after dinner is spectacular." },
-      { "day": 7, "title": "Final Swim & Departure", "description": "Rise at dawn for a last snorkel directly from your bungalow ladder — the early morning light turns the lagoon an extraordinary shade of cyan. Enjoy a long farewell breakfast before the speedboat transfer back to the main island for your onward journey." }
+      {
+        "day": 1,
+        "title": "Arrival & Lagoon Welcome",
+        "description": "Transfer by speedboat from Bora Bora airport to Motu Piti Aau, greeted with tiare flower crowns and fresh coconut. Spend the first evening unwinding on your overwater deck watching the sunset paint Mount Otemanu shades of gold and pink over a welcome champagne."
+      },
+      {
+        "day": 2,
+        "title": "Thalasso Spa Day",
+        "description": "Book back-to-back thalasso treatments at the Deep Ocean Spa — the signature Deep Ocean Thalasso circuit uses seawater drawn from 900m depths for mineral-rich hydrotherapy pools, jet showers, and a couple's massage with Polynesian monoi oil. This is the resort's crown jewel experience."
+      },
+      {
+        "day": 3,
+        "title": "Lagoon Snorkeling & Sharks",
+        "description": "Join a guided lagoon excursion to snorkel with blacktip reef sharks and lemon sharks in the shallow waters around the motu. Rays glide beneath you while colourful reef fish dart through the coral. Return for a slow afternoon swim from your bungalow ladder."
+      },
+      {
+        "day": 4,
+        "title": "Motu Picnic Excursion",
+        "description": "Arrange a private boat to a deserted motu for a champagne picnic — the resort sets up a table in the sand, freshly caught seafood, and chilled Polynesian rosé. Snorkel the surrounding patch reef before returning for a sunset cocktail at the overwater bar."
+      },
+      {
+        "day": 5,
+        "title": "Jet Ski Safari & Pearl Farm",
+        "description": "Rent jet skis for a guided lagoon safari to the pearl farms and shallow coral gardens on the far side of Bora Bora. This afternoon, book a second spa treatment — the couples' deep ocean ritual is two hours of pure indulgence."
+      },
+      {
+        "day": 6,
+        "title": "Private Dining & Stargazing",
+        "description": "Arrange a private in-bungalow dinner — the resort's chef sends a four-course Polynesian-French menu directly to your deck, with candles set over the lagoon as the sun goes down. With no light pollution on the motu, the night sky after dinner is spectacular."
+      },
+      {
+        "day": 7,
+        "title": "Final Swim & Departure",
+        "description": "Rise at dawn for a last snorkel directly from your bungalow ladder — the early morning light turns the lagoon an extraordinary shade of cyan. Enjoy a long farewell breakfast before the speedboat transfer back to the main island for your onward journey."
+      }
     ],
     "caveats": [
       "The resort is on a motu (small island) separated from Bora Bora's main island and village, so dining and nightlife off-resort requires a boat ride; most couples find the resort's own restaurants entirely sufficient.",
@@ -38,12 +114,30 @@
       "The Bora Bora lagoon mosquito population increases during rainy season (November–April); the resort provides repellent but outdoor evening dining can be affected."
     ],
     "faqs": [
-      { "question": "Is the InterContinental Bora Bora good for honeymooners?", "answer": "Absolutely. The combination of overwater bungalows directly above the lagoon, the world's only deep seawater thalasso spa, and the spectacular Mount Otemanu backdrop makes it one of Bora Bora's top honeymoon choices." },
-      { "question": "What is the best time to visit?", "answer": "May through October is the dry season with reliable sunshine and calm lagoon conditions — ideal for snorkeling and outdoor dining. July and August are peak season and the most expensive, but also the most beautiful." },
-      { "question": "How far in advance should you book?", "answer": "Book 4-6 months in advance for peak season (July-August and December-January). Honeymoon packages often include added value and can be arranged closer to the date in shoulder season." },
-      { "question": "Is the resort adults-only?", "answer": "No, but the vast majority of guests are couples. The resort's romantic atmosphere and overwater bungalow format means families are rare, and the intimate scale of the motu ensures privacy." },
-      { "question": "What makes the Thalasso Spa unique?", "answer": "It is the world's first resort to use deep seawater air conditioning — drawing 900m-deep ocean water also powers the spa's thalassotherapy pools, rich in minerals. The Deep Ocean treatments are unlike anything available elsewhere in Polynesia." },
-      { "question": "How do you get to the resort?", "answer": "Fly into Bora Bora airport (via Papeete), then take the resort's private speedboat transfer to Motu Piti Aau — approximately 10 minutes across the lagoon." }
+      {
+        "question": "Is the InterContinental Bora Bora good for honeymooners?",
+        "answer": "Absolutely. The combination of overwater bungalows directly above the lagoon, the world's only deep seawater thalasso spa, and the spectacular Mount Otemanu backdrop makes it one of Bora Bora's top honeymoon choices."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "May through October is the dry season with reliable sunshine and calm lagoon conditions — ideal for snorkeling and outdoor dining. July and August are peak season and the most expensive, but also the most beautiful."
+      },
+      {
+        "question": "How far in advance should you book?",
+        "answer": "Book 4-6 months in advance for peak season (July-August and December-January). Honeymoon packages often include added value and can be arranged closer to the date in shoulder season."
+      },
+      {
+        "question": "Is the resort adults-only?",
+        "answer": "No, but the vast majority of guests are couples. The resort's romantic atmosphere and overwater bungalow format means families are rare, and the intimate scale of the motu ensures privacy."
+      },
+      {
+        "question": "What makes the Thalasso Spa unique?",
+        "answer": "It is the world's first resort to use deep seawater air conditioning — drawing 900m-deep ocean water also powers the spa's thalassotherapy pools, rich in minerals. The Deep Ocean treatments are unlike anything available elsewhere in Polynesia."
+      },
+      {
+        "question": "How do you get to the resort?",
+        "answer": "Fly into Bora Bora airport (via Papeete), then take the resort's private speedboat transfer to Motu Piti Aau — approximately 10 minutes across the lagoon."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — InterContinental Bora Bora Resort & Thalasso Spa\n\nDear team,\n\nWe are planning our honeymoon [DATE]-[DATE] and interested in a Premium Overwater Bungalow with lagoon views. Please advise on availability, honeymoon packages including spa credits, and whether a private in-bungalow dinner can be arranged.\n\nThank you,\n[Your names]"
   },

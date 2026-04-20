@@ -3,7 +3,10 @@
   "name": "Gora Kadan",
   "destination": "japan",
   "country": "japan",
-  "experience_types": ["luxury", "wellness"],
+  "experience_types": [
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 89,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +20,46 @@
     "luxury": 5
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 500, "max": 2000 },
+  "price_per_night_usd": {
+    "min": 500,
+    "max": 2000
+  },
   "adults_only": false,
-  "amenities": ["spa", "onsen", "room service", "restaurant", "bar", "private open-air baths", "garden"],
+  "amenities": [
+    "spa",
+    "onsen",
+    "room service",
+    "restaurant",
+    "bar",
+    "private open-air baths",
+    "garden"
+  ],
   "photos": [
-    { "url": "/images/hotels/gora-kadan-hakone-japan/hero.webp", "alt": "gora-kadan-hakone-japan — hero", "type": "hero" },
-    { "url": "/images/hotels/gora-kadan-hakone-japan/room.webp", "alt": "gora-kadan-hakone-japan — room", "type": "room" },
-    { "url": "/images/hotels/gora-kadan-hakone-japan/pool.webp", "alt": "gora-kadan-hakone-japan — pool", "type": "pool" },
-    { "url": "/images/hotels/gora-kadan-hakone-japan/spa.webp", "alt": "gora-kadan-hakone-japan — spa", "type": "spa" },
-    { "url": "/images/hotels/gora-kadan-hakone-japan/dining.webp", "alt": "gora-kadan-hakone-japan — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/gora-kadan-hakone-japan/hero.webp",
+      "alt": "gora-kadan-hakone-japan — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/gora-kadan-hakone-japan/room.webp",
+      "alt": "gora-kadan-hakone-japan — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/gora-kadan-hakone-japan/pool.webp",
+      "alt": "gora-kadan-hakone-japan — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/gora-kadan-hakone-japan/spa.webp",
+      "alt": "gora-kadan-hakone-japan — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/gora-kadan-hakone-japan/dining.webp",
+      "alt": "gora-kadan-hakone-japan — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.4,
   "tripadvisor_award": true,
@@ -34,13 +68,41 @@
     "verdict": "Gora Kadan carries an exceptional pedigree — built on the grounds of an Imperial villa that once hosted the Japanese royal family, this 38-room ryokan in Hakone combines old-world grandeur with the therapeutic sulphur-rich hot springs of the Owakudani volcanic valley. Mt Fuji views from select rooms and terraces, private open-air onsen baths, and meticulous kaiseki cuisine make it one of the most romantic and historically resonant ryokan in Japan.",
     "best_room": "The Detached Villa Rooms (Hanare) offer the greatest privacy and most dramatic settings — each has a private open-air onsen bath with mountain views and a dedicated garden terrace. Room 601 and 602 in the main building command the best Mt Fuji views on clear mornings. For the ultimate romantic space, request the Kaden Suite with private rotenburo and forest garden.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Imperial Welcome", "description": "The Hakone Tozan Railway delivers you to Gora Station, from where a short taxi ride ascends to the ryokan's historic hillside grounds. Your attendant meets you at the entrance in formal kimono, guides you through the preserved Imperial villa gardens, and introduces your suite. An in-room welcome of local wagashi sweets and matcha is followed by your first private onsen soak. Dinner is a kaiseki sequence in the main dining pavilion, all volcanic-mineral hot spring waters in the bath." },
-      { "day": 2, "title": "Mt Fuji Morning & Open-Air Bath", "description": "Set an alarm for 5:30am if skies are forecast clear — Mt Fuji is most visible in early morning before cloud builds. The rotenburo on your terrace or in the shared outdoor bath with mountain views is the place to watch the sunrise paint the volcano pink. Breakfast is a traditional Japanese spread. In the afternoon, explore the Hakone Open Air Museum — one of Japan's finest sculpture parks, 20 minutes by train." },
-      { "day": 3, "title": "Owakudani Volcanic Valley", "description": "Take the Hakone Ropeway over the Owakudani volcanic crater — clouds of sulphur steam, boiling mud pools, and the classic cone of Mt Fuji across Lake Ashi. Try the local black eggs hard-boiled in volcanic spring water. Return to the ryokan for an afternoon in the spa, where the medicinal waters are said to add years to your life by local legend." },
-      { "day": 4, "title": "Lake Ashi Cruise & Hakone Shrine", "description": "Board a lake pirate ship across glass-smooth Lake Ashi to the vermilion torii gate of Hakone Shrine standing in the water — one of Japan's most photographed Shinto images. Walk the ancient cedar-lined approach to the shrine together and make your honeymoon vows to the mountain gods. The hotel packs a lacquerware bento lunch for the lakeshore. Return for a long, healing evening in the onsen." },
-      { "day": 5, "title": "Full Ryokan Day", "description": "Resist the urge to leave the grounds. Gora Kadan's spa offers a full programme of treatments drawing on Hakone's medicinal spring waters — the volcanic mineral bath ritual and hot stone massage together form a two-hour journey. Between treatments, read in the garden or sit by the stream. The evening kaiseki is the chef's longest menu: 14 courses of Hakone and Kanagawa Prefecture seasonal produce." },
-      { "day": 6, "title": "Odawara Castle Town", "description": "A short train ride down the mountain brings you to Odawara, a well-preserved castle town on Sagami Bay. Odawara Castle's hilltop garden has sweeping sea views. The town is famous for kamaboko (fish cake) and hand-hammered copperware workshops — visit the Mishima-ya workshop for a private copperware hammering experience. Return to Gora Kadan for the penultimate night soak." },
-      { "day": 7, "title": "Farewell Morning", "description": "Use your private rotenburo at dawn one final time — the ritual of steaming spring water on a cold mountain morning is Gora Kadan's greatest gift. A formal checkout breakfast includes seasonal porridge, pickled mountain vegetables, and soft-cooked egg. The ryokan staff lines up at the entrance for a traditional farewell, a gesture of warmth that epitomises omotenashi hospitality." }
+      {
+        "day": 1,
+        "title": "Arrival & Imperial Welcome",
+        "description": "The Hakone Tozan Railway delivers you to Gora Station, from where a short taxi ride ascends to the ryokan's historic hillside grounds. Your attendant meets you at the entrance in formal kimono, guides you through the preserved Imperial villa gardens, and introduces your suite. An in-room welcome of local wagashi sweets and matcha is followed by your first private onsen soak. Dinner is a kaiseki sequence in the main dining pavilion, all volcanic-mineral hot spring waters in the bath."
+      },
+      {
+        "day": 2,
+        "title": "Mt Fuji Morning & Open-Air Bath",
+        "description": "Set an alarm for 5:30am if skies are forecast clear — Mt Fuji is most visible in early morning before cloud builds. The rotenburo on your terrace or in the shared outdoor bath with mountain views is the place to watch the sunrise paint the volcano pink. Breakfast is a traditional Japanese spread. In the afternoon, explore the Hakone Open Air Museum — one of Japan's finest sculpture parks, 20 minutes by train."
+      },
+      {
+        "day": 3,
+        "title": "Owakudani Volcanic Valley",
+        "description": "Take the Hakone Ropeway over the Owakudani volcanic crater — clouds of sulphur steam, boiling mud pools, and the classic cone of Mt Fuji across Lake Ashi. Try the local black eggs hard-boiled in volcanic spring water. Return to the ryokan for an afternoon in the spa, where the medicinal waters are said to add years to your life by local legend."
+      },
+      {
+        "day": 4,
+        "title": "Lake Ashi Cruise & Hakone Shrine",
+        "description": "Board a lake pirate ship across glass-smooth Lake Ashi to the vermilion torii gate of Hakone Shrine standing in the water — one of Japan's most photographed Shinto images. Walk the ancient cedar-lined approach to the shrine together and make your honeymoon vows to the mountain gods. The hotel packs a lacquerware bento lunch for the lakeshore. Return for a long, healing evening in the onsen."
+      },
+      {
+        "day": 5,
+        "title": "Full Ryokan Day",
+        "description": "Resist the urge to leave the grounds. Gora Kadan's spa offers a full programme of treatments drawing on Hakone's medicinal spring waters — the volcanic mineral bath ritual and hot stone massage together form a two-hour journey. Between treatments, read in the garden or sit by the stream. The evening kaiseki is the chef's longest menu: 14 courses of Hakone and Kanagawa Prefecture seasonal produce."
+      },
+      {
+        "day": 6,
+        "title": "Odawara Castle Town",
+        "description": "A short train ride down the mountain brings you to Odawara, a well-preserved castle town on Sagami Bay. Odawara Castle's hilltop garden has sweeping sea views. The town is famous for kamaboko (fish cake) and hand-hammered copperware workshops — visit the Mishima-ya workshop for a private copperware hammering experience. Return to Gora Kadan for the penultimate night soak."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "Use your private rotenburo at dawn one final time — the ritual of steaming spring water on a cold mountain morning is Gora Kadan's greatest gift. A formal checkout breakfast includes seasonal porridge, pickled mountain vegetables, and soft-cooked egg. The ryokan staff lines up at the entrance for a traditional farewell, a gesture of warmth that epitomises omotenashi hospitality."
+      }
     ],
     "caveats": [
       "Mt Fuji views are weather-dependent — the mountain is frequently hidden by cloud, particularly in summer (rainy season June–July) and on humid autumn days. Clear views are most reliable October–February. Manage expectations and enjoy the ryokan experience regardless.",
@@ -48,12 +110,30 @@
       "Gora Kadan is considered a premium ryokan but not quite at the same price tier as Aman or Amanemu; it offers outstanding value for its quality, though prices still climb significantly during cherry blossom and foliage peak seasons."
     ],
     "faqs": [
-      { "question": "Is Gora Kadan good for honeymooners?", "answer": "Very much so. The combination of Imperial villa heritage, private open-air onsen baths, scenic Hakone landscape, and deeply personal service creates a honeymoon experience grounded in authentic Japanese culture. The hotel is experienced at honeymooner requests — from in-suite rose petal preparations to private kaiseki dinners by lantern light in the garden." },
-      { "question": "What is the best time to visit?", "answer": "October to early December offers spectacular crimson maple foliage on the mountains around Hakone, combined with the best Mt Fuji visibility. Late March to early April brings cherry blossom. Winter (January–February) is cold but offers the clearest Fuji views and the most therapeutic contrast between cold air and hot onsen water. Summer is more crowded and humid." },
-      { "question": "What should we book in advance?", "answer": "Request a room with Mt Fuji views when booking — these are limited and high-demand. Spa treatments should be reserved on or before arrival day. The concierge can arrange a private guided sunrise Fuji viewing session with local photography guides if booked in advance." },
-      { "question": "Is it adults-only?", "answer": "No, but the ryokan's solemn sense of heritage and the onsen etiquette norms create a naturally adult atmosphere. Families visit but honeymooners and couples celebrating special occasions are the majority of guests." },
-      { "question": "What's the best room for a honeymoon?", "answer": "A Detached Villa Room (Hanare) with private outdoor onsen and garden is the ideal honeymoon choice — maximum privacy, your own thermal spring, and forest or mountain views from the tub. In the main building, rooms on upper floors with Mt Fuji view designation are highly prized on clear days." },
-      { "question": "How do we get there?", "answer": "From Tokyo: Odakyu Romance Car direct train from Shinjuku to Hakone-Yumoto (approximately 85 minutes), then Hakone Tozan Railway to Gora Station (40 minutes), then taxi to Gora Kadan (5 minutes). Alternatively, the Shinkansen to Odawara (30 minutes from Tokyo) then Hakone Tozan Railway. The total journey from central Tokyo is under two hours, making a Tokyo-Hakone split very easy." }
+      {
+        "question": "Is Gora Kadan good for honeymooners?",
+        "answer": "Very much so. The combination of Imperial villa heritage, private open-air onsen baths, scenic Hakone landscape, and deeply personal service creates a honeymoon experience grounded in authentic Japanese culture. The hotel is experienced at honeymooner requests — from in-suite rose petal preparations to private kaiseki dinners by lantern light in the garden."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "October to early December offers spectacular crimson maple foliage on the mountains around Hakone, combined with the best Mt Fuji visibility. Late March to early April brings cherry blossom. Winter (January–February) is cold but offers the clearest Fuji views and the most therapeutic contrast between cold air and hot onsen water. Summer is more crowded and humid."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "Request a room with Mt Fuji views when booking — these are limited and high-demand. Spa treatments should be reserved on or before arrival day. The concierge can arrange a private guided sunrise Fuji viewing session with local photography guides if booked in advance."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "No, but the ryokan's solemn sense of heritage and the onsen etiquette norms create a naturally adult atmosphere. Families visit but honeymooners and couples celebrating special occasions are the majority of guests."
+      },
+      {
+        "question": "What's the best room for a honeymoon?",
+        "answer": "A Detached Villa Room (Hanare) with private outdoor onsen and garden is the ideal honeymoon choice — maximum privacy, your own thermal spring, and forest or mountain views from the tub. In the main building, rooms on upper floors with Mt Fuji view designation are highly prized on clear days."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "From Tokyo: Odakyu Romance Car direct train from Shinjuku to Hakone-Yumoto (approximately 85 minutes), then Hakone Tozan Railway to Gora Station (40 minutes), then taxi to Gora Kadan (5 minutes). Alternatively, the Shinkansen to Odawara (30 minutes from Tokyo) then Hakone Tozan Railway. The total journey from central Tokyo is under two hours, making a Tokyo-Hakone split very easy."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Gora Kadan\n\nDear Gora Kadan team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: a Detached Villa Room with private open-air onsen bath, ideally with Mt Fuji views.\n\nCould you please let us know:\n- Current availability for our dates\n- Any honeymoon packages or complimentary amenities\n- Room options with both private rotenburo and Mt Fuji views\n\nThank you for your time.\n\n[Your names]"
   },

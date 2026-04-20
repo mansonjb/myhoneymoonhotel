@@ -3,7 +3,10 @@
   "name": "Palmizana Meneghello",
   "destination": "croatia",
   "country": "croatia",
-  "experience_types": ["beach", "luxury"],
+  "experience_types": [
+    "beach",
+    "luxury"
+  ],
   "honeymoon_score": 80,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,30 +20,90 @@
     "luxury": 5
   },
   "stars": 4,
-  "price_per_night_usd": { "min": 300, "max": 900 },
+  "price_per_night_usd": {
+    "min": 300,
+    "max": 900
+  },
   "adults_only": false,
-  "amenities": ["beach", "restaurant", "bar", "garden", "art collection", "snorkelling", "boat taxi service", "bohemian lounge areas"],
-  "photos": [
-    { "url": "/images/hotels/palmizana-meneghello-hvar-croatia/hero.webp", "alt": "palmizana-meneghello-hvar-croatia — hero", "type": "hero" },
-    { "url": "/images/hotels/palmizana-meneghello-hvar-croatia/room.webp", "alt": "palmizana-meneghello-hvar-croatia — room", "type": "room" },
-    { "url": "/images/hotels/palmizana-meneghello-hvar-croatia/pool.webp", "alt": "palmizana-meneghello-hvar-croatia — pool", "type": "pool" },
-    { "url": "/images/hotels/palmizana-meneghello-hvar-croatia/spa.webp", "alt": "palmizana-meneghello-hvar-croatia — spa", "type": "spa" },
-    { "url": "/images/hotels/palmizana-meneghello-hvar-croatia/dining.webp", "alt": "palmizana-meneghello-hvar-croatia — dining", "type": "dining" }
+  "amenities": [
+    "beach",
+    "restaurant",
+    "bar",
+    "garden",
+    "art collection",
+    "snorkelling",
+    "boat taxi service",
+    "bohemian lounge areas"
   ],
-  "tripadvisor_rating": 9.0,
+  "photos": [
+    {
+      "url": "/images/hotels/palmizana-meneghello-hvar-croatia/hero.webp",
+      "alt": "palmizana-meneghello-hvar-croatia — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/palmizana-meneghello-hvar-croatia/room.webp",
+      "alt": "palmizana-meneghello-hvar-croatia — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/palmizana-meneghello-hvar-croatia/pool.webp",
+      "alt": "palmizana-meneghello-hvar-croatia — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/palmizana-meneghello-hvar-croatia/spa.webp",
+      "alt": "palmizana-meneghello-hvar-croatia — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/palmizana-meneghello-hvar-croatia/dining.webp",
+      "alt": "palmizana-meneghello-hvar-croatia — dining",
+      "type": "dining"
+    }
+  ],
+  "tripadvisor_rating": 9,
   "tripadvisor_award": false,
   "couples_review_pct": 72,
   "content": {
     "verdict": "Palmizana Meneghello is one of the most original and enchanting places to stay in the entire Adriatic — a family-created bohemian paradise on the car-free Pakleni Islands accessible only by boat from Hvar town. The 19th-century Meneghello family has shaped this tiny island into an artist colony filled with sculpture gardens, a legendary seafood restaurant, a private beach, and a handful of cottages and studios that feel like discovering a secret the world hasn't yet spoiled. It's perfect for free-spirited, creative honeymooners who want beauty, authenticity, and total escape from resort predictability.",
     "best_room": "Book one of the stone Dalmatian cottages or garden studios set amongst the subtropical vegetation — each one is unique, decorated with art collected by the Meneghello family over generations, and surrounded by wild rosemary, lavender, and sea pines. The largest cottages have their own small terraces. Request the cottage with the most direct sea view when booking, as availability changes annually.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Boat Arrival & First Swim", "description": "Take the short boat taxi from Hvar town harbour (10 minutes) across to Palmižana Bay and feel the world immediately simplify. There are no cars, no roads, no rushing. Check into your cottage and go immediately to the private beach for a swim in the turquoise water, then have your first dinner at the Meneghello restaurant — legendary for whole grilled fish, lobster, and exceptional local wine — under the pine trees." },
-      { "day": 2, "title": "Island Wandering & Art", "description": "Explore the Meneghello family's remarkable gardens — a sculpture trail winds through Mediterranean vegetation past contemporary Croatian and international artworks to clifftop viewpoints. The family's passion for art permeates every corner of the property. Spend the afternoon snorkelling from the beach, where the sea grass meadows host extraordinary marine life including octopus and sea horses." },
-      { "day": 3, "title": "Hvar Town Day", "description": "Take the boat taxi to Hvar town — Croatia's most glamorous island town — and explore its Venetian fortress, cathedral, and main square. Hvar is a genuine delight: lavender fields in the interior, a beautiful old arsenal building converted into a theatre, and excellent wine bars serving the indigenous Bogdanuša white grape. Return to the quiet of Palmižana in the afternoon feeling grateful for your retreat." },
-      { "day": 4, "title": "Island Hopping by Boat", "description": "Rent or book a small motorboat for the day and explore the other Pakleni Islands — the archipelago strings out west of Hvar with hidden coves, a nudist beach, and the island of Marinkovac with its famous open-air beach bar Carpe Diem. Pack a picnic from the Palmižana kitchen, anchor in your own cove, and spend the day swimming and exploring at your own pace." },
-      { "day": 5, "title": "Slow Cooking & Sunset", "description": "A day for doing nothing particularly well: long breakfast at the beach café, a morning snorkel, a siesta in a hammock in the shade of a stone pine. In the afternoon walk the island's coastal path to the western point for sunset views over the open Adriatic. Return to the restaurant for the freshest seafood you've ever tasted — everything comes off the boats that morning." },
-      { "day": 6, "title": "Stari Grad & UNESCO Landscape", "description": "A day trip to Stari Grad — the oldest continuously inhabited town in Croatia, founded by ancient Greeks — through the UNESCO-listed Stari Grad Plain, a 2,400-year-old agricultural landscape still divided by ancient dry-stone walls and planted with vines and olives. The town itself is wonderfully preserved and quiet compared to Hvar town; lunch on the harbour and a glass of local Plavac Mali." },
-      { "day": 7, "title": "Farewell Morning on the Bay", "description": "A final morning on the Palmižana beach, watching the morning ferry crossing in the distance and the pelicans skimming the surface of the bay. The Meneghello family's island feels different from anywhere else you have ever been — artistic, unhurried, deeply connected to the Adriatic. The boat taxi back to Hvar feels like leaving somewhere very rare indeed." }
+      {
+        "day": 1,
+        "title": "Boat Arrival & First Swim",
+        "description": "Take the short boat taxi from Hvar town harbour (10 minutes) across to Palmižana Bay and feel the world immediately simplify. There are no cars, no roads, no rushing. Check into your cottage and go immediately to the private beach for a swim in the turquoise water, then have your first dinner at the Meneghello restaurant — legendary for whole grilled fish, lobster, and exceptional local wine — under the pine trees."
+      },
+      {
+        "day": 2,
+        "title": "Island Wandering & Art",
+        "description": "Explore the Meneghello family's remarkable gardens — a sculpture trail winds through Mediterranean vegetation past contemporary Croatian and international artworks to clifftop viewpoints. The family's passion for art permeates every corner of the property. Spend the afternoon snorkelling from the beach, where the sea grass meadows host extraordinary marine life including octopus and sea horses."
+      },
+      {
+        "day": 3,
+        "title": "Hvar Town Day",
+        "description": "Take the boat taxi to Hvar town — Croatia's most glamorous island town — and explore its Venetian fortress, cathedral, and main square. Hvar is a genuine delight: lavender fields in the interior, a beautiful old arsenal building converted into a theatre, and excellent wine bars serving the indigenous Bogdanuša white grape. Return to the quiet of Palmižana in the afternoon feeling grateful for your retreat."
+      },
+      {
+        "day": 4,
+        "title": "Island Hopping by Boat",
+        "description": "Rent or book a small motorboat for the day and explore the other Pakleni Islands — the archipelago strings out west of Hvar with hidden coves, a nudist beach, and the island of Marinkovac with its famous open-air beach bar Carpe Diem. Pack a picnic from the Palmižana kitchen, anchor in your own cove, and spend the day swimming and exploring at your own pace."
+      },
+      {
+        "day": 5,
+        "title": "Slow Cooking & Sunset",
+        "description": "A day for doing nothing particularly well: long breakfast at the beach café, a morning snorkel, a siesta in a hammock in the shade of a stone pine. In the afternoon walk the island's coastal path to the western point for sunset views over the open Adriatic. Return to the restaurant for the freshest seafood you've ever tasted — everything comes off the boats that morning."
+      },
+      {
+        "day": 6,
+        "title": "Stari Grad & UNESCO Landscape",
+        "description": "A day trip to Stari Grad — the oldest continuously inhabited town in Croatia, founded by ancient Greeks — through the UNESCO-listed Stari Grad Plain, a 2,400-year-old agricultural landscape still divided by ancient dry-stone walls and planted with vines and olives. The town itself is wonderfully preserved and quiet compared to Hvar town; lunch on the harbour and a glass of local Plavac Mali."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning on the Bay",
+        "description": "A final morning on the Palmižana beach, watching the morning ferry crossing in the distance and the pelicans skimming the surface of the bay. The Meneghello family's island feels different from anywhere else you have ever been — artistic, unhurried, deeply connected to the Adriatic. The boat taxi back to Hvar feels like leaving somewhere very rare indeed."
+      }
     ],
     "caveats": [
       "Palmizana is a genuinely rustic retreat — the cottages are beautiful but not equipped with minibars, air conditioning in all rooms, or the amenities of a conventional five-star hotel. This is part of its charm, but couples expecting standard luxury hotel services will be disappointed.",

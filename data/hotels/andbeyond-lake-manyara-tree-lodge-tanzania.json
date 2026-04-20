@@ -3,19 +3,65 @@
   "name": "&Beyond Lake Manyara Tree Lodge",
   "destination": "tanzania",
   "country": "tanzania",
-  "experience_types": ["safari", "luxury"],
+  "experience_types": [
+    "safari",
+    "luxury"
+  ],
   "honeymoon_score": 88,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 18, "spa": 15, "award": 10, "pool": 10, "beach": 0, "room_service": 10, "stars": 15, "luxury": 10 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 18,
+    "spa": 15,
+    "award": 10,
+    "pool": 10,
+    "beach": 0,
+    "room_service": 10,
+    "stars": 15,
+    "luxury": 10
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 1000, "max": 3000 },
+  "price_per_night_usd": {
+    "min": 1000,
+    "max": 3000
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "game drives", "room service", "butler service", "treehouse suites", "fine dining", "flamingo walks", "night drives"],
+  "amenities": [
+    "spa",
+    "pool",
+    "game drives",
+    "room service",
+    "butler service",
+    "treehouse suites",
+    "fine dining",
+    "flamingo walks",
+    "night drives"
+  ],
   "photos": [
-    { "url": "/images/hotels/andbeyond-lake-manyara-tree-lodge-tanzania/hero.webp", "alt": "andbeyond-lake-manyara-tree-lodge-tanzania — hero", "type": "hero" },
-    { "url": "/images/hotels/andbeyond-lake-manyara-tree-lodge-tanzania/room.webp", "alt": "andbeyond-lake-manyara-tree-lodge-tanzania — room", "type": "room" },
-    { "url": "/images/hotels/andbeyond-lake-manyara-tree-lodge-tanzania/pool.webp", "alt": "andbeyond-lake-manyara-tree-lodge-tanzania — pool", "type": "pool" },
-    { "url": "/images/hotels/andbeyond-lake-manyara-tree-lodge-tanzania/spa.webp", "alt": "andbeyond-lake-manyara-tree-lodge-tanzania — spa", "type": "spa" },
-    { "url": "/images/hotels/andbeyond-lake-manyara-tree-lodge-tanzania/dining.webp", "alt": "andbeyond-lake-manyara-tree-lodge-tanzania — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/andbeyond-lake-manyara-tree-lodge-tanzania/hero.webp",
+      "alt": "andbeyond-lake-manyara-tree-lodge-tanzania — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/andbeyond-lake-manyara-tree-lodge-tanzania/room.webp",
+      "alt": "andbeyond-lake-manyara-tree-lodge-tanzania — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/andbeyond-lake-manyara-tree-lodge-tanzania/pool.webp",
+      "alt": "andbeyond-lake-manyara-tree-lodge-tanzania — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/andbeyond-lake-manyara-tree-lodge-tanzania/spa.webp",
+      "alt": "andbeyond-lake-manyara-tree-lodge-tanzania — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/andbeyond-lake-manyara-tree-lodge-tanzania/dining.webp",
+      "alt": "andbeyond-lake-manyara-tree-lodge-tanzania — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.2,
   "tripadvisor_award": true,
@@ -24,13 +70,41 @@
     "verdict": "&Beyond Lake Manyara Tree Lodge is the only lodge located inside Lake Manyara National Park itself — 10 treehouse suites built on raised platforms in a dense mahogany forest, with the lake's flamingo-pink shallows visible through the canopy. The park's famous tree-climbing lions rest in the fever trees just beyond the lodge deck, and the intimate 10-suite scale ensures &Beyond's famously attentive service. This is one of Tanzania's most magical and underrated honeymoon experiences.",
     "best_room": "All 10 suites are treehouse configurations elevated on stilts in the mahogany forest, but Suites 9 and 10 on the outer edge have the most privacy and the best elevated views toward the lake. Each suite is connected to the main lodge by a raised wooden walkway and features a deck with forest and lake vistas. The outdoor shower, mosquito-netted four-poster bed, and fire pit on the deck create an atmosphere of romantic seclusion unlike any ground-level lodge.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Tree-Top Welcome", "description": "Drive or fly into Manyara airstrip — inside the national park — and transfer directly to the lodge without leaving the protected area. Settle into your treehouse suite as the forest comes alive with bird calls and the distant calls of lions. The first evening game drive sets the tone: tree-climbing lions in fever trees by the lakeshore." },
-      { "day": 2, "title": "Flamingo Lake & Forest Walk", "description": "Lake Manyara's alkaline shores host enormous flocks of lesser flamingos, turning the water pink for as far as the eye can see. A guided walk along the lakeshore in the early morning — wading through the shallows is optional — provides extraordinary bird photography opportunities. Elephants at the edge of the forest complete the scene." },
-      { "day": 3, "title": "Tree-Climbing Lion Tracking", "description": "Lake Manyara's tree-climbing lion behaviour is documented nowhere else in East Africa with such regularity — lions regularly rest in the fork of large fig and fever trees. Your &Beyond guide uses a network of ranger contacts to locate the current pride. Late afternoon light through the forest canopy, lions in trees, is one of Africa's great photographic subjects." },
-      { "day": 4, "title": "Ngorongoro Day Trip", "description": "A full-day excursion 1.5 hours up the escarpment to the Ngorongoro Crater — a natural complement to a Manyara stay. Descend into the caldera for a Big 5 day drive before returning to the tranquillity of the treehouse lodge. The contrast between the open caldera and the enclosed forest atmosphere is striking." },
-      { "day": 5, "title": "Night Drive & Boma Dinner", "description": "Lake Manyara National Park is one of the few Tanzanian parks that permits night drives — in a property vehicle within the park boundary after dark. Genets, porcupines, and nocturnal birds join the permanent residents. Return to the lodge for a traditional boma dinner around a central fire with Maasai-inspired menu." },
-      { "day": 6, "title": "Hot Spring Walk & Spa", "description": "The Maji Moto hot springs in the park's groundwater forest are a geological curiosity — freshwater springs bubbling at 60°C from the ground, cooling into swimmable natural pools. A morning walk from the lodge reaches the springs in an hour. The afternoon brings a couple's spa treatment in the treetop spa with forest views." },
-      { "day": 7, "title": "Final Forest Morning & Departure", "description": "Last morning in the forest with coffee on your treehouse deck as the mahogany canopy awakens — birds, monkeys, and the distant trumpet of elephants. Walk the raised boardwalk to the main lodge for a farewell breakfast before departing the park via Manyara airstrip or road transfer to Arusha." }
+      {
+        "day": 1,
+        "title": "Arrival & Tree-Top Welcome",
+        "description": "Drive or fly into Manyara airstrip — inside the national park — and transfer directly to the lodge without leaving the protected area. Settle into your treehouse suite as the forest comes alive with bird calls and the distant calls of lions. The first evening game drive sets the tone: tree-climbing lions in fever trees by the lakeshore."
+      },
+      {
+        "day": 2,
+        "title": "Flamingo Lake & Forest Walk",
+        "description": "Lake Manyara's alkaline shores host enormous flocks of lesser flamingos, turning the water pink for as far as the eye can see. A guided walk along the lakeshore in the early morning — wading through the shallows is optional — provides extraordinary bird photography opportunities. Elephants at the edge of the forest complete the scene."
+      },
+      {
+        "day": 3,
+        "title": "Tree-Climbing Lion Tracking",
+        "description": "Lake Manyara's tree-climbing lion behaviour is documented nowhere else in East Africa with such regularity — lions regularly rest in the fork of large fig and fever trees. Your &Beyond guide uses a network of ranger contacts to locate the current pride. Late afternoon light through the forest canopy, lions in trees, is one of Africa's great photographic subjects."
+      },
+      {
+        "day": 4,
+        "title": "Ngorongoro Day Trip",
+        "description": "A full-day excursion 1.5 hours up the escarpment to the Ngorongoro Crater — a natural complement to a Manyara stay. Descend into the caldera for a Big 5 day drive before returning to the tranquillity of the treehouse lodge. The contrast between the open caldera and the enclosed forest atmosphere is striking."
+      },
+      {
+        "day": 5,
+        "title": "Night Drive & Boma Dinner",
+        "description": "Lake Manyara National Park is one of the few Tanzanian parks that permits night drives — in a property vehicle within the park boundary after dark. Genets, porcupines, and nocturnal birds join the permanent residents. Return to the lodge for a traditional boma dinner around a central fire with Maasai-inspired menu."
+      },
+      {
+        "day": 6,
+        "title": "Hot Spring Walk & Spa",
+        "description": "The Maji Moto hot springs in the park's groundwater forest are a geological curiosity — freshwater springs bubbling at 60°C from the ground, cooling into swimmable natural pools. A morning walk from the lodge reaches the springs in an hour. The afternoon brings a couple's spa treatment in the treetop spa with forest views."
+      },
+      {
+        "day": 7,
+        "title": "Final Forest Morning & Departure",
+        "description": "Last morning in the forest with coffee on your treehouse deck as the mahogany canopy awakens — birds, monkeys, and the distant trumpet of elephants. Walk the raised boardwalk to the main lodge for a farewell breakfast before departing the park via Manyara airstrip or road transfer to Arusha."
+      }
     ],
     "caveats": [
       "Being inside the national park means game drives can only be conducted within park regulations — no night drives outside the property boundary and speed limits apply.",
@@ -38,12 +112,30 @@
       "Lake Manyara is a smaller park and typically combined with Ngorongoro and the Serengeti on a circuit; it works best as part of a multi-destination Tanzania itinerary."
     ],
     "faqs": [
-      { "question": "Good for honeymooners?", "answer": "&Beyond Lake Manyara Tree Lodge is a wonderfully intimate honeymoon choice. Ten treehouse suites, inside-the-park exclusivity, and the extraordinary treehouse atmosphere create a deeply romantic experience. The tree-climbing lions and flamingo flocks are genuinely unique natural experiences that most Serengeti-focused honeymooners miss entirely." },
-      { "question": "Best time to visit?", "answer": "June through October (dry season) brings the most flamingos to the lake and the clearest forest conditions. January-February is also excellent with the short dry season and outstanding bird life. The long rains of April-May make some tracks difficult. Lake Manyara is beautiful year-round thanks to the permanent groundwater forest." },
-      { "question": "Book in advance?", "answer": "Ten suites means this lodge books out 4 to 8 months ahead for peak season. &Beyond lodges are often booked through travel specialists with allocation relationships. Mention your honeymoon for complimentary treehouse décor and a private forest dinner arrangement." },
-      { "question": "Adults-only?", "answer": "Not adults-only. The treehouse configuration and elevated walkways are not ideal for very young children, and the park's game drive regulations mean children must meet minimum age requirements. In practice the guest list is predominantly adult couples and small groups." },
-      { "question": "Best room type?", "answer": "Suites 9 and 10 on the outer edge of the forest have the most privacy and best lake views through the canopy. All 10 suites share the same treehouse architecture — the variation is primarily in position within the forest and degree of privacy." },
-      { "question": "How to get there?", "answer": "Lake Manyara has its own airstrip inside the park receiving charter flights from Arusha (30 minutes) and Kilimanjaro. Road transfer from Arusha is approximately 2 hours on tarmac. The lodge is a natural first or last night on a northern Tanzania circuit before or after Ngorongoro and the Serengeti." }
+      {
+        "question": "Good for honeymooners?",
+        "answer": "&Beyond Lake Manyara Tree Lodge is a wonderfully intimate honeymoon choice. Ten treehouse suites, inside-the-park exclusivity, and the extraordinary treehouse atmosphere create a deeply romantic experience. The tree-climbing lions and flamingo flocks are genuinely unique natural experiences that most Serengeti-focused honeymooners miss entirely."
+      },
+      {
+        "question": "Best time to visit?",
+        "answer": "June through October (dry season) brings the most flamingos to the lake and the clearest forest conditions. January-February is also excellent with the short dry season and outstanding bird life. The long rains of April-May make some tracks difficult. Lake Manyara is beautiful year-round thanks to the permanent groundwater forest."
+      },
+      {
+        "question": "Book in advance?",
+        "answer": "Ten suites means this lodge books out 4 to 8 months ahead for peak season. &Beyond lodges are often booked through travel specialists with allocation relationships. Mention your honeymoon for complimentary treehouse décor and a private forest dinner arrangement."
+      },
+      {
+        "question": "Adults-only?",
+        "answer": "Not adults-only. The treehouse configuration and elevated walkways are not ideal for very young children, and the park's game drive regulations mean children must meet minimum age requirements. In practice the guest list is predominantly adult couples and small groups."
+      },
+      {
+        "question": "Best room type?",
+        "answer": "Suites 9 and 10 on the outer edge of the forest have the most privacy and best lake views through the canopy. All 10 suites share the same treehouse architecture — the variation is primarily in position within the forest and degree of privacy."
+      },
+      {
+        "question": "How to get there?",
+        "answer": "Lake Manyara has its own airstrip inside the park receiving charter flights from Arusha (30 minutes) and Kilimanjaro. Road transfer from Arusha is approximately 2 hours on tarmac. The lodge is a natural first or last night on a northern Tanzania circuit before or after Ngorongoro and the Serengeti."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — &Beyond Lake Manyara Tree Lodge\n\nDear &Beyond Lake Manyara reservations team,\n\nWe are planning our honeymoon [DATE]-[DATE] and are interested in Suites 9 or 10. Please advise on availability, honeymoon inclusions, private forest dinner options, and Ngorongoro day trip arrangements.\n\nThank you,\n[Your names]"
   },

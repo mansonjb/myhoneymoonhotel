@@ -3,7 +3,11 @@
   "name": "Mulia Resort Nusa Dua Bali",
   "destination": "bali",
   "country": "indonesia",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 87,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,48 @@
     "luxury": 5
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 400, "max": 1800 },
+  "price_per_night_usd": {
+    "min": 400,
+    "max": 1800
+  },
   "adults_only": false,
-  "amenities": ["spa", "beach", "pool", "room service", "butler service", "fine dining", "private beach", "fitness centre", "kids club"],
+  "amenities": [
+    "spa",
+    "beach",
+    "pool",
+    "room service",
+    "butler service",
+    "fine dining",
+    "private beach",
+    "fitness centre",
+    "kids club"
+  ],
   "photos": [
-    { "url": "/images/hotels/mulia-resort-nusa-dua-bali/hero.webp", "alt": "mulia-resort-nusa-dua-bali — hero", "type": "hero" },
-    { "url": "/images/hotels/mulia-resort-nusa-dua-bali/room.webp", "alt": "mulia-resort-nusa-dua-bali — room", "type": "room" },
-    { "url": "/images/hotels/mulia-resort-nusa-dua-bali/pool.webp", "alt": "mulia-resort-nusa-dua-bali — pool", "type": "pool" },
-    { "url": "/images/hotels/mulia-resort-nusa-dua-bali/spa.webp", "alt": "mulia-resort-nusa-dua-bali — spa", "type": "spa" },
-    { "url": "/images/hotels/mulia-resort-nusa-dua-bali/dining.webp", "alt": "mulia-resort-nusa-dua-bali — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/mulia-resort-nusa-dua-bali/hero.webp",
+      "alt": "mulia-resort-nusa-dua-bali — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/mulia-resort-nusa-dua-bali/room.webp",
+      "alt": "mulia-resort-nusa-dua-bali — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/mulia-resort-nusa-dua-bali/pool.webp",
+      "alt": "mulia-resort-nusa-dua-bali — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/mulia-resort-nusa-dua-bali/spa.webp",
+      "alt": "mulia-resort-nusa-dua-bali — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/mulia-resort-nusa-dua-bali/dining.webp",
+      "alt": "mulia-resort-nusa-dua-bali — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.2,
   "tripadvisor_award": true,
@@ -34,13 +71,41 @@
     "verdict": "Mulia Resort is Nusa Dua's most impressive large-scale luxury resort — a grand property fronting a full kilometre of protected private beach, with 526 rooms and villas, Mulia Spa (one of Bali's most comprehensive), and multiple fine dining options ranging from a premier steakhouse to Japanese kaiseki. Honeymooners who want a prestigious Bali beach holiday with excellent service, genuine culinary variety, and a wide stretch of soft sand will find Mulia hard to beat.",
     "best_room": "The Villa — a standalone private villa with garden pool — is the most secluded and romantic option, with a private entrance and a dedicated villa concierge. Within the main resort, the Penthouse Suite offers the highest vantage point with panoramic Indian Ocean views and a large private terrace ideal for in-suite dining.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Private Beach Welcome", "description": "Mulia is approximately 45 minutes from Ngurah Rai Airport — one of the most convenient resort locations on the island. Check in and walk straight to the beach: a full kilometre of white sand, calm waters, and perfectly spaced sun loungers under Mulia's signature umbrellas. The Indian Ocean here is ideal for swimming, with a gently shelving beach and minimal current." },
-      { "day": 2, "title": "Mulia Spa Day", "description": "Mulia Spa is one of the largest and most comprehensive in Bali — spanning multiple floors with 24 treatment rooms, a full hydrotherapy circuit, and a dedicated couples' suite. Book the Mulia Signature Journey for two: a three-hour ceremony of Balinese massage, boreh body mask, and floral bath. Spend the afternoon at the resort's extraordinary freeform pool complex." },
-      { "day": 3, "title": "Culinary Exploration", "description": "Mulia Resort's dining variety is among its greatest strengths. Breakfast at Edogin (Japanese), lunch at The Cafe (all-day dining), and dinner at Soleil (Mediterranean fine dining) provide a culinary around-the-world without leaving the property. The resort's sommelier can arrange a private wine tasting in the wine cellar for an evening activity." },
-      { "day": 4, "title": "Beach Sports & Sunset", "description": "Try watersports from the beach centre: stand-up paddleboarding, kayaking, or an introductory surf lesson at the reef break near Nusa Dua. End the afternoon with the resort's famous Sunday Brunch (or equivalent private tasting menu on weekdays) at Edogin's private dining room. Watch the sunset from the beachfront bar as the sky turns coral." },
-      { "day": 5, "title": "Uluwatu Day Trip", "description": "Arrange a private car to Uluwatu for a half-day excursion — Pura Luhur Uluwatu temple perched on the clifftop, the Kecak fire dance at sunset, and dinner at one of the cliff-side restaurants overlooking the surf. Return to Mulia in the evening for a nightcap at the Sky Bar on the roof terrace." },
-      { "day": 6, "title": "Private Villa Day", "description": "Book in-villa dining for the entire day — Mulia's villa service team will prepare breakfast, lunch, and dinner delivered to your private pool terrace. Spend the morning in the villa pool, the afternoon at the spa for individual treatments, and the evening under the stars on your terrace with a custom menu designed by the villa kitchen." },
-      { "day": 7, "title": "Farewell Morning", "description": "A final sunrise walk along the kilometre beach at Mulia, when the sands are empty and the light is magical. Leisurely breakfast at The Cafe, check out at your leisure, and depart for the airport knowing you've experienced the best of Bali's southern beach resort scene." }
+      {
+        "day": 1,
+        "title": "Arrival & Private Beach Welcome",
+        "description": "Mulia is approximately 45 minutes from Ngurah Rai Airport — one of the most convenient resort locations on the island. Check in and walk straight to the beach: a full kilometre of white sand, calm waters, and perfectly spaced sun loungers under Mulia's signature umbrellas. The Indian Ocean here is ideal for swimming, with a gently shelving beach and minimal current."
+      },
+      {
+        "day": 2,
+        "title": "Mulia Spa Day",
+        "description": "Mulia Spa is one of the largest and most comprehensive in Bali — spanning multiple floors with 24 treatment rooms, a full hydrotherapy circuit, and a dedicated couples' suite. Book the Mulia Signature Journey for two: a three-hour ceremony of Balinese massage, boreh body mask, and floral bath. Spend the afternoon at the resort's extraordinary freeform pool complex."
+      },
+      {
+        "day": 3,
+        "title": "Culinary Exploration",
+        "description": "Mulia Resort's dining variety is among its greatest strengths. Breakfast at Edogin (Japanese), lunch at The Cafe (all-day dining), and dinner at Soleil (Mediterranean fine dining) provide a culinary around-the-world without leaving the property. The resort's sommelier can arrange a private wine tasting in the wine cellar for an evening activity."
+      },
+      {
+        "day": 4,
+        "title": "Beach Sports & Sunset",
+        "description": "Try watersports from the beach centre: stand-up paddleboarding, kayaking, or an introductory surf lesson at the reef break near Nusa Dua. End the afternoon with the resort's famous Sunday Brunch (or equivalent private tasting menu on weekdays) at Edogin's private dining room. Watch the sunset from the beachfront bar as the sky turns coral."
+      },
+      {
+        "day": 5,
+        "title": "Uluwatu Day Trip",
+        "description": "Arrange a private car to Uluwatu for a half-day excursion — Pura Luhur Uluwatu temple perched on the clifftop, the Kecak fire dance at sunset, and dinner at one of the cliff-side restaurants overlooking the surf. Return to Mulia in the evening for a nightcap at the Sky Bar on the roof terrace."
+      },
+      {
+        "day": 6,
+        "title": "Private Villa Day",
+        "description": "Book in-villa dining for the entire day — Mulia's villa service team will prepare breakfast, lunch, and dinner delivered to your private pool terrace. Spend the morning in the villa pool, the afternoon at the spa for individual treatments, and the evening under the stars on your terrace with a custom menu designed by the villa kitchen."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "A final sunrise walk along the kilometre beach at Mulia, when the sands are empty and the light is magical. Leisurely breakfast at The Cafe, check out at your leisure, and depart for the airport knowing you've experienced the best of Bali's southern beach resort scene."
+      }
     ],
     "caveats": [
       "At 526 rooms and villas, Mulia is a large resort — couples preferring intimate boutique properties may find the scale impersonal in the public areas.",
@@ -48,12 +113,30 @@
       "Peak season (July–August, Christmas–New Year) sees full occupancy and the resort can feel busy at pool and beach areas."
     ],
     "faqs": [
-      { "question": "Is Mulia Resort good for honeymooners?", "answer": "Mulia Resort is ideal for honeymooners who want a prestigious beach resort with genuine culinary variety, excellent spa facilities, and the security of a well-managed large property. The private villa category provides complete seclusion within the resort's larger framework." },
-      { "question": "What is the best time to visit Nusa Dua?", "answer": "May through September is Bali's dry season and peak beach weather. Nusa Dua's sheltered position means the beach is swimmable year-round, but April to October sees the calmest conditions and clearest skies." },
-      { "question": "What should we book in advance?", "answer": "The Mulia Spa couples' suite fills up quickly — reserve your treatment before arrival. Private villa dining and the Edogin private tasting menu should also be pre-arranged. Alert the resort to your honeymoon for welcome amenities." },
-      { "question": "Is it adults-only?", "answer": "No, Mulia Resort has extensive family facilities including a kids' club. The private villa wing and adults-oriented restaurant venues ensure honeymooners can find their own quiet space within the larger property." },
-      { "question": "What's the best room for a honeymoon?", "answer": "The Villa (private pool villa) offers the most seclusion and intimacy within the resort. Within the hotel itself, the Penthouse Suite provides the best views and a private terrace. Both categories receive enhanced villa concierge service." },
-      { "question": "How do we get there?", "answer": "Mulia is approximately 45 minutes from Ngurah Rai International Airport (DPS) in Denpasar — one of the more convenient resort locations on the island. The resort provides airport transfer services." }
+      {
+        "question": "Is Mulia Resort good for honeymooners?",
+        "answer": "Mulia Resort is ideal for honeymooners who want a prestigious beach resort with genuine culinary variety, excellent spa facilities, and the security of a well-managed large property. The private villa category provides complete seclusion within the resort's larger framework."
+      },
+      {
+        "question": "What is the best time to visit Nusa Dua?",
+        "answer": "May through September is Bali's dry season and peak beach weather. Nusa Dua's sheltered position means the beach is swimmable year-round, but April to October sees the calmest conditions and clearest skies."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "The Mulia Spa couples' suite fills up quickly — reserve your treatment before arrival. Private villa dining and the Edogin private tasting menu should also be pre-arranged. Alert the resort to your honeymoon for welcome amenities."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "No, Mulia Resort has extensive family facilities including a kids' club. The private villa wing and adults-oriented restaurant venues ensure honeymooners can find their own quiet space within the larger property."
+      },
+      {
+        "question": "What's the best room for a honeymoon?",
+        "answer": "The Villa (private pool villa) offers the most seclusion and intimacy within the resort. Within the hotel itself, the Penthouse Suite provides the best views and a private terrace. Both categories receive enhanced villa concierge service."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "Mulia is approximately 45 minutes from Ngurah Rai International Airport (DPS) in Denpasar — one of the more convenient resort locations on the island. The resort provides airport transfer services."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Mulia Resort Nusa Dua Bali\n\nDear Mulia Resort team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: [Villa / Penthouse Suite]\n\nCould you please let us know:\n- Current availability for our dates\n- Any honeymoon packages or complimentary upgrades\n- Availability for the Mulia Spa couples' suite and private villa dining\n\nThank you for your time.\n\n[Your names]"
   },

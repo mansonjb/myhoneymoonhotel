@@ -3,7 +3,10 @@
   "name": "Aman Kyoto",
   "destination": "japan",
   "country": "japan",
-  "experience_types": ["luxury", "wellness"],
+  "experience_types": [
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 95,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +20,47 @@
     "luxury": 5
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 1800, "max": 5000 },
+  "price_per_night_usd": {
+    "min": 1800,
+    "max": 5000
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "onsen", "room service", "butler service", "restaurant", "bar", "forest trail"],
+  "amenities": [
+    "spa",
+    "pool",
+    "onsen",
+    "room service",
+    "butler service",
+    "restaurant",
+    "bar",
+    "forest trail"
+  ],
   "photos": [
-    { "url": "/images/hotels/aman-kyoto-japan/hero.webp", "alt": "aman-kyoto-japan — hero", "type": "hero" },
-    { "url": "/images/hotels/aman-kyoto-japan/room.webp", "alt": "aman-kyoto-japan — room", "type": "room" },
-    { "url": "/images/hotels/aman-kyoto-japan/pool.webp", "alt": "aman-kyoto-japan — pool", "type": "pool" },
-    { "url": "/images/hotels/aman-kyoto-japan/spa.webp", "alt": "aman-kyoto-japan — spa", "type": "spa" },
-    { "url": "/images/hotels/aman-kyoto-japan/dining.webp", "alt": "aman-kyoto-japan — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/aman-kyoto-japan/hero.webp",
+      "alt": "aman-kyoto-japan — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/aman-kyoto-japan/room.webp",
+      "alt": "aman-kyoto-japan — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/aman-kyoto-japan/pool.webp",
+      "alt": "aman-kyoto-japan — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/aman-kyoto-japan/spa.webp",
+      "alt": "aman-kyoto-japan — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/aman-kyoto-japan/dining.webp",
+      "alt": "aman-kyoto-japan — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.8,
   "tripadvisor_award": true,
@@ -34,13 +69,41 @@
     "verdict": "Aman Kyoto is almost universally regarded as the most romantic hotel in Japan — a hidden forest sanctuary of just 26 suites nestled against an ancient cedar grove on the edge of the Kinkaku-ji temple precinct. The seamless marriage of Aman's minimalist aesthetic with authentic ryokan sensibility — private outdoor onsen, washi paper screens, stone-lined soaking tubs — creates an atmosphere of profound intimacy that is simply unmatched anywhere in the country.",
     "best_room": "Book a Forest Suite for the quintessential Aman Kyoto experience: floor-to-ceiling shoji screens open directly onto your private cedar forest garden, and the in-suite outdoor onsen bath means you can soak under the stars in complete seclusion. Upgrading to a Garden Suite adds a generous living pavilion, ideal if you plan to spend long, unhurried mornings cocooned in your own piece of ancient Kyoto.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & First Impressions", "description": "Arrive by private car from Kyoto Station — the approach through the forest already signals you have left the city behind. Your butler introduces the suite, draws your first onsen bath with mineral-rich waters sourced from the hotel's own spring, and serves a welcome tea ceremony in the garden. Dinner is in the main dining room, where the kitchen blends Kyoto kaiseki precision with Aman's global sensibility." },
-      { "day": 2, "title": "Morning Temple Walk", "description": "Rise early and join the hotel's guided dawn walk through the cedar forest trail that connects Aman Kyoto to the grounds of Kinkaku-ji (Golden Pavilion). The temple before the tourist crowds is a genuinely moving experience. Return for a leisurely breakfast on your private terrace, then spend the afternoon at the spa with a couples' anma massage treatment." },
-      { "day": 3, "title": "Arashiyama Day Trip", "description": "Board a private rickshaw through the Arashiyama bamboo grove, then take a boat along the Oi River at Togetsukyo Bridge. Lunch at a riverside kappo restaurant, followed by the moss garden at Tenryu-ji temple. Return to Aman for a long soak in the indoor onsen pool before a six-course kaiseki dinner." },
-      { "day": 4, "title": "Full Aman Spa Day", "description": "Surrender the entire day to the spa. Begin with a morning yoga session in the garden pavilion, then book a three-hour Aman Signature Journey together — a journey through hot stone massage, cedar bath ritual, and facial using rare Japanese botanicals. Lunch is served poolside, and the afternoon is yours to wander the forest paths or read by the fireplace." },
-      { "day": 5, "title": "Nishiki Market & Philosopher's Path", "description": "Walk Kyoto's famous Nishiki Market with a hotel-arranged culinary guide, tasting tofu skin, matcha confections, and tsukemono pickles along the way. In the afternoon, stroll the Philosopher's Path canal trail from Ginkaku-ji to Nanzen-ji at your own pace. Return to the hotel for a private sake tasting curated by the sommelier." },
-      { "day": 6, "title": "Nishiyama Villages & Wabi-Sabi Experience", "description": "Venture into the quiet Nishiyama foothills — a landscape of bamboo farms, persimmon groves, and moss-covered stone lanterns. The concierge can arrange a private indigo-dyeing workshop in a 200-year-old machiya townhouse. In the evening, dress for an omakase dinner at a celebrated Kyoto counter restaurant, arranged exclusively through the hotel." },
-      { "day": 7, "title": "Farewell Morning", "description": "Take a final solo walk through the cedar grove as dawn mist rises from the forest floor. Your butler prepares a special farewell breakfast on the terrace — seasonal Japanese fare with freshly pressed yuzu juice. A private car will collect you at your chosen hour, leaving with memories of the most serene and romantic days Japan can offer." }
+      {
+        "day": 1,
+        "title": "Arrival & First Impressions",
+        "description": "Arrive by private car from Kyoto Station — the approach through the forest already signals you have left the city behind. Your butler introduces the suite, draws your first onsen bath with mineral-rich waters sourced from the hotel's own spring, and serves a welcome tea ceremony in the garden. Dinner is in the main dining room, where the kitchen blends Kyoto kaiseki precision with Aman's global sensibility."
+      },
+      {
+        "day": 2,
+        "title": "Morning Temple Walk",
+        "description": "Rise early and join the hotel's guided dawn walk through the cedar forest trail that connects Aman Kyoto to the grounds of Kinkaku-ji (Golden Pavilion). The temple before the tourist crowds is a genuinely moving experience. Return for a leisurely breakfast on your private terrace, then spend the afternoon at the spa with a couples' anma massage treatment."
+      },
+      {
+        "day": 3,
+        "title": "Arashiyama Day Trip",
+        "description": "Board a private rickshaw through the Arashiyama bamboo grove, then take a boat along the Oi River at Togetsukyo Bridge. Lunch at a riverside kappo restaurant, followed by the moss garden at Tenryu-ji temple. Return to Aman for a long soak in the indoor onsen pool before a six-course kaiseki dinner."
+      },
+      {
+        "day": 4,
+        "title": "Full Aman Spa Day",
+        "description": "Surrender the entire day to the spa. Begin with a morning yoga session in the garden pavilion, then book a three-hour Aman Signature Journey together — a journey through hot stone massage, cedar bath ritual, and facial using rare Japanese botanicals. Lunch is served poolside, and the afternoon is yours to wander the forest paths or read by the fireplace."
+      },
+      {
+        "day": 5,
+        "title": "Nishiki Market & Philosopher's Path",
+        "description": "Walk Kyoto's famous Nishiki Market with a hotel-arranged culinary guide, tasting tofu skin, matcha confections, and tsukemono pickles along the way. In the afternoon, stroll the Philosopher's Path canal trail from Ginkaku-ji to Nanzen-ji at your own pace. Return to the hotel for a private sake tasting curated by the sommelier."
+      },
+      {
+        "day": 6,
+        "title": "Nishiyama Villages & Wabi-Sabi Experience",
+        "description": "Venture into the quiet Nishiyama foothills — a landscape of bamboo farms, persimmon groves, and moss-covered stone lanterns. The concierge can arrange a private indigo-dyeing workshop in a 200-year-old machiya townhouse. In the evening, dress for an omakase dinner at a celebrated Kyoto counter restaurant, arranged exclusively through the hotel."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "Take a final solo walk through the cedar grove as dawn mist rises from the forest floor. Your butler prepares a special farewell breakfast on the terrace — seasonal Japanese fare with freshly pressed yuzu juice. A private car will collect you at your chosen hour, leaving with memories of the most serene and romantic days Japan can offer."
+      }
     ],
     "caveats": [
       "Aman Kyoto is one of the most expensive hotels in Japan; at $1,800–$5,000 per night, budget carefully and book well in advance, especially for cherry blossom (late March–April) and autumn foliage (mid-November) seasons.",
@@ -48,12 +111,30 @@
       "Although children are welcome, the atmosphere is resolutely hushed and adult-focused; if either partner is a very active traveller seeking nightlife or dense urban sightseeing, supplement your stay with nights elsewhere in Kyoto."
     ],
     "faqs": [
-      { "question": "Is Aman Kyoto good for honeymooners?", "answer": "It is widely considered the finest honeymoon hotel in Japan. The combination of extreme privacy — just 26 suites — private outdoor onsen baths, immersive nature, and impeccable service creates a setting purpose-built for couples. Staff are experienced at arranging surprise in-suite celebrations, petal-strewn baths, and private forest picnics." },
-      { "question": "What is the best time to visit?", "answer": "Autumn (mid-October to mid-November) is peak season for fiery maple foliage on the forest trail — extraordinary but requires booking 6–12 months ahead. Cherry blossom (late March to early April) is equally stunning. Winter sees the forest dusted in occasional snow, which is intimate and atmospheric with far fewer visitors. Summer (June–August) is hot and humid but lush green." },
-      { "question": "What should we book in advance?", "answer": "Book your spa treatments on arrival day — the Aman Kyoto spa fills quickly. The concierge can arrange exclusive access to normally restricted temple gardens and private tea ceremonies, but these require notice. If you want a specific kaiseki restaurant in Kyoto city (especially Kikunoi Honten or Mizai), let the team know at booking." },
-      { "question": "Is it adults-only?", "answer": "No, children are accepted, but the atmosphere is inherently suited to couples and adults. The vast majority of guests are honeymooners or couples celebrating significant occasions, and the hotel's design — quiet garden suites, hushed corridors, meditative forest trails — naturally discourages a family-holiday atmosphere." },
-      { "question": "What's the best room for a honeymoon?", "answer": "The Forest Suite is the iconic choice: a private outdoor onsen perched at the treeline, tatami-floored sleeping area, and direct garden access. For maximum space and a dedicated living pavilion, upgrade to a Garden Suite. The two-bedroom Forest Villa is spectacular for couples who want a truly house-like retreat." },
-      { "question": "How do we get there?", "answer": "Aman Kyoto is approximately 30 minutes by car from Kyoto Station. The hotel offers private airport transfers from Kansai International (KIX, roughly 75 minutes) or Itami (ITM, roughly 60 minutes). The Shinkansen from Tokyo reaches Kyoto Station in just over two hours, making a Kyoto–Tokyo split honeymoon very practical." }
+      {
+        "question": "Is Aman Kyoto good for honeymooners?",
+        "answer": "It is widely considered the finest honeymoon hotel in Japan. The combination of extreme privacy — just 26 suites — private outdoor onsen baths, immersive nature, and impeccable service creates a setting purpose-built for couples. Staff are experienced at arranging surprise in-suite celebrations, petal-strewn baths, and private forest picnics."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "Autumn (mid-October to mid-November) is peak season for fiery maple foliage on the forest trail — extraordinary but requires booking 6–12 months ahead. Cherry blossom (late March to early April) is equally stunning. Winter sees the forest dusted in occasional snow, which is intimate and atmospheric with far fewer visitors. Summer (June–August) is hot and humid but lush green."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "Book your spa treatments on arrival day — the Aman Kyoto spa fills quickly. The concierge can arrange exclusive access to normally restricted temple gardens and private tea ceremonies, but these require notice. If you want a specific kaiseki restaurant in Kyoto city (especially Kikunoi Honten or Mizai), let the team know at booking."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "No, children are accepted, but the atmosphere is inherently suited to couples and adults. The vast majority of guests are honeymooners or couples celebrating significant occasions, and the hotel's design — quiet garden suites, hushed corridors, meditative forest trails — naturally discourages a family-holiday atmosphere."
+      },
+      {
+        "question": "What's the best room for a honeymoon?",
+        "answer": "The Forest Suite is the iconic choice: a private outdoor onsen perched at the treeline, tatami-floored sleeping area, and direct garden access. For maximum space and a dedicated living pavilion, upgrade to a Garden Suite. The two-bedroom Forest Villa is spectacular for couples who want a truly house-like retreat."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "Aman Kyoto is approximately 30 minutes by car from Kyoto Station. The hotel offers private airport transfers from Kansai International (KIX, roughly 75 minutes) or Itami (ITM, roughly 60 minutes). The Shinkansen from Tokyo reaches Kyoto Station in just over two hours, making a Kyoto–Tokyo split honeymoon very practical."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Aman Kyoto\n\nDear Aman Kyoto team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: a Forest Suite or Garden Suite with private outdoor onsen.\n\nCould you please let us know:\n- Current availability for our dates\n- Any honeymoon packages or complimentary upgrades available\n- Options for in-suite celebrations (rose petals, champagne, private dinner)\n\nThank you for your time.\n\n[Your names]"
   },

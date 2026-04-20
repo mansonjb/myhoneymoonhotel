@@ -3,7 +3,10 @@
   "name": "Royal Mansour Marrakech",
   "destination": "morocco",
   "country": "morocco",
-  "experience_types": ["luxury", "wellness"],
+  "experience_types": [
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 97,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +20,48 @@
     "luxury": 5
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 1200, "max": 5000 },
+  "price_per_night_usd": {
+    "min": 1200,
+    "max": 5000
+  },
   "adults_only": false,
-  "amenities": ["spa", "private plunge pool per riad", "room service", "private butler per riad", "underground service tunnels", "3-storey private riads", "Michelin-star dining", "hammam", "concierge"],
+  "amenities": [
+    "spa",
+    "private plunge pool per riad",
+    "room service",
+    "private butler per riad",
+    "underground service tunnels",
+    "3-storey private riads",
+    "Michelin-star dining",
+    "hammam",
+    "concierge"
+  ],
   "photos": [
-    { "url": "/images/hotels/royal-mansour-marrakech-morocco/hero.webp", "alt": "royal-mansour-marrakech-morocco — hero", "type": "hero" },
-    { "url": "/images/hotels/royal-mansour-marrakech-morocco/room.webp", "alt": "royal-mansour-marrakech-morocco — room", "type": "room" },
-    { "url": "/images/hotels/royal-mansour-marrakech-morocco/pool.webp", "alt": "royal-mansour-marrakech-morocco — pool", "type": "pool" },
-    { "url": "/images/hotels/royal-mansour-marrakech-morocco/spa.webp", "alt": "royal-mansour-marrakech-morocco — spa", "type": "spa" },
-    { "url": "/images/hotels/royal-mansour-marrakech-morocco/dining.webp", "alt": "royal-mansour-marrakech-morocco — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/royal-mansour-marrakech-morocco/hero.webp",
+      "alt": "royal-mansour-marrakech-morocco — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/royal-mansour-marrakech-morocco/room.webp",
+      "alt": "royal-mansour-marrakech-morocco — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/royal-mansour-marrakech-morocco/pool.webp",
+      "alt": "royal-mansour-marrakech-morocco — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/royal-mansour-marrakech-morocco/spa.webp",
+      "alt": "royal-mansour-marrakech-morocco — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/royal-mansour-marrakech-morocco/dining.webp",
+      "alt": "royal-mansour-marrakech-morocco — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.8,
   "tripadvisor_award": true,
@@ -34,13 +70,41 @@
     "verdict": "Royal Mansour is the closest thing to perfection in the hotel world — King Mohammed VI of Morocco's private hotel, built by the Royal master craftsmen (malems) over five years as a gift to the world from Moroccan artisanship. Each of the 53 riads is a private three-storey house with its own rooftop terrace, private plunge pool, and dedicated butler who moves through an underground tunnel network to ensure complete privacy. The craftsmanship — hand-carved cedar wood, zellige tile mosaics, tadelakt plaster, and silk-embroidered textiles — represents the absolute pinnacle of Moroccan art. It is not just a hotel; it is a cultural monument that you live inside. For honeymooners who want the single finest hotel experience in Morocco, and one of the finest in the world, Royal Mansour has no equal.",
     "best_room": "Every unit is a full private riad — even the smallest Petit Riad is a three-storey house with rooftop terrace, private plunge pool, sitting room, and master bedroom. Book at minimum a Riad and upgrade to a Grand Riad or the extraordinary Riad Jardin for the largest private gardens. Every riad has been individually designed by master craftsmen and no two are identical — discuss your preferences with the reservations team.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival in a Kingdom", "description": "Enter Royal Mansour through the monumental carved cedar gate and be escorted to your private riad — your butler emerging silently to appear exactly when needed, the underground service tunnel network ensuring you are never aware of the machinery of the hotel's operation. A private dinner on your rooftop terrace in the warm Marrakech night, with the medina's minarets visible in the middle distance, sets a standard of romance that will be the benchmark of your life." },
-      { "day": 2, "title": "La Grande Table Marocaine", "description": "Today is about the food — Royal Mansour's La Grande Table Marocaine is one of the finest Moroccan cuisine experiences in the world, a tasting menu of refined classical dishes executed with exceptional produce and the mastery of chef Yannick Alléno's consulting influence. Request a private table in one of the dining room's carved alcoves. Morning in the extraordinary hammam — the ritual takes two hours and uses argan soap, black Beldi soap, and rose water." },
-      { "day": 3, "title": "Marrakech Medina Private Tour", "description": "The hotel's concierge can arrange a private guide for the medina — someone who knows the artisan workshops, the best spice merchants, the hidden Koranic schools, and which carpet dealers can be trusted. The contrast between Royal Mansour's contained perfection and the explosive sensory experience of the souks is one of Marrakech's great pleasures. Return for afternoon tea with Moroccan pastries on your private rooftop." },
-      { "day": 4, "title": "Spa Day & Hammam Ritual", "description": "The Royal Mansour Spa is 2,500 square metres of marble, carved wood, and the finest Moroccan wellness traditions — spend the morning in the couple's hammam suite (a private hammam room with your own therapists), followed by a Moroccan herbal massage with argan and neroli oil. Afternoon at the hotel's pool, which is shared but impeccably calm. Evening at La Grande Table Française for a different culinary perspective." },
-      { "day": 5, "title": "Atlas Mountains & Berber Villages", "description": "A private car and guide takes you through the Atlas foothills — the road south from Marrakech climbs through Berber villages to the pass at Tizi n'Test (2,100m), with views of the High Atlas that seem impossible from the flat city below. Visit a traditional Berber family for mint tea and Amlou (argan nut butter) with fresh bread. Return via the Lalla Takerkoust lake, stopping for a sunset drink on the shore." },
-      { "day": 6, "title": "Palmeraie & Cooking Master Class", "description": "The hotel's own Moroccan cooking school offers a private master class — spend the morning learning the techniques of a genuine Moroccan tagine, the art of ras el hanout spice blending, and the delicate balance of a Moroccan pastilla. Eat the results for lunch on your riad terrace. Afternoon free: lie by the pool, have one final hammam treatment, or simply sit on your rooftop watching the Marrakech light change." },
-      { "day": 7, "title": "Farewell Morning", "description": "Last morning in your private riad — a slow breakfast delivered by your butler, a final plunge pool swim in the morning sun, and a walk through the hotel's extraordinary lanes of carved stone and cedar. Leaving Royal Mansour is genuinely painful; the scale of the craftsmanship, the quality of service, and the perfection of every detail create a standard against which all future hotels will be measured." }
+      {
+        "day": 1,
+        "title": "Arrival in a Kingdom",
+        "description": "Enter Royal Mansour through the monumental carved cedar gate and be escorted to your private riad — your butler emerging silently to appear exactly when needed, the underground service tunnel network ensuring you are never aware of the machinery of the hotel's operation. A private dinner on your rooftop terrace in the warm Marrakech night, with the medina's minarets visible in the middle distance, sets a standard of romance that will be the benchmark of your life."
+      },
+      {
+        "day": 2,
+        "title": "La Grande Table Marocaine",
+        "description": "Today is about the food — Royal Mansour's La Grande Table Marocaine is one of the finest Moroccan cuisine experiences in the world, a tasting menu of refined classical dishes executed with exceptional produce and the mastery of chef Yannick Alléno's consulting influence. Request a private table in one of the dining room's carved alcoves. Morning in the extraordinary hammam — the ritual takes two hours and uses argan soap, black Beldi soap, and rose water."
+      },
+      {
+        "day": 3,
+        "title": "Marrakech Medina Private Tour",
+        "description": "The hotel's concierge can arrange a private guide for the medina — someone who knows the artisan workshops, the best spice merchants, the hidden Koranic schools, and which carpet dealers can be trusted. The contrast between Royal Mansour's contained perfection and the explosive sensory experience of the souks is one of Marrakech's great pleasures. Return for afternoon tea with Moroccan pastries on your private rooftop."
+      },
+      {
+        "day": 4,
+        "title": "Spa Day & Hammam Ritual",
+        "description": "The Royal Mansour Spa is 2,500 square metres of marble, carved wood, and the finest Moroccan wellness traditions — spend the morning in the couple's hammam suite (a private hammam room with your own therapists), followed by a Moroccan herbal massage with argan and neroli oil. Afternoon at the hotel's pool, which is shared but impeccably calm. Evening at La Grande Table Française for a different culinary perspective."
+      },
+      {
+        "day": 5,
+        "title": "Atlas Mountains & Berber Villages",
+        "description": "A private car and guide takes you through the Atlas foothills — the road south from Marrakech climbs through Berber villages to the pass at Tizi n'Test (2,100m), with views of the High Atlas that seem impossible from the flat city below. Visit a traditional Berber family for mint tea and Amlou (argan nut butter) with fresh bread. Return via the Lalla Takerkoust lake, stopping for a sunset drink on the shore."
+      },
+      {
+        "day": 6,
+        "title": "Palmeraie & Cooking Master Class",
+        "description": "The hotel's own Moroccan cooking school offers a private master class — spend the morning learning the techniques of a genuine Moroccan tagine, the art of ras el hanout spice blending, and the delicate balance of a Moroccan pastilla. Eat the results for lunch on your riad terrace. Afternoon free: lie by the pool, have one final hammam treatment, or simply sit on your rooftop watching the Marrakech light change."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "Last morning in your private riad — a slow breakfast delivered by your butler, a final plunge pool swim in the morning sun, and a walk through the hotel's extraordinary lanes of carved stone and cedar. Leaving Royal Mansour is genuinely painful; the scale of the craftsmanship, the quality of service, and the perfection of every detail create a standard against which all future hotels will be measured."
+      }
     ],
     "caveats": [
       "Royal Mansour is one of the most expensive hotels in the world — rates start at $1200/night for the smallest riad and the Grande Riad and exceptional suites cost considerably more. It is a genuine splurge.",

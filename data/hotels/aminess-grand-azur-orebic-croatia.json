@@ -3,7 +3,10 @@
   "name": "Aminess Grand Azur Hotel",
   "destination": "croatia",
   "country": "croatia",
-  "experience_types": ["beach", "wellness"],
+  "experience_types": [
+    "beach",
+    "wellness"
+  ],
   "honeymoon_score": 76,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +20,48 @@
     "luxury": 5
   },
   "stars": 4,
-  "price_per_night_usd": { "min": 200, "max": 600 },
+  "price_per_night_usd": {
+    "min": 200,
+    "max": 600
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "beach", "room service", "water sports", "tennis", "fitness centre", "multiple restaurants", "Korcula island views"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beach",
+    "room service",
+    "water sports",
+    "tennis",
+    "fitness centre",
+    "multiple restaurants",
+    "Korcula island views"
+  ],
   "photos": [
-    { "url": "/images/hotels/aminess-grand-azur-orebic-croatia/hero.webp", "alt": "aminess-grand-azur-orebic-croatia — hero", "type": "hero" },
-    { "url": "/images/hotels/aminess-grand-azur-orebic-croatia/room.webp", "alt": "aminess-grand-azur-orebic-croatia — room", "type": "room" },
-    { "url": "/images/hotels/aminess-grand-azur-orebic-croatia/pool.webp", "alt": "aminess-grand-azur-orebic-croatia — pool", "type": "pool" },
-    { "url": "/images/hotels/aminess-grand-azur-orebic-croatia/spa.webp", "alt": "aminess-grand-azur-orebic-croatia — spa", "type": "spa" },
-    { "url": "/images/hotels/aminess-grand-azur-orebic-croatia/dining.webp", "alt": "aminess-grand-azur-orebic-croatia — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/aminess-grand-azur-orebic-croatia/hero.webp",
+      "alt": "aminess-grand-azur-orebic-croatia — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/aminess-grand-azur-orebic-croatia/room.webp",
+      "alt": "aminess-grand-azur-orebic-croatia — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/aminess-grand-azur-orebic-croatia/pool.webp",
+      "alt": "aminess-grand-azur-orebic-croatia — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/aminess-grand-azur-orebic-croatia/spa.webp",
+      "alt": "aminess-grand-azur-orebic-croatia — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/aminess-grand-azur-orebic-croatia/dining.webp",
+      "alt": "aminess-grand-azur-orebic-croatia — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 8.4,
   "tripadvisor_award": false,
@@ -34,13 +70,41 @@
     "verdict": "Aminess Grand Azur Hotel is the best-value four-star on the Pelješac peninsula, offering a genuine beach, a solid spa, and spectacular views across the narrow channel to Korčula island from a setting that remains authentically Croatian and crowd-free. It won't compete with Dubrovnik's five-star properties on glamour, but for couples who want good value, great water sports, and the freedom to explore one of Croatia's most underrated regions — the Pelješac wine peninsula — it's an excellent base. Think relaxed, active, and affordable rather than ultra-luxury.",
     "best_room": "Book a Superior Sea View Room or a Deluxe Sea View Room with a balcony overlooking the Korčula channel — the view of Korčula Town's medieval towers floating across the water at sunset is genuinely memorable and worth the upgrade from a standard or garden-facing room. The hotel's recent refurbishment has brought the sea-view rooms up to a clean, comfortable standard.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Orebic Arrival & Korcula Views", "description": "Arrive at Aminess Grand Azur and check into your sea-view room — the immediate prospect of Korčula town's towers and terracotta rooftops across the channel is one of Croatia's great surprise views. Walk the Orebić promenade in the evening, swim off the hotel beach, and have dinner with a bottle of local Plavac Mali from a Pelješac winery." },
-      { "day": 2, "title": "Korcula Day Trip", "description": "Take the 15-minute passenger ferry directly from Orebić to Korčula town — one of the most beautiful island towns in the Adriatic, often compared to a smaller, quieter Dubrovnik. Explore the medieval streets, visit the Cathedral of St Mark and the Marco Polo House, and have lunch at a harbourside konoba. Return in the afternoon and take a bike or e-bike out into the Pelješac vineyards." },
-      { "day": 3, "title": "Peljesac Wine Route", "description": "Rent a car or hire a driver for the day and explore the Pelješac wine road — the peninsula is the heartland of Croatian red wine, producing Dingač and Postup from steep south-facing cliffs above the sea. Visit Miloš winery and Grgić Vina (the Croatian home of Napa Valley legend Mike Grgich) for tastings paired with local cheese and prosciutto from the town of Ston." },
-      { "day": 4, "title": "Water Sports & Beach Day", "description": "The hotel's water sports centre offers windsurfing, paddleboarding, sea kayaking, and jet skiing — Orebić is one of the best windsurfing spots in the Adriatic thanks to the consistent maestral wind that blows down the channel. Spend the morning active on the water and the afternoon lounging on the hotel's long pebble beach with Korčula framed in the background." },
-      { "day": 5, "title": "Ston & Oysters", "description": "Drive to the medieval town of Ston, 35km along the peninsula — famous for its extraordinary 14th-century defensive walls (Europe's second longest after the Great Wall of China) and for the oyster and mussel farms in the Mali Ston bay. Eat the freshest oysters of your life directly from the bay at one of the family-run restaurants, then explore the walls and the salt pans that have been harvested since Roman times." },
-      { "day": 6, "title": "Spa & Sunset Dinner", "description": "A restorative day at the hotel spa — the Aminess wellness centre offers massages, facials, and hydrotherapy. After treatments, spend the afternoon by the pool watching the afternoon shadows lengthen across the Korčula channel. Book a special dinner at the hotel's à la carte restaurant with a tasting menu of Pelješac seafood and wine, and watch Korčula town light up across the water after dark." },
-      { "day": 7, "title": "Farewell Morning", "description": "Last breakfast on the sea-view terrace with the morning mist burning off the Korčula channel. The Pelješac peninsula, with its vines, oysters, medieval walls, and island views, is one of Croatia's best-kept secrets — a final slow coffee on the promenade before the drive south to Dubrovnik airport will feel like leaving somewhere genuinely unspoiled." }
+      {
+        "day": 1,
+        "title": "Orebic Arrival & Korcula Views",
+        "description": "Arrive at Aminess Grand Azur and check into your sea-view room — the immediate prospect of Korčula town's towers and terracotta rooftops across the channel is one of Croatia's great surprise views. Walk the Orebić promenade in the evening, swim off the hotel beach, and have dinner with a bottle of local Plavac Mali from a Pelješac winery."
+      },
+      {
+        "day": 2,
+        "title": "Korcula Day Trip",
+        "description": "Take the 15-minute passenger ferry directly from Orebić to Korčula town — one of the most beautiful island towns in the Adriatic, often compared to a smaller, quieter Dubrovnik. Explore the medieval streets, visit the Cathedral of St Mark and the Marco Polo House, and have lunch at a harbourside konoba. Return in the afternoon and take a bike or e-bike out into the Pelješac vineyards."
+      },
+      {
+        "day": 3,
+        "title": "Peljesac Wine Route",
+        "description": "Rent a car or hire a driver for the day and explore the Pelješac wine road — the peninsula is the heartland of Croatian red wine, producing Dingač and Postup from steep south-facing cliffs above the sea. Visit Miloš winery and Grgić Vina (the Croatian home of Napa Valley legend Mike Grgich) for tastings paired with local cheese and prosciutto from the town of Ston."
+      },
+      {
+        "day": 4,
+        "title": "Water Sports & Beach Day",
+        "description": "The hotel's water sports centre offers windsurfing, paddleboarding, sea kayaking, and jet skiing — Orebić is one of the best windsurfing spots in the Adriatic thanks to the consistent maestral wind that blows down the channel. Spend the morning active on the water and the afternoon lounging on the hotel's long pebble beach with Korčula framed in the background."
+      },
+      {
+        "day": 5,
+        "title": "Ston & Oysters",
+        "description": "Drive to the medieval town of Ston, 35km along the peninsula — famous for its extraordinary 14th-century defensive walls (Europe's second longest after the Great Wall of China) and for the oyster and mussel farms in the Mali Ston bay. Eat the freshest oysters of your life directly from the bay at one of the family-run restaurants, then explore the walls and the salt pans that have been harvested since Roman times."
+      },
+      {
+        "day": 6,
+        "title": "Spa & Sunset Dinner",
+        "description": "A restorative day at the hotel spa — the Aminess wellness centre offers massages, facials, and hydrotherapy. After treatments, spend the afternoon by the pool watching the afternoon shadows lengthen across the Korčula channel. Book a special dinner at the hotel's à la carte restaurant with a tasting menu of Pelješac seafood and wine, and watch Korčula town light up across the water after dark."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "Last breakfast on the sea-view terrace with the morning mist burning off the Korčula channel. The Pelješac peninsula, with its vines, oysters, medieval walls, and island views, is one of Croatia's best-kept secrets — a final slow coffee on the promenade before the drive south to Dubrovnik airport will feel like leaving somewhere genuinely unspoiled."
+      }
     ],
     "caveats": [
       "Aminess Grand Azur is a four-star rather than five-star hotel and the room quality, dining, and service reflect this — couples expecting five-star finishing and attention to detail may find some gaps.",

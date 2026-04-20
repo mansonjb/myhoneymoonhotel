@@ -3,7 +3,12 @@
   "name": "Baraza Resort & Spa Zanzibar",
   "destination": "zanzibar",
   "country": "tanzania",
-  "experience_types": ["beach", "adults-only", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "adults-only",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 90,
   "score_breakdown": {
     "adults_only": 20,
@@ -17,15 +22,48 @@
     "luxury": 5
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 500, "max": 1600 },
+  "price_per_night_usd": {
+    "min": 500,
+    "max": 1600
+  },
   "adults_only": true,
-  "amenities": ["spa", "pool", "beach", "room service", "butler service", "adults-only", "diving", "snorkeling", "fitness center"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beach",
+    "room service",
+    "butler service",
+    "adults-only",
+    "diving",
+    "snorkeling",
+    "fitness center"
+  ],
   "photos": [
-    { "url": "/images/hotels/baraza-resort-spa-zanzibar/hero.webp", "alt": "baraza-resort-spa-zanzibar — hero", "type": "hero" },
-    { "url": "/images/hotels/baraza-resort-spa-zanzibar/room.webp", "alt": "baraza-resort-spa-zanzibar — room", "type": "room" },
-    { "url": "/images/hotels/baraza-resort-spa-zanzibar/pool.webp", "alt": "baraza-resort-spa-zanzibar — pool", "type": "pool" },
-    { "url": "/images/hotels/baraza-resort-spa-zanzibar/spa.webp", "alt": "baraza-resort-spa-zanzibar — spa", "type": "spa" },
-    { "url": "/images/hotels/baraza-resort-spa-zanzibar/dining.webp", "alt": "baraza-resort-spa-zanzibar — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/baraza-resort-spa-zanzibar/hero.webp",
+      "alt": "baraza-resort-spa-zanzibar — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/baraza-resort-spa-zanzibar/room.webp",
+      "alt": "baraza-resort-spa-zanzibar — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/baraza-resort-spa-zanzibar/pool.webp",
+      "alt": "baraza-resort-spa-zanzibar — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/baraza-resort-spa-zanzibar/spa.webp",
+      "alt": "baraza-resort-spa-zanzibar — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/baraza-resort-spa-zanzibar/dining.webp",
+      "alt": "baraza-resort-spa-zanzibar — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.5,
   "tripadvisor_award": true,
@@ -34,13 +72,41 @@
     "verdict": "Baraza Resort & Spa is one of the finest adults-only resorts in the Indian Ocean — 30 private pool villas on the pristine east coast Bwejuu beach, all wrapped in intricately carved Swahili architecture that feels genuinely Zanzibari rather than generically tropical. The combination of a magnificent white-sand beach, adults-only guarantee, and an outstanding spa makes it a near-perfect honeymoon choice on the island. The price point is also noticeably more accessible than the private-island alternatives without sacrificing much on quality.",
     "best_room": "The Garden Pool Villa is Baraza's entry-level offering and already exceptional — a spacious suite with a private plunge pool set within a walled garden draped in bougainvillea. For maximum romance, upgrade to the Beachfront Pool Villa, which positions your private pool just metres from the Indian Ocean with direct beach access from your terrace. The carved wooden four-poster beds and hand-painted tiles throughout the villas are extraordinary examples of Swahili craftsmanship.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Champagne on the Beach", "description": "Baraza's team greets every couple at the resort's ornate entrance with fresh coconut water and a fragrant flower garland. After being shown your private pool villa, slip into your swimwear and walk the 200 metres of soft white sand in front of the resort — one of the best beaches on Zanzibar's east coast. That evening, the restaurant serves exceptional Swahili-influenced seafood by candlelight." },
-      { "day": 2, "title": "Couples' Spa Ritual", "description": "The Baraza Spa is frequently voted among the best in Africa. The four-hour couples' journey incorporates a Zanzibar sea salt and coconut scrub, a warm clove-oil massage, and a private hydrotherapy session — all within a stunning open-air treatment suite overlooking the resort gardens. Spend the afternoon horizontally beside your private pool." },
-      { "day": 3, "title": "Snorkeling the East Coast Reef", "description": "The east coast sits on the edge of the broader Zanzibar reef system, and the resort's dive centre arranges snorkel excursions to the best coral gardens. With a guide, visibility can be exceptional and encounters with hawksbill turtles are relatively common. Return for a slow lunch at the beach restaurant with your feet still sandy." },
-      { "day": 4, "title": "Bike Ride to Jozani Forest", "description": "A guided cycling excursion south to Jozani Chwaka Bay National Park is a wonderful half-day adventure — the park is home to the endemic Zanzibar red colobus monkey and a beautiful mangrove boardwalk. Return in the late afternoon and celebrate with sundowners on your villa terrace as the tide comes in." },
-      { "day": 5, "title": "Sunrise Dhow & Seaweed Farmers", "description": "Rise early for a traditional dhow sail along the coast, passing the seaweed farms that the local women tend at low tide — a striking and photogenic slice of authentic Zanzibar life rarely seen from the resorts. A packed breakfast on the water makes this feel like a private adventure, not a tour." },
-      { "day": 6, "title": "Stone Town Excursion", "description": "Arrange a full-day guided trip to Stone Town, UNESCO World Heritage Site — a living museum of Swahili, Arab, Indian, and Portuguese architecture. The Baraza concierge can arrange a private food tour through the old town's markets, a visit to the historical Palace Museum, and a sunset meal at one of the waterfront restaurants before the drive back." },
-      { "day": 7, "title": "Slow Morning & Farewell", "description": "Order breakfast to your villa and eat it beside your private pool — freshly baked mandazi, tropical fruit platters, and Kilimanjaro coffee. Take one last walk along the beach before checkout, collecting the vivid shells that wash up on Bwejuu. The resort packages a small gift of Zanzibar spices for every departing couple." }
+      {
+        "day": 1,
+        "title": "Arrival & Champagne on the Beach",
+        "description": "Baraza's team greets every couple at the resort's ornate entrance with fresh coconut water and a fragrant flower garland. After being shown your private pool villa, slip into your swimwear and walk the 200 metres of soft white sand in front of the resort — one of the best beaches on Zanzibar's east coast. That evening, the restaurant serves exceptional Swahili-influenced seafood by candlelight."
+      },
+      {
+        "day": 2,
+        "title": "Couples' Spa Ritual",
+        "description": "The Baraza Spa is frequently voted among the best in Africa. The four-hour couples' journey incorporates a Zanzibar sea salt and coconut scrub, a warm clove-oil massage, and a private hydrotherapy session — all within a stunning open-air treatment suite overlooking the resort gardens. Spend the afternoon horizontally beside your private pool."
+      },
+      {
+        "day": 3,
+        "title": "Snorkeling the East Coast Reef",
+        "description": "The east coast sits on the edge of the broader Zanzibar reef system, and the resort's dive centre arranges snorkel excursions to the best coral gardens. With a guide, visibility can be exceptional and encounters with hawksbill turtles are relatively common. Return for a slow lunch at the beach restaurant with your feet still sandy."
+      },
+      {
+        "day": 4,
+        "title": "Bike Ride to Jozani Forest",
+        "description": "A guided cycling excursion south to Jozani Chwaka Bay National Park is a wonderful half-day adventure — the park is home to the endemic Zanzibar red colobus monkey and a beautiful mangrove boardwalk. Return in the late afternoon and celebrate with sundowners on your villa terrace as the tide comes in."
+      },
+      {
+        "day": 5,
+        "title": "Sunrise Dhow & Seaweed Farmers",
+        "description": "Rise early for a traditional dhow sail along the coast, passing the seaweed farms that the local women tend at low tide — a striking and photogenic slice of authentic Zanzibar life rarely seen from the resorts. A packed breakfast on the water makes this feel like a private adventure, not a tour."
+      },
+      {
+        "day": 6,
+        "title": "Stone Town Excursion",
+        "description": "Arrange a full-day guided trip to Stone Town, UNESCO World Heritage Site — a living museum of Swahili, Arab, Indian, and Portuguese architecture. The Baraza concierge can arrange a private food tour through the old town's markets, a visit to the historical Palace Museum, and a sunset meal at one of the waterfront restaurants before the drive back."
+      },
+      {
+        "day": 7,
+        "title": "Slow Morning & Farewell",
+        "description": "Order breakfast to your villa and eat it beside your private pool — freshly baked mandazi, tropical fruit platters, and Kilimanjaro coffee. Take one last walk along the beach before checkout, collecting the vivid shells that wash up on Bwejuu. The resort packages a small gift of Zanzibar spices for every departing couple."
+      }
     ],
     "caveats": [
       "The east coast tides are dramatic — at low tide the water recedes significantly and swimming is only possible at high tide; check the tide chart before planning beach swims, or use the pool.",
@@ -48,12 +114,30 @@
       "Baraza is adults-only from age 16, which means older teenagers are technically permitted."
     ],
     "faqs": [
-      { "question": "Is Baraza Resort & Spa good for honeymooners?", "answer": "Baraza is considered one of the top two or three honeymoon resorts on Zanzibar — the adults-only policy, private pool villas, stunning Swahili architecture, and magnificent east coast beach create a powerfully romantic environment. The spa is exceptional and the team is highly experienced at curating bespoke honeymoon experiences. Most guests are couples, and the atmosphere reflects that." },
-      { "question": "What is the best time to visit?", "answer": "June to October is prime season for the east coast — the southeast trade winds (kaskazi) bring dry, warm weather and the sea is calm for snorkeling. December through February is equally good. Avoid April and May which see the long rainy season, though Baraza remains open." },
-      { "question": "What should we book in advance?", "answer": "Book the four-hour couples' spa journey at the time of reservation — it is the single most requested experience and availability is limited. Also pre-arrange a private beach dinner, and inform the team of your honeymoon so the villa can be prepared with flowers and Champagne on arrival." },
-      { "question": "Is it adults-only?", "answer": "Yes, Baraza Resort & Spa is strictly adults-only for guests aged 16 and above. This is the resort's defining characteristic and the primary reason it ranks so highly for honeymoon suitability — the atmosphere is consistently calm, romantic, and couple-focused throughout the property." },
-      { "question": "What's the best room type for a honeymoon?", "answer": "The Beachfront Pool Villa offers the best honeymoon experience — a private pool on a terrace directly above the sand, so you can move effortlessly between your plunge pool and the ocean. The carved Swahili interior design is more elaborate in the beachfront category. The Garden Pool Villa is a superb alternative at a lower price point." },
-      { "question": "How do we get there?", "answer": "Fly to Zanzibar International Airport (ZNZ) from Nairobi, Dar es Salaam, or Addis Ababa. Baraza is on the southeast coast near Bwejuu, approximately one hour from the airport. The resort arranges private transfers; request a road transfer rather than a water taxi for the most comfortable arrival." }
+      {
+        "question": "Is Baraza Resort & Spa good for honeymooners?",
+        "answer": "Baraza is considered one of the top two or three honeymoon resorts on Zanzibar — the adults-only policy, private pool villas, stunning Swahili architecture, and magnificent east coast beach create a powerfully romantic environment. The spa is exceptional and the team is highly experienced at curating bespoke honeymoon experiences. Most guests are couples, and the atmosphere reflects that."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "June to October is prime season for the east coast — the southeast trade winds (kaskazi) bring dry, warm weather and the sea is calm for snorkeling. December through February is equally good. Avoid April and May which see the long rainy season, though Baraza remains open."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "Book the four-hour couples' spa journey at the time of reservation — it is the single most requested experience and availability is limited. Also pre-arrange a private beach dinner, and inform the team of your honeymoon so the villa can be prepared with flowers and Champagne on arrival."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "Yes, Baraza Resort & Spa is strictly adults-only for guests aged 16 and above. This is the resort's defining characteristic and the primary reason it ranks so highly for honeymoon suitability — the atmosphere is consistently calm, romantic, and couple-focused throughout the property."
+      },
+      {
+        "question": "What's the best room type for a honeymoon?",
+        "answer": "The Beachfront Pool Villa offers the best honeymoon experience — a private pool on a terrace directly above the sand, so you can move effortlessly between your plunge pool and the ocean. The carved Swahili interior design is more elaborate in the beachfront category. The Garden Pool Villa is a superb alternative at a lower price point."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "Fly to Zanzibar International Airport (ZNZ) from Nairobi, Dar es Salaam, or Addis Ababa. Baraza is on the southeast coast near Bwejuu, approximately one hour from the airport. The resort arranges private transfers; request a road transfer rather than a water taxi for the most comfortable arrival."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Baraza Resort & Spa Zanzibar\n\nDear Baraza Resort & Spa team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: a Beachfront Pool Villa and the couples' spa journey.\n\nCould you please let us know:\n- Current availability for our dates\n- Any honeymoon packages or complimentary upgrades\n- Details on private beach dinner arrangements and the spa couples' ritual\n\nThank you for your time.\n\n[Your names]"
   },

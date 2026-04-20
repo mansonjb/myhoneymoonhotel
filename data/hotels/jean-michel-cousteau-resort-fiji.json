@@ -3,7 +3,11 @@
   "name": "Jean-Michel Cousteau Resort",
   "destination": "fiji",
   "country": "fiji",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 88,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,50 @@
     "luxury": 5
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 900, "max": 2500 },
+  "price_per_night_usd": {
+    "min": 900,
+    "max": 2500
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "beach", "room service", "butler service", "diving", "snorkeling", "marine education", "yoga", "all-inclusive", "children's club"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beach",
+    "room service",
+    "butler service",
+    "diving",
+    "snorkeling",
+    "marine education",
+    "yoga",
+    "all-inclusive",
+    "children's club"
+  ],
   "photos": [
-    { "url": "/images/hotels/jean-michel-cousteau-resort-fiji/hero.webp", "alt": "jean-michel-cousteau-resort-fiji — hero", "type": "hero" },
-    { "url": "/images/hotels/jean-michel-cousteau-resort-fiji/room.webp", "alt": "jean-michel-cousteau-resort-fiji — room", "type": "room" },
-    { "url": "/images/hotels/jean-michel-cousteau-resort-fiji/pool.webp", "alt": "jean-michel-cousteau-resort-fiji — pool", "type": "pool" },
-    { "url": "/images/hotels/jean-michel-cousteau-resort-fiji/spa.webp", "alt": "jean-michel-cousteau-resort-fiji — spa", "type": "spa" },
-    { "url": "/images/hotels/jean-michel-cousteau-resort-fiji/dining.webp", "alt": "jean-michel-cousteau-resort-fiji — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/jean-michel-cousteau-resort-fiji/hero.webp",
+      "alt": "jean-michel-cousteau-resort-fiji — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/jean-michel-cousteau-resort-fiji/room.webp",
+      "alt": "jean-michel-cousteau-resort-fiji — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/jean-michel-cousteau-resort-fiji/pool.webp",
+      "alt": "jean-michel-cousteau-resort-fiji — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/jean-michel-cousteau-resort-fiji/spa.webp",
+      "alt": "jean-michel-cousteau-resort-fiji — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/jean-michel-cousteau-resort-fiji/dining.webp",
+      "alt": "jean-michel-cousteau-resort-fiji — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.3,
   "tripadvisor_award": true,
@@ -34,13 +73,40 @@
     "verdict": "Jean-Michel Cousteau Resort on Vanua Levu is one of Fiji's most principled luxury resorts — an eco-luxury property built around the Cousteau family's life-long commitment to ocean conservation, where guest experiences are designed to create genuine understanding of and connection to the marine environment. The diving and snorkeling on the adjacent reef is exceptional, the spa is outstanding, and the all-inclusive format covers virtually everything. It is an ideal honeymoon for couples who share a passion for the ocean and want their holiday to feel meaningful as well as luxurious — and it also happens to be an exceptional choice for couples who plan to bring children on future trips, as the resort's Bula Club is legendary.",
     "best_room": "The Deluxe Oceanview Bures are the top category — large, well-appointed individual bures with private terraces overlooking the Pacific, outdoor rain showers, and the characteristic Fijian tanoa-and-pandanus interior design that gives the resort its sense of place. The Oceanview family bures should be avoided for a couple-only honeymoon as they are optimised for families. Request a bure as far from the Bula Club facilities as possible for maximum tranquility.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival at the Ocean Sanctuary", "description": "A short domestic flight from Nadi to Savusavu, then a 10-minute boat transfer to the resort's jetty in Savusavu Bay, delivers you to one of Vanua Levu's most beautiful locations. Jean-Michel Cousteau's own connection to this place is palpable — the resort's design, its programme, and its team all reflect a genuine philosophy rather than a brand name. The first evening is dinner at the oceanview restaurant as the Savusavu harbour lights reflect in the water below." },
-      { "day": 2, "title": "Marine Discovery Dive & Snorkel', 'description': 'The resort's dive programme is underpinned by genuine marine science — every dive debrief with the PADI instructors includes species identification, ecological context, and conservation notes that make you a more informed ocean visitor. The house reef, accessible from the beach, is one of the healthier in the Savusavu Bay area with excellent coral coverage and regular turtle encounters." },
-      { "day": 3, "title": "Spa Day at the Spa Sanasana", "description": "The Spa Sanasana is one of Vanua Levu's finest wellness facilities — a full treatment menu incorporating Fijian marine botanicals, volcanic mud, and traditional healing techniques. The couples' 'Ocean Ritual' is a 90-minute shared experience beginning with a warm coconut oil scrub and culminating in a simultaneous massage overlooking the bay. Afternoon is free for the resort's infinity pool and a cold cocktail." },
-      { "day": 4, "title": "Night Dive & Bioluminescence", "description": "A guided night dive on the Savusavu Bay reef reveals a completely different marine ecosystem — octopus, sleeping parrotfish, hunting moray eels, and the remarkable bioluminescence that lights up the water when disturbed at depth. Even non-divers can experience bioluminescence from a kayak on the calm bay surface after dark — one of the more magical experiences available at the resort." },
-      { "day": 5, "title": "Copra Shed Markets & Savusavu Town", "description": "The charming town of Savusavu is a 10-minute boat ride from the resort — one of Fiji's most atmospheric harbour towns, with a hot springs boardwalk, an excellent farmers market, and the Savusavu cultural centre. Lunch at the Copra Shed Marina restaurant overlooking the harbour is a genuine local experience. Return by late afternoon for a private beach sundowner arranged by your butler." },
-      { "day": 6, "title": "Kayak & Waterfall Trek", "description": "A guided kayak through the mangrove channels of Savusavu Bay followed by a hike to a freshwater waterfall in the hills behind the resort is one of the resort's most active and rewarding half-day excursions. Swimming in the fresh water pool at the base of the falls, then kayaking back through the mangroves as the afternoon tide comes in, is deeply satisfying in a physical and ecological way." },
-      { "day": 7, "title": "Final Reef Morning & Mindful Farewell", "description": "A last morning snorkel on the house reef, then a slow breakfast with views across Savusavu Bay. Jean-Michel Cousteau Resort's farewell is characteristically thoughtful — a small booklet documenting the marine species encountered during your stay, curated by the dive team, is presented at departure. It is a parting gift that reflects what makes this resort genuinely different." }
+      {
+        "day": 1,
+        "title": "Arrival at the Ocean Sanctuary",
+        "description": "A short domestic flight from Nadi to Savusavu, then a 10-minute boat transfer to the resort's jetty in Savusavu Bay, delivers you to one of Vanua Levu's most beautiful locations. Jean-Michel Cousteau's own connection to this place is palpable — the resort's design, its programme, and its team all reflect a genuine philosophy rather than a brand name. The first evening is dinner at the oceanview restaurant as the Savusavu harbour lights reflect in the water below."
+      },
+      {
+        "day": 2,
+        "title": "Marine Discovery Dive & Snorkel', 'description': 'The resort's dive programme is underpinned by genuine marine science — every dive debrief with the PADI instructors includes species identification, ecological context, and conservation notes that make you a more informed ocean visitor. The house reef, accessible from the beach, is one of the healthier in the Savusavu Bay area with excellent coral coverage and regular turtle encounters."
+      },
+      {
+        "day": 3,
+        "title": "Spa Day at the Spa Sanasana",
+        "description": "The Spa Sanasana is one of Vanua Levu's finest wellness facilities — a full treatment menu incorporating Fijian marine botanicals, volcanic mud, and traditional healing techniques. The couples' 'Ocean Ritual' is a 90-minute shared experience beginning with a warm coconut oil scrub and culminating in a simultaneous massage overlooking the bay. Afternoon is free for the resort's infinity pool and a cold cocktail."
+      },
+      {
+        "day": 4,
+        "title": "Night Dive & Bioluminescence",
+        "description": "A guided night dive on the Savusavu Bay reef reveals a completely different marine ecosystem — octopus, sleeping parrotfish, hunting moray eels, and the remarkable bioluminescence that lights up the water when disturbed at depth. Even non-divers can experience bioluminescence from a kayak on the calm bay surface after dark — one of the more magical experiences available at the resort."
+      },
+      {
+        "day": 5,
+        "title": "Copra Shed Markets & Savusavu Town",
+        "description": "The charming town of Savusavu is a 10-minute boat ride from the resort — one of Fiji's most atmospheric harbour towns, with a hot springs boardwalk, an excellent farmers market, and the Savusavu cultural centre. Lunch at the Copra Shed Marina restaurant overlooking the harbour is a genuine local experience. Return by late afternoon for a private beach sundowner arranged by your butler."
+      },
+      {
+        "day": 6,
+        "title": "Kayak & Waterfall Trek",
+        "description": "A guided kayak through the mangrove channels of Savusavu Bay followed by a hike to a freshwater waterfall in the hills behind the resort is one of the resort's most active and rewarding half-day excursions. Swimming in the fresh water pool at the base of the falls, then kayaking back through the mangroves as the afternoon tide comes in, is deeply satisfying in a physical and ecological way."
+      },
+      {
+        "day": 7,
+        "title": "Final Reef Morning & Mindful Farewell",
+        "description": "A last morning snorkel on the house reef, then a slow breakfast with views across Savusavu Bay. Jean-Michel Cousteau Resort's farewell is characteristically thoughtful — a small booklet documenting the marine species encountered during your stay, curated by the dive team, is presented at departure. It is a parting gift that reflects what makes this resort genuinely different."
+      }
     ],
     "caveats": [
       "Jean-Michel Cousteau Resort actively welcomes families and its Bula Club for children is one of Fiji's most respected. If children are also staying during your honeymoon, the atmosphere at the pool and beach can be lively — not ideal for couples seeking complete adult tranquility.",
@@ -48,12 +114,30 @@
       "Rooms are comfortable but not at the architectural drama level of the clifftop and overwater options at other Fiji resorts — the product is exceptional but the bure design is more traditional than theatrical."
     ],
     "faqs": [
-      { "question": "Is Jean-Michel Cousteau Resort good for honeymooners?", "answer": "Jean-Michel Cousteau Resort is excellent for honeymooners who are passionate about the ocean and want their travel to feel purposeful as well as indulgent. The marine education element, exceptional diving, and beautiful Savusavu Bay location create a honeymoon with intellectual depth as well as romantic beauty. Couples who prioritise a fully adult atmosphere may prefer Namale, which is also on Vanua Levu and adults-only." },
-      { "question": "What is the best time to visit?", "answer": "May through October is Fiji's dry season and the best for diving visibility in Savusavu Bay. The resort is beautiful year-round — Vanua Levu is generally slightly wetter than the western islands but the rainfall is typically short-lived and the landscape is correspondingly lush." },
-      { "question": "What should we book in advance?", "answer": "Pre-arrange the couples' spa ritual and notify the team of your honeymoon well ahead of arrival. Request a bure in the quieter section of the resort away from the Bula Club. Night dive and waterfall trek excursions should be booked in the first day of arrival through the activities desk." },
-      { "question": "Is it adults-only?", "answer": "Jean-Michel Cousteau Resort is not adults-only — the Bula Club for children is one of the resort's most celebrated features. Honeymooners will share the beach and facilities with families. Couples who specifically want adults-only Vanua Levu should choose Namale Resort instead." },
-      { "question": "What's the best room type for a honeymoon?", "answer": "The Deluxe Oceanview Bure provides the best ocean views and most generous space for a couple. Request a bure on the eastern or northern wing of the property, away from the main family facilities, for the most peaceful experience." },
-      { "question": "How do we get there?", "answer": "Fly from Nadi to Savusavu Airport (approximately 40 minutes with Fiji Link) and the resort arranges a 10-minute boat transfer across the bay. Total journey from Nadi airport is approximately 2 hours including connections." }
+      {
+        "question": "Is Jean-Michel Cousteau Resort good for honeymooners?",
+        "answer": "Jean-Michel Cousteau Resort is excellent for honeymooners who are passionate about the ocean and want their travel to feel purposeful as well as indulgent. The marine education element, exceptional diving, and beautiful Savusavu Bay location create a honeymoon with intellectual depth as well as romantic beauty. Couples who prioritise a fully adult atmosphere may prefer Namale, which is also on Vanua Levu and adults-only."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "May through October is Fiji's dry season and the best for diving visibility in Savusavu Bay. The resort is beautiful year-round — Vanua Levu is generally slightly wetter than the western islands but the rainfall is typically short-lived and the landscape is correspondingly lush."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "Pre-arrange the couples' spa ritual and notify the team of your honeymoon well ahead of arrival. Request a bure in the quieter section of the resort away from the Bula Club. Night dive and waterfall trek excursions should be booked in the first day of arrival through the activities desk."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "Jean-Michel Cousteau Resort is not adults-only — the Bula Club for children is one of the resort's most celebrated features. Honeymooners will share the beach and facilities with families. Couples who specifically want adults-only Vanua Levu should choose Namale Resort instead."
+      },
+      {
+        "question": "What's the best room type for a honeymoon?",
+        "answer": "The Deluxe Oceanview Bure provides the best ocean views and most generous space for a couple. Request a bure on the eastern or northern wing of the property, away from the main family facilities, for the most peaceful experience."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "Fly from Nadi to Savusavu Airport (approximately 40 minutes with Fiji Link) and the resort arranges a 10-minute boat transfer across the bay. Total journey from Nadi airport is approximately 2 hours including connections."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Jean-Michel Cousteau Resort Fiji\n\nDear Jean-Michel Cousteau Resort team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: a Deluxe Oceanview Bure in a quiet section of the resort and the diving programme.\n\nCould you please let us know:\n- Current availability for our dates\n- Details on the all-inclusive package and dive programme\n- Details on the couples' spa ritual and bioluminescence kayak experience\n\nThank you for your time.\n\n[Your names]"
   },

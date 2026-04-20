@@ -3,7 +3,10 @@
   "name": "Uga Jungle Beach",
   "destination": "sri-lanka",
   "country": "sri-lanka",
-  "experience_types": ["beach", "luxury"],
+  "experience_types": [
+    "beach",
+    "luxury"
+  ],
   "honeymoon_score": 86,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +20,47 @@
     "luxury": 5
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 400, "max": 1400 },
+  "price_per_night_usd": {
+    "min": 400,
+    "max": 1400
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "room service", "restaurant", "bar", "private beach", "snorkeling", "diving"],
+  "amenities": [
+    "spa",
+    "pool",
+    "room service",
+    "restaurant",
+    "bar",
+    "private beach",
+    "snorkeling",
+    "diving"
+  ],
   "photos": [
-    { "url": "/images/hotels/uga-jungle-beach-sri-lanka/hero.webp", "alt": "uga-jungle-beach-sri-lanka — hero", "type": "hero" },
-    { "url": "/images/hotels/uga-jungle-beach-sri-lanka/room.webp", "alt": "uga-jungle-beach-sri-lanka — room", "type": "room" },
-    { "url": "/images/hotels/uga-jungle-beach-sri-lanka/pool.webp", "alt": "uga-jungle-beach-sri-lanka — pool", "type": "pool" },
-    { "url": "/images/hotels/uga-jungle-beach-sri-lanka/spa.webp", "alt": "uga-jungle-beach-sri-lanka — spa", "type": "spa" },
-    { "url": "/images/hotels/uga-jungle-beach-sri-lanka/dining.webp", "alt": "uga-jungle-beach-sri-lanka — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/uga-jungle-beach-sri-lanka/hero.webp",
+      "alt": "uga-jungle-beach-sri-lanka — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/uga-jungle-beach-sri-lanka/room.webp",
+      "alt": "uga-jungle-beach-sri-lanka — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/uga-jungle-beach-sri-lanka/pool.webp",
+      "alt": "uga-jungle-beach-sri-lanka — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/uga-jungle-beach-sri-lanka/spa.webp",
+      "alt": "uga-jungle-beach-sri-lanka — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/uga-jungle-beach-sri-lanka/dining.webp",
+      "alt": "uga-jungle-beach-sri-lanka — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.1,
   "tripadvisor_award": false,
@@ -34,13 +69,41 @@
     "verdict": "Uga Jungle Beach is Sri Lanka's best-kept romantic secret — a hidden bay on the wild east coast near Trincomalee where jungle tumbles directly to a pristine coral-fringed beach, 20 luxurious cabanas nestle in the treeline, and the Indian Ocean is so clear you can see the sand ripples from your snorkel mask. The complete seclusion, the exceptional snorkeling reef directly off the beach, and the opportunity to combine east coast beach time with leopard spotting at nearby Kaudulla National Park make this one of Asia's most exciting honeymoon propositions.",
     "best_room": "The Premier Deluxe cabanas closest to the beach and set furthest into the jungle canopy offer the most immersive and private experience — you fall asleep to the sound of both waves and jungle, and the architecture of open timber and natural stone creates a beautiful connection to the landscape. For maximum space and a private garden deck, request the larger category cabanas at the north end of the beach.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Hidden Bay Welcome", "description": "The approach to Uga Jungle Beach on the coastal road north of Trincomalee confirms you are somewhere genuinely off the beaten path. Check in under the large jungle trees and walk straight to the beach — the transparency of the east coast sea here is extraordinary. Snorkel directly off the sand in the late afternoon before dinner in the open-sided beach restaurant as flying foxes cross the darkening sky." },
-      { "day": 2, "title": "Morning Snorkel & Trincomalee Town", "description": "The reef off Jungle Beach hosts a spectacular array of reef fish, sea turtles, moray eels, and occasional leopard sharks. Spend the morning exploring it at your own pace — the hotel provides quality snorkel gear. After lunch, drive into Trincomalee town (30 minutes) to visit Koneswaram Temple perched on Swami Rock above the blue harbour — one of Sri Lanka's most ancient and dramatic Hindu shrines." },
-      { "day": 3, "title": "Pigeon Island National Park Diving", "description": "Take the resort's boat to Pigeon Island Marine National Park — the finest snorkeling and diving destination on the east coast, with pristine hard coral gardens, blacktip reef sharks in the shallows, and sea turtles resting on the reef. The hotel's dive operation offers PADI courses and guided dives. Picnic lunch on the island beach, return for an afternoon rest and spa treatment." },
-      { "day": 4, "title": "Kaudulla Elephant Safari", "description": "Drive southwest to Kaudulla National Park — a two-hour journey through dry forest and paddy land — for a late-afternoon game drive. Kaudulla is famous for its elephant gatherings (up to 200 elephants at the seasonal water tank), and leopards, sloth bears, and crocodiles are also present. The late afternoon light in the dry forest is extraordinary. Return for a beach dinner under the stars." },
-      { "day": 5, "title": "Full Beach Day", "description": "Give this day entirely to the beach and ocean. The east coast's signature asset is its calm, clear, warm sea — a far cry from the sometimes rough south coast. Swim, snorkel, kayak the bay, and lie on the deserted beach. A sunset cocktail at the beach bar as the sun drops behind the jungle canopy, then a private dinner on the sand organised by the resort team for your honeymoon evening." },
-      { "day": 6, "title": "Uppuveli Village & Traditional Cooking", "description": "Hire a tuk-tuk from the hotel to the fishing village of Uppuveli, where the daily catch is landed at dawn. Buy fish directly from the boats, then take a cooking lesson at a village home learning to prepare east coast style fish curry, prawn sambol, and string hoppers. The eastern coast's food differs meaningfully from the south — spicier and with more coconut milk. Return for sunset from the resort's hilltop viewpoint." },
-      { "day": 7, "title": "Farewell Morning", "description": "One last snorkel on the reef before the world reclaims your attention. Breakfast in the beach restaurant as fishing pirogues pass across the bay. Uga Jungle Beach is the kind of place that doesn't let go easily — the combination of jungle, reef, and total seclusion is unlike anywhere else in Sri Lanka. Your journey back to Trincomalee Airport or onward begins with a return drive through the eastern coastal forest." }
+      {
+        "day": 1,
+        "title": "Arrival & Hidden Bay Welcome",
+        "description": "The approach to Uga Jungle Beach on the coastal road north of Trincomalee confirms you are somewhere genuinely off the beaten path. Check in under the large jungle trees and walk straight to the beach — the transparency of the east coast sea here is extraordinary. Snorkel directly off the sand in the late afternoon before dinner in the open-sided beach restaurant as flying foxes cross the darkening sky."
+      },
+      {
+        "day": 2,
+        "title": "Morning Snorkel & Trincomalee Town",
+        "description": "The reef off Jungle Beach hosts a spectacular array of reef fish, sea turtles, moray eels, and occasional leopard sharks. Spend the morning exploring it at your own pace — the hotel provides quality snorkel gear. After lunch, drive into Trincomalee town (30 minutes) to visit Koneswaram Temple perched on Swami Rock above the blue harbour — one of Sri Lanka's most ancient and dramatic Hindu shrines."
+      },
+      {
+        "day": 3,
+        "title": "Pigeon Island National Park Diving",
+        "description": "Take the resort's boat to Pigeon Island Marine National Park — the finest snorkeling and diving destination on the east coast, with pristine hard coral gardens, blacktip reef sharks in the shallows, and sea turtles resting on the reef. The hotel's dive operation offers PADI courses and guided dives. Picnic lunch on the island beach, return for an afternoon rest and spa treatment."
+      },
+      {
+        "day": 4,
+        "title": "Kaudulla Elephant Safari",
+        "description": "Drive southwest to Kaudulla National Park — a two-hour journey through dry forest and paddy land — for a late-afternoon game drive. Kaudulla is famous for its elephant gatherings (up to 200 elephants at the seasonal water tank), and leopards, sloth bears, and crocodiles are also present. The late afternoon light in the dry forest is extraordinary. Return for a beach dinner under the stars."
+      },
+      {
+        "day": 5,
+        "title": "Full Beach Day",
+        "description": "Give this day entirely to the beach and ocean. The east coast's signature asset is its calm, clear, warm sea — a far cry from the sometimes rough south coast. Swim, snorkel, kayak the bay, and lie on the deserted beach. A sunset cocktail at the beach bar as the sun drops behind the jungle canopy, then a private dinner on the sand organised by the resort team for your honeymoon evening."
+      },
+      {
+        "day": 6,
+        "title": "Uppuveli Village & Traditional Cooking",
+        "description": "Hire a tuk-tuk from the hotel to the fishing village of Uppuveli, where the daily catch is landed at dawn. Buy fish directly from the boats, then take a cooking lesson at a village home learning to prepare east coast style fish curry, prawn sambol, and string hoppers. The eastern coast's food differs meaningfully from the south — spicier and with more coconut milk. Return for sunset from the resort's hilltop viewpoint."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "One last snorkel on the reef before the world reclaims your attention. Breakfast in the beach restaurant as fishing pirogues pass across the bay. Uga Jungle Beach is the kind of place that doesn't let go easily — the combination of jungle, reef, and total seclusion is unlike anywhere else in Sri Lanka. Your journey back to Trincomalee Airport or onward begins with a return drive through the eastern coastal forest."
+      }
     ],
     "caveats": [
       "Uga Jungle Beach is seasonal in the most meaningful sense: the east coast of Sri Lanka is best visited April to September (opposite to the south coast). Outside this window, the northeast monsoon brings rough seas and frequent rain — swimmable days become rare from October to March. Plan your visit during the correct season.",
@@ -48,12 +111,30 @@
       "The resort has only 20 cabanas, which is a feature for privacy, but it also means limited variety in restaurants and activities compared to larger properties — honeymooners who want extensive nightlife or urban variety will be better served by a combined itinerary."
     ],
     "faqs": [
-      { "question": "Is Uga Jungle Beach good for honeymooners?", "answer": "Exceptionally so for the right couple — those who love the ocean, snorkeling, genuine seclusion, and the romance of a remote, jungle-fringed bay. The small scale (20 cabanas), pristine east coast reef, and the opportunity to combine beach time with elephant safari create a honeymoon with range and adventure. Less suited to couples seeking city culture or south coast nightlife." },
-      { "question": "What is the best time to visit?", "answer": "April to September is the east coast dry season and the optimal time for Uga Jungle Beach. May to August offers the calmest seas and best visibility for snorkeling and diving. Avoid October to March when the northeast monsoon brings rough conditions to the east coast. This is the opposite season to the south coast resorts." },
-      { "question": "What should we book in advance?", "answer": "Pigeon Island diving and snorkeling excursions should be reserved with the hotel in advance as boat numbers are limited. The Kaudulla elephant safari requires a half-day commitment and driver arrangement — book through the hotel team on arrival or before. The resort is small and fills up quickly in peak season (May–August)." },
-      { "question": "Is it adults-only?", "answer": "No, but the remote location, jungle-beach setting, and activity focus (snorkeling, diving, safari) make it a very natural couples' destination. The small scale of 20 cabanas limits family demand. Most guests are divers, snorkelers, wildlife enthusiasts, and couples — the atmosphere is calm and adult-oriented in practice." },
-      { "question": "What's the best room for a honeymoon?", "answer": "The Premier Deluxe cabanas combining jungle privacy with proximity to the beach are the best honeymoon choice. Request the cabanas furthest from the main reception and closest to the reef end of the beach — maximum seclusion and most direct morning beach access. Garden views from the private deck complete the setting." },
-      { "question": "How do we get there?", "answer": "Trincomalee's China Bay Airport (TRR) has domestic connections from Colombo Ratmalana Airport (RML) — flight time approximately 45 minutes. Alternatively, drive from Colombo via the A9 highway (approximately 5 to 6 hours) or take the overnight train from Colombo Fort to Trincomalee (8 hours, scenic but slow). The hotel is approximately 30 minutes north of Trincomalee town." }
+      {
+        "question": "Is Uga Jungle Beach good for honeymooners?",
+        "answer": "Exceptionally so for the right couple — those who love the ocean, snorkeling, genuine seclusion, and the romance of a remote, jungle-fringed bay. The small scale (20 cabanas), pristine east coast reef, and the opportunity to combine beach time with elephant safari create a honeymoon with range and adventure. Less suited to couples seeking city culture or south coast nightlife."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "April to September is the east coast dry season and the optimal time for Uga Jungle Beach. May to August offers the calmest seas and best visibility for snorkeling and diving. Avoid October to March when the northeast monsoon brings rough conditions to the east coast. This is the opposite season to the south coast resorts."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "Pigeon Island diving and snorkeling excursions should be reserved with the hotel in advance as boat numbers are limited. The Kaudulla elephant safari requires a half-day commitment and driver arrangement — book through the hotel team on arrival or before. The resort is small and fills up quickly in peak season (May–August)."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "No, but the remote location, jungle-beach setting, and activity focus (snorkeling, diving, safari) make it a very natural couples' destination. The small scale of 20 cabanas limits family demand. Most guests are divers, snorkelers, wildlife enthusiasts, and couples — the atmosphere is calm and adult-oriented in practice."
+      },
+      {
+        "question": "What's the best room for a honeymoon?",
+        "answer": "The Premier Deluxe cabanas combining jungle privacy with proximity to the beach are the best honeymoon choice. Request the cabanas furthest from the main reception and closest to the reef end of the beach — maximum seclusion and most direct morning beach access. Garden views from the private deck complete the setting."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "Trincomalee's China Bay Airport (TRR) has domestic connections from Colombo Ratmalana Airport (RML) — flight time approximately 45 minutes. Alternatively, drive from Colombo via the A9 highway (approximately 5 to 6 hours) or take the overnight train from Colombo Fort to Trincomalee (8 hours, scenic but slow). The hotel is approximately 30 minutes north of Trincomalee town."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Uga Jungle Beach\n\nDear Uga Jungle Beach team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: a Premier Deluxe cabana close to the beach.\n\nCould you please let us know:\n- Current availability for our dates\n- Any honeymoon packages or special arrangements\n- Whether Pigeon Island diving and Kaudulla elephant safari can be arranged during our stay\n\nThank you for your time.\n\n[Your names]"
   },

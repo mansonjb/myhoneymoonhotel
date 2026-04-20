@@ -3,7 +3,12 @@
   "name": "Constance Prince Maurice",
   "destination": "mauritius",
   "country": "mauritius",
-  "experience_types": ["beach", "luxury", "wellness", "overwater-bungalows"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness",
+    "overwater-bungalows"
+  ],
   "honeymoon_score": 91,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +22,49 @@
     "luxury": 11
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 600, "max": 2000 },
+  "price_per_night_usd": {
+    "min": 600,
+    "max": 2000
+  },
   "adults_only": false,
-  "amenities": ["overwater suites", "private beach", "spa", "pool", "room service", "butler service", "multiple restaurants", "water sports", "concierge", "fish reserve snorkeling"],
+  "amenities": [
+    "overwater suites",
+    "private beach",
+    "spa",
+    "pool",
+    "room service",
+    "butler service",
+    "multiple restaurants",
+    "water sports",
+    "concierge",
+    "fish reserve snorkeling"
+  ],
   "photos": [
-    { "url": "/images/hotels/constance-prince-maurice-mauritius/hero.webp", "alt": "constance-prince-maurice-mauritius — hero", "type": "hero" },
-    { "url": "/images/hotels/constance-prince-maurice-mauritius/room.webp", "alt": "constance-prince-maurice-mauritius — room", "type": "room" },
-    { "url": "/images/hotels/constance-prince-maurice-mauritius/pool.webp", "alt": "constance-prince-maurice-mauritius — pool", "type": "pool" },
-    { "url": "/images/hotels/constance-prince-maurice-mauritius/spa.webp", "alt": "constance-prince-maurice-mauritius — spa", "type": "spa" },
-    { "url": "/images/hotels/constance-prince-maurice-mauritius/dining.webp", "alt": "constance-prince-maurice-mauritius — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/constance-prince-maurice-mauritius/hero.webp",
+      "alt": "constance-prince-maurice-mauritius — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/constance-prince-maurice-mauritius/room.webp",
+      "alt": "constance-prince-maurice-mauritius — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/constance-prince-maurice-mauritius/pool.webp",
+      "alt": "constance-prince-maurice-mauritius — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/constance-prince-maurice-mauritius/spa.webp",
+      "alt": "constance-prince-maurice-mauritius — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/constance-prince-maurice-mauritius/dining.webp",
+      "alt": "constance-prince-maurice-mauritius — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.3,
   "tripadvisor_award": true,
@@ -34,13 +73,41 @@
     "verdict": "Constance Prince Maurice is the most romantically distinctive resort on Mauritius's east coast — a collection of 89 suites set on an exclusive peninsula, with a rare and extraordinary feature: overwater suites suspended above a protected natural fish reserve where manta rays, sea turtles, and over 30 species of tropical fish can be observed directly from your deck. The combination of overwater living, superb Constance spa, and the east coast's beautiful lagoon creates a Mauritius experience that is both rare and deeply romantic.",
     "best_room": "The Overwater Suites are the defining honeymoon accommodation — built on stilts above the fish reserve, with glass floor panels through which you can watch the marine life below, private sundecks directly over the water, and the option of a direct water entry ladder. The Junior Suites on the lagoon beach are excellent alternatives for couples who prefer sand underfoot to overwater living. In either case, request a unit with maximum lagoon views.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Overwater Arrival", "description": "Transfer from the airport and arrive at the peninsula by a private wooden causeway — the resort's exclusive access road gives an immediate sense of entering a different world. Check into your overwater suite and look down through the glass floor panel as the fish reserve's residents swim below. The welcome dinner at the overwater restaurant, lit by lanterns above the calm lagoon, is an immediate expression of the resort's romantic character." },
-      { "day": 2, "title": "Fish Reserve Dawn & Lagoon Day", "description": "Rise early for the fish reserve's most magical hour — dawn on the overwater deck as the light filters through the water and the morning feeding activity begins below. Breakfast delivered to your deck, then a day divided between snorkeling directly off your suite into the reserve, and the resort's lagoon beach. The beach's water is exceptional — warm, clear, and shallow enough to wade far out." },
-      { "day": 3, "title": "Île aux Cerfs & Water Sports", "description": "Take the resort's boat to Île aux Cerfs for the day — white sand beaches and translucent water that photograph beautifully. Return for the afternoon to the resort's water sports centre for windsurfing, sea kayaking, or a guided snorkeling trip to the outer reef where larger marine life congregates. Evening cocktails on your overwater deck as the stars emerge." },
-      { "day": 4, "title": "Constance Spa Immersion", "description": "Dedicate a full day to the Constance Spa — one of the finest in the Indian Ocean, offering Ayurvedic therapies alongside Mauritian botanical treatments. The spa's treatments take place in thatched treatment pavilions set within tropical gardens. A full day of back-to-back treatments interspersed with steam rooms, hydrotherapy, and pool time creates a deep sense of restoration that complements the honeymoon perfectly." },
-      { "day": 5, "title": "Mauritius Cultural Day", "description": "Mauritius is one of the most culturally diverse nations in the world — Indian, African, French, Chinese, and Creole influences create a fascinating living culture. Hire a driver for a cultural tour: visit the Grand Bassin sacred Hindu lake, the Mahebourg waterfront for maritime history, and the colorful markets of Flacq. Return with local rum, vanilla pods, and Creole spices." },
-      { "day": 6, "title": "Sunset Catamaran & Private Dinner", "description": "Book the resort's sunset catamaran cruise on the lagoon — one of the most romantic activities on offer, with Champagne, canapés, and the east coast of Mauritius glowing in the evening light. Return for a private dinner arranged by the butler on your overwater deck, with candles, a curated menu, and nothing above you but stars and the Milky Way — a sight of remarkable intensity away from light pollution." },
-      { "day": 7, "title": "Farewell Morning", "description": "A final morning floating on the surface of the fish reserve from your overwater deck, watching the marine life one last time. The resort's farewell gifts typically include Constance-branded natural products and a selection of Mauritian vanilla and spices. The transfer to the airport takes about 45 minutes through the east coast's sugar cane landscape." }
+      {
+        "day": 1,
+        "title": "Overwater Arrival",
+        "description": "Transfer from the airport and arrive at the peninsula by a private wooden causeway — the resort's exclusive access road gives an immediate sense of entering a different world. Check into your overwater suite and look down through the glass floor panel as the fish reserve's residents swim below. The welcome dinner at the overwater restaurant, lit by lanterns above the calm lagoon, is an immediate expression of the resort's romantic character."
+      },
+      {
+        "day": 2,
+        "title": "Fish Reserve Dawn & Lagoon Day",
+        "description": "Rise early for the fish reserve's most magical hour — dawn on the overwater deck as the light filters through the water and the morning feeding activity begins below. Breakfast delivered to your deck, then a day divided between snorkeling directly off your suite into the reserve, and the resort's lagoon beach. The beach's water is exceptional — warm, clear, and shallow enough to wade far out."
+      },
+      {
+        "day": 3,
+        "title": "Île aux Cerfs & Water Sports",
+        "description": "Take the resort's boat to Île aux Cerfs for the day — white sand beaches and translucent water that photograph beautifully. Return for the afternoon to the resort's water sports centre for windsurfing, sea kayaking, or a guided snorkeling trip to the outer reef where larger marine life congregates. Evening cocktails on your overwater deck as the stars emerge."
+      },
+      {
+        "day": 4,
+        "title": "Constance Spa Immersion",
+        "description": "Dedicate a full day to the Constance Spa — one of the finest in the Indian Ocean, offering Ayurvedic therapies alongside Mauritian botanical treatments. The spa's treatments take place in thatched treatment pavilions set within tropical gardens. A full day of back-to-back treatments interspersed with steam rooms, hydrotherapy, and pool time creates a deep sense of restoration that complements the honeymoon perfectly."
+      },
+      {
+        "day": 5,
+        "title": "Mauritius Cultural Day",
+        "description": "Mauritius is one of the most culturally diverse nations in the world — Indian, African, French, Chinese, and Creole influences create a fascinating living culture. Hire a driver for a cultural tour: visit the Grand Bassin sacred Hindu lake, the Mahebourg waterfront for maritime history, and the colorful markets of Flacq. Return with local rum, vanilla pods, and Creole spices."
+      },
+      {
+        "day": 6,
+        "title": "Sunset Catamaran & Private Dinner",
+        "description": "Book the resort's sunset catamaran cruise on the lagoon — one of the most romantic activities on offer, with Champagne, canapés, and the east coast of Mauritius glowing in the evening light. Return for a private dinner arranged by the butler on your overwater deck, with candles, a curated menu, and nothing above you but stars and the Milky Way — a sight of remarkable intensity away from light pollution."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "A final morning floating on the surface of the fish reserve from your overwater deck, watching the marine life one last time. The resort's farewell gifts typically include Constance-branded natural products and a selection of Mauritian vanilla and spices. The transfer to the airport takes about 45 minutes through the east coast's sugar cane landscape."
+      }
     ],
     "caveats": [
       "The overwater suites at Prince Maurice are above a fish reserve, not the open lagoon — the water directly below can be shallow and the reserve area is restricted for conservation reasons. Direct swimming from the suite is possible but differs from the open-water experience of Maldivian overwater bungalows.",

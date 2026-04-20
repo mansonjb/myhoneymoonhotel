@@ -3,7 +3,10 @@
   "name": "Giraffe Manor Nairobi",
   "destination": "kenya",
   "country": "kenya",
-  "experience_types": ["luxury", "safari"],
+  "experience_types": [
+    "luxury",
+    "safari"
+  ],
   "honeymoon_score": 88,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +20,46 @@
     "luxury": 5
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 700, "max": 1500 },
+  "price_per_night_usd": {
+    "min": 700,
+    "max": 1500
+  },
   "adults_only": false,
-  "amenities": ["room service", "butler service", "wildlife encounters", "gardens", "private dining", "nature walks", "bar"],
+  "amenities": [
+    "room service",
+    "butler service",
+    "wildlife encounters",
+    "gardens",
+    "private dining",
+    "nature walks",
+    "bar"
+  ],
   "photos": [
-    { "url": "/images/hotels/giraffe-manor-nairobi-kenya/hero.webp", "alt": "giraffe-manor-nairobi-kenya — hero", "type": "hero" },
-    { "url": "/images/hotels/giraffe-manor-nairobi-kenya/room.webp", "alt": "giraffe-manor-nairobi-kenya — room", "type": "room" },
-    { "url": "/images/hotels/giraffe-manor-nairobi-kenya/pool.webp", "alt": "giraffe-manor-nairobi-kenya — pool", "type": "pool" },
-    { "url": "/images/hotels/giraffe-manor-nairobi-kenya/spa.webp", "alt": "giraffe-manor-nairobi-kenya — spa", "type": "spa" },
-    { "url": "/images/hotels/giraffe-manor-nairobi-kenya/dining.webp", "alt": "giraffe-manor-nairobi-kenya — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/giraffe-manor-nairobi-kenya/hero.webp",
+      "alt": "giraffe-manor-nairobi-kenya — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/giraffe-manor-nairobi-kenya/room.webp",
+      "alt": "giraffe-manor-nairobi-kenya — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/giraffe-manor-nairobi-kenya/pool.webp",
+      "alt": "giraffe-manor-nairobi-kenya — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/giraffe-manor-nairobi-kenya/spa.webp",
+      "alt": "giraffe-manor-nairobi-kenya — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/giraffe-manor-nairobi-kenya/dining.webp",
+      "alt": "giraffe-manor-nairobi-kenya — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.4,
   "tripadvisor_award": true,
@@ -34,13 +68,41 @@
     "verdict": "Giraffe Manor is one of the most photographed and beloved hotels on the African continent — a magnificent 1930s Scottish manor house in a Nairobi suburb where Rothschild giraffes, among the world's most endangered giraffe subspecies, freely wander the gardens and extend their impossibly long necks through the breakfast room windows. Just 12 rooms means the experience is exclusive, and for honeymooners the combination of a historic manor, extraordinary wildlife, and one of Africa's most romantic breakfast settings creates a genuinely bucket-list moment. It is best used as a Nairobi stop-over before or after a safari, rather than a standalone destination.",
     "best_room": "The Garden Suite is the most romantic room in the manor — a spacious corner suite in the original 1930s building with views over the giraffe feeding area and the forest beyond. The Room at Giraffe Manor is the most famous individual room, with a window perfectly positioned for giraffe visits at eye level. All rooms are individually decorated with antique safari-era furniture, four-poster beds, and the kind of lived-in elegance that modern luxury hotels rarely replicate.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival at the Manor", "description": "The discovery that giraffes wander freely among the manor's guests typically happens at the front steps — a Rothschild giraffe standing at the entrance to welcome you is not unusual and never becomes ordinary. Afternoon tea on the veranda as the herd moves through the garden is your first introduction to what makes Giraffe Manor completely singular among African hotels." },
-      { "day": 2, "title": "Breakfast with the Giraffes", "description": "The famous breakfast at Giraffe Manor — freshly baked pastries, tropical fruits, eggs cooked to order — is served as Rothschild giraffes push through the open sash windows looking for treats. Each giraffe has a name and personality known by the team; waking your partner on your first morning with 'there are giraffes in the dining room' is an unrepeatable honeymoon moment." },
-      { "day": 3, "title": "Nairobi National Park Half Day", "description": "The only national park in the world within a capital city, Nairobi National Park is 10 minutes from Giraffe Manor by car. Lion, rhinoceros, buffalo, and cheetah are all resident, with the Nairobi skyline visible on the horizon beyond the wildlife — one of Africa's more surreal game drive backdrops. Return for a late lunch in the manor garden." },
-      { "day": 4, "title": "Giraffe Centre & David Sheldrick Elephant Orphanage", "description": "The Giraffe Centre, operated by the African Fund for Endangered Wildlife — the same organisation that founded Giraffe Manor — allows you to hand-feed Rothschild giraffes at eye level on an elevated platform. Combine with a morning visit to the David Sheldrick Wildlife Trust elephant orphanage, where orphaned baby elephants are raised before reintroduction to the wild — deeply moving and joyful in equal measure." },
-      { "day": 5, "title": "Karen Blixen Museum & City Exploration", "description": "Karen Blixen's farm and home, where Out of Africa was set, is a 15-minute drive from Giraffe Manor and provides wonderful context for the landscape that surrounds you. The Nairobi suburb of Karen — named for the author — has excellent boutique coffee shops, craft markets, and a relaxed colonial-era atmosphere worth spending a half-day exploring." },
-      { "day": 6, "title": "Private Manor Dinner", "description": "A private dinner for two in the manor's formal dining room, with the garden lit by lanterns and the occasional giraffe silhouette moving past the windows, is one of the most romantic settings in all of Kenya. The kitchen produces fine modern cooking with strong Kenyan ingredient sourcing — Kenyan trout, Mara lamb, and locally grown vegetables feature prominently." },
-      { "day": 7, "title": "Last Breakfast & Departure for the Bush", "description": "A final breakfast with the giraffes before departing for your Mara flight — most guests use Giraffe Manor as a beginning or end to a wider Kenya safari, and the morning handover from manor to bush (or vice versa) is a perfect transition. The team photographs every departing couple with the giraffes as a farewell gift." }
+      {
+        "day": 1,
+        "title": "Arrival at the Manor",
+        "description": "The discovery that giraffes wander freely among the manor's guests typically happens at the front steps — a Rothschild giraffe standing at the entrance to welcome you is not unusual and never becomes ordinary. Afternoon tea on the veranda as the herd moves through the garden is your first introduction to what makes Giraffe Manor completely singular among African hotels."
+      },
+      {
+        "day": 2,
+        "title": "Breakfast with the Giraffes",
+        "description": "The famous breakfast at Giraffe Manor — freshly baked pastries, tropical fruits, eggs cooked to order — is served as Rothschild giraffes push through the open sash windows looking for treats. Each giraffe has a name and personality known by the team; waking your partner on your first morning with 'there are giraffes in the dining room' is an unrepeatable honeymoon moment."
+      },
+      {
+        "day": 3,
+        "title": "Nairobi National Park Half Day",
+        "description": "The only national park in the world within a capital city, Nairobi National Park is 10 minutes from Giraffe Manor by car. Lion, rhinoceros, buffalo, and cheetah are all resident, with the Nairobi skyline visible on the horizon beyond the wildlife — one of Africa's more surreal game drive backdrops. Return for a late lunch in the manor garden."
+      },
+      {
+        "day": 4,
+        "title": "Giraffe Centre & David Sheldrick Elephant Orphanage",
+        "description": "The Giraffe Centre, operated by the African Fund for Endangered Wildlife — the same organisation that founded Giraffe Manor — allows you to hand-feed Rothschild giraffes at eye level on an elevated platform. Combine with a morning visit to the David Sheldrick Wildlife Trust elephant orphanage, where orphaned baby elephants are raised before reintroduction to the wild — deeply moving and joyful in equal measure."
+      },
+      {
+        "day": 5,
+        "title": "Karen Blixen Museum & City Exploration",
+        "description": "Karen Blixen's farm and home, where Out of Africa was set, is a 15-minute drive from Giraffe Manor and provides wonderful context for the landscape that surrounds you. The Nairobi suburb of Karen — named for the author — has excellent boutique coffee shops, craft markets, and a relaxed colonial-era atmosphere worth spending a half-day exploring."
+      },
+      {
+        "day": 6,
+        "title": "Private Manor Dinner",
+        "description": "A private dinner for two in the manor's formal dining room, with the garden lit by lanterns and the occasional giraffe silhouette moving past the windows, is one of the most romantic settings in all of Kenya. The kitchen produces fine modern cooking with strong Kenyan ingredient sourcing — Kenyan trout, Mara lamb, and locally grown vegetables feature prominently."
+      },
+      {
+        "day": 7,
+        "title": "Last Breakfast & Departure for the Bush",
+        "description": "A final breakfast with the giraffes before departing for your Mara flight — most guests use Giraffe Manor as a beginning or end to a wider Kenya safari, and the morning handover from manor to bush (or vice versa) is a perfect transition. The team photographs every departing couple with the giraffes as a farewell gift."
+      }
     ],
     "caveats": [
       "Giraffe Manor has no swimming pool and no spa — it is a historic manor house and wildlife experience, not a wellness retreat. Couples who want these amenities should combine it with a spa resort elsewhere.",
@@ -48,12 +110,30 @@
       "Rooms are in very high demand and frequently sell out 12 months ahead for peak dates — this is not a last-minute booking option."
     ],
     "faqs": [
-      { "question": "Is Giraffe Manor good for honeymooners?", "answer": "Giraffe Manor is exceptional for honeymooners looking for a unique, bucket-list experience within a Nairobi stop. The combination of the historic manor, extraordinary Rothschild giraffe encounters, and intimate 12-room scale creates some of the most memorable honeymoon moments in Africa. It pairs beautifully with one or two weeks on safari in the Mara or Laikipia, and is often used as a first-night celebration or a final-night treat." },
-      { "question": "What is the best time to visit?", "answer": "Giraffe Manor is excellent year-round as the giraffes are always present. The Nairobi daytime climate is consistently pleasant at around 2000 metres altitude. Avoid Nairobi's short rainy season (October–November) and long rains (April–May) if you want the garden at its most photogenic." },
-      { "question": "What should we book in advance?", "answer": "Book Giraffe Manor as far in advance as possible — 6–12 months ahead for any date, and longer for Christmas, New Year, and Valentine's Day. The hotel's popularity on social media means it sells out as fast as almost any hotel in Africa. Request a giraffe-facing room at the time of booking." },
-      { "question": "Is it adults-only?", "answer": "Giraffe Manor is not adults-only. It welcomes families, and the giraffe experience is beloved by children. In practice, the mix of guests is varied — couples, families, and celebrants of all kinds. The atmosphere is sophisticated and joyful rather than exclusively romantic." },
-      { "question": "What's the best room type for a honeymoon?", "answer": "The Garden Suite in the original manor building offers the best romantic experience — corner position, giraffe-facing views, and original 1930s architectural character. The Room at Giraffe Manor is the most famous individual room with a window at giraffe-head height. Any room in the original manor building is preferable to the newer wing for character." },
-      { "question": "How do we get there?", "answer": "Giraffe Manor is in the suburb of Langata, approximately 20 kilometres from Jomo Kenyatta International Airport. A taxi or hotel transfer takes 30–45 minutes depending on Nairobi traffic. The hotel arranges airport transfers and can coordinate onward light aircraft to the Mara or other safari destinations." }
+      {
+        "question": "Is Giraffe Manor good for honeymooners?",
+        "answer": "Giraffe Manor is exceptional for honeymooners looking for a unique, bucket-list experience within a Nairobi stop. The combination of the historic manor, extraordinary Rothschild giraffe encounters, and intimate 12-room scale creates some of the most memorable honeymoon moments in Africa. It pairs beautifully with one or two weeks on safari in the Mara or Laikipia, and is often used as a first-night celebration or a final-night treat."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "Giraffe Manor is excellent year-round as the giraffes are always present. The Nairobi daytime climate is consistently pleasant at around 2000 metres altitude. Avoid Nairobi's short rainy season (October–November) and long rains (April–May) if you want the garden at its most photogenic."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "Book Giraffe Manor as far in advance as possible — 6–12 months ahead for any date, and longer for Christmas, New Year, and Valentine's Day. The hotel's popularity on social media means it sells out as fast as almost any hotel in Africa. Request a giraffe-facing room at the time of booking."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "Giraffe Manor is not adults-only. It welcomes families, and the giraffe experience is beloved by children. In practice, the mix of guests is varied — couples, families, and celebrants of all kinds. The atmosphere is sophisticated and joyful rather than exclusively romantic."
+      },
+      {
+        "question": "What's the best room type for a honeymoon?",
+        "answer": "The Garden Suite in the original manor building offers the best romantic experience — corner position, giraffe-facing views, and original 1930s architectural character. The Room at Giraffe Manor is the most famous individual room with a window at giraffe-head height. Any room in the original manor building is preferable to the newer wing for character."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "Giraffe Manor is in the suburb of Langata, approximately 20 kilometres from Jomo Kenyatta International Airport. A taxi or hotel transfer takes 30–45 minutes depending on Nairobi traffic. The hotel arranges airport transfers and can coordinate onward light aircraft to the Mara or other safari destinations."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Giraffe Manor Nairobi\n\nDear Giraffe Manor team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: a giraffe-facing room in the original manor building.\n\nCould you please let us know:\n- Current availability for our dates\n- Any honeymoon enhancements or complimentary touches\n- Details on the private manor dinner and airport transfer arrangements\n\nThank you for your time.\n\n[Your names]"
   },

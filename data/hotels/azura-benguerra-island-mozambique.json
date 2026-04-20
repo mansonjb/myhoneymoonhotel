@@ -3,7 +3,11 @@
   "name": "Azura Benguerra Island",
   "destination": "mozambique",
   "country": "mozambique",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 92,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,49 @@
     "luxury": 5
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 800, "max": 2800 },
+  "price_per_night_usd": {
+    "min": 800,
+    "max": 2800
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "beach", "room service", "butler service", "snorkeling", "diving", "dhow excursions", "water sports", "eco experiences"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beach",
+    "room service",
+    "butler service",
+    "snorkeling",
+    "diving",
+    "dhow excursions",
+    "water sports",
+    "eco experiences"
+  ],
   "photos": [
-    { "url": "/images/hotels/azura-benguerra-island-mozambique/hero.webp", "alt": "azura-benguerra-island-mozambique — hero", "type": "hero" },
-    { "url": "/images/hotels/azura-benguerra-island-mozambique/room.webp", "alt": "azura-benguerra-island-mozambique — room", "type": "room" },
-    { "url": "/images/hotels/azura-benguerra-island-mozambique/pool.webp", "alt": "azura-benguerra-island-mozambique — pool", "type": "pool" },
-    { "url": "/images/hotels/azura-benguerra-island-mozambique/spa.webp", "alt": "azura-benguerra-island-mozambique — spa", "type": "spa" },
-    { "url": "/images/hotels/azura-benguerra-island-mozambique/dining.webp", "alt": "azura-benguerra-island-mozambique — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/azura-benguerra-island-mozambique/hero.webp",
+      "alt": "azura-benguerra-island-mozambique — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/azura-benguerra-island-mozambique/room.webp",
+      "alt": "azura-benguerra-island-mozambique — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/azura-benguerra-island-mozambique/pool.webp",
+      "alt": "azura-benguerra-island-mozambique — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/azura-benguerra-island-mozambique/spa.webp",
+      "alt": "azura-benguerra-island-mozambique — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/azura-benguerra-island-mozambique/dining.webp",
+      "alt": "azura-benguerra-island-mozambique — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.5,
   "tripadvisor_award": true,
@@ -34,13 +72,41 @@
     "verdict": "Azura Benguerra Island is a boutique eco-luxury retreat on Benguerra Island in the Bazaruto Archipelago, offering just 10 private villas — each with its own pool — on one of the Indian Ocean's most beautiful stretches of beach. Its combination of award-winning romance packages, genuine eco-credentials, and access to world-class snorkeling with manta rays, dolphins, and dugongs makes it a natural choice for couples who want intimacy alongside adventure. The smaller scale than neighbouring resorts means an exceptionally personal atmosphere.",
     "best_room": "Book a Deluxe Beachfront Villa for the honeymoon — these standalone thatched villas sit just steps from the waterline with private pools and wraparound decks where you can watch the tide come and go from a daybed. The open-plan design brings the beach right inside through floor-to-ceiling sliding doors, and each villa has an outdoor shower and double bath for post-beach evenings. Upgrade to the Grand Beachfront Villa for an even larger footprint and additional outdoor living space.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Welcome to Benguerra", "description": "Arrive by light aircraft from Vilankulo to Azura's private airstrip. Your villa host meets you with welcome drinks and a personalised orientation. The afternoon is yours — take a slow walk along the deserted beach to the south, or simply sink into the villa pool as the Mozambique Channel stretches before you." },
-      { "day": 2, "title": "Manta Ray & Dolphin Snorkel", "description": "Azura's marine team leads an early morning snorkeling excursion to the coral gardens where manta rays feed and bottlenose dolphins are regularly encountered. The Bazaruto Marine National Park protects these waters from fishing, ensuring extraordinary marine biodiversity. Return for a long brunch on the beach veranda before a lazy afternoon." },
-      { "day": 3, "title": "Dhow Sail & Sundowner Picnic", "description": "Board a traditional wooden dhow for a morning sailing excursion along the island's leeward coast. The crew will anchor on a remote sandbank for a private picnic lunch. In the evening, Azura's award-winning romance team can set up a candlelit dinner on the beach under a star canopy, with a Mozambican seafood menu." },
-      { "day": 4, "title": "Diving the Outer Reefs", "description": "Azura's PADI dive centre offers guided dives to the outer reef systems of Bazaruto — sites include walls, channels, and cleaning stations where large pelagics gather. Non-divers can try an introductory Discover Scuba session in calm, shallow water near the beach. Afternoon brings couples spa treatments in the clifftop wellness pavilion." },
-      { "day": 5, "title": "Eco Tour & Conservation Immersion", "description": "Azura is a pioneer of responsible tourism in Mozambique — join a guided eco tour of the island's freshwater lakes and wetlands, home to flamingos, fish eagles, and the rare crab plover. The camp manager can explain the community development and marine conservation projects that underpin the resort's operations." },
-      { "day": 6, "title": "Horse Riding on the Beach & Spa Day", "description": "Azura offers horse riding along the beach at sunrise — one of the most cinematic experiences available in Mozambique. After breakfast, indulge in a half-day spa experience with a couples massage and body treatment using local ingredients. The evening is ideal for a private candlelit dinner in the villa garden." },
-      { "day": 7, "title": "Farewell Morning", "description": "Your final morning deserves a slow start: breakfast in bed, a last swim in the villa pool, and a walk to the water's edge. The team will have made a keepsake of your stay — a handwritten note, a small local craft — as is Azura's tradition. Transfer to the airstrip in time for your light aircraft back to Vilankulo." }
+      {
+        "day": 1,
+        "title": "Arrival & Welcome to Benguerra",
+        "description": "Arrive by light aircraft from Vilankulo to Azura's private airstrip. Your villa host meets you with welcome drinks and a personalised orientation. The afternoon is yours — take a slow walk along the deserted beach to the south, or simply sink into the villa pool as the Mozambique Channel stretches before you."
+      },
+      {
+        "day": 2,
+        "title": "Manta Ray & Dolphin Snorkel",
+        "description": "Azura's marine team leads an early morning snorkeling excursion to the coral gardens where manta rays feed and bottlenose dolphins are regularly encountered. The Bazaruto Marine National Park protects these waters from fishing, ensuring extraordinary marine biodiversity. Return for a long brunch on the beach veranda before a lazy afternoon."
+      },
+      {
+        "day": 3,
+        "title": "Dhow Sail & Sundowner Picnic",
+        "description": "Board a traditional wooden dhow for a morning sailing excursion along the island's leeward coast. The crew will anchor on a remote sandbank for a private picnic lunch. In the evening, Azura's award-winning romance team can set up a candlelit dinner on the beach under a star canopy, with a Mozambican seafood menu."
+      },
+      {
+        "day": 4,
+        "title": "Diving the Outer Reefs",
+        "description": "Azura's PADI dive centre offers guided dives to the outer reef systems of Bazaruto — sites include walls, channels, and cleaning stations where large pelagics gather. Non-divers can try an introductory Discover Scuba session in calm, shallow water near the beach. Afternoon brings couples spa treatments in the clifftop wellness pavilion."
+      },
+      {
+        "day": 5,
+        "title": "Eco Tour & Conservation Immersion",
+        "description": "Azura is a pioneer of responsible tourism in Mozambique — join a guided eco tour of the island's freshwater lakes and wetlands, home to flamingos, fish eagles, and the rare crab plover. The camp manager can explain the community development and marine conservation projects that underpin the resort's operations."
+      },
+      {
+        "day": 6,
+        "title": "Horse Riding on the Beach & Spa Day",
+        "description": "Azura offers horse riding along the beach at sunrise — one of the most cinematic experiences available in Mozambique. After breakfast, indulge in a half-day spa experience with a couples massage and body treatment using local ingredients. The evening is ideal for a private candlelit dinner in the villa garden."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "Your final morning deserves a slow start: breakfast in bed, a last swim in the villa pool, and a walk to the water's edge. The team will have made a keepsake of your stay — a handwritten note, a small local craft — as is Azura's tradition. Transfer to the airstrip in time for your light aircraft back to Vilankulo."
+      }
     ],
     "caveats": [
       "Light aircraft access via Vilankulo is the only practical way to reach the island; flights can be affected by weather and require careful logistical planning when booking international connections.",
@@ -48,12 +114,30 @@
       "With only 10 villas, peak season (June–October) fills many months in advance and last-minute availability is rare — book as early as possible for best dates and villa choice."
     ],
     "faqs": [
-      { "question": "Is Azura Benguerra Island good for honeymooners?", "answer": "Absolutely — Azura has built a specific reputation as one of Southern Africa's best honeymoon resorts, and the team is accomplished at curating private dinners, surprise experiences, and personalised touches for celebrating couples. With only 10 villas the entire resort maintains an intimate feel throughout your stay." },
-      { "question": "What is the best time to visit?", "answer": "May through October offers the best weather: dry, sunny, with good underwater visibility. Humpback whales pass through the Mozambique Channel in June–October. Whale sharks are more commonly seen November–February. The March–April shoulder season has fewer guests and lower rates but occasional tropical rain." },
-      { "question": "What should we book in advance?", "answer": "Your villa and dates should be secured early — peak season fills fast. Pre-arrange romantic dinners on the beach, couples spa treatments, and any specialist activities like horse riding or fly-fishing before arrival so the team can prepare the logistics." },
-      { "question": "Is it adults-only?", "answer": "No, Azura Benguerra Island welcomes children, but the price point and remote island setting mean most guests are couples. The atmosphere is overwhelmingly romantic, and families with young children are relatively uncommon." },
-      { "question": "What's the best room for a honeymoon?", "answer": "The Deluxe Beachfront Villas are the sweet spot — private pools, direct beach access, and thatched interiors that feel genuinely tropical without sacrificing luxury. For the most space and seclusion, the Grand Beachfront Villa is the top option." },
-      { "question": "How do we get there?", "answer": "Fly to Vilankulo via Johannesburg (SAA or LAM). From Vilankulo's small airport, a chartered light aircraft takes around 10–15 minutes to Benguerra Island's airstrip. Azura can coordinate transfers with their recommended air partner when you book directly." }
+      {
+        "question": "Is Azura Benguerra Island good for honeymooners?",
+        "answer": "Absolutely — Azura has built a specific reputation as one of Southern Africa's best honeymoon resorts, and the team is accomplished at curating private dinners, surprise experiences, and personalised touches for celebrating couples. With only 10 villas the entire resort maintains an intimate feel throughout your stay."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "May through October offers the best weather: dry, sunny, with good underwater visibility. Humpback whales pass through the Mozambique Channel in June–October. Whale sharks are more commonly seen November–February. The March–April shoulder season has fewer guests and lower rates but occasional tropical rain."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "Your villa and dates should be secured early — peak season fills fast. Pre-arrange romantic dinners on the beach, couples spa treatments, and any specialist activities like horse riding or fly-fishing before arrival so the team can prepare the logistics."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "No, Azura Benguerra Island welcomes children, but the price point and remote island setting mean most guests are couples. The atmosphere is overwhelmingly romantic, and families with young children are relatively uncommon."
+      },
+      {
+        "question": "What's the best room for a honeymoon?",
+        "answer": "The Deluxe Beachfront Villas are the sweet spot — private pools, direct beach access, and thatched interiors that feel genuinely tropical without sacrificing luxury. For the most space and seclusion, the Grand Beachfront Villa is the top option."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "Fly to Vilankulo via Johannesburg (SAA or LAM). From Vilankulo's small airport, a chartered light aircraft takes around 10–15 minutes to Benguerra Island's airstrip. Azura can coordinate transfers with their recommended air partner when you book directly."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Azura Benguerra Island\n\nDear Azura Benguerra Island team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: a Deluxe Beachfront Villa with private pool\n\nCould you please let us know:\n- Current availability for our dates\n- Any honeymoon packages or complimentary upgrades\n- Details on the beach dinner experience and couples spa treatments\n\nThank you for your time.\n\n[Your names]"
   },

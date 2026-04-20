@@ -3,7 +3,11 @@
   "name": "Anse Chastanet Resort",
   "destination": "st-lucia",
   "country": "st-lucia",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 86,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,30 +21,93 @@
     "luxury": 8
   },
   "stars": 4,
-  "price_per_night_usd": { "min": 400, "max": 1500 },
+  "price_per_night_usd": {
+    "min": 400,
+    "max": 1500
+  },
   "adults_only": false,
-  "amenities": ["spa", "beach", "pool", "room service", "diving", "snorkeling", "water sports", "yoga", "cycling", "farm-to-table restaurant", "cooking classes"],
-  "photos": [
-    { "url": "/images/hotels/anse-chastanet-resort-st-lucia/hero.webp", "alt": "anse-chastanet-resort-st-lucia — hero", "type": "hero" },
-    { "url": "/images/hotels/anse-chastanet-resort-st-lucia/room.webp", "alt": "anse-chastanet-resort-st-lucia — room", "type": "room" },
-    { "url": "/images/hotels/anse-chastanet-resort-st-lucia/pool.webp", "alt": "anse-chastanet-resort-st-lucia — pool", "type": "pool" },
-    { "url": "/images/hotels/anse-chastanet-resort-st-lucia/spa.webp", "alt": "anse-chastanet-resort-st-lucia — spa", "type": "spa" },
-    { "url": "/images/hotels/anse-chastanet-resort-st-lucia/dining.webp", "alt": "anse-chastanet-resort-st-lucia — dining", "type": "dining" }
+  "amenities": [
+    "spa",
+    "beach",
+    "pool",
+    "room service",
+    "diving",
+    "snorkeling",
+    "water sports",
+    "yoga",
+    "cycling",
+    "farm-to-table restaurant",
+    "cooking classes"
   ],
-  "tripadvisor_rating": 9.0,
+  "photos": [
+    {
+      "url": "/images/hotels/anse-chastanet-resort-st-lucia/hero.webp",
+      "alt": "anse-chastanet-resort-st-lucia — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/anse-chastanet-resort-st-lucia/room.webp",
+      "alt": "anse-chastanet-resort-st-lucia — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/anse-chastanet-resort-st-lucia/pool.webp",
+      "alt": "anse-chastanet-resort-st-lucia — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/anse-chastanet-resort-st-lucia/spa.webp",
+      "alt": "anse-chastanet-resort-st-lucia — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/anse-chastanet-resort-st-lucia/dining.webp",
+      "alt": "anse-chastanet-resort-st-lucia — dining",
+      "type": "dining"
+    }
+  ],
+  "tripadvisor_rating": 9,
   "tripadvisor_award": true,
   "couples_review_pct": 78,
   "content": {
     "verdict": "Anse Chastanet is the most romantically dishevelled and botanically beautiful resort in St Lucia — a hillside and beachfront collection of rooms and suites designed by architect and owner Nick Troubetzkoy to maximise the drama of the Piton mountain setting, with open fourth walls that bring the jungle and ocean directly into the sleeping space. The resort has no air conditioning in the traditional sense (the hill rooms rely on trade winds), no polished uniformity, and considerable character — guests either fall completely in love with its wild, tropical romance or find its rusticity challenging. For honeymooners with an adventurous spirit and an appreciation for genuinely tropical romance over resort conformity, Anse Chastanet offers a depth of experience that luxury resorts rarely achieve.",
     "best_room": "The 'Pti Piton' suite category on the upper hillside has the most dramatic positioning — rooms with the fourth wall open to the jungle and Piton view, raised on stilts, with outdoor showers and private decks above the canopy. These rooms have limited access to the beach (a shuttle runs frequently) but the architectural experience of sleeping open to the jungle is unmatched. For beach access, the lower beachfront rooms trade the hillside drama for immediate access to the excellent snorkeling reef directly off Anse Chastanet beach.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Piton Views", "description": "Anse Chastanet is accessible only by boat from Soufrière or by the resort's own 4WD track — the winding approach is part of the arrival experience. Check into your room and adjust to the open-air tropical concept. The Pitons rise behind the property; the Caribbean laps below. Dinner at Treehouse Restaurant, the hilltop venue overlooking the bay, sets the scene." },
-      { "day": 2, "title": "Snorkeling the House Reef", "description": "Anse Chastanet beach has one of the best snorkeling reefs directly accessible from the shore in the Caribbean — the coral garden begins within metres of the waterline and shelters an enormous variety of tropical species including seahorses, flying gurnards, and reef sharks. A guided snorkel with Scuba St Lucia, the on-site dive centre, is the best way to orientate." },
-      { "day": 3, "title": "Piton Hike", "description": "Gros Piton, the more accessible of the two UNESCO World Heritage peaks, is guided hike reachable from Soufrière in around 2.5 hours ascent. The views from the summit take in the entire southern Caribbean arc. Guided hikes depart early to avoid the midday heat; book through the Anse Chastanet concierge. Return exhausted and rewarded." },
-      { "day": 4, "title": "Jade Spa & Farm Day", "description": "Anse Chastanet's Jade Mountain Spa (shared with adjacent Jade Mountain resort) offers a full wellness programme drawing on the resort's organic farm. The Anse Mamin farm, a 10-minute bicycle ride through restored 18th-century plantation grounds, supplies the kitchen and spa with cocoa, tropical fruits, and herbs. A farm tour followed by a couples cocoa-based spa treatment is the signature experience." },
-      { "day": 5, "title": "Scuba Diving the Piton Wall", "description": "The drop-off below the Pitons — the famous Anse Chastanet dive site — is rated among the top dive sites in the Caribbean. The sheer volcanic wall descends into deep water and is encrusted with black coral, sea fans, and sponges. Large marine life including nurse sharks and turtles are regular sightings. Non-divers can enjoy a glass-bottom kayak tour of the reef." },
-      { "day": 6, "title": "Soufrière Town & Sulphur Springs", "description": "Soufrière, a 10-minute boat ride away, is the most historically atmospheric town in St Lucia. The nearby Sulphur Springs (the world's only drive-in volcano), the Diamond Botanical Gardens and their natural mineral waterfall, and the town market make for a rich half-day. Return to the resort for a final sunset from the hillside room deck." },
-      { "day": 7, "title": "Farewell Morning", "description": "A final morning snorkel on the house reef, breakfast at the beach restaurant with the Pitons framing the view, and a boat transfer to Soufrière for onward transport to Hewanorra International Airport." }
+      {
+        "day": 1,
+        "title": "Arrival & Piton Views",
+        "description": "Anse Chastanet is accessible only by boat from Soufrière or by the resort's own 4WD track — the winding approach is part of the arrival experience. Check into your room and adjust to the open-air tropical concept. The Pitons rise behind the property; the Caribbean laps below. Dinner at Treehouse Restaurant, the hilltop venue overlooking the bay, sets the scene."
+      },
+      {
+        "day": 2,
+        "title": "Snorkeling the House Reef",
+        "description": "Anse Chastanet beach has one of the best snorkeling reefs directly accessible from the shore in the Caribbean — the coral garden begins within metres of the waterline and shelters an enormous variety of tropical species including seahorses, flying gurnards, and reef sharks. A guided snorkel with Scuba St Lucia, the on-site dive centre, is the best way to orientate."
+      },
+      {
+        "day": 3,
+        "title": "Piton Hike",
+        "description": "Gros Piton, the more accessible of the two UNESCO World Heritage peaks, is guided hike reachable from Soufrière in around 2.5 hours ascent. The views from the summit take in the entire southern Caribbean arc. Guided hikes depart early to avoid the midday heat; book through the Anse Chastanet concierge. Return exhausted and rewarded."
+      },
+      {
+        "day": 4,
+        "title": "Jade Spa & Farm Day",
+        "description": "Anse Chastanet's Jade Mountain Spa (shared with adjacent Jade Mountain resort) offers a full wellness programme drawing on the resort's organic farm. The Anse Mamin farm, a 10-minute bicycle ride through restored 18th-century plantation grounds, supplies the kitchen and spa with cocoa, tropical fruits, and herbs. A farm tour followed by a couples cocoa-based spa treatment is the signature experience."
+      },
+      {
+        "day": 5,
+        "title": "Scuba Diving the Piton Wall",
+        "description": "The drop-off below the Pitons — the famous Anse Chastanet dive site — is rated among the top dive sites in the Caribbean. The sheer volcanic wall descends into deep water and is encrusted with black coral, sea fans, and sponges. Large marine life including nurse sharks and turtles are regular sightings. Non-divers can enjoy a glass-bottom kayak tour of the reef."
+      },
+      {
+        "day": 6,
+        "title": "Soufrière Town & Sulphur Springs",
+        "description": "Soufrière, a 10-minute boat ride away, is the most historically atmospheric town in St Lucia. The nearby Sulphur Springs (the world's only drive-in volcano), the Diamond Botanical Gardens and their natural mineral waterfall, and the town market make for a rich half-day. Return to the resort for a final sunset from the hillside room deck."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "A final morning snorkel on the house reef, breakfast at the beach restaurant with the Pitons framing the view, and a boat transfer to Soufrière for onward transport to Hewanorra International Airport."
+      }
     ],
     "caveats": [
       "Anse Chastanet's hill rooms have no air conditioning and open fourth walls — nights are cooled by trade winds but guests who require air conditioning should request a specific lower-category room, or consider that this is simply not the property for them.",
@@ -48,12 +115,30 @@
       "The rustic-luxury character is deliberate and celebrated but it is not a conventional five-star resort experience. Expectations should be calibrated accordingly."
     ],
     "faqs": [
-      { "question": "Is Anse Chastanet good for honeymooners?", "answer": "For couples with an adventurous spirit, Anse Chastanet is one of the most genuinely romantic and atmospheric resorts in the Caribbean. The combination of extraordinary natural setting, excellent house reef, bold architecture, and farm-to-table food create a honeymoon that is qualitatively different from a conventional luxury resort." },
-      { "question": "What is the best time to visit?", "answer": "December through April is the dry season and peak period. January through March is ideal — warm, dry, with relatively low humidity. The shoulder months of May and November offer lower rates; brief tropical showers are possible but the landscape is lush." },
-      { "question": "What should we book in advance?", "answer": "The hillside suite categories and beachfront rooms both book up in advance for peak season. Pre-arrange guided Piton hike, Jade Spa couples treatment, and any special dining arrangements." },
-      { "question": "Is it adults-only?", "answer": "No. Anse Chastanet welcomes families and children. The atmosphere is not adults-only, though the adventurous, nature-focused character of the property means most guests are active adults and couples." },
-      { "question": "What's the best room for a honeymoon?", "answer": "A hillside 'Pti Piton' suite for the most dramatic open-air tropical romance experience. For beach-focused honeymooners, a lower-category beachfront room with direct access to the snorkeling reef." },
-      { "question": "How do we get there?", "answer": "Fly to Hewanorra International Airport (UVF) in southern St Lucia. From there, a water taxi or road transfer to Soufrière takes around 45 minutes to 1 hour, then a short boat shuttle to Anse Chastanet's beach. The resort arranges all transfers." }
+      {
+        "question": "Is Anse Chastanet good for honeymooners?",
+        "answer": "For couples with an adventurous spirit, Anse Chastanet is one of the most genuinely romantic and atmospheric resorts in the Caribbean. The combination of extraordinary natural setting, excellent house reef, bold architecture, and farm-to-table food create a honeymoon that is qualitatively different from a conventional luxury resort."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "December through April is the dry season and peak period. January through March is ideal — warm, dry, with relatively low humidity. The shoulder months of May and November offer lower rates; brief tropical showers are possible but the landscape is lush."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "The hillside suite categories and beachfront rooms both book up in advance for peak season. Pre-arrange guided Piton hike, Jade Spa couples treatment, and any special dining arrangements."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "No. Anse Chastanet welcomes families and children. The atmosphere is not adults-only, though the adventurous, nature-focused character of the property means most guests are active adults and couples."
+      },
+      {
+        "question": "What's the best room for a honeymoon?",
+        "answer": "A hillside 'Pti Piton' suite for the most dramatic open-air tropical romance experience. For beach-focused honeymooners, a lower-category beachfront room with direct access to the snorkeling reef."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "Fly to Hewanorra International Airport (UVF) in southern St Lucia. From there, a water taxi or road transfer to Soufrière takes around 45 minutes to 1 hour, then a short boat shuttle to Anse Chastanet's beach. The resort arranges all transfers."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Anse Chastanet Resort\n\nDear Anse Chastanet team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: a hillside Pti Piton suite with open fourth wall\n\nCould you please let us know:\n- Current availability for our dates\n- Any honeymoon packages or complimentary upgrades\n- Details on the Jade Spa couples experience and Piton hike logistics\n\nThank you for your time.\n\n[Your names]"
   },

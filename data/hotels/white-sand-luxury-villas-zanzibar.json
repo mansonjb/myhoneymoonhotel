@@ -3,7 +3,11 @@
   "name": "White Sand Luxury Villas",
   "destination": "zanzibar",
   "country": "tanzania",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 86,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,48 @@
     "luxury": 5
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 500, "max": 1500 },
+  "price_per_night_usd": {
+    "min": 500,
+    "max": 1500
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "beach", "room service", "butler service", "snorkeling", "diving", "yoga", "kitesurfing"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beach",
+    "room service",
+    "butler service",
+    "snorkeling",
+    "diving",
+    "yoga",
+    "kitesurfing"
+  ],
   "photos": [
-    { "url": "/images/hotels/white-sand-luxury-villas-zanzibar/hero.webp", "alt": "white-sand-luxury-villas-zanzibar — hero", "type": "hero" },
-    { "url": "/images/hotels/white-sand-luxury-villas-zanzibar/room.webp", "alt": "white-sand-luxury-villas-zanzibar — room", "type": "room" },
-    { "url": "/images/hotels/white-sand-luxury-villas-zanzibar/pool.webp", "alt": "white-sand-luxury-villas-zanzibar — pool", "type": "pool" },
-    { "url": "/images/hotels/white-sand-luxury-villas-zanzibar/spa.webp", "alt": "white-sand-luxury-villas-zanzibar — spa", "type": "spa" },
-    { "url": "/images/hotels/white-sand-luxury-villas-zanzibar/dining.webp", "alt": "white-sand-luxury-villas-zanzibar — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/white-sand-luxury-villas-zanzibar/hero.webp",
+      "alt": "white-sand-luxury-villas-zanzibar — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/white-sand-luxury-villas-zanzibar/room.webp",
+      "alt": "white-sand-luxury-villas-zanzibar — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/white-sand-luxury-villas-zanzibar/pool.webp",
+      "alt": "white-sand-luxury-villas-zanzibar — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/white-sand-luxury-villas-zanzibar/spa.webp",
+      "alt": "white-sand-luxury-villas-zanzibar — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/white-sand-luxury-villas-zanzibar/dining.webp",
+      "alt": "white-sand-luxury-villas-zanzibar — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.2,
   "tripadvisor_award": true,
@@ -34,13 +71,41 @@
     "verdict": "White Sand Luxury Villas is a boutique five-star property on Zanzibar's east Paje coast — 14 private pool villas spread along one of the island's most photogenic stretches of white sand, with the famous Paje reef creating a natural turquoise lagoon at high tide. The intimate scale, private pools, and direct beach access create an excellent honeymoon environment at a price point more accessible than the private islands or exclusive retreats. Kite-surfers frequent the Paje beach at certain times of year, which adds colour but can slightly affect the atmosphere for couples seeking total solitude.",
     "best_room": "The Beachfront Villa is the standout choice — a full private pool villa directly on the sand with an open-plan living area, outdoor rain shower under the stars, and a king bed oriented toward the morning light over the Indian Ocean. The Garden Pool Villas are set slightly back within a tropical garden, also excellent but without the immediate beach view. All villas are finished with hand-carved Swahili furniture, Zanzibar coconut shell décor details, and crisp white linen.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Paje Beach Discovery", "description": "Paje is one of Zanzibar's most naturally beautiful stretches of coastline — a wide arc of white powder sand backed by casuarina trees, with the reef creating a shallow lagoon for wading at low tide and excellent swimming at high tide. Your arrival Champagne is served in your villa's private pool, and the first evening meal is prepared and served on your terrace." },
-      { "day": 2, "title": "Reef Snorkel & Turtle Hunt", "description": "The Paje reef is one of the more accessible on the east coast for snorkeling — at high tide the lagoon connects directly with the outer reef where hawksbill turtles are reliably encountered. A guided snorkel with the resort's marine team provides context for what you are seeing and dramatically improves the quality of the experience." },
-      { "day": 3, "title": "Spa Morning & Lagoon Afternoon", "description": "The White Sand Spa offers an intimate, unhurried service focused on local marine and botanical ingredients. Book the couples' 'Ocean Ritual' — a seaweed wrap, exfoliation, and full-body massage that takes two hours and uses ingredients harvested from within metres of the resort. Spend the afternoon in the villa pool watching kite surfers arc across the Paje horizon." },
-      { "day": 4, "title": "Jozani Forest & Village Seafood Dinner", "description": "A half-day guide to Jozani National Park to see the Zanzibar red colobus monkey — an extraordinary and endemic animal found only on this island. In the evening, the resort arranges a village cooking experience in Paje itself, where a local woman teaches you to prepare Swahili street food over charcoal, eaten communally on woven mats." },
-      { "day": 5, "title": "PADI Dive at the Outer Reef", "description": "White Sand's dive centre operates regular boat trips to the outer reef sites off Paje, where the coral is largely untouched and the fish diversity is high. For certified divers, a two-tank morning including a wall dive is exceptional value. The afternoon is yours — the tide chart will tell you exactly when the lagoon fills for the best high-tide swim." },
-      { "day": 6, "title": "Stone Town Excursion", "description": "The resort arranges a private driver and guide for the one-hour journey north to Stone Town. A full day covers the UNESCO old town comfortably — the Slave Memorial, the Anglican Cathedral, the Beit el Ajaib House of Wonders, and the Darajani spice market. Return to a private dinner beside the villa pool as the east coast night sky emerges." },
-      { "day": 7, "title": "Sunrise on the Lagoon", "description": "Set an alarm for the east coast sunrise — from the beach at Paje, the first light coming up over the Indian Ocean is one of the great natural spectacles on the island. A last breakfast of fresh tropical fruit salad, grilled fish, and Zanzibar-spiced flatbread is served on the terrace. Late checkout available on request." }
+      {
+        "day": 1,
+        "title": "Arrival & Paje Beach Discovery",
+        "description": "Paje is one of Zanzibar's most naturally beautiful stretches of coastline — a wide arc of white powder sand backed by casuarina trees, with the reef creating a shallow lagoon for wading at low tide and excellent swimming at high tide. Your arrival Champagne is served in your villa's private pool, and the first evening meal is prepared and served on your terrace."
+      },
+      {
+        "day": 2,
+        "title": "Reef Snorkel & Turtle Hunt",
+        "description": "The Paje reef is one of the more accessible on the east coast for snorkeling — at high tide the lagoon connects directly with the outer reef where hawksbill turtles are reliably encountered. A guided snorkel with the resort's marine team provides context for what you are seeing and dramatically improves the quality of the experience."
+      },
+      {
+        "day": 3,
+        "title": "Spa Morning & Lagoon Afternoon",
+        "description": "The White Sand Spa offers an intimate, unhurried service focused on local marine and botanical ingredients. Book the couples' 'Ocean Ritual' — a seaweed wrap, exfoliation, and full-body massage that takes two hours and uses ingredients harvested from within metres of the resort. Spend the afternoon in the villa pool watching kite surfers arc across the Paje horizon."
+      },
+      {
+        "day": 4,
+        "title": "Jozani Forest & Village Seafood Dinner",
+        "description": "A half-day guide to Jozani National Park to see the Zanzibar red colobus monkey — an extraordinary and endemic animal found only on this island. In the evening, the resort arranges a village cooking experience in Paje itself, where a local woman teaches you to prepare Swahili street food over charcoal, eaten communally on woven mats."
+      },
+      {
+        "day": 5,
+        "title": "PADI Dive at the Outer Reef",
+        "description": "White Sand's dive centre operates regular boat trips to the outer reef sites off Paje, where the coral is largely untouched and the fish diversity is high. For certified divers, a two-tank morning including a wall dive is exceptional value. The afternoon is yours — the tide chart will tell you exactly when the lagoon fills for the best high-tide swim."
+      },
+      {
+        "day": 6,
+        "title": "Stone Town Excursion",
+        "description": "The resort arranges a private driver and guide for the one-hour journey north to Stone Town. A full day covers the UNESCO old town comfortably — the Slave Memorial, the Anglican Cathedral, the Beit el Ajaib House of Wonders, and the Darajani spice market. Return to a private dinner beside the villa pool as the east coast night sky emerges."
+      },
+      {
+        "day": 7,
+        "title": "Sunrise on the Lagoon",
+        "description": "Set an alarm for the east coast sunrise — from the beach at Paje, the first light coming up over the Indian Ocean is one of the great natural spectacles on the island. A last breakfast of fresh tropical fruit salad, grilled fish, and Zanzibar-spiced flatbread is served on the terrace. Late checkout available on request."
+      }
     ],
     "caveats": [
       "Paje is a kite-surfing hub and the beach in front of the resort can be busy with kite-surfers during peak wind season (July–August). The property is set back enough that it does not intrude on villa privacy, but it does affect the beach atmosphere.",
@@ -48,12 +113,30 @@
       "With 14 villas, White Sand is small but not exclusively intimate — it is not adults-only and the occasional family stay can occasionally affect the quiet atmosphere."
     ],
     "faqs": [
-      { "question": "Is White Sand Luxury Villas good for honeymooners?", "answer": "White Sand is an excellent honeymoon choice for couples who want a genuine five-star private pool villa on one of Zanzibar's best beaches at a more approachable price point than the private islands. The reef snorkeling and turtle encounters directly off the beach are a genuine highlight, and the boutique scale means service is attentive and personal. Honeymooners who want adults-only exclusivity should look at Baraza or Zawadi, a short drive south." },
-      { "question": "What is the best time to visit?", "answer": "October through February is particularly beautiful on the Paje coast — warm, calm seas, excellent visibility for snorkeling and diving, and the pre-Christmas season before the peak crowds arrive. June through September is the core dry season and popular, with good wind for kite enthusiasts. Avoid April and May." },
-      { "question": "What should we book in advance?", "answer": "Reserve the beachfront villa category at booking as these units are limited and book out earliest. Pre-arrange the couples' spa ritual and notify the team of your honeymoon so villa decorations and a welcome gift can be prepared for arrival." },
-      { "question": "Is it adults-only?", "answer": "White Sand Luxury Villas is not adults-only. The majority of guests are couples — the private pool villa format naturally suits honeymooners and couples' retreats — but families and groups do occasionally visit. The villa design provides significant privacy regardless of who else is staying." },
-      { "question": "What's the best room type for a honeymoon?", "answer": "The Beachfront Villa is the definitive honeymoon choice — direct beach access, a private pool on the sand, and sunrise over the Indian Ocean from your bed. The Garden Pool Villas are a strong alternative at a lower price point if direct beachfront is not essential." },
-      { "question": "How do we get there?", "answer": "Fly to Zanzibar International Airport (ZNZ). Paje is on the east coast, approximately 30–40 minutes south of the airport — one of the more convenient east coast locations. White Sand arranges private transfers from the airport; the drive is short and straightforward." }
+      {
+        "question": "Is White Sand Luxury Villas good for honeymooners?",
+        "answer": "White Sand is an excellent honeymoon choice for couples who want a genuine five-star private pool villa on one of Zanzibar's best beaches at a more approachable price point than the private islands. The reef snorkeling and turtle encounters directly off the beach are a genuine highlight, and the boutique scale means service is attentive and personal. Honeymooners who want adults-only exclusivity should look at Baraza or Zawadi, a short drive south."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "October through February is particularly beautiful on the Paje coast — warm, calm seas, excellent visibility for snorkeling and diving, and the pre-Christmas season before the peak crowds arrive. June through September is the core dry season and popular, with good wind for kite enthusiasts. Avoid April and May."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "Reserve the beachfront villa category at booking as these units are limited and book out earliest. Pre-arrange the couples' spa ritual and notify the team of your honeymoon so villa decorations and a welcome gift can be prepared for arrival."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "White Sand Luxury Villas is not adults-only. The majority of guests are couples — the private pool villa format naturally suits honeymooners and couples' retreats — but families and groups do occasionally visit. The villa design provides significant privacy regardless of who else is staying."
+      },
+      {
+        "question": "What's the best room type for a honeymoon?",
+        "answer": "The Beachfront Villa is the definitive honeymoon choice — direct beach access, a private pool on the sand, and sunrise over the Indian Ocean from your bed. The Garden Pool Villas are a strong alternative at a lower price point if direct beachfront is not essential."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "Fly to Zanzibar International Airport (ZNZ). Paje is on the east coast, approximately 30–40 minutes south of the airport — one of the more convenient east coast locations. White Sand arranges private transfers from the airport; the drive is short and straightforward."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — White Sand Luxury Villas Zanzibar\n\nDear White Sand Luxury Villas team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: a Beachfront Villa and the couples' spa Ocean Ritual.\n\nCould you please let us know:\n- Current availability for our dates\n- Any honeymoon packages or villa welcome upgrades\n- Details on guided reef snorkeling and PADI dive packages\n\nThank you for your time.\n\n[Your names]"
   },

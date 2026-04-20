@@ -3,7 +3,11 @@
   "name": "Angama Mara",
   "destination": "kenya",
   "country": "kenya",
-  "experience_types": ["safari", "luxury", "wellness"],
+  "experience_types": [
+    "safari",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 96,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,48 @@
     "luxury": 5
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 1800, "max": 4000 },
+  "price_per_night_usd": {
+    "min": 1800,
+    "max": 4000
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "room service", "butler service", "game drives", "hot air balloon", "photography studio", "bush dining", "fitness center"],
+  "amenities": [
+    "spa",
+    "pool",
+    "room service",
+    "butler service",
+    "game drives",
+    "hot air balloon",
+    "photography studio",
+    "bush dining",
+    "fitness center"
+  ],
   "photos": [
-    { "url": "/images/hotels/angama-mara-kenya/hero.webp", "alt": "angama-mara-kenya — hero", "type": "hero" },
-    { "url": "/images/hotels/angama-mara-kenya/room.webp", "alt": "angama-mara-kenya — room", "type": "room" },
-    { "url": "/images/hotels/angama-mara-kenya/pool.webp", "alt": "angama-mara-kenya — pool", "type": "pool" },
-    { "url": "/images/hotels/angama-mara-kenya/spa.webp", "alt": "angama-mara-kenya — spa", "type": "spa" },
-    { "url": "/images/hotels/angama-mara-kenya/dining.webp", "alt": "angama-mara-kenya — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/angama-mara-kenya/hero.webp",
+      "alt": "angama-mara-kenya — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/angama-mara-kenya/room.webp",
+      "alt": "angama-mara-kenya — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/angama-mara-kenya/pool.webp",
+      "alt": "angama-mara-kenya — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/angama-mara-kenya/spa.webp",
+      "alt": "angama-mara-kenya — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/angama-mara-kenya/dining.webp",
+      "alt": "angama-mara-kenya — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.7,
   "tripadvisor_award": true,
@@ -34,13 +71,41 @@
     "verdict": "Angama Mara sits on the edge of the Great Rift Valley escarpment above the Mara Triangle, 500 metres above the plains, with glass-walled tented suites that frame what is arguably the most dramatic safari view on earth. Two separate camps — each sleeping a maximum of 18 guests — provide an intimate, unhurried experience in one of the Great Migration's prime wildlife corridors. The location was used in the 1985 film Out of Africa, and the romance of that association is palpable on every evening when the sun drops over the escarpment. One of Africa's truly unmissable honeymoon properties.",
     "best_room": "All 15 tented suites across the two camps (Angama Safari Camp and Angama Pride) share the same extraordinary escarpment views, but the Honeymoon Suite at Angama Safari Camp is purpose-designed for couples — a 130-square-metre glass-walled tent with a freestanding copper bathtub facing the valley, a private viewing deck, and a separate dressing area. The dramatic floor-to-ceiling glass panels mean you can watch wildlife on the plains while lying in bed, which never loses its magic.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & The View", "description": "Your light aircraft from Nairobi or Mombasa lands on the Angama airstrip on the escarpment above the Mara. The drive to camp takes 15 minutes through Maasai land, and your first glimpse of the view — the entire Mara Triangle laid out below you like a living map — will produce genuine disbelief at the scale. Champagne on the viewing deck as the plains golden at dusk." },
-      { "day": 2, "title": "Dawn Game Drive & Bush Breakfast", "description": "Rise before dawn for the morning game drive through the Mara Triangle private concession, one of the Great Migration's most productive corridors for big cat sightings. Angama's guides hold some of the most coveted game-drive positions in the Mara ecosystem. Your vehicle will stop in the bush for a cooked breakfast as the light sharpens over the open plain — a genuinely magnificent experience." },
-      { "day": 3, "title": "Hot Air Balloon & Champagne Landing", "description": "The Mara balloon experience is among the most famous in safari travel, and from Angama's escarpment position the launch is particularly dramatic. A sunrise flight over the migration herds and river crossings, followed by the traditional champagne breakfast on the plains, is a once-in-a-lifetime experience worth every penny and the 4am alarm." },
-      { "day": 4, "title": "Photography Studio & Afternoon Spa", "description": "Angama runs one of Africa's most respected camp photography studios — professional cameras available, guides trained specifically for photography, and the escarpment light that professional photographers travel specifically to capture. An afternoon couples' treatment at the Shamba Spa, using Kenyan botanical ingredients, balances the active morning perfectly." },
-      { "day": 5, "title": "Maasai Village Visit & Bush Sundowner", "description": "A visit to a Maasai manyatta (homestead) arranged through the camp is one of the more authentic cultural experiences in Kenya — your guide facilitates a genuine exchange rather than a performance, and you will leave with a greater understanding of the Maasai relationship to the land you have been driving through all week. Return for sundowners on the escarpment edge as the valley glows below." },
-      { "day": 6, "title": "Private Walking Safari", "description": "A guided walking safari through a protected section of the escarpment with an armed ranger and expert naturalist provides a completely different sensory experience from the vehicle drives — tracking dung beetles, reading termite mound architecture, identifying medicinal plants used by Maasai healers. Lunch in the camp's outdoor dining area under canvas, served by your dedicated tent waiter." },
-      { "day": 7, "title": "Final Morning Game Drive & Departure", "description": "Your last morning drive departs at first light — the Mara Triangle is never the same twice, and a final morning in the bush with a guide who now knows your wildlife interests is a fitting close. A picnic breakfast in the bush, a slow return to camp, and a light aircraft departure for Nairobi with memories that will outlast most things." }
+      {
+        "day": 1,
+        "title": "Arrival & The View",
+        "description": "Your light aircraft from Nairobi or Mombasa lands on the Angama airstrip on the escarpment above the Mara. The drive to camp takes 15 minutes through Maasai land, and your first glimpse of the view — the entire Mara Triangle laid out below you like a living map — will produce genuine disbelief at the scale. Champagne on the viewing deck as the plains golden at dusk."
+      },
+      {
+        "day": 2,
+        "title": "Dawn Game Drive & Bush Breakfast",
+        "description": "Rise before dawn for the morning game drive through the Mara Triangle private concession, one of the Great Migration's most productive corridors for big cat sightings. Angama's guides hold some of the most coveted game-drive positions in the Mara ecosystem. Your vehicle will stop in the bush for a cooked breakfast as the light sharpens over the open plain — a genuinely magnificent experience."
+      },
+      {
+        "day": 3,
+        "title": "Hot Air Balloon & Champagne Landing",
+        "description": "The Mara balloon experience is among the most famous in safari travel, and from Angama's escarpment position the launch is particularly dramatic. A sunrise flight over the migration herds and river crossings, followed by the traditional champagne breakfast on the plains, is a once-in-a-lifetime experience worth every penny and the 4am alarm."
+      },
+      {
+        "day": 4,
+        "title": "Photography Studio & Afternoon Spa",
+        "description": "Angama runs one of Africa's most respected camp photography studios — professional cameras available, guides trained specifically for photography, and the escarpment light that professional photographers travel specifically to capture. An afternoon couples' treatment at the Shamba Spa, using Kenyan botanical ingredients, balances the active morning perfectly."
+      },
+      {
+        "day": 5,
+        "title": "Maasai Village Visit & Bush Sundowner",
+        "description": "A visit to a Maasai manyatta (homestead) arranged through the camp is one of the more authentic cultural experiences in Kenya — your guide facilitates a genuine exchange rather than a performance, and you will leave with a greater understanding of the Maasai relationship to the land you have been driving through all week. Return for sundowners on the escarpment edge as the valley glows below."
+      },
+      {
+        "day": 6,
+        "title": "Private Walking Safari",
+        "description": "A guided walking safari through a protected section of the escarpment with an armed ranger and expert naturalist provides a completely different sensory experience from the vehicle drives — tracking dung beetles, reading termite mound architecture, identifying medicinal plants used by Maasai healers. Lunch in the camp's outdoor dining area under canvas, served by your dedicated tent waiter."
+      },
+      {
+        "day": 7,
+        "title": "Final Morning Game Drive & Departure",
+        "description": "Your last morning drive departs at first light — the Mara Triangle is never the same twice, and a final morning in the bush with a guide who now knows your wildlife interests is a fitting close. A picnic breakfast in the bush, a slow return to camp, and a light aircraft departure for Nairobi with memories that will outlast most things."
+      }
     ],
     "caveats": [
       "Angama is one of the most expensive tented camps in Kenya — the all-inclusive rate is significant and the hot air balloon is an additional cost. Build the full budget before booking.",
@@ -48,12 +113,30 @@
       "Migration timing is unpredictable — the famous river crossings are most likely between July and October but are never guaranteed. Your guide's local knowledge significantly improves the odds."
     ],
     "faqs": [
-      { "question": "Is Angama Mara good for honeymooners?", "answer": "Angama Mara is widely regarded as one of Africa's finest honeymoon destinations. The combination of the Great Rift Valley escarpment views, exceptional service, intimate camp scale, and position within the Mara Triangle wildlife corridor creates a powerfully romantic experience. The Honeymoon Suite is purpose-designed and the team is expert at creating personalised moments for celebrating couples." },
-      { "question": "What is the best time to visit?", "answer": "July through October is peak migration season — the Wildebeest Migration from Tanzania crosses the Mara River during these months, and the resident lion, leopard, and cheetah population is also at its most active. December through March is the dry season and excellent for wildlife. The camp is open year-round but green season rains (April–May) bring fewer guests and lower rates." },
-      { "question": "What should we book in advance?", "answer": "Reserve the Honeymoon Suite 6–12 months ahead for peak season dates as it is a single suite and books out quickly. Pre-book the hot air balloon flight at the same time — flight dates are weather dependent and space is limited. Inform the camp of your honeymoon for private sundowner and bush dinner arrangements." },
-      { "question": "Is it adults-only?", "answer": "Angama Mara is not adults-only. Families with children aged 7 and above are welcome. In practice, the camp skews heavily toward couples — particularly in the Honeymoon Suite camp — and the atmosphere is consistently sophisticated and romantic. For a guaranteed adult-only experience in the Mara, Cottar's 1920s Safari Camp is worth considering." },
-      { "question": "What's the best room type for a honeymoon?", "answer": "The Honeymoon Suite at Angama Safari Camp is the definitive choice — the copper bathtub facing the escarpment view, the private deck, and the dedication to couples' experiences throughout the stay make it special. All standard tented suites are also exceptional, with the same floor-to-ceiling views, if the Honeymoon Suite is unavailable." },
-      { "question": "How do we get there?", "answer": "Fly to Wilson Airport in Nairobi, then take a scheduled or private light aircraft (approximately 45 minutes) to the Angama airstrip on the escarpment. Angama works with several reputable charter companies and can arrange the full journey from Nairobi Jomo Kenyatta International Airport." }
+      {
+        "question": "Is Angama Mara good for honeymooners?",
+        "answer": "Angama Mara is widely regarded as one of Africa's finest honeymoon destinations. The combination of the Great Rift Valley escarpment views, exceptional service, intimate camp scale, and position within the Mara Triangle wildlife corridor creates a powerfully romantic experience. The Honeymoon Suite is purpose-designed and the team is expert at creating personalised moments for celebrating couples."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "July through October is peak migration season — the Wildebeest Migration from Tanzania crosses the Mara River during these months, and the resident lion, leopard, and cheetah population is also at its most active. December through March is the dry season and excellent for wildlife. The camp is open year-round but green season rains (April–May) bring fewer guests and lower rates."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "Reserve the Honeymoon Suite 6–12 months ahead for peak season dates as it is a single suite and books out quickly. Pre-book the hot air balloon flight at the same time — flight dates are weather dependent and space is limited. Inform the camp of your honeymoon for private sundowner and bush dinner arrangements."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "Angama Mara is not adults-only. Families with children aged 7 and above are welcome. In practice, the camp skews heavily toward couples — particularly in the Honeymoon Suite camp — and the atmosphere is consistently sophisticated and romantic. For a guaranteed adult-only experience in the Mara, Cottar's 1920s Safari Camp is worth considering."
+      },
+      {
+        "question": "What's the best room type for a honeymoon?",
+        "answer": "The Honeymoon Suite at Angama Safari Camp is the definitive choice — the copper bathtub facing the escarpment view, the private deck, and the dedication to couples' experiences throughout the stay make it special. All standard tented suites are also exceptional, with the same floor-to-ceiling views, if the Honeymoon Suite is unavailable."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "Fly to Wilson Airport in Nairobi, then take a scheduled or private light aircraft (approximately 45 minutes) to the Angama airstrip on the escarpment. Angama works with several reputable charter companies and can arrange the full journey from Nairobi Jomo Kenyatta International Airport."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Angama Mara\n\nDear Angama Mara team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: the Honeymoon Suite and the hot air balloon experience.\n\nCould you please let us know:\n- Current availability for our dates\n- Any honeymoon packages or complimentary enhancements\n- Details on the hot air balloon booking process and photography studio\n\nThank you for your time.\n\n[Your names]"
   },

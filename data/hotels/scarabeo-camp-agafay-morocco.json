@@ -3,7 +3,10 @@
   "name": "Scarabeo Camp",
   "destination": "morocco",
   "country": "morocco",
-  "experience_types": ["luxury", "wellness"],
+  "experience_types": [
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 88,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +20,50 @@
     "luxury": 5
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 500, "max": 1500 },
+  "price_per_night_usd": {
+    "min": 500,
+    "max": 1500
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "room service", "butler service", "luxury tents", "camel rides", "stargazing", "Atlas mountain views", "hammam", "yoga", "desert excursions"],
+  "amenities": [
+    "spa",
+    "pool",
+    "room service",
+    "butler service",
+    "luxury tents",
+    "camel rides",
+    "stargazing",
+    "Atlas mountain views",
+    "hammam",
+    "yoga",
+    "desert excursions"
+  ],
   "photos": [
-    { "url": "/images/hotels/scarabeo-camp-agafay-morocco/hero.webp", "alt": "scarabeo-camp-agafay-morocco — hero", "type": "hero" },
-    { "url": "/images/hotels/scarabeo-camp-agafay-morocco/room.webp", "alt": "scarabeo-camp-agafay-morocco — room", "type": "room" },
-    { "url": "/images/hotels/scarabeo-camp-agafay-morocco/pool.webp", "alt": "scarabeo-camp-agafay-morocco — pool", "type": "pool" },
-    { "url": "/images/hotels/scarabeo-camp-agafay-morocco/spa.webp", "alt": "scarabeo-camp-agafay-morocco — spa", "type": "spa" },
-    { "url": "/images/hotels/scarabeo-camp-agafay-morocco/dining.webp", "alt": "scarabeo-camp-agafay-morocco — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/scarabeo-camp-agafay-morocco/hero.webp",
+      "alt": "scarabeo-camp-agafay-morocco — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/scarabeo-camp-agafay-morocco/room.webp",
+      "alt": "scarabeo-camp-agafay-morocco — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/scarabeo-camp-agafay-morocco/pool.webp",
+      "alt": "scarabeo-camp-agafay-morocco — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/scarabeo-camp-agafay-morocco/spa.webp",
+      "alt": "scarabeo-camp-agafay-morocco — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/scarabeo-camp-agafay-morocco/dining.webp",
+      "alt": "scarabeo-camp-agafay-morocco — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.2,
   "tripadvisor_award": true,
@@ -34,13 +72,41 @@
     "verdict": "Scarabeo Camp offers the Sahara-like glamping experience far closer to Marrakech than a trip to Merzouga requires — the Agafay stone desert, 30km south of the city, is a dramatic landscape of rocky plains and undulating grey moonscape with the snow-capped Atlas Mountains as a permanent backdrop. The 24 luxury tents at Scarabeo combine proper beds, en-suite bathrooms, and the highest-quality Moroccan textiles with the irreplaceable experience of sleeping under a desert sky. Camel rides, stargazing, hammam, and a beautiful pool make it a complete romantic experience for honeymooners who want a desert adventure without a two-day journey to the Sahara.",
     "best_room": "Book one of the premium Tents with the most panoramic Atlas Mountain view — the Agafay desert faces the Atlas directly, and the sight of snow-capped peaks rising from a stone desert plain is extraordinary. The larger Deluxe Tents have more space and are set further apart for privacy. All tents have proper beds, en-suite bathrooms with Moroccan tile work, and private outdoor terrace seating facing the desert and mountains.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival in the Agafay Desert", "description": "Drive 30km south from Marrakech into the Agafay stone desert as the city disappears behind you. Scarabeo Camp appears in the desert, lanterns lit and the Atlas Mountains filling the western sky. Check into your tent as the late afternoon sun turns the rocky plain gold. A camel ride at sunset, the mountains in silhouette and the desert stretching in every direction, is the perfect arrival moment — followed by a candlelit dinner under the stars." },
-      { "day": 2, "title": "Desert Dawn & Hammam", "description": "Wake before sunrise for the most magical moment at Scarabeo — the dawn light on the Atlas peaks turns them from grey to pink to gold as the desert plain below changes from silver to ochre. A morning hammam in the camp's beautifully designed spa pavilion, then a leisurely breakfast with Atlas views. The pool is heated and perfectly positioned for an afternoon of desert swimming with mountain views." },
-      { "day": 3, "title": "Marrakech Medina Day", "description": "A 30-minute drive returns you to Marrakech for a day — the city after the silence of the desert feels more vivid and alive than ever. Explore the souks, visit the Majorelle Garden, and have lunch at a rooftop restaurant above the medina with views over the minarets. Return to the camp in the late afternoon and the silence descends again like a gift. Dinner by firelight in the desert." },
-      { "day": 4, "title": "Quad Bikes & Desert Exploration", "description": "The camp offers quad bike tours of the Agafay desert — the stone plateau with its rock formations, dried riverbeds, and Berber villages is extraordinary on four wheels. The tour includes tea at a local Berber family's home in a clay-built village on the desert edge. Return for a stargazing session after dinner — the Agafay's darkness and altitude provide a Milky Way display that will astonish guests from any city." },
-      { "day": 5, "title": "Yoga, Spa & Desert Silence", "description": "A day dedicated to the Scarabeo experience in its purest form: morning yoga on the desert terrace as the sun rises over the Atlas, spa treatments through the morning including an argan oil massage and ghassoul clay body treatment, then an afternoon of total silence reading in a hammock with the desert and mountains as your only view. A private dinner in your tent for two, served by your personal attendant." },
-      { "day": 6, "title": "Ouirgane Valley & Atlas Villages", "description": "Drive further into the Atlas foothills for the day — the Ouirgane Valley, 30 minutes south, has a beautiful lake, walnut groves, and traditional Berber villages accessible only on foot. A guided hike through the valley stops at a village school and a local cooperative making traditional Berber rugs. Lunch by the lake, then return to the camp for a sunset camel ride and a final evening under the stars." },
-      { "day": 7, "title": "Farewell Desert Morning", "description": "Last desert morning: coffee on your tent terrace as the Atlas peaks emerge from dawn haze, a final swim in the pool, and a slow breakfast. The 30-minute return drive to Marrakech airport is one of the easier final-day logistics in Moroccan travel. The Agafay desert and its Atlas backdrop, the extraordinary starry nights, and the simplicity of the camp experience will remain among the defining memories of your honeymoon." }
+      {
+        "day": 1,
+        "title": "Arrival in the Agafay Desert",
+        "description": "Drive 30km south from Marrakech into the Agafay stone desert as the city disappears behind you. Scarabeo Camp appears in the desert, lanterns lit and the Atlas Mountains filling the western sky. Check into your tent as the late afternoon sun turns the rocky plain gold. A camel ride at sunset, the mountains in silhouette and the desert stretching in every direction, is the perfect arrival moment — followed by a candlelit dinner under the stars."
+      },
+      {
+        "day": 2,
+        "title": "Desert Dawn & Hammam",
+        "description": "Wake before sunrise for the most magical moment at Scarabeo — the dawn light on the Atlas peaks turns them from grey to pink to gold as the desert plain below changes from silver to ochre. A morning hammam in the camp's beautifully designed spa pavilion, then a leisurely breakfast with Atlas views. The pool is heated and perfectly positioned for an afternoon of desert swimming with mountain views."
+      },
+      {
+        "day": 3,
+        "title": "Marrakech Medina Day",
+        "description": "A 30-minute drive returns you to Marrakech for a day — the city after the silence of the desert feels more vivid and alive than ever. Explore the souks, visit the Majorelle Garden, and have lunch at a rooftop restaurant above the medina with views over the minarets. Return to the camp in the late afternoon and the silence descends again like a gift. Dinner by firelight in the desert."
+      },
+      {
+        "day": 4,
+        "title": "Quad Bikes & Desert Exploration",
+        "description": "The camp offers quad bike tours of the Agafay desert — the stone plateau with its rock formations, dried riverbeds, and Berber villages is extraordinary on four wheels. The tour includes tea at a local Berber family's home in a clay-built village on the desert edge. Return for a stargazing session after dinner — the Agafay's darkness and altitude provide a Milky Way display that will astonish guests from any city."
+      },
+      {
+        "day": 5,
+        "title": "Yoga, Spa & Desert Silence",
+        "description": "A day dedicated to the Scarabeo experience in its purest form: morning yoga on the desert terrace as the sun rises over the Atlas, spa treatments through the morning including an argan oil massage and ghassoul clay body treatment, then an afternoon of total silence reading in a hammock with the desert and mountains as your only view. A private dinner in your tent for two, served by your personal attendant."
+      },
+      {
+        "day": 6,
+        "title": "Ouirgane Valley & Atlas Villages",
+        "description": "Drive further into the Atlas foothills for the day — the Ouirgane Valley, 30 minutes south, has a beautiful lake, walnut groves, and traditional Berber villages accessible only on foot. A guided hike through the valley stops at a village school and a local cooperative making traditional Berber rugs. Lunch by the lake, then return to the camp for a sunset camel ride and a final evening under the stars."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Desert Morning",
+        "description": "Last desert morning: coffee on your tent terrace as the Atlas peaks emerge from dawn haze, a final swim in the pool, and a slow breakfast. The 30-minute return drive to Marrakech airport is one of the easier final-day logistics in Moroccan travel. The Agafay desert and its Atlas backdrop, the extraordinary starry nights, and the simplicity of the camp experience will remain among the defining memories of your honeymoon."
+      }
     ],
     "caveats": [
       "Scarabeo is a glamping property — while the tents are genuinely luxurious with proper beds and bathrooms, guests who need hotel-grade sound insulation, climate control to exact temperatures, or conventional room facilities may find the tent format less comfortable.",

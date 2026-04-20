@@ -3,7 +3,11 @@
   "name": "Les Villas du Lagon",
   "destination": "reunion",
   "country": "reunion",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 82,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,46 @@
     "luxury": 3
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 300, "max": 900 },
+  "price_per_night_usd": {
+    "min": 300,
+    "max": 900
+  },
   "adults_only": false,
-  "amenities": ["pool", "beach access", "room service", "private garden", "concierge", "spa treatments on request", "water sports nearby"],
+  "amenities": [
+    "pool",
+    "beach access",
+    "room service",
+    "private garden",
+    "concierge",
+    "spa treatments on request",
+    "water sports nearby"
+  ],
   "photos": [
-    { "url": "/images/hotels/les-villas-du-lagon-reunion/hero.webp", "alt": "les-villas-du-lagon-reunion — hero", "type": "hero" },
-    { "url": "/images/hotels/les-villas-du-lagon-reunion/room.webp", "alt": "les-villas-du-lagon-reunion — room", "type": "room" },
-    { "url": "/images/hotels/les-villas-du-lagon-reunion/pool.webp", "alt": "les-villas-du-lagon-reunion — pool", "type": "pool" },
-    { "url": "/images/hotels/les-villas-du-lagon-reunion/spa.webp", "alt": "les-villas-du-lagon-reunion — spa", "type": "spa" },
-    { "url": "/images/hotels/les-villas-du-lagon-reunion/dining.webp", "alt": "les-villas-du-lagon-reunion — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/les-villas-du-lagon-reunion/hero.webp",
+      "alt": "les-villas-du-lagon-reunion — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/les-villas-du-lagon-reunion/room.webp",
+      "alt": "les-villas-du-lagon-reunion — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/les-villas-du-lagon-reunion/pool.webp",
+      "alt": "les-villas-du-lagon-reunion — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/les-villas-du-lagon-reunion/spa.webp",
+      "alt": "les-villas-du-lagon-reunion — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/les-villas-du-lagon-reunion/dining.webp",
+      "alt": "les-villas-du-lagon-reunion — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 8.7,
   "tripadvisor_award": false,
@@ -34,13 +69,41 @@
     "verdict": "Les Villas du Lagon is a rare boutique five-star villa property on Réunion's west coast, offering 20 individually styled villas with private pools just 50 metres from the L'Hermitage lagoon beach — one of the best beaches on the island. The intimacy of a small villa property combined with the French-Creole character of the interiors creates a more genuinely romantic atmosphere than larger resorts, and the price point undercuts the Lux* while delivering a more personalised experience. For honeymooners who want private villa living with immediate beach access and an authentic connection to the island, this is Réunion's best boutique option.",
     "best_room": "All villas at Les Villas du Lagon are private standalone structures with personal pools and gardens. The Prestige Villas are the top category — larger footprint, premium furnishing, and the most private garden positioning. Request a villa closest to the beach access path for the shortest route to the lagoon. The pools are heated, making evening swims genuinely inviting even in the cooler winter months.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Private Villa Welcome", "description": "Arrive from Roland Garros Airport (around 50 minutes by taxi to L'Hermitage) and settle into your private villa. The private pool is immediately inviting. L'Hermitage beach — 50 metres away — is consistently rated among Réunion's best: calm, palm-fringed, with turquoise lagoon water. The evening is best spent at a restaurant in the village of L'Hermitage-les-Bains, which has an excellent selection of Creole and French dining." },
-      { "day": 2, "title": "Lagoon Morning & Villa Day", "description": "Morning snorkeling in the L'Hermitage lagoon marine reserve. Return to the villa for a long private pool session with room service lunch on the terrace. The villa setting rewards doing nothing with exceptional efficiency — this is a day for a massage arranged in-villa, a good book, and an unhurried evening outdoors." },
-      { "day": 3, "title": "Piton de la Fournaise", "description": "The volcano excursion from the west coast takes around 3 hours to reach. Book a licensed guide through the property's concierge for the best experience at the caldera. The contrast between the lush west coast and the lunar lava fields of the Enclos Fouqué is one of Réunion's great narrative surprises. Return exhausted and retreat to the villa pool." },
-      { "day": 4, "title": "Cirque de Salazie & Hell-Bourg", "description": "Salazie is the greenest and most verdant of Réunion's three cirques — a misty, waterfall-laced valley where the village of Hell-Bourg (named for a French admiral, not the underworld) preserves some of the island's finest Creole architecture. The colonial-era maisons créoles with their ornate ironwork are Instagram gold. Lunch at a local gîte serves traditional mountain cooking." },
-      { "day": 5, "title": "Sunset Sail & Creole Dinner", "description": "A sunset sailing excursion from Saint Gilles marina along the reef coast is available through the concierge. The evening light along Réunion's west coast is spectacular. Return to L'Hermitage for dinner at one of the village's best Creole restaurants — curry, rougail, and the local rum punch are the essential order." },
-      { "day": 6, "title": "Whale Watching or Dolphin Swim", "description": "Between June and October, humpback whales are regularly spotted off Réunion's west coast from boat excursions. Year-round, spinner dolphin encounters are possible with dedicated ecotourism operators based in Saint Gilles. Book an early departure to maximise encounter time, then return to the villa for an afternoon of pure relaxation." },
-      { "day": 7, "title": "Farewell Morning", "description": "A final swim in the private pool, a long breakfast on the villa terrace with fresh tropical fruit and coffee, and a last walk to the lagoon beach. The villa team can arrange an airport taxi." }
+      {
+        "day": 1,
+        "title": "Arrival & Private Villa Welcome",
+        "description": "Arrive from Roland Garros Airport (around 50 minutes by taxi to L'Hermitage) and settle into your private villa. The private pool is immediately inviting. L'Hermitage beach — 50 metres away — is consistently rated among Réunion's best: calm, palm-fringed, with turquoise lagoon water. The evening is best spent at a restaurant in the village of L'Hermitage-les-Bains, which has an excellent selection of Creole and French dining."
+      },
+      {
+        "day": 2,
+        "title": "Lagoon Morning & Villa Day",
+        "description": "Morning snorkeling in the L'Hermitage lagoon marine reserve. Return to the villa for a long private pool session with room service lunch on the terrace. The villa setting rewards doing nothing with exceptional efficiency — this is a day for a massage arranged in-villa, a good book, and an unhurried evening outdoors."
+      },
+      {
+        "day": 3,
+        "title": "Piton de la Fournaise",
+        "description": "The volcano excursion from the west coast takes around 3 hours to reach. Book a licensed guide through the property's concierge for the best experience at the caldera. The contrast between the lush west coast and the lunar lava fields of the Enclos Fouqué is one of Réunion's great narrative surprises. Return exhausted and retreat to the villa pool."
+      },
+      {
+        "day": 4,
+        "title": "Cirque de Salazie & Hell-Bourg",
+        "description": "Salazie is the greenest and most verdant of Réunion's three cirques — a misty, waterfall-laced valley where the village of Hell-Bourg (named for a French admiral, not the underworld) preserves some of the island's finest Creole architecture. The colonial-era maisons créoles with their ornate ironwork are Instagram gold. Lunch at a local gîte serves traditional mountain cooking."
+      },
+      {
+        "day": 5,
+        "title": "Sunset Sail & Creole Dinner",
+        "description": "A sunset sailing excursion from Saint Gilles marina along the reef coast is available through the concierge. The evening light along Réunion's west coast is spectacular. Return to L'Hermitage for dinner at one of the village's best Creole restaurants — curry, rougail, and the local rum punch are the essential order."
+      },
+      {
+        "day": 6,
+        "title": "Whale Watching or Dolphin Swim",
+        "description": "Between June and October, humpback whales are regularly spotted off Réunion's west coast from boat excursions. Year-round, spinner dolphin encounters are possible with dedicated ecotourism operators based in Saint Gilles. Book an early departure to maximise encounter time, then return to the villa for an afternoon of pure relaxation."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "A final swim in the private pool, a long breakfast on the villa terrace with fresh tropical fruit and coffee, and a last walk to the lagoon beach. The villa team can arrange an airport taxi."
+      }
     ],
     "caveats": [
       "Les Villas du Lagon is a boutique property without a full restaurant on site — guests dine out each evening in the village restaurants, which is part of the authentic Réunion experience but requires some planning.",
@@ -48,12 +111,30 @@
       "The 20-villa scale means the on-site team is small — large special requests (elaborate in-villa setups, coordinating multiple excursions simultaneously) should be arranged in advance."
     ],
     "faqs": [
-      { "question": "Is Les Villas du Lagon good for honeymooners?", "answer": "It is one of Réunion's best honeymoon choices — the private villa with pool format gives a genuine sense of having your own home on the island, the lagoon beach is immediate, and the boutique scale means genuine personal attention. The absence of an on-site restaurant is compensated by the excellent village dining options." },
-      { "question": "What is the best time to visit?", "answer": "May through October is the dry season — ideal for beach and lagoon activities. Whale watching is possible June–October. The lagoon is consistently swimmable year-round on the protected west coast." },
-      { "question": "What should we book in advance?", "answer": "Prestige Villas fill quickly in peak season — book early. Arrange the volcano excursion and any cetacean watching trips through the concierge at time of reservation. In-villa massage treatments also require advance notice." },
-      { "question": "Is it adults-only?", "answer": "No, children are welcome at Les Villas du Lagon. However the villa format and pricing skew the guest profile heavily toward couples and honeymooners." },
-      { "question": "What's the best room for a honeymoon?", "answer": "A Prestige Villa with the largest private pool and garden is the top choice. The privacy of a standalone villa with its own pool — essentially a house within a very small resort — is what makes this property special." },
-      { "question": "How do we get there?", "answer": "Fly to Roland Garros Airport (RUN) then a pre-arranged taxi takes around 50–55 minutes to L'Hermitage-les-Bains on the west coast. The property team can recommend reliable taxi services." }
+      {
+        "question": "Is Les Villas du Lagon good for honeymooners?",
+        "answer": "It is one of Réunion's best honeymoon choices — the private villa with pool format gives a genuine sense of having your own home on the island, the lagoon beach is immediate, and the boutique scale means genuine personal attention. The absence of an on-site restaurant is compensated by the excellent village dining options."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "May through October is the dry season — ideal for beach and lagoon activities. Whale watching is possible June–October. The lagoon is consistently swimmable year-round on the protected west coast."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "Prestige Villas fill quickly in peak season — book early. Arrange the volcano excursion and any cetacean watching trips through the concierge at time of reservation. In-villa massage treatments also require advance notice."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "No, children are welcome at Les Villas du Lagon. However the villa format and pricing skew the guest profile heavily toward couples and honeymooners."
+      },
+      {
+        "question": "What's the best room for a honeymoon?",
+        "answer": "A Prestige Villa with the largest private pool and garden is the top choice. The privacy of a standalone villa with its own pool — essentially a house within a very small resort — is what makes this property special."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "Fly to Roland Garros Airport (RUN) then a pre-arranged taxi takes around 50–55 minutes to L'Hermitage-les-Bains on the west coast. The property team can recommend reliable taxi services."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Les Villas du Lagon\n\nDear Les Villas du Lagon team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: a Prestige Villa with private pool\n\nCould you please let us know:\n- Current availability for our dates\n- Any honeymoon packages or complimentary upgrades\n- Your recommendations for in-villa massage arrangements and excursion bookings\n\nThank you for your time.\n\n[Your names]"
   },

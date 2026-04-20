@@ -3,7 +3,11 @@
   "name": "Amanpuri Phuket",
   "destination": "thailand",
   "country": "thailand",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 95,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,49 @@
     "luxury": 10
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 1200, "max": 4000 },
+  "price_per_night_usd": {
+    "min": 1200,
+    "max": 4000
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "beach", "room service", "butler service", "private villas", "water sports", "two restaurants", "fitness pavilion", "yoga"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beach",
+    "room service",
+    "butler service",
+    "private villas",
+    "water sports",
+    "two restaurants",
+    "fitness pavilion",
+    "yoga"
+  ],
   "photos": [
-    { "url": "/images/hotels/amanpuri-phuket-thailand/hero.webp", "alt": "amanpuri-phuket-thailand — hero", "type": "hero" },
-    { "url": "/images/hotels/amanpuri-phuket-thailand/room.webp", "alt": "amanpuri-phuket-thailand — room", "type": "room" },
-    { "url": "/images/hotels/amanpuri-phuket-thailand/pool.webp", "alt": "amanpuri-phuket-thailand — pool", "type": "pool" },
-    { "url": "/images/hotels/amanpuri-phuket-thailand/spa.webp", "alt": "amanpuri-phuket-thailand — spa", "type": "spa" },
-    { "url": "/images/hotels/amanpuri-phuket-thailand/dining.webp", "alt": "amanpuri-phuket-thailand — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/amanpuri-phuket-thailand/hero.webp",
+      "alt": "amanpuri-phuket-thailand — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/amanpuri-phuket-thailand/room.webp",
+      "alt": "amanpuri-phuket-thailand — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/amanpuri-phuket-thailand/pool.webp",
+      "alt": "amanpuri-phuket-thailand — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/amanpuri-phuket-thailand/spa.webp",
+      "alt": "amanpuri-phuket-thailand — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/amanpuri-phuket-thailand/dining.webp",
+      "alt": "amanpuri-phuket-thailand — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.7,
   "tripadvisor_award": true,
@@ -34,13 +72,41 @@
     "verdict": "Amanpuri — meaning 'Place of Peace' in Sanskrit — was the very first Aman resort, opened in 1988 on Pansea Beach in Phuket, and it remains the gold standard of intimate Thai luxury. Thirty-five pavilions and forty private pool villas cascade down a coconut palm-covered hillside to a private white sand beach on the Andaman Sea. The sense of serene, unhurried privacy is unmatched in Southeast Asia — this is a resort where staff remember your name before you arrive, where menus are personalized to your tastes, and where the world's worries genuinely dissolve. For honeymooners seeking the absolute pinnacle of romantic Thailand, Amanpuri is without equal.",
     "best_room": "The entry-level Pavilions are already extraordinary — Thai-style teak structures with private plunge pools, open-air salas, and king beds draped in white linen with coconut palm views. For ultimate romance, book a one-bedroom Pool Villa directly on the hillside facing the Andaman Sea, where a private infinity pool and butler service create a level of privacy and indulgence that is genuinely transformative.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & First Evening at Pansea Beach", "description": "A private speedboat or helicopter transfer from Phuket airport deposits you at the resort, where the signature Aman ritual of quiet, unhurried arrival begins. Change into sarongs and walk the 100 steps down to Pansea Beach — a private crescent of white sand with no vendors, no jet skis, and no distractions. Watch the Andaman sunset from the Terrace restaurant with a Singha in hand and let the week truly begin." },
-      { "day": 2, "title": "Aman Spa & Beach Day", "description": "The Aman Spa is renowned for its Thai therapeutic treatments, particularly the Aman Signature Thai Massage — a full two-hour traditional massage in an open-air pavilion surrounded by tropical gardens. Book the couples' treatment suite for a simultaneous session. Afternoons at Amanpuri pass in a golden haze of sun, sea, and silence at the beach or your private pool." },
-      { "day": 3, "title": "Phang Nga Bay by Longtail", "description": "Charter one of Amanpuri's traditional longtail boats for a private exploration of Phang Nga Bay — the extraordinary seascape of limestone karst towers rising from jade-green water made famous by the James Bond film 'The Man with the Golden Gun.' Pack a picnic prepared by the resort kitchen and anchor in a sea cave for a private lunch. Return by sunset." },
-      { "day": 4, "title": "Cooking Class & Yoga", "description": "Join the resort's Thai cooking class in the outdoor kitchen pavilion — learning to make tom kha gai, green curry, and mango sticky rice together is one of the most memorable honeymoon activities in Thailand. Balance the morning with an afternoon yoga session on the clifftop pavilion overlooking the Andaman Sea, taught by the resident Aman yoga teacher." },
-      { "day": 5, "title": "Island Hopping — Similan or Phi Phi", "description": "The Aman team can arrange a private speedboat excursion to the Phi Phi Islands or, for snorkeling enthusiasts willing to make the longer journey, the Similan Islands Marine National Park — among the top dive sites in Asia. Swim through pristine coral gardens with virtually no other boats in sight. This is the Thailand of postcards and dreams." },
-      { "day": 6, "title": "Sunset Yacht Charter", "description": "Charter the Aman's private sailing yacht for a half-day sunset cruise around the headlands of Phuket's west coast — stopping at hidden bays, drifting past sea cliffs, and dropping anchor for a swim in a turquoise cove while champagne is chilled. Return to the resort for a private beach barbecue dinner arranged by the butler, with Thai lanterns and fresh seafood grilled tableside." },
-      { "day": 7, "title": "Farewell Morning", "description": "Wake at dawn and walk the now-familiar steps to Pansea Beach one last time in the early morning light — the beach is yours entirely at this hour, with only the sound of the Andaman lapping the shore. A final traditional Thai breakfast of rice congee, fresh papaya, and lemongrass tea on your villa's terrace, then a leisurely departure orchestrated by your Aman butler." }
+      {
+        "day": 1,
+        "title": "Arrival & First Evening at Pansea Beach",
+        "description": "A private speedboat or helicopter transfer from Phuket airport deposits you at the resort, where the signature Aman ritual of quiet, unhurried arrival begins. Change into sarongs and walk the 100 steps down to Pansea Beach — a private crescent of white sand with no vendors, no jet skis, and no distractions. Watch the Andaman sunset from the Terrace restaurant with a Singha in hand and let the week truly begin."
+      },
+      {
+        "day": 2,
+        "title": "Aman Spa & Beach Day",
+        "description": "The Aman Spa is renowned for its Thai therapeutic treatments, particularly the Aman Signature Thai Massage — a full two-hour traditional massage in an open-air pavilion surrounded by tropical gardens. Book the couples' treatment suite for a simultaneous session. Afternoons at Amanpuri pass in a golden haze of sun, sea, and silence at the beach or your private pool."
+      },
+      {
+        "day": 3,
+        "title": "Phang Nga Bay by Longtail",
+        "description": "Charter one of Amanpuri's traditional longtail boats for a private exploration of Phang Nga Bay — the extraordinary seascape of limestone karst towers rising from jade-green water made famous by the James Bond film 'The Man with the Golden Gun.' Pack a picnic prepared by the resort kitchen and anchor in a sea cave for a private lunch. Return by sunset."
+      },
+      {
+        "day": 4,
+        "title": "Cooking Class & Yoga",
+        "description": "Join the resort's Thai cooking class in the outdoor kitchen pavilion — learning to make tom kha gai, green curry, and mango sticky rice together is one of the most memorable honeymoon activities in Thailand. Balance the morning with an afternoon yoga session on the clifftop pavilion overlooking the Andaman Sea, taught by the resident Aman yoga teacher."
+      },
+      {
+        "day": 5,
+        "title": "Island Hopping — Similan or Phi Phi",
+        "description": "The Aman team can arrange a private speedboat excursion to the Phi Phi Islands or, for snorkeling enthusiasts willing to make the longer journey, the Similan Islands Marine National Park — among the top dive sites in Asia. Swim through pristine coral gardens with virtually no other boats in sight. This is the Thailand of postcards and dreams."
+      },
+      {
+        "day": 6,
+        "title": "Sunset Yacht Charter",
+        "description": "Charter the Aman's private sailing yacht for a half-day sunset cruise around the headlands of Phuket's west coast — stopping at hidden bays, drifting past sea cliffs, and dropping anchor for a swim in a turquoise cove while champagne is chilled. Return to the resort for a private beach barbecue dinner arranged by the butler, with Thai lanterns and fresh seafood grilled tableside."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "Wake at dawn and walk the now-familiar steps to Pansea Beach one last time in the early morning light — the beach is yours entirely at this hour, with only the sound of the Andaman lapping the shore. A final traditional Thai breakfast of rice congee, fresh papaya, and lemongrass tea on your villa's terrace, then a leisurely departure orchestrated by your Aman butler."
+      }
     ],
     "caveats": [
       "Amanpuri is among the most expensive hotels in Southeast Asia — at $1,200–$4,000 per night, a 7-night stay represents a very significant investment; budget for all meals and activities as well, as these are priced at Aman levels.",

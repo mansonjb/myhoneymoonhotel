@@ -3,7 +3,11 @@
   "name": "Eskaya Beach Resort & Spa",
   "destination": "philippines",
   "country": "philippines",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 85,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,47 @@
     "luxury": 5
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 400, "max": 1200 },
+  "price_per_night_usd": {
+    "min": 400,
+    "max": 1200
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "room service", "restaurant", "bar", "private beach", "snorkeling", "diving"],
+  "amenities": [
+    "spa",
+    "pool",
+    "room service",
+    "restaurant",
+    "bar",
+    "private beach",
+    "snorkeling",
+    "diving"
+  ],
   "photos": [
-    { "url": "/images/hotels/eskaya-beach-resort-bohol-philippines/hero.webp", "alt": "eskaya-beach-resort-bohol-philippines — hero", "type": "hero" },
-    { "url": "/images/hotels/eskaya-beach-resort-bohol-philippines/room.webp", "alt": "eskaya-beach-resort-bohol-philippines — room", "type": "room" },
-    { "url": "/images/hotels/eskaya-beach-resort-bohol-philippines/pool.webp", "alt": "eskaya-beach-resort-bohol-philippines — pool", "type": "pool" },
-    { "url": "/images/hotels/eskaya-beach-resort-bohol-philippines/spa.webp", "alt": "eskaya-beach-resort-bohol-philippines — spa", "type": "spa" },
-    { "url": "/images/hotels/eskaya-beach-resort-bohol-philippines/dining.webp", "alt": "eskaya-beach-resort-bohol-philippines — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/eskaya-beach-resort-bohol-philippines/hero.webp",
+      "alt": "eskaya-beach-resort-bohol-philippines — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/eskaya-beach-resort-bohol-philippines/room.webp",
+      "alt": "eskaya-beach-resort-bohol-philippines — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/eskaya-beach-resort-bohol-philippines/pool.webp",
+      "alt": "eskaya-beach-resort-bohol-philippines — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/eskaya-beach-resort-bohol-philippines/spa.webp",
+      "alt": "eskaya-beach-resort-bohol-philippines — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/eskaya-beach-resort-bohol-philippines/dining.webp",
+      "alt": "eskaya-beach-resort-bohol-philippines — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.1,
   "tripadvisor_award": false,
@@ -34,13 +70,41 @@
     "verdict": "Eskaya Beach Resort sits on a spectacular cliff above a private beach on Bohol's southern coast — 25 villas designed in a contemporary Filipino heritage aesthetic inspired by the island's indigenous Eskaya people, with sea views from every villa and a surrounding landscape that includes Bohol's extraordinary Chocolate Hills, the world's smallest primate (the Philippine tarsier), and some of the Philippines' finest diving reefs. For couples who want a culturally grounded Philippine luxury experience beyond the more visited Palawan circuit, Bohol is a revelation.",
     "best_room": "The Sea View Villa is Eskaya's definitive honeymoon room — a generously sized private villa with a terrace directly overlooking the Bohol Sea, a four-poster bed, deep soaking tub, and the coastal cliff views that characterise this site. Beach-level villas offer more direct beach access but sacrifice the panoramic elevation. The Cliff Villa is the most private and dramatic option.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Cliff Sunset", "description": "Fly from Manila or Cebu to Tagbilaran Airport (25 minutes from Cebu), then drive south to the resort (approximately 1.5 hours through Bohol's coconut and nipa palm landscape). The clifftop approach and the blue Bohol Sea below your villa terrace announce immediately that this is somewhere special. Sundowners on the cliff terrace, then dinner featuring fresh Bohol seafood — the squid ink rice and garlic butter prawns are outstanding." },
-      { "day": 2, "title": "Chocolate Hills & Tarsier Sanctuary", "description": "Bohol's iconic Chocolate Hills — over 1,200 perfectly conical hills that turn chocolate-brown in the dry season — are one of the Philippines' most photographed landscapes. Visit at sunrise from the hilltop viewpoint near Carmen. Continue to the Philippine Tarsier Sanctuary near Corella to observe the world's smallest primates in their forest habitat. These enormous-eyed nocturnal creatures are found naturally only in the Philippines, Indonesia, and Malaysia." },
-      { "day": 3, "title": "Balicasag Island Diving", "description": "Balicasag Island, 20 minutes by speedboat, is one of the Philippines' top five dive sites — a steep wall covered in black coral, sea fans, and sponges plunging to 200 metres, with hawksbill turtles, jackfish tornados, and barracuda. The resort's dive centre handles everything from equipment to guided dives. Non-divers can snorkel the shallower reef directly adjacent to the wall." },
-      { "day": 4, "title": "Loboc River Cruise & Waterfall", "description": "The Loboc River flows through the lush interior of Bohol, its banks lined with bamboo groves and coconut forest. A traditional bamboo floating restaurant drifts slowly upriver during a traditional Filipino lunch buffet as musicians play folk songs. Continue to Busay Falls in the cool highland interior for a swim in the natural pool. Return via the Baclayon Church — Bohol's oldest and most beautiful colonial church." },
-      { "day": 5, "title": "Full Spa Day", "description": "Eskaya's spa draws on indigenous Bohol healing traditions alongside Filipino Hilot techniques. Book the resort's signature Eskaya Journey: a two-hour couples' programme incorporating a warm herbal steam, a volcanic ash body wrap, a synchronised massage, and a soak in the outdoor mineral bath. The spa terrace overlooks the sea — the sound of waves provides the perfect restorative backdrop." },
-      { "day": 6, "title": "Panglao Island Day Trip", "description": "Drive north to Panglao Island — Bohol's main beach resort area — for a day at Alona Beach (excellent for snorkeling, diving, and fresh seafood beachside lunches) and the extraordinary Hinagdanan Cave, a cathedral-like cave with a subterranean freshwater pool lit by natural light shafts. Return to Eskaya for a final sunset cocktail on your cliff terrace." },
-      { "day": 7, "title": "Farewell Morning", "description": "Your last sunrise from the cliff terrace — the Bohol Sea turning gold, the resort's garden in full morning song. Breakfast features freshly made pan de sal (Filipino dinner rolls) with local honey, fresh tropical fruit, and Bohol cacao chocolate. The drive back to Tagbilaran Airport passes through landscapes that remind you how much character this island possesses beyond its famous hills." }
+      {
+        "day": 1,
+        "title": "Arrival & Cliff Sunset",
+        "description": "Fly from Manila or Cebu to Tagbilaran Airport (25 minutes from Cebu), then drive south to the resort (approximately 1.5 hours through Bohol's coconut and nipa palm landscape). The clifftop approach and the blue Bohol Sea below your villa terrace announce immediately that this is somewhere special. Sundowners on the cliff terrace, then dinner featuring fresh Bohol seafood — the squid ink rice and garlic butter prawns are outstanding."
+      },
+      {
+        "day": 2,
+        "title": "Chocolate Hills & Tarsier Sanctuary",
+        "description": "Bohol's iconic Chocolate Hills — over 1,200 perfectly conical hills that turn chocolate-brown in the dry season — are one of the Philippines' most photographed landscapes. Visit at sunrise from the hilltop viewpoint near Carmen. Continue to the Philippine Tarsier Sanctuary near Corella to observe the world's smallest primates in their forest habitat. These enormous-eyed nocturnal creatures are found naturally only in the Philippines, Indonesia, and Malaysia."
+      },
+      {
+        "day": 3,
+        "title": "Balicasag Island Diving",
+        "description": "Balicasag Island, 20 minutes by speedboat, is one of the Philippines' top five dive sites — a steep wall covered in black coral, sea fans, and sponges plunging to 200 metres, with hawksbill turtles, jackfish tornados, and barracuda. The resort's dive centre handles everything from equipment to guided dives. Non-divers can snorkel the shallower reef directly adjacent to the wall."
+      },
+      {
+        "day": 4,
+        "title": "Loboc River Cruise & Waterfall",
+        "description": "The Loboc River flows through the lush interior of Bohol, its banks lined with bamboo groves and coconut forest. A traditional bamboo floating restaurant drifts slowly upriver during a traditional Filipino lunch buffet as musicians play folk songs. Continue to Busay Falls in the cool highland interior for a swim in the natural pool. Return via the Baclayon Church — Bohol's oldest and most beautiful colonial church."
+      },
+      {
+        "day": 5,
+        "title": "Full Spa Day",
+        "description": "Eskaya's spa draws on indigenous Bohol healing traditions alongside Filipino Hilot techniques. Book the resort's signature Eskaya Journey: a two-hour couples' programme incorporating a warm herbal steam, a volcanic ash body wrap, a synchronised massage, and a soak in the outdoor mineral bath. The spa terrace overlooks the sea — the sound of waves provides the perfect restorative backdrop."
+      },
+      {
+        "day": 6,
+        "title": "Panglao Island Day Trip",
+        "description": "Drive north to Panglao Island — Bohol's main beach resort area — for a day at Alona Beach (excellent for snorkeling, diving, and fresh seafood beachside lunches) and the extraordinary Hinagdanan Cave, a cathedral-like cave with a subterranean freshwater pool lit by natural light shafts. Return to Eskaya for a final sunset cocktail on your cliff terrace."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "Your last sunrise from the cliff terrace — the Bohol Sea turning gold, the resort's garden in full morning song. Breakfast features freshly made pan de sal (Filipino dinner rolls) with local honey, fresh tropical fruit, and Bohol cacao chocolate. The drive back to Tagbilaran Airport passes through landscapes that remind you how much character this island possesses beyond its famous hills."
+      }
     ],
     "caveats": [
       "Tagbilaran Airport is served by a limited number of airlines — direct flights from Manila and Cebu are available but less frequent than more popular Philippine destinations. Check flight schedules carefully and allow buffer time for connections.",
@@ -48,12 +112,30 @@
       "Bohol was affected by a significant earthquake in 2013 which damaged some heritage churches — the Baclayon Church has been restored and most cultural sites are fully operational, but some damage remains visible at a few minor sites."
     ],
     "faqs": [
-      { "question": "Is Eskaya Beach Resort good for honeymooners?", "answer": "Strongly yes — it combines genuine luxury (sea-view villas, excellent spa, quality restaurant) with Bohol's extraordinary cultural and natural offerings. The Chocolate Hills, tarsier sanctuary, Balicasag diving, and Loboc River together form one of the Philippines' most varied island experiences, far less visited than Palawan. The clifftop setting and sea views create an intimate, romantic atmosphere." },
-      { "question": "What is the best time to visit?", "answer": "November to May is the dry season for Bohol. March to May is the driest and warmest, with the best diving visibility at Balicasag. December to February is peak season with cooler temperatures and ideal conditions. Avoid June to October when the Philippine typhoon season can affect the Visayas region." },
-      { "question": "What should we book in advance?", "answer": "Balicasag Island diving should be booked through the resort dive centre at least one day ahead — the marine sanctuary has limited daily visitor numbers. The Loboc River cruise should be reserved in advance as it fills with tour groups. The spa Eskaya Journey should be booked on arrival for your preferred dates." },
-      { "question": "Is it adults-only?", "answer": "No, families are welcome. The island's range of activities — the Chocolate Hills, tarsier sanctuary, cave swimming — attracts families as well as couples. However, Eskaya's villa format and cliff setting create sufficient privacy that couples find the experience comfortably romantic. Families tend to concentrate on the beach level." },
-      { "question": "What's the best room for a honeymoon?", "answer": "The Cliff Villa for maximum privacy and drama — or the Sea View Villa for the best balance of sea panorama, space, and four-poster bed luxury. Request either the highest elevation available or the most isolated cliff position. The resort is boutique at 25 villas, so room allocation is meaningful — specify at booking." },
-      { "question": "How do we get there?", "answer": "Fly to Tagbilaran Airport (TAG) on Bohol from Manila (direct, approximately 1.5 hours) or connect via Cebu (25-minute flight). From Tagbilaran Airport, private car transfer to Eskaya takes approximately 1.5 hours through Bohol's interior. The resort arranges transfers. Alternatively, ferry from Cebu Pier 1 to Tagbilaran takes approximately 2 hours." }
+      {
+        "question": "Is Eskaya Beach Resort good for honeymooners?",
+        "answer": "Strongly yes — it combines genuine luxury (sea-view villas, excellent spa, quality restaurant) with Bohol's extraordinary cultural and natural offerings. The Chocolate Hills, tarsier sanctuary, Balicasag diving, and Loboc River together form one of the Philippines' most varied island experiences, far less visited than Palawan. The clifftop setting and sea views create an intimate, romantic atmosphere."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "November to May is the dry season for Bohol. March to May is the driest and warmest, with the best diving visibility at Balicasag. December to February is peak season with cooler temperatures and ideal conditions. Avoid June to October when the Philippine typhoon season can affect the Visayas region."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "Balicasag Island diving should be booked through the resort dive centre at least one day ahead — the marine sanctuary has limited daily visitor numbers. The Loboc River cruise should be reserved in advance as it fills with tour groups. The spa Eskaya Journey should be booked on arrival for your preferred dates."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "No, families are welcome. The island's range of activities — the Chocolate Hills, tarsier sanctuary, cave swimming — attracts families as well as couples. However, Eskaya's villa format and cliff setting create sufficient privacy that couples find the experience comfortably romantic. Families tend to concentrate on the beach level."
+      },
+      {
+        "question": "What's the best room for a honeymoon?",
+        "answer": "The Cliff Villa for maximum privacy and drama — or the Sea View Villa for the best balance of sea panorama, space, and four-poster bed luxury. Request either the highest elevation available or the most isolated cliff position. The resort is boutique at 25 villas, so room allocation is meaningful — specify at booking."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "Fly to Tagbilaran Airport (TAG) on Bohol from Manila (direct, approximately 1.5 hours) or connect via Cebu (25-minute flight). From Tagbilaran Airport, private car transfer to Eskaya takes approximately 1.5 hours through Bohol's interior. The resort arranges transfers. Alternatively, ferry from Cebu Pier 1 to Tagbilaran takes approximately 2 hours."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Eskaya Beach Resort & Spa\n\nDear Eskaya Beach Resort team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: a Cliff Villa or Sea View Villa with ocean panorama.\n\nCould you please let us know:\n- Current availability for our dates\n- Any honeymoon packages or complimentary amenities\n- Whether Balicasag Island diving can be arranged through the resort during our stay\n\nThank you for your time.\n\n[Your names]"
   },

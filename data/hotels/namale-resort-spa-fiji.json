@@ -3,7 +3,12 @@
   "name": "Namale Resort & Spa",
   "destination": "fiji",
   "country": "fiji",
-  "experience_types": ["beach", "adults-only", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "adults-only",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 93,
   "score_breakdown": {
     "adults_only": 20,
@@ -17,15 +22,51 @@
     "luxury": 5
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 1500, "max": 4000 },
+  "price_per_night_usd": {
+    "min": 1500,
+    "max": 4000
+  },
   "adults_only": true,
-  "amenities": ["spa", "pool", "beach", "room service", "butler service", "adults-only", "diving", "snorkeling", "fitness center", "yoga", "tennis", "all-inclusive"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beach",
+    "room service",
+    "butler service",
+    "adults-only",
+    "diving",
+    "snorkeling",
+    "fitness center",
+    "yoga",
+    "tennis",
+    "all-inclusive"
+  ],
   "photos": [
-    { "url": "/images/hotels/namale-resort-spa-fiji/hero.webp", "alt": "namale-resort-spa-fiji — hero", "type": "hero" },
-    { "url": "/images/hotels/namale-resort-spa-fiji/room.webp", "alt": "namale-resort-spa-fiji — room", "type": "room" },
-    { "url": "/images/hotels/namale-resort-spa-fiji/pool.webp", "alt": "namale-resort-spa-fiji — pool", "type": "pool" },
-    { "url": "/images/hotels/namale-resort-spa-fiji/spa.webp", "alt": "namale-resort-spa-fiji — spa", "type": "spa" },
-    { "url": "/images/hotels/namale-resort-spa-fiji/dining.webp", "alt": "namale-resort-spa-fiji — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/namale-resort-spa-fiji/hero.webp",
+      "alt": "namale-resort-spa-fiji — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/namale-resort-spa-fiji/room.webp",
+      "alt": "namale-resort-spa-fiji — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/namale-resort-spa-fiji/pool.webp",
+      "alt": "namale-resort-spa-fiji — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/namale-resort-spa-fiji/spa.webp",
+      "alt": "namale-resort-spa-fiji — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/namale-resort-spa-fiji/dining.webp",
+      "alt": "namale-resort-spa-fiji — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.5,
   "tripadvisor_award": true,
@@ -34,13 +75,41 @@
     "verdict": "Namale Resort & Spa on Vanua Levu is one of Fiji's most celebrated adults-only all-inclusive resorts — owned for many years by Tony Robbins and designed around the principles of peak human experience. 19 bures and villas spread across a spectacular clifftop and beachfront property, with an award-winning spa, comprehensive all-inclusive pricing, and an atmosphere that genuinely believes every guest deserves the most extraordinary version of their stay. The combination of Vanua Levu's extraordinary diving on the Rainbow Reef, the adults-only guarantee, and the resort's culture of abundance makes it a consistently outstanding honeymoon destination.",
     "best_room": "The Honeymoon Bure is Namale's purpose-built accommodation for celebrating couples — a secluded clifftop bure with a private plunge pool suspended above the ocean, an outdoor bathtub, and a terrace that catches the sunset over Savusavu Bay. The interior combines Fijian tanoa bowls, hand-woven pandanus mats, and quality contemporary furnishings in a way that feels luxurious without being sterile. The Treehouse Bure is an intriguing alternative — elevated in a garden with a private pool, excellent privacy, and a slightly more playful design.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival at Namale & Bula Welcome", "description": "A short flight from Nadi to Savusavu Airport on Vanua Levu, followed by a 20-minute resort transfer, delivers you to Namale's gates where the entire team lines the driveway singing a traditional Fijian welcome song — genuinely moving and an immediate signal that this place takes hospitality seriously. Your bure is prepared with fresh frangipani, chilled Champagne, and a welcome letter." },
-      { "day": 2, "title": "Rainbow Reef Dive Day", "description": "The Rainbow Reef, one of the world's most famous soft coral dive destinations, is accessible within 30 minutes of Namale by boat. The 'Great White Wall' — a coral wall covered in white soft coral spirals at depth — is one of Fiji's iconic dives. All diving is included in the all-inclusive rate, equipment provided, and the resident dive team is expert and safety-focused." },
-      { "day": 3, "title": "Spa Immersion Day", "description": "Namale's spa is award-winning and comprehensive — 10 treatment rooms, an open-air yoga pavilion, and a treatment menu drawing on Fijian botanical traditions alongside international wellness techniques. The couples' 'Namale Ritual' is a full-day journey incorporating a hot stone massage, body wrap, facial, and a shared hydrotherapy experience — one of the Pacific's finest couples' spa days." },
-      { "day": 4, "title": "Kayak to the Waterfall & Village Kava", "description": "A guided kayak through Savusavu Bay's mangrove channels to a fresh-water waterfall hidden in the island's interior is one of Namale's most distinctive excursions. Swim in the fresh water pool at the waterfall's base, then return for a traditional kava ceremony in the resort's bure, where the Fijian team shares stories and songs over the ceremonial bowl." },
-      { "day": 5, "title": "Deep Sea Fishing & Catch Lunch", "description": "The Koro Sea beyond Vanua Levu is excellent fishing territory — yellowfin tuna, wahoo, and mahi-mahi are regularly caught within an hour of the resort. The all-inclusive ethos extends to fishing charters and the kitchen will prepare your catch as a private beachfront lunch, paired with a cold Fijian Bitter. The afternoon is for the hammock." },
-      { "day": 6, "title": "Sunset Sailing & Private Clifftop Dinner", "description": "A late afternoon sail on the resort's catamaran along Savusavu Bay as the light changes over the harbour town and the surrounding mountains is one of Fiji's most beautiful evening activities. Return to Namale for a private clifftop dinner arranged by your personal butler — a table above the ocean, hurricane lamps, a curated menu, and the sound of the Fijian night." },
-      { "day": 7, "title": "Final Snorkel & Unhurried Departure", "description": "A last morning snorkel directly from the resort's beach — the Namale house reef is healthy and turtles visit regularly. Breakfast is served in your bure or at the restaurant, always generous with tropical fruits, fresh-baked bread, and the Fijian coffee blend that you will order online the moment you get home. The team gathers for a farewell song at departure — as moving as the arrival." }
+      {
+        "day": 1,
+        "title": "Arrival at Namale & Bula Welcome",
+        "description": "A short flight from Nadi to Savusavu Airport on Vanua Levu, followed by a 20-minute resort transfer, delivers you to Namale's gates where the entire team lines the driveway singing a traditional Fijian welcome song — genuinely moving and an immediate signal that this place takes hospitality seriously. Your bure is prepared with fresh frangipani, chilled Champagne, and a welcome letter."
+      },
+      {
+        "day": 2,
+        "title": "Rainbow Reef Dive Day",
+        "description": "The Rainbow Reef, one of the world's most famous soft coral dive destinations, is accessible within 30 minutes of Namale by boat. The 'Great White Wall' — a coral wall covered in white soft coral spirals at depth — is one of Fiji's iconic dives. All diving is included in the all-inclusive rate, equipment provided, and the resident dive team is expert and safety-focused."
+      },
+      {
+        "day": 3,
+        "title": "Spa Immersion Day",
+        "description": "Namale's spa is award-winning and comprehensive — 10 treatment rooms, an open-air yoga pavilion, and a treatment menu drawing on Fijian botanical traditions alongside international wellness techniques. The couples' 'Namale Ritual' is a full-day journey incorporating a hot stone massage, body wrap, facial, and a shared hydrotherapy experience — one of the Pacific's finest couples' spa days."
+      },
+      {
+        "day": 4,
+        "title": "Kayak to the Waterfall & Village Kava",
+        "description": "A guided kayak through Savusavu Bay's mangrove channels to a fresh-water waterfall hidden in the island's interior is one of Namale's most distinctive excursions. Swim in the fresh water pool at the waterfall's base, then return for a traditional kava ceremony in the resort's bure, where the Fijian team shares stories and songs over the ceremonial bowl."
+      },
+      {
+        "day": 5,
+        "title": "Deep Sea Fishing & Catch Lunch",
+        "description": "The Koro Sea beyond Vanua Levu is excellent fishing territory — yellowfin tuna, wahoo, and mahi-mahi are regularly caught within an hour of the resort. The all-inclusive ethos extends to fishing charters and the kitchen will prepare your catch as a private beachfront lunch, paired with a cold Fijian Bitter. The afternoon is for the hammock."
+      },
+      {
+        "day": 6,
+        "title": "Sunset Sailing & Private Clifftop Dinner",
+        "description": "A late afternoon sail on the resort's catamaran along Savusavu Bay as the light changes over the harbour town and the surrounding mountains is one of Fiji's most beautiful evening activities. Return to Namale for a private clifftop dinner arranged by your personal butler — a table above the ocean, hurricane lamps, a curated menu, and the sound of the Fijian night."
+      },
+      {
+        "day": 7,
+        "title": "Final Snorkel & Unhurried Departure",
+        "description": "A last morning snorkel directly from the resort's beach — the Namale house reef is healthy and turtles visit regularly. Breakfast is served in your bure or at the restaurant, always generous with tropical fruits, fresh-baked bread, and the Fijian coffee blend that you will order online the moment you get home. The team gathers for a farewell song at departure — as moving as the arrival."
+      }
     ],
     "caveats": [
       "Namale is on Vanua Levu, requiring a domestic flight from Nadi to Savusavu — this adds approximately 45 minutes and a domestic flight cost to the journey, and Savusavu airport is a small, basic facility.",
@@ -48,12 +117,30 @@
       "Tony Robbins' ownership means the resort occasionally hosts motivational retreat groups — check at booking whether any exclusive retreat periods coincide with your dates."
     ],
     "faqs": [
-      { "question": "Is Namale Resort good for honeymooners?", "answer": "Namale is an outstanding honeymoon resort — the adults-only all-inclusive format, world-class Rainbow Reef diving, award-winning spa, and the resort's genuine culture of abundance and personalised service create one of Fiji's most celebrated couples' experiences. The honeymoon bure is purpose-designed and the team has deep experience celebrating romantic milestones." },
-      { "question": "What is the best time to visit?", "answer": "Vanua Levu's north coast is sheltered from the southeast trade winds, making it a year-round destination. May through October is the dry season and the clearest for diving. January through March is wet season but Savusavu Bay remains mostly sheltered; rates are lower and the landscape is vivid green." },
-      { "question": "What should we book in advance?", "answer": "Reserve the Honeymoon Bure at least 3–6 months ahead — it is the resort's most in-demand room. Confirm the all-inclusive inclusions for spa treatments, diving, and premium alcohol at booking. Inform the team of your honeymoon for arrival preparations and a personalised experience from day one." },
-      { "question": "Is it adults-only?", "answer": "Yes, Namale Resort & Spa is strictly adults-only — no guests under 18 are permitted. This is a fundamental part of the resort's identity and one of the key reasons it consistently ranks among Fiji's best honeymoon destinations. The atmosphere is entirely adult, calm, and couple-focused throughout." },
-      { "question": "What's the best room type for a honeymoon?", "answer": "The Honeymoon Bure is purpose-built for couples — clifftop plunge pool above the ocean, outdoor bathtub, and sunset views over Savusavu Bay. The Treehouse Bure is an excellent alternative with excellent garden privacy and a private pool. Both are significantly more romantic than the standard bure categories." },
-      { "question": "How do we get there?", "answer": "Fly from Nadi International Airport to Savusavu Airport on Vanua Levu with Fiji Link — approximately 40 minutes. Namale arranges resort pickup from Savusavu for the 20-minute transfer. Total journey time from Nadi is approximately 2 hours door to door." }
+      {
+        "question": "Is Namale Resort good for honeymooners?",
+        "answer": "Namale is an outstanding honeymoon resort — the adults-only all-inclusive format, world-class Rainbow Reef diving, award-winning spa, and the resort's genuine culture of abundance and personalised service create one of Fiji's most celebrated couples' experiences. The honeymoon bure is purpose-designed and the team has deep experience celebrating romantic milestones."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "Vanua Levu's north coast is sheltered from the southeast trade winds, making it a year-round destination. May through October is the dry season and the clearest for diving. January through March is wet season but Savusavu Bay remains mostly sheltered; rates are lower and the landscape is vivid green."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "Reserve the Honeymoon Bure at least 3–6 months ahead — it is the resort's most in-demand room. Confirm the all-inclusive inclusions for spa treatments, diving, and premium alcohol at booking. Inform the team of your honeymoon for arrival preparations and a personalised experience from day one."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "Yes, Namale Resort & Spa is strictly adults-only — no guests under 18 are permitted. This is a fundamental part of the resort's identity and one of the key reasons it consistently ranks among Fiji's best honeymoon destinations. The atmosphere is entirely adult, calm, and couple-focused throughout."
+      },
+      {
+        "question": "What's the best room type for a honeymoon?",
+        "answer": "The Honeymoon Bure is purpose-built for couples — clifftop plunge pool above the ocean, outdoor bathtub, and sunset views over Savusavu Bay. The Treehouse Bure is an excellent alternative with excellent garden privacy and a private pool. Both are significantly more romantic than the standard bure categories."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "Fly from Nadi International Airport to Savusavu Airport on Vanua Levu with Fiji Link — approximately 40 minutes. Namale arranges resort pickup from Savusavu for the 20-minute transfer. Total journey time from Nadi is approximately 2 hours door to door."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Namale Resort & Spa Fiji\n\nDear Namale Resort & Spa team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: the Honeymoon Bure and the Rainbow Reef diving.\n\nCould you please let us know:\n- Current availability for our dates\n- Full details of what is included in the all-inclusive package\n- Details on the couples' spa ritual and any honeymoon-specific enhancements\n\nThank you for your time.\n\n[Your names]"
   },

@@ -3,19 +3,63 @@
   "name": "Nayara Springs",
   "destination": "costa-rica",
   "country": "costa-rica",
-  "experience_types": ["luxury", "wellness", "adults-only"],
+  "experience_types": [
+    "luxury",
+    "wellness",
+    "adults-only"
+  ],
   "honeymoon_score": 95,
-  "score_breakdown": { "adults_only": 20, "couples_pct": 20, "spa": 15, "award": 10, "pool": 10, "beach": 0, "room_service": 5, "stars": 10, "luxury": 5 },
+  "score_breakdown": {
+    "adults_only": 20,
+    "couples_pct": 20,
+    "spa": 15,
+    "award": 10,
+    "pool": 10,
+    "beach": 0,
+    "room_service": 5,
+    "stars": 10,
+    "luxury": 5
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 700, "max": 2500 },
+  "price_per_night_usd": {
+    "min": 700,
+    "max": 2500
+  },
   "adults_only": true,
-  "amenities": ["spa", "pool", "room service", "hot springs", "volcano views", "rainforest"],
+  "amenities": [
+    "spa",
+    "pool",
+    "room service",
+    "hot springs",
+    "volcano views",
+    "rainforest"
+  ],
   "photos": [
-    { "url": "/images/hotels/nayara-springs-costa-rica/hero.webp", "alt": "nayara-springs-costa-rica — hero", "type": "hero" },
-    { "url": "/images/hotels/nayara-springs-costa-rica/room.webp", "alt": "nayara-springs-costa-rica — room", "type": "room" },
-    { "url": "/images/hotels/nayara-springs-costa-rica/pool.webp", "alt": "nayara-springs-costa-rica — pool", "type": "pool" },
-    { "url": "/images/hotels/nayara-springs-costa-rica/spa.webp", "alt": "nayara-springs-costa-rica — spa", "type": "spa" },
-    { "url": "/images/hotels/nayara-springs-costa-rica/dining.webp", "alt": "nayara-springs-costa-rica — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/nayara-springs-costa-rica/hero.webp",
+      "alt": "nayara-springs-costa-rica — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/nayara-springs-costa-rica/room.webp",
+      "alt": "nayara-springs-costa-rica — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/nayara-springs-costa-rica/pool.webp",
+      "alt": "nayara-springs-costa-rica — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/nayara-springs-costa-rica/spa.webp",
+      "alt": "nayara-springs-costa-rica — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/nayara-springs-costa-rica/dining.webp",
+      "alt": "nayara-springs-costa-rica — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.8,
   "tripadvisor_award": true,
@@ -24,13 +68,41 @@
     "verdict": "Nayara Springs has been voted TripAdvisor's #1 Most Romantic Hotel in the World multiple years running — and it absolutely earns the title. Every one of the 35 adults-only villas comes with its own natural volcanic hot spring plunge pool on a private jungle deck, with direct sightlines to the smoldering cone of Arenal volcano. This is the most immersive, romantic jungle escape in the Western Hemisphere, full stop.",
     "best_room": "The Romantic Pool Villa is the gold standard: a secluded rainforest villa with an indoor/outdoor bedroom, an open-air rain shower, and a private hot spring plunge pool fed directly by Arenal's geothermal waters. You can soak under the stars with the volcano glowing in the distance. Upgrade to the Garden Pool Villa for even more privacy and a larger private terrace if budget allows.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & First Soak", "description": "Arrive at La Fortuna's small airport or transfer from San José (about 3.5 hours). Check into your villa and spend the afternoon with a bottle of champagne in your private volcanic hot spring plunge pool, watching the mist roll off Arenal at sunset. Dine at Amor Loco restaurant for an intimate dinner of Costa Rican sea bass." },
-      { "day": 2, "title": "Arenal Volcano & Nayara Spa", "description": "After a leisurely breakfast in bed, take the short guided hike through Arenal Volcano National Park to the 1968 lava fields at the volcano's base — an otherworldly landscape. Return for couples treatments at the Nayara Springs spa, which uses volcanic mud, tropical botanicals, and hot spring water in its signature rituals." },
-      { "day": 3, "title": "Hanging Bridges & Rainforest Canopy", "description": "Spend the morning on the Mistico Arenal Hanging Bridges walk, a series of suspension bridges through old-growth rainforest where toucans, howler monkeys, and sloths are commonly spotted. Afternoons are best spent poolside — each villa's hot spring pool is at its most magical in the late afternoon light." },
-      { "day": 4, "title": "La Fortuna Waterfall & Romantic Dinner", "description": "Hike down to the stunning La Fortuna Waterfall for a swim in the cool turquoise pool at its base — a dramatic contrast to your warm volcanic soaks back at the resort. The hotel can arrange a private romantic dinner on your villa deck with a bespoke menu and floral decoration for a special evening." },
-      { "day": 5, "title": "Kayaking Lake Arenal", "description": "Lake Arenal is the largest lake in Costa Rica and sits directly below the volcano. Take a guided kayaking excursion on calm morning waters with perfect volcano reflections. Return for an afternoon at Nayara's main pool and bar before another evening of stargazing from your private hot spring." },
-      { "day": 6, "title": "Coffee Farm Tour & Local Culture", "description": "Visit a nearby coffee and cacao plantation to understand the origins of two of Costa Rica's most iconic flavors, with guided tastings. In the evening, the hotel arranges an optional salsa dancing class on-site — a fun, spontaneous way to mark your penultimate night." },
-      { "day": 7, "title": "Farewell Morning Soak", "description": "Your last morning deserves a final long soak in your private hot spring as the volcano appears through the jungle mist. Enjoy a final breakfast at Amor Loco, pack your bags slowly, and let the Nayara team arrange your transfer back to San José or Liberia airport with warm Costa Rican hospitality." }
+      {
+        "day": 1,
+        "title": "Arrival & First Soak",
+        "description": "Arrive at La Fortuna's small airport or transfer from San José (about 3.5 hours). Check into your villa and spend the afternoon with a bottle of champagne in your private volcanic hot spring plunge pool, watching the mist roll off Arenal at sunset. Dine at Amor Loco restaurant for an intimate dinner of Costa Rican sea bass."
+      },
+      {
+        "day": 2,
+        "title": "Arenal Volcano & Nayara Spa",
+        "description": "After a leisurely breakfast in bed, take the short guided hike through Arenal Volcano National Park to the 1968 lava fields at the volcano's base — an otherworldly landscape. Return for couples treatments at the Nayara Springs spa, which uses volcanic mud, tropical botanicals, and hot spring water in its signature rituals."
+      },
+      {
+        "day": 3,
+        "title": "Hanging Bridges & Rainforest Canopy",
+        "description": "Spend the morning on the Mistico Arenal Hanging Bridges walk, a series of suspension bridges through old-growth rainforest where toucans, howler monkeys, and sloths are commonly spotted. Afternoons are best spent poolside — each villa's hot spring pool is at its most magical in the late afternoon light."
+      },
+      {
+        "day": 4,
+        "title": "La Fortuna Waterfall & Romantic Dinner",
+        "description": "Hike down to the stunning La Fortuna Waterfall for a swim in the cool turquoise pool at its base — a dramatic contrast to your warm volcanic soaks back at the resort. The hotel can arrange a private romantic dinner on your villa deck with a bespoke menu and floral decoration for a special evening."
+      },
+      {
+        "day": 5,
+        "title": "Kayaking Lake Arenal",
+        "description": "Lake Arenal is the largest lake in Costa Rica and sits directly below the volcano. Take a guided kayaking excursion on calm morning waters with perfect volcano reflections. Return for an afternoon at Nayara's main pool and bar before another evening of stargazing from your private hot spring."
+      },
+      {
+        "day": 6,
+        "title": "Coffee Farm Tour & Local Culture",
+        "description": "Visit a nearby coffee and cacao plantation to understand the origins of two of Costa Rica's most iconic flavors, with guided tastings. In the evening, the hotel arranges an optional salsa dancing class on-site — a fun, spontaneous way to mark your penultimate night."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning Soak",
+        "description": "Your last morning deserves a final long soak in your private hot spring as the volcano appears through the jungle mist. Enjoy a final breakfast at Amor Loco, pack your bags slowly, and let the Nayara team arrange your transfer back to San José or Liberia airport with warm Costa Rican hospitality."
+      }
     ],
     "caveats": [
       "Arenal is in a cloud forest zone — the volcano is frequently shrouded in cloud, especially in the afternoon. Morning visibility is best; manage expectations around that iconic volcano view.",
@@ -38,12 +110,30 @@
       "Road transfers from San José take 3.5 to 4 hours on winding mountain roads. Consider a domestic flight to La Fortuna or a private transfer for comfort."
     ],
     "faqs": [
-      { "question": "Is Nayara Springs good for honeymooners?", "answer": "It is widely considered the finest honeymoon hotel in the Americas. TripAdvisor has ranked it the World's Most Romantic Hotel multiple times. Every villa is adults-only with a private volcanic hot spring plunge pool and volcano views — it was essentially designed for honeymoons." },
-      { "question": "What is the best time to visit Nayara Springs?", "answer": "The dry season runs from December through April and offers the best chance of clear volcano views and sunny days. However, the 'green season' (May–November) brings lush rainforest, fewer crowds, and lower rates — the resort is magical year-round, and rain usually falls in afternoon showers rather than all day." },
-      { "question": "How far in advance should you book?", "answer": "Book 6–12 months in advance for peak holiday dates (December–January, Valentine's Day, Easter). The resort has only 35 villas and is frequently sold out. For shoulder season travel, 3–4 months is usually sufficient, but earlier is always better for the best villa selection." },
-      { "question": "Is Nayara Springs adults-only?", "answer": "Yes, Nayara Springs is strictly adults-only (18+). The neighboring Nayara Resort is the family-friendly sibling property and shares access to some amenities. Nayara Springs is entirely dedicated to couples and adults seeking a peaceful, romantic experience." },
-      { "question": "What is the best room type at Nayara Springs?", "answer": "The Romantic Pool Villa is the signature accommodation — every villa has its own private volcanic hot spring plunge pool, outdoor rain shower, and volcano views from the private deck. The Garden Pool Villas offer slightly larger terraces for more privacy. There is no bad choice as all 35 villas are exceptional." },
-      { "question": "How do you get to Nayara Springs?", "answer": "Fly into San José (SJO) or Liberia (LIR). From San José, it is approximately a 3.5-hour private transfer through the mountains. From Liberia, it is about 2.5 hours. Domestic flights to La Fortuna (FON) are available and reduce the journey considerably. The hotel can arrange all transfers." }
+      {
+        "question": "Is Nayara Springs good for honeymooners?",
+        "answer": "It is widely considered the finest honeymoon hotel in the Americas. TripAdvisor has ranked it the World's Most Romantic Hotel multiple times. Every villa is adults-only with a private volcanic hot spring plunge pool and volcano views — it was essentially designed for honeymoons."
+      },
+      {
+        "question": "What is the best time to visit Nayara Springs?",
+        "answer": "The dry season runs from December through April and offers the best chance of clear volcano views and sunny days. However, the 'green season' (May–November) brings lush rainforest, fewer crowds, and lower rates — the resort is magical year-round, and rain usually falls in afternoon showers rather than all day."
+      },
+      {
+        "question": "How far in advance should you book?",
+        "answer": "Book 6–12 months in advance for peak holiday dates (December–January, Valentine's Day, Easter). The resort has only 35 villas and is frequently sold out. For shoulder season travel, 3–4 months is usually sufficient, but earlier is always better for the best villa selection."
+      },
+      {
+        "question": "Is Nayara Springs adults-only?",
+        "answer": "Yes, Nayara Springs is strictly adults-only (18+). The neighboring Nayara Resort is the family-friendly sibling property and shares access to some amenities. Nayara Springs is entirely dedicated to couples and adults seeking a peaceful, romantic experience."
+      },
+      {
+        "question": "What is the best room type at Nayara Springs?",
+        "answer": "The Romantic Pool Villa is the signature accommodation — every villa has its own private volcanic hot spring plunge pool, outdoor rain shower, and volcano views from the private deck. The Garden Pool Villas offer slightly larger terraces for more privacy. There is no bad choice as all 35 villas are exceptional."
+      },
+      {
+        "question": "How do you get to Nayara Springs?",
+        "answer": "Fly into San José (SJO) or Liberia (LIR). From San José, it is approximately a 3.5-hour private transfer through the mountains. From Liberia, it is about 2.5 hours. Domestic flights to La Fortuna (FON) are available and reduce the journey considerably. The hotel can arrange all transfers."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — Nayara Springs\n\nDear Nayara Springs team,\n\nWe are planning our honeymoon [DATE]-[DATE] and are very interested in staying at Nayara Springs. We would love a Romantic Pool Villa or Garden Pool Villa for our stay. Could you please advise on availability, any honeymoon packages or complimentary upgrades, and whether private dining on the villa deck can be arranged?\n\nThank you,\n[Your names]"
   },

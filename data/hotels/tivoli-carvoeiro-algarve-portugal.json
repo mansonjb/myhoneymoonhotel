@@ -3,7 +3,11 @@
   "name": "Tivoli Carvoeiro Algarve Resort",
   "destination": "portugal",
   "country": "portugal",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 83,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,48 @@
     "luxury": 5
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 300, "max": 900 },
+  "price_per_night_usd": {
+    "min": 300,
+    "max": 900
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "beach access", "room service", "infinity pools", "cliffside setting", "fine dining", "fitness centre", "concierge"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beach access",
+    "room service",
+    "infinity pools",
+    "cliffside setting",
+    "fine dining",
+    "fitness centre",
+    "concierge"
+  ],
   "photos": [
-    { "url": "/images/hotels/tivoli-carvoeiro-algarve-portugal/hero.webp", "alt": "tivoli-carvoeiro-algarve-portugal — hero", "type": "hero" },
-    { "url": "/images/hotels/tivoli-carvoeiro-algarve-portugal/room.webp", "alt": "tivoli-carvoeiro-algarve-portugal — room", "type": "room" },
-    { "url": "/images/hotels/tivoli-carvoeiro-algarve-portugal/pool.webp", "alt": "tivoli-carvoeiro-algarve-portugal — pool", "type": "pool" },
-    { "url": "/images/hotels/tivoli-carvoeiro-algarve-portugal/spa.webp", "alt": "tivoli-carvoeiro-algarve-portugal — spa", "type": "spa" },
-    { "url": "/images/hotels/tivoli-carvoeiro-algarve-portugal/dining.webp", "alt": "tivoli-carvoeiro-algarve-portugal — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/tivoli-carvoeiro-algarve-portugal/hero.webp",
+      "alt": "tivoli-carvoeiro-algarve-portugal — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/tivoli-carvoeiro-algarve-portugal/room.webp",
+      "alt": "tivoli-carvoeiro-algarve-portugal — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/tivoli-carvoeiro-algarve-portugal/pool.webp",
+      "alt": "tivoli-carvoeiro-algarve-portugal — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/tivoli-carvoeiro-algarve-portugal/spa.webp",
+      "alt": "tivoli-carvoeiro-algarve-portugal — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/tivoli-carvoeiro-algarve-portugal/dining.webp",
+      "alt": "tivoli-carvoeiro-algarve-portugal — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 8.9,
   "tripadvisor_award": true,
@@ -34,13 +71,41 @@
     "verdict": "Tivoli Carvoeiro commands one of the most spectacular positions in the Algarve — a dramatic cliffside setting above the charming village of Carvoeiro, with infinity pools that appear to float above the golden rock formations and the Atlantic. The resort is large and well-run, offering an excellent spa, multiple restaurants, and well-appointed rooms with sea views at more accessible price points than the ultra-luxury Algarve properties. Best for couples who want a well-resourced cliffside resort with genuine wow factor views and good value for a five-star property, without the ultra-exclusive price tag.",
     "best_room": "Book a Deluxe Sea View Room or a Junior Suite on the upper floors of the main building — these rooms have direct ocean views from their balconies and the cliffside panorama is spectacular at all times of day. The Junior Suites offer more space and a larger terrace. Avoid standard or garden-view rooms as they miss the defining feature of the hotel's position.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Carvoeiro Cliffside Arrival", "description": "Arrive at Tivoli Carvoeiro as the afternoon light strikes the golden rock formations below — the view from the infinity pool terrace, looking down past carved limestone cliffs to the Atlantic, is one of the most dramatic in the Algarve. Settle in with a cocktail at the cliff pool bar, then walk down to Carvoeiro village for a first dinner in the cheerful whitewashed square above the beach." },
-      { "day": 2, "title": "Algar Seco & Sea Caves", "description": "Walk the coastal path from the hotel 20 minutes east to Algar Seco, one of the Algarve's most extraordinary rock formations — a labyrinth of sculpted golden limestone with arches, pools, and grottos. Have a drink at the bar built into the rock (a local institution) and take a boat trip from Carvoeiro beach into the sea caves. Return for the hotel's infinity pool as the sun falls over the cliffs." },
-      { "day": 3, "title": "Spa Day", "description": "Spend a full day at the hotel's Anantara Spa (the resort is managed by Minor Hotels/Anantara at the spa level) — a comprehensive facility with hammam, hydrotherapy pools, and a wide menu of treatments. Book the couples' Well-being Ritual, which includes a full body exfoliation, hot stone massage, and private relaxation suite. Afternoon at the sea-view pool." },
-      { "day": 4, "title": "Lagoa & Silves Wine Country", "description": "Drive inland through the Algarve's wine country — the Lagoa region produces excellent table wines from the Negra Mole and Castelão grapes. Visit a local adega for tasting, then continue to the medieval Moorish castle town of Silves for lunch. The drive through the inland carob and almond orchards feels like a different Portugal entirely from the coastal resorts." },
-      { "day": 5, "title": "Lagos & Ponta da Piedade", "description": "Drive 20 minutes west to Lagos and spend the morning exploring the extraordinary cliff formations at Ponta da Piedade — golden arches and sea stacks dropping into turquoise water. Take the cliff path walk and a kayak tour through the arches. Lagos old town has some of the finest architecture in the Algarve; lunch in the riverside market building before returning to the hotel for sundowners at the cliff pool." },
-      { "day": 6, "title": "Beach Day & Fresh Fish Dinner", "description": "A classic Algarve beach day at Carvoeiro beach or one of the coves east of the village — the water is warm in summer and the golden sand beaches are genuinely beautiful. Return to the hotel for a final spa treatment in the afternoon, then dress for dinner at the hotel's signature restaurant where the Portuguese wine list and fresh fish menu mark a fitting final evening." },
-      { "day": 7, "title": "Farewell Morning", "description": "Last morning by the cliff infinity pool as the sun rises over the limestone coast. Breakfast on your balcony looking out over the Atlantic, then a final walk to the cliff edge before departing. The Algarve's golden light, warm sea, and dramatic rock formations are the enduring memory of a Tivoli Carvoeiro honeymoon." }
+      {
+        "day": 1,
+        "title": "Carvoeiro Cliffside Arrival",
+        "description": "Arrive at Tivoli Carvoeiro as the afternoon light strikes the golden rock formations below — the view from the infinity pool terrace, looking down past carved limestone cliffs to the Atlantic, is one of the most dramatic in the Algarve. Settle in with a cocktail at the cliff pool bar, then walk down to Carvoeiro village for a first dinner in the cheerful whitewashed square above the beach."
+      },
+      {
+        "day": 2,
+        "title": "Algar Seco & Sea Caves",
+        "description": "Walk the coastal path from the hotel 20 minutes east to Algar Seco, one of the Algarve's most extraordinary rock formations — a labyrinth of sculpted golden limestone with arches, pools, and grottos. Have a drink at the bar built into the rock (a local institution) and take a boat trip from Carvoeiro beach into the sea caves. Return for the hotel's infinity pool as the sun falls over the cliffs."
+      },
+      {
+        "day": 3,
+        "title": "Spa Day",
+        "description": "Spend a full day at the hotel's Anantara Spa (the resort is managed by Minor Hotels/Anantara at the spa level) — a comprehensive facility with hammam, hydrotherapy pools, and a wide menu of treatments. Book the couples' Well-being Ritual, which includes a full body exfoliation, hot stone massage, and private relaxation suite. Afternoon at the sea-view pool."
+      },
+      {
+        "day": 4,
+        "title": "Lagoa & Silves Wine Country",
+        "description": "Drive inland through the Algarve's wine country — the Lagoa region produces excellent table wines from the Negra Mole and Castelão grapes. Visit a local adega for tasting, then continue to the medieval Moorish castle town of Silves for lunch. The drive through the inland carob and almond orchards feels like a different Portugal entirely from the coastal resorts."
+      },
+      {
+        "day": 5,
+        "title": "Lagos & Ponta da Piedade",
+        "description": "Drive 20 minutes west to Lagos and spend the morning exploring the extraordinary cliff formations at Ponta da Piedade — golden arches and sea stacks dropping into turquoise water. Take the cliff path walk and a kayak tour through the arches. Lagos old town has some of the finest architecture in the Algarve; lunch in the riverside market building before returning to the hotel for sundowners at the cliff pool."
+      },
+      {
+        "day": 6,
+        "title": "Beach Day & Fresh Fish Dinner",
+        "description": "A classic Algarve beach day at Carvoeiro beach or one of the coves east of the village — the water is warm in summer and the golden sand beaches are genuinely beautiful. Return to the hotel for a final spa treatment in the afternoon, then dress for dinner at the hotel's signature restaurant where the Portuguese wine list and fresh fish menu mark a fitting final evening."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "Last morning by the cliff infinity pool as the sun rises over the limestone coast. Breakfast on your balcony looking out over the Atlantic, then a final walk to the cliff edge before departing. The Algarve's golden light, warm sea, and dramatic rock formations are the enduring memory of a Tivoli Carvoeiro honeymoon."
+      }
     ],
     "caveats": [
       "Tivoli Carvoeiro is a sizeable resort that accommodates families, groups, and couples alongside one another — in peak summer the atmosphere can feel more busy resort than intimate retreat.",

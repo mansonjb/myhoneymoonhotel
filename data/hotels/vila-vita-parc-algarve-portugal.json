@@ -3,7 +3,11 @@
   "name": "Vila Vita Parc",
   "destination": "portugal",
   "country": "portugal",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 90,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,49 @@
     "luxury": 5
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 500, "max": 2000 },
+  "price_per_night_usd": {
+    "min": 500,
+    "max": 2000
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "private beach", "room service", "butler service", "2 Michelin star restaurant", "wine cellar", "multiple pools", "kids club", "concierge"],
+  "amenities": [
+    "spa",
+    "pool",
+    "private beach",
+    "room service",
+    "butler service",
+    "2 Michelin star restaurant",
+    "wine cellar",
+    "multiple pools",
+    "kids club",
+    "concierge"
+  ],
   "photos": [
-    { "url": "/images/hotels/vila-vita-parc-algarve-portugal/hero.webp", "alt": "vila-vita-parc-algarve-portugal — hero", "type": "hero" },
-    { "url": "/images/hotels/vila-vita-parc-algarve-portugal/room.webp", "alt": "vila-vita-parc-algarve-portugal — room", "type": "room" },
-    { "url": "/images/hotels/vila-vita-parc-algarve-portugal/pool.webp", "alt": "vila-vita-parc-algarve-portugal — pool", "type": "pool" },
-    { "url": "/images/hotels/vila-vita-parc-algarve-portugal/spa.webp", "alt": "vila-vita-parc-algarve-portugal — spa", "type": "spa" },
-    { "url": "/images/hotels/vila-vita-parc-algarve-portugal/dining.webp", "alt": "vila-vita-parc-algarve-portugal — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/vila-vita-parc-algarve-portugal/hero.webp",
+      "alt": "vila-vita-parc-algarve-portugal — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/vila-vita-parc-algarve-portugal/room.webp",
+      "alt": "vila-vita-parc-algarve-portugal — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/vila-vita-parc-algarve-portugal/pool.webp",
+      "alt": "vila-vita-parc-algarve-portugal — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/vila-vita-parc-algarve-portugal/spa.webp",
+      "alt": "vila-vita-parc-algarve-portugal — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/vila-vita-parc-algarve-portugal/dining.webp",
+      "alt": "vila-vita-parc-algarve-portugal — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.3,
   "tripadvisor_award": true,
@@ -34,13 +72,41 @@
     "verdict": "Vila Vita Parc is the grandest resort in the Algarve — a clifftop estate of 170 rooms and villas spread across manicured gardens above a private beach in the village of Porches, combining Michelin-starred dining, a world-class wine cellar, seven pools, and a comprehensive spa with genuine Portuguese warmth. It is the benchmark five-star Algarve experience and outstanding for honeymooners who want a full resort with exceptional cuisine as the centrepiece. The caveat is that the resort's scale means it accommodates families and conferences alongside couples, so it lacks the exclusivity of smaller properties.",
     "best_room": "Book a Superior Suite or a private Villa with a pool — the villas offer the most romantic experience, with your own private plunge pool set in a garden, butler service, and complete privacy that the main building rooms cannot match. The clifftop Junior Suites are excellent if a villa is beyond budget, with private terraces looking out over the Atlantic. Request a recent renovation room as the older wing rooms vary in quality.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Algarve Arrival & First Sunset", "description": "Arrive at Vila Vita Parc and let the scale of the estate unfold — gardens running to golden limestone cliffs, the Atlantic shimmering below. Check into your suite or villa and order a chilled bottle of Alvarinho from the remarkable wine cellar. The hotel's cliffside terrace at sunset, with the ocean stretching to the horizon, is one of the great views in Portuguese hospitality." },
-      { "day": 2, "title": "Private Beach & Sea Caves", "description": "Descend to the hotel's private beach — a sheltered cove with golden sand, sun loungers, and a beach restaurant serving fresh grilled fish and local seafood. In the afternoon, take one of the hotel's boat trips to explore the sea caves and grottos along the Algarve coast — the eroded limestone arches and golden rock formations are spectacular from the water." },
-      { "day": 3, "title": "Ocean Restaurant Dinner", "description": "Reserve well in advance Vila Vita's two Michelin-star Ocean Restaurant for tonight — one of the top fine dining experiences in Portugal, chef Hans Neuner's tasting menu celebrates the Atlantic with extraordinary precision and creativity. The setting, perched above the sea, and the wine pairings from the legendary cellar (over 3,000 references) make this the culinary highlight of any trip to Portugal." },
-      { "day": 4, "title": "Spa & Wellness Day", "description": "A full day at the Vila Vita Spa — begin with a couples' experience in the hydrotherapy circuits, then book the Signature Portuguese Journey treatment combining Alentejo clay, local essential oils, and hot stone massage. The spa also has a hammam, sauna, and beauty salon. Afternoon spent at the pool terraces, which cascade in levels down towards the cliff edge." },
-      { "day": 5, "title": "Algarve Coast Exploration", "description": "Rent a car or take the hotel car for a day exploring the western Algarve — the drive to Sagres and Cape St Vincent, the southwesternmost point of continental Europe, is dramatic in its austere beauty. The fortress at Sagres, from which Prince Henry the Navigator launched the Age of Discovery, is genuinely moving. Return via the market town of Silves for lunch and the medieval castle." },
-      { "day": 6, "title": "Wine Cellar Tour & Lunch", "description": "The hotel's sommelier offers private tours of the extraordinary wine cellar — 3,000 bottles including rare Barca Velha vintages and a complete vertical of Port wine from Quinta do Crasto. Follow the tour with a wine-paired lunch at the Vistas Restaurant, the hotel's all-day dining restaurant with panoramic Atlantic views. Afternoon by the pool or at the beach." },
-      { "day": 7, "title": "Farewell Morning", "description": "Last morning on the clifftop terrace with the Atlantic breeze. A final swim in the private beach cove, breakfast at your villa with the garden filled with almond blossom or bougainvillea depending on season, and then the drive west to Faro airport carrying memories of exceptional food, wine, and some of the most beautiful coastline in Europe." }
+      {
+        "day": 1,
+        "title": "Algarve Arrival & First Sunset",
+        "description": "Arrive at Vila Vita Parc and let the scale of the estate unfold — gardens running to golden limestone cliffs, the Atlantic shimmering below. Check into your suite or villa and order a chilled bottle of Alvarinho from the remarkable wine cellar. The hotel's cliffside terrace at sunset, with the ocean stretching to the horizon, is one of the great views in Portuguese hospitality."
+      },
+      {
+        "day": 2,
+        "title": "Private Beach & Sea Caves",
+        "description": "Descend to the hotel's private beach — a sheltered cove with golden sand, sun loungers, and a beach restaurant serving fresh grilled fish and local seafood. In the afternoon, take one of the hotel's boat trips to explore the sea caves and grottos along the Algarve coast — the eroded limestone arches and golden rock formations are spectacular from the water."
+      },
+      {
+        "day": 3,
+        "title": "Ocean Restaurant Dinner",
+        "description": "Reserve well in advance Vila Vita's two Michelin-star Ocean Restaurant for tonight — one of the top fine dining experiences in Portugal, chef Hans Neuner's tasting menu celebrates the Atlantic with extraordinary precision and creativity. The setting, perched above the sea, and the wine pairings from the legendary cellar (over 3,000 references) make this the culinary highlight of any trip to Portugal."
+      },
+      {
+        "day": 4,
+        "title": "Spa & Wellness Day",
+        "description": "A full day at the Vila Vita Spa — begin with a couples' experience in the hydrotherapy circuits, then book the Signature Portuguese Journey treatment combining Alentejo clay, local essential oils, and hot stone massage. The spa also has a hammam, sauna, and beauty salon. Afternoon spent at the pool terraces, which cascade in levels down towards the cliff edge."
+      },
+      {
+        "day": 5,
+        "title": "Algarve Coast Exploration",
+        "description": "Rent a car or take the hotel car for a day exploring the western Algarve — the drive to Sagres and Cape St Vincent, the southwesternmost point of continental Europe, is dramatic in its austere beauty. The fortress at Sagres, from which Prince Henry the Navigator launched the Age of Discovery, is genuinely moving. Return via the market town of Silves for lunch and the medieval castle."
+      },
+      {
+        "day": 6,
+        "title": "Wine Cellar Tour & Lunch",
+        "description": "The hotel's sommelier offers private tours of the extraordinary wine cellar — 3,000 bottles including rare Barca Velha vintages and a complete vertical of Port wine from Quinta do Crasto. Follow the tour with a wine-paired lunch at the Vistas Restaurant, the hotel's all-day dining restaurant with panoramic Atlantic views. Afternoon by the pool or at the beach."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "Last morning on the clifftop terrace with the Atlantic breeze. A final swim in the private beach cove, breakfast at your villa with the garden filled with almond blossom or bougainvillea depending on season, and then the drive west to Faro airport carrying memories of exceptional food, wine, and some of the most beautiful coastline in Europe."
+      }
     ],
     "caveats": [
       "Vila Vita Parc is a large resort that actively caters to families with a full kids club — in July and August the pool areas and beach can be busy with families, which dilutes the exclusively romantic atmosphere.",

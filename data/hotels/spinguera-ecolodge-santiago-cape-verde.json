@@ -3,19 +3,61 @@
   "name": "Spinguera Ecolodge",
   "destination": "cape-verde",
   "country": "cape-verde",
-  "experience_types": ["wellness"],
+  "experience_types": [
+    "wellness"
+  ],
   "honeymoon_score": 79,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 14, "spa": 10, "award": 5, "pool": 5, "beach": 0, "room_service": 5, "stars": 25, "luxury": 15 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 14,
+    "spa": 10,
+    "award": 5,
+    "pool": 5,
+    "beach": 0,
+    "room_service": 5,
+    "stars": 25,
+    "luxury": 15
+  },
   "stars": 4,
-  "price_per_night_usd": { "min": 150, "max": 400 },
+  "price_per_night_usd": {
+    "min": 150,
+    "max": 400
+  },
   "adults_only": false,
-  "amenities": ["pool", "room service", "organic garden", "hiking", "local cuisine", "cultural tours"],
+  "amenities": [
+    "pool",
+    "room service",
+    "organic garden",
+    "hiking",
+    "local cuisine",
+    "cultural tours"
+  ],
   "photos": [
-    { "url": "/images/hotels/spinguera-ecolodge-santiago-cape-verde/hero.webp", "alt": "spinguera-ecolodge-santiago-cape-verde — hero", "type": "hero" },
-    { "url": "/images/hotels/spinguera-ecolodge-santiago-cape-verde/room.webp", "alt": "spinguera-ecolodge-santiago-cape-verde — room", "type": "room" },
-    { "url": "/images/hotels/spinguera-ecolodge-santiago-cape-verde/pool.webp", "alt": "spinguera-ecolodge-santiago-cape-verde — pool", "type": "pool" },
-    { "url": "/images/hotels/spinguera-ecolodge-santiago-cape-verde/spa.webp", "alt": "spinguera-ecolodge-santiago-cape-verde — spa", "type": "spa" },
-    { "url": "/images/hotels/spinguera-ecolodge-santiago-cape-verde/dining.webp", "alt": "spinguera-ecolodge-santiago-cape-verde — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/spinguera-ecolodge-santiago-cape-verde/hero.webp",
+      "alt": "spinguera-ecolodge-santiago-cape-verde — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/spinguera-ecolodge-santiago-cape-verde/room.webp",
+      "alt": "spinguera-ecolodge-santiago-cape-verde — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/spinguera-ecolodge-santiago-cape-verde/pool.webp",
+      "alt": "spinguera-ecolodge-santiago-cape-verde — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/spinguera-ecolodge-santiago-cape-verde/spa.webp",
+      "alt": "spinguera-ecolodge-santiago-cape-verde — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/spinguera-ecolodge-santiago-cape-verde/dining.webp",
+      "alt": "spinguera-ecolodge-santiago-cape-verde — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 8.6,
   "tripadvisor_award": false,
@@ -24,13 +66,41 @@
     "verdict": "Spinguera Ecolodge in the mountains of Santiago island is Cape Verde's most authentically local accommodation — an organic farm guesthouse in the Rui Vaz mountain valley, surrounded by terraced agricultural plots, volcanic peaks, and the deep Cape Verdean Criolo culture that predates the beach tourism of Sal. For couples who want to understand the real Cape Verde rather than lie on a beach, Spinguera offers an immersive, genuinely alternative honeymoon experience.",
     "best_room": "The Mountain Cottages at Spinguera are the most private and romantic accommodation — small stone cottages with private terraces looking over the valley and the volcanic mountains of Santiago's interior. The organic garden supplies the kitchen directly, and the view from a cottage terrace at dawn, with mist in the valleys and the sun rising over the volcanic peaks, is extraordinary for this price level.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival in Santiago's Mountains", "description": "Land at Santiago's Praia Airport and transfer an hour north through increasingly dramatic volcanic terrain to the Rui Vaz valley. The contrast with Sal's flat desert landscape is complete — Santiago is green (by Cape Verdean standards), mountainous, and culturally rich. Spinguera's welcome includes a traditional Cape Verdean meal from the organic garden kitchen." },
-      { "day": 2, "title": "Serra Malagueta Natural Park", "description": "Santiago's Serra Malagueta Natural Park, near Spinguera, is one of Cape Verde's last areas of native endemic vegetation — a dramatic mountain landscape of volcanic ridges, endemic plants, and migratory birds. A guided half-day hike with a local naturalist through this protected landscape offers birdwatching, plant identification, and views over both coasts of Santiago island." },
-      { "day": 3, "title": "Cidade Velha UNESCO Site", "description": "Cidade Velha (Old City) near Praia is one of the most historically significant sites in the Atlantic — the first European colonial city in the tropics, a UNESCO World Heritage Site, and the origin point of the Cape Verdean Criolo culture that blended African and Portuguese influences into something entirely unique. The ruined cathedral and the Pelourinho slave pillar are haunting reminders of history." },
-      { "day": 4, "title": "Organic Farm & Cachupa Workshop", "description": "Spinguera's organic farm produces the ingredients for the kitchen's Cape Verdean dishes. A morning working in the garden (harvesting vegetables, learning about the traditional polyculture farming that sustains Santiago's mountain communities) followed by a cooking workshop in cachupa preparation with the lodge's cook — a deeply satisfying day." },
-      { "day": 5, "title": "Praia Capital & Criolo Music", "description": "Santiago's capital Praia is the largest city in Cape Verde — a genuinely African Atlantic city with markets, street food, and a vibrant Criolo music scene. Evening in Praia's Plateau neighborhood (the historic hilltop) for dinner at a local restaurant and, if timed right, a live funaná or morna performance at one of the neighborhood bars." },
-      { "day": 6, "title": "Monte Verde Hike & Valley Views", "description": "The Monte Graciosa summit above Spinguera provides panoramic views over the entire southern half of Santiago island — the volcanic peaks, the terraced valleys of sugar cane and mango trees, and on clear days the outline of Fogo island's volcanic cone 60 km to the west. A full-day guided hike with a picnic lunch packed by the lodge kitchen." },
-      { "day": 7, "title": "Final Valley Morning", "description": "Last morning on the cottage terrace with the valley below in the early light, a final slow breakfast of local fruits, honey, and fresh bread from the lodge kitchen. Transfer back to Praia Airport with a very different understanding of Cape Verde than the beach resort visitors take home." }
+      {
+        "day": 1,
+        "title": "Arrival in Santiago's Mountains",
+        "description": "Land at Santiago's Praia Airport and transfer an hour north through increasingly dramatic volcanic terrain to the Rui Vaz valley. The contrast with Sal's flat desert landscape is complete — Santiago is green (by Cape Verdean standards), mountainous, and culturally rich. Spinguera's welcome includes a traditional Cape Verdean meal from the organic garden kitchen."
+      },
+      {
+        "day": 2,
+        "title": "Serra Malagueta Natural Park",
+        "description": "Santiago's Serra Malagueta Natural Park, near Spinguera, is one of Cape Verde's last areas of native endemic vegetation — a dramatic mountain landscape of volcanic ridges, endemic plants, and migratory birds. A guided half-day hike with a local naturalist through this protected landscape offers birdwatching, plant identification, and views over both coasts of Santiago island."
+      },
+      {
+        "day": 3,
+        "title": "Cidade Velha UNESCO Site",
+        "description": "Cidade Velha (Old City) near Praia is one of the most historically significant sites in the Atlantic — the first European colonial city in the tropics, a UNESCO World Heritage Site, and the origin point of the Cape Verdean Criolo culture that blended African and Portuguese influences into something entirely unique. The ruined cathedral and the Pelourinho slave pillar are haunting reminders of history."
+      },
+      {
+        "day": 4,
+        "title": "Organic Farm & Cachupa Workshop",
+        "description": "Spinguera's organic farm produces the ingredients for the kitchen's Cape Verdean dishes. A morning working in the garden (harvesting vegetables, learning about the traditional polyculture farming that sustains Santiago's mountain communities) followed by a cooking workshop in cachupa preparation with the lodge's cook — a deeply satisfying day."
+      },
+      {
+        "day": 5,
+        "title": "Praia Capital & Criolo Music",
+        "description": "Santiago's capital Praia is the largest city in Cape Verde — a genuinely African Atlantic city with markets, street food, and a vibrant Criolo music scene. Evening in Praia's Plateau neighborhood (the historic hilltop) for dinner at a local restaurant and, if timed right, a live funaná or morna performance at one of the neighborhood bars."
+      },
+      {
+        "day": 6,
+        "title": "Monte Verde Hike & Valley Views",
+        "description": "The Monte Graciosa summit above Spinguera provides panoramic views over the entire southern half of Santiago island — the volcanic peaks, the terraced valleys of sugar cane and mango trees, and on clear days the outline of Fogo island's volcanic cone 60 km to the west. A full-day guided hike with a picnic lunch packed by the lodge kitchen."
+      },
+      {
+        "day": 7,
+        "title": "Final Valley Morning",
+        "description": "Last morning on the cottage terrace with the valley below in the early light, a final slow breakfast of local fruits, honey, and fresh bread from the lodge kitchen. Transfer back to Praia Airport with a very different understanding of Cape Verde than the beach resort visitors take home."
+      }
     ],
     "caveats": [
       "Spinguera is a genuine ecolodge in a mountain valley — facilities are comfortable but simple. Couples expecting luxury hotel amenities (spa, fine dining, concierge) should adjust expectations. This is an immersive local experience, not a luxury resort.",
@@ -38,12 +108,30 @@
       "Getting to Spinguera requires a domestic flight from Sal to Santiago plus an hour's road transfer through mountain roads. The journey time between Cape Verde islands adds complexity to a combined itinerary."
     ],
     "faqs": [
-      { "question": "Is Spinguera Ecolodge good for honeymooners?", "answer": "Yes, for the right kind of couple — those who value cultural immersion, local food, volcanic mountain landscapes, and authentic experience over beach luxury. Spinguera is Cape Verde's most characterful accommodation and provides a honeymoon experience completely different from any other in the archipelago. It pairs beautifully with a few days on Sal for the complete Cape Verde story." },
-      { "question": "What is the best time to visit?", "answer": "November through June, the dry season. July through September is the rainy season in Santiago's mountains — rains are often dramatic and the landscape turns vivid green, but hiking conditions can be muddy. August is the wettest month." },
-      { "question": "How far in advance should you book?", "answer": "Book 4–6 weeks ahead for most dates. Spinguera is a small lodge with limited rooms; the mountain cottages are the most sought-after and worth booking early." },
-      { "question": "Is Spinguera adults-only?", "answer": "No, families and all guests are welcome. The hiking-focused and culturally immersive nature of the lodge makes it most popular with adult couples and travelers." },
-      { "question": "What is the best room type?", "answer": "The Mountain Cottages for privacy, valley views, and private terrace. These standalone stone cottages with organic garden views and Cape Verdean mountain scenery are the most memorable accommodation." },
-      { "question": "How do you get to Spinguera Ecolodge?", "answer": "Fly into Santiago's Nelson Mandela International Airport in Praia (RAI) from other Cape Verde islands (20–40 min) or direct from Lisbon (5.5 hours). Transfer approximately 1 hour north through the mountains to Rui Vaz. The lodge arranges transfers from Praia Airport." }
+      {
+        "question": "Is Spinguera Ecolodge good for honeymooners?",
+        "answer": "Yes, for the right kind of couple — those who value cultural immersion, local food, volcanic mountain landscapes, and authentic experience over beach luxury. Spinguera is Cape Verde's most characterful accommodation and provides a honeymoon experience completely different from any other in the archipelago. It pairs beautifully with a few days on Sal for the complete Cape Verde story."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "November through June, the dry season. July through September is the rainy season in Santiago's mountains — rains are often dramatic and the landscape turns vivid green, but hiking conditions can be muddy. August is the wettest month."
+      },
+      {
+        "question": "How far in advance should you book?",
+        "answer": "Book 4–6 weeks ahead for most dates. Spinguera is a small lodge with limited rooms; the mountain cottages are the most sought-after and worth booking early."
+      },
+      {
+        "question": "Is Spinguera adults-only?",
+        "answer": "No, families and all guests are welcome. The hiking-focused and culturally immersive nature of the lodge makes it most popular with adult couples and travelers."
+      },
+      {
+        "question": "What is the best room type?",
+        "answer": "The Mountain Cottages for privacy, valley views, and private terrace. These standalone stone cottages with organic garden views and Cape Verdean mountain scenery are the most memorable accommodation."
+      },
+      {
+        "question": "How do you get to Spinguera Ecolodge?",
+        "answer": "Fly into Santiago's Nelson Mandela International Airport in Praia (RAI) from other Cape Verde islands (20–40 min) or direct from Lisbon (5.5 hours). Transfer approximately 1 hour north through the mountains to Rui Vaz. The lodge arranges transfers from Praia Airport."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — Spinguera Ecolodge\n\nDear Spinguera team,\n\nWe are planning our honeymoon [DATE]-[DATE] and interested in a Mountain Cottage. Please advise on availability, what meals are included, and whether a cachupa cooking workshop and guided mountain hikes can be arranged during our stay.\n\nThank you,\n[Your names]"
   },

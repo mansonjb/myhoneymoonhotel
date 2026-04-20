@@ -3,7 +3,11 @@
   "name": "Esperanza, Auberge Resorts Collection",
   "destination": "mexico",
   "country": "mexico",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 90,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,49 @@
     "luxury": 8
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 700, "max": 2200 },
+  "price_per_night_usd": {
+    "min": 700,
+    "max": 2200
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "beach", "room service", "butler service", "infinity pools", "tequila tasting", "multiple restaurants", "fitness center", "water sports"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beach",
+    "room service",
+    "butler service",
+    "infinity pools",
+    "tequila tasting",
+    "multiple restaurants",
+    "fitness center",
+    "water sports"
+  ],
   "photos": [
-    { "url": "/images/hotels/esperanza-auberge-los-cabos-mexico/hero.webp", "alt": "esperanza-auberge-los-cabos-mexico — hero", "type": "hero" },
-    { "url": "/images/hotels/esperanza-auberge-los-cabos-mexico/room.webp", "alt": "esperanza-auberge-los-cabos-mexico — room", "type": "room" },
-    { "url": "/images/hotels/esperanza-auberge-los-cabos-mexico/pool.webp", "alt": "esperanza-auberge-los-cabos-mexico — pool", "type": "pool" },
-    { "url": "/images/hotels/esperanza-auberge-los-cabos-mexico/spa.webp", "alt": "esperanza-auberge-los-cabos-mexico — spa", "type": "spa" },
-    { "url": "/images/hotels/esperanza-auberge-los-cabos-mexico/dining.webp", "alt": "esperanza-auberge-los-cabos-mexico — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/esperanza-auberge-los-cabos-mexico/hero.webp",
+      "alt": "esperanza-auberge-los-cabos-mexico — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/esperanza-auberge-los-cabos-mexico/room.webp",
+      "alt": "esperanza-auberge-los-cabos-mexico — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/esperanza-auberge-los-cabos-mexico/pool.webp",
+      "alt": "esperanza-auberge-los-cabos-mexico — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/esperanza-auberge-los-cabos-mexico/spa.webp",
+      "alt": "esperanza-auberge-los-cabos-mexico — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/esperanza-auberge-los-cabos-mexico/dining.webp",
+      "alt": "esperanza-auberge-los-cabos-mexico — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.4,
   "tripadvisor_award": true,
@@ -34,13 +72,41 @@
     "verdict": "Esperanza — meaning 'Hope' in Spanish — is the Auberge Resorts Collection's flagship Mexico property, a breathtaking clifftop resort perched above the Sea of Cortez with two infinity pools that cascade toward the water in an image that defines Cabo luxury. The resort's intimate scale (57 suites and villas), deeply warm Mexican hospitality, and legendary Auberge Spa make it one of the finest honeymoon destinations in the Americas. The setting between desert and sea, with Baja's dramatic geology as a constant backdrop, creates an atmosphere of extraordinary natural beauty that enhances every romantic moment.",
     "best_room": "Book a Suite with private plunge pool for the full Esperanza experience — the rooms are designed in a villa format along the cliffside, with Mexican craftsmanship (hand-laid stone, artisan tilework, mesquite furniture) and private outdoor spaces that command the Sea of Cortez view. The Casita Suites are the largest and most private, set in bougainvillea gardens with direct cliff access and butler service.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Infinity Pool", "description": "Arrive at Los Cabos Airport and drive 15 minutes to the Auberge Resorts enclave above the sea. Check in to discover your suite's welcome arrangement of cactus flowers, Baja honey, and a private mezcal selection. Walk to the first infinity pool and order the house margarita — made with local agave spirits and fresh Baja citrus — as the blue infinity edge drops into the Sea of Cortez below. Dinner at the resort's outdoor restaurant as the desert air cools with the evening." },
-      { "day": 2, "title": "Auberge Spa & Sea of Cortez", "description": "Book the Auberge Signature Couple's Journey — the spa's signature treatment pairs indigenous Mexican healing rituals with contemporary techniques, incorporating charcoal, cactus flower extract, and blue agave in a 3-hour immersive experience. The spa's architecture mirrors the desert landscape, with terraced stone treatment rooms overlooking the sea. Afternoon on the beach club, where the rugged Sea of Cortez shoreline provides a wild, beautiful setting." },
-      { "day": 3, "title": "Snorkeling at Cabo Pulmo", "description": "Arrange a full-day excursion to Cabo Pulmo National Marine Park, one of the most biodiverse marine reserves in North America and a UNESCO World Heritage site. Snorkel or dive through coral reefs teeming with tropical fish, reef sharks, and the occasional whale shark. The drive up the East Cape is itself spectacular — raw Baja desert meeting the turquoise Sea of Cortez along an unpaved coastal road." },
-      { "day": 4, "title": "Tequila & Mezcal Education", "description": "Join the resort's sommelier for a curated agave spirits tasting in the library — exploring the differences between blanco, reposado, and añejo tequila alongside artisan Oaxacan mezcales. Baja California is agave country, and this experience is genuinely educational and enjoyable. Follow with a long lunch at the resort's beach club and an afternoon at the infinity pool." },
-      { "day": 5, "title": "San José del Cabo Art Walk", "description": "Drive 10 minutes into the charming colonial town of San José del Cabo for the weekly Art Walk (Thursday evenings) — Baja's art scene is flourishing, and the galleries along Calle Obregón open their doors with wine and local artists present. The town's plaza and mission church are beautiful at dusk. Dine at one of San José's excellent independent restaurants for a change from resort dining." },
-      { "day": 6, "title": "Sunrise Hike & Sunset Dinner", "description": "Rise before dawn for a guided hike into the Baja desert behind the resort with a naturalist guide — watching the sunrise paint the cactus-covered hills in gold and orange, identifying local desert plants and birds in the cool morning air, is a peaceful and intimate experience. Return for breakfast, a lazy pool day, and close the week with the resort's private cliffside dinner for two arranged by your butler." },
-      { "day": 7, "title": "Farewell Morning", "description": "Take one last swim in the infinity pool as the morning sun begins to warm the stone terrace. A final room service breakfast on your private terrace looking over the Sea of Cortez, then a slow pack and the short drive to the airport — carrying with you the memory of one of Mexico's most beautiful resorts." }
+      {
+        "day": 1,
+        "title": "Arrival & Infinity Pool",
+        "description": "Arrive at Los Cabos Airport and drive 15 minutes to the Auberge Resorts enclave above the sea. Check in to discover your suite's welcome arrangement of cactus flowers, Baja honey, and a private mezcal selection. Walk to the first infinity pool and order the house margarita — made with local agave spirits and fresh Baja citrus — as the blue infinity edge drops into the Sea of Cortez below. Dinner at the resort's outdoor restaurant as the desert air cools with the evening."
+      },
+      {
+        "day": 2,
+        "title": "Auberge Spa & Sea of Cortez",
+        "description": "Book the Auberge Signature Couple's Journey — the spa's signature treatment pairs indigenous Mexican healing rituals with contemporary techniques, incorporating charcoal, cactus flower extract, and blue agave in a 3-hour immersive experience. The spa's architecture mirrors the desert landscape, with terraced stone treatment rooms overlooking the sea. Afternoon on the beach club, where the rugged Sea of Cortez shoreline provides a wild, beautiful setting."
+      },
+      {
+        "day": 3,
+        "title": "Snorkeling at Cabo Pulmo",
+        "description": "Arrange a full-day excursion to Cabo Pulmo National Marine Park, one of the most biodiverse marine reserves in North America and a UNESCO World Heritage site. Snorkel or dive through coral reefs teeming with tropical fish, reef sharks, and the occasional whale shark. The drive up the East Cape is itself spectacular — raw Baja desert meeting the turquoise Sea of Cortez along an unpaved coastal road."
+      },
+      {
+        "day": 4,
+        "title": "Tequila & Mezcal Education",
+        "description": "Join the resort's sommelier for a curated agave spirits tasting in the library — exploring the differences between blanco, reposado, and añejo tequila alongside artisan Oaxacan mezcales. Baja California is agave country, and this experience is genuinely educational and enjoyable. Follow with a long lunch at the resort's beach club and an afternoon at the infinity pool."
+      },
+      {
+        "day": 5,
+        "title": "San José del Cabo Art Walk",
+        "description": "Drive 10 minutes into the charming colonial town of San José del Cabo for the weekly Art Walk (Thursday evenings) — Baja's art scene is flourishing, and the galleries along Calle Obregón open their doors with wine and local artists present. The town's plaza and mission church are beautiful at dusk. Dine at one of San José's excellent independent restaurants for a change from resort dining."
+      },
+      {
+        "day": 6,
+        "title": "Sunrise Hike & Sunset Dinner",
+        "description": "Rise before dawn for a guided hike into the Baja desert behind the resort with a naturalist guide — watching the sunrise paint the cactus-covered hills in gold and orange, identifying local desert plants and birds in the cool morning air, is a peaceful and intimate experience. Return for breakfast, a lazy pool day, and close the week with the resort's private cliffside dinner for two arranged by your butler."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "Take one last swim in the infinity pool as the morning sun begins to warm the stone terrace. A final room service breakfast on your private terrace looking over the Sea of Cortez, then a slow pack and the short drive to the airport — carrying with you the memory of one of Mexico's most beautiful resorts."
+      }
     ],
     "caveats": [
       "The ocean-facing beach at Esperanza is on the Sea of Cortez corridor where shore break can be strong — the beach club area is scenic but swimming requires checking conditions, and the calm-water swimming at nearby Palmilla or Medano Beach requires a short drive.",

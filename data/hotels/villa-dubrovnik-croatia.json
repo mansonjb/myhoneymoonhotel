@@ -3,7 +3,10 @@
   "name": "Villa Dubrovnik",
   "destination": "croatia",
   "country": "croatia",
-  "experience_types": ["beach", "luxury"],
+  "experience_types": [
+    "beach",
+    "luxury"
+  ],
   "honeymoon_score": 90,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +20,47 @@
     "luxury": 5
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 600, "max": 2000 },
+  "price_per_night_usd": {
+    "min": 600,
+    "max": 2000
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "beach", "room service", "boat service", "concierge", "sea-view terrace", "fine dining"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beach",
+    "room service",
+    "boat service",
+    "concierge",
+    "sea-view terrace",
+    "fine dining"
+  ],
   "photos": [
-    { "url": "/images/hotels/villa-dubrovnik-croatia/hero.webp", "alt": "villa-dubrovnik-croatia — hero", "type": "hero" },
-    { "url": "/images/hotels/villa-dubrovnik-croatia/room.webp", "alt": "villa-dubrovnik-croatia — room", "type": "room" },
-    { "url": "/images/hotels/villa-dubrovnik-croatia/pool.webp", "alt": "villa-dubrovnik-croatia — pool", "type": "pool" },
-    { "url": "/images/hotels/villa-dubrovnik-croatia/spa.webp", "alt": "villa-dubrovnik-croatia — spa", "type": "spa" },
-    { "url": "/images/hotels/villa-dubrovnik-croatia/dining.webp", "alt": "villa-dubrovnik-croatia — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/villa-dubrovnik-croatia/hero.webp",
+      "alt": "villa-dubrovnik-croatia — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/villa-dubrovnik-croatia/room.webp",
+      "alt": "villa-dubrovnik-croatia — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/villa-dubrovnik-croatia/pool.webp",
+      "alt": "villa-dubrovnik-croatia — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/villa-dubrovnik-croatia/spa.webp",
+      "alt": "villa-dubrovnik-croatia — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/villa-dubrovnik-croatia/dining.webp",
+      "alt": "villa-dubrovnik-croatia — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.4,
   "tripadvisor_award": true,
@@ -34,13 +69,41 @@
     "verdict": "Villa Dubrovnik is the most romantic hotel in Dubrovnik, full stop. Perched on a cliffside just a five-minute boat ride from the Old Town walls, its 56 rooms all face the Adriatic with unobstructed sea views, and the hotel's private boat whisks you into the heart of the UNESCO World Heritage city whenever you wish. It's perfect for honeymooners who want genuine seclusion paired with easy access to one of Europe's most beautiful medieval cities — the only minor caveat is that families also stay here, so it isn't exclusively a couples retreat.",
     "best_room": "Book a Deluxe Sea View Suite, which features a large private terrace overlooking the Adriatic and the Elafiti Islands — watching the sun dip into the sea from your own terrace is an experience you'll never forget. The suites on the upper floors offer the most dramatic panoramas and have been recently renovated with a clean, contemporary Dalmatian aesthetic that feels both luxurious and locally rooted.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & First Impressions", "description": "Check in and let the staff bring chilled sparkling wine to your terrace as the afternoon light turns the Old Town walls gold. Take the hotel's private boat across the water at sunset for your first stroll inside the ancient walls, then return for a candlelit dinner at the hotel's Restaurant Vapore, where grilled Adriatic seafood and local wines set the tone for the week." },
-      { "day": 2, "title": "Private Beach Morning", "description": "Spend the morning on Villa Dubrovnik's own pebble beach, tucked below the clifftop gardens. The water is crystalline and calm, perfect for snorkeling around the rocks. Order fresh fruit and coffee from the beach bar and let the morning stretch into noon before heading up for a long lunch on the sea terrace." },
-      { "day": 3, "title": "Old Town Exploration", "description": "Take the hotel boat into Dubrovnik's Old Town and walk the full 2km circuit of the city walls — the views over terracotta rooftops and the turquoise Adriatic are extraordinary. Explore the Stradun, duck into baroque churches, and find a konoba in a hidden alley for a lunch of black risotto and peka-roasted lamb before returning by boat in the afternoon." },
-      { "day": 4, "title": "Elafiti Islands Day Trip", "description": "The hotel can arrange a private boat charter to the car-free Elafiti Islands — Lopud and Šipan are particularly lovely. Swim in secluded coves, walk through silent olive groves and medieval villages, and have a fresh fish lunch at a family-run restaurant with tables practically in the sea. Return to Villa Dubrovnik in the late afternoon for a couples' treatment at the spa." },
-      { "day": 5, "title": "Spa & Sunset Cocktails", "description": "Dedicate the morning to the hotel's spa, where Croatian herbal and marine treatments use locally sourced ingredients. In the afternoon, hire a sea kayak from the beach and paddle around the cliffs to discover hidden coves — the perspective of the city walls from the water is unforgettable. Finish at the terrace bar for cocktails and a spectacular sunset over the Adriatic." },
-      { "day": 6, "title": "Cavtat & Southern Riviera", "description": "Take the hotel boat or hire a water taxi down the coast to the charming village of Cavtat, a quieter and more authentically Croatian alternative to Dubrovnik. Wander the palm-lined promenade, visit the Račić Mausoleum by Ivan Meštrović, and have a long seafood lunch before returning north. In the evening, dress up for a special dinner at one of Dubrovnik's rooftop restaurants in the Old Town." },
-      { "day": 7, "title": "Farewell Morning", "description": "On your final morning, linger over breakfast on your terrace as the morning light shifts across the water, then take one last swim from the private beach. The hotel's boat service makes a slow, scenic final crossing into the Old Town for any last souvenirs before departure — leaving Villa Dubrovnik feels genuinely bittersweet." }
+      {
+        "day": 1,
+        "title": "Arrival & First Impressions",
+        "description": "Check in and let the staff bring chilled sparkling wine to your terrace as the afternoon light turns the Old Town walls gold. Take the hotel's private boat across the water at sunset for your first stroll inside the ancient walls, then return for a candlelit dinner at the hotel's Restaurant Vapore, where grilled Adriatic seafood and local wines set the tone for the week."
+      },
+      {
+        "day": 2,
+        "title": "Private Beach Morning",
+        "description": "Spend the morning on Villa Dubrovnik's own pebble beach, tucked below the clifftop gardens. The water is crystalline and calm, perfect for snorkeling around the rocks. Order fresh fruit and coffee from the beach bar and let the morning stretch into noon before heading up for a long lunch on the sea terrace."
+      },
+      {
+        "day": 3,
+        "title": "Old Town Exploration",
+        "description": "Take the hotel boat into Dubrovnik's Old Town and walk the full 2km circuit of the city walls — the views over terracotta rooftops and the turquoise Adriatic are extraordinary. Explore the Stradun, duck into baroque churches, and find a konoba in a hidden alley for a lunch of black risotto and peka-roasted lamb before returning by boat in the afternoon."
+      },
+      {
+        "day": 4,
+        "title": "Elafiti Islands Day Trip",
+        "description": "The hotel can arrange a private boat charter to the car-free Elafiti Islands — Lopud and Šipan are particularly lovely. Swim in secluded coves, walk through silent olive groves and medieval villages, and have a fresh fish lunch at a family-run restaurant with tables practically in the sea. Return to Villa Dubrovnik in the late afternoon for a couples' treatment at the spa."
+      },
+      {
+        "day": 5,
+        "title": "Spa & Sunset Cocktails",
+        "description": "Dedicate the morning to the hotel's spa, where Croatian herbal and marine treatments use locally sourced ingredients. In the afternoon, hire a sea kayak from the beach and paddle around the cliffs to discover hidden coves — the perspective of the city walls from the water is unforgettable. Finish at the terrace bar for cocktails and a spectacular sunset over the Adriatic."
+      },
+      {
+        "day": 6,
+        "title": "Cavtat & Southern Riviera",
+        "description": "Take the hotel boat or hire a water taxi down the coast to the charming village of Cavtat, a quieter and more authentically Croatian alternative to Dubrovnik. Wander the palm-lined promenade, visit the Račić Mausoleum by Ivan Meštrović, and have a long seafood lunch before returning north. In the evening, dress up for a special dinner at one of Dubrovnik's rooftop restaurants in the Old Town."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "On your final morning, linger over breakfast on your terrace as the morning light shifts across the water, then take one last swim from the private beach. The hotel's boat service makes a slow, scenic final crossing into the Old Town for any last souvenirs before departure — leaving Villa Dubrovnik feels genuinely bittersweet."
+      }
     ],
     "caveats": [
       "The hotel is not adults-only — families with children do stay here, particularly in July and August, which can dilute the exclusively romantic atmosphere.",

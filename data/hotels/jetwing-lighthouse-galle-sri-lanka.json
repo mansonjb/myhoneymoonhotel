@@ -3,7 +3,10 @@
   "name": "Jetwing Lighthouse",
   "destination": "sri-lanka",
   "country": "sri-lanka",
-  "experience_types": ["beach", "luxury"],
+  "experience_types": [
+    "beach",
+    "luxury"
+  ],
   "honeymoon_score": 82,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +20,46 @@
     "luxury": 5
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 300, "max": 900 },
+  "price_per_night_usd": {
+    "min": 300,
+    "max": 900
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "room service", "restaurant", "bar", "beach access", "water sports"],
+  "amenities": [
+    "spa",
+    "pool",
+    "room service",
+    "restaurant",
+    "bar",
+    "beach access",
+    "water sports"
+  ],
   "photos": [
-    { "url": "/images/hotels/jetwing-lighthouse-galle-sri-lanka/hero.webp", "alt": "jetwing-lighthouse-galle-sri-lanka — hero", "type": "hero" },
-    { "url": "/images/hotels/jetwing-lighthouse-galle-sri-lanka/room.webp", "alt": "jetwing-lighthouse-galle-sri-lanka — room", "type": "room" },
-    { "url": "/images/hotels/jetwing-lighthouse-galle-sri-lanka/pool.webp", "alt": "jetwing-lighthouse-galle-sri-lanka — pool", "type": "pool" },
-    { "url": "/images/hotels/jetwing-lighthouse-galle-sri-lanka/spa.webp", "alt": "jetwing-lighthouse-galle-sri-lanka — spa", "type": "spa" },
-    { "url": "/images/hotels/jetwing-lighthouse-galle-sri-lanka/dining.webp", "alt": "jetwing-lighthouse-galle-sri-lanka — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/jetwing-lighthouse-galle-sri-lanka/hero.webp",
+      "alt": "jetwing-lighthouse-galle-sri-lanka — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/jetwing-lighthouse-galle-sri-lanka/room.webp",
+      "alt": "jetwing-lighthouse-galle-sri-lanka — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/jetwing-lighthouse-galle-sri-lanka/pool.webp",
+      "alt": "jetwing-lighthouse-galle-sri-lanka — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/jetwing-lighthouse-galle-sri-lanka/spa.webp",
+      "alt": "jetwing-lighthouse-galle-sri-lanka — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/jetwing-lighthouse-galle-sri-lanka/dining.webp",
+      "alt": "jetwing-lighthouse-galle-sri-lanka — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 8.9,
   "tripadvisor_award": false,
@@ -34,13 +68,41 @@
     "verdict": "Jetwing Lighthouse is an architectural pilgrimage as much as a hotel stay — the late Geoffrey Bawa, Asia's most celebrated architect, designed this clifftop masterpiece near Galle Fort with his signature vocabulary of raw concrete, tropical gardens, and light-filled corridors that blur indoor and outdoor space. The clifftop setting with sunset views and the hotel's proximity to Galle Fort make it the most culturally and architecturally significant hotel on the south coast.",
     "best_room": "The Bawa Suites are the definitive accommodation for design-conscious honeymooners — larger, higher-ceilinged rooms furnished with Bawa-era antiques and original art, with direct clifftop views. On higher floors, the ocean panorama from bedroom and private balcony is magnificent at sunset. Standard ocean-view rooms also deliver the clifftop setting at a more accessible price.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Bawa Architecture Walk", "description": "Check in at the sweeping curved reception — itself a study in Bawa's genius for procession and arrival. Ask for a short architecture tour from the hotel's resident guide, who explains Bawa's use of water features, compressed and expanded spatial sequences, and the integration of the hotel's lighthouse tower into the clifftop composition. Sundowners on the wave-washed clifftop terrace as the sun sets over the Indian Ocean." },
-      { "day": 2, "title": "Galle Fort Morning", "description": "A short drive brings you to the UNESCO World Heritage Galle Fort — the Dutch colonial rampart city that is Sri Lanka's most atmospheric historic monument. Walk the sea walls at sunrise, explore the boutique streets of the inner fort, and have a long brunch at the Fortaleza restaurant. The fort can absorb a full day easily; save time for the National Museum and the old lighthouse at the tip of the bastion." },
-      { "day": 3, "title": "Whale Watching from Mirissa", "description": "Drive east along the coast to Mirissa (45 minutes) for an early morning blue whale excursion. Return via Weligama Bay to watch the stilt fishermen at their traditional platforms, then stop for a fresh fish lunch at a beachside warung. Return to the hotel for a long afternoon by the clifftop pool with the ocean sprawling beyond." },
-      { "day": 4, "title": "Spa Day & Clifftop Yoga", "description": "Begin with sunrise yoga on the clifftop terrace, then book the hotel spa's full couple programme: a Shirodhara Ayurvedic treatment followed by a synchronised four-hand massage. Lunch at the hotel's seafood restaurant. Afternoon: walk or tuk-tuk south to Koggala Beach for a long swim in the calmer waters of the adjacent bay. Return for the best sunset view of the week from the lighthouse tower." },
-      { "day": 5, "title": "Brief Garden & Villa Tour", "description": "Geoffrey Bawa's most personal creation, Brief Garden near Beruwala (90 minutes north), and his private country estate Lunuganga outside Bentota are both accessible for day trips and form an essential part of understanding his genius. Lunuganga in particular — Bawa's 50-year personal garden project — is one of Asia's great designed landscapes. Book through the hotel for private guided entry." },
-      { "day": 6, "title": "Koggala Lake Boat Excursion", "description": "Drive east to Koggala Lake for a morning on the island-dotted lagoon — the wooden motorboat weaves between cinnamon islands, the Buddhist temple island of Kathaluwa, and a small bird sanctuary. Stop for a cinnamon plantation walk and tea at a local lake-shore restaurant. Return for the hotel's signature clifftop high tea — the most civilised ritual of the trip." },
-      { "day": 7, "title": "Farewell Morning", "description": "A last breakfast on the clifftop terrace — fresh tropical fruit, eggs, and strong Ceylon tea — with the Indian Ocean providing its constant soundtrack below. Jetwing Lighthouse is a hotel that rewards departing slowly: take a final walk through Bawa's corridors and water gardens before the driver collects you. For architecture and culture lovers, this farewell feels genuinely reluctant." }
+      {
+        "day": 1,
+        "title": "Arrival & Bawa Architecture Walk",
+        "description": "Check in at the sweeping curved reception — itself a study in Bawa's genius for procession and arrival. Ask for a short architecture tour from the hotel's resident guide, who explains Bawa's use of water features, compressed and expanded spatial sequences, and the integration of the hotel's lighthouse tower into the clifftop composition. Sundowners on the wave-washed clifftop terrace as the sun sets over the Indian Ocean."
+      },
+      {
+        "day": 2,
+        "title": "Galle Fort Morning",
+        "description": "A short drive brings you to the UNESCO World Heritage Galle Fort — the Dutch colonial rampart city that is Sri Lanka's most atmospheric historic monument. Walk the sea walls at sunrise, explore the boutique streets of the inner fort, and have a long brunch at the Fortaleza restaurant. The fort can absorb a full day easily; save time for the National Museum and the old lighthouse at the tip of the bastion."
+      },
+      {
+        "day": 3,
+        "title": "Whale Watching from Mirissa",
+        "description": "Drive east along the coast to Mirissa (45 minutes) for an early morning blue whale excursion. Return via Weligama Bay to watch the stilt fishermen at their traditional platforms, then stop for a fresh fish lunch at a beachside warung. Return to the hotel for a long afternoon by the clifftop pool with the ocean sprawling beyond."
+      },
+      {
+        "day": 4,
+        "title": "Spa Day & Clifftop Yoga",
+        "description": "Begin with sunrise yoga on the clifftop terrace, then book the hotel spa's full couple programme: a Shirodhara Ayurvedic treatment followed by a synchronised four-hand massage. Lunch at the hotel's seafood restaurant. Afternoon: walk or tuk-tuk south to Koggala Beach for a long swim in the calmer waters of the adjacent bay. Return for the best sunset view of the week from the lighthouse tower."
+      },
+      {
+        "day": 5,
+        "title": "Brief Garden & Villa Tour",
+        "description": "Geoffrey Bawa's most personal creation, Brief Garden near Beruwala (90 minutes north), and his private country estate Lunuganga outside Bentota are both accessible for day trips and form an essential part of understanding his genius. Lunuganga in particular — Bawa's 50-year personal garden project — is one of Asia's great designed landscapes. Book through the hotel for private guided entry."
+      },
+      {
+        "day": 6,
+        "title": "Koggala Lake Boat Excursion",
+        "description": "Drive east to Koggala Lake for a morning on the island-dotted lagoon — the wooden motorboat weaves between cinnamon islands, the Buddhist temple island of Kathaluwa, and a small bird sanctuary. Stop for a cinnamon plantation walk and tea at a local lake-shore restaurant. Return for the hotel's signature clifftop high tea — the most civilised ritual of the trip."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "A last breakfast on the clifftop terrace — fresh tropical fruit, eggs, and strong Ceylon tea — with the Indian Ocean providing its constant soundtrack below. Jetwing Lighthouse is a hotel that rewards departing slowly: take a final walk through Bawa's corridors and water gardens before the driver collects you. For architecture and culture lovers, this farewell feels genuinely reluctant."
+      }
     ],
     "caveats": [
       "Jetwing Lighthouse is a 61-room hotel and, while intimate by some standards, is notably larger and more operationally conventional than the boutique properties near Tangalle — the architecture is extraordinary but it functions as a proper hotel rather than an exclusive hideaway.",
@@ -48,12 +110,30 @@
       "Best visited December to April; outside this window the south coast monsoon brings rough seas and overcast skies that diminish both the clifftop setting and the surrounding activities."
     ],
     "faqs": [
-      { "question": "Is Jetwing Lighthouse good for honeymooners?", "answer": "Yes, particularly for architecture and culture-focused couples who want to be close to Galle Fort's extraordinary colonial atmosphere. The Bawa architecture is genuinely moving, the sunset views from the clifftop are exceptional, and the combination of fort exploration, whale watching, and Koggala Lake excursions creates a varied and culturally rich honeymoon. Less suited to couples for whom beach swimming is the primary priority." },
-      { "question": "What is the best time to visit?", "answer": "December to April offers calm seas for whale watching, good snorkeling conditions in the area, and sunny clifftop sunsets. January and February are the peak of south coast dry season. Cherry blossom equivalents at Jetwing are the flame tree blooms (May, though slightly out of season) and the frangipani-scented evenings of March. Avoid June to September." },
-      { "question": "What should we book in advance?", "answer": "Whale watching from Mirissa fills quickly December to March — book through the hotel one day ahead. Access to Lunuganga (Bawa's estate) requires advance reservation through the Geoffrey Bawa Trust. Bawa Suite availability is limited — specify at booking for the architecture-focused experience." },
-      { "question": "Is it adults-only?", "answer": "No, families are welcome, but the hotel's primary appeal — Geoffrey Bawa's architecture, Galle Fort culture, sunset views — is geared toward adult travellers. The guest mix includes honeymooners, design enthusiasts, and culturally curious travellers. The clifftop location and rocky beach make it less suited to young families." },
-      { "question": "What's the best room for a honeymoon?", "answer": "A Bawa Suite on an upper floor with direct ocean view delivers the most complete Jetwing Lighthouse experience. The suite size, original art and antique furnishings, and the panoramic clifftop perspective make these rooms the hotel's most romantic option. Ocean-view Deluxe rooms are also excellent at a lower price point." },
-      { "question": "How do we get there?", "answer": "From Colombo Bandaranaike International Airport: approximately 2.5 hours by private car via the Southern Expressway to the Galle exit, then coastal road 15 minutes to the hotel. From Galle Fort: approximately 10 minutes by car. From Mirissa or Weligama: approximately 45 to 60 minutes. The hotel is exceptionally well-placed for south coast exploration." }
+      {
+        "question": "Is Jetwing Lighthouse good for honeymooners?",
+        "answer": "Yes, particularly for architecture and culture-focused couples who want to be close to Galle Fort's extraordinary colonial atmosphere. The Bawa architecture is genuinely moving, the sunset views from the clifftop are exceptional, and the combination of fort exploration, whale watching, and Koggala Lake excursions creates a varied and culturally rich honeymoon. Less suited to couples for whom beach swimming is the primary priority."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "December to April offers calm seas for whale watching, good snorkeling conditions in the area, and sunny clifftop sunsets. January and February are the peak of south coast dry season. Cherry blossom equivalents at Jetwing are the flame tree blooms (May, though slightly out of season) and the frangipani-scented evenings of March. Avoid June to September."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "Whale watching from Mirissa fills quickly December to March — book through the hotel one day ahead. Access to Lunuganga (Bawa's estate) requires advance reservation through the Geoffrey Bawa Trust. Bawa Suite availability is limited — specify at booking for the architecture-focused experience."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "No, families are welcome, but the hotel's primary appeal — Geoffrey Bawa's architecture, Galle Fort culture, sunset views — is geared toward adult travellers. The guest mix includes honeymooners, design enthusiasts, and culturally curious travellers. The clifftop location and rocky beach make it less suited to young families."
+      },
+      {
+        "question": "What's the best room for a honeymoon?",
+        "answer": "A Bawa Suite on an upper floor with direct ocean view delivers the most complete Jetwing Lighthouse experience. The suite size, original art and antique furnishings, and the panoramic clifftop perspective make these rooms the hotel's most romantic option. Ocean-view Deluxe rooms are also excellent at a lower price point."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "From Colombo Bandaranaike International Airport: approximately 2.5 hours by private car via the Southern Expressway to the Galle exit, then coastal road 15 minutes to the hotel. From Galle Fort: approximately 10 minutes by car. From Mirissa or Weligama: approximately 45 to 60 minutes. The hotel is exceptionally well-placed for south coast exploration."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Jetwing Lighthouse\n\nDear Jetwing Lighthouse team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: a Bawa Suite or upper floor Ocean View room with clifftop views.\n\nCould you please let us know:\n- Current availability for our dates\n- Any honeymoon packages or complimentary touches\n- Whether an architecture-focused guided tour of the hotel can be arranged during our stay\n\nThank you for your time.\n\n[Your names]"
   },

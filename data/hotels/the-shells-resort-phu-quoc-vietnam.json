@@ -3,19 +3,64 @@
   "name": "The Shells Resort & Spa Phu Quoc",
   "destination": "vietnam",
   "country": "vietnam",
-  "experience_types": ["beach", "luxury"],
+  "experience_types": [
+    "beach",
+    "luxury"
+  ],
   "honeymoon_score": 83,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 16, "spa": 15, "award": 5, "pool": 10, "beach": 10, "room_service": 10, "stars": 12, "luxury": 5 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 16,
+    "spa": 15,
+    "award": 5,
+    "pool": 10,
+    "beach": 10,
+    "room_service": 10,
+    "stars": 12,
+    "luxury": 5
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 300, "max": 900 },
+  "price_per_night_usd": {
+    "min": 300,
+    "max": 900
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "beach", "room service", "butler service", "fine dining", "water sports", "sunset cocktails"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beach",
+    "room service",
+    "butler service",
+    "fine dining",
+    "water sports",
+    "sunset cocktails"
+  ],
   "photos": [
-    { "url": "/images/hotels/the-shells-resort-phu-quoc-vietnam/hero.webp", "alt": "the-shells-resort-phu-quoc-vietnam — hero", "type": "hero" },
-    { "url": "/images/hotels/the-shells-resort-phu-quoc-vietnam/room.webp", "alt": "the-shells-resort-phu-quoc-vietnam — room", "type": "room" },
-    { "url": "/images/hotels/the-shells-resort-phu-quoc-vietnam/pool.webp", "alt": "the-shells-resort-phu-quoc-vietnam — pool", "type": "pool" },
-    { "url": "/images/hotels/the-shells-resort-phu-quoc-vietnam/spa.webp", "alt": "the-shells-resort-phu-quoc-vietnam — spa", "type": "spa" },
-    { "url": "/images/hotels/the-shells-resort-phu-quoc-vietnam/dining.webp", "alt": "the-shells-resort-phu-quoc-vietnam — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/the-shells-resort-phu-quoc-vietnam/hero.webp",
+      "alt": "the-shells-resort-phu-quoc-vietnam — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/the-shells-resort-phu-quoc-vietnam/room.webp",
+      "alt": "the-shells-resort-phu-quoc-vietnam — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/the-shells-resort-phu-quoc-vietnam/pool.webp",
+      "alt": "the-shells-resort-phu-quoc-vietnam — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/the-shells-resort-phu-quoc-vietnam/spa.webp",
+      "alt": "the-shells-resort-phu-quoc-vietnam — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/the-shells-resort-phu-quoc-vietnam/dining.webp",
+      "alt": "the-shells-resort-phu-quoc-vietnam — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 8.8,
   "tripadvisor_award": false,
@@ -24,13 +69,41 @@
     "verdict": "The Shells Resort & Spa occupies one of Phu Quoc's most appealing stretches of Long Beach — a palm grove setting with an elegant infinity pool and an island atmosphere that remains more laid-back than Vietnam's mainland resorts. Phu Quoc is famous for its sunsets over the Gulf of Thailand, and The Shells provides the ideal front-row seat. Pepper farm visits, the local night market, and accessible day trips to the 99 Islets add cultural dimension to the beach and pool experience.",
     "best_room": "The Pool Villas are The Shells' most romantic offering — private garden pools surrounded by tropical planting, with wooden deck furniture and soft lighting that creates a genuine sense of seclusion despite the resort setting. Beachfront Garden Rooms provide direct beach access and the sound of the Gulf of Thailand waves as a permanent backdrop. The resort's palm grove creates a natural canopy that softens the Phu Quoc heat throughout the day.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Gulf Sunset", "description": "Phu Quoc International Airport is 10 minutes from Long Beach. Arrive and settle into the resort before Phu Quoc's defining daily experience: sunset over the Gulf of Thailand from the beach. The western-facing Long Beach turns golden, then orange, then violet as the sun sinks into the sea — among Southeast Asia's finest sunsets." },
-      { "day": 2, "title": "Pepper Farm & Night Market", "description": "Phu Quoc pepper is among Vietnam's finest — visit one of the island's working farms to learn the cultivation cycle and taste fresh versus dried peppercorns. Return for an evening at the Dinh Cau Night Market: fresh seafood grilled at street stalls, coconut ice cream, and the lively island atmosphere." },
-      { "day": 3, "title": "99 Islets Boat Trip", "description": "Charter a traditional wooden boat to explore the An Thoi archipelago's 99 small islands at Phu Quoc's southern tip — snorkelling pristine reefs, swimming in hidden coves, and a seafood lunch on board as the boat rocks gently. The coral gardens here remain among the Gulf of Thailand's most colourful." },
-      { "day": 4, "title": "Spa Day & Pool Morning", "description": "A full day of resort indulgence: morning yoga by the pool, followed by a signature spa treatment using Phu Quoc pepper and coconut ingredients in a 90-minute couple's experience. Afternoon in the infinity pool with cocktails as the palm trees filter the afternoon light." },
-      { "day": 5, "title": "Phu Quoc National Park", "description": "The northern half of Phu Quoc island is a national park — jungle-covered hills with waterfalls and hiking trails relatively free of tourist infrastructure. Rent a motorbike for a day exploring the island's wilder north: Ganh Dau Cape with views to Cambodia, and the Suoi Tranh waterfall for a cooling natural plunge." },
-      { "day": 6, "title": "Cooking Class & Fish Sauce Factory", "description": "Learn to cook Phu Quoc specialties in a morning class at one of the island's cooking schools — including bun quay (local noodles) and sweet and sour fish soup. Visit a traditional fish sauce factory where anchovies ferment in giant wooden barrels — pungent but fascinating, and the best quality is extraordinary." },
-      { "day": 7, "title": "Final Sunrise & Beach Farewell", "description": "Last sunrise on Long Beach — quieter than sunset and underrated for the light quality on the palm trees and calm morning sea. A final breakfast of Vietnamese cà phê trứng (egg coffee) and bánh mì before the short transfer to the airport." }
+      {
+        "day": 1,
+        "title": "Arrival & Gulf Sunset",
+        "description": "Phu Quoc International Airport is 10 minutes from Long Beach. Arrive and settle into the resort before Phu Quoc's defining daily experience: sunset over the Gulf of Thailand from the beach. The western-facing Long Beach turns golden, then orange, then violet as the sun sinks into the sea — among Southeast Asia's finest sunsets."
+      },
+      {
+        "day": 2,
+        "title": "Pepper Farm & Night Market",
+        "description": "Phu Quoc pepper is among Vietnam's finest — visit one of the island's working farms to learn the cultivation cycle and taste fresh versus dried peppercorns. Return for an evening at the Dinh Cau Night Market: fresh seafood grilled at street stalls, coconut ice cream, and the lively island atmosphere."
+      },
+      {
+        "day": 3,
+        "title": "99 Islets Boat Trip",
+        "description": "Charter a traditional wooden boat to explore the An Thoi archipelago's 99 small islands at Phu Quoc's southern tip — snorkelling pristine reefs, swimming in hidden coves, and a seafood lunch on board as the boat rocks gently. The coral gardens here remain among the Gulf of Thailand's most colourful."
+      },
+      {
+        "day": 4,
+        "title": "Spa Day & Pool Morning",
+        "description": "A full day of resort indulgence: morning yoga by the pool, followed by a signature spa treatment using Phu Quoc pepper and coconut ingredients in a 90-minute couple's experience. Afternoon in the infinity pool with cocktails as the palm trees filter the afternoon light."
+      },
+      {
+        "day": 5,
+        "title": "Phu Quoc National Park",
+        "description": "The northern half of Phu Quoc island is a national park — jungle-covered hills with waterfalls and hiking trails relatively free of tourist infrastructure. Rent a motorbike for a day exploring the island's wilder north: Ganh Dau Cape with views to Cambodia, and the Suoi Tranh waterfall for a cooling natural plunge."
+      },
+      {
+        "day": 6,
+        "title": "Cooking Class & Fish Sauce Factory",
+        "description": "Learn to cook Phu Quoc specialties in a morning class at one of the island's cooking schools — including bun quay (local noodles) and sweet and sour fish soup. Visit a traditional fish sauce factory where anchovies ferment in giant wooden barrels — pungent but fascinating, and the best quality is extraordinary."
+      },
+      {
+        "day": 7,
+        "title": "Final Sunrise & Beach Farewell",
+        "description": "Last sunrise on Long Beach — quieter than sunset and underrated for the light quality on the palm trees and calm morning sea. A final breakfast of Vietnamese cà phê trứng (egg coffee) and bánh mì before the short transfer to the airport."
+      }
     ],
     "caveats": [
       "Phu Quoc is developing rapidly — areas south of Long Beach have seen large resort complexes and theme parks that detract from the island's earlier charm; Long Beach remains the best area.",
@@ -38,12 +111,30 @@
       "The monsoon season (June to October) brings occasional rain to Phu Quoc, though it is usually short bursts rather than all-day rain."
     ],
     "faqs": [
-      { "question": "Good for honeymooners?", "answer": "The Shells is a solid honeymoon choice for couples who want beach relaxation with good value at a five-star level. The sunset is spectacular, the pepper farm and night market add local colour, and the resort's intimate scale is appropriate for romance. It lacks the uniqueness of Amanoi or Six Senses Con Dao but delivers excellent value." },
-      { "question": "Best time to visit?", "answer": "November through April is Phu Quoc's dry season — clear skies, calm seas, and excellent visibility for snorkelling. December through February is peak season. The wet season (June-October) brings some rain but significantly lower prices and fewer crowds; most days still have sunshine." },
-      { "question": "Book in advance?", "answer": "Pool Villas book out 2 to 4 months ahead for peak season. Beachfront rooms are generally available with less advance notice. Phu Quoc is increasingly international; mention your honeymoon for complimentary resort touches." },
-      { "question": "Adults-only?", "answer": "No — The Shells is family-friendly. The resort atmosphere is relaxed and welcoming to all ages. For couples-only resort experiences on Phu Quoc, smaller boutique properties exist but at higher price points." },
-      { "question": "Best room type?", "answer": "Pool Villas are the most romantic choice — private garden pool and seclusion within the resort. Beachfront Garden Rooms are excellent for couples who prioritise direct beach access and the sound of the sea. Both categories provide good value at the five-star level." },
-      { "question": "How to get there?", "answer": "Phu Quoc International Airport receives direct flights from Ho Chi Minh City (1 hour), Hanoi (2 hours), and increasingly from international hubs including Singapore and Bangkok. The resort is 10 minutes from the airport by transfer. The island is also accessible by high-speed ferry from Ha Tien on the mainland." }
+      {
+        "question": "Good for honeymooners?",
+        "answer": "The Shells is a solid honeymoon choice for couples who want beach relaxation with good value at a five-star level. The sunset is spectacular, the pepper farm and night market add local colour, and the resort's intimate scale is appropriate for romance. It lacks the uniqueness of Amanoi or Six Senses Con Dao but delivers excellent value."
+      },
+      {
+        "question": "Best time to visit?",
+        "answer": "November through April is Phu Quoc's dry season — clear skies, calm seas, and excellent visibility for snorkelling. December through February is peak season. The wet season (June-October) brings some rain but significantly lower prices and fewer crowds; most days still have sunshine."
+      },
+      {
+        "question": "Book in advance?",
+        "answer": "Pool Villas book out 2 to 4 months ahead for peak season. Beachfront rooms are generally available with less advance notice. Phu Quoc is increasingly international; mention your honeymoon for complimentary resort touches."
+      },
+      {
+        "question": "Adults-only?",
+        "answer": "No — The Shells is family-friendly. The resort atmosphere is relaxed and welcoming to all ages. For couples-only resort experiences on Phu Quoc, smaller boutique properties exist but at higher price points."
+      },
+      {
+        "question": "Best room type?",
+        "answer": "Pool Villas are the most romantic choice — private garden pool and seclusion within the resort. Beachfront Garden Rooms are excellent for couples who prioritise direct beach access and the sound of the sea. Both categories provide good value at the five-star level."
+      },
+      {
+        "question": "How to get there?",
+        "answer": "Phu Quoc International Airport receives direct flights from Ho Chi Minh City (1 hour), Hanoi (2 hours), and increasingly from international hubs including Singapore and Bangkok. The resort is 10 minutes from the airport by transfer. The island is also accessible by high-speed ferry from Ha Tien on the mainland."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — The Shells Resort & Spa Phu Quoc\n\nDear Shells Resort reservations team,\n\nWe are planning our honeymoon [DATE]-[DATE] and are interested in a Pool Villa [or Beachfront Garden Room]. Please advise on availability, honeymoon packages, cooking class and boat trip scheduling, and any complimentary inclusions.\n\nThank you,\n[Your names]"
   },

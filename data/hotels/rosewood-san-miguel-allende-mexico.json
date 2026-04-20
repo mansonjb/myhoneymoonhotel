@@ -3,7 +3,10 @@
   "name": "Rosewood San Miguel de Allende",
   "destination": "mexico",
   "country": "mexico",
-  "experience_types": ["luxury", "wellness"],
+  "experience_types": [
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 84,
   "score_breakdown": {
     "adults_only": 0,
@@ -18,15 +21,49 @@
     "couples_pct_extra": 3
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 500, "max": 1500 },
+  "price_per_night_usd": {
+    "min": 500,
+    "max": 1500
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "room service", "butler service", "rooftop pool", "multiple restaurants", "cooking class", "tequila bar", "hacienda architecture", "rooftop city views"],
+  "amenities": [
+    "spa",
+    "pool",
+    "room service",
+    "butler service",
+    "rooftop pool",
+    "multiple restaurants",
+    "cooking class",
+    "tequila bar",
+    "hacienda architecture",
+    "rooftop city views"
+  ],
   "photos": [
-    { "url": "/images/hotels/rosewood-san-miguel-allende-mexico/hero.webp", "alt": "rosewood-san-miguel-allende-mexico — hero", "type": "hero" },
-    { "url": "/images/hotels/rosewood-san-miguel-allende-mexico/room.webp", "alt": "rosewood-san-miguel-allende-mexico — room", "type": "room" },
-    { "url": "/images/hotels/rosewood-san-miguel-allende-mexico/pool.webp", "alt": "rosewood-san-miguel-allende-mexico — pool", "type": "pool" },
-    { "url": "/images/hotels/rosewood-san-miguel-allende-mexico/spa.webp", "alt": "rosewood-san-miguel-allende-mexico — spa", "type": "spa" },
-    { "url": "/images/hotels/rosewood-san-miguel-allende-mexico/dining.webp", "alt": "rosewood-san-miguel-allende-mexico — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/rosewood-san-miguel-allende-mexico/hero.webp",
+      "alt": "rosewood-san-miguel-allende-mexico — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/rosewood-san-miguel-allende-mexico/room.webp",
+      "alt": "rosewood-san-miguel-allende-mexico — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/rosewood-san-miguel-allende-mexico/pool.webp",
+      "alt": "rosewood-san-miguel-allende-mexico — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/rosewood-san-miguel-allende-mexico/spa.webp",
+      "alt": "rosewood-san-miguel-allende-mexico — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/rosewood-san-miguel-allende-mexico/dining.webp",
+      "alt": "rosewood-san-miguel-allende-mexico — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.4,
   "tripadvisor_award": true,
@@ -35,13 +72,41 @@
     "verdict": "The Rosewood San Miguel de Allende is the finest hotel in one of the most beautiful and romantic cities in the Americas — a UNESCO World Heritage colonial town in Mexico's Bajío highlands where art, culture, food, and architecture combine into one of the world's great urban experiences. The hotel occupies a restored 18th-century hacienda in the heart of the historic center, with a rooftop pool offering panoramic views of the city's famous pink cathedral, cobblestone streets, and highland valley beyond. For couples who want culture, gastronomy, and colonial romance rather than a beach honeymoon, this is incomparable.",
     "best_room": "Book a Rosewood Suite with cathedral views for the defining San Miguel experience — a room framed by the pink towers of the Parroquia de San Miguel Arcángel at night, with a private terrace and the sounds of bells and mariachi floating up from the streets below. The Grand Rosewood Suite is the hotel's pinnacle, with a separate living room, two terraces, and a stunning city panorama.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Rooftop Sunset", "description": "Fly to Bajío International Airport (1.5 hours from San Miguel by car) or Mexico City (3 hours), and transfer through the dramatic central Mexican highlands. Arrive at the Rosewood as the afternoon light turns gold on the cathedral's pink stone facade. Check in, change, and take the elevator to the rooftop pool for the single most romantic view in Mexico — the entire historic center spread below you, the Parroquia glowing, and the surrounding hills fading in the dusk. Champagne on the roof, then dinner at the hotel's signature restaurant." },
-      { "day": 2, "title": "Cultural Immersion & Art Walk", "description": "San Miguel has one of the most concentrated art scenes in Latin America — explore galleries on Hernández Macías, Ancha de San Antonio, and the Hotel Nena's arts quarter. Stop at the Fabrica La Aurora art and design complex in a converted textile factory. The Rosewood's culturally knowledgeable concierge team can arrange a private studio visit with a local artist — a deeply intimate and romantic experience." },
-      { "day": 3, "title": "Sense Spa & Highland Walk", "description": "Book the Sense Spa Couples Journey — a treatment sequence using traditional Mexican healing plants grown in the hotel's garden, incorporating nopal cactus, copal resin, and traditional temazcal botanicals. After the spa, take the path up the hill above town to El Mirador viewpoint for the most photographed view of the Parroquia and city skyline. Return for the hotel's mezcal tasting at the Moby Dick bar." },
-      { "day": 4, "title": "Cooking Class & Local Market", "description": "Join the Rosewood's morning cooking class — led by the executive chef in a dedicated kitchen, the session covers making mole negro from scratch (a three-hour undertaking involving 30+ ingredients, including chocolate and dried chiles), hand-rolling tamales, and crafting traditional Mexican salsas. Begin the morning at the Mercado Ignacio Ramírez, San Miguel's main covered market, for ingredient shopping alongside local vendors." },
-      { "day": 5, "title": "Horseback Riding in the Highlands", "description": "Arrange a horseback riding excursion through the San Miguel de Allende highlands — small ranches offer guided rides through the cactus-studded hills and valleys outside town, with views over the colonial city and the distant mountains of Guanajuato state. This is a beautiful and romantic way to experience the Mexican countryside at a pace that allows for conversation and wonder." },
-      { "day": 6, "title": "Guanajuato Day Trip", "description": "Take the 1.5-hour drive to Guanajuato — another UNESCO World Heritage colonial city, arguably even more dramatic than San Miguel, with narrow alleys, multi-colored houses stacked on hillsides, underground tunnels carved through the mountains, and the extraordinary Museo Momias. Have lunch at a patio restaurant in the city center and explore the El Pípila monument viewpoint before returning to San Miguel for a final dinner at the Rosewood's rooftop." },
-      { "day": 7, "title": "Farewell Morning", "description": "Order breakfast in bed with a view of the Parroquia and listen to the cathedral bells ring the morning. Take a final slow walk through the cobblestone streets of the historic center — buying handmade trinkets, stopping for the best café de olla in a courtyard café, and saying farewell to one of the most emotionally resonant cities either of you has ever visited." }
+      {
+        "day": 1,
+        "title": "Arrival & Rooftop Sunset",
+        "description": "Fly to Bajío International Airport (1.5 hours from San Miguel by car) or Mexico City (3 hours), and transfer through the dramatic central Mexican highlands. Arrive at the Rosewood as the afternoon light turns gold on the cathedral's pink stone facade. Check in, change, and take the elevator to the rooftop pool for the single most romantic view in Mexico — the entire historic center spread below you, the Parroquia glowing, and the surrounding hills fading in the dusk. Champagne on the roof, then dinner at the hotel's signature restaurant."
+      },
+      {
+        "day": 2,
+        "title": "Cultural Immersion & Art Walk",
+        "description": "San Miguel has one of the most concentrated art scenes in Latin America — explore galleries on Hernández Macías, Ancha de San Antonio, and the Hotel Nena's arts quarter. Stop at the Fabrica La Aurora art and design complex in a converted textile factory. The Rosewood's culturally knowledgeable concierge team can arrange a private studio visit with a local artist — a deeply intimate and romantic experience."
+      },
+      {
+        "day": 3,
+        "title": "Sense Spa & Highland Walk",
+        "description": "Book the Sense Spa Couples Journey — a treatment sequence using traditional Mexican healing plants grown in the hotel's garden, incorporating nopal cactus, copal resin, and traditional temazcal botanicals. After the spa, take the path up the hill above town to El Mirador viewpoint for the most photographed view of the Parroquia and city skyline. Return for the hotel's mezcal tasting at the Moby Dick bar."
+      },
+      {
+        "day": 4,
+        "title": "Cooking Class & Local Market",
+        "description": "Join the Rosewood's morning cooking class — led by the executive chef in a dedicated kitchen, the session covers making mole negro from scratch (a three-hour undertaking involving 30+ ingredients, including chocolate and dried chiles), hand-rolling tamales, and crafting traditional Mexican salsas. Begin the morning at the Mercado Ignacio Ramírez, San Miguel's main covered market, for ingredient shopping alongside local vendors."
+      },
+      {
+        "day": 5,
+        "title": "Horseback Riding in the Highlands",
+        "description": "Arrange a horseback riding excursion through the San Miguel de Allende highlands — small ranches offer guided rides through the cactus-studded hills and valleys outside town, with views over the colonial city and the distant mountains of Guanajuato state. This is a beautiful and romantic way to experience the Mexican countryside at a pace that allows for conversation and wonder."
+      },
+      {
+        "day": 6,
+        "title": "Guanajuato Day Trip",
+        "description": "Take the 1.5-hour drive to Guanajuato — another UNESCO World Heritage colonial city, arguably even more dramatic than San Miguel, with narrow alleys, multi-colored houses stacked on hillsides, underground tunnels carved through the mountains, and the extraordinary Museo Momias. Have lunch at a patio restaurant in the city center and explore the El Pípila monument viewpoint before returning to San Miguel for a final dinner at the Rosewood's rooftop."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "Order breakfast in bed with a view of the Parroquia and listen to the cathedral bells ring the morning. Take a final slow walk through the cobblestone streets of the historic center — buying handmade trinkets, stopping for the best café de olla in a courtyard café, and saying farewell to one of the most emotionally resonant cities either of you has ever visited."
+      }
     ],
     "caveats": [
       "San Miguel de Allende is landlocked in the central highlands — there is no beach, no ocean, and no coastal experience. This is a cultural city honeymoon, not a beach escape.",

@@ -3,19 +3,65 @@
   "name": "Roving Bushtops Serengeti",
   "destination": "tanzania",
   "country": "tanzania",
-  "experience_types": ["safari", "luxury"],
+  "experience_types": [
+    "safari",
+    "luxury"
+  ],
   "honeymoon_score": 93,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 20, "spa": 15, "award": 10, "pool": 10, "beach": 0, "room_service": 10, "stars": 18, "luxury": 10 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 20,
+    "spa": 15,
+    "award": 10,
+    "pool": 10,
+    "beach": 0,
+    "room_service": 10,
+    "stars": 18,
+    "luxury": 10
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 1800, "max": 5000 },
+  "price_per_night_usd": {
+    "min": 1800,
+    "max": 5000
+  },
   "adults_only": false,
-  "amenities": ["spa", "game drives", "room service", "butler service", "private decks", "fine dining", "helicopter", "bush walks", "migration following"],
+  "amenities": [
+    "spa",
+    "game drives",
+    "room service",
+    "butler service",
+    "private decks",
+    "fine dining",
+    "helicopter",
+    "bush walks",
+    "migration following"
+  ],
   "photos": [
-    { "url": "/images/hotels/roving-bushtops-serengeti-tanzania/hero.webp", "alt": "roving-bushtops-serengeti-tanzania — hero", "type": "hero" },
-    { "url": "/images/hotels/roving-bushtops-serengeti-tanzania/room.webp", "alt": "roving-bushtops-serengeti-tanzania — room", "type": "room" },
-    { "url": "/images/hotels/roving-bushtops-serengeti-tanzania/pool.webp", "alt": "roving-bushtops-serengeti-tanzania — pool", "type": "pool" },
-    { "url": "/images/hotels/roving-bushtops-serengeti-tanzania/spa.webp", "alt": "roving-bushtops-serengeti-tanzania — spa", "type": "spa" },
-    { "url": "/images/hotels/roving-bushtops-serengeti-tanzania/dining.webp", "alt": "roving-bushtops-serengeti-tanzania — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/roving-bushtops-serengeti-tanzania/hero.webp",
+      "alt": "roving-bushtops-serengeti-tanzania — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/roving-bushtops-serengeti-tanzania/room.webp",
+      "alt": "roving-bushtops-serengeti-tanzania — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/roving-bushtops-serengeti-tanzania/pool.webp",
+      "alt": "roving-bushtops-serengeti-tanzania — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/roving-bushtops-serengeti-tanzania/spa.webp",
+      "alt": "roving-bushtops-serengeti-tanzania — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/roving-bushtops-serengeti-tanzania/dining.webp",
+      "alt": "roving-bushtops-serengeti-tanzania — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.4,
   "tripadvisor_award": true,
@@ -24,13 +70,41 @@
     "verdict": "Roving Bushtops is a permanent tented camp that positions itself in the Central Serengeti to follow the Great Migration through the year, ensuring guests are always closest to the action. Twelve luxury tents with en-suite bathrooms, private decks, and safari-chic furnishings operate within a private concession, where no day visitors intrude on the wilderness experience. Optional helicopter excursions allow honeymooners to access even more remote corners of the ecosystem from their base camp.",
     "best_room": "The Honeymoon Tent at Bushtops is a dedicated romantic option, positioned for maximum privacy and featuring a private copper soaking tub, larger deck, and dedicated butler. The camp's premium tents all share the same elevated deck configuration overlooking the Serengeti plains, with the added luxury of a plunge pool that feels extraordinary when used at dawn as elephants graze below. The intimacy of 12 tents means every couple effectively has the camp to themselves.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Migration Briefing", "description": "Charter flight from Arusha to the Bushtops airstrip brings you directly into migration territory. Your guide briefs the current migration movement while you settle into camp over sundowners. The private concession's exclusivity means no other vehicles — the evening drive is your own private Serengeti." },
-      { "day": 2, "title": "Great Migration Game Drive", "description": "Follow the wildebeest herds across the Central Serengeti plains — an experience of sheer scale as hundreds of thousands of animals move with ancient instinct. Lions shadow the columns, ambushing at river crossings. Cheetah mothers coach cubs through a landscape of tall grass and opportunity." },
-      { "day": 3, "title": "Helicopter Excursion", "description": "Bushtops' helicopter flies you over the Serengeti's broader landscape for a perspective impossible from the ground — the full immensity of the migration columns, the Mara River glinting to the north, Ngorongoro's volcanic craters on the horizon. Land in a remote section of the ecosystem for a bush lunch before flying back." },
-      { "day": 4, "title": "Walking Safari & Kopje Sunset", "description": "A guided walk explores the Central Serengeti's ancient kopje granite outcrops — home to rock agama lizards, hyrax, and the leopards that shelter in the boulders. As the sun descends, climb to a flat kopje top for sundowners as the plain below fills with animal movement and the sky turns amber." },
-      { "day": 5, "title": "Predator Focus & Night Drive", "description": "A morning dedicated to predator tracking — following radio calls and guide networks to locate the resident cheetah coalitions and lion prides. The camp's private concession means vehicles can stay longer with any sighting. The night drive after dinner is particularly atmospheric in the Serengeti's vast darkness." },
-      { "day": 6, "title": "Spa Day & Private Dinner", "description": "A full day at camp after the intensity of earlier game drives. Morning yoga on your deck as the sun rises over the plains, then the camp masseuse delivers a bush botanical treatment. An evening private dinner for two in a lantern-lit clearing in the concession — a signature Bushtops romantic experience." },
-      { "day": 7, "title": "Final Dawn Drive & Departure", "description": "Last morning drive at first light — the Serengeti at dawn is incomparable. Return for a farewell brunch with the entire camp team, then charter flight back to Arusha or Kilimanjaro carrying the most vivid safari memories." }
+      {
+        "day": 1,
+        "title": "Arrival & Migration Briefing",
+        "description": "Charter flight from Arusha to the Bushtops airstrip brings you directly into migration territory. Your guide briefs the current migration movement while you settle into camp over sundowners. The private concession's exclusivity means no other vehicles — the evening drive is your own private Serengeti."
+      },
+      {
+        "day": 2,
+        "title": "Great Migration Game Drive",
+        "description": "Follow the wildebeest herds across the Central Serengeti plains — an experience of sheer scale as hundreds of thousands of animals move with ancient instinct. Lions shadow the columns, ambushing at river crossings. Cheetah mothers coach cubs through a landscape of tall grass and opportunity."
+      },
+      {
+        "day": 3,
+        "title": "Helicopter Excursion",
+        "description": "Bushtops' helicopter flies you over the Serengeti's broader landscape for a perspective impossible from the ground — the full immensity of the migration columns, the Mara River glinting to the north, Ngorongoro's volcanic craters on the horizon. Land in a remote section of the ecosystem for a bush lunch before flying back."
+      },
+      {
+        "day": 4,
+        "title": "Walking Safari & Kopje Sunset",
+        "description": "A guided walk explores the Central Serengeti's ancient kopje granite outcrops — home to rock agama lizards, hyrax, and the leopards that shelter in the boulders. As the sun descends, climb to a flat kopje top for sundowners as the plain below fills with animal movement and the sky turns amber."
+      },
+      {
+        "day": 5,
+        "title": "Predator Focus & Night Drive",
+        "description": "A morning dedicated to predator tracking — following radio calls and guide networks to locate the resident cheetah coalitions and lion prides. The camp's private concession means vehicles can stay longer with any sighting. The night drive after dinner is particularly atmospheric in the Serengeti's vast darkness."
+      },
+      {
+        "day": 6,
+        "title": "Spa Day & Private Dinner",
+        "description": "A full day at camp after the intensity of earlier game drives. Morning yoga on your deck as the sun rises over the plains, then the camp masseuse delivers a bush botanical treatment. An evening private dinner for two in a lantern-lit clearing in the concession — a signature Bushtops romantic experience."
+      },
+      {
+        "day": 7,
+        "title": "Final Dawn Drive & Departure",
+        "description": "Last morning drive at first light — the Serengeti at dawn is incomparable. Return for a farewell brunch with the entire camp team, then charter flight back to Arusha or Kilimanjaro carrying the most vivid safari memories."
+      }
     ],
     "caveats": [
       "Helicopter excursions are a premium add-on and should be pre-booked as the helicopter schedule is shared; confirm availability at reservation.",
@@ -38,12 +112,30 @@
       "12 tents means extremely limited availability; the Honeymoon Tent in particular requires very early booking."
     ],
     "faqs": [
-      { "question": "Good for honeymooners?", "answer": "Roving Bushtops is excellent for honeymooners — the dedicated Honeymoon Tent, private concession exclusivity, and helicopter excursion option set it apart. The camp's philosophy of following the migration ensures honeymooners are always positioned close to the greatest wildlife spectacle on earth, with a level of personalised service that makes every moment feel curated for two." },
-      { "question": "Best time to visit?", "answer": "The camp is positioned year-round based on migration movement. The Central Serengeti hosts the migration from May through July on the westward grass circuit. Year-round Big 5 residents make any month worthwhile. July through October sees the migration move north toward Mara River crossing territory; add a Lamai night for the full spectacle." },
-      { "question": "Book in advance?", "answer": "With only 12 tents, Bushtops books out quickly — 9 to 12 months ahead for peak season. The Honeymoon Tent requires even earlier reservation. Bushtops is best booked through a luxury safari specialist who has an allocation relationship with the camp." },
-      { "question": "Adults-only?", "answer": "Roving Bushtops is not formally adults-only. The camp's remote, intimate character naturally attracts adult couples and small groups. Children are welcome but the sophisticated camp experience is overwhelmingly chosen by couples and adults." },
-      { "question": "Best room type?", "answer": "The dedicated Honeymoon Tent is the standout choice — larger, more private, and configured for romance with its copper soaking tub and personal butler. Standard premium tents are also excellent and share the same Serengeti views from elevated decks." },
-      { "question": "How to get there?", "answer": "Charter flights from Arusha Airport (approximately 1 hour) or Kilimanjaro International connect via major hubs. The camp arranges charter coordination and can organise connections from Nairobi, Kilimanjaro, or Dar es Salaam. Allow a full day of international travel from Europe or North America before the Arusha connection." }
+      {
+        "question": "Good for honeymooners?",
+        "answer": "Roving Bushtops is excellent for honeymooners — the dedicated Honeymoon Tent, private concession exclusivity, and helicopter excursion option set it apart. The camp's philosophy of following the migration ensures honeymooners are always positioned close to the greatest wildlife spectacle on earth, with a level of personalised service that makes every moment feel curated for two."
+      },
+      {
+        "question": "Best time to visit?",
+        "answer": "The camp is positioned year-round based on migration movement. The Central Serengeti hosts the migration from May through July on the westward grass circuit. Year-round Big 5 residents make any month worthwhile. July through October sees the migration move north toward Mara River crossing territory; add a Lamai night for the full spectacle."
+      },
+      {
+        "question": "Book in advance?",
+        "answer": "With only 12 tents, Bushtops books out quickly — 9 to 12 months ahead for peak season. The Honeymoon Tent requires even earlier reservation. Bushtops is best booked through a luxury safari specialist who has an allocation relationship with the camp."
+      },
+      {
+        "question": "Adults-only?",
+        "answer": "Roving Bushtops is not formally adults-only. The camp's remote, intimate character naturally attracts adult couples and small groups. Children are welcome but the sophisticated camp experience is overwhelmingly chosen by couples and adults."
+      },
+      {
+        "question": "Best room type?",
+        "answer": "The dedicated Honeymoon Tent is the standout choice — larger, more private, and configured for romance with its copper soaking tub and personal butler. Standard premium tents are also excellent and share the same Serengeti views from elevated decks."
+      },
+      {
+        "question": "How to get there?",
+        "answer": "Charter flights from Arusha Airport (approximately 1 hour) or Kilimanjaro International connect via major hubs. The camp arranges charter coordination and can organise connections from Nairobi, Kilimanjaro, or Dar es Salaam. Allow a full day of international travel from Europe or North America before the Arusha connection."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — Roving Bushtops Serengeti\n\nDear Bushtops reservations team,\n\nWe are planning our honeymoon [DATE]-[DATE] and are interested in the Honeymoon Tent. Please advise on availability, helicopter excursion scheduling, private concession game drive arrangements, and any honeymoon packages.\n\nThank you,\n[Your names]"
   },

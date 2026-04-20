@@ -3,7 +3,11 @@
   "name": "Sandalwood Boutique Resort Sumba",
   "destination": "indonesia",
   "country": "indonesia",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 84,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,47 @@
     "luxury": 12
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 400, "max": 1200 },
+  "price_per_night_usd": {
+    "min": 400,
+    "max": 1200
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "room service", "hilltop views", "community tourism", "traditional architecture", "horse riding", "ikat weaving"],
+  "amenities": [
+    "spa",
+    "pool",
+    "room service",
+    "hilltop views",
+    "community tourism",
+    "traditional architecture",
+    "horse riding",
+    "ikat weaving"
+  ],
   "photos": [
-    { "url": "/images/hotels/sandalwood-boutique-resort-sumba-indonesia/hero.webp", "alt": "sandalwood-boutique-resort-sumba-indonesia — hero", "type": "hero" },
-    { "url": "/images/hotels/sandalwood-boutique-resort-sumba-indonesia/room.webp", "alt": "sandalwood-boutique-resort-sumba-indonesia — room", "type": "room" },
-    { "url": "/images/hotels/sandalwood-boutique-resort-sumba-indonesia/pool.webp", "alt": "sandalwood-boutique-resort-sumba-indonesia — pool", "type": "pool" },
-    { "url": "/images/hotels/sandalwood-boutique-resort-sumba-indonesia/spa.webp", "alt": "sandalwood-boutique-resort-sumba-indonesia — spa", "type": "spa" },
-    { "url": "/images/hotels/sandalwood-boutique-resort-sumba-indonesia/dining.webp", "alt": "sandalwood-boutique-resort-sumba-indonesia — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/sandalwood-boutique-resort-sumba-indonesia/hero.webp",
+      "alt": "sandalwood-boutique-resort-sumba-indonesia — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/sandalwood-boutique-resort-sumba-indonesia/room.webp",
+      "alt": "sandalwood-boutique-resort-sumba-indonesia — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/sandalwood-boutique-resort-sumba-indonesia/pool.webp",
+      "alt": "sandalwood-boutique-resort-sumba-indonesia — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/sandalwood-boutique-resort-sumba-indonesia/spa.webp",
+      "alt": "sandalwood-boutique-resort-sumba-indonesia — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/sandalwood-boutique-resort-sumba-indonesia/dining.webp",
+      "alt": "sandalwood-boutique-resort-sumba-indonesia — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 8.9,
   "tripadvisor_award": false,
@@ -34,13 +70,41 @@
     "verdict": "Sandalwood Boutique Resort is Sumba's most culturally authentic luxury property — a small hilltop resort in the Waingapu area of eastern Sumba that draws directly from the island's extraordinary traditional architecture and animist cultural heritage. For honeymooners who want to experience Sumba at a more accessible price point than Nihi — but with genuine luxury, community engagement, and the island's dramatic savanna landscape — Sandalwood offers a deeply rewarding alternative.",
     "best_room": "The Sandalwood Suite is the resort's most romantic category — a spacious hilltop suite with traditional high-thatched ceiling architecture, king-sized four-poster bed, and a private terrace with panoramic views over the surrounding savanna and distant peaks. The Private Pool Bungalow adds a dedicated plunge pool for couples wanting complete seclusion.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Sumbanese Welcome", "description": "Fly from Bali to Waingapu Airport (WAP) in eastern Sumba — approximately one hour. Resort staff meet you for the short drive to Sandalwood, set on a hilltop above the savanna. The traditional welcome ceremony — betel nut offering, local ikat fabric gift, and a performance by the resort's traditional musicians — immediately establishes Sumba's distinctive animist culture as central to the experience." },
-      { "day": 2, "title": "Ikat Weaving Village", "description": "Sumba is famous throughout Indonesia for its extraordinary hand-woven ikat textiles — some of the finest in the world. Visit a traditional weaving village near Waingapu where women create intricate patterns using a back-strap loom, with natural dyes sourced from local plants and sea creatures. Purchase a piece directly from the weaver for an authentic honeymoon keepsake." },
-      { "day": 3, "title": "Hilltop Spa & Savanna", "description": "Book the resort's Sumba Wellness Journey — a two-hour treatment using traditional Sumbanese massage techniques, local bark oils, and volcanic stone heated by the kitchen fire. The treatment is performed in an open-air pavilion with savanna views. In the afternoon, take a guided walk through the hilltop property to learn about the indigenous sandalwood trees that give the resort its name." },
-      { "day": 4, "title": "Horse Riding Through the Savanna", "description": "Sumba's Sandalwood ponies are legendary — small, muscular, and sure-footed on the island's dry terrain. Join the resort's guided horse ride through the savanna at dawn, passing megalithic tombs and traditional villages as the sun climbs. The landscape of eastern Sumba — rolling golden grass, scattered palms, and volcanic peaks — is unlike anything in the rest of Indonesia." },
-      { "day": 5, "title": "Beach Day & Snorkelling", "description": "Drive to one of eastern Sumba's undiscovered beaches — wild stretches of sand with no development for kilometres in either direction, and coral gardens just offshore accessible by snorkel. The resort packs a full picnic and the day unfolds entirely on your own schedule. Return for a sunset dinner on the hilltop with local musicians." },
-      { "day": 6, "title": "Traditional Village Visit", "description": "Visit Rende village, one of Sumba's most complete traditional communities — the high-peaked stone tombs of ancestors sit in the centre of the village, surrounded by clan houses with traditional peaked roofs. The village chief welcomes guests with a betel nut ceremony. In the evening, the resort kitchen prepares a traditional Sumbanese feast: roasted wild pig, coconut rice, and fresh papaya." },
-      { "day": 7, "title": "Farewell Morning", "description": "Last sunrise from the hilltop terrace — eastern Sumba's savanna in the morning light is a vast, golden panorama. A final breakfast, a lingering spa treatment if time permits, and then the drive back to Waingapu Airport. Sandalwood Boutique Resort leaves you with a Sumba experience that is authentic, human-scale, and genuinely moving." }
+      {
+        "day": 1,
+        "title": "Arrival & Sumbanese Welcome",
+        "description": "Fly from Bali to Waingapu Airport (WAP) in eastern Sumba — approximately one hour. Resort staff meet you for the short drive to Sandalwood, set on a hilltop above the savanna. The traditional welcome ceremony — betel nut offering, local ikat fabric gift, and a performance by the resort's traditional musicians — immediately establishes Sumba's distinctive animist culture as central to the experience."
+      },
+      {
+        "day": 2,
+        "title": "Ikat Weaving Village",
+        "description": "Sumba is famous throughout Indonesia for its extraordinary hand-woven ikat textiles — some of the finest in the world. Visit a traditional weaving village near Waingapu where women create intricate patterns using a back-strap loom, with natural dyes sourced from local plants and sea creatures. Purchase a piece directly from the weaver for an authentic honeymoon keepsake."
+      },
+      {
+        "day": 3,
+        "title": "Hilltop Spa & Savanna",
+        "description": "Book the resort's Sumba Wellness Journey — a two-hour treatment using traditional Sumbanese massage techniques, local bark oils, and volcanic stone heated by the kitchen fire. The treatment is performed in an open-air pavilion with savanna views. In the afternoon, take a guided walk through the hilltop property to learn about the indigenous sandalwood trees that give the resort its name."
+      },
+      {
+        "day": 4,
+        "title": "Horse Riding Through the Savanna",
+        "description": "Sumba's Sandalwood ponies are legendary — small, muscular, and sure-footed on the island's dry terrain. Join the resort's guided horse ride through the savanna at dawn, passing megalithic tombs and traditional villages as the sun climbs. The landscape of eastern Sumba — rolling golden grass, scattered palms, and volcanic peaks — is unlike anything in the rest of Indonesia."
+      },
+      {
+        "day": 5,
+        "title": "Beach Day & Snorkelling",
+        "description": "Drive to one of eastern Sumba's undiscovered beaches — wild stretches of sand with no development for kilometres in either direction, and coral gardens just offshore accessible by snorkel. The resort packs a full picnic and the day unfolds entirely on your own schedule. Return for a sunset dinner on the hilltop with local musicians."
+      },
+      {
+        "day": 6,
+        "title": "Traditional Village Visit",
+        "description": "Visit Rende village, one of Sumba's most complete traditional communities — the high-peaked stone tombs of ancestors sit in the centre of the village, surrounded by clan houses with traditional peaked roofs. The village chief welcomes guests with a betel nut ceremony. In the evening, the resort kitchen prepares a traditional Sumbanese feast: roasted wild pig, coconut rice, and fresh papaya."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "Last sunrise from the hilltop terrace — eastern Sumba's savanna in the morning light is a vast, golden panorama. A final breakfast, a lingering spa treatment if time permits, and then the drive back to Waingapu Airport. Sandalwood Boutique Resort leaves you with a Sumba experience that is authentic, human-scale, and genuinely moving."
+      }
     ],
     "caveats": [
       "Sandalwood is in eastern Sumba near Waingapu — this is a different region from Nihi (western Sumba) and offers a different, more cultural and savanna-focused experience.",
@@ -48,12 +112,30 @@
       "Waingapu is more remote than western Sumba's Tambolaka — flight options and schedules may be less frequent."
     ],
     "faqs": [
-      { "question": "Is Sandalwood Boutique Resort good for honeymooners?", "answer": "Sandalwood is ideal for honeymooners who want genuine cultural immersion in one of Indonesia's most distinctive island cultures, combined with boutique luxury accommodation and a hilltop savanna setting. It offers the authentic Sumba experience at a more accessible price point than Nihi." },
-      { "question": "What is the best time to visit?", "answer": "May through October is the dry season — ideal for outdoor riding, village visits, and beach days. The savanna is golden and dramatic in the dry months. November to April sees the grass turn green and rivers flow, but road access can be difficult after heavy rain." },
-      { "question": "What should we book in advance?", "answer": "The spa treatments and horse riding excursion should be reserved before arrival. Village visit programmes should be arranged ahead so the resort can coordinate with community leaders." },
-      { "question": "Is it adults-only?", "answer": "No, Sandalwood Boutique Resort welcomes all guests. Its intimate scale and cultural focus naturally create a thoughtful, adult-oriented atmosphere." },
-      { "question": "What's the best room for a honeymoon?", "answer": "The Private Pool Bungalow provides the most seclusion — your own plunge pool and terrace within the resort grounds. The Sandalwood Suite offers the best interior space and hilltop views with traditional architectural character." },
-      { "question": "How do we get there?", "answer": "Fly from Bali (DPS) to Waingapu Airport (WAP) in eastern Sumba — approximately one hour with several connections per week. The resort arranges the short transfer from the airport." }
+      {
+        "question": "Is Sandalwood Boutique Resort good for honeymooners?",
+        "answer": "Sandalwood is ideal for honeymooners who want genuine cultural immersion in one of Indonesia's most distinctive island cultures, combined with boutique luxury accommodation and a hilltop savanna setting. It offers the authentic Sumba experience at a more accessible price point than Nihi."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "May through October is the dry season — ideal for outdoor riding, village visits, and beach days. The savanna is golden and dramatic in the dry months. November to April sees the grass turn green and rivers flow, but road access can be difficult after heavy rain."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "The spa treatments and horse riding excursion should be reserved before arrival. Village visit programmes should be arranged ahead so the resort can coordinate with community leaders."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "No, Sandalwood Boutique Resort welcomes all guests. Its intimate scale and cultural focus naturally create a thoughtful, adult-oriented atmosphere."
+      },
+      {
+        "question": "What's the best room for a honeymoon?",
+        "answer": "The Private Pool Bungalow provides the most seclusion — your own plunge pool and terrace within the resort grounds. The Sandalwood Suite offers the best interior space and hilltop views with traditional architectural character."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "Fly from Bali (DPS) to Waingapu Airport (WAP) in eastern Sumba — approximately one hour with several connections per week. The resort arranges the short transfer from the airport."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Sandalwood Boutique Resort Sumba\n\nDear Sandalwood Boutique Resort team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: [Private Pool Bungalow / Sandalwood Suite]\n\nCould you please let us know:\n- Current availability for our dates\n- Any honeymoon packages or complimentary upgrades\n- Details on the ikat village visit, horse riding, and traditional village programmes\n\nThank you for your time.\n\n[Your names]"
   },

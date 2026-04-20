@@ -3,19 +3,65 @@
   "name": "Lamai Serengeti",
   "destination": "tanzania",
   "country": "tanzania",
-  "experience_types": ["safari", "luxury"],
+  "experience_types": [
+    "safari",
+    "luxury"
+  ],
   "honeymoon_score": 94,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 20, "spa": 15, "award": 10, "pool": 10, "beach": 0, "room_service": 10, "stars": 19, "luxury": 10 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 20,
+    "spa": 15,
+    "award": 10,
+    "pool": 10,
+    "beach": 0,
+    "room_service": 10,
+    "stars": 19,
+    "luxury": 10
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 1500, "max": 4000 },
+  "price_per_night_usd": {
+    "min": 1500,
+    "max": 4000
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "game drives", "room service", "butler service", "private vehicle", "fine dining", "bush walks", "migration viewing"],
+  "amenities": [
+    "spa",
+    "pool",
+    "game drives",
+    "room service",
+    "butler service",
+    "private vehicle",
+    "fine dining",
+    "bush walks",
+    "migration viewing"
+  ],
   "photos": [
-    { "url": "/images/hotels/lamai-serengeti-tanzania/hero.webp", "alt": "lamai-serengeti-tanzania — hero", "type": "hero" },
-    { "url": "/images/hotels/lamai-serengeti-tanzania/room.webp", "alt": "lamai-serengeti-tanzania — room", "type": "room" },
-    { "url": "/images/hotels/lamai-serengeti-tanzania/pool.webp", "alt": "lamai-serengeti-tanzania — pool", "type": "pool" },
-    { "url": "/images/hotels/lamai-serengeti-tanzania/spa.webp", "alt": "lamai-serengeti-tanzania — spa", "type": "spa" },
-    { "url": "/images/hotels/lamai-serengeti-tanzania/dining.webp", "alt": "lamai-serengeti-tanzania — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/lamai-serengeti-tanzania/hero.webp",
+      "alt": "lamai-serengeti-tanzania — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/lamai-serengeti-tanzania/room.webp",
+      "alt": "lamai-serengeti-tanzania — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/lamai-serengeti-tanzania/pool.webp",
+      "alt": "lamai-serengeti-tanzania — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/lamai-serengeti-tanzania/spa.webp",
+      "alt": "lamai-serengeti-tanzania — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/lamai-serengeti-tanzania/dining.webp",
+      "alt": "lamai-serengeti-tanzania — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.5,
   "tripadvisor_award": true,
@@ -24,13 +70,41 @@
     "verdict": "Lamai Serengeti occupies the single best position in the world for witnessing the Great Migration's famous Mara River crossings — the Lamai Wedge in the far north of Tanzania, where wildebeest charge the crocodile-filled waters in scenes of almost unbearable drama from July to October. Just 12 tented suites ensure an intimate, exclusive experience with exceptional guiding from the Nomad Tanzania team. This is the defining African safari honeymoon for those who time it right.",
     "best_room": "The two Premier Tents are positioned on the highest point of the rocky lamai kopje with 270-degree views over the Mara River triangle — the crossing territory. These tents command the longest sight lines and are the most requested by honeymooners. The River View Tents just below also offer extraordinary sightlines toward the river. All tents share Nomad Tanzania's philosophy of quality over ostentation — thoughtfully furnished with local materials and genuine safari spirit.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & First River Watch", "description": "Charter flight from Arusha or Kilimanjaro lands at the private Lamai airstrip — a scenic 1.5-hour flight over the Serengeti. Check in and immediately head to the Mara River observation point with drinks and binoculars. In peak migration season, herds may be massing on the opposite bank. The evening brings a first game drive through the Lamai Wedge's extraordinary predator country." },
-      { "day": 2, "title": "River Crossing Drama", "description": "Wildebeest river crossings are unpredictable and often delayed by hours as the herd masses its courage — then suddenly thousands plunge in simultaneously, battling crocodiles and each other in a thundering spectacle. Your guide monitors the herd movements all day. Between waiting, game drives yield cheetah, leopard, and hyena clan activity in the Wedge." },
-      { "day": 3, "title": "Predator Feast & Photography", "description": "The aftermath of a crossing leaves predator opportunities at extraordinary intensity — lions, crocodiles, and vultures all share in the bounty. A photography-focused morning drive with your guide coaching composition. The afternoon is for pool relaxation and the spa tent, with the sound of the river below." },
-      { "day": 4, "title": "Bush Walk in the Lamai Wedge", "description": "Walk the rocky lamai kopje terrain with an armed field guide — the jumble of boulders and ancient fig trees harbours leopards, rock hyrax, and a profusion of bird life including lilac-breasted rollers and augur buzzards. An evening back at camp includes a storytelling fireside session with your Nomad Tanzania guide." },
-      { "day": 5, "title": "Balloon Safari & Bush Breakfast", "description": "The pre-dawn call for the hot air balloon launch is worth every early moment — rising over the North Serengeti plains at sunrise as the herds begin to move below. Land in the middle of the migration for a champagne bush breakfast. The afternoon game drive explores the Kenya border area for resident cheetah families." },
-      { "day": 6, "title": "Maasai Mara Excursion", "description": "Cross the Mara River into Kenya's Maasai Mara for a day game drive on the Kenyan side — the wildebeest herds move fluidly across both sides of the border and the Mara's savannah has its own character. Return to Tanzania via the crossing point and a sunset game drive through the Lamai Wedge." },
-      { "day": 7, "title": "Final Morning & Farewell", "description": "Last dawn game drive with a private bush breakfast laid out on a kopje overlooking the plains — coffee, eggs, and fresh fruit as elephants wander below. Return for a farewell lunch and pool morning before the charter flight south, carrying the sound of the migration with you." }
+      {
+        "day": 1,
+        "title": "Arrival & First River Watch",
+        "description": "Charter flight from Arusha or Kilimanjaro lands at the private Lamai airstrip — a scenic 1.5-hour flight over the Serengeti. Check in and immediately head to the Mara River observation point with drinks and binoculars. In peak migration season, herds may be massing on the opposite bank. The evening brings a first game drive through the Lamai Wedge's extraordinary predator country."
+      },
+      {
+        "day": 2,
+        "title": "River Crossing Drama",
+        "description": "Wildebeest river crossings are unpredictable and often delayed by hours as the herd masses its courage — then suddenly thousands plunge in simultaneously, battling crocodiles and each other in a thundering spectacle. Your guide monitors the herd movements all day. Between waiting, game drives yield cheetah, leopard, and hyena clan activity in the Wedge."
+      },
+      {
+        "day": 3,
+        "title": "Predator Feast & Photography",
+        "description": "The aftermath of a crossing leaves predator opportunities at extraordinary intensity — lions, crocodiles, and vultures all share in the bounty. A photography-focused morning drive with your guide coaching composition. The afternoon is for pool relaxation and the spa tent, with the sound of the river below."
+      },
+      {
+        "day": 4,
+        "title": "Bush Walk in the Lamai Wedge",
+        "description": "Walk the rocky lamai kopje terrain with an armed field guide — the jumble of boulders and ancient fig trees harbours leopards, rock hyrax, and a profusion of bird life including lilac-breasted rollers and augur buzzards. An evening back at camp includes a storytelling fireside session with your Nomad Tanzania guide."
+      },
+      {
+        "day": 5,
+        "title": "Balloon Safari & Bush Breakfast",
+        "description": "The pre-dawn call for the hot air balloon launch is worth every early moment — rising over the North Serengeti plains at sunrise as the herds begin to move below. Land in the middle of the migration for a champagne bush breakfast. The afternoon game drive explores the Kenya border area for resident cheetah families."
+      },
+      {
+        "day": 6,
+        "title": "Maasai Mara Excursion",
+        "description": "Cross the Mara River into Kenya's Maasai Mara for a day game drive on the Kenyan side — the wildebeest herds move fluidly across both sides of the border and the Mara's savannah has its own character. Return to Tanzania via the crossing point and a sunset game drive through the Lamai Wedge."
+      },
+      {
+        "day": 7,
+        "title": "Final Morning & Farewell",
+        "description": "Last dawn game drive with a private bush breakfast laid out on a kopje overlooking the plains — coffee, eggs, and fresh fruit as elephants wander below. Return for a farewell lunch and pool morning before the charter flight south, carrying the sound of the migration with you."
+      }
     ],
     "caveats": [
       "The premier migration river crossing season is July to October; outside this window the North Serengeti is still outstanding for resident wildlife but the crossing spectacle is absent.",
@@ -38,12 +112,30 @@
       "12 tents means this camp is intimate but also sells out extremely quickly for peak migration months; book at least 12 months ahead for July-October."
     ],
     "faqs": [
-      { "question": "Good for honeymooners?", "answer": "Lamai Serengeti is one of the world's great honeymoon safari experiences for couples who time their visit for the Great Migration. Witnessing the Mara River crossings together — an experience of almost cinematic intensity — creates a shared memory unlike anything else in travel. The camp's intimate scale and outstanding Nomad Tanzania guiding make every moment feel crafted for two." },
-      { "question": "Best time to visit?", "answer": "July through October is migration river crossing season — the pinnacle of the Lamai experience. August and September offer peak crossing frequency. Outside peak season, the North Serengeti is still superb: resident lion prides, leopard, cheetah, and the Big 5 are present year-round. November to June sees fewer visitors and lower rates." },
-      { "question": "Book in advance?", "answer": "Yes — urgently. Peak migration season (July-October) books out a full year in advance. The Premier Tents go first. Off-season dates are more available. Mention your honeymoon at booking for complimentary touches and a private dinner arrangement." },
-      { "question": "Adults-only?", "answer": "Lamai is not formally adults-only. Nomad Tanzania camps have age requirements for game drives (typically 7+) and the remote, adventurous character naturally attracts adult travellers. The camp atmosphere is intimate and romantic without being exclusively adults-only." },
-      { "question": "Best room type?", "answer": "The two Premier Tents at the top of the kopje are the finest positions in camp, with panoramic views of the Mara River triangle and migration territory. For honeymooners, these are worth the premium. River View Tents are the next best option with excellent views and more availability." },
-      { "question": "How to get there?", "answer": "Charter flights from Arusha (approx. 1.5 hours) or Kilimanjaro Airport land at the Lamai private airstrip. Nomad Tanzania coordinates charter arrangements. Kilimanjaro Airport has international connections via Nairobi, Doha, Amsterdam, and London. Allow a full day of travel from Europe or North America." }
+      {
+        "question": "Good for honeymooners?",
+        "answer": "Lamai Serengeti is one of the world's great honeymoon safari experiences for couples who time their visit for the Great Migration. Witnessing the Mara River crossings together — an experience of almost cinematic intensity — creates a shared memory unlike anything else in travel. The camp's intimate scale and outstanding Nomad Tanzania guiding make every moment feel crafted for two."
+      },
+      {
+        "question": "Best time to visit?",
+        "answer": "July through October is migration river crossing season — the pinnacle of the Lamai experience. August and September offer peak crossing frequency. Outside peak season, the North Serengeti is still superb: resident lion prides, leopard, cheetah, and the Big 5 are present year-round. November to June sees fewer visitors and lower rates."
+      },
+      {
+        "question": "Book in advance?",
+        "answer": "Yes — urgently. Peak migration season (July-October) books out a full year in advance. The Premier Tents go first. Off-season dates are more available. Mention your honeymoon at booking for complimentary touches and a private dinner arrangement."
+      },
+      {
+        "question": "Adults-only?",
+        "answer": "Lamai is not formally adults-only. Nomad Tanzania camps have age requirements for game drives (typically 7+) and the remote, adventurous character naturally attracts adult travellers. The camp atmosphere is intimate and romantic without being exclusively adults-only."
+      },
+      {
+        "question": "Best room type?",
+        "answer": "The two Premier Tents at the top of the kopje are the finest positions in camp, with panoramic views of the Mara River triangle and migration territory. For honeymooners, these are worth the premium. River View Tents are the next best option with excellent views and more availability."
+      },
+      {
+        "question": "How to get there?",
+        "answer": "Charter flights from Arusha (approx. 1.5 hours) or Kilimanjaro Airport land at the Lamai private airstrip. Nomad Tanzania coordinates charter arrangements. Kilimanjaro Airport has international connections via Nairobi, Doha, Amsterdam, and London. Allow a full day of travel from Europe or North America."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — Lamai Serengeti\n\nDear Nomad Tanzania Lamai team,\n\nWe are planning our honeymoon [DATE]-[DATE] and are particularly hoping to witness the Great Migration river crossings. Please advise on Premier Tent availability, charter flight coordination, and any honeymoon packages or special arrangements.\n\nThank you,\n[Your names]"
   },

@@ -3,7 +3,11 @@
   "name": "Hotel Santa Caterina",
   "destination": "amalfi",
   "country": "italy",
-  "experience_types": ["luxury", "beach", "wellness"],
+  "experience_types": [
+    "luxury",
+    "beach",
+    "wellness"
+  ],
   "honeymoon_score": 87,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,49 @@
     "luxury": 12
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 500, "max": 1500 },
+  "price_per_night_usd": {
+    "min": 500,
+    "max": 1500
+  },
   "adults_only": false,
-  "amenities": ["spa", "saltwater sea pool", "beach access", "room service", "restaurant", "bar", "concierge", "private funicular to pool", "gardens", "tennis"],
+  "amenities": [
+    "spa",
+    "saltwater sea pool",
+    "beach access",
+    "room service",
+    "restaurant",
+    "bar",
+    "concierge",
+    "private funicular to pool",
+    "gardens",
+    "tennis"
+  ],
   "photos": [
-    { "url": "/images/hotels/hotel-santa-caterina-amalfi/hero.webp", "alt": "hotel-santa-caterina-amalfi — hero", "type": "hero" },
-    { "url": "/images/hotels/hotel-santa-caterina-amalfi/room.webp", "alt": "hotel-santa-caterina-amalfi — room", "type": "room" },
-    { "url": "/images/hotels/hotel-santa-caterina-amalfi/pool.webp", "alt": "hotel-santa-caterina-amalfi — pool", "type": "pool" },
-    { "url": "/images/hotels/hotel-santa-caterina-amalfi/spa.webp", "alt": "hotel-santa-caterina-amalfi — spa", "type": "spa" },
-    { "url": "/images/hotels/hotel-santa-caterina-amalfi/dining.webp", "alt": "hotel-santa-caterina-amalfi — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/hotel-santa-caterina-amalfi/hero.webp",
+      "alt": "hotel-santa-caterina-amalfi — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/hotel-santa-caterina-amalfi/room.webp",
+      "alt": "hotel-santa-caterina-amalfi — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/hotel-santa-caterina-amalfi/pool.webp",
+      "alt": "hotel-santa-caterina-amalfi — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/hotel-santa-caterina-amalfi/spa.webp",
+      "alt": "hotel-santa-caterina-amalfi — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/hotel-santa-caterina-amalfi/dining.webp",
+      "alt": "hotel-santa-caterina-amalfi — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.2,
   "tripadvisor_award": true,
@@ -34,13 +72,41 @@
     "verdict": "Hotel Santa Caterina is one of the most beloved family-owned hotels on the Amalfi Coast — a clifftop garden property run by the Gambardella family since 1880 that manages to feel both grandly Italian and warmly personal. Its unique saltwater swimming pool carved directly into the rock at sea level, connected to the main hotel by a private funicular, is one of the most memorable swimming spots in all of Italy. In the town of Amalfi itself (not Positano), it offers ideal access to the historic cathedral, the harbor, and the Paper Museum.",
     "best_room": "The Cottage Suites scattered through the clifftop citrus gardens are the most private and romantic option — each is a fully separate structure set among lemon and orange trees with a private terrace overlooking the sea. They feel like a private villa within the hotel grounds. The main building's Superior Rooms with Sea View are excellent if cottages are beyond budget, but the garden cottages are the defining Santa Caterina experience.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival in Amalfi Town", "description": "Arrive in Amalfi and walk through the majestic bronze doors of the hotel to be embraced by the scent of lemon blossoms from the clifftop gardens. The Gambardella family's personal welcome has been the same for generations — genuinely warm, knowledgeable, and unhurried. Take the private funicular down through the cliffs to the sea-level restaurant for your first dinner above the water." },
-      { "day": 2, "title": "The Rock Pool & Sea Morning", "description": "The jewel of Santa Caterina is its saltwater pool carved into the coastal rock — accessible via the funicular, it sits at water level with direct access to the sea. Spend the morning alternating between the pool and swimming in the sea below, then have a long seafood lunch at the sea-level restaurant. Afternoon back in the garden cottage with a nap in the shade of the lemon trees." },
-      { "day": 3, "title": "Amalfi Town & The Cathedral", "description": "Walk five minutes into the center of Amalfi to explore the 9th-century Cathedral of Sant'Andrea with its dramatic Arab-Norman façade and breathtaking interior. Visit the Museo della Carta (Paper Museum) in the ancient Valle dei Mulini, where the world's oldest paper mills have been producing amalfi paper since the 12th century. Pick up a set of the handmade paper as a keepsake." },
-      { "day": 4, "title": "Ravello Day Trip", "description": "Drive or take the local bus up the winding road to Ravello for the day. The Villa Cimbrone and Villa Rufolo gardens offer two very different takes on the Amalfi hillside experience. If your visit coincides with the Ravello Festival (July-August), the hotel can arrange evening concert tickets for a genuinely transcendent experience — an outdoor orchestra above the clouds." },
-      { "day": 5, "title": "Boat Day to Positano", "description": "Take the ferry or hire a private boat to Positano for the day — one of the great visual pleasures is approaching Positano from the sea and watching the village cascade down the cliff. Explore the boutiques and churches of Positano, have lunch on the beach, then return to Amalfi and the tranquility of Santa Caterina's gardens by late afternoon." },
-      { "day": 6, "title": "Spa & Garden Dinner", "description": "Book a morning of treatments at the hotel's spa, then spend the afternoon entirely within the garden property — the terraces, the lemon pergolas, the view of the sea between the trees. The hotel's main restaurant offers a seasonal tasting menu with exceptional wine pairing; reserve the corner table on the panoramic terrace for a candlelit dinner that feels like the culmination of everything beautiful about the Amalfi Coast." },
-      { "day": 7, "title": "Farewell Morning", "description": "A final breakfast of fresh-pressed orange juice (from the hotel's own trees), warm cornetti, and espresso on the terrace. The Gambardella family will bid you farewell with the same personal warmth with which they welcomed you — and possibly with a bottle of their house limoncello for the journey. More than most hotels, Santa Caterina is a place guests return to for decades." }
+      {
+        "day": 1,
+        "title": "Arrival in Amalfi Town",
+        "description": "Arrive in Amalfi and walk through the majestic bronze doors of the hotel to be embraced by the scent of lemon blossoms from the clifftop gardens. The Gambardella family's personal welcome has been the same for generations — genuinely warm, knowledgeable, and unhurried. Take the private funicular down through the cliffs to the sea-level restaurant for your first dinner above the water."
+      },
+      {
+        "day": 2,
+        "title": "The Rock Pool & Sea Morning",
+        "description": "The jewel of Santa Caterina is its saltwater pool carved into the coastal rock — accessible via the funicular, it sits at water level with direct access to the sea. Spend the morning alternating between the pool and swimming in the sea below, then have a long seafood lunch at the sea-level restaurant. Afternoon back in the garden cottage with a nap in the shade of the lemon trees."
+      },
+      {
+        "day": 3,
+        "title": "Amalfi Town & The Cathedral",
+        "description": "Walk five minutes into the center of Amalfi to explore the 9th-century Cathedral of Sant'Andrea with its dramatic Arab-Norman façade and breathtaking interior. Visit the Museo della Carta (Paper Museum) in the ancient Valle dei Mulini, where the world's oldest paper mills have been producing amalfi paper since the 12th century. Pick up a set of the handmade paper as a keepsake."
+      },
+      {
+        "day": 4,
+        "title": "Ravello Day Trip",
+        "description": "Drive or take the local bus up the winding road to Ravello for the day. The Villa Cimbrone and Villa Rufolo gardens offer two very different takes on the Amalfi hillside experience. If your visit coincides with the Ravello Festival (July-August), the hotel can arrange evening concert tickets for a genuinely transcendent experience — an outdoor orchestra above the clouds."
+      },
+      {
+        "day": 5,
+        "title": "Boat Day to Positano",
+        "description": "Take the ferry or hire a private boat to Positano for the day — one of the great visual pleasures is approaching Positano from the sea and watching the village cascade down the cliff. Explore the boutiques and churches of Positano, have lunch on the beach, then return to Amalfi and the tranquility of Santa Caterina's gardens by late afternoon."
+      },
+      {
+        "day": 6,
+        "title": "Spa & Garden Dinner",
+        "description": "Book a morning of treatments at the hotel's spa, then spend the afternoon entirely within the garden property — the terraces, the lemon pergolas, the view of the sea between the trees. The hotel's main restaurant offers a seasonal tasting menu with exceptional wine pairing; reserve the corner table on the panoramic terrace for a candlelit dinner that feels like the culmination of everything beautiful about the Amalfi Coast."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "A final breakfast of fresh-pressed orange juice (from the hotel's own trees), warm cornetti, and espresso on the terrace. The Gambardella family will bid you farewell with the same personal warmth with which they welcomed you — and possibly with a bottle of their house limoncello for the journey. More than most hotels, Santa Caterina is a place guests return to for decades."
+      }
     ],
     "caveats": [
       "Amalfi town (where the hotel is located) can be extremely busy with day-trippers during peak season; the hotel's clifftop garden setting provides an excellent escape, but the town center is less exclusively beautiful than Positano or Ravello.",

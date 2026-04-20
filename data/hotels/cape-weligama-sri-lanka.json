@@ -3,7 +3,11 @@
   "name": "Cape Weligama",
   "destination": "sri-lanka",
   "country": "sri-lanka",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 89,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,47 @@
     "luxury": 5
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 500, "max": 1800 },
+  "price_per_night_usd": {
+    "min": 500,
+    "max": 1800
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "room service", "butler service", "restaurant", "bar", "beach access", "whale watching"],
+  "amenities": [
+    "spa",
+    "pool",
+    "room service",
+    "butler service",
+    "restaurant",
+    "bar",
+    "beach access",
+    "whale watching"
+  ],
   "photos": [
-    { "url": "/images/hotels/cape-weligama-sri-lanka/hero.webp", "alt": "cape-weligama-sri-lanka — hero", "type": "hero" },
-    { "url": "/images/hotels/cape-weligama-sri-lanka/room.webp", "alt": "cape-weligama-sri-lanka — room", "type": "room" },
-    { "url": "/images/hotels/cape-weligama-sri-lanka/pool.webp", "alt": "cape-weligama-sri-lanka — pool", "type": "pool" },
-    { "url": "/images/hotels/cape-weligama-sri-lanka/spa.webp", "alt": "cape-weligama-sri-lanka — spa", "type": "spa" },
-    { "url": "/images/hotels/cape-weligama-sri-lanka/dining.webp", "alt": "cape-weligama-sri-lanka — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/cape-weligama-sri-lanka/hero.webp",
+      "alt": "cape-weligama-sri-lanka — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/cape-weligama-sri-lanka/room.webp",
+      "alt": "cape-weligama-sri-lanka — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/cape-weligama-sri-lanka/pool.webp",
+      "alt": "cape-weligama-sri-lanka — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/cape-weligama-sri-lanka/spa.webp",
+      "alt": "cape-weligama-sri-lanka — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/cape-weligama-sri-lanka/dining.webp",
+      "alt": "cape-weligama-sri-lanka — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.3,
   "tripadvisor_award": true,
@@ -34,13 +70,41 @@
     "verdict": "Cape Weligama commands one of Sri Lanka's most theatrical clifftop settings — 40 pool villas cascading down a headland between the sea and a tea plantation inland, with the Indian Ocean visible from nearly every terrace and pool. The exceptional restaurant draws on both Sri Lankan and global flavours with genuine talent, the whale watching from December to April is outstanding, and the butler service anticipates rather than simply responds. This is luxury Sri Lanka at its most polished and romantic.",
     "best_room": "The Clifftop Pool Villas are the hotel's signature honeymoon accommodation — suspended on the headland with near-360-degree ocean views, infinity pools dropping into empty sky, and a scale of space and privacy that feels genuinely villa-like. For a slightly lower price point, the Ocean Pool Villas still deliver spectacular sea views and private pools without the extreme clifftop exposure.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Clifftop Welcome", "description": "The approach to Cape Weligama along the southern coastal road is dramatic: a clifftop cape rising above Weligama Bay, ringed by stilt fishermen performing their ancient balancing act on crossed poles in the shallows below. Your villa opens onto an infinity pool suspended over the sea. The welcome includes a sunset cocktail on your terrace as the fishing boats return to harbour. Dinner at the hilltop restaurant showcases fresh-caught lobster and crab." },
-      { "day": 2, "title": "Stilt Fishermen & Mirissa Beach", "description": "Walk down to the shoreline at dawn to photograph and meet the stilt fishermen of Weligama Bay — one of Sri Lanka's most iconic images. Continue east along the coast to Mirissa's crescent beach: arguably the south coast's finest stretch of sand, with calm morning waters and a relaxed village atmosphere. Whale watching boats depart from Mirissa Harbour from 6am (December–April)." },
-      { "day": 3, "title": "Galle Fort Exploration", "description": "Hire the hotel's driver for a day in Galle Fort — the Dutch-built colonial fortress town 30 minutes west. Walk the rampart walls at sunrise, browse the curated boutiques of the inner fort streets (Barefoot, Stick No Bills, Pedlar Street shops), and lunch at a fort restaurant. Return via Unawatuna beach for a late afternoon swim in the sheltered bay." },
-      { "day": 4, "title": "Ayurvedic Spa Immersion", "description": "Cape Weligama's spa uses both Sri Lankan Ayurvedic traditions and contemporary wellness approaches. Book a full-day couples' programme: begin with a joint consultation with the Ayurvedic physician, followed by a personalised herbal oil treatment, a deep tissue massage, and a flower petal bath in a stone tub on your villa terrace. Lunch is a healing menu of Ayurvedic-prescribed foods. Complete the day at the infinity pool at dusk." },
-      { "day": 5, "title": "Blue Whale Encounter", "description": "The waters off Sri Lanka's southern tip are seasonally home to blue whales — the largest animals to have ever lived on Earth. A pre-dawn departure from Mirissa Harbour on a fast catamaran gives the best chance of encounters, typically within 5–15 miles offshore. This is a life-defining wildlife moment that very few honeymoons anywhere in the world can offer. Return for a champagne brunch back at the cape." },
-      { "day": 6, "title": "Tea Plantation & Cooking Class", "description": "Inland from the coast, the landscape rises quickly into tea country. A guided morning drive through small-scale tea estates reaches a working factory where the full withering, rolling, fermenting, and drying process is demonstrated. A cooking class at a local home follows: learning to make coconut milk curry, dhal, and kottu roti from scratch. Return for a final sunset at the clifftop bar." },
-      { "day": 7, "title": "Farewell Morning", "description": "A final swim in the infinity pool as the sun rises over the Indian Ocean — one of the most beautiful morning views any hotel in Asia can offer. Breakfast on your terrace with fresh papaya, pol sambol, and string hoppers. The hotel's driver takes you along the southern coast road to Colombo or directly to the airport, the sea always on one side, the palms always leaning toward the water." }
+      {
+        "day": 1,
+        "title": "Arrival & Clifftop Welcome",
+        "description": "The approach to Cape Weligama along the southern coastal road is dramatic: a clifftop cape rising above Weligama Bay, ringed by stilt fishermen performing their ancient balancing act on crossed poles in the shallows below. Your villa opens onto an infinity pool suspended over the sea. The welcome includes a sunset cocktail on your terrace as the fishing boats return to harbour. Dinner at the hilltop restaurant showcases fresh-caught lobster and crab."
+      },
+      {
+        "day": 2,
+        "title": "Stilt Fishermen & Mirissa Beach",
+        "description": "Walk down to the shoreline at dawn to photograph and meet the stilt fishermen of Weligama Bay — one of Sri Lanka's most iconic images. Continue east along the coast to Mirissa's crescent beach: arguably the south coast's finest stretch of sand, with calm morning waters and a relaxed village atmosphere. Whale watching boats depart from Mirissa Harbour from 6am (December–April)."
+      },
+      {
+        "day": 3,
+        "title": "Galle Fort Exploration",
+        "description": "Hire the hotel's driver for a day in Galle Fort — the Dutch-built colonial fortress town 30 minutes west. Walk the rampart walls at sunrise, browse the curated boutiques of the inner fort streets (Barefoot, Stick No Bills, Pedlar Street shops), and lunch at a fort restaurant. Return via Unawatuna beach for a late afternoon swim in the sheltered bay."
+      },
+      {
+        "day": 4,
+        "title": "Ayurvedic Spa Immersion",
+        "description": "Cape Weligama's spa uses both Sri Lankan Ayurvedic traditions and contemporary wellness approaches. Book a full-day couples' programme: begin with a joint consultation with the Ayurvedic physician, followed by a personalised herbal oil treatment, a deep tissue massage, and a flower petal bath in a stone tub on your villa terrace. Lunch is a healing menu of Ayurvedic-prescribed foods. Complete the day at the infinity pool at dusk."
+      },
+      {
+        "day": 5,
+        "title": "Blue Whale Encounter",
+        "description": "The waters off Sri Lanka's southern tip are seasonally home to blue whales — the largest animals to have ever lived on Earth. A pre-dawn departure from Mirissa Harbour on a fast catamaran gives the best chance of encounters, typically within 5–15 miles offshore. This is a life-defining wildlife moment that very few honeymoons anywhere in the world can offer. Return for a champagne brunch back at the cape."
+      },
+      {
+        "day": 6,
+        "title": "Tea Plantation & Cooking Class",
+        "description": "Inland from the coast, the landscape rises quickly into tea country. A guided morning drive through small-scale tea estates reaches a working factory where the full withering, rolling, fermenting, and drying process is demonstrated. A cooking class at a local home follows: learning to make coconut milk curry, dhal, and kottu roti from scratch. Return for a final sunset at the clifftop bar."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "A final swim in the infinity pool as the sun rises over the Indian Ocean — one of the most beautiful morning views any hotel in Asia can offer. Breakfast on your terrace with fresh papaya, pol sambol, and string hoppers. The hotel's driver takes you along the southern coast road to Colombo or directly to the airport, the sea always on one side, the palms always leaning toward the water."
+      }
     ],
     "caveats": [
       "Cape Weligama is at its best December to April — outside these months the southwest monsoon brings rough seas, overcast skies, and very limited swimming. The resort stays open but the beach and pool-with-ocean-view experience is significantly diminished.",
@@ -48,12 +112,30 @@
       "Whale watching from Mirissa is weather and season dependent — the best window is January to March. Departures can be cancelled due to sea conditions, and sightings are never guaranteed, though success rates are high in peak season."
     ],
     "faqs": [
-      { "question": "Is Cape Weligama good for honeymooners?", "answer": "Strongly yes. The clifftop villa setting with private infinity pool, the exceptional restaurant quality, full butler service, and proximity to whale watching create a honeymoon package that is hard to fault. The combination of natural drama — clifftop location, ocean panoramas, wildlife — with true five-star comfort is particularly well-executed here." },
-      { "question": "What is the best time to visit?", "answer": "December through April is peak season: calm seas, blue-sky days, and the best whale watching windows. January and February are the driest and most reliable months. Whale watching is best January to March. Avoid May to November if the beach and ocean experience is central to your honeymoon." },
-      { "question": "What should we book in advance?", "answer": "Whale watching excursions from Mirissa should be arranged at least the day before through the hotel. The spa's full-day Ayurvedic programme is popular and should be reserved at booking or upon arrival. If visiting Galle Fort, the hotel concierge can pre-book specific restaurant tables at the fort's better restaurants." },
-      { "question": "Is it adults-only?", "answer": "No, but the villa format, price point, and romantic setting make the guest mix predominantly couples and honeymooners. Families with children are welcomed but uncommon — the clifftop villa layout and steep paths to the beach make it less suitable for families with very young children." },
-      { "question": "What's the best room for a honeymoon?", "answer": "Clifftop Pool Villas are the ultimate choice — the extreme headland setting, the 180-degree ocean view, and the private infinity pool together create a visual drama that defines the stay. Ocean Pool Villas offer very similar views at a slightly lower price. All villas have private pools and butler service." },
-      { "question": "How do we get there?", "answer": "From Colombo Bandaranaike International Airport: approximately 2.5 to 3 hours by private car via the Southern Expressway (E01) to the Weligama/Matara exit. The hotel arranges private car transfers. Nearest domestic airports are Koggala (GAQ) or Mattala Rajapaksa (HRI). Galle and Mirissa are both within 30 minutes by car." }
+      {
+        "question": "Is Cape Weligama good for honeymooners?",
+        "answer": "Strongly yes. The clifftop villa setting with private infinity pool, the exceptional restaurant quality, full butler service, and proximity to whale watching create a honeymoon package that is hard to fault. The combination of natural drama — clifftop location, ocean panoramas, wildlife — with true five-star comfort is particularly well-executed here."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "December through April is peak season: calm seas, blue-sky days, and the best whale watching windows. January and February are the driest and most reliable months. Whale watching is best January to March. Avoid May to November if the beach and ocean experience is central to your honeymoon."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "Whale watching excursions from Mirissa should be arranged at least the day before through the hotel. The spa's full-day Ayurvedic programme is popular and should be reserved at booking or upon arrival. If visiting Galle Fort, the hotel concierge can pre-book specific restaurant tables at the fort's better restaurants."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "No, but the villa format, price point, and romantic setting make the guest mix predominantly couples and honeymooners. Families with children are welcomed but uncommon — the clifftop villa layout and steep paths to the beach make it less suitable for families with very young children."
+      },
+      {
+        "question": "What's the best room for a honeymoon?",
+        "answer": "Clifftop Pool Villas are the ultimate choice — the extreme headland setting, the 180-degree ocean view, and the private infinity pool together create a visual drama that defines the stay. Ocean Pool Villas offer very similar views at a slightly lower price. All villas have private pools and butler service."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "From Colombo Bandaranaike International Airport: approximately 2.5 to 3 hours by private car via the Southern Expressway (E01) to the Weligama/Matara exit. The hotel arranges private car transfers. Nearest domestic airports are Koggala (GAQ) or Mattala Rajapaksa (HRI). Galle and Mirissa are both within 30 minutes by car."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Cape Weligama\n\nDear Cape Weligama team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: a Clifftop Pool Villa or Ocean Pool Villa.\n\nCould you please let us know:\n- Current availability for our dates\n- Any honeymoon packages or complimentary amenities\n- Whale watching availability during our stay dates\n\nThank you for your time.\n\n[Your names]"
   },

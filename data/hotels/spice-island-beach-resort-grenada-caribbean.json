@@ -3,19 +3,64 @@
   "name": "Spice Island Beach Resort",
   "destination": "caribbean",
   "country": "caribbean",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 87,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 18, "spa": 15, "award": 12, "pool": 15, "beach": 17, "room_service": 5, "stars": 5, "luxury": 0 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 18,
+    "spa": 15,
+    "award": 12,
+    "pool": 15,
+    "beach": 17,
+    "room_service": 5,
+    "stars": 5,
+    "luxury": 0
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 600, "max": 2000 },
+  "price_per_night_usd": {
+    "min": 600,
+    "max": 2000
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "beach", "room service", "private pools", "water sports", "fine dining"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beach",
+    "room service",
+    "private pools",
+    "water sports",
+    "fine dining"
+  ],
   "photos": [
-    { "url": "/images/hotels/spice-island-beach-resort-grenada-caribbean/hero.webp", "alt": "spice-island-beach-resort-grenada-caribbean — hero", "type": "hero" },
-    { "url": "/images/hotels/spice-island-beach-resort-grenada-caribbean/room.webp", "alt": "spice-island-beach-resort-grenada-caribbean — room", "type": "room" },
-    { "url": "/images/hotels/spice-island-beach-resort-grenada-caribbean/pool.webp", "alt": "spice-island-beach-resort-grenada-caribbean — pool", "type": "pool" },
-    { "url": "/images/hotels/spice-island-beach-resort-grenada-caribbean/spa.webp", "alt": "spice-island-beach-resort-grenada-caribbean — spa", "type": "spa" },
-    { "url": "/images/hotels/spice-island-beach-resort-grenada-caribbean/dining.webp", "alt": "spice-island-beach-resort-grenada-caribbean — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/spice-island-beach-resort-grenada-caribbean/hero.webp",
+      "alt": "spice-island-beach-resort-grenada-caribbean — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/spice-island-beach-resort-grenada-caribbean/room.webp",
+      "alt": "spice-island-beach-resort-grenada-caribbean — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/spice-island-beach-resort-grenada-caribbean/pool.webp",
+      "alt": "spice-island-beach-resort-grenada-caribbean — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/spice-island-beach-resort-grenada-caribbean/spa.webp",
+      "alt": "spice-island-beach-resort-grenada-caribbean — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/spice-island-beach-resort-grenada-caribbean/dining.webp",
+      "alt": "spice-island-beach-resort-grenada-caribbean — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.3,
   "tripadvisor_award": true,
@@ -24,13 +69,41 @@
     "verdict": "Spice Island Beach Resort is the finest hotel in Grenada — 'the Isle of Spice' — on the legendary Grand Anse Beach, a 3km arc of powdery white sand that is consistently rated one of the best beaches in the Caribbean. All 64 suites have private pools or whirlpools, the resort has won Caribbean's Leading Resort multiple times, and its location on Grenada's most beautiful island opens doors to the extraordinary world of nutmeg and mace plantations, rum distilleries, and the lush Grand Etang rainforest that makes Grenada one of the most culturally and naturally rich islands in the Lesser Antilles.",
     "best_room": "The Serenity Pool Suite is Spice Island's most celebrated honeymoon accommodation — a beautifully designed beachfront suite with an enormous private pool, tropical garden seclusion, a four-poster king bed in a room that opens completely to the Caribbean breeze, and direct access to Grand Anse Beach. The Sunset Bliss Pool Suite faces west for the extraordinary Grenadian sunsets over the Caribbean from a private pool terrace.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival on the Isle of Spice", "description": "Land at Maurice Bishop International Airport (10 minutes from Spice Island) and transfer directly to Grand Anse Beach. Spice Island's arrival is immediately distinctive — the scent of nutmeg on the warm Caribbean air, the white Grand Anse sand directly in front of the lobby, and the warmth of Grenadian hospitality set the tone. Champagne in your private pool." },
-      { "day": 2, "title": "Grand Anse Beach Day", "description": "Grand Anse Beach, Spice Island's front door, is one of the top five beaches in the Caribbean — 3km of white sand, calm Caribbean water, and perfect conditions for swimming, paddleboarding, and snorkeling. The offshore reef has excellent visibility and Grenada's waters are clear year-round. The resort's beach service is attentive; the setting is magnificent." },
-      { "day": 3, "title": "Spice Plantation Tour", "description": "Grenada produces 20% of the world's nutmeg, as well as mace, cinnamon, cloves, and ginger. A guided plantation tour through the island's interior — where the agricultural traditions stretch back to the 18th century and the scent of spices fills the humid forest air — is one of the most sensory and culturally fascinating half-days in the Caribbean. Return for an afternoon in your private pool." },
-      { "day": 4, "title": "Grand Etang Rainforest & Crater Lake", "description": "Grenada's volcanic interior is accessible from Grand Anse in 30 minutes. Grand Etang National Park preserves tropical rainforest around a volcanic crater lake at 530m altitude — the forest has Mona monkeys (introduced from West Africa) and extraordinary bird diversity including the Grenada dove (critically endangered) and multiple hummingbird species. A guided waterfall hike is outstanding." },
-      { "day": 5, "title": "Wreck Diving: the Bianca C", "description": "The Bianca C — a 184-meter Italian ocean liner that sank in 1961 after an onboard fire — is one of the most celebrated wreck dives in the Caribbean, lying in 50 meters of water off St. George's harbour. For certified divers, this is a bucket-list dive; for non-divers, Grenada's shallow reef dives and snorkeling are outstanding in their own right." },
-      { "day": 6, "title": "Rum Distillery & Sunset Dinner", "description": "The River Antoine rum distillery, in continuous operation since 1785, still uses the original water-wheel to crush sugarcane and a wood-fired copper pot still for distillation — one of the last functioning 18th-century distilleries in the world. The estate rum is powerful and extraordinary. Return for Spice Island's signature Grenadian dinner using locally caught seafood and garden herbs." },
-      { "day": 7, "title": "Final Caribbean Morning", "description": "One last swim in your private pool and on Grand Anse beach, a final breakfast with the Caribbean spreading before you, and the gentle transfer to the airport. Grenada's distinctive combination of spice, culture, and beach luxury stays with you." }
+      {
+        "day": 1,
+        "title": "Arrival on the Isle of Spice",
+        "description": "Land at Maurice Bishop International Airport (10 minutes from Spice Island) and transfer directly to Grand Anse Beach. Spice Island's arrival is immediately distinctive — the scent of nutmeg on the warm Caribbean air, the white Grand Anse sand directly in front of the lobby, and the warmth of Grenadian hospitality set the tone. Champagne in your private pool."
+      },
+      {
+        "day": 2,
+        "title": "Grand Anse Beach Day",
+        "description": "Grand Anse Beach, Spice Island's front door, is one of the top five beaches in the Caribbean — 3km of white sand, calm Caribbean water, and perfect conditions for swimming, paddleboarding, and snorkeling. The offshore reef has excellent visibility and Grenada's waters are clear year-round. The resort's beach service is attentive; the setting is magnificent."
+      },
+      {
+        "day": 3,
+        "title": "Spice Plantation Tour",
+        "description": "Grenada produces 20% of the world's nutmeg, as well as mace, cinnamon, cloves, and ginger. A guided plantation tour through the island's interior — where the agricultural traditions stretch back to the 18th century and the scent of spices fills the humid forest air — is one of the most sensory and culturally fascinating half-days in the Caribbean. Return for an afternoon in your private pool."
+      },
+      {
+        "day": 4,
+        "title": "Grand Etang Rainforest & Crater Lake",
+        "description": "Grenada's volcanic interior is accessible from Grand Anse in 30 minutes. Grand Etang National Park preserves tropical rainforest around a volcanic crater lake at 530m altitude — the forest has Mona monkeys (introduced from West Africa) and extraordinary bird diversity including the Grenada dove (critically endangered) and multiple hummingbird species. A guided waterfall hike is outstanding."
+      },
+      {
+        "day": 5,
+        "title": "Wreck Diving: the Bianca C",
+        "description": "The Bianca C — a 184-meter Italian ocean liner that sank in 1961 after an onboard fire — is one of the most celebrated wreck dives in the Caribbean, lying in 50 meters of water off St. George's harbour. For certified divers, this is a bucket-list dive; for non-divers, Grenada's shallow reef dives and snorkeling are outstanding in their own right."
+      },
+      {
+        "day": 6,
+        "title": "Rum Distillery & Sunset Dinner",
+        "description": "The River Antoine rum distillery, in continuous operation since 1785, still uses the original water-wheel to crush sugarcane and a wood-fired copper pot still for distillation — one of the last functioning 18th-century distilleries in the world. The estate rum is powerful and extraordinary. Return for Spice Island's signature Grenadian dinner using locally caught seafood and garden herbs."
+      },
+      {
+        "day": 7,
+        "title": "Final Caribbean Morning",
+        "description": "One last swim in your private pool and on Grand Anse beach, a final breakfast with the Caribbean spreading before you, and the gentle transfer to the airport. Grenada's distinctive combination of spice, culture, and beach luxury stays with you."
+      }
     ],
     "caveats": [
       "Grenada is south of the main hurricane belt and less affected than the northern Caribbean, but the island is not entirely immune to tropical storm activity during June–November.",
@@ -38,12 +111,30 @@
       "Getting to Grenada requires either a connecting flight from Miami, New York, London (direct British Airways), or other Caribbean hubs. London Gatwick has direct flights, making it popular with British honeymooners."
     ],
     "faqs": [
-      { "question": "Is Spice Island Beach Resort good for honeymooners?", "answer": "It is the finest resort in Grenada and one of the best in the Eastern Caribbean. All 64 suites have private pools or whirlpools — an extraordinary commitment to privacy for honeymooners. Combined with Grand Anse's beautiful beach, the island's spice plantations and rainforest, and exceptional service, it creates a complete and distinctive Caribbean honeymoon." },
-      { "question": "What is the best time to visit?", "answer": "December through May for the best weather. Grenada is in the southern Caribbean, outside the main hurricane belt, making it more reliable in the shoulder months than northern Caribbean destinations. January through April is peak season with excellent weather." },
-      { "question": "How far in advance should you book?", "answer": "Book 3–5 months ahead for peak season (December–March) and 4–6 weeks for other dates. The Serenity Pool Suite and Sunset Bliss Suite are the most sought-after." },
-      { "question": "Is Spice Island adults-only?", "answer": "No, families are welcome. However, the private pool suites, fine dining, and overall luxury focus create a couples-oriented atmosphere. Children are present but Spice Island is primarily a romantic resort." },
-      { "question": "What is the best room type?", "answer": "Serenity Pool Suite for the most private and romantic beach position with a large private pool. Sunset Bliss Pool Suite for the best western-facing sunset views from a private pool terrace. Both are exceptional honeymoon suites." },
-      { "question": "How do you get to Spice Island Beach Resort?", "answer": "Fly into Maurice Bishop International Airport (GND) in Grenada — direct flights from London Gatwick (British Airways), New York (JFK), Toronto, and Miami, plus regional connections from Trinidad, Barbados, and Antigua. The resort is 10 minutes from the airport." }
+      {
+        "question": "Is Spice Island Beach Resort good for honeymooners?",
+        "answer": "It is the finest resort in Grenada and one of the best in the Eastern Caribbean. All 64 suites have private pools or whirlpools — an extraordinary commitment to privacy for honeymooners. Combined with Grand Anse's beautiful beach, the island's spice plantations and rainforest, and exceptional service, it creates a complete and distinctive Caribbean honeymoon."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "December through May for the best weather. Grenada is in the southern Caribbean, outside the main hurricane belt, making it more reliable in the shoulder months than northern Caribbean destinations. January through April is peak season with excellent weather."
+      },
+      {
+        "question": "How far in advance should you book?",
+        "answer": "Book 3–5 months ahead for peak season (December–March) and 4–6 weeks for other dates. The Serenity Pool Suite and Sunset Bliss Suite are the most sought-after."
+      },
+      {
+        "question": "Is Spice Island adults-only?",
+        "answer": "No, families are welcome. However, the private pool suites, fine dining, and overall luxury focus create a couples-oriented atmosphere. Children are present but Spice Island is primarily a romantic resort."
+      },
+      {
+        "question": "What is the best room type?",
+        "answer": "Serenity Pool Suite for the most private and romantic beach position with a large private pool. Sunset Bliss Pool Suite for the best western-facing sunset views from a private pool terrace. Both are exceptional honeymoon suites."
+      },
+      {
+        "question": "How do you get to Spice Island Beach Resort?",
+        "answer": "Fly into Maurice Bishop International Airport (GND) in Grenada — direct flights from London Gatwick (British Airways), New York (JFK), Toronto, and Miami, plus regional connections from Trinidad, Barbados, and Antigua. The resort is 10 minutes from the airport."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — Spice Island Beach Resort\n\nDear Spice Island team,\n\nWe are planning our honeymoon [DATE]-[DATE] and very interested in the Serenity Pool Suite or Sunset Bliss Pool Suite. Please advise on availability, current honeymoon packages, and whether a spice plantation tour and a private beach dinner can be arranged during our stay.\n\nThank you,\n[Your names]"
   },

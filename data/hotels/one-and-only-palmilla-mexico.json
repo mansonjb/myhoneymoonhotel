@@ -3,7 +3,11 @@
   "name": "One&Only Palmilla",
   "destination": "mexico",
   "country": "mexico",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 92,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,50 @@
     "luxury": 8
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 900, "max": 2800 },
+  "price_per_night_usd": {
+    "min": 900,
+    "max": 2800
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "beach", "room service", "butler service", "golf", "multiple restaurants", "chapel", "private marina", "water sports", "kids-free zones"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beach",
+    "room service",
+    "butler service",
+    "golf",
+    "multiple restaurants",
+    "chapel",
+    "private marina",
+    "water sports",
+    "kids-free zones"
+  ],
   "photos": [
-    { "url": "/images/hotels/one-and-only-palmilla-mexico/hero.webp", "alt": "one-and-only-palmilla-mexico — hero", "type": "hero" },
-    { "url": "/images/hotels/one-and-only-palmilla-mexico/room.webp", "alt": "one-and-only-palmilla-mexico — room", "type": "room" },
-    { "url": "/images/hotels/one-and-only-palmilla-mexico/pool.webp", "alt": "one-and-only-palmilla-mexico — pool", "type": "pool" },
-    { "url": "/images/hotels/one-and-only-palmilla-mexico/spa.webp", "alt": "one-and-only-palmilla-mexico — spa", "type": "spa" },
-    { "url": "/images/hotels/one-and-only-palmilla-mexico/dining.webp", "alt": "one-and-only-palmilla-mexico — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/one-and-only-palmilla-mexico/hero.webp",
+      "alt": "one-and-only-palmilla-mexico — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/one-and-only-palmilla-mexico/room.webp",
+      "alt": "one-and-only-palmilla-mexico — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/one-and-only-palmilla-mexico/pool.webp",
+      "alt": "one-and-only-palmilla-mexico — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/one-and-only-palmilla-mexico/spa.webp",
+      "alt": "one-and-only-palmilla-mexico — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/one-and-only-palmilla-mexico/dining.webp",
+      "alt": "one-and-only-palmilla-mexico — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.5,
   "tripadvisor_award": true,
@@ -34,13 +73,41 @@
     "verdict": "One&Only Palmilla is the crown jewel of Los Cabos — a hacienda-style resort built by a Mexican prince in 1956 and transformed into one of the finest luxury hotels in the Western Hemisphere. Its setting on a rocky promontory above the only swimmable beach on the Los Cabos corridor (the rest are swamped by Pacific shore break) is unique and valuable. The Charlie Trotter-heritage restaurant, the extraordinary One&Only Spa, and the intimate chapel on the cliff where many couples choose to marry all contribute to an experience of exceptional refinement and genuine romantic magic.",
     "best_room": "The Ocean View Suite in the main hacienda building combines colonial Mexican architecture with contemporary luxury — hand-carved wooden furniture, Talavera tile bathrooms, and a private terrace commanding views of the Sea of Cortez and El Arco arch. For the ultimate experience, the Casita Suite with private plunge pool set in a bougainvillea garden is deeply romantic and secluded.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Palmilla Beach", "description": "Arrive at Los Cabos Airport and be met by the One&Only's private car for the drive to the promontory above Palmilla Beach. The resort's whitewashed mission church visible from the approach road sets the tone. Check in through a gracious, unhurried hacienda ritual, then walk the path to Palmilla Beach — the only natural calm-water swimming beach in the Los Cabos corridor. Dinner at the resort's Suviche restaurant overlooking the sea completes a perfect first evening." },
-      { "day": 2, "title": "One&Only Spa", "description": "The spa is set in a dedicated facility with indoor and outdoor treatment areas, hydrotherapy pools, and private couple's suites. Book the Signature Couple's Journey — a 2.5-hour experience incorporating Mexican jade stone massage, a blue agave exfoliation, and a private floral bath ritual. The spa's architecture — open-air terraces, indigenous plants, and dramatic Sea of Cortez views — is as therapeutic as the treatments themselves." },
-      { "day": 3, "title": "Whale Watching & El Arco", "description": "Book a private sunrise charter for whale watching in the Sea of Cortez, where gray and humpback whales congregate from January through March in extraordinary numbers. Year-round, arrange a boat trip to El Arco — the famous granite arch at Land's End — and snorkel in the sea lion colony at nearby Pelican Rock. Return in time for a long lunch at Suviche's ceviche bar." },
-      { "day": 4, "title": "Golfing on the Sea", "description": "The Palmilla Golf Course (Jack Nicklaus Signature) sits on a cactus-covered headland above the Sea of Cortez — 18 holes of dramatic desert and ocean scenery that non-golfers will be tempted by. The resort can arrange a private lesson for beginners before a casual round. The 10th hole famously plays directly alongside the cliff edge above the sea. After golf, the pool deck awaits for a long afternoon." },
-      { "day": 5, "title": "Cabo San Lucas & Medano Beach", "description": "Take a 20-minute taxi into Cabo San Lucas for a lively afternoon on Medano Beach, surrounded by the energy and color of Cabo's most animated beach. Stop at Mango Deck or Nikki Beach for lunch with live music, then explore the marina district's art galleries and tequila bars. Return to the tranquility of Palmilla for sunset cocktails on the terrace — the contrast makes the resort's elegance feel even more profound." },
-      { "day": 6, "title": "Private Beach Dinner Under the Stars", "description": "Arrange the One&Only's iconic private beach dinner — a torchlit table set directly on Palmilla Beach with a private chef, sommelier, and butler serving a customized 5-course menu. The sound of the Sea of Cortez lapping the shore, the stars of the Baja desert sky above, and your own private corner of one of Mexico's most beautiful beaches makes this a dinner neither of you will ever forget." },
-      { "day": 7, "title": "Farewell Morning", "description": "Take a final early morning swim on Palmilla Beach — the calm water at dawn is glassy, warm, and occasionally visited by dolphins who swim through the bay at sunrise. Return to your suite for a room service breakfast on the terrace, watching pelicans and frigate birds wheel over the promontory. The drive back to the airport passes through the Baja desert corridor — watch for whale blows offshore on clear days." }
+      {
+        "day": 1,
+        "title": "Arrival & Palmilla Beach",
+        "description": "Arrive at Los Cabos Airport and be met by the One&Only's private car for the drive to the promontory above Palmilla Beach. The resort's whitewashed mission church visible from the approach road sets the tone. Check in through a gracious, unhurried hacienda ritual, then walk the path to Palmilla Beach — the only natural calm-water swimming beach in the Los Cabos corridor. Dinner at the resort's Suviche restaurant overlooking the sea completes a perfect first evening."
+      },
+      {
+        "day": 2,
+        "title": "One&Only Spa",
+        "description": "The spa is set in a dedicated facility with indoor and outdoor treatment areas, hydrotherapy pools, and private couple's suites. Book the Signature Couple's Journey — a 2.5-hour experience incorporating Mexican jade stone massage, a blue agave exfoliation, and a private floral bath ritual. The spa's architecture — open-air terraces, indigenous plants, and dramatic Sea of Cortez views — is as therapeutic as the treatments themselves."
+      },
+      {
+        "day": 3,
+        "title": "Whale Watching & El Arco",
+        "description": "Book a private sunrise charter for whale watching in the Sea of Cortez, where gray and humpback whales congregate from January through March in extraordinary numbers. Year-round, arrange a boat trip to El Arco — the famous granite arch at Land's End — and snorkel in the sea lion colony at nearby Pelican Rock. Return in time for a long lunch at Suviche's ceviche bar."
+      },
+      {
+        "day": 4,
+        "title": "Golfing on the Sea",
+        "description": "The Palmilla Golf Course (Jack Nicklaus Signature) sits on a cactus-covered headland above the Sea of Cortez — 18 holes of dramatic desert and ocean scenery that non-golfers will be tempted by. The resort can arrange a private lesson for beginners before a casual round. The 10th hole famously plays directly alongside the cliff edge above the sea. After golf, the pool deck awaits for a long afternoon."
+      },
+      {
+        "day": 5,
+        "title": "Cabo San Lucas & Medano Beach",
+        "description": "Take a 20-minute taxi into Cabo San Lucas for a lively afternoon on Medano Beach, surrounded by the energy and color of Cabo's most animated beach. Stop at Mango Deck or Nikki Beach for lunch with live music, then explore the marina district's art galleries and tequila bars. Return to the tranquility of Palmilla for sunset cocktails on the terrace — the contrast makes the resort's elegance feel even more profound."
+      },
+      {
+        "day": 6,
+        "title": "Private Beach Dinner Under the Stars",
+        "description": "Arrange the One&Only's iconic private beach dinner — a torchlit table set directly on Palmilla Beach with a private chef, sommelier, and butler serving a customized 5-course menu. The sound of the Sea of Cortez lapping the shore, the stars of the Baja desert sky above, and your own private corner of one of Mexico's most beautiful beaches makes this a dinner neither of you will ever forget."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "Take a final early morning swim on Palmilla Beach — the calm water at dawn is glassy, warm, and occasionally visited by dolphins who swim through the bay at sunrise. Return to your suite for a room service breakfast on the terrace, watching pelicans and frigate birds wheel over the promontory. The drive back to the airport passes through the Baja desert corridor — watch for whale blows offshore on clear days."
+      }
     ],
     "caveats": [
       "One&Only Palmilla shares the Los Cabos property market with many ultra-luxury competitors — its rates at $900–$2,800 per night are substantial and on-site dining adds meaningfully to the total cost.",

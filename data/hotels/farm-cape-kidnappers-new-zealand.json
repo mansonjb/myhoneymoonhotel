@@ -3,19 +3,63 @@
   "name": "The Farm at Cape Kidnappers",
   "destination": "new-zealand",
   "country": "new-zealand",
-  "experience_types": ["luxury", "wellness"],
+  "experience_types": [
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 89,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 18, "spa": 12, "award": 15, "pool": 10, "beach": 5, "room_service": 5, "stars": 14, "luxury": 10 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 18,
+    "spa": 12,
+    "award": 15,
+    "pool": 10,
+    "beach": 5,
+    "room_service": 5,
+    "stars": 14,
+    "luxury": 10
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 1200, "max": 4000 },
+  "price_per_night_usd": {
+    "min": 1200,
+    "max": 4000
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "room service", "golf", "tennis", "gannet colony", "fine dining"],
+  "amenities": [
+    "spa",
+    "pool",
+    "room service",
+    "golf",
+    "tennis",
+    "gannet colony",
+    "fine dining"
+  ],
   "photos": [
-    { "url": "/images/hotels/farm-cape-kidnappers-new-zealand/hero.webp", "alt": "farm-cape-kidnappers-new-zealand — hero", "type": "hero" },
-    { "url": "/images/hotels/farm-cape-kidnappers-new-zealand/room.webp", "alt": "farm-cape-kidnappers-new-zealand — room", "type": "room" },
-    { "url": "/images/hotels/farm-cape-kidnappers-new-zealand/pool.webp", "alt": "farm-cape-kidnappers-new-zealand — pool", "type": "pool" },
-    { "url": "/images/hotels/farm-cape-kidnappers-new-zealand/spa.webp", "alt": "farm-cape-kidnappers-new-zealand — spa", "type": "spa" },
-    { "url": "/images/hotels/farm-cape-kidnappers-new-zealand/dining.webp", "alt": "farm-cape-kidnappers-new-zealand — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/farm-cape-kidnappers-new-zealand/hero.webp",
+      "alt": "farm-cape-kidnappers-new-zealand — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/farm-cape-kidnappers-new-zealand/room.webp",
+      "alt": "farm-cape-kidnappers-new-zealand — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/farm-cape-kidnappers-new-zealand/pool.webp",
+      "alt": "farm-cape-kidnappers-new-zealand — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/farm-cape-kidnappers-new-zealand/spa.webp",
+      "alt": "farm-cape-kidnappers-new-zealand — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/farm-cape-kidnappers-new-zealand/dining.webp",
+      "alt": "farm-cape-kidnappers-new-zealand — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.4,
   "tripadvisor_award": true,
@@ -24,13 +68,41 @@
     "verdict": "The Farm at Cape Kidnappers combines two unique New Zealand experiences in one extraordinary property — a luxury lodge on a working sheep and cattle station at the edge of 500-meter cliffs above Hawke's Bay, and access to the world's largest mainland gannet colony nesting at the cape's tip. The Tom Doak-designed golf course runs along clifftops above the Pacific, the lodge's Art Deco-influenced architecture references Hawke's Bay's famous 1930s rebuilding after the 1931 earthquake, and the service is among New Zealand's finest.",
     "best_room": "The Farmhouse Suite is The Farm's most private and romantic accommodation — a self-contained lodge suite with a private terrace overlooking the valley and sea, a fireplace, and deep soaking bath. The two standalone Farm Cottages offer complete privacy with their own garden terraces and are the choice for couples who want a genuinely independent cottage experience within the property.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival in Hawke's Bay", "description": "Fly into Napier/Hastings Airport (NAP) from Auckland (1 hour), then transfer 30 minutes to The Farm at Cape Kidnappers. The drive through Hawke's Bay's wine country — rows of merlot and chardonnay vines framing the bay — prepares you for the clifftop arrival. Check in to your suite and explore the property on the complimentary guided property tour by farm buggy." },
-      { "day": 2, "title": "Gannet Colony Trek", "description": "Cape Kidnappers hosts the world's largest accessible mainland gannet colony — about 6,500 nesting pairs on the cape's limestone stack. The guided trek along the cliffs (or tractor-pulled wagon for part of the route) to the colony, where gannets nest within arm's reach and perform elaborate courtship rituals, is one of New Zealand's great wildlife experiences, October–March being peak nesting season." },
-      { "day": 3, "title": "Golf on the Cliffs", "description": "The Tom Doak-designed golf course at Cape Kidnappers is regularly ranked among the world's top 20 courses — 18 holes along clifftops 500 meters above the Pacific, with views stretching to the Mahia Peninsula and Hawke's Bay. For non-golfers, the landscape can be explored by farm buggy with a guide who explains the working farm and geological history of the cape." },
-      { "day": 4, "title": "Hawke's Bay Wine Region", "description": "Hawke's Bay is New Zealand's oldest wine region and produces some of the country's finest reds — particularly Syrah and Bordeaux blends from the Gimblett Gravels sub-region. A guided wine tour with The Farm's concierge visits 3–4 outstanding producers including Craggy Range, Te Mata Estate, and Trinity Hill, combining cellar door tastings with a vineyard lunch." },
-      { "day": 5, "title": "Napier Art Deco & Spa", "description": "Napier is one of the world's most intact Art Deco cities — rebuilt almost entirely after the devastating 1931 earthquake in the architectural style then at its peak. A morning walking tour through the streets of pastel-colored deco buildings is fascinating. Return to The Farm for an afternoon at the spa, which uses local Hawke's Bay produce (olive oil, lavender, raw honey) in its treatments." },
-      { "day": 6, "title": "Clifftop Walk & Private Dinner", "description": "The Farm's clifftop walking tracks are extraordinary — 500-meter drops to the blue Pacific below, the cape stretching south, and the agricultural patchwork of Hawke's Bay behind you. A guided walk to the cape point in the afternoon, then a private dinner set up on the farm's highest hilltop terrace at sunset — one of The Farm's signature romantic experiences." },
-      { "day": 7, "title": "Farm Morning & Departure", "description": "A last breakfast with the Hawke's Bay light over the bay, then visit the working farm's sheep and cattle before departure. The Farm at Cape Kidnappers is a real working station — saying goodbye to this place where clifftop luxury meets working New Zealand farmland leaves a strong impression." }
+      {
+        "day": 1,
+        "title": "Arrival in Hawke's Bay",
+        "description": "Fly into Napier/Hastings Airport (NAP) from Auckland (1 hour), then transfer 30 minutes to The Farm at Cape Kidnappers. The drive through Hawke's Bay's wine country — rows of merlot and chardonnay vines framing the bay — prepares you for the clifftop arrival. Check in to your suite and explore the property on the complimentary guided property tour by farm buggy."
+      },
+      {
+        "day": 2,
+        "title": "Gannet Colony Trek",
+        "description": "Cape Kidnappers hosts the world's largest accessible mainland gannet colony — about 6,500 nesting pairs on the cape's limestone stack. The guided trek along the cliffs (or tractor-pulled wagon for part of the route) to the colony, where gannets nest within arm's reach and perform elaborate courtship rituals, is one of New Zealand's great wildlife experiences, October–March being peak nesting season."
+      },
+      {
+        "day": 3,
+        "title": "Golf on the Cliffs",
+        "description": "The Tom Doak-designed golf course at Cape Kidnappers is regularly ranked among the world's top 20 courses — 18 holes along clifftops 500 meters above the Pacific, with views stretching to the Mahia Peninsula and Hawke's Bay. For non-golfers, the landscape can be explored by farm buggy with a guide who explains the working farm and geological history of the cape."
+      },
+      {
+        "day": 4,
+        "title": "Hawke's Bay Wine Region",
+        "description": "Hawke's Bay is New Zealand's oldest wine region and produces some of the country's finest reds — particularly Syrah and Bordeaux blends from the Gimblett Gravels sub-region. A guided wine tour with The Farm's concierge visits 3–4 outstanding producers including Craggy Range, Te Mata Estate, and Trinity Hill, combining cellar door tastings with a vineyard lunch."
+      },
+      {
+        "day": 5,
+        "title": "Napier Art Deco & Spa",
+        "description": "Napier is one of the world's most intact Art Deco cities — rebuilt almost entirely after the devastating 1931 earthquake in the architectural style then at its peak. A morning walking tour through the streets of pastel-colored deco buildings is fascinating. Return to The Farm for an afternoon at the spa, which uses local Hawke's Bay produce (olive oil, lavender, raw honey) in its treatments."
+      },
+      {
+        "day": 6,
+        "title": "Clifftop Walk & Private Dinner",
+        "description": "The Farm's clifftop walking tracks are extraordinary — 500-meter drops to the blue Pacific below, the cape stretching south, and the agricultural patchwork of Hawke's Bay behind you. A guided walk to the cape point in the afternoon, then a private dinner set up on the farm's highest hilltop terrace at sunset — one of The Farm's signature romantic experiences."
+      },
+      {
+        "day": 7,
+        "title": "Farm Morning & Departure",
+        "description": "A last breakfast with the Hawke's Bay light over the bay, then visit the working farm's sheep and cattle before departure. The Farm at Cape Kidnappers is a real working station — saying goodbye to this place where clifftop luxury meets working New Zealand farmland leaves a strong impression."
+      }
     ],
     "caveats": [
       "Cape Kidnappers is primarily a clifftop and farming landscape — there is no beach at the lodge. The shoreline far below is accessible only by tide-dependent walk or water; guests wanting direct beach access should plan this as an excursion.",
@@ -38,12 +110,30 @@
       "Getting to Hawke's Bay requires a domestic flight from Auckland to Napier — factor in the 1-hour flight plus transfer time when planning."
     ],
     "faqs": [
-      { "question": "Is The Farm at Cape Kidnappers good for honeymooners?", "answer": "Excellent — particularly for couples who love wine, golf, wildlife, and the dramatic New Zealand landscape. The clifftop setting above the Pacific, gannet colony access, world-class golf course, and exceptional hospitality create a genuinely distinctive honeymoon that bears no resemblance to a beach resort. The Farm Cottages provide the most private experience." },
-      { "question": "What is the best time to visit?", "answer": "October through April for the gannet colony at full nesting activity, the best weather, and the grape harvest in March (when winemaker lunches at vineyards are exceptional). December and January are peak summer with long evenings. May through September is off-season — the gannets are absent and the weather cooler." },
-      { "question": "How far in advance should you book?", "answer": "Book 4–6 months ahead for summer (December–February) and at least 3 months for shoulder season. The Farm has 22 suites and cottages — more available than smaller lodges, but still in high demand for peak dates." },
-      { "question": "Is The Farm adults-only?", "answer": "No, families are welcome. However, the working farm atmosphere, golf focus, and cliff walking mean it attracts primarily adult couples and groups. Young children would find the experience less engaging than a beach resort." },
-      { "question": "What is the best room type?", "answer": "The Farm Cottages for maximum privacy — standalone cottages with private garden terraces and complete independence. The Farmhouse Suite for the best ocean views from a suite within the main lodge. Both are exceptional." },
-      { "question": "How do you get to The Farm at Cape Kidnappers?", "answer": "Fly from Auckland (AKL) to Napier (NPE) — 1 hour on Air New Zealand. Transfer from Napier Airport takes 30 minutes. The lodge arranges all transfers and a house vehicle is available during your stay for wine country excursions." }
+      {
+        "question": "Is The Farm at Cape Kidnappers good for honeymooners?",
+        "answer": "Excellent — particularly for couples who love wine, golf, wildlife, and the dramatic New Zealand landscape. The clifftop setting above the Pacific, gannet colony access, world-class golf course, and exceptional hospitality create a genuinely distinctive honeymoon that bears no resemblance to a beach resort. The Farm Cottages provide the most private experience."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "October through April for the gannet colony at full nesting activity, the best weather, and the grape harvest in March (when winemaker lunches at vineyards are exceptional). December and January are peak summer with long evenings. May through September is off-season — the gannets are absent and the weather cooler."
+      },
+      {
+        "question": "How far in advance should you book?",
+        "answer": "Book 4–6 months ahead for summer (December–February) and at least 3 months for shoulder season. The Farm has 22 suites and cottages — more available than smaller lodges, but still in high demand for peak dates."
+      },
+      {
+        "question": "Is The Farm adults-only?",
+        "answer": "No, families are welcome. However, the working farm atmosphere, golf focus, and cliff walking mean it attracts primarily adult couples and groups. Young children would find the experience less engaging than a beach resort."
+      },
+      {
+        "question": "What is the best room type?",
+        "answer": "The Farm Cottages for maximum privacy — standalone cottages with private garden terraces and complete independence. The Farmhouse Suite for the best ocean views from a suite within the main lodge. Both are exceptional."
+      },
+      {
+        "question": "How do you get to The Farm at Cape Kidnappers?",
+        "answer": "Fly from Auckland (AKL) to Napier (NPE) — 1 hour on Air New Zealand. Transfer from Napier Airport takes 30 minutes. The lodge arranges all transfers and a house vehicle is available during your stay for wine country excursions."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — The Farm at Cape Kidnappers\n\nDear The Farm team,\n\nWe are planning our honeymoon [DATE]-[DATE] and interested in a Farm Cottage or Farmhouse Suite. Please advise on availability, what is included in the lodge rate, whether the gannet colony walk and a private clifftop dinner can be arranged, and if wine region tours are available through the hotel.\n\nThank you,\n[Your names]"
   },

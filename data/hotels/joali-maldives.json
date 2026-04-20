@@ -3,7 +3,12 @@
   "name": "JOALI Maldives",
   "destination": "maldives",
   "country": "maldives",
-  "experience_types": ["overwater-bungalows", "luxury", "wellness", "beach"],
+  "experience_types": [
+    "overwater-bungalows",
+    "luxury",
+    "wellness",
+    "beach"
+  ],
   "honeymoon_score": 93,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +22,49 @@
     "luxury": 15
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 1500, "max": 5000 },
+  "price_per_night_usd": {
+    "min": 1500,
+    "max": 5000
+  },
   "adults_only": false,
-  "amenities": ["spa", "overwater villas", "beach", "pool", "room service", "butler service", "art installations", "diving", "snorkeling", "wellness island"],
+  "amenities": [
+    "spa",
+    "overwater villas",
+    "beach",
+    "pool",
+    "room service",
+    "butler service",
+    "art installations",
+    "diving",
+    "snorkeling",
+    "wellness island"
+  ],
   "photos": [
-    { "url": "/images/hotels/joali-maldives/hero.webp", "alt": "joali-maldives — hero", "type": "hero" },
-    { "url": "/images/hotels/joali-maldives/room.webp", "alt": "joali-maldives — room", "type": "room" },
-    { "url": "/images/hotels/joali-maldives/pool.webp", "alt": "joali-maldives — pool", "type": "pool" },
-    { "url": "/images/hotels/joali-maldives/spa.webp", "alt": "joali-maldives — spa", "type": "spa" },
-    { "url": "/images/hotels/joali-maldives/dining.webp", "alt": "joali-maldives — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/joali-maldives/hero.webp",
+      "alt": "joali-maldives — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/joali-maldives/room.webp",
+      "alt": "joali-maldives — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/joali-maldives/pool.webp",
+      "alt": "joali-maldives — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/joali-maldives/spa.webp",
+      "alt": "joali-maldives — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/joali-maldives/dining.webp",
+      "alt": "joali-maldives — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.4,
   "tripadvisor_award": true,
@@ -34,13 +73,41 @@
     "verdict": "JOALI Maldives is the Maldives' most visually striking resort — an art-immersive property in the remote Raa Atoll where world-class contemporary art installations punctuate the beaches, jetties, and public spaces at every turn. Its 73 villas, all with private pools, many with water slides straight into the lagoon, combine playful design with genuine luxury. The proximity of sister property JOALI BEING — a dedicated wellness island reachable by a short boat ride — adds an extraordinary dimension for couples seeking both art and holistic restoration.",
     "best_room": "The Water Villa with Pool and Slide is the most joyful honeymoon villa in the Maldives — a fully overwater villa where you can launch down a private water slide directly into the turquoise lagoon. The Beach Pool Villa is more serene: a private beachfront sanctuary with a large infinity pool and direct access to JOALI's vibrant coral beach.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Art Discovery", "description": "Fly to Raa Atoll by seaplane from Malé — a 40-minute journey over the outer atolls. Your villa host greets you with a welcome drink and a brief art map of the resort. JOALI's collection includes works by internationally renowned artists woven throughout the property — from suspended mobiles above the lagoon to hand-carved dining furniture. Explore on foot before the sunset." },
-      { "day": 2, "title": "Water Slide & Lagoon Life", "description": "If you're in the Water Villa, launch the morning by shooting down your private water slide into the crystal lagoon — one of the most purely fun things you can do in the Maldives. Take a snorkel around the house reef and then meet the resident marine biologist for an introduction to the Raa Atoll's extraordinary reef biodiversity. Dine at the beachfront restaurant at sunset." },
-      { "day": 3, "title": "JOALI BEING Wellness Day", "description": "Take the short resort boat to JOALI BEING, the standalone wellness island. This world-class facility combines Ayurvedic treatments, sound healing, mindfulness sessions, and functional medicine consultations into a full-day programme. The architecture — organic forms rising from the jungle — is breathtaking. Return to JOALI in the evening, completely restored." },
-      { "day": 4, "title": "Private Sandbank & Art Sketch", "description": "Your host arranges a private sandbank excursion with a picnic basket, Champagne, and snorkelling gear. On return, join one of the resort's artist-in-residence workshops — creating your own piece to take home as a memento of your honeymoon. Dinner at the signature overwater restaurant, where the setting itself is a work of art." },
-      { "day": 5, "title": "Diving the Raa Atoll", "description": "The Raa Atoll is one of the Maldives' most biologically diverse — whale sharks, manta rays, and hammerhead sharks are resident year-round at different sites. Join JOALI's dive centre for a guided morning dive, then spend the afternoon exploring the resort's art installations at your own pace with the printed artist notes." },
-      { "day": 6, "title": "Spa & Private Dinner", "description": "Book the JOALI Spa couples' treatment — the signature Maldivian ritual using coconut, sea salt, and hibiscus is a two-hour ceremony that leaves skin luminous and spirits soaring. In the evening, arrange a private beach dinner through your villa host: a table set on the sand, a custom menu, and a dedicated service team." },
-      { "day": 7, "title": "Farewell Morning", "description": "Take a final sunrise walk along the beach to see the art installations at dawn — the light transforms them completely at different times of day. A leisurely last breakfast in your villa, then the seaplane back to Malé. JOALI's unique blend of art, nature, and luxury is genuinely unlike anything else in the Maldives." }
+      {
+        "day": 1,
+        "title": "Arrival & Art Discovery",
+        "description": "Fly to Raa Atoll by seaplane from Malé — a 40-minute journey over the outer atolls. Your villa host greets you with a welcome drink and a brief art map of the resort. JOALI's collection includes works by internationally renowned artists woven throughout the property — from suspended mobiles above the lagoon to hand-carved dining furniture. Explore on foot before the sunset."
+      },
+      {
+        "day": 2,
+        "title": "Water Slide & Lagoon Life",
+        "description": "If you're in the Water Villa, launch the morning by shooting down your private water slide into the crystal lagoon — one of the most purely fun things you can do in the Maldives. Take a snorkel around the house reef and then meet the resident marine biologist for an introduction to the Raa Atoll's extraordinary reef biodiversity. Dine at the beachfront restaurant at sunset."
+      },
+      {
+        "day": 3,
+        "title": "JOALI BEING Wellness Day",
+        "description": "Take the short resort boat to JOALI BEING, the standalone wellness island. This world-class facility combines Ayurvedic treatments, sound healing, mindfulness sessions, and functional medicine consultations into a full-day programme. The architecture — organic forms rising from the jungle — is breathtaking. Return to JOALI in the evening, completely restored."
+      },
+      {
+        "day": 4,
+        "title": "Private Sandbank & Art Sketch",
+        "description": "Your host arranges a private sandbank excursion with a picnic basket, Champagne, and snorkelling gear. On return, join one of the resort's artist-in-residence workshops — creating your own piece to take home as a memento of your honeymoon. Dinner at the signature overwater restaurant, where the setting itself is a work of art."
+      },
+      {
+        "day": 5,
+        "title": "Diving the Raa Atoll",
+        "description": "The Raa Atoll is one of the Maldives' most biologically diverse — whale sharks, manta rays, and hammerhead sharks are resident year-round at different sites. Join JOALI's dive centre for a guided morning dive, then spend the afternoon exploring the resort's art installations at your own pace with the printed artist notes."
+      },
+      {
+        "day": 6,
+        "title": "Spa & Private Dinner",
+        "description": "Book the JOALI Spa couples' treatment — the signature Maldivian ritual using coconut, sea salt, and hibiscus is a two-hour ceremony that leaves skin luminous and spirits soaring. In the evening, arrange a private beach dinner through your villa host: a table set on the sand, a custom menu, and a dedicated service team."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "Take a final sunrise walk along the beach to see the art installations at dawn — the light transforms them completely at different times of day. A leisurely last breakfast in your villa, then the seaplane back to Malé. JOALI's unique blend of art, nature, and luxury is genuinely unlike anything else in the Maldives."
+      }
     ],
     "caveats": [
       "The Raa Atoll seaplane transfer from Malé takes 40 minutes and operates in daylight only — late flights require an overnight in Malé.",
@@ -48,12 +115,30 @@
       "73 villas makes this a medium-sized resort — it never feels crowded but is not as intimate as properties with fewer than 50 villas."
     ],
     "faqs": [
-      { "question": "Is JOALI Maldives good for honeymooners?", "answer": "JOALI Maldives is excellent for honeymooners who want more than just a beach holiday — the art immersion adds genuine cultural depth, the villa water slides are pure joy, and the proximity of JOALI BEING for wellness programmes makes this one of the most complete resorts in the Maldives." },
-      { "question": "What is the best time to visit?", "answer": "November through April is the dry season in Raa Atoll, with calm seas and excellent conditions for diving and snorkelling. Manta rays are present throughout the year at various sites, making JOALI a year-round destination." },
-      { "question": "What should we book in advance?", "answer": "Reserve the JOALI BEING full-day wellness programme, spa treatments, and private beach dinner before arrival. Artist-in-residence workshops have limited availability and should be arranged ahead of time." },
-      { "question": "Is it adults-only?", "answer": "No, JOALI Maldives welcomes children and has specific family-oriented facilities. The overwater villa layout and generous villa spacing mean the resort maintains a romantic atmosphere throughout." },
-      { "question": "What's the best room for a honeymoon?", "answer": "The Water Villa with Pool and Slide is the most unique and playful honeymoon option — a private water slide from the villa deck into the lagoon is an experience unavailable anywhere else. For more tranquil romance, the Beach Pool Villa provides a lush beachfront sanctuary." },
-      { "question": "How do we get there?", "answer": "JOALI is reached by seaplane from Malé — approximately 40 minutes. Seaplanes operate in daylight hours only. The resort can arrange an overnight stay in Malé for guests with late or early connections." }
+      {
+        "question": "Is JOALI Maldives good for honeymooners?",
+        "answer": "JOALI Maldives is excellent for honeymooners who want more than just a beach holiday — the art immersion adds genuine cultural depth, the villa water slides are pure joy, and the proximity of JOALI BEING for wellness programmes makes this one of the most complete resorts in the Maldives."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "November through April is the dry season in Raa Atoll, with calm seas and excellent conditions for diving and snorkelling. Manta rays are present throughout the year at various sites, making JOALI a year-round destination."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "Reserve the JOALI BEING full-day wellness programme, spa treatments, and private beach dinner before arrival. Artist-in-residence workshops have limited availability and should be arranged ahead of time."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "No, JOALI Maldives welcomes children and has specific family-oriented facilities. The overwater villa layout and generous villa spacing mean the resort maintains a romantic atmosphere throughout."
+      },
+      {
+        "question": "What's the best room for a honeymoon?",
+        "answer": "The Water Villa with Pool and Slide is the most unique and playful honeymoon option — a private water slide from the villa deck into the lagoon is an experience unavailable anywhere else. For more tranquil romance, the Beach Pool Villa provides a lush beachfront sanctuary."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "JOALI is reached by seaplane from Malé — approximately 40 minutes. Seaplanes operate in daylight hours only. The resort can arrange an overnight stay in Malé for guests with late or early connections."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — JOALI Maldives\n\nDear JOALI Maldives team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: [Water Villa with Pool and Slide / Beach Pool Villa]\n\nCould you please let us know:\n- Current availability for our dates\n- Any honeymoon packages or complimentary upgrades\n- JOALI BEING wellness programme availability and booking process\n\nThank you for your time.\n\n[Your names]"
   },

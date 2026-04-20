@@ -3,19 +3,67 @@
   "name": "Alexandra Resort Turks and Caicos",
   "destination": "turks-and-caicos",
   "country": "turks-and-caicos",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 84,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 16, "spa": 12, "award": 10, "pool": 10, "beach": 10, "room_service": 5, "stars": 10, "luxury": 11 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 16,
+    "spa": 12,
+    "award": 10,
+    "pool": 10,
+    "beach": 10,
+    "room_service": 5,
+    "stars": 10,
+    "luxury": 11
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 400, "max": 1400 },
+  "price_per_night_usd": {
+    "min": 400,
+    "max": 1400
+  },
   "adults_only": false,
-  "amenities": ["spa", "beach", "pool", "snorkeling", "watersports", "kitchenette", "beachfront", "fitness center", "multiple pools", "tennis"],
+  "amenities": [
+    "spa",
+    "beach",
+    "pool",
+    "snorkeling",
+    "watersports",
+    "kitchenette",
+    "beachfront",
+    "fitness center",
+    "multiple pools",
+    "tennis"
+  ],
   "photos": [
-    { "url": "/images/hotels/alexandra-resort-turks-and-caicos/hero.webp", "alt": "alexandra-resort-turks-and-caicos — hero", "type": "hero" },
-    { "url": "/images/hotels/alexandra-resort-turks-and-caicos/room.webp", "alt": "alexandra-resort-turks-and-caicos — room", "type": "room" },
-    { "url": "/images/hotels/alexandra-resort-turks-and-caicos/pool.webp", "alt": "alexandra-resort-turks-and-caicos — pool", "type": "pool" },
-    { "url": "/images/hotels/alexandra-resort-turks-and-caicos/spa.webp", "alt": "alexandra-resort-turks-and-caicos — spa", "type": "spa" },
-    { "url": "/images/hotels/alexandra-resort-turks-and-caicos/dining.webp", "alt": "alexandra-resort-turks-and-caicos — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/alexandra-resort-turks-and-caicos/hero.webp",
+      "alt": "alexandra-resort-turks-and-caicos — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/alexandra-resort-turks-and-caicos/room.webp",
+      "alt": "alexandra-resort-turks-and-caicos — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/alexandra-resort-turks-and-caicos/pool.webp",
+      "alt": "alexandra-resort-turks-and-caicos — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/alexandra-resort-turks-and-caicos/spa.webp",
+      "alt": "alexandra-resort-turks-and-caicos — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/alexandra-resort-turks-and-caicos/dining.webp",
+      "alt": "alexandra-resort-turks-and-caicos — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 8.7,
   "tripadvisor_award": false,
@@ -24,13 +72,41 @@
     "verdict": "The Alexandra Resort delivers the extraordinary Grace Bay Beach experience at some of the most accessible pricing in the Providenciales luxury tier, with 90 suites — many with full kitchens — that give honeymooners the flexibility to cook their own romantic dinners from Grace Bay's excellent fish market. The multiple pools and direct beachfront location on the world's best beach make it an excellent value choice for couples who want the full Turks & Caicos experience without the stratospheric pricing of Amanyara or COMO Parrot Cay.",
     "best_room": "The Beachfront Suite is the standout room for honeymooners — a spacious suite on the ground floor with a private terrace opening directly onto Grace Bay Beach, a full kitchen for romantic self-catering dinners, and a living area separate from the bedroom. Wake up and walk five steps to the world's consistently top-rated beach.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Grace Bay Arrival", "description": "Land at Providenciales International Airport and transfer 10 minutes to the Alexandra. Check into your beachfront suite and spend your first afternoon simply absorbing Grace Bay — the impossibly clear turquoise water, the powdery white sand, the gentle trade winds. Pour a rum punch from the welcome package and settle in." },
-      { "day": 2, "title": "Snorkeling Smith's Reef", "description": "Walk from the resort to Smith's Reef — one of the Caribbean's best shore-dive snorkeling sites, just a short stroll along Grace Bay Beach. The reef begins in waist-deep water and descends to dramatic coral formations teeming with parrotfish, triggerfish, nurse sharks, and sea turtles." },
-      { "day": 3, "title": "Spa Morning & Beach Day", "description": "Book couple's treatments at the resort spa — choose from Caribbean-inspired massages using local sea salt scrubs and coconut body wraps. Spend the entire afternoon doing what Grace Bay does best: recline on the white sand with a book and periodically cool off in the bathtub-warm water." },
-      { "day": 4, "title": "Private Snorkel Charter", "description": "Rent a private snorkeling charter from the resort's watersports centre for a half-day of reef exploration — visiting Coral Gardens, the Aquarium, and the spectacular Grace Bay reef system. Pack a picnic lunch and have the captain anchor somewhere entirely private." },
-      { "day": 5, "title": "Self-Catering Romantic Dinner", "description": "Visit the Grace Bay fish market for fresh-caught mahi mahi, lobster, and conch — then return to your suite's full kitchen to cook a private honeymoon dinner together on your terrace overlooking the beach. A bottle of champagne from the resort's wine shop completes the scene." },
-      { "day": 6, "title": "Kayak & Sunset Cruise", "description": "Paddle kayaks along the Grace Bay shoreline in the morning, exploring the shallow reef patches accessible from the beach. In the evening, board a sunset catamaran cruise for champagne and spectacular Caribbean sunset views — a Grace Bay institution." },
-      { "day": 7, "title": "Final Morning Swim & Departure", "description": "A last walk along Grace Bay before checkout — the early morning beach before the resort guests emerge is one of the world's most beautiful sights. Transfer to the airport with a tan, salt-bleached hair, and the warm glow of a Grace Bay honeymoon." }
+      {
+        "day": 1,
+        "title": "Grace Bay Arrival",
+        "description": "Land at Providenciales International Airport and transfer 10 minutes to the Alexandra. Check into your beachfront suite and spend your first afternoon simply absorbing Grace Bay — the impossibly clear turquoise water, the powdery white sand, the gentle trade winds. Pour a rum punch from the welcome package and settle in."
+      },
+      {
+        "day": 2,
+        "title": "Snorkeling Smith's Reef",
+        "description": "Walk from the resort to Smith's Reef — one of the Caribbean's best shore-dive snorkeling sites, just a short stroll along Grace Bay Beach. The reef begins in waist-deep water and descends to dramatic coral formations teeming with parrotfish, triggerfish, nurse sharks, and sea turtles."
+      },
+      {
+        "day": 3,
+        "title": "Spa Morning & Beach Day",
+        "description": "Book couple's treatments at the resort spa — choose from Caribbean-inspired massages using local sea salt scrubs and coconut body wraps. Spend the entire afternoon doing what Grace Bay does best: recline on the white sand with a book and periodically cool off in the bathtub-warm water."
+      },
+      {
+        "day": 4,
+        "title": "Private Snorkel Charter",
+        "description": "Rent a private snorkeling charter from the resort's watersports centre for a half-day of reef exploration — visiting Coral Gardens, the Aquarium, and the spectacular Grace Bay reef system. Pack a picnic lunch and have the captain anchor somewhere entirely private."
+      },
+      {
+        "day": 5,
+        "title": "Self-Catering Romantic Dinner",
+        "description": "Visit the Grace Bay fish market for fresh-caught mahi mahi, lobster, and conch — then return to your suite's full kitchen to cook a private honeymoon dinner together on your terrace overlooking the beach. A bottle of champagne from the resort's wine shop completes the scene."
+      },
+      {
+        "day": 6,
+        "title": "Kayak & Sunset Cruise",
+        "description": "Paddle kayaks along the Grace Bay shoreline in the morning, exploring the shallow reef patches accessible from the beach. In the evening, board a sunset catamaran cruise for champagne and spectacular Caribbean sunset views — a Grace Bay institution."
+      },
+      {
+        "day": 7,
+        "title": "Final Morning Swim & Departure",
+        "description": "A last walk along Grace Bay before checkout — the early morning beach before the resort guests emerge is one of the world's most beautiful sights. Transfer to the airport with a tan, salt-bleached hair, and the warm glow of a Grace Bay honeymoon."
+      }
     ],
     "caveats": [
       "The Alexandra is larger at 90 suites than some of Grace Bay's boutique options; peak season can feel more animated than couples seeking the most private atmosphere might prefer.",
@@ -38,12 +114,30 @@
       "The kitchenette and self-catering option adds flexibility but also responsibility; couples who prefer to have all meals provided by the resort should consider an all-inclusive alternative nearby."
     ],
     "faqs": [
-      { "question": "Is the Alexandra Resort good for honeymooners?", "answer": "Yes — the Grace Bay Beach location alone makes it a world-class honeymoon destination, and the spacious suites with kitchenettes, multiple pools, and excellent beach access deliver outstanding value for the standard set by the area." },
-      { "question": "What is the best time to visit?", "answer": "December through April is peak season with dry, sunny weather and the most social atmosphere on Grace Bay. May and June offer great value and weather with far fewer crowds. Hurricane season runs July-November with the most risk in September-October." },
-      { "question": "How does Alexandra compare to Grace Bay Club or Seven Stars?", "answer": "Alexandra offers broader suite sizes with kitchen options and more accessible pricing. Grace Bay Club is more intimate and service-intensive; Seven Stars is larger with more on-site facilities. All share the same exceptional beachfront on the world's best beach." },
-      { "question": "Is the resort adults-only?", "answer": "No, the Alexandra welcomes families and couples alike. Grace Bay is one of the Caribbean's most family-friendly destinations overall, but honeymooners will find the beach large enough that solitude is always available." },
-      { "question": "What is the best room type for a honeymoon?", "answer": "The Beachfront Suite for ground-floor direct beach access, or the Ocean View Suite for elevated panoramic views over Grace Bay. Both offer full kitchens — ideal for self-catering romantic dinners." },
-      { "question": "How do you get to the Alexandra Resort?", "answer": "Fly directly into Providenciales International Airport (PLS) — served by direct flights from many US and UK cities. The resort is approximately 10 minutes by taxi or shuttle from the airport." }
+      {
+        "question": "Is the Alexandra Resort good for honeymooners?",
+        "answer": "Yes — the Grace Bay Beach location alone makes it a world-class honeymoon destination, and the spacious suites with kitchenettes, multiple pools, and excellent beach access deliver outstanding value for the standard set by the area."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "December through April is peak season with dry, sunny weather and the most social atmosphere on Grace Bay. May and June offer great value and weather with far fewer crowds. Hurricane season runs July-November with the most risk in September-October."
+      },
+      {
+        "question": "How does Alexandra compare to Grace Bay Club or Seven Stars?",
+        "answer": "Alexandra offers broader suite sizes with kitchen options and more accessible pricing. Grace Bay Club is more intimate and service-intensive; Seven Stars is larger with more on-site facilities. All share the same exceptional beachfront on the world's best beach."
+      },
+      {
+        "question": "Is the resort adults-only?",
+        "answer": "No, the Alexandra welcomes families and couples alike. Grace Bay is one of the Caribbean's most family-friendly destinations overall, but honeymooners will find the beach large enough that solitude is always available."
+      },
+      {
+        "question": "What is the best room type for a honeymoon?",
+        "answer": "The Beachfront Suite for ground-floor direct beach access, or the Ocean View Suite for elevated panoramic views over Grace Bay. Both offer full kitchens — ideal for self-catering romantic dinners."
+      },
+      {
+        "question": "How do you get to the Alexandra Resort?",
+        "answer": "Fly directly into Providenciales International Airport (PLS) — served by direct flights from many US and UK cities. The resort is approximately 10 minutes by taxi or shuttle from the airport."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — Alexandra Resort Turks and Caicos\n\nDear team,\n\nWe are planning our honeymoon [DATE]-[DATE] and interested in a Beachfront Suite. Please advise on availability, honeymoon packages, and whether any in-suite welcome amenities or romantic enhancements can be arranged.\n\nThank you,\n[Your names]"
   },

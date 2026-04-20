@@ -3,7 +3,11 @@
   "name": "Amanpulo",
   "destination": "philippines",
   "country": "philippines",
-  "experience_types": ["beach", "luxury", "overwater-bungalows"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "overwater-bungalows"
+  ],
   "honeymoon_score": 96,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,50 @@
     "luxury": 5
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 1500, "max": 5000 },
+  "price_per_night_usd": {
+    "min": 1500,
+    "max": 5000
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "room service", "butler service", "restaurant", "bar", "private beach", "snorkeling", "diving", "water sports", "private airstrip"],
+  "amenities": [
+    "spa",
+    "pool",
+    "room service",
+    "butler service",
+    "restaurant",
+    "bar",
+    "private beach",
+    "snorkeling",
+    "diving",
+    "water sports",
+    "private airstrip"
+  ],
   "photos": [
-    { "url": "/images/hotels/amanpulo-pamalican-philippines/hero.webp", "alt": "amanpulo-pamalican-philippines — hero", "type": "hero" },
-    { "url": "/images/hotels/amanpulo-pamalican-philippines/room.webp", "alt": "amanpulo-pamalican-philippines — room", "type": "room" },
-    { "url": "/images/hotels/amanpulo-pamalican-philippines/pool.webp", "alt": "amanpulo-pamalican-philippines — pool", "type": "pool" },
-    { "url": "/images/hotels/amanpulo-pamalican-philippines/spa.webp", "alt": "amanpulo-pamalican-philippines — spa", "type": "spa" },
-    { "url": "/images/hotels/amanpulo-pamalican-philippines/dining.webp", "alt": "amanpulo-pamalican-philippines — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/amanpulo-pamalican-philippines/hero.webp",
+      "alt": "amanpulo-pamalican-philippines — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/amanpulo-pamalican-philippines/room.webp",
+      "alt": "amanpulo-pamalican-philippines — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/amanpulo-pamalican-philippines/pool.webp",
+      "alt": "amanpulo-pamalican-philippines — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/amanpulo-pamalican-philippines/spa.webp",
+      "alt": "amanpulo-pamalican-philippines — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/amanpulo-pamalican-philippines/dining.webp",
+      "alt": "amanpulo-pamalican-philippines — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.8,
   "tripadvisor_award": true,
@@ -34,13 +73,41 @@
     "verdict": "Amanpulo on Pamalican Island in the Cuyo Archipelago is the most exclusive and remote private-island resort in the Philippines — accessible only by Aman's own chartered aircraft from Manila, with 40 casitas on a pristine coral-sand beach surrounded by one of the most intact coral reefs in the Sulu Sea. The island is utterly secluded, the water is Caribbean-clear, and the sense of having found your own private Pacific hideaway is completely real. No other Philippine resort comes close to this combination of inaccessibility, natural beauty, and Aman-level perfection.",
     "best_room": "The Beach Casitas facing the sunset (west-facing) are the most popular honeymoon choice — a pavilion structure with a private garden, sunken outdoor bath, and direct beach access, set among the coconut palms and garden plantings just steps from the Sulu Sea. The Hill Casitas offer more privacy and dramatic views from above the canopy. For maximum space and a private pool, the Pool Casitas are the pinnacle.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Private Flight Arrival", "description": "The journey to Amanpulo begins at Manila's Ninoy Aquino International Airport with Aman's private terminal — a different arrival experience entirely. The 75-minute flight on the Aman aircraft over the Sulu Sea reveals the island from the air: a tear-shaped emerald surrounded by a white sand rim and a turquoise reef fringe. You touch down on the private airstrip in the island's interior, golf cart to your casita, and walk directly to the sea. No other hotel in the Philippines offers this arrival." },
-      { "day": 2, "title": "Reef Snorkeling & Coral Garden", "description": "The house reef at Amanpulo is among the healthiest in the Philippines — a wall coral system dropping to 40 metres with manta rays, hawksbill turtles, and schools of barracuda. Spend the morning snorkeling independently from the beach, then join the dive team for a guided exploration of the reef's deeper coral gardens. Afternoon: kayak the lagoon and explore the beach at the island's quieter north end." },
-      { "day": 3, "title": "Island Hopping in the Cuyo Archipelago", "description": "The Aman speedboat takes you island-hopping through the Cuyo Archipelago's uninhabited islands — some with white sand bars that disappear at high tide, others with freshwater streams running to the sea. Picnic lunch on a private sandbar, snorkeling over pristine patch reefs, and watching frigate birds circle overhead. Return in time for the sunset beach bar cocktails." },
-      { "day": 4, "title": "Full Spa Day", "description": "Surrender the entire day to the Aman Spa, which offers Filipino hilot traditional massage alongside more contemporary treatments. Begin with a morning yoga session on the beach pavilion, then a two-hour couples' hilot massage using warm herbal compresses and coconut oil. Afternoon: the spa's open-air freshwater pool, followed by a body treatment using rare Philippine calamansi citrus and volcanic earth." },
-      { "day": 5, "title": "Sunrise Dive & Turtle Watching", "description": "The pre-dawn dive on Amanpulo's reef is one of the most extraordinary underwater experiences in Asia — in the early morning, manta rays patrol the reef's current lines and the sea's phosphorescence is sometimes visible. Return for a full breakfast. Afternoon: the Aman team arranges a guided turtle-watching programme — green and hawksbill turtles nest on the island's eastern beaches from April to September." },
-      { "day": 6, "title": "Cuyo Island Town Visit", "description": "Cuyo island town — the historic Spanish colonial settlement that was the capital of Palawan — is a 30-minute speedboat ride away. The remarkably intact Spanish fort (Cuartel) and the old church are among the Philippines' least-visited colonial monuments. A walk through Cuyo's sleepy streets, where fishing nets dry on stone walls and children play in the shadow of 17th-century fortifications, feels like discovering a secret the country has kept from the world." },
-      { "day": 7, "title": "Farewell Morning", "description": "A final sunrise snorkel on the house reef — the light through the water at dawn is unlike any other time of day. Breakfast on your casita terrace as the coconut palms sway. The Aman aircraft departs in the late morning, the island shrinking to a green speck in the Sulu Sea as you climb toward Manila. Amanpulo is a place that will live in your memory permanently and completely." }
+      {
+        "day": 1,
+        "title": "Private Flight Arrival",
+        "description": "The journey to Amanpulo begins at Manila's Ninoy Aquino International Airport with Aman's private terminal — a different arrival experience entirely. The 75-minute flight on the Aman aircraft over the Sulu Sea reveals the island from the air: a tear-shaped emerald surrounded by a white sand rim and a turquoise reef fringe. You touch down on the private airstrip in the island's interior, golf cart to your casita, and walk directly to the sea. No other hotel in the Philippines offers this arrival."
+      },
+      {
+        "day": 2,
+        "title": "Reef Snorkeling & Coral Garden",
+        "description": "The house reef at Amanpulo is among the healthiest in the Philippines — a wall coral system dropping to 40 metres with manta rays, hawksbill turtles, and schools of barracuda. Spend the morning snorkeling independently from the beach, then join the dive team for a guided exploration of the reef's deeper coral gardens. Afternoon: kayak the lagoon and explore the beach at the island's quieter north end."
+      },
+      {
+        "day": 3,
+        "title": "Island Hopping in the Cuyo Archipelago",
+        "description": "The Aman speedboat takes you island-hopping through the Cuyo Archipelago's uninhabited islands — some with white sand bars that disappear at high tide, others with freshwater streams running to the sea. Picnic lunch on a private sandbar, snorkeling over pristine patch reefs, and watching frigate birds circle overhead. Return in time for the sunset beach bar cocktails."
+      },
+      {
+        "day": 4,
+        "title": "Full Spa Day",
+        "description": "Surrender the entire day to the Aman Spa, which offers Filipino hilot traditional massage alongside more contemporary treatments. Begin with a morning yoga session on the beach pavilion, then a two-hour couples' hilot massage using warm herbal compresses and coconut oil. Afternoon: the spa's open-air freshwater pool, followed by a body treatment using rare Philippine calamansi citrus and volcanic earth."
+      },
+      {
+        "day": 5,
+        "title": "Sunrise Dive & Turtle Watching",
+        "description": "The pre-dawn dive on Amanpulo's reef is one of the most extraordinary underwater experiences in Asia — in the early morning, manta rays patrol the reef's current lines and the sea's phosphorescence is sometimes visible. Return for a full breakfast. Afternoon: the Aman team arranges a guided turtle-watching programme — green and hawksbill turtles nest on the island's eastern beaches from April to September."
+      },
+      {
+        "day": 6,
+        "title": "Cuyo Island Town Visit",
+        "description": "Cuyo island town — the historic Spanish colonial settlement that was the capital of Palawan — is a 30-minute speedboat ride away. The remarkably intact Spanish fort (Cuartel) and the old church are among the Philippines' least-visited colonial monuments. A walk through Cuyo's sleepy streets, where fishing nets dry on stone walls and children play in the shadow of 17th-century fortifications, feels like discovering a secret the country has kept from the world."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "A final sunrise snorkel on the house reef — the light through the water at dawn is unlike any other time of day. Breakfast on your casita terrace as the coconut palms sway. The Aman aircraft departs in the late morning, the island shrinking to a green speck in the Sulu Sea as you climb toward Manila. Amanpulo is a place that will live in your memory permanently and completely."
+      }
     ],
     "caveats": [
       "Amanpulo is reachable only by Aman's chartered aircraft from Manila — there are no public transport alternatives. The charter flight is included in the room rate as a package but the logistics require coordination with Aman's reservations team well in advance of travel. Flight schedules are fixed and non-negotiable.",
@@ -48,12 +115,30 @@
       "Best visited November to May (dry season for the Cuyo Archipelago). June to October brings the southwest monsoon with frequent rain and rough seas that limit snorkeling, diving, and island-hopping significantly."
     ],
     "faqs": [
-      { "question": "Is Amanpulo good for honeymooners?", "answer": "It is widely regarded as the finest honeymoon resort in the Philippines and one of the best in the world. The combination of complete isolation — accessible only by private plane — pristine reef, Aman service, and the extraordinary private-island setting creates a honeymoon experience that is genuinely without peer in Southeast Asia. If budget allows, this is the definitive choice." },
-      { "question": "What is the best time to visit?", "answer": "November to May is the dry season for the Cuyo Archipelago — calm seas, clear skies, and optimal diving and snorkeling conditions. December to April is peak season. Turtle nesting is best April to September. Avoid June to October for the southwest monsoon. March offers the most reliably calm sea conditions of the year." },
-      { "question": "What should we book in advance?", "answer": "Booking Amanpulo requires reserving the charter flight slot simultaneously with the room — contact Aman reservations directly and be prepared to commit to specific flight dates. The island has limited capacity and peak dates (Christmas, New Year, Valentine's Day) book out 6 to 12 months in advance. Dive courses and equipment should be specified at booking." },
-      { "question": "Is it adults-only?", "answer": "No, children are welcome and families do visit. However, the private-island format, the price point, and the reef-and-beach activities are most naturally suited to couples. Honeymooners make up a significant proportion of guests at all times of year, and the staff are highly experienced at discretely romantic gestures." },
-      { "question": "What's the best room for a honeymoon?", "answer": "A Beach Casita on the sunset (west-facing) beach is the most sought-after honeymoon accommodation — direct beach access, private garden, sunken outdoor bath, and the sunset across the Sulu Sea from your terrace. Pool Casitas add private pools and maximum privacy. Hill Casitas offer dramatic elevated views and more seclusion from the main beach." },
-      { "question": "How do we get there?", "answer": "Amanpulo is accessible only via Aman's private charter aircraft from Manila (Terminal 2, Ninoy Aquino International Airport) — a 75-minute flight over the Sulu Sea. Flight schedules are operated by Aman and typically depart once or twice daily. International connections to Manila are extensive from all major Asian hubs and from Europe and North America via connections." }
+      {
+        "question": "Is Amanpulo good for honeymooners?",
+        "answer": "It is widely regarded as the finest honeymoon resort in the Philippines and one of the best in the world. The combination of complete isolation — accessible only by private plane — pristine reef, Aman service, and the extraordinary private-island setting creates a honeymoon experience that is genuinely without peer in Southeast Asia. If budget allows, this is the definitive choice."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "November to May is the dry season for the Cuyo Archipelago — calm seas, clear skies, and optimal diving and snorkeling conditions. December to April is peak season. Turtle nesting is best April to September. Avoid June to October for the southwest monsoon. March offers the most reliably calm sea conditions of the year."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "Booking Amanpulo requires reserving the charter flight slot simultaneously with the room — contact Aman reservations directly and be prepared to commit to specific flight dates. The island has limited capacity and peak dates (Christmas, New Year, Valentine's Day) book out 6 to 12 months in advance. Dive courses and equipment should be specified at booking."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "No, children are welcome and families do visit. However, the private-island format, the price point, and the reef-and-beach activities are most naturally suited to couples. Honeymooners make up a significant proportion of guests at all times of year, and the staff are highly experienced at discretely romantic gestures."
+      },
+      {
+        "question": "What's the best room for a honeymoon?",
+        "answer": "A Beach Casita on the sunset (west-facing) beach is the most sought-after honeymoon accommodation — direct beach access, private garden, sunken outdoor bath, and the sunset across the Sulu Sea from your terrace. Pool Casitas add private pools and maximum privacy. Hill Casitas offer dramatic elevated views and more seclusion from the main beach."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "Amanpulo is accessible only via Aman's private charter aircraft from Manila (Terminal 2, Ninoy Aquino International Airport) — a 75-minute flight over the Sulu Sea. Flight schedules are operated by Aman and typically depart once or twice daily. International connections to Manila are extensive from all major Asian hubs and from Europe and North America via connections."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Amanpulo\n\nDear Amanpulo team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: a Beach Casita (west-facing sunset side) or Pool Casita.\n\nCould you please let us know:\n- Current availability for our dates including charter flight slots\n- Any honeymoon packages or complimentary upgrades\n- Dive programme availability and whether equipment rental is included\n\nThank you for your time.\n\n[Your names]"
   },

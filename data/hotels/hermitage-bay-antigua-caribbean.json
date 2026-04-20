@@ -3,19 +3,64 @@
   "name": "Hermitage Bay",
   "destination": "caribbean",
   "country": "caribbean",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 90,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 20, "spa": 15, "award": 15, "pool": 10, "beach": 15, "room_service": 5, "stars": 10, "luxury": 0 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 20,
+    "spa": 15,
+    "award": 15,
+    "pool": 10,
+    "beach": 15,
+    "room_service": 5,
+    "stars": 10,
+    "luxury": 0
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 800, "max": 2500 },
+  "price_per_night_usd": {
+    "min": 800,
+    "max": 2500
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "beach", "room service", "all-inclusive", "water sports", "fine dining"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beach",
+    "room service",
+    "all-inclusive",
+    "water sports",
+    "fine dining"
+  ],
   "photos": [
-    { "url": "/images/hotels/hermitage-bay-antigua-caribbean/hero.webp", "alt": "hermitage-bay-antigua-caribbean — hero", "type": "hero" },
-    { "url": "/images/hotels/hermitage-bay-antigua-caribbean/room.webp", "alt": "hermitage-bay-antigua-caribbean — room", "type": "room" },
-    { "url": "/images/hotels/hermitage-bay-antigua-caribbean/pool.webp", "alt": "hermitage-bay-antigua-caribbean — pool", "type": "pool" },
-    { "url": "/images/hotels/hermitage-bay-antigua-caribbean/spa.webp", "alt": "hermitage-bay-antigua-caribbean — spa", "type": "spa" },
-    { "url": "/images/hotels/hermitage-bay-antigua-caribbean/dining.webp", "alt": "hermitage-bay-antigua-caribbean — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/hermitage-bay-antigua-caribbean/hero.webp",
+      "alt": "hermitage-bay-antigua-caribbean — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/hermitage-bay-antigua-caribbean/room.webp",
+      "alt": "hermitage-bay-antigua-caribbean — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/hermitage-bay-antigua-caribbean/pool.webp",
+      "alt": "hermitage-bay-antigua-caribbean — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/hermitage-bay-antigua-caribbean/spa.webp",
+      "alt": "hermitage-bay-antigua-caribbean — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/hermitage-bay-antigua-caribbean/dining.webp",
+      "alt": "hermitage-bay-antigua-caribbean — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.6,
   "tripadvisor_award": true,
@@ -24,13 +69,41 @@
     "verdict": "Hermitage Bay is the finest boutique all-inclusive resort in the Eastern Caribbean — 25 hillside and beachfront cottages in a private bay accessible only by a single road, with an all-inclusive format that covers dining, premium spirits, non-motorized water sports, and a spa circuit, all at an intimate scale that feels nothing like a traditional all-inclusive. TripAdvisor consistently ranks it among the world's top romantic hotels, and its adults-oriented atmosphere (children under 5 not accepted) makes it particularly exceptional for honeymooners.",
     "best_room": "The Beachfront Suite is the most romantic room at Hermitage Bay — a large cottage directly on the private beach with a private garden plunge pool, outdoor shower, and the Caribbean lapping just meters from the terrace. The Hillside Suites with plunge pools offer dramatic elevated views over the bay and are excellent for couples who prioritize the panorama over direct beach access.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival at Hermitage Bay", "description": "Transfer from Antigua's V.C. Bird Airport (40 minutes) to Hermitage Bay on the island's quiet northwest coast. The single-road approach to this private bay, through forested Antiguan hills with the Caribbean appearing below, is the perfect preamble to what follows. Check into your cottage, uncork the complimentary champagne, and walk directly to the beach." },
-      { "day": 2, "title": "Private Beach & All-Inclusive Luxury", "description": "Hermitage Bay's private beach is consistently rated one of the finest in Antigua — a calm, sheltered Caribbean cove with clear, shallow water. The all-inclusive beach service includes premium sun loungers, unlimited food and drink service directly on the beach, and kayaks, paddleboards, and snorkel equipment. This is the all-inclusive experience done right." },
-      { "day": 3, "title": "Spa & Sunset Sailing", "description": "The Hermitage Bay spa is a standout facility for a 25-room resort — three treatment rooms, hydrothermal pool, and a strong focus on Caribbean botanical treatments using local sea salt, coconut, and tropical plant extracts. Afternoon spa, then a private sunset sailing excursion arranged through the resort." },
-      { "day": 4, "title": "English Harbour Day Trip", "description": "English Harbour's Nelson's Dockyard (UNESCO World Heritage, one of the finest preserved 18th-century naval bases in the world) and the clifftop views from Shirley Heights at sunset make an excellent day away from the resort. Hermitage Bay arranges private day trips and the resort's chef can pack a lunch for a beach day at the Shirley Heights area." },
-      { "day": 5, "title": "Snorkeling & Marine Life", "description": "The waters around Antigua are exceptionally clear with healthy reef systems. Hermitage Bay's snorkeling excursion to the coral gardens off the northwest coast offers sea turtles, eagle rays, parrotfish, and nurse sharks in the rocky overhangs. The in-house marine naturalist provides context for what you see." },
-      { "day": 6, "title": "Lazy All-Inclusive Day", "description": "Some days at Hermitage Bay should simply be about doing nothing beautifully. Sleep late, have breakfast delivered to your cottage plunge pool, move between the beach and the main pool as the mood takes you, eat and drink what you want without ever thinking about a bill. The resort's kitchen quality is exceptional — particular the fresh lobster and Antiguan fish." },
-      { "day": 7, "title": "Final Caribbean Morning", "description": "A last swim in the private bay at dawn when the water is perfectly still, breakfast on the beach terrace, and a warm farewell from the Hermitage Bay team. The 25-cottage scale means the staff have been genuinely involved in your honeymoon — the goodbye is sincere." }
+      {
+        "day": 1,
+        "title": "Arrival at Hermitage Bay",
+        "description": "Transfer from Antigua's V.C. Bird Airport (40 minutes) to Hermitage Bay on the island's quiet northwest coast. The single-road approach to this private bay, through forested Antiguan hills with the Caribbean appearing below, is the perfect preamble to what follows. Check into your cottage, uncork the complimentary champagne, and walk directly to the beach."
+      },
+      {
+        "day": 2,
+        "title": "Private Beach & All-Inclusive Luxury",
+        "description": "Hermitage Bay's private beach is consistently rated one of the finest in Antigua — a calm, sheltered Caribbean cove with clear, shallow water. The all-inclusive beach service includes premium sun loungers, unlimited food and drink service directly on the beach, and kayaks, paddleboards, and snorkel equipment. This is the all-inclusive experience done right."
+      },
+      {
+        "day": 3,
+        "title": "Spa & Sunset Sailing",
+        "description": "The Hermitage Bay spa is a standout facility for a 25-room resort — three treatment rooms, hydrothermal pool, and a strong focus on Caribbean botanical treatments using local sea salt, coconut, and tropical plant extracts. Afternoon spa, then a private sunset sailing excursion arranged through the resort."
+      },
+      {
+        "day": 4,
+        "title": "English Harbour Day Trip",
+        "description": "English Harbour's Nelson's Dockyard (UNESCO World Heritage, one of the finest preserved 18th-century naval bases in the world) and the clifftop views from Shirley Heights at sunset make an excellent day away from the resort. Hermitage Bay arranges private day trips and the resort's chef can pack a lunch for a beach day at the Shirley Heights area."
+      },
+      {
+        "day": 5,
+        "title": "Snorkeling & Marine Life",
+        "description": "The waters around Antigua are exceptionally clear with healthy reef systems. Hermitage Bay's snorkeling excursion to the coral gardens off the northwest coast offers sea turtles, eagle rays, parrotfish, and nurse sharks in the rocky overhangs. The in-house marine naturalist provides context for what you see."
+      },
+      {
+        "day": 6,
+        "title": "Lazy All-Inclusive Day",
+        "description": "Some days at Hermitage Bay should simply be about doing nothing beautifully. Sleep late, have breakfast delivered to your cottage plunge pool, move between the beach and the main pool as the mood takes you, eat and drink what you want without ever thinking about a bill. The resort's kitchen quality is exceptional — particular the fresh lobster and Antiguan fish."
+      },
+      {
+        "day": 7,
+        "title": "Final Caribbean Morning",
+        "description": "A last swim in the private bay at dawn when the water is perfectly still, breakfast on the beach terrace, and a warm farewell from the Hermitage Bay team. The 25-cottage scale means the staff have been genuinely involved in your honeymoon — the goodbye is sincere."
+      }
     ],
     "caveats": [
       "Hermitage Bay does not accept children under 5 — this is a feature for honeymooners but worth noting. The resort also operates with a minimum stay requirement of 3 or 4 nights depending on season.",
@@ -38,12 +111,30 @@
       "The resort has only 25 cottages — this intimate scale creates a wonderful atmosphere but means availability is extremely limited. Book early."
     ],
     "faqs": [
-      { "question": "Is Hermitage Bay good for honeymooners?", "answer": "It is one of the finest honeymoon hotels in the Caribbean. The 25-room scale, beachfront plunge pool suites, adults-oriented atmosphere (no children under 5), and complete all-inclusive format create a honeymoon experience of rare romance and ease. Its consistently high romantic hotel rankings are fully deserved." },
-      { "question": "What is the best time to visit?", "answer": "December through April for the driest Caribbean weather and calmest seas. February and March are peak honeymoon months — book very early for these. November is excellent for value with good weather. Hurricane season (June–November) has lower rates; the resort typically remains open." },
-      { "question": "How far in advance should you book?", "answer": "Book 6–12 months ahead for December–March. Hermitage Bay has only 25 cottages and is one of the Eastern Caribbean's most sought-after properties. The Beachfront Suites are reserved a full year ahead for peak season dates." },
-      { "question": "Is Hermitage Bay adults-only?", "answer": "Not technically, but children under 5 are not accepted and the resort's intimate atmosphere, boutique scale, and premium pricing make it adults-oriented in practice. Couples account for a very high majority of guests." },
-      { "question": "What is the best room type?", "answer": "Beachfront Suite with plunge pool for direct beach access and the most romantic setting. Hillside Suite with plunge pool for elevated bay views. Both are exceptional — the beachfront has immediacy; the hillside has the panorama." },
-      { "question": "How do you get to Hermitage Bay?", "answer": "Fly into V.C. Bird International Airport in Antigua (ANU) — direct flights from the US East Coast (4 hours), London Gatwick (8.5 hours), and other hubs. Private transfer to Hermitage Bay on the northwest coast takes 40 minutes. The resort arranges all transfers." }
+      {
+        "question": "Is Hermitage Bay good for honeymooners?",
+        "answer": "It is one of the finest honeymoon hotels in the Caribbean. The 25-room scale, beachfront plunge pool suites, adults-oriented atmosphere (no children under 5), and complete all-inclusive format create a honeymoon experience of rare romance and ease. Its consistently high romantic hotel rankings are fully deserved."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "December through April for the driest Caribbean weather and calmest seas. February and March are peak honeymoon months — book very early for these. November is excellent for value with good weather. Hurricane season (June–November) has lower rates; the resort typically remains open."
+      },
+      {
+        "question": "How far in advance should you book?",
+        "answer": "Book 6–12 months ahead for December–March. Hermitage Bay has only 25 cottages and is one of the Eastern Caribbean's most sought-after properties. The Beachfront Suites are reserved a full year ahead for peak season dates."
+      },
+      {
+        "question": "Is Hermitage Bay adults-only?",
+        "answer": "Not technically, but children under 5 are not accepted and the resort's intimate atmosphere, boutique scale, and premium pricing make it adults-oriented in practice. Couples account for a very high majority of guests."
+      },
+      {
+        "question": "What is the best room type?",
+        "answer": "Beachfront Suite with plunge pool for direct beach access and the most romantic setting. Hillside Suite with plunge pool for elevated bay views. Both are exceptional — the beachfront has immediacy; the hillside has the panorama."
+      },
+      {
+        "question": "How do you get to Hermitage Bay?",
+        "answer": "Fly into V.C. Bird International Airport in Antigua (ANU) — direct flights from the US East Coast (4 hours), London Gatwick (8.5 hours), and other hubs. Private transfer to Hermitage Bay on the northwest coast takes 40 minutes. The resort arranges all transfers."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — Hermitage Bay\n\nDear Hermitage Bay team,\n\nWe are planning our honeymoon [DATE]-[DATE] and very interested in a Beachfront Suite or Hillside Suite with plunge pool. Please advise on availability, current all-inclusive rates, and whether any special honeymoon amenities can be arranged for our arrival.\n\nThank you,\n[Your names]"
   },

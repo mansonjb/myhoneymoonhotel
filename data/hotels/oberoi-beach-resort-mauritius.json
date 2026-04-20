@@ -3,7 +3,11 @@
   "name": "The Oberoi Beach Resort, Mauritius",
   "destination": "mauritius",
   "country": "mauritius",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 87,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,49 @@
     "luxury": 9
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 500, "max": 1600 },
+  "price_per_night_usd": {
+    "min": 500,
+    "max": 1600
+  },
   "adults_only": false,
-  "amenities": ["beachfront villas with private pools", "Oberoi Spa", "pool", "room service", "butler service", "restaurant", "bar", "concierge", "water sports", "sunset cruises"],
+  "amenities": [
+    "beachfront villas with private pools",
+    "Oberoi Spa",
+    "pool",
+    "room service",
+    "butler service",
+    "restaurant",
+    "bar",
+    "concierge",
+    "water sports",
+    "sunset cruises"
+  ],
   "photos": [
-    { "url": "/images/hotels/oberoi-beach-resort-mauritius/hero.webp", "alt": "oberoi-beach-resort-mauritius — hero", "type": "hero" },
-    { "url": "/images/hotels/oberoi-beach-resort-mauritius/room.webp", "alt": "oberoi-beach-resort-mauritius — room", "type": "room" },
-    { "url": "/images/hotels/oberoi-beach-resort-mauritius/pool.webp", "alt": "oberoi-beach-resort-mauritius — pool", "type": "pool" },
-    { "url": "/images/hotels/oberoi-beach-resort-mauritius/spa.webp", "alt": "oberoi-beach-resort-mauritius — spa", "type": "spa" },
-    { "url": "/images/hotels/oberoi-beach-resort-mauritius/dining.webp", "alt": "oberoi-beach-resort-mauritius — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/oberoi-beach-resort-mauritius/hero.webp",
+      "alt": "oberoi-beach-resort-mauritius — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/oberoi-beach-resort-mauritius/room.webp",
+      "alt": "oberoi-beach-resort-mauritius — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/oberoi-beach-resort-mauritius/pool.webp",
+      "alt": "oberoi-beach-resort-mauritius — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/oberoi-beach-resort-mauritius/spa.webp",
+      "alt": "oberoi-beach-resort-mauritius — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/oberoi-beach-resort-mauritius/dining.webp",
+      "alt": "oberoi-beach-resort-mauritius — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.2,
   "tripadvisor_award": true,
@@ -34,13 +72,41 @@
     "verdict": "The Oberoi Beach Resort Mauritius is the most intimate and private beachfront luxury resort on the island's north coast — a low-density collection of villas and pavilions with private plunge pools set in tropical gardens just steps from the beach at Pointe aux Piments, with the Indian Ocean's northwest coast views and the famous Coin de Mire island on the horizon. The Oberoi Group's distinctive Indian luxury aesthetic, its meticulous service standards, and the exceptionally private villa layout make it one of the most genuinely romantic resorts in Mauritius.",
     "best_room": "The Luxury Villa with Private Pool and Garden is the defining Oberoi Mauritius experience — a freestanding thatched villa surrounded by tropical garden, with a private heated plunge pool accessible day and night, and full butler service. The Premiere Villa with Pool offers the same experience with more space and enhanced beach proximity. Even the Deluxe Rooms at the Oberoi deliver a level of care and finish that exceeds many competitors' top categories.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Oberoi Welcome", "description": "Transfer from the airport and approach the Oberoi through a tropical garden entrance that signals immediately the property's commitment to natural beauty. The butler assigned to your villa greets you by name and escorts you through the garden to your private villa and plunge pool. The welcome ceremony — warm towels, fresh coconut water, a garland of tropical flowers — draws from the Oberoi group's Indian luxury tradition. Dinner at the beachfront restaurant as the north coast's magnificent sunset develops over Coin de Mire island." },
-      { "day": 2, "title": "North Coast Beach & Spa", "description": "The northwest coast of Mauritius has some of the island's most protected lagoons — warm, calm, and extraordinarily clear. Morning beach swim from the resort's private beachfront, then a booking at the Oberoi Spa for a couples' treatment. The spa's signature Mauritian Creole massage using coconut oil and local botanicals is both deeply pleasurable and culturally specific to the island. Afternoon entirely in your private villa pool." },
-      { "day": 3, "title": "Coin de Mire Island Excursion", "description": "The distinctive volcanic rock of Coin de Mire (Gunner's Quoin) is visible from the resort's beach — arrange a private boat excursion to circle the island, where sea birds nest in dramatic cliff colonies and the underwater reef is some of the richest in Mauritius. Bring snorkeling equipment for the reef stops, then continue to the beach at Cap Malheureux — the northernmost point of Mauritius — for lunch." },
-      { "day": 4, "title": "Private Villa Day", "description": "The most purely romantic day of the honeymoon: nothing leaves the villa. Breakfast delivered to the pool terrace, room service lunch in the garden, a private in-villa massage arranged through the butler, and an evening private dinner set up by the villa pool under candles and stars. The butler sources the finest local ingredients and prepares the villa for dinner while you swim — when you return from the beach, it's been transformed." },
-      { "day": 5, "title": "Grand Baie & Pamplemousses", "description": "Drive to Grand Baie — the north coast's main resort town — for shopping, parasailing over the lagoon, and lunch at one of the harbor restaurants. Continue to the Pamplemousses Botanical Garden for an afternoon among some of the finest tropical specimens in the world, including the famous giant water lilies. Return to the Oberoi for sunset cocktails as the northwest sky turns extraordinary colors." },
-      { "day": 6, "title": "Sunset Dhow Cruise", "description": "The Oberoi's signature evening experience is a sunset cruise on a traditional Mauritian dhow — a wooden sailing vessel that takes guests along the northwest coast as the sun drops into the Indian Ocean. Champagne, canapés, and the most cinematic sunset in Mauritius. Return to the resort for a romantic final dinner at the candlelit beach restaurant." },
-      { "day": 7, "title": "Farewell Morning", "description": "A final sunrise from the villa pool terrace as the northwest coast light turns the sea to copper. The butler prepares a farewell breakfast with the villa's most beautiful garden setup and presents the Oberoi's parting gift — traditionally a set of Mauritius vanilla pods and a personal card from the General Manager. The north coast airport transfer takes about 30 minutes — the shortest of any luxury resort in Mauritius." }
+      {
+        "day": 1,
+        "title": "Oberoi Welcome",
+        "description": "Transfer from the airport and approach the Oberoi through a tropical garden entrance that signals immediately the property's commitment to natural beauty. The butler assigned to your villa greets you by name and escorts you through the garden to your private villa and plunge pool. The welcome ceremony — warm towels, fresh coconut water, a garland of tropical flowers — draws from the Oberoi group's Indian luxury tradition. Dinner at the beachfront restaurant as the north coast's magnificent sunset develops over Coin de Mire island."
+      },
+      {
+        "day": 2,
+        "title": "North Coast Beach & Spa",
+        "description": "The northwest coast of Mauritius has some of the island's most protected lagoons — warm, calm, and extraordinarily clear. Morning beach swim from the resort's private beachfront, then a booking at the Oberoi Spa for a couples' treatment. The spa's signature Mauritian Creole massage using coconut oil and local botanicals is both deeply pleasurable and culturally specific to the island. Afternoon entirely in your private villa pool."
+      },
+      {
+        "day": 3,
+        "title": "Coin de Mire Island Excursion",
+        "description": "The distinctive volcanic rock of Coin de Mire (Gunner's Quoin) is visible from the resort's beach — arrange a private boat excursion to circle the island, where sea birds nest in dramatic cliff colonies and the underwater reef is some of the richest in Mauritius. Bring snorkeling equipment for the reef stops, then continue to the beach at Cap Malheureux — the northernmost point of Mauritius — for lunch."
+      },
+      {
+        "day": 4,
+        "title": "Private Villa Day",
+        "description": "The most purely romantic day of the honeymoon: nothing leaves the villa. Breakfast delivered to the pool terrace, room service lunch in the garden, a private in-villa massage arranged through the butler, and an evening private dinner set up by the villa pool under candles and stars. The butler sources the finest local ingredients and prepares the villa for dinner while you swim — when you return from the beach, it's been transformed."
+      },
+      {
+        "day": 5,
+        "title": "Grand Baie & Pamplemousses",
+        "description": "Drive to Grand Baie — the north coast's main resort town — for shopping, parasailing over the lagoon, and lunch at one of the harbor restaurants. Continue to the Pamplemousses Botanical Garden for an afternoon among some of the finest tropical specimens in the world, including the famous giant water lilies. Return to the Oberoi for sunset cocktails as the northwest sky turns extraordinary colors."
+      },
+      {
+        "day": 6,
+        "title": "Sunset Dhow Cruise",
+        "description": "The Oberoi's signature evening experience is a sunset cruise on a traditional Mauritian dhow — a wooden sailing vessel that takes guests along the northwest coast as the sun drops into the Indian Ocean. Champagne, canapés, and the most cinematic sunset in Mauritius. Return to the resort for a romantic final dinner at the candlelit beach restaurant."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "A final sunrise from the villa pool terrace as the northwest coast light turns the sea to copper. The butler prepares a farewell breakfast with the villa's most beautiful garden setup and presents the Oberoi's parting gift — traditionally a set of Mauritius vanilla pods and a personal card from the General Manager. The north coast airport transfer takes about 30 minutes — the shortest of any luxury resort in Mauritius."
+      }
     ],
     "caveats": [
       "The Oberoi is a smaller resort than the major international chains (no golf course, limited water sports compared to Four Seasons or Shangri-La) — its strengths are intimacy and service quality rather than range of facilities.",

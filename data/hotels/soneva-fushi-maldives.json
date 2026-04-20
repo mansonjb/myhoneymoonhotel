@@ -3,7 +3,12 @@
   "name": "Soneva Fushi",
   "destination": "maldives",
   "country": "maldives",
-  "experience_types": ["overwater-bungalows", "luxury", "wellness", "beach"],
+  "experience_types": [
+    "overwater-bungalows",
+    "luxury",
+    "wellness",
+    "beach"
+  ],
   "honeymoon_score": 97,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +22,50 @@
     "luxury": 16
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 1500, "max": 6000 },
+  "price_per_night_usd": {
+    "min": 1500,
+    "max": 6000
+  },
   "adults_only": false,
-  "amenities": ["spa", "beach", "pool", "room service", "butler service", "open-air cinema", "glass blowing studio", "chocolate room", "observatory", "snorkeling", "diving"],
+  "amenities": [
+    "spa",
+    "beach",
+    "pool",
+    "room service",
+    "butler service",
+    "open-air cinema",
+    "glass blowing studio",
+    "chocolate room",
+    "observatory",
+    "snorkeling",
+    "diving"
+  ],
   "photos": [
-    { "url": "/images/hotels/soneva-fushi-maldives/hero.webp", "alt": "soneva-fushi-maldives — hero", "type": "hero" },
-    { "url": "/images/hotels/soneva-fushi-maldives/room.webp", "alt": "soneva-fushi-maldives — room", "type": "room" },
-    { "url": "/images/hotels/soneva-fushi-maldives/pool.webp", "alt": "soneva-fushi-maldives — pool", "type": "pool" },
-    { "url": "/images/hotels/soneva-fushi-maldives/spa.webp", "alt": "soneva-fushi-maldives — spa", "type": "spa" },
-    { "url": "/images/hotels/soneva-fushi-maldives/dining.webp", "alt": "soneva-fushi-maldives — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/soneva-fushi-maldives/hero.webp",
+      "alt": "soneva-fushi-maldives — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/soneva-fushi-maldives/room.webp",
+      "alt": "soneva-fushi-maldives — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/soneva-fushi-maldives/pool.webp",
+      "alt": "soneva-fushi-maldives — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/soneva-fushi-maldives/spa.webp",
+      "alt": "soneva-fushi-maldives — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/soneva-fushi-maldives/dining.webp",
+      "alt": "soneva-fushi-maldives — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.7,
   "tripadvisor_award": true,
@@ -34,13 +74,41 @@
     "verdict": "Soneva Fushi is the original barefoot luxury resort — the place that invented the concept of kicking off your shoes at arrival and never putting them back on until you leave. Set on a lush jungle island in the Baa Atoll UNESCO Biosphere Reserve, its 63 island villas with private pools, open-air cinema, glass-blowing studio, chocolate room, and rooftop stargazing observatory create an experience of extraordinary richness. This is not just a beach holiday; it is a complete sensory immersion in the most biodiverse atoll in the Maldives.",
     "best_room": "The Private Reserve (a standalone three-bedroom villa with its own beach, pool, and dedicated team) is the ultimate honeymoon indulgence. For couples on a single-villa budget, the Crusoe Residence — a jungle villa perched above the beach canopy with a private pool and outdoor bathroom — delivers romance and seclusion in equal measure.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Barefoot Welcome", "description": "Fly from Malé to Baa Atoll by seaplane — a 25-minute journey over the most pristine reef system in the Indian Ocean. The moment you land, resort staff invite you to remove your shoes. They stay off for the entire stay. Your villa host shows you around your jungle villa, stocked with fresh fruit, artisanal chocolates, and chilled Champagne. Wander to the beach as the sun sets." },
-      { "day": 2, "title": "Manta Rays & UNESCO Reefs", "description": "Baa Atoll's Hanifaru Bay is one of the world's great natural wonders: a UNESCO-protected bay where hundreds of manta rays and whale sharks congregate to feed between June and November. Even outside manta season, the atoll's reefs are extraordinary. Spend the morning snorkelling the house reef, then join the marine biologist for a reef health lecture followed by an afternoon snorkel tour." },
-      { "day": 3, "title": "Glass-Blowing & Chocolate", "description": "Soneva Fushi's unique experiences set it apart: try your hand at the resort's glass-blowing studio and create a keepsake piece to take home. Spend the afternoon at the chocolate room, where a chocolatier walks you through bean-to-bar creation using the finest single-origin cacao — and you eat everything you make. Dine at the overwater restaurant as the stars emerge." },
-      { "day": 4, "title": "Stargazing & Private Cinema", "description": "After a spa morning — the Soneva Fushi spa uses organic, locally-sourced botanicals and is one of the finest in the Indian Ocean — make your way to the open-air Cinema Paradiso for a private screening of your choice under a canopy of Baa Atoll stars. Later, meet the resort's resident astronomer on the rooftop observatory and explore the Maldivian night sky through a powerful telescope." },
-      { "day": 5, "title": "Private Island Picnic", "description": "Your villa host organises a private picnic on a deserted sandbank — freshly grilled lobster, chilled white wine, and a reef snorkel stop on the return trip. Spend the afternoon drifting in your villa's private pool, listening to the jungle birds. In the evening, book the private dining option on your villa deck: the chef comes to you." },
-      { "day": 6, "title": "Slow Day in the Biosphere", "description": "A full day of pure bliss: wake when you want, order an extravagant villa breakfast, spend the morning floating in your pool or reading in your outdoor daybed. Join an afternoon guided jungle walk to learn about the endemic plant species and conservation work being done in the Baa Atoll. Dine at Fresh in the Round, the resort's circular organic restaurant surrounded by the jungle." },
-      { "day": 7, "title": "Farewell Morning", "description": "Take one last barefoot beach walk at sunrise — the light on the Baa Atoll at dawn is extraordinary. A final villa breakfast, a last lingering swim, and then the seaplane back to Malé. Soneva Fushi invariably tops guests' lists of the most extraordinary places they have ever stayed." }
+      {
+        "day": 1,
+        "title": "Arrival & Barefoot Welcome",
+        "description": "Fly from Malé to Baa Atoll by seaplane — a 25-minute journey over the most pristine reef system in the Indian Ocean. The moment you land, resort staff invite you to remove your shoes. They stay off for the entire stay. Your villa host shows you around your jungle villa, stocked with fresh fruit, artisanal chocolates, and chilled Champagne. Wander to the beach as the sun sets."
+      },
+      {
+        "day": 2,
+        "title": "Manta Rays & UNESCO Reefs",
+        "description": "Baa Atoll's Hanifaru Bay is one of the world's great natural wonders: a UNESCO-protected bay where hundreds of manta rays and whale sharks congregate to feed between June and November. Even outside manta season, the atoll's reefs are extraordinary. Spend the morning snorkelling the house reef, then join the marine biologist for a reef health lecture followed by an afternoon snorkel tour."
+      },
+      {
+        "day": 3,
+        "title": "Glass-Blowing & Chocolate",
+        "description": "Soneva Fushi's unique experiences set it apart: try your hand at the resort's glass-blowing studio and create a keepsake piece to take home. Spend the afternoon at the chocolate room, where a chocolatier walks you through bean-to-bar creation using the finest single-origin cacao — and you eat everything you make. Dine at the overwater restaurant as the stars emerge."
+      },
+      {
+        "day": 4,
+        "title": "Stargazing & Private Cinema",
+        "description": "After a spa morning — the Soneva Fushi spa uses organic, locally-sourced botanicals and is one of the finest in the Indian Ocean — make your way to the open-air Cinema Paradiso for a private screening of your choice under a canopy of Baa Atoll stars. Later, meet the resort's resident astronomer on the rooftop observatory and explore the Maldivian night sky through a powerful telescope."
+      },
+      {
+        "day": 5,
+        "title": "Private Island Picnic",
+        "description": "Your villa host organises a private picnic on a deserted sandbank — freshly grilled lobster, chilled white wine, and a reef snorkel stop on the return trip. Spend the afternoon drifting in your villa's private pool, listening to the jungle birds. In the evening, book the private dining option on your villa deck: the chef comes to you."
+      },
+      {
+        "day": 6,
+        "title": "Slow Day in the Biosphere",
+        "description": "A full day of pure bliss: wake when you want, order an extravagant villa breakfast, spend the morning floating in your pool or reading in your outdoor daybed. Join an afternoon guided jungle walk to learn about the endemic plant species and conservation work being done in the Baa Atoll. Dine at Fresh in the Round, the resort's circular organic restaurant surrounded by the jungle."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "Take one last barefoot beach walk at sunrise — the light on the Baa Atoll at dawn is extraordinary. A final villa breakfast, a last lingering swim, and then the seaplane back to Malé. Soneva Fushi invariably tops guests' lists of the most extraordinary places they have ever stayed."
+      }
     ],
     "caveats": [
       "The seaplane transfer to Baa Atoll is a 25-minute flight that operates only in daylight, meaning late-arriving flights require an overnight in Malé.",
@@ -48,12 +116,30 @@
       "The dense jungle setting means villa interiors are less sunlit than typical Maldives resorts — the outdoor decks and beach make up for it entirely."
     ],
     "faqs": [
-      { "question": "Is Soneva Fushi good for honeymooners?", "answer": "Soneva Fushi consistently ranks as one of the world's top honeymoon destinations. As the inventor of barefoot luxury, it offers a depth of experience — from glass blowing and stargazing to manta ray encounters and a UNESCO biosphere — that makes it far more than just a beautiful beach resort." },
-      { "question": "What is the best time to visit?", "answer": "November through April is the dry season with calm seas and clear skies. For the world-famous manta ray feeding at Hanifaru Bay, visit between May and November — the wet season — when mantas and whale sharks aggregate in staggering numbers. Many consider August the best single month." },
-      { "question": "What should we book in advance?", "answer": "The spa, private cinema screening, and glass-blowing studio time should all be reserved before arrival. Hanifaru Bay manta excursions during peak season require early booking as numbers are strictly limited to protect the ecosystem." },
-      { "question": "Is it adults-only?", "answer": "No, Soneva Fushi welcomes children and families. With 63 villas spread across a large island, the resort retains an intimate, private atmosphere. Soneva KIKI (a junior barefoot experience) keeps younger guests engaged separately." },
-      { "question": "What's the best room for a honeymoon?", "answer": "The Crusoe Residence is the romantic standard — a jungle treehouse villa with a private pool and complete privacy above the beach canopy. The Private Reserve is the resort's ultimate accommodation: a three-bedroom standalone compound with its own beach and dedicated staff." },
-      { "question": "How do we get there?", "answer": "Soneva Fushi is reached by seaplane from Malé — a scenic 25-minute flight over the atolls. Seaplanes operate in daylight only. The resort can arrange overnight stays in Malé for connections requiring an early or late flight." }
+      {
+        "question": "Is Soneva Fushi good for honeymooners?",
+        "answer": "Soneva Fushi consistently ranks as one of the world's top honeymoon destinations. As the inventor of barefoot luxury, it offers a depth of experience — from glass blowing and stargazing to manta ray encounters and a UNESCO biosphere — that makes it far more than just a beautiful beach resort."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "November through April is the dry season with calm seas and clear skies. For the world-famous manta ray feeding at Hanifaru Bay, visit between May and November — the wet season — when mantas and whale sharks aggregate in staggering numbers. Many consider August the best single month."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "The spa, private cinema screening, and glass-blowing studio time should all be reserved before arrival. Hanifaru Bay manta excursions during peak season require early booking as numbers are strictly limited to protect the ecosystem."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "No, Soneva Fushi welcomes children and families. With 63 villas spread across a large island, the resort retains an intimate, private atmosphere. Soneva KIKI (a junior barefoot experience) keeps younger guests engaged separately."
+      },
+      {
+        "question": "What's the best room for a honeymoon?",
+        "answer": "The Crusoe Residence is the romantic standard — a jungle treehouse villa with a private pool and complete privacy above the beach canopy. The Private Reserve is the resort's ultimate accommodation: a three-bedroom standalone compound with its own beach and dedicated staff."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "Soneva Fushi is reached by seaplane from Malé — a scenic 25-minute flight over the atolls. Seaplanes operate in daylight only. The resort can arrange overnight stays in Malé for connections requiring an early or late flight."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Soneva Fushi\n\nDear Soneva Fushi team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: [Crusoe Residence / Private Reserve]\n\nCould you please let us know:\n- Current availability for our dates\n- Any honeymoon packages or complimentary upgrades\n- Availability for the glass-blowing studio and open-air cinema\n\nThank you for your time.\n\n[Your names]"
   },

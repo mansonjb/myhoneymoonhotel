@@ -3,7 +3,10 @@
   "name": "Ladera Resort St Lucia",
   "destination": "st-lucia",
   "country": "st-lucia",
-  "experience_types": ["luxury", "wellness"],
+  "experience_types": [
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 89,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +20,49 @@
     "luxury": 10
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 500, "max": 2000 },
+  "price_per_night_usd": {
+    "min": 500,
+    "max": 2000
+  },
   "adults_only": false,
-  "amenities": ["private plunge pools", "spa", "pool", "room service", "butler service", "restaurant", "bar", "fitness centre", "yoga", "concierge"],
+  "amenities": [
+    "private plunge pools",
+    "spa",
+    "pool",
+    "room service",
+    "butler service",
+    "restaurant",
+    "bar",
+    "fitness centre",
+    "yoga",
+    "concierge"
+  ],
   "photos": [
-    { "url": "/images/hotels/ladera-resort-st-lucia/hero.webp", "alt": "ladera-resort-st-lucia — hero", "type": "hero" },
-    { "url": "/images/hotels/ladera-resort-st-lucia/room.webp", "alt": "ladera-resort-st-lucia — room", "type": "room" },
-    { "url": "/images/hotels/ladera-resort-st-lucia/pool.webp", "alt": "ladera-resort-st-lucia — pool", "type": "pool" },
-    { "url": "/images/hotels/ladera-resort-st-lucia/spa.webp", "alt": "ladera-resort-st-lucia — spa", "type": "spa" },
-    { "url": "/images/hotels/ladera-resort-st-lucia/dining.webp", "alt": "ladera-resort-st-lucia — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/ladera-resort-st-lucia/hero.webp",
+      "alt": "ladera-resort-st-lucia — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/ladera-resort-st-lucia/room.webp",
+      "alt": "ladera-resort-st-lucia — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/ladera-resort-st-lucia/pool.webp",
+      "alt": "ladera-resort-st-lucia — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/ladera-resort-st-lucia/spa.webp",
+      "alt": "ladera-resort-st-lucia — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/ladera-resort-st-lucia/dining.webp",
+      "alt": "ladera-resort-st-lucia — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.2,
   "tripadvisor_award": true,
@@ -34,13 +71,41 @@
     "verdict": "Ladera Resort is St Lucia's most Instagram-famous hotel and one of the Caribbean's most distinctive architectural experiences — 37 suites and villas perched on a ridge between the Pitons, each featuring an open fourth wall that frames the UNESCO volcanic peaks and the Caribbean sea like a living painting. Every suite comes with a private plunge pool on the open-air terrace, positioned so that the pool appears to merge with the valley below. There is no beach (the ridge is 300 metres above sea level), but Ladera more than compensates with altitude, views, and a design concept that makes the Piton view the centrepiece of every moment of the stay. It is designed with adult sensibilities — children under 12 are not accommodated in peak season.",
     "best_room": "The 'Infinity Suites' with private plunge pools are the hotel's signature — the pool is positioned at the edge of the terrace so the water merges visually with the Piton valley below. Every suite has an open fourth wall on the west side, meaning there are no enclosing walls between your bedroom and the Piton view. For the most private and largest space, the villas offer expanded living areas and even more generous terrace plunge pools. Request an upper-level suite for the highest vantage point on the ridge.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & The Open Wall", "description": "The approach to Ladera by road winds up from Soufrière through plantation country. Arrival delivers you to a reception with the Piton view opening immediately. The suite itself is the destination for the first afternoon — the open fourth wall, the plunge pool, and the understanding of what this architectural concept means in practice. Dinner at Dasheene restaurant, Ladera's hilltop venue, is where the concept peaks: spectacular food at an open-air table with the Pitons lit by the setting sun." },
-      { "day": 2, "title": "Sunrise Pitons & Spa", "description": "The open fourth wall means the Pitons enter your room at first light — dawn is a daily event of some significance. Morning at the plunge pool for sunrise over the ridge. After breakfast, the Ladera Spa offers signature treatments inspired by the island's botanical heritage: volcanic mud wraps, cocoa body treatments, and couples massages in open-air pavilions. The spa is modest in scale but excellent in execution." },
-      { "day": 3, "title": "Gros Piton Guided Hike", "description": "Gros Piton, the larger UNESCO Piton, is accessible via a guided hike from Fond Gens Libres at the base — Ladera's concierge arranges the guide and transport. The 2–3 hour ascent delivers summit views in all directions across the Caribbean. The return can be done via a different route for variety. Back at Ladera, the plunge pool is the perfect recovery." },
-      { "day": 4, "title": "Soufrière Exploration", "description": "Soufrière town, 15 minutes by road, is the original capital of St Lucia and a genuinely fascinating place: the Sulphur Springs drive-in volcano, Diamond Falls botanical gardens, and the AquaKreol authentic restaurant scene. Lunch in town, then a return trip to Ladera for the afternoon plunge pool ritual and sundowners." },
-      { "day": 5, "title": "Beach Day at Anse Chastanet", "description": "Ladera partners with Anse Chastanet beach for beach access — a complimentary shuttle runs between the properties. Spend the morning on the house reef of one of the Caribbean's best snorkeling beaches. Return to the ridge and Ladera for the evening. The contrast between the seashore and the mountain view from the room underlines how unusual the Ladera concept is." },
-      { "day": 6, "title": "Private Dinner on the Terrace", "description": "Ladera's F&B team can arrange an in-suite private dinner on the plunge pool terrace — with the Pitons in front of you, the Caribbean a glittering strip beyond the valley, and the canopy below, it is one of the most remarkable dining settings in the Caribbean. Dasheene's menu draws on local produce; the St Lucian rum cocktail list is outstanding." },
-      { "day": 7, "title": "Farewell Morning", "description": "One final sunrise over the Pitons. A slow breakfast brought to the terrace. The drive down to Soufrière and onward transfer to Hewanorra Airport for your departure." }
+      {
+        "day": 1,
+        "title": "Arrival & The Open Wall",
+        "description": "The approach to Ladera by road winds up from Soufrière through plantation country. Arrival delivers you to a reception with the Piton view opening immediately. The suite itself is the destination for the first afternoon — the open fourth wall, the plunge pool, and the understanding of what this architectural concept means in practice. Dinner at Dasheene restaurant, Ladera's hilltop venue, is where the concept peaks: spectacular food at an open-air table with the Pitons lit by the setting sun."
+      },
+      {
+        "day": 2,
+        "title": "Sunrise Pitons & Spa",
+        "description": "The open fourth wall means the Pitons enter your room at first light — dawn is a daily event of some significance. Morning at the plunge pool for sunrise over the ridge. After breakfast, the Ladera Spa offers signature treatments inspired by the island's botanical heritage: volcanic mud wraps, cocoa body treatments, and couples massages in open-air pavilions. The spa is modest in scale but excellent in execution."
+      },
+      {
+        "day": 3,
+        "title": "Gros Piton Guided Hike",
+        "description": "Gros Piton, the larger UNESCO Piton, is accessible via a guided hike from Fond Gens Libres at the base — Ladera's concierge arranges the guide and transport. The 2–3 hour ascent delivers summit views in all directions across the Caribbean. The return can be done via a different route for variety. Back at Ladera, the plunge pool is the perfect recovery."
+      },
+      {
+        "day": 4,
+        "title": "Soufrière Exploration",
+        "description": "Soufrière town, 15 minutes by road, is the original capital of St Lucia and a genuinely fascinating place: the Sulphur Springs drive-in volcano, Diamond Falls botanical gardens, and the AquaKreol authentic restaurant scene. Lunch in town, then a return trip to Ladera for the afternoon plunge pool ritual and sundowners."
+      },
+      {
+        "day": 5,
+        "title": "Beach Day at Anse Chastanet",
+        "description": "Ladera partners with Anse Chastanet beach for beach access — a complimentary shuttle runs between the properties. Spend the morning on the house reef of one of the Caribbean's best snorkeling beaches. Return to the ridge and Ladera for the evening. The contrast between the seashore and the mountain view from the room underlines how unusual the Ladera concept is."
+      },
+      {
+        "day": 6,
+        "title": "Private Dinner on the Terrace",
+        "description": "Ladera's F&B team can arrange an in-suite private dinner on the plunge pool terrace — with the Pitons in front of you, the Caribbean a glittering strip beyond the valley, and the canopy below, it is one of the most remarkable dining settings in the Caribbean. Dasheene's menu draws on local produce; the St Lucian rum cocktail list is outstanding."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "One final sunrise over the Pitons. A slow breakfast brought to the terrace. The drive down to Soufrière and onward transfer to Hewanorra Airport for your departure."
+      }
     ],
     "caveats": [
       "Ladera has no beach on site — the ridge location means beach access requires a shuttle to a partner beach. Honeymooners who require immediate beach access should consider Anse Chastanet or Sugar Beach instead.",
@@ -48,12 +113,30 @@
       "Children under 12 are not accommodated during peak season (December–April) — this is a positive for honeymooners seeking an adults-oriented atmosphere."
     ],
     "faqs": [
-      { "question": "Is Ladera Resort good for honeymooners?", "answer": "Ladera is one of the Caribbean's most celebrated honeymoon resorts and delivers an experience unlike any other property in the region. The private plunge pool with the open Piton view and the adults-oriented atmosphere during peak season make it a natural choice for couples seeking a romantic and architecturally extraordinary stay." },
-      { "question": "What is the best time to visit?", "answer": "January through April is the peak dry season — optimal weather and the adults-only policy in effect. The ridge location means Ladera has a microclimate that can be cooler and cloudier than the coast; high season generally offers the best visibility and weather." },
-      { "question": "What should we book in advance?", "answer": "Infinity Suites and villas in the best positions should be booked 3–6 months ahead for peak season. Pre-arrange the Piton guided hike, couples spa, and private terrace dinner before arrival." },
-      { "question": "Is it adults-only?", "answer": "Children under 12 are not accommodated during peak season (approximately December–April). Outside peak season families are welcome. In practice, Ladera's peak season atmosphere is effectively adults-only and the property is designed with couples in mind." },
-      { "question": "What's the best room for a honeymoon?", "answer": "An Infinity Suite on an upper level of the ridge for maximum elevation and the most open view across the valley to the Pitons. The plunge pool placement at the terrace edge is the signature experience — all suites deliver it, but upper levels have the greatest sense of space." },
-      { "question": "How do we get there?", "answer": "Fly to Hewanorra International Airport (UVF) then road transfer to Soufrière (approximately 45–60 minutes). Ladera is 15 minutes above Soufrière on the ridge road. The resort coordinates airport transfers." }
+      {
+        "question": "Is Ladera Resort good for honeymooners?",
+        "answer": "Ladera is one of the Caribbean's most celebrated honeymoon resorts and delivers an experience unlike any other property in the region. The private plunge pool with the open Piton view and the adults-oriented atmosphere during peak season make it a natural choice for couples seeking a romantic and architecturally extraordinary stay."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "January through April is the peak dry season — optimal weather and the adults-only policy in effect. The ridge location means Ladera has a microclimate that can be cooler and cloudier than the coast; high season generally offers the best visibility and weather."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "Infinity Suites and villas in the best positions should be booked 3–6 months ahead for peak season. Pre-arrange the Piton guided hike, couples spa, and private terrace dinner before arrival."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "Children under 12 are not accommodated during peak season (approximately December–April). Outside peak season families are welcome. In practice, Ladera's peak season atmosphere is effectively adults-only and the property is designed with couples in mind."
+      },
+      {
+        "question": "What's the best room for a honeymoon?",
+        "answer": "An Infinity Suite on an upper level of the ridge for maximum elevation and the most open view across the valley to the Pitons. The plunge pool placement at the terrace edge is the signature experience — all suites deliver it, but upper levels have the greatest sense of space."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "Fly to Hewanorra International Airport (UVF) then road transfer to Soufrière (approximately 45–60 minutes). Ladera is 15 minutes above Soufrière on the ridge road. The resort coordinates airport transfers."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Ladera Resort St Lucia\n\nDear Ladera Resort team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: an upper-level Infinity Suite with private plunge pool\n\nCould you please let us know:\n- Current availability for our dates\n- Any honeymoon packages or complimentary upgrades\n- Whether a private terrace dinner and couples spa can be arranged\n\nThank you for your time.\n\n[Your names]"
   },

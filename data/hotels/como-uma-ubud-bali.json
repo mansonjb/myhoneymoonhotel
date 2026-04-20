@@ -3,7 +3,11 @@
   "name": "COMO Uma Ubud",
   "destination": "bali",
   "country": "indonesia",
-  "experience_types": ["luxury", "wellness", "beach"],
+  "experience_types": [
+    "luxury",
+    "wellness",
+    "beach"
+  ],
   "honeymoon_score": 88,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,48 @@
     "luxury": 15
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 400, "max": 1500 },
+  "price_per_night_usd": {
+    "min": 400,
+    "max": 1500
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "room service", "butler service", "cooking classes", "yoga", "rice terrace views", "cycling tours", "COMO Shambhala wellness"],
+  "amenities": [
+    "spa",
+    "pool",
+    "room service",
+    "butler service",
+    "cooking classes",
+    "yoga",
+    "rice terrace views",
+    "cycling tours",
+    "COMO Shambhala wellness"
+  ],
   "photos": [
-    { "url": "/images/hotels/como-uma-ubud-bali/hero.webp", "alt": "como-uma-ubud-bali — hero", "type": "hero" },
-    { "url": "/images/hotels/como-uma-ubud-bali/room.webp", "alt": "como-uma-ubud-bali — room", "type": "room" },
-    { "url": "/images/hotels/como-uma-ubud-bali/pool.webp", "alt": "como-uma-ubud-bali — pool", "type": "pool" },
-    { "url": "/images/hotels/como-uma-ubud-bali/spa.webp", "alt": "como-uma-ubud-bali — spa", "type": "spa" },
-    { "url": "/images/hotels/como-uma-ubud-bali/dining.webp", "alt": "como-uma-ubud-bali — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/como-uma-ubud-bali/hero.webp",
+      "alt": "como-uma-ubud-bali — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/como-uma-ubud-bali/room.webp",
+      "alt": "como-uma-ubud-bali — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/como-uma-ubud-bali/pool.webp",
+      "alt": "como-uma-ubud-bali — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/como-uma-ubud-bali/spa.webp",
+      "alt": "como-uma-ubud-bali — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/como-uma-ubud-bali/dining.webp",
+      "alt": "como-uma-ubud-bali — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.2,
   "tripadvisor_award": true,
@@ -34,13 +71,41 @@
     "verdict": "COMO Uma Ubud delivers one of Bali's most refined and intelligent luxury experiences — set above the rice terrace valleys of Ubud with sweeping views that refresh the soul, the resort combines COMO Hotels' globally respected wellness programme with genuine Balinese cultural immersion. Its 46 rooms and villas, beautiful jungle pool, and the full breadth of COMO Shambhala treatments create a honeymoon experience that nourishes both body and spirit. This is Bali at its most serene and sophisticated.",
     "best_room": "The Uma Pool Villa is the ultimate romantic choice — a private one-bedroom villa with its own plunge pool, rice terrace views, and a large outdoor bathing deck. The Uma Suite is equally beautiful: a spacious corner suite with panoramic valley views and an outdoor terrace perfect for private dining.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Rice Terrace Views", "description": "Drive from Ngurah Rai Airport through the lush Balinese countryside to Ubud — approximately 90 minutes. COMO Uma Ubud's hilltop position above the Tjampuhan ridge reveals itself in stages as you approach: rice terraces cascade down the valley below, and the resort itself blends seamlessly into the jungle. Check into your villa, unwind with a welcome herbal drink, and watch the last of the day's light fade over the valley." },
-      { "day": 2, "title": "COMO Shambhala Wellness", "description": "Wake early for a sunrise yoga session on the outdoor platform — the rice terrace backdrop makes this one of the most atmospheric yoga experiences in Bali. After breakfast at COMO Café, book a COMO Shambhala treatment: the Rebalance massage uses COMO's signature essential oil blend to ease travel fatigue. Spend the afternoon at the jungle pool, watching the swifts wheel overhead." },
-      { "day": 3, "title": "Balinese Cooking Class", "description": "COMO Uma Ubud's Balinese cooking classes are among the best in the region — a morning market trip to Ubud's famous Pasar Tradisional (traditional market) is followed by a hands-on class preparing a full Balinese feast: satay, sambal matah, black rice pudding. Eat your own creation for lunch. Spend the afternoon exploring Ubud's art galleries and artisan workshops." },
-      { "day": 4, "title": "Rice Terrace Cycling", "description": "Join the guided dawn cycling tour through the Ubud rice terraces — the cool morning air and bird song make this a memorable experience. The route passes through small villages where locals are beginning their day, offering a window into authentic Balinese life. Return for a late breakfast, then spend the afternoon in a couples' massage at the spa." },
-      { "day": 5, "title": "Temple Ceremonies & Sunset", "description": "Visit the sacred Pura Tirta Empul temple for a purification ceremony — a deeply moving experience that contextualises Bali's extraordinary spiritual life. In the evening, walk to the Campuhan Ridge for the famous sunset view over the twin rivers, then return to COMO Uma for dinner: the kitchen sources most ingredients from local organic farms." },
-      { "day": 6, "title": "Private Villa Day", "description": "A full day of pure retreat in your villa. Order a villa breakfast, spend the morning in your private pool reading, and devote the afternoon to a lengthy couples' wellness session combining facial, massage, and a Boreh herbal body wrap — a traditional Balinese treatment using a blend of roots and spices that activates the body's natural detox systems." },
-      { "day": 7, "title": "Farewell Morning", "description": "Take a final sunrise walk through the rice terraces before breakfast. COMO Uma Ubud's unhurried pace means departures never feel rushed. Collect your handwoven parting gift and head back to the airport knowing you have experienced Ubud at its very finest." }
+      {
+        "day": 1,
+        "title": "Arrival & Rice Terrace Views",
+        "description": "Drive from Ngurah Rai Airport through the lush Balinese countryside to Ubud — approximately 90 minutes. COMO Uma Ubud's hilltop position above the Tjampuhan ridge reveals itself in stages as you approach: rice terraces cascade down the valley below, and the resort itself blends seamlessly into the jungle. Check into your villa, unwind with a welcome herbal drink, and watch the last of the day's light fade over the valley."
+      },
+      {
+        "day": 2,
+        "title": "COMO Shambhala Wellness",
+        "description": "Wake early for a sunrise yoga session on the outdoor platform — the rice terrace backdrop makes this one of the most atmospheric yoga experiences in Bali. After breakfast at COMO Café, book a COMO Shambhala treatment: the Rebalance massage uses COMO's signature essential oil blend to ease travel fatigue. Spend the afternoon at the jungle pool, watching the swifts wheel overhead."
+      },
+      {
+        "day": 3,
+        "title": "Balinese Cooking Class",
+        "description": "COMO Uma Ubud's Balinese cooking classes are among the best in the region — a morning market trip to Ubud's famous Pasar Tradisional (traditional market) is followed by a hands-on class preparing a full Balinese feast: satay, sambal matah, black rice pudding. Eat your own creation for lunch. Spend the afternoon exploring Ubud's art galleries and artisan workshops."
+      },
+      {
+        "day": 4,
+        "title": "Rice Terrace Cycling",
+        "description": "Join the guided dawn cycling tour through the Ubud rice terraces — the cool morning air and bird song make this a memorable experience. The route passes through small villages where locals are beginning their day, offering a window into authentic Balinese life. Return for a late breakfast, then spend the afternoon in a couples' massage at the spa."
+      },
+      {
+        "day": 5,
+        "title": "Temple Ceremonies & Sunset",
+        "description": "Visit the sacred Pura Tirta Empul temple for a purification ceremony — a deeply moving experience that contextualises Bali's extraordinary spiritual life. In the evening, walk to the Campuhan Ridge for the famous sunset view over the twin rivers, then return to COMO Uma for dinner: the kitchen sources most ingredients from local organic farms."
+      },
+      {
+        "day": 6,
+        "title": "Private Villa Day",
+        "description": "A full day of pure retreat in your villa. Order a villa breakfast, spend the morning in your private pool reading, and devote the afternoon to a lengthy couples' wellness session combining facial, massage, and a Boreh herbal body wrap — a traditional Balinese treatment using a blend of roots and spices that activates the body's natural detox systems."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "Take a final sunrise walk through the rice terraces before breakfast. COMO Uma Ubud's unhurried pace means departures never feel rushed. Collect your handwoven parting gift and head back to the airport knowing you have experienced Ubud at its very finest."
+      }
     ],
     "caveats": [
       "Ubud is inland — no beach access. This is a jungle and rice terrace resort, not a beach holiday.",
@@ -48,12 +113,30 @@
       "At 46 rooms, COMO Uma Ubud is relatively small — book early, especially for the Pool Villas which are limited in number."
     ],
     "faqs": [
-      { "question": "Is COMO Uma Ubud good for honeymooners?", "answer": "COMO Uma Ubud is one of Bali's finest honeymoon resorts for couples who want cultural depth alongside world-class wellness. The COMO Shambhala programme, rice terrace setting, Balinese cooking classes, and intimate boutique atmosphere create a honeymoon that feels genuinely enriching rather than just luxurious." },
-      { "question": "What is the best time to visit?", "answer": "Ubud is inland and less affected by beach weather than coastal Bali. The dry season (May to September) offers the most reliable sunshine. The wet season (October to April) sees lush, vivid green rice terraces — arguably the most beautiful — with rain typically falling in short afternoon bursts." },
-      { "question": "What should we book in advance?", "answer": "The Pool Villa is COMO Uma Ubud's most romantic accommodation — book early. Spa treatments and cooking classes have limited capacity and should be reserved before arrival. Alert the resort to your honeymoon for a welcome surprise." },
-      { "question": "Is it adults-only?", "answer": "No, COMO Uma Ubud is not adults-only. However, the resort's wellness focus and relatively small scale create an atmosphere that is overwhelmingly calm and romantic." },
-      { "question": "What's the best room for a honeymoon?", "answer": "The Uma Pool Villa is the most romantic option — a private villa with plunge pool and rice terrace views. The Uma Suite offers equivalent space with panoramic valley views and a large outdoor terrace." },
-      { "question": "How do we get there?", "answer": "Fly into Ngurah Rai International Airport (DPS) in Denpasar and arrange a hotel car or private driver to Ubud — approximately 90 minutes. The resort can arrange transfers directly." }
+      {
+        "question": "Is COMO Uma Ubud good for honeymooners?",
+        "answer": "COMO Uma Ubud is one of Bali's finest honeymoon resorts for couples who want cultural depth alongside world-class wellness. The COMO Shambhala programme, rice terrace setting, Balinese cooking classes, and intimate boutique atmosphere create a honeymoon that feels genuinely enriching rather than just luxurious."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "Ubud is inland and less affected by beach weather than coastal Bali. The dry season (May to September) offers the most reliable sunshine. The wet season (October to April) sees lush, vivid green rice terraces — arguably the most beautiful — with rain typically falling in short afternoon bursts."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "The Pool Villa is COMO Uma Ubud's most romantic accommodation — book early. Spa treatments and cooking classes have limited capacity and should be reserved before arrival. Alert the resort to your honeymoon for a welcome surprise."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "No, COMO Uma Ubud is not adults-only. However, the resort's wellness focus and relatively small scale create an atmosphere that is overwhelmingly calm and romantic."
+      },
+      {
+        "question": "What's the best room for a honeymoon?",
+        "answer": "The Uma Pool Villa is the most romantic option — a private villa with plunge pool and rice terrace views. The Uma Suite offers equivalent space with panoramic valley views and a large outdoor terrace."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "Fly into Ngurah Rai International Airport (DPS) in Denpasar and arrange a hotel car or private driver to Ubud — approximately 90 minutes. The resort can arrange transfers directly."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — COMO Uma Ubud\n\nDear COMO Uma Ubud team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: [Uma Pool Villa / Uma Suite]\n\nCould you please let us know:\n- Current availability for our dates\n- Any honeymoon packages or complimentary upgrades\n- Availability for the Balinese cooking class and COMO Shambhala spa treatments\n\nThank you for your time.\n\n[Your names]"
   },

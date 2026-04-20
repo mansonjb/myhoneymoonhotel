@@ -3,19 +3,63 @@
   "name": "Arenas del Mar Beachfront & Rainforest Resort",
   "destination": "costa-rica",
   "country": "costa-rica",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 85,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 15, "spa": 15, "award": 5, "pool": 10, "beach": 15, "room_service": 5, "stars": 10, "luxury": 10 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 15,
+    "spa": 15,
+    "award": 5,
+    "pool": 10,
+    "beach": 15,
+    "room_service": 5,
+    "stars": 10,
+    "luxury": 10
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 400, "max": 1200 },
+  "price_per_night_usd": {
+    "min": 400,
+    "max": 1200
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "beach", "room service", "rainforest", "wildlife viewing"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beach",
+    "room service",
+    "rainforest",
+    "wildlife viewing"
+  ],
   "photos": [
-    { "url": "/images/hotels/arenas-del-mar-manuel-antonio-costa-rica/hero.webp", "alt": "arenas-del-mar-manuel-antonio-costa-rica — hero", "type": "hero" },
-    { "url": "/images/hotels/arenas-del-mar-manuel-antonio-costa-rica/room.webp", "alt": "arenas-del-mar-manuel-antonio-costa-rica — room", "type": "room" },
-    { "url": "/images/hotels/arenas-del-mar-manuel-antonio-costa-rica/pool.webp", "alt": "arenas-del-mar-manuel-antonio-costa-rica — pool", "type": "pool" },
-    { "url": "/images/hotels/arenas-del-mar-manuel-antonio-costa-rica/spa.webp", "alt": "arenas-del-mar-manuel-antonio-costa-rica — spa", "type": "spa" },
-    { "url": "/images/hotels/arenas-del-mar-manuel-antonio-costa-rica/dining.webp", "alt": "arenas-del-mar-manuel-antonio-costa-rica — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/arenas-del-mar-manuel-antonio-costa-rica/hero.webp",
+      "alt": "arenas-del-mar-manuel-antonio-costa-rica — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/arenas-del-mar-manuel-antonio-costa-rica/room.webp",
+      "alt": "arenas-del-mar-manuel-antonio-costa-rica — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/arenas-del-mar-manuel-antonio-costa-rica/pool.webp",
+      "alt": "arenas-del-mar-manuel-antonio-costa-rica — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/arenas-del-mar-manuel-antonio-costa-rica/spa.webp",
+      "alt": "arenas-del-mar-manuel-antonio-costa-rica — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/arenas-del-mar-manuel-antonio-costa-rica/dining.webp",
+      "alt": "arenas-del-mar-manuel-antonio-costa-rica — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.1,
   "tripadvisor_award": true,
@@ -24,13 +68,41 @@
     "verdict": "Arenas del Mar sits right on the border of Manuel Antonio National Park — Costa Rica's most visited and most beloved wildlife reserve — and occupies a dramatic hillside position between the forest canopy and two private beaches. Every one of the 38 rooms has an ocean view, and canopy walkways connect the resort to the national park, meaning monkeys and sloths pass through the property as if it were part of their territory (because it was, and still is). This is beach luxury with genuine wild Costa Rica on your doorstep.",
     "best_room": "The Beachfront Master Suite is the pinnacle — a direct beachfront position on Bejuco Beach with a private terrace practically on the sand, a deep soaking tub, and an outdoor shower in a tropical garden alcove. The ocean-view Master Suites on the forested hillside are slightly higher up but offer sweeping Pacific panoramas and extraordinary wildlife viewing from the balcony, with sloths and white-faced monkeys commonly spotted from the room.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Wildlife Welcome", "description": "Drive or fly into Quepos (a 20-minute domestic flight from San José), then transfer 10 minutes to Arenas del Mar. Check in and explore the canopy walkway immediately — white-faced capuchin monkeys and three-toed sloths are almost guaranteed within your first hour. Dinner at the resort's Playitas restaurant on the beach." },
-      { "day": 2, "title": "Manuel Antonio National Park", "description": "Spend the morning with a naturalist guide in Manuel Antonio National Park — one of the best wildlife-watching areas in the Americas. Squirrel monkeys (one of Costa Rica's rarest), howlers, sloths, iguanas, and an extraordinary range of coastal birds are commonly seen. The park also has beautiful white-sand beaches for a swim after the hike." },
-      { "day": 3, "title": "Private Beach & Spa", "description": "Arenas del Mar has two private beaches accessible directly from the resort — Bejuco Beach (calmer, good for swimming) and the wilder north beach (better for surfing). Spend the morning on Bejuco with the beach service and afternoon at the Arenas spa for a couples volcanic stone massage using local basalt stones." },
-      { "day": 4, "title": "Kayaking & Snorkeling", "description": "The rocky islets off Manuel Antonio's coast are excellent for snorkeling — the park's protected waters have vibrant coral and abundant marine life including spotted eagle rays, sea turtles, and reef fish. Guided sea kayaking through the sea caves and coastal rock arches is a superb half-day adventure." },
-      { "day": 5, "title": "Rainforest Canopy & Birdwatching", "description": "Book a pre-dawn birdwatching walk with the resort's expert ornithologist guide — Manuel Antonio is one of the best birding destinations in Costa Rica with over 350 species recorded. The forest is most alive at dawn; toucans, scarlet macaws, and the spectacular fiery-billed aracari are regularly seen from the resort's canopy walkway." },
-      { "day": 6, "title": "Sunset Sailing & Dolphins", "description": "The waters off Manuel Antonio are home to pods of spinner and bottlenose dolphins year-round. A sunset sailing catamaran tour typically offers dolphin encounters, sea turtle sightings, and spectacular Pacific sunsets over the forested headlands. Return for a farewell dinner at Playitas with fresh-caught Pacific snapper." },
-      { "day": 7, "title": "Final Morning Wildlife Walk", "description": "Spend one last morning on the canopy walkway for those inevitable final wildlife encounters — sloths are most active in the early morning and the light through the forest is extraordinary. A leisurely checkout and transfer to Quepos for your return flight." }
+      {
+        "day": 1,
+        "title": "Arrival & Wildlife Welcome",
+        "description": "Drive or fly into Quepos (a 20-minute domestic flight from San José), then transfer 10 minutes to Arenas del Mar. Check in and explore the canopy walkway immediately — white-faced capuchin monkeys and three-toed sloths are almost guaranteed within your first hour. Dinner at the resort's Playitas restaurant on the beach."
+      },
+      {
+        "day": 2,
+        "title": "Manuel Antonio National Park",
+        "description": "Spend the morning with a naturalist guide in Manuel Antonio National Park — one of the best wildlife-watching areas in the Americas. Squirrel monkeys (one of Costa Rica's rarest), howlers, sloths, iguanas, and an extraordinary range of coastal birds are commonly seen. The park also has beautiful white-sand beaches for a swim after the hike."
+      },
+      {
+        "day": 3,
+        "title": "Private Beach & Spa",
+        "description": "Arenas del Mar has two private beaches accessible directly from the resort — Bejuco Beach (calmer, good for swimming) and the wilder north beach (better for surfing). Spend the morning on Bejuco with the beach service and afternoon at the Arenas spa for a couples volcanic stone massage using local basalt stones."
+      },
+      {
+        "day": 4,
+        "title": "Kayaking & Snorkeling",
+        "description": "The rocky islets off Manuel Antonio's coast are excellent for snorkeling — the park's protected waters have vibrant coral and abundant marine life including spotted eagle rays, sea turtles, and reef fish. Guided sea kayaking through the sea caves and coastal rock arches is a superb half-day adventure."
+      },
+      {
+        "day": 5,
+        "title": "Rainforest Canopy & Birdwatching",
+        "description": "Book a pre-dawn birdwatching walk with the resort's expert ornithologist guide — Manuel Antonio is one of the best birding destinations in Costa Rica with over 350 species recorded. The forest is most alive at dawn; toucans, scarlet macaws, and the spectacular fiery-billed aracari are regularly seen from the resort's canopy walkway."
+      },
+      {
+        "day": 6,
+        "title": "Sunset Sailing & Dolphins",
+        "description": "The waters off Manuel Antonio are home to pods of spinner and bottlenose dolphins year-round. A sunset sailing catamaran tour typically offers dolphin encounters, sea turtle sightings, and spectacular Pacific sunsets over the forested headlands. Return for a farewell dinner at Playitas with fresh-caught Pacific snapper."
+      },
+      {
+        "day": 7,
+        "title": "Final Morning Wildlife Walk",
+        "description": "Spend one last morning on the canopy walkway for those inevitable final wildlife encounters — sloths are most active in the early morning and the light through the forest is extraordinary. A leisurely checkout and transfer to Quepos for your return flight."
+      }
     ],
     "caveats": [
       "Manuel Antonio is the most visited national park in Costa Rica and can be crowded, especially on weekends during dry season. Book guided park tours on weekday mornings to avoid the busiest periods.",
@@ -38,12 +110,30 @@
       "Being in the rainforest means insects — mosquitoes and sand flies are present, particularly at dawn and dusk. Pack good repellent and long sleeves for evening walks."
     ],
     "faqs": [
-      { "question": "Is Arenas del Mar good for honeymooners?", "answer": "Yes — it offers a rare combination of genuine luxury accommodation with direct access to outstanding wildlife and two private beaches. The setting on the border of Manuel Antonio National Park is unmatched in Costa Rica for couples who want both beach comfort and wild nature. Monkeys and sloths passing through the resort grounds are a genuine honeymoon memory." },
-      { "question": "What is the best time to visit?", "answer": "December through April (dry season) offers the best weather, clearest snorkeling waters, and most reliable sun. However, Manuel Antonio's green season (May–November) has fewer visitors in the park, more active wildlife, and lower hotel rates. Many wildlife experts actually prefer the green season for biodiversity." },
-      { "question": "How far in advance should you book?", "answer": "Book 3–4 months ahead for dry season dates, and 1–2 months for green season travel. Arenas del Mar has 38 rooms and is consistently well-reviewed, making it popular year-round." },
-      { "question": "Is Arenas del Mar adults-only?", "answer": "No, families are welcome. However, the resort's focus on wildlife, nature, and romantic dining creates a couples-friendly atmosphere. The beachfront suites in particular are most sought after by honeymooners and couples." },
-      { "question": "What is the best room type?", "answer": "The Beachfront Master Suite for direct beach access, or the Ocean View Master Suite for panoramic Pacific views and excellent wildlife sightings from your balcony. Both are exceptional — the beachfront rooms are more intimate; the ocean-view rooms have more sweeping vistas." },
-      { "question": "How do you get to Arenas del Mar?", "answer": "Fly into San José (SJO) and take a 20-minute domestic flight to Quepos (XQP) with SANSA Airlines, then a 10-minute transfer to the resort. Alternatively, the drive from San José takes about 3.5 hours along the Pacific highway. The resort arranges private transfers from both." }
+      {
+        "question": "Is Arenas del Mar good for honeymooners?",
+        "answer": "Yes — it offers a rare combination of genuine luxury accommodation with direct access to outstanding wildlife and two private beaches. The setting on the border of Manuel Antonio National Park is unmatched in Costa Rica for couples who want both beach comfort and wild nature. Monkeys and sloths passing through the resort grounds are a genuine honeymoon memory."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "December through April (dry season) offers the best weather, clearest snorkeling waters, and most reliable sun. However, Manuel Antonio's green season (May–November) has fewer visitors in the park, more active wildlife, and lower hotel rates. Many wildlife experts actually prefer the green season for biodiversity."
+      },
+      {
+        "question": "How far in advance should you book?",
+        "answer": "Book 3–4 months ahead for dry season dates, and 1–2 months for green season travel. Arenas del Mar has 38 rooms and is consistently well-reviewed, making it popular year-round."
+      },
+      {
+        "question": "Is Arenas del Mar adults-only?",
+        "answer": "No, families are welcome. However, the resort's focus on wildlife, nature, and romantic dining creates a couples-friendly atmosphere. The beachfront suites in particular are most sought after by honeymooners and couples."
+      },
+      {
+        "question": "What is the best room type?",
+        "answer": "The Beachfront Master Suite for direct beach access, or the Ocean View Master Suite for panoramic Pacific views and excellent wildlife sightings from your balcony. Both are exceptional — the beachfront rooms are more intimate; the ocean-view rooms have more sweeping vistas."
+      },
+      {
+        "question": "How do you get to Arenas del Mar?",
+        "answer": "Fly into San José (SJO) and take a 20-minute domestic flight to Quepos (XQP) with SANSA Airlines, then a 10-minute transfer to the resort. Alternatively, the drive from San José takes about 3.5 hours along the Pacific highway. The resort arranges private transfers from both."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — Arenas del Mar\n\nDear Arenas del Mar team,\n\nWe are planning our honeymoon [DATE]-[DATE] and interested in a Beachfront Master Suite or Ocean View Master Suite. Please advise on availability, any honeymoon packages, and whether guided wildlife walks in Manuel Antonio National Park can be pre-arranged through the hotel.\n\nThank you,\n[Your names]"
   },

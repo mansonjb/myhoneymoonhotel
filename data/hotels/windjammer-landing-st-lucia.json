@@ -3,7 +3,10 @@
   "name": "Windjammer Landing Villa Beach Resort",
   "destination": "st-lucia",
   "country": "st-lucia",
-  "experience_types": ["beach", "luxury"],
+  "experience_types": [
+    "beach",
+    "luxury"
+  ],
   "honeymoon_score": 79,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +20,49 @@
     "luxury": 9
   },
   "stars": 4,
-  "price_per_night_usd": { "min": 300, "max": 900 },
+  "price_per_night_usd": {
+    "min": 300,
+    "max": 900
+  },
   "adults_only": false,
-  "amenities": ["spa", "multiple pools", "beach", "room service", "multiple restaurants", "fitness centre", "water sports", "tennis", "concierge", "kids club"],
+  "amenities": [
+    "spa",
+    "multiple pools",
+    "beach",
+    "room service",
+    "multiple restaurants",
+    "fitness centre",
+    "water sports",
+    "tennis",
+    "concierge",
+    "kids club"
+  ],
   "photos": [
-    { "url": "/images/hotels/windjammer-landing-st-lucia/hero.webp", "alt": "windjammer-landing-st-lucia — hero", "type": "hero" },
-    { "url": "/images/hotels/windjammer-landing-st-lucia/room.webp", "alt": "windjammer-landing-st-lucia — room", "type": "room" },
-    { "url": "/images/hotels/windjammer-landing-st-lucia/pool.webp", "alt": "windjammer-landing-st-lucia — pool", "type": "pool" },
-    { "url": "/images/hotels/windjammer-landing-st-lucia/spa.webp", "alt": "windjammer-landing-st-lucia — spa", "type": "spa" },
-    { "url": "/images/hotels/windjammer-landing-st-lucia/dining.webp", "alt": "windjammer-landing-st-lucia — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/windjammer-landing-st-lucia/hero.webp",
+      "alt": "windjammer-landing-st-lucia — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/windjammer-landing-st-lucia/room.webp",
+      "alt": "windjammer-landing-st-lucia — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/windjammer-landing-st-lucia/pool.webp",
+      "alt": "windjammer-landing-st-lucia — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/windjammer-landing-st-lucia/spa.webp",
+      "alt": "windjammer-landing-st-lucia — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/windjammer-landing-st-lucia/dining.webp",
+      "alt": "windjammer-landing-st-lucia — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 8.6,
   "tripadvisor_award": false,
@@ -34,13 +71,41 @@
     "verdict": "Windjammer Landing Villa Beach Resort is St Lucia's most complete self-contained resort — a whitewashed Mediterranean-style hillside village of 233 villas and suites on the north coast near Labrelotte Bay, with multiple pools, several restaurants, a full spa, and direct beach access. It is primarily a family-friendly resort and one of the island's best-known properties, popular with repeat visitors who appreciate its broad amenities and consistently good service at a price below the Piton-area five-stars. For honeymooners, it is not the most romantic or intimate option on St Lucia, but it works well for couples who want a lively resort atmosphere, extensive facilities, and easy access to the north coast activities.",
     "best_room": "The Luxury Plunge Pool Villa is the best choice for a honeymoon — a standalone villa unit with private plunge pool on the terrace, ocean views, and significantly more privacy than the standard villa categories. The resort's scale means the standard villas can feel close together; the plunge pool villas give the self-contained experience that justifies the resort format for a honeymoon.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & North Coast Welcome", "description": "Windjammer Landing is on the north-west coast — approximately 30 minutes from George F.L. Charles Airport in Castries, or 60–75 minutes from Hewanorra International. Check in, explore the Mediterranean-style compound (golf cart transfers are available on site), and stake out a spot by the beach or one of the resort's multiple pools for the afternoon." },
-      { "day": 2, "title": "Beach & Water Sports", "description": "Windjammer Landing's water sports centre offers a full programme: kayaking, paddleboarding, snorkeling, sailing, and introduction to kiteboarding. The north coast is good for snorkeling with reasonable reef health. Multiple pools at different elevations give options for sun exposure throughout the day." },
-      { "day": 3, "title": "Pitons Day Trip", "description": "A full-day excursion to the Pitons region — 45–60 minutes south by road or water taxi — delivers the UNESCO landscape, Soufrière town, the Sulphur Springs, and Diamond Falls in a single memorable day. Book through the Windjammer concierge. Return for a late dinner at the resort." },
-      { "day": 4, "title": "Spa & Villa Day", "description": "The resort's Kai Mer Spa offers a full couples treatment menu. Morning at the spa, afternoon at the plunge pool villa. Windjammer's hillside provides excellent sunset views toward the Caribbean, and the later restaurants on the property offer good food for an evening in." },
-      { "day": 5, "title": "Castries & Rodney Bay", "description": "Castries, the capital, is a short drive north — the weekly Saturday market is among the best in the Lesser Antilles for local spices, tropical produce, and authentic St Lucian crafts. Nearby Rodney Bay is a sailing hub with a marina, excellent restaurants, and a lively strip of bars and shops popular in the evening." },
-      { "day": 6, "title": "Catamaran Cruise", "description": "A catamaran day cruise from Rodney Bay south along the coast to the Pitons is the classic St Lucia excursion and a popular choice from Windjammer Landing. Snorkeling stops, a beach lunch, and the boat tour of the Pitons from the sea — all return before sunset. Book through the resort." },
-      { "day": 7, "title": "Farewell Morning", "description": "A final morning at the beach or pool before a villa checkout and airport transfer to either George F.L. Charles or Hewanorra." }
+      {
+        "day": 1,
+        "title": "Arrival & North Coast Welcome",
+        "description": "Windjammer Landing is on the north-west coast — approximately 30 minutes from George F.L. Charles Airport in Castries, or 60–75 minutes from Hewanorra International. Check in, explore the Mediterranean-style compound (golf cart transfers are available on site), and stake out a spot by the beach or one of the resort's multiple pools for the afternoon."
+      },
+      {
+        "day": 2,
+        "title": "Beach & Water Sports",
+        "description": "Windjammer Landing's water sports centre offers a full programme: kayaking, paddleboarding, snorkeling, sailing, and introduction to kiteboarding. The north coast is good for snorkeling with reasonable reef health. Multiple pools at different elevations give options for sun exposure throughout the day."
+      },
+      {
+        "day": 3,
+        "title": "Pitons Day Trip",
+        "description": "A full-day excursion to the Pitons region — 45–60 minutes south by road or water taxi — delivers the UNESCO landscape, Soufrière town, the Sulphur Springs, and Diamond Falls in a single memorable day. Book through the Windjammer concierge. Return for a late dinner at the resort."
+      },
+      {
+        "day": 4,
+        "title": "Spa & Villa Day",
+        "description": "The resort's Kai Mer Spa offers a full couples treatment menu. Morning at the spa, afternoon at the plunge pool villa. Windjammer's hillside provides excellent sunset views toward the Caribbean, and the later restaurants on the property offer good food for an evening in."
+      },
+      {
+        "day": 5,
+        "title": "Castries & Rodney Bay",
+        "description": "Castries, the capital, is a short drive north — the weekly Saturday market is among the best in the Lesser Antilles for local spices, tropical produce, and authentic St Lucian crafts. Nearby Rodney Bay is a sailing hub with a marina, excellent restaurants, and a lively strip of bars and shops popular in the evening."
+      },
+      {
+        "day": 6,
+        "title": "Catamaran Cruise",
+        "description": "A catamaran day cruise from Rodney Bay south along the coast to the Pitons is the classic St Lucia excursion and a popular choice from Windjammer Landing. Snorkeling stops, a beach lunch, and the boat tour of the Pitons from the sea — all return before sunset. Book through the resort."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "A final morning at the beach or pool before a villa checkout and airport transfer to either George F.L. Charles or Hewanorra."
+      }
     ],
     "caveats": [
       "Windjammer Landing is a large and family-oriented resort — with 233 villas and a kids club, the atmosphere is quite different from the boutique and adults-focused properties further south. Honeymooners seeking seclusion and romance should set expectations accordingly.",
@@ -48,12 +113,30 @@
       "The north coast does not have the dramatic Piton backdrop of the properties further south — couples specifically drawn to the UNESCO landscape should consider Ladera, Anse Chastanet, or Sugar Beach instead."
     ],
     "faqs": [
-      { "question": "Is Windjammer Landing good for honeymooners?", "answer": "It is a good choice for honeymooners who want extensive resort facilities, a lively social atmosphere, and value relative to the south coast properties. It is not the most intimate or secluded honeymoon hotel on St Lucia, but the Luxury Plunge Pool Villas create enough privacy for a romantic stay." },
-      { "question": "What is the best time to visit?", "answer": "December through April is the dry season and peak period. The north coast is generally consistent in weather year-round. Shoulder months May and November offer the best value." },
-      { "question": "What should we book in advance?", "answer": "Luxury Plunge Pool Villas for peak season. The catamaran excursion and Piton day trip should be pre-arranged through the concierge." },
-      { "question": "Is it adults-only?", "answer": "No — Windjammer Landing is actively family-friendly with a dedicated kids club. It is one of St Lucia's most popular family resorts." },
-      { "question": "What's the best room for a honeymoon?", "answer": "A Luxury Plunge Pool Villa with ocean views and private terrace pool — this gives the most self-contained couple's experience in an otherwise large and active resort." },
-      { "question": "How do we get there?", "answer": "Fly to George F.L. Charles Airport (SLU) in Castries for the shortest transfer — approximately 20–30 minutes to the resort. Alternatively Hewanorra International (UVF) serves more international routes but is 60–75 minutes away by road." }
+      {
+        "question": "Is Windjammer Landing good for honeymooners?",
+        "answer": "It is a good choice for honeymooners who want extensive resort facilities, a lively social atmosphere, and value relative to the south coast properties. It is not the most intimate or secluded honeymoon hotel on St Lucia, but the Luxury Plunge Pool Villas create enough privacy for a romantic stay."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "December through April is the dry season and peak period. The north coast is generally consistent in weather year-round. Shoulder months May and November offer the best value."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "Luxury Plunge Pool Villas for peak season. The catamaran excursion and Piton day trip should be pre-arranged through the concierge."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "No — Windjammer Landing is actively family-friendly with a dedicated kids club. It is one of St Lucia's most popular family resorts."
+      },
+      {
+        "question": "What's the best room for a honeymoon?",
+        "answer": "A Luxury Plunge Pool Villa with ocean views and private terrace pool — this gives the most self-contained couple's experience in an otherwise large and active resort."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "Fly to George F.L. Charles Airport (SLU) in Castries for the shortest transfer — approximately 20–30 minutes to the resort. Alternatively Hewanorra International (UVF) serves more international routes but is 60–75 minutes away by road."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Windjammer Landing Villa Beach Resort\n\nDear Windjammer Landing team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: a Luxury Plunge Pool Villa with ocean views\n\nCould you please let us know:\n- Current availability for our dates\n- Any honeymoon packages or complimentary upgrades\n- Details on the catamaran excursion and Pitons day trip options\n\nThank you for your time.\n\n[Your names]"
   },

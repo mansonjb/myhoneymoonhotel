@@ -3,7 +3,11 @@
   "name": "Four Seasons Resort Hualalai",
   "destination": "hawaii",
   "country": "usa",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 94,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,48 @@
     "luxury": 9
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 1500, "max": 4000 },
+  "price_per_night_usd": {
+    "min": 1500,
+    "max": 4000
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "beach", "room service", "butler service", "golf", "multiple restaurants", "cultural activities", "King's Pond snorkeling"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beach",
+    "room service",
+    "butler service",
+    "golf",
+    "multiple restaurants",
+    "cultural activities",
+    "King's Pond snorkeling"
+  ],
   "photos": [
-    { "url": "/images/hotels/four-seasons-hualalai-hawaii/hero.webp", "alt": "four-seasons-hualalai-hawaii — hero", "type": "hero" },
-    { "url": "/images/hotels/four-seasons-hualalai-hawaii/room.webp", "alt": "four-seasons-hualalai-hawaii — room", "type": "room" },
-    { "url": "/images/hotels/four-seasons-hualalai-hawaii/pool.webp", "alt": "four-seasons-hualalai-hawaii — pool", "type": "pool" },
-    { "url": "/images/hotels/four-seasons-hualalai-hawaii/spa.webp", "alt": "four-seasons-hualalai-hawaii — spa", "type": "spa" },
-    { "url": "/images/hotels/four-seasons-hualalai-hawaii/dining.webp", "alt": "four-seasons-hualalai-hawaii — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/four-seasons-hualalai-hawaii/hero.webp",
+      "alt": "four-seasons-hualalai-hawaii — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/four-seasons-hualalai-hawaii/room.webp",
+      "alt": "four-seasons-hualalai-hawaii — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/four-seasons-hualalai-hawaii/pool.webp",
+      "alt": "four-seasons-hualalai-hawaii — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/four-seasons-hualalai-hawaii/spa.webp",
+      "alt": "four-seasons-hualalai-hawaii — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/four-seasons-hualalai-hawaii/dining.webp",
+      "alt": "four-seasons-hualalai-hawaii — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.7,
   "tripadvisor_award": true,
@@ -34,13 +71,41 @@
     "verdict": "The Four Seasons Hualalai on the Big Island's Kohala Coast is arguably the finest resort in all of Hawaii — a secluded, low-rise property of bungalows and villas set directly on a dramatic lava-and-sand coastline where manta rays glide nightly in the floodlit waters. The sense of place is extraordinary: lava rock pools, ancient Hawaiian archaeological sites on the property, and a natural anchor-shaped snorkel pond called King's Pond make it unlike any other resort experience in the Pacific. For honeymooners who want total seclusion and world-class service, this is as good as it gets in Hawaii.",
     "best_room": "The One-Bedroom Bungalow Suite with private plunge pool is the quintessential Hualalai honeymoon room — a single-level retreat surrounded by lava rock gardens with an outdoor lava rock shower, plunge pool, and floor-to-ceiling doors that open the bedroom entirely to the trade winds. For maximum indulgence, the oceanfront Ali'i Suite offers direct ocean access and butler service.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & King's Pond", "description": "Touch down at Kona International Airport, just 15 minutes from the resort, and be greeted with fresh-pressed juice and a lei. After settling into your bungalow, head to King's Pond — a natural anchialine pool where you can snorkel alongside yellow tang, surgeonfish, and the occasional sea turtle in gin-clear water. End the evening with dinner at Beach Tree restaurant as the sun sinks into the Pacific." },
-      { "day": 2, "title": "Manta Ray Night Snorkel", "description": "Arrange the hotel's signature manta ray night snorkel, one of the most extraordinary wildlife experiences in Hawaii. Giant Pacific manta rays with wingspans of up to 12 feet gather nightly in the bay, drawn by the resort's underwater lights — you float at the surface as they spiral beneath you. Return to the resort glowing and book a calming couples' massage the following morning." },
-      { "day": 3, "title": "Spa Hualalai & Cultural Journey", "description": "Begin the day with the Signature Hualalai Journey at Spa Hualalai — a 110-minute treatment incorporating volcanic clay, Hawaiian botanical oils, and a lomi lomi-inspired sequence. In the afternoon, join the complimentary cultural program to learn about the ancient Hawaiian heiau (temple sites) preserved within the resort grounds — a rare and moving experience." },
-      { "day": 4, "title": "Hawaii Volcanoes National Park", "description": "Drive two hours south to Hawaii Volcanoes National Park for an otherworldly day exploring active lava fields, steam vents, and the Kilauea caldera. The Four Seasons concierge can arrange a private naturalist guide to make the most of the park's highlights. Return by sunset for a restorative soak in your bungalow's plunge pool." },
-      { "day": 5, "title": "Kohala Coast & Waterfalls", "description": "Head north to the lush Kohala Valley, where hidden waterfalls and ancient taro fields await. Book a private Kohala Ditch zipline and kayak tour to discover this dramatic landscape, or simply hike the Pololu Valley trail to a sweeping black sand beach. The contrast with the sunny Kohala Coast just miles away is stunning." },
-      { "day": 6, "title": "Private Beach Picnic & Sunset Cruise", "description": "Request a private beach picnic setup from the culinary team — tables and chairs set directly on the sand at a secluded stretch of the resort's beach, with a custom menu of local fish, tropical fruits, and chilled rosé. In the late afternoon, board a private sunset sailing charter arranged through the concierge for champagne and hors d'oeuvres on the water." },
-      { "day": 7, "title": "Farewell Morning", "description": "Wake early for one final snorkel at King's Pond in the golden morning light before the day guests arrive. Enjoy a leisurely breakfast on your bungalow's private lanai, listening to the trade winds rustle through the palms, then allow the Four Seasons team to orchestrate a seamless, thoughtful departure." }
+      {
+        "day": 1,
+        "title": "Arrival & King's Pond",
+        "description": "Touch down at Kona International Airport, just 15 minutes from the resort, and be greeted with fresh-pressed juice and a lei. After settling into your bungalow, head to King's Pond — a natural anchialine pool where you can snorkel alongside yellow tang, surgeonfish, and the occasional sea turtle in gin-clear water. End the evening with dinner at Beach Tree restaurant as the sun sinks into the Pacific."
+      },
+      {
+        "day": 2,
+        "title": "Manta Ray Night Snorkel",
+        "description": "Arrange the hotel's signature manta ray night snorkel, one of the most extraordinary wildlife experiences in Hawaii. Giant Pacific manta rays with wingspans of up to 12 feet gather nightly in the bay, drawn by the resort's underwater lights — you float at the surface as they spiral beneath you. Return to the resort glowing and book a calming couples' massage the following morning."
+      },
+      {
+        "day": 3,
+        "title": "Spa Hualalai & Cultural Journey",
+        "description": "Begin the day with the Signature Hualalai Journey at Spa Hualalai — a 110-minute treatment incorporating volcanic clay, Hawaiian botanical oils, and a lomi lomi-inspired sequence. In the afternoon, join the complimentary cultural program to learn about the ancient Hawaiian heiau (temple sites) preserved within the resort grounds — a rare and moving experience."
+      },
+      {
+        "day": 4,
+        "title": "Hawaii Volcanoes National Park",
+        "description": "Drive two hours south to Hawaii Volcanoes National Park for an otherworldly day exploring active lava fields, steam vents, and the Kilauea caldera. The Four Seasons concierge can arrange a private naturalist guide to make the most of the park's highlights. Return by sunset for a restorative soak in your bungalow's plunge pool."
+      },
+      {
+        "day": 5,
+        "title": "Kohala Coast & Waterfalls",
+        "description": "Head north to the lush Kohala Valley, where hidden waterfalls and ancient taro fields await. Book a private Kohala Ditch zipline and kayak tour to discover this dramatic landscape, or simply hike the Pololu Valley trail to a sweeping black sand beach. The contrast with the sunny Kohala Coast just miles away is stunning."
+      },
+      {
+        "day": 6,
+        "title": "Private Beach Picnic & Sunset Cruise",
+        "description": "Request a private beach picnic setup from the culinary team — tables and chairs set directly on the sand at a secluded stretch of the resort's beach, with a custom menu of local fish, tropical fruits, and chilled rosé. In the late afternoon, board a private sunset sailing charter arranged through the concierge for champagne and hors d'oeuvres on the water."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "Wake early for one final snorkel at King's Pond in the golden morning light before the day guests arrive. Enjoy a leisurely breakfast on your bungalow's private lanai, listening to the trade winds rustle through the palms, then allow the Four Seasons team to orchestrate a seamless, thoughtful departure."
+      }
     ],
     "caveats": [
       "At $1,500–$4,000 per night, this is one of the most expensive resort stays in the United States — this is a true splurge destination, best for a portion of a longer honeymoon itinerary.",

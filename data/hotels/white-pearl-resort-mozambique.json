@@ -3,7 +3,11 @@
   "name": "White Pearl Resort Ponta Mamoli",
   "destination": "mozambique",
   "country": "mozambique",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 87,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,49 @@
     "luxury": 8
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 500, "max": 1600 },
+  "price_per_night_usd": {
+    "min": 500,
+    "max": 1600
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "beach", "room service", "butler service", "whale watching", "turtle nesting tours", "diving", "snorkeling", "water sports"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beach",
+    "room service",
+    "butler service",
+    "whale watching",
+    "turtle nesting tours",
+    "diving",
+    "snorkeling",
+    "water sports"
+  ],
   "photos": [
-    { "url": "/images/hotels/white-pearl-resort-mozambique/hero.webp", "alt": "white-pearl-resort-mozambique — hero", "type": "hero" },
-    { "url": "/images/hotels/white-pearl-resort-mozambique/room.webp", "alt": "white-pearl-resort-mozambique — room", "type": "room" },
-    { "url": "/images/hotels/white-pearl-resort-mozambique/pool.webp", "alt": "white-pearl-resort-mozambique — pool", "type": "pool" },
-    { "url": "/images/hotels/white-pearl-resort-mozambique/spa.webp", "alt": "white-pearl-resort-mozambique — spa", "type": "spa" },
-    { "url": "/images/hotels/white-pearl-resort-mozambique/dining.webp", "alt": "white-pearl-resort-mozambique — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/white-pearl-resort-mozambique/hero.webp",
+      "alt": "white-pearl-resort-mozambique — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/white-pearl-resort-mozambique/room.webp",
+      "alt": "white-pearl-resort-mozambique — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/white-pearl-resort-mozambique/pool.webp",
+      "alt": "white-pearl-resort-mozambique — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/white-pearl-resort-mozambique/spa.webp",
+      "alt": "white-pearl-resort-mozambique — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/white-pearl-resort-mozambique/dining.webp",
+      "alt": "white-pearl-resort-mozambique — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.1,
   "tripadvisor_award": false,
@@ -34,13 +72,41 @@
     "verdict": "White Pearl Resort Ponta Mamoli occupies a spectacular clifftop position in southern Mozambique, where 30 suites with floor-to-ceiling ocean views look out over a wild stretch of Indian Ocean coast near the South African border. The resort is celebrated for its humpback whale encounters (July to November), leatherback and loggerhead sea turtle nesting season, and proximity to Ponta do Ouro's famous dive sites. It offers a more accessible price point than the Bazaruto or Quirimbas island resorts while maintaining genuine five-star standards — and the combination of cliffside grandeur and raw Mozambican nature makes it a compelling honeymoon choice.",
     "best_room": "Book a Suite with a direct ocean-facing terrace — all 30 suites have private decks overlooking the Indian Ocean, but those positioned highest on the cliff deliver the most dramatic panoramic views. The Honeymoon Suite category comes with a private plunge pool and outdoor bathtub on the terrace, which is ideal for whale-watching season when humpbacks surface just offshore. Interior design blends contemporary finishes with local natural materials.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Clifftop Welcome", "description": "White Pearl is accessible by road from Maputo (about 4 hours south) or by light aircraft to the nearby private airstrip. Check in and take in the scale of the views from your suite terrace — this is one of Mozambique's most dramatic coastal positions. Sundowners at the clifftop bar as the Indian Ocean horizon turns orange set the tone for the week." },
-      { "day": 2, "title": "Humpback Whale Watching", "description": "Between July and November, humpback whales congregate along this stretch of Mozambican coast in remarkable numbers. White Pearl's boat team runs whale watching excursions that regularly deliver close encounters with breaching and tail-slapping whales. The clifftop restaurant also functions as a natural whale-watching platform — guests regularly spot whales from their breakfast tables." },
-      { "day": 3, "title": "Ponta do Ouro Diving", "description": "The area around Ponta do Ouro to the south is famous for its resident pod of indo-pacific bottlenose dolphins and its excellent scuba diving. White Pearl's dive team runs trips to sites including Pinnacles and Sheriff's — both rated among Mozambique's best. Afternoon brings a long spa session followed by a sundowner on the private terrace." },
-      { "day": 4, "title": "Turtle Nesting Beach Walk", "description": "Leatherback and loggerhead sea turtles nest on these beaches between October and April. Guided early-morning or late-evening turtle walks with the resort's conservation guide can reveal nesting females or hatchlings heading for the sea — one of the most moving wildlife experiences available in southern Mozambique. Day includes a private beach picnic." },
-      { "day": 5, "title": "Snorkeling & Water Sports", "description": "The beach below the cliff is accessed via a private pathway and offers good snorkeling on the nearshore reef. The water sports team provides kayaks, paddleboards, and kiteboarding equipment for guests. Afternoon is reserved for a couples spa treatment using locally sourced ocean mineral ingredients." },
-      { "day": 6, "title": "Excursion to Ponta do Ouro Village", "description": "Ponta do Ouro is a charming frontier town at the southern tip of Mozambique, accessible by 4WD along the beach track. The local market, seafood restaurants, and the atmosphere of a genuine Mozambican beach town provide a change of pace from resort life. The resort can arrange a guided excursion with a local driver." },
-      { "day": 7, "title": "Farewell Morning", "description": "A final breakfast on the suite terrace with the Indian Ocean stretching to the horizon. Take one last walk down to the beach before departure. White Pearl can arrange transfers back to Maputo by road or coordinate a light aircraft departure from the private airstrip." }
+      {
+        "day": 1,
+        "title": "Arrival & Clifftop Welcome",
+        "description": "White Pearl is accessible by road from Maputo (about 4 hours south) or by light aircraft to the nearby private airstrip. Check in and take in the scale of the views from your suite terrace — this is one of Mozambique's most dramatic coastal positions. Sundowners at the clifftop bar as the Indian Ocean horizon turns orange set the tone for the week."
+      },
+      {
+        "day": 2,
+        "title": "Humpback Whale Watching",
+        "description": "Between July and November, humpback whales congregate along this stretch of Mozambican coast in remarkable numbers. White Pearl's boat team runs whale watching excursions that regularly deliver close encounters with breaching and tail-slapping whales. The clifftop restaurant also functions as a natural whale-watching platform — guests regularly spot whales from their breakfast tables."
+      },
+      {
+        "day": 3,
+        "title": "Ponta do Ouro Diving",
+        "description": "The area around Ponta do Ouro to the south is famous for its resident pod of indo-pacific bottlenose dolphins and its excellent scuba diving. White Pearl's dive team runs trips to sites including Pinnacles and Sheriff's — both rated among Mozambique's best. Afternoon brings a long spa session followed by a sundowner on the private terrace."
+      },
+      {
+        "day": 4,
+        "title": "Turtle Nesting Beach Walk",
+        "description": "Leatherback and loggerhead sea turtles nest on these beaches between October and April. Guided early-morning or late-evening turtle walks with the resort's conservation guide can reveal nesting females or hatchlings heading for the sea — one of the most moving wildlife experiences available in southern Mozambique. Day includes a private beach picnic."
+      },
+      {
+        "day": 5,
+        "title": "Snorkeling & Water Sports",
+        "description": "The beach below the cliff is accessed via a private pathway and offers good snorkeling on the nearshore reef. The water sports team provides kayaks, paddleboards, and kiteboarding equipment for guests. Afternoon is reserved for a couples spa treatment using locally sourced ocean mineral ingredients."
+      },
+      {
+        "day": 6,
+        "title": "Excursion to Ponta do Ouro Village",
+        "description": "Ponta do Ouro is a charming frontier town at the southern tip of Mozambique, accessible by 4WD along the beach track. The local market, seafood restaurants, and the atmosphere of a genuine Mozambican beach town provide a change of pace from resort life. The resort can arrange a guided excursion with a local driver."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "A final breakfast on the suite terrace with the Indian Ocean stretching to the horizon. Take one last walk down to the beach before departure. White Pearl can arrange transfers back to Maputo by road or coordinate a light aircraft departure from the private airstrip."
+      }
     ],
     "caveats": [
       "The road transfer from Maputo takes approximately four hours along a variable-quality coastal road — a light aircraft option is available but should be arranged well in advance as services are limited.",
@@ -48,12 +114,30 @@
       "The humpback whale season (July–November) is the resort's headline attraction — if travelling outside these months, the whale watching is not available and some of the key experiences will differ."
     ],
     "faqs": [
-      { "question": "Is White Pearl Resort good for honeymooners?", "answer": "Yes — the clifftop setting with private ocean-view terraces is genuinely romantic, the Honeymoon Suite with private plunge pool is excellent, and the combination of whale watching, turtle nesting, and quality diving gives the honeymoon real substance beyond beach lounging." },
-      { "question": "What is the best time to visit?", "answer": "July through November is peak whale season and offers excellent weather. December through April is turtle nesting season. Diving is good year-round with the best visibility June–October. July–October represents the sweet spot combining whales and good weather." },
-      { "question": "What should we book in advance?", "answer": "The Honeymoon Suite should be booked early, particularly for peak whale season. Pre-arrange guided whale watching and turtle excursions. If arriving by light aircraft, coordinate the airstrip transfer with the resort at booking time." },
-      { "question": "Is it adults-only?", "answer": "No, White Pearl welcomes children. However its clifftop access paths and the absence of a calm family pool beach makes it more naturally oriented toward adult couples, and the atmosphere is largely romantic." },
-      { "question": "What's the best room for a honeymoon?", "answer": "The Honeymoon Suite with private plunge pool and outdoor bathtub on the ocean-facing terrace is the top choice. The clifftop position means you're effectively watching the Indian Ocean and its whale population from your private terrace." },
-      { "question": "How do we get there?", "answer": "Fly to Maputo (Mozambique's capital), then either a 4-hour road transfer via the EN1 south or a light aircraft charter to the nearby private airstrip (approximately 40 minutes). The resort can coordinate both options — confirm at booking time." }
+      {
+        "question": "Is White Pearl Resort good for honeymooners?",
+        "answer": "Yes — the clifftop setting with private ocean-view terraces is genuinely romantic, the Honeymoon Suite with private plunge pool is excellent, and the combination of whale watching, turtle nesting, and quality diving gives the honeymoon real substance beyond beach lounging."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "July through November is peak whale season and offers excellent weather. December through April is turtle nesting season. Diving is good year-round with the best visibility June–October. July–October represents the sweet spot combining whales and good weather."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "The Honeymoon Suite should be booked early, particularly for peak whale season. Pre-arrange guided whale watching and turtle excursions. If arriving by light aircraft, coordinate the airstrip transfer with the resort at booking time."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "No, White Pearl welcomes children. However its clifftop access paths and the absence of a calm family pool beach makes it more naturally oriented toward adult couples, and the atmosphere is largely romantic."
+      },
+      {
+        "question": "What's the best room for a honeymoon?",
+        "answer": "The Honeymoon Suite with private plunge pool and outdoor bathtub on the ocean-facing terrace is the top choice. The clifftop position means you're effectively watching the Indian Ocean and its whale population from your private terrace."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "Fly to Maputo (Mozambique's capital), then either a 4-hour road transfer via the EN1 south or a light aircraft charter to the nearby private airstrip (approximately 40 minutes). The resort can coordinate both options — confirm at booking time."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — White Pearl Resort Ponta Mamoli\n\nDear White Pearl Resort team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: the Honeymoon Suite with private plunge pool\n\nCould you please let us know:\n- Current availability for our dates\n- Any honeymoon packages or complimentary upgrades\n- Whether whale watching excursions will be running during our visit\n\nThank you for your time.\n\n[Your names]"
   },

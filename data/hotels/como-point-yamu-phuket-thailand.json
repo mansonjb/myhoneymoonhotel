@@ -3,7 +3,11 @@
   "name": "COMO Point Yamu Phuket",
   "destination": "thailand",
   "country": "thailand",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 86,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,49 @@
     "luxury": 8
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 500, "max": 1500 },
+  "price_per_night_usd": {
+    "min": 500,
+    "max": 1500
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "beach", "room service", "butler service", "COMO Shambhala wellness", "water sports", "yoga", "Italian restaurant", "fitness center"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beach",
+    "room service",
+    "butler service",
+    "COMO Shambhala wellness",
+    "water sports",
+    "yoga",
+    "Italian restaurant",
+    "fitness center"
+  ],
   "photos": [
-    { "url": "/images/hotels/como-point-yamu-phuket-thailand/hero.webp", "alt": "como-point-yamu-phuket-thailand — hero", "type": "hero" },
-    { "url": "/images/hotels/como-point-yamu-phuket-thailand/room.webp", "alt": "como-point-yamu-phuket-thailand — room", "type": "room" },
-    { "url": "/images/hotels/como-point-yamu-phuket-thailand/pool.webp", "alt": "como-point-yamu-phuket-thailand — pool", "type": "pool" },
-    { "url": "/images/hotels/como-point-yamu-phuket-thailand/spa.webp", "alt": "como-point-yamu-phuket-thailand — spa", "type": "spa" },
-    { "url": "/images/hotels/como-point-yamu-phuket-thailand/dining.webp", "alt": "como-point-yamu-phuket-thailand — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/como-point-yamu-phuket-thailand/hero.webp",
+      "alt": "como-point-yamu-phuket-thailand — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/como-point-yamu-phuket-thailand/room.webp",
+      "alt": "como-point-yamu-phuket-thailand — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/como-point-yamu-phuket-thailand/pool.webp",
+      "alt": "como-point-yamu-phuket-thailand — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/como-point-yamu-phuket-thailand/spa.webp",
+      "alt": "como-point-yamu-phuket-thailand — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/como-point-yamu-phuket-thailand/dining.webp",
+      "alt": "como-point-yamu-phuket-thailand — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.2,
   "tripadvisor_award": true,
@@ -34,13 +72,41 @@
     "verdict": "COMO Point Yamu occupies a dramatic headland on Phuket's quiet east coast, looking out across Phang Nga Bay toward the limestone karst islands and distant Yao Noi. Designed by Paola Navone with a distinctly Mediterranean-Thai aesthetic — white arches, terracotta tiles, and open-air loggias — it is one of Phuket's most architecturally distinctive properties. The COMO Shambhala wellness program sets the resort apart from its peers, delivering genuinely therapeutic spa and nutrition programs rather than the generic spa menu found at most luxury resorts. For wellness-minded honeymooners, this is the finest choice in Phuket.",
     "best_room": "Book a Pool Suite for the private infinity pool and panoramic views over Phang Nga Bay — the COMO Point Yamu views are arguably the finest of any Phuket resort, looking east across the limestone karst seascape rather than west over the busier Andaman coast. The Pool Villas offer the ultimate privacy with a larger living space, private pool, and dedicated butler.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Bay Views", "description": "Drive 35 minutes from Phuket Airport to the east coast headland where COMO Point Yamu sits in elegant isolation. Check in and step onto your room's terrace to take in the extraordinary views of Phang Nga Bay — the limestone karst towers in the middle distance with the setting sun reflecting off the calm bay water below. Dinner at the COMO Cuisine restaurant, where the health-conscious Thai and Asian menu is genuinely delicious rather than just virtuous." },
-      { "day": 2, "title": "COMO Shambhala Spa", "description": "Book the COMO Shambhala Couture Signature Experience for couples — a curated treatment sequence that may incorporate Ayurvedic techniques, Thai massage, and customized aromatherapy based on your individual health and wellness goals. The COMO Shambhala philosophy is one of integrative wellness rather than indulgence alone, and the practitioners are among the most skilled in Asia." },
-      { "day": 3, "title": "Phang Nga Bay Kayaking & Exploration", "description": "The east coast location makes COMO Point Yamu uniquely positioned for Phang Nga Bay exploration — sea kayaks are available and the bay is accessible directly from the hotel's pier. Take a half-day guided kayak tour through mangroves and sea caves, or charter a longtail boat for a private island-hopping expedition to James Bond Island and the floating village of Ko Panyi." },
-      { "day": 4, "title": "Phuket Old Town Cultural Day", "description": "Drive 30 minutes to Phuket Old Town for a half-day of cultural immersion — the Sino-Portuguese architecture, street art murals, shrines, and excellent local restaurants make it one of southern Thailand's most rewarding urban experiences. Stop at the Phuket Thai Hua Museum, browse Thalang Road's galleries, and lunch at Raya Restaurant for the definitive Phuket-style curry noodle soup." },
-      { "day": 5, "title": "Yoga Retreat & Private Pool Day", "description": "Dedicate the morning to a private couples' yoga session with the COMO wellness instructor — the open-air yoga pavilion overlooking Phang Nga Bay is one of the most beautiful settings for practice in all of Southeast Asia. Spend the afternoon in complete indulgence: your villa pool, room service, napping in hammocks, reading. Book a sound healing session in the late afternoon as the sun lowers over the karsts." },
-      { "day": 6, "title": "Racha Island Snorkel & Italian Dinner", "description": "Book the hotel's speedboat for a morning excursion to Racha Yai Island — excellent snorkeling with high visibility and abundant marine life, roughly 30 minutes from the hotel's pier. Return for lunch by the infinity pool, then enjoy a long, leisurely Italian dinner at Ristra restaurant, which serves wood-fired Neapolitan pizza and imported Italian wine in a romantic open-air setting." },
-      { "day": 7, "title": "Farewell Morning", "description": "Rise early for one final sunrise yoga session or simply sit quietly on your terrace as the Phang Nga Bay karsts emerge from morning mist. Have breakfast at your private pace in the room, and cherish the extraordinary view one last time before the drive back to Phuket Airport." }
+      {
+        "day": 1,
+        "title": "Arrival & Bay Views",
+        "description": "Drive 35 minutes from Phuket Airport to the east coast headland where COMO Point Yamu sits in elegant isolation. Check in and step onto your room's terrace to take in the extraordinary views of Phang Nga Bay — the limestone karst towers in the middle distance with the setting sun reflecting off the calm bay water below. Dinner at the COMO Cuisine restaurant, where the health-conscious Thai and Asian menu is genuinely delicious rather than just virtuous."
+      },
+      {
+        "day": 2,
+        "title": "COMO Shambhala Spa",
+        "description": "Book the COMO Shambhala Couture Signature Experience for couples — a curated treatment sequence that may incorporate Ayurvedic techniques, Thai massage, and customized aromatherapy based on your individual health and wellness goals. The COMO Shambhala philosophy is one of integrative wellness rather than indulgence alone, and the practitioners are among the most skilled in Asia."
+      },
+      {
+        "day": 3,
+        "title": "Phang Nga Bay Kayaking & Exploration",
+        "description": "The east coast location makes COMO Point Yamu uniquely positioned for Phang Nga Bay exploration — sea kayaks are available and the bay is accessible directly from the hotel's pier. Take a half-day guided kayak tour through mangroves and sea caves, or charter a longtail boat for a private island-hopping expedition to James Bond Island and the floating village of Ko Panyi."
+      },
+      {
+        "day": 4,
+        "title": "Phuket Old Town Cultural Day",
+        "description": "Drive 30 minutes to Phuket Old Town for a half-day of cultural immersion — the Sino-Portuguese architecture, street art murals, shrines, and excellent local restaurants make it one of southern Thailand's most rewarding urban experiences. Stop at the Phuket Thai Hua Museum, browse Thalang Road's galleries, and lunch at Raya Restaurant for the definitive Phuket-style curry noodle soup."
+      },
+      {
+        "day": 5,
+        "title": "Yoga Retreat & Private Pool Day",
+        "description": "Dedicate the morning to a private couples' yoga session with the COMO wellness instructor — the open-air yoga pavilion overlooking Phang Nga Bay is one of the most beautiful settings for practice in all of Southeast Asia. Spend the afternoon in complete indulgence: your villa pool, room service, napping in hammocks, reading. Book a sound healing session in the late afternoon as the sun lowers over the karsts."
+      },
+      {
+        "day": 6,
+        "title": "Racha Island Snorkel & Italian Dinner",
+        "description": "Book the hotel's speedboat for a morning excursion to Racha Yai Island — excellent snorkeling with high visibility and abundant marine life, roughly 30 minutes from the hotel's pier. Return for lunch by the infinity pool, then enjoy a long, leisurely Italian dinner at Ristra restaurant, which serves wood-fired Neapolitan pizza and imported Italian wine in a romantic open-air setting."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "Rise early for one final sunrise yoga session or simply sit quietly on your terrace as the Phang Nga Bay karsts emerge from morning mist. Have breakfast at your private pace in the room, and cherish the extraordinary view one last time before the drive back to Phuket Airport."
+      }
     ],
     "caveats": [
       "COMO Point Yamu is on Phuket's east coast, which does not have the white sand beach experience of the west coast Andaman resorts — the hotel's beach is more mudflat than sand at low tide and is better for launching water activities than sunbathing.",

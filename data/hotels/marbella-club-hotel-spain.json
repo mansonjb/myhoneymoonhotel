@@ -3,19 +3,65 @@
   "name": "Marbella Club Hotel",
   "destination": "spain",
   "country": "spain",
-  "experience_types": ["luxury", "beach", "wellness"],
+  "experience_types": [
+    "luxury",
+    "beach",
+    "wellness"
+  ],
   "honeymoon_score": 88,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 18, "spa": 15, "award": 10, "pool": 10, "beach": 15, "room_service": 5, "stars": 10, "luxury": 5 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 18,
+    "spa": 15,
+    "award": 10,
+    "pool": 10,
+    "beach": 15,
+    "room_service": 5,
+    "stars": 10,
+    "luxury": 5
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 400, "max": 1800 },
+  "price_per_night_usd": {
+    "min": 400,
+    "max": 1800
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "beach", "room service", "flamenco", "tennis", "fine dining", "beach club"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beach",
+    "room service",
+    "flamenco",
+    "tennis",
+    "fine dining",
+    "beach club"
+  ],
   "photos": [
-    { "url": "/images/hotels/marbella-club-hotel-spain/hero.webp", "alt": "marbella-club-hotel-spain — hero", "type": "hero" },
-    { "url": "/images/hotels/marbella-club-hotel-spain/room.webp", "alt": "marbella-club-hotel-spain — room", "type": "room" },
-    { "url": "/images/hotels/marbella-club-hotel-spain/pool.webp", "alt": "marbella-club-hotel-spain — pool", "type": "pool" },
-    { "url": "/images/hotels/marbella-club-hotel-spain/spa.webp", "alt": "marbella-club-hotel-spain — spa", "type": "spa" },
-    { "url": "/images/hotels/marbella-club-hotel-spain/dining.webp", "alt": "marbella-club-hotel-spain — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/marbella-club-hotel-spain/hero.webp",
+      "alt": "marbella-club-hotel-spain — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/marbella-club-hotel-spain/room.webp",
+      "alt": "marbella-club-hotel-spain — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/marbella-club-hotel-spain/pool.webp",
+      "alt": "marbella-club-hotel-spain — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/marbella-club-hotel-spain/spa.webp",
+      "alt": "marbella-club-hotel-spain — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/marbella-club-hotel-spain/dining.webp",
+      "alt": "marbella-club-hotel-spain — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.2,
   "tripadvisor_award": true,
@@ -24,13 +70,41 @@
     "verdict": "Marbella Club Hotel is the original jet-set hotel of the Costa del Sol — founded in 1954 by Prince Alfonso of Hohenlohe on the Golden Mile between Marbella and Puerto Banús, and the place that invented the modern beach resort concept for European aristocracy and Hollywood royalty. The rose gardens, flamenco evenings, bungalow-style Mediterranean architecture, and legendary beach club retain an old-world glamour that no new luxury hotel can manufacture. This is where the Costa del Sol's romantic legend began.",
     "best_room": "The Villa Suite is the Marbella Club's most romantic accommodation — a private bungalow villa set in its own garden within the estate, with a private pool, outdoor dining terrace, and the feeling of staying in a personal Andalusian villa rather than a hotel room. The Junior Suites with garden and sea view terraces in the bungalow wings capture the intimate scale of the original 1954 hotel with beautifully maintained Andalusian interiors.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Golden Mile Arrival", "description": "Transfer from Málaga Airport (45 minutes) or Gibraltar Airport (40 minutes) to Marbella Club on the legendary Golden Mile. The hotel's entrance through fragrant rose gardens and orange blossom trees tells you immediately this is not just another luxury hotel — it is an institution. Check in, change, and walk directly to the beach club for a late afternoon swim in the Mediterranean." },
-      { "day": 2, "title": "Beach Club & Grill", "description": "Marbella Club's beach club is the finest private beach in Marbella — teak loungers, attentive service, and access to the Mediterranean on a stretch of beach that the original 1950s guests knew when the Costa del Sol was still an undiscovered fishing coast. Lunch at the Beach Club Grill for outstanding fresh seafood — the grilled lubina (sea bass) is superb." },
-      { "day": 3, "title": "Old Marbella", "description": "The old town of Marbella — just 10 minutes from the hotel — is one of the most charming historic centers in Andalusia, entirely overlooked by the Costa del Sol's reputation for beach tourism. The Plaza de los Naranjos (Orange Tree Square) with its 15th-century town hall, the Arab walls, and the lanes of whitewashed houses hung with jasmine and bougainvillea are beautiful. Tapas lunch at La Niña del Pisto." },
-      { "day": 4, "title": "Flamenco Evening", "description": "Marbella Club hosts regular flamenco performances in its garden amphitheater — genuine, powerful Andalusian flamenco under the stars with the scent of jasmine and the sound of castanets. Before the show, take a cocktail at the bar where photos of Grace Kelly, Audrey Hepburn, and Cary Grant from the 1950s and 1960s line the walls." },
-      { "day": 5, "title": "Ronda Day Trip", "description": "The ancient hilltop city of Ronda, 90 minutes from Marbella through the Serrania mountains, is essential Andalusia — a city split by a dramatic 120-meter gorge, with a magnificent 18th-century bridge, bullring, and panoramic views over the olive groves and mountains. Lunch at Tragabuches before returning to the coast for a sunset cocktail at Marbella Club." },
-      { "day": 6, "title": "Spa & Puerto Banús", "description": "Morning at Marbella Club's spa — one of the Costa del Sol's finest, with hammam, thermal circuit, and treatments using Andalusian olive oil and aromatic plant extracts. Afternoon in Puerto Banús: the marina is Marbella's famous playground of superyachts, boutiques, and café culture. Evening back at the hotel for one of its legendary candlelit terrace dinners." },
-      { "day": 7, "title": "Final Morning in the Gardens", "description": "The Marbella Club's rose gardens are at their most beautiful in the soft morning light. Walk the jasmine-covered lanes, have a last breakfast on the terrace, and take your time saying goodbye to one of Europe's most historically romantic hotels." }
+      {
+        "day": 1,
+        "title": "Golden Mile Arrival",
+        "description": "Transfer from Málaga Airport (45 minutes) or Gibraltar Airport (40 minutes) to Marbella Club on the legendary Golden Mile. The hotel's entrance through fragrant rose gardens and orange blossom trees tells you immediately this is not just another luxury hotel — it is an institution. Check in, change, and walk directly to the beach club for a late afternoon swim in the Mediterranean."
+      },
+      {
+        "day": 2,
+        "title": "Beach Club & Grill",
+        "description": "Marbella Club's beach club is the finest private beach in Marbella — teak loungers, attentive service, and access to the Mediterranean on a stretch of beach that the original 1950s guests knew when the Costa del Sol was still an undiscovered fishing coast. Lunch at the Beach Club Grill for outstanding fresh seafood — the grilled lubina (sea bass) is superb."
+      },
+      {
+        "day": 3,
+        "title": "Old Marbella",
+        "description": "The old town of Marbella — just 10 minutes from the hotel — is one of the most charming historic centers in Andalusia, entirely overlooked by the Costa del Sol's reputation for beach tourism. The Plaza de los Naranjos (Orange Tree Square) with its 15th-century town hall, the Arab walls, and the lanes of whitewashed houses hung with jasmine and bougainvillea are beautiful. Tapas lunch at La Niña del Pisto."
+      },
+      {
+        "day": 4,
+        "title": "Flamenco Evening",
+        "description": "Marbella Club hosts regular flamenco performances in its garden amphitheater — genuine, powerful Andalusian flamenco under the stars with the scent of jasmine and the sound of castanets. Before the show, take a cocktail at the bar where photos of Grace Kelly, Audrey Hepburn, and Cary Grant from the 1950s and 1960s line the walls."
+      },
+      {
+        "day": 5,
+        "title": "Ronda Day Trip",
+        "description": "The ancient hilltop city of Ronda, 90 minutes from Marbella through the Serrania mountains, is essential Andalusia — a city split by a dramatic 120-meter gorge, with a magnificent 18th-century bridge, bullring, and panoramic views over the olive groves and mountains. Lunch at Tragabuches before returning to the coast for a sunset cocktail at Marbella Club."
+      },
+      {
+        "day": 6,
+        "title": "Spa & Puerto Banús",
+        "description": "Morning at Marbella Club's spa — one of the Costa del Sol's finest, with hammam, thermal circuit, and treatments using Andalusian olive oil and aromatic plant extracts. Afternoon in Puerto Banús: the marina is Marbella's famous playground of superyachts, boutiques, and café culture. Evening back at the hotel for one of its legendary candlelit terrace dinners."
+      },
+      {
+        "day": 7,
+        "title": "Final Morning in the Gardens",
+        "description": "The Marbella Club's rose gardens are at their most beautiful in the soft morning light. Walk the jasmine-covered lanes, have a last breakfast on the terrace, and take your time saying goodbye to one of Europe's most historically romantic hotels."
+      }
     ],
     "caveats": [
       "Marbella Club is a historic hotel, not a modern resort, and some guests find the facilities and room sizes reflect its 1950s heritage. The atmosphere and service are exceptional but do not expect the ultra-modern spa or infinity pool of newer properties.",
@@ -38,12 +112,30 @@
       "July and August are extremely busy and expensive on the Costa del Sol — the Golden Mile becomes crowded and Marbella itself is packed. May, June, September, and October offer a far more pleasant experience."
     ],
     "faqs": [
-      { "question": "Is Marbella Club good for honeymooners?", "answer": "Yes, particularly for couples who appreciate old-world European glamour, history, and effortless beach luxury. The 1954 heritage, rose garden setting, flamenco evenings, and legendary beach club create a romance rooted in genuine Andalusian culture and the Mediterranean spirit. It is not the most modern luxury hotel on the Costa del Sol, but it has more soul than any of its competitors." },
-      { "question": "What is the best time to visit?", "answer": "May, June, and September offer the best weather on the Costa del Sol — warm Mediterranean days (24–28°C), calm sea, and lower prices and crowds than high summer. October is excellent for cultural excursions to Ronda and the Andalusian interior with comfortable temperatures." },
-      { "question": "How far in advance should you book?", "answer": "Book 3–5 months ahead for peak season (June–September). The Villa Suites with private pools book out earliest. Standard suites and bungalow rooms are generally available with 2–3 months' notice." },
-      { "question": "Is Marbella Club adults-only?", "answer": "No, families are welcome. However, the historic elegance of the property creates a naturally adult-oriented atmosphere. The hotel is especially popular with couples celebrating anniversaries and honeymooners." },
-      { "question": "What is the best room type?", "answer": "The Villa Suite with private pool for maximum privacy and the genuine sensation of a personal Andalusian villa. Junior Suites in the bungalow wings are excellent for couples who want the traditional Marbella Club architecture without the full villa premium." },
-      { "question": "How do you get to Marbella Club?", "answer": "Fly into Málaga (AGP) — 45 minutes by private transfer. Gibraltar Airport (GIB) is 40 minutes and offers routes from the UK. Marbella is also 2.5 hours from Seville Airport (SVQ) for couples combining a Seville city break with their honeymoon." }
+      {
+        "question": "Is Marbella Club good for honeymooners?",
+        "answer": "Yes, particularly for couples who appreciate old-world European glamour, history, and effortless beach luxury. The 1954 heritage, rose garden setting, flamenco evenings, and legendary beach club create a romance rooted in genuine Andalusian culture and the Mediterranean spirit. It is not the most modern luxury hotel on the Costa del Sol, but it has more soul than any of its competitors."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "May, June, and September offer the best weather on the Costa del Sol — warm Mediterranean days (24–28°C), calm sea, and lower prices and crowds than high summer. October is excellent for cultural excursions to Ronda and the Andalusian interior with comfortable temperatures."
+      },
+      {
+        "question": "How far in advance should you book?",
+        "answer": "Book 3–5 months ahead for peak season (June–September). The Villa Suites with private pools book out earliest. Standard suites and bungalow rooms are generally available with 2–3 months' notice."
+      },
+      {
+        "question": "Is Marbella Club adults-only?",
+        "answer": "No, families are welcome. However, the historic elegance of the property creates a naturally adult-oriented atmosphere. The hotel is especially popular with couples celebrating anniversaries and honeymooners."
+      },
+      {
+        "question": "What is the best room type?",
+        "answer": "The Villa Suite with private pool for maximum privacy and the genuine sensation of a personal Andalusian villa. Junior Suites in the bungalow wings are excellent for couples who want the traditional Marbella Club architecture without the full villa premium."
+      },
+      {
+        "question": "How do you get to Marbella Club?",
+        "answer": "Fly into Málaga (AGP) — 45 minutes by private transfer. Gibraltar Airport (GIB) is 40 minutes and offers routes from the UK. Marbella is also 2.5 hours from Seville Airport (SVQ) for couples combining a Seville city break with their honeymoon."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — Marbella Club Hotel\n\nDear Marbella Club team,\n\nWe are planning our honeymoon [DATE]-[DATE] and interested in a Villa Suite or Junior Suite with garden terrace. Please advise on availability, honeymoon packages, and whether flamenco evenings are scheduled during our stay.\n\nThank you,\n[Your names]"
   },

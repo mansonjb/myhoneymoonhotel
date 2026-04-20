@@ -3,7 +3,11 @@
   "name": "Vermelho Melides",
   "destination": "portugal",
   "country": "portugal",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 89,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,48 @@
     "luxury": 5
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 600, "max": 2000 },
+  "price_per_night_usd": {
+    "min": 600,
+    "max": 2000
+  },
   "adults_only": false,
-  "amenities": ["spa", "natural pool", "beach access", "room service", "butler service", "Christian Louboutin design", "lagoon location", "gourmet restaurant", "concierge"],
+  "amenities": [
+    "spa",
+    "natural pool",
+    "beach access",
+    "room service",
+    "butler service",
+    "Christian Louboutin design",
+    "lagoon location",
+    "gourmet restaurant",
+    "concierge"
+  ],
   "photos": [
-    { "url": "/images/hotels/vermelho-melides-portugal/hero.webp", "alt": "vermelho-melides-portugal — hero", "type": "hero" },
-    { "url": "/images/hotels/vermelho-melides-portugal/room.webp", "alt": "vermelho-melides-portugal — room", "type": "room" },
-    { "url": "/images/hotels/vermelho-melides-portugal/pool.webp", "alt": "vermelho-melides-portugal — pool", "type": "pool" },
-    { "url": "/images/hotels/vermelho-melides-portugal/spa.webp", "alt": "vermelho-melides-portugal — spa", "type": "spa" },
-    { "url": "/images/hotels/vermelho-melides-portugal/dining.webp", "alt": "vermelho-melides-portugal — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/vermelho-melides-portugal/hero.webp",
+      "alt": "vermelho-melides-portugal — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/vermelho-melides-portugal/room.webp",
+      "alt": "vermelho-melides-portugal — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/vermelho-melides-portugal/pool.webp",
+      "alt": "vermelho-melides-portugal — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/vermelho-melides-portugal/spa.webp",
+      "alt": "vermelho-melides-portugal — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/vermelho-melides-portugal/dining.webp",
+      "alt": "vermelho-melides-portugal — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.4,
   "tripadvisor_award": true,
@@ -34,13 +71,41 @@
     "verdict": "Vermelho is the most talked-about new hotel in Portugal — Christian Louboutin's passion project in the remote lagoon village of Melides, just south of Comporta, where only 13 rooms occupy a cluster of traditional Alentejo whitewashed houses arranged around a central garden and natural pool. The red (vermelho) of Louboutin's signature sole runs through the interiors as an accent against whitewash, terracotta, and indigo blue; every detail has been curated with a fashion designer's obsessive eye. It is genuinely one of the most beautiful and romantically intimate small hotels in the world, perfect for honeymooners who want art, beauty, and total escape.",
     "best_room": "With only 13 rooms, every one is special — but book the largest suite with a private garden terrace for the fullest honeymoon experience. The rooms mix Louboutin's signature design sensibility with authentic Portuguese materials: cork, azulejo tiles, antique furniture sourced locally, and hand-embroidered linen. All rooms open onto the central garden or have private outdoor spaces; specify a ground-floor room with garden access for the most romantic connection to the outdoor spaces.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Vermelho Arrival", "description": "Arrive at Vermelho in the late afternoon when the Melides light is at its most golden, turning the white village walls amber. The hotel is so intimate — 13 rooms, a handful of staff who know your name by the first evening — that it feels like staying in the private house of the world's most tasteful friend. Champagne in the garden, then dinner at the hotel's restaurant where the tasting menu of Alentejo and Algarve ingredients changes nightly." },
-      { "day": 2, "title": "Melides Lagoon & Wild Beach", "description": "Melides sits between a lagoon and the Atlantic — walk through the village to the lagoon shore at sunrise and watch the flamingos and herons feeding in the still water. Then cross the dunes to the wild beach beyond — a vast expanse of Atlantic sand with barely a soul on it. The hotel provides beach equipment and a picnic; spend the morning in this extraordinary solitude before returning for a garden lunch." },
-      { "day": 3, "title": "Comporta & Alentejo Villages", "description": "Drive the 20km north to Comporta village — the chic epicentre of the region — for a morning exploring its design boutiques, the famous Comporta Café, and the rice paddy views. Continue further to explore the Alentejo's characteristic whitewashed villages with their blue-trim doors and storks on every chimney. Return via the coast road for a sunset swim at the beach." },
-      { "day": 4, "title": "Spa & Pool Day", "description": "Dedicate the day to the hotel's spa and the natural pool — Vermelho's pool is one of the most beautiful in Portugal, a natural swimming pool surrounded by tile and greenery that feels more like a private garden feature than a hotel amenity. Book a full couples' spa day with morning treatments followed by a lunch from the spa menu, then an afternoon reading in hammocks under the almond trees." },
-      { "day": 5, "title": "Setúbal Peninsula Day Trip", "description": "Drive north to the Serra da Arrábida nature reserve for a day at the most dramatic coastline in Portugal — the turquoise waters in the protected bay of Portinho da Arrábida are genuinely Caribbean-like, with white sand and cliffs covered in Mediterranean maquis. Take a boat tour of the sea caves, then stop in Sesimbra for a lunch of grilled fish with local white wine." },
-      { "day": 6, "title": "Cooking Class & Alentejo Flavours", "description": "Spend the morning in a private cooking session with the hotel's chef, learning the fundamentals of Alentejo cuisine: açorda (bread and garlic soup), migas (fried bread with pork), wild mushroom rice, and the extraordinary range of local sheep and goat cheeses. Eat the results for lunch. Afternoon at leisure — walk the village, visit the local church, or simply sit in the hotel garden watching the light change on the white walls." },
-      { "day": 7, "title": "Farewell Morning", "description": "Last morning at Vermelho: the sound of birdsong in the garden, coffee brought to your room with local pastries, then a slow walk to the lagoon as the morning mist clears. Vermelho is the kind of hotel that stays in your imagination for years after — the beauty of the design, the intimacy of the scale, and the remoteness of Melides combine into something that feels both fashionable and deeply timeless." }
+      {
+        "day": 1,
+        "title": "Vermelho Arrival",
+        "description": "Arrive at Vermelho in the late afternoon when the Melides light is at its most golden, turning the white village walls amber. The hotel is so intimate — 13 rooms, a handful of staff who know your name by the first evening — that it feels like staying in the private house of the world's most tasteful friend. Champagne in the garden, then dinner at the hotel's restaurant where the tasting menu of Alentejo and Algarve ingredients changes nightly."
+      },
+      {
+        "day": 2,
+        "title": "Melides Lagoon & Wild Beach",
+        "description": "Melides sits between a lagoon and the Atlantic — walk through the village to the lagoon shore at sunrise and watch the flamingos and herons feeding in the still water. Then cross the dunes to the wild beach beyond — a vast expanse of Atlantic sand with barely a soul on it. The hotel provides beach equipment and a picnic; spend the morning in this extraordinary solitude before returning for a garden lunch."
+      },
+      {
+        "day": 3,
+        "title": "Comporta & Alentejo Villages",
+        "description": "Drive the 20km north to Comporta village — the chic epicentre of the region — for a morning exploring its design boutiques, the famous Comporta Café, and the rice paddy views. Continue further to explore the Alentejo's characteristic whitewashed villages with their blue-trim doors and storks on every chimney. Return via the coast road for a sunset swim at the beach."
+      },
+      {
+        "day": 4,
+        "title": "Spa & Pool Day",
+        "description": "Dedicate the day to the hotel's spa and the natural pool — Vermelho's pool is one of the most beautiful in Portugal, a natural swimming pool surrounded by tile and greenery that feels more like a private garden feature than a hotel amenity. Book a full couples' spa day with morning treatments followed by a lunch from the spa menu, then an afternoon reading in hammocks under the almond trees."
+      },
+      {
+        "day": 5,
+        "title": "Setúbal Peninsula Day Trip",
+        "description": "Drive north to the Serra da Arrábida nature reserve for a day at the most dramatic coastline in Portugal — the turquoise waters in the protected bay of Portinho da Arrábida are genuinely Caribbean-like, with white sand and cliffs covered in Mediterranean maquis. Take a boat tour of the sea caves, then stop in Sesimbra for a lunch of grilled fish with local white wine."
+      },
+      {
+        "day": 6,
+        "title": "Cooking Class & Alentejo Flavours",
+        "description": "Spend the morning in a private cooking session with the hotel's chef, learning the fundamentals of Alentejo cuisine: açorda (bread and garlic soup), migas (fried bread with pork), wild mushroom rice, and the extraordinary range of local sheep and goat cheeses. Eat the results for lunch. Afternoon at leisure — walk the village, visit the local church, or simply sit in the hotel garden watching the light change on the white walls."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "Last morning at Vermelho: the sound of birdsong in the garden, coffee brought to your room with local pastries, then a slow walk to the lagoon as the morning mist clears. Vermelho is the kind of hotel that stays in your imagination for years after — the beauty of the design, the intimacy of the scale, and the remoteness of Melides combine into something that feels both fashionable and deeply timeless."
+      }
     ],
     "caveats": [
       "With only 13 rooms, Vermelho books up extremely fast — it is one of the hardest hotels to get a reservation at in Portugal, requiring advance planning of many months for peak season.",

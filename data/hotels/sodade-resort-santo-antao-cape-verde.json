@@ -3,19 +3,61 @@
   "name": "Sodade Resort Santo Antão",
   "destination": "cape-verde",
   "country": "cape-verde",
-  "experience_types": ["wellness"],
+  "experience_types": [
+    "wellness"
+  ],
   "honeymoon_score": 78,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 12, "spa": 8, "award": 5, "pool": 5, "beach": 0, "room_service": 5, "stars": 28, "luxury": 15 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 12,
+    "spa": 8,
+    "award": 5,
+    "pool": 5,
+    "beach": 0,
+    "room_service": 5,
+    "stars": 28,
+    "luxury": 15
+  },
   "stars": 4,
-  "price_per_night_usd": { "min": 150, "max": 400 },
+  "price_per_night_usd": {
+    "min": 150,
+    "max": 400
+  },
   "adults_only": false,
-  "amenities": ["pool", "room service", "hiking", "local cuisine", "cultural tours", "volcanic caldera walks"],
+  "amenities": [
+    "pool",
+    "room service",
+    "hiking",
+    "local cuisine",
+    "cultural tours",
+    "volcanic caldera walks"
+  ],
   "photos": [
-    { "url": "/images/hotels/sodade-resort-santo-antao-cape-verde/hero.webp", "alt": "sodade-resort-santo-antao-cape-verde — hero", "type": "hero" },
-    { "url": "/images/hotels/sodade-resort-santo-antao-cape-verde/room.webp", "alt": "sodade-resort-santo-antao-cape-verde — room", "type": "room" },
-    { "url": "/images/hotels/sodade-resort-santo-antao-cape-verde/pool.webp", "alt": "sodade-resort-santo-antao-cape-verde — pool", "type": "pool" },
-    { "url": "/images/hotels/sodade-resort-santo-antao-cape-verde/spa.webp", "alt": "sodade-resort-santo-antao-cape-verde — spa", "type": "spa" },
-    { "url": "/images/hotels/sodade-resort-santo-antao-cape-verde/dining.webp", "alt": "sodade-resort-santo-antao-cape-verde — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/sodade-resort-santo-antao-cape-verde/hero.webp",
+      "alt": "sodade-resort-santo-antao-cape-verde — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/sodade-resort-santo-antao-cape-verde/room.webp",
+      "alt": "sodade-resort-santo-antao-cape-verde — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/sodade-resort-santo-antao-cape-verde/pool.webp",
+      "alt": "sodade-resort-santo-antao-cape-verde — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/sodade-resort-santo-antao-cape-verde/spa.webp",
+      "alt": "sodade-resort-santo-antao-cape-verde — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/sodade-resort-santo-antao-cape-verde/dining.webp",
+      "alt": "sodade-resort-santo-antao-cape-verde — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 8.4,
   "tripadvisor_award": false,
@@ -24,13 +66,41 @@
     "verdict": "Santo Antão is Cape Verde's most dramatically beautiful island — a volcanic giant of deep calderas, vertiginous ribeiras (valleys) carved by ancient rivers, and the most spectacular hiking in the archipelago. Sodade Resort sits on this extraordinary island as a comfortable boutique base for exploring landscapes that genuinely rival Iceland or the Canaries for volcanic drama, at a fraction of the typical European hiking destination price. The name 'sodade' is the Cape Verdean Criolo word for the Portuguese 'saudade' — a longing, a melancholy beauty — and the island earns the name.",
     "best_room": "The Ribeira View Suites at Sodade are the most romantic accommodation — rooms positioned to look directly down into Santo Antão's deep volcanic valley systems, where clouds drift below you through ribeiras lined with sugar cane and banana trees. Private terraces make morning coffee here one of the most visually extraordinary in Cape Verde. The Garden Rooms are simpler but well-positioned around the property's small pool.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival on Santo Antão", "description": "Reach Santo Antão by ferry from São Vicente island (1.5 hours) or the ferry from Mindelo. The approach to Santo Antão by sea — the volcanic cliffs rising 1500 meters directly from the water — is one of the great Atlantic views. Transfer to Sodade Resort in the Ribeira Grande valley. The island's scale and drama are immediately apparent: these are not hills, they are calderas." },
-      { "day": 2, "title": "Cova Crater Caldera Walk", "description": "The Cova caldera in Santo Antão's interior — a perfectly preserved volcanic crater bowl now farmed in concentric circles — is reached by a spectacular road over the island's spine. The walk down into the caldera and around its perimeter, with the valley walls rising hundreds of meters on all sides and clouds threading through below the rim, is one of Africa's finest short hikes." },
-      { "day": 3, "title": "Paul Valley Ribeira Trek", "description": "The Ribeira do Paul valley is Santo Antão's most celebrated landscape — a deep volcanic gorge of extraordinary greenness lined with the farms of sugar cane, papaya, mango, and breadfruit that supply the island's traditional aguardente spirit. A guided walk along the cobblestone levada (water channel) path through the valley takes half a day and passes through villages of extraordinary old stone houses." },
-      { "day": 4, "title": "Pico da Cruz & Txon Bon Vista", "description": "The north coast of Santo Antão visible from the Txon Bon Vista overlook is some of the most dramatic coastal scenery in the Atlantic — near-vertical volcanic cliffs plunging to a surf-crashed coast, with the island of São Vicente visible across the strait. A guided walk along the ridgeline to Pico da Cruz (1 584m) provides 360-degree views over the entire island." },
-      { "day": 5, "title": "Grogue Distillery & Local Culture", "description": "Cape Verde's national spirit, grogue (aguardente de cana), is produced in small artisanal distilleries throughout Santo Antão's ribeiras. A guided visit to a family distillery — where raw sugar cane is pressed by donkey-powered mills and fermented in wooden vats before distillation — is a fascinating window into centuries-old Atlantic craft traditions. The local ponche (grogue with honey and lime) is outstanding." },
-      { "day": 6, "title": "Fontainhas Cliff Village", "description": "Fontainhas is one of the most extraordinary villages in the Atlantic — a settlement of colourful houses clinging to a near-vertical cliff face in a ribeira, connected to the rest of the island only by a cobblestone mule path carved into the cliff. The approach walk along the cliff path from the road above is vertigo-inducing and utterly beautiful." },
-      { "day": 7, "title": "Final Morning in the Calderas", "description": "Last morning on the Sodade terrace with Santo Antão's valleys filling with morning light below. The ferry back to São Vicente gives one last view of this extraordinary volcanic island from the sea — a view that will remain in your memory long after more conventionally luxurious honeymoon destinations have faded." }
+      {
+        "day": 1,
+        "title": "Arrival on Santo Antão",
+        "description": "Reach Santo Antão by ferry from São Vicente island (1.5 hours) or the ferry from Mindelo. The approach to Santo Antão by sea — the volcanic cliffs rising 1500 meters directly from the water — is one of the great Atlantic views. Transfer to Sodade Resort in the Ribeira Grande valley. The island's scale and drama are immediately apparent: these are not hills, they are calderas."
+      },
+      {
+        "day": 2,
+        "title": "Cova Crater Caldera Walk",
+        "description": "The Cova caldera in Santo Antão's interior — a perfectly preserved volcanic crater bowl now farmed in concentric circles — is reached by a spectacular road over the island's spine. The walk down into the caldera and around its perimeter, with the valley walls rising hundreds of meters on all sides and clouds threading through below the rim, is one of Africa's finest short hikes."
+      },
+      {
+        "day": 3,
+        "title": "Paul Valley Ribeira Trek",
+        "description": "The Ribeira do Paul valley is Santo Antão's most celebrated landscape — a deep volcanic gorge of extraordinary greenness lined with the farms of sugar cane, papaya, mango, and breadfruit that supply the island's traditional aguardente spirit. A guided walk along the cobblestone levada (water channel) path through the valley takes half a day and passes through villages of extraordinary old stone houses."
+      },
+      {
+        "day": 4,
+        "title": "Pico da Cruz & Txon Bon Vista",
+        "description": "The north coast of Santo Antão visible from the Txon Bon Vista overlook is some of the most dramatic coastal scenery in the Atlantic — near-vertical volcanic cliffs plunging to a surf-crashed coast, with the island of São Vicente visible across the strait. A guided walk along the ridgeline to Pico da Cruz (1 584m) provides 360-degree views over the entire island."
+      },
+      {
+        "day": 5,
+        "title": "Grogue Distillery & Local Culture",
+        "description": "Cape Verde's national spirit, grogue (aguardente de cana), is produced in small artisanal distilleries throughout Santo Antão's ribeiras. A guided visit to a family distillery — where raw sugar cane is pressed by donkey-powered mills and fermented in wooden vats before distillation — is a fascinating window into centuries-old Atlantic craft traditions. The local ponche (grogue with honey and lime) is outstanding."
+      },
+      {
+        "day": 6,
+        "title": "Fontainhas Cliff Village",
+        "description": "Fontainhas is one of the most extraordinary villages in the Atlantic — a settlement of colourful houses clinging to a near-vertical cliff face in a ribeira, connected to the rest of the island only by a cobblestone mule path carved into the cliff. The approach walk along the cliff path from the road above is vertigo-inducing and utterly beautiful."
+      },
+      {
+        "day": 7,
+        "title": "Final Morning in the Calderas",
+        "description": "Last morning on the Sodade terrace with Santo Antão's valleys filling with morning light below. The ferry back to São Vicente gives one last view of this extraordinary volcanic island from the sea — a view that will remain in your memory long after more conventionally luxurious honeymoon destinations have faded."
+      }
     ],
     "caveats": [
       "Santo Antão has no commercial airport — access is only by ferry from São Vicente's Mindelo (1.5 hours). This adds a ferry journey to the travel logistics but is itself a beautiful crossing.",
@@ -38,12 +108,30 @@
       "Santo Antão's mountain roads are among the most spectacular and most challenging in the world — some of the older passes are genuinely dramatic with steep drops and no barriers. Road travel requires comfort with mountain driving."
     ],
     "faqs": [
-      { "question": "Is Sodade Resort good for honeymooners?", "answer": "For adventurous couples who love hiking, volcanic landscapes, and authentic local culture, Santo Antão is one of the most extraordinary places in the Atlantic and Sodade provides a comfortable and characterful base. It is best combined with a few beach days on Sal for the complete Cape Verde honeymoon, with Santo Antão providing the most memorable landscapes." },
-      { "question": "What is the best time to visit?", "answer": "November through June (dry season) for the best hiking conditions, clear visibility for ridge walks, and comfortable temperatures (20–26°C in the valleys). July through September brings rains that make the valleys brilliantly green but hiking trails muddy." },
-      { "question": "How far in advance should you book?", "answer": "Book 4–6 weeks ahead for most dates. Santo Antão has limited accommodation and Sodade Resort is one of the most comfortable properties — the Ribeira View Suites should be booked as early as possible." },
-      { "question": "Is Sodade adults-only?", "answer": "No, all guests are welcome. The hiking-focused nature of the destination means it primarily attracts active adult travelers." },
-      { "question": "What is the best room type?", "answer": "Ribeira View Suite for the caldera views from the private terrace — these rooms provide the defining Santo Antão visual experience without leaving your accommodation. Garden Rooms are solid alternatives for couples focusing primarily on the outdoor landscape rather than room views." },
-      { "question": "How do you get to Sodade Resort?", "answer": "Fly to São Vicente's Cesária Évora Airport (VXE) from Sal (30 min) or Praia (40 min), then take the ferry from Mindelo port to Porto Novo on Santo Antão (1.5 hours). Transfer from Porto Novo to Ribeira Grande (30 min). The resort arranges transfers from Porto Novo ferry terminal." }
+      {
+        "question": "Is Sodade Resort good for honeymooners?",
+        "answer": "For adventurous couples who love hiking, volcanic landscapes, and authentic local culture, Santo Antão is one of the most extraordinary places in the Atlantic and Sodade provides a comfortable and characterful base. It is best combined with a few beach days on Sal for the complete Cape Verde honeymoon, with Santo Antão providing the most memorable landscapes."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "November through June (dry season) for the best hiking conditions, clear visibility for ridge walks, and comfortable temperatures (20–26°C in the valleys). July through September brings rains that make the valleys brilliantly green but hiking trails muddy."
+      },
+      {
+        "question": "How far in advance should you book?",
+        "answer": "Book 4–6 weeks ahead for most dates. Santo Antão has limited accommodation and Sodade Resort is one of the most comfortable properties — the Ribeira View Suites should be booked as early as possible."
+      },
+      {
+        "question": "Is Sodade adults-only?",
+        "answer": "No, all guests are welcome. The hiking-focused nature of the destination means it primarily attracts active adult travelers."
+      },
+      {
+        "question": "What is the best room type?",
+        "answer": "Ribeira View Suite for the caldera views from the private terrace — these rooms provide the defining Santo Antão visual experience without leaving your accommodation. Garden Rooms are solid alternatives for couples focusing primarily on the outdoor landscape rather than room views."
+      },
+      {
+        "question": "How do you get to Sodade Resort?",
+        "answer": "Fly to São Vicente's Cesária Évora Airport (VXE) from Sal (30 min) or Praia (40 min), then take the ferry from Mindelo port to Porto Novo on Santo Antão (1.5 hours). Transfer from Porto Novo to Ribeira Grande (30 min). The resort arranges transfers from Porto Novo ferry terminal."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — Sodade Resort Santo Antão\n\nDear Sodade team,\n\nWe are planning our honeymoon [DATE]-[DATE] and interested in a Ribeira View Suite. Please advise on availability, whether guided hiking tours can be arranged through the resort, and how to best coordinate the ferry crossing from São Vicente.\n\nThank you,\n[Your names]"
   },

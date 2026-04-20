@@ -3,7 +3,10 @@
   "name": "Chablé Resort & Spa",
   "destination": "mexico",
   "country": "mexico",
-  "experience_types": ["luxury", "wellness"],
+  "experience_types": [
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 86,
   "score_breakdown": {
     "adults_only": 0,
@@ -18,15 +21,49 @@
     "couples_pct_extra": 4
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 600, "max": 2000 },
+  "price_per_night_usd": {
+    "min": 600,
+    "max": 2000
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "room service", "butler service", "private casitas", "sacred cenote", "multiple restaurants", "cooking class", "jungle setting", "hacienda"],
+  "amenities": [
+    "spa",
+    "pool",
+    "room service",
+    "butler service",
+    "private casitas",
+    "sacred cenote",
+    "multiple restaurants",
+    "cooking class",
+    "jungle setting",
+    "hacienda"
+  ],
   "photos": [
-    { "url": "/images/hotels/chable-resort-yucatan-mexico/hero.webp", "alt": "chable-resort-yucatan-mexico — hero", "type": "hero" },
-    { "url": "/images/hotels/chable-resort-yucatan-mexico/room.webp", "alt": "chable-resort-yucatan-mexico — room", "type": "room" },
-    { "url": "/images/hotels/chable-resort-yucatan-mexico/pool.webp", "alt": "chable-resort-yucatan-mexico — pool", "type": "pool" },
-    { "url": "/images/hotels/chable-resort-yucatan-mexico/spa.webp", "alt": "chable-resort-yucatan-mexico — spa", "type": "spa" },
-    { "url": "/images/hotels/chable-resort-yucatan-mexico/dining.webp", "alt": "chable-resort-yucatan-mexico — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/chable-resort-yucatan-mexico/hero.webp",
+      "alt": "chable-resort-yucatan-mexico — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/chable-resort-yucatan-mexico/room.webp",
+      "alt": "chable-resort-yucatan-mexico — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/chable-resort-yucatan-mexico/pool.webp",
+      "alt": "chable-resort-yucatan-mexico — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/chable-resort-yucatan-mexico/spa.webp",
+      "alt": "chable-resort-yucatan-mexico — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/chable-resort-yucatan-mexico/dining.webp",
+      "alt": "chable-resort-yucatan-mexico — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.5,
   "tripadvisor_award": true,
@@ -35,13 +72,41 @@
     "verdict": "Chablé Resort & Spa is one of Mexico's most extraordinary and least-known luxury retreats — a restored 19th-century hacienda set in 750 acres of Yucatan jungle, centered on a sacred Mayan cenote that anchors the resort's extraordinary spa and wellness program. Thirty-eight individual casitas with private pools are scattered through the jungle in complete seclusion, connected by jungle paths lit by lanterns at night. The culinary program, based on hyper-local Yucatan ingredients grown on the estate or foraged nearby, is among the finest in Mexico. For adventurous honeymooners seeking something genuinely unique and culturally immersive, Chablé is unlike any resort in the Americas.",
     "best_room": "The Casita with private pool is the only room type at Chablé — each is a standalone structure in the jungle with its own private pool, outdoor bathroom with garden shower, and porch with hammock. The difference between categories is primarily pool size and proximity to the hacienda. The Gran Casita suites offer the most spacious interiors. Request a casita near the sacred cenote for the most atmospheric setting.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Sacred Cenote", "description": "Fly to Mérida (30 minutes from the resort) and transfer through flat Yucatan jungle to the resort's hidden entrance. The lantern-lit arrival path through tropical gardens to your casita is a first impression of extraordinary beauty. After settling in, walk the jungle path to the resort's sacred cenote — an ancient underground freshwater pool in the center of the spa complex, open to the sky through a dramatic limestone sinkhole. An evening swim by torchlight here will mark the beginning of your honeymoon indelibly." },
-      { "day": 2, "title": "Chablé Spa & Cenote Ceremony", "description": "The Chablé Spa is built around the sacred cenote and is one of the most distinctive spa environments anywhere in the world. Book the Maya Healing Ceremony for couples — an immersive 3-hour experience led by a traditional Mayan healer (curandero) incorporating herbal baths, copal incense rituals, spiritual cleansing with fresh herbs, and a private cenote immersion. This is not a typical spa day — it is a profound cultural and spiritual experience." },
-      { "day": 3, "title": "Chichen Itza Private Tour", "description": "Arrange a private early morning tour of Chichen Itza — the UNESCO World Heritage Maya archaeological site, one of the New Seven Wonders of the World, located 2 hours east of the resort. An early morning departure beats the crowds, and the Chablé concierge partners with expert archaeologist guides who can provide context unavailable in standard tours. Return by afternoon through the Yucatan countryside." },
-      { "day": 4, "title": "Mérida City Day", "description": "Drive 30 minutes to Mérida — the elegant capital of the Yucatan, with cathedral-flanked plazas, magnificent colonial mansions, and the finest Yucatan cuisine in Mexico. Visit the Gran Museo del Mundo Maya, explore the Paseo de Montejo's grand 19th-century architecture, and lunch at the celebrated Néctar restaurant for modern Yucatan gastronomy. Sunday mornings feature an extraordinary market and folk dancing in the main plaza." },
-      { "day": 5, "title": "Hacienda Cooking Class", "description": "Join the Chablé kitchen team for a Yucatan cooking class in the hacienda's working kitchen — learning to make cochinita pibil (slow-cooked achiote-marinated pork cooked in a pit oven), papadzules (egg-stuffed tortillas in pumpkin seed sauce), and sopa de lima. Ingredients come from the resort's own organic farm and the surrounding jungle — the class reveals the extraordinary depth of Yucatan culinary tradition." },
-      { "day": 6, "title": "Cenote Swimming & Jungle Walk", "description": "Spend a slow day entirely within the Chablé estate — morning jungle walk with a naturalist guide to identify local plants, birds, and butterflies in the 750-acre property. Afternoon at the sacred cenote for swimming in the crystal-clear freshwater in the calm, reflective light of the afternoon. Request the private in-casita dinner service for a romantic final evening meal in your own jungle sanctuary." },
-      { "day": 7, "title": "Farewell Morning", "description": "Take one final sunrise walk through the jungle to the cenote before the morning crowds arrive — the cenote at first light, with mist rising from the water and birdsong filling the jungle, is one of the most beautiful moments you will experience in Mexico. Return to your casita for breakfast from room service in your hammock, then transfer to Mérida Airport for the journey home." }
+      {
+        "day": 1,
+        "title": "Arrival & Sacred Cenote",
+        "description": "Fly to Mérida (30 minutes from the resort) and transfer through flat Yucatan jungle to the resort's hidden entrance. The lantern-lit arrival path through tropical gardens to your casita is a first impression of extraordinary beauty. After settling in, walk the jungle path to the resort's sacred cenote — an ancient underground freshwater pool in the center of the spa complex, open to the sky through a dramatic limestone sinkhole. An evening swim by torchlight here will mark the beginning of your honeymoon indelibly."
+      },
+      {
+        "day": 2,
+        "title": "Chablé Spa & Cenote Ceremony",
+        "description": "The Chablé Spa is built around the sacred cenote and is one of the most distinctive spa environments anywhere in the world. Book the Maya Healing Ceremony for couples — an immersive 3-hour experience led by a traditional Mayan healer (curandero) incorporating herbal baths, copal incense rituals, spiritual cleansing with fresh herbs, and a private cenote immersion. This is not a typical spa day — it is a profound cultural and spiritual experience."
+      },
+      {
+        "day": 3,
+        "title": "Chichen Itza Private Tour",
+        "description": "Arrange a private early morning tour of Chichen Itza — the UNESCO World Heritage Maya archaeological site, one of the New Seven Wonders of the World, located 2 hours east of the resort. An early morning departure beats the crowds, and the Chablé concierge partners with expert archaeologist guides who can provide context unavailable in standard tours. Return by afternoon through the Yucatan countryside."
+      },
+      {
+        "day": 4,
+        "title": "Mérida City Day",
+        "description": "Drive 30 minutes to Mérida — the elegant capital of the Yucatan, with cathedral-flanked plazas, magnificent colonial mansions, and the finest Yucatan cuisine in Mexico. Visit the Gran Museo del Mundo Maya, explore the Paseo de Montejo's grand 19th-century architecture, and lunch at the celebrated Néctar restaurant for modern Yucatan gastronomy. Sunday mornings feature an extraordinary market and folk dancing in the main plaza."
+      },
+      {
+        "day": 5,
+        "title": "Hacienda Cooking Class",
+        "description": "Join the Chablé kitchen team for a Yucatan cooking class in the hacienda's working kitchen — learning to make cochinita pibil (slow-cooked achiote-marinated pork cooked in a pit oven), papadzules (egg-stuffed tortillas in pumpkin seed sauce), and sopa de lima. Ingredients come from the resort's own organic farm and the surrounding jungle — the class reveals the extraordinary depth of Yucatan culinary tradition."
+      },
+      {
+        "day": 6,
+        "title": "Cenote Swimming & Jungle Walk",
+        "description": "Spend a slow day entirely within the Chablé estate — morning jungle walk with a naturalist guide to identify local plants, birds, and butterflies in the 750-acre property. Afternoon at the sacred cenote for swimming in the crystal-clear freshwater in the calm, reflective light of the afternoon. Request the private in-casita dinner service for a romantic final evening meal in your own jungle sanctuary."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "Take one final sunrise walk through the jungle to the cenote before the morning crowds arrive — the cenote at first light, with mist rising from the water and birdsong filling the jungle, is one of the most beautiful moments you will experience in Mexico. Return to your casita for breakfast from room service in your hammock, then transfer to Mérida Airport for the journey home."
+      }
     ],
     "caveats": [
       "Chablé is landlocked in the Yucatan jungle — there is no beach within the resort property. The nearest Caribbean beach (Progreso) is 1.5 hours, and the Riviera Maya is 3+ hours. This is a jungle and culture honeymoon, not a beach holiday.",

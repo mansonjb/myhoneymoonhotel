@@ -3,19 +3,65 @@
   "name": "Tintswalo Safari Lodge",
   "destination": "south-africa",
   "country": "south-africa",
-  "experience_types": ["safari", "luxury"],
+  "experience_types": [
+    "safari",
+    "luxury"
+  ],
   "honeymoon_score": 89,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 18, "spa": 15, "award": 10, "pool": 10, "beach": 0, "room_service": 10, "stars": 16, "luxury": 10 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 18,
+    "spa": 15,
+    "award": 10,
+    "pool": 10,
+    "beach": 0,
+    "room_service": 10,
+    "stars": 16,
+    "luxury": 10
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 700, "max": 2200 },
+  "price_per_night_usd": {
+    "min": 700,
+    "max": 2200
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "game drives", "room service", "butler service", "private plunge pools", "fine dining", "bush walks", "archive art"],
+  "amenities": [
+    "spa",
+    "pool",
+    "game drives",
+    "room service",
+    "butler service",
+    "private plunge pools",
+    "fine dining",
+    "bush walks",
+    "archive art"
+  ],
   "photos": [
-    { "url": "/images/hotels/tintswalo-safari-lodge-south-africa/hero.webp", "alt": "tintswalo-safari-lodge-south-africa — hero", "type": "hero" },
-    { "url": "/images/hotels/tintswalo-safari-lodge-south-africa/room.webp", "alt": "tintswalo-safari-lodge-south-africa — room", "type": "room" },
-    { "url": "/images/hotels/tintswalo-safari-lodge-south-africa/pool.webp", "alt": "tintswalo-safari-lodge-south-africa — pool", "type": "pool" },
-    { "url": "/images/hotels/tintswalo-safari-lodge-south-africa/spa.webp", "alt": "tintswalo-safari-lodge-south-africa — spa", "type": "spa" },
-    { "url": "/images/hotels/tintswalo-safari-lodge-south-africa/dining.webp", "alt": "tintswalo-safari-lodge-south-africa — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/tintswalo-safari-lodge-south-africa/hero.webp",
+      "alt": "tintswalo-safari-lodge-south-africa — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/tintswalo-safari-lodge-south-africa/room.webp",
+      "alt": "tintswalo-safari-lodge-south-africa — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/tintswalo-safari-lodge-south-africa/pool.webp",
+      "alt": "tintswalo-safari-lodge-south-africa — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/tintswalo-safari-lodge-south-africa/spa.webp",
+      "alt": "tintswalo-safari-lodge-south-africa — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/tintswalo-safari-lodge-south-africa/dining.webp",
+      "alt": "tintswalo-safari-lodge-south-africa — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.2,
   "tripadvisor_award": true,
@@ -24,13 +70,41 @@
     "verdict": "Tintswalo Safari Lodge in the Greater Kruger's Manyeleti Reserve offers nine exceptionally personal suites, each named after a famous African explorer and decorated with authentic archive photography, maps, and artefacts from that individual's journeys. No day visitors ever enter the private concession, so every game drive is a genuinely exclusive expedition. For honeymooners who love history, adventure, and romance in equal measure, Tintswalo is one of the most distinctive choices in South Africa.",
     "best_room": "The Livingstone Suite is the most sought-after — a vast plunge pool suite decorated with archive maps and Victorian botanical illustrations, with a four-poster bed and outdoor shower overlooking the bush. The Stanley Suite is equally romantic with its East African exploration theme and private deck where elephant regularly pass within metres. Each suite tells a story, making every evening in the room feel like a chapter from an African adventure novel.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Explorer's Welcome", "description": "Fly to Hoedspruit Eastgate Airport and transfer by road through the Manyeleti reserve gate. Your ranger introduces the explorer theme of your suite over welcome drinks. The afternoon game drive heads straight to a reported sighting — Manyeleti's Big 5 presence is excellent and the concession is shared with very few vehicles." },
-      { "day": 2, "title": "Archive Morning & Big 5 Drive", "description": "Your suite's historical archive provides morning reading over breakfast: original maps, letters, and photographs from your explorer's journeys. The game drive ventures into classic lion country — Manyeleti has resident prides that are well habituated to vehicles, often lounging at remarkably close range." },
-      { "day": 3, "title": "Bush Walk & Sundowner", "description": "A guided walk through the Manyeleti bush with a certified field guide and armed tracker — tracking spoor in sandy riverbeds, learning about termite mounds and medicinal trees. The afternoon drive culminates in sundowners on a rocky outcrop watching the sun dissolve into the bushveld in a blaze of orange and crimson." },
-      { "day": 4, "title": "Spa Day & Night Drive", "description": "Spend the day at the lodge — a morning swim in your private plunge pool, breakfast delivered to your deck, and an afternoon at the Tintswalo spa using wild botanicals in a couple's treatment. The night drive after dinner reveals the nocturnal world: honey badgers, bush babies, and the searching spotlight finding a leopard on the move." },
-      { "day": 5, "title": "Leopard & Cheetah Country", "description": "Manyeleti borders areas of exceptional cheetah habitat, and the morning drive focuses on the reserve's more elusive cats. Your tracker reads the road for overnight spoor, following fresh tracks methodically until a sighting reward. Return for brunch and a pool afternoon before another evening of bush stories around the fire." },
-      { "day": 6, "title": "Private Bush Dinner", "description": "The lodge sets up a private dinner in a hidden clearing in the bush — tables dressed in white linen, lanterns in the trees, a three-course meal served by your own waiter as the nocturnal chorus rises around you. This is Tintswalo's signature romantic experience and the defining memory of most honeymoon stays." },
-      { "day": 7, "title": "Final Morning & Departure", "description": "One last pre-dawn drive — the Manyeleti dawn brings a quality of light that photographers spend lifetimes chasing. Return for a farewell breakfast in the lodge's open-air boma before transfer to Hoedspruit. Your ranger presents you with a hand-drawn map of the sightings from your week as a personal memento." }
+      {
+        "day": 1,
+        "title": "Arrival & Explorer's Welcome",
+        "description": "Fly to Hoedspruit Eastgate Airport and transfer by road through the Manyeleti reserve gate. Your ranger introduces the explorer theme of your suite over welcome drinks. The afternoon game drive heads straight to a reported sighting — Manyeleti's Big 5 presence is excellent and the concession is shared with very few vehicles."
+      },
+      {
+        "day": 2,
+        "title": "Archive Morning & Big 5 Drive",
+        "description": "Your suite's historical archive provides morning reading over breakfast: original maps, letters, and photographs from your explorer's journeys. The game drive ventures into classic lion country — Manyeleti has resident prides that are well habituated to vehicles, often lounging at remarkably close range."
+      },
+      {
+        "day": 3,
+        "title": "Bush Walk & Sundowner",
+        "description": "A guided walk through the Manyeleti bush with a certified field guide and armed tracker — tracking spoor in sandy riverbeds, learning about termite mounds and medicinal trees. The afternoon drive culminates in sundowners on a rocky outcrop watching the sun dissolve into the bushveld in a blaze of orange and crimson."
+      },
+      {
+        "day": 4,
+        "title": "Spa Day & Night Drive",
+        "description": "Spend the day at the lodge — a morning swim in your private plunge pool, breakfast delivered to your deck, and an afternoon at the Tintswalo spa using wild botanicals in a couple's treatment. The night drive after dinner reveals the nocturnal world: honey badgers, bush babies, and the searching spotlight finding a leopard on the move."
+      },
+      {
+        "day": 5,
+        "title": "Leopard & Cheetah Country",
+        "description": "Manyeleti borders areas of exceptional cheetah habitat, and the morning drive focuses on the reserve's more elusive cats. Your tracker reads the road for overnight spoor, following fresh tracks methodically until a sighting reward. Return for brunch and a pool afternoon before another evening of bush stories around the fire."
+      },
+      {
+        "day": 6,
+        "title": "Private Bush Dinner",
+        "description": "The lodge sets up a private dinner in a hidden clearing in the bush — tables dressed in white linen, lanterns in the trees, a three-course meal served by your own waiter as the nocturnal chorus rises around you. This is Tintswalo's signature romantic experience and the defining memory of most honeymoon stays."
+      },
+      {
+        "day": 7,
+        "title": "Final Morning & Departure",
+        "description": "One last pre-dawn drive — the Manyeleti dawn brings a quality of light that photographers spend lifetimes chasing. Return for a farewell breakfast in the lodge's open-air boma before transfer to Hoedspruit. Your ranger presents you with a hand-drawn map of the sightings from your week as a personal memento."
+      }
     ],
     "caveats": [
       "Manyeleti is a malaria area; consult your physician about prophylaxis before travel.",
@@ -38,12 +112,30 @@
       "The explorer-themed suites are heavily decorated and atmospheric; travellers who prefer minimal, contemporary design may find the aesthetic too maximal."
     ],
     "faqs": [
-      { "question": "Good for honeymooners?", "answer": "Tintswalo is an outstanding honeymoon choice, particularly for couples who appreciate history, storytelling, and a sense of romantic adventure. The named explorer suites create an intimate narrative context for the stay, while the no-day-visitor policy ensures a genuinely private wilderness experience. The private bush dinner is one of South Africa's great romantic moments." },
-      { "question": "Best time to visit?", "answer": "May through October is the dry season and best game viewing period, with animals congregating around water and predators highly active. July and August can be cold at night but spectacular for big cat sightings. The wet season (November to March) brings emerald landscapes, baby animals, and good birding." },
-      { "question": "Book in advance?", "answer": "With only nine suites, Tintswalo books out 4 to 8 months ahead for peak season dates. The Livingstone and Stanley suites are most requested by honeymooners. Always communicate your occasion at booking for complimentary room touches and private dining arrangements." },
-      { "question": "Adults-only?", "answer": "Tintswalo is not formally adults-only, but the intimate adult atmosphere and sophisticated explorer theme are oriented toward couples rather than families. Game drives have a minimum age policy; confirm current requirements at booking." },
-      { "question": "Best room type?", "answer": "The Livingstone Suite is the most celebrated for honeymooners, combining spacious interiors, a private plunge pool, and an extraordinary archive of historical material. The Stanley Suite is equally romantic with strong East African historical references and an excellent deck position for wildlife viewing." },
-      { "question": "How to get there?", "answer": "Hoedspruit Eastgate Airport receives direct flights from Johannesburg (approximately 1 hour) and connects via Nelspruit. Tintswalo arranges private road transfers from the airport into the Manyeleti concession — approximately 45 minutes through the reserve. Helicopter arrivals can also be arranged for a spectacular bush landing." }
+      {
+        "question": "Good for honeymooners?",
+        "answer": "Tintswalo is an outstanding honeymoon choice, particularly for couples who appreciate history, storytelling, and a sense of romantic adventure. The named explorer suites create an intimate narrative context for the stay, while the no-day-visitor policy ensures a genuinely private wilderness experience. The private bush dinner is one of South Africa's great romantic moments."
+      },
+      {
+        "question": "Best time to visit?",
+        "answer": "May through October is the dry season and best game viewing period, with animals congregating around water and predators highly active. July and August can be cold at night but spectacular for big cat sightings. The wet season (November to March) brings emerald landscapes, baby animals, and good birding."
+      },
+      {
+        "question": "Book in advance?",
+        "answer": "With only nine suites, Tintswalo books out 4 to 8 months ahead for peak season dates. The Livingstone and Stanley suites are most requested by honeymooners. Always communicate your occasion at booking for complimentary room touches and private dining arrangements."
+      },
+      {
+        "question": "Adults-only?",
+        "answer": "Tintswalo is not formally adults-only, but the intimate adult atmosphere and sophisticated explorer theme are oriented toward couples rather than families. Game drives have a minimum age policy; confirm current requirements at booking."
+      },
+      {
+        "question": "Best room type?",
+        "answer": "The Livingstone Suite is the most celebrated for honeymooners, combining spacious interiors, a private plunge pool, and an extraordinary archive of historical material. The Stanley Suite is equally romantic with strong East African historical references and an excellent deck position for wildlife viewing."
+      },
+      {
+        "question": "How to get there?",
+        "answer": "Hoedspruit Eastgate Airport receives direct flights from Johannesburg (approximately 1 hour) and connects via Nelspruit. Tintswalo arranges private road transfers from the airport into the Manyeleti concession — approximately 45 minutes through the reserve. Helicopter arrivals can also be arranged for a spectacular bush landing."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — Tintswalo Safari Lodge Manyeleti\n\nDear Tintswalo reservations team,\n\nWe are planning our honeymoon [DATE]-[DATE] and are interested in [Livingstone Suite / Stanley Suite]. Please advise on availability, honeymoon packages, the private bush dinner experience, and any complimentary inclusions.\n\nThank you,\n[Your names]"
   },

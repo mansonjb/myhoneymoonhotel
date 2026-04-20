@@ -3,7 +3,11 @@
   "name": "Le Barthélemy Hotel & Spa",
   "destination": "st-barts",
   "country": "st-barts",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 90,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,50 @@
     "luxury": 7
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 800, "max": 3000 },
+  "price_per_night_usd": {
+    "min": 800,
+    "max": 3000
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "beach", "butler service", "room service", "restaurant", "bar", "fitness centre", "water sports", "paddleboarding", "concierge"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beach",
+    "butler service",
+    "room service",
+    "restaurant",
+    "bar",
+    "fitness centre",
+    "water sports",
+    "paddleboarding",
+    "concierge"
+  ],
   "photos": [
-    { "url": "/images/hotels/le-barthelemy-hotel-spa-st-barths/hero.webp", "alt": "le-barthelemy-hotel-spa-st-barths — hero", "type": "hero" },
-    { "url": "/images/hotels/le-barthelemy-hotel-spa-st-barths/room.webp", "alt": "le-barthelemy-hotel-spa-st-barths — room", "type": "room" },
-    { "url": "/images/hotels/le-barthelemy-hotel-spa-st-barths/pool.webp", "alt": "le-barthelemy-hotel-spa-st-barths — pool", "type": "pool" },
-    { "url": "/images/hotels/le-barthelemy-hotel-spa-st-barths/spa.webp", "alt": "le-barthelemy-hotel-spa-st-barths — spa", "type": "spa" },
-    { "url": "/images/hotels/le-barthelemy-hotel-spa-st-barths/dining.webp", "alt": "le-barthelemy-hotel-spa-st-barths — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/le-barthelemy-hotel-spa-st-barths/hero.webp",
+      "alt": "le-barthelemy-hotel-spa-st-barths — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/le-barthelemy-hotel-spa-st-barths/room.webp",
+      "alt": "le-barthelemy-hotel-spa-st-barths — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/le-barthelemy-hotel-spa-st-barths/pool.webp",
+      "alt": "le-barthelemy-hotel-spa-st-barths — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/le-barthelemy-hotel-spa-st-barths/spa.webp",
+      "alt": "le-barthelemy-hotel-spa-st-barths — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/le-barthelemy-hotel-spa-st-barths/dining.webp",
+      "alt": "le-barthelemy-hotel-spa-st-barths — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.2,
   "tripadvisor_award": true,
@@ -34,13 +73,41 @@
     "verdict": "Le Barthélemy Hotel & Spa is St Barths' most considered modern luxury hotel — a sleek, design-forward property on the sheltered Grand Cul de Sac lagoon with 48 rooms and suites, a genuine spa with a strong wellness programme, and a beach perfectly suited to paddleboarding, kayaking, and morning swims in naturally calm water. The design is contemporary and assured, without the eccentric personality of Eden Rock or the heritage glamour of Cheval Blanc, but it delivers consistent five-star standards at a price point that represents slightly better value relative to those iconic addresses. For honeymooners who prioritise spa, calm water, and refined modern design, Le Barthélemy is the smart choice on St Barths.",
     "best_room": "The Prestige Rooms and Suite categories with private terraces overlooking the lagoon are the best honeymoon options. The lagoon view from these rooms — the pale turquoise Grand Cul de Sac with kite surfers in the distance and the island hills rising behind — is one of St Barths' most quietly beautiful prospects. The Private Pool Junior Suites offer plunge pools on the terrace for maximum privacy.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival at Grand Cul de Sac", "description": "Grand Cul de Sac is a natural lagoon bay on the north-east coast — one of St Barths' most sheltered spots and popular with paddleboarders and wind sport enthusiasts. Le Barthélemy's arrival is polished and unhurried. The afternoon is spent on the beach, exploring the calm lagoon water, and settling into the terrace rhythm. Dinner at the hotel's restaurant introduces the contemporary French-Caribbean menu." },
-      { "day": 2, "title": "Paddleboarding & Spa", "description": "The Grand Cul de Sac lagoon is ideal for stand-up paddleboarding — calm, clear, and shallow enough to stand in if you fall. Morning on the water, then a full afternoon at the spa: the hotel's wellness team offers a focused programme that includes Ayurvedic-influenced treatments alongside more classic massage modalities. The spa design itself is clean and modern, with treatment rooms overlooking the garden." },
-      { "day": 3, "title": "Gustavia Harbour Day", "description": "Drive or take the hotel transfer to Gustavia for a morning of the island's best harbour life: excellent coffee, French patisserie, harbour strolling, and the weekly open-air market. Lunch at a quayside restaurant, afternoon shopping through the luxury boutiques, and return to the hotel for sunset on the terrace." },
-      { "day": 4, "title": "Private Boat Charter", "description": "The hotel concierge arranges private boat charters from Gustavia Marina to the island's remote beaches. The itinerary typically includes Anse Colombier (only accessible by sea or foot), snorkeling at Île Fourchue, and a champagne lunch served on the boat or on a remote sand beach." },
-      { "day": 5, "title": "Couples Wellness Day", "description": "A full day dedicated to the spa and villa: morning yoga or pilates session on the beach at sunrise, couples treatment in the spa (the signature island massage with local botanical oils is the recommendation), afternoon by the Private Pool Junior Suite's plunge pool with room service." },
-      { "day": 6, "title": "Saline Beach Excursion", "description": "Anse de Saline, accessible via a short walk from the car park at the south of the island, is consistently rated among St Barths' most beautiful beaches — a wide arc of pale sand with turquoise water and a salt pond behind. Spend the morning here, lunch at a nearby beach bar, return to Le Barthélemy for a final dinner at the restaurant." },
-      { "day": 7, "title": "Farewell Morning", "description": "A last breakfast on the lagoon-facing terrace, a final paddleboard at sunrise if energy allows. The hotel coordinates airport transfers for the Winair flight connection." }
+      {
+        "day": 1,
+        "title": "Arrival at Grand Cul de Sac",
+        "description": "Grand Cul de Sac is a natural lagoon bay on the north-east coast — one of St Barths' most sheltered spots and popular with paddleboarders and wind sport enthusiasts. Le Barthélemy's arrival is polished and unhurried. The afternoon is spent on the beach, exploring the calm lagoon water, and settling into the terrace rhythm. Dinner at the hotel's restaurant introduces the contemporary French-Caribbean menu."
+      },
+      {
+        "day": 2,
+        "title": "Paddleboarding & Spa",
+        "description": "The Grand Cul de Sac lagoon is ideal for stand-up paddleboarding — calm, clear, and shallow enough to stand in if you fall. Morning on the water, then a full afternoon at the spa: the hotel's wellness team offers a focused programme that includes Ayurvedic-influenced treatments alongside more classic massage modalities. The spa design itself is clean and modern, with treatment rooms overlooking the garden."
+      },
+      {
+        "day": 3,
+        "title": "Gustavia Harbour Day",
+        "description": "Drive or take the hotel transfer to Gustavia for a morning of the island's best harbour life: excellent coffee, French patisserie, harbour strolling, and the weekly open-air market. Lunch at a quayside restaurant, afternoon shopping through the luxury boutiques, and return to the hotel for sunset on the terrace."
+      },
+      {
+        "day": 4,
+        "title": "Private Boat Charter",
+        "description": "The hotel concierge arranges private boat charters from Gustavia Marina to the island's remote beaches. The itinerary typically includes Anse Colombier (only accessible by sea or foot), snorkeling at Île Fourchue, and a champagne lunch served on the boat or on a remote sand beach."
+      },
+      {
+        "day": 5,
+        "title": "Couples Wellness Day",
+        "description": "A full day dedicated to the spa and villa: morning yoga or pilates session on the beach at sunrise, couples treatment in the spa (the signature island massage with local botanical oils is the recommendation), afternoon by the Private Pool Junior Suite's plunge pool with room service."
+      },
+      {
+        "day": 6,
+        "title": "Saline Beach Excursion",
+        "description": "Anse de Saline, accessible via a short walk from the car park at the south of the island, is consistently rated among St Barths' most beautiful beaches — a wide arc of pale sand with turquoise water and a salt pond behind. Spend the morning here, lunch at a nearby beach bar, return to Le Barthélemy for a final dinner at the restaurant."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "A last breakfast on the lagoon-facing terrace, a final paddleboard at sunrise if energy allows. The hotel coordinates airport transfers for the Winair flight connection."
+      }
     ],
     "caveats": [
       "Grand Cul de Sac is well-suited to water sports but the lagoon can be shallow and the open-water swimming experience is different from the more exposed beaches of St Jean or Flamands — it is calm and ideal for paddleboarding, less so for serious ocean swimming.",
@@ -48,12 +115,30 @@
       "The hotel books up well in advance for peak Caribbean season — reserve rooms six or more months ahead for December–April stays."
     ],
     "faqs": [
-      { "question": "Is Le Barthélemy Hotel & Spa good for honeymooners?", "answer": "Yes — it delivers a complete five-star experience at slightly better value than the island's most iconic addresses, with a strong spa, a beautiful lagoon beach, and design-forward interiors that photograph beautifully. The Private Pool Junior Suites are excellent for couples who want private outdoor space." },
-      { "question": "What is the best time to visit?", "answer": "December through April for ideal Caribbean weather. The Grand Cul de Sac lagoon is consistently calm year-round, which makes it an attractive choice in shoulder season (May, November) when rates drop and the island is quieter." },
-      { "question": "What should we book in advance?", "answer": "Private Pool Junior Suites, couples spa treatments, and the private boat charter should all be pre-booked. Peak season availability requires reservations well in advance." },
-      { "question": "Is it adults-only?", "answer": "No. Le Barthélemy is family-friendly and welcomes children, but the spa focus and lagoon setting make it primarily popular with couples." },
-      { "question": "What's the best room for a honeymoon?", "answer": "A Private Pool Junior Suite or Prestige Suite with lagoon view terrace — the plunge pool adds a layer of privacy that makes the terrace experience genuinely self-contained." },
-      { "question": "How do we get there?", "answer": "Fly to St Martin (SXM) and connect via Winair or Air Caraïbes to St Barths (10 minutes by air). Ferry from Marigot Bay is an alternative (45 minutes). The hotel is a 10-minute drive from St Barths Airport." }
+      {
+        "question": "Is Le Barthélemy Hotel & Spa good for honeymooners?",
+        "answer": "Yes — it delivers a complete five-star experience at slightly better value than the island's most iconic addresses, with a strong spa, a beautiful lagoon beach, and design-forward interiors that photograph beautifully. The Private Pool Junior Suites are excellent for couples who want private outdoor space."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "December through April for ideal Caribbean weather. The Grand Cul de Sac lagoon is consistently calm year-round, which makes it an attractive choice in shoulder season (May, November) when rates drop and the island is quieter."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "Private Pool Junior Suites, couples spa treatments, and the private boat charter should all be pre-booked. Peak season availability requires reservations well in advance."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "No. Le Barthélemy is family-friendly and welcomes children, but the spa focus and lagoon setting make it primarily popular with couples."
+      },
+      {
+        "question": "What's the best room for a honeymoon?",
+        "answer": "A Private Pool Junior Suite or Prestige Suite with lagoon view terrace — the plunge pool adds a layer of privacy that makes the terrace experience genuinely self-contained."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "Fly to St Martin (SXM) and connect via Winair or Air Caraïbes to St Barths (10 minutes by air). Ferry from Marigot Bay is an alternative (45 minutes). The hotel is a 10-minute drive from St Barths Airport."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Le Barthélemy Hotel & Spa\n\nDear Le Barthélemy team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: a Private Pool Junior Suite or Prestige Suite with lagoon view\n\nCould you please let us know:\n- Current availability for our dates\n- Any honeymoon packages or complimentary upgrades\n- Details on couples spa treatments and private boat charter options\n\nThank you for your time.\n\n[Your names]"
   },

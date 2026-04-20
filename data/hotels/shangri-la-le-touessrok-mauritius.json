@@ -3,7 +3,11 @@
   "name": "Shangri-La Le Touessrok, Mauritius",
   "destination": "mauritius",
   "country": "mauritius",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 88,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,49 @@
     "luxury": 13
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 500, "max": 1800 },
+  "price_per_night_usd": {
+    "min": 500,
+    "max": 1800
+  },
   "adults_only": false,
-  "amenities": ["two private islands", "private beach", "Chi Spa", "pool", "room service", "butler service", "multiple restaurants", "water sports", "concierge", "golf"],
+  "amenities": [
+    "two private islands",
+    "private beach",
+    "Chi Spa",
+    "pool",
+    "room service",
+    "butler service",
+    "multiple restaurants",
+    "water sports",
+    "concierge",
+    "golf"
+  ],
   "photos": [
-    { "url": "/images/hotels/shangri-la-le-touessrok-mauritius/hero.webp", "alt": "shangri-la-le-touessrok-mauritius — hero", "type": "hero" },
-    { "url": "/images/hotels/shangri-la-le-touessrok-mauritius/room.webp", "alt": "shangri-la-le-touessrok-mauritius — room", "type": "room" },
-    { "url": "/images/hotels/shangri-la-le-touessrok-mauritius/pool.webp", "alt": "shangri-la-le-touessrok-mauritius — pool", "type": "pool" },
-    { "url": "/images/hotels/shangri-la-le-touessrok-mauritius/spa.webp", "alt": "shangri-la-le-touessrok-mauritius — spa", "type": "spa" },
-    { "url": "/images/hotels/shangri-la-le-touessrok-mauritius/dining.webp", "alt": "shangri-la-le-touessrok-mauritius — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/shangri-la-le-touessrok-mauritius/hero.webp",
+      "alt": "shangri-la-le-touessrok-mauritius — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/shangri-la-le-touessrok-mauritius/room.webp",
+      "alt": "shangri-la-le-touessrok-mauritius — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/shangri-la-le-touessrok-mauritius/pool.webp",
+      "alt": "shangri-la-le-touessrok-mauritius — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/shangri-la-le-touessrok-mauritius/spa.webp",
+      "alt": "shangri-la-le-touessrok-mauritius — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/shangri-la-le-touessrok-mauritius/dining.webp",
+      "alt": "shangri-la-le-touessrok-mauritius — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.1,
   "tripadvisor_award": true,
@@ -34,13 +72,41 @@
     "verdict": "Shangri-La Le Touessrok is one of the most storied luxury resorts in Mauritius — a beautifully positioned property on the east coast with access to two private islands that give it a sense of space and exclusivity that few resorts on the island can match. The Ile aux Cerfs private beach island and the adults-only Ilot Mangenie provide genuinely private beach experiences just a short boat ride from the main resort. The Shangri-La Chi Spa and the resort's range of water sports and culinary experiences make it a comprehensive honeymoon destination.",
     "best_room": "The Frangipani Overwater Bungalows — positioned on stilts directly in the lagoon — are the most romantic rooms on the property, with wrap-around terraces, private pools, and the soft sound of the Indian Ocean at all hours. The Beach Suites on the resort's main beach are excellent land-based alternatives with direct beach access and private gardens. Junior Suites in the main building are beautiful but lack the intimacy of the water bungalows.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Two Islands & an Arrival", "description": "Transfer to Le Touessrok and be oriented to one of the resort's most unusual assets: access to two private islands via the resort's boat shuttle. The main property faces the open sea and a beautiful garden landscape, while just minutes away by boat, Ilot Mangenie (adults-only) provides a completely private beach island experience. A first dinner at the resort's main restaurant, with the east coast trade winds cooling the terrace perfectly." },
-      { "day": 2, "title": "Ilot Mangenie Adults-Only Island", "description": "Take the resort's morning boat to Ilot Mangenie — an entirely adults-only private island with a pristine beach, beach bar, and the most private swimming in Mauritius. Spend the entire day here, swimming in water so clear you can see the seafloor detail 10 meters below, and eating fresh seafood from the island's small kitchen. Return to Le Touessrok at sunset." },
-      { "day": 3, "title": "Chi Spa & Overwater Morning", "description": "Begin the day with an overwater yoga session on your bungalow deck, then book a morning of Chi Spa treatments — the Shangri-La spa brand draws from Asian healing traditions and applies them with exceptional skill. The warm stone massage and the Balinese boreh scrub are particularly excellent. Afternoon in the overwater bungalow with room service and the lagoon below." },
-      { "day": 4, "title": "Île aux Cerfs & Snorkeling", "description": "The resort also has access to the famous Île aux Cerfs beach — one of the most beautiful in Mauritius, with fine white sand and the most photogenic shades of blue. Spend the day snorkeling the reef, hiring water sports equipment, and lunching at the island's beach restaurants. Return to Le Touessrok for a sunset cocktail on the overwater bungalow deck." },
-      { "day": 5, "title": "Mauritius Cultural Day", "description": "Hire a driver for a full day exploring the north and center of the island. Visit the Pamplemousses Botanical Garden, the Grand Bassin sacred Hindu lake in the mountains, and the stunning Chamarel Coloured Earths in the southwest. Return via the Chamarel rum distillery for a tasting of the island's finest agricole rums — a perfect gift to take home." },
-      { "day": 6, "title": "Private Dinner on the Water", "description": "Arrange with your butler a private sunset dinner on the resort's private pier — a table for two at the end of the jetty with the Indian Ocean on three sides, personal service, and a special menu prepared by the resort's head chef. This is Le Touessrok at its most purely romantic, and a fitting culmination to a honeymoon week that has offered everything this extraordinary island has to give." },
-      { "day": 7, "title": "Farewell Morning", "description": "A final dawn from the overwater bungalow deck — the soft pink sky, the lagoon mirror-still, and the private island just visible through the morning mist. Breakfast on the deck, a slow departure from one of the Indian Ocean's finest resorts, and the transfer to the airport through Mauritius's eastern landscape, already planning the return." }
+      {
+        "day": 1,
+        "title": "Two Islands & an Arrival",
+        "description": "Transfer to Le Touessrok and be oriented to one of the resort's most unusual assets: access to two private islands via the resort's boat shuttle. The main property faces the open sea and a beautiful garden landscape, while just minutes away by boat, Ilot Mangenie (adults-only) provides a completely private beach island experience. A first dinner at the resort's main restaurant, with the east coast trade winds cooling the terrace perfectly."
+      },
+      {
+        "day": 2,
+        "title": "Ilot Mangenie Adults-Only Island",
+        "description": "Take the resort's morning boat to Ilot Mangenie — an entirely adults-only private island with a pristine beach, beach bar, and the most private swimming in Mauritius. Spend the entire day here, swimming in water so clear you can see the seafloor detail 10 meters below, and eating fresh seafood from the island's small kitchen. Return to Le Touessrok at sunset."
+      },
+      {
+        "day": 3,
+        "title": "Chi Spa & Overwater Morning",
+        "description": "Begin the day with an overwater yoga session on your bungalow deck, then book a morning of Chi Spa treatments — the Shangri-La spa brand draws from Asian healing traditions and applies them with exceptional skill. The warm stone massage and the Balinese boreh scrub are particularly excellent. Afternoon in the overwater bungalow with room service and the lagoon below."
+      },
+      {
+        "day": 4,
+        "title": "Île aux Cerfs & Snorkeling",
+        "description": "The resort also has access to the famous Île aux Cerfs beach — one of the most beautiful in Mauritius, with fine white sand and the most photogenic shades of blue. Spend the day snorkeling the reef, hiring water sports equipment, and lunching at the island's beach restaurants. Return to Le Touessrok for a sunset cocktail on the overwater bungalow deck."
+      },
+      {
+        "day": 5,
+        "title": "Mauritius Cultural Day",
+        "description": "Hire a driver for a full day exploring the north and center of the island. Visit the Pamplemousses Botanical Garden, the Grand Bassin sacred Hindu lake in the mountains, and the stunning Chamarel Coloured Earths in the southwest. Return via the Chamarel rum distillery for a tasting of the island's finest agricole rums — a perfect gift to take home."
+      },
+      {
+        "day": 6,
+        "title": "Private Dinner on the Water",
+        "description": "Arrange with your butler a private sunset dinner on the resort's private pier — a table for two at the end of the jetty with the Indian Ocean on three sides, personal service, and a special menu prepared by the resort's head chef. This is Le Touessrok at its most purely romantic, and a fitting culmination to a honeymoon week that has offered everything this extraordinary island has to give."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "A final dawn from the overwater bungalow deck — the soft pink sky, the lagoon mirror-still, and the private island just visible through the morning mist. Breakfast on the deck, a slow departure from one of the Indian Ocean's finest resorts, and the transfer to the airport through Mauritius's eastern landscape, already planning the return."
+      }
     ],
     "caveats": [
       "Not adults-only at the main resort, though the Ilot Mangenie island is adults-only. Families are present and the main pool area can be busy during peak season.",

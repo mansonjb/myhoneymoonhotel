@@ -3,19 +3,64 @@
   "name": "Ikos Andalusia",
   "destination": "spain",
   "country": "spain",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 86,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 16, "spa": 15, "award": 10, "pool": 15, "beach": 15, "room_service": 5, "stars": 10, "luxury": 0 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 16,
+    "spa": 15,
+    "award": 10,
+    "pool": 15,
+    "beach": 15,
+    "room_service": 5,
+    "stars": 10,
+    "luxury": 0
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 400, "max": 1200 },
+  "price_per_night_usd": {
+    "min": 400,
+    "max": 1200
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "beach", "room service", "all-inclusive", "restaurants", "water sports"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beach",
+    "room service",
+    "all-inclusive",
+    "restaurants",
+    "water sports"
+  ],
   "photos": [
-    { "url": "/images/hotels/ikos-andalusia-spain/hero.webp", "alt": "ikos-andalusia-spain — hero", "type": "hero" },
-    { "url": "/images/hotels/ikos-andalusia-spain/room.webp", "alt": "ikos-andalusia-spain — room", "type": "room" },
-    { "url": "/images/hotels/ikos-andalusia-spain/pool.webp", "alt": "ikos-andalusia-spain — pool", "type": "pool" },
-    { "url": "/images/hotels/ikos-andalusia-spain/spa.webp", "alt": "ikos-andalusia-spain — spa", "type": "spa" },
-    { "url": "/images/hotels/ikos-andalusia-spain/dining.webp", "alt": "ikos-andalusia-spain — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/ikos-andalusia-spain/hero.webp",
+      "alt": "ikos-andalusia-spain — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/ikos-andalusia-spain/room.webp",
+      "alt": "ikos-andalusia-spain — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/ikos-andalusia-spain/pool.webp",
+      "alt": "ikos-andalusia-spain — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/ikos-andalusia-spain/spa.webp",
+      "alt": "ikos-andalusia-spain — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/ikos-andalusia-spain/dining.webp",
+      "alt": "ikos-andalusia-spain — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.3,
   "tripadvisor_award": true,
@@ -24,13 +69,41 @@
     "verdict": "Ikos Andalusia near Estepona is the finest all-inclusive resort on the Costa del Sol and one of the best-rated all-inclusive hotels in Europe for couples — a concept that redefines what all-inclusive means, combining unlimited dining at seven restaurants (including a Nobu partnership), premium open bar, beach service, spa circuit access, and room service, all included in the rate. For honeymooners who want to arrive and never think about a bill, Ikos Andalusia removes all friction from luxury living.",
     "best_room": "The Deluxe Junior Suite with private pool is the standout choice for honeymooners — a ground-floor suite opening onto a private garden plunge pool steps from the beach, with contemporary Mediterranean interiors and the full Ikos all-inclusive service. The Waterfront Bungalows have the most direct sea access and are the most romantic accommodation on the property for couples who want to wake up to the sound of the Mediterranean.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & First Dinner", "description": "Transfer from Málaga Airport (45 minutes) to Ikos Andalusia at Playa Saladillo near Estepona. The check-in process is smooth and your welcome drink is already included — as is everything else. Explore the resort, choose your beach lounger position for tomorrow, and dinner at Ágora, the main Mediterranean restaurant with a terrace overlooking the sea." },
-      { "day": 2, "title": "Beach Day & Nobu", "description": "Spend the morning settled into the Ikos beach rhythm — beach service, sun loungers on the golden sand, and the Mediterranean stretching to the horizon. In the evening, book dinner at the resort's Nobu partnership restaurant — authentic Nobu dishes on the Costa del Sol are a genuine pleasure, and it is all included in your rate." },
-      { "day": 3, "title": "Spa & Pools", "description": "The Ikos Andalusia spa and thermal circuit is one of the largest hotel spas on the Costa del Sol — hydrotherapy pools, steam rooms, and an extensive treatment menu. Spend the morning in the thermal circuit (included), then book a couples massage (supplement applies for treatments). Afternoon at the adults pool or Nobu Pool Club." },
-      { "day": 4, "title": "Estepona Old Town", "description": "Estepona's old town is one of the most authentic and least touristy on the Costa del Sol — flower-filled lanes, fishing port, and excellent tapas bars without the crowds of Marbella. A morning wandering the Carmen Thyssen Museum collection here and lunch at Marisquería El Almendral for fresh Costa del Sol seafood. Return for afternoon at the resort." },
-      { "day": 5, "title": "Water Sports & Sunset Cocktails", "description": "Ikos Andalusia includes non-motorized water sports — kayaks, paddleboards, and snorkeling equipment at no extra charge. Spend the morning on the water, afternoon on the beach, and reserve a table at Ouzo, the Greek seafood restaurant, for dinner. Sunset cocktails at the rooftop terrace bar are the evening's highlight." },
-      { "day": 6, "title": "Gibraltar Day Trip", "description": "Gibraltar is 40 minutes from Ikos Andalusia — a genuinely fascinating excursion: the famous Rock with its Barbary macaques, the 2 km of fortified tunnels, and the extraordinary view from the top over both the Atlantic and Mediterranean simultaneously. Return for a farewell dinner at Ikos' tasting menu restaurant, Ourea." },
-      { "day": 7, "title": "Final Beach Morning", "description": "One last morning on the included beach service with a leisurely breakfast — Ikos' buffet breakfast is extensive and genuinely good quality. A final dip in the Mediterranean before packing up and heading to Málaga Airport, everything paid for and nothing to settle." }
+      {
+        "day": 1,
+        "title": "Arrival & First Dinner",
+        "description": "Transfer from Málaga Airport (45 minutes) to Ikos Andalusia at Playa Saladillo near Estepona. The check-in process is smooth and your welcome drink is already included — as is everything else. Explore the resort, choose your beach lounger position for tomorrow, and dinner at Ágora, the main Mediterranean restaurant with a terrace overlooking the sea."
+      },
+      {
+        "day": 2,
+        "title": "Beach Day & Nobu",
+        "description": "Spend the morning settled into the Ikos beach rhythm — beach service, sun loungers on the golden sand, and the Mediterranean stretching to the horizon. In the evening, book dinner at the resort's Nobu partnership restaurant — authentic Nobu dishes on the Costa del Sol are a genuine pleasure, and it is all included in your rate."
+      },
+      {
+        "day": 3,
+        "title": "Spa & Pools",
+        "description": "The Ikos Andalusia spa and thermal circuit is one of the largest hotel spas on the Costa del Sol — hydrotherapy pools, steam rooms, and an extensive treatment menu. Spend the morning in the thermal circuit (included), then book a couples massage (supplement applies for treatments). Afternoon at the adults pool or Nobu Pool Club."
+      },
+      {
+        "day": 4,
+        "title": "Estepona Old Town",
+        "description": "Estepona's old town is one of the most authentic and least touristy on the Costa del Sol — flower-filled lanes, fishing port, and excellent tapas bars without the crowds of Marbella. A morning wandering the Carmen Thyssen Museum collection here and lunch at Marisquería El Almendral for fresh Costa del Sol seafood. Return for afternoon at the resort."
+      },
+      {
+        "day": 5,
+        "title": "Water Sports & Sunset Cocktails",
+        "description": "Ikos Andalusia includes non-motorized water sports — kayaks, paddleboards, and snorkeling equipment at no extra charge. Spend the morning on the water, afternoon on the beach, and reserve a table at Ouzo, the Greek seafood restaurant, for dinner. Sunset cocktails at the rooftop terrace bar are the evening's highlight."
+      },
+      {
+        "day": 6,
+        "title": "Gibraltar Day Trip",
+        "description": "Gibraltar is 40 minutes from Ikos Andalusia — a genuinely fascinating excursion: the famous Rock with its Barbary macaques, the 2 km of fortified tunnels, and the extraordinary view from the top over both the Atlantic and Mediterranean simultaneously. Return for a farewell dinner at Ikos' tasting menu restaurant, Ourea."
+      },
+      {
+        "day": 7,
+        "title": "Final Beach Morning",
+        "description": "One last morning on the included beach service with a leisurely breakfast — Ikos' buffet breakfast is extensive and genuinely good quality. A final dip in the Mediterranean before packing up and heading to Málaga Airport, everything paid for and nothing to settle."
+      }
     ],
     "caveats": [
       "Ikos Andalusia is a large resort with 411 rooms — it is not intimate. Couples who prefer boutique properties with fewer guests may find the scale overwhelming, particularly in peak season when the resort is at full capacity.",
@@ -38,12 +111,30 @@
       "Spa treatments (as opposed to the thermal circuit) carry a supplement — factor this into the overall honeymoon budget, as couples tend to want more treatments than are included."
     ],
     "faqs": [
-      { "question": "Is Ikos Andalusia good for honeymooners?", "answer": "Yes, particularly for couples who want an all-inclusive experience without the typical all-inclusive compromises. The Nobu partnership restaurant, private pool suites, excellent spa, and Mediterranean beach setting create a honeymoon experience where you can be completely uninhibited about dining, drinking, and activities without worrying about costs adding up." },
-      { "question": "What is the best time to visit?", "answer": "May through October for Mediterranean beach weather. June and September offer warm sea temperatures (22–24°C) with fewer crowds than July–August. May and October are the best value months with mild weather and a much quieter resort." },
-      { "question": "How far in advance should you book?", "answer": "Book 3–4 months ahead for summer, as the private pool suites and Waterfront Bungalows are in high demand. All-inclusive resorts often offer early-booking discounts — worth booking earlier to lock in the best rates." },
-      { "question": "Is Ikos Andalusia adults-only?", "answer": "No, Ikos Andalusia welcomes families. Ikos has adults-only sister properties in Greece. However, Ikos Andalusia has adults-only pool areas and the consistently high couples review percentage reflects how well it serves honeymooners within the mixed-guest environment." },
-      { "question": "What is the best room type?", "answer": "The Deluxe Junior Suite with private pool for a genuinely romantic all-inclusive experience with your own plunge pool. Waterfront Bungalows for the most direct sea access. Standard Superior Rooms are solid but lack the private outdoor space that elevates the honeymoon experience." },
-      { "question": "How do you get to Ikos Andalusia?", "answer": "Fly into Málaga (AGP) — 45 minutes by private transfer to Playa Saladillo, Estepona. The hotel arranges transfers and the coastal location means the drive is straightforward along the A-7 coastal motorway." }
+      {
+        "question": "Is Ikos Andalusia good for honeymooners?",
+        "answer": "Yes, particularly for couples who want an all-inclusive experience without the typical all-inclusive compromises. The Nobu partnership restaurant, private pool suites, excellent spa, and Mediterranean beach setting create a honeymoon experience where you can be completely uninhibited about dining, drinking, and activities without worrying about costs adding up."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "May through October for Mediterranean beach weather. June and September offer warm sea temperatures (22–24°C) with fewer crowds than July–August. May and October are the best value months with mild weather and a much quieter resort."
+      },
+      {
+        "question": "How far in advance should you book?",
+        "answer": "Book 3–4 months ahead for summer, as the private pool suites and Waterfront Bungalows are in high demand. All-inclusive resorts often offer early-booking discounts — worth booking earlier to lock in the best rates."
+      },
+      {
+        "question": "Is Ikos Andalusia adults-only?",
+        "answer": "No, Ikos Andalusia welcomes families. Ikos has adults-only sister properties in Greece. However, Ikos Andalusia has adults-only pool areas and the consistently high couples review percentage reflects how well it serves honeymooners within the mixed-guest environment."
+      },
+      {
+        "question": "What is the best room type?",
+        "answer": "The Deluxe Junior Suite with private pool for a genuinely romantic all-inclusive experience with your own plunge pool. Waterfront Bungalows for the most direct sea access. Standard Superior Rooms are solid but lack the private outdoor space that elevates the honeymoon experience."
+      },
+      {
+        "question": "How do you get to Ikos Andalusia?",
+        "answer": "Fly into Málaga (AGP) — 45 minutes by private transfer to Playa Saladillo, Estepona. The hotel arranges transfers and the coastal location means the drive is straightforward along the A-7 coastal motorway."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — Ikos Andalusia\n\nDear Ikos Andalusia team,\n\nWe are planning our honeymoon [DATE]-[DATE] and interested in a Deluxe Junior Suite with private pool or a Waterfront Bungalow. Please advise on availability, what is included in the all-inclusive rate for honeymooners, and whether any honeymoon amenities can be arranged.\n\nThank you,\n[Your names]"
   },

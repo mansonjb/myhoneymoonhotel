@@ -3,34 +3,106 @@
   "name": "Hotel Arts Barcelona",
   "destination": "spain",
   "country": "spain",
-  "experience_types": ["luxury", "beach"],
-  "honeymoon_score": 84,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 15, "spa": 15, "award": 10, "pool": 15, "beach": 14, "room_service": 5, "stars": 10, "luxury": 0 },
-  "stars": 5,
-  "price_per_night_usd": { "min": 400, "max": 1400 },
-  "adults_only": false,
-  "amenities": ["spa", "pool", "beach", "room service", "rooftop pool", "fine dining", "concierge"],
-  "photos": [
-    { "url": "/images/hotels/hotel-arts-barcelona-spain/hero.webp", "alt": "hotel-arts-barcelona-spain — hero", "type": "hero" },
-    { "url": "/images/hotels/hotel-arts-barcelona-spain/room.webp", "alt": "hotel-arts-barcelona-spain — room", "type": "room" },
-    { "url": "/images/hotels/hotel-arts-barcelona-spain/pool.webp", "alt": "hotel-arts-barcelona-spain — pool", "type": "pool" },
-    { "url": "/images/hotels/hotel-arts-barcelona-spain/spa.webp", "alt": "hotel-arts-barcelona-spain — spa", "type": "spa" },
-    { "url": "/images/hotels/hotel-arts-barcelona-spain/dining.webp", "alt": "hotel-arts-barcelona-spain — dining", "type": "dining" }
+  "experience_types": [
+    "luxury",
+    "beach"
   ],
-  "tripadvisor_rating": 9.0,
+  "honeymoon_score": 84,
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 15,
+    "spa": 15,
+    "award": 10,
+    "pool": 15,
+    "beach": 14,
+    "room_service": 5,
+    "stars": 10,
+    "luxury": 0
+  },
+  "stars": 5,
+  "price_per_night_usd": {
+    "min": 400,
+    "max": 1400
+  },
+  "adults_only": false,
+  "amenities": [
+    "spa",
+    "pool",
+    "beach",
+    "room service",
+    "rooftop pool",
+    "fine dining",
+    "concierge"
+  ],
+  "photos": [
+    {
+      "url": "/images/hotels/hotel-arts-barcelona-spain/hero.webp",
+      "alt": "hotel-arts-barcelona-spain — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/hotel-arts-barcelona-spain/room.webp",
+      "alt": "hotel-arts-barcelona-spain — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/hotel-arts-barcelona-spain/pool.webp",
+      "alt": "hotel-arts-barcelona-spain — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/hotel-arts-barcelona-spain/spa.webp",
+      "alt": "hotel-arts-barcelona-spain — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/hotel-arts-barcelona-spain/dining.webp",
+      "alt": "hotel-arts-barcelona-spain — dining",
+      "type": "dining"
+    }
+  ],
+  "tripadvisor_rating": 9,
   "tripadvisor_award": false,
   "couples_review_pct": 65,
   "content": {
     "verdict": "Hotel Arts is Barcelona's finest seafront hotel — a 44-floor Ritz-Carlton tower rising above the Barceloneta beach with the Frank Gehry fish sculpture at its base, a rooftop infinity pool with panoramic city and sea views, and direct access to one of Europe's liveliest and most beautiful urban beaches. For honeymooners who want the best of city life and Mediterranean beach in one address, Arts delivers Barcelona's most complete luxury experience.",
     "best_room": "The Arts Suite on the upper floors (floors 32–44) offers the definitive Hotel Arts experience — sweeping views over the Barcelona harbor, city skyline, and Mediterranean from floor-to-ceiling windows, with Ritz-Carlton's signature service and luxury interiors. The Penthouse Suites on floors 42–44 are extraordinary for the most special occasions. The Club rooms with Club Lounge access are an excellent value tier for couples who want premium amenities.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival at Barceloneta", "description": "Check into Hotel Arts and go directly to the 43rd-floor rooftop for sunset over Barcelona — the city spreading from the sea to the mountains of Tibidabo, with the Sagrada Família visible in the middle distance, is one of the great urban panoramas in Europe. Dinner at Enoteca Paco Pérez, the hotel's two-Michelin-star restaurant." },
-      { "day": 2, "title": "Gaudí Morning", "description": "Book a 9am entrance to the Sagrada Família before the crowds arrive — the interior's extraordinary columns and light-filtering stained glass are most magical in the morning. Follow with a self-guided walk through Eixample to see Casa Batlló and Casa Milà (La Pedrera). Return to the hotel for the rooftop pool and Barceloneta beach in the afternoon." },
-      { "day": 3, "title": "Gothic Quarter & El Born", "description": "Barcelona's medieval Gothic Quarter and adjacent El Born neighborhood contain some of the best dining, art, and architecture in Spain. Start at the Gothic Cathedral, explore the Roman ruins beneath the Plaça del Rei, browse the galleries and boutiques of El Born, and lunch at Bar del Pla for traditional Catalan cooking. Evening: the hotel spa." },
-      { "day": 4, "title": "Park Güell & Montjuïc", "description": "Morning at Gaudí's Park Güell (book tickets in advance) for the famous mosaic terrace and panoramic city views. Afternoon at Montjuïc — the Olympic stadium, Joan Miró Foundation (one of Spain's best modern art museums), and the spectacular fountains of the Font Màgica at dusk." },
-      { "day": 5, "title": "Day Trip to Montserrat", "description": "The mountain monastery of Montserrat, an hour from Barcelona, is one of Catalonia's most sacred and visually extraordinary places — a Benedictine abbey perched on the extraordinary serrated rock formations that give the mountain its name. Cable car or hiking trail access; the views over Catalonia are exceptional. Return for a late seafood dinner." },
-      { "day": 6, "title": "Beach Club & Spa Day", "description": "Spend the morning at Hotel Arts' private beach area on Barceloneta, then book the afternoon Spa Club at the Agua Spa — one of the finest hotel spas in Barcelona. The hotel's Terrace Pool bar is excellent for pre-dinner cocktails overlooking the harbor and Gehry's gleaming fish sculpture below." },
-      { "day": 7, "title": "Las Ramblas & Boqueria Farewell", "description": "A final morning walk down Las Ramblas and through the Mercat de la Boqueria — the world's greatest covered market, where breakfast at one of the central counters with freshly squeezed juice, jamón, and Catalan pastries is one of Barcelona's best rituals. Return to Arts for checkout and airport transfer." }
+      {
+        "day": 1,
+        "title": "Arrival at Barceloneta",
+        "description": "Check into Hotel Arts and go directly to the 43rd-floor rooftop for sunset over Barcelona — the city spreading from the sea to the mountains of Tibidabo, with the Sagrada Família visible in the middle distance, is one of the great urban panoramas in Europe. Dinner at Enoteca Paco Pérez, the hotel's two-Michelin-star restaurant."
+      },
+      {
+        "day": 2,
+        "title": "Gaudí Morning",
+        "description": "Book a 9am entrance to the Sagrada Família before the crowds arrive — the interior's extraordinary columns and light-filtering stained glass are most magical in the morning. Follow with a self-guided walk through Eixample to see Casa Batlló and Casa Milà (La Pedrera). Return to the hotel for the rooftop pool and Barceloneta beach in the afternoon."
+      },
+      {
+        "day": 3,
+        "title": "Gothic Quarter & El Born",
+        "description": "Barcelona's medieval Gothic Quarter and adjacent El Born neighborhood contain some of the best dining, art, and architecture in Spain. Start at the Gothic Cathedral, explore the Roman ruins beneath the Plaça del Rei, browse the galleries and boutiques of El Born, and lunch at Bar del Pla for traditional Catalan cooking. Evening: the hotel spa."
+      },
+      {
+        "day": 4,
+        "title": "Park Güell & Montjuïc",
+        "description": "Morning at Gaudí's Park Güell (book tickets in advance) for the famous mosaic terrace and panoramic city views. Afternoon at Montjuïc — the Olympic stadium, Joan Miró Foundation (one of Spain's best modern art museums), and the spectacular fountains of the Font Màgica at dusk."
+      },
+      {
+        "day": 5,
+        "title": "Day Trip to Montserrat",
+        "description": "The mountain monastery of Montserrat, an hour from Barcelona, is one of Catalonia's most sacred and visually extraordinary places — a Benedictine abbey perched on the extraordinary serrated rock formations that give the mountain its name. Cable car or hiking trail access; the views over Catalonia are exceptional. Return for a late seafood dinner."
+      },
+      {
+        "day": 6,
+        "title": "Beach Club & Spa Day",
+        "description": "Spend the morning at Hotel Arts' private beach area on Barceloneta, then book the afternoon Spa Club at the Agua Spa — one of the finest hotel spas in Barcelona. The hotel's Terrace Pool bar is excellent for pre-dinner cocktails overlooking the harbor and Gehry's gleaming fish sculpture below."
+      },
+      {
+        "day": 7,
+        "title": "Las Ramblas & Boqueria Farewell",
+        "description": "A final morning walk down Las Ramblas and through the Mercat de la Boqueria — the world's greatest covered market, where breakfast at one of the central counters with freshly squeezed juice, jamón, and Catalan pastries is one of Barcelona's best rituals. Return to Arts for checkout and airport transfer."
+      }
     ],
     "caveats": [
       "Hotel Arts is a large city hotel (483 rooms) — the experience is quite different from a boutique property. The rooftop pool and upper-floor suites provide the best privacy and romance, but the lobby and ground-floor areas can be busy with conference and leisure guests.",
@@ -38,12 +110,30 @@
       "Barcelona's Gothic Quarter and Las Ramblas require attention to pickpockets — this is a genuine nuisance in a tourist-heavy city. Keep valuables secure and be alert in the most crowded areas."
     ],
     "faqs": [
-      { "question": "Is Hotel Arts good for honeymooners?", "answer": "Yes, for couples who want a city honeymoon with beach access. The rooftop infinity pool views, Enoteca Paco Pérez dining, direct Barceloneta beach access, and upper-floor suite panoramas create genuine romance in one of Europe's greatest cities. For pure beach or countryside romance, a Mallorca property is a better choice; for city + beach combined, Arts is the best in Barcelona." },
-      { "question": "What is the best time to visit?", "answer": "May, June, September, and October offer the best Barcelona weather — warm enough for beach and outdoor dining without the intense July–August heat and crowds. Barcelona is enjoyable year-round; winter is mild (12–15°C) and ideal for culture without crowds." },
-      { "question": "How far in advance should you book?", "answer": "Book 3–4 months ahead for peak summer and 4–6 weeks for shoulder season. Hotel Arts has 483 rooms with more availability than smaller Mallorca properties, but upper-floor suites and the Penthouse suites sell out quickly." },
-      { "question": "Is Hotel Arts adults-only?", "answer": "No, families are welcome in this large city hotel. The upper floor suites and rooftop pool areas are more naturally adult-oriented, but the hotel caters to a broad mix of leisure and business guests." },
-      { "question": "What is the best room type?", "answer": "An Arts Suite on the upper floors (32–44) for the most spectacular Barcelona and sea views. The Penthouse Suites on floors 42–44 are the pinnacle. Club Room access to the Club Lounge is worth adding for the concierge services and daily afternoon beverages." },
-      { "question": "How do you get to Hotel Arts?", "answer": "Fly into Barcelona El Prat Airport (BCN) — a major hub with direct flights from across the world. The hotel is 20–25 minutes from the airport by taxi or private transfer. The hotel fronts the Barceloneta seafront at the base of La Vila Olímpica." }
+      {
+        "question": "Is Hotel Arts good for honeymooners?",
+        "answer": "Yes, for couples who want a city honeymoon with beach access. The rooftop infinity pool views, Enoteca Paco Pérez dining, direct Barceloneta beach access, and upper-floor suite panoramas create genuine romance in one of Europe's greatest cities. For pure beach or countryside romance, a Mallorca property is a better choice; for city + beach combined, Arts is the best in Barcelona."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "May, June, September, and October offer the best Barcelona weather — warm enough for beach and outdoor dining without the intense July–August heat and crowds. Barcelona is enjoyable year-round; winter is mild (12–15°C) and ideal for culture without crowds."
+      },
+      {
+        "question": "How far in advance should you book?",
+        "answer": "Book 3–4 months ahead for peak summer and 4–6 weeks for shoulder season. Hotel Arts has 483 rooms with more availability than smaller Mallorca properties, but upper-floor suites and the Penthouse suites sell out quickly."
+      },
+      {
+        "question": "Is Hotel Arts adults-only?",
+        "answer": "No, families are welcome in this large city hotel. The upper floor suites and rooftop pool areas are more naturally adult-oriented, but the hotel caters to a broad mix of leisure and business guests."
+      },
+      {
+        "question": "What is the best room type?",
+        "answer": "An Arts Suite on the upper floors (32–44) for the most spectacular Barcelona and sea views. The Penthouse Suites on floors 42–44 are the pinnacle. Club Room access to the Club Lounge is worth adding for the concierge services and daily afternoon beverages."
+      },
+      {
+        "question": "How do you get to Hotel Arts?",
+        "answer": "Fly into Barcelona El Prat Airport (BCN) — a major hub with direct flights from across the world. The hotel is 20–25 minutes from the airport by taxi or private transfer. The hotel fronts the Barceloneta seafront at the base of La Vila Olímpica."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — Hotel Arts Barcelona\n\nDear Hotel Arts team,\n\nWe are planning our honeymoon [DATE]-[DATE] and interested in an Arts Suite or Penthouse Suite on the upper floors. Please advise on availability, current honeymoon packages, and whether early check-in and rooftop access can be arranged for our arrival.\n\nThank you,\n[Your names]"
   },

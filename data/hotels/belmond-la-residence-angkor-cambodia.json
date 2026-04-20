@@ -3,19 +3,65 @@
   "name": "Belmond La Résidence d'Angkor",
   "destination": "cambodia",
   "country": "cambodia",
-  "experience_types": ["luxury", "wellness"],
+  "experience_types": [
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 89,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 18, "spa": 15, "award": 10, "pool": 10, "beach": 0, "room_service": 10, "stars": 16, "luxury": 10 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 18,
+    "spa": 15,
+    "award": 10,
+    "pool": 10,
+    "beach": 0,
+    "room_service": 10,
+    "stars": 16,
+    "luxury": 10
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 400, "max": 1500 },
+  "price_per_night_usd": {
+    "min": 400,
+    "max": 1500
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "room service", "butler service", "fine dining", "Khmer cooking classes", "bicycle tours", "river views", "sunset cocktails"],
+  "amenities": [
+    "spa",
+    "pool",
+    "room service",
+    "butler service",
+    "fine dining",
+    "Khmer cooking classes",
+    "bicycle tours",
+    "river views",
+    "sunset cocktails"
+  ],
   "photos": [
-    { "url": "/images/hotels/belmond-la-residence-angkor-cambodia/hero.webp", "alt": "belmond-la-residence-angkor-cambodia — hero", "type": "hero" },
-    { "url": "/images/hotels/belmond-la-residence-angkor-cambodia/room.webp", "alt": "belmond-la-residence-angkor-cambodia — room", "type": "room" },
-    { "url": "/images/hotels/belmond-la-residence-angkor-cambodia/pool.webp", "alt": "belmond-la-residence-angkor-cambodia — pool", "type": "pool" },
-    { "url": "/images/hotels/belmond-la-residence-angkor-cambodia/spa.webp", "alt": "belmond-la-residence-angkor-cambodia — spa", "type": "spa" },
-    { "url": "/images/hotels/belmond-la-residence-angkor-cambodia/dining.webp", "alt": "belmond-la-residence-angkor-cambodia — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/belmond-la-residence-angkor-cambodia/hero.webp",
+      "alt": "belmond-la-residence-angkor-cambodia — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/belmond-la-residence-angkor-cambodia/room.webp",
+      "alt": "belmond-la-residence-angkor-cambodia — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/belmond-la-residence-angkor-cambodia/pool.webp",
+      "alt": "belmond-la-residence-angkor-cambodia — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/belmond-la-residence-angkor-cambodia/spa.webp",
+      "alt": "belmond-la-residence-angkor-cambodia — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/belmond-la-residence-angkor-cambodia/dining.webp",
+      "alt": "belmond-la-residence-angkor-cambodia — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.2,
   "tripadvisor_award": true,
@@ -24,13 +70,41 @@
     "verdict": "Belmond La Résidence d'Angkor is one of the most graceful hotels in Southeast Asia — 62 rooms and suites in traditional Khmer wooden architecture arranged around a pool courtyard on the Stung Siem Reap river. Belmond's signature attentive service, a celebrated spa using local herbs and traditional Khmer healing, and the hotel's central position in Siem Reap make it the most balanced Angkor honeymoon choice: cultural immersion, luxury, and genuine Khmer character at a price that leaves budget for private guides and dinner at the town's celebrated restaurants.",
     "best_room": "The Pool Suite is the hotel's most romantic offering — a private plunge pool in a walled garden courtyard, with Khmer wooden furniture and hand-woven silk textiles creating a setting of quiet, refined elegance. River View rooms on the upper floors of the wooden pavilions offer panoramic views across the Stung Siem Reap river and the town beyond. The interiors throughout blend traditional Cambodian craftsmanship with Belmond's contemporary service standards.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & River Welcome", "description": "Check in and immediately be drawn to the Stung Siem Reap river terrace as the late afternoon turns golden. The hotel's sunset cocktail hour — with views across the river to the far bank's traditional wooden houses — is an introduction to the Siem Reap that existed long before the temples brought the world. Dinner at the hotel's restaurant: coconut fish amok and freshwater prawn in red pepper sauce." },
-      { "day": 2, "title": "Angkor Wat & The Siem Reap Pool", "description": "Dawn departure for Angkor Wat's sunrise reflection in the ponds. Return for breakfast before the heat. The hotel's pool courtyard, surrounded by the wooden pavilion architecture, is the perfect midday retreat. Afternoon cooking class: learn to make Khmer curry paste from scratch using the hotel garden's lemongrass and galangal." },
-      { "day": 3, "title": "Angkor Thom & Belmond Spa", "description": "Morning with a private guide through Angkor Thom — the Bayon's stone faces at different times of day change their expression remarkably. Afternoon at the hotel's celebrated spa: the traditional Khmer healing treatment uses a herbal compress of kaffir lime, lemongrass, and camphor in a ritual passed down through generations of Cambodian healers." },
-      { "day": 4, "title": "Riverside Bicycle Morning", "description": "Bicycles provided by the hotel allow a 6am ride along the river banks and through the quiet residential streets of Siem Reap before the tourist day begins. The flower market, the Buddhist monastery, and the Phsar Leu morning market are all within cycling distance, revealing a Cambodia entirely separate from the temple circuit." },
-      { "day": 5, "title": "Ta Prohm & Banteay Srei", "description": "Full temple day focusing on the two most visually distinctive sites: Ta Prohm's jungle-strangled ruins and Banteay Srei's miniature, intricate masterpiece. Lunch at a rural Khmer restaurant en route — bai sach chrouk (pork on rice) under a palm thatch roof. Return for sunset cocktails on the river terrace." },
-      { "day": 6, "title": "Tonle Sap & Artisan Workshop", "description": "Afternoon boat trip on Tonle Sap Lake — the floating village of Kampong Khleang is less visited and more authentic than the main lake route. Morning at a Siem Reap silk weaving workshop where the traditional patterns of Khmer textiles are still produced on hand looms, with the option to purchase scarves and sarongs." },
-      { "day": 7, "title": "Final Temple & Farewell Dinner", "description": "One last dawn temple visit — Preah Khan or the remote Neak Pean — with the mist still lying in the moats. Return for a final pool morning and a Belmond farewell dinner on the river terrace: the lights of Siem Reap reflecting in the Stung Siem Reap as the waiter brings out the dessert champagne." }
+      {
+        "day": 1,
+        "title": "Arrival & River Welcome",
+        "description": "Check in and immediately be drawn to the Stung Siem Reap river terrace as the late afternoon turns golden. The hotel's sunset cocktail hour — with views across the river to the far bank's traditional wooden houses — is an introduction to the Siem Reap that existed long before the temples brought the world. Dinner at the hotel's restaurant: coconut fish amok and freshwater prawn in red pepper sauce."
+      },
+      {
+        "day": 2,
+        "title": "Angkor Wat & The Siem Reap Pool",
+        "description": "Dawn departure for Angkor Wat's sunrise reflection in the ponds. Return for breakfast before the heat. The hotel's pool courtyard, surrounded by the wooden pavilion architecture, is the perfect midday retreat. Afternoon cooking class: learn to make Khmer curry paste from scratch using the hotel garden's lemongrass and galangal."
+      },
+      {
+        "day": 3,
+        "title": "Angkor Thom & Belmond Spa",
+        "description": "Morning with a private guide through Angkor Thom — the Bayon's stone faces at different times of day change their expression remarkably. Afternoon at the hotel's celebrated spa: the traditional Khmer healing treatment uses a herbal compress of kaffir lime, lemongrass, and camphor in a ritual passed down through generations of Cambodian healers."
+      },
+      {
+        "day": 4,
+        "title": "Riverside Bicycle Morning",
+        "description": "Bicycles provided by the hotel allow a 6am ride along the river banks and through the quiet residential streets of Siem Reap before the tourist day begins. The flower market, the Buddhist monastery, and the Phsar Leu morning market are all within cycling distance, revealing a Cambodia entirely separate from the temple circuit."
+      },
+      {
+        "day": 5,
+        "title": "Ta Prohm & Banteay Srei",
+        "description": "Full temple day focusing on the two most visually distinctive sites: Ta Prohm's jungle-strangled ruins and Banteay Srei's miniature, intricate masterpiece. Lunch at a rural Khmer restaurant en route — bai sach chrouk (pork on rice) under a palm thatch roof. Return for sunset cocktails on the river terrace."
+      },
+      {
+        "day": 6,
+        "title": "Tonle Sap & Artisan Workshop",
+        "description": "Afternoon boat trip on Tonle Sap Lake — the floating village of Kampong Khleang is less visited and more authentic than the main lake route. Morning at a Siem Reap silk weaving workshop where the traditional patterns of Khmer textiles are still produced on hand looms, with the option to purchase scarves and sarongs."
+      },
+      {
+        "day": 7,
+        "title": "Final Temple & Farewell Dinner",
+        "description": "One last dawn temple visit — Preah Khan or the remote Neak Pean — with the mist still lying in the moats. Return for a final pool morning and a Belmond farewell dinner on the river terrace: the lights of Siem Reap reflecting in the Stung Siem Reap as the waiter brings out the dessert champagne."
+      }
     ],
     "caveats": [
       "The hotel's central Siem Reap location means street noise is audible from some rooms, particularly at weekends. Upper-floor and pool-facing rooms are the quietest.",
@@ -38,12 +112,30 @@
       "Angkor entrance fees are substantial and additional to the room rate; confirm what is included in any package arrangement."
     ],
     "faqs": [
-      { "question": "Good for honeymooners?", "answer": "Belmond La Résidence d'Angkor is an excellent honeymoon choice combining Belmond's service excellence with genuine Khmer character. The river location, pool courtyard, and spa are all outstanding romantic features. At a lower price point than Amansara, it delivers a luxury Angkor experience with budget remaining for private guides and the town's celebrated restaurants." },
-      { "question": "Best time to visit?", "answer": "November through March is the dry season and most comfortable for temple exploration. The shoulder months of October and April offer good weather with fewer tourists. May through September is wet season — lush temple environs, cooler afternoons, and significantly lower rates. The Belmond hotel functions beautifully year-round." },
-      { "question": "Book in advance?", "answer": "Pool Suites require 3 to 5 months advance booking for peak season. River View rooms are more available. Belmond properties are bookable directly and through luxury travel agents. Mention your honeymoon for complimentary in-room touches and sunset cocktail arrangements." },
-      { "question": "Adults-only?", "answer": "No — Belmond La Résidence d'Angkor is family-friendly. The hotel's sophisticated character and Khmer cultural focus make it overwhelmingly popular with adult couples, but families with older children visiting Angkor are well-served. The pool suites provide excellent couple's privacy." },
-      { "question": "Best room type?", "answer": "Pool Suites are the most romantic option with private plunge pools in walled garden courtyards. River View Junior Suites on the upper pavilion floors provide panoramic views across the Stung Siem Reap. Both categories reflect Belmond's standard of quality; the choice depends on river views versus pool privacy." },
-      { "question": "How to get there?", "answer": "Siem Reap International Airport (SAI) receives direct international flights from Bangkok, Singapore, Kuala Lumpur, and Ho Chi Minh City. Transfer to the hotel is 20 minutes. The hotel is centrally located and walking distance from Pub Street, the Old Market, and the main temple tuk-tuk departure points." }
+      {
+        "question": "Good for honeymooners?",
+        "answer": "Belmond La Résidence d'Angkor is an excellent honeymoon choice combining Belmond's service excellence with genuine Khmer character. The river location, pool courtyard, and spa are all outstanding romantic features. At a lower price point than Amansara, it delivers a luxury Angkor experience with budget remaining for private guides and the town's celebrated restaurants."
+      },
+      {
+        "question": "Best time to visit?",
+        "answer": "November through March is the dry season and most comfortable for temple exploration. The shoulder months of October and April offer good weather with fewer tourists. May through September is wet season — lush temple environs, cooler afternoons, and significantly lower rates. The Belmond hotel functions beautifully year-round."
+      },
+      {
+        "question": "Book in advance?",
+        "answer": "Pool Suites require 3 to 5 months advance booking for peak season. River View rooms are more available. Belmond properties are bookable directly and through luxury travel agents. Mention your honeymoon for complimentary in-room touches and sunset cocktail arrangements."
+      },
+      {
+        "question": "Adults-only?",
+        "answer": "No — Belmond La Résidence d'Angkor is family-friendly. The hotel's sophisticated character and Khmer cultural focus make it overwhelmingly popular with adult couples, but families with older children visiting Angkor are well-served. The pool suites provide excellent couple's privacy."
+      },
+      {
+        "question": "Best room type?",
+        "answer": "Pool Suites are the most romantic option with private plunge pools in walled garden courtyards. River View Junior Suites on the upper pavilion floors provide panoramic views across the Stung Siem Reap. Both categories reflect Belmond's standard of quality; the choice depends on river views versus pool privacy."
+      },
+      {
+        "question": "How to get there?",
+        "answer": "Siem Reap International Airport (SAI) receives direct international flights from Bangkok, Singapore, Kuala Lumpur, and Ho Chi Minh City. Transfer to the hotel is 20 minutes. The hotel is centrally located and walking distance from Pub Street, the Old Market, and the main temple tuk-tuk departure points."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — Belmond La Résidence d'Angkor\n\nDear Belmond La Résidence reservations team,\n\nWe are planning our honeymoon [DATE]-[DATE] and are interested in a Pool Suite [or River View Junior Suite]. Please advise on availability, spa booking, honeymoon packages, and any complimentary inclusions for celebrating couples.\n\nThank you,\n[Your names]"
   },

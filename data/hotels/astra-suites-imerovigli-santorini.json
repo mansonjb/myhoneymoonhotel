@@ -3,19 +3,66 @@
   "name": "Astra Suites Imerovigli",
   "destination": "santorini",
   "country": "greece",
-  "experience_types": ["luxury", "wellness"],
+  "experience_types": [
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 89,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 20, "spa": 13, "award": 14, "pool": 10, "beach": 0, "room_service": 5, "stars": 10, "luxury": 17 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 20,
+    "spa": 13,
+    "award": 14,
+    "pool": 10,
+    "beach": 0,
+    "room_service": 5,
+    "stars": 10,
+    "luxury": 17
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 600, "max": 2000 },
+  "price_per_night_usd": {
+    "min": 600,
+    "max": 2000
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "infinity pool", "caldera views", "cave-style architecture", "private pools", "butler service", "room service", "jacuzzi", "fine dining"],
+  "amenities": [
+    "spa",
+    "pool",
+    "infinity pool",
+    "caldera views",
+    "cave-style architecture",
+    "private pools",
+    "butler service",
+    "room service",
+    "jacuzzi",
+    "fine dining"
+  ],
   "photos": [
-    { "url": "/images/hotels/astra-suites-imerovigli-santorini/hero.webp", "alt": "astra-suites-imerovigli-santorini — hero", "type": "hero" },
-    { "url": "/images/hotels/astra-suites-imerovigli-santorini/room.webp", "alt": "astra-suites-imerovigli-santorini — room", "type": "room" },
-    { "url": "/images/hotels/astra-suites-imerovigli-santorini/pool.webp", "alt": "astra-suites-imerovigli-santorini — pool", "type": "pool" },
-    { "url": "/images/hotels/astra-suites-imerovigli-santorini/spa.webp", "alt": "astra-suites-imerovigli-santorini — spa", "type": "spa" },
-    { "url": "/images/hotels/astra-suites-imerovigli-santorini/dining.webp", "alt": "astra-suites-imerovigli-santorini — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/astra-suites-imerovigli-santorini/hero.webp",
+      "alt": "astra-suites-imerovigli-santorini — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/astra-suites-imerovigli-santorini/room.webp",
+      "alt": "astra-suites-imerovigli-santorini — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/astra-suites-imerovigli-santorini/pool.webp",
+      "alt": "astra-suites-imerovigli-santorini — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/astra-suites-imerovigli-santorini/spa.webp",
+      "alt": "astra-suites-imerovigli-santorini — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/astra-suites-imerovigli-santorini/dining.webp",
+      "alt": "astra-suites-imerovigli-santorini — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.2,
   "tripadvisor_award": true,
@@ -24,13 +71,41 @@
     "verdict": "Astra Suites is Imerovigli's most consistently praised boutique hotel by couples — 27 traditional cave suites with caldera views that have earned it a loyal following of returning honeymooners who come back year after year. The combination of authentic Cycladic architecture, attentive personal service, a spectacular infinity pool, and an unbeaten position on the highest point of the caldera rim makes Astra one of Santorini's most reliable and beloved romantic stays.",
     "best_room": "The Superior Suite with Private Pool is the crowning room at Astra — a traditional cave suite with a private heated plunge pool on the caldera terrace, unobstructed views across the volcanic basin to the Kameni islands, and a king bed carved into the volcanic rock walls. The private pool at this altitude, looking directly into the heart of the ancient caldera, is one of Santorini's most private and dramatic swimming experiences.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Imerovigli Homecoming", "description": "Transfer from the airport to Imerovigli (20 minutes) and descend to your cave suite. The Astra team is known for its personalized welcome — they know returning guests by name and treat first-timers the same way. The caldera view from your private terrace is the most expansive of any Imerovigli property: 180 degrees from Fira in the south to the Thirassia island to the northwest." },
-      { "day": 2, "title": "Infinity Pool & Village Walk", "description": "Spend the morning at Astra's famous infinity pool — the views from the pool are consistently rated among Santorini's finest. Walk through Imerovigli village in the afternoon, stopping at the ruins of the Skaros rock fortress for panoramic views that look down on even the hotel itself." },
-      { "day": 3, "title": "Oia by Foot & Sunset", "description": "Walk the caldera path to Oia (45 minutes) in the morning coolness, arriving before the day-trippers for the most peaceful Oia experience. Explore the village, stop at Ammoudi Bay below for a fresh fish lunch by the sea, then return to Astra for the sunset from your own private terrace — far more romantic than the Oia crowds." },
-      { "day": 4, "title": "Spa Ritual & Pool Day", "description": "Book the Astra signature couple's treatment: a volcanic clay mask, followed by a traditional Greek stone massage using marble and basalt heated in the on-site thermal bath. Return to your suite for an entirely unhurried afternoon of swimming, sunbathing, and room service on the terrace." },
-      { "day": 5, "title": "Santorini Wine Trail", "description": "Join a half-day private wine tour of Santorini's volcanic wine country — visiting Domaine Sigalas for an estate tour and Assyrtiko tasting, and Santo Wines for caldera-view barrel samples. The island's volcanic soil produces some of Greece's most distinctive whites — particularly the bone-dry, mineral-intense Assyrtiko." },
-      { "day": 6, "title": "Caldera Boat Tour & Private Dinner", "description": "A morning caldera boat excursion from Ammoudi Bay, visiting the volcano, thermal springs, and the distinctive red beach. Return for a final suite dinner: Astra coordinates with local Imerovigli restaurants to deliver a private terrace meal to your suite — lobster pasta, fresh tomato bruschetta, and a bottle of Vinsanto as the sun sets." },
-      { "day": 7, "title": "Sunrise Swim & Farewell", "description": "Set an alarm for the Imerovigli sunrise from your private pool — the light at 6am turns the caldera into a watercolour painting. A final long breakfast is served to your terrace before the transfer to Santorini Airport, carrying with you one of the Mediterranean's most romantic memories." }
+      {
+        "day": 1,
+        "title": "Imerovigli Homecoming",
+        "description": "Transfer from the airport to Imerovigli (20 minutes) and descend to your cave suite. The Astra team is known for its personalized welcome — they know returning guests by name and treat first-timers the same way. The caldera view from your private terrace is the most expansive of any Imerovigli property: 180 degrees from Fira in the south to the Thirassia island to the northwest."
+      },
+      {
+        "day": 2,
+        "title": "Infinity Pool & Village Walk",
+        "description": "Spend the morning at Astra's famous infinity pool — the views from the pool are consistently rated among Santorini's finest. Walk through Imerovigli village in the afternoon, stopping at the ruins of the Skaros rock fortress for panoramic views that look down on even the hotel itself."
+      },
+      {
+        "day": 3,
+        "title": "Oia by Foot & Sunset",
+        "description": "Walk the caldera path to Oia (45 minutes) in the morning coolness, arriving before the day-trippers for the most peaceful Oia experience. Explore the village, stop at Ammoudi Bay below for a fresh fish lunch by the sea, then return to Astra for the sunset from your own private terrace — far more romantic than the Oia crowds."
+      },
+      {
+        "day": 4,
+        "title": "Spa Ritual & Pool Day",
+        "description": "Book the Astra signature couple's treatment: a volcanic clay mask, followed by a traditional Greek stone massage using marble and basalt heated in the on-site thermal bath. Return to your suite for an entirely unhurried afternoon of swimming, sunbathing, and room service on the terrace."
+      },
+      {
+        "day": 5,
+        "title": "Santorini Wine Trail",
+        "description": "Join a half-day private wine tour of Santorini's volcanic wine country — visiting Domaine Sigalas for an estate tour and Assyrtiko tasting, and Santo Wines for caldera-view barrel samples. The island's volcanic soil produces some of Greece's most distinctive whites — particularly the bone-dry, mineral-intense Assyrtiko."
+      },
+      {
+        "day": 6,
+        "title": "Caldera Boat Tour & Private Dinner",
+        "description": "A morning caldera boat excursion from Ammoudi Bay, visiting the volcano, thermal springs, and the distinctive red beach. Return for a final suite dinner: Astra coordinates with local Imerovigli restaurants to deliver a private terrace meal to your suite — lobster pasta, fresh tomato bruschetta, and a bottle of Vinsanto as the sun sets."
+      },
+      {
+        "day": 7,
+        "title": "Sunrise Swim & Farewell",
+        "description": "Set an alarm for the Imerovigli sunrise from your private pool — the light at 6am turns the caldera into a watercolour painting. A final long breakfast is served to your terrace before the transfer to Santorini Airport, carrying with you one of the Mediterranean's most romantic memories."
+      }
     ],
     "caveats": [
       "Astra Suites, like all Imerovigli caldera properties, has no beach access — the nearest beach (Ammoudi Bay) requires descent to sea level by foot (steep) or taxi.",
@@ -38,12 +113,30 @@
       "Imerovigli is quieter than Oia and Fira for dining and nightlife — the village has excellent small restaurants but couples wanting more animated evenings should plan to taxi to Fira regularly."
     ],
     "faqs": [
-      { "question": "Is Astra Suites good for honeymooners?", "answer": "It is one of Santorini's most consistently beloved honeymoon hotels — 27 cave suites with unbeatable caldera views, personal service, and an atmosphere that genuinely merits the word 'romantic'. It has an extremely high rate of returning couples." },
-      { "question": "What is the best time to visit?", "answer": "May, June, and September-October are the ideal months — warm, sunny, and with caldera crowds at a manageable level. July and August are peak season with the most spectacular light but also the most visitors." },
-      { "question": "How far in advance should you book?", "answer": "Book 5-8 months in advance for peak season. The Superior Suite with Private Pool books extremely early and is the most requested room for honeymooners." },
-      { "question": "Is Astra Suites adults-only?", "answer": "No, but the intimate cave-suite format, caldera views, and honeymoon-focused marketing mean the vast majority of guests are couples. The atmosphere is consistently romantic." },
-      { "question": "What makes Astra Suites different from other Imerovigli hotels?", "answer": "The consistency of service across all repeat visits, the quality of the infinity pool views, and the authentic traditional Cycladic architecture set it apart. Returning honeymooners routinely cite Astra as the Santorini property they trust above all others." },
-      { "question": "How do you get to Astra Suites?", "answer": "Fly into Santorini Airport (JTR) then taxi to Imerovigli — approximately 20 minutes. The hotel arranges private airport transfers on request and recommends booking in advance." }
+      {
+        "question": "Is Astra Suites good for honeymooners?",
+        "answer": "It is one of Santorini's most consistently beloved honeymoon hotels — 27 cave suites with unbeatable caldera views, personal service, and an atmosphere that genuinely merits the word 'romantic'. It has an extremely high rate of returning couples."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "May, June, and September-October are the ideal months — warm, sunny, and with caldera crowds at a manageable level. July and August are peak season with the most spectacular light but also the most visitors."
+      },
+      {
+        "question": "How far in advance should you book?",
+        "answer": "Book 5-8 months in advance for peak season. The Superior Suite with Private Pool books extremely early and is the most requested room for honeymooners."
+      },
+      {
+        "question": "Is Astra Suites adults-only?",
+        "answer": "No, but the intimate cave-suite format, caldera views, and honeymoon-focused marketing mean the vast majority of guests are couples. The atmosphere is consistently romantic."
+      },
+      {
+        "question": "What makes Astra Suites different from other Imerovigli hotels?",
+        "answer": "The consistency of service across all repeat visits, the quality of the infinity pool views, and the authentic traditional Cycladic architecture set it apart. Returning honeymooners routinely cite Astra as the Santorini property they trust above all others."
+      },
+      {
+        "question": "How do you get to Astra Suites?",
+        "answer": "Fly into Santorini Airport (JTR) then taxi to Imerovigli — approximately 20 minutes. The hotel arranges private airport transfers on request and recommends booking in advance."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — Astra Suites Imerovigli\n\nDear team,\n\nWe are planning our honeymoon [DATE]-[DATE] and interested in the Superior Suite with Private Pool. Please advise on availability, any honeymoon enhancements available, and whether a private terrace dinner service can be arranged.\n\nThank you,\n[Your names]"
   },

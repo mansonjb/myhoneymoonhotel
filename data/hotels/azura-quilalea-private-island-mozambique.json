@@ -3,7 +3,11 @@
   "name": "Azura Quilalea Private Island",
   "destination": "mozambique",
   "country": "mozambique",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 93,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,49 @@
     "luxury": 5
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 1000, "max": 3500 },
+  "price_per_night_usd": {
+    "min": 1000,
+    "max": 3500
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "beach", "room service", "butler service", "snorkeling", "diving", "dhow excursions", "sea kayaking", "bush walks"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beach",
+    "room service",
+    "butler service",
+    "snorkeling",
+    "diving",
+    "dhow excursions",
+    "sea kayaking",
+    "bush walks"
+  ],
   "photos": [
-    { "url": "/images/hotels/azura-quilalea-private-island-mozambique/hero.webp", "alt": "azura-quilalea-private-island-mozambique — hero", "type": "hero" },
-    { "url": "/images/hotels/azura-quilalea-private-island-mozambique/room.webp", "alt": "azura-quilalea-private-island-mozambique — room", "type": "room" },
-    { "url": "/images/hotels/azura-quilalea-private-island-mozambique/pool.webp", "alt": "azura-quilalea-private-island-mozambique — pool", "type": "pool" },
-    { "url": "/images/hotels/azura-quilalea-private-island-mozambique/spa.webp", "alt": "azura-quilalea-private-island-mozambique — spa", "type": "spa" },
-    { "url": "/images/hotels/azura-quilalea-private-island-mozambique/dining.webp", "alt": "azura-quilalea-private-island-mozambique — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/azura-quilalea-private-island-mozambique/hero.webp",
+      "alt": "azura-quilalea-private-island-mozambique — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/azura-quilalea-private-island-mozambique/room.webp",
+      "alt": "azura-quilalea-private-island-mozambique — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/azura-quilalea-private-island-mozambique/pool.webp",
+      "alt": "azura-quilalea-private-island-mozambique — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/azura-quilalea-private-island-mozambique/spa.webp",
+      "alt": "azura-quilalea-private-island-mozambique — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/azura-quilalea-private-island-mozambique/dining.webp",
+      "alt": "azura-quilalea-private-island-mozambique — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.4,
   "tripadvisor_award": true,
@@ -34,13 +72,41 @@
     "verdict": "Azura Quilalea Private Island sits in the remote Quirimbas Archipelago of northern Mozambique — a rugged, coral-ringed island that has never been developed beyond its 9 villas, and feels genuinely wild even by the standards of this exceptionally isolated coast. The coral reef that wraps the island is a house reef of exceptional quality: guests can snorkel directly from the beach and find themselves in one of East Africa's most pristine marine environments. This is bush-meets-beach romance at its most authentic — the thick indigenous vegetation, dhow culture, and raw Indian Ocean setting create a honeymoon atmosphere unlike any other property in southern Africa.",
     "best_room": "With only 9 villas, every option at Quilalea is a private retreat. The Coral Villa category offers the most direct reef access, positioned above a coral cove with steps to the water and a private pool on a deck overlooking the archipelago. The Dhow Villa takes its inspiration from traditional seafaring craft and sits elevated above the tree line with long views across the channel. Request villa placement and discuss your preferences with the Azura team at booking — personalisation is a core part of the offering.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Island Arrival & Reef Orientation", "description": "Access to Quilalea is by charter aircraft to the Quirimbas airstrip, then a short dhow transfer to the island. The resident manager leads a house reef orientation briefing over welcome drinks. With only 9 villas sharing the reef, evening is unhurried: dinner at the open-sided main lodge as the channel trade winds cool the island." },
-      { "day": 2, "title": "House Reef Discovery", "description": "Quilalea's house reef is the centrepiece of the experience — one of the most pristine coral environments in the western Indian Ocean. Morning is spent with the marine guide on a three-hour snorkel of the outer and inner reef sections. Giant moray eels, hawksbill turtles, and hundreds of reef fish species are standard sightings. Afternoon brings the spa pavilion for a massage in the tree canopy." },
-      { "day": 3, "title": "Dhow Excursion & Archipelago Exploration", "description": "Sail by traditional dhow to the neighbouring uninhabited islands of the Quirimbas — each a variation on the Quilalea theme but without accommodation. Anchor in a turquoise lagoon for snorkeling and a private beach picnic. The crew serves fresh fish grilled over charcoal on the sand. Return to Quilalea at sunset." },
-      { "day": 4, "title": "Scuba Diving Day", "description": "Beyond the house reef, Quilalea's outer sites include dramatic drop-offs and channels where large pelagics patrol. The dive centre caters to beginners through experienced divers, and the encounter quality on these rarely-dived sites is exceptional. Non-divers can spend the day exploring the island's interior — short bush walks reveal an island ecosystem largely undisturbed by human settlement." },
-      { "day": 5, "title": "Sea Kayaking & Couples Spa", "description": "Morning sea kayaking through the mangrove channels that fringe the island's eastern shore reveals a completely different ecosystem: fiddler crabs, mudskippers, and roosting herons. The afternoon is devoted to the spa — Azura's signature treatments use local marine and botanical ingredients. A private dinner under the stars on the beach ends the day." },
-      { "day": 6, "title": "Sunrise Sail & Local Village Visit", "description": "An early sunrise dhow sail is one of Quilalea's most memorable experiences — the light at dawn over the Quirimbas channel is extraordinary. Ask the team to arrange a visit to a local fishing village on the mainland coast — the traditional fishing dhow culture of northern Mozambique is among the most intact in East Africa and provides genuine insight into the world beyond the resort." },
-      { "day": 7, "title": "Farewell Morning", "description": "A final snorkel from the beach, a slow breakfast, a last look at the coral from the villa deck. The team wraps a keepsake in handmade cloth as a memory of the island. A dhow transfers you to the airstrip for the charter flight back to Pemba and onward connections." }
+      {
+        "day": 1,
+        "title": "Island Arrival & Reef Orientation",
+        "description": "Access to Quilalea is by charter aircraft to the Quirimbas airstrip, then a short dhow transfer to the island. The resident manager leads a house reef orientation briefing over welcome drinks. With only 9 villas sharing the reef, evening is unhurried: dinner at the open-sided main lodge as the channel trade winds cool the island."
+      },
+      {
+        "day": 2,
+        "title": "House Reef Discovery",
+        "description": "Quilalea's house reef is the centrepiece of the experience — one of the most pristine coral environments in the western Indian Ocean. Morning is spent with the marine guide on a three-hour snorkel of the outer and inner reef sections. Giant moray eels, hawksbill turtles, and hundreds of reef fish species are standard sightings. Afternoon brings the spa pavilion for a massage in the tree canopy."
+      },
+      {
+        "day": 3,
+        "title": "Dhow Excursion & Archipelago Exploration",
+        "description": "Sail by traditional dhow to the neighbouring uninhabited islands of the Quirimbas — each a variation on the Quilalea theme but without accommodation. Anchor in a turquoise lagoon for snorkeling and a private beach picnic. The crew serves fresh fish grilled over charcoal on the sand. Return to Quilalea at sunset."
+      },
+      {
+        "day": 4,
+        "title": "Scuba Diving Day",
+        "description": "Beyond the house reef, Quilalea's outer sites include dramatic drop-offs and channels where large pelagics patrol. The dive centre caters to beginners through experienced divers, and the encounter quality on these rarely-dived sites is exceptional. Non-divers can spend the day exploring the island's interior — short bush walks reveal an island ecosystem largely undisturbed by human settlement."
+      },
+      {
+        "day": 5,
+        "title": "Sea Kayaking & Couples Spa",
+        "description": "Morning sea kayaking through the mangrove channels that fringe the island's eastern shore reveals a completely different ecosystem: fiddler crabs, mudskippers, and roosting herons. The afternoon is devoted to the spa — Azura's signature treatments use local marine and botanical ingredients. A private dinner under the stars on the beach ends the day."
+      },
+      {
+        "day": 6,
+        "title": "Sunrise Sail & Local Village Visit",
+        "description": "An early sunrise dhow sail is one of Quilalea's most memorable experiences — the light at dawn over the Quirimbas channel is extraordinary. Ask the team to arrange a visit to a local fishing village on the mainland coast — the traditional fishing dhow culture of northern Mozambique is among the most intact in East Africa and provides genuine insight into the world beyond the resort."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "A final snorkel from the beach, a slow breakfast, a last look at the coral from the villa deck. The team wraps a keepsake in handmade cloth as a memory of the island. A dhow transfers you to the airstrip for the charter flight back to Pemba and onward connections."
+      }
     ],
     "caveats": [
       "Quilalea is even more remote than Vamizi — access requires a charter flight to the Quirimbas airstrip from Pemba, plus an onward boat transfer. Journey time from Pemba is approximately 90 minutes total.",
@@ -48,12 +114,30 @@
       "The rugged island setting means pathways are natural and uneven, and the resort's character is deliberately wild. Guests expecting manicured resort gardens will be surprised — this is a feature, not a bug, but worth knowing in advance."
     ],
     "faqs": [
-      { "question": "Is Azura Quilalea good for honeymooners?", "answer": "Quilalea is exceptional for honeymooners who want complete seclusion and a genuinely wild setting. With 9 villas and a guest count rarely exceeding 18, it often feels like a private island. The house reef, dhow culture, and extraordinary isolation create a honeymoon experience that is fundamentally different from any larger resort." },
-      { "question": "What is the best time to visit?", "answer": "June through October is the dry season — ideal weather, excellent visibility, and trade winds keep temperatures pleasant. November through February brings whale sharks and more humidity. March–April is the wettest period and the lodge may operate at reduced capacity." },
-      { "question": "What should we book in advance?", "answer": "Villas fill very quickly given the small capacity — book 6–12 months ahead for peak season. Charter flights from Pemba must be arranged through the lodge. Pre-book any specialist excursions: dhow charters, diving, and spa treatments all benefit from advance notice." },
-      { "question": "Is it adults-only?", "answer": "No, children are technically welcome but Azura Quilalea is oriented primarily toward couples and adult travellers. The remote setting, conservation focus, and limited entertainment infrastructure make it impractical for young children." },
-      { "question": "What's the best room for a honeymoon?", "answer": "The Coral Villa for reef access, or the Dhow Villa for elevation and views. Both include private pools and the Azura butler service. Discuss the options directly with Azura when booking as room positions and characteristics vary significantly." },
-      { "question": "How do we get there?", "answer": "Fly to Pemba via Dar es Salaam or Nairobi. A charter aircraft from Pemba flies to the Quirimbas Archipelago airstrip (approximately 45 minutes), followed by a traditional dhow or speedboat transfer to Quilalea Island (approximately 30–45 minutes). Azura coordinates all transfers." }
+      {
+        "question": "Is Azura Quilalea good for honeymooners?",
+        "answer": "Quilalea is exceptional for honeymooners who want complete seclusion and a genuinely wild setting. With 9 villas and a guest count rarely exceeding 18, it often feels like a private island. The house reef, dhow culture, and extraordinary isolation create a honeymoon experience that is fundamentally different from any larger resort."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "June through October is the dry season — ideal weather, excellent visibility, and trade winds keep temperatures pleasant. November through February brings whale sharks and more humidity. March–April is the wettest period and the lodge may operate at reduced capacity."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "Villas fill very quickly given the small capacity — book 6–12 months ahead for peak season. Charter flights from Pemba must be arranged through the lodge. Pre-book any specialist excursions: dhow charters, diving, and spa treatments all benefit from advance notice."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "No, children are technically welcome but Azura Quilalea is oriented primarily toward couples and adult travellers. The remote setting, conservation focus, and limited entertainment infrastructure make it impractical for young children."
+      },
+      {
+        "question": "What's the best room for a honeymoon?",
+        "answer": "The Coral Villa for reef access, or the Dhow Villa for elevation and views. Both include private pools and the Azura butler service. Discuss the options directly with Azura when booking as room positions and characteristics vary significantly."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "Fly to Pemba via Dar es Salaam or Nairobi. A charter aircraft from Pemba flies to the Quirimbas Archipelago airstrip (approximately 45 minutes), followed by a traditional dhow or speedboat transfer to Quilalea Island (approximately 30–45 minutes). Azura coordinates all transfers."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Azura Quilalea Private Island\n\nDear Azura Quilalea team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: a Coral Villa or Dhow Villa\n\nCould you please let us know:\n- Current availability for our dates\n- Any honeymoon packages or complimentary upgrades\n- Charter flight coordination from Pemba and transfer logistics\n\nThank you for your time.\n\n[Your names]"
   },

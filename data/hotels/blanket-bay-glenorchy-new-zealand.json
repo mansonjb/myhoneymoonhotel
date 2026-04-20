@@ -3,19 +3,63 @@
   "name": "Blanket Bay Lodge",
   "destination": "new-zealand",
   "country": "new-zealand",
-  "experience_types": ["luxury", "wellness"],
+  "experience_types": [
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 92,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 20, "spa": 12, "award": 18, "pool": 10, "beach": 0, "room_service": 5, "stars": 15, "luxury": 12 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 20,
+    "spa": 12,
+    "award": 18,
+    "pool": 10,
+    "beach": 0,
+    "room_service": 5,
+    "stars": 15,
+    "luxury": 12
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 1500, "max": 5000 },
+  "price_per_night_usd": {
+    "min": 1500,
+    "max": 5000
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "room service", "helicopter skiing", "lake, boating", "fine dining", "private jet strip"],
+  "amenities": [
+    "spa",
+    "pool",
+    "room service",
+    "helicopter skiing",
+    "lake, boating",
+    "fine dining",
+    "private jet strip"
+  ],
   "photos": [
-    { "url": "/images/hotels/blanket-bay-glenorchy-new-zealand/hero.webp", "alt": "blanket-bay-glenorchy-new-zealand — hero", "type": "hero" },
-    { "url": "/images/hotels/blanket-bay-glenorchy-new-zealand/room.webp", "alt": "blanket-bay-glenorchy-new-zealand — room", "type": "room" },
-    { "url": "/images/hotels/blanket-bay-glenorchy-new-zealand/pool.webp", "alt": "blanket-bay-glenorchy-new-zealand — pool", "type": "pool" },
-    { "url": "/images/hotels/blanket-bay-glenorchy-new-zealand/spa.webp", "alt": "blanket-bay-glenorchy-new-zealand — spa", "type": "spa" },
-    { "url": "/images/hotels/blanket-bay-glenorchy-new-zealand/dining.webp", "alt": "blanket-bay-glenorchy-new-zealand — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/blanket-bay-glenorchy-new-zealand/hero.webp",
+      "alt": "blanket-bay-glenorchy-new-zealand — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/blanket-bay-glenorchy-new-zealand/room.webp",
+      "alt": "blanket-bay-glenorchy-new-zealand — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/blanket-bay-glenorchy-new-zealand/pool.webp",
+      "alt": "blanket-bay-glenorchy-new-zealand — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/blanket-bay-glenorchy-new-zealand/spa.webp",
+      "alt": "blanket-bay-glenorchy-new-zealand — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/blanket-bay-glenorchy-new-zealand/dining.webp",
+      "alt": "blanket-bay-glenorchy-new-zealand — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.6,
   "tripadvisor_award": true,
@@ -24,13 +68,41 @@
     "verdict": "Blanket Bay in Glenorchy sits in the most cinematically magnificent landscape in New Zealand — the head of Lake Wakatipu, surrounded by the Remarkables and Richardson mountain ranges, the valleys that Peter Jackson chose for Middle-earth. The lodge's stone and schist architecture, 12 suites and chalets, private jet landing strip, helicopter skiing, and supremely refined hospitality place it firmly among the finest adventure luxury lodges in the world. This is the most dramatic setting for a honeymoon in the Southern Hemisphere.",
     "best_room": "The Chalet Suites are Blanket Bay's most dramatic accommodation — large standalone chalets built from local schist stone with floor-to-ceiling windows that frame the lake and mountain panorama, stone fireplaces, deep soaking baths, and private decks where the silence and scale of the landscape is overwhelming. The Lodge Suites in the main building offer the same extraordinary views with easier access to the lodge's dining and social spaces.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival at the Head of the Lake", "description": "Transfer from Queenstown (45 minutes by sealed and gravel road, or 10 minutes by helicopter) to Blanket Bay at Glenorchy. As the Remarkables and the lake open up ahead of you, the scale of the setting becomes apparent. Check into your chalet, light the stone fireplace, and sit on the deck with New Zealand wine as the evening alpenglow turns the mountains pink." },
-      { "day": 2, "title": "Lord of the Rings Landscape", "description": "The Glenorchy area was the primary filming location for Peter Jackson's Lord of the Rings and Hobbit trilogies — the Nen Hithoel scenes, the Pelennor Fields, and much of the Misty Mountains were filmed in these valleys. A guided 4WD excursion to the filming locations through the Paradise valley, with local guides who worked on the films, is one of the great New Zealand experiences." },
-      { "day": 3, "title": "Helicopter Mountain Landing", "description": "Blanket Bay's signature activity is a helicopter alpine excursion to remote mountain ridges and snowfields accessible only by air. Land on a glacial plateau at 2000+ meters, walk on ice with a guide, and look out over the Southern Alps in every direction with not another person visible for 100 kilometers. The return flight along the Humboldt Mountains above the lake is extraordinary." },
-      { "day": 4, "title": "Lake Wakatipu & Kayaking", "description": "Lake Wakatipu is 80 km long and the mountains rise directly from its shores. A morning guided kayak along the Blanket Bay foreshore, through the clear glacial water over submerged flats of river gravel, with the Remarkables reflected in the surface, is one of the finest outdoor experiences in New Zealand. In the afternoon, the lodge's boat takes you to a remote lakeshore picnic." },
-      { "day": 5, "title": "Queenstown Day", "description": "Queenstown is 45 minutes from Blanket Bay — the adventure capital of New Zealand with a vibrant restaurant scene, wine bars, and the Gondola for panoramic views over the lake. A day in town for shopping, wine tasting (the Gibbston Valley pinot noir region is nearby), and dinner at Amisfield or Rata before returning to the serenity of the lodge." },
-      { "day": 6, "title": "Guided Alpine Walk", "description": "The Glenorchy valley is threaded with spectacular hiking trails through beech forest, tussock grassland, and glacier-carved valleys. A guided half-day walk along the Routeburn or Dart River tracks (both pass through World Heritage-listed fiordland) is unforgettable. Return for a spa treatment and a final formal dinner in the lodge's candlelit dining room." },
-      { "day": 7, "title": "Mountain Farewell", "description": "Your last morning at Blanket Bay — the early light on the Remarkables is different every day. A final leisurely breakfast at the lodge windows, one last walk on the lakeshore path, and transfer back to Queenstown Airport for your onward journey. Few departures are harder than leaving this landscape." }
+      {
+        "day": 1,
+        "title": "Arrival at the Head of the Lake",
+        "description": "Transfer from Queenstown (45 minutes by sealed and gravel road, or 10 minutes by helicopter) to Blanket Bay at Glenorchy. As the Remarkables and the lake open up ahead of you, the scale of the setting becomes apparent. Check into your chalet, light the stone fireplace, and sit on the deck with New Zealand wine as the evening alpenglow turns the mountains pink."
+      },
+      {
+        "day": 2,
+        "title": "Lord of the Rings Landscape",
+        "description": "The Glenorchy area was the primary filming location for Peter Jackson's Lord of the Rings and Hobbit trilogies — the Nen Hithoel scenes, the Pelennor Fields, and much of the Misty Mountains were filmed in these valleys. A guided 4WD excursion to the filming locations through the Paradise valley, with local guides who worked on the films, is one of the great New Zealand experiences."
+      },
+      {
+        "day": 3,
+        "title": "Helicopter Mountain Landing",
+        "description": "Blanket Bay's signature activity is a helicopter alpine excursion to remote mountain ridges and snowfields accessible only by air. Land on a glacial plateau at 2000+ meters, walk on ice with a guide, and look out over the Southern Alps in every direction with not another person visible for 100 kilometers. The return flight along the Humboldt Mountains above the lake is extraordinary."
+      },
+      {
+        "day": 4,
+        "title": "Lake Wakatipu & Kayaking",
+        "description": "Lake Wakatipu is 80 km long and the mountains rise directly from its shores. A morning guided kayak along the Blanket Bay foreshore, through the clear glacial water over submerged flats of river gravel, with the Remarkables reflected in the surface, is one of the finest outdoor experiences in New Zealand. In the afternoon, the lodge's boat takes you to a remote lakeshore picnic."
+      },
+      {
+        "day": 5,
+        "title": "Queenstown Day",
+        "description": "Queenstown is 45 minutes from Blanket Bay — the adventure capital of New Zealand with a vibrant restaurant scene, wine bars, and the Gondola for panoramic views over the lake. A day in town for shopping, wine tasting (the Gibbston Valley pinot noir region is nearby), and dinner at Amisfield or Rata before returning to the serenity of the lodge."
+      },
+      {
+        "day": 6,
+        "title": "Guided Alpine Walk",
+        "description": "The Glenorchy valley is threaded with spectacular hiking trails through beech forest, tussock grassland, and glacier-carved valleys. A guided half-day walk along the Routeburn or Dart River tracks (both pass through World Heritage-listed fiordland) is unforgettable. Return for a spa treatment and a final formal dinner in the lodge's candlelit dining room."
+      },
+      {
+        "day": 7,
+        "title": "Mountain Farewell",
+        "description": "Your last morning at Blanket Bay — the early light on the Remarkables is different every day. A final leisurely breakfast at the lodge windows, one last walk on the lakeshore path, and transfer back to Queenstown Airport for your onward journey. Few departures are harder than leaving this landscape."
+      }
     ],
     "caveats": [
       "Blanket Bay is among the most expensive lodge experiences in New Zealand, at $1500–$5000 per night. Activities (helicopter excursions, guided walks, fishing) carry additional costs — budget carefully.",
@@ -38,12 +110,30 @@
       "Glenorchy can be misty and rainy, particularly in winter. The dramatic landscape is beautiful in any weather, but helicopter excursions can be weather-dependent — some guests miss their preferred activity due to cloud cover."
     ],
     "faqs": [
-      { "question": "Is Blanket Bay good for honeymooners?", "answer": "For couples who want the world's most dramatic natural scenery as the backdrop for their honeymoon, Blanket Bay is unmatched. The Middle-earth landscape, stone and schist Chalet Suites with mountain fireplaces, helicopter access, and superlative hospitality combine to create a honeymoon experience of extraordinary visual and emotional power." },
-      { "question": "What is the best time to visit?", "answer": "December through March (summer) for the best weather, long evenings, and full activity calendar. June–September (winter) for snow on the mountains, helicopter skiing, and the dramatic cold-weather atmosphere of the stone lodge with fires blazing. Spring (September–November) for wildflowers in the valley and fewer crowds." },
-      { "question": "How far in advance should you book?", "answer": "Book 6–12 months ahead for summer (December–March) and at least 6 months for ski season. Blanket Bay has only 12 suites and chalets and is one of New Zealand's most sought-after lodges. The Chalet Suites book out earliest." },
-      { "question": "Is Blanket Bay adults-only?", "answer": "No, families are welcome. However, the remote mountain location, limited children's facilities, and adult-oriented activities mean it is primarily popular with couples and adult groups." },
-      { "question": "What is the best room type?", "answer": "The Chalet Suites are the most private and dramatic — standalone stone chalets with lake and mountain views, stone fireplaces, and private decks. The Lodge Suites are slightly smaller but offer the same extraordinary views with more immediate access to the lodge's communal areas." },
-      { "question": "How do you get to Blanket Bay?", "answer": "Fly into Queenstown (ZQN) — direct flights from Auckland, Sydney, and Melbourne. Transfer to Blanket Bay by private vehicle (45 minutes on sealed road becoming gravel near Glenorchy) or by helicopter (10 minutes, highly recommended for the scenic arrival over Lake Wakatipu). The lodge arranges all transfers." }
+      {
+        "question": "Is Blanket Bay good for honeymooners?",
+        "answer": "For couples who want the world's most dramatic natural scenery as the backdrop for their honeymoon, Blanket Bay is unmatched. The Middle-earth landscape, stone and schist Chalet Suites with mountain fireplaces, helicopter access, and superlative hospitality combine to create a honeymoon experience of extraordinary visual and emotional power."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "December through March (summer) for the best weather, long evenings, and full activity calendar. June–September (winter) for snow on the mountains, helicopter skiing, and the dramatic cold-weather atmosphere of the stone lodge with fires blazing. Spring (September–November) for wildflowers in the valley and fewer crowds."
+      },
+      {
+        "question": "How far in advance should you book?",
+        "answer": "Book 6–12 months ahead for summer (December–March) and at least 6 months for ski season. Blanket Bay has only 12 suites and chalets and is one of New Zealand's most sought-after lodges. The Chalet Suites book out earliest."
+      },
+      {
+        "question": "Is Blanket Bay adults-only?",
+        "answer": "No, families are welcome. However, the remote mountain location, limited children's facilities, and adult-oriented activities mean it is primarily popular with couples and adult groups."
+      },
+      {
+        "question": "What is the best room type?",
+        "answer": "The Chalet Suites are the most private and dramatic — standalone stone chalets with lake and mountain views, stone fireplaces, and private decks. The Lodge Suites are slightly smaller but offer the same extraordinary views with more immediate access to the lodge's communal areas."
+      },
+      {
+        "question": "How do you get to Blanket Bay?",
+        "answer": "Fly into Queenstown (ZQN) — direct flights from Auckland, Sydney, and Melbourne. Transfer to Blanket Bay by private vehicle (45 minutes on sealed road becoming gravel near Glenorchy) or by helicopter (10 minutes, highly recommended for the scenic arrival over Lake Wakatipu). The lodge arranges all transfers."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — Blanket Bay Lodge\n\nDear Blanket Bay team,\n\nWe are planning our honeymoon [DATE]-[DATE] and interested in a Chalet Suite or Lodge Suite. Please advise on availability, rates, what activities are included, and whether the helicopter alpine excursion and Lord of the Rings valley tour can be pre-arranged.\n\nThank you,\n[Your names]"
   },

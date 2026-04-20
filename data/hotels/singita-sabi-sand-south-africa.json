@@ -3,19 +3,65 @@
   "name": "Singita Sabi Sand",
   "destination": "south-africa",
   "country": "south-africa",
-  "experience_types": ["safari", "luxury", "wellness"],
+  "experience_types": [
+    "safari",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 95,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 20, "spa": 15, "award": 10, "pool": 10, "beach": 0, "room_service": 10, "stars": 20, "luxury": 10 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 20,
+    "spa": 15,
+    "award": 10,
+    "pool": 10,
+    "beach": 0,
+    "room_service": 10,
+    "stars": 20,
+    "luxury": 10
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 2000, "max": 5000 },
+  "price_per_night_usd": {
+    "min": 2000,
+    "max": 5000
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "game drives", "room service", "butler service", "fine dining", "wine cellar", "bush walks"],
+  "amenities": [
+    "spa",
+    "pool",
+    "game drives",
+    "room service",
+    "butler service",
+    "fine dining",
+    "wine cellar",
+    "bush walks"
+  ],
   "photos": [
-    { "url": "/images/hotels/singita-sabi-sand-south-africa/hero.webp", "alt": "singita-sabi-sand-south-africa — hero", "type": "hero" },
-    { "url": "/images/hotels/singita-sabi-sand-south-africa/room.webp", "alt": "singita-sabi-sand-south-africa — room", "type": "room" },
-    { "url": "/images/hotels/singita-sabi-sand-south-africa/pool.webp", "alt": "singita-sabi-sand-south-africa — pool", "type": "pool" },
-    { "url": "/images/hotels/singita-sabi-sand-south-africa/spa.webp", "alt": "singita-sabi-sand-south-africa — spa", "type": "spa" },
-    { "url": "/images/hotels/singita-sabi-sand-south-africa/dining.webp", "alt": "singita-sabi-sand-south-africa — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/singita-sabi-sand-south-africa/hero.webp",
+      "alt": "singita-sabi-sand-south-africa — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/singita-sabi-sand-south-africa/room.webp",
+      "alt": "singita-sabi-sand-south-africa — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/singita-sabi-sand-south-africa/pool.webp",
+      "alt": "singita-sabi-sand-south-africa — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/singita-sabi-sand-south-africa/spa.webp",
+      "alt": "singita-sabi-sand-south-africa — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/singita-sabi-sand-south-africa/dining.webp",
+      "alt": "singita-sabi-sand-south-africa — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.7,
   "tripadvisor_award": true,
@@ -24,13 +70,41 @@
     "verdict": "Singita Sabi Sand is consistently ranked among the world's finest safari experiences, placing honeymooners in the heart of the exclusive Sabi Sand private reserve with unfenced access to Kruger's legendary wildlife. The combination of extraordinary Big 5 sightings twice daily, world-class cuisine, and intimate lodges — Boulders and Ebony among them — creates an incomparable romantic backdrop. This is the safari honeymoon by which all others are measured.",
     "best_room": "The Ebony Lodge suite is the ultimate choice for honeymooners, offering a private plunge pool, outdoor shower, and a vast stone-and-thatch suite opening onto a riverine forest. The sense of complete seclusion while leopards prowl outside the deck makes it genuinely unforgettable. For a more contemporary feel, Boulders Lodge suites feature stunning natural rock formations incorporated into the architecture.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & First Sundowner", "description": "Fly into Skukuza Airport and transfer by road into the reserve. After a welcome orientation with your personal ranger, join the afternoon game drive in time for a spectacular African sunset sundowner in the bush. Return to the lodge for a candlelit dinner under the stars." },
-      { "day": 2, "title": "Big 5 Morning & Spa Afternoon", "description": "Rise before dawn for the morning game drive during the golden hour when predators are most active. After a hearty brunch, surrender the afternoon to the Singita spa with a couple's bush-scented massage using local botanicals. End the day with a private dinner beside the waterhole." },
-      { "day": 3, "title": "Bush Walk & Leopard Tracking", "description": "Join your ranger and Shangaan tracker on foot through the reserve — an intimate perspective impossible from a vehicle. In the afternoon, the rangers will track the resident leopard coalition, one of the best-documented in Africa. Share the thrill of a close encounter together." },
-      { "day": 4, "title": "Photography & Wine Experience", "description": "Dedicated photography morning game drive with the lodge's expert guide coaching composition. Midday, explore Singita's remarkable wine cellar stocked with South Africa's finest bottles, then enjoy a private wine tasting paired with artisan cheeses on your suite's deck." },
-      { "day": 5, "title": "Lion Pride & Cultural Visit", "description": "Morning drive focused on the Sand River lion prides, with multiple prides resident in the area. After lunch, visit a local Shangaan community for an authentic cultural experience, learning about traditional medicine, music, and beadwork — a meaningful connection beyond the wildlife." },
-      { "day": 6, "title": "Elephant Herds & Night Drive", "description": "The Sabi Sand's elephant population is one of the most habituated in Africa, regularly approaching vehicles with ease. An afternoon nap precedes the night drive, when the spotlight reveals a different world: genets, civets, and the piercing eyes of leopards on the prowl." },
-      { "day": 7, "title": "Farewell Bush Breakfast", "description": "Your final morning game drive culminates in a private bush breakfast laid out in a clearing — coffee, fresh fruit, and eggs cooked over an open flame as the African sun climbs. Return to the lodge for a farewell lunch before your transfer, carrying memories that will last a lifetime." }
+      {
+        "day": 1,
+        "title": "Arrival & First Sundowner",
+        "description": "Fly into Skukuza Airport and transfer by road into the reserve. After a welcome orientation with your personal ranger, join the afternoon game drive in time for a spectacular African sunset sundowner in the bush. Return to the lodge for a candlelit dinner under the stars."
+      },
+      {
+        "day": 2,
+        "title": "Big 5 Morning & Spa Afternoon",
+        "description": "Rise before dawn for the morning game drive during the golden hour when predators are most active. After a hearty brunch, surrender the afternoon to the Singita spa with a couple's bush-scented massage using local botanicals. End the day with a private dinner beside the waterhole."
+      },
+      {
+        "day": 3,
+        "title": "Bush Walk & Leopard Tracking",
+        "description": "Join your ranger and Shangaan tracker on foot through the reserve — an intimate perspective impossible from a vehicle. In the afternoon, the rangers will track the resident leopard coalition, one of the best-documented in Africa. Share the thrill of a close encounter together."
+      },
+      {
+        "day": 4,
+        "title": "Photography & Wine Experience",
+        "description": "Dedicated photography morning game drive with the lodge's expert guide coaching composition. Midday, explore Singita's remarkable wine cellar stocked with South Africa's finest bottles, then enjoy a private wine tasting paired with artisan cheeses on your suite's deck."
+      },
+      {
+        "day": 5,
+        "title": "Lion Pride & Cultural Visit",
+        "description": "Morning drive focused on the Sand River lion prides, with multiple prides resident in the area. After lunch, visit a local Shangaan community for an authentic cultural experience, learning about traditional medicine, music, and beadwork — a meaningful connection beyond the wildlife."
+      },
+      {
+        "day": 6,
+        "title": "Elephant Herds & Night Drive",
+        "description": "The Sabi Sand's elephant population is one of the most habituated in Africa, regularly approaching vehicles with ease. An afternoon nap precedes the night drive, when the spotlight reveals a different world: genets, civets, and the piercing eyes of leopards on the prowl."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Bush Breakfast",
+        "description": "Your final morning game drive culminates in a private bush breakfast laid out in a clearing — coffee, fresh fruit, and eggs cooked over an open flame as the African sun climbs. Return to the lodge for a farewell lunch before your transfer, carrying memories that will last a lifetime."
+      }
     ],
     "caveats": [
       "Malaria prophylaxis is recommended for the Sabi Sand region; consult your physician before travel.",
@@ -38,12 +112,30 @@
       "The premium rate is fully inclusive of all meals, local drinks, and twice-daily game drives, making the high nightly price more reasonable than it first appears."
     ],
     "faqs": [
-      { "question": "Good for honeymooners?", "answer": "Singita Sabi Sand is one of the world's great honeymoon destinations. The combination of extraordinary wildlife, intimate lodge settings, exceptional cuisine, and dedicated personal service creates an intensely romantic experience unlike any other. Rangers are attuned to couples and frequently arrange private bush dinners and surprise moments." },
-      { "question": "Best time to visit?", "answer": "The dry season from May to October offers the finest game viewing, as animals congregate around water sources and vegetation thins. July through September is peak season for large predator sightings. The green season (November to April) brings lush landscapes, newborn animals, and excellent birdwatching at lower rates." },
-      { "question": "Book in advance?", "answer": "Yes — Singita Sabi Sand books out 12 to 18 months ahead, especially for peak season dates and the most coveted suites at Ebony and Boulders lodges. Honeymoon couples should secure their dates as early as possible and always mention the occasion at booking for extra touches." },
-      { "question": "Adults-only?", "answer": "No, Singita Sabi Sand is not adults-only, though the intimate lodge atmosphere and remote setting naturally attract a sophisticated adult clientele. Children under 10 cannot join game drives, and the overall ambience is thoroughly romantic and peaceful." },
-      { "question": "Best room type?", "answer": "The suites at Ebony Lodge are the most celebrated, each with a private plunge pool, outdoor shower, and deep connection to the surrounding bush. Boulders Lodge suites incorporate extraordinary natural granite boulders into the architecture for a uniquely dramatic aesthetic." },
-      { "question": "How to get there?", "answer": "Fly into Johannesburg O.R. Tambo International, then connect on a charter flight to Skukuza Airport (approximately 90 minutes). Singita arranges seamless transfers. Alternatively, fly to Nelspruit/KMIA and transfer by road through the reserve gates, approximately 2 hours." }
+      {
+        "question": "Good for honeymooners?",
+        "answer": "Singita Sabi Sand is one of the world's great honeymoon destinations. The combination of extraordinary wildlife, intimate lodge settings, exceptional cuisine, and dedicated personal service creates an intensely romantic experience unlike any other. Rangers are attuned to couples and frequently arrange private bush dinners and surprise moments."
+      },
+      {
+        "question": "Best time to visit?",
+        "answer": "The dry season from May to October offers the finest game viewing, as animals congregate around water sources and vegetation thins. July through September is peak season for large predator sightings. The green season (November to April) brings lush landscapes, newborn animals, and excellent birdwatching at lower rates."
+      },
+      {
+        "question": "Book in advance?",
+        "answer": "Yes — Singita Sabi Sand books out 12 to 18 months ahead, especially for peak season dates and the most coveted suites at Ebony and Boulders lodges. Honeymoon couples should secure their dates as early as possible and always mention the occasion at booking for extra touches."
+      },
+      {
+        "question": "Adults-only?",
+        "answer": "No, Singita Sabi Sand is not adults-only, though the intimate lodge atmosphere and remote setting naturally attract a sophisticated adult clientele. Children under 10 cannot join game drives, and the overall ambience is thoroughly romantic and peaceful."
+      },
+      {
+        "question": "Best room type?",
+        "answer": "The suites at Ebony Lodge are the most celebrated, each with a private plunge pool, outdoor shower, and deep connection to the surrounding bush. Boulders Lodge suites incorporate extraordinary natural granite boulders into the architecture for a uniquely dramatic aesthetic."
+      },
+      {
+        "question": "How to get there?",
+        "answer": "Fly into Johannesburg O.R. Tambo International, then connect on a charter flight to Skukuza Airport (approximately 90 minutes). Singita arranges seamless transfers. Alternatively, fly to Nelspruit/KMIA and transfer by road through the reserve gates, approximately 2 hours."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — Singita Sabi Sand\n\nDear Singita reservations team,\n\nWe are planning our honeymoon [DATE]-[DATE] and are interested in a suite at [Ebony/Boulders] Lodge. Please advise on availability, any honeymoon packages or complimentary inclusions, and whether private bush dinners can be arranged during our stay.\n\nThank you,\n[Your names]"
   },

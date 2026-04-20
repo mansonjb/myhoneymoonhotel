@@ -3,7 +3,12 @@
   "name": "One&Only Reethi Rah",
   "destination": "maldives",
   "country": "maldives",
-  "experience_types": ["overwater-bungalows", "luxury", "wellness", "beach"],
+  "experience_types": [
+    "overwater-bungalows",
+    "luxury",
+    "wellness",
+    "beach"
+  ],
   "honeymoon_score": 95,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +22,49 @@
     "luxury": 10
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 1500, "max": 5000 },
+  "price_per_night_usd": {
+    "min": 1500,
+    "max": 5000
+  },
   "adults_only": false,
-  "amenities": ["spa", "overwater villas", "beach", "pool", "room service", "butler service", "snorkeling", "diving", "water sports", "fine dining"],
+  "amenities": [
+    "spa",
+    "overwater villas",
+    "beach",
+    "pool",
+    "room service",
+    "butler service",
+    "snorkeling",
+    "diving",
+    "water sports",
+    "fine dining"
+  ],
   "photos": [
-    { "url": "/images/hotels/one-and-only-reethi-rah-maldives/hero.webp", "alt": "one-and-only-reethi-rah-maldives — hero", "type": "hero" },
-    { "url": "/images/hotels/one-and-only-reethi-rah-maldives/room.webp", "alt": "one-and-only-reethi-rah-maldives — room", "type": "room" },
-    { "url": "/images/hotels/one-and-only-reethi-rah-maldives/pool.webp", "alt": "one-and-only-reethi-rah-maldives — pool", "type": "pool" },
-    { "url": "/images/hotels/one-and-only-reethi-rah-maldives/spa.webp", "alt": "one-and-only-reethi-rah-maldives — spa", "type": "spa" },
-    { "url": "/images/hotels/one-and-only-reethi-rah-maldives/dining.webp", "alt": "one-and-only-reethi-rah-maldives — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/one-and-only-reethi-rah-maldives/hero.webp",
+      "alt": "one-and-only-reethi-rah-maldives — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/one-and-only-reethi-rah-maldives/room.webp",
+      "alt": "one-and-only-reethi-rah-maldives — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/one-and-only-reethi-rah-maldives/pool.webp",
+      "alt": "one-and-only-reethi-rah-maldives — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/one-and-only-reethi-rah-maldives/spa.webp",
+      "alt": "one-and-only-reethi-rah-maldives — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/one-and-only-reethi-rah-maldives/dining.webp",
+      "alt": "one-and-only-reethi-rah-maldives — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.5,
   "tripadvisor_award": true,
@@ -34,13 +73,41 @@
     "verdict": "One&Only Reethi Rah occupies a staggering 109-acre island in North Malé Atoll with the longest natural beach stretch in the Maldives — a fact that immediately sets it apart from smaller, more compact resorts. With 130 spacious villas, nine restaurants and bars, and One&Only's renowned service ethos, this is a resort that combines genuine natural grandeur with celebrity-grade luxury. Honeymooners who value space, beach quality, and dining variety above all else will find Reethi Rah unbeatable.",
     "best_room": "The Overwater Villa with Pool is the most sought-after honeymoon choice — two levels of overwater architecture, a private deck with sunbeds, and a plunge pool directly above the turquoise lagoon. For beach devotees, the Grand Beach Villa with Pool delivers a private stretch of the resort's legendary white sand with complete seclusion and your own infinity pool.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Island Exploration", "description": "The speedboat from Malé takes just 50 minutes to reach Reethi Rah, arriving at a resort so vast it has its own internal buggy transfer system. Your villa host gives you a tour and settles you in with Welcome Champagne and a fruit platter. Spend the late afternoon walking the legendary beach — pure white coral sand stretching further than any other in the Maldives." },
-      { "day": 2, "title": "Water Sports & Overwater Bliss", "description": "Reethi Rah's watersports centre is exceptional — try kitesurfing, wakeboarding, or take out a catamaran together. After lunch at the Beach Bar & Grill, return to your villa for an afternoon in your overwater plunge pool. Watch the resident sea turtles glide below your deck as the tide comes in." },
-      { "day": 3, "title": "Spa Day", "description": "One&Only Spa at Reethi Rah is one of the finest in the Maldives — a sprawling facility with 14 treatment rooms, some overwater. Book the Reethi Rah Ritual, a three-hour couples' ceremony using Maldivian botanicals, warm volcanic stones, and a private after-treatment soak. Dine at Fanditha, the resort's signature Maldivian restaurant, in the evening." },
-      { "day": 4, "title": "Sandbank Escape", "description": "Your host arranges a private sandbank picnic on a deserted coral island a short boat ride away. Cold Champagne, freshly prepared mezze, and a snorkelling stop at the adjacent reef on the way back. In the evening, try Botanica, the resort's elegant Mediterranean restaurant, for an intimate dinner by the pool." },
-      { "day": 5, "title": "Diving & Marine Discovery", "description": "The house reef is accessible directly from the beach and loaded with marine life — hawksbill turtles, reef sharks, and dense coral formations. Join the PADI dive centre for a guided reef dive to the Blue Caves, one of North Malé Atoll's most photogenic sites. End the day with cocktails at the overwater bar as the sky turns orange." },
-      { "day": 6, "title": "Full-Day Beach Slow", "description": "No activities. Just the two of you, a beach lounger, a good book, and the Indian Ocean. Order fresh coconut water and a seafood platter to your beach spot and simply exist. In the evening, the resort arranges a private dinner on the beach — candlelit tables on the sand, a custom menu, and the sound of the ocean as your soundtrack." },
-      { "day": 7, "title": "Farewell Morning", "description": "Take one final sunrise walk along the longest beach in the Maldives before a leisurely breakfast at your villa. Your host arranges the buggy and speedboat back to Malé. One&Only Reethi Rah is the kind of resort that makes you feel genuinely sad to leave." }
+      {
+        "day": 1,
+        "title": "Arrival & Island Exploration",
+        "description": "The speedboat from Malé takes just 50 minutes to reach Reethi Rah, arriving at a resort so vast it has its own internal buggy transfer system. Your villa host gives you a tour and settles you in with Welcome Champagne and a fruit platter. Spend the late afternoon walking the legendary beach — pure white coral sand stretching further than any other in the Maldives."
+      },
+      {
+        "day": 2,
+        "title": "Water Sports & Overwater Bliss",
+        "description": "Reethi Rah's watersports centre is exceptional — try kitesurfing, wakeboarding, or take out a catamaran together. After lunch at the Beach Bar & Grill, return to your villa for an afternoon in your overwater plunge pool. Watch the resident sea turtles glide below your deck as the tide comes in."
+      },
+      {
+        "day": 3,
+        "title": "Spa Day",
+        "description": "One&Only Spa at Reethi Rah is one of the finest in the Maldives — a sprawling facility with 14 treatment rooms, some overwater. Book the Reethi Rah Ritual, a three-hour couples' ceremony using Maldivian botanicals, warm volcanic stones, and a private after-treatment soak. Dine at Fanditha, the resort's signature Maldivian restaurant, in the evening."
+      },
+      {
+        "day": 4,
+        "title": "Sandbank Escape",
+        "description": "Your host arranges a private sandbank picnic on a deserted coral island a short boat ride away. Cold Champagne, freshly prepared mezze, and a snorkelling stop at the adjacent reef on the way back. In the evening, try Botanica, the resort's elegant Mediterranean restaurant, for an intimate dinner by the pool."
+      },
+      {
+        "day": 5,
+        "title": "Diving & Marine Discovery",
+        "description": "The house reef is accessible directly from the beach and loaded with marine life — hawksbill turtles, reef sharks, and dense coral formations. Join the PADI dive centre for a guided reef dive to the Blue Caves, one of North Malé Atoll's most photogenic sites. End the day with cocktails at the overwater bar as the sky turns orange."
+      },
+      {
+        "day": 6,
+        "title": "Full-Day Beach Slow",
+        "description": "No activities. Just the two of you, a beach lounger, a good book, and the Indian Ocean. Order fresh coconut water and a seafood platter to your beach spot and simply exist. In the evening, the resort arranges a private dinner on the beach — candlelit tables on the sand, a custom menu, and the sound of the ocean as your soundtrack."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "Take one final sunrise walk along the longest beach in the Maldives before a leisurely breakfast at your villa. Your host arranges the buggy and speedboat back to Malé. One&Only Reethi Rah is the kind of resort that makes you feel genuinely sad to leave."
+      }
     ],
     "caveats": [
       "The resort is very large at 109 acres with 130 villas — couples seeking an intimate boutique feel may prefer a smaller property.",
@@ -48,12 +115,30 @@
       "Speedboat transfer from Malé is 50 minutes and operates in all weather, but rough seas can make the journey uncomfortable."
     ],
     "faqs": [
-      { "question": "Is One&Only Reethi Rah good for honeymooners?", "answer": "Yes — One&Only Reethi Rah is a perennial favourite with honeymooners and celebrities alike. The combination of the Maldives' longest natural beach, superb overwater villas, nine restaurants, and One&Only's legendary service creates a romantic experience that is genuinely hard to surpass." },
-      { "question": "What is the best time to visit?", "answer": "November through April is optimal — the northeast monsoon brings dry, clear weather and calm lagoon conditions. February and March are considered the absolute peak months, with the most consistent sunshine and best underwater visibility." },
-      { "question": "What should we book in advance?", "answer": "Reserve your spa treatments and any private dining experience before arrival. The resort's beach dinner is particularly popular and books up weeks ahead. Mention your honeymoon at booking to receive complimentary welcome amenities." },
-      { "question": "Is it adults-only?", "answer": "No, One&Only Reethi Rah welcomes families and children. The resort's large size means different guest groups naturally separate across the island, maintaining a romantic atmosphere in most areas." },
-      { "question": "What's the best room for a honeymoon?", "answer": "The Overwater Villa with Pool combines the romance of lagoon living with the luxury of a private plunge pool. For beach lovers, the Grand Beach Villa with Pool offers a private corner of the Maldives' most impressive shoreline." },
-      { "question": "How do we get there?", "answer": "One&Only Reethi Rah is accessible by speedboat from Malé International Airport — a 50-minute transfer, which the resort can arrange. Unlike more remote atolls, no seaplane is needed, making late-evening arrivals entirely feasible." }
+      {
+        "question": "Is One&Only Reethi Rah good for honeymooners?",
+        "answer": "Yes — One&Only Reethi Rah is a perennial favourite with honeymooners and celebrities alike. The combination of the Maldives' longest natural beach, superb overwater villas, nine restaurants, and One&Only's legendary service creates a romantic experience that is genuinely hard to surpass."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "November through April is optimal — the northeast monsoon brings dry, clear weather and calm lagoon conditions. February and March are considered the absolute peak months, with the most consistent sunshine and best underwater visibility."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "Reserve your spa treatments and any private dining experience before arrival. The resort's beach dinner is particularly popular and books up weeks ahead. Mention your honeymoon at booking to receive complimentary welcome amenities."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "No, One&Only Reethi Rah welcomes families and children. The resort's large size means different guest groups naturally separate across the island, maintaining a romantic atmosphere in most areas."
+      },
+      {
+        "question": "What's the best room for a honeymoon?",
+        "answer": "The Overwater Villa with Pool combines the romance of lagoon living with the luxury of a private plunge pool. For beach lovers, the Grand Beach Villa with Pool offers a private corner of the Maldives' most impressive shoreline."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "One&Only Reethi Rah is accessible by speedboat from Malé International Airport — a 50-minute transfer, which the resort can arrange. Unlike more remote atolls, no seaplane is needed, making late-evening arrivals entirely feasible."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — One&Only Reethi Rah\n\nDear One&Only Reethi Rah team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: [Overwater Villa with Pool / Grand Beach Villa with Pool]\n\nCould you please let us know:\n- Current availability for our dates\n- Any honeymoon packages or complimentary upgrades\n- Details on private beach dining options\n\nThank you for your time.\n\n[Your names]"
   },

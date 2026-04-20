@@ -3,19 +3,65 @@
   "name": "Chem Chem Lodge",
   "destination": "tanzania",
   "country": "tanzania",
-  "experience_types": ["safari", "luxury"],
+  "experience_types": [
+    "safari",
+    "luxury"
+  ],
   "honeymoon_score": 89,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 18, "spa": 15, "award": 10, "pool": 10, "beach": 0, "room_service": 10, "stars": 16, "luxury": 10 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 18,
+    "spa": 15,
+    "award": 10,
+    "pool": 10,
+    "beach": 0,
+    "room_service": 10,
+    "stars": 16,
+    "luxury": 10
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 900, "max": 2800 },
+  "price_per_night_usd": {
+    "min": 900,
+    "max": 2800
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "game drives", "room service", "butler service", "walking safaris", "fine dining", "hippo pool", "private concession"],
+  "amenities": [
+    "spa",
+    "pool",
+    "game drives",
+    "room service",
+    "butler service",
+    "walking safaris",
+    "fine dining",
+    "hippo pool",
+    "private concession"
+  ],
   "photos": [
-    { "url": "/images/hotels/chem-chem-lodge-tanzania/hero.webp", "alt": "chem-chem-lodge-tanzania — hero", "type": "hero" },
-    { "url": "/images/hotels/chem-chem-lodge-tanzania/room.webp", "alt": "chem-chem-lodge-tanzania — room", "type": "room" },
-    { "url": "/images/hotels/chem-chem-lodge-tanzania/pool.webp", "alt": "chem-chem-lodge-tanzania — pool", "type": "pool" },
-    { "url": "/images/hotels/chem-chem-lodge-tanzania/spa.webp", "alt": "chem-chem-lodge-tanzania — spa", "type": "spa" },
-    { "url": "/images/hotels/chem-chem-lodge-tanzania/dining.webp", "alt": "chem-chem-lodge-tanzania — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/chem-chem-lodge-tanzania/hero.webp",
+      "alt": "chem-chem-lodge-tanzania — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/chem-chem-lodge-tanzania/room.webp",
+      "alt": "chem-chem-lodge-tanzania — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/chem-chem-lodge-tanzania/pool.webp",
+      "alt": "chem-chem-lodge-tanzania — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/chem-chem-lodge-tanzania/spa.webp",
+      "alt": "chem-chem-lodge-tanzania — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/chem-chem-lodge-tanzania/dining.webp",
+      "alt": "chem-chem-lodge-tanzania — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.3,
   "tripadvisor_award": true,
@@ -24,13 +70,41 @@
     "verdict": "Chem Chem Lodge occupies a private concession in the Tarangire ecosystem — an area that rivals the Serengeti for elephant density and offers far fewer visitors, especially when Serengeti crowds peak in high season. The resident hippo waterhole directly in front of the camp is a constant source of fascination, and the elephant corridor through the property means tuskers regularly amble past the dining room. Walking safaris add an intimate dimension impossible in Tanzania's national parks.",
     "best_room": "The eight suites are among the most spacious in the Tarangire region, with private decks facing the hippo pool and surrounding woodland. Suite 1 and Suite 2 are elevated with the best sightlines to the waterhole. The interiors use local textiles and Swahili coast design influences in a palette of deep earth tones. Each suite has an outdoor shower, a luxury particularly appreciated in the warm Tarangire nights.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Hippo Happy Hour", "description": "Fly into Kilimanjaro Airport and transfer by road through Arusha and into the Tarangire ecosystem. Arrive at the lodge in time for the daily hippo spectacle as the waterhole fills with bathing, yawning, and territorial confrontation. Sundowners on the deck with hippos at eye level is the definitive Chem Chem welcome." },
-      { "day": 2, "title": "Tarangire National Park — Elephant Paradise", "description": "Drive into adjacent Tarangire National Park — home to the largest elephant herds in East Africa, particularly during the dry season when thousands converge on the Tarangire River. The ancient baobab-studded landscape is extraordinarily beautiful, and the concentration of wildlife is extraordinary." },
-      { "day": 3, "title": "Walking Safari & Swamp Walk", "description": "Chem Chem's ability to offer walking safaris is a significant advantage over national park properties. Walk through the private concession with an armed guide, approaching game on foot and learning the ecosystem from ground level. The swamp walk — wading knee-deep through papyrus — is an exhilarating highlight." },
-      { "day": 4, "title": "Lake Manyara Day Trip", "description": "Drive to Lake Manyara National Park — famous for its tree-climbing lions and the rose-pink flamingo flocks that line the alkaline lakeshore. The dense groundwater forest at the lake's edge harbours troops of baboons, blue monkeys, and occasional leopard. Return to Chem Chem for an evening at the hippo pool." },
-      { "day": 5, "title": "Ngorongoro Crater Excursion", "description": "A full-day excursion to the Ngorongoro Crater — 90 minutes by road. Descend into the caldera for a Big 5 game drive in the world's most concentrated wildlife arena before ascending back through the forest to return to Chem Chem for a late dinner." },
-      { "day": 6, "title": "Night Drive & Bush Dinner", "description": "Night drives in Chem Chem's private concession (not possible in national parks) reveal the nocturnal world — genets, civets, springhare, and occasionally a lioness on the hunt. The evening culminates in a private bush dinner on the waterhole platform with hippos grunting below." },
-      { "day": 7, "title": "Final Morning & Farewell", "description": "Last morning game drive in the concession for a final encounter with the elephants and resident buffalo herd. Return for a farewell breakfast on the deck as the hippos retreat into deeper water for their daily rest. Transfer to Kilimanjaro Airport via Arusha." }
+      {
+        "day": 1,
+        "title": "Arrival & Hippo Happy Hour",
+        "description": "Fly into Kilimanjaro Airport and transfer by road through Arusha and into the Tarangire ecosystem. Arrive at the lodge in time for the daily hippo spectacle as the waterhole fills with bathing, yawning, and territorial confrontation. Sundowners on the deck with hippos at eye level is the definitive Chem Chem welcome."
+      },
+      {
+        "day": 2,
+        "title": "Tarangire National Park — Elephant Paradise",
+        "description": "Drive into adjacent Tarangire National Park — home to the largest elephant herds in East Africa, particularly during the dry season when thousands converge on the Tarangire River. The ancient baobab-studded landscape is extraordinarily beautiful, and the concentration of wildlife is extraordinary."
+      },
+      {
+        "day": 3,
+        "title": "Walking Safari & Swamp Walk",
+        "description": "Chem Chem's ability to offer walking safaris is a significant advantage over national park properties. Walk through the private concession with an armed guide, approaching game on foot and learning the ecosystem from ground level. The swamp walk — wading knee-deep through papyrus — is an exhilarating highlight."
+      },
+      {
+        "day": 4,
+        "title": "Lake Manyara Day Trip",
+        "description": "Drive to Lake Manyara National Park — famous for its tree-climbing lions and the rose-pink flamingo flocks that line the alkaline lakeshore. The dense groundwater forest at the lake's edge harbours troops of baboons, blue monkeys, and occasional leopard. Return to Chem Chem for an evening at the hippo pool."
+      },
+      {
+        "day": 5,
+        "title": "Ngorongoro Crater Excursion",
+        "description": "A full-day excursion to the Ngorongoro Crater — 90 minutes by road. Descend into the caldera for a Big 5 game drive in the world's most concentrated wildlife arena before ascending back through the forest to return to Chem Chem for a late dinner."
+      },
+      {
+        "day": 6,
+        "title": "Night Drive & Bush Dinner",
+        "description": "Night drives in Chem Chem's private concession (not possible in national parks) reveal the nocturnal world — genets, civets, springhare, and occasionally a lioness on the hunt. The evening culminates in a private bush dinner on the waterhole platform with hippos grunting below."
+      },
+      {
+        "day": 7,
+        "title": "Final Morning & Farewell",
+        "description": "Last morning game drive in the concession for a final encounter with the elephants and resident buffalo herd. Return for a farewell breakfast on the deck as the hippos retreat into deeper water for their daily rest. Transfer to Kilimanjaro Airport via Arusha."
+      }
     ],
     "caveats": [
       "Chem Chem is in the Tarangire ecosystem — not in a national park itself, so wildlife volumes depend on the private concession and adjacent parks.",
@@ -38,12 +112,30 @@
       "Arusha is a travel hub nearby — allow a full day from international arrival before expecting a seamless bush experience."
     ],
     "faqs": [
-      { "question": "Good for honeymooners?", "answer": "Chem Chem is an excellent honeymoon choice for couples who want intimacy, excellent guiding, and the ability to walk in the African wilderness — activities not possible in Tanzania's national parks. The hippo waterhole is a unique romantic touch, and the lodge's small size ensures genuinely personalised service." },
-      { "question": "Best time to visit?", "answer": "June through October is dry season and optimal for game viewing in Tarangire — elephant herds of hundreds congregate on the river. November brings short rains and a lush transformation. January and February offer excellent weather and good wildlife. The long rains of April-May are best avoided." },
-      { "question": "Book in advance?", "answer": "Eight suites means limited availability. Book 4 to 6 months ahead for dry season dates. Mention your honeymoon at reservation for complimentary room decorations and to arrange a private waterhole dinner." },
-      { "question": "Adults-only?", "answer": "Chem Chem is not adults-only. The walking safari element has a minimum age and the intimate lodge atmosphere attracts primarily adult couples. Children are welcome but the sophisticated ambience is thoroughly couple-friendly." },
-      { "question": "Best room type?", "answer": "Suites 1 and 2 have the highest elevation and best waterhole sightlines — prime position for the daily hippo drama. All eight suites are spacious and well-appointed; any suite offers an excellent Chem Chem experience, but the view from the top is worth requesting specifically." },
-      { "question": "How to get there?", "answer": "Kilimanjaro International Airport (JRO) is the closest gateway, approximately 2 hours by road through Arusha. Alternatively, Arusha Airport handles smaller charter aircraft from within Tanzania. The lodge arranges road transfers. International connections operate through Nairobi, Doha, Amsterdam, and London." }
+      {
+        "question": "Good for honeymooners?",
+        "answer": "Chem Chem is an excellent honeymoon choice for couples who want intimacy, excellent guiding, and the ability to walk in the African wilderness — activities not possible in Tanzania's national parks. The hippo waterhole is a unique romantic touch, and the lodge's small size ensures genuinely personalised service."
+      },
+      {
+        "question": "Best time to visit?",
+        "answer": "June through October is dry season and optimal for game viewing in Tarangire — elephant herds of hundreds congregate on the river. November brings short rains and a lush transformation. January and February offer excellent weather and good wildlife. The long rains of April-May are best avoided."
+      },
+      {
+        "question": "Book in advance?",
+        "answer": "Eight suites means limited availability. Book 4 to 6 months ahead for dry season dates. Mention your honeymoon at reservation for complimentary room decorations and to arrange a private waterhole dinner."
+      },
+      {
+        "question": "Adults-only?",
+        "answer": "Chem Chem is not adults-only. The walking safari element has a minimum age and the intimate lodge atmosphere attracts primarily adult couples. Children are welcome but the sophisticated ambience is thoroughly couple-friendly."
+      },
+      {
+        "question": "Best room type?",
+        "answer": "Suites 1 and 2 have the highest elevation and best waterhole sightlines — prime position for the daily hippo drama. All eight suites are spacious and well-appointed; any suite offers an excellent Chem Chem experience, but the view from the top is worth requesting specifically."
+      },
+      {
+        "question": "How to get there?",
+        "answer": "Kilimanjaro International Airport (JRO) is the closest gateway, approximately 2 hours by road through Arusha. Alternatively, Arusha Airport handles smaller charter aircraft from within Tanzania. The lodge arranges road transfers. International connections operate through Nairobi, Doha, Amsterdam, and London."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — Chem Chem Lodge Tanzania\n\nDear Chem Chem team,\n\nWe are planning our honeymoon [DATE]-[DATE] and are interested in a waterhole-facing suite. Please advise on availability, walking safari arrangements, private dinner options, and any honeymoon packages.\n\nThank you,\n[Your names]"
   },

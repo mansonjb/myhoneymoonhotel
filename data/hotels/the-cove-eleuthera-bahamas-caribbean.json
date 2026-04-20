@@ -3,19 +3,64 @@
   "name": "The Cove Eleuthera",
   "destination": "caribbean",
   "country": "caribbean",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 86,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 18, "spa": 12, "award": 10, "pool": 13, "beach": 18, "room_service": 5, "stars": 10, "luxury": 0 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 18,
+    "spa": 12,
+    "award": 10,
+    "pool": 13,
+    "beach": 18,
+    "room_service": 5,
+    "stars": 10,
+    "luxury": 0
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 500, "max": 1800 },
+  "price_per_night_usd": {
+    "min": 500,
+    "max": 1800
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "beach", "room service", "water sports", "glass-bottom boat", "fine dining"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beach",
+    "room service",
+    "water sports",
+    "glass-bottom boat",
+    "fine dining"
+  ],
   "photos": [
-    { "url": "/images/hotels/the-cove-eleuthera-bahamas-caribbean/hero.webp", "alt": "the-cove-eleuthera-bahamas-caribbean — hero", "type": "hero" },
-    { "url": "/images/hotels/the-cove-eleuthera-bahamas-caribbean/room.webp", "alt": "the-cove-eleuthera-bahamas-caribbean — room", "type": "room" },
-    { "url": "/images/hotels/the-cove-eleuthera-bahamas-caribbean/pool.webp", "alt": "the-cove-eleuthera-bahamas-caribbean — pool", "type": "pool" },
-    { "url": "/images/hotels/the-cove-eleuthera-bahamas-caribbean/spa.webp", "alt": "the-cove-eleuthera-bahamas-caribbean — spa", "type": "spa" },
-    { "url": "/images/hotels/the-cove-eleuthera-bahamas-caribbean/dining.webp", "alt": "the-cove-eleuthera-bahamas-caribbean — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/the-cove-eleuthera-bahamas-caribbean/hero.webp",
+      "alt": "the-cove-eleuthera-bahamas-caribbean — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/the-cove-eleuthera-bahamas-caribbean/room.webp",
+      "alt": "the-cove-eleuthera-bahamas-caribbean — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/the-cove-eleuthera-bahamas-caribbean/pool.webp",
+      "alt": "the-cove-eleuthera-bahamas-caribbean — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/the-cove-eleuthera-bahamas-caribbean/spa.webp",
+      "alt": "the-cove-eleuthera-bahamas-caribbean — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/the-cove-eleuthera-bahamas-caribbean/dining.webp",
+      "alt": "the-cove-eleuthera-bahamas-caribbean — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.2,
   "tripadvisor_award": true,
@@ -24,13 +69,41 @@
     "verdict": "The Cove Eleuthera is the finest resort on one of the Bahamas' most extraordinarily beautiful islands — a place where the Atlantic Ocean meets the Caribbean Sea across a strip of land barely 100 meters wide at the Glass Window Bridge, creating two completely different ocean colors on either side of the island. The resort's 28 suites overlook Eleuthera's famous pink sand beaches, and the combination of wild natural beauty, adults-oriented atmosphere, and thoughtful design make it among the most beautiful small resorts in the entire Bahamas archipelago.",
     "best_room": "The Ocean View Suites at The Cove are the most dramatic accommodation — elevated above the Atlantic with panoramic ocean views from a private balcony, a plunge pool or large soaking tub with sea views, and the extraordinary experience of watching the Atlantic change color through the day. The Cove Suites in the namesake sheltered cove are the most romantic for direct swimming access to the calm turquoise water.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival in Eleuthera", "description": "Fly from Nassau or Miami to Governor's Harbour Airport on Eleuthera and transfer 20 minutes north to The Cove. Eleuthera immediately distinguishes itself from Nassau's resort strip — this is untouched Bahamas, with wild pink sand beaches, cerulean shallow flats, and a quiet that the larger islands have lost. Check in, explore the cove, and have dinner at the resort's terrace restaurant." },
-      { "day": 2, "title": "Pink Sand Beach Day", "description": "Eleuthera's famous pink sand beaches (the color derived from microscopic coral fragments) stretch for miles near The Cove. Spend the day on the resort's private stretch — the water transitions from pale turquoise over the sandy flats to deep blue at the reef edge, and the coral reef snorkeling 50 meters offshore has excellent visibility and fish diversity." },
-      { "day": 3, "title": "Glass Window Bridge", "description": "The Glass Window Bridge is one of the Bahamas' most extraordinary natural phenomena — at the island's narrowest point, you can stand with the dark blue Atlantic ocean on your left and the milky turquoise Caribbean on your right, simultaneously. The contrast in water color and texture is extraordinary. The rock bridges and arches around the Window are excellent for cliff jumping." },
-      { "day": 4, "title": "Glass-Bottom Boat & Snorkeling", "description": "The Cove's glass-bottom boat excursion explores Eleuthera's offshore reefs and underwater caves — the gin-clear water means the glass bottom is almost redundant, but the guided commentary about the reef ecosystem is informative. Nurse sharks rest in the sandy channels; green and hawksbill sea turtles are regularly seen from the boat and in the water." },
-      { "day": 5, "title": "Harbour Island Day Trip", "description": "Harbour Island (Briland), a 30-minute water taxi from the north end of Eleuthera, is one of the most charming places in the Bahamas — a village of pink clapboard houses, the famous 5km Pink Sand Beach (perhaps the most beautiful in the Bahamas), and the legendary Dunmore Town with its eclectic gallery of upscale Caribbean boutiques and cafés." },
-      { "day": 6, "title": "Spa & Private Dinner", "description": "Morning at The Cove's spa — small but well-equipped with Bahamian sea-based treatments using local conch and marine ingredients. Afternoon kayaking in the sheltered cove, then a private dinner arranged on the beach by the hotel kitchen — fresh Bahamian grouper, lobster, and conch salad under the stars." },
-      { "day": 7, "title": "Final Bahamas Morning", "description": "Last swim in the cove's shallow turquoise water, breakfast on your private balcony, and a slow farewell before the transfer to Governor's Harbour Airport. Eleuthera is one of those Bahamas islands that stays with you — the color of that water is not something you forget easily." }
+      {
+        "day": 1,
+        "title": "Arrival in Eleuthera",
+        "description": "Fly from Nassau or Miami to Governor's Harbour Airport on Eleuthera and transfer 20 minutes north to The Cove. Eleuthera immediately distinguishes itself from Nassau's resort strip — this is untouched Bahamas, with wild pink sand beaches, cerulean shallow flats, and a quiet that the larger islands have lost. Check in, explore the cove, and have dinner at the resort's terrace restaurant."
+      },
+      {
+        "day": 2,
+        "title": "Pink Sand Beach Day",
+        "description": "Eleuthera's famous pink sand beaches (the color derived from microscopic coral fragments) stretch for miles near The Cove. Spend the day on the resort's private stretch — the water transitions from pale turquoise over the sandy flats to deep blue at the reef edge, and the coral reef snorkeling 50 meters offshore has excellent visibility and fish diversity."
+      },
+      {
+        "day": 3,
+        "title": "Glass Window Bridge",
+        "description": "The Glass Window Bridge is one of the Bahamas' most extraordinary natural phenomena — at the island's narrowest point, you can stand with the dark blue Atlantic ocean on your left and the milky turquoise Caribbean on your right, simultaneously. The contrast in water color and texture is extraordinary. The rock bridges and arches around the Window are excellent for cliff jumping."
+      },
+      {
+        "day": 4,
+        "title": "Glass-Bottom Boat & Snorkeling",
+        "description": "The Cove's glass-bottom boat excursion explores Eleuthera's offshore reefs and underwater caves — the gin-clear water means the glass bottom is almost redundant, but the guided commentary about the reef ecosystem is informative. Nurse sharks rest in the sandy channels; green and hawksbill sea turtles are regularly seen from the boat and in the water."
+      },
+      {
+        "day": 5,
+        "title": "Harbour Island Day Trip",
+        "description": "Harbour Island (Briland), a 30-minute water taxi from the north end of Eleuthera, is one of the most charming places in the Bahamas — a village of pink clapboard houses, the famous 5km Pink Sand Beach (perhaps the most beautiful in the Bahamas), and the legendary Dunmore Town with its eclectic gallery of upscale Caribbean boutiques and cafés."
+      },
+      {
+        "day": 6,
+        "title": "Spa & Private Dinner",
+        "description": "Morning at The Cove's spa — small but well-equipped with Bahamian sea-based treatments using local conch and marine ingredients. Afternoon kayaking in the sheltered cove, then a private dinner arranged on the beach by the hotel kitchen — fresh Bahamian grouper, lobster, and conch salad under the stars."
+      },
+      {
+        "day": 7,
+        "title": "Final Bahamas Morning",
+        "description": "Last swim in the cove's shallow turquoise water, breakfast on your private balcony, and a slow farewell before the transfer to Governor's Harbour Airport. Eleuthera is one of those Bahamas islands that stays with you — the color of that water is not something you forget easily."
+      }
     ],
     "caveats": [
       "Getting to Eleuthera requires a connecting flight from Nassau or Miami to the small Governor's Harbour Airport — factor in the connection time when planning your travel.",
@@ -38,12 +111,30 @@
       "Eleuthera's beaches are extraordinary but the Atlantic-facing side can have significant surf on windy days. The resort's sheltered cove is calm for swimming in all conditions."
     ],
     "faqs": [
-      { "question": "Is The Cove Eleuthera good for honeymooners?", "answer": "Excellent for couples who want natural beauty and seclusion over resort-bubble luxury. The Glass Window Bridge, pink sand beaches, clear snorkeling waters, and intimate 28-suite resort create a honeymoon experience of extraordinary natural beauty. Adults-oriented in atmosphere; consistently rated one of the Bahamas' most romantic small resorts." },
-      { "question": "What is the best time to visit?", "answer": "December through May for the best weather — warm temperatures (25–28°C), low rainfall, and calm sea conditions. June through November is hurricane season; Eleuthera can be affected, though direct hits are rare. The shoulder months of November–December and May–June offer excellent value." },
-      { "question": "How far in advance should you book?", "answer": "Book 3–4 months ahead for peak season (January–March) and 6–8 weeks for shoulder dates. The Ocean View Suites and Cove Suites are the most sought-after." },
-      { "question": "Is The Cove adults-only?", "answer": "No, families are welcome. However, the natural setting, water sports focus, and intimate scale create an adults-oriented atmosphere. The resort has been noted as one of the best adults-oriented (not technically adults-only) resorts in the Bahamas." },
-      { "question": "What is the best room type?", "answer": "Ocean View Suite for the most dramatic Atlantic panoramas and elevated position. Cove Suite for direct swimming access to the sheltered turquoise cove. Both are excellent — the choice is between the view and the water." },
-      { "question": "How do you get to The Cove Eleuthera?", "answer": "Fly from Nassau (NAS) or Miami (MIA) to Governor's Harbour Airport (GHB) on Eleuthera — flights take 30–45 minutes. Transfer from GHB to The Cove takes 20 minutes. The resort arranges all transfers." }
+      {
+        "question": "Is The Cove Eleuthera good for honeymooners?",
+        "answer": "Excellent for couples who want natural beauty and seclusion over resort-bubble luxury. The Glass Window Bridge, pink sand beaches, clear snorkeling waters, and intimate 28-suite resort create a honeymoon experience of extraordinary natural beauty. Adults-oriented in atmosphere; consistently rated one of the Bahamas' most romantic small resorts."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "December through May for the best weather — warm temperatures (25–28°C), low rainfall, and calm sea conditions. June through November is hurricane season; Eleuthera can be affected, though direct hits are rare. The shoulder months of November–December and May–June offer excellent value."
+      },
+      {
+        "question": "How far in advance should you book?",
+        "answer": "Book 3–4 months ahead for peak season (January–March) and 6–8 weeks for shoulder dates. The Ocean View Suites and Cove Suites are the most sought-after."
+      },
+      {
+        "question": "Is The Cove adults-only?",
+        "answer": "No, families are welcome. However, the natural setting, water sports focus, and intimate scale create an adults-oriented atmosphere. The resort has been noted as one of the best adults-oriented (not technically adults-only) resorts in the Bahamas."
+      },
+      {
+        "question": "What is the best room type?",
+        "answer": "Ocean View Suite for the most dramatic Atlantic panoramas and elevated position. Cove Suite for direct swimming access to the sheltered turquoise cove. Both are excellent — the choice is between the view and the water."
+      },
+      {
+        "question": "How do you get to The Cove Eleuthera?",
+        "answer": "Fly from Nassau (NAS) or Miami (MIA) to Governor's Harbour Airport (GHB) on Eleuthera — flights take 30–45 minutes. Transfer from GHB to The Cove takes 20 minutes. The resort arranges all transfers."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — The Cove Eleuthera\n\nDear The Cove team,\n\nWe are planning our honeymoon [DATE]-[DATE] and interested in an Ocean View Suite or a Cove Suite. Please advise on availability, any honeymoon packages, and whether a private beach dinner and glass-bottom boat excursion can be arranged during our stay.\n\nThank you,\n[Your names]"
   },

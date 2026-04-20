@@ -3,34 +3,108 @@
   "name": "Templation Hotel Siem Reap",
   "destination": "cambodia",
   "country": "cambodia",
-  "experience_types": ["luxury", "wellness"],
-  "honeymoon_score": 86,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 18, "spa": 15, "award": 8, "pool": 10, "beach": 0, "room_service": 10, "stars": 15, "luxury": 10 },
-  "stars": 5,
-  "price_per_night_usd": { "min": 300, "max": 900 },
-  "adults_only": false,
-  "amenities": ["spa", "pool", "room service", "butler service", "yoga", "fine dining", "private pool suites", "Angkor access", "temple atmosphere"],
-  "photos": [
-    { "url": "/images/hotels/templation-hotel-siem-reap-cambodia/hero.webp", "alt": "templation-hotel-siem-reap-cambodia — hero", "type": "hero" },
-    { "url": "/images/hotels/templation-hotel-siem-reap-cambodia/room.webp", "alt": "templation-hotel-siem-reap-cambodia — room", "type": "room" },
-    { "url": "/images/hotels/templation-hotel-siem-reap-cambodia/pool.webp", "alt": "templation-hotel-siem-reap-cambodia — pool", "type": "pool" },
-    { "url": "/images/hotels/templation-hotel-siem-reap-cambodia/spa.webp", "alt": "templation-hotel-siem-reap-cambodia — spa", "type": "spa" },
-    { "url": "/images/hotels/templation-hotel-siem-reap-cambodia/dining.webp", "alt": "templation-hotel-siem-reap-cambodia — dining", "type": "dining" }
+  "experience_types": [
+    "luxury",
+    "wellness"
   ],
-  "tripadvisor_rating": 9.0,
+  "honeymoon_score": 86,
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 18,
+    "spa": 15,
+    "award": 8,
+    "pool": 10,
+    "beach": 0,
+    "room_service": 10,
+    "stars": 15,
+    "luxury": 10
+  },
+  "stars": 5,
+  "price_per_night_usd": {
+    "min": 300,
+    "max": 900
+  },
+  "adults_only": false,
+  "amenities": [
+    "spa",
+    "pool",
+    "room service",
+    "butler service",
+    "yoga",
+    "fine dining",
+    "private pool suites",
+    "Angkor access",
+    "temple atmosphere"
+  ],
+  "photos": [
+    {
+      "url": "/images/hotels/templation-hotel-siem-reap-cambodia/hero.webp",
+      "alt": "templation-hotel-siem-reap-cambodia — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/templation-hotel-siem-reap-cambodia/room.webp",
+      "alt": "templation-hotel-siem-reap-cambodia — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/templation-hotel-siem-reap-cambodia/pool.webp",
+      "alt": "templation-hotel-siem-reap-cambodia — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/templation-hotel-siem-reap-cambodia/spa.webp",
+      "alt": "templation-hotel-siem-reap-cambodia — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/templation-hotel-siem-reap-cambodia/dining.webp",
+      "alt": "templation-hotel-siem-reap-cambodia — dining",
+      "type": "dining"
+    }
+  ],
+  "tripadvisor_rating": 9,
   "tripadvisor_award": false,
   "couples_review_pct": 65,
   "content": {
     "verdict": "Templation Hotel is a refined boutique in the Angkor Wat area — 38 suites that draw their design language directly from Khmer temple architecture: stone carvings, reflecting pools, and sandstone textures create an atmosphere of serene spiritual immersion as a backdrop to romantic luxury. At a fraction of the Amansara price point, Templation delivers genuine five-star quality with excellent pool suites, attentive service, and easy access to Angkor's temples. This is the best mid-luxury option for an Angkor honeymoon.",
     "best_room": "The Pool Suite category is the standout choice for honeymooners — a private plunge pool in a stone-walled garden courtyard, the sound of a trickling water feature, and rooms decorated with hand-carved Khmer stone panels and dark tropical wood. The suites on the upper floors have the most privacy and the best views over the resort's garden and pool. Every detail in the Pool Suites references Angkor's temple aesthetic, from the carved Devata dancer on the headboard to the stone lotus in the bathroom.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Temple Atmosphere", "description": "Siem Reap Airport is 20 minutes from Templation. The hotel's temple-inspired entrance — a Naga serpent balustrade, stone apsara carvings, and a lily pond — immediately establishes the aesthetic tone. An evening poolside dinner introduces you to Khmer cuisine: fish amok, lok lak, and fresh coconut desserts in an atmosphere of elegant calm." },
-      { "day": 2, "title": "Angkor Wat Sunrise", "description": "4am departure by tuk-tuk through the sleeping town to Angkor Wat. Watch the five towers emerge from darkness as the eastern sky brightens from indigo to coral — perhaps Southeast Asia's most photographed moment. Return for breakfast at the hotel before the heat intensifies, then a pool morning to recover." },
-      { "day": 3, "title": "Angkor Thom & Bayon", "description": "Full day exploring the walled city of Angkor Thom with the hotel's recommended guide — the Bayon's 216 serene stone faces watching from every angle, the Baphuon's causeway reconstruction, and the Terrace of the Elephants. Afternoon spa at Templation: a Khmer herbal compress treatment followed by a traditional Khmer head massage." },
-      { "day": 4, "title": "Yoga Sunrise & Old Market", "description": "Morning yoga session with the hotel's instructor on the poolside platform as the Siem Reap sun rises. A mid-morning tuk-tuk to the Old Market district for street food exploration: fresh papaya salad, Cambodian-style iced coffee, and the extraordinary banana blossom salad from a vendor operating from the same corner for 30 years." },
-      { "day": 5, "title": "Ta Prohm & Banteay Srei", "description": "Ta Prohm's jungle-engulfed ruins at mid-morning (quieter than at dawn) followed by a 25km drive to Banteay Srei — the 'Citadel of Women' with the most intricate pink sandstone carvings in the Angkor complex. Return via the floating village on Tonle Sap Lake for a sunset boat trip." },
-      { "day": 6, "title": "Khmer Cooking Class & Sunset Cocktails", "description": "A morning Khmer cooking class at the hotel's kitchen — learning to prepare the essential sauces and aromatics (galangal, kaffir lime, turmeric) that underpin Cambodian cuisine. The afternoon is for private pool time before sunset cocktails at one of Siem Reap's rooftop bars with Angkor Wat visible on the horizon." },
-      { "day": 7, "title": "Final Temple & Farewell Dinner", "description": "Visit one last temple before departure: Preah Khan or the more remote Banteay Kdei, where fewer tourists allow a more intimate experience of Angkor's scale. A farewell dinner at the hotel's restaurant, reflecting on a week among one of humanity's greatest architectural achievements." }
+      {
+        "day": 1,
+        "title": "Arrival & Temple Atmosphere",
+        "description": "Siem Reap Airport is 20 minutes from Templation. The hotel's temple-inspired entrance — a Naga serpent balustrade, stone apsara carvings, and a lily pond — immediately establishes the aesthetic tone. An evening poolside dinner introduces you to Khmer cuisine: fish amok, lok lak, and fresh coconut desserts in an atmosphere of elegant calm."
+      },
+      {
+        "day": 2,
+        "title": "Angkor Wat Sunrise",
+        "description": "4am departure by tuk-tuk through the sleeping town to Angkor Wat. Watch the five towers emerge from darkness as the eastern sky brightens from indigo to coral — perhaps Southeast Asia's most photographed moment. Return for breakfast at the hotel before the heat intensifies, then a pool morning to recover."
+      },
+      {
+        "day": 3,
+        "title": "Angkor Thom & Bayon",
+        "description": "Full day exploring the walled city of Angkor Thom with the hotel's recommended guide — the Bayon's 216 serene stone faces watching from every angle, the Baphuon's causeway reconstruction, and the Terrace of the Elephants. Afternoon spa at Templation: a Khmer herbal compress treatment followed by a traditional Khmer head massage."
+      },
+      {
+        "day": 4,
+        "title": "Yoga Sunrise & Old Market",
+        "description": "Morning yoga session with the hotel's instructor on the poolside platform as the Siem Reap sun rises. A mid-morning tuk-tuk to the Old Market district for street food exploration: fresh papaya salad, Cambodian-style iced coffee, and the extraordinary banana blossom salad from a vendor operating from the same corner for 30 years."
+      },
+      {
+        "day": 5,
+        "title": "Ta Prohm & Banteay Srei",
+        "description": "Ta Prohm's jungle-engulfed ruins at mid-morning (quieter than at dawn) followed by a 25km drive to Banteay Srei — the 'Citadel of Women' with the most intricate pink sandstone carvings in the Angkor complex. Return via the floating village on Tonle Sap Lake for a sunset boat trip."
+      },
+      {
+        "day": 6,
+        "title": "Khmer Cooking Class & Sunset Cocktails",
+        "description": "A morning Khmer cooking class at the hotel's kitchen — learning to prepare the essential sauces and aromatics (galangal, kaffir lime, turmeric) that underpin Cambodian cuisine. The afternoon is for private pool time before sunset cocktails at one of Siem Reap's rooftop bars with Angkor Wat visible on the horizon."
+      },
+      {
+        "day": 7,
+        "title": "Final Temple & Farewell Dinner",
+        "description": "Visit one last temple before departure: Preah Khan or the more remote Banteay Kdei, where fewer tourists allow a more intimate experience of Angkor's scale. A farewell dinner at the hotel's restaurant, reflecting on a week among one of humanity's greatest architectural achievements."
+      }
     ],
     "caveats": [
       "Templation is a boutique property — service is attentive but the personal dedication of Amansara's private guide model is not replicated at this price point.",
@@ -38,12 +112,30 @@
       "The Angkor area can be extremely hot and crowded from March to May; November through February is significantly more comfortable."
     ],
     "faqs": [
-      { "question": "Good for honeymooners?", "answer": "Templation is an excellent honeymoon choice for couples who want authentic Angkor immersion at a more accessible price point. The temple-inspired architecture creates a constantly romantic atmosphere, the pool suites are genuinely beautiful, and Angkor's temples — the most extraordinary monument complex in Southeast Asia — provide an inexhaustible backdrop for shared wonder." },
-      { "question": "Best time to visit?", "answer": "November through March is the dry season and most comfortable for temple exploration. December and January are the coolest months and peak season. April and May are extremely hot (38°C+). The wet season (June-October) sees lush temple environs and fewer tourists at a significantly lower rate." },
-      { "question": "Book in advance?", "answer": "Pool Suites book out 2 to 4 months ahead for peak season. The hotel is popular with couples and offers good availability outside of Christmas and Chinese New Year periods. Mention your honeymoon for room decorations and a complimentary welcome amenity." },
-      { "question": "Adults-only?", "answer": "No — Templation welcomes all guests. The boutique scale and sophisticated temple aesthetic make it naturally quiet and romantic, but it is not formally adults-only. Families with older children visiting Angkor are also well-served." },
-      { "question": "Best room type?", "answer": "Pool Suites are the definitive honeymoon choice — private garden plunge pool, Khmer stone décor, and maximum privacy within the hotel. Upper-floor suites add the best garden and hotel views. The temple carving and stone aesthetic in Pool Suites creates the most immersive Angkor-themed romance." },
-      { "question": "How to get there?", "answer": "Siem Reap International Airport (SAI) receives direct international flights from Bangkok, Singapore, Kuala Lumpur, and Ho Chi Minh City, plus regional Cambodian connections. Transfer to the hotel takes 20 minutes. The hotel arranges tuk-tuk transfers for temple excursions — a far more romantic and atmospheric way to reach the temples than by private car." }
+      {
+        "question": "Good for honeymooners?",
+        "answer": "Templation is an excellent honeymoon choice for couples who want authentic Angkor immersion at a more accessible price point. The temple-inspired architecture creates a constantly romantic atmosphere, the pool suites are genuinely beautiful, and Angkor's temples — the most extraordinary monument complex in Southeast Asia — provide an inexhaustible backdrop for shared wonder."
+      },
+      {
+        "question": "Best time to visit?",
+        "answer": "November through March is the dry season and most comfortable for temple exploration. December and January are the coolest months and peak season. April and May are extremely hot (38°C+). The wet season (June-October) sees lush temple environs and fewer tourists at a significantly lower rate."
+      },
+      {
+        "question": "Book in advance?",
+        "answer": "Pool Suites book out 2 to 4 months ahead for peak season. The hotel is popular with couples and offers good availability outside of Christmas and Chinese New Year periods. Mention your honeymoon for room decorations and a complimentary welcome amenity."
+      },
+      {
+        "question": "Adults-only?",
+        "answer": "No — Templation welcomes all guests. The boutique scale and sophisticated temple aesthetic make it naturally quiet and romantic, but it is not formally adults-only. Families with older children visiting Angkor are also well-served."
+      },
+      {
+        "question": "Best room type?",
+        "answer": "Pool Suites are the definitive honeymoon choice — private garden plunge pool, Khmer stone décor, and maximum privacy within the hotel. Upper-floor suites add the best garden and hotel views. The temple carving and stone aesthetic in Pool Suites creates the most immersive Angkor-themed romance."
+      },
+      {
+        "question": "How to get there?",
+        "answer": "Siem Reap International Airport (SAI) receives direct international flights from Bangkok, Singapore, Kuala Lumpur, and Ho Chi Minh City, plus regional Cambodian connections. Transfer to the hotel takes 20 minutes. The hotel arranges tuk-tuk transfers for temple excursions — a far more romantic and atmospheric way to reach the temples than by private car."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — Templation Hotel Siem Reap\n\nDear Templation reservations team,\n\nWe are planning our honeymoon [DATE]-[DATE] and are interested in a Pool Suite. Please advise on availability, private guide arrangements for the temples, honeymoon packages, and any complimentary inclusions for celebrating couples.\n\nThank you,\n[Your names]"
   },

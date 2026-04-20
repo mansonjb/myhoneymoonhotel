@@ -3,7 +3,10 @@
   "name": "Grand Hotel Excelsior Vittoria",
   "destination": "amalfi",
   "country": "italy",
-  "experience_types": ["luxury", "beach"],
+  "experience_types": [
+    "luxury",
+    "beach"
+  ],
   "honeymoon_score": 85,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +20,49 @@
     "luxury": 9
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 400, "max": 1200 },
+  "price_per_night_usd": {
+    "min": 400,
+    "max": 1200
+  },
   "adults_only": false,
-  "amenities": ["pool", "spa", "restaurant", "bar", "room service", "concierge", "private garden", "tennis court", "piano bar", "elevator to sea"],
+  "amenities": [
+    "pool",
+    "spa",
+    "restaurant",
+    "bar",
+    "room service",
+    "concierge",
+    "private garden",
+    "tennis court",
+    "piano bar",
+    "elevator to sea"
+  ],
   "photos": [
-    { "url": "/images/hotels/grand-hotel-excelsior-vittoria-amalfi/hero.webp", "alt": "grand-hotel-excelsior-vittoria-amalfi — hero", "type": "hero" },
-    { "url": "/images/hotels/grand-hotel-excelsior-vittoria-amalfi/room.webp", "alt": "grand-hotel-excelsior-vittoria-amalfi — room", "type": "room" },
-    { "url": "/images/hotels/grand-hotel-excelsior-vittoria-amalfi/pool.webp", "alt": "grand-hotel-excelsior-vittoria-amalfi — pool", "type": "pool" },
-    { "url": "/images/hotels/grand-hotel-excelsior-vittoria-amalfi/spa.webp", "alt": "grand-hotel-excelsior-vittoria-amalfi — spa", "type": "spa" },
-    { "url": "/images/hotels/grand-hotel-excelsior-vittoria-amalfi/dining.webp", "alt": "grand-hotel-excelsior-vittoria-amalfi — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/grand-hotel-excelsior-vittoria-amalfi/hero.webp",
+      "alt": "grand-hotel-excelsior-vittoria-amalfi — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/grand-hotel-excelsior-vittoria-amalfi/room.webp",
+      "alt": "grand-hotel-excelsior-vittoria-amalfi — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/grand-hotel-excelsior-vittoria-amalfi/pool.webp",
+      "alt": "grand-hotel-excelsior-vittoria-amalfi — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/grand-hotel-excelsior-vittoria-amalfi/spa.webp",
+      "alt": "grand-hotel-excelsior-vittoria-amalfi — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/grand-hotel-excelsior-vittoria-amalfi/dining.webp",
+      "alt": "grand-hotel-excelsior-vittoria-amalfi — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.1,
   "tripadvisor_award": true,
@@ -34,13 +71,41 @@
     "verdict": "The Grand Hotel Excelsior Vittoria is a living monument to the golden age of travel — an 1834 clifftop palazzo in Sorrento where Caruso recorded some of his most famous recordings and Pavarotti celebrated birthdays. Its aristocratic gardens, frescoed salons, and clifftop pool with views across the Bay of Naples to Vesuvius create an atmosphere of old-world grandeur that is genuinely irreplaceable. For couples who love history, opera, and a touch of faded Italian elegance, this is one of the most evocative hotels in southern Italy.",
     "best_room": "The Vittoria Suite in the 1834 palazzo building offers frescoed ceilings, period furnishings, and a balcony overlooking the sea and Vesuvius — the most historically atmospheric room in the hotel. For a more contemporary feel with maximum sea views, the rooms in the newer Cocumella wing with private balconies are excellent. Avoid garden-view rooms if a sea panorama is important to you.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival in Sorrento", "description": "Arrive by private transfer from Naples and enter through the hotel's historic gates into four acres of orange and lemon groves tumbling down the clifftop. The welcome at Excelsior Vittoria is traditional and gracious — the kind of hotel where the head porter has worked there for thirty years and knows every guest by name. Dinner at the Terrazza Bosquet restaurant with its Michelin-starred contemporary Campanian cuisine sets the tone beautifully." },
-      { "day": 2, "title": "Sorrento & the Cliffside Gardens", "description": "Spend the morning exploring the hotel's extraordinary four-hectare gardens — Caruso's favorite walk was reportedly among the orange trees at dawn. Descend by the hotel's elevator to the small sea platform for morning swimming, then take the 10-minute walk into Sorrento's historic center for afternoon browsing of inlaid woodwork and limoncello boutiques. Return for the legendary sunset aperitivo at the terrace bar." },
-      { "day": 3, "title": "Capri Day Trip", "description": "Take the early hydrofoil from Sorrento harbor to Capri — the journey is just 25 minutes. Ride the funicular up to the Piazzetta for coffee among the jet set, hire a private boat to tour the Blue Grotto and the sea stacks of the Faraglioni, and have lunch at one of the island's seafood restaurants. Return to Sorrento by late afternoon in time for a long soak before dinner." },
-      { "day": 4, "title": "Pompeii & Herculaneum", "description": "Take a half-day trip to the extraordinary ruins of Pompeii (30 minutes from Sorrento) for a haunting and fascinating encounter with the ancient Roman world. The Excelsior Vittoria can arrange a private guide who brings the buried city alive in a way that generic tours do not. Return for an afternoon by the clifftop pool and a candlelit dinner in the garden." },
-      { "day": 5, "title": "Amalfi Coast Drive", "description": "Hire a private driver for the day and navigate the SS163 Amalfitana — one of the great scenic drives in the world. Stop in Positano for a swim and lunch, continue to Amalfi town's cathedral, and end the day in Ravello for sunset at Villa Cimbrone before winding back to Sorrento as the coastal towns light up below." },
-      { "day": 6, "title": "Spa & Piano Bar Evening", "description": "Dedicate the morning and early afternoon to the hotel's spa with back-to-back treatments. After a long nap, dress for a special evening — aperitivi in the garden at dusk followed by a performance in the hotel's piano bar, which hosts live classical music in a space that once echoed with Caruso's own voice. Dinner in the frescoed dining room feels like a fitting finale." },
-      { "day": 7, "title": "Farewell Morning", "description": "A final walk through the lemon and orange groves, coffee and sfogliatelle at the terrace bar, one last look at Vesuvius across the bay. The hotel will arrange a seamless transfer to Naples airport or Capodichino, and the staff's farewell has a warmth that comes from over 180 years of hosting the world's most celebrated guests." }
+      {
+        "day": 1,
+        "title": "Arrival in Sorrento",
+        "description": "Arrive by private transfer from Naples and enter through the hotel's historic gates into four acres of orange and lemon groves tumbling down the clifftop. The welcome at Excelsior Vittoria is traditional and gracious — the kind of hotel where the head porter has worked there for thirty years and knows every guest by name. Dinner at the Terrazza Bosquet restaurant with its Michelin-starred contemporary Campanian cuisine sets the tone beautifully."
+      },
+      {
+        "day": 2,
+        "title": "Sorrento & the Cliffside Gardens",
+        "description": "Spend the morning exploring the hotel's extraordinary four-hectare gardens — Caruso's favorite walk was reportedly among the orange trees at dawn. Descend by the hotel's elevator to the small sea platform for morning swimming, then take the 10-minute walk into Sorrento's historic center for afternoon browsing of inlaid woodwork and limoncello boutiques. Return for the legendary sunset aperitivo at the terrace bar."
+      },
+      {
+        "day": 3,
+        "title": "Capri Day Trip",
+        "description": "Take the early hydrofoil from Sorrento harbor to Capri — the journey is just 25 minutes. Ride the funicular up to the Piazzetta for coffee among the jet set, hire a private boat to tour the Blue Grotto and the sea stacks of the Faraglioni, and have lunch at one of the island's seafood restaurants. Return to Sorrento by late afternoon in time for a long soak before dinner."
+      },
+      {
+        "day": 4,
+        "title": "Pompeii & Herculaneum",
+        "description": "Take a half-day trip to the extraordinary ruins of Pompeii (30 minutes from Sorrento) for a haunting and fascinating encounter with the ancient Roman world. The Excelsior Vittoria can arrange a private guide who brings the buried city alive in a way that generic tours do not. Return for an afternoon by the clifftop pool and a candlelit dinner in the garden."
+      },
+      {
+        "day": 5,
+        "title": "Amalfi Coast Drive",
+        "description": "Hire a private driver for the day and navigate the SS163 Amalfitana — one of the great scenic drives in the world. Stop in Positano for a swim and lunch, continue to Amalfi town's cathedral, and end the day in Ravello for sunset at Villa Cimbrone before winding back to Sorrento as the coastal towns light up below."
+      },
+      {
+        "day": 6,
+        "title": "Spa & Piano Bar Evening",
+        "description": "Dedicate the morning and early afternoon to the hotel's spa with back-to-back treatments. After a long nap, dress for a special evening — aperitivi in the garden at dusk followed by a performance in the hotel's piano bar, which hosts live classical music in a space that once echoed with Caruso's own voice. Dinner in the frescoed dining room feels like a fitting finale."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "A final walk through the lemon and orange groves, coffee and sfogliatelle at the terrace bar, one last look at Vesuvius across the bay. The hotel will arrange a seamless transfer to Naples airport or Capodichino, and the staff's farewell has a warmth that comes from over 180 years of hosting the world's most celebrated guests."
+      }
     ],
     "caveats": [
       "Sorrento is at the western end of the Amalfi Coast, not on the coast road itself — it's a base for day trips rather than being immersed in the coast. Couples wanting to be in Positano or Amalfi should choose a hotel there instead.",

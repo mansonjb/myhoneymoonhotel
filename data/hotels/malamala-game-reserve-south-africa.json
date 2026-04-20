@@ -3,19 +3,64 @@
   "name": "MalaMala Game Reserve",
   "destination": "south-africa",
   "country": "south-africa",
-  "experience_types": ["safari", "luxury"],
+  "experience_types": [
+    "safari",
+    "luxury"
+  ],
   "honeymoon_score": 93,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 18, "spa": 15, "award": 10, "pool": 10, "beach": 0, "room_service": 10, "stars": 20, "luxury": 10 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 18,
+    "spa": 15,
+    "award": 10,
+    "pool": 10,
+    "beach": 0,
+    "room_service": 10,
+    "stars": 20,
+    "luxury": 10
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 1500, "max": 4000 },
+  "price_per_night_usd": {
+    "min": 1500,
+    "max": 4000
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "game drives", "room service", "butler service", "fine dining", "bush walks", "private vehicle"],
+  "amenities": [
+    "spa",
+    "pool",
+    "game drives",
+    "room service",
+    "butler service",
+    "fine dining",
+    "bush walks",
+    "private vehicle"
+  ],
   "photos": [
-    { "url": "/images/hotels/malamala-game-reserve-south-africa/hero.webp", "alt": "malamala-game-reserve-south-africa — hero", "type": "hero" },
-    { "url": "/images/hotels/malamala-game-reserve-south-africa/room.webp", "alt": "malamala-game-reserve-south-africa — room", "type": "room" },
-    { "url": "/images/hotels/malamala-game-reserve-south-africa/pool.webp", "alt": "malamala-game-reserve-south-africa — pool", "type": "pool" },
-    { "url": "/images/hotels/malamala-game-reserve-south-africa/spa.webp", "alt": "malamala-game-reserve-south-africa — spa", "type": "spa" },
-    { "url": "/images/hotels/malamala-game-reserve-south-africa/dining.webp", "alt": "malamala-game-reserve-south-africa — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/malamala-game-reserve-south-africa/hero.webp",
+      "alt": "malamala-game-reserve-south-africa — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/malamala-game-reserve-south-africa/room.webp",
+      "alt": "malamala-game-reserve-south-africa — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/malamala-game-reserve-south-africa/pool.webp",
+      "alt": "malamala-game-reserve-south-africa — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/malamala-game-reserve-south-africa/spa.webp",
+      "alt": "malamala-game-reserve-south-africa — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/malamala-game-reserve-south-africa/dining.webp",
+      "alt": "malamala-game-reserve-south-africa — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.5,
   "tripadvisor_award": true,
@@ -24,13 +69,41 @@
     "verdict": "MalaMala is Africa's largest private Big 5 game reserve bordering Kruger, with 13,500 hectares of bushveld and 19 km of Sand River frontage ensuring staggering wildlife density and the highest Big 5 sighting rates on the continent. Three camps — Main Camp, Sable Camp, and Rattray's — each offer a different style, but all share the same extraordinary game and guiding legacy. This is the most consistent Big 5 safari in Africa.",
     "best_room": "Rattray's on MalaMala is the pinnacle — just eight suites in a colonial-grand style on the Sand River, with plunge pools, a private chef, and a dedicated field guide. For the classic MalaMala experience at a slightly lower price, Main Camp's riverfront suites offer terraces directly above the Sand River where elephants drink at dusk. Sable Camp is the most intimate option with just seven suites and an exclusive-use configuration available for couples.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Sand River Sundowner", "description": "Charter flight from Johannesburg to MalaMala's private airstrip — a 75-minute journey over the Lowveld. Your ranger collects you for an immediate afternoon game drive along the Sand River, where hippos snort and crocodiles bask. Sundowners on a sandbank, then return to camp for a first dinner under an infinite African sky." },
-      { "day": 2, "title": "Big 5 Morning & Spa Afternoon", "description": "Pre-dawn departure for the morning drive — the golden hour when lions are most active. MalaMala's guiding team has tracked these animals for generations and their knowledge is unmatched. After brunch, the spa offers a couple's bush-berry treatment while elephants drink at the waterhole below." },
-      { "day": 3, "title": "Leopard Tracking", "description": "MalaMala has one of Africa's best-documented leopard populations, with individual animals known and tracked for decades. Your ranger spends the morning focused on locating a resident leopard — perhaps in a marula tree with an impala kill, or stalking through the dense riverine bush." },
-      { "day": 4, "title": "Walking Safari & Sundowner Cruise", "description": "A guided walk through the reserve with an armed ranger and tracker — learning to read spoor, identify plants, and experience the bush at human scale. The afternoon game drive ventures to the reserve's northern reaches, ending with sundowners at a private sandbank as hippos grunt in the river below." },
-      { "day": 5, "title": "Lion Pride & Night Drive", "description": "MalaMala's resident lion prides are a daily presence. The morning drive focuses on the latest kill site, where lions may still be feeding and vultures circle overhead. The night drive after dinner illuminates a completely different cast of characters — porcupines, genets, and the burning eyes of leopards in the dark." },
-      { "day": 6, "title": "Rhino Conservation & Private Dinner", "description": "Both black and white rhino are present in the reserve — a reminder of MalaMala's vital conservation role. Learn about the anti-poaching work underway in the Greater Kruger ecosystem before a private dinner set in the bush: tables lit with lanterns, the sound of the river, and a sky blazing with stars." },
-      { "day": 7, "title": "Final Drive & Farewell", "description": "A last morning drive at golden hour, then breakfast at camp watching the waterhole. The Sand River is at its most magical in the early morning light, with elephants crossing and kingfishers darting. A full camp farewell before the charter flight back to Johannesburg, minds full of unforgettable images." }
+      {
+        "day": 1,
+        "title": "Arrival & Sand River Sundowner",
+        "description": "Charter flight from Johannesburg to MalaMala's private airstrip — a 75-minute journey over the Lowveld. Your ranger collects you for an immediate afternoon game drive along the Sand River, where hippos snort and crocodiles bask. Sundowners on a sandbank, then return to camp for a first dinner under an infinite African sky."
+      },
+      {
+        "day": 2,
+        "title": "Big 5 Morning & Spa Afternoon",
+        "description": "Pre-dawn departure for the morning drive — the golden hour when lions are most active. MalaMala's guiding team has tracked these animals for generations and their knowledge is unmatched. After brunch, the spa offers a couple's bush-berry treatment while elephants drink at the waterhole below."
+      },
+      {
+        "day": 3,
+        "title": "Leopard Tracking",
+        "description": "MalaMala has one of Africa's best-documented leopard populations, with individual animals known and tracked for decades. Your ranger spends the morning focused on locating a resident leopard — perhaps in a marula tree with an impala kill, or stalking through the dense riverine bush."
+      },
+      {
+        "day": 4,
+        "title": "Walking Safari & Sundowner Cruise",
+        "description": "A guided walk through the reserve with an armed ranger and tracker — learning to read spoor, identify plants, and experience the bush at human scale. The afternoon game drive ventures to the reserve's northern reaches, ending with sundowners at a private sandbank as hippos grunt in the river below."
+      },
+      {
+        "day": 5,
+        "title": "Lion Pride & Night Drive",
+        "description": "MalaMala's resident lion prides are a daily presence. The morning drive focuses on the latest kill site, where lions may still be feeding and vultures circle overhead. The night drive after dinner illuminates a completely different cast of characters — porcupines, genets, and the burning eyes of leopards in the dark."
+      },
+      {
+        "day": 6,
+        "title": "Rhino Conservation & Private Dinner",
+        "description": "Both black and white rhino are present in the reserve — a reminder of MalaMala's vital conservation role. Learn about the anti-poaching work underway in the Greater Kruger ecosystem before a private dinner set in the bush: tables lit with lanterns, the sound of the river, and a sky blazing with stars."
+      },
+      {
+        "day": 7,
+        "title": "Final Drive & Farewell",
+        "description": "A last morning drive at golden hour, then breakfast at camp watching the waterhole. The Sand River is at its most magical in the early morning light, with elephants crossing and kingfishers darting. A full camp farewell before the charter flight back to Johannesburg, minds full of unforgettable images."
+      }
     ],
     "caveats": [
       "MalaMala is a malaria area; consult your physician about prophylaxis well before travel.",
@@ -38,12 +111,30 @@
       "Main Camp is larger (25 suites) and better for those who enjoy a social atmosphere; Rattray's and Sable Camp offer far greater intimacy for honeymooners."
     ],
     "faqs": [
-      { "question": "Good for honeymooners?", "answer": "MalaMala is one of Africa's finest honeymoon safari choices. The unmatched Big 5 sightings and the reserve's exclusive road access — no day trippers, ever — create an extraordinary sense of private wilderness. Rattray's and Sable Camp are particularly well-suited to romantic couples. Rangers have a 60-year tradition of ensuring guests leave having witnessed something truly remarkable." },
-      { "question": "Best time to visit?", "answer": "The dry winter months of May through October are peak safari season — thinning vegetation and concentrated water sources bring animals into the open. August and September are outstanding for predator and elephant activity. The summer wet season (November to April) brings lush scenery, newborn animals, and excellent birding, with lower rates." },
-      { "question": "Book in advance?", "answer": "Rattray's and Sable Camp's small size means they book out 9 to 12 months ahead in peak season. Main Camp has more flexibility but still requires advance planning. Always communicate your honeymoon at booking for private touches and room decorations." },
-      { "question": "Adults-only?", "answer": "MalaMala is not adults-only. Rattray's on MalaMala has a minimum age of 16 for game drives; Main Camp accepts younger children. The reserve's atmosphere is naturally suited to adult couples seeking a premium wilderness experience." },
-      { "question": "Best room type?", "answer": "Rattray's on MalaMala offers the most luxurious and intimate experience for honeymooners. Sable Camp's seven suites with exclusive-use option is ideal for couples wanting total privacy. At Main Camp, the riverfront suites directly overlook the Sand River and provide the classic MalaMala experience." },
-      { "question": "How to get there?", "answer": "MalaMala has its own private airstrip receiving charter flights from Johannesburg (75 minutes) and Hoedspruit. Federal Air and other operators run scheduled charters that align with international flight connections. The reserve also accepts road transfers from Kruger Mpumalanga International Airport, approximately 2.5 hours by private vehicle." }
+      {
+        "question": "Good for honeymooners?",
+        "answer": "MalaMala is one of Africa's finest honeymoon safari choices. The unmatched Big 5 sightings and the reserve's exclusive road access — no day trippers, ever — create an extraordinary sense of private wilderness. Rattray's and Sable Camp are particularly well-suited to romantic couples. Rangers have a 60-year tradition of ensuring guests leave having witnessed something truly remarkable."
+      },
+      {
+        "question": "Best time to visit?",
+        "answer": "The dry winter months of May through October are peak safari season — thinning vegetation and concentrated water sources bring animals into the open. August and September are outstanding for predator and elephant activity. The summer wet season (November to April) brings lush scenery, newborn animals, and excellent birding, with lower rates."
+      },
+      {
+        "question": "Book in advance?",
+        "answer": "Rattray's and Sable Camp's small size means they book out 9 to 12 months ahead in peak season. Main Camp has more flexibility but still requires advance planning. Always communicate your honeymoon at booking for private touches and room decorations."
+      },
+      {
+        "question": "Adults-only?",
+        "answer": "MalaMala is not adults-only. Rattray's on MalaMala has a minimum age of 16 for game drives; Main Camp accepts younger children. The reserve's atmosphere is naturally suited to adult couples seeking a premium wilderness experience."
+      },
+      {
+        "question": "Best room type?",
+        "answer": "Rattray's on MalaMala offers the most luxurious and intimate experience for honeymooners. Sable Camp's seven suites with exclusive-use option is ideal for couples wanting total privacy. At Main Camp, the riverfront suites directly overlook the Sand River and provide the classic MalaMala experience."
+      },
+      {
+        "question": "How to get there?",
+        "answer": "MalaMala has its own private airstrip receiving charter flights from Johannesburg (75 minutes) and Hoedspruit. Federal Air and other operators run scheduled charters that align with international flight connections. The reserve also accepts road transfers from Kruger Mpumalanga International Airport, approximately 2.5 hours by private vehicle."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — MalaMala Game Reserve\n\nDear MalaMala reservations team,\n\nWe are planning our honeymoon [DATE]-[DATE] and are interested in [Rattray's / Sable Camp / Main Camp riverfront suite]. Please advise on availability, fully-inclusive rates, charter flight arrangements, and any honeymoon packages.\n\nThank you,\n[Your names]"
   },

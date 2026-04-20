@@ -3,7 +3,11 @@
   "name": "Segera Retreat",
   "destination": "kenya",
   "country": "kenya",
-  "experience_types": ["safari", "luxury", "wellness"],
+  "experience_types": [
+    "safari",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 91,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,48 @@
     "luxury": 5
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 1200, "max": 3000 },
+  "price_per_night_usd": {
+    "min": 1200,
+    "max": 3000
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "room service", "butler service", "game drives", "walking safaris", "art gallery", "private pool villas", "all-inclusive"],
+  "amenities": [
+    "spa",
+    "pool",
+    "room service",
+    "butler service",
+    "game drives",
+    "walking safaris",
+    "art gallery",
+    "private pool villas",
+    "all-inclusive"
+  ],
   "photos": [
-    { "url": "/images/hotels/segera-retreat-kenya/hero.webp", "alt": "segera-retreat-kenya — hero", "type": "hero" },
-    { "url": "/images/hotels/segera-retreat-kenya/room.webp", "alt": "segera-retreat-kenya — room", "type": "room" },
-    { "url": "/images/hotels/segera-retreat-kenya/pool.webp", "alt": "segera-retreat-kenya — pool", "type": "pool" },
-    { "url": "/images/hotels/segera-retreat-kenya/spa.webp", "alt": "segera-retreat-kenya — spa", "type": "spa" },
-    { "url": "/images/hotels/segera-retreat-kenya/dining.webp", "alt": "segera-retreat-kenya — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/segera-retreat-kenya/hero.webp",
+      "alt": "segera-retreat-kenya — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/segera-retreat-kenya/room.webp",
+      "alt": "segera-retreat-kenya — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/segera-retreat-kenya/pool.webp",
+      "alt": "segera-retreat-kenya — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/segera-retreat-kenya/spa.webp",
+      "alt": "segera-retreat-kenya — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/segera-retreat-kenya/dining.webp",
+      "alt": "segera-retreat-kenya — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.5,
   "tripadvisor_award": true,
@@ -34,13 +71,41 @@
     "verdict": "Segera Retreat is one of Kenya's most intellectually and aesthetically distinctive luxury lodges — a private 50,000-acre conservancy in the Laikipia plateau where six pool villas sit within a cultural and ecological sanctuary housing one of Africa's most significant private African art collections. The retreat was built by Jochen Zeitz (former CEO of Puma and co-founder of The B Team) with the explicit aim of proving that conservation, community, culture, and commerce can coexist — and the result is a honeymoon destination unlike any other in Africa. Perfect for couples with artistic sensibilities and a passion for both wildlife and design.",
     "best_room": "All six villas at Segera are exceptional — each is an individual architect-designed space with a private infinity pool, a collection of original African artworks, and sweeping views across the Laikipia plateau. The Safari Villa is the most dramatic: a double-storey structure with a wraparound viewing deck, a private pool suspended above the savannah, and a curated art collection that includes pieces by major African contemporary artists. Request the villa furthest from the main lodge for maximum seclusion.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival at the Cultural Conservancy", "description": "The drive from Nanyuki airstrip to Segera crosses the Laikipia plateau — one of Kenya's great private wildlife landscapes, home to one of Africa's largest populations of black and white rhino alongside elephant, lion, and rare wild dog. Arrival at the lodge introduces the art collection immediately — original works in the reception, the corridors, the dining space, all contextualised by the guides who are trained as much in culture as in wildlife." },
-      { "day": 2, "title": "Rhino Tracking & Private Villa Dinner", "description": "Segera's private conservancy is home to a significant population of both black and white rhinoceros — an increasingly rare sight elsewhere in Africa. A morning game drive focused on the rhino population, with your guide explaining the complex conservation challenges around rhino protection, is followed by an afternoon in your villa pool. Dinner is prepared and served by your dedicated villa team beside the private pool under a star-filled Laikipia sky." },
-      { "day": 3, "title": "Art Walk & Spa Morning", "description": "A guided tour of Segera's art collection with the retreat's cultural curator is one of the most distinctive experiences in Kenyan luxury travel — the collection includes sculpture, painting, and photography spanning the entire continent. The Segera Spa offers a morning couples' treatment using wild-harvested Laikipia botanicals and is set in a stunning open-air wellness space." },
-      { "day": 4, "title": "Horseback Safari on the Plateau", "description": "A horseback safari on the Laikipia plateau is among the most romantic and exhilarating wildlife experiences available in Kenya — approaching giraffe, zebra, and eland at horse level creates an intimacy impossible from a vehicle. No experience is necessary for gentle rides; experienced riders can canter across the open grasslands with wildlife visible in every direction." },
-      { "day": 5, "title": "Community Village Visit & Bush Sundowner", "description": "Segera's community programme is genuine — the retreat works closely with surrounding Maasai and Kikuyu communities. A visit to a community school or women's cooperative, facilitated by the retreat's community liaison, provides real insight into how conservation-funded community development works in practice. Return for sundowners on a plateau kopje as the light turns golden across the 50,000-acre landscape." },
-      { "day": 6, "title": "Wild Dog Search & Candle-lit Dinner", "description": "African wild dog are among the continent's most endangered predators and Laikipia has one of Kenya's few remaining populations. A dedicated search with a guide who tracks the pack's movements via radio collar data is one of the most thrilling mornings possible in East African wildlife. In the evening, your villa team lays a candle-lit dinner on the private deck with the savannah sound-scape as background music." },
-      { "day": 7, "title": "Final Sunrise Game Drive & Departure", "description": "A last dawn drive over the red Laikipia dirt roads, through mist rising off the plateau grass. Segera's team ensures every departure feels acknowledged — a personalised letter from the Zeitz Foundation outlining what your stay has contributed to conservation and community is included in the farewell package, making the departure feel genuinely meaningful." }
+      {
+        "day": 1,
+        "title": "Arrival at the Cultural Conservancy",
+        "description": "The drive from Nanyuki airstrip to Segera crosses the Laikipia plateau — one of Kenya's great private wildlife landscapes, home to one of Africa's largest populations of black and white rhino alongside elephant, lion, and rare wild dog. Arrival at the lodge introduces the art collection immediately — original works in the reception, the corridors, the dining space, all contextualised by the guides who are trained as much in culture as in wildlife."
+      },
+      {
+        "day": 2,
+        "title": "Rhino Tracking & Private Villa Dinner",
+        "description": "Segera's private conservancy is home to a significant population of both black and white rhinoceros — an increasingly rare sight elsewhere in Africa. A morning game drive focused on the rhino population, with your guide explaining the complex conservation challenges around rhino protection, is followed by an afternoon in your villa pool. Dinner is prepared and served by your dedicated villa team beside the private pool under a star-filled Laikipia sky."
+      },
+      {
+        "day": 3,
+        "title": "Art Walk & Spa Morning",
+        "description": "A guided tour of Segera's art collection with the retreat's cultural curator is one of the most distinctive experiences in Kenyan luxury travel — the collection includes sculpture, painting, and photography spanning the entire continent. The Segera Spa offers a morning couples' treatment using wild-harvested Laikipia botanicals and is set in a stunning open-air wellness space."
+      },
+      {
+        "day": 4,
+        "title": "Horseback Safari on the Plateau",
+        "description": "A horseback safari on the Laikipia plateau is among the most romantic and exhilarating wildlife experiences available in Kenya — approaching giraffe, zebra, and eland at horse level creates an intimacy impossible from a vehicle. No experience is necessary for gentle rides; experienced riders can canter across the open grasslands with wildlife visible in every direction."
+      },
+      {
+        "day": 5,
+        "title": "Community Village Visit & Bush Sundowner",
+        "description": "Segera's community programme is genuine — the retreat works closely with surrounding Maasai and Kikuyu communities. A visit to a community school or women's cooperative, facilitated by the retreat's community liaison, provides real insight into how conservation-funded community development works in practice. Return for sundowners on a plateau kopje as the light turns golden across the 50,000-acre landscape."
+      },
+      {
+        "day": 6,
+        "title": "Wild Dog Search & Candle-lit Dinner",
+        "description": "African wild dog are among the continent's most endangered predators and Laikipia has one of Kenya's few remaining populations. A dedicated search with a guide who tracks the pack's movements via radio collar data is one of the most thrilling mornings possible in East African wildlife. In the evening, your villa team lays a candle-lit dinner on the private deck with the savannah sound-scape as background music."
+      },
+      {
+        "day": 7,
+        "title": "Final Sunrise Game Drive & Departure",
+        "description": "A last dawn drive over the red Laikipia dirt roads, through mist rising off the plateau grass. Segera's team ensures every departure feels acknowledged — a personalised letter from the Zeitz Foundation outlining what your stay has contributed to conservation and community is included in the farewell package, making the departure feel genuinely meaningful."
+      }
     ],
     "caveats": [
       "Segera is in Laikipia, not the Maasai Mara — the wildlife is exceptional (particularly rhino) but the Great Migration is not accessible from here. Couples who want wildebeest crossings should combine with a Mara camp.",
@@ -48,12 +113,30 @@
       "Six villas means availability is limited but the camp is not adults-only, and the occasional family stay is possible."
     ],
     "faqs": [
-      { "question": "Is Segera Retreat good for honeymooners?", "answer": "Segera is an extraordinary honeymoon destination for couples who want more than pure wildlife — the art collection, conservation story, and architectural design of the villas create an experience that is genuinely stimulating as well as deeply relaxing. The private pool villas and dedicated villa team ensure an intimate, personal honeymoon environment." },
-      { "question": "What is the best time to visit?", "answer": "Laikipia is best visited during the dry seasons — January through March and July through October — when the vegetation is lower and wildlife concentrations are at their most dramatic around seasonal water sources. The plateau is at altitude (2200 metres) and noticeably cooler than the coast or the Mara, making it excellent year-round." },
-      { "question": "What should we book in advance?", "answer": "Book 6 months ahead for peak season. Pre-arrange the horseback safari, which requires prior notice for horse preparation and guide allocation. The couples' spa treatment and a private villa dinner should be requested at booking time." },
-      { "question": "Is it adults-only?", "answer": "Segera Retreat is not adults-only. Children aged 5 and above are welcomed, though the art and cultural focus naturally attracts a predominantly adult guest profile. The villa structure provides complete privacy regardless of other guests at the lodge." },
-      { "question": "What's the best room type for a honeymoon?", "answer": "The Safari Villa is the most dramatic and spacious option — private infinity pool above the savannah, double-storey viewing deck, and a curated contemporary African art collection within the villa itself. All six villas are exceptional but the Safari Villa has the most theatrical setting." },
-      { "question": "How do we get there?", "answer": "Fly from Nairobi Wilson Airport to Nanyuki airstrip — approximately 30 minutes. Segera arranges pickup from the airstrip for the 30-minute drive through the conservancy to the lodge. Alternatively, it is a 3.5-hour drive from Nairobi through Nanyuki." }
+      {
+        "question": "Is Segera Retreat good for honeymooners?",
+        "answer": "Segera is an extraordinary honeymoon destination for couples who want more than pure wildlife — the art collection, conservation story, and architectural design of the villas create an experience that is genuinely stimulating as well as deeply relaxing. The private pool villas and dedicated villa team ensure an intimate, personal honeymoon environment."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "Laikipia is best visited during the dry seasons — January through March and July through October — when the vegetation is lower and wildlife concentrations are at their most dramatic around seasonal water sources. The plateau is at altitude (2200 metres) and noticeably cooler than the coast or the Mara, making it excellent year-round."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "Book 6 months ahead for peak season. Pre-arrange the horseback safari, which requires prior notice for horse preparation and guide allocation. The couples' spa treatment and a private villa dinner should be requested at booking time."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "Segera Retreat is not adults-only. Children aged 5 and above are welcomed, though the art and cultural focus naturally attracts a predominantly adult guest profile. The villa structure provides complete privacy regardless of other guests at the lodge."
+      },
+      {
+        "question": "What's the best room type for a honeymoon?",
+        "answer": "The Safari Villa is the most dramatic and spacious option — private infinity pool above the savannah, double-storey viewing deck, and a curated contemporary African art collection within the villa itself. All six villas are exceptional but the Safari Villa has the most theatrical setting."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "Fly from Nairobi Wilson Airport to Nanyuki airstrip — approximately 30 minutes. Segera arranges pickup from the airstrip for the 30-minute drive through the conservancy to the lodge. Alternatively, it is a 3.5-hour drive from Nairobi through Nanyuki."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Segera Retreat Kenya\n\nDear Segera Retreat team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: the Safari Villa and the horseback safari on the plateau.\n\nCould you please let us know:\n- Current availability for our dates\n- Any honeymoon packages or villa enhancements\n- Details on the art collection guided tour and the couples' spa experience\n\nThank you for your time.\n\n[Your names]"
   },

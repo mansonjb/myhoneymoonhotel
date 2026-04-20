@@ -3,7 +3,10 @@
   "name": "Hôtel des Trois Forces",
   "destination": "st-barts",
   "country": "st-barts",
-  "experience_types": ["luxury", "wellness"],
+  "experience_types": [
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 82,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +20,46 @@
     "luxury": 20
   },
   "stars": 4,
-  "price_per_night_usd": { "min": 400, "max": 1200 },
+  "price_per_night_usd": {
+    "min": 400,
+    "max": 1200
+  },
   "adults_only": false,
-  "amenities": ["pool", "restaurant", "bar", "concierge", "room service", "astrology consultations", "yoga deck"],
+  "amenities": [
+    "pool",
+    "restaurant",
+    "bar",
+    "concierge",
+    "room service",
+    "astrology consultations",
+    "yoga deck"
+  ],
   "photos": [
-    { "url": "/images/hotels/hotel-trois-forces-st-barths/hero.webp", "alt": "hotel-trois-forces-st-barths — hero", "type": "hero" },
-    { "url": "/images/hotels/hotel-trois-forces-st-barths/room.webp", "alt": "hotel-trois-forces-st-barths — room", "type": "room" },
-    { "url": "/images/hotels/hotel-trois-forces-st-barths/pool.webp", "alt": "hotel-trois-forces-st-barths — pool", "type": "pool" },
-    { "url": "/images/hotels/hotel-trois-forces-st-barths/spa.webp", "alt": "hotel-trois-forces-st-barths — spa", "type": "spa" },
-    { "url": "/images/hotels/hotel-trois-forces-st-barths/dining.webp", "alt": "hotel-trois-forces-st-barths — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/hotel-trois-forces-st-barths/hero.webp",
+      "alt": "hotel-trois-forces-st-barths — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/hotel-trois-forces-st-barths/room.webp",
+      "alt": "hotel-trois-forces-st-barths — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/hotel-trois-forces-st-barths/pool.webp",
+      "alt": "hotel-trois-forces-st-barths — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/hotel-trois-forces-st-barths/spa.webp",
+      "alt": "hotel-trois-forces-st-barths — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/hotel-trois-forces-st-barths/dining.webp",
+      "alt": "hotel-trois-forces-st-barths — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 8.8,
   "tripadvisor_award": false,
@@ -34,13 +68,41 @@
     "verdict": "Hôtel des Trois Forces is St Barths' most unusual and lovable boutique — a hilltop eight-room property in the quiet Vitet area with a pool, an astrology-themed decor programme inspired by founder Hubert Delamotte's personal philosophy, and a character entirely its own. Each room is named for and decorated around a zodiac sign, the restaurant serves thoughtful food, and the overall atmosphere is that of a stylish private house rather than a hotel. It is not on a beach and has none of the five-star formality of the big resort addresses, but it offers the most affordable genuinely atmospheric accommodation on St Barths and appeals to couples who value character, intimacy, and quirk over polish and scale.",
     "best_room": "Each of the eight rooms at Trois Forces is uniquely designed around its zodiac theme — the Scorpio and Pisces rooms are particularly popular with honeymooners for their romantic colour palettes and generous use of the room's astrological narrative in the decor. All rooms have private terraces with views over the island interior toward the sea. Request your own zodiac signs when booking for a personalised touch.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival in Vitet & Hilltop Discovery", "description": "Vitet is on the quieter eastern side of the island — a residential area of hillside villas and sea views, a world away from the resort activity of St Jean and Gustavia. Trois Forces sits at the top of a winding lane with a view that sweeps across the island to the sea. Check in, explore the astrology rooms, and settle onto your terrace as the island spreads below. Dinner in the small hotel restaurant." },
-      { "day": 2, "title": "Astrology Consultation & Island Drive", "description": "The hotel's resident astrologer offers personal consultations on request — a whimsical but genuinely thoughtful tradition of the property. Couples who embrace this aspect of Trois Forces find it a uniquely personal experience. Afternoon: rent a Mini Moke and drive to Gustavia, to the southern beaches at Saline and Gouverneur, and back along the north coast." },
-      { "day": 3, "title": "Anse de Gouverneur Beach", "description": "Gouverneur is widely considered one of St Barths' most beautiful beaches — a long arc of pale sand accessible via a short but steep road, facing south with no reef and excellent body surf. Spend the morning here. Return to Trois Forces for pool time and an evening under the stars on the hotel terrace." },
-      { "day": 4, "title": "Gustavia Day", "description": "Drive into Gustavia for the harbour experience, the market, and lunch at a French Caribbean restaurant. The capital is small enough to cover on foot in a morning — the Swedish fort ruins, the inter-islands ferry dock, and the yacht harbour all within walking distance." },
-      { "day": 5, "title": "Private Boat Charter & Snorkeling", "description": "The hotel concierge arranges charters from Gustavia Marina. Trois Forces may be more budget-friendly than the five-star resorts but the same private boat experiences are available to all St Barths guests. A half-day charter to Colombier or Île Fourchue is an excellent choice." },
-      { "day": 6, "title": "Saline Beach & Sunset Rum Punch", "description": "Anse de Saline, with its famous naturist section and salt pond backdrop, is a 10-minute drive from Vitet. Spend the morning. Return for the hotel's pool and the tradition of a sunset rum punch on the terrace as the light fades across the island." },
-      { "day": 7, "title": "Farewell Morning", "description": "A final breakfast on the hilltop terrace, a look at the island from the pool deck, and a drive to the airport for the connecting flight to St Martin." }
+      {
+        "day": 1,
+        "title": "Arrival in Vitet & Hilltop Discovery",
+        "description": "Vitet is on the quieter eastern side of the island — a residential area of hillside villas and sea views, a world away from the resort activity of St Jean and Gustavia. Trois Forces sits at the top of a winding lane with a view that sweeps across the island to the sea. Check in, explore the astrology rooms, and settle onto your terrace as the island spreads below. Dinner in the small hotel restaurant."
+      },
+      {
+        "day": 2,
+        "title": "Astrology Consultation & Island Drive",
+        "description": "The hotel's resident astrologer offers personal consultations on request — a whimsical but genuinely thoughtful tradition of the property. Couples who embrace this aspect of Trois Forces find it a uniquely personal experience. Afternoon: rent a Mini Moke and drive to Gustavia, to the southern beaches at Saline and Gouverneur, and back along the north coast."
+      },
+      {
+        "day": 3,
+        "title": "Anse de Gouverneur Beach",
+        "description": "Gouverneur is widely considered one of St Barths' most beautiful beaches — a long arc of pale sand accessible via a short but steep road, facing south with no reef and excellent body surf. Spend the morning here. Return to Trois Forces for pool time and an evening under the stars on the hotel terrace."
+      },
+      {
+        "day": 4,
+        "title": "Gustavia Day",
+        "description": "Drive into Gustavia for the harbour experience, the market, and lunch at a French Caribbean restaurant. The capital is small enough to cover on foot in a morning — the Swedish fort ruins, the inter-islands ferry dock, and the yacht harbour all within walking distance."
+      },
+      {
+        "day": 5,
+        "title": "Private Boat Charter & Snorkeling",
+        "description": "The hotel concierge arranges charters from Gustavia Marina. Trois Forces may be more budget-friendly than the five-star resorts but the same private boat experiences are available to all St Barths guests. A half-day charter to Colombier or Île Fourchue is an excellent choice."
+      },
+      {
+        "day": 6,
+        "title": "Saline Beach & Sunset Rum Punch",
+        "description": "Anse de Saline, with its famous naturist section and salt pond backdrop, is a 10-minute drive from Vitet. Spend the morning. Return for the hotel's pool and the tradition of a sunset rum punch on the terrace as the light fades across the island."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "A final breakfast on the hilltop terrace, a look at the island from the pool deck, and a drive to the airport for the connecting flight to St Martin."
+      }
     ],
     "caveats": [
       "Trois Forces has no beach — guests drive to any of several beaches on the island, which are all 10–20 minutes away. The property experience is hilltop and pool-centred.",
@@ -48,12 +110,30 @@
       "The four-star rating and room size reflect a more intimate, boutique format than the five-star resort addresses — the experience is more guesthouse-luxury than full resort luxury, which is precisely the point."
     ],
     "faqs": [
-      { "question": "Is Hôtel des Trois Forces good for honeymooners?", "answer": "For couples who value character, intimacy, and a completely individual atmosphere over formality and scale, Trois Forces is one of St Barths' most charming options and genuinely different from any other property on the island. The zodiac room concept makes for a honeymoon narrative all its own." },
-      { "question": "What is the best time to visit?", "answer": "December through April for the peak Caribbean season. Trois Forces is quieter than the main resort areas year-round — shoulder season (May, November) offers notable rate savings with good weather." },
-      { "question": "What should we book in advance?", "answer": "With only eight rooms, the property fills quickly for peak dates. Request your preferred zodiac rooms at booking time for the best personalisation." },
-      { "question": "Is it adults-only?", "answer": "No, children are welcome. The small size and philosophical hotel concept make it effectively an adults' space in practice." },
-      { "question": "What's the best room for a honeymoon?", "answer": "The Scorpio or Pisces rooms are the most romantic in terms of decor and palette, but the best approach is to share your own star signs with the reservations team and let them make a recommendation." },
-      { "question": "How do we get there?", "answer": "Fly to St Martin (SXM) and connect via Winair or ferry to St Barths. Vitet is approximately 10 minutes from the airport. The hotel team can recommend local taxi drivers for the transfer." }
+      {
+        "question": "Is Hôtel des Trois Forces good for honeymooners?",
+        "answer": "For couples who value character, intimacy, and a completely individual atmosphere over formality and scale, Trois Forces is one of St Barths' most charming options and genuinely different from any other property on the island. The zodiac room concept makes for a honeymoon narrative all its own."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "December through April for the peak Caribbean season. Trois Forces is quieter than the main resort areas year-round — shoulder season (May, November) offers notable rate savings with good weather."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "With only eight rooms, the property fills quickly for peak dates. Request your preferred zodiac rooms at booking time for the best personalisation."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "No, children are welcome. The small size and philosophical hotel concept make it effectively an adults' space in practice."
+      },
+      {
+        "question": "What's the best room for a honeymoon?",
+        "answer": "The Scorpio or Pisces rooms are the most romantic in terms of decor and palette, but the best approach is to share your own star signs with the reservations team and let them make a recommendation."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "Fly to St Martin (SXM) and connect via Winair or ferry to St Barths. Vitet is approximately 10 minutes from the airport. The hotel team can recommend local taxi drivers for the transfer."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Hôtel des Trois Forces\n\nDear Hôtel des Trois Forces team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nOur star signs are [SIGN] and [SIGN] — we would love your recommendation for which rooms would suit us best.\n\nCould you please let us know:\n- Current availability for our dates\n- Any honeymoon packages or complimentary upgrades\n- Details on the astrology consultation experience\n\nThank you for your time.\n\n[Your names]"
   },

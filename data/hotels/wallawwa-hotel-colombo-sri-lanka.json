@@ -3,7 +3,10 @@
   "name": "The Wallawwa",
   "destination": "sri-lanka",
   "country": "sri-lanka",
-  "experience_types": ["luxury", "wellness"],
+  "experience_types": [
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 80,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,30 +20,89 @@
     "luxury": 5
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 300, "max": 800 },
+  "price_per_night_usd": {
+    "min": 300,
+    "max": 800
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "room service", "restaurant", "bar", "garden", "jacuzzi"],
-  "photos": [
-    { "url": "/images/hotels/wallawwa-hotel-colombo-sri-lanka/hero.webp", "alt": "wallawwa-hotel-colombo-sri-lanka — hero", "type": "hero" },
-    { "url": "/images/hotels/wallawwa-hotel-colombo-sri-lanka/room.webp", "alt": "wallawwa-hotel-colombo-sri-lanka — room", "type": "room" },
-    { "url": "/images/hotels/wallawwa-hotel-colombo-sri-lanka/pool.webp", "alt": "wallawwa-hotel-colombo-sri-lanka — pool", "type": "pool" },
-    { "url": "/images/hotels/wallawwa-hotel-colombo-sri-lanka/spa.webp", "alt": "wallawwa-hotel-colombo-sri-lanka — spa", "type": "spa" },
-    { "url": "/images/hotels/wallawwa-hotel-colombo-sri-lanka/dining.webp", "alt": "wallawwa-hotel-colombo-sri-lanka — dining", "type": "dining" }
+  "amenities": [
+    "spa",
+    "pool",
+    "room service",
+    "restaurant",
+    "bar",
+    "garden",
+    "jacuzzi"
   ],
-  "tripadvisor_rating": 9.0,
+  "photos": [
+    {
+      "url": "/images/hotels/wallawwa-hotel-colombo-sri-lanka/hero.webp",
+      "alt": "wallawwa-hotel-colombo-sri-lanka — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/wallawwa-hotel-colombo-sri-lanka/room.webp",
+      "alt": "wallawwa-hotel-colombo-sri-lanka — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/wallawwa-hotel-colombo-sri-lanka/pool.webp",
+      "alt": "wallawwa-hotel-colombo-sri-lanka — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/wallawwa-hotel-colombo-sri-lanka/spa.webp",
+      "alt": "wallawwa-hotel-colombo-sri-lanka — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/wallawwa-hotel-colombo-sri-lanka/dining.webp",
+      "alt": "wallawwa-hotel-colombo-sri-lanka — dining",
+      "type": "dining"
+    }
+  ],
+  "tripadvisor_rating": 9,
   "tripadvisor_award": false,
   "couples_review_pct": 60,
   "content": {
     "verdict": "The Wallawwa is a beautifully restored 18th-century Kandyan colonial manor just minutes from Colombo's Bandaranaike International Airport, and by some margin the most charming and characterful property for a first or last night of a Sri Lanka honeymoon. The original period architecture — tiled roofs, deep verandahs, antique furniture, and a serene tropical garden — provides an elegant decompression from travel and an authentic introduction to Sri Lankan heritage hospitality on just 16 rooms.",
     "best_room": "The Jacuzzi Suites in the new garden wing are the most romantic option — a private outdoor jacuzzi surrounded by tropical planting, a four-poster bed, and a sitting room with period furniture. These feel genuinely villa-like despite the property's small scale. Original manor rooms have more colonial character and higher ceilings; both categories are excellent.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Garden Recovery", "description": "Land at Bandaranaike Airport and be collected in a hotel car in minutes — the 7-minute transfer through the night-blooming tropical garden to the lit colonial manor is itself a decompression ritual. A welcome cocktail of arrack and lime is served on the deep verandah as the garden's night jasmine opens. Dinner in the open dining room uses Sri Lankan herbs from the kitchen garden — the pol roti and black pork curry are outstanding." },
-      { "day": 2, "title": "Colombo City & Pettah Market", "description": "Spend the morning in Colombo: the Dutch-era Wolvendaal Church, the National Museum, and the extraordinary sensory overload of Pettah bazaar — spice streets, fabric lanes, and the covered market where every ingredient of Sri Lankan cuisine is sold in vast quantities. Lunch at Ministry of Crab in the Dutch Hospital shopping precinct, then return to the Wallawwa for an afternoon poolside recovery." },
-      { "day": 3, "title": "Negombo Town & Lagoon Walk", "description": "Negombo, 20 minutes north, is a historic Dutch and Portuguese colonial fishing town with a beautiful church-studded interior, an active fish market on the lagoon, and some of Sri Lanka's best fresh seafood restaurants. Walk the beach road at sunset and dine at a lagoon-side restaurant with just-caught crab and prawn. Return to the Wallawwa's garden." },
-      { "day": 4, "title": "Spa & Garden Day", "description": "The Wallawwa's spa occupies a converted garden outbuilding and uses traditional Ayurvedic oils and Sri Lankan herbal blends. Book the couple's Abhyanga full-body massage followed by a steam treatment. Lunch in the garden under the large rain trees. Afternoon: float in the garden pool and read in the verandah hammocks as the garden birds call through the heat of the day." },
-      { "day": 5, "title": "Kandy Day Trip by Train", "description": "Sri Lanka's most scenic train journey from Colombo Fort to Kandy (2.5 hours) winds through rubber estates, rice paddies, and the first cloud forest. Explore the Temple of the Tooth Relic, the Kandy lake, and the spice and batik markets of the town centre. Return to Colombo on the late afternoon train or by private car for a final Wallawwa dinner." },
-      { "day": 6, "title": "Colombo Fine Dining & Old Dutch Quarter", "description": "Colombo's dining scene is among Asia's most underrated — spend the morning at the Gangaramaya Buddhist Temple with its eclectic museum, and the afternoon exploring the galleries and boutiques of the Colombo 3 neighbourhood. Evening: book a table at one of Colombo's excellent fine dining restaurants — Ministry of Crab, Nihonbashi, or Colombo's rooftop restaurant scene." },
-      { "day": 7, "title": "Farewell Morning", "description": "Your last morning is a gentle one: breakfast on the verandah — hoppers with egg, fresh papaya, and locally ground coffee — as the garden fills with Sri Lanka's extraordinary birdlife. The Wallawwa packs a small farewell gift of house-grown spices for your kitchen at home. The airport transfer takes 7 minutes. The Wallawwa is exactly the right note on which to begin and end a Sri Lanka honeymoon." }
+      {
+        "day": 1,
+        "title": "Arrival & Garden Recovery",
+        "description": "Land at Bandaranaike Airport and be collected in a hotel car in minutes — the 7-minute transfer through the night-blooming tropical garden to the lit colonial manor is itself a decompression ritual. A welcome cocktail of arrack and lime is served on the deep verandah as the garden's night jasmine opens. Dinner in the open dining room uses Sri Lankan herbs from the kitchen garden — the pol roti and black pork curry are outstanding."
+      },
+      {
+        "day": 2,
+        "title": "Colombo City & Pettah Market",
+        "description": "Spend the morning in Colombo: the Dutch-era Wolvendaal Church, the National Museum, and the extraordinary sensory overload of Pettah bazaar — spice streets, fabric lanes, and the covered market where every ingredient of Sri Lankan cuisine is sold in vast quantities. Lunch at Ministry of Crab in the Dutch Hospital shopping precinct, then return to the Wallawwa for an afternoon poolside recovery."
+      },
+      {
+        "day": 3,
+        "title": "Negombo Town & Lagoon Walk",
+        "description": "Negombo, 20 minutes north, is a historic Dutch and Portuguese colonial fishing town with a beautiful church-studded interior, an active fish market on the lagoon, and some of Sri Lanka's best fresh seafood restaurants. Walk the beach road at sunset and dine at a lagoon-side restaurant with just-caught crab and prawn. Return to the Wallawwa's garden."
+      },
+      {
+        "day": 4,
+        "title": "Spa & Garden Day",
+        "description": "The Wallawwa's spa occupies a converted garden outbuilding and uses traditional Ayurvedic oils and Sri Lankan herbal blends. Book the couple's Abhyanga full-body massage followed by a steam treatment. Lunch in the garden under the large rain trees. Afternoon: float in the garden pool and read in the verandah hammocks as the garden birds call through the heat of the day."
+      },
+      {
+        "day": 5,
+        "title": "Kandy Day Trip by Train",
+        "description": "Sri Lanka's most scenic train journey from Colombo Fort to Kandy (2.5 hours) winds through rubber estates, rice paddies, and the first cloud forest. Explore the Temple of the Tooth Relic, the Kandy lake, and the spice and batik markets of the town centre. Return to Colombo on the late afternoon train or by private car for a final Wallawwa dinner."
+      },
+      {
+        "day": 6,
+        "title": "Colombo Fine Dining & Old Dutch Quarter",
+        "description": "Colombo's dining scene is among Asia's most underrated — spend the morning at the Gangaramaya Buddhist Temple with its eclectic museum, and the afternoon exploring the galleries and boutiques of the Colombo 3 neighbourhood. Evening: book a table at one of Colombo's excellent fine dining restaurants — Ministry of Crab, Nihonbashi, or Colombo's rooftop restaurant scene."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "Your last morning is a gentle one: breakfast on the verandah — hoppers with egg, fresh papaya, and locally ground coffee — as the garden fills with Sri Lanka's extraordinary birdlife. The Wallawwa packs a small farewell gift of house-grown spices for your kitchen at home. The airport transfer takes 7 minutes. The Wallawwa is exactly the right note on which to begin and end a Sri Lanka honeymoon."
+      }
     ],
     "caveats": [
       "The Wallawwa is most valuable as a first and last night property — it does not have the beach, wildlife, or dramatic scenery of the south coast or east coast resorts. As a standalone week-long honeymoon base it would feel limited; as bookend nights, it is near-perfect.",
@@ -48,12 +110,30 @@
       "The hotel is near the airport which means aircraft noise is audible at certain times of day, though not intrusive at night. Rooms further into the garden are quieter."
     ],
     "faqs": [
-      { "question": "Is The Wallawwa good for honeymooners?", "answer": "Perfectly suited as first and last night accommodation for a Sri Lanka honeymoon itinerary. The colonial manor character, garden jacuzzi suites, and charming intimate scale create a romantic landing pad before heading to Galle, Tangalle, or the east coast. For standalone stays, it combines well with Colombo city exploration and the Kandy train journey." },
-      { "question": "What is the best time to visit?", "answer": "Colombo and the west coast experience two monsoon windows: May to July (southwest) and October to November (northeast). December to March and July to September are the drier periods. However, The Wallawwa's garden and interior are beautiful year-round, and as an arrival/departure property the weather is less critical than for a beach resort." },
-      { "question": "What should we book in advance?", "answer": "The Jacuzzi Suites are the most sought-after rooms and book out first — specify at reservation. The Ministry of Crab restaurant in Colombo requires bookings 2 to 3 weeks ahead. If you plan the Kandy train journey, note that the observation carriage (Expo Rail) requires advance seat booking online." },
-      { "question": "Is it adults-only?", "answer": "No, but the 16-room boutique scale, period furniture, and adult-oriented atmosphere make it predominantly an adult property in practice. The garden pool and jacuzzi format work beautifully for couples. Very few families choose The Wallawwa given its airport adjacency and city-oriented setting." },
-      { "question": "What's the best room for a honeymoon?", "answer": "A Jacuzzi Suite in the garden wing is the definitive romantic choice — private outdoor jacuzzi surrounded by tropical planting, four-poster bed, and sitting room. If full, the original manor rooms with their high ceilings, teak furniture, and character are also excellent. Request a garden-facing room for the quietest and most atmospheric position." },
-      { "question": "How do we get there?", "answer": "Bandaranaike International Airport (CMB) to The Wallawwa: approximately 7 minutes by car. This is the hotel's primary attraction for arrival and departure nights. From Colombo city centre: approximately 25 to 35 minutes depending on traffic. The hotel provides a complimentary airport collection at agreed arrival times." }
+      {
+        "question": "Is The Wallawwa good for honeymooners?",
+        "answer": "Perfectly suited as first and last night accommodation for a Sri Lanka honeymoon itinerary. The colonial manor character, garden jacuzzi suites, and charming intimate scale create a romantic landing pad before heading to Galle, Tangalle, or the east coast. For standalone stays, it combines well with Colombo city exploration and the Kandy train journey."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "Colombo and the west coast experience two monsoon windows: May to July (southwest) and October to November (northeast). December to March and July to September are the drier periods. However, The Wallawwa's garden and interior are beautiful year-round, and as an arrival/departure property the weather is less critical than for a beach resort."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "The Jacuzzi Suites are the most sought-after rooms and book out first — specify at reservation. The Ministry of Crab restaurant in Colombo requires bookings 2 to 3 weeks ahead. If you plan the Kandy train journey, note that the observation carriage (Expo Rail) requires advance seat booking online."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "No, but the 16-room boutique scale, period furniture, and adult-oriented atmosphere make it predominantly an adult property in practice. The garden pool and jacuzzi format work beautifully for couples. Very few families choose The Wallawwa given its airport adjacency and city-oriented setting."
+      },
+      {
+        "question": "What's the best room for a honeymoon?",
+        "answer": "A Jacuzzi Suite in the garden wing is the definitive romantic choice — private outdoor jacuzzi surrounded by tropical planting, four-poster bed, and sitting room. If full, the original manor rooms with their high ceilings, teak furniture, and character are also excellent. Request a garden-facing room for the quietest and most atmospheric position."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "Bandaranaike International Airport (CMB) to The Wallawwa: approximately 7 minutes by car. This is the hotel's primary attraction for arrival and departure nights. From Colombo city centre: approximately 25 to 35 minutes depending on traffic. The hotel provides a complimentary airport collection at agreed arrival times."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — The Wallawwa\n\nDear The Wallawwa team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: a Jacuzzi Suite in the garden wing.\n\nCould you please let us know:\n- Current availability for our dates\n- Any honeymoon packages or complimentary amenities\n- Whether airport collection is available for our arrival flight\n\nThank you for your time.\n\n[Your names]"
   },

@@ -3,7 +3,10 @@
   "name": "Riad Fes",
   "destination": "morocco",
   "country": "morocco",
-  "experience_types": ["luxury", "wellness"],
+  "experience_types": [
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 85,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +20,48 @@
     "luxury": 5
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 300, "max": 900 },
+  "price_per_night_usd": {
+    "min": 300,
+    "max": 900
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "room service", "hammam", "rooftop terrace", "medina views", "mosaic courtyard", "fine dining", "concierge"],
+  "amenities": [
+    "spa",
+    "pool",
+    "room service",
+    "hammam",
+    "rooftop terrace",
+    "medina views",
+    "mosaic courtyard",
+    "fine dining",
+    "concierge"
+  ],
   "photos": [
-    { "url": "/images/hotels/riad-fes-morocco/hero.webp", "alt": "riad-fes-morocco — hero", "type": "hero" },
-    { "url": "/images/hotels/riad-fes-morocco/room.webp", "alt": "riad-fes-morocco — room", "type": "room" },
-    { "url": "/images/hotels/riad-fes-morocco/pool.webp", "alt": "riad-fes-morocco — pool", "type": "pool" },
-    { "url": "/images/hotels/riad-fes-morocco/spa.webp", "alt": "riad-fes-morocco — spa", "type": "spa" },
-    { "url": "/images/hotels/riad-fes-morocco/dining.webp", "alt": "riad-fes-morocco — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/riad-fes-morocco/hero.webp",
+      "alt": "riad-fes-morocco — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/riad-fes-morocco/room.webp",
+      "alt": "riad-fes-morocco — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/riad-fes-morocco/pool.webp",
+      "alt": "riad-fes-morocco — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/riad-fes-morocco/spa.webp",
+      "alt": "riad-fes-morocco — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/riad-fes-morocco/dining.webp",
+      "alt": "riad-fes-morocco — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.1,
   "tripadvisor_award": true,
@@ -34,13 +70,41 @@
     "verdict": "Riad Fes is the finest hotel inside the Fes el-Bali medina — a palatial five-star riad with 24 rooms arranged around a mosaic-tiled central courtyard with a fountain, a rooftop terrace with panoramic views over the ancient city, and a hammam and spa of genuine quality. Fes itself is one of the most extraordinary cities on earth — a living medieval city of 200,000 people in a walled medina that has barely changed since the 9th century, with the world's oldest university, a working tannery, and souks of such depth and complexity that wandering them for days barely scratches the surface. For honeymooners who want to be immersed in Islamic culture and medieval Moroccan civilisation at the highest level of comfort, Riad Fes is the definitive address.",
     "best_room": "Book a Privilege Suite or a Deluxe Room in the main historic riad building — these rooms have original zellige tile floors, hand-carved stucco ceilings, carved cedar wood details, and either views of the mosaic courtyard or small private terraces. The rooftop suite has a private terrace with medina views. Request a room with a courtyard view for the most authentic riad experience — the sound of the central fountain and the carved plasterwork is the architecture of a living heritage.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival in the Ancient City", "description": "Arrive at Fes — the oldest and most complex medina in the world — and be guided by a hotel attendant through the labyrinthine lanes to Riad Fes. The transformation from chaotic medieval street to the cool, perfumed interior of the riad courtyard is instantaneous and extraordinary. Mint tea in the mosaic courtyard, then the rooftop terrace for sunset over the medina — a sea of minarets, domes, and terracotta rooftops stretching to the surrounding hills." },
-      { "day": 2, "title": "Hammam & the Hammam Quarter", "description": "Morning hammam at Riad Fes — the hotel's own hammam uses local Fes black soap, rose water from the Dadès Valley, and ghassoul clay from the Atlas for a deeply restorative couple's ritual. In the afternoon, walk to the Al-Attarin Madrasa (the most beautifully decorated Koranic school in the world, with zellige, stucco, and carved cedar combining in three tiers of ornamental perfection) and the Kairaouine Mosque and University, founded in 859 AD." },
-      { "day": 3, "title": "The Souks of Fes', the Tanneries", "description": "A full day in the Fes el-Bali medina with a hotel-recommended guide — the souks are divided by trade as they have been for a millennium: leather workers, brass smiths, carpet weavers, spice traders. The Chouara Tannery, visible from rooftop terraces above the leather quarter, is one of the most iconic images in North Africa — vats of coloured dye worked by hand as in the medieval period. Lunch at a rooftop restaurant with views over the old city." },
-      { "day": 4, "title": "Day Trip to Meknes & Volubilis", "description": "Drive 60km west to Meknes — the imperial city built by Sultan Moulay Ismaïl in the 17th century as his vision of Versailles, with monumental gates and a vast royal granary and stables. Continue to Volubilis, a UNESCO World Heritage Roman city with extraordinary mosaic floors in remarkable preservation, set in wheat fields with the Atlas foothills behind. Return to Fes for dinner on the Riad Fes rooftop terrace." },
-      { "day": 5, "title": "Andalusian Fes & Pottery Quarter", "description": "Explore the Andalusian quarter of Fes — the district on the opposite bank of the Oued Bou Khrareb from the main medina, settled by Muslims expelled from Spain in the 15th century, with its own character and extraordinary mosques. Continue to the pottery and ceramic quarter outside the medina walls, where the famous Fes blue pottery is made by hand in studios that have operated for centuries. Buy pieces for home." },
-      { "day": 6, "title": "Spa Day & Rooftop Dinner", "description": "A full day centred on the Riad Fes spa — the hammam, a rhassoul clay facial, and a full-body argan oil massage constitute a complete and affordable day of Moroccan wellness. In the evening, the hotel can arrange a private dinner on the rooftop terrace, with traditional musicians playing Andalusian music and the medina spread below in the flickering light of its lanterns and minarets." },
-      { "day": 7, "title": "Farewell Morning", "description": "Last morning in the medina: an early walk to the viewpoint at the Borj Nord fortress for a final panorama over the whole of Fes el-Bali in the morning light — one of the great views in the world, a city of 9,000 lanes and 350 mosques unrolled below you like an illuminated manuscript. Return to Riad Fes for breakfast in the courtyard, then the drive to Fes airport. No other city in Morocco stays with you quite like Fes." }
+      {
+        "day": 1,
+        "title": "Arrival in the Ancient City",
+        "description": "Arrive at Fes — the oldest and most complex medina in the world — and be guided by a hotel attendant through the labyrinthine lanes to Riad Fes. The transformation from chaotic medieval street to the cool, perfumed interior of the riad courtyard is instantaneous and extraordinary. Mint tea in the mosaic courtyard, then the rooftop terrace for sunset over the medina — a sea of minarets, domes, and terracotta rooftops stretching to the surrounding hills."
+      },
+      {
+        "day": 2,
+        "title": "Hammam & the Hammam Quarter",
+        "description": "Morning hammam at Riad Fes — the hotel's own hammam uses local Fes black soap, rose water from the Dadès Valley, and ghassoul clay from the Atlas for a deeply restorative couple's ritual. In the afternoon, walk to the Al-Attarin Madrasa (the most beautifully decorated Koranic school in the world, with zellige, stucco, and carved cedar combining in three tiers of ornamental perfection) and the Kairaouine Mosque and University, founded in 859 AD."
+      },
+      {
+        "day": 3,
+        "title": "The Souks of Fes', the Tanneries",
+        "description": "A full day in the Fes el-Bali medina with a hotel-recommended guide — the souks are divided by trade as they have been for a millennium: leather workers, brass smiths, carpet weavers, spice traders. The Chouara Tannery, visible from rooftop terraces above the leather quarter, is one of the most iconic images in North Africa — vats of coloured dye worked by hand as in the medieval period. Lunch at a rooftop restaurant with views over the old city."
+      },
+      {
+        "day": 4,
+        "title": "Day Trip to Meknes & Volubilis",
+        "description": "Drive 60km west to Meknes — the imperial city built by Sultan Moulay Ismaïl in the 17th century as his vision of Versailles, with monumental gates and a vast royal granary and stables. Continue to Volubilis, a UNESCO World Heritage Roman city with extraordinary mosaic floors in remarkable preservation, set in wheat fields with the Atlas foothills behind. Return to Fes for dinner on the Riad Fes rooftop terrace."
+      },
+      {
+        "day": 5,
+        "title": "Andalusian Fes & Pottery Quarter",
+        "description": "Explore the Andalusian quarter of Fes — the district on the opposite bank of the Oued Bou Khrareb from the main medina, settled by Muslims expelled from Spain in the 15th century, with its own character and extraordinary mosques. Continue to the pottery and ceramic quarter outside the medina walls, where the famous Fes blue pottery is made by hand in studios that have operated for centuries. Buy pieces for home."
+      },
+      {
+        "day": 6,
+        "title": "Spa Day & Rooftop Dinner",
+        "description": "A full day centred on the Riad Fes spa — the hammam, a rhassoul clay facial, and a full-body argan oil massage constitute a complete and affordable day of Moroccan wellness. In the evening, the hotel can arrange a private dinner on the rooftop terrace, with traditional musicians playing Andalusian music and the medina spread below in the flickering light of its lanterns and minarets."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "Last morning in the medina: an early walk to the viewpoint at the Borj Nord fortress for a final panorama over the whole of Fes el-Bali in the morning light — one of the great views in the world, a city of 9,000 lanes and 350 mosques unrolled below you like an illuminated manuscript. Return to Riad Fes for breakfast in the courtyard, then the drive to Fes airport. No other city in Morocco stays with you quite like Fes."
+      }
     ],
     "caveats": [
       "Fes el-Bali medina is a maze — getting lost is inevitable and part of the experience, but couples who find disorientation stressful should always explore with a guide initially. Even experienced travellers lose their bearings.",

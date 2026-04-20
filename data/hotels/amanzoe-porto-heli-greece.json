@@ -3,7 +3,11 @@
   "name": "Amanzoe",
   "destination": "greece",
   "country": "greece",
-  "experience_types": ["luxury", "beach", "wellness"],
+  "experience_types": [
+    "luxury",
+    "beach",
+    "wellness"
+  ],
   "honeymoon_score": 96,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,51 @@
     "luxury": 13
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 1500, "max": 5000 },
+  "price_per_night_usd": {
+    "min": 1500,
+    "max": 5000
+  },
   "adults_only": false,
-  "amenities": ["private beach club", "aman spa", "infinity pool", "pool pavilions", "room service", "butler service", "restaurant", "bar", "concierge", "tennis", "yoga", "water sports"],
+  "amenities": [
+    "private beach club",
+    "aman spa",
+    "infinity pool",
+    "pool pavilions",
+    "room service",
+    "butler service",
+    "restaurant",
+    "bar",
+    "concierge",
+    "tennis",
+    "yoga",
+    "water sports"
+  ],
   "photos": [
-    { "url": "/images/hotels/amanzoe-porto-heli-greece/hero.webp", "alt": "amanzoe-porto-heli-greece — hero", "type": "hero" },
-    { "url": "/images/hotels/amanzoe-porto-heli-greece/room.webp", "alt": "amanzoe-porto-heli-greece — room", "type": "room" },
-    { "url": "/images/hotels/amanzoe-porto-heli-greece/pool.webp", "alt": "amanzoe-porto-heli-greece — pool", "type": "pool" },
-    { "url": "/images/hotels/amanzoe-porto-heli-greece/spa.webp", "alt": "amanzoe-porto-heli-greece — spa", "type": "spa" },
-    { "url": "/images/hotels/amanzoe-porto-heli-greece/dining.webp", "alt": "amanzoe-porto-heli-greece — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/amanzoe-porto-heli-greece/hero.webp",
+      "alt": "amanzoe-porto-heli-greece — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/amanzoe-porto-heli-greece/room.webp",
+      "alt": "amanzoe-porto-heli-greece — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/amanzoe-porto-heli-greece/pool.webp",
+      "alt": "amanzoe-porto-heli-greece — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/amanzoe-porto-heli-greece/spa.webp",
+      "alt": "amanzoe-porto-heli-greece — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/amanzoe-porto-heli-greece/dining.webp",
+      "alt": "amanzoe-porto-heli-greece — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.8,
   "tripadvisor_award": true,
@@ -34,13 +74,41 @@
     "verdict": "Amanzoe is the finest resort in mainland Greece and one of the great Aman properties in the world — a neoclassical hilltop sanctuary set among ancient olive groves in the Peloponnese, with sweeping Argolic Gulf sea views and a private beach club 15 minutes away by hotel buggy. The scale, the architecture, the Aman spa, and the extraordinary sense of space and tranquility create an experience that Santorini, for all its visual drama, simply cannot provide. For couples who want the ultimate in service, privacy, and the feeling that a resort was created specifically for them, Amanzoe is unrivaled in Greece.",
     "best_room": "The Pool Pavilions are the defining Amanzoe experience — private freestanding structures set among the olive groves, each with its own 14-metre private pool, open-air bathroom, and 180-degree sea views through floor-to-ceiling glazing. The Grand Pool Pavilion takes this further with a larger footprint and two levels. The Main House Suites are also exceptional if Pool Pavilions are beyond budget, but the complete privacy and indoor-outdoor living of the pavilions is what sets Amanzoe apart from every other Greek resort.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Aman Arrival Ritual", "description": "Arrive by private transfer (or helicopter from Athens for maximum drama) and be escorted through the ancient olive grove colonnade to your Pool Pavilion. The Aman arrival ritual is famous — no lobby queues, no check-in desk; simply a personal escort to your private sanctuary, where your preferences have been anticipated and the 14-metre pool awaits. A private dinner in your pavilion's outdoor terrace on the first night sets the tone completely." },
-      { "day": 2, "title": "The Beach Club", "description": "Take the hotel buggy down the hillside to Amanzoe's private beach club on a pristine Peloponnese bay. The beach pavilions, water sports equipment, and exceptional seafood restaurant are entirely exclusive to hotel guests. Spend the morning swimming in the Argolic Gulf's crystal water, kayaking around the bay, and having a long lazy lunch on the beach. Return to the hilltop in the afternoon for the view." },
-      { "day": 3, "title": "Ancient Epidauros", "description": "Arrange a private guided excursion to the ancient Theatre of Epidauros — one of the best-preserved ancient Greek theatres in the world, where whispered sounds from the stage can be heard in the highest row. The Argolid region is dense with mythology and archaeology: also visit the ancient sanctuary of Asklepios and the Mycenaean citadel of Tiryns en route. Return to Amanzoe for an Aman spa evening." },
-      { "day": 4, "title": "Aman Spa & Pavilion Day", "description": "Dedicate entirely to the pavilion and spa. Begin with dawn yoga on your pavilion terrace as the olive groves turn silver-green in the morning light. Book back-to-back treatments at the Aman Spa — the signature Greek olive ritual and the couples' bathing ceremony are among the best spa treatments in the Mediterranean. Afternoon entirely in your private pool, ordering food from the kitchen at will." },
-      { "day": 5, "title": "Ancient Mycenae & Nafplio", "description": "Drive to the Lion Gate of Mycenae — the Bronze Age citadel where Agamemnon ruled, arguably the most dramatically atmospheric ancient site in Greece. Continue to Nafplio, the exquisite neoclassical port town that was Greece's first capital, for lunch and an afternoon exploring its Venetian streets and waterfront. Return to Amanzoe via the ancient canal at Corinth." },
-      { "day": 6, "title": "Private Sailing Day", "description": "The concierge can charter a private sailing yacht from the nearby Porto Heli marina for a full day on the Argolic Gulf. Sail to the island of Hydra (no motorized vehicles, only donkeys and boats), swim in secluded coves, and have lunch at a harbourside taverna. Return to Amanzoe for a sunset dinner with views across the olive groves and the sea turning pink below." },
-      { "day": 7, "title": "Farewell Morning", "description": "A final morning in the pavilion pool as the Peloponnese countryside wakes around you. Aman's farewell is typically a letter from the general manager, a small personal gift curated to your stay's interests, and the unhurried transfer to Athens airport (approximately 2.5 hours). The sensation on departure is that of leaving a place that understood you entirely." }
+      {
+        "day": 1,
+        "title": "Aman Arrival Ritual",
+        "description": "Arrive by private transfer (or helicopter from Athens for maximum drama) and be escorted through the ancient olive grove colonnade to your Pool Pavilion. The Aman arrival ritual is famous — no lobby queues, no check-in desk; simply a personal escort to your private sanctuary, where your preferences have been anticipated and the 14-metre pool awaits. A private dinner in your pavilion's outdoor terrace on the first night sets the tone completely."
+      },
+      {
+        "day": 2,
+        "title": "The Beach Club",
+        "description": "Take the hotel buggy down the hillside to Amanzoe's private beach club on a pristine Peloponnese bay. The beach pavilions, water sports equipment, and exceptional seafood restaurant are entirely exclusive to hotel guests. Spend the morning swimming in the Argolic Gulf's crystal water, kayaking around the bay, and having a long lazy lunch on the beach. Return to the hilltop in the afternoon for the view."
+      },
+      {
+        "day": 3,
+        "title": "Ancient Epidauros",
+        "description": "Arrange a private guided excursion to the ancient Theatre of Epidauros — one of the best-preserved ancient Greek theatres in the world, where whispered sounds from the stage can be heard in the highest row. The Argolid region is dense with mythology and archaeology: also visit the ancient sanctuary of Asklepios and the Mycenaean citadel of Tiryns en route. Return to Amanzoe for an Aman spa evening."
+      },
+      {
+        "day": 4,
+        "title": "Aman Spa & Pavilion Day",
+        "description": "Dedicate entirely to the pavilion and spa. Begin with dawn yoga on your pavilion terrace as the olive groves turn silver-green in the morning light. Book back-to-back treatments at the Aman Spa — the signature Greek olive ritual and the couples' bathing ceremony are among the best spa treatments in the Mediterranean. Afternoon entirely in your private pool, ordering food from the kitchen at will."
+      },
+      {
+        "day": 5,
+        "title": "Ancient Mycenae & Nafplio",
+        "description": "Drive to the Lion Gate of Mycenae — the Bronze Age citadel where Agamemnon ruled, arguably the most dramatically atmospheric ancient site in Greece. Continue to Nafplio, the exquisite neoclassical port town that was Greece's first capital, for lunch and an afternoon exploring its Venetian streets and waterfront. Return to Amanzoe via the ancient canal at Corinth."
+      },
+      {
+        "day": 6,
+        "title": "Private Sailing Day",
+        "description": "The concierge can charter a private sailing yacht from the nearby Porto Heli marina for a full day on the Argolic Gulf. Sail to the island of Hydra (no motorized vehicles, only donkeys and boats), swim in secluded coves, and have lunch at a harbourside taverna. Return to Amanzoe for a sunset dinner with views across the olive groves and the sea turning pink below."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "A final morning in the pavilion pool as the Peloponnese countryside wakes around you. Aman's farewell is typically a letter from the general manager, a small personal gift curated to your stay's interests, and the unhurried transfer to Athens airport (approximately 2.5 hours). The sensation on departure is that of leaving a place that understood you entirely."
+      }
     ],
     "caveats": [
       "Amanzoe is the most expensive resort in mainland Greece — Pool Pavilions start at prices that make even luxury travelers pause. It is a splurge-worthy once-in-a-lifetime experience but requires genuine budget commitment.",

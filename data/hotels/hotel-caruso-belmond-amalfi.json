@@ -3,7 +3,10 @@
   "name": "Hotel Caruso Belmond",
   "destination": "amalfi",
   "country": "italy",
-  "experience_types": ["luxury", "wellness"],
+  "experience_types": [
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 92,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +20,48 @@
     "luxury": 12
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 800, "max": 2500 },
+  "price_per_night_usd": {
+    "min": 800,
+    "max": 2500
+  },
   "adults_only": false,
-  "amenities": ["spa", "infinity pool", "room service", "butler service", "restaurant", "bar", "concierge", "tennis court", "beach shuttle"],
+  "amenities": [
+    "spa",
+    "infinity pool",
+    "room service",
+    "butler service",
+    "restaurant",
+    "bar",
+    "concierge",
+    "tennis court",
+    "beach shuttle"
+  ],
   "photos": [
-    { "url": "/images/hotels/hotel-caruso-belmond-amalfi/hero.webp", "alt": "hotel-caruso-belmond-amalfi — hero", "type": "hero" },
-    { "url": "/images/hotels/hotel-caruso-belmond-amalfi/room.webp", "alt": "hotel-caruso-belmond-amalfi — room", "type": "room" },
-    { "url": "/images/hotels/hotel-caruso-belmond-amalfi/pool.webp", "alt": "hotel-caruso-belmond-amalfi — pool", "type": "pool" },
-    { "url": "/images/hotels/hotel-caruso-belmond-amalfi/spa.webp", "alt": "hotel-caruso-belmond-amalfi — spa", "type": "spa" },
-    { "url": "/images/hotels/hotel-caruso-belmond-amalfi/dining.webp", "alt": "hotel-caruso-belmond-amalfi — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/hotel-caruso-belmond-amalfi/hero.webp",
+      "alt": "hotel-caruso-belmond-amalfi — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/hotel-caruso-belmond-amalfi/room.webp",
+      "alt": "hotel-caruso-belmond-amalfi — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/hotel-caruso-belmond-amalfi/pool.webp",
+      "alt": "hotel-caruso-belmond-amalfi — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/hotel-caruso-belmond-amalfi/spa.webp",
+      "alt": "hotel-caruso-belmond-amalfi — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/hotel-caruso-belmond-amalfi/dining.webp",
+      "alt": "hotel-caruso-belmond-amalfi — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.4,
   "tripadvisor_award": true,
@@ -34,13 +70,41 @@
     "verdict": "Hotel Caruso is a converted 11th-century palace perched high above Ravello with what many consider the most spectacular infinity pool view in all of Italy — the blue water appears to merge seamlessly with the sea 350 metres below. Part of the Belmond collection, it blends medieval grandeur with impeccable service and a genuine sense of historical romance. For couples who want elevation, tranquility, and an atmosphere steeped in centuries of art and culture, Caruso is unmatched on the Amalfi Coast.",
     "best_room": "The Junior Suites in the main palace are the honey-moon sweet spot — original frescoed ceilings, antique furnishings, and private terraces with views over the coastline that will take your breath away each morning. For the ultimate splurge, the Villa Amore suite occupies a separate building with its own garden and panoramic terrace. Avoid the lower-category rooms which, while beautiful, lack private terraces.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival in Ravello", "description": "Arrive by private car from Naples or Amalfi and wind up through the hillside village of Ravello to the hotel gates. The welcome ritual at Caruso is exceptional — Prosecco on the terrace as the coastline unfolds below. Spend the evening with a slow dinner at the hotel's Belvedere restaurant, where each table feels like a private theatre box above the sea." },
-      { "day": 2, "title": "The Infinity Pool & Gardens", "description": "Spend the morning at the extraordinary infinity pool, watching the morning mist clear to reveal Amalfi and the Mediterranean far below. The hotel's terraced gardens, filled with lemon trees and ancient stone paths, are perfect for a slow romantic morning walk. Book an afternoon couples' massage at the spa, housed in the medieval cellars of the original palace." },
-      { "day": 3, "title": "Ravello Village & Villa Cimbrone", "description": "Walk through the ancient lanes of Ravello to Villa Cimbrone, whose Terrace of Infinity — lined with classical busts — offers one of the most celebrated panoramas in Europe. Visit the 11th-century Ravello Cathedral and the Villa Rufolo gardens, where Wagner famously found the inspiration for Parsifal. Return for a long candlelit dinner on the hotel terrace." },
-      { "day": 4, "title": "Descent to the Sea", "description": "Take the hotel's beach shuttle down the winding road to the Amalfi shore and spend a lazy morning on the beach. The town of Amalfi is just minutes away for exploring the cathedral and the historic paper mills. Return to the hotel by afternoon and watch the sunset from the infinity pool with a Spritz in hand — the colors over the coast at dusk from this height are extraordinary." },
-      { "day": 5, "title": "Wellness & Slow Living", "description": "Today is for pure indulgence. Begin with a private yoga session in the garden arranged through the concierge, followed by a long spa morning with back-to-back treatments from the Belmond spa menu. Lunch in bed, afternoon napping on your terrace, and a leisurely dinner in the hotel's garden restaurant under the stars." },
-      { "day": 6, "title": "Boat Day on the Amalfi Coast", "description": "Hire a private Gozzo boat from Amalfi harbor for a full-day coastal cruise. Stop at the Grotta dello Smeraldo sea cave, swim off the rocks near Praiano, and anchor for lunch at a seaside trattoria in Cetara. Return by evening to the cool elevation of Ravello, which offers welcome relief from the summer heat of the coast below." },
-      { "day": 7, "title": "Farewell Morning", "description": "A final breakfast of fresh pastries, ricotta, and espresso on the terrace as the morning light illuminates the ancient village around you. Take one last photograph at the infinity pool's edge, then let the staff pack a small hamper of local specialties for your journey. The car to Naples will feel unreal after a week suspended between sky and sea." }
+      {
+        "day": 1,
+        "title": "Arrival in Ravello",
+        "description": "Arrive by private car from Naples or Amalfi and wind up through the hillside village of Ravello to the hotel gates. The welcome ritual at Caruso is exceptional — Prosecco on the terrace as the coastline unfolds below. Spend the evening with a slow dinner at the hotel's Belvedere restaurant, where each table feels like a private theatre box above the sea."
+      },
+      {
+        "day": 2,
+        "title": "The Infinity Pool & Gardens",
+        "description": "Spend the morning at the extraordinary infinity pool, watching the morning mist clear to reveal Amalfi and the Mediterranean far below. The hotel's terraced gardens, filled with lemon trees and ancient stone paths, are perfect for a slow romantic morning walk. Book an afternoon couples' massage at the spa, housed in the medieval cellars of the original palace."
+      },
+      {
+        "day": 3,
+        "title": "Ravello Village & Villa Cimbrone",
+        "description": "Walk through the ancient lanes of Ravello to Villa Cimbrone, whose Terrace of Infinity — lined with classical busts — offers one of the most celebrated panoramas in Europe. Visit the 11th-century Ravello Cathedral and the Villa Rufolo gardens, where Wagner famously found the inspiration for Parsifal. Return for a long candlelit dinner on the hotel terrace."
+      },
+      {
+        "day": 4,
+        "title": "Descent to the Sea",
+        "description": "Take the hotel's beach shuttle down the winding road to the Amalfi shore and spend a lazy morning on the beach. The town of Amalfi is just minutes away for exploring the cathedral and the historic paper mills. Return to the hotel by afternoon and watch the sunset from the infinity pool with a Spritz in hand — the colors over the coast at dusk from this height are extraordinary."
+      },
+      {
+        "day": 5,
+        "title": "Wellness & Slow Living",
+        "description": "Today is for pure indulgence. Begin with a private yoga session in the garden arranged through the concierge, followed by a long spa morning with back-to-back treatments from the Belmond spa menu. Lunch in bed, afternoon napping on your terrace, and a leisurely dinner in the hotel's garden restaurant under the stars."
+      },
+      {
+        "day": 6,
+        "title": "Boat Day on the Amalfi Coast",
+        "description": "Hire a private Gozzo boat from Amalfi harbor for a full-day coastal cruise. Stop at the Grotta dello Smeraldo sea cave, swim off the rocks near Praiano, and anchor for lunch at a seaside trattoria in Cetara. Return by evening to the cool elevation of Ravello, which offers welcome relief from the summer heat of the coast below."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "A final breakfast of fresh pastries, ricotta, and espresso on the terrace as the morning light illuminates the ancient village around you. Take one last photograph at the infinity pool's edge, then let the staff pack a small hamper of local specialties for your journey. The car to Naples will feel unreal after a week suspended between sky and sea."
+      }
     ],
     "caveats": [
       "Ravello is an elevated hilltop village with no beach of its own — the hotel offers a beach shuttle, but for couples who want to be steps from the water, Il San Pietro or Le Sirenuse in Positano may be better choices.",

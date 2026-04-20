@@ -3,7 +3,11 @@
   "name": "Sublime Comporta",
   "destination": "portugal",
   "country": "portugal",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 88,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,49 @@
     "luxury": 5
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 400, "max": 1500 },
+  "price_per_night_usd": {
+    "min": 400,
+    "max": 1500
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "beach access", "room service", "organic farm", "horse riding", "yoga", "rice paddy views", "cork forest setting", "concierge"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beach access",
+    "room service",
+    "organic farm",
+    "horse riding",
+    "yoga",
+    "rice paddy views",
+    "cork forest setting",
+    "concierge"
+  ],
   "photos": [
-    { "url": "/images/hotels/sublime-comporta-portugal/hero.webp", "alt": "sublime-comporta-portugal — hero", "type": "hero" },
-    { "url": "/images/hotels/sublime-comporta-portugal/room.webp", "alt": "sublime-comporta-portugal — room", "type": "room" },
-    { "url": "/images/hotels/sublime-comporta-portugal/pool.webp", "alt": "sublime-comporta-portugal — pool", "type": "pool" },
-    { "url": "/images/hotels/sublime-comporta-portugal/spa.webp", "alt": "sublime-comporta-portugal — spa", "type": "spa" },
-    { "url": "/images/hotels/sublime-comporta-portugal/dining.webp", "alt": "sublime-comporta-portugal — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/sublime-comporta-portugal/hero.webp",
+      "alt": "sublime-comporta-portugal — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/sublime-comporta-portugal/room.webp",
+      "alt": "sublime-comporta-portugal — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/sublime-comporta-portugal/pool.webp",
+      "alt": "sublime-comporta-portugal — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/sublime-comporta-portugal/spa.webp",
+      "alt": "sublime-comporta-portugal — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/sublime-comporta-portugal/dining.webp",
+      "alt": "sublime-comporta-portugal — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.2,
   "tripadvisor_award": true,
@@ -34,13 +72,41 @@
     "verdict": "Sublime Comporta is the most romantic and original hotel in the Comporta region — a collection of whitewashed villas set in a cork and stone pine forest above the rice paddies, just minutes from one of the longest and most unspoiled wild beaches in Europe. The design is impeccably chic in a understated Portuguese way: natural materials, earthy tones, organic farm produce, and a spa that genuinely heals rather than just pampers. Comporta itself — beloved by Portuguese aristocracy, Lisbon fashion people, and international celebrities who want beauty without glamour — is the most authentically fashionable destination in Portugal, and Sublime is its finest address.",
     "best_room": "Book a Cottage Suite or one of the larger Villa Suites — the cottages are set amongst the cork oaks with private terraces and views over the rice paddies and pine forest, creating an extraordinary sense of living within a painting. The Villa Suites offer private pools. Request a cottage with the maximum distance from other units for the most secluded honeymoon experience.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival in the Pines", "description": "Arrive at Sublime Comporta and let the silence of the cork forest and the scent of resin and wild herbs immediately dissolve any travel stress. The welcome gin and tonic at the pool bar — made with Portuguese gin and herbs from the organic garden — is a Comporta ritual. Walk to the beach before sunset: a 15-minute path through the pines opens to 30km of completely unspoiled Atlantic beach, backed only by dunes." },
-      { "day": 2, "title": "Wild Beach Morning", "description": "Comporta beach is the kind of beach that resets your soul — vast, wild, barely developed, with Atlantic rollers and light that changes every hour. The hotel provides beach towels and a shuttle; claim a stretch of sand and spend the morning swimming and reading. In the afternoon, horse ride on the beach through the hotel's equestrian programme — cantering along the waterline as the sun starts to sink." },
-      { "day": 3, "title": "Organic Farm & Spa", "description": "Tour Sublime's organic farm where much of the restaurant's produce originates — vegetables, herbs, honey from the hotel's own bees, and eggs from free-range chickens. Participate in a farm-to-table cooking class with the chef, making Alentejo specialities. Afternoon at the spa: the Sublime Spa uses organic Portuguese ingredients including alentejo honey, olive oil, and cork extract in its treatments — the couples' ritual is outstanding." },
-      { "day": 4, "title": "Comporta Village", "description": "Cycle or drive the 5km to Comporta village — a genuinely remarkable place: a small village of traditional Alentejo houses, a handful of the most beautiful restaurants and concept shops in Portugal, and rice paddies stretching in every direction. Lunch at the legendary Comporta Café or at Il Bacaro for Italian with Portuguese soul. The afternoon back at the hotel pool, surrounded by pine trees." },
-      { "day": 5, "title": "Setúbal & Arrábida Nature Park", "description": "A day trip north to the Serra da Arrábida — a dramatic limestone ridge plunging into the most turquoise water in Portugal, in a protected nature park. Swim from the hidden beaches at Portinho da Arrábida, visit the 16th-century convent perched on the ridge, and stop at a local winery making the indigenous Moscatel de Setúbal for a tasting. Return for a sunset drink on the Sublime terrace." },
-      { "day": 6, "title": "Rice Paddy Walks & Slow Day", "description": "A day for being slow and still — morning yoga on the terrace as the rice paddies turn gold in the early light, then a spa treatment and a long lunch at the Sublime Restaurant where the menu changes with what the farm and the sea provide. In the afternoon walk the nature paths through the cork forest, identifying plants with a guided handout from the concierge. Evening dinner under the stars at the pool restaurant." },
-      { "day": 7, "title": "Farewell Morning", "description": "Last morning: coffee in bed, a final walk to the beach at sunrise when you may have it entirely to yourself, then breakfast with the farm's own eggs and local bread. Comporta's melancholy beauty — the light, the pines, the empty ocean — will stay with you long after the drive back to Lisbon airport. This is Portugal at its most deeply itself." }
+      {
+        "day": 1,
+        "title": "Arrival in the Pines",
+        "description": "Arrive at Sublime Comporta and let the silence of the cork forest and the scent of resin and wild herbs immediately dissolve any travel stress. The welcome gin and tonic at the pool bar — made with Portuguese gin and herbs from the organic garden — is a Comporta ritual. Walk to the beach before sunset: a 15-minute path through the pines opens to 30km of completely unspoiled Atlantic beach, backed only by dunes."
+      },
+      {
+        "day": 2,
+        "title": "Wild Beach Morning",
+        "description": "Comporta beach is the kind of beach that resets your soul — vast, wild, barely developed, with Atlantic rollers and light that changes every hour. The hotel provides beach towels and a shuttle; claim a stretch of sand and spend the morning swimming and reading. In the afternoon, horse ride on the beach through the hotel's equestrian programme — cantering along the waterline as the sun starts to sink."
+      },
+      {
+        "day": 3,
+        "title": "Organic Farm & Spa",
+        "description": "Tour Sublime's organic farm where much of the restaurant's produce originates — vegetables, herbs, honey from the hotel's own bees, and eggs from free-range chickens. Participate in a farm-to-table cooking class with the chef, making Alentejo specialities. Afternoon at the spa: the Sublime Spa uses organic Portuguese ingredients including alentejo honey, olive oil, and cork extract in its treatments — the couples' ritual is outstanding."
+      },
+      {
+        "day": 4,
+        "title": "Comporta Village",
+        "description": "Cycle or drive the 5km to Comporta village — a genuinely remarkable place: a small village of traditional Alentejo houses, a handful of the most beautiful restaurants and concept shops in Portugal, and rice paddies stretching in every direction. Lunch at the legendary Comporta Café or at Il Bacaro for Italian with Portuguese soul. The afternoon back at the hotel pool, surrounded by pine trees."
+      },
+      {
+        "day": 5,
+        "title": "Setúbal & Arrábida Nature Park",
+        "description": "A day trip north to the Serra da Arrábida — a dramatic limestone ridge plunging into the most turquoise water in Portugal, in a protected nature park. Swim from the hidden beaches at Portinho da Arrábida, visit the 16th-century convent perched on the ridge, and stop at a local winery making the indigenous Moscatel de Setúbal for a tasting. Return for a sunset drink on the Sublime terrace."
+      },
+      {
+        "day": 6,
+        "title": "Rice Paddy Walks & Slow Day",
+        "description": "A day for being slow and still — morning yoga on the terrace as the rice paddies turn gold in the early light, then a spa treatment and a long lunch at the Sublime Restaurant where the menu changes with what the farm and the sea provide. In the afternoon walk the nature paths through the cork forest, identifying plants with a guided handout from the concierge. Evening dinner under the stars at the pool restaurant."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "Last morning: coffee in bed, a final walk to the beach at sunrise when you may have it entirely to yourself, then breakfast with the farm's own eggs and local bread. Comporta's melancholy beauty — the light, the pines, the empty ocean — will stay with you long after the drive back to Lisbon airport. This is Portugal at its most deeply itself."
+      }
     ],
     "caveats": [
       "Comporta beach is wild and Atlantic-facing — the waves can be strong with undertow and the water is cool even in summer (around 19-22°C). It's not a calm Caribbean-style swimming beach; couples expecting warm flat water should be aware.",

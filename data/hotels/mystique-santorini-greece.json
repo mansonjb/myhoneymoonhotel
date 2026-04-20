@@ -3,7 +3,10 @@
   "name": "Mystique, a Luxury Collection Hotel, Santorini",
   "destination": "greece",
   "country": "greece",
-  "experience_types": ["luxury", "wellness"],
+  "experience_types": [
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 90,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +20,49 @@
     "luxury": 15
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 700, "max": 2500 },
+  "price_per_night_usd": {
+    "min": 700,
+    "max": 2500
+  },
   "adults_only": false,
-  "amenities": ["infinity pool", "spa", "plunge pool suites", "room service", "restaurant", "bar", "concierge", "caldera views", "cliffside terraces", "yoga"],
+  "amenities": [
+    "infinity pool",
+    "spa",
+    "plunge pool suites",
+    "room service",
+    "restaurant",
+    "bar",
+    "concierge",
+    "caldera views",
+    "cliffside terraces",
+    "yoga"
+  ],
   "photos": [
-    { "url": "/images/hotels/mystique-santorini-greece/hero.webp", "alt": "mystique-santorini-greece — hero", "type": "hero" },
-    { "url": "/images/hotels/mystique-santorini-greece/room.webp", "alt": "mystique-santorini-greece — room", "type": "room" },
-    { "url": "/images/hotels/mystique-santorini-greece/pool.webp", "alt": "mystique-santorini-greece — pool", "type": "pool" },
-    { "url": "/images/hotels/mystique-santorini-greece/spa.webp", "alt": "mystique-santorini-greece — spa", "type": "spa" },
-    { "url": "/images/hotels/mystique-santorini-greece/dining.webp", "alt": "mystique-santorini-greece — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/mystique-santorini-greece/hero.webp",
+      "alt": "mystique-santorini-greece — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/mystique-santorini-greece/room.webp",
+      "alt": "mystique-santorini-greece — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/mystique-santorini-greece/pool.webp",
+      "alt": "mystique-santorini-greece — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/mystique-santorini-greece/spa.webp",
+      "alt": "mystique-santorini-greece — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/mystique-santorini-greece/dining.webp",
+      "alt": "mystique-santorini-greece — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.3,
   "tripadvisor_award": true,
@@ -34,13 +71,41 @@
     "verdict": "Mystique is a Luxury Collection property carved dramatically into Oia's volcanic caldera cliffs — a labyrinthine hotel of cave suites, hewn stone passageways, and terraces suspended above the sea. Its design is the most architecturally dramatic on the island, all dark volcanic textures, cave ceilings, and stark white against the deep blue caldera. The Charisma restaurant is one of the finest dining experiences in Santorini, and the position right in Oia puts you walking distance from the island's most famous sunset viewpoint while still enjoying genuine hotel seclusion.",
     "best_room": "The Mystique Suite with its private infinity pool carved into the caldera cliff is the most extraordinary room on the property — a genuinely cave-like space with volcanic stone walls, plunge pool terrace, and unobstructed caldera views. The Allure Suites with private pools are also exceptional. The cave architecture means each suite feels uniquely sculpted from the rock, with a tactile rawness that sets Mystique apart from the smoother luxury of other Santorini hotels.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Into the Cave", "description": "Arrive at Mystique and descend through the carved stone passageways to your suite — the theatrical reveal of the caldera view as your room opens onto the cliff is one of the great hotel arrival moments in Greece. The cave ceilings and volcanic stone walls create an atmosphere of primal natural beauty layered with elegant design. Dinner at Charisma restaurant, where the caldera view and contemporary Greek cuisine combine beautifully." },
-      { "day": 2, "title": "Oia at Its Best", "description": "Mystique's position in Oia puts you walking distance from everything the village offers. Rise early and walk the iconic blue-domed church lanes before 8am when they belong almost entirely to locals. Explore the traditional captain's houses, the naval museum, and the artisan boutiques. Return for a pool morning and afternoon spa treatments using volcanic hot spring minerals." },
-      { "day": 3, "title": "Caldera Swimming & Ammoudi Bay", "description": "Descend the 300 steps (or take a donkey) from Oia down to Ammoudi Bay — the tiny port below the village with volcanic rocks perfect for deep-water swimming and some of the freshest seafood tavernas in Santorini. Swim in the extraordinarily clear caldera water, then climb back up for sunset from Mystique's terrace with the view you earned." },
-      { "day": 4, "title": "Private Catamaran Cruise", "description": "The concierge can arrange a private catamaran for a full day exploring the caldera and southern Santorini. Visit the hot springs of Nea Kameni, the Red Beach (one of the Mediterranean's most surreal landscapes), and the White Beach, accessible only by boat. The day ends with sunset on the water as Oia's lights come on above the caldera walls." },
-      { "day": 5, "title": "Wine Country & Ancient Santorini", "description": "Santorini's wine heritage is extraordinary — the vines grow in basket shapes on the volcanic soil and have done so for 3,500 years. Visit the ancient site of Akrotiri in the morning (the Minoan Pompeii), then tour the Domaine Sigalas or Hatzidakis winery for an afternoon tasting of local Assyrtiko and Nykteri wines. Return for a sunset dinner on the Charisma terrace." },
-      { "day": 6, "title": "Mystique Spa & Photography", "description": "Full morning at the spa with the hotel's signature volcanic clay treatment and couples' massage. In the afternoon, hire one of Santorini's professional photographers for a private sunset shoot on Mystique's terraces — the cave architecture, caldera views, and perfect light create images of extraordinary beauty. Reserve your last special dinner at the Charisma cliffside terrace." },
-      { "day": 7, "title": "Farewell Morning", "description": "A final morning in your cave suite, ordering breakfast to the terrace as the caldera wakes below. The Mystique team's farewell is warm and understated — fitting for a hotel whose entire personality is one of dramatic understatement. The transfer to the airport takes you out through Oia's lanes one last time." }
+      {
+        "day": 1,
+        "title": "Into the Cave",
+        "description": "Arrive at Mystique and descend through the carved stone passageways to your suite — the theatrical reveal of the caldera view as your room opens onto the cliff is one of the great hotel arrival moments in Greece. The cave ceilings and volcanic stone walls create an atmosphere of primal natural beauty layered with elegant design. Dinner at Charisma restaurant, where the caldera view and contemporary Greek cuisine combine beautifully."
+      },
+      {
+        "day": 2,
+        "title": "Oia at Its Best",
+        "description": "Mystique's position in Oia puts you walking distance from everything the village offers. Rise early and walk the iconic blue-domed church lanes before 8am when they belong almost entirely to locals. Explore the traditional captain's houses, the naval museum, and the artisan boutiques. Return for a pool morning and afternoon spa treatments using volcanic hot spring minerals."
+      },
+      {
+        "day": 3,
+        "title": "Caldera Swimming & Ammoudi Bay",
+        "description": "Descend the 300 steps (or take a donkey) from Oia down to Ammoudi Bay — the tiny port below the village with volcanic rocks perfect for deep-water swimming and some of the freshest seafood tavernas in Santorini. Swim in the extraordinarily clear caldera water, then climb back up for sunset from Mystique's terrace with the view you earned."
+      },
+      {
+        "day": 4,
+        "title": "Private Catamaran Cruise",
+        "description": "The concierge can arrange a private catamaran for a full day exploring the caldera and southern Santorini. Visit the hot springs of Nea Kameni, the Red Beach (one of the Mediterranean's most surreal landscapes), and the White Beach, accessible only by boat. The day ends with sunset on the water as Oia's lights come on above the caldera walls."
+      },
+      {
+        "day": 5,
+        "title": "Wine Country & Ancient Santorini",
+        "description": "Santorini's wine heritage is extraordinary — the vines grow in basket shapes on the volcanic soil and have done so for 3,500 years. Visit the ancient site of Akrotiri in the morning (the Minoan Pompeii), then tour the Domaine Sigalas or Hatzidakis winery for an afternoon tasting of local Assyrtiko and Nykteri wines. Return for a sunset dinner on the Charisma terrace."
+      },
+      {
+        "day": 6,
+        "title": "Mystique Spa & Photography",
+        "description": "Full morning at the spa with the hotel's signature volcanic clay treatment and couples' massage. In the afternoon, hire one of Santorini's professional photographers for a private sunset shoot on Mystique's terraces — the cave architecture, caldera views, and perfect light create images of extraordinary beauty. Reserve your last special dinner at the Charisma cliffside terrace."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "A final morning in your cave suite, ordering breakfast to the terrace as the caldera wakes below. The Mystique team's farewell is warm and understated — fitting for a hotel whose entire personality is one of dramatic understatement. The transfer to the airport takes you out through Oia's lanes one last time."
+      }
     ],
     "caveats": [
       "Mystique is not adults-only — families do stay, though the cave architecture, cliff location, and price point mean the atmosphere is predominantly adult.",

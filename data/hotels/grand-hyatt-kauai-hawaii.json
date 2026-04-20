@@ -3,7 +3,11 @@
   "name": "Grand Hyatt Kauai Resort & Spa",
   "destination": "hawaii",
   "country": "usa",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 82,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,30 +21,90 @@
     "luxury": 8
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 500, "max": 1200 },
+  "price_per_night_usd": {
+    "min": 500,
+    "max": 1200
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "beach", "room service", "golf", "multiple restaurants", "saltwater lagoon", "fitness center"],
-  "photos": [
-    { "url": "/images/hotels/grand-hyatt-kauai-hawaii/hero.webp", "alt": "grand-hyatt-kauai-hawaii — hero", "type": "hero" },
-    { "url": "/images/hotels/grand-hyatt-kauai-hawaii/room.webp", "alt": "grand-hyatt-kauai-hawaii — room", "type": "room" },
-    { "url": "/images/hotels/grand-hyatt-kauai-hawaii/pool.webp", "alt": "grand-hyatt-kauai-hawaii — pool", "type": "pool" },
-    { "url": "/images/hotels/grand-hyatt-kauai-hawaii/spa.webp", "alt": "grand-hyatt-kauai-hawaii — spa", "type": "spa" },
-    { "url": "/images/hotels/grand-hyatt-kauai-hawaii/dining.webp", "alt": "grand-hyatt-kauai-hawaii — dining", "type": "dining" }
+  "amenities": [
+    "spa",
+    "pool",
+    "beach",
+    "room service",
+    "golf",
+    "multiple restaurants",
+    "saltwater lagoon",
+    "fitness center"
   ],
-  "tripadvisor_rating": 9.0,
+  "photos": [
+    {
+      "url": "/images/hotels/grand-hyatt-kauai-hawaii/hero.webp",
+      "alt": "grand-hyatt-kauai-hawaii — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/grand-hyatt-kauai-hawaii/room.webp",
+      "alt": "grand-hyatt-kauai-hawaii — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/grand-hyatt-kauai-hawaii/pool.webp",
+      "alt": "grand-hyatt-kauai-hawaii — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/grand-hyatt-kauai-hawaii/spa.webp",
+      "alt": "grand-hyatt-kauai-hawaii — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/grand-hyatt-kauai-hawaii/dining.webp",
+      "alt": "grand-hyatt-kauai-hawaii — dining",
+      "type": "dining"
+    }
+  ],
+  "tripadvisor_rating": 9,
   "tripadvisor_award": true,
   "couples_review_pct": 68,
   "content": {
     "verdict": "The Grand Hyatt Kauai is the premier resort on the Garden Isle, sitting on dramatic Poipu Beach on Kauai's sunny south shore with sweeping views of the Na Pali Coast cliffs at sunset. It is more value-oriented than the Four Seasons properties but no less spectacular in setting — the pool complex (one of the largest in Hawaii) and the ANARA Spa make it ideal for couples who want an immersive, nature-first honeymoon at a more accessible price point. Kauai's wild beauty — helicopter tours, Na Pali boat trips, Waimea Canyon — is the real star.",
     "best_room": "Book a Club Ocean View room for the best combination of views and access to the Regency Club lounge, which offers complimentary breakfast and evening cocktails — a significant value add on a 7-night stay. For special splurge nights, upgrade to an Ocean View Suite for the wrap-around lanai, separate living room, and deep soaking tub.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Poipu Beach", "description": "Arrive at Lihue Airport, pick up your rental car, and drive 30 minutes to the resort on Kauai's south shore. Check in and walk directly to Poipu Beach, one of Hawaii's most beloved strands, where Hawaiian monk seals sometimes rest on the sand and sea turtles feed in the shallows. Dinner at Tidepools, the hotel's signature restaurant set above an artificial fish pond with torches and stars overhead, is the perfect romantic first evening." },
-      { "day": 2, "title": "Na Pali Helicopter Tour", "description": "This is the single best activity in all of Kauai — a helicopter tour along the impossible-to-access Na Pali Coast, passing waterfalls, sea caves, and jagged emerald cliffs plunging into the Pacific. Book a doors-off tour for the full experience and ask the concierge for their top operator recommendation. Return for a recovery afternoon at the resort's lazy river pool." },
-      { "day": 3, "title": "ANARA Spa & Pool Day", "description": "Dedicate the day to the celebrated ANARA Spa, which is set in an outdoor garden environment with open-air treatment pavilions. Book the Couple's Pohaku (Hot Stone) Massage followed by a soak in the garden tubs. The resort's 5-acre pool complex features a lazy river, waterslides, and the quieter adults preferred pool — explore all of it at leisure." },
-      { "day": 4, "title": "Waimea Canyon & Kokee", "description": "Drive up to Waimea Canyon — nicknamed the Grand Canyon of the Pacific — for breathtaking views of layered red rock gorges framed by tropical vegetation. Continue to Kokee State Park for cooler alpine air and the Kalalau Lookout over the Na Pali Coast from above. Pack a picnic from the hotel's culinary team for a clifftop lunch with a view." },
-      { "day": 5, "title": "Na Pali Sunset Boat Cruise", "description": "Board a catamaran for a Na Pali Coast sunset cruise from Port Allen Harbor — a magical way to see the sea cliffs from the water, with time for snorkeling in sea caves and dolphin sightings. Most cruises include an open bar and fresh fish poke. Return to the hotel glowing from salt air and prepare for a romantic dinner at the hotel's Stevenson's Library." },
-      { "day": 6, "title": "Hanalei Bay & North Shore", "description": "Drive the legendary one-lane bridge road to Kauai's lush north shore for the crescent bay at Hanalei, taro fields under the Hanalei mountains, and the spectacular Ke'e Beach at the end of the road where the Na Pali begins. Stop for shave ice in Hanalei town and explore local boutiques before the scenic drive back south." },
-      { "day": 7, "title": "Farewell Morning", "description": "Have a slow breakfast at Ilima Terrace and take a final early-morning walk along Poipu Beach before the crowds arrive. Check for monk seals resting near the beach park next door — spotting one is considered especially lucky. Then bid farewell to the Garden Isle on the drive back to Lihue Airport." }
+      {
+        "day": 1,
+        "title": "Arrival & Poipu Beach",
+        "description": "Arrive at Lihue Airport, pick up your rental car, and drive 30 minutes to the resort on Kauai's south shore. Check in and walk directly to Poipu Beach, one of Hawaii's most beloved strands, where Hawaiian monk seals sometimes rest on the sand and sea turtles feed in the shallows. Dinner at Tidepools, the hotel's signature restaurant set above an artificial fish pond with torches and stars overhead, is the perfect romantic first evening."
+      },
+      {
+        "day": 2,
+        "title": "Na Pali Helicopter Tour",
+        "description": "This is the single best activity in all of Kauai — a helicopter tour along the impossible-to-access Na Pali Coast, passing waterfalls, sea caves, and jagged emerald cliffs plunging into the Pacific. Book a doors-off tour for the full experience and ask the concierge for their top operator recommendation. Return for a recovery afternoon at the resort's lazy river pool."
+      },
+      {
+        "day": 3,
+        "title": "ANARA Spa & Pool Day",
+        "description": "Dedicate the day to the celebrated ANARA Spa, which is set in an outdoor garden environment with open-air treatment pavilions. Book the Couple's Pohaku (Hot Stone) Massage followed by a soak in the garden tubs. The resort's 5-acre pool complex features a lazy river, waterslides, and the quieter adults preferred pool — explore all of it at leisure."
+      },
+      {
+        "day": 4,
+        "title": "Waimea Canyon & Kokee",
+        "description": "Drive up to Waimea Canyon — nicknamed the Grand Canyon of the Pacific — for breathtaking views of layered red rock gorges framed by tropical vegetation. Continue to Kokee State Park for cooler alpine air and the Kalalau Lookout over the Na Pali Coast from above. Pack a picnic from the hotel's culinary team for a clifftop lunch with a view."
+      },
+      {
+        "day": 5,
+        "title": "Na Pali Sunset Boat Cruise",
+        "description": "Board a catamaran for a Na Pali Coast sunset cruise from Port Allen Harbor — a magical way to see the sea cliffs from the water, with time for snorkeling in sea caves and dolphin sightings. Most cruises include an open bar and fresh fish poke. Return to the hotel glowing from salt air and prepare for a romantic dinner at the hotel's Stevenson's Library."
+      },
+      {
+        "day": 6,
+        "title": "Hanalei Bay & North Shore",
+        "description": "Drive the legendary one-lane bridge road to Kauai's lush north shore for the crescent bay at Hanalei, taro fields under the Hanalei mountains, and the spectacular Ke'e Beach at the end of the road where the Na Pali begins. Stop for shave ice in Hanalei town and explore local boutiques before the scenic drive back south."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "Have a slow breakfast at Ilima Terrace and take a final early-morning walk along Poipu Beach before the crowds arrive. Check for monk seals resting near the beach park next door — spotting one is considered especially lucky. Then bid farewell to the Garden Isle on the drive back to Lihue Airport."
+      }
     ],
     "caveats": [
       "Kauai is the rainiest of the main Hawaiian islands, particularly on the north shore — even the sunny south shore can have overcast mornings, especially in winter months.",

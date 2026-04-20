@@ -3,7 +3,10 @@
   "name": "Boucan Canot Hotel",
   "destination": "reunion",
   "country": "reunion",
-  "experience_types": ["beach", "wellness"],
+  "experience_types": [
+    "beach",
+    "wellness"
+  ],
   "honeymoon_score": 79,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +20,46 @@
     "luxury": 7
   },
   "stars": 4,
-  "price_per_night_usd": { "min": 250, "max": 700 },
+  "price_per_night_usd": {
+    "min": 250,
+    "max": 700
+  },
   "adults_only": false,
-  "amenities": ["pool", "beach", "restaurant", "bar", "room service", "concierge", "water sports access"],
+  "amenities": [
+    "pool",
+    "beach",
+    "restaurant",
+    "bar",
+    "room service",
+    "concierge",
+    "water sports access"
+  ],
   "photos": [
-    { "url": "/images/hotels/boucan-canot-hotel-reunion/hero.webp", "alt": "boucan-canot-hotel-reunion — hero", "type": "hero" },
-    { "url": "/images/hotels/boucan-canot-hotel-reunion/room.webp", "alt": "boucan-canot-hotel-reunion — room", "type": "room" },
-    { "url": "/images/hotels/boucan-canot-hotel-reunion/pool.webp", "alt": "boucan-canot-hotel-reunion — pool", "type": "pool" },
-    { "url": "/images/hotels/boucan-canot-hotel-reunion/spa.webp", "alt": "boucan-canot-hotel-reunion — spa", "type": "spa" },
-    { "url": "/images/hotels/boucan-canot-hotel-reunion/dining.webp", "alt": "boucan-canot-hotel-reunion — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/boucan-canot-hotel-reunion/hero.webp",
+      "alt": "boucan-canot-hotel-reunion — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/boucan-canot-hotel-reunion/room.webp",
+      "alt": "boucan-canot-hotel-reunion — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/boucan-canot-hotel-reunion/pool.webp",
+      "alt": "boucan-canot-hotel-reunion — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/boucan-canot-hotel-reunion/spa.webp",
+      "alt": "boucan-canot-hotel-reunion — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/boucan-canot-hotel-reunion/dining.webp",
+      "alt": "boucan-canot-hotel-reunion — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 8.5,
   "tripadvisor_award": false,
@@ -34,13 +68,41 @@
     "verdict": "Boucan Canot Hotel sits on one of Réunion Island's most beautiful beaches — a crescent of pale sand tucked between volcanic headlands on the west coast, protected by a reef and popular with both surfers and swimmers. The hotel is a relaxed, stylish four-star boutique that wears its surfing heritage lightly while delivering genuinely good food, a charming pool, and an atmosphere that feels authentically Réunionnais rather than resort-generic. It is the best value beach hotel on the island for couples who want character over five-star formality.",
     "best_room": "Book a Superior Room or Suite with direct sea view — the rooms overlooking Boucan Canot beach are the property's strongest asset, and waking up to that particular combination of surf, black volcanic headland, and tropical vegetation is a daily pleasure. The Suites have larger terraces and a separate seating area. Standard rooms face inland and lose the beach drama entirely.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Beach Introduction", "description": "Boucan Canot is about 50 minutes from the airport, on the west coast just north of Saint Gilles. Check in, claim your sea view terrace, and spend the late afternoon on the beach. The surf at Boucan Canot is gentle on the lagoon side of the reef — perfect for first-day swimming. The hotel's restaurant serves some of the island's best fresh fish and grilled seafood." },
-      { "day": 2, "title": "Surf Lesson & Lagoon Day", "description": "Boucan Canot is one of Réunion's classic surf breaks — lessons for beginners are available through local surf schools. After an early lesson, the afternoon is lagoon-and-pool time. The hotel bar does an excellent ti punch (local white rum, lime, and cane sugar syrup) — the quintessential Réunion aperitif." },
-      { "day": 3, "title": "Piton de la Fournaise Volcano", "description": "Arrange a full-day volcano excursion through the hotel — the drive across the island is part of the experience, passing through highland pasture, eucalyptus forests, and the dramatic lunar landscape of the Plaine des Sables. Reach the summit caldera for one of the world's most accessible active volcano experiences." },
-      { "day": 4, "title": "Saint Gilles Market & Snorkeling", "description": "The Saint Gilles market is a ten-minute drive — an excellent morning of fresh tropical fruit, spices, local crafts, and street food. Return to Boucan Canot for a guided snorkel along the reef, where a wide variety of tropical fish and occasional turtles can be spotted. Lunch back at the hotel's waterfront terrace." },
-      { "day": 5, "title": "Cirque de Mafate Helicopter", "description": "A helicopter excursion over the Cirque de Mafate — Réunion's most dramatic and road-inaccessible crater valley — is operated by several Réunion helicopter companies from a landing pad north of Saint Gilles. A 20-30 minute circuit delivers some of the most spectacular aerial scenery in the Indian Ocean region. Book through the hotel concierge." },
-      { "day": 6, "title": "Road Trip North: Saint Paul & Beyond", "description": "The coastal route north from Boucan Canot reaches the old town of Saint Paul, whose seafront cemetery (holding the grave of the pirate Olivier Levasseur) and Friday market are Réunion institutions. Continue north to the rugged lava coast around Pointe des Galets for a completely different face of the island." },
-      { "day": 7, "title": "Farewell Morning", "description": "A final breakfast on the terrace overlooking the beach, one last swim in the lagoon, and a departure from one of Réunion's most beautiful coastal addresses. Airport transfer arranged by the hotel." }
+      {
+        "day": 1,
+        "title": "Arrival & Beach Introduction",
+        "description": "Boucan Canot is about 50 minutes from the airport, on the west coast just north of Saint Gilles. Check in, claim your sea view terrace, and spend the late afternoon on the beach. The surf at Boucan Canot is gentle on the lagoon side of the reef — perfect for first-day swimming. The hotel's restaurant serves some of the island's best fresh fish and grilled seafood."
+      },
+      {
+        "day": 2,
+        "title": "Surf Lesson & Lagoon Day",
+        "description": "Boucan Canot is one of Réunion's classic surf breaks — lessons for beginners are available through local surf schools. After an early lesson, the afternoon is lagoon-and-pool time. The hotel bar does an excellent ti punch (local white rum, lime, and cane sugar syrup) — the quintessential Réunion aperitif."
+      },
+      {
+        "day": 3,
+        "title": "Piton de la Fournaise Volcano",
+        "description": "Arrange a full-day volcano excursion through the hotel — the drive across the island is part of the experience, passing through highland pasture, eucalyptus forests, and the dramatic lunar landscape of the Plaine des Sables. Reach the summit caldera for one of the world's most accessible active volcano experiences."
+      },
+      {
+        "day": 4,
+        "title": "Saint Gilles Market & Snorkeling",
+        "description": "The Saint Gilles market is a ten-minute drive — an excellent morning of fresh tropical fruit, spices, local crafts, and street food. Return to Boucan Canot for a guided snorkel along the reef, where a wide variety of tropical fish and occasional turtles can be spotted. Lunch back at the hotel's waterfront terrace."
+      },
+      {
+        "day": 5,
+        "title": "Cirque de Mafate Helicopter",
+        "description": "A helicopter excursion over the Cirque de Mafate — Réunion's most dramatic and road-inaccessible crater valley — is operated by several Réunion helicopter companies from a landing pad north of Saint Gilles. A 20-30 minute circuit delivers some of the most spectacular aerial scenery in the Indian Ocean region. Book through the hotel concierge."
+      },
+      {
+        "day": 6,
+        "title": "Road Trip North: Saint Paul & Beyond",
+        "description": "The coastal route north from Boucan Canot reaches the old town of Saint Paul, whose seafront cemetery (holding the grave of the pirate Olivier Levasseur) and Friday market are Réunion institutions. Continue north to the rugged lava coast around Pointe des Galets for a completely different face of the island."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "A final breakfast on the terrace overlooking the beach, one last swim in the lagoon, and a departure from one of Réunion's most beautiful coastal addresses. Airport transfer arranged by the hotel."
+      }
     ],
     "caveats": [
       "Boucan Canot beach is a public beach popular with locals and surfers — it is beautiful but not private, and weekends bring significant numbers of Réunionnais families.",
@@ -48,12 +110,30 @@
       "Boucan Canot's surf breaks can make the sea uncomfortable for swimming when swell picks up — the inner lagoon section is always calmer, but the beach experience is partially surf-dependent."
     ],
     "faqs": [
-      { "question": "Is Boucan Canot Hotel good for honeymooners?", "answer": "It is a charming and well-priced choice for couples who love beach life, surf culture, and relaxed French atmosphere over formal luxury. The beach itself is genuinely beautiful, the food is excellent, and the atmosphere is warm. It pairs very well with Réunion's extraordinary inland experiences." },
-      { "question": "What is the best time to visit?", "answer": "May through October is the ideal season — dry, warm, and with consistent surf for those interested. July and August are the busiest months. April, September, and October give good weather with fewer visitors." },
-      { "question": "What should we book in advance?", "answer": "Sea view rooms and suites are the priority booking. Pre-arrange the helicopter excursion and the volcano day trip through the concierge before arrival." },
-      { "question": "Is it adults-only?", "answer": "No, it welcomes all guests including families. The surf culture and relaxed beach town atmosphere make it equally appealing to young couples and families." },
-      { "question": "What's the best room for a honeymoon?", "answer": "A Suite with direct beach view — the terrace overlooking Boucan Canot beach is the hotel's defining experience, and the Suites have larger terraces and more living space." },
-      { "question": "How do we get there?", "answer": "Fly to Roland Garros Airport (RUN), then taxi approximately 45 minutes to Boucan Canot on the west coast." }
+      {
+        "question": "Is Boucan Canot Hotel good for honeymooners?",
+        "answer": "It is a charming and well-priced choice for couples who love beach life, surf culture, and relaxed French atmosphere over formal luxury. The beach itself is genuinely beautiful, the food is excellent, and the atmosphere is warm. It pairs very well with Réunion's extraordinary inland experiences."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "May through October is the ideal season — dry, warm, and with consistent surf for those interested. July and August are the busiest months. April, September, and October give good weather with fewer visitors."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "Sea view rooms and suites are the priority booking. Pre-arrange the helicopter excursion and the volcano day trip through the concierge before arrival."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "No, it welcomes all guests including families. The surf culture and relaxed beach town atmosphere make it equally appealing to young couples and families."
+      },
+      {
+        "question": "What's the best room for a honeymoon?",
+        "answer": "A Suite with direct beach view — the terrace overlooking Boucan Canot beach is the hotel's defining experience, and the Suites have larger terraces and more living space."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "Fly to Roland Garros Airport (RUN), then taxi approximately 45 minutes to Boucan Canot on the west coast."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Boucan Canot Hotel\n\nDear Boucan Canot Hotel team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: a Suite or Superior Room with sea view\n\nCould you please let us know:\n- Current availability for our dates\n- Any honeymoon packages or complimentary upgrades\n- Assistance booking the Cirque de Mafate helicopter and volcano excursion\n\nThank you for your time.\n\n[Your names]"
   },

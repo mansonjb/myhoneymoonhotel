@@ -3,7 +3,11 @@
   "name": "Montage Kapalua Bay",
   "destination": "hawaii",
   "country": "usa",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 88,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,48 @@
     "luxury": 8
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 1000, "max": 2800 },
+  "price_per_night_usd": {
+    "min": 1000,
+    "max": 2800
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "beach", "room service", "butler service", "golf nearby", "multiple restaurants", "tennis", "fitness center"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beach",
+    "room service",
+    "butler service",
+    "golf nearby",
+    "multiple restaurants",
+    "tennis",
+    "fitness center"
+  ],
   "photos": [
-    { "url": "/images/hotels/montage-kapalua-bay-hawaii/hero.webp", "alt": "montage-kapalua-bay-hawaii — hero", "type": "hero" },
-    { "url": "/images/hotels/montage-kapalua-bay-hawaii/room.webp", "alt": "montage-kapalua-bay-hawaii — room", "type": "room" },
-    { "url": "/images/hotels/montage-kapalua-bay-hawaii/pool.webp", "alt": "montage-kapalua-bay-hawaii — pool", "type": "pool" },
-    { "url": "/images/hotels/montage-kapalua-bay-hawaii/spa.webp", "alt": "montage-kapalua-bay-hawaii — spa", "type": "spa" },
-    { "url": "/images/hotels/montage-kapalua-bay-hawaii/dining.webp", "alt": "montage-kapalua-bay-hawaii — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/montage-kapalua-bay-hawaii/hero.webp",
+      "alt": "montage-kapalua-bay-hawaii — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/montage-kapalua-bay-hawaii/room.webp",
+      "alt": "montage-kapalua-bay-hawaii — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/montage-kapalua-bay-hawaii/pool.webp",
+      "alt": "montage-kapalua-bay-hawaii — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/montage-kapalua-bay-hawaii/spa.webp",
+      "alt": "montage-kapalua-bay-hawaii — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/montage-kapalua-bay-hawaii/dining.webp",
+      "alt": "montage-kapalua-bay-hawaii — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.4,
   "tripadvisor_award": true,
@@ -34,13 +71,41 @@
     "verdict": "The Montage Kapalua Bay sits on one of Maui's most sheltered and beautiful beaches — Kapalua Bay, consistently ranked among the best beaches in the United States and beloved for its calm, crystal-clear water. The resort's all-suite layout means every room has a full kitchen, living room, and private lanai, giving it a residential quality that suits couples who want to feel truly at home rather than just passing through. It's a quieter, more secluded alternative to the South Shore resorts, with a more intimate scale and spectacular sunsets over Molokai and Lanai.",
     "best_room": "Every accommodation at Montage is a suite, which is part of what makes it special. Book a One-Bedroom Ocean Suite for full ocean views and a large lanai — the living room and full kitchen mean you can have a private champagne breakfast every morning. The Two-Bedroom Oceanfront Villa is the ultimate splurge, with its own private plunge pool and unobstructed Kapalua Bay views.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Kapalua Bay", "description": "Check in to your suite and drop straight onto Kapalua Bay Beach — the water here is so calm and clear it's like swimming in a giant aquarium, with parrotfish and sea turtles frequently visible from the shore. Collect a couple of the hotel's branded beach bags, claim your chairs, and order mai tais as the sun begins its descent toward the silhouettes of Molokai and Lanai. Dinner at the hotel's Cane & Canoe restaurant over the Pacific is a perfect first evening." },
-      { "day": 2, "title": "Spa Montage & Kapalua Coastal Trail", "description": "Morning couples' treatment at Spa Montage — the Kapalua Bay Ritual incorporates sea salt exfoliation, warm pohaku stones, and Hawaiian kukui nut oil in a two-hour signature experience. In the afternoon, walk the Kapalua Coastal Trail, a paved 1.76-mile path along clifftops and secluded coves with views of neighboring islands — the most beautiful easy walk in all of Maui." },
-      { "day": 3, "title": "Whale Watching (Winter) or Snorkel Adventure", "description": "From December to April, Kapalua Bay is whale country — humpback whales breach just offshore with startling frequency. Book a small-group whale watching tour from Lahaina Harbor, or if visiting off-season, snorkel the bay's protected waters directly from the beach for a morning of sea turtle encounters. The hotel can arrange premium snorkel equipment." },
-      { "day": 4, "title": "Road to Hana", "description": "Depart early for the Road to Hana — Maui's legendary 64-mile coastal drive through rainforest, sea cliffs, and waterfalls. The Montage concierge can provide a customized map highlighting lesser-known stops including Garden of Eden, Waikani Falls, and the black sand beach at Waianapanapa State Park. Return to the resort in time for sunset cocktails on your private lanai." },
-      { "day": 5, "title": "Lanai Day Trip", "description": "Board the Expeditions ferry from Lahaina Harbor to the island of Lanai for a magical day on a nearly uncrowded island. Snorkel Hulopoe Beach, walk the village of Lanai City, and have lunch at the Four Seasons Lanai's Nobu restaurant before the late afternoon return ferry. The contrast of tiny, rural Lanai against the energy of Maui is striking." },
-      { "day": 6, "title": "In-Suite Dining & Sunset Stroll", "description": "Embrace the suite's full kitchen with a private in-room chef experience — the hotel's culinary team can prepare an intimate multi-course dinner in your suite or on your lanai using local Maui produce and fresh-caught seafood. Spend the day lazily between the pool and beach, then take the Coastal Trail at sunset for the golden hour views toward Molokai." },
-      { "day": 7, "title": "Farewell Morning", "description": "Take an early morning swim at Kapalua Bay in the golden pre-tourist-hour light — the water at 7am is like glass and often completely yours. Enjoy a leisurely in-suite breakfast from room service on your lanai, then pack with no rush (late checkout is available on request) before the drive south to Kahului Airport." }
+      {
+        "day": 1,
+        "title": "Arrival & Kapalua Bay",
+        "description": "Check in to your suite and drop straight onto Kapalua Bay Beach — the water here is so calm and clear it's like swimming in a giant aquarium, with parrotfish and sea turtles frequently visible from the shore. Collect a couple of the hotel's branded beach bags, claim your chairs, and order mai tais as the sun begins its descent toward the silhouettes of Molokai and Lanai. Dinner at the hotel's Cane & Canoe restaurant over the Pacific is a perfect first evening."
+      },
+      {
+        "day": 2,
+        "title": "Spa Montage & Kapalua Coastal Trail",
+        "description": "Morning couples' treatment at Spa Montage — the Kapalua Bay Ritual incorporates sea salt exfoliation, warm pohaku stones, and Hawaiian kukui nut oil in a two-hour signature experience. In the afternoon, walk the Kapalua Coastal Trail, a paved 1.76-mile path along clifftops and secluded coves with views of neighboring islands — the most beautiful easy walk in all of Maui."
+      },
+      {
+        "day": 3,
+        "title": "Whale Watching (Winter) or Snorkel Adventure",
+        "description": "From December to April, Kapalua Bay is whale country — humpback whales breach just offshore with startling frequency. Book a small-group whale watching tour from Lahaina Harbor, or if visiting off-season, snorkel the bay's protected waters directly from the beach for a morning of sea turtle encounters. The hotel can arrange premium snorkel equipment."
+      },
+      {
+        "day": 4,
+        "title": "Road to Hana",
+        "description": "Depart early for the Road to Hana — Maui's legendary 64-mile coastal drive through rainforest, sea cliffs, and waterfalls. The Montage concierge can provide a customized map highlighting lesser-known stops including Garden of Eden, Waikani Falls, and the black sand beach at Waianapanapa State Park. Return to the resort in time for sunset cocktails on your private lanai."
+      },
+      {
+        "day": 5,
+        "title": "Lanai Day Trip",
+        "description": "Board the Expeditions ferry from Lahaina Harbor to the island of Lanai for a magical day on a nearly uncrowded island. Snorkel Hulopoe Beach, walk the village of Lanai City, and have lunch at the Four Seasons Lanai's Nobu restaurant before the late afternoon return ferry. The contrast of tiny, rural Lanai against the energy of Maui is striking."
+      },
+      {
+        "day": 6,
+        "title": "In-Suite Dining & Sunset Stroll",
+        "description": "Embrace the suite's full kitchen with a private in-room chef experience — the hotel's culinary team can prepare an intimate multi-course dinner in your suite or on your lanai using local Maui produce and fresh-caught seafood. Spend the day lazily between the pool and beach, then take the Coastal Trail at sunset for the golden hour views toward Molokai."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "Take an early morning swim at Kapalua Bay in the golden pre-tourist-hour light — the water at 7am is like glass and often completely yours. Enjoy a leisurely in-suite breakfast from room service on your lanai, then pack with no rush (late checkout is available on request) before the drive south to Kahului Airport."
+      }
     ],
     "caveats": [
       "Kapalua is located at the northwest tip of Maui, 45 minutes from Kahului Airport and 30 minutes from the main Wailea resort corridor — if you want to be near Maui's best restaurants and shops, the drive adds up over a week.",

@@ -3,7 +3,10 @@
   "name": "Palais Namaskar",
   "destination": "morocco",
   "country": "morocco",
-  "experience_types": ["luxury", "wellness"],
+  "experience_types": [
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 91,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +20,49 @@
     "luxury": 5
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 700, "max": 3000 },
+  "price_per_night_usd": {
+    "min": 700,
+    "max": 3000
+  },
   "adults_only": false,
-  "amenities": ["spa", "private pools per villa", "room service", "butler service", "floating Jacuzzis", "12-acre gardens", "Asian-Moroccan design", "hammam", "concierge", "yoga"],
+  "amenities": [
+    "spa",
+    "private pools per villa",
+    "room service",
+    "butler service",
+    "floating Jacuzzis",
+    "12-acre gardens",
+    "Asian-Moroccan design",
+    "hammam",
+    "concierge",
+    "yoga"
+  ],
   "photos": [
-    { "url": "/images/hotels/palais-namaskar-marrakech-morocco/hero.webp", "alt": "palais-namaskar-marrakech-morocco — hero", "type": "hero" },
-    { "url": "/images/hotels/palais-namaskar-marrakech-morocco/room.webp", "alt": "palais-namaskar-marrakech-morocco — room", "type": "room" },
-    { "url": "/images/hotels/palais-namaskar-marrakech-morocco/pool.webp", "alt": "palais-namaskar-marrakech-morocco — pool", "type": "pool" },
-    { "url": "/images/hotels/palais-namaskar-marrakech-morocco/spa.webp", "alt": "palais-namaskar-marrakech-morocco — spa", "type": "spa" },
-    { "url": "/images/hotels/palais-namaskar-marrakech-morocco/dining.webp", "alt": "palais-namaskar-marrakech-morocco — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/palais-namaskar-marrakech-morocco/hero.webp",
+      "alt": "palais-namaskar-marrakech-morocco — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/palais-namaskar-marrakech-morocco/room.webp",
+      "alt": "palais-namaskar-marrakech-morocco — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/palais-namaskar-marrakech-morocco/pool.webp",
+      "alt": "palais-namaskar-marrakech-morocco — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/palais-namaskar-marrakech-morocco/spa.webp",
+      "alt": "palais-namaskar-marrakech-morocco — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/palais-namaskar-marrakech-morocco/dining.webp",
+      "alt": "palais-namaskar-marrakech-morocco — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.4,
   "tripadvisor_award": true,
@@ -34,13 +71,41 @@
     "verdict": "Palais Namaskar is the most sensual and designedly romantic hotel in Marrakech — 41 rooms and villas on 12 acres in the Palmeraie, designed in a fusion of Moroccan and Asian aesthetics that produces an effect of extraordinary beauty and calm. The floating Jacuzzis over reflecting pools, the private villa pools, the exceptional spa blending hammam traditions with Asian therapies, and the 12-acre gardens of olive, citrus, and jasmine make it the most intentionally romantic five-star hotel in the city. It attracts a clientele that is overwhelmingly couples and is better suited to honeymooners than the larger, more institutional La Mamounia.",
     "best_room": "Book one of the Palais Villas with a private pool — these are the ultimate Palais Namaskar experience, with private gardens, plunge pools, and a dedicated butler. The Pavilion with a floating Jacuzzi in a reflecting pool is extraordinary — lying in the Jacuzzi as jasmine and citrus scent the night air with the Atlas Mountains visible in the distance is one of the great romantic moments in Moroccan hospitality. Request a villa as far into the gardens as possible for maximum privacy.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Palmeraie Arrival", "description": "Arrive at Palais Namaskar via the palm-lined approach through the Palmeraie and enter a world of extraordinary sensory beauty — jasmine on the air, the sound of water in reflecting pools, and the visual harmony of cream marble, carved plaster, and dark carved wood creating an interior that could be a dream. Champagne in your villa garden as the evening begins, then the floating Jacuzzi as the stars appear over the Atlas Mountains on the horizon." },
-      { "day": 2, "title": "Namaskar Spa Day", "description": "The Namaskar Spa combines Morocco's great hammam tradition with the finest Asian therapies — book the couple's hammam journey (black soap, kessa scrub, ghassoul mask, argan oil massage) followed by an Ayurvedic couple's treatment in a dedicated suite. The spa's reflecting pool, outdoor relaxation pavilions, and tea service between treatments make the whole day a sustained ceremony of wellbeing." },
-      { "day": 3, "title": "Marrakech Medina", "description": "A private driver takes you to the medina for the day — explore the souks in the morning with a private guide who knows the most authentic artisan workshops, then the Majorelle Garden in the afternoon. The museum YSL and the Berber Museum in the Majorelle Garden are both exceptional. Return to Namaskar for cocktails in the gardens as the heat subsides, and dinner at the hotel's Moroccan-Asian fusion restaurant." },
-      { "day": 4, "title": "Private Pool Morning & Couples Yoga", "description": "Spend the morning entirely in your villa — breakfast delivered by your butler to the garden table, then the private pool as the morning heat builds. A sunset couples' yoga session on the terrace before the Atlas Mountains as the sun falls. Evening dinner in your villa garden: the chef creates a private tasting menu using Moroccan ingredients with Asian technique, served course by course under the jasmine." },
-      { "day": 5, "title": "Ourika Valley Day", "description": "Drive south into the Ourika Valley in the Atlas foothills — a beautiful Berber landscape of terraced gardens, clear rivers, and the Toubkal peak visible above. Visit a women's cooperative making traditional Berber carpets and argan oil products, then have lunch at a riverside restaurant in a Berber village. Return via the roadside rose water distilleries, stopping to buy small bottles as perfume and gift." },
-      { "day": 6, "title": "Hammam Ritual & Romantic Dinner", "description": "A second spa day centred on the hammam and the hotel's signature four-hands massage. In the evening, the concierge arranges a special private dinner in a dedicated pavilion in the hotel's garden — decorated with rose petals, candles, and lanterns, with a personal server and a bespoke menu. This is Palais Namaskar at its most intentionally magical, and it is the kind of evening that becomes the story you tell for decades." },
-      { "day": 7, "title": "Farewell Morning in the Gardens", "description": "Last morning at Namaskar: wake at dawn and walk the 12-acre gardens in the morning silence as the jasmine still holds its night scent. A final Jacuzzi in the reflecting pool, then breakfast in your villa garden. The drive to Marrakech airport passes through the Palmeraie's palm lanes — the extraordinary beauty of Palais Namaskar follows you all the way to the departure gate." }
+      {
+        "day": 1,
+        "title": "Palmeraie Arrival",
+        "description": "Arrive at Palais Namaskar via the palm-lined approach through the Palmeraie and enter a world of extraordinary sensory beauty — jasmine on the air, the sound of water in reflecting pools, and the visual harmony of cream marble, carved plaster, and dark carved wood creating an interior that could be a dream. Champagne in your villa garden as the evening begins, then the floating Jacuzzi as the stars appear over the Atlas Mountains on the horizon."
+      },
+      {
+        "day": 2,
+        "title": "Namaskar Spa Day",
+        "description": "The Namaskar Spa combines Morocco's great hammam tradition with the finest Asian therapies — book the couple's hammam journey (black soap, kessa scrub, ghassoul mask, argan oil massage) followed by an Ayurvedic couple's treatment in a dedicated suite. The spa's reflecting pool, outdoor relaxation pavilions, and tea service between treatments make the whole day a sustained ceremony of wellbeing."
+      },
+      {
+        "day": 3,
+        "title": "Marrakech Medina",
+        "description": "A private driver takes you to the medina for the day — explore the souks in the morning with a private guide who knows the most authentic artisan workshops, then the Majorelle Garden in the afternoon. The museum YSL and the Berber Museum in the Majorelle Garden are both exceptional. Return to Namaskar for cocktails in the gardens as the heat subsides, and dinner at the hotel's Moroccan-Asian fusion restaurant."
+      },
+      {
+        "day": 4,
+        "title": "Private Pool Morning & Couples Yoga",
+        "description": "Spend the morning entirely in your villa — breakfast delivered by your butler to the garden table, then the private pool as the morning heat builds. A sunset couples' yoga session on the terrace before the Atlas Mountains as the sun falls. Evening dinner in your villa garden: the chef creates a private tasting menu using Moroccan ingredients with Asian technique, served course by course under the jasmine."
+      },
+      {
+        "day": 5,
+        "title": "Ourika Valley Day",
+        "description": "Drive south into the Ourika Valley in the Atlas foothills — a beautiful Berber landscape of terraced gardens, clear rivers, and the Toubkal peak visible above. Visit a women's cooperative making traditional Berber carpets and argan oil products, then have lunch at a riverside restaurant in a Berber village. Return via the roadside rose water distilleries, stopping to buy small bottles as perfume and gift."
+      },
+      {
+        "day": 6,
+        "title": "Hammam Ritual & Romantic Dinner",
+        "description": "A second spa day centred on the hammam and the hotel's signature four-hands massage. In the evening, the concierge arranges a special private dinner in a dedicated pavilion in the hotel's garden — decorated with rose petals, candles, and lanterns, with a personal server and a bespoke menu. This is Palais Namaskar at its most intentionally magical, and it is the kind of evening that becomes the story you tell for decades."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning in the Gardens",
+        "description": "Last morning at Namaskar: wake at dawn and walk the 12-acre gardens in the morning silence as the jasmine still holds its night scent. A final Jacuzzi in the reflecting pool, then breakfast in your villa garden. The drive to Marrakech airport passes through the Palmeraie's palm lanes — the extraordinary beauty of Palais Namaskar follows you all the way to the departure gate."
+      }
     ],
     "caveats": [
       "Palais Namaskar is in the Palmeraie, 15-20 minutes from the medina by car — couples wanting to walk freely into the souks and Marrakech city life need hotel transport each time.",

@@ -3,7 +3,10 @@
   "name": "Bohol Beach Club",
   "destination": "philippines",
   "country": "philippines",
-  "experience_types": ["beach", "wellness"],
+  "experience_types": [
+    "beach",
+    "wellness"
+  ],
   "honeymoon_score": 76,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +20,47 @@
     "luxury": 5
   },
   "stars": 4,
-  "price_per_night_usd": { "min": 200, "max": 600 },
+  "price_per_night_usd": {
+    "min": 200,
+    "max": 600
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "room service", "restaurant", "bar", "private beach", "snorkeling", "water sports"],
+  "amenities": [
+    "spa",
+    "pool",
+    "room service",
+    "restaurant",
+    "bar",
+    "private beach",
+    "snorkeling",
+    "water sports"
+  ],
   "photos": [
-    { "url": "/images/hotels/bohol-beach-club-philippines/hero.webp", "alt": "bohol-beach-club-philippines — hero", "type": "hero" },
-    { "url": "/images/hotels/bohol-beach-club-philippines/room.webp", "alt": "bohol-beach-club-philippines — room", "type": "room" },
-    { "url": "/images/hotels/bohol-beach-club-philippines/pool.webp", "alt": "bohol-beach-club-philippines — pool", "type": "pool" },
-    { "url": "/images/hotels/bohol-beach-club-philippines/spa.webp", "alt": "bohol-beach-club-philippines — spa", "type": "spa" },
-    { "url": "/images/hotels/bohol-beach-club-philippines/dining.webp", "alt": "bohol-beach-club-philippines — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/bohol-beach-club-philippines/hero.webp",
+      "alt": "bohol-beach-club-philippines — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/bohol-beach-club-philippines/room.webp",
+      "alt": "bohol-beach-club-philippines — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/bohol-beach-club-philippines/pool.webp",
+      "alt": "bohol-beach-club-philippines — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/bohol-beach-club-philippines/spa.webp",
+      "alt": "bohol-beach-club-philippines — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/bohol-beach-club-philippines/dining.webp",
+      "alt": "bohol-beach-club-philippines — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 8.4,
   "tripadvisor_award": false,
@@ -34,13 +69,41 @@
     "verdict": "Bohol Beach Club is the best-value full-service resort on Panglao Island's famous Alona Beach area — a long stretch of white sand with good snorkeling directly off the beach, a large garden pool, and a resort format that provides genuine comfort and variety at a price point well below the premium properties in this guide. For honeymooners who want the Bohol island experience (Chocolate Hills, tarsier sanctuary, excellent diving) without Eskaya's clifftop exclusivity or price, this is an honest and likeable choice.",
     "best_room": "The Beachfront Cottages are the most romantic option — nipa-palm roofed bungalows set directly on Alona Beach with private terraces just metres from the water. These rustic-luxe cottages have more character than the garden-wing rooms and the beach proximity is the resort's greatest asset. Deluxe cottages have air conditioning and larger interiors; specify beach-facing at booking.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Alona Beach", "description": "Fly to Tagbilaran and take the 30-minute shuttle to Panglao Island. Bohol Beach Club sits on the quieter western end of Alona Beach — still the liveliest beach strip on Bohol but calmer here than the dive-village section further east. Check in and swim the afternoon away in the clear Bohol Sea. The outdoor restaurant's fresh seafood platter — catch of the day grilled simply with calamansi and garlic — is the right first night dinner." },
-      { "day": 2, "title": "Alona Beach Diving", "description": "Panglao's reefs have recovered well from past dynamite-fishing damage and now host healthy coral gardens with turtles, reef sharks, and dense fish life. The resort's partner dive centre operates two-tank morning dives and PADI courses. Non-divers: snorkel directly off the beach to the patch reef visible from shore. The Balicasag Island wall dive (30 minutes by bangka) is the area's headline underwater experience." },
-      { "day": 3, "title": "Chocolate Hills & Tarsier Day Trip", "description": "Hire a private tricycle or van for the classic Bohol inland day tour: sunrise at the Chocolate Hills viewpoint near Carmen (1 hour inland), then the Philippine Tarsier and Wildlife Sanctuary at Corella. Return via the Loboc River for a floating lunch cruise with Filipino folk music and traditional food. The day's range — from geological wonder to the world's most endearing primate — is Bohol at its most rewarding." },
-      { "day": 4, "title": "Hinagdanan Cave & Island Cycling", "description": "Rent bikes from the resort and cycle north across Panglao Island to Hinagdanan Cave — a dramatic underground cathedral space with a subterranean pool lit by shafts of natural light through the cave ceiling. Swimming in the cave pool is magical and refreshing. Continue by bike to Danao Beach on the north shore for a more secluded swimming spot before cycling back. Afternoon: spa Hilot massage at the resort." },
-      { "day": 5, "title": "Full Beach Day", "description": "Alona Beach at the Bohol Beach Club end is at its quietest on weekday mornings. Spend the day between the beach and the garden pool — the resort provides kayaks and snorkel equipment. The beach bar serves fresh buko (coconut) juice and cold San Miguel directly into deck chairs. Book a couples' massage at the spa for the late afternoon, then dinner at a nearby Alona Beach restaurant for variety." },
-      { "day": 6, "title": "Cabilao Island Dive Trip", "description": "Cabilao Island, 45 minutes by speedboat west of Panglao, is an undervisited reef with excellent hammerhead shark encounters in season and pristine hard and soft coral systems rarely seen by non-local divers. The resort's dive partner can arrange the full-day excursion including lunch on the island. Non-divers snorkel the shallower reef sections. Return for sunset at the beachfront restaurant." },
-      { "day": 7, "title": "Farewell Morning", "description": "A last sunrise swim off Alona Beach — Bohol's sunrises over the Mindanao Sea are quiet and unhurried, the fishermen's outriggers returning to shore as the resort wakes up. Breakfast at the beach restaurant with pandesal and fried eggs. Bohol Beach Club has delivered reliably comfortable accommodation as the base for one of the Philippines' most diverse island experiences. The shuttle to Tagbilaran Airport departs from the resort." }
+      {
+        "day": 1,
+        "title": "Arrival & Alona Beach",
+        "description": "Fly to Tagbilaran and take the 30-minute shuttle to Panglao Island. Bohol Beach Club sits on the quieter western end of Alona Beach — still the liveliest beach strip on Bohol but calmer here than the dive-village section further east. Check in and swim the afternoon away in the clear Bohol Sea. The outdoor restaurant's fresh seafood platter — catch of the day grilled simply with calamansi and garlic — is the right first night dinner."
+      },
+      {
+        "day": 2,
+        "title": "Alona Beach Diving",
+        "description": "Panglao's reefs have recovered well from past dynamite-fishing damage and now host healthy coral gardens with turtles, reef sharks, and dense fish life. The resort's partner dive centre operates two-tank morning dives and PADI courses. Non-divers: snorkel directly off the beach to the patch reef visible from shore. The Balicasag Island wall dive (30 minutes by bangka) is the area's headline underwater experience."
+      },
+      {
+        "day": 3,
+        "title": "Chocolate Hills & Tarsier Day Trip",
+        "description": "Hire a private tricycle or van for the classic Bohol inland day tour: sunrise at the Chocolate Hills viewpoint near Carmen (1 hour inland), then the Philippine Tarsier and Wildlife Sanctuary at Corella. Return via the Loboc River for a floating lunch cruise with Filipino folk music and traditional food. The day's range — from geological wonder to the world's most endearing primate — is Bohol at its most rewarding."
+      },
+      {
+        "day": 4,
+        "title": "Hinagdanan Cave & Island Cycling",
+        "description": "Rent bikes from the resort and cycle north across Panglao Island to Hinagdanan Cave — a dramatic underground cathedral space with a subterranean pool lit by shafts of natural light through the cave ceiling. Swimming in the cave pool is magical and refreshing. Continue by bike to Danao Beach on the north shore for a more secluded swimming spot before cycling back. Afternoon: spa Hilot massage at the resort."
+      },
+      {
+        "day": 5,
+        "title": "Full Beach Day",
+        "description": "Alona Beach at the Bohol Beach Club end is at its quietest on weekday mornings. Spend the day between the beach and the garden pool — the resort provides kayaks and snorkel equipment. The beach bar serves fresh buko (coconut) juice and cold San Miguel directly into deck chairs. Book a couples' massage at the spa for the late afternoon, then dinner at a nearby Alona Beach restaurant for variety."
+      },
+      {
+        "day": 6,
+        "title": "Cabilao Island Dive Trip",
+        "description": "Cabilao Island, 45 minutes by speedboat west of Panglao, is an undervisited reef with excellent hammerhead shark encounters in season and pristine hard and soft coral systems rarely seen by non-local divers. The resort's dive partner can arrange the full-day excursion including lunch on the island. Non-divers snorkel the shallower reef sections. Return for sunset at the beachfront restaurant."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "A last sunrise swim off Alona Beach — Bohol's sunrises over the Mindanao Sea are quiet and unhurried, the fishermen's outriggers returning to shore as the resort wakes up. Breakfast at the beach restaurant with pandesal and fried eggs. Bohol Beach Club has delivered reliably comfortable accommodation as the base for one of the Philippines' most diverse island experiences. The shuttle to Tagbilaran Airport departs from the resort."
+      }
     ],
     "caveats": [
       "Bohol Beach Club is a four-star resort in the mid-price category — comfortable and well-maintained but not a luxury property. Couples expecting fine-dining quality, butler service, or high-end room finishes should consider Eskaya Beach Resort on the same island for a superior experience.",
@@ -48,12 +111,30 @@
       "Peak season (December to March) sees the resort fill with domestic and regional tourists; book in advance and consider mid-week stays to avoid the busiest weekend periods."
     ],
     "faqs": [
-      { "question": "Is Bohol Beach Club good for honeymooners?", "answer": "A good value option for couples who want the full Bohol cultural and nature experience — Chocolate Hills, tarsiers, Loboc River, and excellent diving — at an accessible price point. The beachfront cottages are genuinely charming, the beach is beautiful, and the island offers more variety than most Philippine beach destinations. Couples prioritising exclusivity and luxury service should upgrade to Eskaya." },
-      { "question": "What is the best time to visit?", "answer": "November to May is the dry season for Bohol. December to March is peak season with ideal conditions. April and May are the hottest but driest months. June to October brings the Philippine typhoon season — the Visayas region can be affected, particularly August and September. November is a good shoulder month with easing monsoon." },
-      { "question": "What should we book in advance?", "answer": "Beachfront Cottages are limited and book out in peak season — specify at reservation. The Balicasag Island dive trip and Chocolate Hills van tour should be arranged through the hotel on arrival. For popular restaurants outside the resort on Alona Beach (particularly La Laguna), no advance booking is typically needed." },
-      { "question": "Is it adults-only?", "answer": "No, Bohol Beach Club is family-friendly and actively accommodates families with children. The Alona Beach setting and the island's range of activities make it popular with mixed traveller types. Honeymooners will find the beachfront cottages provide adequate privacy, though the overall resort atmosphere is not exclusively romantic." },
-      { "question": "What's the best room for a honeymoon?", "answer": "Deluxe Beachfront Cottage — nipa-roofed bungalow directly on Alona Beach with private terrace, air conditioning, and immediate beach access. These rooms have genuine Philippine coastal character that the garden-wing rooms lack. Request the most beach-adjacent position and furthest from neighbouring resort boundaries." },
-      { "question": "How do we get there?", "answer": "Fly to Tagbilaran Airport (TAG) on Bohol from Manila (1.5 hours) or Cebu (25 minutes). From Tagbilaran, the resort shuttle to Panglao Island takes approximately 30 minutes. Alternatively, take a ferry from Cebu's Pier 1 to Tagbilaran (2 hours) then shuttle. The resort coordinates arrivals — provide flight details when booking." }
+      {
+        "question": "Is Bohol Beach Club good for honeymooners?",
+        "answer": "A good value option for couples who want the full Bohol cultural and nature experience — Chocolate Hills, tarsiers, Loboc River, and excellent diving — at an accessible price point. The beachfront cottages are genuinely charming, the beach is beautiful, and the island offers more variety than most Philippine beach destinations. Couples prioritising exclusivity and luxury service should upgrade to Eskaya."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "November to May is the dry season for Bohol. December to March is peak season with ideal conditions. April and May are the hottest but driest months. June to October brings the Philippine typhoon season — the Visayas region can be affected, particularly August and September. November is a good shoulder month with easing monsoon."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "Beachfront Cottages are limited and book out in peak season — specify at reservation. The Balicasag Island dive trip and Chocolate Hills van tour should be arranged through the hotel on arrival. For popular restaurants outside the resort on Alona Beach (particularly La Laguna), no advance booking is typically needed."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "No, Bohol Beach Club is family-friendly and actively accommodates families with children. The Alona Beach setting and the island's range of activities make it popular with mixed traveller types. Honeymooners will find the beachfront cottages provide adequate privacy, though the overall resort atmosphere is not exclusively romantic."
+      },
+      {
+        "question": "What's the best room for a honeymoon?",
+        "answer": "Deluxe Beachfront Cottage — nipa-roofed bungalow directly on Alona Beach with private terrace, air conditioning, and immediate beach access. These rooms have genuine Philippine coastal character that the garden-wing rooms lack. Request the most beach-adjacent position and furthest from neighbouring resort boundaries."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "Fly to Tagbilaran Airport (TAG) on Bohol from Manila (1.5 hours) or Cebu (25 minutes). From Tagbilaran, the resort shuttle to Panglao Island takes approximately 30 minutes. Alternatively, take a ferry from Cebu's Pier 1 to Tagbilaran (2 hours) then shuttle. The resort coordinates arrivals — provide flight details when booking."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Bohol Beach Club\n\nDear Bohol Beach Club team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: a Deluxe Beachfront Cottage directly on Alona Beach.\n\nCould you please let us know:\n- Current availability for our dates\n- Any honeymoon packages or special touches available\n- Whether Balicasag Island diving and the Chocolate Hills tour can be arranged during our stay\n\nThank you for your time.\n\n[Your names]"
   },

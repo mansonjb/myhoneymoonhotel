@@ -3,7 +3,11 @@
   "name": "Wakaya Club & Spa",
   "destination": "fiji",
   "country": "fiji",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 94,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,51 @@
     "luxury": 5
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 2000, "max": 5000 },
+  "price_per_night_usd": {
+    "min": 2000,
+    "max": 5000
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "beach", "room service", "butler service", "tennis", "diving", "snorkeling", "organic farm", "fishing", "all-inclusive", "yoga"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beach",
+    "room service",
+    "butler service",
+    "tennis",
+    "diving",
+    "snorkeling",
+    "organic farm",
+    "fishing",
+    "all-inclusive",
+    "yoga"
+  ],
   "photos": [
-    { "url": "/images/hotels/wakaya-club-spa-fiji/hero.webp", "alt": "wakaya-club-spa-fiji — hero", "type": "hero" },
-    { "url": "/images/hotels/wakaya-club-spa-fiji/room.webp", "alt": "wakaya-club-spa-fiji — room", "type": "room" },
-    { "url": "/images/hotels/wakaya-club-spa-fiji/pool.webp", "alt": "wakaya-club-spa-fiji — pool", "type": "pool" },
-    { "url": "/images/hotels/wakaya-club-spa-fiji/spa.webp", "alt": "wakaya-club-spa-fiji — spa", "type": "spa" },
-    { "url": "/images/hotels/wakaya-club-spa-fiji/dining.webp", "alt": "wakaya-club-spa-fiji — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/wakaya-club-spa-fiji/hero.webp",
+      "alt": "wakaya-club-spa-fiji — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/wakaya-club-spa-fiji/room.webp",
+      "alt": "wakaya-club-spa-fiji — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/wakaya-club-spa-fiji/pool.webp",
+      "alt": "wakaya-club-spa-fiji — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/wakaya-club-spa-fiji/spa.webp",
+      "alt": "wakaya-club-spa-fiji — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/wakaya-club-spa-fiji/dining.webp",
+      "alt": "wakaya-club-spa-fiji — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.6,
   "tripadvisor_award": true,
@@ -34,13 +74,41 @@
     "verdict": "Wakaya Club & Spa is one of the Pacific's most exclusive private island retreats — a 2,200-acre island in the Koro Sea accessible only by private aircraft, accommodating a maximum of 18 guests across nine individual bures. The island has been a celebrity favourite for decades (David Bowie, Bill Gates, and multiple US presidents have stayed) and the combination of extraordinary privacy, organic farm-to-table dining, world-class spa, and the vast seclusion of a private island larger than most small countries creates one of the world's truly irreplaceable honeymoon experiences. Second only to Laucala in the Pacific's private island hierarchy.",
     "best_room": "All nine bures at Wakaya are among the Pacific's most beautifully designed individual rooms — large, open-plan, and decorated with Pacific art and handcrafted Fijian furniture. The Wakaya Bure, the largest individual unit, sits at the island's most private end with a private pool, a wraparound veranda above the beach, and a master bathroom with separate indoor and outdoor tubs. The Plantation Bure is equally renowned — elevated on a hillside with the widest view of the Koro Sea and a large private pool. All bures are excellent; the key distinction is beach proximity versus elevation for views.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Private Aircraft Arrival", "description": "A private aircraft from Nadi to Wakaya's private airstrip delivers you to an island with no through traffic, no external access, and no awareness of anything beyond its 2,200 acres of coconut plantation, rainforest, and white beaches. Your bure host meets you at the airstrip and the 10-minute drive through the plantation to your bure is your first introduction to an island that has been carefully preserved and managed for 40 years." },
-      { "day": 2, "title": "Reef Discovery & Farm Breakfast", "description": "Wakaya's reef system is pristine — accessible directly from the island's private beach, the house reef offers turtle encounters, reef shark sightings, and extraordinary coral coverage rarely found on islands with significant boat traffic. Breakfast is prepared from the island's own organic farm — eggs from the resident chickens, tropical fruits from the plantation, honey from Wakaya's own hives, and coffee grown in the island's interior." },
-      { "day": 3, "title": "Couples' Spa at the Wellness Centre", "description": "The Wakaya Spa is a serene facility built into the hillside overlooking the Koro Sea. The spa team offers a comprehensive menu drawing on Fijian botanical traditions — the 'Wakaya Journey' couples' treatment is a three-hour immersive experience incorporating a volcanic mud treatment, a full-body coconut oil massage, and a shared sunset soak in the outdoor hydrotherapy pool." },
-      { "day": 4, "title": "Kava Ceremony & Village Walk", "description": "Wakaya supports a small Fijian village on the island whose residents have lived here for generations. A traditional kava ceremony hosted by the village chief is arranged through the bure host — an authentic and genuinely warm cultural exchange in the island's village bure. The island walk through the coconut plantation and past the organic farm takes about two hours and reveals the extraordinary self-sufficiency of Wakaya's ecosystem." },
-      { "day": 5, "title": "Deep Sea Fishing & Rock of Ages Restaurant", "description": "The Koro Sea beyond Wakaya produces exceptional deep-sea fishing — marlin, wahoo, and tuna are all regular catches. The resort's fishing charter departs at dawn and returns by early afternoon. Whatever is caught beyond what is needed for the kitchen is tagged and released. Dinner at the Rock of Ages Restaurant — a natural cave in the island's volcanic rock formation — is one of the Pacific's most atmospheric dining settings." },
-      { "day": 6, "title": "Sunrise Hike & Private Beach Lunch", "description": "A guided hike to Wakaya's highest point, accessible via a maintained trail through the island's rainforest interior, delivers a 360-degree view of the Koro Sea and the distant Lomaiviti island group at sunrise. The climb takes 45 minutes and the solitude on the summit is absolute. Return for a private beach lunch arranged on the island's most secluded eastern shore, where the sand is particularly fine and the bay completely protected." },
-      { "day": 7, "title": "Last Morning on the Island", "description": "A final slow morning — breakfast on the bure veranda, a last swim off the private beach, and the distinct reluctance of a departure from a place that genuinely feels like it belongs to you. The private aircraft back to Nadi flies over the island's profile, the plantation visible from the air, and the knowledge that fewer than 18 people in the world are experiencing this at any given moment." }
+      {
+        "day": 1,
+        "title": "Private Aircraft Arrival",
+        "description": "A private aircraft from Nadi to Wakaya's private airstrip delivers you to an island with no through traffic, no external access, and no awareness of anything beyond its 2,200 acres of coconut plantation, rainforest, and white beaches. Your bure host meets you at the airstrip and the 10-minute drive through the plantation to your bure is your first introduction to an island that has been carefully preserved and managed for 40 years."
+      },
+      {
+        "day": 2,
+        "title": "Reef Discovery & Farm Breakfast",
+        "description": "Wakaya's reef system is pristine — accessible directly from the island's private beach, the house reef offers turtle encounters, reef shark sightings, and extraordinary coral coverage rarely found on islands with significant boat traffic. Breakfast is prepared from the island's own organic farm — eggs from the resident chickens, tropical fruits from the plantation, honey from Wakaya's own hives, and coffee grown in the island's interior."
+      },
+      {
+        "day": 3,
+        "title": "Couples' Spa at the Wellness Centre",
+        "description": "The Wakaya Spa is a serene facility built into the hillside overlooking the Koro Sea. The spa team offers a comprehensive menu drawing on Fijian botanical traditions — the 'Wakaya Journey' couples' treatment is a three-hour immersive experience incorporating a volcanic mud treatment, a full-body coconut oil massage, and a shared sunset soak in the outdoor hydrotherapy pool."
+      },
+      {
+        "day": 4,
+        "title": "Kava Ceremony & Village Walk",
+        "description": "Wakaya supports a small Fijian village on the island whose residents have lived here for generations. A traditional kava ceremony hosted by the village chief is arranged through the bure host — an authentic and genuinely warm cultural exchange in the island's village bure. The island walk through the coconut plantation and past the organic farm takes about two hours and reveals the extraordinary self-sufficiency of Wakaya's ecosystem."
+      },
+      {
+        "day": 5,
+        "title": "Deep Sea Fishing & Rock of Ages Restaurant",
+        "description": "The Koro Sea beyond Wakaya produces exceptional deep-sea fishing — marlin, wahoo, and tuna are all regular catches. The resort's fishing charter departs at dawn and returns by early afternoon. Whatever is caught beyond what is needed for the kitchen is tagged and released. Dinner at the Rock of Ages Restaurant — a natural cave in the island's volcanic rock formation — is one of the Pacific's most atmospheric dining settings."
+      },
+      {
+        "day": 6,
+        "title": "Sunrise Hike & Private Beach Lunch",
+        "description": "A guided hike to Wakaya's highest point, accessible via a maintained trail through the island's rainforest interior, delivers a 360-degree view of the Koro Sea and the distant Lomaiviti island group at sunrise. The climb takes 45 minutes and the solitude on the summit is absolute. Return for a private beach lunch arranged on the island's most secluded eastern shore, where the sand is particularly fine and the bay completely protected."
+      },
+      {
+        "day": 7,
+        "title": "Last Morning on the Island",
+        "description": "A final slow morning — breakfast on the bure veranda, a last swim off the private beach, and the distinct reluctance of a departure from a place that genuinely feels like it belongs to you. The private aircraft back to Nadi flies over the island's profile, the plantation visible from the air, and the knowledge that fewer than 18 people in the world are experiencing this at any given moment."
+      }
     ],
     "caveats": [
       "Access requires a private aircraft from Nadi — the transfer cost is significant and adds to the already very high nightly rate. The total trip budget is one of the highest in this guide.",
@@ -48,12 +116,30 @@
       "The Koro Sea can be rough during cyclone season (November–April) and the private aircraft transfer is weather-dependent — travellers with strict schedule requirements should have contingency plans."
     ],
     "faqs": [
-      { "question": "Is Wakaya Club & Spa good for honeymooners?", "answer": "Wakaya is one of the Pacific's great honeymoon destinations — the combination of a 2,200-acre private island, a maximum of 18 guests, exceptional organic farm-to-table dining, world-class spa, and the Rock of Ages cave restaurant creates a honeymoon experience of extraordinary rarity and romance. Celebrity guests and repeat visitors attest to the island's hold over those who visit." },
-      { "question": "What is the best time to visit?", "answer": "May through October is Fiji's dry season and the most reliable period for Wakaya — the Koro Sea is calmer, reef visibility is at its peak, and the private aircraft transfer is more predictable. December through April is wet season with higher risk of tropical disturbance but lower rates and a lush, intensely green island." },
-      { "question": "What should we book in advance?", "answer": "Reserve Wakaya as far ahead as possible — the nine-bure capacity means high demand periods sell out many months ahead. The Wakaya Bure or Plantation Bure should be requested specifically. Confirm the full island buyout price if absolute privacy is important and budget allows." },
-      { "question": "Is it adults-only?", "answer": "Wakaya Club & Spa is not formally adults-only. Children are permitted and the island's ethos is family-inclusive. However, the price point, the remote access, and the absence of children's facilities naturally result in a predominantly adult guest profile. The cave restaurant, sunset terrace, and spa atmosphere are consistently sophisticated." },
-      { "question": "What's the best room type for a honeymoon?", "answer": "The Wakaya Bure — the largest bure on the island's most private point, with a private pool and wraparound ocean veranda — is the finest choice. The Plantation Bure offers the most dramatic panoramic views from elevation and is equally superb. Both are among the finest individual hotel rooms in the Pacific." },
-      { "question": "How do we get there?", "answer": "A private aircraft from Nadi International Airport to Wakaya's private airstrip — approximately 30 minutes. The resort arranges all charter transfers at the time of booking. No other form of access is available; the island has no public ferry or commercial flight service." }
+      {
+        "question": "Is Wakaya Club & Spa good for honeymooners?",
+        "answer": "Wakaya is one of the Pacific's great honeymoon destinations — the combination of a 2,200-acre private island, a maximum of 18 guests, exceptional organic farm-to-table dining, world-class spa, and the Rock of Ages cave restaurant creates a honeymoon experience of extraordinary rarity and romance. Celebrity guests and repeat visitors attest to the island's hold over those who visit."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "May through October is Fiji's dry season and the most reliable period for Wakaya — the Koro Sea is calmer, reef visibility is at its peak, and the private aircraft transfer is more predictable. December through April is wet season with higher risk of tropical disturbance but lower rates and a lush, intensely green island."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "Reserve Wakaya as far ahead as possible — the nine-bure capacity means high demand periods sell out many months ahead. The Wakaya Bure or Plantation Bure should be requested specifically. Confirm the full island buyout price if absolute privacy is important and budget allows."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "Wakaya Club & Spa is not formally adults-only. Children are permitted and the island's ethos is family-inclusive. However, the price point, the remote access, and the absence of children's facilities naturally result in a predominantly adult guest profile. The cave restaurant, sunset terrace, and spa atmosphere are consistently sophisticated."
+      },
+      {
+        "question": "What's the best room type for a honeymoon?",
+        "answer": "The Wakaya Bure — the largest bure on the island's most private point, with a private pool and wraparound ocean veranda — is the finest choice. The Plantation Bure offers the most dramatic panoramic views from elevation and is equally superb. Both are among the finest individual hotel rooms in the Pacific."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "A private aircraft from Nadi International Airport to Wakaya's private airstrip — approximately 30 minutes. The resort arranges all charter transfers at the time of booking. No other form of access is available; the island has no public ferry or commercial flight service."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Wakaya Club & Spa Fiji\n\nDear Wakaya Club & Spa team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: the Wakaya Bure or Plantation Bure and a private dining experience.\n\nCould you please let us know:\n- Current availability for our dates\n- All-inclusive pricing and what is included\n- Whether full island buyout is available for our dates and approximate pricing\n\nThank you for your time.\n\n[Your names]"
   },

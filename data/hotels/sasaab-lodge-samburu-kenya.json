@@ -3,7 +3,11 @@
   "name": "Sasaab Lodge Samburu",
   "destination": "kenya",
   "country": "kenya",
-  "experience_types": ["safari", "luxury", "wellness"],
+  "experience_types": [
+    "safari",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 89,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,48 @@
     "luxury": 5
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 900, "max": 2500 },
+  "price_per_night_usd": {
+    "min": 900,
+    "max": 2500
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "room service", "butler service", "game drives", "guided walks", "plunge pools", "community visits", "all-inclusive"],
+  "amenities": [
+    "spa",
+    "pool",
+    "room service",
+    "butler service",
+    "game drives",
+    "guided walks",
+    "plunge pools",
+    "community visits",
+    "all-inclusive"
+  ],
   "photos": [
-    { "url": "/images/hotels/sasaab-lodge-samburu-kenya/hero.webp", "alt": "sasaab-lodge-samburu-kenya — hero", "type": "hero" },
-    { "url": "/images/hotels/sasaab-lodge-samburu-kenya/room.webp", "alt": "sasaab-lodge-samburu-kenya — room", "type": "room" },
-    { "url": "/images/hotels/sasaab-lodge-samburu-kenya/pool.webp", "alt": "sasaab-lodge-samburu-kenya — pool", "type": "pool" },
-    { "url": "/images/hotels/sasaab-lodge-samburu-kenya/spa.webp", "alt": "sasaab-lodge-samburu-kenya — spa", "type": "spa" },
-    { "url": "/images/hotels/sasaab-lodge-samburu-kenya/dining.webp", "alt": "sasaab-lodge-samburu-kenya — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/sasaab-lodge-samburu-kenya/hero.webp",
+      "alt": "sasaab-lodge-samburu-kenya — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/sasaab-lodge-samburu-kenya/room.webp",
+      "alt": "sasaab-lodge-samburu-kenya — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/sasaab-lodge-samburu-kenya/pool.webp",
+      "alt": "sasaab-lodge-samburu-kenya — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/sasaab-lodge-samburu-kenya/spa.webp",
+      "alt": "sasaab-lodge-samburu-kenya — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/sasaab-lodge-samburu-kenya/dining.webp",
+      "alt": "sasaab-lodge-samburu-kenya — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.3,
   "tripadvisor_award": true,
@@ -34,13 +71,41 @@
     "verdict": "Sasaab Lodge brings a striking Moroccan-influenced design aesthetic to the arid northern Kenyan landscape of Samburu, creating one of the continent's most visually distinctive luxury camps. Nine individually designed tented cottages, each with a private plunge pool, cascade down a hill above the Ewaso Ng'iro river, framing views across the palm-lined riverbanks where elephant, leopard, and the 'Samburu Special Five' (Grevy's zebra, reticulated giraffe, Beisa oryx, Somali ostrich, and gerenuk) drink at dawn. The Moroccan riad design elements — zellige tiles, arched doorways, lantern-lit corridors — create an extraordinary contrast with the red-dust Samburu landscape.",
     "best_room": "The Cottage suites at the highest elevation of the hill have the most dramatic panoramic views down the Ewaso Ng'iro river valley — worth specifically requesting at booking. Each cottage has its own private plunge pool, a netted four-poster bed, and a large bathroom with views through the arched windows to the riverbanks. The Moroccan tiles and hand-hammered copper bath make for an unusually romantic room. Request Cottage 1 or 2 for the widest river panorama.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival in the Northern Frontier", "description": "Samburu National Reserve sits in Kenya's arid north — a landscape dramatically different from the Mara, with doum palms, acacia scrub, and the perennial Ewaso Ng'iro river as its heart. Your flight north from Nairobi takes 45 minutes and lands on a dirt airstrip where your guide and vehicle are waiting. The drive to Sasaab delivers the first 'Samburu Specials' before you've even arrived at camp." },
-      { "day": 2, "title": "Special Five Game Drive & River Walk", "description": "The Samburu Special Five are found only in the semi-arid northern regions of Kenya — seeing a reticulated giraffe and a Grevy's zebra in the same morning is possible nowhere else in Africa. Sasaab's guides know the individual animals in the reserve by sight, and the intimacy of their knowledge gives every drive a narrative quality. A guided river walk at low water reveals crocodile, hippo, and extraordinary birdlife." },
-      { "day": 3, "title": "Spa Morning & Sunset Plunge Pool Drinks", "description": "Sasaab's spa is built into the hillside with views across the river — treatments are delivered in open-air rooms using local plant extracts and Samburu community-sourced ingredients. The couples' treatment is two hours and deeply restorative. In the late afternoon, drinks by your private plunge pool as the Ewaso Ng'iro turns copper at sunset is one of the lodge's most photographed and beloved moments." },
-      { "day": 4, "title": "Samburu Community Day", "description": "Sasaab's ownership has deep community ties with the local Samburu people, and a visit to a Samburu manyatta arranged through the lodge is among the most authentic cultural experiences in northern Kenya. The warrior dances, beadwork, and conversation with Samburu elders about life in this extraordinary landscape is genuinely moving. Return for a private dinner on your cottage terrace." },
-      { "day": 5, "title": "Predator-Focused Dawn Drive", "description": "Samburu has a notably high lion and leopard density along the river — dawn drives focusing on the riverine vegetation produce sightings that the more visited Mara occasionally struggles to match for quality and proximity. Sasaab's guides have worked the reserve for years and know the territories of individual big cats intimately." },
-      { "day": 6, "title": "Camel Safari & Samburu Warriors", "description": "A short camel safari through the Samburu landscape accompanied by Samburu warriors on foot is one of northern Kenya's most distinctive experiences — moving through the landscape at walking pace with a nomadic escort gives a sense of how the Samburu themselves traverse this terrain. Return to camp before the midday heat and spend the afternoon in your private plunge pool." },
-      { "day": 7, "title": "Farewell River Dawn & Departure", "description": "A final sunrise drive along the Ewaso Ng'iro river as elephant come to drink in the early cool. Sasaab's kitchen packs a beautiful departure hamper for the airport or onward journey, and your guide stays with you until the aircraft departs. Northern Kenya has a particular hold on its visitors — a quality of light and rawness that the more developed south rarely matches." }
+      {
+        "day": 1,
+        "title": "Arrival in the Northern Frontier",
+        "description": "Samburu National Reserve sits in Kenya's arid north — a landscape dramatically different from the Mara, with doum palms, acacia scrub, and the perennial Ewaso Ng'iro river as its heart. Your flight north from Nairobi takes 45 minutes and lands on a dirt airstrip where your guide and vehicle are waiting. The drive to Sasaab delivers the first 'Samburu Specials' before you've even arrived at camp."
+      },
+      {
+        "day": 2,
+        "title": "Special Five Game Drive & River Walk",
+        "description": "The Samburu Special Five are found only in the semi-arid northern regions of Kenya — seeing a reticulated giraffe and a Grevy's zebra in the same morning is possible nowhere else in Africa. Sasaab's guides know the individual animals in the reserve by sight, and the intimacy of their knowledge gives every drive a narrative quality. A guided river walk at low water reveals crocodile, hippo, and extraordinary birdlife."
+      },
+      {
+        "day": 3,
+        "title": "Spa Morning & Sunset Plunge Pool Drinks",
+        "description": "Sasaab's spa is built into the hillside with views across the river — treatments are delivered in open-air rooms using local plant extracts and Samburu community-sourced ingredients. The couples' treatment is two hours and deeply restorative. In the late afternoon, drinks by your private plunge pool as the Ewaso Ng'iro turns copper at sunset is one of the lodge's most photographed and beloved moments."
+      },
+      {
+        "day": 4,
+        "title": "Samburu Community Day",
+        "description": "Sasaab's ownership has deep community ties with the local Samburu people, and a visit to a Samburu manyatta arranged through the lodge is among the most authentic cultural experiences in northern Kenya. The warrior dances, beadwork, and conversation with Samburu elders about life in this extraordinary landscape is genuinely moving. Return for a private dinner on your cottage terrace."
+      },
+      {
+        "day": 5,
+        "title": "Predator-Focused Dawn Drive",
+        "description": "Samburu has a notably high lion and leopard density along the river — dawn drives focusing on the riverine vegetation produce sightings that the more visited Mara occasionally struggles to match for quality and proximity. Sasaab's guides have worked the reserve for years and know the territories of individual big cats intimately."
+      },
+      {
+        "day": 6,
+        "title": "Camel Safari & Samburu Warriors",
+        "description": "A short camel safari through the Samburu landscape accompanied by Samburu warriors on foot is one of northern Kenya's most distinctive experiences — moving through the landscape at walking pace with a nomadic escort gives a sense of how the Samburu themselves traverse this terrain. Return to camp before the midday heat and spend the afternoon in your private plunge pool."
+      },
+      {
+        "day": 7,
+        "title": "Farewell River Dawn & Departure",
+        "description": "A final sunrise drive along the Ewaso Ng'iro river as elephant come to drink in the early cool. Sasaab's kitchen packs a beautiful departure hamper for the airport or onward journey, and your guide stays with you until the aircraft departs. Northern Kenya has a particular hold on its visitors — a quality of light and rawness that the more developed south rarely matches."
+      }
     ],
     "caveats": [
       "Samburu is significantly hotter than the Mara or Laikipia — midday temperatures can reach 38°C in dry season and outdoor activities are usually suspended between roughly 11am and 4pm.",
@@ -48,12 +113,30 @@
       "There is no Great Migration in Samburu — it is a different, arguably more characterful wildlife experience, but couples specifically seeking migration herds should head to the Mara instead."
     ],
     "faqs": [
-      { "question": "Is Sasaab Lodge good for honeymooners?", "answer": "Sasaab is an outstanding honeymoon property — the Moroccan design aesthetic, private plunge pools in every cottage, and the extraordinary Samburu landscape create a uniquely romantic atmosphere. Couples who have already visited the Mara will find Samburu a revelatory complement, while first-time Kenya visitors will be enchanted by the Special Five wildlife found nowhere else in Africa." },
-      { "question": "What is the best time to visit?", "answer": "January through March and July through October are ideal — dry and warm, with wildlife concentrated around the river. Avoid the long rains (April–May) and heavy downpours of November when some tracks become impassable. December is excellent with fewer crowds than the Mara during peak festive season." },
-      { "question": "What should we book in advance?", "answer": "Reserve your cottage (specifying the highest hill position for the best river views) at least three months ahead. Pre-arrange the couples' spa treatment and the camel safari at booking time, and inform the team of your honeymoon so private plunge pool sundowners and terrace dinners can be arranged from day one." },
-      { "question": "Is it adults-only?", "answer": "Sasaab Lodge is not adults-only. Children aged 6 and above are welcome. The lodge's intimate nine-cottage scale and the remote Samburu location mean families are uncommon, and the atmosphere skews naturally toward adult couples and small groups." },
-      { "question": "What's the best room type for a honeymoon?", "answer": "Request the highest-elevation cottage — the panoramic river views from the plunge pool are most dramatic here, and the privacy is greatest. All nine cottages are of equal quality and finish, but position on the hill makes a significant difference to the sunset and sunrise experience." },
-      { "question": "How do we get there?", "answer": "Fly from Nairobi Wilson Airport to Samburu airstrip — approximately 45 minutes with Air Kenya or Safarilink. Sasaab arranges vehicle pickup from the airstrip for the 30-minute drive through the reserve to the lodge." }
+      {
+        "question": "Is Sasaab Lodge good for honeymooners?",
+        "answer": "Sasaab is an outstanding honeymoon property — the Moroccan design aesthetic, private plunge pools in every cottage, and the extraordinary Samburu landscape create a uniquely romantic atmosphere. Couples who have already visited the Mara will find Samburu a revelatory complement, while first-time Kenya visitors will be enchanted by the Special Five wildlife found nowhere else in Africa."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "January through March and July through October are ideal — dry and warm, with wildlife concentrated around the river. Avoid the long rains (April–May) and heavy downpours of November when some tracks become impassable. December is excellent with fewer crowds than the Mara during peak festive season."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "Reserve your cottage (specifying the highest hill position for the best river views) at least three months ahead. Pre-arrange the couples' spa treatment and the camel safari at booking time, and inform the team of your honeymoon so private plunge pool sundowners and terrace dinners can be arranged from day one."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "Sasaab Lodge is not adults-only. Children aged 6 and above are welcome. The lodge's intimate nine-cottage scale and the remote Samburu location mean families are uncommon, and the atmosphere skews naturally toward adult couples and small groups."
+      },
+      {
+        "question": "What's the best room type for a honeymoon?",
+        "answer": "Request the highest-elevation cottage — the panoramic river views from the plunge pool are most dramatic here, and the privacy is greatest. All nine cottages are of equal quality and finish, but position on the hill makes a significant difference to the sunset and sunrise experience."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "Fly from Nairobi Wilson Airport to Samburu airstrip — approximately 45 minutes with Air Kenya or Safarilink. Sasaab arranges vehicle pickup from the airstrip for the 30-minute drive through the reserve to the lodge."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Sasaab Lodge Samburu\n\nDear Sasaab Lodge team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: a hilltop cottage with river views and the camel safari experience.\n\nCould you please let us know:\n- Current availability for our dates\n- Any honeymoon packages or cottage enhancements\n- Details on the couples' spa treatment and community visits\n\nThank you for your time.\n\n[Your names]"
   },

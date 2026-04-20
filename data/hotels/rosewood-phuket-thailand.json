@@ -3,7 +3,11 @@
   "name": "Rosewood Phuket",
   "destination": "thailand",
   "country": "thailand",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 88,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,49 @@
     "luxury": 8
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 600, "max": 1800 },
+  "price_per_night_usd": {
+    "min": 600,
+    "max": 1800
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "beach", "room service", "butler service", "private villas", "sunset bar", "multiple restaurants", "water sports", "yoga pavilion"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beach",
+    "room service",
+    "butler service",
+    "private villas",
+    "sunset bar",
+    "multiple restaurants",
+    "water sports",
+    "yoga pavilion"
+  ],
   "photos": [
-    { "url": "/images/hotels/rosewood-phuket-thailand/hero.webp", "alt": "rosewood-phuket-thailand — hero", "type": "hero" },
-    { "url": "/images/hotels/rosewood-phuket-thailand/room.webp", "alt": "rosewood-phuket-thailand — room", "type": "room" },
-    { "url": "/images/hotels/rosewood-phuket-thailand/pool.webp", "alt": "rosewood-phuket-thailand — pool", "type": "pool" },
-    { "url": "/images/hotels/rosewood-phuket-thailand/spa.webp", "alt": "rosewood-phuket-thailand — spa", "type": "spa" },
-    { "url": "/images/hotels/rosewood-phuket-thailand/dining.webp", "alt": "rosewood-phuket-thailand — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/rosewood-phuket-thailand/hero.webp",
+      "alt": "rosewood-phuket-thailand — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/rosewood-phuket-thailand/room.webp",
+      "alt": "rosewood-phuket-thailand — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/rosewood-phuket-thailand/pool.webp",
+      "alt": "rosewood-phuket-thailand — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/rosewood-phuket-thailand/spa.webp",
+      "alt": "rosewood-phuket-thailand — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/rosewood-phuket-thailand/dining.webp",
+      "alt": "rosewood-phuket-thailand — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.3,
   "tripadvisor_award": true,
@@ -34,13 +72,41 @@
     "verdict": "Rosewood Phuket is one of the most architecturally dramatic resorts on the island, cascading down a hillside in a series of villa complexes that tumble toward Emerald Bay — a small, protected cove on Phuket's southwest coast. The Rosewood's design is striking without being ostentatious, blending Thai architectural language with modern luxury in a way that feels authentic. For honeymooners, the combination of stunning private villas with plunge pools, the extraordinary Asaya wellness spa, and one of Phuket's best sunset bars makes it a strong, characterful choice.",
     "best_room": "Book a Cliffside or Beachfront Pool Villa for direct access to Emerald Bay or dramatic cliff-top views over the Andaman Sea. The Cliffside Villas offer the most romantic panoramas — sunset views from a private infinity pool over the Andaman are genuinely breathtaking. The Beachfront Villas put you steps from the beach with a private garden and plunge pool.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Emerald Bay", "description": "Arrive from Phuket Airport in the hotel's private car and wind down a steep private road to the resort carved into the hillside above Emerald Bay. Check in and change, then walk the steps down to the intimate beach cove — Emerald Bay is small and private, with calm waters lapping a crescent of soft sand sheltered from the headlands on both sides. Sundowners at the cliffside bar as the Andaman blazes in the sunset are mandatory." },
-      { "day": 2, "title": "Asaya Wellness Spa", "description": "The Asaya Spa is the Rosewood's signature wellness program — a comprehensive health and healing philosophy that goes beyond standard resort spa menus. Book the Reconnect Couples Journey, a 3-hour experience that opens with a breathing ritual, progresses through Thai herbal poultice massage, and closes with a private hydrotherapy session. The spa pavilions are open-air and set within rainforest gardens." },
-      { "day": 3, "title": "Phang Nga Bay Exploration", "description": "Take a private speedboat from the resort's beach through the Andaman Sea and into Phang Nga Bay for a full day of island hopping. Visit James Bond Island, paddle sea kayaks through mangrove tunnels, and find a deserted beach for a private picnic prepared by the hotel's culinary team. Return to the resort in time to watch the sun set from your villa's private pool." },
-      { "day": 4, "title": "Snorkel & Dive at Racha Islands", "description": "The Racha Islands (Racha Yai and Racha Noi) are considered some of the best dive and snorkel sites in the Phuket area, with excellent visibility and abundant marine life including reef sharks and manta rays. Book a private speedboat transfer with the hotel's dive center for an early morning departure and return by afternoon for a relaxed poolside evening." },
-      { "day": 5, "title": "Phuket Old Town & Thai Cuisine", "description": "Rent a car for a cultural day in Phuket Old Town, where Sino-Portuguese shophouses in pastel colors line streets adorned with street art and Buddhist shrines. Browse art galleries and antique shops, stop at Raya Restaurant for the best Phuket-style noodles, and visit Wat Chalong, Phuket's most important Buddhist temple. Return to the resort for sunset cocktails at the clifftop bar." },
-      { "day": 6, "title": "Private Villa Dinner & Beach Night", "description": "Arrange a private villa dinner through the butler — the culinary team will set a flower-strewn table in your villa or on the beach with a personalized Thai menu. Spend the day as lazily as you please before the candlelit evening meal. After dinner, walk down to Emerald Bay for a night swim in the warm, phosphorescent waters." },
-      { "day": 7, "title": "Farewell Morning", "description": "Take a final early morning swim in Emerald Bay — the cove at 7am is completely calm and usually deserted, the water crystal clear in the tropical morning light. Return to your villa for a leisurely breakfast from room service on your terrace, then pack for the 35-minute drive to Phuket airport." }
+      {
+        "day": 1,
+        "title": "Arrival & Emerald Bay",
+        "description": "Arrive from Phuket Airport in the hotel's private car and wind down a steep private road to the resort carved into the hillside above Emerald Bay. Check in and change, then walk the steps down to the intimate beach cove — Emerald Bay is small and private, with calm waters lapping a crescent of soft sand sheltered from the headlands on both sides. Sundowners at the cliffside bar as the Andaman blazes in the sunset are mandatory."
+      },
+      {
+        "day": 2,
+        "title": "Asaya Wellness Spa",
+        "description": "The Asaya Spa is the Rosewood's signature wellness program — a comprehensive health and healing philosophy that goes beyond standard resort spa menus. Book the Reconnect Couples Journey, a 3-hour experience that opens with a breathing ritual, progresses through Thai herbal poultice massage, and closes with a private hydrotherapy session. The spa pavilions are open-air and set within rainforest gardens."
+      },
+      {
+        "day": 3,
+        "title": "Phang Nga Bay Exploration",
+        "description": "Take a private speedboat from the resort's beach through the Andaman Sea and into Phang Nga Bay for a full day of island hopping. Visit James Bond Island, paddle sea kayaks through mangrove tunnels, and find a deserted beach for a private picnic prepared by the hotel's culinary team. Return to the resort in time to watch the sun set from your villa's private pool."
+      },
+      {
+        "day": 4,
+        "title": "Snorkel & Dive at Racha Islands",
+        "description": "The Racha Islands (Racha Yai and Racha Noi) are considered some of the best dive and snorkel sites in the Phuket area, with excellent visibility and abundant marine life including reef sharks and manta rays. Book a private speedboat transfer with the hotel's dive center for an early morning departure and return by afternoon for a relaxed poolside evening."
+      },
+      {
+        "day": 5,
+        "title": "Phuket Old Town & Thai Cuisine",
+        "description": "Rent a car for a cultural day in Phuket Old Town, where Sino-Portuguese shophouses in pastel colors line streets adorned with street art and Buddhist shrines. Browse art galleries and antique shops, stop at Raya Restaurant for the best Phuket-style noodles, and visit Wat Chalong, Phuket's most important Buddhist temple. Return to the resort for sunset cocktails at the clifftop bar."
+      },
+      {
+        "day": 6,
+        "title": "Private Villa Dinner & Beach Night",
+        "description": "Arrange a private villa dinner through the butler — the culinary team will set a flower-strewn table in your villa or on the beach with a personalized Thai menu. Spend the day as lazily as you please before the candlelit evening meal. After dinner, walk down to Emerald Bay for a night swim in the warm, phosphorescent waters."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "Take a final early morning swim in Emerald Bay — the cove at 7am is completely calm and usually deserted, the water crystal clear in the tropical morning light. Return to your villa for a leisurely breakfast from room service on your terrace, then pack for the 35-minute drive to Phuket airport."
+      }
     ],
     "caveats": [
       "Emerald Bay is a small cove — while beautiful and sheltered, it is not a long-walk beach and honeymooners wanting expansive sands should supplement with trips to nearby Patong or Kata beaches.",

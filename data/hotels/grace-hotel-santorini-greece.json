@@ -3,7 +3,11 @@
   "name": "Grace Hotel Santorini",
   "destination": "greece",
   "country": "greece",
-  "experience_types": ["luxury", "adults-only", "wellness"],
+  "experience_types": [
+    "luxury",
+    "adults-only",
+    "wellness"
+  ],
   "honeymoon_score": 91,
   "score_breakdown": {
     "adults_only": 20,
@@ -17,15 +21,49 @@
     "luxury": 4
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 600, "max": 2200 },
+  "price_per_night_usd": {
+    "min": 600,
+    "max": 2200
+  },
   "adults_only": true,
-  "amenities": ["infinity pool", "spa", "room service", "restaurant", "bar", "concierge", "caldera views", "private terraces", "sunset terrace", "yoga"],
+  "amenities": [
+    "infinity pool",
+    "spa",
+    "room service",
+    "restaurant",
+    "bar",
+    "concierge",
+    "caldera views",
+    "private terraces",
+    "sunset terrace",
+    "yoga"
+  ],
   "photos": [
-    { "url": "/images/hotels/grace-hotel-santorini-greece/hero.webp", "alt": "grace-hotel-santorini-greece — hero", "type": "hero" },
-    { "url": "/images/hotels/grace-hotel-santorini-greece/room.webp", "alt": "grace-hotel-santorini-greece — room", "type": "room" },
-    { "url": "/images/hotels/grace-hotel-santorini-greece/pool.webp", "alt": "grace-hotel-santorini-greece — pool", "type": "pool" },
-    { "url": "/images/hotels/grace-hotel-santorini-greece/spa.webp", "alt": "grace-hotel-santorini-greece — spa", "type": "spa" },
-    { "url": "/images/hotels/grace-hotel-santorini-greece/dining.webp", "alt": "grace-hotel-santorini-greece — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/grace-hotel-santorini-greece/hero.webp",
+      "alt": "grace-hotel-santorini-greece — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/grace-hotel-santorini-greece/room.webp",
+      "alt": "grace-hotel-santorini-greece — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/grace-hotel-santorini-greece/pool.webp",
+      "alt": "grace-hotel-santorini-greece — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/grace-hotel-santorini-greece/spa.webp",
+      "alt": "grace-hotel-santorini-greece — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/grace-hotel-santorini-greece/dining.webp",
+      "alt": "grace-hotel-santorini-greece — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.4,
   "tripadvisor_award": true,
@@ -34,13 +72,41 @@
     "verdict": "Grace Hotel Santorini is an adults-only boutique hotel of just 20 rooms in Imerovigli — the highest point of the Santorini caldera rim, often called 'the balcony of Santorini' — with arguably the most dramatic infinity pool view on the island. Smaller and slightly more boutique-feeling than the Canaves properties in Oia, Grace has a design-led contemporary aesthetic layered over the traditional cave architecture, with an exceptional infinity pool that seems to flow directly into the caldera. Its Imerovigli position means you're above the Oia crowds while still having one of the finest caldera panoramas on the island.",
     "best_room": "The Caldera Suites with private heated plunge pool are the essential honeymoon booking — positioned on the caldera's edge with private terraces and personal plunge pools, they deliver the Santorini dream in its purest form. The Grace Suite is the crown jewel of the property with its private infinity edge pool and 270-degree caldera views. All rooms come with the hotel's signature Molton Brown amenities and the option of an in-room hammam treatment.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Imerovigli & the Caldera Rim", "description": "Transfer from the airport and check into your suite as the caldera spreads before you — Imerovigli's elevated position means the view is even more expansive than in Oia. A welcome cocktail at the infinity pool edge, where the pool's water appears to meet the caldera's horizon, sets the tone immediately. The first dinner at Grace's restaurant on the caldera terrace is an event in itself." },
-      { "day": 2, "title": "The Infinity Pool & Spa", "description": "Spend the morning at the extraordinary infinity pool — at 280 meters above the sea, the view combines the caldera, the volcanic islands, and the Aegean in one sweeping panorama. Book a couples' treatment at the spa, which offers traditional Greek therapies using local volcanic minerals and olive oil. Evening drinks at the sunset terrace before returning to your plunge pool." },
-      { "day": 3, "title": "Walk to Oia & Back", "description": "The cliff path from Imerovigli to Oia (about 3.5 km) is one of the most beautiful walks in the Cyclades — a caldera-edge path past windmills, ruins, and the dramatic Skaros Rock. Walk it in the morning before the heat arrives and before the day-trippers fill Oia. Have breakfast in Oia's quieter northern lanes, then walk or taxi back to Grace for a long afternoon by the pool." },
-      { "day": 4, "title": "Caldera Boat Day", "description": "Arrange a private sailing trip around the caldera and volcanic islands through Grace's concierge. Visit the sulfurous hot springs at Nea Kameni, swim off the boat in the caldera's remarkably clear water, and stop at the tiny island of Thirasia for a late lunch at a family-run taverna. Return to the hotel at sunset for a glass of Assyrtiko on your plunge pool terrace." },
-      { "day": 5, "title": "Fira & Akrotiri", "description": "Take a taxi to Fira for morning shopping and the excellent Museum of Prehistoric Thera, which houses extraordinary artifacts from the Minoan city buried by Santorini's ancient volcanic eruption. Continue to the Akrotiri archaeological site itself — a remarkably well-preserved Bronze Age city frozen in volcanic ash since 1620 BC. Return to Grace for evening cocktails and a special dinner." },
-      { "day": 6, "title": "Wellness & Local Flavors", "description": "Full morning of spa treatments followed by a cooking class arranged through the concierge, learning traditional Greek recipes — fava from Santorini's own yellow split peas, tomatokeftedes (tomato fritters), and proper Greek salad with the island's extraordinary cherry tomatoes. Picnic the results on your private terrace overlooking the caldera." },
-      { "day": 7, "title": "Farewell Morning", "description": "A final plunge in your private pool at sunrise, breakfast on the caldera terrace, and a leisurely departure that the Grace team will orchestrate with typical care. The hotel's position on the highest point of the caldera rim means your last view of Santorini — as the transfer car descends toward the airport — is of the entire island laid out below you." }
+      {
+        "day": 1,
+        "title": "Imerovigli & the Caldera Rim",
+        "description": "Transfer from the airport and check into your suite as the caldera spreads before you — Imerovigli's elevated position means the view is even more expansive than in Oia. A welcome cocktail at the infinity pool edge, where the pool's water appears to meet the caldera's horizon, sets the tone immediately. The first dinner at Grace's restaurant on the caldera terrace is an event in itself."
+      },
+      {
+        "day": 2,
+        "title": "The Infinity Pool & Spa",
+        "description": "Spend the morning at the extraordinary infinity pool — at 280 meters above the sea, the view combines the caldera, the volcanic islands, and the Aegean in one sweeping panorama. Book a couples' treatment at the spa, which offers traditional Greek therapies using local volcanic minerals and olive oil. Evening drinks at the sunset terrace before returning to your plunge pool."
+      },
+      {
+        "day": 3,
+        "title": "Walk to Oia & Back",
+        "description": "The cliff path from Imerovigli to Oia (about 3.5 km) is one of the most beautiful walks in the Cyclades — a caldera-edge path past windmills, ruins, and the dramatic Skaros Rock. Walk it in the morning before the heat arrives and before the day-trippers fill Oia. Have breakfast in Oia's quieter northern lanes, then walk or taxi back to Grace for a long afternoon by the pool."
+      },
+      {
+        "day": 4,
+        "title": "Caldera Boat Day",
+        "description": "Arrange a private sailing trip around the caldera and volcanic islands through Grace's concierge. Visit the sulfurous hot springs at Nea Kameni, swim off the boat in the caldera's remarkably clear water, and stop at the tiny island of Thirasia for a late lunch at a family-run taverna. Return to the hotel at sunset for a glass of Assyrtiko on your plunge pool terrace."
+      },
+      {
+        "day": 5,
+        "title": "Fira & Akrotiri",
+        "description": "Take a taxi to Fira for morning shopping and the excellent Museum of Prehistoric Thera, which houses extraordinary artifacts from the Minoan city buried by Santorini's ancient volcanic eruption. Continue to the Akrotiri archaeological site itself — a remarkably well-preserved Bronze Age city frozen in volcanic ash since 1620 BC. Return to Grace for evening cocktails and a special dinner."
+      },
+      {
+        "day": 6,
+        "title": "Wellness & Local Flavors",
+        "description": "Full morning of spa treatments followed by a cooking class arranged through the concierge, learning traditional Greek recipes — fava from Santorini's own yellow split peas, tomatokeftedes (tomato fritters), and proper Greek salad with the island's extraordinary cherry tomatoes. Picnic the results on your private terrace overlooking the caldera."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "A final plunge in your private pool at sunrise, breakfast on the caldera terrace, and a leisurely departure that the Grace team will orchestrate with typical care. The hotel's position on the highest point of the caldera rim means your last view of Santorini — as the transfer car descends toward the airport — is of the entire island laid out below you."
+      }
     ],
     "caveats": [
       "Grace Hotel is on the caldera rim in Imerovigli, not in Oia — the famous Oia sunset village is a 3.5 km walk or short drive away. Couples fixated on Oia's specific location may prefer Canaves.",

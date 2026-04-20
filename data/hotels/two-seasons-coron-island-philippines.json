@@ -3,7 +3,11 @@
   "name": "Two Seasons Coron Island Resort & Spa",
   "destination": "philippines",
   "country": "philippines",
-  "experience_types": ["beach", "luxury", "overwater-bungalows"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "overwater-bungalows"
+  ],
   "honeymoon_score": 82,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,48 @@
     "luxury": 5
   },
   "stars": 4,
-  "price_per_night_usd": { "min": 300, "max": 900 },
+  "price_per_night_usd": {
+    "min": 300,
+    "max": 900
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "room service", "restaurant", "bar", "overwater bungalows", "snorkeling", "diving", "kayaking"],
+  "amenities": [
+    "spa",
+    "pool",
+    "room service",
+    "restaurant",
+    "bar",
+    "overwater bungalows",
+    "snorkeling",
+    "diving",
+    "kayaking"
+  ],
   "photos": [
-    { "url": "/images/hotels/two-seasons-coron-island-philippines/hero.webp", "alt": "two-seasons-coron-island-philippines — hero", "type": "hero" },
-    { "url": "/images/hotels/two-seasons-coron-island-philippines/room.webp", "alt": "two-seasons-coron-island-philippines — room", "type": "room" },
-    { "url": "/images/hotels/two-seasons-coron-island-philippines/pool.webp", "alt": "two-seasons-coron-island-philippines — pool", "type": "pool" },
-    { "url": "/images/hotels/two-seasons-coron-island-philippines/spa.webp", "alt": "two-seasons-coron-island-philippines — spa", "type": "spa" },
-    { "url": "/images/hotels/two-seasons-coron-island-philippines/dining.webp", "alt": "two-seasons-coron-island-philippines — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/two-seasons-coron-island-philippines/hero.webp",
+      "alt": "two-seasons-coron-island-philippines — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/two-seasons-coron-island-philippines/room.webp",
+      "alt": "two-seasons-coron-island-philippines — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/two-seasons-coron-island-philippines/pool.webp",
+      "alt": "two-seasons-coron-island-philippines — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/two-seasons-coron-island-philippines/spa.webp",
+      "alt": "two-seasons-coron-island-philippines — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/two-seasons-coron-island-philippines/dining.webp",
+      "alt": "two-seasons-coron-island-philippines — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 8.8,
   "tripadvisor_award": false,
@@ -34,13 +71,41 @@
     "verdict": "Two Seasons Coron Island puts you directly in the heart of one of the world's most extraordinary marine landscapes — overwater bungalows in Coron Bay, surrounded by dramatic limestone karst cliffs, with the Philippines' best wreck diving (12 Japanese WWII ships) beneath your feet and emerald lagoons accessible by kayak from your front steps. For dive-obsessed couples who also want overwater-villa luxury, this is simply the best base in Palawan's northern archipelago.",
     "best_room": "The Overwater Villas directly above Coron Bay are the resort's signature and definitive honeymoon accommodation — a glass floor panel reveals the water below, and the private sun deck extends over the bay with direct ladder access for swimming and snorkeling. The limestone towers of Coron visible from every direction complete the dramatic setting. These rooms justify the property on their own.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Coron Bay at Dusk", "description": "Fly from Manila to Coron-Francisco Reyes Airport (approximately 1 hour) then 15-minute speedboat transfer to the resort. The approach to the overwater bungalows through Coron Bay's limestone tower geometry is one of the Philippines' most dramatic hotel arrivals. Check in and descend the stairs from your overwater deck for a first swim in the bay — warm, clear, and still in the evening calm. Dinner watching the karst silhouettes darken." },
-      { "day": 2, "title": "Wreck Diving the Irako & Okikawa Maru", "description": "Coron Bay hosts 12 Japanese warships sunk in a US airstrike in September 1944 — some of the world's most accessible and historically resonant wreck dives. The Irako (supply ship, 147 metres) and Okikawa Maru (tanker) are the most spectacular. The resort's PADI dive centre operates guided wreck dives for certified divers; discovery dives are available for beginners at shallower wrecks. Non-divers take the snorkel boat to Siete Pecados Marine Park." },
-      { "day": 3, "title": "Kayangan Lake & Twin Lagoon", "description": "Kayangan Lake on Coron Island proper is consistently ranked among Asia's most beautiful lakes — a freshwater lake of extraordinary clarity surrounded by sheer limestone walls, with thermoclines visible as you swim where fresh and salt water mix. Twin Lagoon — two connected lagoons separated by a submerged rock passage swum at high tide — is equally extraordinary. Full-day island tour by outrigger." },
-      { "day": 4, "title": "Spa Day & Sunset at the Overwater Bar", "description": "The resort spa uses Filipino Hilot massage and contemporary treatments in open-air pavilions over the water. Book a couples' massage with volcanic stone therapy, then spend the afternoon in the infinity pool above the bay. The overwater bar at sunset — with the limestone cliffs turning amber and the sea going still — is the most visually extraordinary hour of the trip. Order the mango mojito." },
-      { "day": 5, "title": "Barracuda Lake Thermocline Dive", "description": "Barracuda Lake on Coron Island is one of the world's most unusual dive sites — a lake with a salt and fresh water thermocline at 8 metres creating a shimmering, almost hallucinatory visual effect as you cross between layers. The tectonic-warmed lower salt water reaches 38 degrees. This alien environment is unforgettable. Return via Skeleton Wreck for a second, more relaxed dive. Afternoon: kayak the bay." },
-      { "day": 6, "title": "Culion Island & Leprosy Colony Heritage", "description": "A day trip by speedboat to Culion Island — a former leprosy colony that at its peak housed 15,000 patients and is now a poignant and fascinating heritage site. The Culion Museum and Archives, the Spanish fort, and the remarkable community that grew up around the colonial hospital make for a deeply human and moving excursion. Lunch on the island before returning through the karst channels." },
-      { "day": 7, "title": "Farewell Morning", "description": "A final sunrise swim from your overwater deck — the bay at dawn, the karst towers perfectly still in the early light. Breakfast is served on the deck above the water. The speedboat back to the airport passes through the full drama of Coron Bay's limestone geography one last time. Coron is unlike anywhere else on earth: a landscape made for slow exploration and deep wonder." }
+      {
+        "day": 1,
+        "title": "Arrival & Coron Bay at Dusk",
+        "description": "Fly from Manila to Coron-Francisco Reyes Airport (approximately 1 hour) then 15-minute speedboat transfer to the resort. The approach to the overwater bungalows through Coron Bay's limestone tower geometry is one of the Philippines' most dramatic hotel arrivals. Check in and descend the stairs from your overwater deck for a first swim in the bay — warm, clear, and still in the evening calm. Dinner watching the karst silhouettes darken."
+      },
+      {
+        "day": 2,
+        "title": "Wreck Diving the Irako & Okikawa Maru",
+        "description": "Coron Bay hosts 12 Japanese warships sunk in a US airstrike in September 1944 — some of the world's most accessible and historically resonant wreck dives. The Irako (supply ship, 147 metres) and Okikawa Maru (tanker) are the most spectacular. The resort's PADI dive centre operates guided wreck dives for certified divers; discovery dives are available for beginners at shallower wrecks. Non-divers take the snorkel boat to Siete Pecados Marine Park."
+      },
+      {
+        "day": 3,
+        "title": "Kayangan Lake & Twin Lagoon",
+        "description": "Kayangan Lake on Coron Island proper is consistently ranked among Asia's most beautiful lakes — a freshwater lake of extraordinary clarity surrounded by sheer limestone walls, with thermoclines visible as you swim where fresh and salt water mix. Twin Lagoon — two connected lagoons separated by a submerged rock passage swum at high tide — is equally extraordinary. Full-day island tour by outrigger."
+      },
+      {
+        "day": 4,
+        "title": "Spa Day & Sunset at the Overwater Bar",
+        "description": "The resort spa uses Filipino Hilot massage and contemporary treatments in open-air pavilions over the water. Book a couples' massage with volcanic stone therapy, then spend the afternoon in the infinity pool above the bay. The overwater bar at sunset — with the limestone cliffs turning amber and the sea going still — is the most visually extraordinary hour of the trip. Order the mango mojito."
+      },
+      {
+        "day": 5,
+        "title": "Barracuda Lake Thermocline Dive",
+        "description": "Barracuda Lake on Coron Island is one of the world's most unusual dive sites — a lake with a salt and fresh water thermocline at 8 metres creating a shimmering, almost hallucinatory visual effect as you cross between layers. The tectonic-warmed lower salt water reaches 38 degrees. This alien environment is unforgettable. Return via Skeleton Wreck for a second, more relaxed dive. Afternoon: kayak the bay."
+      },
+      {
+        "day": 6,
+        "title": "Culion Island & Leprosy Colony Heritage",
+        "description": "A day trip by speedboat to Culion Island — a former leprosy colony that at its peak housed 15,000 patients and is now a poignant and fascinating heritage site. The Culion Museum and Archives, the Spanish fort, and the remarkable community that grew up around the colonial hospital make for a deeply human and moving excursion. Lunch on the island before returning through the karst channels."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "A final sunrise swim from your overwater deck — the bay at dawn, the karst towers perfectly still in the early light. Breakfast is served on the deck above the water. The speedboat back to the airport passes through the full drama of Coron Bay's limestone geography one last time. Coron is unlike anywhere else on earth: a landscape made for slow exploration and deep wonder."
+      }
     ],
     "caveats": [
       "Coron Bay is best for wreck diving — these historic sites are the primary draw for dive-focused travellers. Couples who do not dive and are primarily seeking pristine reef and crystal water should consider El Nido or Amanpulo instead, where the above-water and snorkeling experiences are stronger.",
@@ -48,12 +113,30 @@
       "Two Seasons is a four-star property, not a five-star luxury resort — the overwater bungalows are the standout feature but service and food do not match the region's top-tier properties. Value is strong, but temper five-star expectations."
     ],
     "faqs": [
-      { "question": "Is Two Seasons Coron good for honeymooners?", "answer": "Yes, particularly for dive-enthusiast couples — the combination of overwater villa living and access to world-class wreck diving and the extraordinary Kayangan Lake creates a uniquely adventurous honeymoon. The karst scenery is dramatic and romantic, and the overwater bungalow format is inherently intimate. Non-divers will still find the snorkeling, lagoon kayaking, and island-hopping excellent." },
-      { "question": "What is the best time to visit?", "answer": "November to May is the dry season for north Palawan. December to March offers the calmest bay conditions and best diving visibility. April and May are the hottest months with excellent conditions. Avoid June to October when the southwest monsoon creates rough seas in Coron Bay and limits diving." },
-      { "question": "What should we book in advance?", "answer": "Overwater Villa rooms are the most popular and sell out first in peak season — specify at booking. The Kayangan Lake island tour should be arranged through the resort and timed for early morning before the day-tour boats arrive. PADI wreck dive certification is required for most famous sites — the resort can arrange an advance Open Water course on-site." },
-      { "question": "Is it adults-only?", "answer": "No. The resort accommodates families and there are families with children in the bay area. The overwater bungalows and dive-focused programme are naturally more adult-oriented, and the guest mix includes many couples and honeymooners, but families are not uncommon in the land-based rooms." },
-      { "question": "What's the best room for a honeymoon?", "answer": "An Overwater Villa directly above Coron Bay — no other room configuration at this resort approaches the romantic drama of waking above the water with karst towers visible through every window. The glass floor panel and private deck ladder for direct bay swimming make these rooms genuinely extraordinary. Book the highest category Overwater Villa available." },
-      { "question": "How do we get there?", "answer": "Fly from Manila (MNL) to Francisco Reyes Airport (USU) in Coron — approximately 1 hour, operated by Philippine Airlines, Cebu Pacific, and AirAsia. From the airport, the resort provides a 15-minute speedboat transfer to the overwater bungalows in Coron Bay. Coron Town itself is accessible by water taxi for restaurants and shopping." }
+      {
+        "question": "Is Two Seasons Coron good for honeymooners?",
+        "answer": "Yes, particularly for dive-enthusiast couples — the combination of overwater villa living and access to world-class wreck diving and the extraordinary Kayangan Lake creates a uniquely adventurous honeymoon. The karst scenery is dramatic and romantic, and the overwater bungalow format is inherently intimate. Non-divers will still find the snorkeling, lagoon kayaking, and island-hopping excellent."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "November to May is the dry season for north Palawan. December to March offers the calmest bay conditions and best diving visibility. April and May are the hottest months with excellent conditions. Avoid June to October when the southwest monsoon creates rough seas in Coron Bay and limits diving."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "Overwater Villa rooms are the most popular and sell out first in peak season — specify at booking. The Kayangan Lake island tour should be arranged through the resort and timed for early morning before the day-tour boats arrive. PADI wreck dive certification is required for most famous sites — the resort can arrange an advance Open Water course on-site."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "No. The resort accommodates families and there are families with children in the bay area. The overwater bungalows and dive-focused programme are naturally more adult-oriented, and the guest mix includes many couples and honeymooners, but families are not uncommon in the land-based rooms."
+      },
+      {
+        "question": "What's the best room for a honeymoon?",
+        "answer": "An Overwater Villa directly above Coron Bay — no other room configuration at this resort approaches the romantic drama of waking above the water with karst towers visible through every window. The glass floor panel and private deck ladder for direct bay swimming make these rooms genuinely extraordinary. Book the highest category Overwater Villa available."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "Fly from Manila (MNL) to Francisco Reyes Airport (USU) in Coron — approximately 1 hour, operated by Philippine Airlines, Cebu Pacific, and AirAsia. From the airport, the resort provides a 15-minute speedboat transfer to the overwater bungalows in Coron Bay. Coron Town itself is accessible by water taxi for restaurants and shopping."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Two Seasons Coron Island Resort\n\nDear Two Seasons Coron team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: an Overwater Villa directly above Coron Bay.\n\nCould you please let us know:\n- Current availability for our dates\n- Any honeymoon packages or complimentary amenities\n- Whether dive certification courses and wreck dive guided tours can be arranged during our stay\n\nThank you for your time.\n\n[Your names]"
   },

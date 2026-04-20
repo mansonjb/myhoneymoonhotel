@@ -3,19 +3,64 @@
   "name": "The Knai Bang Chatt",
   "destination": "cambodia",
   "country": "cambodia",
-  "experience_types": ["beach", "luxury"],
+  "experience_types": [
+    "beach",
+    "luxury"
+  ],
   "honeymoon_score": 84,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 18, "spa": 10, "award": 8, "pool": 10, "beach": 10, "room_service": 10, "stars": 13, "luxury": 5 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 18,
+    "spa": 10,
+    "award": 8,
+    "pool": 10,
+    "beach": 10,
+    "room_service": 10,
+    "stars": 13,
+    "luxury": 5
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 300, "max": 900 },
+  "price_per_night_usd": {
+    "min": 300,
+    "max": 900
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "beach", "room service", "sailing club", "fine dining", "kayaking", "cycling"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beach",
+    "room service",
+    "sailing club",
+    "fine dining",
+    "kayaking",
+    "cycling"
+  ],
   "photos": [
-    { "url": "/images/hotels/knai-bang-chatt-cambodia/hero.webp", "alt": "knai-bang-chatt-cambodia — hero", "type": "hero" },
-    { "url": "/images/hotels/knai-bang-chatt-cambodia/room.webp", "alt": "knai-bang-chatt-cambodia — room", "type": "room" },
-    { "url": "/images/hotels/knai-bang-chatt-cambodia/pool.webp", "alt": "knai-bang-chatt-cambodia — pool", "type": "pool" },
-    { "url": "/images/hotels/knai-bang-chatt-cambodia/spa.webp", "alt": "knai-bang-chatt-cambodia — spa", "type": "spa" },
-    { "url": "/images/hotels/knai-bang-chatt-cambodia/dining.webp", "alt": "knai-bang-chatt-cambodia — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/knai-bang-chatt-cambodia/hero.webp",
+      "alt": "knai-bang-chatt-cambodia — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/knai-bang-chatt-cambodia/room.webp",
+      "alt": "knai-bang-chatt-cambodia — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/knai-bang-chatt-cambodia/pool.webp",
+      "alt": "knai-bang-chatt-cambodia — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/knai-bang-chatt-cambodia/spa.webp",
+      "alt": "knai-bang-chatt-cambodia — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/knai-bang-chatt-cambodia/dining.webp",
+      "alt": "knai-bang-chatt-cambodia — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 8.9,
   "tripadvisor_award": false,
@@ -24,13 +69,41 @@
     "verdict": "The Knai Bang Chatt occupies three 1960s Modernist villas on the Kep seafront — a charming, unhurried coastal town two hours from Phnom Penh that was once Cambodia's colonial-era beach resort before the Khmer Rouge era froze it in time. The hotel's striking mid-century architecture, sailing club on the Gulf of Thailand, famous crab market, and proximity to the pepper farms of Kampot create a romantic and genuinely distinctive Cambodia experience entirely off the Angkor tourist trail.",
     "best_room": "The Modernist villas are each architecturally distinct: Villa Vague (blue-toned, sea-facing), Villa Vert (green garden, shaded terraces), and Villa Rouge (warm terracotta, most private courtyard). All 11 villas share the same impeccably maintained 1960s architectural bones — clean lines, generous louvered windows, and terraces designed for the Gulf of Thailand breeze. Villa Vague's sea-facing rooms are the most sought-after by couples for the direct Gulf views and the sound of the water.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Kep Crab Market", "description": "Drive from Phnom Penh (2.5 hours) or Sihanoukville through Cambodia's rural south to arrive at Kep by late afternoon. The Kep Crab Market is the town's legendary centrepiece — a row of open-air seafood restaurants on stilts above the water where the day's catch is brought directly from the boats. Blue crab in Kampot pepper sauce is the essential first meal." },
-      { "day": 2, "title": "Sailing Club & Gulf of Thailand", "description": "The Knai Bang Chatt's sailing club is a genuinely functional facility — small Hobie cats and kayaks are available for guests. Morning on the water with an instructor, learning to navigate the calm Gulf of Thailand between Kep's small offshore islands. Return for lunch at the hotel's pool terrace overlooking the sea." },
-      { "day": 3, "title": "Kampot Day Trip & Pepper Farms", "description": "Kampot, 25km west of Kep, is one of Southeast Asia's most atmospheric riverside towns — French colonial buildings, a languid river, and the source of the world's most celebrated pepper. Visit La Plantation or Sothy's Pepper Farm for a guided tour of the Kampot pepper cultivation process, then lunch at a riverside café." },
-      { "day": 4, "title": "Bokor Hill Station", "description": "Drive to the former French colonial hill station on Bokor Mountain above Kampot — a fog-wreathed plateau where the abandoned 1920s casino-hotel and church stand in atmospheric ruin above the Gulf of Thailand. The clouds that often swirl around the summit create an eerie, romantic quality that feels entirely unlike the rest of coastal Cambodia." },
-      { "day": 5, "title": "Rabbit Island Day Trip", "description": "A short boat ride from Kep reaches Rabbit Island (Koh Tonsay) — a small, almost undeveloped island with basic beach shacks, hammocks in the palms, and pristine Gulf of Thailand water. Spend the day swimming, reading, and eating grilled squid at the beach restaurants before the late afternoon boat back to Kep." },
-      { "day": 6, "title": "Spa & Kep National Park Walk", "description": "Morning at the hotel's small spa for a Khmer herb treatment, then an afternoon walk through Kep National Park — a protected forest area behind the town with walking trails, hill views, and a butterfly garden. Return to the hotel as the sun descends over the Gulf for the final night's sunset from the villa terrace." },
-      { "day": 7, "title": "Final Crab Breakfast & Departure", "description": "A morning trip back to the crab market for breakfast — a Kep morning ritual of fresh crab, rice congee, and strong Cambodian iced coffee. Return to the hotel for checkout before the scenic road drive back to Phnom Penh for the international connection." }
+      {
+        "day": 1,
+        "title": "Arrival & Kep Crab Market",
+        "description": "Drive from Phnom Penh (2.5 hours) or Sihanoukville through Cambodia's rural south to arrive at Kep by late afternoon. The Kep Crab Market is the town's legendary centrepiece — a row of open-air seafood restaurants on stilts above the water where the day's catch is brought directly from the boats. Blue crab in Kampot pepper sauce is the essential first meal."
+      },
+      {
+        "day": 2,
+        "title": "Sailing Club & Gulf of Thailand",
+        "description": "The Knai Bang Chatt's sailing club is a genuinely functional facility — small Hobie cats and kayaks are available for guests. Morning on the water with an instructor, learning to navigate the calm Gulf of Thailand between Kep's small offshore islands. Return for lunch at the hotel's pool terrace overlooking the sea."
+      },
+      {
+        "day": 3,
+        "title": "Kampot Day Trip & Pepper Farms",
+        "description": "Kampot, 25km west of Kep, is one of Southeast Asia's most atmospheric riverside towns — French colonial buildings, a languid river, and the source of the world's most celebrated pepper. Visit La Plantation or Sothy's Pepper Farm for a guided tour of the Kampot pepper cultivation process, then lunch at a riverside café."
+      },
+      {
+        "day": 4,
+        "title": "Bokor Hill Station",
+        "description": "Drive to the former French colonial hill station on Bokor Mountain above Kampot — a fog-wreathed plateau where the abandoned 1920s casino-hotel and church stand in atmospheric ruin above the Gulf of Thailand. The clouds that often swirl around the summit create an eerie, romantic quality that feels entirely unlike the rest of coastal Cambodia."
+      },
+      {
+        "day": 5,
+        "title": "Rabbit Island Day Trip",
+        "description": "A short boat ride from Kep reaches Rabbit Island (Koh Tonsay) — a small, almost undeveloped island with basic beach shacks, hammocks in the palms, and pristine Gulf of Thailand water. Spend the day swimming, reading, and eating grilled squid at the beach restaurants before the late afternoon boat back to Kep."
+      },
+      {
+        "day": 6,
+        "title": "Spa & Kep National Park Walk",
+        "description": "Morning at the hotel's small spa for a Khmer herb treatment, then an afternoon walk through Kep National Park — a protected forest area behind the town with walking trails, hill views, and a butterfly garden. Return to the hotel as the sun descends over the Gulf for the final night's sunset from the villa terrace."
+      },
+      {
+        "day": 7,
+        "title": "Final Crab Breakfast & Departure",
+        "description": "A morning trip back to the crab market for breakfast — a Kep morning ritual of fresh crab, rice congee, and strong Cambodian iced coffee. Return to the hotel for checkout before the scenic road drive back to Phnom Penh for the international connection."
+      }
     ],
     "caveats": [
       "Kep is a small, quiet coastal town — it offers peace and character but no nightlife, significant shopping, or urban amenities; couples must be content with simple pleasures.",
@@ -38,12 +111,30 @@
       "The Knai Bang Chatt is a boutique property with limited staff compared to large resort hotels; service is warm and personal but may not match the immediate response of larger properties."
     ],
     "faqs": [
-      { "question": "Good for honeymooners?", "answer": "The Knai Bang Chatt is a wonderful off-beat honeymoon choice for couples who love architecture, good food, and genuine local atmosphere over manicured resort experiences. Kep's crab market, the sailing club, and the mid-century Modernist beauty of the hotel create a deeply romantic backdrop for an unhurried honeymoon week in a Cambodia almost no tourists see." },
-      { "question": "Best time to visit?", "answer": "November through April is the dry season in southern Cambodia — ideal for sailing, island trips, and the Gulf of Thailand coast. December through February is peak season with cooler evenings. May through October is wet season; rain comes mostly in afternoon bursts and the landscape is intensely green, though the sailing club is less active." },
-      { "question": "Book in advance?", "answer": "With only 11 villas, The Knai Bang Chatt books out for peak season months 2 to 4 months ahead. Villa Vague sea-facing rooms are the first to go. The property's uniqueness attracts travellers who discover it through design and travel editorial." },
-      { "question": "Adults-only?", "answer": "The Knai Bang Chatt is not adults-only, though the architectural character, sailing focus, and quiet coastal atmosphere attract primarily adult couples. The intimate scale and sophisticated aesthetic make it a naturally romantic environment." },
-      { "question": "Best room type?", "answer": "Villa Vague's sea-facing rooms are the most romantic — direct Gulf views, the sound of the water, and the hotel's most coveted position. Villa Rouge's courtyard suites offer more privacy for couples who prefer seclusion to sea exposure. All 11 villas share the property's extraordinary mid-century Modernist character." },
-      { "question": "How to get there?", "answer": "Phnom Penh International Airport is the gateway — from there, a private car to Kep takes approximately 2.5 hours through Cambodia's rural south. The hotel arranges transfers. Kep can also be reached from Sihanoukville (2 hours) for travellers combining island and coastal stays." }
+      {
+        "question": "Good for honeymooners?",
+        "answer": "The Knai Bang Chatt is a wonderful off-beat honeymoon choice for couples who love architecture, good food, and genuine local atmosphere over manicured resort experiences. Kep's crab market, the sailing club, and the mid-century Modernist beauty of the hotel create a deeply romantic backdrop for an unhurried honeymoon week in a Cambodia almost no tourists see."
+      },
+      {
+        "question": "Best time to visit?",
+        "answer": "November through April is the dry season in southern Cambodia — ideal for sailing, island trips, and the Gulf of Thailand coast. December through February is peak season with cooler evenings. May through October is wet season; rain comes mostly in afternoon bursts and the landscape is intensely green, though the sailing club is less active."
+      },
+      {
+        "question": "Book in advance?",
+        "answer": "With only 11 villas, The Knai Bang Chatt books out for peak season months 2 to 4 months ahead. Villa Vague sea-facing rooms are the first to go. The property's uniqueness attracts travellers who discover it through design and travel editorial."
+      },
+      {
+        "question": "Adults-only?",
+        "answer": "The Knai Bang Chatt is not adults-only, though the architectural character, sailing focus, and quiet coastal atmosphere attract primarily adult couples. The intimate scale and sophisticated aesthetic make it a naturally romantic environment."
+      },
+      {
+        "question": "Best room type?",
+        "answer": "Villa Vague's sea-facing rooms are the most romantic — direct Gulf views, the sound of the water, and the hotel's most coveted position. Villa Rouge's courtyard suites offer more privacy for couples who prefer seclusion to sea exposure. All 11 villas share the property's extraordinary mid-century Modernist character."
+      },
+      {
+        "question": "How to get there?",
+        "answer": "Phnom Penh International Airport is the gateway — from there, a private car to Kep takes approximately 2.5 hours through Cambodia's rural south. The hotel arranges transfers. Kep can also be reached from Sihanoukville (2 hours) for travellers combining island and coastal stays."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — The Knai Bang Chatt Kep\n\nDear Knai Bang Chatt team,\n\nWe are planning our honeymoon [DATE]-[DATE] and are interested in a Villa Vague sea-facing room [or Villa Rouge courtyard suite]. Please advise on availability, sailing club bookings, honeymoon packages, and any complimentary inclusions.\n\nThank you,\n[Your names]"
   },

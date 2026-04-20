@@ -3,7 +3,11 @@
   "name": "Nihi Sumba Island",
   "destination": "indonesia",
   "country": "indonesia",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 97,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,15 +21,49 @@
     "luxury": 11
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 1500, "max": 6000 },
+  "price_per_night_usd": {
+    "min": 1500,
+    "max": 6000
+  },
   "adults_only": false,
-  "amenities": ["spa", "private beach", "pool", "room service", "butler service", "surfing", "horses", "fishing", "community foundation", "teak forest"],
+  "amenities": [
+    "spa",
+    "private beach",
+    "pool",
+    "room service",
+    "butler service",
+    "surfing",
+    "horses",
+    "fishing",
+    "community foundation",
+    "teak forest"
+  ],
   "photos": [
-    { "url": "/images/hotels/nihi-sumba-island-indonesia/hero.webp", "alt": "nihi-sumba-island-indonesia — hero", "type": "hero" },
-    { "url": "/images/hotels/nihi-sumba-island-indonesia/room.webp", "alt": "nihi-sumba-island-indonesia — room", "type": "room" },
-    { "url": "/images/hotels/nihi-sumba-island-indonesia/pool.webp", "alt": "nihi-sumba-island-indonesia — pool", "type": "pool" },
-    { "url": "/images/hotels/nihi-sumba-island-indonesia/spa.webp", "alt": "nihi-sumba-island-indonesia — spa", "type": "spa" },
-    { "url": "/images/hotels/nihi-sumba-island-indonesia/dining.webp", "alt": "nihi-sumba-island-indonesia — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/nihi-sumba-island-indonesia/hero.webp",
+      "alt": "nihi-sumba-island-indonesia — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/nihi-sumba-island-indonesia/room.webp",
+      "alt": "nihi-sumba-island-indonesia — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/nihi-sumba-island-indonesia/pool.webp",
+      "alt": "nihi-sumba-island-indonesia — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/nihi-sumba-island-indonesia/spa.webp",
+      "alt": "nihi-sumba-island-indonesia — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/nihi-sumba-island-indonesia/dining.webp",
+      "alt": "nihi-sumba-island-indonesia — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.7,
   "tripadvisor_award": true,
@@ -34,13 +72,41 @@
     "verdict": "Nihi Sumba has been voted the World's Best Hotel by Travel + Leisure multiple consecutive years — and experiencing it makes that accolade entirely believable. Set on the remote Indonesian island of Sumba, its 27 cliffside and beachfront villas front the legendary Nihiwatu beach and the private surf break known as 'Occy's Left', accessible to no more than seven surfers per morning. The ethical Sumba Foundation — built from resort proceeds — funds clean water, malaria eradication, and schools for local villages. This is a place that is as good for your soul as it is for your relationship.",
     "best_room": "The Nihi Oka Villa is the most romantic and remote — a clifftop compound accessible only by a short walk through the teak forest, with a private pool, outdoor bathtub, and unobstructed views of the Indian Ocean surf break below. The Rumah Niang is the resort's most traditional option: a Sumbanese-style high-thatched tower villa with a pool and direct beach access.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Nihiwatu Beach", "description": "Fly from Bali (approximately one hour) to Tambolaka Airport on Sumba, where resort staff collect you for the 20-minute drive through dramatic savanna and teak forest to Nihiwatu. Nothing prepares you for the first sight of the bay: a wild, kilometre-long stretch of white sand backed by jungle, with no other guests or development in sight. Your welcome ceremony involves local musicians and a cold Sumba gin sling on the beach." },
-      { "day": 2, "title": "Surfing Occy's Left", "description": "If you surf, today is the day: Occy's Left, the famous left-hand break that runs along the reef below the resort, is available exclusively to Nihi guests — a maximum of seven surfers per dawn session, ensuring uncrowded waves in one of the world's most consistent surf spots. Non-surfing partners can watch from the beach or explore the teak forest trails with the resort's naturalist guide." },
-      { "day": 3, "title": "Nihi Oka Spa", "description": "The Nihi Oka Spa is set in a series of thatched treatment pavilions above a freshwater stream, deep in the teak forest. The Sumba Healing Journey — a three-hour ceremony led by local healers using traditional Sumbanese botanicals, river stone massage, and a forest bathing meditation — is one of the most profound spa experiences in Indonesia. Emerge at sunset feeling completely renewed." },
-      { "day": 4, "title": "Horses & Savanna", "description": "Sumba is known throughout Indonesia for its magnificent horses — the Sandalwood breed is used in traditional ceremonies and races. Join a guided horseback ride through the savanna and teak forest, passing megalithic stone tombs and traditional ikat weaving villages. Return for lunch at the beach restaurant, where the freshness of the day's catch is extraordinary." },
-      { "day": 5, "title": "Sumba Foundation Village Visit", "description": "Join the Sumba Foundation representative for a village visit — seeing the clean water wells, malaria prevention clinics, and primary school that resort proceeds have built is deeply moving. The connection to the local community that Nihi fosters is genuine and non-performative. In the evening, your butler arranges a private beach bonfire dinner with local musicians." },
-      { "day": 6, "title": "Fishing & Beach Day", "description": "Join the resort's traditional fishing expedition at dawn: Sumbanese fishing techniques involving hand-thrown nets from a wooden boat on the protected bay. A full beach day follows — swimming in the surf, lunch at the beachfront shack, and a final afternoon in your villa pool. Dinner at the main pavilion restaurant, one of the finest in eastern Indonesia." },
-      { "day": 7, "title": "Farewell Morning", "description": "A final sunrise walk on Nihiwatu beach before anyone else is awake — just you, the Indian Ocean, and the sound of Occy's Left breaking in the distance. No other resort in the world combines wild nature, authentic culture, world-class luxury, and genuine ethical purpose quite as compellingly as Nihi Sumba." }
+      {
+        "day": 1,
+        "title": "Arrival & Nihiwatu Beach",
+        "description": "Fly from Bali (approximately one hour) to Tambolaka Airport on Sumba, where resort staff collect you for the 20-minute drive through dramatic savanna and teak forest to Nihiwatu. Nothing prepares you for the first sight of the bay: a wild, kilometre-long stretch of white sand backed by jungle, with no other guests or development in sight. Your welcome ceremony involves local musicians and a cold Sumba gin sling on the beach."
+      },
+      {
+        "day": 2,
+        "title": "Surfing Occy's Left",
+        "description": "If you surf, today is the day: Occy's Left, the famous left-hand break that runs along the reef below the resort, is available exclusively to Nihi guests — a maximum of seven surfers per dawn session, ensuring uncrowded waves in one of the world's most consistent surf spots. Non-surfing partners can watch from the beach or explore the teak forest trails with the resort's naturalist guide."
+      },
+      {
+        "day": 3,
+        "title": "Nihi Oka Spa",
+        "description": "The Nihi Oka Spa is set in a series of thatched treatment pavilions above a freshwater stream, deep in the teak forest. The Sumba Healing Journey — a three-hour ceremony led by local healers using traditional Sumbanese botanicals, river stone massage, and a forest bathing meditation — is one of the most profound spa experiences in Indonesia. Emerge at sunset feeling completely renewed."
+      },
+      {
+        "day": 4,
+        "title": "Horses & Savanna",
+        "description": "Sumba is known throughout Indonesia for its magnificent horses — the Sandalwood breed is used in traditional ceremonies and races. Join a guided horseback ride through the savanna and teak forest, passing megalithic stone tombs and traditional ikat weaving villages. Return for lunch at the beach restaurant, where the freshness of the day's catch is extraordinary."
+      },
+      {
+        "day": 5,
+        "title": "Sumba Foundation Village Visit",
+        "description": "Join the Sumba Foundation representative for a village visit — seeing the clean water wells, malaria prevention clinics, and primary school that resort proceeds have built is deeply moving. The connection to the local community that Nihi fosters is genuine and non-performative. In the evening, your butler arranges a private beach bonfire dinner with local musicians."
+      },
+      {
+        "day": 6,
+        "title": "Fishing & Beach Day",
+        "description": "Join the resort's traditional fishing expedition at dawn: Sumbanese fishing techniques involving hand-thrown nets from a wooden boat on the protected bay. A full beach day follows — swimming in the surf, lunch at the beachfront shack, and a final afternoon in your villa pool. Dinner at the main pavilion restaurant, one of the finest in eastern Indonesia."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Morning",
+        "description": "A final sunrise walk on Nihiwatu beach before anyone else is awake — just you, the Indian Ocean, and the sound of Occy's Left breaking in the distance. No other resort in the world combines wild nature, authentic culture, world-class luxury, and genuine ethical purpose quite as compellingly as Nihi Sumba."
+      }
     ],
     "caveats": [
       "Nihi Sumba is genuinely remote — Sumba is a two-hour journey from Bali via a connection through Jakarta or direct flight, and infrastructure on the island is basic outside the resort.",
@@ -48,12 +114,30 @@
       "With only 27 villas, the resort books up many months in advance — particularly for peak dry season months."
     ],
     "faqs": [
-      { "question": "Is Nihi Sumba good for honeymooners?", "answer": "Nihi Sumba has been voted the World's Best Hotel multiple years running, and for honeymooners, it represents something genuinely special: complete remoteness, a private beach and surf break, the extraordinary Nihi Oka Spa, horseback riding through savanna, and a resort ethos built around community benefit. It is one of the world's great honeymoon destinations." },
-      { "question": "What is the best time to visit?", "answer": "May through October is Sumba's dry season — the best time for outdoor activities, surfing (the south swell arrives in June–August), and beach weather. November to April is the wet season; the resort remains open and beautiful, but outdoor activities can be disrupted." },
-      { "question": "What should we book in advance?", "answer": "Nihi Sumba requires advance booking many months ahead for peak months. Occy's Left surf sessions are limited to seven surfers per morning and must be pre-booked. The Nihi Oka Spa treatments and village visits should also be arranged before arrival." },
-      { "question": "Is it adults-only?", "answer": "No, Nihi Sumba is not adults-only and welcomes families. The resort's remote setting and focus on outdoor adventure create a naturally adult-oriented atmosphere." },
-      { "question": "What's the best room for a honeymoon?", "answer": "The Nihi Oka Villa is the most secluded and romantic — a clifftop compound with private pool, outdoor bathtub, and views over the surf break. The Rumah Niang offers traditional Sumbanese architecture with direct beach access." },
-      { "question": "How do we get there?", "answer": "Fly from Bali (DPS) to Tambolaka Airport (TMC) on Sumba — approximately one hour. Direct flights operate several times per week. The resort arranges the 20-minute road transfer from Tambolaka to Nihiwatu." }
+      {
+        "question": "Is Nihi Sumba good for honeymooners?",
+        "answer": "Nihi Sumba has been voted the World's Best Hotel multiple years running, and for honeymooners, it represents something genuinely special: complete remoteness, a private beach and surf break, the extraordinary Nihi Oka Spa, horseback riding through savanna, and a resort ethos built around community benefit. It is one of the world's great honeymoon destinations."
+      },
+      {
+        "question": "What is the best time to visit?",
+        "answer": "May through October is Sumba's dry season — the best time for outdoor activities, surfing (the south swell arrives in June–August), and beach weather. November to April is the wet season; the resort remains open and beautiful, but outdoor activities can be disrupted."
+      },
+      {
+        "question": "What should we book in advance?",
+        "answer": "Nihi Sumba requires advance booking many months ahead for peak months. Occy's Left surf sessions are limited to seven surfers per morning and must be pre-booked. The Nihi Oka Spa treatments and village visits should also be arranged before arrival."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "No, Nihi Sumba is not adults-only and welcomes families. The resort's remote setting and focus on outdoor adventure create a naturally adult-oriented atmosphere."
+      },
+      {
+        "question": "What's the best room for a honeymoon?",
+        "answer": "The Nihi Oka Villa is the most secluded and romantic — a clifftop compound with private pool, outdoor bathtub, and views over the surf break. The Rumah Niang offers traditional Sumbanese architecture with direct beach access."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "Fly from Bali (DPS) to Tambolaka Airport (TMC) on Sumba — approximately one hour. Direct flights operate several times per week. The resort arranges the 20-minute road transfer from Tambolaka to Nihiwatu."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Nihi Sumba Island\n\nDear Nihi Sumba team,\n\nMy partner and I are planning our honeymoon and are very interested in staying with you from [DATE] to [DATE] ([X] nights).\n\nWe are particularly interested in: [Nihi Oka Villa / Rumah Niang]\n\nCould you please let us know:\n- Current availability for our dates\n- Any honeymoon packages or complimentary upgrades\n- Occy's Left surf session availability and Nihi Oka Spa booking process\n\nThank you for your time.\n\n[Your names]"
   },
