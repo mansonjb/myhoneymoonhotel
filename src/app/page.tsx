@@ -25,16 +25,25 @@ const REGION_OF: Record<string, string> = {
 const REGION_ORDER = ['Indian Ocean', 'South Pacific', 'Caribbean & Americas', 'Europe', 'Asia', 'Africa Safari', 'Africa & Middle East', 'Africa & Atlantic', 'North America']
 
 const EXPERIENCE_TYPES = [
-  { slug: 'overwater-bungalows', label: 'Overwater Villas', sub: 'Sleep above the lagoon' },
-  { slug: 'adults-only', label: 'Adults-Only', sub: 'No families. Pure romance.' },
-  { slug: 'safari', label: 'Safari & Bush', sub: 'Wildlife meets luxury' },
-  { slug: 'luxury', label: 'Ultra-Luxury', sub: 'The finest properties' },
-  { slug: 'minimoon', label: 'Minimoon', sub: 'Close, romantic, affordable' },
-  { slug: 'ski', label: 'Ski & Mountain', sub: 'Alpine romance' },
+  { slug: 'overwater-bungalows', label: 'Overwater Villas', sub: 'Sleep above the lagoon',     image: '/images/hotels/four-seasons-bora-bora/hero.webp' },
+  { slug: 'adults-only',         label: 'Adults-Only',       sub: 'No families. Pure romance.', image: '/images/hotels/canaves-oia-suites-greece/hero.webp' },
+  { slug: 'safari',              label: 'Safari & Bush',     sub: 'Wildlife meets luxury',      image: '/images/hotels/angama-mara-kenya/hero.webp' },
+  { slug: 'luxury',              label: 'Ultra-Luxury',      sub: 'The finest on earth',        image: '/images/hotels/velaa-private-island-maldives/hero.webp' },
+  { slug: 'beach',               label: 'Beach',             sub: 'White sand, turquoise lagoons', image: '/images/hotels/jade-mountain-st-lucia/hero.webp' },
+  { slug: 'wellness',            label: 'Wellness',          sub: 'Spa, yoga, holistic retreats', image: '/images/hotels/six-senses-zil-pasyon-seychelles/hero.webp' },
 ]
 
 // Top destinations for the "Top Destinations" grid (live counts injected at runtime)
-const TOP_DESTINATION_SLUGS = ['maldives', 'bora-bora', 'st-lucia', 'turks-and-caicos', 'santorini', 'bali']
+const TOP_DESTINATIONS = [
+  { slug: 'maldives',          label: 'Maldives',          image: '/images/hotels/velaa-private-island-maldives/hero.webp' },
+  { slug: 'bora-bora',         label: 'Bora Bora',         image: '/images/hotels/four-seasons-bora-bora/hero.webp' },
+  { slug: 'st-lucia',          label: 'St. Lucia',         image: '/images/hotels/jade-mountain-st-lucia/hero.webp' },
+  { slug: 'turks-and-caicos',  label: 'Turks & Caicos',    image: '/images/hotels/amanyara-turks-caicos/hero.webp' },
+  { slug: 'santorini',         label: 'Santorini',         image: '/images/hotels/canaves-oia-suites-greece/hero.webp' },
+  { slug: 'bali',              label: 'Bali',              image: '/images/hotels/bulgari-resort-bali/hero.webp' },
+  { slug: 'mexico',            label: 'Mexico',            image: '/images/hotels/las-ventanas-al-paraiso-mexico/hero.webp' },
+  { slug: 'amalfi',            label: 'Amalfi Coast',      image: '/images/hotels/le-sirenuse-positano-amalfi/hero.webp' },
+]
 
 const TESTIMONIALS = [
   {
@@ -82,6 +91,10 @@ export default function HomePage() {
 
   const totalHotels = allHotels.length
   const totalDestinations = Object.keys(destCounts).length
+  const adultsOnlyCount = allHotels.filter(h => h.adults_only).length
+  const overwaterCount = allHotels.filter(h => h.experience_types.includes('overwater-bungalows')).length
+  const safariCount = allHotels.filter(h => h.experience_types.includes('safari')).length
+  const top90Count = allHotels.filter(h => h.honeymoon_score >= 90).length
 
   return (
     <div>
@@ -240,15 +253,58 @@ export default function HomePage() {
             <div>
               <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">Explore</p>
               <h2 className="font-display text-4xl sm:text-5xl">Top Destinations</h2>
+              <p className="text-zinc-500 text-base mt-3 max-w-lg leading-relaxed">The eight honeymoon destinations we obsess over most — and the hotels that define them.</p>
             </div>
           </div>
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
-            {TOP_DESTINATION_SLUGS.map(slug => ({ slug, label: slug.split('-').map(s => s.charAt(0).toUpperCase() + s.slice(1)).join(' ').replace('And','and'), count: `${destCounts[slug] ?? 0} hotels` })).map(d => (
-              <Link key={d.slug} href={`/destinations/${d.slug}`}
-                className="group border border-zinc-100 hover:border-zinc-300 rounded-2xl p-5 transition-all hover:-translate-y-0.5">
-                <div className="font-medium text-zinc-900 text-sm mb-1 group-hover:text-rose-500 transition-colors">{d.label}</div>
-                <div className="text-zinc-400 text-xs">{d.count}</div>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+            {TOP_DESTINATIONS.map(d => (
+              <Link
+                key={d.slug}
+                href={`/destinations/${d.slug}`}
+                className="group relative aspect-[4/5] rounded-2xl overflow-hidden"
+              >
+                <Image
+                  src={d.image}
+                  alt={d.label}
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+                  sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/25 to-transparent" />
+                <div className="absolute bottom-0 inset-x-0 p-5">
+                  <div className="font-display text-2xl text-white leading-tight mb-1 group-hover:text-rose-200 transition-colors">{d.label}</div>
+                  <div className="text-white/60 text-xs tracking-wide">{destCounts[d.slug] ?? 0} hotels</div>
+                </div>
+                <div className="absolute top-3 right-3 bg-white/10 backdrop-blur-md border border-white/20 text-white text-[10px] font-semibold uppercase tracking-widest px-2.5 py-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity">
+                  View →
+                </div>
               </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── BY THE NUMBERS (warm band) ── */}
+      <section className="bg-gradient-to-br from-rose-50 via-rose-50/60 to-amber-50/40 py-20 border-y border-rose-100/60">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="text-center mb-12">
+            <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-500 mb-3">By the numbers</p>
+            <h2 className="font-display text-4xl sm:text-5xl text-zinc-900">
+              Every property hand-scored.<br className="hidden sm:block" /> No paid placement. Ever.
+            </h2>
+          </div>
+          <div className="grid grid-cols-2 lg:grid-cols-5 gap-6">
+            {[
+              { n: totalHotels, l: 'Hotels scored' },
+              { n: totalDestinations, l: 'Destinations' },
+              { n: adultsOnlyCount, l: 'Adults-only' },
+              { n: overwaterCount, l: 'Overwater villas' },
+              { n: top90Count, l: 'Score 90+ (elite)' },
+            ].map((s, i) => (
+              <div key={i} className="text-center">
+                <div className="font-display text-5xl sm:text-6xl text-zinc-900 leading-none mb-2 tabular-nums">{s.n}</div>
+                <div className="text-zinc-500 text-sm">{s.l}</div>
+              </div>
             ))}
           </div>
         </div>
@@ -260,13 +316,27 @@ export default function HomePage() {
           <div className="mb-12">
             <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">Filter by Style</p>
             <h2 className="font-display text-4xl sm:text-5xl">Find Your Experience</h2>
+            <p className="text-zinc-500 text-base mt-3 max-w-lg leading-relaxed">From overwater villas in the Maldives to safari tented camps in Kenya — browse by the vibe, not the pin on a map.</p>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
             {EXPERIENCE_TYPES.map(e => (
-              <Link key={e.slug} href={`/experiences/${e.slug}`}
-                className="group bg-white border border-zinc-100 hover:border-zinc-300 rounded-2xl p-6 transition-all hover:-translate-y-0.5">
-                <div className="font-medium text-zinc-900 text-sm mb-1.5 group-hover:text-rose-500 transition-colors">{e.label}</div>
-                <div className="text-zinc-400 text-xs leading-snug">{e.sub}</div>
+              <Link
+                key={e.slug}
+                href={`/experiences/${e.slug}`}
+                className="group relative aspect-[3/4] rounded-2xl overflow-hidden"
+              >
+                <Image
+                  src={e.image}
+                  alt={e.label}
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+                  sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 17vw"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent" />
+                <div className="absolute bottom-0 inset-x-0 p-5">
+                  <div className="font-display text-xl text-white leading-tight mb-1 group-hover:text-rose-200 transition-colors">{e.label}</div>
+                  <div className="text-white/60 text-xs leading-snug">{e.sub}</div>
+                </div>
               </Link>
             ))}
           </div>
@@ -294,20 +364,35 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── CTA STRIP ── */}
-      <section className="border-t border-zinc-100 py-20">
-        <div className="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-8">
-          <div>
-            <h2 className="font-display text-3xl sm:text-4xl mb-2">Start planning.</h2>
-            <p className="text-zinc-400 text-sm">{totalHotels} hotels scored across {totalDestinations} destinations. Honest. Free. Algorithmic.</p>
+      {/* ── CTA STRIP (with image) ── */}
+      <section className="relative py-28 overflow-hidden">
+        <Image
+          src="/images/hotels/amanzoe-porto-heli-greece/hero.webp"
+          alt="Start planning your honeymoon"
+          fill
+          className="object-cover"
+          sizes="100vw"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/60 to-black/30" />
+        <div className="relative max-w-7xl mx-auto px-6 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-10">
+          <div className="max-w-xl">
+            <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-300 mb-4">Ready when you are</p>
+            <h2 className="font-display text-4xl sm:text-5xl text-white leading-tight mb-4">Start planning your honeymoon.</h2>
+            <p className="text-white/70 text-base leading-relaxed">
+              {totalHotels} hotels hand-scored across {totalDestinations} destinations. Take the 60-second quiz and we'll match you to the 6 best for your style, month, and budget.
+            </p>
           </div>
-          <div className="flex gap-3 shrink-0">
-            <Link href="/experiences/overwater-bungalows"
-              className="bg-zinc-900 text-white font-medium text-sm px-7 py-3.5 rounded-full hover:bg-zinc-700 transition-colors">
-              Browse Hotels
+          <div className="flex gap-3 shrink-0 flex-wrap">
+            <Link
+              href="/quiz"
+              className="bg-rose-500 hover:bg-rose-600 text-white font-semibold text-sm px-8 py-4 rounded-full transition-colors shadow-xl"
+            >
+              Take the quiz →
             </Link>
-            <Link href="/experiences/adults-only"
-              className="border border-zinc-200 text-zinc-700 font-medium text-sm px-7 py-3.5 rounded-full hover:border-zinc-900 transition-colors">
+            <Link
+              href="/experiences/adults-only"
+              className="border border-white/30 backdrop-blur-md bg-white/5 hover:bg-white/10 text-white font-semibold text-sm px-8 py-4 rounded-full transition-colors"
+            >
               Adults-Only
             </Link>
           </div>
