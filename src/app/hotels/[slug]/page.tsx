@@ -83,6 +83,7 @@ export default async function HotelPage({ params }: Props) {
         score={hotel.honeymoon_score}
         priceMin={hotel.price_per_night_usd.min}
         slug={hotel.slug}
+        bookingUrl={hotel.booking_url}
       />
 
       <article className="pb-24">
@@ -284,7 +285,12 @@ export default async function HotelPage({ params }: Props) {
           <section id="availability">
             <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">Book Your Stay</p>
             <h2 className="font-display text-3xl text-zinc-900 mb-6">Check availability</h2>
-            <Stay22MapWidget location={hotel.destination.replace(/-/g, ' ')} hotelName={hotel.name} />
+            <Stay22MapWidget
+              location={hotel.destination.replace(/-/g, ' ')}
+              hotelName={hotel.name}
+              bookingUrl={hotel.booking_url}
+              hotelsComUrl={hotel.hotels_com_url}
+            />
           </section>
 
           {/* ── ITINERARY ── */}

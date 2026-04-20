@@ -6,12 +6,12 @@ interface Props {
   score: number
   priceMin: number
   slug: string
+  bookingUrl?: string
 }
 
-export default function StickyBookingBar({ hotelName, score, priceMin }: Props) {
+export default function StickyBookingBar({ hotelName, score, priceMin, bookingUrl: directUrl }: Props) {
   const [visible, setVisible] = useState(false)
-  const partnerId = process.env.NEXT_PUBLIC_STAY22_PARTNER_ID || 'myhoneymoonhotel'
-  const bookingUrl = `https://www.booking.com/searchresults.html?ss=${encodeURIComponent(hotelName)}&aid=${partnerId}`
+  const bookingUrl = directUrl ?? `https://www.booking.com/searchresults.html?ss=${encodeURIComponent(hotelName)}`
   useEffect(() => {
     const onScroll = () => setVisible(window.scrollY > 400)
     window.addEventListener('scroll', onScroll, { passive: true })

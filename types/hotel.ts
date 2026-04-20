@@ -62,6 +62,7 @@ export interface Hotel {
   amenities: string[]
   photos: HotelPhoto[]
   booking_url?: string
+  hotels_com_url?: string
   tripadvisor_rating?: number
   tripadvisor_award?: boolean
   couples_review_pct?: number
