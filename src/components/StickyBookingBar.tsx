@@ -1,28 +1,19 @@
 'use client'
 import { useEffect, useState } from 'react'
+import { buildAllezHotelLink } from '@/lib/stay22'
 
 interface Props {
   hotelName: string
   score: number
   priceMin: number
   slug: string
-  bookingUrl?: string
+  destination: string
+  country: string
 }
 
-export default function StickyBookingBar({ hotelName, score, priceMin, bookingUrl: directUrl }: Props) {
+export default function StickyBookingBar({ hotelName, score, priceMin, destination, country }: Props) {
   const [visible, setVisible] = useState(false)
-  // Hotel-targeted search: ss=<name> + dest_type=hotel forces Booking's search engine
-  // to rank hotel-name matches (not city matches) so the specific hotel is first.
-  const searchParams = new URLSearchParams({
-    ss: hotelName,
-    dest_type: 'hotel',
-    group_adults: '2',
-    no_rooms: '1',
-    group_children: '0',
-    search_selected: 'true',
-    from_ss: '1',
-  })
-  const bookingUrl = directUrl ?? `https://www.booking.com/searchresults.html?${searchParams.toString()}`
+  const bookingUrl = buildAllezHotelLink(hotelName, destination, country, 'sticky-bar')
   useEffect(() => {
     const onScroll = () => setVisible(window.scrollY > 400)
     window.addEventListener('scroll', onScroll, { passive: true })

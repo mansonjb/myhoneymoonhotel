@@ -83,7 +83,8 @@ export default async function HotelPage({ params }: Props) {
         score={hotel.honeymoon_score}
         priceMin={hotel.price_per_night_usd.min}
         slug={hotel.slug}
-        bookingUrl={hotel.booking_url}
+        destination={hotel.destination}
+        country={hotel.country}
       />
 
       <article className="pb-24">
@@ -288,8 +289,7 @@ export default async function HotelPage({ params }: Props) {
             <Stay22MapWidget
               location={hotel.destination.replace(/-/g, ' ')}
               hotelName={hotel.name}
-              bookingUrl={hotel.booking_url}
-              hotelsComUrl={hotel.hotels_com_url}
+              country={hotel.country}
             />
           </section>
 
