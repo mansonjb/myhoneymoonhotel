@@ -14,10 +14,9 @@ export default function Stay22MapWidget({
   const query = hotelName ? `${hotelName} ${location}` : location
   const src = `https://www.stay22.com/embed/gm?aid=${partnerId}&address=${encodeURIComponent(query)}&maincolor=be123c&viewmode=hybrid&hideguestpicker=1`
 
-  // Stay22 allez.js (in layout.tsx) auto-converts these booking.com & hotels.com links into affiliate tracked links
-  const bookingUrl = `https://www.booking.com/searchresults.html?ss=${encodeURIComponent(query)}&aid=${partnerId}`
+  // Stay22 LetMeAllez (in layout.tsx) auto-converts these URLs into affiliate-tracked links on click
+  const bookingUrl = `https://www.booking.com/searchresults.html?ss=${encodeURIComponent(query)}`
   const hotelsComUrl = `https://www.hotels.com/search.do?q-destination=${encodeURIComponent(query)}`
-  const googleUrl = `https://www.google.com/search?q=${encodeURIComponent((hotelName ?? location) + ' official site booking')}`
 
   return (
     <div className="space-y-4">
@@ -32,14 +31,14 @@ export default function Stay22MapWidget({
         />
       </div>
       {hotelName && (
-        <div className="grid sm:grid-cols-3 gap-3">
+        <div className="grid sm:grid-cols-2 gap-3">
           <a
             href={bookingUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="bg-rose-500 hover:bg-rose-600 text-white font-semibold text-sm px-6 py-4 rounded-full transition-colors text-center"
           >
-            Book on Booking.com →
+            Check availability on Booking.com →
           </a>
           <a
             href={hotelsComUrl}
@@ -47,15 +46,7 @@ export default function Stay22MapWidget({
             rel="noopener noreferrer"
             className="bg-zinc-900 hover:bg-zinc-700 text-white font-semibold text-sm px-6 py-4 rounded-full transition-colors text-center"
           >
-            Hotels.com →
-          </a>
-          <a
-            href={googleUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="border border-zinc-200 hover:border-zinc-400 text-zinc-900 font-semibold text-sm px-6 py-4 rounded-full transition-colors text-center"
-          >
-            Book direct →
+            Check availability on Hotels.com →
           </a>
         </div>
       )}

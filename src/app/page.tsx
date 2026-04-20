@@ -2,6 +2,27 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { getAllHotels, getAllDestinations } from '@/lib/hotels'
 import HotelCard from '@/components/HotelCard'
+import DestinationPicker from '@/components/DestinationPicker'
+
+// Map destination slug → region grouping for the picker dropdown
+const REGION_OF: Record<string, string> = {
+  'maldives': 'Indian Ocean', 'seychelles': 'Indian Ocean', 'mauritius': 'Indian Ocean',
+  'zanzibar': 'Indian Ocean', 'mozambique': 'Indian Ocean', 'reunion': 'Indian Ocean',
+  'sri-lanka': 'Indian Ocean',
+  'bora-bora': 'South Pacific', 'french-polynesia': 'South Pacific', 'fiji': 'South Pacific',
+  'new-zealand': 'South Pacific',
+  'st-lucia': 'Caribbean & Americas', 'turks-and-caicos': 'Caribbean & Americas',
+  'st-barts': 'Caribbean & Americas', 'caribbean': 'Caribbean & Americas',
+  'mexico': 'Caribbean & Americas', 'costa-rica': 'Caribbean & Americas',
+  'santorini': 'Europe', 'greece': 'Europe', 'amalfi': 'Europe',
+  'croatia': 'Europe', 'portugal': 'Europe', 'spain': 'Europe',
+  'hawaii': 'North America', 'cape-verde': 'Africa & Atlantic',
+  'kenya': 'Africa Safari', 'tanzania': 'Africa Safari', 'south-africa': 'Africa Safari',
+  'morocco': 'Africa & Middle East',
+  'thailand': 'Asia', 'indonesia': 'Asia', 'bali': 'Asia', 'philippines': 'Asia',
+  'vietnam': 'Asia', 'cambodia': 'Asia', 'japan': 'Asia',
+}
+const REGION_ORDER = ['Indian Ocean', 'South Pacific', 'Caribbean & Americas', 'Europe', 'Asia', 'Africa Safari', 'Africa & Middle East', 'Africa & Atlantic', 'North America']
 
 const EXPERIENCE_TYPES = [
   { slug: 'overwater-bungalows', label: 'Overwater Villas', sub: 'Sleep above the lagoon' },
@@ -12,14 +33,8 @@ const EXPERIENCE_TYPES = [
   { slug: 'ski', label: 'Ski & Mountain', sub: 'Alpine romance' },
 ]
 
-const DESTINATIONS = [
-  { slug: 'maldives', label: 'Maldives', count: '42 hotels' },
-  { slug: 'bora-bora', label: 'Bora Bora', count: '18 hotels' },
-  { slug: 'st-lucia', label: 'St. Lucia', count: '24 hotels' },
-  { slug: 'turks-and-caicos', label: 'Turks & Caicos', count: '15 hotels' },
-  { slug: 'serengeti', label: 'Serengeti', count: '11 lodges' },
-  { slug: 'santorini', label: 'Santorini', count: '31 hotels' },
-]
+// Top destinations for the "Top Destinations" grid (live counts injected at runtime)
+const TOP_DESTINATION_SLUGS = ['maldives', 'bora-bora', 'st-lucia', 'turks-and-caicos', 'santorini', 'bali']
 
 const TESTIMONIALS = [
   {
@@ -43,7 +58,30 @@ const TESTIMONIALS = [
 ]
 
 export default function HomePage() {
-  const topHotels = getAllHotels().slice(0, 6)
+  const allHotels = getAllHotels()
+  const topHotels = allHotels.slice(0, 6)
+
+  // Build destination list with live counts, grouped by region
+  const destCounts = allHotels.reduce((acc, h) => {
+    acc[h.destination] = (acc[h.destination] ?? 0) + 1
+    return acc
+  }, {} as Record<string, number>)
+
+  const pickerDestinations = Object.entries(destCounts)
+    .map(([slug, count]) => ({
+      slug,
+      label: slug.split('-').map(s => s.charAt(0).toUpperCase() + s.slice(1)).join(' '),
+      count,
+      region: REGION_OF[slug] ?? 'Other',
+    }))
+    .sort((a, b) => {
+      const regionCmp = (REGION_ORDER.indexOf(a.region) + 99) - (REGION_ORDER.indexOf(b.region) + 99)
+      if (regionCmp !== 0) return regionCmp
+      return b.count - a.count
+    })
+
+  const totalHotels = allHotels.length
+  const totalDestinations = Object.keys(destCounts).length
 
   return (
     <div>
@@ -71,30 +109,19 @@ export default function HomePage() {
             Every property scored for romance. Real verdicts, room picks, 7-night itineraries, and the exact email to send before arrival.
           </p>
 
-          {/* Simple search */}
-          <div className="flex gap-3 flex-col sm:flex-row">
-            <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-full flex items-center gap-2 px-5 py-3.5 flex-1 max-w-sm">
-              <svg className="w-4 h-4 text-white/50 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}><path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
-              <span className="text-white/50 text-sm">Maldives, Bora Bora, St. Lucia…</span>
-            </div>
-            <Link
-              href="/experiences/overwater-bungalows"
-              className="bg-white text-zinc-900 font-semibold text-sm px-7 py-3.5 rounded-full hover:bg-zinc-100 transition-colors text-center whitespace-nowrap"
-            >
-              Explore Hotels
-            </Link>
-          </div>
+          {/* Destination picker */}
+          <DestinationPicker destinations={pickerDestinations} />
         </div>
 
         {/* Stats — bottom right */}
         <div className="absolute bottom-8 right-8 sm:right-12 flex gap-6 text-right">
           <div>
-            <div className="text-white font-semibold text-xl">4,200+</div>
+            <div className="text-white font-semibold text-xl">{totalHotels}</div>
             <div className="text-white/50 text-xs">Hotels Scored</div>
           </div>
           <div className="w-px bg-white/20" />
           <div>
-            <div className="text-white font-semibold text-xl">30+</div>
+            <div className="text-white font-semibold text-xl">{totalDestinations}</div>
             <div className="text-white/50 text-xs">Destinations</div>
           </div>
         </div>
@@ -216,7 +243,7 @@ export default function HomePage() {
             </div>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
-            {DESTINATIONS.map(d => (
+            {TOP_DESTINATION_SLUGS.map(slug => ({ slug, label: slug.split('-').map(s => s.charAt(0).toUpperCase() + s.slice(1)).join(' ').replace('And','and'), count: `${destCounts[slug] ?? 0} hotels` })).map(d => (
               <Link key={d.slug} href={`/destinations/${d.slug}`}
                 className="group border border-zinc-100 hover:border-zinc-300 rounded-2xl p-5 transition-all hover:-translate-y-0.5">
                 <div className="font-medium text-zinc-900 text-sm mb-1 group-hover:text-rose-500 transition-colors">{d.label}</div>
@@ -272,7 +299,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-8">
           <div>
             <h2 className="font-display text-3xl sm:text-4xl mb-2">Start planning.</h2>
-            <p className="text-zinc-400 text-sm">4,200+ hotels scored. Honest. Free. Algorithmic.</p>
+            <p className="text-zinc-400 text-sm">{totalHotels} hotels scored across {totalDestinations} destinations. Honest. Free. Algorithmic.</p>
           </div>
           <div className="flex gap-3 shrink-0">
             <Link href="/experiences/overwater-bungalows"
