@@ -22,12 +22,23 @@ export const metadata: Metadata = {
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  const stay22PartnerId = process.env.NEXT_PUBLIC_STAY22_PARTNER_ID || 'myhoneymoonhotel'
-
   return (
     <html lang="en" className={`${geist.variable} ${instrumentSerif.variable}`}>
       <head>
-        <script async src="https://cdn.stay22.com/allez/allez.js" data-stay22-partner-id={stay22PartnerId} />
+        {/* Stay22 LetMeAllez — auto-converts outbound Booking.com / Hotels.com / Expedia / Agoda / etc. links into affiliate-tracked URLs */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function (s, t, a, y, twenty, two) {
+              s.Stay22 = s.Stay22 || {};
+              s.Stay22.params = { lmaID: '69e61f107efbf4c77a364d5c' };
+              twenty = t.createElement(a);
+              two = t.getElementsByTagName(a)[0];
+              twenty.async = 1;
+              twenty.src = y;
+              two.parentNode.insertBefore(twenty, two);
+            })(window, document, 'script', 'https://scripts.stay22.com/letmeallez.js');`,
+          }}
+        />
       </head>
       <body className="bg-white text-zinc-900 antialiased">
 
