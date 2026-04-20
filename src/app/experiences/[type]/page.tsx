@@ -407,7 +407,7 @@ const EXPERIENCE_META: Record<string, ExperienceMeta> = {
   'luxury': {
     label: 'Ultra-Luxury Honeymoons',
     tagline: 'The finest hotel experiences in the world, scored for romance',
-    hero: '/images/hotels/four-seasons-maldives-landaa-giraavaru/hero.webp',
+    hero: '/images/hotels/velaa-private-island-maldives/hero.webp',
     intro: 'Ultra-luxury honeymoon hotels are not defined by price alone — they are defined by the calibre of attention, the singularity of the setting, and the degree to which every detail is configured for intimacy. At properties scoring 90+ on the Honeymoon Score, two things are always true: you stop wanting to leave, and you stop thinking about anything except being in that place with that person.',
     stats: [
       { icon: '⭐', value: '66', label: 'Luxury Properties' },
@@ -512,6 +512,20 @@ export default async function ExperiencePage({ params }: Props) {
   const sortedHotels = [...hotels].sort((a, b) => b.honeymoon_score - a.honeymoon_score)
   const topThree = sortedHotels.slice(0, 3)
 
+  // Compute live stats from actual hotels
+  const minPrice = Math.min(...hotels.map(h => h.price_per_night_usd.min))
+  const maxPrice = Math.max(...hotels.map(h => h.price_per_night_usd.max))
+  const avgScore = hotels.length ? Math.round(hotels.reduce((s, h) => s + h.honeymoon_score, 0) / hotels.length) : 0
+  const topScore = hotels.length ? Math.max(...hotels.map(h => h.honeymoon_score)) : 0
+  const uniqueDestinations = new Set(hotels.map(h => h.destination)).size
+
+  const liveStats = [
+    { icon: meta?.stats?.[0]?.icon ?? '✨', value: String(hotels.length), label: 'Scored Properties' },
+    { icon: '💰', value: hotels.length ? `$${minPrice.toLocaleString()}–$${maxPrice.toLocaleString()}` : '—', label: 'Per Night Range' },
+    { icon: '📍', value: String(uniqueDestinations), label: 'Destinations' },
+    { icon: '❤️', value: hotels.length ? `${avgScore}/100` : '—', label: `Avg Score · Top ${topScore}` },
+  ]
+
   return (
     <div className="bg-white">
 
@@ -538,10 +552,10 @@ export default async function ExperiencePage({ params }: Props) {
       </section>
 
       {/* ── AT A GLANCE CARDS ── */}
-      {meta?.stats && (
+      {hotels.length > 0 && (
         <div className="max-w-6xl mx-auto px-6 sm:px-12 -mt-10 relative z-10">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
-            {meta.stats.map((s, i) => (
+            {liveStats.map((s: { icon: string; value: string; label: string }, i: number) => (
               <div key={i} className="bg-white border border-zinc-100 rounded-2xl px-5 py-4 shadow-lg">
                 <div className="text-2xl mb-1">{s.icon}</div>
                 <div className="font-display text-xl text-zinc-900">{s.value}</div>

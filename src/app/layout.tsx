@@ -77,7 +77,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <div>
                   <h3 className="text-xs font-semibold uppercase tracking-widest text-zinc-400 mb-4">Destinations</h3>
                   <ul className="space-y-2.5 text-sm text-zinc-500">
-                    {[['Maldives','maldives'],['Bora Bora','bora-bora'],['St. Lucia','st-lucia'],['Turks & Caicos','turks-and-caicos'],['Serengeti','serengeti']].map(([l,s])=>(
+                    {[['Maldives','maldives'],['Bora Bora','bora-bora'],['St. Lucia','st-lucia'],['Turks & Caicos','turks-and-caicos'],['Santorini','santorini'],['Bali','bali']].map(([l,s])=>(
                       <li key={s}><Link href={`/destinations/${s}`} className="hover:text-zinc-900 transition-colors">{l}</Link></li>
                     ))}
                   </ul>
@@ -85,7 +85,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <div>
                   <h3 className="text-xs font-semibold uppercase tracking-widest text-zinc-400 mb-4">Experiences</h3>
                   <ul className="space-y-2.5 text-sm text-zinc-500">
-                    {[['Overwater Villas','overwater-bungalows'],['Adults-Only','adults-only'],['Safari','safari'],['Ultra-Luxury','luxury'],['Minimoon','minimoon']].map(([l,s])=>(
+                    {[['Overwater Villas','overwater-bungalows'],['Adults-Only','adults-only'],['Safari','safari'],['Ultra-Luxury','luxury'],['Beach','beach'],['Wellness','wellness']].map(([l,s])=>(
                       <li key={s}><Link href={`/experiences/${s}`} className="hover:text-zinc-900 transition-colors">{l}</Link></li>
                     ))}
                   </ul>

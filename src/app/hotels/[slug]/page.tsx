@@ -26,16 +26,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 }
 
-const SCORE_LABELS: Record<string, { label: string; max: number }> = {
-  adults_only:  { label: 'Adults-Only',        max: 25 },
-  couples_pct:  { label: 'Couples Reviews',     max: 20 },
-  spa:          { label: 'Spa',                 max: 15 },
-  award:        { label: 'TripAdvisor Award',   max: 15 },
-  pool:         { label: 'Pool',                max: 10 },
-  beach:        { label: 'Beach Access',        max: 10 },
-  stars:        { label: '4+ Stars',            max: 10 },
-  room_service: { label: 'Room Service',        max: 5  },
-  luxury:       { label: 'Luxury Tier',         max: 5  },
+const SCORE_LABELS: Record<string, { label: string; max: number; help?: string }> = {
+  adults_only:  { label: 'Adults-Only',         max: 25, help: 'Hotel restricted to adult guests — crucial for a romantic atmosphere.' },
+  couples_pct:  { label: 'Couples-Approved',    max: 20, help: 'Share of recent reviews from couples on TripAdvisor & Booking.com.' },
+  spa:          { label: 'Spa',                 max: 15, help: 'On-site full-service spa with couples treatments.' },
+  award:        { label: 'Traveller Award',     max: 15, help: 'TripAdvisor Travellers\' Choice award or ≥ 4.4 rating.' },
+  pool:         { label: 'Pool',                max: 10, help: 'Swimming pool on property (private plunge pools score higher).' },
+  beach:        { label: 'Beach Access',        max: 10, help: 'Direct beachfront or private beach club access.' },
+  stars:        { label: '4+ Stars',            max: 10, help: 'Official 4- or 5-star rating.' },
+  room_service: { label: 'Room Service',        max: 5,  help: 'In-room dining available (ideally 24h).' },
+  luxury:       { label: 'Luxury Tier',         max: 5,  help: 'Luxury or ultra-luxury price tier.' },
 }
 
 export default async function HotelPage({ params }: Props) {
@@ -46,6 +46,31 @@ export default async function HotelPage({ params }: Props) {
   const heroPhoto = hotel.photos.find(p => p.type === 'hero') || hotel.photos[0]
   const galleryPhotos = hotel.photos.filter(p => p.type !== 'hero').slice(0, 4)
   const { sameStyle, sameDestination } = getRelatedHotels(hotel)
+
+  // Auto-generate true cost breakdown if missing (7-night couples honeymoon estimate)
+  const avgNight = Math.round((hotel.price_per_night_usd.min + hotel.price_per_night_usd.max) / 2)
+  const nights = 7
+  const roomCost = avgNight * nights
+  const flights = hotel.experience_types.includes('overwater-bungalows') || ['maldives','bora-bora','french-polynesia','fiji','mozambique','seychelles','zanzibar'].includes(hotel.destination) ? 3200 : ['hawaii','new-zealand','japan','philippines','indonesia','bali','thailand'].includes(hotel.destination) ? 2400 : ['amalfi','greece','santorini','croatia','portugal','spain','morocco'].includes(hotel.destination) ? 600 : 1800
+  const transfers = hotel.experience_types.includes('overwater-bungalows') ? 900 : 200
+  const diningExtra = hotel.adults_only || hotel.stars >= 5 ? avgNight * 1.5 : avgNight * 0.8
+  const excursions = 700
+  const spa = hotel.experience_types.includes('wellness') ? 600 : 300
+  const tips = Math.round((roomCost + diningExtra * nights) * 0.08)
+  const total = roomCost + flights + transfers + Math.round(diningExtra * nights) + excursions + spa + tips
+  const autoCostBreakdown = [
+    { item: `Room (7 nights avg $${avgNight.toLocaleString()}/nt)`, cost_usd: `$${roomCost.toLocaleString()}` },
+    { item: 'Flights (2 pax, economy/premium)', cost_usd: `$${flights.toLocaleString()}` },
+    { item: 'Airport transfers / seaplane', cost_usd: `$${transfers.toLocaleString()}` },
+    { item: 'Dining & drinks (beyond room)', cost_usd: `$${Math.round(diningExtra * nights).toLocaleString()}` },
+    { item: 'Excursions & experiences', cost_usd: `$${excursions.toLocaleString()}` },
+    { item: 'Spa / signature treatments', cost_usd: `$${spa.toLocaleString()}` },
+    { item: 'Tips & service (8%)', cost_usd: `$${tips.toLocaleString()}` },
+    { item: 'Total estimated', cost_usd: `$${total.toLocaleString()}` },
+  ]
+  const costBreakdown = (hotel.content.true_cost_breakdown && hotel.content.true_cost_breakdown.length > 0)
+    ? hotel.content.true_cost_breakdown
+    : autoCostBreakdown
 
   const destinationLabel = hotel.destination.replace(/-/g, ' ')
   const countryLabel = hotel.country.replace(/-/g, ' ')
@@ -167,18 +192,19 @@ export default async function HotelPage({ params }: Props) {
               <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">Score Breakdown</p>
               <h2 className="font-display text-3xl text-zinc-900 mb-6">{hotel.honeymoon_score}<span className="text-zinc-300 font-display text-2xl">/100</span></h2>
               <div className="space-y-4">
-                {Object.entries(SCORE_LABELS).map(([key, { label, max }]) => {
-                  const val = hotel.score_breakdown[key as keyof typeof hotel.score_breakdown] ?? 0
-                  const pct = max > 0 ? (val / max) * 100 : 0
+                {Object.entries(SCORE_LABELS).map(([key, { label, max, help }]) => {
+                  const rawVal = hotel.score_breakdown[key as keyof typeof hotel.score_breakdown] ?? 0
+                  const val = Math.min(rawVal, max) // clamp to max for display
+                  const pct = max > 0 ? Math.min(100, (val / max) * 100) : 0
                   return (
-                    <div key={key}>
+                    <div key={key} title={help}>
                       <div className="flex justify-between items-center mb-1.5">
                         <span className="text-zinc-600 text-sm">{label}</span>
                         <span className="text-zinc-900 text-sm font-semibold tabular-nums">{val}<span className="text-zinc-300 font-normal">/{max}</span></span>
                       </div>
                       <div className="h-1.5 bg-zinc-100 rounded-full overflow-hidden">
                         <div
-                          className={`h-full rounded-full transition-all ${val === max ? 'bg-zinc-900' : val > 0 ? 'bg-rose-400' : 'bg-zinc-100'}`}
+                          className={`h-full rounded-full transition-all ${val >= max ? 'bg-zinc-900' : val > 0 ? 'bg-rose-400' : 'bg-zinc-100'}`}
                           style={{ width: `${pct}%` }}
                         />
                       </div>
@@ -227,10 +253,10 @@ export default async function HotelPage({ params }: Props) {
           </section>
 
           {/* ── TRUE COST ── */}
-          {hotel.content.true_cost_breakdown && hotel.content.true_cost_breakdown.length > 0 && (
           <section>
             <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">No Surprises</p>
-            <h2 className="font-display text-3xl text-zinc-900 mb-6">True cost breakdown — 7 nights</h2>
+            <h2 className="font-display text-3xl text-zinc-900 mb-2">True cost breakdown — 7 nights for two</h2>
+            <p className="text-zinc-400 text-sm mb-6">Based on mid-range rooms, premium-economy flights from Europe, full dining and signature experiences. Adjust for your actual travel profile.</p>
             <div className="border border-zinc-100 rounded-2xl overflow-hidden">
               <table className="w-full text-sm">
                 <thead>
@@ -240,7 +266,7 @@ export default async function HotelPage({ params }: Props) {
                   </tr>
                 </thead>
                 <tbody>
-                  {hotel.content.true_cost_breakdown.map((item, i) => {
+                  {costBreakdown.map((item, i) => {
                     const isTotal = item.item.toLowerCase().includes('total')
                     return (
                       <tr key={i} className={`border-b border-zinc-50 ${isTotal ? 'bg-zinc-950' : 'hover:bg-zinc-50'} transition-colors`}>
@@ -253,13 +279,12 @@ export default async function HotelPage({ params }: Props) {
               </table>
             </div>
           </section>
-          )}
 
           {/* ── STAY22 ── */}
           <section id="availability">
             <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">Book Your Stay</p>
             <h2 className="font-display text-3xl text-zinc-900 mb-6">Check availability</h2>
-            <Stay22MapWidget location={hotel.name} />
+            <Stay22MapWidget location={hotel.destination.replace(/-/g, ' ')} hotelName={hotel.name} />
           </section>
 
           {/* ── ITINERARY ── */}

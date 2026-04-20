@@ -8,8 +8,10 @@ interface Props {
   slug: string
 }
 
-export default function StickyBookingBar({ hotelName, score, priceMin, slug }: Props) {
+export default function StickyBookingBar({ hotelName, score, priceMin }: Props) {
   const [visible, setVisible] = useState(false)
+  const partnerId = process.env.NEXT_PUBLIC_STAY22_PARTNER_ID || 'myhoneymoonhotel'
+  const bookingUrl = `https://www.booking.com/searchresults.html?ss=${encodeURIComponent(hotelName)}&aid=${partnerId}`
   useEffect(() => {
     const onScroll = () => setVisible(window.scrollY > 400)
     window.addEventListener('scroll', onScroll, { passive: true })
@@ -31,10 +33,12 @@ export default function StickyBookingBar({ hotelName, score, priceMin, slug }: P
               <span className="text-zinc-400 text-xs">/night</span>
             </div>
             <a
-              href={`#availability`}
-              className="bg-zinc-900 hover:bg-zinc-700 text-white font-semibold text-sm px-7 py-3 rounded-full transition-colors"
+              href={bookingUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-rose-500 hover:bg-rose-600 text-white font-semibold text-sm px-7 py-3 rounded-full transition-colors"
             >
-              Check Availability
+              Check Availability →
             </a>
           </div>
         </div>
