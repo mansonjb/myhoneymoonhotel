@@ -11,7 +11,18 @@ interface Props {
 
 export default function StickyBookingBar({ hotelName, score, priceMin, bookingUrl: directUrl }: Props) {
   const [visible, setVisible] = useState(false)
-  const bookingUrl = directUrl ?? `https://www.booking.com/searchresults.html?ss=${encodeURIComponent(hotelName)}`
+  // Hotel-targeted search: ss=<name> + dest_type=hotel forces Booking's search engine
+  // to rank hotel-name matches (not city matches) so the specific hotel is first.
+  const searchParams = new URLSearchParams({
+    ss: hotelName,
+    dest_type: 'hotel',
+    group_adults: '2',
+    no_rooms: '1',
+    group_children: '0',
+    search_selected: 'true',
+    from_ss: '1',
+  })
+  const bookingUrl = directUrl ?? `https://www.booking.com/searchresults.html?${searchParams.toString()}`
   useEffect(() => {
     const onScroll = () => setVisible(window.scrollY > 400)
     window.addEventListener('scroll', onScroll, { passive: true })
