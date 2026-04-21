@@ -1,0 +1,51 @@
+{
+  "slug": "the-edge-bali-uluwatu",
+  "name": "The Edge Bali",
+  "destination": "bali",
+  "country": "indonesia",
+  "experience_types": ["luxury", "beach"],
+  "honeymoon_score": 93,
+  "score_breakdown": { "adults_only": 0, "couples_pct": 20, "spa": 13, "award": 15, "pool": 10, "beach": 10, "room_service": 5, "stars": 10, "luxury": 5 },
+  "stars": 5,
+  "price_per_night_usd": { "min": 1500, "max": 5000 },
+  "adults_only": false,
+  "amenities": ["private pool villas", "spa", "butler service", "fine dining", "cantilevered infinity pool", "yoga", "beach club access", "gym"],
+  "photos": [
+    { "url": "/images/hotels/the-edge-bali-uluwatu/hero.webp", "alt": "the-edge-bali-uluwatu — hero", "type": "hero" },
+    { "url": "/images/hotels/the-edge-bali-uluwatu/room.webp", "alt": "the-edge-bali-uluwatu — room", "type": "room" },
+    { "url": "/images/hotels/the-edge-bali-uluwatu/pool.webp", "alt": "the-edge-bali-uluwatu — pool", "type": "pool" },
+    { "url": "/images/hotels/the-edge-bali-uluwatu/spa.webp", "alt": "the-edge-bali-uluwatu — spa", "type": "spa" },
+    { "url": "/images/hotels/the-edge-bali-uluwatu/dining.webp", "alt": "the-edge-bali-uluwatu — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 9.6,
+  "tripadvisor_award": true,
+  "couples_review_pct": 90,
+  "content": {
+    "verdict": "The Edge is the cliff-clinging villa collective in Uluwatu whose eponymous pool — a glass-bottomed infinity pool cantilevered 150 meters above the ocean — became one of Instagram's most-recognizable honeymoon shots. Ten private villas, each with its own infinity pool, staff team and dedicated chef. It is, essentially, a collection of private cliff-top estates, not a hotel, and the privacy-per-dollar ratio is unmatched. Choose it for the splurge anniversary-in-honeymoon-form.",
+    "best_room": "The Oceans Edge Villa (the flagship) gives you the glass-floor pool. If that's booked, Edge One and Edge Two are the next most dramatic, with equally cantilevered private infinity pools directly over the ocean.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival & Cliff Welcome", "description": "45-min transfer from Denpasar to Uluwatu. Welcome by your private butler team. Villa orientation — pool, kitchen, gym, cinema. Sunset Champagne on the edge of the Edge pool. Chef-prepared dinner in the villa." },
+      { "day": 2, "title": "Villa Day", "description": "Slow start. Breakfast cooked by your villa chef on the deck. Morning on the cantilevered pool (photo moment). Afternoon beach shuttle to Nyang Nyang (untouched white-sand beach, 15 min). Dinner by the resident chef." },
+      { "day": 3, "title": "Uluwatu Temple & Surf Coast", "description": "Morning at Uluwatu Temple and Kecak fire dance at sunset. Lunch at Single Fin or Karma Beach. Stops at Padang Padang and Thomas Beach. Late dinner back at the villa." },
+      { "day": 4, "title": "Private Spa", "description": "In-villa couples' spa ritual — therapists come to you, full-day treatments beside your pool. Private yoga on the deck at sunset. Private fire pit dinner." },
+      { "day": 5, "title": "Uluwatu Beach Clubs", "description": "Full day at Ulu Cliffhouse or Omnia beach club — the Uluwatu cliff-club scene is unique. Back to the villa for a quiet dinner under stars." },
+      { "day": 6, "title": "Nusa Penida Day Trip", "description": "Private speedboat from Sanur or Padang Bai to Nusa Penida. Visit Kelingking 'T-Rex' beach, Broken Beach, Angel's Billabong. Picnic lunch on board. Back by sunset." },
+      { "day": 7, "title": "Farewell on the Edge", "description": "Final morning in the glass-bottomed pool, one more photoshoot. Late breakfast, butler-packed departure. Transfer to the airport — under an hour." }
+    ],
+    "caveats": [
+      "The Edge is villa-only — no common pool, no lobby, no hotel lounge. Some couples love the privacy; others miss the social atmosphere of a traditional resort.",
+      "Ocean below is dramatic but inaccessible directly — the cliff is sheer. Beach access is a shuttle ride to Nyang Nyang or nearby Uluwatu beaches.",
+      "Strong winds and exposure can mean the cantilevered pool's glass floor gets closed for safety on gusty days."
+    ],
+    "faqs": [
+      { "q": "Do all villas have the glass-bottom pool?", "a": "No — the iconic glass-floor pool is only at the Oceans Edge villa. All villas have private infinity pools over the cliff, but the glass one is the signature image." },
+      { "q": "How private is each villa?", "a": "Fully private — dedicated staff, own driveway, own chef, own gate. You will not encounter other guests." },
+      { "q": "Is there a minimum stay?", "a": "Yes, typically 3 nights, rising to 5-7 in high season (July-August, Christmas)." },
+      { "q": "How does it compare to Alila Villas Uluwatu or Bulgari Bali?", "a": "Alila and Bulgari are full hotels with multiple restaurants, bars, beach clubs; The Edge is private-villa-only, more seclusion, less amenity. If you want hotel vibes choose Bulgari; if you want total privacy choose The Edge." },
+      { "q": "Is a chef included?", "a": "Yes — each villa has a dedicated chef who cooks all meals included in many packages. Menus are agreed with you daily." },
+      { "q": "Is the resort good for weddings?", "a": "Yes — cliff-top weddings at The Edge are iconic, usually intimate (10-30 guests). The cantilevered venue is booked out far in advance." }
+    ],
+    "email_template": "Subject: Honeymoon — Oceans Edge Villa, 7 nights, [DATES]\n\nDear The Edge Bali reservations,\n\nWe're planning our honeymoon and would like to book the Oceans Edge Villa (or Edge One if unavailable) for 7 nights from [ARRIVAL] to [DEPARTURE].\n\nCould you please send:\n- Best all-inclusive rate (including chef and butler) with all taxes\n- Honeymoon package inclusions\n- Airport transfer cost\n- Availability and timing for a private cliff-top vow renewal\n- Any weddings booked during our stay (we'd like to avoid overlap)\n\nThank you,\n[Your names]"
+  },
+  "last_updated": "2026-04-21T00:00:00.000Z"
+}

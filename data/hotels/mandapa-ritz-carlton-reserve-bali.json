@@ -1,0 +1,51 @@
+{
+  "slug": "mandapa-ritz-carlton-reserve-bali",
+  "name": "Mandapa, a Ritz-Carlton Reserve",
+  "destination": "bali",
+  "country": "indonesia",
+  "experience_types": ["luxury", "wellness"],
+  "honeymoon_score": 93,
+  "score_breakdown": { "adults_only": 0, "couples_pct": 18, "spa": 15, "award": 15, "pool": 10, "beach": 0, "room_service": 5, "stars": 10, "luxury": 5 },
+  "stars": 5,
+  "price_per_night_usd": { "min": 1000, "max": 4000 },
+  "adults_only": false,
+  "amenities": ["spa", "pool", "private pool villas", "butler service", "yoga", "fine dining", "library", "cooking school"],
+  "photos": [
+    { "url": "/images/hotels/mandapa-ritz-carlton-reserve-bali/hero.webp", "alt": "mandapa-ritz-carlton-reserve-bali — hero", "type": "hero" },
+    { "url": "/images/hotels/mandapa-ritz-carlton-reserve-bali/room.webp", "alt": "mandapa-ritz-carlton-reserve-bali — room", "type": "room" },
+    { "url": "/images/hotels/mandapa-ritz-carlton-reserve-bali/pool.webp", "alt": "mandapa-ritz-carlton-reserve-bali — pool", "type": "pool" },
+    { "url": "/images/hotels/mandapa-ritz-carlton-reserve-bali/spa.webp", "alt": "mandapa-ritz-carlton-reserve-bali — spa", "type": "spa" },
+    { "url": "/images/hotels/mandapa-ritz-carlton-reserve-bali/dining.webp", "alt": "mandapa-ritz-carlton-reserve-bali — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 9.5,
+  "tripadvisor_award": true,
+  "couples_review_pct": 75,
+  "content": {
+    "verdict": "Mandapa is one of only six Ritz-Carlton Reserves worldwide — a 60-unit sanctuary on a sacred bend of the Ayung River just north of Ubud, styled as a traditional Balinese village with a stone pagoda 'mandapa' at its entrance. The combination of serious Ritz-Carlton service polish, palace-scale architecture, and a riverside setting with private-pool villas at most price levels makes it arguably the most comfortable luxury pick in Ubud. Rice-paddy views, not beach.",
+    "best_room": "Book a One-Bedroom Pool Villa in the riverside cluster — the villas on the river side have direct Ayung gorge views from your private pool. The larger Two-Bedroom is only worth it if you're traveling as two couples or expecting family; the One-Bedroom is already enormous.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival Through the Pagoda", "description": "Transfer from Denpasar (90 min). Entry through the dramatic stone pagoda gate, welcome ceremony with flower petals. Villa tour with your Personal Butler. Dinner at Kubu, the candlelit jungle-bamboo-cocoon restaurant." },
+      { "day": 2, "title": "Ayung River & Rice Paddies", "description": "Morning rafting on the Ayung (easy class II) or, for less intensity, a paddy walk with the cultural attaché. Afternoon by your private pool. Couples' massage at the spa, then dinner at Sawah Terrace overlooking rice fields." },
+      { "day": 3, "title": "Ubud Town & Art", "description": "Chauffeured day into central Ubud: Puri Saren palace, Ubud Art Market, Neka Museum, lunch at Room4Dessert. Return for sunset yoga on the lawn above the Ayung." },
+      { "day": 4, "title": "Spa Journey", "description": "Half-day couples' ritual at the spa — Journey of the Senses with four hands, flower bath, river-view pavilion. Lunch at the Pool Pavilion. Evening cooking class (hands-on Balinese)." },
+      { "day": 5, "title": "Temples & Purification", "description": "Dawn visit to Tirta Empul for private melukat purification with the resort priest, followed by Gunung Kawi rock-cut shrines. Lunch at Moksa. Quiet evening on the villa pool deck." },
+      { "day": 6, "title": "Wellness Day", "description": "Morning sunrise sound-healing session on the river platform. Private yoga. Ayurvedic-inspired tasting menu at Sawah. Evening in-villa massage and Champagne." },
+      { "day": 7, "title": "Farewell Blessing", "description": "Personal pemangku performs a marriage blessing ceremony in your villa. Leisurely breakfast, transfer to the airport. Flight out from Denpasar." }
+    ],
+    "caveats": [
+      "Not on the beach — Ubud is 90 minutes from the south Bali shoreline. Pair with a beach property if you want both.",
+      "The resort is a serious climb through the property to the river villas — buggies run constantly but it's not pure walk-anywhere flat.",
+      "Suites (not villas) do not have private pools and are the weakest value on the property; always commit to a Pool Villa for a honeymoon."
+    ],
+    "faqs": [
+      { "q": "What does 'Ritz-Carlton Reserve' mean?", "a": "Reserves are Marriott's top luxury tier, designed as singular destinations with fewer than 100 rooms and bespoke architecture. There are only six worldwide — Mandapa is the Asian flagship." },
+      { "q": "How does Mandapa compare to Four Seasons Sayan?", "a": "Four Seasons Sayan is iconic for the round 'lotus' pool and the mini-Angkor lobby, more architectural drama; Mandapa has better villas, better butler service, and more refined F&B. For honeymoons specifically, Mandapa wins for most couples." },
+      { "q": "Are kids at the resort?", "a": "Yes, families come, but the property skews older/couples, and the kids' club (Ritz Kids) is well-contained. Holiday seasons are liveliest." },
+      { "q": "Is the food among Bali's best?", "a": "Kubu (candlelit bamboo fine dining) is a genuine destination — 8-10 course tasting menus, one of the most atmospheric dining rooms in Asia. Sawah is excellent too." },
+      { "q": "Can we walk into Ubud town?", "a": "Technically yes (3 km), but it's steep and hot. The resort shuttles run regularly." },
+      { "q": "Is there a cultural program?", "a": "Yes — a resident cultural attaché runs daily activities: temple blessings, silver-smithing, batik, offerings-making." }
+    ],
+    "email_template": "Subject: Honeymoon booking — One-Bedroom Pool Villa riverside, 7 nights, [DATES]\n\nDear Mandapa reservations,\n\nWe're planning our honeymoon and would like to book a One-Bedroom Pool Villa for 7 nights from [ARRIVAL] to [DEPARTURE]. Please prioritize a villa on the river side with Ayung views.\n\nCould you please send:\n- Best available rate including taxes and service\n- Honeymoon amenities (welcome blessing, floral bath, dinner at Kubu, spa credit)\n- Availability of private pemangku marriage blessing ceremony\n- Airport transfer options\n- Any renovation work scheduled during our dates\n\nWith thanks,\n[Your names]"
+  },
+  "last_updated": "2026-04-21T00:00:00.000Z"
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "raffles-bali-jimbaran",
+  "name": "Raffles Bali",
+  "destination": "bali",
+  "country": "indonesia",
+  "experience_types": ["luxury", "beach", "wellness"],
+  "honeymoon_score": 93,
+  "score_breakdown": { "adults_only": 0, "couples_pct": 18, "spa": 15, "award": 15, "pool": 10, "beach": 10, "room_service": 5, "stars": 10, "luxury": 5 },
+  "stars": 5,
+  "price_per_night_usd": { "min": 1200, "max": 4000 },
+  "adults_only": false,
+  "amenities": ["spa", "private pool villas", "butler service", "beachfront", "yoga", "fine dining", "wellness programs", "sanctuary spa"],
+  "photos": [
+    { "url": "/images/hotels/raffles-bali-jimbaran/hero.webp", "alt": "raffles-bali-jimbaran — hero", "type": "hero" },
+    { "url": "/images/hotels/raffles-bali-jimbaran/room.webp", "alt": "raffles-bali-jimbaran — room", "type": "room" },
+    { "url": "/images/hotels/raffles-bali-jimbaran/pool.webp", "alt": "raffles-bali-jimbaran — pool", "type": "pool" },
+    { "url": "/images/hotels/raffles-bali-jimbaran/spa.webp", "alt": "raffles-bali-jimbaran — spa", "type": "spa" },
+    { "url": "/images/hotels/raffles-bali-jimbaran/dining.webp", "alt": "raffles-bali-jimbaran — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 9.6,
+  "tripadvisor_award": true,
+  "couples_review_pct": 80,
+  "content": {
+    "verdict": "Raffles Bali is the smallest Raffles in the world — just 32 villas tiered down a five-level clifftop above a private Jimbaran Bay cove, each with its own pool, butler and ocean view. Opened in 2020, it brought Raffles' heritage service polish and Emperor Suite legacy into a contemporary Balinese villa layout. This is an Aman-like scale with Raffles-level service — the best of both worlds, and a real sleeper hit among Bali's luxury honeymoon options.",
+    "best_room": "Book an Ocean Pool Villa on the upper tiers (3 or 4) — you get better ocean horizon views. The lower tiers are closer to the beach but have partially obstructed views from neighboring villas. The Raffles Villa (2-bed) is for anniversaries/celebrations with family.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival & Butler Welcome", "description": "Transfer from Denpasar (25 min — one of the closest). Welcome gamelan ceremony. Villa orientation with your personal butler. Champagne sabering at sunset. Dinner at Rumari, the signature Indonesian-Mediterranean restaurant." },
+      { "day": 2, "title": "Beach Day & Sanctuary Spa", "description": "Funicular down to the private cove beach for the morning. Long lunch at The Writer's Bar. Afternoon at the Sanctuary Spa — a dedicated couples' pavilion with private plunge pool and steam bath. Dinner at Loloan or in-villa." },
+      { "day": 3, "title": "Uluwatu Circuit", "description": "Chauffeured day: Uluwatu Temple, Padang Padang, lunch at Savaya clifftop, Kecak fire dance at sunset. Return to the villa. Dinner at Rumari." },
+      { "day": 4, "title": "Raffles Wellbeing Journey", "description": "Full-day bespoke wellness journey designed by the Raffles wellness guide — ceremony, yoga, massage, tailor-picked herbal tonics, journaling. Quiet evening in the villa with chef's menu." },
+      { "day": 5, "title": "Ubud Day Trip", "description": "75-minute drive to Ubud. Sacred Monkey Forest, a silversmith in Celuk, lunch at Locavore. Home for sunset cocktails at the Purnama Honeymoon Bale overlooking the ocean." },
+      { "day": 6, "title": "Private Boat & Snorkel", "description": "Private boat charter from Jimbaran to Nusa Lembongan or Menjangan. Snorkel or dive, picnic lunch onboard. Back by late afternoon." },
+      { "day": 7, "title": "Sabering Farewell", "description": "Final breakfast delivered to the villa pool. One last Sanctuary Spa treatment. Butler-packed, sabering farewell, transfer to the airport. Under 30 min to Denpasar — easy departure." }
+    ],
+    "caveats": [
+      "The cliff terracing means a lot of stairs and funicular rides to get around — not ideal for mobility issues (though staff are attentive).",
+      "Jimbaran Bay is calm and the cove private, but the beach is small — don't come for a long-beach experience (Nusa Dua has that).",
+      "Because it's newer (2020), trees and landscaping are still maturing — it doesn't yet have the shaded lushness of Four Seasons Jimbaran next door."
+    ],
+    "faqs": [
+      { "q": "Why is this Raffles different from others?", "a": "At 32 villas, Raffles Bali is the smallest Raffles property globally (versus 115 rooms at Raffles Singapore). Every guest gets a butler, every villa has a private pool — a villa-collection format rare in the Raffles portfolio." },
+      { "q": "How does it compare to Four Seasons Jimbaran next door?", "a": "Four Seasons is larger (156 villas), more family-accepting, with better-established landscaping. Raffles is smaller, newer, with arguably better service-to-guest ratio and a more contemporary design. Many guests who tried both prefer Raffles." },
+      { "q": "How is the beach?", "a": "Raffles has a private cove accessed via funicular — small but exclusive. Jimbaran Bay's longer main beach is a 5-minute walk along the shore." },
+      { "q": "Is the Raffles butler service real?", "a": "Yes — your butler handles everything from unpacking to restaurant reservations to drawing flower baths. Widely rated as Bali's best butler service, rivaled only by Aman." },
+      { "q": "Is there a signature Raffles ritual?", "a": "Yes — the Champagne sabering at sunset (a Raffles tradition since Singapore) performed on your villa deck. Iconic moment." },
+      { "q": "Good restaurants?", "a": "Rumari (Indonesian-Mediterranean fine dining), Loloan (Balinese contemporary), Purnama honeymoon bale for private dinner, The Writer's Bar. Strong on-property F&B." }
+    ],
+    "email_template": "Subject: Honeymoon — Ocean Pool Villa, 7 nights, [DATES]\n\nDear Raffles Bali reservations,\n\nWe're planning our honeymoon and would like to book an Ocean Pool Villa on the upper terraces for 7 nights from [ARRIVAL] to [DEPARTURE].\n\nCould you please confirm:\n- Best available rate including breakfast, taxes and service\n- Raffles Honeymoon package (sabering, floral bath, spa credit, private dinner)\n- Sanctuary Spa couples' pavilion availability\n- Butler collection from Denpasar airport\n- Any minimum stay during our dates\n- Purnama Honeymoon Bale private dinner booking\n\nThank you,\n[Your names]"
+  },
+  "last_updated": "2026-04-21T00:00:00.000Z"
+}

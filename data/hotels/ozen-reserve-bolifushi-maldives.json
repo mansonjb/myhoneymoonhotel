@@ -1,0 +1,47 @@
+{
+  "slug": "ozen-reserve-bolifushi-maldives",
+  "name": "Ozen Reserve Bolifushi",
+  "destination": "maldives",
+  "country": "maldives",
+  "experience_types": ["beach", "luxury", "overwater-bungalows", "wellness"],
+  "honeymoon_score": 85,
+  "score_breakdown": { "adults_only": 0, "couples_pct": 18, "spa": 12, "award": 15, "pool": 10, "beach": 10, "room_service": 5, "stars": 10, "luxury": 5 },
+  "stars": 5,
+  "price_per_night_usd": { "min": 800, "max": 2500 },
+  "adults_only": false,
+  "amenities": ["all-inclusive", "spa", "overwater villas", "private pools", "beach", "included diving", "wine pairing", "butler service", "snorkeling"],
+  "photos": [
+    { "url": "/images/hotels/ozen-reserve-bolifushi-maldives/hero.webp", "alt": "ozen-reserve-bolifushi-maldives — hero", "type": "hero" },
+    { "url": "/images/hotels/ozen-reserve-bolifushi-maldives/room.webp", "alt": "ozen-reserve-bolifushi-maldives — room", "type": "room" },
+    { "url": "/images/hotels/ozen-reserve-bolifushi-maldives/pool.webp", "alt": "ozen-reserve-bolifushi-maldives — pool", "type": "pool" },
+    { "url": "/images/hotels/ozen-reserve-bolifushi-maldives/spa.webp", "alt": "ozen-reserve-bolifushi-maldives — spa", "type": "spa" },
+    { "url": "/images/hotels/ozen-reserve-bolifushi-maldives/dining.webp", "alt": "ozen-reserve-bolifushi-maldives — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 9.4,
+  "tripadvisor_award": true,
+  "couples_review_pct": 74,
+  "content": {
+    "verdict": "Ozen Reserve Bolifushi is South Malé Atoll's best answer to 'luxury all-inclusive' — the Indulgence plan wraps in wine-paired tasting menus, complimentary dives, and sunset cruises. 70 villas, a young and stylish crowd, and predictable high-end food mean you can enjoy a boundless honeymoon without bill shock.",
+    "best_room": "The Earth Water Pool Pavilion — overwater with glass floor panels, private pool, and a cozy indoor-outdoor layout. For beach time, the Earth Beach Pool Pavilion is a romantic sand-front alternative.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival & Speedboat Transfer", "description": "25-minute luxury speedboat from Malé. Welcome cocktail, villa intro, dinner at M6m (the underwater restaurant is a short boat hop)." },
+      { "day": 2, "title": "Wine Pairing Debut", "description": "Morning house-reef snorkel, relaxed pool lunch, Indulgence wine-pairing dinner at The Palms — included in plan." },
+      { "day": 3, "title": "Two-Tank Dive (Included)", "description": "Morning dive at nearby reef, included in Indulgence plan. Afternoon couples massage at the spa, sunset dhoni cruise." },
+      { "day": 4, "title": "Sandbank & Romance", "description": "Private sandbank Champagne picnic, evening beach dinner under lanterns with a personal butler." },
+      { "day": 5, "title": "Spa Day", "description": "Half-day couples ritual — hammam, massage, facials. Dinner at Peking Chinese restaurant with wine pairing." },
+      { "day": 6, "title": "M6m Underwater Dinner", "description": "Speedboat to sister resort Ozen Life Maadhoo's underwater restaurant for a tasting menu. Drinks back at the Bolifushi bar." },
+      { "day": 7, "title": "Farewell morning", "description": "Floating breakfast, final pool swim, speedboat back to Malé." }
+    ],
+    "caveats": ["The all-inclusive plan is required — transparent pricing but not cheap", "House reef is less vibrant than Baa Atoll resorts", "Popular with honeymoon-age couples — lively rather than silent"],
+    "faqs": [
+      { "question": "Good for honeymooners?", "answer": "Yes — one of the best all-inclusive honeymoon experiences thanks to the Indulgence plan." },
+      { "question": "Best time to visit?", "answer": "December to April for dry season; low season offers strong value." },
+      { "question": "Book in advance?", "answer": "3–5 months; honeymoon packages run regularly." },
+      { "question": "Adults-only?", "answer": "No, but adult-oriented in vibe with a young-couple crowd." },
+      { "question": "Best room type?", "answer": "Earth Water Pool Pavilion for honeymoons." },
+      { "question": "How to get there?", "answer": "25-minute speedboat from Velana International Airport (MLE) — no seaplane." }
+    ],
+    "email_template": "Subject: Honeymoon booking inquiry — Ozen Reserve Bolifushi\n\nDear team,\n\nWe are planning our honeymoon and are interested in staying at Ozen Reserve Bolifushi from [DATE] to [DATE]. Could you advise on availability for an Earth Water Pool Pavilion and the Indulgence all-inclusive plan, plus any honeymoon amenities?\n\nThank you,\n[Names]"
+  },
+  "last_updated": "2026-04-21T00:00:00.000Z"
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "four-seasons-jimbaran-bay-bali",
+  "name": "Four Seasons Resort Bali at Jimbaran Bay",
+  "destination": "bali",
+  "country": "indonesia",
+  "experience_types": ["luxury", "beach", "wellness"],
+  "honeymoon_score": 91,
+  "score_breakdown": { "adults_only": 0, "couples_pct": 17, "spa": 15, "award": 15, "pool": 10, "beach": 10, "room_service": 5, "stars": 10, "luxury": 5 },
+  "stars": 5,
+  "price_per_night_usd": { "min": 900, "max": 3000 },
+  "adults_only": false,
+  "amenities": ["spa", "pool", "beachfront", "private pool villas", "butler service", "yoga", "fine dining", "fitness center", "kids club"],
+  "photos": [
+    { "url": "/images/hotels/four-seasons-jimbaran-bay-bali/hero.webp", "alt": "four-seasons-jimbaran-bay-bali — hero", "type": "hero" },
+    { "url": "/images/hotels/four-seasons-jimbaran-bay-bali/room.webp", "alt": "four-seasons-jimbaran-bay-bali — room", "type": "room" },
+    { "url": "/images/hotels/four-seasons-jimbaran-bay-bali/pool.webp", "alt": "four-seasons-jimbaran-bay-bali — pool", "type": "pool" },
+    { "url": "/images/hotels/four-seasons-jimbaran-bay-bali/spa.webp", "alt": "four-seasons-jimbaran-bay-bali — spa", "type": "spa" },
+    { "url": "/images/hotels/four-seasons-jimbaran-bay-bali/dining.webp", "alt": "four-seasons-jimbaran-bay-bali — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 9.4,
+  "tripadvisor_award": true,
+  "couples_review_pct": 72,
+  "content": {
+    "verdict": "The Four Seasons at Jimbaran Bay pioneered the Balinese villa-compound model in 1993, and after a full top-to-bottom renovation it remains one of the most polished beach honeymoons in Asia. All 156 villas are standalone compounds with walled gardens, thatched bales and plunge pools, tiered down a hill to a private crescent of Jimbaran sand. It is the definitive pick for couples who want Aman-level architecture with Four Seasons service precision and beach access.",
+    "best_room": "Splurge on a One-Bedroom Premier Ocean Villa in the lower tier — these sit on the cliff edge with uninterrupted Jimbaran Bay views, an outdoor lava-stone tub and a private pool where the sunset turns the water copper. Avoid the upper-tier garden villas if ocean view matters.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival & Seafood on the Sand", "description": "Quick 20-minute transfer from Denpasar airport. Welcome fruit platter and in-villa massage. Dinner on Jimbaran beach — either at the resort's Sundara or one of the famous grilled-seafood warungs a 10-minute walk up the sand." },
+      { "day": 2, "title": "Beach & Sundara Day Club", "description": "Late breakfast in the villa. Afternoon at Sundara, the resort's 57-meter infinity beach pool and restaurant, with cocktails as the sun drops behind the cliff. Couples' massage in the spa." },
+      { "day": 3, "title": "Uluwatu Temples & Surf Coast", "description": "Chauffeured day to Uluwatu (30 min south) — visit the clifftop temple, lunch at Single Fin, swim at Padang Padang. Return for the Kecak fire dance at Uluwatu temple at sunset, then dinner at nearby Sundara or Sushi at Ayung Terrace." },
+      { "day": 4, "title": "Spa & Private Villa Day", "description": "The Healing Village Spa's half-day couples' package — shared flower bath, four-hands massage, Balinese boreh scrub. Private lunch served in your villa. Evening stargazing session with the resort's astronomer." },
+      { "day": 5, "title": "Ubud Cultural Day Trip", "description": "90-minute drive up to Ubud with a private driver. Visit Tegalalang rice terraces, a silversmith in Celuk, and the Sacred Monkey Forest. Lunch at Locavore, return via Tegenungan waterfall." },
+      { "day": 6, "title": "Private Boat & Nusa Lembongan", "description": "Private speedboat charter to Nusa Lembongan/Penida (30 min across the strait). Snorkel with manta rays at Manta Point, lunch at a cliffside warung, back to Jimbaran by late afternoon. Sunset wine at the villa." },
+      { "day": 7, "title": "Romance & Farewell", "description": "Balinese cooking class at Taman Wantilan followed by a late brunch. Final massage in the spa, final swim on the beach. Pre-departure dinner at Ayung Terrace with gamelan music. Late check-out arranged on request." }
+    ],
+    "caveats": [
+      "Jimbaran Bay beach is lovely but calm — not a surf beach, and at low tide the sand is exposed widely.",
+      "The resort is large (156 villas over a steep hill), so walking to the beach from the upper villas is a haul — buggies run 24/7 but factor in the grade.",
+      "It accepts families and has a kids' club; school holidays can feel lively if you want pure couples' seclusion."
+    ],
+    "faqs": [
+      { "q": "Do all villas have private pools?", "a": "Yes — every one of the 156 villas has a private plunge pool in its walled compound." },
+      { "q": "How is the beach?", "a": "Jimbaran Bay is a long protected crescent of soft sand, calm water, and fishing boats. Good for swimming and walking, not for surfing. The resort has its own private section with loungers and butler service." },
+      { "q": "Is Sundara only for hotel guests?", "a": "No, Sundara beach club is open to the public, which means it can get busy on weekends. Hotel guests get priority bed reservations and a dedicated area." },
+      { "q": "How far to Seminyak or Canggu?", "a": "Seminyak is about 45 minutes north by car in normal traffic; Canggu around 60-75 minutes. Uluwatu is closer, 25-30 minutes south." },
+      { "q": "Can we arrange a private vow renewal?", "a": "Yes — the resort's wedding team can arrange beach, garden or clifftop ceremonies with a Balinese priest, starting around $3,500 for an intimate couple-only package." },
+      { "q": "Is the resort open year-round?", "a": "Yes, year-round. November-March has shorter rainstorms; May-October is the classic dry season with the best sunsets over the bay." }
+    ],
+    "email_template": "Subject: Honeymoon — Premier Ocean Villa, 7 nights, [DATES]\n\nDear Four Seasons Jimbaran reservations,\n\nWe're planning our honeymoon and would like to stay 7 nights from [ARRIVAL] to [DEPARTURE]. We'd like a One-Bedroom Premier Ocean Villa, preferably in the lower tier with direct sunset view.\n\nCould you please send:\n- Best available rate including breakfast and taxes\n- Honeymoon package inclusions (floral bath, cake, dinner, spa credit)\n- Airport transfer options\n- Sundara cabana reservation policy for in-house guests\n- Any special events/weddings scheduled during our stay we should be aware of\n\nLooking forward to hearing from you.\n\nBest,\n[Your names]"
+  },
+  "last_updated": "2026-04-21T00:00:00.000Z"
+}

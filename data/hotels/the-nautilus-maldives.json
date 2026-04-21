@@ -1,0 +1,47 @@
+{
+  "slug": "the-nautilus-maldives",
+  "name": "The Nautilus Maldives",
+  "destination": "maldives",
+  "country": "maldives",
+  "experience_types": ["beach", "luxury", "overwater-bungalows", "wellness"],
+  "honeymoon_score": 90,
+  "score_breakdown": { "adults_only": 0, "couples_pct": 20, "spa": 15, "award": 15, "pool": 10, "beach": 10, "room_service": 5, "stars": 10, "luxury": 5 },
+  "stars": 5,
+  "price_per_night_usd": { "min": 2000, "max": 7000 },
+  "adults_only": false,
+  "amenities": ["spa", "overwater residences", "private pools", "beach", "butler", "no schedules", "yacht", "diving", "snorkeling"],
+  "photos": [
+    { "url": "/images/hotels/the-nautilus-maldives/hero.webp", "alt": "the-nautilus-maldives — hero", "type": "hero" },
+    { "url": "/images/hotels/the-nautilus-maldives/room.webp", "alt": "the-nautilus-maldives — room", "type": "room" },
+    { "url": "/images/hotels/the-nautilus-maldives/pool.webp", "alt": "the-nautilus-maldives — pool", "type": "pool" },
+    { "url": "/images/hotels/the-nautilus-maldives/spa.webp", "alt": "the-nautilus-maldives — spa", "type": "spa" },
+    { "url": "/images/hotels/the-nautilus-maldives/dining.webp", "alt": "the-nautilus-maldives — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 9.7,
+  "tripadvisor_award": true,
+  "couples_review_pct": 92,
+  "content": {
+    "verdict": "The Nautilus is the Maldives at its most unapologetically bespoke — only 26 private houses and residences in Baa Atoll, each with a butler, a pool, and a written 'no schedules' philosophy. There are no set meal times and no menus — you decide what, when, and where. For honeymooners craving total control over their days, it is peerless.",
+    "best_room": "The Ocean Residence — two bedrooms, infinity pool, dedicated deck and staff quarters for your butler. If two bedrooms is overkill, the Ocean House delivers the same experience in a one-bedroom overwater footprint with private pool.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival & Seaplane Transfer", "description": "35-minute seaplane from Malé. Private yacht welcome, butler introduction, slow evening in your residence." },
+      { "day": 2, "title": "Your Day, Your Way", "description": "Breakfast whenever (and wherever) you like, butler-arranged snorkel to the house reef, dinner at Ocaso with Latin American small plates." },
+      { "day": 3, "title": "Ocean Safari", "description": "Private boat to Hanifaru Bay for manta rays (June–Nov) or a dolphin-spotting cruise, lobster lunch on deck." },
+      { "day": 4, "title": "Wellness Ritual", "description": "Full-day spa journey with your chosen therapist, in-residence yoga on the pool deck, Chef's Table degustation dinner at Zeytin." },
+      { "day": 5, "title": "Private Sandbank Wedding Vow Renewal", "description": "Arranged by butler — sandbank ceremony with flowers, Champagne, photographer. Night: in-villa beach bonfire." },
+      { "day": 6, "title": "Slow Day", "description": "Read, swim, nap repeat. Butler brings whatever you want whenever. Dinner at Naiboli pool bar with Champagne pairing." },
+      { "day": 7, "title": "Farewell morning", "description": "Floating breakfast in the pool, final reef swim, seaplane back to Malé." }
+    ],
+    "caveats": ["Very high price point — one of the most expensive in Maldives", "Remote location means fewer off-island excursions", "No scheduled activities means less social energy for those wanting groups"],
+    "faqs": [
+      { "question": "Good for honeymooners?", "answer": "Yes — arguably the most personalised honeymoon experience in the Maldives thanks to the no-schedule, butler-led philosophy." },
+      { "question": "Best time to visit?", "answer": "June–November for manta season at nearby Hanifaru Bay; December–April for classic dry-season weather." },
+      { "question": "Book in advance?", "answer": "6 months, often longer for peak weeks." },
+      { "question": "Adults-only?", "answer": "No, but residences are so private it feels adults-only." },
+      { "question": "Best room type?", "answer": "Ocean House for honeymoons; Ocean Residence if you want extra space." },
+      { "question": "How to get there?", "answer": "35-minute seaplane transfer from Velana International Airport (MLE)." }
+    ],
+    "email_template": "Subject: Honeymoon booking inquiry — The Nautilus Maldives\n\nDear team,\n\nWe are planning our honeymoon and are interested in staying at The Nautilus Maldives from [DATE] to [DATE]. Could you advise on availability for an Ocean House and honeymoon amenities (private dining, sandbank experience, spa credits)?\n\nThank you,\n[Names]"
+  },
+  "last_updated": "2026-04-21T00:00:00.000Z"
+}

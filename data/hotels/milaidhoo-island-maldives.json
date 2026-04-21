@@ -1,0 +1,47 @@
+{
+  "slug": "milaidhoo-island-maldives",
+  "name": "Milaidhoo Island Maldives",
+  "destination": "maldives",
+  "country": "maldives",
+  "experience_types": ["beach", "luxury", "overwater-bungalows", "wellness"],
+  "honeymoon_score": 88,
+  "score_breakdown": { "adults_only": 0, "couples_pct": 20, "spa": 13, "award": 15, "pool": 10, "beach": 10, "room_service": 5, "stars": 10, "luxury": 5 },
+  "stars": 5,
+  "price_per_night_usd": { "min": 1200, "max": 3800 },
+  "adults_only": false,
+  "amenities": ["spa", "overwater villas", "private pools", "beach", "floating restaurant", "manta ray access", "butler service", "diving"],
+  "photos": [
+    { "url": "/images/hotels/milaidhoo-island-maldives/hero.webp", "alt": "milaidhoo-island-maldives — hero", "type": "hero" },
+    { "url": "/images/hotels/milaidhoo-island-maldives/room.webp", "alt": "milaidhoo-island-maldives — room", "type": "room" },
+    { "url": "/images/hotels/milaidhoo-island-maldives/pool.webp", "alt": "milaidhoo-island-maldives — pool", "type": "pool" },
+    { "url": "/images/hotels/milaidhoo-island-maldives/spa.webp", "alt": "milaidhoo-island-maldives — spa", "type": "spa" },
+    { "url": "/images/hotels/milaidhoo-island-maldives/dining.webp", "alt": "milaidhoo-island-maldives — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 9.5,
+  "tripadvisor_award": true,
+  "couples_review_pct": 85,
+  "content": {
+    "verdict": "Milaidhoo is Baa Atoll's boutique treasure — 50 thatched villas set inside a UNESCO Biosphere Reserve, with the iconic floating Ba'theli restaurant serving Thai-Maldivian fusion. Romantic, design-driven and perfectly sized, it is widely considered one of the Maldives' top honeymoon islands.",
+    "best_room": "The Water Pool Villa with its curved private pool jutting over the lagoon and a daybed on the water. For barefoot beach romance, the Beach Pool Villa sits on a stretch of sugar-white sand.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival & Seaplane Transfer", "description": "35-minute seaplane from Malé. Villa orientation with your butler, sunset Champagne on the pool deck." },
+      { "day": 2, "title": "Reef & Ba'theli", "description": "Morning snorkel on Milaidhoo's rich house reef, spa afternoon, dinner at Ba'theli — the dhoni-shaped floating restaurant." },
+      { "day": 3, "title": "Hanifaru Bay Manta Snorkel", "description": "Guided trip to UNESCO Hanifaru Bay for the world's largest manta ray aggregation (seasonal), lunch back at Ocean restaurant." },
+      { "day": 4, "title": "Couples Spa Day", "description": "Sunrise yoga, full-day spa journey with traditional Maldivian rituals, private beach dinner with fire dancers." },
+      { "day": 5, "title": "Sandbank Castaway", "description": "Boat drop on a deserted sandbank with picnic hamper, snorkel gear and Champagne. Sunset dolphin cruise." },
+      { "day": 6, "title": "Culinary Journey", "description": "Cooking class with the Maldivian chef, traditional dhoni-line fishing, private dinner in the wine cellar." },
+      { "day": 7, "title": "Farewell morning", "description": "Floating breakfast in your pool, final reef swim, seaplane home." }
+    ],
+    "caveats": ["Smaller pools than newer resorts", "Hanifaru Bay manta season is May–November only", "Dinner at Ba'theli requires advance booking"],
+    "faqs": [
+      { "question": "Good for honeymooners?", "answer": "Exceptional — consistently ranked among the top 3 honeymoon resorts in the Maldives." },
+      { "question": "Best time to visit?", "answer": "May–November for manta rays; December–April for dry sunny days." },
+      { "question": "Book in advance?", "answer": "6 months minimum for honeymoon villas." },
+      { "question": "Adults-only?", "answer": "No, but the resort is famously couple-heavy and serene." },
+      { "question": "Best room type?", "answer": "Water Pool Villa for honeymooners." },
+      { "question": "How to get there?", "answer": "35-minute seaplane transfer from Velana International Airport (MLE)." }
+    ],
+    "email_template": "Subject: Honeymoon booking inquiry — Milaidhoo Island Maldives\n\nDear team,\n\nWe are planning our honeymoon and are interested in staying at Milaidhoo from [DATE] to [DATE]. Could you advise on availability for a Water Pool Villa and honeymoon packages (Ba'theli dinner, Hanifaru snorkel, spa credit)?\n\nThank you,\n[Names]"
+  },
+  "last_updated": "2026-04-21T00:00:00.000Z"
+}

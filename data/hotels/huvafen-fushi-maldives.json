@@ -1,0 +1,47 @@
+{
+  "slug": "huvafen-fushi-maldives",
+  "name": "Huvafen Fushi",
+  "destination": "maldives",
+  "country": "maldives",
+  "experience_types": ["beach", "luxury", "overwater-bungalows", "wellness", "adults-only"],
+  "honeymoon_score": 94,
+  "score_breakdown": { "adults_only": 4, "couples_pct": 20, "spa": 15, "award": 15, "pool": 10, "beach": 10, "room_service": 5, "stars": 10, "luxury": 5 },
+  "stars": 5,
+  "price_per_night_usd": { "min": 1200, "max": 4000 },
+  "adults_only": true,
+  "amenities": ["underwater spa", "overwater villas", "private pools", "beach", "wine cellar", "infinity pool", "snorkeling", "diving", "butler service"],
+  "photos": [
+    { "url": "/images/hotels/huvafen-fushi-maldives/hero.webp", "alt": "huvafen-fushi-maldives — hero", "type": "hero" },
+    { "url": "/images/hotels/huvafen-fushi-maldives/room.webp", "alt": "huvafen-fushi-maldives — room", "type": "room" },
+    { "url": "/images/hotels/huvafen-fushi-maldives/pool.webp", "alt": "huvafen-fushi-maldives — pool", "type": "pool" },
+    { "url": "/images/hotels/huvafen-fushi-maldives/spa.webp", "alt": "huvafen-fushi-maldives — spa", "type": "spa" },
+    { "url": "/images/hotels/huvafen-fushi-maldives/dining.webp", "alt": "huvafen-fushi-maldives — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 9.5,
+  "tripadvisor_award": true,
+  "couples_review_pct": 90,
+  "content": {
+    "verdict": "Huvafen Fushi pioneered the Maldives' first underwater spa and remains one of the most romantic islands in North Malé Atoll. With only 43 villas, a no-kids-under-12 policy, and an infinity pool that melts into the lagoon, it is honeymoon territory in its purest form.",
+    "best_room": "The Ocean Pavilion — a standalone overwater villa with a glass-floor lounge, private infinity pool, and uninterrupted ocean view. For something different, the Beach Bungalow with Pool offers powdery-sand toes-in-the-water lounging.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival & Speedboat Transfer", "description": "30-minute speedboat from Malé. Private check-in at your villa with Champagne and the signature Huvafen fragrance." },
+      { "day": 2, "title": "Underwater Spa Experience", "description": "Couples ritual in the world's first underwater treatment rooms, watching fish drift past during massage. Poolside lunch, sunset cocktail at Vinum wine cellar." },
+      { "day": 3, "title": "Reef & Sandbank Day", "description": "Guided house-reef snorkel (turtles guaranteed), private sandbank lunch drop-off, DJ sunset at Celsius infinity pool." },
+      { "day": 4, "title": "Dhoni Sunset Cruise", "description": "Morning at leisure, afternoon Champagne dhoni cruise with dolphin spotting, in-villa Thai dinner." },
+      { "day": 5, "title": "Dive or Stargaze", "description": "Full-day dive trip to nearby HP Reef or lazy day in the pool. Astronomer-guided stargazing session after dinner." },
+      { "day": 6, "title": "Wine Cellar Dining", "description": "Cooking class with resort chef, degustation dinner in the underwater Vinum wine cellar — 6,000 bottles and Champagne tasting." },
+      { "day": 7, "title": "Farewell morning", "description": "Spa breakfast, final pool float, speedboat back to Malé." }
+    ],
+    "caveats": ["Guests must be 12+ (not strictly adults-only, but feels like it)", "Pricier dining and spa than comparable resorts", "Proximity to Malé means occasional distant boat traffic"],
+    "faqs": [
+      { "question": "Good for honeymooners?", "answer": "Exceptional — small, hushed, adult-leaning and famously romantic thanks to the underwater spa." },
+      { "question": "Best time to visit?", "answer": "December to March for dry, clear weather; September and October are wetter but offer great rates." },
+      { "question": "Book in advance?", "answer": "6 months ahead; Ocean Pavilions sell out first." },
+      { "question": "Adults-only?", "answer": "Effectively yes — minimum age 12 and no kids club. Vibe is decidedly couples." },
+      { "question": "Best room type?", "answer": "Ocean Pavilion for pure overwater romance; Beach Bungalow with Pool for beach honeymooners." },
+      { "question": "How to get there?", "answer": "30-minute speedboat transfer from Velana International Airport (MLE), running 24/7." }
+    ],
+    "email_template": "Subject: Honeymoon booking inquiry — Huvafen Fushi\n\nDear team,\n\nWe are planning our honeymoon and are interested in staying at Huvafen Fushi from [DATE] to [DATE]. Could you advise on availability for an Ocean Pavilion and honeymoon packages (underwater spa credit, private dining)?\n\nThank you,\n[Names]"
+  },
+  "last_updated": "2026-04-21T00:00:00.000Z"
+}

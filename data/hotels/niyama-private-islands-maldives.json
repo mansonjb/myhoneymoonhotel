@@ -1,0 +1,47 @@
+{
+  "slug": "niyama-private-islands-maldives",
+  "name": "Niyama Private Islands Maldives",
+  "destination": "maldives",
+  "country": "maldives",
+  "experience_types": ["beach", "luxury", "overwater-bungalows", "wellness"],
+  "honeymoon_score": 87,
+  "score_breakdown": { "adults_only": 0, "couples_pct": 19, "spa": 13, "award": 15, "pool": 10, "beach": 10, "room_service": 5, "stars": 10, "luxury": 5 },
+  "stars": 5,
+  "price_per_night_usd": { "min": 900, "max": 3500 },
+  "adults_only": false,
+  "amenities": ["spa", "overwater villas", "private pools", "beach", "underwater restaurant", "treehouse bar", "dj", "diving", "surfing"],
+  "photos": [
+    { "url": "/images/hotels/niyama-private-islands-maldives/hero.webp", "alt": "niyama-private-islands-maldives — hero", "type": "hero" },
+    { "url": "/images/hotels/niyama-private-islands-maldives/room.webp", "alt": "niyama-private-islands-maldives — room", "type": "room" },
+    { "url": "/images/hotels/niyama-private-islands-maldives/pool.webp", "alt": "niyama-private-islands-maldives — pool", "type": "pool" },
+    { "url": "/images/hotels/niyama-private-islands-maldives/spa.webp", "alt": "niyama-private-islands-maldives — spa", "type": "spa" },
+    { "url": "/images/hotels/niyama-private-islands-maldives/dining.webp", "alt": "niyama-private-islands-maldives — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 9.3,
+  "tripadvisor_award": true,
+  "couples_review_pct": 74,
+  "content": {
+    "verdict": "Two private islands in Dhaalu Atoll — Play for energy and Chill for serenity — make Niyama the Maldives' most dynamic honeymoon destination. Home to the famed Subsix underwater restaurant and the treehouse Soundscape bar, it suits couples who want adventure and nightlife alongside their overwater villa.",
+    "best_room": "The One-Bedroom Water Pool Villa on Chill island — stilted over the lagoon with a private infinity pool and hammock net over the water. For a statement, the One-Bedroom Beach Pool Pavilion on Play has direct beach access and a big pool.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival & Seaplane Transfer", "description": "40-minute seaplane from Malé. Welcome on Play island, transfer to your villa on Chill, sunset cocktails on your deck." },
+      { "day": 2, "title": "Subsix Lunch", "description": "Boat transfer to the underwater restaurant Subsix for lunch (or DJ brunch on weekends), afternoon on the house reef, dinner at Tribal." },
+      { "day": 3, "title": "Reef & Sandbank", "description": "Guided house-reef snorkel, private sandbank picnic lunch with Champagne, sunset at Soundscape treehouse bar." },
+      { "day": 4, "title": "Spa Day", "description": "Couples ritual at the Drift spa, yoga and sound healing, dinner at Nest treehouse restaurant serving Asian cuisine." },
+      { "day": 5, "title": "Adventure Day", "description": "Surf lesson or dive trip, afternoon jet ski, beach barbecue dinner with fire dancers." },
+      { "day": 6, "title": "Epicure & Party", "description": "Cooking class, Edge overwater restaurant tasting menu by speedboat arrival, late drinks at Subsix nightclub." },
+      { "day": 7, "title": "Farewell morning", "description": "Breakfast in pool, final reef swim, seaplane back to Malé." }
+    ],
+    "caveats": ["More 'party Maldives' than quiet retreat — not for everyone", "Two islands means more internal boat transfers", "Subsix is a separate booked experience on top of room rate"],
+    "faqs": [
+      { "question": "Good for honeymooners?", "answer": "Yes — especially for young couples who want a mix of romance, food scenes and music." },
+      { "question": "Best time to visit?", "answer": "December to April for dry weather; surf season is May–October." },
+      { "question": "Book in advance?", "answer": "4 months; Subsix lunch slots book up fastest." },
+      { "question": "Adults-only?", "answer": "No, but Chill island is quieter and suits couples; Play has the nightlife." },
+      { "question": "Best room type?", "answer": "One-Bedroom Water Pool Villa on Chill for the classic overwater honeymoon." },
+      { "question": "How to get there?", "answer": "40-minute seaplane from Velana International Airport (MLE)." }
+    ],
+    "email_template": "Subject: Honeymoon booking inquiry — Niyama Private Islands Maldives\n\nDear team,\n\nWe are planning our honeymoon and are interested in staying at Niyama from [DATE] to [DATE]. Could you advise on availability for a Water Pool Villa on Chill and honeymoon privileges (Subsix dinner, spa credit, private sandbank)?\n\nThank you,\n[Names]"
+  },
+  "last_updated": "2026-04-21T00:00:00.000Z"
+}
