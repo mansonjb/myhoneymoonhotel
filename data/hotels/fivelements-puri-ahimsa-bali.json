@@ -3,19 +3,64 @@
   "name": "Fivelements Retreat Puri Ahimsa",
   "destination": "bali",
   "country": "indonesia",
-  "experience_types": ["wellness", "adults-only"],
+  "experience_types": [
+    "wellness",
+    "adults-only"
+  ],
   "honeymoon_score": 91,
-  "score_breakdown": { "adults_only": 25, "couples_pct": 20, "spa": 15, "award": 10, "pool": 5, "beach": 0, "room_service": 5, "stars": 8, "luxury": 3 },
+  "score_breakdown": {
+    "adults_only": 25,
+    "couples_pct": 20,
+    "spa": 15,
+    "award": 10,
+    "pool": 5,
+    "beach": 0,
+    "room_service": 5,
+    "stars": 8,
+    "luxury": 3
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 600, "max": 2000 },
+  "price_per_night_usd": {
+    "min": 600,
+    "max": 2000
+  },
   "adults_only": true,
-  "amenities": ["spa", "pool", "yoga", "meditation", "plant-based cuisine", "holistic healing", "private pool suites", "sacred arts"],
+  "amenities": [
+    "spa",
+    "pool",
+    "yoga",
+    "meditation",
+    "plant-based cuisine",
+    "holistic healing",
+    "private pool suites",
+    "sacred arts"
+  ],
   "photos": [
-    { "url": "/images/hotels/fivelements-puri-ahimsa-bali/hero.webp", "alt": "fivelements-puri-ahimsa-bali — hero", "type": "hero" },
-    { "url": "/images/hotels/fivelements-puri-ahimsa-bali/room.webp", "alt": "fivelements-puri-ahimsa-bali — room", "type": "room" },
-    { "url": "/images/hotels/fivelements-puri-ahimsa-bali/pool.webp", "alt": "fivelements-puri-ahimsa-bali — pool", "type": "pool" },
-    { "url": "/images/hotels/fivelements-puri-ahimsa-bali/spa.webp", "alt": "fivelements-puri-ahimsa-bali — spa", "type": "spa" },
-    { "url": "/images/hotels/fivelements-puri-ahimsa-bali/dining.webp", "alt": "fivelements-puri-ahimsa-bali — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/fivelements-puri-ahimsa-bali/hero.webp",
+      "alt": "fivelements-puri-ahimsa-bali — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/fivelements-puri-ahimsa-bali/room.webp",
+      "alt": "fivelements-puri-ahimsa-bali — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/fivelements-puri-ahimsa-bali/pool.webp",
+      "alt": "fivelements-puri-ahimsa-bali — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/fivelements-puri-ahimsa-bali/spa.webp",
+      "alt": "fivelements-puri-ahimsa-bali — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/fivelements-puri-ahimsa-bali/dining.webp",
+      "alt": "fivelements-puri-ahimsa-bali — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.5,
   "tripadvisor_award": true,
@@ -24,13 +69,41 @@
     "verdict": "Fivelements Puri Ahimsa is a nine-suite boutique wellness retreat on the Ayung River in Mambal, about 30 minutes south of Ubud, built entirely from sustainable materials in a swooping organic architectural style. It's adults-only, plant-based (seriously — no meat, no fish, no alcohol officially on the menu), and centered around sacred Balinese healing arts with a resident Tri Hita Karana healer. For honeymooners deeply into yoga, holistic wellness, or looking to set spiritual intentions, this is unlike anything else in Bali.",
     "best_room": "The Riverfront Suites (The River House and The Bamboo House) are the standouts — sweeping bamboo structures perched on the river with outdoor bathrooms and private plunge pools. Request the House of Om for the largest footprint.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Intention Setting", "description": "Transfer from Denpasar (75 min). Welcome ceremony at the river temple. Intention-setting session with the resident healer — candles, incense, crystals, and a couples' bonding ritual. Plant-based welcome dinner at Sakti Dining Room." },
-      { "day": 2, "title": "Yoga & Water Purification", "description": "Dawn yoga in the riverside shala, breakfast. Morning melukat purification ceremony at a sacred spring with the Balinese pemangku. Afternoon swim in the private pool, sunset meditation." },
-      { "day": 3, "title": "Balinese Healing Day", "description": "Full-day Panca Mahabhuta Journey — the signature five-elements sacred-arts ritual spanning 4 hours with two traditional healers. Afternoon journaling retreat time. Evening sound healing session." },
-      { "day": 4, "title": "Ubud Excursion", "description": "Half-day into Ubud: visit the Sacred Monkey Forest, Campuhan Ridge walk, vegan lunch at Moksa. Afternoon couples' yoga and cacao ceremony on return." },
-      { "day": 5, "title": "Deep Spa Day", "description": "Morning Watsu water therapy session as a couple — floating held in warm water. Afternoon breathwork session. Private dinner on the Ayung riverside rock ledge." },
-      { "day": 6, "title": "Adventure & Temples", "description": "Drive to Tirta Empul for private purification (water still sacred even if skeptical). Lunch at Clear Café. Back for sunset yin yoga and stargazing from the treetop pavilion." },
-      { "day": 7, "title": "Closing Ceremony & Departure", "description": "Final dawn yoga. Closing ceremony with the healer — intentions sealed, blessings given. Departure transfer to the airport. Most couples leave lighter and bonded." }
+      {
+        "day": 1,
+        "title": "Arrival & Intention Setting",
+        "description": "Transfer from Denpasar (75 min). Welcome ceremony at the river temple. Intention-setting session with the resident healer — candles, incense, crystals, and a couples' bonding ritual. Plant-based welcome dinner at Sakti Dining Room."
+      },
+      {
+        "day": 2,
+        "title": "Yoga & Water Purification",
+        "description": "Dawn yoga in the riverside shala, breakfast. Morning melukat purification ceremony at a sacred spring with the Balinese pemangku. Afternoon swim in the private pool, sunset meditation."
+      },
+      {
+        "day": 3,
+        "title": "Balinese Healing Day",
+        "description": "Full-day Panca Mahabhuta Journey — the signature five-elements sacred-arts ritual spanning 4 hours with two traditional healers. Afternoon journaling retreat time. Evening sound healing session."
+      },
+      {
+        "day": 4,
+        "title": "Ubud Excursion",
+        "description": "Half-day into Ubud: visit the Sacred Monkey Forest, Campuhan Ridge walk, vegan lunch at Moksa. Afternoon couples' yoga and cacao ceremony on return."
+      },
+      {
+        "day": 5,
+        "title": "Deep Spa Day",
+        "description": "Morning Watsu water therapy session as a couple — floating held in warm water. Afternoon breathwork session. Private dinner on the Ayung riverside rock ledge."
+      },
+      {
+        "day": 6,
+        "title": "Adventure & Temples",
+        "description": "Drive to Tirta Empul for private purification (water still sacred even if skeptical). Lunch at Clear Café. Back for sunset yin yoga and stargazing from the treetop pavilion."
+      },
+      {
+        "day": 7,
+        "title": "Closing Ceremony & Departure",
+        "description": "Final dawn yoga. Closing ceremony with the healer — intentions sealed, blessings given. Departure transfer to the airport. Most couples leave lighter and bonded."
+      }
     ],
     "caveats": [
       "Strictly plant-based (vegan-forward) — no meat, fish, or formal alcohol program. Serious eaters should pair this with a beach resort for indulgence.",
@@ -38,12 +111,30 @@
       "The bamboo architecture is stunning but does mean some soundtravel — floors creak, voices carry. Part of the open, organic experience."
     ],
     "faqs": [
-      { "q": "Is Fivelements really adults-only?", "a": "Yes, minimum age 16. The atmosphere is hushed and contemplative — unsuitable for and uninteresting to children." },
-      { "q": "Do we have to be vegan/spiritual to enjoy this?", "a": "No — plenty of skeptics arrive and leave converts. The food is genuinely delicious (Sakti was the first raw-food Michelin-recommended restaurant in Asia). Treatments are offered but not forced." },
-      { "q": "Can we drink alcohol?", "a": "Officially no alcohol menu; unofficially you can arrange for wine if requested discretely. Most couples lean into the detox aspect." },
-      { "q": "Is it close to Ubud?", "a": "About 30 minutes drive from Ubud town, 45 min from the airport. It's more accessible than Amandari or COMO Shambhala Estate." },
-      { "q": "Can we get a conventional massage?", "a": "Yes, but the property is best-known for its Sacred Healing Arts — four-hand energetic and traditional Balinese rituals. A standard Swedish isn't really the point." },
-      { "q": "How does it compare to COMO Shambhala?", "a": "COMO Shambhala is a bigger, more clinical wellness hotel with doctors and programs; Fivelements is smaller, more spiritual, more intimate. COMO is 'treat and optimize', Fivelements is 'connect and heal'." }
+      {
+        "q": "Is Fivelements really adults-only?",
+        "a": "Yes, minimum age 16. The atmosphere is hushed and contemplative — unsuitable for and uninteresting to children."
+      },
+      {
+        "q": "Do we have to be vegan/spiritual to enjoy this?",
+        "a": "No — plenty of skeptics arrive and leave converts. The food is genuinely delicious (Sakti was the first raw-food Michelin-recommended restaurant in Asia). Treatments are offered but not forced."
+      },
+      {
+        "q": "Can we drink alcohol?",
+        "a": "Officially no alcohol menu; unofficially you can arrange for wine if requested discretely. Most couples lean into the detox aspect."
+      },
+      {
+        "q": "Is it close to Ubud?",
+        "a": "About 30 minutes drive from Ubud town, 45 min from the airport. It's more accessible than Amandari or COMO Shambhala Estate."
+      },
+      {
+        "q": "Can we get a conventional massage?",
+        "a": "Yes, but the property is best-known for its Sacred Healing Arts — four-hand energetic and traditional Balinese rituals. A standard Swedish isn't really the point."
+      },
+      {
+        "q": "How does it compare to COMO Shambhala?",
+        "a": "COMO Shambhala is a bigger, more clinical wellness hotel with doctors and programs; Fivelements is smaller, more spiritual, more intimate. COMO is 'treat and optimize', Fivelements is 'connect and heal'."
+      }
     ],
     "email_template": "Subject: Honeymoon booking — Riverfront Suite, 7 nights, [DATES]\n\nDear Fivelements reservations,\n\nWe're planning our honeymoon and would like to book a Riverfront Suite (ideally the House of Om) for 7 nights from [ARRIVAL] to [DEPARTURE].\n\nCould you please share:\n- Best available rate including full-board plant-based dining\n- Honeymoon/intention-setting package inclusions\n- Availability of the Panca Mahabhuta Journey and private melukat ceremony\n- Airport transfer options\n- Any workshops or retreats running concurrently we might join\n\nThank you — we're looking forward to the reset.\n\nWith gratitude,\n[Your names]"
   },

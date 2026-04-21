@@ -3,19 +3,67 @@
   "name": "Kagi Maldives Spa Island",
   "destination": "maldives",
   "country": "maldives",
-  "experience_types": ["beach", "luxury", "overwater-bungalows", "wellness", "adults-only"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "overwater-bungalows",
+    "wellness",
+    "adults-only"
+  ],
   "honeymoon_score": 93,
-  "score_breakdown": { "adults_only": 3, "couples_pct": 20, "spa": 15, "award": 15, "pool": 10, "beach": 10, "room_service": 5, "stars": 10, "luxury": 5 },
+  "score_breakdown": {
+    "adults_only": 3,
+    "couples_pct": 20,
+    "spa": 15,
+    "award": 15,
+    "pool": 10,
+    "beach": 10,
+    "room_service": 5,
+    "stars": 10,
+    "luxury": 5
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 900, "max": 2500 },
+  "price_per_night_usd": {
+    "min": 900,
+    "max": 2500
+  },
   "adults_only": true,
-  "amenities": ["largest spa in maldives", "overwater villas", "private pools", "beach", "wellness retreats", "ocean-view treatment rooms", "butler service", "yoga"],
+  "amenities": [
+    "largest spa in maldives",
+    "overwater villas",
+    "private pools",
+    "beach",
+    "wellness retreats",
+    "ocean-view treatment rooms",
+    "butler service",
+    "yoga"
+  ],
   "photos": [
-    { "url": "/images/hotels/kagi-maldives-spa-island/hero.webp", "alt": "kagi-maldives-spa-island — hero", "type": "hero" },
-    { "url": "/images/hotels/kagi-maldives-spa-island/room.webp", "alt": "kagi-maldives-spa-island — room", "type": "room" },
-    { "url": "/images/hotels/kagi-maldives-spa-island/pool.webp", "alt": "kagi-maldives-spa-island — pool", "type": "pool" },
-    { "url": "/images/hotels/kagi-maldives-spa-island/spa.webp", "alt": "kagi-maldives-spa-island — spa", "type": "spa" },
-    { "url": "/images/hotels/kagi-maldives-spa-island/dining.webp", "alt": "kagi-maldives-spa-island — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/kagi-maldives-spa-island/hero.webp",
+      "alt": "kagi-maldives-spa-island — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/kagi-maldives-spa-island/room.webp",
+      "alt": "kagi-maldives-spa-island — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/kagi-maldives-spa-island/pool.webp",
+      "alt": "kagi-maldives-spa-island — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/kagi-maldives-spa-island/spa.webp",
+      "alt": "kagi-maldives-spa-island — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/kagi-maldives-spa-island/dining.webp",
+      "alt": "kagi-maldives-spa-island — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.5,
   "tripadvisor_award": true,
@@ -24,22 +72,72 @@
     "verdict": "Kagi is North Malé Atoll's adults-only wellness sanctuary — 16+ only, 50 villas, and home to the largest spa in the Maldives featuring treatment rooms with panoramic ocean views. For honeymooners who want quiet, wellness, and value at a top-tier island, Kagi punches far above its nightly rate.",
     "best_room": "The Sunset Water Villa with private pool — sunset-facing deck, infinity pool over the lagoon, and direct reef access. Beach lovers should choose a Sunrise Beach Pool Villa, perfect for morning swims.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Speedboat Transfer", "description": "50-minute speedboat from Malé. Adults-only welcome, villa tour, sunset on the deck." },
-      { "day": 2, "title": "Spa Immersion Day", "description": "Full day wellness — hammam, couples massage, facials — in the mega-spa with ocean views. Light healthy dinner at Jaafaiy." },
-      { "day": 3, "title": "Reef & Lagoon Day", "description": "Morning snorkel on house reef (turtles and reef sharks), Seabob session, sunset at Baakuri bar overlooking the lagoon." },
-      { "day": 4, "title": "Private Sandbank Picnic", "description": "Speedboat to sandbank with Champagne picnic and snorkel gear. Evening: private beach dinner by candlelight." },
-      { "day": 5, "title": "Wellness Activities", "description": "Morning yoga at the overwater yoga pavilion, sound healing, meditation. Afternoon free by the pool. Teppanyaki dinner at Jaafaiy." },
-      { "day": 6, "title": "Dolphin Cruise & Dive", "description": "Sunset dolphin dhoni cruise, optional dive at nearby reef. Dinner in the overwater restaurant with wine pairing." },
-      { "day": 7, "title": "Farewell morning", "description": "Floating breakfast in your pool, final reef swim, speedboat to Malé." }
+      {
+        "day": 1,
+        "title": "Arrival & Speedboat Transfer",
+        "description": "50-minute speedboat from Malé. Adults-only welcome, villa tour, sunset on the deck."
+      },
+      {
+        "day": 2,
+        "title": "Spa Immersion Day",
+        "description": "Full day wellness — hammam, couples massage, facials — in the mega-spa with ocean views. Light healthy dinner at Jaafaiy."
+      },
+      {
+        "day": 3,
+        "title": "Reef & Lagoon Day",
+        "description": "Morning snorkel on house reef (turtles and reef sharks), Seabob session, sunset at Baakuri bar overlooking the lagoon."
+      },
+      {
+        "day": 4,
+        "title": "Private Sandbank Picnic",
+        "description": "Speedboat to sandbank with Champagne picnic and snorkel gear. Evening: private beach dinner by candlelight."
+      },
+      {
+        "day": 5,
+        "title": "Wellness Activities",
+        "description": "Morning yoga at the overwater yoga pavilion, sound healing, meditation. Afternoon free by the pool. Teppanyaki dinner at Jaafaiy."
+      },
+      {
+        "day": 6,
+        "title": "Dolphin Cruise & Dive",
+        "description": "Sunset dolphin dhoni cruise, optional dive at nearby reef. Dinner in the overwater restaurant with wine pairing."
+      },
+      {
+        "day": 7,
+        "title": "Farewell morning",
+        "description": "Floating breakfast in your pool, final reef swim, speedboat to Malé."
+      }
     ],
-    "caveats": ["Minimum age 16 — not suitable for families", "Speedboat transfer 50 minutes — can be bumpy in rough sea", "Spa treatments cost extra on top of room rate"],
+    "caveats": [
+      "Minimum age 16 — not suitable for families",
+      "Speedboat transfer 50 minutes — can be bumpy in rough sea",
+      "Spa treatments cost extra on top of room rate"
+    ],
     "faqs": [
-      { "question": "Good for honeymooners?", "answer": "Yes — adults-only, wellness-forward, and exceptional value for the villa quality." },
-      { "question": "Best time to visit?", "answer": "November to April for dry, calm weather." },
-      { "question": "Book in advance?", "answer": "4 months ahead; deals sometimes appear for shoulder season." },
-      { "question": "Adults-only?", "answer": "Yes, 16+ only — one of few true adults-only islands in the Maldives." },
-      { "question": "Best room type?", "answer": "Sunset Water Villa with pool for honeymooners." },
-      { "question": "How to get there?", "answer": "50-minute speedboat transfer from Velana International Airport (MLE)." }
+      {
+        "question": "Good for honeymooners?",
+        "answer": "Yes — adults-only, wellness-forward, and exceptional value for the villa quality."
+      },
+      {
+        "question": "Best time to visit?",
+        "answer": "November to April for dry, calm weather."
+      },
+      {
+        "question": "Book in advance?",
+        "answer": "4 months ahead; deals sometimes appear for shoulder season."
+      },
+      {
+        "question": "Adults-only?",
+        "answer": "Yes, 16+ only — one of few true adults-only islands in the Maldives."
+      },
+      {
+        "question": "Best room type?",
+        "answer": "Sunset Water Villa with pool for honeymooners."
+      },
+      {
+        "question": "How to get there?",
+        "answer": "50-minute speedboat transfer from Velana International Airport (MLE)."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Kagi Maldives Spa Island\n\nDear team,\n\nWe are planning our honeymoon and are interested in staying at Kagi from [DATE] to [DATE]. Could you advise on availability for a Sunset Water Villa with pool and any honeymoon wellness packages (spa credit, couples ritual, private dining)?\n\nThank you,\n[Names]"
   },

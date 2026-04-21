@@ -3,19 +3,66 @@
   "name": "COMO Cocoa Island",
   "destination": "maldives",
   "country": "maldives",
-  "experience_types": ["beach", "luxury", "overwater-bungalows", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "overwater-bungalows",
+    "wellness"
+  ],
   "honeymoon_score": 88,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 20, "spa": 15, "award": 13, "pool": 10, "beach": 10, "room_service": 5, "stars": 10, "luxury": 5 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 20,
+    "spa": 15,
+    "award": 13,
+    "pool": 10,
+    "beach": 10,
+    "room_service": 5,
+    "stars": 10,
+    "luxury": 5
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 900, "max": 2800 },
+  "price_per_night_usd": {
+    "min": 900,
+    "max": 2800
+  },
   "adults_only": false,
-  "amenities": ["spa", "overwater villas", "beach", "yoga pavilion", "snorkeling", "diving", "butler service", "wellness cuisine"],
+  "amenities": [
+    "spa",
+    "overwater villas",
+    "beach",
+    "yoga pavilion",
+    "snorkeling",
+    "diving",
+    "butler service",
+    "wellness cuisine"
+  ],
   "photos": [
-    { "url": "/images/hotels/como-cocoa-island-maldives/hero.webp", "alt": "como-cocoa-island-maldives — hero", "type": "hero" },
-    { "url": "/images/hotels/como-cocoa-island-maldives/room.webp", "alt": "como-cocoa-island-maldives — room", "type": "room" },
-    { "url": "/images/hotels/como-cocoa-island-maldives/pool.webp", "alt": "como-cocoa-island-maldives — pool", "type": "pool" },
-    { "url": "/images/hotels/como-cocoa-island-maldives/spa.webp", "alt": "como-cocoa-island-maldives — spa", "type": "spa" },
-    { "url": "/images/hotels/como-cocoa-island-maldives/dining.webp", "alt": "como-cocoa-island-maldives — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/como-cocoa-island-maldives/hero.webp",
+      "alt": "como-cocoa-island-maldives — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/como-cocoa-island-maldives/room.webp",
+      "alt": "como-cocoa-island-maldives — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/como-cocoa-island-maldives/pool.webp",
+      "alt": "como-cocoa-island-maldives — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/como-cocoa-island-maldives/spa.webp",
+      "alt": "como-cocoa-island-maldives — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/como-cocoa-island-maldives/dining.webp",
+      "alt": "como-cocoa-island-maldives — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.3,
   "tripadvisor_award": true,
@@ -24,22 +71,72 @@
     "verdict": "Cocoa Island is COMO's jewel-box retreat in South Malé Atoll — 33 overwater villas shaped like traditional dhoni boats strung along a single teak jetty. The scale is intimate, the wellness program is world-class, and the vibe is whispered luxury rather than look-at-me glamour.",
     "best_room": "The Dhoni Loft Suite for two floors of overwater living, or a COMO Villa if you want a private sun deck over the lagoon. Both deliver the iconic stepped-down ladder into the house reef.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Speedboat Transfer", "description": "40-minute speedboat from Malé airport. Coconut welcome, villa tour, sunset wine on your overwater deck." },
-      { "day": 2, "title": "Shambhala Wellness Day", "description": "Morning yoga in the pavilion, COMO Shambhala massage for two, nutrient-rich lunch at Ufaa." },
-      { "day": 3, "title": "Snorkel the House Reef", "description": "Cocoa's reef is a 5m drop from your ladder — full morning exploring with turtles and reef sharks. Sunset dolphin cruise." },
-      { "day": 4, "title": "Private Sandbank Picnic", "description": "Boat drop-off at an empty sandbank with gourmet picnic, Champagne, and snorkel gear. Collected at sunset." },
-      { "day": 5, "title": "Dive & Relax", "description": "Morning two-tank dive at nearby Kandooma Thila, afternoon reading in the overwater hammock, teppanyaki dinner on the beach." },
-      { "day": 6, "title": "Malé Day Trip or Pure Rest", "description": "Optional capital tour and fish market, or stay in for back-to-back spa rituals. In-villa degustation dinner by candlelight." },
-      { "day": 7, "title": "Farewell morning", "description": "Sunrise yoga, final reef swim, speedboat back to Malé." }
+      {
+        "day": 1,
+        "title": "Arrival & Speedboat Transfer",
+        "description": "40-minute speedboat from Malé airport. Coconut welcome, villa tour, sunset wine on your overwater deck."
+      },
+      {
+        "day": 2,
+        "title": "Shambhala Wellness Day",
+        "description": "Morning yoga in the pavilion, COMO Shambhala massage for two, nutrient-rich lunch at Ufaa."
+      },
+      {
+        "day": 3,
+        "title": "Snorkel the House Reef",
+        "description": "Cocoa's reef is a 5m drop from your ladder — full morning exploring with turtles and reef sharks. Sunset dolphin cruise."
+      },
+      {
+        "day": 4,
+        "title": "Private Sandbank Picnic",
+        "description": "Boat drop-off at an empty sandbank with gourmet picnic, Champagne, and snorkel gear. Collected at sunset."
+      },
+      {
+        "day": 5,
+        "title": "Dive & Relax",
+        "description": "Morning two-tank dive at nearby Kandooma Thila, afternoon reading in the overwater hammock, teppanyaki dinner on the beach."
+      },
+      {
+        "day": 6,
+        "title": "Malé Day Trip or Pure Rest",
+        "description": "Optional capital tour and fish market, or stay in for back-to-back spa rituals. In-villa degustation dinner by candlelight."
+      },
+      {
+        "day": 7,
+        "title": "Farewell morning",
+        "description": "Sunrise yoga, final reef swim, speedboat back to Malé."
+      }
     ],
-    "caveats": ["No private pools in the villas — main pool only", "Small island with limited dining variety over long stays", "Speedboat transfer can be rough in rainy season"],
+    "caveats": [
+      "No private pools in the villas — main pool only",
+      "Small island with limited dining variety over long stays",
+      "Speedboat transfer can be rough in rainy season"
+    ],
     "faqs": [
-      { "question": "Good for honeymooners?", "answer": "Excellent — small villa count, high privacy, Shambhala wellness, and every room is overwater." },
-      { "question": "Best time to visit?", "answer": "November to April for sunshine and calm water. Avoid May–August peak monsoon." },
-      { "question": "Book in advance?", "answer": "4–6 months ahead; honeymoon suites go first." },
-      { "question": "Adults-only?", "answer": "No, but children under 8 are restricted and the resort stays peaceful." },
-      { "question": "Best room type?", "answer": "Dhoni Loft Suite for honeymooners — two storeys and extra space." },
-      { "question": "How to get there?", "answer": "40-minute speedboat transfer from Velana International Airport (MLE) — no seaplane needed." }
+      {
+        "question": "Good for honeymooners?",
+        "answer": "Excellent — small villa count, high privacy, Shambhala wellness, and every room is overwater."
+      },
+      {
+        "question": "Best time to visit?",
+        "answer": "November to April for sunshine and calm water. Avoid May–August peak monsoon."
+      },
+      {
+        "question": "Book in advance?",
+        "answer": "4–6 months ahead; honeymoon suites go first."
+      },
+      {
+        "question": "Adults-only?",
+        "answer": "No, but children under 8 are restricted and the resort stays peaceful."
+      },
+      {
+        "question": "Best room type?",
+        "answer": "Dhoni Loft Suite for honeymooners — two storeys and extra space."
+      },
+      {
+        "question": "How to get there?",
+        "answer": "40-minute speedboat transfer from Velana International Airport (MLE) — no seaplane needed."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — COMO Cocoa Island\n\nDear team,\n\nWe are planning our honeymoon and are interested in staying at COMO Cocoa Island from [DATE] to [DATE]. Could you advise on availability for a Dhoni Loft Suite and any honeymoon amenities (private dining, spa credit)?\n\nThank you,\n[Names]"
   },

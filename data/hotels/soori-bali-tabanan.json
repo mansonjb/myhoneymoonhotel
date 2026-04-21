@@ -3,19 +3,65 @@
   "name": "Soori Bali",
   "destination": "bali",
   "country": "indonesia",
-  "experience_types": ["luxury", "beach", "wellness"],
+  "experience_types": [
+    "luxury",
+    "beach",
+    "wellness"
+  ],
   "honeymoon_score": 92,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 17, "spa": 15, "award": 15, "pool": 10, "beach": 10, "room_service": 5, "stars": 10, "luxury": 5 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 17,
+    "spa": 15,
+    "award": 15,
+    "pool": 10,
+    "beach": 10,
+    "room_service": 5,
+    "stars": 10,
+    "luxury": 5
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 900, "max": 3000 },
+  "price_per_night_usd": {
+    "min": 900,
+    "max": 3000
+  },
   "adults_only": false,
-  "amenities": ["spa", "private pool villas", "beachfront", "butler service", "yoga", "fine dining", "library", "fitness center"],
+  "amenities": [
+    "spa",
+    "private pool villas",
+    "beachfront",
+    "butler service",
+    "yoga",
+    "fine dining",
+    "library",
+    "fitness center"
+  ],
   "photos": [
-    { "url": "/images/hotels/soori-bali-tabanan/hero.webp", "alt": "soori-bali-tabanan — hero", "type": "hero" },
-    { "url": "/images/hotels/soori-bali-tabanan/room.webp", "alt": "soori-bali-tabanan — room", "type": "room" },
-    { "url": "/images/hotels/soori-bali-tabanan/pool.webp", "alt": "soori-bali-tabanan — pool", "type": "pool" },
-    { "url": "/images/hotels/soori-bali-tabanan/spa.webp", "alt": "soori-bali-tabanan — spa", "type": "spa" },
-    { "url": "/images/hotels/soori-bali-tabanan/dining.webp", "alt": "soori-bali-tabanan — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/soori-bali-tabanan/hero.webp",
+      "alt": "soori-bali-tabanan — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/soori-bali-tabanan/room.webp",
+      "alt": "soori-bali-tabanan — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/soori-bali-tabanan/pool.webp",
+      "alt": "soori-bali-tabanan — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/soori-bali-tabanan/spa.webp",
+      "alt": "soori-bali-tabanan — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/soori-bali-tabanan/dining.webp",
+      "alt": "soori-bali-tabanan — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.4,
   "tripadvisor_award": true,
@@ -24,13 +70,41 @@
     "verdict": "Soori Bali is the architect's Bali — 48 villas by Singaporean architect Soo K. Chan set among working rice paddies on the black-sand Tabanan coast, an hour west of Seminyak and blessedly far from the tourist corridor. The aesthetic is Japanese-minimalist-meets-tropical-modern, all polished terrazzo, lava stone and infinity edges. For couples whose Pinterest boards lean contemporary rather than thatched, this is the answer.",
     "best_room": "A Beach Pool Villa in the front row gives you a direct uninterrupted view to the ocean over your private pool — crucial at Soori because back-row villas face rice paddies instead. The Soori Estate (4 bedrooms) is the splurge if you're combining the honeymoon with family after.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Rice Paddy Welcome", "description": "Transfer from Denpasar (75-90 min). Welcome with chilled coconut at your villa. Villa tour with your butler. Sunset on the beach — Tabanan coast west-facing delivers spectacular ones. Dinner at Ombak." },
-      { "day": 2, "title": "Villa Day & Spa", "description": "Sleep in, breakfast served in-villa. Slow morning by the private pool. Afternoon couples' ritual at the spa — candelnut oil, flower bath, joint synchronized massage. Sunset cocktails on the beach deck." },
-      { "day": 3, "title": "Tanah Lot & West Coast", "description": "Sunrise drive to Tanah Lot (25 min, before crowds) for the iconic sea temple. Breakfast at Bumbu Bali restaurant. Return via rice terrace walks at Jatiluwih (UNESCO terraces). Evening yoga on the beach shala." },
-      { "day": 4, "title": "Rice Paddy Cycling", "description": "Morning cycling tour through the subak rice paddies with a local farmer guide — visit a temple, a coffee roastery. Lunch back at Cotta café. Afternoon pool day." },
-      { "day": 5, "title": "West Bali National Park or Munduk", "description": "Full-day drive to Munduk (hill region, waterfalls, twin lakes of Tamblingan & Buyan) with picnic lunch. Dinner at your villa on return." },
-      { "day": 6, "title": "Seminyak Day Trip", "description": "Optional half-day into Seminyak for shopping (Jl. Laksmana boutiques) and lunch at La Lucciola or Sisterfields. Back at the villa by late afternoon for sunset and a private beach BBQ dinner." },
-      { "day": 7, "title": "Farewell & Transfer", "description": "Final yoga, leisurely breakfast, farewell massage. Transfer to airport. The black-sand sunset will stay with you." }
+      {
+        "day": 1,
+        "title": "Arrival & Rice Paddy Welcome",
+        "description": "Transfer from Denpasar (75-90 min). Welcome with chilled coconut at your villa. Villa tour with your butler. Sunset on the beach — Tabanan coast west-facing delivers spectacular ones. Dinner at Ombak."
+      },
+      {
+        "day": 2,
+        "title": "Villa Day & Spa",
+        "description": "Sleep in, breakfast served in-villa. Slow morning by the private pool. Afternoon couples' ritual at the spa — candelnut oil, flower bath, joint synchronized massage. Sunset cocktails on the beach deck."
+      },
+      {
+        "day": 3,
+        "title": "Tanah Lot & West Coast",
+        "description": "Sunrise drive to Tanah Lot (25 min, before crowds) for the iconic sea temple. Breakfast at Bumbu Bali restaurant. Return via rice terrace walks at Jatiluwih (UNESCO terraces). Evening yoga on the beach shala."
+      },
+      {
+        "day": 4,
+        "title": "Rice Paddy Cycling",
+        "description": "Morning cycling tour through the subak rice paddies with a local farmer guide — visit a temple, a coffee roastery. Lunch back at Cotta café. Afternoon pool day."
+      },
+      {
+        "day": 5,
+        "title": "West Bali National Park or Munduk",
+        "description": "Full-day drive to Munduk (hill region, waterfalls, twin lakes of Tamblingan & Buyan) with picnic lunch. Dinner at your villa on return."
+      },
+      {
+        "day": 6,
+        "title": "Seminyak Day Trip",
+        "description": "Optional half-day into Seminyak for shopping (Jl. Laksmana boutiques) and lunch at La Lucciola or Sisterfields. Back at the villa by late afternoon for sunset and a private beach BBQ dinner."
+      },
+      {
+        "day": 7,
+        "title": "Farewell & Transfer",
+        "description": "Final yoga, leisurely breakfast, farewell massage. Transfer to airport. The black-sand sunset will stay with you."
+      }
     ],
     "caveats": [
       "Tabanan's beach is dramatic black sand with strong currents — swimming is done in the villa pool and resort pool, not the ocean.",
@@ -38,12 +112,30 @@
       "The architecture is stark/minimalist — guests who prefer traditional thatched-roof Balinese warmth may find it cool-feeling."
     ],
     "faqs": [
-      { "q": "How far to Seminyak/Canggu?", "a": "About 60 minutes by car to Seminyak, 45 minutes to Canggu in normal traffic. Tabanan is genuinely off-grid for Bali." },
-      { "q": "Do all villas have private pools?", "a": "Yes, every one of the 48 villas has a private pool — 12m for Ocean Pool Villas, 14m for Beach Pool Villas." },
-      { "q": "Is the black sand hot?", "a": "Yes, very — bring sandals for beach walks during the day. Sunrise and after 4pm are the comfortable times." },
-      { "q": "Who designed Soori Bali?", "a": "Soo K. Chan of SCDA Architects (Singapore) — he owned the villa originally and turned it into a resort. It's been featured in every major architecture publication." },
-      { "q": "Is food good on-property?", "a": "Very good — Ombak does contemporary Indonesian and pan-Asian, Cotta is the all-day café. Given the remote location you'll eat in most nights; variety is sufficient for a week." },
-      { "q": "Can we get married here?", "a": "Yes — Soori does beachfront and rice-paddy weddings with a dramatic minimalist aesthetic. Intimate elopements are common." }
+      {
+        "q": "How far to Seminyak/Canggu?",
+        "a": "About 60 minutes by car to Seminyak, 45 minutes to Canggu in normal traffic. Tabanan is genuinely off-grid for Bali."
+      },
+      {
+        "q": "Do all villas have private pools?",
+        "a": "Yes, every one of the 48 villas has a private pool — 12m for Ocean Pool Villas, 14m for Beach Pool Villas."
+      },
+      {
+        "q": "Is the black sand hot?",
+        "a": "Yes, very — bring sandals for beach walks during the day. Sunrise and after 4pm are the comfortable times."
+      },
+      {
+        "q": "Who designed Soori Bali?",
+        "a": "Soo K. Chan of SCDA Architects (Singapore) — he owned the villa originally and turned it into a resort. It's been featured in every major architecture publication."
+      },
+      {
+        "q": "Is food good on-property?",
+        "a": "Very good — Ombak does contemporary Indonesian and pan-Asian, Cotta is the all-day café. Given the remote location you'll eat in most nights; variety is sufficient for a week."
+      },
+      {
+        "q": "Can we get married here?",
+        "a": "Yes — Soori does beachfront and rice-paddy weddings with a dramatic minimalist aesthetic. Intimate elopements are common."
+      }
     ],
     "email_template": "Subject: Honeymoon enquiry — Beach Pool Villa, 7 nights, [DATES]\n\nDear Soori Bali reservations,\n\nWe're planning our honeymoon and would like to stay 7 nights from [ARRIVAL] to [DEPARTURE]. We'd like a Beach Pool Villa in the front row, with uninterrupted ocean view.\n\nCould you please share:\n- Best rate including taxes and breakfast\n- Honeymoon package inclusions\n- Airport transfer cost and options\n- Availability of private chef dinner on the beach\n- Any ongoing renovation or construction during our dates\n\nLook forward to hearing from you.\n\nBest,\n[Your names]"
   },

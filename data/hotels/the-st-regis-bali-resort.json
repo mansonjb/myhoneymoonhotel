@@ -3,19 +3,65 @@
   "name": "The St. Regis Bali Resort",
   "destination": "bali",
   "country": "indonesia",
-  "experience_types": ["luxury", "beach"],
+  "experience_types": [
+    "luxury",
+    "beach"
+  ],
   "honeymoon_score": 88,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 13, "spa": 15, "award": 10, "pool": 10, "beach": 10, "room_service": 5, "stars": 10, "luxury": 5 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 13,
+    "spa": 15,
+    "award": 10,
+    "pool": 10,
+    "beach": 10,
+    "room_service": 5,
+    "stars": 10,
+    "luxury": 5
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 800, "max": 2800 },
+  "price_per_night_usd": {
+    "min": 800,
+    "max": 2800
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "beachfront", "butler service", "private pool villas", "fine dining", "fitness center", "kids club", "lagoon"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beachfront",
+    "butler service",
+    "private pool villas",
+    "fine dining",
+    "fitness center",
+    "kids club",
+    "lagoon"
+  ],
   "photos": [
-    { "url": "/images/hotels/the-st-regis-bali-resort/hero.webp", "alt": "the-st-regis-bali-resort — hero", "type": "hero" },
-    { "url": "/images/hotels/the-st-regis-bali-resort/room.webp", "alt": "the-st-regis-bali-resort — room", "type": "room" },
-    { "url": "/images/hotels/the-st-regis-bali-resort/pool.webp", "alt": "the-st-regis-bali-resort — pool", "type": "pool" },
-    { "url": "/images/hotels/the-st-regis-bali-resort/spa.webp", "alt": "the-st-regis-bali-resort — spa", "type": "spa" },
-    { "url": "/images/hotels/the-st-regis-bali-resort/dining.webp", "alt": "the-st-regis-bali-resort — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/the-st-regis-bali-resort/hero.webp",
+      "alt": "the-st-regis-bali-resort — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/the-st-regis-bali-resort/room.webp",
+      "alt": "the-st-regis-bali-resort — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/the-st-regis-bali-resort/pool.webp",
+      "alt": "the-st-regis-bali-resort — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/the-st-regis-bali-resort/spa.webp",
+      "alt": "the-st-regis-bali-resort — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/the-st-regis-bali-resort/dining.webp",
+      "alt": "the-st-regis-bali-resort — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.2,
   "tripadvisor_award": true,
@@ -24,13 +70,41 @@
     "verdict": "The St. Regis Bali sits on the broadest stretch of protected Nusa Dua sand, with 123 suites and villas, a 3,700-square-meter saltwater lagoon threading through the property, and the signature St. Regis butler service in every room. It is not the most boutique choice on this list but it is reliably one of the most polished five-star experiences on the island — the honeymoon for couples who value predictability, beach, and butlers over character and design edge.",
     "best_room": "Skip the suites and book a Strand Villa — a ground-level pool villa fronting directly on the beach with a private gate to the sand. The Gardenia Villas (slightly inland) are lovely but nothing beats waking up with the ocean through your doors.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Butler Welcome", "description": "20-minute transfer from Denpasar (one of the closest resorts to the airport). Traditional welcome, butler unpacks. Champagne sabering at sunset (St. Regis classic). Dinner at Kayuputi, the beachfront fine-dining restaurant." },
-      { "day": 2, "title": "Beach & Lagoon Day", "description": "Breakfast with ocean view. Morning on the beach — protected by a reef so the swimming is gentle. Afternoon floating in the lagoon with inner tubes (pure decadence). Couples' massage at Remede Spa." },
-      { "day": 3, "title": "Uluwatu Day", "description": "Chauffeured day south — Uluwatu Temple, Padang Padang beach, lunch at Single Fin, sunset Kecak dance. Return for a nightcap at the King Cole Bar (signature Bloody Mary)." },
-      { "day": 4, "title": "Remede Spa Half-Day", "description": "Couples' 4-hour Remede ritual — their signature warm-stone, four-hand massage and silk-wrap facial. Lunch delivered poolside. Evening sunset catamaran cruise." },
-      { "day": 5, "title": "Ubud Excursion", "description": "Early start up to Ubud (75 min): Tegalalang rice terraces, Monkey Forest, Art Museum, long lunch at Locavore or Mozaic. Home in time for dinner at Boneka." },
-      { "day": 6, "title": "Snorkeling / Watersports", "description": "Snorkel trip to the Nusa Dua reef (glass-bottom or speedboat). Lunch at Gourmand Deli. Afternoon pool, in-villa spa, butler-drawn bath before bed." },
-      { "day": 7, "title": "Afternoon Tea & Farewell", "description": "Late breakfast. St. Regis Afternoon Tea service (a tradition). Final beach walk, transfer to the airport — under 30 minutes away, perfect for an evening flight." }
+      {
+        "day": 1,
+        "title": "Arrival & Butler Welcome",
+        "description": "20-minute transfer from Denpasar (one of the closest resorts to the airport). Traditional welcome, butler unpacks. Champagne sabering at sunset (St. Regis classic). Dinner at Kayuputi, the beachfront fine-dining restaurant."
+      },
+      {
+        "day": 2,
+        "title": "Beach & Lagoon Day",
+        "description": "Breakfast with ocean view. Morning on the beach — protected by a reef so the swimming is gentle. Afternoon floating in the lagoon with inner tubes (pure decadence). Couples' massage at Remede Spa."
+      },
+      {
+        "day": 3,
+        "title": "Uluwatu Day",
+        "description": "Chauffeured day south — Uluwatu Temple, Padang Padang beach, lunch at Single Fin, sunset Kecak dance. Return for a nightcap at the King Cole Bar (signature Bloody Mary)."
+      },
+      {
+        "day": 4,
+        "title": "Remede Spa Half-Day",
+        "description": "Couples' 4-hour Remede ritual — their signature warm-stone, four-hand massage and silk-wrap facial. Lunch delivered poolside. Evening sunset catamaran cruise."
+      },
+      {
+        "day": 5,
+        "title": "Ubud Excursion",
+        "description": "Early start up to Ubud (75 min): Tegalalang rice terraces, Monkey Forest, Art Museum, long lunch at Locavore or Mozaic. Home in time for dinner at Boneka."
+      },
+      {
+        "day": 6,
+        "title": "Snorkeling / Watersports",
+        "description": "Snorkel trip to the Nusa Dua reef (glass-bottom or speedboat). Lunch at Gourmand Deli. Afternoon pool, in-villa spa, butler-drawn bath before bed."
+      },
+      {
+        "day": 7,
+        "title": "Afternoon Tea & Farewell",
+        "description": "Late breakfast. St. Regis Afternoon Tea service (a tradition). Final beach walk, transfer to the airport — under 30 minutes away, perfect for an evening flight."
+      }
     ],
     "caveats": [
       "Nusa Dua is a gated tourism enclave — it feels a bit more manicured and less 'real Bali' than Ubud or east Bali. You will not be walking out to a Balinese village.",
@@ -38,12 +112,30 @@
       "The Honeymoon Grand Deluxe Suites are nice but feel like very high-end hotel rooms; to truly feel the property you want a villa."
     ],
     "faqs": [
-      { "q": "What's St. Regis butler service actually like?", "a": "Every room has an assigned butler 24/7 — they unpack, press clothes, draw baths, arrange dining reservations, and can deliver coffee or Champagne on demand. It's genuinely useful on a honeymoon." },
-      { "q": "How is the beach?", "a": "Nusa Dua beach is long, white, wide, protected by a reef (calm swimming), and continuously groomed. It's one of the best stretches of sand in south Bali." },
-      { "q": "How close is the airport?", "a": "About 20 minutes by car — it's the closest of the major luxury beach resorts in Bali, good for minimizing jetlag on arrival." },
-      { "q": "Is this better than the Four Seasons Jimbaran or Mulia?", "a": "St. Regis wins on butler service and the lagoon; Four Seasons Jimbaran wins on villa intimacy and cliff-down design; Mulia wins on scale and bar scene. For honeymoons specifically, the Strand Villas at St. Regis are underrated." },
-      { "q": "Are there good restaurants nearby?", "a": "Nusa Dua is enclave-style so most dining happens on-property or at sister resorts. Bumbu Bali (5 min) is a well-regarded outside option; Jimbaran seafood is 15 minutes north." },
-      { "q": "Can the resort host a vow renewal?", "a": "Yes — beach, cliff and chapel options available, with packages starting around $4,000 for intimate ceremonies." }
+      {
+        "q": "What's St. Regis butler service actually like?",
+        "a": "Every room has an assigned butler 24/7 — they unpack, press clothes, draw baths, arrange dining reservations, and can deliver coffee or Champagne on demand. It's genuinely useful on a honeymoon."
+      },
+      {
+        "q": "How is the beach?",
+        "a": "Nusa Dua beach is long, white, wide, protected by a reef (calm swimming), and continuously groomed. It's one of the best stretches of sand in south Bali."
+      },
+      {
+        "q": "How close is the airport?",
+        "a": "About 20 minutes by car — it's the closest of the major luxury beach resorts in Bali, good for minimizing jetlag on arrival."
+      },
+      {
+        "q": "Is this better than the Four Seasons Jimbaran or Mulia?",
+        "a": "St. Regis wins on butler service and the lagoon; Four Seasons Jimbaran wins on villa intimacy and cliff-down design; Mulia wins on scale and bar scene. For honeymoons specifically, the Strand Villas at St. Regis are underrated."
+      },
+      {
+        "q": "Are there good restaurants nearby?",
+        "a": "Nusa Dua is enclave-style so most dining happens on-property or at sister resorts. Bumbu Bali (5 min) is a well-regarded outside option; Jimbaran seafood is 15 minutes north."
+      },
+      {
+        "q": "Can the resort host a vow renewal?",
+        "a": "Yes — beach, cliff and chapel options available, with packages starting around $4,000 for intimate ceremonies."
+      }
     ],
     "email_template": "Subject: Honeymoon booking — Strand Villa, 7 nights, [DATES]\n\nDear St. Regis Bali reservations,\n\nWe're planning our honeymoon from [ARRIVAL] to [DEPARTURE] (7 nights) and would like a Strand Villa with direct beach access.\n\nCould you please send:\n- Best available rate including taxes and service\n- Honeymoon package (butler champagne, dinner, spa credit, floral bath)\n- Afternoon tea reservations for the stay\n- Airport transfer (Butler collection)\n- Any minimum stay or blackout dates\n\nMany thanks,\n[Your names]"
   },

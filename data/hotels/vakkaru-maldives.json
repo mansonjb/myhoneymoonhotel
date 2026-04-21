@@ -3,19 +3,67 @@
   "name": "Vakkaru Maldives",
   "destination": "maldives",
   "country": "maldives",
-  "experience_types": ["beach", "luxury", "overwater-bungalows", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "overwater-bungalows",
+    "wellness"
+  ],
   "honeymoon_score": 86,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 18, "spa": 13, "award": 15, "pool": 10, "beach": 10, "room_service": 5, "stars": 10, "luxury": 5 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 18,
+    "spa": 13,
+    "award": 15,
+    "pool": 10,
+    "beach": 10,
+    "room_service": 5,
+    "stars": 10,
+    "luxury": 5
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 800, "max": 2800 },
+  "price_per_night_usd": {
+    "min": 800,
+    "max": 2800
+  },
   "adults_only": false,
-  "amenities": ["spa", "overwater villas", "private pools", "beach", "manta rays", "yoga pavilion", "dive center", "butler service", "kids club"],
+  "amenities": [
+    "spa",
+    "overwater villas",
+    "private pools",
+    "beach",
+    "manta rays",
+    "yoga pavilion",
+    "dive center",
+    "butler service",
+    "kids club"
+  ],
   "photos": [
-    { "url": "/images/hotels/vakkaru-maldives/hero.webp", "alt": "vakkaru-maldives — hero", "type": "hero" },
-    { "url": "/images/hotels/vakkaru-maldives/room.webp", "alt": "vakkaru-maldives — room", "type": "room" },
-    { "url": "/images/hotels/vakkaru-maldives/pool.webp", "alt": "vakkaru-maldives — pool", "type": "pool" },
-    { "url": "/images/hotels/vakkaru-maldives/spa.webp", "alt": "vakkaru-maldives — spa", "type": "spa" },
-    { "url": "/images/hotels/vakkaru-maldives/dining.webp", "alt": "vakkaru-maldives — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/vakkaru-maldives/hero.webp",
+      "alt": "vakkaru-maldives — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/vakkaru-maldives/room.webp",
+      "alt": "vakkaru-maldives — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/vakkaru-maldives/pool.webp",
+      "alt": "vakkaru-maldives — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/vakkaru-maldives/spa.webp",
+      "alt": "vakkaru-maldives — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/vakkaru-maldives/dining.webp",
+      "alt": "vakkaru-maldives — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.3,
   "tripadvisor_award": true,
@@ -24,22 +72,72 @@
     "verdict": "Family-owned by Crown Group and set in Baa Atoll UNESCO Biosphere Reserve, Vakkaru offers 125 villas across beach and overwater categories with warm Maldivian service. The overwater Onu Onu spa, the lush jungle island, and the fair pricing put it on honeymoon shortlists for couples who want luxury without the Randheli-level bill.",
     "best_room": "The Overwater Pool Villa — infinity pool, direct lagoon access, spacious sundeck. The Beach Pool Villa is equally romantic with a private garden shaded by palms.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Seaplane Transfer", "description": "30-minute seaplane from Malé. Coconut welcome, villa orientation, sunset on your deck." },
-      { "day": 2, "title": "House Reef Snorkel", "description": "Guided morning snorkel — Vakkaru's reef is a highlight — followed by poolside lunch and a couples Onu Onu spa ritual." },
-      { "day": 3, "title": "Hanifaru Bay Manta Day", "description": "Trip to UNESCO Hanifaru Bay (May–Nov) for mantas, lobster lunch at Onu Beach Club, sunset cocktail at The Bar." },
-      { "day": 4, "title": "Spa & Dhoni Cruise", "description": "Morning yoga in the overwater pavilion, afternoon dhoni cruise with dolphin spotting, dinner at Italian restaurant Amaany." },
-      { "day": 5, "title": "Sandbank Picnic", "description": "Boat drop-off at private sandbank with gourmet picnic and Champagne, sunset back at the resort with beach bonfire." },
-      { "day": 6, "title": "Dive or Pamper", "description": "Two-tank dive trip or a lazy day in the pool. Evening degustation dinner at Over The Waves seafood restaurant." },
-      { "day": 7, "title": "Farewell morning", "description": "Floating breakfast, final reef swim, seaplane back to Malé." }
+      {
+        "day": 1,
+        "title": "Arrival & Seaplane Transfer",
+        "description": "30-minute seaplane from Malé. Coconut welcome, villa orientation, sunset on your deck."
+      },
+      {
+        "day": 2,
+        "title": "House Reef Snorkel",
+        "description": "Guided morning snorkel — Vakkaru's reef is a highlight — followed by poolside lunch and a couples Onu Onu spa ritual."
+      },
+      {
+        "day": 3,
+        "title": "Hanifaru Bay Manta Day",
+        "description": "Trip to UNESCO Hanifaru Bay (May–Nov) for mantas, lobster lunch at Onu Beach Club, sunset cocktail at The Bar."
+      },
+      {
+        "day": 4,
+        "title": "Spa & Dhoni Cruise",
+        "description": "Morning yoga in the overwater pavilion, afternoon dhoni cruise with dolphin spotting, dinner at Italian restaurant Amaany."
+      },
+      {
+        "day": 5,
+        "title": "Sandbank Picnic",
+        "description": "Boat drop-off at private sandbank with gourmet picnic and Champagne, sunset back at the resort with beach bonfire."
+      },
+      {
+        "day": 6,
+        "title": "Dive or Pamper",
+        "description": "Two-tank dive trip or a lazy day in the pool. Evening degustation dinner at Over The Waves seafood restaurant."
+      },
+      {
+        "day": 7,
+        "title": "Farewell morning",
+        "description": "Floating breakfast, final reef swim, seaplane back to Malé."
+      }
     ],
-    "caveats": ["Larger villa count means slightly less intimate than boutique peers", "Seaplane only flies in daylight", "Some beach villas have partial privacy due to bush density"],
+    "caveats": [
+      "Larger villa count means slightly less intimate than boutique peers",
+      "Seaplane only flies in daylight",
+      "Some beach villas have partial privacy due to bush density"
+    ],
     "faqs": [
-      { "question": "Good for honeymooners?", "answer": "Yes — strong value, lush island, excellent reef, and warm Maldivian service." },
-      { "question": "Best time to visit?", "answer": "May–November for mantas; December–April for calm, dry weather." },
-      { "question": "Book in advance?", "answer": "3–5 months ahead; frequent honeymoon packages available." },
-      { "question": "Adults-only?", "answer": "No — family-friendly with a kids club, but overwater villas are adult-focused and private." },
-      { "question": "Best room type?", "answer": "Overwater Pool Villa for honeymoons." },
-      { "question": "How to get there?", "answer": "30-minute seaplane from Velana International Airport (MLE)." }
+      {
+        "question": "Good for honeymooners?",
+        "answer": "Yes — strong value, lush island, excellent reef, and warm Maldivian service."
+      },
+      {
+        "question": "Best time to visit?",
+        "answer": "May–November for mantas; December–April for calm, dry weather."
+      },
+      {
+        "question": "Book in advance?",
+        "answer": "3–5 months ahead; frequent honeymoon packages available."
+      },
+      {
+        "question": "Adults-only?",
+        "answer": "No — family-friendly with a kids club, but overwater villas are adult-focused and private."
+      },
+      {
+        "question": "Best room type?",
+        "answer": "Overwater Pool Villa for honeymoons."
+      },
+      {
+        "question": "How to get there?",
+        "answer": "30-minute seaplane from Velana International Airport (MLE)."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Vakkaru Maldives\n\nDear team,\n\nWe are planning our honeymoon and are interested in staying at Vakkaru from [DATE] to [DATE]. Could you advise on availability for an Overwater Pool Villa and honeymoon packages (spa credit, private dining, manta snorkel)?\n\nThank you,\n[Names]"
   },

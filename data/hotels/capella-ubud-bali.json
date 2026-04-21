@@ -3,19 +3,64 @@
   "name": "Capella Ubud",
   "destination": "bali",
   "country": "indonesia",
-  "experience_types": ["luxury", "wellness"],
+  "experience_types": [
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 95,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 20, "spa": 15, "award": 15, "pool": 10, "beach": 0, "room_service": 5, "stars": 10, "luxury": 5 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 20,
+    "spa": 15,
+    "award": 15,
+    "pool": 10,
+    "beach": 0,
+    "room_service": 5,
+    "stars": 10,
+    "luxury": 5
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 1200, "max": 4500 },
+  "price_per_night_usd": {
+    "min": 1200,
+    "max": 4500
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "butler service", "private pool tents", "yoga", "fine dining", "library", "camp-butler"],
+  "amenities": [
+    "spa",
+    "pool",
+    "butler service",
+    "private pool tents",
+    "yoga",
+    "fine dining",
+    "library",
+    "camp-butler"
+  ],
   "photos": [
-    { "url": "/images/hotels/capella-ubud-bali/hero.webp", "alt": "capella-ubud-bali — hero", "type": "hero" },
-    { "url": "/images/hotels/capella-ubud-bali/room.webp", "alt": "capella-ubud-bali — room", "type": "room" },
-    { "url": "/images/hotels/capella-ubud-bali/pool.webp", "alt": "capella-ubud-bali — pool", "type": "pool" },
-    { "url": "/images/hotels/capella-ubud-bali/spa.webp", "alt": "capella-ubud-bali — spa", "type": "spa" },
-    { "url": "/images/hotels/capella-ubud-bali/dining.webp", "alt": "capella-ubud-bali — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/capella-ubud-bali/hero.webp",
+      "alt": "capella-ubud-bali — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/capella-ubud-bali/room.webp",
+      "alt": "capella-ubud-bali — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/capella-ubud-bali/pool.webp",
+      "alt": "capella-ubud-bali — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/capella-ubud-bali/spa.webp",
+      "alt": "capella-ubud-bali — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/capella-ubud-bali/dining.webp",
+      "alt": "capella-ubud-bali — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.7,
   "tripadvisor_award": true,
@@ -24,13 +69,41 @@
     "verdict": "Capella Ubud is Bill Bensley's theatrical masterpiece — a 22-tent luxury camp in the jungle above Keliki, themed as a 19th-century European explorer's expedition. Each tent is a hand-stitched museum piece filled with antiques, with a private pool hanging over the ravine. It is quite simply the most photogenic honeymoon in Bali and regularly tops World's Best lists. For couples who want private, romantic, and storybook — this is the one.",
     "best_room": "The Rainforest Pool Tents set deep in the jungle (rather than the Ridge tents near the lobby) offer the quietest mornings and the most dramatic canopy view. Tent 11 and 18 in particular have uninterrupted ravine drops.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival at Camp", "description": "Transfer from Denpasar (75 min). Traditional welcome ceremony by the camp's pemangku at the lobby 'Officers' Tent'. Tour of the camp including the Api Jiwa fine-dining kitchen. Candlelit dinner at Mads Lange restaurant overlooking the river." },
-      { "day": 2, "title": "Jungle Day", "description": "Private guided trek down to the Wos River with camp naturalists. Picnic lunch on a rock ledge. Afternoon by your tent's private pool, sunset cocktails at the Kudus Library." },
-      { "day": 3, "title": "Ubud Culture Day", "description": "Chauffeured day into Ubud: Tegalalang rice terraces at sunrise (empty before tour buses), Neka Museum, artisan village visits. Lunch at Room4Dessert, return for yoga and evening massage." },
-      { "day": 4, "title": "Spa Day at Auriga", "description": "Auriga spa's 3-hour couples' ritual aligned with the lunar cycle — two therapists, four hands, flower bath, shared treatment pool. In-tent dinner served by your Personal Assistant with a curated wine pairing." },
-      { "day": 5, "title": "Water Temples & Purification", "description": "Early drive to Tirta Empul for a private melukat ceremony, then Pura Gunung Kawi and lunch at a warung overlooking rice terraces. Back to the camp for the tasting menu at Api Jiwa (12-course wood-fire)." },
-      { "day": 6, "title": "Adventure or Indulgence", "description": "Choose: white-water rafting the Ayung (30-min drive), or a full day of nothing at the tent with in-room massage and chef's table. Evening cocktail masterclass with the Library's mixologist." },
-      { "day": 7, "title": "Farewell Ritual & Departure", "description": "Dawn yoga, private breakfast in the Rainforest. Farewell Balinese blessing. Transfer to the airport — the camp stages an elaborate send-off with the whole team in period costume." }
+      {
+        "day": 1,
+        "title": "Arrival at Camp",
+        "description": "Transfer from Denpasar (75 min). Traditional welcome ceremony by the camp's pemangku at the lobby 'Officers' Tent'. Tour of the camp including the Api Jiwa fine-dining kitchen. Candlelit dinner at Mads Lange restaurant overlooking the river."
+      },
+      {
+        "day": 2,
+        "title": "Jungle Day",
+        "description": "Private guided trek down to the Wos River with camp naturalists. Picnic lunch on a rock ledge. Afternoon by your tent's private pool, sunset cocktails at the Kudus Library."
+      },
+      {
+        "day": 3,
+        "title": "Ubud Culture Day",
+        "description": "Chauffeured day into Ubud: Tegalalang rice terraces at sunrise (empty before tour buses), Neka Museum, artisan village visits. Lunch at Room4Dessert, return for yoga and evening massage."
+      },
+      {
+        "day": 4,
+        "title": "Spa Day at Auriga",
+        "description": "Auriga spa's 3-hour couples' ritual aligned with the lunar cycle — two therapists, four hands, flower bath, shared treatment pool. In-tent dinner served by your Personal Assistant with a curated wine pairing."
+      },
+      {
+        "day": 5,
+        "title": "Water Temples & Purification",
+        "description": "Early drive to Tirta Empul for a private melukat ceremony, then Pura Gunung Kawi and lunch at a warung overlooking rice terraces. Back to the camp for the tasting menu at Api Jiwa (12-course wood-fire)."
+      },
+      {
+        "day": 6,
+        "title": "Adventure or Indulgence",
+        "description": "Choose: white-water rafting the Ayung (30-min drive), or a full day of nothing at the tent with in-room massage and chef's table. Evening cocktail masterclass with the Library's mixologist."
+      },
+      {
+        "day": 7,
+        "title": "Farewell Ritual & Departure",
+        "description": "Dawn yoga, private breakfast in the Rainforest. Farewell Balinese blessing. Transfer to the airport — the camp stages an elaborate send-off with the whole team in period costume."
+      }
     ],
     "caveats": [
       "These are still tents — canvas walls mean you hear the jungle at night (most call this a feature). Air-conditioning works fine but insects occasionally visit.",
@@ -38,12 +111,30 @@
       "Food is fantastic but limited to two restaurants on-site (Api Jiwa and Mads Lange) — you'll want some Ubud dinners to mix it up."
     ],
     "faqs": [
-      { "q": "Are all 22 tents identical?", "a": "No — Bensley designed each to be thematically unique (astronomer, botanist, cartographer, etc.), though the layout and amenities are consistent. All 22 have private pools and butler service." },
-      { "q": "How far from central Ubud?", "a": "About 15-20 minutes by car to Ubud Palace. The resort runs complimentary shuttles on a schedule." },
-      { "q": "Is there a main pool?", "a": "Yes, a beautiful central pool overlooking the jungle, but with pool tents most guests use their own." },
-      { "q": "Can the tent accommodate children?", "a": "The tents are designed for two adults (king bed, one bathroom). Some can accommodate an extra person, but Capella Ubud reads as an adults-focused property and families are rare." },
-      { "q": "How does it compare to Mandapa, Amandari, or Four Seasons Sayan?", "a": "Capella is more theatrical and intimate (22 tents vs 60+ suites at Mandapa). Amandari is more classical and understated. Four Seasons Sayan is more family-friendly and larger-scale. For pure honeymoon photography, Capella wins." },
-      { "q": "Is there a spa?", "a": "Yes — Auriga Wellness is a serious, award-winning spa with programs built around lunar cycles. Couples' pavilions with private steam and plunge pools." }
+      {
+        "q": "Are all 22 tents identical?",
+        "a": "No — Bensley designed each to be thematically unique (astronomer, botanist, cartographer, etc.), though the layout and amenities are consistent. All 22 have private pools and butler service."
+      },
+      {
+        "q": "How far from central Ubud?",
+        "a": "About 15-20 minutes by car to Ubud Palace. The resort runs complimentary shuttles on a schedule."
+      },
+      {
+        "q": "Is there a main pool?",
+        "a": "Yes, a beautiful central pool overlooking the jungle, but with pool tents most guests use their own."
+      },
+      {
+        "q": "Can the tent accommodate children?",
+        "a": "The tents are designed for two adults (king bed, one bathroom). Some can accommodate an extra person, but Capella Ubud reads as an adults-focused property and families are rare."
+      },
+      {
+        "q": "How does it compare to Mandapa, Amandari, or Four Seasons Sayan?",
+        "a": "Capella is more theatrical and intimate (22 tents vs 60+ suites at Mandapa). Amandari is more classical and understated. Four Seasons Sayan is more family-friendly and larger-scale. For pure honeymoon photography, Capella wins."
+      },
+      {
+        "q": "Is there a spa?",
+        "a": "Yes — Auriga Wellness is a serious, award-winning spa with programs built around lunar cycles. Couples' pavilions with private steam and plunge pools."
+      }
     ],
     "email_template": "Subject: Honeymoon booking — Rainforest Pool Tent, 7 nights, [DATES]\n\nDear Capella Ubud reservations,\n\nWe're planning our honeymoon and would like to book a Rainforest Pool Tent for 7 nights from [ARRIVAL] to [DEPARTURE]. If possible we'd prefer a tent deep in the rainforest section (ideally tents 11 or 18).\n\nCould you please send:\n- Best available rate including all taxes\n- Honeymoon package (flower bath, cake, spa credit, dinner, etc.)\n- Airport transfer options and pricing\n- Availability of the Auriga lunar couples' ritual during our stay\n- Any minimum-stay requirements in high season\n\nThank you — Capella has been on our dream list for years.\n\nWarm regards,\n[Your names]"
   },

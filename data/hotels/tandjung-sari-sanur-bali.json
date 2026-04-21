@@ -3,19 +3,63 @@
   "name": "Tandjung Sari",
   "destination": "bali",
   "country": "indonesia",
-  "experience_types": ["beach", "luxury"],
+  "experience_types": [
+    "beach",
+    "luxury"
+  ],
   "honeymoon_score": 87,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 17, "spa": 10, "award": 10, "pool": 10, "beach": 10, "room_service": 5, "stars": 10, "luxury": 5 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 17,
+    "spa": 10,
+    "award": 10,
+    "pool": 10,
+    "beach": 10,
+    "room_service": 5,
+    "stars": 10,
+    "luxury": 5
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 400, "max": 1500 },
+  "price_per_night_usd": {
+    "min": 400,
+    "max": 1500
+  },
   "adults_only": false,
-  "amenities": ["beachfront", "pool", "spa", "fine dining", "library", "yoga", "traditional Balinese bungalows"],
+  "amenities": [
+    "beachfront",
+    "pool",
+    "spa",
+    "fine dining",
+    "library",
+    "yoga",
+    "traditional Balinese bungalows"
+  ],
   "photos": [
-    { "url": "/images/hotels/tandjung-sari-sanur-bali/hero.webp", "alt": "tandjung-sari-sanur-bali — hero", "type": "hero" },
-    { "url": "/images/hotels/tandjung-sari-sanur-bali/room.webp", "alt": "tandjung-sari-sanur-bali — room", "type": "room" },
-    { "url": "/images/hotels/tandjung-sari-sanur-bali/pool.webp", "alt": "tandjung-sari-sanur-bali — pool", "type": "pool" },
-    { "url": "/images/hotels/tandjung-sari-sanur-bali/spa.webp", "alt": "tandjung-sari-sanur-bali — spa", "type": "spa" },
-    { "url": "/images/hotels/tandjung-sari-sanur-bali/dining.webp", "alt": "tandjung-sari-sanur-bali — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/tandjung-sari-sanur-bali/hero.webp",
+      "alt": "tandjung-sari-sanur-bali — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/tandjung-sari-sanur-bali/room.webp",
+      "alt": "tandjung-sari-sanur-bali — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/tandjung-sari-sanur-bali/pool.webp",
+      "alt": "tandjung-sari-sanur-bali — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/tandjung-sari-sanur-bali/spa.webp",
+      "alt": "tandjung-sari-sanur-bali — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/tandjung-sari-sanur-bali/dining.webp",
+      "alt": "tandjung-sari-sanur-bali — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.3,
   "tripadvisor_award": true,
@@ -24,13 +68,41 @@
     "verdict": "Tandjung Sari is the original boutique Bali beach hotel — 26 traditional Balinese bungalows on a Sanur beachfront owned by the same Wayan family since 1962. If the newer Amans and Capellas are Bali's Hollywood, Tandjung Sari is Bali's indie classic: faded teak antiques, family photographs, coral-stone courtyards, and the same staff who've been here for thirty years. For honeymooners who want authentic old Bali instead of five-star polish, nothing else compares.",
     "best_room": "A Beachfront Bungalow is the whole reason to come — thatched, two-story with a teak four-poster bed upstairs and a semi-outdoor bathroom. The ones in the front row (1-8) open directly onto the lawn and the beach beyond.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival Into Old Bali", "description": "Transfer from Denpasar (30 min, very close). Welcome with jasmine tea under the banyan tree. Stroll the Sanur beach path. Dinner at the beachfront restaurant — grilled seafood, Javanese curries, traditional gamelan music." },
-      { "day": 2, "title": "Sanur Beach Day", "description": "Sunrise from the beach (Sanur faces east, so it gets Bali's best sunrise). Breakfast, then a lazy day on the reef-protected beach with paddleboards and sun loungers. Afternoon spa, evening dinner." },
-      { "day": 3, "title": "Traditional Bali Culture", "description": "Morning visit to Museum Le Mayeur (next door — Belgian painter's old beachhouse). Afternoon chauffeur to Sangeh monkey forest and Taman Ayun royal temple. Evening Legong dance performance in Sanur." },
-      { "day": 4, "title": "Nusa Lembongan Escape", "description": "Fast ferry from Sanur harbor (25 min) to Nusa Lembongan. Snorkel at Mushroom Bay, lunch at The Beach Club. Back to Tandjung Sari in the late afternoon — you're right across from the ferry pier." },
-      { "day": 5, "title": "Ubud Day Trip", "description": "Hour's drive up to Ubud: Monkey Forest, Ubud Palace, lunch at Locavore. Visit a silversmith in Celuk on the way home. Sunset cocktails on the lawn." },
-      { "day": 6, "title": "Slow Day & Spa", "description": "Yoga session, long breakfast. Morning cooking class (Balinese basa gede). Afternoon couples' massage in a beachfront bale. Private beach dinner with torches." },
-      { "day": 7, "title": "Sunrise Farewell", "description": "Final sunrise on the beach, breakfast, short 30-minute transfer to the airport. Easy on the nerves." }
+      {
+        "day": 1,
+        "title": "Arrival Into Old Bali",
+        "description": "Transfer from Denpasar (30 min, very close). Welcome with jasmine tea under the banyan tree. Stroll the Sanur beach path. Dinner at the beachfront restaurant — grilled seafood, Javanese curries, traditional gamelan music."
+      },
+      {
+        "day": 2,
+        "title": "Sanur Beach Day",
+        "description": "Sunrise from the beach (Sanur faces east, so it gets Bali's best sunrise). Breakfast, then a lazy day on the reef-protected beach with paddleboards and sun loungers. Afternoon spa, evening dinner."
+      },
+      {
+        "day": 3,
+        "title": "Traditional Bali Culture",
+        "description": "Morning visit to Museum Le Mayeur (next door — Belgian painter's old beachhouse). Afternoon chauffeur to Sangeh monkey forest and Taman Ayun royal temple. Evening Legong dance performance in Sanur."
+      },
+      {
+        "day": 4,
+        "title": "Nusa Lembongan Escape",
+        "description": "Fast ferry from Sanur harbor (25 min) to Nusa Lembongan. Snorkel at Mushroom Bay, lunch at The Beach Club. Back to Tandjung Sari in the late afternoon — you're right across from the ferry pier."
+      },
+      {
+        "day": 5,
+        "title": "Ubud Day Trip",
+        "description": "Hour's drive up to Ubud: Monkey Forest, Ubud Palace, lunch at Locavore. Visit a silversmith in Celuk on the way home. Sunset cocktails on the lawn."
+      },
+      {
+        "day": 6,
+        "title": "Slow Day & Spa",
+        "description": "Yoga session, long breakfast. Morning cooking class (Balinese basa gede). Afternoon couples' massage in a beachfront bale. Private beach dinner with torches."
+      },
+      {
+        "day": 7,
+        "title": "Sunrise Farewell",
+        "description": "Final sunrise on the beach, breakfast, short 30-minute transfer to the airport. Easy on the nerves."
+      }
     ],
     "caveats": [
       "This is not a modern polished five-star — rooms are traditional, antiques have character (read: patina), Wi-Fi is passable, not stellar. Couples who need flawless resort precision should choose St. Regis or Four Seasons.",
@@ -38,12 +110,30 @@
       "Bungalows don't have private pools — you share the beachfront pool. If that's a dealbreaker, pick another property on this list."
     ],
     "faqs": [
-      { "q": "Is Tandjung Sari really from 1962?", "a": "Yes — opened by Wija Waworuntu as one of Bali's very first boutique hotels. The current manager is the third generation of the same family." },
-      { "q": "How is Sanur as a location?", "a": "Sanur is Bali's oldest beach town — quieter than Seminyak, flatter and more walkable, with a paved beach boardwalk. Popular with repeat visitors who've outgrown the south's nightlife." },
-      { "q": "How big are the bungalows?", "a": "About 70 square meters with an upper sleeping level and lower living area. Generous for a boutique, not vast by Aman standards." },
-      { "q": "Any weddings or ceremonies?", "a": "Yes — beach blessings and intimate elopements are a specialty. The original owner's family still helps coordinate Balinese ceremonies." },
-      { "q": "How's the food?", "a": "The beachfront restaurant is legitimately good — a favorite of Balinese royalty and expat hotel-owners over decades. Expect Indonesian classics and simple grilled seafood rather than contemporary fine dining." },
-      { "q": "Can we walk into Sanur town?", "a": "Yes — the Danau Tamblingan street (Sanur's main drag) is a 5-minute walk with cafes, massage shops, and warungs." }
+      {
+        "q": "Is Tandjung Sari really from 1962?",
+        "a": "Yes — opened by Wija Waworuntu as one of Bali's very first boutique hotels. The current manager is the third generation of the same family."
+      },
+      {
+        "q": "How is Sanur as a location?",
+        "a": "Sanur is Bali's oldest beach town — quieter than Seminyak, flatter and more walkable, with a paved beach boardwalk. Popular with repeat visitors who've outgrown the south's nightlife."
+      },
+      {
+        "q": "How big are the bungalows?",
+        "a": "About 70 square meters with an upper sleeping level and lower living area. Generous for a boutique, not vast by Aman standards."
+      },
+      {
+        "q": "Any weddings or ceremonies?",
+        "a": "Yes — beach blessings and intimate elopements are a specialty. The original owner's family still helps coordinate Balinese ceremonies."
+      },
+      {
+        "q": "How's the food?",
+        "a": "The beachfront restaurant is legitimately good — a favorite of Balinese royalty and expat hotel-owners over decades. Expect Indonesian classics and simple grilled seafood rather than contemporary fine dining."
+      },
+      {
+        "q": "Can we walk into Sanur town?",
+        "a": "Yes — the Danau Tamblingan street (Sanur's main drag) is a 5-minute walk with cafes, massage shops, and warungs."
+      }
     ],
     "email_template": "Subject: Honeymoon booking — Beachfront Bungalow, 7 nights, [DATES]\n\nDear Tandjung Sari reservations,\n\nWe're planning our honeymoon and would like to stay 7 nights from [ARRIVAL] to [DEPARTURE]. We'd like a Beachfront Bungalow, preferably in the front row with direct beach view.\n\nCould you please send:\n- Best available rate including breakfast and taxes\n- Honeymoon inclusions (floral decor, dinner, massage, Balinese blessing)\n- Airport transfer cost\n- Private beach dinner pricing\n- Any events or ceremonies scheduled during our stay\n\nMany thanks — we love the old Bali character of your property.\n\nKind regards,\n[Your names]"
   },

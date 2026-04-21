@@ -3,19 +3,68 @@
   "name": "Cheval Blanc Randheli",
   "destination": "maldives",
   "country": "maldives",
-  "experience_types": ["beach", "luxury", "overwater-bungalows", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "overwater-bungalows",
+    "wellness"
+  ],
   "honeymoon_score": 90,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 20, "spa": 15, "award": 15, "pool": 10, "beach": 10, "room_service": 5, "stars": 10, "luxury": 5 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 20,
+    "spa": 15,
+    "award": 15,
+    "pool": 10,
+    "beach": 10,
+    "room_service": 5,
+    "stars": 10,
+    "luxury": 5
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 2500, "max": 8000 },
+  "price_per_night_usd": {
+    "min": 2500,
+    "max": 8000
+  },
   "adults_only": false,
-  "amenities": ["spa", "overwater villas", "private pools", "beach", "butler service", "michelin dining", "snorkeling", "diving", "yacht", "kids club"],
+  "amenities": [
+    "spa",
+    "overwater villas",
+    "private pools",
+    "beach",
+    "butler service",
+    "michelin dining",
+    "snorkeling",
+    "diving",
+    "yacht",
+    "kids club"
+  ],
   "photos": [
-    { "url": "/images/hotels/cheval-blanc-randheli-maldives/hero.webp", "alt": "cheval-blanc-randheli-maldives — hero", "type": "hero" },
-    { "url": "/images/hotels/cheval-blanc-randheli-maldives/room.webp", "alt": "cheval-blanc-randheli-maldives — room", "type": "room" },
-    { "url": "/images/hotels/cheval-blanc-randheli-maldives/pool.webp", "alt": "cheval-blanc-randheli-maldives — pool", "type": "pool" },
-    { "url": "/images/hotels/cheval-blanc-randheli-maldives/spa.webp", "alt": "cheval-blanc-randheli-maldives — spa", "type": "spa" },
-    { "url": "/images/hotels/cheval-blanc-randheli-maldives/dining.webp", "alt": "cheval-blanc-randheli-maldives — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/cheval-blanc-randheli-maldives/hero.webp",
+      "alt": "cheval-blanc-randheli-maldives — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/cheval-blanc-randheli-maldives/room.webp",
+      "alt": "cheval-blanc-randheli-maldives — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/cheval-blanc-randheli-maldives/pool.webp",
+      "alt": "cheval-blanc-randheli-maldives — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/cheval-blanc-randheli-maldives/spa.webp",
+      "alt": "cheval-blanc-randheli-maldives — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/cheval-blanc-randheli-maldives/dining.webp",
+      "alt": "cheval-blanc-randheli-maldives — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.6,
   "tripadvisor_award": true,
@@ -24,22 +73,72 @@
     "verdict": "LVMH's flagship Maldivian hideaway in Noonu Atoll is arguably the most polished barefoot-luxury experience in the country. With only 45 villas, a dedicated Alain Ducasse-influenced culinary program, and the White 1921 spa, it delivers a honeymoon that feels both intimate and unforgettable.",
     "best_room": "The Water Villa with private pool is the signature honeymoon choice — perched over a blue lagoon, it offers an over-water hammock, an outdoor shower under the stars, and direct reef access. For a splurge, the two-bedroom Owner's Villa rents an entire beach stretch.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Seaplane Transfer", "description": "Private transfer from Velana International via Cheval Blanc's seaplane lounge. Champagne welcome, villa orientation with your Alchemist (butler), sunset on your deck." },
-      { "day": 2, "title": "Reef & Lagoon Day", "description": "Guided house-reef snorkel with the marine biologist, poolside lunch at Deelani, afternoon couples massage at the White 1921 spa." },
-      { "day": 3, "title": "Private Sandbank Picnic", "description": "Speedboat to a private sandbank with a chef-prepared lobster lunch and chilled Ruinart. Return for sunset cocktails at the Bar." },
-      { "day": 4, "title": "Culinary Immersion", "description": "Morning yoga pavilion session, cooking class with the executive chef, dinner at Le 1947 (the brand's fine-dining signature)." },
-      { "day": 5, "title": "Ocean Adventure", "description": "Dive or snorkel safari to a nearby manta cleaning station, then a sunset dolphin dhoni cruise with canapés." },
-      { "day": 6, "title": "Wellness & Pampering", "description": "Full-day spa ritual — Guerlain facial, hammam, and Balinese massage for two — followed by in-villa teppanyaki dinner served by your Alchemist." },
-      { "day": 7, "title": "Farewell morning", "description": "Slow breakfast on the deck, final lagoon swim, seaplane departure in a branded Cheval Blanc aircraft." }
+      {
+        "day": 1,
+        "title": "Arrival & Seaplane Transfer",
+        "description": "Private transfer from Velana International via Cheval Blanc's seaplane lounge. Champagne welcome, villa orientation with your Alchemist (butler), sunset on your deck."
+      },
+      {
+        "day": 2,
+        "title": "Reef & Lagoon Day",
+        "description": "Guided house-reef snorkel with the marine biologist, poolside lunch at Deelani, afternoon couples massage at the White 1921 spa."
+      },
+      {
+        "day": 3,
+        "title": "Private Sandbank Picnic",
+        "description": "Speedboat to a private sandbank with a chef-prepared lobster lunch and chilled Ruinart. Return for sunset cocktails at the Bar."
+      },
+      {
+        "day": 4,
+        "title": "Culinary Immersion",
+        "description": "Morning yoga pavilion session, cooking class with the executive chef, dinner at Le 1947 (the brand's fine-dining signature)."
+      },
+      {
+        "day": 5,
+        "title": "Ocean Adventure",
+        "description": "Dive or snorkel safari to a nearby manta cleaning station, then a sunset dolphin dhoni cruise with canapés."
+      },
+      {
+        "day": 6,
+        "title": "Wellness & Pampering",
+        "description": "Full-day spa ritual — Guerlain facial, hammam, and Balinese massage for two — followed by in-villa teppanyaki dinner served by your Alchemist."
+      },
+      {
+        "day": 7,
+        "title": "Farewell morning",
+        "description": "Slow breakfast on the deck, final lagoon swim, seaplane departure in a branded Cheval Blanc aircraft."
+      }
     ],
-    "caveats": ["Seaplane transfers operate only in daylight; late arrivals overnight in Malé", "Price excludes 10% service + 16% GST + green tax", "Limited shade on some beach villas at midday"],
+    "caveats": [
+      "Seaplane transfers operate only in daylight; late arrivals overnight in Malé",
+      "Price excludes 10% service + 16% GST + green tax",
+      "Limited shade on some beach villas at midday"
+    ],
     "faqs": [
-      { "question": "Good for honeymooners?", "answer": "Yes — one of the top honeymoon choices in the Maldives thanks to its low villa count, private pools, and Alchemist butler service." },
-      { "question": "Best time to visit?", "answer": "January to April for dry, sunny weather and calm seas. May–October is greener and cheaper but wetter." },
-      { "question": "Book in advance?", "answer": "6–9 months ahead, especially for Christmas, New Year, and February honeymoons." },
-      { "question": "Adults-only?", "answer": "No — children are welcome and there's a Paws Kids Club, but the resort remains refined and couples-heavy." },
-      { "question": "Best room type?", "answer": "Water Villa with pool for honeymoons; Island Villa if you prefer direct beach access." },
-      { "question": "How to get there?", "answer": "45-minute seaplane transfer from Malé Velana International Airport (MLE), included in the package." }
+      {
+        "question": "Good for honeymooners?",
+        "answer": "Yes — one of the top honeymoon choices in the Maldives thanks to its low villa count, private pools, and Alchemist butler service."
+      },
+      {
+        "question": "Best time to visit?",
+        "answer": "January to April for dry, sunny weather and calm seas. May–October is greener and cheaper but wetter."
+      },
+      {
+        "question": "Book in advance?",
+        "answer": "6–9 months ahead, especially for Christmas, New Year, and February honeymoons."
+      },
+      {
+        "question": "Adults-only?",
+        "answer": "No — children are welcome and there's a Paws Kids Club, but the resort remains refined and couples-heavy."
+      },
+      {
+        "question": "Best room type?",
+        "answer": "Water Villa with pool for honeymoons; Island Villa if you prefer direct beach access."
+      },
+      {
+        "question": "How to get there?",
+        "answer": "45-minute seaplane transfer from Malé Velana International Airport (MLE), included in the package."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Cheval Blanc Randheli\n\nDear team,\n\nWe are planning our honeymoon and are interested in staying at Cheval Blanc Randheli from [DATE] to [DATE]. Could you advise on availability for a Water Villa with pool and any honeymoon packages or privileges (private dinner, spa credit, seaplane upgrade)?\n\nThank you,\n[Names]"
   },

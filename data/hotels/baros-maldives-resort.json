@@ -3,19 +3,67 @@
   "name": "Baros Maldives",
   "destination": "maldives",
   "country": "maldives",
-  "experience_types": ["beach", "luxury", "overwater-bungalows", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "overwater-bungalows",
+    "wellness"
+  ],
   "honeymoon_score": 88,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 20, "spa": 13, "award": 15, "pool": 10, "beach": 10, "room_service": 5, "stars": 10, "luxury": 5 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 20,
+    "spa": 13,
+    "award": 15,
+    "pool": 10,
+    "beach": 10,
+    "room_service": 5,
+    "stars": 10,
+    "luxury": 5
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 700, "max": 2800 },
+  "price_per_night_usd": {
+    "min": 700,
+    "max": 2800
+  },
   "adults_only": false,
-  "amenities": ["spa", "overwater villas", "private pools", "beach", "lighthouse restaurant", "house reef", "butler service", "diving", "snorkeling"],
+  "amenities": [
+    "spa",
+    "overwater villas",
+    "private pools",
+    "beach",
+    "lighthouse restaurant",
+    "house reef",
+    "butler service",
+    "diving",
+    "snorkeling"
+  ],
   "photos": [
-    { "url": "/images/hotels/baros-maldives-resort/hero.webp", "alt": "baros-maldives-resort — hero", "type": "hero" },
-    { "url": "/images/hotels/baros-maldives-resort/room.webp", "alt": "baros-maldives-resort — room", "type": "room" },
-    { "url": "/images/hotels/baros-maldives-resort/pool.webp", "alt": "baros-maldives-resort — pool", "type": "pool" },
-    { "url": "/images/hotels/baros-maldives-resort/spa.webp", "alt": "baros-maldives-resort — spa", "type": "spa" },
-    { "url": "/images/hotels/baros-maldives-resort/dining.webp", "alt": "baros-maldives-resort — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/baros-maldives-resort/hero.webp",
+      "alt": "baros-maldives-resort — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/baros-maldives-resort/room.webp",
+      "alt": "baros-maldives-resort — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/baros-maldives-resort/pool.webp",
+      "alt": "baros-maldives-resort — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/baros-maldives-resort/spa.webp",
+      "alt": "baros-maldives-resort — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/baros-maldives-resort/dining.webp",
+      "alt": "baros-maldives-resort — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.5,
   "tripadvisor_award": true,
@@ -24,22 +72,72 @@
     "verdict": "Baros is the grand dame of Maldivian honeymoons — 75 villas on a compact, lush North Malé island with a much-loved Lighthouse Restaurant overwater dining room and a Condé Nast Gold List reputation. One of the Maldives' oldest resorts but consistently renovated, it offers timeless romance at accessible five-star prices.",
     "best_room": "The Water Pool Villa — thatched roof, sun deck with private pool, ladder into the house reef. For beach lovers, the Baros Premium Pool Villa sits beachfront with a garden wall for privacy.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Speedboat Transfer", "description": "25-minute speedboat from Malé. Classic welcome with coconut water, villa orientation, sunset at Sails Bar." },
-      { "day": 2, "title": "House Reef Day", "description": "Baros' house reef is ranked among the best — full morning snorkel, poolside lunch, sunset at the Piano Deck with live jazz." },
-      { "day": 3, "title": "Lighthouse Dinner", "description": "Spa afternoon, signature overwater dinner at the Lighthouse Restaurant — degustation menu with wine pairing." },
-      { "day": 4, "title": "Private Sandbank Experience", "description": "Boat drop-off at a sandbank with gourmet picnic and Champagne, sunset dhoni cruise with dolphins." },
-      { "day": 5, "title": "Spa & Beach Dinner", "description": "Couples ritual at The Serenity Spa, private beach dinner with a dedicated waiter and candlelight." },
-      { "day": 6, "title": "Dive or Relax", "description": "Two-tank dive trip or lazy day by the pool, dinner at Cayenne Grill with live guitar." },
-      { "day": 7, "title": "Farewell morning", "description": "Slow breakfast at Lime, final reef swim, speedboat back to Malé." }
+      {
+        "day": 1,
+        "title": "Arrival & Speedboat Transfer",
+        "description": "25-minute speedboat from Malé. Classic welcome with coconut water, villa orientation, sunset at Sails Bar."
+      },
+      {
+        "day": 2,
+        "title": "House Reef Day",
+        "description": "Baros' house reef is ranked among the best — full morning snorkel, poolside lunch, sunset at the Piano Deck with live jazz."
+      },
+      {
+        "day": 3,
+        "title": "Lighthouse Dinner",
+        "description": "Spa afternoon, signature overwater dinner at the Lighthouse Restaurant — degustation menu with wine pairing."
+      },
+      {
+        "day": 4,
+        "title": "Private Sandbank Experience",
+        "description": "Boat drop-off at a sandbank with gourmet picnic and Champagne, sunset dhoni cruise with dolphins."
+      },
+      {
+        "day": 5,
+        "title": "Spa & Beach Dinner",
+        "description": "Couples ritual at The Serenity Spa, private beach dinner with a dedicated waiter and candlelight."
+      },
+      {
+        "day": 6,
+        "title": "Dive or Relax",
+        "description": "Two-tank dive trip or lazy day by the pool, dinner at Cayenne Grill with live guitar."
+      },
+      {
+        "day": 7,
+        "title": "Farewell morning",
+        "description": "Slow breakfast at Lime, final reef swim, speedboat back to Malé."
+      }
     ],
-    "caveats": ["Island is small — 10-minute walk end-to-end", "Older-style villa design than newer peers (though well-maintained)", "No children under 8 means family-heavy trips not ideal"],
+    "caveats": [
+      "Island is small — 10-minute walk end-to-end",
+      "Older-style villa design than newer peers (though well-maintained)",
+      "No children under 8 means family-heavy trips not ideal"
+    ],
     "faqs": [
-      { "question": "Good for honeymooners?", "answer": "Yes — a classic honeymoon island with high couples-review scores and timeless romance." },
-      { "question": "Best time to visit?", "answer": "December to April for dry, sunny weather. Low season offers strong value." },
-      { "question": "Book in advance?", "answer": "3–6 months; honeymoon villas go fast." },
-      { "question": "Adults-only?", "answer": "No, but minimum age 8 and the ambience is couples-focused." },
-      { "question": "Best room type?", "answer": "Water Pool Villa for honeymooners." },
-      { "question": "How to get there?", "answer": "25-minute speedboat from Velana International Airport (MLE) — runs 24/7, no seaplane required." }
+      {
+        "question": "Good for honeymooners?",
+        "answer": "Yes — a classic honeymoon island with high couples-review scores and timeless romance."
+      },
+      {
+        "question": "Best time to visit?",
+        "answer": "December to April for dry, sunny weather. Low season offers strong value."
+      },
+      {
+        "question": "Book in advance?",
+        "answer": "3–6 months; honeymoon villas go fast."
+      },
+      {
+        "question": "Adults-only?",
+        "answer": "No, but minimum age 8 and the ambience is couples-focused."
+      },
+      {
+        "question": "Best room type?",
+        "answer": "Water Pool Villa for honeymooners."
+      },
+      {
+        "question": "How to get there?",
+        "answer": "25-minute speedboat from Velana International Airport (MLE) — runs 24/7, no seaplane required."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Baros Maldives\n\nDear team,\n\nWe are planning our honeymoon and are interested in staying at Baros Maldives from [DATE] to [DATE]. Could you advise on availability for a Water Pool Villa and honeymoon amenities (Lighthouse dinner, spa credit, sandbank experience)?\n\nThank you,\n[Names]"
   },
