@@ -4,7 +4,37 @@ import { Instrument_Serif } from 'next/font/google'
 import Link from 'next/link'
 import CookieBanner from '@/components/CookieBanner'
 import NewsletterCapture from '@/components/NewsletterCapture'
+import HeaderNav from '@/components/HeaderNav'
+import { getAllHotels } from '@/lib/hotels'
 import './globals.css'
+
+// Destination → region mapping (shared with home page)
+const REGION_OF: Record<string, string> = {
+  'maldives': 'Indian Ocean', 'seychelles': 'Indian Ocean', 'mauritius': 'Indian Ocean',
+  'zanzibar': 'Indian Ocean', 'mozambique': 'Indian Ocean', 'reunion': 'Indian Ocean',
+  'sri-lanka': 'Indian Ocean',
+  'bora-bora': 'South Pacific', 'french-polynesia': 'South Pacific', 'fiji': 'South Pacific',
+  'new-zealand': 'South Pacific',
+  'st-lucia': 'Caribbean & Americas', 'turks-and-caicos': 'Caribbean & Americas',
+  'st-barts': 'Caribbean & Americas', 'caribbean': 'Caribbean & Americas',
+  'mexico': 'Caribbean & Americas', 'costa-rica': 'Caribbean & Americas',
+  'santorini': 'Europe', 'greece': 'Europe', 'amalfi': 'Europe',
+  'croatia': 'Europe', 'portugal': 'Europe', 'spain': 'Europe',
+  'hawaii': 'North America', 'cape-verde': 'Africa & Middle East',
+  'kenya': 'Africa Safari', 'tanzania': 'Africa Safari', 'south-africa': 'Africa Safari',
+  'morocco': 'Africa & Middle East',
+  'thailand': 'Asia', 'indonesia': 'Asia', 'bali': 'Asia', 'philippines': 'Asia',
+  'vietnam': 'Asia', 'cambodia': 'Asia', 'japan': 'Asia',
+}
+
+const EXPERIENCES = [
+  { slug: 'overwater-bungalows', label: 'Overwater Villas', icon: '🌊', sub: 'Sleep above the lagoon' },
+  { slug: 'adults-only',         label: 'Adults-Only',       icon: '🥂', sub: 'No families. Pure romance.' },
+  { slug: 'luxury',              label: 'Ultra-Luxury',      icon: '💎', sub: 'The finest on earth' },
+  { slug: 'safari',              label: 'Safari & Bush',     icon: '🦁', sub: 'Big Five under canvas' },
+  { slug: 'beach',               label: 'Beach',             icon: '🏖', sub: 'White sand, turquoise water' },
+  { slug: 'wellness',            label: 'Wellness & Spa',    icon: '🧘', sub: 'Yoga, onsen, holistic retreats' },
+]
 
 const geist = Geist({ subsets: ['latin'], variable: '--font-geist' })
 const instrumentSerif = Instrument_Serif({
@@ -24,6 +54,19 @@ export const metadata: Metadata = {
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  // Build destination list with live counts + region grouping for the nav dropdown
+  const allHotels = getAllHotels()
+  const counts = allHotels.reduce((acc, h) => {
+    acc[h.destination] = (acc[h.destination] ?? 0) + 1
+    return acc
+  }, {} as Record<string, number>)
+  const destinations = Object.entries(counts).map(([slug, count]) => ({
+    slug,
+    label: slug.split('-').map(s => s.charAt(0).toUpperCase() + s.slice(1)).join(' '),
+    count,
+    region: REGION_OF[slug] ?? 'Other',
+  }))
+
   return (
     <html lang="en" className={`${geist.variable} ${instrumentSerif.variable}`}>
       <head>
@@ -46,20 +89,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
         {/* Header */}
         <header className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-zinc-100">
-          <div className="max-w-7xl mx-auto px-6 h-[60px] flex items-center justify-between">
+          <div className="max-w-7xl mx-auto px-6 h-[60px] flex items-center justify-between relative">
             <Link href="/" className="flex items-center gap-1.5">
               <span className="text-rose-400 text-base leading-none">◆</span>
               <span className="text-sm font-semibold tracking-wide text-zinc-900 uppercase">MyHoneymoonHotel</span>
             </Link>
 
-            <nav className="hidden md:flex items-center gap-8 text-[13px] text-zinc-500">
-              <Link href="/destinations/maldives" className="hover:text-zinc-900 transition-colors">Maldives</Link>
-              <Link href="/destinations/bora-bora" className="hover:text-zinc-900 transition-colors">Bora Bora</Link>
-              <Link href="/destinations/st-lucia" className="hover:text-zinc-900 transition-colors">St. Lucia</Link>
-              <Link href="/experiences/overwater-bungalows" className="hover:text-zinc-900 transition-colors">Overwater</Link>
-              <Link href="/experiences/adults-only" className="hover:text-zinc-900 transition-colors">Adults-Only</Link>
-              <Link href="/experiences/safari" className="hover:text-zinc-900 transition-colors">Safari</Link>
-            </nav>
+            <HeaderNav destinations={destinations} experiences={EXPERIENCES} />
 
             <Link
               href="/quiz"
