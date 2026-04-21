@@ -3,19 +3,64 @@
   "name": "Amandari",
   "destination": "bali",
   "country": "indonesia",
-  "experience_types": ["luxury", "wellness"],
+  "experience_types": [
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 95,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 20, "spa": 15, "award": 15, "pool": 10, "beach": 0, "room_service": 5, "stars": 10, "luxury": 5 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 20,
+    "spa": 15,
+    "award": 15,
+    "pool": 10,
+    "beach": 0,
+    "room_service": 5,
+    "stars": 10,
+    "luxury": 5
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 1200, "max": 4000 },
+  "price_per_night_usd": {
+    "min": 1200,
+    "max": 4000
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "butler service", "yoga", "private pool villas", "fine dining", "library", "gallery"],
+  "amenities": [
+    "spa",
+    "pool",
+    "butler service",
+    "yoga",
+    "private pool villas",
+    "fine dining",
+    "library",
+    "gallery"
+  ],
   "photos": [
-    { "url": "/images/hotels/amandari-ubud-bali/hero.webp", "alt": "amandari-ubud-bali — hero", "type": "hero" },
-    { "url": "/images/hotels/amandari-ubud-bali/room.webp", "alt": "amandari-ubud-bali — room", "type": "room" },
-    { "url": "/images/hotels/amandari-ubud-bali/pool.webp", "alt": "amandari-ubud-bali — pool", "type": "pool" },
-    { "url": "/images/hotels/amandari-ubud-bali/spa.webp", "alt": "amandari-ubud-bali — spa", "type": "spa" },
-    { "url": "/images/hotels/amandari-ubud-bali/dining.webp", "alt": "amandari-ubud-bali — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/amandari-ubud-bali/hero.webp",
+      "alt": "amandari-ubud-bali — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/amandari-ubud-bali/room.webp",
+      "alt": "amandari-ubud-bali — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/amandari-ubud-bali/pool.webp",
+      "alt": "amandari-ubud-bali — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/amandari-ubud-bali/spa.webp",
+      "alt": "amandari-ubud-bali — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/amandari-ubud-bali/dining.webp",
+      "alt": "amandari-ubud-bali — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.6,
   "tripadvisor_award": true,
@@ -24,13 +69,41 @@
     "verdict": "Amandari is the original Bali Aman and arguably the most soulful luxury property on the island — a 30-suite village sitting on the edge of the Ayung River gorge in Kedewatan, a ten-minute drive from central Ubud. Thatched alang-alang roofs, paras-stone walls and courtyard layouts were designed in 1989 by Peter Muller to mirror a Balinese banjar, and three decades later it still feels more like a sacred compound than a hotel. Come here for the quietest honeymoon in Ubud, where chanting from the village temple drifts over breakfast.",
     "best_room": "Book a Valley Suite with private pool — the ones numbered in the 30s face directly into the gorge, with a 10-meter jade pool built into a terraced deck overlooking rice fields and the Ayung. The outdoor sunken tub under the frangipani is where most honeymooners end up at sunset.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Welcome Blessing", "description": "Private airport transfer from Denpasar (75 minutes). On arrival, a Balinese pemangku performs a melukat purification ceremony in your suite. Dinner at The Restaurant with the rice terrace view, open Indonesian rijsttafel." },
-      { "day": 2, "title": "Ayung River & Rice Terraces", "description": "Morning white-water rafting down the Ayung organized in-house, followed by a private trek through the rice paddies with the resort's cultural guide. Afternoon by your villa pool, sunset cocktails at the Amandari bar." },
-      { "day": 3, "title": "Temples of Ubud", "description": "Chauffeured day with a local priest-guide visiting Gunung Kawi, Tirta Empul holy water temple (private purification), and Goa Gajah. Dinner at Mozaic or Locavale in Ubud town." },
-      { "day": 4, "title": "Spa & Stillness Day", "description": "Couples' four-handed Balinese massage and flower bath at the Amandari spa. Private yoga session overlooking the gorge. Room-service dinner on your pool deck with gamelan musicians." },
-      { "day": 5, "title": "Ubud Art & Craft Day", "description": "Visit the Agung Rai Museum of Art, the Neka Museum, and a silversmith in Celuk. Private painting class with a Batuan master in the afternoon. Dinner at Bridges Ubud over the Campuhan ravine." },
-      { "day": 6, "title": "Mount Batur Sunrise & Volcano Breakfast", "description": "Pre-dawn departure with a guide to summit Mount Batur for sunrise (active hike, about 2 hours up). Breakfast at the crater rim, then relax at Toya Bungkah hot springs before returning to the resort for an afternoon swim." },
-      { "day": 7, "title": "Private Ceremony & Departure", "description": "A private temple blessing with the resort's resident priest to bless your marriage. Late breakfast, final swim, and transfer to Denpasar. The staff line the driveway to wave you off — a small but emotional Amandari tradition." }
+      {
+        "day": 1,
+        "title": "Arrival & Welcome Blessing",
+        "description": "Private airport transfer from Denpasar (75 minutes). On arrival, a Balinese pemangku performs a melukat purification ceremony in your suite. Dinner at The Restaurant with the rice terrace view, open Indonesian rijsttafel."
+      },
+      {
+        "day": 2,
+        "title": "Ayung River & Rice Terraces",
+        "description": "Morning white-water rafting down the Ayung organized in-house, followed by a private trek through the rice paddies with the resort's cultural guide. Afternoon by your villa pool, sunset cocktails at the Amandari bar."
+      },
+      {
+        "day": 3,
+        "title": "Temples of Ubud",
+        "description": "Chauffeured day with a local priest-guide visiting Gunung Kawi, Tirta Empul holy water temple (private purification), and Goa Gajah. Dinner at Mozaic or Locavale in Ubud town."
+      },
+      {
+        "day": 4,
+        "title": "Spa & Stillness Day",
+        "description": "Couples' four-handed Balinese massage and flower bath at the Amandari spa. Private yoga session overlooking the gorge. Room-service dinner on your pool deck with gamelan musicians."
+      },
+      {
+        "day": 5,
+        "title": "Ubud Art & Craft Day",
+        "description": "Visit the Agung Rai Museum of Art, the Neka Museum, and a silversmith in Celuk. Private painting class with a Batuan master in the afternoon. Dinner at Bridges Ubud over the Campuhan ravine."
+      },
+      {
+        "day": 6,
+        "title": "Mount Batur Sunrise & Volcano Breakfast",
+        "description": "Pre-dawn departure with a guide to summit Mount Batur for sunrise (active hike, about 2 hours up). Breakfast at the crater rim, then relax at Toya Bungkah hot springs before returning to the resort for an afternoon swim."
+      },
+      {
+        "day": 7,
+        "title": "Private Ceremony & Departure",
+        "description": "A private temple blessing with the resort's resident priest to bless your marriage. Late breakfast, final swim, and transfer to Denpasar. The staff line the driveway to wave you off — a small but emotional Amandari tradition."
+      }
     ],
     "caveats": [
       "No direct beach access — you are in the jungle mountains, a 60-90 minute drive from south Bali beaches.",
@@ -38,12 +111,30 @@
       "This is a contemplative resort — no nightclubs, no swim-up bars. If you want Seminyak energy, stay elsewhere."
     ],
     "faqs": [
-      { "q": "Is Amandari adults-only?", "a": "No, it accepts families, but the layout, pace and price point mean you will rarely see children. Couples make up roughly 80% of guests." },
-      { "q": "How far is Amandari from Ubud center?", "a": "About 10 minutes by car (5 km) to Ubud Palace. The resort runs a complimentary shuttle several times a day." },
-      { "q": "Do all suites have private pools?", "a": "No — there are 12 pool suites; the rest share the signature 30-meter green-stone main pool that cantilevers over the gorge. Honeymooners should always book a pool suite." },
-      { "q": "Can Amandari host a wedding or vow renewal?", "a": "Yes — the resort specializes in intimate Balinese-blessing ceremonies (8-20 guests) with their own pemangku and in the resort's bale agung. Western legal weddings are handled via a separate civil office in Denpasar." },
-      { "q": "What's the best time of year to visit?", "a": "May-September is the dry season and optimal. April and October are shoulder months with fewer crowds and lower rates. November-March is the green season with daily afternoon downpours but the rice terraces are spectacular." },
-      { "q": "Is the food worth eating on-property or should we go into Ubud?", "a": "The Restaurant is genuinely excellent — the Indonesian tasting menu and the Sunday Balinese megibung feast are destinations in themselves. But Ubud has world-class dining, so mix it up." }
+      {
+        "q": "Is Amandari adults-only?",
+        "a": "No, it accepts families, but the layout, pace and price point mean you will rarely see children. Couples make up roughly 80% of guests."
+      },
+      {
+        "q": "How far is Amandari from Ubud center?",
+        "a": "About 10 minutes by car (5 km) to Ubud Palace. The resort runs a complimentary shuttle several times a day."
+      },
+      {
+        "q": "Do all suites have private pools?",
+        "a": "No — there are 12 pool suites; the rest share the signature 30-meter green-stone main pool that cantilevers over the gorge. Honeymooners should always book a pool suite."
+      },
+      {
+        "q": "Can Amandari host a wedding or vow renewal?",
+        "a": "Yes — the resort specializes in intimate Balinese-blessing ceremonies (8-20 guests) with their own pemangku and in the resort's bale agung. Western legal weddings are handled via a separate civil office in Denpasar."
+      },
+      {
+        "q": "What's the best time of year to visit?",
+        "a": "May-September is the dry season and optimal. April and October are shoulder months with fewer crowds and lower rates. November-March is the green season with daily afternoon downpours but the rice terraces are spectacular."
+      },
+      {
+        "q": "Is the food worth eating on-property or should we go into Ubud?",
+        "a": "The Restaurant is genuinely excellent — the Indonesian tasting menu and the Sunday Balinese megibung feast are destinations in themselves. But Ubud has world-class dining, so mix it up."
+      }
     ],
     "email_template": "Subject: Honeymoon booking enquiry — 7 nights, pool suite, [DATES]\n\nDear Amandari reservations team,\n\nWe are planning our honeymoon and would like to stay with you for 7 nights from [ARRIVAL DATE] to [DEPARTURE DATE]. We'd like to book a Valley Suite with private pool (ideally in the 30s block with the gorge view).\n\nCould you please confirm:\n- Availability and all-in rate including taxes and service\n- Honeymoon amenities you typically include (welcome blessing, dinner, spa credit)\n- Possibility of a private melukat purification ceremony on arrival\n- Airport transfer options and cost\n- Any minimum-stay or seasonal surcharge we should be aware of\n\nThank you very much — we've been dreaming of Amandari for years.\n\nWarm regards,\n[Your names]"
   },

@@ -3,19 +3,64 @@
   "name": "Amankila",
   "destination": "bali",
   "country": "indonesia",
-  "experience_types": ["luxury", "beach"],
+  "experience_types": [
+    "luxury",
+    "beach"
+  ],
   "honeymoon_score": 94,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 19, "spa": 15, "award": 15, "pool": 10, "beach": 10, "room_service": 5, "stars": 10, "luxury": 5 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 19,
+    "spa": 15,
+    "award": 15,
+    "pool": 10,
+    "beach": 10,
+    "room_service": 5,
+    "stars": 10,
+    "luxury": 5
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 1000, "max": 3500 },
+  "price_per_night_usd": {
+    "min": 1000,
+    "max": 3500
+  },
   "adults_only": false,
-  "amenities": ["spa", "pool", "beach club", "private pool suites", "butler service", "fine dining", "library", "sailing"],
+  "amenities": [
+    "spa",
+    "pool",
+    "beach club",
+    "private pool suites",
+    "butler service",
+    "fine dining",
+    "library",
+    "sailing"
+  ],
   "photos": [
-    { "url": "/images/hotels/amankila-candidasa-bali/hero.webp", "alt": "amankila-candidasa-bali — hero", "type": "hero" },
-    { "url": "/images/hotels/amankila-candidasa-bali/room.webp", "alt": "amankila-candidasa-bali — room", "type": "room" },
-    { "url": "/images/hotels/amankila-candidasa-bali/pool.webp", "alt": "amankila-candidasa-bali — pool", "type": "pool" },
-    { "url": "/images/hotels/amankila-candidasa-bali/spa.webp", "alt": "amankila-candidasa-bali — spa", "type": "spa" },
-    { "url": "/images/hotels/amankila-candidasa-bali/dining.webp", "alt": "amankila-candidasa-bali — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/amankila-candidasa-bali/hero.webp",
+      "alt": "amankila-candidasa-bali — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/amankila-candidasa-bali/room.webp",
+      "alt": "amankila-candidasa-bali — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/amankila-candidasa-bali/pool.webp",
+      "alt": "amankila-candidasa-bali — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/amankila-candidasa-bali/spa.webp",
+      "alt": "amankila-candidasa-bali — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/amankila-candidasa-bali/dining.webp",
+      "alt": "amankila-candidasa-bali — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.5,
   "tripadvisor_award": true,
@@ -24,13 +69,41 @@
     "verdict": "Amankila is the quiet Aman on east Bali's forgotten coast — 34 thatched-roof suites tumbling down a cliffside above a black-sand beach, anchored by the most photographed three-tier infinity pool in Asia. Without the Ubud crowds or the Seminyak traffic, this is the honeymoon for couples who want untouched Bali, sacred Mount Agung looming overhead, and long do-nothing days. It is, by broad consensus, the most romantic of the three Bali Amans.",
     "best_room": "Request a Pool Suite on the lower tier — these have their own private pools cantilevered toward the Lombok Strait, plus a separate sleeping pavilion and an outdoor shower. The Indrakila and Kilasari suites at the far end are the most private.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival on the Quiet Coast", "description": "Transfer from Denpasar (90 min through Gianyar, past royal water palaces). Suite check-in with a fresh coconut, orientation tour. Cocktails at the Terrace bar as the 3-tier pool glows over the ocean, then dinner at The Restaurant." },
-      { "day": 2, "title": "Beach Club Day", "description": "Breakfast in the suite. Morning shuttle down to the Beach Club for a full day on black sand — the 42-meter beach pool, lounge dining, paddle sup in the calm bay. Sunset at the Terrace, dinner on the beach." },
-      { "day": 3, "title": "East Bali Temples", "description": "Chauffeured half day: Tirta Gangga water palace (bathe in the spring pools), Taman Ujung royal water garden, Besakih Mother Temple at Mt Agung's foot. Lunch at a rural warung. Evening spa treatment." },
-      { "day": 4, "title": "Private Boat & Snorkeling", "description": "Amankila's traditional jukung sailboat charter to a quiet snorkel spot off Gili Mimpang. Picnic lunch on board. Return to the resort pool in the afternoon, dinner at the Beach Club." },
-      { "day": 5, "title": "Salt Farm & Tenganan", "description": "Visit the traditional salt farmers of Kusamba (sea-water evaporation), then the Bali Aga village of Tenganan (pre-Majapahit Bali, double-ikat weaving). Lunch with a family. Yoga at sunset on the Terrace." },
-      { "day": 6, "title": "Indulgence Day", "description": "Full-day couples' spa ritual — 4 hours of shared treatments plus flower bath. Private cinema set up at the pool in the evening with in-room dining on your deck under stars." },
-      { "day": 7, "title": "Mount Agung Sunrise or Sleep-in, Then Farewell", "description": "Optional pre-dawn Agung trek for the athletic (serious hike), or sleep in and enjoy the empty pool at sunrise. Breakfast, farewell blessing, transfer to airport." }
+      {
+        "day": 1,
+        "title": "Arrival on the Quiet Coast",
+        "description": "Transfer from Denpasar (90 min through Gianyar, past royal water palaces). Suite check-in with a fresh coconut, orientation tour. Cocktails at the Terrace bar as the 3-tier pool glows over the ocean, then dinner at The Restaurant."
+      },
+      {
+        "day": 2,
+        "title": "Beach Club Day",
+        "description": "Breakfast in the suite. Morning shuttle down to the Beach Club for a full day on black sand — the 42-meter beach pool, lounge dining, paddle sup in the calm bay. Sunset at the Terrace, dinner on the beach."
+      },
+      {
+        "day": 3,
+        "title": "East Bali Temples",
+        "description": "Chauffeured half day: Tirta Gangga water palace (bathe in the spring pools), Taman Ujung royal water garden, Besakih Mother Temple at Mt Agung's foot. Lunch at a rural warung. Evening spa treatment."
+      },
+      {
+        "day": 4,
+        "title": "Private Boat & Snorkeling",
+        "description": "Amankila's traditional jukung sailboat charter to a quiet snorkel spot off Gili Mimpang. Picnic lunch on board. Return to the resort pool in the afternoon, dinner at the Beach Club."
+      },
+      {
+        "day": 5,
+        "title": "Salt Farm & Tenganan",
+        "description": "Visit the traditional salt farmers of Kusamba (sea-water evaporation), then the Bali Aga village of Tenganan (pre-Majapahit Bali, double-ikat weaving). Lunch with a family. Yoga at sunset on the Terrace."
+      },
+      {
+        "day": 6,
+        "title": "Indulgence Day",
+        "description": "Full-day couples' spa ritual — 4 hours of shared treatments plus flower bath. Private cinema set up at the pool in the evening with in-room dining on your deck under stars."
+      },
+      {
+        "day": 7,
+        "title": "Mount Agung Sunrise or Sleep-in, Then Farewell",
+        "description": "Optional pre-dawn Agung trek for the athletic (serious hike), or sleep in and enjoy the empty pool at sunrise. Breakfast, farewell blessing, transfer to airport."
+      }
     ],
     "caveats": [
       "East Bali is rural — no nightlife, no shopping scene, no restaurants of note outside the resort. This is a feature for most honeymooners, a bug for a few.",
@@ -38,12 +111,30 @@
       "90-minute transfer from the airport; the easy fix is to chain with a stay in Ubud or south Bali so you don't fly in and drive three hours."
     ],
     "faqs": [
-      { "q": "Is Amankila walking distance to a town?", "a": "Not really. The nearest village, Manggis, is a 10-minute drive. Candidasa (small tourist town) is 15 minutes. The resort is designed as a self-contained retreat." },
-      { "q": "How is the three-tier pool?", "a": "It's the hero shot for a reason — 35 meters of cascading infinity edges falling toward the sea. It is shared by all suites and can be photographed best around sunrise when empty." },
-      { "q": "What's the difference between a Suite and a Pool Suite?", "a": "Standard Amankila Suites (28 of them) share the 3-tier pool; Pool Suites (6) have their own private pools. Honeymooners should always book the Pool Suite for privacy." },
-      { "q": "Can we combine Amankila with Amandari or Amanjiwo?", "a": "Yes — the Aman group offers a multi-property Bali itinerary with transfers included. The classic is Amandari (Ubud culture) then Amankila (east Bali beach)." },
-      { "q": "Is there phone service / Wi-Fi?", "a": "Wi-Fi is excellent and included. Cell service is decent. That said, the resort has an intentional disconnect atmosphere — most couples barely use their phones." },
-      { "q": "Are there weddings allowed?", "a": "Yes, Amankila hosts intimate weddings (usually 10-40 guests) and vow renewals. The cliff-edge bale above the 3-tier pool is the ceremonial spot." }
+      {
+        "q": "Is Amankila walking distance to a town?",
+        "a": "Not really. The nearest village, Manggis, is a 10-minute drive. Candidasa (small tourist town) is 15 minutes. The resort is designed as a self-contained retreat."
+      },
+      {
+        "q": "How is the three-tier pool?",
+        "a": "It's the hero shot for a reason — 35 meters of cascading infinity edges falling toward the sea. It is shared by all suites and can be photographed best around sunrise when empty."
+      },
+      {
+        "q": "What's the difference between a Suite and a Pool Suite?",
+        "a": "Standard Amankila Suites (28 of them) share the 3-tier pool; Pool Suites (6) have their own private pools. Honeymooners should always book the Pool Suite for privacy."
+      },
+      {
+        "q": "Can we combine Amankila with Amandari or Amanjiwo?",
+        "a": "Yes — the Aman group offers a multi-property Bali itinerary with transfers included. The classic is Amandari (Ubud culture) then Amankila (east Bali beach)."
+      },
+      {
+        "q": "Is there phone service / Wi-Fi?",
+        "a": "Wi-Fi is excellent and included. Cell service is decent. That said, the resort has an intentional disconnect atmosphere — most couples barely use their phones."
+      },
+      {
+        "q": "Are there weddings allowed?",
+        "a": "Yes, Amankila hosts intimate weddings (usually 10-40 guests) and vow renewals. The cliff-edge bale above the 3-tier pool is the ceremonial spot."
+      }
     ],
     "email_template": "Subject: Honeymoon — Pool Suite, 7 nights, [DATES]\n\nDear Amankila reservations,\n\nWe are planning our honeymoon and would love to stay 7 nights from [ARRIVAL] to [DEPARTURE]. We'd like to book a Pool Suite (ideally Indrakila or Kilasari at the far end for privacy).\n\nCould you please confirm:\n- Best available rate including taxes\n- Honeymoon amenities included (welcome, floral bath, dinner, spa credit)\n- Airport transfer options\n- Availability of the private jukung sailboat charter during our dates\n- Combined stay options with Amandari (interest in a split stay)\n\nMany thanks,\n[Your names]"
   },

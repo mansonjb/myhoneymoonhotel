@@ -3,19 +3,67 @@
   "name": "Amilla Maldives Resort & Residences",
   "destination": "maldives",
   "country": "maldives",
-  "experience_types": ["beach", "luxury", "overwater-bungalows", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "overwater-bungalows",
+    "wellness"
+  ],
   "honeymoon_score": 87,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 19, "spa": 13, "award": 15, "pool": 10, "beach": 10, "room_service": 5, "stars": 10, "luxury": 5 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 19,
+    "spa": 13,
+    "award": 15,
+    "pool": 10,
+    "beach": 10,
+    "room_service": 5,
+    "stars": 10,
+    "luxury": 5
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 1000, "max": 10000 },
+  "price_per_night_usd": {
+    "min": 1000,
+    "max": 10000
+  },
   "adults_only": false,
-  "amenities": ["spa", "overwater villas", "mega residences", "private pools", "beach", "organic garden", "sustainability", "butler service", "kids club"],
+  "amenities": [
+    "spa",
+    "overwater villas",
+    "mega residences",
+    "private pools",
+    "beach",
+    "organic garden",
+    "sustainability",
+    "butler service",
+    "kids club"
+  ],
   "photos": [
-    { "url": "/images/hotels/amilla-maldives-resort-residences/hero.webp", "alt": "amilla-maldives-resort-residences — hero", "type": "hero" },
-    { "url": "/images/hotels/amilla-maldives-resort-residences/room.webp", "alt": "amilla-maldives-resort-residences — room", "type": "room" },
-    { "url": "/images/hotels/amilla-maldives-resort-residences/pool.webp", "alt": "amilla-maldives-resort-residences — pool", "type": "pool" },
-    { "url": "/images/hotels/amilla-maldives-resort-residences/spa.webp", "alt": "amilla-maldives-resort-residences — spa", "type": "spa" },
-    { "url": "/images/hotels/amilla-maldives-resort-residences/dining.webp", "alt": "amilla-maldives-resort-residences — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/amilla-maldives-resort-residences/hero.webp",
+      "alt": "amilla-maldives-resort-residences — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/amilla-maldives-resort-residences/room.webp",
+      "alt": "amilla-maldives-resort-residences — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/amilla-maldives-resort-residences/pool.webp",
+      "alt": "amilla-maldives-resort-residences — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/amilla-maldives-resort-residences/spa.webp",
+      "alt": "amilla-maldives-resort-residences — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/amilla-maldives-resort-residences/dining.webp",
+      "alt": "amilla-maldives-resort-residences — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.4,
   "tripadvisor_award": true,
@@ -24,22 +72,72 @@
     "verdict": "In Baa Atoll UNESCO Biosphere Reserve, Amilla stands apart with mega-residences of 4 to 8 bedrooms alongside classic overwater pool villas — ideal for multi-generational honeymoons where parents or siblings join the celebration. Strong eco-credentials, an on-island organic garden, and a child-friendly layout round it out.",
     "best_room": "For classic honeymoon: the Ocean Reef House — overwater with private pool and direct reef access. For families or crew honeymoons: the Beach Residence (4 to 8 bedrooms) — gated compound, private pool, chef and butler included.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Seaplane Transfer", "description": "30-minute seaplane from Malé. Buggy welcome, villa tour, sunset on the deck." },
-      { "day": 2, "title": "Organic Garden & Wellness", "description": "Tour Amilla's on-island organic garden, farm-to-table lunch, couples massage at Javvu Spa, dinner at Feeling Koi." },
-      { "day": 3, "title": "Hanifaru Bay Manta", "description": "Boat to UNESCO Hanifaru Bay (May–Nov) for the manta aggregation, return for a long afternoon at the pool, Italian dinner at Baazaar." },
-      { "day": 4, "title": "Reef & Sandbank", "description": "Morning house-reef snorkel, private sandbank drop-off with picnic and Champagne, sunset dolphin cruise." },
-      { "day": 5, "title": "Spa & Romance", "description": "Full-day spa, private beach dinner under fairy lights with resident chef, fire dancers for the finale." },
-      { "day": 6, "title": "Dive or Slow Day", "description": "Two-tank dive or lazy reading in the overwater hammock. Dinner at Joe's Pizza Bar for something casual." },
-      { "day": 7, "title": "Farewell morning", "description": "Floating breakfast, last reef swim, seaplane back to Malé." }
+      {
+        "day": 1,
+        "title": "Arrival & Seaplane Transfer",
+        "description": "30-minute seaplane from Malé. Buggy welcome, villa tour, sunset on the deck."
+      },
+      {
+        "day": 2,
+        "title": "Organic Garden & Wellness",
+        "description": "Tour Amilla's on-island organic garden, farm-to-table lunch, couples massage at Javvu Spa, dinner at Feeling Koi."
+      },
+      {
+        "day": 3,
+        "title": "Hanifaru Bay Manta",
+        "description": "Boat to UNESCO Hanifaru Bay (May–Nov) for the manta aggregation, return for a long afternoon at the pool, Italian dinner at Baazaar."
+      },
+      {
+        "day": 4,
+        "title": "Reef & Sandbank",
+        "description": "Morning house-reef snorkel, private sandbank drop-off with picnic and Champagne, sunset dolphin cruise."
+      },
+      {
+        "day": 5,
+        "title": "Spa & Romance",
+        "description": "Full-day spa, private beach dinner under fairy lights with resident chef, fire dancers for the finale."
+      },
+      {
+        "day": 6,
+        "title": "Dive or Slow Day",
+        "description": "Two-tank dive or lazy reading in the overwater hammock. Dinner at Joe's Pizza Bar for something casual."
+      },
+      {
+        "day": 7,
+        "title": "Farewell morning",
+        "description": "Floating breakfast, last reef swim, seaplane back to Malé."
+      }
     ],
-    "caveats": ["Island is large — buggies are required to get around", "Residences skew family-focused; overwater villas skew honeymoon", "Price range is wide because residences are much pricier"],
+    "caveats": [
+      "Island is large — buggies are required to get around",
+      "Residences skew family-focused; overwater villas skew honeymoon",
+      "Price range is wide because residences are much pricier"
+    ],
     "faqs": [
-      { "question": "Good for honeymooners?", "answer": "Yes — particularly for couples traveling with family or wanting more space than a standard villa." },
-      { "question": "Best time to visit?", "answer": "May–November for mantas; December–April for classic dry-season weather." },
-      { "question": "Book in advance?", "answer": "4–6 months; residences go earliest." },
-      { "question": "Adults-only?", "answer": "No — one of the most family-friendly luxury islands in the Maldives." },
-      { "question": "Best room type?", "answer": "Ocean Reef House for two-person honeymoons; Beach Residence for groups." },
-      { "question": "How to get there?", "answer": "30-minute seaplane from Velana International Airport (MLE)." }
+      {
+        "question": "Good for honeymooners?",
+        "answer": "Yes — particularly for couples traveling with family or wanting more space than a standard villa."
+      },
+      {
+        "question": "Best time to visit?",
+        "answer": "May–November for mantas; December–April for classic dry-season weather."
+      },
+      {
+        "question": "Book in advance?",
+        "answer": "4–6 months; residences go earliest."
+      },
+      {
+        "question": "Adults-only?",
+        "answer": "No — one of the most family-friendly luxury islands in the Maldives."
+      },
+      {
+        "question": "Best room type?",
+        "answer": "Ocean Reef House for two-person honeymoons; Beach Residence for groups."
+      },
+      {
+        "question": "How to get there?",
+        "answer": "30-minute seaplane from Velana International Airport (MLE)."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Amilla Maldives Resort & Residences\n\nDear team,\n\nWe are planning our honeymoon and are interested in staying at Amilla from [DATE] to [DATE]. Could you advise on availability for an Ocean Reef House or Beach Residence and any honeymoon packages (private dining, spa, manta snorkel)?\n\nThank you,\n[Names]"
   },
