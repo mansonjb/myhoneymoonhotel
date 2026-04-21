@@ -8,23 +8,72 @@ import HeaderNav from '@/components/HeaderNav'
 import { getAllHotels } from '@/lib/hotels'
 import './globals.css'
 
-// Destination → region mapping (shared with home page)
-const REGION_OF: Record<string, string> = {
-  'maldives': 'Indian Ocean', 'seychelles': 'Indian Ocean', 'mauritius': 'Indian Ocean',
-  'zanzibar': 'Indian Ocean', 'mozambique': 'Indian Ocean', 'reunion': 'Indian Ocean',
-  'sri-lanka': 'Indian Ocean',
-  'bora-bora': 'South Pacific', 'french-polynesia': 'South Pacific', 'fiji': 'South Pacific',
-  'new-zealand': 'South Pacific',
-  'st-lucia': 'Caribbean & Americas', 'turks-and-caicos': 'Caribbean & Americas',
-  'st-barts': 'Caribbean & Americas', 'caribbean': 'Caribbean & Americas',
-  'mexico': 'Caribbean & Americas', 'costa-rica': 'Caribbean & Americas',
-  'santorini': 'Europe', 'greece': 'Europe', 'amalfi': 'Europe',
-  'croatia': 'Europe', 'portugal': 'Europe', 'spain': 'Europe',
-  'hawaii': 'North America', 'cape-verde': 'Africa & Middle East',
-  'kenya': 'Africa Safari', 'tanzania': 'Africa Safari', 'south-africa': 'Africa Safari',
-  'morocco': 'Africa & Middle East',
-  'thailand': 'Asia', 'indonesia': 'Asia', 'bali': 'Asia', 'philippines': 'Asia',
-  'vietnam': 'Asia', 'cambodia': 'Asia', 'japan': 'Asia',
+// Destination → region + country mapping (shared with home page and nav)
+const DEST_META: Record<string, { region: string; country: string }> = {
+  // Indian Ocean
+  'maldives':        { region: 'Indian Ocean', country: 'Maldives' },
+  'seychelles':      { region: 'Indian Ocean', country: 'Seychelles' },
+  'mauritius':       { region: 'Indian Ocean', country: 'Mauritius' },
+  'zanzibar':        { region: 'Indian Ocean', country: 'Tanzania' },
+  'mozambique':      { region: 'Indian Ocean', country: 'Mozambique' },
+  'reunion':         { region: 'Indian Ocean', country: 'Réunion' },
+  'sri-lanka':       { region: 'Indian Ocean', country: 'Sri Lanka' },
+  // South Pacific
+  'bora-bora':         { region: 'South Pacific', country: 'French Polynesia' },
+  'french-polynesia':  { region: 'South Pacific', country: 'French Polynesia' },
+  'fiji':              { region: 'South Pacific', country: 'Fiji' },
+  'new-zealand':       { region: 'South Pacific', country: 'New Zealand' },
+  // Caribbean & Americas
+  'st-lucia':          { region: 'Caribbean & Americas', country: 'St. Lucia' },
+  'turks-and-caicos':  { region: 'Caribbean & Americas', country: 'Turks & Caicos' },
+  'st-barts':          { region: 'Caribbean & Americas', country: 'St. Barts' },
+  'caribbean':         { region: 'Caribbean & Americas', country: 'Caribbean' },
+  'mexico':            { region: 'Caribbean & Americas', country: 'Mexico' },
+  'costa-rica':        { region: 'Caribbean & Americas', country: 'Costa Rica' },
+  // Europe
+  'santorini':  { region: 'Europe', country: 'Greece' },
+  'greece':     { region: 'Europe', country: 'Greece' },
+  'amalfi':     { region: 'Europe', country: 'Italy' },
+  'croatia':    { region: 'Europe', country: 'Croatia' },
+  'portugal':   { region: 'Europe', country: 'Portugal' },
+  'spain':      { region: 'Europe', country: 'Spain' },
+  // North America
+  'hawaii':     { region: 'North America', country: 'USA — Hawaii' },
+  // Africa
+  'cape-verde':   { region: 'Africa & Middle East', country: 'Cape Verde' },
+  'morocco':      { region: 'Africa & Middle East', country: 'Morocco' },
+  'kenya':        { region: 'Africa Safari', country: 'Kenya' },
+  'tanzania':     { region: 'Africa Safari', country: 'Tanzania' },
+  'south-africa': { region: 'Africa Safari', country: 'South Africa' },
+  // Asia
+  'thailand':     { region: 'Asia', country: 'Thailand' },
+  'indonesia':    { region: 'Asia', country: 'Indonesia' },
+  'bali':         { region: 'Asia', country: 'Indonesia' },
+  'philippines':  { region: 'Asia', country: 'Philippines' },
+  'vietnam':      { region: 'Asia', country: 'Vietnam' },
+  'cambodia':     { region: 'Asia', country: 'Cambodia' },
+  'japan':        { region: 'Asia', country: 'Japan' },
+}
+
+// Pretty destination label (e.g. "santorini" → "Santorini", "st-barts" → "St. Barts")
+function prettyLabel(slug: string): string {
+  const overrides: Record<string, string> = {
+    'st-lucia': 'St. Lucia',
+    'st-barts': 'St. Barts',
+    'turks-and-caicos': 'Turks & Caicos',
+    'bora-bora': 'Bora Bora',
+    'french-polynesia': 'Rest of French Polynesia',
+    'amalfi': 'Amalfi Coast',
+    'greece': 'Mainland & Mykonos',
+    'hawaii': 'Hawaii',
+    'reunion': 'Réunion',
+    'cape-verde': 'Cape Verde',
+    'sri-lanka': 'Sri Lanka',
+    'costa-rica': 'Costa Rica',
+    'south-africa': 'South Africa',
+    'new-zealand': 'New Zealand',
+  }
+  return overrides[slug] ?? slug.split('-').map(s => s.charAt(0).toUpperCase() + s.slice(1)).join(' ')
 }
 
 const EXPERIENCES = [
@@ -62,9 +111,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   }, {} as Record<string, number>)
   const destinations = Object.entries(counts).map(([slug, count]) => ({
     slug,
-    label: slug.split('-').map(s => s.charAt(0).toUpperCase() + s.slice(1)).join(' '),
+    label: prettyLabel(slug),
     count,
-    region: REGION_OF[slug] ?? 'Other',
+    region: DEST_META[slug]?.region ?? 'Other',
+    country: DEST_META[slug]?.country ?? prettyLabel(slug),
   }))
 
   return (

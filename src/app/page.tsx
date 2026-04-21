@@ -197,21 +197,24 @@ export default function HomePage() {
               </div>
             </div>
 
-            {/* Right: photo grid */}
+            {/* Right: photo grid — local hotel hero images (reliable, matches scored hotels) */}
             <div className="hidden lg:grid grid-cols-2 gap-3 h-[580px]">
               <div className="relative rounded-2xl overflow-hidden row-span-2">
-                <Image src="https://images.unsplash.com/photo-1501595091296-3aa970afb3ff?w=600&q=80" alt="Bora Bora" fill className="object-cover" sizes="280px" />
-                <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/60 to-transparent p-5">
-                  <div className="text-white font-display text-2xl">96</div>
-                  <div className="text-white/60 text-xs">Honeymoon Score™</div>
+                <Image src="/images/hotels/four-seasons-bora-bora/hero.webp" alt="Four Seasons Bora Bora" fill className="object-cover" sizes="280px" />
+                <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/70 to-transparent p-5">
+                  <div className="text-white font-display text-3xl">96<span className="text-white/60 text-lg">/100</span></div>
+                  <div className="text-white/70 text-xs mt-0.5">Four Seasons Bora Bora</div>
                 </div>
               </div>
               <div className="relative rounded-2xl overflow-hidden">
-                <Image src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=600&q=80" alt="St Lucia" fill className="object-cover" sizes="280px" />
+                <Image src="/images/hotels/canaves-oia-suites-greece/hero.webp" alt="Canaves Oia Santorini" fill className="object-cover" sizes="280px" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
                 <div className="absolute top-3 right-3 bg-white/10 backdrop-blur-sm border border-white/20 text-white text-xs px-2.5 py-1 rounded-full">Adults-Only</div>
+                <div className="absolute bottom-3 left-4 text-white text-xs">Canaves Oia — Santorini</div>
               </div>
               <div className="relative rounded-2xl overflow-hidden">
-                <Image src="https://images.unsplash.com/photo-1516426122078-c23e76319801?w=600&q=80" alt="Serengeti" fill className="object-cover" sizes="280px" />
+                <Image src="/images/hotels/angama-mara-kenya/hero.webp" alt="Angama Mara safari lodge" fill className="object-cover" sizes="280px" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
                 <div className="absolute bottom-3 left-3 bg-white/10 backdrop-blur-sm border border-white/20 text-white text-xs px-2.5 py-1 rounded-full">Safari ★ Award</div>
               </div>
             </div>

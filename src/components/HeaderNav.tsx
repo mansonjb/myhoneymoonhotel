@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import { useState, useEffect, useRef } from 'react'
 
-interface DestItem { slug: string; label: string; count: number; region: string }
+interface DestItem { slug: string; label: string; count: number; region: string; country: string }
 interface ExpItem  { slug: string; label: string; icon: string; sub: string }
 
 interface HeaderNavProps {
@@ -38,13 +38,16 @@ export default function HeaderNav({ destinations, experiences }: HeaderNavProps)
     }
   }, [])
 
-  // Group destinations by region
-  const grouped = destinations.reduce((acc, d) => {
-    ;(acc[d.region] ??= []).push(d)
+  // Group: Region → Country → Destinations
+  const byRegion = destinations.reduce((acc, d) => {
+    ;(acc[d.region] ??= {})
+    ;(acc[d.region][d.country] ??= []).push(d)
     return acc
-  }, {} as Record<string, DestItem[]>)
+  }, {} as Record<string, Record<string, DestItem[]>>)
 
-  const sortedRegions = Object.keys(grouped).sort((a, b) => REGION_ORDER.indexOf(a) - REGION_ORDER.indexOf(b))
+  const sortedRegions = Object.keys(byRegion).sort(
+    (a, b) => REGION_ORDER.indexOf(a) - REGION_ORDER.indexOf(b)
+  )
 
   const triggerClass = 'hover:text-zinc-900 transition-colors inline-flex items-center gap-1'
   const activeClass = 'text-zinc-900'
@@ -76,34 +79,74 @@ export default function HeaderNav({ destinations, experiences }: HeaderNavProps)
       <Link href="/quiz" className="hover:text-zinc-900 transition-colors">Quiz</Link>
       <Link href="/about" className="hover:text-zinc-900 transition-colors">About</Link>
 
-      {/* Destinations mega dropdown */}
+      {/* Destinations mega dropdown — grouped by Region → Country → Destinations */}
       {open === 'dest' && (
-        <div className="absolute left-1/2 -translate-x-1/2 top-[60px] w-[min(92vw,900px)] bg-white border border-zinc-100 rounded-b-2xl shadow-2xl z-[60] p-6">
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-5">
-            {sortedRegions.map(region => (
-              <div key={region}>
-                <div className="text-[10px] font-semibold uppercase tracking-widest text-rose-500 mb-3">{region}</div>
-                <ul className="space-y-1.5">
-                  {grouped[region]
-                    .sort((a, b) => b.count - a.count)
-                    .map(d => (
-                      <li key={d.slug}>
-                        <Link
-                          href={`/destinations/${d.slug}`}
-                          onClick={() => setOpen(null)}
-                          className="group flex items-center justify-between py-1 text-[13px] text-zinc-700 hover:text-rose-500 transition-colors"
-                        >
-                          <span>{d.label}</span>
-                          <span className="text-zinc-300 text-xs tabular-nums group-hover:text-rose-400">{d.count}</span>
-                        </Link>
-                      </li>
-                    ))}
-                </ul>
-              </div>
-            ))}
+        <div className="absolute left-1/2 -translate-x-1/2 top-[60px] w-[min(96vw,1000px)] bg-white border border-zinc-100 rounded-b-2xl shadow-2xl z-[60] p-6 max-h-[80vh] overflow-y-auto">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-6">
+            {sortedRegions.map(region => {
+              const countries = byRegion[region]
+              const sortedCountries = Object.keys(countries).sort((a, b) => {
+                const totalA = countries[a].reduce((s, d) => s + d.count, 0)
+                const totalB = countries[b].reduce((s, d) => s + d.count, 0)
+                return totalB - totalA
+              })
+              return (
+                <div key={region}>
+                  <div className="text-[10px] font-semibold uppercase tracking-widest text-rose-500 mb-3">
+                    {region}
+                  </div>
+                  <div className="space-y-3">
+                    {sortedCountries.map(country => {
+                      const dests = countries[country].sort((a, b) => b.count - a.count)
+                      // If country has 1 destination, show inline
+                      if (dests.length === 1) {
+                        const d = dests[0]
+                        return (
+                          <Link
+                            key={d.slug}
+                            href={`/destinations/${d.slug}`}
+                            onClick={() => setOpen(null)}
+                            className="group flex items-center justify-between py-0.5 text-[13px] text-zinc-700 hover:text-rose-500 transition-colors"
+                          >
+                            <span>{country}</span>
+                            <span className="text-zinc-300 text-xs tabular-nums group-hover:text-rose-400">{d.count}</span>
+                          </Link>
+                        )
+                      }
+                      // Multiple destinations under one country — show country header + indented children
+                      const total = dests.reduce((s, d) => s + d.count, 0)
+                      return (
+                        <div key={country}>
+                          <div className="flex items-center justify-between py-0.5 text-[13px] font-semibold text-zinc-900">
+                            <span>{country}</span>
+                            <span className="text-zinc-300 text-xs tabular-nums">{total}</span>
+                          </div>
+                          <ul className="mt-1 space-y-0.5 border-l border-zinc-100 pl-3 ml-0">
+                            {dests.map(d => (
+                              <li key={d.slug}>
+                                <Link
+                                  href={`/destinations/${d.slug}`}
+                                  onClick={() => setOpen(null)}
+                                  className="group flex items-center justify-between py-1 text-[12px] text-zinc-600 hover:text-rose-500 transition-colors"
+                                >
+                                  <span>{d.label}</span>
+                                  <span className="text-zinc-300 text-[11px] tabular-nums group-hover:text-rose-400">{d.count}</span>
+                                </Link>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      )
+                    })}
+                  </div>
+                </div>
+              )
+            })}
           </div>
           <div className="mt-6 pt-5 border-t border-zinc-100 flex items-center justify-between">
-            <span className="text-zinc-400 text-xs">{destinations.length} destinations · {destinations.reduce((s, d) => s + d.count, 0)} hotels</span>
+            <span className="text-zinc-400 text-xs">
+              {destinations.length} destinations · {destinations.reduce((s, d) => s + d.count, 0)} hotels
+            </span>
             <Link href="/quiz" onClick={() => setOpen(null)} className="text-rose-500 text-sm font-medium hover:underline">
               Not sure? Take the quiz →
             </Link>
