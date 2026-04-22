@@ -1,0 +1,51 @@
+{
+  "slug": "anantara-al-jabal-al-akhdar-oman",
+  "name": "Anantara Al Jabal Al Akhdar Resort",
+  "destination": "oman",
+  "country": "oman",
+  "experience_types": ["luxury", "wellness"],
+  "honeymoon_score": 93,
+  "score_breakdown": { "adults_only": 0, "couples_pct": 20, "spa": 15, "award": 15, "pool": 10, "beach": 10, "room_service": 3, "stars": 15, "luxury": 5 },
+  "stars": 5,
+  "price_per_night_usd": { "min": 700, "max": 2500 },
+  "adults_only": false,
+  "amenities": ["spa", "infinity pool", "cliff-edge dining", "butler service", "yoga", "hiking trails", "archery", "rose garden", "observatory", "hammam"],
+  "photos": [
+    { "url": "/images/hotels/anantara-al-jabal-al-akhdar-oman/hero.webp", "alt": "anantara-al-jabal-al-akhdar-oman — hero", "type": "hero" },
+    { "url": "/images/hotels/anantara-al-jabal-al-akhdar-oman/room.webp", "alt": "anantara-al-jabal-al-akhdar-oman — room", "type": "room" },
+    { "url": "/images/hotels/anantara-al-jabal-al-akhdar-oman/pool.webp", "alt": "anantara-al-jabal-al-akhdar-oman — pool", "type": "pool" },
+    { "url": "/images/hotels/anantara-al-jabal-al-akhdar-oman/spa.webp", "alt": "anantara-al-jabal-al-akhdar-oman — spa", "type": "spa" },
+    { "url": "/images/hotels/anantara-al-jabal-al-akhdar-oman/dining.webp", "alt": "anantara-al-jabal-al-akhdar-oman — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 9.3,
+  "tripadvisor_award": true,
+  "couples_review_pct": 80,
+  "content": {
+    "verdict": "At 2,000 m on the Saiq plateau this is the highest five-star in the Middle East, and the cool mountain climate plus canyon-edge villas give it a completely different honeymoon feel from coastal Oman. Book it as part of a combo with a beach resort — three or four nights here is the sweet spot for the cooler evenings, rose harvest, and the showpiece Diana's Point cliff dinner.",
+    "best_room": "Book a Royal Mountain Villa with private pool — these stand-alone cliff-edge villas have a heated plunge pool, fire pit, and uninterrupted canyon views that are measurably better than the resort-wing rooms. If budget is tight, the One-Bedroom Deluxe Canyon View room is the best value for the view alone.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival on the Green Mountain", "description": "Drive up from Muscat (about 2.5 hours, 4WD required above the checkpoint) and check in at 2,000 m as the temperature drops 15 C from the coast. Unwind at Diana's Point with a sparkling wine sundowner on the cliff edge." },
+      { "day": 2, "title": "Rose harvest & village walk", "description": "If visiting in April, join the dawn Damask rose harvest with local farmers and watch the traditional distillation into rose water. In the afternoon, walk the ancient terraced village of Al Aqor with a resort guide." },
+      { "day": 3, "title": "Wadi trekking & hammam", "description": "Hike the signature 'Village Walk' along the canyon rim to abandoned stone hamlets, returning via the pomegranate terraces. Recover with a traditional Moroccan hammam and couples' massage at the Anantara Spa." },
+      { "day": 4, "title": "Via ferrata & private cliff dinner", "description": "Attempt the resort's via ferrata — a guided rock climbing traverse across the canyon wall, suitable for beginners. End the day with the signature 'Dining by Design' — a private candlelit dinner for two suspended on the cliff edge." },
+      { "day": 5, "title": "Nizwa fort day trip", "description": "Drop down the mountain for the day to visit Nizwa's Friday livestock souk and the restored 17th-century fort, finishing with Omani halwa and kahwa. Back on the plateau, enjoy archery and falconry before dinner." },
+      { "day": 6, "title": "Stargazing & slow day", "description": "Sleep in, spend the morning at the 25 m heated infinity pool, and book an afternoon yoga session overlooking the wadi. After dinner at Bella Vista, use the resort's telescope for stargazing — the altitude makes it some of the darkest skies in Arabia." },
+      { "day": 7, "title": "Farewell", "description": "Take a last walk along the canyon rim at sunrise and a slow breakfast at Al Qalaa. Transfer back to Muscat, with a stop at the Birkat Al Mouz falaj irrigation village en route to the airport." }
+    ],
+    "caveats": [
+      "Nights in December-February can drop below 5 C and villa terraces need outdoor heaters — pack layers, this is not a swimsuit-only trip.",
+      "The winding mountain road requires a 4WD and the final checkpoint turns away 2WD vehicles; plan the private transfer, don't self-drive in a sedan.",
+      "There is no beach or natural swimming — this is a mountain property, best paired with 3-4 nights at a coastal resort for a full Oman honeymoon."
+    ],
+    "faqs": [
+      { "question": "Is it good for honeymooners?", "answer": "Yes — the canyon-edge villas, private Diana's Point dinner, and cool climate create one of the most romantic mountain settings in the Middle East, especially in rose season." },
+      { "question": "Best time to visit?", "answer": "March to May for mild days (18-25 C) and the April rose harvest, or September to November for clear skies. Avoid July-August heat on the coast if combining, and pack warm layers November-February." },
+      { "question": "How far in advance to book?", "answer": "Four to six months for general dates; eight to ten months if you want a Royal Mountain Villa during the April rose harvest window, which is the most requested period of the year." },
+      { "question": "Is it adults-only?", "answer": "No, it is family-friendly with a kids' club, but the cliff-edge villas are spread far enough apart that couples enjoy strong privacy." },
+      { "question": "Which room should we book?", "answer": "Royal Mountain Villa for the private pool and cliff-edge views, or the One-Bedroom Cliff Pool Villa if available. Canyon-view rooms in the main wing are a strong budget alternative." },
+      { "question": "How do we get there?", "answer": "Fly into Muscat (MCT), then a 2.5-hour private 4WD transfer up Jebel Akhdar. A police checkpoint at 1,000 m only admits 4WD vehicles, so book the resort transfer rather than a standard taxi." }
+    ],
+    "email_template": "Subject: Honeymoon booking inquiry — Anantara Al Jabal Al Akhdar Resort\n\nDear team,\n\nWe are planning our honeymoon and are interested in staying from [DATE] to [DATE]. Could you advise on availability and any honeymoon packages — possibly including airport transfer, sunset dinner, spa ritual, and room upgrade?\n\nThank you,\n[Names]"
+  },
+  "last_updated": "2026-04-22T00:00:00.000Z"
+}

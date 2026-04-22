@@ -1,0 +1,51 @@
+{
+  "slug": "the-chedi-muscat-oman",
+  "name": "The Chedi Muscat",
+  "destination": "oman",
+  "country": "oman",
+  "experience_types": ["luxury", "wellness", "beach"],
+  "honeymoon_score": 92,
+  "score_breakdown": { "adults_only": 0, "couples_pct": 20, "spa": 15, "award": 15, "pool": 10, "beach": 10, "room_service": 2, "stars": 15, "luxury": 5 },
+  "stars": 5,
+  "price_per_night_usd": { "min": 500, "max": 1800 },
+  "adults_only": false,
+  "amenities": ["spa", "103m infinity pool", "private beach", "butler service", "serenity pool", "hammam", "tennis", "beach club", "21 fine dining restaurants", "manicured gardens"],
+  "photos": [
+    { "url": "/images/hotels/the-chedi-muscat-oman/hero.webp", "alt": "the-chedi-muscat-oman — hero", "type": "hero" },
+    { "url": "/images/hotels/the-chedi-muscat-oman/room.webp", "alt": "the-chedi-muscat-oman — room", "type": "room" },
+    { "url": "/images/hotels/the-chedi-muscat-oman/pool.webp", "alt": "the-chedi-muscat-oman — pool", "type": "pool" },
+    { "url": "/images/hotels/the-chedi-muscat-oman/spa.webp", "alt": "the-chedi-muscat-oman — spa", "type": "spa" },
+    { "url": "/images/hotels/the-chedi-muscat-oman/dining.webp", "alt": "the-chedi-muscat-oman — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 9.4,
+  "tripadvisor_award": true,
+  "couples_review_pct": 78,
+  "content": {
+    "verdict": "The Chedi is a masterclass in restraint — Jean-Michel Gathy's minimalist Omani-Asian design, a 103-metre infinity pool, and 21 acres of manicured gardens make it the most sophisticated city resort in Muscat. It lacks the drama of mountain or fjord addresses, but for couples who value service, design, and an easy first-or-last night before a coastal adventure, it is near-faultless.",
+    "best_room": "Book a Chedi Club Suite in the adults-preferred wing — you gain access to the Club Lounge with all-day canapés and cocktails, priority at the 103 m Long Pool, and an upgraded butler. Serai Rooms are the best entry-level option, but the Chedi Club category is where this hotel really earns its reputation.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival & sunset on the Long Pool", "description": "Short 20-minute transfer from Muscat airport and check in via the signature candlelit lobby. Reset with a sunset swim in the 103 m Long Pool followed by dinner at The Restaurant, which rotates through four live cooking theatres." },
+      { "day": 2, "title": "Old Muscat & Mutrah souk", "description": "Spend the morning exploring Mutrah corniche, the silver souk, and the Al Alam Palace gates with a private guide. Return for an afternoon at the adults-only Serenity Pool, then sunset cocktails at The Beach Restaurant." },
+      { "day": 3, "title": "Sultan Qaboos Grand Mosque & spa", "description": "Visit the Grand Mosque before 11 am to see the 70 m Persian carpet (dress modestly). Afternoon is dedicated to a 2-hour Balinese couples' massage at the Chedi Spa's Asian-inspired treatment suites." },
+      { "day": 4, "title": "Daymaniyat Islands snorkel trip", "description": "Take a half-day boat to the Daymaniyat Islands nature reserve to snorkel with turtles and reef sharks in the Gulf of Oman. Back at the hotel, take a private table at The Arabian Courtyard for a Levantine mezze under lanterns." },
+      { "day": 5, "title": "Wadi Shab day trip", "description": "Drive 90 minutes south to Wadi Shab, hike the canyon, and swim through the secret cave waterfall. Return for an in-villa bath ritual and a simpler dinner at the Poolside Cabana." },
+      { "day": 6, "title": "Design day & private dining", "description": "Sleep in, then spend the day between the private beach, the Serenity Pool, and the tea lounge sampling Omani halwa and kahwa. Finish with 'Dining by Design' — a private candlelit table on the beach or in the rose garden." },
+      { "day": 7, "title": "Farewell", "description": "Take a final breakfast at The Restaurant and a last lap of the Long Pool. Quick transfer to MCT airport, or connect inland to Jebel Akhdar or Salalah to extend." }
+    ],
+    "caveats": [
+      "The private beach is attractive but modest in size and backed by a public road — not a robinson-crusoe setting like Zighy or Salalah.",
+      "Being in Muscat means you occasionally hear the nearby road and the call to prayer — this is a city hotel, not a remote retreat.",
+      "Standard Deluxe Rooms feel dated against newer properties; pay the upgrade to Chedi Club or Serai for the full experience."
+    ],
+    "faqs": [
+      { "question": "Is it good for honeymooners?", "answer": "Yes — the adults-preferred Serenity Pool, the 103 m infinity pool, and the discreet butler service make it a romantic pick, particularly as a first or last stop on a wider Oman itinerary." },
+      { "question": "Best time to visit?", "answer": "October to April for warm, dry days around 25-30 C and comfortable sea temperatures. Avoid June-August when Muscat pushes 40 C with high humidity." },
+      { "question": "How far in advance to book?", "answer": "Three to four months for most dates; six months for Christmas and New Year when the hotel fills with regional travellers." },
+      { "question": "Is it adults-only?", "answer": "No, but the Serenity Pool and the Chedi Club wing are adults-only, giving honeymooners a quiet enclave within the larger resort." },
+      { "question": "Which room should we book?", "answer": "Chedi Club Suite for the lounge access and service, or a Serai Room for the best entry-level courtyard privacy. Skip the standard Deluxe Room." },
+      { "question": "How do we get there?", "answer": "Fly into Muscat International (MCT). The Chedi is a 20-minute drive along the Ghubrah coast; private transfers are easy to arrange in advance." }
+    ],
+    "email_template": "Subject: Honeymoon booking inquiry — The Chedi Muscat\n\nDear team,\n\nWe are planning our honeymoon and are interested in staying from [DATE] to [DATE]. Could you advise on availability and any honeymoon packages — possibly including airport transfer, sunset dinner, spa ritual, and room upgrade?\n\nThank you,\n[Names]"
+  },
+  "last_updated": "2026-04-22T00:00:00.000Z"
+}

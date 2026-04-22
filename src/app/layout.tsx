@@ -37,14 +37,19 @@ const DEST_META: Record<string, { region: string; country: string }> = {
   'croatia':    { region: 'Europe', country: 'Croatia' },
   'portugal':   { region: 'Europe', country: 'Portugal' },
   'spain':      { region: 'Europe', country: 'Spain' },
+  'switzerland':  { region: 'Europe', country: 'Switzerland' },
   // North America
   'hawaii':     { region: 'North America', country: 'USA — Hawaii' },
+  // Middle East
+  'oman':  { region: 'Middle East', country: 'Oman' },
+  'uae':   { region: 'Middle East', country: 'United Arab Emirates' },
   // Africa
-  'cape-verde':   { region: 'Africa & Middle East', country: 'Cape Verde' },
-  'morocco':      { region: 'Africa & Middle East', country: 'Morocco' },
+  'cape-verde':   { region: 'Africa & Atlantic', country: 'Cape Verde' },
+  'morocco':      { region: 'Africa & Atlantic', country: 'Morocco' },
   'kenya':        { region: 'Africa Safari', country: 'Kenya' },
   'tanzania':     { region: 'Africa Safari', country: 'Tanzania' },
   'south-africa': { region: 'Africa Safari', country: 'South Africa' },
+  'botswana':     { region: 'Africa Safari', country: 'Botswana' },
   // Asia
   'thailand':     { region: 'Asia', country: 'Thailand' },
   'indonesia':    { region: 'Asia', country: 'Indonesia' },

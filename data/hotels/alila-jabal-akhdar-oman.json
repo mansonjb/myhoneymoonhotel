@@ -1,0 +1,51 @@
+{
+  "slug": "alila-jabal-akhdar-oman",
+  "name": "Alila Jabal Akhdar",
+  "destination": "oman",
+  "country": "oman",
+  "experience_types": ["luxury", "wellness"],
+  "honeymoon_score": 93,
+  "score_breakdown": { "adults_only": 0, "couples_pct": 20, "spa": 15, "award": 15, "pool": 10, "beach": 10, "room_service": 3, "stars": 15, "luxury": 5 },
+  "stars": 5,
+  "price_per_night_usd": { "min": 600, "max": 2200 },
+  "adults_only": false,
+  "amenities": ["spa", "infinity pool", "cliff-edge suites", "library", "yoga deck", "hiking trails", "stargazing", "hammam", "private dining", "falconry"],
+  "photos": [
+    { "url": "/images/hotels/alila-jabal-akhdar-oman/hero.webp", "alt": "alila-jabal-akhdar-oman — hero", "type": "hero" },
+    { "url": "/images/hotels/alila-jabal-akhdar-oman/room.webp", "alt": "alila-jabal-akhdar-oman — room", "type": "room" },
+    { "url": "/images/hotels/alila-jabal-akhdar-oman/pool.webp", "alt": "alila-jabal-akhdar-oman — pool", "type": "pool" },
+    { "url": "/images/hotels/alila-jabal-akhdar-oman/spa.webp", "alt": "alila-jabal-akhdar-oman — spa", "type": "spa" },
+    { "url": "/images/hotels/alila-jabal-akhdar-oman/dining.webp", "alt": "alila-jabal-akhdar-oman — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 9.4,
+  "tripadvisor_award": true,
+  "couples_review_pct": 81,
+  "content": {
+    "verdict": "Alila Jabal Akhdar is the design-led rival to Anantara on the same mountain — 86 suites literally carved into the canyon cliff using local sarooj stone, with the plateau's most dramatic wadi views. Smaller and more intimate than its neighbour, it wins on architecture and quiet; couples who prioritise aesthetic and service over facilities should pick Alila.",
+    "best_room": "Book a Mountain View Suite with a private terrace facing the wadi — the architecture means every room has a view, but the cliff-side suites on the western edge catch the best sunsets. The signature Owner's Villa is spectacular but rarely worth the premium for a couple; a mid-tier mountain view suite is the value sweet spot.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival at 2,000 m", "description": "Private 4WD transfer from Muscat up the switchbacks, arriving as temperatures drop sharply from the coast. Welcome kahwa on the library terrace and a quiet first dinner at Juniper overlooking the wadi." },
+      { "day": 2, "title": "Canyon rim walk & pool afternoon", "description": "Walk the Diana's Point trail along the plateau edge with a resort guide, passing abandoned stone villages and ancient falaj channels. Spend the afternoon at the clifftop heated infinity pool with mezze from the pool bar." },
+      { "day": 3, "title": "Spa day in the carved stone caves", "description": "Book the signature Frankincense Hammam — a 2-hour ritual using local Dhofari resin — followed by a couples' massage in the cave-like treatment rooms. Evening yoga on the open-air Yoga Deck as the canyon goes pink." },
+      { "day": 4, "title": "Via ferrata or wadi exploration", "description": "Choose between the resort-run via ferrata across the canyon, or a guided drive to Wadi Ghul (Oman's Grand Canyon) for a hike and picnic. Return for a signature 'Dining by Design' private dinner on a lantern-lit cliff ledge." },
+      { "day": 5, "title": "Nizwa & rose water distillery", "description": "Descend the mountain for the morning to explore Nizwa's souk and 17th-century fort, and visit a traditional rose-water distillery in Al Ayn. Back at Alila, unwind with a sunset gin and tonic at Rose Lounge." },
+      { "day": 6, "title": "Stargazing & slow day", "description": "Take breakfast in bed, spend the morning reading in the cedar-lined library, and book an afternoon falconry session. After dinner, the astronomy guide brings out the telescope — Jebel Akhdar has some of the darkest skies in Arabia." },
+      { "day": 7, "title": "Farewell", "description": "A final sunrise walk along the canyon rim and a leisurely breakfast at Juniper before check-out. Transfer back down to Muscat in time for an afternoon flight or a coastal extension." }
+    ],
+    "caveats": [
+      "Winter nights can be genuinely cold (2-7 C) and terraces are exposed — a swim-only traveller will be disappointed in December-February.",
+      "The property is smaller than Anantara, so amenity choice (only one main restaurant) is more limited — you are booking it for atmosphere, not variety.",
+      "Not a beach or watersports destination — pair with a coastal stay for a balanced Oman honeymoon."
+    ],
+    "faqs": [
+      { "question": "Is it good for honeymooners?", "answer": "Yes — it is arguably more romantic than its larger neighbour thanks to the intimate scale, cave-style architecture, and private cliff-edge dining experiences." },
+      { "question": "Best time to visit?", "answer": "March to May or September to November for pleasant daytime temperatures (18-28 C) and cool evenings. April catches the Damask rose harvest in the surrounding villages." },
+      { "question": "How far in advance to book?", "answer": "Four to six months for standard dates. The cliff-edge suites during rose season and Christmas week are the first to sell out — book eight months ahead for those windows." },
+      { "question": "Is it adults-only?", "answer": "No, families are welcome, but the 86-suite scale and absence of a kids' club keep it much quieter and more couple-oriented than most resorts." },
+      { "question": "Which room should we book?", "answer": "A Mountain View Suite on the western cliff edge for sunset views, or upgrade to a Cliff Pool Villa if you want a private plunge pool. Skip the Owner's Villa unless budget is unlimited." },
+      { "question": "How do we get there?", "answer": "Fly to Muscat (MCT) and arrange the 2-hour private 4WD transfer. A police checkpoint on the mountain road only admits 4WDs, so do not attempt it in a sedan." }
+    ],
+    "email_template": "Subject: Honeymoon booking inquiry — Alila Jabal Akhdar\n\nDear team,\n\nWe are planning our honeymoon and are interested in staying from [DATE] to [DATE]. Could you advise on availability and any honeymoon packages — possibly including airport transfer, sunset dinner, spa ritual, and room upgrade?\n\nThank you,\n[Names]"
+  },
+  "last_updated": "2026-04-22T00:00:00.000Z"
+}

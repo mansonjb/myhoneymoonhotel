@@ -1,0 +1,51 @@
+{
+  "slug": "al-bustan-palace-ritz-carlton-oman",
+  "name": "Al Bustan Palace, a Ritz-Carlton Hotel",
+  "destination": "oman",
+  "country": "oman",
+  "experience_types": ["luxury", "beach"],
+  "honeymoon_score": 90,
+  "score_breakdown": { "adults_only": 0, "couples_pct": 20, "spa": 13, "award": 15, "pool": 10, "beach": 10, "room_service": 2, "stars": 15, "luxury": 5 },
+  "stars": 5,
+  "price_per_night_usd": { "min": 500, "max": 2000 },
+  "adults_only": false,
+  "amenities": ["spa", "private beach", "infinity pool", "butler service", "club lounge", "tennis", "watersports", "hammam", "six restaurants", "38m domed atrium"],
+  "photos": [
+    { "url": "/images/hotels/al-bustan-palace-ritz-carlton-oman/hero.webp", "alt": "al-bustan-palace-ritz-carlton-oman — hero", "type": "hero" },
+    { "url": "/images/hotels/al-bustan-palace-ritz-carlton-oman/room.webp", "alt": "al-bustan-palace-ritz-carlton-oman — room", "type": "room" },
+    { "url": "/images/hotels/al-bustan-palace-ritz-carlton-oman/pool.webp", "alt": "al-bustan-palace-ritz-carlton-oman — pool", "type": "pool" },
+    { "url": "/images/hotels/al-bustan-palace-ritz-carlton-oman/spa.webp", "alt": "al-bustan-palace-ritz-carlton-oman — spa", "type": "spa" },
+    { "url": "/images/hotels/al-bustan-palace-ritz-carlton-oman/dining.webp", "alt": "al-bustan-palace-ritz-carlton-oman — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 9.2,
+  "tripadvisor_award": true,
+  "couples_review_pct": 76,
+  "content": {
+    "verdict": "Al Bustan Palace is old-guard Omani grandeur — a former royal guesthouse with a 38 m domed atrium, 250 palatial rooms, and a private golden-sand cove framed by the Hajar mountains. It feels more formal and Arabian than the design-led Chedi, making it a strong pick for couples who want a proper 'palace honeymoon' rather than a minimalist retreat.",
+    "best_room": "Book a Deluxe Sea View Room in the main palace wing — the direct beach-facing balconies and the proximity to the atrium lobby are what you are paying for. Upgrade to a Club-level room for lounge access and better breakfast; skip garden-view rooms, which sit behind the pool and miss the point.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival & atrium welcome", "description": "Check in under the 38 m domed lobby with a welcome incense ritual and Omani dates. Settle into your sea-view room and dine at Beach Pavilion with your feet on the sand." },
+      { "day": 2, "title": "Beach & spa day", "description": "Laze on the 200 m private golden-sand cove, try paddle-boarding from the beach club, and book a 90-minute couples' massage at Six Senses Spa. Sunset drinks at the palm-lined pool bar." },
+      { "day": 3, "title": "Muscat city tour", "description": "Private guided morning to the Sultan Qaboos Grand Mosque, the Royal Opera House, and Mutrah souk for frankincense and silver. Return to the hotel for afternoon high tea in the atrium — a signature Al Bustan ritual." },
+      { "day": 4, "title": "Daymaniyat snorkel trip", "description": "Take the resort's boat to the Daymaniyat Islands marine reserve for snorkelling with turtles, rays, and reef sharks. Finish with a lobster dinner at Al Khiran, the seafood pavilion on the beach." },
+      { "day": 5, "title": "Bimmah Sinkhole & Wadi Shab", "description": "Day trip south along the Sea of Oman to the turquoise Bimmah Sinkhole, then hike into Wadi Shab and swim through the cave waterfall. Recover with a hammam in the spa's traditional steam chamber." },
+      { "day": 6, "title": "Dhow sunset & private atrium dinner", "description": "Book a private dhow charter for a sunset cruise along the Qurum cliffs with canapés and Omani rose water cocktails. Dinner is the signature Bustan experience — a private candlelit table under the domed atrium." },
+      { "day": 7, "title": "Farewell", "description": "Take a final swim in the infinity pool overlooking the sea and a long breakfast at Al Waha. A 20-minute transfer back to Muscat International airport closes the trip." }
+    ],
+    "caveats": [
+      "The palace architecture is grand rather than intimate — couples wanting a small, quiet boutique feel may find it too big and too formal.",
+      "The beach is beautiful but relatively short, and the adjacent bay sees occasional jetski noise from Muscat watersports operators.",
+      "Standard rooms are dated by contemporary 5-star benchmarks; it is worth paying up to Club level or a Sea View room to get the full effect."
+    ],
+    "faqs": [
+      { "question": "Is it good for honeymooners?", "answer": "Yes — the private beach, atrium dinners, and Six Senses Spa make for a very romantic stay, particularly for couples who like classic grand hotels over minimalist design." },
+      { "question": "Best time to visit?", "answer": "October to April for warm, dry days around 25-32 C and calm seas. Summer (June-August) pushes 40 C with high humidity and is best avoided for beach-focused trips." },
+      { "question": "How far in advance to book?", "answer": "Three to four months for most travel, five to six months for Christmas week and UAE public holidays when Muscat fills with regional guests." },
+      { "question": "Is it adults-only?", "answer": "No, it is a mixed-family resort, but the large scale and Club Lounge allow honeymooners to carve out quiet space, especially outside UAE school holidays." },
+      { "question": "Which room should we book?", "answer": "Deluxe Sea View Room at minimum, ideally at Club level for lounge access. Avoid garden-view rooms — the magic here is the sea and atrium." },
+      { "question": "How do we get there?", "answer": "Fly into Muscat International (MCT), then a 20-minute private transfer south along the Qurum coast. The hotel arranges pickups with a complimentary transfer for Club guests." }
+    ],
+    "email_template": "Subject: Honeymoon booking inquiry — Al Bustan Palace, a Ritz-Carlton Hotel\n\nDear team,\n\nWe are planning our honeymoon and are interested in staying from [DATE] to [DATE]. Could you advise on availability and any honeymoon packages — possibly including airport transfer, sunset dinner, spa ritual, and room upgrade?\n\nThank you,\n[Names]"
+  },
+  "last_updated": "2026-04-22T00:00:00.000Z"
+}

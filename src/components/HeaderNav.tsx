@@ -16,8 +16,9 @@ const REGION_ORDER = [
   'Caribbean & Americas',
   'Europe',
   'Asia',
+  'Middle East',
   'Africa Safari',
-  'Africa & Middle East',
+  'Africa & Atlantic',
   'North America',
 ]
 

@@ -16,13 +16,16 @@ const REGION_OF: Record<string, string> = {
   'mexico': 'Caribbean & Americas', 'costa-rica': 'Caribbean & Americas',
   'santorini': 'Europe', 'greece': 'Europe', 'amalfi': 'Europe',
   'croatia': 'Europe', 'portugal': 'Europe', 'spain': 'Europe',
-  'hawaii': 'North America', 'cape-verde': 'Africa & Atlantic',
+  'switzerland': 'Europe',
+  'hawaii': 'North America',
+  'oman': 'Middle East', 'uae': 'Middle East',
+  'cape-verde': 'Africa & Atlantic', 'morocco': 'Africa & Atlantic',
   'kenya': 'Africa Safari', 'tanzania': 'Africa Safari', 'south-africa': 'Africa Safari',
-  'morocco': 'Africa & Middle East',
+  'botswana': 'Africa Safari',
   'thailand': 'Asia', 'indonesia': 'Asia', 'bali': 'Asia', 'philippines': 'Asia',
   'vietnam': 'Asia', 'cambodia': 'Asia', 'japan': 'Asia',
 }
-const REGION_ORDER = ['Indian Ocean', 'South Pacific', 'Caribbean & Americas', 'Europe', 'Asia', 'Africa Safari', 'Africa & Middle East', 'Africa & Atlantic', 'North America']
+const REGION_ORDER = ['Indian Ocean', 'South Pacific', 'Caribbean & Americas', 'Europe', 'Asia', 'Middle East', 'Africa Safari', 'Africa & Atlantic', 'North America']
 
 const EXPERIENCE_TYPES = [
   { slug: 'overwater-bungalows', label: 'Overwater Villas', sub: 'Sleep above the lagoon',     image: '/images/hotels/four-seasons-bora-bora/hero.webp' },

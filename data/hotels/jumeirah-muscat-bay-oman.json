@@ -1,0 +1,51 @@
+{
+  "slug": "jumeirah-muscat-bay-oman",
+  "name": "Jumeirah Muscat Bay",
+  "destination": "oman",
+  "country": "oman",
+  "experience_types": ["luxury", "beach"],
+  "honeymoon_score": 89,
+  "score_breakdown": { "adults_only": 0, "couples_pct": 20, "spa": 12, "award": 15, "pool": 10, "beach": 10, "room_service": 2, "stars": 15, "luxury": 5 },
+  "stars": 5,
+  "price_per_night_usd": { "min": 500, "max": 1800 },
+  "adults_only": false,
+  "amenities": ["spa", "private beach", "infinity pool", "butler service", "watersports", "cliff backdrop", "hammam", "kids club", "fine dining", "tennis"],
+  "photos": [
+    { "url": "/images/hotels/jumeirah-muscat-bay-oman/hero.webp", "alt": "jumeirah-muscat-bay-oman — hero", "type": "hero" },
+    { "url": "/images/hotels/jumeirah-muscat-bay-oman/room.webp", "alt": "jumeirah-muscat-bay-oman — room", "type": "room" },
+    { "url": "/images/hotels/jumeirah-muscat-bay-oman/pool.webp", "alt": "jumeirah-muscat-bay-oman — pool", "type": "pool" },
+    { "url": "/images/hotels/jumeirah-muscat-bay-oman/spa.webp", "alt": "jumeirah-muscat-bay-oman — spa", "type": "spa" },
+    { "url": "/images/hotels/jumeirah-muscat-bay-oman/dining.webp", "alt": "jumeirah-muscat-bay-oman — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 9.2,
+  "tripadvisor_award": true,
+  "couples_review_pct": 74,
+  "content": {
+    "verdict": "Jumeirah Muscat Bay is the newest big-brand resort in the capital, tucked into secluded Bandar Jissah with a cliff-and-nature-reserve backdrop that feels more remote than any other Muscat address. It has a slightly less iconic identity than the Chedi or Al Bustan, but the newer rooms, generous villa category, and quiet bay setting make it a dependable and well-priced honeymoon base.",
+    "best_room": "Book an Ocean Deluxe Room on a high floor facing the bay — the wide balconies and direct sunrise views are what you pay for. Couples with a wider budget should jump straight to a One-Bedroom Pool Villa on the headland; these are genuinely private and significantly better than the rooms for honeymoon atmosphere.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival into Bandar Jissah", "description": "Private transfer from Muscat airport (about 30 minutes) winds down the cliff road into the hidden bay. Sundowners at Azure rooftop bar with the cliff lit up behind you." },
+      { "day": 2, "title": "Beach & snorkelling", "description": "Spend the morning on the private beach and try the house-reef snorkel straight from the sand — turtles frequent the bay. Sunset massage for two at Talise Spa's beachfront cabana." },
+      { "day": 3, "title": "Muscat city tour", "description": "Private guide for the Sultan Qaboos Grand Mosque, the Royal Opera House, and lunch at Bait Al Luban in Mutrah. Back for the afternoon at the infinity pool with a cocktail from Palm Beach." },
+      { "day": 4, "title": "Dhow charter & seafood dinner", "description": "Charter the resort's private dhow for a half-day cruise along the Bandar Jissah coves, anchoring for a swim at a hidden cliff beach. Dinner at Ambrosia, the resort's seafood-focused signature restaurant." },
+      { "day": 5, "title": "Wadi Shab adventure", "description": "Day trip south to Wadi Shab — hike through the palm-lined canyon and swim through the cave to the secret waterfall. A soak in the in-room bath and a simple room-service supper closes the day." },
+      { "day": 6, "title": "Spa day & private dining", "description": "A full reset at Talise Spa: Moroccan hammam, couples' deep-tissue massage, and a sound bath session. Dinner is a private candlelit table set up on the rocks at the far end of the bay." },
+      { "day": 7, "title": "Farewell", "description": "Take a last paddle-board run across the bay at sunrise and a slow breakfast at The Long Pool. Thirty-minute transfer back to MCT airport." }
+    ],
+    "caveats": [
+      "The property is newer and some restaurant concepts are still settling — food consistency is not quite at Chedi level yet.",
+      "The bay is lovely but small, and swimming is best at high tide; low tide exposes rocky patches along the shoreline.",
+      "Kids' club means occasional family traffic around the pool during UAE school holidays — the villas are the quiet alternative."
+    ],
+    "faqs": [
+      { "question": "Is it good for honeymooners?", "answer": "Yes — the secluded bay, newer rooms, and private dhow cruises make it a strong honeymoon pick, particularly for couples who want a quiet Muscat base without paying Al Husn prices." },
+      { "question": "Best time to visit?", "answer": "October to April for warm, dry weather in the 25-30 C range and calm seas. Avoid the June-August heat when temperatures and humidity climb past 40 C." },
+      { "question": "How far in advance to book?", "answer": "Three to four months for general dates; longer for Christmas and UAE long weekends when the resort fills with regional travellers." },
+      { "question": "Is it adults-only?", "answer": "No, it is family-friendly with a kids' club, but the villa layout on the headland keeps honeymoon couples well separated from family traffic." },
+      { "question": "Which room should we book?", "answer": "An Ocean Deluxe Room on a higher floor for views, or a One-Bedroom Pool Villa for maximum privacy and a plunge pool. Skip garden-view rooms in the main building." },
+      { "question": "How do we get there?", "answer": "Fly into Muscat International (MCT). The resort is a 30-minute drive south via the Qantab coast road; private transfers are easy to arrange." }
+    ],
+    "email_template": "Subject: Honeymoon booking inquiry — Jumeirah Muscat Bay\n\nDear team,\n\nWe are planning our honeymoon and are interested in staying from [DATE] to [DATE]. Could you advise on availability and any honeymoon packages — possibly including airport transfer, sunset dinner, spa ritual, and room upgrade?\n\nThank you,\n[Names]"
+  },
+  "last_updated": "2026-04-22T00:00:00.000Z"
+}
