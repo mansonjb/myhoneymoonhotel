@@ -3,7 +3,10 @@
   "name": "Tuludi",
   "destination": "botswana",
   "country": "botswana",
-  "experience_types": ["safari", "luxury"],
+  "experience_types": [
+    "safari",
+    "luxury"
+  ],
   "honeymoon_score": 92,
   "score_breakdown": {
     "adults_only": 25,
@@ -17,7 +20,10 @@
     "luxury": 5
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 1200, "max": 3000 },
+  "price_per_night_usd": {
+    "min": 1200,
+    "max": 3000
+  },
   "adults_only": false,
   "amenities": [
     "private deck",
@@ -34,11 +40,31 @@
     "night drives"
   ],
   "photos": [
-    { "url": "/images/hotels/tuludi-khwai-private-reserve-botswana/hero.webp", "alt": "tuludi-khwai-private-reserve-botswana — hero", "type": "hero" },
-    { "url": "/images/hotels/tuludi-khwai-private-reserve-botswana/room.webp", "alt": "tuludi-khwai-private-reserve-botswana — room", "type": "room" },
-    { "url": "/images/hotels/tuludi-khwai-private-reserve-botswana/pool.webp", "alt": "tuludi-khwai-private-reserve-botswana — pool", "type": "pool" },
-    { "url": "/images/hotels/tuludi-khwai-private-reserve-botswana/spa.webp", "alt": "tuludi-khwai-private-reserve-botswana — spa", "type": "spa" },
-    { "url": "/images/hotels/tuludi-khwai-private-reserve-botswana/dining.webp", "alt": "tuludi-khwai-private-reserve-botswana — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/tuludi-khwai-private-reserve-botswana/hero.webp",
+      "alt": "tuludi-khwai-private-reserve-botswana — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/tuludi-khwai-private-reserve-botswana/room.webp",
+      "alt": "tuludi-khwai-private-reserve-botswana — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/tuludi-khwai-private-reserve-botswana/pool.webp",
+      "alt": "tuludi-khwai-private-reserve-botswana — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/tuludi-khwai-private-reserve-botswana/spa.webp",
+      "alt": "tuludi-khwai-private-reserve-botswana — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/tuludi-khwai-private-reserve-botswana/dining.webp",
+      "alt": "tuludi-khwai-private-reserve-botswana — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.7,
   "tripadvisor_award": true,
@@ -47,13 +73,41 @@
     "verdict": "Tuludi is the camp for honeymooners who want the Natural Selection safari aesthetic — design-forward, funky, playful — without paying the eye-watering rates of the portfolio flagships. Set in the 500,000-acre Khwai Private Reserve between Moremi and Chobe, Tuludi's seven tented suites sit on raised decks under a canopy of ebony and leadwood trees, with swinging hanging beds on the verandahs, generous plunge pools, and interiors that feel more Cape-Town-loft than classic safari. Because Khwai Private Reserve is a private concession, the camp can offer off-road driving, walking and night drives that are not permitted in the adjacent national parks, and leopard sightings are some of the best in Botswana. It is a confident, modern honeymoon choice with genuine personality and a price point that actually leaves room for a longer stay.",
     "best_room": "All seven suites are built to the same specification, so pick on position — request one of the suites at the end of the walkway for the most privacy and the clearest morning-light exposure through the trees. For a splurge, book the dedicated Treehouse sleep-out for one night — a private raised platform in the canopy, served dinner and breakfast by your butler, for a proper star-bed honeymoon memory.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival and reserve orientation", "description": "Light-aircraft transfer from Maun onto the Khwai airstrip, a slow game-drive transfer into camp, champagne welcome and a first evening drive ending with sundowners around a fire." },
-      { "day": 2, "title": "Leopard morning and walk", "description": "Pre-dawn coffee, a long morning drive targeting the resident leopards of the Khwai, brunch back at camp, an optional afternoon walking safari with an armed guide and a boma dinner under the stars." },
-      { "day": 3, "title": "Mokoro and bush breakfast", "description": "A dawn mokoro glide on a seasonal channel with your private poler, a bush breakfast on a secluded stretch of the reserve, an afternoon drive and a private dinner on your deck." },
-      { "day": 4, "title": "Night drive and hide", "description": "A morning in the photographic hide at eye level with drinking animals, a relaxed brunch, an afternoon drive transitioning into a full night drive looking for leopard, hyena and civet back at camp for a boma dinner." },
-      { "day": 5, "title": "Treehouse sleep-out", "description": "A morning drive, an afternoon at camp with a massage, a sundowner transfer to the Tuludi Treehouse, dinner under the canopy and a star-bed night high in the leadwoods." },
-      { "day": 6, "title": "Full-day expedition", "description": "Packed picnic, a full day's exploration of the reserve with your guide, lunch in the shade, a late return for a couples' dinner in the wine cellar or by the firepit." },
-      { "day": 7, "title": "Farewell drive and transfer", "description": "A final dawn drive with coffee and rusks, a long farewell brunch and a light-aircraft transfer onwards or back to Maun." }
+      {
+        "day": 1,
+        "title": "Arrival and reserve orientation",
+        "description": "Light-aircraft transfer from Maun onto the Khwai airstrip, a slow game-drive transfer into camp, champagne welcome and a first evening drive ending with sundowners around a fire."
+      },
+      {
+        "day": 2,
+        "title": "Leopard morning and walk",
+        "description": "Pre-dawn coffee, a long morning drive targeting the resident leopards of the Khwai, brunch back at camp, an optional afternoon walking safari with an armed guide and a boma dinner under the stars."
+      },
+      {
+        "day": 3,
+        "title": "Mokoro and bush breakfast",
+        "description": "A dawn mokoro glide on a seasonal channel with your private poler, a bush breakfast on a secluded stretch of the reserve, an afternoon drive and a private dinner on your deck."
+      },
+      {
+        "day": 4,
+        "title": "Night drive and hide",
+        "description": "A morning in the photographic hide at eye level with drinking animals, a relaxed brunch, an afternoon drive transitioning into a full night drive looking for leopard, hyena and civet back at camp for a boma dinner."
+      },
+      {
+        "day": 5,
+        "title": "Treehouse sleep-out",
+        "description": "A morning drive, an afternoon at camp with a massage, a sundowner transfer to the Tuludi Treehouse, dinner under the canopy and a star-bed night high in the leadwoods."
+      },
+      {
+        "day": 6,
+        "title": "Full-day expedition",
+        "description": "Packed picnic, a full day's exploration of the reserve with your guide, lunch in the shade, a late return for a couples' dinner in the wine cellar or by the firepit."
+      },
+      {
+        "day": 7,
+        "title": "Farewell drive and transfer",
+        "description": "A final dawn drive with coffee and rusks, a long farewell brunch and a light-aircraft transfer onwards or back to Maun."
+      }
     ],
     "caveats": [
       "Tuludi is reached only by light aircraft from Maun with the standard 20 kg soft-sided duffel limit per guest — no hard cases, and flights can reschedule for weather.",
@@ -61,12 +115,30 @@
       "This is a malaria region — consult your travel doctor about prophylaxis, bring DEET and long sleeves for dusk and be prepared for normal bush-camp insect life, including tsetse flies on some parts of the reserve."
     ],
     "faqs": [
-      { "question": "How does Tuludi compare to the Wilderness and Great Plains flagships?", "answer": "Natural Selection pitches Tuludi as design-led, playful and less formal than the older-school luxury camps, at a materially lower price point. You lose some of the polish and butler service of Mombo or Jao, but gain personality, a better-value rate and access to a private reserve that permits off-road and night activities." },
-      { "question": "Is the Khwai Private Reserve genuinely private?", "answer": "Yes — it's a 500,000-acre concession that borders Moremi and Chobe. Because it is not a national park, vehicles can go off-road, do night drives and conduct walking safaris, which dramatically increases what you can see and photograph." },
-      { "question": "Is the Treehouse sleep-out safe?", "answer": "Yes — it is a fully enclosed canvas-and-timber platform with a proper bed, mosquito netting, en-suite bathroom, radio contact with camp and an armed guide on call. It's an unforgettable honeymoon night and regularly booked out in peak season." },
-      { "question": "Are children allowed?", "answer": "Children aged six and above are welcome, and Tuludi has a dedicated family suite. In practice the camp feels adult-led and couples dominate the guest mix, especially outside school holidays." },
-      { "question": "Does Tuludi pair well with other Natural Selection camps?", "answer": "Yes — classic combinations include Hyena Pan in the same region for a more rustic, lower-priced supplement, or Jack's Camp in the Kalahari for a completely different habitat. The Natural Selection reservations team can design multi-camp loops." },
-      { "question": "What is included in the rate?", "answer": "All meals, all drinks including house wines and spirits, all scheduled activities (game drives, mokoro where seasonal, walking safaris, night drives, photographic hide), laundry, park fees, Wi-Fi in the main area and scheduled light-aircraft transfers from Maun." }
+      {
+        "question": "How does Tuludi compare to the Wilderness and Great Plains flagships?",
+        "answer": "Natural Selection pitches Tuludi as design-led, playful and less formal than the older-school luxury camps, at a materially lower price point. You lose some of the polish and butler service of Mombo or Jao, but gain personality, a better-value rate and access to a private reserve that permits off-road and night activities."
+      },
+      {
+        "question": "Is the Khwai Private Reserve genuinely private?",
+        "answer": "Yes — it's a 500,000-acre concession that borders Moremi and Chobe. Because it is not a national park, vehicles can go off-road, do night drives and conduct walking safaris, which dramatically increases what you can see and photograph."
+      },
+      {
+        "question": "Is the Treehouse sleep-out safe?",
+        "answer": "Yes — it is a fully enclosed canvas-and-timber platform with a proper bed, mosquito netting, en-suite bathroom, radio contact with camp and an armed guide on call. It's an unforgettable honeymoon night and regularly booked out in peak season."
+      },
+      {
+        "question": "Are children allowed?",
+        "answer": "Children aged six and above are welcome, and Tuludi has a dedicated family suite. In practice the camp feels adult-led and couples dominate the guest mix, especially outside school holidays."
+      },
+      {
+        "question": "Does Tuludi pair well with other Natural Selection camps?",
+        "answer": "Yes — classic combinations include Hyena Pan in the same region for a more rustic, lower-priced supplement, or Jack's Camp in the Kalahari for a completely different habitat. The Natural Selection reservations team can design multi-camp loops."
+      },
+      {
+        "question": "What is included in the rate?",
+        "answer": "All meals, all drinks including house wines and spirits, all scheduled activities (game drives, mokoro where seasonal, walking safaris, night drives, photographic hide), laundry, park fees, Wi-Fi in the main area and scheduled light-aircraft transfers from Maun."
+      }
     ],
     "email_template": "Subject: Honeymoon booking enquiry — Tuludi, Khwai Private Reserve, 7 nights\n\nHello Natural Selection Reservations team,\n\nWe are planning our honeymoon and would like to spend seven nights at Tuludi in the Khwai Private Reserve. Our tentative dates are [DATES], travelling as two adults. Please confirm availability for a standard tented suite, current fully inclusive per-night rates and the Maun light-aircraft schedule.\n\nWe would especially like to add one night in the Tuludi Treehouse — please confirm availability and pricing. We'd also welcome your recommendations for pairing Tuludi with a second Natural Selection property (Hyena Pan, Jack's Camp or similar) for a 10-14 night Botswana itinerary. Please also send your current deposit and cancellation policy.\n\nThank you — we look forward to hearing from you.\n\nKind regards,\n[Your names]\n[Phone] | [Email]"
   },

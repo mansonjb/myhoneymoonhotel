@@ -3,19 +3,67 @@
   "name": "Anantara Al Baleed Resort Salalah",
   "destination": "oman",
   "country": "oman",
-  "experience_types": ["luxury", "beach", "wellness"],
+  "experience_types": [
+    "luxury",
+    "beach",
+    "wellness"
+  ],
   "honeymoon_score": 89,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 20, "spa": 12, "award": 15, "pool": 10, "beach": 10, "room_service": 2, "stars": 15, "luxury": 5 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 20,
+    "spa": 12,
+    "award": 15,
+    "pool": 10,
+    "beach": 10,
+    "room_service": 2,
+    "stars": 15,
+    "luxury": 5
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 500, "max": 1800 },
+  "price_per_night_usd": {
+    "min": 500,
+    "max": 1800
+  },
   "adults_only": false,
-  "amenities": ["spa", "private pool villa", "Indian Ocean beach", "butler service", "lagoon pool", "hammam", "UNESCO site access", "frankincense garden", "dhow cruise", "khareef greenery"],
+  "amenities": [
+    "spa",
+    "private pool villa",
+    "Indian Ocean beach",
+    "butler service",
+    "lagoon pool",
+    "hammam",
+    "UNESCO site access",
+    "frankincense garden",
+    "dhow cruise",
+    "khareef greenery"
+  ],
   "photos": [
-    { "url": "/images/hotels/anantara-al-baleed-salalah-oman/hero.webp", "alt": "anantara-al-baleed-salalah-oman — hero", "type": "hero" },
-    { "url": "/images/hotels/anantara-al-baleed-salalah-oman/room.webp", "alt": "anantara-al-baleed-salalah-oman — room", "type": "room" },
-    { "url": "/images/hotels/anantara-al-baleed-salalah-oman/pool.webp", "alt": "anantara-al-baleed-salalah-oman — pool", "type": "pool" },
-    { "url": "/images/hotels/anantara-al-baleed-salalah-oman/spa.webp", "alt": "anantara-al-baleed-salalah-oman — spa", "type": "spa" },
-    { "url": "/images/hotels/anantara-al-baleed-salalah-oman/dining.webp", "alt": "anantara-al-baleed-salalah-oman — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/anantara-al-baleed-salalah-oman/hero.webp",
+      "alt": "anantara-al-baleed-salalah-oman — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/anantara-al-baleed-salalah-oman/room.webp",
+      "alt": "anantara-al-baleed-salalah-oman — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/anantara-al-baleed-salalah-oman/pool.webp",
+      "alt": "anantara-al-baleed-salalah-oman — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/anantara-al-baleed-salalah-oman/spa.webp",
+      "alt": "anantara-al-baleed-salalah-oman — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/anantara-al-baleed-salalah-oman/dining.webp",
+      "alt": "anantara-al-baleed-salalah-oman — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.4,
   "tripadvisor_award": true,
@@ -24,13 +72,41 @@
     "verdict": "Al Baleed Resort Salalah is Oman's best pool-villa beachfront, set on the southern Dhofar coast beside the UNESCO ruins of ancient Al Baleed. The real secret is timing — arrive during khareef (the July-September monsoon) and the entire Salalah region transforms into a green, misty tropical landscape unlike anywhere else on the Arabian peninsula.",
     "best_room": "Book a One-Bedroom Beach Pool Villa — direct sand access, a private pool surrounded by walled gardens, and sunrise views over the Indian Ocean. Lagoon Pool Villas are beautiful but farther from the beach; the Beach category is where this resort earns its reputation.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival in Dhofar", "description": "Short 10-minute transfer from Salalah airport to the walled resort. Check into your Beach Pool Villa and have a relaxed first dinner at Mekong overlooking the lagoon." },
-      { "day": 2, "title": "Al Baleed ruins & frankincense tour", "description": "Walk the UNESCO archaeological site of ancient Al Baleed on the resort's doorstep, where frankincense was shipped to the Roman empire. Afternoon visit to the Frankincense Land Museum and the old Souq Al Husn for Omani silver." },
-      { "day": 3, "title": "Wadi Darbat & khareef green", "description": "Drive up into the Dhofar mountains to Wadi Darbat's waterfalls and the misty khareef landscapes of Jabal Samhan. Back to the villa for a long outdoor bath with frankincense oils." },
-      { "day": 4, "title": "Empty Quarter edge", "description": "Full-day desert excursion to the edge of the Rub al Khali — the Empty Quarter — with a Bedouin lunch and dune driving. A classic Anantara touch is the return via a Salalah coconut plantation." },
-      { "day": 5, "title": "Dhow charter & seafood dinner", "description": "Private sunset dhow cruise along the Salalah coast watching kites wheel over the water. Dinner at Sakalan, the beachfront seafood restaurant with Dhofar-style grilled hammour and lobster." },
-      { "day": 6, "title": "Spa reset & private dining", "description": "Book the signature Arabian Hammam with frankincense scrub, followed by a 90-minute couples' massage. End with 'Dining by Design' — a private candlelit table set up on the sand between the villa and the Indian Ocean." },
-      { "day": 7, "title": "Farewell", "description": "A sunrise run or walk along the 4 km local Dahariz beach and a final breakfast at Al Mina. Ten-minute transfer to Salalah airport." }
+      {
+        "day": 1,
+        "title": "Arrival in Dhofar",
+        "description": "Short 10-minute transfer from Salalah airport to the walled resort. Check into your Beach Pool Villa and have a relaxed first dinner at Mekong overlooking the lagoon."
+      },
+      {
+        "day": 2,
+        "title": "Al Baleed ruins & frankincense tour",
+        "description": "Walk the UNESCO archaeological site of ancient Al Baleed on the resort's doorstep, where frankincense was shipped to the Roman empire. Afternoon visit to the Frankincense Land Museum and the old Souq Al Husn for Omani silver."
+      },
+      {
+        "day": 3,
+        "title": "Wadi Darbat & khareef green",
+        "description": "Drive up into the Dhofar mountains to Wadi Darbat's waterfalls and the misty khareef landscapes of Jabal Samhan. Back to the villa for a long outdoor bath with frankincense oils."
+      },
+      {
+        "day": 4,
+        "title": "Empty Quarter edge",
+        "description": "Full-day desert excursion to the edge of the Rub al Khali — the Empty Quarter — with a Bedouin lunch and dune driving. A classic Anantara touch is the return via a Salalah coconut plantation."
+      },
+      {
+        "day": 5,
+        "title": "Dhow charter & seafood dinner",
+        "description": "Private sunset dhow cruise along the Salalah coast watching kites wheel over the water. Dinner at Sakalan, the beachfront seafood restaurant with Dhofar-style grilled hammour and lobster."
+      },
+      {
+        "day": 6,
+        "title": "Spa reset & private dining",
+        "description": "Book the signature Arabian Hammam with frankincense scrub, followed by a 90-minute couples' massage. End with 'Dining by Design' — a private candlelit table set up on the sand between the villa and the Indian Ocean."
+      },
+      {
+        "day": 7,
+        "title": "Farewell",
+        "description": "A sunrise run or walk along the 4 km local Dahariz beach and a final breakfast at Al Mina. Ten-minute transfer to Salalah airport."
+      }
     ],
     "caveats": [
       "Outside khareef season Salalah is hot and dry — the monsoon-green landscape is a July-September phenomenon, and timing this trip matters more than most.",
@@ -38,12 +114,30 @@
       "Salalah is far from northern Oman (1.5-hour domestic flight from Muscat) — treat it as a standalone destination, not a day trip."
     ],
     "faqs": [
-      { "question": "Is it good for honeymooners?", "answer": "Yes — the private beachfront pool villas, UNESCO walking distance, and Anantara's signature service make it an outstanding honeymoon pick, especially for couples who want something geographically different from northern Oman." },
-      { "question": "Best time to visit?", "answer": "July to September for the khareef monsoon's dramatic greenery and mist (unique to Dhofar), or October to February for classic warm, dry beach weather. Avoid May-June's pre-monsoon heat and humidity." },
-      { "question": "How far in advance to book?", "answer": "Four to six months for khareef season, as Salalah draws heavy Gulf-resident traffic from July through September. Three months is typically enough for winter beach dates." },
-      { "question": "Is it adults-only?", "answer": "No — the resort welcomes families and has a kids' club, but the villa layout and walled gardens give couples strong privacy, especially in the Beach Pool Villa category." },
-      { "question": "Which room should we book?", "answer": "One-Bedroom Beach Pool Villa for direct sand access and sunrise views. Lagoon Pool Villas are lovely but set back from the sea; Sea View Rooms in the main building are a solid budget alternative." },
-      { "question": "How do we get there?", "answer": "Fly into Salalah (SLL) via a 1.5-hour Oman Air domestic flight from Muscat, or direct seasonal flights from Dubai and Doha. The resort transfer is a 10-minute drive from the airport." }
+      {
+        "question": "Is it good for honeymooners?",
+        "answer": "Yes — the private beachfront pool villas, UNESCO walking distance, and Anantara's signature service make it an outstanding honeymoon pick, especially for couples who want something geographically different from northern Oman."
+      },
+      {
+        "question": "Best time to visit?",
+        "answer": "July to September for the khareef monsoon's dramatic greenery and mist (unique to Dhofar), or October to February for classic warm, dry beach weather. Avoid May-June's pre-monsoon heat and humidity."
+      },
+      {
+        "question": "How far in advance to book?",
+        "answer": "Four to six months for khareef season, as Salalah draws heavy Gulf-resident traffic from July through September. Three months is typically enough for winter beach dates."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "No — the resort welcomes families and has a kids' club, but the villa layout and walled gardens give couples strong privacy, especially in the Beach Pool Villa category."
+      },
+      {
+        "question": "Which room should we book?",
+        "answer": "One-Bedroom Beach Pool Villa for direct sand access and sunrise views. Lagoon Pool Villas are lovely but set back from the sea; Sea View Rooms in the main building are a solid budget alternative."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "Fly into Salalah (SLL) via a 1.5-hour Oman Air domestic flight from Muscat, or direct seasonal flights from Dubai and Doha. The resort transfer is a 10-minute drive from the airport."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Anantara Al Baleed Resort Salalah\n\nDear team,\n\nWe are planning our honeymoon and are interested in staying from [DATE] to [DATE]. Could you advise on availability and any honeymoon packages — possibly including airport transfer, sunset dinner, spa ritual, and room upgrade?\n\nThank you,\n[Names]"
   },

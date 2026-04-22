@@ -3,7 +3,10 @@
   "name": "Mont Cervin Palace, Zermatt",
   "destination": "switzerland",
   "country": "switzerland",
-  "experience_types": ["luxury", "wellness"],
+  "experience_types": [
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 90,
   "score_breakdown": {
     "adults_only": 13,
@@ -17,7 +20,10 @@
     "luxury": 5
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 700, "max": 2500 },
+  "price_per_night_usd": {
+    "min": 700,
+    "max": 2500
+  },
   "adults_only": false,
   "amenities": [
     "spa",
@@ -37,11 +43,31 @@
     "fondue chalet"
   ],
   "photos": [
-    { "url": "/images/hotels/mont-cervin-palace-zermatt-switzerland/hero.webp", "alt": "mont-cervin-palace-zermatt-switzerland — hero", "type": "hero" },
-    { "url": "/images/hotels/mont-cervin-palace-zermatt-switzerland/room.webp", "alt": "mont-cervin-palace-zermatt-switzerland — room", "type": "room" },
-    { "url": "/images/hotels/mont-cervin-palace-zermatt-switzerland/pool.webp", "alt": "mont-cervin-palace-zermatt-switzerland — pool", "type": "pool" },
-    { "url": "/images/hotels/mont-cervin-palace-zermatt-switzerland/spa.webp", "alt": "mont-cervin-palace-zermatt-switzerland — spa", "type": "spa" },
-    { "url": "/images/hotels/mont-cervin-palace-zermatt-switzerland/dining.webp", "alt": "mont-cervin-palace-zermatt-switzerland — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/mont-cervin-palace-zermatt-switzerland/hero.webp",
+      "alt": "mont-cervin-palace-zermatt-switzerland — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/mont-cervin-palace-zermatt-switzerland/room.webp",
+      "alt": "mont-cervin-palace-zermatt-switzerland — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/mont-cervin-palace-zermatt-switzerland/pool.webp",
+      "alt": "mont-cervin-palace-zermatt-switzerland — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/mont-cervin-palace-zermatt-switzerland/spa.webp",
+      "alt": "mont-cervin-palace-zermatt-switzerland — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/mont-cervin-palace-zermatt-switzerland/dining.webp",
+      "alt": "mont-cervin-palace-zermatt-switzerland — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.3,
   "tripadvisor_award": true,
@@ -50,13 +76,41 @@
     "verdict": "If the Matterhorn is on your honeymoon bucket list, the Mont Cervin Palace is the most civilised place to watch it change colour at sunrise. Open since 1851 — Zermatt's oldest hotel — the Mont Cervin sits at the heart of the car-free village, a short walk from the Gornergrat railway and from everything worth eating in town. 154 rooms split across the historic Palace building and the connected Residence, with a large underground connection to the Mont Cervin Spa (2,000 m² and arguably the best pool in Zermatt). Rooms facing south look directly at the 4,478-metre north face of the Matterhorn — book one, and plan your honeymoon breakfast around its 7am alpenglow. It's a grand, slightly formal, deeply classical mountain hotel: not the trendiest in town (that's The Omnia), but the one that feels most like a proper European honeymoon.",
     "best_room": "Book a Junior Suite Matterhorn View in the main Palace building. South-facing, balcony, uninterrupted view of the peak from bed. The upper floors (5th and 6th) have the cleanest sightlines over Zermatt's low chalet rooftops. For a statement suite, the Royal Penthouse Cervin on the 6th floor has a private terrace and the single best Matterhorn view in any hotel in the village.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & Matterhorn sunset", "description": "Train from Zurich (Glacier Express or direct via Visp, about 3.5 hours; cars must be left at Täsch). Zermatt's e-taxi meets you at the station. Settle in; head to the hotel's Capri Lounge for aperitifs as the Matterhorn turns pink, then dinner at Le Restaurant with a Fendant white from the Valais." },
-      { "day": 2, "title": "Gornergrat sunrise, spa afternoon", "description": "Pre-dawn walk to Gornergrat railway (4 minutes from hotel) for the sunrise train — the classic 7am ride up to 3,089 m with the Matterhorn lit red in front of you. Breakfast on the mountain, then back for a couples' ritual at the Mont Cervin Spa." },
-      { "day": 3, "title": "Ski the Matterhorn paradise", "description": "Hotel ski butler kits you out; shuttle to Matterhorn Glacier Paradise lifts. Ski across into Italy for lunch at a Cervinia rifugio, then back. Evening at Le Petit Cervin — the hotel's intimate 30-seat fine-dining room, Michelin-recommended." },
-      { "day": 4, "title": "Horse-drawn carriage & heritage walk", "description": "The Mont Cervin operates its own horse-drawn carriage (Zermatt is car-free, so horses and e-taxis are the only options). Afternoon carriage ride through the village, stopping at the Matterhorn Museum and the mountaineers' cemetery. Dinner at Myoko, the hotel's Japanese grotto, for a change of pace." },
-      { "day": 5, "title": "Snowshoeing to Sunnegga", "description": "Guided snowshoe morning from Sunnegga — the easy-access ski sector above the village — with a pre-arranged fondue lunch in a mountain chalet. Return for a long afternoon in the Mont Cervin's 30-metre indoor pool and couples' steam." },
-      { "day": 6, "title": "Klein Matterhorn + spa night", "description": "Up the Matterhorn Glacier Paradise lift to 3,883 m — the highest cable-car station in Europe, walkable in December onward with the panorama terrace. Back for a full spa evening. Private dinner in your suite arranged by the concierge." },
-      { "day": 7, "title": "Slow breakfast & Glacier Express home", "description": "Long breakfast on the Palace terrace with a final Matterhorn view. Late checkout; the hotel transfers you to Zermatt station for the Glacier Express to Zurich, or a private transfer door-to-door." }
+      {
+        "day": 1,
+        "title": "Arrival & Matterhorn sunset",
+        "description": "Train from Zurich (Glacier Express or direct via Visp, about 3.5 hours; cars must be left at Täsch). Zermatt's e-taxi meets you at the station. Settle in; head to the hotel's Capri Lounge for aperitifs as the Matterhorn turns pink, then dinner at Le Restaurant with a Fendant white from the Valais."
+      },
+      {
+        "day": 2,
+        "title": "Gornergrat sunrise, spa afternoon",
+        "description": "Pre-dawn walk to Gornergrat railway (4 minutes from hotel) for the sunrise train — the classic 7am ride up to 3,089 m with the Matterhorn lit red in front of you. Breakfast on the mountain, then back for a couples' ritual at the Mont Cervin Spa."
+      },
+      {
+        "day": 3,
+        "title": "Ski the Matterhorn paradise",
+        "description": "Hotel ski butler kits you out; shuttle to Matterhorn Glacier Paradise lifts. Ski across into Italy for lunch at a Cervinia rifugio, then back. Evening at Le Petit Cervin — the hotel's intimate 30-seat fine-dining room, Michelin-recommended."
+      },
+      {
+        "day": 4,
+        "title": "Horse-drawn carriage & heritage walk",
+        "description": "The Mont Cervin operates its own horse-drawn carriage (Zermatt is car-free, so horses and e-taxis are the only options). Afternoon carriage ride through the village, stopping at the Matterhorn Museum and the mountaineers' cemetery. Dinner at Myoko, the hotel's Japanese grotto, for a change of pace."
+      },
+      {
+        "day": 5,
+        "title": "Snowshoeing to Sunnegga",
+        "description": "Guided snowshoe morning from Sunnegga — the easy-access ski sector above the village — with a pre-arranged fondue lunch in a mountain chalet. Return for a long afternoon in the Mont Cervin's 30-metre indoor pool and couples' steam."
+      },
+      {
+        "day": 6,
+        "title": "Klein Matterhorn + spa night",
+        "description": "Up the Matterhorn Glacier Paradise lift to 3,883 m — the highest cable-car station in Europe, walkable in December onward with the panorama terrace. Back for a full spa evening. Private dinner in your suite arranged by the concierge."
+      },
+      {
+        "day": 7,
+        "title": "Slow breakfast & Glacier Express home",
+        "description": "Long breakfast on the Palace terrace with a final Matterhorn view. Late checkout; the hotel transfers you to Zermatt station for the Glacier Express to Zurich, or a private transfer door-to-door."
+      }
     ],
     "caveats": [
       "Zermatt is car-free — you must leave your vehicle at Täsch (the last accessible village) and take the shuttle train. Factor this into arrival timing, especially with ski gear.",
@@ -64,12 +118,30 @@
       "The Mont Cervin is a large hotel (154 rooms) with a busy public area. Couples seeking a small, hushed alpine retreat may prefer The Omnia or CERVO nearby — both smaller, though both also pricier per night."
     ],
     "faqs": [
-      { "question": "Is the Matterhorn view really worth paying extra for?", "answer": "Unequivocally yes. The hotel's north-facing rooms are lovely but the whole point of staying in Zermatt is to wake up to that mountain. Budget the Matterhorn-view room category, not the standard one — you'll look at it every morning for a week." },
-      { "question": "Mont Cervin Palace, The Omnia, or CERVO?", "answer": "Three very different honeymoon options in Zermatt. Mont Cervin is classical grand hotel in the village centre. The Omnia is boutique, design-led, on a rock face above the village with a lift up. CERVO is chalet-luxe with the best restaurant scene in town. For first-time honeymooners who want heritage and scale, Mont Cervin wins." },
-      { "question": "Do we need to ski?", "answer": "No. Zermatt is full of non-ski couples — the Gornergrat railway, winter hiking paths, ice skating, horse-drawn carriages and the spa are all enough. The hotel concierge arranges day trips without skis, including snowshoe outings and the Klein Matterhorn cable car." },
-      { "question": "How do we get there from Zurich?", "answer": "Train to Visp then local connection to Zermatt (3-3.5 hours). The Glacier Express from St. Moritz to Zermatt (or reverse) is the iconic combination if you're doing both destinations. Private transfer from Zurich is possible as far as Täsch; from there you transfer to a shuttle train or an e-taxi into Zermatt." },
-      { "question": "What's the spa situation?", "answer": "The Mont Cervin Spa covers 2,000 m² with a 30-metre indoor pool, saunas, steam rooms, and 7 treatment rooms. Couples' private suite available for 120-minute rituals. Spa is included for guests; treatments charged separately. Quieter in the mornings — book 9am-11am for the pool to yourselves." },
-      { "question": "Dress code?", "answer": "Le Petit Cervin and Le Restaurant expect smart-casual to jacket-preferred for dinner. Myoko (the Japanese grotto) and the Capri Lounge are relaxed. Pack at least one jacket and one dinner dress — Zermatt is informal by day but Mont Cervin is dressy by evening." }
+      {
+        "question": "Is the Matterhorn view really worth paying extra for?",
+        "answer": "Unequivocally yes. The hotel's north-facing rooms are lovely but the whole point of staying in Zermatt is to wake up to that mountain. Budget the Matterhorn-view room category, not the standard one — you'll look at it every morning for a week."
+      },
+      {
+        "question": "Mont Cervin Palace, The Omnia, or CERVO?",
+        "answer": "Three very different honeymoon options in Zermatt. Mont Cervin is classical grand hotel in the village centre. The Omnia is boutique, design-led, on a rock face above the village with a lift up. CERVO is chalet-luxe with the best restaurant scene in town. For first-time honeymooners who want heritage and scale, Mont Cervin wins."
+      },
+      {
+        "question": "Do we need to ski?",
+        "answer": "No. Zermatt is full of non-ski couples — the Gornergrat railway, winter hiking paths, ice skating, horse-drawn carriages and the spa are all enough. The hotel concierge arranges day trips without skis, including snowshoe outings and the Klein Matterhorn cable car."
+      },
+      {
+        "question": "How do we get there from Zurich?",
+        "answer": "Train to Visp then local connection to Zermatt (3-3.5 hours). The Glacier Express from St. Moritz to Zermatt (or reverse) is the iconic combination if you're doing both destinations. Private transfer from Zurich is possible as far as Täsch; from there you transfer to a shuttle train or an e-taxi into Zermatt."
+      },
+      {
+        "question": "What's the spa situation?",
+        "answer": "The Mont Cervin Spa covers 2,000 m² with a 30-metre indoor pool, saunas, steam rooms, and 7 treatment rooms. Couples' private suite available for 120-minute rituals. Spa is included for guests; treatments charged separately. Quieter in the mornings — book 9am-11am for the pool to yourselves."
+      },
+      {
+        "question": "Dress code?",
+        "answer": "Le Petit Cervin and Le Restaurant expect smart-casual to jacket-preferred for dinner. Myoko (the Japanese grotto) and the Capri Lounge are relaxed. Pack at least one jacket and one dinner dress — Zermatt is informal by day but Mont Cervin is dressy by evening."
+      }
     ],
     "email_template": "Subject: Honeymoon booking enquiry — Mont Cervin Palace, Zermatt, late February 2027\n\nHello Mont Cervin team,\n\nWe'd like to book our honeymoon with you. Details:\n\n- Dates: 7 nights, late February / early March 2027 (flexible for best rate and weather window)\n- Room: Junior Suite Matterhorn View in the main Palace building, 5th or 6th floor ideally; we'd love the cleanest Matterhorn view you can offer\n- Occasion: honeymoon — any welcome would be appreciated\n- Dining: Le Restaurant on arrival night, Le Petit Cervin on night three, Myoko on night four; private in-suite dinner on night six\n- Spa: a 120-minute couples' ritual on day two; bookings for the indoor pool couples' steam on two afternoons\n- Experiences: sunrise Gornergrat trip, one full ski day with an instructor including the cross-border lunch at Cervinia, a horse-drawn carriage tour, guided snowshoe with fondue lunch, Matterhorn Glacier Paradise day\n- Transfer: please arrange Zermatt station pickup by e-taxi and shuttle connection with luggage forwarding from Zurich Airport\n\nCould you share honeymoon package options, cancellation policy, and confirm early check-in and late checkout possibilities?\n\nMany thanks,\n[Names]"
   },

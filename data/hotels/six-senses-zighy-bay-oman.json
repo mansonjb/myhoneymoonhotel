@@ -3,19 +3,67 @@
   "name": "Six Senses Zighy Bay",
   "destination": "oman",
   "country": "oman",
-  "experience_types": ["luxury", "wellness", "beach"],
+  "experience_types": [
+    "luxury",
+    "wellness",
+    "beach"
+  ],
   "honeymoon_score": 96,
-  "score_breakdown": { "adults_only": 6, "couples_pct": 20, "spa": 15, "award": 15, "pool": 10, "beach": 10, "room_service": 5, "stars": 10, "luxury": 5 },
+  "score_breakdown": {
+    "adults_only": 6,
+    "couples_pct": 20,
+    "spa": 15,
+    "award": 15,
+    "pool": 10,
+    "beach": 10,
+    "room_service": 5,
+    "stars": 10,
+    "luxury": 5
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 1200, "max": 4000 },
+  "price_per_night_usd": {
+    "min": 1200,
+    "max": 4000
+  },
   "adults_only": false,
-  "amenities": ["spa", "private pool villa", "private beach", "butler service", "yoga pavilion", "dive center", "organic garden", "paragliding arrival", "wine cellar", "hammam"],
+  "amenities": [
+    "spa",
+    "private pool villa",
+    "private beach",
+    "butler service",
+    "yoga pavilion",
+    "dive center",
+    "organic garden",
+    "paragliding arrival",
+    "wine cellar",
+    "hammam"
+  ],
   "photos": [
-    { "url": "/images/hotels/six-senses-zighy-bay-oman/hero.webp", "alt": "six-senses-zighy-bay-oman — hero", "type": "hero" },
-    { "url": "/images/hotels/six-senses-zighy-bay-oman/room.webp", "alt": "six-senses-zighy-bay-oman — room", "type": "room" },
-    { "url": "/images/hotels/six-senses-zighy-bay-oman/pool.webp", "alt": "six-senses-zighy-bay-oman — pool", "type": "pool" },
-    { "url": "/images/hotels/six-senses-zighy-bay-oman/spa.webp", "alt": "six-senses-zighy-bay-oman — spa", "type": "spa" },
-    { "url": "/images/hotels/six-senses-zighy-bay-oman/dining.webp", "alt": "six-senses-zighy-bay-oman — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/six-senses-zighy-bay-oman/hero.webp",
+      "alt": "six-senses-zighy-bay-oman — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/six-senses-zighy-bay-oman/room.webp",
+      "alt": "six-senses-zighy-bay-oman — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/six-senses-zighy-bay-oman/pool.webp",
+      "alt": "six-senses-zighy-bay-oman — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/six-senses-zighy-bay-oman/spa.webp",
+      "alt": "six-senses-zighy-bay-oman — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/six-senses-zighy-bay-oman/dining.webp",
+      "alt": "six-senses-zighy-bay-oman — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.5,
   "tripadvisor_award": true,
@@ -24,13 +72,41 @@
     "verdict": "Zighy Bay is arguably the single most cinematic honeymoon arrival on earth — you can literally paraglide down over the Hajar mountains into your villa compound. Between the remote 1.6 km private beach, the 82 pool villas with Persian-Gulf sunsets, and Six Senses' trademark wellness programming, this is a once-in-a-lifetime pick that justifies the price tag for couples who want isolation with character rather than glossy polish.",
     "best_room": "Book a Pool Villa Beachfront — the stone-walled, Omani-village-inspired compound sits directly on the sand with a private plunge pool, outdoor shower, and uninterrupted sea views. Upgrading to a Retreat adds a second bedroom that is wasted on two, so stick with the one-bedroom beachfront category and spend the savings on the paraglider arrival.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & paraglider descent", "description": "Transfer from Dubai airport (about 2 hours) and swap the 4WD for a tandem paraglider over the 293 m ridge — the most dramatic check-in in hospitality. Unpack into your beachfront pool villa and have a quiet dinner at Spice Market on the sand." },
-      { "day": 2, "title": "Beach & spa immersion", "description": "Spend the morning on the private 1.6 km beach with butler-delivered breakfast, then book the signature Arabian Hammam followed by a couples massage in the cliffside spa village. Sunset yoga at the wellness pavilion closes the day." },
-      { "day": 3, "title": "Musandam fjords cruise", "description": "Board the resort's traditional dhow for a full-day cruise through the Musandam fjords, swimming in hidden coves and snorkelling with resident dolphins. Lunch is a Lebanese mezze served on deck as the cliffs tower overhead." },
-      { "day": 4, "title": "Mountain safari & stargazing dinner", "description": "Take a 4WD safari up into the Hajar mountains to watch the light change over Zighy village and the Omani border. Dinner is the private 'Summit' experience — a table for two on the mountaintop with a telescope and a dedicated chef." },
-      { "day": 5, "title": "Dive day or deep relaxation", "description": "Certified divers should take the boat to the Lima Rock dive site for sharks and turtles; non-divers can try a resort course or simply float in the villa pool. Reconvene for a wine pairing dinner in the underground Wine Cellar." },
-      { "day": 6, "title": "Wellness reset", "description": "Commit the day to the Six Senses Integrated Wellness program — a sleep consultation, a visiting-practitioner ritual, and a sound healing session in the meditation cave. End with a candlelit beach barbecue set up outside your villa." },
-      { "day": 7, "title": "Farewell", "description": "Enjoy a late breakfast in your villa and a final swim before the 4WD convoy climbs back up the mountain pass. Transfer to Dubai or on to Muscat via Khasab, depending on your outbound flight." }
+      {
+        "day": 1,
+        "title": "Arrival & paraglider descent",
+        "description": "Transfer from Dubai airport (about 2 hours) and swap the 4WD for a tandem paraglider over the 293 m ridge — the most dramatic check-in in hospitality. Unpack into your beachfront pool villa and have a quiet dinner at Spice Market on the sand."
+      },
+      {
+        "day": 2,
+        "title": "Beach & spa immersion",
+        "description": "Spend the morning on the private 1.6 km beach with butler-delivered breakfast, then book the signature Arabian Hammam followed by a couples massage in the cliffside spa village. Sunset yoga at the wellness pavilion closes the day."
+      },
+      {
+        "day": 3,
+        "title": "Musandam fjords cruise",
+        "description": "Board the resort's traditional dhow for a full-day cruise through the Musandam fjords, swimming in hidden coves and snorkelling with resident dolphins. Lunch is a Lebanese mezze served on deck as the cliffs tower overhead."
+      },
+      {
+        "day": 4,
+        "title": "Mountain safari & stargazing dinner",
+        "description": "Take a 4WD safari up into the Hajar mountains to watch the light change over Zighy village and the Omani border. Dinner is the private 'Summit' experience — a table for two on the mountaintop with a telescope and a dedicated chef."
+      },
+      {
+        "day": 5,
+        "title": "Dive day or deep relaxation",
+        "description": "Certified divers should take the boat to the Lima Rock dive site for sharks and turtles; non-divers can try a resort course or simply float in the villa pool. Reconvene for a wine pairing dinner in the underground Wine Cellar."
+      },
+      {
+        "day": 6,
+        "title": "Wellness reset",
+        "description": "Commit the day to the Six Senses Integrated Wellness program — a sleep consultation, a visiting-practitioner ritual, and a sound healing session in the meditation cave. End with a candlelit beach barbecue set up outside your villa."
+      },
+      {
+        "day": 7,
+        "title": "Farewell",
+        "description": "Enjoy a late breakfast in your villa and a final swim before the 4WD convoy climbs back up the mountain pass. Transfer to Dubai or on to Muscat via Khasab, depending on your outbound flight."
+      }
     ],
     "caveats": [
       "Access is genuinely remote — the standard arrival is a steep 4WD descent, and flight connections almost always require transiting Dubai rather than Muscat.",
@@ -38,12 +114,30 @@
       "Rates are among the highest in Oman and the resort does not routinely discount — high-season villa pricing frequently exceeds USD 2,000 per night before extras."
     ],
     "faqs": [
-      { "question": "Is it good for honeymooners?", "answer": "Exceptionally — the private beachfront pool villas, couples' spa rituals, and theatrical paraglider arrival make it one of the top honeymoon resorts in the region, especially for couples who prefer privacy over scene." },
-      { "question": "Best time to visit?", "answer": "October to April offers warm, dry days (24-30 C) and calm seas. May and September are hot but quieter and cheaper; July-August is uncomfortably hot and humid." },
-      { "question": "How far in advance to book?", "answer": "Six to nine months for peak honeymoon months (Nov, Feb, March). The beachfront pool villas and the paragliding arrival slots sell out first, so lock those in early." },
-      { "question": "Is it adults-only?", "answer": "No, children are welcome and the Chaica's Club caters to families, but the villa layout and spread-out beach mean couples rarely notice them outside school holidays." },
-      { "question": "Which room should we book?", "answer": "Pool Villa Beachfront — direct sand access, a private pool, and sunset-facing terrace. Retreat villas are huge but the second bedroom goes unused on a honeymoon." },
-      { "question": "How do we get there?", "answer": "Fly into Dubai (DXB), then a 2-hour resort 4WD transfer through the UAE-Oman border into Musandam. Optional speedboat transfer from Khasab or the theatrical paragliding arrival over the mountains can be pre-arranged." }
+      {
+        "question": "Is it good for honeymooners?",
+        "answer": "Exceptionally — the private beachfront pool villas, couples' spa rituals, and theatrical paraglider arrival make it one of the top honeymoon resorts in the region, especially for couples who prefer privacy over scene."
+      },
+      {
+        "question": "Best time to visit?",
+        "answer": "October to April offers warm, dry days (24-30 C) and calm seas. May and September are hot but quieter and cheaper; July-August is uncomfortably hot and humid."
+      },
+      {
+        "question": "How far in advance to book?",
+        "answer": "Six to nine months for peak honeymoon months (Nov, Feb, March). The beachfront pool villas and the paragliding arrival slots sell out first, so lock those in early."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "No, children are welcome and the Chaica's Club caters to families, but the villa layout and spread-out beach mean couples rarely notice them outside school holidays."
+      },
+      {
+        "question": "Which room should we book?",
+        "answer": "Pool Villa Beachfront — direct sand access, a private pool, and sunset-facing terrace. Retreat villas are huge but the second bedroom goes unused on a honeymoon."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "Fly into Dubai (DXB), then a 2-hour resort 4WD transfer through the UAE-Oman border into Musandam. Optional speedboat transfer from Khasab or the theatrical paragliding arrival over the mountains can be pre-arranged."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Six Senses Zighy Bay\n\nDear team,\n\nWe are planning our honeymoon and are interested in staying from [DATE] to [DATE]. Could you advise on availability and any honeymoon packages — possibly including airport transfer, sunset dinner, spa ritual, and room upgrade?\n\nThank you,\n[Names]"
   },

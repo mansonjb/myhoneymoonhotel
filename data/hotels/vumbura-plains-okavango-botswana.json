@@ -3,7 +3,10 @@
   "name": "Vumbura Plains",
   "destination": "botswana",
   "country": "botswana",
-  "experience_types": ["safari", "luxury"],
+  "experience_types": [
+    "safari",
+    "luxury"
+  ],
   "honeymoon_score": 93,
   "score_breakdown": {
     "adults_only": 25,
@@ -17,7 +20,10 @@
     "luxury": 6
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 1500, "max": 3500 },
+  "price_per_night_usd": {
+    "min": 1500,
+    "max": 3500
+  },
   "adults_only": false,
   "amenities": [
     "private deck",
@@ -34,11 +40,31 @@
     "raised walkways"
   ],
   "photos": [
-    { "url": "/images/hotels/vumbura-plains-okavango-botswana/hero.webp", "alt": "vumbura-plains-okavango-botswana — hero", "type": "hero" },
-    { "url": "/images/hotels/vumbura-plains-okavango-botswana/room.webp", "alt": "vumbura-plains-okavango-botswana — room", "type": "room" },
-    { "url": "/images/hotels/vumbura-plains-okavango-botswana/pool.webp", "alt": "vumbura-plains-okavango-botswana — pool", "type": "pool" },
-    { "url": "/images/hotels/vumbura-plains-okavango-botswana/spa.webp", "alt": "vumbura-plains-okavango-botswana — spa", "type": "spa" },
-    { "url": "/images/hotels/vumbura-plains-okavango-botswana/dining.webp", "alt": "vumbura-plains-okavango-botswana — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/vumbura-plains-okavango-botswana/hero.webp",
+      "alt": "vumbura-plains-okavango-botswana — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/vumbura-plains-okavango-botswana/room.webp",
+      "alt": "vumbura-plains-okavango-botswana — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/vumbura-plains-okavango-botswana/pool.webp",
+      "alt": "vumbura-plains-okavango-botswana — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/vumbura-plains-okavango-botswana/spa.webp",
+      "alt": "vumbura-plains-okavango-botswana — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/vumbura-plains-okavango-botswana/dining.webp",
+      "alt": "vumbura-plains-okavango-botswana — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.6,
   "tripadvisor_award": true,
@@ -47,13 +73,41 @@
     "verdict": "Vumbura Plains is the most balanced camp in the Okavango for honeymooners who want a single base that delivers both water and land safaris across the year. Wilderness runs it as two separate identical camps — North and South — each with seven suites on raised stilts connected by long timber walkways above the floodplain. The wide, open setting on the northern Delta means you see weather and wildlife moving across huge distances: elephants crossing channels at dawn, lechwe scattering through silver grass, storm light drifting over mopane woodland. Suites have private plunge pools and outdoor showers, and the guiding team is among Wilderness's strongest. For couples who want a genuinely versatile Delta experience at a slightly gentler price point than Jao or Mombo, this is the pick.",
     "best_room": "All seven suites at each camp are built to the same specification, so pick on position — request an end-of-walkway suite for maximum privacy and the best uninterrupted floodplain view. Vumbura South tends to feel marginally more secluded than North, but game-viewing across the two is essentially identical. Honeymooners should ask for a private floodplain dinner set-up on their deck.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival and floodplain evening", "description": "Light-aircraft transfer from Maun onto the Vumbura airstrip, champagne orientation in your suite, and an easy evening drive with sundowners on the wide open floodplain." },
-      { "day": 2, "title": "Water morning", "description": "Pre-dawn coffee, a long silent mokoro journey through lily-covered channels with your private poler, brunch back at camp, and an afternoon game drive focused on lion and leopard." },
-      { "day": 3, "title": "Full-day drive", "description": "Pack a picnic, head deep into the Vumbura concession for a full day of game viewing with lunch under a shady tree, and return for a couples spa treatment in-suite before dinner." },
-      { "day": 4, "title": "Boat and bush", "description": "A sunrise boat cruise through the permanent channels with tea and pastries, breakfast on a secluded island, an afternoon drive and a private bush dinner under lanterns." },
-      { "day": 5, "title": "Walking and wildlife", "description": "A guided bush walk with an armed guide in the early morning (seasonal), brunch, a plunge-pool siesta and a sundowner drive culminating in a boma dinner." },
-      { "day": 6, "title": "Slow day and private dinner", "description": "A late breakfast, an afternoon drive along the floodplain with elephant focus, and a candlelit dinner set up on your private deck high above the water." },
-      { "day": 7, "title": "Farewell and transfer", "description": "A final dawn drive with coffee and rusks, brunch at camp, and a light-aircraft onward transfer or return to Maun." }
+      {
+        "day": 1,
+        "title": "Arrival and floodplain evening",
+        "description": "Light-aircraft transfer from Maun onto the Vumbura airstrip, champagne orientation in your suite, and an easy evening drive with sundowners on the wide open floodplain."
+      },
+      {
+        "day": 2,
+        "title": "Water morning",
+        "description": "Pre-dawn coffee, a long silent mokoro journey through lily-covered channels with your private poler, brunch back at camp, and an afternoon game drive focused on lion and leopard."
+      },
+      {
+        "day": 3,
+        "title": "Full-day drive",
+        "description": "Pack a picnic, head deep into the Vumbura concession for a full day of game viewing with lunch under a shady tree, and return for a couples spa treatment in-suite before dinner."
+      },
+      {
+        "day": 4,
+        "title": "Boat and bush",
+        "description": "A sunrise boat cruise through the permanent channels with tea and pastries, breakfast on a secluded island, an afternoon drive and a private bush dinner under lanterns."
+      },
+      {
+        "day": 5,
+        "title": "Walking and wildlife",
+        "description": "A guided bush walk with an armed guide in the early morning (seasonal), brunch, a plunge-pool siesta and a sundowner drive culminating in a boma dinner."
+      },
+      {
+        "day": 6,
+        "title": "Slow day and private dinner",
+        "description": "A late breakfast, an afternoon drive along the floodplain with elephant focus, and a candlelit dinner set up on your private deck high above the water."
+      },
+      {
+        "day": 7,
+        "title": "Farewell and transfer",
+        "description": "A final dawn drive with coffee and rusks, brunch at camp, and a light-aircraft onward transfer or return to Maun."
+      }
     ],
     "caveats": [
       "Access is by light aircraft from Maun with the standard 20 kg soft-sided duffel limit per guest and no hard cases — pack sparingly and use wheeled soft duffels if you must.",
@@ -61,12 +115,30 @@
       "This is a malaria region — consult your travel doctor about prophylaxis, bring DEET and long-sleeved clothing for dusk, and be prepared for the usual bush-camp reality of mosquitoes and, on some drives, tsetse flies."
     ],
     "faqs": [
-      { "question": "Should we stay at Vumbura North or South?", "answer": "They are essentially equivalent in suite design and game viewing, and guests rarely move between them. South has a reputation for slightly more intimate evenings; North slightly more openness. If you have no preference, take whichever has availability on your dates." },
-      { "question": "Is Vumbura a strong year-round choice?", "answer": "Yes — it's one of the Delta's most balanced camps thanks to a mix of permanent channels and extensive dry ground. You can always do land drives and there is meaningful water even in the lower-flood months, unlike some single-mode camps." },
-      { "question": "How does it compare to Jao?", "answer": "Jao is more architecturally ambitious and more expensive, with a serious spa and very small guest numbers on a private island. Vumbura is slightly more classic in design, better priced, and delivers a broader game-viewing mix with more land access. Many couples combine both." },
-      { "question": "Are children allowed?", "answer": "Children from six years old are welcome, with a family suite option at each camp. The overall atmosphere is adult-led and couples-dominant, and honeymooners rarely feel crowded out by family groups." },
-      { "question": "What is the spa like?", "answer": "Vumbura offers in-suite spa treatments rather than a dedicated pavilion — a massage therapist comes to your deck. Expect a solid bush-camp spa experience rather than a full wellness programme. Jao is the portfolio camp with a serious spa if that is a priority." },
-      { "question": "What's included?", "answer": "All meals, all drinks (house and premium), all scheduled activities (drives, boat, mokoro, walks), laundry, park fees, Wi-Fi in the main area and scheduled light-aircraft transfers to and from Maun." }
+      {
+        "question": "Should we stay at Vumbura North or South?",
+        "answer": "They are essentially equivalent in suite design and game viewing, and guests rarely move between them. South has a reputation for slightly more intimate evenings; North slightly more openness. If you have no preference, take whichever has availability on your dates."
+      },
+      {
+        "question": "Is Vumbura a strong year-round choice?",
+        "answer": "Yes — it's one of the Delta's most balanced camps thanks to a mix of permanent channels and extensive dry ground. You can always do land drives and there is meaningful water even in the lower-flood months, unlike some single-mode camps."
+      },
+      {
+        "question": "How does it compare to Jao?",
+        "answer": "Jao is more architecturally ambitious and more expensive, with a serious spa and very small guest numbers on a private island. Vumbura is slightly more classic in design, better priced, and delivers a broader game-viewing mix with more land access. Many couples combine both."
+      },
+      {
+        "question": "Are children allowed?",
+        "answer": "Children from six years old are welcome, with a family suite option at each camp. The overall atmosphere is adult-led and couples-dominant, and honeymooners rarely feel crowded out by family groups."
+      },
+      {
+        "question": "What is the spa like?",
+        "answer": "Vumbura offers in-suite spa treatments rather than a dedicated pavilion — a massage therapist comes to your deck. Expect a solid bush-camp spa experience rather than a full wellness programme. Jao is the portfolio camp with a serious spa if that is a priority."
+      },
+      {
+        "question": "What's included?",
+        "answer": "All meals, all drinks (house and premium), all scheduled activities (drives, boat, mokoro, walks), laundry, park fees, Wi-Fi in the main area and scheduled light-aircraft transfers to and from Maun."
+      }
     ],
     "email_template": "Subject: Honeymoon booking enquiry — Vumbura Plains, 7 nights\n\nHello Wilderness Reservations team,\n\nWe are planning our honeymoon and would like to spend seven nights at Vumbura Plains, ideally in either the North or South camp. Our tentative dates are [DATES], travelling as two adults. Please confirm availability for a standard suite, current fully inclusive per-night rates and the Maun light-aircraft schedule.\n\nWe would appreciate your recommendations on combining Vumbura with either Jao or Mombo for a 10-14 night itinerary, plus any honeymoon additions — private floodplain dinners, couples spa in-suite, star beds where available. Please also send your current deposit and cancellation policy.\n\nThank you — we look forward to hearing from you.\n\nKind regards,\n[Your names]\n[Phone] | [Email]"
   },

@@ -3,19 +3,67 @@
   "name": "Shangri-La Al Husn, Muscat",
   "destination": "oman",
   "country": "oman",
-  "experience_types": ["luxury", "adults-only", "beach"],
+  "experience_types": [
+    "luxury",
+    "adults-only",
+    "beach"
+  ],
   "honeymoon_score": 93,
-  "score_breakdown": { "adults_only": 25, "couples_pct": 20, "spa": 13, "award": 10, "pool": 10, "beach": 10, "room_service": 0, "stars": 0, "luxury": 5 },
+  "score_breakdown": {
+    "adults_only": 25,
+    "couples_pct": 20,
+    "spa": 13,
+    "award": 10,
+    "pool": 10,
+    "beach": 10,
+    "room_service": 0,
+    "stars": 0,
+    "luxury": 5
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 600, "max": 2000 },
+  "price_per_night_usd": {
+    "min": 600,
+    "max": 2000
+  },
   "adults_only": true,
-  "amenities": ["spa", "adults-only", "private beach cove", "clifftop infinity pool", "butler service", "club lounge", "hammam", "fine dining", "turtle beach access", "exclusive lounge"],
+  "amenities": [
+    "spa",
+    "adults-only",
+    "private beach cove",
+    "clifftop infinity pool",
+    "butler service",
+    "club lounge",
+    "hammam",
+    "fine dining",
+    "turtle beach access",
+    "exclusive lounge"
+  ],
   "photos": [
-    { "url": "/images/hotels/shangri-la-al-husn-muscat-oman/hero.webp", "alt": "shangri-la-al-husn-muscat-oman — hero", "type": "hero" },
-    { "url": "/images/hotels/shangri-la-al-husn-muscat-oman/room.webp", "alt": "shangri-la-al-husn-muscat-oman — room", "type": "room" },
-    { "url": "/images/hotels/shangri-la-al-husn-muscat-oman/pool.webp", "alt": "shangri-la-al-husn-muscat-oman — pool", "type": "pool" },
-    { "url": "/images/hotels/shangri-la-al-husn-muscat-oman/spa.webp", "alt": "shangri-la-al-husn-muscat-oman — spa", "type": "spa" },
-    { "url": "/images/hotels/shangri-la-al-husn-muscat-oman/dining.webp", "alt": "shangri-la-al-husn-muscat-oman — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/shangri-la-al-husn-muscat-oman/hero.webp",
+      "alt": "shangri-la-al-husn-muscat-oman — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/shangri-la-al-husn-muscat-oman/room.webp",
+      "alt": "shangri-la-al-husn-muscat-oman — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/shangri-la-al-husn-muscat-oman/pool.webp",
+      "alt": "shangri-la-al-husn-muscat-oman — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/shangri-la-al-husn-muscat-oman/spa.webp",
+      "alt": "shangri-la-al-husn-muscat-oman — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/shangri-la-al-husn-muscat-oman/dining.webp",
+      "alt": "shangri-la-al-husn-muscat-oman — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.3,
   "tripadvisor_award": true,
@@ -24,13 +72,41 @@
     "verdict": "Al Husn is the adults-only clifftop wing of the wider Shangri-La Barr Al Jissah complex, and it is arguably the best pure honeymoon address in Muscat. You get a private infinity pool on the bluff, access to a hidden cove beach, club-lounge service all day, and you can still walk over for the bigger resort's restaurants and dhow cruises when you want variety.",
     "best_room": "Book an Al Husn Executive Sea View Room — the layout is identical to the base category but the clifftop sea view and private balcony are what you came for. Upgrade to a Specialty Suite if you want a standalone sitting room, but the base sea view is the value pick and includes full Al Husn lounge privileges.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival at the clifftop", "description": "Short transfer from Muscat airport (about 35 minutes) and check in at the dedicated Al Husn lobby, far from the family wings. Sunset canapés at the Al Husn Lounge overlooking the bay." },
-      { "day": 2, "title": "Cove beach & spa day", "description": "Relax on the private Al Husn cove — it is accessed by lift down the cliff and kept separate from the main resort beach. Book a couples' hammam and massage at CHI, The Spa, followed by dinner at Shahrazad." },
-      { "day": 3, "title": "Turtle beach walk & city tour", "description": "Join the resort's private guide for a morning turtle beach walk along the protected headland (seasonal). Afternoon city tour to the Grand Mosque, Royal Opera House, and Mutrah souk." },
-      { "day": 4, "title": "Dhow sunset cruise", "description": "Take the resort's wooden dhow for a sunset cruise through the Bandar Jissah bays, with a chilled bottle of champagne and mezze. Return for dinner at Sultanah, the stylish seafood restaurant on the headland." },
-      { "day": 5, "title": "Bimmah Sinkhole & Wadi Shab", "description": "Private excursion south to the turquoise Bimmah Sinkhole for a swim, then a guided hike into Wadi Shab with the cave-waterfall swim at the end. Return tired for a light supper in your room on the balcony." },
-      { "day": 6, "title": "Pool day & private dining", "description": "Stay clifftop — alternate between the adults-only infinity pool and the cove, with pool butler service bringing drinks and snacks. Evening is the signature 'Dining by Design' — a private candlelit table set up in a hidden cliffside spot." },
-      { "day": 7, "title": "Farewell", "description": "One more swim in the infinity pool and a final Al Husn Lounge breakfast. Transfer back to Muscat International for the outbound flight or a coastal extension." }
+      {
+        "day": 1,
+        "title": "Arrival at the clifftop",
+        "description": "Short transfer from Muscat airport (about 35 minutes) and check in at the dedicated Al Husn lobby, far from the family wings. Sunset canapés at the Al Husn Lounge overlooking the bay."
+      },
+      {
+        "day": 2,
+        "title": "Cove beach & spa day",
+        "description": "Relax on the private Al Husn cove — it is accessed by lift down the cliff and kept separate from the main resort beach. Book a couples' hammam and massage at CHI, The Spa, followed by dinner at Shahrazad."
+      },
+      {
+        "day": 3,
+        "title": "Turtle beach walk & city tour",
+        "description": "Join the resort's private guide for a morning turtle beach walk along the protected headland (seasonal). Afternoon city tour to the Grand Mosque, Royal Opera House, and Mutrah souk."
+      },
+      {
+        "day": 4,
+        "title": "Dhow sunset cruise",
+        "description": "Take the resort's wooden dhow for a sunset cruise through the Bandar Jissah bays, with a chilled bottle of champagne and mezze. Return for dinner at Sultanah, the stylish seafood restaurant on the headland."
+      },
+      {
+        "day": 5,
+        "title": "Bimmah Sinkhole & Wadi Shab",
+        "description": "Private excursion south to the turquoise Bimmah Sinkhole for a swim, then a guided hike into Wadi Shab with the cave-waterfall swim at the end. Return tired for a light supper in your room on the balcony."
+      },
+      {
+        "day": 6,
+        "title": "Pool day & private dining",
+        "description": "Stay clifftop — alternate between the adults-only infinity pool and the cove, with pool butler service bringing drinks and snacks. Evening is the signature 'Dining by Design' — a private candlelit table set up in a hidden cliffside spot."
+      },
+      {
+        "day": 7,
+        "title": "Farewell",
+        "description": "One more swim in the infinity pool and a final Al Husn Lounge breakfast. Transfer back to Muscat International for the outbound flight or a coastal extension."
+      }
     ],
     "caveats": [
       "Although Al Husn itself is adults-only, the wider Shangri-La Barr Al Jissah complex is very family-oriented — on resort walks you will see plenty of children, even if not at your pool.",
@@ -38,12 +114,30 @@
       "Muscat is a city destination — road noise is occasionally audible on windy days from the coastal highway."
     ],
     "faqs": [
-      { "question": "Is it good for honeymooners?", "answer": "Outstanding — the adults-only clifftop layout, dedicated cove beach, and all-day lounge access make it one of the most romantic picks in Oman, and certainly the best adults-only option in Muscat." },
-      { "question": "Best time to visit?", "answer": "October to April for warm, dry days and comfortable sea temperatures. Summer months bring 40 C heat and 80% humidity that ruin outdoor dining." },
-      { "question": "How far in advance to book?", "answer": "Three to five months for most dates; six months for Christmas and the UAE National Day weekend in early December." },
-      { "question": "Is it adults-only?", "answer": "Yes, Al Husn itself is 18+. The neighbouring Al Bandar and Al Waha hotels in the same complex are family-friendly, but their pools and restaurants are separate from Al Husn's." },
-      { "question": "Which room should we book?", "answer": "Executive Sea View Room for value, or a Specialty Suite for extra space. All categories include club lounge breakfast, all-day canapés, and evening cocktails." },
-      { "question": "How do we get there?", "answer": "Fly into Muscat International (MCT), then a 35-minute transfer south along the Qurum coast to the Bar Al Jissah bay. The Al Husn pick-up is separate from the main resort arrivals lane." }
+      {
+        "question": "Is it good for honeymooners?",
+        "answer": "Outstanding — the adults-only clifftop layout, dedicated cove beach, and all-day lounge access make it one of the most romantic picks in Oman, and certainly the best adults-only option in Muscat."
+      },
+      {
+        "question": "Best time to visit?",
+        "answer": "October to April for warm, dry days and comfortable sea temperatures. Summer months bring 40 C heat and 80% humidity that ruin outdoor dining."
+      },
+      {
+        "question": "How far in advance to book?",
+        "answer": "Three to five months for most dates; six months for Christmas and the UAE National Day weekend in early December."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "Yes, Al Husn itself is 18+. The neighbouring Al Bandar and Al Waha hotels in the same complex are family-friendly, but their pools and restaurants are separate from Al Husn's."
+      },
+      {
+        "question": "Which room should we book?",
+        "answer": "Executive Sea View Room for value, or a Specialty Suite for extra space. All categories include club lounge breakfast, all-day canapés, and evening cocktails."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "Fly into Muscat International (MCT), then a 35-minute transfer south along the Qurum coast to the Bar Al Jissah bay. The Al Husn pick-up is separate from the main resort arrivals lane."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Shangri-La Al Husn, Muscat\n\nDear team,\n\nWe are planning our honeymoon and are interested in staying from [DATE] to [DATE]. Could you advise on availability and any honeymoon packages — possibly including airport transfer, sunset dinner, spa ritual, and room upgrade?\n\nThank you,\n[Names]"
   },

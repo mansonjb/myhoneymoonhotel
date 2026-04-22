@@ -3,7 +3,10 @@
   "name": "Hotel Castello del Sole, Ascona",
   "destination": "switzerland",
   "country": "switzerland",
-  "experience_types": ["luxury", "wellness"],
+  "experience_types": [
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 88,
   "score_breakdown": {
     "adults_only": 12,
@@ -17,7 +20,10 @@
     "luxury": 3
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 500, "max": 2000 },
+  "price_per_night_usd": {
+    "min": 500,
+    "max": 2000
+  },
   "adults_only": false,
   "amenities": [
     "spa",
@@ -37,11 +43,31 @@
     "8-hectare park"
   ],
   "photos": [
-    { "url": "/images/hotels/hotel-castello-del-sole-ascona-switzerland/hero.webp", "alt": "hotel-castello-del-sole-ascona-switzerland — hero", "type": "hero" },
-    { "url": "/images/hotels/hotel-castello-del-sole-ascona-switzerland/room.webp", "alt": "hotel-castello-del-sole-ascona-switzerland — room", "type": "room" },
-    { "url": "/images/hotels/hotel-castello-del-sole-ascona-switzerland/pool.webp", "alt": "hotel-castello-del-sole-ascona-switzerland — pool", "type": "pool" },
-    { "url": "/images/hotels/hotel-castello-del-sole-ascona-switzerland/spa.webp", "alt": "hotel-castello-del-sole-ascona-switzerland — spa", "type": "spa" },
-    { "url": "/images/hotels/hotel-castello-del-sole-ascona-switzerland/dining.webp", "alt": "hotel-castello-del-sole-ascona-switzerland — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/hotel-castello-del-sole-ascona-switzerland/hero.webp",
+      "alt": "hotel-castello-del-sole-ascona-switzerland — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/hotel-castello-del-sole-ascona-switzerland/room.webp",
+      "alt": "hotel-castello-del-sole-ascona-switzerland — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/hotel-castello-del-sole-ascona-switzerland/pool.webp",
+      "alt": "hotel-castello-del-sole-ascona-switzerland — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/hotel-castello-del-sole-ascona-switzerland/spa.webp",
+      "alt": "hotel-castello-del-sole-ascona-switzerland — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/hotel-castello-del-sole-ascona-switzerland/dining.webp",
+      "alt": "hotel-castello-del-sole-ascona-switzerland — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.2,
   "tripadvisor_award": true,
@@ -50,13 +76,41 @@
     "verdict": "Castello del Sole is Switzerland at its most Mediterranean — a Relais & Châteaux country house on the plain just outside Ascona, on the Italian-speaking shore of Lake Maggiore. 95 rooms spread through a low-slung villa and garden pavilions, set in the largest private park in Ticino: 8 hectares of vineyards, rice paddies (yes, Switzerland grows rice here), cornfields and lemon trees, ending in a private beach on the lake. The estate, called Terreni alla Maggia, is a fully working organic farm — the wine, rice, corn, cheese and olive oil at dinner are all grown on-site. For honeymooners, this is the 'Italian honeymoon without leaving Switzerland' option: warmer climate (micro-Mediterranean), lake swimming, palm trees, and a pace of life measurably slower than the rest of Switzerland. Pair with a few alpine nights for a honeymoon that spans the whole country.",
     "best_room": "Book a Junior Suite Park View with direct garden access — these are 45-55 m² with private terrace, set among the vineyards. For the ultimate, the Villa Amanda (standalone 3-room villa with private garden) is rare but sometimes bookable for a full week. Request a south-facing room for lake glimpses and morning sun.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & terrace dinner", "description": "Train from Zurich via the Gotthard base tunnel to Locarno (2 hours 40 min, dramatic climate change on arrival). Short taxi to Ascona. Settle in, cocktail on the main terrace, dinner at Ristorante Locanda Barbarossa — the hotel's Michelin-recommended main restaurant, Mediterranean estate cooking." },
-      { "day": 2, "title": "Lake beach day", "description": "The hotel's private lake beach is a 5-minute walk through the gardens. Deckchairs, towel service, pedal-boat rental. Lakeside lunch at Bagno Pubblico. Aperitivo back at the hotel bar at sunset, dinner at the more casual Ristorante La Vigna." },
-      { "day": 3, "title": "Estate tour & wine tasting", "description": "Private walking tour of Terreni alla Maggia with the estate sommelier — rice paddies, the Merlot vineyards, the lemon grove. Tasting of all estate wines with cheeses made on-site. Afternoon by the pool, spa treatment together in the Castello Spa, light dinner at La Vigna." },
-      { "day": 4, "title": "Lake Maggiore boat day", "description": "Boat from Ascona to Isola Bella and Isola dei Pescatori (Italian side, passports needed) — Borromean palace gardens and seafood lunch on the fishermen's island. Back to Ascona by late afternoon. Evening stroll along Ascona's Piazza Grande promenade and dinner at one of the lakeside trattorias." },
-      { "day": 5, "title": "Valle Verzasca half-day", "description": "Morning drive (30 min) to Lavertezzo in the Verzasca valley — turquoise river pools, medieval stone bridge, iconic Alpine bathing spot. Picnic lunch from the hotel kitchen. Back by mid-afternoon for pool and spa. Dinner at Barbarossa again, different tasting menu." },
-      { "day": 6, "title": "Bike the plain & farewell dinner", "description": "Estate bicycles in the morning for a leisurely 20 km loop along the Maggia river plain to the Maggia waterfalls. Long lunch back at the hotel. Farewell dinner at Barbarossa with a vertical tasting of estate wines across vintages." },
-      { "day": 7, "title": "Slow breakfast & train home", "description": "Breakfast on the garden terrace among the vines. Short drive to Locarno station, train to Zurich or Milan. Luggage forwarding available." }
+      {
+        "day": 1,
+        "title": "Arrival & terrace dinner",
+        "description": "Train from Zurich via the Gotthard base tunnel to Locarno (2 hours 40 min, dramatic climate change on arrival). Short taxi to Ascona. Settle in, cocktail on the main terrace, dinner at Ristorante Locanda Barbarossa — the hotel's Michelin-recommended main restaurant, Mediterranean estate cooking."
+      },
+      {
+        "day": 2,
+        "title": "Lake beach day",
+        "description": "The hotel's private lake beach is a 5-minute walk through the gardens. Deckchairs, towel service, pedal-boat rental. Lakeside lunch at Bagno Pubblico. Aperitivo back at the hotel bar at sunset, dinner at the more casual Ristorante La Vigna."
+      },
+      {
+        "day": 3,
+        "title": "Estate tour & wine tasting",
+        "description": "Private walking tour of Terreni alla Maggia with the estate sommelier — rice paddies, the Merlot vineyards, the lemon grove. Tasting of all estate wines with cheeses made on-site. Afternoon by the pool, spa treatment together in the Castello Spa, light dinner at La Vigna."
+      },
+      {
+        "day": 4,
+        "title": "Lake Maggiore boat day",
+        "description": "Boat from Ascona to Isola Bella and Isola dei Pescatori (Italian side, passports needed) — Borromean palace gardens and seafood lunch on the fishermen's island. Back to Ascona by late afternoon. Evening stroll along Ascona's Piazza Grande promenade and dinner at one of the lakeside trattorias."
+      },
+      {
+        "day": 5,
+        "title": "Valle Verzasca half-day",
+        "description": "Morning drive (30 min) to Lavertezzo in the Verzasca valley — turquoise river pools, medieval stone bridge, iconic Alpine bathing spot. Picnic lunch from the hotel kitchen. Back by mid-afternoon for pool and spa. Dinner at Barbarossa again, different tasting menu."
+      },
+      {
+        "day": 6,
+        "title": "Bike the plain & farewell dinner",
+        "description": "Estate bicycles in the morning for a leisurely 20 km loop along the Maggia river plain to the Maggia waterfalls. Long lunch back at the hotel. Farewell dinner at Barbarossa with a vertical tasting of estate wines across vintages."
+      },
+      {
+        "day": 7,
+        "title": "Slow breakfast & train home",
+        "description": "Breakfast on the garden terrace among the vines. Short drive to Locarno station, train to Zurich or Milan. Luggage forwarding available."
+      }
     ],
     "caveats": [
       "Not an alpine hotel — if you want snow, mountains or ski access, Castello del Sole is the wrong pick. It's a lake-and-estate retreat, more Italian in feel than Swiss, and open principally March-October.",
@@ -64,12 +118,30 @@
       "It's a relatively large property (95 rooms) and popular with German and Swiss-German families in summer. Book late June or September for the quietest, most romantic experience; avoid peak August if you want hushed atmosphere."
     ],
     "faqs": [
-      { "question": "Is this really in Switzerland? It sounds Italian.", "answer": "It is — but only just. Ticino is the Italian-speaking canton of Switzerland, on the south side of the Alps, and Lake Maggiore is shared with Italy a few kilometres south. Everyone speaks Italian, meals are Italian, the climate is Mediterranean, and palm trees grow in the garden. It's the most un-alpine corner of Switzerland, and deliberately so." },
-      { "question": "Is the private beach a real lake beach?", "answer": "Yes — a genuine swimming beach on Lake Maggiore, the only private beach of any Ticino hotel. Sandy-gravel, deckchairs, pedal-boats, and water clean enough to swim comfortably from June through September. This is the one Swiss hotel where 'beach' is an honest claim." },
-      { "question": "Pair it with which other Swiss hotels?", "answer": "Two combinations work beautifully: Castello del Sole (4 nights, lake) + The Alpina Gstaad (3 nights, mountain) for a complete south-to-north arc; or Castello del Sole (3 nights) + Bürgenstock (4 nights) for a pure lake honeymoon at two very different altitudes." },
-      { "question": "How's the food?", "answer": "The on-site Terreni alla Maggia estate means most ingredients on your plate were grown 200 metres away — organic rice, cornmeal for polenta, Merlot from the estate, olive oil from the grove, cheese from the dairy. Ristorante Barbarossa is Michelin-recommended and one of the best restaurants in Ticino. La Vigna is the casual alternative." },
-      { "question": "Best time of year?", "answer": "Late May to late June for the early summer warmth and lake temperature starting to swim; mid-September for the still-warm waters and harvest season on the estate. Avoid peak August (school holidays, crowded); avoid early April (hotel often still in shoulder season)." },
-      { "question": "How do we get there?", "answer": "Train from Zurich to Locarno via the Gotthard base tunnel (2 hours 40 min, direct), then a 10-minute taxi. Milan Malpensa airport is actually closer by car (1 hour 45 min) and sometimes the better fly-in. The hotel arranges transfers from either." }
+      {
+        "question": "Is this really in Switzerland? It sounds Italian.",
+        "answer": "It is — but only just. Ticino is the Italian-speaking canton of Switzerland, on the south side of the Alps, and Lake Maggiore is shared with Italy a few kilometres south. Everyone speaks Italian, meals are Italian, the climate is Mediterranean, and palm trees grow in the garden. It's the most un-alpine corner of Switzerland, and deliberately so."
+      },
+      {
+        "question": "Is the private beach a real lake beach?",
+        "answer": "Yes — a genuine swimming beach on Lake Maggiore, the only private beach of any Ticino hotel. Sandy-gravel, deckchairs, pedal-boats, and water clean enough to swim comfortably from June through September. This is the one Swiss hotel where 'beach' is an honest claim."
+      },
+      {
+        "question": "Pair it with which other Swiss hotels?",
+        "answer": "Two combinations work beautifully: Castello del Sole (4 nights, lake) + The Alpina Gstaad (3 nights, mountain) for a complete south-to-north arc; or Castello del Sole (3 nights) + Bürgenstock (4 nights) for a pure lake honeymoon at two very different altitudes."
+      },
+      {
+        "question": "How's the food?",
+        "answer": "The on-site Terreni alla Maggia estate means most ingredients on your plate were grown 200 metres away — organic rice, cornmeal for polenta, Merlot from the estate, olive oil from the grove, cheese from the dairy. Ristorante Barbarossa is Michelin-recommended and one of the best restaurants in Ticino. La Vigna is the casual alternative."
+      },
+      {
+        "question": "Best time of year?",
+        "answer": "Late May to late June for the early summer warmth and lake temperature starting to swim; mid-September for the still-warm waters and harvest season on the estate. Avoid peak August (school holidays, crowded); avoid early April (hotel often still in shoulder season)."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "Train from Zurich to Locarno via the Gotthard base tunnel (2 hours 40 min, direct), then a 10-minute taxi. Milan Malpensa airport is actually closer by car (1 hour 45 min) and sometimes the better fly-in. The hotel arranges transfers from either."
+      }
     ],
     "email_template": "Subject: Honeymoon enquiry — Hotel Castello del Sole, Ascona, June 2027\n\nHello Castello del Sole reservations team,\n\nWe'd love to book our honeymoon with you. Details:\n\n- Dates: 7 nights in mid-June 2027 (flexible by a week)\n- Room: Junior Suite Park View with garden access, south-facing if possible, away from the main house for quiet\n- Occasion: honeymoon — any welcome would be appreciated\n- Dining pre-bookings, ideally: Ristorante Locanda Barbarossa on nights one, five and six (including the estate wine vertical tasting on night six); Ristorante La Vigna on nights two and three; and a private picnic lunch organized by the kitchen on day five\n- Spa: a 90-minute couples' ritual on day three\n- Experiences: a private estate tour with the sommelier including wine tasting, bicycles for two for day six, a Lake Maggiore boat day to Isola Bella (please arrange tickets and private driver), a Valle Verzasca half-day to Lavertezzo\n- Transfer: private car from Milan Malpensa both ways (or Zurich if you recommend; we're open)\n\nCould you share current honeymoon packages, cancellation policy, and confirm early check-in and late checkout?\n\nGrazie mille,\n[Names]"
   },

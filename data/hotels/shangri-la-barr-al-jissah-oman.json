@@ -3,34 +3,110 @@
   "name": "Shangri-La Barr Al Jissah Resort & Spa",
   "destination": "oman",
   "country": "oman",
-  "experience_types": ["luxury", "beach", "wellness"],
-  "honeymoon_score": 87,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 18, "spa": 12, "award": 12, "pool": 10, "beach": 10, "room_service": 5, "stars": 15, "luxury": 5 },
-  "stars": 5,
-  "price_per_night_usd": { "min": 400, "max": 1500 },
-  "adults_only": false,
-  "amenities": ["spa", "1km private beach", "multiple pools", "lazy river", "watersports", "dhow cruise", "turtle beach", "kids club", "cliff walk", "six restaurants"],
-  "photos": [
-    { "url": "/images/hotels/shangri-la-barr-al-jissah-oman/hero.webp", "alt": "shangri-la-barr-al-jissah-oman — hero", "type": "hero" },
-    { "url": "/images/hotels/shangri-la-barr-al-jissah-oman/room.webp", "alt": "shangri-la-barr-al-jissah-oman — room", "type": "room" },
-    { "url": "/images/hotels/shangri-la-barr-al-jissah-oman/pool.webp", "alt": "shangri-la-barr-al-jissah-oman — pool", "type": "pool" },
-    { "url": "/images/hotels/shangri-la-barr-al-jissah-oman/spa.webp", "alt": "shangri-la-barr-al-jissah-oman — spa", "type": "spa" },
-    { "url": "/images/hotels/shangri-la-barr-al-jissah-oman/dining.webp", "alt": "shangri-la-barr-al-jissah-oman — dining", "type": "dining" }
+  "experience_types": [
+    "luxury",
+    "beach",
+    "wellness"
   ],
-  "tripadvisor_rating": 9.0,
+  "honeymoon_score": 87,
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 18,
+    "spa": 12,
+    "award": 12,
+    "pool": 10,
+    "beach": 10,
+    "room_service": 5,
+    "stars": 15,
+    "luxury": 5
+  },
+  "stars": 5,
+  "price_per_night_usd": {
+    "min": 400,
+    "max": 1500
+  },
+  "adults_only": false,
+  "amenities": [
+    "spa",
+    "1km private beach",
+    "multiple pools",
+    "lazy river",
+    "watersports",
+    "dhow cruise",
+    "turtle beach",
+    "kids club",
+    "cliff walk",
+    "six restaurants"
+  ],
+  "photos": [
+    {
+      "url": "/images/hotels/shangri-la-barr-al-jissah-oman/hero.webp",
+      "alt": "shangri-la-barr-al-jissah-oman — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/shangri-la-barr-al-jissah-oman/room.webp",
+      "alt": "shangri-la-barr-al-jissah-oman — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/shangri-la-barr-al-jissah-oman/pool.webp",
+      "alt": "shangri-la-barr-al-jissah-oman — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/shangri-la-barr-al-jissah-oman/spa.webp",
+      "alt": "shangri-la-barr-al-jissah-oman — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/shangri-la-barr-al-jissah-oman/dining.webp",
+      "alt": "shangri-la-barr-al-jissah-oman — dining",
+      "type": "dining"
+    }
+  ],
+  "tripadvisor_rating": 9,
   "tripadvisor_award": true,
   "couples_review_pct": 68,
   "content": {
     "verdict": "Barr Al Jissah is the family-friendly half of the big Shangri-La complex — Al Bandar and Al Waha hotels share a full 1 km of private beach, six restaurants, and a lazy river. It is less intimate than the adults-only Al Husn next door, but unbeatable value for couples who want beach, watersports, and a choice of dining without paying Al Husn premiums.",
     "best_room": "Book an Al Bandar Deluxe Sea View Room — Al Bandar is the more adult-leaning of the two hotels, closer to the beachfront restaurants, and the sea-view rooms look directly onto the bay. Avoid Al Waha unless you specifically want the family pool area; it is the more kid-oriented of the two buildings.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival at Barr Al Jissah", "description": "Thirty-minute transfer from Muscat International to the gated bay resort. Welcome drinks on the Al Bandar terrace and a relaxed first dinner at Shahrazad." },
-      { "day": 2, "title": "Beach day & sundowner dhow", "description": "Full day on the 1 km private beach with a paddle-board session from the watersports centre. End with a sunset dhow cruise along the Bandar Jissah coves as the cliffs light up gold." },
-      { "day": 3, "title": "Grand Mosque & souk", "description": "Private morning tour to the Sultan Qaboos Grand Mosque and Mutrah souk, with lunch at Bait Al Luban overlooking the corniche. Back at the resort, a couples' massage at CHI, The Spa." },
-      { "day": 4, "title": "Turtle beach walk & watersports", "description": "Morning guided walk to the protected turtle beach on the resort headland (seasonal nesting August-October). Afternoon trying snorkel, kayak, and paddleboard from the beach club." },
-      { "day": 5, "title": "Wadi Shab day trip", "description": "Drive south along the coast to hike into Wadi Shab and swim through the hidden cave waterfall, stopping at the Bimmah Sinkhole on the return. Casual supper at the beachside Capri Court." },
-      { "day": 6, "title": "Spa day & private dining", "description": "A 2-hour Moroccan hammam followed by a couples' treatment at CHI's cliffside spa. End with a private candlelit dinner set up on the beach under lanterns — arranged through the concierge." },
-      { "day": 7, "title": "Farewell", "description": "Last swim in the sea and brunch at Al Tanoor's international spread. Thirty-minute transfer back to MCT airport." }
+      {
+        "day": 1,
+        "title": "Arrival at Barr Al Jissah",
+        "description": "Thirty-minute transfer from Muscat International to the gated bay resort. Welcome drinks on the Al Bandar terrace and a relaxed first dinner at Shahrazad."
+      },
+      {
+        "day": 2,
+        "title": "Beach day & sundowner dhow",
+        "description": "Full day on the 1 km private beach with a paddle-board session from the watersports centre. End with a sunset dhow cruise along the Bandar Jissah coves as the cliffs light up gold."
+      },
+      {
+        "day": 3,
+        "title": "Grand Mosque & souk",
+        "description": "Private morning tour to the Sultan Qaboos Grand Mosque and Mutrah souk, with lunch at Bait Al Luban overlooking the corniche. Back at the resort, a couples' massage at CHI, The Spa."
+      },
+      {
+        "day": 4,
+        "title": "Turtle beach walk & watersports",
+        "description": "Morning guided walk to the protected turtle beach on the resort headland (seasonal nesting August-October). Afternoon trying snorkel, kayak, and paddleboard from the beach club."
+      },
+      {
+        "day": 5,
+        "title": "Wadi Shab day trip",
+        "description": "Drive south along the coast to hike into Wadi Shab and swim through the hidden cave waterfall, stopping at the Bimmah Sinkhole on the return. Casual supper at the beachside Capri Court."
+      },
+      {
+        "day": 6,
+        "title": "Spa day & private dining",
+        "description": "A 2-hour Moroccan hammam followed by a couples' treatment at CHI's cliffside spa. End with a private candlelit dinner set up on the beach under lanterns — arranged through the concierge."
+      },
+      {
+        "day": 7,
+        "title": "Farewell",
+        "description": "Last swim in the sea and brunch at Al Tanoor's international spread. Thirty-minute transfer back to MCT airport."
+      }
     ],
     "caveats": [
       "This is the family-friendly side of the complex — during school holidays the pools and lazy river can feel busy, and it is rarely the quietest choice.",
@@ -38,12 +114,30 @@
       "Standard rooms are well-kept but show their age against newer competitors like Jumeirah Muscat Bay."
     ],
     "faqs": [
-      { "question": "Is it good for honeymooners?", "answer": "It is good value and the beach is excellent, but because the complex leans family-friendly it is less romantic than Al Husn or Chedi — best for active couples who want watersports and choice of dining over seclusion." },
-      { "question": "Best time to visit?", "answer": "October to April for comfortable beach weather at 25-32 C and calm seas. Summer months bring extreme heat and humidity that limit outdoor time." },
-      { "question": "How far in advance to book?", "answer": "Two to three months for off-peak dates, four to five months for Christmas, New Year, and UAE long weekends when the resort fills quickly." },
-      { "question": "Is it adults-only?", "answer": "No — this is the family half of the complex with a kids' club and lazy river. The adults-only Al Husn is the neighbouring hotel in the same bay." },
-      { "question": "Which room should we book?", "answer": "An Al Bandar Deluxe Sea View Room for the best adult-leaning experience. Avoid Al Waha rooms unless you deliberately want the family pool area." },
-      { "question": "How do we get there?", "answer": "Fly into Muscat International (MCT), then a 30-minute transfer south down the Qantab coastal road. Hotel arranges airport pickups with advance notice." }
+      {
+        "question": "Is it good for honeymooners?",
+        "answer": "It is good value and the beach is excellent, but because the complex leans family-friendly it is less romantic than Al Husn or Chedi — best for active couples who want watersports and choice of dining over seclusion."
+      },
+      {
+        "question": "Best time to visit?",
+        "answer": "October to April for comfortable beach weather at 25-32 C and calm seas. Summer months bring extreme heat and humidity that limit outdoor time."
+      },
+      {
+        "question": "How far in advance to book?",
+        "answer": "Two to three months for off-peak dates, four to five months for Christmas, New Year, and UAE long weekends when the resort fills quickly."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "No — this is the family half of the complex with a kids' club and lazy river. The adults-only Al Husn is the neighbouring hotel in the same bay."
+      },
+      {
+        "question": "Which room should we book?",
+        "answer": "An Al Bandar Deluxe Sea View Room for the best adult-leaning experience. Avoid Al Waha rooms unless you deliberately want the family pool area."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "Fly into Muscat International (MCT), then a 30-minute transfer south down the Qantab coastal road. Hotel arranges airport pickups with advance notice."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Shangri-La Barr Al Jissah Resort & Spa\n\nDear team,\n\nWe are planning our honeymoon and are interested in staying from [DATE] to [DATE]. Could you advise on availability and any honeymoon packages — possibly including airport transfer, sunset dinner, spa ritual, and room upgrade?\n\nThank you,\n[Names]"
   },

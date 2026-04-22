@@ -3,7 +3,10 @@
   "name": "Mombo Camp",
   "destination": "botswana",
   "country": "botswana",
-  "experience_types": ["safari", "luxury"],
+  "experience_types": [
+    "safari",
+    "luxury"
+  ],
   "honeymoon_score": 96,
   "score_breakdown": {
     "adults_only": 25,
@@ -17,7 +20,10 @@
     "luxury": 5
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 2500, "max": 5000 },
+  "price_per_night_usd": {
+    "min": 2500,
+    "max": 5000
+  },
   "adults_only": false,
   "amenities": [
     "private deck",
@@ -34,11 +40,31 @@
     "photographic hides"
   ],
   "photos": [
-    { "url": "/images/hotels/mombo-camp-okavango-botswana/hero.webp", "alt": "mombo-camp-okavango-botswana — hero", "type": "hero" },
-    { "url": "/images/hotels/mombo-camp-okavango-botswana/room.webp", "alt": "mombo-camp-okavango-botswana — room", "type": "room" },
-    { "url": "/images/hotels/mombo-camp-okavango-botswana/pool.webp", "alt": "mombo-camp-okavango-botswana — pool", "type": "pool" },
-    { "url": "/images/hotels/mombo-camp-okavango-botswana/spa.webp", "alt": "mombo-camp-okavango-botswana — spa", "type": "spa" },
-    { "url": "/images/hotels/mombo-camp-okavango-botswana/dining.webp", "alt": "mombo-camp-okavango-botswana — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/mombo-camp-okavango-botswana/hero.webp",
+      "alt": "mombo-camp-okavango-botswana — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/mombo-camp-okavango-botswana/room.webp",
+      "alt": "mombo-camp-okavango-botswana — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/mombo-camp-okavango-botswana/pool.webp",
+      "alt": "mombo-camp-okavango-botswana — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/mombo-camp-okavango-botswana/spa.webp",
+      "alt": "mombo-camp-okavango-botswana — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/mombo-camp-okavango-botswana/dining.webp",
+      "alt": "mombo-camp-okavango-botswana — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.8,
   "tripadvisor_award": true,
@@ -47,13 +73,41 @@
     "verdict": "Mombo is the camp that other camps measure themselves against. Wilderness Safaris' flagship sits on Mombo Island inside Moremi Game Reserve, on a private concession famous for holding the highest lion density in Botswana and a Big Five cast that seems scripted. The 2018 rebuild gave the camp nine enormous tented suites on raised decks over a floodplain that genuinely never sleeps — elephants drink beneath your plunge pool at breakfast, and the lion roars at 3 a.m. are not a sound effect. For honeymooners, Mombo combines the soft-side romance of a Relais-style retreat (four-poster beds, copper baths, in-suite wine fridges) with the hard edge of one of the greatest game-viewing stages on earth. It is expensive, it is difficult to reach, and it delivers on every promise. Few safari camps justify the hype. This one does.",
     "best_room": "Book one of the standard tented suites for your first stay — all nine are essentially identical in size and outlook, so there is no strategic advantage to the premium Suite 1 unless you want the extra plunge-pool real estate. What you want is an end-of-walkway unit for maximum wildlife privacy and a clear sightline onto the floodplain. Honeymooners should request the star-bed upgrade for one night: the team wheels a four-poster onto your private deck, drapes it in mosquito netting, and leaves you to the Milky Way.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival and floodplain sundowners", "description": "Light-aircraft transfer from Maun onto the Mombo airstrip, an unhurried camp orientation, and a gentle afternoon game drive ending with gin and tonics on the floodplain as elephants cross at golden hour." },
-      { "day": 2, "title": "Big cat morning", "description": "Pre-dawn coffee, a full morning drive tracking the resident lion prides that made Mombo famous, brunch back at camp, a siesta, and a late-afternoon drive focused on leopard territory along the tree line." },
-      { "day": 3, "title": "Mokoro and slow water", "description": "A glassy mokoro dugout trip through the papyrus channels with your private poler, followed by a bush lunch on a secluded island and an evening drive that often finishes at a private bush dinner under lanterns." },
-      { "day": 4, "title": "Photographic hide day", "description": "Spend the early hours in the sunken photographic hide at eye level with drinking elephants and buffalo, return for a long lazy brunch, enjoy a couples spa treatment in-suite, then out again for sundowners on a termite mound." },
-      { "day": 5, "title": "Full-day bush expedition", "description": "Packed picnic, ice-cold champagne and a full day out tracking whatever the guides and trackers are excited about — usually wild dog, rhino or a cheetah coalition — with lunch served on camp chairs in a shady grove." },
-      { "day": 6, "title": "Star bed night", "description": "Morning drive followed by a relaxed afternoon at camp, a private sunset cruise on a nearby channel, dinner in the boma, and your star-bed transfer onto the deck for a night under the Southern Cross." },
-      { "day": 7, "title": "Farewell drive and transfer", "description": "One last unhurried dawn drive with coffee and rusks on the hood of the Land Cruiser, brunch, and a light-aircraft hop to your next camp or back to Maun." }
+      {
+        "day": 1,
+        "title": "Arrival and floodplain sundowners",
+        "description": "Light-aircraft transfer from Maun onto the Mombo airstrip, an unhurried camp orientation, and a gentle afternoon game drive ending with gin and tonics on the floodplain as elephants cross at golden hour."
+      },
+      {
+        "day": 2,
+        "title": "Big cat morning",
+        "description": "Pre-dawn coffee, a full morning drive tracking the resident lion prides that made Mombo famous, brunch back at camp, a siesta, and a late-afternoon drive focused on leopard territory along the tree line."
+      },
+      {
+        "day": 3,
+        "title": "Mokoro and slow water",
+        "description": "A glassy mokoro dugout trip through the papyrus channels with your private poler, followed by a bush lunch on a secluded island and an evening drive that often finishes at a private bush dinner under lanterns."
+      },
+      {
+        "day": 4,
+        "title": "Photographic hide day",
+        "description": "Spend the early hours in the sunken photographic hide at eye level with drinking elephants and buffalo, return for a long lazy brunch, enjoy a couples spa treatment in-suite, then out again for sundowners on a termite mound."
+      },
+      {
+        "day": 5,
+        "title": "Full-day bush expedition",
+        "description": "Packed picnic, ice-cold champagne and a full day out tracking whatever the guides and trackers are excited about — usually wild dog, rhino or a cheetah coalition — with lunch served on camp chairs in a shady grove."
+      },
+      {
+        "day": 6,
+        "title": "Star bed night",
+        "description": "Morning drive followed by a relaxed afternoon at camp, a private sunset cruise on a nearby channel, dinner in the boma, and your star-bed transfer onto the deck for a night under the Southern Cross."
+      },
+      {
+        "day": 7,
+        "title": "Farewell drive and transfer",
+        "description": "One last unhurried dawn drive with coffee and rusks on the hood of the Land Cruiser, brunch, and a light-aircraft hop to your next camp or back to Maun."
+      }
     ],
     "caveats": [
       "Access is by light aircraft from Maun only — strict 20 kg soft-sided duffel weight limit per guest, no hard suitcases, and flights can be rescheduled for weather or game-movement reasons.",
@@ -61,12 +115,30 @@
       "This is a malaria region; speak to your travel doctor about prophylaxis, pack DEET and long sleeves for dusk, and expect the usual bush reality of mosquitoes, tsetse flies in some areas and the occasional elephant browsing past your tent at night."
     ],
     "faqs": [
-      { "question": "How do we actually get to Mombo?", "answer": "You fly internationally into Johannesburg or Cape Town, connect to Maun on a scheduled flight, and then board a small 5-12 seat Cessna or Caravan operated by a local air charter for the 25-30 minute hop onto the Mombo airstrip. Wilderness handles all the in-country logistics once you are booked." },
-      { "question": "Is Mombo genuinely honeymoon-appropriate given how remote it is?", "answer": "Yes — the suites are huge, completely private, and deeply romantic, with plunge pools, outdoor showers, copper baths and a four-poster bed dressed in linen. The camp has only nine suites, so dinner feels intimate, and the staff will happily arrange private dinners, star beds and in-suite spa treatments for couples." },
-      { "question": "What is the best time of year for a honeymoon here?", "answer": "For classic dry-season game viewing and predator action, June to October is peak. For green, lush scenery, newborn wildlife and dramatic skies, November to April is beautiful and much less busy. July and August are the most reliable but also the most expensive and most booked-out months." },
-      { "question": "Are children allowed at Mombo?", "answer": "Mombo accepts children aged six and above, but the atmosphere remains adult-led and couples-heavy in practice. Children under 12 need a private vehicle, which is straightforward to arrange. Honeymooners rarely encounter families at the main dinner table." },
-      { "question": "Do we need to tip, and how much?", "answer": "Yes — tipping is customary. Wilderness recommends roughly US$20-25 per guest per day for the general camp staff placed in the communal tip box, plus US$15-20 per guest per day for your guide directly. Cash in US dollars or South African rand is easiest." },
-      { "question": "What should we actually pack?", "answer": "Neutral safari colours (khaki, olive, stone — no bright white or dark blue), a warm fleece for chilly morning drives even in summer, a wide-brim hat, good sunglasses, a proper camera, binoculars, plug adapters for South African sockets, and absolutely no more than 20 kg of soft luggage per person including hand luggage." }
+      {
+        "question": "How do we actually get to Mombo?",
+        "answer": "You fly internationally into Johannesburg or Cape Town, connect to Maun on a scheduled flight, and then board a small 5-12 seat Cessna or Caravan operated by a local air charter for the 25-30 minute hop onto the Mombo airstrip. Wilderness handles all the in-country logistics once you are booked."
+      },
+      {
+        "question": "Is Mombo genuinely honeymoon-appropriate given how remote it is?",
+        "answer": "Yes — the suites are huge, completely private, and deeply romantic, with plunge pools, outdoor showers, copper baths and a four-poster bed dressed in linen. The camp has only nine suites, so dinner feels intimate, and the staff will happily arrange private dinners, star beds and in-suite spa treatments for couples."
+      },
+      {
+        "question": "What is the best time of year for a honeymoon here?",
+        "answer": "For classic dry-season game viewing and predator action, June to October is peak. For green, lush scenery, newborn wildlife and dramatic skies, November to April is beautiful and much less busy. July and August are the most reliable but also the most expensive and most booked-out months."
+      },
+      {
+        "question": "Are children allowed at Mombo?",
+        "answer": "Mombo accepts children aged six and above, but the atmosphere remains adult-led and couples-heavy in practice. Children under 12 need a private vehicle, which is straightforward to arrange. Honeymooners rarely encounter families at the main dinner table."
+      },
+      {
+        "question": "Do we need to tip, and how much?",
+        "answer": "Yes — tipping is customary. Wilderness recommends roughly US$20-25 per guest per day for the general camp staff placed in the communal tip box, plus US$15-20 per guest per day for your guide directly. Cash in US dollars or South African rand is easiest."
+      },
+      {
+        "question": "What should we actually pack?",
+        "answer": "Neutral safari colours (khaki, olive, stone — no bright white or dark blue), a warm fleece for chilly morning drives even in summer, a wide-brim hat, good sunglasses, a proper camera, binoculars, plug adapters for South African sockets, and absolutely no more than 20 kg of soft luggage per person including hand luggage."
+      }
     ],
     "email_template": "Subject: Honeymoon booking enquiry — Mombo Camp, 7 nights\n\nHello Wilderness Reservations team,\n\nWe are planning our honeymoon and would love to spend seven nights at Mombo Camp. Our tentative travel window is [DATES], and we are two adults travelling together. Could you please confirm availability for a standard tented suite, current per-night pricing including all meals, drinks and activities, and the recommended light-aircraft transfer schedule from Maun?\n\nWe would also appreciate your advice on combining Mombo with a second Wilderness camp for a 10-14 night itinerary, plus details on the star-bed experience and any honeymoon additions your team can arrange in-suite. Finally, please send your current cancellation terms and deposit requirements.\n\nThank you — we are very much looking forward to your reply.\n\nKind regards,\n[Your names]\n[Phone] | [Email]"
   },

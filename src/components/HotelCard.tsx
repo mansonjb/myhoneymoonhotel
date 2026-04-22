@@ -42,6 +42,10 @@ const DEST_FALLBACK: Record<string, string> = {
   'cape-verde':        'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80',
   'new-zealand':       'https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=800&q=80',
   'caribbean':         'https://images.unsplash.com/photo-1548574505-5e239809ee19?w=800&q=80',
+  'oman':              'https://images.unsplash.com/photo-1539020140153-e479b8e9d1ef?w=800&q=80',
+  'uae':               'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800&q=80',
+  'switzerland':       'https://images.unsplash.com/photo-1527668752968-14dc70a27c95?w=800&q=80',
+  'botswana':          'https://images.unsplash.com/photo-1516426122078-c23e76319801?w=800&q=80',
 }
 
 const DEFAULT_FALLBACK = 'https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=800&q=80'

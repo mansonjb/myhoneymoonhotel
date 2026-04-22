@@ -3,7 +3,10 @@
   "name": "Xigera Safari Lodge",
   "destination": "botswana",
   "country": "botswana",
-  "experience_types": ["safari", "luxury"],
+  "experience_types": [
+    "safari",
+    "luxury"
+  ],
   "honeymoon_score": 94,
   "score_breakdown": {
     "adults_only": 25,
@@ -17,7 +20,10 @@
     "luxury": 4
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 1800, "max": 4500 },
+  "price_per_night_usd": {
+    "min": 1800,
+    "max": 4500
+  },
   "adults_only": false,
   "amenities": [
     "private deck",
@@ -34,11 +40,31 @@
     "baobab treehouse"
   ],
   "photos": [
-    { "url": "/images/hotels/xigera-safari-lodge-moremi-botswana/hero.webp", "alt": "xigera-safari-lodge-moremi-botswana — hero", "type": "hero" },
-    { "url": "/images/hotels/xigera-safari-lodge-moremi-botswana/room.webp", "alt": "xigera-safari-lodge-moremi-botswana — room", "type": "room" },
-    { "url": "/images/hotels/xigera-safari-lodge-moremi-botswana/pool.webp", "alt": "xigera-safari-lodge-moremi-botswana — pool", "type": "pool" },
-    { "url": "/images/hotels/xigera-safari-lodge-moremi-botswana/spa.webp", "alt": "xigera-safari-lodge-moremi-botswana — spa", "type": "spa" },
-    { "url": "/images/hotels/xigera-safari-lodge-moremi-botswana/dining.webp", "alt": "xigera-safari-lodge-moremi-botswana — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/xigera-safari-lodge-moremi-botswana/hero.webp",
+      "alt": "xigera-safari-lodge-moremi-botswana — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/xigera-safari-lodge-moremi-botswana/room.webp",
+      "alt": "xigera-safari-lodge-moremi-botswana — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/xigera-safari-lodge-moremi-botswana/pool.webp",
+      "alt": "xigera-safari-lodge-moremi-botswana — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/xigera-safari-lodge-moremi-botswana/spa.webp",
+      "alt": "xigera-safari-lodge-moremi-botswana — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/xigera-safari-lodge-moremi-botswana/dining.webp",
+      "alt": "xigera-safari-lodge-moremi-botswana — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.7,
   "tripadvisor_award": true,
@@ -47,13 +73,41 @@
     "verdict": "Xigera is the Botswana camp for honeymooners who want a safari that doubles as a contemporary African art gallery. Rebuilt in 2021 on a private concession bordering Moremi Game Reserve, the lodge was developed with Cape Town's Southern Guild gallery as curator — every light fitting, every basin, every door handle and chair is a commissioned piece from an African artist. Twelve suites on raised stilts above the Delta channels are vast, entirely solar-powered, and fitted with bronze-cast sculptures and hand-woven textiles. The main areas include a wine cellar for private dinners, a wellness centre with proper spa treatment rooms, and the Baobab Treehouse for star-bed sleep-outs. The game viewing combines water and land with strong leopard, elephant and lion showings. It is the most design-forward safari lodge in Botswana — and arguably the entire continent.",
     "best_room": "All twelve suites are essentially identical and spectacular; pick on orientation. The suites at the eastern end of the walkway have the most dramatic sunrise exposure over the floodplain. For a once-in-a-lifetime splurge, request the Baobab Treehouse for one night — a private star-bed platform perched in an ancient baobab, served dinner and breakfast by your butler, utterly silent except for the hippos below.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival and design orientation", "description": "Light-aircraft transfer from Maun onto the Xigera airstrip, champagne welcome, a guided walk through the art installations with the on-site curator, and an evening boat cruise along the channel." },
-      { "day": 2, "title": "Leopard morning", "description": "Pre-dawn coffee, a long morning drive into the Moremi concession tracking the resident leopards, brunch back at the main area, an afternoon plunge-pool siesta and sundowners on the floodplain." },
-      { "day": 3, "title": "Mokoro and wellness", "description": "A silent dawn mokoro glide with your private poler, breakfast on a quiet island, an afternoon couples treatment in the spa, and a private dinner in the wine cellar beneath the lodge." },
-      { "day": 4, "title": "Full-day drive", "description": "Pack a picnic, head deep into the Moremi concession for a full day of game viewing with lunch in a shady grove, and return for a private bush dinner under the stars." },
-      { "day": 5, "title": "Baobab Treehouse night", "description": "Morning drive, a leisurely afternoon at camp, transfer to the Baobab Treehouse for sundowners, dinner under the canopy and a star-bed night in one of the most romantic sleeping platforms in Africa." },
-      { "day": 6, "title": "Boat and art", "description": "A gentle morning boat cruise with elephants along the banks, brunch, an afternoon walk through the Southern Guild art collection with the curator, and a boma dinner around the fire." },
-      { "day": 7, "title": "Farewell and transfer", "description": "A final dawn drive with coffee and rusks, a long farewell brunch and a light-aircraft transfer onwards or back to Maun." }
+      {
+        "day": 1,
+        "title": "Arrival and design orientation",
+        "description": "Light-aircraft transfer from Maun onto the Xigera airstrip, champagne welcome, a guided walk through the art installations with the on-site curator, and an evening boat cruise along the channel."
+      },
+      {
+        "day": 2,
+        "title": "Leopard morning",
+        "description": "Pre-dawn coffee, a long morning drive into the Moremi concession tracking the resident leopards, brunch back at the main area, an afternoon plunge-pool siesta and sundowners on the floodplain."
+      },
+      {
+        "day": 3,
+        "title": "Mokoro and wellness",
+        "description": "A silent dawn mokoro glide with your private poler, breakfast on a quiet island, an afternoon couples treatment in the spa, and a private dinner in the wine cellar beneath the lodge."
+      },
+      {
+        "day": 4,
+        "title": "Full-day drive",
+        "description": "Pack a picnic, head deep into the Moremi concession for a full day of game viewing with lunch in a shady grove, and return for a private bush dinner under the stars."
+      },
+      {
+        "day": 5,
+        "title": "Baobab Treehouse night",
+        "description": "Morning drive, a leisurely afternoon at camp, transfer to the Baobab Treehouse for sundowners, dinner under the canopy and a star-bed night in one of the most romantic sleeping platforms in Africa."
+      },
+      {
+        "day": 6,
+        "title": "Boat and art",
+        "description": "A gentle morning boat cruise with elephants along the banks, brunch, an afternoon walk through the Southern Guild art collection with the curator, and a boma dinner around the fire."
+      },
+      {
+        "day": 7,
+        "title": "Farewell and transfer",
+        "description": "A final dawn drive with coffee and rusks, a long farewell brunch and a light-aircraft transfer onwards or back to Maun."
+      }
     ],
     "caveats": [
       "Xigera is reached only by light aircraft from Maun with the standard 20 kg soft-sided duffel limit per guest — no hard cases, no exceptions, and flight timings can move for weather.",
@@ -61,12 +115,30 @@
       "This is a malaria region — consult your travel doctor about prophylaxis, bring DEET and long-sleeved clothing for dusk, and be aware of normal bush-camp insect life including the occasional tsetse."
     ],
     "faqs": [
-      { "question": "How does Xigera differ from the Wilderness flagships?", "answer": "Xigera is privately owned by the Tollman family (the Red Carnation Hotel Collection) and curated by Southern Guild, which gives it a design-gallery feel that none of the Wilderness or Great Plains camps attempt. Game viewing is strong but the headline is the architecture and art." },
-      { "question": "Is the Baobab Treehouse worth it?", "answer": "For honeymooners, absolutely — it's one of the most spectacular sleep-out experiences in Africa. Book it in advance; only one couple per night can use it and demand is high during peak season." },
-      { "question": "Is the spa a real spa?", "answer": "Yes — Xigera runs a dedicated wellness centre with treatment rooms, a hair and nail salon, and a menu of massages and facials using high-quality African botanical products. It is more serious than most bush-camp spas." },
-      { "question": "Are children allowed?", "answer": "Xigera accepts children from six years old, with a dedicated family suite. In practice the camp feels adult-led and couples-heavy, with plenty of quiet corners for honeymooners." },
-      { "question": "Can we buy the art?", "answer": "Yes — every piece is for sale through Southern Guild's Cape Town and Los Angeles galleries. The lodge has an on-site curator who can arrange viewings, pricing and international shipping if you fall in love with something." },
-      { "question": "What's included in the rate?", "answer": "All meals, all drinks including premium wines and spirits, all scheduled activities (drives, boat, mokoro, walks), laundry, park fees, Wi-Fi throughout, and light-aircraft transfers to and from Maun." }
+      {
+        "question": "How does Xigera differ from the Wilderness flagships?",
+        "answer": "Xigera is privately owned by the Tollman family (the Red Carnation Hotel Collection) and curated by Southern Guild, which gives it a design-gallery feel that none of the Wilderness or Great Plains camps attempt. Game viewing is strong but the headline is the architecture and art."
+      },
+      {
+        "question": "Is the Baobab Treehouse worth it?",
+        "answer": "For honeymooners, absolutely — it's one of the most spectacular sleep-out experiences in Africa. Book it in advance; only one couple per night can use it and demand is high during peak season."
+      },
+      {
+        "question": "Is the spa a real spa?",
+        "answer": "Yes — Xigera runs a dedicated wellness centre with treatment rooms, a hair and nail salon, and a menu of massages and facials using high-quality African botanical products. It is more serious than most bush-camp spas."
+      },
+      {
+        "question": "Are children allowed?",
+        "answer": "Xigera accepts children from six years old, with a dedicated family suite. In practice the camp feels adult-led and couples-heavy, with plenty of quiet corners for honeymooners."
+      },
+      {
+        "question": "Can we buy the art?",
+        "answer": "Yes — every piece is for sale through Southern Guild's Cape Town and Los Angeles galleries. The lodge has an on-site curator who can arrange viewings, pricing and international shipping if you fall in love with something."
+      },
+      {
+        "question": "What's included in the rate?",
+        "answer": "All meals, all drinks including premium wines and spirits, all scheduled activities (drives, boat, mokoro, walks), laundry, park fees, Wi-Fi throughout, and light-aircraft transfers to and from Maun."
+      }
     ],
     "email_template": "Subject: Honeymoon booking enquiry — Xigera Safari Lodge, 7 nights\n\nHello Xigera Reservations team,\n\nWe are planning our honeymoon and would love to spend seven nights at Xigera Safari Lodge. Our tentative dates are [DATES], travelling as two adults. Please confirm availability for a standard suite, current fully inclusive per-night rates, and the Maun light-aircraft schedule.\n\nWe would especially like to add one night in the Baobab Treehouse — please confirm availability and pricing. We'd also welcome your recommendations for pairing Xigera with a drier-country Botswana camp for a 10-14 night itinerary, plus any honeymoon-specific additions (private wine-cellar dinner, couples spa, art gallery tour with the curator).\n\nPlease also send your current deposit and cancellation policy. Thank you — we look forward to hearing from you.\n\nKind regards,\n[Your names]\n[Phone] | [Email]"
   },

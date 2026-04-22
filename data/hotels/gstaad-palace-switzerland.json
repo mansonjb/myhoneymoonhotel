@@ -3,7 +3,10 @@
   "name": "Gstaad Palace",
   "destination": "switzerland",
   "country": "switzerland",
-  "experience_types": ["luxury", "wellness"],
+  "experience_types": [
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 92,
   "score_breakdown": {
     "adults_only": 14,
@@ -17,7 +20,10 @@
     "luxury": 4
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 800, "max": 3500 },
+  "price_per_night_usd": {
+    "min": 800,
+    "max": 3500
+  },
   "adults_only": false,
   "amenities": [
     "spa",
@@ -37,11 +43,31 @@
     "helicopter transfer"
   ],
   "photos": [
-    { "url": "/images/hotels/gstaad-palace-switzerland/hero.webp", "alt": "gstaad-palace-switzerland — hero", "type": "hero" },
-    { "url": "/images/hotels/gstaad-palace-switzerland/room.webp", "alt": "gstaad-palace-switzerland — room", "type": "room" },
-    { "url": "/images/hotels/gstaad-palace-switzerland/pool.webp", "alt": "gstaad-palace-switzerland — pool", "type": "pool" },
-    { "url": "/images/hotels/gstaad-palace-switzerland/spa.webp", "alt": "gstaad-palace-switzerland — spa", "type": "spa" },
-    { "url": "/images/hotels/gstaad-palace-switzerland/dining.webp", "alt": "gstaad-palace-switzerland — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/gstaad-palace-switzerland/hero.webp",
+      "alt": "gstaad-palace-switzerland — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/gstaad-palace-switzerland/room.webp",
+      "alt": "gstaad-palace-switzerland — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/gstaad-palace-switzerland/pool.webp",
+      "alt": "gstaad-palace-switzerland — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/gstaad-palace-switzerland/spa.webp",
+      "alt": "gstaad-palace-switzerland — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/gstaad-palace-switzerland/dining.webp",
+      "alt": "gstaad-palace-switzerland — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.4,
   "tripadvisor_award": true,
@@ -50,13 +76,41 @@
     "verdict": "The Gstaad Palace has been in the Scherz family since 1938 and in its current turreted form since 1913 — it sits on a low hill above Gstaad village, instantly recognisable by the four fairytale towers visible from every direction. Elizabeth Taylor honeymooned here (and came back); Julie Andrews stayed annually; GreenGo, the basement nightclub that opened in 1971, is still one of the most fun bars in the Alps. 95 rooms across a genuinely family-run hotel — Andrea Scherz is the third-generation owner, and you'll probably meet him. For a honeymoon, this is the romantic, warm, deeply chalet-y alternative to the more austere grand hotels: the fires actually crackle, the staff remember your names, and the jet-set crowd it attracts in February shows up again in July. Less flashy than St. Moritz's Palace, more theatrical than The Alpina. Our top overall Gstaad pick for couples who want classic alpine romance.",
     "best_room": "Book a Superior Tower Junior Suite — one of the four corner suites in the signature Palace towers, with panoramic valley views and curved seating bays inside the turrets. For a blowout, the Penthouse Suite on the 6th floor (400 m² with private pool and 180-degree terrace) is the best honeymoon suite in Gstaad. Request the south-facing tower if you want morning sun on your balcony.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & GreenGo debut", "description": "Train from Zurich via the GoldenPass line (3.5 hours, panoramic windows, arguably more beautiful than the Glacier Express) direct to Gstaad station, 3 minutes from the hotel. Tea in the Lobby, dinner at Le Grand Restaurant, then down to GreenGo for a Champagne nightcap — the mirrored 1971 nightclub open only in winter high season." },
-      { "day": 2, "title": "Ski the 220 km Bernese Oberland", "description": "Palace ski butler at the door; shuttle to Gstaad-Wispile or drive to Zweisimmen/Saanenmöser for the bigger terrain. Lunch at a mountain restaurant, back for a slow afternoon at the Palace Spa with a 90-minute couples treatment. Dinner at La Fromagerie — the Palace's chalet-in-the-garden fondue restaurant, bookable for two." },
-      { "day": 3, "title": "Glacier 3000 & igloo aperitif", "description": "Half-day trip up to Glacier 3000 (Peak Walk suspension bridge between two summits, ski run all the way back down). Evening: reserved table at Gildo's Ristorante, the hotel's Italian restaurant run by the same family for 30+ years, followed by drinks by the open fire in the Lobby." },
-      { "day": 4, "title": "Horse-drawn sleigh in the Saanenland valley", "description": "Breakfast in your suite. Private 2-hour horse-drawn sleigh through snow-covered meadows to a Saanen farmhouse for a traditional Berner Rösti lunch. Late spa afternoon. Evening aperitif on the Lobby terrace with a valley view at golden hour." },
-      { "day": 5, "title": "Hot-air balloon sunrise (season permitting)", "description": "Dawn hot-air balloon over the Saanenland — Château-d'Oex is the ballooning capital of Europe in January. Back at the hotel for a second breakfast, late lounge morning, and the hotel's cooking school in the afternoon (2-hour class, private for two, end by cooking your own Swiss dinner)." },
-      { "day": 6, "title": "Private spa suite & Palace Grill", "description": "Full 3-hour private booking of the Palace Spa's couples' suite — sauna, steam, plunge pool, and treatment table. Dinner at the Palace Grill, the hotel's steak and grill room, followed by GreenGo until late." },
-      { "day": 7, "title": "Late breakfast & train home", "description": "Breakfast on the terrace with mountain views, slow checkout, GoldenPass train back to Zurich airport. The hotel arranges luggage forwarding." }
+      {
+        "day": 1,
+        "title": "Arrival & GreenGo debut",
+        "description": "Train from Zurich via the GoldenPass line (3.5 hours, panoramic windows, arguably more beautiful than the Glacier Express) direct to Gstaad station, 3 minutes from the hotel. Tea in the Lobby, dinner at Le Grand Restaurant, then down to GreenGo for a Champagne nightcap — the mirrored 1971 nightclub open only in winter high season."
+      },
+      {
+        "day": 2,
+        "title": "Ski the 220 km Bernese Oberland",
+        "description": "Palace ski butler at the door; shuttle to Gstaad-Wispile or drive to Zweisimmen/Saanenmöser for the bigger terrain. Lunch at a mountain restaurant, back for a slow afternoon at the Palace Spa with a 90-minute couples treatment. Dinner at La Fromagerie — the Palace's chalet-in-the-garden fondue restaurant, bookable for two."
+      },
+      {
+        "day": 3,
+        "title": "Glacier 3000 & igloo aperitif",
+        "description": "Half-day trip up to Glacier 3000 (Peak Walk suspension bridge between two summits, ski run all the way back down). Evening: reserved table at Gildo's Ristorante, the hotel's Italian restaurant run by the same family for 30+ years, followed by drinks by the open fire in the Lobby."
+      },
+      {
+        "day": 4,
+        "title": "Horse-drawn sleigh in the Saanenland valley",
+        "description": "Breakfast in your suite. Private 2-hour horse-drawn sleigh through snow-covered meadows to a Saanen farmhouse for a traditional Berner Rösti lunch. Late spa afternoon. Evening aperitif on the Lobby terrace with a valley view at golden hour."
+      },
+      {
+        "day": 5,
+        "title": "Hot-air balloon sunrise (season permitting)",
+        "description": "Dawn hot-air balloon over the Saanenland — Château-d'Oex is the ballooning capital of Europe in January. Back at the hotel for a second breakfast, late lounge morning, and the hotel's cooking school in the afternoon (2-hour class, private for two, end by cooking your own Swiss dinner)."
+      },
+      {
+        "day": 6,
+        "title": "Private spa suite & Palace Grill",
+        "description": "Full 3-hour private booking of the Palace Spa's couples' suite — sauna, steam, plunge pool, and treatment table. Dinner at the Palace Grill, the hotel's steak and grill room, followed by GreenGo until late."
+      },
+      {
+        "day": 7,
+        "title": "Late breakfast & train home",
+        "description": "Breakfast on the terrace with mountain views, slow checkout, GoldenPass train back to Zurich airport. The hotel arranges luggage forwarding."
+      }
     ],
     "caveats": [
       "The Gstaad Palace operates only in winter and summer — it closes for about 6 weeks in spring (April-May) and 5-6 weeks in autumn (October-November). Lock in dates before booking flights.",
@@ -64,12 +118,30 @@
       "Not adults-only — the Palace has a lively kids' club in high season. Couples prioritising a grown-up atmosphere may prefer The Alpina Gstaad, a short walk up the road."
     ],
     "faqs": [
-      { "question": "Gstaad Palace or The Alpina Gstaad — which for a honeymoon?", "answer": "Close call. Palace is older, larger, family-run, more 'alpine grand hotel' theatre. Alpina is newer (2012), smaller (56 rooms vs. 95), hushed and design-forward. Palace has GreenGo and a more social scene; Alpina has better food (Sommet is 2-Michelin) and better privacy. For the social, 'jet-set' honeymoon, Palace. For the discreet luxury honeymoon, Alpina." },
-      { "question": "What's GreenGo actually like?", "answer": "Open only December-March, below the Palace. 1971 disco interior (mirrored walls, sunken dance floor, original decor barely touched), proper Champagne list, DJs until 4am. Jacket preferred for men; reservations via the hotel concierge. It's the most fun nightclub in the Alps, bar none." },
-      { "question": "Is Gstaad ski good?", "answer": "The Gstaad ski region has 220 km of mostly intermediate terrain across 6 linked areas. It's not the expert terrain of St. Moritz or Zermatt, but it's beautifully groomed, sunny, and has excellent mountain restaurants. Glacier 3000 adds high-altitude skiing and the Peak Walk. Perfect for intermediate couples who want to ski-then-lunch, rather than ski hard all day." },
-      { "question": "How do we get there from Zurich?", "answer": "The GoldenPass panoramic train (direct from Zurich with one easy change at Montreux, or via Zweisimmen) is about 3.5 hours and one of the most scenic rail journeys in Europe. The Palace can arrange a helicopter from Zurich (25 min) or a private car (3 hours)." },
-      { "question": "Can we avoid the high-season crowds?", "answer": "Yes. Book late January (after the New Year/school holidays) or mid-March (after the February half-term rush). Rates drop 30-40%, the weather is actually better, and Sommet/La Fromagerie/Palace Grill are all easier to book." },
-      { "question": "Is it adult-friendly despite the kids' club?", "answer": "Yes — the kids' club is in a separate wing, and the spa, bars and most restaurants are genuinely adult spaces. Request a room on an upper floor away from the family corridor when you book." }
+      {
+        "question": "Gstaad Palace or The Alpina Gstaad — which for a honeymoon?",
+        "answer": "Close call. Palace is older, larger, family-run, more 'alpine grand hotel' theatre. Alpina is newer (2012), smaller (56 rooms vs. 95), hushed and design-forward. Palace has GreenGo and a more social scene; Alpina has better food (Sommet is 2-Michelin) and better privacy. For the social, 'jet-set' honeymoon, Palace. For the discreet luxury honeymoon, Alpina."
+      },
+      {
+        "question": "What's GreenGo actually like?",
+        "answer": "Open only December-March, below the Palace. 1971 disco interior (mirrored walls, sunken dance floor, original decor barely touched), proper Champagne list, DJs until 4am. Jacket preferred for men; reservations via the hotel concierge. It's the most fun nightclub in the Alps, bar none."
+      },
+      {
+        "question": "Is Gstaad ski good?",
+        "answer": "The Gstaad ski region has 220 km of mostly intermediate terrain across 6 linked areas. It's not the expert terrain of St. Moritz or Zermatt, but it's beautifully groomed, sunny, and has excellent mountain restaurants. Glacier 3000 adds high-altitude skiing and the Peak Walk. Perfect for intermediate couples who want to ski-then-lunch, rather than ski hard all day."
+      },
+      {
+        "question": "How do we get there from Zurich?",
+        "answer": "The GoldenPass panoramic train (direct from Zurich with one easy change at Montreux, or via Zweisimmen) is about 3.5 hours and one of the most scenic rail journeys in Europe. The Palace can arrange a helicopter from Zurich (25 min) or a private car (3 hours)."
+      },
+      {
+        "question": "Can we avoid the high-season crowds?",
+        "answer": "Yes. Book late January (after the New Year/school holidays) or mid-March (after the February half-term rush). Rates drop 30-40%, the weather is actually better, and Sommet/La Fromagerie/Palace Grill are all easier to book."
+      },
+      {
+        "question": "Is it adult-friendly despite the kids' club?",
+        "answer": "Yes — the kids' club is in a separate wing, and the spa, bars and most restaurants are genuinely adult spaces. Request a room on an upper floor away from the family corridor when you book."
+      }
     ],
     "email_template": "Subject: Honeymoon enquiry — Gstaad Palace, February 2027\n\nHello Palace reservations,\n\nWe'd love to book our honeymoon with you. Details:\n\n- Dates: 7 nights, mid to late February 2027 (flexible by a few days)\n- Room: Superior Tower Junior Suite, south-facing; ideally a corner turret suite; highest floor possible, away from GreenGo side\n- Occasion: honeymoon — any in-room welcome usually arranged would be wonderful\n- Dining reservations pre-booked, ideally: Le Grand Restaurant on night one, La Fromagerie fondue chalet on night two, Gildo's Ristorante on night three, Palace Grill on night six; one GreenGo reservation for the weekend\n- Spa: a 90-minute couples' ritual on day two, and the 3-hour private spa suite booking on day six\n- Activities: one full ski day with an instructor (we are intermediate), a Glacier 3000 day trip, a private 2-hour horse-drawn sleigh with lunch, a sunrise hot-air balloon if weather allows, and the Palace cooking school for two\n- Transfer: please quote both a private car and a helicopter option from Zurich; we're open\n\nCould you share honeymoon packages, cancellation policy, and confirm early check-in and late checkout are workable?\n\nWarm regards,\n[Names]"
   },

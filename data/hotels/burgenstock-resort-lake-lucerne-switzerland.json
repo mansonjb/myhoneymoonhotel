@@ -3,7 +3,10 @@
   "name": "Bürgenstock Resort Lake Lucerne",
   "destination": "switzerland",
   "country": "switzerland",
-  "experience_types": ["luxury", "wellness"],
+  "experience_types": [
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 91,
   "score_breakdown": {
     "adults_only": 13,
@@ -17,7 +20,10 @@
     "luxury": 3
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 700, "max": 3000 },
+  "price_per_night_usd": {
+    "min": 700,
+    "max": 3000
+  },
   "adults_only": false,
   "amenities": [
     "spa",
@@ -37,11 +43,31 @@
     "couples massage"
   ],
   "photos": [
-    { "url": "/images/hotels/burgenstock-resort-lake-lucerne-switzerland/hero.webp", "alt": "burgenstock-resort-lake-lucerne-switzerland — hero", "type": "hero" },
-    { "url": "/images/hotels/burgenstock-resort-lake-lucerne-switzerland/room.webp", "alt": "burgenstock-resort-lake-lucerne-switzerland — room", "type": "room" },
-    { "url": "/images/hotels/burgenstock-resort-lake-lucerne-switzerland/pool.webp", "alt": "burgenstock-resort-lake-lucerne-switzerland — pool", "type": "pool" },
-    { "url": "/images/hotels/burgenstock-resort-lake-lucerne-switzerland/spa.webp", "alt": "burgenstock-resort-lake-lucerne-switzerland — spa", "type": "spa" },
-    { "url": "/images/hotels/burgenstock-resort-lake-lucerne-switzerland/dining.webp", "alt": "burgenstock-resort-lake-lucerne-switzerland — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/burgenstock-resort-lake-lucerne-switzerland/hero.webp",
+      "alt": "burgenstock-resort-lake-lucerne-switzerland — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/burgenstock-resort-lake-lucerne-switzerland/room.webp",
+      "alt": "burgenstock-resort-lake-lucerne-switzerland — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/burgenstock-resort-lake-lucerne-switzerland/pool.webp",
+      "alt": "burgenstock-resort-lake-lucerne-switzerland — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/burgenstock-resort-lake-lucerne-switzerland/spa.webp",
+      "alt": "burgenstock-resort-lake-lucerne-switzerland — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/burgenstock-resort-lake-lucerne-switzerland/dining.webp",
+      "alt": "burgenstock-resort-lake-lucerne-switzerland — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.3,
   "tripadvisor_award": true,
@@ -50,13 +76,41 @@
     "verdict": "The Bürgenstock is not a hotel — it's an entire mountain, rebuilt. 500 metres above Lake Lucerne on the Bürgenstock ridge, the resort combines three hotels (Bürgenstock Hotel, Palace Hotel, Waldhotel Health & Medical Excellence), nine restaurants, a 10,000 m² Alpine Spa with a glass-edge infinity pool that feels like it pours off the cliff, and the Hammetschwand lift — Europe's highest outdoor elevator, built into the rockface and running to 1,132 m. Audrey Hepburn spent her honeymoon here. Sophia Loren lived on the ridge. For modern honeymooners, the Bürgenstock is best as the non-alpine Switzerland stay: it's a lake-and-spa escape rather than a ski resort. Take the historic funicular up from the lake, and the rest of the stay is purely on the ridge. Utterly unique, and a great pairing with a few nights of city time in Lucerne or Zurich.",
     "best_room": "Request a Junior Suite Lake View in the Bürgenstock Hotel, on the west/south side, floors 4-6. These face down over Lake Lucerne with balconies hanging over the cliff — easily one of the most photographed hotel views in Europe. For more privacy, the Palace Hotel (smaller, 1904 heritage building) has quieter corridors. For wellness-first honeymoons, the Waldhotel's lake-view suites are integrated with the medical/wellness program.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival by funicular", "description": "Train Zurich to Lucerne (50 min), then boat across Lake Lucerne (1 hour, wonderful) to the funicular station at Kehrsiten. Historic funicular up to the resort. Settle in, drinks on the Alpine Terrace, dinner at Spices Kitchen & Terrace — Asian-fusion with the lake below." },
-      { "day": 2, "title": "Alpine Spa day", "description": "Full day at the 10,000 m² Alpine Spa. The outdoor infinity pool hangs 500 m above the lake — do a sunrise swim if it's open. Couples' treatment in the private spa suite (90 min). Lunch at the Verbena juice bar, then back into the thermal baths. Evening at RitzCoffier — the resort's gourmet French restaurant, Michelin-recommended." },
-      { "day": 3, "title": "Hammetschwand lift & Bürgenstock walk", "description": "The famous cliff walk: 1.5 km promenade along the edge of the ridge, ending at the Hammetschwand lift, a 153-metre-high vertical elevator built in 1905 that climbs the rock face to a summit platform. Back at the hotel for a long spa afternoon. Dinner at Sharq Oriental (Lebanese) for a change of pace." },
-      { "day": 4, "title": "Lucerne city day", "description": "Funicular down, boat to Lucerne for the Chapel Bridge, Rosengart Picasso collection, and lunch at Schwanen on the waterfront. Evening boat back up the lake; dinner at Verbena back at the hotel (wellness-focused, lighter menu)." },
-      { "day": 5, "title": "Mount Pilatus day trip", "description": "Day trip to Mount Pilatus via the world's steepest cog railway. Lunch at the summit hotel, gondola back down. Evening: in-room dining with a Bourgogne from the wine cellar, and the resort's private cinema if you prefer a low-key night." },
-      { "day": 6, "title": "Rigi sunrise + farewell dinner", "description": "Early boat across the lake to Mount Rigi for a sunrise cog-rail trip (classic Swiss sunrise panorama, all four sides of the Alps). Back for a brunch spa. Evening: the resort's signature multi-course dinner at Oak Grill, with a view of the Stanserhorn lit up." },
-      { "day": 7, "title": "Long breakfast & farewell", "description": "Long slow breakfast on your suite balcony. Funicular down, boat to Lucerne, train to Zurich for the evening flight." }
+      {
+        "day": 1,
+        "title": "Arrival by funicular",
+        "description": "Train Zurich to Lucerne (50 min), then boat across Lake Lucerne (1 hour, wonderful) to the funicular station at Kehrsiten. Historic funicular up to the resort. Settle in, drinks on the Alpine Terrace, dinner at Spices Kitchen & Terrace — Asian-fusion with the lake below."
+      },
+      {
+        "day": 2,
+        "title": "Alpine Spa day",
+        "description": "Full day at the 10,000 m² Alpine Spa. The outdoor infinity pool hangs 500 m above the lake — do a sunrise swim if it's open. Couples' treatment in the private spa suite (90 min). Lunch at the Verbena juice bar, then back into the thermal baths. Evening at RitzCoffier — the resort's gourmet French restaurant, Michelin-recommended."
+      },
+      {
+        "day": 3,
+        "title": "Hammetschwand lift & Bürgenstock walk",
+        "description": "The famous cliff walk: 1.5 km promenade along the edge of the ridge, ending at the Hammetschwand lift, a 153-metre-high vertical elevator built in 1905 that climbs the rock face to a summit platform. Back at the hotel for a long spa afternoon. Dinner at Sharq Oriental (Lebanese) for a change of pace."
+      },
+      {
+        "day": 4,
+        "title": "Lucerne city day",
+        "description": "Funicular down, boat to Lucerne for the Chapel Bridge, Rosengart Picasso collection, and lunch at Schwanen on the waterfront. Evening boat back up the lake; dinner at Verbena back at the hotel (wellness-focused, lighter menu)."
+      },
+      {
+        "day": 5,
+        "title": "Mount Pilatus day trip",
+        "description": "Day trip to Mount Pilatus via the world's steepest cog railway. Lunch at the summit hotel, gondola back down. Evening: in-room dining with a Bourgogne from the wine cellar, and the resort's private cinema if you prefer a low-key night."
+      },
+      {
+        "day": 6,
+        "title": "Rigi sunrise + farewell dinner",
+        "description": "Early boat across the lake to Mount Rigi for a sunrise cog-rail trip (classic Swiss sunrise panorama, all four sides of the Alps). Back for a brunch spa. Evening: the resort's signature multi-course dinner at Oak Grill, with a view of the Stanserhorn lit up."
+      },
+      {
+        "day": 7,
+        "title": "Long breakfast & farewell",
+        "description": "Long slow breakfast on your suite balcony. Funicular down, boat to Lucerne, train to Zurich for the evening flight."
+      }
     ],
     "caveats": [
       "It's not a ski honeymoon — the Bürgenstock is principally a spa-and-lake escape. Snow is unreliable at 500 m and there are no ski lifts on the ridge. Couples wanting both mountain and lake should pair Bürgenstock with The Chedi Andermatt.",
@@ -64,12 +118,30 @@
       "Access is only by funicular or private road; the funicular shuts down around midnight and restarts around 7am. Late-night arrivals to Zurich require careful planning with the resort's car service."
     ],
     "faqs": [
-      { "question": "Is the infinity pool really as dramatic as photos suggest?", "answer": "Honestly — yes, and if anything it's more so in person. The outdoor section of the pool has a glass edge 500 metres above Lake Lucerne, and on a clear morning you can see all the way across to Mount Rigi and Pilatus. Best at sunrise (07:00-08:30) before day-spa guests arrive." },
-      { "question": "Is the Bürgenstock suitable year-round?", "answer": "Yes — unlike most Swiss mountain hotels, it stays open all year. April-October is the classic window (warmer for the outdoor pool, lake swimming, hiking). November-March is cooler and quieter, often misty, but the thermal baths are at their best and rates drop 20-30%." },
-      { "question": "Lucerne vs. Zurich for pairing?", "answer": "Lucerne wins for proximity (boat directly to the Bürgenstock pier) and charm — the old town, Chapel Bridge and lake waterfront are some of Switzerland's best city scenery. Use Zurich as your fly-in/fly-out airport only, or stay a night at Baur au Lac on either end." },
-      { "question": "Which of the three on-site hotels for a honeymoon?", "answer": "The Bürgenstock Hotel is the main modern building — best views and the strongest design. The Palace Hotel is smaller, with more heritage character and quieter corridors. The Waldhotel is the health-focused option across the ridge, better for couples wanting a wellness-led week. For a first visit, book the Bürgenstock Hotel." },
-      { "question": "Can we swim in the lake?", "answer": "Yes, but it's a funicular ride down to the lake pier. The resort's principal swimming is the Alpine Spa's indoor/outdoor pools. In summer the lake itself is delightful for swimming and there are boats and lakeside restaurants accessible from Kehrsiten station. Not a lake-beach resort in the Ticino sense." },
-      { "question": "What's the best single meal here?", "answer": "RitzCoffier — named after César Ritz himself, who was a Bürgenstock regular — is the resort's Michelin-recommended fine-dining room. Small, jewel-box space, French haute cuisine, exceptional wine pairing. Book for a dressy anniversary-style night on day two or six." }
+      {
+        "question": "Is the infinity pool really as dramatic as photos suggest?",
+        "answer": "Honestly — yes, and if anything it's more so in person. The outdoor section of the pool has a glass edge 500 metres above Lake Lucerne, and on a clear morning you can see all the way across to Mount Rigi and Pilatus. Best at sunrise (07:00-08:30) before day-spa guests arrive."
+      },
+      {
+        "question": "Is the Bürgenstock suitable year-round?",
+        "answer": "Yes — unlike most Swiss mountain hotels, it stays open all year. April-October is the classic window (warmer for the outdoor pool, lake swimming, hiking). November-March is cooler and quieter, often misty, but the thermal baths are at their best and rates drop 20-30%."
+      },
+      {
+        "question": "Lucerne vs. Zurich for pairing?",
+        "answer": "Lucerne wins for proximity (boat directly to the Bürgenstock pier) and charm — the old town, Chapel Bridge and lake waterfront are some of Switzerland's best city scenery. Use Zurich as your fly-in/fly-out airport only, or stay a night at Baur au Lac on either end."
+      },
+      {
+        "question": "Which of the three on-site hotels for a honeymoon?",
+        "answer": "The Bürgenstock Hotel is the main modern building — best views and the strongest design. The Palace Hotel is smaller, with more heritage character and quieter corridors. The Waldhotel is the health-focused option across the ridge, better for couples wanting a wellness-led week. For a first visit, book the Bürgenstock Hotel."
+      },
+      {
+        "question": "Can we swim in the lake?",
+        "answer": "Yes, but it's a funicular ride down to the lake pier. The resort's principal swimming is the Alpine Spa's indoor/outdoor pools. In summer the lake itself is delightful for swimming and there are boats and lakeside restaurants accessible from Kehrsiten station. Not a lake-beach resort in the Ticino sense."
+      },
+      {
+        "question": "What's the best single meal here?",
+        "answer": "RitzCoffier — named after César Ritz himself, who was a Bürgenstock regular — is the resort's Michelin-recommended fine-dining room. Small, jewel-box space, French haute cuisine, exceptional wine pairing. Book for a dressy anniversary-style night on day two or six."
+      }
     ],
     "email_template": "Subject: Honeymoon booking enquiry — Bürgenstock Resort, summer 2027\n\nHello Bürgenstock reservations,\n\nWe're planning our honeymoon and would love to book with you. Details:\n\n- Dates: 7 nights, mid-June to early July 2027 (flexible)\n- Hotel: Bürgenstock Hotel specifically (not Waldhotel or Palace); Junior Suite Lake View, floors 4-6, west- or south-facing with the cleanest lake view you can offer\n- Occasion: honeymoon — any welcome amenity is very appreciated\n- Dining pre-bookings: Spices Kitchen on arrival, RitzCoffier on night two, Sharq Oriental on night three, Verbena on night four, Oak Grill for a dressy farewell on night six; one in-suite dinner on night five\n- Spa: a 90-minute couples' ritual on day two; two additional private spa suite hours mid-week; priority access to the infinity pool at sunrise\n- Experiences: a day in Lucerne with boat transfers, Mount Pilatus cog-rail day trip, Rigi sunrise rail, Hammetschwand lift and cliff walk — please recommend a cadence\n- Transfer: please arrange the boat-and-funicular arrival route from Lucerne (we'd prefer the full panoramic approach, weather permitting), with a private car backup for arrival from Zurich Airport\n\nCould you share current honeymoon packages, cancellation policy, and confirm early check-in / late checkout?\n\nMany thanks,\n[Names]"
   },
