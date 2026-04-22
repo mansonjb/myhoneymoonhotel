@@ -81,11 +81,11 @@ type Step = 1 | 2 | 3 | 4 | 5 | 6 | 'results'
 // ─── Config ──────────────────────────────────────────────────────────────────
 
 const DEPARTURE_OPTIONS = [
-  { key: 'europe',        emoji: '🇪🇺', label: 'Europe & UK',         sub: 'Santorini, Seychelles, Maldives' },
+  { key: 'europe',        emoji: '🇪🇺', label: 'Europe & UK',         sub: 'Santorini, Switzerland, Maldives' },
   { key: 'north-america', emoji: '🇺🇸', label: 'North America',       sub: 'Caribbean, Turks & Caicos' },
   { key: 'australia',     emoji: '🇦🇺', label: 'Australia & NZ',      sub: 'Bali, Maldives, Bora Bora' },
-  { key: 'asia',          emoji: '🌏', label: 'Asia',                 sub: 'Bali, Maldives, Seychelles' },
-  { key: 'africa-me',     emoji: '🌍', label: 'Africa & Middle East', sub: 'Seychelles, Tanzania, Maldives' },
+  { key: 'asia',          emoji: '🌏', label: 'Asia',                 sub: 'Bali, Maldives, UAE' },
+  { key: 'africa-me',     emoji: '🌍', label: 'Africa & Middle East', sub: 'Oman, UAE, Seychelles, Botswana' },
   { key: 'latam',         emoji: '🌎', label: 'Latin America',        sub: 'Bora Bora, Caribbean nearby' },
   { key: 'flexible',      emoji: '✈️', label: 'Flexible / Anywhere',  sub: "Distance isn't a factor" },
 ]
@@ -133,12 +133,12 @@ const BUDGET_OPTIONS = [
 // ─── Matching data ────────────────────────────────────────────────────────────
 
 const PROXIMITY: Record<string, Record<string, number>> = {
-  europe:          { santorini:15, seychelles:12, tanzania:10, maldives:10, 'st-lucia':5, 'turks-and-caicos':5, bali:2, 'bora-bora':0, 'french-polynesia':0 },
-  'north-america': { 'turks-and-caicos':15, 'st-lucia':12, 'bora-bora':8, santorini:5, maldives:2, seychelles:2, bali:0, tanzania:0 },
-  australia:       { bali:15, maldives:12, 'bora-bora':10, seychelles:8, santorini:2, 'st-lucia':0, 'turks-and-caicos':0, tanzania:2 },
-  asia:            { bali:15, maldives:15, seychelles:10, santorini:8, tanzania:8, 'bora-bora':2, 'st-lucia':0, 'turks-and-caicos':0 },
-  'africa-me':     { seychelles:15, tanzania:15, maldives:12, santorini:12, bali:5, 'bora-bora':0, 'st-lucia':0, 'turks-and-caicos':0 },
-  latam:           { 'bora-bora':12, 'turks-and-caicos':10, 'st-lucia':8, santorini:4, maldives:2, seychelles:2, bali:0, tanzania:0 },
+  europe:          { santorini:15, switzerland:15, seychelles:12, tanzania:10, maldives:10, oman:10, uae:10, botswana:8, 'st-lucia':5, 'turks-and-caicos':5, bali:2, 'bora-bora':0, 'french-polynesia':0 },
+  'north-america': { 'turks-and-caicos':15, 'st-lucia':12, 'bora-bora':8, santorini:5, switzerland:5, maldives:2, seychelles:2, uae:2, oman:2, bali:0, tanzania:0, botswana:0 },
+  australia:       { bali:15, maldives:12, 'bora-bora':10, seychelles:8, uae:5, oman:4, santorini:2, switzerland:2, botswana:2, 'st-lucia':0, 'turks-and-caicos':0, tanzania:2 },
+  asia:            { bali:15, maldives:15, uae:12, oman:10, seychelles:10, santorini:8, switzerland:6, tanzania:8, botswana:5, 'bora-bora':2, 'st-lucia':0, 'turks-and-caicos':0 },
+  'africa-me':     { seychelles:15, tanzania:15, oman:15, uae:15, botswana:14, maldives:12, santorini:12, switzerland:10, bali:5, 'bora-bora':0, 'st-lucia':0, 'turks-and-caicos':0 },
+  latam:           { 'bora-bora':12, 'turks-and-caicos':10, 'st-lucia':8, santorini:4, switzerland:4, maldives:2, seychelles:2, uae:2, oman:2, bali:0, tanzania:0, botswana:0 },
 }
 
 const SEASON: Record<string, number[]> = {
@@ -150,26 +150,33 @@ const SEASON: Record<string, number[]> = {
   bali:               [2,2,1,1,0,0,3,3,3,2,1,1],
   santorini:          [1,1,2,3,3,3,3,3,3,2,1,1],
   tanzania:           [2,2,0,0,1,3,3,3,3,2,1,2],
+  // Oman & UAE — cool dry season Oct–Apr ideal; May–Sep brutal 40°C+ heat
+  oman:               [3,3,3,2,1,0,0,0,1,3,3,3],
+  uae:                [3,3,3,2,1,0,0,0,1,2,3,3],
+  // Switzerland — ski season Dec–Mar + alpine summer Jun–Sep both great; shoulder Apr/May/Oct/Nov quiet
+  switzerland:        [3,3,3,1,1,3,3,3,3,1,1,3],
+  // Botswana — dry season May–Oct peak safari; Nov–Apr wet, green, lower prices
+  botswana:           [1,1,1,2,3,3,3,3,3,3,2,1],
 }
 
 // Destination boosts for styles that don't map to experience_types in hotel JSON
 const STYLE_DEST_BONUS: Record<string, string[]> = {
-  'city-culture':       ['santorini', 'bali'],
-  'dramatic-scenery':   ['santorini', 'bali', 'st-lucia'],
-  'diving-watersports': ['maldives', 'bora-bora', 'turks-and-caicos', 'bali', 'seychelles'],
-  'food-fine-dining':   ['santorini', 'bali', 'st-lucia', 'maldives'],
+  'city-culture':       ['santorini', 'bali', 'uae'],
+  'dramatic-scenery':   ['santorini', 'bali', 'st-lucia', 'switzerland', 'oman', 'botswana'],
+  'diving-watersports': ['maldives', 'bora-bora', 'turks-and-caicos', 'bali', 'seychelles', 'oman'],
+  'food-fine-dining':   ['santorini', 'bali', 'st-lucia', 'maldives', 'switzerland', 'uae'],
 }
 
 // Priority boosts: priority key → which hotels get extra points
 const PRIORITY_BOOSTS: Record<string, (h: Hotel) => number> = {
   privacy:     h => (h.adults_only ? 12 : 0) + (h.price_per_night_usd.min >= 1200 ? 5 : 0),
-  photogenic:  h => ['bora-bora','santorini','maldives','st-lucia'].includes(h.destination) ? 10 : 0,
-  sunshine:    h => ['maldives','bora-bora','turks-and-caicos'].includes(h.destination) ? 8 : 0,
+  photogenic:  h => ['bora-bora','santorini','maldives','st-lucia','switzerland','botswana'].includes(h.destination) ? 10 : 0,
+  sunshine:    h => ['maldives','bora-bora','turks-and-caicos','uae','oman'].includes(h.destination) ? 8 : 0,
   activities:  h => (h.amenities.includes('snorkeling') || h.amenities.includes('beach') ? 8 : 0),
   dining:      h => (h.tripadvisor_award ? 10 : 0) + (h.stars === 5 ? 5 : 0),
   relaxation:  h => (h.amenities.includes('spa') ? 10 : 0),
   service:     h => (h.stars === 5 ? 8 : 0) + (h.amenities.includes('butler service') ? 8 : 0),
-  unique:      h => (['bora-bora','santorini','tanzania'].includes(h.destination) ? 8 : 0),
+  unique:      h => (['bora-bora','santorini','tanzania','botswana','oman','switzerland'].includes(h.destination) ? 8 : 0),
 }
 
 const BUDGET_MAX: Record<string, number> = {
