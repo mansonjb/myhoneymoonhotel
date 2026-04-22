@@ -126,9 +126,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${geist.variable} ${instrumentSerif.variable}`}>
       <head>
-        {/* Preconnects — save ~100ms on first outbound click to a booking provider */}
+        {/* Lightweight hints — Lighthouse caps preconnect at 4, and each costs a TCP/TLS handshake.
+            We keep just the ONE hard preconnect to the Stay22 script origin (it will load lazily
+            but the click path then needs no handshake). Everything else is dns-prefetch only. */}
         <link rel="preconnect" href="https://scripts.stay22.com" crossOrigin="anonymous" />
-        <link rel="preconnect" href="https://www.stay22.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://www.stay22.com" />
         <link rel="dns-prefetch" href="https://www.booking.com" />
         <link rel="dns-prefetch" href="https://www.hotels.com" />
       </head>
