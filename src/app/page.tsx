@@ -105,7 +105,7 @@ export default function HomePage() {
       {/* ── HERO ── */}
       <section className="relative h-[92vh] min-h-[600px] flex items-end overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1573843981267-be1999ff37cd?w=1920&q=90"
+          src="/images/hotels/soneva-jani-maldives/hero.webp"
           alt="Overwater bungalow at sunset"
           fill
           className="object-cover"

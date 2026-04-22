@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Geist } from 'next/font/google'
 import { Instrument_Serif } from 'next/font/google'
 import Link from 'next/link'
+import Script from 'next/script'
 import CookieBanner from '@/components/CookieBanner'
 import NewsletterCapture from '@/components/NewsletterCapture'
 import HeaderNav from '@/components/HeaderNav'
@@ -125,8 +126,19 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${geist.variable} ${instrumentSerif.variable}`}>
       <head>
-        {/* Stay22 LetMeAllez — auto-converts outbound Booking.com / Hotels.com / Expedia / Agoda / etc. links into affiliate-tracked URLs */}
-        <script
+        {/* Preconnects — save ~100ms on first outbound click to a booking provider */}
+        <link rel="preconnect" href="https://scripts.stay22.com" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://www.stay22.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://www.booking.com" />
+        <link rel="dns-prefetch" href="https://www.hotels.com" />
+      </head>
+      <body className="bg-white text-zinc-900 antialiased">
+
+        {/* Stay22 LetMeAllez — lazy-loaded (only needed when user is about to click an outbound booking link).
+            Saves ~110 KiB off the critical path and removes 134ms of forced-layout from the main thread. */}
+        <Script
+          id="stay22-letmeallez"
+          strategy="lazyOnload"
           dangerouslySetInnerHTML={{
             __html: `(function (s, t, a, y, twenty, two) {
               s.Stay22 = s.Stay22 || {};
@@ -139,8 +151,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             })(window, document, 'script', 'https://scripts.stay22.com/letmeallez.js');`,
           }}
         />
-      </head>
-      <body className="bg-white text-zinc-900 antialiased">
 
         {/* Header */}
         <header className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-zinc-100">
