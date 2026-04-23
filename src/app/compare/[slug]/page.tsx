@@ -37,6 +37,18 @@ const DEST_HERO: Record<string, string> = {
   kenya: '/images/hotels/angama-mara-kenya/hero.webp',
   tanzania: '/images/hotels/andbeyond-ngorongoro-crater-lodge-tanzania/hero.webp',
   mauritius: '/images/hotels/one-and-only-le-saint-geran-mauritius/hero.webp',
+  fiji: '/images/hotels/laucala-island-resort-fiji/hero.webp',
+  'st-lucia': '/images/hotels/jade-mountain-st-lucia/hero.webp',
+  'turks-and-caicos': '/images/hotels/amanyara-turks-caicos/hero.webp',
+  morocco: '/images/hotels/royal-mansour-marrakech-morocco/hero.webp',
+  // Jordan + Iceland hotels ship with Session 3 tonight — use destination-themed Unsplash for now
+  jordan: 'https://images.unsplash.com/photo-1544087931-1ec5d5e7e8be?w=1400&q=80',
+  iceland: 'https://images.unsplash.com/photo-1504893524553-b855bce32c67?w=1400&q=80',
+  switzerland: '/images/hotels/badrutts-palace-hotel-st-moritz-switzerland/hero.webp',
+  greece: '/images/hotels/amanzoe-porto-heli-greece/hero.webp',
+  mexico: '/images/hotels/las-ventanas-al-paraiso-mexico/hero.webp',
+  caribbean: '/images/hotels/pink-sands-club-harbour-island-caribbean/hero.webp',
+  'french-polynesia': '/images/hotels/the-brando-tetiaroa-french-polynesia/hero.webp',
 }
 
 export default async function ComparisonPage({ params }: Props) {
