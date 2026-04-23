@@ -77,6 +77,7 @@ export default function HeaderNav({ destinations, experiences }: HeaderNavProps)
         </svg>
       </button>
 
+      <Link href="/compare" className="hover:text-zinc-900 transition-colors">Compare</Link>
       <Link href="/quiz" className="hover:text-zinc-900 transition-colors">Quiz</Link>
       <Link href="/about" className="hover:text-zinc-900 transition-colors">About</Link>
 

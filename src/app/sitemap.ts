@@ -1,11 +1,13 @@
 import { MetadataRoute } from 'next'
 import { getAllHotels, getAllDestinations, getAllExperienceTypes } from '@/lib/hotels'
+import { getAllComparisonSlugs } from '../../data/comparisons'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://myhoneymoonhotel.com'
   const hotels = getAllHotels()
   const destinations = getAllDestinations()
   const experiences = getAllExperienceTypes()
+  const comparisons = getAllComparisonSlugs()
 
   const hotelUrls = hotels.map(h => ({
     url: `${baseUrl}/hotels/${h.slug}`,
@@ -28,8 +30,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }))
 
+  const comparisonUrls = comparisons.map(slug => ({
+    url: `${baseUrl}/compare/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.85,
+  }))
+
+  const staticUrls = [
+    { url: baseUrl, lastModified: new Date(), changeFrequency: 'daily' as const, priority: 1 },
+    { url: `${baseUrl}/quiz`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/compare`, lastModified: new Date(), changeFrequency: 'weekly' as const, priority: 0.75 },
+    { url: `${baseUrl}/about`, lastModified: new Date(), changeFrequency: 'yearly' as const, priority: 0.5 },
+    { url: `${baseUrl}/contact`, lastModified: new Date(), changeFrequency: 'yearly' as const, priority: 0.4 },
+    { url: `${baseUrl}/privacy`, lastModified: new Date(), changeFrequency: 'yearly' as const, priority: 0.2 },
+    { url: `${baseUrl}/terms`, lastModified: new Date(), changeFrequency: 'yearly' as const, priority: 0.2 },
+    { url: `${baseUrl}/affiliate-disclosure`, lastModified: new Date(), changeFrequency: 'yearly' as const, priority: 0.2 },
+  ]
+
   return [
-    { url: baseUrl, lastModified: new Date(), changeFrequency: 'daily', priority: 1 },
+    ...staticUrls,
+    ...comparisonUrls,
     ...destinationUrls,
     ...experienceUrls,
     ...hotelUrls,
