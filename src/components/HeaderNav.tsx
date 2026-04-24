@@ -14,6 +14,7 @@ const REGION_ORDER = [
   'Indian Ocean',
   'South Pacific',
   'Caribbean & Americas',
+  'South America',
   'Europe',
   'Asia',
   'Middle East',
