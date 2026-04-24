@@ -7,13 +7,64 @@ interface Stay22MapWidgetProps {
   height?: number
 }
 
+/**
+ * Stay22's geocoder doesn't always return hotels for a bare country/region name
+ * (e.g. "Iceland", "Botswana"). For those destinations we route the embed to a
+ * specific city/area where Stay22 has dense inventory.
+ *
+ * Match against the lowercased destination string — both slugs and pretty labels.
+ */
+const MAP_LOCATION_OVERRIDE: Record<string, string> = {
+  iceland:           'Reykjavik, Iceland',
+  switzerland:       'Zermatt, Switzerland',
+  botswana:          'Maun, Botswana',
+  argentina:         'Buenos Aires, Argentina',
+  'new-zealand':     'Queenstown, New Zealand',
+  'new zealand':     'Queenstown, New Zealand',
+  jordan:            'Petra, Jordan',
+  oman:              'Muscat, Oman',
+  uae:               'Dubai, UAE',
+  morocco:           'Marrakech, Morocco',
+  sardegna:          'Olbia, Sardinia',
+  caribbean:         'Antigua, Caribbean',
+  'french-polynesia':'Tahiti, French Polynesia',
+  'rest of french polynesia': 'Moorea, French Polynesia',
+  'cape-verde':      'Sal, Cape Verde',
+  'cape verde':      'Sal, Cape Verde',
+  mozambique:        'Vilankulo, Mozambique',
+  reunion:           'Saint-Gilles, Reunion',
+  'sri-lanka':       'Bentota, Sri Lanka',
+  'sri lanka':       'Bentota, Sri Lanka',
+  cambodia:          'Siem Reap, Cambodia',
+  vietnam:           'Hoi An, Vietnam',
+  philippines:       'Palawan, Philippines',
+  indonesia:         'Yogyakarta, Indonesia',
+  greece:            'Mykonos, Greece',
+  'mainland & mykonos': 'Mykonos, Greece',
+  amalfi:            'Positano, Italy',
+  'amalfi coast':    'Positano, Italy',
+  croatia:           'Dubrovnik, Croatia',
+  portugal:          'Algarve, Portugal',
+  spain:             'Mallorca, Spain',
+  hawaii:            'Maui, Hawaii',
+}
+
+function resolveMapLocation(input: string): string {
+  const key = input.trim().toLowerCase()
+  return MAP_LOCATION_OVERRIDE[key] ?? input
+}
+
 export default function Stay22MapWidget({
   location,
   hotelName,
   country = '',
   height = 500,
 }: Stay22MapWidgetProps) {
-  const embedQuery = hotelName ? `${hotelName} ${location}` : location
+  // For hotel pages: keep the hotel name + location query (Stay22 finds the exact pin).
+  // For destination pages: rewrite sparse country names to a known dense city.
+  const embedQuery = hotelName
+    ? `${hotelName} ${location}`
+    : resolveMapLocation(location)
   const src = buildStay22MapSrc(embedQuery)
 
   // Smart primary CTA — Stay22 Allez Roam picks the best OTA automatically
