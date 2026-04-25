@@ -2,7 +2,9 @@ import { buildAllezHotelLink, buildProviderUrls, buildStay22MapSrc } from '@/lib
 
 interface Stay22MapWidgetProps {
   location: string            // destination slug or readable label (used for the map)
-  hotelName?: string
+  hotelName?: string          // when set: render hotel-page CTAs (Allez, providers)
+  anchorHotelName?: string    // for destination pages: name of a real hotel in our DB to center the map on
+                              // Stay22 finds it → shows neighbour hotels nearby. Robust against country-zoom dead zones.
   country?: string            // country slug/name, used by Stay22 Allez to narrow the match
   height?: number
 }
@@ -57,14 +59,20 @@ function resolveMapLocation(input: string): string {
 export default function Stay22MapWidget({
   location,
   hotelName,
+  anchorHotelName,
   country = '',
   height = 500,
 }: Stay22MapWidgetProps) {
-  // For hotel pages: keep the hotel name + location query (Stay22 finds the exact pin).
-  // For destination pages: rewrite sparse country names to a known dense city.
+  // Three priorities for the embed map's search query:
+  // 1. Hotel page (hotelName provided) → exact hotel + location
+  // 2. Destination page with a known top hotel (anchorHotelName) → center on that hotel,
+  //    Stay22 finds it and shows ~30 nearby hotels — robust against sparse-country dead zones
+  // 3. Fallback to per-destination override or the raw location
   const embedQuery = hotelName
     ? `${hotelName} ${location}`
-    : resolveMapLocation(location)
+    : anchorHotelName
+      ? `${anchorHotelName} ${location}`
+      : resolveMapLocation(location)
   const src = buildStay22MapSrc(embedQuery)
 
   // Smart primary CTA — Stay22 Allez Roam picks the best OTA automatically

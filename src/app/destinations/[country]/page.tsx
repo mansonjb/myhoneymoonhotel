@@ -4852,7 +4852,11 @@ export default async function DestinationPage({ params }: Props) {
         <section>
           <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">Map</p>
           <h2 className="font-display text-3xl sm:text-4xl mb-6">Hotels in {destProper}</h2>
-          <Stay22MapWidget location={destProper} height={480} />
+          <Stay22MapWidget
+            location={destProper}
+            anchorHotelName={[...hotels].sort((a, b) => b.honeymoon_score - a.honeymoon_score)[0]?.name}
+            height={480}
+          />
         </section>
 
         {/* ── RELATED EXPERIENCES ── */}
