@@ -264,6 +264,12 @@ export default function HomePage() {
               <h2 className="font-display text-4xl sm:text-5xl">Top Destinations</h2>
               <p className="text-zinc-500 text-base mt-3 max-w-lg leading-relaxed">The eight honeymoon destinations we obsess over most — and the hotels that define them.</p>
             </div>
+            <Link
+              href="/destinations"
+              className="hidden sm:inline-flex items-center gap-1.5 text-rose-500 hover:text-rose-600 text-sm font-medium tracking-wide whitespace-nowrap"
+            >
+              View all {totalDestinations} destinations →
+            </Link>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
             {TOP_DESTINATIONS.map(d => (

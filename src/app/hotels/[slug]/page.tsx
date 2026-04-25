@@ -20,9 +20,31 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params
   const hotel = getHotelBySlug(slug)
   if (!hotel) return {}
+  const heroPhoto = hotel.photos.find(p => p.type === 'hero') || hotel.photos[0]
+  const heroUrl = heroPhoto?.url?.startsWith('http')
+    ? heroPhoto.url
+    : `https://myhoneymoonhotel.com${heroPhoto?.url ?? ''}`
+  const title = `${hotel.name} Honeymoon Review — Score ${hotel.honeymoon_score}/100`
+  const description = hotel.content.verdict.slice(0, 160)
+  const canonical = `https://myhoneymoonhotel.com/hotels/${hotel.slug}`
   return {
-    title: `${hotel.name} Honeymoon Review — Score ${hotel.honeymoon_score}/100`,
-    description: hotel.content.verdict.slice(0, 160),
+    title,
+    description,
+    alternates: { canonical },
+    openGraph: {
+      title,
+      description,
+      url: canonical,
+      type: 'article',
+      siteName: 'My Honeymoon Hotel',
+      images: heroUrl ? [{ url: heroUrl, width: 1200, height: 630, alt: hotel.name }] : undefined,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: heroUrl ? [heroUrl] : undefined,
+    },
   }
 }
 

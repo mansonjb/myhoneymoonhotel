@@ -4498,9 +4498,30 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const meta = DESTINATION_META[country]
   const name = country.replace(/-/g, ' ')
   const proper = name.charAt(0).toUpperCase() + name.slice(1)
+  const title = `Best Honeymoon Hotels in ${proper} — Scored & Ranked | MyHoneymoonHotel`
+  const description = meta?.tagline ?? `The definitive guide to honeymoon hotels in ${proper}. Every property scored for romance with real verdicts, price breakdowns, and best room recommendations.`
+  const canonical = `https://myhoneymoonhotel.com/destinations/${country}`
+  const heroUrl = meta?.hero
+    ? (meta.hero.startsWith('http') ? meta.hero : `https://myhoneymoonhotel.com${meta.hero}`)
+    : undefined
   return {
-    title: `Best Honeymoon Hotels in ${proper} — Scored & Ranked | MyHoneymoonHotel`,
-    description: meta?.tagline ?? `The definitive guide to honeymoon hotels in ${proper}. Every property scored for romance with real verdicts, price breakdowns, and best room recommendations.`,
+    title,
+    description,
+    alternates: { canonical },
+    openGraph: {
+      title,
+      description,
+      url: canonical,
+      type: 'website',
+      siteName: 'My Honeymoon Hotel',
+      images: heroUrl ? [{ url: heroUrl, width: 1200, height: 630, alt: `Honeymoon hotels in ${proper}` }] : undefined,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: heroUrl ? [heroUrl] : undefined,
+    },
   }
 }
 
