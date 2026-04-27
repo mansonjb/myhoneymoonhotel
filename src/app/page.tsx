@@ -16,15 +16,15 @@ const REGION_OF: Record<string, string> = {
   'mexico': 'Caribbean & Americas', 'costa-rica': 'Caribbean & Americas',
   'santorini': 'Europe', 'greece': 'Europe', 'amalfi': 'Europe', 'sardegna': 'Europe',
   'croatia': 'Europe', 'portugal': 'Europe', 'spain': 'Europe',
-  'switzerland': 'Europe', 'iceland': 'Europe',
-  'argentina': 'South America',
+  'switzerland': 'Europe', 'iceland': 'Europe', 'lapland': 'Europe',
+  'argentina': 'South America', 'peru': 'South America', 'galapagos': 'South America',
   'hawaii': 'North America',
   'oman': 'Middle East', 'uae': 'Middle East', 'jordan': 'Middle East',
   'cape-verde': 'Africa & Atlantic', 'morocco': 'Africa & Atlantic',
   'kenya': 'Africa Safari', 'tanzania': 'Africa Safari', 'south-africa': 'Africa Safari',
   'botswana': 'Africa Safari',
   'thailand': 'Asia', 'indonesia': 'Asia', 'bali': 'Asia', 'philippines': 'Asia',
-  'vietnam': 'Asia', 'cambodia': 'Asia', 'japan': 'Asia',
+  'vietnam': 'Asia', 'cambodia': 'Asia', 'japan': 'Asia', 'bhutan': 'Asia',
 }
 const REGION_ORDER = ['Indian Ocean', 'South Pacific', 'Caribbean & Americas', 'South America', 'Europe', 'Asia', 'Middle East', 'Africa Safari', 'Africa & Atlantic', 'North America']
 

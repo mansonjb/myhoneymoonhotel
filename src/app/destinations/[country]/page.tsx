@@ -4489,6 +4489,436 @@ const DESTINATION_META: Record<string, {
     language: 'Spanish (Rioplatense accent — distinctive "ll" pronounced "sh"). English widely spoken in hotels and top restaurants; less in taxis and small businesses.',
     timezone: 'UTC-3 year-round (no daylight saving)',
   },
+
+  'bhutan': {
+    hero: '/images/hotels/amankora-paro-bhutan/hero.webp',
+    tagline: 'A Buddhist kingdom at altitude, accessed only via approved tour operator — the most exclusive, slow-luxury honeymoon on earth.',
+    intro: 'Bhutan is the honeymoon for couples who want their trip to feel like a pilgrimage rather than a vacation. The Himalayan kingdom restricts tourism via a $200/day Sustainable Development Fee, an arrangement that produces the cleanest air, the most preserved monasteries, and the lowest tourist density of any country in Asia. Aman runs a 5-lodge circuit — Paro, Thimphu, Punakha, Gangtey, Bumthang — that lets you traverse the country in 7-14 days, sleeping in fireplace-lit rammed-earth suites carved into pine forests and rice terraces. Six Senses operates a parallel 5-lodge route. The honeymoon highlights are unlike anywhere else: the Tiger\'s Nest monastery cliff hike, hot stone baths in farmhouses, archery contests with locals, prayer-flag ceremonies above 3,000m, and dinners of red-rice ema datshi by a bukhari woodstove. This is a slow, quiet, deeply romantic country.',
+    bestTime: 'Mar–May & Sep–Nov',
+    flightFrom: 'Via Delhi or Bangkok (Drukair only); 14–18h from Europe',
+    topExperience: 'Tiger\'s Nest Monastery Hike',
+    perfectFor: [
+      'Couples who want spiritual depth, slow travel, and Himalayan landscapes',
+      'Honeymooners willing to invest in a once-in-a-lifetime, hard-to-reach destination',
+      'Aman/Six Senses devotees — both brands run their A-team circuits here',
+      'Photographers — the Tiger\'s Nest cliff monastery is the defining Bhutan image',
+      'Couples comfortable with altitude, light hiking, and tour-operator-led travel',
+    ],
+    skipIf: [
+      'You want beach, sun, or guaranteed swimming weather',
+      'You\'re on a tight budget — the SDF + lodge rates push minimum spend high',
+      'You\'re uncomfortable with mandatory guide-and-driver structure',
+      'You have less than 7 nights — the country needs time to land',
+    ],
+    experiences: [
+      {
+        icon: '🏔️',
+        title: 'Tiger\'s Nest Monastery (Paro Taktsang) Hike',
+        description: 'The 4-hour round-trip hike up to the cliff-clinging Paro Taktsang monastery at 3,120m is Bhutan\'s defining experience. The path winds through pine forest, prayer-flag-strung viewpoints, and a final staircase carved into the cliff. Inside, butter-lamp shrines and meditation caves where Guru Rinpoche flew on a tigress. Aman and Six Senses guides time the hike for sunrise photography.',
+        cost: 'Included with all luxury lodge programs; horse assistance to halfway-point cafe ~$25',
+        tip: 'Wear broken-in hiking shoes. Start at 7am — Tiger\'s Nest closes for lunch (1–2pm) and the descent in afternoon heat is harder than the climb. Pack water and a light jacket; it\'s 10°C cooler at the top.',
+      },
+      {
+        icon: '🛁',
+        title: 'Hot Stone Bath in a Farmhouse',
+        description: 'A traditional Bhutanese honeymoon ritual: bathe in a wooden tub heated by river stones glowing red from a wood fire, infused with artemisia leaves. Six Senses Punakha has its own hot stone bath houses overlooking rice terraces; Amankora Paro arranges them with local farming families.',
+        cost: '$180–$300 per couple at lodges',
+        tip: 'Book your bath for late afternoon — sunset over Himalayan terraces from a steaming wooden tub is the picture you take home.',
+      },
+      {
+        icon: '🏯',
+        title: 'Punakha Dzong & Suspension Bridge',
+        description: 'Bhutan\'s second-most-photographed building — a 17th-century white-and-saffron fortress at the confluence of two rivers. The 160m Punakha Suspension Bridge nearby is one of the longest prayer-flag-draped pedestrian bridges in the Himalayas. Both at their best in spring jacaranda bloom or autumn rice-harvest gold.',
+        cost: 'Entry $5/pax; included on all Amankora and Six Senses Punakha programs',
+        tip: 'Visit at sunset when the dzong glows in low light. Then walk the suspension bridge across to the Six Senses approach — the views back at the dzong are unmissable.',
+      },
+      {
+        icon: '🎯',
+        title: 'Archery with Locals at the Village Range',
+        description: 'Bhutan\'s national sport. Every village has a range, and every honeymoon guide will arrange an evening match against locals. Traditional bamboo bow targets are 145m apart; a successful shot triggers a celebratory victory dance. Surprisingly addictive and one of the warmest cultural experiences in the country.',
+        cost: 'Arranged by lodge — $40–$80 per couple including drinks',
+        tip: 'Don\'t worry about being terrible — the dance and the laughter are the point. Buy a round of Druk 11000 beer for the local team afterwards.',
+      },
+      {
+        icon: '🌌',
+        title: 'Phobjikha Valley Crane Ceremony (Nov–Feb)',
+        description: 'Every winter, ~500 black-necked cranes migrate from Tibet to overwinter in the remote Phobjikha glacial valley (Amankora Gangtey territory). The valley\'s residents conduct a ceremonial welcome each November 11 and the cranes themselves circle the 17th-century Gangtey Monastery three times before landing. Surreal, photographable, fragile.',
+        cost: 'Standard Amankora Gangtey lodge inclusive; private guide for the ceremony arranged by lodge',
+        tip: 'Book Amankora Gangtey for early November to coincide with the crane festival. Cranes leave by mid-February.',
+      },
+    ],
+    months: [
+      { month: 'Jan', weather: 'Cold dry, -5°C to 12°C', emoji: '❄️', crowds: 'Low', price: 'Mid', verdict: 'Cranes still in Phobjikha; trekking trails snowed in' },
+      { month: 'Feb', weather: 'Cold but warming, clear skies', emoji: '❄️', crowds: 'Low', price: 'Mid', verdict: 'Last cranes; clear Himalayan views' },
+      { month: 'Mar', weather: '5–18°C, jacaranda bloom', emoji: '🌸', crowds: 'High', price: 'High', verdict: 'Spectacular spring — peak season starts' },
+      { month: 'Apr', weather: '8–20°C, rhododendron bloom', emoji: '🌸', crowds: 'Peak', price: 'Highest', verdict: 'The classic Bhutan month — book 6 months ahead' },
+      { month: 'May', weather: '12–24°C, pre-monsoon', emoji: '☀️', crowds: 'High', price: 'High', verdict: 'Warm and beautiful, last week increasingly humid' },
+      { month: 'Jun', weather: 'Monsoon arrives, leeches', emoji: '🌧️', crowds: 'Low', price: 'Low', verdict: 'Skip — wet, muddy, mountain views often lost' },
+      { month: 'Jul', weather: 'Heavy monsoon, 18–25°C', emoji: '🌧️', crowds: 'Low', price: 'Low', verdict: 'Skip — monsoon peak; trails dangerous' },
+      { month: 'Aug', weather: 'Tail end of monsoon', emoji: '🌧️', crowds: 'Low', price: 'Low', verdict: 'Improving but unreliable; matsutake mushroom festival' },
+      { month: 'Sep', weather: 'Clearing, 12–22°C', emoji: '🌤️', crowds: 'High', price: 'High', verdict: 'Excellent — autumn rice harvest gold' },
+      { month: 'Oct', weather: '8–20°C, peak clarity', emoji: '☀️', crowds: 'Peak', price: 'Highest', verdict: 'The other peak month — Thimphu Tshechu festival' },
+      { month: 'Nov', weather: '5–18°C, cranes return', emoji: '🍂', crowds: 'High', price: 'High', verdict: 'Crane festival in Phobjikha — unique experience' },
+      { month: 'Dec', weather: 'Cold dry, -2°C to 14°C', emoji: '❄️', crowds: 'Low', price: 'Mid', verdict: 'Quiet, clear, cold but rewarding' },
+    ],
+    budgetTiers: [
+      { label: 'Premium', range: '$700–$1,800/night', gets: 'COMO Uma Paro hilltop suite — well-priced relative to Aman/Six Senses, full-board excellent.', example: 'COMO Uma Paro' },
+      { label: 'Ultra-Luxury', range: '$1,800–$4,200/night', gets: 'Single-lodge stays at Six Senses Paro/Punakha or one Amankora lodge. All-inclusive guide, meals, transfers, treatments.', example: 'Six Senses Paro, Six Senses Punakha, Amankora Thimphu, Amankora Bumthang' },
+      { label: 'Iconic Circuit', range: '$2,000–$4,500/night', gets: 'Multi-lodge Aman or Six Senses circuit (3–5 lodges across 7–14 nights). The defining Bhutan honeymoon.', example: 'Amankora 5-Lodge Circuit, Six Senses Multi-Lodge' },
+    ],
+    areas: [
+      { name: 'Paro', bestFor: 'Arrival, Tiger\'s Nest, Himalayan views', description: 'The international airport valley and base for Tiger\'s Nest. Amankora Paro and Six Senses Paro are here. 2–3 nights minimum.' },
+      { name: 'Thimphu', bestFor: 'Capital culture, dzong, weekend market', description: 'Bhutan\'s charming capital (population 100,000) — pedestrians directing traffic, a chorten in the centre, Tashichho Dzong, the National Memorial Chorten. 1–2 nights.' },
+      { name: 'Punakha', bestFor: 'Sub-tropical valley, Punakha Dzong, suspension bridge', description: 'Lower-altitude (1,200m), warmer valley with the most photogenic dzong in Bhutan. Six Senses Punakha and Amankora Punakha here. 2 nights.' },
+      { name: 'Phobjikha (Gangtey)', bestFor: 'Black-necked cranes, remote serenity', description: 'Glacial valley at 3,000m, no electricity until 2008. Amankora Gangtey is the only luxury here. 1–2 nights.' },
+      { name: 'Bumthang', bestFor: 'Spiritual heartland, ancient monasteries', description: 'Central Bhutan\'s religious centre — Jakar Dzong, Jambay Lhakhang, traditional villages. Amankora Bumthang. 1–2 nights.' },
+    ],
+    expertTips: [
+      { tip: 'Book via official tour operator only', detail: 'Bhutan visa requires a registered Bhutanese tour operator. Aman and Six Senses handle this seamlessly — your visa, SDF, internal flights, guide, and driver are all bundled. Independent travel is impossible.' },
+      { tip: 'The SDF is $200/person/day on top of lodging', detail: 'The Sustainable Development Fee is a flat $200/pax/day paid to the government regardless of your hotel. Lodges quote this separately or include it. Budget accordingly — 7 nights = $2,800 SDF for two on top of room rates.' },
+      { tip: 'Acclimatize at Paro (2,200m) before Bumthang (2,800m)', detail: 'Bhutan altitudes are real. The standard Aman/Six Senses circuit eases you up — Paro → Thimphu → Punakha (low) → Phobjikha (high) → Bumthang. Don\'t reverse it.' },
+      { tip: 'Drukair flights are weather-dependent', detail: 'Paro\'s airport is cradled in mountains and only ~12 pilots are certified to land there. Cancellations happen. Build a 24-hour buffer at the start and end of your trip in Delhi or Bangkok.' },
+      { tip: 'Internet is poor at Aman lodges (intentionally)', detail: 'Amankora properties deliberately offer minimal Wi-Fi as part of the slow-luxury ethos. If you need to work, COMO Uma Paro has stronger connectivity. Six Senses lodges are mid.' },
+    ],
+    packing: [
+      { item: 'Broken-in hiking boots', why: 'Tiger\'s Nest is non-negotiable trail. New boots = blisters that ruin the trip.' },
+      { item: 'Layered hiking clothing', why: 'Temperature swings 15°C between morning and afternoon. Merino base + fleece + light shell is the formula.' },
+      { item: 'Modest dress for monasteries', why: 'Long pants/sleeves required at all dzongs and monasteries. No shorts, no exposed shoulders. Bring a scarf for women.' },
+      { item: 'Altitude medication (Diamox) optional', why: 'Most lodges sit 2,200–3,000m. Light altitude is normal. Diamox helps if you\'re sensitive — discuss with your GP.' },
+      { item: 'Small gifts for guides and drivers', why: 'Bhutanese hospitality is generous and reciprocal. Books from your country, photographs, or quality chocolates are appreciated more than cash.' },
+    ],
+    guide: {
+      getting: 'Drukair and Bhutan Airlines fly to Paro (PBH) only from Delhi, Bangkok, Kathmandu, and Singapore. Most honeymooners route via Delhi (4h flight + 1-2h layover) or Bangkok (3h). Total transit time from Europe is 14–18h. Once in Bhutan, internal travel is by SUV with your assigned guide — no domestic flights worth using. The Aman or Six Senses circuit handles all logistics.',
+      where: 'Classic 7-night Aman/Six Senses circuit: Paro (2 nights) → Thimphu (1) → Punakha (2) → Bumthang or back to Paro (2). 10-night extension adds Phobjikha and full Bumthang valley. The 14-night full circuit includes all 5 Amankora lodges or all 5 Six Senses — the most committed Bhutan honeymoon.',
+      when: 'March–May (especially April) and September–November are the two peak windows — clear skies, mild temperatures, monastery festivals (tshechus). October is most popular but March-April rhododendron bloom is unforgettable. Avoid June–August monsoon (mountain views obscured, leeches in forests). November adds the crane festival in Phobjikha.',
+    },
+    localFood: 'Ema datshi (chili-and-cheese stew, the national dish — Bhutanese eat it three times a day); red rice from Paro Valley (nutty, dense); momos (Tibetan-style steamed dumplings); shakam paa (dried beef with chilies and radishes); jasha maru (spicy chicken stew); butter tea (suja — rancid yak butter, salt; an acquired taste); ara (rice or wheat spirit, often served warm with butter and egg); Druk 11000 beer (the local lager). Lodge dining adapts Bhutanese flavours for international palates — chili intensity is dialled down by default; ask for it spicier.',
+    currency: 'Bhutanese Ngultrum (BTN) pegged 1:1 to Indian Rupee. INR widely accepted. USD and EUR cash useful for SDF payments and tips; cards rare outside top hotels in Paro/Thimphu.',
+    language: 'Dzongkha (national); English is universal at lodges, with all guides fluent. Hindi widely understood.',
+    timezone: 'UTC+6 (Bhutan Time, no daylight saving)',
+  },
+
+  'lapland': {
+    hero: '/images/hotels/octola-wilderness-lodge-finland/hero.webp',
+    tagline: 'Northern lights from a glass igloo, husky safaris through silent forests, and the most cinematic winter honeymoon on earth.',
+    intro: 'Finnish Lapland is the original glass-igloo destination — Kakslauttanen invented the format in 1973 and the country has perfected it ever since. The premise is simple: sleep under a transparent dome in -25°C silence and watch the aurora ripple green and violet over your duvet. But Lapland is more than a single photograph. The week beyond the igloo is an Arctic playlist: husky-sled safaris through frozen pine forest, reindeer farm visits with Sami families, ice fishing on frozen lakes, smoke-sauna rituals followed by ice swimming, snowmobile expeditions across the fells, and (in Rovaniemi) the official Santa Claus Village. Levin Iglut sits hilltop at the Levi ski resort. Octola is the ultra-luxury private 100km² wilderness near Rovaniemi. Wilderness Hotel Nellim puts cabins on stilts over Lake Inari near the Russian border. The summer alternative is dramatic too — midnight sun, hiking, husky farms switching to dryland sled training — but 90% of honeymoons here are December–March.',
+    bestTime: 'Dec–Mar (aurora) + Jun–Aug (midnight sun)',
+    flightFrom: '4h from London, 9h from NYC (via Helsinki)',
+    topExperience: 'Northern Lights from a Glass Igloo',
+    perfectFor: [
+      'Couples who dream of falling asleep watching the aurora from bed',
+      'Adventure honeymooners — husky sledding, snowmobiling, ice swimming',
+      'Photographers — the aurora over snow is one of the great travel images',
+      'Sauna-and-spa devotees — Finland is the global capital of sauna culture',
+      'Christmas-romantic types — Rovaniemi is "officially" Santa\'s home town',
+    ],
+    skipIf: [
+      'You hate the cold — average winter day -25°C, nights to -35°C',
+      'You need beach, swimming, or warm-weather relaxation',
+      'You expect guaranteed aurora — clear skies + KP-index + luck still required',
+      'You\'re on a tight budget — Finland is among Europe\'s priciest, especially Dec–Feb',
+    ],
+    experiences: [
+      {
+        icon: '🌌',
+        title: 'Glass Igloo Aurora Watch',
+        description: 'A heated transparent dome with a real bed under a 360° glass roof. Lights off, settle in, and wait. KP > 3 with clear skies = green ribbons across the sky for hours. Levin Iglut\'s premium igloos have private saunas; Kakslauttanen has the original log-cabin-plus-glass-roof hybrid; Wilderness Nellim has Aurora Cabins on stilts over Lake Inari with skylights right above the bed.',
+        cost: 'Premium glass igloo $500–$1,500/night',
+        tip: 'Stay 4 nights minimum. Aurora is a probability game — one cloudy night is normal. Download the My Aurora Forecast app and wake at 11pm and 2am to check.',
+      },
+      {
+        icon: '🐺',
+        title: 'Husky-Sled Safari',
+        description: 'Drive your own team of 6–8 huskies through 20–60 km of frozen forest. The dogs are bred specifically for this and love to run; the silence between snow-muffled paw-falls is unlike any other sound in travel. Most lodges offer a half-day (~3h sled time) or full-day option with bonfire lunch.',
+        cost: 'Half-day $250–$400/couple; full-day with lunch $500–$700/couple',
+        tip: 'Wear all the layers the operator gives you, then add your own merino base. The wind chill at sled speed is brutal. Tip the musher generously — they\'ve cared for those dogs for years.',
+      },
+      {
+        icon: '🦌',
+        title: 'Reindeer Farm Visit with a Sami Family',
+        description: 'A traditional working reindeer farm visit, often Sami-owned, with a short reindeer-sleigh ride through the forest, coffee around an open fire in a kota tent, and stories about Sami herding traditions. Wilderness Nellim is the strongest cultural connection here — Lake Inari is in the Sami heartland.',
+        cost: '$150–$300/couple including sleigh and lunch',
+        tip: 'Ask about the Sami noaidi shaman traditions and joik (singing). Buy a hand-carved kuksa (birch cup) directly from the family — they last a lifetime.',
+      },
+      {
+        icon: '🔥',
+        title: 'Smoke Sauna + Ice Swimming Ritual',
+        description: 'A traditional Finnish smoke sauna (savusauna) heats stones with a wood fire over hours, infusing the wood-walled chamber with birch smoke. 80°C inside, then a sprint to a hole cut in the frozen lake for a 30-second plunge. Repeat 3–4 times. The endorphin rush and skin tingle is unlike any spa experience anywhere.',
+        cost: 'Most luxury lodges have private smoke saunas; rituals run $80–$200/couple',
+        tip: 'Don\'t overstay in the sauna. Three short rounds beat one long marathon. The ice swim feels miraculous on the second round, brutal on the fourth.',
+      },
+      {
+        icon: '❄️',
+        title: 'Snowmobile Expedition Across the Fells',
+        description: 'A 50–150 km guided expedition over frozen lakes and rolling Arctic fells, often ending at a frozen waterfall or aurora viewing point. Levi and Saariselkä have the best snowmobile networks. Octola Wilderness Lodge runs private full-day expeditions across its own 100 km² estate.',
+        cost: '$300–$600/couple half-day; $800–$1,500 full-day with lunch',
+        tip: 'Drive your own (twice the price but worth it). Bring goggles — eyelash frost is real. The mid-route lunch in a kota over open fire is the best meal of the day.',
+      },
+    ],
+    months: [
+      { month: 'Jan', weather: '-25°C avg, 4h daylight', emoji: '❄️', crowds: 'High', price: 'High', verdict: 'Coldest but darkest — peak aurora probability' },
+      { month: 'Feb', weather: '-20°C avg, 7h daylight', emoji: '❄️', crowds: 'High', price: 'High', verdict: 'Sweet spot — long aurora nights + more sun' },
+      { month: 'Mar', weather: '-15°C, 11h daylight', emoji: '❄️', crowds: 'High', price: 'High', verdict: 'Best month — bright skies, warm sun, deep snow' },
+      { month: 'Apr', weather: '-5°C to 5°C, melting', emoji: '🌦', crowds: 'Low', price: 'Mid', verdict: 'Awkward shoulder — aurora ending, snow melting' },
+      { month: 'May', weather: '5–15°C, snow gone', emoji: '🌸', crowds: 'Low', price: 'Low', verdict: 'Mosquitoes arriving; lodges often closed for refit' },
+      { month: 'Jun', weather: '12–20°C, midnight sun', emoji: '☀️', crowds: 'Mid', price: 'Mid', verdict: 'Midnight-sun summer begins — completely different trip' },
+      { month: 'Jul', weather: '14–22°C, peak summer', emoji: '☀️', crowds: 'High', price: 'Mid', verdict: 'Long days, hiking, kayaking, mosquito-heavy' },
+      { month: 'Aug', weather: '10–18°C', emoji: '☀️', crowds: 'Mid', price: 'Mid', verdict: 'Berry season; first aurora glimpses end of month' },
+      { month: 'Sep', weather: '5–12°C, autumn ruska', emoji: '🍂', crowds: 'Low', price: 'Low', verdict: 'Spectacular ruska autumn colours; first aurora' },
+      { month: 'Oct', weather: '-2°C to 8°C, first snow', emoji: '🌨️', crowds: 'Low', price: 'Mid', verdict: 'Aurora season starts; landscape transitioning' },
+      { month: 'Nov', weather: '-10°C to 0°C, polar night begins', emoji: '❄️', crowds: 'Mid', price: 'Mid', verdict: 'Snow settling; aurora frequent; quieter than Dec' },
+      { month: 'Dec', weather: '-22°C avg, polar night', emoji: '🎄', crowds: 'Peak', price: 'Highest', verdict: 'Christmas market season — Rovaniemi at peak' },
+    ],
+    budgetTiers: [
+      { label: 'Mid-Luxury', range: '$300–$700/night', gets: 'Aurora cabin or boutique igloo at established resorts. Aurora alarm and basic activity menu.', example: 'Apukka Resort, Iso-Syöte Hotel, Star Arctic Hotel' },
+      { label: 'Premium', range: '$700–$1,500/night', gets: 'Premium glass igloo with private sauna, on-site husky/reindeer experiences, multi-restaurant resort.', example: 'Levin Iglut, Kakslauttanen Arctic Resort, Wilderness Hotel Nellim' },
+      { label: 'Ultra-Luxury', range: '$3,000–$8,000/night', gets: 'Private wilderness lodge with all-inclusive activities, butler service, private chef, no other guests visible.', example: 'Octola Wilderness Lodge' },
+    ],
+    areas: [
+      { name: 'Saariselkä', bestFor: 'Iconic glass igloos, fell-top design hotels', description: 'The original glass-igloo zone, 1h from Ivalo airport. Kakslauttanen and Star Arctic are here. Excellent snowmobile and husky access; ski resort attached.' },
+      { name: 'Levi', bestFor: 'Ski-resort luxury, après-ski, hilltop igloos', description: '170 km north of Rovaniemi, Finland\'s biggest ski resort. Levin Iglut sits on the fell-top with panoramic views. Most accessible from Helsinki via Kittilä airport (~1h flight).' },
+      { name: 'Rovaniemi', bestFor: 'Santa Claus Village, design hotels, husky farms', description: 'The largest Lapland city, Arctic-Circle straddling, Santa\'s "official" home. Arctic TreeHouse, Apukka, and Octola all in this region. Direct flights from Helsinki year-round.' },
+      { name: 'Lake Inari (Nellim)', bestFor: 'Sami culture, remote aurora, Russian-border wilderness', description: 'Far-north Finland on Europe\'s third-largest lake. Wilderness Hotel Nellim is the only luxury option — Aurora Cabins on stilts over the lake, deep cultural connection to Sami life.' },
+    ],
+    expertTips: [
+      { tip: 'Stay ≥4 nights for aurora probability', detail: 'Aurora is a probability game. KP-index ≥3 + clear skies + dark hours all need to align. Three nights is risky; four is the sweet spot. Five gives you a near-guarantee.' },
+      { tip: 'Book husky/reindeer activities before you arrive', detail: 'Top operators in Saariselkä, Levi, and Rovaniemi book up 6+ months ahead in December–February. Don\'t wait until check-in to ask — most lodges will pre-book for you on request.' },
+      { tip: 'Wear ALL the layers the lodge gives you', detail: 'At -25°C with wind chill from a moving snowmobile or husky sled, your hipster ski jacket from home is not enough. Lodges supply expedition-grade snowsuits, mittens, balaclavas, and boots — wear them all.' },
+      { tip: 'Helsinki layover is a real bonus', detail: 'Most Lapland flights connect via Helsinki (HEL). A 24h Helsinki stop is highly recommended on the return — Old Market Hall, design district, sauna at Löyly, dinner at Olo or Palace. Book a Klaus K or Lilla Roberts for the night.' },
+      { tip: 'Aurora alerts mean sleeping with phone-on', detail: 'Most luxury lodges run a 24/7 aurora-alert service — they call/buzz your room when activity peaks. Charge your phone; sleep in base layers; have boots, jacket, and hat ready by the door for instant response.' },
+    ],
+    packing: [
+      { item: 'Merino base layers (heavy + mid)', why: 'The foundation of staying warm at -25°C. Two sets — one to wear, one to dry overnight after sweat from sauna or active days.' },
+      { item: 'Hand and toe warmers', why: 'Disposable HotHands packs are gold for husky sledding and aurora-watching. Bring 20+; they\'re hard to find locally.' },
+      { item: 'Camera with manual mode + tripod', why: 'iPhones get the Northern Lights now (use Night Mode 30s) but a real camera with a 2.8 lens and tripod gets the cinematic shot. Bring spare batteries — cold drains them in 30 min.' },
+      { item: 'Lip balm, hand cream, eye drops', why: 'Arctic air is brutally dry. Indoor heating + saunas + outdoor cold = chapped everything. Restock as you go through it.' },
+      { item: 'Reusable insulated mug', why: 'Endless cups of hot lingonberry juice, glögi (mulled wine), and forest tea are the rhythm of the day. A vacuum-insulated mug keeps it hot from kota tent to igloo.' },
+    ],
+    guide: {
+      getting: 'Most honeymoons fly Helsinki (HEL) → Rovaniemi (RVN), Kittilä (KTT — for Levi), or Ivalo (IVL — for Saariselkä/Inari). Finnair flies all three from Helsinki, ~1h flight. Direct international flights to Rovaniemi from London, Paris, Frankfurt, and Geneva run Dec–Mar only. Octola Wilderness Lodge runs private helicopter transfers from Rovaniemi airport. Total transit from London ~5h; from NYC ~10h via HEL.',
+      where: 'Classic 5-night winter itinerary: 1 night Helsinki (Klaus K or Hotel St. George), 4 nights Lapland — split as 2 nights Saariselkä (Kakslauttanen) + 2 nights Levi (Levin Iglut), or 4 nights single base for deeper exploration. The Octola itinerary is bespoke — usually 3–4 nights private lodge + Helsinki bookend.',
+      when: 'December–March is peak honeymoon — aurora, snow, full activity menu, all glass igloos open. Sweet spot is February–early March (lengthening daylight, cold bright skies, peak aurora probability). December has Christmas market romance + polar night drama but is the priciest. June–August is the alternative summer trip — midnight sun, hiking, kayaking — but very different vibe.',
+    },
+    localFood: 'Reindeer in many forms — sautéed (poronkäristys with mashed potato and lingonberry); smoked; cold-smoked carpaccio. Arctic char and whitefish from the lakes; bear sausage (curiosity meat); cloudberry (lakka) jam and liqueur; lingonberry everything; rye bread (ruisleipä); Karelian pies (small rye-pastry rice-filled bites); pulla (cardamom buns); leipäjuusto (squeaky-cheese, often served warm with cloudberry jam); reindeer stew (poronpata); salmiakki (salty liquorice — divisive); glögi (mulled berry wine); Lapin Kulta lager. Lodge dining is genuinely excellent — Octola has private chef-tasting menus; Levin Iglut\'s Aurora Sky Bar serves modern Scandi.',
+    currency: 'Euro (EUR). Cards accepted everywhere; minimal cash needed. Tipping not expected (10% in restaurants is generous).',
+    language: 'Finnish and Swedish (both official); Sami in the far north. English is universal at hotels, restaurants, and excursion operators.',
+    timezone: 'UTC+2 (UTC+3 in summer with daylight saving)',
+  },
+
+  'peru': {
+    hero: '/images/hotels/belmond-sanctuary-lodge-peru/hero.webp',
+    tagline: 'Sunrise at Machu Picchu, plunge-pool suites in Cusco convents, and a luxury sleeper train across the high Andes — the most romantic high-altitude honeymoon on earth.',
+    intro: 'Peru is the honeymoon for couples whose idea of luxury includes pre-dawn taxis, oxygen masks, and a 2,400m altitude headache on Day 1. Lean in — the payoff is the most cinematic ancient civilization left on earth. Belmond runs the dominant luxury circuit: Hotel Monasterio (Cusco 16th-century convent), Palacio Nazarenas (Inca-walls-into-suites), Sanctuary Lodge (the only hotel literally at the Machu Picchu citadel gates), and the Andean Explorer luxury sleeper train across the high plains to Lake Titicaca and Arequipa. The Sacred Valley alternative is Sol y Luna (Relais & Châteaux casitas with horse stables). Add a Lima opener at Hotel B in Barranco and you have the trip. The week is built around three peaks: a sunrise alone with the citadel before day-trippers arrive, a private dinner inside Saqsayhuamán Inca walls in Cusco, and a Spa Car treatment at 4,300m on a moving train. Plan for altitude — Cusco is 3,400m, two days minimum to acclimatize.',
+    bestTime: 'May–Oct (dry season)',
+    flightFrom: '12–14h from Europe via Lima',
+    topExperience: 'Sunrise at Machu Picchu',
+    perfectFor: [
+      'History-honeymooners who prefer wonders to beaches',
+      'Couples who can handle altitude and want bragging-rights memories',
+      'Train romantics — the Andean Explorer is South America\'s only luxury sleeper',
+      'Foodies — Lima has 3 of the world\'s top 50 restaurants (Maido, Central, Mayta)',
+      'Photographers — the Sacred Valley terraced light at dawn is unlike anywhere else',
+    ],
+    skipIf: [
+      'You\'re unable to handle altitude or have heart conditions',
+      'You want beach lounging — Peru\'s coast is mostly fog and Pacific cold',
+      'Your travel window is February — Inca Trail closes for maintenance',
+      'You expect to do Machu Picchu in a half-day — it deserves a full sunrise + return visit',
+    ],
+    experiences: [
+      {
+        icon: '🌄',
+        title: 'Sunrise at Machu Picchu',
+        description: 'Belmond Sanctuary Lodge guests get pre-6am access to the citadel before the first day-trippers arrive on the 5:30am train from Cusco. You walk in alone with one guide, watching the mist burn off the Huayna Picchu peak as the sun crests the eastern ridge. There\'s no comparable moment in honeymoon travel.',
+        cost: 'Sanctuary Lodge from $1,500/night includes early access; standard sunrise tour from Aguas Calientes $200/pax',
+        tip: 'Book Sanctuary Lodge — the lodge has only 31 rooms and pre-dawn access is reserved for guests. Stay 2 nights to also see sunset.',
+      },
+      {
+        icon: '🚂',
+        title: 'Belmond Andean Explorer Sleeper Train',
+        description: 'South America\'s first luxury sleeper train: Cusco → Lake Titicaca (Puno) → Colca Canyon → Arequipa over 2 nights and 3 days. 24 cabins, full-service Spa Car at altitude, observation car with cocktails as the train climbs to 4,800m at La Raya pass. Arrive in Arequipa for the white-volcanic-stone colonial centre.',
+        cost: '2-night Cusco-Arequipa from $2,500/cabin (sleeps 2)',
+        tip: 'Book a Suite Cabin — the upgrade buys a private en-suite with windows on both sides and twice the floor space. The Junior Cabins share bathrooms.',
+      },
+      {
+        icon: '🏛️',
+        title: 'Private After-Hours Saqsayhuamán Visit',
+        description: 'Belmond Palacio Nazarenas and Hotel Monasterio arrange private after-hours visits to Saqsayhuamán, the Inca cyclopean fortress above Cusco. With only your guide and the night sky, the 200-tonne stone walls are far more emotional than during the daytime tourist crowds.',
+        cost: 'Private guide + after-hours arrangement $400/couple',
+        tip: 'Combine with a private candlelit dinner inside the fortress — Belmond can arrange. Genuinely once-in-a-lifetime.',
+      },
+      {
+        icon: '🦙',
+        title: 'Sacred Valley Horseback Ride',
+        description: 'Sol y Luna Lodge runs the best-rated equestrian program in Peru — 40 Peruvian Paso horses (a unique breed with a four-beat lateral gait, surprisingly smooth for non-riders). A 2-3h ride through Sacred Valley terraces and Inca ruins, ending at a riverside picnic.',
+        cost: 'Hotel-guest rate $250/couple for half-day with picnic',
+        tip: 'Book the Wayra Equestrian Show one evening — Sol y Luna\'s in-house Peruvian Paso show is genuinely one of the most polished equestrian performances in South America.',
+      },
+      {
+        icon: '🍽️',
+        title: 'Lima Tasting Menu at Maido or Central',
+        description: 'Lima is one of the world\'s top three food cities. Central (Virgilio Martínez) and Maido (Mitsuharu Tsumura, Nikkei Japanese-Peruvian) regularly trade #1–#5 on World\'s 50 Best. The 13-course altitude-themed tasting at Central is the more conceptual experience; Maido\'s Nikkei tasting is the more delicious one.',
+        cost: '$200–$300/person tasting; wine pairing $150',
+        tip: 'Book 2–3 months ahead through your hotel concierge or directly. Mayta (Jaime Pesaque) is the easier-to-book third option and almost as good.',
+      },
+    ],
+    months: [
+      { month: 'Jan', weather: 'Wet season, daily rain', emoji: '🌧️', crowds: 'Low', price: 'Low', verdict: 'Skip if possible — trails muddy, mist-obscured views' },
+      { month: 'Feb', weather: 'Heaviest rain', emoji: '🌧️', crowds: 'Lowest', price: 'Lowest', verdict: 'Skip — Inca Trail closed for maintenance' },
+      { month: 'Mar', weather: 'Wet but easing', emoji: '🌦', crowds: 'Low', price: 'Low', verdict: 'Improving but unreliable; cheap rates' },
+      { month: 'Apr', weather: 'Transition, drying', emoji: '🌤️', crowds: 'Mid', price: 'Mid', verdict: 'Excellent value — Inca Trail reopens, lush valleys' },
+      { month: 'May', weather: 'Clear dry, cool nights', emoji: '☀️', crowds: 'High', price: 'High', verdict: 'Sweet spot — clearest skies, all trails open, fewer crowds than Jun-Aug' },
+      { month: 'Jun', weather: 'Cold dry, Inti Raymi festival', emoji: '☀️', crowds: 'Peak', price: 'High', verdict: 'Excellent + Inti Raymi sun-festival in Cusco late June' },
+      { month: 'Jul', weather: 'Driest, coldest nights', emoji: '☀️', crowds: 'Peak', price: 'Highest', verdict: 'Peak season — bright clear days, cold high-altitude nights' },
+      { month: 'Aug', weather: 'Dry, slightly warming', emoji: '☀️', crowds: 'Peak', price: 'Highest', verdict: 'Last peak month — book 6 months ahead' },
+      { month: 'Sep', weather: 'Drying out, mild', emoji: '🌤️', crowds: 'High', price: 'High', verdict: 'Excellent shoulder — fewer crowds, all trails open' },
+      { month: 'Oct', weather: 'Mild dry, occasional showers', emoji: '🌤️', crowds: 'Mid', price: 'Mid', verdict: 'Best value sweet spot — dry but quieter' },
+      { month: 'Nov', weather: 'Wet season starting', emoji: '🌦', crowds: 'Mid', price: 'Mid', verdict: 'Good value; afternoon showers becoming reliable' },
+      { month: 'Dec', weather: 'Wet, summer heat', emoji: '🌧️', crowds: 'High', price: 'High', verdict: 'Christmas tourists in Cusco; daily afternoon rain' },
+    ],
+    budgetTiers: [
+      { label: 'Mid-Luxury', range: '$400–$900/night', gets: 'Cusco boutique or Sacred Valley lodge with full board. Excellent breakfast; basic spa.', example: 'Inkaterra Machu Picchu Pueblo, Tambo del Inka, Hotel B Lima' },
+      { label: 'Premium', range: '$700–$2,000/night', gets: 'Belmond circuit hotels — Monasterio convent, Sol y Luna casitas, full guided experiences.', example: 'Belmond Hotel Monasterio, Sol y Luna Lodge & Spa, Belmond Palacio Nazarenas' },
+      { label: 'Iconic', range: '$1,500–$5,000/night', gets: 'Sanctuary Lodge at the citadel gates or the full Belmond Andean Explorer multi-day train.', example: 'Belmond Sanctuary Lodge, Belmond Andean Explorer' },
+    ],
+    areas: [
+      { name: 'Lima', bestFor: 'Arrival, food capital, Pacific-coast culture', description: 'The first stop. Barranco art district (Hotel B), Miraflores cliff-top (Belmond Miraflores Park), Pachacamac ruins. 1–2 nights for jet-lag adjustment and a Maido or Central dinner.' },
+      { name: 'Cusco', bestFor: 'Inca capital, altitude acclimatization, colonial architecture', description: 'The starting point for any Sacred Valley itinerary. 3,400m altitude — needs 2 nights minimum to acclimatize. Belmond Monasterio and Palacio Nazarenas are the iconic stays.' },
+      { name: 'Sacred Valley (Urubamba)', bestFor: 'Lower-altitude transition, Inca ruins, riverside lodges', description: '2,800m — easier to breathe than Cusco. Pisac and Ollantaytambo Inca sites, weaving villages, Sol y Luna and Tambo del Inka here. 2–3 nights.' },
+      { name: 'Aguas Calientes / Machu Picchu', bestFor: 'Citadel sunrise, cloud forest, hot springs', description: 'The river-bottom village 400m below Machu Picchu. Inkaterra Machu Picchu Pueblo (cloud forest casitas) and Belmond Sanctuary Lodge (literally at the gates). 1–2 nights.' },
+      { name: 'Lake Titicaca / Arequipa', bestFor: 'High plains finale, Andean Explorer destination', description: 'Optional 2-3 day extension via the luxury sleeper train. Lake Titicaca\'s reed islands, Arequipa\'s white-volcanic-stone colonial centre, Colca Canyon condors.' },
+    ],
+    expertTips: [
+      { tip: 'Acclimatize 2 nights in Cusco before Machu Picchu', detail: 'Don\'t fly Cusco → Machu Picchu same day. Cusco is 3,400m — even fit travellers feel it. Two nights of slow walking, coca tea, and Belmond\'s oxygen-enriched rooms make the rest of the trip enjoyable.' },
+      { tip: 'Book Sanctuary Lodge or Inkaterra at least 6 months ahead', detail: 'Sanctuary Lodge has 31 rooms and is the only hotel at the citadel — May-October sells out 9+ months ahead. Inkaterra Machu Picchu Pueblo is the strong second-choice and slightly easier to book.' },
+      { tip: 'Hike Huayna Picchu (or Machu Picchu Mountain) the second morning', detail: 'Most honeymooners do citadel sunrise Day 1, then return Day 2 for the Huayna Picchu hike (the steep peak in the famous photo). 400 permits/day, must book months ahead.' },
+      { tip: 'Carry small bills (10/20 soles)', detail: 'Tipping at hotels and restaurants is standard. Many small museums, market stalls, and Sacred Valley villages don\'t take cards. Get small soles bills at airport ATMs.' },
+      { tip: 'Pack for layered altitude weather', detail: 'Cusco morning is 0°C, midday sun is 22°C, evening drops to 5°C. Same day. Layered merino + hard-shell + sun hat is the formula. UV at altitude is brutal — proper sunscreen and lip balm.' },
+    ],
+    packing: [
+      { item: 'Broken-in hiking boots or trail runners', why: 'Machu Picchu citadel paths are uneven Inca stones. Day-hikes from Sol y Luna or Sacred Valley require real grip.' },
+      { item: 'Layered clothing for altitude swings', why: '15°C swings within a single day are normal. Merino base + fleece + light shell is the formula.' },
+      { item: 'Strong UV sunscreen (SPF 50+) and lip balm', why: 'UV at 3,400m is dramatically stronger than sea level. Reef-friendly mineral SPF and SPF lip balm are essentials.' },
+      { item: 'Altitude medication (Diamox)', why: 'Pre-hike from your GP. Many honeymooners benefit, especially if going straight to Cusco. Coca tea helps but Diamox is the real solution.' },
+      { item: 'Day pack with hydration bladder', why: 'You\'ll be on your feet 4-6h/day at altitude. 2L water minimum; the Sacred Valley sun is dehydrating.' },
+    ],
+    guide: {
+      getting: 'Fly to Lima (LIM) — most international flights from Europe (Iberia, Air Europa, KLM) or US (LATAM, American, Delta). 12–14h from Europe with one connection. Internal flights LATAM and Sky to Cusco (CUZ) — 1h, multiple daily. Most luxury itineraries: arrive Lima → 1 night Lima → fly Cusco morning → transfer to Sacred Valley (lower altitude, easier acclimatization). Belmond Andean Explorer departs Cusco; Belmond also runs the Hiram Bingham luxury day train to Machu Picchu.',
+      where: 'Classic 8-night itinerary: 1 night Lima (Hotel B) → 2 nights Sacred Valley (Sol y Luna) → 1 night Aguas Calientes (Sanctuary Lodge) → 2 nights Cusco (Palacio Nazarenas) → 2-night Andean Explorer (Cusco → Lake Titicaca → Arequipa). 6-night shorter version: 1 Lima + 2 Sacred Valley + 1 Aguas Calientes + 2 Cusco. The Andean Explorer add-on is the splurge.',
+      when: 'May to October is the dry season — clear skies, open trails, cool dry mornings. June-August is peak (book 6+ months ahead) and coldest at altitude. May and September-October are sweet spots — drier than December–April rainy season but with fewer crowds than peak. February closes the Inca Trail entirely; January-March are wet and not recommended.',
+    },
+    localFood: 'Ceviche (raw fish in tiger\'s milk lime cure — Lima\'s defining dish); lomo saltado (Chinese-Peruvian beef stir-fry over rice and potato); ají de gallina (creamy yellow-pepper chicken); cuy (guinea pig — traditional Andean dish, often roasted whole, an acquired sight); anticuchos (grilled beef-heart skewers); causa (chilled potato terrines); pisco sour (national cocktail); chicha morada (sweet purple-corn drink); coca tea (mate de coca — the altitude remedy); Inca Kola (yellow bubblegum-flavoured soda); Peruvian coffee from Chanchamayo; alpaca steaks in Sacred Valley lodges. Lima\'s top tier — Central, Maido, Mayta, Astrid y Gastón — is genuinely world-leading.',
+    currency: 'Peruvian Sol (PEN). USD widely accepted at hotels and tour operators; cards accepted in cities. Bring fresh small USD bills for tips and small purchases.',
+    language: 'Spanish (Peruvian accent — clear, mid-paced); Quechua in Andean villages. English at hotels and major restaurants; less in markets and rural areas.',
+    timezone: 'UTC-5 year-round (no daylight saving)',
+  },
+
+  'galapagos': {
+    hero: '/images/hotels/silversea-silver-origin-galapagos/hero.webp',
+    tagline: 'Once-in-a-lifetime wildlife — sea lions on your snorkel mask, blue-footed boobies metres away, giant tortoises older than your grandparents — set in luxury safari camps and expedition cruises.',
+    intro: 'The Galápagos is the honeymoon for couples whose dream trip is closer to a wildlife documentary than a beach holiday. The 19-island archipelago 1,000 km off Ecuador\'s coast is home to species that exist nowhere else — marine iguanas that swim, finches Darwin used to crack evolution, blue-footed boobies that mating-dance two metres from your camera, and giant tortoises that lived through Queen Victoria. Two ways to do it: land-based (Pikaia Lodge\'s Santa Cruz hilltop, Galapagos Safari Camp\'s African-style luxury tents, Finch Bay\'s mangrove beach hotel) with private day yachts to outer islands; or expedition cruise (Silversea\'s 100-guest Silver Origin, Ecoventura\'s 20-guest Origin yacht) sleeping on the boat between island stops. Both deliver — cruises see more remote islands (Genovesa, Fernandina, Española) impossible from land; land-based gives you bigger rooms, longer evenings, and easier honeymoon comfort. The luxury market here is small, well-regulated, and increasingly impressive.',
+    bestTime: 'Year-round (Dec–May warm/wet vs Jun–Nov cool/dry)',
+    flightFrom: '15–18h from Europe via Quito or Guayaquil',
+    topExperience: 'Snorkel with Sea Lions',
+    perfectFor: [
+      'Wildlife-first honeymooners — the species density is unmatched anywhere',
+      'Couples who want active days and don\'t mind early starts (most excursions 7am)',
+      'Photographers — the wildlife approachability is unique',
+      'Snorkellers and swimmers — the marine life rivals any reef in the world',
+      'Travellers wanting bragging-rights memories — this is a top-three travel destination',
+    ],
+    skipIf: [
+      'You want a beach-flop honeymoon — Galápagos is wildlife-first, not lounging',
+      'You\'re prone to seasickness — even the best yachts roll on the rougher channels',
+      'Your budget is tight — minimum spend including park fee + flights is high',
+      'You\'re uncomfortable with mandatory naturalist-guide structure (required by law)',
+    ],
+    experiences: [
+      {
+        icon: '🦭',
+        title: 'Snorkel with Playful Sea Lions',
+        description: 'Galápagos sea lions are among the world\'s most curious marine mammals. Snorkel from your zodiac at Champion Islet, Tortuga Bay, or Bartolomé and the juveniles will spin around you, mirror your movements, and gently mouth your fins. The defining underwater honeymoon moment.',
+        cost: 'Included on all luxury cruises and lodge programs',
+        tip: 'Sea lions are most playful in the morning. Wear a 3mm shorty wetsuit even Dec-May — water is colder than you expect from the equator.',
+      },
+      {
+        icon: '🐢',
+        title: 'Giant Tortoise Encounters in Highlands',
+        description: 'Santa Cruz highlands have a wild population of 200+ Galápagos giant tortoises (the largest tortoise species on earth, up to 250kg, 150-year lifespan). Walk among them at Rancho Primicias or El Chato Reserve. Pikaia Lodge has a 30-acre tortoise reserve on its own grounds.',
+        cost: 'Highland tour $80/couple; included with Pikaia Lodge stays',
+        tip: 'Pikaia Lodge is the only luxury hotel with on-property tortoises. Mornings are quiet — the tortoises wake up slowly and feed.',
+      },
+      {
+        icon: '🐦',
+        title: 'Blue-Footed Booby & Frigate Birds at North Seymour',
+        description: 'A 2-hour day boat from Santa Cruz delivers you to North Seymour Island\'s seabird colonies. Blue-footed boobies perform their famous mating dance 2 metres from the trail. Magnificent frigates inflate red throat sacs the size of beach balls. No fences, no barriers — Galápagos rules require keeping 2m back, but the birds don\'t care.',
+        cost: 'Day-boat from Pikaia/Finch Bay $400-600/couple including park entry',
+        tip: 'Visit June–November to maximise nesting and dancing activity. Bring a 200mm zoom lens or longer — though honestly your phone gets the close-ups.',
+      },
+      {
+        icon: '🌋',
+        title: 'Sierra Negra Volcano Hike (Isabela)',
+        description: 'Isabela Island\'s active Sierra Negra has the second-largest active caldera on earth (10km wide). A 16km round-trip guided hike circles the rim and can extend to the Volcán Chico vents. Otherworldly black-and-red lava fields, fumaroles, dramatic cloud forest descents.',
+        cost: 'Full-day guided $250/couple; included with Scalesia Lodge stays',
+        tip: 'Wear hiking boots — lava rock is sharp and unforgiving. Pack 3L water; equatorial sun + altitude + black rock = serious dehydration.',
+      },
+      {
+        icon: '🚢',
+        title: 'Silver Origin Expedition Cruise',
+        description: 'Silversea\'s 100-guest expedition ship designed exclusively for Galápagos. Eight zodiacs, 18 expert naturalist guides (1:8 ratio), butler service in every suite, full-board with all shore excursions and beverages. 7-night routes hit Genovesa, Bartolomé, Floreana, Española, Fernandina, Isabela — islands impossible from land-based bases.',
+        cost: '7-night charter from $7,000/couple all-inclusive',
+        tip: 'Book the Owner\'s Suite for the panoramic forward windows. Eastern itineraries (Española, Floreana) for marine birds; western (Fernandina, Isabela) for marine iguanas and lava landscapes.',
+      },
+    ],
+    months: [
+      { month: 'Jan', weather: 'Warm wet 24-30°C, calm seas', emoji: '☀️', crowds: 'High', price: 'High', verdict: 'Excellent — calm seas, vivid colours, hatchling sea turtles' },
+      { month: 'Feb', weather: 'Hottest, occasional storms', emoji: '☀️', crowds: 'High', price: 'High', verdict: 'Marine iguanas mating colours; flamingos breeding' },
+      { month: 'Mar', weather: 'Warm wet, ending', emoji: '☀️', crowds: 'High', price: 'High', verdict: 'Last warm-water month; albatross arrive at Española' },
+      { month: 'Apr', weather: 'Transition, drying', emoji: '🌤️', crowds: 'Mid', price: 'Mid', verdict: 'Sweet spot — warm seas, baby sea lions, blooming greenery' },
+      { month: 'May', weather: 'Cooling, calm', emoji: '🌤️', crowds: 'Mid', price: 'Mid', verdict: 'Excellent — green islands, blue-footed booby mating dances start' },
+      { month: 'Jun', weather: 'Cool dry season starts', emoji: '🌥️', crowds: 'High', price: 'High', verdict: 'Garua mist arriving; whales begin migration' },
+      { month: 'Jul', weather: 'Cool 19-26°C, garua mist', emoji: '🌥️', crowds: 'Peak', price: 'Highest', verdict: 'Peak season — busiest, best for marine wildlife and seabirds' },
+      { month: 'Aug', weather: 'Cool dry, choppier seas', emoji: '🌥️', crowds: 'Peak', price: 'Highest', verdict: 'Whale-watching peak; rougher channel crossings' },
+      { month: 'Sep', weather: 'Cool dry, peak garua', emoji: '🌥️', crowds: 'Mid', price: 'High', verdict: 'Excellent value — dramatic skies, high marine activity' },
+      { month: 'Oct', weather: 'Cool dry, slightly warming', emoji: '🌤️', crowds: 'Mid', price: 'Mid', verdict: 'Strong shoulder month; sea lion pups everywhere' },
+      { month: 'Nov', weather: 'Warming, calmer seas', emoji: '🌤️', crowds: 'Mid', price: 'Mid', verdict: 'Brown noddies & boobies still active; better water temps' },
+      { month: 'Dec', weather: 'Warm wet starting', emoji: '☀️', crowds: 'High', price: 'High', verdict: 'Holiday peak — green islands, warm seas, festive booking pressure' },
+    ],
+    budgetTiers: [
+      { label: 'Mid-Luxury', range: '$400–$900/night', gets: 'Charming lodge or boutique hotel on Santa Cruz or Isabela. Day-boat included; standard naturalist guide.', example: 'Iguana Crossing, Scalesia Lodge, Royal Palm Galapagos' },
+      { label: 'Premium', range: '$700–$2,500/night', gets: 'Hilltop design lodge or luxury safari camp with private day yacht for excursions, top-tier guides.', example: 'Pikaia Lodge, Galapagos Safari Camp, Finch Bay' },
+      { label: 'Iconic Cruise', range: '$5,000–$15,000/couple/7-nights', gets: 'Full-board expedition cruise — all islands, all activities, butler suites, expert naturalist guides.', example: 'Silversea Silver Origin, Ecoventura Origin/Theory' },
+    ],
+    areas: [
+      { name: 'Santa Cruz Island (Puerto Ayora)', bestFor: 'Land-based luxury, Charles Darwin Station, day-boat hub', description: 'The most developed island, central archipelago location, gateway to most day-boat excursions. Pikaia, Finch Bay, Royal Palm, and Galapagos Safari Camp all here. 4–5 nights.' },
+      { name: 'Isabela Island (Puerto Villamil)', bestFor: 'Less-developed island, marine iguanas, volcano hikes', description: 'The largest island, sparsely populated, raw Galápagos feel. Iguana Crossing and Scalesia Lodge here. Sierra Negra volcano and Tintoreras snorkelling.' },
+      { name: 'Floreana Island', bestFor: 'Day-trip from cruise; pink flamingos, Post Office Bay', description: 'Smallest inhabited island. Rarely overnight; visited as cruise stop or day boat from Santa Cruz.' },
+      { name: 'Outer Islands (Genovesa, Fernandina, Española)', bestFor: 'Cruise-only access, peak wildlife densities', description: 'No human inhabitants — only reachable by expedition cruise. Genovesa for red-footed boobies, Fernandina for marine iguanas, Española for waved albatross (Apr–Dec).' },
+    ],
+    expertTips: [
+      { tip: 'Cruise vs land-based — pick deliberately', detail: 'Land-based = bigger rooms, longer evenings, lighter days, easier seasickness. Cruise = more islands (especially outer), more wildlife volume, no unpacking, expert naturalists 24/7. Most honeymooners prefer cruise; some couples mix 3 nights land + 4 nights cruise.' },
+      { tip: 'Book Silversea or Ecoventura 12+ months ahead', detail: 'Premium cruises are tightly capacity-controlled by national-park rules. Top suites on Silver Origin and the entire Ecoventura Theory yacht sell out 12-18 months ahead, especially July-August and December-January.' },
+      { tip: 'The $200/pax park fee is on top of everything', detail: 'Galápagos National Park entrance is $200/person (cash, USD) on arrival, plus $20/pax Transit Card at Quito or Guayaquil airport. Not included in cruise or hotel pricing. Bring $440 cash for two travellers.' },
+      { tip: 'Bring waterproof everything', detail: 'You\'ll be wet daily — zodiac landings (wet vs dry), snorkel sessions, occasional rain. Dry bag, waterproof phone case, quick-dry clothes. Most cruises supply wetsuits but sizing is hit-or-miss; bring your own if you have one.' },
+      { tip: 'Combine with Quito or Mashpi mainland Ecuador', detail: 'Most flights route Quito (UIO) → Galápagos. Add 2 nights Quito (Casa Gangotena historic plaza hotel) or 2 nights Mashpi Lodge cloud-forest extension. Doubles the wildlife and cultural experience.' },
+    ],
+    packing: [
+      { item: 'Reef-safe mineral sunscreen', why: 'Equatorial UV is brutal; chemical sunscreens are banned in marine areas. Bring SPF 50 mineral. Apply 30 min before water entry.' },
+      { item: 'Wet shoes / Tevas / Keens', why: 'Wet landings on rocky beaches require grip and toe protection. Flip-flops slip on lava rock; running shoes get wrecked. Closed-toe water sandals are the answer.' },
+      { item: '3mm shorty wetsuit', why: 'Even in warm season (Dec-May), Galápagos water is cooler than tropical equivalents. Most cruises supply but sizing is mixed; bring your own if you have one.' },
+      { item: 'Long-sleeve UV-protective shirt', why: 'On zodiacs and shore walks, sun reflection from water and lava is intense. UPF50 long sleeves beat constant sunscreen reapplication.' },
+      { item: 'Quality binoculars', why: 'Distant whales, frigates riding thermals, finch identification. 8x42 is the honeymoon-friendly format. Ecoventura provides on-board; Silversea by request.' },
+    ],
+    guide: {
+      getting: 'Fly to Quito (UIO) or Guayaquil (GYE) — both have international flights from Madrid, Amsterdam, Miami, NYC, Bogota. Internal Avianca, LATAM, or Equair flights to Baltra (GPS) or San Cristóbal (SCY) — 2-2.5h. Most cruises depart Baltra; land-based hotels meet you at Baltra or San Cristóbal. Total transit from Europe ~18-22h with 1-2 connections.',
+      where: 'Classic 9-night itinerary: 2 nights Quito (Casa Gangotena) → 2 nights Mashpi Lodge cloud forest → 5 nights Galápagos (3 nights Pikaia + 2 nights Scalesia OR 7-night cruise replacing both). Cruise-focused: 2 Quito + 7 cruise. Land-only: 2 Quito + 5 Santa Cruz + 2 Isabela.',
+      when: 'Two distinct seasons. December-May: warm (24-30°C), calm seas, vivid green islands, hatchling sea turtles, marine iguana mating colours, occasional rain showers. June-November: cool (19-26°C), choppier seas, garua mist, peak marine wildlife (whales, sharks), seabird breeding peaks. April-May and September-November are sweet-spot shoulder months — fewer crowds, balanced wildlife, better rates.',
+    },
+    localFood: 'Ceviche (more rustic than Lima\'s — usually fish or shrimp); encebollado (fish + cassava + onion soup, the breakfast hangover cure); patacones (fried green plantain rounds); seco de chivo (slow-cooked goat with rice); locro de papa (potato-cheese soup); arroz marinero (seafood rice); empanadas (smaller than Argentine, often plantain-based); helado de paila (Andean stirred ice cream); cerveza Pilsener (local lager); canelazo (hot sugar-cane rum with naranjilla and cinnamon at altitude). Lodge dining is generally good — Pikaia, Galapagos Safari Camp, and the cruises serve refined Ecuadorian-international.',
+    currency: 'US Dollar (USD) — official currency since 2000. Cards accepted at hotels and major restaurants; cash needed for park fees, tips, and small island purchases.',
+    language: 'Spanish (Ecuadorian accent — clear, slow); Quichua in Andean mainland. English universal at hotels, lodges, cruises, and naturalist guides.',
+    timezone: 'UTC-6 (Galápagos Time, 1h behind mainland Ecuador, no daylight saving)',
+  },
 }
 
 // ── Metadata ──────────────────────────────────────────────────────────────────
@@ -4764,6 +5194,17 @@ export default async function DestinationPage({ params }: Props) {
           </div>
         </section>
 
+        {/* ── MAP ── */}
+        <section>
+          <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">Map</p>
+          <h2 className="font-display text-3xl sm:text-4xl mb-6">Hotels in {destProper}</h2>
+          <Stay22MapWidget
+            location={destProper}
+            anchorHotelName={[...hotels].sort((a, b) => b.honeymoon_score - a.honeymoon_score)[0]?.name}
+            height={480}
+          />
+        </section>
+
         {/* ── COMPARISON TABLE ── */}
         {topHotels.length >= 2 && (
           <section>
@@ -4868,17 +5309,6 @@ export default async function DestinationPage({ params }: Props) {
             </div>
           </section>
         )}
-
-        {/* ── MAP ── */}
-        <section>
-          <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">Map</p>
-          <h2 className="font-display text-3xl sm:text-4xl mb-6">Hotels in {destProper}</h2>
-          <Stay22MapWidget
-            location={destProper}
-            anchorHotelName={[...hotels].sort((a, b) => b.honeymoon_score - a.honeymoon_score)[0]?.name}
-            height={480}
-          />
-        </section>
 
         {/* ── RELATED EXPERIENCES ── */}
         <section>

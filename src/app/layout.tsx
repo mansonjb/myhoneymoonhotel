@@ -41,8 +41,11 @@ const DEST_META: Record<string, { region: string; country: string }> = {
   'spain':      { region: 'Europe', country: 'Spain' },
   'switzerland':  { region: 'Europe', country: 'Switzerland' },
   'iceland':    { region: 'Europe', country: 'Iceland' },
+  'lapland':    { region: 'Europe', country: 'Finland' },
   // South America
   'argentina':  { region: 'South America', country: 'Argentina' },
+  'peru':       { region: 'South America', country: 'Peru' },
+  'galapagos':  { region: 'South America', country: 'Ecuador' },
   // North America
   'hawaii':     { region: 'North America', country: 'USA — Hawaii' },
   // Middle East
@@ -64,6 +67,7 @@ const DEST_META: Record<string, { region: string; country: string }> = {
   'vietnam':      { region: 'Asia', country: 'Vietnam' },
   'cambodia':     { region: 'Asia', country: 'Cambodia' },
   'japan':        { region: 'Asia', country: 'Japan' },
+  'bhutan':       { region: 'Asia', country: 'Bhutan' },
 }
 
 // Pretty destination label (e.g. "santorini" → "Santorini", "st-barts" → "St. Barts")

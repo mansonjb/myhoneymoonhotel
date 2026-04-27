@@ -239,6 +239,17 @@ export default async function HotelPage({ params }: Props) {
             </section>
           </div>
 
+          {/* ── STAY22 ── */}
+          <section id="availability">
+            <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">Book Your Stay</p>
+            <h2 className="font-display text-3xl text-zinc-900 mb-6">Check availability</h2>
+            <Stay22MapWidget
+              location={hotel.destination.replace(/-/g, ' ')}
+              hotelName={hotel.name}
+              country={hotel.country}
+            />
+          </section>
+
           {/* ── QUICK FACTS ── */}
           <section>
             <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-6">At a Glance</p>
@@ -302,17 +313,6 @@ export default async function HotelPage({ params }: Props) {
                 </tbody>
               </table>
             </div>
-          </section>
-
-          {/* ── STAY22 ── */}
-          <section id="availability">
-            <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">Book Your Stay</p>
-            <h2 className="font-display text-3xl text-zinc-900 mb-6">Check availability</h2>
-            <Stay22MapWidget
-              location={hotel.destination.replace(/-/g, ' ')}
-              hotelName={hotel.name}
-              country={hotel.country}
-            />
           </section>
 
           {/* ── ITINERARY ── */}
