@@ -24,6 +24,7 @@ const DEST_META: Record<string, { region: string; country: string }> = {
   'french-polynesia':  { region: 'South Pacific', country: 'French Polynesia' },
   'fiji':              { region: 'South Pacific', country: 'Fiji' },
   'new-zealand':       { region: 'South Pacific', country: 'New Zealand' },
+  'australia':         { region: 'South Pacific', country: 'Australia' },
   // Caribbean & Americas
   'st-lucia':          { region: 'Caribbean & Americas', country: 'St. Lucia' },
   'turks-and-caicos':  { region: 'Caribbean & Americas', country: 'Turks & Caicos' },
@@ -36,11 +37,13 @@ const DEST_META: Record<string, { region: string; country: string }> = {
   'greece':     { region: 'Europe', country: 'Greece' },
   'amalfi':     { region: 'Europe', country: 'Italy' },
   'sardegna':   { region: 'Europe', country: 'Italy' },
+  'lake-como':  { region: 'Europe', country: 'Italy' },
   'croatia':    { region: 'Europe', country: 'Croatia' },
   'portugal':   { region: 'Europe', country: 'Portugal' },
   'spain':      { region: 'Europe', country: 'Spain' },
   'switzerland':  { region: 'Europe', country: 'Switzerland' },
   'iceland':    { region: 'Europe', country: 'Iceland' },
+  'norway':     { region: 'Europe', country: 'Norway' },
   'lapland':    { region: 'Europe', country: 'Finland' },
   // South America
   'argentina':  { region: 'South America', country: 'Argentina' },
@@ -59,6 +62,7 @@ const DEST_META: Record<string, { region: string; country: string }> = {
   'tanzania':     { region: 'Africa Safari', country: 'Tanzania' },
   'south-africa': { region: 'Africa Safari', country: 'South Africa' },
   'botswana':     { region: 'Africa Safari', country: 'Botswana' },
+  'rwanda':       { region: 'Africa Safari', country: 'Rwanda' },
   // Asia
   'thailand':     { region: 'Asia', country: 'Thailand' },
   'indonesia':    { region: 'Asia', country: 'Indonesia' },
