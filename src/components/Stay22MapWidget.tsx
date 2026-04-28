@@ -7,6 +7,8 @@ interface Stay22MapWidgetProps {
                               // Stay22 finds it → shows neighbour hotels nearby. Robust against country-zoom dead zones.
   country?: string            // country slug/name, used by Stay22 Allez to narrow the match
   height?: number
+  directBookingOnly?: boolean // when true (ultra-luxury lodges not on OTAs): center map on destination,
+                              // hide OTA grid, show "Book direct" notice instead.
 }
 
 /**
@@ -49,6 +51,10 @@ const MAP_LOCATION_OVERRIDE: Record<string, string> = {
   portugal:          'Algarve, Portugal',
   spain:             'Mallorca, Spain',
   hawaii:            'Maui, Hawaii',
+  lapland:           'Rovaniemi, Finland',
+  bhutan:            'Paro, Bhutan',
+  peru:              'Cusco, Peru',
+  galapagos:         'Santa Cruz, Galapagos',
 }
 
 function resolveMapLocation(input: string): string {
@@ -62,13 +68,14 @@ export default function Stay22MapWidget({
   anchorHotelName,
   country = '',
   height = 500,
+  directBookingOnly = false,
 }: Stay22MapWidgetProps) {
   // Three priorities for the embed map's search query:
-  // 1. Hotel page (hotelName provided) → exact hotel + location
+  // 1. Hotel page (hotelName provided + on OTAs) → exact hotel + location
   // 2. Destination page with a known top hotel (anchorHotelName) → center on that hotel,
   //    Stay22 finds it and shows ~30 nearby hotels — robust against sparse-country dead zones
-  // 3. Fallback to per-destination override or the raw location
-  const embedQuery = hotelName
+  // 3. Direct-booking-only hotel OR fallback → use destination override
+  const embedQuery = (hotelName && !directBookingOnly)
     ? `${hotelName} ${location}`
     : anchorHotelName
       ? `${anchorHotelName} ${location}`
@@ -76,13 +83,13 @@ export default function Stay22MapWidget({
   const src = buildStay22MapSrc(embedQuery)
 
   // Smart primary CTA — Stay22 Allez Roam picks the best OTA automatically
-  const smartUrl = hotelName
+  const smartUrl = (hotelName && !directBookingOnly)
     ? buildAllezHotelLink(hotelName, location, country, 'hotelpage-smart')
     : undefined
 
   // Per-provider direct URLs — lets the user choose their preferred OTA.
   // LetMeAllez intercepts every outbound click and adds affiliate tracking.
-  const providers = hotelName
+  const providers = (hotelName && !directBookingOnly)
     ? buildProviderUrls(hotelName, location.replace(/-/g, ' '), country.replace(/-/g, ' '))
     : undefined
 
@@ -98,6 +105,17 @@ export default function Stay22MapWidget({
           className="block border-0"
         />
       </div>
+
+      {hotelName && directBookingOnly && (
+        <div className="bg-amber-50 border border-amber-200 rounded-2xl p-5 text-center">
+          <p className="text-sm font-semibold text-amber-900 mb-1">Direct booking only</p>
+          <p className="text-xs text-amber-800 leading-relaxed">
+            {hotelName} is an ultra-luxury private lodge that does not sell through booking platforms.
+            The map above shows nearby honeymoon hotels in {country.replace(/-/g, ' ') || location.replace(/-/g, ' ')}.
+            To book {hotelName}, contact the lodge directly via their official website.
+          </p>
+        </div>
+      )}
 
       {hotelName && smartUrl && providers && (
         <div>

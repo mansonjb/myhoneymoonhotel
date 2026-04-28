@@ -247,6 +247,7 @@ export default async function HotelPage({ params }: Props) {
               location={hotel.destination.replace(/-/g, ' ')}
               hotelName={hotel.name}
               country={hotel.country}
+              directBookingOnly={(hotel as { direct_booking_only?: boolean }).direct_booking_only ?? false}
             />
           </section>
 
