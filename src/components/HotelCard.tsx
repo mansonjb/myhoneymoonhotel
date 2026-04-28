@@ -50,6 +50,10 @@ const DEST_FALLBACK: Record<string, string> = {
   'iceland':           'https://images.unsplash.com/photo-1531168556467-80aace0d0144?w=800&q=80',
   'sardegna':          'https://images.unsplash.com/photo-1534308143481-c55f00be8bd7?w=800&q=80',
   'argentina':         'https://images.unsplash.com/photo-1607627000458-210e8d2bdb1d?w=800&q=80',
+  'italy':             'https://images.unsplash.com/photo-1534308143481-c55f00be8bd7?w=800&q=80',
+  'jamaica':           'https://images.unsplash.com/photo-1518553552276-fbcb05245056?w=800&q=80',
+  'antigua':           'https://images.unsplash.com/photo-1548574505-5e239809ee19?w=800&q=80',
+  'bahamas':           'https://images.unsplash.com/photo-1548574505-5e239809ee19?w=800&q=80',
 }
 
 const DEFAULT_FALLBACK = 'https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=800&q=80'

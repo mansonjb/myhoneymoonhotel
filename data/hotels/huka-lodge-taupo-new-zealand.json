@@ -4,35 +4,37 @@
   "destination": "new-zealand",
   "country": "new-zealand",
   "experience_types": [
+    "lake",
     "luxury",
-    "wellness"
+    "wilderness"
   ],
-  "honeymoon_score": 94,
+  "honeymoon_score": 92,
   "score_breakdown": {
     "adults_only": 0,
     "couples_pct": 20,
-    "spa": 15,
-    "award": 20,
+    "spa": 10,
+    "award": 10,
     "pool": 10,
     "beach": 0,
-    "room_service": 5,
-    "stars": 14,
-    "luxury": 10
+    "room_service": 10,
+    "stars": 13,
+    "luxury": 5
   },
   "stars": 5,
   "price_per_night_usd": {
-    "min": 1000,
-    "max": 3500
+    "min": 1800,
+    "max": 5500
   },
   "adults_only": false,
   "amenities": [
     "spa",
     "pool",
-    "room service",
-    "river, fishing",
-    "helicopter",
+    "fly fishing",
     "fine dining",
-    "private house"
+    "room service",
+    "library",
+    "tennis",
+    "helicopter pad"
   ],
   "photos": [
     {
@@ -61,81 +63,81 @@
       "type": "dining"
     }
   ],
-  "tripadvisor_rating": 9.7,
+  "tripadvisor_rating": 9.5,
   "tripadvisor_award": true,
-  "couples_review_pct": 78,
+  "couples_review_pct": 72,
   "content": {
-    "verdict": "Huka Lodge on the Waikato River has been voted New Zealand's finest lodge for decades — a benchmark of understated, ultra-personalized luxury that has hosted British royalty, US presidents, and Hollywood legends since the 1920s. The 20 cottage-style rooms on the vivid blue-green Waikato River combine country house comfort with world-class New Zealand produce, impeccable service ratios, and the complete absence of fuss that defines true luxury. This is New Zealand's most celebrated honeymoon address.",
-    "best_room": "The Lodge Suite is Huka's finest room — a spacious riverfront suite with a private deck directly above the Waikato, a deep freestanding bath in a bay window overlooking the river, and the kind of carefully curated New Zealand country house interiors that reward closer inspection. The Owner's Cottage provides complete privacy for couples who want their own cottage entirely separate from the main lodge, with personal butler service.",
+    "verdict": "Huka Lodge has been the benchmark for New Zealand luxury since 1924 — a riverside fly-fishing lodge on the Waikato River where it cascades through the dramatic Huka Falls just before emptying into Lake Taupo. Royals, presidents, and a century of fly fishermen have stayed in its 20 riverside suites scattered across manicured grounds. It is the most storied property in New Zealand and the natural starting point for a North Island honeymoon.",
+    "best_room": "The Junior Lodge Suites are positioned directly on the Waikato River — wake to the sound of the rushing turquoise water from your private terrace. The Owner's Cottage and Alan Pye Cottage are larger multi-bedroom options for couples extending the stay or travelling with family. River-facing suites are the universal honeymoon choice; the river soundtrack is integral to the Huka experience.",
     "itinerary_7_nights": [
       {
         "day": 1,
-        "title": "Arrival on the Waikato",
-        "description": "Transfer from Auckland Airport (3 hours) or fly to Taupo (45 minutes) and transfer 10 minutes to Huka Lodge. The arrival at this river-edge retreat — low cottages in a garden above the impossibly blue-green Waikato — is one of New Zealand's finest hotel entrances. Pre-dinner drinks in the drawing room, dinner at the Lodge's communal dining table with fellow guests, and early retirement to your river deck."
+        "title": "Arrival & Huka Falls",
+        "description": "Fly into Taupo Airport (45-minute flight from Auckland) or drive 3.5 hours from Auckland through the volcanic plateau. Settle into the riverside suite, then walk the short trail along the Waikato River to Huka Falls — the thundering blue-water cascade that gives the lodge its name. Pre-dinner drinks in the main lodge library before the multi-course tasting menu."
       },
       {
         "day": 2,
-        "title": "Huka Falls & Geothermal Wonders",
-        "description": "Huka Falls — the most visited natural attraction in New Zealand — is a 5-minute walk from the lodge, where the full volume of the Waikato River is squeezed through a narrow 15-meter channel into a thundering turquoise cascade. The Taupo geothermal zone is extraordinary: Craters of the Moon, Wairakei geothermal park, and the steam vents visible from the lodge itself."
+        "title": "Fly Fishing on the Waikato",
+        "description": "Huka Lodge is one of the world's great fly-fishing addresses — the Waikato and Tongariro rivers hold legendary trout populations. A guided morning on the water with one of the lodge's resident guides, learning the basics or fishing seriously depending on experience. Return to the lodge for lunch on the riverside lawn."
       },
       {
         "day": 3,
-        "title": "Trout Fishing on the Waikato",
-        "description": "Huka Lodge's reputation for trout fishing is legendary — the Waikato and Taupo stream system is one of the world's finest wild trout fisheries. The lodge's expert guides take couples fishing on the river at dawn, when the mist rises from the blue-green water and rainbow trout up to 5kg are taken on dry flies. No fishing experience necessary — the guides make it deeply enjoyable."
+        "title": "Tongariro National Park & Volcanoes",
+        "description": "A day trip south to Tongariro National Park — the dual UNESCO World Heritage volcanic landscape that doubled as Mordor in the Lord of the Rings films. The active volcanoes Mount Ruapehu, Mount Ngauruhoe (Mount Doom), and Mount Tongariro form one of the planet's most dramatic alpine landscapes. Helicopter excursions land on the volcanic plateau."
       },
       {
         "day": 4,
-        "title": "Helicopter to Tongariro",
-        "description": "A helicopter flight from the Huka Lodge pad takes you over the volcanic plateau of Tongariro National Park — three active volcanoes including the perfectly conical Mt. Ngauruhoe (Mt. Doom from Lord of the Rings), the extraordinary Emerald Lakes, and the Red Crater. A 15-minute flight covers what takes 7 hours to walk. Return for a long afternoon on the river bank."
+        "title": "Hobbiton & Maori Hangi",
+        "description": "Drive 90 minutes to the Hobbiton Movie Set near Matamata — the preserved Lord of the Rings and Hobbit film location with 44 hobbit holes set into the green hills. Return via Rotorua for a traditional Maori cultural evening: a hangi feast cooked in earth ovens, haka performance, and waiata songs at one of the established Maori marae experiences."
       },
       {
         "day": 5,
-        "title": "Lake Taupo & Jet Boat",
-        "description": "Lake Taupo, New Zealand's largest lake sitting inside a supervolcano caldera, is 10 minutes from the lodge. A jet boat excursion across the lake to the Maori rock carvings at Mine Bay — only accessible by water — is essential Taupo. The 11-meter ancient Maori carvings carved into the cliff face above the waterline are extraordinary."
+        "title": "Lake Taupo Cruise & Maori Rock Carvings",
+        "description": "Charter the lodge's launch or join a sailing trip across Lake Taupo — New Zealand's largest lake, formed by an ancient supervolcanic eruption. Cruise to the Maori Rock Carvings at Mine Bay, which can only be reached from the water — 10-metre-high modern carvings of Ngatoroirangi by master carver Matahi Whakataka-Brightwell."
       },
       {
         "day": 6,
-        "title": "Spa & Garden Day",
-        "description": "Huka Lodge's small, private spa focuses on New Zealand-sourced botanical treatments — manuka honey, kawakawa leaf, and native plant extracts in deeply restorative treatments. Today is for rest: spa in the morning, long lunch, a walk along the river trail through native bush, and a final elaborate dinner at the Lodge's communal table."
+        "title": "Spa Day & Helicopter Picnic",
+        "description": "Morning at the lodge spa for a couples massage in the riverside pavilion. Afternoon helicopter excursion — Huka's signature experience — to a remote alpine lake or White Island volcano viewing for a private picnic with the lodge's hampers. Final dinner is a private chef's table in one of the property's intimate dining rooms."
       },
       {
         "day": 7,
-        "title": "River Farewell",
-        "description": "A final breakfast on your private river deck, watching the Waikato carry its astonishing blue-green water past the willows. Huka Lodge's farewells are warm and unhurried — the lodge's ratio of staff to guests (among the highest in New Zealand) means every departure is personal and sincere."
+        "title": "River Walk & Departure",
+        "description": "A final morning fishing or walking the Waikato River trails before the transfer to Taupo Airport for the connection to Auckland or onward to the South Island. Many honeymooners pair Huka Lodge with a South Island lodge such as Blanket Bay or Matakauri for a complete two-island honeymoon."
       }
     ],
     "caveats": [
-      "Huka Lodge is in the central North Island, not in a dramatic mountain or coastal setting like the South Island lodges. It is a river and geothermal destination — guests who want mountain scenery as the primary visual should consider Blanket Bay instead.",
-      "At $1000–$3500 per night, Huka Lodge is among New Zealand's most expensive accommodations. Rates typically include breakfast and dinner — factor in activities (helicopter, fishing guides) as additional costs.",
-      "The lodge operates on a highly personalized and intimate basis — this is its great strength, but guests who prefer anonymity may find the familial atmosphere of the communal dining and staff attentiveness more intensive than expected."
+      "Huka Lodge is the most expensive lodge in New Zealand at peak season — rates approach NZD 4,000+ per couple per night including all meals, drinks, and most activities; helicopter excursions are extra.",
+      "The lodge is a fly-fishing institution; while non-fishing couples are warmly welcomed, the property's culture is angling-centric and the guest mix skews older.",
+      "Taupo is inland on the volcanic plateau — there is no beach or coastal element to the property; couples wanting ocean should pair with Bay of Islands or Hawke's Bay."
     ],
     "faqs": [
       {
-        "question": "Is Huka Lodge good for honeymooners?",
-        "answer": "It is consistently rated New Zealand's finest lodge and is exceptional for honeymooners who appreciate understated luxury, extraordinary personalized service, and the unique beauty of the Waikato River. The Owner's Cottage provides complete privacy for couples; the Lodge Suite is the most romantic single room. For wildlife and mountains, combine with a South Island lodge."
+        "question": "Good for honeymooners?",
+        "answer": "Huka Lodge is a superb honeymoon choice for couples drawn to wilderness, refined service, and a sense of New Zealand history. The riverside suites, the Waikato's turquoise rush, and the lodge's century-old culture of attentive hospitality create a deeply romantic atmosphere. It is best suited to couples who appreciate quiet luxury over party energy."
       },
       {
-        "question": "What is the best time to visit?",
-        "answer": "New Zealand's summer (December–February) offers the best weather for outdoor activities. Autumn (March–May) is beautiful with golden light and fewer visitors. Fishing is excellent spring through autumn. Winter (June–August) is quieter with fewer crowds and the volcanic landscape around Tongariro is dramatic in snow."
+        "question": "Best time to visit?",
+        "answer": "December through March is New Zealand summer — long evenings, wildflowers, and prime fishing on the Waikato. October and April-May shoulder seasons are quieter with crisp weather. June through August brings winter — log fires in the lodge library, snow on the volcanoes, and heli-skiing nearby on Mount Ruapehu."
       },
       {
-        "question": "How far in advance should you book?",
-        "answer": "Book 6–12 months in advance for December–February and Easter. Huka Lodge has only 20 cottage rooms and the Lodge Suite and Owner's Cottage are the most sought-after. For shoulder season, 3–4 months is usually sufficient."
+        "question": "Book in advance?",
+        "answer": "Huka Lodge books out 6 to 12 months ahead for peak summer (December-February). The Owner's Cottage and Alan Pye Cottage have particularly limited availability. The lodge's century-long reputation means a strong base of repeat guests reserves prime weeks far ahead."
       },
       {
-        "question": "Is Huka Lodge adults-only?",
-        "answer": "No, but the lodge is naturally adult-oriented. Children are welcome but the communal dining, fishing focus, and country house atmosphere mean it attracts primarily adult couples and groups."
+        "question": "Adults-only?",
+        "answer": "Huka Lodge is not adults-only, but the riverside suites, fishing focus, and refined dining attract primarily adult couples. Children are welcomed in the multi-bedroom cottages but rare in the main suite count."
       },
       {
-        "question": "What is the best room type?",
-        "answer": "The Lodge Suite for the best river views and most generous interiors. The Owner's Cottage for complete privacy as a standalone cottage. Both represent Huka Lodge at its finest — the choice depends on whether you want to be closer to the communal lodge atmosphere or entirely private."
+        "question": "Best room type?",
+        "answer": "The Junior Lodge Suites directly on the Waikato River are the most romantic — the rushing turquoise water is the property's defining feature and the river-facing suites maximize that experience. The Owner's Cottage is the most exclusive option with its own pool and chef on call."
       },
       {
-        "question": "How do you get to Huka Lodge?",
-        "answer": "Fly into Auckland (AKL) from international destinations, then take a domestic Air New Zealand flight to Taupo (TUO) — about 45 minutes. Private transfer from Taupo Airport to the lodge takes 10 minutes. Alternatively, a scenic 3-hour drive from Auckland through the Waikato. The lodge arranges all transfers."
+        "question": "How to get there?",
+        "answer": "Fly into Auckland International Airport, then connect to Taupo (45 minutes) for a short drive to the lodge. Alternatively, drive 3.5 hours from Auckland through the Waikato region. Helicopter transfers from Auckland are available for guests wanting the scenic arrival over the volcanic plateau."
       }
     ],
-    "email_template": "Subject: Honeymoon inquiry — Huka Lodge\n\nDear Huka Lodge team,\n\nWe are planning our honeymoon [DATE]-[DATE] and very interested in the Lodge Suite or Owner's Cottage. Please advise on availability, rates including meals, available activities such as guided trout fishing and helicopter excursions, and any honeymoon arrangements you can offer.\n\nThank you,\n[Your names]"
+    "email_template": "Subject: Honeymoon inquiry — Huka Lodge\n\nDear Huka Lodge reservations team,\n\nWe are planning our honeymoon [DATE]-[DATE] and are interested in a Junior Lodge Suite on the Waikato River. Please advise on availability, fly fishing arrangements, helicopter excursions, and honeymoon inclusions.\n\nThank you,\n[Your names]"
   },
-  "last_updated": "2026-04-19T00:00:00.000Z"
+  "last_updated": "2026-04-28T00:00:00.000Z"
 }
