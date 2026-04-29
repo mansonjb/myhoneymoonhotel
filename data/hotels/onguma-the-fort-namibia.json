@@ -3,11 +3,27 @@
   "name": "Onguma The Fort",
   "destination": "namibia",
   "country": "namibia",
-  "experience_types": ["safari", "luxury"],
+  "experience_types": [
+    "safari",
+    "luxury"
+  ],
   "honeymoon_score": 91,
-  "score_breakdown": { "adults_only": 25, "couples_pct": 17, "spa": 10, "award": 14, "pool": 8, "beach": 0, "room_service": 5, "stars": 7, "luxury": 5 },
+  "score_breakdown": {
+    "adults_only": 25,
+    "couples_pct": 17,
+    "spa": 10,
+    "award": 14,
+    "pool": 8,
+    "beach": 0,
+    "room_service": 5,
+    "stars": 7,
+    "luxury": 5
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 500, "max": 1500 },
+  "price_per_night_usd": {
+    "min": 500,
+    "max": 1500
+  },
   "adults_only": false,
   "amenities": [
     "12 suites in fort architecture",
@@ -27,11 +43,31 @@
     "airstrip transfers"
   ],
   "photos": [
-    { "url": "/images/hotels/onguma-the-fort-namibia/hero.webp", "alt": "onguma-the-fort-namibia — hero", "type": "hero" },
-    { "url": "/images/hotels/onguma-the-fort-namibia/room.webp", "alt": "onguma-the-fort-namibia — room", "type": "room" },
-    { "url": "/images/hotels/onguma-the-fort-namibia/pool.webp", "alt": "onguma-the-fort-namibia — pool", "type": "pool" },
-    { "url": "/images/hotels/onguma-the-fort-namibia/spa.webp", "alt": "onguma-the-fort-namibia — spa", "type": "spa" },
-    { "url": "/images/hotels/onguma-the-fort-namibia/dining.webp", "alt": "onguma-the-fort-namibia — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/onguma-the-fort-namibia/hero.webp",
+      "alt": "onguma-the-fort-namibia — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/onguma-the-fort-namibia/room.webp",
+      "alt": "onguma-the-fort-namibia — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/onguma-the-fort-namibia/pool.webp",
+      "alt": "onguma-the-fort-namibia — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/onguma-the-fort-namibia/spa.webp",
+      "alt": "onguma-the-fort-namibia — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/onguma-the-fort-namibia/dining.webp",
+      "alt": "onguma-the-fort-namibia — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.4,
   "tripadvisor_award": true,
@@ -40,13 +76,41 @@
     "verdict": "Onguma The Fort is the most architecturally distinctive lodge on the Etosha border — a North African-inspired fortress of rammed-earth walls, archways, and watchtowers rising abruptly out of the eastern Namibian bush. The 12 suites are arranged inside the fortress walls, each with a private terrace and a king bed angled toward the sunset; the rooftop terrace at the heart of the property is wrapped around a slow-burning fire pit and is where everyone gathers for golden hour drinks looking out over the Onguma plain. The 34,000-hectare private Onguma Game Reserve shares an unfenced border with Etosha National Park — guests have full access to both, with the option of self-drive into Etosha by day or guided drives in the open vehicle on the private reserve at night (when Etosha itself is closed). Wildlife on the private side includes leopard, elephant, black rhino on rare occasions, and a famously habituated pride of lions; the Etosha side delivers the classic salt-pan game viewing. As a honeymoon property it is more about romantic atmosphere than ultra-fine dining or spa polish — the fort architecture, the firelit terrace, and the eastern Etosha sunsets are the reasons to choose it. Excellent value for the experience.",
     "best_room": "All 12 suites are similar in layout, but the four suites on the western side of the fortress catch the sunset light from the terrace and have the longest plain views. Suite 6 or 7 (centre west) tend to be the quietest. The Honeymoon Suite, when bookable as a category, has additional terrace space and a freestanding tub.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival at Onguma", "description": "Drive or fly in to the Onguma airstrip from Windhoek (about 4-5 hours by road or 1 hour by light aircraft). Settle into the fort, sundowners on the rooftop terrace, fortress dinner around the fire pit." },
-      { "day": 2, "title": "Etosha sunrise game drive", "description": "Pre-dawn private drive through the Onguma gate into eastern Etosha. Visit the iconic Klein Namutoni and Chudob waterholes for elephant, giraffe, and lion sightings. Return for late breakfast, pool, and afternoon spa treatments." },
-      { "day": 3, "title": "Onguma private reserve and night drive", "description": "Slow morning. Afternoon private game drive on the Onguma reserve searching for leopard. Sundowners in the bush. Continue into a night drive — only possible on the private side — looking for spotted hyena, civet, and porcupine." },
-      { "day": 4, "title": "Full Etosha day", "description": "Picnic-lunch full-day drive deeper into Etosha, around the Fischer's Pan and across to Halali waterhole. Return at dusk for a private firelit dinner on your terrace." },
-      { "day": 5, "title": "Walking safari and rooftop dinner", "description": "Morning guided walking safari on the Onguma reserve — a different pace, focused on tracks, plants, and small animals. Afternoon free for the pool. Five-course dinner served on the rooftop terrace under the stars." },
-      { "day": 6, "title": "Cheetah conservation visit", "description": "Optional visit to the AfriCat Foundation or another nearby conservation project (additional, off-property). Alternative: another Etosha drive. Final dinner around the fire pit." },
-      { "day": 7, "title": "Onward transfer", "description": "Last breakfast inside the fortress walls, transfer onward by road or air to your next destination." }
+      {
+        "day": 1,
+        "title": "Arrival at Onguma",
+        "description": "Drive or fly in to the Onguma airstrip from Windhoek (about 4-5 hours by road or 1 hour by light aircraft). Settle into the fort, sundowners on the rooftop terrace, fortress dinner around the fire pit."
+      },
+      {
+        "day": 2,
+        "title": "Etosha sunrise game drive",
+        "description": "Pre-dawn private drive through the Onguma gate into eastern Etosha. Visit the iconic Klein Namutoni and Chudob waterholes for elephant, giraffe, and lion sightings. Return for late breakfast, pool, and afternoon spa treatments."
+      },
+      {
+        "day": 3,
+        "title": "Onguma private reserve and night drive",
+        "description": "Slow morning. Afternoon private game drive on the Onguma reserve searching for leopard. Sundowners in the bush. Continue into a night drive — only possible on the private side — looking for spotted hyena, civet, and porcupine."
+      },
+      {
+        "day": 4,
+        "title": "Full Etosha day",
+        "description": "Picnic-lunch full-day drive deeper into Etosha, around the Fischer's Pan and across to Halali waterhole. Return at dusk for a private firelit dinner on your terrace."
+      },
+      {
+        "day": 5,
+        "title": "Walking safari and rooftop dinner",
+        "description": "Morning guided walking safari on the Onguma reserve — a different pace, focused on tracks, plants, and small animals. Afternoon free for the pool. Five-course dinner served on the rooftop terrace under the stars."
+      },
+      {
+        "day": 6,
+        "title": "Cheetah conservation visit",
+        "description": "Optional visit to the AfriCat Foundation or another nearby conservation project (additional, off-property). Alternative: another Etosha drive. Final dinner around the fire pit."
+      },
+      {
+        "day": 7,
+        "title": "Onward transfer",
+        "description": "Last breakfast inside the fortress walls, transfer onward by road or air to your next destination."
+      }
     ],
     "caveats": [
       "Etosha is hot from October to March (daytime over 35C). Game viewing is best May to September when animals concentrate at remaining waterholes.",
@@ -56,12 +120,30 @@
       "The pool is not heated and Etosha can be cold in June and July."
     ],
     "faqs": [
-      { "question": "How does Onguma The Fort compare to lodges inside Etosha?", "answer": "The state-run camps inside Etosha (Okaukuejo, Halali, Namutoni) have the lit waterholes you have read about but are mid-grade in comfort. The Fort is the boutique five-star experience on the eastern edge — better food, better suites, better architecture, with the trade-off of needing to drive in (about 15 minutes to the gate)." },
-      { "question": "Can we do night drives?", "answer": "Yes, on the private Onguma reserve. Etosha National Park itself does not allow night drives, so this is one of the structural reasons to stay at a private-reserve lodge nearby." },
-      { "question": "Best time of year for Etosha?", "answer": "May to October. Game concentrates at waterholes in the dry winter and is much easier to find. November to April is greener and quieter but harder for game viewing." },
-      { "question": "Is malaria a concern?", "answer": "Etosha is in a low-risk malaria zone, with risk increasing in the wet summer months (November to April). Prophylaxis is recommended in summer; consult your travel-medicine doctor." },
-      { "question": "How long should we stay?", "answer": "Three nights is the right length for honeymooners — enough for two full Etosha drives, one private reserve drive, and a relaxed day. Two nights feels rushed; four is luxurious." },
-      { "question": "Is the fort gimmicky in person?", "answer": "It surprises most guests by feeling genuinely cinematic rather than themed — the materials are real (rammed earth, copper, dark timber), and the rooftop terrace at sunset is one of the most photographed spots in northern Namibia for a reason." }
+      {
+        "question": "How does Onguma The Fort compare to lodges inside Etosha?",
+        "answer": "The state-run camps inside Etosha (Okaukuejo, Halali, Namutoni) have the lit waterholes you have read about but are mid-grade in comfort. The Fort is the boutique five-star experience on the eastern edge — better food, better suites, better architecture, with the trade-off of needing to drive in (about 15 minutes to the gate)."
+      },
+      {
+        "question": "Can we do night drives?",
+        "answer": "Yes, on the private Onguma reserve. Etosha National Park itself does not allow night drives, so this is one of the structural reasons to stay at a private-reserve lodge nearby."
+      },
+      {
+        "question": "Best time of year for Etosha?",
+        "answer": "May to October. Game concentrates at waterholes in the dry winter and is much easier to find. November to April is greener and quieter but harder for game viewing."
+      },
+      {
+        "question": "Is malaria a concern?",
+        "answer": "Etosha is in a low-risk malaria zone, with risk increasing in the wet summer months (November to April). Prophylaxis is recommended in summer; consult your travel-medicine doctor."
+      },
+      {
+        "question": "How long should we stay?",
+        "answer": "Three nights is the right length for honeymooners — enough for two full Etosha drives, one private reserve drive, and a relaxed day. Two nights feels rushed; four is luxurious."
+      },
+      {
+        "question": "Is the fort gimmicky in person?",
+        "answer": "It surprises most guests by feeling genuinely cinematic rather than themed — the materials are real (rammed earth, copper, dark timber), and the rooftop terrace at sunset is one of the most photographed spots in northern Namibia for a reason."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Onguma The Fort, [arrival date]\n\nDear Reservations,\n\nWe are planning our honeymoon for [dates] and would like [3] nights at The Fort. Please confirm:\n\n- Availability of one suite, ideally Honeymoon Suite or a western-side suite\n- Private guided Etosha game drive on each day of our stay\n- One night-drive on the private reserve\n- Fire-pit terrace honeymoon dinner setup on one evening\n- Road or air transfer from Windhoek (please quote both)\n- Any honeymoon arrangements (in-room spa, sundowner picnic)\n\nThank you.\n\nWarm regards,\n[Names]"
   },

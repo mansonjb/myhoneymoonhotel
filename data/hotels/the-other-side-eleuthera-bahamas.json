@@ -3,7 +3,11 @@
   "name": "The Other Side Eleuthera",
   "destination": "bahamas",
   "country": "bahamas",
-  "experience_types": ["beach", "luxury", "adults-only"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "adults-only"
+  ],
   "honeymoon_score": 87,
   "score_breakdown": {
     "adults_only": 18,
@@ -17,7 +21,10 @@
     "luxury": 3
   },
   "stars": 4,
-  "price_per_night_usd": { "min": 1000, "max": 3000 },
+  "price_per_night_usd": {
+    "min": 1000,
+    "max": 3000
+  },
   "adults_only": true,
   "amenities": [
     "infinity pool",
@@ -34,11 +41,31 @@
     "boat charters"
   ],
   "photos": [
-    { "url": "/images/hotels/the-other-side-eleuthera-bahamas/hero.webp", "alt": "the-other-side-eleuthera-bahamas — hero", "type": "hero" },
-    { "url": "/images/hotels/the-other-side-eleuthera-bahamas/room.webp", "alt": "the-other-side-eleuthera-bahamas — room", "type": "room" },
-    { "url": "/images/hotels/the-other-side-eleuthera-bahamas/pool.webp", "alt": "the-other-side-eleuthera-bahamas — pool", "type": "pool" },
-    { "url": "/images/hotels/the-other-side-eleuthera-bahamas/spa.webp", "alt": "the-other-side-eleuthera-bahamas — spa", "type": "spa" },
-    { "url": "/images/hotels/the-other-side-eleuthera-bahamas/dining.webp", "alt": "the-other-side-eleuthera-bahamas — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/the-other-side-eleuthera-bahamas/hero.webp",
+      "alt": "the-other-side-eleuthera-bahamas — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/the-other-side-eleuthera-bahamas/room.webp",
+      "alt": "the-other-side-eleuthera-bahamas — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/the-other-side-eleuthera-bahamas/pool.webp",
+      "alt": "the-other-side-eleuthera-bahamas — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/the-other-side-eleuthera-bahamas/spa.webp",
+      "alt": "the-other-side-eleuthera-bahamas — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/the-other-side-eleuthera-bahamas/dining.webp",
+      "alt": "the-other-side-eleuthera-bahamas — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.4,
   "tripadvisor_award": true,
@@ -47,13 +74,41 @@
     "verdict": "The Other Side is barefoot off-grid eco-luxury at its most uncompromising — nine safari-style tents on raised wooden platforms above an empty Eleuthera coastline, no kids under 16, and the kind of Robinson-Crusoe-with-a-Champagne-fridge atmosphere that's exceptionally rare. If your dream honeymoon is a private beach with no other tents in your sightline, this is the address.",
     "best_room": "Book a Hilltop Hideaway for the panoramic perch above the Atlantic and Caribbean coastlines, or a Beach Shack for direct sand access. Both run on solar power with composting plumbing — the eco-spec is real, but the linens, mosquito-net beds, and outdoor showers are decidedly luxury-grade.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival and infinity-pool sunset", "description": "Fly into North Eleuthera, transfer south through the island (about 45 minutes) to the Banks Road property. Settle into your tent, sunset cocktails at the cliffside infinity pool, communal dinner at the open-air dining pavilion." },
-      { "day": 2, "title": "Banks Road beach day", "description": "Spend the day on the resort's empty stretch of Atlantic-side sand. Snorkel in the morning, hammock in the afternoon, lunch back at the pavilion. Sunset yoga session, dinner under the stars." },
-      { "day": 3, "title": "Bonefishing on the flats", "description": "Half-day bonefishing on Eleuthera's pristine flats with a local guide. Picnic lunch on a sandbar, afternoon spa massage in your tent, dinner at the pavilion with wine pairings." },
-      { "day": 4, "title": "Glass Window Bridge and Lighthouse Beach", "description": "Drive 45 minutes north to Glass Window Bridge, then continue south to Lighthouse Beach for empty pink sand. Picnic lunch, afternoon swim, sunset cocktails at Tippy's bar in Banks Road, dinner back at the resort." },
-      { "day": 5, "title": "Harbour Island day trip", "description": "Boat across to Harbour Island for the iconic three-mile pink-sand beach. Lunch at Sip Sip, golf-cart tour of Dunmore Town. Return to The Other Side for cocktails at the pool and a private beachfront dinner-for-two." },
-      { "day": 6, "title": "Snorkel boat charter", "description": "Full-day private snorkel charter to nearby reefs and uninhabited cays. Swim with rays and reef sharks, lunch on board, sunset return. Dinner at the pavilion, late drinks at the library bar." },
-      { "day": 7, "title": "Final morning and farewell", "description": "Breakfast on your tent's deck, last swim, late checkout. Picnic lunch arranged for the road, transfer back to North Eleuthera Airport." }
+      {
+        "day": 1,
+        "title": "Arrival and infinity-pool sunset",
+        "description": "Fly into North Eleuthera, transfer south through the island (about 45 minutes) to the Banks Road property. Settle into your tent, sunset cocktails at the cliffside infinity pool, communal dinner at the open-air dining pavilion."
+      },
+      {
+        "day": 2,
+        "title": "Banks Road beach day",
+        "description": "Spend the day on the resort's empty stretch of Atlantic-side sand. Snorkel in the morning, hammock in the afternoon, lunch back at the pavilion. Sunset yoga session, dinner under the stars."
+      },
+      {
+        "day": 3,
+        "title": "Bonefishing on the flats",
+        "description": "Half-day bonefishing on Eleuthera's pristine flats with a local guide. Picnic lunch on a sandbar, afternoon spa massage in your tent, dinner at the pavilion with wine pairings."
+      },
+      {
+        "day": 4,
+        "title": "Glass Window Bridge and Lighthouse Beach",
+        "description": "Drive 45 minutes north to Glass Window Bridge, then continue south to Lighthouse Beach for empty pink sand. Picnic lunch, afternoon swim, sunset cocktails at Tippy's bar in Banks Road, dinner back at the resort."
+      },
+      {
+        "day": 5,
+        "title": "Harbour Island day trip",
+        "description": "Boat across to Harbour Island for the iconic three-mile pink-sand beach. Lunch at Sip Sip, golf-cart tour of Dunmore Town. Return to The Other Side for cocktails at the pool and a private beachfront dinner-for-two."
+      },
+      {
+        "day": 6,
+        "title": "Snorkel boat charter",
+        "description": "Full-day private snorkel charter to nearby reefs and uninhabited cays. Swim with rays and reef sharks, lunch on board, sunset return. Dinner at the pavilion, late drinks at the library bar."
+      },
+      {
+        "day": 7,
+        "title": "Final morning and farewell",
+        "description": "Breakfast on your tent's deck, last swim, late checkout. Picnic lunch arranged for the road, transfer back to North Eleuthera Airport."
+      }
     ],
     "caveats": [
       "This is a tented eco-resort — the structures are solid and luxury-spec but they are tents. Air-conditioning is fan-and-trade-wind based; expect island heat and bugs in summer.",
@@ -61,12 +116,30 @@
       "The ocean side is Atlantic — surf can pick up December through February. The property has access to a calmer Banks Road inlet for swimming on rough days."
     ],
     "faqs": [
-      { "question": "Is The Other Side actually adults-only?", "answer": "Yes — no children under 16 are permitted. The property is overwhelmingly honeymoon and couples bookings." },
-      { "question": "How off-grid is it?", "answer": "Genuinely off-grid — solar electricity, rainwater collection, composting plumbing, no road access for the last quarter mile to some tents. The kitchen and bar are full-service though." },
-      { "question": "What about Wi-Fi and phones?", "answer": "Wi-Fi is available in the main pavilion but spotty in tents. Cell signal is variable. Most couples treat the disconnection as a feature, not a bug." },
-      { "question": "Can we eat dinner alone?", "answer": "Communal dining is the default in the pavilion, but private beachfront dinners-for-two are available for honeymooners with advance notice — most couples book at least one." },
-      { "question": "How long is the transfer?", "answer": "About 45 minutes by road from North Eleuthera Airport. The hotel arranges private transfers; the road is rough in places." },
-      { "question": "Best time of year?", "answer": "November through May is prime; the calmest weather is March-May. Avoid August through October for hurricane risk and summer heat." }
+      {
+        "question": "Is The Other Side actually adults-only?",
+        "answer": "Yes — no children under 16 are permitted. The property is overwhelmingly honeymoon and couples bookings."
+      },
+      {
+        "question": "How off-grid is it?",
+        "answer": "Genuinely off-grid — solar electricity, rainwater collection, composting plumbing, no road access for the last quarter mile to some tents. The kitchen and bar are full-service though."
+      },
+      {
+        "question": "What about Wi-Fi and phones?",
+        "answer": "Wi-Fi is available in the main pavilion but spotty in tents. Cell signal is variable. Most couples treat the disconnection as a feature, not a bug."
+      },
+      {
+        "question": "Can we eat dinner alone?",
+        "answer": "Communal dining is the default in the pavilion, but private beachfront dinners-for-two are available for honeymooners with advance notice — most couples book at least one."
+      },
+      {
+        "question": "How long is the transfer?",
+        "answer": "About 45 minutes by road from North Eleuthera Airport. The hotel arranges private transfers; the road is rough in places."
+      },
+      {
+        "question": "Best time of year?",
+        "answer": "November through May is prime; the calmest weather is March-May. Avoid August through October for hurricane risk and summer heat."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — The Other Side Eleuthera\n\nHello,\n\nWe are planning our honeymoon at The Other Side and would like to enquire about a 7-night stay in a Hilltop Hideaway or Beach Shack tent.\n\nCould you please confirm:\n- Honeymoon package amenities (Champagne, in-tent amenities, spa credit, room upgrade if available)\n- Meal plan inclusions\n- Private beachfront dinner pricing\n- Bonefishing guide and snorkel charter pricing\n- Transfer arrangements from North Eleuthera Airport\n\nThank you,",
     "extra_notes": "The Other Side is part of the same ownership group as the Pink Sands Resort but operates as an entirely separate experience. Many couples split a 10-night Bahamas honeymoon between Pink Sands (4 nights, beach-and-town) and The Other Side (6 nights, off-grid)."

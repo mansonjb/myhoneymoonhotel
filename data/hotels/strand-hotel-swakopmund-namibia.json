@@ -3,11 +3,27 @@
   "name": "Strand Hotel Swakopmund",
   "destination": "namibia",
   "country": "namibia",
-  "experience_types": ["luxury", "beach"],
+  "experience_types": [
+    "luxury",
+    "beach"
+  ],
   "honeymoon_score": 84,
-  "score_breakdown": { "adults_only": 25, "couples_pct": 14, "spa": 8, "award": 11, "pool": 6, "beach": 8, "room_service": 5, "stars": 4, "luxury": 3 },
+  "score_breakdown": {
+    "adults_only": 25,
+    "couples_pct": 14,
+    "spa": 8,
+    "award": 11,
+    "pool": 6,
+    "beach": 8,
+    "room_service": 5,
+    "stars": 4,
+    "luxury": 3
+  },
   "stars": 4,
-  "price_per_night_usd": { "min": 200, "max": 500 },
+  "price_per_night_usd": {
+    "min": 200,
+    "max": 500
+  },
   "adults_only": false,
   "amenities": [
     "125 sea-view and town-view rooms",
@@ -27,11 +43,31 @@
     "airport shuttle"
   ],
   "photos": [
-    { "url": "/images/hotels/strand-hotel-swakopmund-namibia/hero.webp", "alt": "strand-hotel-swakopmund-namibia — hero", "type": "hero" },
-    { "url": "/images/hotels/strand-hotel-swakopmund-namibia/room.webp", "alt": "strand-hotel-swakopmund-namibia — room", "type": "room" },
-    { "url": "/images/hotels/strand-hotel-swakopmund-namibia/pool.webp", "alt": "strand-hotel-swakopmund-namibia — pool", "type": "pool" },
-    { "url": "/images/hotels/strand-hotel-swakopmund-namibia/spa.webp", "alt": "strand-hotel-swakopmund-namibia — spa", "type": "spa" },
-    { "url": "/images/hotels/strand-hotel-swakopmund-namibia/dining.webp", "alt": "strand-hotel-swakopmund-namibia — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/strand-hotel-swakopmund-namibia/hero.webp",
+      "alt": "strand-hotel-swakopmund-namibia — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/strand-hotel-swakopmund-namibia/room.webp",
+      "alt": "strand-hotel-swakopmund-namibia — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/strand-hotel-swakopmund-namibia/pool.webp",
+      "alt": "strand-hotel-swakopmund-namibia — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/strand-hotel-swakopmund-namibia/spa.webp",
+      "alt": "strand-hotel-swakopmund-namibia — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/strand-hotel-swakopmund-namibia/dining.webp",
+      "alt": "strand-hotel-swakopmund-namibia — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 8.9,
   "tripadvisor_award": true,
@@ -40,13 +76,41 @@
     "verdict": "Strand Hotel is Swakopmund's only true beachfront property and the right mid-trip honeymoon stop on a Namibia road-trip itinerary. After a week of remote camps and gravel roads, dropping into a contemporary 125-room hotel with three restaurants, a heated indoor pool, a spa, and a Wi-Fi connection that actually works can feel like a small miracle. The location matters more than the hotel itself: built on a peninsula that pushes out into the Atlantic, every sea-facing room looks straight onto cold green ocean and breaking waves, and the lobby opens onto the town's Mole promenade. The architecture is contemporary German-Namibian — pale stone, glass, and clean lines, deliberately low-key against the colourful colonial townscape behind it. Couples use Strand as their adrenaline base: Swakopmund is the adventure capital of Namibia, with sand-boarding the country's biggest dunes, quad-biking on the Skeleton Coast, scenic flights down the coast, and dolphin and flamingo cruises out of Walvis Bay all bookable through the concierge. The Brewer & Butcher gastropub on the lobby level is the best burger and craft beer in town; the Ocean Cellar restaurant upstairs is the formal-night dinner choice. Two nights is the right length — you would not honeymoon here for a week, but you would absolutely miss it if you skipped Swakopmund.",
     "best_room": "Request a Sea View Junior Suite on a high floor of the Mole-side wing for the longest Atlantic view, the largest bathroom, and the most natural light. The Penthouse Suite has a wraparound terrace and a freestanding tub looking onto the ocean — the splurge honeymoon pick.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival from the desert", "description": "Drive in from Sossusvlei (5 hours via the Kuiseb Pass) or Damaraland (3-4 hours). Check in, walk the Mole promenade, sundowner cocktails on the lobby terrace, dinner at the Brewer & Butcher." },
-      { "day": 2, "title": "Sand-boarding and dune quad-biking", "description": "Half-day adventure outside Swakopmund — sand-boarding lying down on a polished board, quad-biking through the dune fields, hot chocolate on a high crest. Lunch back at the hotel, afternoon at the spa, dinner upstairs at Ocean Cellar." },
-      { "day": 3, "title": "Walvis Bay catamaran cruise", "description": "Half-day catamaran trip from Walvis Bay (30 minutes south by road) — Cape fur seals climb on board, dolphins surf the bow wave, oysters and sparkling wine at the turnaround point. Afternoon at leisure, walk the Swakopmund colonial centre." },
-      { "day": 4, "title": "Sandwich Harbour 4x4", "description": "Full-day excursion south of Walvis Bay where the Namib dunes meet the Atlantic at Sandwich Harbour — driving on the dunes themselves, picnic lunch with the sea below. Return for a quiet hotel dinner." },
-      { "day": 5, "title": "Onward to Damaraland or Etosha", "description": "Mid-trip pivot. Pack and continue north to your next stop — typically Damaraland or Etosha — depending on the larger itinerary." },
-      { "day": 6, "title": "(If staying a third night) Skeleton Coast scenic flight", "description": "Optional full-day chartered flight up the Skeleton Coast over shipwrecks, returning by late afternoon." },
-      { "day": 7, "title": "Onward transfer", "description": "Last breakfast, drive or transfer to next destination." }
+      {
+        "day": 1,
+        "title": "Arrival from the desert",
+        "description": "Drive in from Sossusvlei (5 hours via the Kuiseb Pass) or Damaraland (3-4 hours). Check in, walk the Mole promenade, sundowner cocktails on the lobby terrace, dinner at the Brewer & Butcher."
+      },
+      {
+        "day": 2,
+        "title": "Sand-boarding and dune quad-biking",
+        "description": "Half-day adventure outside Swakopmund — sand-boarding lying down on a polished board, quad-biking through the dune fields, hot chocolate on a high crest. Lunch back at the hotel, afternoon at the spa, dinner upstairs at Ocean Cellar."
+      },
+      {
+        "day": 3,
+        "title": "Walvis Bay catamaran cruise",
+        "description": "Half-day catamaran trip from Walvis Bay (30 minutes south by road) — Cape fur seals climb on board, dolphins surf the bow wave, oysters and sparkling wine at the turnaround point. Afternoon at leisure, walk the Swakopmund colonial centre."
+      },
+      {
+        "day": 4,
+        "title": "Sandwich Harbour 4x4",
+        "description": "Full-day excursion south of Walvis Bay where the Namib dunes meet the Atlantic at Sandwich Harbour — driving on the dunes themselves, picnic lunch with the sea below. Return for a quiet hotel dinner."
+      },
+      {
+        "day": 5,
+        "title": "Onward to Damaraland or Etosha",
+        "description": "Mid-trip pivot. Pack and continue north to your next stop — typically Damaraland or Etosha — depending on the larger itinerary."
+      },
+      {
+        "day": 6,
+        "title": "(If staying a third night) Skeleton Coast scenic flight",
+        "description": "Optional full-day chartered flight up the Skeleton Coast over shipwrecks, returning by late afternoon."
+      },
+      {
+        "day": 7,
+        "title": "Onward transfer",
+        "description": "Last breakfast, drive or transfer to next destination."
+      }
     ],
     "caveats": [
       "The Atlantic at Swakopmund is cold (Benguela current) — this is not a swimming beach. Beach romance here is about walks, fog, and Atlantic mood, not bikinis.",
@@ -56,12 +120,30 @@
       "Adventure activities (quad-biking, sand-boarding, scenic flights) are weather-sensitive; have a flexible day in case of fog."
     ],
     "faqs": [
-      { "question": "Why stop in Swakopmund at all?", "answer": "Two reasons: it is the only logical place to break the long drive between southern desert and northern wildlife stops, and it is the country's adrenaline hub. Couples who want to add adventure activities to a honeymoon (or who simply need a town night with restaurants and Wi-Fi after camp life) build in two nights here." },
-      { "question": "Is Strand really the best hotel in Swakopmund?", "answer": "Yes for a contemporary, beachfront, full-service experience. The Hansa Hotel is more historic and central but inland; the Hotel Schweizerhaus is charming but small. For honeymooners we recommend Strand for the location and amenities." },
-      { "question": "Can we swim?", "answer": "The hotel has an indoor heated pool. Atlantic ocean swimming is uncomfortable — water temperatures of 13-16C year-round. Walking the beach at low tide is the romantic activity, not swimming." },
-      { "question": "How long should we stop?", "answer": "Two nights is the sweet spot — one full day of adventure activities, one half-day of cultural sightseeing or a Walvis Bay cruise." },
-      { "question": "Best time of year?", "answer": "April, May, September, and October have the clearest weather. Winter (June-August) brings dense morning fog. The town is busy in December-January (Namibian summer holidays)." },
-      { "question": "Is the food worth it?", "answer": "Yes — the Brewer & Butcher and Ocean Cellar are both genuinely good and among the best dining in Swakopmund. After camp food, this is a welcome upgrade." }
+      {
+        "question": "Why stop in Swakopmund at all?",
+        "answer": "Two reasons: it is the only logical place to break the long drive between southern desert and northern wildlife stops, and it is the country's adrenaline hub. Couples who want to add adventure activities to a honeymoon (or who simply need a town night with restaurants and Wi-Fi after camp life) build in two nights here."
+      },
+      {
+        "question": "Is Strand really the best hotel in Swakopmund?",
+        "answer": "Yes for a contemporary, beachfront, full-service experience. The Hansa Hotel is more historic and central but inland; the Hotel Schweizerhaus is charming but small. For honeymooners we recommend Strand for the location and amenities."
+      },
+      {
+        "question": "Can we swim?",
+        "answer": "The hotel has an indoor heated pool. Atlantic ocean swimming is uncomfortable — water temperatures of 13-16C year-round. Walking the beach at low tide is the romantic activity, not swimming."
+      },
+      {
+        "question": "How long should we stop?",
+        "answer": "Two nights is the sweet spot — one full day of adventure activities, one half-day of cultural sightseeing or a Walvis Bay cruise."
+      },
+      {
+        "question": "Best time of year?",
+        "answer": "April, May, September, and October have the clearest weather. Winter (June-August) brings dense morning fog. The town is busy in December-January (Namibian summer holidays)."
+      },
+      {
+        "question": "Is the food worth it?",
+        "answer": "Yes — the Brewer & Butcher and Ocean Cellar are both genuinely good and among the best dining in Swakopmund. After camp food, this is a welcome upgrade."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Strand Hotel Swakopmund, [arrival date]\n\nDear Reservations,\n\nWe are on a Namibia honeymoon and would like [2] nights at Strand Hotel between our desert and Etosha stays. Please confirm:\n\n- Availability of one Sea View Junior Suite, or the Penthouse Suite on a higher tier\n- A high-floor room on the Mole side for the Atlantic view\n- Concierge bookings for sand-boarding, a Walvis Bay catamaran cruise, and a Sandwich Harbour 4x4 trip\n- Dinner reservations at Ocean Cellar on one of our nights\n- Honeymoon arrangements (champagne on arrival, in-room spa, breakfast in suite)\n\nThank you.\n\nKind regards,\n[Names]"
   },

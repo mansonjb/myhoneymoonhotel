@@ -3,7 +3,10 @@
   "name": "Coral Sands Hotel Harbour Island",
   "destination": "bahamas",
   "country": "bahamas",
-  "experience_types": ["beach", "luxury"],
+  "experience_types": [
+    "beach",
+    "luxury"
+  ],
   "honeymoon_score": 84,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,7 +20,10 @@
     "luxury": 5
   },
   "stars": 4,
-  "price_per_night_usd": { "min": 500, "max": 1500 },
+  "price_per_night_usd": {
+    "min": 500,
+    "max": 1500
+  },
   "adults_only": false,
   "amenities": [
     "spa services",
@@ -32,11 +38,26 @@
     "boutique"
   ],
   "photos": [
-    { "url": "/images/hotels/coral-sands-hotel-harbour-island-bahamas/hero.webp", "alt": "coral-sands-hotel-harbour-island-bahamas — hero", "type": "hero" },
-    { "url": "/images/hotels/coral-sands-hotel-harbour-island-bahamas/room.webp", "alt": "coral-sands-hotel-harbour-island-bahamas — room", "type": "room" },
-    { "url": "/images/hotels/coral-sands-hotel-harbour-island-bahamas/pool.webp", "alt": "coral-sands-hotel-harbour-island-bahamas — pool", "type": "pool" },
-    { "url": "/images/hotels/coral-sands-hotel-harbour-island-bahamas/spa.webp", "alt": "coral-sands-hotel-harbour-island-bahamas — spa", "type": "spa" },
-    { "url": "/images/hotels/coral-sands-hotel-harbour-island-bahamas/dining.webp", "alt": "coral-sands-hotel-harbour-island-bahamas — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/coral-sands-hotel-harbour-island-bahamas/hero.webp",
+      "alt": "coral-sands-hotel-harbour-island-bahamas — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/coral-sands-hotel-harbour-island-bahamas/room.webp",
+      "alt": "coral-sands-hotel-harbour-island-bahamas — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/coral-sands-hotel-harbour-island-bahamas/pool.webp",
+      "alt": "coral-sands-hotel-harbour-island-bahamas — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/coral-sands-hotel-harbour-island-bahamas/spa.webp",
+      "alt": "coral-sands-hotel-harbour-island-bahamas — spa",
+      "type": "spa"
+    }
   ],
   "tripadvisor_rating": 9.1,
   "tripadvisor_award": true,
@@ -45,13 +66,41 @@
     "verdict": "Coral Sands is the more nautical-preppy alternative on Harbour Island — 39 rooms across boutique cottages and oceanfront suites, walkable to Dunmore Town, sitting directly on the same iconic three-mile pink-sand beach as Pink Sands. The vibe is family-owned, casually elegant, and especially good for first-time Bahamas honeymooners who want easy access to town and beach in one package.",
     "best_room": "Book an Oceanfront Suite for direct beach access and panoramic Atlantic views from your private balcony. The Two-Bedroom Coral Cottages are alternate options if you want a freestanding cottage feel; standard Coral Sands rooms are smaller — fine for a budget-conscious stay but not the honeymoon pick.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival and Beach Bar dinner", "description": "Fly into North Eleuthera, ferry across to Harbour Island, golf-cart transfer to Coral Sands. Settle into your oceanfront suite, sunset drinks at the Beach Bar perched on the bluff, casual dinner of cracked conch and local snapper." },
-      { "day": 2, "title": "Pink-sand beach day", "description": "All-day pink-sand beach with cabana service. Lunch at the Coral Sands Beach Bar, afternoon nap, dinner at Latitude 25 Lounge — the property's main dining room with a more polished menu and Champagne list." },
-      { "day": 3, "title": "Dunmore Town walking day", "description": "Walk five minutes into Dunmore Town — Bay Street, the Lone Tree, Arthur's Bakery, the Government Dock at sunset. Lunch at Sip Sip on the bluff. Dinner at The Landing for steak and lobster in the colonial dining room." },
-      { "day": 4, "title": "Snorkel boat charter", "description": "Half-day snorkel charter to nearby reefs and cays — coral gardens, reef sharks, lunch on board. Return for cocktails on the Coral Sands lawn, casual dinner at Ma Ruby's for the famous cheeseburger in paradise." },
-      { "day": 5, "title": "Spa morning and beach sunset", "description": "Couples massage at the in-suite spa service, lunch at Beach Bar. Late afternoon golf-cart run to the Lone Tree photo spot, sunset Champagne on the beach, dinner at Rock House Restaurant in town." },
-      { "day": 6, "title": "Bonefishing or Eleuthera day trip", "description": "Either half-day bonefishing on the flats with a local guide, or ferry back across to Eleuthera for Glass Window Bridge and Lighthouse Beach. Lunch at Tippy's. Return for cocktails at Latitude 25 and dinner at Beach Bar." },
-      { "day": 7, "title": "Final morning and farewell", "description": "Breakfast on your balcony, last hour at the pink sand, late checkout. Lunch at Beach Bar, golf-cart back to the dock, ferry and short flight home." }
+      {
+        "day": 1,
+        "title": "Arrival and Beach Bar dinner",
+        "description": "Fly into North Eleuthera, ferry across to Harbour Island, golf-cart transfer to Coral Sands. Settle into your oceanfront suite, sunset drinks at the Beach Bar perched on the bluff, casual dinner of cracked conch and local snapper."
+      },
+      {
+        "day": 2,
+        "title": "Pink-sand beach day",
+        "description": "All-day pink-sand beach with cabana service. Lunch at the Coral Sands Beach Bar, afternoon nap, dinner at Latitude 25 Lounge — the property's main dining room with a more polished menu and Champagne list."
+      },
+      {
+        "day": 3,
+        "title": "Dunmore Town walking day",
+        "description": "Walk five minutes into Dunmore Town — Bay Street, the Lone Tree, Arthur's Bakery, the Government Dock at sunset. Lunch at Sip Sip on the bluff. Dinner at The Landing for steak and lobster in the colonial dining room."
+      },
+      {
+        "day": 4,
+        "title": "Snorkel boat charter",
+        "description": "Half-day snorkel charter to nearby reefs and cays — coral gardens, reef sharks, lunch on board. Return for cocktails on the Coral Sands lawn, casual dinner at Ma Ruby's for the famous cheeseburger in paradise."
+      },
+      {
+        "day": 5,
+        "title": "Spa morning and beach sunset",
+        "description": "Couples massage at the in-suite spa service, lunch at Beach Bar. Late afternoon golf-cart run to the Lone Tree photo spot, sunset Champagne on the beach, dinner at Rock House Restaurant in town."
+      },
+      {
+        "day": 6,
+        "title": "Bonefishing or Eleuthera day trip",
+        "description": "Either half-day bonefishing on the flats with a local guide, or ferry back across to Eleuthera for Glass Window Bridge and Lighthouse Beach. Lunch at Tippy's. Return for cocktails at Latitude 25 and dinner at Beach Bar."
+      },
+      {
+        "day": 7,
+        "title": "Final morning and farewell",
+        "description": "Breakfast on your balcony, last hour at the pink sand, late checkout. Lunch at Beach Bar, golf-cart back to the dock, ferry and short flight home."
+      }
     ],
     "caveats": [
       "Coral Sands is smaller and closer-quarters than Pink Sands; you'll see the same fellow guests across meals.",
@@ -59,12 +108,30 @@
       "Atlantic surf can pick up in winter months; calm beach days dominate but rough days happen."
     ],
     "faqs": [
-      { "question": "How is Coral Sands different from Pink Sands?", "answer": "Coral Sands is smaller, closer to town (5-minute walk), and more casually preppy in feel. Pink Sands is more spread out across gardens, larger cottages, more boho-chic. Same beach, different vibes." },
-      { "question": "Is the food good?", "answer": "Yes — Beach Bar is one of the best casual lunch spots on the island. Latitude 25 Lounge is the more polished evening option. Dunmore Town has a half-dozen excellent independent restaurants within a short walk." },
-      { "question": "Do we need a golf cart?", "answer": "Most guests rent one for $80-100/day — useful for getting around the island, but Coral Sands itself is walkable to most of Dunmore Town." },
-      { "question": "Is it adults-only?", "answer": "No — Coral Sands is family-owned and welcomes families. The atmosphere skews adult and couples-leaning, but kids are present in summer and holidays." },
-      { "question": "Best time to go?", "answer": "Mid-November through early December and mid-April through early June for the calmest mix of weather, water, and crowds." },
-      { "question": "How long is the journey?", "answer": "About 30 minutes total from North Eleuthera Airport — taxi to dock, ferry to Harbour Island, short golf-cart ride to Coral Sands." }
+      {
+        "question": "How is Coral Sands different from Pink Sands?",
+        "answer": "Coral Sands is smaller, closer to town (5-minute walk), and more casually preppy in feel. Pink Sands is more spread out across gardens, larger cottages, more boho-chic. Same beach, different vibes."
+      },
+      {
+        "question": "Is the food good?",
+        "answer": "Yes — Beach Bar is one of the best casual lunch spots on the island. Latitude 25 Lounge is the more polished evening option. Dunmore Town has a half-dozen excellent independent restaurants within a short walk."
+      },
+      {
+        "question": "Do we need a golf cart?",
+        "answer": "Most guests rent one for $80-100/day — useful for getting around the island, but Coral Sands itself is walkable to most of Dunmore Town."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "No — Coral Sands is family-owned and welcomes families. The atmosphere skews adult and couples-leaning, but kids are present in summer and holidays."
+      },
+      {
+        "question": "Best time to go?",
+        "answer": "Mid-November through early December and mid-April through early June for the calmest mix of weather, water, and crowds."
+      },
+      {
+        "question": "How long is the journey?",
+        "answer": "About 30 minutes total from North Eleuthera Airport — taxi to dock, ferry to Harbour Island, short golf-cart ride to Coral Sands."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Coral Sands Hotel Harbour Island\n\nHello,\n\nWe are planning our honeymoon at Coral Sands and would like to enquire about a 7-night stay in an Oceanfront Suite.\n\nCould you please confirm:\n- Honeymoon package amenities (Champagne, dinner credit, in-room amenities, room upgrade if available)\n- Daily breakfast options\n- In-suite spa treatment availability\n- Beach picnic and sunset Champagne pricing\n- Ferry and golf-cart transfer arrangements from North Eleuthera Airport\n\nThank you,",
     "extra_notes": "Coral Sands' Beach Bar is one of the best casual lunch spots in the Bahamas — open to non-guests and very popular at lunch. Reserve a beachfront table ahead, especially Saturday and Sunday."

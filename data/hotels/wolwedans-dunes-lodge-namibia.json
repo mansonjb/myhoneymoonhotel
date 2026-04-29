@@ -3,11 +3,28 @@
   "name": "Wolwedans Dunes Lodge",
   "destination": "namibia",
   "country": "namibia",
-  "experience_types": ["safari", "luxury", "wellness"],
+  "experience_types": [
+    "safari",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 94,
-  "score_breakdown": { "adults_only": 25, "couples_pct": 18, "spa": 12, "award": 15, "pool": 5, "beach": 0, "room_service": 5, "stars": 9, "luxury": 5 },
+  "score_breakdown": {
+    "adults_only": 25,
+    "couples_pct": 18,
+    "spa": 12,
+    "award": 15,
+    "pool": 5,
+    "beach": 0,
+    "room_service": 5,
+    "stars": 9,
+    "luxury": 5
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 1200, "max": 3000 },
+  "price_per_night_usd": {
+    "min": 1200,
+    "max": 3000
+  },
   "adults_only": false,
   "amenities": [
     "10 chalets on a dune crest",
@@ -27,11 +44,31 @@
     "fly-in airstrip"
   ],
   "photos": [
-    { "url": "/images/hotels/wolwedans-dunes-lodge-namibia/hero.webp", "alt": "wolwedans-dunes-lodge-namibia — hero", "type": "hero" },
-    { "url": "/images/hotels/wolwedans-dunes-lodge-namibia/room.webp", "alt": "wolwedans-dunes-lodge-namibia — room", "type": "room" },
-    { "url": "/images/hotels/wolwedans-dunes-lodge-namibia/pool.webp", "alt": "wolwedans-dunes-lodge-namibia — pool", "type": "pool" },
-    { "url": "/images/hotels/wolwedans-dunes-lodge-namibia/spa.webp", "alt": "wolwedans-dunes-lodge-namibia — spa", "type": "spa" },
-    { "url": "/images/hotels/wolwedans-dunes-lodge-namibia/dining.webp", "alt": "wolwedans-dunes-lodge-namibia — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/wolwedans-dunes-lodge-namibia/hero.webp",
+      "alt": "wolwedans-dunes-lodge-namibia — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/wolwedans-dunes-lodge-namibia/room.webp",
+      "alt": "wolwedans-dunes-lodge-namibia — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/wolwedans-dunes-lodge-namibia/pool.webp",
+      "alt": "wolwedans-dunes-lodge-namibia — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/wolwedans-dunes-lodge-namibia/spa.webp",
+      "alt": "wolwedans-dunes-lodge-namibia — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/wolwedans-dunes-lodge-namibia/dining.webp",
+      "alt": "wolwedans-dunes-lodge-namibia — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.6,
   "tripadvisor_award": true,
@@ -40,13 +77,41 @@
     "verdict": "Wolwedans is the soul of Namibian conservation tourism. The Brückner family has been operating in the NamibRand Nature Reserve since 1995 and pioneered the zero-waste lodge model that everyone else now copies — every drop of grey water is reused, the kitchen runs on solar, and the in-house produce comes from the Wolwedans desert garden 20 kilometres away. The Dunes Lodge itself is the flagship: 10 canvas-and-timber chalets perched on a single dune crest, all of them facing west into a 200-kilometre sea of red sand. There is no glass between you and the view; the front of each chalet rolls up like a tent flap onto a private deck. This is the lodge for couples who care about how a place is run as much as how it looks — but the look is staggering. Sunset from the main deck, with the dunes in front turning orange to violet to black, is genuinely one of the great sundowner experiences on the African continent. Activities lean toward landscape (scenic flights, dune walks, ballooning) rather than wildlife; the night sky is comparable to its better-known neighbour Sossusvlei Desert Lodge, but the experience here feels gentler, more handmade, more environmental.",
     "best_room": "Chalets 1 and 10 are at the ends of the crest and have the most uninterrupted views and the deepest privacy. Chalet 1 catches the morning light first; chalet 10 has the longest sunset. The honeymoon special, when offered, sets up dinner on a remote dune platform — request at booking.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival into NamibRand", "description": "Light aircraft from Windhoek lands on the Wolwedans airstrip. Drive up to the dune crest, lunch on the main deck, slow afternoon. First sundowner from the lodge deck — the iconic Wolwedans view." },
-      { "day": 2, "title": "Sossusvlei excursion", "description": "Long day trip via 4x4 to Sossusvlei and Deadvlei, returning by late afternoon. Reserved for couples who want the iconic dunes; alternatively skip in favour of NamibRand-only activities." },
-      { "day": 3, "title": "Sustainability tour and balloon prep", "description": "Morning tour of the Wolwedans estate, kitchen, garden, and recycling systems — fascinating even for non-eco-curious travellers. Afternoon spa treatments, sunset on the deck." },
-      { "day": 4, "title": "Hot air balloon", "description": "Pre-dawn balloon launch over the NamibRand dunes, champagne breakfast on landing. Back at the lodge by mid-morning, free afternoon, in-room massage." },
-      { "day": 5, "title": "Scenic flight and dune walk", "description": "Scenic flight over the dune sea, hidden vleis, and wild horses. Walk into the dunes with a guide in the late afternoon, sundowners on a hidden ridge." },
-      { "day": 6, "title": "Horse riding and farewell dinner", "description": "Optional morning horseback ride across the gravel plains (separate booking). Quiet day at the lodge. Final dinner served on the dune deck under the stars." },
-      { "day": 7, "title": "Onward flight", "description": "Slow morning, last view from the deck, light-aircraft transfer onward." }
+      {
+        "day": 1,
+        "title": "Arrival into NamibRand",
+        "description": "Light aircraft from Windhoek lands on the Wolwedans airstrip. Drive up to the dune crest, lunch on the main deck, slow afternoon. First sundowner from the lodge deck — the iconic Wolwedans view."
+      },
+      {
+        "day": 2,
+        "title": "Sossusvlei excursion",
+        "description": "Long day trip via 4x4 to Sossusvlei and Deadvlei, returning by late afternoon. Reserved for couples who want the iconic dunes; alternatively skip in favour of NamibRand-only activities."
+      },
+      {
+        "day": 3,
+        "title": "Sustainability tour and balloon prep",
+        "description": "Morning tour of the Wolwedans estate, kitchen, garden, and recycling systems — fascinating even for non-eco-curious travellers. Afternoon spa treatments, sunset on the deck."
+      },
+      {
+        "day": 4,
+        "title": "Hot air balloon",
+        "description": "Pre-dawn balloon launch over the NamibRand dunes, champagne breakfast on landing. Back at the lodge by mid-morning, free afternoon, in-room massage."
+      },
+      {
+        "day": 5,
+        "title": "Scenic flight and dune walk",
+        "description": "Scenic flight over the dune sea, hidden vleis, and wild horses. Walk into the dunes with a guide in the late afternoon, sundowners on a hidden ridge."
+      },
+      {
+        "day": 6,
+        "title": "Horse riding and farewell dinner",
+        "description": "Optional morning horseback ride across the gravel plains (separate booking). Quiet day at the lodge. Final dinner served on the dune deck under the stars."
+      },
+      {
+        "day": 7,
+        "title": "Onward flight",
+        "description": "Slow morning, last view from the deck, light-aircraft transfer onward."
+      }
     ],
     "caveats": [
       "Sossusvlei is a 3-hour each way 4x4 transfer — possible as a long day trip but tiring. Many couples skip it from Wolwedans and visit on a separate camp stay.",
@@ -56,12 +121,30 @@
       "Wi-Fi is intentionally limited and the lodge is proudly low-tech."
     ],
     "faqs": [
-      { "question": "How does Wolwedans compare to Sossusvlei Desert Lodge?", "answer": "Sossusvlei Desert Lodge is more polished, has skylight roofs, and a stronger observatory. Wolwedans is more soulful, more environmental, less corporate. The view from the Wolwedans dune crest is arguably the better single sundowner spot. Many couples pair them — two nights at one, three at the other." },
-      { "question": "Should we visit Sossusvlei from Wolwedans?", "answer": "If Sossusvlei is a bucket-list goal, we recommend a separate stay at Little Kulala or another Sesriem-area lodge. The day trip from Wolwedans is doable but loses the magic of being at the dunes at first light." },
-      { "question": "How environmental is the lodge actually?", "answer": "Genuinely. They run on solar, treat all grey water for irrigation, compost all food waste, and the on-site academy trains young Namibians in sustainable hospitality. The sustainability tour is a real activity, not a marketing exercise." },
-      { "question": "Are children allowed?", "answer": "Yes, from age 12 at the Dunes Lodge. The atmosphere is overwhelmingly adult and couple-led in practice." },
-      { "question": "Best months to visit?", "answer": "April to October for cool, dry weather. June and July are coldest at night (well below freezing); the chalets have heating but pack layers." },
-      { "question": "Is this the right Wolwedans property for honeymooners?", "answer": "Yes — the Dunes Lodge is the flagship and the best for couples. The Boulders and Dunes Camps are smaller and more rustic; the new Mountain View Suites are also excellent if you prefer enclosed glass-fronted rooms." }
+      {
+        "question": "How does Wolwedans compare to Sossusvlei Desert Lodge?",
+        "answer": "Sossusvlei Desert Lodge is more polished, has skylight roofs, and a stronger observatory. Wolwedans is more soulful, more environmental, less corporate. The view from the Wolwedans dune crest is arguably the better single sundowner spot. Many couples pair them — two nights at one, three at the other."
+      },
+      {
+        "question": "Should we visit Sossusvlei from Wolwedans?",
+        "answer": "If Sossusvlei is a bucket-list goal, we recommend a separate stay at Little Kulala or another Sesriem-area lodge. The day trip from Wolwedans is doable but loses the magic of being at the dunes at first light."
+      },
+      {
+        "question": "How environmental is the lodge actually?",
+        "answer": "Genuinely. They run on solar, treat all grey water for irrigation, compost all food waste, and the on-site academy trains young Namibians in sustainable hospitality. The sustainability tour is a real activity, not a marketing exercise."
+      },
+      {
+        "question": "Are children allowed?",
+        "answer": "Yes, from age 12 at the Dunes Lodge. The atmosphere is overwhelmingly adult and couple-led in practice."
+      },
+      {
+        "question": "Best months to visit?",
+        "answer": "April to October for cool, dry weather. June and July are coldest at night (well below freezing); the chalets have heating but pack layers."
+      },
+      {
+        "question": "Is this the right Wolwedans property for honeymooners?",
+        "answer": "Yes — the Dunes Lodge is the flagship and the best for couples. The Boulders and Dunes Camps are smaller and more rustic; the new Mountain View Suites are also excellent if you prefer enclosed glass-fronted rooms."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Wolwedans Dunes Lodge, [arrival date]\n\nDear Reservations,\n\nWe are planning our honeymoon for [dates] and would like to spend [3 or 4] nights at the Dunes Lodge. Please confirm:\n\n- Availability of one chalet for our dates\n- End chalet (1 or 10) for privacy and view\n- Hot air balloon booking for one morning\n- Scenic flight over NamibRand on a separate day\n- Light-aircraft transfer from Windhoek and onward to [next camp]\n- Honeymoon dune dinner setup, in-room spa, and any other touches you can offer\n\nThanks very much.\n\nKind regards,\n[Names]"
   },

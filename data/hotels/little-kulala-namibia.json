@@ -3,11 +3,28 @@
   "name": "Little Kulala",
   "destination": "namibia",
   "country": "namibia",
-  "experience_types": ["safari", "luxury", "wellness"],
+  "experience_types": [
+    "safari",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 95,
-  "score_breakdown": { "adults_only": 25, "couples_pct": 18, "spa": 15, "award": 15, "pool": 7, "beach": 0, "room_service": 5, "stars": 5, "luxury": 5 },
+  "score_breakdown": {
+    "adults_only": 25,
+    "couples_pct": 18,
+    "spa": 15,
+    "award": 15,
+    "pool": 7,
+    "beach": 0,
+    "room_service": 5,
+    "stars": 5,
+    "luxury": 5
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 1500, "max": 3500 },
+  "price_per_night_usd": {
+    "min": 1500,
+    "max": 3500
+  },
   "adults_only": false,
   "amenities": [
     "private plunge pool per kulala",
@@ -27,11 +44,31 @@
     "guided e-bike experiences"
   ],
   "photos": [
-    { "url": "/images/hotels/little-kulala-namibia/hero.webp", "alt": "little-kulala-namibia — hero", "type": "hero" },
-    { "url": "/images/hotels/little-kulala-namibia/room.webp", "alt": "little-kulala-namibia — room", "type": "room" },
-    { "url": "/images/hotels/little-kulala-namibia/pool.webp", "alt": "little-kulala-namibia — pool", "type": "pool" },
-    { "url": "/images/hotels/little-kulala-namibia/spa.webp", "alt": "little-kulala-namibia — spa", "type": "spa" },
-    { "url": "/images/hotels/little-kulala-namibia/dining.webp", "alt": "little-kulala-namibia — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/little-kulala-namibia/hero.webp",
+      "alt": "little-kulala-namibia — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/little-kulala-namibia/room.webp",
+      "alt": "little-kulala-namibia — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/little-kulala-namibia/pool.webp",
+      "alt": "little-kulala-namibia — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/little-kulala-namibia/spa.webp",
+      "alt": "little-kulala-namibia — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/little-kulala-namibia/dining.webp",
+      "alt": "little-kulala-namibia — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.7,
   "tripadvisor_award": true,
@@ -40,13 +77,41 @@
     "verdict": "Little Kulala is the closest you can sleep to the Sossusvlei dunes and still wake up in five-star comfort. The 11 thatched 'kulalas' are spread across the private 37,000-hectare Kulala Wilderness Reserve, which shares a fence and a private gate with Namib-Naukluft National Park. That single piece of geography is the entire honeymoon argument: while every other lodge guest is queuing in the dark at Sesriem main gate, your guide drives you straight onto the dune road and you arrive at Deadvlei before the first tour bus. The kulalas themselves were rebuilt by Wilderness Safaris in 2021, and the new design centres the experience on a private rooftop sky bed — you climb a wooden ladder after dinner, lie on a thick mattress under a duvet, and watch the Milky Way burn overhead in some of the darkest skies on Earth. There is a private plunge pool, an outdoor shower, a fireplace, and a deck angled toward the dune horizon. Food is generous, modern, and quietly polished; the staff have the easy warmth that defines top Namibian camps. For couples chasing the cinematic Namibia of orange dunes and silver stars, this is the genuine article.",
     "best_room": "All 11 kulalas are identical in size and footprint, so the room conversation is really about location on the property. Request kulalas 1, 2, or 3 — the three closest to the riverbed at the south end of camp — for the longest uninterrupted dune view from bed and the quietest deck at sunset. If you can stretch to it, the Honeymoon Kulala (it is sometimes sold as a separate category, sometimes just a request flag) sits slightly apart with extra deck space.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival via Kulala Airstrip", "description": "Light-aircraft flight from Windhoek lands on the property's private airstrip. Champagne welcome, lunch on the deck, slow afternoon settling into the kulala. First sundowner driven into the dune sea on the private reserve, with a pop-up bar set in the sand." },
-      { "day": 2, "title": "Sossusvlei sunrise", "description": "Pre-dawn coffee, then a private vehicle through the Kulala gate into Namib-Naukluft. Climb Big Daddy or Dune 45, walk into Deadvlei in the long morning light. Brunch back at camp, plunge pool and siesta through the heat." },
-      { "day": 3, "title": "Sesriem Canyon and stargazing", "description": "Lazy morning, late breakfast. Afternoon drive to Sesriem Canyon for a cool walk in the gorge. Return for a private boma dinner and astronomy session — guides set up a telescope and walk you through the southern sky from your sky bed." },
-      { "day": 4, "title": "Hot air balloon and champagne breakfast", "description": "Early lift-off with Namib Sky Balloon Safaris drifts you silently over the dune sea at sunrise. Land for a full champagne breakfast in the desert. Back at camp by midday for spa treatments and pool time." },
-      { "day": 5, "title": "Guided e-bike and quad excursion", "description": "Morning e-bike ride along the Kulala riverbed with a guide, photographing oryx and springbok against the dunes. Afternoon free for in-room massage. Sunset cocktails on the rooftop deck." },
-      { "day": 6, "title": "Scenic flight to the Skeleton Coast", "description": "Optional add-on day: a chartered flight north over the Sossusvlei dunes, the Diamond Restricted Area, and the shipwrecks of the Skeleton Coast, returning by late afternoon. Final dinner under the stars." },
-      { "day": 7, "title": "Slow morning and onward flight", "description": "Sleep late, breakfast on the deck, last plunge pool. Light-aircraft transfer to your next camp (Hoanib or Damaraland) or back to Windhoek for the international flight home." }
+      {
+        "day": 1,
+        "title": "Arrival via Kulala Airstrip",
+        "description": "Light-aircraft flight from Windhoek lands on the property's private airstrip. Champagne welcome, lunch on the deck, slow afternoon settling into the kulala. First sundowner driven into the dune sea on the private reserve, with a pop-up bar set in the sand."
+      },
+      {
+        "day": 2,
+        "title": "Sossusvlei sunrise",
+        "description": "Pre-dawn coffee, then a private vehicle through the Kulala gate into Namib-Naukluft. Climb Big Daddy or Dune 45, walk into Deadvlei in the long morning light. Brunch back at camp, plunge pool and siesta through the heat."
+      },
+      {
+        "day": 3,
+        "title": "Sesriem Canyon and stargazing",
+        "description": "Lazy morning, late breakfast. Afternoon drive to Sesriem Canyon for a cool walk in the gorge. Return for a private boma dinner and astronomy session — guides set up a telescope and walk you through the southern sky from your sky bed."
+      },
+      {
+        "day": 4,
+        "title": "Hot air balloon and champagne breakfast",
+        "description": "Early lift-off with Namib Sky Balloon Safaris drifts you silently over the dune sea at sunrise. Land for a full champagne breakfast in the desert. Back at camp by midday for spa treatments and pool time."
+      },
+      {
+        "day": 5,
+        "title": "Guided e-bike and quad excursion",
+        "description": "Morning e-bike ride along the Kulala riverbed with a guide, photographing oryx and springbok against the dunes. Afternoon free for in-room massage. Sunset cocktails on the rooftop deck."
+      },
+      {
+        "day": 6,
+        "title": "Scenic flight to the Skeleton Coast",
+        "description": "Optional add-on day: a chartered flight north over the Sossusvlei dunes, the Diamond Restricted Area, and the shipwrecks of the Skeleton Coast, returning by late afternoon. Final dinner under the stars."
+      },
+      {
+        "day": 7,
+        "title": "Slow morning and onward flight",
+        "description": "Sleep late, breakfast on the deck, last plunge pool. Light-aircraft transfer to your next camp (Hoanib or Damaraland) or back to Windhoek for the international flight home."
+      }
     ],
     "caveats": [
       "Sossusvlei is hot — October to March daytime temperatures regularly exceed 38C. May to August is cooler but desert nights drop near freezing.",
@@ -56,12 +121,30 @@
       "Hot air ballooning is weather-dependent and books out months ahead in peak season — request at the time of reservation, not on arrival."
     ],
     "faqs": [
-      { "question": "How does the private gate to Sossusvlei actually work?", "answer": "The Kulala Wilderness Reserve shares a fence with Namib-Naukluft National Park and has its own gate that opens before the main Sesriem gate. Your guide drives you directly onto the dune road, so you reach Deadvlei 30 to 45 minutes ahead of the day-tripper crowd. This is the single biggest practical advantage of Little Kulala over lodges outside the reserve." },
-      { "question": "Can we sleep on the rooftop sky bed every night?", "answer": "Yes, weather permitting. The bed is set up with linens and a thick duvet on request — staff prepare it after turn-down. In summer, dust storms or rare rain can mean a night indoors; in winter, dress warmly because the desert gets cold after midnight." },
-      { "question": "Is Little Kulala suitable if one of us is not a hardcore safari person?", "answer": "Yes — it is the gentlest of the major Namibia camps for non-safari partners. Game viewing here is scenery-and-oryx, not Big Five tracking. The activity rhythm is sunrise dune drive, late brunch, pool, sunset drink, dinner. You can easily skip a morning to sleep in." },
-      { "question": "When is the best month for a Namibia honeymoon at Little Kulala?", "answer": "May, June, and September are the sweet spot: dry, cool mornings, mild afternoons, and clear night skies for stargazing. April and October are also excellent. Avoid late November to February if you dislike heat." },
-      { "question": "How do we combine Little Kulala with the rest of Namibia?", "answer": "The classic honeymoon loop is Sossusvlei (Little Kulala, 3 nights) — Damaraland or Skeleton Coast (3 nights) — Etosha (3 nights), all linked by light-aircraft transfers booked through Wilderness Air. Expect 9 to 11 total nights for a relaxed pace." },
-      { "question": "What is included in the rate?", "answer": "All meals, local drinks (including most wines), two activities per day (sunrise and afternoon drives, dune walks, sundowners), park fees, and laundry. Hot air ballooning, helicopter flights, and premium wines are extra." }
+      {
+        "question": "How does the private gate to Sossusvlei actually work?",
+        "answer": "The Kulala Wilderness Reserve shares a fence with Namib-Naukluft National Park and has its own gate that opens before the main Sesriem gate. Your guide drives you directly onto the dune road, so you reach Deadvlei 30 to 45 minutes ahead of the day-tripper crowd. This is the single biggest practical advantage of Little Kulala over lodges outside the reserve."
+      },
+      {
+        "question": "Can we sleep on the rooftop sky bed every night?",
+        "answer": "Yes, weather permitting. The bed is set up with linens and a thick duvet on request — staff prepare it after turn-down. In summer, dust storms or rare rain can mean a night indoors; in winter, dress warmly because the desert gets cold after midnight."
+      },
+      {
+        "question": "Is Little Kulala suitable if one of us is not a hardcore safari person?",
+        "answer": "Yes — it is the gentlest of the major Namibia camps for non-safari partners. Game viewing here is scenery-and-oryx, not Big Five tracking. The activity rhythm is sunrise dune drive, late brunch, pool, sunset drink, dinner. You can easily skip a morning to sleep in."
+      },
+      {
+        "question": "When is the best month for a Namibia honeymoon at Little Kulala?",
+        "answer": "May, June, and September are the sweet spot: dry, cool mornings, mild afternoons, and clear night skies for stargazing. April and October are also excellent. Avoid late November to February if you dislike heat."
+      },
+      {
+        "question": "How do we combine Little Kulala with the rest of Namibia?",
+        "answer": "The classic honeymoon loop is Sossusvlei (Little Kulala, 3 nights) — Damaraland or Skeleton Coast (3 nights) — Etosha (3 nights), all linked by light-aircraft transfers booked through Wilderness Air. Expect 9 to 11 total nights for a relaxed pace."
+      },
+      {
+        "question": "What is included in the rate?",
+        "answer": "All meals, local drinks (including most wines), two activities per day (sunrise and afternoon drives, dune walks, sundowners), park fees, and laundry. Hot air ballooning, helicopter flights, and premium wines are extra."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Little Kulala, [arrival date]\n\nDear Reservations,\n\nMy partner and I are planning our honeymoon for [dates, 3 to 4 nights] and would love to stay at Little Kulala. Could you please confirm:\n\n- Availability of one Kulala for [number of nights]\n- A southern-end kulala (1, 2, or 3) for the dune view, or your honeymoon kulala if available\n- Hot air balloon booking for the morning of day 2 or 3\n- Private guided vehicle for our Sossusvlei sunrise drive\n- Light-aircraft transfer from Windhoek and onward to [next camp]\n- Any honeymoon arrangements you can offer (sky-bed setup, private dinner, in-room spa)\n\nWe are flexible on dates within [window]. Looking forward to your proposal.\n\nWarm regards,\n[Names]"
   },

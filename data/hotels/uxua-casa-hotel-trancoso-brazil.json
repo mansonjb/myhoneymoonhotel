@@ -3,7 +3,11 @@
   "name": "UXUA Casa Hotel & Spa Trancoso",
   "destination": "brazil",
   "country": "brazil",
-  "experience_types": ["beach", "luxury", "wellness"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "wellness"
+  ],
   "honeymoon_score": 95,
   "score_breakdown": {
     "adults_only": 17,
@@ -17,7 +21,10 @@
     "luxury": 0
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 700, "max": 2500 },
+  "price_per_night_usd": {
+    "min": 700,
+    "max": 2500
+  },
   "adults_only": false,
   "amenities": [
     "Almescar spa",
@@ -37,11 +44,31 @@
     "private dining"
   ],
   "photos": [
-    { "url": "/images/hotels/uxua-casa-hotel-trancoso-brazil/hero.webp", "alt": "UXUA Casa Hotel & Spa Trancoso — hero", "type": "hero" },
-    { "url": "/images/hotels/uxua-casa-hotel-trancoso-brazil/room.webp", "alt": "UXUA Casa Hotel & Spa Trancoso — room", "type": "room" },
-    { "url": "/images/hotels/uxua-casa-hotel-trancoso-brazil/pool.webp", "alt": "UXUA Casa Hotel & Spa Trancoso — pool", "type": "pool" },
-    { "url": "/images/hotels/uxua-casa-hotel-trancoso-brazil/spa.webp", "alt": "UXUA Casa Hotel & Spa Trancoso — spa", "type": "spa" },
-    { "url": "/images/hotels/uxua-casa-hotel-trancoso-brazil/dining.webp", "alt": "UXUA Casa Hotel & Spa Trancoso — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/uxua-casa-hotel-trancoso-brazil/hero.webp",
+      "alt": "uxua-casa-hotel-trancoso-brazil — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/uxua-casa-hotel-trancoso-brazil/room.webp",
+      "alt": "uxua-casa-hotel-trancoso-brazil — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/uxua-casa-hotel-trancoso-brazil/pool.webp",
+      "alt": "uxua-casa-hotel-trancoso-brazil — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/uxua-casa-hotel-trancoso-brazil/spa.webp",
+      "alt": "uxua-casa-hotel-trancoso-brazil — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/uxua-casa-hotel-trancoso-brazil/dining.webp",
+      "alt": "uxua-casa-hotel-trancoso-brazil — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.6,
   "tripadvisor_award": true,
@@ -50,13 +77,41 @@
     "verdict": "UXUA is the most romantic small hotel in Brazil. The dream-child of former Diesel creative director Wilbert Das, it occupies eleven historic fishermen's cottages restored and reimagined around the Quadrado — the grass-covered colonial square in the village of Trancoso, in southern Bahia. Each casa is its own private compound, hand-built with reclaimed peroba wood, hand-glazed tiles, mosaic-floor bathrooms, outdoor garden showers and, in many cases, a private plunge pool. The communal pool is lined in semi-precious aventurine quartz that supposedly soothes the heart chakra; the Almescar Spa uses Brazilian medicinal plants harvested from the hotel's own forest gardens. By day you walk barefoot down a dirt path to Praia dos Nativos and the UXUA beach club; by evening you eat by candlelight on the Quadrado as fireflies rise from the grass and a samba band tunes up. There is no equivalent in Brazil and very little equivalent anywhere — UXUA is a once-in-a-honeymoon hotel.",
     "best_room": "Casa Pitinga or Casa Aimoré — both have private gardens, outdoor showers and plunge pools. For pure showstopper, Casa Bromélia is a treehouse-feel suite suspended in the canopy. Honeymooners should pay for a casa with a plunge pool; the privacy is the point.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival and Quadrado dinner", "description": "Long drive or charter from Porto Seguro airport, settle into your casa, swim in the aventurine pool. Candlelit dinner on the Quadrado at the UXUA restaurant; live forró spills from the church side of the square." },
-      { "day": 2, "title": "Praia dos Nativos beach day", "description": "Walk the path through coconut palms to UXUA's beach club. Loungers, fresh-grilled fish, coconuts, optional kayak in the river that meets the sea. Sunset caipirinhas at the beach bar." },
-      { "day": 3, "title": "Spa and slow morning", "description": "Couple's treatment at the Almescar Spa — the herbal steam bath followed by a four-hands ritual. Lunch at Capim Santo, an old Trancoso institution two minutes away. Afternoon nap; evening at the hotel bar." },
-      { "day": 4, "title": "Praia do Espelho", "description": "Day trip 30 minutes south to Praia do Espelho, often voted Brazil's most beautiful beach. Lunch at Outeiro das Brisas or Vila do Outeiro. Back to UXUA for sunset on the Quadrado." },
-      { "day": 5, "title": "Horseback ride and yoga", "description": "Sunrise yoga on the deck. Mid-morning horseback ride along Praia do Rio Verde. Lazy beach club afternoon, dinner at Mestiço or Maritaca for new-Bahian cooking." },
-      { "day": 6, "title": "Caraíva day trip", "description": "Boat or 4x4 to the car-free fishing village of Caraíva — sand streets, Indigenous culture, the meeting of river and sea. Lunch at Pousada da Terra. Return for a final massage." },
-      { "day": 7, "title": "Quadrado farewell", "description": "Slow morning at your casa, brunch by the aventurine pool, last walk to the beach for sunset, late dinner on the Quadrado before transfer in the morning." }
+      {
+        "day": 1,
+        "title": "Arrival and Quadrado dinner",
+        "description": "Long drive or charter from Porto Seguro airport, settle into your casa, swim in the aventurine pool. Candlelit dinner on the Quadrado at the UXUA restaurant; live forró spills from the church side of the square."
+      },
+      {
+        "day": 2,
+        "title": "Praia dos Nativos beach day",
+        "description": "Walk the path through coconut palms to UXUA's beach club. Loungers, fresh-grilled fish, coconuts, optional kayak in the river that meets the sea. Sunset caipirinhas at the beach bar."
+      },
+      {
+        "day": 3,
+        "title": "Spa and slow morning",
+        "description": "Couple's treatment at the Almescar Spa — the herbal steam bath followed by a four-hands ritual. Lunch at Capim Santo, an old Trancoso institution two minutes away. Afternoon nap; evening at the hotel bar."
+      },
+      {
+        "day": 4,
+        "title": "Praia do Espelho",
+        "description": "Day trip 30 minutes south to Praia do Espelho, often voted Brazil's most beautiful beach. Lunch at Outeiro das Brisas or Vila do Outeiro. Back to UXUA for sunset on the Quadrado."
+      },
+      {
+        "day": 5,
+        "title": "Horseback ride and yoga",
+        "description": "Sunrise yoga on the deck. Mid-morning horseback ride along Praia do Rio Verde. Lazy beach club afternoon, dinner at Mestiço or Maritaca for new-Bahian cooking."
+      },
+      {
+        "day": 6,
+        "title": "Caraíva day trip",
+        "description": "Boat or 4x4 to the car-free fishing village of Caraíva — sand streets, Indigenous culture, the meeting of river and sea. Lunch at Pousada da Terra. Return for a final massage."
+      },
+      {
+        "day": 7,
+        "title": "Quadrado farewell",
+        "description": "Slow morning at your casa, brunch by the aventurine pool, last walk to the beach for sunset, late dinner on the Quadrado before transfer in the morning."
+      }
     ],
     "caveats": [
       "Getting there is a project — fly into Porto Seguro (BPS), then 80–90 minutes by road. The hotel arranges transfers but allow buffer time.",
@@ -66,12 +121,30 @@
       "Not adults-only — but the casas are private and family bookings are unusual outside school holidays."
     ],
     "faqs": [
-      { "question": "How do we get to Trancoso?", "answer": "Fly Rio or São Paulo to Porto Seguro (BPS), then a 90-minute road transfer arranged by UXUA. Some couples charter a small plane to the local Trancoso airstrip — the hotel can organise it." },
-      { "question": "When is the best time to go?", "answer": "December through March is high summer and the village is at its liveliest. November and April–May are quieter, slightly cheaper, and still warm. Avoid June and the Brazilian winter rains." },
-      { "question": "Should we pay for a private plunge pool?", "answer": "If your budget allows, yes — it is the defining UXUA experience. The aventurine communal pool is small and gets used; your private plunge is private." },
-      { "question": "Is the food at UXUA good?", "answer": "Excellent. The hotel restaurant on the Quadrado is one of Trancoso's best, and the beach club does outstanding fresh fish. The wider village has more good small restaurants per capita than almost anywhere in Brazil." },
-      { "question": "Is it adults-only?", "answer": "No, but the casas are private and the bohemian, slow vibe attracts mostly couples and creative travellers. Brazilian school holidays bring more families." },
-      { "question": "Is there nightlife?", "answer": "Yes, but Trancoso-style: live forró bands, beach bars, candlelit Quadrado dinners. Not clubs. Couples love it; partygoers should look elsewhere." }
+      {
+        "question": "How do we get to Trancoso?",
+        "answer": "Fly Rio or São Paulo to Porto Seguro (BPS), then a 90-minute road transfer arranged by UXUA. Some couples charter a small plane to the local Trancoso airstrip — the hotel can organise it."
+      },
+      {
+        "question": "When is the best time to go?",
+        "answer": "December through March is high summer and the village is at its liveliest. November and April–May are quieter, slightly cheaper, and still warm. Avoid June and the Brazilian winter rains."
+      },
+      {
+        "question": "Should we pay for a private plunge pool?",
+        "answer": "If your budget allows, yes — it is the defining UXUA experience. The aventurine communal pool is small and gets used; your private plunge is private."
+      },
+      {
+        "question": "Is the food at UXUA good?",
+        "answer": "Excellent. The hotel restaurant on the Quadrado is one of Trancoso's best, and the beach club does outstanding fresh fish. The wider village has more good small restaurants per capita than almost anywhere in Brazil."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "No, but the casas are private and the bohemian, slow vibe attracts mostly couples and creative travellers. Brazilian school holidays bring more families."
+      },
+      {
+        "question": "Is there nightlife?",
+        "answer": "Yes, but Trancoso-style: live forró bands, beach bars, candlelit Quadrado dinners. Not clubs. Couples love it; partygoers should look elsewhere."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — UXUA Casa Hotel Trancoso, [Dates]\n\nHello UXUA reservations,\n\nWe are planning our honeymoon and would love to stay at UXUA Casa Hotel & Spa from [arrival date] for [number] nights.\n\nCould you please share:\n- Availability for a casa with a private plunge pool (Pitinga, Aimoré or similar)\n- Honeymoon offer details (welcome amenity, in-casa breakfast, spa treatment, late checkout)\n- Almescar Spa couple's ritual recommendations and pricing\n- Airport transfer options from Porto Seguro\n- Charter flight options to Trancoso airstrip if available\n\nWe are flexible by a few days if that helps with availability.\n\nThank you,\n[Your name]"
   },

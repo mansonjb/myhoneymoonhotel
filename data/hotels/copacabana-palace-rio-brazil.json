@@ -3,7 +3,10 @@
   "name": "Copacabana Palace, A Belmond Hotel",
   "destination": "brazil",
   "country": "brazil",
-  "experience_types": ["beach", "luxury"],
+  "experience_types": [
+    "beach",
+    "luxury"
+  ],
   "honeymoon_score": 91,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,7 +20,10 @@
     "luxury": 12
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 500, "max": 1800 },
+  "price_per_night_usd": {
+    "min": 500,
+    "max": 1800
+  },
   "adults_only": false,
   "amenities": [
     "spa",
@@ -37,11 +43,31 @@
     "high-speed wifi"
   ],
   "photos": [
-    { "url": "/images/hotels/copacabana-palace-rio-brazil/hero.webp", "alt": "Copacabana Palace, A Belmond Hotel — hero", "type": "hero" },
-    { "url": "/images/hotels/copacabana-palace-rio-brazil/room.webp", "alt": "Copacabana Palace, A Belmond Hotel — room", "type": "room" },
-    { "url": "/images/hotels/copacabana-palace-rio-brazil/pool.webp", "alt": "Copacabana Palace, A Belmond Hotel — pool", "type": "pool" },
-    { "url": "/images/hotels/copacabana-palace-rio-brazil/spa.webp", "alt": "Copacabana Palace, A Belmond Hotel — spa", "type": "spa" },
-    { "url": "/images/hotels/copacabana-palace-rio-brazil/dining.webp", "alt": "Copacabana Palace, A Belmond Hotel — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/copacabana-palace-rio-brazil/hero.webp",
+      "alt": "copacabana-palace-rio-brazil — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/copacabana-palace-rio-brazil/room.webp",
+      "alt": "copacabana-palace-rio-brazil — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/copacabana-palace-rio-brazil/pool.webp",
+      "alt": "copacabana-palace-rio-brazil — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/copacabana-palace-rio-brazil/spa.webp",
+      "alt": "copacabana-palace-rio-brazil — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/copacabana-palace-rio-brazil/dining.webp",
+      "alt": "copacabana-palace-rio-brazil — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.4,
   "tripadvisor_award": true,
@@ -50,13 +76,41 @@
     "verdict": "The Copacabana Palace is the grande dame of Rio de Janeiro and arguably the most storied hotel in South America. Opened in 1923 in pure Art Deco grandeur, it has hosted Madonna, Mick Jagger, Princess Diana, the Rolling Stones (who famously stayed during their 2006 free concert on the beach below), Marlene Dietrich and every significant guest passing through Brazil for over a century. Today, under Belmond stewardship, the 239-room property pairs heritage with the discreet, polished service that defines the group. For honeymooners, the magic is the address itself — a white wedding cake of a building facing the most famous beach in the world, with Sugarloaf Mountain framing every sunset from the rooftop pool. Couples who want a beach-and-city honeymoon, who plan to dance the night away in Lapa, who care about a sense of place and a sense of history, will find no equal in Brazil.",
     "best_room": "Book a Deluxe Ocean Front Suite in the historic main building or — if budget allows — a Penthouse Suite with private terrace facing Copacabana Beach. The Belmond Wing rooms are larger and more contemporary, but the original main building is where the romance lives: parquet floors, marble bathrooms, balconies onto the avenue and the wave-mosaic Copacabana sidewalk below. Wake to the sound of the Atlantic and breakfast on the terrace.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival and rooftop pool", "description": "Settle in, change into swimwear and head to the famous heated rooftop pool. Champagne welcome as the sun drops behind Sugarloaf. Dinner at Cipriani, the hotel's century-old Italian restaurant, with Bellinis to start." },
-      { "day": 2, "title": "Sugarloaf and beach day", "description": "Morning cable car up Pão de Açúcar for the postcard view of Rio. Back to the hotel for a Copacabana beach afternoon — the hotel sets up loungers, umbrellas and butler service on the sand directly across Avenida Atlântica." },
-      { "day": 3, "title": "Christ the Redeemer and Santa Teresa", "description": "Early van up Corcovado before the crowds. Lunch in the bohemian hilltop neighbourhood of Santa Teresa at Aprazível, with sweeping bay views. Sunset caipirinhas at the rooftop bar." },
-      { "day": 4, "title": "Spa day and MEE dining", "description": "A slow morning at the Copacabana Palace Spa — couple's massage and the steam room. Lunch poolside. Evening at MEE, the Michelin-starred Pan-Asian restaurant inside the hotel." },
-      { "day": 5, "title": "Ipanema and Leblon", "description": "Walk or taxi west along the beachfront promenade to Ipanema and Leblon. Lunch at Garota de Ipanema (where the song was written), shopping in Visconde de Pirajá, sunset at Arpoador rock." },
-      { "day": 6, "title": "Tijuca rainforest and samba night", "description": "Half-day jeep tour into Tijuca, the world's largest urban rainforest. Evening samba show in Lapa under the white arches — Rio Scenarium or Carioca da Gema." },
-      { "day": 7, "title": "Helicopter farewell", "description": "Splurge on a 30-minute helicopter tour over Christ, Sugarloaf and the beaches. Long lunch by the rooftop pool, final dinner at Cipriani's terrace, late checkout." }
+      {
+        "day": 1,
+        "title": "Arrival and rooftop pool",
+        "description": "Settle in, change into swimwear and head to the famous heated rooftop pool. Champagne welcome as the sun drops behind Sugarloaf. Dinner at Cipriani, the hotel's century-old Italian restaurant, with Bellinis to start."
+      },
+      {
+        "day": 2,
+        "title": "Sugarloaf and beach day",
+        "description": "Morning cable car up Pão de Açúcar for the postcard view of Rio. Back to the hotel for a Copacabana beach afternoon — the hotel sets up loungers, umbrellas and butler service on the sand directly across Avenida Atlântica."
+      },
+      {
+        "day": 3,
+        "title": "Christ the Redeemer and Santa Teresa",
+        "description": "Early van up Corcovado before the crowds. Lunch in the bohemian hilltop neighbourhood of Santa Teresa at Aprazível, with sweeping bay views. Sunset caipirinhas at the rooftop bar."
+      },
+      {
+        "day": 4,
+        "title": "Spa day and MEE dining",
+        "description": "A slow morning at the Copacabana Palace Spa — couple's massage and the steam room. Lunch poolside. Evening at MEE, the Michelin-starred Pan-Asian restaurant inside the hotel."
+      },
+      {
+        "day": 5,
+        "title": "Ipanema and Leblon",
+        "description": "Walk or taxi west along the beachfront promenade to Ipanema and Leblon. Lunch at Garota de Ipanema (where the song was written), shopping in Visconde de Pirajá, sunset at Arpoador rock."
+      },
+      {
+        "day": 6,
+        "title": "Tijuca rainforest and samba night",
+        "description": "Half-day jeep tour into Tijuca, the world's largest urban rainforest. Evening samba show in Lapa under the white arches — Rio Scenarium or Carioca da Gema."
+      },
+      {
+        "day": 7,
+        "title": "Helicopter farewell",
+        "description": "Splurge on a 30-minute helicopter tour over Christ, Sugarloaf and the beaches. Long lunch by the rooftop pool, final dinner at Cipriani's terrace, late checkout."
+      }
     ],
     "caveats": [
       "Copacabana neighbourhood has petty-crime risk; do not wear jewellery or carry phones openly outside the hotel.",
@@ -66,12 +120,30 @@
       "Not adults-only — families with children share the pools and public areas, particularly in Brazilian school holidays."
     ],
     "faqs": [
-      { "question": "Is Copacabana safe enough for a honeymoon?", "answer": "Inside the hotel and on the hotel-managed beach service it is very safe. Walking the beachfront promenade by day is fine. After dark, take taxis or Ubers door-to-door rather than walking, and leave valuables in the room safe." },
-      { "question": "Main building or Belmond Wing?", "answer": "Main building for romance and history; Belmond Wing for more space, contemporary design and quieter rooms. Both share all facilities. Honeymooners typically prefer the main building." },
-      { "question": "How is the food scene at the hotel?", "answer": "Exceptional. Cipriani is the classic Italian, MEE holds a Michelin star for Pan-Asian, and Pérgula by the pool does relaxed Brazilian. You could honestly eat all week without leaving." },
-      { "question": "Is the rooftop pool worth the hype?", "answer": "Yes. It is heated, faces Sugarloaf, and the sunset hour with a caipirinha is a defining Rio moment. The ground-floor pool is larger if you want to swim laps." },
-      { "question": "Can the hotel arrange Carnival access?", "answer": "Yes — they sell Sambadrome packages with transport and grandstand tickets, and they host one of the most famous black-tie balls of Carnival, the Magic Ball, in the ballroom." },
-      { "question": "How do we get there from the airport?", "answer": "It is roughly 45 minutes from GIG (Galeão International). The hotel runs a private transfer service in Mercedes vans; book in advance through the concierge." }
+      {
+        "question": "Is Copacabana safe enough for a honeymoon?",
+        "answer": "Inside the hotel and on the hotel-managed beach service it is very safe. Walking the beachfront promenade by day is fine. After dark, take taxis or Ubers door-to-door rather than walking, and leave valuables in the room safe."
+      },
+      {
+        "question": "Main building or Belmond Wing?",
+        "answer": "Main building for romance and history; Belmond Wing for more space, contemporary design and quieter rooms. Both share all facilities. Honeymooners typically prefer the main building."
+      },
+      {
+        "question": "How is the food scene at the hotel?",
+        "answer": "Exceptional. Cipriani is the classic Italian, MEE holds a Michelin star for Pan-Asian, and Pérgula by the pool does relaxed Brazilian. You could honestly eat all week without leaving."
+      },
+      {
+        "question": "Is the rooftop pool worth the hype?",
+        "answer": "Yes. It is heated, faces Sugarloaf, and the sunset hour with a caipirinha is a defining Rio moment. The ground-floor pool is larger if you want to swim laps."
+      },
+      {
+        "question": "Can the hotel arrange Carnival access?",
+        "answer": "Yes — they sell Sambadrome packages with transport and grandstand tickets, and they host one of the most famous black-tie balls of Carnival, the Magic Ball, in the ballroom."
+      },
+      {
+        "question": "How do we get there from the airport?",
+        "answer": "It is roughly 45 minutes from GIG (Galeão International). The hotel runs a private transfer service in Mercedes vans; book in advance through the concierge."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Copacabana Palace, [Dates]\n\nHello Copacabana Palace reservations team,\n\nMy partner and I are planning our honeymoon and would love to stay at the Copacabana Palace from [arrival date] for [number] nights. We are celebrating our marriage and would be grateful for any honeymoon recognition you offer.\n\nCould you please share:\n- Availability and rate for a Deluxe Ocean Front Suite in the main building\n- Honeymoon package details (champagne, breakfast in suite, spa credit, late checkout)\n- Airport transfer pricing\n- Cipriani and MEE reservation policy for in-house guests\n\nWe are flexible by a few days if it helps with availability or upgrades.\n\nThank you,\n[Your name]"
   },

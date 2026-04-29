@@ -3,11 +3,27 @@
   "name": "Mowani Mountain Camp Damaraland",
   "destination": "namibia",
   "country": "namibia",
-  "experience_types": ["safari", "luxury"],
+  "experience_types": [
+    "safari",
+    "luxury"
+  ],
   "honeymoon_score": 89,
-  "score_breakdown": { "adults_only": 25, "couples_pct": 16, "spa": 8, "award": 13, "pool": 7, "beach": 0, "room_service": 5, "stars": 10, "luxury": 5 },
+  "score_breakdown": {
+    "adults_only": 25,
+    "couples_pct": 16,
+    "spa": 8,
+    "award": 13,
+    "pool": 7,
+    "beach": 0,
+    "room_service": 5,
+    "stars": 10,
+    "luxury": 5
+  },
   "stars": 4,
-  "price_per_night_usd": { "min": 500, "max": 1300 },
+  "price_per_night_usd": {
+    "min": 500,
+    "max": 1300
+  },
   "adults_only": false,
   "amenities": [
     "12 tented suites among granite kopjes",
@@ -27,11 +43,31 @@
     "airstrip transfers"
   ],
   "photos": [
-    { "url": "/images/hotels/mowani-mountain-camp-damaraland-namibia/hero.webp", "alt": "mowani-mountain-camp-damaraland-namibia — hero", "type": "hero" },
-    { "url": "/images/hotels/mowani-mountain-camp-damaraland-namibia/room.webp", "alt": "mowani-mountain-camp-damaraland-namibia — room", "type": "room" },
-    { "url": "/images/hotels/mowani-mountain-camp-damaraland-namibia/pool.webp", "alt": "mowani-mountain-camp-damaraland-namibia — pool", "type": "pool" },
-    { "url": "/images/hotels/mowani-mountain-camp-damaraland-namibia/spa.webp", "alt": "mowani-mountain-camp-damaraland-namibia — spa", "type": "spa" },
-    { "url": "/images/hotels/mowani-mountain-camp-damaraland-namibia/dining.webp", "alt": "mowani-mountain-camp-damaraland-namibia — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/mowani-mountain-camp-damaraland-namibia/hero.webp",
+      "alt": "mowani-mountain-camp-damaraland-namibia — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/mowani-mountain-camp-damaraland-namibia/room.webp",
+      "alt": "mowani-mountain-camp-damaraland-namibia — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/mowani-mountain-camp-damaraland-namibia/pool.webp",
+      "alt": "mowani-mountain-camp-damaraland-namibia — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/mowani-mountain-camp-damaraland-namibia/spa.webp",
+      "alt": "mowani-mountain-camp-damaraland-namibia — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/mowani-mountain-camp-damaraland-namibia/dining.webp",
+      "alt": "mowani-mountain-camp-damaraland-namibia — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.3,
   "tripadvisor_award": true,
@@ -40,13 +76,41 @@
     "verdict": "Mowani is the best mid-priced lodge in Damaraland and the most photogenic property between Sossusvlei and Etosha. The 12 thatched tented suites are scattered among house-sized red granite boulders; you climb a stone staircase to reach your room, push open a wooden door, and walk into a deck angled at the surrounding kopjes. The signature feature is the rooftop sundowner bar built on top of a single huge boulder — guests gather there with a drink as the rocks turn from rust to crimson under a low sun. The lodge is the natural base for Damaraland's three big honeymoon experiences: tracking the desert-adapted elephants of the Huab and Aba Huab riverbeds (a small population of perhaps 100 animals that have learned to live in a desert), visiting the UNESCO World Heritage rock engravings at Twyfelfontein (over 2,500 prehistoric petroglyphs), and exploring the surreal Burnt Mountain and Organ Pipes geological formations. The lodge itself is more rustic than the top-end Wilderness or andBeyond properties — service is friendly rather than choreographed, the spa is small, and the food is hearty rather than refined — but for couples on a sensible budget who want one of the great Namibia experiences, this is the right call.",
     "best_room": "Suites 7-12 sit higher up the boulder hillside and have the longest views and the most privacy; suites 1-6 are closer to the main lodge and pool, slightly more convenient for couples who do not want to walk far at night. The Mowani View Suite (premier category) has a freestanding tub on the deck and the best single rock-formation view.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival in Damaraland", "description": "Drive or fly in (about 90 minutes from Doro Nawas airstrip, or longer by road from Sossusvlei or Windhoek). Settle into your tent, sundowners on the boulder bar, dinner under the stars." },
-      { "day": 2, "title": "Desert elephant tracking", "description": "Pre-dawn departure for a full-day search along the Aba Huab riverbed for the desert-adapted elephants. Picnic lunch in the riverbed. Return late afternoon, pool, dinner." },
-      { "day": 3, "title": "Twyfelfontein and Organ Pipes", "description": "Morning visit to the UNESCO rock engravings at Twyfelfontein with a local guide, followed by Burnt Mountain and the Organ Pipes geological formations. Lunch back at camp, free afternoon, sundowner on the boulder bar." },
-      { "day": 4, "title": "Damara village and rest day", "description": "Half-day visit to the Damara Living Museum to learn about traditional culture and crafts. Slow afternoon by the pool, in-tent massage, private dinner setup." },
-      { "day": 5, "title": "Walking safari and photographic drive", "description": "Morning walk in the kopjes with a guide focused on rock art, geology, and birdlife. Afternoon photographic drive at golden hour through the most dramatic boulder country." },
-      { "day": 6, "title": "Optional Skeleton Coast day or rest", "description": "Optional charter flight over the Skeleton Coast for the day, or a final relaxed day at camp with a long brunch and sundowner at the boulder bar." },
-      { "day": 7, "title": "Onward transfer", "description": "Last breakfast on the rocks, transfer onward to Etosha or back to Windhoek." }
+      {
+        "day": 1,
+        "title": "Arrival in Damaraland",
+        "description": "Drive or fly in (about 90 minutes from Doro Nawas airstrip, or longer by road from Sossusvlei or Windhoek). Settle into your tent, sundowners on the boulder bar, dinner under the stars."
+      },
+      {
+        "day": 2,
+        "title": "Desert elephant tracking",
+        "description": "Pre-dawn departure for a full-day search along the Aba Huab riverbed for the desert-adapted elephants. Picnic lunch in the riverbed. Return late afternoon, pool, dinner."
+      },
+      {
+        "day": 3,
+        "title": "Twyfelfontein and Organ Pipes",
+        "description": "Morning visit to the UNESCO rock engravings at Twyfelfontein with a local guide, followed by Burnt Mountain and the Organ Pipes geological formations. Lunch back at camp, free afternoon, sundowner on the boulder bar."
+      },
+      {
+        "day": 4,
+        "title": "Damara village and rest day",
+        "description": "Half-day visit to the Damara Living Museum to learn about traditional culture and crafts. Slow afternoon by the pool, in-tent massage, private dinner setup."
+      },
+      {
+        "day": 5,
+        "title": "Walking safari and photographic drive",
+        "description": "Morning walk in the kopjes with a guide focused on rock art, geology, and birdlife. Afternoon photographic drive at golden hour through the most dramatic boulder country."
+      },
+      {
+        "day": 6,
+        "title": "Optional Skeleton Coast day or rest",
+        "description": "Optional charter flight over the Skeleton Coast for the day, or a final relaxed day at camp with a long brunch and sundowner at the boulder bar."
+      },
+      {
+        "day": 7,
+        "title": "Onward transfer",
+        "description": "Last breakfast on the rocks, transfer onward to Etosha or back to Windhoek."
+      }
     ],
     "caveats": [
       "Damaraland is a large geographical area — drives to Twyfelfontein, the Organ Pipes, or the elephant riverbeds are 30 to 90 minutes each way on gravel.",
@@ -56,12 +120,30 @@
       "Wi-Fi is patchy and intentionally limited."
     ],
     "faqs": [
-      { "question": "Are the desert elephants worth the drive?", "answer": "For most couples, yes — they are the only desert-adapted elephant population in Africa apart from a small Mali group, and the chance to track them through ancient riverbeds is genuinely memorable. Manage expectations on sighting probability and choose a full-day rather than half-day excursion." },
-      { "question": "How does Mowani compare to Damaraland Camp?", "answer": "Damaraland Camp (Wilderness Safaris) is more remote, more polished, and more expensive, with a stronger conservation story. Mowani has the more dramatic architecture among boulders and is excellent value. For first-time honeymooners on a moderate budget, Mowani is often the right pick." },
-      { "question": "Can we self-drive here?", "answer": "Yes — Damaraland is one of the most self-drive-friendly parts of Namibia and the road to Mowani is well-signed. Most honeymooners still book guided activities once on site for the desert elephant tracking." },
-      { "question": "How long should we stay?", "answer": "Two nights is the minimum for one elephant search and Twyfelfontein. Three nights is much more relaxed and lets you enjoy the lodge itself rather than rushing between activities." },
-      { "question": "Best season?", "answer": "May to October for cool, clear weather and best wildlife sightings. June and July nights are cold; pack warm layers." },
-      { "question": "Is there a spa?", "answer": "There is a small treatment facility offering massages and basic body treatments, plus in-tent massage. It is not a destination spa." }
+      {
+        "question": "Are the desert elephants worth the drive?",
+        "answer": "For most couples, yes — they are the only desert-adapted elephant population in Africa apart from a small Mali group, and the chance to track them through ancient riverbeds is genuinely memorable. Manage expectations on sighting probability and choose a full-day rather than half-day excursion."
+      },
+      {
+        "question": "How does Mowani compare to Damaraland Camp?",
+        "answer": "Damaraland Camp (Wilderness Safaris) is more remote, more polished, and more expensive, with a stronger conservation story. Mowani has the more dramatic architecture among boulders and is excellent value. For first-time honeymooners on a moderate budget, Mowani is often the right pick."
+      },
+      {
+        "question": "Can we self-drive here?",
+        "answer": "Yes — Damaraland is one of the most self-drive-friendly parts of Namibia and the road to Mowani is well-signed. Most honeymooners still book guided activities once on site for the desert elephant tracking."
+      },
+      {
+        "question": "How long should we stay?",
+        "answer": "Two nights is the minimum for one elephant search and Twyfelfontein. Three nights is much more relaxed and lets you enjoy the lodge itself rather than rushing between activities."
+      },
+      {
+        "question": "Best season?",
+        "answer": "May to October for cool, clear weather and best wildlife sightings. June and July nights are cold; pack warm layers."
+      },
+      {
+        "question": "Is there a spa?",
+        "answer": "There is a small treatment facility offering massages and basic body treatments, plus in-tent massage. It is not a destination spa."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Mowani Mountain Camp, [arrival date]\n\nDear Reservations,\n\nWe are planning our honeymoon for [dates] and would like [2 or 3] nights at Mowani. Please confirm:\n\n- Availability of one tented suite, ideally a high-side suite (7-12) or the Mowani View Suite\n- Full-day desert elephant tracking on day 1 or 2\n- Half-day Twyfelfontein and Organ Pipes excursion\n- Boulder-bar honeymoon sundowner setup on one evening\n- Transfer options from Windhoek and onward to [Etosha / Skeleton Coast]\n- Any honeymoon arrangements you can offer (in-tent dining, spa)\n\nThanks very much.\n\nKind regards,\n[Names]"
   },

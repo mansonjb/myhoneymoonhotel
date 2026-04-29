@@ -3,19 +3,69 @@
   "name": "The Oberoi Sahl Hasheesh",
   "destination": "egypt",
   "country": "egypt",
-  "experience_types": ["beach", "luxury", "adults-only"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "adults-only"
+  ],
   "honeymoon_score": 91,
-  "score_breakdown": { "adults_only": 20, "couples_pct": 18, "spa": 13, "award": 10, "pool": 5, "beach": 10, "room_service": 5, "stars": 5, "luxury": 5 },
+  "score_breakdown": {
+    "adults_only": 20,
+    "couples_pct": 18,
+    "spa": 13,
+    "award": 10,
+    "pool": 5,
+    "beach": 10,
+    "room_service": 5,
+    "stars": 5,
+    "luxury": 5
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 400, "max": 1100 },
+  "price_per_night_usd": {
+    "min": 400,
+    "max": 1100
+  },
   "adults_only": true,
-  "amenities": ["spa", "infinity pool", "private beach", "all-suite", "private courtyards", "private pool suites", "house reef", "snorkeling", "PADI dive center", "butler service", "fitness center", "two restaurants"],
+  "amenities": [
+    "spa",
+    "infinity pool",
+    "private beach",
+    "all-suite",
+    "private courtyards",
+    "private pool suites",
+    "house reef",
+    "snorkeling",
+    "PADI dive center",
+    "butler service",
+    "fitness center",
+    "two restaurants"
+  ],
   "photos": [
-    { "url": "/images/hotels/oberoi-sahl-hasheesh-egypt/hero.webp", "alt": "oberoi-sahl-hasheesh-egypt — hero", "type": "hero" },
-    { "url": "/images/hotels/oberoi-sahl-hasheesh-egypt/room.webp", "alt": "oberoi-sahl-hasheesh-egypt — room", "type": "room" },
-    { "url": "/images/hotels/oberoi-sahl-hasheesh-egypt/pool.webp", "alt": "oberoi-sahl-hasheesh-egypt — pool", "type": "pool" },
-    { "url": "/images/hotels/oberoi-sahl-hasheesh-egypt/spa.webp", "alt": "oberoi-sahl-hasheesh-egypt — spa", "type": "spa" },
-    { "url": "/images/hotels/oberoi-sahl-hasheesh-egypt/dining.webp", "alt": "oberoi-sahl-hasheesh-egypt — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/oberoi-sahl-hasheesh-egypt/hero.webp",
+      "alt": "oberoi-sahl-hasheesh-egypt — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/oberoi-sahl-hasheesh-egypt/room.webp",
+      "alt": "oberoi-sahl-hasheesh-egypt — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/oberoi-sahl-hasheesh-egypt/pool.webp",
+      "alt": "oberoi-sahl-hasheesh-egypt — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/oberoi-sahl-hasheesh-egypt/spa.webp",
+      "alt": "oberoi-sahl-hasheesh-egypt — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/oberoi-sahl-hasheesh-egypt/dining.webp",
+      "alt": "oberoi-sahl-hasheesh-egypt — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.4,
   "tripadvisor_award": true,
@@ -24,13 +74,41 @@
     "verdict": "Adults-only, all-suite, and quietly Moorish — the Oberoi Sahl Hasheesh is the most romantic Red Sea hotel in Egypt and the rare Hurghada-area resort that competes with Greece or the Maldives on bed quality. For honeymooners who want a private courtyard and a long curved infinity pool flowing toward a coral reef without the package-tourism noise of Sharm, this is the answer.",
     "best_room": "Book a Deluxe Suite with Private Pool — your own walled courtyard, private plunge pool, plus the indoor sunken bath with star-cut wooden screens that has become the property's signature image. The Royal Suite is the headline accommodation if you want full-on private dining setups and a butler permanently on call.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival, suite settle-in, & Zaafran dinner", "description": "Fly into Hurghada (HRG), the resort sends a private car for the 30-minute transfer south to Sahl Hasheesh bay. Welcome ritual at the spa-style entrance, escorted to your Deluxe Suite with Private Pool. Float in your own courtyard for an hour, then a casual first dinner at Zaafran — Indian-Egyptian fusion in a beachfront pavilion that uses the resort's own kitchen garden. Early to bed." },
-      { "day": 2, "title": "House reef snorkel & long pool day", "description": "Slow breakfast on the seafront at Kandake. Mid-morning snorkel from the resort beach — the house reef wall begins fifteen metres out and runs the length of the property with parrotfish, butterflyfish, lionfish, and the occasional turtle. Long pool afternoon at the curved infinity pool that frames the Red Sea, with mezze service and chilled rosé from the floating bar. Sunset cocktails on the rooftop, dinner room-service in your courtyard." },
-      { "day": 3, "title": "Couples' spa morning & sunset dhow", "description": "Couples' hammam ritual at the spa — black soap, kessa exfoliation, double massage in adjoining suites with star-cut wooden lanterns. Lunch at the pool, then a private dhow charter at 4pm sailing south along the bay with mezze, grilled prawns, and a sunset return. Late dinner at Kandake — the Mediterranean grill is the right move for a tasting menu night." },
-      { "day": 4, "title": "Day boat to Giftun Island & Mahmya beach", "description": "Full-day private boat charter to Giftun Island National Park — the snorkeling at Sha'ab Sabrina and the beach at Mahmya are among the best in the Red Sea, and the protected reefs are still in remarkable shape. Picnic lunch on board, swim breaks, optional dive for certified divers. Back at the resort by 5pm for a long shower and a quiet courtyard dinner under your own private sky." },
-      { "day": 5, "title": "Desert excursion or read-by-pool day", "description": "Half-day Bedouin desert excursion option — quad bikes, camel sunset, dinner under the stars in the eastern desert behind Hurghada. The alternative is to do nothing — long breakfast, a Pilates class on the lawn, lunch by the pool, an afternoon novel in your courtyard, and the on-property astronomy session that runs on clear nights. Both are great honeymoon days." },
-      { "day": 6, "title": "Luxor day trip (optional) or full beach day", "description": "Optional long day-trip to Luxor — private 4x4 transfer or charter flight, Egyptologist-guided Karnak and Luxor temples, Valley of the Kings, lunch on the West Bank, back by 9pm. It's a 14-hour day but ticks Upper Egypt without leaving the Red Sea base. If you skip it, take a private courtyard dinner with a chef cooking tableside and the resort's astronomy guide pointing out Sirius and the Pleiades." },
-      { "day": 7, "title": "Farewell breakfast & late checkout", "description": "Long breakfast at Kandake, a final reef snorkel, an hour in your private pool, lunch, then the slow transfer back to Hurghada airport. The resort offers a day-use suite for late departures — worth it for the shower and the quiet final hour." }
+      {
+        "day": 1,
+        "title": "Arrival, suite settle-in, & Zaafran dinner",
+        "description": "Fly into Hurghada (HRG), the resort sends a private car for the 30-minute transfer south to Sahl Hasheesh bay. Welcome ritual at the spa-style entrance, escorted to your Deluxe Suite with Private Pool. Float in your own courtyard for an hour, then a casual first dinner at Zaafran — Indian-Egyptian fusion in a beachfront pavilion that uses the resort's own kitchen garden. Early to bed."
+      },
+      {
+        "day": 2,
+        "title": "House reef snorkel & long pool day",
+        "description": "Slow breakfast on the seafront at Kandake. Mid-morning snorkel from the resort beach — the house reef wall begins fifteen metres out and runs the length of the property with parrotfish, butterflyfish, lionfish, and the occasional turtle. Long pool afternoon at the curved infinity pool that frames the Red Sea, with mezze service and chilled rosé from the floating bar. Sunset cocktails on the rooftop, dinner room-service in your courtyard."
+      },
+      {
+        "day": 3,
+        "title": "Couples' spa morning & sunset dhow",
+        "description": "Couples' hammam ritual at the spa — black soap, kessa exfoliation, double massage in adjoining suites with star-cut wooden lanterns. Lunch at the pool, then a private dhow charter at 4pm sailing south along the bay with mezze, grilled prawns, and a sunset return. Late dinner at Kandake — the Mediterranean grill is the right move for a tasting menu night."
+      },
+      {
+        "day": 4,
+        "title": "Day boat to Giftun Island & Mahmya beach",
+        "description": "Full-day private boat charter to Giftun Island National Park — the snorkeling at Sha'ab Sabrina and the beach at Mahmya are among the best in the Red Sea, and the protected reefs are still in remarkable shape. Picnic lunch on board, swim breaks, optional dive for certified divers. Back at the resort by 5pm for a long shower and a quiet courtyard dinner under your own private sky."
+      },
+      {
+        "day": 5,
+        "title": "Desert excursion or read-by-pool day",
+        "description": "Half-day Bedouin desert excursion option — quad bikes, camel sunset, dinner under the stars in the eastern desert behind Hurghada. The alternative is to do nothing — long breakfast, a Pilates class on the lawn, lunch by the pool, an afternoon novel in your courtyard, and the on-property astronomy session that runs on clear nights. Both are great honeymoon days."
+      },
+      {
+        "day": 6,
+        "title": "Luxor day trip (optional) or full beach day",
+        "description": "Optional long day-trip to Luxor — private 4x4 transfer or charter flight, Egyptologist-guided Karnak and Luxor temples, Valley of the Kings, lunch on the West Bank, back by 9pm. It's a 14-hour day but ticks Upper Egypt without leaving the Red Sea base. If you skip it, take a private courtyard dinner with a chef cooking tableside and the resort's astronomy guide pointing out Sirius and the Pleiades."
+      },
+      {
+        "day": 7,
+        "title": "Farewell breakfast & late checkout",
+        "description": "Long breakfast at Kandake, a final reef snorkel, an hour in your private pool, lunch, then the slow transfer back to Hurghada airport. The resort offers a day-use suite for late departures — worth it for the shower and the quiet final hour."
+      }
     ],
     "caveats": [
       "Adults-only at 16+ — children under 16 are not permitted, which is a deliberate design choice. If multi-generational travel is in your future, this isn't the right return base.",
@@ -40,12 +118,30 @@
       "Alcohol is available but expensive; bring duty-free if you have specific bottle preferences."
     ],
     "faqs": [
-      { "question": "Is it good for honeymooners?", "answer": "Outstanding — adults-only, all-suite with private courtyards, world-class house reef, and a couples-heavy demographic. The combination of privacy, design, and reef access has made it Egypt's quietest romantic favourite for over a decade." },
-      { "question": "Best time to visit?", "answer": "March to early June and September to November are ideal — warm water (24–28°C), 28–32°C air, calmer winds. December–February is great for sun but the water is cooler (low 20s)." },
-      { "question": "Should we book in advance?", "answer": "Yes — Deluxe Suites with Private Pool sell out 4–5 months ahead for the November–March high season and the Royal Suite often books a year in advance." },
-      { "question": "Is it adults-only?", "answer": "Yes, 16+ only. The atmosphere is consistently quiet, romantic, and couples-focused." },
-      { "question": "Best room type for couples?", "answer": "A Deluxe Suite with Private Pool is the honeymoon sweet spot — walled courtyard, plunge pool, sunken indoor bath. Step up to the Royal Suite for tableside dining setups and a permanent butler." },
-      { "question": "How do we get there?", "answer": "Fly into Hurghada (HRG) — direct from London, Frankfurt, Milan, Vienna, and Gulf hubs. The resort transfer is 30 minutes south to Sahl Hasheesh bay. The hotel's meet-and-greet at immigration is the right add-on." }
+      {
+        "question": "Is it good for honeymooners?",
+        "answer": "Outstanding — adults-only, all-suite with private courtyards, world-class house reef, and a couples-heavy demographic. The combination of privacy, design, and reef access has made it Egypt's quietest romantic favourite for over a decade."
+      },
+      {
+        "question": "Best time to visit?",
+        "answer": "March to early June and September to November are ideal — warm water (24–28°C), 28–32°C air, calmer winds. December–February is great for sun but the water is cooler (low 20s)."
+      },
+      {
+        "question": "Should we book in advance?",
+        "answer": "Yes — Deluxe Suites with Private Pool sell out 4–5 months ahead for the November–March high season and the Royal Suite often books a year in advance."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "Yes, 16+ only. The atmosphere is consistently quiet, romantic, and couples-focused."
+      },
+      {
+        "question": "Best room type for couples?",
+        "answer": "A Deluxe Suite with Private Pool is the honeymoon sweet spot — walled courtyard, plunge pool, sunken indoor bath. Step up to the Royal Suite for tableside dining setups and a permanent butler."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "Fly into Hurghada (HRG) — direct from London, Frankfurt, Milan, Vienna, and Gulf hubs. The resort transfer is 30 minutes south to Sahl Hasheesh bay. The hotel's meet-and-greet at immigration is the right add-on."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — The Oberoi Sahl Hasheesh\n\nDear team,\n\nWe are planning our honeymoon and are interested in staying from [DATE] to [DATE]. Could you advise on availability of a Deluxe Suite with Private Pool, any honeymoon packages, the couples' hammam ritual at the spa, and a private dhow sunset charter?\n\nThank you,\n[Names]"
   },

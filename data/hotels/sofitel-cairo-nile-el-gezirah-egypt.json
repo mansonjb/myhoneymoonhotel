@@ -3,34 +3,110 @@
   "name": "Sofitel Cairo Nile El Gezirah",
   "destination": "egypt",
   "country": "egypt",
-  "experience_types": ["luxury"],
-  "honeymoon_score": 86,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 20, "spa": 13, "award": 13, "pool": 10, "beach": 5, "room_service": 5, "stars": 15, "luxury": 5 },
-  "stars": 5,
-  "price_per_night_usd": { "min": 250, "max": 600 },
-  "adults_only": false,
-  "amenities": ["spa", "outdoor pool", "rooftop bar", "panoramic Nile views", "five restaurants", "concierge", "fitness center", "shopping arcade", "afternoon tea", "private island setting", "valet parking", "club lounge"],
-  "photos": [
-    { "url": "/images/hotels/sofitel-cairo-nile-el-gezirah-egypt/hero.webp", "alt": "sofitel-cairo-nile-el-gezirah-egypt — hero", "type": "hero" },
-    { "url": "/images/hotels/sofitel-cairo-nile-el-gezirah-egypt/room.webp", "alt": "sofitel-cairo-nile-el-gezirah-egypt — room", "type": "room" },
-    { "url": "/images/hotels/sofitel-cairo-nile-el-gezirah-egypt/pool.webp", "alt": "sofitel-cairo-nile-el-gezirah-egypt — pool", "type": "pool" },
-    { "url": "/images/hotels/sofitel-cairo-nile-el-gezirah-egypt/spa.webp", "alt": "sofitel-cairo-nile-el-gezirah-egypt — spa", "type": "spa" },
-    { "url": "/images/hotels/sofitel-cairo-nile-el-gezirah-egypt/dining.webp", "alt": "sofitel-cairo-nile-el-gezirah-egypt — dining", "type": "dining" }
+  "experience_types": [
+    "luxury"
   ],
-  "tripadvisor_rating": 9.0,
+  "honeymoon_score": 86,
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 20,
+    "spa": 13,
+    "award": 13,
+    "pool": 10,
+    "beach": 5,
+    "room_service": 5,
+    "stars": 15,
+    "luxury": 5
+  },
+  "stars": 5,
+  "price_per_night_usd": {
+    "min": 250,
+    "max": 600
+  },
+  "adults_only": false,
+  "amenities": [
+    "spa",
+    "outdoor pool",
+    "rooftop bar",
+    "panoramic Nile views",
+    "five restaurants",
+    "concierge",
+    "fitness center",
+    "shopping arcade",
+    "afternoon tea",
+    "private island setting",
+    "valet parking",
+    "club lounge"
+  ],
+  "photos": [
+    {
+      "url": "/images/hotels/sofitel-cairo-nile-el-gezirah-egypt/hero.webp",
+      "alt": "sofitel-cairo-nile-el-gezirah-egypt — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/sofitel-cairo-nile-el-gezirah-egypt/room.webp",
+      "alt": "sofitel-cairo-nile-el-gezirah-egypt — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/sofitel-cairo-nile-el-gezirah-egypt/pool.webp",
+      "alt": "sofitel-cairo-nile-el-gezirah-egypt — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/sofitel-cairo-nile-el-gezirah-egypt/spa.webp",
+      "alt": "sofitel-cairo-nile-el-gezirah-egypt — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/sofitel-cairo-nile-el-gezirah-egypt/dining.webp",
+      "alt": "sofitel-cairo-nile-el-gezirah-egypt — dining",
+      "type": "dining"
+    }
+  ],
+  "tripadvisor_rating": 9,
   "tripadvisor_award": true,
   "couples_review_pct": 73,
   "content": {
     "verdict": "Built on the southern tip of Zamalek's Gezira Island, the Sofitel is a circular tower where every one of the 433 rooms has 270-degree Nile views — there is no back side, no street-facing rooms, just the river on every angle. For honeymooners who want a value-conscious luxury Cairo base with the best skyline in the city, this is the smartest choice in town.",
     "best_room": "Book a Prestige Suite — generous corner-style suite with separate living area, two balconies catching different Nile angles, and access to the Club Millésime lounge with continuous food and drink service. Even-numbered floors above 14 give the cleanest view past the rooftop water tanks of neighbouring Zamalek buildings.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival & sunset on the Above rooftop bar", "description": "Land at Cairo (CAI), the hotel sends a car for the 50-minute transfer over the Qasr El Nil Bridge to Gezira Island. Settle into your Prestige Suite, take an hour on the balcony watching the Nile feluccas catch the last light. Up to the Above rooftop bar for sunset cocktails — the 360-degree city view is unmatched. Casual dinner at La Palme d'Or for refined French." },
-      { "day": 2, "title": "Pyramids of Giza & Egyptian Museum afternoon", "description": "Early start — private Egyptologist and car at 7am to beat the heat at Giza. Four-hour tour of Khufu, Khafre, Menkaure, and the Sphinx. Back to the hotel by 1pm for pool lunch. Afternoon at the Egyptian Museum on Tahrir Square (a 10-minute drive across the bridge) for the Tutankhamun and royal mummies galleries before they migrate fully to the GEM. Dinner at Kebabgy on the Nile-side promenade." },
-      { "day": 3, "title": "Grand Egyptian Museum full day", "description": "Full-day private guide at the new Grand Egyptian Museum at Giza — Tutankhamun's complete 5,000+ piece collection, the Khufu Solar Boat, and the panoramic restaurant facing the Pyramids. The museum needs at least five hours done well. Back via the Mamluk-era citadel for sunset light if energy allows. Dinner room-service on your balcony." },
-      { "day": 4, "title": "Coptic Cairo, Old Cairo & Khan El Khalili", "description": "Morning in Coptic Cairo — Hanging Church, Ben Ezra Synagogue, Coptic Museum, and the cluster of churches in the old Roman fortress. Lunch on a riverside dock at Maadi. Afternoon walk through Khan El Khalili souk for spices, antiques, and shisha at El Fishawy café. Back across to Zamalek for dinner at Sequoia on the river — mezze, grilled prawns, oud music." },
-      { "day": 5, "title": "Felucca for two & Cairo Opera House", "description": "Slow morning at the spa — couples' Sothys facial and oud massage. Late afternoon, the concierge arranges a private felucca from the Maadi corniche for a sunset sail. Walk back to the Cairo Opera House (15 minutes from the hotel through Gezira's gardens) for whatever is on — ballet, Arab orchestra, or recital. Late dinner at Le Pacha 1901, a docked dahabiya right next to the hotel." },
-      { "day": 6, "title": "Salt Pyramids day trip or slow Zamalek day", "description": "Either a private day trip to the Bent Pyramid and Red Pyramid at Dahshur — quieter and arguably more interesting than Giza in their architectural progression — or a slow Zamalek day exploring the island's gardens, Café Bistro, and the Cairo Tower for the afternoon panorama. Both work; energy levels by Day 6 will tell you. Dinner back at La Palme d'Or for a final fine-dining night." },
-      { "day": 7, "title": "Farewell breakfast above the Nile", "description": "Long breakfast in the Club Millésime lounge with the Nile through the floor-to-ceiling windows, then an hour at the rooftop pool. Late checkout (3pm typically granted for honeymooners), and a final cocktail at Above before the airport transfer. Most pair this with a Red Sea, Luxor, or Aswan extension." }
+      {
+        "day": 1,
+        "title": "Arrival & sunset on the Above rooftop bar",
+        "description": "Land at Cairo (CAI), the hotel sends a car for the 50-minute transfer over the Qasr El Nil Bridge to Gezira Island. Settle into your Prestige Suite, take an hour on the balcony watching the Nile feluccas catch the last light. Up to the Above rooftop bar for sunset cocktails — the 360-degree city view is unmatched. Casual dinner at La Palme d'Or for refined French."
+      },
+      {
+        "day": 2,
+        "title": "Pyramids of Giza & Egyptian Museum afternoon",
+        "description": "Early start — private Egyptologist and car at 7am to beat the heat at Giza. Four-hour tour of Khufu, Khafre, Menkaure, and the Sphinx. Back to the hotel by 1pm for pool lunch. Afternoon at the Egyptian Museum on Tahrir Square (a 10-minute drive across the bridge) for the Tutankhamun and royal mummies galleries before they migrate fully to the GEM. Dinner at Kebabgy on the Nile-side promenade."
+      },
+      {
+        "day": 3,
+        "title": "Grand Egyptian Museum full day",
+        "description": "Full-day private guide at the new Grand Egyptian Museum at Giza — Tutankhamun's complete 5,000+ piece collection, the Khufu Solar Boat, and the panoramic restaurant facing the Pyramids. The museum needs at least five hours done well. Back via the Mamluk-era citadel for sunset light if energy allows. Dinner room-service on your balcony."
+      },
+      {
+        "day": 4,
+        "title": "Coptic Cairo, Old Cairo & Khan El Khalili",
+        "description": "Morning in Coptic Cairo — Hanging Church, Ben Ezra Synagogue, Coptic Museum, and the cluster of churches in the old Roman fortress. Lunch on a riverside dock at Maadi. Afternoon walk through Khan El Khalili souk for spices, antiques, and shisha at El Fishawy café. Back across to Zamalek for dinner at Sequoia on the river — mezze, grilled prawns, oud music."
+      },
+      {
+        "day": 5,
+        "title": "Felucca for two & Cairo Opera House",
+        "description": "Slow morning at the spa — couples' Sothys facial and oud massage. Late afternoon, the concierge arranges a private felucca from the Maadi corniche for a sunset sail. Walk back to the Cairo Opera House (15 minutes from the hotel through Gezira's gardens) for whatever is on — ballet, Arab orchestra, or recital. Late dinner at Le Pacha 1901, a docked dahabiya right next to the hotel."
+      },
+      {
+        "day": 6,
+        "title": "Salt Pyramids day trip or slow Zamalek day",
+        "description": "Either a private day trip to the Bent Pyramid and Red Pyramid at Dahshur — quieter and arguably more interesting than Giza in their architectural progression — or a slow Zamalek day exploring the island's gardens, Café Bistro, and the Cairo Tower for the afternoon panorama. Both work; energy levels by Day 6 will tell you. Dinner back at La Palme d'Or for a final fine-dining night."
+      },
+      {
+        "day": 7,
+        "title": "Farewell breakfast above the Nile",
+        "description": "Long breakfast in the Club Millésime lounge with the Nile through the floor-to-ceiling windows, then an hour at the rooftop pool. Late checkout (3pm typically granted for honeymooners), and a final cocktail at Above before the airport transfer. Most pair this with a Red Sea, Luxor, or Aswan extension."
+      }
     ],
     "caveats": [
       "It is a city hotel — there is no beach, and pool space is functional rather than resort-scale. Pair with a Sharm or Hurghada extension for a true beach honeymoon.",
@@ -40,12 +116,30 @@
       "Cairo air pollution and dust are real; honeymooners with respiratory sensitivity should plan rest days indoors at the spa."
     ],
     "faqs": [
-      { "question": "Is it good for honeymooners?", "answer": "Yes for couples wanting Cairo skyline drama at value pricing — the rooftop Above bar at sunset and the 360-degree views are honeymoon-grade memories. Honeymoon perks include sparkling wine on arrival and turn-down with rose petals on stays of 3+ nights." },
-      { "question": "Best time to visit?", "answer": "October to April. November to early March is the sweet spot, with daytime temperatures in the low 20s and clear skies. Avoid June–September for Cairo summer heat and dust." },
-      { "question": "Should we book in advance?", "answer": "Prestige Suites with Club Millésime access should be booked 6–8 weeks ahead for the December–February high season. Standard rooms are usually available 30 days out." },
-      { "question": "Is it adults-only?", "answer": "No, it accepts families and is a regular host of Cairo society weddings. The Club Millésime lounge and Above rooftop tend to skew adult and refined." },
-      { "question": "Best room type for couples?", "answer": "A Prestige Suite high-floor with Club Millésime access is the honeymoon sweet spot — corner views, separate living area, and continuous lounge service. Even-numbered floors above 14 have the cleanest views." },
-      { "question": "How do we get there?", "answer": "Cairo International Airport (CAI) is 50 minutes by private car (longer in rush hour). The hotel arranges fast-track immigration and meet-and-greet on request. From the hotel, the Cairo Opera House is a 15-minute walk through Gezira's gardens." }
+      {
+        "question": "Is it good for honeymooners?",
+        "answer": "Yes for couples wanting Cairo skyline drama at value pricing — the rooftop Above bar at sunset and the 360-degree views are honeymoon-grade memories. Honeymoon perks include sparkling wine on arrival and turn-down with rose petals on stays of 3+ nights."
+      },
+      {
+        "question": "Best time to visit?",
+        "answer": "October to April. November to early March is the sweet spot, with daytime temperatures in the low 20s and clear skies. Avoid June–September for Cairo summer heat and dust."
+      },
+      {
+        "question": "Should we book in advance?",
+        "answer": "Prestige Suites with Club Millésime access should be booked 6–8 weeks ahead for the December–February high season. Standard rooms are usually available 30 days out."
+      },
+      {
+        "question": "Is it adults-only?",
+        "answer": "No, it accepts families and is a regular host of Cairo society weddings. The Club Millésime lounge and Above rooftop tend to skew adult and refined."
+      },
+      {
+        "question": "Best room type for couples?",
+        "answer": "A Prestige Suite high-floor with Club Millésime access is the honeymoon sweet spot — corner views, separate living area, and continuous lounge service. Even-numbered floors above 14 have the cleanest views."
+      },
+      {
+        "question": "How do we get there?",
+        "answer": "Cairo International Airport (CAI) is 50 minutes by private car (longer in rush hour). The hotel arranges fast-track immigration and meet-and-greet on request. From the hotel, the Cairo Opera House is a 15-minute walk through Gezira's gardens."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Sofitel Cairo Nile El Gezirah\n\nDear team,\n\nWe are planning our honeymoon and are interested in staying from [DATE] to [DATE]. Could you advise on availability of a Prestige Suite high-floor with Club Millésime access, any honeymoon packages, and whether you can arrange a private Egyptologist for the Pyramids and a sunset felucca?\n\nThank you,\n[Names]"
   },

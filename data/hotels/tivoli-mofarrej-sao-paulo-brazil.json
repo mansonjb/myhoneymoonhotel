@@ -3,7 +3,9 @@
   "name": "Tivoli Mofarrej São Paulo",
   "destination": "brazil",
   "country": "brazil",
-  "experience_types": ["luxury"],
+  "experience_types": [
+    "luxury"
+  ],
   "honeymoon_score": 85,
   "score_breakdown": {
     "adults_only": 22,
@@ -17,7 +19,10 @@
     "luxury": 5
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 300, "max": 700 },
+  "price_per_night_usd": {
+    "min": 300,
+    "max": 700
+  },
   "adults_only": false,
   "amenities": [
     "Anantara Spa",
@@ -37,26 +42,74 @@
     "club lounge"
   ],
   "photos": [
-    { "url": "/images/hotels/tivoli-mofarrej-sao-paulo-brazil/hero.webp", "alt": "Tivoli Mofarrej São Paulo — hero", "type": "hero" },
-    { "url": "/images/hotels/tivoli-mofarrej-sao-paulo-brazil/room.webp", "alt": "Tivoli Mofarrej São Paulo — room", "type": "room" },
-    { "url": "/images/hotels/tivoli-mofarrej-sao-paulo-brazil/pool.webp", "alt": "Tivoli Mofarrej São Paulo — pool", "type": "pool" },
-    { "url": "/images/hotels/tivoli-mofarrej-sao-paulo-brazil/spa.webp", "alt": "Tivoli Mofarrej São Paulo — spa", "type": "spa" },
-    { "url": "/images/hotels/tivoli-mofarrej-sao-paulo-brazil/dining.webp", "alt": "Tivoli Mofarrej São Paulo — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/tivoli-mofarrej-sao-paulo-brazil/hero.webp",
+      "alt": "tivoli-mofarrej-sao-paulo-brazil — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/tivoli-mofarrej-sao-paulo-brazil/room.webp",
+      "alt": "tivoli-mofarrej-sao-paulo-brazil — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/tivoli-mofarrej-sao-paulo-brazil/pool.webp",
+      "alt": "tivoli-mofarrej-sao-paulo-brazil — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/tivoli-mofarrej-sao-paulo-brazil/spa.webp",
+      "alt": "tivoli-mofarrej-sao-paulo-brazil — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/tivoli-mofarrej-sao-paulo-brazil/dining.webp",
+      "alt": "tivoli-mofarrej-sao-paulo-brazil — dining",
+      "type": "dining"
+    }
   ],
-  "tripadvisor_rating": 9.0,
+  "tripadvisor_rating": 9,
   "tripadvisor_award": true,
   "couples_review_pct": 65,
   "content": {
     "verdict": "Tivoli Mofarrej is São Paulo's most reliable urban honeymoon stopover — a 220-room five-star in the heart of Jardins, the city's leafiest, smartest residential and shopping district, walkable to Avenida Paulista, the MASP and the design boutiques of Oscar Freire. The 23-floor tower is part of the Anantara family, which means the spa is a real destination (one of the largest in the city, with a sizeable hammam and serious treatment menu) and the service operates at a level Paulistanos take seriously. Honeymooners typically book Tivoli not as a primary destination but as a stylish, well-located 2–3 night gateway before flying onward to a Brazilian beach segment. The rooftop Lava Lounge with its skyline views, the strong art collection in the public spaces, and the dining options of Jardins right outside the door make those few nights feel like a proper city honeymoon chapter rather than a travel buffer.",
     "best_room": "Book a Premium Suite or, if available, the Royal Mofarrej Suite — both have generous space, separate living areas and the higher-floor city views that make São Paulo feel cinematic at night. Aim for a high floor facing south for Avenida Paulista and the skyline.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival and Lava Lounge", "description": "Transfer from GRU (about 45 minutes), settle in, sundowner at the Lava Lounge rooftop with the São Paulo skyline. Dinner at the hotel's Mai-Sumi for Japanese, or walk to D.O.M. or A Casa do Porco." },
-      { "day": 2, "title": "Avenida Paulista and MASP", "description": "Walk Avenida Paulista, visit the MASP collection (free on Tuesdays). Lunch at Patuá. Afternoon shopping in Oscar Freire. Spa session at the Anantara Spa." },
-      { "day": 3, "title": "Vila Madalena and street art", "description": "Half-day with a guide in Vila Madalena exploring Beco do Batman street art alley and design studios. Lunch at A Figueira Rubaiyat under the legendary fig tree. Evening at Casa do Núcleo for live samba." },
-      { "day": 4, "title": "Ibirapuera and Liberdade", "description": "Morning bike or stroll in Parque Ibirapuera and the Niemeyer-designed pavilions. Lunch in Liberdade, São Paulo's Japanese district. Spa couple's treatment in the afternoon, dinner at Mocotó." },
-      { "day": 5, "title": "Day trip to Embu das Artes or Campos do Jordão", "description": "30 minutes to Embu's craft fair, or a longer day trip to the mountain town of Campos do Jordão. Return for a quiet dinner at Tordesilhas, Brazilian regional cooking." },
-      { "day": 6, "title": "Football and farewell", "description": "Match day at Pacaembu or Morumbi if scheduled (Corinthians, Palmeiras or São Paulo FC). Evening at the rooftop or at Z.É., one of the city's hottest cocktail bars." },
-      { "day": 7, "title": "Brunch and onward", "description": "Long Sunday brunch at the hotel or at Padaria Bella Paulista, last shopping in Oscar Freire, transfer to GRU for an onward flight to Trancoso, Noronha or Iguaçu." }
+      {
+        "day": 1,
+        "title": "Arrival and Lava Lounge",
+        "description": "Transfer from GRU (about 45 minutes), settle in, sundowner at the Lava Lounge rooftop with the São Paulo skyline. Dinner at the hotel's Mai-Sumi for Japanese, or walk to D.O.M. or A Casa do Porco."
+      },
+      {
+        "day": 2,
+        "title": "Avenida Paulista and MASP",
+        "description": "Walk Avenida Paulista, visit the MASP collection (free on Tuesdays). Lunch at Patuá. Afternoon shopping in Oscar Freire. Spa session at the Anantara Spa."
+      },
+      {
+        "day": 3,
+        "title": "Vila Madalena and street art",
+        "description": "Half-day with a guide in Vila Madalena exploring Beco do Batman street art alley and design studios. Lunch at A Figueira Rubaiyat under the legendary fig tree. Evening at Casa do Núcleo for live samba."
+      },
+      {
+        "day": 4,
+        "title": "Ibirapuera and Liberdade",
+        "description": "Morning bike or stroll in Parque Ibirapuera and the Niemeyer-designed pavilions. Lunch in Liberdade, São Paulo's Japanese district. Spa couple's treatment in the afternoon, dinner at Mocotó."
+      },
+      {
+        "day": 5,
+        "title": "Day trip to Embu das Artes or Campos do Jordão",
+        "description": "30 minutes to Embu's craft fair, or a longer day trip to the mountain town of Campos do Jordão. Return for a quiet dinner at Tordesilhas, Brazilian regional cooking."
+      },
+      {
+        "day": 6,
+        "title": "Football and farewell",
+        "description": "Match day at Pacaembu or Morumbi if scheduled (Corinthians, Palmeiras or São Paulo FC). Evening at the rooftop or at Z.É., one of the city's hottest cocktail bars."
+      },
+      {
+        "day": 7,
+        "title": "Brunch and onward",
+        "description": "Long Sunday brunch at the hotel or at Padaria Bella Paulista, last shopping in Oscar Freire, transfer to GRU for an onward flight to Trancoso, Noronha or Iguaçu."
+      }
     ],
     "caveats": [
       "São Paulo is an immense city — even with a great location, traffic is heavy and excursions need realistic time budgets.",
@@ -66,12 +119,30 @@
       "Not adults-only — and as a business hotel during the week the public areas can be busy with conferences."
     ],
     "faqs": [
-      { "question": "How many nights for São Paulo on a honeymoon?", "answer": "Two or three. It is the cultural and culinary capital of South America but not a beach destination — most honeymoons use it as a chic stopover before flying onward." },
-      { "question": "Is Jardins a safe neighbourhood?", "answer": "Yes — Jardins is the leafy, upmarket residential heart of São Paulo, walkable, well-policed and full of restaurants and boutiques. Routine city smarts apply at night." },
-      { "question": "How is the spa?", "answer": "Excellent. The Anantara Spa here is one of São Paulo's biggest hotel spas, with a serious hammam and a strong treatment menu — particularly good for couples treatments." },
-      { "question": "Best São Paulo restaurants nearby?", "answer": "Within walking distance: D.O.M., A Casa do Porco, Tordesilhas, A Figueira Rubaiyat. The hotel concierge books months ahead — contact them as soon as you have dates." },
-      { "question": "How long from GRU airport?", "answer": "30 to 60 minutes depending on traffic. Tivoli arranges private sedans and limousines; in heavy traffic the helicopter shuttle service from GRU is an option." },
-      { "question": "Is it a romantic hotel or a business hotel?", "answer": "Honestly both. The rooftop, the spa and the suites are romantic; the lobby and meeting floors operate as a business hotel during weekdays. Best for couples on weekends or as a transit stop." }
+      {
+        "question": "How many nights for São Paulo on a honeymoon?",
+        "answer": "Two or three. It is the cultural and culinary capital of South America but not a beach destination — most honeymoons use it as a chic stopover before flying onward."
+      },
+      {
+        "question": "Is Jardins a safe neighbourhood?",
+        "answer": "Yes — Jardins is the leafy, upmarket residential heart of São Paulo, walkable, well-policed and full of restaurants and boutiques. Routine city smarts apply at night."
+      },
+      {
+        "question": "How is the spa?",
+        "answer": "Excellent. The Anantara Spa here is one of São Paulo's biggest hotel spas, with a serious hammam and a strong treatment menu — particularly good for couples treatments."
+      },
+      {
+        "question": "Best São Paulo restaurants nearby?",
+        "answer": "Within walking distance: D.O.M., A Casa do Porco, Tordesilhas, A Figueira Rubaiyat. The hotel concierge books months ahead — contact them as soon as you have dates."
+      },
+      {
+        "question": "How long from GRU airport?",
+        "answer": "30 to 60 minutes depending on traffic. Tivoli arranges private sedans and limousines; in heavy traffic the helicopter shuttle service from GRU is an option."
+      },
+      {
+        "question": "Is it a romantic hotel or a business hotel?",
+        "answer": "Honestly both. The rooftop, the spa and the suites are romantic; the lobby and meeting floors operate as a business hotel during weekdays. Best for couples on weekends or as a transit stop."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Tivoli Mofarrej São Paulo, [Dates]\n\nHello Tivoli Mofarrej reservations,\n\nWe are planning our honeymoon and would like to stay at Tivoli Mofarrej from [arrival date] for [number] nights as our São Paulo chapter.\n\nCould you please share:\n- Availability and rate for a Premium Suite or Royal Mofarrej Suite, on a high floor facing the skyline\n- Honeymoon offer details (welcome amenity, in-suite breakfast, spa credit, late checkout)\n- Anantara Spa couple's treatment menu and pricing\n- Restaurant reservation help — we would like a table at A Casa do Porco and D.O.M. during our stay\n- GRU airport transfer pricing (sedan, limousine and helicopter options if available)\n\nWe are flexible by a few days if that helps with the suite category.\n\nThank you,\n[Your name]"
   },

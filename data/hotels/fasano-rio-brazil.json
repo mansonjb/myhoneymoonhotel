@@ -3,7 +3,10 @@
   "name": "Fasano Rio de Janeiro",
   "destination": "brazil",
   "country": "brazil",
-  "experience_types": ["beach", "luxury"],
+  "experience_types": [
+    "beach",
+    "luxury"
+  ],
   "honeymoon_score": 90,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,7 +20,10 @@
     "luxury": 11
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 500, "max": 1500 },
+  "price_per_night_usd": {
+    "min": 500,
+    "max": 1500
+  },
   "adults_only": false,
   "amenities": [
     "spa",
@@ -37,11 +43,31 @@
     "Philippe Starck interiors"
   ],
   "photos": [
-    { "url": "/images/hotels/fasano-rio-brazil/hero.webp", "alt": "Fasano Rio de Janeiro — hero", "type": "hero" },
-    { "url": "/images/hotels/fasano-rio-brazil/room.webp", "alt": "Fasano Rio de Janeiro — room", "type": "room" },
-    { "url": "/images/hotels/fasano-rio-brazil/pool.webp", "alt": "Fasano Rio de Janeiro — pool", "type": "pool" },
-    { "url": "/images/hotels/fasano-rio-brazil/spa.webp", "alt": "Fasano Rio de Janeiro — spa", "type": "spa" },
-    { "url": "/images/hotels/fasano-rio-brazil/dining.webp", "alt": "Fasano Rio de Janeiro — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/fasano-rio-brazil/hero.webp",
+      "alt": "fasano-rio-brazil — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/fasano-rio-brazil/room.webp",
+      "alt": "fasano-rio-brazil — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/fasano-rio-brazil/pool.webp",
+      "alt": "fasano-rio-brazil — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/fasano-rio-brazil/spa.webp",
+      "alt": "fasano-rio-brazil — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/fasano-rio-brazil/dining.webp",
+      "alt": "fasano-rio-brazil — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.3,
   "tripadvisor_award": true,
@@ -50,13 +76,41 @@
     "verdict": "Fasano Rio is the design-led counterpoint to the Copacabana Palace's Art Deco grandeur. Philippe Starck dressed this 91-room beachfront tower in 1960s Brazilian-modernist references — rosewood, leather, brass, slatted screens — and the result is the most quietly seductive luxury hotel on Ipanema. The rooftop infinity pool is the room everyone talks about: it floats over Avenida Vieira Souto with the Two Brothers and Sugarloaf rising from the Atlantic, and it is photographed almost every honeymoon week of the year. For couples, the appeal is the address as much as the design — Ipanema is the most walkable, café-friendly, gay-welcoming, sunset-on-the-sand neighbourhood in Rio. You can stroll to Posto 9, the famous LGBTQ-friendly stretch of beach, in five minutes; you can dine at Fasano's celebrated Italian restaurant without leaving the building; and you can fall asleep to the Atlantic.",
     "best_room": "A Deluxe Ocean Front room on a high floor is the sweet spot. The full balcony, the floor-to-ceiling glass, the deep soaking tub and the unobstructed view of Ipanema's beach are why people pick Fasano over its rivals. If you splurge, the Fasano Suite has a wraparound terrace and is one of the great honeymoon rooms in Brazil.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival and rooftop sunset", "description": "Check in, head straight up to the rooftop infinity pool for caipirinhas and sunset over the Two Brothers. Dinner at the Fasano restaurant — the seafood antipasti and homemade pasta have been the hotel's signatures since the family's São Paulo days." },
-      { "day": 2, "title": "Ipanema beach day", "description": "Hotel butlers set up loungers, umbrellas and chilled coconuts at the dedicated Fasano patch on Ipanema beach in front of Posto 9. Lunch at Zazá Bistrô across the avenue, dinner at the Londra Bar back at the hotel." },
-      { "day": 3, "title": "Sugarloaf and Urca", "description": "Morning cable car up Pão de Açúcar. Lunch at Bar Urca on the seawall — sardines on toast and cold beer with locals. Evening cocktails at Baretto Lounge, the hotel's intimate live-music bar." },
-      { "day": 4, "title": "Christ the Redeemer and Santa Teresa", "description": "Beat the crowds with an early visit to Corcovado. Lunch and gallery-hop in Santa Teresa, the bohemian hillside neighbourhood. Dinner at Aprazível for sunset over Guanabara Bay." },
-      { "day": 5, "title": "Spa morning, Leblon afternoon", "description": "Couple's massage at the small but beautifully appointed Fasano spa. Walk west along the beachfront to Leblon for shopping and lunch at CT Boucherie." },
-      { "day": 6, "title": "Hike Pedra Bonita or Vidigal", "description": "Sunrise hike up Pedra Bonita with a guide for a sweeping view of São Conrado and Barra. Back to the hotel for a long lunch by the rooftop pool, then a samba night in Lapa." },
-      { "day": 7, "title": "Posto 9 farewell", "description": "Final beach morning at Posto 9, açaí bowls, a last caipirinha at the rooftop bar, lazy lunch at the Fasano restaurant before departure." }
+      {
+        "day": 1,
+        "title": "Arrival and rooftop sunset",
+        "description": "Check in, head straight up to the rooftop infinity pool for caipirinhas and sunset over the Two Brothers. Dinner at the Fasano restaurant — the seafood antipasti and homemade pasta have been the hotel's signatures since the family's São Paulo days."
+      },
+      {
+        "day": 2,
+        "title": "Ipanema beach day",
+        "description": "Hotel butlers set up loungers, umbrellas and chilled coconuts at the dedicated Fasano patch on Ipanema beach in front of Posto 9. Lunch at Zazá Bistrô across the avenue, dinner at the Londra Bar back at the hotel."
+      },
+      {
+        "day": 3,
+        "title": "Sugarloaf and Urca",
+        "description": "Morning cable car up Pão de Açúcar. Lunch at Bar Urca on the seawall — sardines on toast and cold beer with locals. Evening cocktails at Baretto Lounge, the hotel's intimate live-music bar."
+      },
+      {
+        "day": 4,
+        "title": "Christ the Redeemer and Santa Teresa",
+        "description": "Beat the crowds with an early visit to Corcovado. Lunch and gallery-hop in Santa Teresa, the bohemian hillside neighbourhood. Dinner at Aprazível for sunset over Guanabara Bay."
+      },
+      {
+        "day": 5,
+        "title": "Spa morning, Leblon afternoon",
+        "description": "Couple's massage at the small but beautifully appointed Fasano spa. Walk west along the beachfront to Leblon for shopping and lunch at CT Boucherie."
+      },
+      {
+        "day": 6,
+        "title": "Hike Pedra Bonita or Vidigal",
+        "description": "Sunrise hike up Pedra Bonita with a guide for a sweeping view of São Conrado and Barra. Back to the hotel for a long lunch by the rooftop pool, then a samba night in Lapa."
+      },
+      {
+        "day": 7,
+        "title": "Posto 9 farewell",
+        "description": "Final beach morning at Posto 9, açaí bowls, a last caipirinha at the rooftop bar, lazy lunch at the Fasano restaurant before departure."
+      }
     ],
     "caveats": [
       "Only 91 rooms and only a handful of true ocean-front categories — book three to six months ahead for high season.",
@@ -66,12 +120,30 @@
       "Not adults-only, though the design and clientele skew strongly couples and DINKs."
     ],
     "faqs": [
-      { "question": "Fasano Rio or Copacabana Palace?", "answer": "Fasano for design, Ipanema location and a quieter, more couples-y atmosphere. Copacabana Palace for grand-hotel history, more facilities and a livelier scene. Both are excellent — neighbourhood preference often decides." },
-      { "question": "Is the Fasano restaurant open to non-guests?", "answer": "Yes, and it is one of the most coveted reservations in Rio. As a hotel guest you have priority — book through the concierge as soon as you have travel dates." },
-      { "question": "Can we get into the rooftop pool as guests anytime?", "answer": "Yes, the rooftop pool and bar are reserved for in-house guests, which keeps the scene calm even in summer." },
-      { "question": "How is the beach service?", "answer": "Excellent. The hotel maintains a section of Ipanema beach in front of Posto 9 with attentive butlers, towels, umbrellas, food and drink service." },
-      { "question": "Is Ipanema gay-friendly?", "answer": "Very. The rainbow-flag stretch around Posto 9 directly opposite the hotel is one of the most welcoming beaches in Latin America for LGBTQ travellers." },
-      { "question": "How far from the airport?", "answer": "About 45 minutes from GIG. The hotel arranges private transfers — request when booking." }
+      {
+        "question": "Fasano Rio or Copacabana Palace?",
+        "answer": "Fasano for design, Ipanema location and a quieter, more couples-y atmosphere. Copacabana Palace for grand-hotel history, more facilities and a livelier scene. Both are excellent — neighbourhood preference often decides."
+      },
+      {
+        "question": "Is the Fasano restaurant open to non-guests?",
+        "answer": "Yes, and it is one of the most coveted reservations in Rio. As a hotel guest you have priority — book through the concierge as soon as you have travel dates."
+      },
+      {
+        "question": "Can we get into the rooftop pool as guests anytime?",
+        "answer": "Yes, the rooftop pool and bar are reserved for in-house guests, which keeps the scene calm even in summer."
+      },
+      {
+        "question": "How is the beach service?",
+        "answer": "Excellent. The hotel maintains a section of Ipanema beach in front of Posto 9 with attentive butlers, towels, umbrellas, food and drink service."
+      },
+      {
+        "question": "Is Ipanema gay-friendly?",
+        "answer": "Very. The rainbow-flag stretch around Posto 9 directly opposite the hotel is one of the most welcoming beaches in Latin America for LGBTQ travellers."
+      },
+      {
+        "question": "How far from the airport?",
+        "answer": "About 45 minutes from GIG. The hotel arranges private transfers — request when booking."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Fasano Rio, [Dates]\n\nHello Fasano Rio reservations,\n\nWe are planning our honeymoon and would like to stay at Fasano Rio from [arrival date] for [number] nights.\n\nCould you confirm:\n- Availability and rate for a Deluxe Ocean Front room on a high floor\n- Honeymoon offer details (welcome champagne, breakfast in room, spa or dining credit, late checkout)\n- Reservations policy at the Fasano restaurant for in-house guests\n- Private airport transfer pricing\n\nWe are happy to flex our dates by a few days if that helps with availability or upgrades.\n\nThank you,\n[Your name]"
   },

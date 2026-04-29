@@ -3,7 +3,11 @@
   "name": "Txai Resort Itacaré",
   "destination": "brazil",
   "country": "brazil",
-  "experience_types": ["beach", "wellness", "luxury"],
+  "experience_types": [
+    "beach",
+    "wellness",
+    "luxury"
+  ],
   "honeymoon_score": 92,
   "score_breakdown": {
     "adults_only": 14,
@@ -17,7 +21,10 @@
     "luxury": 3
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 600, "max": 1800 },
+  "price_per_night_usd": {
+    "min": 600,
+    "max": 1800
+  },
   "adults_only": false,
   "amenities": [
     "Shamash Spa",
@@ -37,11 +44,31 @@
     "guided rainforest hikes"
   ],
   "photos": [
-    { "url": "/images/hotels/txai-resort-itacare-bahia-brazil/hero.webp", "alt": "Txai Resort Itacaré — hero", "type": "hero" },
-    { "url": "/images/hotels/txai-resort-itacare-bahia-brazil/room.webp", "alt": "Txai Resort Itacaré — room", "type": "room" },
-    { "url": "/images/hotels/txai-resort-itacare-bahia-brazil/pool.webp", "alt": "Txai Resort Itacaré — pool", "type": "pool" },
-    { "url": "/images/hotels/txai-resort-itacare-bahia-brazil/spa.webp", "alt": "Txai Resort Itacaré — spa", "type": "spa" },
-    { "url": "/images/hotels/txai-resort-itacare-bahia-brazil/dining.webp", "alt": "Txai Resort Itacaré — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/txai-resort-itacare-bahia-brazil/hero.webp",
+      "alt": "txai-resort-itacare-bahia-brazil — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/txai-resort-itacare-bahia-brazil/room.webp",
+      "alt": "txai-resort-itacare-bahia-brazil — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/txai-resort-itacare-bahia-brazil/pool.webp",
+      "alt": "txai-resort-itacare-bahia-brazil — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/txai-resort-itacare-bahia-brazil/spa.webp",
+      "alt": "txai-resort-itacare-bahia-brazil — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/txai-resort-itacare-bahia-brazil/dining.webp",
+      "alt": "txai-resort-itacare-bahia-brazil — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.4,
   "tripadvisor_award": true,
@@ -50,13 +77,41 @@
     "verdict": "Txai means 'friend' in the local Kaxinawá language, and the resort earns its name. Spread across a former cacao farm where the Mata Atlântica rainforest meets a long, almost-deserted Bahian beach, Txai is the rare property that delivers eco-luxury without sanctimony. Forty thatch-roofed bungalows are tucked into a coconut grove — separated by enough garden that you rarely see a neighbour — and pathways meander through the trees to four restaurants, an infinity pool overlooking the surf, the beachfront and the standout Shamash Spa, which is built deep into the rainforest with treatment cabins suspended over a creek. Couples come for surfing, capoeira, sunrise yoga, deep-tissue massages with native herbs and barefoot dinners under the palms. Itacaré itself, a former hippie surf town now growing up, is 15 minutes away by car for a livelier evening when wanted. For honeymooners who want Bahian beach romance with serious wellness depth, Txai is the most complete option in Brazil.",
     "best_room": "Splurge on a Bangalô Premium with private plunge pool. The basic bungalows are lovely, but the Premium category gives you the secluded wood deck and plunge that defines a Txai honeymoon. The bungalows nearer the beach are quieter; those nearer the pool, more social.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival and beach reset", "description": "Transfer from Ilhéus airport (1 hour). Welcome coconut, settle into your bungalow, sunset cocktail at the beach bar, dinner at the main restaurant under the palms." },
-      { "day": 2, "title": "Spa morning, beach afternoon", "description": "Shamash Spa couple's treatment in the rainforest cabins, lunch by the infinity pool, lazy afternoon on the beach with hammocks under the palms." },
-      { "day": 3, "title": "Surf class and capoeira", "description": "Surf class on the Itacarezinho beach break (good for beginners). Afternoon capoeira class on the lawn — culturally rich and surprisingly fun. Live music at dinner." },
-      { "day": 4, "title": "Praia da Engenhoca and waterfalls", "description": "4x4 trip down the coast to Praia da Engenhoca, one of the most beautiful beaches on this stretch. Stop at a freshwater waterfall on the way back. Massage on return." },
-      { "day": 5, "title": "Cacao farm and Itacaré village", "description": "Morning cacao plantation tour at a working farm — bean-to-bar tasting. Afternoon in Itacaré village with a stroll on Rua Pituba and dinner at Dedo de Moça." },
-      { "day": 6, "title": "Boat day on the Rio de Contas", "description": "Boat trip up the Rio de Contas estuary with a stop at a sandbar and lunch at a riverside restaurant. Sunset yoga back at Txai." },
-      { "day": 7, "title": "Slow farewell", "description": "Sunrise yoga, last beach walk, brunch by the pool, final spa treatment, late checkout before evening flight." }
+      {
+        "day": 1,
+        "title": "Arrival and beach reset",
+        "description": "Transfer from Ilhéus airport (1 hour). Welcome coconut, settle into your bungalow, sunset cocktail at the beach bar, dinner at the main restaurant under the palms."
+      },
+      {
+        "day": 2,
+        "title": "Spa morning, beach afternoon",
+        "description": "Shamash Spa couple's treatment in the rainforest cabins, lunch by the infinity pool, lazy afternoon on the beach with hammocks under the palms."
+      },
+      {
+        "day": 3,
+        "title": "Surf class and capoeira",
+        "description": "Surf class on the Itacarezinho beach break (good for beginners). Afternoon capoeira class on the lawn — culturally rich and surprisingly fun. Live music at dinner."
+      },
+      {
+        "day": 4,
+        "title": "Praia da Engenhoca and waterfalls",
+        "description": "4x4 trip down the coast to Praia da Engenhoca, one of the most beautiful beaches on this stretch. Stop at a freshwater waterfall on the way back. Massage on return."
+      },
+      {
+        "day": 5,
+        "title": "Cacao farm and Itacaré village",
+        "description": "Morning cacao plantation tour at a working farm — bean-to-bar tasting. Afternoon in Itacaré village with a stroll on Rua Pituba and dinner at Dedo de Moça."
+      },
+      {
+        "day": 6,
+        "title": "Boat day on the Rio de Contas",
+        "description": "Boat trip up the Rio de Contas estuary with a stop at a sandbar and lunch at a riverside restaurant. Sunset yoga back at Txai."
+      },
+      {
+        "day": 7,
+        "title": "Slow farewell",
+        "description": "Sunrise yoga, last beach walk, brunch by the pool, final spa treatment, late checkout before evening flight."
+      }
     ],
     "caveats": [
       "Access is via Ilhéus (IOS) or Porto Seguro (BPS) — both require connections from Rio, São Paulo or Salvador. Allow a travel day each way.",
@@ -66,12 +121,30 @@
       "Not adults-only — though wellness-focused programming and the eco-luxury vibe attract a heavily couples and DINK clientele."
     ],
     "faqs": [
-      { "question": "How do we get to Txai?", "answer": "Fly into Ilhéus (IOS) — there are connections from Rio, São Paulo and Salvador. The hotel arranges a one-hour private transfer from the airport. Some couples connect through Salvador for the night and continue the next day." },
-      { "question": "Is the beach swimmable?", "answer": "Yes — the long stretch of Itacarezinho is gentle on most days, with stronger surf at the breaks slightly offshore. The hotel also has a beautiful infinity pool above the sand." },
-      { "question": "How serious is the spa?", "answer": "Very. Shamash is one of the best resort spas in Brazil — treatments use native Atlantic Forest herbs and the cabins are built into the rainforest itself. Book treatments before arrival in high season." },
-      { "question": "Can we just relax, or is it activity-focused?", "answer": "Both. The activity menu (surf, capoeira, yoga, hiking, cacao tours) is excellent but everything is optional. Many couples come purely to read, swim and eat." },
-      { "question": "Is the resort family-friendly?", "answer": "Children are welcome and there is a small kids' programme, but the resort skews adult and couples — outside Brazilian school holidays you will see few children." },
-      { "question": "Best for surfing or for honeymoon spa?", "answer": "It is unusually strong at both. Pair a few surf classes with daily spa and you have the perfect Bahian honeymoon week." }
+      {
+        "question": "How do we get to Txai?",
+        "answer": "Fly into Ilhéus (IOS) — there are connections from Rio, São Paulo and Salvador. The hotel arranges a one-hour private transfer from the airport. Some couples connect through Salvador for the night and continue the next day."
+      },
+      {
+        "question": "Is the beach swimmable?",
+        "answer": "Yes — the long stretch of Itacarezinho is gentle on most days, with stronger surf at the breaks slightly offshore. The hotel also has a beautiful infinity pool above the sand."
+      },
+      {
+        "question": "How serious is the spa?",
+        "answer": "Very. Shamash is one of the best resort spas in Brazil — treatments use native Atlantic Forest herbs and the cabins are built into the rainforest itself. Book treatments before arrival in high season."
+      },
+      {
+        "question": "Can we just relax, or is it activity-focused?",
+        "answer": "Both. The activity menu (surf, capoeira, yoga, hiking, cacao tours) is excellent but everything is optional. Many couples come purely to read, swim and eat."
+      },
+      {
+        "question": "Is the resort family-friendly?",
+        "answer": "Children are welcome and there is a small kids' programme, but the resort skews adult and couples — outside Brazilian school holidays you will see few children."
+      },
+      {
+        "question": "Best for surfing or for honeymoon spa?",
+        "answer": "It is unusually strong at both. Pair a few surf classes with daily spa and you have the perfect Bahian honeymoon week."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Txai Resort Itacaré, [Dates]\n\nHello Txai Resort reservations,\n\nWe are planning our honeymoon and would love to stay at Txai from [arrival date] for [number] nights.\n\nCould you please share:\n- Availability and rate for a Bangalô Premium with private plunge pool\n- Honeymoon offer details (welcome amenity, in-bungalow breakfast, spa credit, late checkout)\n- Shamash Spa couple's treatment menu and pricing\n- Recommended airport for our travel (we are coming from [origin])\n- Private airport transfer pricing\n\nWe are flexible by a few days if that helps with availability or upgrades.\n\nThank you,\n[Your name]"
   },

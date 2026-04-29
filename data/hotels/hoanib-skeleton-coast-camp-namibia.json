@@ -3,11 +3,28 @@
   "name": "Hoanib Skeleton Coast Camp",
   "destination": "namibia",
   "country": "namibia",
-  "experience_types": ["safari", "luxury"],
+  "experience_types": [
+    "safari",
+    "luxury"
+  ],
   "honeymoon_score": 96,
-  "score_breakdown": { "adults_only": 0, "couples_pct": 19, "spa": 12, "award": 15, "pool": 5, "beach": 0, "room_service": 5, "stars": 10, "luxury": 5, "wilderness": 25 },
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 19,
+    "spa": 12,
+    "award": 15,
+    "pool": 5,
+    "beach": 0,
+    "room_service": 5,
+    "stars": 10,
+    "luxury": 5,
+    "wilderness": 25
+  },
   "stars": 5,
-  "price_per_night_usd": { "min": 1800, "max": 4500 },
+  "price_per_night_usd": {
+    "min": 1800,
+    "max": 4500
+  },
   "adults_only": false,
   "amenities": [
     "8 air-conditioned tented suites",
@@ -27,11 +44,31 @@
     "minibar and Wi-Fi in main area"
   ],
   "photos": [
-    { "url": "/images/hotels/hoanib-skeleton-coast-camp-namibia/hero.webp", "alt": "hoanib-skeleton-coast-camp-namibia — hero", "type": "hero" },
-    { "url": "/images/hotels/hoanib-skeleton-coast-camp-namibia/room.webp", "alt": "hoanib-skeleton-coast-camp-namibia — room", "type": "room" },
-    { "url": "/images/hotels/hoanib-skeleton-coast-camp-namibia/pool.webp", "alt": "hoanib-skeleton-coast-camp-namibia — pool", "type": "pool" },
-    { "url": "/images/hotels/hoanib-skeleton-coast-camp-namibia/spa.webp", "alt": "hoanib-skeleton-coast-camp-namibia — spa", "type": "spa" },
-    { "url": "/images/hotels/hoanib-skeleton-coast-camp-namibia/dining.webp", "alt": "hoanib-skeleton-coast-camp-namibia — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/hoanib-skeleton-coast-camp-namibia/hero.webp",
+      "alt": "hoanib-skeleton-coast-camp-namibia — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/hoanib-skeleton-coast-camp-namibia/room.webp",
+      "alt": "hoanib-skeleton-coast-camp-namibia — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/hoanib-skeleton-coast-camp-namibia/pool.webp",
+      "alt": "hoanib-skeleton-coast-camp-namibia — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/hoanib-skeleton-coast-camp-namibia/spa.webp",
+      "alt": "hoanib-skeleton-coast-camp-namibia — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/hoanib-skeleton-coast-camp-namibia/dining.webp",
+      "alt": "hoanib-skeleton-coast-camp-namibia — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.8,
   "tripadvisor_award": true,
@@ -40,13 +77,41 @@
     "verdict": "Hoanib is the most remote five-star camp in Namibia and probably the most cinematic place we send honeymooners on the entire continent. Wilderness Safaris built it in a tributary of the Hoanib riverbed in the Kunene Region, hours by air from anywhere; the only practical way in is a chartered light aircraft that lands on a gravel strip surrounded by red mountains. From your tented suite — eight in total, evenly spaced for absolute privacy — you watch desert-adapted elephants drift past at dawn, kicking up dust against a backdrop of basalt and sand. The signature inclusion is a half-day flight excursion to the Skeleton Coast itself: you fly low over rusted shipwrecks, land on the beach, walk among a Cape fur seal colony of tens of thousands, and have a champagne picnic on the dunes before flying back inland. The tents are deeply comfortable rather than ostentatious — air conditioned, large, with a private deck and outdoor shower — but the real luxury is the silence and the proximity to wildlife you cannot see anywhere else: desert lions, brown hyenas, giraffes that have learnt to live without surface water. As a honeymoon experience this is for couples who want a story rather than a beach: 'we slept in the bones of Namibia.'",
     "best_room": "Tents 1, 2, and 3 are at the western end of the camp, slightly closer to the riverbed where elephants and lions move at dawn. Tent 1 has the most privacy and the longest sightline up the valley. The honeymoon tent (booked on request) sits a little apart with an extra-large deck — worth asking for, but the standard tents are already exceptional.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Fly in to Hoanib", "description": "Light aircraft from Windhoek or another camp lands on the Hoanib airstrip. Drive in over the gravel plains, lunch on arrival, afternoon orientation drive in the riverbed and first sighting of springbok and oryx. Sundowner on a basalt outcrop." },
-      { "day": 2, "title": "Skeleton Coast flight excursion", "description": "Full-day flight north to the Skeleton Coast: low pass over the Suiderkus and Karimona shipwrecks, landing at the Möwe Bay seal colony, walking on the beach, picnic lunch in the dunes. Return flight in the late afternoon over the dune sea." },
-      { "day": 3, "title": "Tracking desert-adapted elephants", "description": "Long morning drive following fresh elephant tracks up the Hoanib riverbed. Quiet observation from a respectful distance. Brunch back at camp, siesta, afternoon drive into a side canyon for sundowners." },
-      { "day": 4, "title": "Desert Lion Conservation visit", "description": "Morning visit to the Desert Lion Conservation Project research camp — a rare chance to meet the team tracking the famed desert lions. Afternoon walking safari with a specialist guide, learning about plant and animal adaptations to the hyper-arid environment." },
-      { "day": 5, "title": "Photographic morning and spa", "description": "Slow morning photographic drive with a specialist guide, focusing on light and landscape. Back to camp for in-tent spa treatments and pool time. Private dinner served on your deck under the stars." },
-      { "day": 6, "title": "Hidden Vlei and dune drive", "description": "Drive deeper into the reserve to a hidden vlei surrounded by dunes; walk into the silence, sundowners on a dune crest. Return to camp for a final boma dinner with the team." },
-      { "day": 7, "title": "Onward flight", "description": "Final breakfast in the riverbed, then light-aircraft transfer to your next camp or back to Windhoek." }
+      {
+        "day": 1,
+        "title": "Fly in to Hoanib",
+        "description": "Light aircraft from Windhoek or another camp lands on the Hoanib airstrip. Drive in over the gravel plains, lunch on arrival, afternoon orientation drive in the riverbed and first sighting of springbok and oryx. Sundowner on a basalt outcrop."
+      },
+      {
+        "day": 2,
+        "title": "Skeleton Coast flight excursion",
+        "description": "Full-day flight north to the Skeleton Coast: low pass over the Suiderkus and Karimona shipwrecks, landing at the Möwe Bay seal colony, walking on the beach, picnic lunch in the dunes. Return flight in the late afternoon over the dune sea."
+      },
+      {
+        "day": 3,
+        "title": "Tracking desert-adapted elephants",
+        "description": "Long morning drive following fresh elephant tracks up the Hoanib riverbed. Quiet observation from a respectful distance. Brunch back at camp, siesta, afternoon drive into a side canyon for sundowners."
+      },
+      {
+        "day": 4,
+        "title": "Desert Lion Conservation visit",
+        "description": "Morning visit to the Desert Lion Conservation Project research camp — a rare chance to meet the team tracking the famed desert lions. Afternoon walking safari with a specialist guide, learning about plant and animal adaptations to the hyper-arid environment."
+      },
+      {
+        "day": 5,
+        "title": "Photographic morning and spa",
+        "description": "Slow morning photographic drive with a specialist guide, focusing on light and landscape. Back to camp for in-tent spa treatments and pool time. Private dinner served on your deck under the stars."
+      },
+      {
+        "day": 6,
+        "title": "Hidden Vlei and dune drive",
+        "description": "Drive deeper into the reserve to a hidden vlei surrounded by dunes; walk into the silence, sundowners on a dune crest. Return to camp for a final boma dinner with the team."
+      },
+      {
+        "day": 7,
+        "title": "Onward flight",
+        "description": "Final breakfast in the riverbed, then light-aircraft transfer to your next camp or back to Windhoek."
+      }
     ],
     "caveats": [
       "Access is exclusively by chartered light aircraft. Strict luggage limits apply (typically 20kg per person in soft bags, no hard cases).",
@@ -56,12 +121,30 @@
       "Rates are at the top end of African safari pricing because of the logistics of operating in a roadless area."
     ],
     "faqs": [
-      { "question": "Is the Skeleton Coast flight included or extra?", "answer": "It is included in the rate when you stay 3 nights or more, which is one of the strongest reasons to book Hoanib over a competitor. Confirm in writing at booking — promotional inclusions occasionally vary by season." },
-      { "question": "How does Hoanib compare to Serra Cafema, the other remote Wilderness camp?", "answer": "Hoanib is about wildlife in the desert (elephants, lions, hyenas) and the Skeleton Coast flight. Serra Cafema is about the Kunene River and the Himba people. Couples with two stops often pair them; if you only have one, Hoanib has stronger wildlife." },
-      { "question": "How many nights should we plan?", "answer": "Three nights is the minimum to justify the flights and to access the included Skeleton Coast excursion. Four nights is the sweet spot. Five only if you are deeply committed to the landscape and want unhurried photography days." },
-      { "question": "Can we self-drive in?", "answer": "No. Hoanib is in a fly-in concession with no public road access. All transfers are by light aircraft booked through the camp." },
-      { "question": "Best season?", "answer": "May to October is dry, cool, and prime for wildlife viewing along the riverbed. November to April is hotter and the riverbed can flow briefly after rain — dramatic but harder for game viewing." },
-      { "question": "Is it safe and comfortable for a honeymoon?", "answer": "Extremely. The camp is staffed at a high ratio, tents are securely zipped, escorts walk you to and from dinner after dark, and medical evacuation is contracted. The remoteness is romantic, not nerve-wracking." }
+      {
+        "question": "Is the Skeleton Coast flight included or extra?",
+        "answer": "It is included in the rate when you stay 3 nights or more, which is one of the strongest reasons to book Hoanib over a competitor. Confirm in writing at booking — promotional inclusions occasionally vary by season."
+      },
+      {
+        "question": "How does Hoanib compare to Serra Cafema, the other remote Wilderness camp?",
+        "answer": "Hoanib is about wildlife in the desert (elephants, lions, hyenas) and the Skeleton Coast flight. Serra Cafema is about the Kunene River and the Himba people. Couples with two stops often pair them; if you only have one, Hoanib has stronger wildlife."
+      },
+      {
+        "question": "How many nights should we plan?",
+        "answer": "Three nights is the minimum to justify the flights and to access the included Skeleton Coast excursion. Four nights is the sweet spot. Five only if you are deeply committed to the landscape and want unhurried photography days."
+      },
+      {
+        "question": "Can we self-drive in?",
+        "answer": "No. Hoanib is in a fly-in concession with no public road access. All transfers are by light aircraft booked through the camp."
+      },
+      {
+        "question": "Best season?",
+        "answer": "May to October is dry, cool, and prime for wildlife viewing along the riverbed. November to April is hotter and the riverbed can flow briefly after rain — dramatic but harder for game viewing."
+      },
+      {
+        "question": "Is it safe and comfortable for a honeymoon?",
+        "answer": "Extremely. The camp is staffed at a high ratio, tents are securely zipped, escorts walk you to and from dinner after dark, and medical evacuation is contracted. The remoteness is romantic, not nerve-wracking."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Hoanib Skeleton Coast Camp, [arrival date]\n\nDear Reservations,\n\nWe are planning our honeymoon for [dates] and would like to spend [3 or 4] nights at Hoanib. Please confirm:\n\n- Availability of one tent for [number] nights\n- That the Skeleton Coast flight excursion is included for our stay length\n- Honeymoon tent or western-end tent (1, 2, or 3) on request\n- Specialist photographic guide availability for one morning\n- Light-aircraft transfers from [origin camp / Windhoek] and onward to [next camp]\n- Any honeymoon touches you can arrange (private bush dinner, in-tent spa, sundowner setup)\n\nThanks very much, looking forward to your quote.\n\nKind regards,\n[Names]"
   },

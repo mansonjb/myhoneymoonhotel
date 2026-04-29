@@ -3,7 +3,10 @@
   "name": "Janeiro Hotel Leblon",
   "destination": "brazil",
   "country": "brazil",
-  "experience_types": ["beach", "luxury"],
+  "experience_types": [
+    "beach",
+    "luxury"
+  ],
   "honeymoon_score": 89,
   "score_breakdown": {
     "adults_only": 0,
@@ -17,7 +20,10 @@
     "luxury": 14
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 400, "max": 1100 },
+  "price_per_night_usd": {
+    "min": 400,
+    "max": 1100
+  },
   "adults_only": false,
   "amenities": [
     "rooftop pool",
@@ -37,11 +43,31 @@
     "beach service"
   ],
   "photos": [
-    { "url": "/images/hotels/janeiro-hotel-leblon-rio-brazil/hero.webp", "alt": "Janeiro Hotel Leblon — hero", "type": "hero" },
-    { "url": "/images/hotels/janeiro-hotel-leblon-rio-brazil/room.webp", "alt": "Janeiro Hotel Leblon — room", "type": "room" },
-    { "url": "/images/hotels/janeiro-hotel-leblon-rio-brazil/pool.webp", "alt": "Janeiro Hotel Leblon — pool", "type": "pool" },
-    { "url": "/images/hotels/janeiro-hotel-leblon-rio-brazil/spa.webp", "alt": "Janeiro Hotel Leblon — spa", "type": "spa" },
-    { "url": "/images/hotels/janeiro-hotel-leblon-rio-brazil/dining.webp", "alt": "Janeiro Hotel Leblon — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/janeiro-hotel-leblon-rio-brazil/hero.webp",
+      "alt": "janeiro-hotel-leblon-rio-brazil — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/janeiro-hotel-leblon-rio-brazil/room.webp",
+      "alt": "janeiro-hotel-leblon-rio-brazil — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/janeiro-hotel-leblon-rio-brazil/pool.webp",
+      "alt": "janeiro-hotel-leblon-rio-brazil — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/janeiro-hotel-leblon-rio-brazil/spa.webp",
+      "alt": "janeiro-hotel-leblon-rio-brazil — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/janeiro-hotel-leblon-rio-brazil/dining.webp",
+      "alt": "janeiro-hotel-leblon-rio-brazil — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.2,
   "tripadvisor_award": true,
@@ -50,13 +76,41 @@
     "verdict": "Janeiro is the boutique antidote to the larger landmark hotels of Rio. Sitting directly on Avenida Delfim Moreira facing Leblon beach, the property is small (just 39 rooms), contemporary, design-led and quietly cool. Leblon itself is the most residential and arguably the most elegant of Rio's beach neighbourhoods — leafy streets, the city's best restaurants, far less of the party energy of Ipanema or the tourist concentration of Copacabana, but the same beautiful Atlantic beach and the iconic Two Brothers (Dois Irmãos) rising at its western end. For honeymooners who want Rio's beach lifestyle without crowds, who plan to eat at Oro and Mee and Sushi Leblon, who would rather sip a sundowner at a quiet rooftop than queue at a famous one, Janeiro delivers. The rooftop bar at sunset, with Dois Irmãos backlit gold over the Atlantic, is one of the city's most romantic moments.",
     "best_room": "Choose a Deluxe Ocean View room with a private balcony, ideally on a higher floor for the unobstructed view down the curve of Leblon beach to Dois Irmãos. The Penthouse Suite has a generous terrace and is the obvious upgrade for honeymoons; the smaller standard rooms are stylish but the view rooms are the reason to be here.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival and rooftop", "description": "Settle in, then up to the rooftop bar for a caipirinha as the sun sets behind Dois Irmãos. Dinner at the hotel's restaurant or stroll five minutes to Sushi Leblon." },
-      { "day": 2, "title": "Leblon beach day", "description": "The hotel sets up loungers and umbrellas on Leblon beach — far less crowded than Ipanema. Açaí for lunch at the kiosk, sunset at Mirante do Leblon at the western end of the beach." },
-      { "day": 3, "title": "Christ the Redeemer and Lapa", "description": "Morning train up Corcovado to Christ the Redeemer. Late afternoon return, then dinner and live samba in Lapa beneath the white arches." },
-      { "day": 4, "title": "Sugarloaf and Urca", "description": "Cable car up Pão de Açúcar. Lunch at Bar Urca on the seawall, returning for a quiet evening with dinner at Oro, Felipe Bronze's two-Michelin-star tasting menu in Leblon." },
-      { "day": 5, "title": "Hike Dois Irmãos", "description": "Guided morning hike up the smaller of the Two Brothers via Vidigal favela — one of the great views of Rio, looking back over Ipanema and Leblon. Spa massage in the afternoon, sunset rooftop." },
-      { "day": 6, "title": "Botanical Garden and Lagoa", "description": "Stroll the Jardim Botânico, lunch at the lagoon-side Palaphita Kitch with feet in the sand, evening at Bar do Mineiro for live chorinho music." },
-      { "day": 7, "title": "Slow last day", "description": "Long beach morning, lunch at Zuka or Sushi Leblon, final caipirinhas on the rooftop, late checkout." }
+      {
+        "day": 1,
+        "title": "Arrival and rooftop",
+        "description": "Settle in, then up to the rooftop bar for a caipirinha as the sun sets behind Dois Irmãos. Dinner at the hotel's restaurant or stroll five minutes to Sushi Leblon."
+      },
+      {
+        "day": 2,
+        "title": "Leblon beach day",
+        "description": "The hotel sets up loungers and umbrellas on Leblon beach — far less crowded than Ipanema. Açaí for lunch at the kiosk, sunset at Mirante do Leblon at the western end of the beach."
+      },
+      {
+        "day": 3,
+        "title": "Christ the Redeemer and Lapa",
+        "description": "Morning train up Corcovado to Christ the Redeemer. Late afternoon return, then dinner and live samba in Lapa beneath the white arches."
+      },
+      {
+        "day": 4,
+        "title": "Sugarloaf and Urca",
+        "description": "Cable car up Pão de Açúcar. Lunch at Bar Urca on the seawall, returning for a quiet evening with dinner at Oro, Felipe Bronze's two-Michelin-star tasting menu in Leblon."
+      },
+      {
+        "day": 5,
+        "title": "Hike Dois Irmãos",
+        "description": "Guided morning hike up the smaller of the Two Brothers via Vidigal favela — one of the great views of Rio, looking back over Ipanema and Leblon. Spa massage in the afternoon, sunset rooftop."
+      },
+      {
+        "day": 6,
+        "title": "Botanical Garden and Lagoa",
+        "description": "Stroll the Jardim Botânico, lunch at the lagoon-side Palaphita Kitch with feet in the sand, evening at Bar do Mineiro for live chorinho music."
+      },
+      {
+        "day": 7,
+        "title": "Slow last day",
+        "description": "Long beach morning, lunch at Zuka or Sushi Leblon, final caipirinhas on the rooftop, late checkout."
+      }
     ],
     "caveats": [
       "Pool and spa are smaller than at Copacabana Palace or Fasano — if facilities matter most, those are larger.",
@@ -66,12 +120,30 @@
       "Not adults-only — though the boutique scale and design tilt toward couples and design-conscious travellers."
     ],
     "faqs": [
-      { "question": "Why Leblon over Ipanema or Copacabana?", "answer": "Leblon is more residential, the restaurants are arguably the best in Rio, and the beach is calmer. You give up some buzz, but you gain peace and a strong sense that you are staying among locals rather than tourists." },
-      { "question": "How is the rooftop bar?", "answer": "Excellent at sunset, intimate by design and the view of Dois Irmãos is one of the most photographed in Rio. It is open to outside guests, but the scene stays manageable." },
-      { "question": "Is the hotel on the beach?", "answer": "Across Avenida Delfim Moreira from the sand, but with full beach service set up daily — no walking required." },
-      { "question": "Can we walk to dinner from the hotel?", "answer": "Yes — Leblon is one of the most walkable neighbourhoods in Rio. Sushi Leblon, Oro, Zuka and a dozen other top tables are within ten minutes." },
-      { "question": "How far to the airport?", "answer": "About 50 minutes from GIG (international) and 30 minutes from SDU (domestic). The concierge arranges private transfers." },
-      { "question": "Is it a good base for Carnival?", "answer": "Quieter than Ipanema for Carnival itself, which most couples prefer. The hotel arranges Sambadrome packages and street-block tickets." }
+      {
+        "question": "Why Leblon over Ipanema or Copacabana?",
+        "answer": "Leblon is more residential, the restaurants are arguably the best in Rio, and the beach is calmer. You give up some buzz, but you gain peace and a strong sense that you are staying among locals rather than tourists."
+      },
+      {
+        "question": "How is the rooftop bar?",
+        "answer": "Excellent at sunset, intimate by design and the view of Dois Irmãos is one of the most photographed in Rio. It is open to outside guests, but the scene stays manageable."
+      },
+      {
+        "question": "Is the hotel on the beach?",
+        "answer": "Across Avenida Delfim Moreira from the sand, but with full beach service set up daily — no walking required."
+      },
+      {
+        "question": "Can we walk to dinner from the hotel?",
+        "answer": "Yes — Leblon is one of the most walkable neighbourhoods in Rio. Sushi Leblon, Oro, Zuka and a dozen other top tables are within ten minutes."
+      },
+      {
+        "question": "How far to the airport?",
+        "answer": "About 50 minutes from GIG (international) and 30 minutes from SDU (domestic). The concierge arranges private transfers."
+      },
+      {
+        "question": "Is it a good base for Carnival?",
+        "answer": "Quieter than Ipanema for Carnival itself, which most couples prefer. The hotel arranges Sambadrome packages and street-block tickets."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Janeiro Hotel Leblon, [Dates]\n\nHello Janeiro Hotel reservations,\n\nWe are planning our honeymoon and would love to stay at Janeiro Hotel Leblon from [arrival date] for [number] nights.\n\nCould you please share:\n- Availability and rate for a Deluxe Ocean View room on a high floor, and the Penthouse Suite for comparison\n- Honeymoon package details (welcome amenity, breakfast in room, late checkout)\n- Beach service inclusions\n- Restaurant reservation help — we would like a table at Oro during our stay\n- Private airport transfer pricing\n\nWe are flexible on dates if it helps with upgrades.\n\nThank you,\n[Your name]"
   },
