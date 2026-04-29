@@ -6083,6 +6083,7 @@ const DESTINATION_META: Record<string, {
     language: 'English is official; Afrikaans and German widely spoken (Namibia was a German colony until 1915); local languages include Oshiwambo, Otjiherero, and Khoekhoe. Lodge staff speak fluent English.',
     timezone: 'UTC+2 year-round (Namibia abolished daylight saving in 2017)',
   },
+
 }
 
 // ── Metadata ──────────────────────────────────────────────────────────────────
