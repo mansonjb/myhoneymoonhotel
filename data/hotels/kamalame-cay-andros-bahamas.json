@@ -1,0 +1,75 @@
+{
+  "slug": "kamalame-cay-andros-bahamas",
+  "name": "Kamalame Cay",
+  "destination": "bahamas",
+  "country": "bahamas",
+  "experience_types": ["beach", "luxury", "adults-only"],
+  "honeymoon_score": 89,
+  "score_breakdown": {
+    "adults_only": 12,
+    "couples_pct": 18,
+    "spa": 13,
+    "award": 13,
+    "pool": 7,
+    "beach": 10,
+    "room_service": 5,
+    "stars": 8,
+    "luxury": 3
+  },
+  "stars": 5,
+  "price_per_night_usd": { "min": 1200, "max": 3500 },
+  "adults_only": false,
+  "amenities": [
+    "all-inclusive",
+    "overwater spa",
+    "private island",
+    "private beach",
+    "bonefishing",
+    "snorkeling",
+    "kayaks",
+    "fitness center",
+    "concierge",
+    "fine dining",
+    "yoga",
+    "boat charters"
+  ],
+  "photos": [
+    { "url": "/images/hotels/kamalame-cay-andros-bahamas/hero.webp", "alt": "kamalame-cay-andros-bahamas — hero", "type": "hero" },
+    { "url": "/images/hotels/kamalame-cay-andros-bahamas/room.webp", "alt": "kamalame-cay-andros-bahamas — room", "type": "room" },
+    { "url": "/images/hotels/kamalame-cay-andros-bahamas/pool.webp", "alt": "kamalame-cay-andros-bahamas — pool", "type": "pool" },
+    { "url": "/images/hotels/kamalame-cay-andros-bahamas/spa.webp", "alt": "kamalame-cay-andros-bahamas — spa", "type": "spa" },
+    { "url": "/images/hotels/kamalame-cay-andros-bahamas/dining.webp", "alt": "kamalame-cay-andros-bahamas — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 9.5,
+  "tripadvisor_award": true,
+  "couples_review_pct": 88,
+  "content": {
+    "verdict": "Kamalame Cay is the deep-Bahamas honeymoon for couples who want all-inclusive private-island calm — 19 villas spread across a 96-acre cay off Andros, fronting the third-largest barrier reef in the world. There are no clocks in some villas, no TVs in others, and no children under five. The result is one of the quietest, most service-led honeymoons in the country.",
+    "best_room": "Book a Beachfront Villa for direct sand access from your private terrace and outdoor shower. The Great House Suites are larger and historic but slightly inland; for once-in-a-lifetime, the Octagon House is a standalone three-bedroom hideaway with full butler service.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival and welcome dinner", "description": "Fly into Andros (San Andros or Fresh Creek), short transfer to the dock, two-minute boat across to Kamalame. Settle into your beachfront villa, sunset cocktails on the Tiki bar deck, welcome dinner in the Great House — three courses, all-inclusive." },
+      { "day": 2, "title": "Reef snorkel and overwater spa", "description": "Morning snorkel charter to the Andros Barrier Reef — coral gardens, reef sharks, the famous Tongue of the Ocean drop-off. Lunch at the beach pavilion, afternoon couples massage at the spa villa floating over the flats, dinner in the Great House." },
+      { "day": 3, "title": "Bonefishing on the flats", "description": "Andros is the bonefishing capital of the world. Half- or full-day guided fly fishing on the flats with one of the resort's expert local guides. Picnic lunch on a remote sandbar, dinner back at the Great House." },
+      { "day": 4, "title": "Slow island day", "description": "No agenda — beach, hammock, kayak the mangroves, swim in the pool. Lunch at the beach bar, afternoon nap, sunset paddleboard, dinner on the beach by torchlight (arranged for honeymooners)." },
+      { "day": 5, "title": "Blue holes and inland exploration", "description": "Boat-and-truck excursion to one of Andros' famous inland blue holes — freshwater swimming inside an enormous limestone sinkhole. Picnic lunch, afternoon at the spa, dinner in the Great House." },
+      { "day": 6, "title": "Snorkel-with-dolphins or sailing", "description": "Optional dolphin encounter at a nearby pod, or a day sail to deserted nearby cays. Lunch on board, afternoon back on Kamalame, sunset cocktails on a private sandbar arranged by the team, late dinner." },
+      { "day": 7, "title": "Final morning and farewell", "description": "Breakfast on your terrace, final swim, late checkout. Light lunch at the beach, boat back to Andros, short flight home." }
+    ],
+    "caveats": [
+      "Andros is genuinely remote — flights are smaller turboprops and weather delays are not uncommon. Build in a buffer day on either side.",
+      "Children under five are not permitted; the property is overwhelmingly couples but not exclusively adult — no formal adults-only policy.",
+      "All-inclusive covers meals, soft drinks, beer, and house wine; premium spirits, spa treatments, fishing guides, and excursions are extras."
+    ],
+    "faqs": [
+      { "question": "Is Kamalame all-inclusive?", "answer": "Yes — three meals per day, soft drinks, beer, and house wine are included. Premium spirits, spa, and excursions like bonefishing or charters are billed separately." },
+      { "question": "How do we get there?", "answer": "Fly from Nassau (or directly from Florida on certain days) to Andros — San Andros or Fresh Creek airport — short transfer to the Kamalame dock, two-minute boat across to the island. Total transit time from Nassau is about 90 minutes." },
+      { "question": "Is it really adults-only?", "answer": "Not by formal policy, but no children under five are permitted and the resort skews heavily to couples. In practice, most weeks feel adults-only." },
+      { "question": "What's special about the bonefishing?", "answer": "Andros is widely considered the world's best bonefishing destination. Kamalame's guides are among the most experienced; expect 20-40 fish caught per day on a good outing." },
+      { "question": "Is the spa really overwater?", "answer": "Yes — the spa villa is built on stilts over the flats, with glass floor panels in some treatment rooms. It's the only true overwater spa in the Bahamas." },
+      { "question": "Best time of year?", "answer": "Mid-November to early December and mid-April through July. Bonefishing is best in calm shoulder months. August through October carries hurricane risk." }
+    ],
+    "email_template": "Subject: Honeymoon booking inquiry — Kamalame Cay\n\nHello,\n\nWe are planning our honeymoon at Kamalame Cay and would like to enquire about a 7-night stay in a Beachfront Villa.\n\nCould you please confirm:\n- All-inclusive plan inclusions and exclusions\n- Honeymoon package amenities (Champagne, in-villa amenities, spa credit, room upgrade if available)\n- Bonefishing guide pricing and availability\n- Overwater spa couples treatment availability\n- Transfer arrangements from Nassau or direct charter from Florida\n\nThank you,",
+    "extra_notes": "Kamalame's Octagon House is the standalone honeymoon-favorite if budget allows — three bedrooms, butler service, and the most private beach frontage on the cay. The kitchen will plate any of the Great House dishes for an in-villa dinner; ask in advance."
+  },
+  "last_updated": "2026-04-28T00:00:00.000Z"
+}

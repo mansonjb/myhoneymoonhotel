@@ -53,6 +53,7 @@ const DEST_META: Record<string, { region: string; country: string }> = {
   'argentina':  { region: 'South America', country: 'Argentina' },
   'peru':       { region: 'South America', country: 'Peru' },
   'galapagos':  { region: 'South America', country: 'Ecuador' },
+  'brazil':     { region: 'South America', country: 'Brazil' },
   // North America
   'hawaii':     { region: 'North America', country: 'USA — Hawaii' },
   // Middle East
@@ -62,11 +63,13 @@ const DEST_META: Record<string, { region: string; country: string }> = {
   // Africa
   'cape-verde':   { region: 'Africa & Atlantic', country: 'Cape Verde' },
   'morocco':      { region: 'Africa & Atlantic', country: 'Morocco' },
+  'egypt':        { region: 'Africa & Atlantic', country: 'Egypt' },
   'kenya':        { region: 'Africa Safari', country: 'Kenya' },
   'tanzania':     { region: 'Africa Safari', country: 'Tanzania' },
   'south-africa': { region: 'Africa Safari', country: 'South Africa' },
   'botswana':     { region: 'Africa Safari', country: 'Botswana' },
   'rwanda':       { region: 'Africa Safari', country: 'Rwanda' },
+  'namibia':      { region: 'Africa Safari', country: 'Namibia' },
   // Asia
   'thailand':     { region: 'Asia', country: 'Thailand' },
   'indonesia':    { region: 'Asia', country: 'Indonesia' },
