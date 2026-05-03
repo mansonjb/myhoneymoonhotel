@@ -56,9 +56,12 @@ const MAP_LOCATION_OVERRIDE: Record<string, string> = {
   peru:              'Cusco, Peru',
   galapagos:         'Santa Cruz, Galapagos',
   italy:             'Amalfi, Italy',
+  sicily:            'Taormina, Italy',
   jamaica:           'Montego Bay, Jamaica',
   antigua:           'St John\'s, Antigua',
   bahamas:           'Nassau, Bahamas',
+  barbados:          'Holetown, Barbados',
+  turkey:            'Bodrum, Turkey',
 }
 
 function resolveMapLocation(input: string): string {

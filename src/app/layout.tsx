@@ -35,6 +35,7 @@ const DEST_META: Record<string, { region: string; country: string }> = {
   'jamaica':           { region: 'Caribbean & Americas', country: 'Jamaica' },
   'antigua':           { region: 'Caribbean & Americas', country: 'Antigua' },
   'bahamas':           { region: 'Caribbean & Americas', country: 'Bahamas' },
+  'barbados':          { region: 'Caribbean & Americas', country: 'Barbados' },
   // Europe
   'santorini':  { region: 'Europe', country: 'Greece' },
   'greece':     { region: 'Europe', country: 'Greece' },
@@ -42,6 +43,7 @@ const DEST_META: Record<string, { region: string; country: string }> = {
   'sardegna':   { region: 'Europe', country: 'Italy' },
   'lake-como':  { region: 'Europe', country: 'Italy' },
   'italy':      { region: 'Europe', country: 'Italy' },
+  'sicily':     { region: 'Europe', country: 'Italy' },
   'croatia':    { region: 'Europe', country: 'Croatia' },
   'portugal':   { region: 'Europe', country: 'Portugal' },
   'spain':      { region: 'Europe', country: 'Spain' },
@@ -49,6 +51,7 @@ const DEST_META: Record<string, { region: string; country: string }> = {
   'iceland':    { region: 'Europe', country: 'Iceland' },
   'norway':     { region: 'Europe', country: 'Norway' },
   'lapland':    { region: 'Europe', country: 'Finland' },
+  'turkey':     { region: 'Europe', country: 'Turkey' },
   // South America
   'argentina':  { region: 'South America', country: 'Argentina' },
   'peru':       { region: 'South America', country: 'Peru' },
