@@ -18,6 +18,7 @@ const DEST_META: Record<string, { region: string; country: string }> = {
   'zanzibar':        { region: 'Indian Ocean', country: 'Tanzania' },
   'mozambique':      { region: 'Indian Ocean', country: 'Mozambique' },
   'reunion':         { region: 'Indian Ocean', country: 'Réunion' },
+  'madagascar':      { region: 'Indian Ocean', country: 'Madagascar' },
   'sri-lanka':       { region: 'Indian Ocean', country: 'Sri Lanka' },
   // South Pacific
   'bora-bora':         { region: 'South Pacific', country: 'French Polynesia' },
@@ -36,6 +37,7 @@ const DEST_META: Record<string, { region: string; country: string }> = {
   'antigua':           { region: 'Caribbean & Americas', country: 'Antigua' },
   'bahamas':           { region: 'Caribbean & Americas', country: 'Bahamas' },
   'barbados':          { region: 'Caribbean & Americas', country: 'Barbados' },
+  'aruba':             { region: 'Caribbean & Americas', country: 'Aruba' },
   // Europe
   'santorini':  { region: 'Europe', country: 'Greece' },
   'greece':     { region: 'Europe', country: 'Greece' },
@@ -43,6 +45,7 @@ const DEST_META: Record<string, { region: string; country: string }> = {
   'sardegna':   { region: 'Europe', country: 'Italy' },
   'lake-como':  { region: 'Europe', country: 'Italy' },
   'italy':      { region: 'Europe', country: 'Italy' },
+  'tuscany':    { region: 'Europe', country: 'Italy' },
   'sicily':     { region: 'Europe', country: 'Italy' },
   'croatia':    { region: 'Europe', country: 'Croatia' },
   'portugal':   { region: 'Europe', country: 'Portugal' },

@@ -31,6 +31,7 @@ const DEST_FALLBACK: Record<string, string> = {
   'philippines':       'https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?w=800&q=80',
   'mozambique':        'https://images.unsplash.com/photo-1586861256632-a9994f0a1a7d?w=800&q=80',
   'reunion':           'https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=800&q=80',
+  'madagascar':        'https://images.unsplash.com/photo-1535941339077-2dd1c7963098?w=800&q=80',
   'st-barts':          'https://images.unsplash.com/photo-1548574505-5e239809ee19?w=800&q=80',
   'south-africa':      'https://images.unsplash.com/photo-1516426122078-c23e76319801?w=800&q=80',
   'tanzania':          'https://images.unsplash.com/photo-1516426122078-c23e76319801?w=800&q=80',
@@ -52,11 +53,13 @@ const DEST_FALLBACK: Record<string, string> = {
   'sardegna':          'https://images.unsplash.com/photo-1534308143481-c55f00be8bd7?w=800&q=80',
   'argentina':         'https://images.unsplash.com/photo-1607627000458-210e8d2bdb1d?w=800&q=80',
   'italy':             'https://images.unsplash.com/photo-1534308143481-c55f00be8bd7?w=800&q=80',
+  'tuscany':           'https://images.unsplash.com/photo-1543429775-e7c89eddffd5?w=800&q=80',
   'sicily':            'https://images.unsplash.com/photo-1558642084-fd07fae5282e?w=800&q=80',
   'barbados':          'https://images.unsplash.com/photo-1577094115226-e54e6726ce98?w=800&q=80',
   'jamaica':           'https://images.unsplash.com/photo-1518553552276-fbcb05245056?w=800&q=80',
   'antigua':           'https://images.unsplash.com/photo-1548574505-5e239809ee19?w=800&q=80',
   'bahamas':           'https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=800&q=80',
+  'aruba':             'https://images.unsplash.com/photo-1559496417-e7f25cb247f3?w=800&q=80',
 }
 
 const DEFAULT_FALLBACK = 'https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=800&q=80'

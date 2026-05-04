@@ -37,6 +37,7 @@ const MAP_LOCATION_OVERRIDE: Record<string, string> = {
   'cape verde':      'Sal, Cape Verde',
   mozambique:        'Vilankulo, Mozambique',
   reunion:           'Saint-Gilles, Reunion',
+  madagascar:        'Nosy Be, Madagascar',
   'sri-lanka':       'Bentota, Sri Lanka',
   'sri lanka':       'Bentota, Sri Lanka',
   cambodia:          'Siem Reap, Cambodia',
@@ -56,11 +57,13 @@ const MAP_LOCATION_OVERRIDE: Record<string, string> = {
   peru:              'Cusco, Peru',
   galapagos:         'Santa Cruz, Galapagos',
   italy:             'Amalfi, Italy',
+  tuscany:           'Siena, Italy',
   sicily:            'Taormina, Italy',
   jamaica:           'Montego Bay, Jamaica',
   antigua:           'St John\'s, Antigua',
   bahamas:           'Nassau, Bahamas',
   barbados:          'Holetown, Barbados',
+  aruba:             'Palm Beach, Aruba',
   turkey:            'Bodrum, Turkey',
 }
 
