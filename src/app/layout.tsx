@@ -162,6 +162,23 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body className="bg-white text-zinc-900 antialiased">
 
+        {/* Google Analytics (gtag.js) */}
+        <Script
+          id="ga-loader"
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-HFH7HZZJBR"
+        />
+        <Script
+          id="ga-init"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-HFH7HZZJBR');`,
+          }}
+        />
+
         {/* Stay22 LetMeAllez — lazy-loaded (only needed when user is about to click an outbound booking link).
             Saves ~110 KiB off the critical path and removes 134ms of forced-layout from the main thread. */}
         <Script
