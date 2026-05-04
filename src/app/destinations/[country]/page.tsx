@@ -7138,6 +7138,86 @@ const DESTINATION_META: Record<string, {
     timezone: 'CET (UTC+1, UTC+2 in summer)',
   },
 
+  madagascar: {
+    hero: '/images/hotels/time-tide-miavana-madagascar/hero.webp',
+    tagline: 'The unspoiled Indian Ocean — lemurs, baobabs, and private-island beach hideaways untouched by mass tourism.',
+    intro: 'Madagascar is the world\'s fourth-largest island and one of the last genuinely unspoiled honeymoon frontiers in the Indian Ocean — a Texas-sized landmass off the southeast coast of Africa where 90% of the wildlife exists nowhere else on earth, where private islands like Nosy Ankao and Tsarabanjina deliver Maldives-quality water without the Maldives-quality crowds, and where the old French colonial influence has produced a creole-vanilla-zebu cuisine unlike anything else in the region. This is not a destination for first-time honeymooners — the transfers are long, the infrastructure is basic outside the lodges, and malaria prophylaxis is required — but for couples who want a private-island beach honeymoon paired with genuine wilderness and lemur tracking, nothing else in the Indian Ocean comes close.',
+    bestTime: 'Apr–Nov (dry)',
+    flightFrom: '20–24h from US/Europe via Paris/Mauritius/Addis',
+    topExperience: 'Private Island + Lemur Safari',
+    perfectFor: [
+      'Couples who want an Indian Ocean beach honeymoon AND genuine wildlife/wilderness in one trip',
+      'Repeat luxury travellers who have done Maldives, Seychelles, Mauritius and want the next frontier',
+      'Honeymooners who want to combine private-island ultra-luxury (Miavana, Tsarabanjina) with rainforest lemur tracking',
+      'Adventurous spirits comfortable with long transfers and basic infrastructure outside the lodges',
+      'Foodies curious about the French-Malagasy creole cuisine and the world\'s finest Bourbon vanilla',
+    ],
+    skipIf: [
+      'You want short, easy transfers — internal flights are essential and sometimes delayed',
+      'Basic infrastructure outside luxury lodges (rough roads, sporadic power) sounds stressful rather than charming',
+      'Malaria prophylaxis is a deal-breaker — most of Madagascar requires it',
+      'Lively nightlife, beach clubs, or a social scene is part of your honeymoon vision',
+      'Budget under $400/night — this is not a budget-friendly destination once you factor in flights and internal transfers',
+    ],
+    experiences: [
+      { icon: '🦎', title: 'Lemur Tracking in Andasibe Rainforest', description: 'Walking the misty rainforest of Andasibe-Mantadia at dawn to find indri lemurs — the largest living lemur species, whose haunting whale-like song echoes through the canopy at sunrise. Twelve lemur species inhabit the park, including the diadem sifaka and the bamboo lemur, found nowhere else on earth.', cost: '$80–$150 per couple (guided park entry + tracker)', tip: 'Stay at Vakôna Forest Lodge or Mantadia Lodge for two nights — one for the dawn indri walk, one for the night walk to spot mouse lemurs and chameleons. Use a private guide from the village rather than a generic tour operator.' },
+      { icon: '🏝️', title: 'Private-Island Castaway at Miavana or Tsarabanjina', description: 'Sleeping on a 14-villa private island in the Mitsio archipelago, where the only sounds are the reef, the wind in the palms, and the distant clink of a sundowner being prepared. Time + Tide Miavana on Nosy Ankao defines the upper end; Constance Tsarabanjina is the more accessible private-island experience.', cost: '$900–$5,000+ per night (all-inclusive)', tip: 'Miavana is reached by private helicopter from Diego Suarez (45 minutes); Tsarabanjina by speedboat from Nosy Be (90 minutes). Three nights minimum on either — anything less and you\'ve barely arrived before leaving.' },
+      { icon: '🌳', title: 'Avenue of the Baobabs at Sunset (Morondava)', description: 'The most photographed natural site in Madagascar — a dirt road in western Madagascar lined with 800-year-old Adansonia grandidieri baobabs, their swollen trunks silhouetted against a blood-orange sunset. A pilgrimage every honeymoon photographer makes.', cost: '$200–$400 (charter flight Tana–Morondava + transfer)', tip: 'Fly from Antananarivo to Morondava (1h) for a 2-night detour — the road from Tana is 20 hours and brutal. Stay at Palissandre Côte Ouest. Sunset on a Tuesday or Wednesday avoids the weekend tour buses.' },
+      { icon: '🤿', title: 'Snorkelling the Nosy Tanikely Marine Reserve', description: 'The Indian Ocean\'s most biodiverse reef accessible by day-trip from Nosy Be — green sea turtles in numbers, lionfish, octopus, and reef sharks in 4–10m of crystal water with almost no current. The marine park status (since 2010) means the coral is genuinely intact.', cost: '$60–$120 per couple (boat charter from Nosy Be)', tip: 'Charter a private dhow from Madirokely beach rather than the group boats — costs $50 more and you have the bay to yourselves at lunchtime when the tour boats leave.' },
+      { icon: '🍋', title: 'Vanilla Plantation Tour & Romazava Feast', description: 'Visiting a smallholder vanilla cooperative on the Sambava coast (the Bourbon vanilla origin) followed by a traditional romazava (zebu and brèdes mafane greens stew) lunch with a Malagasy family. The most authentic culinary experience the country offers.', cost: '$80–$150 per couple', tip: 'Sambava and Antalaha (the SAVA region) produce 80% of the world\'s Bourbon vanilla. Buy directly from the cooperative — costs are 10× lower than retail back home, and the cured pods are extraordinary.' },
+    ],
+    months: [
+      { month: 'Jan', weather: 'Wet season, cyclone risk', emoji: '🌀', crowds: 'Low', price: 'Low', verdict: 'Avoid — many lodges close' },
+      { month: 'Feb', weather: 'Peak cyclone risk, heavy rain', emoji: '🌀', crowds: 'Very low', price: 'Lowest', verdict: 'Do not visit' },
+      { month: 'Mar', weather: 'Cyclone risk easing, still wet', emoji: '🌧', crowds: 'Very low', price: 'Low', verdict: 'Most lodges still closed' },
+      { month: 'Apr', weather: 'Dry season begins, lush green', emoji: '🌤', crowds: 'Low', price: 'Mid', verdict: 'Lodges reopening — excellent value' },
+      { month: 'May', weather: 'Dry, 25°C, perfect', emoji: '☀️', crowds: 'Moderate', price: 'Mid', verdict: 'Hidden best month' },
+      { month: 'Jun', weather: 'Dry, cooler, 22°C', emoji: '☀️', crowds: 'Moderate', price: 'Mid-high', verdict: 'Excellent for lemur tracking' },
+      { month: 'Jul', weather: 'Dry, peak whale season starts', emoji: '☀️', crowds: 'High', price: 'High', verdict: 'Humpback whales arrive Île Sainte-Marie' },
+      { month: 'Aug', weather: 'Dry, peak whale-watching', emoji: '☀️', crowds: 'Peak', price: 'Very high', verdict: 'Book 6 months ahead — peak season' },
+      { month: 'Sep', weather: 'Dry, warming, whales still present', emoji: '☀️', crowds: 'High', price: 'High', verdict: 'Best all-round month' },
+      { month: 'Oct', weather: 'Dry, warm, jacaranda flowering', emoji: '☀️', crowds: 'High', price: 'High', verdict: 'Outstanding — lemur babies born' },
+      { month: 'Nov', weather: 'Building heat, first showers', emoji: '🌤', crowds: 'Moderate', price: 'Mid', verdict: 'Last good month, great value' },
+      { month: 'Dec', weather: 'Wet season returning, festive', emoji: '🌦', crowds: 'Low-mod', price: 'Mid', verdict: 'Risky — book flexibility' },
+    ],
+    budgetTiers: [
+      { label: 'Boutique Lodge', range: '$400–$650/night', gets: 'Charming small hotel on Nosy Be or in the highlands with sea or rainforest views, full board, and authentic Malagasy hospitality. The honest entry-level experience.', example: 'Vanila Hotel & Spa, Tsara Komba (low season)' },
+      { label: 'Luxury Private-Island', range: '$650–$1,400/night', gets: 'All-inclusive private-island lodge with all activities, transfers, and meals included. The standard Madagascar honeymoon tier.', example: 'Constance Tsarabanjina, Nosy Saba Island Resort, Anjajavy Le Lodge' },
+      { label: 'Ultra-Luxury Iconic', range: '$4,500–$8,000+/night', gets: 'Time + Tide Miavana — 14 villas on a private island in the Mitsio archipelago, helicopter access, every activity included, the apex of Indian Ocean luxury. Defines its own category.', example: 'Time + Tide Miavana on Nosy Ankao' },
+    ],
+    areas: [
+      { name: 'Nosy Be & surrounding islets', bestFor: 'Beach base, easiest access, day-trip diving', description: 'Madagascar\'s tourism heartland — the largest island off the northwest coast with direct flights from Europe and South Africa. Use as a hub for Tsarabanjina, Nosy Komba, and Nosy Tanikely day trips. Vanila Hotel and Tsara Komba are based here.' },
+      { name: 'Anjajavy Peninsula (Northwest)', bestFor: 'Wildlife on a luxury beach property, fly-in lodge', description: 'A remote 1,800-acre private reserve on the northwest coast where lemurs come to breakfast and the beach is empty for kilometres. Anjajavy Le Lodge is reached by 1.5h charter flight from Antananarivo. Beach + wildlife in one stay.' },
+      { name: 'Nosy Ankao & Mitsio Archipelago', bestFor: 'Ultra-luxury private island, top-end beach', description: 'A scattered chain of granite-and-coral islands northeast of Diego Suarez accessible only by private boat or helicopter. Time + Tide Miavana on Nosy Ankao is the apex; the Mitsio islands further south host Tsarabanjina. The most pristine water in Madagascar.' },
+      { name: 'Andasibe Rainforest (East)', bestFor: 'Lemur tracking, rainforest, easy add-on from Tana', description: 'The most accessible rainforest in Madagascar — a 3-hour drive east of Antananarivo. Andasibe-Mantadia National Park is home to the indri lemur and 11 other lemur species. The mandatory 2-night bookend to any beach honeymoon.' },
+    ],
+    expertTips: [
+      { tip: 'Combine 2 nights Andasibe with 5+ nights private island — do not skip the lemurs', detail: 'Flying 24 hours to Madagascar and only doing the beach is a missed opportunity. The Andasibe rainforest is a 3-hour drive from Antananarivo and delivers the indri lemur experience that defines the country. Two nights at Vakôna Forest Lodge bookended around your beach stay is the correct itinerary.' },
+      { tip: 'Internal flights are essential — and sometimes delayed', detail: 'Tsaradia (the Air Madagascar domestic arm) flies Antananarivo to Nosy Be, Diego Suarez, Sainte-Marie, Morondava, and Tulear. Schedules are not always reliable — build in a 24h buffer in Antananarivo before your international departure. Never plan tight connections.' },
+      { tip: 'Anti-malaria medication is required — Malarone is the standard', detail: 'Most of Madagascar (excluding only the highest-altitude central highlands) is malarial. Atovaquone-proguanil (Malarone) is the standard luxury-traveller prophylaxis: minimal side effects, taken daily, started 1–2 days before arrival. Doxycycline is the cheaper alternative.' },
+      { tip: 'August–September is peak whale-watching at Île Sainte-Marie', detail: 'Humpback whales migrate from Antarctica to give birth in the warm channel between Île Sainte-Marie and the mainland. The encounters (snorkelling alongside cow-and-calf pairs in 25m visibility) are world-class. Princesse Bora Lodge is the specialist property.' },
+      { tip: 'Book Miavana and Tsarabanjina 8–12 months ahead for July–October', detail: 'The two flagship private islands have only 14 and 25 villas respectively. Peak-season space is taken by returning guests and luxury agents in February–March for the following year. Email the properties directly mentioning honeymoon — they reserve their finest villas for honeymooners who book early.' },
+    ],
+    packing: [
+      { item: 'Antimalarial tablets (Malarone)', why: 'Most of Madagascar is malarial — non-negotiable. Start 1–2 days before arrival, continue 7 days after.' },
+      { item: 'Strong DEET insect repellent (50%+)', why: 'Mosquitoes are present everywhere outside the high central plateau. Picaridin alternatives also acceptable.' },
+      { item: 'Lightweight long-sleeve hiking shirt', why: 'Essential for rainforest lemur tracking — protects against mosquitoes and stinging plants in Andasibe' },
+      { item: 'Quality reef-safe sunscreen', why: 'Marine park rules at Nosy Tanikely; the equatorial sun on the water is intense' },
+      { item: 'Cash in Euros for tipping and rural areas', why: 'Card acceptance is reliable only at luxury lodges. Euros are widely accepted; MGA (ariary) needed for markets and small purchases.' },
+      { item: 'Waterproof dry bag', why: 'Boat transfers to private islands are open-deck and can be wet; protects cameras and phones' },
+      { item: 'Basic French phrasebook', why: 'French is the lingua franca after Malagasy. Most lodge staff speak French; English is patchy outside the top-end properties.' },
+    ],
+    guide: {
+      getting: 'Fly to Antananarivo Ivato (TNR), the capital and main international gateway. From Europe: Air France direct from Paris CDG (10h45). From elsewhere: via Mauritius (Air Mauritius, 1h45 onward connection), via Addis Ababa (Ethiopian Airlines), or via Johannesburg (Airlink). Total elapsed time from US East Coast or most of Europe is 20–24 hours including connections. From Antananarivo, Tsaradia operates internal flights to Nosy Be (NOS), Diego Suarez (DIE), Sainte-Marie (SMS), and Morondava (MOQ). Always overnight in Tana on arrival before connecting onwards.',
+      where: 'For a first-time Madagascar honeymoon, the canonical 10–12 night itinerary is: 1 night Antananarivo (arrival recovery) + 2 nights Andasibe rainforest (lemurs) + 1 night Antananarivo (transit) + 5–7 nights private-island beach (Tsarabanjina, Anjajavy, Miavana, or Nosy Saba) + 1 night Antananarivo before international departure. For a second-trip Madagascar visit, add Île Sainte-Marie (whales, August–October) or Morondava (Avenue of Baobabs).',
+      when: 'April through November is the dry season and the only sensible time to visit. May, June, September, and October are the sweet spots — dry, warm, and with the lemur and whale activity at peak. July and August are the busiest months (European school holidays). December through March is cyclone and rainy season — many lodges close entirely. Avoid completely.',
+    },
+    localFood: 'Zebu (the humped Malagasy cattle) is the staple protein — grilled as zebu brochettes or slow-stewed in romazava (the national dish: zebu with brèdes mafane greens, ginger, and tomato, served with rice). Ravitoto (pounded cassava leaves with pork and coconut) is the other classical Malagasy stew. Bourbon vanilla — the world\'s finest, grown on the SAVA coast — flavours everything from desserts to the local rum arrangé. The seafood on the coastal islands (lobster, crab, line-caught fish) rivals anywhere in the Indian Ocean. The French colonial heritage shows in the patisserie and the bread tradition; the THB (Three Horses Beer) is the national lager.',
+    currency: 'Malagasy Ariary (MGA). Euros (EUR) widely accepted at lodges and tourist sites — bring cash Euros for tipping and rural transactions.',
+    language: 'Malagasy (official). French (the lingua franca) widely spoken in tourism. English is patchy outside top-end lodges.',
+    timezone: 'East Africa Time (EAT, UTC+3) — no daylight saving',
+  },
+
 }
 
 // ── Metadata ──────────────────────────────────────────────────────────────────
@@ -7181,7 +7261,7 @@ export default async function DestinationPage({ params }: Props) {
   const hotels = getHotelsByDestination(country)
   const meta = DESTINATION_META[country]
   const destName = country.replace(/-/g, ' ')
-  const destProper = destName.charAt(0).toUpperCase() + destName.slice(1)
+  const destProper = destName.split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')
 
   if (hotels.length === 0) notFound()
 
@@ -7191,7 +7271,50 @@ export default async function DestinationPage({ params }: Props) {
   const topHotels = [...hotels].sort((a, b) => b.honeymoon_score - a.honeymoon_score).slice(0, 3)
   const sortedHotels = [...hotels].sort((a, b) => b.honeymoon_score - a.honeymoon_score)
 
+  // ── JSON-LD structured data ──
+  const siteUrl = 'https://myhoneymoonhotel.com'
+  const pageUrl = `${siteUrl}/destinations/${country}`
+  const firstHotelHero = sortedHotels[0]?.photos.find(p => p.type === 'hero')?.url ?? sortedHotels[0]?.photos[0]?.url
+  const heroImage = meta?.hero
+    ? (meta.hero.startsWith('http') ? meta.hero : `${siteUrl}${meta.hero}`)
+    : firstHotelHero
+  const destinationDescription = meta?.intro ?? `The definitive guide to honeymoon hotels in ${destProper}. Every property scored for romance with real verdicts, price breakdowns, and best room recommendations.`
+
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: siteUrl },
+      { '@type': 'ListItem', position: 2, name: 'Destinations', item: siteUrl },
+      { '@type': 'ListItem', position: 3, name: destProper, item: pageUrl },
+    ],
+  }
+
+  const itemListSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    itemListElement: sortedHotels.map((h, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      url: `${siteUrl}/hotels/${h.slug}`,
+      name: h.name,
+    })),
+  }
+
+  const touristDestinationSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'TouristDestination',
+    name: destProper,
+    description: destinationDescription,
+    url: pageUrl,
+    ...(heroImage && { image: heroImage }),
+  }
+
   return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(touristDestinationSchema) }} />
     <div>
 
       {/* ── HERO ── */}
@@ -7545,5 +7668,6 @@ export default async function DestinationPage({ params }: Props) {
 
       </div>
     </div>
+    </>
   )
 }

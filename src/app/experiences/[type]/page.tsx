@@ -526,7 +526,36 @@ export default async function ExperiencePage({ params }: Props) {
     { icon: '❤️', value: hotels.length ? `${avgScore}/100` : '—', label: `Avg Score · Top ${topScore}` },
   ]
 
+  // ── JSON-LD structured data ──
+  const siteUrl = 'https://myhoneymoonhotel.com'
+  const pageUrl = `${siteUrl}/experiences/${type}`
+  const experienceName = meta?.label ?? type.replace(/-/g, ' ')
+
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: siteUrl },
+      { '@type': 'ListItem', position: 2, name: 'Experiences', item: siteUrl },
+      { '@type': 'ListItem', position: 3, name: experienceName, item: pageUrl },
+    ],
+  }
+
+  const itemListSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    itemListElement: sortedHotels.map((h, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      url: `${siteUrl}/hotels/${h.slug}`,
+      name: h.name,
+    })),
+  }
+
   return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />
     <div className="bg-white">
 
       {/* ── HERO ── */}
@@ -804,5 +833,6 @@ export default async function ExperiencePage({ params }: Props) {
 
       </div>
     </div>
+    </>
   )
 }
