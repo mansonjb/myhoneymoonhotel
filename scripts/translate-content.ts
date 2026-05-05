@@ -18,18 +18,13 @@
  *   npx tsx scripts/translate-content.ts --help
  */
 
-import 'dotenv/config'
+import * as dotenv from 'dotenv'
+import * as path from 'path'
+dotenv.config({ path: path.join(process.cwd(), '.env.local') })
+dotenv.config({ path: path.join(process.cwd(), '.env') })
+
 import Anthropic from '@anthropic-ai/sdk'
 import * as fs from 'fs'
-import * as path from 'path'
-
-// Try .env.local explicitly — `dotenv/config` only loads .env by default.
-try {
-  // eslint-disable-next-line @typescript-eslint/no-require-imports
-  require('dotenv').config({ path: path.resolve(process.cwd(), '.env.local') })
-} catch {
-  /* ignore */
-}
 
 const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY })
 const MODEL = 'claude-haiku-4-5-20251022'
