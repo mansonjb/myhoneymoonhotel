@@ -1,0 +1,82 @@
+import type { DestinationMeta } from '@/types/destination'
+
+const meta: DestinationMeta = {
+hero: '/images/hotels/lux-saint-gilles-reunion/hero.webp',
+tagline: 'A French department in the Indian Ocean — volcanoes, cirques, and Creole cuisine.',
+intro: 'Réunion is the most geologically dramatic island in the Indian Ocean — a French department 700km east of Mauritius where an active shield volcano (Piton de la Fournaise) erupts several times a year, three ancient calderas called cirques are among the most spectacular hiking landscapes in the world, and the Creole culture produces a cuisine that rivals anything in the French provinces. This is the honeymoon destination for couples who want volcanic drama rather than reef and beach.',
+bestTime: 'Apr–Nov',
+flightFrom: '11h from Paris (direct)',
+topExperience: 'Volcano Trekking & French Creole Culture',
+perfectFor: [
+  'Couples who want volcanic hiking and adventure alongside Indian Ocean warmth',
+  'French-speaking couples (it is literally France)',
+  'Those who want dramatic mountain landscapes combined with coral reef beaches',
+  'Foodie couples — Réunion\'s Creole cuisine is extraordinary and entirely French-influenced',
+  'Honeymooners adding to a Mauritius trip (the two islands are 1.5h apart by air)',
+],
+skipIf: [
+  'You want a flat, calm reef lagoon as the primary experience',
+  'The Indian Ocean beach resort concept is the main draw',
+  'You don\'t speak French and linguistic self-sufficiency matters to you',
+  'December–March (cyclone season and heavy rain on the windward coast)',
+  'A volcanic landscape and cirque hiking sounds exhausting rather than exhilarating',
+],
+experiences: [
+  { icon: '🌋', title: 'Eruption Hike at Piton de la Fournaise', description: 'Walking across a hardened lava field to the active caldera of one of the world\'s most active volcanoes — and watching lava flow from a safe distance if an eruption is active. One of the most primal experiences in nature.', cost: '$60–$120 per person (guided)', tip: 'Check the OVPF (Observatoire Volcanologique du Piton de la Fournaise) website for current eruption status. When active, a guided night walk to see lava flow is transcendent. When dormant, the caldera hike is still extraordinary.' },
+  { icon: '🏔️', title: 'Trek the Cirque de Cilaos (3 Days)', description: 'The most dramatic cirque (ancient caldera) in Réunion — a 1,200m deep bowl enclosed by vertical walls, accessible only by mountain road or on foot. The GR R1 trail around the cirque is among the finest multi-day walks in the Indian Ocean.', cost: '$50–$80/night (mountain gîte accommodation)', tip: 'The 3-day GR R1 circuit is the standard itinerary. Guided by Réunion Randonnées for the best interpretation and safety on vertiginous paths.' },
+  { icon: '🪂', title: 'Paragliding from Piton Maïdo', description: 'Launching from the 2,200m Maïdo cliff (one of the highest cliffs in the world above a populated area) and gliding 20 minutes down to the coastal plain. The view over the west coast is extraordinary.', cost: '$120–$180 per person (tandem flight)', tip: 'Morning flights (9–11am) before the valley thermals build. The panorama at launch — 2,200m drop directly to the Indian Ocean — is one of the finest views from any paraglide launch in the world.' },
+  { icon: '🍛', title: 'Rougail Sausages & Creole Feast (Local Restaurant)', description: 'Rougail (tomato and chilli sauce with pork or sausage), carry (Réunion curry — different from any other curry on earth), and the extraordinary fresh seafood of the Indian Ocean coast.', cost: '€30–€60 per couple for a full Creole lunch', tip: 'The best Creole restaurants are in Saint-Pierre and Cilaos. Avoid the tourist seafront restaurants — find the working-class local restaurants where the Réunionnais eat.' },
+  { icon: '🤿', title: 'Night Dive with Sleeping Sharks (Saint-Gilles)', description: 'Réunion\'s coral reef at Saint-Gilles is one of the most biodiverse in the Indian Ocean. Night dives reveal nurse sharks resting on the reef floor and reef octopus hunting in the torchlight.', cost: '$60–$100 per person', tip: 'Use Réunion Sub Centre (Saint-Gilles) — the most experienced and safety-conscious operator on the island. Night dives require Advanced Open Water certification.' },
+],
+months: [
+  { month: 'Jan', weather: 'Cyclone season, heavy rain east coast', emoji: '🌀', crowds: 'Low', price: 'Low', verdict: 'Avoid east coast; Cilaos cut off possible' },
+  { month: 'Feb', weather: 'Peak cyclone risk', emoji: '🌀', crowds: 'Low', price: 'Low', verdict: 'Do not visit — cyclone season' },
+  { month: 'Mar', weather: 'Cyclone risk easing, still wet', emoji: '🌦', crowds: 'Low', price: 'Low', verdict: 'Improving slowly' },
+  { month: 'Apr', weather: 'Transition, improving fast', emoji: '🌤', crowds: 'Moderate', price: 'Mid', verdict: 'Good shoulder value' },
+  { month: 'May', weather: 'Dry season begins, 25°C', emoji: '☀️', crowds: 'Moderate', price: 'Mid', verdict: 'Excellent start of season' },
+  { month: 'Jun', weather: 'Dry, cooler evenings, 23°C', emoji: '☀️', crowds: 'High', price: 'High', verdict: 'French school holidays begin' },
+  { month: 'Jul', weather: 'Dry, 22°C, volcano active often', emoji: '☀️', crowds: 'Peak', price: 'Very high', verdict: 'School holiday peak — book ahead' },
+  { month: 'Aug', weather: 'Dry, excellent for hiking', emoji: '☀️', crowds: 'Peak', price: 'Very high', verdict: 'Best hiking conditions' },
+  { month: 'Sep', weather: 'Dry, thinning, excellent', emoji: '☀️', crowds: 'High', price: 'High', verdict: 'Excellent, less busy' },
+  { month: 'Oct', weather: 'Dry, warm, one of the best months', emoji: '☀️', crowds: 'Moderate', price: 'Mid', verdict: 'Hidden best month' },
+  { month: 'Nov', weather: 'Transition, first showers possible', emoji: '🌤', crowds: 'Low', price: 'Low-mid', verdict: 'Good value, slight rain risk' },
+  { month: 'Dec', weather: 'Wet season beginning, Christmas busy', emoji: '🌦', crowds: 'High', price: 'High', verdict: 'Christmas festive but rain builds' },
+],
+budgetTiers: [
+  { label: 'Boutique Guesthouse', range: '€120–€300/night', gets: 'Local gîte or boutique hotel with Creole cuisine, coastal views, and authentic hospitality. The real Réunion experience.', example: 'Le Relais des Sables, Villa Belle Creolle' },
+  { label: 'Luxury Resort', range: '€300–$700/night', gets: 'Full-service resort on the west coast lagoon, spa, multiple restaurants, water sports.', example: 'Lux Saint Gilles, Le Récif Hotel' },
+  { label: 'Volcanic Cirque Stay', range: '€200–€500/night', gets: 'Cirque de Cilaos mountain lodge or boutique hotel with spectacular caldera views and hiking access.', example: 'Le Vieux Cep, Hotel des Neiges (Cilaos)' },
+],
+areas: [
+  { name: 'Saint-Gilles / West Coast', bestFor: 'Beach, lagoon, diving, resort base', description: 'The leeward (dry) coast with the island\'s only protected lagoon. The tourist and resort infrastructure is here. Lux Saint Gilles is the finest hotel. Best beach swimming and diving from this base.' },
+  { name: 'Cilaos Cirque', bestFor: 'Hiking, thermal baths, dramatic scenery', description: 'A 1,200m bowl surrounded by 2,000m+ cliffs. Thermal springs (the only ones in the Indian Ocean), the island\'s best wine (produced at altitude), and the finest multi-day hiking in the Indian Ocean.' },
+  { name: 'Piton de la Fournaise (SE)', bestFor: 'Active volcano, lava fields, eruption viewing', description: 'The active volcano of Plaine des Cafres. The most visited natural site in the Indian Ocean. An active eruption (several per year) makes night lava hiking possible. Extraordinary even when dormant.' },
+  { name: 'Salazie Cirque (North)', bestFor: 'Waterfalls, most dramatic scenery, gîtes', description: 'The lushest and greenest cirque. Bridal Veil waterfall (Voile de la Mariée) is visible from the main road. Hell-Bourg is one of the most beautiful heritage villages in the Indian Ocean.' },
+],
+expertTips: [
+  { tip: 'Réunion is ideal as part of a Mauritius + Réunion combination trip', detail: 'Air Austral flies between Mauritius and Réunion in 1.5 hours. 5 nights Mauritius (beach) + 5 nights Réunion (volcano, hiking) is a genuinely extraordinary pairing.' },
+  { tip: 'Check the OVPF volcano website before booking your eruption hike', detail: 'Piton de la Fournaise erupts 2–4 times per year. If an eruption is in progress, the night lava hike is the most extraordinary thing you can do in the Indian Ocean. If dormant, the caldera hike is still world-class.' },
+  { tip: 'Rent a car — public transport in Réunion is limited', detail: 'Réunion has a good road network but buses are infrequent between tourist sites. A hire car from Réunion Location at Roland Garros Airport is the correct approach. Drive the Route Forestière for the volcano.' },
+  { tip: 'The cirques require 2 nights minimum', detail: 'Cilaos is a 1.5h drive (with 400 hairpin bends) from the coast. Check in for 2 nights to do the GR R1 day walk and recover. Going for a day trip is exhausting and inadequate.' },
+  { tip: 'The Bourbon vanilla from Réunion is the world\'s finest', detail: 'Réunion (the former Bourbon Island) is the origin of the Bourbon vanilla variety. Buying it directly from a vanilla cooperative in the northeast is one of the great culinary souvenirs of the island.' },
+],
+packing: [
+  { item: 'Proper hiking boots', why: 'The cirque trails are rocky, muddy, and steep — trail runners are marginal; proper boots are necessary' },
+  { item: 'Waterproof jacket', why: 'Even in dry season, the cirques get afternoon cloud and rain. A quality waterproof is essential.' },
+  { item: 'Layers for altitude', why: 'Piton de la Fournaise summit at 2,632m is genuinely cold. The Maïdo lookout at 2,200m is cold with wind chill. Pack merino.' },
+  { item: 'Reef-safe sunscreen', why: 'Saint-Gilles marine park has strict coral protection rules' },
+  { item: 'Cash (Euro)', why: 'It is France — card payments are the norm but cash needed in mountain gîtes and local markets' },
+  { item: 'French phrasebook', why: 'While French is universal, Réunionnais Creole is different from metropolitan French. Basic French courtesy is deeply appreciated.' },
+],
+guide: {
+  getting: 'Fly to Roland Garros Airport (RUN) near Saint-Denis. Direct from Paris (Air Austral, Air France — 11h). Connections from London via Paris (12–13h total). From Mauritius: Air Austral operates 1.5h shuttle service. Rent a car at the airport — essential for all island exploration. The island is 220km in circumference and driveable in a day.',
+  where: 'West coast (Saint-Gilles, Saint-Leu) for lagoon and resort base. Cilaos cirque for mountain and thermal hiking. Piton de la Fournaise (southeast) for the volcano. Salazie cirque (north) for waterfalls and lush green landscape. A 10-night itinerary: Saint-Gilles 3 nights → Cilaos 3 nights → volcano area 2 nights → Salazie 2 nights.',
+  when: 'April–November is the dry season. May and October are the sweet spots: excellent weather, lower French school holiday crowds, and lower prices. July–August is peak (French school holidays — book 4 months ahead). December–March is cyclone season with genuine risk.',
+},
+localFood: 'Carry (Réunion\'s unique curry — different from Indian, Malagasy or South Asian curry, with local spices and often served with rougail sausages and rice), samoussas (triangular fried pastry stuffed with vegetables or meat from the local Indian-Réunionnais tradition), and the extraordinary fresh seafood. The local rum agricole (made from fresh sugar cane, not molasses) is the finest in the Indian Ocean. Rhum arrangé (rum infused with local fruit and vanilla) is the island\'s social drink.',
+currency: 'Euro (EUR) — it is a French department',
+language: 'French (official). Réunionnais Creole widely spoken.',
+timezone: 'GMT+4 (Réunion Time — no daylight saving)',
+}
+
+export default meta

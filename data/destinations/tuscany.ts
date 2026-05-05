@@ -1,0 +1,82 @@
+import type { DestinationMeta } from '@/types/destination'
+
+const meta: DestinationMeta = {
+hero: '/images/hotels/castello-di-casole-tuscany/hero.webp',
+tagline: 'Wine, hilltop villages, Renaissance art — the most romantic agriturismo honeymoon in Europe.',
+intro: 'Tuscany is the slow Italy — the agricultural, vinous, painterly Italy where honeymoons unfold across cypress avenues and Sangiovese vineyards rather than nightclubs and cliff-roads. Florence anchors the north for Renaissance-saturation days at the Uffizi and the Boboli Gardens, but the deep romance lives outside the city: in the Chianti hills between Florence and Siena (Castello di Casole, Borgo San Felice, Il Borro), south through the UNESCO Val d\'Orcia toward Pienza\'s pecorino and Montalcino\'s Brunello (Castiglion del Bosco), west to Volterra\'s Etruscan walls and the Maremma coast (Borgo Pignano, Hotel Il Pellicano on the Argentario peninsula). The classic Tuscan honeymoon is a 7-night countryside-base structure: a single restored borgo for the entire stay, with day trips for Siena, San Gimignano, Pienza, and a closing night in Florence. The food is regional, deeply seasonal, and built around Sangiovese: bistecca alla fiorentina, pici cacio e pepe, cinghiale ragù, ribollita, panforte, and the wines that define Italian honeymoon dinners — Brunello di Montalcino, Chianti Classico, Vino Nobile di Montepulciano, and the Super Tuscans of Bolgheri. May, June, late September and October are the connoisseur\'s windows: warm enough for the pool, cool enough for vineyard walks, and 30% cheaper than peak August.',
+bestTime: 'May–Oct (peaks May–Jun & Sep–Oct)',
+flightFrom: '2h London / 8h US East Coast (Florence FLR or Pisa PSA)',
+topExperience: 'Vineyard Estates',
+perfectFor: [
+  'Couples who want a slow countryside honeymoon — one base, deep exploration',
+  'Wine lovers — Brunello, Chianti Classico, Super Tuscan estate cellar tastings',
+  'Food-driven honeymooners chasing Michelin-starred Tuscan farm dining',
+  'Architecture and art lovers — Florence, Siena, the Renaissance hilltowns',
+  'Romantics who care about visual beauty for its own sake — cypress avenues, Val d\'Orcia',
+],
+skipIf: [
+  'You want a beach-resort week — Tuscany\'s coast is rocky and quiet, not sandy',
+  'Your idea of romance is nightclubs and shopping — Tuscany is rural and slow',
+  'You hate driving — narrow white roads are the joy and the necessity',
+  'August heat (35°C+) and mass Italian domestic tourism are dealbreakers',
+  'You want to hit five regions in ten nights — Tuscany rewards staying still',
+],
+experiences: [
+  { icon: '🍷', title: 'Brunello Vineyard Tasting in Montalcino', description: 'A private day visiting Biondi-Santi (the original 1888 producer), Casanova di Neri, and lunch at Osteria Osticcio with its 800-Brunello cellar and a panorama over the Val d\'Orcia. The defining Tuscan wine experience.', cost: 'Private guide + driver + 3 estates: €600–€900/couple', tip: 'Castiglion del Bosco arranges private cellar visits; ask for the vertical Biondi-Santi spanning 30 years.' },
+  { icon: '🖼️', title: 'Uffizi Gallery Morning, Florence', description: 'Pre-booked early-morning slot at the Uffizi (8:15am) — Botticelli\'s Birth of Venus and Primavera, Leonardo, Michelangelo, Caravaggio. Followed by lunch at Trattoria Mario for the bistecca alla fiorentina.', cost: '€55/person Uffizi + €40 lunch', tip: 'Skip the official audio guide; hire a private guide (€180 for 2 hours) and you\'ll see the actual masterpieces in 90 minutes.' },
+  { icon: '🌅', title: 'Val d\'Orcia Cypress Drive', description: 'A long, beautiful day driving the UNESCO Val d\'Orcia — Pienza for pecorino and a clifftop lunch, Bagno Vignoni\'s thermal-pool village square, San Quirico, and the Cappella della Madonna di Vitaleta on the cypress avenue at golden hour.', cost: 'Free; rental car required', tip: 'The Vitaleta chapel is the most photographed cypress avenue in Tuscany — go at 7pm in June for the best light.' },
+  { icon: '🍄', title: 'White Truffle Hunt, San Miniato', description: 'Half-day with a working truffle hunter and his dogs in the woods around San Miniato — the white-truffle capital of Tuscany. Truffles are dug, weighed, and shaved over your handmade pasta lunch in the hunter\'s farmhouse.', cost: '€250–€400/couple including lunch', tip: 'October–November is high season; book through your borgo concierge for legitimate hunters (some tour-bus operators are theatrical).' },
+  { icon: '👨‍🍳', title: 'Tuscan Cooking Class', description: 'A full day at a borgo cooking school making pici (hand-rolled spaghetti) with cinghiale ragù, ribollita, and a panna cotta with estate honey. Lunch is what you cook, paired with estate Chianti.', cost: '€180–€350/couple', tip: 'Castiglion del Bosco, Castello di Casole, Borgo Pignano and Borgo San Felice all run excellent cooking schools — pick the borgo you\'re staying at.' },
+],
+months: [
+  { month: 'Jan', weather: 'Cold 5–12°C, rain', emoji: '❄️', crowds: 'Very Low', price: 'Lowest', verdict: 'Most country hotels closed; Florence atmospheric and empty' },
+  { month: 'Feb', weather: 'Cold 6–13°C', emoji: '❄️', crowds: 'Very Low', price: 'Lowest', verdict: 'Country hotels closed; cities only' },
+  { month: 'Mar', weather: 'Cool 10–16°C, spring stirring', emoji: '🌸', crowds: 'Low', price: 'Low', verdict: 'Late month is value — borgos reopening, Florence excellent' },
+  { month: 'Apr', weather: 'Beautiful 14–20°C, wisteria', emoji: '🌸', crowds: 'Moderate', price: 'Mid', verdict: 'Shoulder magic — gardens at peak, prices still moderate' },
+  { month: 'May', weather: 'Warm 18–24°C', emoji: '☀️', crowds: 'High', price: 'Mid–High', verdict: 'The single best month — perfect weather, full programming' },
+  { month: 'Jun', weather: 'Warm 22–28°C', emoji: '☀️', crowds: 'High', price: 'High', verdict: 'Excellent before mid-month; Italian school holidays late June' },
+  { month: 'Jul', weather: 'Hot 28–34°C', emoji: '🥵', crowds: 'Peak', price: 'Peak', verdict: 'Hot inland; cities punishing, country hotels at peak rates' },
+  { month: 'Aug', weather: 'Hottest 30–36°C, ferragosto', emoji: '🥵', crowds: 'Peak', price: 'Peak', verdict: 'Italian August — locals on holiday, restaurants close, mobbed' },
+  { month: 'Sep', weather: 'Warm 22–28°C, harvest', emoji: '🍇', crowds: 'High', price: 'High', verdict: 'The other best month — late Sep harvest is magical' },
+  { month: 'Oct', weather: 'Mild 16–22°C, vendemmia', emoji: '🍂', crowds: 'Moderate', price: 'Mid', verdict: 'Tuscany peak — wine harvest, white truffles, perfect light' },
+  { month: 'Nov', weather: 'Cool 10–16°C, white truffle', emoji: '🍂', crowds: 'Low', price: 'Low', verdict: 'Truffles peak; most country hotels close mid-month' },
+  { month: 'Dec', weather: 'Cold 6–12°C, festive', emoji: '🎄', crowds: 'Low', price: 'Low', verdict: 'Florence at Christmas magical; country hotels closed' },
+],
+budgetTiers: [
+  { label: 'Upscale', range: '$400–$700/night', gets: 'Excellent agriturismi, restored farmhouses, smaller borgos with pool and breakfast.', example: 'Borgo Pignano (entry tier), Locanda dell\'Amorosa, Villa Sassolini' },
+  { label: 'Premium', range: '$700–$1,500/night', gets: 'Top Relais & Châteaux estates, full-service borgos, Michelin-starred dining on property.', example: 'Borgo San Felice, Il Borro, Borgo Santo Pietro, Castello di Casole (entry suites)' },
+  { label: 'Ultra-Luxury', range: '$1,500–$6,000+/night', gets: 'World\'s-best country estates, private villas with butler service, ultra-bespoke service.', example: 'Rosewood Castiglion del Bosco, Castello di Casole (Castle Suites & Borgo Villas), Hotel Il Pellicano' },
+],
+areas: [
+  { name: 'Chianti Classico', bestFor: 'Wine, rolling vineyards, central position', description: 'The hills between Florence and Siena — Sangiovese country, classic cypress-and-vineyard scenery. Castello di Casole, Borgo San Felice, Il Borro, COMO Castello del Nero.' },
+  { name: 'Val d\'Orcia & Montalcino', bestFor: 'UNESCO landscape, Brunello, Pienza pecorino', description: 'The southern Tuscany heartland — rolling clay hills, isolated cypress, the most photographed agricultural landscape in Europe. Castiglion del Bosco is the apex hotel.' },
+  { name: 'Florence & City', bestFor: 'Renaissance art, architecture, urban honeymoon', description: 'For 2-3 nights of Uffizi, Boboli, and David. Villa Cora overlooks the Boboli Gardens; Hotel Savoy on Piazza della Repubblica is the central pick.' },
+  { name: 'Maremma Coast & Argentario', bestFor: 'Coastal Tuscany, rocky cliffside swimming, Slim Aarons aesthetics', description: 'The southern Tuscan coast around Monte Argentario. Hotel Il Pellicano is the cinematic icon. Coastline is rocky and quiet — not Amalfi crowds.' },
+],
+expertTips: [
+  { tip: 'Pick one borgo and stay 5–7 nights — Tuscany punishes the rushed', detail: 'The classic mistake: Florence → Chianti → Montalcino → Pienza → Volterra in 7 nights, switching hotels every 2 days. The honeymoon formula that works: one borgo for 5–7 nights, day trips from that base, plus optional 2 nights in Florence.' },
+  { tip: 'Avoid August — and the first half of July if possible', detail: 'Italians take ferragosto in August: shops shut, country towns mobbed by domestic tourism, prices at peak. Mid-September through mid-October is the connoisseur\'s window — warm enough, harvest underway, prices 25–30% lower.' },
+  { tip: 'Rent a car — Tuscany without driving is half the experience', detail: 'White roads (strade bianche) connecting hilltop villages are the joy of Tuscany. A small Fiat-sized car is enough; the back roads to Pienza, Montepulciano, and the Chianti vineyards are why couples come.' },
+  { tip: 'Book Michelin-starred dinners before flights', detail: 'Poggio Rosso (Borgo San Felice), Campo del Drago (Castiglion del Bosco), Tosca (Castello di Casole) and Saporium (Borgo Santo Pietro) are honeymoon-level dinners — book at the same time you book the hotel, especially Saturday nights.' },
+  { tip: 'Skip Pisa unless you have a specific Leaning Tower agenda', detail: 'Pisa\'s leaning tower is a 30-minute photo opportunity, not a Tuscany highlight. Use Pisa airport (PSA) for Volterra/Maremma access, but spend your day-trip time on Siena, San Gimignano, Pienza or Montalcino instead.' },
+],
+packing: [
+  { item: 'Smart-casual evening wardrobe', why: 'Italians dress better than you. Linen trousers and tucked shirt for men; a real dress for women. Tosca, Campo del Drago, Poggio Rosso expect it.' },
+  { item: 'Comfortable walking shoes for cobbled hilltowns', why: 'Siena, San Gimignano, Volterra, Pienza are all steep cobbled stones. Loafers or proper sandals for both day sightseeing and aperitivo.' },
+  { item: 'Light cashmere or pashmina', why: 'Even in summer, Tuscan country evenings cool quickly; churches require covered shoulders.' },
+  { item: 'Sunglasses and sunscreen', why: 'Tuscan summer sun is intense, especially during vineyard tours and Val d\'Orcia drives at midday.' },
+  { item: 'Driving licence + IDP', why: 'Required if renting a car — UK/US licences need an International Driving Permit for some agencies.' },
+  { item: 'A real dinner outfit per couple', why: 'Saturday night at Castiglion del Bosco, Castello di Casole, or Il Pellicano is a dressing-up moment — the photographs will outlast the trip.' },
+],
+guide: {
+  getting: 'Florence (FLR) is the primary gateway — direct flights from London, Paris, Frankfurt, Amsterdam, and most European hubs (2h from UK), or via Rome FCO from US. Pisa (PSA) is the alternate, 60–90 minutes west — direct from London, Paris, and many European cities. Rome Fiumicino (FCO) is 2–3 hours south by car or train and works for the Maremma coast and Val d\'Orcia. The Frecciarossa high-speed train connects Rome–Florence in 1h35 and Milan–Florence in 1h50; consider it instead of internal flights.',
+  where: 'Castiglion del Bosco (Rosewood) for the apex Val d\'Orcia honeymoon. Castello di Casole (Belmond) for cinematic country-estate luxury near Volterra. Borgo San Felice (Relais & Châteaux) for Chianti Classico mid-luxury with serious dining. Il Borro (Ferragamo) for an eastern Tuscany medieval-village honeymoon with artisan workshops. Borgo Pignano for slow-living agricultural Italy near Volterra. Hotel Il Pellicano for cliffside coastal Tuscany on the Argentario.',
+  when: 'May, late September, and October are the connoisseur windows — warm enough for the pool, cool enough for vineyard walks and city days, 25–30% cheaper than August. Late September during the Brunello harvest is the magical week. Avoid August.',
+},
+localFood: 'Tuscan food is rustic, regional, and built around Sangiovese: bistecca alla fiorentina (T-bone steak grilled rare over chestnut wood); pici cacio e pepe and pici al cinghiale (hand-rolled thick spaghetti with wild boar ragù); ribollita (the rustic black-cabbage, white-bean, stale-bread soup); pappa al pomodoro; pecorino di Pienza (the famous Val d\'Orcia sheep cheese); cinta senese (the heritage-breed Tuscan pig); white truffles from San Miniato (October–November); panforte (the dense Sienese spice cake); cantuccini biscuits dipped in Vin Santo. Wines: Brunello di Montalcino, Chianti Classico Riserva, Vino Nobile di Montepulciano, Vernaccia di San Gimignano, and the Super Tuscans of Bolgheri.',
+currency: 'EUR (Euro)',
+language: 'Italian (English widely spoken at luxury hotel level)',
+timezone: 'CET (UTC+1, UTC+2 in summer)',
+}
+
+export default meta

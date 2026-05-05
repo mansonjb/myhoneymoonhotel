@@ -1,0 +1,71 @@
+import type { DestinationMeta } from '@/types/destination'
+
+const meta: DestinationMeta = {
+hero: '/images/hotels/cap-juluca-anguilla/hero.webp',
+tagline: 'Choose your island, choose your honeymoon: 30+ nations, one warm sea',
+intro: 'The Caribbean is not a destination — it is a choice between thirty very different ones. Beyond the headline names lies an archipelago where each island has carved out its own honeymoon personality. Anguilla is the quiet luxury play: 33 powder-white beaches, no high-rises, no cruise ships. Barbados is the polished British Caribbean: Sandy Lane on the Platinum Coast, Mount Gay rum since 1703. Grenada — the Spice Island — smells like nutmeg and offers Grand Anse Beach plus the cult-favorite Calabash. The British Virgin Islands are for couples who want to sleep on water: yacht charters between the Baths at Virgin Gorda, Jost Van Dyke beach bars, Necker for Branson budgets. Dominica is the wild card — volcanic, jungled, almost beach-less, but home to Secret Bay and Coulibri Ridge. Nevis is sleepy old-world charm anchored by the Four Seasons. The unifying truth: water 79-84F year-round, flights from US East Coast 3-5 hours, an astonishing range of feel within a single week.',
+bestTime: 'December to April (dry, 78-84F); May and November are sweet spots',
+flightFrom: 'NYC/Miami 3-5h direct; London 8-9h to Barbados/Antigua; smaller islands require connection',
+topExperience: 'Island-hop by private boat or small plane — Anguilla to St Barts in 25 min, BVI yacht charter across 4 islands in 5 days',
+perfectFor: ['Couples who want options — different islands suit different moods', 'Beach purists who care about sand quality', 'Sailors and yacht-charter honeymooners (BVI is the world capital)', 'Adventure couples wanting jungle + volcano + whales (Dominica)', 'Repeat Caribbean travelers ready to skip the obvious islands'],
+skipIf: ['You want one definitive answer — picking the right island here is the whole game', 'You\'re traveling June-November and risk-averse to hurricanes', 'You want a single-flight, never-leave-the-property honeymoon', 'Cultural immersion matters more than beach and rum'],
+experiences: [
+  { icon: '🛥️', title: 'BVI yacht charter, 5 nights', description: 'Crewed catamaran from Tortola through the Baths, Jost Van Dyke, Anegada — the gold standard.', cost: '$8,000-18,000 for the boat (sleeps 2 with crew)', tip: 'Book a chef-included charter; Horizon and Dream Yacht are reliable' },
+  { icon: '🏝️', title: 'Anguilla beach circuit', description: 'Spend a day driving the 33 beaches — Shoal Bay East, Meads Bay (Blanchards), Little Bay.', cost: '$80 rental car + $200 lunch for two', tip: 'Rent from Bryan\'s — they deliver to your hotel' },
+  { icon: '🌋', title: 'Boiling Lake hike, Dominica', description: 'Eight-hour guided trek to the world\'s second-largest boiling lake — the Caribbean\'s most serious adventure.', cost: '$120 per person guided', tip: 'Stay at Secret Bay or Coulibri Ridge before and after' },
+  { icon: '🥃', title: 'Mount Gay rum estate, Barbados', description: 'World\'s oldest rum distillery (1703); the Cockspur and master blender tastings are infinitely better than the basic tour.', cost: '$120 per person for the premium tasting', tip: 'Pair with lunch at The Cliff or Champers' },
+  { icon: '🐋', title: 'Sperm whale swim, Dominica', description: 'Only place on earth permitted for in-water encounters with resident sperm whales — November to March is peak.', cost: '$300-400 per person, full-day boat', tip: 'Book with Dive Dominica; bring an underwater camera, no flash' },
+],
+months: [
+  { month: 'January', weather: '79F, dry, breezy', emoji: '☀️', crowds: 'Very high', price: 'Peak', verdict: 'Postcard weather, postcard prices' },
+  { month: 'February', weather: '79F, dry', emoji: '☀️', crowds: 'Peak (Valentine\'s)', price: 'Peak+', verdict: 'Book a year ahead or skip' },
+  { month: 'March', weather: '81F, dry', emoji: '☀️', crowds: 'High (spring break)', price: 'Peak', verdict: 'Avoid first two weeks if you hate crowds' },
+  { month: 'April', weather: '82F, dry', emoji: '☀️', crowds: 'Moderate after Easter', price: 'High', verdict: 'Sweet spot — weather holds, crowds thin' },
+  { month: 'May', weather: '83F, occasional shower', emoji: '🌤️', crowds: 'Low', price: 'Mid', verdict: 'Best value of the year' },
+  { month: 'June', weather: '84F, humid', emoji: '🌤️', crowds: 'Low', price: 'Low', verdict: 'Hurricane season starts — risk small' },
+  { month: 'July', weather: '85F, humid', emoji: '⛈️', crowds: 'Moderate', price: 'Low-mid', verdict: 'Southern Caribbean (Aruba, Curaçao) safer bet' },
+  { month: 'August', weather: '86F, very humid', emoji: '⛈️', crowds: 'Moderate', price: 'Low', verdict: 'Hurricane peak begins — get travel insurance' },
+  { month: 'September', weather: '85F, stormy', emoji: '⛈️', crowds: 'Lowest', price: 'Lowest', verdict: 'Statistically the worst month' },
+  { month: 'October', weather: '84F, improving', emoji: '🌦️', crowds: 'Low', price: 'Low', verdict: 'Risky first half, decent second half' },
+  { month: 'November', weather: '82F, drying out', emoji: '🌤️', crowds: 'Low rising', price: 'Mid', verdict: 'Hidden gem month — book post-Nov 15' },
+  { month: 'December', weather: '80F, dry', emoji: '☀️', crowds: 'Peak after 20th', price: 'Mid → peak', verdict: 'First two weeks are the year\'s best value' },
+],
+budgetTiers: [
+  { label: 'Approachable luxury', range: '$500-800/night', gets: 'Boutique 4-star on a quieter island', example: 'Calabash Grenada, garden suite, $650/night' },
+  { label: 'Iconic Caribbean', range: '$1,200-2,500/night', gets: 'The names that defined the region — Cap Juluca, Sandy Lane, Four Seasons Nevis, Secret Bay', example: 'Cap Juluca beachfront junior suite, $1,800/night low season' },
+  { label: 'Private island / villa', range: '$5,000-50,000+/night', gets: 'Necker Island whole-island buyout, BVI mega-yacht charter', example: 'Necker Island full buyout, $108,000/night for up to 34 guests' },
+],
+areas: [
+  { name: 'Anguilla', bestFor: 'Quiet-luxury beach purists', description: 'Thirty-three flour-white beaches, no high-rises, no cruise port. Cap Juluca and Belmond on Maundays Bay.' },
+  { name: 'Barbados', bestFor: 'Polished British Caribbean, easy long-haul', description: 'Direct from London (9h). Platinum Coast for Sandy Lane / Coral Reef Club. Mount Gay rum, Oistins fish fry.' },
+  { name: 'Grenada', bestFor: 'Spice Island value luxury', description: 'Underrated, under-priced. Grand Anse Beach, Calabash Hotel. South of the hurricane belt.' },
+  { name: 'British Virgin Islands', bestFor: 'Sailors and yacht-charter honeymoons', description: 'World\'s greatest charter sailing ground. Tortola, Virgin Gorda for the Baths, Jost Van Dyke.' },
+  { name: 'Dominica & Nevis', bestFor: 'Adventure (Dominica) or old-world quiet (Nevis)', description: 'Dominica is volcanic — Secret Bay and Coulibri Ridge. Nevis is sleepy plantation-era charm at Four Seasons Pinney\'s Beach.' },
+],
+expertTips: [
+  { tip: 'Pick the island based on activity profile, not Instagram', detail: 'Beach purist? Anguilla. Sailor? BVI. Adventurer? Dominica. Foodie? Barbados.' },
+  { tip: 'Combine two islands if you have 7+ nights', detail: 'Anguilla + St Barts (25-min ferry), Nevis + St Kitts (45-min ferry).' },
+  { tip: 'Travel insurance is non-negotiable June-November', detail: 'Hurricane risk is small but real. Cancel-for-any-reason policies cost 8-12% of trip.' },
+  { tip: 'Inter-island flights are part of the experience', detail: 'Tradewind, WinAir, InterCaribbean fly tiny planes. Build in 3-hour buffers.' },
+  { tip: 'Tip in USD on most islands', detail: 'XCD and other Caribbean currencies are pegged to USD; cash USD is universally accepted.' },
+],
+packing: [
+  { item: 'Reef-safe sunscreen', why: 'Mandatory in BVI and increasingly elsewhere' },
+  { item: 'Two swimsuits per person minimum', why: 'Tropical humidity means yesterday\'s suit is still wet' },
+  { item: 'Linen shirt + smart shorts (men), one nice dress (women)', why: 'Sandy Lane, Cap Juluca, Four Seasons enforce evening dress codes' },
+  { item: 'Underwater camera or GoPro', why: 'Reef snorkeling, sperm whales (Dominica), turtle encounters' },
+  { item: 'Sturdy water shoes', why: 'Volcanic islands, reef walks, yacht swim platforms' },
+  { item: 'DEET-free repellent (Picaridin)', why: 'No-see-ums at dusk are the Caribbean\'s actual scourge' },
+],
+guide: {
+  getting: 'Most US East Coast cities reach Antigua, Barbados, St Maarten, San Juan in 3-5 hours direct. Inter-island carriers (Tradewind, WinAir, InterCaribbean, Cape Air) hop to smaller islands in 20-45 minutes.',
+  where: 'Anguilla\'s Maundays Bay or Meads Bay; Barbados\'s Platinum Coast; Grenada\'s Grand Anse; BVI Tortola for charter pickup; Dominica for Secret Bay; Nevis around Pinney\'s Beach.',
+  when: 'Mid-December through mid-April is bulletproof but priciest. May, late November, and first two weeks of December are the value sweet spots. Southern Caribbean sits below the main hurricane belt.',
+},
+localFood: 'Caribbean food varies wildly: Barbados\' flying fish and cou-cou, Bajan macaroni pie; Anguilla\'s spiny lobster grilled at Smokey\'s; Grenada\'s nutmeg-spiced oil down (national dish); Dominica\'s callaloo. Rum punch everywhere — Mount Gay (Barbados), Westerhall (Grenada), Pusser\'s (BVI).',
+currency: 'Varies — XCD/USD/local pegged',
+language: 'English / French / Spanish / Dutch (varies)',
+timezone: 'AST/EST (UTC-4 to UTC-5)',
+}
+
+export default meta

@@ -1,0 +1,82 @@
+import type { DestinationMeta } from '@/types/destination'
+
+const meta: DestinationMeta = {
+hero: '/images/hotels/rosewood-baha-mar-bahamas/hero.webp',
+tagline: '700 islands of pink sand, swimming pigs, and turquoise water 30 minutes from Miami',
+intro: 'The Bahamas is the rare honeymoon destination where you can be sipping a Sky Juice on a pink-sand beach three hours after leaving JFK. The archipelago stretches across 100,000 square miles of the Atlantic — 700 islands, 2,400 cays, and only 16 of them inhabited — which means the gap between Nassau\'s casino-fueled buzz and the empty white crescents of Eleuthera or the Exumas is enormous, even though they share a flag and a currency. Most couples never venture past Paradise Island, and that\'s a missed opportunity: the Out Islands are where the country reveals itself. Harbour Island\'s three-mile Pink Sands Beach genuinely glows rose at sunrise, the result of crushed foraminifera shells mixing with white coral. Eleuthera is 110 miles long and barely two miles wide, with the Atlantic crashing on one shore and the Caribbean lapping the other — the Glass Window Bridge lets you see both at once. The Exumas are the postcard: 365 cays scattered across impossibly clear shallows, home to the famous swimming pigs of Big Major Cay, the underwater cave system Thunderball Grotto (where the Bond film was shot), and iguana-covered islands you can have entirely to yourself. Andros, the largest and least visited, is a bonefishing pilgrimage site riddled with blue holes. Beyond the beaches, the culture is distinctly Bahamian: Junkanoo parades explode through the streets on Boxing Day and New Year\'s, conch is the national obsession (fritters, salad, cracked, in chowder), and rake-and-scrape music has a rhythm you won\'t hear anywhere else.',
+bestTime: 'Mid-Nov to mid-Apr — dry season, 75-82°F, no hurricane risk',
+flightFrom: '3h NYC, 1h Miami, 8h30 London — Nassau (NAS) or Out Island airports',
+topExperience: 'Charter a boat from Staniel Cay for swimming pigs + Thunderball Grotto + nurse sharks at Compass Cay',
+perfectFor: [
+  'Couples who want a tropical honeymoon without a 10-hour flight',
+  'Beach maximalists chasing the world\'s most photogenic sand and water',
+  'Boating and snorkeling enthusiasts who want island-hopping access',
+  'Couples splitting the trip between buzzy Nassau and a quiet Out Island',
+  'Foodies into seafood — conch, lobster, grouper, and rum cocktails',
+],
+skipIf: [
+  'You want lush rainforest, mountains, or dramatic landscape diversity',
+  'You\'re looking for deep cultural immersion or ancient ruins',
+  'You want a single-island destination with everything walkable',
+  'You\'re booking June-November and risk-averse about hurricanes',
+],
+experiences: [
+  { icon: '🐷', title: 'Swim with the Exuma Pigs', description: 'The famous feral swimming pigs of Big Major Cay paddle out to greet boats in waist-deep turquoise water. Best done early morning before the day-tripper armada arrives from Nassau.', cost: '$400-700/couple full-day from Staniel Cay; $1,200+ from Nassau', tip: 'Stay overnight at Staniel Cay Yacht Club so you can launch at 7am and have the pigs to yourselves.' },
+  { icon: '🌅', title: 'Walk Pink Sands Beach at sunrise', description: 'Harbour Island\'s three-mile beach turns rose-gold at first light when the low sun hits the shell-pink sand. Walk the full length barefoot — the most photographed beach in the Caribbean for a reason.', cost: 'Free; beach is public access', tip: 'Stay on the beach side (Pink Sands Resort or The Dunmore) so you can walk out the gate at 6:30am.' },
+  { icon: '🤿', title: 'Snorkel Thunderball Grotto', description: 'A natural underwater cave system in the Exumas, lit through holes in the limestone ceiling. Featured in Thunderball and Never Say Never Again. Schools of sergeant majors swirl through shafts of light.', cost: 'Included on most Exumas charters; $40-60 independently', tip: 'Time your visit for slack tide — currents rip through at peak flood and ebb. Bring an underwater light.' },
+  { icon: '🌊', title: 'Cross the Glass Window Bridge', description: 'A narrow strip of Eleuthera where the deep navy Atlantic meets the pale turquoise Caribbean — separated by maybe 30 feet of road. The contrast is genuinely surreal in person.', cost: 'Free; rental car needed (~$75/day)', tip: 'Drive 10 minutes south to the Queen\'s Bath tide pools — natural hot tubs in the limestone, best at low tide.' },
+  { icon: '🎣', title: 'Bonefish the Andros flats', description: 'Andros is the bonefishing capital of the world — endless shallow flats, world-class guides, and "ghost of the flats" that strip 100 yards of line in seconds.', cost: '$650-900/day for guided skiff with two anglers', tip: 'Book through Tiamo or a dedicated lodge — guides are the difference between catching 20 fish and zero.' },
+],
+months: [
+  { month: 'Jan', weather: '72-77°F, dry, breezy', emoji: '☀️', crowds: 'Peak', price: 'Highest', verdict: 'Cool but reliable; pack a light layer for evenings' },
+  { month: 'Feb', weather: '73-78°F, dry', emoji: '☀️', crowds: 'Peak', price: 'Highest', verdict: 'Valentine\'s premiums; book 6+ months out' },
+  { month: 'Mar', weather: '75-80°F, dry', emoji: '☀️', crowds: 'Very busy', price: 'Highest', verdict: 'Spring break crowds in Nassau; Out Islands still calm' },
+  { month: 'Apr', weather: '76-82°F, dry, warming', emoji: '☀️', crowds: 'Busy', price: 'High', verdict: 'Sweet spot — warm water, post-Easter dip in rates' },
+  { month: 'May', weather: '78-84°F, occasional showers', emoji: '⛅', crowds: 'Moderate', price: 'High', verdict: 'Best value of the year; water is bath-warm' },
+  { month: 'Jun', weather: '80-86°F, humid, brief storms', emoji: '⛅', crowds: 'Moderate', price: 'Mid', verdict: 'Hurricane season starts but risk is low; great deals' },
+  { month: 'Jul', weather: '82-88°F, humid', emoji: '⛅', crowds: 'Moderate', price: 'Mid', verdict: 'Hot and sticky but storms still rare' },
+  { month: 'Aug', weather: '82-89°F, humid, storms possible', emoji: '⛈️', crowds: 'Moderate', price: 'Mid', verdict: 'Peak hurricane risk begins; book refundable' },
+  { month: 'Sep', weather: '81-87°F, stormy', emoji: '⛈️', crowds: 'Quiet', price: 'Lowest', verdict: 'Avoid — peak hurricane month, many resorts close' },
+  { month: 'Oct', weather: '79-85°F, improving late', emoji: '⛈️', crowds: 'Quiet', price: 'Mid', verdict: 'Still risky early; second half stabilizes' },
+  { month: 'Nov', weather: '76-82°F, dry returns', emoji: '☀️', crowds: 'Building', price: 'High', verdict: 'Excellent post-15th — dry season starts, prices reasonable' },
+  { month: 'Dec', weather: '73-79°F, dry', emoji: '☀️', crowds: 'Peak', price: 'Highest', verdict: 'Junkanoo on Boxing Day is unmissable; holiday rates apply' },
+],
+budgetTiers: [
+  { label: 'Comfort', range: '$450-700/night', gets: 'Boutique 4-star on Eleuthera or Harbour Island, breakfast, beach access. Skip Nassau at this tier.', example: 'The Dunmore on Harbour Island — colonial-cottage charm steps from Pink Sands Beach' },
+  { label: 'Luxury', range: '$900-1,800/night', gets: 'Top-tier resorts on Paradise Island or Eleuthera, oceanview suites, multiple restaurants, full spa', example: 'Rosewood Baha Mar (Nassau) or The Cove Eleuthera' },
+  { label: 'Ultra-luxury', range: '$2,500-8,000/night', gets: 'Private island or all-villa resorts, butler service, private boats, all-inclusive food and drink', example: 'Kamalame Cay (private island off Andros) or Tiamo Resort (off-grid Andros eco-luxury)' },
+],
+areas: [
+  { name: 'Nassau & Paradise Island', bestFor: 'First-timers, casino nights, easy logistics', description: 'The capital and its connected sister island host the country\'s biggest resorts — Atlantis, Baha Mar, Ocean Club. Direct flights from a dozen US cities.' },
+  { name: 'Harbour Island', bestFor: 'Boutique-resort honeymoons, photographers, beach lovers', description: 'A 3.5-mile pink-sand sliver off North Eleuthera. Golf carts only, no big resorts, fashion-shoot energy.' },
+  { name: 'Eleuthera', bestFor: 'Quiet sophistication, road-tripping couples, surf and snorkel', description: '110 miles long, barely populated, with Glass Window Bridge, Lighthouse Beach, French Leave Beach.' },
+  { name: 'The Exumas', bestFor: 'Boating, swimming pigs, James Bond fans', description: '365 cays of impossibly clear shallows. Base at Staniel Cay or Great Exuma; the magic is on the water.' },
+  { name: 'Andros', bestFor: 'Fly-fishers, divers, true-escape couples', description: 'Largest Bahamian island, almost entirely undeveloped, world\'s third-longest barrier reef offshore.' },
+],
+expertTips: [
+  { tip: 'Book Out Island flights with the resort, not separately', detail: 'Domestic Bahamas flights are a circus of small airlines, weight limits, and cancellations. Most Out Island resorts have transfer desks that handle the whole chain — pay the premium.' },
+  { tip: 'Skip the Nassau airport food court', detail: 'Lynden Pindling has notoriously slow lines and bad food. If you\'re connecting to an Out Island, eat before you arrive.' },
+  { tip: 'Junkanoo is on Boxing Day and New Year\'s, not Christmas', detail: 'If you want to see the parades, target Dec 26 or Jan 1 in Nassau. Bay Street goblets full of Goombay Punch, costumes built over months.' },
+  { tip: 'The Exumas day trip from Nassau is exhausting', detail: 'Operators sell 12-hour combo trips: 90-minute boat ride each way, three island stops, you\'re back at 7pm wrecked. Sleep in the Exumas one night minimum.' },
+  { tip: 'Tipping is expected and often not included', detail: 'Unlike some Caribbean destinations, gratuity is not always built into resort rates. Budget 15-20% for restaurants, $5-10/bag for porters.' },
+],
+packing: [
+  { item: 'Reef-safe sunscreen (mineral, no oxybenzone)', why: 'Required by law in some marine parks; the sun reflecting off white sand burns you twice.' },
+  { item: 'Underwater camera or GoPro', why: 'Pigs, grottos, sharks at Compass Cay — the Bahamas is an underwater-photo destination.' },
+  { item: 'Light layer for evenings', why: 'December-March nights drop to 65°F and AC in restaurants is brutal.' },
+  { item: 'Snorkel gear if you have it', why: 'Resort rentals are mediocre; mask fit matters and reef shoes help on rocky entries.' },
+  { item: 'Cash in small US bills', why: 'Tips, taxis, and Out Island shops often run on cash; ATMs unreliable outside Nassau.' },
+  { item: 'Dramamine or sea-sickness bands', why: 'Even calm-day Exuma boat trips can pound; the channel between New Providence and Out Islands gets choppy.' },
+],
+guide: {
+  getting: 'Fly into Nassau (NAS) from most US East Coast hubs in under 3 hours; direct flights also from Toronto, London (BA seasonal), and Atlanta. For Out Islands, connect to North Eleuthera (ELH), Staniel Cay (TYM), Great Exuma (GGT), or Andros on Bahamasair, Western Air, or charter. Many luxury resorts arrange private charters direct from Florida bypassing Nassau entirely — worth the $400-800/person.',
+  where: 'For a 7-night honeymoon, split between two islands: 3 nights Nassau or Paradise Island, then 4 nights on Harbour Island, Eleuthera, or the Exumas. Couples who want pure quiet should skip Nassau entirely. Andros and the Exumas suit boating and fishing couples; Eleuthera and Harbour Island win for beach-and-boutique.',
+  when: 'Mid-November through April is the dry, warm, hurricane-free window. May and early June are excellent value with bath-warm water. Avoid August-October. Christmas/New Year\'s books out 9+ months ahead.',
+},
+localFood: 'Conch is the Bahamian obsession — eaten as fritters, in zesty raw "salad" with lime and bird pepper, cracked (pounded and fried), or in chowder. Grilled grouper, lobster (in season Aug-Mar), and peas-and-rice are staples. Don\'t miss rum cake, guava duff for dessert, and the local cocktails: Sky Juice (gin, coconut water, sweet milk) and Goombay Punch.',
+currency: 'Bahamian Dollar (BSD) — pegged 1:1 to USD; USD universally accepted',
+language: 'English',
+timezone: 'EST (UTC-5)',
+}
+
+export default meta

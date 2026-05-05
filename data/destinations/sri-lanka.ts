@@ -1,0 +1,71 @@
+import type { DestinationMeta } from '@/types/destination'
+
+const meta: DestinationMeta = {
+hero: '/images/hotels/cape-weligama-sri-lanka/hero.webp',
+tagline: 'Ancient kingdoms, misty tea hills and palm-fringed beaches on one tear-shaped island',
+intro: 'Sri Lanka packs an absurd amount of variety into a country smaller than Ireland. In a single week you can climb a 5th-century rock fortress at sunrise, ride a slow blue train through emerald tea estates, track leopards in Yala, and end the day watching whales breach off Mirissa. The Cultural Triangle anchors 2,500 years of Buddhist civilization — Sigiriya, Dambulla, Polonnaruwa, Anuradhapura — while the Hill Country offers cool air, colonial bungalows and some of the most photogenic train journeys on earth. The southwest coast strings together UNESCO-listed Galle Fort, swaying palm beaches at Tangalle and Weligama. Two distinct monsoon systems mean timing matters: the southwest and hill country shine December to March, while the east coast peaks May to September. The food is criminally underrated: egg hoppers for breakfast, kottu roti at night, coconut-rich fish curries. Wildlife is genuinely world-class — Sri Lanka has the highest leopard density on the planet at Yala.',
+bestTime: 'December to March for the south, west and hill country; May to September for the east coast',
+flightFrom: 'NYC ~17h via Doha/Dubai; LON ~11h direct or via Gulf. Bandaranaike (CMB) is the only international gateway.',
+topExperience: 'Climbing Sigiriya rock fortress at dawn, then taking the morning train from Kandy to Ella through the tea country',
+perfectFor: ['Culture-and-nature combiners', 'Wildlife photographers', 'Tea and train enthusiasts', 'Surfers chasing warm water', 'Ayurveda and wellness seekers'],
+skipIf: ['You want one-stop beach lounging only', 'You hate winding mountain roads', 'You need predictable weather everywhere at once', 'You expect Maldives-level beach polish'],
+experiences: [
+  { icon: '🪨', title: 'Sigiriya at sunrise', description: 'Climb the 1,200 steps of the 5th-century Lion Rock fortress before the heat and tour buses arrive.', cost: '$30 entry', tip: 'Be at the gate by 6:30am sharp; consider Pidurangala next door for the iconic photo' },
+  { icon: '🚂', title: 'Kandy to Ella train', description: 'Seven hours through tea estates, waterfalls and Nine Arches Bridge — one of the world\'s most scenic rail journeys.', cost: '$10-25 reserved', tip: 'Book second-class reserved seats weeks ahead' },
+  { icon: '🐆', title: 'Yala leopard safari', description: 'Block 1 of Yala has the highest leopard density on earth.', cost: '$80-150 shared jeep', tip: 'Stay in or near the park (Wild Coast Tented Lodge)' },
+  { icon: '🏰', title: 'Galle Fort wander', description: 'A perfectly preserved Dutch colonial fort jutting into the Indian Ocean.', cost: 'Free to walk', tip: 'Stay overnight inside the walls (Amangalla or Fort Bazaar)' },
+  { icon: '🍃', title: 'Tea estate stay', description: 'Sleep in a restored planter\'s bungalow at Ceylon Tea Trails or Tea Trails Hatton.', cost: '$600-1,200/night all-inclusive', tip: 'Book the Castlereagh or Summerville bungalow' },
+],
+months: [
+  { month: 'January', weather: '27°C, dry south/west', emoji: '☀️', crowds: 'Peak', price: 'Highest', verdict: 'Prime time — book 6 months ahead' },
+  { month: 'February', weather: '28°C, dry and clear', emoji: '☀️', crowds: 'Peak', price: 'Highest', verdict: 'Best overall month for first-timers' },
+  { month: 'March', weather: '29°C, warming up', emoji: '🌤️', crowds: 'High', price: 'High', verdict: 'Excellent — slight humidity creep' },
+  { month: 'April', weather: '30°C, pre-monsoon heat', emoji: '🌤️', crowds: 'Medium', price: 'Mid', verdict: 'Hot but Sinhala/Tamil New Year buzz' },
+  { month: 'May', weather: '29°C, SW monsoon starts', emoji: '🌧️', crowds: 'Low', price: 'Low', verdict: 'East coast opens — skip the south' },
+  { month: 'June', weather: '28°C, wet southwest', emoji: '🌧️', crowds: 'Low', price: 'Low', verdict: 'Cultural Triangle and east coast only' },
+  { month: 'July', weather: '28°C, Esala Perahera', emoji: '⛅', crowds: 'Medium', price: 'Mid', verdict: 'Kandy festival is spectacular' },
+  { month: 'August', weather: '28°C, drier in north', emoji: '⛅', crowds: 'Medium', price: 'Mid', verdict: 'Great for safaris and east beaches' },
+  { month: 'September', weather: '28°C, transitional', emoji: '🌦️', crowds: 'Low', price: 'Low', verdict: 'Quiet shoulder' },
+  { month: 'October', weather: '27°C, NE monsoon arrives', emoji: '🌧️', crowds: 'Low', price: 'Low', verdict: 'Wettest month island-wide — avoid' },
+  { month: 'November', weather: '27°C, clearing south', emoji: '🌦️', crowds: 'Medium', price: 'Mid', verdict: 'South coast reopens late month' },
+  { month: 'December', weather: '27°C, dry and festive', emoji: '☀️', crowds: 'Peak', price: 'Highest', verdict: 'Christmas/NYE books out a year ahead' },
+],
+budgetTiers: [
+  { label: 'Comfortable', range: '$200-400/night', gets: 'Boutique colonial guesthouses, mid-range beach resorts, private driver-guide', example: 'Jetwing properties, Heritance Kandalama' },
+  { label: 'Luxury', range: '$500-900/night', gets: 'Resplendent Ceylon collection, design-forward villas, dedicated butler', example: 'Cape Weligama, Wild Coast Tented Lodge' },
+  { label: 'Ultra-luxury', range: '$1,000-2,500/night', gets: 'Aman properties, all-inclusive tea bungalows, helicopter transfers', example: 'Amangalla, Aman Galle, Ceylon Tea Trails' },
+],
+areas: [
+  { name: 'Cultural Triangle', bestFor: 'History, ruins, first-timers', description: 'Dry-zone heartland with Sigiriya, Dambulla caves, Polonnaruwa within a 90-minute radius. Heritance Kandalama is the iconic base.' },
+  { name: 'Kandy & Hill Country', bestFor: 'Tea culture, cool climate, trains', description: 'Kandy\'s Temple of the Tooth, then up to Nuwara Eliya and Hatton for tea estates and the Ella train.' },
+  { name: 'Galle & South Coast', bestFor: 'Beaches, colonial charm, surf', description: 'Galle Fort anchors a coastline of palm beaches from Bentota to Tangalle. Cape Weligama, Amangalla cluster here.' },
+  { name: 'Yala & Southeast', bestFor: 'Safari, wildlife, tented camps', description: 'Sri Lanka\'s premier national park for leopards. Wild Coast Tented Lodge is the standout.' },
+  { name: 'East Coast', bestFor: 'May-September beach time', description: 'When the southwest is wet, Trinco\'s Nilaveli beach and Pasikuda offer dry, sunny swimming.' },
+],
+expertTips: [
+  { tip: 'Hire a driver-guide, don\'t self-drive', detail: 'Roads are chaotic, signage is patchy. A good driver costs $60-90/day including their accommodation.' },
+  { tip: 'Follow the monsoons, don\'t fight them', detail: 'Dec-March: south, west, hills. May-Sep: east coast and Cultural Triangle. October is genuinely miserable nationwide.' },
+  { tip: 'Build in buffer days between regions', detail: 'Distances look short on a map, but Colombo to Ella can take 7 hours.' },
+  { tip: 'Skip Pinnawala elephant orphanage', detail: 'It\'s ethically questionable. See wild elephants at Udawalawe or Minneriya\'s "Gathering" instead.' },
+  { tip: 'Book Yala safaris through your hotel', detail: 'Hotel-arranged jeeps know the trackers and get gate priority.' },
+],
+packing: [
+  { item: 'Modest temple-ready outfit', why: 'Shoulders and knees covered for Buddhist sites' },
+  { item: 'Light layers for the hills', why: 'Nuwara Eliya and Ella drop to single digits at night' },
+  { item: 'Reef-safe sunscreen', why: 'UV is brutal year-round near the equator' },
+  { item: 'Mosquito repellent with DEET', why: 'Dengue is present in lowland areas' },
+  { item: 'Leech socks for hill walks', why: 'If you\'re hiking Sinharaja rainforest, leeches are guaranteed' },
+  { item: 'Cash in small LKR notes', why: 'Tuk-tuks, roadside stands run on small bills' },
+],
+guide: {
+  getting: 'All international flights land at Bandaranaike (CMB). Most luxury travelers skip Colombo entirely — pre-arrange a driver-guide to head straight to Sigiriya (4hr) or south to Galle (2-3hr).',
+  where: 'A classic 10-14 day loop: Sigiriya area (2-3 nights), Kandy (1-2 nights), tea country (2 nights at Ceylon Tea Trails), Yala (1-2 nights), south coast (3-4 nights at Cape Weligama or Amangalla).',
+  when: 'For first-timers doing the south-and-hills loop, target late January through mid-March. If your priority is Yala plus east coast, flip to June-August. Esala Perahera in Kandy (late July) is one of Asia\'s great cultural spectacles.',
+},
+localFood: 'Sri Lankan food is bolder and more varied than its Indian neighbor — coconut, curry leaves, pandan and cinnamon define the palate. Breakfast means egg hoppers or string hoppers with dhal and pol sambol. Lunch is rice and curry — typically 5-7 small dishes. Late-night kottu roti is the national comfort food.',
+currency: 'Sri Lankan Rupee (LKR)',
+language: 'Sinhala / Tamil (English widely spoken)',
+timezone: 'IST (UTC+5:30)',
+}
+
+export default meta

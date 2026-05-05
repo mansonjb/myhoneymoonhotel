@@ -1,0 +1,82 @@
+import type { DestinationMeta } from '@/types/destination'
+
+const meta: DestinationMeta = {
+hero: '/images/hotels/bulgari-resort-bali/hero.webp',
+tagline: 'The Island of the Gods — where Hinduism, rice terraces, and beach luxury coexist perfectly.',
+intro: 'Bali is the most spiritually charged honeymoon destination in Asia — a Hindu island in the world\'s largest Muslim nation, where temple ceremonies, rice terrace walks, and volcanic sunrise hikes sit alongside world-class cliff-top resorts overlooking the Indian Ocean. Uluwatu\'s Bulgari and COMO Shambhala Estate near Ubud represent two completely different but equally extraordinary Bali experiences.',
+bestTime: 'May–Sep',
+flightFrom: '14–15h from Europe',
+topExperience: 'Culture, Wellness & Beach',
+perfectFor: [
+  'Couples who want exotic culture, wellness, and beach in one destination',
+  'Yoga and spa enthusiasts — Bali invented the boutique wellness retreat',
+  'Those who want something genuinely different from a resort bubble',
+  'Surfers — the Bukit Peninsula has world-class waves for all levels',
+  'Couples who want exceptional value for luxury accommodation',
+],
+skipIf: [
+  'Visiting June–August Kuta/Seminyak — it\'s essentially Ibiza with temples',
+  'You want guaranteed solitude — Bali is genuinely popular',
+  'You\'re visiting November–March (wet season, flooding in low areas)',
+  'Package-resort beach simplicity is all you want',
+  'The 15-hour flight feels excessive for a 7-night trip',
+],
+experiences: [
+  { icon: '🌅', title: 'Mount Batur Sunrise Hike', description: 'A 2am wake-up, a 1.5h hike to the active volcano rim, and watching the sunrise over the caldera lake and distant Rinjani while drinking coffee brewed over volcanic steam. The most memorable dawn in Southeast Asia.', cost: '$40–$80 per person (guide)', tip: 'Book through your hotel rather than a random guide tout. The 2am departure from Ubud is brutal — make sure it\'s an accredited guide with proper equipment.' },
+  { icon: '🌾', title: 'Sunrise Rice Terrace Walk (Tegallalang)', description: 'Walking the UNESCO-listed rice terraces of Tegallalang at 6am — before the drone photographers and the selfie sticks. The layered green geometry in morning mist is one of the great visual experiences in Asia.', cost: 'Free (nominal donation to farmers)', tip: 'The best alternative is Jatiluwih — further from Ubud but larger, less visited, and genuinely more beautiful in morning light.' },
+  { icon: '🕌', title: 'Uluwatu Temple Kecak Fire Dance at Sunset', description: 'The ancient sea temple on a 70m cliff above the Indian Ocean, with the kecak fire dance performed as the sun sets into the sea below. The most atmospheric cultural experience in Bali.', cost: '$15–$20 per person', tip: 'Arrive 45 minutes early for good cliff-edge seats. The performance begins at sunset — actual timing varies with the season. Check with your hotel.' },
+  { icon: '💆', title: 'COMO Shambhala Estate Wellness Retreat', description: '4 nights at the definitive Balinese wellness estate — Ayurvedic consultations, jungle-stream walks, meditation pavilions, and the most comprehensive spa program in Asia. Transformative.', cost: '$700–$1,500/night', tip: 'Book the Ayurvedic consultation before arrival — the treatment plan takes 2–3 days to fully develop and you want maximum time to absorb the program.' },
+  { icon: '🏄', title: 'Surf Lesson at Padang Padang or Bingin (Bukit)', description: 'The Bukit Peninsula\'s reef breaks — Uluwatu, Bingin, Padang Padang — are some of the most consistent and beautiful surf spots in Asia. Beginner-appropriate breaks are at Seminyak and Medewi.', cost: '$40–$80 per person (2h lesson)', tip: 'Beginners: Seminyak beach surf schools. For intermediate-advanced: Bingin and Impossibles are extraordinary. Never surf Uluwatu without a local guide — the reef entry is dangerous.' },
+],
+months: [
+  { month: 'Jan', weather: 'Wet season, 28°C, daily rain', emoji: '🌧', crowds: 'Low', price: 'Low', verdict: 'Wet — green and lush but umbrella essential' },
+  { month: 'Feb', weather: 'Wet, some flooding in low areas', emoji: '🌧', crowds: 'Low', price: 'Low', verdict: 'Avoid low-lying areas' },
+  { month: 'Mar', weather: 'Wet season easing', emoji: '🌦', crowds: 'Low', price: 'Low-mid', verdict: 'Improving, good deals' },
+  { month: 'Apr', weather: 'Transition — mix of sun and rain', emoji: '⛅', crowds: 'Moderate', price: 'Mid', verdict: 'Good shoulder month' },
+  { month: 'May', weather: 'Dry season begins, 27°C', emoji: '☀️', crowds: 'Moderate', price: 'Mid', verdict: 'Excellent start to dry season' },
+  { month: 'Jun', weather: 'Dry, warm, perfect', emoji: '☀️', crowds: 'High', price: 'High', verdict: 'One of the best months' },
+  { month: 'Jul', weather: 'Peak dry season, busy', emoji: '☀️', crowds: 'Peak', price: 'Very high', verdict: 'Most popular month — very crowded' },
+  { month: 'Aug', weather: 'Dry, hot, peak crowds', emoji: '☀️', crowds: 'Peak', price: 'Highest', verdict: 'Beautiful but book months ahead' },
+  { month: 'Sep', weather: 'Dry, thinning slightly', emoji: '☀️', crowds: 'High', price: 'High', verdict: 'Still excellent, slightly quieter' },
+  { month: 'Oct', weather: 'End of dry, first rains possible', emoji: '🌤', crowds: 'Moderate', price: 'Mid', verdict: 'Good value, small rain risk' },
+  { month: 'Nov', weather: 'Wet season beginning', emoji: '🌦', crowds: 'Low', price: 'Low-mid', verdict: 'Getting wetter — check resort area' },
+  { month: 'Dec', weather: 'Wet, festive, busy beaches', emoji: '🌧', crowds: 'High', price: 'High', verdict: 'Christmas at Uluwatu is beautiful despite rain' },
+],
+budgetTiers: [
+  { label: 'Boutique Villa', range: '$200–$500/night', gets: 'Private pool villa with rice terrace or jungle view, daily breakfast, spa treatments on demand. Bali\'s extraordinary value proposition.', example: 'Komaneka at Bisma (Ubud), Alila Manggis' },
+  { label: 'Luxury Clifftop', range: '$500–$1,200/night', gets: 'Clifftop infinity pool villa with Indian Ocean views, butler, world-class spa. The definitive Uluwatu experience.', example: 'Bulgari Resort Bali, Alila Villas Uluwatu' },
+  { label: 'Wellness Ultra-Luxury', range: '$700–$1,500/night', gets: 'Full wellness programming, Ayurvedic consultations, jungle-stream spa, farm cuisine.', example: 'COMO Shambhala Estate, Six Senses Uluwatu' },
+],
+areas: [
+  { name: 'Uluwatu (Bukit Peninsula)', bestFor: 'Clifftop ocean views, surf, Bulgari resort', description: 'The limestone cliffs of the Bukit Peninsula drop 70m to the Indian Ocean. Bulgari Resort, Alila Villas, and Six Senses are here. The most dramatic resort setting in Bali.' },
+  { name: 'Ubud (Central Bali)', bestFor: 'Culture, wellness, rice terraces, jungle', description: 'The cultural heart of Bali. Temple ceremonies, gamelan music, COMO Shambhala Estate, and the rice terraces of Tegallalang. The best base for couples who want culture alongside luxury.' },
+  { name: 'Seminyak / Canggu', bestFor: 'Beach bars, sunset, surf, restaurants', description: 'The fashionable beach strip. Best restaurants and sunset bars in Bali. More social and urban than Uluwatu. Good for couples who want beach life mixed with a restaurant scene.' },
+  { name: 'Nusa Penida / Lembongan', bestFor: 'Snorkeling, manta rays, day escape', description: 'The islands southeast of Bali have the best snorkeling (manta rays, mola-mola fish). Crystal Bay and Manta Point are two of the finest snorkel sites in Southeast Asia. A day trip or 2-night escape.' },
+],
+expertTips: [
+  { tip: 'Combine Ubud and Uluwatu — they\'re only 90 minutes apart', detail: 'The perfect Bali honeymoon: 3 nights Ubud (culture, wellness, rice terraces) + 4 nights Uluwatu (clifftop ocean resort, sunset, surf). Two completely different Balis in one trip.' },
+  { tip: 'Book a private driver for the whole trip', detail: 'A trusted private driver in Bali costs $50–$80/day and solves every logistical challenge. Ask your hotel for their recommended driver — the good ones book up fast in peak season.' },
+  { tip: 'Temple ceremony etiquette is important', detail: 'If invited to a ceremony (or you find one): wear a sarong and sash (provided at temples), don\'t enter the inner sanctum unless invited, and don\'t point feet toward shrines. The Balinese appreciate respectful curiosity deeply.' },
+  { tip: 'Nusa Penida manta rays are a non-negotiable day trip', detail: 'The manta rays at Manta Point off Nusa Penida are the largest (up to 4m) and most reliably present in Southeast Asia. A 45-minute fast boat from Sanur, 2 hours of snorkeling, return by 2pm.' },
+  { tip: 'Dry season means east Bali too — go beyond Ubud', detail: 'The east Bali coast (Amed, Candidasa, Tulamben) is almost unknown to tourists, has the best diving in Bali (USAT Liberty wreck), and has extraordinary black sand beach views of Agung volcano.' },
+],
+packing: [
+  { item: 'Sarong/sulu wrap (×2)', why: 'Required at all temples and expected at village ceremonies. Many temples provide them but having your own is respectful.' },
+  { item: 'Mosquito repellent (DEET)', why: 'Dengue risk is real in Bali, especially in wet season. Even in dry season, apply at dusk.' },
+  { item: 'Reef-safe sunscreen', why: 'Nusa Penida marine park and Manta Point have reef conservation rules' },
+  { item: 'Light rain jacket', why: 'Ubud gets afternoon downpours even in dry season — pack a packable shell' },
+  { item: 'Underwater camera', why: 'Manta Point snorkeling and the Liberty wreck dive are extraordinary photography opportunities' },
+  { item: 'Cash (Indonesian Rupiah)', why: 'Local warungs, rice terrace entry, and small villages are cash-only. ATMs in Seminyak and Ubud are plentiful.' },
+],
+guide: {
+  getting: 'Fly to Ngurah Rai International Airport (DPS). Direct flights from London (14h via Singapore — Singapore Airlines, Cathay Pacific via HK). No direct Europe–Bali flights except occasional charter from Amsterdam. From Australia: 6h direct. From Singapore: 2.5h. Domestic transport: hire a private driver from the airport ($15–$25 to Seminyak, $25–$35 to Ubud, $30–$40 to Uluwatu).',
+  where: 'Uluwatu/Bukit (clifftop ocean resort area, best views). Ubud (cultural and wellness centre). Seminyak/Canggu (beach bars, surf, restaurants). Nusa Penida/Lembongan (snorkeling day trips). A classic 10-night honeymoon: Ubud 3 nights → Uluwatu 5 nights → Nusa Penida day trip → final night in Seminyak before departure.',
+  when: 'May–September is the dry season and the correct time to visit. July–August is peak (crowded, more expensive). June and September are the sweet spots: dry, warm, fewer tourists. Avoid November–March unless you embrace the lush green and don\'t mind daily afternoon rain.',
+},
+localFood: 'Nasi goreng (fried rice — Bali\'s national breakfast), babi guling (Balinese roast suckling pig — the finest version is at Ibu Oka in Ubud), satay lilit (Balinese minced fish satay), black rice pudding with coconut cream for breakfast, and fresh coconut water everywhere. The best single meal in Bali is at Locavore in Ubud — contemporary Balinese with impeccable seasonal ingredients. Warning: Ubud health food culture is also extraordinary — the smoothie bowls and raw food at Sayuri or Clear are genuinely worth exploring.',
+currency: 'Indonesian Rupiah (IDR). USD accepted at resorts. Bring crisp, new USD bills — damaged notes are sometimes refused.',
+language: 'Balinese and Indonesian (Bahasa Indonesia). English widely spoken in tourist areas.',
+timezone: 'GMT+8 (Central Indonesia Time)',
+}
+
+export default meta

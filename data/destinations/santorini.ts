@@ -1,0 +1,141 @@
+import type { DestinationMeta } from '@/types/destination'
+
+const meta: DestinationMeta = {
+hero: '/images/hotels/canaves-oia-suites-greece/hero.webp',
+tagline: 'The most iconic caldera views on earth. The sunset that changed honeymoon travel forever.',
+intro: 'Santorini is the island that defined what a European honeymoon could look like — a collapsed volcanic caldera, whitewashed villages cascading down 300m cliffs, and the most universally recognised sunset on the planet. The hotels here are carved into the volcanic rock itself, their infinity pools suspended over a 350m drop into the Aegean. Nothing in European travel has the visual impact of the Santorini caldera at golden hour.',
+bestTime: 'Apr–Oct',
+flightFrom: '3–4h from Europe',
+topExperience: 'Caldera Views & Sunsets',
+perfectFor: [
+  'Couples who want the most iconic European honeymoon image — the Santorini caldera is irreplaceable',
+  'Architecture and design lovers — cave suite hotels here are among the most creative in the world',
+  'Short-haul honeymoons from Europe — exceptional luxury within 4h of any European capital',
+  'Wine lovers — Santorini\'s Assyrtiko is one of Europe\'s great white wines',
+  'Those who want an intense, photogenic, concentrated experience rather than a wide-ranging trip',
+],
+skipIf: [
+  'Crowds seriously bother you in July and August — Oia is one of the most visited spots on earth in peak season',
+  'You need beach space with sun beds and calm water — the caldera rim is for views, the beaches are black volcanic sand with cold water until June',
+  'You want variety of activities beyond views, wine, and gastronomy',
+  'Your budget is under €300/night — there is no genuinely romantic mid-range option on the caldera rim',
+],
+experiences: [
+  {
+    icon: '🌅',
+    title: 'Caldera Rim Sunset (Oia)',
+    description: 'The most filmed sunset in Europe. Find your spot: the castle ruins for the classical view (crowded, free), Ammoudi Bay for the sea-level perspective, or a caldera-rim restaurant terrace (€100–€300/couple for dinner with the best seats). Whatever you choose, the moment the sun drops into the sea behind the white domes is genuinely transcendent.',
+    cost: 'Free at public viewpoints / €150–€300 for a caldera restaurant dinner',
+    tip: 'Book the caldera terrace restaurant 4–6 weeks ahead in high season. Sunset time changes through the season — check the exact time and arrive 45 minutes early for position.',
+  },
+  {
+    icon: '🚢',
+    title: 'Caldera Catamaran with Hot Springs',
+    description: 'A full-day private catamaran circumnavigating the caldera: stop at Nea Kameni volcano to walk the crater, swim in the rust-brown volcanic hot springs (30°C), snorkel at the Red Beach, and sail back to Oia for sunset with champagne on deck.',
+    cost: '€250–€600 per couple (private charter)',
+    tip: 'Sunset catamaran (departing 3pm) means you arrive back in time to sail under the Oia cliffs as the sky turns gold. A morning charter gives the best snorkeling light. Decide which matters more.',
+  },
+  {
+    icon: '🍷',
+    title: 'Assyrtiko Wine Tasting at Domaine Sigalas',
+    description: 'Santorini grows wine in basket-trained vines (kouloures) — low to the ground, circular, to catch moisture and resist the Meltemi wind. Domaine Sigalas (best Assyrtiko), Santo Wines (caldera view terrace), and Canava Roussos are the essential tastings. The dry Vinsanto is extraordinary.',
+    cost: '€25–€60 per person',
+    tip: 'Domaine Sigalas does not have caldera views but produces the finest wine on the island. Visit for taste; go to Santo Wines for the view-with-a-glass experience.',
+  },
+  {
+    icon: '🏊',
+    title: 'Swim at Perivolos Beach (Black Sand)',
+    description: 'The most developed of Santorini\'s volcanic black sand beaches — 8km of dark sand, sunbeds, beach bars, and the clearest water on the southeast coast. The sea is warmer here than on the caldera side.',
+    cost: '€15–€30 for sunbed hire',
+    tip: 'Perissa and Perivolos are connected and less touristy than Red Beach. The volcanic sand holds heat until 9pm — evening swimming here with the cliffs above lit orange is extraordinary.',
+  },
+  {
+    icon: '🚶',
+    title: 'Fira to Oia Caldera Walk',
+    description: 'A 10km walking path along the caldera rim from Fira to Oia — the finest walk on the island. You pass through the villages of Firostefani and Imerovigli, with unobstructed 300m-drop views of the caldera every step of the way. Allow 3–4 hours.',
+    cost: 'Free',
+    tip: 'Walk Fira to Oia (with the caldera on your left) so the views face you rather than being behind you. Start at 7am in summer — the heat by 10am is punishing. Arrange a taxi back from Oia or walk to the cable car at Fira.',
+  },
+],
+months: [
+  { month: 'Jan', weather: 'Cool, 12–15°C, rain, most places closed', emoji: '🌧', crowds: 'None', price: 'Lowest', verdict: 'Off-season — limited options' },
+  { month: 'Feb', weather: 'Cold, wildflowers, some sun', emoji: '⛅', crowds: 'Minimal', price: 'Very low', verdict: 'Not a honeymoon month' },
+  { month: 'Mar', weather: 'Mild, 16°C, reopening begins', emoji: '🌤', crowds: 'Low', price: 'Low', verdict: 'Early adopter month' },
+  { month: 'Apr', weather: 'Warm, 20°C, everything reopens', emoji: '☀️', crowds: 'Low-mod', price: 'Mid', verdict: 'Excellent shoulder season' },
+  { month: 'May', weather: 'Perfect, 24°C, long warm days', emoji: '☀️', crowds: 'Moderate', price: 'Mid-high', verdict: 'Best shoulder month' },
+  { month: 'Jun', weather: 'Hot, 28°C, peak building', emoji: '☀️', crowds: 'High', price: 'High', verdict: 'Great but getting busy' },
+  { month: 'Jul', weather: '32°C, Meltemi winds, peak tourist', emoji: '☀️', crowds: 'Peak', price: 'Highest', verdict: 'Iconic but extremely crowded' },
+  { month: 'Aug', weather: '34°C, busiest month on earth', emoji: '🌞', crowds: 'Extreme', price: 'Highest', verdict: 'Iconic — but overwhelming' },
+  { month: 'Sep', weather: 'Ideal — 29°C, warm sea, thinning', emoji: '☀️', crowds: 'Moderate', price: 'High', verdict: 'Best month — same views, fewer people' },
+  { month: 'Oct', weather: 'Warm, 24°C, very quiet', emoji: '🌤', crowds: 'Low', price: 'Mid', verdict: 'Hidden gem month' },
+  { month: 'Nov', weather: 'Cooling, rain, many hotels closing', emoji: '⛅', crowds: 'Very low', price: 'Low', verdict: 'Many hotels close' },
+  { month: 'Dec', weather: 'Cool, 14°C, quiet', emoji: '🌧', crowds: 'Very low', price: 'Very low', verdict: 'Off-season — limited' },
+],
+budgetTiers: [
+  {
+    label: 'Boutique Caldera',
+    range: '€300–€700/night',
+    gets: 'Cave suite with partial or full caldera view, small terrace or plunge pool. The setting is spectacular; the service is hotel-level rather than resort-level.',
+    example: 'Katikies Garden, Grace Santorini, Andronis Concept',
+  },
+  {
+    label: 'Premium Caldera',
+    range: '€700–€2,000/night',
+    gets: 'Private infinity pool suite directly on the caldera rim, butler, exceptional breakfast included. The definitive Santorini honeymoon — the view from the pool is the defining European luxury hotel image.',
+    example: 'Canaves Oia Suites, Mystique, Andronis Luxury Suites',
+  },
+  {
+    label: 'Ultra-Luxury',
+    range: '€2,000+/night',
+    gets: 'The largest and most exclusive cave villas — some with private jacuzzi, indoor-outdoor living, and the widest caldera view on the island. Complete privacy, exceptional service.',
+    example: 'Canaves Oia Epitome, Aenaon Villas, Vedema Resort',
+  },
+],
+areas: [
+  {
+    name: 'Oia',
+    bestFor: 'The iconic sunset, most dramatic caldera, luxury cave hotels',
+    description: 'The northern tip of the caldera rim — the most beautiful and most photographed village in Greece. Blue-domed churches, whitewashed pathways, and cave hotels terraced into the 300m cliff. Canaves Oia Suites and Mystique are here. The view from the castle ruins at sunset draws crowds from across the island.',
+  },
+  {
+    name: 'Imerovigli',
+    bestFor: 'Highest caldera point, most romantic and quiet',
+    description: 'The village immediately south of Oia on the caldera rim — the highest point on the island (300m above sea level). Fewer tourists than Oia but identical caldera views. Aenaon Villas and Chromata Hotel are here. The Skaros Rock walk (ruined Byzantine castle) takes 20 minutes and has the most panoramic view.',
+  },
+  {
+    name: 'Fira',
+    bestFor: 'Best restaurants, nightlife, most central',
+    description: 'The island\'s capital town. Densest concentration of caldera-view restaurants, bars, and shops. Louder than Oia but more restaurant variety. Good cable car access to the old port. The caldera view from Fira\'s main path is slightly less dramatic than Oia but the town is livelier.',
+  },
+  {
+    name: 'Kamari & Perissa (East)',
+    bestFor: 'Black sand beach, calm swimming, village life',
+    description: 'The east coast black volcanic sand beach resort towns — calm, sheltered, good swimming, and significantly cheaper than the caldera rim. No caldera views, but more authentic local atmosphere. Connected to the cliff-top ancient site of Mesa Vouno (Thira ruins).',
+  },
+],
+expertTips: [
+  { tip: 'Book the caldera cave suite 4–6 months ahead for May–September', detail: 'There are fewer than 200 genuinely caldera-view infinity-pool suites on the entire island. The best 50 units at Canaves, Mystique, and Aenaon sell out to repeat guests and specialist agents. Book directly with the hotel as early as possible and mention it is a honeymoon — upgrades happen.' },
+  { tip: 'September beats August in every measurable way', detail: 'Same views, same sunset, same wine, same perfect weather — but 35% fewer tourists, 20–25% lower prices, cooler evenings for walking, and warm sea (24°C). If you have flexibility, September is objectively the best honeymoon month on Santorini.' },
+  { tip: 'The Meltemi wind is a real factor in July–August', detail: 'The summer north wind (Meltemi) blows at 30–40 km/h across the caldera from July through August. The caldera side of Oia is sheltered but the eastern beaches are rough. Plan accordingly — if windy sailing or catamaran trips are important, go in June or September.' },
+  { tip: 'Walk to Ammoudi Bay for the best lunch on the island', detail: 'The tiny fishing bay 214 steps below Oia has 5 tavernas serving grilled octopus, sea urchin salad, and fresh-caught fish on the pier. Lunch here with the boats bobbing and the caldera wall above is superior to any €300 caldera-view restaurant experience. Walk down, take the cable car back up.' },
+  { tip: 'Hire an ATV or scooter — do not rely on taxis', detail: 'Taxi supply on Santorini is catastrophically insufficient for the tourist volume in summer. Wait times of 2–4h are common. An ATV rental ($30–$50/day) gives you total freedom and is genuinely fun on the island\'s coastal roads. Take the main caldera road at 7am before traffic.' },
+],
+packing: [
+  { item: 'Good walking sandals', why: 'The caldera steps, cobblestone pathways in Oia, and the Fira–Oia walk require proper footwear — flip-flops will destroy your feet' },
+  { item: 'Light linen clothing', why: 'Smart casual is the dress code at caldera restaurants — linen keeps you cool at dinner in 30°C' },
+  { item: 'High-SPF sunscreen and hat', why: 'White surfaces reflect UV from all directions — sun damage risk is higher than you expect on the caldera' },
+  { item: 'Polarised sunglasses', why: 'The reflected Aegean light off white surfaces without polarisation is painful — invest in good optics' },
+  { item: 'Small cash (€)', why: 'ATV rental, local tavernas, cable car, and boat taxis often prefer cash. ATMs in Fira and Oia have queues in peak season.' },
+],
+guide: {
+  getting: 'Fly direct to Santorini Thira Airport (JTR) — 3–4h from most European capitals. Direct flights from London Heathrow and Gatwick (British Airways, EasyJet), Paris CDG, Amsterdam, Frankfurt, Rome, and 20+ European cities. The airport is 10km from Oia — pre-book a taxi (€25–€35) or rent an ATV at the terminal. Alternatively, Athens (ATH) to Santorini by Aegean Air is 45 minutes (from €50 each way). High-speed ferry from Athens Piraeus to Santorini is 5–8h — the slowest but most scenic arrival.',
+  where: 'Caldera rim is the only option for the definitive honeymoon experience. Oia (most dramatic, best sunset position): Canaves Oia Suites, Mystique, Andronis Luxury. Imerovigli (higher, quieter, same views): Aenaon Villas, Chromata. Fira (most restaurant choice, livelier): Santo Maris, Ikies. Beach (black sand, calm swimming): Kamari and Perissa — cheaper, less romantic, good if combining caldera and beach stays.',
+  when: 'April to October is the season. May (warm, empty, excellent) and September (best weather, 35% fewer tourists, warm sea) are the two best months. June is excellent. July–August peak: beautiful but Oia reaches 15,000 visitors per day at sunset — plan your sunset strategy. Most caldera hotels close November–March.',
+},
+localFood: 'Santorini cuisine is defined by its volcanic soil — the island produces some of the most distinctive ingredients in Greece. Cherry tomatoes (pomodori) — grown in the volcanic earth, intensely sweet and small, served in salads and as paste. Fava — a yellow split-pea purée, the island\'s signature dish, made with legumes grown here for 3,500 years. White eggplant (melitzana aspri) — unique to Santorini, less bitter. Grilled octopus on any terrace taverna. Vinsanto — the sweet dessert wine made from sun-dried Assyrtiko and Aidani grapes, extraordinary. For restaurants: Kapari Wine Restaurant in Imerovigli for value with caldera views, Ammoudi fish tavernas for the best seafood, and Selene in Fira for the most serious Santorini cuisine.',
+currency: 'Euro (EUR)',
+language: 'Greek. English spoken at all tourist levels.',
+timezone: 'UTC+2 (Eastern European Time) / UTC+3 (EEST in summer, late March–late October)',
+}
+
+export default meta

@@ -1,0 +1,82 @@
+import type { DestinationMeta } from '@/types/destination'
+
+const meta: DestinationMeta = {
+hero: '/images/hotels/huka-lodge-taupo-new-zealand/hero.webp',
+tagline: 'Middle-earth made real — fjords, alpine lakes, and lodges that redefine remote luxury',
+intro: 'New Zealand is the honeymoon destination that ruins you for everywhere else. Two long, narrow islands at the bottom of the world pack in more landscape variety than entire continents: glacier-fed turquoise lakes, primordial fjords carved a kilometer deep, snow-dusted Southern Alps, golden tussock high country, subtropical Bay of Islands beaches, and steaming geothermal valleys where the earth literally breathes. The country invented adventure tourism (bungee jumping was born in Queenstown) but the real magic now is its small, owner-run lodges — Huka, Blanket Bay, Helena Bay, Kauri Cliffs — which sit on private estates of thousands of acres and operate at a level of intimacy and craft that rivals anywhere on earth. You arrive jet-lagged from a 13-hour flight and within 48 hours you are heli-picnicking on a glacier, tasting Pinot Noir in Central Otago, watching a Māori cultural performance in Rotorua, or walking a section of the Routeburn Track without seeing another human. Distances feel modest on the map but New Zealand rewards slowing down: rent a car, drive Highway 6 from Wanaka to Te Anau, and stop every twenty minutes because the next viewpoint is somehow better than the last. Couples come for Lord of the Rings (yes, you can visit Hobbiton in Matamata) and stay for the food — grass-fed lamb, Bluff oysters, Marlborough Sauvignon Blanc — and for the people, who are unfailingly warm without ever being performative about it. It is a long flight. It is worth every hour.',
+bestTime: 'Late February to April — summer crowds gone, stable weather, autumn colors',
+flightFrom: 'NYC: 18-22h via LAX; LA: 13h direct to Auckland; London: 24+h via Singapore or Dubai',
+topExperience: 'Milford Sound overnight cruise — sleep aboard a small vessel inside the fjord',
+perfectFor: [
+  'Active couples who want adventure (heli-hiking, kayaking, glacier walks) paired with serious lodge luxury',
+  'Wine and food obsessives keen to drink Central Otago Pinot and Marlborough Sauvignon at the source',
+  'Lord of the Rings fans, landscape photographers, anyone who has wanted to stand inside a Tolkien matte painting',
+  'Honeymooners willing to fly long-haul for genuine remoteness — lodges with no neighbors for miles',
+  'Travelers who want English-speaking ease, world-class hospitality, zero safety concerns',
+],
+skipIf: [
+  'You only have a week — the flight alone eats two days each way and the country deserves at least 12 nights',
+  'You want hot beach lounging — even northern summers are mild and South Island water is alpine-cold',
+  'You hate driving — the lodges are spread out and self-drive is by far the best way',
+  'You expect bargain prices — NZ luxury lodges run $1,500-3,500/night',
+],
+experiences: [
+  { icon: '🚁', title: 'Heli-picnic on a remote glacier', description: 'Lift off from Queenstown or Glenorchy, fly over the Southern Alps, and land on a glacier or hidden alpine meadow for Champagne and a chef-prepared lunch.', cost: '$1,200-$2,500/couple', tip: 'Book through your lodge — Blanket Bay and Matakauri have preferred operators and can rebook instantly if weather shifts.' },
+  { icon: '🚢', title: 'Overnight cruise in Milford or Doubtful Sound', description: 'Day-tripping Milford means buses and crowds; the overnight option (Real Journeys) gives you the fjord at dusk and dawn, kayaking among seals and dolphins.', cost: '$600-$900/couple', tip: 'Doubtful Sound is three times larger and far less visited than Milford — choose it for true solitude.' },
+  { icon: '🍷', title: 'Private Central Otago Pinot Noir tour', description: 'Drive the loop from Queenstown through Gibbston Valley, Bannockburn, and Felton Road. Felton Road and Rippon do tastings by appointment that are worth planning your trip around.', cost: '$300-$500/couple plus driver', tip: 'Hire a driver for the day — the roads are winding and the tastings are generous; Eichardt\'s concierge can arrange.' },
+  { icon: '⛰️', title: 'Routeburn or Kepler day-section', description: 'The Great Walks are world-famous multi-day hikes, but the best viewpoints are reachable as guided day walks. Helicopter in, walk out.', cost: '$500-$1,000/couple guided', tip: 'Ultimate Hikes does a heli-assisted Routeburn day that hits the alpine pass — ask Blanket Bay to coordinate.' },
+  { icon: '🔥', title: 'Māori cultural evening + geothermal dinner', description: 'Tamaki Māori Village and Mitai both do hangi (food cooked underground in geothermal heat) with genuine cultural performance.', cost: '$200-$300/couple', tip: 'Pair with a morning at Wai-O-Tapu thermal park — the Champagne Pool at sunrise is otherworldly.' },
+],
+months: [
+  { month: 'Jan', weather: '70-78°F, long daylight', emoji: '☀️', crowds: 'Peak — Kiwi summer holidays', price: 'Highest', verdict: 'Skip unless you book 9 months ahead' },
+  { month: 'Feb', weather: '70-77°F, warmest waters', emoji: '☀️', crowds: 'High first half', price: 'High', verdict: 'Late Feb is genuinely ideal' },
+  { month: 'Mar', weather: '65-72°F, stable, clear', emoji: '🍂', crowds: 'Moderate', price: 'High', verdict: 'Best month overall — weather plus space' },
+  { month: 'Apr', weather: '58-67°F, autumn color peak', emoji: '🍂', crowds: 'Low', price: 'Mid', verdict: 'Stunning in Central Otago — go now' },
+  { month: 'May', weather: '50-60°F, crisp, shorter days', emoji: '☁️', crowds: 'Very low', price: 'Lowest', verdict: 'Quiet and atmospheric, lodge deals available' },
+  { month: 'Jun', weather: '40-52°F, ski season starts', emoji: '❄️', crowds: 'Low (rising in Queenstown)', price: 'Mid', verdict: 'Heli-ski honeymoon — niche but spectacular' },
+  { month: 'Jul', weather: '38-50°F, peak ski', emoji: '❄️', crowds: 'High in ski towns only', price: 'High Queenstown', verdict: 'Only if you ski — otherwise damp' },
+  { month: 'Aug', weather: '40-52°F, last ski month', emoji: '❄️', crowds: 'Moderate ski crowds', price: 'High Queenstown', verdict: 'Ski + fjord combo works well' },
+  { month: 'Sep', weather: '48-58°F, spring blooms', emoji: '🌸', crowds: 'Low', price: 'Mid', verdict: 'Underrated — lambs everywhere, snow on peaks' },
+  { month: 'Oct', weather: '52-62°F, warming', emoji: '🌸', crowds: 'Building', price: 'Mid', verdict: 'Solid choice with good value' },
+  { month: 'Nov', weather: '58-68°F, long days return', emoji: '☀️', crowds: 'Moderate', price: 'High', verdict: 'Excellent — pre-summer sweet spot' },
+  { month: 'Dec', weather: '65-74°F, summer arrives', emoji: '☀️', crowds: 'Peak from 26th', price: 'Highest', verdict: 'First three weeks great, then mayhem' },
+],
+budgetTiers: [
+  { label: 'Refined', range: '$700-$1,200/night', gets: 'Boutique lakefront rooms, breakfast included, in-town locations', example: 'Eichardt\'s Private Hotel in Queenstown — 12 suites on Lake Wakatipu' },
+  { label: 'Lodge-level', range: '$1,500-$2,500/night all-inclusive', gets: 'Full board with wine, daily activities, private estate setting, 8-15 suites', example: 'Matakauri Lodge or Azur Lodge above Queenstown, or Huka Lodge on the Waikato River' },
+  { label: 'Trophy', range: '$3,000-$5,500/night all-inclusive', gets: 'Owner\'s cottage or villa, dedicated staff, helicopter included, golf and clay shooting on property', example: 'Helena Bay Lodge in Northland or Owner\'s Cottage at Cape Kidnappers' },
+],
+areas: [
+  { name: 'Queenstown & Lake Wakatipu', bestFor: 'First-time visitors who want adventure, dining, lake views', description: 'The adventure capital with serious restaurants and four exceptional lodges (Eichardt\'s, Matakauri, Azur, plus Blanket Bay nearby).' },
+  { name: 'Glenorchy & the Dart Valley', bestFor: 'Lord of the Rings landscapes and total seclusion', description: '45 minutes from Queenstown — the road in is one of the most scenic drives on earth, and Blanket Bay sits at the head of the lake.' },
+  { name: 'Lake Taupo & central plateau', bestFor: 'North Island base combining geothermal Rotorua with trout fishing', description: 'Huka Lodge on the Waikato River is the original NZ luxury lodge — fishing, helicopters, and a 60-year history.' },
+  { name: 'Bay of Islands & Northland', bestFor: 'Subtropical warmth, beaches, and a quieter end to the trip', description: 'Three hours north of Auckland — Helena Bay and Kauri Cliffs sit on huge coastal estates with cliffside golf.' },
+  { name: 'Hawke\'s Bay & Cape Kidnappers', bestFor: 'Wine country plus links golf on dramatic clifftops', description: 'Art Deco Napier, dozens of cellar doors (Craggy Range, Te Mata), and The Farm at Cape Kidnappers with one of the world\'s top-ranked golf courses.' },
+],
+expertTips: [
+  { tip: 'Fly into Auckland, out of Queenstown (or vice versa)', detail: 'Open-jaw tickets cost the same and save you a backtrack day. Air New Zealand is excellent and the domestic legs are reliable.' },
+  { tip: 'Build in two weather buffer days for Milford and any heli activity', detail: 'Fiordland gets 7+ meters of rain a year. Lock the fjord cruise early in your itinerary so you can re-book if weather closes in.' },
+  { tip: 'Drive yourselves on the South Island, hire drivers on the North', detail: 'South Island roads are quiet, well-paved, and the drives are the trip. North Island has more traffic and the wineries reward someone else behind the wheel.' },
+  { tip: 'Book Hobbiton at sunset, not midday', detail: 'The 5pm "Evening Banquet Tour" lets you wander the Shire as lanterns light up and includes a feast in the Green Dragon — far better than the daytime conveyor belt.' },
+  { tip: 'Tip lightly or not at all', detail: 'New Zealand is not a tipping culture. Lodge staff are paid properly. A small thank-you envelope at departure (NZ$50-100) is appreciated but never expected.' },
+],
+packing: [
+  { item: 'Layers, layers, layers', why: 'You can experience all four seasons in one day — t-shirt, fleece, and rain shell within the same hike.' },
+  { item: 'Properly waterproof jacket (not water-resistant)', why: 'Fiordland and the West Coast get serious rain; a Goretex shell makes the difference between magic and misery.' },
+  { item: 'Broken-in hiking shoes or trail runners', why: 'Even casual lodge walks are on uneven terrain — you\'ll want grip and support every single day.' },
+  { item: 'Polarized sunglasses and high-SPF sunscreen', why: 'The hole in the ozone is real — UV is roughly 40% stronger than equivalent latitudes in the northern hemisphere.' },
+  { item: 'A US-to-NZ plug adapter (Type I)', why: 'NZ uses the same angled three-pin plug as Australia — different from US, UK, and EU.' },
+  { item: 'Smart-casual outfit for lodge dinners', why: 'No jacket required but Huka, Blanket Bay, and Helena Bay all do communal evening dining where you\'ll want to look pulled together.' },
+],
+guide: {
+  getting: 'Most US travelers connect through LAX or SFO to Auckland (AKL) on Air New Zealand or United — about 13h direct from West Coast, 18-22 from East. Queenstown (ZQN) has direct flights from Sydney, Melbourne, Brisbane, and Auckland. From the UK, fly via Singapore, Hong Kong, or Dubai — 24+ hours total. NZeTA visa waiver required (apply online, NZ$23). Rent a car for the South Island.',
+  where: 'Spend 4-5 nights based in or near Queenstown (Eichardt\'s in town, Matakauri or Azur for views, Blanket Bay for Glenorchy seclusion). Add 2-3 nights at Huka Lodge on Lake Taupo paired with Rotorua. Finish with 3 nights in Bay of Islands (Helena Bay, Kauri Cliffs) or Hawke\'s Bay (Cape Kidnappers). Classic 12-night: 5 Queenstown, 3 Taupo/Rotorua, 4 Bay of Islands.',
+  when: 'February through April is the sweet spot — stable weather, autumn color, and crowds thinning. November is the best pre-summer window. Avoid late December through mid-January (Kiwi school holidays plus international peak — prices double, lodges book a year out).',
+},
+localFood: 'New Zealand cuisine is anchored by extraordinary raw materials — grass-fed lamb, Bluff oysters (March-August), green-lipped mussels, crayfish, and venison farmed in the high country. Don\'t miss a hangi (food slow-cooked in an underground earth oven, typically at a Māori cultural evening), a proper pavlova, and manuka honey on everything. Wash it down with Central Otago Pinot Noir and Marlborough Sauvignon Blanc.',
+currency: 'New Zealand Dollar (NZD) — NZ$1 ≈ $0.60',
+language: 'English / Te Reo Māori',
+timezone: 'NZST (UTC+12) / NZDT (UTC+13)',
+}
+
+export default meta

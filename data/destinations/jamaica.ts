@@ -1,0 +1,82 @@
+import type { DestinationMeta } from '@/types/destination'
+
+const meta: DestinationMeta = {
+hero: '/images/hotels/round-hill-hotel-villas-jamaica/hero.webp',
+tagline: 'Reggae soul, cliff-jump sunsets, and the Caribbean\'s most charismatic coastline',
+intro: 'Jamaica doesn\'t do quiet honeymoons — and that\'s exactly its charm. Where the Bahamas sells you stillness and St. Lucia sells you drama, Jamaica offers something rarer: a destination with a pulse, a personality, and a sense of self that no resort brochure can manufacture. Negril\'s western cliffs deliver the postcard — Seven Mile Beach\'s talcum sand by day, divers leaping from Rick\'s Café at dusk. Drive east and Montego Bay\'s grand dames (Round Hill, Half Moon) hold court with the kind of old-Caribbean glamour that hosted Noël Coward and Ian Fleming. Push further to Ocho Rios for waterfall climbs and GoldenEye\'s literary cool, or keep going to Port Antonio, where the Blue Lagoon glows turquoise and almost no one finds you. The brave skip the north entirely for Treasure Beach — south coast, fishermen\'s villages, Pelican Bar floating on stilts a mile offshore. The food alone justifies the trip: jerk pulled smoking from oil-drum pits at Boston Beach, ackee and saltfish at sunrise, Blue Mountain coffee that ruins all other coffee. The culture runs deeper still — Bob Marley\'s mausoleum at Nine Mile, sound systems thumping in every parish, reggae and dancehall as living traditions. Honeymooners who lean into Jamaica — who rent a car, talk to bartenders, eat off-resort — leave with a bond to the island that placid beach destinations can\'t forge.',
+bestTime: 'Mid-Dec to mid-Apr (dry); late Apr–early Jun is the value sweet spot',
+flightFrom: '3h45 NYC, 1h30 Miami, 9h30 London — to Montego Bay (MBJ)',
+topExperience: 'Sunset cliff dive at Rick\'s Café',
+perfectFor: [
+  'Couples who want culture, music, and personality alongside their beach time',
+  'Honeymooners willing to rent a car and explore beyond the resort gates',
+  'Food-driven travelers chasing jerk pits, rum bars, Blue Mountain coffee farms',
+  'Repeat Caribbean visitors bored of identical white-sand-and-rum-punch formulas',
+  'Music lovers — reggae, dancehall, sound system culture as a living thing',
+],
+skipIf: [
+  'You want a sanitized, fully-curated resort bubble with zero local friction',
+  'Hassle from beach vendors or street touts genuinely ruins your mood',
+  'You\'re hoping for Maldives-clear water — Jamaica\'s sea is beautiful but not glassy',
+  'Driving on the left on winding mountain roads sounds like a nightmare',
+],
+experiences: [
+  { icon: '💦', title: 'Climb Dunn\'s River Falls', description: 'A 600-foot cascade you literally climb as a human chain — guides lead, couples grip hands, water roars around you. Touristy, yes; unforgettable, also yes. Go at 8:30am opening to beat cruise crowds.', cost: '$25 entry, $40 with guide', tip: 'Wear water shoes (rentable on-site for $7). Early-morning slot is 70% emptier than midday.' },
+  { icon: '🌅', title: 'Sunset cliff dive at Rick\'s Café', description: 'Negril\'s legendary west-coast sunset spot. Local divers leap from 35-foot cliffs as the sun drops, rum punch flows, the band plays Marley.', cost: 'Free entry, $20-30 drinks', tip: 'Don\'t order food — the kitchen is mediocre. Drinks, sunset, and the show are the point.' },
+  { icon: '☕', title: 'Blue Mountain coffee farm tour', description: 'Drive up into the Blue Mountains above Kingston for a working-farm tour at Craighton or Old Tavern. Hand-pick beans, watch roasting, taste flights at 3,000 feet.', cost: '$80-150/couple incl. transport', tip: 'Pair with lunch at EITS Café in Newcastle — farm-to-table, mountain air, no tourists.' },
+  { icon: '🛶', title: 'Pelican Bar at Treasure Beach', description: 'A driftwood shack on stilts a mile offshore in the south coast shallows. Captain Floyd runs you out for $30, drops you with a Red Stripe, picks you up whenever. Pure magic.', cost: '$30-40 boat round trip + drinks', tip: 'Stay at Jakes Hotel and have them arrange the boat. Go for sunset, not midday.' },
+  { icon: '🎵', title: 'Bob Marley Mausoleum at Nine Mile', description: 'A pilgrimage into the hills of St. Ann to the village where Marley was born and buried. Tours run through his childhood home, the meditation stone, the mausoleum itself.', cost: '$25 entry, $120-180 with private transport', tip: 'Skip the cruise-ship combo tours. Hire a private driver for a half-day so you can linger.' },
+],
+months: [
+  { month: 'Jan', weather: '82°F / 70°F, dry', emoji: '☀️', crowds: 'Peak', price: 'Highest', verdict: 'Postcard weather, peak rates — book 4+ months ahead' },
+  { month: 'Feb', weather: '83°F / 70°F, dry', emoji: '☀️', crowds: 'Peak', price: 'Highest', verdict: 'Valentine\'s premium plus spring break — busiest of the year' },
+  { month: 'Mar', weather: '84°F / 72°F, dry', emoji: '☀️', crowds: 'Very High', price: 'Highest', verdict: 'Spring break crowds in MoBay/Negril — Port Antonio stays calm' },
+  { month: 'Apr', weather: '85°F / 73°F, dry', emoji: '☀️', crowds: 'High', price: 'High', verdict: 'Sweet spot after mid-April — great weather, easing rates' },
+  { month: 'May', weather: '86°F / 75°F, brief showers', emoji: '⛅', crowds: 'Low', price: 'Mid', verdict: 'Best value-to-weather ratio of the year' },
+  { month: 'Jun', weather: '87°F / 76°F, occasional rain', emoji: '⛅', crowds: 'Low', price: 'Mid', verdict: 'Quiet beaches, warm sea, low hurricane risk early' },
+  { month: 'Jul', weather: '88°F / 77°F, humid', emoji: '⛅', crowds: 'Medium', price: 'High', verdict: 'European vacation crowds; Reggae Sumfest in MoBay late July' },
+  { month: 'Aug', weather: '89°F / 77°F, humid', emoji: '⛅', crowds: 'Medium', price: 'High', verdict: 'Hot, humid, hurricane risk rising — okay but not ideal' },
+  { month: 'Sep', weather: '88°F / 76°F, wet', emoji: '🌧️', crowds: 'Lowest', price: 'Lowest', verdict: 'Peak hurricane month — skip unless you love a gamble' },
+  { month: 'Oct', weather: '87°F / 75°F, wet', emoji: '🌧️', crowds: 'Low', price: 'Mid', verdict: 'Still hurricane season — many small hotels close for renovations' },
+  { month: 'Nov', weather: '85°F / 73°F, drying', emoji: '⛅', crowds: 'Medium', price: 'High', verdict: 'Shoulder magic — dry weather returns, rates still moderate' },
+  { month: 'Dec', weather: '83°F / 71°F, dry', emoji: '☀️', crowds: 'Very High', price: 'Highest', verdict: 'Holiday weeks are the priciest of the year — book by August' },
+],
+budgetTiers: [
+  { label: 'Comfortable', range: '$350-550/night', gets: 'Boutique guesthouse or mid-tier all-inclusive on a good beach. Solid honeymoon, real Jamaican character.', example: 'Couples Tower Isle in Ocho Rios or Couples Swept Away in Negril' },
+  { label: 'Elevated', range: '$700-1,200/night', gets: 'Iconic boutique properties — clifftop suites, plantation estates, all the legendary names just below ultra-luxury.', example: 'The Caves in Negril or Jamaica Inn in Ocho Rios' },
+  { label: 'Iconic', range: '$1,400-3,500/night', gets: 'Private cottages, butler service, the properties Caribbean honeymoon dreams are made of — with the heritage to match.', example: 'Round Hill in Montego Bay or GoldenEye in Oracabessa' },
+],
+areas: [
+  { name: 'Negril', bestFor: 'Cliffs, sunsets, laid-back boho vibe', description: 'The west coast — Seven Mile Beach\'s endless powder sand, the West End cliffs with their dramatic dive spots. Boho-luxe rather than polished.' },
+  { name: 'Montego Bay', bestFor: 'Old-Caribbean grandeur, easiest airport access', description: 'Home to Jamaica\'s legendary heritage hotels (Round Hill, Half Moon) and Doctor\'s Cave Beach. 15 minutes from MBJ.' },
+  { name: 'Ocho Rios', bestFor: 'Waterfalls, adventure, classic resort variety', description: 'Mid-north coast, anchored by Dunn\'s River Falls. Properties like GoldenEye and Jamaica Inn occupy serene private coves.' },
+  { name: 'Port Antonio', bestFor: 'Lush jungle escape, off-the-radar romance', description: 'The island\'s lushest, least-developed coast — Blue Lagoon, Frenchman\'s Cove, jungle rivers. 2.5 hours from MBJ.' },
+  { name: 'Treasure Beach', bestFor: 'South-coast soul, fishing villages, Pelican Bar', description: 'A string of fishing coves on the dry south coast. No big resorts, just guesthouses and Pelican Bar a mile offshore.' },
+],
+expertTips: [
+  { tip: 'Fly into Montego Bay (MBJ), not Kingston', detail: 'Unless you\'re heading specifically to Port Antonio or the Blue Mountains, MBJ is the right airport. Kingston is a 4-hour drive from most honeymoon destinations.' },
+  { tip: 'Hire a driver instead of self-driving for transfers', detail: 'Jamaica drives on the left, mountain roads are tight, signage is inconsistent. A private driver for the airport-to-hotel run costs $80-150 and is dramatically more relaxing.' },
+  { tip: 'Get out of the resort at least three times', detail: 'The single biggest mistake honeymooners make is never leaving the property. Eat at Scotchies (jerk), Pushcart (Negril), or Jack Sprat (Treasure Beach). The resort food doesn\'t represent Jamaica.' },
+  { tip: 'Tip generously and chat with everyone', detail: 'Service-industry wages are low, and Jamaicans are some of the warmest people you\'ll meet. A 15-20% tip and genuine conversation will transform your trip.' },
+  { tip: 'Pack bug spray with DEET', detail: 'Mosquitoes and sand flies are real, especially at dusk and especially in lush areas like Port Antonio. Resort-supplied repellent is usually weak.' },
+],
+packing: [
+  { item: 'Reef-safe sunscreen (SPF 50)', why: 'Jamaica enforces reef-safe rules at marine parks; pack it before you arrive — local prices 3x US.' },
+  { item: 'Water shoes', why: 'Essential for Dunn\'s River Falls, Blue Hole, and most rocky beach entries on the cliffs of Negril.' },
+  { item: 'DEET-based bug spray', why: 'Sand flies at dusk in Port Antonio and Treasure Beach are no joke.' },
+  { item: 'Light layer for evenings', why: 'Trade winds can drop temps to upper 60s in winter; Blue Mountain excursions get genuinely cool.' },
+  { item: 'A nicer dinner outfit', why: 'Heritage hotels like Round Hill and Jamaica Inn observe smart-casual dress codes.' },
+  { item: 'Cash in small US bills', why: 'Tips, beach vendors, Pelican Bar boat captains, and roadside jerk stands all run on cash.' },
+],
+guide: {
+  getting: 'Sangster International (MBJ) is the entry point for Negril (90 min west), Ocho Rios (90 min east), and Montego Bay itself. Port Antonio is 2.5 hours from MBJ or 1.5 hours from Kingston. Pre-arrange a private transfer through your hotel ($80-180).',
+  where: 'Round Hill or Half Moon for old-Caribbean grandeur near MBJ. The Caves for clifftop drama in Negril. GoldenEye for literary cool in Oracabessa. Jamaica Inn for understated elegance in Ocho Rios. Couples Tower Isle or Swept Away for all-inclusive done right.',
+  when: 'Mid-Dec through April for guaranteed dry weather. Mid-April through early June is the value sweet spot. Avoid August through October (hurricane season). November is a sleeper hit.',
+},
+localFood: 'Jamaican cuisine punches far above its island weight. Jerk chicken and pork pulled smoking from oil-drum pits at Boston Beach is the spiritual home of the dish. Ackee and saltfish — the national breakfast — pairs with fried dumplings and Blue Mountain coffee. Don\'t miss curry goat, escovitch fish, festival (sweet fried dough), and a Devon House ice cream cone.',
+currency: 'Jamaican Dollar (JMD) — USD widely accepted',
+language: 'English / Jamaican Patois',
+timezone: 'EST (UTC-5)',
+}
+
+export default meta

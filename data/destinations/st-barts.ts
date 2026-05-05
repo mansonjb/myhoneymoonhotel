@@ -1,0 +1,82 @@
+import type { DestinationMeta } from '@/types/destination'
+
+const meta: DestinationMeta = {
+hero: '/images/hotels/cheval-blanc-isle-de-france-st-barths/hero.webp',
+tagline: 'The Caribbean\'s most fashionable island — Chanel in the morning, sunset rosé in the evening.',
+intro: 'Saint-Barthélemy is the Caribbean\'s most glamorous island — a French collectivity of 21km² where celebrity yachts anchor in Gustavia harbour, every beach has its designer beach club, and the food culture rivals any Michelin-starred city. This is where the world\'s most successful people take their honeymoons. Cheval Blanc Isle de France — the finest hotel in the Caribbean — sits on the island\'s most beautiful bay.',
+bestTime: 'Dec–Apr',
+flightFrom: '9h from Paris, 4h from New York (via St Martin)',
+topExperience: 'Ultra-Luxury Beach & Gastronomy',
+perfectFor: [
+  'Couples who want the most glamorous and fashionable Caribbean experience',
+  'Foodies — the restaurant density and quality here rivals Paris for a tiny island',
+  'Those who want Caribbean luxury without the tourist volume of bigger islands',
+  'Couples who want celebrity-standard privacy and service',
+  'Anyone for whom European style and Caribbean sun is the ultimate combination',
+],
+skipIf: [
+  'Budget under $800/night — there is nothing here under that',
+  'You want a quiet, local-culture-focused destination',
+  'The idea of sharing beaches with superyachts and celebrity is more stressful than fun',
+  'You\'re visiting June–November (hurricane season)',
+  'You want diverse outdoor activities beyond beach and water — St Barts is tiny and focused',
+],
+experiences: [
+  { icon: '⛵', title: 'Day Charter to Colombier Beach', description: 'Hire a private catamaran or motorboat to Colombier — St Barts\'s most pristine and most secluded beach, accessible only by boat or a 25-minute hike. Anchor in the bay, snorkel the coral, and drink cold rosé.', cost: '$600–$1,200 for private day charter', tip: 'Depart by 9am — Colombier beach is shaded by the headland until late morning. By 2pm the private boats have gone and you often have the bay to yourselves.' },
+  { icon: '🛥️', title: 'Sunset Cocktail on the Gustavia Harbour Wall', description: 'The harbour wall of Gustavia at sunset — with the largest yachts in the world docked at arm\'s length and the village lights reflecting in the water — is the most cinematic cocktail moment in the Caribbean.', cost: 'One cocktail each (€20–€30)', tip: 'Bar de l\'Oubli is the institution on Gustavia square. Arrive at 5:30pm for a harbour-facing table before the evening crowd. The light on the harbour at 6pm is extraordinary.' },
+  { icon: '🤿', title: 'Snorkel Pain de Sucre (Gustavia Bay)', description: 'The waters around the Pain de Sucre rock offshore from Gustavia have some of the best snorkeling in St Barts — turtles, stingrays, and abundant reef fish in 3–8m of clear water.', cost: '$30 kayak rental; free by swimming from Plage du Gouverneur', tip: 'Best in the morning before the wind picks up. The south coast beaches (Gouverneur, Saline, Grand Fond) have better snorkeling than the north coast.' },
+  { icon: '🍽️', title: 'Dinner at Le Gaiac (Le Toiny)', description: 'The most romantic dinner table in St Barts — a clifftop terrace at Le Toiny hotel with a panoramic view of the Atlantic and a menu that draws from Gascon and Basque culinary tradition.', cost: '€120–€200 per person', tip: 'Reserve 3 weeks in advance for the outdoor clifftop terrace — not the indoor dining room. Le Gaiac serves the finest food on the island. Order the local catch with beurre blanc.' },
+  { icon: '🌅', title: 'Shell Beach Sunrise Walk', description: 'Shell Beach (Anse de Grand Galet) in Gustavia — a unique beach of millions of white shells instead of sand — at dawn before anyone else arrives. Walking the shell shore as the sun rises over the harbour.', cost: 'Free', tip: 'Walk around the harbour from Gustavia town (10 minutes). Dawn is the only time you\'ll have Shell Beach to yourself. The shell texture under barefoot is extraordinary — nothing like it in the Caribbean.' },
+],
+months: [
+  { month: 'Jan', weather: 'Perfect: 27°C, dry, trade winds', emoji: '☀️', crowds: 'Peak', price: 'Very high', verdict: 'Peak luxury season — January is "the" month' },
+  { month: 'Feb', weather: 'Excellent, slightly less busy post-February break', emoji: '☀️', crowds: 'Peak', price: 'Very high', verdict: 'Still extraordinary' },
+  { month: 'Mar', weather: 'Excellent, thinning slightly', emoji: '☀️', crowds: 'High', price: 'High', verdict: 'Great value within season' },
+  { month: 'Apr', weather: 'Warm, dry, trade winds easing', emoji: '☀️', crowds: 'Moderate', price: 'Mid-high', verdict: 'Sweet spot value opens' },
+  { month: 'May', weather: 'Transition, warm, uncrowded', emoji: '🌤', crowds: 'Low', price: 'Mid', verdict: 'Best value, slight end-of-season feel' },
+  { month: 'Jun', weather: 'Hurricane season begins', emoji: '⚠️', crowds: 'Very low', price: 'Low', verdict: 'Some resorts close — avoid' },
+  { month: 'Jul', weather: 'Hurricane risk present', emoji: '⚠️', crowds: 'Very low', price: 'Low', verdict: 'Many properties close' },
+  { month: 'Aug', weather: 'Peak hurricane risk', emoji: '🌀', crowds: 'Very low', price: 'Lowest', verdict: 'Do not book' },
+  { month: 'Sep', weather: 'Hurricane risk at maximum', emoji: '🌀', crowds: 'Very low', price: 'Lowest', verdict: 'Season is closed' },
+  { month: 'Oct', weather: 'Risk easing, island reopening', emoji: '🌤', crowds: 'Low', price: 'Low', verdict: 'Some resorts reopen for pre-season' },
+  { month: 'Nov', weather: 'Pre-season, most things open', emoji: '🌤', crowds: 'Low-mod', price: 'Mid', verdict: 'Good pre-season value' },
+  { month: 'Dec', weather: 'Season opens, festive, beautiful', emoji: '☀️', crowds: 'Peak', price: 'Very high', verdict: 'Christmas in St Barts is extraordinary' },
+],
+budgetTiers: [
+  { label: 'Luxury', range: '$800–$1,500/night', gets: 'Boutique hotel or private villa with sea view, pool, excellent location. The minimum acceptable level for a St Barts honeymoon.', example: 'Le Barthélemy Hotel & Spa, Hotel Le Village St Barth' },
+  { label: 'Ultra-Luxury', range: '$1,500–$3,500/night', gets: 'Full butler villa or finest hotel, private beach access, exceptional spa, in-villa dining available.', example: 'Eden Rock St Barths, Le Toiny' },
+  { label: 'Cheval Blanc Iconic', range: '$2,500–$6,000+/night', gets: 'The Caribbean\'s finest hotel — 40 rooms and villas on Flamands Bay, private beach, Guerlain spa, three restaurants. The gold standard.', example: 'Cheval Blanc Isle de France' },
+],
+areas: [
+  { name: 'Flamands Beach (Northwest)', bestFor: 'Cheval Blanc, quietest beach, sunset', description: 'The longest and widest beach on the island. Cheval Blanc Isle de France sits at one end. The sand is the finest on St Barts. Fewer people than the east coast beaches.' },
+  { name: 'Saint Jean Beach', bestFor: 'Airport views, water sports, lively', description: 'The island\'s most active beach — the famous tiny airport runway lands 20m from the sand. Lively, social, excellent for couples who want a buzz alongside the beach. Eden Rock is here.' },
+  { name: 'Gustavia (Capital)', bestFor: 'Yacht harbour, shopping, restaurants, nightlife', description: 'The most beautiful small harbour in the Caribbean. Swedish and French colonial architecture, the world\'s finest beach boutiques, and the best restaurant density in the Caribbean.' },
+  { name: 'Grand Cul-de-Sac (East)', bestFor: 'Kitesurfing, calm water, family vibe', description: 'A shallow turquoise bay protected by a reef — the calmest water on the island. Best for paddleboarding and kitesurfing. The Guanahani Hotel is here.' },
+],
+expertTips: [
+  { tip: 'Fly via St Martin (SXM) — the only way to reach St Barts', detail: 'St Barts has a tiny airstrip (SBH) accepting only small aircraft (max 9 seats). Fly to Sint Maarten Princess Juliana (SXM), then a 10-minute Winair ATR flight. Allow 3h+ for the connection — schedules are tight. Alternatively, take the fast ferry (1h from Oyster Pond, Philipsburg) or a private helicopter.' },
+  { tip: 'Reserve Cheval Blanc 6–9 months ahead for December and January', detail: 'The finest rooms at Cheval Blanc Isle de France sell out to returning guests and preferred agents in April for the following season. Email the hotel directly and say "honeymoon." They respond to directness.' },
+  { tip: 'Rent a Mini Moke or Smart car — they\'re the island\'s vehicle', detail: 'The traditional St Barts rental is a Mini Moke (open-sided Mini) or Smart car. The island is 8km across — you can drive the entire perimeter in 45 minutes. A Moke with the roof open along the coast road is the quintessential experience.' },
+  { tip: 'Colombier beach requires the boat or the hike — do it', detail: 'The 25-minute clifftop walk to Colombier from the Petite Anse car park is one of the finest short walks in the Caribbean. The reward — a beach with no road access, crystal water, and almost no vendors — is extraordinary.' },
+  { tip: 'Shell Beach at sunset is the best free thing on the island', detail: 'While Gustavia is filling with arriving yachties, Shell Beach (2 minutes walk around the harbour) has the same harbour views and is free. Bring wine from a superette. It\'s better than any bar.' },
+],
+packing: [
+  { item: 'Smart resort wear for restaurants', why: 'St Barts restaurants expect elevated casual — not formal, but linen shirts and sundresses rather than beach shorts' },
+  { item: 'Reef-safe sunscreen', why: 'French collectivity with strict reef protection rules around the marine reserve' },
+  { item: 'Underwater camera', why: 'Pain de Sucre snorkeling and Colombier bay have excellent turtle and ray activity' },
+  { item: 'Small cash (Euro)', why: 'St Barts uses the Euro. Local beach bars and market vendors prefer cash.' },
+  { item: 'Travel insurance with hurricane cover', why: 'Non-negotiable for any booking outside the core Dec–April window' },
+  { item: 'Motion sickness tablets', why: 'The Winair flight from St Martin is short but can be turbulent in trade winds. The ferry from St Martin is 1h in open water.' },
+],
+guide: {
+  getting: 'Fly to Sint Maarten Princess Juliana (SXM). From Europe: direct from Paris Orly via Air Caraïbes (8.5h) or Air France (via Paris or AMS, 9–10h total). From New York: American or Delta to SXM (3.5h direct). From SXM to St Barts: Winair (10 min, $100–$200 each way) or Voyager fast ferry (1h from Oyster Pond or Philipsburg). Allow 3h minimum connection at SXM.',
+  where: 'Flamands (Cheval Blanc, widest beach, quietest). Saint Jean (Eden Rock, most social, airport views). Grand Cul-de-Sac (Guanahani, calm water, kitesurfing). Gustavia (harbour, restaurants, yachts). Gouverneur and Saline beaches (wilder, more authentic, best snorkeling). For 7 nights: base at Cheval Blanc Flamands and explore by rental car daily.',
+  when: 'December–April is the dry season and the social season. January is "the month" — the world\'s finest yachts, the best restaurant reservations, and the most extraordinary atmosphere. December (Christmas week) and New Year\'s Eve are spectacular but require booking a year ahead. May is excellent value. June–November is hurricane season — many properties close.',
+},
+localFood: 'La langouste grillée (grilled Caribbean lobster, split and charcoal-grilled with herb butter) at any beach restaurant, accras de morue (Creole salt-cod fritters with ti-punch rum cocktail), fresh-caught mahi-mahi with beurre blanc, and the extraordinary charcuterie from the local traiteur (deli) in Gustavia. The dining culture combines French gastronomy with Creole spice — Le Gaiac, Orega, and La Guerite are the three finest restaurants. Do not leave without drinking a properly made ti-punch (white rum, lime, and cane sugar syrup) at 11am.',
+currency: 'Euro (EUR) — it is a French collectivity',
+language: 'French (official). English spoken widely in all tourist contexts.',
+timezone: 'GMT-4 (Atlantic Standard Time)',
+}
+
+export default meta

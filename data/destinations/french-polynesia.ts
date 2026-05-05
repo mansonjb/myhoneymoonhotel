@@ -1,0 +1,71 @@
+import type { DestinationMeta } from '@/types/destination'
+
+const meta: DestinationMeta = {
+hero: '/images/hotels/the-brando-tetiaroa-french-polynesia/hero.webp',
+tagline: 'Beyond Bora Bora — vanilla islands, pink sand atolls & Brando\'s private paradise',
+intro: 'French Polynesia stretches across an ocean territory the size of Europe, yet most travelers see only one of its 118 islands. Beyond the postcard fame of Bora Bora lies an archipelago of staggering variety — volcanic peaks draped in jungle, vanilla plantations perfuming the trade winds, and atolls so remote they feel like the edge of the world. Tahiti, the largest island, anchors the territory with its capital Papeete — the bustling Marche de Pape\'ete overflows with tiare flowers, black pearls, and pareos at dawn. A 30-minute ferry away, Moorea rises like a green cathedral from the sea, its eight peaks circling Cook\'s and Opunohu bays. Sail north and you reach the Society Islands\' quieter heart: Taha\'a, the vanilla island, and Raiatea, the sacred island, home to Marae Taputapuatea — the UNESCO-listed ceremonial site considered the spiritual cradle of all Polynesia. For divers and dreamers, the Tuamotu atolls beckon: Rangiroa, the world\'s second-largest lagoon, where dolphins ride the Tiputa Pass on incoming tides; Tikehau, ringed in pink coral sand. And then there is Tetiaroa — Marlon Brando\'s private atoll, now home to The Brando.',
+bestTime: 'May to October — dry season, lower humidity, calm seas',
+flightFrom: 'LAX 8h direct to Papeete (PPT); Paris 22h via LAX or Tokyo',
+topExperience: 'Ferry to Moorea at sunrise, then drive to Belvedere Lookout for the view of Mt Rotui',
+perfectFor: ['Couples seeking a quieter alternative to Bora Bora', 'Cultural travelers drawn to Polynesian heritage and UNESCO sites', 'Divers chasing manta rays and dolphin passes', 'Honeymooners island-hopping by yacht or small plane', 'Eco-luxury seekers willing to splurge on The Brando'],
+skipIf: ['You want short-haul travel — flights are long from anywhere', 'You\'re budget-conscious — everything is imported and priced accordingly', 'You need vibrant nightlife or shopping districts', 'You expect English everywhere — French and Tahitian dominate'],
+experiences: [
+  { icon: '🐬', title: 'Dolphin watching at Tiputa Pass, Rangiroa', description: 'Stand on the channel edge at incoming tide and watch wild bottlenose dolphins surf the current into the lagoon.', cost: '8,000–12,000 XPF (€67–€100)', tip: 'Go on a rising tide between 8–10am when dolphins are most active' },
+  { icon: '🌺', title: 'Vanilla plantation tour on Taha\'a', description: 'Walk through hand-pollinated vanilla orchid vines, learn the nine-month curing process at the source of 80% of the territory\'s vanilla.', cost: '3,500 XPF (€29) including tasting', tip: 'Buy vacuum-sealed pods directly from the producer' },
+  { icon: '⛵', title: 'Sail the Society Islands by catamaran', description: 'Charter a crewed cat from Raiatea to circle Taha\'a inside the shared lagoon, snorkel the Coral Garden drift.', cost: 'From 280,000 XPF (€2,350) for a 4-day charter', tip: 'Book through Dream Yacht Charter — Raiatea is the inter-island sailing hub' },
+  { icon: '🌅', title: 'Hike to Belvedere Lookout, Moorea', description: 'Drive past pineapple fields to the panoramic viewpoint where Mt Rotui rises between Cook\'s Bay and Opunohu Bay.', cost: 'Free; 4WD rental ~10,000 XPF (€84) per day', tip: 'Combine with the Agricultural School pineapple juice stand' },
+  { icon: '🐢', title: 'Visit Marae Taputapuatea, Raiatea', description: 'Walk the basalt stones of Polynesia\'s most sacred ancient temple — UNESCO World Heritage site.', cost: 'Free entry; guided tours from 4,000 XPF', tip: 'Hire a local guide through the visitor centre — the stones look ordinary without the stories' },
+],
+months: [
+  { month: 'Jan', weather: '27–31°C, humid, frequent showers', emoji: '🌧️', crowds: 'Low', price: 'Mid', verdict: 'Wet season — green and lush' },
+  { month: 'Feb', weather: '27–32°C, cyclone risk peaks', emoji: '🌀', crowds: 'Low', price: 'Low', verdict: 'Cheapest month but the wettest' },
+  { month: 'Mar', weather: '27–31°C, humidity easing', emoji: '🌧️', crowds: 'Low', price: 'Low', verdict: 'Shoulder of wet season — deals abundant' },
+  { month: 'Apr', weather: '26–30°C, transition month', emoji: '⛅', crowds: 'Low', price: 'Mid', verdict: 'Sweet spot — weather improving, prices still soft' },
+  { month: 'May', weather: '25–29°C, dry season begins', emoji: '☀️', crowds: 'Mid', price: 'Mid', verdict: 'Excellent — humidity drops, ideal for sailing' },
+  { month: 'Jun', weather: '24–28°C, dry and breezy', emoji: '☀️', crowds: 'Mid', price: 'High', verdict: 'Beautiful weather — pack a light layer' },
+  { month: 'Jul', weather: '23–28°C, peak dry season', emoji: '☀️', crowds: 'High', price: 'High', verdict: 'Heiva festival in Papeete — culture at its most vibrant' },
+  { month: 'Aug', weather: '23–28°C, dry and clear', emoji: '☀️', crowds: 'High', price: 'High', verdict: 'Peak season — book over-water bungalows 6+ months ahead' },
+  { month: 'Sep', weather: '24–29°C, dry winding down', emoji: '☀️', crowds: 'Mid', price: 'High', verdict: 'Arguably the best month — great weather, fewer crowds' },
+  { month: 'Oct', weather: '25–30°C, warming up', emoji: '⛅', crowds: 'Mid', price: 'Mid', verdict: 'Last of dry season — humpback whales until late Oct' },
+  { month: 'Nov', weather: '26–31°C, humidity rising', emoji: '⛅', crowds: 'Low', price: 'Mid', verdict: 'Transition into wet season — prices dipping' },
+  { month: 'Dec', weather: '27–31°C, festive but rainy', emoji: '🌧️', crowds: 'Mid', price: 'High', verdict: 'Holiday surcharges return; expect afternoon downpours' },
+],
+budgetTiers: [
+  { label: 'Comfortable', range: '€350–€600 / night', gets: 'Garden bungalow at a 4-star resort, breakfast, ferry transfers', example: 'Manava Beach Resort Moorea — garden bungalow with pool view' },
+  { label: 'Premium', range: '€700–€1,400 / night', gets: 'Over-water bungalow at Hilton or Sofitel, half-board, lagoon excursions', example: 'Hilton Moorea Lagoon Resort — over-water bungalow with glass floor' },
+  { label: 'Ultra-luxury', range: '€3,500–€20,000 / night', gets: 'All-inclusive private villa, butler, dedicated boat, spa', example: 'The Brando on Tetiaroa — beachfront villa, all-inclusive' },
+],
+areas: [
+  { name: 'Tahiti & Papeete', bestFor: 'Arrival hub, culture, markets', description: 'The largest island and gateway — spend a night either side of inter-island flights to explore the market and rugged east coast waterfalls.' },
+  { name: 'Moorea', bestFor: 'Couples, hiking, easy access', description: 'A 30-minute ferry from Tahiti, Moorea offers dramatic peaks, twin bays, and best value over-water bungalows in the territory.' },
+  { name: 'Taha\'a & Raiatea', bestFor: 'Sailing, vanilla, sacred sites', description: 'These two islands share a single lagoon, perfect for catamaran charters. Taha\'a is famed for vanilla; Raiatea holds the UNESCO marae.' },
+  { name: 'Rangiroa', bestFor: 'Diving, atoll life', description: 'The world\'s second-largest atoll — vast turquoise lagoon ringed by motus, with two passes that funnel sharks, dolphins and manta rays.' },
+  { name: 'Tetiaroa', bestFor: 'Ultra-luxury seclusion', description: 'Marlon Brando\'s private atoll, now home to The Brando — accessible only by private plane, this is bucket-list territory.' },
+],
+expertTips: [
+  { tip: 'Buy an Air Tahiti multi-island pass before arrival', detail: 'The multi-island passes save 30–50% versus point-to-point fares; book at airtahiti.com before you fly in.' },
+  { tip: 'Tipping is not customary', detail: 'Polynesian culture views tipping as awkward — service charges are baked into prices. A warm "maururu" is the right gesture.' },
+  { tip: 'Bring euros or cards, not USD', detail: 'The CFP franc is pegged to the euro; ATMs are scarce on outer islands so withdraw cash in Papeete before island-hopping.' },
+  { tip: 'Sundays everything closes', detail: 'Restaurants, shops and many activities shut on Sunday — plan a resort day or pre-book a Sunday brunch.' },
+  { tip: 'Pack reef-safe sunscreen — it\'s the law', detail: 'French Polynesia banned oxybenzone and octinoxate sunscreens; bring mineral zinc-based or buy locally on arrival.' },
+],
+packing: [
+  { item: 'Reef-safe mineral sunscreen', why: 'Chemical sunscreens are banned; mineral zinc is hard to find and expensive locally' },
+  { item: 'Pareo or sarong', why: 'Doubles as beach cover-up, towel, and respectful temple-visit attire' },
+  { item: 'Reef shoes', why: 'Coral and sea urchins are common in shallows; flip-flops aren\'t enough' },
+  { item: 'Light rain shell', why: 'Showers pass through quickly even in dry season' },
+  { item: 'Underwater camera or GoPro', why: 'The lagoons demand it — drift snorkels at the Coral Garden are unforgettable' },
+  { item: 'Insect repellent with DEET', why: 'Mosquitoes and nono sand flies are real on motus, especially at dusk' },
+],
+guide: {
+  getting: 'Fly into Faaa International (PPT) near Papeete — Air Tahiti Nui from LAX (8h), Paris (22h via LAX). Inter-island travel is by Air Tahiti turboprop or, between Tahiti and Moorea, by 30-minute Aremiti ferry.',
+  where: 'Stay one night in Tahiti either side, then split between Moorea (volcanic drama) and a Tuamotu atoll like Rangiroa or Tikehau. The Brando on Tetiaroa is a 20-minute private flight from Papeete.',
+  when: 'May to October is dry season. July-August are peak (book 6+ months ahead). September is the sweet spot. Avoid January–March for cyclone risk.',
+},
+localFood: 'Poisson cru is the national dish — raw tuna marinated in lime juice and coconut milk. Don\'t miss ahi ma\'a, the traditional Polynesian feast cooked in an underground stone oven — usually served Sunday at resorts. Fresh vanilla, mahi-mahi sashimi, and chevrettes round out the menu, washed down with Hinano beer.',
+currency: 'CFP Franc (XPF) — €1 ≈ 119 XPF (pegged)',
+language: 'French / Tahitian (Reo Tahiti)',
+timezone: 'TAHT (UTC-10)',
+}
+
+export default meta

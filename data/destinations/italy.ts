@@ -1,0 +1,82 @@
+import type { DestinationMeta } from '@/types/destination'
+
+const meta: DestinationMeta = {
+hero: '/images/hotels/belmond-hotel-caruso-italy/hero.webp',
+tagline: 'Amalfi cliffs, Tuscan cypress, Lake Como ferries, and Sicilian arancini — Italy is the honeymoon every other honeymoon is measured against.',
+intro: 'Italy is the honeymoon nobody regrets. The challenge isn\'t whether to come — it\'s choosing which Italy. The Amalfi Coast (Positano\'s pastel cliffs at Le Sirenuse, Ravello\'s clifftop calm at Belmond Hotel Caruso) delivers the cinematic Mediterranean cliché honestly earned: lemon groves, white linen, Da Adolfo on Laurito beach for the salt-baked mozzarella lunch, sunset Aperol on a private terrace 365m above the sea. Tuscany is the slower, browner, more agricultural Italy — Borgo Santo Pietro\'s Michelin-starred farm-to-table near Chiusdino, Brunello tastings in Montalcino, Castello di Reschio\'s 1,500-year-old Umbrian estate one valley east. Lake Como is the most theatrical of the lakes — Passalacqua, voted World\'s Best Hotel, sits across the water from Bellagio, and the ferry between Varenna, Bellagio and Menaggio remains one of Europe\'s great honeymoon rituals. Then the cities: Florence (Villa Cora\'s Belle Époque palazzo five minutes from the Boboli Gardens) for Renaissance saturation; Rome for Trastevere trattorie and Vatican dawns. The wildcards are the most rewarding: Sicily — Verdura Resort\'s 230 hectares of olive groves on the southern coast — and Puglia, where Masseria Torre Coccaro turns a 16th-century fortified farmhouse into one of the south\'s defining honeymoon stays. Italy rewards the couple who picks two regions and goes deep, never the couple who tries to hit five in ten days.',
+bestTime: 'May–Jun & Sep–early Oct (shoulder peaks)',
+flightFrom: '2–3h London / 8–9h US East Coast',
+topExperience: 'Coast, Countryside & Cathedrals',
+perfectFor: [
+  'First-time-to-Italy couples who want the Amalfi-Tuscany-Lake Como triangle',
+  'Food-and-wine honeymooners — Brunello, Barolo, Da Vittorio in Brusaporto, Sicilian street food',
+  'Architecture and art lovers — Florence, Rome, Palermo\'s Norman cathedrals',
+  'Couples who prefer two long stays over six short ones — settle into a masseria or villa',
+  'Romantics who care about beauty for its own sake — there is no more visually generous country',
+],
+skipIf: [
+  'You want unspoilt empty beaches in summer — Amalfi and Como are crowded Jun–Aug',
+  'You\'re on a tight budget in peak — Positano and Lake Como in July run $1,200+/night',
+  'You hate driving narrow cliff roads — the Amalfi SS163 is famously white-knuckle',
+  'You\'re looking for a single-base lazy beach week — Italy rewards movement and curiosity',
+],
+experiences: [
+  { icon: '🍋', title: 'Lunch at Da Adolfo on Laurito Beach', description: 'Reachable only by the red-fish-flag boat from Positano\'s main pier, Da Adolfo has been the Amalfi insider lunch for fifty years. Mozzarella grilled on lemon leaves, spaghetti alle vongole, white peach in chilled local wine. Wood tables on the pebble beach, swimsuits encouraged.', cost: '€80–€140/couple with house wine', tip: 'Take the 12:15pm boat, eat slowly, swim mid-meal, last boat back at 5pm. Le Sirenuse concierge will radio ahead.' },
+  { icon: '🚤', title: 'Lake Como Ferry Loop — Bellagio, Varenna, Menaggio', description: 'The "Centro Lago" ferry triangle is the defining Lake Como afternoon. From Passalacqua\'s private dock take the morning boat to Bellagio for a Campari at Bar Rossi, ferry across to Varenna for lunch at Il Cavatappi, then Menaggio for gelato. Three towns, four hours, the whole point of the lake.', cost: 'Day pass €23/person; private water-taxi €450', tip: 'First ferry at 9:30am to skip day-trippers. Passalacqua\'s vintage Riva loop is €1,800 — the photo pays off forever.' },
+  { icon: '🍷', title: 'Brunello Tasting Day in Montalcino', description: 'A private day visiting Biondi-Santi (the original 1888 producer), Casanova di Neri, and lunch at Osteria Osticcio with its cellar of 800 Brunellos and a panorama over the Val d\'Orcia. The definitive Tuscan wine day.', cost: 'Private guide + driver + 3 estates: €600–€900/couple', tip: 'Borgo Santo Pietro\'s sommelier organises the route; ask for the "vertical Biondi-Santi" — three vintages spanning 30 years.' },
+  { icon: '🍝', title: 'Trastevere Trattoria Crawl, Rome', description: 'Rome\'s old artisans\' quarter on the west bank of the Tiber. Aperitivo at Freni e Frizioni, cacio e pepe at Da Enzo al 29 (no reservations, queue 7pm sharp), tiramisù at Pompi, nightcap on Ponte Sisto with a view of St Peter\'s dome.', cost: '€100–€160/couple all-in', tip: 'Stay south of Viale di Trastevere (less touristy). For a quieter alternative, Da Cesare al Casaletto is where Roman chefs eat.' },
+  { icon: '🌋', title: 'Mount Etna & Catania from Verdura', description: 'A long but worthwhile day from Verdura: helicopter or 2h30 drive to Etna\'s southern flank, lunch at Planeta or Pietradolce on the volcanic slopes, sunset in Catania\'s baroque Piazza Duomo and arancini at Savia.', cost: 'Helicopter day €4,500/couple; private driver day €600', tip: 'Verdura\'s concierge organises the helicopter — landing at the winery itself.' },
+],
+months: [
+  { month: 'Jan', weather: 'Cold across Italy, 5–12°C', emoji: '❄️', crowds: 'Very low', price: 'Lowest', verdict: 'Cities only — Rome and Florence empty and atmospheric' },
+  { month: 'Feb', weather: 'Cold, occasional snow north', emoji: '❄️', crowds: 'Low', price: 'Low', verdict: 'Venice Carnival aside, skip — Amalfi/Como largely closed' },
+  { month: 'Mar', weather: 'Spring stirring, 10–16°C', emoji: '🌸', crowds: 'Low', price: 'Low', verdict: 'Cities and Tuscany excellent value; coast still cool' },
+  { month: 'Apr', weather: 'Beautiful 16–22°C, wisteria blooming', emoji: '🌸', crowds: 'Moderate', price: 'Mid', verdict: 'Tuscany peak; Amalfi reopening — wonderful, mostly dry' },
+  { month: 'May', weather: 'Warm 20–25°C, swimmable south', emoji: '☀️', crowds: 'High', price: 'Mid–High', verdict: 'The single best month — everywhere works, no heatwave' },
+  { month: 'Jun', weather: 'Hot 25–30°C, sea warming', emoji: '☀️', crowds: 'High', price: 'High', verdict: 'Excellent before mid-month; school holidays late June' },
+  { month: 'Jul', weather: 'Very hot 30–35°C, humid cities', emoji: '🥵', crowds: 'Peak', price: 'Peak', verdict: 'Coast yes, cities punishing — Florence in July is brutal' },
+  { month: 'Aug', weather: 'Hottest, ferragosto closures', emoji: '🥵', crowds: 'Peak', price: 'Peak', verdict: 'Italians on holiday — tourist towns mobbed, restaurants closed' },
+  { month: 'Sep', weather: 'Warm 24–28°C, sea still warm', emoji: '☀️', crowds: 'High', price: 'High', verdict: 'The other "best" month — second only to May' },
+  { month: 'Oct', weather: 'Mild 18–24°C, vendemmia (harvest)', emoji: '🍇', crowds: 'Moderate', price: 'Mid', verdict: 'Tuscany peak — wine harvest, truffles, perfect light' },
+  { month: 'Nov', weather: 'Cooling 12–18°C, white truffle season', emoji: '🍂', crowds: 'Low', price: 'Low', verdict: 'Cities and Tuscany lovely; Amalfi closing' },
+  { month: 'Dec', weather: 'Cold, festive cities', emoji: '🎄', crowds: 'Moderate', price: 'Mid', verdict: 'Rome/Florence at Christmas is magical; coast closed' },
+],
+budgetTiers: [
+  { label: 'Upscale', range: '$500–$900/night', gets: 'Excellent 5★ in cities, classic Tuscan agriturismi, mid-range coast.', example: 'Villa Cora Florence, Hotel Splendido Mare Portofino, Capri Tiberio Palace' },
+  { label: 'Premium', range: '$900–$2,000/night', gets: 'Iconic-address coast hotels, top masserie, lakefront landmarks.', example: 'Belmond Hotel Caruso, Le Sirenuse, Masseria Torre Coccaro, Borgo Santo Pietro' },
+  { label: 'Ultra-Luxury', range: '$2,000–$6,000/night', gets: 'World\'s-best-hotel tier, private estates, ultra-bespoke service.', example: 'Passalacqua Lake Como, Castello di Reschio, Verdura Resort Villa, J.K. Place Capri' },
+],
+areas: [
+  { name: 'Amalfi Coast — Positano & Ravello', bestFor: 'Cliffside drama, Mediterranean classic', description: 'Positano is buzzy, vertical, photogenic (Le Sirenuse); Ravello is 365m above the sea, slower (Belmond Hotel Caruso). Pair them: 2 nights Positano, 3 nights Ravello.' },
+  { name: 'Tuscany & Umbria', bestFor: 'Slow countryside, wine, food', description: 'Borgo Santo Pietro near Chiusdino for Michelin-starred farm dining; Castello di Reschio for the entire-private-estate feel. 4–5 nights, day-trip to Siena, San Gimignano, Montalcino.' },
+  { name: 'Lake Como', bestFor: 'Lakefront grandeur, ferry days', description: 'Passalacqua (ex-World\'s Best Hotel) on the western shore at Moltrasio. 3 nights minimum to do the ferry triangle and a Bellagio dinner.' },
+  { name: 'Florence & Rome', bestFor: 'Art, architecture, urban honeymoon', description: 'Florence (Villa Cora overlooking Boboli) for the Uffizi and the David; Rome for the Vatican, Trastevere, Borghese. 3 nights each, Frecciarossa (1h35) between.' },
+  { name: 'Sicily & Puglia', bestFor: 'Wildcard south, fewer crowds', description: 'Verdura Resort\'s 230 hectares on Sicily\'s southern coast. Masseria Torre Coccaro in Puglia\'s Itria Valley — 16th-century fortified farmhouse, trulli countryside.' },
+],
+expertTips: [
+  { tip: 'Pick two regions, not five — Italy punishes the rushed', detail: 'The classic mistake: Rome → Florence → Venice → Amalfi → Capri in 10 nights. The honeymoon formula that works: one countryside or coast base for 4–5 nights plus one city for 3 nights. Save the rest for the next Italy trip.' },
+  { tip: 'Avoid August — and the first half of July if possible', detail: 'Italians take ferragosto in August: shops shut, beach towns mobbed, prices peak. Florence and Rome become punishingly hot (38°C+). Mid-September through mid-October is the connoisseur\'s window — warm sea, harvest festivals, prices 30% off.' },
+  { tip: 'Book restaurants before you book hotels', detail: 'Da Vittorio in Brusaporto (3-Michelin-star) takes reservations 3 months out and the honeymoon-tier tables go fast. Same with Le Sirenuse\'s La Sponda, Borgo Santo Pietro\'s Saporium. Lock the marquee dinners in before flights.' },
+  { tip: 'Drive in Tuscany; never in Amalfi or cities', detail: 'A rental car is essential in Tuscany — back roads are the joy. But on the Amalfi Coast the SS163 is white-knuckle and parking nonexistent — a private driver (€400/day) is cheaper than the stress. ZTL fines arrive months later, €200–€400 each.' },
+  { tip: 'The shoulder days matter — arrive Tuesday, leave Sunday', detail: 'Italian restaurants close one day a week (often Monday); museums often close Mondays — Uffizi, Last Supper. Sunday lunch is sacred. Arriving Tuesday, leaving Sunday morning, dodges the worst closures.' },
+],
+packing: [
+  { item: 'Smart-casual evening wardrobe', why: 'Italians dress better than you. Linen trousers and tucked shirt for men; a real dress for women. Le Sirenuse, Passalacqua, Da Vittorio expect it.' },
+  { item: 'Comfortable but elegant walking shoes', why: 'Florence, Rome, Positano are cobbled and steep. Loafers or proper sandals work for both day sightseeing and aperitivo.' },
+  { item: 'Light cashmere or pashmina', why: 'Even in summer, evenings on the Amalfi Coast and Lake Como cool quickly, and churches require covered shoulders for entry.' },
+  { item: 'Real swimwear (and a second set)', why: 'Italian beach clubs at Le Sirenuse, Verdura, Lido di Venezia are see-and-be-seen.' },
+  { item: 'Sunglasses you won\'t cry over losing', why: 'Sicilian and Amalfi sun is intense. Boats and scooters claim sunglasses on Italian honeymoons.' },
+  { item: 'Compact daypack', why: 'Tuscan vineyard walks, Pompeii, climbing to Ravello\'s Villa Cimbrone — water and a rolled jacket save the day.' },
+],
+guide: {
+  getting: 'Fly Rome FCO or Milan MXP. For Amalfi: Naples NAP, then 90 min private transfer or helicopter. For Sicily: Palermo PMO or Catania CTA. For Puglia: Bari BRI or Brindisi BDS. The Frecciarossa high-speed train (Rome–Florence 1h35, Rome–Milan 3h) is faster and more civilised than internal flights.',
+  where: 'Classic 12-night: 4 nights Amalfi → 4 nights Tuscany (Borgo Santo Pietro or Castello di Reschio) → 3 nights Lake Como (Passalacqua) → 1 night Milan to fly home. For 14 nights: insert 4 nights Sicily (Verdura) or Puglia (Masseria Torre Coccaro) before flying home from Catania or Bari.',
+  when: 'May, late September, and early October are the connoisseur windows — warm enough for the coast, cool enough for the cities, 30% cheaper than peak August.',
+},
+localFood: 'Italian food is regional, not national. Amalfi: spaghetti alle vongole, mozzarella di bufala, sfogliatelle. Tuscany: bistecca alla fiorentina, pici cacio e pepe, Brunello and Chianti Classico. Lake Como: missoltini, risotto al pesce persico. Rome: cacio e pepe, carbonara (no cream, ever). Sicily: arancini, pasta alla Norma, cannoli, granita with brioche for breakfast. Puglia: orecchiette con cime di rapa, burrata, focaccia barese.',
+currency: 'Euro (€) — €1 ≈ $1.10',
+language: 'Italian (English widely spoken in tourism)',
+timezone: 'CET (UTC+1) / CEST (UTC+2)',
+}
+
+export default meta

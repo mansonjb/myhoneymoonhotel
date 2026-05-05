@@ -1,0 +1,71 @@
+import type { DestinationMeta } from '@/types/destination'
+
+const meta: DestinationMeta = {
+hero: '/images/hotels/marbella-club-spain/hero.webp',
+tagline: 'Where sun-soaked coastlines, world-class kitchens, and Moorish romance collide',
+intro: 'Spain doesn\'t do honeymoons quietly. It seduces with Andalucían courtyards perfumed by orange blossom, Balearic coves the color of melted glass, and Basque tasting menus that have rewritten the rules of fine dining. Few countries pack this much regional contrast into a single trip — wake up to Tramuntana mountain mist over Deià one morning, sip vermut in a Barcelona plaza the next, and end the week watching the sun melt into Es Vedrà from a cliff-top terrace in Ibiza. Spain is, by most serious measures, the planet\'s most exciting culinary country right now — three of the world\'s top tasting menus sit within an hour of San Sebastián, jamón Ibérico de bellota is treated with the reverence other cultures reserve for wine. For couples, the magic is in the rhythm: late lunches that stretch into siestas, sunset paseos hand-in-hand, dinner at 10pm followed by a nightcap of fino sherry under a string of lanterns.',
+bestTime: 'May–June and September–early October — warm seas, long days, manageable crowds',
+flightFrom: 'NYC: 7–8h to Madrid/Barcelona; LA: 11–12h via connection; London: 2–2.5h direct',
+topExperience: 'A private sunset sail along Mallorca\'s northwest coast, anchoring in a hidden cala for a swim before dinner at Belmond La Residencia',
+perfectFor: ['Food-obsessed couples chasing the world\'s best tasting menus', 'Design lovers who want Gaudí, Moorish palaces, and boutique hotels', 'Beach-and-culture hybrids who refuse to choose', 'Multi-region travelers with 10–14 days', 'Late-night romantics who thrive on 10pm dinners'],
+skipIf: ['You want guaranteed solitude in peak July–August', 'You can\'t handle heat — Andalucía hits 40°C+ in summer', 'You prefer early dinners and quiet 9pm bedtimes', 'You want one-stop simplicity'],
+experiences: [
+  { icon: '🍷', title: 'Private Rioja vineyard tour with Marqués de Riscal', description: 'Drive into the Rioja Alavesa for a private tour of the Frank Gehry-designed estate, with a barrel tasting and lunch among the vines.', cost: '€350–600 per couple', tip: 'Book the rooftop suite at the Hotel Marqués de Riscal' },
+  { icon: '🍤', title: 'San Sebastián pintxos crawl', description: 'A 4-hour evening walk through Parte Vieja, hitting 5–6 of the city\'s legendary pintxos bars — Ganbara, Bar Néstor, Gandarias.', cost: '€180–250 per couple', tip: 'Eat standing up at the bar like a local; never order more than two pintxos per stop' },
+  { icon: '🕌', title: 'After-hours private tour of the Alhambra', description: 'Skip the daytime crowds with a guided evening visit to the Nasrid Palaces and Generalife gardens.', cost: '€280–450 per couple', tip: 'Stay at the Parador de Granada inside the Alhambra grounds' },
+  { icon: '⛵', title: 'Private gulet day along Mallorca\'s Tramuntana coast', description: 'Charter a traditional wooden boat from Port de Sóller and cruise the UNESCO-listed coastline.', cost: '€1,200–2,000 for the day', tip: 'Go midweek and start early to claim the best coves' },
+  { icon: '💃', title: 'Intimate flamenco tablao in Seville\'s Triana', description: 'A small-room performance at Casa de la Memoria — proper raw cante jondo, not the tourist version.', cost: '€90–150 per couple', tip: 'Sit in the front row — flamenco is meant to be felt' },
+],
+months: [
+  { month: 'January', weather: '8–15°C, cool, occasional rain', emoji: '🌥️', crowds: 'Very low', price: '€', verdict: 'Cities only — coast and islands are sleepy' },
+  { month: 'February', weather: '9–16°C, mild south, cold north', emoji: '🌤️', crowds: 'Low', price: '€', verdict: 'Andalucía starts to wake up' },
+  { month: 'March', weather: '12–19°C, spring arrives', emoji: '🌸', crowds: 'Low', price: '€€', verdict: 'Beautiful in Andalucía; Semana Santa if Easter falls' },
+  { month: 'April', weather: '15–22°C, warm days, cool nights', emoji: '🌷', crowds: 'Moderate', price: '€€', verdict: 'Stunning shoulder season; Feria de Abril in Seville' },
+  { month: 'May', weather: '18–26°C, near-perfect', emoji: '☀️', crowds: 'Moderate', price: '€€€', verdict: 'Sweet spot — warm seas starting' },
+  { month: 'June', weather: '22–30°C, hot and dry', emoji: '☀️', crowds: 'High', price: '€€€', verdict: 'Excellent before schools break' },
+  { month: 'July', weather: '26–35°C, very hot', emoji: '🔥', crowds: 'Very high', price: '€€€€', verdict: 'Coast and islands packed' },
+  { month: 'August', weather: '28–40°C, peak heat', emoji: '🔥', crowds: 'Peak', price: '€€€€', verdict: 'Avoid unless you love crowds' },
+  { month: 'September', weather: '24–30°C, warm seas', emoji: '🌞', crowds: 'High', price: '€€€', verdict: 'Arguably the best month — sea is bath-warm' },
+  { month: 'October', weather: '18–25°C, golden light', emoji: '🍂', crowds: 'Moderate', price: '€€', verdict: 'Magical for Andalucía and Basque country' },
+  { month: 'November', weather: '12–19°C, cooler', emoji: '🍁', crowds: 'Low', price: '€€', verdict: 'Cities and gastronomy only' },
+  { month: 'December', weather: '9–15°C, cool, festive', emoji: '✨', crowds: 'Moderate (cities)', price: '€€', verdict: 'Christmas markets in Madrid and Barcelona' },
+],
+budgetTiers: [
+  { label: 'Refined', range: '€450–800/night', gets: 'Boutique hotels in historic quarters, walkable to everything', example: 'Hotel Alfonso XIII Seville or Mercer Barcelona' },
+  { label: 'Luxury', range: '€800–1,800/night', gets: 'Iconic 5-star resorts, sea-view suites, Michelin dining, spa rituals', example: 'Belmond La Residencia Deià, Marbella Club, Six Senses Ibiza' },
+  { label: 'Ultra-Luxe', range: '€1,800–5,000+/night', gets: 'Private fortress villas, butler service, helicopter transfers', example: 'Cap Rocat private cliff suite, Finca Cortesin Grand Villa' },
+],
+areas: [
+  { name: 'Mallorca', bestFor: 'Mediterranean storybook beauty, Tramuntana drives, hidden coves', description: 'The honeymoon island par excellence — UNESCO mountains crashing into turquoise water, stone villages like Deià.' },
+  { name: 'Ibiza (north)', bestFor: 'Boho-luxe sophistication, sunset rituals, calas', description: 'The north of Ibiza is all pine forest, hippie markets, and impossibly chic farm-to-table dining.' },
+  { name: 'Andalucía', bestFor: 'Moorish architecture, flamenco, white villages, jamón', description: 'The Spain of the imagination — Alhambra, Seville\'s Alcázar, Marbella Club, Finca Cortesin.' },
+  { name: 'Basque Country & Rioja', bestFor: 'World-class gastronomy, dramatic green coast, wine country', description: 'San Sebastián has more Michelin stars per capita than almost anywhere on earth.' },
+  { name: 'Barcelona & Costa Brava', bestFor: 'Gaudí, urban energy with beach access', description: 'The only major European city that\'s also a beach town. Three days then drive 90 minutes north to Costa Brava.' },
+],
+expertTips: [
+  { tip: 'Eat on Spanish time or you\'ll suffer', detail: 'Lunch is 2–4pm, dinner starts at 9–10pm. Restaurants serving at 7pm are tourist traps.' },
+  { tip: 'Don\'t do Andalucía and the islands in August', detail: 'Inland Andalucía hits 42°C and Mallorca/Ibiza are at peak crowd density.' },
+  { tip: 'Book Michelin tasting menus 60–90 days out', detail: 'Akelarre, Arzak, Mugaritz, Disfrutar all release tables ~2 months ahead.' },
+  { tip: 'Rent a car everywhere except cities', detail: 'Mallorca, Andalucía, Costa Brava, Rioja are essentially undiscoverable without one.' },
+  { tip: 'Combine two regions, not five', detail: 'Pick a contrast pair — Andalucía + Mallorca, or Barcelona + Basque country — and go deep.' },
+],
+packing: [
+  { item: 'Lightweight linen for day, smart for night', why: 'Spaniards dress beautifully for dinner — no shorts at proper restaurants' },
+  { item: 'Comfortable walking shoes for cobblestones', why: 'Seville, Granada, Palma old towns are uneven stone' },
+  { item: 'A proper swimsuit and cover-up', why: 'Beach clubs and hotel pools are see-and-be-seen' },
+  { item: 'Light layers for evenings', why: 'Coastal nights cool quickly; inland Andalucía drops 15°C after dark' },
+  { item: 'Sun protection: hat, SPF 50, polarized sunglasses', why: 'The Iberian sun is no joke from May to October' },
+  { item: 'A small crossbody bag', why: 'Pickpocketing is real in Barcelona and Madrid metros' },
+],
+guide: {
+  getting: 'Major hubs are Madrid (MAD) and Barcelona (BCN), with direct flights from most US East Coast cities (7–8h). For the region you\'re starting in: Palma (PMI), Ibiza (IBZ), Málaga (AGP), Bilbao (BIO).',
+  where: 'Split 10 nights between two contrasting regions. Favorite: 5 nights Andalucía (Seville + Marbella Club or Finca Cortesin) + 5 nights Mallorca (Belmond La Residencia or Cap Rocat).',
+  when: 'May, June, and September are the unambiguous winners. Early October is a sleeper hit for Andalucía and Basque food. Avoid August unless committed to the islands.',
+},
+localFood: 'Spain is the world\'s most exciting food country right now. Honeymoon essentials: jamón Ibérico de bellota with fino, paella in Valencia, txuleta steak in the Basque country, pintxos crawls in San Sebastián, salmorejo in Andalucía, vermut at 1pm, churros con chocolate at midnight.',
+currency: 'Euro (€)',
+language: 'Spanish (Castilian) / regional (Catalan, Basque, Galician)',
+timezone: 'CET (UTC+1) / CEST (UTC+2)',
+}
+
+export default meta

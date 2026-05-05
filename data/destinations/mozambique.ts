@@ -1,0 +1,82 @@
+import type { DestinationMeta } from '@/types/destination'
+
+const meta: DestinationMeta = {
+hero: '/images/hotels/andbeyond-benguerra-island-mozambique/hero.webp',
+tagline: 'Africa\'s most pristine marine wilderness on a remote Indian Ocean archipelago.',
+intro: 'Mozambique is the Indian Ocean\'s best-kept secret — a country whose Bazaruto Archipelago contains some of the most pristine coral reef systems left on earth, where dugongs still graze in the seagrass and whale sharks cruise the channels. The entire archipelago feels like the Indian Ocean before mass tourism arrived. andBeyond Benguerra Island is one of the finest properties in Africa.',
+bestTime: 'May–Nov',
+flightFrom: '11–13h from Europe (via Johannesburg)',
+topExperience: 'Marine Wildlife & Remote Luxury',
+perfectFor: [
+  'Couples who want the East African safari + Indian Ocean beach combination (Tanzania/Kenya + Mozambique)',
+  'Marine wildlife enthusiasts — dugongs, whale sharks, and humpback whales',
+  'Those who want an Indian Ocean island without the crowd of the Maldives or Seychelles',
+  'Couples willing to travel for genuinely remote wilderness',
+  'Divers — the Bazaruto reef systems are among the least-dived in the Indian Ocean',
+],
+skipIf: [
+  'Multiple connections via Johannesburg are a dealbreaker',
+  'Infrastructure reliability is essential — Mozambique is developing and power cuts happen',
+  'You want a luxury hotel strip with variety of restaurants and nightlife',
+  'The wet season (Dec–Mar) is your only travel window',
+  'Budget is very tight — the island resorts are expensive and all-inclusive necessary',
+],
+experiences: [
+  { icon: '🐠', title: 'Dive the Bazaruto Archipelago Reefs', description: 'The Bazaruto National Park\'s reef systems are among the least disturbed coral environments in the western Indian Ocean. Untouched soft coral gardens, giant potato grouper, and manta rays at Two Mile Reef.', cost: '$80–$150 per person (2-tank dive)', tip: 'The diving is best between June and November (clearest visibility). Two Mile Reef and the southern Benguerra reefs are the finest sites. andBeyond has their own PADI dive centre on the island.' },
+  { icon: '🦈', title: 'Whale Shark Snorkel (Jun–Nov)', description: 'The channels between Bazaruto islands are feeding grounds for whale sharks from June through November. Snorkeling alongside the world\'s largest fish in warm, clear Indian Ocean water.', cost: 'Included at andBeyond Benguerra', tip: 'The whale sharks are most reliably present August–October. andBeyond\'s marine biologist knows the feeding patterns better than anyone. Depart at dawn for the highest encounter rate.' },
+  { icon: '🐋', title: 'Humpback Whale Watching (Jul–Oct)', description: 'Humpback whales migrate past Mozambique\'s coast July–October. The Bazaruto channel sees daily sightings from boats — and occasionally from the island beach itself.', cost: 'Included in resort activities at andBeyond', tip: 'The whale activity is most intense August–September. Request a dedicated whale watching boat excursion rather than encountering them incidentally on other activities.' },
+  { icon: '🦭', title: 'Dugong Search (Early Morning Dhow)', description: 'One of the last viable wild dugong populations in the western Indian Ocean grazes in Bazaruto\'s seagrass beds. A dawn dhow excursion with the resident marine biologist is a rare privilege.', cost: 'Included at andBeyond Benguerra', tip: 'Dugong sightings are not guaranteed — they are shy. The marine biologist knows the grazing areas best. June–August has the highest probability of encounters.' },
+  { icon: '🏖️', title: 'Private Sandbank Champagne Picnic', description: 'A private motorboat drops you on a shifting white sandbank in the middle of the Indian Ocean with a champagne picnic, snorkel gear, and nobody else for 10km in any direction.', cost: 'Included at andBeyond Benguerra', tip: 'The best sandbanks are 30–45 minutes by boat from Benguerra. Request the most remote option — the furthest sandbanks have the clearest water and are completely deserted.' },
+],
+months: [
+  { month: 'Jan', weather: 'Wet season, heavy rain, hot', emoji: '🌧', crowds: 'Very low', price: 'Low', verdict: 'Avoid — wet season' },
+  { month: 'Feb', weather: 'Wet, occasional cyclone risk', emoji: '🌧', crowds: 'Very low', price: 'Lowest', verdict: 'Do not book' },
+  { month: 'Mar', weather: 'Wet season easing', emoji: '🌦', crowds: 'Low', price: 'Low', verdict: 'Still wet — wait' },
+  { month: 'Apr', weather: 'Transition, improving', emoji: '🌤', crowds: 'Low', price: 'Low-mid', verdict: 'Getting better, shoulder' },
+  { month: 'May', weather: 'Dry season begins, 26°C', emoji: '☀️', crowds: 'Low', price: 'Mid', verdict: 'Dry season starts — good value' },
+  { month: 'Jun', weather: 'Dry, warm, humpbacks arriving', emoji: '☀️', crowds: 'Moderate', price: 'Mid', verdict: 'Whale sharks begin' },
+  { month: 'Jul', weather: 'Dry, whale sharks active', emoji: '☀️', crowds: 'High', price: 'High', verdict: 'Humpbacks and whale sharks peak' },
+  { month: 'Aug', weather: 'Peak conditions across all wildlife', emoji: '☀️', crowds: 'High', price: 'High', verdict: 'Best month — all species active' },
+  { month: 'Sep', weather: 'Dry, excellent marine conditions', emoji: '☀️', crowds: 'High', price: 'High', verdict: 'Whale shark density at maximum' },
+  { month: 'Oct', weather: 'Dry, humpbacks departing', emoji: '☀️', crowds: 'Moderate', price: 'Mid-high', verdict: 'Still excellent, slightly quieter' },
+  { month: 'Nov', weather: 'Transition, first rains possible', emoji: '🌤', crowds: 'Low', price: 'Mid', verdict: 'Last good month before wet season' },
+  { month: 'Dec', weather: 'Wet season returns', emoji: '🌦', crowds: 'Low', price: 'Low-mid', verdict: 'Wet season beginning' },
+],
+budgetTiers: [
+  { label: 'Boutique Island', range: '$400–$800/night', gets: 'Smaller beachfront lodge on a Bazaruto island, reef access, boat tours. Less butler but the marine environment is identical.', example: 'Bazaruto Lodge, Azura Benguerra' },
+  { label: 'Premium All-Inclusive', range: '$800–$1,500/night (AI)', gets: 'Full AI with marine activities, whale shark excursions, diving, and excellent Indian Ocean cuisine.', example: 'andBeyond Benguerra Island' },
+  { label: 'Exclusive Use', range: '$5,000–$8,000+/night', gets: 'Entire island resort exclusively — all chalets, all staff, private marine concession. The most private experience in the Indian Ocean.', example: 'andBeyond Benguerra exclusive use' },
+],
+areas: [
+  { name: 'Benguerra Island', bestFor: 'Finest resort, whale sharks, dugongs', description: 'The second-largest island in the Bazaruto Archipelago. andBeyond\'s camp and Azura both sit here. The best overall wildlife portfolio in the archipelago.' },
+  { name: 'Bazaruto Island', bestFor: 'Largest island, most varied terrain, best diving', description: 'The northern anchor of the archipelago. Bazaruto Lodge is here. The island has freshwater lakes (pink flamingos), extensive dune systems, and the most biodiverse reef in the park.' },
+  { name: 'Magaruque Island', bestFor: 'Most secluded, smallest crowd', description: 'The smallest inhabited island in the archipelago. Anantara Bazaruto has a property here. The most remote of the accessible islands with excellent snorkeling from shore.' },
+  { name: 'Vilankulo (Mainland)', bestFor: 'Departure point, local culture', description: 'The mainland town from which all Bazaruto boats and light aircraft depart. One night here before or after the island gives context to the local fishing culture.' },
+],
+expertTips: [
+  { tip: 'Combine with a Zimbabwe or South Africa safari for the perfect Africa honeymoon', detail: 'Mozambique works perfectly as the beach component of an Africa trip: 4 nights Victoria Falls or Kruger + 5 nights Bazaruto. The contrast is extraordinary. All connections run via Johannesburg.' },
+  { tip: 'August–September is the absolute peak for marine wildlife', detail: 'Whale sharks, humpback whales, manta rays, and dolphins are all simultaneously active August–September. Plan your trip around this window if wildlife is the priority.' },
+  { tip: 'The marine biologist at andBeyond transforms the experience', detail: 'andBeyond employs a resident marine biologist on Benguerra who knows every feeding ground, shark pattern, and coral recovery story. Book a private marine biology briefing on day one.' },
+  { tip: 'Power and connectivity are limited — embrace it', detail: 'Mozambique is remote. andBeyond Benguerra has solar power but outages happen. WiFi is intermittent. This is not a bug — it\'s the feature. Disconnect completely for the duration.' },
+  { tip: 'The all-inclusive rate is worth it — there is nowhere else to eat or shop', detail: 'Unlike the Maldives, the Bazaruto islands have no other restaurants or shops. The all-inclusive rate eliminates anxiety and the andBeyond kitchen is excellent. Calculate it into your budget from the start.' },
+],
+packing: [
+  { item: 'Reef-safe sunscreen', why: 'Bazaruto National Park has strict reef protection rules — bring approved sunscreen from home' },
+  { item: 'Underwater camera (wide angle)', why: 'Whale shark encounters and manta ray dives require wide-angle lens for the size of the animals' },
+  { item: 'Anti-malaria medication', why: 'Mozambique has malaria risk — see your doctor about prophylaxis 2 weeks before departure' },
+  { item: 'Dry bag', why: 'Boat transfers between islands and to sandbanks involve significant spray' },
+  { item: 'Power bank', why: 'Solar power on the islands means limited charging points. Bring your own backup.' },
+  { item: 'Modest clothing (for Vilankulo town)', why: 'Mozambique is predominantly Muslim in Bazaruto — cover up when in town' },
+],
+guide: {
+  getting: 'Fly to Johannesburg (JNB) and connect to Vilankulo (VNX) on Mozambique Airlines or LAM (1.5h). From Vilankulo: andBeyond Benguerra is 20 minutes by speedboat or 15 minutes by light aircraft. Total journey time from London: approximately 14–16h including connections. andBeyond arranges all Vilankulo–island logistics.',
+  where: 'Benguerra Island (best all-round wildlife portfolio, andBeyond). Bazaruto Island (largest, best diving, freshwater lakes). Magaruque (most secluded). Vilanculo mainland (arrival base only). All islands are within 30–45 minutes of each other by boat.',
+  when: 'May–November is the dry season. August–October is the absolute peak for marine wildlife (whale sharks, humpbacks, dugongs, manta rays simultaneously present). June–July is excellent for those who want lower prices within the dry season. Avoid December–April (wet season).',
+},
+localFood: 'Piri piri prawns (the finest in Africa — Mozambique piri piri is the original, before Nando\'s took it global), grilled crayfish from the channel, matapa (cassava leaves with peanut sauce), and fresh yellow-fin tuna. andBeyond\'s kitchen uses daily reef catches and the closest organic produce from the mainland. The sundowner peri-peri prawns on the beach at Benguerra is the essential Mozambique meal.',
+currency: 'Mozambican Metical (MZN). USD and South African Rand widely accepted at island resorts.',
+language: 'Portuguese (official). English at resort level. Local dialects vary by region.',
+timezone: 'GMT+2 (Central Africa Time)',
+}
+
+export default meta

@@ -1,0 +1,71 @@
+import type { DestinationMeta } from '@/types/destination'
+
+const meta: DestinationMeta = {
+hero: '/images/hotels/amansara-siem-reap-cambodia/hero.webp',
+tagline: 'Sunrise temples, jungle ruins, and the gentlest people in Southeast Asia',
+intro: 'Cambodia is the honeymoon nobody warns you will rearrange your priorities. You arrive expecting Angkor Wat and within three days you are quietly recalibrating what a great trip even means. The temples are extraordinary: Angkor at dawn with the lotus pond mirroring the silhouette, Ta Prohm where 400-year-old strangler figs eat the sandstone walls, Bayon and its 216 enigmatic stone faces. But the real reason couples leave already planning their return is the Cambodian people — warm, unhurried, generous in a way that feels almost startling. A classic itinerary runs Siem Reap (4 nights for the temples and Tonle Sap floating villages) then a private-island finale on Song Saa or Six Senses Krabey, with optional detours to Phnom Penh for Royal Palace and Tuol Sleng, or south to sleepy Kep for crab market lunches. The luxury scene punches far above the country\'s GDP: Amansara occupies the former royal guesthouse with private temple access; Phum Baitang sets you in a working rice paddy; Six Senses Krabey is a barefoot fortress on its own islet. Prices are roughly 30% lower than equivalent Thailand properties.',
+bestTime: 'November to February (dry, cool 24-30°C, peak temple season)',
+flightFrom: 'NYC ~22h via Seoul/Singapore to Siem Reap (REP) or Phnom Penh (PNH); LA ~20h',
+topExperience: 'Private sunrise at Angkor Wat followed by breakfast in the ruins of Ta Prohm',
+perfectFor: ['Couples who want temples AND a private-island beach finale', 'History buffs craving substance over selfie-stick destinations', 'Travelers seeking Aman/Six Senses-level service at half Thailand prices', 'Photographers chasing golden-hour sandstone and jungle ruins', 'Honeymooners who value cultural depth and warm hospitality'],
+skipIf: ['You need nightlife beyond Pub Street and a hotel cocktail bar', 'You are squeamish about confronting Khmer Rouge history at S-21', 'You want pristine Maldives-grade beaches', 'You hate heat and humidity even in cool season'],
+experiences: [
+  { icon: '🛕', title: 'Angkor Wat sunrise with private guide', description: 'Arrive at 5am before the crowds, watch the sun rise behind the five towers reflected in the lotus pond, then explore the bas-reliefs as the light turns gold.', cost: '$150-300 per couple', tip: 'Skip the main pond crowd — your guide knows a quieter reflecting pool 200m to the left' },
+  { icon: '🌳', title: 'Ta Prohm and the jungle temples', description: 'The Tomb Raider temple where centuries-old strangler figs and silk-cotton trees physically consume the sandstone.', cost: 'Included in $62 three-day Angkor pass', tip: 'Ask for Beng Mealea or Koh Ker as a day-two add-on — even more overgrown' },
+  { icon: '🚤', title: 'Tonle Sap floating villages by private boat', description: 'Kampong Phluk or Kampong Khleang — entire stilted villages 8 meters above the dry-season floor.', cost: '$80-120 per couple', tip: 'Go in the afternoon for golden light' },
+  { icon: '🏝️', title: 'Private island escape on Song Saa or Krabey', description: 'Cap your trip with three nights on a tiny private island in the Koh Rong archipelago.', cost: '$1,200-2,500 per night all-inclusive', tip: 'Fly Siem Reap to Sihanoukville then 45-min speedboat — book transfers through the hotel' },
+  { icon: '🎭', title: 'Phare Cambodian Circus', description: 'A stunning theatrical performance by graduates of an arts NGO that takes in at-risk Cambodian youth.', cost: '$18-38 per ticket', tip: 'Book the premium tier — better sightlines and proceeds fund free arts education' },
+],
+months: [
+  { month: 'January', weather: 'Dry, cool, 22-30°C', emoji: '☀️', crowds: 'Peak', price: '$$$$', verdict: 'Ideal weather, highest prices' },
+  { month: 'February', weather: 'Dry, warming, 23-32°C', emoji: '☀️', crowds: 'Peak', price: '$$$$', verdict: 'Last of the cool season — go now' },
+  { month: 'March', weather: 'Hot, dry, 26-35°C', emoji: '🌞', crowds: 'High', price: '$$$', verdict: 'Beautiful but starting to swelter at midday' },
+  { month: 'April', weather: 'Very hot, 28-38°C', emoji: '🥵', crowds: 'Medium', price: '$$', verdict: 'Khmer New Year mid-month — cultural bonus, brutal heat' },
+  { month: 'May', weather: 'Hot, first rains, 27-35°C', emoji: '⛈️', crowds: 'Low', price: '$$', verdict: 'Shoulder deals start, afternoon storms refresh the temples' },
+  { month: 'June', weather: 'Wet season begins, 26-33°C', emoji: '🌧️', crowds: 'Low', price: '$', verdict: 'Lush green — underrated' },
+  { month: 'July', weather: 'Wet, 26-32°C', emoji: '🌧️', crowds: 'Low', price: '$', verdict: 'Rice paddies vivid green — photographer\'s secret season' },
+  { month: 'August', weather: 'Wet, 26-32°C', emoji: '🌧️', crowds: 'Low', price: '$', verdict: 'Cheapest month, expect 1-2 hours of rain most days' },
+  { month: 'September', weather: 'Wettest, 25-31°C', emoji: '⛈️', crowds: 'Low', price: '$', verdict: 'Skip — flooding can close some temples' },
+  { month: 'October', weather: 'Tapering rains, 25-31°C', emoji: '🌦️', crowds: 'Medium', price: '$$', verdict: 'Tonle Sap at maximum flood — best for floating villages' },
+  { month: 'November', weather: 'Dry season returns, 24-31°C', emoji: '☀️', crowds: 'High', price: '$$$', verdict: 'Sweet spot — green landscape, dry weather' },
+  { month: 'December', weather: 'Dry, cool, 22-30°C', emoji: '☀️', crowds: 'Peak', price: '$$$$', verdict: 'Stunning weather, holiday surcharges from Dec 20' },
+],
+budgetTiers: [
+  { label: 'Refined', range: '$300-500/night', gets: 'Boutique 5-star like Templation or Park Hyatt Siem Reap, private temple guide, breakfast included', example: 'Templation Hotel — modernist pool villas in Siem Reap' },
+  { label: 'Luxury', range: '$600-1,200/night', gets: 'Phum Baitang rice-paddy villas, Belmond La Résidence d\'Angkor, Raffles Phnom Penh', example: 'Phum Baitang — wooden villas on stilts over working rice fields' },
+  { label: 'Ultra', range: '$1,500-3,500/night', gets: 'Amansara royal guesthouse with private Angkor entry, Song Saa or Six Senses Krabey private island', example: 'Amansara — 24 suites in Sihanouk\'s former villa, all-inclusive' },
+],
+areas: [
+  { name: 'Siem Reap', bestFor: 'Temples — your honeymoon anchor for 3-5 nights', description: 'Compact, walkable old town surrounded by rice paddies and Angkor Archaeological Park.' },
+  { name: 'Phnom Penh', bestFor: '1-2 night cultural stop — Royal Palace, S-21, Russian Market', description: 'Riverfront capital with French colonial bones. Raffles Phnom Penh is the address.' },
+  { name: 'Kep & Kampot', bestFor: 'Sleepy seaside detour — pepper farms, crab market', description: 'Three hours south of Phnom Penh. Knai Bang Chatt restored a cluster of 1960s Modernist villas.' },
+  { name: 'Koh Rong Archipelago', bestFor: 'Private-island beach finale, 3-5 nights', description: 'Song Saa Private Island and Six Senses Krabey occupy their own islets off Sihanoukville.' },
+  { name: 'Battambang', bestFor: 'Off-the-beaten-path day trip', description: 'A 3-hour drive from Siem Reap. Quietest of the major cities, walkable colonial center.' },
+],
+expertTips: [
+  { tip: 'Buy the 3-day Angkor pass, not the 1-day', detail: 'The temples deserve at least 2 full days plus an afternoon. The 3-day pass ($62) is valid over 10 days.' },
+  { tip: 'USD is universal — bring crisp bills', detail: 'Cambodia operates almost entirely in US dollars. Bills must be unmarked and untorn.' },
+  { tip: 'Dress code at temples is enforced', detail: 'Shoulders and knees covered to enter Angkor Wat\'s upper level. Bring a light scarf and long pants.' },
+  { tip: 'Tip your tuk-tuk driver as guide', detail: 'A great driver-guide for the day costs $25-35 and is worth quadruple.' },
+  { tip: 'Don\'t skip Tuol Sleng even on honeymoon', detail: 'It is heavy but understanding what Cambodia survived recontextualizes everything else.' },
+],
+packing: [
+  { item: 'Modest temple-appropriate layers', why: 'Shoulders and knees covered required at Angkor Wat upper level' },
+  { item: 'Quality walking sandals', why: 'You will cover 8-15km/day on uneven sandstone' },
+  { item: 'Reef-safe sunscreen', why: 'Equatorial sun is brutal even in cool season' },
+  { item: 'Headlamp or strong phone torch', why: 'Sunrise temple visits start in pitch dark' },
+  { item: 'Crisp, unmarked USD bills in small denominations', why: 'Torn or marked bills are routinely refused' },
+  { item: 'Electrolyte tablets', why: 'You will sweat through 4 liters a day at the temples' },
+],
+guide: {
+  getting: 'No direct flights from North America or Europe. Connect through Seoul, Singapore, Bangkok, or Hong Kong to Siem Reap (REP) or Phnom Penh (PNH). E-visa available online for $36.',
+  where: 'Base in Siem Reap for 4-5 nights. Add 1-2 nights Phnom Penh. Finish with 3-4 nights on a private island (Song Saa, Six Senses Krabey) or in Kep at Knai Bang Chatt.',
+  when: 'November through February is the canonical window: dry, cool, photogenic. May-October is wet season — afternoon storms, half-price hotels. Avoid September flooding.',
+},
+localFood: 'Khmer cuisine is gentler than Thai, less herb-forward than Vietnamese — its own quiet thing. Order fish amok (turmeric-coconut curry steamed in banana leaf), lok lak (peppered beef with lime-pepper dip), and num banh chok. Kampot pepper deserves its UNESCO-protected reputation.',
+currency: 'Cambodian Riel (KHR); USD universal',
+language: 'Khmer (English in tourism)',
+timezone: 'ICT (UTC+7)',
+}
+
+export default meta

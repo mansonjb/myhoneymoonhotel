@@ -1,0 +1,71 @@
+import type { DestinationMeta } from '@/types/destination'
+
+const meta: DestinationMeta = {
+hero: '/images/hotels/nayara-tented-camp-costa-rica/hero.webp',
+tagline: 'Pura Vida honeymoons where volcanoes, cloud forests, and two oceans meet',
+intro: 'Costa Rica is the rare honeymoon destination that delivers adventure and serenity in equal measure. You can wake up to howler monkeys at dawn, soak in volcanic hot springs by sunset, and fall asleep to the sound of Pacific surf, all without ever feeling rushed. This small Central American country protects 25% of its land as national parks and reserves. The Arenal region delivers the iconic volcano-and-hot-springs fantasy, with properties like Nayara Tented Camp offering steaming thermal pools fed by the volcano itself. Monteverde\'s cloud forest is otherworldly. Down on the Osa Peninsula, Lapa Rios sits on the edge of Corcovado, the most biologically intense place on earth. The Nicoya Peninsula, one of the world\'s five Blue Zones, blends surf with yoga and wellness. The Papagayo Peninsula offers polished beach-resort luxury at Four Seasons and Andaz. The Pura Vida ethos: days unfold without urgency.',
+bestTime: 'Mid-December to April (dry season); May-June and November are sweet spots',
+flightFrom: '5-6 hrs from Miami/Houston, 7-8 hrs from NYC, 11-12 hrs from London',
+topExperience: 'Soak in the natural hot springs at the base of Arenal Volcano at sunset',
+perfectFor: ['Adventurous couples who want jungle and beach in one trip', 'Wildlife lovers chasing sloths, quetzals, and sea turtles', 'Wellness-focused honeymooners drawn to yoga, surf, and Blue Zone living', 'Couples who prefer eco-luxury lodges over polished mega-resorts', 'Travelers who value sustainability'],
+skipIf: ['You want guaranteed sun every day', 'You expect Caribbean-style all-inclusive beach resorts', 'You hate bugs, humidity, or unpaved roads', 'You want a single-base honeymoon'],
+experiences: [
+  { icon: '🌋', title: 'Arenal Volcano hot springs', description: 'Soak in mineral-rich thermal pools at the base of a near-perfect cone volcano. Nayara, Tabacón, and Springs Resort each have private hot springs.', cost: 'Free for hotel guests; day passes $80-120', tip: 'Go after sunset when the air cools' },
+  { icon: '🦥', title: 'Manuel Antonio wildlife walk', description: 'A guided morning walk almost guarantees sloths, capuchin and squirrel monkeys, iguanas, and toucans within the first hour.', cost: '$80-120 per couple', tip: 'Hire a guide with a scope' },
+  { icon: '🌿', title: 'Monteverde cloud forest hanging bridges', description: 'Walk above the canopy on a network of suspension bridges through misty cloud forest.', cost: '$50-90 per person', tip: 'Selvatura and Sky Adventures both run combo tickets; go early' },
+  { icon: '🐢', title: 'Tortuguero turtle nesting (July-October)', description: 'Watch green sea turtles haul themselves up Caribbean beaches at night to lay eggs.', cost: '$30-50 per person guided beach walk', tip: 'Stay 2 nights minimum at a jungle lodge' },
+  { icon: '🏄', title: 'Santa Teresa surf and sunset', description: 'Take a private surf lesson on Playa Carmen, then post up on the sand with a cold Imperial.', cost: '$60-90 per person for a 2-hour private lesson', tip: 'Stay at Nantipa or Pranamar' },
+],
+months: [
+  { month: 'January', weather: '75-85°F, dry and sunny', emoji: '☀️', crowds: 'Peak', price: 'Peak', verdict: 'Postcard weather but book 6+ months ahead' },
+  { month: 'February', weather: '75-87°F, driest month', emoji: '☀️', crowds: 'Peak', price: 'Peak', verdict: 'Best overall conditions' },
+  { month: 'March', weather: '77-88°F, hot and dry', emoji: '☀️', crowds: 'High', price: 'High', verdict: 'Great surf, hot beaches' },
+  { month: 'April', weather: '78-90°F, end of dry season', emoji: '🌤️', crowds: 'Moderate', price: 'High', verdict: 'Hot inland but excellent beach weather' },
+  { month: 'May', weather: '76-87°F, afternoon showers begin', emoji: '⛅', crowds: 'Low', price: 'Low', verdict: 'Sweet spot — green season starts, prices drop' },
+  { month: 'June', weather: '75-85°F, daily rain', emoji: '🌧️', crowds: 'Low', price: 'Low', verdict: 'Lush and dramatic; great Pacific surf' },
+  { month: 'July', weather: '75-85°F, mid-year mini-summer', emoji: '🌤️', crowds: 'Moderate', price: 'Moderate', verdict: 'Veranillo brief dry stretch; turtles in Tortuguero' },
+  { month: 'August', weather: '75-85°F, rainy', emoji: '🌧️', crowds: 'Moderate', price: 'Moderate', verdict: 'Wet but lush; whale watching peaks' },
+  { month: 'September', weather: '74-84°F, wettest', emoji: '🌧️', crowds: 'Low', price: 'Low', verdict: 'Skip Caribbean; Pacific heavy rain but lowest prices' },
+  { month: 'October', weather: '74-84°F, very wet', emoji: '🌧️', crowds: 'Low', price: 'Low', verdict: 'Caribbean coast sunny while Pacific floods' },
+  { month: 'November', weather: '74-85°F, rains taper', emoji: '⛅', crowds: 'Low', price: 'Low', verdict: 'Hidden gem — green landscapes, low rates' },
+  { month: 'December', weather: '74-85°F, dry season returns', emoji: '☀️', crowds: 'High', price: 'Peak', verdict: 'Magical pre-Christmas; book holiday weeks a year out' },
+],
+budgetTiers: [
+  { label: 'Comfortable', range: '$300-500/night', gets: 'Boutique eco-lodges, jungle bungalows, beach hotels', example: 'Tifakara Boutique Hotel Arenal, Latitude 10 Santa Teresa' },
+  { label: 'Luxury', range: '$700-1,200/night', gets: 'Top eco-lodges with private plunge pools, full board, guided activities', example: 'Nayara Tented Camp, Lapa Rios, Origins Lodge' },
+  { label: 'Ultra', range: '$1,500-3,500/night', gets: 'Beachfront villas, butler service, private guides', example: 'Four Seasons Papagayo, Andaz Papagayo presidential' },
+],
+areas: [
+  { name: 'Arenal / La Fortuna', bestFor: 'Volcano views, hot springs, hanging bridges', description: 'The classic Costa Rica opener. Perfect cone volcano, geothermal pools, 3 hours from San José.' },
+  { name: 'Monteverde', bestFor: 'Cloud forest, zip lines, quetzals, cooler nights', description: 'A misty mountain cloud forest at 4,500 feet with hanging bridges and rare birdlife.' },
+  { name: 'Manuel Antonio', bestFor: 'Easy beach + jungle combo, sloths', description: 'A small national park where rainforest tumbles into a Pacific beach. Sloths and monkeys on the trails.' },
+  { name: 'Osa Peninsula', bestFor: 'Most biodiverse rainforest on earth, deep wilderness', description: 'Remote and unforgettable. Reached by small plane to Puerto Jiménez. Lapa Rios is eco-lodge royalty.' },
+  { name: 'Nicoya / Papagayo', bestFor: 'Beach honeymoons, surf and yoga, Blue Zone wellness', description: 'Papagayo holds Four Seasons and Andaz; Santa Teresa and Nosara deliver bohemian surf-and-yoga energy.' },
+],
+expertTips: [
+  { tip: 'Pair two regions, not three', detail: 'A 10-night honeymoon works best as 4 nights Arenal + 5-6 nights beach. Adding Monteverde or Osa pushes you into too many transfer days.' },
+  { tip: 'Fly into one airport, out of the other', detail: 'Open-jaw into SJO and out of LIR (or vice versa) saves 5+ hours of driving.' },
+  { tip: 'Use domestic Sansa flights for Osa', detail: 'A 50-minute flight to Puerto Jiménez beats an 8-hour drive.' },
+  { tip: 'Hire local guides — you will see 10x more', detail: 'A naturalist guide with a spotting scope turns a quiet trail into a wildlife buffet.' },
+  { tip: 'Drive the green season smartly', detail: 'May, June, and November offer huge savings. Mornings are typically sunny; rain comes in afternoon downpours.' },
+],
+packing: [
+  { item: 'Quick-dry hiking pants and shirts', why: 'Cotton stays wet for hours in rainforest humidity' },
+  { item: 'Lightweight rain jacket', why: 'Even dry season has surprise downpours' },
+  { item: 'Sturdy waterproof hiking sandals (Chacos/Tevas)', why: 'You will cross rivers, scramble waterfalls' },
+  { item: 'Reef-safe sunscreen and DEET-free repellent', why: 'Required in national parks; mosquitoes are real in lowland jungle' },
+  { item: 'Binoculars (compact)', why: 'Wildlife is often 30 meters up in the canopy' },
+  { item: 'Dry bag or waterproof phone pouch', why: 'For zip lines, river floats, boat transfers' },
+],
+guide: {
+  getting: 'Fly into San José (SJO) for Arenal, Monteverde, Manuel Antonio, or Liberia (LIR) for Papagayo, Nicoya. Internal travel via rental 4x4, private transfer ($150-250 between regions), or short Sansa domestic flights.',
+  where: 'Base in 2 regions: one inland adventure base (Arenal at Nayara Tented Camp or Monteverde) and one beach base (Papagayo, Santa Teresa at Nantipa, or Osa at Lapa Rios).',
+  when: 'Mid-December through April is peak. May, June, and November are the smartest value windows. Avoid September and October on the Pacific.',
+},
+localFood: 'Costa Rican food is humble and honest: gallo pinto for breakfast, casado for lunch, fresh-caught fish ceviche on the coasts. Don\'t miss tres leches cake, fried yuca, and chorreador-brewed coffee from Tarrazú — among the world\'s best.',
+currency: 'Costa Rican Colón (CRC); USD widely accepted',
+language: 'Spanish (English in tourism)',
+timezone: 'CST (UTC-6)',
+}
+
+export default meta

@@ -1,0 +1,82 @@
+import type { DestinationMeta } from '@/types/destination'
+
+const meta: DestinationMeta = {
+hero: '/images/hotels/jumby-bay-island-oetker-antigua/hero.webp',
+tagline: '365 beaches, one for every day of your honeymoon',
+intro: 'Antigua makes a promise no other Caribbean island dares: 365 beaches, one for every day of the year. For honeymooners, that translates into a kind of arithmetic luxury — a different stretch of powder sand for breakfast walks, sunset swims, and the lazy afternoons in between. The water here is the textbook Caribbean palette: glassy turquoise in the shallows, deepening to ink-blue offshore, with reef close enough to snorkel from most resort jetties. But Antigua is more than a beach catalog. English Harbour, on the south coast, is the only working Georgian-era dockyard left in the world, a UNESCO site where Nelson once careened his ships and where superyachts now bob between stone warehouses turned into rum bars. Climb the hill above it on a Sunday evening and you find Shirley Heights, where steel drums, jerk chicken smoke, and a sunset over twin harbours have been the island\'s weekly ritual for forty years. The honeymoon hotel scene leans heavily adults-only and small-scale: Hermitage Bay\'s hillside cottages, Galley Bay\'s barefoot luxe, Curtain Bluff\'s old-school glamour, Cocos and Cocobay perched on cliffsides, and the private-island fantasy of Jumby Bay. Sailors love Antigua for its trade winds and protected anchorages — Sailing Week in late April fills the bays with regatta crews. Slip away on a day charter to Pillars of Hercules, the wave-carved limestone columns south of English Harbour, or to the calm sandbar of Stingray City.',
+bestTime: 'Mid-Dec through April for dry trade-wind weather; May–June quieter and still mostly dry',
+flightFrom: '8h30 direct London, 4h NYC, 4h30 Miami — ANU airport, 30 min from most resorts',
+topExperience: 'Sunday sunset at Shirley Heights',
+perfectFor: [
+  'Beach connoisseurs who want variety without island-hopping',
+  'Sailing couples — trade winds, charters, Sailing Week energy',
+  'Adults-only resort lovers (the island specializes in them)',
+  'History-minded travellers who want UNESCO Georgian dockyards alongside the beach',
+  'Honeymooners who want classic Caribbean without Bahamas crowds or Barbados prices',
+],
+skipIf: [
+  'You want lush rainforest interiors — Antigua is dry and scrubby compared to St. Lucia',
+  'You\'re after big nightlife or a clubbing scene — evenings here are quiet',
+  'You want dramatic mountain or volcano scenery',
+  'Your idea of a honeymoon is a single mega-resort — most properties here are intimate',
+],
+experiences: [
+  { icon: '🌅', title: 'Shirley Heights Sunday Sunset', description: 'The island\'s defining ritual: steel drums at 4pm, reggae band at 6:30pm, jerk chicken and rum punch, and a 360° view over English Harbour\'s superyachts as the sun drops.', cost: 'EC$25 (~$10) entry, food and drinks extra', tip: 'Arrive by 4pm to claim a spot on the stone wall facing the harbour. The steel pan set is better than the later band.' },
+  { icon: '⚓', title: 'Nelson\'s Dockyard, English Harbour', description: 'Wander the only working Georgian-era naval dockyard on earth — UNESCO-listed, walkable in two hours, with a small museum, working sail loft, and cafes in the old officers\' quarters.', cost: '$8 entry (covers Shirley Heights same day)', tip: 'Combine with lunch at Boom on the marina or Pillars Restaurant for the full harbour-front experience.' },
+  { icon: '⛵', title: 'Pillars of Hercules sailing day', description: 'Charter a catamaran from Falmouth Harbour around the south coast to the wave-sculpted limestone columns, with snorkel stops and a beach lunch at Pigeon Point.', cost: '$120-180pp shared catamaran; $1,200+ private', tip: 'Adventure Antigua\'s "Xtreme Circumnav" for the full island loop, or Tropical Adventures for slower romance.' },
+  { icon: '🐟', title: 'Stingray City Antigua', description: 'Wade chest-deep on a sandbar off the northeast coast and feed Atlantic southern stingrays by hand — calmer and less circus-like than Cayman\'s version.', cost: '$60pp including boat transfer and snorkel gear', tip: 'Go on the first morning trip (10am) before the cruise crowd arrives from St. John\'s.' },
+  { icon: '🏖️', title: 'Half Moon Bay picnic afternoon', description: 'A perfect crescent on the wild Atlantic east coast — bigger surf, almost no development, just sand, sea grape trees, and one beach shack selling Wadadli beer.', cost: 'Free; ~$60 taxi return', tip: 'Stop at Devil\'s Bridge en route — a natural limestone arch where Atlantic swell explodes through blowholes.' },
+],
+months: [
+  { month: 'Jan', weather: '27°C, dry, breezy', emoji: '☀️', crowds: 'High', price: 'Highest', verdict: 'Peak conditions, peak prices — book 6+ months ahead' },
+  { month: 'Feb', weather: '27°C, dry, breezy', emoji: '☀️', crowds: 'High', price: 'Highest', verdict: 'Valentine\'s premium; otherwise textbook honeymoon weather' },
+  { month: 'Mar', weather: '28°C, dry', emoji: '☀️', crowds: 'High', price: 'Highest', verdict: 'Spring break bumps mid-month; resorts still adult-quiet' },
+  { month: 'Apr', weather: '28°C, dry, warming', emoji: '⛵', crowds: 'High', price: 'Highest', verdict: 'Sailing Week (last week) is electric — book early or avoid' },
+  { month: 'May', weather: '29°C, mostly dry', emoji: '☀️', crowds: 'Medium', price: 'High', verdict: 'Sweet spot — post-season prices, pre-rains' },
+  { month: 'Jun', weather: '29°C, brief showers', emoji: '⛅', crowds: 'Low', price: 'Mid', verdict: 'Quiet and warm; technically hurricane season but risk minimal' },
+  { month: 'Jul', weather: '30°C, humid', emoji: '⛅', crowds: 'Medium', price: 'Mid', verdict: 'Carnival end-of-month — fun if you want it, busy in St. John\'s' },
+  { month: 'Aug', weather: '30°C, humid, storm risk', emoji: '🌧️', crowds: 'Low', price: 'Mid', verdict: 'Cheap but hurricane-watch territory — buy travel insurance' },
+  { month: 'Sep', weather: '30°C, peak storm risk', emoji: '⛈️', crowds: 'Low', price: 'Lowest', verdict: 'Skip unless you accept the gamble; many small hotels close' },
+  { month: 'Oct', weather: '29°C, wet', emoji: '🌧️', crowds: 'Low', price: 'Mid', verdict: 'Storm risk easing late month; not ideal for honeymoons' },
+  { month: 'Nov', weather: '28°C, drying out', emoji: '⛅', crowds: 'Medium', price: 'High', verdict: 'Underrated — by mid-month it\'s back to picture-perfect' },
+  { month: 'Dec', weather: '27°C, dry', emoji: '☀️', crowds: 'High', price: 'Highest', verdict: 'Christmas/NYE rates eye-watering; first two weeks are the value play' },
+],
+budgetTiers: [
+  { label: 'Comfortable', range: '$450-700/night', gets: 'All-inclusive adults-only on a good beach with multiple restaurants and water sports included', example: 'Galley Bay or Cocobay — barefoot-luxe cottages, dinner under the stars' },
+  { label: 'Special', range: '$900-1,500/night', gets: 'Boutique luxury with butler service, plunge pools, exceptional food, intimate scale', example: 'Hermitage Bay hillside suites or Carlisle Bay beachfront one-bedrooms' },
+  { label: 'No-limit', range: '$2,500-6,000+/night', gets: 'Private-island exclusivity, residence-style villas, full discretion package', example: 'Jumby Bay (Oetker Collection) — private island, 40 rooms, Rosewood-tier service' },
+],
+areas: [
+  { name: 'English & Falmouth Harbour (south)', bestFor: 'Sailors, history lovers, dinner-out couples', description: 'The cultural heart — Nelson\'s Dockyard, Shirley Heights, the best independent restaurants. Resorts here (Curtain Bluff, Carlisle Bay) feel connected to island life.' },
+  { name: 'Hermitage Bay & southwest coast', bestFor: 'Pure seclusion, no-cars-needed honeymoons', description: 'Reached by a single dirt road over a hill. One resort per bay, sunset-facing, deeply private.' },
+  { name: 'Jolly Harbour & west coast', bestFor: 'Calm Caribbean-side swimming, marina dining', description: 'Sheltered west-facing bays with the island\'s flattest water. Galley Bay, Cocobay, Cocos cluster here.' },
+  { name: 'North coast & Dickenson Bay', bestFor: 'First-timers, classic resort beaches', description: 'Where Sandals and Blue Waters sit — long sandy beaches, more developed feel, closest to airport (15 min).' },
+  { name: 'East coast & Long Bay', bestFor: 'Wild beach days, Atlantic surf, Devil\'s Bridge', description: 'Less built-up, bigger waves, bigger drama. Half Moon Bay and Long Bay are day-trip destinations.' },
+],
+expertTips: [
+  { tip: 'Sunday is Shirley Heights — plan everything else around it', detail: 'It runs every Sunday year-round, 4-10pm. Skip the resort dinner that night. Have your driver wait or pre-book the return — taxis vanish around 8pm.' },
+  { tip: 'Rent a car for two days, not the whole trip', detail: 'Roads are rough and signage minimal, but you\'ll want freedom to reach Half Moon Bay, Devil\'s Bridge, and Shirley Heights without taxi haggling. Driving is on the left.' },
+  { tip: 'The "best" beach depends on wind direction', detail: 'When trades blow hard (Jan-March), east coast gets choppy and west coast is glass. Ask your concierge which side is calm that day.' },
+  { tip: 'Eat off-resort at Catherine\'s Cafe Plage or Sheer Rocks', detail: 'Catherine\'s (Pigeon Beach) is French toes-in-sand lunch; Sheer Rocks (Cocobay cliffs) is the island\'s most photographed sunset dinner. Book Sheer Rocks two weeks ahead.' },
+  { tip: 'Sailing Week (late April) is a vibe but not a honeymoon vibe', detail: 'English Harbour gets rowdy, hotels south-side fill with crews, prices spike. If you\'re not into regatta culture, choose north or west coast.' },
+],
+packing: [
+  { item: 'Reef-safe sunscreen (SPF 50)', why: 'Antigua\'s sun is strong year-round and resorts increasingly require reef-safe formulas; pricey on island.' },
+  { item: 'Light long-sleeve cover-up', why: 'Trade winds cool fast on catamaran days and at Shirley Heights after sunset.' },
+  { item: 'Water shoes or sturdy sandals', why: 'Pillars of Hercules and Devil\'s Bridge involve scrambling on sharp limestone.' },
+  { item: 'Smart-casual dinner outfit', why: 'Curtain Bluff, Carlisle Bay, and Jumby Bay still expect collared shirts at dinner.' },
+  { item: 'Snorkel mask you trust', why: 'Resort gear is hit-or-miss and you\'ll snorkel daily off Cades Reef and Stingray City.' },
+  { item: 'Insect repellent with DEET', why: 'Mosquitoes at dusk near vegetation; sandflies on east-coast beaches at golden hour.' },
+],
+guide: {
+  getting: 'V.C. Bird International (ANU) is the only airport. Direct flights from London (BA, Virgin, ~8h30), New York JFK (~4h), Miami (~4h30), Toronto (~5h). Pre-book a resort transfer — taxi rates fixed by zone ($30-90).',
+  where: 'Hermitage Bay for pure seclusion. Jumby Bay for private-island money-no-object luxury. Carlisle Bay for design-forward south coast. Curtain Bluff for old-money classic. Galley Bay or Cocobay for affordable adults-only barefoot-luxe.',
+  when: 'Mid-Jan through mid-April is the peak window. May and first half of June are the savvy traveller\'s sweet spot — prices drop 25-35%, weather still excellent. Late November is similarly underrated. Avoid August through mid-October.',
+},
+localFood: 'Pepperpot stew with ducana (sweet potato dumplings) and fungee (cornmeal and okra) is the national dish — try it at Papa Zouk or Ana\'s on the Beach. Conkies (steamed cornmeal-coconut parcels) appear around November. Look for the small, intensely sweet Antiguan black pineapple. Wash it down with Wadadli, the local lager, or a Cavalier rum punch.',
+currency: 'East Caribbean Dollar (XCD) — USD widely accepted',
+language: 'English',
+timezone: 'AST (UTC-4)',
+}
+
+export default meta

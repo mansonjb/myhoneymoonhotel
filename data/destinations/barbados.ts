@@ -1,0 +1,81 @@
+import type { DestinationMeta } from '@/types/destination'
+
+const meta: DestinationMeta = {
+hero: '/images/hotels/sandy-lane-barbados/hero.webp',
+tagline: 'The most polished Caribbean honeymoon — Platinum Coast luxury, English-speaking ease, no long-haul fatigue.',
+intro: 'Barbados is the Caribbean island that takes hospitality the most seriously. A 21-mile coral limestone teardrop sitting alone in the Atlantic 100 miles east of the Lesser Antilles arc, it has hosted the world\'s wealthiest honeymooners since the 1950s — Sandy Lane opened in 1961 and Cobblers Cove and Coral Reef Club have been polishing the same Bajan-British formula for over 60 years. The west coast — the famous Platinum Coast running from Holetown north to Speightstown — delivers the postcard: calm, glassy Caribbean Sea so flat it functions as a swimming pool, palm-shaded beaches with talcum-fine sand, and a string of family-owned hotels that have hosted royalty without ever feeling stiff. Drive 90 minutes east across the island and Barbados changes character entirely: the Atlantic east coast at Bathsheba is wild, surf-pounded basalt-rock theatre with the famous Soup Bowl reef break and weather-sculpted limestone arches at Animal Flower Cave. The south coast holds the airport, Bridgetown\'s UNESCO Garrison heritage area, and the famously raucous Friday-night Oistins fish fry. The island\'s honeymoon strengths are specific: short flights (5 hours from Miami, 8 from London), English as the working language with no friction whatsoever, the highest density of luxury boutique hotels in the eastern Caribbean, and a food scene that punches genuinely above its size — The Cliff, Tides, Daphne\'s, Nikki Beach, and the legendary Friday fish fry give honeymoon couples real off-property dining variety. The island\'s rum heritage runs deeper than anywhere in the Caribbean — Mount Gay (founded 1703) is the world\'s oldest commercial distillery, and the rum-shop culture is alive in every parish. Couples come to Barbados when they want guaranteed weather, no long-haul flight, English ease, and a level of resort polish that no other Caribbean island reliably delivers across multiple price points.',
+bestTime: 'Mid-Dec to mid-Apr (dry season); May–June quieter and still mostly dry',
+flightFrom: '5h Miami, 4h NYC, 8h London — to Grantley Adams International (BGI)',
+topExperience: 'Sunset catamaran from Holetown with rum punch and the Caribbean horizon',
+perfectFor: [
+  'Couples wanting a polished Caribbean honeymoon with English-speaking ease and zero long-haul fatigue',
+  'Beach-and-boutique-hotel travellers — the Platinum Coast has the highest density of small luxury hotels in the eastern Caribbean',
+  'Food and rum lovers — Mount Gay heritage, the Friday Oistins fish fry, and a legitimately strong restaurant scene',
+  'Repeat Caribbean visitors who want polish, not adventure — Barbados is more refined than Jamaica, calmer than Bahamas, less arid than Antigua',
+  'Honeymooners who want both calm Caribbean Sea (west) and dramatic Atlantic scenery (east) on the same island',
+],
+skipIf: [
+  'You want lush rainforest, mountains, or volcanic drama — Barbados is gentle, rolling sugar-cane country',
+  'Your budget is under $400/night for west-coast luxury — south coast and east coast are more accessible but the Platinum Coast prices serious',
+  'You\'re looking for an exotic, foreign-language cultural immersion — Barbados feels distinctly British',
+  'You want a single all-inclusive resort cocoon — Barbados rewards getting out for off-property dinners',
+],
+experiences: [
+  { icon: '⛵', title: 'Sunset catamaran from Holetown', description: 'The signature Barbados honeymoon experience — Tiami or Cool Runnings catamaran from Holetown\'s small marina, rum punch flowing, reggae on the speakers, snorkel stop with hawksbill turtles, sunset behind the Caribbean horizon. Three hours that justify the entire trip.', cost: '$80-150 per person shared; $1,500+ private', tip: 'Book Tiami for the most polished operation. Private charters from Port St. Charles are worth it for couples wanting genuine privacy.' },
+  { icon: '🐢', title: 'Snorkel with turtles & wrecks at Carlisle Bay', description: 'Carlisle Bay near Bridgetown holds three or four shallow shipwrecks alive with green and hawksbill turtles in waist-deep clear water. Easily the best snorkeling on Barbados and one of the most reliable turtle encounters in the Caribbean.', cost: '$70-120pp boat trip including gear', tip: 'Go early morning (8-9am) before the cruise-ship boats arrive. Many west-coast catamaran trips include this stop.' },
+  { icon: '🥃', title: 'Mount Gay Visitors Centre rum tour', description: 'The world\'s oldest commercial distillery (1703) on the outskirts of Bridgetown — the signature 90-minute tour ends with a tasting flight of five rums including the rare 1703 Master Select. Lunch at Champers afterward for the full Bridgetown experience.', cost: '$45-90pp depending on tour level', tip: 'Skip the standard cruise-ship tour and book the Master Blender experience or a private tour for serious rum interest.' },
+  { icon: '🌊', title: 'Atlantic east coast at Bathsheba', description: 'Cross-island drive (90 minutes from the west coast) to the wild Atlantic side. Lunch at Round House or Atlantis Hotel restaurant on the cliff, photograph the Soup Bowl reef break and the basalt-rock formations, walk the dramatic surf-pounded beach.', cost: '$60-120 car rental for the day; lunch $40-80pp', tip: 'Stop at St. Nicholas Abbey for a 17th-century plantation tour and small-batch rum tasting on the way back.' },
+  { icon: '🎣', title: 'Friday-night Oistins fish fry', description: 'The most authentic Bajan night out — south-coast fishing village transforms every Friday and Saturday into an open-air party of fresh-grilled marlin, mahi-mahi, and flying fish, Banks beer, live soca music, and locals dancing in the road. Loud, sweaty, glorious.', cost: '$15-30pp food; $5-10 drinks', tip: 'Go to Uncle George\'s or Pat\'s Place for the best grilled fish. Arrive by 7pm before the queues, leave by 11pm before the chaos peaks.' },
+],
+months: [
+  { month: 'Jan', weather: '83°F / 72°F, dry, breezy', emoji: '☀️', crowds: 'Peak', price: 'Highest', verdict: 'Postcard weather, peak rates — book 6+ months ahead' },
+  { month: 'Feb', weather: '83°F / 72°F, dry', emoji: '☀️', crowds: 'Peak', price: 'Highest', verdict: 'Valentine\'s premium plus US/UK winter escape — busy and expensive' },
+  { month: 'Mar', weather: '84°F / 73°F, dry', emoji: '☀️', crowds: 'Peak', price: 'Highest', verdict: 'Spring break crowds in south coast; Platinum Coast still adult-quiet' },
+  { month: 'Apr', weather: '85°F / 74°F, dry', emoji: '☀️', crowds: 'High', price: 'High', verdict: 'Sweet spot after mid-April — great weather, easing rates' },
+  { month: 'May', weather: '86°F / 75°F, brief showers', emoji: '⛅', crowds: 'Low', price: 'Mid', verdict: 'Best value-to-weather ratio of the year' },
+  { month: 'Jun', weather: '86°F / 76°F, occasional rain', emoji: '⛅', crowds: 'Low', price: 'Mid', verdict: 'Quiet, warm sea, low hurricane risk — Barbados sits south of main belt' },
+  { month: 'Jul', weather: '87°F / 76°F, humid', emoji: '⛅', crowds: 'Medium', price: 'Mid', verdict: 'European school holidays bring crowds late July; Crop Over festival starts' },
+  { month: 'Aug', weather: '87°F / 77°F, humid', emoji: '⛅', crowds: 'Medium', price: 'Mid', verdict: 'Crop Over peaks early August — vibrant but very busy in Bridgetown' },
+  { month: 'Sep', weather: '86°F / 76°F, wet', emoji: '🌧️', crowds: 'Lowest', price: 'Lowest', verdict: 'Rainiest month and small hotels close for refurbishment — skip' },
+  { month: 'Oct', weather: '86°F / 75°F, wet early', emoji: '🌧️', crowds: 'Low', price: 'Mid', verdict: 'Some hotels still closed early month; second half stabilizes' },
+  { month: 'Nov', weather: '85°F / 74°F, drying', emoji: '⛅', crowds: 'Medium', price: 'High', verdict: 'Shoulder magic — dry weather returns, rates still moderate' },
+  { month: 'Dec', weather: '84°F / 73°F, dry', emoji: '☀️', crowds: 'Very High', price: 'Highest', verdict: 'Holiday weeks are the priciest of the year — book by August' },
+],
+budgetTiers: [
+  { label: 'Comfortable', range: '$400-650/night', gets: 'South-coast or east-coast 4-star with good beach access; or off-peak west-coast 4-star like The House.', example: 'The Crane (east coast, generous suites) or The House by Elegant Hotels (Holetown, adults-only)' },
+  { label: 'Elevated', range: '$700-1,500/night', gets: 'Boutique Platinum Coast luxury — adults-only intimate properties or polished family-friendly classics.', example: 'Cobblers Cove (Relais & Châteaux), The Sandpiper (adults-only), Coral Reef Club (family-run elegance)' },
+  { label: 'Iconic', range: '$1,800-9,500/night', gets: 'Sandy Lane and the truly grand suites — coral-stone palaces, 47,000 sq ft spas, full butler service.', example: 'Sandy Lane Orchid Suites or One-Bedroom Dolphin Suites' },
+],
+areas: [
+  { name: 'Platinum Coast (St. James / Holetown / Speightstown)', bestFor: 'Calm Caribbean Sea, luxury hotels, walkable Holetown dining', description: 'The west coast — flat turquoise water, palm-shaded beaches, the densest concentration of luxury boutique hotels in the eastern Caribbean. Holetown is the dining hub.' },
+  { name: 'South Coast (St. Lawrence Gap / Oistins)', bestFor: 'Friday fish fry, livelier nightlife, more affordable hotels', description: 'Slightly bigger waves than the west coast, more dining variety, and the legendary Oistins fish fry every Friday. More accessible price point than the Platinum Coast.' },
+  { name: 'Southeast Coast (St. Philip / Crane)', bestFor: 'Dramatic cliff scenery, pink-sand Crane Beach, airport proximity', description: 'Where the calm Caribbean meets the wild Atlantic. The Crane Resort sits on dramatic limestone cliffs above one of the world\'s most photographed beaches.' },
+  { name: 'East Coast (Bathsheba / Atlantic)', bestFor: 'Day-trip drama, surf, basalt rock formations', description: 'Wild, surf-pounded, almost no hotels — visit by day for the spectacular scenery and Round House lunch, then return to the calm west or south for sleep.' },
+],
+expertTips: [
+  { tip: 'Rent a car for two days, not the full trip', detail: 'Driving on the left can be tight on west-coast roads, but freedom to reach Bathsheba, St. Nicholas Abbey, and the Friday Oistins fish fry is worth it. Cars are around $60/day; a private driver for transfers and long days runs $250-400.' },
+  { tip: 'Plan dinners off-property at least three nights', detail: 'The Cliff (Derricks), Tides (Holetown), Daphne\'s, Lone Star, and Nikki Beach are all walkable or short-drive from west-coast hotels. Skipping every dinner at the resort dramatically improves the trip — the Barbados restaurant scene is genuinely strong.' },
+  { tip: 'Friday Oistins fish fry is non-negotiable', detail: 'Every Friday and Saturday from 7pm. Uncle George\'s and Pat\'s Place are the go-to grills. Cash only, $15-30/person for fresh-grilled marlin or mahi-mahi, live soca, locals dancing — the best authentic night on the island.' },
+  { tip: 'West coast is calm; east coast is wild — plan accordingly', detail: 'Don\'t book an east-coast hotel expecting Caribbean swimming — Atlantic surf is no joke. Stay on the west or south for swimming and visit the east coast as day trips.' },
+  { tip: 'Tipping is 10-15% and often added to bills automatically', detail: 'Check restaurant bills carefully — service charge is frequently added. If not, 10-15% is standard. Cash USD or BBD both work; small bills appreciated.' },
+],
+packing: [
+  { item: 'Reef-safe sunscreen (SPF 50)', why: 'Caribbean sun is strong year-round; some marine parks require reef-safe formulas; pricey on island.' },
+  { item: 'Smart-casual dinner outfit', why: 'Sandy Lane, Coral Reef, The Cliff, and Tides observe smart-casual dress codes — collared shirt and long trousers for men.' },
+  { item: 'Light layer for evenings', why: 'Trade winds can drop temps to upper 60s in winter; restaurant AC is fierce.' },
+  { item: 'Cash in small US bills', why: 'Tips, taxis, Oistins fish fry, beach vendors all run smoothly on USD cash.' },
+  { item: 'Snorkel gear if you have it', why: 'Resort rentals are mediocre; you\'ll snorkel at Carlisle Bay turtles, Folkestone Marine Park, and from your hotel beach.' },
+  { item: 'Insect repellent', why: 'Mosquitoes at dusk near vegetation; sand flies on east-coast beaches at golden hour.' },
+],
+guide: {
+  getting: 'Grantley Adams International (BGI) on the south coast is the only airport. Direct flights from London (BA, Virgin, ~8h), New York (American, JetBlue, ~5h), Miami (~4h), Toronto (~5h). Pre-arrange a private transfer through your hotel — $30-90 fixed-rate by zone. The Crane is the closest hotel (15 min); Holetown west coast is 35 min; Speightstown is 50 min.',
+  where: 'Sandy Lane for grand-palace luxury and the most complete on-property facilities. Cobblers Cove for Relais & Châteaux family-run intimacy. The Sandpiper for adults-only quiet at Holetown\'s edge. Coral Reef Club for elegant family-run with Plantation Suite plunge pools. The House for chic walkable Holetown adults-only. The Crane for dramatic clifftop drama and generous suites at attractive prices.',
+  when: 'Mid-January through April for guaranteed dry weather. Mid-April through early June is the value sweet spot. Avoid August through October (humidity and small hurricane risk despite Barbados sitting south of the main belt). November is a sleeper hit.',
+},
+localFood: 'Bajan cuisine is the Caribbean\'s most refined — flying fish and cou-cou (national dish, cornmeal and okra), pepper-pot stew, macaroni pie, fish cakes, pudding-and-souse. Friday-night Oistins fish fry is the Bajan ritual — fresh-grilled marlin, mahi-mahi, lobster in season. Don\'t miss Mount Gay rum (the world\'s oldest), the small-batch St. Nicholas Abbey rum, and the local lager Banks. For dessert: rum cake and conkies (steamed cornmeal-coconut parcels).',
+currency: 'Barbadian Dollar (BBD) — pegged 2:1 to USD; USD universally accepted',
+language: 'English (Bajan dialect)',
+timezone: 'AST (UTC-4)',
+}
+
+export default meta
