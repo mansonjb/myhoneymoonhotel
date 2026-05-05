@@ -34,6 +34,7 @@ const DEST_META: Record<string, { region: string; country: string }> = {
   'mexico':            { region: 'Caribbean & Americas', country: 'Mexico' },
   'costa-rica':        { region: 'Caribbean & Americas', country: 'Costa Rica' },
   'jamaica':           { region: 'Caribbean & Americas', country: 'Jamaica' },
+  'anguilla':          { region: 'Caribbean & Americas', country: 'Anguilla' },
   'antigua':           { region: 'Caribbean & Americas', country: 'Antigua' },
   'bahamas':           { region: 'Caribbean & Americas', country: 'Bahamas' },
   'barbados':          { region: 'Caribbean & Americas', country: 'Barbados' },

@@ -60,6 +60,7 @@ const MAP_LOCATION_OVERRIDE: Record<string, string> = {
   tuscany:           'Siena, Italy',
   sicily:            'Taormina, Italy',
   jamaica:           'Montego Bay, Jamaica',
+  anguilla:          'Meads Bay, Anguilla',
   antigua:           'St John\'s, Antigua',
   bahamas:           'Nassau, Bahamas',
   barbados:          'Holetown, Barbados',

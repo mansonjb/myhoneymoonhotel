@@ -57,6 +57,7 @@ const DEST_FALLBACK: Record<string, string> = {
   'sicily':            'https://images.unsplash.com/photo-1558642084-fd07fae5282e?w=800&q=80',
   'barbados':          'https://images.unsplash.com/photo-1577094115226-e54e6726ce98?w=800&q=80',
   'jamaica':           'https://images.unsplash.com/photo-1518553552276-fbcb05245056?w=800&q=80',
+  'anguilla':          'https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=800&q=80',
   'antigua':           'https://images.unsplash.com/photo-1548574505-5e239809ee19?w=800&q=80',
   'bahamas':           'https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=800&q=80',
   'aruba':             'https://images.unsplash.com/photo-1559496417-e7f25cb247f3?w=800&q=80',
