@@ -1,6 +1,20 @@
 'use client'
 import Link from 'next/link'
 import { useState, useEffect, useRef } from 'react'
+import type { Locale } from '@/i18n/locales'
+import en from '@/i18n/messages/en.json'
+import es from '@/i18n/messages/es.json'
+import pt from '@/i18n/messages/pt.json'
+
+const DICT: Record<Locale, Record<string, string>> = {
+  en: en as Record<string, string>,
+  es: es as Record<string, string>,
+  pt: pt as Record<string, string>,
+}
+function tx(loc: Locale, key: string, fb: string): string {
+  const v = DICT[loc]?.[key] ?? DICT.en[key]
+  return typeof v === 'string' && v.length > 0 ? v : fb
+}
 
 interface DestItem { slug: string; label: string; count: number; region: string; country: string }
 interface ExpItem  { slug: string; label: string; icon: string; sub: string }
@@ -8,6 +22,7 @@ interface ExpItem  { slug: string; label: string; icon: string; sub: string }
 interface HeaderNavProps {
   destinations: DestItem[]
   experiences: ExpItem[]
+  locale?: Locale
 }
 
 const REGION_ORDER = [
@@ -23,9 +38,10 @@ const REGION_ORDER = [
   'North America',
 ]
 
-export default function HeaderNav({ destinations, experiences }: HeaderNavProps) {
+export default function HeaderNav({ destinations, experiences, locale = 'en' }: HeaderNavProps) {
   const [open, setOpen] = useState<null | 'dest' | 'exp'>(null)
   const ref = useRef<HTMLDivElement>(null)
+  const lp = (p: string) => (locale === 'en' ? p : `/${locale}${p}`)
 
   useEffect(() => {
     const onDocClick = (e: MouseEvent) => {
@@ -61,7 +77,7 @@ export default function HeaderNav({ destinations, experiences }: HeaderNavProps)
         onClick={() => setOpen(open === 'dest' ? null : 'dest')}
         className={`${triggerClass} ${open === 'dest' ? activeClass : ''}`}
       >
-        Destinations
+        {tx(locale, 'nav.destinations', 'Destinations')}
         <svg className={`w-3 h-3 transition-transform ${open === 'dest' ? 'rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
           <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
         </svg>
@@ -72,15 +88,15 @@ export default function HeaderNav({ destinations, experiences }: HeaderNavProps)
         onClick={() => setOpen(open === 'exp' ? null : 'exp')}
         className={`${triggerClass} ${open === 'exp' ? activeClass : ''}`}
       >
-        Categories
+        {tx(locale, 'nav.categories', 'Categories')}
         <svg className={`w-3 h-3 transition-transform ${open === 'exp' ? 'rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
           <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
         </svg>
       </button>
 
-      <Link href="/compare" className="hover:text-zinc-900 transition-colors">Compare</Link>
-      <Link href="/quiz" className="hover:text-zinc-900 transition-colors">Quiz</Link>
-      <Link href="/about" className="hover:text-zinc-900 transition-colors">About</Link>
+      <Link href={lp('/compare')} className="hover:text-zinc-900 transition-colors">{tx(locale, 'nav.compare', 'Compare')}</Link>
+      <Link href={lp('/quiz')} className="hover:text-zinc-900 transition-colors">{tx(locale, 'nav.quiz', 'Quiz')}</Link>
+      <Link href={lp('/about')} className="hover:text-zinc-900 transition-colors">{tx(locale, 'nav.about', 'About')}</Link>
 
       {/* Destinations mega dropdown — grouped by Region → Country → Destinations */}
       {open === 'dest' && (
@@ -107,7 +123,7 @@ export default function HeaderNav({ destinations, experiences }: HeaderNavProps)
                         return (
                           <Link
                             key={d.slug}
-                            href={`/destinations/${d.slug}`}
+                            href={lp(`/destinations/${d.slug}`)}
                             onClick={() => setOpen(null)}
                             className="group flex items-center justify-between py-0.5 text-[13px] text-zinc-700 hover:text-rose-500 transition-colors"
                           >
@@ -128,7 +144,7 @@ export default function HeaderNav({ destinations, experiences }: HeaderNavProps)
                             {dests.map(d => (
                               <li key={d.slug}>
                                 <Link
-                                  href={`/destinations/${d.slug}`}
+                                  href={lp(`/destinations/${d.slug}`)}
                                   onClick={() => setOpen(null)}
                                   className="group flex items-center justify-between py-1 text-[12px] text-zinc-600 hover:text-rose-500 transition-colors"
                                 >
@@ -148,10 +164,10 @@ export default function HeaderNav({ destinations, experiences }: HeaderNavProps)
           </div>
           <div className="mt-6 pt-5 border-t border-zinc-100 flex items-center justify-between">
             <span className="text-zinc-400 text-xs">
-              {destinations.length} destinations · {destinations.reduce((s, d) => s + d.count, 0)} hotels
+              {tx(locale, 'nav.destinationsHotelsCount', '{destinations} destinations · {hotels} hotels').replace('{destinations}', String(destinations.length)).replace('{hotels}', String(destinations.reduce((s, d) => s + d.count, 0)))}
             </span>
-            <Link href="/quiz" onClick={() => setOpen(null)} className="text-rose-500 text-sm font-medium hover:underline">
-              Not sure? Take the quiz →
+            <Link href={lp('/quiz')} onClick={() => setOpen(null)} className="text-rose-500 text-sm font-medium hover:underline">
+              {tx(locale, 'nav.notSureTakeQuiz', 'Not sure? Take the quiz →')}
             </Link>
           </div>
         </div>
@@ -164,7 +180,7 @@ export default function HeaderNav({ destinations, experiences }: HeaderNavProps)
             {experiences.map(e => (
               <Link
                 key={e.slug}
-                href={`/experiences/${e.slug}`}
+                href={lp(`/experiences/${e.slug}`)}
                 onClick={() => setOpen(null)}
                 className="group flex gap-3 items-start p-3 rounded-xl hover:bg-rose-50 transition-colors"
               >
@@ -177,9 +193,9 @@ export default function HeaderNav({ destinations, experiences }: HeaderNavProps)
             ))}
           </div>
           <div className="mt-5 pt-4 border-t border-zinc-100 flex items-center justify-between">
-            <span className="text-zinc-400 text-xs">Every style of honeymoon, scored</span>
-            <Link href="/quiz" onClick={() => setOpen(null)} className="text-rose-500 text-sm font-medium hover:underline">
-              Take the 60-second quiz →
+            <span className="text-zinc-400 text-xs">{tx(locale, 'nav.everyStyleScored', 'Every style of honeymoon, scored')}</span>
+            <Link href={lp('/quiz')} onClick={() => setOpen(null)} className="text-rose-500 text-sm font-medium hover:underline">
+              {tx(locale, 'nav.take60SecondQuiz', 'Take the 60-second quiz →')}
             </Link>
           </div>
         </div>

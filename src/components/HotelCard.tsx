@@ -3,6 +3,20 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
 import { Hotel } from '../../types/hotel'
+import type { Locale } from '@/i18n/locales'
+import en from '@/i18n/messages/en.json'
+import es from '@/i18n/messages/es.json'
+import pt from '@/i18n/messages/pt.json'
+
+const DICT: Record<Locale, Record<string, string>> = {
+  en: en as Record<string, string>,
+  es: es as Record<string, string>,
+  pt: pt as Record<string, string>,
+}
+function tx(loc: Locale, key: string, fallback: string): string {
+  const v = DICT[loc]?.[key] ?? DICT.en[key]
+  return typeof v === 'string' && v.length > 0 ? v : fallback
+}
 
 // Destination → curated Unsplash fallback (landscape, honeymoon-appropriate)
 const DEST_FALLBACK: Record<string, string> = {
@@ -67,15 +81,17 @@ const DEFAULT_FALLBACK = 'https://images.unsplash.com/photo-1571003123894-1f0594
 
 interface HotelCardProps {
   hotel: Hotel
+  locale?: Locale
 }
 
-export default function HotelCard({ hotel }: HotelCardProps) {
+export default function HotelCard({ hotel, locale = 'en' }: HotelCardProps) {
   const heroPhoto = hotel.photos.find(p => p.type === 'hero') || hotel.photos[0]
   const fallbackSrc = DEST_FALLBACK[hotel.destination] ?? DEFAULT_FALLBACK
   const [imgSrc, setImgSrc] = useState(heroPhoto?.url ?? fallbackSrc)
+  const href = locale === 'en' ? `/hotels/${hotel.slug}` : `/${locale}/hotels/${hotel.slug}`
 
   return (
-    <Link href={`/hotels/${hotel.slug}`} className="group block">
+    <Link href={href} className="group block">
       {/* Photo */}
       <div className="relative aspect-[3/2] overflow-hidden rounded-2xl bg-zinc-100 mb-4">
         {heroPhoto ? (
@@ -102,7 +118,7 @@ export default function HotelCard({ hotel }: HotelCardProps) {
         {/* Adults-only pill — top left, only if true */}
         {hotel.adults_only && (
           <div className="absolute top-3 left-3 bg-black/50 backdrop-blur-sm text-white text-[11px] font-medium px-2.5 py-1.5 rounded-xl">
-            Adults-Only
+            {tx(locale, 'card.adultsOnly', 'Adults-Only')}
           </div>
         )}
       </div>
@@ -121,9 +137,9 @@ export default function HotelCard({ hotel }: HotelCardProps) {
 
         <div className="flex items-center justify-between">
           <div>
-            <span className="text-zinc-400 text-xs">from </span>
+            <span className="text-zinc-400 text-xs">{tx(locale, 'card.from', 'from')} </span>
             <span className="font-semibold text-zinc-900">${hotel.price_per_night_usd.min.toLocaleString()}</span>
-            <span className="text-zinc-400 text-xs">/night</span>
+            <span className="text-zinc-400 text-xs">{tx(locale, 'card.perNight', '/night')}</span>
           </div>
           <div className="flex gap-1.5">
             {hotel.experience_types.slice(0, 2).map(exp => (

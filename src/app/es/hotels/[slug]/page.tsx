@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import { getAllHotels } from '@/lib/hotels'
-import { renderHotelPage, buildHotelMetadata } from './renderHotel'
+import { renderHotelPage, buildHotelMetadata } from '../../../hotels/[slug]/renderHotel'
 
 interface Props { params: Promise<{ slug: string }> }
 
@@ -10,10 +10,10 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params
-  return buildHotelMetadata(slug, 'en')
+  return buildHotelMetadata(slug, 'es')
 }
 
-export default async function HotelPage({ params }: Props) {
+export default async function HotelPageES({ params }: Props) {
   const { slug } = await params
-  return renderHotelPage(slug, 'en')
+  return renderHotelPage(slug, 'es')
 }

@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
-import { getAllComparisonSlugs } from '../../../../data/comparisons'
-import { renderComparisonPage, buildComparisonMetadata } from './renderComparison'
+import { getAllComparisonSlugs } from '../../../../../data/comparisons'
+import { renderComparisonPage, buildComparisonMetadata } from '../../../compare/[slug]/renderComparison'
 
 interface Props { params: Promise<{ slug: string }> }
 
@@ -10,10 +10,10 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params
-  return buildComparisonMetadata(slug, 'en')
+  return buildComparisonMetadata(slug, 'es')
 }
 
-export default async function ComparisonPage({ params }: Props) {
+export default async function ComparisonPageES({ params }: Props) {
   const { slug } = await params
-  return renderComparisonPage(slug, 'en')
+  return renderComparisonPage(slug, 'es')
 }
