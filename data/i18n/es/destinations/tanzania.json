@@ -1,0 +1,152 @@
+{
+  "tagline": "La Gran Migración, el Kilimanjaro y los paisajes de safari más espectaculares del mundo.",
+  "intro": "Tanzania es el lugar donde la palabra «safari» alcanza su pleno sentido. El Serengeti acoge el mayor espectáculo de vida salvaje del planeta: más de 1,5 millones de ñus siguiendo las lluvias en un circuito anual que produce cruces de río tan dramáticos que se filman para series documentales. El cráter de Ngorongoro reúne la mayor densidad de depredadores de África en una sola caldera ancestral. Y, tras días en el monte, la pétrea Stone Town de Zanzíbar, perfumada de especias, y las turquesas aguas de arrecife ofrecen el contraste perfecto del Índico. Tanzania es la luna de miel completa de África Oriental.",
+  "bestTime": "Jul–Oct (cruces de río de la migración) y Ene–Mar (estación de partos)",
+  "flightFrom": "9-11h desde Europa",
+  "topExperience": "Safari de la Gran Migración",
+  "perfectFor": [
+    "Parejas que desean el mayor espectáculo de fauna del mundo: nada iguala a la Migración",
+    "Quienes quieren combinar bush y playa en un mismo viaje (Serengeti → Zanzíbar)",
+    "Obsesionados con los grandes felinos: Tanzania tiene la mayor densidad africana de leones y leopardos",
+    "Parejas aventureras que se planteen ascender al Kilimanjaro",
+    "Aficionados a la fotografía: la luz del Serengeti al alba es extraordinaria"
+  ],
+  "skipIf": [
+    "Quiere una escapada corta de proximidad: Tanzania exige un viaje considerable",
+    "Su presupuesto es muy limitado: los campamentos de calidad en el Serengeti parten de 800 USD/noche por persona en TI",
+    "Viaja en abril o mayo: las lluvias largas dejan algunos campamentos inaccesibles",
+    "La cultura urbana y los restaurantes son esenciales: el Serengeti ofrece naturaleza, no vida de ciudad"
+  ],
+  "experiences": [
+    {
+      "icon": "🐃",
+      "title": "Cruce del río Mara",
+      "description": "El acto central de la Gran Migración: cientos de miles de ñus zambulléndose en el río Mara, atravesando cocodrilos, leones y caos. Una de las cosas más viscerales y extraordinarias que se pueden presenciar.",
+      "cost": "Incluido en las tarifas de campamento del Serengeti (800-2.500 USD/noche pp)",
+      "tip": "La posición importa: pida a su campamento que le ubique en un punto de cruce conocido. En temporada alta (julio-octubre) se producen 1-2 cruces diarios, pero son impredecibles. La paciencia lo es todo."
+    },
+    {
+      "icon": "🦁",
+      "title": "Recorrido por el suelo del cráter de Ngorongoro",
+      "description": "Descienda 600 m a la mayor caldera volcánica intacta del mundo durante 6 horas, rodeado de 30.000 animales. Leones de melena negra de Ngorongoro, machos de elefante, hipopótamos y, a menudo, rinocerontes en un solo día.",
+      "cost": "Incluido en las tarifas del lodge del cráter; visita diurna ≈300 USD/p tasa de cráter",
+      "tip": "Alójese en &Beyond Ngorongoro Crater Lodge: las vistas más espectaculares de África desde una suite construida directamente en el borde del cráter."
+    },
+    {
+      "icon": "🎈",
+      "title": "Globo aerostático sobre el Serengeti",
+      "description": "Una hora al amanecer flotando sobre la pradera dorada al alba, con manadas en movimiento abajo y siluetas de acacias. Aterrizaje y desayuno con champán en el monte. Una de las experiencias más románticas de África.",
+      "cost": "600-800 USD por persona",
+      "tip": "Reserve directamente a través del lodge antes de llegar: las plazas se agotan rápido en temporada alta. Ver salir el sol sobre el paisaje de los Kopjes mientras flotan sobre una manada de leones es inolvidable."
+    },
+    {
+      "icon": "🏖️",
+      "title": "Tour de las especias y playa de Zanzíbar",
+      "description": "La Stone Town de Zanzíbar es un dédalo Patrimonio de la Humanidad de la UNESCO de puertas talladas, mercados de especias y arquitectura árabe. Las playas de Nungwi, en el norte, y Paje, en el este, son tan bellas como cualquiera del Índico.",
+      "cost": "Tour de especias 30-50 USD/p; resort de playa desde 150-800 USD/noche",
+      "tip": "Vuele directo del Serengeti a Zanzíbar (1,5 h vía Dar es-Salam o directo con Coastal Aviation). 3 noches en Stone Town más 4 en la costa son lo ideal."
+    },
+    {
+      "icon": "🌅",
+      "title": "Sundowner en los Kopjes",
+      "description": "Los afloramientos graníticos del Serengeti central son territorio de leones al alba y al ocaso. Su guía estaciona entre las rocas al atardecer con gin-tonics mientras el cielo se torna ámbar y los leones rugen abajo.",
+      "cost": "Incluido en todos los campamentos del Serengeti",
+      "tip": "Pida específicamente un sundowner en kopje al llegar al campamento. La hora con respecto al ocaso varía según la temporada: un buen ranger lo planifica en función de la luz."
+    }
+  ],
+  "months": [
+    { "month": "Jan", "weather": "Seco, cálido, comienzan los partos", "emoji": "🐃", "crowds": "Baja-mod.", "price": "Medio", "verdict": "Excelente para crías recién nacidas y depredadores" },
+    { "month": "Feb", "weather": "Seco, cálido, pico de partos, gran actividad de depredadores", "emoji": "🦁", "crowds": "Moderada", "price": "Medio-alto", "verdict": "Pico de partos: la acción depredadora más dramática" },
+    { "month": "Mar", "weather": "Comienzan las lluvias cortas, verde, frondoso", "emoji": "🌿", "crowds": "Baja", "price": "Bajo-medio", "verdict": "Buenas tarifas, paisaje verde, algo de lluvia" },
+    { "month": "Apr", "weather": "Lluvias largas, algunos lodges cierran", "emoji": "🌧", "crowds": "Baja", "price": "Mínimo", "verdict": "Evítelo: el acceso puede complicarse" },
+    { "month": "May", "weather": "Acaban las lluvias largas, verde y frondoso", "emoji": "🌧", "crowds": "Baja", "price": "Bajo", "verdict": "Buena relación calidad-precio, mejorando a fin de mes" },
+    { "month": "Jun", "weather": "Empieza la estación seca, manadas hacia el norte", "emoji": "🌤", "crowds": "Moderada", "price": "Medio-alto", "verdict": "Migración en marcha, fauna excelente" },
+    { "month": "Jul", "weather": "Seco, comienzan los cruces de río, temporada alta", "emoji": "🐃", "crowds": "Alta", "price": "Alto", "verdict": "Cruces de río: el clímax de la Migración" },
+    { "month": "Aug", "weather": "Seco, pico de cruces, mejor mes", "emoji": "🐃", "crowds": "Máxima", "price": "Máximo", "verdict": "Lo mejor de la Gran Migración" },
+    { "month": "Sep", "weather": "Seco, continúan los cruces, excelente", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Excelente: cruces y menos gente" },
+    { "month": "Oct", "weather": "Seco, manadas iniciando descenso al sur", "emoji": "🌤", "crowds": "Moderada", "price": "Medio", "verdict": "Buena fauna, excelente valor" },
+    { "month": "Nov", "weather": "Lluvias cortas, paisaje verde y frondoso", "emoji": "🌦", "crowds": "Baja", "price": "Bajo-medio", "verdict": "Estación verde: bella y tranquila" },
+    { "month": "Dec", "weather": "Acaban las lluvias cortas, manadas en el sur", "emoji": "⛅", "crowds": "Moderada", "price": "Medio-alto", "verdict": "Festividades: las manadas llegan al sur del Serengeti" }
+  ],
+  "budgetTiers": [
+    {
+      "label": "Campamentos en tiendas",
+      "range": "400-800 USD/noche por persona, todo incluido",
+      "gets": "Experiencia clásica de safari bajo lona. Dos safaris diarios, pensión completa, excelente guiado. La aventura auténtica de África Oriental.",
+      "example": "Serengeti Pioneer Camp, Ikoma Bush Camp, Lemala Ngorongoro"
+    },
+    {
+      "label": "Campamentos premium",
+      "range": "800-1.500 USD/noche por persona, todo incluido",
+      "gets": "Tiendas privadas con baño y agua caliente, alta cocina, vehículo privado disponible. El equilibrio entre calidad y precio.",
+      "example": "&Beyond Serengeti Under Canvas, Singita Sabora, One Nature Nyaruswiga"
+    },
+    {
+      "label": "Ultra-lujo",
+      "range": "1.500-3.000+ USD/noche por persona, todo incluido",
+      "gets": "Mayordomo privado, piscina privada, vehículo privado de serie. Ngorongoro Crater Lodge, el alojamiento más teatral de África.",
+      "example": "&Beyond Ngorongoro Crater Lodge, Singita Mara River Tented Camp, Four Seasons Serengeti"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Serengeti",
+      "bestFor": "Gran Migración, Cinco Grandes, llanuras abiertas",
+      "description": "La reserva más famosa del mundo. Alójese en la región norte de Mara (julio-octubre) para los cruces, o en el central de Seronera todo el año para los Cinco Grandes residentes. Volar entre regiones en avioneta forma parte de la experiencia."
+    },
+    {
+      "name": "Ngorongoro",
+      "bestFor": "Cráter, mayor densidad de depredadores, Cinco Grandes todo el año",
+      "description": "El suelo de la caldera es uno de los lugares con más densidad de fauna del planeta, sobre todo de leones, rinocerontes negros y hienas. Combínelo siempre con el Serengeti: están a 3 horas en coche."
+    },
+    {
+      "name": "Zanzíbar",
+      "bestFor": "Extensión de playa, Índico, cultura",
+      "description": "El contraste perfecto tras el safari. Stone Town 2 noches, costa norte o este 3-4 noches. Snorkel en el arrecife, paseos en dhow y mercados nocturnos perfumados de especias."
+    },
+    {
+      "name": "Ruaha",
+      "bestFor": "Remoto, fuera de circuito, leones",
+      "description": "El segundo parque más grande de Tanzania y su mejor secreto. Enormes manadas de leones, pocos turistas y paisajes extraordinarios de baobabs. Vuelo desde Dar es-Salam (1 h)."
+    },
+    {
+      "name": "Selous / Nyerere",
+      "bestFor": "Circuito sur, safaris en barco, caminatas",
+      "description": "La mayor reserva de caza de África en superficie. Famosa por los safaris a pie y los safaris en barco por el río Rufiji. Experiencia totalmente distinta al norte: más aventurera e íntima."
+    }
+  ],
+  "expertTips": [
+    {
+      "tip": "Posicione su campamento siguiendo a la Migración",
+      "detail": "Los ñus nunca están en un mismo lugar. Enero-marzo paren en el sur del Serengeti; junio-julio se desplazan al norte; julio-octubre cruzan el río Mara. Reserve campamentos que se mueven con las manadas o planifique un calendario de fly-in."
+    },
+    {
+      "tip": "Reserve el globo con al menos 3 meses de antelación",
+      "detail": "Solo un puñado de globos vuela diariamente sobre el Serengeti y están estrictamente limitados. Las plazas de julio a octubre se llenan con muchos meses de antelación."
+    },
+    {
+      "tip": "Vuele entre parques: las carreteras son largas y duras",
+      "detail": "Los vuelos chárter domésticos (Coastal Aviation, Air Excel) entre las pistas del Serengeti y Zanzíbar cuestan 200-400 USD/p por trayecto. Ahorran 8 horas de carretera y forman parte de la aventura."
+    },
+    {
+      "tip": "La profilaxis antimalárica no es negociable",
+      "detail": "Tanzania es zona de malaria. Inicie la profilaxis antes de partir, use DEET al alba y al ocaso y duerma bajo mosquitera. Malarone es la opción más cómoda."
+    }
+  ],
+  "packing": [
+    { "item": "Ropa de safari en tonos neutros (caqui u oliva)", "why": "Esencial para safaris en vehículo abierto. Evite el blanco (se mancha de polvo) y los colores vivos (alteran a la fauna)." },
+    { "item": "Forro polar para los safaris al amanecer", "why": "Incluso en julio-agosto, el Serengeti al alba en vehículo abierto puede sorprender por el frío. Un polar o pluma ligera es esencial." },
+    { "item": "Repelente DEET 50%+", "why": "La prevención de la malaria al alba y al ocaso es crítica. Úselo junto con la profilaxis: no confíe en uno solo." },
+    { "item": "Prismáticos (8x42 recomendados)", "why": "Las llanuras del Serengeti son inmensas. Permiten ver muertes lejanas, guepardos en kopjes y aves que su ranger señale." },
+    { "item": "Ropa de playa para Zanzíbar", "why": "La transición del bush a la playa es brusca y deliciosa. Lleve una bolsa pequeña aparte con lo esencial de playa para dejar en el hotel de Zanzíbar." }
+  ],
+  "guide": {
+    "getting": "Vuele al Aeropuerto Internacional de Kilimanjaro (JRO) o al Julius Nyerere de Dar es-Salam (DAR). Desde Europa: directos desde Ámsterdam (KLM, 9h), Londres (varios, 9-10h), París, Fráncfort. Desde JRO: traslado por carretera o vuelo chárter al Serengeti (1,5 h). Desde DAR: vuelo chárter a Selous/Ruaha. Zanzíbar tiene su propio aeropuerto internacional (ZNZ): vuele directo desde Europa vía Nairobi o conecte desde DAR.",
+    "where": "Circuito clásico del norte: Ngorongoro (2 noches) + Serengeti (3-4 noches repartidas en 2 campamentos) + Zanzíbar (4 noches). Alternativa de circuito sur: Nyerere/Selous + Ruaha para menos gente. Para la Migración específicamente: campamentos en el norte del Serengeti cerca del río Mara, julio-octubre.",
+    "when": "Julio-octubre es el pico de la Migración: los cruces de río están en pleno apogeo. Enero-marzo es infravalorado y más asequible: la estación de partos produce interacciones depredador-presa extraordinarias en el sur del Serengeti. Evite abril-mayo (lluvias largas). La estación verde (noviembre-mayo, salvo lluvias) ofrece belleza genuina y tarifas reducidas."
+  },
+  "localFood": "Nyama choma (cabra o ternera a la brasa estilo suajili, servida con ugali y verduras sukuma wiki: el plato nacional al fuego), pilau de Zanzíbar (arroz especiado con carne, cocinado en olla de barro con cardamomo y canela), urojo (mezcla callejera zanzibarí: sopa de lentejas con yuca y huevo duro), pargo rojo recién hecho a la parrilla en el mercado nocturno de Zanzíbar y una cerveza Kilimanjaro al ocaso tras un día de safari. El tour de las especias en Zanzíbar muestra el origen de la vainilla, el clavo, la pimienta negra y la nuez moscada, que aún crecen en el interior de la isla.",
+  "currency": "Tanzanian Shilling (TZS) — safari camps and lodges quote USD",
+  "language": "Suajili e inglés. El inglés se habla ampliamente en todos los contextos turísticos.",
+  "timezone": "UTC+3 (East Africa Time)"
+}

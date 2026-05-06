@@ -1,0 +1,74 @@
+{
+  "tagline": "Tango en Buenos Aires, glaciares en la Patagonia y viñedos al pie de los Andes: la luna de miel más variada de Sudamérica.",
+  "intro": "Argentina es la luna de miel que ofrece tres viajes distintos en un solo país. Comience en Buenos Aires, la ciudad de habla hispana más bella del mundo: una combinación de la arquitectura de París, la pasión de Roma y la energía nocturna en bruto del tango, alojándose en Recoleta en el Park Hyatt Palacio Duhau o en el Alvear Palace. Vuele dos horas al oeste hasta Mendoza y el Valle de Uco, donde su villa privada en Cavas Wine Lodge o Vines Resort se sitúa entre viñedos de Malbec y los Andes nevados. Después, hacia el sur, a la Patagonia: los glaciares de El Calafate, las agujas de granito de El Chaltén y los lagos alpinos de Bariloche, para el arco de aventura de la luna de miel. El tipo de cambio sigue siendo ventajoso para el viajero internacional; los hoteles cotizan en USD y, a este nivel, el servicio resulta una verdadera ganga frente a los estándares europeos o caribeños.",
+  "bestTime": "Nov-Mar (Patagonia) y Oct-Dic (vendimia en Mendoza)",
+  "flightFrom": "12-14h desde Europa",
+  "topExperience": "Vino y naturaleza salvaje",
+  "perfectFor": [
+    "Parejas aventureras que quieren hacer trekking, ver glaciares y catar vinos en una sola luna de miel",
+    "Amantes del vino: Mendoza es la cuarta región vinícola del mundo y una de las mejores en relación calidad-precio",
+    "Viajeros con prioridad cultural: Buenos Aires es la París del Sur",
+    "Románticos de larga distancia que buscan auténtico aislamiento patagónico sin precios de safari",
+    "Lunas de miel obsesionadas con la gastronomía: la carne argentina, Francis Mallmann y la deslumbrante escena culinaria porteña"
+  ],
+  "skipIf": [
+    "Necesita una luna de miel de playa: Argentina las tiene, pero son de aguas frías atlánticas",
+    "Solo dispone de 7 días: 10-14 noches mínimo para hacer justicia a BA + Mendoza + Patagonia",
+    "Viaja en junio-agosto: el invierno patagónico cierra la mayoría de lodges; BA frío y gris",
+    "No se siente cómodo con vuelos internos largos (BA a El Calafate son 3h30)"
+  ],
+  "experiences": [
+    { "icon": "🥩", "title": "Cena de milonga en El Mercado del Faena", "description": "El Mercado, en el Faena, no es solo un restaurante: es teatro. Parrilla a fuego abierto en el centro de la sala, una carta de vinos argentinos de 40 páginas y un espectáculo de tango nocturno en el Rojo Tango contiguo. La cena definitiva en Buenos Aires para una luna de miel.", "cost": "$120-200/pareja en El Mercado; cena-espectáculo Rojo Tango $380/pareja", "tip": "Reserve Rojo Tango para un viernes o sábado a las 20:30h con el paquete de cena. Siéntese en primera o segunda fila: los bailarines pasan a centímetros." },
+    { "icon": "🍇", "title": "Almuerzo en bodega del Valle de Uco en Vines", "description": "El Valle de Uco es la frontera vinícola premium de Mendoza, en altura (1.100 m). El restaurante Siete Fuegos de Vines Resort, diseñado por Francis Mallmann, es una cocina al aire libre de siete fuegos que produce la carne argentina más teatral del mundo. El menú degustación con paseo por el viñedo es la tarde definitiva del Uco.", "cost": "Almuerzo con maridaje $180-260/pareja", "tip": "Vaya a la sentada de las 13h para tener toda la luz de los Andes. Solicite una visita al viñedo antes del almuerzo (gratis para huéspedes de Vines, ~$50 para visitantes)." },
+    { "icon": "🧊", "title": "Caminata sobre el glaciar Perito Moreno", "description": "Uno de los pocos glaciares en avance del planeta: 5 km de ancho, 70 m de alto, desprendiendo hielo sobre el lago Argentino con grietas que suenan a cañonazos. Una caminata de 90 minutos sobre el hielo con crampones (\"minitrekking\") es el día estrella en El Calafate.", "cost": "Minitrekking $120/persona; \"Big Ice\" de 4h $220/persona", "tip": "Eolo Lodge está a 45 min del parque: ofrecen vehículo privado con guía, evitando la experiencia del autobús turístico. Reserve el Big Ice si está en forma." },
+    { "icon": "⛰️", "title": "Caminata a la Laguna de los Tres, Fitz Roy", "description": "El Monte Fitz Roy (el logo de la marca Patagonia) se alza 3.405 m sobre El Chaltén. La caminata de día a la Laguna de los Tres (22 km ida y vuelta) termina en una laguna glaciar al pie de las agujas de granito. Uno de los grandes días patagónicos.", "cost": "Gratis; opciones guiadas $150/pareja", "tip": "Los guías de Explora Patagonia hacen esta caminata con el clásico enfoque de \"falsa cumbre al amanecer\": atrapar la primera luz a las 6h sobre el Fitz Roy es la foto definitiva de luna de miel." },
+    { "icon": "🎭", "title": "Visita privada al Teatro Colón", "description": "El Teatro Colón de Buenos Aires figura sistemáticamente entre los tres mejores teatros de ópera del mundo: acústica comparable a La Scala, grandeza Belle Époque y un escenario visitable. Un tour privado entre bambalinas a las 11h es una hermosa actividad de tarde sin cena.", "cost": "Visita privada guiada $45/persona; entradas de ópera por la noche $50-400", "tip": "Si visita en marzo-noviembre (temporada), intente asistir a una función. Los Palcos Balcón ofrecen los ángulos más románticos y son sorprendentemente asequibles." }
+  ],
+  "months": [
+    { "month": "Jan", "weather": "BA caluroso 30°C, Patagonia perfecta 18°C", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Pico patagónico: reserve con 6 meses" },
+    { "month": "Feb", "weather": "BA caluroso, Patagonia cálida", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Patagonia excelente, BA vacía (vacaciones)" },
+    { "month": "Mar", "weather": "BA suavizándose 25°C, comienza el otoño", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "El mejor mes en general" },
+    { "month": "Apr", "weather": "BA templada, vendimia en Mendoza", "emoji": "🍇", "crowds": "Moderada", "price": "Medio", "verdict": "Pico de Mendoza: energía de vendimia" },
+    { "month": "May", "weather": "BA fresca, Patagonia cerrando", "emoji": "🍂", "crowds": "Baja", "price": "Bajo", "verdict": "Los lodges patagónicos empiezan a cerrar; BA gran valor" },
+    { "month": "Jun", "weather": "BA frío/gris, invierno patagónico", "emoji": "❄️", "crowds": "Cerrado", "price": "Bajo", "verdict": "Evitar Patagonia; solo esquí en Bariloche" },
+    { "month": "Jul", "weather": "BA frío 10°C, temporada de esquí en Bariloche", "emoji": "❄️", "crowds": "Moderada", "price": "Medio", "verdict": "Solo lunas de miel de esquí; la mayoría de hoteles cerrados" },
+    { "month": "Aug", "weather": "Similar a julio", "emoji": "❄️", "crowds": "Moderada", "price": "Medio", "verdict": "Frío en todo el país: solo enfocado al esquí" },
+    { "month": "Sep", "weather": "BA suavizándose, comienza la primavera", "emoji": "🌸", "crowds": "Baja", "price": "Bajo", "verdict": "Mes tranquilo: BA con excelente valor" },
+    { "month": "Oct", "weather": "Pico primaveral en Mendoza", "emoji": "☀️", "crowds": "Moderada", "price": "Medio", "verdict": "Valle de Uco espectacular: viñas en flor" },
+    { "month": "Nov", "weather": "Patagonia reabre, BA cálida", "emoji": "☀️", "crowds": "Moderada", "price": "Medio", "verdict": "Ventana de valor de temporada media: muy recomendable" },
+    { "month": "Dec", "weather": "BA caluroso, pico patagónico", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Empieza el pico patagónico; evite la semana de Navidad en BA" }
+  ],
+  "budgetTiers": [
+    { "label": "Upscale", "range": "$300-600/noche", "gets": "Excelentes 5★ en Buenos Aires; gama media-alta en Mendoza; gama media en la Patagonia.", "example": "Alvear Palace, Faena, Cavas Wine Lodge, Llao Llao Resort Bariloche" },
+    { "label": "Premium", "range": "$600-1,500/noche", "gets": "Palacios emblemáticos en BA, las mejores villas de Mendoza y lodges patagónicos premium.", "example": "Palacio Duhau Park Hyatt, Vines Resort & Spa, Explora Patagonia" },
+    { "label": "Ultra-lujo / Patagonia", "range": "$1,200-4,500/noche", "gets": "Estancias Relais & Châteaux, guiado privado en Patagonia y pensión completa de ultra-lujo.", "example": "Eolo Lodge Patagonia, Explora Patagonia El Chaltén, Cavas Wine Lodge (pensión completa)" }
+  ],
+  "areas": [
+    { "name": "Buenos Aires — Recoleta y Puerto Madero", "bestFor": "Cultura urbana, gastronomía, tango", "description": "Recoleta es la París aristocrática del Plata (Alvear, Palacio Duhau); Puerto Madero es la zona de docks moderna (Faena). 3 noches es la base." },
+    { "name": "Mendoza / Luján de Cuyo", "bestFor": "Vino, Andes, villa privada", "description": "El corazón del Malbec argentino. Luján de Cuyo es la subregión clásica más cercana a la ciudad de Mendoza, con la logística más fácil. Cavas Wine Lodge, Entre Cielos. 3-4 noches." },
+    { "name": "Valle de Uco", "bestFor": "Vino de altura, lujo remoto", "description": "1h30 al sur de Mendoza, en los pies de monte andinos a 1.100 m. Más exclusivo, más remoto, más arquitectónico. Vines, The Vines, El Manzano. 3 noches." },
+    { "name": "Patagonia — El Calafate", "bestFor": "Glaciar Perito Moreno, lujo de estancia", "description": "Puerta al Parque Nacional Los Glaciares. A 3h30 de vuelo desde Buenos Aires. Eolo Lodge es la estancia que lo define. 3-4 noches." },
+    { "name": "Patagonia — El Chaltén y Bariloche", "bestFor": "Trekking en el Fitz Roy, lagos alpinos", "description": "El Chaltén (base del Fitz Roy, Explora) es para senderistas; el distrito de los lagos Nahuel Huapi en Bariloche (Llao Llao) tiene aire de resort alpino con temporada más larga." }
+  ],
+  "expertTips": [
+    { "tip": "Pague en USD en efectivo siempre que sea posible", "detail": "La economía argentina funciona con dos tipos de cambio: el oficial y el \"blue\" (no oficial), normalmente un 40-60% más pesos por dólar. La mayoría de hoteles cotizan en USD. Lleve billetes nuevos de $100 en buen estado para gastos personales; cambie en cuevas legítimas (no en cambistas callejeros). El tipo \"MEP\" para tarjeta de crédito ha mejorado y también es utilizable." },
+    { "tip": "Los vuelos internos son esenciales: reserve Aerolíneas Argentinas con antelación", "detail": "BA a El Calafate son 3h30, a Mendoza 1h45, a Bariloche 2h15. Los vuelos suelen agotarse en el pico de enero-febrero. Reserve en aerolineas.com.ar en cuanto tenga las fechas. Los cambios de horario son frecuentes; llegue siempre el día anterior al siguiente vuelo." },
+    { "tip": "Cenar a las 21h es temprano", "detail": "La cena argentina va de 21:30 a medianoche. Reservar a las 20h le marca como turista y muchos restaurantes ni siquiera están abiertos. Ajuste el ritmo: café + media tarde a las 17h, cena a las 21:30, a la cama a la 1h." },
+    { "tip": "Reserve Rojo Tango (Faena) para el espectáculo de tango definitivo", "detail": "Olvídese de las opciones turísticas como La Ventana o Esquina Carlos Gardel. Rojo Tango se celebra en el exquisito Piano Nobile del Faena: pequeño, íntimo, regado en champán y con un nivel de baile internacional. $380/pareja con cena." },
+    { "tip": "Patagonia: 4 noches mínimo, 6 es el punto óptimo", "detail": "El clima patagónico es indómito: cualquier día puede traer las cuatro estaciones. Con solo 2 noches en un lodge, su \"día de glaciar\" puede ser un sin-vista batido por el viento. 4 noches en Eolo + 2 en Explora Chaltén dan margen para el clima y aseguran 2-3 días sobresalientes de actividad." }
+  ],
+  "packing": [
+    { "item": "Vestuario nocturno apto para el tango", "why": "La cena y el tango porteños son elegantes: vestido bien cortado, zapatos elegantes, traje correcto. Piense en Madrid, no en Miami." },
+    { "item": "Botas de trekking adecuadas", "why": "Patagonia: caminatas al Fitz Roy, marcha con crampones en el Perito Moreno. Las zapatillas no bastan. Sujeción de tobillo obligatoria." },
+    { "item": "Chaqueta impermeable tipo shell", "why": "El clima patagónico cambia cada hora; la lluvia con viento es universal. Una shell Gore-Tex sobre capas base de merino es la fórmula." },
+    { "item": "Protector solar SPF 50+ y gafas polarizadas", "why": "El UV patagónico es extremo por el adelgazamiento del ozono y el reflejo de la nieve. Quemarse en 20 minutos es habitual." },
+    { "item": "Prismáticos compactos", "why": "Avistamiento de cóndores en la Patagonia, fauna en las estancias y aves en los viñedos de Mendoza. Un par ligero transforma cada día." }
+  ],
+  "guide": {
+    "getting": "Vuele a Buenos Aires Ezeiza (EZE): directos de 13h desde Londres con British Airways, 11h desde Madrid con Iberia, 10h30 desde Miami/NYC con American y Aerolíneas. Desde Australia, vía Santiago (SCL) con LATAM. Traslados domésticos desde Aeroparque Jorge Newbery (AEP): Mendoza 1h45, El Calafate 3h30, Bariloche 2h15. Calcule siempre 90+ minutos de conexión en AEP: las terminales son confusas.",
+    "where": "Luna de miel clásica de 12 noches: 4 noches Buenos Aires (Palacio Duhau o Alvear) → 3 noches Mendoza/Uco (Cavas o Vines) → 4 noches Patagonia (Eolo El Calafate) → 1 noche en BA para volar de regreso. Para 10 noches: 3/3/3/1. Para 14 noches: añada 3 noches en Bariloche entre Mendoza y El Calafate. La combinación de chófer privado más vuelos internos es la logística más limpia.",
+    "when": "De noviembre a marzo es la ventana patagónica: verano austral, lodges plenamente abiertos y mejores condiciones de trekking. De diciembre a febrero es la temporada alta (y la más cara). Octubre y noviembre ofrecen excelente valor con mejor disponibilidad. Mendoza es mejor de octubre a diciembre (floración primaveral) y de marzo a abril (vendimia). Buenos Aires es mejor de marzo a mayo (otoño) y de septiembre a noviembre (primavera). Evite junio-agosto salvo para esquiar en Bariloche."
+  },
+  "localFood": "Bife de chorizo y ojo de bife (lomo y entrecot a la parrilla, el patrón oro); provoleta (rueda de provolone a la parrilla); empanadas salteñas (de carne o queso); chimichurri; humita en chala (tamales de maíz); cordero patagónico (asado lento sobre cruz de hierro: al asador); dulce de leche con todo; alfajores (galletas rellenas de dulce de leche, Havanna es la marca de masas); medialunas (croissants argentinos) en cada café; un cortado con 3 azúcares a las 17h; Malbec mendocino en cada comida; la cocina al fuego abierto Siete Fuegos de Francis Mallmann es una revelación. La alta cocina porteña (Don Julio, Anchoíta, Mengano, Tegui) está al nivel mundial.",
+  "language": "Español (acento rioplatense, con el característico \"ll\" pronunciado \"sh\"). Inglés muy extendido en hoteles y restaurantes de alto nivel; menos en taxis y comercios pequeños."
+}

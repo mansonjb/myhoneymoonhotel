@@ -1,0 +1,156 @@
+{
+  "tagline": "De las bahías turquesa de Phuket a las palmeras de Koh Samui: el destino de playa y lujo definitivo del Sudeste Asiático.",
+  "intro": "Tailandia ha sido el destino de luna de miel de playa por excelencia de Asia durante treinta años, y se sigue reinventando en la cima. Phuket cuenta con hoteles de talla mundial que rivalizan con cualquier rincón del planeta (Amanpuri, Trisara, Sri Panwa), con la claridad del Mar de Andamán y calor durante todo el año. Koh Samui ofrece la quintaesencia de la villa de lujo entre palmeras. Koh Phangan y Koh Lanta proponen una alternativa más relajada y centrada en el bienestar. Y, más allá de las islas, Chiang Mai y Bangkok son dos de las ciudades más extraordinarias de Asia para parejas que quieran cultura junto a su tiempo de playa.",
+  "bestTime": "Nov–Abr",
+  "flightFrom": "11-13h desde Europa",
+  "topExperience": "Playa y wellness",
+  "perfectFor": [
+    "Parejas que buscan una excepcional relación calidad-precio: Tailandia ofrece lujo nivel Maldivas a una fracción del coste",
+    "Gastrónomos: la comida callejera y la alta cocina tailandesas son ambas de talla mundial",
+    "Buscadores de bienestar: el masaje tradicional tailandés y la cultura de spa de lujo no tienen rival",
+    "Parejas que quieren cultura junto a la playa (templos, mercados, elefantes en Chiang Mai)",
+    "Quienes desean variedad: múltiples islas, ciudades y paisajes en un mismo país"
+  ],
+  "skipIf": [
+    "Quiere una burbuja de resort puramente aislada: Tailandia tiene infraestructura turística importante",
+    "Viaja entre junio y octubre y quiere el lado de Andamán (Phuket, Krabi): es su temporada de lluvias",
+    "Necesita una cultura totalmente anglófona, sin barrera idiomática",
+    "Es sensible al calor y la humedad: pueden ser intensos en abril-mayo"
+  ],
+  "experiences": [
+    {
+      "icon": "🏝️",
+      "title": "Long-tail privado entre islas (Krabi)",
+      "description": "Una embarcación long-tail privada por las islas kársticas de la bahía de Phang Nga, incluida la isla de James Bond, cuevas esmeralda y lagunas escondidas. El paisaje marino tailandés más icónico.",
+      "cost": "150-300 USD por pareja (chárter privado)",
+      "tip": "Reserve un barco privado, no un tour de grupo. El conductor le espera mientras explora cada isla. Salga a las 7:00 para adelantarse a los tours en los lugares famosos."
+    },
+    {
+      "icon": "🧘",
+      "title": "Retiro de spa tailandés de lujo",
+      "description": "Un día completo de tratamiento en el spa del hotel: masaje tradicional tailandés, compresa de hierbas, facial y baño de flores. El spa del Amanpuri y el del Banyan Tree Phuket están entre los mejores del mundo.",
+      "cost": "200-500 USD por pareja",
+      "tip": "Reserve con antelación y pida la sala de tratamientos para parejas. Algunos spas (Six Senses Yao Noi) ofrecen programas de bienestar de varios días genuinamente transformadores."
+    },
+    {
+      "icon": "🐘",
+      "title": "Santuario ético de elefantes (Chiang Mai)",
+      "description": "Una mañana con elefantes rescatados en un santuario ético: alimentar, bañarse en el río, caminar por la selva. Sin montar. La experiencia con fauna más profunda del Sudeste Asiático.",
+      "cost": "80-150 USD por persona",
+      "tip": "Elephant Nature Park y Patara Elephant Farm son el patrón de referencia ética. Evite cualquier santuario que ofrezca paseos a lomos o espectáculos: es señal de mal bienestar animal."
+    },
+    {
+      "icon": "🌅",
+      "title": "Snorkel al amanecer en las islas Phi Phi",
+      "description": "Snorkel en aguas cristalinas alrededor de las Phi Phi antes de que lleguen los barcos diurnos. Los jardines de coral en Hin Klang y la cueva Viking son extraordinarios con la luz matinal.",
+      "cost": "100-200 USD por persona (chárter privado)",
+      "tip": "Phi Phi Don tiene un pueblecito para cenar. Phi Phi Leh (la deshabitada) es donde se filmó La playa: haga snorkel allí, no la subida al mirador a mediodía."
+    },
+    {
+      "icon": "🍜",
+      "title": "Clase de cocina en Chiang Mai",
+      "description": "Media jornada de visita al mercado seguida de la elaboración de 6 platos auténticos en una sala de madera tradicional. Aprenderá a hacer pad thai, curry massaman y mango sticky rice desde cero, y se lo comerá todo.",
+      "cost": "50-100 USD por persona",
+      "tip": "Zabb E Lee y Thai Farm Cooking School tienen las mejores reseñas. Reserve la sesión de mañana para almorzar lo cocinado y tener la tarde libre."
+    }
+  ],
+  "months": [
+    { "month": "Jan", "weather": "Pico de estación seca, fresco y despejado", "emoji": "☀️", "crowds": "Máxima", "price": "Alto", "verdict": "Tiempo perfecto, concurrido y caro" },
+    { "month": "Feb", "weather": "Ideal: seco, sin demasiado calor", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Mejor mes del año" },
+    { "month": "Mar", "weather": "Cálido, aún seco", "emoji": "☀️", "crowds": "Moderada", "price": "Medio-alto", "verdict": "Excelente, algo más tranquilo" },
+    { "month": "Apr", "weather": "Caluroso, fiesta del agua Songkran", "emoji": "🌤", "crowds": "Moderada", "price": "Medio", "verdict": "Songkran es mágico si lo vive" },
+    { "month": "May", "weather": "Premonzón, húmedo, comienzan los chubascos", "emoji": "⛅", "crowds": "Baja", "price": "Bajo", "verdict": "Buenas tarifas, alguna lluvia vespertina" },
+    { "month": "Jun", "weather": "Comienza el monzón (lado Andamán)", "emoji": "🌧", "crowds": "Baja", "price": "Mínimo", "verdict": "Phuket/Krabi húmedo, Samui bien" },
+    { "month": "Jul", "weather": "Monzón (Andamán), Samui más seco", "emoji": "🌧", "crowds": "Baja", "price": "Bajo", "verdict": "Cambie al lado del Golfo" },
+    { "month": "Aug", "weather": "Similar a julio", "emoji": "⛅", "crowds": "Baja", "price": "Bajo", "verdict": "Samui y Phangan, mejor opción" },
+    { "month": "Sep", "weather": "Mes más húmedo en Andamán, Samui aceptable", "emoji": "🌧", "crowds": "Mínima", "price": "Mínimo", "verdict": "No recomendable para playa en Andamán" },
+    { "month": "Oct", "weather": "Transición, Samui se humedece", "emoji": "⛅", "crowds": "Baja", "price": "Bajo-medio", "verdict": "Final del monzón en Andamán" },
+    { "month": "Nov", "weather": "Vuelve la estación seca a Phuket", "emoji": "🌤", "crowds": "Moderada", "price": "Medio", "verdict": "Excelente: se abre la temporada" },
+    { "month": "Dec", "weather": "Pico de seca, fiebre vacacional", "emoji": "☀️", "crowds": "Máxima", "price": "Muy alto", "verdict": "Tiempo perfecto, reserve con mucha antelación" }
+  ],
+  "budgetTiers": [
+    {
+      "label": "Lujo asequible",
+      "range": "200-500 USD/noche",
+      "gets": "Hoteles boutique con villa con piscina y servicio excepcional. Tailandia rinde por encima de su precio en este nivel: cosas que costarían 1.500 USD en Maldivas.",
+      "example": "The Naka Island (Phuket), Samui Buri Beach Resort"
+    },
+    {
+      "label": "Premium",
+      "range": "500-1.500 USD/noche",
+      "gets": "Villa privada con piscina y mayordomo, acceso completo a la playa y spa de talla mundial. Aquí Tailandia compite genuinamente con Maldivas a la mitad de precio.",
+      "example": "Six Senses Yao Noi, Trisara Phuket, Four Seasons Koh Samui"
+    },
+    {
+      "label": "Ultra-lujo",
+      "range": "1.500+ USD/noche",
+      "gets": "Aislamiento al nivel de Amanpuri, la mejor hospitalidad tailandesa, playas privadas, villas de varias habitaciones. Verdaderamente entre los mejores resorts del mundo.",
+      "example": "Amanpuri Phuket, Banyan Tree Samui (villa con piscina privada)"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Phuket – costa oeste (Kamala, Surin, Bang Tao)",
+      "bestFor": "Mejores resorts de lujo, tiempo más fiable en Andamán",
+      "description": "La costa oeste de Phuket mira al mar de Andamán y ofrece el agua más cristalina y los mejores ocasos. Kamala Bay (Amanpuri, Trisara) es la más tranquila y exclusiva. Surin y Bang Tao son algo más sociales. Patong es la más comercial: evítela en luna de miel."
+    },
+    {
+      "name": "Koh Samui",
+      "bestFor": "Familias y parejas, golfo de Tailandia",
+      "description": "La segunda isla más grande de Tailandia tiene excelente infraestructura, un buen aeropuerto internacional y hoteles destacados (Four Seasons, Banyan Tree, Six Senses). Mejor tiempo de noviembre a abril. Chaweng es la más concurrida: alójese en Choeng Mon o Maenam para más recogimiento."
+    },
+    {
+      "name": "Koh Phangan",
+      "bestFor": "Retiros de bienestar, vida insular más tranquila",
+      "description": "Famosa por la Full Moon Party, pero cada vez más conocida por sus retiros de bienestar de talla mundial. Srithanu, en la costa oeste, es el centro wellness: yoga, alimentación cruda y programas detox. Las playas del sur y el este son hermosas y tranquilas."
+    },
+    {
+      "name": "Krabi – Railay y Koh Lanta",
+      "bestFor": "Paisaje kárstico, escalada, acceso en long-tail",
+      "description": "Railay solo es accesible en barco: acantilados de piedra caliza espectaculares, snorkel excelente y ambiente relajado. Koh Lanta es más grande, tranquila, con excelentes eco-resorts para estancias largas. Ideal para parejas que prefieren la belleza natural a la infraestructura hotelera."
+    },
+    {
+      "name": "Koh Phi Phi",
+      "bestFor": "Parejas jóvenes, paisajes de playa más icónicos de Tailandia",
+      "description": "Las dos bahías de Phi Phi Don son paisaje icónico tailandés. Muy social y popular entre viajeros jóvenes. El snorkel circundante es el mejor de Tailandia. Ideal como parada de 3-4 noches, no como base completa de luna de miel."
+    }
+  ],
+  "expertTips": [
+    {
+      "tip": "Las dos costas tienen monzones opuestos: planifique en consecuencia",
+      "detail": "El lado de Andamán (Phuket, Krabi, Phi Phi) es mejor de noviembre a abril. El lado del Golfo (Koh Samui, Koh Phangan) es mejor de diciembre a septiembre. Si viaja en junio-octubre, base en el Golfo."
+    },
+    {
+      "tip": "Añada 2 noches en Bangkok al inicio del viaje",
+      "detail": "Mandarin Oriental Bangkok, The Peninsula y Capella Bangkok son tres de los mejores hoteles urbanos de Asia. Aunque el viaje sea principalmente de playa, Bangkok aporta una dimensión cultural que enriquece todo lo demás."
+    },
+    {
+      "tip": "Reserve barco privado por jornada completa, no un tour",
+      "detail": "Un long-tail o speedboat privado cuesta 150-300 USD al día y transforma la exploración insular. Va donde quiere, para cuando quiere y no hay otros turistas en sus fotos."
+    },
+    {
+      "tip": "La cultura del spa es el alma del lujo tailandés",
+      "detail": "No considere el spa un extra opcional. Una jornada de tratamiento de pareja en un spa tailandés de primer nivel —masaje thai, compresa herbal, exfoliación, baño floral— es una de las mejores experiencias de cualquier luna de miel."
+    },
+    {
+      "tip": "Descargue Google Translate con tailandés sin conexión",
+      "detail": "Fuera de las zonas turísticas se habla muy poco inglés. La traducción por cámara descifra cartas en tiempo real y es genuinamente útil para encontrar el restaurante local auténtico frente a la trampa para turistas."
+    }
+  ],
+  "packing": [
+    { "item": "Ropa ligera de lino o algodón", "why": "La humedad es extrema: los sintéticos se vuelven insoportables. Las fibras naturales transpiran." },
+    { "item": "Protector solar apto para arrecifes", "why": "Los arrecifes tailandeses están bajo gran presión. El protector mineral es la opción ética." },
+    { "item": "Repelente DEET", "why": "El dengue está presente: el repelente con DEET por la noche cerca de la vegetación no es negociable." },
+    { "item": "Cubierta modesta para templos", "why": "En Wat Phra Kaew (Bangkok) y la mayoría de templos budistas hay que cubrir hombros y rodillas. Un pareo ligero lo resuelve." },
+    { "item": "Sandalias acuáticas", "why": "Subir a los long-tail implica pisar el agua. Las sandalias resistentes protegen los pies sin importar mojarse." }
+  ],
+  "guide": {
+    "getting": "Vuele al aeropuerto internacional de Phuket (HKT) para el lado Andamán, o a Bangkok Suvarnabhumi (BKK) y conecte a Samui (USM) con Bangkok Airways para el lado del Golfo. Desde Europa: directos a Phuket desde Londres, Fráncfort y París. Desde EE. UU.: conexión vía Bangkok, Singapur o Hong Kong. Conexiones domésticas con Bangkok Airways, Thai AirAsia y Nok Air.",
+    "where": "Costa oeste de Phuket (Kamala, Surin, Bang Tao) para el lujo Andamán. Koh Samui para la experiencia de resort de pareja en el golfo de Tailandia. Six Senses Yao Noi (entre Phuket y Krabi, accesible en lancha) para el entorno más espectacular del país.",
+    "when": "De noviembre a abril es la estación seca en Andamán y la opción más segura para una luna de miel. Diciembre-marzo es lo más seco y caro. Abril ofrece excelente relación calidad-precio con menos gente. Mayo-octubre en Andamán trae el monzón: pase a la costa del Golfo o aproveche los descuentos de la estación verde."
+  },
+  "localFood": "Curry massaman con ternera y cacahuetes en un restaurante musulmán de Phuket, pad thai recién hecho de un puesto callejero en el mercado nocturno de Koh Samui, langostinos tigre a la parrilla con salsa nam jim, mango sticky rice con crema de coco y tom kha gai (sopa de pollo con galanga y coco). La comida callejera tailandesa es genuinamente la mejor de Asia a los precios más bajos.",
+  "currency": "Thai Baht (THB)",
+  "language": "Tailandés (inglés en zonas turísticas)",
+  "timezone": "UTC+7"
+}

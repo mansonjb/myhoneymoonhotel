@@ -1,0 +1,79 @@
+{
+  "tagline": "Islas privadas, cantos rodados de granito prehistóricos y las playas más recónditas del mundo.",
+  "intro": "Las Seychelles son el secreto mejor guardado del Índico para parejas que buscan algo más remoto, salvaje y auténtico que las Maldivas. Son 115 islas graníticas que emergieron del fondo oceánico hace 65 millones de años: las únicas islas graníticas en mitad del océano, prehistóricas y sin parangón en la Tierra. Anse Source d'Argent, en La Digue, figura sistemáticamente entre las playas más bellas jamás fotografiadas. Y Six Senses Zil Pasyon, en una isla privada, es probablemente el resort más romántico del planeta.",
+  "bestTime": "Abr–May, Oct–Nov",
+  "flightFrom": "10-12h desde Europa",
+  "topExperience": "Lujo en isla privada",
+  "perfectFor": [
+    "Parejas que desean la experiencia maldiva con más naturaleza, cultura y variedad",
+    "Aficionados al island-hopping: Mahé, Praslin, La Digue e islas privadas en un mismo viaje",
+    "Amantes de la fauna (tortugas gigantes de Aldabra, aves raras, tiburones ballena)",
+    "Quienes quieren tanto el resort de lujo como la auténtica exploración de playas",
+    "Parejas procedentes de Europa (vuelo más sencillo que a las Maldivas)"
+  ],
+  "skipIf": [
+    "Quiere la simplicidad del todo incluido: las Seychelles requieren planificación y logística entre islas",
+    "Tiene presupuesto ajustado: incluso la gama media aquí es cara",
+    "Quiere quedarse íntegramente en el resort sin explorar: hay demasiado que perderse",
+    "Viaja en julio o agosto (los alisios del SE encrespan algunas playas orientadas al oeste)",
+    "Necesita un vuelo directo desde EE. UU.: las conexiones vía Dubái/París suman tiempo de viaje considerable"
+  ],
+  "experiences": [
+    { "icon": "🐢", "title": "Encuentro con tortugas gigantes de Aldabra", "description": "La mayor población mundial de tortugas gigantes vive en las Seychelles. En la isla de Curieuse deambulan completamente libres. Pasear entre tortugas de 200 años es una de las experiencias más extraordinarias de fauna del planeta.", "cost": "60-100 USD por persona (barco y guía)", "tip": "Combine con una excursión a la isla de Curieuse desde Praslin. La caminata por el manglar y el contacto con las tortugas dura 2 horas." },
+    { "icon": "🏖️", "title": "Anse Source d'Argent al amanecer", "description": "Cantos rodados de granito rosa del tamaño de casas, arena blanca tan fina que cruje, agua turquesa poco profunda. Es la playa más fotografiada del mundo. Llegue antes de las 8:00 para anticiparse a los visitantes diurnos.", "cost": "15 USD de entrada al L'Union Estate", "tip": "Alójese en La Digue, en Le Domaine de l'Orangeraie: la playa está a 10 minutos en bicicleta." },
+    { "icon": "🌊", "title": "Snorkel en el Vallée de Mai (Praslin)", "description": "El bosque de palmeras Patrimonio de la Humanidad de la UNESCO donde crece el Coco de Mer, la semilla más grande del mundo, con una forma inconfundiblemente erótica. Caminar por este bosque prehistórico al alba es profundamente misterioso.", "cost": "30 USD de entrada", "tip": "A primera hora para la actividad de las aves (loro negro, bulbul de Seychelles). Hay paseos guiados disponibles." },
+    { "icon": "🚤", "title": "Chárter privado entre islas", "description": "Alquile un barco privado por el día: Praslin a Curieuse y a La Digue, con paradas para snorkel en el parque marino. El island-hopping más bello del Índico.", "cost": "400-800 USD por chárter privado", "tip": "Reserve a través del concierge de su hotel. El parque marino alrededor de Praslin tiene coral prístino." },
+    { "icon": "🧘", "title": "Yoga al amanecer en una playa privada", "description": "Six Senses Zil Pasyon y Anantara Maia ofrecen sesiones privadas de yoga al amanecer en playas recoletas. Treinta minutos de silencio y océano con la luz del alba antes del desayuno.", "cost": "Incluido en Six Senses, 50-100 USD en otros", "tip": "Solicite sesión privada en lugar de clase grupal en el momento de la reserva." }
+  ],
+  "months": [
+    { "month": "Jan", "weather": "Alisios del NW, costa NE en calma", "emoji": "🌤", "crowds": "Alta", "price": "Alto", "verdict": "Bueno; la costa oeste puede picar" },
+    { "month": "Feb", "weather": "Cálido, alisios del NW", "emoji": "🌤", "crowds": "Alta", "price": "Alto", "verdict": "Buen tiempo en general" },
+    { "month": "Mar", "weather": "Transición, calmándose", "emoji": "☀️", "crowds": "Moderada", "price": "Medio", "verdict": "Buen valor en transición" },
+    { "month": "Apr", "weather": "Perfecto: calmo, claro, cálido", "emoji": "☀️", "crowds": "Baja-mod.", "price": "Medio", "verdict": "Uno de los mejores meses" },
+    { "month": "May", "weather": "Perfecto: las mejores condiciones generales", "emoji": "☀️", "crowds": "Baja", "price": "Medio", "verdict": "Mes nº 1 para visitar" },
+    { "month": "Jun", "weather": "Comienzan los alisios del SE, este más picado", "emoji": "💨", "crowds": "Baja", "price": "Bajo-medio", "verdict": "Ventoso; oeste aún bueno" },
+    { "month": "Jul", "weather": "Alisios del SE, picado en algunas playas", "emoji": "💨", "crowds": "Moderada", "price": "Bajo-medio", "verdict": "Quédese en playas orientadas al oeste" },
+    { "month": "Aug", "weather": "Alisios del SE, picado en costa E", "emoji": "💨", "crowds": "Moderada", "price": "Bajo-medio", "verdict": "Vigile la orientación de la playa" },
+    { "month": "Sep", "weather": "Alisios del SE amainando", "emoji": "🌤", "crowds": "Baja", "price": "Bajo", "verdict": "Mes más tranquilo, buenas tarifas" },
+    { "month": "Oct", "weather": "Transición, excelente", "emoji": "☀️", "crowds": "Baja", "price": "Medio", "verdict": "Segundo mejor mes en general" },
+    { "month": "Nov", "weather": "Calma, cálido, perfecto", "emoji": "☀️", "crowds": "Moderada", "price": "Medio-alto", "verdict": "Excelente antes de los precios pico" },
+    { "month": "Dec", "weather": "Alisios del NW, pico vacacional", "emoji": "🌤", "crowds": "Máxima", "price": "Muy alto", "verdict": "Festivo, pero caro" }
+  ],
+  "budgetTiers": [
+    { "label": "Lujo boutique", "range": "400-900 USD/noche", "gets": "Hotel pequeño con encanto, villa con piscina, gran ubicación. Más carácter que las grandes cadenas.", "example": "Château de Feuilles (Praslin), Le Domaine de l'Orangeraie (La Digue)" },
+    { "label": "Resort premium", "range": "900-2.000 USD/noche", "gets": "Mayordomo completo, spa, villa sobre el agua o frente a la playa, gastronomía excepcional.", "example": "Four Seasons Seychelles, Constance Lémuria, Anantara Maia" },
+    { "label": "Ultra-lujo en isla privada", "range": "2.000-4.000+ USD/noche", "gets": "Su propia isla privada, acceso en helicóptero, programa de bienestar Six Senses. Lo mejor de las Seychelles.", "example": "Six Senses Zil Pasyon (isla de Félicité)" }
+  ],
+  "areas": [
+    { "name": "Mahé (isla principal)", "bestFor": "Acceso al aeropuerto, Four Seasons, Anantara Maia", "description": "Donde está el aeropuerto internacional. Four Seasons en una espectacular ladera, Anantara Maia con 30 villas y aislamiento total. Buena base, pero la mayoría de recién casados continúan a las islas exteriores." },
+    { "name": "Praslin", "bestFor": "Playa de Anse Lazio, Vallée de Mai, hoteles boutique", "description": "Vuelo de 15 min de Air Seychelles desde Mahé. Hogar de Anse Lazio (una de las mejores playas del mundo) y de Constance Lémuria. Más frondosa y verde que Mahé." },
+    { "name": "La Digue", "bestFor": "Anse Source d'Argent, vida en bicicleta, romance", "description": "La isla más romántica de las Seychelles. Sin coches (carros de bueyes y bicicletas). Ferry de 30 min desde Praslin. Le Domaine de l'Orangeraie es el mejor hotel de luna de miel aquí." },
+    { "name": "Félicité (isla privada)", "bestFor": "Aislamiento total, Six Senses Zil Pasyon", "description": "A un helicóptero o lancha rápida desde Praslin. Six Senses tiene la isla entera para sí. 30 villas. Cero huéspedes externos. Una de las experiencias de lujo más remotas del mundo." }
+  ],
+  "expertTips": [
+    { "tip": "Haga el salto Mahé → Praslin → La Digue", "detail": "Una luna de miel de 10 noches en Seychelles repartida así: 3 noches en Mahé (Four Seasons / Anantara), 3 en Praslin (Constance Lémuria / Château de Feuilles) y 4 en La Digue (Le Domaine). La luna de miel más completa del Índico." },
+    { "tip": "Vaya a Anse Source d'Argent antes de las 8:00", "detail": "A partir de las 9:00 llegan los barcos de excursión desde Mahé y Praslin. La ventana antes de las 8:00 son ustedes, las rocas rosa y el silencio. Esa es la fotografía." },
+    { "tip": "El barco de Praslin a La Digue dura 15 minutos", "detail": "No es un trayecto largo: no hace falta vuelo doméstico. El catamarán rápido Cat Cocos es excelente y se conecta con los horarios insulares. Reserve a través del hotel." },
+    { "tip": "Abril y mayo son genuinamente los mejores meses", "detail": "Sin alisios del SE, sin alisios del NW, mar en calma absoluta, todas las playas accesibles independientemente de la orientación. Esta ventana merece organizar el viaje en torno a ella." },
+    { "tip": "Six Senses vale el precio si puede hacer 5 noches o más", "detail": "El programa de bienestar, la sensación de isla privada y las actividades específicas de Zil Pasyon solo se revelan con el tiempo. 3 noches saben a poco. 5 o más son transformadoras." }
+  ],
+  "packing": [
+    { "item": "Protector solar mineral apto para arrecifes", "why": "Los parques marinos aplican estrictamente la prohibición de protectores químicos" },
+    { "item": "Sandalias de senderismo", "why": "Los senderos de La Digue y los paseos costeros de Mahé son terreno irregular" },
+    { "item": "Bolsa estanca", "why": "Los traslados en barco entre islas se mojan. Mantenga las cámaras secas." },
+    { "item": "Capas ligeras para la noche", "why": "El aire acondicionado de los resorts más la brisa marina pueden resultar frescos tras el calor del día" },
+    { "item": "Prismáticos compactos", "why": "Las Seychelles tienen una avifauna endémica extraordinaria: el loro negro, el suimanga de Seychelles" },
+    { "item": "Adaptador de viaje (enchufe UK tipo G)", "why": "Las Seychelles usan enchufes tipo británico. Los resorts suelen prestar adaptadores, pero lleve uno propio." },
+    { "item": "Efectivo en euros o dólares", "why": "Los ferris entre islas y pequeños restaurantes de La Digue prefieren efectivo" },
+    { "item": "¿Antipalúdicos? No.", "why": "Las Seychelles están libres de malaria. Sin profilaxis: una preocupación menos." }
+  ],
+  "guide": {
+    "getting": "Vuele al Aeropuerto Internacional de Mahé (SEZ). No hay vuelos directos desde EE. UU.: conecte vía Dubái, Doha, Abu Dabi o París (aproximadamente 18-22 horas en total desde la costa este). Desde Londres son unas 11 horas directas (Air Seychelles, British Airways). Desde Mahé, tome un avión turbohélice de Air Seychelles de 15 min a Praslin o el catamarán rápido Cat Cocos.",
+    "where": "Mahé (isla principal, acceso al aeropuerto), Praslin (Vallée de Mai, Anse Lazio, vuelo de 15 min), La Digue (Anse Source d'Argent, bicicletas, ferry de 30 min desde Praslin), Félicité/Silhouette (islas privadas, acceso en helicóptero). Un viaje multi-isla es la luna de miel clásica en las Seychelles.",
+    "when": "Abril-mayo y octubre-noviembre son los meses de transición, con mares en calma y todas las playas accesibles. Diciembre-marzo trae los alisios del NW (oeste más picado). Junio-septiembre, los del SE (este más picado). Las Seychelles no tienen verdadera mala temporada, pero abril-mayo es objetivamente el mejor período."
+  },
+  "localFood": "Ladob (plátano en leche de coco), chutney de tiburón, curry de murciélago de la fruta (un manjar; pruébelo si se lo ofrecen), pargo rojo a la parrilla con especias criollas. Los BBQ de marisco de Mason's Travel en Mahé son la experiencia local más auténtica. Fruta tropical fresca en todas partes.",
+  "currency": "Seychellois Rupee (SCR). USD, EUR, and GBP widely accepted at resorts.",
+  "language": "Criollo seychelense, inglés y francés.",
+  "timezone": "GMT+4 (Seychelles Time)"
+}

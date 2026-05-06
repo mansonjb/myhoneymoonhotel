@@ -1,0 +1,149 @@
+{
+  "tagline": "Islas privadas, calidez melanesia y el agua más turquesa que haya visto.",
+  "intro": "Fiyi es el corazón cálido del Pacífico Sur: 333 islas dispersas en un mar de un turquesa tan intenso que parece retocado digitalmente, habitadas por personas cuya calidez y alegría natural son genuinamente distintas a las de cualquier otro lugar. La oferta de resorts de lujo es excepcional en todos los rangos, desde los bungalós descalzos de las Mamanuca hasta Laucala Island, uno de los resorts de isla privada más extraordinarios del mundo. El sistema de arrecifes está entre los más sanos del Pacífico, las ceremonias de kava son una experiencia cultural genuina, y el saludo \"¡Bula!\" que recibirá cien veces al día nunca deja de resultar sincero. Fiyi funciona como luna de miel autónoma o como tramo pacífico de una escala desde Los Ángeles o Sídney.",
+  "bestTime": "May-Oct",
+  "flightFrom": "18-22h desde Europa / 10h desde LA",
+  "topExperience": "Lujo en isla privada",
+  "perfectFor": [
+    "Soñadores de isla privada: Fiyi tiene más resorts de isla privada accesibles que ningún otro lugar",
+    "Parejas que vuelan desde o vía Los Ángeles, Sídney o Auckland: Fiyi es una escala natural",
+    "Buceadores y aficionados al snorkel: la Coral Coast y Kadavu tienen arrecifes de talla mundial",
+    "Quienes buscan calidez cultural genuina junto a lujo de playa",
+    "Parejas que quieren reclusión total sin las 20 horas de vuelo de la Polinesia Francesa"
+  ],
+  "skipIf": [
+    "Reside en Europa sin otro motivo pacífico para viajar: 22+ horas son muchas para playa",
+    "Quiere variedad gastronómica urbana y cultural entre días de playa",
+    "Le inquieta viajar en temporada de ciclones (noviembre-abril): el riesgo es real",
+    "El presupuesto es muy ajustado: incluso un Fiyi de gama media exige $300+/noche"
+  ],
+  "experiences": [
+    {
+      "icon": "🌊",
+      "title": "Día en isla privada, Yasawas",
+      "description": "Fletar una lancha rápida hasta una de las Yasawas deshabitadas: arena blanca, un jardín de coral justo enfrente y nadie más. Su hotel organiza un picnic gourmet, equipo de snorkel y los recoge al atardecer. La experiencia más fiyiana por excelencia.",
+      "cost": "$200-$500 por pareja (chárter)",
+      "tip": "Pida al hotel una caja de almuerzo lovo tradicional fiyiano junto al champán: una combinación poco habitual que la mayoría de huéspedes no piensan en solicitar."
+    },
+    {
+      "icon": "🤿",
+      "title": "Buceo en el Great Astrolabe Reef",
+      "description": "El Great Astrolabe Reef frente a la isla de Kadavu es uno de los mayores arrecifes de barrera del Pacífico: 90 km de paredes de coral prístino con mantarrayas, tiburones martillo y extraordinarios jardines de coral blando, con visibilidad superior a los 30 metros.",
+      "cost": "$80-$150 por inmersión doble",
+      "tip": "Aloje en un lodge de buceo de Kadavu en lugar de hacer excursiones desde Nadi: el arrecife está a 45 minutos en lancha desde la playa del lodge, no a 3 horas desde la isla principal."
+    },
+    {
+      "icon": "🥥",
+      "title": "Ceremonia tradicional de kava",
+      "description": "Toda llegada a una aldea o resort fiyiano implica una ceremonia de bienvenida con kava: un intercambio formal de regalos y discursos, seguido de compartir yaqona (bebida de raíz de kava) en un cuenco comunal de madera. Es terrosa, ligeramente adormecedora y genuinamente significativa.",
+      "cost": "Habitualmente incluida en todos los resorts",
+      "tip": "Participe plenamente: aplauda una vez antes de beber, diga \"¡bula!\" con fuerza y vacíe la copa. La media tinta se nota y la ceremonia pierde sentido. La bebida es totalmente segura y sin alcohol."
+    },
+    {
+      "icon": "🍽️",
+      "title": "Festín tradicional lovo",
+      "description": "Comida cocinada lentamente toda la noche sobre piedras volcánicas calientes enterradas: pollo, pescado, taro y batata envueltos en hojas de plátano y desenterrados en el banquete. Cada resort de lujo lo ofrece; la versión ceremonial con narración de la aldea y danza meke es extraordinaria.",
+      "cost": "Incluido en la mayoría de resorts (evento semanal)",
+      "tip": "Pregunte si su resort hace un lovo en una aldea en lugar de en sus instalaciones: trasladarse a una aldea cercana cambia toda la experiencia."
+    },
+    {
+      "icon": "🏄",
+      "title": "Surf en Cloudbreak o Restaurants",
+      "description": "Fiyi alberga dos de los breaks de surf más famosos del mundo: Cloudbreak y Restaurants (isla de Tavarua). Cloudbreak es una izquierda seria solo para surfistas experimentados; Restaurants es más accesible. Tavarua Island Resort organiza los mejores chárters de surf.",
+      "cost": "$150-$400 por día (alquiler de barco)",
+      "tip": "Para no surfistas: el viaje en barco hasta Cloudbreak para ver las olas desde el canal es una experiencia genuinamente espectacular incluso sin meterse al agua."
+    }
+  ],
+  "months": [
+    { "month": "Jan", "weather": "Temporada de ciclones, caluroso y húmedo", "emoji": "🌧", "crowds": "Baja-mod.", "price": "Bajo", "verdict": "Riesgo de ciclones: evitar si es posible" },
+    { "month": "Feb", "weather": "El mes más lluvioso, riesgo de ciclones", "emoji": "🌧", "crowds": "Baja", "price": "Mínimo", "verdict": "Mayor riesgo de ciclones" },
+    { "month": "Mar", "weather": "Aún lluvioso, atenuándose", "emoji": "🌦", "crowds": "Baja", "price": "Bajo", "verdict": "Mejorando despacio" },
+    { "month": "Apr", "weather": "Transición: secándose con buen ritmo", "emoji": "⛅", "crowds": "Baja", "price": "Bajo-medio", "verdict": "Mes de transición infravalorado" },
+    { "month": "May", "weather": "Empieza la estación seca, excelente", "emoji": "🌤", "crowds": "Moderada", "price": "Medio", "verdict": "Apertura perfecta de temporada" },
+    { "month": "Jun", "weather": "Seco, cálido, ideal", "emoji": "☀️", "crowds": "Moderada", "price": "Medio", "verdict": "Excelente en todos los frentes" },
+    { "month": "Jul", "weather": "Pico de la estación seca, impecable", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Mejor clima, el más popular" },
+    { "month": "Aug", "weather": "Seco y bellísimo", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Vacaciones escolares: muy concurrido" },
+    { "month": "Sep", "weather": "Aún excelente, despejándose", "emoji": "☀️", "crowds": "Moderada", "price": "Medio-alto", "verdict": "Punto dulce: gran relación calidad-precio" },
+    { "month": "Oct", "weather": "Termina la estación seca, todavía bueno", "emoji": "🌤", "crowds": "Baja-mod.", "price": "Medio", "verdict": "Buenas ofertas disponibles" },
+    { "month": "Nov", "weather": "Subiendo la estación lluviosa", "emoji": "⛅", "crowds": "Baja", "price": "Bajo-medio", "verdict": "Algún riesgo, precios más bajos" },
+    { "month": "Dec", "weather": "Lluvioso, festivo, abre la temporada de ciclones", "emoji": "🌦", "crowds": "Alta", "price": "Alto", "verdict": "Prima festiva, algún riesgo climático" }
+  ],
+  "budgetTiers": [
+    {
+      "label": "Resort de isla en las Mamanuca",
+      "range": "$300-$600/noche",
+      "gets": "Hermoso resort isleño, piscina, snorkel en el arrecife, excelente gastronomía y traslados en lancha desde Nadi. Excelente relación calidad-precio para una sensación de isla privada.",
+      "example": "Tokoriki Island Resort, Mana Island Resort, Likuliku Lagoon"
+    },
+    {
+      "label": "Premium en las Yasawa",
+      "range": "$600-$1.500/noche todo incluido",
+      "gets": "Isla más remota, mayor reclusión, comidas y actividades all-inclusive, arrecife soberbio y menos huéspedes. La experiencia adecuada de luna de miel en Fiyi.",
+      "example": "Yasawa Island Resort, Qamea Resort & Spa, Vatulele Island Resort"
+    },
+    {
+      "label": "Isla privada ultra-exclusiva",
+      "range": "$2.000-$10.000+/noche",
+      "gets": "Uno de los resorts de isla privada más extraordinarios del mundo: exclusividad total, traslado en avión privado, ratio de personal superior al de huéspedes y cada deseo anticipado.",
+      "example": "Laucala Island, Turtle Island, Kokomo Private Island"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Islas Mamanuca",
+      "bestFor": "Lujo accesible, mayor número de resorts, traslados más sencillos",
+      "description": "Una cadena de pequeñas islas a 30-60 minutos en lancha del aeropuerto internacional de Nadi. La zona resort más desarrollada, con la mayor variedad de hoteles en todos los rangos. Likuliku Lagoon es el único resort con bungalós sobre el agua de Fiyi."
+    },
+    {
+      "name": "Islas Yasawa",
+      "bestFor": "Belleza remota, reclusión premium, paisaje espectacular",
+      "description": "Una cadena de 90 km de islas volcánicas a 2-3 horas en catamarán rápido o 30 minutos en hidroavión desde Nadi. Más remota, más espectacular, con menos turistas. Yasawa Island Resort y Qamea están entre las mejores propiedades de Fiyi."
+    },
+    {
+      "name": "Vanua Levu (Norte)",
+      "bestFor": "Eco-lujo, granjas de vainilla, fuera de la ruta turística",
+      "description": "La segunda isla más grande de Fiyi, mucho menos visitada que Viti Levu. Koro Sun Resort y Cousteau Resort ofrecen lujo eco-consciente con buceo excelente. Un rincón genuinamente por descubrir para parejas que buscan autenticidad."
+    },
+    {
+      "name": "Kadavu",
+      "bestFor": "Buceo de talla mundial, reclusión total",
+      "description": "Isla remota al sur de Viti Levu con el Great Astrolabe Reef en su puerta. Casi sin turismo casual: solo lodges dedicados al buceo. Uno de los destinos de buceo más destacados del Pacífico para mantarrayas, tiburones de arrecife y coral prístino."
+    }
+  ],
+  "expertTips": [
+    {
+      "tip": "Vuele vía LA o Sídney para ahorrar tiempo de viaje",
+      "detail": "Desde Europa, Fiyi requiere tránsito: Los Ángeles (Air Pacific/Fiji Airways) o Sídney (Fiji Airways) son los hubs naturales. Usar la ciudad de escala 2 noches de ida y 2 de vuelta convierte el trayecto en parte de la luna de miel y no en un suplicio."
+    },
+    {
+      "tip": "Los traslados en hidroavión son una experiencia en sí mismos",
+      "detail": "Turtle Airways y Pacific Island Air conectan Nadi con resorts remotos en hidroavión: vuelos de 15-40 minutos a baja altitud sobre sistemas de arrecife turquesa increíbles. La aproximación al amerizaje en su isla es espectacular. Reserve a la vez que el resort."
+    },
+    {
+      "tip": "Reserve tarifas all-inclusive",
+      "detail": "Los resorts isleños remotos no tienen alternativas para comer y beber: todo está dentro del resort. Las tarifas all-inclusive evitan sorpresas en la factura y permiten relajarse del todo. Los resorts de las Yasawa y Mamanuca cotizan tarifas por persona que incluyen todas las comidas y actividades en el nivel superior."
+    },
+    {
+      "tip": "Participe genuinamente en la cultura fiyiana",
+      "detail": "La ceremonia de kava, el lovo y la meke no son espectáculos turísticos: son prácticas culturales genuinas que los fiyianos realizan con orgullo. Una participación auténtica (aprender los aplausos, intentar las palabras, aceptar la copa) transforma la experiencia y se aprecia profundamente."
+    },
+    {
+      "tip": "Verifique el seguro contra ciclones antes de reservar",
+      "detail": "La temporada de ciclones de Fiyi va de noviembre a abril. Si debe viajar en esa ventana, asegúrese de que su seguro cubra explícitamente la disrupción por ciclones: muchas pólizas estándar excluyen las tormentas tropicales con nombre. Las Mamanuca son las más expuestas a las trayectorias directas."
+    }
+  ],
+  "packing": [
+    { "item": "Crema solar reef-safe únicamente", "why": "Los arrecifes de Fiyi están legalmente protegidos: muchos resorts y la ley fiyiana prohíben las cremas químicas; solo se permite mineral" },
+    { "item": "Sulu (pareo)", "why": "Imprescindible para entrar en cualquier aldea fiyiana: un pareo modesto a la cintura es esencial; los resorts prestan uno, pero el propio es más cómodo" },
+    { "item": "Carcasa subacuática para cámara", "why": "El snorkel y el buceo son demasiado extraordinarios para limitarse a fotos en superficie: incluso una funda waterproof sencilla transforma la fotografía del arrecife" },
+    { "item": "Repelente de insectos (DEET)", "why": "Los mosquitos están presentes sobre todo al amanecer/atardecer: existe riesgo de dengue; cúbrase en esas horas" },
+    { "item": "Bolsa estanca para los taxis acuáticos", "why": "Todos los traslados entre islas se hacen en lanchas abiertas: protección esencial para cámaras, móviles y pasaportes" }
+  ],
+  "guide": {
+    "getting": "Vuele al aeropuerto internacional de Nadi (NAN), la principal puerta de entrada. Fiji Airways vuela directo desde Los Ángeles (10h), Sídney (4h), Auckland (3h) y Tokio (7h). Desde Europa: conecte vía LA (lo mejor), Sídney o Singapur. Desde NAN, su resort organiza los traslados: lancha (30-90 min, $50-$200 por trayecto) para resorts en Mamanuca/Yasawa, o hidroavión ($200-$500 por trayecto) para propiedades más remotas. Todos los resorts de lujo recogen en el aeropuerto: confírmelo con antelación.",
+    "where": "Primer viaje: las Mamanuca por accesibilidad y oferta. Lo más romántico: Likuliku Lagoon (únicos bungalós sobre el agua de Fiyi) o Yasawa Island Resort. Mejor buceo: lodges de Kadavu o Qamea Resort. Fantasía de isla privada: Laucala Island (reserve con un año de antelación, ajuste el presupuesto). Para 10 noches: 7 en las Yasawa + 3 en Nadi/Mamanuca para acceso fácil al aeropuerto.",
+    "when": "De mayo a octubre es la estación seca, la única ventana para reservar con confianza. Julio y agosto son el pico, con clima perfecto. Septiembre es el punto dulce: estación seca, precios más bajos y menos gente. Evite de noviembre a abril si es posible: la temporada de ciclones genera un riesgo real de disrupción incluso en años sin impacto directo."
+  },
+  "localFood": "Kokoda (ceviche fiyiano: pescado crudo marinado en crema de coco y zumo de lima), festín lovo (comida cocinada lentamente sobre piedras calientes bajo tierra), palusami (crema de coco envuelta en hojas de taro y horneada en horno de tierra), papaya fresca con lima al desayuno y ceremonia de kava (bebida tradicional de raíz de pimienta) compartida con sus anfitriones. Todos los resorts de lujo ofrecen un lovo y una bienvenida con kava tradicionales.",
+  "language": "Inglés, fiyiano, hindi (todos oficiales)"
+}

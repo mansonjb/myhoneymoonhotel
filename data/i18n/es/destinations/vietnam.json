@@ -1,0 +1,152 @@
+{
+  "tagline": "Faroles de Hoi An, piedra caliza en la bahía de Halong y la costa de lujo más infravalorada de Asia.",
+  "intro": "Vietnam recompensa a los recién casados con contrastes extraordinarios: las antiguas calles de farolillos de seda del casco histórico de Hoi An (UNESCO), las torres calcáreas casi sobrenaturales de la bahía de Halong elevándose desde un agua color jade, las cenas íntimas frente a la bahía de Nha Trang y las playas remotas del Índico de Con Dao, donde las tortugas marinas anidan sin perturbación. Amanoi, en la provincia de Ninh Thuan —construido en una arista sobre la bahía de un parque nacional—, es uno de los resorts más extraordinarios de Asia. Vietnam es el gran destino de lujo con buena relación calidad-precio del Sudeste Asiático, y su cultura culinaria es de las más matizadas del mundo.",
+  "bestTime": "Feb–Abr (centro y sur)",
+  "flightFrom": "11-13h desde Europa (vía Singapur o Dubái)",
+  "topExperience": "Cultura y lujo costero",
+  "perfectFor": [
+    "Parejas obsesionadas con la comida: la cocina vietnamita es de las mejores del mundo",
+    "Quienes quieren profundidad cultural junto a tiempo de playa en un mismo viaje",
+    "Parejas que buscan lujo destacado a precios sensiblemente menores que Tailandia",
+    "Amantes de la historia y la arquitectura: el casco antiguo de Hoi An es genuinamente mágico",
+    "Quienes desean un país largo y culturalmente rico con paisajes cambiantes"
+  ],
+  "skipIf": [
+    "Quiere un único destino sencillo de playa y resort: Vietnam exige logística",
+    "La idea de gestionar vuelos domésticos y trenes nocturnos le estresa",
+    "Solo dispone de 7 noches: Vietnam requiere un mínimo de 10 días",
+    "Viaja entre junio y noviembre por el centro: el riesgo de tifón es real"
+  ],
+  "experiences": [
+    {
+      "icon": "🏮",
+      "title": "Casco antiguo de Hoi An al anochecer",
+      "description": "Al ponerse el sol, el puerto comercial del siglo XV de Hoi An enciende sus miles de farolillos de seda. Paseos en barca estilo góndola por el río Thu Bon, sastres cosiendo ao dai en los portales abiertos y la calle más fotogénica de Vietnam.",
+      "cost": "Gratis caminando; paseo en barca 150.000 VND (6 USD); traje de sastre desde 60 USD",
+      "tip": "Visite en luna llena: el pueblo apaga la luz eléctrica para el Festival de los Farolillos y la atmósfera se vuelve medieval. Reserve sastre el primer día y recoja el último."
+    },
+    {
+      "icon": "⛵",
+      "title": "Crucero nocturno por la bahía de Halong",
+      "description": "Un junco de lujo de 2 noches navegando entre 3.000 islas kársticas. Kayak por lagunas escondidas al alba, baño en cuevas esmeralda, marisco recién pescado mientras los acantilados brillan al atardecer. Una de las experiencias más románticas de Asia.",
+      "cost": "400-1.200 USD por pareja para crucero de 2 noches",
+      "tip": "Súbase a un junco premium (Pelican Cruises, Heritage Cruises, Indochine): la diferencia entre presupuesto y lujo es enorme en barcos nocturnos. Evite cruceros de 1 noche: el tiempo de viaje no lo justifica."
+    },
+    {
+      "icon": "🌊",
+      "title": "Escapada a Con Dao",
+      "description": "Archipiélago a 2 horas en avión desde Ho Chi Minh. Six Senses Con Dao está construido en ladera sobre la bahía más bella de Vietnam. Por la noche, las tortugas marinas anidan en la playa bajo su villa.",
+      "cost": "Six Senses Con Dao desde 800 USD/noche; salida en lancha para ver tortugas incluida",
+      "tip": "De junio a septiembre es la temporada de anidación. El snorkel alrededor de las islas Bai Chuoi y Con Tre es excelente todo el año."
+    },
+    {
+      "icon": "🏊",
+      "title": "Baño al amanecer en Amanoi",
+      "description": "La piscina infinita y la playa privada de Amanoi miran a la bahía de Vinh Hy, parque nacional protegido sin urbanización. Nadar al alba mientras las colinas calcáreas emergen de la niebla es una experiencia meditativa.",
+      "cost": "Amanoi desde 1.200 USD/noche",
+      "tip": "Reserve una Pavilion Pool Villa: la piscina privada en voladizo sobre la ladera con vistas a la bahía es la habitación más extraordinaria de Vietnam."
+    },
+    {
+      "icon": "🍜",
+      "title": "Tour de comida callejera vietnamita",
+      "description": "El barrio antiguo de Hanoi a las 7:00 para pho bo (sopa de fideos con ternera) y banh mi, o el mercado de Hoi An para los dumplings rosa blanca y los fideos cao lau. La comida callejera vietnamita tiene una especificidad regional extraordinaria: cada pueblo tiene su plato.",
+      "cost": "Por libre desde 5 USD; tour guiado 30-60 USD/p",
+      "tip": "Haga la clase de cocina del Mercado de Hoi An: compra de ingredientes al alba, cocina durante 2 horas, comida al mediodía. Una de las medias jornadas más disfrutables del Sudeste Asiático."
+    }
+  ],
+  "months": [
+    { "month": "Jan", "weather": "Norte fresco, sur cálido y seco", "emoji": "🌤", "crowds": "Baja-mod.", "price": "Bajo-medio", "verdict": "Excelente en el sur, Hanoi fresca" },
+    { "month": "Feb", "weather": "Festival Tet, mejorando, centro seco", "emoji": "🧧", "crowds": "Alta", "price": "Alto", "verdict": "Tet mágico, pero caos en transportes" },
+    { "month": "Mar", "weather": "Cálido, seco, mejor tiempo en todo el país", "emoji": "☀️", "crowds": "Moderada", "price": "Medio", "verdict": "Mes excelente en general" },
+    { "month": "Apr", "weather": "Cálido, seco, temporada ideal de playa", "emoji": "☀️", "crowds": "Moderada", "price": "Medio", "verdict": "Uno de los mejores meses" },
+    { "month": "May", "weather": "Caluroso, premonzón, playa central", "emoji": "🌤", "crowds": "Baja-mod.", "price": "Bajo-medio", "verdict": "Buen tiempo de playa, calor manejable" },
+    { "month": "Jun", "weather": "Lluvias en el sur, calor en el norte", "emoji": "🌧", "crowds": "Baja", "price": "Bajo", "verdict": "Evite el centro; Con Dao aún bien" },
+    { "month": "Jul", "weather": "Monzón en el sur, riesgo de tifón en el centro", "emoji": "🌀", "crowds": "Baja", "price": "Bajo", "verdict": "Difícil para casi todas las áreas" },
+    { "month": "Aug", "weather": "Riesgo de tifón en el centro, lluvioso", "emoji": "🌀", "crowds": "Baja", "price": "Bajo", "verdict": "Evite Hoi An y Da Nang" },
+    { "month": "Sep", "weather": "Persiste el riesgo de tifón en el centro", "emoji": "🌀", "crowds": "Baja", "price": "Bajo", "verdict": "Aún complicado para la costa central" },
+    { "month": "Oct", "weather": "Inundaciones en Hoi An, Halong mejora", "emoji": "🌦", "crowds": "Baja", "price": "Bajo-medio", "verdict": "Halong excelente, centro arriesgado" },
+    { "month": "Nov", "weather": "Empieza la estación seca, Hanoi fría", "emoji": "⛅", "crowds": "Moderada", "price": "Medio", "verdict": "Bien para el sur; Halong excelente" },
+    { "month": "Dec", "weather": "Norte fresco, sur cálido, centro seco", "emoji": "🌤", "crowds": "Alta", "price": "Alto", "verdict": "Temporada excelente; multitudes festivas" }
+  ],
+  "budgetTiers": [
+    {
+      "label": "Hoteles boutique y de estilo de vida",
+      "range": "100-300 USD/noche",
+      "gets": "Hotel boutique con bello diseño en el casco antiguo de Hoi An o resort de playa. Buen servicio, excelente cocina, gran ubicación. Relación calidad-precio extraordinaria.",
+      "example": "Anantara Hoi An, The Nam Hai (villas de playa), Fusion Maia Danang"
+    },
+    {
+      "label": "Premium",
+      "range": "300-800 USD/noche",
+      "gets": "Villa privada con piscina y acceso a playa o bahía. Spa excelente, restaurantes y excursiones a medida. Calidad-precio mundial.",
+      "example": "Four Seasons The Nam Hai, Victoria Hoi An Beach Resort, Six Senses Con Dao"
+    },
+    {
+      "label": "Ultra-lujo",
+      "range": "800-1.500+ USD/noche",
+      "gets": "Nivel Aman. Pabellón privado en ladera sobre una bahía protegida. Recogimiento total, diseño extraordinario, acceso a parque nacional.",
+      "example": "Amanoi Ninh Thuan, The Reverie Saigon (ciudad), Banyan Tree Lang Co"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Hoi An",
+      "bestFor": "Casco antiguo UNESCO, sastres, playas",
+      "description": "El pueblo más romántico de Vietnam. Mínimo 3 noches: el casco viejo de noche, la playa de An Bang de día y una clase de cocina entre medias. El distrito de sastres merece por sí solo una mañana."
+    },
+    {
+      "name": "Da Nang",
+      "bestFor": "Playa urbana, lujo moderno, base para Hoi An",
+      "description": "La ciudad de mayor crecimiento de Vietnam, con una larga playa de arena y hoteles cada vez más excelentes. Buena base para Hoi An (30 min) y las Montañas de Mármol."
+    },
+    {
+      "name": "Con Dao",
+      "bestFor": "Isla remota, tortugas, virgen",
+      "description": "El archipiélago más espectacular y remoto de Vietnam. Six Senses es el único hotel de lujo. Vuelo de 50 minutos desde Ho Chi Minh. Mínimo 3 noches; mejor 5."
+    },
+    {
+      "name": "Phu Quoc",
+      "bestFor": "Resort isleño desarrollado, ocasos, snorkel",
+      "description": "La mayor isla de Vietnam, con creciente escena de hoteles de lujo. Long Beach para ocasos, Sao Beach por su belleza. Más accesible que Con Dao, pero mucho más concurrida."
+    },
+    {
+      "name": "Bahía de Halong",
+      "bestFor": "Karst, crucero nocturno",
+      "description": "El paisaje vietnamita por antonomasia: 3.000 islas asomando sobre agua color jade. Solo tiene sentido como crucero nocturno de lujo. Vuele a Hanoi y traslade 3,5 h, o tome hidroavión."
+    }
+  ],
+  "expertTips": [
+    {
+      "tip": "El clima de Vietnam es regional: planifique la ruta en consecuencia",
+      "detail": "El norte (Hanoi, Halong) y el sur (Ho Chi Minh, Phu Quoc) tienen estaciones opuestas. El centro (Hoi An, Da Nang) es seco de febrero a agosto. Diseñe el itinerario siguiendo el tiempo seco al norte o al sur."
+    },
+    {
+      "tip": "Hágase un traje a medida en Hoi An",
+      "detail": "Los sastres de Hoi An producen un traje, vestido o ao dai en 48 horas con calidad extraordinaria por 60-300 USD. Encargue el día uno, primera prueba el día dos, recoja el día tres."
+    },
+    {
+      "tip": "Elija bien su crucero por Halong: importa enormemente",
+      "detail": "Un junco de 200 USD/noche y otro de 800 USD/noche navegan la misma bahía. La diferencia está en la cocina, el camarote, el servicio y la cantidad de barcos cercanos. Elija con criterio."
+    },
+    {
+      "tip": "VietJet y Bamboo Airlines para vuelos domésticos",
+      "detail": "Hanoi-Da Nang-Ho Chi Minh cuesta 30-80 USD y son por hora. El tren nocturno Hanoi-Hue (Livitrans con literas) es una alternativa romántica por 40-80 USD/p."
+    }
+  ],
+  "packing": [
+    { "item": "Ropa ligera de lino", "why": "La humedad de Vietnam (sobre todo en el sur) requiere tejido transpirable. El lino seca rápido y luce elegante en restaurantes de playa." },
+    { "item": "Sandalias de arrecife y zapatillas de paseo", "why": "Alternará entre cascos antiguos adoquinados, pasarelas de playa y cubiertas de barco. Ambos calzados son de uso diario." },
+    { "item": "Chubasquero ligero", "why": "Incluso en estación seca pueden caer chubascos tropicales breves. Un chubasquero plegable es más pequeño que un paraguas y más útil en moto." },
+    { "item": "Pañuelo o cubierta ligera", "why": "Necesario para visitar templos y como cobertura educada en zonas tradicionales. Sirve también como pareo." },
+    { "item": "Frasebook vietnamita o traductor sin conexión", "why": "Fuera de los grandes núcleos turísticos, el inglés es limitado. Google Translate funciona en ciudades; un frasebook de respaldo es valioso en los puestos callejeros." }
+  ],
+  "guide": {
+    "getting": "Vuele a Hanoi (HAN) o Ho Chi Minh / Saigón (SGN). Desde Europa: 11-13h vía Singapur (Singapore Airlines, 13h directo), Dubái (Emirates, 12h) o Doha (Qatar, 11h). Desde Australia: Singapore Airlines vía Singapur (8h desde Sídney). Los vuelos domésticos entre Hanoi, Da Nang (para Hoi An) y Ho Chi Minh son frecuentes y baratos (30-80 USD en VietJet/Bamboo). De Da Nang a Hoi An: taxi de 30 minutos (10 USD).",
+    "where": "Ruta clásica de luna de miel: Hanoi (2 noches) → crucero por Halong (2 noches) → vuelo a Da Nang → Hoi An (3 noches) → vuelo a Ho Chi Minh (1 noche) → Con Dao (3 noches). O bien: omita Hanoi/Halong y dedique más tiempo a la costa central, sumando Amanoi. Ajuste según el tiempo disponible.",
+    "when": "De febrero a abril es la mejor ventana general: seco en centro y sur, templándose en el norte. De diciembre a enero, excelente en el sur. Hoi An se inunda ocasionalmente en octubre-noviembre. La bahía de Halong es mejor en marzo-abril (primavera) y octubre-noviembre (otoño). Evite el centro entre junio y septiembre por riesgo de tifón."
+  },
+  "localFood": "Pho bo (la icónica sopa de fideos con ternera de Hanoi en un puesto callejero a las 7:00), banh mi (el mejor sándwich del mundo: baguette francesa con paté, encurtidos y guindilla), cao lau (el plato emblema de Hoi An, fideos con cerdo elaborados con agua de un único pozo ancestral), dumplings rosa blanca (solo en Hoi An), bun cha (cerdo asado con vermicelli en Hanoi: lo que comió Obama con Anthony Bourdain) y un ca phe trung (café al huevo de Hanoi) como postre vespertino. La cocina vietnamita tiene una variación regional extraordinaria: cada pueblo tiene un plato que ningún otro replica.",
+  "currency": "Vietnamese Dong (VND) — hotels and tours often quote USD",
+  "language": "Vietnamita. Inglés hablado en todas las zonas turísticas.",
+  "timezone": "UTC+7 (Indochina Time)"
+}

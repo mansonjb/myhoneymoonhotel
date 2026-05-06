@@ -1,0 +1,77 @@
+{
+  "tagline": "La isla más fashionable del Caribe: Chanel por la mañana y rosado al atardecer.",
+  "intro": "Saint-Barthélemy es la isla más glamurosa del Caribe: una colectividad francesa de 21 km² donde los yates de las celebridades fondean en el puerto de Gustavia, cada playa tiene su beach club de diseñador y la cultura gastronómica rivaliza con cualquier ciudad estrellada por Michelin. Aquí es donde la gente más exitosa del mundo pasa su luna de miel. Cheval Blanc Isle de France, el mejor hotel del Caribe, se asienta en la bahía más bella de la isla.",
+  "bestTime": "Dic–Abr",
+  "flightFrom": "9 h desde París, 4 h desde Nueva York (vía Saint Martin)",
+  "topExperience": "Playa y gastronomía de ultra-lujo",
+  "perfectFor": [
+    "Parejas que buscan la experiencia caribeña más glamurosa y fashionable",
+    "Foodies: la densidad y calidad de restaurantes aquí rivaliza con París para una isla diminuta",
+    "Quienes desean lujo caribeño sin el volumen turístico de las islas más grandes",
+    "Parejas que quieren privacidad y servicio de estándar celebrity",
+    "Cualquiera para quien el estilo europeo y el sol caribeño sean la combinación perfecta"
+  ],
+  "skipIf": [
+    "Su presupuesto es inferior a 800 USD/noche: aquí no hay nada por debajo de esa cifra",
+    "Quiere un destino tranquilo, centrado en la cultura local",
+    "La idea de compartir playas con superyates y celebridades le resulta más estresante que divertida",
+    "Viaja entre junio y noviembre (temporada de huracanes)",
+    "Busca actividades al aire libre variadas más allá de la playa y el agua: St Barts es pequeña y muy enfocada"
+  ],
+  "experiences": [
+    { "icon": "⛵", "title": "Charter de día a la playa de Colombier", "description": "Alquile un catamarán o lancha privada hasta Colombier, la playa más prístina y recóndita de St Barts, accesible solo por mar o tras una caminata de 25 minutos. Fondee en la bahía, bucee sobre el coral y beba rosado bien frío.", "cost": "600-1.200 USD por charter privado de día completo", "tip": "Salga antes de las 9:00: la playa de Colombier queda en sombra por el cabo hasta media mañana. A partir de las 14:00 los barcos privados se han ido y a menudo tendrán la bahía para ustedes." },
+    { "icon": "🛥️", "title": "Cóctel al atardecer en el muro del puerto de Gustavia", "description": "El muro del puerto de Gustavia al ocaso, con los mayores yates del mundo amarrados al alcance de la mano y las luces del pueblo reflejadas en el agua, es el momento más cinematográfico para tomar un cóctel en el Caribe.", "cost": "Un cóctel cada uno (20-30 €)", "tip": "El Bar de l'Oubli es la institución de la plaza de Gustavia. Llegue a las 17:30 para hacerse con una mesa frente al puerto antes del aluvión nocturno. La luz sobre el puerto a las 18:00 es extraordinaria." },
+    { "icon": "🤿", "title": "Snorkel en Pain de Sucre (bahía de Gustavia)", "description": "Las aguas en torno a la roca de Pain de Sucre, frente a Gustavia, ofrecen el mejor snorkel de St Barts: tortugas, rayas y abundantes peces de arrecife en 3-8 m de aguas claras.", "cost": "30 USD alquiler de kayak; gratis nadando desde la Plage du Gouverneur", "tip": "Mejor por la mañana, antes de que arrecie el viento. Las playas de la costa sur (Gouverneur, Saline, Grand Fond) tienen mejor snorkel que las del norte." },
+    { "icon": "🍽️", "title": "Cena en Le Gaiac (Le Toiny)", "description": "La mesa más romántica de St Barts: una terraza sobre el acantilado del hotel Le Toiny con vista panorámica al Atlántico y una carta inspirada en la tradición gascona y vasca.", "cost": "120-200 € por persona", "tip": "Reserve con 3 semanas de antelación una mesa en la terraza exterior, no en el comedor interior. Le Gaiac sirve la mejor cocina de la isla. Pida la captura local con beurre blanc." },
+    { "icon": "🌅", "title": "Paseo al amanecer por Shell Beach", "description": "Shell Beach (Anse de Grand Galet) en Gustavia, una playa única hecha de millones de conchas blancas en lugar de arena, al alba, antes de que llegue nadie. Caminar sobre las conchas mientras el sol sale sobre el puerto.", "cost": "Gratis", "tip": "Bordee el puerto a pie desde el centro de Gustavia (10 minutos). El amanecer es la única hora en que tendrá Shell Beach para ustedes solos. La textura de las conchas bajo los pies descalzos es extraordinaria, no hay nada igual en el Caribe." }
+  ],
+  "months": [
+    { "month": "Jan", "weather": "Perfecto: 27 °C, seco, vientos alisios", "emoji": "☀️", "crowds": "Máxima", "price": "Muy alto", "verdict": "Plena temporada de lujo: enero es \"el\" mes" },
+    { "month": "Feb", "weather": "Excelente, algo menos concurrido tras la pausa de febrero", "emoji": "☀️", "crowds": "Máxima", "price": "Muy alto", "verdict": "Aún extraordinario" },
+    { "month": "Mar", "weather": "Excelente, ligeramente menos lleno", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Buena relación calidad-precio dentro de temporada" },
+    { "month": "Apr", "weather": "Cálido, seco, vientos alisios suavizándose", "emoji": "☀️", "crowds": "Moderada", "price": "Medio-alto", "verdict": "Se abre la ventana de mejor relación calidad-precio" },
+    { "month": "May", "weather": "Transición, cálido y poco concurrido", "emoji": "🌤", "crowds": "Baja", "price": "Medio", "verdict": "La mejor relación calidad-precio, con leve aire de fin de temporada" },
+    { "month": "Jun", "weather": "Comienza la temporada de huracanes", "emoji": "⚠️", "crowds": "Muy baja", "price": "Bajo", "verdict": "Algunos resorts cierran: evitar" },
+    { "month": "Jul", "weather": "Riesgo de huracán presente", "emoji": "⚠️", "crowds": "Muy baja", "price": "Bajo", "verdict": "Muchas propiedades cierran" },
+    { "month": "Aug", "weather": "Pico del riesgo de huracán", "emoji": "🌀", "crowds": "Muy baja", "price": "Mínimo", "verdict": "No reservar" },
+    { "month": "Sep", "weather": "Riesgo de huracán al máximo", "emoji": "🌀", "crowds": "Muy baja", "price": "Mínimo", "verdict": "Temporada cerrada" },
+    { "month": "Oct", "weather": "Riesgo disminuyendo, la isla reabriendo", "emoji": "🌤", "crowds": "Baja", "price": "Bajo", "verdict": "Algunos resorts reabren para pretemporada" },
+    { "month": "Nov", "weather": "Pretemporada, casi todo abierto", "emoji": "🌤", "crowds": "Baja-mod.", "price": "Medio", "verdict": "Buena relación calidad-precio en pretemporada" },
+    { "month": "Dec", "weather": "Se abre la temporada, festivo y bellísimo", "emoji": "☀️", "crowds": "Máxima", "price": "Muy alto", "verdict": "La Navidad en St Barts es extraordinaria" }
+  ],
+  "budgetTiers": [
+    { "label": "Lujo", "range": "800-1.500 USD/noche", "gets": "Hotel boutique o villa privada con vistas al mar, piscina y excelente ubicación. El nivel mínimo aceptable para una luna de miel en St Barts.", "example": "Le Barthélemy Hotel & Spa, Hotel Le Village St Barth" },
+    { "label": "Ultra-lujo", "range": "1.500-3.500 USD/noche", "gets": "Villa con mayordomo completo o el mejor hotel, acceso a playa privada, spa excepcional y cena en villa.", "example": "Eden Rock St Barths, Le Toiny" },
+    { "label": "Cheval Blanc icónico", "range": "2.500-6.000+ USD/noche", "gets": "El mejor hotel del Caribe: 40 habitaciones y villas en Flamands Bay, playa privada, spa Guerlain y tres restaurantes. La referencia absoluta.", "example": "Cheval Blanc Isle de France" }
+  ],
+  "areas": [
+    { "name": "Playa de Flamands (noroeste)", "bestFor": "Cheval Blanc, la playa más tranquila, atardecer", "description": "La playa más larga y ancha de la isla. Cheval Blanc Isle de France se sitúa en uno de sus extremos. La arena es la más fina de St Barts. Menos gente que en las playas de la costa este." },
+    { "name": "Playa de Saint Jean", "bestFor": "Vistas al aeropuerto, deportes acuáticos, ambiente animado", "description": "La playa más activa de la isla: la famosa pista del pequeño aeropuerto aterriza a 20 m de la arena. Animada, social, excelente para parejas que quieren bullicio junto a la playa. Eden Rock está aquí." },
+    { "name": "Gustavia (capital)", "bestFor": "Puerto deportivo, compras, restaurantes, vida nocturna", "description": "El puerto pequeño más bello del Caribe. Arquitectura colonial sueca y francesa, las mejores boutiques de playa del mundo y la mayor densidad de restaurantes del Caribe." },
+    { "name": "Grand Cul-de-Sac (este)", "bestFor": "Kitesurf, aguas tranquilas, ambiente familiar", "description": "Una bahía turquesa poco profunda protegida por un arrecife: las aguas más calmadas de la isla. Ideal para paddleboard y kitesurf. El Hotel Guanahani está aquí." }
+  ],
+  "expertTips": [
+    { "tip": "Vuele vía Saint Martin (SXM), la única manera de llegar a St Barts", "detail": "St Barts tiene una pista diminuta (SBH) que solo admite aeronaves pequeñas (máx. 9 plazas). Vuele a Sint Maarten Princess Juliana (SXM) y desde allí 10 minutos en ATR de Winair. Reserve 3 h o más para la conexión: los horarios son ajustados. Como alternativa, el ferry rápido (1 h desde Oyster Pond, Philipsburg) o un helicóptero privado." },
+    { "tip": "Reserve Cheval Blanc con 6-9 meses de antelación para diciembre y enero", "detail": "Las mejores habitaciones de Cheval Blanc Isle de France se agotan con clientes recurrentes y agentes preferentes en abril para la temporada siguiente. Escriba directamente al hotel y diga \"luna de miel\". Responden a la franqueza." },
+    { "tip": "Alquile un Mini Moke o un Smart, los vehículos de la isla", "detail": "El alquiler tradicional en St Barts es un Mini Moke (Mini descapotable lateral) o un Smart. La isla mide 8 km de extremo a extremo: pueden recorrer todo el perímetro en 45 minutos. Un Moke con techo abierto por la carretera de la costa es la experiencia esencial." },
+    { "tip": "Colombier exige el barco o la caminata: háganlo", "detail": "El paseo de 25 minutos por el acantilado hasta Colombier desde el aparcamiento de Petite Anse es uno de los mejores paseos cortos del Caribe. La recompensa —una playa sin acceso por carretera, agua cristalina y casi ningún vendedor— es extraordinaria." },
+    { "tip": "Shell Beach al atardecer es la mejor cosa gratis de la isla", "detail": "Mientras Gustavia se llena con la llegada de yates, Shell Beach (a 2 minutos a pie bordeando el puerto) ofrece las mismas vistas al puerto y es gratis. Lleven vino de un superette. Mejor que cualquier bar." }
+  ],
+  "packing": [
+    { "item": "Resort wear elegante para los restaurantes", "why": "Los restaurantes de St Barts esperan un casual elevado: nada de formalidad, pero camisas de lino y vestidos en lugar de pantalón corto de playa" },
+    { "item": "Protector solar reef-safe", "why": "Colectividad francesa con normas estrictas de protección del arrecife en torno a la reserva marina" },
+    { "item": "Cámara submarina", "why": "El snorkel en Pain de Sucre y la bahía de Colombier ofrece excelente actividad de tortugas y rayas" },
+    { "item": "Algo de efectivo en euros", "why": "St Barts usa el euro. Los chiringuitos y vendedores prefieren efectivo." },
+    { "item": "Seguro de viaje con cobertura de huracanes", "why": "Innegociable para cualquier reserva fuera de la franja central diciembre-abril" },
+    { "item": "Pastillas para el mareo", "why": "El vuelo de Winair desde Saint Martin es corto pero puede ser turbulento con vientos alisios. El ferry desde Saint Martin son 1 h en mar abierto." }
+  ],
+  "guide": {
+    "getting": "Vuele a Sint Maarten Princess Juliana (SXM). Desde Europa: directo desde París Orly con Air Caraïbes (8,5 h) o Air France (vía París o AMS, 9-10 h en total). Desde Nueva York: American o Delta a SXM (3,5 h directo). De SXM a St Barts: Winair (10 min, 100-200 USD por trayecto) o Voyager fast ferry (1 h desde Oyster Pond o Philipsburg). Reserve un mínimo de 3 h de conexión en SXM.",
+    "where": "Flamands (Cheval Blanc, la playa más amplia y tranquila). Saint Jean (Eden Rock, lo más social, vistas al aeropuerto). Grand Cul-de-Sac (Guanahani, aguas calmadas, kitesurf). Gustavia (puerto, restaurantes, yates). Playas de Gouverneur y Saline (más salvajes, auténticas y con el mejor snorkel). Para 7 noches: instálese en Cheval Blanc Flamands y explore en coche de alquiler cada día.",
+    "when": "Diciembre-abril es la estación seca y la temporada social. Enero es \"el mes\": los mejores yates del mundo, las mejores reservas en restaurantes y el ambiente más extraordinario. Diciembre (semana de Navidad) y Nochevieja son espectaculares pero exigen reservar con un año de antelación. Mayo ofrece excelente relación calidad-precio. Junio-noviembre es temporada de huracanes y muchas propiedades cierran."
+  },
+  "localFood": "La langouste grillée (langosta caribeña asada al carbón con mantequilla de hierbas) en cualquier restaurante de playa, accras de morue (buñuelos criollos de bacalao con cóctel de ron ti-punch), mahi-mahi recién pescado con beurre blanc y la extraordinaria charcutería del traiteur (delicatessen) local en Gustavia. La cultura gastronómica combina la alta cocina francesa con la especia criolla: Le Gaiac, Orega y La Guerite son los tres mejores restaurantes. No se vaya sin tomarse un ti-punch (ron blanco, lima y sirope de caña de azúcar) bien hecho a las 11:00.",
+  "currency": "Euro (EUR): es una colectividad francesa",
+  "language": "Francés (oficial). Inglés ampliamente hablado en todos los contextos turísticos.",
+  "timezone": "GMT-4 (hora estándar del Atlántico)"
+}

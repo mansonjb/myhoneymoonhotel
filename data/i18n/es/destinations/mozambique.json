@@ -1,0 +1,77 @@
+{
+  "tagline": "La naturaleza marina más prístina de África en un archipiélago remoto del océano Índico.",
+  "intro": "Mozambique es el secreto mejor guardado del océano Índico: un país cuyo archipiélago de Bazaruto contiene algunos de los sistemas de arrecife de coral más prístinos que quedan en la tierra, donde los dugongos siguen pastando entre las praderas marinas y los tiburones ballena recorren los canales. Todo el archipiélago se siente como el océano Índico antes de que llegara el turismo masivo. andBeyond Benguerra Island es una de las mejores propiedades de África.",
+  "bestTime": "May–Nov",
+  "flightFrom": "11–13h desde Europa (vía Johannesburgo)",
+  "topExperience": "Vida marina y lujo remoto",
+  "perfectFor": [
+    "Parejas que desean la combinación safari de África Oriental + playa del Índico (Tanzania/Kenia + Mozambique)",
+    "Aficionados a la fauna marina: dugongos, tiburones ballena y yubartas",
+    "Quienes buscan una isla del Índico sin las multitudes de Maldivas o Seychelles",
+    "Parejas dispuestas a viajar por una naturaleza genuinamente remota",
+    "Buceadores: los arrecifes de Bazaruto están entre los menos visitados del Índico"
+  ],
+  "skipIf": [
+    "Las múltiples conexiones vía Johannesburgo son un impedimento",
+    "La fiabilidad de las infraestructuras es esencial: Mozambique está en desarrollo y hay cortes de luz",
+    "Quiere una franja de hoteles de lujo con variedad de restaurantes y vida nocturna",
+    "La estación húmeda (dic–mar) es su única ventana de viaje",
+    "Su presupuesto es muy ajustado: los resorts de la isla son caros y exigen todo incluido"
+  ],
+  "experiences": [
+    { "icon": "🐠", "title": "Bucear en los arrecifes del archipiélago de Bazaruto", "description": "Los sistemas de arrecife del Parque Nacional de Bazaruto están entre los entornos coralinos menos alterados del Índico occidental. Jardines de coral blando intactos, mero gigante y mantas en Two Mile Reef.", "cost": "$80–$150 por persona (inmersión doble)", "tip": "El buceo es mejor entre junio y noviembre (visibilidad máxima). Two Mile Reef y los arrecifes del sur de Benguerra son los mejores. andBeyond tiene su propio centro PADI en la isla." },
+    { "icon": "🦈", "title": "Esnórquel con tiburón ballena (Jun–Nov)", "description": "Los canales entre las islas de Bazaruto son zona de alimentación de tiburones ballena de junio a noviembre. Hacer esnórquel junto al pez más grande del mundo en aguas cálidas y cristalinas del Índico.", "cost": "Incluido en andBeyond Benguerra", "tip": "Los tiburones ballena se ven con más fiabilidad de agosto a octubre. La bióloga marina de andBeyond conoce los patrones de alimentación mejor que nadie. Salga al alba para mayor probabilidad de encuentro." },
+    { "icon": "🐋", "title": "Avistamiento de yubartas (Jul–Oct)", "description": "Las yubartas migran frente a la costa de Mozambique de julio a octubre. El canal de Bazaruto registra avistamientos diarios desde los barcos y, ocasionalmente, desde la propia playa de la isla.", "cost": "Incluido en las actividades del resort de andBeyond", "tip": "La actividad ballenera es más intensa en agosto–septiembre. Solicite una salida en barco específica para avistamiento, en lugar de encontrarlas casualmente en otras actividades." },
+    { "icon": "🦭", "title": "Búsqueda de dugongo (dhow al amanecer)", "description": "Una de las últimas poblaciones salvajes viables de dugongo del Índico occidental pasta en las praderas marinas de Bazaruto. Una salida en dhow al alba con la bióloga marina residente es un raro privilegio.", "cost": "Incluido en andBeyond Benguerra", "tip": "Los avistamientos de dugongo no están garantizados: son tímidos. La bióloga conoce mejor las zonas de pasto. Junio–agosto ofrece la mayor probabilidad de encuentro." },
+    { "icon": "🏖️", "title": "Pícnic con champán en banco de arena privado", "description": "Una lancha privada le deja en un banco de arena blanca cambiante en medio del Índico, con un pícnic con champán, equipo de esnórquel y nadie más en 10 km a la redonda.", "cost": "Incluido en andBeyond Benguerra", "tip": "Los mejores bancos de arena están a 30–45 minutos en barco desde Benguerra. Pida la opción más remota: los más lejanos tienen el agua más clara y están totalmente desiertos." }
+  ],
+  "months": [
+    { "month": "Jan", "weather": "Estación húmeda, lluvia intensa, calor", "emoji": "🌧", "crowds": "Muy baja", "price": "Bajo", "verdict": "Evitar: estación húmeda" },
+    { "month": "Feb", "weather": "Húmedo, riesgo ocasional de ciclón", "emoji": "🌧", "crowds": "Muy baja", "price": "Mínimo", "verdict": "No reservar" },
+    { "month": "Mar", "weather": "Estación húmeda remitiendo", "emoji": "🌦", "crowds": "Baja", "price": "Bajo", "verdict": "Aún húmedo: esperar" },
+    { "month": "Apr", "weather": "Transición, mejorando", "emoji": "🌤", "crowds": "Baja", "price": "Bajo-medio", "verdict": "Mejorando, temporada media" },
+    { "month": "May", "weather": "Empieza la estación seca, 26 °C", "emoji": "☀️", "crowds": "Baja", "price": "Medio", "verdict": "Empieza la estación seca: buena relación calidad-precio" },
+    { "month": "Jun", "weather": "Seco, cálido, llegan las yubartas", "emoji": "☀️", "crowds": "Moderada", "price": "Medio", "verdict": "Comienzan los tiburones ballena" },
+    { "month": "Jul", "weather": "Seco, tiburones ballena activos", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Pico de yubartas y tiburones ballena" },
+    { "month": "Aug", "weather": "Condiciones máximas para toda la fauna", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Mejor mes: todas las especies activas" },
+    { "month": "Sep", "weather": "Seco, excelentes condiciones marinas", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Densidad máxima de tiburón ballena" },
+    { "month": "Oct", "weather": "Seco, las yubartas se van", "emoji": "☀️", "crowds": "Moderada", "price": "Medio-alto", "verdict": "Aún excelente, algo más tranquilo" },
+    { "month": "Nov", "weather": "Transición, posibles primeras lluvias", "emoji": "🌤", "crowds": "Baja", "price": "Medio", "verdict": "Último buen mes antes de la estación húmeda" },
+    { "month": "Dec", "weather": "Vuelve la estación húmeda", "emoji": "🌦", "crowds": "Baja", "price": "Bajo-medio", "verdict": "Comienza la estación húmeda" }
+  ],
+  "budgetTiers": [
+    { "label": "Isla boutique", "range": "$400–$800/noche", "gets": "Lodge boutique frente al mar en una isla de Bazaruto, acceso a arrecife, salidas en barco. Menos servicio de mayordomo, pero el entorno marino es idéntico.", "example": "Bazaruto Lodge, Azura Benguerra" },
+    { "label": "Premium todo incluido", "range": "$800–$1,500/noche (TI)", "gets": "Todo incluido completo con actividades marinas, salidas con tiburón ballena, buceo y excelente cocina del Índico.", "example": "andBeyond Benguerra Island" },
+    { "label": "Uso exclusivo", "range": "$5,000–$8,000+/noche", "gets": "Resort isleño en exclusiva: todos los chalets, todo el personal y concesión marina privada. La experiencia más privada del Índico.", "example": "andBeyond Benguerra uso exclusivo" }
+  ],
+  "areas": [
+    { "name": "Isla Benguerra", "bestFor": "Mejor resort, tiburón ballena, dugongos", "description": "La segunda isla más grande del archipiélago de Bazaruto. El campamento de andBeyond y Azura están aquí. La mejor cartera global de fauna del archipiélago." },
+    { "name": "Isla Bazaruto", "bestFor": "Mayor isla, terreno más variado, mejor buceo", "description": "El ancla norte del archipiélago. Bazaruto Lodge está aquí. La isla tiene lagos de agua dulce (flamencos rosas), extensos sistemas de dunas y el arrecife más biodiverso del parque." },
+    { "name": "Isla Magaruque", "bestFor": "La más recoleta, menor afluencia", "description": "La isla habitada más pequeña del archipiélago. Anantara Bazaruto tiene una propiedad aquí. La más remota de las islas accesibles, con excelente esnórquel desde la orilla." },
+    { "name": "Vilankulo (continental)", "bestFor": "Punto de salida, cultura local", "description": "El pueblo continental desde el que parten todos los barcos y avionetas a Bazaruto. Una noche aquí antes o después de la isla aporta contexto sobre la cultura pesquera local." }
+  ],
+  "expertTips": [
+    { "tip": "Combine con un safari en Zimbabue o Sudáfrica para la luna de miel africana perfecta", "detail": "Mozambique funciona perfectamente como componente de playa de un viaje africano: 4 noches en las cataratas Victoria o Kruger + 5 noches en Bazaruto. El contraste es extraordinario. Todas las conexiones se hacen vía Johannesburgo." },
+    { "tip": "Agosto–septiembre es el pico absoluto para la vida marina", "detail": "Tiburones ballena, yubartas, mantas y delfines están activos simultáneamente en agosto–septiembre. Planifique su viaje en torno a esta ventana si la fauna es la prioridad." },
+    { "tip": "La bióloga marina de andBeyond transforma la experiencia", "detail": "andBeyond emplea a una bióloga marina residente en Benguerra que conoce cada zona de alimentación, patrón de tiburón e historia de recuperación de coral. Reserve una sesión privada el primer día." },
+    { "tip": "La energía y la conectividad son limitadas: acéptelo", "detail": "Mozambique es remoto. andBeyond Benguerra tiene energía solar, pero hay cortes. El WiFi es intermitente. No es un fallo: es la característica. Desconecte por completo durante la estancia." },
+    { "tip": "La tarifa todo incluido vale la pena: no hay otro sitio donde comer o comprar", "detail": "A diferencia de Maldivas, las islas de Bazaruto no tienen otros restaurantes ni tiendas. La tarifa todo incluido elimina la ansiedad y la cocina de andBeyond es excelente. Inclúyala en su presupuesto desde el inicio." }
+  ],
+  "packing": [
+    { "item": "Protector solar respetuoso con el arrecife", "why": "El Parque Nacional de Bazaruto tiene reglas estrictas de protección del arrecife: traiga protector aprobado de su país" },
+    { "item": "Cámara submarina (gran angular)", "why": "Los encuentros con tiburón ballena y las inmersiones con manta requieren gran angular por el tamaño de los animales" },
+    { "item": "Medicación antimalárica", "why": "Mozambique tiene riesgo de malaria: consulte con su médico la profilaxis 2 semanas antes de la salida" },
+    { "item": "Bolsa estanca", "why": "Los traslados en barco entre islas y a los bancos de arena conllevan mucho rocío" },
+    { "item": "Batería externa", "why": "La energía solar en las islas implica puntos de carga limitados. Lleve su propio respaldo." },
+    { "item": "Ropa modesta (para el pueblo de Vilankulo)", "why": "Mozambique es de mayoría musulmana en Bazaruto: cúbrase cuando esté en el pueblo" }
+  ],
+  "guide": {
+    "getting": "Vuele a Johannesburgo (JNB) y conecte a Vilankulo (VNX) con Mozambique Airlines o LAM (1,5h). Desde Vilankulo: andBeyond Benguerra está a 20 minutos en lancha o 15 minutos en avioneta. Tiempo total desde Londres: aproximadamente 14–16h con conexiones. andBeyond gestiona toda la logística Vilankulo–isla.",
+    "where": "Isla Benguerra (mejor cartera global de fauna, andBeyond). Isla Bazaruto (la mayor, mejor buceo, lagos de agua dulce). Magaruque (la más recoleta). Vilanculo continental (solo base de llegada). Todas las islas están a 30–45 minutos entre sí en barco.",
+    "when": "Mayo–noviembre es la estación seca. Agosto–octubre es el pico absoluto para la vida marina (tiburón ballena, yubartas, dugongos y mantas presentes simultáneamente). Junio–julio es excelente para quienes buscan precios más bajos dentro de la estación seca. Evite diciembre–abril (estación húmeda)."
+  },
+  "localFood": "Gambas piri piri (las mejores de África: el piri piri mozambiqueño es el original, antes de que Nando's lo globalizara), langosta a la parrilla del canal, matapa (hojas de yuca con salsa de cacahuete) y atún rojo fresco. La cocina de andBeyond utiliza capturas diarias del arrecife y los productos orgánicos más cercanos del continente. Las gambas piri-piri al sundowner en la playa de Benguerra es la comida esencial de Mozambique.",
+  "currency": "Metical mozambiqueño (MZN). USD y rand sudafricano se aceptan ampliamente en los resorts de la isla.",
+  "language": "Portugués (oficial). Inglés a nivel resort. Los dialectos locales varían por región.",
+  "timezone": "GMT+2 (Hora de África Central)"
+}

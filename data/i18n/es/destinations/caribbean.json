@@ -1,0 +1,64 @@
+{
+  "tagline": "Elija su isla, elija su luna de miel: 30+ naciones, un solo mar cálido",
+  "intro": "El Caribe no es un destino: es una elección entre treinta destinos muy distintos. Más allá de los nombres conocidos se extiende un archipiélago donde cada isla ha tallado su propia personalidad para la luna de miel. Anguila es la apuesta de lujo silencioso: 33 playas blancas como el polvo, sin altos edificios, sin cruceros. Barbados es el Caribe británico pulido: Sandy Lane en la Costa Platino, Mount Gay desde 1703. Granada, la Isla de las Especias, huele a nuez moscada y ofrece Grand Anse Beach más el Calabash, favorito de culto. Las Islas Vírgenes Británicas son para parejas que quieren dormir sobre el agua: chárter de yate entre los Baños de Virgen Gorda, los chiringuitos de Jost Van Dyke, Necker para presupuestos Branson. Dominica es el comodín salvaje: volcánica, selvática, casi sin playas, pero hogar de Secret Bay y Coulibri Ridge. Nieves es el encanto soñoliento del viejo mundo anclado por el Four Seasons. La verdad unificadora: agua entre 26 y 29°C todo el año, vuelos desde la Costa Este de EE.UU. de 3-5 horas y un asombroso abanico de matices en una sola semana.",
+  "bestTime": "De diciembre a abril (seco, 26-29°C); mayo y noviembre son puntos dulces",
+  "flightFrom": "NYC/Miami 3-5h directo; Londres 8-9h a Barbados/Antigua; islas pequeñas requieren conexión",
+  "topExperience": "Island-hopping en barco privado o avión pequeño: Anguila a St Barts en 25 min, chárter en BVI por 4 islas en 5 días",
+  "perfectFor": ["Parejas que quieren opciones: distintas islas para distintos estados de ánimo", "Puristas de playa que se preocupan por la calidad de la arena", "Navegantes y entusiastas del chárter (BVI es la capital mundial)", "Parejas aventureras que quieren jungla + volcán + ballenas (Dominica)", "Visitantes recurrentes del Caribe listos para saltarse las islas obvias"],
+  "skipIf": ["Quiere una sola respuesta definitiva: elegir bien la isla aquí es todo el juego", "Viaja entre junio y noviembre y le incomodan los huracanes", "Quiere una luna de miel de un solo vuelo, sin salir del hotel", "La inmersión cultural le importa más que la playa y el ron"],
+  "experiences": [
+    { "icon": "🛥️", "title": "Chárter en BVI, 5 noches", "description": "Catamarán con tripulación desde Tortola por los Baños, Jost Van Dyke, Anegada: el estándar de oro.", "cost": "$8,000-18,000 por el barco (para 2 con tripulación)", "tip": "Reserve un chárter con chef incluido; Horizon y Dream Yacht son fiables" },
+    { "icon": "🏝️", "title": "Circuito de playas de Anguila", "description": "Pase un día recorriendo las 33 playas: Shoal Bay East, Meads Bay (Blanchards), Little Bay.", "cost": "$80 alquiler de coche + $200 almuerzo para dos", "tip": "Alquile en Bryan's: entregan en su hotel" },
+    { "icon": "🌋", "title": "Subida al Boiling Lake, Dominica", "description": "Caminata guiada de ocho horas hasta el segundo lago hirviente más grande del mundo: la aventura más seria del Caribe.", "cost": "$120 por persona con guía", "tip": "Hospédese en Secret Bay o Coulibri Ridge antes y después" },
+    { "icon": "🥃", "title": "Hacienda Mount Gay, Barbados", "description": "La destilería de ron más antigua del mundo (1703); las catas de Cockspur y del maestro mezclador son infinitamente mejores que el tour básico.", "cost": "$120 por persona en la cata premium", "tip": "Combine con almuerzo en The Cliff o Champers" },
+    { "icon": "🐋", "title": "Nadar con cachalotes, Dominica", "description": "Único lugar del planeta autorizado para encuentros en el agua con cachalotes residentes: noviembre a marzo es el pico.", "cost": "$300-400 por persona, salida de día completo", "tip": "Reserve con Dive Dominica; lleve cámara sumergible, sin flash" }
+  ],
+  "months": [
+    { "month": "January", "weather": "26°C, seco, brisa", "emoji": "☀️", "crowds": "Muy alta", "price": "Pico", "verdict": "Tiempo de postal, precios de postal" },
+    { "month": "February", "weather": "26°C, seco", "emoji": "☀️", "crowds": "Máxima (San Valentín)", "price": "Pico+", "verdict": "Reserve con un año o sáltesela" },
+    { "month": "March", "weather": "27°C, seco", "emoji": "☀️", "crowds": "Alta (spring break)", "price": "Pico", "verdict": "Evite las dos primeras semanas si odia las multitudes" },
+    { "month": "April", "weather": "28°C, seco", "emoji": "☀️", "crowds": "Moderada tras Pascua", "price": "Alto", "verdict": "Punto dulce: el tiempo aguanta, las multitudes bajan" },
+    { "month": "May", "weather": "28°C, chubascos ocasionales", "emoji": "🌤️", "crowds": "Baja", "price": "Medio", "verdict": "Mejor relación calidad-precio del año" },
+    { "month": "June", "weather": "29°C, húmedo", "emoji": "🌤️", "crowds": "Baja", "price": "Bajo", "verdict": "Comienza la temporada de huracanes: riesgo bajo" },
+    { "month": "July", "weather": "29°C, húmedo", "emoji": "⛈️", "crowds": "Moderada", "price": "Bajo-medio", "verdict": "Caribe sur (Aruba, Curazao) apuesta más segura" },
+    { "month": "August", "weather": "30°C, muy húmedo", "emoji": "⛈️", "crowds": "Moderada", "price": "Bajo", "verdict": "Comienza el pico de huracanes: contrate seguro de viaje" },
+    { "month": "September", "weather": "29°C, tormentoso", "emoji": "⛈️", "crowds": "Mínima", "price": "Mínimo", "verdict": "Estadísticamente, el peor mes" },
+    { "month": "October", "weather": "29°C, mejorando", "emoji": "🌦️", "crowds": "Baja", "price": "Bajo", "verdict": "Primera mitad arriesgada, segunda decente" },
+    { "month": "November", "weather": "28°C, secándose", "emoji": "🌤️", "crowds": "Baja al alza", "price": "Medio", "verdict": "Mes joya escondida: reserve a partir del 15 de noviembre" },
+    { "month": "December", "weather": "27°C, seco", "emoji": "☀️", "crowds": "Máxima tras el 20", "price": "Medio → pico", "verdict": "Las dos primeras semanas son la mejor relación calidad-precio del año" }
+  ],
+  "budgetTiers": [
+    { "label": "Lujo accesible", "range": "$500-800/noche", "gets": "Boutique 4 estrellas en una isla más tranquila", "example": "Calabash Granada, suite jardín, $650/noche" },
+    { "label": "Caribe icónico", "range": "$1,200-2,500/noche", "gets": "Los nombres que definieron la región: Cap Juluca, Sandy Lane, Four Seasons Nieves, Secret Bay", "example": "Junior suite frente al mar de Cap Juluca, $1,800/noche en temporada baja" },
+    { "label": "Isla privada / villa", "range": "$5,000-50,000+/noche", "gets": "Buyout completo de Necker Island, mega-yate en BVI", "example": "Buyout de Necker Island, $108,000/noche para hasta 34 huéspedes" }
+  ],
+  "areas": [
+    { "name": "Anguila", "bestFor": "Puristas del lujo silencioso", "description": "Treinta y tres playas blanco harina, sin altos edificios ni puerto de cruceros. Cap Juluca y Belmond en Maundays Bay." },
+    { "name": "Barbados", "bestFor": "Caribe británico pulido, larga distancia fácil", "description": "Directo desde Londres (9h). Costa Platino para Sandy Lane / Coral Reef Club. Ron Mount Gay, fish fry de Oistins." },
+    { "name": "Granada", "bestFor": "Lujo asequible en la Isla de las Especias", "description": "Infravalorada, con buenos precios. Grand Anse Beach, Calabash Hotel. Al sur del cinturón de huracanes." },
+    { "name": "Islas Vírgenes Británicas", "bestFor": "Navegantes y lunas de miel de chárter", "description": "El mejor coto de chárter del mundo. Tortola, Virgen Gorda por los Baños, Jost Van Dyke." },
+    { "name": "Dominica y Nieves", "bestFor": "Aventura (Dominica) o calma del viejo mundo (Nieves)", "description": "Dominica es volcánica: Secret Bay y Coulibri Ridge. Nieves es encanto soñoliento de era plantacional en Four Seasons Pinney's Beach." }
+  ],
+  "expertTips": [
+    { "tip": "Elija la isla por perfil de actividad, no por Instagram", "detail": "¿Purista de playa? Anguila. ¿Navegante? BVI. ¿Aventurero? Dominica. ¿Foodie? Barbados." },
+    { "tip": "Combine dos islas si dispone de 7+ noches", "detail": "Anguila + St Barts (ferry 25 min), Nieves + St Kitts (ferry 45 min)." },
+    { "tip": "El seguro de viaje es innegociable de junio a noviembre", "detail": "El riesgo de huracán es pequeño pero real. Las pólizas de cancelación por cualquier motivo cuestan 8-12% del viaje." },
+    { "tip": "Los vuelos entre islas forman parte de la experiencia", "detail": "Tradewind, WinAir e InterCaribbean vuelan en aviones diminutos. Calcule colchones de 3 horas." },
+    { "tip": "Propinas en USD en la mayoría de las islas", "detail": "El XCD y otras monedas caribeñas están vinculadas al USD; el USD en efectivo se acepta universalmente." }
+  ],
+  "packing": [
+    { "item": "Protector solar respetuoso con el arrecife", "why": "Obligatorio en BVI y cada vez más en otras zonas" },
+    { "item": "Mínimo dos bañadores por persona", "why": "La humedad tropical hace que el bañador del día anterior aún esté mojado" },
+    { "item": "Camisa de lino y bermuda elegante (hombres), un vestido para cenar (mujeres)", "why": "Sandy Lane, Cap Juluca y Four Seasons aplican códigos para la cena" },
+    { "item": "Cámara sumergible o GoPro", "why": "Esnórquel en arrecife, cachalotes (Dominica), encuentros con tortugas" },
+    { "item": "Escarpines resistentes", "why": "Islas volcánicas, paseos por arrecife, plataformas de baño en yate" },
+    { "item": "Repelente sin DEET (Picaridin)", "why": "Los no-see-ums al atardecer son el verdadero azote del Caribe" }
+  ],
+  "guide": {
+    "getting": "La mayoría de las ciudades de la Costa Este de EE.UU. llegan a Antigua, Barbados, St Maarten o San Juan en 3-5 horas directo. Aerolíneas interinsulares (Tradewind, WinAir, InterCaribbean, Cape Air) saltan a islas pequeñas en 20-45 minutos.",
+    "where": "Maundays Bay o Meads Bay en Anguila; Costa Platino de Barbados; Grand Anse en Granada; Tortola para recogida de chárter en BVI; Dominica para Secret Bay; Nieves alrededor de Pinney's Beach.",
+    "when": "De mediados de diciembre a mediados de abril es a prueba de balas pero el más caro. Mayo, finales de noviembre y las dos primeras semanas de diciembre son los puntos dulces. El Caribe sur queda al sur del cinturón principal de huracanes."
+  },
+  "localFood": "La cocina caribeña varía enormemente: pez volador y cou-cou de Barbados, pastel de macarrones bajan; langosta espinosa de Anguila a la parrilla en Smokey's; oil down de Granada con nuez moscada (plato nacional); callaloo de Dominica. Ron punch en todas partes: Mount Gay (Barbados), Westerhall (Granada), Pusser's (BVI).",
+  "language": "Inglés / francés / español / neerlandés (varía)"
+}

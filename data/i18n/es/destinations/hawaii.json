@@ -1,0 +1,103 @@
+{
+  "tagline": "El paraíso perfeccionado: drama volcánico y Pacífico turquesa repartidos en 8 islas deslumbrantes.",
+  "intro": "Hawái es el único destino estadounidense de luna de miel que rivaliza genuinamente con los mejores del mundo. Ocho islas, cada una con su personalidad: Maui por sus resorts de playa de lujo y la espectacular carretera de Hana; la Isla Grande por sus coladas de lava activas y la magnificencia de la costa Kohala; Kauai por los acantilados de Na Pali y su belleza selvática salvaje; y Oahu por la energía de Honolulu con la calma de la North Shore. A diferencia de cualquier otro destino tropical, encontrará gastronomía de primer nivel, ningún requisito de pasaporte para los estadounidenses y una cultura del aloha genuina e inexplicablemente cálida.",
+  "bestTime": "Abr-Jun y Sep-Nov",
+  "flightFrom": "10-12h desde EE.UU. continental / 17-20h desde Europa",
+  "topExperience": "Playa y paisaje volcánico",
+  "perfectFor": [
+    "Parejas que quieren el sueño tropical sin pasaporte: especialmente viajeros desde EE.UU.",
+    "Sibaritas: la cocina de la granja a la mesa de Maui y de la Isla Grande es de talla mundial",
+    "Aventureros amantes de las ascensiones a volcanes, los vuelos en helicóptero y el snorkel con mantas",
+    "Parejas que buscan variedad: el salto entre islas ofrece varias personalidades en un mismo viaje",
+    "Quienes desean resorts de lujo a la altura de cualquier lugar del mundo"
+  ],
+  "skipIf": [
+    "Quiere reclusión total alejada del resto de turistas: los resorts de Maui pueden sentirse concurridos",
+    "El presupuesto es la prioridad: el Hawái de gama alta es comparable en precio a las Maldivas",
+    "Quiere una escapada rápida: el viaje desde Europa es genuinamente largo",
+    "Prefiere la cultura y la arquitectura del viejo continente"
+  ],
+  "experiences": [
+    {
+      "icon": "🌋",
+      "title": "Helicóptero sobre lava activa (Isla Grande)",
+      "description": "Volar sobre el Kilauea de noche y ver la lava entrar al océano es una de las cosas más extraordinarias que puede hacer un ser humano. Blue Hawaiian Helicopters opera el tour definitivo.",
+      "cost": "$300-$600 por persona",
+      "tip": "Reserve el helicóptero sin puertas para fotografía. Los vuelos del atardecer captan mejor el resplandor de la lava: llegue a la isla un día antes para no acusar el jet lag."
+    },
+    {
+      "icon": "🐋",
+      "title": "Avistamiento de ballenas en Maui (Ene-Mar)",
+      "description": "Las ballenas jorobadas migran cada invierno a aguas de Maui: la Pacific Whale Foundation opera excelentes salidas desde el puerto de Maalaea. Ver una ballena de 40 toneladas saltar a 30 metros del barco es inolvidable.",
+      "cost": "$50-$120 por persona",
+      "tip": "Las salidas matinales tienen el mar más en calma. Las ballenas son más activas de enero a marzo."
+    },
+    {
+      "icon": "🤿",
+      "title": "Snorkel nocturno con mantarrayas (Isla Grande)",
+      "description": "Snorkel sobre mantarrayas gigantes alimentándose de plancton en la oscuridad de Keauhou Bay. Las mantas tienen envergaduras de hasta 5 metros y se deslizan justo bajo ustedes. Una de las experiencias de fauna más mágicas de la Tierra.",
+      "cost": "$80-$130 por persona",
+      "tip": "Reserve con Jack's Diving Locker o Manta Ray Advocates: hacen un briefing adecuado y sus guías son sobresalientes."
+    },
+    {
+      "icon": "🌅",
+      "title": "Amanecer en Haleakala (Maui)",
+      "description": "Subir al cráter del Haleakala (3.000 m) antes del alba y ver salir el sol sobre las nubes es un rito de paso. El paisaje parece marciano. El silencio es absoluto.",
+      "cost": "$30 de entrada al parque por coche",
+      "tip": "Reserve el permiso de amanecer en recreation.gov: se agota con semanas de antelación. Lleve un plumas: en la cumbre hace genuinamente frío."
+    },
+    {
+      "icon": "🏄",
+      "title": "Clase privada de surf en Waikiki",
+      "description": "Waikiki tiene las olas más amables del mundo para aprender. Clases privadas con un instructor local sobre longboard y Diamond Head como telón de fondo: así nació el surf.",
+      "cost": "$120-$200 por persona (clase privada)",
+      "tip": "Reserve clase privada, no de grupo. La atención personal marca la diferencia entre ponerse de pie o no."
+    }
+  ],
+  "months": [
+    { "month": "Jan", "weather": "Cálido, alguna lluvia en costas a barlovento", "emoji": "🌤", "crowds": "Alta", "price": "Alto", "verdict": "Empieza la temporada de ballenas: vale la pena" },
+    { "month": "Feb", "weather": "Cálido, pico de la temporada de ballenas", "emoji": "🌤", "crowds": "Alta", "price": "Alto", "verdict": "El mejor avistamiento de ballenas del año" },
+    { "month": "Mar", "weather": "Calentando, fin de la temporada de ballenas", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Multitudes de spring break, aún excelente" },
+    { "month": "Apr", "weather": "Ideal: seco, no demasiado caluroso", "emoji": "☀️", "crowds": "Moderada", "price": "Medio", "verdict": "Aquí empieza el punto dulce" },
+    { "month": "May", "weather": "Temperaturas perfectas, poca lluvia", "emoji": "☀️", "crowds": "Baja-mod.", "price": "Medio", "verdict": "Uno de los mejores meses" },
+    { "month": "Jun", "weather": "Estación seca a pleno rendimiento", "emoji": "☀️", "crowds": "Moderada", "price": "Medio-alto", "verdict": "Excelente en todo" },
+    { "month": "Jul", "weather": "Caluroso, pico estival concurrido", "emoji": "☀️", "crowds": "Máxima", "price": "Alto", "verdict": "Bello pero masificado" },
+    { "month": "Aug", "weather": "Caluroso, pleno verano", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Mejor clima, lo más caro" },
+    { "month": "Sep", "weather": "Cálido, multitudes diluyéndose", "emoji": "☀️", "crowds": "Moderada", "price": "Medio-alto", "verdict": "Joya escondida: mismo clima, menos gente" },
+    { "month": "Oct", "weather": "Temperaturas ideales, poca gente", "emoji": "🌤", "crowds": "Baja-mod.", "price": "Medio", "verdict": "Mejor relación calidad-precio en temporada alta" },
+    { "month": "Nov", "weather": "Algo más lluvioso, agradable", "emoji": "⛅", "crowds": "Baja", "price": "Bajo-medio", "verdict": "Buenas ofertas, sigue siendo precioso" },
+    { "month": "Dec", "weather": "Pico festivo, alguna lluvia", "emoji": "🌦", "crowds": "Alta", "price": "Muy alto", "verdict": "Caro, magia navideña" }
+  ],
+  "budgetTiers": [
+    { "label": "Lujo", "range": "$500-$1.000/noche", "gets": "Excelentes hoteles resort en las mejores playas: Andaz Maui, Westin Hapuna. Servicios completos, buena gastronomía y piscinas hermosas.", "example": "Andaz Maui at Wailea, Westin Hapuna Beach" },
+    { "label": "Premium", "range": "$1.000-$2.000/noche", "gets": "Territorio Four Seasons y Ritz-Carlton. Piscinas privadas, servicio cuasi-mayordomía y las mejores ubicaciones de playa.", "example": "Four Seasons Maui at Wailea, Ritz-Carlton Kapalua" },
+    { "label": "Ultra-lujo", "range": "$2.000+/noche", "gets": "Four Seasons Hualalai en la Isla Grande: el resort más privado y bello de Hawái. Bungalós entre antiguos campos de lava frente al Pacífico.", "example": "Four Seasons Resort Hualalai, Montage Kapalua Bay" }
+  ],
+  "areas": [
+    { "name": "Maui — Wailea / Kaanapali", "bestFor": "La mejor experiencia global de resort de playa de lujo", "description": "Wailea, en la costa sur, es la mejor concentración resort de Hawái: Four Seasons, Fairmont Kea Lani, Andaz Maui. Kaanapali, en la costa oeste, es algo más social, con el famoso snorkel de Black Rock. Ambas están protegidas de los alisios y tienen aguas tranquilas y aptas para nadar." },
+    { "name": "Isla Grande — Kona / costa Kohala", "bestFor": "El paisaje más espectacular, los resorts más exclusivos", "description": "La costa Kohala son 50 km de playa resort prístina sobre el telón de antiguos campos de lava negra. Aquí están Four Seasons Hualalai, Mauna Kea Beach Hotel y Fairmont Orchid. La observación astronómica desde el Mauna Kea (4.200 m) es la mejor del planeta." },
+    { "name": "Kauai — North Shore / Poipu", "bestFor": "Belleza natural cruda, paisajes más dramáticos", "description": "La Garden Isle es la isla más bella de Hawái. La costa de Na Pali solo es accesible en barco o helicóptero. Hanalei Bay, en la costa norte, es una de las playas más bellas del Pacífico. Poipu, al sur, es más soleada y alberga el Grand Hyatt Kauai." },
+    { "name": "Oahu — Honolulu / North Shore", "bestFor": "Energía urbana combinada con lujo de playa", "description": "Waikiki es bullicioso pero icónico: Diamond Head, clases de surf y gastronomía de talla mundial. El Halekulani sigue siendo el mejor hotel de Oahu. La North Shore tiene el mejor big-wave surf del mundo (noviembre-febrero) y la legendaria shave ice de Matsumoto's." }
+  ],
+  "expertTips": [
+    { "tip": "Salte de isla en isla: 2 islas en 10 noches es el punto dulce", "detail": "Vuele a Maui, pase 5-6 noches y luego un vuelo interinsular de 40 minutos a la Isla Grande para 4-5 noches. Obtendrá dos experiencias hawaianas completamente distintas sin que la logística se vuelva pesada." },
+    { "tip": "Reserve los tours en helicóptero al volcán cuanto antes", "detail": "Blue Hawaiian y Paradise Helicopters se agotan con semanas de antelación en temporada alta. La actividad de la lava varía: consulte la web del USGS Hawaii Volcano Observatory la semana previa para confirmar la actividad." },
+    { "tip": "Las costas oeste y sur de cada isla son siempre más secas", "detail": "Los alisios traen la lluvia a las caras este y norte (barlovento). Todos los resorts de gama alta están en la cara sotavento (oeste/sur) por esa razón. Si un hotel está a barlovento, sepa lo que está reservando." },
+    { "tip": "Alquile coche en cada isla excepto Oahu", "detail": "Maui, la Isla Grande y Kauai son imposibles de explorar sin coche. Reserve con antelación: las agencias locales (Harper, Paradise) son más baratas y están mejor mantenidas que las cadenas nacionales del aeropuerto." },
+    { "tip": "La Carretera de Hana es media jornada, no un día completo", "detail": "Salga del hotel de Wailea a las 7:00. Conduzca a Hana, pare en las Siete Pozas Sagradas y regrese por la ruta sur (vía Ulupalakua). Estará de vuelta a las 17:00. Hacerla como excursión desde Kaanapali implica 3h de coche antes incluso de empezar." }
+  ],
+  "packing": [
+    { "item": "Crema solar reef-safe (mineral)", "why": "Hawái fue el primer estado de EE.UU. en prohibir las cremas con oxibenzona. Le pueden multar en los parques estatales si no lleva la correcta." },
+    { "item": "Plumas ligero", "why": "Para la cumbre de Haleakala (Maui) y la del Mauna Kea (Isla Grande): ambas por encima de 3.000 m, genuinamente frías al amanecer." },
+    { "item": "Cámara subacuática", "why": "El snorkel nocturno con mantarrayas y el cráter Molokini merecen algo más que una cámara de móvil." },
+    { "item": "Sandalias de senderismo o zapatillas de trail", "why": "El terreno de lava de la Isla Grande es cortante: las chanclas no sobreviven al sendero Kilauea Iki." },
+    { "item": "Botella reutilizable", "why": "Hawái es caluroso y los senderos son serios. El agua del grifo en todas las islas es excelente y segura." }
+  ],
+  "guide": {
+    "getting": "Vuele a Kahului (OGG) para Maui, Kona (KOA) para la costa oeste de la Isla Grande, Lihue (LIH) para Kauai u Honolulu (HNL) para Oahu. Desde EE.UU. continental: vuelos directos con Hawaiian Airlines, Delta, United y American desde la mayoría de hubs. Desde Europa: conecte vía LAX, SFO o SEA. Los vuelos interinsulares con Hawaiian Airlines o Mokulele duran 20-50 minutos.",
+    "where": "Maui Wailea (mejor experiencia global de resort de playa de lujo), costa Kohala de la Isla Grande (la más espectacular y exclusiva), North Shore de Kauai (belleza cruda, Hanalei Bay), Waikiki en Oahu (icónica, social, con Diamond Head de fondo). Para luna de miel, Maui + Isla Grande es la combinación óptima.",
+    "when": "Abril-junio y septiembre-noviembre son los puntos dulces: secos, cálidos, con menos gente que en verano y precios más bajos que en el pico invernal. Enero-marzo trae las ballenas pero también las vacaciones escolares y precios más altos. Julio-agosto es el periodo más concurrido y caro."
+  },
+  "localFood": "Bowls de poke con atún ahi fresco, plate lunches con kalua pork, shave ice de Matsumoto's en la North Shore de Oahu, café Kona con tortitas de macadamia, loco moco (arroz, hamburguesa, huevo y salsa marrón) y malasadas frescas de Leonard's Bakery. Los restaurantes de la granja a la mesa de Maui y la Isla Grande son genuinamente de talla mundial.",
+  "language": "Inglés (también se habla hawaiano)"
+}

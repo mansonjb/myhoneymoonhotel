@@ -1,0 +1,151 @@
+{
+  "tagline": "La Gran Migración, safaris de los Cinco Grandes y algunos de los campamentos de tiendas más románticos del mundo.",
+  "intro": "Kenia es donde se inventó el safari de lujo moderno y donde aún se perfecciona. Las llanuras infinitas del Maasai Mara acogen el mayor espectáculo de fauna del planeta —1,5 millones de ñus que cruzan el río Mara cada año—, mientras que las conservancias privadas en torno a Laikipia ofrecen encuentros íntimos y exclusivos con elefantes, leones y rinocerontes sin un solo vehículo a la vista. Alójese en una tienda de campaña de lujo cuyas paredes de lona dejan oír el rugido de los leones a las 3 de la madrugada, contemple el amanecer sobre la escarpa con un café caliente y siéntese junto a la hoguera contando historias bajo el cielo más estrellado que haya visto. Esto es aventura, romance y naturaleza salvaje a partes iguales.",
+  "bestTime": "Jul–Oct y Ene–Feb",
+  "flightFrom": "8–10h desde Europa",
+  "topExperience": "Safari de lujo",
+  "perfectFor": [
+    "Apasionados de la fauna: el Maasai Mara de Kenia es el mejor destino del mundo para los Cinco Grandes",
+    "Parejas que buscan lujo íntimo: cenas a la luz de las velas en el bush, safaris privados al amanecer",
+    "Recién casados con espíritu aventurero, dispuestos a cambiar la playa por algo extraordinario",
+    "Parejas fotógrafas: la luz sobre las llanuras del Mara a la hora dorada no se parece a ninguna otra",
+    "Quienes desean combinar safari con Zanzíbar o Diani Beach para la luna de miel africana definitiva"
+  ],
+  "skipIf": [
+    "La playa es innegociable: Kenia es territorio de safari sin litoral (aunque la costa existe)",
+    "Su presupuesto es inferior a $500/noche: los campamentos de lujo son genuinamente caros y lo merecen",
+    "Prefiere la exploración urbana, las compras y la variedad de restaurantes a la naturaleza salvaje",
+    "El polvo, los insectos y los madrugones no encajan con su idea de luna de miel"
+  ],
+  "experiences": [
+    {
+      "icon": "🦁",
+      "title": "Safari privado al amanecer en el Maasai Mara",
+      "description": "Salga del campamento con las primeras luces, con guía y vehículo propios; sin jeeps compartidos ni multitudes. Vea cachorros de león jugar bajo la luz dorada, elefantes en el abrevadero y guepardos a la caza. Las conservancias privadas fuera de la reserva permiten conducir campo a través.",
+      "cost": "Incluido en la mayoría de las tarifas de campamentos de lujo",
+      "tip": "Reserve un campamento en una conservancia privada en lugar de dentro de la reserva: tendrá acceso campo a través, safaris nocturnos y caminatas que están prohibidas en la reserva nacional."
+    },
+    {
+      "icon": "🌅",
+      "title": "Globo aerostático sobre el Mara",
+      "description": "Una hora flotando sobre la sabana al amanecer mientras las manadas de ñus se mueven en silencio bajo usted. Desayuno con champán en las llanuras tras aterrizar. Una de las experiencias definitivas de África: la escala de la migración vista desde el aire es incomprensible.",
+      "cost": "$450–$650 por persona",
+      "tip": "Reserve directamente con Governors' Balloon Safaris o Kichwa Tembo Balloon Safaris: tienen el mejor historial de seguridad y los pilotos más experimentados."
+    },
+    {
+      "icon": "🚶",
+      "title": "Caminata en el bush con guía masái",
+      "description": "Una caminata de 2–3 horas con un guerrero masái que lee el paisaje: rastrea señales animales, identifica plantas y explica cómo su pueblo ha convivido con los leones durante siglos. Kenia a ras de suelo es completamente distinta de Kenia desde el vehículo.",
+      "cost": "$80–$150 por pareja",
+      "tip": "Solicite un guía masái joven que también hable buen inglés: la combinación de saber tradicional y comunicación moderna da pie a conversaciones extraordinarias."
+    },
+    {
+      "icon": "🐘",
+      "title": "Amboseli al amanecer con el Kilimanjaro",
+      "description": "La imagen que define a Kenia: cien elefantes pastando contra la masa blanca del Kilimanjaro al alba. El Parque Nacional Amboseli alberga la mayor densidad de elefantes de África Oriental y la montaña es visible en mañanas despejadas de octubre a marzo.",
+      "cost": "Incluido en las tarifas del campamento; vuelo desde Nairobi Wilson ($80–$150)",
+      "tip": "Alójese en Tortilis Camp o Tawi Lodge: ambos tienen vistas extraordinarias hacia el Kilimanjaro. Reserve entre octubre y febrero para mejor visibilidad de la montaña."
+    },
+    {
+      "icon": "🍷",
+      "title": "Sundowner en la escarpa",
+      "description": "A las 18:00, su guía le lleva a la escarpa del Oloololo —el borde del Valle del Rift— y descorcha champán mientras el sol cae tras el horizonte. Bajo usted, 50 km de llanuras del Mara brillan en ámbar. Los hipopótamos braman desde el río. Este momento es por lo que se viene a Kenia.",
+      "cost": "Incluido en Angama Mara y la mayoría de los campamentos de gama alta",
+      "tip": "Los sundowner desde la propia terraza del Angama Mara son igual de espectaculares: pida la mesa más cercana al borde acristalado."
+    }
+  ],
+  "months": [
+    { "month": "Jan", "weather": "Seco y cálido, excelente", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Calidad máxima, muy bueno" },
+    { "month": "Feb", "weather": "Seco, caluroso, fauna soberbia", "emoji": "☀️", "crowds": "Moderada", "price": "Medio-alto", "verdict": "Mejor relación calidad-precio en temporada alta" },
+    { "month": "Mar", "weather": "Se acercan las grandes lluvias", "emoji": "⛅", "crowds": "Baja", "price": "Medio", "verdict": "Buenas ofertas, leve riesgo" },
+    { "month": "Apr", "weather": "Grandes lluvias, intensas", "emoji": "🌧", "crowds": "Muy baja", "price": "Mínimo", "verdict": "Evitar: la mayoría de los campamentos cierran" },
+    { "month": "May", "weather": "Aún lloviendo, exuberante y verde", "emoji": "🌦", "crowds": "Muy baja", "price": "Muy bajo", "verdict": "Muchos campamentos cerrados" },
+    { "month": "Jun", "weather": "Secándose, llega la migración", "emoji": "🌤", "crowds": "Moderada", "price": "Medio", "verdict": "La migración crece: buena relación calidad-precio" },
+    { "month": "Jul", "weather": "Seco, pico de la Gran Migración", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "El mayor espectáculo de la tierra" },
+    { "month": "Aug", "weather": "Seco, pico de cruces de río", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Migración más dramática" },
+    { "month": "Sep", "weather": "Seco, migración aún presente", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Excelente, algo menos de gente" },
+    { "month": "Oct", "weather": "Comienzan las lluvias cortas", "emoji": "⛅", "crowds": "Moderada", "price": "Medio", "verdict": "Buena fauna, precios más bajos" },
+    { "month": "Nov", "weather": "Lluvias cortas, paisaje exuberante", "emoji": "🌦", "crowds": "Baja", "price": "Bajo-medio", "verdict": "Hermoso Mara verde, buenas ofertas" },
+    { "month": "Dec", "weather": "Vuelve a secarse, temporada festiva", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Excelente, reserve con un año de antelación" }
+  ],
+  "budgetTiers": [
+    {
+      "label": "Safari de gama media",
+      "range": "$350–$600/noche todo incluido",
+      "gets": "Campamento de tiendas confortable, safaris compartidos, pensión completa. Muy buen acceso a la fauna: hay excelentes campamentos en el Mara en este nivel.",
+      "example": "Mara Intrepids, Basecamp Masai Mara, Porini Lion Camp"
+    },
+    {
+      "label": "Campamento de tiendas de lujo",
+      "range": "$600–$1,500/noche todo incluido",
+      "gets": "Suite-tienda privada, baño en suite, terraza propia, cenas en el bush, mejores guías y todas las actividades incluidas. La luna de miel keniana definitiva.",
+      "example": "Angama Mara, Kichwa Tembo, Cottar's 1920s Camp"
+    },
+    {
+      "label": "Conservancia privada ultra-exclusiva",
+      "range": "$1,500–$4,000+/noche todo incluido",
+      "gets": "Conservancia privada exclusiva, sin safaris compartidos, safaris nocturnos, caminatas con guardas armados, guías privados. Aislamiento absoluto en el bush.",
+      "example": "Ol Pejeta House, Solio Lodge, Lewa House"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Maasai Mara",
+      "bestFor": "Gran Migración, Cinco Grandes, safari clásico",
+      "description": "La reserva más famosa de Kenia y el mejor destino del mundo para los Cinco Grandes durante la migración de julio a octubre. Las conservancias privadas que limitan con la reserva (Olare Motorogi, Mara North, Naboisho) ofrecen experiencias mucho más exclusivas, con conducción campo a través y menos vehículos."
+    },
+    {
+      "name": "Amboseli",
+      "bestFor": "Elefantes y vistas del Kilimanjaro",
+      "description": "Conocido por su extraordinaria población de elefantes (200+ ejemplares estudiados durante 50 años) y por la icónica imagen del Kilimanjaro alzándose tras las manadas. Más pequeño e íntimo que el Mara. Lo mejor en la estación seca, cuando los elefantes se concentran en torno a los manantiales."
+    },
+    {
+      "name": "Meseta de Laikipia",
+      "bestFor": "Conservancias privadas, rinocerontes, exclusividad",
+      "description": "Una meseta privada al norte del monte Kenia con algunas de las mejores conservancias privadas de África: Ol Pejeta, Lewa, Solio y Borana. Aquí viven las últimas poblaciones sanas de rinoceronte negro de Kenia. Sin turismo masivo: experiencias verdaderamente exclusivas e íntimas con muy pocos huéspedes."
+    },
+    {
+      "name": "Samburu",
+      "bestFor": "Especies del norte",
+      "description": "El árido norte ofrece especies que no se ven en el Mara: jirafa reticulada, cebra de Grevy, oryx beisa, avestruz somalí y gerenuk. Paisaje seco extraordinariamente bello. Combínelo con el Mara para tener el panorama completo de la fauna keniana."
+    }
+  ],
+  "expertTips": [
+    {
+      "tip": "Reserve campamentos en conservancias privadas, no en la reserva principal",
+      "detail": "La Reserva Nacional del Maasai Mara está saturada: 50 vehículos en torno a cada caza de león en temporada alta. Las conservancias privadas fuera del límite del parque ofrecen la misma fauna con una fracción de los vehículos, además de safaris nocturnos y caminatas. Pague el suplemento."
+    },
+    {
+      "tip": "Vuele entre parques: nunca conduzca",
+      "detail": "Las carreteras de Kenia son durísimas. Nairobi al Mara por carretera son 5–6 horas de pésimo asfalto. En avioneta desde Wilson Airport: 45 minutos sobre el Valle del Rift con vistas de la escarpa. Todas las tarifas de campamentos de lujo incluyen o gestionan los traslados a las pistas."
+    },
+    {
+      "tip": "Cronometre la migración con flexibilidad",
+      "detail": "La Gran Migración no es un evento de calendario fijo: las manadas pueden cruzar el río Mara entre julio y octubre, pero las fechas varían cada año. Reserve entre julio y septiembre para la mayor probabilidad. Confíe en la información en tiempo real del director del campamento más que en itinerarios cerrados."
+    },
+    {
+      "tip": "Lleve un plumas para las primeras horas",
+      "detail": "Los safaris al amanecer en junio–agosto comienzan a las 5:30 y los vehículos abiertos avanzan rápido: en las llanuras del Mara hace genuinamente frío. La mayoría de huéspedes lleva poca ropa de abrigo y tirita en sus mejores avistamientos. Lleve más capas de las que crea necesarias."
+    },
+    {
+      "tip": "Añada una extensión a Zanzíbar",
+      "detail": "Nairobi a Zanzíbar son 90 minutos en avión turbohélice (o 2h vía Dar es Salaam). La combinación de 5 noches de safari en Kenia + 5 noches de playa en Zanzíbar es uno de los grandes itinerarios de luna de miel del mundo: cultura, fauna y océano Índico en un solo viaje."
+    }
+  ],
+  "packing": [
+    { "item": "Colores neutros de safari (caqui, oliva, beige)", "why": "Los colores oscuros atraen a la mosca tsé-tsé; el blanco asusta a los animales: el código de vestimenta es práctico, no estético" },
+    { "item": "Prismáticos (10x42)", "why": "Innegociables en safari: ni los mejores guías pueden acercarle lo suficiente para ver los detalles sin ellos" },
+    { "item": "Plumas o forro polar", "why": "Los safaris a las 5:30 en altura son genuinamente fríos: lleve más abrigo del que cree necesitar" },
+    { "item": "Bolsa de cámara a prueba de polvo", "why": "La estación seca del Mara lo cubre todo: una bolsa hermética protege las lentes entre safaris" },
+    { "item": "Certificado de vacunación contra la fiebre amarilla", "why": "Obligatorio para entrar si llega de ciertos países: compruebe los requisitos y lleve la cartilla física" }
+  ],
+  "guide": {
+    "getting": "Vuele al Aeropuerto Internacional Jomo Kenyatta de Nairobi (NBO), bien conectado con Europa con KLM (Ámsterdam, 8,5h directo), British Airways (Londres, 8,5h directo), Ethiopian Airlines (Addis Abeba) y Kenya Airways. Desde NBO, traslado al Aeropuerto Wilson (30 min) para avionetas a las pistas del bush. La mayoría de los campamentos de lujo lo recogen en Wilson. Los vuelos internos operan varias veces al día a todos los grandes parques ($80–$200 por trayecto). No intente conducir entre parques: vuele.",
+    "where": "Primera vez: conservancia privada del Maasai Mara (Olare Motorogi o Mara North) durante 4 noches. Complemento: Amboseli (2 noches) por elefantes y el Kilimanjaro. Extendido: añada Laikipia (2 noches) por rinocerontes y exclusividad. Mejores campamentos: Angama Mara (mejores vistas), Cottar's 1920s Camp (el más romántico), Sanctuary Olonana (junto al río). Todos son todo incluido, sin extras inesperados.",
+    "when": "Julio–octubre para los cruces de río de la Gran Migración: la cumbre de la experiencia faunística. Enero–febrero para la nitidez de la estación seca, excelente acción de depredadores y precios más bajos que el pico. Marzo y noviembre son meses de transición con buena fauna y menos turistas. Evite abril–mayo (grandes lluvias: muchos campamentos cierran)."
+  },
+  "localFood": "Nyama choma (cabra o ternera asada) en una carnicería-restaurante local, ugali (gachas de harina de maíz) con sukuma wiki (col rizada) y judías guisadas, mandazi (donuts fritos al coco) con chai al amanecer, café keniano AA de las tierras altas de Nyeri y cerveza Tusker en el sundowner del campamento. Los chefs de los campamentos de tiendas de lujo elaboran cenas de varios platos genuinamente extraordinarias en pleno bush.",
+  "currency": "Chelín keniano (KES); los safaris se cotizan en USD",
+  "language": "Inglés y suajili (ambos oficiales)",
+  "timezone": "UTC+3"
+}

@@ -1,0 +1,50 @@
+{
+  "tagline": "Pitons espectaculares y selva tropical frente a la perfección turquesa y plana: dos Caribes muy distintos.",
+  "metaDescription": "¿Santa Lucía o Turks y Caicos para una luna de miel? Dramatismo de los Pitons frente a la perfección de Grace Bay. Vuelos, hoteles, playas, aventura. Comparación completa.",
+  "verdict": "Santa Lucía es la isla más espectacular del Caribe: los Pitons se elevan 700 m sobre el mar, además de selvas tropicales, fuentes sulfurosas y haciendas selváticas dedicadas al chocolate. Turks y Caicos es la más perfecta para playa: Grace Bay encabeza sistemáticamente el ranking de la mejor playa del mundo, con aguas turquesas planas y poco profundas durante kilómetros. Santa Lucía es para aventura + romance espectacular; Turks y Caicos es para placer puro de playa y el agua más limpia del Caribe.",
+  "tldr": {
+    "forA": "Santa Lucía: por la vista de los Pitons, las aventuras en la selva y el paisaje espectacular.",
+    "forB": "Turks y Caicos: por la mejor playa del mundo y el agua turquesa más pura del Caribe.",
+    "tie": "Ambos son accesibles desde la costa este de EE. UU. con vuelos directos."
+  },
+  "criteria": [
+    { "label": "La vista icónica", "aDetail": "Los Pitons: picos volcánicos gemelos que se elevan desde el mar, únicos en el Caribe", "bDetail": "Grace Bay desde el aire: turquesa infinito, pero plano" },
+    { "label": "Calidad de la playa", "aDetail": "Calas de guijarros y Sugar Beach (de arena negra a blanca), íntimas", "bDetail": "Grace Bay: 19 km de arena blanca finísima, la playa nº 1 del mundo" },
+    { "label": "Claridad del agua", "aDetail": "Buena, pero cobertura coralina limitada", "bDetail": "Visibilidad de 30 m+, turquesa puro, nivel Bahamas" },
+    { "label": "Aventura", "aDetail": "Senderismo en los Pitons, tirolina, elaboración de chocolate, baño termal de azufre, Marigot Bay", "bDetail": "Sobre todo actividades de playa y agua (snorkel, kayak), menos variedad" },
+    { "label": "Selva tropical", "aDetail": "El 77 % de la isla es bosque, con 29 especies endémicas", "bDetail": "Plana, sin bosque" },
+    { "label": "Resorts solo adultos", "aDetail": "Sandals, Jade Mountain, Ladera, Rendezvous: categoría sólida", "bDetail": "Beaches Turks & Caicos está orientado a familias; Grace Bay Club tiene un ala solo adultos" },
+    { "label": "Tiempo de vuelo (desde NYC)", "aDetail": "4,5h directo", "bDetail": "3h directo: el Caribe de lujo más cercano" },
+    { "label": "Tiempo de vuelo (desde Europa)", "aDetail": "8-9h directo desde Londres (BA)", "bDetail": "9-10h directo desde Londres según temporada" },
+    { "label": "Mejor temporada", "aDetail": "Dic-abr seca, may-nov temporada verde", "bDetail": "Dic-abr seca, riesgo de huracanes jun-nov" },
+    { "label": "Calidad hotelera para luna de miel", "aDetail": "Jade Mountain es una propiedad única en la vida", "bDetail": "Amanyara, COMO Parrot Cay, Grace Bay Club" },
+    { "label": "Precio mínimo (5 estrellas)", "aDetail": "$500-800/noche", "bDetail": "$700-1200/noche" },
+    { "label": "Precio máximo", "aDetail": "Jade Mountain $1800-3500", "bDetail": "COMO Parrot Cay $2500-5000" }
+  ],
+  "pickA": {
+    "title": "Elija Santa Lucía si…",
+    "bullets": [
+      "El paisaje espectacular es importante (los Pitons son la vista más icónica del Caribe)",
+      "Quiere aventura: senderismo, selva tropical, tirolinas, haciendas selváticas, elaboración de chocolate",
+      "El todo incluido solo adultos es una prioridad (sólida oferta de Sandals + opciones boutique)",
+      "Su presupuesto es de $500-1500/noche y desea el máximo valor",
+      "Le llama la suite de Jade Mountain con la cuarta pared abierta y vistas a los Pitons"
+    ]
+  },
+  "pickB": {
+    "title": "Elija Turks y Caicos si…",
+    "bullets": [
+      "Grace Bay es una experiencia de playa innegociable",
+      "Quiere el agua turquesa más limpia y clara del Caribe",
+      "Viene desde la costa este de EE. UU. (3h directo NYC-PLS)",
+      "Desea una semana de playa relajada y sin complicaciones, sin necesidad de conducir",
+      "Su presupuesto es de $1500-3000/noche: Amanyara o COMO Parrot Cay son la recompensa"
+    ]
+  },
+  "faqs": [
+    { "q": "¿Cuál tiene mejores playas?", "a": "Turks y Caicos, sin duda. Grace Bay encabeza sistemáticamente el ranking de la mejor playa del mundo en Tripadvisor. Las mejores playas de Santa Lucía (Sugar Beach, Anse Chastanet) son visualmente espectaculares pero más pequeñas e íntimas." },
+    { "q": "¿Cuál es mejor para una luna de miel con aventura?", "a": "Santa Lucía. Puede subir el Gros Piton, hacer tirolina por la selva tropical, visitar una plantación de cacao en activo y aún así tener una villa con piscina en Jade Mountain. Turks y Caicos se centra principalmente en actividades de playa." },
+    { "q": "¿Turks y Caicos es más caro?", "a": "Sí, entre un 25 % y un 40 % más para alojamientos equivalentes de 5 estrellas. T&C tiene menos opciones de gama media, y su ubicación (territorio británico de ultramar, denominado en USD) mantiene los precios altos. Santa Lucía ofrece un rango más amplio." },
+    { "q": "¿Cuál tiene menos turismo?", "a": "T&C fuera de Grace Bay (Pine Cay, Parrot Cay, islas privadas) es extremadamente exclusivo. Santa Lucía recibe más cruceros en Castries, pero las zonas de resort (Soufrière) se sienten apartadas." }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "tagline": "Ártico volcánico de otro mundo frente al glamour alpino de los grandes hoteles: lunas de miel frías bien hechas.",
+  "metaDescription": "¿Islandia o Suiza para una luna de miel? Auroras boreales frente al Matterhorn. Geotérmico frente a grandes hoteles. Comparación completa de luna de miel.",
+  "verdict": "Islandia es otro planeta: paisajes volcánicos, auroras boreales, lagunas geotérmicas, glaciares. Suiza es Europa en su versión más refinada: suites con vista al Matterhorn, grandes hoteles centenarios, fondue a la luz de las velas en pueblos sin coches. Islandia es para parejas que buscan asombro y aventura. Suiza es para parejas que buscan romance y refinamiento. Islandia con menos de $800/noche se siente aventurera; Suiza con menos de $800/noche se siente apretada.",
+  "tldr": {
+    "forA": "Islandia: por el asombro, las auroras boreales y la espectacularidad del paisaje volcánico.",
+    "forB": "Suiza: por el glamour de los grandes hoteles alpinos y las postales del Matterhorn.",
+    "tie": "Ambos requieren un presupuesto serio: ninguno es barato."
+  },
+  "criteria": [
+    { "label": "La vista icónica", "aDetail": "Auroras boreales sobre una laguna geotérmica", "bDetail": "El Matterhorn desde Zermatt, reflejado en un lago" },
+    { "label": "Aventura", "aDetail": "Senderismo en glaciar, cuevas de hielo, recorridos por volcanes, avistamiento de ballenas, paseos a caballo", "bDetail": "Senderismo, esquí: alpino más tradicional" },
+    { "label": "Hoteles de lujo", "aDetail": "Sólido diseño moderno (Retreat at Blue Lagoon, Deplar Farm, Torfhús)", "bDetail": "Grandes damas centenarias (Badrutt's Palace, Gstaad Palace, The Alpina)" },
+    { "label": "Gastronomía", "aDetail": "Nueva cocina nórdica, pescado fresco, cordero: buena pero de nicho", "bDetail": "Fondue, raclette, cocina trilingüe francesa/alemana/italiana, varias estrellas Michelin" },
+    { "label": "Vuelo (Europa)", "aDetail": "3h directo desde Londres", "bDetail": "1-2h directo desde la mayoría de capitales europeas" },
+    { "label": "Vuelo (este de EE. UU.)", "aDetail": "5-6h directo, muchas rutas de Icelandair", "bDetail": "7-8h directo NYC-ZRH" },
+    { "label": "Mejor temporada", "aDetail": "Verano (sol de medianoche) + oct-mar (auroras boreales)", "bDetail": "Verano (senderismo) + invierno (esquí)" },
+    { "label": "Romance invernal", "aDetail": "Auroras boreales + laguna geotérmica = máximo romance invernal", "bDetail": "Saint Moritz en Navidad = máximo glamour, pero predecible" },
+    { "label": "Romance estival", "aDetail": "Verde, espectacular, pero la oferta hotelera es más limitada", "bDetail": "Región adyacente al lago de Como, senderismo entre prados floridos, días de 25 °C" },
+    { "label": "Precio para 5 estrellas", "aDetail": "$500-1500/noche", "bDetail": "$700-2000/noche" },
+    { "label": "Factor romántico", "aDetail": "Espectacular, primigenio, sobrecogedor", "bDetail": "Refinado, clásico, de cuento ilustrado" }
+  ],
+  "pickA": {
+    "title": "Elija Islandia si…",
+    "bullets": [
+      "Las auroras boreales están en su lista de deseos",
+      "Quiere aventura + asombro (glaciares, cuevas de hielo, volcanes)",
+      "Le atraen los hoteles minimalistas de diseño (Retreat, Deplar Farm, ION)",
+      "Está conforme sin grandes visitas culturales: aquí lo importante es el paisaje",
+      "Dispone de 5-7 noches para un viaje concentrado"
+    ]
+  },
+  "pickB": {
+    "title": "Elija Suiza si…",
+    "bullets": [
+      "Le encanta el glamour de los grandes hoteles (palacios Belle Époque, rituales del té de la tarde)",
+      "La alta cocina es una prioridad (abundan las estrellas Michelin)",
+      "Quiere un viaje más corto y sencillo desde Europa",
+      "El esquí o el senderismo alpino forman parte de la luna de miel",
+      "Lo combina con Italia o Francia para un viaje multipaís"
+    ]
+  },
+  "faqs": [
+    { "q": "¿Cuál es más caro?", "a": "Suiza. Los resorts alpinos de 5 estrellas en invierno (Badrutt's Palace en la semana de Navidad) pueden alcanzar más de $2000/noche. La gama de lujo de Islandia tiene su techo en torno a $1500/noche en The Retreat. La gastronomía es también entre un 20 % y un 30 % más cara en Suiza que en Islandia." },
+    { "q": "¿Cuál es mejor en invierno?", "a": "Depende de las preferencias. Islandia entre dic-mar es temporada de auroras boreales y baños geotérmicos: romance primigenio. Suiza entre dic-mar es temporada de esquí y mercados navideños: romance refinado." },
+    { "q": "¿Podemos ver las auroras boreales en Suiza?", "a": "Prácticamente nunca: Suiza está demasiado al sur. Islandia se sitúa justo bajo el óvalo auroral. Si las auroras boreales son una prioridad, Islandia es la única opción." },
+    { "q": "¿Cuál tiene mejor senderismo?", "a": "Suiza en verano no tiene rival: prados alpinos, senderos señalizados, refugios de montaña e infraestructura de transporte (teleféricos, trenes) que hacen el senderismo sencillo. Las rutas de Islandia son más salvajes pero menos desarrolladas." }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "tagline": "Acantilados de la Amalfi, cipreses toscanos, ferries del lago Como y arancini sicilianos: Italia es la luna de miel con la que se mide cualquier otra.",
+  "intro": "Italia es la luna de miel que nadie lamenta. La pregunta no es si venir, sino qué Italia elegir. La Costa Amalfitana (los acantilados pastel de Positano en Le Sirenuse, la calma sobre el mar de Ravello en el Belmond Hotel Caruso) entrega el cliché mediterráneo cinematográfico ganado con honestidad: limonares, lino blanco, Da Adolfo en la playa de Laurito para el almuerzo de mozzarella a la sal, Aperol al atardecer en una terraza privada a 365 m sobre el mar. La Toscana es la Italia más lenta, parda y agrícola: Borgo Santo Pietro y su cocina de finca con estrella Michelin cerca de Chiusdino, catas de Brunello en Montalcino, Castello di Reschio y su finca de Umbría de 1.500 años un valle al este. El lago Como es el más teatral de los lagos: Passalacqua, votado Mejor Hotel del Mundo, está al otro lado del agua frente a Bellagio, y el ferry entre Varenna, Bellagio y Menaggio sigue siendo uno de los grandes rituales de luna de miel de Europa. Luego las ciudades: Florencia (el palazzo Belle Époque de Villa Cora a cinco minutos de los Jardines de Boboli) para la saturación renacentista; Roma para las trattorias de Trastevere y los amaneceres en el Vaticano. Las apuestas más atrevidas son las más recompensadas: Sicilia (las 230 hectáreas de olivares de Verdura Resort en la costa sur) y Puglia, donde la Masseria Torre Coccaro convierte una alquería fortificada del siglo XVI en una de las estancias de luna de miel que definen el sur. Italia premia a la pareja que elige dos regiones y se entrega; nunca a la que intenta cinco en diez días.",
+  "bestTime": "May–Jun y Sep–principios Oct (picos de temporada media)",
+  "flightFrom": "2–3h Londres / 8–9h costa este de EE.UU.",
+  "topExperience": "Costa, campo y catedrales",
+  "perfectFor": [
+    "Primerizos en Italia que quieren el triángulo Amalfi-Toscana-Lago Como",
+    "Lunas de miel de gastronomía y vino: Brunello, Barolo, Da Vittorio en Brusaporto, comida callejera siciliana",
+    "Amantes de la arquitectura y el arte: Florencia, Roma, las catedrales normandas de Palermo",
+    "Parejas que prefieren dos estancias largas a seis cortas: instálense en una masseria o villa",
+    "Románticos que valoran la belleza por sí misma: no hay país más generoso visualmente"
+  ],
+  "skipIf": [
+    "Quiere playas vírgenes y vacías en verano: Amalfi y Como están abarrotadas de junio a agosto",
+    "Tiene presupuesto ajustado en pico: Positano y el lago Como en julio superan los $1,200/noche",
+    "Le horroriza conducir carreteras estrechas en acantilado: la Amalfi SS163 es famosa por la tensión",
+    "Busca una semana de playa perezosa con base única: Italia premia el movimiento y la curiosidad"
+  ],
+  "experiences": [
+    { "icon": "🍋", "title": "Almuerzo en Da Adolfo en la playa de Laurito", "description": "Accesible solo en el barco de la bandera del pez rojo desde el muelle principal de Positano, Da Adolfo es el almuerzo de iniciados de la Amalfi desde hace cincuenta años. Mozzarella a la parrilla en hojas de limón, spaghetti alle vongole, melocotón blanco en vino local frío. Mesas de madera en la playa de guijarros, bañador permitido.", "cost": "€80–€140/pareja con vino de la casa", "tip": "Tome el barco de las 12:15, coma despacio, báñese a media comida; último barco de regreso a las 17:00. El conserje de Le Sirenuse avisa por radio." },
+    { "icon": "🚤", "title": "Bucle de ferry del lago Como: Bellagio, Varenna, Menaggio", "description": "El triángulo \"Centro Lago\" es la tarde que define el lago Como. Desde el muelle privado de Passalacqua tome el barco matinal a Bellagio para un Campari en Bar Rossi, cruce a Varenna para almorzar en Il Cavatappi y luego a Menaggio para un helado. Tres pueblos, cuatro horas, todo el sentido del lago.", "cost": "Pase de día €23/persona; lancha privada €450", "tip": "Primer ferry a las 9:30 para evitar excursionistas. El bucle en Riva vintage de Passalacqua cuesta €1,800: la foto compensa para siempre." },
+    { "icon": "🍷", "title": "Día de catas de Brunello en Montalcino", "description": "Día privado visitando Biondi-Santi (el productor original de 1888), Casanova di Neri y almuerzo en Osteria Osticcio con su bodega de 800 Brunellos y panorámica del Val d'Orcia. El día vinícola toscano definitivo.", "cost": "Guía privado + conductor + 3 fincas: €600–€900/pareja", "tip": "El sumiller de Borgo Santo Pietro organiza la ruta; pida la \"vertical Biondi-Santi\": tres añadas a lo largo de 30 años." },
+    { "icon": "🍝", "title": "Trastevere, ruta de trattorias en Roma", "description": "El antiguo barrio de artesanos de Roma en la orilla oeste del Tíber. Aperitivo en Freni e Frizioni, cacio e pepe en Da Enzo al 29 (sin reservas, cola a las 19:00 en punto), tiramisú en Pompi, copa final en Ponte Sisto con vista a la cúpula de San Pedro.", "cost": "€100–€160/pareja todo incluido", "tip": "Hospédese al sur del Viale di Trastevere (menos turístico). Como alternativa más tranquila, Da Cesare al Casaletto es donde comen los chefs romanos." },
+    { "icon": "🌋", "title": "Etna y Catania desde Verdura", "description": "Día largo pero gratificante desde Verdura: helicóptero o 2h30 en coche al flanco sur del Etna, almuerzo en Planeta o Pietradolce sobre las laderas volcánicas, atardecer en la barroca Piazza Duomo de Catania y arancini en Savia.", "cost": "Día en helicóptero €4,500/pareja; conductor privado €600", "tip": "El conserje de Verdura organiza el helicóptero, aterrizando en la propia bodega." }
+  ],
+  "months": [
+    { "month": "Jan", "weather": "Frío en toda Italia, 5–12°C", "emoji": "❄️", "crowds": "Muy baja", "price": "Mínimo", "verdict": "Solo ciudades: Roma y Florencia vacías y atmosféricas" },
+    { "month": "Feb", "weather": "Frío, alguna nieve al norte", "emoji": "❄️", "crowds": "Baja", "price": "Bajo", "verdict": "Salvo el Carnaval de Venecia, salte: Amalfi/Como cerrados" },
+    { "month": "Mar", "weather": "Primavera despertando, 10–16°C", "emoji": "🌸", "crowds": "Baja", "price": "Bajo", "verdict": "Ciudades y Toscana excelentes en valor; costa aún fresca" },
+    { "month": "Apr", "weather": "Magnífico 16–22°C, glicinas en flor", "emoji": "🌸", "crowds": "Moderada", "price": "Medio", "verdict": "Pico toscano; reabre la Amalfi: maravilloso, mayormente seco" },
+    { "month": "May", "weather": "Cálido 20–25°C, mar bañable al sur", "emoji": "☀️", "crowds": "Alta", "price": "Medio–Alto", "verdict": "El mejor mes: todo funciona, sin ola de calor" },
+    { "month": "Jun", "weather": "Caluroso 25–30°C, mar templándose", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Excelente antes de mediados; vacaciones escolares al final" },
+    { "month": "Jul", "weather": "Muy caluroso 30–35°C, ciudades húmedas", "emoji": "🥵", "crowds": "Máxima", "price": "Pico", "verdict": "Sí a la costa, pero las ciudades castigan: Florencia en julio es brutal" },
+    { "month": "Aug", "weather": "El más caluroso, cierres por ferragosto", "emoji": "🥵", "crowds": "Máxima", "price": "Pico", "verdict": "Italianos de vacaciones: pueblos turísticos abarrotados, restaurantes cerrados" },
+    { "month": "Sep", "weather": "Cálido 24–28°C, mar aún templado", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "El otro \"mejor\" mes: solo por detrás de mayo" },
+    { "month": "Oct", "weather": "Suave 18–24°C, vendimia", "emoji": "🍇", "crowds": "Moderada", "price": "Medio", "verdict": "Pico toscano: cosecha, trufas, luz perfecta" },
+    { "month": "Nov", "weather": "Refrescando 12–18°C, trufa blanca", "emoji": "🍂", "crowds": "Baja", "price": "Bajo", "verdict": "Ciudades y Toscana encantadoras; Amalfi cerrando" },
+    { "month": "Dec", "weather": "Frío, ciudades festivas", "emoji": "🎄", "crowds": "Moderada", "price": "Medio", "verdict": "Roma/Florencia en Navidad es mágico; costa cerrada" }
+  ],
+  "budgetTiers": [
+    { "label": "Alta gama", "range": "$500–$900/noche", "gets": "Excelentes 5★ urbanos, agriturismi toscanos clásicos, costa media.", "example": "Villa Cora Florencia, Hotel Splendido Mare Portofino, Capri Tiberio Palace" },
+    { "label": "Premium", "range": "$900–$2,000/noche", "gets": "Hoteles costeros de dirección icónica, masserie top, referencias junto al lago.", "example": "Belmond Hotel Caruso, Le Sirenuse, Masseria Torre Coccaro, Borgo Santo Pietro" },
+    { "label": "Ultra-lujo", "range": "$2,000–$6,000/noche", "gets": "Categoría \"mejor hotel del mundo\", fincas privadas, servicio ultra a medida.", "example": "Passalacqua Lago Como, Castello di Reschio, Verdura Resort Villa, J.K. Place Capri" }
+  ],
+  "areas": [
+    { "name": "Costa Amalfitana — Positano y Ravello", "bestFor": "Drama de acantilado, clásico mediterráneo", "description": "Positano es vibrante, vertical, fotogénico (Le Sirenuse); Ravello está a 365 m sobre el mar, más pausado (Belmond Hotel Caruso). Combínelos: 2 noches en Positano y 3 en Ravello." },
+    { "name": "Toscana y Umbría", "bestFor": "Campo lento, vino, gastronomía", "description": "Borgo Santo Pietro cerca de Chiusdino para alta cocina con estrella Michelin; Castello di Reschio para la sensación de finca privada entera. 4–5 noches, con excursiones a Siena, San Gimignano y Montalcino." },
+    { "name": "Lago Como", "bestFor": "Grandeza junto al lago, días de ferry", "description": "Passalacqua (ex-Mejor Hotel del Mundo) en la orilla occidental en Moltrasio. 3 noches mínimo para el triángulo de ferries y una cena en Bellagio." },
+    { "name": "Florencia y Roma", "bestFor": "Arte, arquitectura, luna de miel urbana", "description": "Florencia (Villa Cora con vistas a Boboli) para los Uffizi y el David; Roma para el Vaticano, Trastevere, Borghese. 3 noches en cada una, Frecciarossa (1h35) entre ambas." },
+    { "name": "Sicilia y Puglia", "bestFor": "Sur con sorpresa, menos gente", "description": "Las 230 hectáreas de Verdura Resort en la costa sur de Sicilia. Masseria Torre Coccaro en el Valle de Itria de Puglia: alquería fortificada del XVI, paisaje de trulli." }
+  ],
+  "expertTips": [
+    { "tip": "Elija dos regiones, no cinco: Italia castiga la prisa", "detail": "El error clásico: Roma → Florencia → Venecia → Amalfi → Capri en 10 noches. La fórmula que funciona en luna de miel: una base de campo o costa de 4–5 noches más una ciudad de 3 noches. Lo demás, para el próximo viaje a Italia." },
+    { "tip": "Evite agosto y, si es posible, la primera mitad de julio", "detail": "Los italianos toman ferragosto en agosto: tiendas cerradas, costas abarrotadas, precios al máximo. Florencia y Roma se vuelven punitivamente calurosas (38°C+). De mediados de septiembre a mediados de octubre es la ventana del entendido: mar cálido, fiestas de cosecha, precios un 30% más bajos." },
+    { "tip": "Reserve restaurantes antes que hoteles", "detail": "Da Vittorio en Brusaporto (3 estrellas Michelin) acepta reservas con 3 meses de antelación y las mesas de luna de miel vuelan. Lo mismo La Sponda en Le Sirenuse o Saporium en Borgo Santo Pietro. Cierre las cenas estrella antes que los vuelos." },
+    { "tip": "Conduzca en la Toscana; nunca en Amalfi ni en ciudades", "detail": "Un coche de alquiler es esencial en la Toscana: las carreteras secundarias son la gracia. Pero en la Costa Amalfitana, la SS163 es de tensión y aparcar imposible: un conductor privado (€400/día) sale más barato que el estrés. Las multas ZTL llegan meses después, €200–€400 cada una." },
+    { "tip": "Los días bisagra importan: llegue el martes, salga el domingo", "detail": "Los restaurantes italianos cierran un día a la semana (a menudo lunes); los museos suelen cerrar lunes (Uffizi, La Última Cena). El almuerzo dominical es sagrado. Llegando el martes y saliendo el domingo por la mañana esquiva los peores cierres." }
+  ],
+  "packing": [
+    { "item": "Vestuario casual elegante para la noche", "why": "Los italianos visten mejor que ustedes. Pantalón de lino y camisa por dentro para hombre; un vestido de verdad para mujer. Le Sirenuse, Passalacqua y Da Vittorio lo esperan." },
+    { "item": "Calzado cómodo pero elegante para caminar", "why": "Florencia, Roma y Positano son adoquinadas y empinadas. Mocasines o sandalias cuidadas valen para día y aperitivo." },
+    { "item": "Cachemir ligero o pashmina", "why": "Incluso en verano, las noches en la Amalfi y el lago Como refrescan rápido, y en las iglesias se exige cubrir hombros." },
+    { "item": "Bañador de verdad (y un segundo)", "why": "Los clubs de playa italianos en Le Sirenuse, Verdura y el Lido di Venezia son de ver y ser visto." },
+    { "item": "Gafas de sol que no le duela perder", "why": "El sol siciliano y de la Amalfi es intenso. Barcos y motos se cobran gafas en cualquier luna de miel italiana." },
+    { "item": "Mochila pequeña de día", "why": "Caminatas en viñedos toscanos, Pompeya, subir a Villa Cimbrone en Ravello: el agua y una chaqueta enrollada salvan el día." }
+  ],
+  "guide": {
+    "getting": "Vuele a Roma FCO o Milán MXP. Para la Amalfi: Nápoles NAP y traslado privado de 90 min o helicóptero. Para Sicilia: Palermo PMO o Catania CTA. Para Puglia: Bari BRI o Brindisi BDS. El Frecciarossa de alta velocidad (Roma-Florencia 1h35, Roma-Milán 3h) es más rápido y civilizado que el avión interno.",
+    "where": "12 noches clásicas: 4 noches Amalfi → 4 noches Toscana (Borgo Santo Pietro o Castello di Reschio) → 3 noches lago Como (Passalacqua) → 1 noche Milán para volar. Para 14 noches: añada 4 noches en Sicilia (Verdura) o Puglia (Masseria Torre Coccaro) antes de volar desde Catania o Bari.",
+    "when": "Mayo, finales de septiembre y principios de octubre son las ventanas del entendido: cálidas para la costa, frescas para las ciudades y un 30% más baratas que el pico de agosto."
+  },
+  "localFood": "La cocina italiana es regional, no nacional. Amalfi: spaghetti alle vongole, mozzarella di bufala, sfogliatelle. Toscana: bistecca alla fiorentina, pici cacio e pepe, Brunello y Chianti Classico. Lago Como: missoltini, risotto al pesce persico. Roma: cacio e pepe, carbonara (sin nata, jamás). Sicilia: arancini, pasta alla Norma, cannoli, granita con brioche al desayuno. Puglia: orecchiette con cime di rapa, burrata, focaccia barese.",
+  "language": "Italiano (el inglés se habla ampliamente en turismo)"
+}

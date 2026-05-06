@@ -1,0 +1,109 @@
+{
+  "tagline": "El referente mundial de las lunas de miel sobre el agua. Isla privada, laguna privada, mundo privado.",
+  "intro": "Las Maldivas son el referente global de las lunas de miel sobre el agua: 1.200 islas de coral diseminadas por el océano Índico, cada resort en su propia isla privada, sin tráfico, sin ciudades y sin más agenda que ustedes dos. El agua aquí es el azul más cristalino de la tierra, los arrecifes rebosan de mantarrayas y tiburones ballena, y las villas sobre el agua son la categoría de alojamiento más romántica jamás concebida.",
+  "bestTime": "Nov–Abril",
+  "flightFrom": "10–14h desde Europa",
+  "topExperience": "Villas sobre el agua",
+  "perfectFor": [
+    "Parejas que buscan aislamiento total: no hay necesidad de salir de la isla",
+    "Apasionados del mundo submarino (el snorkel y el buceo son de talla mundial)",
+    "Amantes de las villas sobre el agua: las Maldivas siguen marcando el estándar global",
+    "Lujo absoluto sin compromisos: mayordomo, spa, playa privada",
+    "Encuentros con tiburones ballena y mantarrayas (Atolón de Baa, Atolón de Ari Sur)"
+  ],
+  "skipIf": [
+    "Busca inmersión cultural: las Maldivas son una burbuja de resorts",
+    "Tiene un presupuesto ajustado: literalmente no existe la opción económica",
+    "Padece rápidamente el síndrome de la isla: la mayoría de los resorts tienen entre 30 y 100 villas como máximo",
+    "Quiere variedad de restaurantes fuera del hotel: su isla es su mundo",
+    "Prefiere montañas, selva o energía urbana"
+  ],
+  "experiences": [
+    {
+      "icon": "🌅",
+      "title": "Desayuno al amanecer en un banco de arena",
+      "description": "Un banco de arena privado en mitad del océano, con una mesa de desayuno servida, champán y nada más en 360 grados. La mañana más romántica del mundo.",
+      "cost": "$200–$400 por pareja",
+      "tip": "Reserve con al menos 48 horas de antelación: los mejores bancos de arena se reservan rápido."
+    },
+    {
+      "icon": "🐋",
+      "title": "Snorkel con tiburones ballena (Ari Sur / Baa)",
+      "description": "Nadar junto al pez más grande del mundo en mar abierto. Las Maldivas tienen la mayor densidad de avistamientos de tiburones ballena del planeta, sobre todo en los atolones de Baa y Ari Sur.",
+      "cost": "$100–$200 por persona",
+      "tip": "LUX South Ari Atoll cuenta con un biólogo marino residente y el mejor programa de tiburones ballena."
+    },
+    {
+      "icon": "🤿",
+      "title": "Inmersión nocturna o baño bioluminiscente",
+      "description": "Tras el atardecer, el plancton de las aguas maldivas brilla en azul eléctrico. Adentrarse en la laguna a las 21:00 es uno de los espectáculos más asombrosos que verá en su vida.",
+      "cost": "Gratis desde los escalones de su villa",
+      "tip": "La isla de Vaadhoo es famosa por ello, pero ocurre en todos los atolones cuando el agua está limpia y en calma."
+    },
+    {
+      "icon": "🛥️",
+      "title": "Crucero al atardecer con delfines",
+      "description": "Cada tarde, los delfines tornillo se reúnen para alimentarse en la caída del arrecife. La lancha de su resort los sigue mientras el cielo se vuelve naranja. El champán es opcional pero obligatorio.",
+      "cost": "$150–$300 por pareja",
+      "tip": "Pregunte en qué dirección suelen aparecer los delfines y reserve un bungaló orientado al atardecer."
+    },
+    {
+      "icon": "🏄",
+      "title": "Paddle surf al alba",
+      "description": "La laguna está completamente plana antes de las 7:00. Remar sobre el coral en silencio, viendo los peces bajo la tabla, es profundamente reparador. La mayoría de los resorts incluyen las tablas de forma gratuita.",
+      "cost": "Incluido en la mayoría de los resorts",
+      "tip": "Salga antes del desayuno, antes de que se levante el viento. La luz del amanecer sobre la laguna es extraordinaria."
+    }
+  ],
+  "months": [
+    { "month": "Jan", "weather": "Seco, cálido, mar en calma", "emoji": "☀️", "crowds": "Máxima", "price": "Muy alto", "verdict": "Perfecto pero caro" },
+    { "month": "Feb", "weather": "Plena temporada seca", "emoji": "☀️", "crowds": "Máxima", "price": "Muy alto", "verdict": "El mejor clima del año" },
+    { "month": "Mar", "weather": "Aún seco, caluroso", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Excelente, algo menos concurrido" },
+    { "month": "Apr", "weather": "Transición, algunas lluvias", "emoji": "🌤", "crowds": "Moderada", "price": "Medio", "verdict": "Buena relación calidad-precio" },
+    { "month": "May", "weather": "Comienza el monzón del SO", "emoji": "🌦", "crowds": "Baja", "price": "Bajo", "verdict": "Llegan los tiburones ballena (Atolón de Ari)" },
+    { "month": "Jun", "weather": "Monzón, mar más agitado", "emoji": "🌧", "crowds": "Baja", "price": "Mínimo", "verdict": "Las mejores ofertas, algo de lluvia" },
+    { "month": "Jul", "weather": "Monzón, más calmado que junio", "emoji": "⛅", "crowds": "Baja", "price": "Bajo", "verdict": "Pico de mantarrayas (Atolón de Baa)" },
+    { "month": "Aug", "weather": "Aliviándose, cálido", "emoji": "⛅", "crowds": "Moderada", "price": "Bajo-medio", "verdict": "Mes joya escondido" },
+    { "month": "Sep", "weather": "Transición a la temporada seca", "emoji": "🌤", "crowds": "Moderada", "price": "Medio", "verdict": "Buen equilibrio" },
+    { "month": "Oct", "weather": "Transición, mixto", "emoji": "⛅", "crowds": "Baja-mod.", "price": "Medio", "verdict": "Temporada media infravalorada" },
+    { "month": "Nov", "weather": "Vuelve la temporada seca", "emoji": "☀️", "crowds": "Moderada", "price": "Medio-alto", "verdict": "Comienza la temporada seca" },
+    { "month": "Dec", "weather": "Pico de la temporada seca, vacaciones", "emoji": "☀️", "crowds": "Máxima", "price": "Muy alto", "verdict": "Bellísimo, reserve con mucha antelación" }
+  ],
+  "budgetTiers": [
+    { "label": "Lujo accesible", "range": "$500–$1,200/noche", "gets": "Villa sobre el agua o en la playa, instalaciones compartidas, acceso al arrecife, spa. Sin mayordomo. Rango de Conrad y Anantara Veli.", "example": "Anantara Veli, LUX South Ari Atoll" },
+    { "label": "Premium", "range": "$1,200–$3,000/noche", "gets": "Villa privada con piscina, servicio de mayordomo, pensión completa o media pensión incluidas. El sueño clásico de las Maldivas.", "example": "Four Seasons Kuda Huraa, St Regis Vommuli" },
+    { "label": "Ultra-lujo", "range": "$3,000+/noche", "gets": "Las villas más grandes en playas privadas, todo incluido, acceso en helicóptero, equipo de mayordomos dedicados.", "example": "Soneva Jani, Conrad Two-Bedroom Water Villa" }
+  ],
+  "areas": [
+    { "name": "North Malé Atoll", "bestFor": "El más práctico: 20 min en lancha rápida", "description": "El más cercano al aeropuerto. Aquí se encuentran Four Seasons Kuda Huraa y muchos resorts emblemáticos. El más fácil de alcanzar, con algo más de tráfico de barcos visible." },
+    { "name": "South Malé Atoll", "bestFor": "Equilibrio entre acceso y aislamiento", "description": "45 min en lancha rápida desde el aeropuerto. Anantara Veli, Cocoa Island. Sensación algo más remota sin el coste de un hidroavión." },
+    { "name": "Baa Atoll (UNESCO)", "bestFor": "Mantarrayas y tiburones ballena", "description": "25 min en hidroavión. Anantara Kihavah, Four Seasons Landaa Giraavaru. Hogar de Hanifaru Bay, la mayor concentración de mantarrayas del mundo (julio–noviembre)." },
+    { "name": "Noonu / Raa Atolls", "bestFor": "Los más remotos, los más exclusivos", "description": "40-45 min en hidroavión. Territorio de Soneva Jani y Joali Being. Los más alejados de Malé y los resorts más exclusivos del planeta." }
+  ],
+  "expertTips": [
+    { "tip": "Reserve el hidroavión con la habitación, no después", "detail": "Los hidroaviones se agotan con meses de antelación en temporada alta. Si lo deja para el final, terminará en una lancha rápida de 2 horas cuando su resort estaba a 25 minutos en hidroavión." },
+    { "tip": "Solicite una villa orientada al este", "detail": "Amanecer sobre el océano Índico desde su terraza privada, directamente sobre la laguna. La mayoría de las parejas se conforman con la \"mejor vista\": especifique la orientación." },
+    { "tip": "Lleve una cámara subacuática, no una GoPro", "detail": "Las GoPros están bien, pero una Olympus TG-7 o similar le da 4K sin carcasa adicional. El agua de las Maldivas es tan clara que incluso las cámaras de móvil funcionan a 2 m de profundidad." },
+    { "tip": "La decisión de media pensión frente a pensión completa importa más aquí", "detail": "A diferencia de los hoteles urbanos, no se puede salir fácilmente del recinto a comer. La pensión completa a $200-$400/día por pareja es cara, pero evitar la ansiedad de la cuenta del restaurante resulta genuinamente liberador." },
+    { "tip": "Escriba al resort 2 semanas antes con una lista específica de peticiones de luna de miel", "detail": "Desayuno en un banco de arena, pétalos de rosa, champán a la llegada, mañana preferida para el crucero con delfines. Responden a la concreción con una amabilidad extraordinaria." }
+  ],
+  "packing": [
+    { "item": "Gafas de sol polarizadas", "why": "El reflejo de la laguna al mediodía le destrozará la vista sin ellas" },
+    { "item": "Protector solar respetuoso con el arrecife", "why": "Igual que en Bora Bora: la protección del coral es prioritaria" },
+    { "item": "Cámara subacuática (serie Olympus TG)", "why": "El snorkel aquí es demasiado bueno para documentarlo con un móvil borroso" },
+    { "item": "Chaqueta impermeable ligera", "why": "Las lluvias del monzón pasan en 20 minutos, pero son intensas" },
+    { "item": "Pastillas contra el mareo", "why": "Los traslados en lancha rápida en temporada de monzón (mayo-octubre) pueden ser movidos" },
+    { "item": "Dos bañadores al día", "why": "Estará constantemente en el agua. Un solo bañador se seca durante la noche con la humedad… tal vez." },
+    { "item": "Kindle u ocio sin conexión", "why": "El objetivo es desconectar. Acéptelo. Pero 7 noches son muchas." },
+    { "item": "Buen repelente de insectos", "why": "Hay jejenes al atardecer cerca de la vegetación. Funciona bien sin DEET." }
+  ],
+  "guide": {
+    "getting": "Vuele al aeropuerto internacional de Velana (MLE) en Malé. Desde allí, su resort organiza un traslado en hidroavión (20-45 min, espectacular: resérvelo con la habitación) o en lancha rápida (45-120 min según el atolón). Los hidroaviones solo operan con luz diurna: llegue antes de las 15:00 si su resort está a un trayecto de hidroavión.",
+    "where": "North Malé Atoll (el más accesible, 20 min en lancha), South Malé Atoll (45 min en lancha, más tranquilo), Baa Atoll (reserva de la biosfera UNESCO, 25 min en hidroavión, el mejor para mantas), Noonu/Raa (35-45 min en hidroavión, los más exclusivos: territorio de Soneva Jani).",
+    "when": "Noviembre-abril es la temporada seca: mar en calma, excelente visibilidad, sin lluvia, precios máximos. Mayo-octubre trae el monzón del SO: tarifas un 30-50% más bajas, lluvias ocasionales (cortas, tropicales), pero los atolones de Ari Sur y Baa concentran tiburones ballena y mantas en su máximo apogeo."
+  },
+  "localFood": "Cocina maldiva: mas huni (atún con coco para desayunar), garudhiya (caldo de pescado), bis keemiya (samosas). La mayoría de los resorts ofrecen menús totalmente internacionales. Desayunar en el restaurante sobre el agua viendo salir el sol es el ritual diario esencial.",
+  "currency": "Maldivian Rufiyaa (MVR), pero el USD se acepta en todos los resorts.",
+  "language": "Dhivehi e inglés. El inglés se habla con fluidez en todos los resorts.",
+  "timezone": "GMT+5 (Maldives Time)"
+}

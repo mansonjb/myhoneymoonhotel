@@ -1,0 +1,77 @@
+{
+  "tagline": "Vino, pueblos en lo alto, arte renacentista: la luna de miel en agriturismo más romántica de Europa.",
+  "intro": "La Toscana es la Italia lenta: la Italia agrícola, vinícola y pictórica, donde las lunas de miel se despliegan entre avenidas de cipreses y viñedos de Sangiovese, no en discotecas o carreteras de acantilado. Florencia es el ancla del norte, para días saturados de Renacimiento en los Uffizi y los Jardines de Boboli, pero el romance profundo vive fuera de la ciudad: en las colinas del Chianti entre Florencia y Siena (Castello di Casole, Borgo San Felice, Il Borro), al sur por la UNESCO Val d'Orcia hacia el pecorino de Pienza y el Brunello de Montalcino (Castiglion del Bosco), al oeste hasta las murallas etruscas de Volterra y la costa de la Maremma (Borgo Pignano, Hotel Il Pellicano en la península del Argentario). La luna de miel toscana clásica es una estructura de 7 noches con base en el campo: un único borgo restaurado para toda la estancia, con excursiones de un día a Siena, San Gimignano, Pienza y una noche final en Florencia. La cocina es regional, profundamente estacional y está construida en torno al Sangiovese: bistecca alla fiorentina, pici cacio e pepe, ragù de cinghiale, ribollita, panforte y los vinos que definen las cenas de luna de miel italianas: Brunello di Montalcino, Chianti Classico, Vino Nobile di Montepulciano y los Super Toscanos de Bolgheri. Mayo, junio, finales de septiembre y octubre son las ventanas para los entendidos: cálidos para la piscina, frescos para el viñedo y un 30% más baratos que el pico de agosto.",
+  "bestTime": "May–Oct (picos en may–jun y sep–oct)",
+  "flightFrom": "2h Londres / 8h costa este de EE. UU. (Florencia FLR o Pisa PSA)",
+  "topExperience": "Estancias en bodegas",
+  "perfectFor": [
+    "Parejas que quieren una luna de miel lenta en el campo: una sola base, exploración profunda",
+    "Amantes del vino: Brunello, Chianti Classico, catas en bodegas Super Toscanas",
+    "Recién casados gastronómicos en pos de la cocina toscana de granja con estrella Michelin",
+    "Amantes de la arquitectura y el arte: Florencia, Siena, los pueblos renacentistas",
+    "Románticos que valoran la belleza visual por sí misma: avenidas de cipreses, Val d'Orcia"
+  ],
+  "skipIf": [
+    "Quiere una semana de resort de playa: la costa toscana es rocosa y tranquila, no de arena",
+    "Su idea de romance son discotecas y compras: la Toscana es rural y pausada",
+    "Detesta conducir: las pequeñas carreteras blancas son la alegría y la necesidad",
+    "El calor de agosto (35 °C+) y el turismo doméstico italiano son intolerables",
+    "Quiere recorrer cinco regiones en diez noches: la Toscana premia quedarse quieto"
+  ],
+  "experiences": [
+    { "icon": "🍷", "title": "Cata de Brunello en Montalcino", "description": "Un día privado visitando Biondi-Santi (productor original desde 1888) y Casanova di Neri, con almuerzo en Osteria Osticcio, cuya bodega de 800 Brunelli ofrece panorámica sobre la Val d'Orcia. La experiencia vinícola toscana definitoria.", "cost": "Guía privado + chófer + 3 bodegas: 600-900 €/pareja", "tip": "Castiglion del Bosco organiza visitas privadas a bodega; pida la vertical Biondi-Santi de 30 años." },
+    { "icon": "🖼️", "title": "Mañana en los Uffizi, Florencia", "description": "Franja temprana reservada en los Uffizi (8:15): El nacimiento de Venus y Primavera de Botticelli, Leonardo, Miguel Ángel, Caravaggio. Seguido del almuerzo en la Trattoria Mario para la bistecca alla fiorentina.", "cost": "55 €/persona Uffizi + 40 € almuerzo", "tip": "Sáltese la audioguía oficial; contrate guía privado (180 € por 2 horas) y verá las obras maestras reales en 90 minutos." },
+    { "icon": "🌅", "title": "Recorrido entre cipreses por la Val d'Orcia", "description": "Una jornada larga y bella conduciendo por la UNESCO Val d'Orcia: Pienza para el pecorino y un almuerzo en lo alto, Bagno Vignoni con su plaza-piscina termal, San Quirico y la Cappella della Madonna di Vitaleta en su avenida de cipreses a la hora dorada.", "cost": "Gratis; se necesita coche de alquiler", "tip": "La capilla Vitaleta es la avenida de cipreses más fotografiada de la Toscana: vaya a las 19:00 en junio para la mejor luz." },
+    { "icon": "🍄", "title": "Búsqueda de trufa blanca, San Miniato", "description": "Media jornada con un trufero y sus perros por los bosques de San Miniato, capital de la trufa blanca toscana. Las trufas se desentierran, se pesan y se ralla sobre la pasta hecha a mano del almuerzo en la casa de campo del trufero.", "cost": "250-400 €/pareja con almuerzo incluido", "tip": "Octubre-noviembre es plena temporada; reserve a través del concierge del borgo para truferos legítimos (algunos operadores son teatrales)." },
+    { "icon": "👨‍🍳", "title": "Clase de cocina toscana", "description": "Una jornada completa en la escuela del borgo elaborando pici (espaguetis gruesos a mano) con ragù de cinghiale, ribollita y una panna cotta con miel del fundo. El almuerzo es lo que cocinaron, maridado con Chianti propio.", "cost": "180-350 €/pareja", "tip": "Castiglion del Bosco, Castello di Casole, Borgo Pignano y Borgo San Felice operan excelentes escuelas de cocina: elija la del borgo donde se aloje." }
+  ],
+  "months": [
+    { "month": "Jan", "weather": "Frío 5-12 °C, lluvia", "emoji": "❄️", "crowds": "Muy baja", "price": "Mínimo", "verdict": "Mayoría de hoteles rurales cerrados; Florencia atmosférica y vacía" },
+    { "month": "Feb", "weather": "Frío 6-13 °C", "emoji": "❄️", "crowds": "Muy baja", "price": "Mínimo", "verdict": "Hoteles rurales cerrados; solo ciudades" },
+    { "month": "Mar", "weather": "Fresco 10-16 °C, primavera asomando", "emoji": "🌸", "crowds": "Baja", "price": "Bajo", "verdict": "Final de mes, valor: borgos reabriendo, Florencia excelente" },
+    { "month": "Apr", "weather": "Hermoso 14-20 °C, glicinas", "emoji": "🌸", "crowds": "Moderada", "price": "Medio", "verdict": "Magia de temporada media: jardines en pico, precios moderados" },
+    { "month": "May", "weather": "Cálido 18-24 °C", "emoji": "☀️", "crowds": "Alta", "price": "Medio-alto", "verdict": "El mejor mes: tiempo perfecto, programación completa" },
+    { "month": "Jun", "weather": "Cálido 22-28 °C", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Excelente hasta mediados; vacaciones escolares italianas a final de mes" },
+    { "month": "Jul", "weather": "Caluroso 28-34 °C", "emoji": "🥵", "crowds": "Máxima", "price": "Pico", "verdict": "Caluroso en interior; las ciudades castigan, hoteles rurales en tarifa pico" },
+    { "month": "Aug", "weather": "Lo más caluroso 30-36 °C, ferragosto", "emoji": "🥵", "crowds": "Máxima", "price": "Pico", "verdict": "Agosto italiano: locales de vacaciones, restaurantes cerrados, atascado" },
+    { "month": "Sep", "weather": "Cálido 22-28 °C, vendimia", "emoji": "🍇", "crowds": "Alta", "price": "Alto", "verdict": "El otro mejor mes: la vendimia de finales de sep. es mágica" },
+    { "month": "Oct", "weather": "Suave 16-22 °C, vendemmia", "emoji": "🍂", "crowds": "Moderada", "price": "Medio", "verdict": "Pico Toscana: cosecha, trufa blanca, luz perfecta" },
+    { "month": "Nov", "weather": "Fresco 10-16 °C, trufa blanca", "emoji": "🍂", "crowds": "Baja", "price": "Bajo", "verdict": "Pico de trufas; muchos hoteles rurales cierran a mediados de mes" },
+    { "month": "Dec", "weather": "Frío 6-12 °C, festivo", "emoji": "🎄", "crowds": "Baja", "price": "Bajo", "verdict": "Florencia en Navidad es mágica; hoteles rurales cerrados" }
+  ],
+  "budgetTiers": [
+    { "label": "Gama alta", "range": "400-700 USD/noche", "gets": "Excelentes agriturismi, alquerías restauradas, borgos pequeños con piscina y desayuno.", "example": "Borgo Pignano (categoría inicial), Locanda dell'Amorosa, Villa Sassolini" },
+    { "label": "Premium", "range": "700-1.500 USD/noche", "gets": "Mejores fincas Relais & Châteaux, borgos con servicio completo, alta cocina con estrellas en la propiedad.", "example": "Borgo San Felice, Il Borro, Borgo Santo Pietro, Castello di Casole (suites de entrada)" },
+    { "label": "Ultra-lujo", "range": "1.500-6.000+ USD/noche", "gets": "Las mejores fincas rurales del mundo, villas privadas con mayordomo, servicio ultrapersonalizado.", "example": "Rosewood Castiglion del Bosco, Castello di Casole (Castle Suites y Borgo Villas), Hotel Il Pellicano" }
+  ],
+  "areas": [
+    { "name": "Chianti Classico", "bestFor": "Vino, viñedos ondulantes, posición central", "description": "Las colinas entre Florencia y Siena: tierra del Sangiovese, paisaje clásico de cipreses y viñas. Castello di Casole, Borgo San Felice, Il Borro, COMO Castello del Nero." },
+    { "name": "Val d'Orcia y Montalcino", "bestFor": "Paisaje UNESCO, Brunello, pecorino de Pienza", "description": "El corazón sur de la Toscana: colinas arcillosas onduladas, cipreses solitarios, el paisaje agrícola más fotografiado de Europa. Castiglion del Bosco es el hotel cumbre." },
+    { "name": "Florencia y ciudad", "bestFor": "Arte renacentista, arquitectura, luna de miel urbana", "description": "Para 2-3 noches de Uffizi, Boboli y David. Villa Cora se asoma a los Jardines de Boboli; Hotel Savoy, en Piazza della Repubblica, es la elección céntrica." },
+    { "name": "Costa de la Maremma y Argentario", "bestFor": "Toscana costera, baño en acantilado rocoso, estética Slim Aarons", "description": "La costa sur toscana en torno al Monte Argentario. Hotel Il Pellicano es el icono cinematográfico. Costa rocosa y tranquila, sin las multitudes de la Amalfitana." }
+  ],
+  "expertTips": [
+    { "tip": "Elija un borgo y quédese 5-7 noches: la Toscana castiga la prisa", "detail": "El error clásico: Florencia → Chianti → Montalcino → Pienza → Volterra en 7 noches, cambiando hotel cada 2 días. La fórmula que funciona en luna de miel: un único borgo durante 5-7 noches, excursiones de día desde esa base, más opcionalmente 2 noches en Florencia." },
+    { "tip": "Evite agosto y, si es posible, la primera mitad de julio", "detail": "Los italianos toman el ferragosto en agosto: tiendas cerradas, pueblos rurales tomados por el turismo doméstico, precios en pico. De mediados de septiembre a mediados de octubre es la ventana del entendido: cálido, vendimia en marcha y precios un 25-30% más bajos." },
+    { "tip": "Alquile coche: la Toscana sin conducir es la mitad de la experiencia", "detail": "Las strade bianche que unen los pueblos son la alegría de la Toscana. Un coche pequeño tipo Fiat es suficiente; las carreteras secundarias hacia Pienza, Montepulciano y los viñedos del Chianti son la razón por la que vienen las parejas." },
+    { "tip": "Reserve las cenas con estrella antes que los vuelos", "detail": "Poggio Rosso (Borgo San Felice), Campo del Drago (Castiglion del Bosco), Tosca (Castello di Casole) y Saporium (Borgo Santo Pietro) son cenas a la altura de una luna de miel: reserve cuando reserve el hotel, sobre todo los sábados." },
+    { "tip": "Sáltese Pisa salvo plan específico para la Torre Inclinada", "detail": "La Torre Inclinada es una foto de 30 minutos, no un imprescindible toscano. Use el aeropuerto de Pisa (PSA) para acceder a Volterra y Maremma, pero dedique sus excursiones a Siena, San Gimignano, Pienza o Montalcino." }
+  ],
+  "packing": [
+    { "item": "Vestuario smart-casual de noche", "why": "Los italianos visten mejor que ustedes. Pantalón de lino y camisa metida para él; un vestido de verdad para ella. Tosca, Campo del Drago y Poggio Rosso lo esperan." },
+    { "item": "Calzado cómodo para pueblos adoquinados", "why": "Siena, San Gimignano, Volterra y Pienza son adoquinados y empinados. Mocasines o sandalias de verdad para visita y aperitivo." },
+    { "item": "Cachemira ligera o pashmina", "why": "Incluso en verano, las tardes rurales toscanas refrescan rápido; las iglesias requieren hombros cubiertos." },
+    { "item": "Gafas de sol y protector solar", "why": "El sol toscano de verano es intenso, sobre todo en visitas a viñedos y trayectos por la Val d'Orcia al mediodía." },
+    { "item": "Carné de conducir y permiso internacional", "why": "Necesario si alquila coche: las licencias de Reino Unido y EE. UU. requieren IDP en algunas agencias." },
+    { "item": "Un conjunto de cena de verdad por pareja", "why": "Una noche de sábado en Castiglion del Bosco, Castello di Casole o Il Pellicano es un momento para arreglarse: las fotografías sobrevivirán al viaje." }
+  ],
+  "guide": {
+    "getting": "Florencia (FLR) es la puerta principal: vuelos directos desde Londres, París, Fráncfort, Ámsterdam y la mayoría de hubs europeos (2h desde Reino Unido), o vía Roma FCO desde EE. UU. Pisa (PSA) es la alternativa, a 60-90 minutos al oeste: directo desde Londres, París y muchas ciudades europeas. Roma Fiumicino (FCO) está a 2-3 horas en coche o tren al sur y funciona bien para la Maremma y la Val d'Orcia. El Frecciarossa de alta velocidad enlaza Roma-Florencia en 1h35 y Milán-Florencia en 1h50: considérelo en lugar de vuelos internos.",
+    "where": "Castiglion del Bosco (Rosewood) para la luna de miel cumbre en la Val d'Orcia. Castello di Casole (Belmond) para el lujo cinematográfico de finca cerca de Volterra. Borgo San Felice (Relais & Châteaux) para el lujo medio del Chianti Classico con gastronomía seria. Il Borro (Ferragamo) para una luna de miel medieval en la Toscana oriental con talleres artesanos. Borgo Pignano para la Italia agrícola lenta cerca de Volterra. Hotel Il Pellicano para la Toscana costera del Argentario.",
+    "when": "Mayo, finales de septiembre y octubre son las ventanas del entendido: cálido para la piscina, fresco para viñedos y ciudades, un 25-30% más barato que en agosto. La semana mágica es la de la cosecha del Brunello a finales de septiembre. Evite agosto."
+  },
+  "localFood": "La cocina toscana es rústica, regional y articulada en torno al Sangiovese: bistecca alla fiorentina (chuletón al carbón de castaño, poco hecha); pici cacio e pepe y pici al cinghiale (espaguetis gruesos hechos a mano con ragù de jabalí); ribollita (sopa rústica de col negra, judía blanca y pan duro); pappa al pomodoro; pecorino di Pienza (el famoso queso de oveja de la Val d'Orcia); cinta senese (cerdo toscano de raza autóctona); trufas blancas de San Miniato (octubre-noviembre); panforte (la densa torta de especias sienesa); cantuccini mojados en Vin Santo. Vinos: Brunello di Montalcino, Chianti Classico Riserva, Vino Nobile di Montepulciano, Vernaccia di San Gimignano y los Super Toscanos de Bolgheri.",
+  "currency": "EUR (Euro)",
+  "language": "Italiano (inglés ampliamente hablado a nivel de hotel de lujo)",
+  "timezone": "CET (UTC+1, UTC+2 in summer)"
+}

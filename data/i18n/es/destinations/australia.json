@@ -1,0 +1,108 @@
+{
+  "tagline": "Una luna de miel continental: Gran Barrera de Coral, Uluru, el puerto de Sídney y la naturaleza salvaje de Tasmania. El viaje multi-destino más variado del mundo.",
+  "intro": "Australia es la luna de miel única en la vida: un continente que exige varios vuelos internos y al menos 14 días para hacerle justicia. La trifecta de la luna de miel: una ciudad icónica (Sídney por la vista de la Ópera), la Gran Barrera de Coral (Lizard Island como isla privada, qualia solo para adultos en las Whitsundays) y el Centro Rojo (los pabellones de tienda Longitude 131° frente a Uluru). Añada Tasmania (Saffire Freycinet, Southern Ocean Lodge en la isla Kanguro) para la etapa de naturaleza meridional, o el valle vinícola de Margaret River para el desenlace occidental. No existe otro país donde se pueda ver coral, desierto, viñedo y metrópolis en 14 días.",
+  "bestTime": "Sep–Nov y Mar–May (temporadas medias)",
+  "flightFrom": "20-24h desde Europa, 14h desde LAX",
+  "topExperience": "Recorrido continental con varias paradas",
+  "perfectFor": [
+    "Parejas con una luna de miel de 14-21 días dispuestas a tomar 3-5 vuelos internos",
+    "Aficionados a la playa y al arrecife (la Gran Barrera de Coral es la mayor del mundo)",
+    "Parejas amantes del vino: Margaret River, Hunter Valley, McLaren Vale, Tasmania",
+    "Fotógrafos de paisajes cinematográficos (amanecer en Uluru, Whitehaven Beach, Wineglass Bay)",
+    "Lunas de miel de gran ciudad (Sídney es una de las urbes más fotografiadas del mundo)"
+  ],
+  "skipIf": [
+    "Dispone de menos de 12 noches: Australia es demasiado vasta para viajes cortos",
+    "Los vuelos de larga distancia (más de 20 horas) son un obstáculo insalvable",
+    "Su presupuesto está por debajo de $5,000 por persona todo incluido (vuelos internacionales y lodges 5 estrellas)",
+    "Quiere una luna de miel de un solo resort (qualia o Lizard Island funcionan por sí solos, pero perdería el país)",
+    "Desea un clima perfecto garantizado: las estaciones australianas son inversas a las del hemisferio norte"
+  ],
+  "experiences": [
+    {
+      "icon": "🪸",
+      "title": "Esnórquel y buceo en la Gran Barrera de Coral",
+      "description": "El mayor ecosistema de coral del planeta (2.300 km, visible desde el espacio). Lizard Island ofrece acceso directo en lancha; qualia y la marina de Hamilton Island despliegan catamaranes al arrecife exterior; Sailaway desde Port Douglas es la opción de un día. Cod Hole, Bait Reef y Hardy Reef son los enclaves legendarios.",
+      "cost": "Esnórquel medio día desde $200/pareja; acceso a isla privada $1,500+/pareja/noche",
+      "tip": "Visite de mayo a octubre para mar en calma y mejor visibilidad (más de 25 m). Noviembre-abril es temporada de ciclones: reserve los días en el arrecife exterior como complementos flexibles, no como actividades fijas."
+    },
+    {
+      "icon": "🏜️",
+      "title": "Amanecer en Uluru y Field of Light",
+      "description": "Contemplar cómo Uluru cambia del azul al rojo al amanecer es el momento que define el Centro Rojo. Field of Light (la instalación desértica de 50.000 tallos de Bruce Munro, de noche) y la cena en lo alto de la duna en Longitude 131° convierten al monolito de arenisca en el escenario más cinematográfico de Australia.",
+      "cost": "Field of Light $50/persona; cena en duna en Longitude 131° incluida con la estancia",
+      "tip": "Hospédese en Longitude 131° (16 pabellones de tienda frente a Uluru): no hay otro alojamiento con la misma vista. Reserve con 9-12 meses de antelación."
+    },
+    {
+      "icon": "🌉",
+      "title": "Cena en la Ópera de Sídney y BridgeClimb",
+      "description": "Cena en Bennelong (dentro de la vela de la Ópera) seguida de una ópera u ballet contemporáneo, y regreso a pie por Circular Quay. A la mañana siguiente, BridgeClimb al Sydney Harbour Bridge para fotos de 360°. El Park Hyatt Sydney es el único hotel frente a la Ópera del otro lado del agua.",
+      "cost": "BridgeClimb $300-$400/persona; cena en Bennelong $200-$300/pareja",
+      "tip": "Reserve Bennelong en horario \"pre-función\" si asiste a la Ópera la misma noche. Reserve el BridgeClimb a primera hora de la mañana para la mejor luz sobre el puerto."
+    },
+    {
+      "icon": "🍷",
+      "title": "Día vinícola en Margaret River o Tasmania",
+      "description": "Margaret River (a 3h de Perth) para Cabernet Sauvignon, Chardonnay y surf; Tasmania para Pinot Noir y espumosos. Excursiones de un día con conductor privado desde su hotel base recorren 4-5 bodegas con un largo almuerzo en el viñedo.",
+      "cost": "Guía privado $500-$1,000/pareja jornada completa",
+      "tip": "Margaret River funciona como escapada de 2-3 noches desde Perth (Crown Towers); el vino tasmano se disfruta mejor desde Saffire Freycinet como parte del recorrido por la costa este."
+    },
+    {
+      "icon": "🦘",
+      "title": "Fauna en Kangaroo Island y Southern Ocean Lodge",
+      "description": "Leones marinos australianos en la playa de Seal Bay, koalas en libertad por los senderos del lodge, demonios de Tasmania en santuarios. Southern Ocean Lodge (reabierto en 2023 tras los incendios) es la dramática base sobre el acantilado.",
+      "cost": "$2,500-$5,500/noche por pareja en Southern Ocean Lodge (todo incluido)",
+      "tip": "Combine con 2-3 noches en Adelaida para el valle vinícola de Barossa. Reserve Southern Ocean Lodge con 9-12 meses de antelación: solo 25 suites."
+    }
+  ],
+  "months": [
+    { "month": "Jan", "weather": "Caluroso, vacaciones de verano", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Pico de playa, pero húmedo y con riesgo de ciclón en el norte" },
+    { "month": "Feb", "weather": "Caluroso, húmedo, ciclones", "emoji": "🌧", "crowds": "Mod. (vuelta al cole)", "price": "Alto", "verdict": "Evitar las zonas del arrecife septentrional" },
+    { "month": "Mar", "weather": "Refrescando, lluvioso al norte", "emoji": "⛅", "crowds": "Moderada", "price": "Medio-alto", "verdict": "Sídney y Tasmania excelentes; arrecife en transición" },
+    { "month": "Apr", "weather": "Otoño suave", "emoji": "🌤", "crowds": "Moderada", "price": "Medio", "verdict": "Otoño ideal para Sídney y Uluru" },
+    { "month": "May", "weather": "Fresco, seco, perfecto", "emoji": "🌤", "crowds": "Mod-baja", "price": "Medio", "verdict": "Mejor mes de la estación seca" },
+    { "month": "Jun", "weather": "Fresco y seco, comienza el invierno", "emoji": "🌤", "crowds": "Baja-mod.", "price": "Medio", "verdict": "Excelente para Uluru y el arrecife" },
+    { "month": "Jul", "weather": "Fresco y seco, llegan las ballenas", "emoji": "🌤", "crowds": "Mod. (vacaciones escolares)", "price": "Medio-alto", "verdict": "Pico de avistamiento de ballenas; noches frescas en el sur" },
+    { "month": "Aug", "weather": "Fresco y seco, perfecto", "emoji": "☀️", "crowds": "Moderada", "price": "Medio-alto", "verdict": "Mejor mes para una luna de miel multi-región" },
+    { "month": "Sep", "weather": "Primavera templándose", "emoji": "☀️", "crowds": "Moderada", "price": "Alto", "verdict": "Punto dulce: cálido y poca lluvia" },
+    { "month": "Oct", "weather": "Primavera cálida, floración", "emoji": "☀️", "crowds": "Alta (al alza)", "price": "Alto", "verdict": "Excelente en todas las regiones" },
+    { "month": "Nov", "weather": "Cálido, calor en aumento", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Final de primavera magnífico; arrecife templándose" },
+    { "month": "Dec", "weather": "Vacaciones de verano calurosas", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Pico de playa: caos en Sídney en Navidad y Fin de Año" }
+  ],
+  "budgetTiers": [
+    { "label": "Lujo urbano", "range": "$700–$2,200/noche", "gets": "Park Hyatt Sydney (vista a la Ópera), Capella Sydney, Crown Towers Perth: 5 estrellas full-service con vistas, spas y alta gastronomía.", "example": "Park Hyatt Sydney, Capella Sydney, Crown Towers Perth" },
+    { "label": "Lodges icónicos", "range": "$1,500–$3,500/noche por pareja todo incluido", "gets": "Saffire Freycinet, qualia, Lizard Island, Capella Lodge: lodges de destino con actividades incluidas y la mayoría de las comidas.", "example": "Saffire Freycinet, qualia, Lizard Island Resort" },
+    { "label": "Naturaleza ultra-lujo", "range": "$2,500–$5,500/noche por pareja todo incluido", "gets": "Longitude 131° (Uluru), Southern Ocean Lodge (Kangaroo Island): la categoría insignia de Baillie Lodges con experiencias en helicóptero y exclusivas.", "example": "Longitude 131°, Southern Ocean Lodge" }
+  ],
+  "areas": [
+    { "name": "Sídney y Nueva Gales del Sur (este)", "bestFor": "Ciudad icónica y vinos del Hunter Valley", "description": "Park Hyatt Sydney para lunas de miel con vista a la Ópera; Capella Sydney para patrimonio con sello de diseño. 3-4 noches en Sídney con excursión vinícola al Hunter Valley es la etapa urbana clásica." },
+    { "name": "Whitsundays y Gran Barrera de Coral (Queensland)", "bestFor": "Romance de arrecife y resort de isla", "description": "qualia (solo adultos en Hamilton Island) y Lizard Island (isla privada) son los iconos. Whitehaven Beach, Heart Reef en helicóptero, días de esnórquel en arrecife exterior. Mínimo 4-5 noches." },
+    { "name": "Uluru y Centro Rojo (Territorio del Norte)", "bestFor": "Espiritualidad del desierto y cultura aborigen", "description": "Longitude 131° es la única opción de lujo. 2-3 noches para la caminata base de Uluru, la ruta a Kata Tjuta, Field of Light y la cena en duna." },
+    { "name": "Tasmania (Saffire y Southern Ocean Lodge)", "bestFor": "Naturaleza, vino y mariscos", "description": "Saffire Freycinet (costa este) y Southern Ocean Lodge en Kangaroo Island (técnicamente Australia Meridional, a menudo combinada con Tasmania) son la categoría salvaje del sur. Añada 5-7 noches." },
+    { "name": "Perth y Margaret River (Australia Occidental)", "bestFor": "Vinos y lujo remoto", "description": "Crown Towers Perth como base urbana, después un viaje de 3 días por la región vinícola de Margaret River. Suma 5-6 noches y la experiencia vinícola más diversa de Australia." }
+  ],
+  "expertTips": [
+    { "tip": "Construya el viaje en torno a 3 regiones como máximo, no a 5", "detail": "Intentar Sídney + Arrecife + Uluru + Tasmania + Perth en 14 noches es demasiado. Elija tres: típicamente Sídney + Arrecife + Uluru para el circuito icónico, o Sídney + Tasmania + Arrecife para el circuito de naturaleza." },
+    { "tip": "Reserve los vuelos internos con Qantas, no con low-cost", "detail": "Qantas opera los horarios más fiables entre Sídney, Cairns, Hamilton Island, Ayers Rock, Hobart y Perth. El \"descuento\" de Jetstar le saldrá caro en retrasos y traslados de lodge perdidos." },
+    { "tip": "Para el arrecife, elija Lizard Island O qualia, no ambos", "detail": "Ambos son lujo de isla privada/Whitsundays. Lizard para inmersión en el arrecife (5 noches de esnórquel y buceo); qualia para el pulido solo adultos (5 noches de pabellones, piscina, Pebble Beach Club)." },
+    { "tip": "Hospédese al menos 3 noches en Longitude 131°", "detail": "Uluru merece 3 noches para la caminata base al amanecer, el día en Kata Tjuta y Field of Light + cena en duna. 2 noches resultan apresuradas; 4 son lujosas." },
+    { "tip": "Reserve la cata ABC (Australian Bush Tucker) en Longitude 131°", "detail": "Las catas culturales Anangu y los talleres de pintura en puntos en el Centro Cultural son contexto esencial. Resérvelos por anticipado a través de su conserje." }
+  ],
+  "packing": [
+    { "item": "Protector solar respetuoso con el arrecife (Stream2Sea o similar)", "why": "Las zonas del arrecife australiano restringen las cremas con oxibenzona; la radiación UV es intensa todo el año" },
+    { "item": "Camisas ligeras de manga larga (UPF 50+)", "why": "La protección solar en barcos y rutas por Uluru importa más que el bronceado" },
+    { "item": "Calzado de senderismo y de agua", "why": "Botas de senderismo para la base de Uluru y las rutas de Tasmania; escarpines para esnórquel desde la playa" },
+    { "item": "Capas para los cambios térmicos del desierto", "why": "Uluru puede tener 35°C de día y 5°C de noche, incluso en invierno" },
+    { "item": "Adaptador eléctrico australiano (Tipo I)", "why": "Australia usa enchufes únicos de 3 patas anguladas: lleve un adaptador multi-región" },
+    { "item": "Gafas de sol polarizadas", "why": "Reflejos del arrecife, del desierto y del puerto de Sídney: irrenunciables" },
+    { "item": "Atuendo casual elegante para cenas en Sídney y qualia", "why": "Bennelong, Aria y Long Pavilion en qualia exigen vestimenta cuidada" },
+    { "item": "Cámara de calidad (mirrorless preferible)", "why": "Vuela 20 horas para fotografiar Uluru y la Ópera: el móvil se queda corto" }
+  ],
+  "guide": {
+    "getting": "Vuele a Sídney (SYD) o Melbourne (MEL) como puertas de entrada internacionales. Desde Europa: ~24h vía Singapur (SQ), Doha (QR) o Dubái (EK). Desde la Costa Oeste de EE.UU.: 14h directo con Qantas, United o American. Vuelos internos con Qantas y Jetstar a las principales ciudades y aeropuertos turísticos (Hamilton Island HTI, Ayers Rock AYQ, Hobart HBA, Cairns CNS, Perth PER).",
+    "where": "Luna de miel clásica de 14 noches: 4 noches Sídney (Park Hyatt) → 5 noches Arrecife (qualia o Lizard Island) → 3 noches Uluru (Longitude 131°) → 2 noches Sídney para regreso. Versión salvaje de 21 noches: añade 5 noches Tasmania + 3 noches Kangaroo Island. Versión vino: 14 noches con 3 en Margaret River en lugar del arrecife.",
+    "when": "Septiembre-noviembre (primavera austral) y marzo-mayo (otoño) son los puntos dulces: cálidos para el arrecife, frescos para el Centro Rojo. Evite diciembre-febrero en el norte (riesgo de ciclones) y junio-agosto en Tasmania (frío y húmedo) salvo que le atraiga el invierno tasmano."
+  },
+  "localFood": "Cocina australiana moderna: ingredientes nativos (canguro, cocodrilo, finger lime, mirto limón, pimienta nativa) cocinados con técnicas internacionales. Restaurantes de talla mundial: Quay (Sídney), Tetsuya's (Sídney), Vue de Monde (Melbourne), Brae (Birregurra), Fervor (cenas pop-up en plena naturaleza). Vinos: Cabernet/Chardonnay de Margaret River, Semillon del Hunter, Pinot tasmano, espumosos del Yarra. La cultura del café está entre las mejores del mundo: flat whites por todas partes.",
+  "language": "Inglés. Vocabulario australiano característico (brekkie = desayuno, arvo = tarde, servo = gasolinera). Las lenguas aborígenes aún se hablan en algunas comunidades; aprenda a saludar en pitjantjatjara en Uluru como gesto de cortesía."
+}

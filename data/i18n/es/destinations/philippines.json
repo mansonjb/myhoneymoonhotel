@@ -1,0 +1,147 @@
+{
+  "tagline": "Más de 7.000 islas, atolones privados y algunas de las aguas más claras de Asia: el archipiélago de los sueños.",
+  "intro": "Filipinas es el secreto de lujo mejor guardado del Sudeste Asiático. Mientras Tailandia y Bali absorben las multitudes, las bahías kársticas calizas de Palawan declaradas Patrimonio de la Humanidad, los rompientes de surf entre cocoteros de Siargao y el atolón privado de Aman en Pamalican ofrecen algunos de los paisajes insulares más espectaculares y prístinos del mundo. Amanpulo, en Pamalican, tiene las casitas de playa privadas más extraordinarias de Asia. Los lagos cristalinos y los pecios de la Segunda Guerra Mundial de Coron son únicos en la tierra. Filipinas recompensa a las parejas que miran más allá de la superficie.",
+  "bestTime": "Nov–May",
+  "flightFrom": "13–16h desde Europa (vía Singapur o Hong Kong)",
+  "topExperience": "Isla privada y buceo",
+  "perfectFor": [
+    "Parejas que buscan auténtica soledad en isla privada: Amanpulo no admite visitas de día",
+    "Apasionados del buceo: el arrecife de Tubbataha es uno de los tres mejores del mundo",
+    "Adictos al island-hopping de El Nido: el paisaje costero más espectacular de Asia",
+    "Surfistas que quieren un destino romántico con olas de talla mundial (Siargao)",
+    "Quienes buscan el mejor lujo de playa de Asia a precios menores que los de Maldivas"
+  ],
+  "skipIf": [
+    "Visita de junio a octubre: la temporada de tifones hace arriesgado el norte",
+    "La logística de viaje fácil es prioridad: las conexiones interinsulares requieren planificación",
+    "Quiere cultura urbana junto al tiempo de playa: Manila se omite mejor",
+    "Su presupuesto es inferior a $200/noche: lo mejor de Filipinas es accesible pero no barato"
+  ],
+  "experiences": [
+    {
+      "icon": "🏝️",
+      "title": "Tour C de island-hopping en El Nido",
+      "description": "El día más espectacular del archipiélago de Bacuit: Hidden Beach, Secret Lagoon y la Big Lagoon a bordo de un bangka entre torres calizas que emergen de un mar esmeralda. Nada en Asia se le compara.",
+      "cost": "$25–$60 por persona compartido; chárter privado $200–$400",
+      "tip": "Salga a las 6:00 con un chárter privado para llegar a Hidden Beach antes de la flota de barcos turísticos. Los tours A y C son las dos rutas imprescindibles."
+    },
+    {
+      "icon": "🤿",
+      "title": "Buceo en pecios de la Segunda Guerra Mundial en Coron",
+      "description": "La bahía de Coron alberga una flota de buques japoneses de la Segunda Guerra Mundial entre 15 y 35 m, ahora cubiertos de coral y habitados por enormes meros. Kogyo Maru y Okikawa Maru están entre los mejores pecios del mundo.",
+      "cost": "$60–$100 por persona por inmersión guiada",
+      "tip": "Combínelo con el lago Kayangan, considerado el más limpio de Asia, con espectaculares paredes calizas."
+    },
+    {
+      "icon": "🌊",
+      "title": "Surf en Cloud 9, Siargao",
+      "description": "El rompiente de arrecife más famoso de Asia: una potente derecha hueca que acoge campeonatos internacionales. Los principiantes aprenden en Jacking Horse o Stimpy's, no en Cloud 9.",
+      "cost": "Clases $20–$30; alquiler de tabla $10–$15/día",
+      "tip": "Septiembre es cuando Cloud 9 está más grande y mejor. Mayo–junio ofrece gran ambiente sin las multitudes."
+    },
+    {
+      "icon": "🦈",
+      "title": "Liveaboard al arrecife de Tubbataha",
+      "description": "Uno de los sistemas de coral mejor protegidos por la UNESCO, accesible solo de marzo a junio en liveaboard desde Puerto Princesa. Tiburones, mantas y paredes prístinas a salvo del turismo masivo.",
+      "cost": "$3,000–$5,000 por pareja por liveaboard de 5 noches",
+      "tip": "Reserve antes de noviembre para el año siguiente: los permisos están estrictamente limitados."
+    },
+    {
+      "icon": "🌅",
+      "title": "Atardecer en isla privada en Amanpulo",
+      "description": "Las 40 casitas de playa y ladera de la isla de Pamalican, con servicio de mayordomo y piscinas privadas. El atardecer en la playa, sin otros huéspedes a la vista, es la fantasía más pura de isla privada en Asia.",
+      "cost": "$1,500–$3,000/noche (equivalente a todo incluido)",
+      "tip": "Reserve la Beach Casita en lugar de la Hillside para acceso directo a la arena. El esnórquel en el arrecife casero está entre los mejores del país."
+    }
+  ],
+  "months": [
+    { "month": "Jan", "weather": "Seco y cálido, condiciones ideales", "emoji": "☀️", "crowds": "Moderada", "price": "Medio", "verdict": "Excelente: pico de la mejor temporada" },
+    { "month": "Feb", "weather": "El mejor mes en general, seco y despejado", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "El mes más fino en Filipinas" },
+    { "month": "Mar", "weather": "Cálido, seco, mejor visibilidad de buceo", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Excelente, abre la temporada de Tubbataha" },
+    { "month": "Apr", "weather": "Muy cálido, pico de Semana Santa", "emoji": "🥵", "crowds": "Máxima", "price": "Máximo", "verdict": "Caluroso pero hermoso: reserve con antelación" },
+    { "month": "May", "weather": "Transición, cálido, pre-estación húmeda", "emoji": "🌤", "crowds": "Baja-mod", "price": "Medio", "verdict": "Buena relación calidad-precio, Siargao perfecto" },
+    { "month": "Jun", "weather": "Empieza la estación húmeda, riesgo de tifón", "emoji": "🌧", "crowds": "Baja", "price": "Bajo", "verdict": "Manejable en el sur, arriesgado en el norte" },
+    { "month": "Jul", "weather": "Pico de temporada de tifones", "emoji": "🌀", "crowds": "Baja", "price": "Mínimo", "verdict": "Evite la mayoría de destinos" },
+    { "month": "Aug", "weather": "Alto riesgo de tifón", "emoji": "🌀", "crowds": "Baja", "price": "Mínimo", "verdict": "No recomendable para luna de miel" },
+    { "month": "Sep", "weather": "Riesgo de tifón, pico de surf en Siargao", "emoji": "🌊", "crowds": "Baja", "price": "Bajo", "verdict": "Solo para surfistas; el resto, evitar" },
+    { "month": "Oct", "weather": "Cola de la temporada de tifones", "emoji": "⛅", "crowds": "Baja", "price": "Bajo-medio", "verdict": "Mejorando, pero con algo de riesgo" },
+    { "month": "Nov", "weather": "Empieza la estación seca, abre Palawan", "emoji": "🌤", "crowds": "Moderada", "price": "Medio", "verdict": "Excelente arranque de temporada" },
+    { "month": "Dec", "weather": "Seco, cálido, ambiente festivo", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Temporada festiva, clima espléndido" }
+  ],
+  "budgetTiers": [
+    {
+      "label": "Islas boutique",
+      "range": "$120–$350/noche",
+      "gets": "Cabaña bien diseñada en una playa hermosa. Opciones de comidas todo incluido, esnórquel desde la orilla. Excelente relación calidad-precio para el entorno.",
+      "example": "El Nido Resorts Apulit Island, Bohol Beach Club, casas de huéspedes boutique de El Nido"
+    },
+    {
+      "label": "Islas privadas premium",
+      "range": "$400–$900/noche",
+      "gets": "Villa con piscina privada en isla recoleta. Excelente buceo y esnórquel incluidos. Número limitado de huéspedes.",
+      "example": "Huma Island Resort, Club Paradise Dimakya, Badian Island Wellness Resort"
+    },
+    {
+      "label": "Ultra-lujo",
+      "range": "$1,500–$3,000+/noche",
+      "gets": "Isla privada nivel Aman. Mayordomo, playa privada, arrecife casero. Lo más exclusivo del Sudeste Asiático.",
+      "example": "Amanpulo Pamalican, Dedon Island Siargao"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Palawan / El Nido",
+      "bestFor": "Karst calizo, costa UNESCO",
+      "description": "El paisaje costero más espectacular de Asia. El Nido es la base para el island-hopping por el archipiélago de Bacuit. Vuelo directo desde Manila (1h15m). Mínimo 3 noches."
+    },
+    {
+      "name": "Siargao",
+      "bestFor": "Surf, cocoteros, romance pausado",
+      "description": "La capital del surf en Asia, cada vez más conocida por su hermoso paisaje de palmeras, lagunas azules y resorts de lujo relajados. La aldea de General Luna tiene excelentes restaurantes. Vuele vía Cebú."
+    },
+    {
+      "name": "Bohol",
+      "bestFor": "Chocolate Hills, fauna, buceo",
+      "description": "Famosa por las Chocolate Hills y por el primate más pequeño del mundo (el tarsero). Las playas de la isla de Panglao son excelentes. Vuele a Tagbilaran desde Manila o Cebú."
+    },
+    {
+      "name": "Coron",
+      "bestFor": "Pecios, lagos cristalinos, lo remoto",
+      "description": "La isla más infravalorada de Filipinas. El lago Kayangan, el buceo en Barracuda Lake y los mejores pecios de la Segunda Guerra Mundial del mundo. Vuele desde Manila (1h15m)."
+    }
+  ],
+  "expertTips": [
+    {
+      "tip": "Evite Manila: vuele directo a su destino insular",
+      "detail": "Manila tiene poco que ofrecer a los recién casados. Reserve vuelos directos a El Nido vía Busuanga, Siargao o Coron. Cebú es un hub de conexión decente."
+    },
+    {
+      "tip": "Los vuelos interinsulares se llenan con semanas de antelación en pico",
+      "detail": "AirSwift, Cebu Pacific y PAL Express tienen vuelos limitados a El Nido y Siargao. Reserve todos los vuelos domésticos antes de salir de casa."
+    },
+    {
+      "tip": "Las lagunas de El Nido a las 5:30 son un mundo distinto",
+      "detail": "La Secret Lagoon se llena de barcos a las 10:00. Alquile un bangka privado para empezar temprano y tendrá las bahías kársticas para usted solo."
+    },
+    {
+      "tip": "Los cajeros de El Nido se quedan sin efectivo en fin de semana",
+      "detail": "Lleve suficiente efectivo desde Puerto Princesa o Manila. Muchos restaurantes y chárters de barco solo aceptan efectivo."
+    }
+  ],
+  "packing": [
+    { "item": "Protector solar mineral respetuoso con el arrecife", "why": "El Nido y Tubbataha prohíben el protector químico. El mineral es obligatorio y difícil de encontrar localmente." },
+    { "item": "Bolsa estanca", "why": "Los bangka reciben rocío en cada jornada de island-hopping. Su cámara y teléfono necesitan plena protección." },
+    { "item": "Lycra/rashguard ligera", "why": "Esnórquel de 4+ horas bajo el sol tropical sin lycra produce quemaduras severas." },
+    { "item": "Sobres de electrolitos", "why": "El calor y la actividad provocan deshidratación rápida. Una bebida diaria de electrolitos previene los dolores de cabeza que arruinan tardes de playa." },
+    { "item": "Repelente biodegradable de insectos", "why": "Los mosquitos al amanecer y al ocaso son notables, especialmente en Siargao y el interior de Palawan." }
+  ],
+  "guide": {
+    "getting": "Vuele a Manila (MNL) o Cebú (CEB). Desde Europa: 13–16h vía Singapur, Hong Kong o Dubái. Desde Australia: directo desde Sídney a Manila (8h). Conexiones domésticas: Manila a El Nido vía Busuanga con AirSwift (1h15m); Manila a Siargao vía Cebú (90 min en total); Manila a Coron directo (1h15m). Reserve todos los tramos domésticos de inmediato: son los que se llenan más rápido.",
+    "where": "El Nido es el destino estrella: 3–4 noches, considere una extensión de 2 noches a Coron en lancha o avioneta. Siargao para parejas que quieren cultura del surf con romance: 3–4 noches en General Luna. Amanpulo funciona como experiencia única de 4 noches. Clásico: 4 noches El Nido → 2 noches Coron, o 4 noches El Nido → 3 noches Amanpulo.",
+    "when": "De noviembre a mayo es la estación seca. Febrero–marzo es el pico absoluto en clima, buceo y condiciones de playa. Abril es caluroso pero hermoso. Evite junio–octubre en el norte de Palawan y Siargao: el riesgo de tifón es real. Coron está más resguardada y a veces accesible todo el año."
+  },
+  "localFood": "Kinilaw (ceviche filipino con atún fresco en vinagre y calamansi: extraordinario), marisco a la parrilla con arroz al ajo y salsa sawsawan, lechon (cerdo asado entero al estilo Cebú: el plato más célebre del país), sinigang (sopa agria de tamarindo con gambas o cerdo), buko fresco (coco joven) bebido directamente de la cáscara en la playa.",
+  "currency": "Peso filipino (PHP): los resorts y tours suelen cotizar en USD",
+  "language": "Filipino e inglés: el inglés es lengua oficial y se habla universalmente",
+  "timezone": "UTC+8 (Hora estándar de Filipinas)"
+}

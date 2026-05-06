@@ -1,0 +1,77 @@
+{
+  "tagline": "Donde costas bañadas por el sol, cocinas de talla mundial y romance moruno se dan la mano",
+  "intro": "España no se anda con sigilos cuando se trata de lunas de miel. Seduce con patios andaluces perfumados de azahar, calas baleares del color del cristal fundido y menús degustación vascos que han reescrito las reglas de la alta cocina. Pocos países concentran tanto contraste regional en un solo viaje: amanecer entre la bruma de la Tramuntana sobre Deià, tomar un vermut en una plaza de Barcelona al día siguiente y cerrar la semana viendo derretirse el sol sobre Es Vedrà desde una terraza colgada de Ibiza. España es, por la mayoría de los criterios serios, el país gastronómico más estimulante del planeta ahora mismo: tres de los mejores menús degustación del mundo se sitúan a una hora de San Sebastián, y el jamón ibérico de bellota se trata con la reverencia que otras culturas reservan al vino. Para las parejas, la magia está en el ritmo: almuerzos que se prolongan hasta la siesta, paseos al atardecer de la mano, cenas a las 22:00 seguidas de un fino bajo un hilo de farolillos.",
+  "bestTime": "Mayo-junio y septiembre-principios de octubre: mares cálidos, días largos, multitudes asumibles",
+  "flightFrom": "Nueva York: 7-8 h a Madrid o Barcelona; Los Ángeles: 11-12 h con escala; Londres: 2-2,5 h directo",
+  "topExperience": "Una velada en velero por la costa noroeste de Mallorca, fondeando en una cala escondida para nadar antes de cenar en el Belmond La Residencia",
+  "perfectFor": [
+    "Parejas obsesionadas con la gastronomía que persiguen los mejores menús degustación del mundo",
+    "Amantes del diseño que quieren a Gaudí, palacios moriscos y hoteles boutique",
+    "Híbridos de playa y cultura que se niegan a elegir",
+    "Viajeros multirregión con 10-14 días",
+    "Románticos noctámbulos a quienes les sientan bien las cenas a las 22:00"
+  ],
+  "skipIf": [
+    "Quiere soledad garantizada en julio-agosto",
+    "No tolera el calor: Andalucía supera los 40 °C en verano",
+    "Prefiere cenas tempranas y acostarse en silencio a las 21:00",
+    "Busca la simplicidad de un único destino"
+  ],
+  "experiences": [
+    { "icon": "🍷", "title": "Visita privada a una bodega de Rioja con Marqués de Riscal", "description": "Adéntrese en la Rioja Alavesa para una visita privada a la finca diseñada por Frank Gehry, con cata de barrica y almuerzo entre las viñas.", "cost": "350-600 € por pareja", "tip": "Reserve la suite del ático en el Hotel Marqués de Riscal" },
+    { "icon": "🍤", "title": "Ruta de pintxos en San Sebastián", "description": "Un paseo de 4 horas al anochecer por la Parte Vieja, con paradas en 5-6 de los pintxos bares legendarios de la ciudad: Ganbara, Bar Néstor, Gandarias.", "cost": "180-250 € por pareja", "tip": "Coma de pie en la barra como un local; nunca pida más de dos pintxos por parada" },
+    { "icon": "🕌", "title": "Visita privada a la Alhambra fuera de horario", "description": "Evite las multitudes diurnas con una visita guiada al atardecer a los Palacios Nazaríes y los jardines del Generalife.", "cost": "280-450 € por pareja", "tip": "Alójese en el Parador de Granada dentro del recinto de la Alhambra" },
+    { "icon": "⛵", "title": "Día privado en gulet por la costa de la Tramuntana mallorquina", "description": "Charter de un barco tradicional de madera desde Port de Sóller para recorrer la costa, declarada Patrimonio de la Humanidad por la UNESCO.", "cost": "1.200-2.000 € por la jornada", "tip": "Vaya entre semana y salga temprano para asegurarse las mejores calas" },
+    { "icon": "💃", "title": "Tablao flamenco íntimo en Triana, Sevilla", "description": "Una actuación de sala pequeña en Casa de la Memoria: cante jondo crudo y auténtico, no la versión turística.", "cost": "90-150 € por pareja", "tip": "Siéntese en primera fila: el flamenco está hecho para sentirse" }
+  ],
+  "months": [
+    { "month": "January", "weather": "8-15 °C, fresco, lluvias ocasionales", "emoji": "🌥️", "crowds": "Muy baja", "price": "€", "verdict": "Solo ciudades: la costa y las islas duermen" },
+    { "month": "February", "weather": "9-16 °C, suave en el sur, frío en el norte", "emoji": "🌤️", "crowds": "Baja", "price": "€", "verdict": "Andalucía empieza a despertar" },
+    { "month": "March", "weather": "12-19 °C, llega la primavera", "emoji": "🌸", "crowds": "Baja", "price": "€€", "verdict": "Bonita en Andalucía; Semana Santa si cae en Pascua" },
+    { "month": "April", "weather": "15-22 °C, días cálidos, noches frescas", "emoji": "🌷", "crowds": "Moderada", "price": "€€", "verdict": "Temporada media impresionante; Feria de Abril en Sevilla" },
+    { "month": "May", "weather": "18-26 °C, casi perfecto", "emoji": "☀️", "crowds": "Moderada", "price": "€€€", "verdict": "Punto dulce: el mar empieza a templarse" },
+    { "month": "June", "weather": "22-30 °C, caluroso y seco", "emoji": "☀️", "crowds": "Alta", "price": "€€€", "verdict": "Excelente antes del fin del curso escolar" },
+    { "month": "July", "weather": "26-35 °C, muy caluroso", "emoji": "🔥", "crowds": "Muy alta", "price": "€€€€", "verdict": "Costa e islas saturadas" },
+    { "month": "August", "weather": "28-40 °C, calor extremo", "emoji": "🔥", "crowds": "Máxima", "price": "€€€€", "verdict": "Evite, salvo que disfrute con las multitudes" },
+    { "month": "September", "weather": "24-30 °C, mar templado", "emoji": "🌞", "crowds": "Alta", "price": "€€€", "verdict": "Posiblemente el mejor mes: el mar está como un baño" },
+    { "month": "October", "weather": "18-25 °C, luz dorada", "emoji": "🍂", "crowds": "Moderada", "price": "€€", "verdict": "Mágico para Andalucía y el País Vasco" },
+    { "month": "November", "weather": "12-19 °C, más fresco", "emoji": "🍁", "crowds": "Baja", "price": "€€", "verdict": "Solo ciudades y gastronomía" },
+    { "month": "December", "weather": "9-15 °C, fresco, festivo", "emoji": "✨", "crowds": "Moderada (ciudades)", "price": "€€", "verdict": "Mercados navideños en Madrid y Barcelona" }
+  ],
+  "budgetTiers": [
+    { "label": "Refinado", "range": "450-800 €/noche", "gets": "Hoteles boutique en cascos históricos, todo a pie", "example": "Hotel Alfonso XIII Sevilla o Mercer Barcelona" },
+    { "label": "Lujo", "range": "800-1.800 €/noche", "gets": "Resorts icónicos de cinco estrellas, suites con vistas al mar, gastronomía Michelin, rituales de spa", "example": "Belmond La Residencia Deià, Marbella Club, Six Senses Ibiza" },
+    { "label": "Ultra-Luxe", "range": "1.800-5.000+ €/noche", "gets": "Villas privadas tipo fortaleza, servicio de mayordomo, traslados en helicóptero", "example": "Suite privada con acantilado en Cap Rocat, Grand Villa de Finca Cortesin" }
+  ],
+  "areas": [
+    { "name": "Mallorca", "bestFor": "Belleza mediterránea de cuento, rutas por la Tramuntana, calas escondidas", "description": "La isla de la luna de miel por excelencia: montañas declaradas Patrimonio de la Humanidad cayendo en agua turquesa, pueblos de piedra como Deià." },
+    { "name": "Ibiza (norte)", "bestFor": "Sofisticación bohemio-luxe, rituales del atardecer, calas", "description": "El norte de Ibiza es bosque de pinos, mercados hippies y restaurantes de la huerta a la mesa imposiblemente chic." },
+    { "name": "Andalucía", "bestFor": "Arquitectura morisca, flamenco, pueblos blancos, jamón", "description": "La España imaginada: Alhambra, Alcázar de Sevilla, Marbella Club, Finca Cortesin." },
+    { "name": "País Vasco y La Rioja", "bestFor": "Gastronomía de talla mundial, costa verde dramática, viñedos", "description": "San Sebastián concentra más estrellas Michelin per cápita que casi cualquier otro lugar de la tierra." },
+    { "name": "Barcelona y Costa Brava", "bestFor": "Gaudí, energía urbana con acceso a la playa", "description": "La única gran ciudad europea que también es ciudad de playa. Tres días en ella y luego conduzca 90 minutos al norte hacia la Costa Brava." }
+  ],
+  "expertTips": [
+    { "tip": "Coma a la española o lo pasará mal", "detail": "El almuerzo es de 14:00 a 16:00 y la cena empieza a las 21:00-22:00. Los restaurantes que sirven a las 19:00 son trampas para turistas." },
+    { "tip": "No haga Andalucía ni las islas en agosto", "detail": "El interior andaluz alcanza los 42 °C y Mallorca e Ibiza están en su pico de masificación." },
+    { "tip": "Reserve los menús degustación con 60-90 días de antelación", "detail": "Akelarre, Arzak, Mugaritz y Disfrutar liberan mesas con unos 2 meses de antelación." },
+    { "tip": "Alquile coche en todas partes salvo en las ciudades", "detail": "Mallorca, Andalucía, Costa Brava y La Rioja son básicamente imposibles de descubrir sin él." },
+    { "tip": "Combine dos regiones, no cinco", "detail": "Elija un par contrastante —Andalucía + Mallorca, o Barcelona + País Vasco— y profundice." }
+  ],
+  "packing": [
+    { "item": "Lino ligero para el día, look elegante para la noche", "why": "Los españoles se visten con esmero para cenar: nada de pantalón corto en restaurantes serios" },
+    { "item": "Calzado cómodo para empedrados", "why": "Sevilla, Granada y los cascos antiguos de Palma son de piedra irregular" },
+    { "item": "Un buen bañador y pareo", "why": "Beach clubs y piscinas de hotel son escenario para ver y dejarse ver" },
+    { "item": "Capas ligeras para la noche", "why": "Las noches en la costa refrescan rápido; en el interior andaluz caen 15 °C tras la puesta de sol" },
+    { "item": "Protección solar: sombrero, SPF 50 y gafas polarizadas", "why": "El sol ibérico no es broma de mayo a octubre" },
+    { "item": "Bolso pequeño cruzado", "why": "El carterismo es real en los metros de Barcelona y Madrid" }
+  ],
+  "guide": {
+    "getting": "Los hubs principales son Madrid (MAD) y Barcelona (BCN), con vuelos directos desde la mayoría de las ciudades de la Costa Este de EE. UU. (7-8 h). Para la región donde comience: Palma (PMI), Ibiza (IBZ), Málaga (AGP) o Bilbao (BIO).",
+    "where": "Reparta 10 noches entre dos regiones contrastantes. Favorita: 5 noches en Andalucía (Sevilla + Marbella Club o Finca Cortesin) + 5 noches en Mallorca (Belmond La Residencia o Cap Rocat).",
+    "when": "Mayo, junio y septiembre son los ganadores indiscutibles. Principios de octubre es un acierto poco conocido para Andalucía y la cocina vasca. Evite agosto salvo que esté decidido a visitar las islas."
+  },
+  "localFood": "España es el país gastronómico más estimulante del mundo en este momento. Imprescindibles para la luna de miel: jamón ibérico de bellota con fino, paella en Valencia, txuleta en el País Vasco, ruta de pintxos en San Sebastián, salmorejo en Andalucía, vermut a la una y churros con chocolate a medianoche.",
+  "currency": "Euro (€)",
+  "language": "Español (castellano) y lenguas regionales (catalán, euskera, gallego)",
+  "timezone": "CET (UTC+1) / CEST (UTC+2)"
+}

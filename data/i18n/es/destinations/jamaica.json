@@ -1,0 +1,75 @@
+{
+  "tagline": "Alma de reggae, atardeceres con saltos al mar y la costa caribeña con más carisma",
+  "intro": "Jamaica no hace lunas de miel silenciosas, y ese es precisamente su encanto. Donde Bahamas le vende quietud y Santa Lucía le vende dramatismo, Jamaica ofrece algo más raro: un destino con pulso, personalidad y un sentido de sí mismo que ningún folleto de resort puede fabricar. Los acantilados occidentales de Negril entregan la postal: la arena talco de Seven Mile Beach de día, los buceadores saltando desde Rick's Café al ocaso. Conduzca al este y las grandes damas de Montego Bay (Round Hill, Half Moon) sostienen el cetro con ese viejo glamour caribeño que recibió a Noël Coward y a Ian Fleming. Continúe a Ocho Ríos para escalar cascadas y al GoldenEye, fresco de aroma literario; siga hasta Port Antonio, donde la Laguna Azul brilla turquesa y casi nadie le encuentra. Los valientes prescinden del norte por Treasure Beach: costa sur, pueblos de pescadores, Pelican Bar flotando sobre pilotes a milla y media de la costa. La comida sola justifica el viaje: cerdo y pollo jerk humeantes salidos de barriles en Boston Beach, ackee con bacalao al amanecer, café Blue Mountain que arruina cualquier otro café. La cultura va más profundo aún: el mausoleo de Bob Marley en Nine Mile, sound systems retumbando en cada parroquia, reggae y dancehall como tradiciones vivas. Los recién casados que se entregan a Jamaica —que alquilan coche, hablan con barmans, comen fuera del resort— se llevan un vínculo con la isla que los destinos plácidos no pueden forjar.",
+  "bestTime": "De mediados de diciembre a mediados de abril (seco); finales de abril a principios de junio es el punto dulce de calidad-precio",
+  "flightFrom": "3h45 NYC, 1h30 Miami, 9h30 Londres — a Montego Bay (MBJ)",
+  "topExperience": "Atardecer y salto al mar en Rick's Café",
+  "perfectFor": [
+    "Parejas que quieren cultura, música y personalidad junto a sus días de playa",
+    "Recién casados dispuestos a alquilar coche y explorar más allá de la verja del resort",
+    "Viajeros impulsados por la gastronomía: pits de jerk, rum bars, fincas de café Blue Mountain",
+    "Visitantes recurrentes del Caribe cansados de fórmulas idénticas de arena blanca y ron punch",
+    "Amantes de la música: reggae, dancehall y cultura sound system como hecho vivo"
+  ],
+  "skipIf": [
+    "Quiere una burbuja de resort esterilizada y sin fricción local",
+    "El acoso de vendedores de playa o gente en la calle le arruina el ánimo",
+    "Espera agua tipo Maldivas: el mar de Jamaica es bello pero no transparente",
+    "Conducir por la izquierda en carreteras de montaña le suena a pesadilla"
+  ],
+  "experiences": [
+    { "icon": "💦", "title": "Subir las cataratas Dunn's River", "description": "Una cascada de 180 m que se sube literalmente como cadena humana: los guías encabezan, las parejas se agarran de la mano, el agua ruge alrededor. Turístico, sí; inolvidable, también. Vaya a las 8:30 de la apertura para evitar las multitudes de cruceros.", "cost": "$25 entrada, $40 con guía", "tip": "Use escarpines (alquilables in situ por $7). El horario matinal está un 70% más vacío que al mediodía." },
+    { "icon": "🌅", "title": "Atardecer y salto al mar en Rick's Café", "description": "El legendario punto del atardecer de la costa oeste de Negril. Los buceadores locales saltan desde acantilados de 10 metros mientras cae el sol, fluye el ron punch y la banda toca a Marley.", "cost": "Entrada gratuita, $20-30 las bebidas", "tip": "No pida comida: la cocina es mediocre. Bebida, atardecer y espectáculo son el sentido." },
+    { "icon": "☕", "title": "Visita a una finca de café Blue Mountain", "description": "Suba a las Blue Mountains sobre Kingston para una visita a una finca en activo en Craighton u Old Tavern. Recolecte granos a mano, vea el tueste, cate flights a 900 m de altitud.", "cost": "$80-150/pareja con transporte", "tip": "Combine con almuerzo en EITS Café en Newcastle: granja-mesa, aire de montaña, sin turistas." },
+    { "icon": "🛶", "title": "Pelican Bar en Treasure Beach", "description": "Una choza de madera flotante sobre pilotes, a milla y media mar adentro en los bajos de la costa sur. El capitán Floyd los lleva por $30, los deja con una Red Stripe y los recoge cuando quieran. Magia pura.", "cost": "$30-40 ida y vuelta + bebidas", "tip": "Hospédese en Jakes Hotel y pida que organicen el barco. Vayan al atardecer, no al mediodía." },
+    { "icon": "🎵", "title": "Mausoleo de Bob Marley en Nine Mile", "description": "Una peregrinación a las colinas de St. Ann, al pueblo donde Marley nació y fue enterrado. Las visitas recorren su casa de infancia, la piedra de meditación y el mausoleo.", "cost": "$25 entrada, $120-180 con transporte privado", "tip": "Sáltese los combos para cruceros. Contrate un conductor privado para una media jornada y disfrute con calma." }
+  ],
+  "months": [
+    { "month": "Jan", "weather": "28°C / 21°C, seco", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Tiempo de postal, tarifas pico: reserve con 4+ meses" },
+    { "month": "Feb", "weather": "28°C / 21°C, seco", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Recargo de San Valentín y spring break: el más concurrido del año" },
+    { "month": "Mar", "weather": "29°C / 22°C, seco", "emoji": "☀️", "crowds": "Muy alta", "price": "Máximo", "verdict": "Multitudes de spring break en MoBay/Negril; Port Antonio sigue tranquilo" },
+    { "month": "Apr", "weather": "29°C / 23°C, seco", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Punto dulce a partir de mediados de abril: gran tiempo, tarifas a la baja" },
+    { "month": "May", "weather": "30°C / 24°C, breves chubascos", "emoji": "⛅", "crowds": "Baja", "price": "Medio", "verdict": "La mejor relación calidad-precio del año" },
+    { "month": "Jun", "weather": "31°C / 24°C, lluvia ocasional", "emoji": "⛅", "crowds": "Baja", "price": "Medio", "verdict": "Playas tranquilas, mar cálido, bajo riesgo de huracán al inicio" },
+    { "month": "Jul", "weather": "31°C / 25°C, húmedo", "emoji": "⛅", "crowds": "Media", "price": "Alto", "verdict": "Multitudes europeas; Reggae Sumfest a finales de julio en MoBay" },
+    { "month": "Aug", "weather": "32°C / 25°C, húmedo", "emoji": "⛅", "crowds": "Media", "price": "Alto", "verdict": "Caluroso, húmedo, riesgo de huracán al alza: aceptable, no ideal" },
+    { "month": "Sep", "weather": "31°C / 24°C, lluvioso", "emoji": "🌧️", "crowds": "Mínima", "price": "Mínimo", "verdict": "Pico de huracanes: salte salvo que le guste el riesgo" },
+    { "month": "Oct", "weather": "31°C / 24°C, lluvioso", "emoji": "🌧️", "crowds": "Baja", "price": "Medio", "verdict": "Aún temporada de huracanes; muchos hoteles pequeños cierran por reformas" },
+    { "month": "Nov", "weather": "29°C / 23°C, secándose", "emoji": "⛅", "crowds": "Media", "price": "Alto", "verdict": "Magia de temporada media: vuelve el seco, tarifas aún moderadas" },
+    { "month": "Dec", "weather": "28°C / 22°C, seco", "emoji": "☀️", "crowds": "Muy alta", "price": "Máximo", "verdict": "Las semanas festivas son las más caras del año: reserve antes de agosto" }
+  ],
+  "budgetTiers": [
+    { "label": "Cómodo", "range": "$350-550/noche", "gets": "Guesthouse boutique o all-inclusive de gama media en buena playa. Luna de miel sólida, carácter jamaicano real.", "example": "Couples Tower Isle en Ocho Ríos o Couples Swept Away en Negril" },
+    { "label": "Elevado", "range": "$700-1,200/noche", "gets": "Propiedades boutique icónicas: suites de acantilado, fincas de plantación, todos los nombres legendarios justo por debajo del ultra-lujo.", "example": "The Caves en Negril o Jamaica Inn en Ocho Ríos" },
+    { "label": "Icónico", "range": "$1,400-3,500/noche", "gets": "Cottages privados, mayordomo, las propiedades de las que están hechos los sueños de luna de miel caribeña, con la herencia a la altura.", "example": "Round Hill en Montego Bay o GoldenEye en Oracabessa" }
+  ],
+  "areas": [
+    { "name": "Negril", "bestFor": "Acantilados, atardeceres, ambiente bohemio", "description": "La costa oeste: la arena de talco interminable de Seven Mile Beach y los acantilados del West End con sus dramáticos puntos de salto. Más boho-luxe que pulido." },
+    { "name": "Montego Bay", "bestFor": "Grandeza del Caribe antiguo, acceso al aeropuerto", "description": "Sede de los hoteles de patrimonio legendarios de Jamaica (Round Hill, Half Moon) y la Doctor's Cave Beach. A 15 minutos de MBJ." },
+    { "name": "Ocho Ríos", "bestFor": "Cascadas, aventura, variedad clásica de resorts", "description": "Costa norte central, anclada por Dunn's River Falls. Propiedades como GoldenEye y Jamaica Inn ocupan calas privadas serenas." },
+    { "name": "Port Antonio", "bestFor": "Escapada selvática, romance fuera del radar", "description": "La costa más exuberante y menos desarrollada de la isla: Laguna Azul, Frenchman's Cove, ríos de jungla. A 2,5 horas de MBJ." },
+    { "name": "Treasure Beach", "bestFor": "Alma sureña, pueblos pesqueros, Pelican Bar", "description": "Una sucesión de calas pesqueras en la árida costa sur. Sin grandes resorts, solo guesthouses y Pelican Bar a milla y media de la costa." }
+  ],
+  "expertTips": [
+    { "tip": "Vuele a Montego Bay (MBJ), no a Kingston", "detail": "Salvo que vaya específicamente a Port Antonio o las Blue Mountains, MBJ es el aeropuerto correcto. Kingston está a 4 horas de la mayoría de destinos de luna de miel." },
+    { "tip": "Contrate conductor en lugar de conducir usted los traslados", "detail": "Jamaica conduce por la izquierda, las carreteras de montaña son estrechas, la señalización inconsistente. Un conductor privado para el aeropuerto-hotel cuesta $80-150 y es mucho más relajante." },
+    { "tip": "Salga del resort al menos tres veces", "detail": "El mayor error es no salir nunca de la propiedad. Coma en Scotchies (jerk), Pushcart (Negril) o Jack Sprat (Treasure Beach). La comida del resort no representa a Jamaica." },
+    { "tip": "Propinas generosas y conversación con todos", "detail": "Los salarios del sector servicios son bajos, y los jamaicanos son de las personas más cálidas que conocerá. Un 15-20% de propina y conversación genuina transformarán el viaje." },
+    { "tip": "Lleve repelente con DEET", "detail": "Los mosquitos y mosquitas de la arena son reales, sobre todo al atardecer y especialmente en zonas exuberantes como Port Antonio. El repelente del resort suele ser flojo." }
+  ],
+  "packing": [
+    { "item": "Protector solar respetuoso con el arrecife (SPF 50)", "why": "Jamaica aplica reglas reef-safe en parques marinos; lleve el suyo, los precios locales son 3 veces los de EE.UU." },
+    { "item": "Escarpines", "why": "Esenciales para Dunn's River Falls, Blue Hole y la mayoría de las entradas rocosas en los acantilados de Negril." },
+    { "item": "Repelente con DEET", "why": "Las mosquitas de la arena al atardecer en Port Antonio y Treasure Beach no son broma." },
+    { "item": "Capa ligera para las noches", "why": "Los alisios pueden bajar la temperatura a 20°C en invierno; las excursiones a las Blue Mountains se vuelven genuinamente frescas." },
+    { "item": "Un atuendo de cena más cuidado", "why": "Hoteles de patrimonio como Round Hill y Jamaica Inn observan códigos smart-casual." },
+    { "item": "Efectivo en billetes pequeños de USD", "why": "Propinas, vendedores de playa, el capitán de Pelican Bar y los puestos de jerk de carretera funcionan con efectivo." }
+  ],
+  "guide": {
+    "getting": "Sangster International (MBJ) es la puerta a Negril (90 min al oeste), Ocho Ríos (90 min al este) y la propia Montego Bay. Port Antonio está a 2,5 horas de MBJ o 1,5 desde Kingston. Reserve un traslado privado por adelantado a través de su hotel ($80-180).",
+    "where": "Round Hill o Half Moon para grandeza caribeña antigua cerca de MBJ. The Caves para drama de acantilado en Negril. GoldenEye para frescura literaria en Oracabessa. Jamaica Inn para elegancia discreta en Ocho Ríos. Couples Tower Isle o Swept Away para all-inclusive bien hecho.",
+    "when": "De mediados de diciembre a abril para tiempo seco garantizado. De mediados de abril a comienzos de junio es el punto dulce. Evite agosto-octubre (temporada de huracanes). Noviembre es un mes infravalorado."
+  },
+  "localFood": "La cocina jamaicana pega muy por encima de su tamaño insular. El pollo y cerdo jerk humeantes de los barriles de aceite en Boston Beach son el hogar espiritual del plato. El ackee con bacalao —desayuno nacional— se acompaña con dumplings fritos y café Blue Mountain. No se pierda el curry de cabra, el escovitch de pescado, el festival (masa frita dulce) y un cucurucho de helado de Devon House.",
+  "language": "Inglés / patois jamaicano"
+}

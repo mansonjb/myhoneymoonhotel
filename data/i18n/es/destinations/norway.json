@@ -1,0 +1,109 @@
+{
+  "tagline": "Fiordos, auroras y lujo nórdico pausado: el paisaje de luna de miel más cinematográfico de Europa.",
+  "intro": "Noruega es la luna de miel europea para parejas que quieren que sus fotografías parezcan irreales. Fiordos glaciares de un kilómetro de profundidad, sol de medianoche en verano, aurora boreal de octubre a marzo, rituales de sauna y baño en fiordo y un lujo nórdico particular que valora la quietud por encima del oropel. El país funciona con viaje pausado: dos noches en un hotel de fiordo, otras dos en un iglú con techo de cristal y un elegante hotel de diseño en Oslo como cierre. No hay un cluster de resorts de luna de miel en Noruega: cada propiedad es su propio destino, separadas por entre tres y seis horas.",
+  "bestTime": "Jun–Ago (sol de medianoche) + Oct–Mar (aurora boreal)",
+  "flightFrom": "2-3h desde Londres, 7-8h desde Nueva York",
+  "topExperience": "Lodges de fiordo + aurora boreal",
+  "perfectFor": [
+    "Parejas obsesionadas con el paisaje dramático: fiordos, montañas, agua glaciar y aurora",
+    "Recién casados que disfrutan construyendo itinerarios multi-stop entre hoteles",
+    "Devotos de la sauna y el baño nórdico: cada gran propiedad noruega tiene una sauna seria de leña",
+    "Fotógrafos: la luz aquí, de junio a agosto, no se parece a ninguna otra",
+    "Viajeros tranquilos y pausados a quienes les basta una experiencia al día"
+  ],
+  "skipIf": [
+    "Quiere baño garantizado en aguas cálidas o luna de miel de playa",
+    "Busca el cocoon resort: Noruega se construye en torno a pequeños lodges y al hotel-hopping",
+    "Su presupuesto es inferior a $400/noche: aquí no hay verdadero lujo económico",
+    "Necesita la cadencia de cena tardía estilo ecuatorial: las cenas noruegas son de 18:30 a 20:30",
+    "El traslado aéreo entre regiones es obligatorio y suma coste (Oslo a Tromsø son 2h, no se puede hacer en coche)"
+  ],
+  "experiences": [
+    {
+      "icon": "🌌",
+      "title": "Aurora boreal desde un iglú con techo de cristal",
+      "description": "Lyngen North, sobre el Círculo Polar (oct–mar), le coloca bajo un techo de cristal en la cama mientras la aurora baila. Trineos de perros y visitas a granjas de renos completan los días. Tromsø, Senja y Kirkenes son las bases alternativas para auroras.",
+      "cost": "$700–$2,000/noche por iglú",
+      "tip": "Reserve un mínimo de 3 noches para cualquier caza de aurora: las luces son impredecibles y una noche nublada arruina un viaje de 2. Meses ideales: feb–mar (los más secos y con horas oscuras más largas)."
+    },
+    {
+      "icon": "⛰️",
+      "title": "Crucero por el Geirangerfjord desde un hotel en lo alto del acantilado",
+      "description": "El Storfjord Hotel, sobre Geiranger, le entrega el fiordo desde 800 m de altura. Excursiones de un día en RIB o kayak al propio fiordo. Cascadas Seven Sisters y Bridal Veil. Almuerzo en el Hotel Union Geiranger.",
+      "cost": "$300–$800 por pareja para medio día en RIB",
+      "tip": "Evite la marea de cruceros de julio–agosto. Junio y septiembre son sublimes. Los buques de Norwegian Cruise Line atracan en el pueblo de Geiranger: los hoteles en lo alto del acantilado quedan por encima del ruido."
+    },
+    {
+      "icon": "🛁",
+      "title": "Sauna de leña sobre un fiordo al ocaso",
+      "description": "La mayoría de los lodges de lujo noruegos tienen sauna de leña construida directamente sobre el agua: Hotel Union Øye, Storfjord, Juvet, propiedades 62°NORD. Sauna a 80 °C, zambullida en el fiordo a 8 °C, repetir. El ritual definitorio de la luna de miel noruega.",
+      "cost": "Incluido en todos los lodges de lujo",
+      "tip": "Programe entre las 21:00 y 22:00 en verano (aún hay luz) y entre las 16:00 y 17:00 en invierno (atardecer sobre el fiordo). Lleve una buena capa base Wool & Prince para después de la zambullida."
+    },
+    {
+      "icon": "🎣",
+      "title": "Pesca de salmón en los ríos Eira o Stryn",
+      "description": "Noruega inventó la pesca deportiva de salmón. Los ríos Eira y Stryn, cerca del Storfjord y del Hotel Union Øye, son de talla mundial. Medio día con guía, todo el equipo incluido, captura y suelta de grandes salmones atlánticos.",
+      "cost": "$400–$1,200 por pareja medio día",
+      "tip": "Mejores meses: junio–principios de agosto. Pida un guía que hable inglés (la mayoría lo hace). La pesca es genuinamente difícil: vaya por la experiencia, no por la cuenta de capturas."
+    },
+    {
+      "icon": "🚁",
+      "title": "Vuelo escénico en helicóptero sobre los Alpes de Sunnmøre",
+      "description": "Un vuelo de 30 minutos desde el Hotel Union Øye sobre los Alpes de Sunnmøre y el Hjørundfjord es la media hora más fotogénica de cualquier viaje a Noruega. Aterrizaje y recogida en una cumbre remota para una copa de champán.",
+      "cost": "$1,800–$3,500 por pareja",
+      "tip": "Reserve directamente a través de su hotel: tienen el operador de confianza. Depende del clima; introduzca flexibilidad en su itinerario."
+    }
+  ],
+  "months": [
+    { "month": "Jan", "weather": "Frío, oscuro, temporada de aurora", "emoji": "❄️", "crowds": "Baja", "price": "Medio", "verdict": "Pico de aurora" },
+    { "month": "Feb", "weather": "Frío, días alargándose", "emoji": "❄️", "crowds": "Baja", "price": "Medio", "verdict": "Mejor mes para auroras" },
+    { "month": "Mar", "weather": "Frío, vuelven los días largos", "emoji": "🌤", "crowds": "Baja", "price": "Medio", "verdict": "Combo aurora + esquí" },
+    { "month": "Apr", "weather": "Deshielo, transición", "emoji": "⛅", "crowds": "Baja", "price": "Bajo", "verdict": "Infravalorado, tranquilo" },
+    { "month": "May", "weather": "Templándose, cascadas en su pico", "emoji": "🌤", "crowds": "Baja-mod", "price": "Medio", "verdict": "Frondoso y poco concurrido" },
+    { "month": "Jun", "weather": "Comienza el sol de medianoche", "emoji": "☀️", "crowds": "Moderada", "price": "Alto", "verdict": "Se abre el punto dulce" },
+    { "month": "Jul", "weather": "Pico de verano, ajetreado", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Hermoso pero concurrido" },
+    { "month": "Aug", "weather": "Final de verano, perfecto", "emoji": "☀️", "crowds": "Máxima", "price": "Alto", "verdict": "Igual que julio, algo más fresco" },
+    { "month": "Sep", "weather": "Colores otoñales, vuelve la aurora", "emoji": "🍂", "crowds": "Moderada", "price": "Medio-alto", "verdict": "El mejor mes equilibrado" },
+    { "month": "Oct", "weather": "Frío, comienza la temporada de aurora", "emoji": "🍂", "crowds": "Baja", "price": "Medio", "verdict": "Llegan los cazadores de aurora" },
+    { "month": "Nov", "weather": "Oscuro, vuelve la nieve", "emoji": "❄️", "crowds": "Baja", "price": "Bajo-medio", "verdict": "Calma previa a la Navidad" },
+    { "month": "Dec", "weather": "Noche polar en el norte", "emoji": "❄️", "crowds": "Mod (Navidad)", "price": "Medio-alto", "verdict": "Mercados navideños + aurora" }
+  ],
+  "budgetTiers": [
+    { "label": "Lujo accesible", "range": "$400–$700/noche", "gets": "4 estrellas boutique como Britannia Trondheim o Eilert Smith Stavanger. Excelente comida y diseño, pero sin instalaciones tipo spa-resort.", "example": "Britannia Hotel Trondheim, Eilert Smith Stavanger, Hotel Brosundet Ålesund" },
+    { "label": "Lodges premium", "range": "$700–$1,500/noche", "gets": "Habitaciones con vistas al fiordo, sauna de leña, alta cocina nivel Michelin y excursiones incluidas. La categoría clásica de la luna de miel noruega.", "example": "Storfjord Hotel, Hotel Union Øye, The Thief Oslo" },
+    { "label": "Ultra-lujo", "range": "$1,500+/noche", "gets": "Iglús de cristal privados, acceso en helicóptero, pensión completa con todas las actividades. Hoteles de diseño Solo adultos.", "example": "Juvet Landscape Hotel, Lyngen North Glass Igloos" }
+  ],
+  "areas": [
+    { "name": "Fiordos del oeste (Geiranger / Sunnmøre)", "bestFor": "Paisaje icónico de fiordos", "description": "El Geirangerfjord (UNESCO) y el Hjørundfjord son los más fotogénicos. Storfjord Hotel, Hotel Union Øye y Juvet Valldal se concentran aquí. 4–5 días mínimo para hacerles justicia." },
+    { "name": "Oslo y Trondheim", "bestFor": "Diseño urbano + llegada/salida", "description": "The Thief en Oslo y Britannia Hotel Trondheim son los cierres urbanos. Pase 2 noches al inicio o al final por hoteles de diseño, restaurantes y el museo Munch (Oslo)." },
+    { "name": "Stavanger y Lysefjord", "bestFor": "Pulpit Rock + caminatas cortas dramáticas", "description": "Eilert Smith Hotel y RE-NAA (3 estrellas Michelin) hacen de Stavanger un destino infravalorado de 2–3 noches. Pulpit Rock y Kjerag son las excursiones imprescindibles." },
+    { "name": "Islas Lofoten", "bestFor": "Pueblos pesqueros + picos espectaculares", "description": "Paraíso fotográfico de luna de miel: rorbuer rojos de pescadores, picos afilados y playas árticas de arena blanca. Eliassen Rorbuer o Hattvika Lodge son las opciones boutique." },
+    { "name": "Tromsø y Alpes de Lyngen", "bestFor": "Aurora boreal + aventura ártica", "description": "Lyngen North Glass Igloos, Aurora Spirit Distillery, trineos de perros. De octubre a marzo solo para aurora; de junio a agosto para sol de medianoche y avistamiento de ballenas." }
+  ],
+  "expertTips": [
+    { "tip": "Reserve viajes de aurora en febrero–marzo, no en diciembre", "detail": "Diciembre tiene las horas oscuras más largas pero el peor tiempo (cobertura nubosa). Febrero–marzo equilibra largos periodos oscuros con cielos más despejados y más luz para actividades no auroreales." },
+    { "tip": "Use trenes Vy entre ciudades, no vuelos", "detail": "Oslo–Bergen por el Bergensbanen es uno de los trayectos en tren más pintorescos del mundo. Reserve primera clase con ventanas panorámicas por $200/pareja: mejor que un vuelo de $400 y mucho más memorable." },
+    { "tip": "Coma en el restaurante del hotel, no \"fuera\"", "detail": "Los restaurantes \"fuera\" en pueblos de fiordo cierran a las 21:00 y son turísticos. Los restaurantes de hotel como Speilsalen (Britannia), Christian (Hotel Union Øye) y el comedor acristalado de Juvet sirven la mejor cocina nórdica nueva del país." },
+    { "tip": "Empaque para dos estaciones, incluso en verano", "detail": "El clima de los fiordos en verano puede pasar de 25 °C de sol a 8 °C de viento en 2 horas. Lleve un cortavientos Patagonia Houdini, capa base de merino, gorro y guantes incluso en julio." },
+    { "tip": "Presupueste al menos 2 vuelos internos", "detail": "Noruega mide 1.750 km de norte a sur. Oslo–Tromsø son 2h con SAS o Norwegian. Calcule 2 vuelos internos ($300–$500 por pareja en total) en cualquier itinerario norte + sur." }
+  ],
+  "packing": [
+    { "item": "Capas base de merino (arriba y abajo)", "why": "Sauna-zambullida, salidas en barco por el fiordo, cazas de aurora: el merino regula mejor que el sintético en los cambios de temperatura" },
+    { "item": "Cortavientos Patagonia Houdini", "why": "Cortavientos de bolsillo para vientos del fiordo, cumbres y chubascos inesperados" },
+    { "item": "Calzado de senderismo impermeable", "why": "Zapatillas de trail (Salomon X Ultra o similar) para Pulpit Rock, Trolltunga y senderos junto a los fiordos" },
+    { "item": "Gafas de sol polarizadas", "why": "El reflejo de la nieve en invierno y el sol de medianoche en verano: sus ojos lo agradecerán" },
+    { "item": "Adaptador de viaje (Tipo C/F, 2 clavijas UE)", "why": "Noruega usa enchufes UE estándar; lleve un hub multi-USB para cámara + teléfono + Kindle" },
+    { "item": "Coronas noruegas (NOK) en efectivo de respaldo", "why": "Casi todo es sin efectivo, pero algunas cafeterías de pueblo y guías de excursión prefieren propinas en efectivo (5-10 %)" },
+    { "item": "Objetivo gran angular", "why": "No capturará un fiordo con un teléfono: un objetivo de 24 mm o más amplio es la compra que define el viaje" }
+  ],
+  "guide": {
+    "getting": "Vuele a Oslo Gardermoen (OSL — directo desde Londres 2h, Nueva York 7,5h, Tokio 13h) o Bergen (BGO — para acceso a los fiordos del oeste) o Tromsø (TOS — para Ártico/aurora). Vuelos internos con SAS, Norwegian y Widerøe conectan todas las regiones. El Bergensbanen (Oslo a Bergen, 7h) es la ruta de tren más pintoresca del país.",
+    "where": "Los itinerarios para luna de miel se agrupan en torno a (a) los Fiordos del Oeste (Geirangerfjord, Hjørundfjord) durante 4-5 noches, (b) Oslo o Bergen como cierre urbano de 2 noches y (c) Lofoten o Tromsø como adición de 3-4 noches para aurora o sol de medianoche. Las carreteras son de excelente calidad, pero las distancias son enormes: los vuelos internos ahorran días.",
+    "when": "Junio–agosto: sol de medianoche, todo abierto, precios pico, puede haber gente en Geiranger. Septiembre: el mejor equilibrio: color otoñal, vuelve la aurora, menos público. Octubre–marzo: temporada de aurora, actividades de nieve, mercados navideños en diciembre. Abril–mayo: temporada media, cascadas exuberantes, sin multitudes."
+  },
+  "localFood": "La nueva cocina nórdica tiene su contraparte noruega de gama alta en restaurantes como Speilsalen (Britannia, 1 Michelin), RE-NAA (3 Michelin en Stavanger), Maaemo (3 Michelin en Oslo) y Christian (Hotel Union Øye). Clásicos noruegos: salmón ahumado, cangrejo real de Kirkenes, fårikål (estofado de cordero), brunost (queso marrón) y bacalao atlántico fresco. El akvavit es el destilado de elección; la cerveza artesanal noruega (Nøgne Ø, 7 Fjell) es excelente.",
+  "currency": "Corona noruega (NOK). En su mayoría sin efectivo; las tarjetas funcionan en todas partes. Una propina del 5-10 % en restaurantes se aprecia, pero no se espera.",
+  "language": "Noruego (Bokmål y Nynorsk). El dominio del inglés es universal: Noruega tiene la mayor proficiencia en inglés de cualquier país no nativo.",
+  "timezone": "UTC+1 (UTC+2 en verano con horario de verano)"
+}

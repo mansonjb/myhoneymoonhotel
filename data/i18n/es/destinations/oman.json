@@ -1,0 +1,106 @@
+{
+  "tagline": "El secreto mejor guardado de la península arábiga: desiertos, fiordos y rutas del incienso de 5.000 años.",
+  "intro": "Omán es el destino de luna de miel de Oriente Medio que se ha convertido, sin hacer ruido, en el más interesante. Mientras Dubái persigue rascacielos, Omán conserva su alma antigua: los wadis rosados de Jabal Akhdar a 2.000 m, los khors fiordo del Musandam donde los delfines superan en número a los barcos, los bosques de incienso de Salalah que han perfumado el mundo desde el 3000 a. C., y un litoral playero que rivaliza con el del Índico sin ninguna de sus multitudes. Sume una nómina de resorts genuinamente de talla mundial —Six Senses Zighy Bay, Alila Jabal Akhdar, The Chedi Muscat— y obtiene un destino que ofrece desierto, montaña y mar en un solo viaje, sin renunciar al lujo.",
+  "bestTime": "Oct–Abr",
+  "flightFrom": "6–7h desde Europa",
+  "topExperience": "Romance de desierto y mar",
+  "perfectFor": [
+    "Parejas que quieren Oriente Medio sin el oropel de Dubái: lujo discreto y digno",
+    "Quienes sueñan con combinar desierto, montaña y mar en una luna de miel",
+    "Recién casados aventureros: baños en wadis, conducción por dunas, llegadas en parapente",
+    "Apasionados de la historia: rutas del incienso de 5.000 años, fuerte de Nizwa, UNESCO de Bahla",
+    "Fotógrafos: los cañones de Jabal Akhdar y Wahiba Sands son de otro mundo"
+  ],
+  "skipIf": [
+    "Necesita vida nocturna intensa: Omán es orgullosamente tranquilo y conservador",
+    "Quiere espectáculo y compras estilo Dubái en cada esquina",
+    "Planea viajar de mayo a septiembre: las temperaturas interiores superan los 45 °C",
+    "Quiere Solo adultos por defecto: la mayoría de los resorts omaníes son familiares"
+  ],
+  "experiences": [
+    {
+      "icon": "🪂",
+      "title": "Llegada en parapente al Six Senses Zighy Bay",
+      "description": "La llegada de hotel más teatral de la tierra: parapente en tándem desde la cresta de 293 m sobre el Musandam, aterrizando en la playa privada junto a su pool villa. Tres minutos de vuelo, un recuerdo para toda la vida.",
+      "cost": "$300–$400 por persona (lo organiza el hotel)",
+      "tip": "Reserve la franja del amanecer: los vientos son más limpios y aterriza a tiempo para desayunar en la terraza de su villa."
+    },
+    {
+      "icon": "🌹",
+      "title": "Cosecha de rosas en Jabal Akhdar",
+      "description": "Cada abril, las aldeas en terrazas a 2.000 m florecen con rosas damascenas con las que se destila el agua de rosas omaní. Camine por las terrazas al amanecer con un guía local; la fragancia al alba es genuinamente inolvidable.",
+      "cost": "Caminata gratuita; tour guiado $60–$120",
+      "tip": "Alójese en Alila Jabal Akhdar o Anantara: ambos organizan pícnics privados de cosecha de rosas al borde del cañón."
+    },
+    {
+      "icon": "⛵",
+      "title": "Crucero en dhow por Musandam",
+      "description": "La península norte de Musandam, en Omán, es la \"Noruega de Arabia\": acantilados que caen a fiordos turquesa (khors). Alquile un dhow tradicional de madera para el día: esnórquel con delfines, baño en calas escondidas y almuerzo de mero a la parrilla en cubierta.",
+      "cost": "$180–$350 por pareja por una jornada completa privada",
+      "tip": "Salga del puerto de Khasab antes de las 8:00 para coger los grupos de delfines alimentándose en Khor Sham."
+    },
+    {
+      "icon": "🏜️",
+      "title": "Pernoctación en Wahiba Sands",
+      "description": "Dunas anaranjadas hasta el horizonte, un campamento estilo beduino bajo 5.000 estrellas, paseos en camello al ocaso y dune-bashing en 4x4 al amanecer. La experiencia arquetípica del desierto árabe, a tan solo tres horas de Mascate.",
+      "cost": "Campamento desde $300/noche; complemento desde resorts urbanos $450–$700",
+      "tip": "Duerma en una tienda deluxe en Desert Nights Camp. No reserve las tiendas \"básicas\": están cerca de la carretera y son ruidosas."
+    },
+    {
+      "icon": "🕌",
+      "title": "Gran Mezquita Sultán Qaboos, Mascate",
+      "description": "Uno de los edificios religiosos más bellos del mundo. La sala principal alberga una alfombra persa de 21 toneladas y una lámpara Swarovski de más de 14 m de diámetro. Abierta a no musulmanes de sábado a jueves por la mañana.",
+      "cost": "Gratuito",
+      "tip": "Llegue a las 8:00, cuando la luz a través de las vidrieras es perfecta. El código de vestimenta es estricto: las mujeres necesitan pañuelo y mangas largas."
+    }
+  ],
+  "months": [
+    { "month": "Jan", "weather": "Días cálidos, noches frescas, perfecto", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Pico de temporada: reserve pronto" },
+    { "month": "Feb", "weather": "Cálido y seco, ideal en todo", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "El mejor mes para interior y costa" },
+    { "month": "Mar", "weather": "Templándose, aún cómodo", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Excelente, comienza la temporada de tiburón ballena" },
+    { "month": "Apr", "weather": "Costa calurosa, montaña perfecta", "emoji": "🌹", "crowds": "Moderada", "price": "Medio", "verdict": "Cosecha de rosas en Jabal Akhdar: mágico" },
+    { "month": "May", "weather": "Costa muy calurosa, montaña aún OK", "emoji": "🥵", "crowds": "Baja", "price": "Bajo", "verdict": "Salte el interior; solo montaña" },
+    { "month": "Jun", "weather": "Calor extremo 45 °C+ en interior", "emoji": "🥵", "crowds": "Baja", "price": "Bajo", "verdict": "Evite, salvo Salalah" },
+    { "month": "Jul", "weather": "Monzón khareef en Salalah, sur verde", "emoji": "🌧", "crowds": "Moderada", "price": "Medio", "verdict": "Salalah se transforma: oasis tropical" },
+    { "month": "Aug", "weather": "Khareef continúa en Salalah", "emoji": "🌧", "crowds": "Alta", "price": "Alto", "verdict": "Pico de Salalah: reserve con 6 meses" },
+    { "month": "Sep", "weather": "Final del khareef, calor en otros lugares", "emoji": "🌦", "crowds": "Moderada", "price": "Medio", "verdict": "Último khareef; costa aún caliente" },
+    { "month": "Oct", "weather": "Refrescando, comienza la temporada media", "emoji": "☀️", "crowds": "Moderada", "price": "Medio", "verdict": "Excelente relación calidad-precio, clima perfeccionándose" },
+    { "month": "Nov", "weather": "Días cálidos secos, noches frescas", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Temporada media premium: ideal" },
+    { "month": "Dec", "weather": "Perfecto, luz diurna corta", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Sobreprecio festivo, pero clima impecable" }
+  ],
+  "budgetTiers": [
+    { "label": "Ciudad y playa de gama media", "range": "$250–$500/noche", "gets": "Buen 4-5★ en Mascate o en la playa de Salalah. Cómodo, no centrado en diseño.", "example": "Crowne Plaza Muscat, Hilton Salalah, Kempinski Muscat" },
+    { "label": "Lujo premium", "range": "$500–$1,200/noche", "gets": "Resort emblemático con spa, varios restaurantes, playa privada o vistas al cañón. El punto justo.", "example": "The Chedi Muscat, Al Bustan Palace Ritz-Carlton, Anantara Al Jabal Al Akhdar" },
+    { "label": "Ultra-lujo e icónico", "range": "$1,200–$4,000/noche", "gets": "Villa con piscina privada, mayordomo, llegada en parapente, suite al borde del cañón o el resort más alto de Oriente Medio.", "example": "Six Senses Zighy Bay, Alila Jabal Akhdar, Shangri-La Al Husn Solo adultos" }
+  ],
+  "areas": [
+    { "name": "Mascate", "bestFor": "Base de llegada, cultura, ciudad-playa", "description": "La capital: arquitectura encalada de baja altura, la Gran Mezquita, el zoco de Mutrah y una hilera de 5 estrellas frente al mar. Dos o tres noches para descomprimir y conocer la ciudad." },
+    { "name": "Jabal Akhdar (Montaña Verde)", "bestFor": "Cañones espectaculares, aire fresco de montaña, cosecha de rosas", "description": "Una meseta de 2.000 m a 2,5 horas de Mascate. Temperaturas 15 °C más frescas que en la costa. Hogar de Alila y Anantara: dos de los mejores resorts de montaña del mundo." },
+    { "name": "Península de Musandam", "bestFor": "Paisaje fiordo, delfines, lujo remoto", "description": "El enclave norte de Omán, fronterizo con los EAU. Acceso vía vuelo de 2h Mascate–Khasab o por tierra desde Dubái (4h). Six Senses Zighy Bay es la propiedad legendaria aquí." },
+    { "name": "Wahiba Sands", "bestFor": "Experiencia de desierto de una noche", "description": "A tres horas al sur de Mascate. Mares clásicos de dunas doradas con campamentos beduinos. Combine con el fuerte de Nizwa de ida y Wadi Bani Khalid de vuelta." },
+    { "name": "Salalah", "bestFor": "Refugio del monzón sureño, historia del incienso", "description": "Un vuelo de 90 minutos al sur. Playas tropicales, plantaciones de banano y la ruta comercial del incienso más antigua del mundo (ruinas UNESCO de Al Baleed). El monzón khareef de jul–sep tiñe el paisaje de esmeralda." }
+  ],
+  "expertTips": [
+    { "tip": "Combine costa + montaña en un solo viaje", "detail": "Tres noches en Mascate + tres en Jabal Akhdar es el ritmo ideal de una semana. Los 2,5 h de coche entre ambas son escénicos (vía el fuerte de Nizwa). No pase la semana entera en la playa: las montañas son por lo que ha venido." },
+    { "tip": "Alquile un 4WD para los desplazamientos al interior", "detail": "Un Toyota Prado o Land Cruiser es esencial para Jabal Akhdar (la última carretera de montaña requiere 4WD) y Wahiba Sands (pistas de desierto). Presupueste $80–$130/día. Permiso internacional necesario." },
+    { "tip": "El código de vestimenta es notablemente conservador", "detail": "Fuera de las piscinas del resort, hombros y rodillas deben cubrirse, tanto en hombres como en mujeres. Esto se respeta especialmente en el zoco de Mutrah, la Gran Mezquita y Nizwa. Los resorts en sí son relajados." },
+    { "tip": "El alcohol es limitado pero está disponible en los resorts", "detail": "Todos los resorts internacionales 5★ sirven alcohol. Los supermercados no lo venden. La franquicia de duty-free es de 2 litros por visitante no musulmán a la llegada: aprovéchela si quiere vino en su villa." },
+    { "tip": "Obtenga el e-visa de Omán antes de volar", "detail": "La mayoría de las nacionalidades requieren e-visa en evisa.rop.gov.om. Tramitación en 24–72 h. No llegue sin él: la emisión a la llegada ya no es universal." }
+  ],
+  "packing": [
+    { "item": "Camisas de manga larga ligeras", "why": "Protección solar en la costa y modestia en pueblos y mezquitas. El lino es el uniforme universal en Omán." },
+    { "item": "Pañuelo (mujeres)", "why": "Necesario para visitar mezquitas y agradecido en zocos tradicionales y aldeas." },
+    { "item": "Calzado de senderismo cerrado", "why": "Las caminatas en wadis (Wadi Shab, Wadi Bani Khalid) tienen rocas resbaladizas. Las sandalias no bastan." },
+    { "item": "Capa abrigada", "why": "Las noches en Jabal Akhdar bajan a 10 °C incluso en verano. Las del desierto en Wahiba Sands pueden ser de 5 °C en invierno." },
+    { "item": "Protector solar respetuoso con el arrecife", "why": "El índice UV es extremo. El protector reef-safe protege los enclaves de esnórquel en Musandam y las islas Daymaniyat." }
+  ],
+  "guide": {
+    "getting": "Vuele a Mascate (MCT) con Oman Air (directo desde Londres 7h, París 7h, Fráncfort 6h30, Zúrich 7h), o conecte vía Dubái (45 min con Emirates/flydubai) o Doha (Qatar Airways). Desde Norteamérica: conexiones vía Fráncfort, Doha o Dubái; 14–17h en total desde la costa este de EE.UU. Oman Air opera un servicio directo de 8h desde Bangkok. El aeropuerto de Mascate está a 30 minutos de la franja hotelera principal; taxis $20–$30.",
+    "where": "Itinerario clásico de una semana: 3 noches en Mascate (The Chedi, Al Bustan o Al Husn) → 3 noches en Jabal Akhdar (Alila o Anantara) → 1 noche opcional en campamento del desierto de Wahiba Sands. Para 10 días, añada Musandam vía Six Senses Zighy Bay. Para diciembre–marzo, considere intercambiar la parte de montaña por Salalah si prefiere centrarse en la playa.",
+    "when": "De octubre a abril es la única ventana sensata: temperaturas de 22–30 °C en la costa, 15–25 °C en Jabal Akhdar y 25–35 °C en el desierto. Pico entre mediados de noviembre y mediados de marzo. Evite mayo–septiembre, salvo que vaya específicamente a Salalah por el monzón khareef (jul–sep), que es una experiencia espectacular en sí misma."
+  },
+  "localFood": "Shuwa: cordero marinado 24h en especias omaníes y luego cocinado lentamente bajo tierra durante 24h (tradicional del Eid, aunque buenos hoteles lo ofrecen); majboos (arroz especiado con carne); mero del mar de Arabia a la parrilla; camello en un campamento beduino (más fuerte que la ternera, más rico que el cordero); halwa de sémola perfumado con agua de rosas y azafrán; dátiles de Nizwa (pruebe la variedad khalas); el café omaní (kahwa) servido con dátiles es un ritual de hospitalidad que encontrará a diario.",
+  "currency": "Rial omaní (OMR), una de las monedas más valiosas del mundo; 1 OMR ≈ $2,60",
+  "language": "El árabe es oficial; el inglés se habla con fluidez en hoteles, restaurantes y enclaves turísticos.",
+  "timezone": "UTC+4 (Hora estándar del Golfo)"
+}

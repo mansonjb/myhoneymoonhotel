@@ -1,0 +1,77 @@
+{
+  "tagline": "Reinos antiguos, colinas de té entre la bruma y playas orladas de palmeras en una isla con forma de lágrima",
+  "intro": "Sri Lanka concentra una variedad absurda en un país más pequeño que Irlanda. En una sola semana puede subir al amanecer a una fortaleza rocosa del siglo V, viajar en un tren azul lento entre plantaciones de té esmeralda, rastrear leopardos en Yala y cerrar la jornada viendo cómo saltan las ballenas frente a Mirissa. El Triángulo Cultural ancla 2.500 años de civilización budista —Sigiriya, Dambulla, Polonnaruwa, Anuradhapura—, mientras que el Hill Country ofrece aire fresco, bungalós coloniales y algunos de los trayectos en tren más fotogénicos del planeta. La costa suroeste hilvana el Galle Fort, declarado Patrimonio de la Humanidad por la UNESCO, y las playas de palmeras mecidas por la brisa de Tangalle y Weligama. Dos sistemas monzónicos distintos hacen que el calendario importe: el suroeste y el Hill Country brillan de diciembre a marzo, mientras que la costa este alcanza su pico de mayo a septiembre. La gastronomía está criminalmente infravalorada: hoppers de huevo al desayuno, kottu roti por la noche, currys de pescado densos en coco. La fauna es genuinamente de talla mundial: Sri Lanka tiene la mayor densidad de leopardos del planeta, en Yala.",
+  "bestTime": "Diciembre a marzo para el sur, el oeste y el Hill Country; mayo a septiembre para la costa este",
+  "flightFrom": "Nueva York ~17 h vía Doha o Dubái; Londres ~11 h directo o vía el Golfo. Bandaranaike (CMB) es la única puerta internacional.",
+  "topExperience": "Subir a la fortaleza rocosa de Sigiriya al amanecer y luego tomar el tren de la mañana de Kandy a Ella entre plantaciones de té",
+  "perfectFor": [
+    "Combinaciones de cultura y naturaleza",
+    "Fotógrafos de fauna",
+    "Apasionados del té y de los trenes",
+    "Surfistas en busca de aguas cálidas",
+    "Buscadores de ayurveda y bienestar"
+  ],
+  "skipIf": [
+    "Solo busca tumbarse en la playa en un único punto",
+    "Detesta las carreteras de montaña con curvas",
+    "Necesita clima predecible en todas partes a la vez",
+    "Espera el pulido de playa típico de Maldivas"
+  ],
+  "experiences": [
+    { "icon": "🪨", "title": "Sigiriya al amanecer", "description": "Suba los 1.200 escalones de la fortaleza Lion Rock del siglo V antes de que aprieten el calor y los autobuses turísticos.", "cost": "30 USD de entrada", "tip": "Esté en la puerta a las 6:30 en punto; considere también Pidurangala, justo al lado, para la foto icónica" },
+    { "icon": "🚂", "title": "Tren de Kandy a Ella", "description": "Siete horas entre plantaciones de té, cascadas y el Nine Arches Bridge: uno de los recorridos en tren más escénicos del mundo.", "cost": "10-25 USD reservado", "tip": "Reserve asientos en segunda clase con plaza con semanas de antelación" },
+    { "icon": "🐆", "title": "Safari de leopardos en Yala", "description": "El Bloque 1 de Yala posee la mayor densidad de leopardos del planeta.", "cost": "80-150 USD jeep compartido", "tip": "Alójese en el parque o cerca (Wild Coast Tented Lodge)" },
+    { "icon": "🏰", "title": "Pasear por Galle Fort", "description": "Un fuerte colonial holandés perfectamente preservado que se adentra en el océano Índico.", "cost": "Gratis a pie", "tip": "Pase la noche dentro de las murallas (Amangalla o Fort Bazaar)" },
+    { "icon": "🍃", "title": "Estancia en una hacienda de té", "description": "Duerma en un bungaló restaurado de plantador en Ceylon Tea Trails o Tea Trails Hatton.", "cost": "600-1.200 USD/noche todo incluido", "tip": "Reserve los bungalós Castlereagh o Summerville" }
+  ],
+  "months": [
+    { "month": "January", "weather": "27 °C, seco en el sur y oeste", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Plena temporada: reserve con 6 meses de antelación" },
+    { "month": "February", "weather": "28 °C, seco y despejado", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "El mejor mes general para primerizos" },
+    { "month": "March", "weather": "29 °C, calentándose", "emoji": "🌤️", "crowds": "Alta", "price": "Alto", "verdict": "Excelente: leve aumento de la humedad" },
+    { "month": "April", "weather": "30 °C, calor premonzónico", "emoji": "🌤️", "crowds": "Media", "price": "Medio", "verdict": "Caluroso, pero con la energía del Año Nuevo cingalés y tamil" },
+    { "month": "May", "weather": "29 °C, comienza el monzón del SO", "emoji": "🌧️", "crowds": "Baja", "price": "Bajo", "verdict": "La costa este se abre: evite el sur" },
+    { "month": "June", "weather": "28 °C, suroeste lluvioso", "emoji": "🌧️", "crowds": "Baja", "price": "Bajo", "verdict": "Solo Triángulo Cultural y costa este" },
+    { "month": "July", "weather": "28 °C, Esala Perahera", "emoji": "⛅", "crowds": "Media", "price": "Medio", "verdict": "El festival de Kandy es espectacular" },
+    { "month": "August", "weather": "28 °C, más seco en el norte", "emoji": "⛅", "crowds": "Media", "price": "Medio", "verdict": "Genial para safaris y playas del este" },
+    { "month": "September", "weather": "28 °C, transición", "emoji": "🌦️", "crowds": "Baja", "price": "Bajo", "verdict": "Temporada media tranquila" },
+    { "month": "October", "weather": "27 °C, llega el monzón del NE", "emoji": "🌧️", "crowds": "Baja", "price": "Bajo", "verdict": "El mes más lluvioso en toda la isla: evitar" },
+    { "month": "November", "weather": "27 °C, despejándose en el sur", "emoji": "🌦️", "crowds": "Media", "price": "Medio", "verdict": "La costa sur reabre a finales de mes" },
+    { "month": "December", "weather": "27 °C, seco y festivo", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Navidad y Fin de Año se reservan con un año" }
+  ],
+  "budgetTiers": [
+    { "label": "Cómodo", "range": "200-400 USD/noche", "gets": "Casas de huéspedes coloniales boutique, resorts de playa de gama media y conductor-guía privado", "example": "Propiedades Jetwing, Heritance Kandalama" },
+    { "label": "Lujo", "range": "500-900 USD/noche", "gets": "Colección Resplendent Ceylon, villas de diseño y mayordomo dedicado", "example": "Cape Weligama, Wild Coast Tented Lodge" },
+    { "label": "Ultra-lujo", "range": "1.000-2.500 USD/noche", "gets": "Propiedades Aman, bungalós de té todo incluido y traslados en helicóptero", "example": "Amangalla, Aman Galle, Ceylon Tea Trails" }
+  ],
+  "areas": [
+    { "name": "Triángulo Cultural", "bestFor": "Historia, ruinas, primerizos", "description": "Corazón de la zona seca con Sigiriya, las cuevas de Dambulla y Polonnaruwa en un radio de 90 minutos. Heritance Kandalama es la base icónica." },
+    { "name": "Kandy y Hill Country", "bestFor": "Cultura del té, clima fresco, trenes", "description": "El Templo del Diente de Kandy y, después, ascenso a Nuwara Eliya y Hatton para las plantaciones de té y el tren a Ella." },
+    { "name": "Galle y costa sur", "bestFor": "Playas, encanto colonial, surf", "description": "Galle Fort ancla un litoral de playas de palmeras desde Bentota hasta Tangalle. Cape Weligama y Amangalla se concentran aquí." },
+    { "name": "Yala y sureste", "bestFor": "Safari, fauna, campamentos en tienda", "description": "El parque nacional más reputado de Sri Lanka para leopardos. Wild Coast Tented Lodge es el referente." },
+    { "name": "Costa este", "bestFor": "Playa de mayo a septiembre", "description": "Cuando el suroeste está pasado por agua, la playa de Nilaveli en Trinco y Pasikuda ofrecen baños secos y soleados." }
+  ],
+  "expertTips": [
+    { "tip": "Contrate un conductor-guía, no se ponga al volante", "detail": "Las carreteras son caóticas y la señalización irregular. Un buen conductor cuesta 60-90 USD/día incluido su alojamiento." },
+    { "tip": "Siga los monzones, no luche contra ellos", "detail": "Diciembre-marzo: sur, oeste, montañas. Mayo-septiembre: costa este y Triángulo Cultural. Octubre es genuinamente miserable en toda la isla." },
+    { "tip": "Reserve días colchón entre regiones", "detail": "Las distancias parecen cortas en el mapa, pero ir de Colombo a Ella puede llevar 7 horas." },
+    { "tip": "Sáltese el orfanato de elefantes de Pinnawala", "detail": "Es éticamente cuestionable. Vea elefantes salvajes en Udawalawe o en \"The Gathering\" de Minneriya." },
+    { "tip": "Reserve los safaris en Yala a través de su hotel", "detail": "Los jeeps gestionados por hoteles conocen a los rastreadores y tienen prioridad de acceso a la entrada del parque." }
+  ],
+  "packing": [
+    { "item": "Outfit modesto para los templos", "why": "Hombros y rodillas cubiertos en los lugares budistas" },
+    { "item": "Capas ligeras para las montañas", "why": "Nuwara Eliya y Ella bajan a un dígito por la noche" },
+    { "item": "Protector solar reef-safe", "why": "El UV es brutal todo el año cerca del ecuador" },
+    { "item": "Repelente de mosquitos con DEET", "why": "El dengue está presente en zonas bajas" },
+    { "item": "Calcetines antisanguijuelas para caminatas en montaña", "why": "Si va a recorrer la selva de Sinharaja, las sanguijuelas están aseguradas" },
+    { "item": "Efectivo en billetes pequeños de LKR", "why": "Tuk-tuks y puestos de carretera funcionan con billetes pequeños" }
+  ],
+  "guide": {
+    "getting": "Todos los vuelos internacionales aterrizan en Bandaranaike (CMB). La mayoría de los viajeros de lujo evitan Colombo: organicen con antelación un conductor-guía que les lleve directamente a Sigiriya (4 h) o al sur, a Galle (2-3 h).",
+    "where": "Una ruta clásica de 10-14 días: zona de Sigiriya (2-3 noches), Kandy (1-2 noches), Hill Country (2 noches en Ceylon Tea Trails), Yala (1-2 noches) y costa sur (3-4 noches en Cape Weligama o Amangalla).",
+    "when": "Para los primerizos que hagan el bucle sur-montañas, apunten a finales de enero hasta mediados de marzo. Si su prioridad es Yala más la costa este, cambien a junio-agosto. La Esala Perahera de Kandy (finales de julio) es uno de los grandes espectáculos culturales de Asia."
+  },
+  "localFood": "La comida ceilandesa es más audaz y variada que la de su vecina India: el coco, las hojas de curry, el pandán y la canela definen el paladar. El desayuno son hoppers de huevo o string hoppers con dhal y pol sambol. El almuerzo es arroz y curry —típicamente, 5-7 platos pequeños—. El kottu roti nocturno es el plato reconfortante nacional.",
+  "currency": "Rupia esrilanquesa (LKR)",
+  "language": "Cingalés / tamil (inglés ampliamente hablado)",
+  "timezone": "IST (UTC+5:30)"
+}

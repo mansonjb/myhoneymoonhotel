@@ -1,0 +1,156 @@
+{
+  "tagline": "Surf atlántico, alcornocales y vinos de talla mundial: el destino de luna de miel más infravalorado de Europa.",
+  "intro": "Portugal supera con creces lo que cabría esperar como destino de luna de miel. Lisboa tiene la luz más bella de cualquier capital europea: las veladas de fado, los azulejos, las vistas desde los miradouros. El Valle del Duero es probablemente la región vinícola fluvial más espectacular de Europa, con quintas que producen oporto y tinto en laderas en terraza imposiblemente empinadas. Comporta es lo que era el Algarve en 1970: arrozales, alcornocales y largas playas atlánticas vacías por las que a veces caminan caballos salvajes a marea baja. Madeira es subtropical todo el año con un paisaje volcánico dramático. Portugal ofrece cuatro experiencias de luna de miel completamente distintas a 3 horas de vuelo de la mayor parte de Europa, a precios un 30–40 % por debajo de las alternativas italianas o francesas comparables.",
+  "bestTime": "May–Oct",
+  "flightFrom": "2–3h desde el norte de Europa",
+  "topExperience": "Playa y región vinícola",
+  "perfectFor": [
+    "Apasionados del vino: el Duero y el Alentejo producen algunos de los vinos más interesantes de Europa",
+    "Parejas que quieren profundidad cultural y grandes playas sin precios italianos o franceses",
+    "Recién casados europeos que buscan vuelo corto y verdadera bravura atlántica, no multitudes mediterráneas",
+    "Apasionados de la gastronomía: bacalhau, pastel de nata, percebes y la cultura de petiscos son extraordinarios",
+    "Parejas interesadas en el surf: la costa atlántica suroeste tiene olas todo el año desde Comporta a Sagres"
+  ],
+  "skipIf": [
+    "Es imprescindible un mar Mediterráneo cálido: el Atlántico portugués puede ser fresco incluso en verano",
+    "Quiere una experiencia fija de resort de sol y playa: Portugal premia la exploración",
+    "Visita en julio–agosto y espera resorts del Algarve tranquilos: están extremadamente concurridos",
+    "Le atraen días largos junto a la piscina sin programa cultural: Portugal premia a los curiosos"
+  ],
+  "experiences": [
+    {
+      "icon": "🍷",
+      "title": "Visita a una quinta del Valle del Duero",
+      "description": "Recorra la N222 —votada como la carretera más bella de Portugal— deteniéndose en dos o tres quintas para catas privadas con vistas al valle vitivinícola en terrazas. Quinta do Crasto, Quinta do Vale Meão y Graham's son sobresalientes. Pernocte en una casa de huéspedes de quinta.",
+      "cost": "30–80 € por persona en catas",
+      "tip": "Reserve cata privada (50–100 € para dos) en lugar de visita sin cita: la experiencia es mucho más íntima y se prueban añadas más viejas no disponibles en barra."
+    },
+    {
+      "icon": "🐚",
+      "title": "Percebes y petiscos en Lisboa",
+      "description": "Empiece en el Mercado da Ribeira con una ruta de petiscos: tostas de sardina, jamón presunto, quesos y croquetas de bacalhau. Termine en una taberna con percebes. Lo más distintivo —y delicioso— que comerá en Portugal.",
+      "cost": "40–80 € por pareja para una velada completa de petiscos",
+      "tip": "Taberna da Rua das Flores y Tasca do Chico (con fado en vivo) son las mejores mesas. Reserve con una semana de antelación: ambas son diminutas."
+    },
+    {
+      "icon": "🏖️",
+      "title": "Playa de Comporta a caballo",
+      "description": "Las playas atlánticas salvajes de Comporta están respaldadas por alcornocales y arrozales. Varias caballerizas ofrecen rutas guiadas a caballo por la orilla al amanecer o al atardecer: una experiencia de playa muy distinta, sin nadie a la vista durante kilómetros.",
+      "cost": "60–100 € por persona",
+      "tip": "Alójese en el Sublime Comporta: sus caballerizas ofrecen los mejores paseos guiados y el hotel está enclavado en un alcornocal con un diseño extraordinario."
+    },
+    {
+      "icon": "🎶",
+      "title": "Velada de fado en Alfama, Lisboa",
+      "description": "Una casa de fado adecuada en el barrio lisboeta de Alfama: una fadista cantando el alma melancólica de Portugal en una sala encalada con 20 personas, acompañada de guitarra portuguesa y viola baixa. Genuinamente conmovedor. No es un espectáculo turístico.",
+      "cost": "40–80 € por persona con cena",
+      "tip": "Tasca do Chico (6 mesas, reserve con 2 semanas), Clube de Fado o A Baiuca son las experiencias auténticas. Los restaurantes de la zona turística junto a Restauradores son performativos: evítelos."
+    },
+    {
+      "icon": "⛵",
+      "title": "Velero por el Duero hasta Oporto",
+      "description": "Una salida en velero de medio día o jornada completa desde el alto Duero, río abajo a través del cañón hasta Oporto, pasando por esclusas y bajo los famosos puentes. El agua está en calma, el paisaje es dramático y llegar al frente fluvial de Oporto en barco es una entrada genuinamente especial.",
+      "cost": "80–150 € por persona (crucero en grupo) o 400 € (chárter privado)",
+      "tip": "Douro Azul y Barca Douro operan excelentes cruceros. Para luna de miel, el chárter privado para dos vale cada euro: la intimidad de un patrón personal en un trayecto fluvial de 4 horas es incomparable."
+    }
+  ],
+  "months": [
+    { "month": "Jan", "weather": "Suave pero lluvioso, verde", "emoji": "🌦", "crowds": "Muy baja", "price": "Muy bajo", "verdict": "Solo para escapada a Madeira" },
+    { "month": "Feb", "weather": "Almendros en flor en el Algarve", "emoji": "🌸", "crowds": "Baja", "price": "Bajo", "verdict": "Hermoso si evita la playa" },
+    { "month": "Mar", "weather": "Templándose, flores silvestres, algo de lluvia", "emoji": "🌱", "crowds": "Baja", "price": "Bajo", "verdict": "Excelente para tour por la región vinícola" },
+    { "month": "Apr", "weather": "Cálido, verde, luz excelente", "emoji": "🌤", "crowds": "Moderada", "price": "Medio", "verdict": "Soberbio para Lisboa y el Duero" },
+    { "month": "May", "weather": "Cálido, seco, casi perfecto", "emoji": "☀️", "crowds": "Moderada", "price": "Medio", "verdict": "Mejor mes en general" },
+    { "month": "Jun", "weather": "Caluroso, fiestas dos santos populares", "emoji": "☀️", "crowds": "Mod-alta", "price": "Medio-alto", "verdict": "Excelente: temporada de festas" },
+    { "month": "Jul", "weather": "Caluroso, seco, pico de temporada", "emoji": "☀️", "crowds": "Máxima", "price": "Alto", "verdict": "Algarve muy concurrido, Comporta bien" },
+    { "month": "Aug", "weather": "El más caluroso, muy concurrido", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Algarve a tope, vaya a Comporta" },
+    { "month": "Sep", "weather": "Cálido, vendimia, excelente", "emoji": "☀️", "crowds": "Moderada", "price": "Medio-alto", "verdict": "Mejor para vino: temporada de vendimia" },
+    { "month": "Oct", "weather": "Cálido, más tranquilo, sube el surf", "emoji": "🌤", "crowds": "Baja-mod", "price": "Medio", "verdict": "Soberbio para surf y cultura" },
+    { "month": "Nov", "weather": "Suave, lluvioso, muy tranquilo", "emoji": "🌦", "crowds": "Baja", "price": "Bajo", "verdict": "Buena relación calidad-precio, sin clima de playa" },
+    { "month": "Dec", "weather": "Suave, lluvioso, Navidad en Oporto", "emoji": "🌨", "crowds": "Baja-mod", "price": "Bajo-medio", "verdict": "La Navidad de Oporto es mágica" }
+  ],
+  "budgetTiers": [
+    {
+      "label": "Portugal boutique",
+      "range": "150–350 €/noche",
+      "gets": "Hotel boutique bellamente diseñado: quinta vinícola, palacete lisboeta o hotel de diseño en Comporta. Excelente relación calidad-precio frente a destinos europeos comparables.",
+      "example": "Quinta da Mata, Bairro Alto Hotel (Lisboa), Herdade da Comporta"
+    },
+    {
+      "label": "Premium",
+      "range": "350–700 €/noche",
+      "gets": "Hotel galardonado con piscina, gastronomía excepcional y entorno memorable. Vistas del Duero o alcornocal de Comporta: genuinamente de talla mundial a precios europeos medios.",
+      "example": "Sublime Comporta, Six Senses Douro Valley, Bela Vista Hotel (Algarve)"
+    },
+    {
+      "label": "Ultra-lujo",
+      "range": "700–2.000+ €/noche",
+      "gets": "Servicio de villa privada, exclusividad de finca, alta cocina con varias estrellas Michelin. Portugal en este nivel rivaliza con cualquier lugar de Europa a precios un 30 % menores que Toscana o Provenza.",
+      "example": "Palácio Belmonte (Lisboa), Vila Vita Parc (Algarve), Monchique Resort"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Lisboa",
+      "bestFor": "Cultura, fado, gastronomía, romance urbano",
+      "description": "La capital pequeña más bella de Europa: siete colinas de casas de azulejo, terrazas miradouro y la mejor escena gastronómica del sur de Europa después de San Sebastián. Combine una estancia en Lisboa con excursión a Sintra y playa de Cascais para una luna de miel ciudad-playa completa."
+    },
+    {
+      "name": "Valle del Duero",
+      "bestFor": "Región vinícola, paisajes fluviales, quintas",
+      "description": "La región vinícola más dramática de Europa: viñedos en terrazas imposiblemente empinadas sobre un río serpenteante, con bodegas que producen oporto y tinto de extraordinaria calidad. Base 3 noches en el alto Duero y cate por el valle."
+    },
+    {
+      "name": "Comporta y Alentejo",
+      "bestFor": "Atlántico salvaje, alcornocales, soledad",
+      "description": "El secreto mejor guardado de Portugal: una franja de 30 km de playa atlántica salvaje respaldada por alcornocales, lagunas y arrozales. Comporta tiene un puñado de hoteles de diseño y excelentes restaurantes de marisco. Sin rascacielos, sin clubes nocturnos. Calma pura y bella."
+    },
+    {
+      "name": "Algarve",
+      "bestFor": "Mejores playas, acantilados, baño en resort",
+      "description": "La costa sur tiene playas con acantilados genuinamente extraordinarias —Praia da Marinha, la cueva de Benagil y el cabo de Sagres están entre las costas más dramáticas de Europa. Evite Albufeira en verano (muy turístico); Lagos y Sagres siguen siendo bellos y menos desarrollados."
+    },
+    {
+      "name": "Madeira",
+      "bestFor": "Escapada subtropical todo el año, senderismo, vino",
+      "description": "Una isla atlántica volcánica subtropical todo el año: montañas exuberantes, senderos por levadas en bosques de laurisilva, vino de Madeira y vistas oceánicas dramáticas. El mejor destino de luna de miel fuera de temporada en Portugal: mientras el continente está lluvioso, Madeira está suave y bella."
+    }
+  ],
+  "expertTips": [
+    {
+      "tip": "Septiembre es el mes dorado en Portugal",
+      "detail": "La vendimia va de septiembre a octubre: las quintas del Duero están en su esplendor, la luz se ha suavizado tras el deslumbramiento de agosto, las multitudes han disminuido, los precios bajan un 20–30 % y el mar sigue cálido del verano. Septiembre en Portugal es una de las mejores condiciones para luna de miel en Europa."
+    },
+    {
+      "tip": "Comporta antes que el Algarve para soledad",
+      "detail": "El Algarve es brillante por sus acantilados y baños, pero está concurrido en verano. Comporta, a 90 minutos al sur de Lisboa, ofrece una experiencia distinta: playa atlántica salvaje, alcornocales, arrozales y un puñado de hoteles de diseño sin desarrollo turístico. Los precios son comparables, pero la atmósfera es incomparable."
+    },
+    {
+      "tip": "El Valle del Duero requiere coche",
+      "detail": "No hay transporte público adecuado para explorar las quintas del alto Duero. Alquile un coche en Oporto, recorra la N222 junto al río y alójese en una bodega 2–3 noches. La libertad de detenerse en bodegas familiares fuera del circuito es lo importante."
+    },
+    {
+      "tip": "Reserve el fado con antelación",
+      "detail": "Las mejores casas de fado en Lisboa tienen 15–25 asientos y se llenan con 2 semanas de antelación en alta temporada. Tasca do Chico es la más solicitada: reserve en cuanto tenga las fechas del vuelo. Si está completa, Clube de Fado es la mejor alternativa, con sala algo mayor."
+    },
+    {
+      "tip": "La luz de Lisboa es extraordinaria a las horas doradas",
+      "detail": "La cualidad específica de la luz en Lisboa —el ángulo, el reflejo del Tajo, la piedra caliza pálida— es única en Europa. Construya sus días en Lisboa en torno a los miradouros al amanecer y al atardecer en lugar de llenar cada hora con museos. El Miradouro de Santa Catarina a las 19:00 es inolvidable."
+    }
+  ],
+  "packing": [
+    { "item": "Capas ligeras para las noches de Lisboa", "why": "La brisa atlántica refresca las noches lisboetas incluso en verano: una chaqueta ligera o cárdigan es necesaria para cenas en terraza pasadas las 21:00" },
+    { "item": "Buen calzado de paseo para los adoquines", "why": "Las empinadas calles empedradas de Lisboa son hermosas y duras para los pies: un calzado adecuado evita veladas arruinadas" },
+    { "item": "Traje de neopreno (si surfea)", "why": "El agua atlántica portuguesa alcanza 20 °C en agosto pero está a 16 °C en mayo: incluso en verano, un traje shorty de 3 mm hace que surfear en Comporta sea genuinamente disfrutable" },
+    { "item": "Cuaderno o app de vinos", "why": "Probará vinos extraordinarios en quintas del Duero que no se exportan: anote los nombres de productor para poder pedírselos en casa" },
+    { "item": "Capa impermeable ligera", "why": "El clima atlántico es cambiante incluso en mayo y octubre: un chubasquero plegable es útil en cualquier temporada" }
+  ],
+  "guide": {
+    "getting": "Vuele a Lisboa Humberto Delgado (LIS): vuelos directos desde prácticamente toda ciudad europea con TAP Air Portugal, Ryanair, EasyJet, British Airways y Lufthansa (2–3h desde el norte de Europa). Para el Valle del Duero, vuele a Oporto Francisco de Sá Carneiro (OPO): 1h en coche hasta las primeras quintas. Para Madeira, vuele directo a Funchal (FNC) desde la mayoría de ciudades europeas. Transporte interno: excelentes trenes intercity (Lisboa-Oporto: 3h, 25 €); alquile coche para explorar Duero y Comporta.",
+    "where": "Mejor luna de miel de 10 noches en Portugal: 3 noches Lisboa (cultura, fado, comida) → 3 noches Valle del Duero (vino, estancia en quinta) → 4 noches Comporta (playa, atlántico salvaje). O: 5 noches Comporta + 5 noches Lisboa para split playa-ciudad. Para playa pura: 7 noches Lagos/Algarve + 3 noches Lisboa. Para fiabilidad todo el año: Madeira 7 noches en cualquier momento.",
+    "when": "Mayo–junio y septiembre–octubre son los mejores meses: cálidos pero no abrumadores, todo abierto, multitudes manejables. Septiembre coincide con la vendimia, lo que magnifica el Duero. Julio y agosto son excelentes para clima de playa, pero el Algarve está muy concurrido: elija Comporta en pico para una experiencia más tranquila. Madeira es bella todo el año."
+  },
+  "localFood": "Percebes (extraídos de las rocas atlánticas, con limón) en una taberna lisboeta, bacalhau à Brás (bacalao salado con huevos y patatas: 365 recetas), pastel de nata aún caliente en Pastéis de Belém, cata en una quinta del Duero con vistas y petiscos (tapas portuguesas) con una Sagres fría en una terraza de Comporta.",
+  "currency": "Euro (EUR)",
+  "language": "Portugués (inglés muy hablado)",
+  "timezone": "UTC+0 (WET) / UTC+1 (WEST en verano)"
+}

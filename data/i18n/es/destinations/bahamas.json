@@ -1,0 +1,75 @@
+{
+  "tagline": "700 islas de arena rosa, cerdos nadadores y aguas turquesas a 30 minutos de Miami",
+  "intro": "Bahamas es ese raro destino de luna de miel donde puede estar tomando un Sky Juice en una playa de arena rosa tres horas después de salir de JFK. El archipiélago se extiende a lo largo de 100.000 millas cuadradas del Atlántico —700 islas, 2.400 cayos y solo 16 habitados—, lo que significa que el contraste entre el bullicio impulsado por casinos de Nasáu y los blancos crecientes vacíos de Eleuthera o las Exumas es enorme, aunque compartan bandera y moneda. La mayoría de las parejas no se aventura más allá de Paradise Island, y eso es una oportunidad perdida: las Out Islands son donde el país se revela. Los tres kilómetros de Pink Sands Beach en Harbour Island brillan auténticamente rosa al amanecer, fruto de las conchas trituradas de foraminíferos mezcladas con coral blanco. Eleuthera tiene 175 km de largo y apenas tres de ancho, con el Atlántico rompiendo en una orilla y el Caribe lamiendo la otra: el Glass Window Bridge le permite verlos a la vez. Las Exumas son la postal: 365 cayos esparcidos sobre aguas imposiblemente claras, hogar de los famosos cerdos nadadores de Big Major Cay, el sistema de cuevas submarinas de Thunderball Grotto (donde se rodó la película de Bond) y islas pobladas de iguanas que tendrá enteramente para ustedes. Andros, la mayor y menos visitada, es lugar de peregrinación para la pesca del macabí, salpicada de blue holes. Más allá de las playas, la cultura es inconfundiblemente bahameña: los desfiles de Junkanoo estallan por las calles en San Esteban y Año Nuevo, la concha es la obsesión nacional (en buñuelos, ensalada, golpeada, en chowder), y la música rake-and-scrape tiene un ritmo que no oirá en ninguna otra parte.",
+  "bestTime": "De mediados de noviembre a mediados de abril: estación seca, 24-28°C, sin riesgo de huracán",
+  "flightFrom": "3h NYC, 1h Miami, 8h30 Londres — Nasáu (NAS) o aeropuertos de las Out Islands",
+  "topExperience": "Alquile un barco desde Staniel Cay para ver los cerdos nadadores, Thunderball Grotto y los tiburones nodriza en Compass Cay",
+  "perfectFor": [
+    "Parejas que desean una luna de miel tropical sin un vuelo de 10 horas",
+    "Maximalistas de playa en busca de la arena y el agua más fotogénicas del mundo",
+    "Aficionados a la navegación y al esnórquel que quieren hacer island-hopping",
+    "Parejas que dividen el viaje entre el bullicio de Nasáu y una Out Island tranquila",
+    "Foodies del marisco: concha, langosta, mero y cócteles de ron"
+  ],
+  "skipIf": [
+    "Quiere selva exuberante, montañas o gran diversidad paisajística",
+    "Busca inmersión cultural profunda o ruinas antiguas",
+    "Quiere un destino de una sola isla con todo accesible a pie",
+    "Reserva entre junio y noviembre y le incomodan los huracanes"
+  ],
+  "experiences": [
+    { "icon": "🐷", "title": "Nadar con los cerdos de las Exumas", "description": "Los famosos cerdos asilvestrados de Big Major Cay nadan al encuentro de los barcos en aguas turquesas hasta la cintura. Mejor a primera hora de la mañana, antes de que llegue la armada de excursionistas desde Nasáu.", "cost": "$400-700/pareja jornada completa desde Staniel Cay; $1,200+ desde Nasáu", "tip": "Pernocte en el Staniel Cay Yacht Club para zarpar a las 7 de la mañana y tener los cerdos para ustedes solos." },
+    { "icon": "🌅", "title": "Pasear por Pink Sands Beach al amanecer", "description": "La playa de tres kilómetros de Harbour Island se tiñe de rosa dorado con la primera luz, cuando el sol bajo incide sobre la arena rosa de conchas. Recórrala entera descalzos: la playa más fotografiada del Caribe por algo.", "cost": "Gratis; acceso público a la playa", "tip": "Hospédese en el lado de la playa (Pink Sands Resort o The Dunmore) para salir por la verja a las 6:30 de la mañana." },
+    { "icon": "🤿", "title": "Esnórquel en Thunderball Grotto", "description": "Sistema natural de cuevas submarinas en las Exumas, iluminado a través de orificios en el techo de piedra caliza. Apareció en Operación Trueno y Nunca digas nunca jamás. Bancos de sargentos mayores giran entre haces de luz.", "cost": "Incluido en la mayoría de los chárteres de las Exumas; $40-60 por libre", "tip": "Programe la visita coincidiendo con la marea muerta: las corrientes son fuertes en pleamar y bajamar. Lleve una linterna sumergible." },
+    { "icon": "🌊", "title": "Cruzar el Glass Window Bridge", "description": "Una franja estrecha de Eleuthera donde el Atlántico azul intenso se encuentra con el Caribe turquesa pálido, separados por unos 9 metros de carretera. El contraste resulta auténticamente surrealista en persona.", "cost": "Gratis; necesita coche de alquiler (~$75/día)", "tip": "Conduzca 10 minutos al sur hasta las pozas mareales del Queen's Bath: jacuzzis naturales en la roca caliza, mejor con marea baja." },
+    { "icon": "🎣", "title": "Pesca de macabí en los flats de Andros", "description": "Andros es la capital mundial del macabí: bajos infinitos, guías de talla mundial y los \"fantasmas de los flats\" que se llevan 90 metros de sedal en segundos.", "cost": "$650-900/día por skiff guiado para dos pescadores", "tip": "Reserve a través de Tiamo o un lodge dedicado: los guías marcan la diferencia entre pescar 20 piezas o ninguna." }
+  ],
+  "months": [
+    { "month": "Jan", "weather": "22-25°C, seco, brisa", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Fresco pero fiable; lleve una capa ligera para las noches" },
+    { "month": "Feb", "weather": "23-26°C, seco", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Recargo por San Valentín; reserve con 6+ meses" },
+    { "month": "Mar", "weather": "24-27°C, seco", "emoji": "☀️", "crowds": "Muy alta", "price": "Máximo", "verdict": "Multitudes de spring break en Nasáu; las Out Islands siguen tranquilas" },
+    { "month": "Apr", "weather": "24-28°C, seco, calor en aumento", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Punto dulce: agua cálida, descenso de tarifas tras Pascua" },
+    { "month": "May", "weather": "26-29°C, chubascos ocasionales", "emoji": "⛅", "crowds": "Moderada", "price": "Alto", "verdict": "Mejor relación calidad-precio del año; agua tibia" },
+    { "month": "Jun", "weather": "27-30°C, húmedo, breves tormentas", "emoji": "⛅", "crowds": "Moderada", "price": "Medio", "verdict": "Empieza la temporada de huracanes pero el riesgo es bajo; buenas ofertas" },
+    { "month": "Jul", "weather": "28-31°C, húmedo", "emoji": "⛅", "crowds": "Moderada", "price": "Medio", "verdict": "Caluroso y pegajoso, pero las tormentas siguen siendo raras" },
+    { "month": "Aug", "weather": "28-32°C, húmedo, posibles tormentas", "emoji": "⛈️", "crowds": "Moderada", "price": "Medio", "verdict": "Comienza el pico de riesgo de huracanes; reserve con cancelación" },
+    { "month": "Sep", "weather": "27-31°C, tormentoso", "emoji": "⛈️", "crowds": "Baja", "price": "Mínimo", "verdict": "Evitar: pico de huracanes; muchos resorts cierran" },
+    { "month": "Oct", "weather": "26-29°C, mejorando al final", "emoji": "⛈️", "crowds": "Baja", "price": "Medio", "verdict": "Aún arriesgado al inicio; la segunda mitad se estabiliza" },
+    { "month": "Nov", "weather": "24-28°C, vuelve la sequía", "emoji": "☀️", "crowds": "Al alza", "price": "Alto", "verdict": "Excelente a partir del 15: empieza la estación seca, precios razonables" },
+    { "month": "Dec", "weather": "23-26°C, seco", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Junkanoo en San Esteban es imperdible; tarifas festivas" }
+  ],
+  "budgetTiers": [
+    { "label": "Confort", "range": "$450-700/noche", "gets": "Boutique 4 estrellas en Eleuthera o Harbour Island, desayuno, acceso a playa. Evite Nasáu en este nivel.", "example": "The Dunmore en Harbour Island: encanto colonial a pasos de Pink Sands Beach" },
+    { "label": "Lujo", "range": "$900-1,800/noche", "gets": "Resorts de primera línea en Paradise Island o Eleuthera, suites con vistas al océano, varios restaurantes, spa completo", "example": "Rosewood Baha Mar (Nasáu) o The Cove Eleuthera" },
+    { "label": "Ultra-lujo", "range": "$2,500-8,000/noche", "gets": "Isla privada o resorts solo de villas, servicio de mayordomo, barcos privados, comida y bebida todo incluido", "example": "Kamalame Cay (isla privada frente a Andros) o Tiamo Resort (eco-lujo off-grid en Andros)" }
+  ],
+  "areas": [
+    { "name": "Nasáu y Paradise Island", "bestFor": "Recién llegados, noches de casino, logística sencilla", "description": "La capital y su isla hermana albergan los mayores resorts del país: Atlantis, Baha Mar, Ocean Club. Vuelos directos desde una docena de ciudades de EE.UU." },
+    { "name": "Harbour Island", "bestFor": "Lunas de miel boutique, fotógrafos, amantes de la playa", "description": "Una franja de arena rosa de 5,5 km frente al norte de Eleuthera. Solo carritos de golf, sin grandes resorts, energía de sesión de moda." },
+    { "name": "Eleuthera", "bestFor": "Sofisticación tranquila, parejas viajeras, surf y esnórquel", "description": "175 km de largo, apenas poblada, con el Glass Window Bridge, Lighthouse Beach y French Leave Beach." },
+    { "name": "Las Exumas", "bestFor": "Navegación, cerdos nadadores, fans de James Bond", "description": "365 cayos de aguas someras imposiblemente claras. Base en Staniel Cay o Great Exuma; la magia está en el agua." },
+    { "name": "Andros", "bestFor": "Pescadores con mosca, buceadores, parejas que quieren desconexión", "description": "La mayor isla bahameña, casi sin desarrollar, con la tercera mayor barrera de coral del mundo en su costa." }
+  ],
+  "expertTips": [
+    { "tip": "Reserve los vuelos a las Out Islands con el resort, no por separado", "detail": "Los vuelos domésticos en Bahamas son un circo de pequeñas aerolíneas, límites de peso y cancelaciones. La mayoría de los resorts gestionan toda la cadena: pague el extra." },
+    { "tip": "Sáltese el patio de comidas del aeropuerto de Nasáu", "detail": "Lynden Pindling tiene fama de colas lentas y mala comida. Si conecta a una Out Island, coma antes de llegar." },
+    { "tip": "Junkanoo es el día de San Esteban y Año Nuevo, no en Navidad", "detail": "Si quiere ver los desfiles, apunte al 26 de diciembre o al 1 de enero en Nasáu. Bay Street, copas de Goombay Punch, trajes elaborados durante meses." },
+    { "tip": "La excursión de un día a las Exumas desde Nasáu es agotadora", "detail": "Los operadores venden combos de 12 horas: 90 minutos de barco por trayecto, tres paradas, regreso a las 19:00 destrozados. Pernocte una noche como mínimo en las Exumas." },
+    { "tip": "La propina se espera y a menudo no está incluida", "detail": "A diferencia de algunos destinos del Caribe, la gratificación no siempre está incluida en la tarifa. Calcule 15-20% en restaurantes, $5-10/maleta para mozos." }
+  ],
+  "packing": [
+    { "item": "Protector solar respetuoso con el arrecife (mineral, sin oxibenzona)", "why": "Obligatorio por ley en algunos parques marinos; el sol reflejado en la arena blanca quema el doble." },
+    { "item": "Cámara sumergible o GoPro", "why": "Cerdos, grutas, tiburones en Compass Cay: Bahamas es un destino de fotografía submarina." },
+    { "item": "Capa ligera para las noches", "why": "De diciembre a marzo las noches bajan a 18°C y el aire acondicionado en restaurantes es brutal." },
+    { "item": "Equipo de esnórquel propio si lo tiene", "why": "Los alquileres de los resorts son mediocres; el ajuste de la máscara importa y los escarpines ayudan en entradas rocosas." },
+    { "item": "Efectivo en billetes pequeños de USD", "why": "Propinas, taxis y tiendas de las Out Islands suelen funcionar con efectivo; los cajeros no son fiables fuera de Nasáu." },
+    { "item": "Biodramina o pulseras antimareo", "why": "Incluso en días tranquilos las travesías por las Exumas pueden golpear; el canal entre New Providence y las Out Islands se agita." }
+  ],
+  "guide": {
+    "getting": "Vuele a Nasáu (NAS) desde la mayoría de los hubs de la costa este de EE.UU. en menos de 3 horas; también vuelos directos desde Toronto, Londres (BA estacional) y Atlanta. Para las Out Islands, conecte con North Eleuthera (ELH), Staniel Cay (TYM), Great Exuma (GGT) o Andros con Bahamasair, Western Air o vuelo chárter. Muchos resorts de lujo organizan chárters privados directos desde Florida sin pasar por Nasáu: vale la pena los $400-800/persona.",
+    "where": "Para una luna de miel de 7 noches, divídala entre dos islas: 3 noches en Nasáu o Paradise Island y 4 noches en Harbour Island, Eleuthera o las Exumas. Las parejas que buscan tranquilidad pura deben prescindir por completo de Nasáu. Andros y las Exumas se adaptan a parejas amantes de la navegación y la pesca; Eleuthera y Harbour Island ganan en playa y boutique.",
+    "when": "De mediados de noviembre a abril es la ventana seca, cálida y libre de huracanes. Mayo y principios de junio son excelentes en relación calidad-precio, con agua templada. Evite agosto-octubre. Navidad y Año Nuevo se reservan con 9+ meses de antelación."
+  },
+  "localFood": "La concha es la obsesión bahameña: en buñuelos, en \"ensalada\" picante con lima y ají, golpeada (machacada y frita) o en chowder. El mero a la parrilla, la langosta (en temporada de agosto a marzo) y el peas-and-rice son básicos. No se pierda el rum cake, el guava duff de postre y los cócteles locales: Sky Juice (ginebra, agua de coco, leche dulce) y Goombay Punch.",
+  "language": "Inglés"
+}

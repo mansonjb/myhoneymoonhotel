@@ -1,0 +1,136 @@
+{
+  "tagline": "Las vistas más icónicas de la caldera del planeta. La puesta de sol que cambió para siempre las lunas de miel.",
+  "intro": "Santorini es la isla que definió cómo podía ser una luna de miel europea: una caldera volcánica colapsada, pueblos blanqueados que descienden por acantilados de 300 m, y la puesta de sol más universalmente reconocida del planeta. Aquí los hoteles están excavados en la propia roca volcánica, con sus piscinas infinitas suspendidas sobre una caída de 350 m al Egeo. Nada en el viaje europeo iguala el impacto visual de la caldera de Santorini a la hora dorada.",
+  "bestTime": "Abr–Oct",
+  "flightFrom": "3-4h desde Europa",
+  "topExperience": "Vistas de la caldera y atardeceres",
+  "perfectFor": [
+    "Parejas que desean la imagen más icónica de una luna de miel europea: la caldera de Santorini es irreemplazable",
+    "Amantes de la arquitectura y el diseño: los hoteles cueva-suite de aquí están entre los más creativos del mundo",
+    "Lunas de miel de corto recorrido desde Europa: lujo excepcional a menos de 4 h de cualquier capital europea",
+    "Amantes del vino: el Assyrtiko de Santorini es uno de los grandes blancos de Europa",
+    "Quienes buscan una experiencia intensa, fotogénica y concentrada antes que un viaje extenso"
+  ],
+  "skipIf": [
+    "Las multitudes le molestan seriamente en julio y agosto: Oia es uno de los lugares más visitados del planeta en plena temporada",
+    "Necesita una playa con hamacas y aguas tranquilas: el borde de la caldera es para vistas; las playas son de arena negra volcánica con agua fría hasta junio",
+    "Quiere variedad de actividades más allá de las vistas, el vino y la gastronomía",
+    "Su presupuesto es inferior a 300 €/noche: no existe una opción de gama media genuinamente romántica en el borde de la caldera"
+  ],
+  "experiences": [
+    {
+      "icon": "🌅",
+      "title": "Atardecer en el borde de la caldera (Oia)",
+      "description": "El atardecer más filmado de Europa. Elija su sitio: las ruinas del castillo para la vista clásica (concurrida, gratuita), Ammoudi Bay para la perspectiva a nivel del mar, o la terraza de un restaurante en el borde (100-300 € por pareja con cena y los mejores asientos). Sea cual sea su elección, el momento en que el sol se hunde en el mar tras las cúpulas blancas es genuinamente trascendente.",
+      "cost": "Gratis en miradores públicos / 150-300 € en una cena con vistas a la caldera",
+      "tip": "Reserve la terraza con vistas con 4-6 semanas de antelación en temporada alta. La hora del ocaso varía: consulte el horario exacto y llegue 45 minutos antes para ubicarse."
+    },
+    {
+      "icon": "🚢",
+      "title": "Catamarán por la caldera con aguas termales",
+      "description": "Una jornada completa en catamarán privado circunnavegando la caldera: parada en el volcán de Nea Kameni para subir al cráter, baño en las aguas termales volcánicas color óxido (30 °C), snorkel en la Playa Roja y regreso a Oia al ocaso con champán a bordo.",
+      "cost": "250-600 € por pareja (chárter privado)",
+      "tip": "El catamarán al atardecer (salida 15:00) le permite navegar bajo los acantilados de Oia mientras el cielo se torna dorado. La salida matinal ofrece la mejor luz para snorkel. Decida qué le importa más."
+    },
+    {
+      "icon": "🍷",
+      "title": "Cata de Assyrtiko en Domaine Sigalas",
+      "description": "Santorini cultiva la vid en cestos (kouloures): viñas bajas, circulares, para captar humedad y resistir al viento Meltemi. Domaine Sigalas (mejor Assyrtiko), Santo Wines (terraza con vistas a la caldera) y Canava Roussos son las catas imprescindibles. El Vinsanto seco es extraordinario.",
+      "cost": "25-60 € por persona",
+      "tip": "Domaine Sigalas no tiene vistas a la caldera, pero produce el mejor vino de la isla. Visítelo por el sabor; vaya a Santo Wines para la experiencia de copa con vista."
+    },
+    {
+      "icon": "🏊",
+      "title": "Baño en la playa de Perivolos (arena negra)",
+      "description": "La más desarrollada de las playas de arena negra volcánica de Santorini: 8 km de arena oscura, hamacas, chiringuitos y el agua más limpia de la costa sureste. El mar es más cálido aquí que en el lado de la caldera.",
+      "cost": "15-30 € por alquiler de hamaca",
+      "tip": "Perissa y Perivolos están conectadas y son menos turísticas que la Playa Roja. La arena volcánica retiene el calor hasta las 21:00: bañarse al anochecer aquí, con los acantilados iluminados de naranja, es extraordinario."
+    },
+    {
+      "icon": "🚶",
+      "title": "Caminata por la caldera de Fira a Oia",
+      "description": "Un sendero de 10 km por el borde de la caldera, desde Fira hasta Oia: el mejor paseo de la isla. Atravesará los pueblos de Firostefani e Imerovigli, con vistas sin obstáculos a la caída de 300 m a cada paso. Reserve 3-4 horas.",
+      "cost": "Gratis",
+      "tip": "Camine de Fira a Oia (con la caldera a su izquierda), de modo que las vistas le queden de frente. Comience a las 7:00 en verano: el calor a las 10:00 castiga. Organice un taxi de regreso desde Oia o vaya al teleférico de Fira."
+    }
+  ],
+  "months": [
+    { "month": "Jan", "weather": "Fresco, 12-15 °C, lluvia, muchos cierres", "emoji": "🌧", "crowds": "Ninguna", "price": "Mínimo", "verdict": "Temporada baja: opciones limitadas" },
+    { "month": "Feb", "weather": "Frío, flores silvestres, algo de sol", "emoji": "⛅", "crowds": "Mínima", "price": "Muy bajo", "verdict": "No es mes de luna de miel" },
+    { "month": "Mar", "weather": "Templado, 16 °C, comienzan las reaperturas", "emoji": "🌤", "crowds": "Baja", "price": "Bajo", "verdict": "Mes para los más madrugadores" },
+    { "month": "Apr", "weather": "Cálido, 20 °C, todo reabre", "emoji": "☀️", "crowds": "Baja-mod.", "price": "Medio", "verdict": "Excelente temporada media" },
+    { "month": "May", "weather": "Perfecto, 24 °C, días largos y cálidos", "emoji": "☀️", "crowds": "Moderada", "price": "Medio-alto", "verdict": "Mejor mes de temporada media" },
+    { "month": "Jun", "weather": "Caluroso, 28 °C, repuntando", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Magnífico, pero ya con bullicio" },
+    { "month": "Jul", "weather": "32 °C, vientos Meltemi, máximo turístico", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Icónico, pero extremadamente concurrido" },
+    { "month": "Aug", "weather": "34 °C, el mes más concurrido del planeta", "emoji": "🌞", "crowds": "Extrema", "price": "Máximo", "verdict": "Icónico, pero abrumador" },
+    { "month": "Sep", "weather": "Ideal: 29 °C, mar cálido, menos gente", "emoji": "☀️", "crowds": "Moderada", "price": "Alto", "verdict": "Mejor mes: mismas vistas, menos gente" },
+    { "month": "Oct", "weather": "Cálido, 24 °C, muy tranquilo", "emoji": "🌤", "crowds": "Baja", "price": "Medio", "verdict": "Mes joya escondida" },
+    { "month": "Nov", "weather": "Refrescando, lluvia, muchos hoteles cierran", "emoji": "⛅", "crowds": "Muy baja", "price": "Bajo", "verdict": "Muchos hoteles cierran" },
+    { "month": "Dec", "weather": "Fresco, 14 °C, tranquilo", "emoji": "🌧", "crowds": "Muy baja", "price": "Muy bajo", "verdict": "Temporada baja: limitada" }
+  ],
+  "budgetTiers": [
+    {
+      "label": "Boutique en la caldera",
+      "range": "300-700 €/noche",
+      "gets": "Suite cueva con vista parcial o total a la caldera, pequeña terraza o piscina privada. El emplazamiento es espectacular; el servicio, de hotel más que de resort.",
+      "example": "Katikies Garden, Grace Santorini, Andronis Concept"
+    },
+    {
+      "label": "Premium en la caldera",
+      "range": "700-2.000 €/noche",
+      "gets": "Suite con piscina infinita privada justo en el borde de la caldera, mayordomo y desayuno excepcional incluido. La luna de miel definitiva en Santorini: la vista desde la piscina es la imagen icónica del lujo hotelero europeo.",
+      "example": "Canaves Oia Suites, Mystique, Andronis Luxury Suites"
+    },
+    {
+      "label": "Ultra-lujo",
+      "range": "2.000+ €/noche",
+      "gets": "Las villas-cueva más amplias y exclusivas, algunas con jacuzzi privado, espacios interiores-exteriores y la vista más panorámica de la caldera. Privacidad total y servicio excepcional.",
+      "example": "Canaves Oia Epitome, Aenaon Villas, Vedema Resort"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Oia",
+      "bestFor": "El atardecer icónico, la caldera más espectacular, hoteles cueva de lujo",
+      "description": "El extremo norte del borde de la caldera: el pueblo más bello y fotografiado de Grecia. Iglesias de cúpulas azules, callejones encalados y hoteles cueva escalonados sobre el acantilado de 300 m. Aquí están Canaves Oia Suites y Mystique. La vista desde las ruinas del castillo al atardecer atrae multitudes desde toda la isla."
+    },
+    {
+      "name": "Imerovigli",
+      "bestFor": "El punto más alto de la caldera, el más romántico y tranquilo",
+      "description": "El pueblo inmediatamente al sur de Oia, en el borde de la caldera: el punto más alto de la isla (300 m sobre el mar). Menos turistas que Oia, vistas idénticas. Aquí están Aenaon Villas y Chromata Hotel. La caminata a la Roca de Skaros (castillo bizantino en ruinas) lleva 20 minutos y ofrece la vista más panorámica."
+    },
+    {
+      "name": "Fira",
+      "bestFor": "Mejores restaurantes, vida nocturna, más céntrico",
+      "description": "La capital de la isla. Mayor concentración de restaurantes con vista a la caldera, bares y tiendas. Más ruidosa que Oia, pero con más variedad gastronómica. Buen acceso al puerto antiguo en teleférico. La vista desde el paseo principal de Fira es algo menos espectacular que la de Oia, pero el pueblo es más animado."
+    },
+    {
+      "name": "Kamari y Perissa (Este)",
+      "bestFor": "Playa de arena negra, baño tranquilo, vida de pueblo",
+      "description": "Los pueblos costeros de la costa este, sobre arena volcánica negra: tranquilos, resguardados, con buen baño y notablemente más económicos que el borde de la caldera. Sin vistas a la caldera, pero con ambiente local más auténtico. Conectados con el yacimiento antiguo en lo alto del Mesa Vouno (ruinas de Tira)."
+    }
+  ],
+  "expertTips": [
+    { "tip": "Reserve la suite cueva con vista a la caldera con 4-6 meses de antelación entre mayo y septiembre", "detail": "Hay menos de 200 suites genuinas con piscina infinita y vista a la caldera en toda la isla. Las 50 mejores unidades en Canaves, Mystique y Aenaon se agotan con clientes recurrentes y agentes especializados. Reserve directamente con el hotel lo antes posible y mencione que es luna de miel: las cortesías ocurren." },
+    { "tip": "Septiembre supera a agosto en todo lo medible", "detail": "Mismas vistas, mismo atardecer, mismo vino, mismo tiempo perfecto, pero un 35% menos de turistas, precios un 20-25% más bajos, noches más frescas para pasear y mar templado (24 °C). Si tiene flexibilidad, septiembre es objetivamente el mejor mes para una luna de miel en Santorini." },
+    { "tip": "El viento Meltemi es un factor real en julio y agosto", "detail": "El viento estival del norte (Meltemi) sopla a 30-40 km/h sobre la caldera entre julio y agosto. El lado de la caldera de Oia está resguardado, pero las playas del este se encrespan. Planifique en consecuencia: si la vela o el catamarán le importan, viaje en junio o septiembre." },
+    { "tip": "Baje a Ammoudi Bay para el mejor almuerzo de la isla", "detail": "La diminuta bahía pesquera, 214 escalones por debajo de Oia, tiene 5 tabernas que sirven pulpo a la brasa, ensalada de erizos y pescado recién pescado en el muelle. Comer aquí, con los barcos meciéndose y el muro de la caldera arriba, supera cualquier restaurante con vista de 300 €. Baje a pie, vuelva en teleférico." },
+    { "tip": "Alquile un quad o scooter: no dependa de los taxis", "detail": "La oferta de taxis en Santorini es catastróficamente insuficiente para el volumen turístico estival. Esperas de 2-4 h son habituales. Alquilar un quad (30-50 USD/día) le da total libertad y resulta genuinamente divertido en las carreteras costeras. Tome la carretera principal de la caldera a las 7:00, antes del tráfico." }
+  ],
+  "packing": [
+    { "item": "Buenas sandalias de paseo", "why": "Los escalones de la caldera, las callejuelas adoquinadas de Oia y la caminata Fira-Oia exigen calzado adecuado: las chanclas le destrozarán los pies" },
+    { "item": "Ropa ligera de lino", "why": "El código en los restaurantes de la caldera es smart casual: el lino mantiene el frescor en una cena a 30 °C" },
+    { "item": "Protector solar de SPF alto y sombrero", "why": "Las superficies blancas reflejan el UV desde todas direcciones: el riesgo de quemadura es mayor de lo esperado en la caldera" },
+    { "item": "Gafas de sol polarizadas", "why": "La luz reflejada del Egeo sobre las superficies blancas sin polarización es dolorosa: invierta en óptica de calidad" },
+    { "item": "Algo de efectivo (€)", "why": "Alquiler de quad, tabernas locales, teleférico y taxis acuáticos suelen preferir el efectivo. Los cajeros de Fira y Oia tienen colas en temporada alta." }
+  ],
+  "guide": {
+    "getting": "Vuele directo al aeropuerto de Santorini (JTR): 3-4 h desde la mayoría de las capitales europeas. Vuelos directos desde Londres Heathrow y Gatwick (British Airways, EasyJet), París CDG, Ámsterdam, Fráncfort, Roma y otras 20 ciudades europeas. El aeropuerto está a 10 km de Oia: reserve un taxi por adelantado (25-35 €) o alquile un quad en la terminal. Alternativamente, Atenas (ATH) a Santorini con Aegean Air son 45 minutos (desde 50 € por trayecto). El ferry rápido desde el Pireo a Santorini son 5-8 h: la llegada más lenta y panorámica.",
+    "where": "El borde de la caldera es la única opción para la experiencia definitiva de luna de miel. Oia (más espectacular, mejor posición para el atardecer): Canaves Oia Suites, Mystique, Andronis Luxury. Imerovigli (más alto, más tranquilo, mismas vistas): Aenaon Villas, Chromata. Fira (más opciones gastronómicas, más animado): Santo Maris, Ikies. Playa (arena negra, baño tranquilo): Kamari y Perissa, más asequibles, menos románticas, buenos para combinar caldera y playa.",
+    "when": "Abril a octubre es la temporada. Mayo (cálido, vacío, excelente) y septiembre (mejor tiempo, 35% menos turistas, mar cálido) son los dos mejores meses. Junio es excelente. Julio-agosto, temporada alta: bellísima, pero Oia llega a 15.000 visitantes diarios al atardecer; planifique su estrategia. La mayoría de hoteles de la caldera cierran de noviembre a marzo."
+  },
+  "localFood": "La cocina de Santorini se define por su suelo volcánico: la isla produce algunos de los ingredientes más distintivos de Grecia. Tomates cherry (pomodori) cultivados en tierra volcánica, intensamente dulces y pequeños, en ensaladas y como pasta. Fava: puré amarillo de guisantes partidos, plato emblema de la isla, hecho con legumbres cultivadas aquí desde hace 3.500 años. Berenjena blanca (melitzana aspri), exclusiva de Santorini, menos amarga. Pulpo a la brasa en cualquier taberna con terraza. Vinsanto: el dulce de postre elaborado con uvas Assyrtiko y Aidani secadas al sol, extraordinario. En restaurantes: Kapari Wine Restaurant en Imerovigli para una buena relación calidad-precio con vistas, las tabernas de pescado de Ammoudi para el mejor marisco y Selene en Fira para la cocina más seria de Santorini.",
+  "currency": "Euro (EUR)",
+  "language": "Griego. Inglés hablado en todos los niveles turísticos.",
+  "timezone": "UTC+2 (Eastern European Time) / UTC+3 (EEST in summer, late March–late October)"
+}

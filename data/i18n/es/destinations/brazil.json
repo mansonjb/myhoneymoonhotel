@@ -1,0 +1,74 @@
+{
+  "tagline": "El Quadrado de Trancoso a la luz de las velas, el ocaso de Copacabana, las piscinas sobre acantilados de Fernando de Noronha: la luna de miel con más alma de Sudamérica.",
+  "intro": "Brasil es la luna de miel que ningún otro país puede imitar. En un solo viaje puede bailar samba descalzos en Ipanema, dormir en una casa de pescadores UXUA en el Quadrado de hierba de Trancoso, hacer esnórquel con tortugas en Fernando de Noronha (la mejor playa del mundo, por votación reiterada) y terminar en un eco-resort de Bahía donde su bungaló tiene una hamaca entre dos cocoteros. La escena de lujo va desde la grandeza art déco de 1923 del Belmond Copacabana Palace hasta la intimidad con sello de diseño de UXUA Casa y Pousada Maravilha. De noviembre a marzo es el verano pico, pero octubre y abril son los puntos dulces, cuando los precios bajan y la energía del carnaval permanece. Brasil premia a las parejas que buscan alma, música y calidez más que un lujo aséptico, y se lo paga diez veces.",
+  "bestTime": "Oct–Abr (verano brasileño); Sep + May temporada media",
+  "flightFrom": "11–12h desde Europa, 10h desde NYC",
+  "topExperience": "Trancoso, Río, Fernando de Noronha",
+  "perfectFor": [
+    "Parejas que quieren música, comida y cultura tanto como playa",
+    "Recién casados listos para una semana urbana pulida y otra de playa descalza",
+    "Viajeros con sello de diseño: la arquitectura y moda contemporánea brasileñas son de talla mundial",
+    "Parejas aventureras: cataratas del Iguazú, Pantanal y Amazonas son extensiones reservables",
+    "Quienes buscan una alternativa al Caribe con más carácter"
+  ],
+  "skipIf": [
+    "Le inquieta la seguridad urbana: Río premia a viajeros despiertos, no descuidados",
+    "Quiere vuelos cortos: Europa→Brasil son 11h+, el desfase horario es brutal",
+    "Necesita entornos plenamente anglófonos fuera de los hoteles top",
+    "Viaja entre mayo y agosto al sur: Río baja a 18-22°C y las playas se vacían"
+  ],
+  "experiences": [
+    { "icon": "🌅", "title": "Atardecer en la terraza de la piscina del Copacabana Palace", "description": "La grande dame de los hoteles de América Latina, desde 1923. Cócteles en la terraza de la piscina mientras el sol cae tras el Pan de Azúcar y luego cena en Cipriani abajo. El Copacabana Palace ha hospedado a Madonna, Mick Jagger y Lady Di, y en una luna de miel sigue sintiéndose así.", "cost": "Cócteles $25–$35; cena en Cipriani $250–$400 para dos", "tip": "Reserve una Beachfront Suite por su balcón al Atlántico. La samba del viernes en el Sirena Bar es el icónico cierre de la noche." },
+    { "icon": "🕯️", "title": "Cena a la luz de las velas en el Quadrado de Trancoso", "description": "El Quadrado es la plaza de hierba del siglo XVI de Trancoso, rodeada por casas de pescadores de colores y la capilla de São João. De noche, el personal del pueblo saca mesas y velas a la hierba y se cena ceviche fresco y pescado a la parrilla bajo las estrellas, mientras los locales pasean descalzos. UXUA Casa y Capim Santo son las dos mejores direcciones gastronómicas.", "cost": "Cena $80–$150 por pareja en un restaurante top del Quadrado", "tip": "Reserve diciembre-febrero para temporada plena; septiembre-octubre es más tranquilo y, sin duda, más romántico." },
+    { "icon": "🏝️", "title": "Piscina sobre el acantilado de Pousada Maravilha, Fernando de Noronha", "description": "Fernando de Noronha es un archipiélago reserva marina UNESCO a 350 km de la costa nordeste de Brasil. La piscina infinita de 25 m del Pousada Maravilha mira a Praia do Sueste, con delfines visibles desde la cubierta. Sus 8 cabañas son la reserva de hotel más difícil de Brasil: reserve con 8–12 meses de antelación.", "cost": "Cabañas $1,000–$2,800 por noche; tasa de entrada al archipiélago $20/persona/día más $35/persona de acceso al parque", "tip": "Esnórquel en la Baía do Sancho (consistentemente la #1 del mundo) y en Praia do Leão. Solo 460 turistas al día se admiten en la isla." },
+    { "icon": "🍹", "title": "Caipiriña en el Posto 9 de Ipanema", "description": "El Posto 9 es el punto de referencia gay/cool/joven en la playa de Ipanema, donde los huéspedes de Fasano y Janeiro Hotel se instalan al atardecer. Pida caipiriñas a los vendedores del kiosco, vea caer el sol tras los Dos Hermanos y quédese para la samba en directo en la arena. Gratis, público, perfecto.", "cost": "Acceso a la playa gratuito; caipiriñas $5/cada una", "tip": "Los hoteles organizan servicio de playa (sillas, sombrilla, nevera) por $30–$50/día. Una propina de 5 reales al vendedor y su sitio queda reservado." },
+    { "icon": "🌳", "title": "Caminata por la Mata Atlántica en Txai Itacaré", "description": "Txai Resort se asienta en el mayor remanente de la Mata Atlántica de Brasil. Una caminata guiada de 2 horas por la reserva de 100 hectáreas de la propiedad revela monos aulladores, mariposas morpho azules y una poza de cascada donde puede bañarse a solas. Combine con clases de capoeira en la playa.", "cost": "Actividades para huéspedes $40–$80 por pareja por sesión", "tip": "Hospédese en Txai o en Tivoli Praia do Forte para inmersión total en Bahía. Ambos están a 90 minutos del aeropuerto de Salvador." }
+  ],
+  "months": [
+    { "month": "Jan", "weather": "Caluroso 28–35°C, húmedo, tormentas de verano", "emoji": "☀️", "crowds": "Muy alta", "price": "Muy alto", "verdict": "Pico: Río eléctrico, precios brutales" },
+    { "month": "Feb", "weather": "Calor de Carnaval 28–34°C", "emoji": "🎉", "crowds": "Muy alta", "price": "Muy alto", "verdict": "Quincena de Carnaval: reserve con 12 meses o sáltesela" },
+    { "month": "Mar", "weather": "Caluroso 27–33°C", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Tras el Carnaval, comienzo excelente en relación calidad-precio" },
+    { "month": "Apr", "weather": "Cálido 24–30°C", "emoji": "☀️", "crowds": "Moderada", "price": "Medio", "verdict": "Uno de los dos mejores meses para luna de miel" },
+    { "month": "May", "weather": "Cálido 22–28°C, seco", "emoji": "☀️", "crowds": "Baja", "price": "Bajo", "verdict": "Excelente relación calidad-precio, mar de Río refrescando" },
+    { "month": "Jun", "weather": "Suave 18–25°C al sur, cálido 26–30°C al noreste", "emoji": "⛅", "crowds": "Baja", "price": "Bajo", "verdict": "Bahía/noreste sigue magnífico; Río más fresco" },
+    { "month": "Jul", "weather": "Más fresco al sur 17–24°C", "emoji": "⛅", "crowds": "Moderada", "price": "Medio", "verdict": "Vacaciones de invierno brasileñas llenan los resorts del noreste" },
+    { "month": "Aug", "weather": "Suave, seco", "emoji": "☀️", "crowds": "Moderada", "price": "Medio", "verdict": "Pico de temporada en Bahía/noreste: reserve pronto" },
+    { "month": "Sep", "weather": "Templándose 22–28°C", "emoji": "☀️", "crowds": "Baja", "price": "Bajo", "verdict": "Punto dulce escondido, Trancoso pre-temporada" },
+    { "month": "Oct", "weather": "Cálido 24–30°C", "emoji": "☀️", "crowds": "Moderada", "price": "Medio", "verdict": "Mejor mes: cálido, sin multitudes, gran valor" },
+    { "month": "Nov", "weather": "Caluroso 26–32°C", "emoji": "☀️", "crowds": "Moderada", "price": "Medio", "verdict": "Temporada media fuerte antes del repunte de diciembre" },
+    { "month": "Dec", "weather": "Caluroso 28–34°C", "emoji": "🎉", "crowds": "Alta", "price": "Muy alto", "verdict": "El Año Nuevo en Copacabana es icono global, caro" }
+  ],
+  "budgetTiers": [
+    { "label": "Cómodo", "range": "$300–$700/noche", "gets": "5★ sólido en Río y São Paulo, direcciones boutique elegantes en Trancoso, eco-resorts de Bahía.", "example": "Janeiro Hotel Leblon, Tivoli Mofarrej São Paulo, Casa Turquesa Paraty" },
+    { "label": "Premium", "range": "$700–$1,800/noche", "gets": "Grandes damas históricas, frente a Ipanema, eco-lujo pleno en Bahía.", "example": "Belmond Copacabana Palace, Fasano Río, Txai Itacaré" },
+    { "label": "Icónico", "range": "$1,500–$3,500/noche", "gets": "Casas de diseño en Trancoso, acantilado de Fernando de Noronha, suites presidenciales del Copacabana Palace.", "example": "UXUA Casa Trancoso, Pousada Maravilha Fernando de Noronha" }
+  ],
+  "areas": [
+    { "name": "Río de Janeiro", "bestFor": "Skyline icónico, cultura de playa, samba, gastronomía", "description": "Hospédese en Ipanema (Fasano, Janeiro), Leblon (Janeiro) o Copacabana (Belmond Copacabana Palace). El teleférico al Pan de Azúcar al atardecer y el Cristo Redentor al alba son innegociables. 3–4 noches." },
+    { "name": "Trancoso (Bahía)", "bestFor": "Casas de diseño, cenas en el Quadrado, playa", "description": "Aldea histórica jesuítica vuelta bohemio-chic, a 1h del aeropuerto de Porto Seguro (BPS). UXUA Casa es el icono global. 4–5 noches para desacelerar como es debido." },
+    { "name": "Itacaré y Praia do Forte (Bahía)", "bestFor": "Eco-lujo, surf, jungla con playa", "description": "Itacaré (Txai Resort) es el ángulo surfero-romántico; Praia do Forte (Tivoli) es el familiar de protección de tortugas. Ambos a 90 min del aeropuerto de Salvador (SSA)." },
+    { "name": "Fernando de Noronha", "bestFor": "Las mejores playas de Brasil, esnórquel, vida marina", "description": "Archipiélago a 350 km mar adentro, reserva UNESCO, solo 460 turistas/día. Vuele vía Recife o Natal. Pousada Maravilha es la estancia icónica. Reserve con 8–12 meses." },
+    { "name": "Paraty", "bestFor": "Romance colonial empedrado, salidas en goleta", "description": "Pueblo portuario aurífero del siglo XVII, Patrimonio UNESCO, entre Río y São Paulo. Casa Turquesa es la dirección Relais & Châteaux. 2–3 noches como complemento a Río." }
+  ],
+  "expertTips": [
+    { "tip": "Use Uber y 99: nunca pare un taxi en Río", "detail": "Ambas apps funcionan a la perfección en las ciudades brasileñas con tarifas un 30–50% más bajas que el taxi de calle. Mucho más seguras. No hace falta efectivo: las tarjetas guardadas funcionan en todas partes." },
+    { "tip": "Reserve el Cristo a las 7:00 o después de las 16:00", "detail": "La franja 9-11h con autobuses turísticos es brutal. Reserve la entrada del cremallera el mismo día para horario temprano o tardío. El amanecer en el Cristo (tours privados $300+) es genuinamente mágico." },
+    { "tip": "Lleve reales pequeños para vendedores y propinas en la playa", "detail": "Billetes de R$10–R$20 para caipiriñas, propinas de sombrilla y kioscos de calle empedrada. Los cajeros de Itaú y Bradesco son fiables; evite los del aeropuerto (comisiones altas)." },
+    { "tip": "Para Trancoso, reserve traslado desde Porto Seguro con 2-3 semanas", "detail": "De Porto Seguro (BPS) a Trancoso son 1h en coche más ferry fluvial. Los hoteles lo organizan por $80–$150 cada trayecto. No conduzca usted: las carreteras locales de noche no son para principiantes." },
+    { "tip": "El Carnaval es maravilloso si se entrega; miserable si no", "detail": "La semana del Carnaval (40 días antes de Pascua) duplica precios y triplica la energía urbana. O lo abraza por completo (palco en el Sambódromo, blanco para el Réveillon, blocos callejeros) o lo programa en otro momento (marzo es maravilloso)." }
+  ],
+  "packing": [
+    { "item": "Un par de Havaianas", "why": "Los brasileños las llevan a todas partes. Compre un par fresco en cualquier farmacia al llegar: los precios locales son un tercio. Se convierten en su calzado por defecto." },
+    { "item": "Camisas ligeras de lino y vestidos de algodón transpirable", "why": "El verano brasileño es húmedo. El poliéster es inviable. Lleve lo que llevaría a un julio mediterráneo." },
+    { "item": "Atuendo casual elegante para cenar en Río", "why": "Cipriani en el Copacabana Palace, el restaurante Fasano y Casa Camolese esperan zapato cerrado y camisa con cuello al cenar. Nada de chanclas en alta cocina." },
+    { "item": "Protector solar respetuoso con el arrecife y sombrero de ala ancha", "why": "El sol ecuatorial en Trancoso, Bahía y Fernando de Noronha es intenso. SPF 50+ obligatorio; aftersun con aloe es necesidad diaria." },
+    { "item": "Cartilla de fiebre amarilla", "why": "Requerida para viajeros que crucen a Bolivia/Perú y recomendada por las autoridades para Pantanal/Amazonas. No exigida solo para itinerarios costeros, pero recomendable." }
+  ],
+  "guide": {
+    "getting": "Vuele a Río (GIG) o São Paulo (GRU). Desde Europa: 11h directo con Latam, BA, KLM, Lufthansa, Air France. Desde NYC: 10h directo con Latam, Delta, American. Internos: Latam, Gol, Azul a Salvador (SSA), Recife (REC), Porto Seguro (BPS) o Fernando de Noronha (FEN). Trancoso = vuelo a Porto Seguro y traslado de 1h con ferry fluvial.",
+    "where": "Luna de miel clásica de 12 noches: 4 noches Río (Belmond Copacabana Palace) → 5 noches Trancoso (UXUA Casa) → 3 noches Fernando de Noronha (Pousada Maravilha). Versión corta de 9 noches: 3 Río + 5 Trancoso + 1 vuelo a casa. Alternativa vinícola: 4 Río + 4 Paraty + 4 São Paulo.",
+    "when": "Octubre–abril es el verano brasileño. Octubre y abril son los puntos dulces para luna de miel: mar cálido, precios más bajos, menos gente, sin oleada de Carnaval. El Carnaval (feb/mar, varía cada año) duplica precios durante una semana eléctrica. Mayo–septiembre: el noreste (Bahía, Noronha) sigue cálido; Río baja a 18-22°C y las playas se vacían."
+  },
+  "localFood": "Feijoada (plato nacional: estofado de frijoles negros y cerdo, almuerzo tradicional del sábado: pídalo en Bar Brasil o Casa de Feijoada en Río), moqueca (estofado de pescado bahiano con leche de coco y aceite de palma dendê), bowls de açaí (pulpa congelada con granola y plátano: el superalimento original), pão de queijo (pan de queso caliente, obsesión del desayuno), churrasco (rodízio en Fogo de Chão o Plataforma), brigadeiro (trufa de chocolate con leche condensada), caipiriña (cachaza, lima, azúcar: pida una de cada sabor), açaí na tigela. Mesas top: Lasai (Río, estrella Michelin), D.O.M. (São Paulo, Alex Atala), Mocotó (São Paulo), Casa de Tereza (Salvador), Tutto (Trancoso).",
+  "language": "El portugués es universal. El español le permite entender un 50%; el inglés es irregular fuera de hoteles top. Aprenda \"obrigado/obrigada\" (gracias), \"bom dia/boa noite\" (hola), \"uma caipirinha por favor\" (una caipiriña por favor)."
+}

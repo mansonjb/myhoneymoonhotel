@@ -1,0 +1,75 @@
+{
+  "tagline": "La ventana climática más fiable del Caribe: fuera del cinturón de huracanes, soleada los 365 días.",
+  "intro": "Aruba es la alternativa caribeña seca, soleada y de cactus y árboles divi-divi a Barbados: una isla de 32 kilómetros situada a 24 km de la costa de Venezuela, fuera del cinturón de huracanes del Atlántico, con menos de 500 mm de lluvia al año (menos que Phoenix o Las Vegas). Los vientos alisios curvan a cada divi-divi de la isla en un arco permanente hacia el oeste; las playas a sotavento de la costa sur (Eagle Beach y Palm Beach) son tranquilas y de arena blanca, mientras que la abrupta costa atlántica del este es oleaje salvaje y cero bañistas, protegida como Parque Nacional Arikok. La oferta hotelera se divide con claridad: Eagle Beach es de baja altura, bordeada de divi-divis, orientada al adulto (Bucuti, Manchebo); Palm Beach es la franja de rascacielos con casinos (Ritz, Marriott, Hyatt). Para los recién casados, el argumento singular de Aruba es la garantía climática: es la semana de sol más fiable del Caribe.",
+  "bestTime": "Todo el año (mejor abril-agosto en relación calidad-precio)",
+  "flightFrom": "4-5h desde la Costa Este de EE.UU. / 9h desde Londres",
+  "topExperience": "Sol fiable + Solo adultos frente al mar",
+  "perfectFor": [
+    "Parejas escarmentadas por la lluvia caribeña: el clima de Aruba es el más fiable de la región",
+    "Solo adultos frente al mar en Eagle Beach (Bucuti, Manchebo) para una luna de miel más reposada",
+    "Parejas de la Costa Este de EE.UU.: vuelos directos de 4-5h y aduanas de EE.UU. preautorizadas a la vuelta",
+    "Parejas que buscan un contraste paisajístico dramático: playa tranquila a sotavento y desierto de cactus del Parque Nacional Arikok en una misma semana",
+    "Lunas de miel de agosto: Aruba es una de las pocas islas caribeñas genuinamente fiables en temporada de huracanes"
+  ],
+  "skipIf": [
+    "Detesta los alisios constantes: Aruba es ventosa los 365 días",
+    "Busca selva, cascadas o jungla: Aruba es desierto (cactus, áloe y divi-divi)",
+    "Busca una capital gastronómica del Caribe: Aruba es sólida pero no es St Barts ni Mustique",
+    "Busca exclusividad de larga distancia: Aruba está concurrida con tráfico diurno de cruceros en Oranjestad",
+    "Quiere encerrarse en un único resort: Aruba se disfruta saliendo (Arikok, Oranjestad, Renaissance Island)"
+  ],
+  "experiences": [
+    { "icon": "🚙", "title": "Parque Nacional Arikok en 4x4", "description": "Medio día privado en 4x4 por el 18% protegido de Aruba: cactus, la piscina natural Conchi en la salvaje costa atlántica, las pinturas rupestres de Fontein y los campos lunares de rocas de Casibari.", "cost": "$200-400 por pareja", "tip": "Reserve un 4x4 privado, no los tours en quad de grupo: estos últimos son convoyes en una nube de polvo; el privado le permite bañarse en la piscina Conchi cuando no hay nadie." },
+    { "icon": "🤿", "title": "Snorkel sobre el pecio Antilla", "description": "El carguero alemán de 122 metros hundido en 1940 a 18 metros de profundidad frente a la costa noroeste de Aruba: uno de los mayores pecios accesibles para snorkel del Caribe. Medio día en catamarán desde Palm Beach.", "cost": "$80-150 por persona", "tip": "La mayoría de operadores añade una parada en Mangel Halto, en la costa sur: arrecife tranquilo, bordeado de manglar, ideal para principiantes. Pida la ruta de dos paradas." },
+    { "icon": "⛵", "title": "Catamarán al atardecer", "description": "Dos horas de catamarán por la costa de sotavento a la hora dorada con ron punch, parada de snorkel en Boca Catalina y atardecer tras el faro de California en la punta noroeste.", "cost": "$80-120 por persona (grupo) / $600+ privado", "tip": "Red Sail Sports y Octopus Aruba operan los mejores tours. Reserve la salida al atardecer en grupo pequeño, no el barco-fiesta diurno." },
+    { "icon": "🦩", "title": "Día en Renaissance Private Island", "description": "El Renaissance Wind Creek posee una isla privada de 16 hectáreas a 7 minutos en barco desde la marina de Oranjestad: la playa de aguas tranquilas alberga una colonia permanente de flamencos rosados que comen de la mano.", "cost": "$125 por persona (pase de día) — disponibilidad limitada", "tip": "Los pases se agotan: reserve a través del conserje del hotel con una semana de antelación. Vaya al lado Solo adultos de Flamingo Beach; el lado Iguana Beach es solo familiar." },
+    { "icon": "🌅", "title": "Atardecer del divi en Eagle Beach", "description": "La fotografía icónica de Aruba: el árbol Fofoti curvado en el extremo sur de Eagle Beach silueteado contra el atardecer caribeño. Baje desde cualquier hotel de Eagle Beach a las 17:30h en invierno o a las 18:30h en verano.", "cost": "Gratis", "tip": "Hay dos famosos divi-divis en Eagle Beach: ambos merecen la foto. El sur (más cerca de Bucuti) es el más fotografiado; el norte (más cerca de Manchebo) está más tranquilo al atardecer." }
+  ],
+  "months": [
+    { "month": "Jan", "weather": "Cálido, con brisa (28°C)", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Pico: reserve con antelación" },
+    { "month": "Feb", "weather": "Cálido, con brisa (28°C)", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "El mes más caro" },
+    { "month": "Mar", "weather": "Cálido, con brisa (28°C)", "emoji": "☀️", "crowds": "Máxima", "price": "Alto", "verdict": "Multitudes de Spring Break" },
+    { "month": "Apr", "weather": "Cálido, seco (29°C)", "emoji": "☀️", "crowds": "Moderada", "price": "Medio", "verdict": "Se abre el punto dulce" },
+    { "month": "May", "weather": "Cálido, seco (29°C)", "emoji": "☀️", "crowds": "Baja-mod.", "price": "Medio-bajo", "verdict": "Excelente valor" },
+    { "month": "Jun", "weather": "Cálido, seco (30°C)", "emoji": "☀️", "crowds": "Baja", "price": "Bajo", "verdict": "Mejor valor del año" },
+    { "month": "Jul", "weather": "Cálido, seco (31°C)", "emoji": "☀️", "crowds": "Moderada", "price": "Medio", "verdict": "Concurrido por familias pero económico" },
+    { "month": "Aug", "weather": "Cálido, seco (31°C)", "emoji": "☀️", "crowds": "Moderada", "price": "Medio", "verdict": "Alternativa segura ante huracanes" },
+    { "month": "Sep", "weather": "Cálido, vientos más suaves (31°C)", "emoji": "☀️", "crowds": "Baja", "price": "Mínimo", "verdict": "El más barato y tranquilo" },
+    { "month": "Oct", "weather": "Cálido, ligero riesgo de lluvia (31°C)", "emoji": "🌤", "crowds": "Baja", "price": "Bajo", "verdict": "Mes joya escondida" },
+    { "month": "Nov", "weather": "Cálido, lluvia ocasional (29°C)", "emoji": "🌤", "crowds": "Baja-mod.", "price": "Medio-bajo", "verdict": "Buena relación calidad-precio antes del pico" },
+    { "month": "Dec", "weather": "Cálido, con brisa (29°C)", "emoji": "☀️", "crowds": "Máxima", "price": "Muy alto", "verdict": "Avalancha de fiestas" }
+  ],
+  "budgetTiers": [
+    { "label": "Boutique Solo adultos", "range": "$380-700/noche", "gets": "Resort de baja altura Solo adultos frente a Eagle Beach. Camas king, balcones al mar, ambiente wellness, sin casino, sin rascacielos.", "example": "Manchebo Beach Resort, Amsterdam Manor" },
+    { "label": "Premium 5 estrellas", "range": "$500-1,200/noche", "gets": "Resorts de servicio completo en los rascacielos de Palm Beach con casinos, varias piscinas, restaurantes y acceso de planta concierge Solo adultos.", "example": "Marriott Tradewinds Club, Hyatt Regency Club, Renaissance Marina" },
+    { "label": "Tope de gama para luna de miel", "range": "$650-2,200/noche", "gets": "Lo mejor: Bucuti Solo adultos carbono neutro o el lujo total del Ritz-Carlton. Las habitaciones más amplias, mejor spa, mejor cocina, mejor servicio.", "example": "Bucuti & Tara, Ritz-Carlton Aruba" }
+  ],
+  "areas": [
+    { "name": "Eagle Beach", "bestFor": "Solo adultos, baja altura, la playa icónica de luna de miel bordeada de divi-divis", "description": "La playa más ancha y blanca de Aruba: dunas con divi-divis, propiedades Solo adultos de baja altura (Bucuti, Manchebo, Amsterdam Manor), sin casinos ni rascacielos. La respuesta de luna de miel casi siempre. Las dos icónicas fotos del Fofoti curvado están en el extremo sur." },
+    { "name": "Palm Beach", "bestFor": "Resorts a gran escala, casinos, piscinas, varios restaurantes", "description": "La franja de rascacielos a 5 minutos al norte de Eagle Beach: Marriott, Ritz-Carlton, Hyatt, Hilton, Riu, Holiday Inn en una pared continua de torres. Aguas más calmas, playa más concurrida, paseo entablado conectándolo todo. La luna de miel arubeña con servicios densos para parejas que quieren todo el equipamiento del resort." },
+    { "name": "Oranjestad", "bestFor": "Arquitectura colonial holandesa en pasteles, gastronomía, isla de los flamencos del Renaissance", "description": "La capital colonial holandesa en tonos pastel: la calle peatonal Caya G.F. Betico Croes, el histórico circuito de tranvías, la marina del Renaissance (con barco privado a la isla de los flamencos) y la mayoría de los mejores restaurantes no hoteleros. A 15 minutos de Palm Beach, 20 de Eagle Beach." },
+    { "name": "Arikok / Costa Este", "bestFor": "Día de excursión por desierto de cactus, Atlántico salvaje, piscina natural Conchi", "description": "El 18% protegido de Aruba: bosque de cactus, salvajes acantilados atlánticos, la piscina natural de roca Conchi, las pinturas rupestres de Fontein y los campos lunares de rocas de Casibari. Sin baño en la costa este. Excursión de un día en 4x4 o jeep desde cualquier base en Eagle/Palm Beach." }
+  ],
+  "expertTips": [
+    { "tip": "Elija Eagle Beach O Palm Beach, y visite ambas", "detail": "La mayoría de recién casados elige una franja y nunca ve la otra. Las dos playas están a 5 minutos en taxi y son productos radicalmente distintos: dedique medio día a la otra para tener contexto. Eagle es más ancha, tranquila y baja; Palm es de mayor amenidad, más ajetreo y rascacielos." },
+    { "tip": "La preautorización aduanera de EE.UU. en AUA cambia la vuelta a casa", "detail": "Aruba es uno de los pocos aeropuertos extranjeros con preautorización aduanera estadounidense: hace inmigración y aduana en Aruba y vuela a casa como pasajero doméstico. Calcule 90 minutos para la preautorización, pero al llegar a JFK/MIA/BOS sale como un vuelo nacional." },
+    { "tip": "Reserve el pase de Renaissance Island a través del hotel", "detail": "Los pases para la isla de los flamencos del Renaissance son limitados y se agotan: el conserje del hotel tiene un acceso del que no disponen los visitantes sin reserva. Reserve con una semana de antelación. Asegúrese de ir al lado Solo adultos de Flamingo Beach y no al familiar de Iguana Beach." },
+    { "tip": "Los alisios son constantes: prepare la maleta en consecuencia", "detail": "Aruba sopla los 365 días (15-25 mph de media). Los sombreros necesitan correa, los pareos necesitan pinzas y cualquier foto en la playa requiere el viento a la espalda. El viento es la razón por la que la isla es tan fresca pese a estar a 12° del ecuador, pero es constante." },
+    { "tip": "La cena fuera del resort merece el taxi", "detail": "La mejor cocina de Aruba no está en los comedores del resort: Zeerovers (Savaneta, chiringuito de pescadores con captura del día), Madame Janette (callejones traseros de Eagle Beach, la mejor alta cocina de Aruba) y The Old Cunucu House (fusión arubeño-holandesa en una granja restaurada) están a 15 minutos en taxi y duplican la calidad gastronómica." }
+  ],
+  "packing": [
+    { "item": "Protector solar reef-safe SPF 50", "why": "El sol arubeño es intenso: 12° del ecuador y los alisios ocultan la quemadura hasta que es tarde" },
+    { "item": "Capas ligeras para los alisios", "why": "El viento constante de 15-25 mph refresca las noches: un cárdigan fino o un pareo es esencial" },
+    { "item": "Escarpines para el snorkel del Antilla", "why": "Los snorkels en pecios desde barco requieren escarpines para la popa y para entradas rocosas" },
+    { "item": "Conjunto smart-casual para la cena", "why": "BLT Steak, Madame Janette y los restaurantes del Ritz exigen calzado cerrado y camisas a partir de las 19h" },
+    { "item": "Sombrero con barbiquejo", "why": "Una isla de alisios se llevará cualquier sombrero que no esté atado, y lo necesitará en la playa" },
+    { "item": "Tarjeta multidivisa sin comisiones FX", "why": "Se aceptan tanto AWG (florín arubeño) como USD; una tarjeta Wise/Revolut evita el recargo cambiario del hotel" }
+  ],
+  "guide": {
+    "getting": "El Aeropuerto Internacional Reina Beatrix (AUA) es el único aeropuerto: vuelos directos desde JFK, Newark, Miami, Boston, Charlotte, Atlanta, DC, Houston y la mayoría de los principales hubs de la Costa Este de EE.UU. en 4-5 horas. Londres son 9h vía Ámsterdam (KLM diario). La joya de la corona en la salida es la preautorización aduanera estadounidense en AUA: vuela a casa como pasajero doméstico, sin colas de aduana en JFK/MIA/BOS. Calcule 90 minutos para preautorización e inmigración a la salida.",
+    "where": "Eagle Beach (Bucuti, Manchebo, Amsterdam Manor) para Solo adultos de baja altura: la playa más ancha y blanca con los divi-divis y sin rascacielos. Palm Beach (Marriott, Ritz, Hyatt, Hilton, Renaissance) para resorts de servicio completo en altura con casinos y varias piscinas. Oranjestad (Renaissance Marina) para el boutique céntrico Solo adultos con isla privada de flamencos. La división clásica para luna de miel: 7 noches en Eagle Beach, o 4 en Eagle + 3 en Renaissance para variedad.",
+    "when": "Todo el año: Aruba está fuera del cinturón de huracanes y su clima es el más fiable del Caribe. Abril-agosto ofrece la mejor relación calidad-precio con un clima idéntico al pico; septiembre es el mes más barato y con los alisios más suaves. Diciembre-marzo es alta temporada con tarifas máximas y los alisios más fuertes. Evite las grandes semanas festivas estadounidenses (Navidad, Día de los Presidentes, Spring Break) por afluencia y precio."
+  },
+  "localFood": "Keshi yena (corteza de queso Edam rellena con guiso de pollo: el plato nacional, fusión holandés-caribeña); pastechi (pastelillo de mañana frito en media luna relleno de queso, ternera o pollo: en cualquier desayuno arubeño); pescado fresco en Zeerovers en Savaneta (señale la captura y la fríen en el muelle); funchi (polenta de maíz como guarnición); pan bati (pan plano tipo crepe). Las importaciones incluyen clásicos holandeses (bitterballen, croquetas), arepas venezolanas y la distintiva cerveza Balashi.",
+  "language": "Neerlandés (oficial), papiamento (criollo local); inglés y español universales en hoteles"
+}

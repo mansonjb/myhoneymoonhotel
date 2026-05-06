@@ -1,0 +1,75 @@
+{
+  "tagline": "Piscinas infinity blanquísimas, ruinas antiguas y la luz más bella del mundo.",
+  "intro": "Grecia lleva tres mil años haciendo felices a los lunamieleros, y la Grecia moderna ha añadido una infraestructura resort de talla mundial a uno de los escenarios más bellos del Mediterráneo. La caldera volcánica de Santorini es la imagen definitiva de Grecia: cubos blancos, cúpulas azules y un Egeo infinito. Pero Mykonos, Creta y el Peloponeso ofrecen experiencias completamente distintas —y a menudo mejores— sin las multitudes de Santorini.",
+  "bestTime": "May-Jun, Sep-Oct",
+  "flightFrom": "3-4h desde Londres",
+  "topExperience": "Cultura, playas y salto entre islas",
+  "perfectFor": [
+    "Parejas que buscan cultura europea junto a playas excepcionales",
+    "Quienes desean saltar entre islas radicalmente distintas",
+    "Amantes de la historia: la combinación de yacimientos antiguos y lujo moderno no tiene rival",
+    "Navegantes y aficionados a la vela (Grecia tiene el mejor chárter del Mediterráneo)",
+    "Cualquiera con la fantasía de un atardecer mediterráneo: Santorini la cumple por completo"
+  ],
+  "skipIf": [
+    "Visita Santorini en julio-agosto: Oia se ve desbordada por los cruceros",
+    "Quiere un único destino en lugar de varias paradas insulares",
+    "Tiene un presupuesto muy ajustado: las islas griegas ya no son baratas",
+    "Las playas de arena son imprescindibles: muchas playas griegas son de guijarros",
+    "Ya conoce Santorini y quiere algo genuinamente distinto"
+  ],
+  "experiences": [
+    { "icon": "🌅", "title": "Atardecer en la caldera de Santorini (desde Oia)", "description": "El atardecer más fotografiado del mundo. La luz rosa y anaranjada golpeando las paredes encaladas de Oia mientras el sol se hunde en la caldera. Vale la masificación: no hay otra cosa parecida.", "cost": "Gratis", "tip": "Llegue al castillo de Oia 2 horas antes del atardecer. O reserve mesa al borde de la caldera en Lauda o 1800 para la misma vista con champán y sin estar de pie." },
+    { "icon": "⛵", "title": "Chárter privado a vela entre islas", "description": "Un goleta o velero privado de Santorini a Thirassia, al volcán y a las aguas termales. Las islas griegas vistas desde el agua, a su ritmo, con paradas para nadar.", "cost": "€400-€800 por chárter privado de día", "tip": "Reserve a través de su hotel. La salida de atardecer por la caldera es lo estándar: solicite mejor una de día completo por la mañana a Thirassia para encontrar menos barcos." },
+    { "icon": "🏛️", "title": "Visita privada a la Acrópolis al abrir (Atenas)", "description": "Atenas está a 45 minutos en avión de Santorini. Sumar 2 noches antes o después con un guía privado a la Acrópolis a las 8:00 (antes de las multitudes) transforma el viaje de unas vacaciones de playa a un genuino periplo europeo.", "cost": "€150-€300 por guía privado", "tip": "Context Travel ofrece las mejores visitas privadas a la Acrópolis. Reserve la primera franja: tendrá el Partenón casi para ustedes." },
+    { "icon": "🍷", "title": "Cata de vinos volcánicos de Santorini", "description": "El blanco Assyrtiko, cultivado en el suelo volcánico ceniciento de Santorini, no se parece a ningún otro vino del mundo: mineral, oceánico, extraordinario. Estate Argyros y Gaia Wines ofrecen catas privadas en sus viñedos.", "cost": "€60-€120 por pareja", "tip": "Estate Argyros, en Episkopi, es el productor más fino. Reserve una cata privada con su sumiller: incluye el mejor Vinsanto de postre que probará jamás." },
+    { "icon": "🤿", "title": "Snorkel en Navagio (Zakynthos)", "description": "La Playa del Naufragio: un carguero oxidado sobre arena blanca rodeado de acantilados de caliza blanca de 200 m y agua turquesa. Una de las playas más espectaculares de Europa, accesible solo en barco.", "cost": "€20-€40 por persona (excursión en barco desde la ciudad de Zakynthos)", "tip": "Llegue temprano por la mañana en barco privado, antes de las 10:00. La playa queda en sombra hasta media mañana: téngalo en cuenta para sus fotos." }
+  ],
+  "months": [
+    { "month": "Jan", "weather": "Fresco, 14°C, alguna lluvia, muy tranquilo", "emoji": "🌦", "crowds": "Muy baja", "price": "Mínimo", "verdict": "Fuera de temporada: muchos lugares cerrados" },
+    { "month": "Feb", "weather": "Fresco, suave, flores silvestres", "emoji": "🌤", "crowds": "Muy baja", "price": "Bajo", "verdict": "Temporada baja romántica" },
+    { "month": "Mar", "weather": "Calentando, lluvia ocasional", "emoji": "⛅", "crowds": "Baja", "price": "Bajo", "verdict": "Empieza a abrir todo" },
+    { "month": "Apr", "weather": "Primavera perfecta, 20°C", "emoji": "🌸", "crowds": "Moderada", "price": "Medio", "verdict": "Bello, atención a la fecha de la Pascua" },
+    { "month": "May", "weather": "Ideal: 24°C, despejado, sin masificación", "emoji": "☀️", "crowds": "Moderada", "price": "Medio-alto", "verdict": "El mejor mes para Santorini" },
+    { "month": "Jun", "weather": "Cálido, 28°C, en alza", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Excelente, reserve con tiempo" },
+    { "month": "Jul", "weather": "Caluroso, viento meltemi, cruceros", "emoji": "💨", "crowds": "Máxima", "price": "Muy alto", "verdict": "Santorini desbordada: considere Mykonos" },
+    { "month": "Aug", "weather": "Lo más caluroso, pico absoluto de gente", "emoji": "🌡️", "crowds": "Máxima", "price": "Máximo", "verdict": "Evite Santorini específicamente" },
+    { "month": "Sep", "weather": "Perfecto: 26°C, multitudes diluyéndose", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "El mejor mes del año" },
+    { "month": "Oct", "weather": "Cálido, dorado, tranquilo", "emoji": "🌤", "crowds": "Moderada", "price": "Medio", "verdict": "Mes joya escondida" },
+    { "month": "Nov", "weather": "Fresco, alguna lluvia, muy tranquilo", "emoji": "🌦", "crowds": "Muy baja", "price": "Bajo", "verdict": "Muchos lugares cierran a final de mes" },
+    { "month": "Dec", "weather": "Fresco, festivo en Atenas", "emoji": "⛅", "crowds": "Baja", "price": "Bajo", "verdict": "La Navidad en Atenas es maravillosa" }
+  ],
+  "budgetTiers": [
+    { "label": "Lujo boutique", "range": "€250-€600/noche", "gets": "Suite-cueva con vista a la caldera en Oia o Imerovigli, piscina privada y desayuno excepcional. La experiencia esencial de Santorini.", "example": "Ikies Traditional Houses, Astra Suites" },
+    { "label": "Premium", "range": "€600-$1.500/noche", "gets": "Villa completa con piscina infinity y vista a la caldera, mayordomo y alta cocina en el hotel.", "example": "Grace Hotel Santorini, Mystique" },
+    { "label": "Ultra-lujo", "range": "€1.500-€4.000+/noche", "gets": "La villa-cueva más fina, traslados en helicóptero y reclusión total sobre la caldera.", "example": "Canaves Oia Epitome, Amanzoe (continente)" }
+  ],
+  "areas": [
+    { "name": "Santorini (Oia / Imerovigli)", "bestFor": "Vistas a la caldera, el atardecer icónico", "description": "Oia es la aldea más fotografiada del planeta. Imerovigli (más alta y tranquila) es el punto dulce para luna de miel con vista a la caldera: muchísimos menos turistas que Oia y las mismas vistas espectaculares. Aquí están las mejores suites-cueva." },
+    { "name": "Mykonos", "bestFor": "Lujo, vida nocturna, Little Venice", "description": "La isla más glamurosa de Grecia. Excelente para parejas que quieren una escena sofisticada junto a las playas. Agios Ioannis y Psarou son las playas tranquilas de lujo." },
+    { "name": "Creta", "bestFor": "Playas, cultura, tamaño, variedad", "description": "La isla más grande de Grecia lo tiene todo: gargantas, palacios antiguos, largas playas de arena y gastronomía excelente. Elounda (noreste) concentra los hoteles más lujosos. La menos \"Grecia de Instagram\" pero el destino más completo." },
+    { "name": "Amanzoe / Peloponeso", "bestFor": "Resort solo adultos perfecto, reclusión Aman", "description": "En la península continental del Peloponeso, a 40 minutos de Nafplio. El resort Amanzoe se asienta sobre un promontorio con vistas al Egeo de 360°. Solo adultos por concepto. El lujo más silencioso de Grecia." }
+  ],
+  "expertTips": [
+    { "tip": "Vaya a Imerovigli, no a Oia, para la experiencia hotelera de la caldera", "detail": "Oia tiene la vista que ha lanzado un millón de moodboards. Imerovigli tiene casi la misma vista, una fracción del tránsito peatonal y propiedades como Astra Suites igual de bellas. Oia queda a 15 minutos a pie." },
+    { "tip": "Las 2 noches en Atenas no son negociables", "detail": "La Acrópolis, el mercado de Monastiraki y una cena en la Plaka son una incorporación genuinamente extraordinaria a cualquier luna de miel insular griega. Atenas está a 45 minutos de Santorini en Olympic Air. No se la salte." },
+    { "tip": "El viento meltemi de julio-agosto es el enemigo", "detail": "El viento del norte estival del Egeo hace incómodas las salidas en barco y vuela las sombrillas a la caldera. Septiembre tiene la misma agua templada y el mismo sol sin las constantes ráfagas de 30 nudos." },
+    { "tip": "El amanecer sobre la caldera es tan bueno como el atardecer en Oia", "detail": "Todos miran el atardecer en Oia. Casi nadie ve el amanecer desde Imerovigli: la caldera bañada por la luz del alba sin más turistas. Pongan un despertador." },
+    { "tip": "Use el teleférico de Fira exactamente una vez", "detail": "Los burros que cargan turistas del puerto a Fira son un asunto de bienestar animal. El teleférico tarda 3 minutos. Úselo y duerma tranquilo." }
+  ],
+  "packing": [
+    { "item": "Calzado cómodo para caminar", "why": "Los caminos de las islas griegas son adoquines irregulares: las sandalias valen para pasear por el pueblo, pero para senderismo necesita una suela en condiciones" },
+    { "item": "Capas ligeras para la noche", "why": "Las noches en Santorini y Mykonos pueden ser frescas con el meltemi incluso en julio. Una chaqueta ligera para cenar al aire libre." },
+    { "item": "Ropa modesta para las iglesias", "why": "Las iglesias de cúpula azul exigen hombros y rodillas cubiertos para entrar" },
+    { "item": "Pastillas para el mareo", "why": "Las travesías en ferry por el Egeo en verano (temporada de meltemi) pueden ser movidas" },
+    { "item": "Efectivo en euros", "why": "Tabernas, embarcaciones y mercados prefieren claramente el efectivo. Los cajeros de las islas pequeñas se quedan sin dinero." },
+    { "item": "Batería externa portátil", "why": "La arquitectura de las suites-cueva implica pocas tomas. Una carga completa antes de explorar es esencial." }
+  ],
+  "guide": {
+    "getting": "Vuele a Atenas (ATH): directo desde la mayoría de ciudades europeas (2-4h desde Reino Unido). Conecte luego con Santorini (JTR, 45 min con Olympic Air), Mykonos (MYK, 40 min) o Heraklion/Creta (HER, 1h). Como alternativa, tome el ferry rápido desde el puerto de Pireo a Santorini (5h en Seajet) o vuele con Aegean Airlines. Los ferries entre islas conectan todas las Cícladas principales.",
+    "where": "Santorini (Imerovigli y Oia para hoteles con vista a la caldera). Mykonos (Psarou y Agios Ioannis para lujo de playa). Creta (península de Elounda para concentración resort). Amanzoe (Peloponeso continental, lo más recluido). Viaje multi-isla: Atenas 2 noches → Santorini 4 noches → Creta o Mykonos 3 noches es el circuito clásico.",
+    "when": "Mayo-junio es ideal: clima perfecto, todo abierto, multitudes manejables. Septiembre es el mejor mes oculto: agua templada, luz dorada y un 30% menos de turistas que en agosto. Julio-agosto resulta demasiado masificado específicamente en Santorini; manejable en Creta o Amanzoe."
+  },
+  "localFood": "Pulpo a la parrilla recién pescado regado con limón (en cada terraza), saganaki (queso frito), dakos (bruschetta cretense), moussaka como debe ser y los extraordinarios mezzes de mar en una taberna junto al mar con ouzo local. Los tomates cherry de Santorini (cultivados en suelo volcánico) son los más dulces de Grecia. La fava (puré de guisante seco amarillo) de Santorini es delicia local. El blanco Assyrtiko es el mejor maridaje para todo ello.",
+  "language": "Griego. Inglés muy hablado en todas las zonas turísticas."
+}

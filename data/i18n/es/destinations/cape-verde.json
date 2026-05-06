@@ -1,0 +1,64 @@
+{
+  "tagline": "Diez islas volcánicas, alma afro-portuguesa, sol todo el año",
+  "intro": "Cabo Verde ocupa un rincón extraño y maravilloso del Atlántico: a 600 km de la costa de África Occidental, pero espiritualmente atado a Portugal, Brasil y el Caribe a la vez. El archipiélago de diez islas estuvo deshabitado hasta 1462 y se convirtió en la primera colonia tropical europea. De aquel crisol emergió una cultura totalmente propia: lengua criolla, música morna (las baladas melancólicas de Cesária Évora), guiso cachupa y un ritmo de vida que los locales llaman \"no stress, no pressure\". Sal y Boa Vista entregan la postal: playas de arena blanca, resorts todo incluido, kitesurf y alisios fiables. El Desierto de Viana en Boa Vista, dunas saharianas auténticas que se encuentran con un océano turquesa, parece un fallo geográfico. Las otras islas premian a las parejas dispuestas al island-hopping: Santo Antão tiene espectaculares cumbres volcánicas esmeralda; Mindelo, en São Vicente, es la capital cultural con música en vivo cada noche. Los vuelos son cortos (4-5 horas desde Lisboa o London Gatwick).",
+  "bestTime": "De noviembre a junio: seco, soleado, 24-27°C",
+  "flightFrom": "4-5h directo desde Lisboa/London Gatwick/Manchester a Sal o Boa Vista",
+  "topExperience": "Flotar en el cráter de sal de Pedra de Lume en Sal y luego cócteles al atardecer en la playa de Santa Maria",
+  "perfectFor": ["Parejas que buscan playas estilo Caribe sin un vuelo de larga distancia", "Amantes de la música atraídos por la morna y la noche de Mindelo", "Kitesurfistas y windsurfistas tras alisios fiables", "Recién casados aventureros dispuestos al island-hopping", "Viajeros que buscan cultura criolla afro-portuguesa fuera del radar"],
+  "skipIf": ["Espera selva tropical exuberante: Sal y Boa Vista son áridas", "Necesita infraestructura ultra-lujo de cinco estrellas", "Quiere vida nocturna vibrante fuera de Mindelo y Santa Maria", "Le disgusta el viento persistente"],
+  "experiences": [
+    { "icon": "🎶", "title": "Morna en directo en un bar de Mindelo", "description": "São Vicente es la cuna de Cesária Évora y el corazón palpitante de la música caboverdiana.", "cost": "€10-25 por pareja con bebidas", "tip": "Vaya al Café Musical Sodade después de las 22:00" },
+    { "icon": "🐢", "title": "Anidación de tortugas marinas en Boa Vista", "description": "Entre junio y octubre, las tortugas bobas anidan en los 55 km de playas de Boa Vista.", "cost": "€35-50 por persona vía Turtle Foundation", "tip": "Reserve solo a través de ONG acreditadas" },
+    { "icon": "🧂", "title": "Flotar en el cráter de sal de Pedra de Lume", "description": "Un cráter volcánico colapsado en Sal lleno de agua hipersalina, más densa que el Mar Muerto.", "cost": "€5 entrada, €15 con tratamiento de barro", "tip": "Vaya al final de la tarde cuando los excursionistas se hayan ido" },
+    { "icon": "🌋", "title": "Subir al volcán Pico do Fogo", "description": "La isla de Fogo está dominada por un volcán activo de 2.829 m. Ascienda al cráter o pernocte en Chã das Caldeiras.", "cost": "€60-90 por persona con guía", "tip": "Compre una botella de vino Chã en la cooperativa" },
+    { "icon": "🏜️", "title": "Quad por el Desierto de Viana", "description": "El Desierto de Viana en Boa Vista: dunas reales que se encuentran con lagunas turquesas.", "cost": "€70-95 por persona en tour de medio día", "tip": "Use calzado cerrado y un buff" }
+  ],
+  "months": [
+    { "month": "January", "weather": "22-25°C, seco, brisa", "emoji": "☀️", "crowds": "Concurrida", "price": "€€€", "verdict": "Temporada alta: reserve pronto" },
+    { "month": "February", "weather": "22-25°C, ventoso", "emoji": "🎭", "crowds": "Concurrida", "price": "€€€", "verdict": "Carnaval de Mindelo: extraordinario" },
+    { "month": "March", "weather": "23-26°C, seco, ventoso", "emoji": "🪁", "crowds": "Concurrida", "price": "€€€", "verdict": "Temporada pico de kitesurf" },
+    { "month": "April", "weather": "23-26°C, seco, viento más ligero", "emoji": "☀️", "crowds": "Moderada", "price": "€€", "verdict": "Punto dulce: gran tiempo, menos gente" },
+    { "month": "May", "weather": "24-27°C, seco, mar en calma", "emoji": "🌊", "crowds": "Tranquila", "price": "€€", "verdict": "Excelente relación calidad-precio, mar tranquilo" },
+    { "month": "June", "weather": "25-28°C, templándose", "emoji": "🐢", "crowds": "Tranquila", "price": "€€", "verdict": "Comienza la anidación de tortugas en Boa Vista" },
+    { "month": "July", "weather": "26-29°C, húmedo", "emoji": "🌡️", "crowds": "Moderada", "price": "€€", "verdict": "Caluroso pero soportable; vacaciones escolares europeas" },
+    { "month": "August", "weather": "27-30°C, húmedo, breves chubascos", "emoji": "🌦️", "crowds": "Moderada", "price": "€€", "verdict": "Mes más caluroso; festival de música baía das gatas" },
+    { "month": "September", "weather": "27-30°C, húmedo", "emoji": "🌧️", "crowds": "Tranquila", "price": "€", "verdict": "Breve estación lluviosa: tarifas más baratas" },
+    { "month": "October", "weather": "26-29°C, secándose", "emoji": "🐢", "crowds": "Tranquila", "price": "€€", "verdict": "Últimos nacimientos de tortugas, regresa el sol" },
+    { "month": "November", "weather": "24-27°C, seco, brisa", "emoji": "☀️", "crowds": "Moderada", "price": "€€", "verdict": "Vuelven los alisios: mes ideal para luna de miel" },
+    { "month": "December", "weather": "23-26°C, seco, ventoso", "emoji": "🎄", "crowds": "Concurrida", "price": "€€€", "verdict": "Festivo pero con precios premium" }
+  ],
+  "budgetTiers": [
+    { "label": "Cómodo", "range": "€1,800-2,800 por pareja por semana", "gets": "Todo incluido de gama media en Sal o Boa Vista, habitación con vista al jardín, cocina tipo bufé", "example": "Hotel Morabeza, Sal: frente al mar, media pensión" },
+    { "label": "Punto dulce", "range": "€2,800-4,500 por pareja por semana", "gets": "Todo incluido premium, habitación con vista al mar, restaurantes a la carta, 2-3 excursiones", "example": "Meliá Dunas Beach Resort o Iberostar Boa Vista" },
+    { "label": "Ocasión especial", "range": "€4,500-7,500+ por pareja por semana", "gets": "Suite Hilton o Riu Palace, mayordomo, gastronomía premium, vuelos de island-hopping", "example": "Hilton Cabo Verde Sal Resort: suite con piscina de inmersión" }
+  ],
+  "areas": [
+    { "name": "Santa Maria, Sal", "bestFor": "Primeras visitas, lunas de miel de playa, kitesurf", "description": "8 km de playa de arena blanca, la mejor escena gastronómica y la mayoría de los grandes resorts. Centro caminable." },
+    { "name": "Sal Rei y playas, Boa Vista", "bestFor": "Tiempo de playa más tranquilo, tortugas marinas, paisajes desérticos", "description": "Menos desarrollada que Sal, con playas vacías más largas y el Desierto de Viana." },
+    { "name": "Mindelo, São Vicente", "bestFor": "Amantes de la música, cultura, carnaval", "description": "La capital cultural de Cabo Verde. Arquitectura colonial y música en vivo cada noche." },
+    { "name": "Santo Antão", "bestFor": "Lunas de miel de senderismo, paisajes espectaculares", "description": "Un breve ferry desde São Vicente revela cumbres esmeralda, valles aterrazados y el mejor senderismo del país." },
+    { "name": "Cidade Velha, Santiago", "bestFor": "Aficionados a la historia, patrimonio UNESCO", "description": "La primera ciudad tropical construida por europeos, fundada en 1462. Calles empedradas, fortaleza en la cima." }
+  ],
+  "expertTips": [
+    { "tip": "Vuele a la isla correcta", "detail": "Sal y Boa Vista tienen aeropuertos internacionales. Los vuelos interinsulares añaden €100-180 y media jornada." },
+    { "tip": "Lleve euros, no dólares", "detail": "El escudo está vinculado al euro a 110:1, y el euro se acepta ampliamente en zonas turísticas." },
+    { "tip": "El viento es una característica, no un defecto", "detail": "Los alisios soplan casi todo el año. Esto mantiene las temperaturas confortables pero implica playas con brisa." },
+    { "tip": "Propinas en efectivo, modestas", "detail": "€1-2 por bebida, €5-10 por una cena excelente, €5 por guía de excursión." },
+    { "tip": "Pruebe el grogue con cuidado", "detail": "El ron local de caña tiene 40-50% de alcohol. El más suave proviene de Santo Antão." }
+  ],
+  "packing": [
+    { "item": "Protector solar respetuoso con el arrecife SPF 50", "why": "El sol ecuatorial es feroz incluso cuando el viento lo hace parecer suave" },
+    { "item": "Cortavientos ligero o pashmina", "why": "Los alisios refrescan las noches, sobre todo en terrazas" },
+    { "item": "Calzado cerrado para caminar", "why": "Esencial para terreno volcánico en Fogo, rutas de Santo Antão y el Desierto de Viana" },
+    { "item": "Buff o pañuelo", "why": "La arena al viento en las playas de Boa Vista es implacable" },
+    { "item": "Botella de agua reutilizable", "why": "El agua del grifo es desalinizada y no siempre apetecible" },
+    { "item": "Adaptador (Tipo C/F, europeo)", "why": "Mismos enchufes que en la Europa continental, voltaje 220V" }
+  ],
+  "guide": {
+    "getting": "TAP Portugal, easyJet y TUI vuelan directo desde Lisboa (3,5h), London Gatwick (5,5h) a Sal (SID) y Boa Vista (BVC). Vuelos interinsulares con Binter Cabo Verde o BestFly (€80-180).",
+    "where": "Sal para primerizos que quieren playa y variedad gastronómica. Boa Vista para playas tranquilas y desierto. Para cultura y música, Mindelo y ferry a Santo Antão. Combine 5 noches de resort con 3 noches culturales.",
+    "when": "De noviembre a junio es el punto dulce. Abril-mayo y octubre-noviembre ofrecen el mejor equilibrio. Febrero trae el carnaval de Mindelo. La anidación de tortugas en Boa Vista va de junio a octubre."
+  },
+  "localFood": "La cachupa es el plato nacional: un guiso lento de maíz, frijoles, batata y pescado o cerdo. Atún fresco y langosta abundan; pruebe la lagosta grelhada en Sal. El pastel com diabo dentro es un pastelillo picante de atún. Acompañe con grogue o cerveza Strela.",
+  "language": "Portugués / criollo caboverdiano"
+}

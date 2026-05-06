@@ -1,0 +1,151 @@
+{
+  "tagline": "Arena coralina blanca, océano Índico turquesa y la Stone Town perfumada de especias: la isla más romántica de África Oriental.",
+  "intro": "Zanzíbar es donde el océano Índico se encuentra con África de la forma más romántica posible. Stone Town, declarada Patrimonio de la Humanidad por la UNESCO, es un laberinto de puertas de madera talladas, arquitectura árabe y mercados de especias que comercian desde el siglo IX. Salga de esa ciudad ancestral y encontrará algunos de los mejores hoteles de playa del mundo: arena coralina tan blanca que refleja el sol, agua tan transparente que puede contar los peces desde la hamaca. Sume el Tour de las Especias, una vela en dhow al ocaso y los Forodhani Gardens de noche y obtendrá una luna de miel que apela a todos los sentidos.",
+  "bestTime": "Jun–Oct y Dic–Mar",
+  "flightFrom": "8-11h desde Europa",
+  "topExperience": "Playa y cultura",
+  "perfectFor": [
+    "Parejas que quieren playas excepcionales con verdadera profundidad cultural",
+    "Recién casados que añadan safari: Zanzíbar combina perfectamente con Tanzania continental",
+    "Quienes buscan lujo del Índico a precios sensiblemente menores que Maldivas",
+    "Amantes de la cocina suajili y del marisco fresco del Índico",
+    "Parejas aventureras que quieran kitesurf, snorkel y vela en dhow"
+  ],
+  "skipIf": [
+    "Quiere sol garantizado e ininterrumpido: las lluvias largas (abr-may) son intensas",
+    "Las villas overwater de ultra-lujo son innegociables: aquí es playa, no laguna",
+    "Le incomoda el calor y la humedad durante todo el año",
+    "La vida nocturna y el entretenimiento de resort le importan"
+  ],
+  "experiences": [
+    {
+      "icon": "🌿",
+      "title": "Tour por una finca de especias",
+      "description": "Media jornada guiada por plantaciones en activo de clavo, nuez moscada, vainilla y canela con un guía local que le invita a oler, probar e identificar cada especia. Termina con un almuerzo suajili cocinado con todo lo que acaba de ver.",
+      "cost": "30-60 USD por persona",
+      "tip": "Reserve con un operador con base en Stone Town antes que con el hotel: la experiencia es idéntica y apoya directamente al pequeño comercio local."
+    },
+    {
+      "icon": "⛵",
+      "title": "Crucero al atardecer en dhow tradicional",
+      "description": "Navegue el Índico al ocaso en un dhow de madera tallado a mano, con champán y fruta fresca. La silueta de Stone Town a su espalda mientras el sol cae al océano es una de las escenas más bellas de África.",
+      "cost": "80-150 USD por pareja",
+      "tip": "Salga del paseo marítimo de Stone Town en lugar de su hotel: el regreso al casco antiguo al anochecer es la auténtica experiencia."
+    },
+    {
+      "icon": "🏛️",
+      "title": "Stone Town de noche",
+      "description": "Camine por los callejones laberínticos de la Ciudad Vieja UNESCO cuando cae el calor: puertas talladas iluminadas con farolillos, la llamada a la oración resonando y el mercado nocturno de Forodhani Gardens encendido con puestos de pizza zanzibarí y marisco fresco.",
+      "cost": "Gratis (comida 5-15 USD)",
+      "tip": "Vaya un viernes por la noche, cuando el mercado está más animado. Contrate un guía local por 20 USD: le abrirán edificios e historias por las que pasaría sin enterarse."
+    },
+    {
+      "icon": "🤿",
+      "title": "Snorkel en el atolón de Mnemba",
+      "description": "Las aguas alrededor de la isla de Mnemba —un atolón privado en la costa noreste— están entre los arrecifes más ricos de África Oriental. Tortugas verdes, delfines y cientos de especies de peces de arrecife con visibilidad cristalina.",
+      "cost": "60-120 USD por persona",
+      "tip": "Vaya por la mañana, antes de que se levante el viento. Si se aloja en &Beyond Mnemba Island, el arrecife está literalmente frente a su playa."
+    },
+    {
+      "icon": "🪁",
+      "title": "Kitesurf en Paje",
+      "description": "La costa sureste, en Paje, tiene laguna poco profunda, alisios constantes (junio-septiembre) y una escena consolidada de escuelas de kite. Incluso los principiantes salen al agua en un día. El ambiente de la costa este es relajado y joven.",
+      "cost": "80-120 USD por clase",
+      "tip": "Aunque no haga kite, alójese en alguno de los hoteles boutique de Paje: la playa aquí es menos concurrida que la del norte."
+    }
+  ],
+  "months": [
+    { "month": "Jan", "weather": "Caluroso, seco, excelente", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Pico de temporada, merece la pena" },
+    { "month": "Feb", "weather": "Caluroso y seco, ideal", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Mejor tiempo de playa" },
+    { "month": "Mar", "weather": "Húmedo, lluvias asomando", "emoji": "⛅", "crowds": "Moderada", "price": "Medio", "verdict": "Mejor a inicios de mes" },
+    { "month": "Apr", "weather": "Lluvias largas, chubascos intensos", "emoji": "🌧", "crowds": "Muy baja", "price": "Mínimo", "verdict": "Evítelo: lluvia seria" },
+    { "month": "May", "weather": "Aún lluvioso, suavizándose", "emoji": "🌦", "crowds": "Muy baja", "price": "Muy bajo", "verdict": "Solo para cazaofertas" },
+    { "month": "Jun", "weather": "Empieza la estación seca, brisa", "emoji": "🌤", "crowds": "Moderada", "price": "Medio", "verdict": "Excelente opción de temporada media" },
+    { "month": "Jul", "weather": "Seco y con brisa, casi perfecto", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Plena temporada" },
+    { "month": "Aug", "weather": "Seco, mejor viento de kite, hermoso", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Mejor mes en general" },
+    { "month": "Sep", "weather": "Aún seco, suavizándose", "emoji": "☀️", "crowds": "Moderada", "price": "Medio-alto", "verdict": "Punto dulce de calidad-precio" },
+    { "month": "Oct", "weather": "Lluvias cortas posibles", "emoji": "⛅", "crowds": "Baja", "price": "Medio", "verdict": "Apuesta, pero suele estar bien" },
+    { "month": "Nov", "weather": "Lluvias cortas, impredecibles", "emoji": "🌦", "crowds": "Baja", "price": "Bajo", "verdict": "Arriesgado: revise el parte" },
+    { "month": "Dec", "weather": "Seco, caluroso, multitudes festivas", "emoji": "☀️", "crowds": "Muy alta", "price": "Máximo", "verdict": "Bonito, pero caro" }
+  ],
+  "budgetTiers": [
+    {
+      "label": "Boutique de playa",
+      "range": "200-500 USD/noche",
+      "gets": "Hotel boutique con encanto en la costa este o norte, con piscina y excelente cocina. La mejor luna de miel del Índico por su precio en este nivel.",
+      "example": "Baraza Resort & Spa, Matemwe Lodge, White Sand Luxury Villas"
+    },
+    {
+      "label": "Premium",
+      "range": "500-1.200 USD/noche",
+      "gets": "Lujo serio: piscinas privadas, mayordomos de playa, diseño suajili excepcional. Mejor que sus equivalentes europeos al mismo precio.",
+      "example": "Zuri Zanzibar, Melia Zanzibar, Gold Zanzibar"
+    },
+    {
+      "label": "Ultra-lujo",
+      "range": "1.200-3.500+ USD/noche",
+      "gets": "Isla privada o playa exclusiva, recogimiento total, increíble acceso al arrecife, experiencias todo incluido. Los mejores hoteles de playa de África Oriental.",
+      "example": "&Beyond Mnemba Island, Thanda Island"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Stone Town",
+      "bestFor": "Cultura UNESCO, historia, gastronomía",
+      "description": "El corazón histórico de Zanzíbar: un dédalo Patrimonio de la Humanidad de la UNESCO de arquitectura árabe, persa, india y europea. No hay hoteles de playa aquí, pero es esencial pasar una o dos noches por la cultura, el mercado nocturno y los mejores restaurantes de la isla."
+    },
+    {
+      "name": "Norte (Nungwi y Kendwa)",
+      "bestFor": "Mejores playas, baño, vida nocturna",
+      "description": "El extremo norte tiene las playas más bañables de Zanzíbar: sin marismas, agua turquesa todo el día. Nungwi conserva aire de pueblo pesquero con paseos de restaurantes animados. Kendwa es más tranquila. Ambas tienen los mejores hoteles para nadar desde la playa."
+    },
+    {
+      "name": "Este (Paje y Bwejuu)",
+      "bestFor": "Kitesurf, hoteles boutique, ambiente local",
+      "description": "La costa este tiene una laguna mareal, hermosa con marea alta y pedregosa con baja, pero la escena boutique aquí es encantadora y auténtica. Paje es la capital del kitesurf. Bwejuu es más tranquila. Ambas atraen a un público más joven y aventurero."
+    },
+    {
+      "name": "Sur (Jambiani y más allá)",
+      "bestFor": "Lujo tranquilo, granjas de algas, vida local",
+      "description": "La parte más tranquila de la isla, con algunos resorts de gama alta excelentes que se publicitan por su recogimiento. Los pueblos de pescadores aún cultivan algas en los bajos. Genuinamente fuera de circuito turístico."
+    }
+  ],
+  "expertTips": [
+    {
+      "tip": "Combine con un safari en Tanzania",
+      "detail": "Zanzíbar está a 40 minutos en avión de Dar es-Salam y a 90 minutos del Kilimanjaro. Un safari de 4 noches en Serengeti o Ngorongoro seguido de 5 noches en Zanzíbar es una de las grandes combinaciones de luna de miel del mundo. Los operadores de Arusha lo organizan todo."
+    },
+    {
+      "tip": "Quédese una noche en Stone Town",
+      "detail": "Aunque su base principal sea un hotel de playa, pase una o dos noches en Stone Town al inicio o al final del viaje. Emerson Spice (con restaurante en azotea) y 236 Hurumzi son los mejores hoteles. Conozca la ciudad antes de retirarse a la playa."
+    },
+    {
+      "tip": "Reserve en el norte para garantizar el baño",
+      "detail": "La costa este es bella, pero la variación mareal es extrema: en marea baja hay 400 metros de marisma. Si nadar a diario es importante, alójese en Nungwi o Kendwa, donde la marea apenas se nota."
+    },
+    {
+      "tip": "Forodhani Gardens de noche es imperdible",
+      "detail": "El mercado nocturno del paseo marítimo abre a partir de las 18:00. Por 3-5 USD se come pizza zanzibarí, zumo de caña fresco, langosta a la brasa y brochetas de pulpo entre cientos de locales. Una de las mejores experiencias de comida económica de África."
+    },
+    {
+      "tip": "Respete los códigos de vestimenta en Stone Town",
+      "detail": "Zanzíbar es una isla mayoritariamente musulmana. En Stone Town, las mujeres deben cubrir hombros y rodillas; los hombres, evitar pantalones cortos en la medina. En la playa todo vale: los locales son extremadamente tolerantes con la ropa de playa en los resorts."
+    }
+  ],
+  "packing": [
+    { "item": "Cubierta modesta para Stone Town", "why": "Necesaria para visitar mezquitas y respetuosa en la medina: el lino ligero funciona perfectamente con el calor" },
+    { "item": "Protector solar de alto factor apto para arrecifes", "why": "El sol ecuatorial es extremo y los arrecifes necesitan protección: muchos resorts ya exigen productos aptos para arrecifes" },
+    { "item": "Máscara de snorkel propia", "why": "El equipo del hotel es funcional, pero la suya ajusta mejor: imprescindible para las visitas al atolón de Mnemba" },
+    { "item": "Repelente de insectos (DEET 30%+)", "why": "La malaria está presente en Zanzíbar: tome profilaxis y use repelente al alba y al ocaso" },
+    { "item": "Bolsa estanca", "why": "Los paseos en dhow y el snorkel implican embarcaciones abiertas: esencial para teléfonos y cámaras" }
+  ],
+  "guide": {
+    "getting": "Vuele al Aeropuerto Internacional Abeid Amani Karume de Zanzíbar (ZNZ). Vuelos directos desde Europa: Kenya Airways vía Nairobi, Ethiopian Airlines vía Adís Abeba, Turkish Airlines vía Estambul (todos 8-11h en total). Desde el Reino Unido: sin servicio directo; lo mejor es vía Nairobi con Kenya Airways o vía Dubái con flydubai. Los vuelos internos desde Dar es-Salam (DAR) duran 35 minutos y cuestan 60-100 USD. Los taxis del aeropuerto ZNZ a Stone Town son 20 minutos (10-15 USD a tarifa fija); a los hoteles del norte, 45-60 minutos (25-40 USD).",
+    "where": "Costa norte (Nungwi/Kendwa) para el mejor baño y la mayor vida social: la mejor opción para una primera visita. Costa este (Paje) para kitesurf, hoteles boutique y un ambiente más joven. Sur para recogimiento total y lujo premium. Combine: 2 noches en Stone Town + 5 noches en hotel de playa. Para ultra-lujo: &Beyond Mnemba Island es la mejor propiedad: reserve con un año de antelación.",
+    "when": "De junio a octubre es la temporada seca principal: días cálidos (28 °C), sol fiable y los mejores vientos para kite en la costa este. De diciembre a marzo (excluyendo abril-mayo de lluvias largas) es igualmente bello y algo más caluroso. Enero y febrero son los meses más cálidos y secos: excelentes para playa. Evite abril y mayo por completo."
+  },
+  "localFood": "Pizza zanzibarí (panecillo relleno con huevo, carne y queso del mercado nocturno de Forodhani Gardens), urojo (sopa zanzibarí mixta con punto cítrico), atún fresco a la brasa con salsa de tamarindo, biryani de arroz cocinado con especias enteras y chai especiado con cardamomo y jengibre. El Tour de las Especias por las plantaciones de clavo, nuez moscada y vainilla es una media jornada destacada.",
+  "currency": "Tanzanian Shilling (TZS) — hotels quote USD",
+  "language": "Suajili e inglés",
+  "timezone": "UTC+3"
+}

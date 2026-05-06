@@ -1,0 +1,64 @@
+{
+  "tagline": "Templos al amanecer, ruinas en la jungla y la gente más amable del Sudeste Asiático",
+  "intro": "Camboya es la luna de miel que nadie le advirtió que reordenaría sus prioridades. Llega esperando Angkor Wat y, a los tres días, recalibra discretamente lo que entiende por gran viaje. Los templos son extraordinarios: Angkor al alba con el estanque de los lotos reflejando la silueta, Ta Prohm donde higueras estranguladoras de 400 años devoran las paredes de arenisca, Bayon y sus 216 enigmáticos rostros de piedra. Pero la verdadera razón por la que las parejas se van planeando ya su regreso es la gente camboyana: cálida, sosegada, generosa de un modo casi desconcertante. Un itinerario clásico recorre Siem Reap (4 noches por los templos y los pueblos flotantes del Tonle Sap) y un final en isla privada en Song Saa o Six Senses Krabey, con desvíos opcionales a Phnom Penh por el Palacio Real y Tuol Sleng, o al sur a la pausada Kep para almuerzos en el mercado del cangrejo. La escena de lujo supera con mucho el PIB del país: Amansara ocupa la antigua casa real con acceso privado al templo; Phum Baitang lo deposita en un arrozal en activo; Six Senses Krabey es una fortaleza descalza en su propio islote. Los precios son aproximadamente un 30% más bajos que las propiedades equivalentes en Tailandia.",
+  "bestTime": "Noviembre a febrero (seco, fresco 24-30°C, pico para los templos)",
+  "flightFrom": "NYC ~22h vía Seúl/Singapur a Siem Reap (REP) o Phnom Penh (PNH); LA ~20h",
+  "topExperience": "Amanecer privado en Angkor Wat seguido de desayuno en las ruinas de Ta Prohm",
+  "perfectFor": ["Parejas que quieren templos Y un cierre de playa en isla privada", "Aficionados a la historia que prefieren sustancia a destinos de palo selfi", "Viajeros que buscan servicio nivel Aman/Six Senses a la mitad de precio que Tailandia", "Fotógrafos persiguiendo la hora dorada en arenisca y ruinas en la jungla", "Recién casados que valoran la profundidad cultural y la hospitalidad cálida"],
+  "skipIf": ["Necesita vida nocturna más allá de Pub Street y un bar de hotel", "Le incomoda confrontar la historia de los Jemeres Rojos en S-21", "Quiere playas de calidad Maldivas", "Detesta el calor y la humedad incluso en estación fresca"],
+  "experiences": [
+    { "icon": "🛕", "title": "Amanecer en Angkor Wat con guía privado", "description": "Llegue a las 5 de la mañana antes de las multitudes, vea salir el sol tras las cinco torres reflejadas en el estanque de los lotos y luego explore los bajorrelieves mientras la luz se vuelve dorada.", "cost": "$150-300 por pareja", "tip": "Sáltese la multitud del estanque principal: su guía conoce un estanque más tranquilo a 200 m a la izquierda" },
+    { "icon": "🌳", "title": "Ta Prohm y los templos de la jungla", "description": "El templo de Tomb Raider donde higueras estranguladoras y kapocs centenarios consumen físicamente la arenisca.", "cost": "Incluido en el pase de 3 días de Angkor de $62", "tip": "Pida Beng Mealea o Koh Ker como añadido del segundo día: aún más invadidos por la jungla" },
+    { "icon": "🚤", "title": "Pueblos flotantes del Tonle Sap en barco privado", "description": "Kampong Phluk o Kampong Khleang: pueblos enteros sobre pilotes de 8 metros sobre el suelo en la estación seca.", "cost": "$80-120 por pareja", "tip": "Vaya por la tarde para la luz dorada" },
+    { "icon": "🏝️", "title": "Escapada a isla privada en Song Saa o Krabey", "description": "Cierre el viaje con tres noches en una pequeña isla privada del archipiélago de Koh Rong.", "cost": "$1,200-2,500 por noche todo incluido", "tip": "Vuele de Siem Reap a Sihanoukville y luego 45 minutos en lancha rápida: reserve los traslados a través del hotel" },
+    { "icon": "🎭", "title": "Phare Cambodian Circus", "description": "Una representación teatral asombrosa por egresados de una ONG artística que acoge a jóvenes camboyanos en riesgo.", "cost": "$18-38 por entrada", "tip": "Reserve la categoría premium: mejor visibilidad y los ingresos financian formación artística gratuita" }
+  ],
+  "months": [
+    { "month": "January", "weather": "Seco, fresco, 22-30°C", "emoji": "☀️", "crowds": "Máxima", "price": "$$$$", "verdict": "Tiempo ideal, precios máximos" },
+    { "month": "February", "weather": "Seco, templándose, 23-32°C", "emoji": "☀️", "crowds": "Máxima", "price": "$$$$", "verdict": "Final de la estación fresca: vaya ahora" },
+    { "month": "March", "weather": "Caluroso, seco, 26-35°C", "emoji": "🌞", "crowds": "Alta", "price": "$$$", "verdict": "Bello pero empieza a sofocar al mediodía" },
+    { "month": "April", "weather": "Muy caluroso, 28-38°C", "emoji": "🥵", "crowds": "Media", "price": "$$", "verdict": "Año Nuevo Jemer a mediados: bonus cultural, calor brutal" },
+    { "month": "May", "weather": "Caluroso, primeras lluvias, 27-35°C", "emoji": "⛈️", "crowds": "Baja", "price": "$$", "verdict": "Comienzan ofertas de transición; tormentas vespertinas refrescan los templos" },
+    { "month": "June", "weather": "Comienza la estación húmeda, 26-33°C", "emoji": "🌧️", "crowds": "Baja", "price": "$", "verdict": "Verde exuberante: infravalorado" },
+    { "month": "July", "weather": "Húmedo, 26-32°C", "emoji": "🌧️", "crowds": "Baja", "price": "$", "verdict": "Arrozales de verde intenso: la temporada secreta del fotógrafo" },
+    { "month": "August", "weather": "Húmedo, 26-32°C", "emoji": "🌧️", "crowds": "Baja", "price": "$", "verdict": "Mes más barato; cuente con 1-2 horas de lluvia diarias" },
+    { "month": "September", "weather": "Más lluvioso, 25-31°C", "emoji": "⛈️", "crowds": "Baja", "price": "$", "verdict": "Saltar: las inundaciones pueden cerrar algunos templos" },
+    { "month": "October", "weather": "Lluvias menguando, 25-31°C", "emoji": "🌦️", "crowds": "Media", "price": "$$", "verdict": "Tonle Sap en máximo: mejor para los pueblos flotantes" },
+    { "month": "November", "weather": "Vuelve la estación seca, 24-31°C", "emoji": "☀️", "crowds": "Alta", "price": "$$$", "verdict": "Punto dulce: paisaje verde, tiempo seco" },
+    { "month": "December", "weather": "Seco, fresco, 22-30°C", "emoji": "☀️", "crowds": "Máxima", "price": "$$$$", "verdict": "Tiempo asombroso, recargo navideño desde el 20 de diciembre" }
+  ],
+  "budgetTiers": [
+    { "label": "Refinado", "range": "$300-500/noche", "gets": "Boutique 5 estrellas como Templation o Park Hyatt Siem Reap, guía privado para los templos, desayuno incluido", "example": "Templation Hotel: villas modernistas con piscina en Siem Reap" },
+    { "label": "Lujo", "range": "$600-1,200/noche", "gets": "Villas sobre arrozal de Phum Baitang, Belmond La Résidence d'Angkor, Raffles Phnom Penh", "example": "Phum Baitang: villas de madera sobre pilotes en arrozales en activo" },
+    { "label": "Ultra", "range": "$1,500-3,500/noche", "gets": "Amansara, antigua casa real con acceso privado a Angkor; isla privada Song Saa o Six Senses Krabey", "example": "Amansara: 24 suites en la antigua villa de Sihanouk, todo incluido" }
+  ],
+  "areas": [
+    { "name": "Siem Reap", "bestFor": "Templos: su anclaje de luna de miel para 3-5 noches", "description": "Casco antiguo compacto y caminable rodeado de arrozales y el Parque Arqueológico de Angkor." },
+    { "name": "Phnom Penh", "bestFor": "Parada cultural de 1-2 noches: Palacio Real, S-21, Mercado Ruso", "description": "Capital fluvial con huesos coloniales franceses. Raffles Phnom Penh es la dirección." },
+    { "name": "Kep y Kampot", "bestFor": "Desvío costero pausado: fincas de pimienta, mercado del cangrejo", "description": "Tres horas al sur de Phnom Penh. Knai Bang Chatt restauró un grupo de villas modernistas de los años 60." },
+    { "name": "Archipiélago de Koh Rong", "bestFor": "Cierre de playa en isla privada, 3-5 noches", "description": "Song Saa Private Island y Six Senses Krabey ocupan sus propios islotes frente a Sihanoukville." },
+    { "name": "Battambang", "bestFor": "Excursión fuera de ruta", "description": "A 3 horas en coche de Siem Reap. La más tranquila de las grandes ciudades, con centro colonial caminable." }
+  ],
+  "expertTips": [
+    { "tip": "Compre el pase de 3 días de Angkor, no el de 1", "detail": "Los templos merecen al menos 2 días completos más una tarde. El pase de 3 días ($62) es válido durante 10 días." },
+    { "tip": "El USD es universal: lleve billetes nuevos", "detail": "Camboya opera casi enteramente en dólares estadounidenses. Los billetes deben estar limpios y sin roturas." },
+    { "tip": "El código de vestimenta en los templos se hace cumplir", "detail": "Hombros y rodillas cubiertos para entrar al nivel superior de Angkor Wat. Lleve un fular ligero y pantalón largo." },
+    { "tip": "Considere a su tuk-tuk como guía", "detail": "Un buen tuk-tuk-guía para el día cuesta $25-35 y vale el cuádruple." },
+    { "tip": "No se salte Tuol Sleng aunque sea su luna de miel", "detail": "Es duro, pero comprender lo que sobrevivió Camboya recontextualiza todo lo demás." }
+  ],
+  "packing": [
+    { "item": "Capas modestas adecuadas para los templos", "why": "Hombros y rodillas cubiertos requeridos en el nivel superior de Angkor Wat" },
+    { "item": "Sandalias cómodas de calidad", "why": "Recorrerá 8-15 km/día sobre arenisca irregular" },
+    { "item": "Protector solar respetuoso con el arrecife", "why": "El sol ecuatorial es brutal incluso en estación fresca" },
+    { "item": "Linterna frontal o linterna potente del móvil", "why": "Las visitas al amanecer empiezan en plena oscuridad" },
+    { "item": "Billetes de USD nuevos en denominaciones pequeñas", "why": "Los billetes rotos o marcados son rechazados de manera habitual" },
+    { "item": "Tabletas de electrolitos", "why": "Sudará 4 litros al día en los templos" }
+  ],
+  "guide": {
+    "getting": "No hay vuelos directos desde Norteamérica o Europa. Conecte por Seúl, Singapur, Bangkok o Hong Kong a Siem Reap (REP) o Phnom Penh (PNH). Visado electrónico disponible online por $36.",
+    "where": "Base en Siem Reap durante 4-5 noches. Añada 1-2 noches en Phnom Penh. Cierre con 3-4 noches en isla privada (Song Saa, Six Senses Krabey) o en Kep en Knai Bang Chatt.",
+    "when": "De noviembre a febrero es la ventana canónica: seca, fresca, fotogénica. De mayo a octubre es estación húmeda: tormentas vespertinas, hoteles a mitad de precio. Evite las inundaciones de septiembre."
+  },
+  "localFood": "La cocina jemer es más suave que la tailandesa, menos cargada de hierbas que la vietnamita: una propuesta propia y serena. Pida fish amok (curry de cúrcuma y coco al vapor en hoja de banana), lok lak (ternera con pimienta y salsa de lima-pimienta) y num banh chok. La pimienta de Kampot merece su reputación protegida por la UNESCO.",
+  "language": "Jemer (inglés en turismo)"
+}

@@ -1,0 +1,104 @@
+{
+  "tagline": "Atardeceres en falucca por el Nilo, cenas a la luz de las velas frente a las Pirámides y un arrecife de coral en el Mar Rojo: Egipto es la luna de miel más cinematográfica del planeta.",
+  "intro": "Egipto es la luna de miel que condensa 5.000 años de civilización, el Sáhara, el Nilo y un arrecife del Mar Rojo en diez días. Despertará en un palacio victoriano de Asuán sobre faluccas de vela latina, dormirá en un crucero Oberoi de 27 cabinas que avanza junto a Karnak y Edfú al caer la noche, montará en camello al atardecer hasta una cena con vista a las Pirámides en el Mena House y terminará en un resort all-suite de Oberoi a orillas del Mar Rojo, donde los arrecifes empiezan a diez metros de su patio privado. La infraestructura de lujo —Sofitel Legend Old Cataract, Marriott Mena House, Four Seasons Cairo, Oberoi Zahra— es la más sólida de África del Norte. Vaya entre octubre y abril y Egipto se convierte en la rara luna de miel que entrega historia, romance, playa y aventura en un solo viaje, profundamente conmovedor.",
+  "bestTime": "Oct-Abr",
+  "flightFrom": "4-5h desde Europa, 11h desde NYC",
+  "topExperience": "Pirámides, crucero por el Nilo y Mar Rojo",
+  "perfectFor": [
+    "Parejas obsesionadas con la historia, la arqueología o el romance al estilo Indiana Jones",
+    "Lunamieleros que prefieren un crucero móvil por el Nilo a una playa fija",
+    "Viajeros capaces de combinar El Cairo + Asuán + Mar Rojo en un mismo viaje",
+    "Fotógrafos: cada lugar es una postal y cada atardecer un fotograma de cine",
+    "Parejas que quieren lujo de vuelo corto (desde Europa) a $400-$1.200/noche"
+  ],
+  "skipIf": [
+    "Viaja en junio-agosto: el interior de Egipto supera los 40°C y Luxor se vuelve brutal",
+    "Quiere una luna de miel puramente de playa: Sharm y Hurghada son buenas, no Maldivas",
+    "Le incomoda la cultura persistente de baksheesh y la seguridad turística visible",
+    "Necesita villas sobre el agua: Egipto es arena, piedra y agua, pero no bungalós sobre pilotes"
+  ],
+  "experiences": [
+    {
+      "icon": "🛕",
+      "title": "Las Pirámides de Giza al amanecer o a la luz de las velas",
+      "description": "Hospédese en el Marriott Mena House —a 600 m de las Pirámides— y solicite una habitación con vista a la Pirámide. Pasee por la meseta a las 8:00 cuando se abren las puertas y tendrá Keops prácticamente para ustedes solos. Mejor todavía: una cena privada a la luz de las velas en el césped del hotel, con la Gran Pirámide iluminada al fondo, es la cena de luna de miel más fotografiada de Egipto.",
+      "cost": "Entrada a las Pirámides $25/pareja; cena privada $300-$600 para dos",
+      "tip": "Reserve el paseo en camello desde la entrada trasera (sur) para evitar a los buscavidas de la entrada principal. El amanecer es más frío de lo que parece: lleve un chal."
+    },
+    {
+      "icon": "🛥️",
+      "title": "Crucero por el Nilo en el Oberoi Zahra: de Asuán a Luxor",
+      "description": "El Oberoi Zahra es el boutique flotante de 27 cabinas más lujoso del Nilo. Siete noches todo incluido, un egiptólogo a bordo y paradas en Edfú, Kom Ombo, Esna, Karnak y el Valle de los Reyes. Beber champán en la cubierta superior mientras el río se curva entre palmerales verdes y templos antiguos es la imagen definitiva de luna de miel en Egipto.",
+      "cost": "Desde $1.200 por pareja por noche, todo incluido con excursiones guiadas",
+      "tip": "Reserve la Luxury Suite con balcón envolvente en la cubierta 4. De Asuán a Luxor (a favor de corriente) es más relajado que al revés."
+    },
+    {
+      "icon": "🌅",
+      "title": "Falucca al atardecer por el Nilo en Asuán",
+      "description": "Desde la terraza de 1902 del Sofitel Legend Old Cataract, el conserje organiza una falucca privada con té de menta y meze para dos a la hora dorada. Navegarán junto a la isla de Kitchener y al mausoleo del Aga Khan mientras el sol cae tras las dunas de la orilla oeste. Dos horas, alrededor de $80, los 120 minutos más románticos de Egipto.",
+      "cost": "Falucca privada $80-$150 para dos con refrigerios",
+      "tip": "Salga antes de las 17:00 en invierno y de las 18:00 en verano. El capitán espera 100 EGP de propina además del precio."
+    },
+    {
+      "icon": "🤿",
+      "title": "Snorkel en el arrecife del Mar Rojo en Sharm o Hurghada",
+      "description": "Los arrecifes egipcios del Mar Rojo están entre los mejores puntos de buceo del mundo. Desde el Four Seasons Sharm El Sheikh tendrá un arrecife casero junto al hotel; desde el Oberoi Sahl Hasheesh podrá hacer snorkel sobre coral a 10 metros de su patio privado. El parque marino de Ras Mohammed (al sur de Sharm) es la excursión clásica de día completo.",
+      "cost": "Snorkel en arrecife casero gratis para huéspedes; salida en barco a Ras Mohammed $90-$130/persona",
+      "tip": "Reserve la inmersión a primera hora: el viento arrecia hacia el mediodía. Lleve licra: la quemadura por coral es muy real."
+    },
+    {
+      "icon": "🌌",
+      "title": "Excursión astronómica al Desierto Blanco",
+      "description": "Una extensión de dos noches al oasis de Bahariya y a las surrealistas formaciones de creta del Desierto Blanco es el desvío de luna de miel definitivo. Acampe bajo una Vía Láctea tan brillante que se puede leer con su luz, cene cordero al fuego con anfitriones beduinos y despierte entre formaciones rocosas con forma de seta o de cucurucho.",
+      "cost": "Tour privado de 2 noches al Desierto Blanco $1.200-$2.000 por pareja, pensión completa",
+      "tip": "Añádalo entre El Cairo y el crucero; logísticamente es complejo pero absolutamente inolvidable."
+    }
+  ],
+  "months": [
+    { "month": "Jan", "weather": "El Cairo 12-18°C, Luxor 8-22°C, Mar Rojo 22°C", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Temporada alta: clima fresco perfecto, reserve con tiempo" },
+    { "month": "Feb", "weather": "Templado 14-22°C en el interior, mar templándose", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Mes excelente, algo más cálido que enero" },
+    { "month": "Mar", "weather": "Calentando 18-28°C, vientos khamsin ocasionales", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Último gran mes antes del verano" },
+    { "month": "Apr", "weather": "Cálido 22-32°C", "emoji": "☀️", "crowds": "Alta", "price": "Medio", "verdict": "Aún reservable; caluroso al mediodía en Luxor" },
+    { "month": "May", "weather": "Caluroso 26-36°C", "emoji": "🥵", "crowds": "Moderada", "price": "Medio", "verdict": "El crucero aún funciona; las Pirámides son duras a las 11:00" },
+    { "month": "Jun", "weather": "Muy caluroso 30-40°C", "emoji": "🥵", "crowds": "Baja", "price": "Bajo", "verdict": "Evite Luxor; Sharm/Hurghada son tolerables" },
+    { "month": "Jul", "weather": "Extremo 32-42°C en el interior", "emoji": "🥵", "crowds": "Baja", "price": "Bajo", "verdict": "Solo Mar Rojo: el interior es peligroso" },
+    { "month": "Aug", "weather": "Extremo 32-42°C", "emoji": "🥵", "crowds": "Baja", "price": "Bajo", "verdict": "Evite por completo el valle del Nilo" },
+    { "month": "Sep", "weather": "Refrescando 26-36°C", "emoji": "☀️", "crowds": "Moderada", "price": "Medio", "verdict": "Finales de septiembre vuelve a funcionar" },
+    { "month": "Oct", "weather": "Ideal 22-30°C", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Uno de los dos mejores meses del año" },
+    { "month": "Nov", "weather": "Perfecto 18-26°C", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Mes pico de luna de miel: reserve con seis meses" },
+    { "month": "Dec", "weather": "Fresco 14-22°C, Mar Rojo 24°C", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Navidad/Fin de Año en el Nilo es exquisito pero caro" }
+  ],
+  "budgetTiers": [
+    { "label": "Confortable", "range": "$200-$500/noche", "gets": "Sólidos 5★ en El Cairo, Asuán y Sharm. Cruceros estándar por el Nilo.", "example": "Marriott Mena House, Steigenberger Cecil Alexandria, Sofitel Cairo Nile El Gezirah" },
+    { "label": "Premium", "range": "$500-$1.200/noche", "gets": "Hoteles emblemáticos urbanos y las mejores suites del Mar Rojo; suites con vista al Nilo del Sofitel Old Cataract.", "example": "Four Seasons Cairo, Sofitel Legend Old Cataract Aswan, Oberoi Sahl Hasheesh" },
+    { "label": "Icónico y crucero", "range": "$1.200-$3.500/noche", "gets": "Luxury Suite del Oberoi Zahra todo incluido, privatización de cena con vista a las Pirámides, excursiones al Desierto Blanco.", "example": "Crucero Oberoi Zahra, Suite Agatha Christie del Sofitel Old Cataract" }
+  ],
+  "areas": [
+    { "name": "El Cairo y Giza", "bestFor": "Pirámides, Museo Egipcio, Khan El Khalili, energía urbana", "description": "Una megalópolis de 22 millones de habitantes. Hospédese en Mena House (junto a las Pirámides) para la foto icónica o en Four Seasons Nile Plaza/Sofitel Gezirah para lujo con vistas al Nilo. 2-3 noches mínimo." },
+    { "name": "Luxor", "bestFor": "Karnak, Valle de los Reyes, vuelos en globo", "description": "La concentración más rica de templos faraónicos de Egipto. La mayoría de los lunamieleros vive Luxor desde un crucero por el Nilo en lugar de pernoctar en la ciudad. El globo al amanecer sobre la orilla oeste es imprescindible." },
+    { "name": "Asuán", "bestFor": "Terraza del Old Cataract, Filé, Abu Simbel, aldeas nubias", "description": "La ciudad más romántica de Egipto: más lenta, más amable; el Nilo se estrecha aquí y las islas de granito le dan un aire de Edén. 2-3 noches en el Sofitel Old Cataract son lo más destacado de la luna de miel." },
+    { "name": "Mar Rojo (Sharm El Sheikh / Hurghada)", "bestFor": "Playa, arrecife coralino, descompresión tras la historia", "description": "Sharm, en el Sinaí, tiene el paisaje submarino más espectacular (Ras Mohammed). Hurghada, en el continente, es más tranquila y cuenta con el sobresaliente Oberoi Sahl Hasheesh. 3-4 noches como cierre del viaje." },
+    { "name": "Desierto Blanco / Bahariya", "bestFor": "Astronomía, acampada off-grid, romance sahariano", "description": "A 4h en coche de El Cairo, entre formaciones surrealistas de creta. 1-2 noches acampados bajo las estrellas con un guía privado." }
+  ],
+  "expertTips": [
+    { "tip": "Contrate un egiptólogo privado para Karnak y el Valle de los Reyes", "detail": "Sin él verá piedras; con él verá relatos. Audio Egypt y Memphis Tours ofrecen guías en inglés a $100-$180 por día. Incluso en un crucero (que ya provee guía), un egiptólogo privado de medio día en la Esfinge es una experiencia distinta." },
+    { "tip": "Saque el e-visado antes de volar: no confíe en el visado a la llegada", "detail": "Egipto ofrece un e-visado de 30 días por $25 vía visa2egypt.gov.eg. Se emite en 7 días. Pasará directo por inmigración. Las colas del visado a la llegada en El Cairo pueden alcanzar los 90+ minutos." },
+    { "tip": "Propine baksheesh en libras egipcias pequeñas, con generosidad", "detail": "EGP 20-50 por servicio es lo estándar (mozos, taxistas, encargados de aseos, fotos en monumentos). Saque EGP 2.000 al llegar al cajero del aeropuerto de El Cairo: los usará a diario. Los billetes para propinas no necesitan estar nuevos." },
+    { "tip": "Reserve el espectáculo de luz y sonido de las Pirámides para la segunda noche", "detail": "Tras cenar en el Mena House, el espectáculo nocturno de luz y sonido en las Pirámides y la Esfinge (40 minutos, en inglés los domingos/miércoles/viernes) es kitsch pero romántico. Pida un coche desde el hotel para saltarse las colas de entrada." },
+    { "tip": "Use El Cairo como hub: vuele dentro del país en vez de conducir", "detail": "EgyptAir opera vuelos frecuentes El Cairo-Asuán-Luxor a $80-$150 por trayecto. El tren El Cairo-Asuán es romántico en teoría, pero tarda 13 horas. En luna de miel, descártelo." }
+  ],
+  "packing": [
+    { "item": "Capas modestas (cubriendo rodillas y hombros)", "why": "Egipto es de mayoría musulmana: la vestimenta respetuosa en mezquitas, monumentos y fuera de los resorts es esperada. Camisas ligeras de lino de manga larga y un pashmina lo cubren todo." },
+    { "item": "Calzado cerrado y resistente para Karnak y el Valle de los Reyes", "why": "Caminará 6-10 km por arenisca irregular en una sola mañana. Las sandalias no bastan." },
+    { "item": "Crema solar de alta SPF y sombrero de ala ancha", "why": "No hay sombra en las Pirámides, ni en Luxor, ni en el desierto. SPF 50+ obligatorio y aloe vera para después." },
+    { "item": "Crema solar reef-safe y licra para el Mar Rojo", "why": "Los arrecifes de Hurghada/Sharm están protegidos. La quemadura por coral es un riesgo real al hacer snorkel; las licras la previenen." },
+    { "item": "Forro polar ligero para las noches del desierto y los cruceros con AC fuerte", "why": "Las noches del Sáhara bajan a 8°C en invierno y los cruceros del Nilo ponen el aire a 18°C. Un forro de merino es la prenda más usada del equipaje." }
+  ],
+  "guide": {
+    "getting": "Vuele a El Cairo (CAI) con EgyptAir, BA, Lufthansa, KLM, Emirates o Air France directo desde Europa (4-5h), o vía Doha/Dubái/Estambul desde Norteamérica. Vuelos internos con EgyptAir a Asuán (ASW), Luxor (LXR), Sharm (SSH) o Hurghada (HRG): factúrelos como un solo billete si conecta. Un traslado privado desde el aeropuerto de El Cairo ($25-$40) le ahorra negociar el taxi.",
+    "where": "Luna de miel clásica de 10 noches: 3 noches en El Cairo (Marriott Mena House o Four Seasons Nile Plaza) → crucero de 7 noches Asuán-Luxor en Oberoi Zahra → 3 noches en el Mar Rojo (Oberoi Sahl Hasheesh o Four Seasons Sharm). Versión más corta de 7 noches: 2 en El Cairo + 4 de crucero por el Nilo + 1 vuelo a casa desde Luxor. Añada 2 noches en el Desierto Blanco entre El Cairo y el crucero como extensión salvaje.",
+    "when": "Octubre-abril es la única ventana sensata. Noviembre y marzo son los puntos dulces: bastante cálidos para el Mar Rojo, lo bastante frescos para visitar las Pirámides al mediodía. Evite el Ramadán si quiere pleno servicio de restauración fuera de las áreas turísticas (la fecha varía: consúltelo cada año)."
+  },
+  "localFood": "Mezze (foul medames, baba ganush, tahini, falafel —sí, la versión egipcia es la original—), molokhia (estofado de hojas de yute con conejo o pollo), koshari (plato nacional: arroz, lentejas, garbanzos, pasta, cebolla frita y salsa de tomate, la mejor comida de 50 céntimos del mundo), pichón a la parrilla relleno de arroz, aysh baladi recién horneado (pita egipcio), Umm Ali (postre nacional: pudín de pan con leche, frutos secos y pasas), basbousa (bizcocho de sémola con sirope de agua de rosas), cerveza Stella y karkadé (té frío de hibisco, la bebida romántica de las terrazas de Asuán). Mejor mesa: 9 Pyramids Lounge (con vista a las Pirámides), Khan El Khalili (Mena House), Sequoia (paseo del Cairo) y Sachi (El Cairo).",
+  "language": "El árabe es oficial; el inglés se habla ampliamente en hoteles y lugares turísticos. Unas palabras de árabe (\"shukran\" gracias, \"salaam alaikum\" hola) son recibidas con sonrisas cálidas."
+}

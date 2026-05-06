@@ -1,0 +1,75 @@
+{
+  "tagline": "365 playas, una para cada día de su luna de miel",
+  "intro": "Antigua hace una promesa que ninguna otra isla del Caribe se atreve a hacer: 365 playas, una por cada día del año. Para los recién casados, esto se traduce en una especie de lujo aritmético: una franja distinta de arena talco para los paseos al amanecer, los baños al atardecer y las tardes perezosas que median entre uno y otro. El agua aquí es la paleta caribeña de manual: turquesa cristalino en la orilla, azul tinta mar adentro, con arrecife lo bastante cerca como para hacer snorkel desde casi cualquier muelle de hotel. Pero Antigua es más que un catálogo de playas. English Harbour, en la costa sur, es el único astillero georgiano en activo del mundo, un sitio Patrimonio de la UNESCO donde Nelson reparaba sus barcos y donde hoy los superyates flotan entre antiguos almacenes de piedra reconvertidos en bares de ron. Suba la colina contigua un domingo por la tarde y encontrará Shirley Heights, donde los tambores de acero, el humo del pollo jerk y el atardecer sobre dos puertos gemelos llevan cuarenta años siendo el ritual semanal de la isla. La oferta hotelera para lunas de miel se inclina con fuerza hacia los Solo adultos a pequeña escala: las casitas de Hermitage Bay en la ladera, el lujo descalzo de Galley Bay, la elegancia clásica de Curtain Bluff, Cocos y Cocobay encaramados a los acantilados, y la fantasía de isla privada de Jumby Bay. Los navegantes adoran Antigua por sus alisios y sus fondeaderos protegidos: la Sailing Week de finales de abril llena las bahías con tripulaciones de regata. Escápese en una excursión privada en barco a los Pillars of Hercules, las columnas calizas talladas por las olas al sur de English Harbour, o al banco de arena tranquilo de Stingray City.",
+  "bestTime": "Mediados de diciembre a abril por el clima seco con alisios; mayo-junio más tranquilo y mayoritariamente seco",
+  "flightFrom": "8h30 directo desde Londres, 4h NYC, 4h30 Miami — aeropuerto ANU, a 30 min de la mayoría de resorts",
+  "topExperience": "Atardecer dominical en Shirley Heights",
+  "perfectFor": [
+    "Conocedores de la playa que buscan variedad sin saltar de isla en isla",
+    "Parejas navegantes: alisios, chárters y energía de la Sailing Week",
+    "Amantes de los resorts Solo adultos (la isla está especializada)",
+    "Viajeros con interés histórico que buscan astilleros georgianos UNESCO junto a la playa",
+    "Recién casados que buscan el Caribe clásico sin las multitudes de Bahamas ni los precios de Barbados"
+  ],
+  "skipIf": [
+    "Busca interiores selváticos: Antigua es seca y achaparrada en comparación con Santa Lucía",
+    "Quiere vida nocturna intensa o ambiente de discoteca: las noches aquí son tranquilas",
+    "Quiere paisajes dramáticos de montaña o volcán",
+    "Su idea de luna de miel es un único megarresort: la mayoría de propiedades aquí son íntimas"
+  ],
+  "experiences": [
+    { "icon": "🌅", "title": "Atardecer dominical en Shirley Heights", "description": "El ritual que define la isla: tambores de acero a las 16h, banda de reggae a las 18:30h, pollo jerk y ron punch, y una vista de 360° sobre los superyates de English Harbour mientras cae el sol.", "cost": "EC$25 (~$10) entrada; comida y bebidas aparte", "tip": "Llegue antes de las 16h para reservar sitio en el muro de piedra frente al puerto. La sesión inicial de steel pan es mejor que la banda posterior." },
+    { "icon": "⚓", "title": "Nelson's Dockyard, English Harbour", "description": "Recorra el único astillero georgiano en activo del planeta: declarado Patrimonio UNESCO, recorrible en dos horas, con un pequeño museo, un taller de velas en activo y cafés en los antiguos pabellones de oficiales.", "cost": "$8 entrada (válida también para Shirley Heights el mismo día)", "tip": "Combínelo con un almuerzo en Boom, en la marina, o en Pillars Restaurant para vivir la experiencia completa frente al puerto." },
+    { "icon": "⛵", "title": "Día de navegación a Pillars of Hercules", "description": "Chárter en catamarán desde Falmouth Harbour rodeando la costa sur hasta las columnas calizas esculpidas por las olas, con paradas de snorkel y almuerzo en la playa de Pigeon Point.", "cost": "$120-180 p.p. en catamarán compartido; $1,200+ privado", "tip": "Adventure Antigua's \"Xtreme Circumnav\" para la vuelta completa a la isla, o Tropical Adventures para un romance más pausado." },
+    { "icon": "🐟", "title": "Stingray City Antigua", "description": "Sumérjase hasta el pecho en un banco de arena frente a la costa noreste y dé de comer a mano a las rayas del Atlántico sur: más tranquilo y menos circo que la versión de Caimán.", "cost": "$60 p.p. con traslado en barco y equipo de snorkel", "tip": "Vaya en la primera salida de la mañana (10h) antes de que llegue la multitud de cruceros desde St. John's." },
+    { "icon": "🏖️", "title": "Tarde de picnic en Half Moon Bay", "description": "Una media luna perfecta en la salvaje costa atlántica del este: oleaje más grande, casi sin desarrollo turístico, solo arena, uvas de mar y un único chiringuito sirviendo cerveza Wadadli.", "cost": "Gratis; ~$60 ida y vuelta en taxi", "tip": "Pare en Devil's Bridge de camino: un arco natural de caliza donde el oleaje atlántico explota a través de los bufaderos." }
+  ],
+  "months": [
+    { "month": "Jan", "weather": "27°C, seco, con brisa", "emoji": "☀️", "crowds": "Alta", "price": "Máximo", "verdict": "Condiciones máximas, precios máximos: reserve con 6+ meses de antelación" },
+    { "month": "Feb", "weather": "27°C, seco, con brisa", "emoji": "☀️", "crowds": "Alta", "price": "Máximo", "verdict": "Suplemento de San Valentín; por lo demás, clima de luna de miel de manual" },
+    { "month": "Mar", "weather": "28°C, seco", "emoji": "☀️", "crowds": "Alta", "price": "Máximo", "verdict": "Spring break a mediados de mes; los resorts siguen tranquilos para adultos" },
+    { "month": "Apr", "weather": "28°C, seco, calentándose", "emoji": "⛵", "crowds": "Alta", "price": "Máximo", "verdict": "La Sailing Week (última semana) es eléctrica: reserve con tiempo o evítela" },
+    { "month": "May", "weather": "29°C, mayoritariamente seco", "emoji": "☀️", "crowds": "Media", "price": "Alto", "verdict": "Punto dulce: precios de post-temporada, antes de las lluvias" },
+    { "month": "Jun", "weather": "29°C, lluvias breves", "emoji": "⛅", "crowds": "Baja", "price": "Medio", "verdict": "Tranquilo y cálido; técnicamente temporada de huracanes pero riesgo mínimo" },
+    { "month": "Jul", "weather": "30°C, húmedo", "emoji": "⛅", "crowds": "Media", "price": "Medio", "verdict": "Carnaval a finales de mes: divertido si lo busca, ajetreo en St. John's" },
+    { "month": "Aug", "weather": "30°C, húmedo, riesgo de tormenta", "emoji": "🌧️", "crowds": "Baja", "price": "Medio", "verdict": "Económico pero zona de vigilancia de huracanes: contrate seguro de viaje" },
+    { "month": "Sep", "weather": "30°C, riesgo máximo de tormentas", "emoji": "⛈️", "crowds": "Baja", "price": "Mínimo", "verdict": "Evitar salvo que asuma el riesgo; muchos hoteles pequeños cierran" },
+    { "month": "Oct", "weather": "29°C, lluvioso", "emoji": "🌧️", "crowds": "Baja", "price": "Medio", "verdict": "Riesgo de tormenta menguando a final de mes; no ideal para lunas de miel" },
+    { "month": "Nov", "weather": "28°C, secándose", "emoji": "⛅", "crowds": "Media", "price": "Alto", "verdict": "Infravalorado: a mediados de mes vuelve la postal perfecta" },
+    { "month": "Dec", "weather": "27°C, seco", "emoji": "☀️", "crowds": "Alta", "price": "Máximo", "verdict": "Tarifas de Navidad/Nochevieja desorbitadas; las dos primeras semanas son la jugada de valor" }
+  ],
+  "budgetTiers": [
+    { "label": "Confortable", "range": "$450-700/noche", "gets": "Todo incluido Solo adultos en una buena playa con varios restaurantes y deportes acuáticos incluidos", "example": "Galley Bay o Cocobay: cabañas de lujo descalzo, cena bajo las estrellas" },
+    { "label": "Especial", "range": "$900-1,500/noche", "gets": "Lujo boutique con servicio de mayordomo, plunge pool, gastronomía excepcional y escala íntima", "example": "Suites en la ladera de Hermitage Bay o habitaciones de un dormitorio frente al mar en Carlisle Bay" },
+    { "label": "Sin límite", "range": "$2,500-6,000+/noche", "gets": "Exclusividad de isla privada, villas tipo residencia, paquete de discreción total", "example": "Jumby Bay (Oetker Collection): isla privada, 40 habitaciones, servicio de nivel Rosewood" }
+  ],
+  "areas": [
+    { "name": "English & Falmouth Harbour (sur)", "bestFor": "Navegantes, amantes de la historia, parejas de cena fuera del hotel", "description": "El corazón cultural: Nelson's Dockyard, Shirley Heights y los mejores restaurantes independientes. Los resorts aquí (Curtain Bluff, Carlisle Bay) parecen conectados a la vida de la isla." },
+    { "name": "Hermitage Bay y costa suroeste", "bestFor": "Aislamiento puro, lunas de miel sin necesidad de coche", "description": "Se llega por una única pista de tierra que cruza una colina. Un resort por bahía, orientado al atardecer, profundamente privado." },
+    { "name": "Jolly Harbour y costa oeste", "bestFor": "Baño tranquilo en el lado caribeño, gastronomía de marina", "description": "Bahías protegidas con orientación oeste y las aguas más planas de la isla. Galley Bay, Cocobay y Cocos se concentran aquí." },
+    { "name": "Costa norte y Dickenson Bay", "bestFor": "Primera vez, playas clásicas de resort", "description": "Donde están Sandals y Blue Waters: largas playas de arena, sensación más urbanizada, lo más cercano al aeropuerto (15 min)." },
+    { "name": "Costa este y Long Bay", "bestFor": "Días de playa salvaje, oleaje atlántico, Devil's Bridge", "description": "Menos urbanizada, olas más grandes, drama mayor. Half Moon Bay y Long Bay son destinos de excursión de día." }
+  ],
+  "expertTips": [
+    { "tip": "El domingo es Shirley Heights: planifique todo lo demás en torno a él", "detail": "Funciona todos los domingos del año, de 16h a 22h. Sáltese la cena del resort esa noche. Pida que su chófer espere o reserve la vuelta: los taxis desaparecen sobre las 20h." },
+    { "tip": "Alquile coche dos días, no todo el viaje", "detail": "Las carreteras son irregulares y la señalización mínima, pero querrá libertad para llegar a Half Moon Bay, Devil's Bridge y Shirley Heights sin negociar con taxis. Se conduce por la izquierda." },
+    { "tip": "La \"mejor\" playa depende de la dirección del viento", "detail": "Cuando los alisios soplan fuerte (enero-marzo), la costa este se vuelve picada y la oeste queda como un cristal. Pregunte al conserje qué lado está en calma cada día." },
+    { "tip": "Coma fuera del resort en Catherine's Cafe Plage o Sheer Rocks", "detail": "Catherine's (Pigeon Beach) es un almuerzo francés con los pies en la arena; Sheer Rocks (acantilados de Cocobay) es la cena al atardecer más fotografiada de la isla. Reserve Sheer Rocks con dos semanas de antelación." },
+    { "tip": "La Sailing Week (finales de abril) es un ambiente, pero no de luna de miel", "detail": "English Harbour se vuelve animado, los hoteles del sur se llenan de tripulaciones y los precios suben. Si no le entusiasma la cultura de regata, elija la costa norte u oeste." }
+  ],
+  "packing": [
+    { "item": "Protector solar reef-safe (SPF 50)", "why": "El sol de Antigua es fuerte todo el año y los resorts exigen cada vez más fórmulas reef-safe; caro en la isla." },
+    { "item": "Protección ligera de manga larga", "why": "Los alisios refrescan rápido en los días de catamarán y en Shirley Heights tras el atardecer." },
+    { "item": "Escarpines o sandalias robustas", "why": "Pillars of Hercules y Devil's Bridge implican trepar por caliza afilada." },
+    { "item": "Conjunto smart-casual para la cena", "why": "Curtain Bluff, Carlisle Bay y Jumby Bay siguen esperando camisa con cuello en la cena." },
+    { "item": "Máscara de snorkel de confianza", "why": "El equipo del resort es desigual y hará snorkel a diario en Cades Reef y Stingray City." },
+    { "item": "Repelente de mosquitos con DEET", "why": "Mosquitos al atardecer cerca de la vegetación; jejenes en las playas de la costa este a la hora dorada." }
+  ],
+  "guide": {
+    "getting": "V.C. Bird International (ANU) es el único aeropuerto. Vuelos directos desde Londres (BA, Virgin, ~8h30), Nueva York JFK (~4h), Miami (~4h30), Toronto (~5h). Reserve el traslado del resort con antelación: las tarifas de taxi están fijadas por zonas ($30-90).",
+    "where": "Hermitage Bay para aislamiento puro. Jumby Bay para el lujo de isla privada sin importar precio. Carlisle Bay para diseño contemporáneo en la costa sur. Curtain Bluff para el clásico de la vieja escuela. Galley Bay o Cocobay para Solo adultos descalzo a precio razonable.",
+    "when": "De mediados de enero a mediados de abril es la ventana alta. Mayo y la primera mitad de junio son el punto dulce del viajero astuto: los precios bajan un 25-35% y el clima sigue excelente. Finales de noviembre está igualmente infravalorado. Evite de agosto a mediados de octubre."
+  },
+  "localFood": "El pepperpot stew con ducana (croquetas dulces de boniato) y fungee (polenta de maíz y quingombó) es el plato nacional: pruébelo en Papa Zouk o Ana's on the Beach. Los conkies (paquetitos al vapor de maíz y coco) aparecen hacia noviembre. Busque la pequeña e intensamente dulce piña negra antiguana. Acompáñelo de una Wadadli, la cerveza local, o un ron punch Cavalier.",
+  "language": "Inglés"
+}

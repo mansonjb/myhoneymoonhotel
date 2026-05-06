@@ -1,0 +1,106 @@
+{
+  "tagline": "Glamour de Dubái, palacios de Abu Dabi y los retiros de desierto más extraordinarios del mundo.",
+  "intro": "Los Emiratos Árabes Unidos hacen el teatro de la luna de miel mejor que cualquier destino del planeta. ¿Dónde si no se puede hacer check-in en el Burj Al Arab con forma de vela y traslado en Rolls-Royce, cenar en 17 restaurantes del Atlantis The Royal (incluido el escenario de la apertura de Beyoncé), despertar con oryx árabes fuera de una suite de estilo beduino en la Reserva de Conservación del Desierto de Dubái y cerrar la semana en el esplendor de mármol de 114 cúpulas del Emirates Palace de Abu Dabi? Es lujo a una escala y un nivel de fantasía que hay que vivir para entender. Más allá del skyline, los EAU ofrecen también resorts de desierto genuinamente trascendentes —Al Maha, Qasr Al Sarab— donde las dunas frente a su villa con piscina se extienden hasta el horizonte.",
+  "bestTime": "Nov–Mar",
+  "flightFrom": "6-7h desde Europa",
+  "topExperience": "Lujo y desierto",
+  "perfectFor": [
+    "Parejas que quieren espectáculo, glamour y lujo cinematográfico al máximo",
+    "Gastrónomos: solo Dubái cuenta con decenas de restaurantes con estrella Michelin y chefs estrella mundiales",
+    "Aficionados a las compras: el Dubai Mall, el Mall of the Emirates y el Gold Souk son de talla mundial",
+    "Recién casados con el desierto en mente: los EAU tienen los resorts de duna más lujosos del mundo",
+    "Viajeros de proximidad desde Europa: 7h directo para auténtico sol de invierno"
+  ],
+  "skipIf": [
+    "Quiere autenticidad y cultura ancestral: los EAU son muy nuevos y construidos para el turismo",
+    "Su presupuesto es inferior a 400 USD/noche: hay gama media, pero las opciones dignas de luna de miel parten más arriba",
+    "Visita en julio-septiembre: 45 °C+ hace genuinamente peligrosa la actividad al aire libre",
+    "Le incomoda el lujo grandilocuente y ostentoso: Dubái, en especial, puede resultar teatral"
+  ],
+  "experiences": [
+    {
+      "icon": "🏝️",
+      "title": "Día privado de playa en el Burj Al Arab",
+      "description": "El icono con forma de vela no es solo un hotel: la piscina infinita y club de playa Terrace es la ubicación de luna de miel más fotografiada de los EAU. Un cóctel al ocaso en el Skyview Bar de la planta 27 cierra el set.",
+      "cost": "Acceso para no huéspedes a Terrace desde 200 USD/pareja; suite desde 2.000 USD",
+      "tip": "Reserve la Royal Suite si el presupuesto lo permite: tiene panes de oro de 24 quilates, cine privado y un mayordomo por cada 8 huéspedes. El Skyview Bar exige un mínimo de gasto de 200 USD: vale cada dírham."
+    },
+    {
+      "icon": "🏜️",
+      "title": "Paseo en camello al amanecer en Al Maha",
+      "description": "La Reserva de Conservación del Desierto de Dubái (225 km², protegida) es donde se cabalga un camello al alba, se desayuna en una duna y se ve a los oryx árabes pastando junto a su villa con piscina. Es la imagen del romance del desierto en su forma más pura.",
+      "cost": "Al Maha en pensión completa desde 1.400 USD/noche con 2 actividades de desierto/día",
+      "tip": "Reserve categoría Bedouin Suite o superior: las piscinas climatizadas son esenciales incluso en enero. El globo aerostático guiado al amanecer es la mejor actividad."
+    },
+    {
+      "icon": "🛶",
+      "title": "Paseo en abra por Madinat Jumeirah",
+      "description": "Madinat Jumeirah es una recreación fantástica de un zoco árabe sobre 3 km de canales sinuosos. Un paseo de 15 minutos en abra (barca tradicional de madera) entre restaurantes es la forma más romántica de llegar a cenar. El Burj Al Arab ilumina el horizonte.",
+      "cost": "Gratis para huéspedes de hoteles Jumeirah; paseos por 30 USD/pareja para los demás",
+      "tip": "Cene en Pierchic, restaurante de pescado al final de un muelle de madera, a 100 m mar adentro en el golfo Pérsico, con el Burj Al Arab brillando en rosa al ocaso."
+    },
+    {
+      "icon": "🏛️",
+      "title": "Gran Mezquita Sheikh Zayed, Abu Dabi",
+      "description": "Una de las mayores mezquitas del mundo: 82 cúpulas de mármol blanco, incrustaciones de piedras preciosas y la mayor alfombra anudada a mano del mundo (5.700 m²). Abierta a no musulmanes de forma gratuita.",
+      "cost": "Gratis",
+      "tip": "Vaya 90 minutos antes del ocaso y quédese para la vista iluminada tras el anochecer: es genuinamente sobrecogedora. Vestimenta modesta obligatoria; se prestan abayas a las mujeres sin ropa adecuada."
+    },
+    {
+      "icon": "🍽️",
+      "title": "Cena en Atlantis The Royal",
+      "description": "Los 17 restaurantes del Atlantis The Royal incluyen Ariana's Persian Kitchen, Nobu by the Beach, Gastronomy and Dinner by Heston Blumenthal, Gordon Ramsay Hell's Kitchen y Jaleo de José Andrés. Combine la cena con el espectáculo Skyblaze de las 19:00: una coreografía de fuego y fuentes sincronizada con 1.000 chorros.",
+      "cost": "Cena media para dos: 300-800 USD",
+      "tip": "Reserve Dinner by Heston para el menú degustación; pida mesa en terraza en invierno para ver el Skyblaze."
+    }
+  ],
+  "months": [
+    { "month": "Jan", "weather": "Días cálidos 24 °C, noches frescas", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Pico de temporada: tiempo perfecto" },
+    { "month": "Feb", "weather": "Cálido, sin lluvia, ideal", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Posiblemente el mejor mes" },
+    { "month": "Mar", "weather": "Templándose 28 °C, aún perfecto", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Excelente en todo" },
+    { "month": "Apr", "weather": "Caluroso 32 °C, aún agradable", "emoji": "☀️", "crowds": "Moderada", "price": "Medio", "verdict": "Buen valor; el desierto empieza a calentar" },
+    { "month": "May", "weather": "Muy caluroso 38 °C, humedad subiendo", "emoji": "🥵", "crowds": "Baja", "price": "Bajo", "verdict": "Solo de interior" },
+    { "month": "Jun", "weather": "Brutal 42 °C+ de calor", "emoji": "🥵", "crowds": "Baja", "price": "Bajo", "verdict": "Sáltelo salvo cazaofertas" },
+    { "month": "Jul", "weather": "Extremo 45 °C+ con humedad", "emoji": "🥵", "crowds": "Baja", "price": "Mínimo", "verdict": "Solo rebajas: vida en capullo de hotel" },
+    { "month": "Aug", "weather": "Continúa el calor extremo", "emoji": "🥵", "crowds": "Baja", "price": "Mínimo", "verdict": "Evítelo salvo obsesión por la piscina" },
+    { "month": "Sep", "weather": "Aún muy caluroso 40 °C", "emoji": "🥵", "crowds": "Baja", "price": "Bajo", "verdict": "Mejora a fin de mes" },
+    { "month": "Oct", "weather": "Suavizándose a 34 °C, comienza la temporada media", "emoji": "☀️", "crowds": "Moderada", "price": "Medio", "verdict": "Buenas ofertas de temporada media" },
+    { "month": "Nov", "weather": "Encantador 28 °C, condiciones ideales", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Perfecto: reserve con antelación" },
+    { "month": "Dec", "weather": "Fresco 25 °C, ambiente festivo", "emoji": "🎄", "crowds": "Máxima", "price": "Máximo", "verdict": "Prima de Navidad/Nochevieja: mágico pero caro" }
+  ],
+  "budgetTiers": [
+    { "label": "Hoteles urbanos de gama alta", "range": "300-700 USD/noche", "gets": "Excelentes 5★ con acceso a playa o centro comercial, alta cocina, base típica de lujo de Dubái.", "example": "Jumeirah Beach Hotel, Four Seasons DIFC, Mandarin Oriental Jumeira" },
+    { "label": "Lujo emblemático", "range": "700-2.000 USD/noche", "gets": "Propiedad icónica: Burj Al Arab, Atlantis The Royal o la isla privada Bulgari. Teatro auténtico.", "example": "Burj Al Arab, Bulgari Resort Dubai, Atlantis The Royal, Emirates Palace" },
+    { "label": "Desierto y villa privada", "range": "900-3.500 USD/noche", "gets": "Suite con piscina en una reserva de desierto o suite dúplex en el Burj Al Arab. Mayordomo de serie.", "example": "Al Maha Desert Resort, Anantara Qasr Al Sarab, suites del Burj Al Arab" }
+  ],
+  "areas": [
+    { "name": "Dubai Marina / JBR", "bestFor": "Playa, vida nocturna, gastronomía, compras", "description": "Barrio brillante de altos rascacielos frente al mar. Caminable, muchos restaurantes, playa directa. La mejor base para una primera visita que quiera la experiencia completa de Dubái." },
+    { "name": "Palm Jumeirah", "bestFor": "Dirección icónica, resorts de playa, lujo", "description": "La isla artificial con forma de palmera. Sede de Atlantis The Royal, One&Only The Palm y Waldorf Astoria. Depende del taxi, pero la dirección Palm lo merece." },
+    { "name": "Downtown Dubai", "bestFor": "Vistas al Burj Khalifa, Dubai Mall, compras", "description": "Centro del skyline: Burj Khalifa, Dubai Fountain y Dubai Mall a la puerta. Menos orientado a la playa; lo mejor para parejas con foco urbano." },
+    { "name": "Reserva de Conservación del Desierto de Dubái", "bestFor": "Experiencia de resort de desierto, fauna, recogimiento", "description": "A 45 minutos del aeropuerto de Dubái. Aquí están Al Maha (solo adultos) y Bab Al Shams. Oryx árabes pastando junto a su suite. Imprescindible si le seduce la idea del desierto." },
+    { "name": "Abu Dabi", "bestFor": "Resorts palaciegos, cultura, Louvre, F1", "description": "Capital más tranquila y madura, a 90 minutos al sur. Sede de Emirates Palace, Louvre Abu Dabi, las playas de Saadiyat y el ocio de Yas Island. Añada 2-3 noches después de Dubái." }
+  ],
+  "expertTips": [
+    { "tip": "Reserve traslado en helicóptero entre Dubái y Abu Dabi", "detail": "El traslado de 25 minutos con Falcon Aviation cuesta 800-1.200 USD frente a 90 minutos por carretera. La vista aérea de la Palm, el Burj y la isla Saadiyat es por sí misma un momento culminante de la luna de miel." },
+    { "tip": "Cene en horarios fuera de pico en restaurantes icónicos", "detail": "Nobu, Zuma y CÉ LA VI aceptan reservas de almuerzo que en cena tendrían semanas de espera. La franja de las 14:00 en Nobu Dubái es más tranquila e íntima que el ajetreo de las 20:00." },
+    { "tip": "Ramadán lo cambia todo: conozca las fechas", "detail": "Durante Ramadán (las fechas varían cada año), comer, beber y las muestras públicas de afecto se restringen para todos fuera de los hoteles. Los hoteles operan con normalidad. Verifique las fechas antes de reservar." },
+    { "tip": "La mayoría de hoteles cotiza sin impuestos: el coste real es +20%", "detail": "Los hoteles en EAU añaden 10% de tasa municipal + 10% de servicio + 5% de IVA al precio cotizado. El Burj Al Arab «desde 2.000 USD» son en realidad 2.400 USD. Téngalo en cuenta al presupuestar." },
+    { "tip": "El brunch del viernes es una institución en EAU", "detail": "Los brunches de hotel del viernes/sábado son un festín de 4 horas con champán libre. Bubbalicious en Westin, Saffron en Atlantis y el brunch de Al Qasr son icónicos. Reserve con 2 semanas de antelación." }
+  ],
+  "packing": [
+    { "item": "Vestimenta smart-casual de noche", "why": "La escena gastronómica de Dubái va arreglada: americana para él, vestido para ella en la mayoría de restaurantes emblemáticos. Pantalón corto y camiseta no entran en el Skyview Bar." },
+    { "item": "Cubierta modesta para el día", "why": "En centros comerciales, zocos y fuera de las piscinas del hotel se deben cubrir hombros y rodillas. La ropa de resort solo en el resort." },
+    { "item": "Protector solar de SPF 50+", "why": "El sol del Golfo es brutal incluso en enero. Reaplique cada 2 horas en la piscina." },
+    { "item": "Pañuelo o pashmina ligero", "why": "El aire acondicionado interior es agresivo: restaurantes y centros comerciales suelen estar a 18 °C. También cubre los hombros en mezquitas." },
+    { "item": "Tarjeta Nol del metro", "why": "El metro de Dubái es rápido, climatizado y barato. Una Nol sirve para metro, tranvía, autobús y algunos ferris. Cómprela en la estación de metro del aeropuerto a la llegada." }
+  ],
+  "guide": {
+    "getting": "Vuele directo a Dubái (DXB) con Emirates, Etihad (a AUH), flydubai o British Airways. Desde Londres: 7h directo. Desde Nueva York: 12-13h directo en Emirates. Desde Sídney: 14h con Emirates/Qantas. El aeropuerto de Dubái está a 20 min de Downtown y 40 de Marina. Etihad a Abu Dabi (AUH) está a 90 min por carretera de Dubái y a menudo es mucho más barato. Traslados intra-EAU: coche con chófer 120-200 USD o el traslado gratuito a Abu Dabi al alojarse en Emirates Palace.",
+    "where": "Luna de miel clásica: 3 noches en Dubái (Bulgari, Burj Al Arab o Atlantis) → 2 noches en la Reserva de Conservación del Desierto de Dubái (Al Maha) → 2 noches en Abu Dabi (Emirates Palace o Qasr Al Sarab). Si va justo de tiempo: 4 noches en Dubái + 2 en el desierto basta para una primera visita espectacular.",
+    "when": "Noviembre-marzo es la única ventana cómoda al aire libre. Diciembre-febrero es pico y más cara; noviembre y marzo son igualmente agradables y notablemente más baratos. Abril-octubre supera los 36 °C y muchas actividades exteriores (dunas, playa) son incómodas o peligrosas. Navidad/Nochevieja en Dubái lleva una prima del 40-80%, pero ofrece fuegos artificiales espectaculares en Burj Khalifa y la Palm."
+  },
+  "localFood": "Al Harees (trigo y carne cocinados lentamente, plato tradicional de Ramadán); Luqaimat (bolitas de masa fritas con sirope de dátil, postre nacional); hamburguesa de camello en Seven Sands en Dubái; Karak chai (té con leche y cardamomo, mejor en Al Safadi); brunch del viernes en Bubbalicious o Saffron; cocina persa-árabe en Ariana's Persian Kitchen, en Atlantis. Dubái es además la capital mundial de la gastronomía no emiratí: ramen, tacos, bistró parisino, sushi, pizza napolitana o cocina peruana, todo al mismo nivel de destino.",
+  "currency": "UAE Dirham (AED) — pegged to USD at 3.67. Cards accepted everywhere.",
+  "language": "El árabe es oficial; el inglés es universal. Cartas, señalética y personal de hotel usan inglés por defecto.",
+  "timezone": "UTC+4 (Gulf Standard Time)"
+}

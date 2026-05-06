@@ -1,0 +1,105 @@
+{
+  "tagline": "Lagunas turquesas infinitas y un servicio cinco estrellas impecable: la isla más pulida del océano Índico para una luna de miel.",
+  "intro": "Mauricio es donde la elegancia francesa, la calidez india y el alma criolla convergen en una isla rodeada por algunas de las lagunas de coral más perfectas del mundo. A diferencia de las Maldivas —una burbuja de resorts aislada de cualquier cultura real—, Mauricio le ofrece ambas cosas: aguas turquesas dignas de villa sobre el agua Y mercados de especias, destilerías de ron, montañas UNESCO y una escena gastronómica que fusiona cuatro cocinas en algo extraordinario. El corredor de Belle Mare, en la costa este, posee la laguna más cristalina y plana del Índico. Le Morne, en el suroeste, aporta el drama paisajístico. Combinado con la conexión a un safari africano, Mauricio se sitúa en lo más alto de la jerarquía de lunas de miel del Índico.",
+  "bestTime": "May–Dic",
+  "flightFrom": "11–13h desde Europa",
+  "topExperience": "Lujo de playa con laguna",
+  "perfectFor": [
+    "Parejas que quieren agua de calidad maldiva con verdadera cultura y profundidad culinaria",
+    "Amantes de la playa que también desean explorar: tierras altas, mercados, destilerías de ron",
+    "Lunamieleros que combinan un safari en África (la escala perfecta del Índico)",
+    "Foodies atraídos por la fusión indo-criolla-china-francesa",
+    "Kitesurfistas y submarinistas que quieren condiciones de talla mundial junto a resorts de lujo"
+  ],
+  "skipIf": [
+    "Viaja entre enero y marzo: la temporada de ciclones es real y puede arruinar el viaje",
+    "Quiere aislamiento salvaje absoluto: Mauricio es una isla desarrollada con carreteras y ciudades",
+    "Los bungalós sobre el agua son innegociables: aquí las villas con laguna están en la playa, no sobre el agua",
+    "Su presupuesto es muy ajustado: los mejores resorts cobran tarifas al nivel de Maldivas"
+  ],
+  "experiences": [
+    {
+      "icon": "🐬",
+      "title": "Nado con delfines salvajes en Tamarin Bay",
+      "description": "Las manadas de delfines tornillo se reúnen en Tamarin Bay cada mañana antes de salir mar adentro a alimentarse. Pequeñas embarcaciones locales le llevan a nadar junto a ellos en mar abierto, completamente salvajes, sin guion. Uno de los encuentros con fauna más conmovedores accesibles desde cualquier hotel del Índico.",
+      "cost": "$50–$80 por persona",
+      "tip": "Reserve directamente con los barcos del Captain Blacky u operadores pequeños similares de Tamarin, no a través del hotel. Los hoteles cobran 150-200 € por la misma experiencia. Salga a las 7:00 para la mayor densidad de delfines."
+    },
+    {
+      "icon": "🚁",
+      "title": "Vuelo en helicóptero sobre la cascada submarina",
+      "description": "Una corriente de arena y limo desde la plataforma de Le Morne Brabant crea la ilusión óptica de una cascada submarina visible solo desde arriba. La vista aérea sobre la península de Le Morne, con la laguna a ambos lados y la ilusión debajo, es uno de los grandes espectáculos naturales del Índico.",
+      "cost": "150-250 € por persona",
+      "tip": "Los vuelos en ULM son más baratos y vuelan más bajo: mejor para el efecto visual. Reserve a través de su hotel para los operadores más seguros y mejor posicionados."
+    },
+    {
+      "icon": "🏄",
+      "title": "Kitesurf en Le Morne",
+      "description": "La laguna de Le Morne, en el extremo suroeste de la isla, es la capital del kitesurf del Índico: alisios constantes, agua plana y cálida, y una montaña UNESCO como telón de fondo. Incluso los principiantes absolutos pueden despegar en dos días con las escuelas de Kite Lagoon.",
+      "cost": "80-120 € por clase",
+      "tip": "De junio a septiembre se dan los vientos más fuertes y constantes. Las escuelas certificadas IKO de Le Morne se cuentan entre las más profesionales del mundo."
+    },
+    {
+      "icon": "🌿",
+      "title": "Visita a la plantación de té Bois Chéri",
+      "description": "Mauricio produce excelentes tés monovarietales de sus plantaciones de altura. La fábrica de Bois Chéri, en el sur, ofrece visitas guiadas por el proceso de elaboración seguidas de una cata en una terraza con vistas a la costa sur.",
+      "cost": "15-25 € por persona",
+      "tip": "Combínelo con la Rhumerie de Chamarel, cercana: ambas están en las tierras altas del sur y conforman una excursión perfecta de día completo."
+    },
+    {
+      "icon": "🤿",
+      "title": "Buceo en el Parque Marino de Blue Bay",
+      "description": "El parque marino de Blue Bay, en el sureste, alberga algunos de los corales más protegidos del Índico: cuernos de ciervo ramificados, enormes corales cerebro y una visibilidad que supera con frecuencia los 25 m. El pecio del Stella Maris, a 18 m, está cubierto de coral blando y rodeado de tortugas y barracudas.",
+      "cost": "60-100 € por persona (2 inmersiones)",
+      "tip": "Dive Attitude, en Mahébourg, es el mejor operador. Blue Bay está en la costa sureste: mejor acceso desde Le Touessrok, Heritage Awali o Heritage Le Telfair."
+    }
+  ],
+  "months": [
+    { "month": "Jan", "weather": "Caluroso, húmedo, riesgo de ciclones", "emoji": "⚠️", "crowds": "Moderada", "price": "Medio-alto", "verdict": "Temporada de ciclones: contrate seguro completo" },
+    { "month": "Feb", "weather": "Pico de ciclones, lluvias intensas posibles", "emoji": "🌀", "crowds": "Baja", "price": "Bajo", "verdict": "Mes de mayor riesgo: considere posponer" },
+    { "month": "Mar", "weather": "Riesgo de ciclones cediendo, aún húmedo", "emoji": "🌦", "crowds": "Baja", "price": "Bajo-medio", "verdict": "Mejorando, pero aún arriesgado" },
+    { "month": "Apr", "weather": "Transición, cálido, menos lluvia", "emoji": "🌤", "crowds": "Moderada", "price": "Medio", "verdict": "Buena relación calidad-precio en temporada media" },
+    { "month": "May", "weather": "Comienza la temporada seca, 24°C", "emoji": "☀️", "crowds": "Moderada", "price": "Medio", "verdict": "Excelente: se abre la temporada seca" },
+    { "month": "Jun", "weather": "Seco, 22°C, alisios en aumento", "emoji": "☀️", "crowds": "Moderada", "price": "Medio", "verdict": "Muy buenas condiciones" },
+    { "month": "Jul", "weather": "Seco, mes más fresco (20°C), brisa", "emoji": "💨", "crowds": "Alta", "price": "Medio-alto", "verdict": "Pico europeo: reserve con antelación" },
+    { "month": "Aug", "weather": "Seco, ventoso, kitesurf perfecto", "emoji": "💨", "crowds": "Alta", "price": "Alto", "verdict": "Concurrido pero bellísimo" },
+    { "month": "Sep", "weather": "Templándose, seco, excelente visibilidad", "emoji": "☀️", "crowds": "Moderada", "price": "Medio", "verdict": "Mes ideal" },
+    { "month": "Oct", "weather": "Cálido, muy seco, mejores condiciones de laguna", "emoji": "☀️", "crowds": "Moderada", "price": "Medio-alto", "verdict": "El mejor mes oculto" },
+    { "month": "Nov", "weather": "Caluroso, seco, temporada en construcción", "emoji": "☀️", "crowds": "Moderada", "price": "Medio-alto", "verdict": "Calidad máxima previa a los ciclones" },
+    { "month": "Dec", "weather": "Caluroso, festivo, vuelve el riesgo de ciclones", "emoji": "🌤", "crowds": "Alta", "price": "Muy alto", "verdict": "Excelente, pero vigile el parte" }
+  ],
+  "budgetTiers": [
+    { "label": "Lujo", "range": "$400–$800/noche", "gets": "Resort frente al mar con playa privada, varias piscinas, spa, deportes acuáticos. Mauricio ofrece una relación calidad-precio excepcional en este nivel, mejor que la comparativa con Maldivas.", "example": "Constance Prince Maurice, Shangri-La Mauritius, Veranda Paul & Virginie" },
+    { "label": "Premium", "range": "$800–$2,000/noche", "gets": "Villa privada con piscina o suite, servicio de mayordomo, spa de talla mundial, opciones de todo incluido. La mejor experiencia de playa del Índico fuera de las islas privadas.", "example": "One&Only Le Saint Géran, Four Seasons Mauritius at Anahita, Oberoi Mauritius" },
+    { "label": "Ultra-lujo", "range": "$2,000+/noche", "gets": "Posibilidad de privatizar el resort, villas privadas en la playa, chef personal, traslados en helicóptero. La cumbre absoluta del lujo terrestre del Índico.", "example": "Lux* Grand Gaube villas privadas, suites presidenciales de Shanti Maurice" }
+  ],
+  "areas": [
+    { "name": "Costa Este (Belle Mare / Trou d'Eau Douce)", "bestFor": "La mejor laguna, mayor concentración de resorts", "description": "El agua más plana y cristalina de Mauricio, protegida de los alisios por el arrecife oriental. Four Seasons, One&Only Le Saint Géran y Constance Prince Maurice se encuentran en este tramo de 15 km. La elección obvia para lunamieleros centrados en la playa." },
+    { "name": "Norte (Grand Baie)", "bestFor": "Restaurantes, excursiones, ambiente más animado", "description": "La zona más desarrollada con la mejor variedad de restaurantes, boutiques y fácil acceso a islotes de aguas planas para snorkel (Île aux Cerfs, Gunner's Quoin). Menos íntima que el este pero mejor para parejas que buscan variedad de actividades." },
+    { "name": "Sur (Le Morne / Bel Ombre)", "bestFor": "Paisaje dramático, kitesurf, patrimonio UNESCO", "description": "La montaña Le Morne Brabant, declarada Patrimonio UNESCO, ofrece el telón de fondo más dramático de la isla. Los alisios fuertes la convierten en la capital del kitesurf del Índico. Aquí se encuentran Lux Le Morne y los hoteles Heritage. Vistas aéreas extraordinarias sobre ambos lados de la península." },
+    { "name": "Oeste (Flic en Flac)", "bestFor": "Atardecer en la playa, buceo, vida local", "description": "La costa oeste capta los mejores atardeceres y dispone del buceo de arrecife más accesible. Una franja hotelera menos prestigiosa que la del este, pero con auténticos pueblos mauricianos, restaurantes locales y precios que rebajan los del corredor de Belle Mare." }
+  ],
+  "expertTips": [
+    { "tip": "La costa este para la mejor laguna; el suroeste para el paisaje más dramático", "detail": "La costa este (corredor de Belle Mare) ofrece aguas más calmas y cristalinas y la mejor concentración de resorts. El suroeste (Le Morne) ofrece un paisaje montañoso más dramático y las mejores condiciones de kitesurf. Decida qué le importa más antes de reservar." },
+    { "tip": "Alquile un coche al menos un día: la isla recompensa la exploración", "detail": "Mauricio es lo bastante pequeño para cruzarlo en 90 minutos. Las tierras altas de Chamarel (destilería de ron, las Tierras de los Siete Colores, la plantación de té), el Mercado Central de Port Louis y el Parque Nacional de Black River Gorges están al alcance de cualquier hotel." },
+    { "tip": "El Mercado Central de Port Louis merece el viaje", "detail": "El mercado principal de la capital es uno de los mejores del Índico: especias, comida callejera, pescado fresco y textiles mauricianos. Vaya un sábado por la mañana y coma un dholl puri en los puestos de fuera. Combínelo con un paseo por el Caudan Waterfront." },
+    { "tip": "Reserve el nado con delfines directamente con operadores locales", "detail": "Los hoteles cobran 150-200 € por pareja por el nado con delfines en Tamarin Bay. Captain Blacky y los operadores locales de Tamarin cobran 50-80 $ por pareja por una experiencia idéntica (a menudo mejor). Los delfines son salvajes: ningún operador puede garantizarlos, sea cual sea el precio." },
+    { "tip": "Mauricio se come como ninguna otra isla del Índico", "detail": "La fusión indo-criolla-china-francesa hace que cada comida sea un descubrimiento. Coma en mesas criollas locales (table d'hôte) al menos dos veces, pruebe el dholl puri de un puesto de carretera y beba ron agrícola de Chamarel: es mejor que la mayoría de sus equivalentes caribeños." }
+  ],
+  "packing": [
+    { "item": "Protector solar respetuoso con el arrecife", "why": "El parque marino de Blue Bay y otras zonas protegidas restringen los protectores químicos: lleve SPF mineral" },
+    { "item": "Calzado de senderismo ligero", "why": "La cima de Le Morne Brabant y los senderos de Black River Gorges requieren calzado adecuado: las sandalias no servirán" },
+    { "item": "Capa cortavientos", "why": "Los alisios en Le Morne y la brisa marina nocturna en el este son más frescos de lo previsto, sobre todo de junio a agosto" },
+    { "item": "Cámara subacuática", "why": "Los jardines de coral de Blue Bay y el pecio del Stella Maris justifican una fotografía subacuática seria: la visibilidad es excepcional" },
+    { "item": "Efectivo en rupias mauricianas", "why": "Los restaurantes locales, los puestos de dholl puri, los mercados y los autobuses requieren efectivo. Los hoteles aceptan tarjeta, pero la verdadera experiencia mauriciana exige rupias." }
+  ],
+  "guide": {
+    "getting": "Vuele al aeropuerto internacional Sir Seewoosagur Ramgoolam (MRU), en la costa sureste. Vuelos directos desde Londres Heathrow (British Airways, Air Mauritius, ~11-12h), París CDG (Air Mauritius, ~11h), Frankfurt, Zúrich y Ámsterdam. Desde MRU, la costa este queda a 30-45 minutos, el norte a 45 minutos y la zona suroeste de Le Morne a 1 hora. Todos los hoteles organizan traslados privados.",
+    "where": "Costa este (corredor de Belle Mare) para la mejor laguna y los resorts más finos: la opción favorita para lunas de miel. Suroeste (Le Morne) para paisaje montañoso dramático y kitesurf. Norte (Grand Baie) para el ambiente más animado con variedad de restaurantes. Oeste (Flic en Flac) para atardeceres, buceo y mejor relación calidad-precio.",
+    "when": "De mayo a diciembre es la temporada seca: la ventana segura. Octubre y noviembre son el punto dulce absoluto: cálido, seco, excelente visibilidad, antes de la temporada de ciclones y a menor precio que el pico de enero. Evite enero-marzo salvo que tenga seguro completo de cancelación por ciclón."
+  },
+  "localFood": "Dholl puri (pan plano de garbanzos partidos con curri) de los puestos de carretera, rougaille (estofado criollo de tomate con pescado o salchicha), curri de pulpo con cúrcuma y jengibre, alouda (leche de rosas con semillas de albahaca) y gateaux piment (buñuelos de chile) recién hechos con una cerveza Star en un chiringuito de Grand Baie. La fusión de cocinas india, criolla, china y francesa convierte la gastronomía mauriciana en algo singularmente extraordinario.",
+  "currency": "Mauritian Rupee (MUR); los hoteles cotizan en EUR/USD",
+  "language": "Francés e inglés (ambos oficiales)",
+  "timezone": "UTC+4"
+}

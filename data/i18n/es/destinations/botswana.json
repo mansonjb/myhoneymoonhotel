@@ -1,0 +1,74 @@
+{
+  "tagline": "La última gran naturaleza salvaje del mundo: Okavango, Kalahari y los campamentos de safari más exclusivos del continente.",
+  "intro": "Botsuana es el destino africano definitivo para una luna de miel, y por mucho. El delta del Okavango es el único delta interior del planeta (un río que nunca alcanza el mar y se abre en 15.000 km² de canales, llanuras inundables e islas orladas de palmeras), y la política de bajo volumen y alto coste de Botsuana hace que apenas comparta el lugar con nadie. Los campamentos —Mombo, Jao, Zarafa, Duba Plains— operan a un nivel completamente superior al del resto de África: campamentos para 6 huéspedes en concesiones privadas donde los Cinco Grandes le encuentran a usted (no al revés), villas con piscina y bañera de cobre suspendidas sobre las llanuras inundables y mesas con chef que rivalizan con cualquier estrella Michelin. Añada las salinas de Makgadikgadi, las manadas de elefantes de Chobe y el Kalahari Central para la experiencia ultra-lujo completa de naturaleza salvaje.",
+  "bestTime": "May–Oct (estación seca)",
+  "flightFrom": "11–13h desde Europa (vía JNB)",
+  "topExperience": "Safari ultra premium",
+  "perfectFor": [
+    "Parejas en su safari de luna de miel definitivo: lujo sin restricciones",
+    "Viajeros obsesionados con la fotografía: los canales del delta a la hora dorada no tienen rival",
+    "Románticos off-grid: estos campamentos no admiten niños menores de 8 años, sin cobertura móvil ni Wi-Fi en las tiendas",
+    "Cazadores (con cámara) de los Cinco Grandes: la densidad de depredadores es la más alta de África",
+    "Quienes buscan la exclusividad de las concesiones privadas: típicamente 50.000 hectáreas para 24 huéspedes"
+  ],
+  "skipIf": [
+    "Su presupuesto es inferior a $1,000/persona/noche: Botsuana empieza donde terminan Kenia y Sudáfrica",
+    "Quiere playa en el mismo viaje: esto es África Austral sin litoral",
+    "Necesita Wi-Fi constante: la mayoría de los campamentos están genuinamente desconectados",
+    "No le gustan los aviones pequeños: los traslados entre campamentos son en Cessna de 12 plazas"
+  ],
+  "experiences": [
+    { "icon": "🛶", "title": "Mokoro al amanecer en el Okavango", "description": "Un mokoro es una canoa monóxila tradicional, hoy de fibra de vidrio por conservación, impulsada con pértiga por un guía local entre canales bordeados de papiros. Un paseo en mokoro a las 6 de la mañana en Jao o Sandibe, viendo despertar el delta (un lechwe rojo saltando, una rana pintada del junco, una jacana sobre su nenúfar), es el momento firma de la luna de miel en el Okavango.", "cost": "Incluido en todos los campamentos del delta", "tip": "Pida el circuito de mokoro más largo disponible: 3 horas hasta una isla para almorzar, picnic en la canoa, 3 horas de regreso. Solo ciertos campamentos (Jao, Vumbura, Chitabe) lo ofrecen." },
+    { "icon": "🚁", "title": "Safari en helicóptero desde Eagle Island", "description": "El safari en helicóptero del Belmond Eagle Island Lodge es único en Botsuana: despegue desde la pista privada del campamento, retire las puertas y fotografíe manadas de elefantes, lechwes y el laberinto de canales del delta desde 200 m. Un vuelo de 45 minutos es la mejor experiencia aérea de fauna en África.", "cost": "$650/persona en helicóptero compartido; $3,500 chárter privado", "tip": "Vaya al final de la tarde por la luz dorada sobre el agua: aspecto de camellos en el desierto pero con depredadores africanos." },
+    { "icon": "🦁", "title": "Recorrido nocturno en concesión privada", "description": "Los parques nacionales de Botsuana no permiten safaris nocturnos, pero las concesiones privadas (Selinda, Khwai Private, Kwando) sí. Una salida a las 19:00 con foco de filtro rojo revela cacerías de leopardo, oricteropos buscando comida y civetas africanas: animales invisibles a la luz del día.", "cost": "Incluido en campamentos de concesiones", "tip": "Reserve un campamento como Tuludi (Khwai Private), Zarafa (Selinda) o Duba Plains (Great Plains) específicamente para esto. Los campamentos en tierras públicas no pueden ofrecerlo." },
+    { "icon": "🐘", "title": "Sundowner con elefantes en Chobe", "description": "El Parque Nacional de Chobe alberga 120.000 elefantes: la mayor concentración del planeta. Un crucero al final de la tarde por el río Chobe permite ver manadas de más de 200 elefantes cruzando de Namibia a Botsuana para su bebida vespertina. Sundowner con gin-tonic en cubierta, elefantes salpicando a 30 m.", "cost": "$80–$180 por persona en barco compartido al atardecer", "tip": "Quédese una noche en Chobe Chilwero o Muchenje tras el delta: la densidad es de otro mundo." },
+    { "icon": "⭐", "title": "Astronomía en el Kalahari Central", "description": "La Reserva de Caza del Kalahari Central (52.800 km²) es uno de los cielos más oscuros del planeta. Dormir bajo la Vía Láctea en Kalahari Plains Camp, con la Osa Mayor sobre la cabeza y la Cruz del Sur en el horizonte, es genuinamente trascendente.", "cost": "Plataforma de sleep-out incluida en muchos campamentos del Kalahari", "tip": "Vaya en agosto o septiembre por los cielos más oscuros y mejores constelaciones. Un guía local le indicará los nombres bosquimanos San de las estrellas." }
+  ],
+  "months": [
+    { "month": "Jan", "weather": "Estación lluviosa caliente, verde exuberante", "emoji": "🌧", "crowds": "Baja", "price": "Bajo", "verdict": "Muchos campamentos cierran; fauna más difícil de avistar" },
+    { "month": "Feb", "weather": "Lluvias continuas, cielos dramáticos", "emoji": "🌧", "crowds": "Baja", "price": "Bajo", "verdict": "Temporada de partos: ideal para crías" },
+    { "month": "Mar", "weather": "Lluvias menguando, todo verde", "emoji": "🌦", "crowds": "Baja", "price": "Bajo", "verdict": "Transición: buena relación calidad-precio, fotografía de temporada verde" },
+    { "month": "Apr", "weather": "Comienza la estación seca, llega la inundación", "emoji": "☀️", "crowds": "Moderada", "price": "Medio", "verdict": "El delta empieza a inundarse: el momento es crucial" },
+    { "month": "May", "weather": "Fresco, seco, inundación en su pico", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Niveles de agua perfectos en el delta, menos mosquitos" },
+    { "month": "Jun", "weather": "Días frescos y secos, noches frías 5°C", "emoji": "❄️", "crowds": "Alta", "price": "Alto", "verdict": "Excelente avistamiento de fauna; lleve capas de abrigo" },
+    { "month": "Jul", "weather": "Noches frías nítidas, días soleados", "emoji": "❄️", "crowds": "Máxima", "price": "Máximo", "verdict": "Comienza la temporada alta: reserve con un año de antelación" },
+    { "month": "Aug", "weather": "Seco, templándose, fauna se concentra", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Mes safari clásico: fauna legendaria" },
+    { "month": "Sep", "weather": "Días calurosos, animales junto al agua", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "El mejor avistamiento del año: reserve pronto" },
+    { "month": "Oct", "weather": "Muy caluroso 35°C+, fauna intensa", "emoji": "🥵", "crowds": "Alta", "price": "Alto", "verdict": "Calor brutal pero avistamientos increíbles" },
+    { "month": "Nov", "weather": "Primeras lluvias, vuelve el verde", "emoji": "🌦", "crowds": "Baja", "price": "Medio", "verdict": "Transición: bajada de precios, transformación esmeralda" },
+    { "month": "Dec", "weather": "Lluvioso, crías, aves migratorias", "emoji": "🌧", "crowds": "Baja", "price": "Bajo-medio", "verdict": "Temporada verde, salvo recargo navideño" }
+  ],
+  "budgetTiers": [
+    { "label": "Lujo de safari de entrada", "range": "$800–$1,500/persona/noche", "gets": "Excelente campamento de tiendas en concesión pública o semi-privada. Pensión completa, safaris, traslados, bebidas.", "example": "Machaba Camp, Khwai Bush Camp, Camp Moremi" },
+    { "label": "Concesión privada premium", "range": "$1,500–$3,000/persona/noche", "gets": "Campamento estrella en tierras exclusivas. Safaris nocturnos, conducción off-road, opciones de helicóptero.", "example": "Sandibe, Eagle Island, Vumbura, Tuludi, Xigera" },
+    { "label": "Icono ultra-premium", "range": "$2,500–$5,500/persona/noche", "gets": "Nombres legendarios: Mombo, Jao, Zarafa, Duba Plains. 6–10 huéspedes por campamento, guía dedicado, vehículo privado, conserjería.", "example": "Mombo Camp, Jao Camp, Zarafa Camp, Duba Plains Camp" }
+  ],
+  "areas": [
+    { "name": "Delta del Okavango — Moremi y Chief's Island", "bestFor": "Delta clásico, Cinco Grandes, Mombo Camp", "description": "El corazón faunístico del delta. La Reserva de Caza de Moremi y las concesiones Mombo/Chitabe albergan la mayor densidad de depredadores de África. 3 noches mínimo; 4 es mejor." },
+    { "name": "Delta del Okavango — Norte / Vumbura / Jao", "bestFor": "Safari acuático, mokoro, campamentos remotos estrella", "description": "La zona norte de aguas permanentes. Aquí están Vumbura, Jao y Duba Plains. El agua todo el año permite mokoros, paseos en barca y la banda sonora de las águilas pescadoras incluso en estación seca." },
+    { "name": "Selinda y Linyanti", "bestFor": "Safaris nocturnos, elefantes, Zarafa", "description": "Entre el delta y Chobe. Great Plains Conservation opera aquí Zarafa, Duba Plains y Selinda Camp. Excelente acción de depredadores y grandes manadas de elefantes. Combine con Chobe." },
+    { "name": "Parque Nacional de Chobe", "bestFor": "Espectáculo de elefantes, cruceros fluviales, primer/último día", "description": "La mayor población de elefantes del mundo. Acceso por el aeropuerto de Kasane (vuelos directos desde Johannesburgo). Típicamente 1–2 noches como apertura o cierre del viaje al delta." },
+    { "name": "Salinas de Makgadikgadi", "bestFor": "Paisaje de otro mundo, quad, suricatas", "description": "El mayor sistema de salinas del planeta, visible desde el espacio. Hospédese en Jack's Camp o San Camp: lujo safari vintage con noches al raso sobre las salinas y colonias de suricatas habituadas." }
+  ],
+  "expertTips": [
+    { "tip": "Use un operador de safari especialista", "detail": "No reserve Botsuana por libre: la logística de vuelos entre campamentos, la coordinación dietética y el balance de tipos de campamento exigen expertise. Operadores como Wilderness, Great Plains y Natural Selection venden vía agentes especialistas (Africa Odyssey, Extraordinary Journeys). Calcule $25–40k por una luna de miel de 10 días en pareja, todo incluido." },
+    { "tip": "Dos campamentos contrastantes, no cuatro similares", "detail": "La tentación es reservar 4 noches en cada uno de 3 campamentos. Mejor: 4 noches en un campamento de agua del delta (Jao, Vumbura) + 3 noches en uno de tierra firme y depredadores (Mombo, Duba Plains). No visite 3 campamentos similares de delta acuático: rendimientos decrecientes." },
+    { "tip": "Solo equipaje blando", "detail": "Los traslados en avioneta tienen un límite estricto de 20 kg (44 lb) en bolsa blanda por persona, incluido el equipo fotográfico. Las maletas rígidas están prohibidas. La lavandería está incluida en todos los campamentos: lleve la mitad de lo que crea necesitar." },
+    { "tip": "Las propinas son significativas", "detail": "Calcule $30–$40 por pareja al día para guía y rastreador, más $20/día para el fondo común del personal. Para un viaje de 7 noches, calcule $500–$800 en USD en efectivo. Los campamentos no le harán la propina." },
+    { "tip": "La profilaxis antimalaria es obligatoria todo el año", "detail": "Botsuana es zona de malaria. Tome Malarone (atovaquona-proguanil) o doxiciclina durante el viaje y 7 días después. Zika y fiebre amarilla no son preocupaciones. Solo se exige vacuna si llega desde un país con fiebre amarilla." }
+  ],
+  "packing": [
+    { "item": "Bolsa de viaje blanda (máx. 20 kg total)", "why": "Los aviones pequeños tienen límites estrictos. Las Samsonites se rechazan en la pista." },
+    { "item": "Ropa de safari neutra (caqui, oliva, piedra)", "why": "Evite blanco (imán de polvo), azul y negro (atraen tsetsé) y camuflaje (reservado a militares en algunos países africanos)." },
+    { "item": "Forro polar y gorro para invierno", "why": "Las mañanas de mayo a agosto pueden ser de 5°C. El safari a las 6 de la mañana en un Land Cruiser abierto es genuinamente frío." },
+    { "item": "Prismáticos (8×42 mínimo)", "why": "Los guías solo tienen un par de repuesto. Lamentará no llevar los suyos en la primera hora." },
+    { "item": "Linterna frontal y pilas de repuesto", "why": "Para caminar entre la tienda y el comedor por la noche. La mayoría de campamentos proporciona una, pero la suya es esencial." }
+  ],
+  "guide": {
+    "getting": "Vuele a Johannesburgo (JNB) con SAA, BA, Delta, Virgin o Lufthansa (11h desde Londres, 16h desde NYC, 11h desde Frankfurt). Conecte con Airlink a Maun (MUB) o Kasane (BBK): ambos a ~1h 30m desde Johannesburgo, 3 vuelos diarios. Desde Maun, la avioneta de su primer campamento (Mack Air, Moremi Air, Wilderness Air) le traslada a la pista en un Cessna de 6–12 plazas. Total puerta a puerta desde Londres ~18h.",
+    "where": "Luna de miel clásica de 7 noches: 3 noches en campamento acuático del delta (Jao, Vumbura, Sandibe) → 3 noches en campamento de tierra firme del delta/Moremi (Mombo, Chitabe, Xigera) → 1 noche en Kasane/Chobe si extiende a las cataratas Victoria. Versión de 10 noches añade Great Plains (Zarafa o Duba Plains). Añada las cataratas Victoria (lado Zimbabue, Royal Livingstone) como extensión de 2 noches al inicio o al final si hay apetito.",
+    "when": "Julio–octubre es la estación seca pico: mejor avistamiento (los animales se concentran en las pocas aguas restantes), mañanas claras, noches frías. Mayo–junio es el punto dulce: la inundación está en su pico en el delta, las noches son frescas, los precios un 20% por debajo del pico de julio. Noviembre–abril es estación verde: cielos dramáticos, crías, algunos campamentos cerrados, avistamiento más difícil pero un 40–60% más barato. Evite febrero en la mayoría de los campamentos."
+  },
+  "localFood": "Seswaa (ternera salada y machacada, plato nacional de Botsuana, a menudo servido en el desayuno en el bush); bogobe (papilla de sorgo); caza salvaje donde sea legal (filete de kudú, carpaccio de impala, salchichas de facóquero); brema fresca del Okavango; vinos sudafricanos (Stellenbosch y Franschhoek están a 2 horas de vuelo y figuran en todas las cartas); G&T al atardecer con tónica casera y ginebra local (Boatswain's Gin de Gaborone); menús degustación con chef en Mombo, Jao y Zarafa que merecerían estrellas Michelin en Europa. Los chefs de campamento son genuinamente excelentes: cuente con almuerzos de 4 platos y cenas de 6 en plena sabana.",
+  "language": "El inglés es oficial y universal; el setswana es la lengua materna de la mayoría de los batsuanos."
+}
