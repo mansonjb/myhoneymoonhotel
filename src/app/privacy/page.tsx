@@ -1,8 +1,10 @@
 import type { Metadata } from 'next'
+import { buildAlternates } from '@/lib/alternates'
 
 export const metadata: Metadata = {
   title: 'Privacy Policy',
   description: 'How myhoneymoonhotel.com collects, uses, and protects your data.',
+  alternates: buildAlternates('/privacy'),
 }
 
 export default function PrivacyPage() {

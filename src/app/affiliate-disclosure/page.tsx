@@ -1,8 +1,10 @@
 import type { Metadata } from 'next'
+import { buildAlternates } from '@/lib/alternates'
 
 export const metadata: Metadata = {
   title: 'Affiliate Disclosure',
   description: 'How myhoneymoonhotel.com earns revenue through affiliate partnerships.',
+  alternates: buildAlternates('/affiliate-disclosure'),
 }
 
 export default function AffiliateDisclosurePage() {

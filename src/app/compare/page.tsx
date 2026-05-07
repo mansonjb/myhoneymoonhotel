@@ -2,11 +2,12 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 import { COMPARISONS } from '../../../data/comparisons'
+import { buildAlternates } from '@/lib/alternates'
 
 export const metadata: Metadata = {
   title: 'Honeymoon Destination Comparisons',
   description: 'Head-to-head comparisons of the most-searched honeymoon destinations. Maldives vs Bora Bora, Bali vs Thailand, Santorini vs Amalfi — expert verdicts for every couple.',
-  alternates: { canonical: '/compare' },
+  alternates: buildAlternates('/compare'),
 }
 
 const DEST_HERO: Record<string, string> = {

@@ -1,14 +1,13 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import { buildAlternates } from '@/lib/alternates'
 
 export const metadata: Metadata = {
   title: 'How to Plan a Honeymoon: The Complete 2026 Guide (Timeline, Budget, Destinations)',
   description:
     'The most thorough honeymoon planning guide on the internet. A 12-month timeline, real budget numbers ($8k–$30k+), the 5-question destination framework, the 7 hotel types, booking timing, registries, insurance, packing, and the 10 mistakes that ruin honeymoons.',
-  alternates: {
-    canonical: 'https://myhoneymoonhotel.com/how-to-plan-a-honeymoon',
-  },
+  alternates: buildAlternates('/how-to-plan-a-honeymoon'),
   openGraph: {
     title: 'How to Plan a Honeymoon — The Complete 2026 Guide',
     description:

@@ -1,14 +1,13 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import { buildAlternates } from '@/lib/alternates'
 
 export const metadata: Metadata = {
   title: 'Maldives Honeymoon Cost: 2026 Real Numbers ($6k–$80k+)',
   description:
     'How much a Maldives honeymoon really costs in 2026. Four budget tiers, line-by-line breakdown, four real 7-night sample budgets, hidden costs, best months, and 8 ways to spend less.',
-  alternates: {
-    canonical: 'https://myhoneymoonhotel.com/maldives-honeymoon-cost',
-  },
+  alternates: buildAlternates('/maldives-honeymoon-cost'),
   openGraph: {
     title: 'Maldives Honeymoon Cost — 2026 Real Numbers',
     description:

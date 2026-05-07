@@ -1,8 +1,12 @@
+import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
 import { getAllHotels, getAllDestinations } from '@/lib/hotels'
 import HotelCard from '@/components/HotelCard'
 import DestinationPicker from '@/components/DestinationPicker'
+import { buildAlternates } from '@/lib/alternates'
+
+export const metadata: Metadata = { alternates: buildAlternates('/') }
 
 // Map destination slug → region grouping for the picker dropdown
 const REGION_OF: Record<string, string> = {

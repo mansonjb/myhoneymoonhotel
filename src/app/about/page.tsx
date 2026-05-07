@@ -1,9 +1,11 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { buildAlternates } from '@/lib/alternates'
 
 export const metadata: Metadata = {
   title: 'About — The Honeymoon Hotel Guide',
   description: 'Why we built myhoneymoonhotel.com, how we score hotels, and what makes a honeymoon actually great.',
+  alternates: buildAlternates('/about'),
 }
 
 export default function AboutPage() {

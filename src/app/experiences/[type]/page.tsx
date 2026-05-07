@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { getHotelsByExperience, getAllExperienceTypes } from '@/lib/hotels'
 import HotelCard from '@/components/HotelCard'
+import { buildAlternates } from '@/lib/alternates'
 
 interface Props { params: Promise<{ type: string }> }
 
@@ -486,11 +487,12 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { type } = await params
   const meta = EXPERIENCE_META[type]
-  if (!meta) return { title: `${type.replace(/-/g, ' ')} Honeymoon Hotels` }
+  if (!meta) return { title: `${type.replace(/-/g, ' ')} Honeymoon Hotels`, alternates: buildAlternates(`/experiences/${type}`) }
   return {
     title: `${meta.label} Honeymoon Hotels — Expert Guide & Scored Properties`,
     description: meta.intro.slice(0, 160),
     openGraph: { title: `${meta.label} Honeymoon Hotels`, description: meta.intro.slice(0, 160), images: [meta.hero] },
+    alternates: buildAlternates(`/experiences/${type}`),
   }
 }
 

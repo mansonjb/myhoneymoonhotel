@@ -1,8 +1,10 @@
 import type { Metadata } from 'next'
+import { buildAlternates } from '@/lib/alternates'
 
 export const metadata: Metadata = {
   title: 'Terms of Use',
   description: 'Terms and conditions for using myhoneymoonhotel.com.',
+  alternates: buildAlternates('/terms'),
 }
 
 export default function TermsPage() {

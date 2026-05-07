@@ -1,14 +1,13 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import { buildAlternates } from '@/lib/alternates'
 
 export const metadata: Metadata = {
   title: 'The 25 Best Honeymoon Resorts of 2026 (Ranked & Reviewed)',
   description:
     'The definitive 2026 ranking of the world’s best honeymoon resorts. 1,200+ properties scored on adults-only, romance, spa, beach and couples reviews. Real prices, real verdicts.',
-  alternates: {
-    canonical: 'https://myhoneymoonhotel.com/best/honeymoon-resorts-2026',
-  },
+  alternates: buildAlternates('/best/honeymoon-resorts-2026'),
   openGraph: {
     title: 'The 25 Best Honeymoon Resorts of 2026',
     description:

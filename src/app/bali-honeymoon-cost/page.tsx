@@ -1,14 +1,13 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import { buildAlternates } from '@/lib/alternates'
 
 export const metadata: Metadata = {
   title: 'Bali Honeymoon Cost: 2026 Real Numbers ($3k–$40k+)',
   description:
     'How much a Bali honeymoon really costs in 2026. Four budget tiers, line-by-line breakdown, four real 7-night sample budgets, hidden costs, best months, and 8 ways to spend less.',
-  alternates: {
-    canonical: 'https://myhoneymoonhotel.com/bali-honeymoon-cost',
-  },
+  alternates: buildAlternates('/bali-honeymoon-cost'),
   openGraph: {
     title: 'Bali Honeymoon Cost — 2026 Real Numbers',
     description:

@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
 import { getAllHotels } from '@/lib/hotels'
+import { buildAlternates } from '@/lib/alternates'
 
 // Same region mapping as the home page (kept in sync)
 const REGION_OF: Record<string, string> = {
@@ -64,7 +65,7 @@ export const metadata: Metadata = {
   title: 'All Honeymoon Destinations — Hand-Scored Hotels in 44 Countries | MyHoneymoonHotel',
   description:
     'Browse every honeymoon destination we cover — from overwater bungalows in the Maldives to safari camps in Botswana, hand-scored hotels in 44 destinations across 10 regions.',
-  alternates: { canonical: 'https://myhoneymoonhotel.com/destinations' },
+  alternates: buildAlternates('/destinations'),
   openGraph: {
     title: 'All Honeymoon Destinations',
     description:

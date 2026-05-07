@@ -1,8 +1,10 @@
 import type { Metadata } from 'next'
+import { buildAlternates } from '@/lib/alternates'
 
 export const metadata: Metadata = {
   title: 'Contact',
   description: 'Reach the myhoneymoonhotel.com team.',
+  alternates: buildAlternates('/contact'),
 }
 
 export default function ContactPage() {
