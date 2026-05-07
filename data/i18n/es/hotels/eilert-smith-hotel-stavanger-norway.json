@@ -1,0 +1,76 @@
+{
+  "content": {
+    "verdict": "Eilert Smith es el hotel urbano más discretamente lujoso de Noruega: una estancia boutique de 12 habitaciones en un almacén modernista de 1937 restaurado en el puerto de Stavanger, con el restaurante de tres estrellas Michelin RE-NAA en planta baja. Diseñado por Anemone Wille Våge en paletas noruegas atenuadas, con latón, roble y hormigón original, es deliberadamente pequeño y para público adulto. Para una luna de miel, encaja a la perfección con la excursión al Lysefjord y al Pulpit Rock, y es la base urbana adecuada antes de volar al norte hacia el Ártico.",
+    "best_room": "Reserve una de las habitaciones King con vistas al puerto o la Suite de esquina con terraza privada. Las habitaciones cuentan con duchas walk-in, bañeras profundas, camas a medida y ventanas originales de 1937 enmarcando el puerto. La Suite de esquina es el capricho: luz natural extra desde dos lados y terraza privada sobre el agua.",
+    "itinerary_7_nights": [
+      {
+        "day": 1,
+        "title": "Llegada a Stavanger",
+        "description": "Vuele a Stavanger Sola (SVG) y trasládese 20 minutos al puerto. Acomódese en su King, dé un paseo sin prisa por las callejuelas de madera blanca de Gamle Stavanger y tome un aperitivo en el bar del hotel antes de instalarse."
+      },
+      {
+        "day": 2,
+        "title": "Menú degustación en RE-NAA",
+        "description": "Día sin agenda: café en Talor & Jørgen, almuerzo largo en el puerto y, por la noche, RE-NAA, tres estrellas Michelin, en planta baja. De vuelta a su suite en cuanto termine la cena."
+      },
+      {
+        "day": 3,
+        "title": "Caminata al Pulpit Rock",
+        "description": "Conduzcan o únanse a una excursión guiada al Preikestolen (Pulpit Rock), el icónico acantilado de 604 metros sobre el Lysefjord. La caminata son 4 horas ida y vuelta. De vuelta al hotel, baño largo y cena en habitación."
+      },
+      {
+        "day": 4,
+        "title": "Crucero por el Lysefjord",
+        "description": "Embarquen en un pequeño crucero eléctrico de Rødne desde el puerto de Stavanger hacia el Lysefjord, navegando bajo el Pulpit Rock desde abajo. Almuerzo a bordo, regreso para una tarde sin agenda y cena informal en Sabi Omakase o Bølgen & Moi."
+      },
+      {
+        "day": 5,
+        "title": "Sola Strand y día de playa",
+        "description": "Conduzcan 25 minutos hasta las amplias playas de Sola y Borestranden para un día de playa nórdico, con aire fresco de fiordo y largos paseos por la arena. Regreso para acceso a sauna y un menú degustación de pescado noruego."
+      },
+      {
+        "day": 6,
+        "title": "Stavanger Vieja y arte urbano",
+        "description": "Caminen por el mayor barrio de madera conservado de Noruega (173 casas blancas) por la mañana, almuercen en el histórico Renaa Matbaren y, después, recorran la ruta de arte urbano del festival Nuart. Cena final en el bar del hotel con tostada de cigala."
+      },
+      {
+        "day": 7,
+        "title": "Desayuno de despedida",
+        "description": "Desayuno sin prisa en el puerto, un último espresso en la terraza y traslado de regreso al aeropuerto de Sola. Muchas parejas continúan por mar a Bergen o vuelan al norte a Tromsø para una extensión de auroras boreales."
+      }
+    ],
+    "caveats": [
+      "Solo 12 habitaciones: se agota con 4-6 meses de antelación, sobre todo en torno a los festivales gastronómicos de Stavanger.",
+      "Hotel urbano, no propiedad de playa: Sola Strand está a 25 minutos en coche.",
+      "Los menús degustación de RE-NAA requieren reserva con 6-8 semanas de antelación.",
+      "Algunas habitaciones miran a la calle interior y no al puerto: especifique la vista al reservar."
+    ],
+    "faqs": [
+      {
+        "question": "¿Es bueno para parejas en luna de miel?",
+        "answer": "Sí: pequeño, dirigido por el diseño y serio con la cocina. Es la estancia urbana boutique más adulta del sur de Noruega y se combina de manera natural con una excursión al Lysefjord."
+      },
+      {
+        "question": "¿Mejor época para visitar?",
+        "answer": "De mayo a septiembre por los días largos, el sendero al Pulpit Rock abierto y paseos más cálidos por el puerto. Abril y octubre son atmosféricos y más tranquilos."
+      },
+      {
+        "question": "¿Reservar con antelación?",
+        "answer": "4-6 meses para habitaciones con vista al puerto; 6-8 semanas para cenas en RE-NAA."
+      },
+      {
+        "question": "¿Solo adultos?",
+        "answer": "No, pero su escala (12 habitaciones) y el tono Michelin lo escoran al público adulto."
+      },
+      {
+        "question": "¿Mejor categoría de habitación?",
+        "answer": "King con vista al puerto por relación calidad-precio; Suite de esquina con terraza privada para el capricho."
+      },
+      {
+        "question": "¿Cómo llegar?",
+        "answer": "Vuele a Stavanger Sola (SVG), 20 minutos en taxi o autobús. Vuelos directos desde Londres, Ámsterdam, Copenhague y Oslo."
+      }
+    ],
+    "email_template": "Asunto: Consulta de reserva de luna de miel — Eilert Smith Hotel Stavanger\n\nEstimado equipo:\n\nEstamos planificando nuestra luna de miel y nos interesa alojarnos del [FECHA] al [FECHA]. ¿Podrían informarnos sobre disponibilidad de una King con vista al puerto o de la Suite de esquina, así como reservas en RE-NAA?\n\nGracias,\n[Nombres]"
+  }
+}

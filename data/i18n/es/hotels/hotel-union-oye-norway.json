@@ -1,0 +1,76 @@
+{
+  "content": {
+    "verdict": "Hotel Union Øye es la propiedad histórica más romántica de los fiordos noruegos: un gran hotel de madera de 1891 a la cabecera del Hjørundfjord, rodeado por los Alpes de Sunnmøre y gestionado como un retiro tranquilo y cinematográfico de 27 habitaciones. Cada habitación lleva el nombre de un huésped real o literario que durmió allí (Karen Blixen, Edvard Grieg, Káiser Guillermo II) y el comedor lo dirige hoy el equipo de gastronomía noruega del chef Stian Sandberg. Para una luna de miel es esa rara propiedad que se siente, genuinamente, como hospedarse dentro de una novela del siglo XIX.",
+    "best_room": "Reserve una de las habitaciones históricas con nombre —Sissi, Edvard Grieg o la King Oscar suite— para el romance pleno de época: camas antiguas, papel pintado de época y vistas al fiordo. La famosa habitación encantada 'Linda's Room' (la número 5) es para parejas que quieran la leyenda. Pida una habitación orientada al fiordo, no a la montaña, para el amanecer sobre el Hjørundfjord.",
+    "itinerary_7_nights": [
+      {
+        "day": 1,
+        "title": "Llegada al Hjørundfjord",
+        "description": "Vuelo a Ålesund Vigra (AES) y traslado escénico de 90 minutos por el Hjørundfjord hasta Øye. Check-in en su habitación histórica, paseo por la galería de madera y brindis por la primera noche con un champán en la Blue Library."
+      },
+      {
+        "day": 2,
+        "title": "Caminata por los Alpes de Sunnmøre",
+        "description": "Cálcese para una caminata de medio día con uno de los guías del hotel a las cumbres de Slogen o Saksa para vistas panorámicas al fiordo. Vuelta para sauna y un largo menú degustación de gastronomía noruega del chef Stian Sandberg."
+      },
+      {
+        "day": 3,
+        "title": "Día de barco por el Hjørundfjord",
+        "description": "Salga en el clásico velero del hotel o en una RIB privada por el Hjørundfjord, con parada para el baño y un almuerzo de pescado curado local. Tarde de lectura junto a la chimenea de la biblioteca y cena en suite por la noche."
+      },
+      {
+        "day": 4,
+        "title": "Pueblo de Urke y granjas locales",
+        "description": "Paseo o bicicleta hasta la cercana Urke para catas de queso de cabra en una granja activa y café en la panadería del pueblo. De regreso al hotel, un baño largo en su suite histórica y un menú degustación maridado con sidras de manzana noruegas."
+      },
+      {
+        "day": 5,
+        "title": "Trayecto a Geiranger",
+        "description": "Trayecto al Geirangerfjord, Patrimonio de la UNESCO (unas 2 horas), para un crucero de medio día junto a la cascada de las Siete Hermanas y vuelta por el paso de Trollstigen si está abierto. Sauna y una cena más informal de cigalas de regreso en Øye."
+      },
+      {
+        "day": 6,
+        "title": "Día sin prisa y leyenda de la habitación encantada",
+        "description": "Día de lectura: chimeneas de leña, desayuno largo, masaje en suite y sauna a media tarde. Pida al gerente la historia del fantasma de Linda's Room antes de una última cena a la luz de las velas."
+      },
+      {
+        "day": 7,
+        "title": "Desayuno de despedida",
+        "description": "Desayuno tranquilo en la galería con el fiordo aún brumoso, último paseo a orillas del agua y traslado de regreso a Ålesund. Muchas parejas continúan a Bergen en el Hurtigruten o vuelan al norte a Tromsø."
+      }
+    ],
+    "caveats": [
+      "Ubicación rural remota: la población más significativa más cercana es Urke, a 5 minutos; la ciudad más próxima, Ålesund, a 90 minutos.",
+      "Edificio histórico: las habitaciones tienen carácter, pero no son enormes y los baños pueden ser pequeños.",
+      "Solo 27 habitaciones; se agotan con 6-9 meses de antelación para julio y agosto.",
+      "Abre por temporada: confirme fechas, ya que el hotel suele operar aproximadamente de abril a octubre, más algunas semanas seleccionadas en invierno."
+    ],
+    "faqs": [
+      {
+        "question": "¿Es adecuado para lunas de miel?",
+        "answer": "Excepcional: histórico, íntimo, frente al fiordo y consistentemente clasificado entre las estancias más románticas de Noruega. Las parejas son la mayoría de los huéspedes y la propiedad se inclina con decisión por una atmósfera lenta y novelesca."
+      },
+      {
+        "question": "¿Cuál es la mejor época para visitarlo?",
+        "answer": "De junio a principios de septiembre por los largos días de fiordo, las caminatas y la navegación. A finales de agosto la luz es suave y hay menos gente."
+      },
+      {
+        "question": "¿Conviene reservar con antelación?",
+        "answer": "De 6 a 9 meses para las suites históricas con nombre en julio y agosto; de 3 a 4 meses en temporada intermedia."
+      },
+      {
+        "question": "¿Es solo adultos?",
+        "answer": "No, pero la atmósfera es claramente adulta. No hay kids' club y la experiencia gastronómica es un largo menú degustación."
+      },
+      {
+        "question": "¿Cuál es el mejor tipo de habitación?",
+        "answer": "Cualquiera de las habitaciones históricas con nombre —Sissi, Karen Blixen, King Oscar suite— con vista al fiordo. Linda's Room para parejas que quieran la famosa historia de fantasmas."
+      },
+      {
+        "question": "¿Cómo se llega?",
+        "answer": "Vuele a Ålesund Vigra (AES); traslado de 90 minutos por el Hjørundfjord, organizado por el hotel. Desde Bergen, 55 minutos en avión a AES y, después, traslado."
+      }
+    ],
+    "email_template": "Asunto: Consulta de reserva de luna de miel — Hotel Union Øye\n\nEstimado equipo:\n\nEstamos planificando nuestra luna de miel y nos interesa alojarnos del [FECHA] al [FECHA]. ¿Podrían informarnos sobre la disponibilidad de una habitación histórica con nombre y vista al fiordo y los paquetes de menú degustación o caminata guiada?\n\nReciban un cordial saludo,\n[Nombres]"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "content": {
+    "verdict": "Brosundet es el hotel romántico junto al puerto de la modernista Ålesund: 47 habitaciones en un almacén reconvertido de 1905 sobre el canal, con un par de habitaciones de culto que nadie más en Noruega puede igualar. La habitación 47 es la Molja Lighthouse Suite, al final del muelle (literalmente, un faro en activo con una cama dentro), y la suite Voldsund flota como barco pesquero en el puerto. Para una luna de miel es la base perfecta de la costa de Sunnmøre: a un paso de cada fachada modernista de la ciudad y a diez minutos de los ferries del Hjørundfjord.",
+    "best_room": "Si está disponible, reserve la Molja Lighthouse Suite (habitación 47): un faro en activo en el extremo mismo del muelle, con un único dormitorio circular, vistas panorámicas al puerto y privacidad absoluta. En su defecto, las Junior Suites con vista al canal del puerto son llenas de carácter y luz. La suite-barco Voldsund es la otra opción de culto para una sola noche con un toque distinto.",
+    "itinerary_7_nights": [
+      {
+        "day": 1,
+        "title": "Llegada a Ålesund",
+        "description": "Vuelo a Ålesund Vigra (AES) y traslado de 25 minutos hasta Brosundet. Check-in en la habitación con vista al puerto o en la suite del faro, paseo junto al canal y brindis por el viaje con un cóctel en el bar Apotekergata No. 5 del hotel."
+      },
+      {
+        "day": 2,
+        "title": "Recorrido modernista",
+        "description": "Pase la mañana en la ruta Jugendstil: Ålesund se reconstruyó por completo en estilo art nouveau tras el incendio de 1904, la mayor concentración del norte de Europa. Suba los 418 escalones del mirador de Aksla, almuerce en Maki y tome café por la tarde en el centro."
+      },
+      {
+        "day": 3,
+        "title": "Crucero por el Hjørundfjord",
+        "description": "Embárquese en una salida en RIB pequeña o en barco clásico al Hjørundfjord, el fiordo lateral más bello de Sunnmøre. Pícnic a bordo, baño en verano y regreso para una cena en habitación con cangrejo real de los barcos locales."
+      },
+      {
+        "day": 4,
+        "title": "Atlantic Road",
+        "description": "Excursión al norte por la Atlantic Road: ocho puentes que saltan entre islotes, a menudo descrita como la carretera más espectacular del mundo. Almuerzo en el pueblo de Bud y vuelta vía la plataforma del Trollstigen si está abierta."
+      },
+      {
+        "day": 5,
+        "title": "Noche en el faro y sushi",
+        "description": "Pase a la Molja Lighthouse Suite si no empezó allí. Cena en Maki, el japonés de Brosundet con producto de Sunnmøre, y un último brindis viendo el puerto desde su dormitorio circular en el faro."
+      },
+      {
+        "day": 6,
+        "title": "Isla de aves de Runde",
+        "description": "Trayecto de 1,5 horas hasta Runde, el principal acantilado de aves más meridional de Noruega, con colonias de frailecillos de mayo a agosto. Pícnic en los acantilados, vuelta para un acceso a la sauna y cena con menú degustación en la ciudad."
+      },
+      {
+        "day": 7,
+        "title": "Desayuno de despedida",
+        "description": "Un largo desayuno bufé junto al canal, último paseo por el barrio Jugendstil y traslado de regreso a AES. Muchas parejas continúan a Bergen en el ferry costero Hurtigruten o vuelan a Tromsø."
+      }
+    ],
+    "caveats": [
+      "La Molja Lighthouse Suite se reserva con 6 a 9 meses de antelación; tiene una sola habitación y es la más solicitada de Noruega.",
+      "Algunas habitaciones estándar dan a una calle interior: pida orientación al canal o al puerto si la vista importa.",
+      "Ålesund es una ciudad pequeña: dos o tres noches suelen bastar; combínelo con estancias en fiordo.",
+      "Brosundet está en la ciudad, no en un fiordo: el Hjørundfjord y Geiranger quedan a 90 minutos o 2 horas."
+    ],
+    "faqs": [
+      {
+        "question": "¿Es adecuado para lunas de miel?",
+        "answer": "Sí, sobre todo si consigue la Molja Lighthouse Suite o la suite-barco. Brosundet es uno de los hoteles noruegos más consistentes en valoraciones de parejas."
+      },
+      {
+        "question": "¿Cuál es la mejor época para visitarlo?",
+        "answer": "De mayo a septiembre, por los días largos en el puerto, los cruceros por el fiordo y el buen tiempo para caminar. Junio y julio para la luz del sol de medianoche en esta latitud."
+      },
+      {
+        "question": "¿Conviene reservar con antelación?",
+        "answer": "De 6 a 9 meses para las suites del faro y del barco; de 3 a 4 meses para las habitaciones con vista al canal del puerto en verano."
+      },
+      {
+        "question": "¿Es solo adultos?",
+        "answer": "No, pero las suites distintivas (faro, barco) son claramente adultas y el hotel atrae a una clientela mayoritariamente de parejas."
+      },
+      {
+        "question": "¿Cuál es el mejor tipo de habitación?",
+        "answer": "La Molja Lighthouse Suite (habitación 47) para una noche conmemorativa, o una Junior Suite con vista al canal para el resto de la estancia."
+      },
+      {
+        "question": "¿Cómo se llega?",
+        "answer": "Vuele a Ålesund Vigra (AES); traslado de 25 minutos al hotel. Vuelos directos desde Oslo, Bergen, Copenhague y Ámsterdam."
+      }
+    ],
+    "email_template": "Asunto: Consulta de reserva de luna de miel — Hotel Brosundet Ålesund\n\nEstimado equipo:\n\nEstamos planificando nuestra luna de miel y nos interesa alojarnos del [FECHA] al [FECHA]. ¿Podrían informarnos sobre la disponibilidad de la Molja Lighthouse Suite (habitación 47) o de una Junior Suite con vista al canal, así como sobre reservas en Maki?\n\nReciban un cordial saludo,\n[Nombres]"
+  }
+}

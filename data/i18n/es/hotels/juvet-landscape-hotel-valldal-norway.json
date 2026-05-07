@@ -1,0 +1,77 @@
+{
+  "content": {
+    "verdict": "Juvet es el landscape hotel original: nueve cabañas modernistas de cristal sobre pilotes encima del río Valldøla, diseñadas para que la habitación prácticamente desaparezca y la naturaleza tome el protagonismo. Aquí se rodaron escenarios de Ex Machina, de Alex Garland, y la sauna de piedra volcánica se asienta directamente sobre el río. Solo adultos (no se admiten menores de 12), sin televisión y deliberadamente silencioso, es uno de los hoteles más singulares para una luna de miel en Europa, en particular para parejas a las que les importa la arquitectura y quieren sentirse genuinamente desconectadas sin renunciar al confort.",
+    "best_room": "Reserve una de las cabañas de cristal originales de Jensen & Skodvin (habitaciones 1 a 7): cada una tiene una orientación distinta y una vista única a través de cristaleras del suelo al techo en tres lados. La cabaña 7 es la más cinematográfica, situada en la cota más baja sobre el río. Las habitaciones más nuevas tipo Birdhouse, en el granero reformado, son más cálidas en invierno, pero las cabañas de cristal son el icono: reserve una para vivir la experiencia completa.",
+    "itinerary_7_nights": [
+      {
+        "day": 1,
+        "title": "Llegada a Valldal",
+        "description": "Vuelo a Ålesund Vigra (AES) y trayecto de 2,5 horas hasta Juvet por los valles de Tafjord y Valldal. Registro en su cabaña de cristal, primera sauna sobre el río y cena tranquila en el comedor de la granja Burtigard."
+      },
+      {
+        "day": 2,
+        "title": "Paso de Trollstigen",
+        "description": "Recorra el legendario paso serpenteante de Trollstigen (a 15 minutos de Juvet), con once curvas en horquilla y cascadas a ambos lados. Almuerzo en el mirador del centro de visitantes y regreso para una larga sauna vespertina y cena de cordero local."
+      },
+      {
+        "day": 3,
+        "title": "Baño en el río y caminata por el bosque",
+        "description": "Caminata matinal por el parque nacional Reinheimen con uno de los guías de Juvet, terminando con un valiente chapuzón en las aguas heladas del Valldøla. Tarde de lectura en su cabaña, sauna a primera hora de la noche y menú degustación basado en la producción de la propia granja."
+      },
+      {
+        "day": 4,
+        "title": "Geirangerfjord",
+        "description": "Excursión de un día al Geirangerfjord, Patrimonio de la UNESCO (a 1,5 horas), para un crucero en pequeña embarcación junto a las cascadas Las Siete Hermanas y el Velo de la Novia. De vuelta a Juvet al atardecer; cena en la cabaña si prefiere intimidad."
+      },
+      {
+        "day": 5,
+        "title": "Valle de las fresas y opción en helicóptero",
+        "description": "Valldal es la capital noruega de la fresa: visite una granja en activo en temporada, con catas. Capricho opcional: vuelo panorámico en helicóptero sobre los Alpes de Sunnmøre y el Geirangerfjord, directamente desde la propiedad."
+      },
+      {
+        "day": 6,
+        "title": "Día sin prisa de sauna",
+        "description": "Una jornada completa sin estructura: desayuno largo, paseo a la orilla del río, masaje en la cabaña, dos rituales de sauna seguida de inmersión en el río. El ritmo de Juvet es la clave: deje que el lugar haga su trabajo."
+      },
+      {
+        "day": 7,
+        "title": "Desayuno de despedida",
+        "description": "Desayuno pausado de granja en Burtigard, último café en la terraza de la cabaña y trayecto de regreso a Ålesund. Muchas parejas continúan en coche hasta Bergen (5 horas, paisaje espléndido) o vuelan al norte hacia Tromsø."
+      }
+    ],
+    "caveats": [
+      "No se admiten menores de 12 años: en la práctica, Solo adultos.",
+      "Las cabañas son intencionalmente minimalistas: baños pequeños, sin televisión y calefacción limitada en pleno invierno.",
+      "Ubicación remota: el coche de alquiler es imprescindible.",
+      "Solo hay 9 cabañas de cristal; se agotan con 6 a 9 meses de antelación para el verano.",
+      "Juvet opera por temporadas; la disponibilidad invernal es limitada y depende del estado de las carreteras."
+    ],
+    "faqs": [
+      {
+        "question": "¿Es adecuado para lunas de miel?",
+        "answer": "Excepcional: Solo adultos, arquitectónicamente icónico, junto al río y deliberadamente silencioso. Es uno de los alojamientos de luna de miel más fotografiados de Noruega."
+      },
+      {
+        "question": "¿Cuál es la mejor época para visitarlo?",
+        "answer": "De finales de mayo a comienzos de septiembre, por los días largos, los pasos de montaña abiertos y los baños en el río. Finales de agosto, por la luz más suave y menos coches en Trollstigen."
+      },
+      {
+        "question": "¿Conviene reservar con antelación?",
+        "answer": "De 6 a 9 meses antes para las cabañas de verano; de 3 a 4 meses en temporada media."
+      },
+      {
+        "question": "¿Es Solo adultos?",
+        "answer": "Sí: no se admiten menores de 12 años, lo que la convierte en una de las pocas propiedades de lujo formalmente Solo adultos en Noruega."
+      },
+      {
+        "question": "¿Cuál es el mejor tipo de habitación?",
+        "answer": "Una cabaña de cristal original (1 a 7) para la experiencia completa de Ex Machina, con la cabaña 7 como la más cinematográfica sobre el río."
+      },
+      {
+        "question": "¿Cómo se llega?",
+        "answer": "Vuele a Ålesund Vigra (AES) y haga un trayecto panorámico de 2,5 horas vía Valldal. Desde Oslo, vuele a AES (1 hora) y conduzca."
+      }
+    ],
+    "email_template": "Asunto: Consulta de reserva de luna de miel — Juvet Landscape Hotel\n\nEstimado equipo:\n\nEstamos planificando nuestra luna de miel y nos interesa alojarnos del [FECHA] al [FECHA]. ¿Podrían informarnos sobre la disponibilidad de una cabaña de cristal original (cabañas 1 a 7) y de los paquetes de menú degustación o de sauna?\n\nMuchas gracias,\n[Nombres]"
+  }
+}
