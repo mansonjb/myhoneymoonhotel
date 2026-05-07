@@ -1,0 +1,77 @@
+{
+  "tagline": "Um departamento francês no Oceano Índico — vulcões, cirques e cozinha crioula.",
+  "intro": "Reunião é a ilha geologicamente mais dramática do Oceano Índico — um departamento francês 700 km a leste de Maurício, onde um vulcão-escudo ativo (Piton de la Fournaise) entra em erupção várias vezes ao ano, três caldeiras antigas chamadas de cirques estão entre as paisagens de trekking mais espetaculares do mundo e a cultura crioula produz uma cozinha à altura do que se come nas províncias francesas. É o destino de lua de mel para casais que querem drama vulcânico em vez de recife e praia.",
+  "bestTime": "Abr–Nov",
+  "flightFrom": "11h de Paris (direto)",
+  "topExperience": "Trekking vulcânico e cultura crioula francesa",
+  "perfectFor": [
+    "Casais que querem trilhas vulcânicas e aventura junto ao calor do Índico",
+    "Casais francófonos (é literalmente a França)",
+    "Quem busca paisagens de montanha dramáticas combinadas com praias de recife",
+    "Casais foodies — a cozinha crioula da Reunião é extraordinária e totalmente influenciada pela França",
+    "Lua de mel adicionada a uma viagem a Maurício (as duas ilhas estão a 1h30 de voo)"
+  ],
+  "skipIf": [
+    "Você quer uma laguna de recife plana e calma como experiência principal",
+    "O conceito de resort de praia no Índico é o atrativo central",
+    "Você não fala francês e a autossuficiência linguística é importante",
+    "Dezembro–março (temporada de ciclones e chuvas pesadas no lado a barlavento)",
+    "Paisagem vulcânica e trekking nos cirques soam exaustivos em vez de empolgantes"
+  ],
+  "experiences": [
+    { "icon": "🌋", "title": "Trilha de erupção no Piton de la Fournaise", "description": "Caminhar sobre um campo de lava endurecida até a caldeira ativa de um dos vulcões mais ativos do mundo — e ver a lava correr a uma distância segura, se houver erupção. Uma das experiências mais primais da natureza.", "cost": "$60–$120 por pessoa (guiado)", "tip": "Confira o site do OVPF (Observatoire Volcanologique du Piton de la Fournaise) para o status da erupção. Quando ativo, a caminhada noturna guiada para ver a lava é transcendente. Quando dormente, a trilha pela caldeira ainda é extraordinária." },
+    { "icon": "🏔️", "title": "Trekking pelo Cirque de Cilaos (3 dias)", "description": "O cirque (caldeira antiga) mais dramático da Reunião — uma bacia de 1.200 m de profundidade cercada por paredões verticais, acessível apenas por estrada de montanha ou a pé. A trilha GR R1 que circunda o cirque está entre as melhores caminhadas de vários dias do Índico.", "cost": "$50–$80/noite (gîte de montanha)", "tip": "O circuito GR R1 de 3 dias é o roteiro padrão. Vá com a Réunion Randonnées para a melhor interpretação e segurança em trilhas vertiginosas." },
+    { "icon": "🪂", "title": "Parapente do Piton Maïdo", "description": "Decolar do paredão Maïdo, a 2.200 m (uma das falésias mais altas do mundo acima de área povoada), e planar 20 minutos até a planície costeira. A vista sobre a costa oeste é extraordinária.", "cost": "$120–$180 por pessoa (voo duplo)", "tip": "Voos pela manhã (9h–11h), antes que se formem as térmicas do vale. O panorama da decolagem — 2.200 m de queda direta para o Índico — é uma das melhores vistas de qualquer rampa de parapente do mundo." },
+    { "icon": "🍛", "title": "Rougail saucisses e festim crioulo (restaurante local)", "description": "Rougail (molho de tomate e pimenta com porco ou linguiça), carry (curry da Reunião — diferente de qualquer outro curry no mundo) e os frutos do mar frescos extraordinários da costa do Índico.", "cost": "€30–€60 por casal em um almoço crioulo completo", "tip": "Os melhores restaurantes crioulos estão em Saint-Pierre e Cilaos. Evite os restaurantes turísticos da orla — procure os restaurantes populares onde os reunionenses comem." },
+    { "icon": "🤿", "title": "Mergulho noturno com tubarões dormentes (Saint-Gilles)", "description": "O recife de coral da Reunião em Saint-Gilles é um dos mais biodiversos do Índico. Mergulhos noturnos revelam tubarões-lixa descansando no fundo e polvos de recife caçando sob a luz da lanterna.", "cost": "$60–$100 por pessoa", "tip": "Use o Réunion Sub Centre (Saint-Gilles) — o operador mais experiente e cuidadoso da ilha. Mergulho noturno exige certificação Advanced Open Water." }
+  ],
+  "months": [
+    { "month": "Jan", "weather": "Temporada de ciclones, chuva forte na costa leste", "emoji": "🌀", "crowds": "Baixa", "price": "Baixo", "verdict": "Evite a costa leste; Cilaos pode ficar isolado" },
+    { "month": "Feb", "weather": "Pico do risco de ciclones", "emoji": "🌀", "crowds": "Baixa", "price": "Baixo", "verdict": "Não viaje — temporada de ciclones" },
+    { "month": "Mar", "weather": "Risco diminui, ainda chuvoso", "emoji": "🌦", "crowds": "Baixa", "price": "Baixo", "verdict": "Melhorando aos poucos" },
+    { "month": "Apr", "weather": "Transição, melhorando rápido", "emoji": "🌤", "crowds": "Moderada", "price": "Médio", "verdict": "Bom custo-benefício de meia estação" },
+    { "month": "May", "weather": "Começa estação seca, 25°C", "emoji": "☀️", "crowds": "Moderada", "price": "Médio", "verdict": "Excelente início de temporada" },
+    { "month": "Jun", "weather": "Seco, noites mais frescas, 23°C", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Começam as férias escolares francesas" },
+    { "month": "Jul", "weather": "Seco, 22°C, vulcão ativo com frequência", "emoji": "☀️", "crowds": "Máxima", "price": "Muito alto", "verdict": "Pico das férias — reserve com antecedência" },
+    { "month": "Aug", "weather": "Seco, excelente para trilhas", "emoji": "☀️", "crowds": "Máxima", "price": "Muito alto", "verdict": "Melhores condições de trekking" },
+    { "month": "Sep", "weather": "Seco, esvaziando, excelente", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Excelente, menos cheio" },
+    { "month": "Oct", "weather": "Seco, quente, um dos melhores meses", "emoji": "☀️", "crowds": "Moderada", "price": "Médio", "verdict": "Melhor mês secreto" },
+    { "month": "Nov", "weather": "Transição, primeiras pancadas possíveis", "emoji": "🌤", "crowds": "Baixa", "price": "Baixo-médio", "verdict": "Bom valor, leve risco de chuva" },
+    { "month": "Dec", "weather": "Começa a estação chuvosa, Natal cheio", "emoji": "🌦", "crowds": "Alta", "price": "Alto", "verdict": "Natal festivo, mas a chuva aumenta" }
+  ],
+  "budgetTiers": [
+    { "label": "Pousada boutique", "range": "€120–€300/noite", "gets": "Gîte local ou hotel boutique com cozinha crioula, vista para o mar e hospitalidade autêntica. A verdadeira experiência da Reunião.", "example": "Le Relais des Sables, Villa Belle Creolle" },
+    { "label": "Resort de luxo", "range": "€300–$700/noite", "gets": "Resort full-service na laguna da costa oeste, spa, vários restaurantes, esportes náuticos.", "example": "Lux Saint Gilles, Le Récif Hotel" },
+    { "label": "Estadia em cirque vulcânico", "range": "€200–€500/noite", "gets": "Lodge de montanha ou hotel boutique no Cirque de Cilaos com vistas espetaculares e acesso às trilhas.", "example": "Le Vieux Cep, Hotel des Neiges (Cilaos)" }
+  ],
+  "areas": [
+    { "name": "Saint-Gilles / costa oeste", "bestFor": "Praia, laguna, mergulho, base de resort", "description": "A costa a sotavento (seca), com a única laguna protegida da ilha. A infraestrutura turística e de resort está aqui. O Lux Saint Gilles é o melhor hotel. Melhor banho de mar e mergulho a partir desta base." },
+    { "name": "Cirque de Cilaos", "bestFor": "Trekking, banhos termais, paisagem dramática", "description": "Uma bacia de 1.200 m cercada por falésias de mais de 2.000 m. Fontes termais (as únicas do Índico), o melhor vinho da ilha (produzido em altitude) e o melhor trekking de vários dias do Índico." },
+    { "name": "Piton de la Fournaise (SE)", "bestFor": "Vulcão ativo, campos de lava, observação de erupções", "description": "O vulcão ativo da Plaine des Cafres. O sítio natural mais visitado do Índico. Uma erupção em curso (várias por ano) torna possível a caminhada noturna pela lava. Extraordinário mesmo dormente." },
+    { "name": "Cirque de Salazie (norte)", "bestFor": "Cachoeiras, paisagem mais exuberante, gîtes", "description": "O cirque mais verde e exuberante. A cachoeira Voile de la Mariée é visível da estrada principal. Hell-Bourg é um dos vilarejos históricos mais bonitos do Índico." }
+  ],
+  "expertTips": [
+    { "tip": "Reunião é ideal como parte de uma viagem combinada Maurício + Reunião", "detail": "A Air Austral voa entre Maurício e Reunião em 1h30. 5 noites em Maurício (praia) + 5 em Reunião (vulcão, trilhas) é uma combinação genuinamente extraordinária." },
+    { "tip": "Confira o site do OVPF antes de reservar a trilha de erupção", "detail": "O Piton de la Fournaise entra em erupção 2–4 vezes por ano. Se houver erupção, a caminhada noturna pela lava é a coisa mais extraordinária a fazer no Índico. Dormente, a trilha da caldeira segue de classe mundial." },
+    { "tip": "Alugue carro — o transporte público na Reunião é limitado", "detail": "A Reunião tem boas estradas, mas ônibus pouco frequentes entre os pontos turísticos. Um carro alugado na Réunion Location no aeroporto Roland Garros é o caminho. Pegue a Route Forestière para o vulcão." },
+    { "tip": "Os cirques pedem mínimo de 2 noites", "detail": "Cilaos fica a 1h30 de carro (com 400 curvas em S) da costa. Reserve 2 noites para fazer a caminhada do GR R1 e descansar. Bate-volta é exaustivo e insuficiente." },
+    { "tip": "A baunilha Bourbon da Reunião é a melhor do mundo", "detail": "A Reunião (antiga Île Bourbon) é a origem da variedade Bourbon de baunilha. Comprá-la direto de uma cooperativa de baunilha no nordeste é uma das grandes lembranças culinárias da ilha." }
+  ],
+  "packing": [
+    { "item": "Botas adequadas de trilha", "why": "As trilhas dos cirques são pedregosas, lamacentas e íngremes — tênis trail runner é marginal; bota de verdade é necessária" },
+    { "item": "Jaqueta impermeável", "why": "Mesmo na estação seca, os cirques recebem nuvens e chuva à tarde. Um bom impermeável é essencial." },
+    { "item": "Camadas para altitude", "why": "O cume do Piton de la Fournaise, a 2.632 m, é genuinamente frio. O mirante do Maïdo, a 2.200 m, é frio com vento. Leve merino." },
+    { "item": "Protetor solar reef-safe", "why": "O parque marinho de Saint-Gilles tem regras estritas de proteção de coral" },
+    { "item": "Dinheiro vivo (euros)", "why": "É a França — pagamento por cartão é o padrão, mas você precisa de dinheiro nos gîtes de montanha e mercados locais" },
+    { "item": "Frasebook de francês", "why": "Embora o francês seja universal, o crioulo reunionês é diferente do metropolitano. Cortesia básica em francês é muito apreciada." }
+  ],
+  "guide": {
+    "getting": "Voe para o aeroporto Roland Garros (RUN), perto de Saint-Denis. Direto de Paris (Air Austral, Air France — 11h). Conexões de Londres via Paris (12–13h no total). De Maurício: a Air Austral opera o shuttle de 1h30. Alugue carro no aeroporto — essencial para explorar a ilha. A ilha tem 220 km de perímetro e dá para circundar em um dia.",
+    "where": "Costa oeste (Saint-Gilles, Saint-Leu) para laguna e base de resort. Cirque de Cilaos para montanha e termas. Piton de la Fournaise (sudeste) para o vulcão. Cirque de Salazie (norte) para cachoeiras e paisagens verdes. Roteiro de 10 noites: Saint-Gilles 3 noites → Cilaos 3 → área do vulcão 2 → Salazie 2.",
+    "when": "Abril–novembro é a estação seca. Maio e outubro são os pontos doces: ótimo tempo, menos lotação das férias escolares francesas e preços menores. Julho–agosto é pico (férias escolares — reserve com 4 meses). Dezembro–março é temporada de ciclones, com risco real."
+  },
+  "localFood": "Carry (curry único da Reunião — diferente do indiano, malgaxe ou sul-asiático, com especiarias locais, frequentemente servido com rougail saucisses e arroz), samoussas (pastéis fritos triangulares recheados com vegetais ou carne, da tradição indo-reunionesa) e os extraordinários frutos do mar frescos. O rum agricole local (de cana fresca, não de melaço) é o melhor do Índico. O rhum arrangé (rum infundido com fruta local e baunilha) é a bebida social da ilha.",
+  "currency": "Euro (EUR) — é um departamento francês",
+  "language": "Francês (oficial). Crioulo reunionês amplamente falado.",
+  "timezone": "GMT+4 (Réunion Time — sem horário de verão)"
+}

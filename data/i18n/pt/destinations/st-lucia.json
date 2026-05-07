@@ -1,0 +1,79 @@
+{
+  "tagline": "Os Pitons. Nenhuma outra ilha do Caribe tem isso. Nada chega perto.",
+  "intro": "Santa Lúcia é o que acontece quando uma ilha caribenha se recusa a ser comum. Os picos gêmeos dos Pitons — patrimônio mundial da UNESCO, subindo 770 m do mar — atraíram arquitetos e hoteleiros que ergueram seus melhores trabalhos em torno deles. O resultado: hotéis como o Jade Mountain, sem quarta parede, com piscinas infinitas privativas viradas direto para os cumes. Vulcânica, dramática e completamente diferente de qualquer outro destino de lua de mel.",
+  "bestTime": "Dez–Abr",
+  "flightFrom": "8–9h de Londres",
+  "topExperience": "Luxo só para adultos",
+  "perfectFor": [
+    "Casais que querem drama — os Pitons são o cenário hoteleiro mais espetacular do Caribe",
+    "Apaixonados por arquitetura e design — Jade Mountain e Sugar Beach são obras-primas",
+    "Casais focados em natureza (vulcão, fontes sulfurosas, floresta tropical)",
+    "Fãs do estilo Sandals que querem um AI genuinamente romântico com ótimas praias",
+    "Quem quer Caribe + algo mais aventureiro que uma faixa de praia"
+  ],
+  "skipIf": [
+    "Você quer a praia mais lisa e branca do Caribe — as melhores praias de Santa Lúcia são de areia vulcânica",
+    "Você precisa de vida noturna agitada e variedade de restaurantes cosmopolita",
+    "A estrada serpenteante de 2 horas a partir do aeroporto sul é um problema",
+    "Você quer um destino de costa plana e ensolarado",
+    "Orçamento abaixo de $400/noite — os melhores hotéis aqui são caros"
+  ],
+  "experiences": [
+    { "icon": "🌋", "title": "Vulcão drive-in e Sulphur Springs", "description": "O único vulcão drive-in do mundo, em Soufrière. Banhos de lama em piscinas sulfurosas que dizem curar tudo. Estranho, dramático, inesquecível. A 30 minutos dos hotéis dos Pitons.", "cost": "$30–$60 por casal (entrada)", "tip": "Vá cedo, antes dos grupos. Combine com a cachoeira Toraille para um dia inteiro." },
+    { "icon": "🧗", "title": "Trilha ao topo do Gros Piton", "description": "Trilha guiada de 2h30 até 738 m com vistas para o Caribe. Não é fácil. Vale completamente a pena. Uma das coisas mais gratificantes que duas pessoas podem fazer juntas em uma lua de mel.", "cost": "$80–$120 por casal (guia obrigatório)", "tip": "Comece às 6h para chegar ao topo antes das nuvens e do calor. Leve água e capa de chuva mesmo na estação seca." },
+    { "icon": "⛵", "title": "Velejada de catamarã pelos Pitons", "description": "Navegar pela costa ao pôr do sol com os Pitons gêmeos atrás de vocês, champanhe na mão. Vários operadores fazem versões de dia inteiro com snorkel e paradas em praia.", "cost": "$150–$350 por casal", "tip": "A velejada de dia inteiro de Castries a Soufrière e volta é o dia clássico de Santa Lúcia. Reserve pelo seu hotel." },
+    { "icon": "🌿", "title": "Tirolesa e canopy walk na floresta", "description": "O interior de Santa Lúcia é selva densa e exuberante. Tirolesas pela copa são genuinamente empolgantes — nada como as versões caribenhas mansinhas.", "cost": "$80–$120 por pessoa", "tip": "Rainforest Adventures é o melhor operador. Reserve o horário cedo (8h) para avistamentos de fauna." },
+    { "icon": "🐢", "title": "Observação de tartarugas à noite (jun–set)", "description": "Tartarugas-de-couro e tartarugas-de-pente desovam nas praias de Santa Lúcia entre junho e setembro. Um guia certificado leva você para ver a desova ou os filhotes no escuro. Profundamente comovente.", "cost": "$40–$80 por pessoa", "tip": "Pelo St Lucia Heritage Tourism Programme. Vagas limitadas — reserve com semanas." }
+  ],
+  "months": [
+    { "month": "Jan", "weather": "Seco, 27°C, chuva mínima", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Alta temporada, excelente" },
+    { "month": "Feb", "weather": "Mês mais seco do ano", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Melhor clima" },
+    { "month": "Mar", "weather": "Seco, quente, agradável", "emoji": "☀️", "crowds": "Moderada", "price": "Médio-alto", "verdict": "Um pouco menos cheio" },
+    { "month": "Apr", "weather": "Fim da estação seca", "emoji": "🌤", "crowds": "Moderada", "price": "Médio", "verdict": "Ponto doce de valor" },
+    { "month": "May", "weather": "Transição, pancadas ocasionais", "emoji": "⛅", "crowds": "Baixa", "price": "Baixo", "verdict": "Boas tarifas, alguma chuva" },
+    { "month": "Jun", "weather": "Mais úmido, começa temporada de tartarugas", "emoji": "🌦", "crowds": "Baixa", "price": "Mínimo", "verdict": "Para orçamento, observação de tartarugas" },
+    { "month": "Jul", "weather": "Estação chuvosa, quente", "emoji": "🌧", "crowds": "Baixa", "price": "Baixo", "verdict": "Melhores preços, troca por chuva" },
+    { "month": "Aug", "weather": "Risco baixo de furacão, quente", "emoji": "🌦", "crowds": "Baixa-mod.", "price": "Baixo", "verdict": "Furacão raro, mas possível" },
+    { "month": "Sep", "weather": "Mês de pico de furacões", "emoji": "⚠️", "crowds": "Baixa", "price": "Mínimo", "verdict": "Evite se for avesso ao risco" },
+    { "month": "Oct", "weather": "Diminuindo, ainda alguma chuva", "emoji": "⛅", "crowds": "Baixa", "price": "Baixo", "verdict": "Subestimado, boas tarifas" },
+    { "month": "Nov", "weather": "Secando, melhorando", "emoji": "🌤", "crowds": "Baixa-mod.", "price": "Médio", "verdict": "Bom valor antes do pico" },
+    { "month": "Dec", "weather": "Estação seca volta, festivo", "emoji": "☀️", "crowds": "Alta", "price": "Muito alto", "verdict": "Lindo, reserve cedo" }
+  ],
+  "budgetTiers": [
+    { "label": "Boutique luxo intermediário", "range": "$400–$800/noite", "gets": "Vista para os Pitons, vila com piscina, bom café da manhã. Menos mimo, mas o cenário é igualmente dramático.", "example": "Stonefield Villa, Calabash Cove" },
+    { "label": "All-inclusive luxo", "range": "$600–$1.500/noite", "gets": "AI completo estilo Sandals: refeições ilimitadas, esportes náuticos, passeios e massagens em casal. Sem ansiedade com a conta.", "example": "Sandals Grande, Sandals Halcyon" },
+    { "label": "Ultra-luxo", "range": "$1.200–$4.000+/noite", "gets": "Um Sanctuary aberto com piscina infinita privativa apontada para os Pitons. O quarto mais dramático do Caribe.", "example": "Jade Mountain, Sugar Beach Viceroy" }
+  ],
+  "areas": [
+    { "name": "Soufrière (costa SO)", "bestFor": "Vista dos Pitons, hotéis dramáticos", "description": "O coração da Santa Lúcia para lua de mel. Jade Mountain, Anse Chastanet, Sugar Beach e Stonefield estão todos aqui. Os Pitons ficam a minutos. A área mais romântica da ilha." },
+    { "name": "Marigot Bay", "bestFor": "Boutique, calmo, isolado", "description": "Vale fluvial submerso com um dos portos naturais mais protegidos do Caribe. Hotéis boutique pequenos, base de charter de iates, vibe completamente isolada." },
+    { "name": "Rodney Bay (norte)", "bestFor": "Vida noturna, restaurantes, fácil acesso", "description": "Perto do pequeno aeroporto norte (SLU), com marina e faixa de restaurantes. Mais comercial. Menos romântica que o sul, mas conveniente para estadias curtas ou combinadas." },
+    { "name": "Cap Estate (ponta norte)", "bestFor": "Vila privativa isolada", "description": "Ponta norte da ilha. O Cap Maison fica aqui — piscinas em falésia, praia acessível só por barco, atmosfera íntima. A 30 minutos do aeroporto norte." }
+  ],
+  "expertTips": [
+    { "tip": "Voe para o aeroporto certo, conforme o seu hotel", "detail": "Hewanorra (UVF), no sul: 2h de carro até a área dos Pitons, ou 15 min de helicóptero. George FL Charles (SLU), no norte: aeroporto pequeno, 20 min até hotéis do norte. Errar é caríssimo." },
+    { "tip": "Reserve o transfer de helicóptero a partir de UVF", "detail": "A Papillon Helicopters faz o transfer de 15 minutos de Hewanorra a Soufrière por cerca de $400/casal. Depois de 10h de viagem, esses 15 minutos no lugar de 2h em estrada serpenteante valem tudo." },
+    { "tip": "Peça uma Star Sanctuary no Jade Mountain", "detail": "Todos os quartos do Jade Mountain são extraordinários, mas as Star Sanctuaries miram nos Pitons mais diretamente e têm as piscinas infinitas maiores. Solicite essa categoria nominalmente ao reservar." },
+    { "tip": "Vá almoçar em Fond Doux Plantation", "detail": "Uma fazenda ativa de cacau e cultivo orgânico ao pé dos Pitons. O melhor rum punch da ilha, almoço crioulo excepcional e a experiência mais autêntica perto dos resorts." },
+    { "tip": "A estação chuvosa é mais verde e mais barata", "detail": "Tarifas de maio a julho são 30–50% mais baixas. A selva fica exuberante. Os Pitons ficam mais dramáticos sob a chuva fina. As pancadas são curtas e o calor menor. Não é a escolha convencional, mas é genuinamente bonita." }
+  ],
+  "packing": [
+    { "item": "Botas ou tênis de trilha", "why": "A trilha do Piton e os caminhos do vulcão são terreno sério — sandália não serve" },
+    { "item": "Protetor solar reef-safe", "why": "O coral em Anse Chastanet está entre os mais preservados do Caribe" },
+    { "item": "Capa de chuva leve", "why": "Mesmo na estação seca, Soufrière tem pancadas curtas vindas da montanha" },
+    { "item": "Repelente (DEET)", "why": "As noites na selva são território de mosquitos — leve repelente de verdade" },
+    { "item": "Binóculos", "why": "Santa Lúcia tem mais de 170 espécies de aves, incluindo o papagaio endêmico" },
+    { "item": "Saco estanque (dry bag)", "why": "Para transfers de barco, snorkel e o inevitável spray do catamarã" },
+    { "item": "Smart casual (não formal) para o jantar", "why": "As mesas com vista dos Pitons no Jade Mountain são sapato-opcional. O dress code é \"resort romântico\"." },
+    { "item": "Comprimidos para enjoo", "why": "A velejada de catamarã ao redor da ponta pode ficar agitada na temporada dos alísios" }
+  ],
+  "guide": {
+    "getting": "Voe para Hewanorra International (UVF), no sul — 2h de carro ou 15 min de helicóptero a Soufrière. A maioria dos resorts da área dos Pitons organiza transfers privativos. Helicóptero com a Papillon custa $350–$450/casal e vale cada centavo após um voo longo. Como alternativa, voe a George FL Charles (SLU), no norte, se estiver no Cap Maison ou em Rodney Bay.",
+    "where": "A área de Soufrière/Pitons (sudoeste) é onde estão os melhores hotéis para lua de mel — Jade Mountain, Sugar Beach, Anse Chastanet. O norte (Castries, Rodney Bay) é mais acessível, mas menos romântico. Cap Estate (Cap Maison) é a alternativa boutique no norte.",
+    "when": "Dezembro–abril é o pico da estação seca. Maio–junho é meia estação — um pouco mais barato, mais verde, com pancadas ocasionais. Julho–setembro é temporada de furacões no Caribe — Santa Lúcia fica relativamente ao sul e menos exposta, mas agosto–setembro têm risco real."
+  },
+  "localFood": "Green fig and saltfish (prato nacional), bouyon (caldo encorpado), accra (bolinhos de bacalhau), pescado fresco grelhado em todo lugar. A cozinha crioula é excelente. A festa de rua de sexta-feira em Gros Islet é a experiência local mais autêntica.",
+  "currency": "Dólar do Caribe Oriental (XCD). USD aceito em todo lugar.",
+  "language": "Inglês (oficial). Patois crioulo francês amplamente falado.",
+  "timezone": "GMT-4 (Atlantic Standard Time)"
+}

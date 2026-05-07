@@ -1,0 +1,76 @@
+{
+  "content": {
+    "verdict": "O Apukka Resort fica na margem arborizada do lago Olkkajärvi, a cerca de 15 minutos de Rovaniemi — perto o suficiente para você pousar em um aeroporto importante de manhã e estar em sua aurora cabin na hora do almoço, longe o bastante para que a margem do lago seja genuinamente escura e silenciosa à noite. O grande chamariz para casais em lua de mel é a Aurora Cabin: uma cabana de madeira independente com cama king sob um grande teto-claraboia, para que você fique deitado na cama assistindo às auroras boreais sem precisar sair. O resort tem o próprio canil de huskies em operação, recinto de renas e uma frota de snowmobiles, o que significa que a maior parte das atividades parte do próprio hotel, sem te arrastar para parceiros a meia hora dali. É amigável para famílias no nome (Rovaniemi é a cidade oficial do Papai Noel), mas tem tarifas claramente premium para adultos, e as Aurora Cabins ficam dispostas pela floresta de modo que casais raramente cruzam um com o outro. Em pleno verão, o cenário lacustre se transforma numa lua de mel sob o sol da meia-noite completamente diferente da versão na neve — caiaques, stand-up paddle e cultura de sauna-e-mergulho.",
+    "best_room": "Aurora Cabin — cabana privativa em madeira com cama king sob uma grande claraboia de vidro, janelas voltadas para o lago, banheiro privativo e pequeno terraço, projetada especificamente para observação da aurora a partir da cama.",
+    "itinerary_7_nights": [
+      {
+        "day": 1,
+        "title": "Chegada em Rovaniemi",
+        "description": "Voe até Rovaniemi (RVN), transfer de 15 minutos até o Apukka e instale-se em sua Aurora Cabin. Circuito de sauna, jantar no lodge principal e a primeira observação de aurora direto da cama."
+      },
+      {
+        "day": 2,
+        "title": "Huskies e renas no próprio hotel",
+        "description": "Manhã no canil de huskies do resort aprendendo a conduzir o trenó, tarde no recinto das renas para um passeio de trenó, tudo sem sair da propriedade."
+      },
+      {
+        "day": 3,
+        "title": "Snowmobile e pesca no gelo",
+        "description": "Dia guiado de snowmobile sobre lagos congelados, sessão de pesca no gelo com almoço quente em fogueira aberta e à noite uma caçada à aurora de minivan."
+      },
+      {
+        "day": 4,
+        "title": "Papai Noel e o Círculo Ártico",
+        "description": "Bate-volta à Vila do Papai Noel e ao Santa Park para cruzar a linha do Círculo Ártico, voltando para uma longa sessão de sauna e ofurô à beira do lago."
+      },
+      {
+        "day": 5,
+        "title": "Ice floating e saunas",
+        "description": "Experimente o ice floating, a experiência assinatura do resort, em trajes secos sobre o lago congelado, seguido de um ritual de sauna e jantar tranquilo no lodge."
+      },
+      {
+        "day": 6,
+        "title": "Raquetes de neve e fotografia da aurora",
+        "description": "Caminhada de raquetes de neve pela floresta de pinheiros, piquenique à beira do lago em uma kota e à noite oficina de fotografia de aurora com guia local."
+      },
+      {
+        "day": 7,
+        "title": "Último café da manhã na beira do lago",
+        "description": "Café da manhã longo, última caminhada à beira do lago e transfer de 15 minutos de volta ao aeroporto de Rovaniemi para seu voo de retorno."
+      }
+    ],
+    "caveats": [
+      "O Apukka é familiar e divide o espaço com grupos da temporada do Papai Noel em dezembro — para uma atmosfera mais adulta, reserve de janeiro a março.",
+      "A observação da aurora depende de céu limpo; mesmo excelentes cabanas com claraboia não vencem nuvens carregadas, então planeje uma estadia mais longa para aumentar as chances.",
+      "Os invernos em torno de Rovaniemi costumam variar entre -10°C e -25°C, e o resort fica exposto à beira do lago, então venha vestido para frio sério.",
+      "Em dezembro os dias são muito curtos, com o sol nascendo por volta das 11h e se pondo entre 13h e 14h — encaixe todas as atividades ao ar livre dentro desse intervalo de luz."
+    ],
+    "faqs": [
+      {
+        "question": "Este hotel é bom para casais em lua de mel?",
+        "answer": "Sim — as Aurora Cabins com camas sob claraboia foram feitas para casais, ainda que o resort como um todo receba famílias nas semanas de pico do Natal."
+      },
+      {
+        "question": "Vamos ver a aurora boreal?",
+        "answer": "O Apukka fica dentro da zona auroral, com pouca poluição luminosa na margem do lago, mas a aurora depende do tempo — reserve pelo menos 4 a 5 noites para uma chance razoável."
+      },
+      {
+        "question": "Qual é o melhor mês para a aurora?",
+        "answer": "De setembro a março, com fevereiro e março costumando combinar céus mais limpos do que a média e noites longas e escuras."
+      },
+      {
+        "question": "Qual é a melhor época para visitar?",
+        "answer": "De janeiro a março para neve e aurora, junho para estadias à beira do lago sob o sol da meia-noite, e dezembro se você quiser a atmosfera completa de Lapônia-Papai-Noel."
+      },
+      {
+        "question": "O que vale reservar com antecedência?",
+        "answer": "Especificamente uma Aurora Cabin, as experiências com huskies e renas (que partem do próprio resort) e qualquer horário de ice floating ou snowmobile."
+      },
+      {
+        "question": "Como chegar?",
+        "answer": "Voe até Rovaniemi (RVN) e faça um transfer de 15 minutos que o próprio resort pode organizar."
+      }
+    ],
+    "email_template": "Assunto: Consulta de reserva para lua de mel — Apukka Resort\n\nOlá, equipe de reservas do Apukka,\n\nEstamos planejando nossa lua de mel e gostaríamos de reservar 7 noites, de [DATA] a [DATA], preferencialmente em uma Aurora Cabin. Vocês poderiam confirmar disponibilidade, informar a melhor tarifa e orientar sobre transfers a partir do aeroporto de Rovaniemi?\n\nTemos especial interesse nas experiências com huskies e renas no próprio resort, em uma sessão de ice floating, em uma expedição de snowmobile e em uma noite de fotografia de aurora durante a estadia.\n\nMuito obrigado(a),\n[NOMES]\n[E-MAIL] / [TELEFONE]"
+  }
+}

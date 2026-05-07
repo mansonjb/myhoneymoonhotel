@@ -1,0 +1,75 @@
+{
+  "content": {
+    "verdict": "O ION Adventure Hotel é o hotel de design para casais que querem que sua lua de mel na Islândia seja arquitetonicamente memorável. A propriedade se projeta de um campo de lava em Nesjavellir — a 45 minutos de Reykjavík, na porta do Parque Nacional de Þingvellir — em uma forma em concreto e vidro em balanço, que parece saída de um filme de James Bond. Os quartos são compactos, mas meticulosamente projetados: cortinas blackout, paredes em cascalho de lava, cabeceiras de madeira reaproveitada e janelas enormes voltadas para uma paisagem que pode passar de musgo verde no verão a brancura lunar de neve em uma semana. O Northern Lights Bar do hotel é, de fato, uma atração — uma longa ala de vidro com iluminação baixa, projetada para a observação da aurora — e a piscina geotermal externa, esculpida na encosta, é um dos momentos de lua de mel mais fotografados do país. Some uma cozinha que faz uma confiante culinária islandesa do produtor à mesa e você terá uma base elegante e cênica para explorar o sul e o oeste.",
+    "best_room": "Northern Lights Room — janelas do piso ao teto voltadas para a planície de lava e o corredor da aurora, cama king-size, ducha de chuva e um canto de leitura orientado para a vista.",
+    "itinerary_7_nights": [
+      {
+        "day": 1,
+        "title": "Chegada e primeiro mergulho na piscina",
+        "description": "Traslado de Keflavík (75 minutos), check-in, drinque de boas-vindas no Northern Lights Bar e mergulho à noite na piscina geotermal externa."
+      },
+      {
+        "day": 2,
+        "title": "Þingvellir e a fenda Silfra",
+        "description": "Curto trajeto de carro até o Parque Nacional de Þingvellir, snorkel ou mergulho guiado entre as placas tectônicas em Silfra e almoço em um café à beira do lago."
+      },
+      {
+        "day": 3,
+        "title": "Dia cultural em Reykjavík",
+        "description": "Dia na capital — Harpa, Hallgrímskirkja, a experiência FlyOver Iceland e jantar em um restaurante de menu de degustação em Reykjavík antes de voltar ao ION."
+      },
+      {
+        "day": 4,
+        "title": "Círculo Dourado",
+        "description": "Circuito completo do Círculo Dourado, incluindo Geysir e Gullfoss, parada na cratera Kerið e volta no fim da tarde para sauna e observação da aurora."
+      },
+      {
+        "day": 5,
+        "title": "Península de Snæfellsnes",
+        "description": "Bate-volta longo à península conhecida como 'Islândia em miniatura' — a montanha Kirkjufell, a praia de seixos pretos de Djúpalónssandur e a geleira Snæfellsjökull —, voltando sob um céu cravejado de estrelas."
+      },
+      {
+        "day": 6,
+        "title": "Cachoeiras da costa sul",
+        "description": "Seljalandsfoss, Skógafoss e a praia de areia preta de Reynisfjara, com adicional de caverna de gelo ou caminhada em geleira no inverno."
+      },
+      {
+        "day": 7,
+        "title": "Spa e despedida",
+        "description": "Manhã sem pressa, massagem a dois no ION Spa, último mergulho na piscina externa e curto traslado de volta a Keflavík."
+      }
+    ],
+    "caveats": [
+      "O hotel é remoto — não há cidade ou restaurantes a pé no entorno, então você vai dirigir ou usar traslados guiados para cada refeição fora do hotel.",
+      "Os quartos são bem projetados, mas não enormes; se você quer uma metragem de suíte de lua de mel, escolha de antemão um dos quartos de canto ou signature.",
+      "A piscina externa é aquecida geotermicamente, mas o caminho até ela é frio no inverno — leve ou peça emprestado um roupão e chinelos."
+    ],
+    "faqs": [
+      {
+        "question": "Esse hotel é bom para casais em lua de mel?",
+        "answer": "Sim — é um boutique voltado ao design, com piscina geotermal, bar otimizado para a aurora e um restaurante forte em uma das paisagens mais dramáticas da Islândia. Uma escolha muito boa para casais ligados a estilo."
+      },
+      {
+        "question": "Qual é a melhor época para visitar?",
+        "answer": "De setembro a março para a aurora, de junho a agosto para caminhadas sob o sol da meia-noite e snorkel em Silfra. O parque nacional ao redor é espetacular o ano todo."
+      },
+      {
+        "question": "O que vale reservar com antecedência?",
+        "answer": "Um Northern Lights Room, uma vaga de snorkel ou mergulho em Silfra, excursões ao Círculo Dourado e à Snæfellsnes e mesa para jantar no restaurante do hotel nas noites de pico."
+      },
+      {
+        "question": "É Só para adultos?",
+        "answer": "Não, o ION não é Só para adultos, mas atrai um público predominantemente adulto, ligado a design, e o clima costuma ser silencioso, com foco na natureza."
+      },
+      {
+        "question": "Qual é o melhor tipo de quarto para uma lua de mel?",
+        "answer": "O Northern Lights Room, com sua vista panorâmica, é a escolha-assinatura para a lua de mel. A Junior Suite acrescenta mais metragem e uma área de estar, se o orçamento permitir."
+      },
+      {
+        "question": "Como chegar?",
+        "answer": "Voe até Keflavík (KEF). O hotel está a cerca de 75 minutos de carro; reserve um traslado privativo ou alugue um carro para ter flexibilidade nas excursões."
+      }
+    ],
+    "email_template": "Assunto: Consulta de reserva para lua de mel — ION Adventure Hotel\n\nOlá, equipe do ION,\n\nMeu(minha) parceiro(a) e eu estamos planejando nossa lua de mel e gostaríamos de reservar 7 noites no ION Adventure Hotel entre [DATA] e [DATA], de preferência em um Northern Lights Room. Vocês poderiam confirmar a disponibilidade, a melhor tarifa disponível com café da manhã incluso e quaisquer cortesias de lua de mel que possam oferecer (champanhe, late check-out, crédito de spa)?\n\nGostaríamos também de pré-reservar um tour de snorkel em Silfra, um guia privativo para o Círculo Dourado e um tratamento a dois no ION Spa. Um traslado privativo de Keflavík seria muito bem-vindo.\n\nObrigado(a),\n[NOMES]\n[E-MAIL] / [TELEFONE]"
+  }
+}

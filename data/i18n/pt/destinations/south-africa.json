@@ -1,0 +1,104 @@
+{
+  "tagline": "Safári de dia, piscina infinita à noite — a lua de mel original do Big Five no planeta.",
+  "intro": "A África do Sul é o destino de lua de mel mais completo do mundo: safári Big Five na Sabi Sand, degustação de vinhos nos vales dourados de Stellenbosch, praias espetaculares e observação de baleias na costa do Cabo, e a Cidade do Cabo — possivelmente a cidade mais bonita do mundo — tudo dentro de um só país. Singita e os principais lodges da Sabi Sand definem o padrão global de luxo em safári. Nenhum outro destino combina densidade de fauna, qualidade de hospitalidade, cultura gastronômica e variedade natural da mesma forma.",
+  "bestTime": "Maio–Set (estação seca, melhor fauna)",
+  "flightFrom": "11–12h da Europa",
+  "topExperience": "Safári Big Five",
+  "perfectFor": [
+    "Casais que querem encontros com fauna ao lado de luxo cinco estrelas genuíno",
+    "Apaixonados por comida e vinho — a Cape Winelands rivaliza com Bordeaux e Borgonha",
+    "Quem quer máxima variedade: safári, cidade, praia e montanha em uma só viagem",
+    "Casais já planejando uma lua de mel única na vida, tipo bucket list",
+    "Apaixonados por fotografia — a luz na Sabi Sand ao amanhecer é extraordinária"
+  ],
+  "skipIf": [
+    "Safári não atrai — é o ponto central e difícil de substituir",
+    "Você quer praia o ano todo garantida — a costa do Cabo tem estações",
+    "Orçamento muito apertado — os melhores lodges da Sabi Sand começam em $1.500/noite por pessoa, all-inclusive",
+    "Viaja em dezembro–fevereiro com expectativas inflexíveis de praia — é pico de verão, com multidões"
+  ],
+  "experiences": [
+    {
+      "icon": "🦁",
+      "title": "Game drive Big Five ao amanhecer",
+      "description": "Saída do lodge às 5h30 num Land Rover aberto com um rastreador no capô. A primeira hora de luz — leões terminando uma caçada, elefantes em um aguadeiro, leopardo em uma marula — é a experiência africana definidora.",
+      "cost": "Incluso em lodges all-inclusive ($1.200–$2.500/noite por pessoa)",
+      "tip": "Peça veículo privativo se o lodge oferecer drives compartilhados. Máximo dois casais muda completamente a experiência. Gorjeta ao ranger e ao rastreador R200–R400 por pessoa por dia."
+    },
+    {
+      "icon": "🐆",
+      "title": "Drive noturno de leopardo na Sabi Sand",
+      "description": "A Reserva Sabi Sand tem a maior densidade de leopardos de qualquer área protegida da África. Drives noturnos com lanterna revelam leopardos, hienas, jaguatiricas-civeta e bacuraus na escuridão.",
+      "cost": "Incluso em lodges all-inclusive",
+      "tip": "Peça especificamente avistamento de leopardo ao seu ranger. Os lodges da Sabi Sand compartilham informações — um bom ranger já chega ao acampamento com pista."
+    },
+    {
+      "icon": "🍷",
+      "title": "Degustação privativa na Cape Winelands",
+      "description": "Stellenbosch e Franschhoek produzem Chenin Blanc, Cabernet Sauvignon e Pinotage de classe mundial. Uma degustação privativa em Waterford, Babylonstoren ou La Motte com sommelier e vista para as Drakenstein.",
+      "cost": "R500–$1.500 por tour privativo e degustação",
+      "tip": "Hospede-se em Babylonstoren para a fazenda mais romântica. Reserve o restaurante Babel com 4 semanas — o almoço farm-to-table sob as montanhas é uma das grandes refeições da África do Sul."
+    },
+    {
+      "icon": "🐋",
+      "title": "Observação de baleias em Hermanus",
+      "description": "Baleias-franca-austral visitam Walker Bay de junho a novembro — a melhor observação a partir de terra do mundo. Das falésias em Hermanus, baleias saltam e amamentam filhotes a metros da costa.",
+      "cost": "Grátis pelos caminhos costeiros; passeios de barco R1.200–$2.500 por casal",
+      "tip": "Setembro–outubro para o pico. Um quarto na Birkenhead House dá para a baía — você assiste da banheira."
+    },
+    {
+      "icon": "🏔️",
+      "title": "Table Mountain ao nascer do sol",
+      "description": "O teleférico ao topo da Table Mountain às 6h30, antes de as nuvens entrarem e os grupos turísticos chegarem. Vistas de 360° sobre a Cidade do Cabo, o Atlantic Seaboard e a colônia de pinguins de Boulders.",
+      "cost": "R350 por pessoa, ida e volta no teleférico",
+      "tip": "Cheque o tempo na noite anterior — a montanha tem microclima e fica encoberta em 30% dos dias. O teleférico opera a partir das 8h; chegue às 7h45 para a primeira rotação."
+    }
+  ],
+  "months": [
+    { "month": "Jan", "weather": "Verão quente e seco na Cidade do Cabo, drives quentes", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Pico de verão, cheio e caro" },
+    { "month": "Feb", "weather": "Quente, seco, ótimo no Cabo", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Lindo, mas lotado e caro" },
+    { "month": "Mar", "weather": "Quente, início do outono, excelente", "emoji": "🌤", "crowds": "Moderada", "price": "Médio", "verdict": "Subestimado — quente e menos cheio" },
+    { "month": "Apr", "weather": "Mais fresco, cores de outono nas Winelands", "emoji": "🍂", "crowds": "Baixa-mod.", "price": "Baixo-médio", "verdict": "Excelente para Winelands e cidade" },
+    { "month": "May", "weather": "Começa estação seca, safári melhora", "emoji": "🌿", "crowds": "Baixa", "price": "Baixo-médio", "verdict": "Fauna se concentrando, ótimo valor" },
+    { "month": "Jun", "weather": "Seco, fresco, baleias chegam, melhor safári", "emoji": "🐋", "crowds": "Baixa", "price": "Médio", "verdict": "Começa o ponto doce baleias + safári" },
+    { "month": "Jul", "weather": "Seco, fresco, fauna no pico, baleias no pico", "emoji": "🦁", "crowds": "Moderada", "price": "Médio-alto", "verdict": "Excelente fauna, manhãs mais frescas" },
+    { "month": "Aug", "weather": "Seco, fresco, ótimos avistamentos", "emoji": "🦁", "crowds": "Moderada", "price": "Médio-alto", "verdict": "Safári excelente, baleias ainda ótimas" },
+    { "month": "Sep", "weather": "Seco, esquentando, melhor mês para tudo", "emoji": "☀️", "crowds": "Moderada", "price": "Alto", "verdict": "O melhor mês isolado da África do Sul" },
+    { "month": "Oct", "weather": "Primavera, flores, filhotes nascendo", "emoji": "🌸", "crowds": "Moderada", "price": "Alto", "verdict": "Magnífico — recém-nascidos e flores" },
+    { "month": "Nov", "weather": "Começa estação verde, exuberante, risco de chuva", "emoji": "🌦", "crowds": "Baixa", "price": "Médio", "verdict": "Bom valor, tempestades ocasionais" },
+    { "month": "Dec", "weather": "Quente, úmido no bush, verão no Cabo", "emoji": "🌧", "crowds": "Máxima", "price": "Máximo", "verdict": "Cidade do Cabo excelente; bush é abafado" }
+  ],
+  "budgetTiers": [
+    { "label": "Safári e cidade acessíveis", "range": "$300–$700/noite", "gets": "Lodge intermediário com game drives inclusos. Boa fauna. Hotel boutique na Cidade do Cabo. A experiência sul-africana sem o preço Singita.", "example": "Thornybush Collection, Kapama Buffalo Camp, The Silo Cape Town, The Twelve Apostles" },
+    { "label": "Premium", "range": "$700–$1.500/noite por pessoa", "gets": "Lodge top em reserva premier. Todas as refeições, drives e bebidas inclusas. Hotel ultra-luxo na Cidade do Cabo.", "example": "Lion Sands Ivory Lodge, &Beyond Phinda, One&Only Cape Town, Ellerman House" },
+    { "label": "Ultra-luxo", "range": "$1.500–$3.000+/noite por pessoa", "gets": "All-inclusive nível Singita. Veículo privativo, comida de classe mundial, mordomo, plunge pool, os mais altos padrões de fauna do continente.", "example": "Singita Sabi Sand, Royal Malewane, Singita Lebombo" }
+  ],
+  "areas": [
+    { "name": "Sabi Sand / Kruger", "bestFor": "Safári Big Five, melhor guiamento da África", "description": "A Sabi Sand divide fronteira sem cerca com o Kruger. A maior concentração de leopardos da África, mais leão, elefante, rinoceronte e búfalo. Singita e Lion Sands estão aqui." },
+    { "name": "Cape Winelands", "bestFor": "Vinho, comida, paisagens de montanha", "description": "Stellenbosch (vinícolas, restaurantes), Franschhoek (capital gourmet) e Paarl (cenário de montanhas mais dramático). 45 min da Cidade do Cabo. Mínimo de duas noites." },
+    { "name": "Cidade do Cabo", "bestFor": "Romance urbano, Table Mountain, praias", "description": "Uma das cidades mais bonitas do mundo. V&A Waterfront, praia de Camps Bay, colônia de pinguins de Boulders e a Península do Cabo. Reserve no mínimo 3 noites." },
+    { "name": "Hermanus", "bestFor": "Observação de baleias, paisagens costeiras", "description": "A melhor observação de baleias a partir de terra do mundo, de junho a novembro. A Garden Route segue para leste daqui. Birkenhead House é um dos melhores hotéis boutique do país." }
+  ],
+  "expertTips": [
+    { "tip": "Combine safári e Cidade do Cabo — estão a 2h de voo", "detail": "A lua de mel clássica é 4 noites de safári na Sabi Sand → voo à Cidade do Cabo → 3 noites na cidade → 2 nas Winelands. Ritmo perfeito, cobrindo os principais cartões da África do Sul." },
+    { "tip": "Veículo privativo no safári vale cada rand", "detail": "Game drives compartilhados (4–8 hóspedes) são excelentes. Veículo privativo (suplemento de $200–$400/dia) significa parar pelo tempo que quiser, ir aonde quiser e o guia trabalhar só para você." },
+    { "tip": "O Big Five é, na verdade, o Dangerous Five — não é só lista de tamanho", "detail": "Leão, leopardo, elefante, búfalo-do-Cabo e rinoceronte foram nomeados por serem os mais perigosos de caçar a pé. Entender o ranking faz cada avistamento aterrissar diferente." },
+    { "tip": "Reserve o teleférico da Table Mountain online no dia anterior", "detail": "Filas no verão passam de 2h. Pré-reserva online (R380/p) dá entrada com horário marcado. Cheque o tempo — se estiver nublado, remarque." }
+  ],
+  "packing": [
+    { "item": "Roupas neutras de safári (cáqui, oliva, bege)", "why": "Cores escuras atraem mosca tsé-tsé. Cores vivas perturbam fauna e outros hóspedes. Tons neutros são práticos e confortáveis." },
+    { "item": "Camada quente para drives matinais", "why": "Veículos abertos às 5h30 em junho–agosto podem fazer 5–10°C. Os lodges fornecem cobertores, mas um fleece ou colete de pluma é essencial no inverno." },
+    { "item": "Chapéu de aba larga e FPS alto", "why": "O sol sul-africano em altitude (o Kruger fica a 400 m) é forte. Chapéu dobrável e FPS 50 são inegociáveis nos drives da tarde." },
+    { "item": "Binóculos (8x42 no mínimo)", "why": "Avistar animais antes do ranger é uma das alegrias do safári. Um par decente transforma a experiência." },
+    { "item": "Smart-casual para a Cidade do Cabo", "why": "Os melhores restaurantes da cidade têm dress code smart-casual relaxado. Um look decente evita constrangimento no jantar." }
+  ],
+  "guide": {
+    "getting": "Voe a Joanesburgo O.R. Tambo (JNB) ou Cidade do Cabo (CPT). De Londres: direto pela British Airways, South African Airways ou Virgin (11h). Da Europa: direto de Amsterdã (KLM), Frankfurt (Lufthansa), Paris (Air France). De JNB: conexão a Kruger Mpumalanga (MQP) ou Hoedspruit (HDS) para a Sabi Sand — voo de 45 min ou 4h de carro. NÃO dirija de JNB ao bush após o pôr do sol. O roteiro padrão: voo a JNB → transfer ao lodge → voo a CPT → programa Cidade do Cabo → voo de volta.",
+    "where": "Para safári: Sabi Sand é a escolha premium. Phinda, Timbavati e Thornybush são ótimas alternativas. Para a Cidade do Cabo: De Waterkant, V&A Waterfront e Camps Bay são os três bairros mais românticos. Nas Winelands, Babylonstoren ou La Residence em Franschhoek para a experiência mais especial.",
+    "when": "Maio–setembro é estação seca — melhor avistamento (animais se concentram em aguadeiros) e temperaturas mais confortáveis para drives matinais. Setembro–outubro é excelente: flores de primavera e filhotes. Junho–novembro para baleias em Hermanus. A Cidade do Cabo é o ano todo, mas novembro–março é pico de verão com o melhor tempo de praia."
+  },
+  "localFood": "Braai (o churrasco sul-africano — cupim de boi, costeletas de cordeiro e boerewors em fogo de lenha — religião nacional), biltong (carne curada e seca, o petisco perfeito de safári), bunny chow (pão escavado recheado de curry, especialidade de Durban), bobotie do Cabo Malaio (carne moída temperada com cobertura de creme de ovo — o prato mais característico do Cabo), Chenin Blanc de Stellenbosch com chocolate Waterford. A cena de restaurantes nas Winelands — Le Quartier Français em Franschhoek, Jordan Wine Estate, The Pot Luck Club na Cidade do Cabo — é classe mundial.",
+  "currency": "Rand sul-africano (ZAR) — lodges costumam cotar em USD",
+  "language": "Inglês é uma das 11 línguas oficiais e universalmente usado no turismo",
+  "timezone": "UTC+2 (South Africa Standard Time)"
+}

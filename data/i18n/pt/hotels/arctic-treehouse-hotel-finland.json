@@ -1,0 +1,76 @@
+{
+  "content": {
+    "verdict": "O Arctic TreeHouse Hotel é o que acontece quando o design finlandês aterrissa numa floresta de pinheiros nevada nos arredores de Rovaniemi — pequenos pods de cabana em madeira e vidro elevados sobre palafitas, cada um com uma janela do piso ao teto que enquadra apenas abetos, neve e (idealmente) a aurora. É mais arquitetônico do que tribal, menos espetáculo de iglu e mais minimalismo nórdico: interiores em madeira clara, cama king posicionada junto à janela, uma pequena área de estar e o calor de um quatro-estrelas de qualidade em vez de uma cabana rústica. O Rakas Restaurant, no próprio hotel, entrega cozinha lapã de verdade — carpaccio de rena, savel ártico defumado, sobremesas com cloudberry — e a localização ao lado do Santa Park coloca o Círculo Ártico, os canis de huskies e o aeroporto de Rovaniemi todos dentro de um raio fácil. Casais em lua de mel ganham uma base mais silenciosa e atenta ao design do que nos grandes resorts de iglus da Lapônia, com a vantagem prática de estar a só 10 minutos de um aeroporto importante.",
+    "best_room": "Arctic TreeHouse Suite com terraço — pod de cabana em dois pavimentos, com cama king junto à janela panorâmica, terraço privativo voltado para a floresta e uma banheira de imersão para dois com vista para os pinheiros.",
+    "itinerary_7_nights": [
+      {
+        "day": 1,
+        "title": "Chegada em Rovaniemi",
+        "description": "Voe até Rovaniemi (RVN), transfer de 10 minutos até o Arctic TreeHouse e instale-se em sua suíte. Jantar no Rakas Restaurant e a primeira observação de aurora pela janela panorâmica."
+      },
+      {
+        "day": 2,
+        "title": "Papai Noel e o Círculo Ártico",
+        "description": "Caminhe até o Santa Park ao lado, cruze a linha do Círculo Ártico e visite a Vila do Papai Noel pela manhã. Sessão de spa e ofurô a céu aberto à noite."
+      },
+      {
+        "day": 3,
+        "title": "Safári com huskies",
+        "description": "Experiência de meio dia em trenó de huskies com um canil da região de Rovaniemi, incluindo um almoço quente no canil. À noite, caçada à aurora de minivan com um guia local."
+      },
+      {
+        "day": 4,
+        "title": "Fazenda de renas",
+        "description": "Visita a uma fazenda de renas em operação, passeio de trenó pela floresta e almoço em uma kota tradicional. Tarde longa e tranquila em seu pod TreeHouse."
+      },
+      {
+        "day": 5,
+        "title": "Snowmobile e pesca no gelo",
+        "description": "Dia guiado de snowmobile sobre lagos congelados, sessão de pesca no gelo com linha de mão e almoço à beira do rio em fogueira aberta. Sauna e jantar tranquilo de volta ao hotel."
+      },
+      {
+        "day": 6,
+        "title": "Raquetes de neve e passeio pelo design",
+        "description": "Caminhada de raquetes de neve pela floresta ao redor, almoço no centro de Rovaniemi (experimente o Nili ou um dos bistrôs lapões) e uma volta pelos prédios cívicos de Alvar Aalto antes de voltar à base."
+      },
+      {
+        "day": 7,
+        "title": "Último café da manhã",
+        "description": "Café da manhã longo dentro do pod, última caminhada na neve fresca pela floresta e um curto transfer de volta ao aeroporto de Rovaniemi para seu voo de retorno."
+      }
+    ],
+    "caveats": [
+      "A aurora depende do tempo e Rovaniemi fica em latitude um pouco mais baixa do que Saariselkä ou Inari, então planeje noites extras para aumentar a chance de céu limpo.",
+      "Em pleno inverno, as temperaturas diurnas em torno de Rovaniemi costumam ficar entre -10°C e -25°C; roupa térmica e botas adequadas são indispensáveis.",
+      "O Santa Park e as atrações do Círculo Ártico podem ficar cheios de visitantes de bate-volta em dezembro — visitas no comecinho da manhã preservam a magia.",
+      "Os dias são muito curtos entre meados de novembro e o fim de janeiro — encaixe a maior parte das atividades ao ar livre na curta janela de luz."
+    ],
+    "faqs": [
+      {
+        "question": "Este hotel é bom para casais em lua de mel?",
+        "answer": "Sim — as TreeHouse Suites são pensadas para dois, com janelas panorâmicas para a floresta e banheiras no terraço que funcionam lindamente para uma estadia ártica romântica."
+      },
+      {
+        "question": "Vamos ver a aurora boreal?",
+        "answer": "Rovaniemi fica na zona auroral e noites limpas rendem boas vistas, mas a aurora nunca é garantida — reserve no mínimo 4 a 5 noites para uma chance razoável."
+      },
+      {
+        "question": "Qual é o melhor mês para a aurora?",
+        "answer": "Do fim de setembro a março, sendo que a melhor combinação de céu escuro e tempo mais limpo do que a média costuma cair em fevereiro e março."
+      },
+      {
+        "question": "Qual é a melhor época para visitar?",
+        "answer": "Dezembro para a experiência completa de Natal na Lapônia, incluindo o Santa Park; de janeiro a março para neve e aurora; e junho para o sol da meia-noite sem fim."
+      },
+      {
+        "question": "O que vale reservar com antecedência?",
+        "answer": "Uma Arctic TreeHouse Suite com terraço, um jantar-degustação no Rakas Restaurant, as experiências com huskies e renas e uma caçada à aurora se a estadia for curta."
+      },
+      {
+        "question": "Como chegar?",
+        "answer": "Voe direto até Rovaniemi (RVN) a partir de Helsinki ou de vários hubs europeus no inverno — o hotel está a 10 minutos de táxi ou transfer do terminal."
+      }
+    ],
+    "email_template": "Assunto: Consulta de reserva para lua de mel — Arctic TreeHouse Hotel\n\nOlá, equipe de reservas do Arctic TreeHouse,\n\nEstamos planejando nossa lua de mel e gostaríamos de reservar 7 noites, de [DATA] a [DATA], preferencialmente em uma Arctic TreeHouse Suite com terraço. Vocês poderiam confirmar disponibilidade, informar a melhor tarifa e orientar sobre transfers a partir do aeroporto de Rovaniemi?\n\nTemos especial interesse em organizar um safári com huskies, um passeio de trenó com renas, um dia de snowmobile e um jantar-degustação no Rakas Restaurant durante a estadia.\n\nMuito obrigado(a),\n[NOMES]\n[E-MAIL] / [TELEFONE]"
+  }
+}
