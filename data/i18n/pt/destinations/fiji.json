@@ -1,0 +1,75 @@
+{
+  "tagline": "Ilhas privadas, hospitalidade melanésia calorosa e a água mais turquesa que você já viu.",
+  "intro": "Fiji é o coração caloroso do Pacífico Sul — 333 ilhas espalhadas por um mar tão intensamente turquesa que parece editado digitalmente, habitadas por um povo cuja calidez e alegria naturais são genuinamente diferentes de qualquer outro lugar. A cena de resorts de luxo é excepcional em todas as faixas de preço, dos bangalôs pé na areia das Mamanucas a Laucala Island — um dos resorts em ilha privada mais extraordinários do mundo. O sistema de recifes está entre os mais saudáveis do Pacífico, as cerimônias de kava são uma vivência cultural genuína e o cumprimento \"Bula!\" que você ouvirá cem vezes ao dia nunca deixa de soar sincero. Fiji funciona como lua de mel autônoma ou como a perna pacífica de uma escala em Los Angeles ou Sydney.",
+  "bestTime": "Mai–Out",
+  "flightFrom": "18-22h da Europa / 10h de LA",
+  "topExperience": "Luxo em ilha privativa",
+  "perfectFor": [
+    "Sonhadores de ilha privativa — Fiji tem mais resorts em ilhas privadas acessíveis do que qualquer lugar",
+    "Casais voando por Los Angeles, Sydney ou Auckland — Fiji é escala natural",
+    "Mergulhadores e snorkelers — Coral Coast e Kadavu têm recifes de classe mundial",
+    "Quem quer calidez cultural genuína junto com luxo pé na areia",
+    "Casais que querem reclusão total sem o voo de 20h da Polinésia Francesa"
+  ],
+  "skipIf": [
+    "Você está na Europa sem outro motivo Pacífico para viajar — 22+ horas é muito por uma praia",
+    "Quer jantar urbano e variedade cultural entre dias de praia",
+    "Viajar em estação de furacões (novembro-abril) te deixa ansioso — risco de ciclone é real",
+    "Orçamento muito apertado — até a Fiji intermediária requer $300+/noite"
+  ],
+  "experiences": [
+    { "icon": "🌊", "title": "Bate-volta a ilha privativa, Yasawas", "description": "Alugue uma lancha até uma das Yasawas desabitadas — areia branca, jardim de coral logo em frente e ninguém mais. Seu hotel organiza piquenique gourmet, equipamento de snorkel e te recolhe ao pôr do sol. A experiência mais quintessencialmente Fiji.", "cost": "$200-500 por casal (charter)", "tip": "Peça ao hotel para preparar uma marmita lovo tradicional ao lado do champanhe — combinação única que poucos pedem." },
+    { "icon": "🤿", "title": "Mergulho no Great Astrolabe Reef", "description": "O Great Astrolabe Reef em torno de Kadavu é uma das maiores barreiras de coral do Pacífico — 90 km de paredes de coral preservadas com mantas, tubarões-martelo e jardins extraordinários de coral mole, com visibilidade superior a 30 m.", "cost": "$80-150 por mergulho duplo", "tip": "Hospede-se em um lodge de mergulho em Kadavu em vez de bate-volta de Nadi — o recife está a 45 min de lancha do lodge, não a 3h da ilha principal." },
+    { "icon": "🥥", "title": "Cerimônia tradicional de kava", "description": "Toda chegada a uma vila ou resort fijiano envolve uma cerimônia de kava — troca formal de presentes e discursos seguida do compartilhamento de yaqona (raiz de kava) numa tigela de madeira comunal. É terrosa, ligeiramente entorpecente e genuinamente significativa.", "cost": "Geralmente incluso nos resorts", "tip": "Participe plenamente — bata uma palma antes de beber, diga \"bula!\" alto e esvazie a cuia. Meia-boca é notada e a cerimônia perde o sentido. A bebida é completamente segura e não alcoólica." },
+    { "icon": "🍽️", "title": "Banquete tradicional lovo", "description": "Comida cozida lentamente na noite anterior em pedras vulcânicas quentes enterradas — frango, peixe, taro e batata-doce em folhas de bananeira, desenterrados na hora do banquete. Todos os resorts de luxo oferecem; a versão cerimonial com narrativas de vila e dança meke é extraordinária.", "cost": "Incluso na maioria dos resorts (evento semanal)", "tip": "Pergunte se o resort faz um lovo de vila em vez de in-house — viajar a uma vila vizinha para o banquete muda a experiência inteira." },
+    { "icon": "🏄", "title": "Surf em Cloudbreak ou Restaurants", "description": "Fiji recebe duas das ondas mais famosas do mundo — Cloudbreak e Restaurants (Tavarua). Cloudbreak é left perigosa, só para experientes; Restaurants é mais acessível. O Tavarua Island Resort opera os melhores charters.", "cost": "$150-400 por dia (charter)", "tip": "Não surfistas: o passeio de barco até Cloudbreak para ver as ondas do canal é genuinamente espetacular mesmo sem entrar n'água." }
+  ],
+  "months": [
+    { "month": "Jan", "weather": "Estação de ciclones, quente e úmido", "emoji": "🌧", "crowds": "Baixa-média", "price": "Baixo", "verdict": "Risco de ciclone — evite se possível" },
+    { "month": "Feb", "weather": "Mês mais úmido, risco de ciclone", "emoji": "🌧", "crowds": "Baixa", "price": "Mínimo", "verdict": "Maior risco de ciclone" },
+    { "month": "Mar", "weather": "Ainda úmido, diminuindo", "emoji": "🌦", "crowds": "Baixa", "price": "Baixo", "verdict": "Melhorando devagar" },
+    { "month": "Apr", "weather": "Transição — secando bem", "emoji": "⛅", "crowds": "Baixa", "price": "Baixo-médio", "verdict": "Mês de baixa subestimado" },
+    { "month": "May", "weather": "Começa estação seca, excelente", "emoji": "🌤", "crowds": "Média", "price": "Médio", "verdict": "Escolha perfeita de abertura" },
+    { "month": "Jun", "weather": "Seco, quente, ideal", "emoji": "☀️", "crowds": "Média", "price": "Médio", "verdict": "Excelente em todos os aspectos" },
+    { "month": "Jul", "weather": "Pico da estação seca, impecável", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Melhor clima, mais popular" },
+    { "month": "Aug", "weather": "Seco e lindo", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Férias escolares — muito cheio" },
+    { "month": "Sep", "weather": "Ainda excelente, esvaziando", "emoji": "☀️", "crowds": "Média", "price": "Médio-alto", "verdict": "Ponto doce — ótimo custo-benefício" },
+    { "month": "Oct", "weather": "Fim da estação seca, ainda bom", "emoji": "🌤", "crowds": "Baixa-média", "price": "Médio", "verdict": "Boas ofertas disponíveis" },
+    { "month": "Nov", "weather": "Estação úmida se formando", "emoji": "⛅", "crowds": "Baixa", "price": "Baixo-médio", "verdict": "Algum risco, preços mais baixos" },
+    { "month": "Dec", "weather": "Úmido, festivo, abre estação de ciclones", "emoji": "🌦", "crowds": "Alta", "price": "Alto", "verdict": "Premium festivo, algum risco climático" }
+  ],
+  "budgetTiers": [
+    { "label": "Resort em ilha das Mamanucas", "range": "$300-600/noite", "gets": "Belo resort de ilha, piscina, snorkel em recife, ótima comida, transfers de lancha de Nadi. Excelente custo-benefício para sensação de ilha privativa.", "example": "Tokoriki Island Resort, Mana Island Resort, Likuliku Lagoon" },
+    { "label": "Yasawa premium", "range": "$600-1.500/noite all-inclusive", "gets": "Ilha mais remota, mais reclusão, refeições e atividades incluídas, recife superb, menos hóspedes. A experiência de lua de mel Fiji propriamente dita.", "example": "Yasawa Island Resort, Qamea Resort & Spa, Vatulele Island Resort" },
+    { "label": "Ilha privativa ultra", "range": "$2.000-10.000+/noite", "gets": "Um dos resorts em ilha privada mais extraordinários do mundo — exclusividade total, transfer de avião privativo, equipe maior que o número de hóspedes, todo desejo antecipado.", "example": "Laucala Island, Turtle Island, Kokomo Private Island" }
+  ],
+  "areas": [
+    { "name": "Ilhas Mamanuca", "bestFor": "Luxo acessível, mais resorts, transfers mais fáceis", "description": "Cadeia de pequenas ilhas a 30-60 min de lancha de Nadi. A área de resorts mais desenvolvida com a maior variedade de hotéis em todas as faixas. O Likuliku Lagoon é o único resort com bangalôs sobre a água em Fiji." },
+    { "name": "Ilhas Yasawa", "bestFor": "Beleza remota, reclusão premium, cenários dramáticos", "description": "Cadeia de 90 km de ilhas vulcânicas a 2-3h em catamarã rápido ou 30 min de hidroavião de Nadi. Mais remota, mais dramática, menos turistas. Yasawa Island Resort e Qamea estão entre as melhores propriedades de Fiji." },
+    { "name": "Vanua Levu (Norte)", "bestFor": "Eco-luxo, fazendas de baunilha, fora do circuito", "description": "Segunda maior ilha de Fiji — bem menos visitada que Viti Levu. Koro Sun Resort e Cousteau Resort oferecem luxo eco-consciente com mergulho excelente. Um canto genuinamente inexplorado para casais autênticos." },
+    { "name": "Kadavu", "bestFor": "Mergulho de classe mundial, reclusão total", "description": "Ilha remota ao sul de Viti Levu com o Great Astrolabe Reef à porta. Quase nenhum turismo casual — só lodges dedicados ao mergulho. Um dos principais destinos de mergulho do Pacífico para mantas, tubarões de recife e coral preservado." }
+  ],
+  "expertTips": [
+    { "tip": "Voe via LA ou Sydney para economizar tempo", "detail": "Da Europa, Fiji exige escala — Los Angeles (Fiji Airways) ou Sydney são os hubs naturais. Usar a cidade de escala por 2 noites em cada direção transforma a viagem em parte da lua de mel, não em provação." },
+    { "tip": "Transfers de hidroavião são experiência por si só", "detail": "Turtle Airways e Pacific Island Air conectam Nadi aos resorts remotos por hidroavião — voos de 15-40 min sobre sistemas de recife turquesa em baixa altitude. A aproximação para pousar na água é espetacular. Reserve junto com o resort." },
+    { "tip": "Reserve tarifas all-inclusive", "detail": "Os resorts remotos de Fiji não têm alternativas para comida e bebida — tudo é dentro do resort. Tarifas all-inclusive evitam susto na conta e permitem relaxar de verdade. Yasawa e Mamanuca cotam por pessoa incluindo refeições e atividades no nível mais alto." },
+    { "tip": "Participe genuinamente da cultura fijiana", "detail": "A cerimônia de kava, o lovo e a meke não são shows turísticos — são práticas culturais genuínas, executadas com orgulho. Participação real (aprender as palmas, tentar as palavras, aceitar a cuia) transforma a experiência e é profundamente apreciada." },
+    { "tip": "Cheque seguro de ciclone antes de reservar", "detail": "A estação de ciclones em Fiji vai de novembro a abril. Se for viajar nessa janela, garanta que o seguro cubra explicitamente disrupções por ciclone — muitas apólices padrão excluem tempestades tropicais nomeadas. As Mamanucas são as mais expostas." }
+  ],
+  "packing": [
+    { "item": "Apenas protetor solar reef-safe", "why": "Os recifes de Fiji são protegidos por lei — muitos resorts e a lei fijiana proíbem protetores químicos; só mineral é permitido" },
+    { "item": "Sulu (canga/sarongue)", "why": "Necessário para entrar em vilas fijianas — uma canga modesta na cintura é essencial; resorts emprestam, mas a sua é mais confortável" },
+    { "item": "Caixa subaquática para câmera", "why": "O snorkel e mergulho são extraordinários demais para deixar só nas fotos de superfície — uma caixa simples transforma a fotografia de recife" },
+    { "item": "Repelente (DEET)", "why": "Mosquitos presentes sobretudo ao amanhecer/entardecer — risco de dengue existe; se cubra nesses horários" },
+    { "item": "Saco estanque para water taxis", "why": "Todos os transfers entre ilhas envolvem lanchas abertas — proteção essencial para câmeras, celulares e passaportes" }
+  ],
+  "guide": {
+    "getting": "Voe para o Aeroporto Internacional de Nadi (NAN) — o portão principal. Fiji Airways voa direto de Los Angeles (10h), Sydney (4h), Auckland (3h) e Tóquio (7h). Da Europa: conecte por LA (melhor), Sydney ou Cingapura. De NAN, o resort organiza transfers: lancha (30-90 min, $50-200 cada trecho) para Mamanuca/Yasawa, ou hidroavião ($200-500 cada trecho) para propriedades mais remotas. Todo resort de luxo organiza retirada no aeroporto — confirme antes.",
+    "where": "Primeira viagem: Mamanucas pela acessibilidade e variedade. Mais romântico: Likuliku Lagoon (únicos overwater de Fiji) ou Yasawa Island Resort. Melhor mergulho: lodges de Kadavu ou Qamea. Fantasia de ilha privativa: Laucala Island (reserve com 1 ano, orçamento à altura). Para 10 noites: 7 nas Yasawa + 3 em Nadi/Mamanuca para acesso fácil ao aeroporto.",
+    "when": "Maio a outubro é a estação seca — única janela para reservar com confiança. Julho e agosto são pico com clima perfeito. Setembro é o ponto doce: estação seca, preços mais baixos, multidões mais finas. Evite novembro a abril se possível — estação de ciclones cria risco real de disrupção mesmo em anos sem impactos diretos."
+  },
+  "localFood": "Kokoda (ceviche fijiano — peixe cru marinado em creme de coco e limão), banquete lovo (comida cozida em pedras quentes enterradas), palusami (creme de coco em folhas de taro assadas em forno de terra), mamão fresco com limão no café da manhã e cerimônia de kava (raiz de pimenta tradicional) compartilhada com os anfitriões. Todos os resorts de luxo oferecem lovo tradicional e boas-vindas com kava.",
+  "currency": "Dólar fijiano (FJD) — a maioria dos resorts cota em AUD ou USD",
+  "language": "Inglês, fijiano, hindi (todas oficiais)",
+  "timezone": "UTC+12"
+}

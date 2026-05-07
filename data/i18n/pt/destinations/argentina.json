@@ -1,0 +1,106 @@
+{
+  "tagline": "Tango em Buenos Aires, geleiras na Patagônia e vinhedos aos pés dos Andes — a lua de mel mais variada da América do Sul.",
+  "intro": "A Argentina é a lua de mel que entrega três viagens distintas em um só país. Comece em Buenos Aires, a cidade hispano-falante mais bonita do mundo — uma combinação de arquitetura parisiense, paixão romana e a energia noturna crua do tango — hospedando-se em Recoleta no Park Hyatt Palacio Duhau ou no Alvear Palace. Voe duas horas a oeste até Mendoza e o Vale do Uco, onde sua vila privativa no Cavas Wine Lodge ou Vines Resort fica entre vinhas de Malbec e os Andes nevados. Depois, ao sul, à Patagônia — geleiras avançando em El Calafate, agulhas de granito em El Chaltén, lagos alpinos de Bariloche — para o arco de aventura da lua de mel. A taxa de câmbio segue vantajosa para viajantes internacionais; os hotéis cotam em USD e o serviço nesse nível é uma genuína pechincha frente a padrões europeus ou caribenhos.",
+  "bestTime": "Nov–Mar (Patagônia) e Out–Dez (colheita em Mendoza)",
+  "flightFrom": "12–14h da Europa",
+  "topExperience": "Vinho e natureza selvagem",
+  "perfectFor": [
+    "Casais aventureiros que querem caminhadas, geleiras e vinho em uma só lua de mel",
+    "Amantes de vinho — Mendoza é a quarta maior região vinícola do mundo e uma das de melhor custo-benefício",
+    "Viajantes culturais — Buenos Aires é a Paris do Sul",
+    "Românticos de longa distância que querem isolamento real na Patagônia sem preços de safári",
+    "Casais obcecados por gastronomia — carne argentina, Francis Mallmann e a deslumbrante cena gastronômica de BA"
+  ],
+  "skipIf": [
+    "Você precisa de uma lua de mel de praia — a Argentina tem, mas são praias de Atlântico frio",
+    "Você tem só 7 dias — 10–14 noites no mínimo para fazer BA + Mendoza + Patagônia direito",
+    "Viaja em junho–agosto — o inverno patagônico fecha a maioria dos lodges; BA fica fria e cinza",
+    "Não está confortável com voos internos longos (BA a El Calafate é 3h30)"
+  ],
+  "experiences": [
+    {
+      "icon": "🥩",
+      "title": "Jantar Milonga no El Mercado Faena",
+      "description": "El Mercado no Faena não é só um restaurante — é teatro. Grelhas a fogo aberto no centro do salão, uma carta de vinhos argentinos de 40 páginas, e um show de tango noturno no adjacente Rojo Tango. O jantar definitivo de lua de mel em Buenos Aires.",
+      "cost": "$120–$200/casal no El Mercado; jantar-show Rojo Tango $380/casal",
+      "tip": "Reserve o Rojo Tango para uma sexta ou sábado, às 20h30 com pacote de jantar. Sente na primeira ou segunda fila — os dançarinos ficam a poucos passos."
+    },
+    {
+      "icon": "🍇",
+      "title": "Almoço de vinhedo no Vines, Vale do Uco",
+      "description": "O Vale do Uco é a fronteira premium de altitude (1.100 m) de Mendoza. O Siete Fuegos do Vines Resort — desenhado por Francis Mallmann — é uma cozinha aberta de sete fogueiras que produz a carne argentina mais teatral do mundo. O menu degustação com caminhada pelo vinhedo é a tarde definitiva no Uco.",
+      "cost": "Almoço com harmonização $180–$260/casal",
+      "tip": "Vá para o horário das 13h para ter luz plena dos Andes. Peça um tour pelo vinhedo antes do almoço (gratuito para hóspedes do Vines, ~$50 para visitantes)."
+    },
+    {
+      "icon": "🧊",
+      "title": "Caminhada na geleira Perito Moreno",
+      "description": "Uma das poucas geleiras do planeta ainda em avanço — 5 km de largura, 70 m de altura, despencando gelo no Lago Argentino com estrondos de canhão. A \"minitrekking\" de 90 min com grampons sobre o gelo é o dia signature de El Calafate.",
+      "cost": "Minitrekking $120/pessoa; \"Big Ice\" 4h $220/pessoa",
+      "tip": "O Eolo Lodge fica a 45 min do parque — operam um veículo privativo com guia, evitando a experiência de ônibus turístico. Reserve o Big Ice se você está em forma."
+    },
+    {
+      "icon": "⛰️",
+      "title": "Caminhada à Laguna de los Tres, Fitz Roy",
+      "description": "O Monte Fitz Roy (o logo da marca Patagonia) eleva-se 3.405 m sobre El Chaltén. A trilha de um dia até a Laguna de los Tres (22 km ida e volta) termina em um lago glacial sob as agulhas de granito. Um dos grandes dias patagônicos.",
+      "cost": "Grátis, com guia $150/casal",
+      "tip": "Os guias do Explora Patagonia fazem essa trilha com a clássica \"falsa cumbre ao amanhecer\" — pegar a primeira luz das 6h no Fitz Roy é a foto definidora da lua de mel."
+    },
+    {
+      "icon": "🎭",
+      "title": "Tour privativo no Teatro Colón",
+      "description": "O Teatro Colón de Buenos Aires está consistentemente entre as três maiores casas de ópera do mundo — acústica comparável à La Scala, grandeza Belle Époque, e palco visitável. Um tour privativo nos bastidores às 11h é uma bela atividade não-noturna de tarde.",
+      "cost": "Tour guiado privativo $45/pessoa; ingressos para ópera à noite $50–$400",
+      "tip": "Se visitar de março a novembro (temporada), tente assistir a uma apresentação. Os Palcos Balcón (camarotes) têm os ângulos mais românticos e são surpreendentemente acessíveis."
+    }
+  ],
+  "months": [
+    { "month": "Jan", "weather": "BA quente 30°C, Patagônia perfeita 18°C", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Pico patagônico — reserve com 6 meses" },
+    { "month": "Feb", "weather": "BA quente, Patagônia quente", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Excelente Patagônia, BA está vazia (férias)" },
+    { "month": "Mar", "weather": "BA suavizando 25°C, começa o outono", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "O melhor mês geral" },
+    { "month": "Apr", "weather": "BA ameno, colheita em Mendoza", "emoji": "🍇", "crowds": "Moderada", "price": "Médio", "verdict": "Pico de Mendoza — energia da colheita" },
+    { "month": "May", "weather": "BA fresco, Patagônia fechando", "emoji": "🍂", "crowds": "Baixa", "price": "Baixo", "verdict": "Lodges patagônicos começam a fechar; BA ótimo custo-benefício" },
+    { "month": "Jun", "weather": "BA frio/cinza, inverno patagônico", "emoji": "❄️", "crowds": "Fechado", "price": "Baixo", "verdict": "Evite Patagônia; só esqui em Bariloche" },
+    { "month": "Jul", "weather": "BA frio 10°C, temporada de esqui em Bariloche", "emoji": "❄️", "crowds": "Moderada", "price": "Médio", "verdict": "Só lua de mel de esqui; maioria dos hotéis fechada" },
+    { "month": "Aug", "weather": "Similar a julho", "emoji": "❄️", "crowds": "Moderada", "price": "Médio", "verdict": "Frio em todo lugar — só com foco em esqui" },
+    { "month": "Sep", "weather": "BA suavizando, começa a primavera", "emoji": "🌸", "crowds": "Baixa", "price": "Baixo", "verdict": "Mês quieto — BA ótimo custo-benefício" },
+    { "month": "Oct", "weather": "Pico de primavera em Mendoza", "emoji": "☀️", "crowds": "Moderada", "price": "Médio", "verdict": "Vale do Uco deslumbrante — vinhedo em flor" },
+    { "month": "Nov", "weather": "Patagônia reabre, BA quente", "emoji": "☀️", "crowds": "Moderada", "price": "Médio", "verdict": "Janela shoulder — altamente recomendado" },
+    { "month": "Dec", "weather": "BA quente, pico patagônico", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Pico patagônico começa; evite BA na semana do Natal" }
+  ],
+  "budgetTiers": [
+    { "label": "Upscale", "range": "$300–$600/noite", "gets": "Excelente 5★ em Buenos Aires; upper-mid em Mendoza; meio termo na Patagônia.", "example": "Alvear Palace, Faena, Cavas Wine Lodge, Llao Llao Resort Bariloche" },
+    { "label": "Premium", "range": "$600–$1.500/noite", "gets": "Palácios emblemáticos em BA, vilas top em Mendoza e lodges premium na Patagônia.", "example": "Palacio Duhau Park Hyatt, Vines Resort & Spa, Explora Patagonia" },
+    { "label": "Ultra-luxo / Patagônia", "range": "$1.200–$4.500/noite", "gets": "Estancias Relais & Châteaux, guiamento privativo na Patagônia, ultraluxo em pensão completa.", "example": "Eolo Lodge Patagonia, Explora Patagonia El Chaltén, Cavas Wine Lodge (pensão completa)" }
+  ],
+  "areas": [
+    { "name": "Buenos Aires — Recoleta & Puerto Madero", "bestFor": "Cultura urbana, gastronomia, tango", "description": "Recoleta é a Paris-do-Prata aristocrática (Alvear, Palacio Duhau); Puerto Madero é o moderno bairro de docas (Faena). 3 noites é a base." },
+    { "name": "Mendoza / Luján de Cuyo", "bestFor": "Vinho, Andes, vila privativa", "description": "Coração do Malbec argentino. Luján de Cuyo é a sub-região clássica mais próxima da cidade de Mendoza — logística mais fácil. Cavas Wine Lodge, Entre Cielos. 3–4 noites." },
+    { "name": "Vale do Uco", "bestFor": "Vinho de altitude, luxo remoto", "description": "1h30 ao sul de Mendoza, no sopé andino a 1.100 m. Mais alto, mais remoto, mais arquitetônico. Vines, The Vines, El Manzano. 3 noites." },
+    { "name": "Patagônia — El Calafate", "bestFor": "Geleira Perito Moreno, luxo de estancia", "description": "Porta de entrada do Parque Nacional Los Glaciares. Voo de 3h30 de Buenos Aires. Eolo Lodge é a estancia definidora. 3–4 noites." },
+    { "name": "Patagônia — El Chaltén & Bariloche", "bestFor": "Caminhadas no Fitz Roy, lagos alpinos", "description": "El Chaltén (base do Fitz Roy, Explora) é para caminhantes; o distrito de lagos Nahuel Huapi de Bariloche (Llao Llao) é estilo resort alpino com temporada mais longa." }
+  ],
+  "expertTips": [
+    { "tip": "Pague em USD em dinheiro quando possível", "detail": "A economia argentina opera com duas taxas de câmbio — a oficial e a \"blue\" (não oficial), tipicamente 40–60% mais pesos por dólar. A maioria dos hotéis cota em USD. Leve notas novas de $100 em boas condições para despesas pessoais; troque em cuevas legítimas (não em câmbios de rua). A taxa \"MEP\" do cartão de crédito melhorou e agora também é viável." },
+    { "tip": "Voos internos são essenciais — reserve a Aerolíneas Argentinas cedo", "detail": "BA a El Calafate é 3h30, a Mendoza 1h45, a Bariloche 2h15. Voos lotam no pico de jan–fev. Reserve em aerolineas.com.ar assim que tiver as datas. Mudanças de horário são frequentes; sempre chegue um dia antes da próxima conexão." },
+    { "tip": "Jantar às 21h é cedo", "detail": "O jantar argentino vai das 21h30 à meia-noite. Reservar para as 20h marca você como turista, e muitos restaurantes nem abrem. Ajuste o sono: café + media-tarde (lanche da tarde) às 17h, jantar às 21h30, cama à 1h." },
+    { "tip": "Reserve Rojo Tango (Faena) para o show de tango definitivo", "detail": "Pule o turístico La Ventana e Esquina Carlos Gardel. O Rojo Tango acontece no requintado Piano Nobile do Faena — pequeno, íntimo, regado a champagne, e o nível dos dançarinos é internacional. $380/casal com jantar." },
+    { "tip": "Patagônia: 4 noites mínimo, 6 é o ponto doce", "detail": "O clima patagônico é selvagem — qualquer dia pode entregar todas as estações. Com só 2 noites em um lodge, seu \"dia da geleira\" pode ser uma washout com vento. 4 noites no Eolo + 2 no Explora Chaltén dá margem para o clima e garante 2–3 dias marcantes de atividade." }
+  ],
+  "packing": [
+    { "item": "Roupa de noite apropriada para tango", "why": "Jantar e tango em Buenos Aires são elegantes — vestido bem cortado, sapatos, terno apropriado. Pense Madri, não Miami." },
+    { "item": "Botas de trekking apropriadas", "why": "Patagônia: trilhas de um dia no Fitz Roy, caminhada com grampons no Perito Moreno. Tênis de corrida não bastam. Suporte de tornozelo é necessário." },
+    { "item": "Jaqueta corta-vento impermeável", "why": "O clima patagônico muda de hora em hora — chuva com vento é universal. A fórmula é shell Gore-Tex sobre primeira camada de merino." },
+    { "item": "Protetor FPS 50+ e óculos polarizados", "why": "O UV patagônico é extremo pelo afinamento da camada de ozônio e reflexão da neve. Queimadura em 20 minutos é rotina." },
+    { "item": "Binóculo compacto", "why": "Para condores na Patagônia, fauna em estancias e observação de aves nos vinhedos de Mendoza. Um par fino transforma os dias." }
+  ],
+  "guide": {
+    "getting": "Voe para Buenos Aires Ezeiza (EZE) — direto 13h de Londres pela British Airways, 11h de Madri pela Iberia, 10h30 de Miami/NYC pela American e Aerolíneas. Da Austrália via Santiago (SCL) pela LATAM. Conexões domésticas saem do Aeroparque Jorge Newbery (AEP): Mendoza 1h45, El Calafate 3h30, Bariloche 2h15. Sempre deixe 90+ min de conexão em AEP — terminais são confusos.",
+    "where": "Lua de mel clássica de 12 noites: 4 noites Buenos Aires (Palacio Duhau ou Alvear) → 3 noites Mendoza/Uco (Cavas ou Vines) → 4 noites Patagônia (Eolo El Calafate) → 1 noite BA para voltar. Para 10 noites: 3/3/3/1. Para 14 noites: adicione Bariloche por 3 noites entre Mendoza e El Calafate. A combinação motorista privativo + voos internos é a logística mais limpa.",
+    "when": "Novembro a março é a janela patagônica — verão no hemisfério sul, lodges totalmente abertos, melhores condições para caminhar. Dezembro a fevereiro é pico (e mais caro). Outubro e novembro são excelente custo-benefício com melhor disponibilidade. Mendoza é melhor em outubro–dezembro (floração da primavera) e março–abril (colheita). Buenos Aires é melhor em março–maio (outono) e setembro–novembro (primavera). Evite junho–agosto, exceto se for esquiar em Bariloche."
+  },
+  "localFood": "Bife de chorizo e ojo de bife (sirloin e ribeye grelhados, padrão-ouro); provoleta (provolone grelhado em fatia); empanadas salteñas (carne ou queijo); chimichurri; humita en chala (tamales de milho); cordeiro patagônico (assado lento em cruzes de ferro — al asador); doce de leite com tudo; alfajores (cookies recheados de doce de leite, Havanna é a marca de massa); medialunas (croissants argentinos) em todo café; um cortado com 3 açúcares às 17h; Malbec de Mendoza em toda refeição; o fogo aberto Siete Fuegos de Francis Mallmann é uma revelação. A cena fine-dining de BA (Don Julio, Anchoíta, Mengano, Tegui) é de classe mundial.",
+  "currency": "Peso Argentino (ARS) — alta inflação. A maioria dos hotéis e restaurantes de lua de mel cota em USD e aceita USD em dinheiro ou cartão à taxa MEP. Leve notas novas e impecáveis de $100 para despesas pessoais.",
+  "language": "Espanhol (sotaque rioplatense — \"ll\" pronunciado \"sh\" característico). Inglês amplamente falado em hotéis e restaurantes top; menos em táxis e pequeno comércio.",
+  "timezone": "UTC-3 o ano todo (sem horário de verão)"
+}

@@ -1,0 +1,156 @@
+{
+  "tagline": "Positano, Ravello, Amalfi: o litoral mais romântico da Europa, sem discussão.",
+  "intro": "A Costa Amalfitana são 50 quilômetros de drama vertical: vilarejos em tons pastel empilhados sobre falésias de calcário, sobre um mar de um azul extraordinário, limonais, igrejas com cerâmica vidrada e a cultura gastronômica mais indulgente da Itália. Escritores e artistas a consideram o lugar mais belo da terra desde o século XVIII, e nada mudou — exceto que os hotéis ficaram melhores. O Le Sirenuse, em Positano, é um dos melhores hotéis do mundo. O Belmond Hotel Caruso, em Ravello, ostenta possivelmente a melhor piscina da Europa. É aqui que os casais vêm para se sentir genuína, luxuosa e cinematograficamente apaixonados.",
+  "bestTime": "Maio–Junho e Setembro–Outubro",
+  "flightFrom": "2–3h do norte da Europa",
+  "topExperience": "Romance nas falésias e dolce vita",
+  "perfectFor": [
+    "Casais para quem gastronomia, vinho e dolce vita são o sentido de uma lua de mel",
+    "Amantes de arquitetura e design: cada vilarejo da costa é uma obra-prima visual",
+    "Quem busca uma experiência de luxo genuinamente europeia em vez de um resort tropical",
+    "Viajantes do norte da Europa que querem o máximo impacto com voo curto",
+    "Casais que desejam combinar praia com cultura, passeios e exploração urbana"
+  ],
+  "skipIf": [
+    "Você precisa de uma piscina ou praia de fácil acesso: a vida nas falésias envolve muitas escadas",
+    "Viaja em julho ou agosto: a costa fica extremamente lotada e quente",
+    "Quer dirigir para tudo: a estrada da Costa Amalfitana é estreita, vertiginosa e lenta",
+    "Está com orçamento apertado: Positano é um dos destinos mais caros da Europa"
+  ],
+  "experiences": [
+    {
+      "icon": "⛵",
+      "title": "Dia privativo de barco pela costa",
+      "description": "Um gozzo de madeira privativo saindo de Positano, com paradas em grutas marinhas e enseadas escondidas, inacessíveis por terra. Nadar nas águas cristalinas do Tirreno ao pé das falésias, sem mais ninguém ao redor, é a experiência que define a Costa Amalfitana.",
+      "cost": "$400–$800 por casal (dia inteiro)",
+      "tip": "Reserve um gozzo de madeira, não uma lancha inflável. São mais silenciosos, mais bonitos e param melhor. Peça ao capitão para mostrar a gruta de Furore e o arco de Capri, se chegar até lá."
+    },
+    {
+      "icon": "🌿",
+      "title": "Concerto em Ravello na Villa Rufolo",
+      "description": "O Festival de Ravello acontece de junho a setembro com concertos clássicos em um terraço da Villa Rufolo, suspenso sobre o mar a 350 metros. Wagner compôs Parsifal aqui. A combinação de música, cenário e vista já fez adultos chorarem.",
+      "cost": "$60–$150 por pessoa",
+      "tip": "Compre os ingressos online em ravellofestival.com antes de viajar. O concerto ao pôr do sol (a partir das 18h) é o mais espetacular: você verá o sol cair sobre o Tirreno enquanto a orquestra toca."
+    },
+    {
+      "icon": "🍋",
+      "title": "Produção de limoncello e caminhada pelos limonais",
+      "description": "O sfusato amalfitano (três vezes maior que um limão comum) é o melhor do mundo. Uma caminhada guiada pelos limonais em terraços acima de Amalfi, seguida de uma aula tradicional de produção de limoncello e um almoço.",
+      "cost": "$80–$120 por pessoa",
+      "tip": "Os Giardini di Ravello e os limonais da família Aceto acima de Minori são os mais bonitos. Compre o limoncello direto do produtor: o de supermercado é outro produto."
+    },
+    {
+      "icon": "🗿",
+      "title": "Bate-volta a Pompeia e Herculano",
+      "description": "As cidades romanas sepultadas pelo Vesúvio em 79 d.C. ficam a 90 minutos de Positano. Herculano (menos visitada e mais bem preservada) oferece uma experiência mais íntima. Caminhar por ruas de 2.000 anos com um guia privativo é genuinamente emocionante.",
+      "cost": "$200–$350 por casal (guia privativo e transporte)",
+      "tip": "Escolha Herculano em vez de Pompeia: é menor, está mais bem preservada e tem metade dos visitantes. Reserve um guia privativo a partir de Positano que inclua o transporte. Chegue às 9h, antes dos ônibus de turismo."
+    },
+    {
+      "icon": "🛥️",
+      "title": "Bate-volta a Capri",
+      "description": "O hidrofólio de Positano a Capri leva 40 minutos. A Gruta Azul, a Villa Jovis (palácio imperial de Tibério), os Jardins de Augusto e o melhor almoço da Campânia no Da Paolino (sob os limoeiros). Capri é o complemento essencial da Amalfitana.",
+      "cost": "$300–$500 por casal (barco, ingressos, almoço)",
+      "tip": "Pegue o primeiro hidrofólio (9h), visite a Gruta Azul antes das 10h, suba à Villa Jovis no frescor da manhã, almoce no Da Paolino e volte no hidrofólio das 17h. Dia perfeito."
+    }
+  ],
+  "months": [
+    { "month": "Jan", "weather": "Fresco, tranquilo, alguns fechamentos", "emoji": "⛅", "crowds": "Mínima", "price": "Mínimo", "verdict": "Atmosférico, mas limitado" },
+    { "month": "Feb", "weather": "Fresco, muito tranquilo", "emoji": "⛅", "crowds": "Mínima", "price": "Muito baixo", "verdict": "Para românticos resistentes" },
+    { "month": "Mar", "weather": "Esquentando, flores de primavera", "emoji": "🌤", "crowds": "Baixa", "price": "Baixo", "verdict": "Encantador, se não se importar com água fria" },
+    { "month": "Apr", "weather": "Primavera perfeita, limoeiros em flor", "emoji": "☀️", "crowds": "Moderada", "price": "Médio", "verdict": "Excelente: a temporada começa de verdade" },
+    { "month": "May", "weather": "Ideal: quente, claro, sem calor excessivo", "emoji": "☀️", "crowds": "Moderada", "price": "Médio-alto", "verdict": "Um dos dois melhores meses" },
+    { "month": "Jun", "weather": "Quente, mar para banho, começa o Festival de Ravello", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Lindíssimo: reserve os concertos já" },
+    { "month": "Jul", "weather": "Calorento, muito lotado, trânsito intenso", "emoji": "🌡️", "crowds": "Máxima", "price": "Muito alto", "verdict": "Evitar: calor e agitação demais" },
+    { "month": "Aug", "weather": "O mais quente, multidões no auge", "emoji": "🌡️", "crowds": "Máxima", "price": "Máximo", "verdict": "O pior mês: genuinamente desagradável" },
+    { "month": "Sep", "weather": "Quente, mar morno, menos gente", "emoji": "☀️", "crowds": "Moderada", "price": "Alto", "verdict": "Melhor relação luxo-preço do ano" },
+    { "month": "Oct", "weather": "Temperaturas perfeitas, luz dourada", "emoji": "🌤", "crowds": "Baixa-mod.", "price": "Médio", "verdict": "O melhor mês secreto" },
+    { "month": "Nov", "weather": "Esfriando, alguns fechamentos começam", "emoji": "⛅", "crowds": "Baixa", "price": "Baixo", "verdict": "Atmosférico, opções limitadas" },
+    { "month": "Dec", "weather": "Fresco, tranquilo, atmosfera natalina", "emoji": "🎄", "crowds": "Baixa", "price": "Baixo-médio", "verdict": "Romântico e tranquilo" }
+  ],
+  "budgetTiers": [
+    {
+      "label": "Luxo boutique",
+      "range": "$400–$800/noite",
+      "gets": "Hotéis boutique com vista para o mar, acesso a piscina e ótimo café da manhã. A Costa Amalfitana tem propriedades excelentes nessa faixa.",
+      "example": "Hotel Marincanto (Positano), Hotel Villa Cimbrone (Ravello)"
+    },
+    {
+      "label": "Premium",
+      "range": "$800–$2.000/noite",
+      "gets": "Junior suites e quartos superiores nos melhores endereços da costa. Terraços com vista para o mar, espreguiçadeiras privativas e gastronomia excepcional.",
+      "example": "Belmond Hotel Caruso (Ravello), Hotel Santa Caterina (Amalfi)"
+    },
+    {
+      "label": "Ultra-luxo",
+      "range": "$2.000+/noite",
+      "gets": "Le Sirenuse Positano: o hotel mais romântico da Itália. Sua Junior Suite com terraço e vista para o mar é um dos melhores quartos de hotel da Europa.",
+      "example": "Le Sirenuse Positano, senior suites do Belmond Hotel Caruso"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Positano",
+      "bestFor": "O mais belo e famoso: a imagem definitiva da Amalfitana",
+      "description": "As casas rosas, brancas e amarelas que descem até a pequena praia são a imagem icônica da Costa Amalfitana. O Le Sirenuse domina o conjunto com as melhores vistas. Muito íngreme: centenas de degraus entre os níveis. O lugar mais fotogênico da Itália."
+    },
+    {
+      "name": "Ravello",
+      "bestFor": "O mais tranquilo, alto e musical: jardins no topo sobre o mar",
+      "description": "Ravello fica a 350 metros sobre o mar, com as vistas mais extraordinárias da costa. Sem praia (é preciso pegar um ônibus até Minori ou Atrani), mas a Villa Rufolo, os jardins da Villa Cimbrone e o Belmond Hotel Caruso fazem dela a base mais sofisticada e serena. Festival de música clássica de junho a setembro."
+    },
+    {
+      "name": "Amalfi",
+      "bestFor": "Melhor base para explorar, a mais central, com sua catedral",
+      "description": "A antiga república marítima: Amalfi é mais agitada que Positano, porém mais autêntica e mais bem situada para passeios. Sua catedral árabe-normanda do século IX é extraordinária. O Hotel Santa Caterina é o melhor hotel da região."
+    },
+    {
+      "name": "Praiano",
+      "bestFor": "Joia escondida: menos turistas, vistas espetaculares, preços mais baixos",
+      "description": "Entre Positano e Amalfi, Praiano é um vilarejo de pescadores em atividade com um dos cenários mais dramáticos da costa. Quase não há infraestrutura turística, e esse é o atrativo. O Casa Angelina é o hotel destacado aqui."
+    },
+    {
+      "name": "Sorrento",
+      "bestFor": "Porta de entrada para a costa, compras e melhores conexões",
+      "description": "Sorrento fica no norte da península: é uma cidade de verdade, com ruas, comércio e mercado. O Grand Hotel Excelsior Vittoria é a grande dame histórica. Don Alfonso 1890 (duas estrelas Michelin) é o melhor restaurante da região."
+    }
+  ],
+  "expertTips": [
+    {
+      "tip": "Hospede-se em dois lugares: Positano mais Ravello é a combinação perfeita",
+      "detail": "Três noites em Positano pelo drama e acesso à praia, e duas em Ravello pelos jardins, concertos e serenidade do alto. O contraste entre os dois torna cada um mais vívido."
+    },
+    {
+      "tip": "Use os ferries, não a estrada, para se mover entre os vilarejos",
+      "detail": "A SS163 é uma das estradas mais belas do mundo e uma das mais aterrorizantes: pista única, sem barreiras, com ônibus de turismo em curvas cegas. O ferry SITA entre Positano, Amalfi e Salerno é mais barato, mais rápido e incomparavelmente mais agradável."
+    },
+    {
+      "tip": "Reserve o Le Sirenuse com a maior antecedência possível",
+      "detail": "Os melhores quartos (Junior Suite com terraço e vista para o mar) no Le Sirenuse esgotam com 6–9 meses de antecedência para maio, junho, setembro e outubro. Não é exagero. Configure um alerta para o período de cancelamento se perder a janela inicial."
+    },
+    {
+      "tip": "A Gruta Azul realmente vale a fila, se você escolher bem o horário",
+      "detail": "A entrada de barco a remo na Gruta Azul de Capri exige mar calmo e luz da manhã. Chegue antes das 9h30. Depois das 11h a fila é de 1–2 horas. Com mar agitado, fecha por completo: confira a previsão antes de planejar Capri em torno dela."
+    },
+    {
+      "tip": "Coma onde os locais comem: uma única regra",
+      "detail": "Qualquer restaurante com cardápio em inglês exposto na porta e um maître convidando você a entrar da rua é uma armadilha para turistas. Suba cinco minutos a pé desde a praça principal de qualquer vilarejo da Amalfitana e você encontrará a trattoria autêntica com cardápio escrito à mão e a melhor comida da sua vida."
+    }
+  ],
+  "packing": [
+    { "item": "Calçado confortável com boa aderência", "why": "A Costa Amalfitana é pavimentada com degraus de pedra polida. No calor e com sandália, viram uma armadilha. Um tênis leve de trilha ou com sola aderente é essencial." },
+    { "item": "Roupa elegante para a noite", "why": "Os restaurantes de Positano e o bar do Le Sirenuse exigem certa etiqueta. Calça de linho e vestido de seda são o padrão local. Nada de chinelos no jantar." },
+    { "item": "Chapéu leve para o sol", "why": "O reflexo das paredes brancas e do mar ao meio-dia é intenso. Um chapéu protege o rosto e fica bem nas fotos." },
+    { "item": "Bolsa pequena transversal", "why": "Você vai subir e descer escadas com as duas mãos livres. Mochilas são desconfortáveis em escadas estreitas. Uma bolsinha de couro a tiracolo é a escolha certa." },
+    { "item": "Comprimidos para enjoo", "why": "O ferry SITA com mar agitado e os ônibus da estrada costeira têm sua fama. Mesmo quem não costuma enjoar de carro às vezes sofre nas curvas fechadas." }
+  ],
+  "guide": {
+    "getting": "Voe para o aeroporto internacional de Nápoles (NAP). Do norte da Europa: voos diretos com easyJet, Ryanair, British Airways, Lufthansa (1,5–3h). Dos EUA: conexão em Roma (FCO) ou Milão (MXP), ou direto a Nápoles pela Delta saindo de JFK (9h). Do aeroporto de Nápoles: táxi até Sorrento (50 min, €80) e depois ferry, ou transfer privativo direto a Positano (90 min, €150–€200).",
+    "where": "Positano (Le Sirenuse, Marincanto) para a experiência quintessencial da Amalfitana. Ravello (Belmond Caruso, Villa Cimbrone) para a calma, os jardins e a música. Amalfi (Santa Caterina) pela localização central e autenticidade. Praiano (Casa Angelina) para menos gente e falésias dramáticas.",
+    "when": "Maio–junho é quase perfeito: quente para nadar, ainda sem multidões, instalações totalmente abertas e início do Festival de Ravello. Setembro–outubro é igualmente excelente e um pouco mais acessível. Julho–agosto é quente e lotado demais, a não ser que você esteja no Le Sirenuse e não pretenda sair do terraço."
+  },
+  "localFood": "Linguine alle vongole (vôngoles com alho e vinho branco) em uma trattoria de Positano sobre a falésia, limoncello de sfusato amalfitano, mozzarella di bufala fresca das fazendas da Campânia, menu degustação no Don Alfonso 1890 (duas estrelas Michelin) acima de Sorrento, e sfogliatelle (massa folhada com ricota) de uma pasticceria napolitana antes de pegar o ferry.",
+  "currency": "Euro (EUR)",
+  "language": "Italiano (inglês nos hotéis)",
+  "timezone": "UTC+1 (CET) / UTC+2 (CEST no verão)"
+}

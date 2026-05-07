@@ -1,0 +1,79 @@
+{
+  "tagline": "A referência mundial para luas de mel sobre a água. Ilha privada, lagoa privada, mundo privado.",
+  "intro": "As Maldivas são a referência global em luas de mel sobre a água — 1.200 ilhas de coral espalhadas pelo Oceano Índico, cada resort em sua própria ilha privada, sem trânsito, sem cidades e com nenhuma agenda além de vocês dois. A água aqui é o azul mais cristalino da Terra, os recifes vivem com mantas e tubarões-baleia, e as vilas sobre a água são a categoria de hospedagem mais romântica já inventada.",
+  "bestTime": "Nov-Abr",
+  "flightFrom": "10-14h da Europa",
+  "topExperience": "Vilas sobre a água",
+  "perfectFor": [
+    "Casais que querem reclusão completa — sem precisar sair da ilha",
+    "Apaixonados pelo mundo submarino (snorkel e mergulho são de classe mundial)",
+    "Amantes de vilas sobre a água — Maldivas seguem o padrão global",
+    "Luxo total sem compromissos — mordomo, spa, praia privativa",
+    "Encontros com tubarões-baleia e mantas (Atol Baa, Atol Ari Sul)"
+  ],
+  "skipIf": [
+    "Você quer imersão cultural — Maldivas são uma bolha de resorts",
+    "Está com orçamento apertado — literalmente não há opção econômica",
+    "Sofre rapidamente de síndrome da ilha — a maioria dos resorts tem 30-100 vilas no máximo",
+    "Quer variedade de restaurantes fora do hotel — sua ilha é o seu mundo",
+    "Prefere montanhas, selva ou energia urbana"
+  ],
+  "experiences": [
+    { "icon": "🌅", "title": "Café da manhã ao amanhecer em banco de areia", "description": "Banco de areia privativo no meio do oceano, com mesa de café da manhã servida, champanhe e nada mais em 360 graus. A manhã mais romântica do mundo.", "cost": "$200-400 por casal", "tip": "Reserve com pelo menos 48h — os melhores bancos de areia esgotam rápido." },
+    { "icon": "🐋", "title": "Snorkel com tubarões-baleia (Ari Sul / Baa)", "description": "Nadar ao lado do maior peixe do mundo em mar aberto. Maldivas têm a maior densidade de avistamentos de tubarões-baleia do planeta, sobretudo nos atóis Baa e Ari Sul.", "cost": "$100-200 por pessoa", "tip": "LUX South Ari Atoll tem biólogo marinho residente e o melhor programa de tubarões-baleia." },
+    { "icon": "🤿", "title": "Mergulho noturno ou nado bioluminescente", "description": "Após o pôr do sol, o plâncton nas águas das Maldivas brilha em azul elétrico. Entrar na lagoa às 21h é uma das coisas mais espantosas que você verá.", "cost": "Grátis dos degraus da sua vila", "tip": "Vaadhoo é famosa por isso, mas acontece em todos os atóis quando a água está limpa e calma." },
+    { "icon": "🛥️", "title": "Cruzeiro de pôr do sol com golfinhos", "description": "Toda tarde, golfinhos-rotadores se reúnem para se alimentar no drop-off. A lancha do resort os segue enquanto o céu fica laranja. Champanhe opcional, mas obrigatório.", "cost": "$150-300 por casal", "tip": "Pergunte em qual direção os golfinhos costumam aparecer e reserve um bangalô voltado ao pôr do sol." },
+    { "icon": "🏄", "title": "Stand-up paddle ao amanhecer", "description": "A lagoa fica completamente plana antes das 7h. Pedalar acima do coral em silêncio, vendo peixes embaixo da prancha — profundamente reparador. A maioria dos resorts inclui as pranchas de graça.", "cost": "Incluso na maioria dos resorts", "tip": "Vá antes do café, antes do vento subir. A luz do nascer do sol na lagoa é extraordinária." }
+  ],
+  "months": [
+    { "month": "Jan", "weather": "Seco, quente, mar plano", "emoji": "☀️", "crowds": "Máxima", "price": "Muito alto", "verdict": "Perfeito mas caro" },
+    { "month": "Feb", "weather": "Pico da estação seca", "emoji": "☀️", "crowds": "Máxima", "price": "Muito alto", "verdict": "Melhor clima do ano" },
+    { "month": "Mar", "weather": "Ainda seco, quente", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Excelente, um pouco menos cheio" },
+    { "month": "Apr", "weather": "Transição, algumas chuvas", "emoji": "🌤", "crowds": "Média", "price": "Médio", "verdict": "Bom custo-benefício" },
+    { "month": "May", "weather": "Começa monção SO", "emoji": "🌦", "crowds": "Baixa", "price": "Baixo", "verdict": "Tubarões-baleia chegam (Atol Ari)" },
+    { "month": "Jun", "weather": "Monção, mar mais agitado", "emoji": "🌧", "crowds": "Baixa", "price": "Mínimo", "verdict": "Melhores ofertas, alguma chuva" },
+    { "month": "Jul", "weather": "Monção, mais calmo que junho", "emoji": "⛅", "crowds": "Baixa", "price": "Baixo", "verdict": "Pico de mantas (Atol Baa)" },
+    { "month": "Aug", "weather": "Aliviando, quente", "emoji": "⛅", "crowds": "Média", "price": "Baixo-médio", "verdict": "Mês joia escondida" },
+    { "month": "Sep", "weather": "Transição para seca", "emoji": "🌤", "crowds": "Média", "price": "Médio", "verdict": "Bom equilíbrio" },
+    { "month": "Oct", "weather": "Transição, misto", "emoji": "⛅", "crowds": "Baixa-méd.", "price": "Médio", "verdict": "Baixa subestimada" },
+    { "month": "Nov", "weather": "Volta da estação seca", "emoji": "☀️", "crowds": "Média", "price": "Médio-alto", "verdict": "Começa estação seca" },
+    { "month": "Dec", "weather": "Pico da seca, corrida de feriados", "emoji": "☀️", "crowds": "Máxima", "price": "Muito alto", "verdict": "Lindo, reserve com muita antecedência" }
+  ],
+  "budgetTiers": [
+    { "label": "Luxo acessível", "range": "$500-1.200/noite", "gets": "Vila sobre a água ou pé na areia, instalações compartilhadas, acesso ao recife, spa. Sem mordomo. Faixa Conrad, Anantara Veli.", "example": "Anantara Veli, LUX South Ari Atoll" },
+    { "label": "Premium", "range": "$1.200-3.000/noite", "gets": "Vila com piscina privativa, mordomo, pensão completa ou meia pensão. O sonho clássico Maldivas.", "example": "Four Seasons Kuda Huraa, St Regis Vommuli" },
+    { "label": "Ultra-luxo", "range": "$3.000+/noite", "gets": "As maiores vilas em praias privativas, all-inclusive, acesso de helicóptero, equipe dedicada de mordomos.", "example": "Soneva Jani, Conrad Two-Bedroom Water Villa" }
+  ],
+  "areas": [
+    { "name": "Atol Malé Norte", "bestFor": "O mais prático — 20 min de lancha", "description": "Mais perto do aeroporto. Four Seasons Kuda Huraa e muitos resorts conhecidos estão aqui. Mais fácil de alcançar, com um pouco mais de tráfego de barcos visível." },
+    { "name": "Atol Malé Sul", "bestFor": "Equilíbrio entre acesso e isolamento", "description": "45 min de lancha do aeroporto. Anantara Veli, Cocoa Island. Sensação um pouco mais remota sem o custo do hidroavião." },
+    { "name": "Atol Baa (UNESCO)", "bestFor": "Mantas e tubarões-baleia", "description": "25 min de hidroavião. Anantara Kihavah, Four Seasons Landaa Giraavaru. Casa de Hanifaru Bay — maior agregação de mantas do mundo (jul-nov)." },
+    { "name": "Atóis Noonu / Raa", "bestFor": "Os mais remotos, os mais exclusivos", "description": "40-45 min de hidroavião. Território Soneva Jani, Joali Being. Os mais distantes de Malé e os resorts mais exclusivos do planeta." }
+  ],
+  "expertTips": [
+    { "tip": "Reserve o hidroavião com o quarto, não depois", "detail": "Hidroaviões esgotam meses antes na alta. Se deixar para depois, vai pegar lancha de 2h quando o resort estava a 25 min de hidroavião." },
+    { "tip": "Peça vila voltada para o leste", "detail": "Nascer do sol sobre o Índico do seu deck privativo, direto para a lagoa. A maioria dos casais aceita \"melhor vista\" — especifique a direção." },
+    { "tip": "Leve câmera subaquática, não GoPro", "detail": "GoPros são ok mas uma Olympus TG-7 ou similar te dá 4K sem caixa extra. A água em Maldivas é tão clara que até celular funciona a 2m." },
+    { "tip": "A decisão meia pensão vs pensão completa importa mais aqui", "detail": "Diferente de hotéis urbanos, você não sai da ilha para comer. Pensão completa a $200-400/dia por casal é cara mas evita ansiedade da conta — genuinamente libertador." },
+    { "tip": "Mande email ao resort 2 semanas antes com lista específica de pedidos de lua de mel", "detail": "Café no banco de areia, pétalas de rosa, champanhe na chegada, manhã preferida para cruzeiro com golfinhos. Eles respondem à especificidade com gentileza extraordinária." }
+  ],
+  "packing": [
+    { "item": "Óculos polarizados", "why": "Reflexo da lagoa ao meio-dia destrói a vista sem eles" },
+    { "item": "Protetor solar reef-safe", "why": "Igual a Bora Bora — proteção do recife é prioridade" },
+    { "item": "Câmera subaquática (série Olympus TG)", "why": "O snorkel aqui é bom demais para documentar com celular borrado" },
+    { "item": "Capa de chuva leve", "why": "Pancadas de monção passam em 20 min mas são dramáticas" },
+    { "item": "Comprimidos para enjoo", "why": "Lanchas em estação de monção (mai-out) podem balançar" },
+    { "item": "Duas peças de banho por dia", "why": "Você ficará na água o tempo todo. Uma sunga seca à noite na umidade — talvez." },
+    { "item": "Kindle ou entretenimento offline", "why": "O ponto é desconectar. Aceite. Mas 7 noites é muito tempo." },
+    { "item": "Bom repelente", "why": "Mosquitinhos no entardecer perto da vegetação. Sem DEET funciona." }
+  ],
+  "guide": {
+    "getting": "Voe para o Aeroporto Internacional Velana (MLE), em Malé. Dali, o resort organiza transfer de hidroavião (20-45 min, espetacular — reserve com o quarto) ou lancha (45-120 min conforme o atol). Hidroaviões só voam de dia: chegue antes das 15h se o resort for por hidroavião.",
+    "where": "Atol Malé Norte (mais acessível, 20 min de lancha), Atol Malé Sul (45 min de lancha, mais tranquilo), Atol Baa (biosfera UNESCO, 25 min de hidroavião, melhor para mantas), Noonu/Raa (35-45 min de hidroavião, os mais exclusivos — território Soneva Jani).",
+    "when": "Novembro-abril é estação seca — mar plano, ótima visibilidade, sem chuva, preços máximos. Maio-outubro traz a monção SO — tarifas 30-50% mais baixas, chuva pontual (curta, tropical), mas Ari Sul e Baa concentram tubarões-baleia e mantas em quantidade."
+  },
+  "localFood": "Cozinha maldívia: mas huni (atum e coco no café da manhã), garudhiya (caldo de peixe), bis keemiya (samosas). A maioria dos resorts é internacional nos cardápios. Café da manhã no restaurante sobre a água ao nascer do sol é o ritual diário essencial.",
+  "currency": "Rufiyaa maldívia (MVR) — mas USD é aceito em todos os resorts.",
+  "language": "Dhivehi e inglês. Inglês falado fluentemente em todos os resorts.",
+  "timezone": "GMT+5 (Hora das Maldivas)"
+}

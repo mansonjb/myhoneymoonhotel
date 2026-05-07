@@ -1,0 +1,78 @@
+{
+  "tagline": "O Oceano Índico preservado — lêmures, baobás e refúgios em ilhas privadas intocados pelo turismo de massa.",
+  "intro": "Madagascar é a quarta maior ilha do mundo e uma das últimas fronteiras de lua de mel genuinamente preservadas no Índico — uma massa do tamanho do Texas na costa sudeste da África, onde 90% da fauna não existe em nenhum outro lugar, onde ilhas privadas como Nosy Ankao e Tsarabanjina entregam água nível Maldivas sem as multidões, e onde a velha influência colonial francesa produziu uma cozinha creole-baunilha-zebu diferente de tudo na região. Não é destino para casais de primeira viagem — os transfers são longos, a infraestrutura é básica fora dos lodges e profilaxia de malária é exigida — mas para casais que querem lua de mel pé na areia em ilha privada combinada com natureza genuína e rastreamento de lêmures, nada no Índico chega perto.",
+  "bestTime": "Abr-Nov (seco)",
+  "flightFrom": "20-24h dos EUA/Europa via Paris/Maurício/Adis",
+  "topExperience": "Ilha privativa + safári de lêmures",
+  "perfectFor": [
+    "Casais que querem praia no Índico E natureza/fauna genuínas em uma viagem",
+    "Viajantes recorrentes de luxo que já fizeram Maldivas, Seychelles, Maurício e querem a próxima fronteira",
+    "Casais que querem combinar ultra-luxo em ilha privada (Miavana, Tsarabanjina) com rastreamento de lêmures na floresta tropical",
+    "Espíritos aventureiros confortáveis com transfers longos e infraestrutura básica fora dos lodges",
+    "Foodies curiosos sobre a cozinha franco-malgaxe e a melhor baunilha Bourbon do mundo"
+  ],
+  "skipIf": [
+    "Você quer transfers curtos e fáceis — voos internos são essenciais e às vezes atrasam",
+    "Infraestrutura básica fora dos lodges (estradas ruins, energia esporádica) parece estresse e não charme",
+    "Profilaxia de malária é deal-breaker — a maior parte de Madagascar exige",
+    "Vida noturna animada, beach clubs ou cena social fazem parte da sua visão de lua de mel",
+    "Orçamento abaixo de $400/noite — não é destino econômico depois de voos e transfers"
+  ],
+  "experiences": [
+    { "icon": "🦎", "title": "Rastreamento de lêmures na floresta de Andasibe", "description": "Caminhando pela floresta de Andasibe-Mantadia ao amanhecer para encontrar lêmures indri — a maior espécie viva, cujo canto assombroso ecoa pela mata ao raiar do dia. Doze espécies de lêmures habitam o parque, incluindo o sifaca-coroado e o lêmure-do-bambu, presentes só ali.", "cost": "$80-150 por casal (entrada com guia + rastreador)", "tip": "Hospede-se em Vakôna Forest Lodge ou Mantadia Lodge por duas noites — uma para a caminhada do amanhecer com indri, outra para a noturna em busca de lêmures-rato e camaleões. Use guia local da vila." },
+    { "icon": "🏝️", "title": "Náufrago em ilha privada no Miavana ou Tsarabanjina", "description": "Dormir em ilha privada de 14 vilas no arquipélago Mitsio, onde os únicos sons são o recife, o vento nas palmeiras e o tilintar distante de um sundowner. Time + Tide Miavana em Nosy Ankao define o topo; Constance Tsarabanjina é a experiência de ilha privativa mais acessível.", "cost": "$900-5.000+/noite (all-inclusive)", "tip": "Miavana é alcançada por helicóptero privativo de Diego Suarez (45 min); Tsarabanjina por lancha de Nosy Be (90 min). Mínimo três noites em qualquer um — menos e você mal chegou." },
+    { "icon": "🌳", "title": "Avenida dos Baobás ao pôr do sol (Morondava)", "description": "O sítio natural mais fotografado de Madagascar — uma estrada de terra no oeste ladeada por baobás Adansonia grandidieri de 800 anos, troncos inchados em silhueta contra um pôr do sol laranja-sangue. Peregrinação de todo casal-fotógrafo.", "cost": "$200-400 (voo charter Tana-Morondava + transfer)", "tip": "Voe de Antananarivo a Morondava (1h) para um desvio de 2 noites — a estrada de Tana são 20h e brutais. Hospede-se no Palissandre Côte Ouest. Pôr do sol em terça ou quarta evita ônibus de turismo do fim de semana." },
+    { "icon": "🤿", "title": "Snorkel na reserva marinha Nosy Tanikely", "description": "O recife mais biodiverso do Índico acessível em bate-volta de Nosy Be — tartarugas-verdes em quantidade, peixes-leão, polvos e tubarões de recife em 4-10 m de água cristalina com pouca corrente. Status de parque marinho (desde 2010) mantém o coral genuinamente intacto.", "cost": "$60-120 por casal (charter de Nosy Be)", "tip": "Alugue dhow privativo na praia Madirokely em vez dos barcos em grupo — custa $50 a mais e a baía é só sua na hora do almoço, quando os tours saem." },
+    { "icon": "🍋", "title": "Plantação de baunilha e banquete romazava", "description": "Visitar uma cooperativa de baunilha de pequenos produtores na costa de Sambava (origem da baunilha Bourbon) seguido de almoço tradicional de romazava (zebu e folhas brèdes mafane) com família malgaxe. A experiência culinária mais autêntica do país.", "cost": "$80-150 por casal", "tip": "Sambava e Antalaha (região SAVA) produzem 80% da baunilha Bourbon do mundo. Compre direto da cooperativa — preços 10× menores que no varejo lá fora, e as vagens curadas são extraordinárias." }
+  ],
+  "months": [
+    { "month": "Jan", "weather": "Estação úmida, risco de ciclone", "emoji": "🌀", "crowds": "Baixa", "price": "Baixo", "verdict": "Evite — muitos lodges fecham" },
+    { "month": "Feb", "weather": "Pico de risco de ciclone, chuva forte", "emoji": "🌀", "crowds": "Muito baixa", "price": "Mínimo", "verdict": "Não visite" },
+    { "month": "Mar", "weather": "Risco de ciclone diminui, ainda úmido", "emoji": "🌧", "crowds": "Muito baixa", "price": "Baixo", "verdict": "Maioria dos lodges ainda fechada" },
+    { "month": "Apr", "weather": "Estação seca começa, verde exuberante", "emoji": "🌤", "crowds": "Baixa", "price": "Médio", "verdict": "Lodges reabrindo — excelente custo-benefício" },
+    { "month": "May", "weather": "Seco, 25°C, perfeito", "emoji": "☀️", "crowds": "Média", "price": "Médio", "verdict": "Melhor mês escondido" },
+    { "month": "Jun", "weather": "Seco, mais fresco, 22°C", "emoji": "☀️", "crowds": "Média", "price": "Médio-alto", "verdict": "Excelente para rastreamento de lêmures" },
+    { "month": "Jul", "weather": "Seco, pico da estação de baleias começa", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Baleias jubarte chegam à Île Sainte-Marie" },
+    { "month": "Aug", "weather": "Seco, pico de baleias", "emoji": "☀️", "crowds": "Máxima", "price": "Muito alto", "verdict": "Reserve com 6 meses — alta temporada" },
+    { "month": "Sep", "weather": "Seco, esquentando, baleias presentes", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Melhor mês geral" },
+    { "month": "Oct", "weather": "Seco, quente, jacarandás florescendo", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Excepcional — filhotes de lêmures nascem" },
+    { "month": "Nov", "weather": "Calor subindo, primeiras chuvas", "emoji": "🌤", "crowds": "Média", "price": "Médio", "verdict": "Último mês bom, ótimo custo-benefício" },
+    { "month": "Dec", "weather": "Estação úmida voltando, festivo", "emoji": "🌦", "crowds": "Baixa-média", "price": "Médio", "verdict": "Arriscado — reserve com flexibilidade" }
+  ],
+  "budgetTiers": [
+    { "label": "Lodge boutique", "range": "$400-650/noite", "gets": "Hotel pequeno encantador em Nosy Be ou nas terras altas com vista para o mar ou a floresta, pensão completa e hospitalidade malgaxe autêntica. Entrada honesta.", "example": "Vanila Hotel & Spa, Tsara Komba (baixa)" },
+    { "label": "Ilha privada de luxo", "range": "$650-1.400/noite", "gets": "Lodge em ilha privada all-inclusive com todas as atividades, transfers e refeições. O nível padrão da lua de mel em Madagascar.", "example": "Constance Tsarabanjina, Nosy Saba Island Resort, Anjajavy Le Lodge" },
+    { "label": "Ultra-luxo icônico", "range": "$4.500-8.000+/noite", "gets": "Time + Tide Miavana — 14 vilas em ilha privada no arquipélago Mitsio, acesso de helicóptero, todas as atividades inclusas, ápice do luxo no Índico. Define a própria categoria.", "example": "Time + Tide Miavana em Nosy Ankao" }
+  ],
+  "areas": [
+    { "name": "Nosy Be e ilhotas", "bestFor": "Base de praia, acesso mais fácil, bate-volta de mergulho", "description": "Coração turístico de Madagascar — maior ilha da costa noroeste com voos diretos da Europa e África do Sul. Use como hub para Tsarabanjina, Nosy Komba e Nosy Tanikely. Vanila Hotel e Tsara Komba ficam aqui." },
+    { "name": "Península de Anjajavy (noroeste)", "bestFor": "Fauna em propriedade de praia luxuosa, lodge fly-in", "description": "Reserva privada remota de 730 hectares na costa noroeste onde lêmures vão ao café e a praia fica vazia por quilômetros. Anjajavy Le Lodge é alcançado em 1,5h de charter de Antananarivo. Praia + fauna em uma estada." },
+    { "name": "Nosy Ankao e arquipélago Mitsio", "bestFor": "Ultra-luxo em ilha privada, praia top", "description": "Cadeia esparsa de ilhas de granito e coral a nordeste de Diego Suarez, acessível só por barco privativo ou helicóptero. Time + Tide Miavana em Nosy Ankao é o ápice; as ilhas Mitsio mais ao sul abrigam Tsarabanjina. Água mais preservada de Madagascar." },
+    { "name": "Floresta de Andasibe (leste)", "bestFor": "Lêmures, floresta, adição fácil de Tana", "description": "A floresta tropical mais acessível de Madagascar — 3h de carro a leste de Antananarivo. Andasibe-Mantadia abriga o lêmure indri e 11 outras espécies. As 2 noites obrigatórias antes ou depois da praia." }
+  ],
+  "expertTips": [
+    { "tip": "Combine 2 noites em Andasibe com 5+ noites em ilha privada — não pule os lêmures", "detail": "Voar 24h até Madagascar e só fazer praia é oportunidade perdida. A floresta de Andasibe está a 3h de Antananarivo e entrega o indri que define o país. Duas noites no Vakôna Forest Lodge em torno da praia é o roteiro correto." },
+    { "tip": "Voos internos são essenciais — e às vezes atrasam", "detail": "Tsaradia (braço doméstico da Air Madagascar) voa Antananarivo a Nosy Be, Diego Suarez, Sainte-Marie, Morondava e Tulear. Horários nem sempre confiáveis — coloque buffer de 24h em Antananarivo antes da partida internacional. Nunca planeje conexões apertadas." },
+    { "tip": "Antimalárico é exigido — Malarone é o padrão", "detail": "Maior parte de Madagascar (exceto as terras altas centrais) é malárica. Atovaquona-proguanil (Malarone) é a profilaxia padrão de luxo: efeitos colaterais mínimos, diário, começando 1-2 dias antes. Doxiciclina é a alternativa mais barata." },
+    { "tip": "Agosto-setembro é pico de baleias na Île Sainte-Marie", "detail": "Baleias jubarte migram da Antártida para parir no canal entre Sainte-Marie e o continente. Os encontros (snorkel ao lado de mães e filhotes em 25 m de visibilidade) são de classe mundial. Princesse Bora Lodge é o especialista." },
+    { "tip": "Reserve Miavana e Tsarabanjina com 8-12 meses para jul-out", "detail": "As duas ilhas privadas têm só 14 e 25 vilas respectivamente. Espaço de pico é tomado por hóspedes recorrentes e agentes de luxo em fev-mar. Email direto às propriedades mencionando lua de mel — reservam as melhores vilas para casais que reservam cedo." }
+  ],
+  "packing": [
+    { "item": "Comprimidos antimaláricos (Malarone)", "why": "Maior parte de Madagascar é malárica — inegociável. Comece 1-2 dias antes, continue 7 dias após." },
+    { "item": "Repelente forte com DEET (50%+)", "why": "Mosquitos em todo lugar fora do alto planalto central. Picaridin também aceitável." },
+    { "item": "Camisa leve de manga longa para trilha", "why": "Essencial para rastrear lêmures — protege contra mosquitos e plantas urticantes em Andasibe" },
+    { "item": "Protetor solar reef-safe de qualidade", "why": "Regras do parque marinho em Nosy Tanikely; sol equatorial na água é intenso" },
+    { "item": "Dinheiro em euros para gorjetas e áreas rurais", "why": "Aceitação de cartões é confiável só em lodges de luxo. Euros são amplamente aceitos; MGA (ariary) para mercados e pequenas compras." },
+    { "item": "Saco estanque", "why": "Transfers de barco a ilhas privadas têm convés aberto e podem molhar; protege câmeras e celulares" },
+    { "item": "Frase-livro básico de francês", "why": "Francês é a língua franca depois do malgaxe. Maioria do staff fala francês; inglês é irregular fora do top." }
+  ],
+  "guide": {
+    "getting": "Voe para Antananarivo Ivato (TNR), capital e porta principal. Da Europa: Air France direto de Paris CDG (10h45). De outros: via Maurício (Air Mauritius, 1h45 de conexão), via Adis Abeba (Ethiopian Airlines) ou via Joanesburgo (Airlink). Tempo total da costa leste dos EUA ou da maior parte da Europa é 20-24h com conexões. De Antananarivo, Tsaradia opera voos internos para Nosy Be (NOS), Diego Suarez (DIE), Sainte-Marie (SMS) e Morondava (MOQ). Sempre pernoite em Tana na chegada antes de seguir.",
+    "where": "Para primeira lua de mel em Madagascar, o roteiro canônico de 10-12 noites é: 1 noite em Antananarivo (recuperação) + 2 noites na floresta de Andasibe (lêmures) + 1 noite em Antananarivo (trânsito) + 5-7 noites em ilha privada (Tsarabanjina, Anjajavy, Miavana ou Nosy Saba) + 1 noite em Antananarivo antes de partir. Para segunda viagem, some Île Sainte-Marie (baleias, ago-out) ou Morondava (Avenida dos Baobás).",
+    "when": "Abril a novembro é a estação seca e a única época sensata. Maio, junho, setembro e outubro são pontos doces — secos, quentes e com lêmures e baleias no auge. Julho e agosto são os mais cheios (férias escolares europeias). Dezembro a março é estação de ciclones e chuvas — muitos lodges fecham. Evite por completo."
+  },
+  "localFood": "Zebu (gado malgaxe corcunda) é a proteína básica — grelhado em brochettes ou estufado lentamente em romazava (prato nacional: zebu com brèdes mafane, gengibre e tomate, servido com arroz). Ravitoto (folhas de mandioca pisadas com porco e coco) é outro clássico. A baunilha Bourbon — a melhor do mundo, da costa SAVA — perfuma de sobremesas a rum arrangé. Os frutos do mar nas ilhas costeiras (lagosta, caranguejo, peixe de linha) rivalizam com qualquer lugar do Índico. A herança colonial francesa aparece na patisserie e no pão; THB (Three Horses Beer) é a lager nacional.",
+  "currency": "Ariary malgaxe (MGA). Euros (EUR) amplamente aceitos em lodges e sítios turísticos — leve euros em espécie para gorjetas e transações rurais.",
+  "language": "Malgaxe (oficial). Francês (língua franca) amplamente falado no turismo. Inglês irregular fora do top.",
+  "timezone": "Hora da África Oriental (EAT, UTC+3) — sem horário de verão"
+}

@@ -1,0 +1,77 @@
+{
+  "tagline": "Além de Bora Bora — ilhas da baunilha, atóis de areia rosa e o paraíso privado de Brando",
+  "intro": "A Polinésia Francesa se estende por um território oceânico do tamanho da Europa, mas a maioria dos viajantes vê apenas uma de suas 118 ilhas. Além da fama de cartão-postal de Bora Bora, há um arquipélago de variedade espantosa — picos vulcânicos cobertos de selva, plantações de baunilha perfumando os alísios e atóis tão remotos que parecem o fim do mundo. Tahiti, a maior ilha, ancora o território com sua capital Papeete — o agitado Marché de Pape'ete transborda de flores tiare, pérolas negras e pareos ao amanhecer. Uma balsa de 30 minutos depois, Moorea ergue-se como uma catedral verde do mar, com seus oito picos circundando as baías de Cook e Opunohu. Navegue para o norte e chegue ao coração mais tranquilo das Ilhas da Sociedade: Taha'a, a ilha da baunilha, e Raiatea, a ilha sagrada, lar do Marae Taputapuatea — sítio cerimonial UNESCO considerado o berço espiritual de toda a Polinésia. Para mergulhadores e sonhadores, os atóis Tuamotu acenam: Rangiroa, a segunda maior lagoa do mundo, onde golfinhos surfam o Tiputa Pass na maré entrante; Tikehau, contornada por areia rosa de coral. E há Tetiaroa — o atol privado de Marlon Brando, hoje casa do The Brando.",
+  "bestTime": "Maio a outubro — estação seca, menor umidade, mar calmo",
+  "flightFrom": "LAX 8h direto a Papeete (PPT); Paris 22h via LAX ou Tóquio",
+  "topExperience": "Balsa para Moorea ao amanhecer e direção até o mirante Belvedere para a vista do Mt Rotui",
+  "perfectFor": [
+    "Casais buscando alternativa mais tranquila a Bora Bora",
+    "Viajantes culturais atraídos pelo patrimônio polinésio e sítios UNESCO",
+    "Mergulhadores em busca de mantas e passes com golfinhos",
+    "Casais saltando entre ilhas em iate ou avião pequeno",
+    "Quem busca eco-luxo disposto a esbanjar no The Brando"
+  ],
+  "skipIf": [
+    "Você quer viagem curta — voos são longos de qualquer lugar",
+    "Está atento ao orçamento — tudo é importado e precificado de acordo",
+    "Precisa de vida noturna agitada ou bairros de compras",
+    "Espera inglês em todo lugar — francês e taitiano dominam"
+  ],
+  "experiences": [
+    { "icon": "🐬", "title": "Observação de golfinhos no Tiputa Pass, Rangiroa", "description": "Fique na borda do canal na maré entrante e veja golfinhos-nariz-de-garrafa selvagens surfarem a corrente para a lagoa.", "cost": "8.000-12.000 XPF (€67-100)", "tip": "Vá em maré subindo entre 8-10h, quando os golfinhos estão mais ativos" },
+    { "icon": "🌺", "title": "Tour de plantação de baunilha em Taha'a", "description": "Caminhe entre videiras de orquídeas de baunilha polinizadas à mão e aprenda o processo de cura de nove meses na origem de 80% da baunilha do território.", "cost": "3.500 XPF (€29) com degustação", "tip": "Compre vagens a vácuo direto do produtor" },
+    { "icon": "⛵", "title": "Vela pelas Ilhas da Sociedade em catamarã", "description": "Alugue um cat com tripulação saindo de Raiatea para circundar Taha'a dentro da lagoa compartilhada e fazer drift no Coral Garden.", "cost": "A partir de 280.000 XPF (€2.350) por charter de 4 dias", "tip": "Reserve pela Dream Yacht Charter — Raiatea é o hub de vela entre ilhas" },
+    { "icon": "🌅", "title": "Trilha ao mirante Belvedere, Moorea", "description": "Suba passando por campos de abacaxi até o mirante panorâmico onde Mt Rotui se ergue entre as baías de Cook e Opunohu.", "cost": "Grátis; aluguel 4WD ~10.000 XPF (€84)/dia", "tip": "Combine com a barraca de suco de abacaxi da Escola Agrícola" },
+    { "icon": "🐢", "title": "Visita ao Marae Taputapuatea, Raiatea", "description": "Caminhe entre as pedras de basalto do templo antigo mais sagrado da Polinésia — patrimônio UNESCO.", "cost": "Entrada grátis; tours guiados a partir de 4.000 XPF", "tip": "Contrate guia local pelo centro de visitantes — as pedras parecem comuns sem as histórias" }
+  ],
+  "months": [
+    { "month": "Jan", "weather": "27-31°C, úmido, chuvas frequentes", "emoji": "🌧️", "crowds": "Baixa", "price": "Médio", "verdict": "Estação úmida — verde e exuberante" },
+    { "month": "Feb", "weather": "27-32°C, pico de risco de ciclone", "emoji": "🌀", "crowds": "Baixa", "price": "Baixo", "verdict": "Mês mais barato e mais úmido" },
+    { "month": "Mar", "weather": "27-31°C, umidade diminuindo", "emoji": "🌧️", "crowds": "Baixa", "price": "Baixo", "verdict": "Final da estação úmida — ofertas abundantes" },
+    { "month": "Apr", "weather": "26-30°C, mês de transição", "emoji": "⛅", "crowds": "Baixa", "price": "Médio", "verdict": "Ponto doce — clima melhorando, preços ainda baixos" },
+    { "month": "May", "weather": "25-29°C, começa estação seca", "emoji": "☀️", "crowds": "Média", "price": "Médio", "verdict": "Excelente — umidade cai, ideal para vela" },
+    { "month": "Jun", "weather": "24-28°C, seco e ventoso", "emoji": "☀️", "crowds": "Média", "price": "Alto", "verdict": "Clima lindo — leve uma camada leve" },
+    { "month": "Jul", "weather": "23-28°C, pico da estação seca", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Festival Heiva em Papeete — cultura no auge" },
+    { "month": "Aug", "weather": "23-28°C, seco e claro", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Alta temporada — reserve overwater com 6+ meses" },
+    { "month": "Sep", "weather": "24-29°C, fim da seca", "emoji": "☀️", "crowds": "Média", "price": "Alto", "verdict": "Provavelmente o melhor mês — clima ótimo, menos gente" },
+    { "month": "Oct", "weather": "25-30°C, esquentando", "emoji": "⛅", "crowds": "Média", "price": "Médio", "verdict": "Final de seca — baleias jubarte até fim de outubro" },
+    { "month": "Nov", "weather": "26-31°C, umidade subindo", "emoji": "⛅", "crowds": "Baixa", "price": "Médio", "verdict": "Transição para estação úmida — preços caindo" },
+    { "month": "Dec", "weather": "27-31°C, festivo mas chuvoso", "emoji": "🌧️", "crowds": "Média", "price": "Alto", "verdict": "Sobretaxas de feriado retornam; pancadas à tarde" }
+  ],
+  "budgetTiers": [
+    { "label": "Confortável", "range": "€350-600/noite", "gets": "Bangalô vista jardim em resort 4 estrelas, café da manhã, transfers de balsa", "example": "Manava Beach Resort Moorea — bangalô jardim com vista de piscina" },
+    { "label": "Premium", "range": "€700-1.400/noite", "gets": "Vila sobre a água em Hilton ou Sofitel, meia pensão, excursões na lagoa", "example": "Hilton Moorea Lagoon Resort — vila sobre a água com piso de vidro" },
+    { "label": "Ultra-luxo", "range": "€3.500-20.000/noite", "gets": "Vila privativa all-inclusive, mordomo, barco dedicado, spa", "example": "The Brando em Tetiaroa — vila pé na areia, all-inclusive" }
+  ],
+  "areas": [
+    { "name": "Tahiti e Papeete", "bestFor": "Hub de chegada, cultura, mercados", "description": "A maior ilha e portal — passe uma noite antes ou depois dos voos entre ilhas para explorar o mercado e as cachoeiras escarpadas da costa leste." },
+    { "name": "Moorea", "bestFor": "Casais, trilhas, acesso fácil", "description": "Balsa de 30 min de Tahiti, Moorea oferece picos dramáticos, baías gêmeas e o melhor custo-benefício em vilas sobre a água do território." },
+    { "name": "Taha'a e Raiatea", "bestFor": "Vela, baunilha, sítios sagrados", "description": "Essas duas ilhas compartilham uma única lagoa, perfeita para charters de catamarã. Taha'a é famosa pela baunilha; Raiatea abriga o marae UNESCO." },
+    { "name": "Rangiroa", "bestFor": "Mergulho, vida de atol", "description": "Segundo maior atol do mundo — vasta lagoa turquesa cercada por motus, com dois passes que canalizam tubarões, golfinhos e mantas." },
+    { "name": "Tetiaroa", "bestFor": "Reclusão ultra-luxo", "description": "O atol privado de Marlon Brando, hoje casa do The Brando — acessível só por avião privativo, território da bucket list." }
+  ],
+  "expertTips": [
+    { "tip": "Compre o multi-island pass da Air Tahiti antes de chegar", "detail": "Os passes economizam 30-50% em relação a voos ponto a ponto; reserve em airtahiti.com antes de embarcar." },
+    { "tip": "Gorjeta não é costume", "detail": "A cultura polinésia vê gorjeta como constrangedora — taxas de serviço já estão no preço. Um caloroso \"maururu\" é o gesto certo." },
+    { "tip": "Leve euros ou cartões, não USD", "detail": "O franco CFP é atrelado ao euro; caixas eletrônicos são raros nas ilhas externas, então saque dinheiro em Papeete antes de saltar." },
+    { "tip": "Aos domingos tudo fecha", "detail": "Restaurantes, lojas e muitas atividades fecham — planeje dia de resort ou reserve um brunch de domingo." },
+    { "tip": "Leve protetor solar reef-safe — é a lei", "detail": "A Polinésia Francesa proibiu protetores com oxibenzona e octinoxato; leve mineral à base de zinco ou compre localmente na chegada." }
+  ],
+  "packing": [
+    { "item": "Protetor solar mineral reef-safe", "why": "Protetores químicos são proibidos; mineral de zinco é difícil de achar e caro localmente" },
+    { "item": "Pareo ou sarongue", "why": "Serve como saída de praia, toalha e traje respeitoso para visitas a templos" },
+    { "item": "Sapatos para recife", "why": "Coral e ouriços são comuns nos rasos; chinelos não bastam" },
+    { "item": "Capa de chuva leve", "why": "Pancadas passam rápido até na estação seca" },
+    { "item": "Câmera subaquática ou GoPro", "why": "As lagoas pedem isso — drift snorkels no Coral Garden são inesquecíveis" },
+    { "item": "Repelente com DEET", "why": "Mosquitos e mosquitinhos nono são reais nos motus, sobretudo ao entardecer" }
+  ],
+  "guide": {
+    "getting": "Voe ao Faaa Internacional (PPT) perto de Papeete — Air Tahiti Nui de LAX (8h), Paris (22h via LAX). Voos entre ilhas pela Air Tahiti em turbo-hélice ou, entre Tahiti e Moorea, na balsa Aremiti de 30 min.",
+    "where": "Pernoite uma vez no Tahiti em cada ponta da viagem, depois divida entre Moorea (drama vulcânico) e um atol Tuamotu como Rangiroa ou Tikehau. The Brando em Tetiaroa fica a 20 min de avião privativo de Papeete.",
+    "when": "Maio a outubro é estação seca. Julho-agosto são pico (reserve com 6+ meses). Setembro é o ponto doce. Evite janeiro-março pelo risco de ciclone."
+  },
+  "localFood": "Poisson cru é o prato nacional — atum cru marinado em limão e leite de coco. Não perca o ahi ma'a, banquete tradicional polinésio cozido em forno de pedra subterrâneo — geralmente servido aos domingos nos resorts. Baunilha fresca, sashimi de mahi-mahi e chevrettes completam o menu, regados com cerveja Hinano.",
+  "currency": "Franco CFP (XPF) — €1 ≈ 119 XPF (atrelado)",
+  "language": "Francês / Taitiano (Reo Tahiti)",
+  "timezone": "TAHT (UTC-10)"
+}

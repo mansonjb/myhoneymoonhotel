@@ -1,0 +1,155 @@
+{
+  "tagline": "O destino original da vila sobre a água. Nada se compara.",
+  "intro": "Bora Bora é o destino que inventou a vila sobre a água em 1968 — e depois de 50+ anos, nada superou. O Monte Otemanu se eleva 727 m da lagoa mais turquesa da Terra, cercado por uma barreira de coral e um cordão de motus de areia branca onde cada resort de luxo compete para te entregar a lua de mel mais cinematográfica possível. É aqui que os casais vêm quando querem que a foto combine com o sentimento.",
+  "bestTime": "Mai–Out",
+  "flightFrom": "16–20h da Europa",
+  "topExperience": "Vilas sobre a água",
+  "perfectFor": [
+    "O sonho da vila sobre a água — Bora Bora inventou e ainda faz melhor",
+    "Casais que querem snorkel e atividades aquáticas de classe mundial direto da vila",
+    "Uma lua de mel-marco uma-vez-na-vida com cenário icônico",
+    "Casais obcecados por fotografia (Monte Otemanu ao nascer do sol é transformador)",
+    "Quem quer um casulo de resort autossuficiente sem compromisso de luxo"
+  ],
+  "skipIf": [
+    "Só para adultos é prioridade — a maioria dos resorts de Bora Bora aceita famílias",
+    "Seu orçamento é menor que $1.500/noite — não há genuinamente meio-termo aqui",
+    "Você quer explorar cultura local, mercados e vida polinésia autêntica",
+    "Precisa de vida noturna ou variedade de restaurantes fora do resort",
+    "Uma jornada de 20 horas em cada sentido parece desproporcional para uma estadia de 5 noites"
+  ],
+  "experiences": [
+    {
+      "icon": "⛵",
+      "title": "Vela privativa ao pôr do sol na lagoa",
+      "description": "Catamarã privativo com champagne e canapés circulando a lagoa enquanto o sol cai atrás de Otemanu. As 2 horas mais românticas da Polinésia Francesa.",
+      "cost": "$200–$450 por casal",
+      "tip": "Reserve pelo hotel — barcos operados independentemente são ok, mas hotel-vetado é mais seguro em lua de mel."
+    },
+    {
+      "icon": "🦈",
+      "title": "Nade com tubarões e arraias",
+      "description": "Snorkel no Coral Garden com tubarões-de-pontas-pretas e arraias-águia em menos de 1 metro de água. Completamente seguro, totalmente surreal. Tours guiados saem diariamente.",
+      "cost": "$80–$150 por pessoa",
+      "tip": "Vá cedo (7–8h) antes dos barcos turísticos chegarem. A clareza da água é melhor antes das 10h."
+    },
+    {
+      "icon": "🚁",
+      "title": "Helicóptero sobre o Monte Otemanu",
+      "description": "20 minutos que mudarão como você vê a ilha. A vista aérea da barreira de coral, dos canais da lagoa e do cordão de motus é a foto definidora de Bora Bora.",
+      "cost": "$400–$650 por casal",
+      "tip": "Peça um voo matinal (7–9h) para a melhor luz e mínima neblina de calor. Peça ao piloto para circular o cume duas vezes."
+    },
+    {
+      "icon": "🏝️",
+      "title": "Piquenique privativo em motu",
+      "description": "Seu hotel te deixa em um banco de areia deserto com piquenique gourmet, equipamento de snorkel e zero outras pessoas. Te buscam 3 horas depois. Uma das melhores meias-tardes que você passará.",
+      "cost": "$350–$600 por casal",
+      "tip": "Peça para o dia 3 ou 4 — depois que estiver acostumado. Bate diferente quando você está totalmente relaxado."
+    },
+    {
+      "icon": "🤿",
+      "title": "Snorkel ao amanhecer no Coral Garden",
+      "description": "O Coral Garden entre a ilha principal e os motus de resort é um dos ecossistemas de recife mais ricos do Pacífico. Faça antes do café para a experiência mais pristina.",
+      "cost": "$60–$100 por pessoa (guiado) ou grátis da water villa",
+      "tip": "Anantara e Four Seasons têm o melhor acesso direto ao recife. No St Regis, pegue o barco do hotel."
+    }
+  ],
+  "months": [
+    { "month": "Jan", "weather": "Quente, úmido, chuva ocasional", "emoji": "🌦", "crowds": "Baixa", "price": "Baixo", "verdict": "Boa oferta, alguma chuva" },
+    { "month": "Feb", "weather": "Quente, mês mais chuvoso", "emoji": "🌧", "crowds": "Baixa", "price": "Mínimo", "verdict": "Escolha econômica, espere chuva" },
+    { "month": "Mar", "weather": "Transição, secando", "emoji": "⛅", "crowds": "Baixa", "price": "Baixo", "verdict": "Mês shoulder subestimado" },
+    { "month": "Apr", "weather": "Cada vez mais seco, lindo", "emoji": "🌤", "crowds": "Baixa", "price": "Baixo-médio", "verdict": "O ponto doce começa aqui" },
+    { "month": "May", "weather": "Estação seca começa, perfeito", "emoji": "☀️", "crowds": "Moderada", "price": "Médio", "verdict": "Excelente em geral" },
+    { "month": "Jun", "weather": "Seco, com brisa, ideal", "emoji": "☀️", "crowds": "Moderada", "price": "Médio-alto", "verdict": "Um dos melhores meses" },
+    { "month": "Jul", "weather": "Pico da seca, impecável", "emoji": "☀️", "crowds": "Máxima", "price": "Alto", "verdict": "Perfeito mas lotado" },
+    { "month": "Aug", "weather": "Impecável, mês mais movimentado", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Lindo, mais caro" },
+    { "month": "Sep", "weather": "Ainda seco, esvaziando", "emoji": "☀️", "crowds": "Moderada", "price": "Médio-alto", "verdict": "Melhor custo-benefício na seca" },
+    { "month": "Oct", "weather": "Fim da seca, perfeito", "emoji": "🌤", "crowds": "Baixa-mod.", "price": "Médio", "verdict": "Mês escondido" },
+    { "month": "Nov", "weather": "Transição, possível chuva", "emoji": "⛅", "crowds": "Baixa", "price": "Baixo-médio", "verdict": "Boas ofertas, leve risco" },
+    { "month": "Dec", "weather": "Quente, corrida de feriado, risco de chuva", "emoji": "🌦", "crowds": "Alta", "price": "Muito alto", "verdict": "Caro para um mês chuvoso" }
+  ],
+  "budgetTiers": [
+    {
+      "label": "Luxo acessível",
+      "range": "$1.200–$2.000/noite",
+      "gets": "Vila sobre a água com acesso à lagoa, sem piscina privativa. Praia e comodidades compartilhadas. Excelente para iniciantes.",
+      "example": "InterContinental Le Moana, Le Bora Bora by Pearl Resorts"
+    },
+    {
+      "label": "Premium",
+      "range": "$2.000–$4.000/noite",
+      "gets": "Vila sobre a água com piscina plunge privativa, escada direta para a lagoa, butler à disposição. A experiência definitiva de Bora Bora.",
+      "example": "Four Seasons, Conrad Bora Bora Nui, InterContinental Thalasso"
+    },
+    {
+      "label": "Ultra-luxo",
+      "range": "$4.000+/noite",
+      "gets": "Maiores vilas sobre a água, butler completo, in-villa dining padrão, reclusão completa. O melhor do melhor.",
+      "example": "St Regis Royal Estate Villa, Four Seasons Otemanu Villa"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Motus do lado leste (nascer do sol)",
+      "bestFor": "Melhores vistas do Monte Otemanu",
+      "description": "Os motus da barreira de coral no lado leste da lagoa ficam de frente para a montanha. Luz da manhã em Otemanu vista do seu deck é a imagem definidora de Bora Bora. Four Seasons e a maioria dos top resorts estão aqui."
+    },
+    {
+      "name": "Motus do lado oeste (pôr do sol)",
+      "bestFor": "Iluminação dramática do pôr do sol",
+      "description": "O InterContinental Thalasso Spa fica no motu noroeste com vistas do pôr do sol. Você vê a montanha em silhueta no entardecer. Vista de Otemanu um pouco menos dramática, mas os pores do sol são extraordinários."
+    },
+    {
+      "name": "Ilha principal (Vaitape)",
+      "bestFor": "Contexto cultural, compras",
+      "description": "A ilha principal tem a cidade de Vaitape, um mercado de hortaliças, lojas de pérolas e alguns restaurantes locais. Sem hotéis-resort aqui — mas vale meia tarde de tour de bicicleta ou 4x4."
+    },
+    {
+      "name": "Praia Matira",
+      "bestFor": "Única praia pública na ilha principal",
+      "description": "A única praia pública de areia branca em Bora Bora propriamente. InterContinental Le Moana fica adjacente. Ótima para casais que querem acesso a motu E praia caminhável. A única área com vibe descontraída, não-resort."
+    }
+  ],
+  "expertTips": [
+    {
+      "tip": "Mande e-mail ao hotel 3 semanas antes",
+      "detail": "Peça uma unidade voltada para o Monte Otemanu pelo nome — não só \"melhor vista\". Especifique virada para leste. Propriedades priorizam casais em lua de mel que comunicam claramente em vez dos que perguntam no check-in."
+    },
+    {
+      "tip": "O hidroavião de Papeete custa $500 a mais. Pegue.",
+      "detail": "Voar baixo sobre a lagoa e pousar na água ao lado do seu resort é uma das grandes experiências de chegada em viagem. O barco é ok, mas o hidroavião pousa em uma altitude emocional completamente diferente."
+    },
+    {
+      "tip": "Protetor reef-safe não é opcional",
+      "detail": "A Polinésia Francesa baniu protetores com oxibenzona para proteger os corais. Leve Badger, Raw Elements ou Stream2Sea — lojas de resort cobram 3× pelo aprovado."
+    },
+    {
+      "tip": "Reserve o tour de tubarões e arraias para o dia 2, não o 1",
+      "detail": "O primeiro dia é para se recuperar da viagem e se apaixonar pela vila. No dia 2 você está pronto para aventura. Snorkelers do dia 1 frequentemente perdem o melhor."
+    },
+    {
+      "tip": "Peça café da manhã sobre a água, não room service",
+      "detail": "A diferença entre comer dentro e comer no seu deck com a lagoa a 60 cm abaixo é tudo. Diga ao hotel ao reservar que você quer o setup de café da manhã sobre a água toda manhã."
+    }
+  ],
+  "packing": [
+    { "item": "Protetor solar mineral reef-safe", "why": "Protetor químico é proibido — você será multado e o recife agradece" },
+    { "item": "GoPro ou câmera submarina", "why": "Câmera de celular não sobrevive à lagoa. Os tubarões merecem mais." },
+    { "item": "Camiseta com proteção UV (×2)", "why": "Dias inteiros na água em dias consecutivos — moda de banho regular queima" },
+    { "item": "Capa impermeável para celular", "why": "Para caiaque, transfers de barco e momentos na vila com piso de vidro" },
+    { "item": "Um look smart casual para o jantar", "why": "Dress code de jantar do resort: sem moda de banho, mas sem necessidade de jaqueta" },
+    { "item": "Sandálias de recife ou sapatos de água", "why": "Pontos de entrada de coral pelas escadas das vilas são afiados sem proteção" },
+    { "item": "Dinheiro (USD) ou cartão sem taxa de FX", "why": "CFP Franc é a moeda. USD aceito em todo lugar. Evite taxas de ATM com cartão Wise ou Revolut." },
+    { "item": "Repelente leve", "why": "Noites após o sol, especialmente perto da vegetação na ilha principal" }
+  ],
+  "guide": {
+    "getting": "Voe para Papeete (PPT) no Taiti — direto de Los Angeles (8h), Paris CDG (17h), ou via Auckland. Depois um voo de hélice da Air Tahiti de 45 min para o aeroporto de Bora Bora (BOB) em um motu. Seu resort organiza um barco ou hidroavião para a lagoa principal (gaste no hidroavião — $500 a mais, vale cada centavo).",
+    "where": "Todos os top resorts ficam em motus da barreira de coral, voltados para a lagoa e o Monte Otemanu. Lado leste (Four Seasons, Conrad) tem as vistas mais dramáticas de nascer do sol em Otemanu. Lado oeste (InterContinental Thalasso) é virado para o pôr do sol. Le Taha'a fica numa ilha vizinha — ainda mais isolado, sem vista de Otemanu, espetacular por mérito próprio.",
+    "when": "Maio–outubro é a estação seca com ventos alísios consistentes (24–29°C). Julho–agosto é pico e lotado. Setembro–outubro oferece clima perfeito com 30% menos hóspedes. Novembro–abril traz mais chuva, mas verde exuberante e tarifas 25–40% menores."
+  },
+  "localFood": "Poisson cru (atum cru no leite de coco) é o prato nacional da Polinésia Francesa — extraordinariamente fresco. Chevreffes (camarões de água doce), fruta-pão, fafaru (peixe fermentado — gosto adquirido) e doces excepcionais com influência francesa. Os jantares dos resorts são de classe mundial; o restaurante Bloody Mary's na ilha principal é a lendária instituição local.",
+  "currency": "Franco CFP (XPF) — atrelado ao Euro. USD amplamente aceito.",
+  "language": "Francês e taitiano. Inglês falado em todo nível de resort.",
+  "timezone": "GMT-10 (Hora Padrão da Polinésia Francesa)"
+}

@@ -31,9 +31,9 @@ export function buildAlternates(
     loc === DEFAULT_LOCALE ? `${SITE_URL}${root || '/'}` : `${SITE_URL}/${loc}${root}`
 
   const languages: Record<string, string> = {}
-  // Only Spanish (es) is live for v1 — skip locales without a rendered tree to avoid
-  // promising hreflang to pages that don't exist. Keeping en + es here.
-  const liveLocales: Locale[] = ['en', 'es']
+  // Spanish (es) and Portuguese (pt) are live — skip locales without a rendered tree to avoid
+  // promising hreflang to pages that don't exist. Keeping en + es + pt here.
+  const liveLocales: Locale[] = ['en', 'es', 'pt']
   for (const loc of LOCALES) {
     if (!liveLocales.includes(loc)) continue
     languages[loc] = buildUrl(loc)
