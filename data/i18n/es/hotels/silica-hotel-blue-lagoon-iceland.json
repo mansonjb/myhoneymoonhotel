@@ -1,0 +1,75 @@
+{
+  "content": {
+    "verdict": "Silica Hotel es el hermano más tranquilo y asequible del Retreat: 35 habitaciones a corta distancia a pie del Blue Lagoon principal, cada una con ventanales de suelo a techo y vistas a la llanura de lava. Lo que lo convierte en una sólida elección para luna de miel es la laguna de baño exclusiva para huéspedes del hotel, una piscina mineral templada reservada en exclusiva a los clientes de Silica y mucho más serena que el Blue Lagoon público de al lado. Las habitaciones son de un escandinavismo depurado —roble claro, lana natural, bañeras amplias y abundante luz natural— y el restaurante apuesta con decisión por ingredientes islandeses como salvelino ártico, cigala y skyr. Las parejas que quieren la experiencia del Blue Lagoon con más intimidad que una visita de día, pero sin el precio del Retreat, recalan casi siempre aquí y se marchan con la sensación de haber acertado.",
+    "best_room": "Comfort Room with Lagoon View: unos 35 metros cuadrados, bañera de inmersión sobredimensionada, ventanal con vistas al paisaje de musgo y lava, y un corto pasaje climatizado hasta la laguna privada para huéspedes.",
+    "itinerary_7_nights": [
+      {
+        "day": 1,
+        "title": "Llegada y primer baño",
+        "description": "Traslado desde Keflavík (15 minutos), check-in y mitigar el desfase horario con un baño a media tarde en la laguna privada de Silica seguido de una cena en el restaurante del hotel."
+      },
+      {
+        "day": 2,
+        "title": "Experiencia principal del Blue Lagoon",
+        "description": "Pasen una mañana pausada en el Blue Lagoon público (incluido para los huéspedes), con mascarillas de sílice y bebidas en el agua, regresen para almorzar y reserven un masaje en pareja en el Blue Lagoon Spa por la tarde."
+      },
+      {
+        "day": 3,
+        "title": "Reikiavik y faro de Grótta",
+        "description": "Excursión de día a la capital para conocer Harpa, las compras de Laugavegur y un paseo al atardecer hasta el faro de Grótta, con regreso para un baño tardío bajo las estrellas."
+      },
+      {
+        "day": 4,
+        "title": "Círculo de Oro",
+        "description": "Tour en grupo reducido del Círculo de Oro durante todo un día —Þingvellir, Geysir, Gullfoss—, con parada en la Secret Lagoon y cena de regreso en Silica."
+      },
+      {
+        "day": 5,
+        "title": "Costa Sur y Reynisfjara",
+        "description": "Cascadas de Seljalandsfoss y Skógafoss, la playa de arena negra de Reynisfjara y la lengua glaciar de Sólheimajökull con un guía local."
+      },
+      {
+        "day": 6,
+        "title": "Cuevas de lava y noche del vino",
+        "description": "Visita matinal al tubo de lava de Raufarhólshellir, almuerzo en un restaurante en invernadero y cata de vino islandés y skyr en Silica por la noche."
+      },
+      {
+        "day": 7,
+        "title": "Última flotación y despedida",
+        "description": "Una mañana pausada en la laguna privada, brunch y un breve traslado de regreso a Keflavík para el vuelo a casa."
+      }
+    ],
+    "caveats": [
+      "Silica no es Solo adultos y, ocasionalmente, puede acoger a familias en verano, aunque la atmósfera se mantiene tranquila por el tamaño reducido de la propiedad y su orientación al spa.",
+      "El Blue Lagoon principal es público y muy concurrido: vayan temprano (antes de las 10) o tarde (después de las 19), aun cuando la entrada esté incluida.",
+      "La ubicación es remota: ideal para baños y observación de estrellas, pero cualquier día de visitas requiere un tour o un coche de alquiler desde el hotel."
+    ],
+    "faqs": [
+      {
+        "question": "¿Es este hotel adecuado para parejas en luna de miel?",
+        "answer": "Sí: es pequeño (35 habitaciones), cuenta con una laguna privada solo para huéspedes y se ubica en un paisaje de lava espectacular. Es una elección sólida para parejas que quieren proximidad al Blue Lagoon sin el coste del Retreat."
+      },
+      {
+        "question": "¿Cuál es la mejor época para viajar?",
+        "answer": "De octubre a marzo para las auroras boreales; de junio a agosto para el sol de medianoche y las caminatas. Principios de mayo y finales de septiembre son ventanas tranquilas de temporada media, con tiempo suave y menos autobuses turísticos."
+      },
+      {
+        "question": "¿Qué conviene reservar con antelación?",
+        "answer": "Una habitación con vistas a la laguna, un horario en el Blue Lagoon Premium o en el Retreat Spa, y los tours del Círculo de Oro y la Costa Sur. Los tours de auroras pueden reservarse a la llegada en función del pronóstico."
+      },
+      {
+        "question": "¿Es Solo adultos?",
+        "answer": "No, Silica acoge a todas las edades, pero la propiedad es pequeña y está orientada al spa, por lo que el ambiente suele ser tranquilo y favorable a parejas."
+      },
+      {
+        "question": "¿Cuál es la mejor categoría de habitación para una luna de miel?",
+        "answer": "La Comfort Room with Lagoon View es el punto óptimo. Si desean más espacio, la Premium Room añade una zona de estar y un baño más amplio."
+      },
+      {
+        "question": "¿Cómo se llega?",
+        "answer": "Vuelo al Aeropuerto Internacional de Keflavík (KEF); el hotel está a 15 minutos en traslado. Reikiavik queda a 45 minutos al norte."
+      }
+    ],
+    "email_template": "Asunto: Consulta de reserva para luna de miel — Silica Hotel at Blue Lagoon\n\nHola, equipo de Silica Hotel:\n\nEstamos planificando nuestra luna de miel y nos gustaría alojarnos en Silica durante 7 noches del [FECHA] al [FECHA]. ¿Podríamos solicitar una Comfort Room with Lagoon View, con cualquier detalle de luna de miel que puedan ofrecer (vino espumoso a la llegada, mesa reservada en el restaurante, late check-out)?\n\nNos gustaría también prerreservar el paquete Blue Lagoon Premium, un masaje en pareja durante la estancia y un traslado privado al aeropuerto desde Keflavík. ¿Podrían indicarnos la mejor tarifa disponible con desayuno y cualquier paquete de temporada?\n\nMuchas gracias,\n[NOMBRES]\n[EMAIL] / [TELÉFONO]"
+  }
+}

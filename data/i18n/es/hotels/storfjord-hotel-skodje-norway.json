@@ -1,0 +1,76 @@
+{
+  "content": {
+    "verdict": "Storfjord es un hotel boutique de troncos construido a mano sobre una cresta arbolada por encima del Storfjord, a quince minutos de Ålesund y a cuarenta y cinco del muelle de cruceros de Geiranger. Con solo 30 habitaciones, una sauna de leña y un coche de cortesía a disposición de los huéspedes, es esa rara propiedad de los fiordos noruegos que se siente íntima y, a la vez, propiamente lujosa. Para una luna de miel, este es el lugar donde aminorar la marcha: desayunos largos, sauna al atardecer, baños en el fiordo y cenas que apuestan con decisión por el marisco de Sunnmøre.",
+    "best_room": "Reserve una Junior Suite con balcón privado con vista al fiordo. Son la mayor categoría estándar, con pino colocado a mano, bañeras profundas y ventanales de suelo a techo orientados al agua. La Honeymoon Suite cuenta con sala de estar separada y terraza privada exterior: vale la pena el capricho una o dos noches de la estancia.",
+    "itinerary_7_nights": [
+      {
+        "day": 1,
+        "title": "Llegada por encima del Storfjord",
+        "description": "Vuelo a Ålesund Vigra (AES) y traslado privado de 25 minutos hasta Storfjord. Check-in en su Junior Suite, primera sauna al ocaso y, después, un menú de degustación pausado de Sunnmøre en el comedor de vigas de madera."
+      },
+      {
+        "day": 2,
+        "title": "Crucero por el Geirangerfjord",
+        "description": "Conduzca el coche de cortesía hasta Hellesylt o Geiranger y embarque en un crucero por el fiordo, protegido por la UNESCO, que pasa frente a las cascadas de las Siete Hermanas y del Velo de Novia. De vuelta al hotel, sauna de leña y zambullida fría en el fiordo antes de cenar."
+      },
+      {
+        "day": 3,
+        "title": "Día art nouveau en Ålesund",
+        "description": "Pase la jornada en la cercana Ålesund: la ciudad entera fue reconstruida en estilo art nouveau tras un incendio en 1904. Suba los 418 escalones del mirador de Aksla, almuerce cangrejo real en el restaurante Anno y regrese para una cena en suite."
+      },
+      {
+        "day": 4,
+        "title": "Carretera serpenteante de Trollstigen",
+        "description": "Recorra el legendario puerto de Trollstigen (abierto de mayo a octubre): once curvas en horquilla que ascienden por una pared casi vertical con cascadas a cada lado. Pícnic en la cumbre, regreso vía Valldal por las fresas y cena de regreso en Storfjord."
+      },
+      {
+        "day": 5,
+        "title": "Kayak y sauna",
+        "description": "Mañana de kayak desde el embarcadero del hotel hacia los brazos tranquilos del fiordo, con una cesta del chef a bordo. Tarde a su aire: lectura en la biblioteca, masaje en la suite y un largo ritual de sauna y zambullida fría antes de un menú de degustación de cuatro pasos."
+      },
+      {
+        "day": 6,
+        "title": "Isla de Runde o vuelo panorámico en helicóptero",
+        "description": "Conduzca hasta Runde, el acantilado de aves más meridional de Noruega, con frailecillos de mayo a agosto, o dese el capricho de un vuelo en helicóptero sobre Geiranger y el Hjørundfjord. Última cena cocinada a la leña con cigalas de los pesqueros locales."
+      },
+      {
+        "day": 7,
+        "title": "Desayuno de despedida",
+        "description": "Desayuno largo en la terraza si el tiempo acompaña, una última sauna y traslado de regreso a Ålesund Vigra. Muchas parejas conectan desde aquí con Bergen o vuelan al norte hasta Tromsø para una extensión de auroras boreales."
+      }
+    ],
+    "caveats": [
+      "Ubicación remota: necesitará el coche de cortesía o un alquiler privado para explorar más allá del hotel.",
+      "La temporada de cruceros por el Geirangerfjord va aproximadamente de mayo a comienzos de octubre; fuera de ese periodo, el acceso a los fiordos es limitado.",
+      "Solo 30 habitaciones; reserve con 4 a 6 meses de antelación para pleno verano.",
+      "La cocina noruega es de raciones pequeñas y de menús de degustación; no es un destino para amantes de los buffets copiosos."
+    ],
+    "faqs": [
+      {
+        "question": "¿Es adecuado para lunas de miel?",
+        "answer": "Sí: pequeño, construido a mano y junto al fiordo, con cultura de sauna y un restaurante excepcional. Las parejas son la mayoría de los huéspedes y el hotel es famosamente discreto y reservado."
+      },
+      {
+        "question": "¿Mejor época para visitarlo?",
+        "answer": "De finales de mayo a mediados de septiembre, por los largos días en el fiordo y los puertos de montaña abiertos. A finales de junio se vive la luz del sol de medianoche en esta latitud."
+      },
+      {
+        "question": "¿Reservar con antelación?",
+        "answer": "De 4 a 6 meses para las suites de verano; de 2 a 3 meses en temporada media."
+      },
+      {
+        "question": "¿Es Solo adultos?",
+        "answer": "No, pero con solo 30 habitaciones y un ambiente tranquilo orientado al bienestar atrae a una clientela mayoritariamente adulta. Los niños son bienvenidos, aunque infrecuentes."
+      },
+      {
+        "question": "¿Mejor categoría de habitación?",
+        "answer": "Junior Suite con balcón orientado al fiordo por su buena relación calidad-precio, o la Honeymoon Suite con terraza privada para una noche señalada."
+      },
+      {
+        "question": "¿Cómo se llega?",
+        "answer": "Vuele a Ålesund Vigra (AES); traslado privado de 25 minutos organizado por el hotel. Desde Oslo, 1 hora de vuelo; desde Bergen, 50 minutos."
+      }
+    ],
+    "email_template": "Asunto: Consulta de reserva de luna de miel — Storfjord Hotel Skodje\n\nEstimado equipo:\n\nEstamos planificando nuestra luna de miel y nos interesa alojarnos del [FECHA] al [FECHA]. ¿Podrían indicarnos la disponibilidad de una Junior Suite o de la Honeymoon Suite, así como del coche de cortesía y de cualquier paquete con menú de degustación?\n\nMuchas gracias,\n[Nombres]"
+  }
+}
