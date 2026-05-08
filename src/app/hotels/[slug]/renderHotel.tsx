@@ -111,6 +111,7 @@ export async function renderHotelPage(slug: string, locale: Locale) {
         slug={hotel.slug}
         destination={hotel.destination}
         country={hotel.country}
+        locale={locale}
       />
 
       <article className="pb-24">
@@ -242,6 +243,7 @@ export async function renderHotelPage(slug: string, locale: Locale) {
               hotelName={hotel.name}
               country={hotel.country}
               directBookingOnly={(hotel as { direct_booking_only?: boolean }).direct_booking_only ?? false}
+              locale={locale}
             />
           </section>
 

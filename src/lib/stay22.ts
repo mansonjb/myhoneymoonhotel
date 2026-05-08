@@ -10,12 +10,17 @@
 
 export const STAY22_AID = process.env.NEXT_PUBLIC_STAY22_PARTNER_ID || 'myhoneymoonhotel'
 
+// Map our internal locale → Stay22 BCP-47 lang param. Brazilian PT rolls up to 'pt'.
+type StayLocale = 'en' | 'es' | 'pt'
+const STAY22_LANG: Record<StayLocale, string> = { en: 'en', es: 'es', pt: 'pt' }
+
 /** Direct deep-link for a specific hotel. Opens the exact hotel page on the best OTA. */
 export function buildAllezHotelLink(
   hotelName: string,
   destination: string,
   country: string,
-  campaign = 'hotelpage'
+  campaign = 'hotelpage',
+  locale: StayLocale = 'en',
 ): string {
   const address = `${destination.replace(/-/g, ' ')} ${country.replace(/-/g, ' ')}`
   const params = new URLSearchParams({
@@ -23,6 +28,7 @@ export function buildAllezHotelLink(
     campaign,
     hotelname: hotelName,
     address,
+    lang: STAY22_LANG[locale],
   })
   return `https://www.stay22.com/allez/roam?${params.toString()}`
 }
@@ -31,13 +37,15 @@ export function buildAllezHotelLink(
 export function buildAllezDestLink(
   destination: string,
   country: string,
-  campaign = 'destination'
+  campaign = 'destination',
+  locale: StayLocale = 'en',
 ): string {
   const address = `${destination.replace(/-/g, ' ')} ${country.replace(/-/g, ' ')}`
   const params = new URLSearchParams({
     aid: STAY22_AID,
     campaign,
     address,
+    lang: STAY22_LANG[locale],
   })
   return `https://www.stay22.com/allez/roam?${params.toString()}`
 }
@@ -94,10 +102,11 @@ export function buildProviderUrls(hotelName: string, destinationLabel: string, c
   return { booking, hotelsCom, expedia, agoda, tripadvisor }
 }
 
-/** Stay22 embed map (unchanged). */
+/** Stay22 embed map. Pass locale to localize the embed UI. */
 export function buildStay22MapSrc(
   location: string,
-  campaign = 'hotelpage'
+  campaign = 'hotelpage',
+  locale: StayLocale = 'en',
 ): string {
   const params = new URLSearchParams({
     aid: STAY22_AID,
@@ -106,6 +115,7 @@ export function buildStay22MapSrc(
     maincolor: 'be123c',
     viewmode: 'hybrid',
     hideguestpicker: '1',
+    lang: STAY22_LANG[locale],
   })
   return `https://www.stay22.com/embed/gm?${params.toString()}`
 }

@@ -348,6 +348,7 @@ export async function renderDestinationPage(country: string, locale: Locale) {
             location={destProper}
             anchorHotelName={[...hotels].sort((a, b) => b.honeymoon_score - a.honeymoon_score)[0]?.name}
             height={480}
+            locale={locale}
           />
         </section>
 

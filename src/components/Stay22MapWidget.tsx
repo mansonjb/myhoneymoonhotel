@@ -9,6 +9,7 @@ interface Stay22MapWidgetProps {
   height?: number
   directBookingOnly?: boolean // when true (ultra-luxury lodges not on OTAs): center map on destination,
                               // hide OTA grid, show "Book direct" notice instead.
+  locale?: 'en' | 'es' | 'pt' // localizes the embedded map UI + Allez deep-links.
 }
 
 /**
@@ -80,6 +81,7 @@ export default function Stay22MapWidget({
   country = '',
   height = 500,
   directBookingOnly = false,
+  locale = 'en',
 }: Stay22MapWidgetProps) {
   // Three priorities for the embed map's search query:
   // 1. Hotel page (hotelName provided + on OTAs) → exact hotel + location
@@ -91,11 +93,11 @@ export default function Stay22MapWidget({
     : anchorHotelName
       ? `${anchorHotelName} ${location}`
       : resolveMapLocation(location)
-  const src = buildStay22MapSrc(embedQuery)
+  const src = buildStay22MapSrc(embedQuery, 'hotelpage', locale)
 
   // Smart primary CTA — Stay22 Allez Roam picks the best OTA automatically
   const smartUrl = (hotelName && !directBookingOnly)
-    ? buildAllezHotelLink(hotelName, location, country, 'hotelpage-smart')
+    ? buildAllezHotelLink(hotelName, location, country, 'hotelpage-smart', locale)
     : undefined
 
   // Per-provider direct URLs — lets the user choose their preferred OTA.

@@ -9,11 +9,12 @@ interface Props {
   slug: string
   destination: string
   country: string
+  locale?: 'en' | 'es' | 'pt'
 }
 
-export default function StickyBookingBar({ hotelName, score, priceMin, destination, country }: Props) {
+export default function StickyBookingBar({ hotelName, score, priceMin, destination, country, locale = 'en' }: Props) {
   const [visible, setVisible] = useState(false)
-  const bookingUrl = buildAllezHotelLink(hotelName, destination, country, 'sticky-bar')
+  const bookingUrl = buildAllezHotelLink(hotelName, destination, country, 'sticky-bar', locale)
   useEffect(() => {
     const onScroll = () => setVisible(window.scrollY > 400)
     window.addEventListener('scroll', onScroll, { passive: true })
