@@ -1,0 +1,71 @@
+{
+  "label": "Resorts só para adultos",
+  "tagline": "Sem famílias. Sem concessões. A atmosfera de lua de mel que vocês realmente querem.",
+  "intro": "Resorts só para adultos são a opção mais subestimada para casais em lua de mel. A atmosfera é categoricamente diferente da de resorts familiares — piscinas mais tranquilas, manhãs mais calmas, restaurantes mais íntimos e um perfil de hóspede formado quase inteiramente por casais celebrando algo. O efeito acumulado em uma lua de mel não é sutil: tudo parece mais romântico quando todos ao redor também estão focados no romance.",
+  "stats": [
+    { "label": "Propriedades avaliadas" },
+    { "label": "Aumento na pontuação" },
+    { "label": "Faixa por noite" },
+    { "label": "Pontuação média" }
+  ],
+  "perfectFor": [
+    "Casais que buscam atmosfera totalmente focada em casais",
+    "Quem valoriza a piscina silenciosa pela manhã",
+    "Casais dispostos a investir nas propriedades com maior pontuação",
+    "Quem casa imediatamente antes — sem energia para administrar contexto"
+  ],
+  "skipIf": [
+    "Vocês viajam com familiares como parte do plano",
+    "Preferem energia de resort grande, com atividade e entretenimento",
+    "Orçamento muito apertado (resorts só para adultos cobram um prêmio)"
+  ],
+  "reasons": [
+    { "title": "A atmosfera muda", "desc": "Uma piscina onde só se ouve conversa e o tilintar do gelo. Jantar sem ruído de fundo. Drinks ao pôr do sol com energia inteiramente romântica. Não é sutil — só para adultos transforma o registro emocional do resort." },
+    { "title": "Serviço calibrado para o romance", "desc": "Quando 100% dos hóspedes são casais — muitos em lua de mel — a equipe se adapta. A qualidade do serviço personalizado, a frequência dos detalhes para casais em lua de mel e a atenção ao detalhe romântico são consistentemente maiores do que em hotéis com público misto." },
+    { "title": "Nosso critério de maior peso", "desc": "Só para adultos é a variável mais importante da nossa Honeymoon Score (+25 pontos de 100). É o melhor preditor isolado de uma propriedade voltada à lua de mel. Dos 10 melhores hotéis do mundo na nossa pontuação, 7 são só para adultos." },
+    { "title": "As manhãs", "desc": "Resorts só para adultos vivem as manhãs de outra forma. Piscina tranquila. Café da manhã sem pressa às 9h com o jornal. Aula de yoga com apenas quatro casais. A atmosfera matinal é um dos aspectos mais subestimados da experiência." },
+    { "title": "O custo da alternativa", "desc": "A diferença entre só para adultos e um resort familiar não é só ambiente — é o impacto tangível nas memórias. A semana não volta. O prêmio vale a pena." }
+  ],
+  "destinations": [
+    { "why": "O cenário dos Pitons faz cada resort só para adultos em Santa Lúcia parecer cinematográfico. Jade Mountain, Calabash Cove, Stonefield — estão entre as propriedades mais românticas do Caribe.", "budget": "$300–$1.500/noite", "bestFor": "Drama, paisagem, selva e praia" },
+    { "why": "A maioria dos resorts maldivos é de fato só para adultos por natureza (ilha privativa, preço alto que afasta famílias). Soneva Jani e Hurawalhi são explicitamente só para adultos. A combinação com vilas sobre a água é o ápice.", "budget": "$600–$4.000/noite", "bestFor": "Combinação vila sobre a água + só para adultos" },
+    { "why": "Samanvaya, The Kayon e outros resorts em selva balinesa têm política só para adultos. Bali combina paisagem tropical com cultura de spa extraordinária.", "budget": "$200–$800/noite", "bestFor": "Custo-benefício, cultura de spa, atmosfera exótica a preço menor" },
+    { "why": "Rock House é o boutique só para adultos mais refinado do Caribe — 11 quartos, enseada privativa, gastronomia extraordinária. Amanyara é praticamente só para casais por demografia.", "budget": "$500–$3.000/noite", "bestFor": "Luxo boutique, praia caribenha, exclusividade" }
+  ],
+  "months": [
+    { "verdict": "Alta", "note": "Estação seca caribenha. Santa Lúcia no melhor momento. Reservem cedo." },
+    { "verdict": "Alta", "note": "Sobretaxa de Dia dos Namorados em todo lugar. Mês mais romântico. Tarifas máximas." },
+    { "verdict": "Alta", "note": "Fim da estação seca. Caribe e Maldivas ainda excelentes." },
+    { "verdict": "Média", "note": "Início da meia temporada caribenha. Tarifas menores, alguma chance de chuva." },
+    { "verdict": "Baixa", "note": "Começa a estação úmida no Caribe. Melhores ofertas do ano. Em geral ainda encantador." },
+    { "verdict": "Baixa", "note": "Estação úmida no Caribe. Reduções de 40–50%. Menos casais por perto." },
+    { "verdict": "Bom", "note": "Estação seca nas Maldivas. Bom tempo em Bali. Bom valor em Santa Lúcia." },
+    { "verdict": "Bom", "note": "Pico europeu de lua de mel. Reservem com 6 meses para os melhores só para adultos." },
+    { "verdict": "Bom", "note": "Melhor custo-benefício com bom tempo. Tarifas de meia temporada, ótima disponibilidade." },
+    { "verdict": "Bom", "note": "Início da estação seca caribenha. Começa o pico das Maldivas." },
+    { "verdict": "Alta", "note": "Pico pré-Natal. Ótimo tempo em todo lugar. Reservem com antecedência." },
+    { "verdict": "Alta", "note": "Natal e Ano-Novo. O mais caro. Mágico. Reservem com 18 meses." }
+  ],
+  "budgetTiers": [
+    { "tier": "Entrada", "range": "$200–$500/noite", "desc": "Só para adultos genuíno com boa piscina e praia. Tamanho menor (menos de 50 quartos). Costuma incluir café da manhã. Em geral all-inclusive caribenho nessa faixa.", "hotels": "Propriedades Sandals (all-inclusive), Stonefield Villa Resort St. Lucia" },
+    { "tier": "Premium", "range": "$500–$1.500/noite", "desc": "Só para adultos com spa de classe mundial, categoria de quarto superior (suíte ou vila), alta proporção equipe/hóspede. Ponto ideal para casais que querem a experiência completa sem preços ultra-luxo.", "hotels": "Jade Mountain, The Kayon, Calabash Cove, Hurawalhi" },
+    { "tier": "Ultra", "range": "$1.500–$5.000/noite", "desc": "Sensação de uso exclusivo dentro do resort. Personalização nível mordomo. Menos de 30 quartos. O resort inteiro sabe seu nome no segundo dia. Amanyara, Soneva Jani, Rock House.", "hotels": "Amanyara, Soneva Jani, Rock House Turks & Caicos" }
+  ],
+  "checklist": [
+    { "title": "O que verificar antes de reservar", "items": ["Confirmem que a política só para adultos é 18+ (e não 16+)", "Verifiquem o número total de quartos — abaixo de 50 é ideal para lua de mel", "Perguntem sobre reconhecimento de casais em lua de mel (upgrade, champanhe, reserva de jantar)", "Verifiquem se o all-inclusive cobre destilados premium e restaurantes especializados", "Confiram se o spa está incluso ou à parte"] },
+    { "title": "Maximizar a atmosfera só para adultos", "items": ["Cheguem domingo ou segunda (menos check-ins, semana mais calma)", "Solicitem quarto longe de áreas comuns barulhentas", "Reservem o menu de travesseiros e a aromaterapia no quarto", "Usem o spa no primeiro dia completo para definir o ritmo", "Mandem e-mail prévio ao hotel com detalhes da lua de mel — é aí que upgrades acontecem"] }
+  ],
+  "expertTips": [
+    "All-inclusive só para adultos pode ser excepcional para casais exaustos do planejamento do casamento. Tirar a fricção de contas e decisões constantes é subestimado. Procurem propriedades que enfatizem qualidade gastronômica, não só volume de comida.",
+    "O número de quartos importa tanto quanto a política só para adultos. Um resort de 200 quartos sempre parecerá mais cheio do que um boutique de 20. Para verdadeira atmosfera de lua de mel, mirem em propriedades com menos de 50 quartos.",
+    "Mandem um e-mail personalizado 10 dias antes do check-in. Mencionem que é a lua de mel, sua preferência de quarto (andar alto, vista para jardim, lado tranquilo) e pedidos específicos. Esse e-mail, e não a confirmação da reserva, é o que dispara upgrades.",
+    "O modelo caribenho all-inclusive só para adultos (Sandals, Excellence, Zoëtry) é injustamente subestimado por viajantes sofisticados. No topo, entregam comida excelente, programas de vinhos genuinamente bons e um público que é 90% lua de mel. A energia da piscina é extraordinária.",
+    "Se o orçamento força a escolha entre um resort só para adultos e um familiar mais sofisticado, escolham só para adultos sempre. A diferença de atmosfera supera tamanho de quarto ou qualidade de instalações para uma lua de mel."
+  ],
+  "faqs": [
+    { "q": "Resorts só para adultos são melhores para lua de mel do que resorts familiares?", "a": "Categoricamente sim, na nossa pontuação. Apenas a diferença na atmosfera de piscina e café da manhã já justifica a preferência. Se vocês escolhem entre duas propriedades equivalentes, escolham sempre só para adultos para a lua de mel. O peso de +25 pontos reflete essa convicção." },
+    { "q": "Quais são os melhores destinos só para adultos?", "a": "Caribe: Santa Lúcia (Jade Mountain, Calabash Cove), Jamaica (Couples, Sandals), Turks & Caicos (Rock House, Amanyara). Índico: Maldivas (Soneva Jani, Hurawalhi), Seychelles. Ásia: Bali (The Kayon, Samanvaya). Santa Lúcia oferece a paisagem mais dramática em chave caribenha só para adultos." },
+    { "q": "Há diferença significativa entre só para adultos e só para casais?", "a": "Sim. Só para adultos significa hóspedes 18+, o que pode incluir viagens em família, grupos de amigos e viajantes solo. Só para casais é mais restritivo. Na prática, os melhores só para adultos pendem fortemente para casais (80–90%) por preço e atmosfera, mesmo sem política formal só para casais." },
+    { "q": "Vale a pena um all-inclusive só para adultos para lua de mel?", "a": "Sim, no nível de qualidade. Sandals Royal Barbados, Excellence Playa Mujeres e propriedades Zoëtry oferecem comida excelente, programas de vinho genuinamente bons e atmosfera composta quase inteiramente por casais em lua de mel e aniversários. O modelo all-inclusive remove fadiga de decisão — valioso logo após o casamento." }
+  ]
+}

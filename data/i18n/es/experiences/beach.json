@@ -1,0 +1,73 @@
+{
+  "label": "Lunas de miel de playa",
+  "tagline": "La luna de miel clásica, elevada",
+  "intro": "Las lunas de miel de playa siguen siendo la categoría dominante a nivel global por buenas razones: la combinación de aguas cálidas, arena blanca, sol tropical y resorts excepcionales ofrece la experiencia sensorial que la mayoría de las parejas imagina cuando piensa en su luna de miel. El abanico es amplio: desde el todo incluido a $150/noche en República Dominicana hasta la isla privada a $5,000/noche en Maldivas. Elegir bien exige entender qué se está comprando en cada caso.",
+  "stats": [
+    { "label": "Propiedades evaluadas" },
+    { "label": "Rango por noche" },
+    { "label": "Destinos top" },
+    { "label": "Meses de sol (a nivel global)" }
+  ],
+  "perfectFor": [
+    "Parejas que buscan calor, agua clara y relax garantizado",
+    "Primera luna de miel: el formato playa es familiar y cumple",
+    "Quienes quieren pasar tiempo en el agua (esnórquel, vela, buceo)",
+    "Parejas que quieren múltiples actividades sin complejidad de planificación",
+    "Cualquiera que busque un buen telón fotográfico"
+  ],
+  "skipIf": [
+    "Detesta el calor y la exposición solar: una playa en julio es intensa",
+    "Quiere fauna garantizada o experiencias culturales",
+    "Presupuesto en alta inferior a $300/noche: hay mejores opciones de luna de miel a ese precio en montaña o ciudad"
+  ],
+  "reasons": [
+    { "title": "El entorno hace el trabajo", "desc": "Un gran destino de playa elimina la necesidad de planificar mucho. El propio entorno —agua turquesa, arena blanca, aire cálido, luz tropical— crea la atmósfera de luna de miel. Solo necesitan buen alojamiento y logística básica. El resto viene dado." },
+    { "title": "Actividades acuáticas", "desc": "Esnórquel, buceo, vela, paddleboard, kayak, cruceros catamarán al atardecer: la capa de actividad es rica y orientada a parejas. Maldivas tiene el mejor esnórquel de arrecife del mundo. El Caribe, la mejor vela. El océano se convierte en su entretenimiento." },
+    { "title": "Disponibilidad global", "desc": "A diferencia de las villas sobre el agua (limitadas a 20 destinos) o el safari (centrado en África), excelentes lunas de miel de playa hay en cada continente. Pueden encontrar su combinación ideal de tiempo de vuelo, presupuesto y cultura." },
+    { "title": "El atardecer como ritual diario", "desc": "Cada noche termina con un atardecer sobre el agua. En Grace Bay, Matira o cualquier terraza maldiva, el ocaso se vuelve ritual: cócteles en mano, viendo cambiar el cielo. Una experiencia fiable, repetible y extraordinaria." },
+    { "title": "Variedad de estilos de alojamiento", "desc": "De villas de lujo descalzo sobre el agua a suites de acantilado (Santorini) o mansiones coloniales frente al mar (Santa Lucía), la categoría playa ofrece la mayor diversidad arquitectónica del diseño hotelero. Pueden elegir la estética que case con su visión." }
+  ],
+  "destinations": [
+    { "why": "El agua más clara del mundo. 1.200 islas, casi cada resort en su propia isla. Densidad de vida marina sin igual. El mejor destino de playa para lujo puro.", "budget": "$400–$5,000/noche", "bestFor": "Lujo extremo, vida marina, villas sobre el agua" },
+    { "why": "Grace Bay, votada repetidamente como la mejor playa del mundo. Aguas turquesas tranquilas y poco profundas. El destino de playa caribeña de calidad más cercano a EE. UU.", "budget": "$300–$3,000/noche", "bestFor": "Parejas norteamericanas, agua clara, accesibilidad" },
+    { "why": "Telón único de cantos rodados de granito. Anse Lazio (Praslin) y Anse Source d'Argent (La Digue) están entre las playas más fotografiadas del mundo. Naturaleza potente.", "budget": "$300–$2,500/noche", "bestFor": "Paisaje dramático, naturaleza, estética singular" },
+    { "why": "El telón UNESCO de los Pitons sobre playas de arena negra. Playa privada Anse Mamin. Cultura solo para adultos potente. El destino caribeño más cinematográfico.", "budget": "$250–$1,500/noche", "bestFor": "Drama, paisaje, opciones solo para adultos" },
+    { "why": "Matira es una de las playas más bellas del mundo. Combinada con bungalós sobre el agua, es la experiencia de playa definitiva de la Polinesia Francesa.", "budget": "$500–$4,000/noche", "bestFor": "Combinación villa sobre el agua + playa, encanto francés" }
+  ],
+  "months": [
+    { "verdict": "Alta", "note": "Maldivas y Caribe en su mejor momento. Estación seca global. Reserven con mucha antelación." },
+    { "verdict": "Alta", "note": "Mejores condiciones globales. El mes más caro en todas partes." },
+    { "verdict": "Alta", "note": "Final de la estación seca. Condiciones potentes en Caribe, Maldivas y Seychelles." },
+    { "verdict": "Media", "note": "Comienza el hombro caribeño. Maldivas norte fuerte." },
+    { "verdict": "Baja", "note": "Estación húmeda caribeña. Reducciones del 40%. A menudo sigue siendo precioso." },
+    { "verdict": "Baja", "note": "Estación húmeda en Caribe y Maldivas. Tarifas mínimas. Aún vale la pena en el resort adecuado." },
+    { "verdict": "Bueno", "note": "Pico de seca en Bora Bora. Turks & Caicos excelente. Empieza a secar en Maldivas." },
+    { "verdict": "Bueno", "note": "Verano europeo. Pico de Santorini. Maldivas excelente. Reserven con antelación." },
+    { "verdict": "Bueno", "note": "Mejor relación calidad-precio con buenas condiciones. Menos gente." },
+    { "verdict": "Bueno", "note": "Comienza la estación seca caribeña. Comienza la temporada alta de Maldivas. Excelente coordinación." },
+    { "verdict": "Bueno", "note": "Caribe y Maldivas ambos excelentes. Tarifas pre-Navidad aún moderadas." },
+    { "verdict": "Alta", "note": "Navidad–Año Nuevo: pico en todas partes. Ambiente espectacular, precios máximos." }
+  ],
+  "budgetTiers": [
+    { "tier": "Entrada", "range": "$200–$500/noche", "desc": "Acceso de playa de calidad con infraestructura de resort adecuada. El todo incluido caribeño en este rango ofrece piscina, playa, comida, bebidas. Margen limitado para upgrades, pero la playa misma es gratis.", "hotels": "Serenity at Coconut Bay (Santa Lucía), Blue Haven (Turks & Caicos)" },
+    { "tier": "Premium", "range": "$500–$1,500/noche", "desc": "Playa privada o sección de playa exclusiva. Suite superior con vistas al mar. Gastronomía top. Aquí vive la verdadera experiencia de luna de miel de playa: vista de la habitación, calidad de servicio y posición de la playa mejoran drásticamente.", "hotels": "Cap Maison (Santa Lucía), Seven Stars (Turks & Caicos), Constance Lemuria (Seychelles)" },
+    { "tier": "Ultra", "range": "$1,500–$5,000/noche", "desc": "Villa privada en la playa. Mayordomo en villa. Su propio tramo de arena. A este nivel la playa está cuidada: mantenida, rastrillada, con sus propias hamacas reservadas permanentemente. La playa de Four Seasons Bora Bora es otra categoría.", "hotels": "Amanyara, Four Seasons Bora Bora, Six Senses Zil Pasyon (Seychelles)" }
+  ],
+  "checklist": [
+    { "title": "Elegir el destino de playa adecuado", "items": ["Claridad del agua: Maldivas > Turks & Caicos > Seychelles > Caribe en general", "Tiempo de vuelo: Caribe es el más fácil desde EE. UU./Europa; Maldivas exige largo recorrido", "Experiencia cultural: Seychelles y Santa Lucía las más fuertes; Maldivas, la más aislada", "Ventana climática: revisen el mes contra la estación de cada destino", "Calidad de esnórquel: el house reef de Maldivas, sin igual; la laguna de Bora Bora, excelente"] },
+    { "title": "Sacarle el máximo", "items": ["Reserven una salida en barco al atardecer o un velero la primera noche completa", "Soliciten un \"montaje romántico de playa\": casi todos los resorts lo ofrecen gratis o por una tasa simbólica", "Hagan esnórquel la primera mañana para entender qué ofrece su resort bajo el agua", "Eviten la playa de 11 a 15 en verano: el calor es extremo; usen ese tiempo para spa o gastronomía", "Pregunten por la cena privada en playa: disponible en casi cualquier resort de lujo"] }
+  ],
+  "expertTips": [
+    "El agua más clara del mundo está en Maldivas (30 m de visibilidad todo el año) y en Turks & Caicos (Grace Bay, 25 m+). Si la experiencia bajo el agua importa, deberían ser su opción por defecto. El Caribe ronda los 10–15 m: hermoso, pero categóricamente diferente.",
+    "La orientación de la playa importa más de lo que creen. Una playa al oeste regala atardeceres. Al este, mejor para baño matinal (más calma antes del viento de tarde). Pregunten al resort hacia dónde dan antes de reservar.",
+    "Playa privada vs playa compartida es la mayor variable de calidad en el escalón premium. Un hotel con \"acceso a la playa\" y uno con \"playa privada\" no son lo mismo. En los de playa privada nunca compartirán con visitantes diurnos ni cruceros.",
+    "Si quieren playa y villa sobre el agua en un mismo viaje, elijan Bora Bora (villa sobre el agua + Matira) o Maldivas (villa sobre el agua + playa de arena blanca de la isla). Ambos integran la combinación dentro de un mismo resort.",
+    "El salto de $1,000/noche es desproporcionadamente valioso en propiedades de playa. La diferencia entre un resort de $500 y uno de $1,500 suele ser: playa privada, suite con vista al mar, calidad de cena en villa y nivel de servicio. Es el salto de precio más impactante en planificación de luna de miel de playa."
+  ],
+  "faqs": [
+    { "q": "¿Cuál es el mejor destino de playa para una luna de miel?", "a": "Por calidad de agua y lujo puro: Maldivas. Por accesibilidad desde EE. UU. con playas excelentes: Turks & Caicos. Por paisaje dramático: Seychelles o Santa Lucía. Por combinación villa sobre el agua + playa: Bora Bora. El mejor depende del tiempo de vuelo, presupuesto y cómo quieran que se sienta el viaje." },
+    { "q": "¿Cuándo es mejor ir a una luna de miel de playa?", "a": "Diciembre–marzo para Caribe y Maldivas (estación seca, mejores condiciones). Julio–octubre para Bora Bora. Seychelles bien en abril–mayo y octubre–noviembre. Los meses hombro inmediatamente antes y después del pico ofrecen la mejor combinación de precio y clima." },
+    { "q": "¿Una luna de miel de playa es demasiado genérica?", "a": "Solo si eligen un resort genérico. Una luna de miel de playa en Four Seasons Bora Bora o Six Senses Zil Pasyon es cualquier cosa menos genérica. La playa es la categoría; el resort es la experiencia. Elijan bien y el formato playa entrega todo lo que una luna de miel debe ser." },
+    { "q": "¿Cuántas noches debería durar una luna de miel de playa?", "a": "7 noches es el mínimo para amortizar un vuelo largo. Por debajo, dos días se van en jet lag y otro en preparar el regreso. 10–14 noches es ideal para Maldivas o Seychelles. Turks & Caicos y Santa Lucía funcionan bien con 7 noches por el vuelo más corto." }
+  ]
+}

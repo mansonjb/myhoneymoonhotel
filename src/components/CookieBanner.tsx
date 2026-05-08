@@ -1,6 +1,8 @@
 'use client'
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
+import { useLocale } from '@/lib/useLocale'
+import { localizedHref } from '@/lib/locale-paths'
 
 const COOKIE_KEY = 'mhh_cookie_consent'
 type Choice = 'accepted' | 'rejected' | null
@@ -8,6 +10,7 @@ type Choice = 'accepted' | 'rejected' | null
 export default function CookieBanner() {
   const [choice, setChoice] = useState<Choice>(null)
   const [mounted, setMounted] = useState(false)
+  const locale = useLocale()
 
   useEffect(() => {
     setMounted(true)
@@ -34,7 +37,7 @@ export default function CookieBanner() {
       <div className="bg-white rounded-2xl shadow-2xl border border-zinc-100 p-5">
         <p className="text-zinc-700 text-sm leading-relaxed mb-4">
           We use <strong>analytics cookies</strong> to understand which content helps honeymooners. No advertising cookies, no cross-site tracking. You can change your choice any time.{' '}
-          <Link href="/privacy" className="text-rose-500 underline">Privacy policy</Link>.
+          <Link href={localizedHref('/privacy', locale)} className="text-rose-500 underline">Privacy policy</Link>.
         </p>
         <div className="flex gap-2">
           <button

@@ -10,11 +10,19 @@ interface Props {
   destination: string
   country: string
   locale?: 'en' | 'es' | 'pt'
+  scoreLabel?: string
+  fromLabel?: string
+  perNightLabel?: string
+  ctaLabel?: string
 }
 
-export default function StickyBookingBar({ hotelName, score, priceMin, destination, country, locale = 'en' }: Props) {
+export default function StickyBookingBar({ hotelName, score, priceMin, destination, country, locale = 'en', scoreLabel, fromLabel, perNightLabel, ctaLabel }: Props) {
   const [visible, setVisible] = useState(false)
   const bookingUrl = buildAllezHotelLink(hotelName, destination, country, 'sticky-bar', locale)
+  const resolvedScoreLabel = scoreLabel ?? `Honeymoon Score ${score}/100`
+  const resolvedFromLabel = fromLabel ?? 'from '
+  const resolvedPerNightLabel = perNightLabel ?? '/night'
+  const resolvedCtaLabel = ctaLabel ?? 'Check Availability →'
   useEffect(() => {
     const onScroll = () => setVisible(window.scrollY > 400)
     window.addEventListener('scroll', onScroll, { passive: true })
@@ -27,13 +35,13 @@ export default function StickyBookingBar({ hotelName, score, priceMin, destinati
         <div className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between gap-4">
           <div className="hidden sm:block">
             <div className="font-semibold text-zinc-900 text-sm truncate max-w-xs">{hotelName}</div>
-            <div className="text-zinc-400 text-xs">Honeymoon Score {score}/100</div>
+            <div className="text-zinc-400 text-xs">{resolvedScoreLabel}</div>
           </div>
           <div className="flex items-center gap-6">
             <div>
-              <span className="text-zinc-400 text-xs">from </span>
+              <span className="text-zinc-400 text-xs">{resolvedFromLabel}</span>
               <span className="font-bold text-zinc-900 text-lg">${priceMin.toLocaleString()}</span>
-              <span className="text-zinc-400 text-xs">/night</span>
+              <span className="text-zinc-400 text-xs">{resolvedPerNightLabel}</span>
             </div>
             <a
               href={bookingUrl}
@@ -41,7 +49,7 @@ export default function StickyBookingBar({ hotelName, score, priceMin, destinati
               rel="noopener noreferrer"
               className="bg-rose-500 hover:bg-rose-600 text-white font-semibold text-sm px-7 py-3 rounded-full transition-colors"
             >
-              Check Availability →
+              {resolvedCtaLabel}
             </a>
           </div>
         </div>

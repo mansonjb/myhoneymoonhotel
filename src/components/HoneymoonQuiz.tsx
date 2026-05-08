@@ -4,6 +4,8 @@ import { useState, useMemo } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Hotel } from '../../types/hotel'
+import { useLocale } from '@/lib/useLocale'
+import { localizedHref } from '@/lib/locale-paths'
 
 // Destination → curated Unsplash fallback (when local WebP is 404). Same map as HotelCard.
 const DEST_FALLBACK: Record<string, string> = {
@@ -298,6 +300,7 @@ function StepHeader({ step, total, title, sub }: { step: number; total: number; 
 // ─── Component ───────────────────────────────────────────────────────────────
 
 export default function HoneymoonQuiz({ hotels }: { hotels: Hotel[] }) {
+  const locale = useLocale()
   const [step, setStep] = useState<Step>(1)
   const [answers, setAnswers] = useState<Answers>({
     departure: null, duration: null, month: null, styles: [], priority: null, budget: null,
@@ -325,7 +328,7 @@ export default function HoneymoonQuiz({ hotels }: { hotels: Hotel[] }) {
           onClick={step === 1 ? undefined : () => setStep(s => s === 'results' ? 6 : Math.max(1, (s as number) - 1) as Step)}
           className="text-sm text-zinc-500 hover:text-zinc-900 transition-colors"
         >
-          {step === 1 ? <Link href="/">← Back</Link> : '← Back'}
+          {step === 1 ? <Link href={localizedHref('/', locale)}>← Back</Link> : '← Back'}
         </button>
         <span className="text-xs font-semibold tracking-widest text-rose-400 uppercase">Honeymoon Advisor</span>
         {step === 'results'
@@ -618,7 +621,7 @@ export default function HoneymoonQuiz({ hotels }: { hotels: Hotel[] }) {
                   Retake with new answers
                 </button>
                 <span className="text-zinc-200">|</span>
-                <Link href="/" className="text-sm font-medium text-zinc-500 hover:text-zinc-900 transition-colors underline">
+                <Link href={localizedHref('/', locale)} className="text-sm font-medium text-zinc-500 hover:text-zinc-900 transition-colors underline">
                   Browse all hotels
                 </Link>
               </div>

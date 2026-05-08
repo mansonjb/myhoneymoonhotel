@@ -21,6 +21,10 @@ function tx(messages: Messages, key: string, fallback: string): string {
   return typeof v === 'string' && v.length > 0 ? v : fallback
 }
 
+function fmt(template: string, vars: Record<string, string | number>): string {
+  return template.replace(/\{(\w+)\}/g, (_, k) => String(vars[k] ?? ''))
+}
+
 export { getAllHotels }
 
 export async function buildHotelMetadata(slug: string, locale: Locale): Promise<Metadata> {
@@ -53,16 +57,16 @@ export async function buildHotelMetadata(slug: string, locale: Locale): Promise<
   }
 }
 
-const SCORE_LABELS: Record<string, { label: string; max: number; help?: string }> = {
-  adults_only:  { label: 'Adults-Only',         max: 25, help: 'Hotel restricted to adult guests — crucial for a romantic atmosphere.' },
-  couples_pct:  { label: 'Couples-Approved',    max: 20, help: 'Share of recent reviews from couples on TripAdvisor & Booking.com.' },
-  spa:          { label: 'Spa',                 max: 15, help: 'On-site full-service spa with couples treatments.' },
-  award:        { label: 'Traveller Award',     max: 15, help: 'TripAdvisor Travellers\' Choice award or ≥ 4.4 rating.' },
-  pool:         { label: 'Pool',                max: 10, help: 'Swimming pool on property (private plunge pools score higher).' },
-  beach:        { label: 'Beach Access',        max: 10, help: 'Direct beachfront or private beach club access.' },
-  stars:        { label: '4+ Stars',            max: 10, help: 'Official 4- or 5-star rating.' },
-  room_service: { label: 'Room Service',        max: 5,  help: 'In-room dining available (ideally 24h).' },
-  luxury:       { label: 'Luxury Tier',         max: 5,  help: 'Luxury or ultra-luxury price tier.' },
+const SCORE_LABELS: Record<string, { labelKey: string; labelFallback: string; helpKey: string; helpFallback: string; max: number }> = {
+  adults_only:  { labelKey: 'hotel.score.adultsOnly',  labelFallback: 'Adults-Only',      helpKey: 'hotel.score.adultsOnly.help',  helpFallback: 'Hotel restricted to adult guests — crucial for a romantic atmosphere.', max: 25 },
+  couples_pct:  { labelKey: 'hotel.score.couplesPct',  labelFallback: 'Couples-Approved', helpKey: 'hotel.score.couplesPct.help',  helpFallback: 'Share of recent reviews from couples on TripAdvisor & Booking.com.',     max: 20 },
+  spa:          { labelKey: 'hotel.score.spa',         labelFallback: 'Spa',              helpKey: 'hotel.score.spa.help',         helpFallback: 'On-site full-service spa with couples treatments.',                       max: 15 },
+  award:        { labelKey: 'hotel.score.award',       labelFallback: 'Traveller Award',  helpKey: 'hotel.score.award.help',       helpFallback: 'TripAdvisor Travellers\' Choice award or ≥ 4.4 rating.',                  max: 15 },
+  pool:         { labelKey: 'hotel.score.pool',        labelFallback: 'Pool',             helpKey: 'hotel.score.pool.help',        helpFallback: 'Swimming pool on property (private plunge pools score higher).',         max: 10 },
+  beach:        { labelKey: 'hotel.score.beach',       labelFallback: 'Beach Access',     helpKey: 'hotel.score.beach.help',       helpFallback: 'Direct beachfront or private beach club access.',                        max: 10 },
+  stars:        { labelKey: 'hotel.score.stars',       labelFallback: '4+ Stars',         helpKey: 'hotel.score.stars.help',       helpFallback: 'Official 4- or 5-star rating.',                                          max: 10 },
+  room_service: { labelKey: 'hotel.score.roomService', labelFallback: 'Room Service',     helpKey: 'hotel.score.roomService.help', helpFallback: 'In-room dining available (ideally 24h).',                                max: 5  },
+  luxury:       { labelKey: 'hotel.score.luxury',      labelFallback: 'Luxury Tier',      helpKey: 'hotel.score.luxury.help',      helpFallback: 'Luxury or ultra-luxury price tier.',                                     max: 5  },
 }
 
 export async function renderHotelPage(slug: string, locale: Locale) {
@@ -85,14 +89,14 @@ export async function renderHotelPage(slug: string, locale: Locale) {
   const tips = Math.round((roomCost + diningExtra * nights) * 0.08)
   const total = roomCost + flights + transfers + Math.round(diningExtra * nights) + excursions + spa + tips
   const autoCostBreakdown = [
-    { item: `Room (7 nights avg $${avgNight.toLocaleString()}/nt)`, cost_usd: `$${roomCost.toLocaleString()}` },
-    { item: 'Flights (2 pax, economy/premium)', cost_usd: `$${flights.toLocaleString()}` },
-    { item: 'Airport transfers / seaplane', cost_usd: `$${transfers.toLocaleString()}` },
-    { item: 'Dining & drinks (beyond room)', cost_usd: `$${Math.round(diningExtra * nights).toLocaleString()}` },
-    { item: 'Excursions & experiences', cost_usd: `$${excursions.toLocaleString()}` },
-    { item: 'Spa / signature treatments', cost_usd: `$${spa.toLocaleString()}` },
-    { item: 'Tips & service (8%)', cost_usd: `$${tips.toLocaleString()}` },
-    { item: 'Total estimated', cost_usd: `$${total.toLocaleString()}` },
+    { item: fmt(tx(m, 'hotel.cost.room', 'Room (7 nights avg ${avg}/nt)'), { avg: avgNight.toLocaleString() }), cost_usd: `$${roomCost.toLocaleString()}` },
+    { item: tx(m, 'hotel.cost.flights', 'Flights (2 pax, economy/premium)'), cost_usd: `$${flights.toLocaleString()}` },
+    { item: tx(m, 'hotel.cost.transfers', 'Airport transfers / seaplane'), cost_usd: `$${transfers.toLocaleString()}` },
+    { item: tx(m, 'hotel.cost.dining', 'Dining & drinks (beyond room)'), cost_usd: `$${Math.round(diningExtra * nights).toLocaleString()}` },
+    { item: tx(m, 'hotel.cost.excursions', 'Excursions & experiences'), cost_usd: `$${excursions.toLocaleString()}` },
+    { item: tx(m, 'hotel.cost.spa', 'Spa / signature treatments'), cost_usd: `$${spa.toLocaleString()}` },
+    { item: tx(m, 'hotel.cost.tips', 'Tips & service (8%)'), cost_usd: `$${tips.toLocaleString()}` },
+    { item: tx(m, 'hotel.cost.total', 'Total estimated'), cost_usd: `$${total.toLocaleString()}` },
   ]
   const costBreakdown = (hotel.content.true_cost_breakdown && hotel.content.true_cost_breakdown.length > 0)
     ? hotel.content.true_cost_breakdown
@@ -112,6 +116,10 @@ export async function renderHotelPage(slug: string, locale: Locale) {
         destination={hotel.destination}
         country={hotel.country}
         locale={locale}
+        scoreLabel={fmt(tx(m, 'stickyBar.honeymoonScore', 'Honeymoon Score {score}/100'), { score: hotel.honeymoon_score })}
+        fromLabel={tx(m, 'stickyBar.from', 'from ') + ' '}
+        perNightLabel={tx(m, 'stickyBar.perNight', '/night')}
+        ctaLabel={tx(m, 'stickyBar.checkAvailability', 'Check Availability →')}
       />
 
       <article className="pb-24">
@@ -139,7 +147,7 @@ export async function renderHotelPage(slug: string, locale: Locale) {
                 <span className="bg-white/15 backdrop-blur-sm border border-white/20 text-white text-xs font-medium px-3 py-1.5 rounded-full">{tx(m, 'card.adultsOnly', 'Adults-Only')}</span>
               )}
               {hotel.tripadvisor_award && (
-                <span className="bg-amber-400/90 text-amber-900 text-xs font-semibold px-3 py-1.5 rounded-full">★ TripAdvisor Award</span>
+                <span className="bg-amber-400/90 text-amber-900 text-xs font-semibold px-3 py-1.5 rounded-full">{tx(m, 'hotel.tripadvisorAward', '★ TripAdvisor Award')}</span>
               )}
               {hotel.experience_types.map(e => (
                 <span key={e} className="bg-white/10 backdrop-blur-sm border border-white/20 text-white/80 text-xs px-3 py-1.5 rounded-full capitalize">{e.replace(/-/g, ' ')}</span>
@@ -154,7 +162,7 @@ export async function renderHotelPage(slug: string, locale: Locale) {
 
               <div className="shrink-0 bg-white rounded-2xl px-6 py-4 text-center shadow-xl">
                 <div className="font-display text-5xl text-zinc-900 leading-none">{hotel.honeymoon_score}</div>
-                <div className="text-zinc-400 text-xs mt-1">Honeymoon Score™</div>
+                <div className="text-zinc-400 text-xs mt-1">{tx(m, 'hotel.honeymoonScore', 'Honeymoon Score™')}</div>
                 <div className="text-zinc-300 text-xs">{tx(m, 'hotel.outOf100', 'out of 100')}</div>
               </div>
             </div>
@@ -180,42 +188,44 @@ export async function renderHotelPage(slug: string, locale: Locale) {
 
           <div className="grid lg:grid-cols-5 gap-10">
             <section id="hotel-verdict" className="lg:col-span-3">
-              <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">The Verdict</p>
-              <h2 className="font-display text-3xl text-zinc-900 mb-6 leading-tight">Worth it for your honeymoon?</h2>
+              <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">{tx(m, 'hotel.verdictKicker', 'The Verdict')}</p>
+              <h2 className="font-display text-3xl text-zinc-900 mb-6 leading-tight">{tx(m, 'hotel.verdictTitle', 'Worth it for your honeymoon?')}</h2>
               <p className="text-zinc-600 leading-relaxed text-[15px] mb-8">{hotel.content.verdict}</p>
 
               <div className="grid sm:grid-cols-2 gap-4">
                 <div className="bg-emerald-50 border border-emerald-100 rounded-2xl p-5">
-                  <div className="text-xs font-semibold uppercase tracking-wider text-emerald-700 mb-3">Best for couples who…</div>
+                  <div className="text-xs font-semibold uppercase tracking-wider text-emerald-700 mb-3">{tx(m, 'hotel.bestForHeader', 'Best for couples who…')}</div>
                   <ul className="space-y-1.5 text-sm text-emerald-800">
-                    {hotel.adults_only && <li className="flex gap-2"><span>✓</span>Want zero families around</li>}
-                    {(hotel.couples_review_pct ?? 0) > 75 && <li className="flex gap-2"><span>✓</span>Trust couples-verified reviews</li>}
-                    {hotel.amenities.some(a => a.includes('spa')) && <li className="flex gap-2"><span>✓</span>Prioritise spa &amp; wellness</li>}
-                    {hotel.amenities.some(a => a.includes('beach')) && <li className="flex gap-2"><span>✓</span>Want direct beach access</li>}
-                    {hotel.amenities.some(a => a.includes('overwater')) && <li className="flex gap-2"><span>✓</span>Dream of overwater villas</li>}
-                    {hotel.price_per_night_usd.min >= 500 && <li className="flex gap-2"><span>✓</span>Are willing to invest in once-in-a-lifetime</li>}
+                    {hotel.adults_only && <li className="flex gap-2"><span>✓</span>{tx(m, 'hotel.bestFor.noFamilies', 'Want zero families around')}</li>}
+                    {(hotel.couples_review_pct ?? 0) > 75 && <li className="flex gap-2"><span>✓</span>{tx(m, 'hotel.bestFor.couplesVerified', 'Trust couples-verified reviews')}</li>}
+                    {hotel.amenities.some(a => a.includes('spa')) && <li className="flex gap-2"><span>✓</span>{tx(m, 'hotel.bestFor.spaWellness', 'Prioritise spa & wellness')}</li>}
+                    {hotel.amenities.some(a => a.includes('beach')) && <li className="flex gap-2"><span>✓</span>{tx(m, 'hotel.bestFor.beachAccess', 'Want direct beach access')}</li>}
+                    {hotel.amenities.some(a => a.includes('overwater')) && <li className="flex gap-2"><span>✓</span>{tx(m, 'hotel.bestFor.overwaterVillas', 'Dream of overwater villas')}</li>}
+                    {hotel.price_per_night_usd.min >= 500 && <li className="flex gap-2"><span>✓</span>{tx(m, 'hotel.bestFor.investOnce', 'Are willing to invest in once-in-a-lifetime')}</li>}
                   </ul>
                 </div>
                 <div className="bg-amber-50 border border-amber-100 rounded-2xl p-5">
-                  <div className="text-xs font-semibold uppercase tracking-wider text-amber-700 mb-3">Skip if you…</div>
+                  <div className="text-xs font-semibold uppercase tracking-wider text-amber-700 mb-3">{tx(m, 'hotel.skipIfHeader', 'Skip if you…')}</div>
                   <ul className="space-y-1.5 text-sm text-amber-800">
-                    {!hotel.adults_only && <li className="flex gap-2"><span>→</span>Need a strictly adults-only resort</li>}
-                    {hotel.price_per_night_usd.min > 1000 && <li className="flex gap-2"><span>→</span>Have a budget under $1,000/night</li>}
-                    {!hotel.amenities.some(a => a.includes('beach')) && <li className="flex gap-2"><span>→</span>Want a direct beachfront</li>}
-                    <li className="flex gap-2"><span>→</span>Prefer boutique &amp; intimate properties</li>
+                    {!hotel.adults_only && <li className="flex gap-2"><span>→</span>{tx(m, 'hotel.skipIf.needAdultsOnly', 'Need a strictly adults-only resort')}</li>}
+                    {hotel.price_per_night_usd.min > 1000 && <li className="flex gap-2"><span>→</span>{tx(m, 'hotel.skipIf.budgetUnder1k', 'Have a budget under $1,000/night')}</li>}
+                    {!hotel.amenities.some(a => a.includes('beach')) && <li className="flex gap-2"><span>→</span>{tx(m, 'hotel.skipIf.wantBeachfront', 'Want a direct beachfront')}</li>}
+                    <li className="flex gap-2"><span>→</span>{tx(m, 'hotel.skipIf.preferBoutique', 'Prefer boutique & intimate properties')}</li>
                   </ul>
                 </div>
               </div>
             </section>
 
             <section className="lg:col-span-2">
-              <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">Score Breakdown</p>
+              <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">{tx(m, 'hotel.scoreBreakdownKicker', 'Score Breakdown')}</p>
               <h2 className="font-display text-3xl text-zinc-900 mb-6">{hotel.honeymoon_score}<span className="text-zinc-300 font-display text-2xl">/100</span></h2>
               <div className="space-y-4">
-                {Object.entries(SCORE_LABELS).map(([key, { label, max, help }]) => {
+                {Object.entries(SCORE_LABELS).map(([key, { labelKey, labelFallback, helpKey, helpFallback, max }]) => {
                   const rawVal = hotel.score_breakdown[key as keyof typeof hotel.score_breakdown] ?? 0
                   const val = Math.min(rawVal, max)
                   const pct = max > 0 ? Math.min(100, (val / max) * 100) : 0
+                  const label = tx(m, labelKey, labelFallback)
+                  const help = tx(m, helpKey, helpFallback)
                   return (
                     <div key={key} title={help}>
                       <div className="flex justify-between items-center mb-1.5">
@@ -236,8 +246,8 @@ export async function renderHotelPage(slug: string, locale: Locale) {
           </div>
 
           <section id="availability">
-            <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">Book Your Stay</p>
-            <h2 className="font-display text-3xl text-zinc-900 mb-6">Check availability</h2>
+            <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">{tx(m, 'hotel.bookYourStayKicker', 'Book Your Stay')}</p>
+            <h2 className="font-display text-3xl text-zinc-900 mb-6">{tx(m, 'hotel.checkAvailability', 'Check availability')}</h2>
             <Stay22MapWidget
               location={hotel.destination.replace(/-/g, ' ')}
               hotelName={hotel.name}
@@ -248,15 +258,15 @@ export async function renderHotelPage(slug: string, locale: Locale) {
           </section>
 
           <section>
-            <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-6">At a Glance</p>
+            <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-6">{tx(m, 'hotel.atAGlance', 'At a Glance')}</p>
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
               {[
-                { label: 'Stars', value: '★'.repeat(hotel.stars), sub: `${hotel.stars}-star` },
-                { label: 'Honeymoon Score', value: `${hotel.honeymoon_score}/100`, sub: hotel.honeymoon_score >= 90 ? 'Exceptional' : hotel.honeymoon_score >= 75 ? 'Excellent' : 'Very Good' },
-                { label: 'Adults-Only', value: hotel.adults_only ? 'Yes' : 'No', sub: hotel.adults_only ? '18+ only' : 'Families welcome' },
-                { label: 'Couples', value: hotel.couples_review_pct ? `${hotel.couples_review_pct}%` : 'N/A', sub: 'couples reviews' },
-                { label: 'TripAdvisor', value: hotel.tripadvisor_rating ? hotel.tripadvisor_rating.toString() : 'N/A', sub: hotel.tripadvisor_award ? 'Award winner' : 'Score /10' },
-                { label: 'Price', value: `$${hotel.price_per_night_usd.min.toLocaleString()}+`, sub: 'per night' },
+                { label: tx(m, 'hotel.fact.stars', 'Stars'), value: '★'.repeat(hotel.stars), sub: fmt(tx(m, 'hotel.fact.starsSub', '{n}-star'), { n: hotel.stars }) },
+                { label: tx(m, 'hotel.fact.honeymoonScore', 'Honeymoon Score'), value: `${hotel.honeymoon_score}/100`, sub: hotel.honeymoon_score >= 90 ? tx(m, 'hotel.fact.exceptional', 'Exceptional') : hotel.honeymoon_score >= 75 ? tx(m, 'hotel.fact.excellent', 'Excellent') : tx(m, 'hotel.fact.veryGood', 'Very Good') },
+                { label: tx(m, 'hotel.fact.adultsOnly', 'Adults-Only'), value: hotel.adults_only ? tx(m, 'hotel.fact.yes', 'Yes') : tx(m, 'hotel.fact.no', 'No'), sub: hotel.adults_only ? tx(m, 'hotel.fact.18Only', '18+ only') : tx(m, 'hotel.fact.familiesWelcome', 'Families welcome') },
+                { label: tx(m, 'hotel.fact.couples', 'Couples'), value: hotel.couples_review_pct ? `${hotel.couples_review_pct}%` : tx(m, 'hotel.fact.na', 'N/A'), sub: tx(m, 'hotel.fact.couplesReviews', 'couples reviews') },
+                { label: tx(m, 'hotel.fact.tripadvisor', 'TripAdvisor'), value: hotel.tripadvisor_rating ? hotel.tripadvisor_rating.toString() : tx(m, 'hotel.fact.na', 'N/A'), sub: hotel.tripadvisor_award ? tx(m, 'hotel.fact.awardWinner', 'Award winner') : tx(m, 'hotel.fact.scoreOutOf10', 'Score /10') },
+                { label: tx(m, 'hotel.fact.price', 'Price'), value: `$${hotel.price_per_night_usd.min.toLocaleString()}+`, sub: tx(m, 'hotel.fact.perNight', 'per night') },
               ].map(fact => (
                 <div key={fact.label} className="bg-zinc-50 border border-zinc-100 rounded-2xl p-4 text-center">
                   <div className="font-semibold text-zinc-900 text-base mb-0.5">{fact.value}</div>
@@ -268,14 +278,14 @@ export async function renderHotelPage(slug: string, locale: Locale) {
           </section>
 
           <section id="hotel-best-room">
-            <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">Room Recommendation</p>
-            <h2 className="font-display text-3xl text-zinc-900 mb-6">Which room to book</h2>
+            <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">{tx(m, 'hotel.roomKicker', 'Room Recommendation')}</p>
+            <h2 className="font-display text-3xl text-zinc-900 mb-6">{tx(m, 'hotel.bestRoom', 'Which room to book')}</h2>
             <div className="bg-zinc-950 text-white rounded-3xl p-8 sm:p-10">
               <div className="flex gap-3 mb-6">
                 <span className="text-rose-400 text-2xl">◆</span>
                 <div>
-                  <div className="text-xs font-semibold uppercase tracking-widest text-zinc-500 mb-1">Expert Pick</div>
-                  <div className="text-xs text-zinc-500">from ${hotel.price_per_night_usd.min.toLocaleString()}–${hotel.price_per_night_usd.max.toLocaleString()}/night range</div>
+                  <div className="text-xs font-semibold uppercase tracking-widest text-zinc-500 mb-1">{tx(m, 'hotel.expertPick', 'Expert Pick')}</div>
+                  <div className="text-xs text-zinc-500">{fmt(tx(m, 'hotel.priceRange', 'from ${min}–${max}/night range'), { min: hotel.price_per_night_usd.min.toLocaleString(), max: hotel.price_per_night_usd.max.toLocaleString() })}</div>
                 </div>
               </div>
               <p className="text-zinc-300 leading-relaxed text-[15px]">{hotel.content.best_room}</p>
@@ -283,15 +293,15 @@ export async function renderHotelPage(slug: string, locale: Locale) {
           </section>
 
           <section>
-            <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">No Surprises</p>
-            <h2 className="font-display text-3xl text-zinc-900 mb-2">True cost breakdown — 7 nights for two</h2>
-            <p className="text-zinc-400 text-sm mb-6">Based on mid-range rooms, premium-economy flights from Europe, full dining and signature experiences. Adjust for your actual travel profile.</p>
+            <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">{tx(m, 'hotel.trueCostKicker', 'No Surprises')}</p>
+            <h2 className="font-display text-3xl text-zinc-900 mb-2">{tx(m, 'hotel.trueCostTitle', 'True cost breakdown — 7 nights for two')}</h2>
+            <p className="text-zinc-400 text-sm mb-6">{tx(m, 'hotel.trueCostSub', 'Based on mid-range rooms, premium-economy flights from Europe, full dining and signature experiences. Adjust for your actual travel profile.')}</p>
             <div className="border border-zinc-100 rounded-2xl overflow-hidden">
               <table className="w-full text-sm">
                 <thead>
                   <tr className="bg-zinc-50 border-b border-zinc-100">
-                    <th className="px-6 py-3 text-left text-xs font-semibold uppercase tracking-wider text-zinc-400">Item</th>
-                    <th className="px-6 py-3 text-right text-xs font-semibold uppercase tracking-wider text-zinc-400">Estimated Cost</th>
+                    <th className="px-6 py-3 text-left text-xs font-semibold uppercase tracking-wider text-zinc-400">{tx(m, 'hotel.cost.item', 'Item')}</th>
+                    <th className="px-6 py-3 text-right text-xs font-semibold uppercase tracking-wider text-zinc-400">{tx(m, 'hotel.cost.estimated', 'Estimated Cost')}</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -310,8 +320,8 @@ export async function renderHotelPage(slug: string, locale: Locale) {
           </section>
 
           <section>
-            <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">Day by Day</p>
-            <h2 className="font-display text-3xl text-zinc-900 mb-8">Your 7-night honeymoon itinerary</h2>
+            <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">{tx(m, 'hotel.itineraryKicker', 'Day by Day')}</p>
+            <h2 className="font-display text-3xl text-zinc-900 mb-8">{tx(m, 'hotel.itinerary', 'Your 7-night honeymoon itinerary')}</h2>
             <div className="relative">
               <div className="absolute left-6 top-6 bottom-6 w-px bg-zinc-100" aria-hidden />
               <div className="space-y-6">
@@ -331,8 +341,8 @@ export async function renderHotelPage(slug: string, locale: Locale) {
           </section>
 
           <section>
-            <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">Honest Assessment</p>
-            <h2 className="font-display text-3xl text-zinc-900 mb-6">What to know before you book</h2>
+            <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">{tx(m, 'hotel.caveatsKicker', 'Honest Assessment')}</p>
+            <h2 className="font-display text-3xl text-zinc-900 mb-6">{tx(m, 'hotel.caveats', 'What to know before you book')}</h2>
             <div className="space-y-3">
               {(hotel.content.honest_caveats ?? hotel.content.caveats ?? []).map((caveat, i) => (
                 <div key={i} className="flex gap-4 bg-amber-50 border border-amber-100 rounded-2xl px-6 py-4">
@@ -346,8 +356,8 @@ export async function renderHotelPage(slug: string, locale: Locale) {
           <section>
             <div className="flex items-end justify-between mb-6">
               <div>
-                <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">Pre-Arrival</p>
-                <h2 className="font-display text-3xl text-zinc-900">Email to send the hotel</h2>
+                <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">{tx(m, 'hotel.emailKicker', 'Pre-Arrival')}</p>
+                <h2 className="font-display text-3xl text-zinc-900">{tx(m, 'hotel.emailTemplate', 'Email to send the hotel')}</h2>
               </div>
               <CopyButton text={hotel.content.hotel_email_template ?? hotel.content.email_template ?? ''} />
             </div>
@@ -356,12 +366,12 @@ export async function renderHotelPage(slug: string, locale: Locale) {
                 {hotel.content.hotel_email_template ?? hotel.content.email_template}
               </pre>
             </div>
-            <p className="text-zinc-400 text-xs mt-3">Send 2 weeks before arrival. Fill in names, dates, and preferences. Hotels respond to personalised requests.</p>
+            <p className="text-zinc-400 text-xs mt-3">{tx(m, 'hotel.emailNote', 'Send 2 weeks before arrival. Fill in names, dates, and preferences. Hotels respond to personalised requests.')}</p>
           </section>
 
           <section>
-            <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">FAQ</p>
-            <h2 className="font-display text-3xl text-zinc-900 mb-8">Frequently asked questions</h2>
+            <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">{tx(m, 'hotel.faqKicker', 'FAQ')}</p>
+            <h2 className="font-display text-3xl text-zinc-900 mb-8">{tx(m, 'hotel.faqs', 'Frequently asked questions')}</h2>
             <div className="space-y-3">
               {hotel.content.faqs.map((faq, i) => (
                 <details key={i} className="group border border-zinc-100 rounded-2xl overflow-hidden">
@@ -381,9 +391,9 @@ export async function renderHotelPage(slug: string, locale: Locale) {
             <section>
               {sameStyle.length > 0 && (
                 <div className="mb-14">
-                  <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">Same Vibe, Different Destination</p>
+                  <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">{tx(m, 'hotel.recommendKickerSameVibe', 'Same Vibe, Different Destination')}</p>
                   <h2 className="font-display text-3xl text-zinc-900 mb-8 capitalize">
-                    More {hotel.experience_types[0]?.replace(/-/g, ' ')} hotels
+                    {fmt(tx(m, 'hotel.recommendSameVibeTitle', 'More {style} hotels'), { style: hotel.experience_types[0]?.replace(/-/g, ' ') ?? '' })}
                   </h2>
                   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
                     {sameStyle.map(h => <HotelCard key={h.slug} hotel={h} locale={locale} />)}
@@ -392,9 +402,9 @@ export async function renderHotelPage(slug: string, locale: Locale) {
               )}
               {sameDestination.length > 0 && (
                 <div>
-                  <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">Also In {destinationLabel}</p>
+                  <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">{fmt(tx(m, 'hotel.recommendKickerAlsoIn', 'Also In {destination}'), { destination: destinationLabel })}</p>
                   <h2 className="font-display text-3xl text-zinc-900 mb-8 capitalize">
-                    Other honeymoon hotels in {destinationLabel}
+                    {fmt(tx(m, 'hotel.recommendAlsoInTitle', 'Other honeymoon hotels in {destination}'), { destination: destinationLabel })}
                   </h2>
                   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
                     {sameDestination.map(h => <HotelCard key={h.slug} hotel={h} locale={locale} />)}

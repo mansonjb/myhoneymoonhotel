@@ -1,0 +1,73 @@
+{
+  "label": "Luas de mel safari",
+  "tagline": "A experiência compartilhada mais inesquecível em viagem",
+  "intro": "Uma lua de mel safari ocupa uma categoria à parte. Nenhum outro tipo de lua de mel cria a mesma profundidade de experiência compartilhada — assistir leões caçando ao amanhecer, a Grande Migração atravessando o rio Mara, a Via Láctea sobre o Serengeti sem poluição luminosa, o silêncio do bush às 23h. Combinada ao luxo extraordinário dos melhores lodges africanos, a lua de mel safari aparece consistentemente como a experiência de viagem mais memorável que casais já tiveram.",
+  "stats": [
+    { "label": "Propriedades avaliadas" },
+    { "label": "Faixa por noite" },
+    { "label": "Países de safari" },
+    { "label": "Pontuação média" }
+  ],
+  "perfectFor": [
+    "Casais que querem a experiência compartilhada mais memorável em viagem",
+    "Quem valoriza desconexão genuína — falta de sinal é vantagem, não defeito",
+    "Casais que aceitam acordar cedo (game drives às 5h30)",
+    "Quem quer combinar aventura com luxo extremo",
+    "Casais que somariam praia ao safari (Zanzibar, Seychelles)"
+  ],
+  "skipIf": [
+    "Você odeia acordar cedo — game drives saem às 5h30 todo dia",
+    "Sensibilidade a insetos, poeira ou calor",
+    "Orçamento abaixo de $600/noite — abaixo disso, a qualidade do lodge cai muito",
+    "Você precisa de Wi-Fi sempre — concessões privadas não têm sinal por design"
+  ],
+  "reasons": [
+    { "title": "Experiência compartilhada sem igual", "desc": "Nada une duas pessoas como encontrar fauna juntos. O primeiro leão, a primeira manada de elefantes, a primeira travessia da Grande Migração — viram referências permanentes no relacionamento. Casais que viveram relatam como transformador, não apenas memorável." },
+    { "title": "Desconexão genuína e obrigatória", "desc": "Concessões privadas não têm Wi-Fi nos quartos nem sinal de celular. A desconexão não é política — é a paisagem. Vocês não têm escolha senão estar presentes um com o outro do amanhecer ao pôr do sol. Cada vez mais raro e genuinamente valioso." },
+    { "title": "O contraste é a experiência", "desc": "O game drive das 5h30 em veículo aberto, vento no rosto, África ao redor — e voltar para um mordomo, uma adega de vinhos sul-africanos, uma banheira ao ar livre com vista para as planícies e uma cama com dossel sob as estrelas. O contraste entre selvageria e luxo é inebriante." },
+    { "title": "A Via Láctea acima de vocês", "desc": "Concessões privadas ficam a 50–100 km de qualquer luz de cidade. O céu noturno é outro objeto aqui. Dormir sob lona com elefantes ao longe e o arco completo da Via Láctea é uma experiência indisponível em qualquer outro lugar a qualquer preço." },
+    { "title": "A logística está coberta", "desc": "As melhores empresas de safari cuidam de cada detalhe — voos fretados, jantares no bush, sundowners em locais impossíveis, piqueniques surpresa. A infraestrutura de planejamento de um grande lodge é o luxo invisível. Vocês não tomam nenhuma decisão." }
+  ],
+  "destinations": [
+    { "why": "A Grande Migração, concessões privadas com densidade quase nula de outros veículos, os lodges top mais românticos (Singita, andBeyond, Four Seasons). O padrão de excelência em safari.", "budget": "$1.000–$5.000/noite", "bestFor": "A Migração, luxo máximo, romance" },
+    { "why": "Mesmo ecossistema do Serengeti, um pouco mais acessível da Europa. Travessias do rio Mara de julho a outubro. Luxo estilo acampamento com vistas diretas para as planícies do Mara.", "budget": "$500–$3.000/noite", "bestFor": "Voo mais curto, travessias de rio, cultura" },
+    { "why": "Opções livres de malária. Avistamentos dos Big 5 quase garantidos. Voo de 2h30 desde Joanesburgo (hub internacional). Excelentes reservas privadas.", "budget": "$400–$2.000/noite", "bestFor": "Opção sem malária, acessibilidade europeia, certeza dos Big 5" },
+    { "why": "Safari aquático em mokoros entre canais de vitórias-régias. Densidade turística excepcionalmente baixa. Entre as experiências de safari mais exclusivas do mundo.", "budget": "$1.200–$6.000/noite", "bestFor": "Ultra-exclusivo, safari aquático, mínima movimentação" }
+  ],
+  "months": [
+    { "verdict": "Bom", "note": "Temporada de partos no Serengeti — predadores no auge. Chuvas curtas terminadas. Bom valor." },
+    { "verdict": "Bom", "note": "Pico de partos. Ngorongoro excelente. Menos turistas do que na alta temporada." },
+    { "verdict": "Evitar", "note": "Começam as chuvas longas. Estradas difíceis. Alguns lodges fecham. Não recomendado." },
+    { "verdict": "Evitar", "note": "Pico das chuvas longas. Acesso difícil ao Serengeti. Melhor evitar." },
+    { "verdict": "Média", "note": "Chuvas terminando. Paisagem verde e luxuriante. Pouquíssimos turistas. Descontos significativos." },
+    { "verdict": "Alta", "note": "Começa a estação seca. Gnus se movendo ao norte. Excelente atividade de predadores." },
+    { "verdict": "Alta", "note": "Começam as travessias da Grande Migração (rio Mara). O momento da bucket list. Reservem com 18+ meses." },
+    { "verdict": "Alta", "note": "Pico da migração. Preços máximos. Travessias mais dramáticas. Extraordinário." },
+    { "verdict": "Alta", "note": "Travessias seguem. Levemente menos turistas que em agosto. Reservem com bastante antecedência." },
+    { "verdict": "Bom", "note": "Migração voltando ao sul. Excelente avistamento. Chuvas curtas podem começar no fim do mês." },
+    { "verdict": "Média", "note": "Chuvas curtas. Verde e bonito. Filhotes recém-nascidos. Bom valor, menos turistas." },
+    { "verdict": "Bom", "note": "Fim das chuvas curtas. Reservas de Natal muito caras nos lodges top. Luz linda." }
+  ],
+  "budgetTiers": [
+    { "tier": "Entrada", "range": "$400–$800 pppn", "desc": "Acampamentos de lona de gama média com bom avistamento. Parque nacional (não concessão privada): outros veículos nos avistamentos. Ainda assim, vida selvagem extraordinária. Sem drives noturnos.", "hotels": "Vários acampamentos &Beyond e Sanctuary" },
+    { "tier": "Premium", "range": "$800–$2.000 pppn", "desc": "Acesso à concessão privada. Drives noturnos e fora de estrada. Alta proporção equipe/hóspede. Comida e vinho excelentes. Ponto ideal para safari de lua de mel — experiência completa sem preço ultra.", "hotels": "Singita Grumeti, andBeyond Ngorongoro Crater" },
+    { "tier": "Ultra", "range": "$2.000–$6.000 pppn", "desc": "Possível uso exclusivo. Lodges Singita. Aman no Serengeti. Os lodges mais extraordinários do mundo, nas paisagens mais extraordinárias. All-inclusive incluindo transferes de helicóptero.", "hotels": "Singita Sasakwa, Singita Mara, Aman Serengeti" }
+  ],
+  "checklist": [
+    { "title": "Planejamento essencial", "items": ["Reservem voos primeiro — fretados na África Oriental são complexos e caros", "Confirmem profilaxia antimalárica com seu médico 6 semanas antes", "Levem roupa de tons neutros (cáqui, oliva, bege) — cores vivas perturbam a fauna", "Levem capa antipoeira para o equipamento de câmera", "Seguro de viagem com cobertura de evacuação de emergência é inegociável no Serengeti"] },
+    { "title": "No lodge", "items": ["Peçam o guia pelo nome nos drives de retorno (química importa muito)", "Solicitem jantar no bush ou sundowners \"in the bush\" — grandes lodges organizam de rotina", "Mantenham as lonas fechadas durante o dia para evitar invasões de macacos vervet", "Acordem por volta de 1h da manhã para os sons noturnos — vão ouvir hienas, leões e elefantes", "Gorjeta para o guia: USD $15–30/dia é padrão nos lodges top"] }
+  ],
+  "expertTips": [
+    "Combinem 4 noites no Serengeti + 4 noites em Zanzibar para a lua de mel clássica da Tanzânia. Safari primeiro (intenso em energia), praia depois (recuperação). O contraste — poeira e acácias para areia branca e água turquesa — é perfeito. Reservem um fretado de Kilimanjaro para Zanzibar.",
+    "Concessões privadas custam 30–50% mais que acampamentos em parque nacional, mas entregam uma experiência fundamentalmente diferente: sem outros veículos, drives noturnos, safari a pé, rastreamento off-road. Para uma lua de mel safari, essa diferença justifica o prêmio totalmente.",
+    "As travessias do rio (julho–outubro) são o pico, mas não a única coisa notável. A temporada de partos em fevereiro entrega densidade de predadores que rivaliza com a migração — a preços menores e com menos turistas. Janeiro–fevereiro é subestimado para casais com orçamento.",
+    "Mala para safari: tragam uma camada leve de lã merino para os drives matinais (5h30 pode ser frio mesmo em julho). Filtro solar alto. Bolsa antipoeira para câmera. Evitem perfume e aromas fortes perto da fauna. Deixem objetos de valor no cofre do lodge.",
+    "Digam ao lodge exatamente o que querem que a viagem signifique. Os melhores lodges (Singita, andBeyond) podem organizar um jantar à luz de velas no bush, um sundowner privativo em um kopje, um café da manhã com champanhe ao amanhecer com as planícies só para vocês. Nada disso aparece em folhetos — vocês precisam pedir."
+  ],
+  "faqs": [
+    { "q": "Qual a melhor época para uma lua de mel safari no Serengeti?", "a": "Julho–outubro pelas travessias do rio na Grande Migração — o evento de fauna mais dramático do planeta. Janeiro–fevereiro pela temporada de partos e pico de atividade de predadores. O Serengeti tem fauna excelente o ano inteiro — não há mês realmente ruim, só problemas de acesso na estação úmida (março–abril)." },
+    { "q": "Uma lua de mel safari é romântica se a gente não se interessa por fauna?", "a": "Universalmente sim, segundo todos os casais que entrevistamos. O romance de um grande lodge — jantares à luz de velas sob as estrelas, sundowner no bush com gim gelado, Via Láctea visível da banheira ao ar livre — transcende interesse por fauna. O avistamento é um bônus, não um pré-requisito." },
+    { "q": "Reservar uma lua de mel safari por especialista ou direto?", "a": "Por especialista na África Oriental, sempre. A logística de fretados, sistema de licenças e combinação de lodges são complexos. Um bom especialista agrega valor significativo sem custo extra (recebe comissão dos lodges). Usem especialistas como Ker & Downey, Micato ou Expert Africa." },
+    { "q": "Quais vacinas precisam para um safari no Serengeti?", "a": "Febre amarela (obrigatória para entrar na Tanzânia), febre tifoide (recomendada), hepatite A (recomendada) e profilaxia antimalárica (essencial). Procurem uma clínica de medicina do viajante 8 semanas antes. A maioria dos antimaláricos precisa começar 2 semanas antes da viagem." }
+  ]
+}

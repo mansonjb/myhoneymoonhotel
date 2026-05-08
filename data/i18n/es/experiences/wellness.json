@@ -1,0 +1,72 @@
+{
+  "label": "Lunas de miel de bienestar y spa",
+  "tagline": "La luna de miel que cambia cómo se siente, no solo a dónde va",
+  "intro": "Las lunas de miel de bienestar son la categoría que más crece en el viaje de lujo: cada vez más parejas quieren volver a casa sintiéndose genuinamente mejor que al salir, no solo descansadas. Las mejores propiedades centradas en bienestar ofrecen no solo spas de talla mundial, sino una arquitectura sensorial completa: cocina excepcional, programas de sueño, movimiento y yoga, y tratamientos basados en sistemas de sanación tradicionales perfeccionados durante siglos.",
+  "stats": [
+    { "label": "Propiedades con spa" },
+    { "label": "Rango por noche" },
+    { "label": "Horas de spa/día (media)" },
+    { "label": "Puntuación media" }
+  ],
+  "perfectFor": [
+    "Parejas que vienen de un periodo de planificación de boda muy estresante",
+    "Quienes quieren llegar a casa transformados, no solo descansados",
+    "Parejas interesadas en sistemas tradicionales de sanación (Ayurveda, balinés, talasoterapia)",
+    "Cualquiera que priorice el spa sobre la piscina",
+    "Parejas cómodas pasando tiempo separadas en salas de tratamiento"
+  ],
+  "skipIf": [
+    "Le incomoda que le toquen o no se siente cómodo con tratamientos corporales",
+    "Quiere vida nocturna o entretenimiento de alta energía",
+    "Tiene restricciones dietéticas que dificultan los menús terapéuticos"
+  ],
+  "reasons": [
+    { "title": "La descompresión tras la planificación de la boda", "desc": "Las semanas previas a una boda están entre las más estresantes en la vida de una pareja. Una luna de miel de bienestar está diseñada específicamente para revertirlo: no solo relajar, sino restaurar activamente el sistema nervioso. Los mejores programas lo hacen de forma deliberada y medible." },
+    { "title": "Sistemas tradicionales de sanación", "desc": "Sanación balinesa (Bali), Ayurveda (Sri Lanka, India, Maldivas), talasoterapia (Polinesia Francesa), Medicina Tradicional China (Asia). No son masajes de spa de hotel: son tradiciones médicas sofisticadas adaptadas para el resort. Los tratamientos duran 90–120 minutos y sus efectos se sienten durante días." },
+    { "title": "La comida como parte de la experiencia", "desc": "Los mejores resorts de bienestar tratan la comida como medicina: Six Senses tiene nutricionistas in situ, Anantara Kihavah sirve cocina spa en su restaurante submarino, The Kayon Jungle Resort se abastece localmente y ofrece programas de ayuno. La gastronomía eleva el resto." },
+    { "title": "Calidad del sueño", "desc": "Las propiedades de bienestar bien diseñadas son silenciosas. Aislamiento, materiales naturales, sin tránsito y programación enfocada al sueño (baños de magnesio, meditación guiada, habitaciones sin luz azul) hacen que los huéspedes reporten su mejor sueño en años. Tras una boda, esto importa." },
+    { "title": "Vuelven a casa diferentes", "desc": "El test de una luna de miel de bienestar no es cómo se sienten la última mañana, sino cómo se sienten una semana después de volver. Los mejores programas crean cambios que perduran: mejores ritmos de sueño, ansiedad de base reducida, mejores hábitos de movimiento." }
+  ],
+  "destinations": [
+    { "why": "Capital mundial del viaje de bienestar. Resorts en la jungla de Ubud, tradición balinesa de sanación, cultura gastronómica extraordinaria. The Kayon y Hanging Gardens son referencia.", "budget": "$200–$800/noche", "bestFor": "Tratamientos ayurvédicos/balineses, atmósfera de jungla, valor" },
+    { "why": "Salas de tratamiento sobre el agua donde solo se oye el océano. El spa submarino de Anantara Kihavah. Six Senses Laamu. La combinación de entorno acuático y tratamiento de talla mundial es única.", "budget": "$600–$4,000/noche", "bestFor": "Bienestar marino, salas sobre el agua, aislamiento total" },
+    { "why": "Six Senses Zil Pasyon Seychelles es la referencia del diseño biofílico de bienestar: arquitectura, comida y filosofía de tratamiento son una experiencia integrada.", "budget": "$400–$2,500/noche", "bestFor": "Sello Six Senses, naturaleza insular, lujo descalzo" },
+    { "why": "La cultura de piscinas y vistas en acantilado de Santorini es relajante por naturaleza. Tratamientos en cuevas, baños minerales volcánicos y la calidad meditativa de mirar el Egeo desde una terraza privada.", "budget": "$300–$1,500/noche", "bestFor": "Accesibilidad europea, vistas, minerales de spa volcánicos" }
+  ],
+  "months": [
+    { "verdict": "Alta", "note": "Temporada de detox post-festividades. La mayoría de programas de bienestar al completo. Reserven pronto." },
+    { "verdict": "Bueno", "note": "Buen tiempo en la mayoría de destinos. Paquetes de spa para parejas en San Valentín en todas partes." },
+    { "verdict": "Bueno", "note": "Pre-Pascua. Bali perfecto. Maldivas excelente. Buen valor en hombro." },
+    { "verdict": "Bueno", "note": "Pico de seca en Bali. Hombro europeo. Tarifas hombro en Seychelles." },
+    { "verdict": "Media", "note": "Más tranquilo a nivel global. Retiros menos concurridos. Buenas ofertas a menudo." },
+    { "verdict": "Bueno", "note": "Estación seca en Bali. Abre la temporada de Santorini. Buen tiempo en Europa y Asia." },
+    { "verdict": "Alta", "note": "Alta en Bali. Santorini en su pico de afluencia. Reserven los programas de spa con antelación." },
+    { "verdict": "Alta", "note": "Pico del verano europeo. Mejor tiempo en Santorini, Seychelles. Demanda alta." },
+    { "verdict": "Bueno", "note": "Post-pico. Bali aún excelente. Santorini más tranquilo. Mes premium con mejor relación calidad-precio." },
+    { "verdict": "Bueno", "note": "Excelentes condiciones en la mayoría de destinos. Tarifas hombro. Foco fuerte en spa." },
+    { "verdict": "Bueno", "note": "Tranquilo a nivel global. Lo mejor para programas intensivos: pocas distracciones." },
+    { "verdict": "Alta", "note": "Cultura de reset de fin de año. La mayoría de destinos al completo. Tarifas premium." }
+  ],
+  "budgetTiers": [
+    { "tier": "Entrada", "range": "$200–$500/noche", "desc": "Buenas instalaciones de spa y tratamientos locales de calidad (masaje balinés, exfoliación, envoltura). Excelente valor en Bali y Tailandia. Se obtiene calidad de tratamiento auténtica a fracción del coste maldivo.", "hotels": "Hanging Gardens Bali, varias propiedades de bienestar en Ubud" },
+    { "tier": "Premium", "range": "$500–$1,500/noche", "desc": "Acceso completo a programa de bienestar, nutricionista o consultor, yoga/meditación diarios, salas de tratamiento de alta calidad con vistas únicas (sobre el agua, acantilado, jungla). El punto dulce para recién casados orientados al bienestar.", "hotels": "The Kayon Jungle Resort, Anantara Kihavah, Constance Ephelia Seychelles" },
+    { "tier": "Ultra", "range": "$1,500–$4,000/noche", "desc": "Viaje de bienestar a medida diseñado antes de la llegada. Pruebas biométricas. Guía de bienestar privado. Cocina diseñada según su perfil de salud. Programas Six Senses con análisis de ADN. Esto les cambia.", "hotels": "Six Senses Zil Pasyon, Anantara Maia Seychelles, InterContinental Thalasso Bora Bora" }
+  ],
+  "checklist": [
+    { "title": "Antes de reservar", "items": ["Confirmen que el spa tiene salas con vistas (sobre el agua, jungla, mar)", "Pregunten por el paquete spa de pareja: la mayoría de resorts ofrece descuento sobre reservas individuales", "Comprueben si hay nutricionista o consultor de bienestar disponible", "Pidan formularios de admisión previos: los mejores resorts personalizan el programa", "Verifiquen la temperatura de la piscina: algunas son terapéuticas (frías/contraste), no solo solárium"] },
+    { "title": "Maximizar la experiencia", "items": ["Reserven la primera sesión de spa para el día 1 (llegada o mañana siguiente)", "Pidan una consulta de \"viaje de bienestar\" en el check-in", "Coman del menú spa al menos una vez: la calidad suele ser excelente", "Hagan yoga cada mañana incluso si no son practicantes: el entorno lo transforma", "Apaguen el teléfono las primeras 48 horas: su sistema nervioso hará el resto"] }
+  ],
+  "expertTips": [
+    "Las mejores propiedades de bienestar no son las que tienen las cartas de spa más largas, sino aquellas en las que la filosofía de bienestar está integrada en todo el resort. Six Senses es la referencia: comida, programa de sueño, arquitectura y tratamiento forman una experiencia coherente.",
+    "Reserven los tratamientos por adelantado, no en el resort. Los mejores terapeutas y franjas (las horas de neblina matinal, los slots de atardecer) en propiedades top se llenan 30–60 días antes. Escriban directamente al equipo del spa.",
+    "Un masaje de pareja es la actividad de bienestar más universalmente apreciada por recién casados. Mesas lado a lado en una sala con vistas: un masaje de pareja de 90 minutos en sala sobre el agua en Maldivas cuesta $400–$600 y es una experiencia que se recuerda durante años.",
+    "Bali ofrece la mejor relación calidad-precio del mundo en bienestar por amplio margen. Una propiedad de $300/noche en Ubud entrega calidad de tratamiento, comida y atmósfera que rivaliza con resorts maldivos de $1,500/noche. Si el presupuesto importa, Bali es la respuesta.",
+    "La talasoterapia (terapia con agua de mar) en Polinesia Francesa —en concreto el InterContinental Bora Bora Thalasso Spa— usa agua fría profunda bombeada desde 915 metros. Es un sistema terapéutico único, indisponible en otros lugares. Los efectos sobre jet lag y recuperación muscular son reales."
+  ],
+  "faqs": [
+    { "q": "¿Cuál es el mejor destino para una luna de miel de bienestar?", "a": "Bali por valor y autenticidad de la sanación balinesa. Maldivas por el entorno spa extraordinario (salas sobre el agua, elementos marinos). Seychelles (Six Senses) por la filosofía más integrada. Santorini por accesibilidad europea con minerales volcánicos. El mejor depende de presupuesto y preferencia de tratamiento." },
+    { "q": "¿Hay que ser \"de bienestar\" para disfrutar una luna de miel de spa?", "a": "No. La mayoría de las parejas que eligen propiedades de bienestar las disfrutan principalmente por el entorno: silencio, piscinas hermosas, calidad de la comida y atmósfera de calma genuina. Los tratamientos son una capa opcional que la mayoría descubre que ama, sin interés previo." },
+    { "q": "¿Cuánto tiempo de spa es típico en una luna de miel de bienestar?", "a": "En resorts dedicados, las parejas suelen tener 2–4 horas de spa diarias —entre tratamientos y uso de instalaciones (piscinas, vapor, salas de relajación)—. Esto se equilibra naturalmente con playa/piscina, comidas y actividades. En una buena propiedad no se sentirán presionados." },
+    { "q": "¿El Ayurveda es apropiado para una luna de miel?", "a": "El Ayurveda genuino (como en Kerala, India, o Sri Lanka) es un programa de 21 días con dieta restrictiva y purgas terapéuticas: no apropiado para luna de miel. El Ayurveda de resort (en Bali y Maldivas) es una versión curada que selecciona los elementos más relevantes y agradables. Excelente para luna de miel." }
+  ]
+}

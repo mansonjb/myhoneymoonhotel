@@ -1,10 +1,12 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
+import { headers } from 'next/headers'
 import { getAllHotels, getAllDestinations } from '@/lib/hotels'
 import HotelCard from '@/components/HotelCard'
 import DestinationPicker from '@/components/DestinationPicker'
 import { buildAlternates } from '@/lib/alternates'
+import { detectLocaleFromPath, localizedHref } from '@/lib/locale-paths'
 
 export const metadata: Metadata = { alternates: buildAlternates('/') }
 
@@ -76,7 +78,11 @@ const TESTIMONIALS = [
   },
 ]
 
-export default function HomePage() {
+export default async function HomePage() {
+  // Resolve the active locale from the middleware-injected `x-pathname` so the
+  // same component can render at `/`, `/es`, and `/pt` with locale-aware links.
+  const h = await headers()
+  const locale = detectLocaleFromPath(h.get('x-pathname'))
   const allHotels = getAllHotels()
   const topHotels = allHotels.slice(0, 6)
 
@@ -162,7 +168,7 @@ export default function HomePage() {
           <div className="flex gap-2 flex-wrap">
             <span className="bg-zinc-900 text-white px-4 py-1.5 rounded-full text-xs font-medium">All</span>
             {EXPERIENCE_TYPES.slice(0, 4).map(e => (
-              <Link key={e.slug} href={`/experiences/${e.slug}`}
+              <Link key={e.slug} href={localizedHref(`/experiences/${e.slug}`, locale)}
                 className="border border-zinc-200 text-zinc-500 hover:border-zinc-900 hover:text-zinc-900 px-4 py-1.5 rounded-full text-xs font-medium transition-colors">
                 {e.label}
               </Link>
@@ -253,7 +259,7 @@ export default function HomePage() {
             <p className="text-white/60 text-sm mb-8 leading-relaxed">
               Soneva Jani, Maldives. Every 1-bedroom water retreat has a retractable roof. The only hotel in the world where this is possible.
             </p>
-            <Link href="/hotels/soneva-jani-maldives"
+            <Link href={localizedHref('/hotels/soneva-jani-maldives', locale)}
               className="inline-flex items-center gap-2 bg-white text-zinc-900 font-semibold text-sm px-7 py-3.5 rounded-full hover:bg-zinc-100 transition-colors">
               Read Full Review <span>→</span>
             </Link>
@@ -271,7 +277,7 @@ export default function HomePage() {
               <p className="text-zinc-500 text-base mt-3 max-w-lg leading-relaxed">The eight honeymoon destinations we obsess over most — and the hotels that define them.</p>
             </div>
             <Link
-              href="/destinations"
+              href={localizedHref('/destinations', locale)}
               className="hidden sm:inline-flex items-center gap-1.5 text-rose-500 hover:text-rose-600 text-sm font-medium tracking-wide whitespace-nowrap"
             >
               View all {totalDestinations} destinations →
@@ -281,7 +287,7 @@ export default function HomePage() {
             {TOP_DESTINATIONS.map(d => (
               <Link
                 key={d.slug}
-                href={`/destinations/${d.slug}`}
+                href={localizedHref(`/destinations/${d.slug}`, locale)}
                 className="group relative aspect-[4/5] rounded-2xl overflow-hidden"
               >
                 <Image
@@ -343,7 +349,7 @@ export default function HomePage() {
             {EXPERIENCE_TYPES.map(e => (
               <Link
                 key={e.slug}
-                href={`/experiences/${e.slug}`}
+                href={localizedHref(`/experiences/${e.slug}`, locale)}
                 className="group relative aspect-[3/4] rounded-2xl overflow-hidden"
               >
                 <Image
@@ -405,13 +411,13 @@ export default function HomePage() {
           </div>
           <div className="flex gap-3 shrink-0 flex-wrap">
             <Link
-              href="/quiz"
+              href={localizedHref('/quiz', locale)}
               className="bg-rose-500 hover:bg-rose-600 text-white font-semibold text-sm px-8 py-4 rounded-full transition-colors shadow-xl"
             >
               Take the quiz →
             </Link>
             <Link
-              href="/experiences/adults-only"
+              href={localizedHref('/experiences/adults-only', locale)}
               className="border border-white/30 backdrop-blur-md bg-white/5 hover:bg-white/10 text-white font-semibold text-sm px-8 py-4 rounded-full transition-colors"
             >
               Adults-Only

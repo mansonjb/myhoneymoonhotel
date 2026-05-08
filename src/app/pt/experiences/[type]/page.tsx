@@ -1,7 +1,6 @@
 import type { Metadata } from 'next'
 import { getAllExperienceTypes } from '@/lib/hotels'
-import ExperiencePage, { generateMetadata as enGenerateMetadata } from '../../../experiences/[type]/page'
-import { buildAlternates } from '@/lib/alternates'
+import { buildExperienceMetadata, renderExperiencePage } from '../../../experiences/[type]/renderExperience'
 
 interface Props { params: Promise<{ type: string }> }
 
@@ -11,13 +10,10 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { type } = await params
-  const enMeta = await enGenerateMetadata({ params: Promise.resolve({ type }) })
-  return {
-    ...enMeta,
-    alternates: buildAlternates(`/experiences/${type}`, 'pt'),
-  }
+  return buildExperienceMetadata(type, 'pt')
 }
 
-export default function ExperiencePagePT({ params }: Props) {
-  return <ExperiencePage params={params} />
+export default async function ExperiencePagePT({ params }: Props) {
+  const { type } = await params
+  return renderExperiencePage(type, 'pt')
 }

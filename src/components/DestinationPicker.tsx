@@ -1,6 +1,8 @@
 'use client'
 import { useRouter } from 'next/navigation'
 import { useState, useEffect, useRef } from 'react'
+import { useLocale } from '@/lib/useLocale'
+import { localizedHref } from '@/lib/locale-paths'
 
 interface DestinationOption {
   slug: string
@@ -15,6 +17,7 @@ interface DestinationPickerProps {
 
 export default function DestinationPicker({ destinations }: DestinationPickerProps) {
   const router = useRouter()
+  const locale = useLocale()
   const [open, setOpen] = useState(false)
   const [query, setQuery] = useState('')
   const inputRef = useRef<HTMLInputElement>(null)
@@ -49,7 +52,7 @@ export default function DestinationPicker({ destinations }: DestinationPickerPro
 
   const go = (slug: string) => {
     setOpen(false)
-    router.push(`/destinations/${slug}`)
+    router.push(localizedHref(`/destinations/${slug}`, locale))
   }
 
   return (
@@ -146,7 +149,7 @@ export default function DestinationPicker({ destinations }: DestinationPickerPro
               <span className="text-zinc-500 text-xs">
                 {destinations.length} destinations · {destinations.reduce((s, d) => s + d.count, 0)} hotels
               </span>
-              <a href="/quiz" className="text-rose-500 text-sm font-medium hover:underline whitespace-nowrap">
+              <a href={localizedHref('/quiz', locale)} className="text-rose-500 text-sm font-medium hover:underline whitespace-nowrap">
                 Not sure? Take the quiz →
               </a>
             </div>

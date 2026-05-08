@@ -1,0 +1,71 @@
+{
+  "label": "Luas de mel ultra-luxo",
+  "tagline": "As melhores experiências hoteleiras do mundo, avaliadas para o romance",
+  "intro": "Hotéis de lua de mel ultra-luxo não são definidos só pelo preço — são definidos pelo calibre da atenção, pela singularidade do ambiente e pelo grau em que cada detalhe está calibrado para a intimidade. Em propriedades com Honeymoon Score 90+, duas coisas são sempre verdade: vocês param de querer sair e param de pensar em qualquer coisa que não seja estar nesse lugar com essa pessoa.",
+  "stats": [
+    { "label": "Propriedades de luxo" },
+    { "label": "Faixa por noite" },
+    { "label": "Maior pontuação (Four Seasons BB)" },
+    { "label": "Proporção equipe/hóspede (top tier)" }
+  ],
+  "perfectFor": [
+    "Casais para quem a lua de mel é um investimento único na vida",
+    "Quem valoriza serviço extraordinário acima das atividades",
+    "Casais que querem ser reconhecidos, lembrados e surpreendidos",
+    "Quem já se hospedou em bons hotéis e quer entender qual é o próximo nível"
+  ],
+  "skipIf": [
+    "Você se sente desconfortável com serviço atento (alguns acham invasivo)",
+    "Você prefere viajar de forma independente em vez de resorts curados",
+    "Orçamento é a principal restrição — não há ultra-luxo significativo abaixo de $500/noite"
+  ],
+  "reasons": [
+    { "title": "Serviço nesse nível é transformador", "desc": "Um mordomo que sabe seus nomes, suas preferências, e já organizou o que vocês iam pedir. Não é clichê em propriedades 90+. Muda genuinamente a experiência — de reagir a necessidades a antecipá-las." },
+    { "title": "Privacidade é o luxo definitivo", "desc": "Ultra-luxo significa vilas privativas em vez de quartos, piscinas privativas em vez de compartilhadas, praias privativas em vez de públicas. No Amanyara ou Singita, privacidade é a amenidade principal. Vocês podem passar quatro dias sem ver outro hóspede se quiserem." },
+    { "title": "Uma vez na vida justifica o gasto", "desc": "A maioria dos casais que faz lua de mel em uma propriedade ultra-luxo não voltará nesse patamar de preço. A clareza de que é irrepetível intensifica cada momento. O ROI sobre o melhor dia da vida de vocês é teoricamente infinito." },
+    { "title": "A arquitetura", "desc": "No topo, o design físico da propriedade é extraordinário. Os santuários abertos do Jade Mountain. Os tetos retráteis do Soneva Jani. O lodge colonial do Singita Sasakwa com vistas para o Serengeti. Estão entre os edifícios mais belos já construídos." },
+    { "title": "A gastronomia nesse nível é uma experiência", "desc": "Restaurantes de hotéis ultra-luxo costumam ser melhores do que a concorrência local com estrela Michelin. Aman mantém chefs próprios internacionalmente. O padrão Four Seasons é consistentemente excelente. A comida em uma propriedade 90+ nunca é detalhe secundário." }
+  ],
+  "destinations": [
+    { "why": "A maior densidade de propriedades ultra-luxo por quilômetro quadrado do mundo. Soneva Jani (97/100), Four Seasons Landaa Giraavaru (91/100). O produto maldivo é a referência global do luxo sobre a água.", "budget": "$800–$8.000/noite", "bestFor": "Ultra-luxo sobre a água, experiência marinha, privacidade" },
+    { "why": "Four Seasons Resort Bora Bora (96/100) é a referência do luxo no Pacífico. Conrad Nui pela melhor posição na lagoa. A paisagem é insubstituível.", "budget": "$600–$4.000/noite", "bestFor": "Vistas, herança, cultura polinésia francesa" },
+    { "why": "Six Senses Zil Pasyon e Amanyara representam expressões diferentes do ultra-luxo. Menos conhecido que as Maldivas, mas com narrativa de natureza mais forte.", "budget": "$500–$3.000/noite", "bestFor": "Luxo barefoot, natureza, bem-estar Six Senses" },
+    { "why": "Os lodges Singita são os hotéis mais caros da África e dos mais românticos do mundo. A combinação safari + luxo é única deste destino.", "budget": "$1.500–$5.000/noite", "bestFor": "Ultra-luxo de safari, vida selvagem única na vida" }
+  ],
+  "months": [
+    { "verdict": "Alta", "note": "Pico da seca em Maldivas e Caribe. Tarifas máximas. Reservem com 18 meses." },
+    { "verdict": "Alta", "note": "Mês de lua de mel mais popular globalmente. Tarifas máximas em todo lugar." },
+    { "verdict": "Alta", "note": "Último mês de pico. Transição para meia temporada em alguns destinos." },
+    { "verdict": "Média", "note": "Primeiro mês de meia temporada. Reduções de 20–30%. Excelentes condições em muitos destinos." },
+    { "verdict": "Baixa", "note": "Estação úmida nas Maldivas. Ofertas significativas em propriedades top. Vale considerar." },
+    { "verdict": "Média", "note": "Alguns destinos em baixa. Começa a estação seca do Serengeti." },
+    { "verdict": "Alta", "note": "Pico de Bora Bora. Começa a migração no Serengeti. Alta em Bali." },
+    { "verdict": "Alta", "note": "Alta na maioria das propriedades. Pico da Grande Migração. Maldivas norte excelente." },
+    { "verdict": "Bom", "note": "Melhor custo-benefício em propriedades ultra-luxo. Levemente menos hóspedes. Mesma qualidade." },
+    { "verdict": "Bom", "note": "Começa a temporada do Caribe e Maldivas. Boa disponibilidade nas top." },
+    { "verdict": "Alta", "note": "Começa o pico pré-Natal. Excelentes condições. Mais acessível que dezembro." },
+    { "verdict": "Alta", "note": "Período mais caro globalmente. Atmosfera mágica. Reservem com 18–24 meses." }
+  ],
+  "budgetTiers": [
+    { "tier": "Luxo Premium", "range": "$500–$1.200/noite", "desc": "Onde o luxo começa para casais em lua de mel. Quartos tipo suíte, mordomo disponível (compartilhado), spa excelente, gastronomia cinco estrelas. Valor excepcional por noite pela qualidade entregue. A maioria dos casais relata como o maior gasto que já fizeram em hospedagem — e que vale a pena.", "hotels": "Conrad Bora Bora, Anantara Kihavah, Cap Maison Santa Lúcia" },
+    { "tier": "Ultra-Luxo", "range": "$1.200–$3.000/noite", "desc": "Vila própria com piscina privativa. Mordomo pessoal. Jantar na vila indistinguível do restaurante. O resort sabe seu nome, suas preferências e o que pediram no dia um antes que cheguem ao bar no dia três.", "hotels": "Four Seasons Bora Bora, Six Senses Zil Pasyon, Singita Grumeti" },
+    { "tier": "Absoluto", "range": "$3.000–$8.000/noite", "desc": "Os melhores hotéis e resorts do mundo. Os números são secundários — trata-se de estar em um lugar singular e extraordinário com a pessoa que vocês amam. Soneva Jani, Singita Sasakwa, Aman Serengeti. O custo não se justifica pela lista de amenidades. Justifica-se pela memória.", "hotels": "Soneva Jani, Singita Sasakwa, Amanyara (uso exclusivo)" }
+  ],
+  "checklist": [
+    { "title": "Tirando o máximo do ultra-luxo", "items": ["Mandem e-mail à propriedade 2 semanas antes da chegada com preferências específicas e contexto da lua de mel", "Perguntem pelo que a propriedade é mais conhecida e vivam isso na primeira noite", "Aceitem todo upgrade oferecido — nesse nível são melhorias genuínas", "Digam o que querem evitar (atividades sobreagendadas, eventos em grupo)", "Perguntem o que outros casais sempre desejam ter feito — a equipe sabe"] },
+    { "title": "Otimização de valor", "items": ["Reservem direto ou via agência de luxo (Virtuoso, Signature) para amenidades extras", "Perguntem por pacotes de lua de mel — costumam incluir café da manhã, créditos de spa e F&B", "Mirem na \"última grande janela de valor\" — 2–3 meses antes os resorts dão desconto em quartos premium não vendidos", "Comparem janeiro nas Maldivas vs novembro — clima idêntico, 30% de diferença"] }
+  ],
+  "expertTips": [
+    "O hotel mais caro nem sempre é a melhor lua de mel. Honeymoon Score de 96/100 a $600/noite supera 70/100 a $2.000/noite para a maioria dos casais. Sempre confiram a Honeymoon Score antes de assumir que preço é igual a qualidade.",
+    "Reservem direto ou via agente afiliado à Virtuoso. Reservas diretas no Aman, Four Seasons e Six Senses incluem benefícios (early check-in, crédito de spa, café da manhã) indisponíveis em terceiros. Um agente Virtuoso adiciona isso sem custo a vocês.",
+    "As duas primeiras noites definem o registro emocional inteiro da lua de mel. Invistam de forma desproporcional no hotel de abertura, mesmo que isso signifique reduzir nas noites finais. A experiência de chegada quando vocês estão mais frescos e emocionalmente preparados é a que define a viagem.",
+    "Em propriedades como o Soneva Jani, onde o preço inclui comida e bebida, a diferença efetiva de custo frente a uma não inclusiva é 30–40% menor por noite do que sugere a tarifa. Considerem jantar no quarto, uso de spa e atividades ao comparar.",
+    "Peçam o \"momento revelação da lua de mel\" ao reservar — a maioria dos resorts ultra-luxo tem um setup padrão (flores, champanhe, velas, ritual de turndown). Digam o que de fato emocionaria vocês e eles entregam. As melhores propriedades descobrem antes; os melhores casais contam."
+  ],
+  "faqs": [
+    { "q": "Qual o melhor hotel ultra-luxo de lua de mel do mundo?", "a": "Soneva Jani (Maldivas, 97/100) lidera atualmente nossa Honeymoon Score. Concorrentes próximos: Four Seasons Resort Bora Bora (96/100), Jade Mountain Santa Lúcia (94/100), Singita Sasakwa Lodge (88/100). A resposta certa depende do destino e tipo de experiência preferidos — todos são excepcionais." },
+    { "q": "Vale a pena ultra-luxo para uma lua de mel?", "a": "O contexto único na vida torna o ultra-luxo racional para muitos casais que jamais gastariam assim de outro modo. A pergunta-chave é: o que de fato emociona vocês? Se cenários extraordinários, privacidade e serviço ressoam — sim, vale completamente. Se preferem experiências a quartos, redistribuam o orçamento para atividades." },
+    { "q": "Como conseguir upgrades em hotéis de luxo?", "a": "Reservem direto ou via agente de viagens de luxo. Mandem e-mail personalizado 10 dias antes do check-in (mencionem lua de mel, preferência de quarto, pedidos específicos). Cheguem com preferências claras e específicas — não exigências. Os hotéis que entregam upgrades fazem isso para hóspedes com conexão humana real com a equipe antes da chegada." },
+    { "q": "Qual a diferença entre luxo e ultra-luxo?", "a": "Luxo entrega quartos, gastronomia e serviço consistentemente excelentes. Ultra-luxo entrega a sensação de que a propriedade existe especificamente para vocês — que suas preferências foram antecipadas, seu quarto foi escolhido com cuidado e a equipe foi instruída sobre o que torna a estadia significativa. A diferença psicológica é grande." }
+  ]
+}
