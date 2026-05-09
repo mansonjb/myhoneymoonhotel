@@ -1,11 +1,17 @@
 import { Hotel } from '../../types/hotel'
+import type { Locale } from '@/i18n/locales'
+import { localizedUrl } from '@/lib/alternates'
+import { getMessages } from '@/i18n/getMessages'
 
 interface HotelSchemaProps {
   hotel: Hotel
+  locale?: Locale
 }
 
-export default function HotelSchema({ hotel }: HotelSchemaProps) {
+export default function HotelSchema({ hotel, locale = 'en' }: HotelSchemaProps) {
   const heroPhoto = hotel.photos.find(p => p.type === 'hero') || hotel.photos[0]
+  const m = getMessages(locale)
+  const homeLabel = (m as unknown as Record<string, string>)['generic.home'] ?? 'Home'
 
   const lodgingBusiness = {
     '@context': 'https://schema.org',
@@ -18,14 +24,9 @@ export default function HotelSchema({ hotel }: HotelSchemaProps) {
       '@type': 'Rating',
       ratingValue: hotel.stars,
     },
-    ...(hotel.tripadvisor_rating && {
-      aggregateRating: {
-        '@type': 'AggregateRating',
-        ratingValue: hotel.tripadvisor_rating,
-        bestRating: 10,
-        reviewCount: 100,
-      },
-    }),
+    // Removed synthetic AggregateRating — Google's structured-data spam policy
+    // prohibits fabricated reviewCount values. Re-introduce only when we have
+    // first-party reviews we can attest to.
     amenityFeature: hotel.amenities.map(a => ({
       '@type': 'LocationFeatureSpecification',
       name: a,
@@ -59,8 +60,13 @@ export default function HotelSchema({ hotel }: HotelSchemaProps) {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://myhoneymoonhotel.com' },
-      { '@type': 'ListItem', position: 2, name: hotel.destination.replace(/-/g, ' '), item: `https://myhoneymoonhotel.com/destinations/${hotel.destination}` },
+      { '@type': 'ListItem', position: 1, name: homeLabel, item: localizedUrl('/', locale) },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: hotel.destination.replace(/-/g, ' '),
+        item: localizedUrl(`/destinations/${hotel.destination}`, locale),
+      },
       { '@type': 'ListItem', position: 3, name: hotel.name },
     ],
   }

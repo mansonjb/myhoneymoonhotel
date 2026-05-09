@@ -265,7 +265,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
 
             {/* Newsletter capture */}
             <div className="border-t border-zinc-100 pt-10 pb-10 mb-4 max-w-xl">
-              <h3 className="font-display text-2xl text-zinc-900 mb-2">{m['footer.newsletter.title'] ?? 'Get the best new honeymoon hotels'}</h3>
+              <h3 id="newsletter-heading" className="font-display text-2xl text-zinc-900 mb-2">{m['footer.newsletter.title'] ?? 'Get the best new honeymoon hotels'}</h3>
               <p className="text-zinc-500 text-sm mb-5 leading-relaxed">
                 {m['footer.newsletter.body'] ?? 'One email a month. The 3 newest properties we scored above 90, plus the honest pick of the month. No spam, unsubscribe any time.'}
               </p>

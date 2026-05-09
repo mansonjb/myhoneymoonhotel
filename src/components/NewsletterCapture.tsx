@@ -32,18 +32,28 @@ export default function NewsletterCapture() {
   }
 
   return (
-    <form onSubmit={onSubmit} className="flex flex-col sm:flex-row gap-2">
+    <form onSubmit={onSubmit} className="flex flex-col sm:flex-row gap-2" aria-labelledby="newsletter-heading">
+      <label htmlFor="newsletter-email" className="sr-only">Email address</label>
       <input
+        id="newsletter-email"
+        name="email"
         type="email"
         required
+        autoComplete="email"
         value={email}
         onChange={e => setEmail(e.target.value)}
         placeholder="your@email.com"
+        aria-label="Email address"
+        aria-describedby="newsletter-helper"
         className="flex-1 bg-white border border-zinc-200 rounded-full px-5 py-3 text-sm text-zinc-900 placeholder-zinc-400 outline-none focus:border-rose-400 transition-colors"
       />
+      <span id="newsletter-helper" className="sr-only">
+        We email one short edit a month. Unsubscribe any time.
+      </span>
       <button
         type="submit"
         disabled={state === 'submitting'}
+        aria-busy={state === 'submitting'}
         className="bg-rose-500 hover:bg-rose-600 disabled:opacity-50 text-white font-semibold text-sm px-6 py-3 rounded-full transition-colors whitespace-nowrap"
       >
         {state === 'submitting' ? 'Sending…' : 'Get the best picks'}

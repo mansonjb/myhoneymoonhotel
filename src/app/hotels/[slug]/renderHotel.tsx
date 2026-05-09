@@ -107,7 +107,7 @@ export async function renderHotelPage(slug: string, locale: Locale) {
 
   return (
     <>
-      <HotelSchema hotel={hotel} />
+      <HotelSchema hotel={hotel} locale={locale} />
       <StickyBookingBar
         hotelName={hotel.name}
         score={hotel.honeymoon_score}

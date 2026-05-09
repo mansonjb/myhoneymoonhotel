@@ -1,5 +1,5 @@
 import 'server-only'
-import { LOCALES, DEFAULT_LOCALE, type Locale } from '@/i18n/locales'
+import { LOCALES, DEFAULT_LOCALE, HTML_LANG, type Locale } from '@/i18n/locales'
 
 const SITE_URL = 'https://myhoneymoonhotel.com'
 
@@ -31,12 +31,12 @@ export function buildAlternates(
     loc === DEFAULT_LOCALE ? `${SITE_URL}${root || '/'}` : `${SITE_URL}/${loc}${root}`
 
   const languages: Record<string, string> = {}
-  // Spanish (es) and Portuguese (pt) are live — skip locales without a rendered tree to avoid
-  // promising hreflang to pages that don't exist. Keeping en + es + pt here.
+  // Use BCP-47 codes from HTML_LANG so hreflang matches the <html lang> attribute
+  // (en, es, pt-BR). Without this, Google warns about "language code mismatch".
   const liveLocales: Locale[] = ['en', 'es', 'pt']
   for (const loc of LOCALES) {
     if (!liveLocales.includes(loc)) continue
-    languages[loc] = buildUrl(loc)
+    languages[HTML_LANG[loc]] = buildUrl(loc)
   }
   languages['x-default'] = buildUrl(DEFAULT_LOCALE)
 
