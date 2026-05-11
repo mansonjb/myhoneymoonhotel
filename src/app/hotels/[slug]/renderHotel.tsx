@@ -34,8 +34,8 @@ export async function buildHotelMetadata(slug: string, locale: Locale): Promise<
   const heroUrl = heroPhoto?.url?.startsWith('http')
     ? heroPhoto.url
     : `${SITE_URL}${heroPhoto?.url ?? ''}`
-  const title = `${hotel.name} Honeymoon Review — Score ${hotel.honeymoon_score}/100`
-  const description = hotel.content.verdict.slice(0, 160)
+  const title = hotel.seo?.title ?? `${hotel.name} Honeymoon Review — Score ${hotel.honeymoon_score}/100`
+  const description = hotel.seo?.description ?? hotel.content.verdict.slice(0, 160)
   return {
     title,
     description,

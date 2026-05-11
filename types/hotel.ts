@@ -67,5 +67,9 @@ export interface Hotel {
   tripadvisor_award?: boolean
   couples_review_pct?: number
   content: HotelContent
+  seo?: {
+    title?: string
+    description?: string
+  }
   last_updated: string
 }
