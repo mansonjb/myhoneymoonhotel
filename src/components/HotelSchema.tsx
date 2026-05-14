@@ -20,6 +20,11 @@ export default function HotelSchema({ hotel, locale = 'en' }: HotelSchemaProps) 
     description: hotel.content.verdict.slice(0, 200),
     image: heroPhoto?.url,
     priceRange: `$${hotel.price_per_night_usd.min}–$${hotel.price_per_night_usd.max} per night`,
+    author: {
+      '@type': 'Person',
+      name: 'Jean-Baptiste Manson',
+      url: 'https://myhoneymoonhotel.com/about',
+    },
     starRating: {
       '@type': 'Rating',
       ratingValue: hotel.stars,

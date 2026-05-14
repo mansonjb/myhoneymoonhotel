@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { buildAlternates } from '@/lib/alternates'
+import AuthorByline from '@/components/AuthorByline'
 
 export const metadata: Metadata = {
   title: 'Mexico Honeymoon Cost: 2026 Real Numbers ($4k–$50k+)',
@@ -305,11 +306,11 @@ export default function MexicoHoneymoonCostPage() {
     description:
       'How much a Mexico honeymoon really costs in 2026 — four budget tiers, line-by-line breakdown, three real 7-night sample budgets at named hotels, hidden costs, and 8 ways to spend less.',
     image: 'https://myhoneymoonhotel.com/images/hotels/belmond-maroma-resort-mexico/hero.webp',
-    author: { '@type': 'Organization', name: 'MyHoneymoonHotel', url: 'https://myhoneymoonhotel.com' },
+    author: { '@type': 'Person', name: 'Jean-Baptiste Manson', url: 'https://myhoneymoonhotel.com/about' },
     publisher: {
       '@type': 'Organization',
-      name: 'MyHoneymoonHotel',
-      logo: { '@type': 'ImageObject', url: 'https://myhoneymoonhotel.com/logo.png' },
+      name: 'My Honeymoon Hotel',
+      logo: { '@type': 'ImageObject', url: 'https://myhoneymoonhotel.com/icon.png' },
     },
     datePublished: '2026-05-11',
     dateModified: '2026-05-11',
@@ -378,6 +379,10 @@ export default function MexicoHoneymoonCostPage() {
         <span className="mx-2">/</span>
         <span className="text-zinc-900">Mexico Honeymoon Cost</span>
       </nav>
+
+      <div className="max-w-4xl mx-auto px-6">
+        <AuthorByline />
+      </div>
 
       {/* INTRO + TL;DR */}
       <section className="max-w-3xl mx-auto px-6 py-14 prose prose-zinc bg-gradient-to-b from-rose-50/60 via-white to-white -mt-2">

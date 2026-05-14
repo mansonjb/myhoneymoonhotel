@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { buildAlternates } from '@/lib/alternates'
+import AuthorByline from '@/components/AuthorByline'
 
 export const metadata: Metadata = {
   title: 'The 25 Best Honeymoon Resorts of 2026 (Ranked & Reviewed)',
@@ -411,11 +412,11 @@ export default function BestHoneymoonResorts2026Page() {
     description:
       'The definitive 2026 ranking of the world’s best honeymoon resorts. 1,200+ properties scored on adults-only, romance, spa, beach and couples reviews.',
     image: 'https://myhoneymoonhotel.com/images/hotels/soneva-jani-maldives/hero.webp',
-    author: { '@type': 'Organization', name: 'MyHoneymoonHotel', url: 'https://myhoneymoonhotel.com' },
+    author: { '@type': 'Person', name: 'Jean-Baptiste Manson', url: 'https://myhoneymoonhotel.com/about' },
     publisher: {
       '@type': 'Organization',
-      name: 'MyHoneymoonHotel',
-      logo: { '@type': 'ImageObject', url: 'https://myhoneymoonhotel.com/logo.png' },
+      name: 'My Honeymoon Hotel',
+      logo: { '@type': 'ImageObject', url: 'https://myhoneymoonhotel.com/icon.png' },
     },
     datePublished: '2026-01-10',
     dateModified: '2026-05-01',
@@ -488,6 +489,10 @@ export default function BestHoneymoonResorts2026Page() {
         <span className="mx-2">/</span>
         <span className="text-zinc-900">Honeymoon Resorts 2026</span>
       </nav>
+
+      <div className="max-w-4xl mx-auto px-6">
+        <AuthorByline />
+      </div>
 
       {/* INTRO */}
       <section className="max-w-3xl mx-auto px-6 py-14 prose prose-zinc">

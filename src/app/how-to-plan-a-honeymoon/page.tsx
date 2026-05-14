@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { buildAlternates } from '@/lib/alternates'
+import AuthorByline from '@/components/AuthorByline'
 
 export const metadata: Metadata = {
   title: 'How to Plan a Honeymoon: The Complete 2026 Guide (Timeline, Budget, Destinations)',
@@ -271,11 +272,11 @@ export default function HowToPlanAHoneymoonPage() {
     description:
       'A 12-month honeymoon planning timeline, real budget numbers, the destination framework, the 7 hotel types, and the 10 mistakes that ruin honeymoons.',
     image: 'https://myhoneymoonhotel.com/images/hotels/four-seasons-bora-bora/hero.webp',
-    author: { '@type': 'Organization', name: 'MyHoneymoonHotel', url: 'https://myhoneymoonhotel.com' },
+    author: { '@type': 'Person', name: 'Jean-Baptiste Manson', url: 'https://myhoneymoonhotel.com/about' },
     publisher: {
       '@type': 'Organization',
-      name: 'MyHoneymoonHotel',
-      logo: { '@type': 'ImageObject', url: 'https://myhoneymoonhotel.com/logo.png' },
+      name: 'My Honeymoon Hotel',
+      logo: { '@type': 'ImageObject', url: 'https://myhoneymoonhotel.com/icon.png' },
     },
     datePublished: '2026-01-15',
     dateModified: '2026-04-30',
@@ -359,6 +360,10 @@ export default function HowToPlanAHoneymoonPage() {
         <span className="mx-2">/</span>
         <span className="text-zinc-900">How to Plan a Honeymoon</span>
       </nav>
+
+      <div className="max-w-4xl mx-auto px-6">
+        <AuthorByline />
+      </div>
 
       {/* INTRO + TOC */}
       <section className="max-w-3xl mx-auto px-6 py-14 prose prose-zinc">

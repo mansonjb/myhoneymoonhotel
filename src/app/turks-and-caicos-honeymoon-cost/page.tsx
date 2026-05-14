@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { buildAlternates } from '@/lib/alternates'
+import AuthorByline from '@/components/AuthorByline'
 
 export const metadata: Metadata = {
   title: 'Turks and Caicos Honeymoon Cost: 2026 Real Numbers ($8k–$70k+)',
@@ -313,11 +314,11 @@ export default function TurksAndCaicosHoneymoonCostPage() {
     description:
       'How much a Turks and Caicos honeymoon really costs in 2026 — four budget tiers, line-by-line breakdown, four real 7-night sample budgets, hidden costs (12% GHST), and 8 ways to spend less.',
     image: 'https://myhoneymoonhotel.com/images/hotels/amanyara-turks-caicos/hero.webp',
-    author: { '@type': 'Organization', name: 'MyHoneymoonHotel', url: 'https://myhoneymoonhotel.com' },
+    author: { '@type': 'Person', name: 'Jean-Baptiste Manson', url: 'https://myhoneymoonhotel.com/about' },
     publisher: {
       '@type': 'Organization',
-      name: 'MyHoneymoonHotel',
-      logo: { '@type': 'ImageObject', url: 'https://myhoneymoonhotel.com/logo.png' },
+      name: 'My Honeymoon Hotel',
+      logo: { '@type': 'ImageObject', url: 'https://myhoneymoonhotel.com/icon.png' },
     },
     datePublished: '2026-02-10',
     dateModified: '2026-05-11',
@@ -386,6 +387,10 @@ export default function TurksAndCaicosHoneymoonCostPage() {
         <span className="mx-2">/</span>
         <span className="text-zinc-900">Turks and Caicos Honeymoon Cost</span>
       </nav>
+
+      <div className="max-w-4xl mx-auto px-6">
+        <AuthorByline />
+      </div>
 
       {/* INTRO + TL;DR */}
       <section className="max-w-3xl mx-auto px-6 py-14 prose prose-zinc">

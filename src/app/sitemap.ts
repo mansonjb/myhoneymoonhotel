@@ -1,6 +1,7 @@
 import { MetadataRoute } from 'next'
 import { getAllHotels, getAllDestinations, getAllExperienceTypes } from '@/lib/hotels'
 import { getAllComparisonSlugs } from '../../data/comparisons'
+import { getAllHotelComparisonSlugs } from '../../data/hotel-comparisons'
 
 const SITE_URL = 'https://myhoneymoonhotel.com'
 
@@ -38,6 +39,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const destinations = getAllDestinations()
   const experiences = getAllExperienceTypes()
   const comparisons = getAllComparisonSlugs()
+  const hotelComparisons = getAllHotelComparisonSlugs()
 
   const staticPaths: PathEntry[] = [
     { path: '/', lastModified: new Date(), changeFrequency: 'daily', priority: 1 },
@@ -83,6 +85,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: 'monthly',
     priority: 0.85,
   }))
+  const hotelCmpPaths: PathEntry[] = hotelComparisons.map(slug => ({
+    path: `/compare/hotels/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly',
+    priority: 0.7,
+  }))
 
-  return [...staticPaths, ...cmpPaths, ...destPaths, ...expPaths, ...hotelPaths].map(entry)
+  return [...staticPaths, ...cmpPaths, ...hotelCmpPaths, ...destPaths, ...expPaths, ...hotelPaths].map(entry)
 }

@@ -80,9 +80,14 @@ export async function renderComparisonPage(slug: string, locale: Locale) {
               '@type': 'Article',
               headline: `${cmp.a.label} vs ${cmp.b.label} — Honeymoon Comparison`,
               description: cmp.metaDescription,
-              author: { '@type': 'Organization', name: 'My Honeymoon Hotel' },
-              publisher: { '@type': 'Organization', name: 'My Honeymoon Hotel', url: SITE_URL },
+              author: { '@type': 'Person', name: 'Jean-Baptiste Manson', url: `${SITE_URL}/about` },
+              publisher: {
+                '@type': 'Organization',
+                name: 'My Honeymoon Hotel',
+                logo: { '@type': 'ImageObject', url: `${SITE_URL}/icon.png` },
+              },
               datePublished: '2026-04-23',
+              dateModified: new Date().toISOString().slice(0, 10),
             },
             {
               '@context': 'https://schema.org',
