@@ -108,6 +108,7 @@ localFood: 'Turkish food is one of the world\'s great cuisines and varies dramat
 currency: 'Turkish Lira (TRY) — USD/EUR widely accepted in tourism',
 language: 'Turkish — English widely spoken in resorts',
 timezone: 'TRT (UTC+3, no DST)',
+  seo: { title: "Turkey Honeymoon: 6 Cappadocia & Coast Hotels 2026", description: "6 Cappadocia caves and Aegean coast stays ranked. Argos in Cappadocia, Mandarin Oriental Bodrum. From $400/night." },
 }
 
 export default meta

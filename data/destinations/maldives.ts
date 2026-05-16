@@ -79,6 +79,7 @@ localFood: 'Maldivian cuisine: mas huni (tuna and coconut breakfast), garudhiya 
 currency: 'Maldivian Rufiyaa (MVR) — but USD is accepted everywhere at resorts.',
 language: 'Dhivehi and English. English is spoken fluently at all resort level.',
 timezone: 'GMT+5 (Maldives Time)',
+  seo: { title: "Maldives Honeymoon: 31 Overwater Resorts Scored 2026", description: "31 honeymoon resorts scored 50-100. From $500-$5,500/night. Real verdicts, best villa picks, 7-night itineraries. Nov-Apr flagged season." },
 }
 
 export default meta

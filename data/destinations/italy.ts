@@ -77,6 +77,7 @@ localFood: 'Italian food is regional, not national. Amalfi: spaghetti alle vongo
 currency: 'Euro (€) — €1 ≈ $1.10',
 language: 'Italian (English widely spoken in tourism)',
 timezone: 'CET (UTC+1) / CEST (UTC+2)',
+  seo: { title: "Italy Honeymoon: 8 Heritage Hotels & Villas Scored", description: "8 Rome, Venice, Florence and countryside hideouts ranked. Aman, Belmond, Six Senses. From $700/night. Apr-Oct verdicts." },
 }
 
 export default meta

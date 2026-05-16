@@ -77,6 +77,7 @@ localFood: 'Nasi goreng (fried rice — Bali\'s national breakfast), babi guling
 currency: 'Indonesian Rupiah (IDR). USD accepted at resorts. Bring crisp, new USD bills — damaged notes are sometimes refused.',
 language: 'Balinese and Indonesian (Bahasa Indonesia). English widely spoken in tourist areas.',
 timezone: 'GMT+8 (Central Indonesia Time)',
+  seo: { title: "Bali Honeymoon: 26 Jungle & Beach Villas Scored 2026", description: "26 Ubud, Seminyak, Uluwatu villas ranked. Bulgari, Capella, Four Seasons Sayan. From $300/night. May-Sep dry season." },
 }
 
 export default meta

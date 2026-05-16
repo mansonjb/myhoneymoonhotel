@@ -109,6 +109,7 @@ localFood: 'Lake Como cuisine: missoltini (sun-dried agone fish, rare), risotto 
 currency: 'Euro (EUR). Cards accepted everywhere; cash useful for small village purchases and ferry tickets.',
 language: 'Italian. English is widely spoken at all luxury hotels and tourist-facing restaurants. Some basic Italian phrases delight locals.',
 timezone: 'UTC+1 (UTC+2 in summer with daylight saving)',
+  seo: { title: "Lake Como Honeymoon: 8 Grand Lakeside Villas 2026", description: "8 Bellagio, Cernobbio, Tremezzo villas ranked. Villa dEste, Grand Tremezzo, Passalacqua. From $1,000/night. May-Sep." },
 }
 
 export default meta

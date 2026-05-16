@@ -18,51 +18,230 @@
     "Não está confortável com segurança visível em fronteiras e aeroportos"
   ],
   "experiences": [
-    { "icon": "🌅", "title": "Petra ao amanhecer", "description": "Entre no Siq de 1,2 km às 6h, antes dos ônibus. O instante em que as colunas vermelho-rosadas do Tesouro se revelam ao fim do desfiladeiro — sozinho, em silêncio — é o maior momento de viagem do Oriente Médio.", "cost": "Ingresso de Petra ~$95/casal (coberto pelo Jordan Pass)", "tip": "Hospede-se no Mövenpick Petra ou Petra Marriott para estar no portão na abertura. Suba ao Mosteiro (Ad Deir) no meio da manhã para a segunda melhor vista." },
-    { "icon": "🏜️", "title": "Tenda-bolha sob estrelas em Wadi Rum", "description": "Lawrence da Arábia dormiu sob estes céus. Você dormirá sob domo transparente com cama king voltada para a Via Láctea. As bolhas marcianas do Sun City Camp são a referência; jantar beduíno privativo e 4x4 silencioso ao amanhecer fecham.", "cost": "Tenda-bolha $400-1.200/noite, pensão completa", "tip": "Reserve a \"Mars Luxury Tent\" ou \"Deluxe Martian Bubble\" — as básicas ficam de frente para vizinhos e perdem privacidade. Peça o balão ao amanhecer." },
-    { "icon": "🧂", "title": "Flutuar e ritual de lama no Mar Morto", "description": "O ponto mais baixo da Terra (-430 m) e o mais salgado. Não dá para afundar. Boie com um livro, passe lama do Mar Morto na borda, e o spa Kempinski Ishtar oferece ritual de casal de 90 min terminando em flutuação privativa em sal na hora dourada.", "cost": "Acesso de dia $50-100; ritual de casal Ishtar Spa $280-420", "tip": "Não se barbeie no dia anterior. Evite água nos olhos. Duas horas na água bastam — o sal desidrata agressivamente." },
-    { "icon": "🤿", "title": "Snorkel ou mergulho nos recifes de Aqaba", "description": "A geografia estreita do Golfo de Aqaba concentra coral — diferente de Sharm do outro lado, os recifes aqui são vazios e começam a 10 m da costa. \"Japanese Garden\" e o naufrágio Cedar Pride são os mergulhos assinatura; o house reef do Hyatt Regency Ayla é excelente para snorkel de lua de mel.", "cost": "Snorkel no house reef grátis para hóspedes; mergulho duplo $90/pessoa", "tip": "Reserve o mergulho do pôr do sol — visibilidade igual, sem barcos turísticos, e a luz do crepúsculo na costa saudita é irreal." },
-    { "icon": "🍷", "title": "Pôr do sol em rooftop de Amã", "description": "A capital jordaniana é uma capital gastronômica em formação. O Globe Sky Lounge no 32º do Amman Rotana ou o bar do St. Regis entregam vistas amplas do pôr do sol sobre as sete colinas; siga com jantar no Sufra (tradicional) ou Fakhreldin (elegância clássica).", "cost": "Coquetéis $15-25; jantar $80-150 para dois", "tip": "Táxi para tudo — as colinas de Amã são brutais a pé. Peça o cardápio de mezze em vez de pratos principais; o ponto é compartilhar." }
+    {
+      "icon": "🌅",
+      "title": "Petra ao amanhecer",
+      "description": "Entre no Siq de 1,2 km às 6h, antes dos ônibus. O instante em que as colunas vermelho-rosadas do Tesouro se revelam ao fim do desfiladeiro — sozinho, em silêncio — é o maior momento de viagem do Oriente Médio.",
+      "cost": "Ingresso de Petra ~$95/casal (coberto pelo Jordan Pass)",
+      "tip": "Hospede-se no Mövenpick Petra ou Petra Marriott para estar no portão na abertura. Suba ao Mosteiro (Ad Deir) no meio da manhã para a segunda melhor vista."
+    },
+    {
+      "icon": "🏜️",
+      "title": "Tenda-bolha sob estrelas em Wadi Rum",
+      "description": "Lawrence da Arábia dormiu sob estes céus. Você dormirá sob domo transparente com cama king voltada para a Via Láctea. As bolhas marcianas do Sun City Camp são a referência; jantar beduíno privativo e 4x4 silencioso ao amanhecer fecham.",
+      "cost": "Tenda-bolha $400-1.200/noite, pensão completa",
+      "tip": "Reserve a \"Mars Luxury Tent\" ou \"Deluxe Martian Bubble\" — as básicas ficam de frente para vizinhos e perdem privacidade. Peça o balão ao amanhecer."
+    },
+    {
+      "icon": "🧂",
+      "title": "Flutuar e ritual de lama no Mar Morto",
+      "description": "O ponto mais baixo da Terra (-430 m) e o mais salgado. Não dá para afundar. Boie com um livro, passe lama do Mar Morto na borda, e o spa Kempinski Ishtar oferece ritual de casal de 90 min terminando em flutuação privativa em sal na hora dourada.",
+      "cost": "Acesso de dia $50-100; ritual de casal Ishtar Spa $280-420",
+      "tip": "Não se barbeie no dia anterior. Evite água nos olhos. Duas horas na água bastam — o sal desidrata agressivamente."
+    },
+    {
+      "icon": "🤿",
+      "title": "Snorkel ou mergulho nos recifes de Aqaba",
+      "description": "A geografia estreita do Golfo de Aqaba concentra coral — diferente de Sharm do outro lado, os recifes aqui são vazios e começam a 10 m da costa. \"Japanese Garden\" e o naufrágio Cedar Pride são os mergulhos assinatura; o house reef do Hyatt Regency Ayla é excelente para snorkel de lua de mel.",
+      "cost": "Snorkel no house reef grátis para hóspedes; mergulho duplo $90/pessoa",
+      "tip": "Reserve o mergulho do pôr do sol — visibilidade igual, sem barcos turísticos, e a luz do crepúsculo na costa saudita é irreal."
+    },
+    {
+      "icon": "🍷",
+      "title": "Pôr do sol em rooftop de Amã",
+      "description": "A capital jordaniana é uma capital gastronômica em formação. O Globe Sky Lounge no 32º do Amman Rotana ou o bar do St. Regis entregam vistas amplas do pôr do sol sobre as sete colinas; siga com jantar no Sufra (tradicional) ou Fakhreldin (elegância clássica).",
+      "cost": "Coquetéis $15-25; jantar $80-150 para dois",
+      "tip": "Táxi para tudo — as colinas de Amã são brutais a pé. Peça o cardápio de mezze em vez de pratos principais; o ponto é compartilhar."
+    }
   ],
   "months": [
-    { "month": "Jan", "weather": "Fresco 10-15°C, alguma chuva, Petra vazia", "emoji": "🌧", "crowds": "Baixa", "price": "Baixo", "verdict": "Barato e vazio mas frio em Petra ao amanhecer" },
-    { "month": "Feb", "weather": "Fresco 12-17°C, fim das chuvas", "emoji": "🌦", "crowds": "Baixa", "price": "Baixo", "verdict": "Melhor que janeiro mas use camadas" },
-    { "month": "Mar", "weather": "Perfeito 15-22°C, flores de primavera", "emoji": "🌸", "crowds": "Média", "price": "Médio", "verdict": "Um dos dois melhores meses" },
-    { "month": "Apr", "weather": "Ideal 18-25°C, seco, claro", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Pico de Petra — reserve cedo" },
-    { "month": "May", "weather": "Quente 22-30°C", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Último grande mês antes do calor" },
-    { "month": "Jun", "weather": "Quente 28-35°C", "emoji": "🥵", "crowds": "Média", "price": "Médio", "verdict": "Petra fica difícil — saídas cedo essenciais" },
-    { "month": "Jul", "weather": "Muito quente 32-38°C", "emoji": "🥵", "crowds": "Média", "price": "Médio", "verdict": "Só Aqaba; pule o interior" },
-    { "month": "Aug", "weather": "Extremo 35-40°C+", "emoji": "🥵", "crowds": "Média", "price": "Médio", "verdict": "Evite Petra; Mar Morto tolerável" },
-    { "month": "Sep", "weather": "Voltando a 25-30°C", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Começa o segundo melhor mês" },
-    { "month": "Oct", "weather": "Perfeito 20-26°C", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Pico — janela ideal de lua de mel" },
-    { "month": "Nov", "weather": "Ameno 15-22°C", "emoji": "☀️", "crowds": "Média", "price": "Médio", "verdict": "Excelente custo-benefício, ainda quente em Aqaba" },
-    { "month": "Dec", "weather": "Fresco 10-16°C", "emoji": "🌦", "crowds": "Baixa", "price": "Baixo", "verdict": "Natal na Terra Santa — atmosférico mas frio" }
+    {
+      "month": "Jan",
+      "weather": "Fresco 10-15°C, alguma chuva, Petra vazia",
+      "emoji": "🌧",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Barato e vazio mas frio em Petra ao amanhecer"
+    },
+    {
+      "month": "Feb",
+      "weather": "Fresco 12-17°C, fim das chuvas",
+      "emoji": "🌦",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Melhor que janeiro mas use camadas"
+    },
+    {
+      "month": "Mar",
+      "weather": "Perfeito 15-22°C, flores de primavera",
+      "emoji": "🌸",
+      "crowds": "Média",
+      "price": "Médio",
+      "verdict": "Um dos dois melhores meses"
+    },
+    {
+      "month": "Apr",
+      "weather": "Ideal 18-25°C, seco, claro",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Pico de Petra — reserve cedo"
+    },
+    {
+      "month": "May",
+      "weather": "Quente 22-30°C",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Último grande mês antes do calor"
+    },
+    {
+      "month": "Jun",
+      "weather": "Quente 28-35°C",
+      "emoji": "🥵",
+      "crowds": "Média",
+      "price": "Médio",
+      "verdict": "Petra fica difícil — saídas cedo essenciais"
+    },
+    {
+      "month": "Jul",
+      "weather": "Muito quente 32-38°C",
+      "emoji": "🥵",
+      "crowds": "Média",
+      "price": "Médio",
+      "verdict": "Só Aqaba; pule o interior"
+    },
+    {
+      "month": "Aug",
+      "weather": "Extremo 35-40°C+",
+      "emoji": "🥵",
+      "crowds": "Média",
+      "price": "Médio",
+      "verdict": "Evite Petra; Mar Morto tolerável"
+    },
+    {
+      "month": "Sep",
+      "weather": "Voltando a 25-30°C",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Começa o segundo melhor mês"
+    },
+    {
+      "month": "Oct",
+      "weather": "Perfeito 20-26°C",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Pico — janela ideal de lua de mel"
+    },
+    {
+      "month": "Nov",
+      "weather": "Ameno 15-22°C",
+      "emoji": "☀️",
+      "crowds": "Média",
+      "price": "Médio",
+      "verdict": "Excelente custo-benefício, ainda quente em Aqaba"
+    },
+    {
+      "month": "Dec",
+      "weather": "Fresco 10-16°C",
+      "emoji": "🌦",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Natal na Terra Santa — atmosférico mas frio"
+    }
   ],
   "budgetTiers": [
-    { "label": "Confortável", "range": "$250-500/noite", "gets": "5★ sólido em Amã e em Petra; bons resorts no Mar Morto. Detalhes significativos de lua de mel.", "example": "Amman Rotana, Petra Marriott, Mövenpick Petra" },
-    { "label": "Premium", "range": "$500-1.000/noite", "gets": "Hotéis-marco urbanos e o melhor resort do Mar Morto; campos premium em Wadi Rum.", "example": "St. Regis Amman, Kempinski Ishtar, Hyatt Regency Aqaba Ayla" },
-    { "label": "Icônico e tenda-bolha", "range": "$800-2.500/noite", "gets": "Bolha marciana com jantar beduíno privativo, suíte St. Regis com mordomo ou suíte de canyon nas termas de Ma'In.", "example": "Sun City Camp Wadi Rum (Martian Bubble), suíte de canyon Ma'In Hot Springs" }
+    {
+      "label": "Confortável",
+      "range": "$250-500/noite",
+      "gets": "5★ sólido em Amã e em Petra; bons resorts no Mar Morto. Detalhes significativos de lua de mel.",
+      "example": "Amman Rotana, Petra Marriott, Mövenpick Petra"
+    },
+    {
+      "label": "Premium",
+      "range": "$500-1.000/noite",
+      "gets": "Hotéis-marco urbanos e o melhor resort do Mar Morto; campos premium em Wadi Rum.",
+      "example": "St. Regis Amman, Kempinski Ishtar, Hyatt Regency Aqaba Ayla"
+    },
+    {
+      "label": "Icônico e tenda-bolha",
+      "range": "$800-2.500/noite",
+      "gets": "Bolha marciana com jantar beduíno privativo, suíte St. Regis com mordomo ou suíte de canyon nas termas de Ma'In.",
+      "example": "Sun City Camp Wadi Rum (Martian Bubble), suíte de canyon Ma'In Hot Springs"
+    }
   ],
   "areas": [
-    { "name": "Amã", "bestFor": "Chegada, cultura, comida, rooftops", "description": "A capital se ergue sobre sete colinas. Downtown (al-balad) abriga o teatro romano e a Cidadela; Jebel Amman e Abdoun são os bairros residenciais arborizados com os melhores restaurantes e hotéis. 1-2 noites na chegada é perfeito." },
-    { "name": "Mar Morto", "bestFor": "Spa, flutuação, pôr do sol, bem-estar", "description": "45 min de Amã, 430 m abaixo do nível do mar. Uma sequência de resorts (Kempinski Ishtar, Mövenpick, Hilton) divide a margem leste (jordaniana). 2 noites é o ponto doce." },
-    { "name": "Petra / Wadi Musa", "bestFor": "O grande dia de turismo, história", "description": "A cidade nabateia em rocha rosa. A própria Petra leva um dia inteiro mais meio para o Mosteiro. Wadi Musa é a cidade-serviço no portão. Mínimo 2 noites." },
-    { "name": "Wadi Rum", "bestFor": "Romance no deserto, tendas-bolha, aventura 4x4", "description": "Reserva UNESCO de mesas de rocha vermelha e dunas. Acampamentos beduínos vão de tendas rústicas a domos transparentes. 1-2 noites." },
-    { "name": "Aqaba", "bestFor": "Praia, snorkel, relaxamento", "description": "A pequena costa jordaniana no Mar Vermelho. 5★ (Hyatt Regency Ayla, Kempinski Aqaba) oferecem snorkel no house reef e mergulho em recifes. 2-3 noites para descomprimir após a arqueologia." }
+    {
+      "name": "Amã",
+      "bestFor": "Chegada, cultura, comida, rooftops",
+      "description": "A capital se ergue sobre sete colinas. Downtown (al-balad) abriga o teatro romano e a Cidadela; Jebel Amman e Abdoun são os bairros residenciais arborizados com os melhores restaurantes e hotéis. 1-2 noites na chegada é perfeito."
+    },
+    {
+      "name": "Mar Morto",
+      "bestFor": "Spa, flutuação, pôr do sol, bem-estar",
+      "description": "45 min de Amã, 430 m abaixo do nível do mar. Uma sequência de resorts (Kempinski Ishtar, Mövenpick, Hilton) divide a margem leste (jordaniana). 2 noites é o ponto doce."
+    },
+    {
+      "name": "Petra / Wadi Musa",
+      "bestFor": "O grande dia de turismo, história",
+      "description": "A cidade nabateia em rocha rosa. A própria Petra leva um dia inteiro mais meio para o Mosteiro. Wadi Musa é a cidade-serviço no portão. Mínimo 2 noites."
+    },
+    {
+      "name": "Wadi Rum",
+      "bestFor": "Romance no deserto, tendas-bolha, aventura 4x4",
+      "description": "Reserva UNESCO de mesas de rocha vermelha e dunas. Acampamentos beduínos vão de tendas rústicas a domos transparentes. 1-2 noites."
+    },
+    {
+      "name": "Aqaba",
+      "bestFor": "Praia, snorkel, relaxamento",
+      "description": "A pequena costa jordaniana no Mar Vermelho. 5★ (Hyatt Regency Ayla, Kempinski Aqaba) oferecem snorkel no house reef e mergulho em recifes. 2-3 noites para descomprimir após a arqueologia."
+    }
   ],
   "expertTips": [
-    { "tip": "Compre o Jordan Pass antes de embarcar", "detail": "O Jordan Pass agrupa o visto ($56), Petra (1/2/3 dias), Jerash, entrada em Wadi Rum e 40 outros sítios. A partir de ~$100, economiza dinheiro real. Imprima — nem todo portão lê celular bem." },
-    { "tip": "Reserve Petra by Night em segunda, quarta ou quinta", "detail": "O Siq é iluminado por 1.500 velas e um beduíno toca flauta no Tesouro. Turístico mas genuinamente romântico. Pule sexta (só locais) e fins de semana (muito cheio). Ingressos $22/pessoa." },
-    { "tip": "Dirija você mesmo entre destinos", "detail": "A Jordânia é compacta (Amã → Petra é 3h; Petra → Wadi Rum 1h45). Estradas excelentes. Alugue no aeroporto Queen Alia. Permissão internacional aceita. Combustível $1,30/litro — mais barato que Europa." },
-    { "tip": "Peça suíte com vista do Mar Morto e varanda de pôr do sol", "detail": "Pôr do sol no Mar Morto — montanhas da Cisjordânia em silhueta atrás dos salares — é uma paleta que você fotografa para sempre. Suítes ao sul do Kempinski Ishtar ou Ma'In pegam o melhor ângulo." },
-    { "tip": "Gorjete em dinheiro local, generosamente", "detail": "Dinares (JOD) é a única moeda aceita para gorjeta. 3-5 JOD para staff de acampamento, 5-10 JOD para o motorista beduíno em Wadi Rum, 15-20 JOD por casal para guias multi-day. Caixas no aeroporto Queen Alia são confiáveis." }
+    {
+      "tip": "Compre o Jordan Pass antes de embarcar",
+      "detail": "O Jordan Pass agrupa o visto ($56), Petra (1/2/3 dias), Jerash, entrada em Wadi Rum e 40 outros sítios. A partir de ~$100, economiza dinheiro real. Imprima — nem todo portão lê celular bem."
+    },
+    {
+      "tip": "Reserve Petra by Night em segunda, quarta ou quinta",
+      "detail": "O Siq é iluminado por 1.500 velas e um beduíno toca flauta no Tesouro. Turístico mas genuinamente romântico. Pule sexta (só locais) e fins de semana (muito cheio). Ingressos $22/pessoa."
+    },
+    {
+      "tip": "Dirija você mesmo entre destinos",
+      "detail": "A Jordânia é compacta (Amã → Petra é 3h; Petra → Wadi Rum 1h45). Estradas excelentes. Alugue no aeroporto Queen Alia. Permissão internacional aceita. Combustível $1,30/litro — mais barato que Europa."
+    },
+    {
+      "tip": "Peça suíte com vista do Mar Morto e varanda de pôr do sol",
+      "detail": "Pôr do sol no Mar Morto — montanhas da Cisjordânia em silhueta atrás dos salares — é uma paleta que você fotografa para sempre. Suítes ao sul do Kempinski Ishtar ou Ma'In pegam o melhor ângulo."
+    },
+    {
+      "tip": "Gorjete em dinheiro local, generosamente",
+      "detail": "Dinares (JOD) é a única moeda aceita para gorjeta. 3-5 JOD para staff de acampamento, 5-10 JOD para o motorista beduíno em Wadi Rum, 15-20 JOD por casal para guias multi-day. Caixas no aeroporto Queen Alia são confiáveis."
+    }
   ],
   "packing": [
-    { "item": "Sapato fechado e resistente para trilha", "why": "Petra são 8-12 km de degraus de pedra, areia e cascalho solto. A subida ao Mosteiro tem 900 degraus. Sandálias e tênis comuns são insuficientes." },
-    { "item": "Camadas modestas (ombros + joelhos)", "why": "Jordânia é majoritariamente muçulmana; vestir respeitoso fora dos resorts é esperado. Camisa leve de manga longa e lenço/pashmina cobrem qualquer situação, de mesquitas ao sol de Petra." },
-    { "item": "Sunga de secagem rápida", "why": "A flutuação no Mar Morto destrói roupa de banho normal — o sal é impiedoso. Leve algo que esteja disposto a aposentar." },
-    { "item": "Fleece e gorro quentes", "why": "Noites no deserto em Wadi Rum caem para 5-10°C mesmo na primavera/outono. Petra ao amanhecer em março é fria. Camadas são essenciais." },
-    { "item": "Protetor solar reef-safe e pós-sol", "why": "Petra não tem sombra; Wadi Rum tem menos. FPS 50+ obrigatório. Pós-sol com aloe salva o fim do dia." }
+    {
+      "item": "Sapato fechado e resistente para trilha",
+      "why": "Petra são 8-12 km de degraus de pedra, areia e cascalho solto. A subida ao Mosteiro tem 900 degraus. Sandálias e tênis comuns são insuficientes."
+    },
+    {
+      "item": "Camadas modestas (ombros + joelhos)",
+      "why": "Jordânia é majoritariamente muçulmana; vestir respeitoso fora dos resorts é esperado. Camisa leve de manga longa e lenço/pashmina cobrem qualquer situação, de mesquitas ao sol de Petra."
+    },
+    {
+      "item": "Sunga de secagem rápida",
+      "why": "A flutuação no Mar Morto destrói roupa de banho normal — o sal é impiedoso. Leve algo que esteja disposto a aposentar."
+    },
+    {
+      "item": "Fleece e gorro quentes",
+      "why": "Noites no deserto em Wadi Rum caem para 5-10°C mesmo na primavera/outono. Petra ao amanhecer em março é fria. Camadas são essenciais."
+    },
+    {
+      "item": "Protetor solar reef-safe e pós-sol",
+      "why": "Petra não tem sombra; Wadi Rum tem menos. FPS 50+ obrigatório. Pós-sol com aloe salva o fim do dia."
+    }
   ],
   "guide": {
     "getting": "Voe para Amã Queen Alia Internacional (AMM) pela Royal Jordanian (direto 5h Londres, 11h NYC), British Airways, Lufthansa, Emirates (via Dubai), Turkish Airlines (via Istambul). Aqaba (AQJ) é servida por easyJet, Ryanair e Royal Jordanian de hubs europeus — bom truque se começar pela praia. Por terra, de Israel pelas fronteiras Sheikh Hussein (norte) ou Aqaba (sul) — visto na chegada com Jordan Pass.",
@@ -72,5 +251,9 @@
   "localFood": "Mansaf (cordeiro com jameed — molho de iogurte fermentado — sobre arroz, prato nacional, comido com a mão direita); mezze (homus, mutabal, tabule, quibe, sambousek); zarb (cordeiro beduíno em forno subterrâneo em Wadi Rum); knafeh (massa fyllo desfiada e queijo em calda de rosa, estilo Nablus é o santo graal); makloubeh (arroz \"de cabeça para baixo\"); shawarma e falafel em hole-in-the-walls do downtown de Amã; tâmaras curadas em sal do Mar Morto no Sufra; café árabe (qahwa) com cardamomo e chá de menta para fechar. Vinho jordaniano (Jordan River dos vinhedos do Monte Nebo) é uma agradável surpresa.",
   "currency": "Dinar jordaniano (JOD) — atrelado a 1 JOD ≈ $1,41. Cartões amplamente aceitos; tenha 50-100 JOD em espécie para gorjetas e táxis rurais.",
   "language": "Árabe é oficial; inglês é amplamente falado em hotéis, restaurantes e sítios turísticos. Placas são bilíngues.",
-  "timezone": "UTC+3 (sem horário de verão desde 2022)"
+  "timezone": "UTC+3 (sem horário de verão desde 2022)",
+  "seo": {
+    "title": "Lua de Mel na Jordânia: 8 Hotéis Deserto e Petra 2026",
+    "description": "8 acampamentos-bolha em Wadi Rum, Petra e Mar Morto pontuados. De $200/noite. Mar-mai e set-nov."
+  }
 }

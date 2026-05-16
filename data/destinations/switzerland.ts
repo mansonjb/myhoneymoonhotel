@@ -106,6 +106,7 @@ localFood: 'Fondue Moitié-Moitié (Gruyère + Vacherin Fribourgeois, served at 
 currency: 'Swiss Franc (CHF) — Switzerland is outside the Eurozone. Euros are accepted in tourist areas at poor rates.',
 language: 'German (66%), French (23%), Italian (8%), Romansh (0.5%). English is universal in tourist areas.',
 timezone: 'UTC+1 (Central European Time) / UTC+2 (CEST, summer)',
+  seo: { title: "Switzerland Honeymoon: 9 Alpine Grand Hotels 2026", description: "9 St Moritz, Zermatt, Lausanne stays scored. Badrutts, Mont Cervin, Beau-Rivage. From $500/night. Dec-Mar ski, Jun-Sep hike." },
 }
 
 export default meta

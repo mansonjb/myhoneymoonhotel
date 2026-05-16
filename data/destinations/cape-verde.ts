@@ -66,6 +66,7 @@ localFood: 'Cachupa is the national dish — a slow-cooked stew of corn, beans, 
 currency: 'Cape Verdean Escudo (CVE) — €1 ≈ 110 CVE (pegged)',
 language: 'Portuguese / Cape Verdean Creole',
 timezone: 'CVT (UTC-1)',
+  seo: { title: "Cape Verde Honeymoon: 9 Atlantic Island Resorts 2026", description: "9 Sal, Boa Vista, Santiago resorts scored. Hilton, Melia Llana, Robinson Cabo Verde. From $200/night. Nov-Jun." },
 }
 
 export default meta

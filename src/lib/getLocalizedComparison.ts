@@ -9,6 +9,7 @@ const I18N_DIR = path.join(process.cwd(), 'data', 'i18n')
 interface OverlayComparison {
   tagline?: string
   metaDescription?: string
+  seo?: { title?: string; description?: string }
   verdict?: string
   tldr?: Partial<Comparison['tldr']>
   criteria?: Array<Partial<Pick<ComparisonCriterion, 'label' | 'aDetail' | 'bDetail'>>>
@@ -45,6 +46,9 @@ function mergeComparison(base: Comparison, o: OverlayComparison): Comparison {
     b: { ...base.b, label: o.b?.label ?? base.b.label },
     tagline: o.tagline ?? base.tagline,
     metaDescription: o.metaDescription ?? base.metaDescription,
+    seo: o.seo
+      ? { title: o.seo.title ?? base.seo?.title, description: o.seo.description ?? base.seo?.description }
+      : base.seo,
     verdict: o.verdict ?? base.verdict,
     tldr: { ...base.tldr, ...(o.tldr ?? {}) },
     criteria: o.criteria

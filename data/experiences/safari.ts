@@ -2,6 +2,10 @@ import type { ExperienceMeta } from '@/types/experience'
 
 const meta: ExperienceMeta = {
   label: 'Safari Honeymoons',
+  seo: {
+    title: 'Safari Honeymoon Camps: 49 Big-Five Lodges Scored 2026',
+    description: 'Safari honeymoon lodges in Kenya, Tanzania, Botswana and 7 more — 49 Big-Five camps scored on game density, romance, and private guides. From $400 a night.',
+  },
   tagline: 'The most unforgettable shared experience in travel',
   hero: '/images/hotels/singita-grumeti-tanzania/hero.webp',
   intro: 'A safari honeymoon occupies a category of its own. No other honeymoon type creates the same depth of shared experience — watching lions hunt at dawn, the Great Migration crossing the Mara River, the Milky Way over the Serengeti unobstructed by light pollution, the silence of the bush at 11pm. Paired with the extraordinary luxury of top African lodges, the safari honeymoon consistently ranks as the most memorable travel experience couples have ever had.',

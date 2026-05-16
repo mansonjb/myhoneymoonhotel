@@ -151,6 +151,7 @@ localFood: 'Zanzibar pizza (stuffed flatbread with egg, meat, and cheese from Fo
 currency: 'Tanzanian Shilling (TZS) — hotels quote USD',
 language: 'Swahili and English',
 timezone: 'UTC+3',
+  seo: { title: "Zanzibar Honeymoon: 8 Spice-Island Beach Resorts 2026", description: "8 east-coast and Stone Town resorts scored. &Beyond Mnemba, Zuri, Park Hyatt. From $400/night. Jun-Oct best." },
 }
 
 export default meta

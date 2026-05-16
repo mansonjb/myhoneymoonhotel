@@ -147,6 +147,7 @@ localFood: 'Kinilaw (Filipino ceviche with fresh tuna in vinegar and calamansi �
 currency: 'Philippine Peso (PHP) — resorts and tours typically quote USD',
 language: 'Filipino and English — English is an official language, universally spoken',
 timezone: 'UTC+8 (Philippine Standard Time)',
+  seo: { title: "Philippines Honeymoon: 8 Private Beach Resorts 2026", description: "8 Palawan, Cebu, Boracay resorts scored. Amanpulo, El Nido, Shangri-La Boracay. From $500/night. Dec-May dry season." },
 }
 
 export default meta

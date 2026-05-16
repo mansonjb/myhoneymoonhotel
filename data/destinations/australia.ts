@@ -110,6 +110,7 @@ localFood: 'Modern Australian: native ingredients (kangaroo, crocodile, finger l
 currency: 'Australian Dollar (AUD). Cards accepted everywhere; cashless tipping at restaurants is not customary (10% appreciated for excellent service in fine dining).',
 language: 'English. Distinctive Australian vocabulary (brekkie = breakfast, arvo = afternoon, servo = service station). Aboriginal languages still spoken in some communities; learn "Hello" in Pitjantjatjara at Uluru as a gesture.',
 timezone: 'UTC+8 (Perth) to UTC+10 (Sydney) — three time zones across the country, plus daylight saving in some states',
+  seo: { title: "Australia Honeymoon: 10 Reef & Outback Lodges Scored", description: "10 Great Barrier Reef, Tasmania, Uluru stays ranked. Lizard Island, Saffire, Longitude 131. From $700/night." },
 }
 
 export default meta

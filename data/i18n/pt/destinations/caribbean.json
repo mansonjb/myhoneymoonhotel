@@ -18,52 +18,234 @@
     "Imersão cultural importa mais do que praia e rum"
   ],
   "experiences": [
-    { "icon": "🛥️", "title": "Charter de iate na BVI, 5 noites", "description": "Catamarã com tripulação saindo de Tortola passando pelos Baths, Jost Van Dyke, Anegada — o padrão-ouro.", "cost": "$8.000-18.000 pelo barco (acomoda 2 com tripulação)", "tip": "Reserve um charter com chef incluído; Horizon e Dream Yacht são confiáveis" },
-    { "icon": "🏝️", "title": "Circuito das praias de Anguilla", "description": "Passe um dia dirigindo pelas 33 praias — Shoal Bay East, Meads Bay (Blanchards), Little Bay.", "cost": "$80 carro alugado + $200 almoço para dois", "tip": "Alugue na Bryan's — eles entregam no hotel" },
-    { "icon": "🌋", "title": "Trilha do Boiling Lake, Dominica", "description": "Trekking guiado de 8 horas até o segundo maior lago em ebulição do mundo — a aventura mais séria do Caribe.", "cost": "$120 por pessoa com guia", "tip": "Hospede-se no Secret Bay ou Coulibri Ridge antes e depois" },
-    { "icon": "🥃", "title": "Destilaria Mount Gay, Barbados", "description": "A destilaria de rum mais antiga do mundo (1703); as degustações Cockspur e do master blender são infinitamente melhores que o tour básico.", "cost": "$120 por pessoa pela degustação premium", "tip": "Combine com almoço no The Cliff ou Champers" },
-    { "icon": "🐋", "title": "Mergulho com cachalotes, Dominica", "description": "Único lugar do planeta onde o encontro na água com cachalotes residentes é permitido — novembro a março é o auge.", "cost": "$300-400 por pessoa, dia inteiro de barco", "tip": "Reserve com a Dive Dominica; leve câmera subaquática, sem flash" }
+    {
+      "icon": "🛥️",
+      "title": "Charter de iate na BVI, 5 noites",
+      "description": "Catamarã com tripulação saindo de Tortola passando pelos Baths, Jost Van Dyke, Anegada — o padrão-ouro.",
+      "cost": "$8.000-18.000 pelo barco (acomoda 2 com tripulação)",
+      "tip": "Reserve um charter com chef incluído; Horizon e Dream Yacht são confiáveis"
+    },
+    {
+      "icon": "🏝️",
+      "title": "Circuito das praias de Anguilla",
+      "description": "Passe um dia dirigindo pelas 33 praias — Shoal Bay East, Meads Bay (Blanchards), Little Bay.",
+      "cost": "$80 carro alugado + $200 almoço para dois",
+      "tip": "Alugue na Bryan's — eles entregam no hotel"
+    },
+    {
+      "icon": "🌋",
+      "title": "Trilha do Boiling Lake, Dominica",
+      "description": "Trekking guiado de 8 horas até o segundo maior lago em ebulição do mundo — a aventura mais séria do Caribe.",
+      "cost": "$120 por pessoa com guia",
+      "tip": "Hospede-se no Secret Bay ou Coulibri Ridge antes e depois"
+    },
+    {
+      "icon": "🥃",
+      "title": "Destilaria Mount Gay, Barbados",
+      "description": "A destilaria de rum mais antiga do mundo (1703); as degustações Cockspur e do master blender são infinitamente melhores que o tour básico.",
+      "cost": "$120 por pessoa pela degustação premium",
+      "tip": "Combine com almoço no The Cliff ou Champers"
+    },
+    {
+      "icon": "🐋",
+      "title": "Mergulho com cachalotes, Dominica",
+      "description": "Único lugar do planeta onde o encontro na água com cachalotes residentes é permitido — novembro a março é o auge.",
+      "cost": "$300-400 por pessoa, dia inteiro de barco",
+      "tip": "Reserve com a Dive Dominica; leve câmera subaquática, sem flash"
+    }
   ],
   "months": [
-    { "month": "Jan", "weather": "26°C, seco, ventoso", "emoji": "☀️", "crowds": "Muito alta", "price": "Máximo", "verdict": "Clima de cartão-postal, preços de cartão-postal" },
-    { "month": "Feb", "weather": "26°C, seco", "emoji": "☀️", "crowds": "Máxima (Dia dos Namorados)", "price": "Máximo+", "verdict": "Reserve com 1 ano ou pule" },
-    { "month": "Mar", "weather": "27°C, seco", "emoji": "☀️", "crowds": "Alta (spring break)", "price": "Máximo", "verdict": "Evite as duas primeiras semanas se odeia multidão" },
-    { "month": "Apr", "weather": "28°C, seco", "emoji": "☀️", "crowds": "Média após Páscoa", "price": "Alto", "verdict": "Ponto doce — clima firma, multidões diminuem" },
-    { "month": "May", "weather": "28°C, chuvas pontuais", "emoji": "🌤️", "crowds": "Baixa", "price": "Médio", "verdict": "Melhor custo-benefício do ano" },
-    { "month": "Jun", "weather": "29°C, úmido", "emoji": "🌤️", "crowds": "Baixa", "price": "Baixo", "verdict": "Começa a temporada de furacões — risco pequeno" },
-    { "month": "Jul", "weather": "29°C, úmido", "emoji": "⛈️", "crowds": "Média", "price": "Baixo-médio", "verdict": "Caribe sul (Aruba, Curaçao) é aposta mais segura" },
-    { "month": "Aug", "weather": "30°C, muito úmido", "emoji": "⛈️", "crowds": "Média", "price": "Baixo", "verdict": "Pico de furacões — faça seguro de viagem" },
-    { "month": "Sep", "weather": "29°C, tempestuoso", "emoji": "⛈️", "crowds": "Mínima", "price": "Mínimo", "verdict": "Estatisticamente o pior mês" },
-    { "month": "Oct", "weather": "29°C, melhorando", "emoji": "🌦️", "crowds": "Baixa", "price": "Baixo", "verdict": "Primeira metade arriscada, segunda metade decente" },
-    { "month": "Nov", "weather": "28°C, secando", "emoji": "🌤️", "crowds": "Baixa subindo", "price": "Médio", "verdict": "Mês joia escondida — reserve depois de 15/11" },
-    { "month": "Dec", "weather": "27°C, seco", "emoji": "☀️", "crowds": "Máxima após dia 20", "price": "Médio → máximo", "verdict": "As duas primeiras semanas são o melhor custo-benefício do ano" }
+    {
+      "month": "Jan",
+      "weather": "26°C, seco, ventoso",
+      "emoji": "☀️",
+      "crowds": "Muito alta",
+      "price": "Máximo",
+      "verdict": "Clima de cartão-postal, preços de cartão-postal"
+    },
+    {
+      "month": "Feb",
+      "weather": "26°C, seco",
+      "emoji": "☀️",
+      "crowds": "Máxima (Dia dos Namorados)",
+      "price": "Máximo+",
+      "verdict": "Reserve com 1 ano ou pule"
+    },
+    {
+      "month": "Mar",
+      "weather": "27°C, seco",
+      "emoji": "☀️",
+      "crowds": "Alta (spring break)",
+      "price": "Máximo",
+      "verdict": "Evite as duas primeiras semanas se odeia multidão"
+    },
+    {
+      "month": "Apr",
+      "weather": "28°C, seco",
+      "emoji": "☀️",
+      "crowds": "Média após Páscoa",
+      "price": "Alto",
+      "verdict": "Ponto doce — clima firma, multidões diminuem"
+    },
+    {
+      "month": "May",
+      "weather": "28°C, chuvas pontuais",
+      "emoji": "🌤️",
+      "crowds": "Baixa",
+      "price": "Médio",
+      "verdict": "Melhor custo-benefício do ano"
+    },
+    {
+      "month": "Jun",
+      "weather": "29°C, úmido",
+      "emoji": "🌤️",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Começa a temporada de furacões — risco pequeno"
+    },
+    {
+      "month": "Jul",
+      "weather": "29°C, úmido",
+      "emoji": "⛈️",
+      "crowds": "Média",
+      "price": "Baixo-médio",
+      "verdict": "Caribe sul (Aruba, Curaçao) é aposta mais segura"
+    },
+    {
+      "month": "Aug",
+      "weather": "30°C, muito úmido",
+      "emoji": "⛈️",
+      "crowds": "Média",
+      "price": "Baixo",
+      "verdict": "Pico de furacões — faça seguro de viagem"
+    },
+    {
+      "month": "Sep",
+      "weather": "29°C, tempestuoso",
+      "emoji": "⛈️",
+      "crowds": "Mínima",
+      "price": "Mínimo",
+      "verdict": "Estatisticamente o pior mês"
+    },
+    {
+      "month": "Oct",
+      "weather": "29°C, melhorando",
+      "emoji": "🌦️",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Primeira metade arriscada, segunda metade decente"
+    },
+    {
+      "month": "Nov",
+      "weather": "28°C, secando",
+      "emoji": "🌤️",
+      "crowds": "Baixa subindo",
+      "price": "Médio",
+      "verdict": "Mês joia escondida — reserve depois de 15/11"
+    },
+    {
+      "month": "Dec",
+      "weather": "27°C, seco",
+      "emoji": "☀️",
+      "crowds": "Máxima após dia 20",
+      "price": "Médio → máximo",
+      "verdict": "As duas primeiras semanas são o melhor custo-benefício do ano"
+    }
   ],
   "budgetTiers": [
-    { "label": "Luxo acessível", "range": "$500-800/noite", "gets": "Boutique 4 estrelas em ilha mais tranquila", "example": "Calabash Granada, suíte vista jardim, $650/noite" },
-    { "label": "Caribe icônico", "range": "$1.200-2.500/noite", "gets": "Os nomes que definiram a região — Cap Juluca, Sandy Lane, Four Seasons Nevis, Secret Bay", "example": "Cap Juluca junior suite pé na areia, $1.800/noite na baixa" },
-    { "label": "Ilha privativa / vila", "range": "$5.000-50.000+/noite", "gets": "Buyout completo da Necker Island, charter de mega-iate na BVI", "example": "Necker Island buyout total, $108.000/noite para até 34 hóspedes" }
+    {
+      "label": "Luxo acessível",
+      "range": "$500-800/noite",
+      "gets": "Boutique 4 estrelas em ilha mais tranquila",
+      "example": "Calabash Granada, suíte vista jardim, $650/noite"
+    },
+    {
+      "label": "Caribe icônico",
+      "range": "$1.200-2.500/noite",
+      "gets": "Os nomes que definiram a região — Cap Juluca, Sandy Lane, Four Seasons Nevis, Secret Bay",
+      "example": "Cap Juluca junior suite pé na areia, $1.800/noite na baixa"
+    },
+    {
+      "label": "Ilha privativa / vila",
+      "range": "$5.000-50.000+/noite",
+      "gets": "Buyout completo da Necker Island, charter de mega-iate na BVI",
+      "example": "Necker Island buyout total, $108.000/noite para até 34 hóspedes"
+    }
   ],
   "areas": [
-    { "name": "Anguilla", "bestFor": "Puristas de luxo silencioso e praia", "description": "Trinta e três praias brancas como farinha, sem arranha-céus, sem porto de cruzeiros. Cap Juluca e Belmond em Maundays Bay." },
-    { "name": "Barbados", "bestFor": "Caribe britânico polido, longa distância fácil", "description": "Direto de Londres (9h). Platinum Coast para Sandy Lane / Coral Reef Club. Rum Mount Gay, Oistins fish fry." },
-    { "name": "Granada", "bestFor": "Luxo com bom custo-benefício na Ilha das Especiarias", "description": "Subestimada, subprecificada. Praia Grand Anse, Calabash Hotel. Ao sul do cinturão de furacões." },
-    { "name": "Ilhas Virgens Britânicas", "bestFor": "Velejadores e luas de mel em charter de iate", "description": "O maior pesqueiro de charter à vela do mundo. Tortola, Virgin Gorda para os Baths, Jost Van Dyke." },
-    { "name": "Dominica e Nevis", "bestFor": "Aventura (Dominica) ou silêncio antigo (Nevis)", "description": "Dominica é vulcânica — Secret Bay e Coulibri Ridge. Nevis tem charme sonolento de plantação no Four Seasons Pinney's Beach." }
+    {
+      "name": "Anguilla",
+      "bestFor": "Puristas de luxo silencioso e praia",
+      "description": "Trinta e três praias brancas como farinha, sem arranha-céus, sem porto de cruzeiros. Cap Juluca e Belmond em Maundays Bay."
+    },
+    {
+      "name": "Barbados",
+      "bestFor": "Caribe britânico polido, longa distância fácil",
+      "description": "Direto de Londres (9h). Platinum Coast para Sandy Lane / Coral Reef Club. Rum Mount Gay, Oistins fish fry."
+    },
+    {
+      "name": "Granada",
+      "bestFor": "Luxo com bom custo-benefício na Ilha das Especiarias",
+      "description": "Subestimada, subprecificada. Praia Grand Anse, Calabash Hotel. Ao sul do cinturão de furacões."
+    },
+    {
+      "name": "Ilhas Virgens Britânicas",
+      "bestFor": "Velejadores e luas de mel em charter de iate",
+      "description": "O maior pesqueiro de charter à vela do mundo. Tortola, Virgin Gorda para os Baths, Jost Van Dyke."
+    },
+    {
+      "name": "Dominica e Nevis",
+      "bestFor": "Aventura (Dominica) ou silêncio antigo (Nevis)",
+      "description": "Dominica é vulcânica — Secret Bay e Coulibri Ridge. Nevis tem charme sonolento de plantação no Four Seasons Pinney's Beach."
+    }
   ],
   "expertTips": [
-    { "tip": "Escolha a ilha pelo perfil de atividade, não pelo Instagram", "detail": "Purista de praia? Anguilla. Velejador? BVI. Aventureiro? Dominica. Foodie? Barbados." },
-    { "tip": "Combine duas ilhas se tiver 7+ noites", "detail": "Anguilla + St Barts (balsa de 25 min), Nevis + St Kitts (balsa de 45 min)." },
-    { "tip": "Seguro de viagem é inegociável de junho a novembro", "detail": "O risco de furacão é pequeno mas real. Apólices cancel-for-any-reason custam 8-12% do valor da viagem." },
-    { "tip": "Voos entre ilhas fazem parte da experiência", "detail": "Tradewind, WinAir e InterCaribbean voam aviões pequenos. Reserve buffers de 3 horas." },
-    { "tip": "Gorjeie em USD na maior parte das ilhas", "detail": "XCD e outras moedas caribenhas são atreladas ao USD; dólares em espécie são universalmente aceitos." }
+    {
+      "tip": "Escolha a ilha pelo perfil de atividade, não pelo Instagram",
+      "detail": "Purista de praia? Anguilla. Velejador? BVI. Aventureiro? Dominica. Foodie? Barbados."
+    },
+    {
+      "tip": "Combine duas ilhas se tiver 7+ noites",
+      "detail": "Anguilla + St Barts (balsa de 25 min), Nevis + St Kitts (balsa de 45 min)."
+    },
+    {
+      "tip": "Seguro de viagem é inegociável de junho a novembro",
+      "detail": "O risco de furacão é pequeno mas real. Apólices cancel-for-any-reason custam 8-12% do valor da viagem."
+    },
+    {
+      "tip": "Voos entre ilhas fazem parte da experiência",
+      "detail": "Tradewind, WinAir e InterCaribbean voam aviões pequenos. Reserve buffers de 3 horas."
+    },
+    {
+      "tip": "Gorjeie em USD na maior parte das ilhas",
+      "detail": "XCD e outras moedas caribenhas são atreladas ao USD; dólares em espécie são universalmente aceitos."
+    }
   ],
   "packing": [
-    { "item": "Protetor solar reef-safe", "why": "Obrigatório nas BVI e cada vez mais em outros lugares" },
-    { "item": "Mínimo de duas peças de banho por pessoa", "why": "A umidade tropical deixa o sungão de ontem ainda molhado" },
-    { "item": "Camisa de linho + bermuda elegante (homens), um vestido bonito (mulheres)", "why": "Sandy Lane, Cap Juluca e Four Seasons aplicam dress code à noite" },
-    { "item": "Câmera subaquática ou GoPro", "why": "Snorkel em recifes, cachalotes (Dominica), encontros com tartarugas" },
-    { "item": "Sapatos resistentes para água", "why": "Ilhas vulcânicas, caminhadas em recifes, plataformas de banho dos iates" },
-    { "item": "Repelente sem DEET (Picaridin)", "why": "Maruins ao entardecer são o verdadeiro flagelo do Caribe" }
+    {
+      "item": "Protetor solar reef-safe",
+      "why": "Obrigatório nas BVI e cada vez mais em outros lugares"
+    },
+    {
+      "item": "Mínimo de duas peças de banho por pessoa",
+      "why": "A umidade tropical deixa o sungão de ontem ainda molhado"
+    },
+    {
+      "item": "Camisa de linho + bermuda elegante (homens), um vestido bonito (mulheres)",
+      "why": "Sandy Lane, Cap Juluca e Four Seasons aplicam dress code à noite"
+    },
+    {
+      "item": "Câmera subaquática ou GoPro",
+      "why": "Snorkel em recifes, cachalotes (Dominica), encontros com tartarugas"
+    },
+    {
+      "item": "Sapatos resistentes para água",
+      "why": "Ilhas vulcânicas, caminhadas em recifes, plataformas de banho dos iates"
+    },
+    {
+      "item": "Repelente sem DEET (Picaridin)",
+      "why": "Maruins ao entardecer são o verdadeiro flagelo do Caribe"
+    }
   ],
   "guide": {
     "getting": "A maioria das cidades da costa leste dos EUA chega a Antigua, Barbados, St Maarten e San Juan em 3-5 horas direto. Companhias entre ilhas (Tradewind, WinAir, InterCaribbean, Cape Air) fazem saltos de 20-45 minutos para ilhas menores.",
@@ -73,5 +255,9 @@
   "localFood": "A comida caribenha varia muito: peixe-voador com cou-cou e macaroni pie em Barbados; lagosta-da-areia grelhada em Smokey's, Anguilla; oil down (prato nacional) com noz-moscada em Granada; callaloo em Dominica. Rum punch em todo lugar — Mount Gay (Barbados), Westerhall (Granada), Pusser's (BVI).",
   "currency": "Varia — XCD/USD/local atrelados",
   "language": "Inglês / Francês / Espanhol / Holandês (varia)",
-  "timezone": "AST/EST (UTC-4 a UTC-5)"
+  "timezone": "AST/EST (UTC-4 a UTC-5)",
+  "seo": {
+    "title": "Lua de Mel no Caribe: 7 Resorts Insulares Top 2026",
+    "description": "7 escolhas de destaque pelo Caribe. Adults-only, all-inclusive e boutique. De $400/noite. Dez-abr."
+  }
 }

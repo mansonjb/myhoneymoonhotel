@@ -18,50 +18,225 @@
     "Está com orçamento apertado — Finlândia entre as mais caras da Europa, sobretudo dez-fev"
   ],
   "experiences": [
-    { "icon": "🌌", "title": "Aurora em iglu de vidro", "description": "Domo transparente aquecido com cama de verdade sob teto de vidro 360°. Luzes apagadas, acomode-se e espere. KP > 3 com céu claro = fitas verdes pelo céu por horas. Iglus premium do Levin Iglut têm sauna privativa; o Kakslauttanen tem o híbrido original cabana de tronco-mais-vidro; o Wilderness Nellim tem Aurora Cabins em palafitas sobre o lago Inari com clarabóias bem acima da cama.", "cost": "Iglu de vidro premium $500-1.500/noite", "tip": "Mínimo 4 noites. Aurora é jogo de probabilidade — uma noite nublada é normal. Baixe o app My Aurora Forecast e acorde às 23h e 2h para checar." },
-    { "icon": "🐺", "title": "Safári de trenó com huskies", "description": "Conduza sua própria parelha de 6-8 huskies por 20-60 km de floresta congelada. Os cães são criados especificamente para isso e adoram correr; o silêncio entre as patas amortecidas pela neve é diferente de qualquer outro som de viagem. A maioria dos lodges oferece meio dia (~3h) ou dia inteiro com almoço de fogueira.", "cost": "Meio dia $250-400/casal; dia inteiro com almoço $500-700/casal", "tip": "Vista todas as camadas que o operador der e adicione sua base de merino. O wind chill em velocidade de trenó é brutal. Gorjeie generosamente o musher — ele cuida desses cães há anos." },
-    { "icon": "🦌", "title": "Visita a fazenda de renas com família sami", "description": "Visita a fazenda tradicional, muitas vezes sami, com curto passeio de trenó de renas pela floresta, café em torno da fogueira em uma kota e histórias sobre tradições sami. O Wilderness Nellim tem a conexão cultural mais forte — Lago Inari está no coração sami.", "cost": "$150-300/casal com trenó e almoço", "tip": "Pergunte sobre as tradições do xamã noaidi e o joik (canto). Compre uma kuksa entalhada (cuia de bétula) direto da família — duram a vida toda." },
-    { "icon": "🔥", "title": "Sauna a fumaça + banho no gelo", "description": "Sauna a fumaça finlandesa tradicional (savusauna) aquece pedras com fogo de lenha por horas, infundindo bétula no ambiente. 80°C dentro, depois corrida até um buraco no lago para mergulho de 30 segundos. Repita 3-4 vezes. A onda de endorfina e o formigamento na pele são diferentes de qualquer spa.", "cost": "Maioria dos lodges de luxo tem sauna a fumaça privativa; rituais $80-200/casal", "tip": "Não fique tempo demais. Três rodadas curtas vencem uma maratona. O banho no gelo parece milagroso na segunda rodada, brutal na quarta." },
-    { "icon": "❄️", "title": "Expedição de snowmobile pelos fells", "description": "Expedição guiada de 50-150 km sobre lagos congelados e fells árticos ondulados, muitas vezes terminando em uma cachoeira congelada ou ponto de aurora. Levi e Saariselkä têm as melhores redes. O Octola Wilderness Lodge faz expedições privativas pelos seus 100 km².", "cost": "$300-600/casal meio dia; $800-1.500 dia inteiro com almoço", "tip": "Conduza o seu (dobro do preço mas vale). Leve óculos — gelo nos cílios é real. O almoço no caminho em uma kota com fogo aberto é a melhor refeição do dia." }
+    {
+      "icon": "🌌",
+      "title": "Aurora em iglu de vidro",
+      "description": "Domo transparente aquecido com cama de verdade sob teto de vidro 360°. Luzes apagadas, acomode-se e espere. KP > 3 com céu claro = fitas verdes pelo céu por horas. Iglus premium do Levin Iglut têm sauna privativa; o Kakslauttanen tem o híbrido original cabana de tronco-mais-vidro; o Wilderness Nellim tem Aurora Cabins em palafitas sobre o lago Inari com clarabóias bem acima da cama.",
+      "cost": "Iglu de vidro premium $500-1.500/noite",
+      "tip": "Mínimo 4 noites. Aurora é jogo de probabilidade — uma noite nublada é normal. Baixe o app My Aurora Forecast e acorde às 23h e 2h para checar."
+    },
+    {
+      "icon": "🐺",
+      "title": "Safári de trenó com huskies",
+      "description": "Conduza sua própria parelha de 6-8 huskies por 20-60 km de floresta congelada. Os cães são criados especificamente para isso e adoram correr; o silêncio entre as patas amortecidas pela neve é diferente de qualquer outro som de viagem. A maioria dos lodges oferece meio dia (~3h) ou dia inteiro com almoço de fogueira.",
+      "cost": "Meio dia $250-400/casal; dia inteiro com almoço $500-700/casal",
+      "tip": "Vista todas as camadas que o operador der e adicione sua base de merino. O wind chill em velocidade de trenó é brutal. Gorjeie generosamente o musher — ele cuida desses cães há anos."
+    },
+    {
+      "icon": "🦌",
+      "title": "Visita a fazenda de renas com família sami",
+      "description": "Visita a fazenda tradicional, muitas vezes sami, com curto passeio de trenó de renas pela floresta, café em torno da fogueira em uma kota e histórias sobre tradições sami. O Wilderness Nellim tem a conexão cultural mais forte — Lago Inari está no coração sami.",
+      "cost": "$150-300/casal com trenó e almoço",
+      "tip": "Pergunte sobre as tradições do xamã noaidi e o joik (canto). Compre uma kuksa entalhada (cuia de bétula) direto da família — duram a vida toda."
+    },
+    {
+      "icon": "🔥",
+      "title": "Sauna a fumaça + banho no gelo",
+      "description": "Sauna a fumaça finlandesa tradicional (savusauna) aquece pedras com fogo de lenha por horas, infundindo bétula no ambiente. 80°C dentro, depois corrida até um buraco no lago para mergulho de 30 segundos. Repita 3-4 vezes. A onda de endorfina e o formigamento na pele são diferentes de qualquer spa.",
+      "cost": "Maioria dos lodges de luxo tem sauna a fumaça privativa; rituais $80-200/casal",
+      "tip": "Não fique tempo demais. Três rodadas curtas vencem uma maratona. O banho no gelo parece milagroso na segunda rodada, brutal na quarta."
+    },
+    {
+      "icon": "❄️",
+      "title": "Expedição de snowmobile pelos fells",
+      "description": "Expedição guiada de 50-150 km sobre lagos congelados e fells árticos ondulados, muitas vezes terminando em uma cachoeira congelada ou ponto de aurora. Levi e Saariselkä têm as melhores redes. O Octola Wilderness Lodge faz expedições privativas pelos seus 100 km².",
+      "cost": "$300-600/casal meio dia; $800-1.500 dia inteiro com almoço",
+      "tip": "Conduza o seu (dobro do preço mas vale). Leve óculos — gelo nos cílios é real. O almoço no caminho em uma kota com fogo aberto é a melhor refeição do dia."
+    }
   ],
   "months": [
-    { "month": "Jan", "weather": "Média -25°C, 4h de luz", "emoji": "❄️", "crowds": "Alta", "price": "Alto", "verdict": "Mais frio mas mais escuro — pico de probabilidade de aurora" },
-    { "month": "Feb", "weather": "Média -20°C, 7h de luz", "emoji": "❄️", "crowds": "Alta", "price": "Alto", "verdict": "Ponto doce — noites longas de aurora + mais sol" },
-    { "month": "Mar", "weather": "-15°C, 11h de luz", "emoji": "❄️", "crowds": "Alta", "price": "Alto", "verdict": "Melhor mês — céu claro, sol quente, neve profunda" },
-    { "month": "Apr", "weather": "-5°C a 5°C, derretendo", "emoji": "🌦", "crowds": "Baixa", "price": "Médio", "verdict": "Baixa estranha — fim da aurora, neve derretendo" },
-    { "month": "May", "weather": "5-15°C, neve foi", "emoji": "🌸", "crowds": "Baixa", "price": "Baixo", "verdict": "Mosquitos chegando; lodges muitas vezes fechados para reformas" },
-    { "month": "Jun", "weather": "12-20°C, sol da meia-noite", "emoji": "☀️", "crowds": "Média", "price": "Médio", "verdict": "Verão de sol da meia-noite começa — viagem totalmente diferente" },
-    { "month": "Jul", "weather": "14-22°C, pico do verão", "emoji": "☀️", "crowds": "Alta", "price": "Médio", "verdict": "Dias longos, trilha, caiaque, com muitos mosquitos" },
-    { "month": "Aug", "weather": "10-18°C", "emoji": "☀️", "crowds": "Média", "price": "Médio", "verdict": "Estação de berries; primeiros vislumbres de aurora no fim do mês" },
-    { "month": "Sep", "weather": "5-12°C, ruska de outono", "emoji": "🍂", "crowds": "Baixa", "price": "Baixo", "verdict": "Cores espetaculares de outono ruska; primeira aurora" },
-    { "month": "Oct", "weather": "-2°C a 8°C, primeira neve", "emoji": "🌨️", "crowds": "Baixa", "price": "Médio", "verdict": "Estação de aurora começa; paisagem em transição" },
-    { "month": "Nov", "weather": "-10°C a 0°C, noite polar começa", "emoji": "❄️", "crowds": "Média", "price": "Médio", "verdict": "Neve assentando; aurora frequente; mais tranquilo que dezembro" },
-    { "month": "Dec", "weather": "Média -22°C, noite polar", "emoji": "🎄", "crowds": "Máxima", "price": "Máximo", "verdict": "Estação de mercados de Natal — Rovaniemi no auge" }
+    {
+      "month": "Jan",
+      "weather": "Média -25°C, 4h de luz",
+      "emoji": "❄️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Mais frio mas mais escuro — pico de probabilidade de aurora"
+    },
+    {
+      "month": "Feb",
+      "weather": "Média -20°C, 7h de luz",
+      "emoji": "❄️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Ponto doce — noites longas de aurora + mais sol"
+    },
+    {
+      "month": "Mar",
+      "weather": "-15°C, 11h de luz",
+      "emoji": "❄️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Melhor mês — céu claro, sol quente, neve profunda"
+    },
+    {
+      "month": "Apr",
+      "weather": "-5°C a 5°C, derretendo",
+      "emoji": "🌦",
+      "crowds": "Baixa",
+      "price": "Médio",
+      "verdict": "Baixa estranha — fim da aurora, neve derretendo"
+    },
+    {
+      "month": "May",
+      "weather": "5-15°C, neve foi",
+      "emoji": "🌸",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Mosquitos chegando; lodges muitas vezes fechados para reformas"
+    },
+    {
+      "month": "Jun",
+      "weather": "12-20°C, sol da meia-noite",
+      "emoji": "☀️",
+      "crowds": "Média",
+      "price": "Médio",
+      "verdict": "Verão de sol da meia-noite começa — viagem totalmente diferente"
+    },
+    {
+      "month": "Jul",
+      "weather": "14-22°C, pico do verão",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Médio",
+      "verdict": "Dias longos, trilha, caiaque, com muitos mosquitos"
+    },
+    {
+      "month": "Aug",
+      "weather": "10-18°C",
+      "emoji": "☀️",
+      "crowds": "Média",
+      "price": "Médio",
+      "verdict": "Estação de berries; primeiros vislumbres de aurora no fim do mês"
+    },
+    {
+      "month": "Sep",
+      "weather": "5-12°C, ruska de outono",
+      "emoji": "🍂",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Cores espetaculares de outono ruska; primeira aurora"
+    },
+    {
+      "month": "Oct",
+      "weather": "-2°C a 8°C, primeira neve",
+      "emoji": "🌨️",
+      "crowds": "Baixa",
+      "price": "Médio",
+      "verdict": "Estação de aurora começa; paisagem em transição"
+    },
+    {
+      "month": "Nov",
+      "weather": "-10°C a 0°C, noite polar começa",
+      "emoji": "❄️",
+      "crowds": "Média",
+      "price": "Médio",
+      "verdict": "Neve assentando; aurora frequente; mais tranquilo que dezembro"
+    },
+    {
+      "month": "Dec",
+      "weather": "Média -22°C, noite polar",
+      "emoji": "🎄",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Estação de mercados de Natal — Rovaniemi no auge"
+    }
   ],
   "budgetTiers": [
-    { "label": "Luxo intermediário", "range": "$300-700/noite", "gets": "Cabana de aurora ou iglu boutique em resorts conhecidos. Alarme de aurora e cardápio básico de atividades.", "example": "Apukka Resort, Iso-Syöte Hotel, Star Arctic Hotel" },
-    { "label": "Premium", "range": "$700-1.500/noite", "gets": "Iglu de vidro premium com sauna privativa, experiências de huskies/renas in loco, resort com vários restaurantes.", "example": "Levin Iglut, Kakslauttanen Arctic Resort, Wilderness Hotel Nellim" },
-    { "label": "Ultra-luxo", "range": "$3.000-8.000/noite", "gets": "Lodge privativo de natureza com atividades all-inclusive, mordomo, chef privativo, sem outros hóspedes à vista.", "example": "Octola Wilderness Lodge" }
+    {
+      "label": "Luxo intermediário",
+      "range": "$300-700/noite",
+      "gets": "Cabana de aurora ou iglu boutique em resorts conhecidos. Alarme de aurora e cardápio básico de atividades.",
+      "example": "Apukka Resort, Iso-Syöte Hotel, Star Arctic Hotel"
+    },
+    {
+      "label": "Premium",
+      "range": "$700-1.500/noite",
+      "gets": "Iglu de vidro premium com sauna privativa, experiências de huskies/renas in loco, resort com vários restaurantes.",
+      "example": "Levin Iglut, Kakslauttanen Arctic Resort, Wilderness Hotel Nellim"
+    },
+    {
+      "label": "Ultra-luxo",
+      "range": "$3.000-8.000/noite",
+      "gets": "Lodge privativo de natureza com atividades all-inclusive, mordomo, chef privativo, sem outros hóspedes à vista.",
+      "example": "Octola Wilderness Lodge"
+    }
   ],
   "areas": [
-    { "name": "Saariselkä", "bestFor": "Iglus de vidro icônicos, hotéis de design no alto", "description": "A zona original dos iglus, 1h do aeroporto de Ivalo. Kakslauttanen e Star Arctic ficam aqui. Excelente acesso a snowmobile e huskies; estação de esqui anexa." },
-    { "name": "Levi", "bestFor": "Luxo em estação, après-ski, iglus no alto", "description": "170 km ao norte de Rovaniemi, maior estação de esqui da Finlândia. O Levin Iglut fica no alto do fell com vistas panorâmicas. Mais acessível desde Helsinque via aeroporto de Kittilä (~1h)." },
-    { "name": "Rovaniemi", "bestFor": "Vila do Papai Noel, hotéis de design, fazendas de huskies", "description": "Maior cidade da Lapônia, em cima do Círculo Polar Ártico, casa \"oficial\" do Papai Noel. Arctic TreeHouse, Apukka e Octola estão na região. Voos diretos de Helsinque o ano todo." },
-    { "name": "Lago Inari (Nellim)", "bestFor": "Cultura sami, aurora remota, natureza na fronteira russa", "description": "Norte profundo da Finlândia no terceiro maior lago da Europa. O Wilderness Hotel Nellim é a única opção de luxo — Aurora Cabins em palafitas sobre o lago, ligação cultural profunda com a vida sami." }
+    {
+      "name": "Saariselkä",
+      "bestFor": "Iglus de vidro icônicos, hotéis de design no alto",
+      "description": "A zona original dos iglus, 1h do aeroporto de Ivalo. Kakslauttanen e Star Arctic ficam aqui. Excelente acesso a snowmobile e huskies; estação de esqui anexa."
+    },
+    {
+      "name": "Levi",
+      "bestFor": "Luxo em estação, après-ski, iglus no alto",
+      "description": "170 km ao norte de Rovaniemi, maior estação de esqui da Finlândia. O Levin Iglut fica no alto do fell com vistas panorâmicas. Mais acessível desde Helsinque via aeroporto de Kittilä (~1h)."
+    },
+    {
+      "name": "Rovaniemi",
+      "bestFor": "Vila do Papai Noel, hotéis de design, fazendas de huskies",
+      "description": "Maior cidade da Lapônia, em cima do Círculo Polar Ártico, casa \"oficial\" do Papai Noel. Arctic TreeHouse, Apukka e Octola estão na região. Voos diretos de Helsinque o ano todo."
+    },
+    {
+      "name": "Lago Inari (Nellim)",
+      "bestFor": "Cultura sami, aurora remota, natureza na fronteira russa",
+      "description": "Norte profundo da Finlândia no terceiro maior lago da Europa. O Wilderness Hotel Nellim é a única opção de luxo — Aurora Cabins em palafitas sobre o lago, ligação cultural profunda com a vida sami."
+    }
   ],
   "expertTips": [
-    { "tip": "Fique 4+ noites para probabilidade de aurora", "detail": "Aurora é jogo de probabilidade. KP ≥3 + céu claro + horas escuras precisam alinhar. Três noites é arriscado; quatro é o ponto doce. Cinco te dá quase garantia." },
-    { "tip": "Reserve atividades de huskies/renas antes de chegar", "detail": "Operadores top em Saariselkä, Levi e Rovaniemi esgotam com 6+ meses em dez-fev. Não espere o check-in — a maioria dos lodges pré-reserva sob solicitação." },
-    { "tip": "Vista TODAS as camadas que o lodge te der", "detail": "A -25°C com vento de snowmobile ou trenó, sua jaqueta de esqui hipster de casa não é o bastante. Lodges fornecem snowsuits de expedição, luvas, balaclavas e botas — vista tudo." },
-    { "tip": "Escala em Helsinque é um bônus real", "detail": "Maioria dos voos para a Lapônia conecta via Helsinque (HEL). 24h em Helsinque na volta é altamente recomendada — Mercado Velho, Distrito do Design, sauna no Löyly, jantar no Olo ou Palace. Klaus K ou Lilla Roberts pela noite." },
-    { "tip": "Alertas de aurora significam dormir com celular ligado", "detail": "Maioria dos lodges roda serviço 24/7 de alerta — ligam/buzinam no quarto quando a atividade pica. Carregue o celular; durma de base layers; tenha bota, casaco e gorro à porta para resposta imediata." }
+    {
+      "tip": "Fique 4+ noites para probabilidade de aurora",
+      "detail": "Aurora é jogo de probabilidade. KP ≥3 + céu claro + horas escuras precisam alinhar. Três noites é arriscado; quatro é o ponto doce. Cinco te dá quase garantia."
+    },
+    {
+      "tip": "Reserve atividades de huskies/renas antes de chegar",
+      "detail": "Operadores top em Saariselkä, Levi e Rovaniemi esgotam com 6+ meses em dez-fev. Não espere o check-in — a maioria dos lodges pré-reserva sob solicitação."
+    },
+    {
+      "tip": "Vista TODAS as camadas que o lodge te der",
+      "detail": "A -25°C com vento de snowmobile ou trenó, sua jaqueta de esqui hipster de casa não é o bastante. Lodges fornecem snowsuits de expedição, luvas, balaclavas e botas — vista tudo."
+    },
+    {
+      "tip": "Escala em Helsinque é um bônus real",
+      "detail": "Maioria dos voos para a Lapônia conecta via Helsinque (HEL). 24h em Helsinque na volta é altamente recomendada — Mercado Velho, Distrito do Design, sauna no Löyly, jantar no Olo ou Palace. Klaus K ou Lilla Roberts pela noite."
+    },
+    {
+      "tip": "Alertas de aurora significam dormir com celular ligado",
+      "detail": "Maioria dos lodges roda serviço 24/7 de alerta — ligam/buzinam no quarto quando a atividade pica. Carregue o celular; durma de base layers; tenha bota, casaco e gorro à porta para resposta imediata."
+    }
   ],
   "packing": [
-    { "item": "Camadas base de merino (pesada + média)", "why": "Base para se manter aquecido a -25°C. Dois conjuntos — um para usar, um para secar à noite após suor de sauna ou dias ativos." },
-    { "item": "Aquecedores de mãos e pés", "why": "Pacotes descartáveis HotHands são ouro para trenó com huskies e observação de aurora. Leve 20+; difícil achar localmente." },
-    { "item": "Câmera com modo manual + tripé", "why": "iPhones pegam a aurora hoje (modo Noturno 30s) mas câmera com lente 2.8 e tripé pega a foto cinematográfica. Leve baterias extras — frio drena em 30 min." },
-    { "item": "Lip balm, creme de mãos, colírio", "why": "Ar ártico é brutalmente seco. Aquecimento + saunas + frio externo = tudo rachado. Reabasteça enquanto usa." },
-    { "item": "Caneca térmica reutilizável", "why": "Suco quente de lingonberry, glögi (vinho quente) e chás de floresta são o ritmo do dia. Caneca a vácuo mantém quente da kota ao iglu." }
+    {
+      "item": "Camadas base de merino (pesada + média)",
+      "why": "Base para se manter aquecido a -25°C. Dois conjuntos — um para usar, um para secar à noite após suor de sauna ou dias ativos."
+    },
+    {
+      "item": "Aquecedores de mãos e pés",
+      "why": "Pacotes descartáveis HotHands são ouro para trenó com huskies e observação de aurora. Leve 20+; difícil achar localmente."
+    },
+    {
+      "item": "Câmera com modo manual + tripé",
+      "why": "iPhones pegam a aurora hoje (modo Noturno 30s) mas câmera com lente 2.8 e tripé pega a foto cinematográfica. Leve baterias extras — frio drena em 30 min."
+    },
+    {
+      "item": "Lip balm, creme de mãos, colírio",
+      "why": "Ar ártico é brutalmente seco. Aquecimento + saunas + frio externo = tudo rachado. Reabasteça enquanto usa."
+    },
+    {
+      "item": "Caneca térmica reutilizável",
+      "why": "Suco quente de lingonberry, glögi (vinho quente) e chás de floresta são o ritmo do dia. Caneca a vácuo mantém quente da kota ao iglu."
+    }
   ],
   "guide": {
     "getting": "Maioria das luas de mel voa Helsinque (HEL) → Rovaniemi (RVN), Kittilä (KTT — para Levi) ou Ivalo (IVL — para Saariselkä/Inari). Finnair voa os três desde Helsinque, ~1h. Voos internacionais diretos para Rovaniemi de Londres, Paris, Frankfurt e Genebra rodam só dez-mar. Octola Wilderness Lodge faz transfers de helicóptero do aeroporto de Rovaniemi. Trânsito total de Londres ~5h; de NYC ~10h via HEL.",
@@ -71,5 +246,9 @@
   "localFood": "Rena de muitas formas — salteada (poronkäristys com purê e lingonberry); defumada; carpaccio defumado a frio. Salmão-do-Ártico e peixe-branco dos lagos; salsicha de urso (curiosidade); geleia e licor de cloudberry (lakka); lingonberry em tudo; pão de centeio (ruisleipä); tortinhas karelianas (massa de centeio recheada de arroz); pulla (pãezinhos de cardamomo); leipäjuusto (queijo \"que range\", muitas vezes quente com cloudberry); ensopado de rena (poronpata); salmiakki (alcaçuz salgado — divisivo); glögi (vinho quente); cerveja Lapin Kulta. Comida em lodges é genuinamente excelente — Octola tem menu degustação privativo; o Aurora Sky Bar do Levin Iglut serve escandinavo moderno.",
   "currency": "Euro (EUR). Cartões em todo lugar; dinheiro mínimo. Gorjeta não é esperada (10% em restaurantes é generoso).",
   "language": "Finlandês e sueco (ambos oficiais); sami no extremo norte. Inglês é universal em hotéis, restaurantes e operadores de excursão.",
-  "timezone": "UTC+2 (UTC+3 no verão com horário de verão)"
+  "timezone": "UTC+2 (UTC+3 no verão com horário de verão)",
+  "seo": {
+    "title": "Lua de Mel na Lapônia: 8 Iglus de Vidro com Aurora 2026",
+    "description": "8 estadias árticas na Finlândia e Suécia ranqueadas. Kakslauttanen, Arctic TreeHouse, Levin Iglut. De $500/noite."
+  }
 }

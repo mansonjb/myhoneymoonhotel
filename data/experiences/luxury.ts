@@ -2,6 +2,10 @@ import type { ExperienceMeta } from '@/types/experience'
 
 const meta: ExperienceMeta = {
   label: 'Ultra-Luxury Honeymoons',
+  seo: {
+    title: 'Ultra-Luxury Honeymoon Hotels: 587 Scored Picks 2026',
+    description: 'Ultra-luxury honeymoon hotels across 66 destinations — 587 scored properties from $200 boutique stays to $7,000-a-night villas. Honest picks, no fluff.',
+  },
   tagline: 'The finest hotel experiences in the world, scored for romance',
   hero: '/images/hotels/velaa-private-island-maldives/hero.webp',
   intro: 'Ultra-luxury honeymoon hotels are not defined by price alone — they are defined by the calibre of attention, the singularity of the setting, and the degree to which every detail is configured for intimacy. At properties scoring 90+ on the Honeymoon Score, two things are always true: you stop wanting to leave, and you stop thinking about anything except being in that place with that person.',

@@ -109,6 +109,7 @@ localFood: 'New Nordic cuisine has its high-end Norwegian counterpart at restaur
 currency: 'Norwegian Krone (NOK). Mostly cashless; cards work everywhere. Tipping 5-10% in restaurants is appreciated but not expected.',
 language: 'Norwegian (Bokmål and Nynorsk). English fluency is universal — Norway has the highest English proficiency of any non-native country.',
 timezone: 'UTC+1 (UTC+2 in summer with daylight saving)',
+  seo: { title: "Norway Honeymoon: 8 Fjord & Aurora Hotels Scored 2026", description: "8 Lofoten, Tromso, Bergen stays ranked. Storfjord, Eliassen Rorbuer, Lyngen Lodge. From $300/night. Sep-Mar aurora." },
 }
 
 export default meta

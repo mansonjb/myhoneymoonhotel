@@ -14,4 +14,5 @@ export interface ExperienceMeta {
   expertTips: string[]
   faqs: { q: string; a: string }[]
   related: string[]
+  seo?: { title?: string; description?: string }
 }

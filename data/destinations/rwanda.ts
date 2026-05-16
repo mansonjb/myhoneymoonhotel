@@ -109,6 +109,7 @@ localFood: 'Rwandan cuisine: isombe (mashed cassava leaves with peanut paste), b
 currency: 'Rwandan Franc (RWF). USD widely accepted at lodges and tourist sites; cards work in Kigali but cash needed in rural areas. Tip in USD for international staff, RWF for local porters.',
 language: 'Kinyarwanda is the national language. French and English are official. English is universal at lodges; learning "Muraho" (hello) and "Murakoze" (thank you) is appreciated.',
 timezone: 'UTC+2 (Central Africa Time, no daylight saving)',
+  seo: { title: "Rwanda Honeymoon: 8 Gorilla Trek Lodges Scored 2026", description: "8 Volcanoes National Park and Nyungwe lodges ranked. Singita, Bisate, One&Only. From $1,500/night. Jun-Sep dry." },
 }
 
 export default meta

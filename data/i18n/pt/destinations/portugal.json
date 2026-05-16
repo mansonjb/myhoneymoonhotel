@@ -55,18 +55,102 @@
     }
   ],
   "months": [
-    { "month": "Jan", "weather": "Ameno, mas chuvoso, verde", "emoji": "🌦", "crowds": "Muito baixa", "price": "Muito baixo", "verdict": "Apenas para escapar para a Madeira" },
-    { "month": "Feb", "weather": "Amendoeiras em flor no Algarve", "emoji": "🌸", "crowds": "Baixa", "price": "Baixo", "verdict": "Lindo se você não pretende ir à praia" },
-    { "month": "Mar", "weather": "Esquentando, flores silvestres, alguma chuva", "emoji": "🌱", "crowds": "Baixa", "price": "Baixo", "verdict": "Excelente para a região vinícola" },
-    { "month": "Apr", "weather": "Quente, verde, luz excelente", "emoji": "🌤", "crowds": "Moderada", "price": "Médio", "verdict": "Ótimo para Lisboa e Douro" },
-    { "month": "May", "weather": "Quente, seco, quase perfeito", "emoji": "☀️", "crowds": "Moderada", "price": "Médio", "verdict": "Melhor mês do ano" },
-    { "month": "Jun", "weather": "Calor, festas dos santos populares", "emoji": "☀️", "crowds": "Moderada-alta", "price": "Médio-alto", "verdict": "Excelente — temporada de festas" },
-    { "month": "Jul", "weather": "Quente, seco, alta temporada", "emoji": "☀️", "crowds": "Máxima", "price": "Alto", "verdict": "Algarve cheíssimo, Comporta boa" },
-    { "month": "Aug", "weather": "O mais quente, muito movimentado", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Algarve lotado, vá à Comporta" },
-    { "month": "Sep", "weather": "Quente, vindima, excelente", "emoji": "☀️", "crowds": "Moderada", "price": "Médio-alto", "verdict": "Melhor para vinho — temporada da colheita" },
-    { "month": "Oct", "weather": "Quente, mais tranquilo, surf cresce", "emoji": "🌤", "crowds": "Baixa-mod.", "price": "Médio", "verdict": "Ótimo para surfe e cultura" },
-    { "month": "Nov", "weather": "Ameno, chuvoso, muito tranquilo", "emoji": "🌦", "crowds": "Baixa", "price": "Baixo", "verdict": "Bom custo-benefício, não é tempo de praia" },
-    { "month": "Dec", "weather": "Ameno, chuvoso, Natal no Porto", "emoji": "🌨", "crowds": "Baixa-mod.", "price": "Baixo-médio", "verdict": "O Natal no Porto é mágico" }
+    {
+      "month": "Jan",
+      "weather": "Ameno, mas chuvoso, verde",
+      "emoji": "🌦",
+      "crowds": "Muito baixa",
+      "price": "Muito baixo",
+      "verdict": "Apenas para escapar para a Madeira"
+    },
+    {
+      "month": "Feb",
+      "weather": "Amendoeiras em flor no Algarve",
+      "emoji": "🌸",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Lindo se você não pretende ir à praia"
+    },
+    {
+      "month": "Mar",
+      "weather": "Esquentando, flores silvestres, alguma chuva",
+      "emoji": "🌱",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Excelente para a região vinícola"
+    },
+    {
+      "month": "Apr",
+      "weather": "Quente, verde, luz excelente",
+      "emoji": "🌤",
+      "crowds": "Moderada",
+      "price": "Médio",
+      "verdict": "Ótimo para Lisboa e Douro"
+    },
+    {
+      "month": "May",
+      "weather": "Quente, seco, quase perfeito",
+      "emoji": "☀️",
+      "crowds": "Moderada",
+      "price": "Médio",
+      "verdict": "Melhor mês do ano"
+    },
+    {
+      "month": "Jun",
+      "weather": "Calor, festas dos santos populares",
+      "emoji": "☀️",
+      "crowds": "Moderada-alta",
+      "price": "Médio-alto",
+      "verdict": "Excelente — temporada de festas"
+    },
+    {
+      "month": "Jul",
+      "weather": "Quente, seco, alta temporada",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Alto",
+      "verdict": "Algarve cheíssimo, Comporta boa"
+    },
+    {
+      "month": "Aug",
+      "weather": "O mais quente, muito movimentado",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Algarve lotado, vá à Comporta"
+    },
+    {
+      "month": "Sep",
+      "weather": "Quente, vindima, excelente",
+      "emoji": "☀️",
+      "crowds": "Moderada",
+      "price": "Médio-alto",
+      "verdict": "Melhor para vinho — temporada da colheita"
+    },
+    {
+      "month": "Oct",
+      "weather": "Quente, mais tranquilo, surf cresce",
+      "emoji": "🌤",
+      "crowds": "Baixa-mod.",
+      "price": "Médio",
+      "verdict": "Ótimo para surfe e cultura"
+    },
+    {
+      "month": "Nov",
+      "weather": "Ameno, chuvoso, muito tranquilo",
+      "emoji": "🌦",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Bom custo-benefício, não é tempo de praia"
+    },
+    {
+      "month": "Dec",
+      "weather": "Ameno, chuvoso, Natal no Porto",
+      "emoji": "🌨",
+      "crowds": "Baixa-mod.",
+      "price": "Baixo-médio",
+      "verdict": "O Natal no Porto é mágico"
+    }
   ],
   "budgetTiers": [
     {
@@ -138,11 +222,26 @@
     }
   ],
   "packing": [
-    { "item": "Camadas leves para as noites em Lisboa", "why": "A brisa atlântica esfria as noites lisboetas até no verão — uma jaqueta leve ou cardigan é necessário em jantares em terraço depois das 21h" },
-    { "item": "Sapatos confortáveis para os paralelepípedos", "why": "As ladeiras de calçada portuguesa em Lisboa são lindas e brutais com os pés — bons sapatos evitam noites arruinadas" },
-    { "item": "Wetsuit (se for surfar)", "why": "A água do Atlântico em Portugal chega a 20°C em agosto, mas fica em 16°C em maio — mesmo no verão, um shorty 3mm torna o surfe na Comporta genuinamente agradável" },
-    { "item": "Caderno ou app de vinhos", "why": "Você vai provar vinhos extraordinários nas quintas do Douro que não são exportados — anotar os produtores permite encomendar para casa" },
-    { "item": "Capa de chuva leve e impermeável", "why": "O clima atlântico muda mesmo em maio e outubro — uma jaqueta compacta de chuva é útil em qualquer estação" }
+    {
+      "item": "Camadas leves para as noites em Lisboa",
+      "why": "A brisa atlântica esfria as noites lisboetas até no verão — uma jaqueta leve ou cardigan é necessário em jantares em terraço depois das 21h"
+    },
+    {
+      "item": "Sapatos confortáveis para os paralelepípedos",
+      "why": "As ladeiras de calçada portuguesa em Lisboa são lindas e brutais com os pés — bons sapatos evitam noites arruinadas"
+    },
+    {
+      "item": "Wetsuit (se for surfar)",
+      "why": "A água do Atlântico em Portugal chega a 20°C em agosto, mas fica em 16°C em maio — mesmo no verão, um shorty 3mm torna o surfe na Comporta genuinamente agradável"
+    },
+    {
+      "item": "Caderno ou app de vinhos",
+      "why": "Você vai provar vinhos extraordinários nas quintas do Douro que não são exportados — anotar os produtores permite encomendar para casa"
+    },
+    {
+      "item": "Capa de chuva leve e impermeável",
+      "why": "O clima atlântico muda mesmo em maio e outubro — uma jaqueta compacta de chuva é útil em qualquer estação"
+    }
   ],
   "guide": {
     "getting": "Voe para Lisboa Humberto Delgado (LIS) — direto de praticamente toda capital europeia com TAP Air Portugal, Ryanair, EasyJet, British Airways e Lufthansa (2–3h do norte da Europa). Para o Vale do Douro, voe para o Porto Francisco de Sá Carneiro (OPO) — 1h de carro até as primeiras quintas. Para a Madeira, voo direto a Funchal (FNC) a partir da maioria das cidades europeias. Transporte interno: ótimos trens intercidades (Lisboa–Porto: 3h, €25); alugue carro para Douro e Comporta.",
@@ -152,5 +251,9 @@
   "localFood": "Percebes (colhidos das rochas atlânticas, comidos com limão) em uma taberna lisboeta, bacalhau à Brás (bacalhau salgado com ovos e batatas — 365 receitas diferentes), pastel de nata ainda morno dos Pastéis de Belém, degustação no Vale do Douro com vista de quinta e petiscos com uma Sagres gelada num terraço de praia em Comporta.",
   "currency": "Euro (EUR)",
   "language": "Português (inglês amplamente falado)",
-  "timezone": "UTC+0 (WET) / UTC+1 (WEST no verão)"
+  "timezone": "UTC+0 (WET) / UTC+1 (WEST no verão)",
+  "seo": {
+    "title": "Lua de Mel em Portugal: 12 Hotéis Litoral e Vinhedos",
+    "description": "12 hotéis no Algarve, Douro e Comporta pontuados. Six Senses, Vila Vita Parc. De $400/noite. Abr-out."
+  }
 }

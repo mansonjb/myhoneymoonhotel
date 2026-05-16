@@ -56,47 +56,205 @@
     }
   ],
   "months": [
-    { "month": "Jan", "weather": "Quente, férias de verão", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Pico de praia — mas úmido + risco de ciclone no norte" },
-    { "month": "Feb", "weather": "Quente, úmido, ciclones", "emoji": "🌧", "crowds": "Mod (volta às aulas)", "price": "Alto", "verdict": "Evite áreas do recife ao norte" },
-    { "month": "Mar", "weather": "Esfriando, úmido no norte", "emoji": "⛅", "crowds": "Moderada", "price": "Médio-alto", "verdict": "Sydney + Tas excelentes; recife shoulder" },
-    { "month": "Apr", "weather": "Outono ameno", "emoji": "🌤", "crowds": "Moderada", "price": "Médio", "verdict": "Outono ponto-doce para Sydney + Uluru" },
-    { "month": "May", "weather": "Fresco, seco, perfeito", "emoji": "🌤", "crowds": "Mod-baixa", "price": "Médio", "verdict": "Melhor mês da estação seca" },
-    { "month": "Jun", "weather": "Fresco e seco, começa o inverno", "emoji": "🌤", "crowds": "Baixa-mod.", "price": "Médio", "verdict": "Excelente para Uluru + recife" },
-    { "month": "Jul", "weather": "Fresco e seco, baleias chegam", "emoji": "🌤", "crowds": "Mod (férias)", "price": "Médio-alto", "verdict": "Pico de avistamento de baleias; noites frias no sul" },
-    { "month": "Aug", "weather": "Fresco e seco, perfeito", "emoji": "☀️", "crowds": "Moderada", "price": "Médio-alto", "verdict": "Melhor mês de lua de mel multi-região" },
-    { "month": "Sep", "weather": "Primavera esquentando", "emoji": "☀️", "crowds": "Moderada", "price": "Alto", "verdict": "Ponto doce — quente + pouca chuva" },
-    { "month": "Oct", "weather": "Primavera quente, floração", "emoji": "☀️", "crowds": "Alta (subindo)", "price": "Alto", "verdict": "Excelente em todas as regiões" },
-    { "month": "Nov", "weather": "Quente, calor aumentando", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Fim de primavera ainda ótimo; recife esquentando" },
-    { "month": "Dec", "weather": "Quente, férias de verão", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Pico de praia — caos de Natal-Réveillon em Sydney" }
+    {
+      "month": "Jan",
+      "weather": "Quente, férias de verão",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Pico de praia — mas úmido + risco de ciclone no norte"
+    },
+    {
+      "month": "Feb",
+      "weather": "Quente, úmido, ciclones",
+      "emoji": "🌧",
+      "crowds": "Mod (volta às aulas)",
+      "price": "Alto",
+      "verdict": "Evite áreas do recife ao norte"
+    },
+    {
+      "month": "Mar",
+      "weather": "Esfriando, úmido no norte",
+      "emoji": "⛅",
+      "crowds": "Moderada",
+      "price": "Médio-alto",
+      "verdict": "Sydney + Tas excelentes; recife shoulder"
+    },
+    {
+      "month": "Apr",
+      "weather": "Outono ameno",
+      "emoji": "🌤",
+      "crowds": "Moderada",
+      "price": "Médio",
+      "verdict": "Outono ponto-doce para Sydney + Uluru"
+    },
+    {
+      "month": "May",
+      "weather": "Fresco, seco, perfeito",
+      "emoji": "🌤",
+      "crowds": "Mod-baixa",
+      "price": "Médio",
+      "verdict": "Melhor mês da estação seca"
+    },
+    {
+      "month": "Jun",
+      "weather": "Fresco e seco, começa o inverno",
+      "emoji": "🌤",
+      "crowds": "Baixa-mod.",
+      "price": "Médio",
+      "verdict": "Excelente para Uluru + recife"
+    },
+    {
+      "month": "Jul",
+      "weather": "Fresco e seco, baleias chegam",
+      "emoji": "🌤",
+      "crowds": "Mod (férias)",
+      "price": "Médio-alto",
+      "verdict": "Pico de avistamento de baleias; noites frias no sul"
+    },
+    {
+      "month": "Aug",
+      "weather": "Fresco e seco, perfeito",
+      "emoji": "☀️",
+      "crowds": "Moderada",
+      "price": "Médio-alto",
+      "verdict": "Melhor mês de lua de mel multi-região"
+    },
+    {
+      "month": "Sep",
+      "weather": "Primavera esquentando",
+      "emoji": "☀️",
+      "crowds": "Moderada",
+      "price": "Alto",
+      "verdict": "Ponto doce — quente + pouca chuva"
+    },
+    {
+      "month": "Oct",
+      "weather": "Primavera quente, floração",
+      "emoji": "☀️",
+      "crowds": "Alta (subindo)",
+      "price": "Alto",
+      "verdict": "Excelente em todas as regiões"
+    },
+    {
+      "month": "Nov",
+      "weather": "Quente, calor aumentando",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Fim de primavera ainda ótimo; recife esquentando"
+    },
+    {
+      "month": "Dec",
+      "weather": "Quente, férias de verão",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Pico de praia — caos de Natal-Réveillon em Sydney"
+    }
   ],
   "budgetTiers": [
-    { "label": "Luxo urbano", "range": "$700–$2.200/noite", "gets": "Park Hyatt Sydney (vista da Opera), Capella Sydney, Crown Towers Perth — 5 estrelas full service com vistas, spa, alta gastronomia.", "example": "Park Hyatt Sydney, Capella Sydney, Crown Towers Perth" },
-    { "label": "Lodges icônicos", "range": "$1.500–$3.500/noite por casal all-inclusive", "gets": "Saffire Freycinet, qualia, Lizard Island, Capella Lodge — lodges de destino com atividades inclusas e maioria das refeições.", "example": "Saffire Freycinet, qualia, Lizard Island Resort" },
-    { "label": "Ultra-luxo na natureza", "range": "$2.500–$5.500/noite por casal all-inclusive", "gets": "Longitude 131° (Uluru), Southern Ocean Lodge (Kangaroo Island) — categoria flagship Baillie Lodges com helicóptero e experiências signature.", "example": "Longitude 131°, Southern Ocean Lodge" }
+    {
+      "label": "Luxo urbano",
+      "range": "$700–$2.200/noite",
+      "gets": "Park Hyatt Sydney (vista da Opera), Capella Sydney, Crown Towers Perth — 5 estrelas full service com vistas, spa, alta gastronomia.",
+      "example": "Park Hyatt Sydney, Capella Sydney, Crown Towers Perth"
+    },
+    {
+      "label": "Lodges icônicos",
+      "range": "$1.500–$3.500/noite por casal all-inclusive",
+      "gets": "Saffire Freycinet, qualia, Lizard Island, Capella Lodge — lodges de destino com atividades inclusas e maioria das refeições.",
+      "example": "Saffire Freycinet, qualia, Lizard Island Resort"
+    },
+    {
+      "label": "Ultra-luxo na natureza",
+      "range": "$2.500–$5.500/noite por casal all-inclusive",
+      "gets": "Longitude 131° (Uluru), Southern Ocean Lodge (Kangaroo Island) — categoria flagship Baillie Lodges com helicóptero e experiências signature.",
+      "example": "Longitude 131°, Southern Ocean Lodge"
+    }
   ],
   "areas": [
-    { "name": "Sydney + NSW (leste)", "bestFor": "Cidade icônica + vinhos do Hunter Valley", "description": "Park Hyatt Sydney para luas de mel com vista da Opera; Capella Sydney para herança com design. 3–4 noites em Sydney com bate-volta a Hunter Valley é o trecho urbano clássico." },
-    { "name": "Whitsundays + Grande Barreira (Queensland)", "bestFor": "Recife + romance de resort em ilha", "description": "qualia (só para adultos em Hamilton Island) e Lizard Island (ilha privativa) são os ícones. Whitehaven Beach, helicóptero ao Heart Reef, dias de snorkel no recife externo. 4–5 noites mínimo." },
-    { "name": "Uluru + Centro Vermelho (Northern Territory)", "bestFor": "Espiritualidade do deserto + cultura aborígene", "description": "Longitude 131° é a única opção de luxo. 2–3 noites para a base walk de Uluru, caminhada em Kata Tjuta, Field of Light, jantar Tabletop." },
-    { "name": "Tasmânia (Saffire + Southern Ocean Lodge)", "bestFor": "Natureza + vinho + frutos do mar", "description": "Saffire Freycinet (costa leste) e Southern Ocean Lodge na Kangaroo Island (tecnicamente South Australia, frequentemente combinada com a Tasmânia) são o tier sul de natureza. Adicione 5–7 noites." },
-    { "name": "Perth + Margaret River (Western Australia)", "bestFor": "Região vinícola + luxo remoto", "description": "Crown Towers Perth como base urbana, depois 3 dias na vinícola Margaret River. Adiciona 5–6 noites e a experiência de vinho mais diversa da Austrália." }
+    {
+      "name": "Sydney + NSW (leste)",
+      "bestFor": "Cidade icônica + vinhos do Hunter Valley",
+      "description": "Park Hyatt Sydney para luas de mel com vista da Opera; Capella Sydney para herança com design. 3–4 noites em Sydney com bate-volta a Hunter Valley é o trecho urbano clássico."
+    },
+    {
+      "name": "Whitsundays + Grande Barreira (Queensland)",
+      "bestFor": "Recife + romance de resort em ilha",
+      "description": "qualia (só para adultos em Hamilton Island) e Lizard Island (ilha privativa) são os ícones. Whitehaven Beach, helicóptero ao Heart Reef, dias de snorkel no recife externo. 4–5 noites mínimo."
+    },
+    {
+      "name": "Uluru + Centro Vermelho (Northern Territory)",
+      "bestFor": "Espiritualidade do deserto + cultura aborígene",
+      "description": "Longitude 131° é a única opção de luxo. 2–3 noites para a base walk de Uluru, caminhada em Kata Tjuta, Field of Light, jantar Tabletop."
+    },
+    {
+      "name": "Tasmânia (Saffire + Southern Ocean Lodge)",
+      "bestFor": "Natureza + vinho + frutos do mar",
+      "description": "Saffire Freycinet (costa leste) e Southern Ocean Lodge na Kangaroo Island (tecnicamente South Australia, frequentemente combinada com a Tasmânia) são o tier sul de natureza. Adicione 5–7 noites."
+    },
+    {
+      "name": "Perth + Margaret River (Western Australia)",
+      "bestFor": "Região vinícola + luxo remoto",
+      "description": "Crown Towers Perth como base urbana, depois 3 dias na vinícola Margaret River. Adiciona 5–6 noites e a experiência de vinho mais diversa da Austrália."
+    }
   ],
   "expertTips": [
-    { "tip": "Construa a viagem em torno de 3 regiões no máximo, não 5", "detail": "Tentar fazer Sydney + Recife + Uluru + Tasmânia + Perth em 14 noites é demais. Escolha 3 — tipicamente Sydney + Recife + Uluru para o circuito icônico, OU Sydney + Tasmânia + Recife para o circuito de natureza." },
-    { "tip": "Reserve voos internos pela Qantas, não low-cost", "detail": "A Qantas opera os horários mais confiáveis entre Sydney, Cairns, Hamilton Island, Ayers Rock, Hobart e Perth. O \"desconto\" da Jetstar custa atrasos e transfers de lodge perdidos." },
-    { "tip": "Para o recife, escolha Lizard Island OU qualia, não os dois", "detail": "Ambos são luxo de ilha-privativa/Whitsundays. Lizard para imersão no recife (5 noites de snorkel e mergulho); qualia para o polimento de resort só-adultos (5 noites de pavilhões, piscina, Pebble Beach Club)." },
-    { "tip": "Fique 3 noites mínimo no Longitude 131°", "detail": "Uluru merece 3 noites para a base walk no nascer do sol, dia em Kata Tjuta, Field of Light + Tabletop. 2 noites aqui é apressado; 4 é luxuoso." },
-    { "tip": "Reserve a degustação ABC (Australian Bush Tucker) no Longitude 131°", "detail": "As degustações culturais Anangu e oficinas de pintura no Cultural Centre são contexto essencial. Pré-reserve pelo concierge." }
+    {
+      "tip": "Construa a viagem em torno de 3 regiões no máximo, não 5",
+      "detail": "Tentar fazer Sydney + Recife + Uluru + Tasmânia + Perth em 14 noites é demais. Escolha 3 — tipicamente Sydney + Recife + Uluru para o circuito icônico, OU Sydney + Tasmânia + Recife para o circuito de natureza."
+    },
+    {
+      "tip": "Reserve voos internos pela Qantas, não low-cost",
+      "detail": "A Qantas opera os horários mais confiáveis entre Sydney, Cairns, Hamilton Island, Ayers Rock, Hobart e Perth. O \"desconto\" da Jetstar custa atrasos e transfers de lodge perdidos."
+    },
+    {
+      "tip": "Para o recife, escolha Lizard Island OU qualia, não os dois",
+      "detail": "Ambos são luxo de ilha-privativa/Whitsundays. Lizard para imersão no recife (5 noites de snorkel e mergulho); qualia para o polimento de resort só-adultos (5 noites de pavilhões, piscina, Pebble Beach Club)."
+    },
+    {
+      "tip": "Fique 3 noites mínimo no Longitude 131°",
+      "detail": "Uluru merece 3 noites para a base walk no nascer do sol, dia em Kata Tjuta, Field of Light + Tabletop. 2 noites aqui é apressado; 4 é luxuoso."
+    },
+    {
+      "tip": "Reserve a degustação ABC (Australian Bush Tucker) no Longitude 131°",
+      "detail": "As degustações culturais Anangu e oficinas de pintura no Cultural Centre são contexto essencial. Pré-reserve pelo concierge."
+    }
   ],
   "packing": [
-    { "item": "Protetor solar reef-safe (Stream2Sea ou similar)", "why": "Áreas do recife australiano restringem protetores com oxibenzona; UV intenso o ano todo" },
-    { "item": "Camisas de manga longa leves (UPF 50+)", "why": "Proteção solar em barcos do recife e trilhas em Uluru é mais importante que bronzeado" },
-    { "item": "Tênis de trilha + sapatos de água", "why": "Tênis de trilha para a base walk de Uluru + trilhas tasmanianas; sapatos de água para snorkel a partir da praia" },
-    { "item": "Camadas para variações térmicas do deserto", "why": "Uluru pode estar a 35°C de dia e 5°C à noite, mesmo no inverno" },
-    { "item": "Adaptador australiano (Tipo I)", "why": "A Austrália usa plugues angulados de 3 pinos exclusivos — leve um adaptador multi-região" },
-    { "item": "Óculos polarizados", "why": "Brilho do recife, do deserto, da baía de Sydney — não negociável" },
-    { "item": "Roupas smart casual para jantar em Sydney + qualia", "why": "Bennelong, Aria, Long Pavilion no qualia exigem dress code elevado" },
-    { "item": "Boa câmera (mirrorless de preferência)", "why": "Você está voando 20h para fotografar Uluru e a Opera House — câmeras de celular ficam aquém" }
+    {
+      "item": "Protetor solar reef-safe (Stream2Sea ou similar)",
+      "why": "Áreas do recife australiano restringem protetores com oxibenzona; UV intenso o ano todo"
+    },
+    {
+      "item": "Camisas de manga longa leves (UPF 50+)",
+      "why": "Proteção solar em barcos do recife e trilhas em Uluru é mais importante que bronzeado"
+    },
+    {
+      "item": "Tênis de trilha + sapatos de água",
+      "why": "Tênis de trilha para a base walk de Uluru + trilhas tasmanianas; sapatos de água para snorkel a partir da praia"
+    },
+    {
+      "item": "Camadas para variações térmicas do deserto",
+      "why": "Uluru pode estar a 35°C de dia e 5°C à noite, mesmo no inverno"
+    },
+    {
+      "item": "Adaptador australiano (Tipo I)",
+      "why": "A Austrália usa plugues angulados de 3 pinos exclusivos — leve um adaptador multi-região"
+    },
+    {
+      "item": "Óculos polarizados",
+      "why": "Brilho do recife, do deserto, da baía de Sydney — não negociável"
+    },
+    {
+      "item": "Roupas smart casual para jantar em Sydney + qualia",
+      "why": "Bennelong, Aria, Long Pavilion no qualia exigem dress code elevado"
+    },
+    {
+      "item": "Boa câmera (mirrorless de preferência)",
+      "why": "Você está voando 20h para fotografar Uluru e a Opera House — câmeras de celular ficam aquém"
+    }
   ],
   "guide": {
     "getting": "Voe para Sydney (SYD) ou Melbourne (MEL) como portas internacionais. Da Europa: ~24h via Singapura (SQ), Doha (QR) ou Dubai (EK). Da costa oeste dos EUA: 14h direto pela Qantas, United ou American. Voos internos pela Qantas e Jetstar para todas as cidades grandes e aeroportos de resort (Hamilton Island HTI, Ayers Rock AYQ, Hobart HBA, Cairns CNS, Perth PER).",
@@ -106,5 +264,9 @@
   "localFood": "Cozinha australiana moderna: ingredientes nativos (canguru, crocodilo, finger lime, lemon myrtle, pepperberry nativo) cozidos com técnicas internacionais. Restaurantes de classe mundial: Quay (Sydney), Tetsuya's (Sydney), Vue de Monde (Melbourne), Brae (Birregurra), Fervor (jantares pop-up na natureza). Vinho: Cabernet/Chardonnay de Margaret River, Semillon do Hunter Valley, Pinot tasmaniano, espumante de Yarra Valley. A cultura do café é uma das melhores do mundo — flat whites em todo lugar.",
   "currency": "Dólar Australiano (AUD). Cartões aceitos em todo lugar; gorjeta sem dinheiro em restaurantes não é costume (10% apreciado por serviço excelente em alta gastronomia).",
   "language": "Inglês. Vocabulário australiano característico (brekkie = café da manhã, arvo = tarde, servo = posto de gasolina). Línguas aborígenes ainda faladas em algumas comunidades; aprenda \"Olá\" em Pitjantjatjara em Uluru como gesto.",
-  "timezone": "UTC+8 (Perth) a UTC+10 (Sydney) — três fusos no país, mais horário de verão em alguns estados"
+  "timezone": "UTC+8 (Perth) a UTC+10 (Sydney) — três fusos no país, mais horário de verão em alguns estados",
+  "seo": {
+    "title": "Lua de Mel na Austrália: 10 Lodges Recife e Outback",
+    "description": "10 estadias na Grande Barreira, Tasmânia e Uluru ranqueadas. Lizard Island, Saffire, Longitude 131. De $700/noite."
+  }
 }

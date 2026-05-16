@@ -1,6 +1,10 @@
 {
   "tagline": "Atóis do oceano Índico contra ilhas vulcânicas do Pacífico Sul: os dois reinos das villas sobre a água.",
   "metaDescription": "Maldivas ou Polinésia Francesa para a sua lua de mel? Resorts de atol contra circuito por Bora Bora, Moorea e Tikehau. Comparação completa.",
+  "seo": {
+    "title": "Maldivas vs Polinésia Francesa Lua de Mel 2026",
+    "description": "Maldivas vs Polinésia Francesa para lua de mel 2026: um único atol ou pulo de ilhas Bora Bora–Moorea–Tikehau. Voos, custo, vibe."
+  },
   "verdict": "Maldivas é um destino concentrado de villas sobre a água: mais de 120 resorts, atóis de branco puro e vida marinha de nível mundial. A Polinésia Francesa é um arquipélago multi-ilha onde você pode combinar Bora Bora (glamour de lagoa), Moorea (picos espetaculares), Tikehau (atol fora do mapa) e Tetiaroa (The Brando). Maldivas é mais coerente e polida; a Polinésia Francesa é mais variada e culturalmente rica. Para uma estadia única de 7 noites em resort, Maldivas. Para uma viagem multi-ilha de 10-14 noites, a Polinésia Francesa.",
   "tldr": {
     "forA": "Maldivas: para uma lua de mel concentrada de 5-7 noites em villa sobre a água com vida marinha.",
@@ -8,18 +12,66 @@
     "tie": "Os dois são de preço premium (espere a partir de $1000/noite por uma villa sobre a água autêntica de 5 estrelas)."
   },
   "criteria": [
-    { "label": "Concentração de villas sobre a água", "aDetail": "Mais de 120 resorts, todos os níveis, inovação constante", "bDetail": "Cerca de 15 resorts com villas sobre a água, majoritariamente Bora Bora" },
-    { "label": "Variedade de paisagens", "aDetail": "Só atóis planos", "bDetail": "Picos vulcânicos (Otemanu) + atóis + lagoas + selva (Moorea)" },
-    { "label": "Riqueza cultural", "aDetail": "Mínima: bolha resort", "bDetail": "Cultura polinésia forte, dança, gastronomia, mercados" },
-    { "label": "Voo (a partir da Europa)", "aDetail": "10-11h com escala", "bDetail": "22-24h com 2 escalas" },
-    { "label": "Voo (a partir da costa oeste dos EUA)", "aDetail": "22h+ com escala", "bDetail": "8h direto LAX-PPT" },
-    { "label": "Opção multi-ilha", "aDetail": "Possível em hidroavião, mas o mesmo tipo de atol", "bDetail": "Bora Bora + Moorea + Tikehau + Tetiaroa: variedade genuína" },
-    { "label": "Clareza da água", "aDetail": "Visibilidade de 25-30 m", "bDetail": "15-20 m, excelente, mas menor" },
-    { "label": "Vida marinha", "aDetail": "Tubarões-baleia, arraias-manta, mais de 100 espécies de coral", "bDetail": "Tubarões de recife, arraias, recifes magníficos, mas menor variedade" },
-    { "label": "Densidade de marcas hoteleiras", "aDetail": "Aman, Cheval Blanc, Four Seasons, One&Only, Soneva, Six Senses, Waldorf, Ritz, St Regis", "bDetail": "Four Seasons, St Regis, InterContinental, Sofitel, Hilton: menos marcas" },
-    { "label": "Teto ultraluxo", "aDetail": "Velaa, Cheval Blanc, Nautilus: $3000-10 000/noite", "bDetail": "The Brando, próximos a Laucala: $5000-15 000/noite" },
-    { "label": "Melhor temporada", "aDetail": "Nov-Abr (seca)", "bDetail": "Mai-Out (seca)" },
-    { "label": "Fator romântico", "aDetail": "Casulo centrado no quarto", "bDetail": "Baseado na paisagem + cultural" }
+    {
+      "label": "Concentração de villas sobre a água",
+      "aDetail": "Mais de 120 resorts, todos os níveis, inovação constante",
+      "bDetail": "Cerca de 15 resorts com villas sobre a água, majoritariamente Bora Bora"
+    },
+    {
+      "label": "Variedade de paisagens",
+      "aDetail": "Só atóis planos",
+      "bDetail": "Picos vulcânicos (Otemanu) + atóis + lagoas + selva (Moorea)"
+    },
+    {
+      "label": "Riqueza cultural",
+      "aDetail": "Mínima: bolha resort",
+      "bDetail": "Cultura polinésia forte, dança, gastronomia, mercados"
+    },
+    {
+      "label": "Voo (a partir da Europa)",
+      "aDetail": "10-11h com escala",
+      "bDetail": "22-24h com 2 escalas"
+    },
+    {
+      "label": "Voo (a partir da costa oeste dos EUA)",
+      "aDetail": "22h+ com escala",
+      "bDetail": "8h direto LAX-PPT"
+    },
+    {
+      "label": "Opção multi-ilha",
+      "aDetail": "Possível em hidroavião, mas o mesmo tipo de atol",
+      "bDetail": "Bora Bora + Moorea + Tikehau + Tetiaroa: variedade genuína"
+    },
+    {
+      "label": "Clareza da água",
+      "aDetail": "Visibilidade de 25-30 m",
+      "bDetail": "15-20 m, excelente, mas menor"
+    },
+    {
+      "label": "Vida marinha",
+      "aDetail": "Tubarões-baleia, arraias-manta, mais de 100 espécies de coral",
+      "bDetail": "Tubarões de recife, arraias, recifes magníficos, mas menor variedade"
+    },
+    {
+      "label": "Densidade de marcas hoteleiras",
+      "aDetail": "Aman, Cheval Blanc, Four Seasons, One&Only, Soneva, Six Senses, Waldorf, Ritz, St Regis",
+      "bDetail": "Four Seasons, St Regis, InterContinental, Sofitel, Hilton: menos marcas"
+    },
+    {
+      "label": "Teto ultraluxo",
+      "aDetail": "Velaa, Cheval Blanc, Nautilus: $3000-10 000/noite",
+      "bDetail": "The Brando, próximos a Laucala: $5000-15 000/noite"
+    },
+    {
+      "label": "Melhor temporada",
+      "aDetail": "Nov-Abr (seca)",
+      "bDetail": "Mai-Out (seca)"
+    },
+    {
+      "label": "Fator romântico",
+      "aDetail": "Casulo centrado no quarto",
+      "bDetail": "Baseado na paisagem + cultural"
+    }
   ],
   "pickA": {
     "title": "Escolha as Maldivas se…",
@@ -41,9 +93,21 @@
     ]
   },
   "faqs": [
-    { "q": "Qual é mais cara?", "a": "A Polinésia Francesa, entre 20% e 30% para uma categoria equivalente. Os voos para Papeete são mais caros que para Malé a partir da maioria das origens, e os voos interinsulares se acumulam. The Brando em particular figura entre os hotéis mais caros do planeta ($3000-15 000+/noite)." },
-    { "q": "Bora Bora é comparável às Maldivas?", "a": "Similar no formato villa sobre a água com lagoa turquesa. Diferenças: Bora Bora tem o Monte Otemanu de fundo (Maldivas não), Maldivas oferece melhor clareza da água e maior escolha de resorts." },
-    { "q": "Posso fazer multi-ilha nas Maldivas?", "a": "Possível em hidroavião entre atóis/resorts, mas custa $400-700 por pessoa por trajeto. Os voos interinsulares da Polinésia Francesa (Air Tahiti) são mais acessíveis e rotineiros." },
-    { "q": "Qual está mais lotada?", "a": "Maldivas é mais privada por resort (um resort por ilha), mas os resorts são maiores (100-200 villas). Os resorts da Polinésia Francesa são menores (40-100 villas), mas visíveis a partir de outros resorts na mesma lagoa." }
+    {
+      "q": "Qual é mais cara?",
+      "a": "A Polinésia Francesa, entre 20% e 30% para uma categoria equivalente. Os voos para Papeete são mais caros que para Malé a partir da maioria das origens, e os voos interinsulares se acumulam. The Brando em particular figura entre os hotéis mais caros do planeta ($3000-15 000+/noite)."
+    },
+    {
+      "q": "Bora Bora é comparável às Maldivas?",
+      "a": "Similar no formato villa sobre a água com lagoa turquesa. Diferenças: Bora Bora tem o Monte Otemanu de fundo (Maldivas não), Maldivas oferece melhor clareza da água e maior escolha de resorts."
+    },
+    {
+      "q": "Posso fazer multi-ilha nas Maldivas?",
+      "a": "Possível em hidroavião entre atóis/resorts, mas custa $400-700 por pessoa por trajeto. Os voos interinsulares da Polinésia Francesa (Air Tahiti) são mais acessíveis e rotineiros."
+    },
+    {
+      "q": "Qual está mais lotada?",
+      "a": "Maldivas é mais privada por resort (um resort por ilha), mas os resorts são maiores (100-200 villas). Os resorts da Polinésia Francesa são menores (40-100 villas), mas visíveis a partir de outros resorts na mesma lagoa."
+    }
   ]
 }

@@ -136,6 +136,7 @@ localFood: 'Santorini cuisine is defined by its volcanic soil — the island pro
 currency: 'Euro (EUR)',
 language: 'Greek. English spoken at all tourist levels.',
 timezone: 'UTC+2 (Eastern European Time) / UTC+3 (EEST in summer, late March–late October)',
+  seo: { title: "Santorini Honeymoon: 24 Cliffside Cave Suites Scored", description: "24 caldera-view hotels ranked for honeymooners. Oia, Imerovigli, Firostefani. From $400/night. Best sunset suites, May-Oct picks." },
 }
 
 export default meta

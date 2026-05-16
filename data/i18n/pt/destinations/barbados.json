@@ -18,51 +18,229 @@
     "Quer um casulo all-inclusive em um único resort — Barbados recompensa quem sai para jantares fora"
   ],
   "experiences": [
-    { "icon": "⛵", "title": "Catamarã ao pôr do sol saindo de Holetown", "description": "A experiência signature de lua de mel em Barbados — catamarã Tiami ou Cool Runnings da pequena marina de Holetown, ponche de rum fluindo, reggae nas caixas, parada de snorkel com tartarugas-de-pente, pôr do sol no horizonte caribenho. Três horas que justificam a viagem inteira.", "cost": "$80–150 por pessoa em grupo; $1.500+ privativo", "tip": "Reserve o Tiami para a operação mais polida. Charters privativos de Port St. Charles valem para casais que querem privacidade genuína." },
-    { "icon": "🐢", "title": "Snorkel com tartarugas e naufrágios em Carlisle Bay", "description": "Carlisle Bay perto de Bridgetown abriga três ou quatro naufrágios rasos cheios de tartarugas verdes e de pente em água clara na altura da cintura. De longe o melhor snorkel de Barbados e um dos encontros com tartarugas mais confiáveis do Caribe.", "cost": "$70–120/pessoa de barco com equipamento", "tip": "Vá cedo (8–9h) antes dos barcos de cruzeiros chegarem. Muitos catamarãs da costa oeste incluem essa parada." },
-    { "icon": "🥃", "title": "Tour de rum no Mount Gay Visitors Centre", "description": "A destilaria comercial mais antiga do mundo (1703), na periferia de Bridgetown — o tour signature de 90 minutos termina com degustação de cinco runs, incluindo o raro 1703 Master Select. Almoço no Champers depois para a experiência completa de Bridgetown.", "cost": "$45–90/pessoa, dependendo do tour", "tip": "Pule o tour padrão de cruzeiros e reserve a experiência Master Blender ou um tour privativo se houver interesse sério em rum." },
-    { "icon": "🌊", "title": "Costa leste atlântica em Bathsheba", "description": "Travessia da ilha (90 min da costa oeste) até o lado atlântico selvagem. Almoço no Round House ou no restaurante do Atlantis Hotel no penhasco, foto do pico Soup Bowl e das formações de basalto, caminhada na praia dramática batida pelas ondas.", "cost": "$60–120 carro alugado pelo dia; almoço $40–80/pessoa", "tip": "Pare na St. Nicholas Abbey para um tour de uma plantação do século XVII e degustação de rum artesanal na volta." },
-    { "icon": "🎣", "title": "Fish fry de sexta em Oistins", "description": "A noite bajan mais autêntica — vila de pesca da costa sul se transforma toda sexta e sábado em festa ao ar livre com marlin, mahi-mahi e flying fish recém-grelhados, cerveja Banks, soca ao vivo e moradores dançando na rua. Barulhento, suado, glorioso.", "cost": "$15–30/pessoa de comida; $5–10 bebidas", "tip": "Vá ao Uncle George's ou Pat's Place para o melhor peixe grelhado. Chegue às 19h antes das filas, saia até as 23h antes do auge do caos." }
+    {
+      "icon": "⛵",
+      "title": "Catamarã ao pôr do sol saindo de Holetown",
+      "description": "A experiência signature de lua de mel em Barbados — catamarã Tiami ou Cool Runnings da pequena marina de Holetown, ponche de rum fluindo, reggae nas caixas, parada de snorkel com tartarugas-de-pente, pôr do sol no horizonte caribenho. Três horas que justificam a viagem inteira.",
+      "cost": "$80–150 por pessoa em grupo; $1.500+ privativo",
+      "tip": "Reserve o Tiami para a operação mais polida. Charters privativos de Port St. Charles valem para casais que querem privacidade genuína."
+    },
+    {
+      "icon": "🐢",
+      "title": "Snorkel com tartarugas e naufrágios em Carlisle Bay",
+      "description": "Carlisle Bay perto de Bridgetown abriga três ou quatro naufrágios rasos cheios de tartarugas verdes e de pente em água clara na altura da cintura. De longe o melhor snorkel de Barbados e um dos encontros com tartarugas mais confiáveis do Caribe.",
+      "cost": "$70–120/pessoa de barco com equipamento",
+      "tip": "Vá cedo (8–9h) antes dos barcos de cruzeiros chegarem. Muitos catamarãs da costa oeste incluem essa parada."
+    },
+    {
+      "icon": "🥃",
+      "title": "Tour de rum no Mount Gay Visitors Centre",
+      "description": "A destilaria comercial mais antiga do mundo (1703), na periferia de Bridgetown — o tour signature de 90 minutos termina com degustação de cinco runs, incluindo o raro 1703 Master Select. Almoço no Champers depois para a experiência completa de Bridgetown.",
+      "cost": "$45–90/pessoa, dependendo do tour",
+      "tip": "Pule o tour padrão de cruzeiros e reserve a experiência Master Blender ou um tour privativo se houver interesse sério em rum."
+    },
+    {
+      "icon": "🌊",
+      "title": "Costa leste atlântica em Bathsheba",
+      "description": "Travessia da ilha (90 min da costa oeste) até o lado atlântico selvagem. Almoço no Round House ou no restaurante do Atlantis Hotel no penhasco, foto do pico Soup Bowl e das formações de basalto, caminhada na praia dramática batida pelas ondas.",
+      "cost": "$60–120 carro alugado pelo dia; almoço $40–80/pessoa",
+      "tip": "Pare na St. Nicholas Abbey para um tour de uma plantação do século XVII e degustação de rum artesanal na volta."
+    },
+    {
+      "icon": "🎣",
+      "title": "Fish fry de sexta em Oistins",
+      "description": "A noite bajan mais autêntica — vila de pesca da costa sul se transforma toda sexta e sábado em festa ao ar livre com marlin, mahi-mahi e flying fish recém-grelhados, cerveja Banks, soca ao vivo e moradores dançando na rua. Barulhento, suado, glorioso.",
+      "cost": "$15–30/pessoa de comida; $5–10 bebidas",
+      "tip": "Vá ao Uncle George's ou Pat's Place para o melhor peixe grelhado. Chegue às 19h antes das filas, saia até as 23h antes do auge do caos."
+    }
   ],
   "months": [
-    { "month": "Jan", "weather": "28°C / 22°C, seco, com brisa", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Clima de cartão postal, tarifas de pico — reserve com 6+ meses" },
-    { "month": "Feb", "weather": "28°C / 22°C, seco", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Premium do Valentine's mais escapadinha de inverno EUA/UK — movimentado e caro" },
-    { "month": "Mar", "weather": "29°C / 23°C, seco", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Spring break na costa sul; Platinum Coast ainda calma" },
-    { "month": "Apr", "weather": "29°C / 23°C, seco", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Ponto doce após meados de abril — ótimo clima, tarifas amenizando" },
-    { "month": "May", "weather": "30°C / 24°C, chuvas curtas", "emoji": "⛅", "crowds": "Baixa", "price": "Médio", "verdict": "Melhor relação clima-preço do ano" },
-    { "month": "Jun", "weather": "30°C / 24°C, chuva ocasional", "emoji": "⛅", "crowds": "Baixa", "price": "Médio", "verdict": "Quieto, mar quente, baixo risco de furacão — Barbados está ao sul do cinturão principal" },
-    { "month": "Jul", "weather": "31°C / 24°C, úmido", "emoji": "⛅", "crowds": "Médio", "price": "Médio", "verdict": "Férias escolares europeias trazem multidão no fim de julho; festival Crop Over começa" },
-    { "month": "Aug", "weather": "31°C / 25°C, úmido", "emoji": "⛅", "crowds": "Médio", "price": "Médio", "verdict": "Crop Over no auge no início de agosto — vibrante, mas muito movimentado em Bridgetown" },
-    { "month": "Sep", "weather": "30°C / 24°C, úmido", "emoji": "🌧️", "crowds": "Mínima", "price": "Mínimo", "verdict": "Mês mais chuvoso e pequenos hotéis fecham para reformas — pule" },
-    { "month": "Oct", "weather": "30°C / 24°C, úmido no início", "emoji": "🌧️", "crowds": "Baixa", "price": "Médio", "verdict": "Alguns hotéis ainda fechados no início; segunda metade estabiliza" },
-    { "month": "Nov", "weather": "29°C / 23°C, secando", "emoji": "⛅", "crowds": "Médio", "price": "Alto", "verdict": "Mágica do shoulder — clima seco volta, tarifas ainda moderadas" },
-    { "month": "Dec", "weather": "29°C / 23°C, seco", "emoji": "☀️", "crowds": "Muito alta", "price": "Máximo", "verdict": "Semanas de feriado são as mais caras do ano — reserve até agosto" }
+    {
+      "month": "Jan",
+      "weather": "28°C / 22°C, seco, com brisa",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Clima de cartão postal, tarifas de pico — reserve com 6+ meses"
+    },
+    {
+      "month": "Feb",
+      "weather": "28°C / 22°C, seco",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Premium do Valentine's mais escapadinha de inverno EUA/UK — movimentado e caro"
+    },
+    {
+      "month": "Mar",
+      "weather": "29°C / 23°C, seco",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Spring break na costa sul; Platinum Coast ainda calma"
+    },
+    {
+      "month": "Apr",
+      "weather": "29°C / 23°C, seco",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Ponto doce após meados de abril — ótimo clima, tarifas amenizando"
+    },
+    {
+      "month": "May",
+      "weather": "30°C / 24°C, chuvas curtas",
+      "emoji": "⛅",
+      "crowds": "Baixa",
+      "price": "Médio",
+      "verdict": "Melhor relação clima-preço do ano"
+    },
+    {
+      "month": "Jun",
+      "weather": "30°C / 24°C, chuva ocasional",
+      "emoji": "⛅",
+      "crowds": "Baixa",
+      "price": "Médio",
+      "verdict": "Quieto, mar quente, baixo risco de furacão — Barbados está ao sul do cinturão principal"
+    },
+    {
+      "month": "Jul",
+      "weather": "31°C / 24°C, úmido",
+      "emoji": "⛅",
+      "crowds": "Médio",
+      "price": "Médio",
+      "verdict": "Férias escolares europeias trazem multidão no fim de julho; festival Crop Over começa"
+    },
+    {
+      "month": "Aug",
+      "weather": "31°C / 25°C, úmido",
+      "emoji": "⛅",
+      "crowds": "Médio",
+      "price": "Médio",
+      "verdict": "Crop Over no auge no início de agosto — vibrante, mas muito movimentado em Bridgetown"
+    },
+    {
+      "month": "Sep",
+      "weather": "30°C / 24°C, úmido",
+      "emoji": "🌧️",
+      "crowds": "Mínima",
+      "price": "Mínimo",
+      "verdict": "Mês mais chuvoso e pequenos hotéis fecham para reformas — pule"
+    },
+    {
+      "month": "Oct",
+      "weather": "30°C / 24°C, úmido no início",
+      "emoji": "🌧️",
+      "crowds": "Baixa",
+      "price": "Médio",
+      "verdict": "Alguns hotéis ainda fechados no início; segunda metade estabiliza"
+    },
+    {
+      "month": "Nov",
+      "weather": "29°C / 23°C, secando",
+      "emoji": "⛅",
+      "crowds": "Médio",
+      "price": "Alto",
+      "verdict": "Mágica do shoulder — clima seco volta, tarifas ainda moderadas"
+    },
+    {
+      "month": "Dec",
+      "weather": "29°C / 23°C, seco",
+      "emoji": "☀️",
+      "crowds": "Muito alta",
+      "price": "Máximo",
+      "verdict": "Semanas de feriado são as mais caras do ano — reserve até agosto"
+    }
   ],
   "budgetTiers": [
-    { "label": "Confortável", "range": "$400–650/noite", "gets": "4 estrelas na costa sul ou leste com bom acesso à praia; ou 4 estrelas da costa oeste fora de pico, como The House.", "example": "The Crane (costa leste, suítes generosas) ou The House by Elegant Hotels (Holetown, só adultos)" },
-    { "label": "Elevado", "range": "$700–1.500/noite", "gets": "Luxo boutique da Platinum Coast — propriedades íntimas só para adultos ou clássicos polidos para famílias.", "example": "Cobblers Cove (Relais & Châteaux), The Sandpiper (só adultos), Coral Reef Club (elegância familiar)" },
-    { "label": "Icônico", "range": "$1.800–9.500/noite", "gets": "Sandy Lane e as suítes verdadeiramente grandes — palácios de pedra coralina, spas de 4.300 m², serviço de butler completo.", "example": "Sandy Lane Orchid Suites ou One-Bedroom Dolphin Suites" }
+    {
+      "label": "Confortável",
+      "range": "$400–650/noite",
+      "gets": "4 estrelas na costa sul ou leste com bom acesso à praia; ou 4 estrelas da costa oeste fora de pico, como The House.",
+      "example": "The Crane (costa leste, suítes generosas) ou The House by Elegant Hotels (Holetown, só adultos)"
+    },
+    {
+      "label": "Elevado",
+      "range": "$700–1.500/noite",
+      "gets": "Luxo boutique da Platinum Coast — propriedades íntimas só para adultos ou clássicos polidos para famílias.",
+      "example": "Cobblers Cove (Relais & Châteaux), The Sandpiper (só adultos), Coral Reef Club (elegância familiar)"
+    },
+    {
+      "label": "Icônico",
+      "range": "$1.800–9.500/noite",
+      "gets": "Sandy Lane e as suítes verdadeiramente grandes — palácios de pedra coralina, spas de 4.300 m², serviço de butler completo.",
+      "example": "Sandy Lane Orchid Suites ou One-Bedroom Dolphin Suites"
+    }
   ],
   "areas": [
-    { "name": "Platinum Coast (St. James / Holetown / Speightstown)", "bestFor": "Mar do Caribe calmo, hotéis de luxo, jantares caminháveis em Holetown", "description": "A costa oeste — água turquesa plana, praias sombreadas por palmeiras, a maior concentração de hotéis boutique de luxo do Caribe oriental. Holetown é o hub de jantar." },
-    { "name": "Costa sul (St. Lawrence Gap / Oistins)", "bestFor": "Fish fry de sexta, vida noturna mais animada, hotéis mais acessíveis", "description": "Ondas um pouco maiores que a oeste, mais variedade gastronômica e o lendário fish fry de Oistins toda sexta. Faixa de preço mais acessível que a Platinum Coast." },
-    { "name": "Sudeste (St. Philip / Crane)", "bestFor": "Cenário dramático de penhasco, areia rosa de Crane Beach, proximidade do aeroporto", "description": "Onde o Caribe calmo encontra o Atlântico selvagem. O Crane Resort fica em penhascos calcários dramáticos sobre uma das praias mais fotografadas do mundo." },
-    { "name": "Costa leste (Bathsheba / Atlântico)", "bestFor": "Drama de bate-volta, surf, formações basálticas", "description": "Selvagem, batida pelas ondas, quase sem hotéis — visite por dia pelo cenário espetacular e almoço no Round House, depois volte para o oeste ou sul para dormir." }
+    {
+      "name": "Platinum Coast (St. James / Holetown / Speightstown)",
+      "bestFor": "Mar do Caribe calmo, hotéis de luxo, jantares caminháveis em Holetown",
+      "description": "A costa oeste — água turquesa plana, praias sombreadas por palmeiras, a maior concentração de hotéis boutique de luxo do Caribe oriental. Holetown é o hub de jantar."
+    },
+    {
+      "name": "Costa sul (St. Lawrence Gap / Oistins)",
+      "bestFor": "Fish fry de sexta, vida noturna mais animada, hotéis mais acessíveis",
+      "description": "Ondas um pouco maiores que a oeste, mais variedade gastronômica e o lendário fish fry de Oistins toda sexta. Faixa de preço mais acessível que a Platinum Coast."
+    },
+    {
+      "name": "Sudeste (St. Philip / Crane)",
+      "bestFor": "Cenário dramático de penhasco, areia rosa de Crane Beach, proximidade do aeroporto",
+      "description": "Onde o Caribe calmo encontra o Atlântico selvagem. O Crane Resort fica em penhascos calcários dramáticos sobre uma das praias mais fotografadas do mundo."
+    },
+    {
+      "name": "Costa leste (Bathsheba / Atlântico)",
+      "bestFor": "Drama de bate-volta, surf, formações basálticas",
+      "description": "Selvagem, batida pelas ondas, quase sem hotéis — visite por dia pelo cenário espetacular e almoço no Round House, depois volte para o oeste ou sul para dormir."
+    }
   ],
   "expertTips": [
-    { "tip": "Alugue um carro por dois dias, não a viagem inteira", "detail": "Dirigir pela esquerda pode ser apertado nas estradas da costa oeste, mas a liberdade de chegar a Bathsheba, St. Nicholas Abbey e o fish fry de Oistins na sexta vale a pena. Carros saem por ~$60/dia; motorista privativo para transfers e dias longos custa $250–400." },
-    { "tip": "Planeje jantares fora pelo menos três noites", "detail": "The Cliff (Derricks), Tides (Holetown), Daphne's, Lone Star e Nikki Beach são todos caminháveis ou de carro curto dos hotéis da costa oeste. Pular todos os jantares no resort melhora drasticamente a viagem — a cena de restaurantes em Barbados é genuinamente forte." },
-    { "tip": "Fish fry de sexta em Oistins é inegociável", "detail": "Toda sexta e sábado a partir das 19h. Uncle George's e Pat's Place são as opções. Só dinheiro, $15–30/pessoa por marlin ou mahi-mahi recém-grelhado, soca ao vivo, moradores dançando — a melhor noite autêntica da ilha." },
-    { "tip": "Costa oeste é calma; costa leste é selvagem — planeje", "detail": "Não reserve um hotel na costa leste esperando banho caribenho — o surf atlântico não é brincadeira. Fique no oeste ou sul para nadar e visite a costa leste em bate-voltas." },
-    { "tip": "Gorjeta é 10–15% e frequentemente já vem na conta", "detail": "Confira contas de restaurante com cuidado — taxa de serviço é frequentemente adicionada. Se não, 10–15% é padrão. USD ou BBD em dinheiro ambos funcionam; notas pequenas são apreciadas." }
+    {
+      "tip": "Alugue um carro por dois dias, não a viagem inteira",
+      "detail": "Dirigir pela esquerda pode ser apertado nas estradas da costa oeste, mas a liberdade de chegar a Bathsheba, St. Nicholas Abbey e o fish fry de Oistins na sexta vale a pena. Carros saem por ~$60/dia; motorista privativo para transfers e dias longos custa $250–400."
+    },
+    {
+      "tip": "Planeje jantares fora pelo menos três noites",
+      "detail": "The Cliff (Derricks), Tides (Holetown), Daphne's, Lone Star e Nikki Beach são todos caminháveis ou de carro curto dos hotéis da costa oeste. Pular todos os jantares no resort melhora drasticamente a viagem — a cena de restaurantes em Barbados é genuinamente forte."
+    },
+    {
+      "tip": "Fish fry de sexta em Oistins é inegociável",
+      "detail": "Toda sexta e sábado a partir das 19h. Uncle George's e Pat's Place são as opções. Só dinheiro, $15–30/pessoa por marlin ou mahi-mahi recém-grelhado, soca ao vivo, moradores dançando — a melhor noite autêntica da ilha."
+    },
+    {
+      "tip": "Costa oeste é calma; costa leste é selvagem — planeje",
+      "detail": "Não reserve um hotel na costa leste esperando banho caribenho — o surf atlântico não é brincadeira. Fique no oeste ou sul para nadar e visite a costa leste em bate-voltas."
+    },
+    {
+      "tip": "Gorjeta é 10–15% e frequentemente já vem na conta",
+      "detail": "Confira contas de restaurante com cuidado — taxa de serviço é frequentemente adicionada. Se não, 10–15% é padrão. USD ou BBD em dinheiro ambos funcionam; notas pequenas são apreciadas."
+    }
   ],
   "packing": [
-    { "item": "Protetor reef-safe (FPS 50)", "why": "Sol caribenho é forte o ano todo; alguns parques marinhos exigem reef-safe; caro na ilha." },
-    { "item": "Look smart casual para o jantar", "why": "Sandy Lane, Coral Reef, The Cliff e Tides observam dress code smart-casual — camisa de gola e calça comprida para homens." },
-    { "item": "Camada leve para a noite", "why": "Ventos alísios podem baixar a temperatura para 20°C no inverno; ar-condicionado em restaurantes é forte." },
-    { "item": "Dinheiro em notas USD pequenas", "why": "Gorjetas, táxis, fish fry de Oistins, vendedores de praia tudo flui com USD em dinheiro." },
-    { "item": "Equipamento de snorkel se tiver", "why": "Aluguel de resort é mediano; você fará snorkel com tartarugas em Carlisle Bay, Folkestone Marine Park e na praia do hotel." },
-    { "item": "Repelente de insetos", "why": "Mosquitos ao entardecer perto da vegetação; maruins em praias da costa leste no fim da tarde." }
+    {
+      "item": "Protetor reef-safe (FPS 50)",
+      "why": "Sol caribenho é forte o ano todo; alguns parques marinhos exigem reef-safe; caro na ilha."
+    },
+    {
+      "item": "Look smart casual para o jantar",
+      "why": "Sandy Lane, Coral Reef, The Cliff e Tides observam dress code smart-casual — camisa de gola e calça comprida para homens."
+    },
+    {
+      "item": "Camada leve para a noite",
+      "why": "Ventos alísios podem baixar a temperatura para 20°C no inverno; ar-condicionado em restaurantes é forte."
+    },
+    {
+      "item": "Dinheiro em notas USD pequenas",
+      "why": "Gorjetas, táxis, fish fry de Oistins, vendedores de praia tudo flui com USD em dinheiro."
+    },
+    {
+      "item": "Equipamento de snorkel se tiver",
+      "why": "Aluguel de resort é mediano; você fará snorkel com tartarugas em Carlisle Bay, Folkestone Marine Park e na praia do hotel."
+    },
+    {
+      "item": "Repelente de insetos",
+      "why": "Mosquitos ao entardecer perto da vegetação; maruins em praias da costa leste no fim da tarde."
+    }
   ],
   "guide": {
     "getting": "Grantley Adams International (BGI) na costa sul é o único aeroporto. Voos diretos de Londres (BA, Virgin, ~8h), Nova York (American, JetBlue, ~5h), Miami (~4h), Toronto (~5h). Pré-organize transfer privativo pelo hotel — $30–90 tabela fixa por zona. The Crane é o hotel mais próximo (15 min); Holetown na costa oeste é 35 min; Speightstown é 50 min.",
@@ -72,5 +250,9 @@
   "localFood": "Cozinha bajan é a mais refinada do Caribe — flying fish e cou-cou (prato nacional, fubá com quiabo), ensopado pepperpot, macaroni pie, fish cakes, pudding-and-souse. Fish fry de sexta em Oistins é o ritual bajan — marlin, mahi-mahi, lagosta na temporada recém-grelhados. Não deixe de provar Mount Gay rum (o mais antigo do mundo), o rum artesanal St. Nicholas Abbey e a cerveja local Banks. Para sobremesa: bolo de rum e conkies (embrulhos de fubá-coco no vapor).",
   "currency": "Dólar Barbadense (BBD) — fixo 2:1 com USD; USD universalmente aceito",
   "language": "Inglês (dialeto bajan)",
-  "timezone": "AST (UTC-4)"
+  "timezone": "AST (UTC-4)",
+  "seo": {
+    "title": "Lua de Mel em Barbados: 6 Resorts Costa Oeste 2026",
+    "description": "6 resorts na Costa Platina pontuados. Sandy Lane, Coral Reef Club, Cobblers Cove. De $700/noite."
+  }
 }

@@ -1,6 +1,10 @@
 {
   "tagline": "Ártico vulcânico de outro mundo contra o glamour alpino dos grandes hotéis: luas de mel frias bem feitas.",
   "metaDescription": "Islândia ou Suíça para uma lua de mel? Aurora boreal contra o Matterhorn. Geotérmico contra grandes hotéis. Comparação completa de lua de mel.",
+  "seo": {
+    "title": "Islândia vs Suíça Lua de Mel: Veredicto Frio 2026",
+    "description": "Islândia vs Suíça para lua de mel 2026: aurora boreal e campos de lava vs Matterhorn e grandes hotéis. Temporada, custo, romance."
+  },
   "verdict": "A Islândia é outro planeta: paisagens vulcânicas, aurora boreal, lagoas geotérmicas, geleiras. A Suíça é a Europa em sua versão mais refinada: suítes com vista para o Matterhorn, grandes hotéis centenários, fondue à luz de velas em vilarejos sem carros. A Islândia é para casais que buscam assombro e aventura. A Suíça é para casais que buscam romance e refinamento. A Islândia abaixo de $800/noite parece aventureira; a Suíça abaixo de $800/noite parece apertada.",
   "tldr": {
     "forA": "Islândia: pelo assombro, a aurora boreal e o espetáculo da paisagem vulcânica.",
@@ -8,17 +12,61 @@
     "tie": "Os dois exigem orçamento sério: nenhum é barato."
   },
   "criteria": [
-    { "label": "A vista icônica", "aDetail": "Aurora boreal sobre uma lagoa geotérmica", "bDetail": "O Matterhorn visto de Zermatt, refletido em um lago" },
-    { "label": "Aventura", "aDetail": "Trilhas em geleira, cavernas de gelo, passeios por vulcões, observação de baleias, passeios a cavalo", "bDetail": "Trilhas, esqui: alpino mais tradicional" },
-    { "label": "Hotéis de luxo", "aDetail": "Sólido design moderno (Retreat at Blue Lagoon, Deplar Farm, Torfhús)", "bDetail": "Grandes damas centenárias (Badrutt's Palace, Gstaad Palace, The Alpina)" },
-    { "label": "Gastronomia", "aDetail": "Nova cozinha nórdica, peixe fresco, cordeiro: boa, mas de nicho", "bDetail": "Fondue, raclette, cozinha trilíngue francesa/alemã/italiana, várias estrelas Michelin" },
-    { "label": "Voo (Europa)", "aDetail": "3h direto de Londres", "bDetail": "1-2h direto da maioria das capitais europeias" },
-    { "label": "Voo (leste dos EUA)", "aDetail": "5-6h direto, muitas rotas da Icelandair", "bDetail": "7-8h direto NYC-ZRH" },
-    { "label": "Melhor temporada", "aDetail": "Verão (sol da meia-noite) + out-mar (aurora boreal)", "bDetail": "Verão (trilhas) + inverno (esqui)" },
-    { "label": "Romance de inverno", "aDetail": "Aurora boreal + lagoa geotérmica = máximo romance de inverno", "bDetail": "Saint Moritz no Natal = máximo glamour, mas previsível" },
-    { "label": "Romance de verão", "aDetail": "Verde, espetacular, mas a oferta hoteleira é mais limitada", "bDetail": "Região adjacente ao Lago de Como, trilhas entre prados floridos, dias de 25 °C" },
-    { "label": "Preço para 5 estrelas", "aDetail": "$500-1500/noite", "bDetail": "$700-2000/noite" },
-    { "label": "Fator romântico", "aDetail": "Espetacular, primitivo, avassalador", "bDetail": "Refinado, clássico, de livro ilustrado" }
+    {
+      "label": "A vista icônica",
+      "aDetail": "Aurora boreal sobre uma lagoa geotérmica",
+      "bDetail": "O Matterhorn visto de Zermatt, refletido em um lago"
+    },
+    {
+      "label": "Aventura",
+      "aDetail": "Trilhas em geleira, cavernas de gelo, passeios por vulcões, observação de baleias, passeios a cavalo",
+      "bDetail": "Trilhas, esqui: alpino mais tradicional"
+    },
+    {
+      "label": "Hotéis de luxo",
+      "aDetail": "Sólido design moderno (Retreat at Blue Lagoon, Deplar Farm, Torfhús)",
+      "bDetail": "Grandes damas centenárias (Badrutt's Palace, Gstaad Palace, The Alpina)"
+    },
+    {
+      "label": "Gastronomia",
+      "aDetail": "Nova cozinha nórdica, peixe fresco, cordeiro: boa, mas de nicho",
+      "bDetail": "Fondue, raclette, cozinha trilíngue francesa/alemã/italiana, várias estrelas Michelin"
+    },
+    {
+      "label": "Voo (Europa)",
+      "aDetail": "3h direto de Londres",
+      "bDetail": "1-2h direto da maioria das capitais europeias"
+    },
+    {
+      "label": "Voo (leste dos EUA)",
+      "aDetail": "5-6h direto, muitas rotas da Icelandair",
+      "bDetail": "7-8h direto NYC-ZRH"
+    },
+    {
+      "label": "Melhor temporada",
+      "aDetail": "Verão (sol da meia-noite) + out-mar (aurora boreal)",
+      "bDetail": "Verão (trilhas) + inverno (esqui)"
+    },
+    {
+      "label": "Romance de inverno",
+      "aDetail": "Aurora boreal + lagoa geotérmica = máximo romance de inverno",
+      "bDetail": "Saint Moritz no Natal = máximo glamour, mas previsível"
+    },
+    {
+      "label": "Romance de verão",
+      "aDetail": "Verde, espetacular, mas a oferta hoteleira é mais limitada",
+      "bDetail": "Região adjacente ao Lago de Como, trilhas entre prados floridos, dias de 25 °C"
+    },
+    {
+      "label": "Preço para 5 estrelas",
+      "aDetail": "$500-1500/noite",
+      "bDetail": "$700-2000/noite"
+    },
+    {
+      "label": "Fator romântico",
+      "aDetail": "Espetacular, primitivo, avassalador",
+      "bDetail": "Refinado, clássico, de livro ilustrado"
+    }
   ],
   "pickA": {
     "title": "Escolha a Islândia se…",
@@ -41,9 +89,21 @@
     ]
   },
   "faqs": [
-    { "q": "Qual é mais cara?", "a": "Suíça. Os resorts alpinos de 5 estrelas no inverno (Badrutt's Palace na semana de Natal) podem chegar a mais de $2000/noite. A faixa de luxo da Islândia tem teto em torno de $1500/noite no The Retreat. A gastronomia também é entre 20% e 30% mais cara na Suíça do que na Islândia." },
-    { "q": "Qual é melhor no inverno?", "a": "Depende das preferências. Islândia entre dez-mar é temporada de aurora boreal e banhos geotérmicos: romance primitivo. Suíça entre dez-mar é temporada de esqui e mercados de Natal: romance refinado." },
-    { "q": "Podemos ver a aurora boreal na Suíça?", "a": "Praticamente nunca: a Suíça está muito ao sul. A Islândia fica bem abaixo do oval auroral. Se a aurora boreal é prioridade, a Islândia é a única opção." },
-    { "q": "Qual tem melhores trilhas?", "a": "A Suíça no verão não tem rival: prados alpinos, trilhas sinalizadas, refúgios de montanha e infraestrutura de transporte (teleféricos, trens) que tornam as trilhas simples. As rotas da Islândia são mais selvagens, mas menos desenvolvidas." }
+    {
+      "q": "Qual é mais cara?",
+      "a": "Suíça. Os resorts alpinos de 5 estrelas no inverno (Badrutt's Palace na semana de Natal) podem chegar a mais de $2000/noite. A faixa de luxo da Islândia tem teto em torno de $1500/noite no The Retreat. A gastronomia também é entre 20% e 30% mais cara na Suíça do que na Islândia."
+    },
+    {
+      "q": "Qual é melhor no inverno?",
+      "a": "Depende das preferências. Islândia entre dez-mar é temporada de aurora boreal e banhos geotérmicos: romance primitivo. Suíça entre dez-mar é temporada de esqui e mercados de Natal: romance refinado."
+    },
+    {
+      "q": "Podemos ver a aurora boreal na Suíça?",
+      "a": "Praticamente nunca: a Suíça está muito ao sul. A Islândia fica bem abaixo do oval auroral. Se a aurora boreal é prioridade, a Islândia é a única opção."
+    },
+    {
+      "q": "Qual tem melhores trilhas?",
+      "a": "A Suíça no verão não tem rival: prados alpinos, trilhas sinalizadas, refúgios de montanha e infraestrutura de transporte (teleféricos, trens) que tornam as trilhas simples. As rotas da Islândia são mais selvagens, mas menos desenvolvidas."
+    }
   ]
 }

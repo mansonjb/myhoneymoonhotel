@@ -156,6 +156,7 @@ localFood: 'Black risotto (crni rižot) made with cuttlefish ink and fresh Adria
 currency: 'Euro (EUR) since 2023',
 language: 'Croatian (English spoken widely in tourism)',
 timezone: 'UTC+1 (CET) / UTC+2 (CEST)',
+  seo: { title: "Croatia Honeymoon: 8 Adriatic Coast Hotels Scored 2026", description: "8 Dubrovnik, Hvar, Istria hotels ranked. Esplanade, Excelsior, Maslina. From $400/night. May-Sep best verdicts." },
 }
 
 export default meta

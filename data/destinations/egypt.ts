@@ -106,6 +106,7 @@ localFood: 'Mezze (foul medames, baba ghanoush, tahini, falafel — yes, the Egy
 currency: 'Egyptian Pound (EGP) — highly volatile in 2024–25, trading roughly 48 EGP/$1. Cards accepted at hotels and major restaurants; cash essential for tipping, monuments, taxis, and bazaars. Withdraw EGP 2,000 on arrival at the airport ATM.',
 language: 'Arabic is official; English is widely spoken at hotels and tourist sites. A few words of Arabic ("shukran" thanks, "salaam alaikum" hello) earn warm smiles.',
 timezone: 'UTC+2 (no daylight saving)',
+  seo: { title: "Egypt Honeymoon: 8 Nile Cruise & Red Sea Resorts 2026", description: "8 Cairo, Luxor, Aswan, Red Sea stays scored. Old Cataract, Four Seasons, Sofitel Legend. From $300/night. Oct-Apr." },
 }
 
 export default meta

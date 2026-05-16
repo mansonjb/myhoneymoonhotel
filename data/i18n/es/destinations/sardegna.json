@@ -55,44 +55,193 @@
     }
   ],
   "months": [
-    { "month": "Jan", "weather": "Fresco 8-14 °C, lluvia, casi todos los hoteles cerrados", "emoji": "🌧", "crowds": "Cerrado", "price": "N/A", "verdict": "La mayoría de hoteles de la Costa Smeralda cerrados" },
-    { "month": "Feb", "weather": "Fresco 9-15 °C", "emoji": "🌧", "crowds": "Cerrado", "price": "N/A", "verdict": "Temporada cerrada" },
-    { "month": "Mar", "weather": "Templándose 12-17 °C", "emoji": "🌦", "crowds": "Cerrado", "price": "N/A", "verdict": "La mayoría aún cerrados" },
-    { "month": "Apr", "weather": "15-20 °C, flores de primavera", "emoji": "🌸", "crowds": "Baja", "price": "Bajo", "verdict": "Hoteles empiezan a abrir; aún no es tiempo de playa" },
-    { "month": "May", "weather": "18-24 °C, encantador", "emoji": "☀️", "crowds": "Baja", "price": "Medio", "verdict": "Mes magnífico: cálido, florido, sin gentío" },
-    { "month": "Jun", "weather": "22-28 °C, verano de verdad", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Perfecto: el mejor mes pre-pico" },
-    { "month": "Jul", "weather": "25-32 °C", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Icónico, pero precios y multitudes extremos" },
-    { "month": "Aug", "weather": "26-34 °C", "emoji": "🔥", "crowds": "Máxima", "price": "Máximo", "verdict": "Mes de vacaciones italianas: evítelo si puede" },
-    { "month": "Sep", "weather": "22-28 °C, mar todavía cálido", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Posiblemente el mejor mes: agua cálida, menos gente" },
-    { "month": "Oct", "weather": "18-24 °C, hoteles cerrando a fin de mes", "emoji": "🍂", "crowds": "Baja", "price": "Medio", "verdict": "Inicios de oct. excelentes; finales, en cierre" },
-    { "month": "Nov", "weather": "13-19 °C", "emoji": "🌧", "crowds": "Cerrado", "price": "N/A", "verdict": "Mayoría de hoteles cerrados" },
-    { "month": "Dec", "weather": "10-15 °C", "emoji": "🌧", "crowds": "Cerrado", "price": "N/A", "verdict": "Temporada cerrada: sin opción de luna de miel" }
+    {
+      "month": "Jan",
+      "weather": "Fresco 8-14 °C, lluvia, casi todos los hoteles cerrados",
+      "emoji": "🌧",
+      "crowds": "Cerrado",
+      "price": "N/A",
+      "verdict": "La mayoría de hoteles de la Costa Smeralda cerrados"
+    },
+    {
+      "month": "Feb",
+      "weather": "Fresco 9-15 °C",
+      "emoji": "🌧",
+      "crowds": "Cerrado",
+      "price": "N/A",
+      "verdict": "Temporada cerrada"
+    },
+    {
+      "month": "Mar",
+      "weather": "Templándose 12-17 °C",
+      "emoji": "🌦",
+      "crowds": "Cerrado",
+      "price": "N/A",
+      "verdict": "La mayoría aún cerrados"
+    },
+    {
+      "month": "Apr",
+      "weather": "15-20 °C, flores de primavera",
+      "emoji": "🌸",
+      "crowds": "Baja",
+      "price": "Bajo",
+      "verdict": "Hoteles empiezan a abrir; aún no es tiempo de playa"
+    },
+    {
+      "month": "May",
+      "weather": "18-24 °C, encantador",
+      "emoji": "☀️",
+      "crowds": "Baja",
+      "price": "Medio",
+      "verdict": "Mes magnífico: cálido, florido, sin gentío"
+    },
+    {
+      "month": "Jun",
+      "weather": "22-28 °C, verano de verdad",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Perfecto: el mejor mes pre-pico"
+    },
+    {
+      "month": "Jul",
+      "weather": "25-32 °C",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Icónico, pero precios y multitudes extremos"
+    },
+    {
+      "month": "Aug",
+      "weather": "26-34 °C",
+      "emoji": "🔥",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Mes de vacaciones italianas: evítelo si puede"
+    },
+    {
+      "month": "Sep",
+      "weather": "22-28 °C, mar todavía cálido",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Posiblemente el mejor mes: agua cálida, menos gente"
+    },
+    {
+      "month": "Oct",
+      "weather": "18-24 °C, hoteles cerrando a fin de mes",
+      "emoji": "🍂",
+      "crowds": "Baja",
+      "price": "Medio",
+      "verdict": "Inicios de oct. excelentes; finales, en cierre"
+    },
+    {
+      "month": "Nov",
+      "weather": "13-19 °C",
+      "emoji": "🌧",
+      "crowds": "Cerrado",
+      "price": "N/A",
+      "verdict": "Mayoría de hoteles cerrados"
+    },
+    {
+      "month": "Dec",
+      "weather": "10-15 °C",
+      "emoji": "🌧",
+      "crowds": "Cerrado",
+      "price": "N/A",
+      "verdict": "Temporada cerrada: sin opción de luna de miel"
+    }
   ],
   "budgetTiers": [
-    { "label": "Boutique de gama alta", "range": "400-900 USD/noche", "gets": "Hotel pequeño con identidad de diseño en Baja Sardinia o San Teodoro; opciones más reducidas en la Costa Smeralda.", "example": "7Pines Resort Sardinia, Hotel L'Ea Bianca, Baglioni Resort Sardinia, Capo d'Orso" },
-    { "label": "Lujo premium", "range": "900-2.500 USD/noche", "gets": "Clásicos de la Costa Smeralda en temporada media; mejores resorts de talasoterapia/playa.", "example": "Hotel Romazzino, Forte Village Resort (categoría villa superior), Hotel Pitrizza temporada media" },
-    { "label": "Icónico y pico", "range": "2.000-6.000 USD/noche", "gets": "Suites en Cala di Volpe, Pitrizza o Romazzino en julio/agosto: direcciones legendarias y precios legendarios.", "example": "Hotel Cala di Volpe (Suite Presidencial), Hotel Pitrizza Executive Junior Suite" }
+    {
+      "label": "Boutique de gama alta",
+      "range": "400-900 USD/noche",
+      "gets": "Hotel pequeño con identidad de diseño en Baja Sardinia o San Teodoro; opciones más reducidas en la Costa Smeralda.",
+      "example": "7Pines Resort Sardinia, Hotel L'Ea Bianca, Baglioni Resort Sardinia, Capo d'Orso"
+    },
+    {
+      "label": "Lujo premium",
+      "range": "900-2.500 USD/noche",
+      "gets": "Clásicos de la Costa Smeralda en temporada media; mejores resorts de talasoterapia/playa.",
+      "example": "Hotel Romazzino, Forte Village Resort (categoría villa superior), Hotel Pitrizza temporada media"
+    },
+    {
+      "label": "Icónico y pico",
+      "range": "2.000-6.000 USD/noche",
+      "gets": "Suites en Cala di Volpe, Pitrizza o Romazzino en julio/agosto: direcciones legendarias y precios legendarios.",
+      "example": "Hotel Cala di Volpe (Suite Presidencial), Hotel Pitrizza Executive Junior Suite"
+    }
   ],
   "areas": [
-    { "name": "Costa Smeralda / Porto Cervo", "bestFor": "Ultra-lujo, glamour de calibre celebridad, vida de yates", "description": "Los 55 km de costa noreste desarrollados desde 1962 por la Fundación Aga Khan. Cala di Volpe, Pitrizza, Romazzino. La marina de Porto Cervo es el centro social." },
-    { "name": "Baja Sardinia / Cannigione", "bestFor": "Playa, lujo boutique, solo adultos", "description": "Justo al norte de la Costa Smeralda propiamente dicha. Más tranquila, ligeramente mejor relación calidad-precio. 7Pines, L'Ea Bianca y excelentes aguas para excursiones a La Maddalena." },
-    { "name": "Archipiélago de La Maddalena", "bestFor": "Días en barco, playas protegidas", "description": "Parque nacional de 62 islas e islotes graníticos. La famosa playa rosa de Budelli, Spargi, Caprera. Mejor disfrutado con un chárter de jornada completa desde Porto Cervo o Cannigione." },
-    { "name": "San Teodoro / costa este", "bestFor": "Grandes playas a precios más amables", "description": "Al sur de la Costa Smeralda, San Teodoro tiene algunas de las playas más bellas de la isla (La Cinta, Lu Impostu). Baglioni Resort Sardinia es el ancla de lujo." },
-    { "name": "Costa sur / Cagliari", "bestFor": "Destino todo el año, bienestar, ciudad", "description": "La capital, Cagliari, y el Forte Village Resort al sur. Menos ambiente «Costa Smeralda»; temporada más larga y mejor relación calidad-precio." }
+    {
+      "name": "Costa Smeralda / Porto Cervo",
+      "bestFor": "Ultra-lujo, glamour de calibre celebridad, vida de yates",
+      "description": "Los 55 km de costa noreste desarrollados desde 1962 por la Fundación Aga Khan. Cala di Volpe, Pitrizza, Romazzino. La marina de Porto Cervo es el centro social."
+    },
+    {
+      "name": "Baja Sardinia / Cannigione",
+      "bestFor": "Playa, lujo boutique, solo adultos",
+      "description": "Justo al norte de la Costa Smeralda propiamente dicha. Más tranquila, ligeramente mejor relación calidad-precio. 7Pines, L'Ea Bianca y excelentes aguas para excursiones a La Maddalena."
+    },
+    {
+      "name": "Archipiélago de La Maddalena",
+      "bestFor": "Días en barco, playas protegidas",
+      "description": "Parque nacional de 62 islas e islotes graníticos. La famosa playa rosa de Budelli, Spargi, Caprera. Mejor disfrutado con un chárter de jornada completa desde Porto Cervo o Cannigione."
+    },
+    {
+      "name": "San Teodoro / costa este",
+      "bestFor": "Grandes playas a precios más amables",
+      "description": "Al sur de la Costa Smeralda, San Teodoro tiene algunas de las playas más bellas de la isla (La Cinta, Lu Impostu). Baglioni Resort Sardinia es el ancla de lujo."
+    },
+    {
+      "name": "Costa sur / Cagliari",
+      "bestFor": "Destino todo el año, bienestar, ciudad",
+      "description": "La capital, Cagliari, y el Forte Village Resort al sur. Menos ambiente «Costa Smeralda»; temporada más larga y mejor relación calidad-precio."
+    }
   ],
   "expertTips": [
-    { "tip": "Evite del 1 al 20 de agosto a toda costa", "detail": "La quincena de vacaciones italiana (Ferragosto) es cuando todas las familias italianas se trasladan a Cerdeña. Los restaurantes de la Costa Smeralda se vuelven casi imposibles de reservar, las carreteras a Porto Cervo se colapsan y los precios suben un 100% sobre la temporada media. Junio y septiembre ofrecen una luna de miel genuinamente superior." },
-    { "tip": "Vuele a Olbia (OLB), no a Cagliari", "detail": "Olbia está a 30 min de la Costa Smeralda. Cagliari está a 3 h en coche. A menos que se aloje en Forte Village o Chia, Olbia es el aeropuerto: directos desde Londres, París, Milán, Roma y, en temporada, Zúrich, Múnich, Berlín." },
-    { "tip": "Alquile un descapotable para la carretera costera", "detail": "La SP73 que une las calas es uno de los mejores recorridos del Mediterráneo. Un cabriolet pequeño (Fiat 500, Jeep Wrangler) es perfecto; los hoteles pueden organizar la recogida en el aeropuerto de Olbia. Presupueste 100-200 USD/día en temporada." },
-    { "tip": "Las reservas en clubes de playa son imprescindibles en temporada alta", "detail": "Las mejores playas (Liscia di Vacca, Romazzino, Principe) son públicas, pero el aparcamiento es limitado y hay clubes de playa muy demandados. Reserve a través del hotel o directamente: en agosto, presentarse sin reserva es imposible." },
-    { "tip": "La siesta es real y sagrada", "detail": "La mayoría de las tiendas y restaurantes de la Costa Smeralda cierran de 13:00 a 16:00. Planifique en consecuencia: almuerzos largos en clubes de playa, después compras y cena en Porto Cervo a partir de las 19:00. Cenar a las 22:00 es lo normal en temporada." }
+    {
+      "tip": "Evite del 1 al 20 de agosto a toda costa",
+      "detail": "La quincena de vacaciones italiana (Ferragosto) es cuando todas las familias italianas se trasladan a Cerdeña. Los restaurantes de la Costa Smeralda se vuelven casi imposibles de reservar, las carreteras a Porto Cervo se colapsan y los precios suben un 100% sobre la temporada media. Junio y septiembre ofrecen una luna de miel genuinamente superior."
+    },
+    {
+      "tip": "Vuele a Olbia (OLB), no a Cagliari",
+      "detail": "Olbia está a 30 min de la Costa Smeralda. Cagliari está a 3 h en coche. A menos que se aloje en Forte Village o Chia, Olbia es el aeropuerto: directos desde Londres, París, Milán, Roma y, en temporada, Zúrich, Múnich, Berlín."
+    },
+    {
+      "tip": "Alquile un descapotable para la carretera costera",
+      "detail": "La SP73 que une las calas es uno de los mejores recorridos del Mediterráneo. Un cabriolet pequeño (Fiat 500, Jeep Wrangler) es perfecto; los hoteles pueden organizar la recogida en el aeropuerto de Olbia. Presupueste 100-200 USD/día en temporada."
+    },
+    {
+      "tip": "Las reservas en clubes de playa son imprescindibles en temporada alta",
+      "detail": "Las mejores playas (Liscia di Vacca, Romazzino, Principe) son públicas, pero el aparcamiento es limitado y hay clubes de playa muy demandados. Reserve a través del hotel o directamente: en agosto, presentarse sin reserva es imposible."
+    },
+    {
+      "tip": "La siesta es real y sagrada",
+      "detail": "La mayoría de las tiendas y restaurantes de la Costa Smeralda cierran de 13:00 a 16:00. Planifique en consecuencia: almuerzos largos en clubes de playa, después compras y cena en Porto Cervo a partir de las 19:00. Cenar a las 22:00 es lo normal en temporada."
+    }
   ],
   "packing": [
-    { "item": "Ropa de noche elegante para resort", "why": "Porto Cervo a la cena es elegante: trajes y vestidos de lino, no camisetas y chanclas. El Cala di Volpe Grill y similares aplican códigos reales de vestimenta." },
-    { "item": "Escarpines o sandalias con agarre", "why": "Muchas playas (Principe, Li Cuncheddi) tienen guijarros pequeños o entradas rocosas. Las chanclas comunes hacen incómoda la entrada." },
-    { "item": "Buena máscara de snorkel", "why": "La claridad del agua en La Maddalena es extraordinaria. El equipo del hotel suele ser mediocre: lleve la suya o compre una de calidad en Porto Cervo." },
-    { "item": "Sombrero de sol adecuado", "why": "El sol de Cerdeña no perdona. Un sombrero de paja de ala ancha del mercado de Olbia es práctico y fotogénico." },
-    { "item": "Capa ligera para tardes en barco", "why": "Los regresos desde La Maddalena tras el ocaso refrescan. Una rebeca de cachemira o camisa de lino son esenciales para la vuelta." }
+    {
+      "item": "Ropa de noche elegante para resort",
+      "why": "Porto Cervo a la cena es elegante: trajes y vestidos de lino, no camisetas y chanclas. El Cala di Volpe Grill y similares aplican códigos reales de vestimenta."
+    },
+    {
+      "item": "Escarpines o sandalias con agarre",
+      "why": "Muchas playas (Principe, Li Cuncheddi) tienen guijarros pequeños o entradas rocosas. Las chanclas comunes hacen incómoda la entrada."
+    },
+    {
+      "item": "Buena máscara de snorkel",
+      "why": "La claridad del agua en La Maddalena es extraordinaria. El equipo del hotel suele ser mediocre: lleve la suya o compre una de calidad en Porto Cervo."
+    },
+    {
+      "item": "Sombrero de sol adecuado",
+      "why": "El sol de Cerdeña no perdona. Un sombrero de paja de ala ancha del mercado de Olbia es práctico y fotogénico."
+    },
+    {
+      "item": "Capa ligera para tardes en barco",
+      "why": "Los regresos desde La Maddalena tras el ocaso refrescan. Una rebeca de cachemira o camisa de lino son esenciales para la vuelta."
+    }
   ],
   "guide": {
     "getting": "Vuele a Olbia Costa Smeralda (OLB), a 30 min de la mayoría de hoteles de la Costa Smeralda. Vuelos directos en verano desde Londres (2h 45m), París, Milán, Roma, Múnich, Zúrich, Viena; conexiones desde Nueva York vía Roma o Milán (≈11h en total). Aeropuertos alternativos: Alghero (AHO) para la costa oeste, Cagliari (CAG) para el sur. Ferris desde Livorno, Génova, Civitavecchia y Nápoles si lleva coche. La mayoría de hoteles organiza un traslado con chófer desde OLB: presupueste 80-180 USD por trayecto.",
@@ -102,5 +251,9 @@
   "localFood": "Culurgiones (raviolis de patata y menta plisados a mano, un milagro sardo); fregola con arselle (perlas de pasta con almejas); bottarga (huevas curadas de mújol, ralladas sobre los espaguetis); porceddu (cochinillo asado lento, festín dominical); langosta espinosa fresca de la costa este (aragosta alla Catalana); seadas (empanadilla frita con pecorino y miel); pane carasau (pan crujiente fino como el papel); mirto (licor de mirto, digestivo local); vino blanco Vermentino di Gallura; tinto Cannonau (uno de los más altos contenidos en polifenoles del mundo, genuinamente). La cocina sarda es rústica, basada en el ingrediente e infravalorada: una revelación.",
   "currency": "Euro (EUR). Cards accepted at hotels and restaurants; carry some cash for small beach-bar purchases and tips.",
   "language": "El italiano es oficial; el sardo (Sardo) se habla en los pueblos. El inglés se habla ampliamente en hoteles y zonas turísticas.",
-  "timezone": "UTC+1 (CET); UTC+2 during daylight saving (Mar–Oct)"
+  "timezone": "UTC+1 (CET); UTC+2 during daylight saving (Mar–Oct)",
+  "seo": {
+    "title": "Luna de Miel en Cerdeña: 8 Resorts Costa Smeralda 2026",
+    "description": "8 resorts en Porto Cervo, Pelosa y costa sur clasificados. 7Pines, Cala di Volpe. Desde $600/noche. May-Sep."
+  }
 }

@@ -1,6 +1,10 @@
 {
   "tagline": "Drama do Serengeti ou exclusividade do delta do Okavango? Duelo de safári premium.",
   "metaDescription": "Tanzânia contra Botsuana para uma lua de mel safári: Serengeti contra Okavango, lodges, valor, fauna, paisagem. Recomendações lado a lado.",
+  "seo": {
+    "title": "Tanzânia vs Botsuana Safari Lua de Mel: Veredicto 2026",
+    "description": "Tanzânia vs Botsuana safari lua de mel 2026: Serengeti e Migração vs delta do Okavango. Lodges, valor, fauna, paisagem — escolhas."
+  },
   "verdict": "Os dois oferecem safári de nível mundial, mas o formato é oposto. A Tanzânia (Serengeti, Ngorongoro) é espetáculo em larga escala: vastas planícies, a Grande Migração, o Kilimanjaro no horizonte. Botsuana (delta do Okavango) é exclusividade íntima: o maior delta interior do mundo é uma maravilha UNESCO onde se faz safári em canoa mokoro por canais de papiro e há 5 vezes menos turistas por milha quadrada que no Serengeti. A Tanzânia vence em paisagem e migração; Botsuana vence em exclusividade e safári aquático.",
   "tldr": {
     "forA": "Tanzânia: pela escala do Serengeti, a Grande Migração e a extensão à praia de Zanzibar.",
@@ -8,19 +12,71 @@
     "tie": "Empate em qualidade do Big Five nos lodges da faixa alta."
   },
   "criteria": [
-    { "label": "Tempo de voo (a partir da Europa)", "aDetail": "9-10h para Kilimanjaro/Dar (1 escala habitual)", "bDetail": "11-13h para Maun (via Joanesburgo)" },
-    { "label": "O safári emblemático", "aDetail": "Vastas planícies do Serengeti, cratera de Ngorongoro, Migração", "bDetail": "Delta do Okavango: 18 000 km² de safári de delta interior em mokoro e 4x4" },
-    { "label": "Densidade de turistas", "aDetail": "O Serengeti pode parecer lotado no Seronera central durante a migração alta", "bDetail": "Botsuana tem quase zero turismo de massa: a maioria dos acampamentos só tem 8-12 tendas" },
-    { "label": "Safári aquático", "aDetail": "Baseado em veículo; algum de barco em Selous (agora Nyerere)", "bDetail": "Sim: a canoa mokoro pelos canais do delta é exclusiva de Botsuana" },
-    { "label": "Qualidade do Big Five", "aDetail": "Excelente: a Migração acrescenta o espetáculo dos gnus", "bDetail": "Excelente: densidade de leopardos no Okavango e manadas de elefantes em Linyanti, nível mundial" },
-    { "label": "Extensão de praia", "aDetail": "Zanzibar: praia da ilha das especiarias de nível mundial a 30 min de voo do safári", "bDetail": "Não: Botsuana é interior; combine com Cidade do Cabo ou Maurício" },
-    { "label": "Luxo de lodge na faixa alta", "aDetail": "Singita Grumeti, &Beyond, Asilia, Roving Bushtops", "bDetail": "Wilderness Mombo, Sandibe, Vumbura, Duba Plains, Belmond Eagle Island" },
-    { "label": "Cenário montanhoso", "aDetail": "Kilimanjaro no horizonte a partir dos circuitos do norte, Ol Doinyo Lengai", "bDetail": "Delta plano e Kalahari: sem montanhas" },
-    { "label": "Clima de lua de mel", "aDetail": "Escala de céu aberto, fogueiras, sundowners nas planícies", "bDetail": "Exclusividade de elite, silêncio aquático, menos hóspedes" },
-    { "label": "Profundidade cultural", "aDetail": "Visitas culturais masai, Stone Town de Zanzibar", "bDetail": "Experiências de rastreio com bosquímanos san em alguns acampamentos; no demais, limitada" },
-    { "label": "Melhor temporada", "aDetail": "Jun-out (seca, migração), jan-mar (temporada de parto)", "bDetail": "Mai-out (delta mais alto, safári terrestre seco): o delta inundado é a magia" },
-    { "label": "Orçamento mínimo (luxo)", "aDetail": "$700-1100/noite por casal em pensão completa de safári", "bDetail": "$1500-2500/noite por casal em pensão completa (Botsuana é estruturalmente cara por política governamental de baixo impacto)" },
-    { "label": "Orçamento máximo", "aDetail": "$3000-6000/noite (Singita Grumeti, Roving Bushtops)", "bDetail": "$3000-6000/noite (Mombo, Duba Plains, Belmond Eagle Island)" }
+    {
+      "label": "Tempo de voo (a partir da Europa)",
+      "aDetail": "9-10h para Kilimanjaro/Dar (1 escala habitual)",
+      "bDetail": "11-13h para Maun (via Joanesburgo)"
+    },
+    {
+      "label": "O safári emblemático",
+      "aDetail": "Vastas planícies do Serengeti, cratera de Ngorongoro, Migração",
+      "bDetail": "Delta do Okavango: 18 000 km² de safári de delta interior em mokoro e 4x4"
+    },
+    {
+      "label": "Densidade de turistas",
+      "aDetail": "O Serengeti pode parecer lotado no Seronera central durante a migração alta",
+      "bDetail": "Botsuana tem quase zero turismo de massa: a maioria dos acampamentos só tem 8-12 tendas"
+    },
+    {
+      "label": "Safári aquático",
+      "aDetail": "Baseado em veículo; algum de barco em Selous (agora Nyerere)",
+      "bDetail": "Sim: a canoa mokoro pelos canais do delta é exclusiva de Botsuana"
+    },
+    {
+      "label": "Qualidade do Big Five",
+      "aDetail": "Excelente: a Migração acrescenta o espetáculo dos gnus",
+      "bDetail": "Excelente: densidade de leopardos no Okavango e manadas de elefantes em Linyanti, nível mundial"
+    },
+    {
+      "label": "Extensão de praia",
+      "aDetail": "Zanzibar: praia da ilha das especiarias de nível mundial a 30 min de voo do safári",
+      "bDetail": "Não: Botsuana é interior; combine com Cidade do Cabo ou Maurício"
+    },
+    {
+      "label": "Luxo de lodge na faixa alta",
+      "aDetail": "Singita Grumeti, &Beyond, Asilia, Roving Bushtops",
+      "bDetail": "Wilderness Mombo, Sandibe, Vumbura, Duba Plains, Belmond Eagle Island"
+    },
+    {
+      "label": "Cenário montanhoso",
+      "aDetail": "Kilimanjaro no horizonte a partir dos circuitos do norte, Ol Doinyo Lengai",
+      "bDetail": "Delta plano e Kalahari: sem montanhas"
+    },
+    {
+      "label": "Clima de lua de mel",
+      "aDetail": "Escala de céu aberto, fogueiras, sundowners nas planícies",
+      "bDetail": "Exclusividade de elite, silêncio aquático, menos hóspedes"
+    },
+    {
+      "label": "Profundidade cultural",
+      "aDetail": "Visitas culturais masai, Stone Town de Zanzibar",
+      "bDetail": "Experiências de rastreio com bosquímanos san em alguns acampamentos; no demais, limitada"
+    },
+    {
+      "label": "Melhor temporada",
+      "aDetail": "Jun-out (seca, migração), jan-mar (temporada de parto)",
+      "bDetail": "Mai-out (delta mais alto, safári terrestre seco): o delta inundado é a magia"
+    },
+    {
+      "label": "Orçamento mínimo (luxo)",
+      "aDetail": "$700-1100/noite por casal em pensão completa de safári",
+      "bDetail": "$1500-2500/noite por casal em pensão completa (Botsuana é estruturalmente cara por política governamental de baixo impacto)"
+    },
+    {
+      "label": "Orçamento máximo",
+      "aDetail": "$3000-6000/noite (Singita Grumeti, Roving Bushtops)",
+      "bDetail": "$3000-6000/noite (Mombo, Duba Plains, Belmond Eagle Island)"
+    }
   ],
   "pickA": {
     "title": "Escolha a Tanzânia se…",
@@ -43,10 +99,25 @@
     ]
   },
   "faqs": [
-    { "q": "Por que Botsuana é tão cara?", "a": "Política governamental. Botsuana limita intencionalmente o volume turístico mediante altas concessões e taxas para proteger fauna e habitats: o resultado são menos lodges de maior preço com acesso exclusivo. Você está pagando por exclusividade de baixa densidade." },
-    { "q": "Qual tem melhor avistamento de fauna?", "a": "Os dois são de nível mundial. O Serengeti da Tanzânia tem o espetáculo migratório e os grandes números. O Okavango de Botsuana tem maior densidade de predadores por área e o formato único de safári aquático. Formatos diferentes; ambos excelentes." },
-    { "q": "Posso combiná-los?", "a": "Sim: Tanzânia → Botsuana via Joanesburgo é alcançável em 14-18 dias. A maioria dos casais na África da faixa alta faz safári + praia (Zanzibar a partir da Tanzânia) ou safári + cidade (Cidade do Cabo a partir de Botsuana) no lugar." },
-    { "q": "Qual é melhor para um primeiro safári?", "a": "Tanzânia: melhor valor, mais fácil de combinar com praia (Zanzibar) e a Migração é inesquecível. Botsuana é mais para viajantes de safári de segunda viagem que buscam exclusividade premium." },
-    { "q": "Vale realmente a pena o Okavango pelo preço?", "a": "Para casais que valorizam a exclusividade e o formato único (safári aquático + terrestre, pouquíssimos hóspedes), sim. Para casais que principalmente querem ver o Big Five, a Tanzânia oferece fauna comparável a um custo bem menor." }
+    {
+      "q": "Por que Botsuana é tão cara?",
+      "a": "Política governamental. Botsuana limita intencionalmente o volume turístico mediante altas concessões e taxas para proteger fauna e habitats: o resultado são menos lodges de maior preço com acesso exclusivo. Você está pagando por exclusividade de baixa densidade."
+    },
+    {
+      "q": "Qual tem melhor avistamento de fauna?",
+      "a": "Os dois são de nível mundial. O Serengeti da Tanzânia tem o espetáculo migratório e os grandes números. O Okavango de Botsuana tem maior densidade de predadores por área e o formato único de safári aquático. Formatos diferentes; ambos excelentes."
+    },
+    {
+      "q": "Posso combiná-los?",
+      "a": "Sim: Tanzânia → Botsuana via Joanesburgo é alcançável em 14-18 dias. A maioria dos casais na África da faixa alta faz safári + praia (Zanzibar a partir da Tanzânia) ou safári + cidade (Cidade do Cabo a partir de Botsuana) no lugar."
+    },
+    {
+      "q": "Qual é melhor para um primeiro safári?",
+      "a": "Tanzânia: melhor valor, mais fácil de combinar com praia (Zanzibar) e a Migração é inesquecível. Botsuana é mais para viajantes de safári de segunda viagem que buscam exclusividade premium."
+    },
+    {
+      "q": "Vale realmente a pena o Okavango pelo preço?",
+      "a": "Para casais que valorizam a exclusividade e o formato único (safári aquático + terrestre, pouquíssimos hóspedes), sim. Para casais que principalmente querem ver o Big Five, a Tanzânia oferece fauna comparável a um custo bem menor."
+    }
   ]
 }

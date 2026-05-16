@@ -55,43 +55,188 @@
     }
   ],
   "months": [
-    { "month": "Jan", "weather": "-25 °C de media, 4h de luz", "emoji": "❄️", "crowds": "Alta", "price": "Alto", "verdict": "El más frío y el más oscuro: máxima probabilidad de aurora" },
-    { "month": "Feb", "weather": "-20 °C de media, 7h de luz", "emoji": "❄️", "crowds": "Alta", "price": "Alto", "verdict": "Punto dulce: largas noches de aurora y más sol" },
-    { "month": "Mar", "weather": "-15 °C, 11h de luz", "emoji": "❄️", "crowds": "Alta", "price": "Alto", "verdict": "El mejor mes: cielos brillantes, sol cálido, nieve profunda" },
-    { "month": "Apr", "weather": "-5 °C a 5 °C, deshielo", "emoji": "🌦", "crowds": "Baja", "price": "Medio", "verdict": "Temporada media incómoda: termina la aurora, se derrite la nieve" },
-    { "month": "May", "weather": "5–15 °C, sin nieve", "emoji": "🌸", "crowds": "Baja", "price": "Bajo", "verdict": "Llegan los mosquitos; los lodges suelen cerrar para reformas" },
-    { "month": "Jun", "weather": "12–20 °C, sol de medianoche", "emoji": "☀️", "crowds": "Media", "price": "Medio", "verdict": "Comienza el verano de sol de medianoche: viaje completamente distinto" },
-    { "month": "Jul", "weather": "14–22 °C, pico de verano", "emoji": "☀️", "crowds": "Alta", "price": "Medio", "verdict": "Días largos, senderismo, kayak, muchos mosquitos" },
-    { "month": "Aug", "weather": "10–18 °C", "emoji": "☀️", "crowds": "Media", "price": "Medio", "verdict": "Temporada de bayas; primeros vislumbres de aurora a fin de mes" },
-    { "month": "Sep", "weather": "5–12 °C, ruska otoñal", "emoji": "🍂", "crowds": "Baja", "price": "Bajo", "verdict": "Espectaculares colores ruska de otoño; primera aurora" },
-    { "month": "Oct", "weather": "-2 °C a 8 °C, primeras nieves", "emoji": "🌨️", "crowds": "Baja", "price": "Medio", "verdict": "Comienza la temporada de auroras; paisaje en transición" },
-    { "month": "Nov", "weather": "-10 °C a 0 °C, comienza la noche polar", "emoji": "❄️", "crowds": "Media", "price": "Medio", "verdict": "Asentándose la nieve; aurora frecuente; más tranquilo que diciembre" },
-    { "month": "Dec", "weather": "-22 °C de media, noche polar", "emoji": "🎄", "crowds": "Máxima", "price": "Máximo", "verdict": "Temporada de mercados navideños: Rovaniemi en su pico" }
+    {
+      "month": "Jan",
+      "weather": "-25 °C de media, 4h de luz",
+      "emoji": "❄️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "El más frío y el más oscuro: máxima probabilidad de aurora"
+    },
+    {
+      "month": "Feb",
+      "weather": "-20 °C de media, 7h de luz",
+      "emoji": "❄️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Punto dulce: largas noches de aurora y más sol"
+    },
+    {
+      "month": "Mar",
+      "weather": "-15 °C, 11h de luz",
+      "emoji": "❄️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "El mejor mes: cielos brillantes, sol cálido, nieve profunda"
+    },
+    {
+      "month": "Apr",
+      "weather": "-5 °C a 5 °C, deshielo",
+      "emoji": "🌦",
+      "crowds": "Baja",
+      "price": "Medio",
+      "verdict": "Temporada media incómoda: termina la aurora, se derrite la nieve"
+    },
+    {
+      "month": "May",
+      "weather": "5–15 °C, sin nieve",
+      "emoji": "🌸",
+      "crowds": "Baja",
+      "price": "Bajo",
+      "verdict": "Llegan los mosquitos; los lodges suelen cerrar para reformas"
+    },
+    {
+      "month": "Jun",
+      "weather": "12–20 °C, sol de medianoche",
+      "emoji": "☀️",
+      "crowds": "Media",
+      "price": "Medio",
+      "verdict": "Comienza el verano de sol de medianoche: viaje completamente distinto"
+    },
+    {
+      "month": "Jul",
+      "weather": "14–22 °C, pico de verano",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Medio",
+      "verdict": "Días largos, senderismo, kayak, muchos mosquitos"
+    },
+    {
+      "month": "Aug",
+      "weather": "10–18 °C",
+      "emoji": "☀️",
+      "crowds": "Media",
+      "price": "Medio",
+      "verdict": "Temporada de bayas; primeros vislumbres de aurora a fin de mes"
+    },
+    {
+      "month": "Sep",
+      "weather": "5–12 °C, ruska otoñal",
+      "emoji": "🍂",
+      "crowds": "Baja",
+      "price": "Bajo",
+      "verdict": "Espectaculares colores ruska de otoño; primera aurora"
+    },
+    {
+      "month": "Oct",
+      "weather": "-2 °C a 8 °C, primeras nieves",
+      "emoji": "🌨️",
+      "crowds": "Baja",
+      "price": "Medio",
+      "verdict": "Comienza la temporada de auroras; paisaje en transición"
+    },
+    {
+      "month": "Nov",
+      "weather": "-10 °C a 0 °C, comienza la noche polar",
+      "emoji": "❄️",
+      "crowds": "Media",
+      "price": "Medio",
+      "verdict": "Asentándose la nieve; aurora frecuente; más tranquilo que diciembre"
+    },
+    {
+      "month": "Dec",
+      "weather": "-22 °C de media, noche polar",
+      "emoji": "🎄",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Temporada de mercados navideños: Rovaniemi en su pico"
+    }
   ],
   "budgetTiers": [
-    { "label": "Lujo medio", "range": "$300–$700/noche", "gets": "Cabaña aurora o iglú boutique en resorts consolidados. Alarma de aurora y menú básico de actividades.", "example": "Apukka Resort, Iso-Syöte Hotel, Star Arctic Hotel" },
-    { "label": "Premium", "range": "$700–$1,500/noche", "gets": "Iglú de cristal premium con sauna privada, experiencias in situ con huskies/renos y resort con varios restaurantes.", "example": "Levin Iglut, Kakslauttanen Arctic Resort, Wilderness Hotel Nellim" },
-    { "label": "Ultra-lujo", "range": "$3,000–$8,000/noche", "gets": "Lodge privado en plena naturaleza, todo incluido con actividades, mayordomo, chef privado y sin otros huéspedes a la vista.", "example": "Octola Wilderness Lodge" }
+    {
+      "label": "Lujo medio",
+      "range": "$300–$700/noche",
+      "gets": "Cabaña aurora o iglú boutique en resorts consolidados. Alarma de aurora y menú básico de actividades.",
+      "example": "Apukka Resort, Iso-Syöte Hotel, Star Arctic Hotel"
+    },
+    {
+      "label": "Premium",
+      "range": "$700–$1,500/noche",
+      "gets": "Iglú de cristal premium con sauna privada, experiencias in situ con huskies/renos y resort con varios restaurantes.",
+      "example": "Levin Iglut, Kakslauttanen Arctic Resort, Wilderness Hotel Nellim"
+    },
+    {
+      "label": "Ultra-lujo",
+      "range": "$3,000–$8,000/noche",
+      "gets": "Lodge privado en plena naturaleza, todo incluido con actividades, mayordomo, chef privado y sin otros huéspedes a la vista.",
+      "example": "Octola Wilderness Lodge"
+    }
   ],
   "areas": [
-    { "name": "Saariselkä", "bestFor": "Iglús de cristal icónicos, hoteles de diseño en lo alto del fell", "description": "La zona original del iglú de cristal, a 1h del aeropuerto de Ivalo. Aquí están Kakslauttanen y Star Arctic. Excelente acceso a motos de nieve y huskies; estación de esquí adjunta." },
-    { "name": "Levi", "bestFor": "Lujo en estación de esquí, après-ski, iglús en lo alto del fell", "description": "A 170 km al norte de Rovaniemi, la mayor estación de esquí de Finlandia. Levin Iglut se asienta en la cima del fell con vistas panorámicas. La más accesible desde Helsinki vía aeropuerto de Kittilä (~1h de vuelo)." },
-    { "name": "Rovaniemi", "bestFor": "Aldea de Papá Noel, hoteles de diseño, granjas de huskies", "description": "La mayor ciudad lapona, sobre el Círculo Polar y \"hogar oficial\" de Papá Noel. Arctic TreeHouse, Apukka y Octola están en esta región. Vuelos directos desde Helsinki todo el año." },
-    { "name": "Lago Inari (Nellim)", "bestFor": "Cultura sami, aurora remota, naturaleza junto a la frontera rusa", "description": "El extremo norte de Finlandia, sobre el tercer lago más grande de Europa. El Wilderness Hotel Nellim es la única opción de lujo: Aurora Cabins sobre pilotes y profunda conexión cultural con la vida sami." }
+    {
+      "name": "Saariselkä",
+      "bestFor": "Iglús de cristal icónicos, hoteles de diseño en lo alto del fell",
+      "description": "La zona original del iglú de cristal, a 1h del aeropuerto de Ivalo. Aquí están Kakslauttanen y Star Arctic. Excelente acceso a motos de nieve y huskies; estación de esquí adjunta."
+    },
+    {
+      "name": "Levi",
+      "bestFor": "Lujo en estación de esquí, après-ski, iglús en lo alto del fell",
+      "description": "A 170 km al norte de Rovaniemi, la mayor estación de esquí de Finlandia. Levin Iglut se asienta en la cima del fell con vistas panorámicas. La más accesible desde Helsinki vía aeropuerto de Kittilä (~1h de vuelo)."
+    },
+    {
+      "name": "Rovaniemi",
+      "bestFor": "Aldea de Papá Noel, hoteles de diseño, granjas de huskies",
+      "description": "La mayor ciudad lapona, sobre el Círculo Polar y \"hogar oficial\" de Papá Noel. Arctic TreeHouse, Apukka y Octola están en esta región. Vuelos directos desde Helsinki todo el año."
+    },
+    {
+      "name": "Lago Inari (Nellim)",
+      "bestFor": "Cultura sami, aurora remota, naturaleza junto a la frontera rusa",
+      "description": "El extremo norte de Finlandia, sobre el tercer lago más grande de Europa. El Wilderness Hotel Nellim es la única opción de lujo: Aurora Cabins sobre pilotes y profunda conexión cultural con la vida sami."
+    }
   ],
   "expertTips": [
-    { "tip": "Quédese al menos 4 noches por probabilidad de aurora", "detail": "La aurora es probabilidad. KP ≥3, cielos despejados y horas de oscuridad deben coincidir. Tres noches es arriesgado; cuatro es el punto justo. Cinco da casi garantía." },
-    { "tip": "Reserve actividades de huskies/renos antes de llegar", "detail": "Los principales operadores en Saariselkä, Levi y Rovaniemi se llenan con 6+ meses de antelación entre diciembre y febrero. No espere al check-in: la mayoría de los lodges los reservan por usted con previa solicitud." },
-    { "tip": "Póngase TODAS las capas que el lodge le entregue", "detail": "A -25 °C con sensación térmica por moto de nieve o trineo de huskies, su parka de esquí no basta. Los lodges proporcionan trajes de expedición, manoplas, pasamontañas y botas: úselos todos." },
-    { "tip": "Una escala en Helsinki es una verdadera ventaja", "detail": "La mayoría de vuelos a Laponia conectan vía Helsinki (HEL). Una parada de 24h al regreso es muy recomendable: Mercado Antiguo, distrito de diseño, sauna en Löyly y cena en Olo o Palace. Reserve un Klaus K o Lilla Roberts para la noche." },
-    { "tip": "Las alarmas de aurora implican dormir con el teléfono encendido", "detail": "La mayoría de los lodges de lujo ofrecen un servicio de alarma de aurora 24/7: llaman/avisan a su habitación cuando la actividad alcanza su pico. Cargue el teléfono, duerma en capas base y deje botas, abrigo y gorro junto a la puerta para reaccionar al instante." }
+    {
+      "tip": "Quédese al menos 4 noches por probabilidad de aurora",
+      "detail": "La aurora es probabilidad. KP ≥3, cielos despejados y horas de oscuridad deben coincidir. Tres noches es arriesgado; cuatro es el punto justo. Cinco da casi garantía."
+    },
+    {
+      "tip": "Reserve actividades de huskies/renos antes de llegar",
+      "detail": "Los principales operadores en Saariselkä, Levi y Rovaniemi se llenan con 6+ meses de antelación entre diciembre y febrero. No espere al check-in: la mayoría de los lodges los reservan por usted con previa solicitud."
+    },
+    {
+      "tip": "Póngase TODAS las capas que el lodge le entregue",
+      "detail": "A -25 °C con sensación térmica por moto de nieve o trineo de huskies, su parka de esquí no basta. Los lodges proporcionan trajes de expedición, manoplas, pasamontañas y botas: úselos todos."
+    },
+    {
+      "tip": "Una escala en Helsinki es una verdadera ventaja",
+      "detail": "La mayoría de vuelos a Laponia conectan vía Helsinki (HEL). Una parada de 24h al regreso es muy recomendable: Mercado Antiguo, distrito de diseño, sauna en Löyly y cena en Olo o Palace. Reserve un Klaus K o Lilla Roberts para la noche."
+    },
+    {
+      "tip": "Las alarmas de aurora implican dormir con el teléfono encendido",
+      "detail": "La mayoría de los lodges de lujo ofrecen un servicio de alarma de aurora 24/7: llaman/avisan a su habitación cuando la actividad alcanza su pico. Cargue el teléfono, duerma en capas base y deje botas, abrigo y gorro junto a la puerta para reaccionar al instante."
+    }
   ],
   "packing": [
-    { "item": "Capas base de merino (gruesa + media)", "why": "La base para mantenerse caliente a -25 °C. Dos juegos: uno para llevar puesto y otro para que se seque por la noche tras sudar en sauna o tras días activos." },
-    { "item": "Calienta-manos y calienta-pies", "why": "Los paquetes desechables HotHands son oro para el trineo y la espera de la aurora. Lleve más de 20: son difíciles de encontrar allí." },
-    { "item": "Cámara con modo manual + trípode", "why": "Los iPhones ya capturan la aurora (use Modo Noche 30s), pero una cámara con un objetivo 2.8 y trípode logra la imagen cinematográfica. Lleve baterías de repuesto: el frío las agota en 30 min." },
-    { "item": "Bálsamo labial, crema de manos, gotas para los ojos", "why": "El aire ártico es brutalmente seco. Calefacción interior + saunas + frío exterior = todo se resquebraja. Reponga sobre la marcha." },
-    { "item": "Vaso térmico reutilizable", "why": "Tazas interminables de zumo de arándano rojo caliente, glögi (vino caliente) y té del bosque marcan el ritmo del día. Un vaso al vacío lo mantiene caliente de la kota al iglú." }
+    {
+      "item": "Capas base de merino (gruesa + media)",
+      "why": "La base para mantenerse caliente a -25 °C. Dos juegos: uno para llevar puesto y otro para que se seque por la noche tras sudar en sauna o tras días activos."
+    },
+    {
+      "item": "Calienta-manos y calienta-pies",
+      "why": "Los paquetes desechables HotHands son oro para el trineo y la espera de la aurora. Lleve más de 20: son difíciles de encontrar allí."
+    },
+    {
+      "item": "Cámara con modo manual + trípode",
+      "why": "Los iPhones ya capturan la aurora (use Modo Noche 30s), pero una cámara con un objetivo 2.8 y trípode logra la imagen cinematográfica. Lleve baterías de repuesto: el frío las agota en 30 min."
+    },
+    {
+      "item": "Bálsamo labial, crema de manos, gotas para los ojos",
+      "why": "El aire ártico es brutalmente seco. Calefacción interior + saunas + frío exterior = todo se resquebraja. Reponga sobre la marcha."
+    },
+    {
+      "item": "Vaso térmico reutilizable",
+      "why": "Tazas interminables de zumo de arándano rojo caliente, glögi (vino caliente) y té del bosque marcan el ritmo del día. Un vaso al vacío lo mantiene caliente de la kota al iglú."
+    }
   ],
   "guide": {
     "getting": "La mayoría de las lunas de miel vuelan Helsinki (HEL) → Rovaniemi (RVN), Kittilä (KTT, para Levi) o Ivalo (IVL, para Saariselkä/Inari). Finnair vuela los tres desde Helsinki, ~1h. Los vuelos internacionales directos a Rovaniemi desde Londres, París, Fráncfort y Ginebra operan solo de diciembre a marzo. Octola Wilderness Lodge ofrece traslados privados en helicóptero desde el aeropuerto de Rovaniemi. Tránsito total desde Londres ~5h; desde Nueva York ~10h vía HEL.",
@@ -101,5 +246,9 @@
   "localFood": "Reno en muchas formas: salteado (poronkäristys con puré y arándano rojo), ahumado, carpaccio ahumado en frío. Salvelino y pescado blanco de los lagos; salchicha de oso (carne de curiosidad); mermelada y licor de mora ártica (lakka); arándano rojo en todo; pan de centeno (ruisleipä); empanadillas carelias (pequeños bocados de masa de centeno con arroz); pulla (bollos de cardamomo); leipäjuusto (queso \"chirriante\", a menudo servido caliente con mermelada de mora ártica); estofado de reno (poronpata); salmiakki (regaliz salado, divisivo); glögi (vino caliente de bayas); cerveza Lapin Kulta. La cocina de los lodges es genuinamente excelente: Octola ofrece menús degustación de chef privado; el Aurora Sky Bar de Levin Iglut sirve cocina nórdica moderna.",
   "currency": "Euro (EUR). Tarjetas aceptadas en todas partes; apenas hace falta efectivo. No se espera propina (un 10 % en restaurantes es generoso).",
   "language": "Finés y sueco (ambos oficiales); sami en el extremo norte. El inglés es universal en hoteles, restaurantes y operadores.",
-  "timezone": "UTC+2 (UTC+3 en verano con horario de verano)"
+  "timezone": "UTC+2 (UTC+3 en verano con horario de verano)",
+  "seo": {
+    "title": "Luna de Miel en Laponia: 8 Iglús de Cristal Aurora 2026",
+    "description": "8 estancias árticas en Finlandia y Suecia clasificadas. Kakslauttanen, Arctic TreeHouse, Levin Iglut. Desde $500/noche."
+  }
 }

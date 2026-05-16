@@ -147,6 +147,7 @@ localFood: 'Ayam betutu (Balinese slow-roasted spiced chicken); grilled fresh fi
 currency: 'Indonesian Rupiah (IDR) — major resort areas also accept USD',
 language: 'Bahasa Indonesia. English spoken in all tourist areas.',
 timezone: 'UTC+8 (Central Indonesia Time)',
+  seo: { title: "Indonesia Honeymoon: 9 Island Hideouts Scored 2026", description: "9 Komodo, Sumba, Lombok hideouts ranked. Nihi, Amanwana, Bawah Reserve. From $600/night. Apr-Oct dry verdicts." },
 }
 
 export default meta

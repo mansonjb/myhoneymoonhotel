@@ -1,6 +1,10 @@
 {
   "tagline": "Maasai Mara ou Serengeti: onde será a sua lua de mel com os Cinco Grandes?",
   "metaDescription": "Quênia ou Tanzânia para uma lua de mel de safári? Maasai Mara contra Serengeti, lodges, fauna, preço e acessos. Comparação especialista detalhada.",
+  "seo": {
+    "title": "Quênia vs Tanzânia Safari Lua de Mel: Qual Vence 2026?",
+    "description": "Quênia vs Tanzânia para safari de lua de mel 2026: Masai Mara vs Serengeti, lodges, Big Five, preço e acesso. Veredicto especializado."
+  },
   "verdict": "Quênia e Tanzânia compartilham o mesmo ecossistema: a Grande Migração se desloca sazonalmente entre os dois. O Quênia ganha em acessibilidade (mais fácil de alcançar, voos mais baratos) e em diversidade de conservancies privadas. A Tanzânia ganha em escala (Serengeti + Ngorongoro + Kilimanjaro + extensão de praia em Zanzibar em uma única viagem). Os dois têm lodges de nível mundial. Para casais que pisam na África pela primeira vez vindos da Europa, o Quênia é um pouco mais simples. Para uma viagem mais longa que combine safári e praia, a Tanzânia é imbatível.",
   "tldr": {
     "forA": "Quênia: logística mais simples, conservancies do Maasai Mara, viagem exclusiva de safári mais curta.",
@@ -8,16 +12,56 @@
     "tie": "Densidade de fauna, qualidade dos lodges e acesso à migração: empate."
   },
   "criteria": [
-    { "label": "Densidade de fauna", "aDetail": "O Maasai Mara representa 25% do ecossistema, com a maior densidade por km²", "bDetail": "O Serengeti, 75%: mesma fauna, cenário maior" },
-    { "label": "Grande Migração", "aDetail": "Travessias de rio de jul-out (Maasai Mara)", "bDetail": "Estação dos partos jan-mar + travessias do Grumeti mai-jun" },
-    { "label": "Conservancies privadas", "aDetail": "Mara Triangle, Olare Motorogi, Naboisho: limites de veículos, off-road, saídas noturnas", "bDetail": "Os parques nacionais têm tetos de veículos, mas mais concentração em torno dos avistamentos" },
-    { "label": "Melhores lodges", "aDetail": "Angama Mara, Mahali Mzuri, Cottar's 1920s", "bDetail": "Singita, Four Seasons Serengeti, &Beyond Ngorongoro Crater Lodge" },
-    { "label": "Acesso aéreo (a partir da Europa)", "aDetail": "Direto Paris/Londres para Nairóbi (~8h)", "bDetail": "Sem direto Europa-Arusha; geralmente via Dubai ou Nairóbi (12-14h totais)" },
-    { "label": "Experiências adicionais", "aDetail": "Giraffe Manor, planalto de Laikipia, Amboseli (vistas para o Kilimanjaro)", "bDetail": "Escalada do Kilimanjaro, cratera de Ngorongoro, circuito sul do Selous" },
-    { "label": "Extensão de praia", "aDetail": "Costa queniana (Diani): agradável, mas com oferta de luxo limitada", "bDetail": "Zanzibar + ilha de Mafia: nível mundial" },
-    { "label": "Preço mínimo", "aDetail": "$800/noite por um lodge correto, $1500 por um excelente", "bDetail": "$1000-1500/noite de entrada, $2500+ na faixa alta" },
-    { "label": "Preço máximo", "aDetail": "$3500/noite (Mahali Mzuri, Angama)", "bDetail": "$5000+/noite (Singita Grumeti, villa do Four Seasons)" },
-    { "label": "Duração recomendada", "aDetail": "5-7 noites só de safári é perfeito", "bDetail": "10+ noites para justificar (safári + Zanzibar)" }
+    {
+      "label": "Densidade de fauna",
+      "aDetail": "O Maasai Mara representa 25% do ecossistema, com a maior densidade por km²",
+      "bDetail": "O Serengeti, 75%: mesma fauna, cenário maior"
+    },
+    {
+      "label": "Grande Migração",
+      "aDetail": "Travessias de rio de jul-out (Maasai Mara)",
+      "bDetail": "Estação dos partos jan-mar + travessias do Grumeti mai-jun"
+    },
+    {
+      "label": "Conservancies privadas",
+      "aDetail": "Mara Triangle, Olare Motorogi, Naboisho: limites de veículos, off-road, saídas noturnas",
+      "bDetail": "Os parques nacionais têm tetos de veículos, mas mais concentração em torno dos avistamentos"
+    },
+    {
+      "label": "Melhores lodges",
+      "aDetail": "Angama Mara, Mahali Mzuri, Cottar's 1920s",
+      "bDetail": "Singita, Four Seasons Serengeti, &Beyond Ngorongoro Crater Lodge"
+    },
+    {
+      "label": "Acesso aéreo (a partir da Europa)",
+      "aDetail": "Direto Paris/Londres para Nairóbi (~8h)",
+      "bDetail": "Sem direto Europa-Arusha; geralmente via Dubai ou Nairóbi (12-14h totais)"
+    },
+    {
+      "label": "Experiências adicionais",
+      "aDetail": "Giraffe Manor, planalto de Laikipia, Amboseli (vistas para o Kilimanjaro)",
+      "bDetail": "Escalada do Kilimanjaro, cratera de Ngorongoro, circuito sul do Selous"
+    },
+    {
+      "label": "Extensão de praia",
+      "aDetail": "Costa queniana (Diani): agradável, mas com oferta de luxo limitada",
+      "bDetail": "Zanzibar + ilha de Mafia: nível mundial"
+    },
+    {
+      "label": "Preço mínimo",
+      "aDetail": "$800/noite por um lodge correto, $1500 por um excelente",
+      "bDetail": "$1000-1500/noite de entrada, $2500+ na faixa alta"
+    },
+    {
+      "label": "Preço máximo",
+      "aDetail": "$3500/noite (Mahali Mzuri, Angama)",
+      "bDetail": "$5000+/noite (Singita Grumeti, villa do Four Seasons)"
+    },
+    {
+      "label": "Duração recomendada",
+      "aDetail": "5-7 noites só de safári é perfeito",
+      "bDetail": "10+ noites para justificar (safári + Zanzibar)"
+    }
   ],
   "pickA": {
     "title": "Escolha o Quênia se…",
@@ -38,9 +82,21 @@
     ]
   },
   "faqs": [
-    { "q": "Qual tem melhor visualização da migração?", "a": "Os dois: a migração se desloca entre eles. O Maasai Mara é ótimo de jul a out (travessias de rio). O Serengeti (travessias do rio Grumeti e partos nas planícies do sul) é ótimo de dez a jun." },
-    { "q": "Posso combinar Quênia e Tanzânia?", "a": "Sim. Uma combinação habitual são 3 noites no Quênia (Maasai Mara) + 4 na Tanzânia (Serengeti ou Ngorongoro) + 4 em Zanzibar. Os voos transfronteiriços são simples (Nairóbi-Kilimanjaro, Mara-Serengeti direto em monomotor)." },
-    { "q": "O safári é adequado para uma lua de mel?", "a": "Com certeza: muitos lodges de luxo são projetados pensando em casais em lua de mel. Plunge pools privativas, cafés da manhã na savana, sundowners surpresa, atenções especiais para os noivos. Roving Bushtops, Angama Mara e Singita se destacam nesse quesito." },
-    { "q": "Quantos dias de safári preciso?", "a": "Mínimo de 4 noites por destino para justificar o voo de entrada. Para uma lua de mel, o ideal são 5-7 noites em uma localização principal + opcionalmente 3-4 noites de extensão de praia." }
+    {
+      "q": "Qual tem melhor visualização da migração?",
+      "a": "Os dois: a migração se desloca entre eles. O Maasai Mara é ótimo de jul a out (travessias de rio). O Serengeti (travessias do rio Grumeti e partos nas planícies do sul) é ótimo de dez a jun."
+    },
+    {
+      "q": "Posso combinar Quênia e Tanzânia?",
+      "a": "Sim. Uma combinação habitual são 3 noites no Quênia (Maasai Mara) + 4 na Tanzânia (Serengeti ou Ngorongoro) + 4 em Zanzibar. Os voos transfronteiriços são simples (Nairóbi-Kilimanjaro, Mara-Serengeti direto em monomotor)."
+    },
+    {
+      "q": "O safári é adequado para uma lua de mel?",
+      "a": "Com certeza: muitos lodges de luxo são projetados pensando em casais em lua de mel. Plunge pools privativas, cafés da manhã na savana, sundowners surpresa, atenções especiais para os noivos. Roving Bushtops, Angama Mara e Singita se destacam nesse quesito."
+    },
+    {
+      "q": "Quantos dias de safári preciso?",
+      "a": "Mínimo de 4 noites por destino para justificar o voo de entrada. Para uma lua de mel, o ideal são 5-7 noites em uma localização principal + opcionalmente 3-4 noites de extensão de praia."
+    }
   ]
 }

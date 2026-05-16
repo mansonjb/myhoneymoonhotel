@@ -1,6 +1,10 @@
 {
   "tagline": "Paraíso de atóis privados com villas sobre a água contra uma ilha rodeada de lagoas e cheia de variedade.",
   "metaDescription": "Maldivas ou Maurício para uma lua de mel? Villas sobre a água, passeios, cultura, gastronomia e valor. Guia especialista comparada.",
+  "seo": {
+    "title": "Maldivas vs Maurício Lua de Mel: Veredicto 2026",
+    "description": "Maldivas vs Maurício para lua de mel 2026: isolamento sobre a água ou ilha com vida. Hotéis, excursões, comida, valor — escolhas por casal."
+  },
   "verdict": "As Maldivas ganham na experiência da villa sobre a água e na pureza absoluta do oceano. Maurício ganha em variedade (montanhas, trilhas, cachoeiras, plantações de chá, mercados, cultura gastronômica) e em relação custo-benefício. As Maldivas são uma experiência centrada no \"resort como destino\"; Maurício parece um país inteiro para explorar. Se você quer desaparecer dentro de uma villa, escolha Maldivas. Se quer resort + passeios + cultura, escolha Maurício.",
   "tldr": {
     "forA": "Maldivas: pureza da villa sobre a água, imersão total no resort.",
@@ -8,15 +12,51 @@
     "tie": "Os dois têm magníficos resorts de 5 estrelas em frente à lagoa."
   },
   "criteria": [
-    { "label": "Villas sobre a água", "aDetail": "O destino por definição", "bDetail": "Apenas um punhado (Constance Prince Maurice, Four Seasons Anahita)" },
-    { "label": "Atividades fora do resort", "aDetail": "Mínimas: o resort é o universo", "bDetail": "Trilhas, Black River Gorges, Chamarel, nadar com golfinhos, rotas do rum" },
-    { "label": "Gastronomia / cultura", "aDetail": "Só gastronomia de resort", "bDetail": "Crioula, indiana, chinesa, fusão francesa: comida de rua extraordinária" },
-    { "label": "Praias de lagoa", "aDetail": "Uniformemente perfeitas", "bDetail": "Magnífica costa leste (Belle Mare), espetacular costa sul" },
-    { "label": "Preço mínimo (5 estrelas)", "aDetail": "$600-800/noite de entrada", "bDetail": "$400-600/noite de entrada: bem mais econômico" },
-    { "label": "Acesso aéreo (a partir da Europa)", "aDetail": "10-11h com conexão", "bDetail": "11-12h direto de Paris" },
-    { "label": "Vida marinha", "aDetail": "Nível mundial: arraias-manta, tubarões-baleia", "bDetail": "Bom snorkel de recife" },
-    { "label": "Profundidade cultural", "aDetail": "Mínima", "bDetail": "Caldeirão franco-britânico-indiano-africano-chinês" },
-    { "label": "Fator romântico", "aDetail": "Centrado no quarto", "bDetail": "Centrado na experiência" }
+    {
+      "label": "Villas sobre a água",
+      "aDetail": "O destino por definição",
+      "bDetail": "Apenas um punhado (Constance Prince Maurice, Four Seasons Anahita)"
+    },
+    {
+      "label": "Atividades fora do resort",
+      "aDetail": "Mínimas: o resort é o universo",
+      "bDetail": "Trilhas, Black River Gorges, Chamarel, nadar com golfinhos, rotas do rum"
+    },
+    {
+      "label": "Gastronomia / cultura",
+      "aDetail": "Só gastronomia de resort",
+      "bDetail": "Crioula, indiana, chinesa, fusão francesa: comida de rua extraordinária"
+    },
+    {
+      "label": "Praias de lagoa",
+      "aDetail": "Uniformemente perfeitas",
+      "bDetail": "Magnífica costa leste (Belle Mare), espetacular costa sul"
+    },
+    {
+      "label": "Preço mínimo (5 estrelas)",
+      "aDetail": "$600-800/noite de entrada",
+      "bDetail": "$400-600/noite de entrada: bem mais econômico"
+    },
+    {
+      "label": "Acesso aéreo (a partir da Europa)",
+      "aDetail": "10-11h com conexão",
+      "bDetail": "11-12h direto de Paris"
+    },
+    {
+      "label": "Vida marinha",
+      "aDetail": "Nível mundial: arraias-manta, tubarões-baleia",
+      "bDetail": "Bom snorkel de recife"
+    },
+    {
+      "label": "Profundidade cultural",
+      "aDetail": "Mínima",
+      "bDetail": "Caldeirão franco-britânico-indiano-africano-chinês"
+    },
+    {
+      "label": "Fator romântico",
+      "aDetail": "Centrado no quarto",
+      "bDetail": "Centrado na experiência"
+    }
   ],
   "pickA": {
     "title": "Escolha as Maldivas se…",
@@ -36,8 +76,17 @@
     ]
   },
   "faqs": [
-    { "q": "Qual é mais econômico?", "a": "Maurício, entre 20% e 30% mais econômico para categorias equivalentes. Os resorts maurícios são maiores e mais competitivos; os resorts maldivos são monopólios de propriedade única no atol, então os preços são rígidos." },
-    { "q": "Qual tem melhor gastronomia?", "a": "Maurício, com larga vantagem. A sua fusão de 5 cozinhas (francesa, indiana, chinesa, crioula, africana) não tem rival no oceano Índico. Só a comida de rua já é razão suficiente para ir." },
-    { "q": "Posso fazer uma lua de mel de 4 noites nas Maldivas e reservar o resto para Maurício?", "a": "O inverso — 4 noites em Maurício + 5 nas Maldivas — é uma combinação habitual e excelente. As rotas aéreas (MRU-MLE direto conforme a temporada ou via Seychelles) levam meio dia." }
+    {
+      "q": "Qual é mais econômico?",
+      "a": "Maurício, entre 20% e 30% mais econômico para categorias equivalentes. Os resorts maurícios são maiores e mais competitivos; os resorts maldivos são monopólios de propriedade única no atol, então os preços são rígidos."
+    },
+    {
+      "q": "Qual tem melhor gastronomia?",
+      "a": "Maurício, com larga vantagem. A sua fusão de 5 cozinhas (francesa, indiana, chinesa, crioula, africana) não tem rival no oceano Índico. Só a comida de rua já é razão suficiente para ir."
+    },
+    {
+      "q": "Posso fazer uma lua de mel de 4 noites nas Maldivas e reservar o resto para Maurício?",
+      "a": "O inverso — 4 noites em Maurício + 5 nas Maldivas — é uma combinação habitual e excelente. As rotas aéreas (MRU-MLE direto conforme a temporada ou via Seychelles) levam meio dia."
+    }
   ]
 }

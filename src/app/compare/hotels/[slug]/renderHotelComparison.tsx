@@ -331,9 +331,10 @@ export async function renderHotelComparisonPage(slug: string, locale: Locale) {
               '@type': 'Article',
               headline: `${a.name} vs ${b.name} — Honeymoon Hotel Comparison`,
               description: verdictText,
-              author: { '@type': 'Organization', name: 'My Honeymoon Hotel' },
-              publisher: { '@type': 'Organization', name: 'My Honeymoon Hotel', url: SITE_URL },
+              author: { '@type': 'Person', name: 'Jean-Baptiste Manson', url: `${SITE_URL}/about` },
+              publisher: { '@type': 'Organization', name: 'My Honeymoon Hotel', logo: { '@type': 'ImageObject', url: `${SITE_URL}/icon.png` } },
               datePublished: '2026-05-14',
+              dateModified: '2026-05-14',
             },
             {
               '@context': 'https://schema.org',

@@ -1,6 +1,10 @@
 {
   "tagline": "Drama da migração do Maasai Mara contra a tríplice sul-africana de safári + vinho + costa.",
   "metaDescription": "Quênia contra África do Sul para uma lua de mel safári: fauna, lodges, viagens multi-etapa, gastronomia, valor. Recomendações lado a lado.",
+  "seo": {
+    "title": "Quênia vs África do Sul Safari Lua de Mel: 2026",
+    "description": "Quênia vs África do Sul safari lua de mel 2026: Masai Mara vs Kruger e Cidade do Cabo. Fauna, lodges, viagens multi-parada, comida."
+  },
   "verdict": "O Quênia é um país de safári puro: o Maasai Mara abriga o maior espetáculo de fauna do planeta (a Grande Migração), e a cultura de acampamento queniana é o romance original do safári. A África do Sul é um portfólio: safári de nível mundial (Sabi Sand, Kruger) mais Cidade do Cabo, os Winelands, a Garden Route e as praias de Camps Bay; uma lua de mel de 14 dias pode parecer três viagens em uma. Escolha o Quênia pela pureza migratória e pelo romance pioneiro do acampamento. Escolha a África do Sul pela variedade e infraestrutura.",
   "tldr": {
     "forA": "Quênia: pela Grande Migração e por uma lua de mel de safári puro.",
@@ -8,19 +12,71 @@
     "tie": "Empate em qualidade de lodges na faixa alta (Angama, Bateleur contra Royal Malewane, Singita)."
   },
   "criteria": [
-    { "label": "Tempo de voo (a partir da Europa)", "aDetail": "8h direto para Nairóbi (BA, KQ, KLM)", "bDetail": "11h direto para Cidade do Cabo/Joanesburgo" },
-    { "label": "Tempo de voo (a partir dos EUA)", "aDetail": "15-18h via Londres/Doha", "bDetail": "15h direto (NYC-JNB pela SAA, Delta) ou 1 escala" },
-    { "label": "Espetáculo de fauna", "aDetail": "A Grande Migração (jul-out no Mara) é o maior evento de fauna do mundo", "bDetail": "Big Five excelente o ano todo em Sabi Sand; sem equivalente migratório" },
-    { "label": "Avistamentos do Big Five", "aDetail": "Excelentes: Mara, Laikipia, Tsavo cumprem", "bDetail": "Nível mundial: Sabi Sand tem a maior densidade de leopardos do planeta" },
-    { "label": "Variedade de lodges", "aDetail": "Acampamentos de lona com romance safári: Angama Mara, Bateleur, Cottars 1920s", "bDetail": "Predominam os lodges de luxo: Royal Malewane, Singita, Cheetah Plains" },
-    { "label": "Extensão fora do safári", "aDetail": "Praia de Diani, Lamu, Monte Quênia: todos decentes", "bDetail": "Nível mundial: Cidade do Cabo, Winelands (Stellenbosch, Franschhoek), Garden Route, Cape Point" },
-    { "label": "Gastronomia e vinho", "aDetail": "Comida de lodge excelente, sem região vinícola", "bDetail": "Líder mundial: vinhos de Stellenbosch, gastronomia de Franschhoek, cena gastronômica de Cidade do Cabo" },
-    { "label": "Opções de praia", "aDetail": "Diani, Watamu: bonitas, mas com inventário hoteleiro limitado", "bDetail": "Camps Bay, Plettenberg Bay: costa magnífica, maior variedade" },
-    { "label": "Clima de lua de mel", "aDetail": "Romance de safári puro: tendas, fogueiras, estrelas, sundowners", "bDetail": "Misto: safári + vinho + cidade + costa em uma mesma viagem" },
-    { "label": "Viabilidade do autoguiado", "aDetail": "Limitada: a maioria dos safáris é guiada ou de avião", "bDetail": "Excelente: a Garden Route é um clássico do autoguiado" },
-    { "label": "Melhor temporada", "aDetail": "Jul-out (migração), jan-fev (parto na Tanzânia, seca no Quênia)", "bDetail": "Mai-set (safári seco), out-abr (verão de Cidade do Cabo, alta dez-fev)" },
-    { "label": "Orçamento mínimo (safári de luxo)", "aDetail": "$800-1200/noite por casal em pensão completa de safári", "bDetail": "$700-1000/noite por casal em pensão completa de safári (similar) mais Cidade do Cabo bem mais econômica" },
-    { "label": "Duração da viagem", "aDetail": "7-10 dias ideal: safári puro", "bDetail": "12-16 dias compensam: safári + Cidade do Cabo + vinho + Garden Route" }
+    {
+      "label": "Tempo de voo (a partir da Europa)",
+      "aDetail": "8h direto para Nairóbi (BA, KQ, KLM)",
+      "bDetail": "11h direto para Cidade do Cabo/Joanesburgo"
+    },
+    {
+      "label": "Tempo de voo (a partir dos EUA)",
+      "aDetail": "15-18h via Londres/Doha",
+      "bDetail": "15h direto (NYC-JNB pela SAA, Delta) ou 1 escala"
+    },
+    {
+      "label": "Espetáculo de fauna",
+      "aDetail": "A Grande Migração (jul-out no Mara) é o maior evento de fauna do mundo",
+      "bDetail": "Big Five excelente o ano todo em Sabi Sand; sem equivalente migratório"
+    },
+    {
+      "label": "Avistamentos do Big Five",
+      "aDetail": "Excelentes: Mara, Laikipia, Tsavo cumprem",
+      "bDetail": "Nível mundial: Sabi Sand tem a maior densidade de leopardos do planeta"
+    },
+    {
+      "label": "Variedade de lodges",
+      "aDetail": "Acampamentos de lona com romance safári: Angama Mara, Bateleur, Cottars 1920s",
+      "bDetail": "Predominam os lodges de luxo: Royal Malewane, Singita, Cheetah Plains"
+    },
+    {
+      "label": "Extensão fora do safári",
+      "aDetail": "Praia de Diani, Lamu, Monte Quênia: todos decentes",
+      "bDetail": "Nível mundial: Cidade do Cabo, Winelands (Stellenbosch, Franschhoek), Garden Route, Cape Point"
+    },
+    {
+      "label": "Gastronomia e vinho",
+      "aDetail": "Comida de lodge excelente, sem região vinícola",
+      "bDetail": "Líder mundial: vinhos de Stellenbosch, gastronomia de Franschhoek, cena gastronômica de Cidade do Cabo"
+    },
+    {
+      "label": "Opções de praia",
+      "aDetail": "Diani, Watamu: bonitas, mas com inventário hoteleiro limitado",
+      "bDetail": "Camps Bay, Plettenberg Bay: costa magnífica, maior variedade"
+    },
+    {
+      "label": "Clima de lua de mel",
+      "aDetail": "Romance de safári puro: tendas, fogueiras, estrelas, sundowners",
+      "bDetail": "Misto: safári + vinho + cidade + costa em uma mesma viagem"
+    },
+    {
+      "label": "Viabilidade do autoguiado",
+      "aDetail": "Limitada: a maioria dos safáris é guiada ou de avião",
+      "bDetail": "Excelente: a Garden Route é um clássico do autoguiado"
+    },
+    {
+      "label": "Melhor temporada",
+      "aDetail": "Jul-out (migração), jan-fev (parto na Tanzânia, seca no Quênia)",
+      "bDetail": "Mai-set (safári seco), out-abr (verão de Cidade do Cabo, alta dez-fev)"
+    },
+    {
+      "label": "Orçamento mínimo (safári de luxo)",
+      "aDetail": "$800-1200/noite por casal em pensão completa de safári",
+      "bDetail": "$700-1000/noite por casal em pensão completa de safári (similar) mais Cidade do Cabo bem mais econômica"
+    },
+    {
+      "label": "Duração da viagem",
+      "aDetail": "7-10 dias ideal: safári puro",
+      "bDetail": "12-16 dias compensam: safári + Cidade do Cabo + vinho + Garden Route"
+    }
   ],
   "pickA": {
     "title": "Escolha o Quênia se…",
@@ -43,10 +99,25 @@
     ]
   },
   "faqs": [
-    { "q": "Qual é melhor para um primeiro safári?", "a": "Os dois são excelentes. O Quênia parece mais \"safári clássico\" com acampamentos de lona e drama migratório. Sabi Sand da África do Sul tem a maior concentração de lodges de luxo e os avistamentos do Big Five mais confiáveis, com safáris mais curtos e maior conforto. Sabi Sand para iniciantes, Mara para viajantes experientes de safári." },
-    { "q": "Qual é mais caro?", "a": "O preço por noite do safári é similar na faixa alta ($700-1200/noite por casal). A África do Sul é mais econômica no geral porque Cidade do Cabo e os Winelands são drasticamente mais acessíveis que o safári; as extensões de praia do Quênia custam parecido com o safári." },
-    { "q": "Posso combinar os dois?", "a": "Possível para viagens de 14-21 dias: Nairóbi → Mara → Cidade do Cabo. Acrescenta um dia de trânsito, mas é factível. A maioria dos casais escolhe um ou outro para uma lua de mel de 10-12 dias." },
-    { "q": "Qual tem melhor fauna?", "a": "O Quênia durante a migração (jul-out no Mara): não há equivalente no planeta em densidade bruta de fauna. A África do Sul o ano todo tem avistamentos do Big Five mais confiáveis, especialmente leopardos. A migração eclipsa tudo em espetáculo bruto, mas a África do Sul é mais constante." },
-    { "q": "É seguro fazer lua de mel em algum?", "a": "Os dois são seguros no nível de lodge. A África do Sul registra estatísticas mais altas de criminalidade urbana: limite-se a zonas seguras em Cidade do Cabo e Joanesburgo. As áreas turísticas do Quênia são bem geridas; Nairóbi exige as precauções típicas de grande cidade, mas o Mara é extraordinariamente seguro." }
+    {
+      "q": "Qual é melhor para um primeiro safári?",
+      "a": "Os dois são excelentes. O Quênia parece mais \"safári clássico\" com acampamentos de lona e drama migratório. Sabi Sand da África do Sul tem a maior concentração de lodges de luxo e os avistamentos do Big Five mais confiáveis, com safáris mais curtos e maior conforto. Sabi Sand para iniciantes, Mara para viajantes experientes de safári."
+    },
+    {
+      "q": "Qual é mais caro?",
+      "a": "O preço por noite do safári é similar na faixa alta ($700-1200/noite por casal). A África do Sul é mais econômica no geral porque Cidade do Cabo e os Winelands são drasticamente mais acessíveis que o safári; as extensões de praia do Quênia custam parecido com o safári."
+    },
+    {
+      "q": "Posso combinar os dois?",
+      "a": "Possível para viagens de 14-21 dias: Nairóbi → Mara → Cidade do Cabo. Acrescenta um dia de trânsito, mas é factível. A maioria dos casais escolhe um ou outro para uma lua de mel de 10-12 dias."
+    },
+    {
+      "q": "Qual tem melhor fauna?",
+      "a": "O Quênia durante a migração (jul-out no Mara): não há equivalente no planeta em densidade bruta de fauna. A África do Sul o ano todo tem avistamentos do Big Five mais confiáveis, especialmente leopardos. A migração eclipsa tudo em espetáculo bruto, mas a África do Sul é mais constante."
+    },
+    {
+      "q": "É seguro fazer lua de mel em algum?",
+      "a": "Os dois são seguros no nível de lodge. A África do Sul registra estatísticas mais altas de criminalidade urbana: limite-se a zonas seguras em Cidade do Cabo e Joanesburgo. As áreas turísticas do Quênia são bem geridas; Nairóbi exige as precauções típicas de grande cidade, mas o Mara é extraordinariamente seguro."
+    }
   ]
 }

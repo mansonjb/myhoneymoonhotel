@@ -151,6 +151,7 @@ localFood: 'Fresh-caught grilled lobster at Puerto Nuevo near Ensenada, tacos al
 currency: 'Mexican Peso (MXN) — hotels quote USD',
 language: 'Spanish (English in resorts)',
 timezone: 'UTC-6 (CST) / UTC-7 (MST in Baja)',
+  seo: { title: "Mexico Honeymoon: 8 Adults-Only Beach Resorts 2026", description: "8 Riviera Maya, Los Cabos, Tulum hotels ranked. Esperanza, Rosewood Mayakoba. From $500/night. Nov-Apr peak season." },
 }
 
 export default meta

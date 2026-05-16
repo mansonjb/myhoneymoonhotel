@@ -1,6 +1,10 @@
 {
   "tagline": "Precisão das cerejeiras em flor de Kyoto ou serenidade dos terraços de arroz de Ubud?",
   "metaDescription": "Japão contra Bali para uma lua de mel: cultura, bem-estar, gastronomia, valor, romance. Comparação lado a lado e recomendações.",
+  "seo": {
+    "title": "Japão vs Bali Lua de Mel: Cultura vs Trópico 2026",
+    "description": "Japão vs Bali para lua de mel 2026: ryokans e Kyoto vs vilas de Ubud e terraços de arroz. Cultura, bem-estar, comida, valor, romance."
+  },
   "verdict": "Estes dois destinos representam as luas de mel culturais mais distintivas da Ásia e respondem a perguntas completamente diferentes. O Japão é polido, ritualístico, profundidade cultural em quatro estações: ryokans com onsen, cozinha kaiseki, cerejeiras em flor, templos, Tóquio neon, silêncio de Kyoto. Bali é tropical, espiritual, bem-estar o ano todo: terraços de arroz, templos hindus, villas na selva, falésias de praia, a capital mundial do yoga e dos retiros de bem-estar. O Japão vence em sofisticação cultural e sazonalidade. Bali vence em romance tropical e profundidade de bem-estar.",
   "tldr": {
     "forA": "Japão: pela profundidade cultural, romance ryokan-onsen, variedade de quatro estações e gastronomia líder mundial.",
@@ -8,21 +12,81 @@
     "tie": "Empate em autenticidade cultural e qualidade de hotéis de luxo."
   },
   "criteria": [
-    { "label": "Tempo de voo (a partir da Europa)", "aDetail": "11-12h direto para Tóquio (BA, JAL, ANA)", "bDetail": "14-17h via Singapura/Doha para Denpasar" },
-    { "label": "Tempo de voo (a partir dos EUA)", "aDetail": "11-13h direto (NYC, LA, SFO) para Tóquio", "bDetail": "18-22h via Tóquio ou Hong Kong" },
-    { "label": "Clima / formato", "aDetail": "Quatro estações: cerejeiras em flor (abr), folhas de outono (nov), onsen de inverno", "bDetail": "Tropical o ano todo: abr-out seco, nov-mar úmido" },
-    { "label": "Profundidade cultural", "aDetail": "Extraordinária: templos de Kyoto, modernidade de Tóquio, ryokans, cerimônia do chá, kaiseki", "bDetail": "Excelente: templos hindus, rituais de água, artes de Ubud, Tirta Empul, Tanah Lot" },
-    { "label": "Gastronomia", "aDetail": "Líder mundial: sushi, kaiseki, tempura, ramen, mais estrelas Michelin que a França", "bDetail": "Excelente: indonésia/balinesa, tropical fresca, fusão asiática em nível resort" },
-    { "label": "Bem-estar e spa", "aDetail": "Tradição de ryokan com onsen (Hakone, Kinosaki, Kawaguchiko)", "bDetail": "Capital mundial do bem-estar: COMO Shambhala, Fivelements, Karma; spas em cada resort" },
-    { "label": "O quarto emblemático", "aDetail": "Ryokan com banho onsen privativo e tatami", "bDetail": "Villa na selva em Ubud ou villa em falésia em Uluwatu: ao ar livre, piscina infinita" },
-    { "label": "Praia", "aDetail": "Limitada: Okinawa é a alternativa tropical do Japão, longe do itinerário principal", "bDetail": "Múltiplas: Seminyak, Canggu, Uluwatu, Nusa Dua, Sanur" },
-    { "label": "Intimidade romântica", "aDetail": "Ryokan com jantar kaiseki e banho privativo é profundamente romântico", "bDetail": "Villa na selva com piscina privativa sobre arrozais é profundamente romântica" },
-    { "label": "Lua de mel multi-etapa", "aDetail": "Tóquio + Kyoto + Hakone (ou Okinawa) é o itinerário clássico de 10-14 dias", "bDetail": "Ubud + Uluwatu (+ Seminyak) é 7-10 dias; menos variedade que o Japão" },
-    { "label": "Magia sazonal / cerejeiras em flor", "aDetail": "A temporada sakura (fim de mar a início de abr) figura entre os momentos mais românticos do mundo", "bDetail": "Tropical o ano todo, sem equivalente de magia sazonal" },
-    { "label": "Oferta só para adultos", "aDetail": "Muitos ryokans são focados em casais por tradição (admitem crianças, mas é raro)", "bDetail": "Alguns só para adultos (COMO Shambhala, villas AYANA), mas menos dedicados" },
-    { "label": "Melhor temporada", "aDetail": "Fim de mar-abr (sakura), out-nov (outono), jan-fev (onsen de inverno)", "bDetail": "Abr-out (seca), nov-mar (chuvosa, mas verde)" },
-    { "label": "Orçamento mínimo (5 estrelas)", "aDetail": "$400-700/noite para 5 estrelas em Tóquio/Kyoto, ryokans $500-1500", "bDetail": "$200-400/noite para luxo de nível mundial" },
-    { "label": "Orçamento máximo", "aDetail": "$3000+/noite (Aman Tokyo, Mandarin Oriental, ryokans da faixa alta)", "bDetail": "$3000+/noite (Capella Ubud, Bambu Indah, NIHI Sumba)" }
+    {
+      "label": "Tempo de voo (a partir da Europa)",
+      "aDetail": "11-12h direto para Tóquio (BA, JAL, ANA)",
+      "bDetail": "14-17h via Singapura/Doha para Denpasar"
+    },
+    {
+      "label": "Tempo de voo (a partir dos EUA)",
+      "aDetail": "11-13h direto (NYC, LA, SFO) para Tóquio",
+      "bDetail": "18-22h via Tóquio ou Hong Kong"
+    },
+    {
+      "label": "Clima / formato",
+      "aDetail": "Quatro estações: cerejeiras em flor (abr), folhas de outono (nov), onsen de inverno",
+      "bDetail": "Tropical o ano todo: abr-out seco, nov-mar úmido"
+    },
+    {
+      "label": "Profundidade cultural",
+      "aDetail": "Extraordinária: templos de Kyoto, modernidade de Tóquio, ryokans, cerimônia do chá, kaiseki",
+      "bDetail": "Excelente: templos hindus, rituais de água, artes de Ubud, Tirta Empul, Tanah Lot"
+    },
+    {
+      "label": "Gastronomia",
+      "aDetail": "Líder mundial: sushi, kaiseki, tempura, ramen, mais estrelas Michelin que a França",
+      "bDetail": "Excelente: indonésia/balinesa, tropical fresca, fusão asiática em nível resort"
+    },
+    {
+      "label": "Bem-estar e spa",
+      "aDetail": "Tradição de ryokan com onsen (Hakone, Kinosaki, Kawaguchiko)",
+      "bDetail": "Capital mundial do bem-estar: COMO Shambhala, Fivelements, Karma; spas em cada resort"
+    },
+    {
+      "label": "O quarto emblemático",
+      "aDetail": "Ryokan com banho onsen privativo e tatami",
+      "bDetail": "Villa na selva em Ubud ou villa em falésia em Uluwatu: ao ar livre, piscina infinita"
+    },
+    {
+      "label": "Praia",
+      "aDetail": "Limitada: Okinawa é a alternativa tropical do Japão, longe do itinerário principal",
+      "bDetail": "Múltiplas: Seminyak, Canggu, Uluwatu, Nusa Dua, Sanur"
+    },
+    {
+      "label": "Intimidade romântica",
+      "aDetail": "Ryokan com jantar kaiseki e banho privativo é profundamente romântico",
+      "bDetail": "Villa na selva com piscina privativa sobre arrozais é profundamente romântica"
+    },
+    {
+      "label": "Lua de mel multi-etapa",
+      "aDetail": "Tóquio + Kyoto + Hakone (ou Okinawa) é o itinerário clássico de 10-14 dias",
+      "bDetail": "Ubud + Uluwatu (+ Seminyak) é 7-10 dias; menos variedade que o Japão"
+    },
+    {
+      "label": "Magia sazonal / cerejeiras em flor",
+      "aDetail": "A temporada sakura (fim de mar a início de abr) figura entre os momentos mais românticos do mundo",
+      "bDetail": "Tropical o ano todo, sem equivalente de magia sazonal"
+    },
+    {
+      "label": "Oferta só para adultos",
+      "aDetail": "Muitos ryokans são focados em casais por tradição (admitem crianças, mas é raro)",
+      "bDetail": "Alguns só para adultos (COMO Shambhala, villas AYANA), mas menos dedicados"
+    },
+    {
+      "label": "Melhor temporada",
+      "aDetail": "Fim de mar-abr (sakura), out-nov (outono), jan-fev (onsen de inverno)",
+      "bDetail": "Abr-out (seca), nov-mar (chuvosa, mas verde)"
+    },
+    {
+      "label": "Orçamento mínimo (5 estrelas)",
+      "aDetail": "$400-700/noite para 5 estrelas em Tóquio/Kyoto, ryokans $500-1500",
+      "bDetail": "$200-400/noite para luxo de nível mundial"
+    },
+    {
+      "label": "Orçamento máximo",
+      "aDetail": "$3000+/noite (Aman Tokyo, Mandarin Oriental, ryokans da faixa alta)",
+      "bDetail": "$3000+/noite (Capella Ubud, Bambu Indah, NIHI Sumba)"
+    }
   ],
   "pickA": {
     "title": "Escolha o Japão se…",
@@ -45,10 +109,25 @@
     ]
   },
   "faqs": [
-    { "q": "Qual é culturalmente mais rica?", "a": "As duas são extraordinárias. O Japão é preciso, ritualístico e profundamente codificado: cada refeição, banho e jardim tem um peso cultural formal. Bali é mais permeável e espiritual: oferendas hindus diárias, rituais de água, cerimônias de dança. O Japão recompensa o estudo; Bali recompensa a imersão." },
-    { "q": "Qual é mais cara?", "a": "Japão, entre 50% e 100% para uma categoria equivalente. Os hotéis de luxo de Tóquio e Kyoto começam em $400-700/noite contra $200-300 em Bali. Os ryokans também somam. Bali figura entre os destinos de luxo com melhor relação custo-benefício do planeta." },
-    { "q": "Qual é melhor para uma lua de mel de 14 dias?", "a": "Japão: mais variedade em 14 dias (Tóquio + Kyoto + Hakone + Hokkaido ou Okinawa). Bali em 14 dias é viável com saltos para Sumba ou Lombok, mas majoritariamente de uma única ilha." },
-    { "q": "Qual tem melhor gastronomia?", "a": "Japão, decisivamente, em refinamento e amplitude. Só Tóquio tem mais estrelas Michelin que qualquer cidade do planeta. A gastronomia de Bali é boa e melhora, mas não compete nesse nível." },
-    { "q": "Posso combinar as duas?", "a": "Possível para viagens de 18-21 dias: Japão primeiro (mais fresco, estruturado), Bali depois (quente, relaxado). Tóquio → Bali via Singapura é um voo de 6-7h. A maioria dos casais escolhe um para uma lua de mel de 10-14 dias." }
+    {
+      "q": "Qual é culturalmente mais rica?",
+      "a": "As duas são extraordinárias. O Japão é preciso, ritualístico e profundamente codificado: cada refeição, banho e jardim tem um peso cultural formal. Bali é mais permeável e espiritual: oferendas hindus diárias, rituais de água, cerimônias de dança. O Japão recompensa o estudo; Bali recompensa a imersão."
+    },
+    {
+      "q": "Qual é mais cara?",
+      "a": "Japão, entre 50% e 100% para uma categoria equivalente. Os hotéis de luxo de Tóquio e Kyoto começam em $400-700/noite contra $200-300 em Bali. Os ryokans também somam. Bali figura entre os destinos de luxo com melhor relação custo-benefício do planeta."
+    },
+    {
+      "q": "Qual é melhor para uma lua de mel de 14 dias?",
+      "a": "Japão: mais variedade em 14 dias (Tóquio + Kyoto + Hakone + Hokkaido ou Okinawa). Bali em 14 dias é viável com saltos para Sumba ou Lombok, mas majoritariamente de uma única ilha."
+    },
+    {
+      "q": "Qual tem melhor gastronomia?",
+      "a": "Japão, decisivamente, em refinamento e amplitude. Só Tóquio tem mais estrelas Michelin que qualquer cidade do planeta. A gastronomia de Bali é boa e melhora, mas não compete nesse nível."
+    },
+    {
+      "q": "Posso combinar as duas?",
+      "a": "Possível para viagens de 18-21 dias: Japão primeiro (mais fresco, estruturado), Bali depois (quente, relaxado). Tóquio → Bali via Singapura é um voo de 6-7h. A maioria dos casais escolhe um para uma lua de mel de 10-14 dias."
+    }
   ]
 }

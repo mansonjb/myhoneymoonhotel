@@ -106,6 +106,7 @@ localFood: 'Langoustine (humar, Icelandic lobster — sweeter than Atlantic); ar
 currency: 'Icelandic Króna (ISK) — one of the world\'s smallest currencies. Iceland is almost cashless; cards accepted everywhere, even public toilets.',
 language: 'Icelandic is official; English is universal at hotel, restaurant, and guide level.',
 timezone: 'UTC+0 year-round (no daylight saving)',
+  seo: { title: "Iceland Honeymoon: 8 Aurora & Lagoon Hotels Scored", description: "8 Reykjavik, South Coast, Highlands hotels ranked. Deplar Farm, The Retreat at Blue Lagoon. From $400/night. Sep-Mar aurora." },
 }
 
 export default meta

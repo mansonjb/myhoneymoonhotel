@@ -156,6 +156,7 @@ localFood: 'Lamb tagine with preserved lemon and olives slow-cooked in a clay po
 currency: 'Moroccan Dirham (MAD)',
 language: 'Arabic and Amazigh (French and Spanish widely spoken, some English)',
 timezone: 'UTC+1 (Morocco doesn\'t observe DST consistently)',
+  seo: { title: "Morocco Honeymoon: 12 Riads & Desert Camps Scored 2026", description: "12 Marrakech, Atlas, Sahara hideouts ranked. Royal Mansour, La Mamounia, Kasbah Bab Ourika. From $300/night. Oct-Apr." },
 }
 
 export default meta

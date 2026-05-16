@@ -156,6 +156,7 @@ localFood: 'Linguine alle vongole (clams with garlic and white wine) at a cliff-
 currency: 'Euro (EUR)',
 language: 'Italian (English in hotels)',
 timezone: 'UTC+1 (CET) / UTC+2 (CEST in summer)',
+  seo: { title: "Amalfi Coast Honeymoon: 8 Cliffside Hotels Scored 2026", description: "8 Positano, Ravello, Praiano hotels ranked. Le Sirenuse, Caruso, San Pietro. From $800/night. May-Sep verdicts." },
 }
 
 export default meta

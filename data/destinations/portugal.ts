@@ -156,6 +156,7 @@ localFood: 'Percebes (goose barnacles harvested from Atlantic rocks, eaten with 
 currency: 'Euro (EUR)',
 language: 'Portuguese (English spoken widely)',
 timezone: 'UTC+0 (WET) / UTC+1 (WEST in summer)',
+  seo: { title: "Portugal Honeymoon: 12 Coast & Vineyard Hotels 2026", description: "12 Algarve, Douro, Comporta hotels scored. Six Senses, Vila Vita Parc. From $400/night. Apr-Oct picks." },
 }
 
 export default meta

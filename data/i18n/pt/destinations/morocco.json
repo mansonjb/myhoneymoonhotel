@@ -18,51 +18,230 @@
     "Quer jantar e conforto ocidental previsível sem engajamento cultural"
   ],
   "experiences": [
-    { "icon": "🏰", "title": "Experiência privativa em riad, Marrakech", "description": "Uma noite num grande riad de Marrakech — Royal Mansour, La Mamounia ou El Fenn — é uma experiência diferente de qualquer estada hoteleira no mundo. Seu pátio privativo, plunge pool e equipe pessoal fazem da medina caótica seu reino privado.", "cost": "€400-3.000+/noite", "tip": "Mesmo que sua acomodação principal seja intermediária, reserve uma noite no La Mamounia ou Royal Mansour para um jantar de aniversário ou tarde de spa — a experiência justifica o gasto." },
-    { "icon": "🐪", "title": "Trekking de camelo no Saara e camp no deserto", "description": "Cavalgue um camelo nas dunas Erg Chebbi ao pôr do sol, veja a luz ir do dourado ao laranja-sangue ao violeta sobre 150 km de nada e durma em tenda glamping de luxo com colchão e roda de fogo. Acorde às 5h para o nascer do sol da duna mais alta.", "cost": "€150-400 por casal (trek + camp de luxo)", "tip": "Hospede-se em camp de luxo de verdade em vez de padrão — diferença de qualidade enorme. Dar Ahlam, Scarabeo Camp e Angsana Riads Desert Camp são as melhores opções." },
-    { "icon": "🌿", "title": "Hammam e ritual de óleo de argan", "description": "Hammam tradicional marroquino — sala de vapor com esfoliação com luva kessa e sabão savon beldi preto, seguido de massagem com óleo de argan. Em um bom hammam de riad, isso é genuinamente transformador. Os dois juntos torna ritual compartilhado. Reserve 2h.", "cost": "€60-200 por pessoa em hammam de luxo", "tip": "Reserve o hammam do Royal Mansour Spa mesmo sem se hospedar — é o melhor hammam tradicional do Marrocos. Heritage spa do La Mamounia é igualmente extraordinário." },
-    { "icon": "🎨", "title": "Medina de Fes com guia privativo", "description": "Fes el-Bali é a cidade medieval mais completa do mundo — 9.400 vielas em medina UNESCO do século IX. Guia privativo por 3h destranca curtumes (melhores vistas das lojas de couro acima), madrasas e souks invisíveis sem conhecimento local. É completamente sufocante sem.", "cost": "€40-80 por guia licenciado", "tip": "Reserve guia licenciado pelo riad em vez de aceitar cambistas no portão — não licenciados recebem comissão de lojas. Vistas do Curtume Chouara são grátis se pedir educadamente." },
-    { "icon": "🌄", "title": "Drive pelo Atlas e almoço berbere", "description": "A estrada do passo Tizi n'Tichka (2.260 m) de Marrakech pelo Alto Atlas é uma das grandes drives de montanha do norte da África — vilarejos berberes em falésias, nogueiras e argan, e a descida ao deserto. Pare em uma auberge familiar para tagine no fogo de lenha com vista de nada além de montanhas.", "cost": "Carro €40-80/dia; almoço €15-25 por pessoa", "tip": "Contrate motorista em vez de dirigir — a estrada é genuinamente desafiadora com curvas em U e caminhões; um motorista local conhece os melhores almoços e pontos de foto de Kasbah." }
+    {
+      "icon": "🏰",
+      "title": "Experiência privativa em riad, Marrakech",
+      "description": "Uma noite num grande riad de Marrakech — Royal Mansour, La Mamounia ou El Fenn — é uma experiência diferente de qualquer estada hoteleira no mundo. Seu pátio privativo, plunge pool e equipe pessoal fazem da medina caótica seu reino privado.",
+      "cost": "€400-3.000+/noite",
+      "tip": "Mesmo que sua acomodação principal seja intermediária, reserve uma noite no La Mamounia ou Royal Mansour para um jantar de aniversário ou tarde de spa — a experiência justifica o gasto."
+    },
+    {
+      "icon": "🐪",
+      "title": "Trekking de camelo no Saara e camp no deserto",
+      "description": "Cavalgue um camelo nas dunas Erg Chebbi ao pôr do sol, veja a luz ir do dourado ao laranja-sangue ao violeta sobre 150 km de nada e durma em tenda glamping de luxo com colchão e roda de fogo. Acorde às 5h para o nascer do sol da duna mais alta.",
+      "cost": "€150-400 por casal (trek + camp de luxo)",
+      "tip": "Hospede-se em camp de luxo de verdade em vez de padrão — diferença de qualidade enorme. Dar Ahlam, Scarabeo Camp e Angsana Riads Desert Camp são as melhores opções."
+    },
+    {
+      "icon": "🌿",
+      "title": "Hammam e ritual de óleo de argan",
+      "description": "Hammam tradicional marroquino — sala de vapor com esfoliação com luva kessa e sabão savon beldi preto, seguido de massagem com óleo de argan. Em um bom hammam de riad, isso é genuinamente transformador. Os dois juntos torna ritual compartilhado. Reserve 2h.",
+      "cost": "€60-200 por pessoa em hammam de luxo",
+      "tip": "Reserve o hammam do Royal Mansour Spa mesmo sem se hospedar — é o melhor hammam tradicional do Marrocos. Heritage spa do La Mamounia é igualmente extraordinário."
+    },
+    {
+      "icon": "🎨",
+      "title": "Medina de Fes com guia privativo",
+      "description": "Fes el-Bali é a cidade medieval mais completa do mundo — 9.400 vielas em medina UNESCO do século IX. Guia privativo por 3h destranca curtumes (melhores vistas das lojas de couro acima), madrasas e souks invisíveis sem conhecimento local. É completamente sufocante sem.",
+      "cost": "€40-80 por guia licenciado",
+      "tip": "Reserve guia licenciado pelo riad em vez de aceitar cambistas no portão — não licenciados recebem comissão de lojas. Vistas do Curtume Chouara são grátis se pedir educadamente."
+    },
+    {
+      "icon": "🌄",
+      "title": "Drive pelo Atlas e almoço berbere",
+      "description": "A estrada do passo Tizi n'Tichka (2.260 m) de Marrakech pelo Alto Atlas é uma das grandes drives de montanha do norte da África — vilarejos berberes em falésias, nogueiras e argan, e a descida ao deserto. Pare em uma auberge familiar para tagine no fogo de lenha com vista de nada além de montanhas.",
+      "cost": "Carro €40-80/dia; almoço €15-25 por pessoa",
+      "tip": "Contrate motorista em vez de dirigir — a estrada é genuinamente desafiadora com curvas em U e caminhões; um motorista local conhece os melhores almoços e pontos de foto de Kasbah."
+    }
   ],
   "months": [
-    { "month": "Jan", "weather": "Noites frescas, dias claros, Saara frio", "emoji": "❄️", "crowds": "Baixa", "price": "Baixo", "verdict": "Bom para cidades de medina, deserto frio" },
-    { "month": "Feb", "weather": "Esquentando, céu claro, ótima luz", "emoji": "🌤", "crowds": "Baixa", "price": "Baixo-médio", "verdict": "Bom custo-benefício, excelente luz" },
-    { "month": "Mar", "weather": "Quente, flores, quase perfeito", "emoji": "🌸", "crowds": "Média", "price": "Médio", "verdict": "Um dos melhores meses" },
-    { "month": "Apr", "weather": "Quente, festival da rosa, Atlas verde", "emoji": "🌹", "crowds": "Média", "price": "Médio", "verdict": "Colheita das rosas no Vale Dades — mágico" },
-    { "month": "May", "weather": "Quente no sul, perfeito no norte", "emoji": "☀️", "crowds": "Média", "price": "Médio-alto", "verdict": "Excelente em geral" },
-    { "month": "Jun", "weather": "Muito quente em Marrakech, calor subindo", "emoji": "🌡️", "crowds": "Baixa-méd.", "price": "Médio", "verdict": "Quente mas tolerável de manhã" },
-    { "month": "Jul", "weather": "Calor extremo no sul (42°C+)", "emoji": "🔥", "crowds": "Baixa", "price": "Baixo", "verdict": "Quente demais — evite o sul" },
-    { "month": "Aug", "weather": "Mais quente, Marrakech brutal", "emoji": "🔥", "crowds": "Baixa", "price": "Mínimo", "verdict": "Só Essaouira costeira é tolerável" },
-    { "month": "Sep", "weather": "Esfriando, excelente, Saara perfeito", "emoji": "☀️", "crowds": "Média", "price": "Médio", "verdict": "Mês ideal retorna" },
-    { "month": "Oct", "weather": "Perfeito — dias quentes, noites frescas", "emoji": "☀️", "crowds": "Alta", "price": "Médio-alto", "verdict": "Melhor mês geral" },
-    { "month": "Nov", "weather": "Dias quentes, noites frescas, céu claro", "emoji": "🌤", "crowds": "Média", "price": "Médio", "verdict": "Excelente custo-benefício" },
-    { "month": "Dec", "weather": "Fresco, claro, Natal nas medinas", "emoji": "⛅", "crowds": "Média", "price": "Médio", "verdict": "Romântico nos souks" }
+    {
+      "month": "Jan",
+      "weather": "Noites frescas, dias claros, Saara frio",
+      "emoji": "❄️",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Bom para cidades de medina, deserto frio"
+    },
+    {
+      "month": "Feb",
+      "weather": "Esquentando, céu claro, ótima luz",
+      "emoji": "🌤",
+      "crowds": "Baixa",
+      "price": "Baixo-médio",
+      "verdict": "Bom custo-benefício, excelente luz"
+    },
+    {
+      "month": "Mar",
+      "weather": "Quente, flores, quase perfeito",
+      "emoji": "🌸",
+      "crowds": "Média",
+      "price": "Médio",
+      "verdict": "Um dos melhores meses"
+    },
+    {
+      "month": "Apr",
+      "weather": "Quente, festival da rosa, Atlas verde",
+      "emoji": "🌹",
+      "crowds": "Média",
+      "price": "Médio",
+      "verdict": "Colheita das rosas no Vale Dades — mágico"
+    },
+    {
+      "month": "May",
+      "weather": "Quente no sul, perfeito no norte",
+      "emoji": "☀️",
+      "crowds": "Média",
+      "price": "Médio-alto",
+      "verdict": "Excelente em geral"
+    },
+    {
+      "month": "Jun",
+      "weather": "Muito quente em Marrakech, calor subindo",
+      "emoji": "🌡️",
+      "crowds": "Baixa-méd.",
+      "price": "Médio",
+      "verdict": "Quente mas tolerável de manhã"
+    },
+    {
+      "month": "Jul",
+      "weather": "Calor extremo no sul (42°C+)",
+      "emoji": "🔥",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Quente demais — evite o sul"
+    },
+    {
+      "month": "Aug",
+      "weather": "Mais quente, Marrakech brutal",
+      "emoji": "🔥",
+      "crowds": "Baixa",
+      "price": "Mínimo",
+      "verdict": "Só Essaouira costeira é tolerável"
+    },
+    {
+      "month": "Sep",
+      "weather": "Esfriando, excelente, Saara perfeito",
+      "emoji": "☀️",
+      "crowds": "Média",
+      "price": "Médio",
+      "verdict": "Mês ideal retorna"
+    },
+    {
+      "month": "Oct",
+      "weather": "Perfeito — dias quentes, noites frescas",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Médio-alto",
+      "verdict": "Melhor mês geral"
+    },
+    {
+      "month": "Nov",
+      "weather": "Dias quentes, noites frescas, céu claro",
+      "emoji": "🌤",
+      "crowds": "Média",
+      "price": "Médio",
+      "verdict": "Excelente custo-benefício"
+    },
+    {
+      "month": "Dec",
+      "weather": "Fresco, claro, Natal nas medinas",
+      "emoji": "⛅",
+      "crowds": "Média",
+      "price": "Médio",
+      "verdict": "Romântico nos souks"
+    }
   ],
   "budgetTiers": [
-    { "label": "Riad boutique", "range": "€100-300/noite", "gets": "Riad pequeno lindamente projetado na medina — pátio, terraço, café da manhã marroquino caseiro. Algumas das acomodações mais atmosféricas do mundo a preços extraordinários.", "example": "Riad Kniza, Riad Farnatchi, Dar les Cigognes (Marrakech)" },
-    { "label": "Riad de luxo", "range": "€300-800/noite", "gets": "Riad maior com hammam privativo, plunge pool, mordomo e gastronomia excepcional. A experiência completa em nível sério.", "example": "El Fenn, Riad Mena & Beyond, Riad 72" },
-    { "label": "Nível palácio", "range": "€800-5.000+/noite", "gets": "La Mamounia ou Royal Mansour — dois dos grandes hotéis do mundo, ponto. Riads privativos dentro de jardim de palácio amuralhado. Proporções equipe-hóspede acima de 5:1. Experiências que redefinem hospitalidade de luxo.", "example": "Royal Mansour Marrakech, La Mamounia" }
+    {
+      "label": "Riad boutique",
+      "range": "€100-300/noite",
+      "gets": "Riad pequeno lindamente projetado na medina — pátio, terraço, café da manhã marroquino caseiro. Algumas das acomodações mais atmosféricas do mundo a preços extraordinários.",
+      "example": "Riad Kniza, Riad Farnatchi, Dar les Cigognes (Marrakech)"
+    },
+    {
+      "label": "Riad de luxo",
+      "range": "€300-800/noite",
+      "gets": "Riad maior com hammam privativo, plunge pool, mordomo e gastronomia excepcional. A experiência completa em nível sério.",
+      "example": "El Fenn, Riad Mena & Beyond, Riad 72"
+    },
+    {
+      "label": "Nível palácio",
+      "range": "€800-5.000+/noite",
+      "gets": "La Mamounia ou Royal Mansour — dois dos grandes hotéis do mundo, ponto. Riads privativos dentro de jardim de palácio amuralhado. Proporções equipe-hóspede acima de 5:1. Experiências que redefinem hospitalidade de luxo.",
+      "example": "Royal Mansour Marrakech, La Mamounia"
+    }
   ],
   "areas": [
-    { "name": "Marrakech", "bestFor": "Luxo de riad, souks, Djemaa el-Fna, palácios", "description": "A experiência essencial e a melhor base para a primeira viagem. A cidade rosa tem a maior concentração de riads de luxo, o mais extraordinário mercado noturno e restaurantes e spas de classe mundial. Essencial para qualquer lua de mel marroquina." },
-    { "name": "Fes", "bestFor": "Medina mais autêntica, arquitetura medieval", "description": "A cidade medieval mais completa do mundo e capital espiritual e intelectual do Marrocos. A medina de Fes el-Bali faz Marrakech parecer moderna. Mais intensa, menos polida turisticamente e mais profundamente comovente. Melhor como adição de 2 noites." },
-    { "name": "Deserto do Saara (Merzouga)", "bestFor": "Trekking de camelo, glamping de luxo, observação de estrelas", "description": "As dunas Erg Chebbi perto de Merzouga são o Marrocos cinematográfico das caravanas. 2-3 noites com camp de luxo é uma das grandes experiências de lua de mel — sobretudo o nascer do sol e o céu noturno." },
-    { "name": "Cordilheira do Atlas", "bestFor": "Vilarejos berberes, trilhas, drives de montanha", "description": "O Alto Atlas chega a 4.167 m (Jebel Toubkal) e separa o Marrocos costeiro do Saara. As estradas do vale — Garganta Dades, Garganta Todra, Tizi n'Tichka — estão entre as drives mais dramáticas do norte da África." },
-    { "name": "Essaouira", "bestFor": "Costa atlântica, vento, arte, mercado de peixe", "description": "Cidade portuária amuralhada UNESCO no Atlântico — azul e branco em vez do rosa de Marrakech, ventosa e artística em vez de frenética. Excelente mercado de peixe, kitesurfe ao vento e ritmo completamente diferente das cidades do interior." }
+    {
+      "name": "Marrakech",
+      "bestFor": "Luxo de riad, souks, Djemaa el-Fna, palácios",
+      "description": "A experiência essencial e a melhor base para a primeira viagem. A cidade rosa tem a maior concentração de riads de luxo, o mais extraordinário mercado noturno e restaurantes e spas de classe mundial. Essencial para qualquer lua de mel marroquina."
+    },
+    {
+      "name": "Fes",
+      "bestFor": "Medina mais autêntica, arquitetura medieval",
+      "description": "A cidade medieval mais completa do mundo e capital espiritual e intelectual do Marrocos. A medina de Fes el-Bali faz Marrakech parecer moderna. Mais intensa, menos polida turisticamente e mais profundamente comovente. Melhor como adição de 2 noites."
+    },
+    {
+      "name": "Deserto do Saara (Merzouga)",
+      "bestFor": "Trekking de camelo, glamping de luxo, observação de estrelas",
+      "description": "As dunas Erg Chebbi perto de Merzouga são o Marrocos cinematográfico das caravanas. 2-3 noites com camp de luxo é uma das grandes experiências de lua de mel — sobretudo o nascer do sol e o céu noturno."
+    },
+    {
+      "name": "Cordilheira do Atlas",
+      "bestFor": "Vilarejos berberes, trilhas, drives de montanha",
+      "description": "O Alto Atlas chega a 4.167 m (Jebel Toubkal) e separa o Marrocos costeiro do Saara. As estradas do vale — Garganta Dades, Garganta Todra, Tizi n'Tichka — estão entre as drives mais dramáticas do norte da África."
+    },
+    {
+      "name": "Essaouira",
+      "bestFor": "Costa atlântica, vento, arte, mercado de peixe",
+      "description": "Cidade portuária amuralhada UNESCO no Atlântico — azul e branco em vez do rosa de Marrakech, ventosa e artística em vez de frenética. Excelente mercado de peixe, kitesurfe ao vento e ritmo completamente diferente das cidades do interior."
+    }
   ],
   "expertTips": [
-    { "tip": "Seu riad é seu santuário — escolha com cuidado", "detail": "No Marrocos, o riad não é só onde você dorme — é onde você escapa. Os souks e medinas são intensos e exaustivos. Riad com pátio belo, plunge pool e equipe atenta vira o contraponto emocional do assalto sensorial. Não economize aqui." },
-    { "tip": "Contrate guia privativo para Fes, pule cambistas", "detail": "A medina de Fes é genuinamente impossível de navegar sozinho e cambistas nos portões são agressivos. Guia licenciado do seu riad destranca a cidade. Pague €50-80 por 3h — verá curtumes, Madrasa Bou Inania e o quarteirão dos cobreiros com narrativa que transforma." },
-    { "tip": "O Saara fica a 9-10h de Marrakech — voe", "detail": "Muitos casais tentam road trip Marrakech-Merzouga em um dia. É brutal — 9h cada trecho em estradas de montanha. Voe de Marrakech a Errachidia (1h, €50-80) e siga de carro 2h até as dunas. Você chega descansado e ganha 2 dias. Vale totalmente." },
-    { "tip": "Pechinchar é esperado e divertido", "detail": "Nos souks, o primeiro preço é teatro — espere pagar 30-50% do pedido para a maioria dos itens. Encare como conversa, não confronto. Comece em 30%, aproveite o vai-e-vem e vá embora se travar — eles te chamam de volta. O processo é metade da experiência." },
-    { "tip": "Reserve rooftops em torno da Djemaa el-Fna ao pôr do sol", "detail": "A praça ao pôr do sol é caótica e um pouco sufocante no chão. Os restaurantes em rooftop ao redor (Café de France, Le Grand Balcon du Café Glacier) dão a vista panorâmica de toda a cena — tambores, fumaça, multidões, Atlas atrás — com chá de menta. Imagem definitiva de Marrakech." }
+    {
+      "tip": "Seu riad é seu santuário — escolha com cuidado",
+      "detail": "No Marrocos, o riad não é só onde você dorme — é onde você escapa. Os souks e medinas são intensos e exaustivos. Riad com pátio belo, plunge pool e equipe atenta vira o contraponto emocional do assalto sensorial. Não economize aqui."
+    },
+    {
+      "tip": "Contrate guia privativo para Fes, pule cambistas",
+      "detail": "A medina de Fes é genuinamente impossível de navegar sozinho e cambistas nos portões são agressivos. Guia licenciado do seu riad destranca a cidade. Pague €50-80 por 3h — verá curtumes, Madrasa Bou Inania e o quarteirão dos cobreiros com narrativa que transforma."
+    },
+    {
+      "tip": "O Saara fica a 9-10h de Marrakech — voe",
+      "detail": "Muitos casais tentam road trip Marrakech-Merzouga em um dia. É brutal — 9h cada trecho em estradas de montanha. Voe de Marrakech a Errachidia (1h, €50-80) e siga de carro 2h até as dunas. Você chega descansado e ganha 2 dias. Vale totalmente."
+    },
+    {
+      "tip": "Pechinchar é esperado e divertido",
+      "detail": "Nos souks, o primeiro preço é teatro — espere pagar 30-50% do pedido para a maioria dos itens. Encare como conversa, não confronto. Comece em 30%, aproveite o vai-e-vem e vá embora se travar — eles te chamam de volta. O processo é metade da experiência."
+    },
+    {
+      "tip": "Reserve rooftops em torno da Djemaa el-Fna ao pôr do sol",
+      "detail": "A praça ao pôr do sol é caótica e um pouco sufocante no chão. Os restaurantes em rooftop ao redor (Café de France, Le Grand Balcon du Café Glacier) dão a vista panorâmica de toda a cena — tambores, fumaça, multidões, Atlas atrás — com chá de menta. Imagem definitiva de Marrakech."
+    }
   ],
   "packing": [
-    { "item": "Roupa modesta para medinas (mulheres: ombros e joelhos cobertos)", "why": "O Marrocos é muçulmano — ombros e joelhos cobertos são respeitosos em medinas e exigidos em mesquitas; traje de praia é só para piscina de resort" },
-    { "item": "Sapatos baixos fechados confortáveis", "why": "Paralelepípedos de medina e pisos de souk são irregulares, escorregadios com água derramada e muitas vezes sujos de dejetos animais — sandálias são risco real em Fes e Marrakech" },
-    { "item": "Carteira pequena de dinheiro (MAD)", "why": "Compras em souk são só em dinheiro e caixas eletrônicos não são sempre convenientes nas medinas — leve dirhams pequenos separados da carteira principal" },
-    { "item": "Camada quente para noites no Saara", "why": "Temperaturas no deserto caem dramaticamente após o pôr do sol — mesmo no verão, noites no Saara chegam a 10-15°C; na primavera podem ser quase congelantes" },
-    { "item": "Antidiarreico", "why": "Comida marroquina é extraordinária mas comida de rua e água carregam risco real para estômagos despreparados — leve Imodium e sachês de hidratação independentemente do cuidado" }
+    {
+      "item": "Roupa modesta para medinas (mulheres: ombros e joelhos cobertos)",
+      "why": "O Marrocos é muçulmano — ombros e joelhos cobertos são respeitosos em medinas e exigidos em mesquitas; traje de praia é só para piscina de resort"
+    },
+    {
+      "item": "Sapatos baixos fechados confortáveis",
+      "why": "Paralelepípedos de medina e pisos de souk são irregulares, escorregadios com água derramada e muitas vezes sujos de dejetos animais — sandálias são risco real em Fes e Marrakech"
+    },
+    {
+      "item": "Carteira pequena de dinheiro (MAD)",
+      "why": "Compras em souk são só em dinheiro e caixas eletrônicos não são sempre convenientes nas medinas — leve dirhams pequenos separados da carteira principal"
+    },
+    {
+      "item": "Camada quente para noites no Saara",
+      "why": "Temperaturas no deserto caem dramaticamente após o pôr do sol — mesmo no verão, noites no Saara chegam a 10-15°C; na primavera podem ser quase congelantes"
+    },
+    {
+      "item": "Antidiarreico",
+      "why": "Comida marroquina é extraordinária mas comida de rua e água carregam risco real para estômagos despreparados — leve Imodium e sachês de hidratação independentemente do cuidado"
+    }
   ],
   "guide": {
     "getting": "Voe para Marrakech Menara (RAK) — direto da maioria das cidades europeias com Ryanair, easyJet, Royal Air Maroc e British Airways (2,5-4h). De RAK, táxis até a medina têm tarifa fixa: €5-10 pela viagem de 15 min (combine antes ou use o balcão de táxis). Para Fes, voe direto a Fes-Saïss (FEZ) de Paris, Madri e alguns aeroportos do Reino Unido. Transporte interno: ônibus CTM entre Marrakech e Fes (8h, €15) ou voe Royal Air Maroc (1h, €40-80). Para o Saara: voe Marrakech a Errachidia em vez de dirigir.",
@@ -72,5 +251,9 @@
   "localFood": "Tagine de cordeiro com limão em conserva e azeitonas cozido lentamente em panela de barro, bastilha (massa folhada com pombo ou frango, amêndoas e canela polvilhada com açúcar de confeiteiro), chá de menta fresca servido de cima em todo riad, sopa harira (tomate, grão-de-bico e cordeiro) durante o Ramadã e o ano todo, e o lendário suco de laranja fresco de Marrakech a 4 dirhams o copo na Djemaa el-Fna.",
   "currency": "Dirham marroquino (MAD)",
   "language": "Árabe e amazigh (francês e espanhol amplamente falados, algum inglês)",
-  "timezone": "UTC+1 (Marrocos não observa horário de verão de forma consistente)"
+  "timezone": "UTC+1 (Marrocos não observa horário de verão de forma consistente)",
+  "seo": {
+    "title": "Lua de Mel no Marrocos: 12 Riads e Acampamentos 2026",
+    "description": "12 refúgios em Marrakech, Atlas e Saara pontuados. Royal Mansour, La Mamounia. De $300/noite. Out-abr."
+  }
 }

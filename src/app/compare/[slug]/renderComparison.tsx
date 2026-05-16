@@ -44,11 +44,12 @@ const DEST_HERO: Record<string, string> = {
 export async function buildComparisonMetadata(slug: string, locale: Locale): Promise<Metadata> {
   const cmp = getLocalizedComparison(slug, locale)
   if (!cmp) return { title: 'Comparison not found' }
-  const title = `${cmp.a.label} vs ${cmp.b.label} — Honeymoon Comparison`
+  const title = cmp.seo?.title ?? `${cmp.a.label} vs ${cmp.b.label} — Honeymoon Comparison`
+  const description = cmp.seo?.description ?? cmp.metaDescription
   return {
     title,
-    description: cmp.metaDescription,
-    openGraph: { title, description: cmp.metaDescription, type: 'article' },
+    description,
+    openGraph: { title, description, type: 'article' },
     alternates: buildAlternates(`/compare/${slug}`, locale),
   }
 }
@@ -87,7 +88,7 @@ export async function renderComparisonPage(slug: string, locale: Locale) {
                 logo: { '@type': 'ImageObject', url: `${SITE_URL}/icon.png` },
               },
               datePublished: '2026-04-23',
-              dateModified: new Date().toISOString().slice(0, 10),
+              dateModified: '2026-05-12',
             },
             {
               '@context': 'https://schema.org',

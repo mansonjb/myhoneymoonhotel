@@ -77,6 +77,7 @@ localFood: 'Rock crab back (the spicy stuffed crab back is the classic Anguillan
 currency: 'Eastern Caribbean Dollar (XCD) — fixed at 2.7 XCD to 1 USD. USD universally accepted at par at every restaurant, taxi, and resort.',
 language: 'English (official and universal — Anguilla is a British Overseas Territory)',
 timezone: 'AST (Atlantic Standard Time, UTC-4) — no daylight saving',
+  seo: { title: "Anguilla Honeymoon: 6 Quiet Caribbean Beach Resorts", description: "6 powder-sand resorts ranked. Belmond Cap Juluca, Four Seasons, Malliouhana. From $800/night. Dec-Apr peak verdicts." },
 }
 
 export default meta

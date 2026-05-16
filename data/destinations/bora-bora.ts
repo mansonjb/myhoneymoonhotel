@@ -155,6 +155,7 @@ localFood: 'Poisson cru (raw tuna in coconut milk) is French Polynesia\'s nation
 currency: 'CFP Franc (XPF) — pegged to the Euro. USD widely accepted.',
 language: 'French and Tahitian. English spoken at all resort level.',
 timezone: 'GMT-10 (French Polynesia Standard Time)',
+  seo: { title: "Bora Bora Honeymoon: 15 Overwater Villas Scored 2026", description: "15 overwater villa resorts ranked. Four Seasons, St Regis, Conrad. From $900/night. Best lagoon views, May-Oct dry season verdicts." },
 }
 
 export default meta

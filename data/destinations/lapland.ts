@@ -105,6 +105,7 @@ localFood: 'Reindeer in many forms — sautéed (poronkäristys with mashed pota
 currency: 'Euro (EUR). Cards accepted everywhere; minimal cash needed. Tipping not expected (10% in restaurants is generous).',
 language: 'Finnish and Swedish (both official); Sami in the far north. English is universal at hotels, restaurants, and excursion operators.',
 timezone: 'UTC+2 (UTC+3 in summer with daylight saving)',
+  seo: { title: "Lapland Honeymoon: 8 Aurora Glass Igloos Scored 2026", description: "8 Finnish and Swedish Arctic stays ranked. Kakslauttanen, Arctic TreeHouse, Levin Iglut. From $500/night. Dec-Mar aurora." },
 }
 
 export default meta

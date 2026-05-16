@@ -77,6 +77,7 @@ localFood: 'Tuscan food is rustic, regional, and built around Sangiovese: bistec
 currency: 'EUR (Euro)',
 language: 'Italian (English widely spoken at luxury hotel level)',
 timezone: 'CET (UTC+1, UTC+2 in summer)',
+  seo: { title: "Tuscany Honeymoon: 6 Vineyard & Villa Hotels Scored", description: "6 Chianti, Val dOrcia and coast hideaways ranked. Castiglion del Bosco, Borgo Egnazia, Il Borro. From $700/night." },
 }
 
 export default meta

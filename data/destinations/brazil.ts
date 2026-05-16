@@ -106,6 +106,7 @@ localFood: 'Feijoada (national dish: black bean and pork stew, traditional Satur
 currency: 'Brazilian Real (BRL) — fluctuating around 5 BRL per USD. Cards accepted everywhere in cities and at quality hotels; cash useful for street vendors, beach kiosks, and small Bahia restaurants. ATMs widely available; use Itaú or Banco do Brasil branches for low fees.',
 language: 'Portuguese is universal. Spanish gets you 50% understanding; English fluency is patchy outside top hotels. Learn "obrigado/obrigada" (thank you), "bom dia/boa noite" (hello), "uma caipirinha por favor" (one caipirinha please).',
 timezone: 'UTC-3 (Brasília time, most of country). Fernando de Noronha is UTC-2.',
+  seo: { title: "Brazil Honeymoon: 8 Beach & Pantanal Hotels Scored", description: "8 Trancoso, Fernando de Noronha, Rio stays ranked. UXUA, Ponta dos Ganchos. From $500/night. Dec-Mar verdicts." },
 }
 
 export default meta

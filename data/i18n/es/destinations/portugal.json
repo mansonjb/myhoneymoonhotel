@@ -55,18 +55,102 @@
     }
   ],
   "months": [
-    { "month": "Jan", "weather": "Suave pero lluvioso, verde", "emoji": "🌦", "crowds": "Muy baja", "price": "Muy bajo", "verdict": "Solo para escapada a Madeira" },
-    { "month": "Feb", "weather": "Almendros en flor en el Algarve", "emoji": "🌸", "crowds": "Baja", "price": "Bajo", "verdict": "Hermoso si evita la playa" },
-    { "month": "Mar", "weather": "Templándose, flores silvestres, algo de lluvia", "emoji": "🌱", "crowds": "Baja", "price": "Bajo", "verdict": "Excelente para tour por la región vinícola" },
-    { "month": "Apr", "weather": "Cálido, verde, luz excelente", "emoji": "🌤", "crowds": "Moderada", "price": "Medio", "verdict": "Soberbio para Lisboa y el Duero" },
-    { "month": "May", "weather": "Cálido, seco, casi perfecto", "emoji": "☀️", "crowds": "Moderada", "price": "Medio", "verdict": "Mejor mes en general" },
-    { "month": "Jun", "weather": "Caluroso, fiestas dos santos populares", "emoji": "☀️", "crowds": "Mod-alta", "price": "Medio-alto", "verdict": "Excelente: temporada de festas" },
-    { "month": "Jul", "weather": "Caluroso, seco, pico de temporada", "emoji": "☀️", "crowds": "Máxima", "price": "Alto", "verdict": "Algarve muy concurrido, Comporta bien" },
-    { "month": "Aug", "weather": "El más caluroso, muy concurrido", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Algarve a tope, vaya a Comporta" },
-    { "month": "Sep", "weather": "Cálido, vendimia, excelente", "emoji": "☀️", "crowds": "Moderada", "price": "Medio-alto", "verdict": "Mejor para vino: temporada de vendimia" },
-    { "month": "Oct", "weather": "Cálido, más tranquilo, sube el surf", "emoji": "🌤", "crowds": "Baja-mod", "price": "Medio", "verdict": "Soberbio para surf y cultura" },
-    { "month": "Nov", "weather": "Suave, lluvioso, muy tranquilo", "emoji": "🌦", "crowds": "Baja", "price": "Bajo", "verdict": "Buena relación calidad-precio, sin clima de playa" },
-    { "month": "Dec", "weather": "Suave, lluvioso, Navidad en Oporto", "emoji": "🌨", "crowds": "Baja-mod", "price": "Bajo-medio", "verdict": "La Navidad de Oporto es mágica" }
+    {
+      "month": "Jan",
+      "weather": "Suave pero lluvioso, verde",
+      "emoji": "🌦",
+      "crowds": "Muy baja",
+      "price": "Muy bajo",
+      "verdict": "Solo para escapada a Madeira"
+    },
+    {
+      "month": "Feb",
+      "weather": "Almendros en flor en el Algarve",
+      "emoji": "🌸",
+      "crowds": "Baja",
+      "price": "Bajo",
+      "verdict": "Hermoso si evita la playa"
+    },
+    {
+      "month": "Mar",
+      "weather": "Templándose, flores silvestres, algo de lluvia",
+      "emoji": "🌱",
+      "crowds": "Baja",
+      "price": "Bajo",
+      "verdict": "Excelente para tour por la región vinícola"
+    },
+    {
+      "month": "Apr",
+      "weather": "Cálido, verde, luz excelente",
+      "emoji": "🌤",
+      "crowds": "Moderada",
+      "price": "Medio",
+      "verdict": "Soberbio para Lisboa y el Duero"
+    },
+    {
+      "month": "May",
+      "weather": "Cálido, seco, casi perfecto",
+      "emoji": "☀️",
+      "crowds": "Moderada",
+      "price": "Medio",
+      "verdict": "Mejor mes en general"
+    },
+    {
+      "month": "Jun",
+      "weather": "Caluroso, fiestas dos santos populares",
+      "emoji": "☀️",
+      "crowds": "Mod-alta",
+      "price": "Medio-alto",
+      "verdict": "Excelente: temporada de festas"
+    },
+    {
+      "month": "Jul",
+      "weather": "Caluroso, seco, pico de temporada",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Alto",
+      "verdict": "Algarve muy concurrido, Comporta bien"
+    },
+    {
+      "month": "Aug",
+      "weather": "El más caluroso, muy concurrido",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Algarve a tope, vaya a Comporta"
+    },
+    {
+      "month": "Sep",
+      "weather": "Cálido, vendimia, excelente",
+      "emoji": "☀️",
+      "crowds": "Moderada",
+      "price": "Medio-alto",
+      "verdict": "Mejor para vino: temporada de vendimia"
+    },
+    {
+      "month": "Oct",
+      "weather": "Cálido, más tranquilo, sube el surf",
+      "emoji": "🌤",
+      "crowds": "Baja-mod",
+      "price": "Medio",
+      "verdict": "Soberbio para surf y cultura"
+    },
+    {
+      "month": "Nov",
+      "weather": "Suave, lluvioso, muy tranquilo",
+      "emoji": "🌦",
+      "crowds": "Baja",
+      "price": "Bajo",
+      "verdict": "Buena relación calidad-precio, sin clima de playa"
+    },
+    {
+      "month": "Dec",
+      "weather": "Suave, lluvioso, Navidad en Oporto",
+      "emoji": "🌨",
+      "crowds": "Baja-mod",
+      "price": "Bajo-medio",
+      "verdict": "La Navidad de Oporto es mágica"
+    }
   ],
   "budgetTiers": [
     {
@@ -138,11 +222,26 @@
     }
   ],
   "packing": [
-    { "item": "Capas ligeras para las noches de Lisboa", "why": "La brisa atlántica refresca las noches lisboetas incluso en verano: una chaqueta ligera o cárdigan es necesaria para cenas en terraza pasadas las 21:00" },
-    { "item": "Buen calzado de paseo para los adoquines", "why": "Las empinadas calles empedradas de Lisboa son hermosas y duras para los pies: un calzado adecuado evita veladas arruinadas" },
-    { "item": "Traje de neopreno (si surfea)", "why": "El agua atlántica portuguesa alcanza 20 °C en agosto pero está a 16 °C en mayo: incluso en verano, un traje shorty de 3 mm hace que surfear en Comporta sea genuinamente disfrutable" },
-    { "item": "Cuaderno o app de vinos", "why": "Probará vinos extraordinarios en quintas del Duero que no se exportan: anote los nombres de productor para poder pedírselos en casa" },
-    { "item": "Capa impermeable ligera", "why": "El clima atlántico es cambiante incluso en mayo y octubre: un chubasquero plegable es útil en cualquier temporada" }
+    {
+      "item": "Capas ligeras para las noches de Lisboa",
+      "why": "La brisa atlántica refresca las noches lisboetas incluso en verano: una chaqueta ligera o cárdigan es necesaria para cenas en terraza pasadas las 21:00"
+    },
+    {
+      "item": "Buen calzado de paseo para los adoquines",
+      "why": "Las empinadas calles empedradas de Lisboa son hermosas y duras para los pies: un calzado adecuado evita veladas arruinadas"
+    },
+    {
+      "item": "Traje de neopreno (si surfea)",
+      "why": "El agua atlántica portuguesa alcanza 20 °C en agosto pero está a 16 °C en mayo: incluso en verano, un traje shorty de 3 mm hace que surfear en Comporta sea genuinamente disfrutable"
+    },
+    {
+      "item": "Cuaderno o app de vinos",
+      "why": "Probará vinos extraordinarios en quintas del Duero que no se exportan: anote los nombres de productor para poder pedírselos en casa"
+    },
+    {
+      "item": "Capa impermeable ligera",
+      "why": "El clima atlántico es cambiante incluso en mayo y octubre: un chubasquero plegable es útil en cualquier temporada"
+    }
   ],
   "guide": {
     "getting": "Vuele a Lisboa Humberto Delgado (LIS): vuelos directos desde prácticamente toda ciudad europea con TAP Air Portugal, Ryanair, EasyJet, British Airways y Lufthansa (2–3h desde el norte de Europa). Para el Valle del Duero, vuele a Oporto Francisco de Sá Carneiro (OPO): 1h en coche hasta las primeras quintas. Para Madeira, vuele directo a Funchal (FNC) desde la mayoría de ciudades europeas. Transporte interno: excelentes trenes intercity (Lisboa-Oporto: 3h, 25 €); alquile coche para explorar Duero y Comporta.",
@@ -152,5 +251,9 @@
   "localFood": "Percebes (extraídos de las rocas atlánticas, con limón) en una taberna lisboeta, bacalhau à Brás (bacalao salado con huevos y patatas: 365 recetas), pastel de nata aún caliente en Pastéis de Belém, cata en una quinta del Duero con vistas y petiscos (tapas portuguesas) con una Sagres fría en una terraza de Comporta.",
   "currency": "Euro (EUR)",
   "language": "Portugués (inglés muy hablado)",
-  "timezone": "UTC+0 (WET) / UTC+1 (WEST en verano)"
+  "timezone": "UTC+0 (WET) / UTC+1 (WEST en verano)",
+  "seo": {
+    "title": "Luna de Miel en Portugal: 12 Hoteles Costa y Viñedos",
+    "description": "12 hoteles en Algarve, Duero y Comporta clasificados. Six Senses, Vila Vita Parc. Desde $400/noche. Abr-Oct."
+  }
 }

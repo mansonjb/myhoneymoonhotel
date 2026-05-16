@@ -18,50 +18,225 @@
     "Prefere cultura e arquitetura europeias do velho mundo"
   ],
   "experiences": [
-    { "icon": "🌋", "title": "Helicóptero sobre lava ativa (Big Island)", "description": "Voar sobre Kilauea à noite vendo a lava fluir para o oceano é uma das coisas mais extraordinárias que um ser humano pode fazer. A Blue Hawaiian Helicopters opera o tour definitivo.", "cost": "$300-600 por pessoa", "tip": "Reserve o helicóptero sem portas para fotografia. Voos noturnos pegam o brilho da lava — chegue um dia antes para não estar com jet lag." },
-    { "icon": "🐋", "title": "Observação de baleias em Maui (jan-mar)", "description": "As baleias jubarte migram para as águas de Maui todo inverno — a Pacific Whale Foundation faz tours excelentes do porto de Maalaea. Ver uma baleia de 40 toneladas saltar a 30 m do barco é inesquecível.", "cost": "$50-120 por pessoa", "tip": "Tours matinais têm mar mais calmo. As baleias estão mais ativas de janeiro a março." },
-    { "icon": "🤿", "title": "Snorkel noturno com mantas (Big Island)", "description": "Snorkel sobre mantas gigantes alimentando-se de plâncton no escuro em Keauhou Bay. As mantas têm envergadura de até 5 m e deslizam diretamente sob você. Uma das experiências de fauna mais mágicas da Terra.", "cost": "$80-130 por pessoa", "tip": "Reserve com Jack's Diving Locker ou Manta Ray Advocates — fazem briefing apropriado e têm guias excelentes." },
-    { "icon": "🌅", "title": "Nascer do sol em Haleakala (Maui)", "description": "Dirigir até o cume de Haleakala (3.000 m) antes do amanhecer e ver o sol nascer acima das nuvens é um rito de passagem. A paisagem parece marciana. O silêncio é absoluto.", "cost": "$30 entrada do parque por carro", "tip": "Reserve o sunrise permit em recreation.gov — esgota com semanas de antecedência. Leve casaco de pluma: é genuinamente frio no cume." },
-    { "icon": "🏄", "title": "Aula privativa de surfe em Waikiki", "description": "Waikiki tem as ondas mais perdoadoras do mundo para aprender. Aulas privativas com instrutor local em longboard, com Diamond Head ao fundo — foi assim que o surfe nasceu.", "cost": "$120-200 por pessoa (aula privativa)", "tip": "Reserve aula privativa, não em grupo. A atenção pessoal faz a diferença entre ficar em pé ou não." }
+    {
+      "icon": "🌋",
+      "title": "Helicóptero sobre lava ativa (Big Island)",
+      "description": "Voar sobre Kilauea à noite vendo a lava fluir para o oceano é uma das coisas mais extraordinárias que um ser humano pode fazer. A Blue Hawaiian Helicopters opera o tour definitivo.",
+      "cost": "$300-600 por pessoa",
+      "tip": "Reserve o helicóptero sem portas para fotografia. Voos noturnos pegam o brilho da lava — chegue um dia antes para não estar com jet lag."
+    },
+    {
+      "icon": "🐋",
+      "title": "Observação de baleias em Maui (jan-mar)",
+      "description": "As baleias jubarte migram para as águas de Maui todo inverno — a Pacific Whale Foundation faz tours excelentes do porto de Maalaea. Ver uma baleia de 40 toneladas saltar a 30 m do barco é inesquecível.",
+      "cost": "$50-120 por pessoa",
+      "tip": "Tours matinais têm mar mais calmo. As baleias estão mais ativas de janeiro a março."
+    },
+    {
+      "icon": "🤿",
+      "title": "Snorkel noturno com mantas (Big Island)",
+      "description": "Snorkel sobre mantas gigantes alimentando-se de plâncton no escuro em Keauhou Bay. As mantas têm envergadura de até 5 m e deslizam diretamente sob você. Uma das experiências de fauna mais mágicas da Terra.",
+      "cost": "$80-130 por pessoa",
+      "tip": "Reserve com Jack's Diving Locker ou Manta Ray Advocates — fazem briefing apropriado e têm guias excelentes."
+    },
+    {
+      "icon": "🌅",
+      "title": "Nascer do sol em Haleakala (Maui)",
+      "description": "Dirigir até o cume de Haleakala (3.000 m) antes do amanhecer e ver o sol nascer acima das nuvens é um rito de passagem. A paisagem parece marciana. O silêncio é absoluto.",
+      "cost": "$30 entrada do parque por carro",
+      "tip": "Reserve o sunrise permit em recreation.gov — esgota com semanas de antecedência. Leve casaco de pluma: é genuinamente frio no cume."
+    },
+    {
+      "icon": "🏄",
+      "title": "Aula privativa de surfe em Waikiki",
+      "description": "Waikiki tem as ondas mais perdoadoras do mundo para aprender. Aulas privativas com instrutor local em longboard, com Diamond Head ao fundo — foi assim que o surfe nasceu.",
+      "cost": "$120-200 por pessoa (aula privativa)",
+      "tip": "Reserve aula privativa, não em grupo. A atenção pessoal faz a diferença entre ficar em pé ou não."
+    }
   ],
   "months": [
-    { "month": "Jan", "weather": "Quente, alguma chuva nas costas a barlavento", "emoji": "🌤", "crowds": "Alta", "price": "Alto", "verdict": "Estação de baleias começa — vale a pena" },
-    { "month": "Feb", "weather": "Quente, pico da temporada de baleias", "emoji": "🌤", "crowds": "Alta", "price": "Alto", "verdict": "Melhor observação de baleias do ano" },
-    { "month": "Mar", "weather": "Esquentando, fim da temporada de baleias", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Spring break, ainda excelente" },
-    { "month": "Apr", "weather": "Ideal — seco, não muito quente", "emoji": "☀️", "crowds": "Média", "price": "Médio", "verdict": "Ponto doce começa aqui" },
-    { "month": "May", "weather": "Temperaturas perfeitas, pouca chuva", "emoji": "☀️", "crowds": "Baixa-média", "price": "Médio", "verdict": "Um dos melhores meses" },
-    { "month": "Jun", "weather": "Estação seca a todo vapor", "emoji": "☀️", "crowds": "Média", "price": "Médio-alto", "verdict": "Excelente em geral" },
-    { "month": "Jul", "weather": "Quente, pico de verão", "emoji": "☀️", "crowds": "Máxima", "price": "Alto", "verdict": "Lindo mas lotado" },
-    { "month": "Aug", "weather": "Quente, pico do verão", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Melhor clima, mais caro" },
-    { "month": "Sep", "weather": "Quente, multidões diminuindo", "emoji": "☀️", "crowds": "Média", "price": "Médio-alto", "verdict": "Joia escondida — mesmo clima, menos gente" },
-    { "month": "Oct", "weather": "Temperaturas ideais, baixa lotação", "emoji": "🌤", "crowds": "Baixa-média", "price": "Médio", "verdict": "Melhor custo-benefício na alta" },
-    { "month": "Nov", "weather": "Levemente mais úmido, confortável", "emoji": "⛅", "crowds": "Baixa", "price": "Baixo-médio", "verdict": "Boas ofertas, ainda lindo" },
-    { "month": "Dec", "weather": "Corrida de feriados, alguma chuva", "emoji": "🌦", "crowds": "Alta", "price": "Muito alto", "verdict": "Caro, magia das festas" }
+    {
+      "month": "Jan",
+      "weather": "Quente, alguma chuva nas costas a barlavento",
+      "emoji": "🌤",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Estação de baleias começa — vale a pena"
+    },
+    {
+      "month": "Feb",
+      "weather": "Quente, pico da temporada de baleias",
+      "emoji": "🌤",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Melhor observação de baleias do ano"
+    },
+    {
+      "month": "Mar",
+      "weather": "Esquentando, fim da temporada de baleias",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Spring break, ainda excelente"
+    },
+    {
+      "month": "Apr",
+      "weather": "Ideal — seco, não muito quente",
+      "emoji": "☀️",
+      "crowds": "Média",
+      "price": "Médio",
+      "verdict": "Ponto doce começa aqui"
+    },
+    {
+      "month": "May",
+      "weather": "Temperaturas perfeitas, pouca chuva",
+      "emoji": "☀️",
+      "crowds": "Baixa-média",
+      "price": "Médio",
+      "verdict": "Um dos melhores meses"
+    },
+    {
+      "month": "Jun",
+      "weather": "Estação seca a todo vapor",
+      "emoji": "☀️",
+      "crowds": "Média",
+      "price": "Médio-alto",
+      "verdict": "Excelente em geral"
+    },
+    {
+      "month": "Jul",
+      "weather": "Quente, pico de verão",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Alto",
+      "verdict": "Lindo mas lotado"
+    },
+    {
+      "month": "Aug",
+      "weather": "Quente, pico do verão",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Melhor clima, mais caro"
+    },
+    {
+      "month": "Sep",
+      "weather": "Quente, multidões diminuindo",
+      "emoji": "☀️",
+      "crowds": "Média",
+      "price": "Médio-alto",
+      "verdict": "Joia escondida — mesmo clima, menos gente"
+    },
+    {
+      "month": "Oct",
+      "weather": "Temperaturas ideais, baixa lotação",
+      "emoji": "🌤",
+      "crowds": "Baixa-média",
+      "price": "Médio",
+      "verdict": "Melhor custo-benefício na alta"
+    },
+    {
+      "month": "Nov",
+      "weather": "Levemente mais úmido, confortável",
+      "emoji": "⛅",
+      "crowds": "Baixa",
+      "price": "Baixo-médio",
+      "verdict": "Boas ofertas, ainda lindo"
+    },
+    {
+      "month": "Dec",
+      "weather": "Corrida de feriados, alguma chuva",
+      "emoji": "🌦",
+      "crowds": "Alta",
+      "price": "Muito alto",
+      "verdict": "Caro, magia das festas"
+    }
   ],
   "budgetTiers": [
-    { "label": "Luxo", "range": "$500-1.000/noite", "gets": "Excelentes hotéis-resort em praias top — Andaz Maui, Westin Hapuna. Comodidades completas, boa gastronomia, piscinas lindas.", "example": "Andaz Maui at Wailea, Westin Hapuna Beach" },
-    { "label": "Premium", "range": "$1.000-2.000/noite", "gets": "Território Four Seasons e Ritz-Carlton. Piscinas privativas, serviço quase-mordomo, melhores localizações de praia.", "example": "Four Seasons Maui at Wailea, Ritz-Carlton Kapalua" },
-    { "label": "Ultra-luxo", "range": "$2.000+/noite", "gets": "Four Seasons Hualalai na Big Island — o resort mais privativo e bonito do Havaí. Bangalôs entre lavas antigas voltados para o Pacífico.", "example": "Four Seasons Resort Hualalai, Montage Kapalua Bay" }
+    {
+      "label": "Luxo",
+      "range": "$500-1.000/noite",
+      "gets": "Excelentes hotéis-resort em praias top — Andaz Maui, Westin Hapuna. Comodidades completas, boa gastronomia, piscinas lindas.",
+      "example": "Andaz Maui at Wailea, Westin Hapuna Beach"
+    },
+    {
+      "label": "Premium",
+      "range": "$1.000-2.000/noite",
+      "gets": "Território Four Seasons e Ritz-Carlton. Piscinas privativas, serviço quase-mordomo, melhores localizações de praia.",
+      "example": "Four Seasons Maui at Wailea, Ritz-Carlton Kapalua"
+    },
+    {
+      "label": "Ultra-luxo",
+      "range": "$2.000+/noite",
+      "gets": "Four Seasons Hualalai na Big Island — o resort mais privativo e bonito do Havaí. Bangalôs entre lavas antigas voltados para o Pacífico.",
+      "example": "Four Seasons Resort Hualalai, Montage Kapalua Bay"
+    }
   ],
   "areas": [
-    { "name": "Maui — Wailea / Kaanapali", "bestFor": "Melhor experiência geral de resort de luxo pé na areia", "description": "Wailea, na costa sul, é a faixa mais fina do Havaí — Four Seasons, Fairmont Kea Lani, Andaz Maui. Kaanapali, na costa oeste, é um pouco mais social com o famoso snorkel em Black Rock. Ambas protegidas dos alísios e com mar calmo, próprio para banho." },
-    { "name": "Big Island — Kona / Kohala Coast", "bestFor": "Cenários mais dramáticos, resorts mais exclusivos", "description": "A Kohala Coast tem 50 km de praia preservada contra um pano de fundo de campos antigos de lava preta. Four Seasons Hualalai, Mauna Kea Beach Hotel e Fairmont Orchid estão aqui. O stargazing do Mauna Kea (4.200 m) é o melhor do mundo." },
-    { "name": "Kauai — Costa Norte / Poipu", "bestFor": "Beleza natural crua, paisagens mais dramáticas", "description": "A Garden Isle é a ilha mais bonita do Havaí. A costa Na Pali é acessível só por barco ou helicóptero. Hanalei Bay no norte é uma das praias mais bonitas do Pacífico. Poipu no sul é mais ensolarada e tem o Grand Hyatt Kauai." },
-    { "name": "Oahu — Honolulu / Costa Norte", "bestFor": "Energia urbana com luxo de praia", "description": "Waikiki é movimentada mas icônica — Diamond Head, aulas de surfe, gastronomia de classe mundial. O Halekulani ainda é o melhor hotel de Oahu. A costa norte tem o melhor surfe de ondas grandes do mundo (nov-fev) e o lendário shave ice no Matsumoto's." }
+    {
+      "name": "Maui — Wailea / Kaanapali",
+      "bestFor": "Melhor experiência geral de resort de luxo pé na areia",
+      "description": "Wailea, na costa sul, é a faixa mais fina do Havaí — Four Seasons, Fairmont Kea Lani, Andaz Maui. Kaanapali, na costa oeste, é um pouco mais social com o famoso snorkel em Black Rock. Ambas protegidas dos alísios e com mar calmo, próprio para banho."
+    },
+    {
+      "name": "Big Island — Kona / Kohala Coast",
+      "bestFor": "Cenários mais dramáticos, resorts mais exclusivos",
+      "description": "A Kohala Coast tem 50 km de praia preservada contra um pano de fundo de campos antigos de lava preta. Four Seasons Hualalai, Mauna Kea Beach Hotel e Fairmont Orchid estão aqui. O stargazing do Mauna Kea (4.200 m) é o melhor do mundo."
+    },
+    {
+      "name": "Kauai — Costa Norte / Poipu",
+      "bestFor": "Beleza natural crua, paisagens mais dramáticas",
+      "description": "A Garden Isle é a ilha mais bonita do Havaí. A costa Na Pali é acessível só por barco ou helicóptero. Hanalei Bay no norte é uma das praias mais bonitas do Pacífico. Poipu no sul é mais ensolarada e tem o Grand Hyatt Kauai."
+    },
+    {
+      "name": "Oahu — Honolulu / Costa Norte",
+      "bestFor": "Energia urbana com luxo de praia",
+      "description": "Waikiki é movimentada mas icônica — Diamond Head, aulas de surfe, gastronomia de classe mundial. O Halekulani ainda é o melhor hotel de Oahu. A costa norte tem o melhor surfe de ondas grandes do mundo (nov-fev) e o lendário shave ice no Matsumoto's."
+    }
   ],
   "expertTips": [
-    { "tip": "Salte entre ilhas: 2 ilhas em 10 noites é o ponto doce", "detail": "Voe para Maui, fique 5-6 noites e depois voo de 40 min até Big Island por mais 4-5 noites. Você tem duas experiências completamente diferentes do Havaí sem que a logística vire um peso." },
-    { "tip": "Reserve helicóptero do vulcão o quanto antes", "detail": "Blue Hawaiian e Paradise Helicopters esgotam com semanas de antecedência na alta. A atividade da lava muda — confira o site do USGS Hawaii Volcano Observatory uma semana antes para confirmar." },
-    { "tip": "Os lados oeste e sul de cada ilha são sempre mais secos", "detail": "Os alísios trazem chuva para os lados leste e norte (barlavento). Todos os resorts top ficam nas costas a sotavento (oeste/sul) por isso. Se um hotel está a barlavento, saiba o que está contratando." },
-    { "tip": "Alugue carro em todas as ilhas, exceto Oahu", "detail": "Maui, Big Island e Kauai são impossíveis sem carro. Reserve com antecedência — locadoras locais (Harper, Paradise) são mais baratas e melhor cuidadas que as nacionais no aeroporto." },
-    { "tip": "A Road to Hana é meio dia, não dia inteiro", "detail": "Saia do hotel em Wailea às 7h. Dirija até Hana, pare nas Sete Piscinas Sagradas e volte pela rota sul (por Ulupalakua). Estará de volta às 17h. Fazer como bate-volta de Kaanapali significa 3h de carro só para começar." }
+    {
+      "tip": "Salte entre ilhas: 2 ilhas em 10 noites é o ponto doce",
+      "detail": "Voe para Maui, fique 5-6 noites e depois voo de 40 min até Big Island por mais 4-5 noites. Você tem duas experiências completamente diferentes do Havaí sem que a logística vire um peso."
+    },
+    {
+      "tip": "Reserve helicóptero do vulcão o quanto antes",
+      "detail": "Blue Hawaiian e Paradise Helicopters esgotam com semanas de antecedência na alta. A atividade da lava muda — confira o site do USGS Hawaii Volcano Observatory uma semana antes para confirmar."
+    },
+    {
+      "tip": "Os lados oeste e sul de cada ilha são sempre mais secos",
+      "detail": "Os alísios trazem chuva para os lados leste e norte (barlavento). Todos os resorts top ficam nas costas a sotavento (oeste/sul) por isso. Se um hotel está a barlavento, saiba o que está contratando."
+    },
+    {
+      "tip": "Alugue carro em todas as ilhas, exceto Oahu",
+      "detail": "Maui, Big Island e Kauai são impossíveis sem carro. Reserve com antecedência — locadoras locais (Harper, Paradise) são mais baratas e melhor cuidadas que as nacionais no aeroporto."
+    },
+    {
+      "tip": "A Road to Hana é meio dia, não dia inteiro",
+      "detail": "Saia do hotel em Wailea às 7h. Dirija até Hana, pare nas Sete Piscinas Sagradas e volte pela rota sul (por Ulupalakua). Estará de volta às 17h. Fazer como bate-volta de Kaanapali significa 3h de carro só para começar."
+    }
   ],
   "packing": [
-    { "item": "Protetor solar reef-safe (mineral)", "why": "O Havaí foi o primeiro estado dos EUA a banir protetores com oxibenzona. Você será multado em parques estaduais sem o tipo correto." },
-    { "item": "Casaco de pluma leve", "why": "Para o cume de Haleakala (Maui) e Mauna Kea (Big Island) — ambos acima de 3.000 m, genuinamente frios ao amanhecer." },
-    { "item": "Câmera subaquática", "why": "O snorkel noturno com mantas e o snorkel na Cratera Molokini merecem mais que celular." },
-    { "item": "Sandálias de trilha ou trail runners", "why": "O terreno de lava na Big Island é cortante — chinelos comuns não sobrevivem à Kilauea Iki Trail." },
-    { "item": "Garrafa de água reutilizável", "why": "O Havaí é quente, trilhas são sérias. Água da torneira em todas as ilhas é excelente e segura." }
+    {
+      "item": "Protetor solar reef-safe (mineral)",
+      "why": "O Havaí foi o primeiro estado dos EUA a banir protetores com oxibenzona. Você será multado em parques estaduais sem o tipo correto."
+    },
+    {
+      "item": "Casaco de pluma leve",
+      "why": "Para o cume de Haleakala (Maui) e Mauna Kea (Big Island) — ambos acima de 3.000 m, genuinamente frios ao amanhecer."
+    },
+    {
+      "item": "Câmera subaquática",
+      "why": "O snorkel noturno com mantas e o snorkel na Cratera Molokini merecem mais que celular."
+    },
+    {
+      "item": "Sandálias de trilha ou trail runners",
+      "why": "O terreno de lava na Big Island é cortante — chinelos comuns não sobrevivem à Kilauea Iki Trail."
+    },
+    {
+      "item": "Garrafa de água reutilizável",
+      "why": "O Havaí é quente, trilhas são sérias. Água da torneira em todas as ilhas é excelente e segura."
+    }
   ],
   "guide": {
     "getting": "Voe para Kahului (OGG) para Maui, Kona (KOA) para a costa oeste da Big Island, Lihue (LIH) para Kauai, ou Honolulu (HNL) para Oahu. Dos EUA continentais: voos diretos pela Hawaiian Airlines, Delta, United e American da maioria dos hubs. Da Europa: conecte por LAX, SFO ou SEA. Voos entre ilhas pela Hawaiian Airlines ou Mokulele levam 20-50 min.",
@@ -71,5 +246,9 @@
   "localFood": "Bowls de poke com atum ahi fresco, plate lunch com kalua pork, shave ice do Matsumoto's na costa norte de Oahu, café de Kona com panquecas de macadâmia, loco moco (arroz, hambúrguer, ovo e molho) e malasadas frescas da Leonard's Bakery. Restaurantes farm-to-table em Maui e Big Island são genuinamente de classe mundial.",
   "currency": "Dólar dos EUA (USD)",
   "language": "Inglês (havaiano falado)",
-  "timezone": "UTC-10 (HST, sem horário de verão)"
+  "timezone": "UTC-10 (HST, sem horário de verão)",
+  "seo": {
+    "title": "Lua de Mel no Havaí: 8 Resorts de Luxo nas Ilhas 2026",
+    "description": "8 resorts em Maui, Kauai e Big Island ranqueados. Four Seasons Hualalai, Montage Kapalua. De $700/noite. Abr-out."
+  }
 }

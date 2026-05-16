@@ -55,18 +55,102 @@
     }
   ],
   "months": [
-    { "month": "Jan", "weather": "Pico de estación seca, fresco y despejado", "emoji": "☀️", "crowds": "Máxima", "price": "Alto", "verdict": "Tiempo perfecto, concurrido y caro" },
-    { "month": "Feb", "weather": "Ideal: seco, sin demasiado calor", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Mejor mes del año" },
-    { "month": "Mar", "weather": "Cálido, aún seco", "emoji": "☀️", "crowds": "Moderada", "price": "Medio-alto", "verdict": "Excelente, algo más tranquilo" },
-    { "month": "Apr", "weather": "Caluroso, fiesta del agua Songkran", "emoji": "🌤", "crowds": "Moderada", "price": "Medio", "verdict": "Songkran es mágico si lo vive" },
-    { "month": "May", "weather": "Premonzón, húmedo, comienzan los chubascos", "emoji": "⛅", "crowds": "Baja", "price": "Bajo", "verdict": "Buenas tarifas, alguna lluvia vespertina" },
-    { "month": "Jun", "weather": "Comienza el monzón (lado Andamán)", "emoji": "🌧", "crowds": "Baja", "price": "Mínimo", "verdict": "Phuket/Krabi húmedo, Samui bien" },
-    { "month": "Jul", "weather": "Monzón (Andamán), Samui más seco", "emoji": "🌧", "crowds": "Baja", "price": "Bajo", "verdict": "Cambie al lado del Golfo" },
-    { "month": "Aug", "weather": "Similar a julio", "emoji": "⛅", "crowds": "Baja", "price": "Bajo", "verdict": "Samui y Phangan, mejor opción" },
-    { "month": "Sep", "weather": "Mes más húmedo en Andamán, Samui aceptable", "emoji": "🌧", "crowds": "Mínima", "price": "Mínimo", "verdict": "No recomendable para playa en Andamán" },
-    { "month": "Oct", "weather": "Transición, Samui se humedece", "emoji": "⛅", "crowds": "Baja", "price": "Bajo-medio", "verdict": "Final del monzón en Andamán" },
-    { "month": "Nov", "weather": "Vuelve la estación seca a Phuket", "emoji": "🌤", "crowds": "Moderada", "price": "Medio", "verdict": "Excelente: se abre la temporada" },
-    { "month": "Dec", "weather": "Pico de seca, fiebre vacacional", "emoji": "☀️", "crowds": "Máxima", "price": "Muy alto", "verdict": "Tiempo perfecto, reserve con mucha antelación" }
+    {
+      "month": "Jan",
+      "weather": "Pico de estación seca, fresco y despejado",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Alto",
+      "verdict": "Tiempo perfecto, concurrido y caro"
+    },
+    {
+      "month": "Feb",
+      "weather": "Ideal: seco, sin demasiado calor",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Mejor mes del año"
+    },
+    {
+      "month": "Mar",
+      "weather": "Cálido, aún seco",
+      "emoji": "☀️",
+      "crowds": "Moderada",
+      "price": "Medio-alto",
+      "verdict": "Excelente, algo más tranquilo"
+    },
+    {
+      "month": "Apr",
+      "weather": "Caluroso, fiesta del agua Songkran",
+      "emoji": "🌤",
+      "crowds": "Moderada",
+      "price": "Medio",
+      "verdict": "Songkran es mágico si lo vive"
+    },
+    {
+      "month": "May",
+      "weather": "Premonzón, húmedo, comienzan los chubascos",
+      "emoji": "⛅",
+      "crowds": "Baja",
+      "price": "Bajo",
+      "verdict": "Buenas tarifas, alguna lluvia vespertina"
+    },
+    {
+      "month": "Jun",
+      "weather": "Comienza el monzón (lado Andamán)",
+      "emoji": "🌧",
+      "crowds": "Baja",
+      "price": "Mínimo",
+      "verdict": "Phuket/Krabi húmedo, Samui bien"
+    },
+    {
+      "month": "Jul",
+      "weather": "Monzón (Andamán), Samui más seco",
+      "emoji": "🌧",
+      "crowds": "Baja",
+      "price": "Bajo",
+      "verdict": "Cambie al lado del Golfo"
+    },
+    {
+      "month": "Aug",
+      "weather": "Similar a julio",
+      "emoji": "⛅",
+      "crowds": "Baja",
+      "price": "Bajo",
+      "verdict": "Samui y Phangan, mejor opción"
+    },
+    {
+      "month": "Sep",
+      "weather": "Mes más húmedo en Andamán, Samui aceptable",
+      "emoji": "🌧",
+      "crowds": "Mínima",
+      "price": "Mínimo",
+      "verdict": "No recomendable para playa en Andamán"
+    },
+    {
+      "month": "Oct",
+      "weather": "Transición, Samui se humedece",
+      "emoji": "⛅",
+      "crowds": "Baja",
+      "price": "Bajo-medio",
+      "verdict": "Final del monzón en Andamán"
+    },
+    {
+      "month": "Nov",
+      "weather": "Vuelve la estación seca a Phuket",
+      "emoji": "🌤",
+      "crowds": "Moderada",
+      "price": "Medio",
+      "verdict": "Excelente: se abre la temporada"
+    },
+    {
+      "month": "Dec",
+      "weather": "Pico de seca, fiebre vacacional",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Muy alto",
+      "verdict": "Tiempo perfecto, reserve con mucha antelación"
+    }
   ],
   "budgetTiers": [
     {
@@ -138,11 +222,26 @@
     }
   ],
   "packing": [
-    { "item": "Ropa ligera de lino o algodón", "why": "La humedad es extrema: los sintéticos se vuelven insoportables. Las fibras naturales transpiran." },
-    { "item": "Protector solar apto para arrecifes", "why": "Los arrecifes tailandeses están bajo gran presión. El protector mineral es la opción ética." },
-    { "item": "Repelente DEET", "why": "El dengue está presente: el repelente con DEET por la noche cerca de la vegetación no es negociable." },
-    { "item": "Cubierta modesta para templos", "why": "En Wat Phra Kaew (Bangkok) y la mayoría de templos budistas hay que cubrir hombros y rodillas. Un pareo ligero lo resuelve." },
-    { "item": "Sandalias acuáticas", "why": "Subir a los long-tail implica pisar el agua. Las sandalias resistentes protegen los pies sin importar mojarse." }
+    {
+      "item": "Ropa ligera de lino o algodón",
+      "why": "La humedad es extrema: los sintéticos se vuelven insoportables. Las fibras naturales transpiran."
+    },
+    {
+      "item": "Protector solar apto para arrecifes",
+      "why": "Los arrecifes tailandeses están bajo gran presión. El protector mineral es la opción ética."
+    },
+    {
+      "item": "Repelente DEET",
+      "why": "El dengue está presente: el repelente con DEET por la noche cerca de la vegetación no es negociable."
+    },
+    {
+      "item": "Cubierta modesta para templos",
+      "why": "En Wat Phra Kaew (Bangkok) y la mayoría de templos budistas hay que cubrir hombros y rodillas. Un pareo ligero lo resuelve."
+    },
+    {
+      "item": "Sandalias acuáticas",
+      "why": "Subir a los long-tail implica pisar el agua. Las sandalias resistentes protegen los pies sin importar mojarse."
+    }
   ],
   "guide": {
     "getting": "Vuele al aeropuerto internacional de Phuket (HKT) para el lado Andamán, o a Bangkok Suvarnabhumi (BKK) y conecte a Samui (USM) con Bangkok Airways para el lado del Golfo. Desde Europa: directos a Phuket desde Londres, Fráncfort y París. Desde EE. UU.: conexión vía Bangkok, Singapur o Hong Kong. Conexiones domésticas con Bangkok Airways, Thai AirAsia y Nok Air.",
@@ -152,5 +251,9 @@
   "localFood": "Curry massaman con ternera y cacahuetes en un restaurante musulmán de Phuket, pad thai recién hecho de un puesto callejero en el mercado nocturno de Koh Samui, langostinos tigre a la parrilla con salsa nam jim, mango sticky rice con crema de coco y tom kha gai (sopa de pollo con galanga y coco). La comida callejera tailandesa es genuinamente la mejor de Asia a los precios más bajos.",
   "currency": "Thai Baht (THB)",
   "language": "Tailandés (inglés en zonas turísticas)",
-  "timezone": "UTC+7"
+  "timezone": "UTC+7",
+  "seo": {
+    "title": "Luna de Miel en Tailandia: 8 Resorts Solo Adultos 2026",
+    "description": "8 resorts en Phuket, Koh Samui y Krabi clasificados. Rosewood, Six Senses, Soneva Kiri. Desde $300/noche. Nov-Mar."
+  }
 }

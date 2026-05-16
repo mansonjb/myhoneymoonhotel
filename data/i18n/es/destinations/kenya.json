@@ -55,18 +55,102 @@
     }
   ],
   "months": [
-    { "month": "Jan", "weather": "Seco y cálido, excelente", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Calidad máxima, muy bueno" },
-    { "month": "Feb", "weather": "Seco, caluroso, fauna soberbia", "emoji": "☀️", "crowds": "Moderada", "price": "Medio-alto", "verdict": "Mejor relación calidad-precio en temporada alta" },
-    { "month": "Mar", "weather": "Se acercan las grandes lluvias", "emoji": "⛅", "crowds": "Baja", "price": "Medio", "verdict": "Buenas ofertas, leve riesgo" },
-    { "month": "Apr", "weather": "Grandes lluvias, intensas", "emoji": "🌧", "crowds": "Muy baja", "price": "Mínimo", "verdict": "Evitar: la mayoría de los campamentos cierran" },
-    { "month": "May", "weather": "Aún lloviendo, exuberante y verde", "emoji": "🌦", "crowds": "Muy baja", "price": "Muy bajo", "verdict": "Muchos campamentos cerrados" },
-    { "month": "Jun", "weather": "Secándose, llega la migración", "emoji": "🌤", "crowds": "Moderada", "price": "Medio", "verdict": "La migración crece: buena relación calidad-precio" },
-    { "month": "Jul", "weather": "Seco, pico de la Gran Migración", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "El mayor espectáculo de la tierra" },
-    { "month": "Aug", "weather": "Seco, pico de cruces de río", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Migración más dramática" },
-    { "month": "Sep", "weather": "Seco, migración aún presente", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Excelente, algo menos de gente" },
-    { "month": "Oct", "weather": "Comienzan las lluvias cortas", "emoji": "⛅", "crowds": "Moderada", "price": "Medio", "verdict": "Buena fauna, precios más bajos" },
-    { "month": "Nov", "weather": "Lluvias cortas, paisaje exuberante", "emoji": "🌦", "crowds": "Baja", "price": "Bajo-medio", "verdict": "Hermoso Mara verde, buenas ofertas" },
-    { "month": "Dec", "weather": "Vuelve a secarse, temporada festiva", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Excelente, reserve con un año de antelación" }
+    {
+      "month": "Jan",
+      "weather": "Seco y cálido, excelente",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Calidad máxima, muy bueno"
+    },
+    {
+      "month": "Feb",
+      "weather": "Seco, caluroso, fauna soberbia",
+      "emoji": "☀️",
+      "crowds": "Moderada",
+      "price": "Medio-alto",
+      "verdict": "Mejor relación calidad-precio en temporada alta"
+    },
+    {
+      "month": "Mar",
+      "weather": "Se acercan las grandes lluvias",
+      "emoji": "⛅",
+      "crowds": "Baja",
+      "price": "Medio",
+      "verdict": "Buenas ofertas, leve riesgo"
+    },
+    {
+      "month": "Apr",
+      "weather": "Grandes lluvias, intensas",
+      "emoji": "🌧",
+      "crowds": "Muy baja",
+      "price": "Mínimo",
+      "verdict": "Evitar: la mayoría de los campamentos cierran"
+    },
+    {
+      "month": "May",
+      "weather": "Aún lloviendo, exuberante y verde",
+      "emoji": "🌦",
+      "crowds": "Muy baja",
+      "price": "Muy bajo",
+      "verdict": "Muchos campamentos cerrados"
+    },
+    {
+      "month": "Jun",
+      "weather": "Secándose, llega la migración",
+      "emoji": "🌤",
+      "crowds": "Moderada",
+      "price": "Medio",
+      "verdict": "La migración crece: buena relación calidad-precio"
+    },
+    {
+      "month": "Jul",
+      "weather": "Seco, pico de la Gran Migración",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "El mayor espectáculo de la tierra"
+    },
+    {
+      "month": "Aug",
+      "weather": "Seco, pico de cruces de río",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Migración más dramática"
+    },
+    {
+      "month": "Sep",
+      "weather": "Seco, migración aún presente",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Excelente, algo menos de gente"
+    },
+    {
+      "month": "Oct",
+      "weather": "Comienzan las lluvias cortas",
+      "emoji": "⛅",
+      "crowds": "Moderada",
+      "price": "Medio",
+      "verdict": "Buena fauna, precios más bajos"
+    },
+    {
+      "month": "Nov",
+      "weather": "Lluvias cortas, paisaje exuberante",
+      "emoji": "🌦",
+      "crowds": "Baja",
+      "price": "Bajo-medio",
+      "verdict": "Hermoso Mara verde, buenas ofertas"
+    },
+    {
+      "month": "Dec",
+      "weather": "Vuelve a secarse, temporada festiva",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Excelente, reserve con un año de antelación"
+    }
   ],
   "budgetTiers": [
     {
@@ -133,11 +217,26 @@
     }
   ],
   "packing": [
-    { "item": "Colores neutros de safari (caqui, oliva, beige)", "why": "Los colores oscuros atraen a la mosca tsé-tsé; el blanco asusta a los animales: el código de vestimenta es práctico, no estético" },
-    { "item": "Prismáticos (10x42)", "why": "Innegociables en safari: ni los mejores guías pueden acercarle lo suficiente para ver los detalles sin ellos" },
-    { "item": "Plumas o forro polar", "why": "Los safaris a las 5:30 en altura son genuinamente fríos: lleve más abrigo del que cree necesitar" },
-    { "item": "Bolsa de cámara a prueba de polvo", "why": "La estación seca del Mara lo cubre todo: una bolsa hermética protege las lentes entre safaris" },
-    { "item": "Certificado de vacunación contra la fiebre amarilla", "why": "Obligatorio para entrar si llega de ciertos países: compruebe los requisitos y lleve la cartilla física" }
+    {
+      "item": "Colores neutros de safari (caqui, oliva, beige)",
+      "why": "Los colores oscuros atraen a la mosca tsé-tsé; el blanco asusta a los animales: el código de vestimenta es práctico, no estético"
+    },
+    {
+      "item": "Prismáticos (10x42)",
+      "why": "Innegociables en safari: ni los mejores guías pueden acercarle lo suficiente para ver los detalles sin ellos"
+    },
+    {
+      "item": "Plumas o forro polar",
+      "why": "Los safaris a las 5:30 en altura son genuinamente fríos: lleve más abrigo del que cree necesitar"
+    },
+    {
+      "item": "Bolsa de cámara a prueba de polvo",
+      "why": "La estación seca del Mara lo cubre todo: una bolsa hermética protege las lentes entre safaris"
+    },
+    {
+      "item": "Certificado de vacunación contra la fiebre amarilla",
+      "why": "Obligatorio para entrar si llega de ciertos países: compruebe los requisitos y lleve la cartilla física"
+    }
   ],
   "guide": {
     "getting": "Vuele al Aeropuerto Internacional Jomo Kenyatta de Nairobi (NBO), bien conectado con Europa con KLM (Ámsterdam, 8,5h directo), British Airways (Londres, 8,5h directo), Ethiopian Airlines (Addis Abeba) y Kenya Airways. Desde NBO, traslado al Aeropuerto Wilson (30 min) para avionetas a las pistas del bush. La mayoría de los campamentos de lujo lo recogen en Wilson. Los vuelos internos operan varias veces al día a todos los grandes parques ($80–$200 por trayecto). No intente conducir entre parques: vuele.",
@@ -147,5 +246,9 @@
   "localFood": "Nyama choma (cabra o ternera asada) en una carnicería-restaurante local, ugali (gachas de harina de maíz) con sukuma wiki (col rizada) y judías guisadas, mandazi (donuts fritos al coco) con chai al amanecer, café keniano AA de las tierras altas de Nyeri y cerveza Tusker en el sundowner del campamento. Los chefs de los campamentos de tiendas de lujo elaboran cenas de varios platos genuinamente extraordinarias en pleno bush.",
   "currency": "Chelín keniano (KES); los safaris se cotizan en USD",
   "language": "Inglés y suajili (ambos oficiales)",
-  "timezone": "UTC+3"
+  "timezone": "UTC+3",
+  "seo": {
+    "title": "Luna de Miel en Kenia: 8 Campamentos Safari y Playa 2026",
+    "description": "8 campamentos en Masái Mara y la costa clasificados. Angama Mara, Giraffe Manor. Desde $600/noche. Jul-Oct migración."
+  }
 }

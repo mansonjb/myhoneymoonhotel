@@ -151,6 +151,7 @@ localFood: 'Kokoda (Fijian ceviche — raw fish marinated in coconut cream and l
 currency: 'Fijian Dollar (FJD) — most resorts quote AUD or USD',
 language: 'English, Fijian, Hindi (all official)',
 timezone: 'UTC+12',
+  seo: { title: "Fiji Honeymoon: 8 Private Island Resorts Scored 2026", description: "8 private-island Fiji resorts ranked. Laucala, Vomo, Turtle Island. From $1,000/night. May-Oct dry season picks." },
 }
 
 export default meta

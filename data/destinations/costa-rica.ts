@@ -66,6 +66,7 @@ localFood: 'Costa Rican food is humble and honest: gallo pinto for breakfast, ca
 currency: 'Costa Rican Colón (CRC); USD widely accepted',
 language: 'Spanish (English in tourism)',
 timezone: 'CST (UTC-6)',
+  seo: { title: "Costa Rica Honeymoon: 7 Jungle & Beach Lodges 2026", description: "7 Nicoya, Osa, Arenal eco-lodges ranked. Nayara Tented, Lapa Rios, Andaz Papagayo. From $400/night. Dec-Apr dry." },
 }
 
 export default meta

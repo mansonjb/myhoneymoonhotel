@@ -55,18 +55,102 @@
     }
   ],
   "months": [
-    { "month": "Jan", "weather": "Norte fresco, sur cálido y seco", "emoji": "🌤", "crowds": "Baja-mod.", "price": "Bajo-medio", "verdict": "Excelente en el sur, Hanoi fresca" },
-    { "month": "Feb", "weather": "Festival Tet, mejorando, centro seco", "emoji": "🧧", "crowds": "Alta", "price": "Alto", "verdict": "Tet mágico, pero caos en transportes" },
-    { "month": "Mar", "weather": "Cálido, seco, mejor tiempo en todo el país", "emoji": "☀️", "crowds": "Moderada", "price": "Medio", "verdict": "Mes excelente en general" },
-    { "month": "Apr", "weather": "Cálido, seco, temporada ideal de playa", "emoji": "☀️", "crowds": "Moderada", "price": "Medio", "verdict": "Uno de los mejores meses" },
-    { "month": "May", "weather": "Caluroso, premonzón, playa central", "emoji": "🌤", "crowds": "Baja-mod.", "price": "Bajo-medio", "verdict": "Buen tiempo de playa, calor manejable" },
-    { "month": "Jun", "weather": "Lluvias en el sur, calor en el norte", "emoji": "🌧", "crowds": "Baja", "price": "Bajo", "verdict": "Evite el centro; Con Dao aún bien" },
-    { "month": "Jul", "weather": "Monzón en el sur, riesgo de tifón en el centro", "emoji": "🌀", "crowds": "Baja", "price": "Bajo", "verdict": "Difícil para casi todas las áreas" },
-    { "month": "Aug", "weather": "Riesgo de tifón en el centro, lluvioso", "emoji": "🌀", "crowds": "Baja", "price": "Bajo", "verdict": "Evite Hoi An y Da Nang" },
-    { "month": "Sep", "weather": "Persiste el riesgo de tifón en el centro", "emoji": "🌀", "crowds": "Baja", "price": "Bajo", "verdict": "Aún complicado para la costa central" },
-    { "month": "Oct", "weather": "Inundaciones en Hoi An, Halong mejora", "emoji": "🌦", "crowds": "Baja", "price": "Bajo-medio", "verdict": "Halong excelente, centro arriesgado" },
-    { "month": "Nov", "weather": "Empieza la estación seca, Hanoi fría", "emoji": "⛅", "crowds": "Moderada", "price": "Medio", "verdict": "Bien para el sur; Halong excelente" },
-    { "month": "Dec", "weather": "Norte fresco, sur cálido, centro seco", "emoji": "🌤", "crowds": "Alta", "price": "Alto", "verdict": "Temporada excelente; multitudes festivas" }
+    {
+      "month": "Jan",
+      "weather": "Norte fresco, sur cálido y seco",
+      "emoji": "🌤",
+      "crowds": "Baja-mod.",
+      "price": "Bajo-medio",
+      "verdict": "Excelente en el sur, Hanoi fresca"
+    },
+    {
+      "month": "Feb",
+      "weather": "Festival Tet, mejorando, centro seco",
+      "emoji": "🧧",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Tet mágico, pero caos en transportes"
+    },
+    {
+      "month": "Mar",
+      "weather": "Cálido, seco, mejor tiempo en todo el país",
+      "emoji": "☀️",
+      "crowds": "Moderada",
+      "price": "Medio",
+      "verdict": "Mes excelente en general"
+    },
+    {
+      "month": "Apr",
+      "weather": "Cálido, seco, temporada ideal de playa",
+      "emoji": "☀️",
+      "crowds": "Moderada",
+      "price": "Medio",
+      "verdict": "Uno de los mejores meses"
+    },
+    {
+      "month": "May",
+      "weather": "Caluroso, premonzón, playa central",
+      "emoji": "🌤",
+      "crowds": "Baja-mod.",
+      "price": "Bajo-medio",
+      "verdict": "Buen tiempo de playa, calor manejable"
+    },
+    {
+      "month": "Jun",
+      "weather": "Lluvias en el sur, calor en el norte",
+      "emoji": "🌧",
+      "crowds": "Baja",
+      "price": "Bajo",
+      "verdict": "Evite el centro; Con Dao aún bien"
+    },
+    {
+      "month": "Jul",
+      "weather": "Monzón en el sur, riesgo de tifón en el centro",
+      "emoji": "🌀",
+      "crowds": "Baja",
+      "price": "Bajo",
+      "verdict": "Difícil para casi todas las áreas"
+    },
+    {
+      "month": "Aug",
+      "weather": "Riesgo de tifón en el centro, lluvioso",
+      "emoji": "🌀",
+      "crowds": "Baja",
+      "price": "Bajo",
+      "verdict": "Evite Hoi An y Da Nang"
+    },
+    {
+      "month": "Sep",
+      "weather": "Persiste el riesgo de tifón en el centro",
+      "emoji": "🌀",
+      "crowds": "Baja",
+      "price": "Bajo",
+      "verdict": "Aún complicado para la costa central"
+    },
+    {
+      "month": "Oct",
+      "weather": "Inundaciones en Hoi An, Halong mejora",
+      "emoji": "🌦",
+      "crowds": "Baja",
+      "price": "Bajo-medio",
+      "verdict": "Halong excelente, centro arriesgado"
+    },
+    {
+      "month": "Nov",
+      "weather": "Empieza la estación seca, Hanoi fría",
+      "emoji": "⛅",
+      "crowds": "Moderada",
+      "price": "Medio",
+      "verdict": "Bien para el sur; Halong excelente"
+    },
+    {
+      "month": "Dec",
+      "weather": "Norte fresco, sur cálido, centro seco",
+      "emoji": "🌤",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Temporada excelente; multitudes festivas"
+    }
   ],
   "budgetTiers": [
     {
@@ -134,11 +218,26 @@
     }
   ],
   "packing": [
-    { "item": "Ropa ligera de lino", "why": "La humedad de Vietnam (sobre todo en el sur) requiere tejido transpirable. El lino seca rápido y luce elegante en restaurantes de playa." },
-    { "item": "Sandalias de arrecife y zapatillas de paseo", "why": "Alternará entre cascos antiguos adoquinados, pasarelas de playa y cubiertas de barco. Ambos calzados son de uso diario." },
-    { "item": "Chubasquero ligero", "why": "Incluso en estación seca pueden caer chubascos tropicales breves. Un chubasquero plegable es más pequeño que un paraguas y más útil en moto." },
-    { "item": "Pañuelo o cubierta ligera", "why": "Necesario para visitar templos y como cobertura educada en zonas tradicionales. Sirve también como pareo." },
-    { "item": "Frasebook vietnamita o traductor sin conexión", "why": "Fuera de los grandes núcleos turísticos, el inglés es limitado. Google Translate funciona en ciudades; un frasebook de respaldo es valioso en los puestos callejeros." }
+    {
+      "item": "Ropa ligera de lino",
+      "why": "La humedad de Vietnam (sobre todo en el sur) requiere tejido transpirable. El lino seca rápido y luce elegante en restaurantes de playa."
+    },
+    {
+      "item": "Sandalias de arrecife y zapatillas de paseo",
+      "why": "Alternará entre cascos antiguos adoquinados, pasarelas de playa y cubiertas de barco. Ambos calzados son de uso diario."
+    },
+    {
+      "item": "Chubasquero ligero",
+      "why": "Incluso en estación seca pueden caer chubascos tropicales breves. Un chubasquero plegable es más pequeño que un paraguas y más útil en moto."
+    },
+    {
+      "item": "Pañuelo o cubierta ligera",
+      "why": "Necesario para visitar templos y como cobertura educada en zonas tradicionales. Sirve también como pareo."
+    },
+    {
+      "item": "Frasebook vietnamita o traductor sin conexión",
+      "why": "Fuera de los grandes núcleos turísticos, el inglés es limitado. Google Translate funciona en ciudades; un frasebook de respaldo es valioso en los puestos callejeros."
+    }
   ],
   "guide": {
     "getting": "Vuele a Hanoi (HAN) o Ho Chi Minh / Saigón (SGN). Desde Europa: 11-13h vía Singapur (Singapore Airlines, 13h directo), Dubái (Emirates, 12h) o Doha (Qatar, 11h). Desde Australia: Singapore Airlines vía Singapur (8h desde Sídney). Los vuelos domésticos entre Hanoi, Da Nang (para Hoi An) y Ho Chi Minh son frecuentes y baratos (30-80 USD en VietJet/Bamboo). De Da Nang a Hoi An: taxi de 30 minutos (10 USD).",
@@ -148,5 +247,9 @@
   "localFood": "Pho bo (la icónica sopa de fideos con ternera de Hanoi en un puesto callejero a las 7:00), banh mi (el mejor sándwich del mundo: baguette francesa con paté, encurtidos y guindilla), cao lau (el plato emblema de Hoi An, fideos con cerdo elaborados con agua de un único pozo ancestral), dumplings rosa blanca (solo en Hoi An), bun cha (cerdo asado con vermicelli en Hanoi: lo que comió Obama con Anthony Bourdain) y un ca phe trung (café al huevo de Hanoi) como postre vespertino. La cocina vietnamita tiene una variación regional extraordinaria: cada pueblo tiene un plato que ningún otro replica.",
   "currency": "Vietnamese Dong (VND) — hotels and tours often quote USD",
   "language": "Vietnamita. Inglés hablado en todas las zonas turísticas.",
-  "timezone": "UTC+7 (Indochina Time)"
+  "timezone": "UTC+7 (Indochina Time)",
+  "seo": {
+    "title": "Luna de Miel en Vietnam: 8 Hoteles Costa y Patrimonio",
+    "description": "8 estancias en Hoi An, Phu Quoc y Hanoi clasificadas. Six Senses Con Dao, JW Marriott. Desde $300/noche. Nov-Abr."
+  }
 }

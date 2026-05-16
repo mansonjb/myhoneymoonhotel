@@ -156,6 +156,7 @@ localFood: 'Kaiseki (Japan\'s haute cuisine — a seasonal 10+ course ceremony),
 currency: 'Japanese Yen (JPY) — largely cash economy; cards accepted at hotels',
 language: 'Japanese. English spoken in tourist areas; Google Translate camera mode is essential elsewhere.',
 timezone: 'UTC+9 (Japan Standard Time)',
+  seo: { title: "Japan Honeymoon: 8 Ryokan & City Hotels Scored 2026", description: "8 Tokyo, Kyoto, Hakone stays ranked. Aman, Hoshinoya, Park Hyatt. From $500/night. Mar-May cherry, Oct-Nov foliage." },
 }
 
 export default meta

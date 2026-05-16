@@ -1,6 +1,10 @@
 {
   "tagline": "Polimento de praia de Phuket contra o drama da baía de Ha Long: duelo de lua de mel no sudeste asiático.",
   "metaDescription": "Tailândia contra Vietnã para uma lua de mel: ilhas, gastronomia, praia, cultura, valor. Recomendações lado a lado.",
+  "seo": {
+    "title": "Tailândia vs Vietnã Lua de Mel: Sudeste Asiático 2026",
+    "description": "Tailândia vs Vietnã para lua de mel 2026: ilhas de Phuket e Bangkok vs Hoi An e Baía de Ha Long. Comida, praia, cultura, valor."
+  },
   "verdict": "Os dois são destinos excepcionais de lua de mel do sudeste asiático com culturas gastronômicas ricas e substancial inventário hoteleiro de luxo, mas oferecem experiências diferentes. A Tailândia é luxo tropical polido: Phuket, Krabi e Koh Samui acumulam décadas de sofisticação de resort e o formato está bem afinado. O Vietnã é variedade e drama: baía de Ha Long, cidades imperiais de Hue e Hoi An, praias de Phu Quoc e o delta do Mekong em um único país. A Tailândia vence em polimento de resort e inventário de praia; o Vietnã vence em variedade cultural e drama visual.",
   "tldr": {
     "forA": "Tailândia: pelo luxo de praia polido, variedade de resorts em Phuket/Koh Samui e facilidade de viagem.",
@@ -8,20 +12,76 @@
     "tie": "Empate em valor geral e qualidade da cultura gastronômica."
   },
   "criteria": [
-    { "label": "Tempo de voo (a partir da Europa)", "aDetail": "11-12h direto para Bangkok", "bDetail": "11-12h direto para Hanói/HCMC" },
-    { "label": "Tempo de voo (a partir dos EUA)", "aDetail": "17-20h via Tóquio/Hong Kong", "bDetail": "17-20h via Tóquio/Seul" },
-    { "label": "Qualidade das praias", "aDetail": "Nível mundial: Phuket, Krabi, Koh Samui, Koh Lanta, Phi Phi", "bDetail": "Melhorando: Phu Quoc e Con Dao excelentes, mas menor inventário" },
-    { "label": "Polimento dos resorts", "aDetail": "Décadas de luxo: Aman, Six Senses, Banyan Tree, Como, Soneva", "bDetail": "Mais recente: Six Senses Con Dao, Amanoi, JW Marriott Phu Quoc, mas menor profundidade" },
-    { "label": "A vista emblemática", "aDetail": "Karsts calcários de Phang Nga, Maya Bay, falésias de Phi Phi", "bDetail": "Baía de Ha Long: karsts calcários em água esmeralda, ícone UNESCO" },
-    { "label": "Gastronomia", "aDetail": "Nível mundial: a cozinha tailandesa é uma das grandes do planeta", "bDetail": "Nível mundial: a comida vietnamita (pho, banh mi, com tam) é igualmente celebrada e frequentemente considerada mais saudável" },
-    { "label": "Profundidade cultural", "aDetail": "Templos de Bangkok, norte de Chiang Mai, ruínas de Sukhothai", "bDetail": "Extraordinária: bairro antigo de Hanói, cidade imperial de Hue, cidade dos lampiões de Hoi An, delta do Mekong" },
-    { "label": "Lua de mel multi-etapa", "aDetail": "Bangkok + ilha funciona, mas parece 2 destinos", "bDetail": "Hanói → Ha Long → Hoi An → Phu Quoc é um itinerário natural de 12-14 dias" },
-    { "label": "Oferta só para adultos", "aDetail": "Vários só para adultos de luxo (Como Point Yamu, Banyan Tree só para adultos, Andara)", "bDetail": "Inventário só para adultos limitado, majoritariamente pequeno" },
-    { "label": "Spa e bem-estar", "aDetail": "Nível mundial: Chiva-Som, Kamalaya, Como Shambhala", "bDetail": "Emergente: Six Senses, Amanoi, mas cena menor" },
-    { "label": "Fator afluência", "aDetail": "Phuket/Krabi podem parecer turismo de massa na alta", "bDetail": "Phu Quoc e Hoi An com afluência crescente; Con Dao, Ninh Binh ainda tranquilas" },
-    { "label": "Melhor temporada", "aDetail": "Nov-abr (sul seco), mai-out (sul chuvoso, norte seco)", "bDetail": "Fev-abr ideal no sul, set-nov para Hoi An, opções o ano todo por regiões" },
-    { "label": "Orçamento mínimo (5 estrelas)", "aDetail": "$200-400/noite em luxo de nível mundial", "bDetail": "$200-400/noite em luxo de nível mundial" },
-    { "label": "Orçamento máximo", "aDetail": "$3000+/noite (Aman, Soneva Kiri)", "bDetail": "$2500+/noite (Six Senses Con Dao, Amanoi)" }
+    {
+      "label": "Tempo de voo (a partir da Europa)",
+      "aDetail": "11-12h direto para Bangkok",
+      "bDetail": "11-12h direto para Hanói/HCMC"
+    },
+    {
+      "label": "Tempo de voo (a partir dos EUA)",
+      "aDetail": "17-20h via Tóquio/Hong Kong",
+      "bDetail": "17-20h via Tóquio/Seul"
+    },
+    {
+      "label": "Qualidade das praias",
+      "aDetail": "Nível mundial: Phuket, Krabi, Koh Samui, Koh Lanta, Phi Phi",
+      "bDetail": "Melhorando: Phu Quoc e Con Dao excelentes, mas menor inventário"
+    },
+    {
+      "label": "Polimento dos resorts",
+      "aDetail": "Décadas de luxo: Aman, Six Senses, Banyan Tree, Como, Soneva",
+      "bDetail": "Mais recente: Six Senses Con Dao, Amanoi, JW Marriott Phu Quoc, mas menor profundidade"
+    },
+    {
+      "label": "A vista emblemática",
+      "aDetail": "Karsts calcários de Phang Nga, Maya Bay, falésias de Phi Phi",
+      "bDetail": "Baía de Ha Long: karsts calcários em água esmeralda, ícone UNESCO"
+    },
+    {
+      "label": "Gastronomia",
+      "aDetail": "Nível mundial: a cozinha tailandesa é uma das grandes do planeta",
+      "bDetail": "Nível mundial: a comida vietnamita (pho, banh mi, com tam) é igualmente celebrada e frequentemente considerada mais saudável"
+    },
+    {
+      "label": "Profundidade cultural",
+      "aDetail": "Templos de Bangkok, norte de Chiang Mai, ruínas de Sukhothai",
+      "bDetail": "Extraordinária: bairro antigo de Hanói, cidade imperial de Hue, cidade dos lampiões de Hoi An, delta do Mekong"
+    },
+    {
+      "label": "Lua de mel multi-etapa",
+      "aDetail": "Bangkok + ilha funciona, mas parece 2 destinos",
+      "bDetail": "Hanói → Ha Long → Hoi An → Phu Quoc é um itinerário natural de 12-14 dias"
+    },
+    {
+      "label": "Oferta só para adultos",
+      "aDetail": "Vários só para adultos de luxo (Como Point Yamu, Banyan Tree só para adultos, Andara)",
+      "bDetail": "Inventário só para adultos limitado, majoritariamente pequeno"
+    },
+    {
+      "label": "Spa e bem-estar",
+      "aDetail": "Nível mundial: Chiva-Som, Kamalaya, Como Shambhala",
+      "bDetail": "Emergente: Six Senses, Amanoi, mas cena menor"
+    },
+    {
+      "label": "Fator afluência",
+      "aDetail": "Phuket/Krabi podem parecer turismo de massa na alta",
+      "bDetail": "Phu Quoc e Hoi An com afluência crescente; Con Dao, Ninh Binh ainda tranquilas"
+    },
+    {
+      "label": "Melhor temporada",
+      "aDetail": "Nov-abr (sul seco), mai-out (sul chuvoso, norte seco)",
+      "bDetail": "Fev-abr ideal no sul, set-nov para Hoi An, opções o ano todo por regiões"
+    },
+    {
+      "label": "Orçamento mínimo (5 estrelas)",
+      "aDetail": "$200-400/noite em luxo de nível mundial",
+      "bDetail": "$200-400/noite em luxo de nível mundial"
+    },
+    {
+      "label": "Orçamento máximo",
+      "aDetail": "$3000+/noite (Aman, Soneva Kiri)",
+      "bDetail": "$2500+/noite (Six Senses Con Dao, Amanoi)"
+    }
   ],
   "pickA": {
     "title": "Escolha a Tailândia se…",
@@ -44,10 +104,25 @@
     ]
   },
   "faqs": [
-    { "q": "Qual tem melhores praias?", "a": "Tailândia, por inventário e polimento: Phuket, Krabi e Koh Samui acumulam décadas de infraestrutura de resort. As praias do Vietnã (Phu Quoc, Con Dao) são excelentes e melhoram, mas o inventário é menor." },
-    { "q": "Qual é mais cultural?", "a": "Vietnã, decisivamente. O bairro antigo de Hanói, a cidade imperial de Hue, a cidade dos lampiões de Hoi An e o delta do Mekong criam uma viagem cultural de várias semanas. A Tailândia se inclina mais para praia e templo." },
-    { "q": "Qual tem melhor gastronomia?", "a": "Empate: as duas cozinhas figuram entre as maiores do mundo. A tailandesa é mais audaciosa (pimentas, coco, molho de peixe); a vietnamita é mais herbácea e leve (pho, banh mi, ervas). Formatos diferentes; ambas de nível mundial." },
-    { "q": "Posso combinar as duas?", "a": "Sim: muitos casais fazem viagens Tailândia + Vietnã de 14 dias. Bangkok → Hanói → Ha Long → Hoi An → Phu Quoc é uma rota natural. Acrescenta riqueza, mas menos dias em cada lugar." },
-    { "q": "Qual é mais fácil para uma primeira lua de mel na Ásia?", "a": "Tailândia: infraestrutura turística mais desenvolvida, mais inglês nos resorts, transporte mais simples, mais opções de luxo de praia. O Vietnã recompensa mais o viajante de segunda viagem à Ásia." }
+    {
+      "q": "Qual tem melhores praias?",
+      "a": "Tailândia, por inventário e polimento: Phuket, Krabi e Koh Samui acumulam décadas de infraestrutura de resort. As praias do Vietnã (Phu Quoc, Con Dao) são excelentes e melhoram, mas o inventário é menor."
+    },
+    {
+      "q": "Qual é mais cultural?",
+      "a": "Vietnã, decisivamente. O bairro antigo de Hanói, a cidade imperial de Hue, a cidade dos lampiões de Hoi An e o delta do Mekong criam uma viagem cultural de várias semanas. A Tailândia se inclina mais para praia e templo."
+    },
+    {
+      "q": "Qual tem melhor gastronomia?",
+      "a": "Empate: as duas cozinhas figuram entre as maiores do mundo. A tailandesa é mais audaciosa (pimentas, coco, molho de peixe); a vietnamita é mais herbácea e leve (pho, banh mi, ervas). Formatos diferentes; ambas de nível mundial."
+    },
+    {
+      "q": "Posso combinar as duas?",
+      "a": "Sim: muitos casais fazem viagens Tailândia + Vietnã de 14 dias. Bangkok → Hanói → Ha Long → Hoi An → Phu Quoc é uma rota natural. Acrescenta riqueza, mas menos dias em cada lugar."
+    },
+    {
+      "q": "Qual é mais fácil para uma primeira lua de mel na Ásia?",
+      "a": "Tailândia: infraestrutura turística mais desenvolvida, mais inglês nos resorts, transporte mais simples, mais opções de luxo de praia. O Vietnã recompensa mais o viajante de segunda viagem à Ásia."
+    }
   ]
 }

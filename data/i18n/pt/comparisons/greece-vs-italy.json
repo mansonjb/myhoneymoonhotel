@@ -1,6 +1,10 @@
 {
   "tagline": "Branco egeu sobre a caldeira contra a dolce vita italiana: o duelo do Mediterrâneo.",
   "metaDescription": "Grécia ou Itália para uma lua de mel? Pôr do sol em Santorini contra a Costa Amalfitana. Ilhas contra continente. Gastronomia, romance e logística. Comparação completa.",
+  "seo": {
+    "title": "Grécia vs Itália Lua de Mel: Mediterrâneo 2026",
+    "description": "Grécia vs Itália para lua de mel 2026: ilhas vs Costa Amalfitana. Comida, romance, hotéis, custos e logística — escolhas honestas."
+  },
   "verdict": "A Grécia gira em torno das ilhas (Santorini, Mykonos, Milos) e do romance da caldeira. A Itália gira em torno das costas (Amalfi, Cinque Terre, Capri) e da variedade multicidade (Roma + Toscana + Veneza). As ilhas gregas são mais concentradas: luas de mel de uma única ilha e um único resort. A Itália é mais um grand tour. A Grécia ganha em romance concentrado (suíte sobre a falésia ao pôr do sol, uma única ilha, sem precisar dirigir). A Itália ganha em profundidade e riqueza cultural: você pode fazer Roma + Amalfi + Toscana em 10 dias.",
   "tldr": {
     "forA": "Grécia: pelo romance concentrado de uma única ilha, os pores do sol de Oia e as suítes só para adultos sobre a caldeira.",
@@ -8,18 +12,66 @@
     "tie": "Os dois ficam em demanda máxima em julho-agosto. As temporadas intermediárias (fim de maio e setembro) são mágicas em ambos."
   },
   "criteria": [
-    { "label": "A vista icônica", "aDetail": "A caldeira de Santorini ao pôr do sol vista de Oia: insuperável como destino de imagem única", "bDetail": "Positano vista do ferry + Gruta Azul de Capri" },
-    { "label": "Gastronomia", "aDetail": "Boa: fava, tomates de Santorini, peixe fresco", "bDetail": "Cozinha italiana: possivelmente a melhor do mundo" },
-    { "label": "Variedade em uma mesma viagem", "aDetail": "Centrada em ilhas: Santorini, Mykonos, talvez Milos ou Paros", "bDetail": "Roma + Amalfi + Capri + Toscana é perfeitamente factível em 10-14 dias" },
-    { "label": "Só para adultos sobre a falésia", "aDetail": "Santorini conta com mais de 20 suítes só para adultos sobre a caldeira", "bDetail": "Um punhado em Amalfi (Monastero Santa Rosa, Villa Treville)" },
-    { "label": "Profundidade cultural", "aDetail": "Atenas se vê em um ou dois dias; o resto é praia de ilha", "bDetail": "Roma + Florença + Veneza + cidades menores: inesgotável" },
-    { "label": "Acesso à praia", "aDetail": "Areia preta de Kamari, não excelente para banho", "bDetail": "Variável: seixos em Amalfi, areia branca na Sardenha, rochoso na Toscana" },
-    { "label": "Melhor temporada", "aDetail": "Fim de maio, início de junho, setembro", "bDetail": "Igual" },
-    { "label": "Acesso aéreo (Europa)", "aDetail": "Direto para Santorini (JTR) abr-out", "bDetail": "Nápoles (NAP) direto, ou Roma + 2h de carro" },
-    { "label": "Preço (5 estrelas com vista)", "aDetail": "$700-3000/noite para suíte com vista para a caldeira", "bDetail": "$500-2000/noite para equivalente" },
-    { "label": "Viagem curta (4-5 noites)", "aDetail": "Santorini + Mykonos em 5 noites é perfeito", "bDetail": "Roma + Amalfi em 5 noites fica corrido demais" },
-    { "label": "Viagem longa (10+ noites)", "aDetail": "3 ilhas é o máximo razoável", "bDetail": "Roma + Florença + Amalfi + Capri = grand tour perfeito de 10-14 noites" },
-    { "label": "Fator romântico", "aDetail": "Intimidade concentrada sobre a falésia", "bDetail": "Distribuída entre vilarejos, mais exigente, mas mais rica" }
+    {
+      "label": "A vista icônica",
+      "aDetail": "A caldeira de Santorini ao pôr do sol vista de Oia: insuperável como destino de imagem única",
+      "bDetail": "Positano vista do ferry + Gruta Azul de Capri"
+    },
+    {
+      "label": "Gastronomia",
+      "aDetail": "Boa: fava, tomates de Santorini, peixe fresco",
+      "bDetail": "Cozinha italiana: possivelmente a melhor do mundo"
+    },
+    {
+      "label": "Variedade em uma mesma viagem",
+      "aDetail": "Centrada em ilhas: Santorini, Mykonos, talvez Milos ou Paros",
+      "bDetail": "Roma + Amalfi + Capri + Toscana é perfeitamente factível em 10-14 dias"
+    },
+    {
+      "label": "Só para adultos sobre a falésia",
+      "aDetail": "Santorini conta com mais de 20 suítes só para adultos sobre a caldeira",
+      "bDetail": "Um punhado em Amalfi (Monastero Santa Rosa, Villa Treville)"
+    },
+    {
+      "label": "Profundidade cultural",
+      "aDetail": "Atenas se vê em um ou dois dias; o resto é praia de ilha",
+      "bDetail": "Roma + Florença + Veneza + cidades menores: inesgotável"
+    },
+    {
+      "label": "Acesso à praia",
+      "aDetail": "Areia preta de Kamari, não excelente para banho",
+      "bDetail": "Variável: seixos em Amalfi, areia branca na Sardenha, rochoso na Toscana"
+    },
+    {
+      "label": "Melhor temporada",
+      "aDetail": "Fim de maio, início de junho, setembro",
+      "bDetail": "Igual"
+    },
+    {
+      "label": "Acesso aéreo (Europa)",
+      "aDetail": "Direto para Santorini (JTR) abr-out",
+      "bDetail": "Nápoles (NAP) direto, ou Roma + 2h de carro"
+    },
+    {
+      "label": "Preço (5 estrelas com vista)",
+      "aDetail": "$700-3000/noite para suíte com vista para a caldeira",
+      "bDetail": "$500-2000/noite para equivalente"
+    },
+    {
+      "label": "Viagem curta (4-5 noites)",
+      "aDetail": "Santorini + Mykonos em 5 noites é perfeito",
+      "bDetail": "Roma + Amalfi em 5 noites fica corrido demais"
+    },
+    {
+      "label": "Viagem longa (10+ noites)",
+      "aDetail": "3 ilhas é o máximo razoável",
+      "bDetail": "Roma + Florença + Amalfi + Capri = grand tour perfeito de 10-14 noites"
+    },
+    {
+      "label": "Fator romântico",
+      "aDetail": "Intimidade concentrada sobre a falésia",
+      "bDetail": "Distribuída entre vilarejos, mais exigente, mas mais rica"
+    }
   ],
   "pickA": {
     "title": "Escolha a Grécia se…",
@@ -41,9 +93,21 @@
     ]
   },
   "faqs": [
-    { "q": "Qual está menos lotada?", "a": "Os dois ficam saturados em julho-agosto. Setembro é o ponto doce: 30% menos turistas, mar morno, preços de temporada intermediária. A Itália oferece mais cantos para os quais escapar; as multidões em Santorini estão mais concentradas." },
-    { "q": "A Itália é mais cara?", "a": "A Itália é mais econômica na faixa alta (Positano sobre a falésia a $700-1500) que a borda de Santorini ($1000-2500). Os hotéis gregos pagam um prêmio pela vista para a caldeira." },
-    { "q": "Podemos combiná-las?", "a": "Sim: uma viagem de 12-14 noites pode fazer 4 noites em Roma + 5 em Amalfi + 5 em Santorini com escala em Atenas. Combinação habitual para luas de mel-aniversário." },
-    { "q": "Qual tem melhores praias para nadar?", "a": "Nenhuma é destino primordialmente de praia: as duas são de falésias. Para uma lua de mel mediterrânea com foco em praia, considere a Sardenha (Itália) ou Milos (Grécia)." }
+    {
+      "q": "Qual está menos lotada?",
+      "a": "Os dois ficam saturados em julho-agosto. Setembro é o ponto doce: 30% menos turistas, mar morno, preços de temporada intermediária. A Itália oferece mais cantos para os quais escapar; as multidões em Santorini estão mais concentradas."
+    },
+    {
+      "q": "A Itália é mais cara?",
+      "a": "A Itália é mais econômica na faixa alta (Positano sobre a falésia a $700-1500) que a borda de Santorini ($1000-2500). Os hotéis gregos pagam um prêmio pela vista para a caldeira."
+    },
+    {
+      "q": "Podemos combiná-las?",
+      "a": "Sim: uma viagem de 12-14 noites pode fazer 4 noites em Roma + 5 em Amalfi + 5 em Santorini com escala em Atenas. Combinação habitual para luas de mel-aniversário."
+    },
+    {
+      "q": "Qual tem melhores praias para nadar?",
+      "a": "Nenhuma é destino primordialmente de praia: as duas são de falésias. Para uma lua de mel mediterrânea com foco em praia, considere a Sardenha (Itália) ou Milos (Grécia)."
+    }
   ]
 }

@@ -18,50 +18,225 @@
     "Poeira, insetos e despertares antes do amanhecer não são lua de mel para você"
   ],
   "experiences": [
-    { "icon": "🦁", "title": "Game drive privativo ao amanhecer no Maasai Mara", "description": "Saia do campo na primeira luz com seu próprio guia e veículo — sem jipes compartilhados, sem multidões. Veja filhotes de leão brincando na luz dourada, elefantes na cacimba e chitas em caça. As conservâncias privadas fora da reserva permitem dirigir fora da estrada.", "cost": "Incluso na maioria das tarifas de campos de luxo", "tip": "Reserve campo em conservância privada em vez da reserva — você ganha off-road, drives noturnos e safáris a pé proibidos na reserva nacional." },
-    { "icon": "🌅", "title": "Balão de ar quente sobre o Mara", "description": "Uma hora flutuando sobre a savana ao nascer do sol enquanto manadas de gnus se movem em silêncio. Café da manhã com champanhe nas planícies após o pouso. Uma das experiências definitivas da África — a escala da migração vista do alto é incompreensível.", "cost": "$450-650 por pessoa", "tip": "Reserve direto com Governors' Balloon Safaris ou Kichwa Tembo — melhor histórico de segurança e os pilotos mais experientes." },
-    { "icon": "🚶", "title": "Caminhada no mato com guia maasai", "description": "Caminhada de 2-3h com guerreiro maasai que lê a paisagem — rastreando animais, identificando plantas e explicando como seu povo convive com leões há séculos. O Quênia ao nível do solo é completamente diferente do veículo.", "cost": "$80-150 por casal", "tip": "Peça um guia maasai jovem que fale bom inglês — a combinação de conhecimento tradicional e comunicação moderna gera conversas extraordinárias." },
-    { "icon": "🐘", "title": "Amboseli ao amanhecer com Kilimanjaro", "description": "A imagem que define o Quênia: cem elefantes pastando contra a massa branca do Kilimanjaro ao amanhecer. O Parque Nacional de Amboseli tem a maior densidade de elefantes da África Oriental e a montanha é visível em manhãs claras de outubro a março.", "cost": "Incluso nas tarifas — voo de Nairobi Wilson ($80-150)", "tip": "Hospede-se no Tortilis Camp ou Tawi Lodge — ambos com vistas extraordinárias do Kilimanjaro. Reserve out-fev para melhor visibilidade." },
-    { "icon": "🍷", "title": "Sundowner na escarpa", "description": "Às 18h, o guia te leva à Escarpa de Oloololo — a borda do Vale do Rift — e abre champanhe enquanto o sol cai. Abaixo, 50 km de planícies douradas. Hipopótamos grunhem do rio. É por isso que se vai ao Quênia.", "cost": "Incluso no Angama Mara e na maioria dos campos top", "tip": "Os sundowners do terraço do Angama Mara são igualmente espetaculares — peça a mesa mais próxima da borda de vidro." }
+    {
+      "icon": "🦁",
+      "title": "Game drive privativo ao amanhecer no Maasai Mara",
+      "description": "Saia do campo na primeira luz com seu próprio guia e veículo — sem jipes compartilhados, sem multidões. Veja filhotes de leão brincando na luz dourada, elefantes na cacimba e chitas em caça. As conservâncias privadas fora da reserva permitem dirigir fora da estrada.",
+      "cost": "Incluso na maioria das tarifas de campos de luxo",
+      "tip": "Reserve campo em conservância privada em vez da reserva — você ganha off-road, drives noturnos e safáris a pé proibidos na reserva nacional."
+    },
+    {
+      "icon": "🌅",
+      "title": "Balão de ar quente sobre o Mara",
+      "description": "Uma hora flutuando sobre a savana ao nascer do sol enquanto manadas de gnus se movem em silêncio. Café da manhã com champanhe nas planícies após o pouso. Uma das experiências definitivas da África — a escala da migração vista do alto é incompreensível.",
+      "cost": "$450-650 por pessoa",
+      "tip": "Reserve direto com Governors' Balloon Safaris ou Kichwa Tembo — melhor histórico de segurança e os pilotos mais experientes."
+    },
+    {
+      "icon": "🚶",
+      "title": "Caminhada no mato com guia maasai",
+      "description": "Caminhada de 2-3h com guerreiro maasai que lê a paisagem — rastreando animais, identificando plantas e explicando como seu povo convive com leões há séculos. O Quênia ao nível do solo é completamente diferente do veículo.",
+      "cost": "$80-150 por casal",
+      "tip": "Peça um guia maasai jovem que fale bom inglês — a combinação de conhecimento tradicional e comunicação moderna gera conversas extraordinárias."
+    },
+    {
+      "icon": "🐘",
+      "title": "Amboseli ao amanhecer com Kilimanjaro",
+      "description": "A imagem que define o Quênia: cem elefantes pastando contra a massa branca do Kilimanjaro ao amanhecer. O Parque Nacional de Amboseli tem a maior densidade de elefantes da África Oriental e a montanha é visível em manhãs claras de outubro a março.",
+      "cost": "Incluso nas tarifas — voo de Nairobi Wilson ($80-150)",
+      "tip": "Hospede-se no Tortilis Camp ou Tawi Lodge — ambos com vistas extraordinárias do Kilimanjaro. Reserve out-fev para melhor visibilidade."
+    },
+    {
+      "icon": "🍷",
+      "title": "Sundowner na escarpa",
+      "description": "Às 18h, o guia te leva à Escarpa de Oloololo — a borda do Vale do Rift — e abre champanhe enquanto o sol cai. Abaixo, 50 km de planícies douradas. Hipopótamos grunhem do rio. É por isso que se vai ao Quênia.",
+      "cost": "Incluso no Angama Mara e na maioria dos campos top",
+      "tip": "Os sundowners do terraço do Angama Mara são igualmente espetaculares — peça a mesa mais próxima da borda de vidro."
+    }
   ],
   "months": [
-    { "month": "Jan", "weather": "Seco e quente, excelente", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Qualidade máxima, muito bom" },
-    { "month": "Feb", "weather": "Seco, quente, fauna superba", "emoji": "☀️", "crowds": "Média", "price": "Médio-alto", "verdict": "Melhor custo-benefício na alta" },
-    { "month": "Mar", "weather": "Chuvas longas chegando", "emoji": "⛅", "crowds": "Baixa", "price": "Médio", "verdict": "Boas ofertas, leve risco" },
-    { "month": "Apr", "weather": "Chuvas longas, fortes", "emoji": "🌧", "crowds": "Muito baixa", "price": "Mínimo", "verdict": "Evite — maioria dos campos fecha" },
-    { "month": "May", "weather": "Ainda chovendo, exuberante e verde", "emoji": "🌦", "crowds": "Muito baixa", "price": "Muito baixo", "verdict": "Muitos campos fechados" },
-    { "month": "Jun", "weather": "Secando, migração chegando", "emoji": "🌤", "crowds": "Média", "price": "Médio", "verdict": "Migração se forma — bom custo-benefício" },
-    { "month": "Jul", "weather": "Seco, pico da Grande Migração", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "O maior espetáculo da Terra" },
-    { "month": "Aug", "weather": "Seco, pico das travessias de rio", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Migração mais dramática" },
-    { "month": "Sep", "weather": "Seco, migração ainda presente", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Excelente, um pouco menos cheio" },
-    { "month": "Oct", "weather": "Chuvas curtas começando", "emoji": "⛅", "crowds": "Média", "price": "Médio", "verdict": "Boa fauna, preços mais baixos" },
-    { "month": "Nov", "weather": "Chuvas curtas, paisagem exuberante", "emoji": "🌦", "crowds": "Baixa", "price": "Baixo-médio", "verdict": "Mara verde lindo, boas ofertas" },
-    { "month": "Dec", "weather": "Seco de novo, temporada festiva", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Excelente, reserve com 1 ano" }
+    {
+      "month": "Jan",
+      "weather": "Seco e quente, excelente",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Qualidade máxima, muito bom"
+    },
+    {
+      "month": "Feb",
+      "weather": "Seco, quente, fauna superba",
+      "emoji": "☀️",
+      "crowds": "Média",
+      "price": "Médio-alto",
+      "verdict": "Melhor custo-benefício na alta"
+    },
+    {
+      "month": "Mar",
+      "weather": "Chuvas longas chegando",
+      "emoji": "⛅",
+      "crowds": "Baixa",
+      "price": "Médio",
+      "verdict": "Boas ofertas, leve risco"
+    },
+    {
+      "month": "Apr",
+      "weather": "Chuvas longas, fortes",
+      "emoji": "🌧",
+      "crowds": "Muito baixa",
+      "price": "Mínimo",
+      "verdict": "Evite — maioria dos campos fecha"
+    },
+    {
+      "month": "May",
+      "weather": "Ainda chovendo, exuberante e verde",
+      "emoji": "🌦",
+      "crowds": "Muito baixa",
+      "price": "Muito baixo",
+      "verdict": "Muitos campos fechados"
+    },
+    {
+      "month": "Jun",
+      "weather": "Secando, migração chegando",
+      "emoji": "🌤",
+      "crowds": "Média",
+      "price": "Médio",
+      "verdict": "Migração se forma — bom custo-benefício"
+    },
+    {
+      "month": "Jul",
+      "weather": "Seco, pico da Grande Migração",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "O maior espetáculo da Terra"
+    },
+    {
+      "month": "Aug",
+      "weather": "Seco, pico das travessias de rio",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Migração mais dramática"
+    },
+    {
+      "month": "Sep",
+      "weather": "Seco, migração ainda presente",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Excelente, um pouco menos cheio"
+    },
+    {
+      "month": "Oct",
+      "weather": "Chuvas curtas começando",
+      "emoji": "⛅",
+      "crowds": "Média",
+      "price": "Médio",
+      "verdict": "Boa fauna, preços mais baixos"
+    },
+    {
+      "month": "Nov",
+      "weather": "Chuvas curtas, paisagem exuberante",
+      "emoji": "🌦",
+      "crowds": "Baixa",
+      "price": "Baixo-médio",
+      "verdict": "Mara verde lindo, boas ofertas"
+    },
+    {
+      "month": "Dec",
+      "weather": "Seco de novo, temporada festiva",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Excelente, reserve com 1 ano"
+    }
   ],
   "budgetTiers": [
-    { "label": "Safári intermediário", "range": "$350-600/noite all-inclusive", "gets": "Campo de tendas confortável, game drives compartilhados, pensão completa. Ótimo acesso à fauna — muitos campos excelentes nesse nível.", "example": "Mara Intrepids, Basecamp Masai Mara, Porini Lion Camp" },
-    { "label": "Campo de tendas de luxo", "range": "$600-1.500/noite all-inclusive", "gets": "Suíte privativa em tenda, banheiro privativo, deck privado, jantares no mato, guias top, todas as atividades inclusas. A lua de mel definitiva no Quênia.", "example": "Angama Mara, Kichwa Tembo, Cottar's 1920s Camp" },
-    { "label": "Conservância ultra-privada", "range": "$1.500-4.000+/noite all-inclusive", "gets": "Conservância privada exclusiva, sem drives compartilhados, safáris noturnos, safáris a pé com rangers armados, guias privativos. Reclusão absoluta no mato.", "example": "Ol Pejeta House, Solio Lodge, Lewa House" }
+    {
+      "label": "Safári intermediário",
+      "range": "$350-600/noite all-inclusive",
+      "gets": "Campo de tendas confortável, game drives compartilhados, pensão completa. Ótimo acesso à fauna — muitos campos excelentes nesse nível.",
+      "example": "Mara Intrepids, Basecamp Masai Mara, Porini Lion Camp"
+    },
+    {
+      "label": "Campo de tendas de luxo",
+      "range": "$600-1.500/noite all-inclusive",
+      "gets": "Suíte privativa em tenda, banheiro privativo, deck privado, jantares no mato, guias top, todas as atividades inclusas. A lua de mel definitiva no Quênia.",
+      "example": "Angama Mara, Kichwa Tembo, Cottar's 1920s Camp"
+    },
+    {
+      "label": "Conservância ultra-privada",
+      "range": "$1.500-4.000+/noite all-inclusive",
+      "gets": "Conservância privada exclusiva, sem drives compartilhados, safáris noturnos, safáris a pé com rangers armados, guias privativos. Reclusão absoluta no mato.",
+      "example": "Ol Pejeta House, Solio Lodge, Lewa House"
+    }
   ],
   "areas": [
-    { "name": "Maasai Mara", "bestFor": "Grande Migração, Cinco Grandes, safári clássico", "description": "Reserva mais famosa do Quênia — e o melhor destino dos Cinco Grandes do mundo durante a migração jul-out. As conservâncias privadas vizinhas (Olare Motorogi, Mara North, Naboisho) oferecem experiências mais exclusivas com off-road e menos veículos." },
-    { "name": "Amboseli", "bestFor": "Elefantes e vistas do Kilimanjaro", "description": "Famoso pela população extraordinária de elefantes (200+, estudados há 50 anos) e a vista icônica do Kilimanjaro atrás das manadas. Menor e mais íntimo que o Mara. Melhor na seca, quando os elefantes se reúnem nas fontes." },
-    { "name": "Planalto de Laikipia", "bestFor": "Conservâncias privadas, rinocerontes, exclusividade", "description": "Planalto privado ao norte do Monte Quênia com algumas das melhores conservâncias privadas da África — Ol Pejeta, Lewa, Solio e Borana. As últimas populações saudáveis de rinoceronte-preto do Quênia vivem aqui. Sem turismo de massa — experiências íntimas com poucos hóspedes." },
-    { "name": "Samburu", "bestFor": "Espécies especialistas do norte", "description": "O norte árido oferece espécies que você não vê no Mara: girafa-reticulada, zebra-de-Grévy, oryx beisa, avestruz somali e gerenuque. Paisagem seca extraordinariamente bela. Combine com o Mara para o quadro completo." }
+    {
+      "name": "Maasai Mara",
+      "bestFor": "Grande Migração, Cinco Grandes, safári clássico",
+      "description": "Reserva mais famosa do Quênia — e o melhor destino dos Cinco Grandes do mundo durante a migração jul-out. As conservâncias privadas vizinhas (Olare Motorogi, Mara North, Naboisho) oferecem experiências mais exclusivas com off-road e menos veículos."
+    },
+    {
+      "name": "Amboseli",
+      "bestFor": "Elefantes e vistas do Kilimanjaro",
+      "description": "Famoso pela população extraordinária de elefantes (200+, estudados há 50 anos) e a vista icônica do Kilimanjaro atrás das manadas. Menor e mais íntimo que o Mara. Melhor na seca, quando os elefantes se reúnem nas fontes."
+    },
+    {
+      "name": "Planalto de Laikipia",
+      "bestFor": "Conservâncias privadas, rinocerontes, exclusividade",
+      "description": "Planalto privado ao norte do Monte Quênia com algumas das melhores conservâncias privadas da África — Ol Pejeta, Lewa, Solio e Borana. As últimas populações saudáveis de rinoceronte-preto do Quênia vivem aqui. Sem turismo de massa — experiências íntimas com poucos hóspedes."
+    },
+    {
+      "name": "Samburu",
+      "bestFor": "Espécies especialistas do norte",
+      "description": "O norte árido oferece espécies que você não vê no Mara: girafa-reticulada, zebra-de-Grévy, oryx beisa, avestruz somali e gerenuque. Paisagem seca extraordinariamente bela. Combine com o Mara para o quadro completo."
+    }
   ],
   "expertTips": [
-    { "tip": "Reserve campos em conservâncias privadas, não na reserva principal", "detail": "A Reserva Nacional do Maasai Mara está cheia — 50 veículos em torno de cada caça de leão na alta. As conservâncias privadas fora do parque oferecem a mesma fauna com fração dos veículos, mais drives noturnos e safáris a pé. Pague o premium." },
-    { "tip": "Voe entre parques — nunca dirija", "detail": "Estradas do Quênia são brutais. Nairobi-Mara por terra são 5-6h em asfalto ruim. De avião leve a partir de Wilson: 45 min sobre o Vale do Rift com vistas da escarpa. Tarifas de campos de luxo incluem ou organizam transfers de pista." },
-    { "tip": "Cronometre a migração com flexibilidade", "detail": "A Grande Migração não é evento de calendário fixo — manadas podem cruzar o rio Mara entre julho e outubro, com timing variando por ano. Reserve jul-set para maior probabilidade. Confie na inteligência em tempo real do gerente do campo, não em itinerários fixos." },
-    { "tip": "Leve casaco de pluma para a manhã cedo", "detail": "Drives ao amanhecer em jun-ago começam às 5h30 e os veículos abertos andam em velocidade — frio genuíno nas planícies em altitude. A maioria leva pouca camada e treme nos melhores avistamentos. Leve mais do que você acha." },
-    { "tip": "Some uma extensão para Zanzibar", "detail": "Nairobi-Zanzibar são 90 min de turbo-hélice (ou 2h via Dar es Salaam). 5 noites de safári no Quênia + 5 noites de praia em Zanzibar é um dos grandes roteiros de lua de mel do mundo — cultura, fauna e Oceano Índico em uma viagem só." }
+    {
+      "tip": "Reserve campos em conservâncias privadas, não na reserva principal",
+      "detail": "A Reserva Nacional do Maasai Mara está cheia — 50 veículos em torno de cada caça de leão na alta. As conservâncias privadas fora do parque oferecem a mesma fauna com fração dos veículos, mais drives noturnos e safáris a pé. Pague o premium."
+    },
+    {
+      "tip": "Voe entre parques — nunca dirija",
+      "detail": "Estradas do Quênia são brutais. Nairobi-Mara por terra são 5-6h em asfalto ruim. De avião leve a partir de Wilson: 45 min sobre o Vale do Rift com vistas da escarpa. Tarifas de campos de luxo incluem ou organizam transfers de pista."
+    },
+    {
+      "tip": "Cronometre a migração com flexibilidade",
+      "detail": "A Grande Migração não é evento de calendário fixo — manadas podem cruzar o rio Mara entre julho e outubro, com timing variando por ano. Reserve jul-set para maior probabilidade. Confie na inteligência em tempo real do gerente do campo, não em itinerários fixos."
+    },
+    {
+      "tip": "Leve casaco de pluma para a manhã cedo",
+      "detail": "Drives ao amanhecer em jun-ago começam às 5h30 e os veículos abertos andam em velocidade — frio genuíno nas planícies em altitude. A maioria leva pouca camada e treme nos melhores avistamentos. Leve mais do que você acha."
+    },
+    {
+      "tip": "Some uma extensão para Zanzibar",
+      "detail": "Nairobi-Zanzibar são 90 min de turbo-hélice (ou 2h via Dar es Salaam). 5 noites de safári no Quênia + 5 noites de praia em Zanzibar é um dos grandes roteiros de lua de mel do mundo — cultura, fauna e Oceano Índico em uma viagem só."
+    }
   ],
   "packing": [
-    { "item": "Cores neutras de safári (caqui, oliva, areia)", "why": "Cores escuras atraem mosca tsé-tsé; branco assusta animais — o dress code é prático, não estético" },
-    { "item": "Binóculos (10x42)", "why": "Inegociável em safári — nem os melhores guias chegam perto o bastante para ver detalhes sem eles" },
-    { "item": "Casaco de pluma ou fleece", "why": "Drives ao amanhecer às 5h30 em altitude são genuinamente frios — leve mais aquecimento que imagina" },
-    { "item": "Bolsa de câmera à prova de poeira", "why": "A estação seca do Mara cobre tudo — bolsa selada protege lentes entre game drives" },
-    { "item": "Certificado de febre amarela", "why": "Exigido na entrada se vier de certos países — confira requisitos e leve a carteirinha física" }
+    {
+      "item": "Cores neutras de safári (caqui, oliva, areia)",
+      "why": "Cores escuras atraem mosca tsé-tsé; branco assusta animais — o dress code é prático, não estético"
+    },
+    {
+      "item": "Binóculos (10x42)",
+      "why": "Inegociável em safári — nem os melhores guias chegam perto o bastante para ver detalhes sem eles"
+    },
+    {
+      "item": "Casaco de pluma ou fleece",
+      "why": "Drives ao amanhecer às 5h30 em altitude são genuinamente frios — leve mais aquecimento que imagina"
+    },
+    {
+      "item": "Bolsa de câmera à prova de poeira",
+      "why": "A estação seca do Mara cobre tudo — bolsa selada protege lentes entre game drives"
+    },
+    {
+      "item": "Certificado de febre amarela",
+      "why": "Exigido na entrada se vier de certos países — confira requisitos e leve a carteirinha física"
+    }
   ],
   "guide": {
     "getting": "Voe para Nairobi Jomo Kenyatta Internacional (NBO) — bem servido pela Europa: KLM (Amsterdã, 8,5h direto), British Airways (Londres, 8,5h direto), Ethiopian Airlines (Adis Abeba) e Kenya Airways. De NBO, transfira para Wilson Airport (30 min) para avião leve até pistas no mato. A maioria dos campos de luxo te espera em Wilson. Voos internos rodam várias vezes ao dia para todos os parques principais ($80-200 cada trecho). Não tente dirigir entre parques — voe.",
@@ -71,5 +246,9 @@
   "localFood": "Nyama choma (cabrito ou boi assado) num açougue-restaurante local, ugali (mingau de fubá) com sukuma wiki (couve-galega) e feijão estufado, mandazi (sonhos de coco) com chai ao amanhecer, café queniano AA das terras altas de Nyeri e cerveja Tusker no sundowner. Chefs de campos de luxo produzem jantares genuinamente extraordinários no mato.",
   "currency": "Xelim queniano (KES) — safáris cotam em USD",
   "language": "Inglês e suaíli (ambos oficiais)",
-  "timezone": "UTC+3"
+  "timezone": "UTC+3",
+  "seo": {
+    "title": "Lua de Mel no Quênia: 8 Acampamentos de Safari 2026",
+    "description": "8 acampamentos no Masai Mara e litoral pontuados. Angama Mara, Giraffe Manor. De $600/noite. Jul-out migração."
+  }
 }

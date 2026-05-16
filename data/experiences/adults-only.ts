@@ -2,6 +2,10 @@ import type { ExperienceMeta } from '@/types/experience'
 
 const meta: ExperienceMeta = {
   label: 'Adults-Only Resorts',
+  seo: {
+    title: 'Adults-Only Honeymoon Resorts: 53 Scored Picks 2026',
+    description: 'Adults-only honeymoon resorts where the vibe is couples-first: 53 properties scored across 26 destinations, from $300 to $2,500 a night. No kids, no compromise.',
+  },
   tagline: 'No families. No compromise. The honeymoon atmosphere you actually want.',
   hero: '/images/hotels/samanvaya-adults-only-bali/hero.webp',
   intro: 'Adults-only resorts are the single most underrated choice for honeymooners. The atmosphere is categorically different from family resorts — quieter pools, earlier mornings, more intimate restaurants, and a guest demographic almost entirely made up of couples celebrating something. The cumulative effect on a honeymoon is not subtle: everything feels more romantic when everyone around you is also focused on romance.',

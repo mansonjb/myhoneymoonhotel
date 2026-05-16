@@ -18,52 +18,234 @@
     "Você espera o polimento de praia das Maldivas"
   ],
   "experiences": [
-    { "icon": "🪨", "title": "Sigiriya ao nascer do sol", "description": "Suba os 1.200 degraus da fortaleza Lion Rock do século V antes do calor e dos ônibus turísticos.", "cost": "$30 de entrada", "tip": "Esteja no portão às 6h30; considere Pidurangala, ao lado, para a foto icônica" },
-    { "icon": "🚂", "title": "Trem de Kandy a Ella", "description": "Sete horas por plantações de chá, cachoeiras e a Nine Arches Bridge — uma das jornadas ferroviárias mais cênicas do mundo.", "cost": "$10–25 com assento reservado", "tip": "Reserve segunda classe com lugar marcado semanas antes" },
-    { "icon": "🐆", "title": "Safári de leopardos em Yala", "description": "O Bloco 1 de Yala tem a maior densidade de leopardos do planeta.", "cost": "$80–150 em jipe compartilhado", "tip": "Hospede-se dentro ou próximo ao parque (Wild Coast Tented Lodge)" },
-    { "icon": "🏰", "title": "Caminhada pelo Forte de Galle", "description": "Forte colonial holandês perfeitamente preservado avançando sobre o Índico.", "cost": "Grátis para circular", "tip": "Pernoite dentro das muralhas (Amangalla ou Fort Bazaar)" },
-    { "icon": "🍃", "title": "Estadia em fazenda de chá", "description": "Durma em um bangalô de plantador restaurado no Ceylon Tea Trails ou Tea Trails Hatton.", "cost": "$600–1.200/noite all-inclusive", "tip": "Reserve o bangalô Castlereagh ou Summerville" }
+    {
+      "icon": "🪨",
+      "title": "Sigiriya ao nascer do sol",
+      "description": "Suba os 1.200 degraus da fortaleza Lion Rock do século V antes do calor e dos ônibus turísticos.",
+      "cost": "$30 de entrada",
+      "tip": "Esteja no portão às 6h30; considere Pidurangala, ao lado, para a foto icônica"
+    },
+    {
+      "icon": "🚂",
+      "title": "Trem de Kandy a Ella",
+      "description": "Sete horas por plantações de chá, cachoeiras e a Nine Arches Bridge — uma das jornadas ferroviárias mais cênicas do mundo.",
+      "cost": "$10–25 com assento reservado",
+      "tip": "Reserve segunda classe com lugar marcado semanas antes"
+    },
+    {
+      "icon": "🐆",
+      "title": "Safári de leopardos em Yala",
+      "description": "O Bloco 1 de Yala tem a maior densidade de leopardos do planeta.",
+      "cost": "$80–150 em jipe compartilhado",
+      "tip": "Hospede-se dentro ou próximo ao parque (Wild Coast Tented Lodge)"
+    },
+    {
+      "icon": "🏰",
+      "title": "Caminhada pelo Forte de Galle",
+      "description": "Forte colonial holandês perfeitamente preservado avançando sobre o Índico.",
+      "cost": "Grátis para circular",
+      "tip": "Pernoite dentro das muralhas (Amangalla ou Fort Bazaar)"
+    },
+    {
+      "icon": "🍃",
+      "title": "Estadia em fazenda de chá",
+      "description": "Durma em um bangalô de plantador restaurado no Ceylon Tea Trails ou Tea Trails Hatton.",
+      "cost": "$600–1.200/noite all-inclusive",
+      "tip": "Reserve o bangalô Castlereagh ou Summerville"
+    }
   ],
   "months": [
-    { "month": "January", "weather": "27°C, sul/oeste secos", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Pico — reserve com 6 meses" },
-    { "month": "February", "weather": "28°C, seco e claro", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Melhor mês para quem vai pela primeira vez" },
-    { "month": "March", "weather": "29°C, esquentando", "emoji": "🌤️", "crowds": "Alta", "price": "Alto", "verdict": "Excelente — leve avanço de umidade" },
-    { "month": "April", "weather": "30°C, calor pré-monção", "emoji": "🌤️", "crowds": "Média", "price": "Médio", "verdict": "Quente, mas com a euforia do Ano-Novo Cingalês/Tâmil" },
-    { "month": "May", "weather": "29°C, monção SO começa", "emoji": "🌧️", "crowds": "Baixa", "price": "Baixo", "verdict": "Costa leste abre — pule o sul" },
-    { "month": "June", "weather": "28°C, sudoeste úmido", "emoji": "🌧️", "crowds": "Baixa", "price": "Baixo", "verdict": "Só Triângulo Cultural e costa leste" },
-    { "month": "July", "weather": "28°C, Esala Perahera", "emoji": "⛅", "crowds": "Média", "price": "Médio", "verdict": "O festival de Kandy é espetacular" },
-    { "month": "August", "weather": "28°C, mais seco no norte", "emoji": "⛅", "crowds": "Média", "price": "Médio", "verdict": "Ótimo para safáris e praias do leste" },
-    { "month": "September", "weather": "28°C, transição", "emoji": "🌦️", "crowds": "Baixa", "price": "Baixo", "verdict": "Meia estação tranquila" },
-    { "month": "October", "weather": "27°C, monção NE chega", "emoji": "🌧️", "crowds": "Baixa", "price": "Baixo", "verdict": "Mês mais chuvoso de toda a ilha — evite" },
-    { "month": "November", "weather": "27°C, sul clareando", "emoji": "🌦️", "crowds": "Média", "price": "Médio", "verdict": "Costa sul reabre no fim do mês" },
-    { "month": "December", "weather": "27°C, seco e festivo", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Natal/réveillon esgota com um ano de antecedência" }
+    {
+      "month": "January",
+      "weather": "27°C, sul/oeste secos",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Pico — reserve com 6 meses"
+    },
+    {
+      "month": "February",
+      "weather": "28°C, seco e claro",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Melhor mês para quem vai pela primeira vez"
+    },
+    {
+      "month": "March",
+      "weather": "29°C, esquentando",
+      "emoji": "🌤️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Excelente — leve avanço de umidade"
+    },
+    {
+      "month": "April",
+      "weather": "30°C, calor pré-monção",
+      "emoji": "🌤️",
+      "crowds": "Média",
+      "price": "Médio",
+      "verdict": "Quente, mas com a euforia do Ano-Novo Cingalês/Tâmil"
+    },
+    {
+      "month": "May",
+      "weather": "29°C, monção SO começa",
+      "emoji": "🌧️",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Costa leste abre — pule o sul"
+    },
+    {
+      "month": "June",
+      "weather": "28°C, sudoeste úmido",
+      "emoji": "🌧️",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Só Triângulo Cultural e costa leste"
+    },
+    {
+      "month": "July",
+      "weather": "28°C, Esala Perahera",
+      "emoji": "⛅",
+      "crowds": "Média",
+      "price": "Médio",
+      "verdict": "O festival de Kandy é espetacular"
+    },
+    {
+      "month": "August",
+      "weather": "28°C, mais seco no norte",
+      "emoji": "⛅",
+      "crowds": "Média",
+      "price": "Médio",
+      "verdict": "Ótimo para safáris e praias do leste"
+    },
+    {
+      "month": "September",
+      "weather": "28°C, transição",
+      "emoji": "🌦️",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Meia estação tranquila"
+    },
+    {
+      "month": "October",
+      "weather": "27°C, monção NE chega",
+      "emoji": "🌧️",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Mês mais chuvoso de toda a ilha — evite"
+    },
+    {
+      "month": "November",
+      "weather": "27°C, sul clareando",
+      "emoji": "🌦️",
+      "crowds": "Média",
+      "price": "Médio",
+      "verdict": "Costa sul reabre no fim do mês"
+    },
+    {
+      "month": "December",
+      "weather": "27°C, seco e festivo",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Natal/réveillon esgota com um ano de antecedência"
+    }
   ],
   "budgetTiers": [
-    { "label": "Confortável", "range": "$200–400/noite", "gets": "Pousadas coloniais boutique, resorts intermediários na praia, motorista-guia privativo", "example": "Hotéis Jetwing, Heritance Kandalama" },
-    { "label": "Luxo", "range": "$500–900/noite", "gets": "Coleção Resplendent Ceylon, vilas com design forte, mordomo dedicado", "example": "Cape Weligama, Wild Coast Tented Lodge" },
-    { "label": "Ultra-luxo", "range": "$1.000–2.500/noite", "gets": "Propriedades Aman, bangalôs de chá all-inclusive, transfers de helicóptero", "example": "Amangalla, Aman Galle, Ceylon Tea Trails" }
+    {
+      "label": "Confortável",
+      "range": "$200–400/noite",
+      "gets": "Pousadas coloniais boutique, resorts intermediários na praia, motorista-guia privativo",
+      "example": "Hotéis Jetwing, Heritance Kandalama"
+    },
+    {
+      "label": "Luxo",
+      "range": "$500–900/noite",
+      "gets": "Coleção Resplendent Ceylon, vilas com design forte, mordomo dedicado",
+      "example": "Cape Weligama, Wild Coast Tented Lodge"
+    },
+    {
+      "label": "Ultra-luxo",
+      "range": "$1.000–2.500/noite",
+      "gets": "Propriedades Aman, bangalôs de chá all-inclusive, transfers de helicóptero",
+      "example": "Amangalla, Aman Galle, Ceylon Tea Trails"
+    }
   ],
   "areas": [
-    { "name": "Triângulo Cultural", "bestFor": "História, ruínas, primeira viagem", "description": "Coração da zona seca, com Sigiriya, cavernas de Dambulla e Polonnaruwa em um raio de 90 minutos. Heritance Kandalama é a base icônica." },
-    { "name": "Kandy e Hill Country", "bestFor": "Cultura do chá, clima fresco, trens", "description": "O Templo do Dente em Kandy, depois subindo para Nuwara Eliya e Hatton, para fazendas de chá e o trem de Ella." },
-    { "name": "Galle e costa sul", "bestFor": "Praias, charme colonial, surf", "description": "O Forte de Galle ancora um litoral de praias de coqueiros, de Bentota a Tangalle. Cape Weligama e Amangalla se concentram aqui." },
-    { "name": "Yala e sudeste", "bestFor": "Safári, fauna, acampamentos com tendas", "description": "O principal parque nacional do Sri Lanka para leopardos. Wild Coast Tented Lodge é o destaque." },
-    { "name": "Costa leste", "bestFor": "Praia de maio a setembro", "description": "Quando o sudoeste está úmido, Nilaveli (Trinco) e Pasikuda oferecem banho seco e ensolarado." }
+    {
+      "name": "Triângulo Cultural",
+      "bestFor": "História, ruínas, primeira viagem",
+      "description": "Coração da zona seca, com Sigiriya, cavernas de Dambulla e Polonnaruwa em um raio de 90 minutos. Heritance Kandalama é a base icônica."
+    },
+    {
+      "name": "Kandy e Hill Country",
+      "bestFor": "Cultura do chá, clima fresco, trens",
+      "description": "O Templo do Dente em Kandy, depois subindo para Nuwara Eliya e Hatton, para fazendas de chá e o trem de Ella."
+    },
+    {
+      "name": "Galle e costa sul",
+      "bestFor": "Praias, charme colonial, surf",
+      "description": "O Forte de Galle ancora um litoral de praias de coqueiros, de Bentota a Tangalle. Cape Weligama e Amangalla se concentram aqui."
+    },
+    {
+      "name": "Yala e sudeste",
+      "bestFor": "Safári, fauna, acampamentos com tendas",
+      "description": "O principal parque nacional do Sri Lanka para leopardos. Wild Coast Tented Lodge é o destaque."
+    },
+    {
+      "name": "Costa leste",
+      "bestFor": "Praia de maio a setembro",
+      "description": "Quando o sudoeste está úmido, Nilaveli (Trinco) e Pasikuda oferecem banho seco e ensolarado."
+    }
   ],
   "expertTips": [
-    { "tip": "Contrate um motorista-guia, não dirija você mesmo", "detail": "Estradas são caóticas, sinalização é precária. Um bom motorista custa $60–90/dia, incluindo a hospedagem dele." },
-    { "tip": "Siga as monções, não brigue com elas", "detail": "Dez–mar: sul, oeste, montanhas. Mai–set: costa leste e Triângulo Cultural. Outubro é genuinamente miserável em todo o país." },
-    { "tip": "Inclua dias de folga entre as regiões", "detail": "Distâncias parecem curtas no mapa, mas Colombo a Ella pode levar 7 horas." },
-    { "tip": "Pule o orfanato de elefantes de Pinnawala", "detail": "É eticamente questionável. Veja elefantes selvagens em Udawalawe ou no \"Gathering\" de Minneriya." },
-    { "tip": "Reserve safáris em Yala pelo seu hotel", "detail": "Os jipes via hotel conhecem os rastreadores e têm prioridade no portão." }
+    {
+      "tip": "Contrate um motorista-guia, não dirija você mesmo",
+      "detail": "Estradas são caóticas, sinalização é precária. Um bom motorista custa $60–90/dia, incluindo a hospedagem dele."
+    },
+    {
+      "tip": "Siga as monções, não brigue com elas",
+      "detail": "Dez–mar: sul, oeste, montanhas. Mai–set: costa leste e Triângulo Cultural. Outubro é genuinamente miserável em todo o país."
+    },
+    {
+      "tip": "Inclua dias de folga entre as regiões",
+      "detail": "Distâncias parecem curtas no mapa, mas Colombo a Ella pode levar 7 horas."
+    },
+    {
+      "tip": "Pule o orfanato de elefantes de Pinnawala",
+      "detail": "É eticamente questionável. Veja elefantes selvagens em Udawalawe ou no \"Gathering\" de Minneriya."
+    },
+    {
+      "tip": "Reserve safáris em Yala pelo seu hotel",
+      "detail": "Os jipes via hotel conhecem os rastreadores e têm prioridade no portão."
+    }
   ],
   "packing": [
-    { "item": "Roupa modesta para templos", "why": "Ombros e joelhos cobertos em sítios budistas" },
-    { "item": "Camadas leves para a serra", "why": "Nuwara Eliya e Ella caem para um dígito de noite" },
-    { "item": "Protetor solar reef-safe", "why": "O UV é brutal o ano todo perto do equador" },
-    { "item": "Repelente com DEET", "why": "Dengue está presente em áreas baixas" },
-    { "item": "Meias antissanguessuga para trilhas na serra", "why": "Se for caminhar na floresta de Sinharaja, sanguessugas são garantidas" },
-    { "item": "Dinheiro em LKR, notas pequenas", "why": "Tuk-tuks e barracas funcionam com troco pequeno" }
+    {
+      "item": "Roupa modesta para templos",
+      "why": "Ombros e joelhos cobertos em sítios budistas"
+    },
+    {
+      "item": "Camadas leves para a serra",
+      "why": "Nuwara Eliya e Ella caem para um dígito de noite"
+    },
+    {
+      "item": "Protetor solar reef-safe",
+      "why": "O UV é brutal o ano todo perto do equador"
+    },
+    {
+      "item": "Repelente com DEET",
+      "why": "Dengue está presente em áreas baixas"
+    },
+    {
+      "item": "Meias antissanguessuga para trilhas na serra",
+      "why": "Se for caminhar na floresta de Sinharaja, sanguessugas são garantidas"
+    },
+    {
+      "item": "Dinheiro em LKR, notas pequenas",
+      "why": "Tuk-tuks e barracas funcionam com troco pequeno"
+    }
   ],
   "guide": {
     "getting": "Todos os voos internacionais pousam em Bandaranaike (CMB). A maioria dos viajantes de luxo pula Colombo — combine um motorista-guia para seguir direto a Sigiriya (4h) ou ao sul para Galle (2–3h).",
@@ -73,5 +255,9 @@
   "localFood": "A comida do Sri Lanka é mais ousada e variada que a indiana — coco, folhas de curry, pandan e canela definem o paladar. O café da manhã é hopper com ovo ou string hopper com dhal e pol sambol. Almoço é arroz com curry — tipicamente 5 a 7 pratinhos. Tarde da noite, o kottu roti é o conforto nacional.",
   "currency": "Rúpia do Sri Lanka (LKR)",
   "language": "Cingalês / Tâmil (inglês amplamente falado)",
-  "timezone": "IST (UTC+5:30)"
+  "timezone": "IST (UTC+5:30)",
+  "seo": {
+    "title": "Lua de Mel no Sri Lanka: 8 Hotéis Chá e Praia 2026",
+    "description": "8 estadias em Galle, Ella e Yala pontuadas. Cape Weligama, Ceylon Tea Trails. De $300/noite. Dez-mar."
+  }
 }

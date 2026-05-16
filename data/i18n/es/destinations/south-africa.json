@@ -55,18 +55,102 @@
     }
   ],
   "months": [
-    { "month": "Jan", "weather": "Verano caluroso y seco en Ciudad del Cabo, calor en game drives", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Pleno verano: concurrido y caro" },
-    { "month": "Feb", "weather": "Cálido, seco, clima excelente en el Cabo", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Bonito, pero abarrotado y caro" },
-    { "month": "Mar", "weather": "Cálido, inicio del otoño, excelente", "emoji": "🌤", "crowds": "Moderada", "price": "Medio", "verdict": "Infravalorado: cálido y menos concurrido" },
-    { "month": "Apr", "weather": "Más fresco, colores otoñales en las Winelands", "emoji": "🍂", "crowds": "Baja-mod.", "price": "Bajo-medio", "verdict": "Excelente para Winelands y ciudad" },
-    { "month": "May", "weather": "Comienza la estación seca, mejora el safari", "emoji": "🌿", "crowds": "Baja", "price": "Bajo-medio", "verdict": "Fauna en aumento, gran relación calidad-precio" },
-    { "month": "Jun", "weather": "Seco, fresco, llegan las ballenas, mejor safari", "emoji": "🐋", "crowds": "Baja", "price": "Medio", "verdict": "Empieza el sweet spot de ballenas y safari" },
-    { "month": "Jul", "weather": "Seco, fresco, fauna en su pico, ballenas en su pico", "emoji": "🦁", "crowds": "Moderada", "price": "Medio-alto", "verdict": "Excelente fauna, mañanas más frescas" },
-    { "month": "Aug", "weather": "Seco, fresco, avistamientos de fauna excelentes", "emoji": "🦁", "crowds": "Moderada", "price": "Medio-alto", "verdict": "Safari magnífico, ballenas todavía estupendas" },
-    { "month": "Sep", "weather": "Seco, templándose, el mejor mes para todo", "emoji": "☀️", "crowds": "Moderada", "price": "Alto", "verdict": "El mejor mes del año en Sudáfrica" },
-    { "month": "Oct", "weather": "Primavera, flores silvestres, crías de animales", "emoji": "🌸", "crowds": "Moderada", "price": "Alto", "verdict": "Magnífico: recién nacidos y flores" },
-    { "month": "Nov", "weather": "Comienza la estación verde, frondosa pero con riesgo de lluvia", "emoji": "🌦", "crowds": "Baja", "price": "Medio", "verdict": "Buena relación calidad-precio, tormentas ocasionales" },
-    { "month": "Dec", "weather": "Caluroso y húmedo en la sabana, verano en el Cabo", "emoji": "🌧", "crowds": "Máxima", "price": "Máximo", "verdict": "Ciudad del Cabo, excelente; la sabana, sofocante" }
+    {
+      "month": "Jan",
+      "weather": "Verano caluroso y seco en Ciudad del Cabo, calor en game drives",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Pleno verano: concurrido y caro"
+    },
+    {
+      "month": "Feb",
+      "weather": "Cálido, seco, clima excelente en el Cabo",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Bonito, pero abarrotado y caro"
+    },
+    {
+      "month": "Mar",
+      "weather": "Cálido, inicio del otoño, excelente",
+      "emoji": "🌤",
+      "crowds": "Moderada",
+      "price": "Medio",
+      "verdict": "Infravalorado: cálido y menos concurrido"
+    },
+    {
+      "month": "Apr",
+      "weather": "Más fresco, colores otoñales en las Winelands",
+      "emoji": "🍂",
+      "crowds": "Baja-mod.",
+      "price": "Bajo-medio",
+      "verdict": "Excelente para Winelands y ciudad"
+    },
+    {
+      "month": "May",
+      "weather": "Comienza la estación seca, mejora el safari",
+      "emoji": "🌿",
+      "crowds": "Baja",
+      "price": "Bajo-medio",
+      "verdict": "Fauna en aumento, gran relación calidad-precio"
+    },
+    {
+      "month": "Jun",
+      "weather": "Seco, fresco, llegan las ballenas, mejor safari",
+      "emoji": "🐋",
+      "crowds": "Baja",
+      "price": "Medio",
+      "verdict": "Empieza el sweet spot de ballenas y safari"
+    },
+    {
+      "month": "Jul",
+      "weather": "Seco, fresco, fauna en su pico, ballenas en su pico",
+      "emoji": "🦁",
+      "crowds": "Moderada",
+      "price": "Medio-alto",
+      "verdict": "Excelente fauna, mañanas más frescas"
+    },
+    {
+      "month": "Aug",
+      "weather": "Seco, fresco, avistamientos de fauna excelentes",
+      "emoji": "🦁",
+      "crowds": "Moderada",
+      "price": "Medio-alto",
+      "verdict": "Safari magnífico, ballenas todavía estupendas"
+    },
+    {
+      "month": "Sep",
+      "weather": "Seco, templándose, el mejor mes para todo",
+      "emoji": "☀️",
+      "crowds": "Moderada",
+      "price": "Alto",
+      "verdict": "El mejor mes del año en Sudáfrica"
+    },
+    {
+      "month": "Oct",
+      "weather": "Primavera, flores silvestres, crías de animales",
+      "emoji": "🌸",
+      "crowds": "Moderada",
+      "price": "Alto",
+      "verdict": "Magnífico: recién nacidos y flores"
+    },
+    {
+      "month": "Nov",
+      "weather": "Comienza la estación verde, frondosa pero con riesgo de lluvia",
+      "emoji": "🌦",
+      "crowds": "Baja",
+      "price": "Medio",
+      "verdict": "Buena relación calidad-precio, tormentas ocasionales"
+    },
+    {
+      "month": "Dec",
+      "weather": "Caluroso y húmedo en la sabana, verano en el Cabo",
+      "emoji": "🌧",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Ciudad del Cabo, excelente; la sabana, sofocante"
+    }
   ],
   "budgetTiers": [
     {
@@ -129,11 +213,26 @@
     }
   ],
   "packing": [
-    { "item": "Ropa de safari en tonos neutros (caqui, oliva, beige)", "why": "Los colores oscuros atraen a la mosca tsé-tsé. Los colores vivos perturban a la fauna y al resto de huéspedes. Los tonos neutros son prácticos y cómodos." },
-    { "item": "Capa de abrigo para los drives matinales", "why": "Los vehículos descubiertos a las 5:30 entre junio y agosto pueden bajar a 5–10 °C. Los lodges proporcionan mantas, pero un forro polar o chaleco de plumas es esencial en los meses de invierno." },
-    { "item": "Sombrero de ala ancha y SPF alto", "why": "El sol sudafricano en altitud (Kruger está a 400 m) es intenso. Un sombrero plegable y SPF 50 son innegociables para los drives de tarde." },
-    { "item": "Prismáticos (8x42 mínimo)", "why": "Detectar animales lejanos antes que el ranger es uno de los placeres del safari. Un buen par transforma sus avistamientos." },
-    { "item": "Outfit smart-casual para Ciudad del Cabo", "why": "Los mejores restaurantes de Ciudad del Cabo se rigen por un código relajado smart-casual. Un buen outfit evita cualquier incomodidad en la cena." }
+    {
+      "item": "Ropa de safari en tonos neutros (caqui, oliva, beige)",
+      "why": "Los colores oscuros atraen a la mosca tsé-tsé. Los colores vivos perturban a la fauna y al resto de huéspedes. Los tonos neutros son prácticos y cómodos."
+    },
+    {
+      "item": "Capa de abrigo para los drives matinales",
+      "why": "Los vehículos descubiertos a las 5:30 entre junio y agosto pueden bajar a 5–10 °C. Los lodges proporcionan mantas, pero un forro polar o chaleco de plumas es esencial en los meses de invierno."
+    },
+    {
+      "item": "Sombrero de ala ancha y SPF alto",
+      "why": "El sol sudafricano en altitud (Kruger está a 400 m) es intenso. Un sombrero plegable y SPF 50 son innegociables para los drives de tarde."
+    },
+    {
+      "item": "Prismáticos (8x42 mínimo)",
+      "why": "Detectar animales lejanos antes que el ranger es uno de los placeres del safari. Un buen par transforma sus avistamientos."
+    },
+    {
+      "item": "Outfit smart-casual para Ciudad del Cabo",
+      "why": "Los mejores restaurantes de Ciudad del Cabo se rigen por un código relajado smart-casual. Un buen outfit evita cualquier incomodidad en la cena."
+    }
   ],
   "guide": {
     "getting": "Vuele a Johannesburgo O.R. Tambo (JNB) o a Ciudad del Cabo Internacional (CPT). Desde Londres: directos con British Airways, South African Airways o Virgin (11 h). Desde Europa: directos desde Ámsterdam (KLM), Frankfurt (Lufthansa) y París (Air France). Desde JNB: conexión a Kruger Mpumalanga Airport (MQP) o Hoedspruit (HDS) para Sabi Sand: vuelo de 45 min o 4 h por carretera. NO conduzca de JNB a la sabana al caer la noche. El itinerario estándar: vuelo a JNB → traslado al lodge → vuelo a CPT → programa en Ciudad del Cabo → vuelo de regreso.",
@@ -143,5 +242,9 @@
   "localFood": "Braai (la barbacoa sudafricana —solomillo de ternera, chuletas de cordero y boerewors al fuego de leña—, una religión nacional), biltong (carne curada y secada, el snack perfecto para safari), bunny chow (pan ahuecado relleno de curry, especialidad de Durban), bobotie del Cabo Malayo (carne picada de cordero especiada con cobertura de natilla de huevo, el plato más característico del Cabo), Chenin Blanc de Stellenbosch maridado con un chocolate de Waterford. La escena de restaurantes de las Winelands —Le Quartier Français en Franschhoek, Jordan Wine Estate, The Pot Luck Club en Ciudad del Cabo— es genuinamente de clase mundial.",
   "currency": "Rand sudafricano (ZAR); los lodges de safari suelen cotizar en USD",
   "language": "El inglés es una de las 11 lenguas oficiales y de uso universal en el turismo",
-  "timezone": "UTC+2 (hora estándar de Sudáfrica)"
+  "timezone": "UTC+2 (hora estándar de Sudáfrica)",
+  "seo": {
+    "title": "Luna de Miel en Sudáfrica: 8 Lodges Safari y Ciudad",
+    "description": "8 estancias en Kruger, Ciudad del Cabo y Winelands clasificadas. Singita, Royal Malewane. Desde $700/noche. May-Oct."
+  }
 }

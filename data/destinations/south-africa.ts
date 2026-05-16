@@ -147,6 +147,7 @@ localFood: 'Braai (the South African barbecue — beef bostok, lamb chops, and b
 currency: 'South African Rand (ZAR) — safari lodges often quote USD',
 language: 'English is one of 11 official languages and universally used in tourism',
 timezone: 'UTC+2 (South Africa Standard Time)',
+  seo: { title: "South Africa Honeymoon: 8 Safari Lodges & Cape Stays", description: "8 Kruger, Cape Town, Winelands stays scored. Singita, Royal Malewane, Ellerman House. From $700/night. May-Oct." },
 }
 
 export default meta

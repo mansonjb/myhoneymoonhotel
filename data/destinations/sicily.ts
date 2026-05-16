@@ -154,6 +154,7 @@ localFood: 'Granita di mandorla (almond granita) with warm brioche for breakfast
 currency: 'EUR (Euro)',
 language: 'Italian (Sicilian dialect widely spoken; English at hotel level)',
 timezone: 'CET (UTC+1, UTC+2 in summer)',
+  seo: { title: "Sicily Honeymoon: 6 Cliffside Resorts Scored 2026", description: "6 honeymoon hotels ranked: Belmond, Aman, Verdura, San Domenico. Taormina to west coast. From $600/night. May-Oct verdicts." },
 }
 
 export default meta

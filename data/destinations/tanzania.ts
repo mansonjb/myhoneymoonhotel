@@ -152,6 +152,7 @@ localFood: 'Nyama choma (Swahili barbecued goat or beef, served with ugali and s
 currency: 'Tanzanian Shilling (TZS) — safari camps and lodges quote USD',
 language: 'Swahili and English. English widely spoken in all tourism contexts.',
 timezone: 'UTC+3 (East Africa Time)',
+  seo: { title: "Tanzania Honeymoon: 9 Safari Camps & Beach Lodges", description: "9 Serengeti, Ngorongoro, Zanzibar combos ranked. Singita, Four Seasons, &Beyond. From $1,000/night. Jun-Oct migration." },
 }
 
 export default meta

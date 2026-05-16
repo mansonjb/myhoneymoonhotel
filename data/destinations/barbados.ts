@@ -76,6 +76,7 @@ localFood: 'Bajan cuisine is the Caribbean\'s most refined — flying fish and c
 currency: 'Barbadian Dollar (BBD) — pegged 2:1 to USD; USD universally accepted',
 language: 'English (Bajan dialect)',
 timezone: 'AST (UTC-4)',
+  seo: { title: "Barbados Honeymoon: 6 West Coast Beach Resorts 2026", description: "6 Platinum Coast resorts scored. Sandy Lane, Coral Reef Club, Cobblers Cove. From $700/night. Dec-Apr peak." },
 }
 
 export default meta

@@ -56,18 +56,102 @@
     }
   ],
   "months": [
-    { "month": "Jan", "weather": "Fresco, posible lluvia (10–15 °C)", "emoji": "🌧", "crowds": "Muy baja", "price": "Mínimo", "verdict": "La mayoría de los hoteles cerrados" },
-    { "month": "Feb", "weather": "Fresco, relativamente seco (12–17 °C)", "emoji": "⛅", "crowds": "Muy baja", "price": "Mínimo", "verdict": "Mayoritariamente fuera de temporada" },
-    { "month": "Mar", "weather": "Suave, almendros en flor (14–19 °C)", "emoji": "🌤", "crowds": "Baja", "price": "Bajo", "verdict": "Hoteles reabriendo, ambiente tranquilo" },
-    { "month": "Apr", "weather": "Templándose, verde exuberante (17–22 °C)", "emoji": "🌤", "crowds": "Baja", "price": "Medio-bajo", "verdict": "Bonito, pero el mar está aún frío" },
-    { "month": "May", "weather": "Perfecto, seco (21–26 °C)", "emoji": "☀️", "crowds": "Moderada", "price": "Medio", "verdict": "Se abre la mejor ventana" },
-    { "month": "Jun", "weather": "Caluroso, seco, mar apto para baño (25–30 °C)", "emoji": "☀️", "crowds": "Moderada-alta", "price": "Medio-alto", "verdict": "Uno de los mejores meses" },
-    { "month": "Jul", "weather": "Muy caluroso (30–34 °C)", "emoji": "🔥", "crowds": "Alta", "price": "Alto", "verdict": "Bonito, pero caluroso" },
-    { "month": "Aug", "weather": "Lo más caluroso y concurrido (32–35 °C)", "emoji": "🔥", "crowds": "Máxima", "price": "Máximo", "verdict": "Evitar en lo posible" },
-    { "month": "Sep", "weather": "Cálido, más calmado (26–30 °C)", "emoji": "☀️", "crowds": "Moderada", "price": "Medio-alto", "verdict": "El mejor mes" },
-    { "month": "Oct", "weather": "Suave, vendimia del Etna (22–26 °C)", "emoji": "🌤", "crowds": "Baja-mod.", "price": "Medio", "verdict": "Mes de joya escondida" },
-    { "month": "Nov", "weather": "Refrescando, posible lluvia (16–20 °C)", "emoji": "⛅", "crowds": "Baja", "price": "Bajo", "verdict": "Muchos hoteles cerrando" },
-    { "month": "Dec", "weather": "Fresco, lluvias ocasionales (12–17 °C)", "emoji": "🌧", "crowds": "Baja", "price": "Bajo", "verdict": "La mayoría de los hoteles cerrados" }
+    {
+      "month": "Jan",
+      "weather": "Fresco, posible lluvia (10–15 °C)",
+      "emoji": "🌧",
+      "crowds": "Muy baja",
+      "price": "Mínimo",
+      "verdict": "La mayoría de los hoteles cerrados"
+    },
+    {
+      "month": "Feb",
+      "weather": "Fresco, relativamente seco (12–17 °C)",
+      "emoji": "⛅",
+      "crowds": "Muy baja",
+      "price": "Mínimo",
+      "verdict": "Mayoritariamente fuera de temporada"
+    },
+    {
+      "month": "Mar",
+      "weather": "Suave, almendros en flor (14–19 °C)",
+      "emoji": "🌤",
+      "crowds": "Baja",
+      "price": "Bajo",
+      "verdict": "Hoteles reabriendo, ambiente tranquilo"
+    },
+    {
+      "month": "Apr",
+      "weather": "Templándose, verde exuberante (17–22 °C)",
+      "emoji": "🌤",
+      "crowds": "Baja",
+      "price": "Medio-bajo",
+      "verdict": "Bonito, pero el mar está aún frío"
+    },
+    {
+      "month": "May",
+      "weather": "Perfecto, seco (21–26 °C)",
+      "emoji": "☀️",
+      "crowds": "Moderada",
+      "price": "Medio",
+      "verdict": "Se abre la mejor ventana"
+    },
+    {
+      "month": "Jun",
+      "weather": "Caluroso, seco, mar apto para baño (25–30 °C)",
+      "emoji": "☀️",
+      "crowds": "Moderada-alta",
+      "price": "Medio-alto",
+      "verdict": "Uno de los mejores meses"
+    },
+    {
+      "month": "Jul",
+      "weather": "Muy caluroso (30–34 °C)",
+      "emoji": "🔥",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Bonito, pero caluroso"
+    },
+    {
+      "month": "Aug",
+      "weather": "Lo más caluroso y concurrido (32–35 °C)",
+      "emoji": "🔥",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Evitar en lo posible"
+    },
+    {
+      "month": "Sep",
+      "weather": "Cálido, más calmado (26–30 °C)",
+      "emoji": "☀️",
+      "crowds": "Moderada",
+      "price": "Medio-alto",
+      "verdict": "El mejor mes"
+    },
+    {
+      "month": "Oct",
+      "weather": "Suave, vendimia del Etna (22–26 °C)",
+      "emoji": "🌤",
+      "crowds": "Baja-mod.",
+      "price": "Medio",
+      "verdict": "Mes de joya escondida"
+    },
+    {
+      "month": "Nov",
+      "weather": "Refrescando, posible lluvia (16–20 °C)",
+      "emoji": "⛅",
+      "crowds": "Baja",
+      "price": "Bajo",
+      "verdict": "Muchos hoteles cerrando"
+    },
+    {
+      "month": "Dec",
+      "weather": "Fresco, lluvias ocasionales (12–17 °C)",
+      "emoji": "🌧",
+      "crowds": "Baja",
+      "price": "Bajo",
+      "verdict": "La mayoría de los hoteles cerrados"
+    }
   ],
   "budgetTiers": [
     {
@@ -134,13 +218,34 @@
     }
   ],
   "packing": [
-    { "item": "Lino fresco para las noches calurosas", "why": "Las noches de julio y agosto se mantienen por encima de 28 °C: el algodón se vuelve incómodo y el lino respira mejor" },
-    { "item": "Calzado elegante (nada de chanclas en la cena)", "why": "Incluso los restaurantes informales de Taormina exigen zapato cerrado a partir de las 19:00" },
-    { "item": "Escarpines o zapatos para el agua", "why": "La mayoría de las playas sicilianas son de guijarros: Mazzarò y las calas eolias de guijarro negro" },
-    { "item": "Chaqueta ligera o cachemira", "why": "Las ascensiones al Etna pierden 15 °C entre la costa y la cima a 2.900 m" },
-    { "item": "Adaptador europeo de enchufes", "why": "Tipo C/F (clavijas redondas): distinto del de EE. UU., Reino Unido o el schuko italiano" },
-    { "item": "Botella de agua reutilizable", "why": "El agua del grifo es potable en Sicilia y los pueblos cuentan con fuentes públicas" },
-    { "item": "Carné de conducir (con traducción de la UE)", "why": "Imprescindible para alquilar coche: los carnés británicos y estadounidenses requieren permiso internacional en algunas agencias" }
+    {
+      "item": "Lino fresco para las noches calurosas",
+      "why": "Las noches de julio y agosto se mantienen por encima de 28 °C: el algodón se vuelve incómodo y el lino respira mejor"
+    },
+    {
+      "item": "Calzado elegante (nada de chanclas en la cena)",
+      "why": "Incluso los restaurantes informales de Taormina exigen zapato cerrado a partir de las 19:00"
+    },
+    {
+      "item": "Escarpines o zapatos para el agua",
+      "why": "La mayoría de las playas sicilianas son de guijarros: Mazzarò y las calas eolias de guijarro negro"
+    },
+    {
+      "item": "Chaqueta ligera o cachemira",
+      "why": "Las ascensiones al Etna pierden 15 °C entre la costa y la cima a 2.900 m"
+    },
+    {
+      "item": "Adaptador europeo de enchufes",
+      "why": "Tipo C/F (clavijas redondas): distinto del de EE. UU., Reino Unido o el schuko italiano"
+    },
+    {
+      "item": "Botella de agua reutilizable",
+      "why": "El agua del grifo es potable en Sicilia y los pueblos cuentan con fuentes públicas"
+    },
+    {
+      "item": "Carné de conducir (con traducción de la UE)",
+      "why": "Imprescindible para alquilar coche: los carnés británicos y estadounidenses requieren permiso internacional en algunas agencias"
+    }
   ],
   "guide": {
     "getting": "Catania (CTA) es la puerta de entrada a Taormina y las Eolias: vuelos directos desde Londres, París, Frankfurt y la mayoría de los hubs europeos (3 h desde Reino Unido) o vía Roma FCO desde EE. UU. Palermo (PMO) es la puerta de entrada a Verdura y al oeste: directo desde los mismos hubs europeos. Para un itinerario abierto, vuele entrando por CTA y saliendo por PMO (o al revés). Trenes Catania → Taormina-Giardini en 50 minutos; traslado privado en Mercedes al pueblo de Taormina, 180 €. Las Eolias requieren traslado a Milazzo (90 min desde CTA) y un hidrofoil (90 min) o ferry (2,5 h).",
@@ -150,5 +255,9 @@
   "localFood": "Granita di mandorla (granizada de almendra) con brioche templado para desayunar: ritual sagrado; pasta alla Norma (berenjena, ricotta salata y albahaca, inventada en Catania); arancini (bolas de arroz dorado al azafrán rellenas de ragú o mozzarella); cassata Siciliana (la tarta de mazapán verde con ricotta y fruta confitada del barroco palermitano); cannoli (los originales, con corteza crujiente rellena de ricotta); caponata (el escabeche agridulce de berenjena); involtini de pez espada y atún a la brasa; vinos tintos del Etna (Nerello Mascalese, Pietradolce, Passopisciaro); Malvasía de Lipari (el vino dulce volcánico de Salina).",
   "currency": "EUR (Euro)",
   "language": "Italiano (el dialecto siciliano se habla ampliamente; inglés en los hoteles)",
-  "timezone": "CET (UTC+1, UTC+2 en verano)"
+  "timezone": "CET (UTC+1, UTC+2 en verano)",
+  "seo": {
+    "title": "Luna de Miel en Sicilia: 6 Resorts en Acantilado 2026",
+    "description": "6 hoteles clasificados: Belmond, Aman, Verdura, San Domenico. De Taormina al oeste. Desde $600/noche. Veredictos May-Oct."
+  }
 }

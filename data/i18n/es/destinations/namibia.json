@@ -55,44 +55,193 @@
     }
   ],
   "months": [
-    { "month": "Jan", "weather": "Caluroso 22–35 °C, lluvias estivales", "emoji": "🌧", "crowds": "Baja", "price": "Bajo", "verdict": "Estación verde, calurosa, tarifas más bajas pero variables" },
-    { "month": "Feb", "weather": "Caluroso 22–35 °C, pico de lluvias", "emoji": "🌧", "crowds": "Baja", "price": "Bajo", "verdict": "Evitar: húmedo, caluroso, animales dispersos" },
-    { "month": "Mar", "weather": "Refrescando 20–32 °C, últimas lluvias", "emoji": "⛅", "crowds": "Baja", "price": "Bajo", "verdict": "Último mes de estación verde" },
-    { "month": "Apr", "weather": "Agradable 18–30 °C, comienza la estación seca", "emoji": "☀️", "crowds": "Moderada", "price": "Medio", "verdict": "Punto dulce: dunas verdes, precios más bajos" },
-    { "month": "May", "weather": "Fresco 12–28 °C, seco y despejado", "emoji": "☀️", "crowds": "Moderada", "price": "Medio", "verdict": "Excelente relación calidad-precio, sin multitudes, cielos espectaculares" },
-    { "month": "Jun", "weather": "Noches frías 5 °C, días 23 °C", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Comienza el pico: reserve con 12 meses de antelación" },
-    { "month": "Jul", "weather": "Frío 0–22 °C, noches gélidas", "emoji": "☀️", "crowds": "Muy alta", "price": "Muy alto", "verdict": "Pico: avistamientos perfectos, amanecer bajo cero" },
-    { "month": "Aug", "weather": "Noches frescas 5 °C, días templándose 25 °C", "emoji": "☀️", "crowds": "Muy alta", "price": "Muy alto", "verdict": "Pico de luna de miel, animales concentrados en el agua" },
-    { "month": "Sep", "weather": "Templándose 8–28 °C", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Excelente: pico de avistamientos y temperaturas cómodas" },
-    { "month": "Oct", "weather": "Cálido 14–32 °C, seco", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Último gran mes antes de la lluvia, el más caluroso de la seca" },
-    { "month": "Nov", "weather": "Caluroso 18–35 °C, chubascos ocasionales", "emoji": "⛅", "crowds": "Moderada", "price": "Medio", "verdict": "Temporada media: calor + lluvias tempranas, algunos lodges cierran" },
-    { "month": "Dec", "weather": "Caluroso 20–35 °C, lluvias estivales", "emoji": "🌧", "crowds": "Baja", "price": "Bajo", "verdict": "Comienzo de la estación verde, buena relación calidad-precio pero variable" }
+    {
+      "month": "Jan",
+      "weather": "Caluroso 22–35 °C, lluvias estivales",
+      "emoji": "🌧",
+      "crowds": "Baja",
+      "price": "Bajo",
+      "verdict": "Estación verde, calurosa, tarifas más bajas pero variables"
+    },
+    {
+      "month": "Feb",
+      "weather": "Caluroso 22–35 °C, pico de lluvias",
+      "emoji": "🌧",
+      "crowds": "Baja",
+      "price": "Bajo",
+      "verdict": "Evitar: húmedo, caluroso, animales dispersos"
+    },
+    {
+      "month": "Mar",
+      "weather": "Refrescando 20–32 °C, últimas lluvias",
+      "emoji": "⛅",
+      "crowds": "Baja",
+      "price": "Bajo",
+      "verdict": "Último mes de estación verde"
+    },
+    {
+      "month": "Apr",
+      "weather": "Agradable 18–30 °C, comienza la estación seca",
+      "emoji": "☀️",
+      "crowds": "Moderada",
+      "price": "Medio",
+      "verdict": "Punto dulce: dunas verdes, precios más bajos"
+    },
+    {
+      "month": "May",
+      "weather": "Fresco 12–28 °C, seco y despejado",
+      "emoji": "☀️",
+      "crowds": "Moderada",
+      "price": "Medio",
+      "verdict": "Excelente relación calidad-precio, sin multitudes, cielos espectaculares"
+    },
+    {
+      "month": "Jun",
+      "weather": "Noches frías 5 °C, días 23 °C",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Comienza el pico: reserve con 12 meses de antelación"
+    },
+    {
+      "month": "Jul",
+      "weather": "Frío 0–22 °C, noches gélidas",
+      "emoji": "☀️",
+      "crowds": "Muy alta",
+      "price": "Muy alto",
+      "verdict": "Pico: avistamientos perfectos, amanecer bajo cero"
+    },
+    {
+      "month": "Aug",
+      "weather": "Noches frescas 5 °C, días templándose 25 °C",
+      "emoji": "☀️",
+      "crowds": "Muy alta",
+      "price": "Muy alto",
+      "verdict": "Pico de luna de miel, animales concentrados en el agua"
+    },
+    {
+      "month": "Sep",
+      "weather": "Templándose 8–28 °C",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Excelente: pico de avistamientos y temperaturas cómodas"
+    },
+    {
+      "month": "Oct",
+      "weather": "Cálido 14–32 °C, seco",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Último gran mes antes de la lluvia, el más caluroso de la seca"
+    },
+    {
+      "month": "Nov",
+      "weather": "Caluroso 18–35 °C, chubascos ocasionales",
+      "emoji": "⛅",
+      "crowds": "Moderada",
+      "price": "Medio",
+      "verdict": "Temporada media: calor + lluvias tempranas, algunos lodges cierran"
+    },
+    {
+      "month": "Dec",
+      "weather": "Caluroso 20–35 °C, lluvias estivales",
+      "emoji": "🌧",
+      "crowds": "Baja",
+      "price": "Bajo",
+      "verdict": "Comienzo de la estación verde, buena relación calidad-precio pero variable"
+    }
   ],
   "budgetTiers": [
-    { "label": "Confortable", "range": "$400–$800/noche", "gets": "Lodges sólidos con safaris compartidos, boutiques en la capital, reservas privadas en el borde de Etosha.", "example": "Onguma The Fort, Strand Hotel Swakopmund, Olive Exclusive Windhoek" },
-    { "label": "Premium", "range": "$800–$2,000/noche", "gets": "Lodges privados en NamibRand, campamentos de rastreo en Damaraland, pensión completa con vehículos privados.", "example": "Wolwedans Dunes Lodge, Mowani Mountain Camp, Little Kulala" },
-    { "label": "Icónico", "range": "$1,500–$5,000/noche", "gets": "Villas con tragaluz de andBeyond Sossusvlei, el insignia Hoanib de Wilderness Safaris, vuelos en helicóptero sobre las dunas.", "example": "Sossusvlei Desert Lodge (andBeyond), Hoanib Skeleton Coast Camp" }
+    {
+      "label": "Confortable",
+      "range": "$400–$800/noche",
+      "gets": "Lodges sólidos con safaris compartidos, boutiques en la capital, reservas privadas en el borde de Etosha.",
+      "example": "Onguma The Fort, Strand Hotel Swakopmund, Olive Exclusive Windhoek"
+    },
+    {
+      "label": "Premium",
+      "range": "$800–$2,000/noche",
+      "gets": "Lodges privados en NamibRand, campamentos de rastreo en Damaraland, pensión completa con vehículos privados.",
+      "example": "Wolwedans Dunes Lodge, Mowani Mountain Camp, Little Kulala"
+    },
+    {
+      "label": "Icónico",
+      "range": "$1,500–$5,000/noche",
+      "gets": "Villas con tragaluz de andBeyond Sossusvlei, el insignia Hoanib de Wilderness Safaris, vuelos en helicóptero sobre las dunas.",
+      "example": "Sossusvlei Desert Lodge (andBeyond), Hoanib Skeleton Coast Camp"
+    }
   ],
   "areas": [
-    { "name": "NamibRand y Sossusvlei", "bestFor": "Dunas, cielos oscuros, paisaje fotogénico", "description": "El mar de dunas del sur: andBeyond Sossusvlei Desert Lodge, Wolwedans, Little Kulala. Fly-in vía la pista de Sesriem (SZM). Mínimo 3 noches." },
-    { "name": "Damaraland", "bestFor": "Elefantes adaptados al desierto, arte rupestre, geología dramática", "description": "Kopjes rojos sembrados de rocas, arte rupestre UNESCO de Twyfelfontein, la Burnt Mountain. Mowani Mountain Camp es la dirección de luna de miel. 2 noches." },
-    { "name": "Costa de los Esqueletos y Hoanib", "bestFor": "Naturaleza, dunas en cinturón de niebla, naufragios, focas", "description": "Kunene noroccidental remoto. El campamento Hoanib de Wilderness Safaris es el único acceso de lujo práctico. 2–3 noches, solo fly-in." },
-    { "name": "Parque Nacional de Etosha", "bestFor": "Avistamientos clásicos de Cinco Grandes", "description": "El parque del salar y los abrevaderos, en el este de Namibia. Onguma The Fort se encuentra en el límite oriental con acceso privado. 2–3 noches." },
-    { "name": "Windhoek y Swakopmund", "bestFor": "Llegada, salida, descanso costero", "description": "Windhoek como puerta internacional (Olive Exclusive boutique). Swakopmund para una pausa atlántica de 1 noche (Strand Hotel): sandboard, quad por dunas y marisco costero." }
+    {
+      "name": "NamibRand y Sossusvlei",
+      "bestFor": "Dunas, cielos oscuros, paisaje fotogénico",
+      "description": "El mar de dunas del sur: andBeyond Sossusvlei Desert Lodge, Wolwedans, Little Kulala. Fly-in vía la pista de Sesriem (SZM). Mínimo 3 noches."
+    },
+    {
+      "name": "Damaraland",
+      "bestFor": "Elefantes adaptados al desierto, arte rupestre, geología dramática",
+      "description": "Kopjes rojos sembrados de rocas, arte rupestre UNESCO de Twyfelfontein, la Burnt Mountain. Mowani Mountain Camp es la dirección de luna de miel. 2 noches."
+    },
+    {
+      "name": "Costa de los Esqueletos y Hoanib",
+      "bestFor": "Naturaleza, dunas en cinturón de niebla, naufragios, focas",
+      "description": "Kunene noroccidental remoto. El campamento Hoanib de Wilderness Safaris es el único acceso de lujo práctico. 2–3 noches, solo fly-in."
+    },
+    {
+      "name": "Parque Nacional de Etosha",
+      "bestFor": "Avistamientos clásicos de Cinco Grandes",
+      "description": "El parque del salar y los abrevaderos, en el este de Namibia. Onguma The Fort se encuentra en el límite oriental con acceso privado. 2–3 noches."
+    },
+    {
+      "name": "Windhoek y Swakopmund",
+      "bestFor": "Llegada, salida, descanso costero",
+      "description": "Windhoek como puerta internacional (Olive Exclusive boutique). Swakopmund para una pausa atlántica de 1 noche (Strand Hotel): sandboard, quad por dunas y marisco costero."
+    }
   ],
   "expertTips": [
-    { "tip": "El fly-in es innegociable para un itinerario de luna de miel", "detail": "Conducir uno mismo Namibia es maravilloso para aventureros, pero consume 2–3 días de su luna de miel. Wilderness Air, Sefofane y Scenic Air operan circuitos en Cessna de 6 plazas entre todos los lodges principales. Construya el viaje en torno al horario del circuito aéreo a través de su operador." },
-    { "tip": "Solo bolsas blandas tipo duffel: nada de maletas rígidas", "detail": "Las Cessnas tienen un límite de 20 kg/44 lb solo en bolsa blanda. Las maletas rígidas son rechazadas físicamente. Los lodges Wilderness ofrecen lavandería diaria gratuita, así que con 4 días de ropa basta." },
-    { "tip": "Reserve a través de un operador especializado, no directamente", "detail": "Los mejores lodges de Namibia (andBeyond, Wilderness Safaris) venden el 90 % del inventario a operadores especializados (Aardvark Safaris, Yellow Zebra, Cazenove+Loyd) al mismo precio. El operador gestiona la logística aérea. Imprescindible para primerizos." },
-    { "tip": "Propinas en dólares americanos en los lodges, en dólares namibios en la ciudad", "detail": "Propinas en lodge: $10–$15 USD por pareja al día en una caja común y $20 USD al día para su guía específico. En la ciudad: 10 % en dólar namibio (NAD), vinculado 1:1 al rand sudafricano." },
-    { "tip": "Combine Namibia con Ciudad del Cabo para el viaje sudafricano perfecto", "detail": "Un vuelo de 2h separa Ciudad del Cabo y Windhoek. 4 noches Ciudad del Cabo + 8 noches Namibia es la combinación ideal. Suma playa, viñedos y Table Mountain a la naturaleza desértica." }
+    {
+      "tip": "El fly-in es innegociable para un itinerario de luna de miel",
+      "detail": "Conducir uno mismo Namibia es maravilloso para aventureros, pero consume 2–3 días de su luna de miel. Wilderness Air, Sefofane y Scenic Air operan circuitos en Cessna de 6 plazas entre todos los lodges principales. Construya el viaje en torno al horario del circuito aéreo a través de su operador."
+    },
+    {
+      "tip": "Solo bolsas blandas tipo duffel: nada de maletas rígidas",
+      "detail": "Las Cessnas tienen un límite de 20 kg/44 lb solo en bolsa blanda. Las maletas rígidas son rechazadas físicamente. Los lodges Wilderness ofrecen lavandería diaria gratuita, así que con 4 días de ropa basta."
+    },
+    {
+      "tip": "Reserve a través de un operador especializado, no directamente",
+      "detail": "Los mejores lodges de Namibia (andBeyond, Wilderness Safaris) venden el 90 % del inventario a operadores especializados (Aardvark Safaris, Yellow Zebra, Cazenove+Loyd) al mismo precio. El operador gestiona la logística aérea. Imprescindible para primerizos."
+    },
+    {
+      "tip": "Propinas en dólares americanos en los lodges, en dólares namibios en la ciudad",
+      "detail": "Propinas en lodge: $10–$15 USD por pareja al día en una caja común y $20 USD al día para su guía específico. En la ciudad: 10 % en dólar namibio (NAD), vinculado 1:1 al rand sudafricano."
+    },
+    {
+      "tip": "Combine Namibia con Ciudad del Cabo para el viaje sudafricano perfecto",
+      "detail": "Un vuelo de 2h separa Ciudad del Cabo y Windhoek. 4 noches Ciudad del Cabo + 8 noches Namibia es la combinación ideal. Suma playa, viñedos y Table Mountain a la naturaleza desértica."
+    }
   ],
   "packing": [
-    { "item": "Ropa por capas: forro polar + cortavientos + manga larga ligera", "why": "Las oscilaciones desérticas son enormes: 5 °C al alba, 32 °C al mediodía. La ropa por capas en tonos neutros (caqui/oliva) es el uniforme del safari." },
-    { "item": "Calzado de paseo cerrado y sandalias", "why": "Calzado cerrado para subidas a dunas (Big Daddy en Sossusvlei son 300 m de arena blanda). Sandalias para el campamento." },
-    { "item": "Protector solar SPF alto y sombrero de ala ancha", "why": "No hay sombra en las dunas. SPF 50+ obligatorio; aftersun diario. La radiación UV está a niveles equivalentes a la altitud." },
-    { "item": "Bolsa duffel blanda (sin maletas con ruedas rígidas)", "why": "El límite de 20 kg/44 lb en bolsa blanda de las Cessnas se aplica con rigor. Las maletas rígidas se rechazan en la puerta. Una duffel Patagonia Black Hole o Eagle Creek de 65L funciona perfectamente." },
-    { "item": "Prismáticos y un objetivo 200 mm+", "why": "La fauna es más rara y más lejana que en África Oriental. Un teleobjetivo de 300–600 mm es esencial para elefantes/leones; los prismáticos (8x42 mínimo) duplican la experiencia de todos en los safaris." }
+    {
+      "item": "Ropa por capas: forro polar + cortavientos + manga larga ligera",
+      "why": "Las oscilaciones desérticas son enormes: 5 °C al alba, 32 °C al mediodía. La ropa por capas en tonos neutros (caqui/oliva) es el uniforme del safari."
+    },
+    {
+      "item": "Calzado de paseo cerrado y sandalias",
+      "why": "Calzado cerrado para subidas a dunas (Big Daddy en Sossusvlei son 300 m de arena blanda). Sandalias para el campamento."
+    },
+    {
+      "item": "Protector solar SPF alto y sombrero de ala ancha",
+      "why": "No hay sombra en las dunas. SPF 50+ obligatorio; aftersun diario. La radiación UV está a niveles equivalentes a la altitud."
+    },
+    {
+      "item": "Bolsa duffel blanda (sin maletas con ruedas rígidas)",
+      "why": "El límite de 20 kg/44 lb en bolsa blanda de las Cessnas se aplica con rigor. Las maletas rígidas se rechazan en la puerta. Una duffel Patagonia Black Hole o Eagle Creek de 65L funciona perfectamente."
+    },
+    {
+      "item": "Prismáticos y un objetivo 200 mm+",
+      "why": "La fauna es más rara y más lejana que en África Oriental. Un teleobjetivo de 300–600 mm es esencial para elefantes/leones; los prismáticos (8x42 mínimo) duplican la experiencia de todos en los safaris."
+    }
   ],
   "guide": {
     "getting": "Vuele al Aeropuerto Internacional Hosea Kutako de Windhoek (WDH) con Lufthansa directo desde Fráncfort (10h), Eurowings Discover, KLM vía Ámsterdam o Qatar vía Doha. Desde EE.UU.: conecte vía Fráncfort, Ámsterdam o Johannesburgo (3h con SAA o Airlink). Internamente: Cessnas de 6 plazas con Wilderness Air, Sefofane, Scenic Air a todas las pistas de los lodges. El operador gestiona la reserva del circuito completo.",
@@ -102,5 +251,9 @@
   "localFood": "Carne de caza (filete de kudu, solomillo de oryx, carpaccio de springbok, eland: mejor que la ternera y de captura silvestre ética), biltong (cecina especiada de res/caza, el snack nacional), potjiekos (estofado en olla de hierro a fuego lento), curris influidos por la cocina cape malay, kapana (tiras de carne callejera con salsa de chile y tomate, en el centro de Windhoek), ostras namibias (Walvis Bay, de talla mundial), Windhoek Lager (la pilsener local, elaborada según la Reinheitsgebot) y Tafel Lager. Mesas destacadas: Joe's Beerhouse (institución de Windhoek), Olive Restaurant (Windhoek), The Tug (Swakopmund); todos los grandes lodges sirven cocina seria (la bodega del Sossusvlei Desert Lodge se centra en grandes vinos sudafricanos).",
   "currency": "Dólar namibio (NAD), vinculado 1:1 al rand sudafricano (ZAR); ambos circulan. Tarjetas aceptadas en lodges, hoteles y restaurantes; efectivo útil para propinas (USD en lodges, NAD/ZAR en ciudad). Cajeros disponibles en aeropuertos y Windhoek.",
   "language": "El inglés es oficial; el afrikáans y el alemán se hablan ampliamente (Namibia fue colonia alemana hasta 1915); las lenguas locales incluyen oshiwambo, otjiherero y khoekhoe. El personal de los lodges habla inglés con fluidez.",
-  "timezone": "UTC+2 todo el año (Namibia abolió el horario de verano en 2017)"
+  "timezone": "UTC+2 todo el año (Namibia abolió el horario de verano en 2017)",
+  "seo": {
+    "title": "Luna de Miel en Namibia: 8 Lodges Desierto Sossusvlei",
+    "description": "8 campamentos en Sossusvlei, Costa Esqueletos y Damaraland clasificados. Wolwedans, Hoanib. Desde $800/noche."
+  }
 }

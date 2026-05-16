@@ -2,6 +2,10 @@ import type { ExperienceMeta } from '@/types/experience'
 
 const meta: ExperienceMeta = {
   label: 'Beach Honeymoons',
+  seo: {
+    title: 'Beach Honeymoon Resorts: 361 White-Sand Picks Scored',
+    description: 'The biggest scored beach honeymoon shortlist online — 361 resorts across 53 destinations, from $200 all-inclusive to $4,500 private islands. Find your sand.',
+  },
   tagline: 'The classic honeymoon — elevated',
   hero: '/images/hotels/jade-mountain-st-lucia/hero.webp',
   intro: 'Beach honeymoons remain the dominant honeymoon category globally for good reason: the combination of warm water, white sand, tropical sun, and exceptional resorts delivers the sensory experience most couples imagine when they picture their honeymoon. The range is vast — from the $150/night all-inclusive in the Dominican Republic to the $5,000/night private island in the Maldives — and choosing well requires understanding what you are actually buying in each case.',

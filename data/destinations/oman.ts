@@ -106,6 +106,7 @@ localFood: 'Shuwa — lamb marinated for 24h in Omani spices then slow-cooked un
 currency: 'Omani Rial (OMR) — one of the world\'s most valuable currencies; 1 OMR ≈ $2.60',
 language: 'Arabic is official; English widely spoken in hotels, restaurants, and tourist sites.',
 timezone: 'UTC+4 (Gulf Standard Time)',
+  seo: { title: "Oman Honeymoon: 9 Desert & Coast Resorts Scored 2026", description: "9 Muscat, Musandam, Empty Quarter resorts ranked. Six Senses Zighy Bay, Anantara Al Jabal. From $400/night. Oct-Mar." },
 }
 
 export default meta

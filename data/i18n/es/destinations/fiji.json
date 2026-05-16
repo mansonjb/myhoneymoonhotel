@@ -55,18 +55,102 @@
     }
   ],
   "months": [
-    { "month": "Jan", "weather": "Temporada de ciclones, caluroso y húmedo", "emoji": "🌧", "crowds": "Baja-mod.", "price": "Bajo", "verdict": "Riesgo de ciclones: evitar si es posible" },
-    { "month": "Feb", "weather": "El mes más lluvioso, riesgo de ciclones", "emoji": "🌧", "crowds": "Baja", "price": "Mínimo", "verdict": "Mayor riesgo de ciclones" },
-    { "month": "Mar", "weather": "Aún lluvioso, atenuándose", "emoji": "🌦", "crowds": "Baja", "price": "Bajo", "verdict": "Mejorando despacio" },
-    { "month": "Apr", "weather": "Transición: secándose con buen ritmo", "emoji": "⛅", "crowds": "Baja", "price": "Bajo-medio", "verdict": "Mes de transición infravalorado" },
-    { "month": "May", "weather": "Empieza la estación seca, excelente", "emoji": "🌤", "crowds": "Moderada", "price": "Medio", "verdict": "Apertura perfecta de temporada" },
-    { "month": "Jun", "weather": "Seco, cálido, ideal", "emoji": "☀️", "crowds": "Moderada", "price": "Medio", "verdict": "Excelente en todos los frentes" },
-    { "month": "Jul", "weather": "Pico de la estación seca, impecable", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Mejor clima, el más popular" },
-    { "month": "Aug", "weather": "Seco y bellísimo", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Vacaciones escolares: muy concurrido" },
-    { "month": "Sep", "weather": "Aún excelente, despejándose", "emoji": "☀️", "crowds": "Moderada", "price": "Medio-alto", "verdict": "Punto dulce: gran relación calidad-precio" },
-    { "month": "Oct", "weather": "Termina la estación seca, todavía bueno", "emoji": "🌤", "crowds": "Baja-mod.", "price": "Medio", "verdict": "Buenas ofertas disponibles" },
-    { "month": "Nov", "weather": "Subiendo la estación lluviosa", "emoji": "⛅", "crowds": "Baja", "price": "Bajo-medio", "verdict": "Algún riesgo, precios más bajos" },
-    { "month": "Dec", "weather": "Lluvioso, festivo, abre la temporada de ciclones", "emoji": "🌦", "crowds": "Alta", "price": "Alto", "verdict": "Prima festiva, algún riesgo climático" }
+    {
+      "month": "Jan",
+      "weather": "Temporada de ciclones, caluroso y húmedo",
+      "emoji": "🌧",
+      "crowds": "Baja-mod.",
+      "price": "Bajo",
+      "verdict": "Riesgo de ciclones: evitar si es posible"
+    },
+    {
+      "month": "Feb",
+      "weather": "El mes más lluvioso, riesgo de ciclones",
+      "emoji": "🌧",
+      "crowds": "Baja",
+      "price": "Mínimo",
+      "verdict": "Mayor riesgo de ciclones"
+    },
+    {
+      "month": "Mar",
+      "weather": "Aún lluvioso, atenuándose",
+      "emoji": "🌦",
+      "crowds": "Baja",
+      "price": "Bajo",
+      "verdict": "Mejorando despacio"
+    },
+    {
+      "month": "Apr",
+      "weather": "Transición: secándose con buen ritmo",
+      "emoji": "⛅",
+      "crowds": "Baja",
+      "price": "Bajo-medio",
+      "verdict": "Mes de transición infravalorado"
+    },
+    {
+      "month": "May",
+      "weather": "Empieza la estación seca, excelente",
+      "emoji": "🌤",
+      "crowds": "Moderada",
+      "price": "Medio",
+      "verdict": "Apertura perfecta de temporada"
+    },
+    {
+      "month": "Jun",
+      "weather": "Seco, cálido, ideal",
+      "emoji": "☀️",
+      "crowds": "Moderada",
+      "price": "Medio",
+      "verdict": "Excelente en todos los frentes"
+    },
+    {
+      "month": "Jul",
+      "weather": "Pico de la estación seca, impecable",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Mejor clima, el más popular"
+    },
+    {
+      "month": "Aug",
+      "weather": "Seco y bellísimo",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Vacaciones escolares: muy concurrido"
+    },
+    {
+      "month": "Sep",
+      "weather": "Aún excelente, despejándose",
+      "emoji": "☀️",
+      "crowds": "Moderada",
+      "price": "Medio-alto",
+      "verdict": "Punto dulce: gran relación calidad-precio"
+    },
+    {
+      "month": "Oct",
+      "weather": "Termina la estación seca, todavía bueno",
+      "emoji": "🌤",
+      "crowds": "Baja-mod.",
+      "price": "Medio",
+      "verdict": "Buenas ofertas disponibles"
+    },
+    {
+      "month": "Nov",
+      "weather": "Subiendo la estación lluviosa",
+      "emoji": "⛅",
+      "crowds": "Baja",
+      "price": "Bajo-medio",
+      "verdict": "Algún riesgo, precios más bajos"
+    },
+    {
+      "month": "Dec",
+      "weather": "Lluvioso, festivo, abre la temporada de ciclones",
+      "emoji": "🌦",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Prima festiva, algún riesgo climático"
+    }
   ],
   "budgetTiers": [
     {
@@ -133,11 +217,26 @@
     }
   ],
   "packing": [
-    { "item": "Crema solar reef-safe únicamente", "why": "Los arrecifes de Fiyi están legalmente protegidos: muchos resorts y la ley fiyiana prohíben las cremas químicas; solo se permite mineral" },
-    { "item": "Sulu (pareo)", "why": "Imprescindible para entrar en cualquier aldea fiyiana: un pareo modesto a la cintura es esencial; los resorts prestan uno, pero el propio es más cómodo" },
-    { "item": "Carcasa subacuática para cámara", "why": "El snorkel y el buceo son demasiado extraordinarios para limitarse a fotos en superficie: incluso una funda waterproof sencilla transforma la fotografía del arrecife" },
-    { "item": "Repelente de insectos (DEET)", "why": "Los mosquitos están presentes sobre todo al amanecer/atardecer: existe riesgo de dengue; cúbrase en esas horas" },
-    { "item": "Bolsa estanca para los taxis acuáticos", "why": "Todos los traslados entre islas se hacen en lanchas abiertas: protección esencial para cámaras, móviles y pasaportes" }
+    {
+      "item": "Crema solar reef-safe únicamente",
+      "why": "Los arrecifes de Fiyi están legalmente protegidos: muchos resorts y la ley fiyiana prohíben las cremas químicas; solo se permite mineral"
+    },
+    {
+      "item": "Sulu (pareo)",
+      "why": "Imprescindible para entrar en cualquier aldea fiyiana: un pareo modesto a la cintura es esencial; los resorts prestan uno, pero el propio es más cómodo"
+    },
+    {
+      "item": "Carcasa subacuática para cámara",
+      "why": "El snorkel y el buceo son demasiado extraordinarios para limitarse a fotos en superficie: incluso una funda waterproof sencilla transforma la fotografía del arrecife"
+    },
+    {
+      "item": "Repelente de insectos (DEET)",
+      "why": "Los mosquitos están presentes sobre todo al amanecer/atardecer: existe riesgo de dengue; cúbrase en esas horas"
+    },
+    {
+      "item": "Bolsa estanca para los taxis acuáticos",
+      "why": "Todos los traslados entre islas se hacen en lanchas abiertas: protección esencial para cámaras, móviles y pasaportes"
+    }
   ],
   "guide": {
     "getting": "Vuele al aeropuerto internacional de Nadi (NAN), la principal puerta de entrada. Fiji Airways vuela directo desde Los Ángeles (10h), Sídney (4h), Auckland (3h) y Tokio (7h). Desde Europa: conecte vía LA (lo mejor), Sídney o Singapur. Desde NAN, su resort organiza los traslados: lancha (30-90 min, $50-$200 por trayecto) para resorts en Mamanuca/Yasawa, o hidroavión ($200-$500 por trayecto) para propiedades más remotas. Todos los resorts de lujo recogen en el aeropuerto: confírmelo con antelación.",
@@ -145,5 +244,9 @@
     "when": "De mayo a octubre es la estación seca, la única ventana para reservar con confianza. Julio y agosto son el pico, con clima perfecto. Septiembre es el punto dulce: estación seca, precios más bajos y menos gente. Evite de noviembre a abril si es posible: la temporada de ciclones genera un riesgo real de disrupción incluso en años sin impacto directo."
   },
   "localFood": "Kokoda (ceviche fiyiano: pescado crudo marinado en crema de coco y zumo de lima), festín lovo (comida cocinada lentamente sobre piedras calientes bajo tierra), palusami (crema de coco envuelta en hojas de taro y horneada en horno de tierra), papaya fresca con lima al desayuno y ceremonia de kava (bebida tradicional de raíz de pimienta) compartida con sus anfitriones. Todos los resorts de lujo ofrecen un lovo y una bienvenida con kava tradicionales.",
-  "language": "Inglés, fiyiano, hindi (todos oficiales)"
+  "language": "Inglés, fiyiano, hindi (todos oficiales)",
+  "seo": {
+    "title": "Luna de Miel en Fiyi: 8 Resorts en Isla Privada 2026",
+    "description": "8 resorts en islas privadas clasificados. Laucala, Vomo, Turtle Island. Desde $1,000/noche. Temporada seca May-Oct."
+  }
 }

@@ -19,51 +19,229 @@
     "Você quer atividades ao ar livre variadas além de praia e mar — St Barts é minúscula e focada"
   ],
   "experiences": [
-    { "icon": "⛵", "title": "Charter à Praia de Colombier", "description": "Alugue um catamarã ou lancha privativa até Colombier — a praia mais preservada e isolada de St Barts, acessível apenas por barco ou trilha de 25 minutos. Ancore na baía, faça snorkel no recife e tome rosé gelado.", "cost": "$600–$1.200 em charter privativo de dia", "tip": "Saia até as 9h — Colombier fica à sombra do promontório até o fim da manhã. Após as 14h, os barcos privativos vão embora e você costuma ter a baía só para vocês." },
-    { "icon": "🛥️", "title": "Coquetel ao pôr do sol no cais de Gustavia", "description": "O cais de Gustavia ao pôr do sol — com os maiores iates do mundo atracados a um braço de distância e as luzes do vilarejo refletidas na água — é o momento de coquetel mais cinematográfico do Caribe.", "cost": "Um coquetel cada (€20–€30)", "tip": "Bar de l'Oubli é a instituição da praça de Gustavia. Chegue às 17h30 para garantir mesa virada para o porto antes da multidão. A luz no porto às 18h é extraordinária." },
-    { "icon": "🤿", "title": "Snorkel em Pain de Sucre (Baía de Gustavia)", "description": "As águas em torno do rochedo Pain de Sucre, na frente de Gustavia, têm o melhor snorkel de St Barts — tartarugas, raias e abundância de peixes de recife em 3 a 8 m de água clara.", "cost": "$30 aluguel de caiaque; grátis nadando da Plage du Gouverneur", "tip": "Melhor pela manhã, antes do vento entrar. As praias da costa sul (Gouverneur, Saline, Grand Fond) têm snorkel melhor que as do norte." },
-    { "icon": "🍽️", "title": "Jantar no Le Gaiac (Le Toiny)", "description": "A mesa de jantar mais romântica de St Barts — terraço em falésia no Le Toiny, com vista panorâmica do Atlântico e menu que parte das tradições gastronômicas gascona e basca.", "cost": "€120–€200 por pessoa", "tip": "Reserve com 3 semanas o terraço externo na falésia — não o salão interno. Le Gaiac serve a melhor comida da ilha. Peça o pescado local com beurre blanc." },
-    { "icon": "🌅", "title": "Caminhada ao amanhecer em Shell Beach", "description": "Shell Beach (Anse de Grand Galet), em Gustavia — uma praia única com milhões de conchinhas brancas em vez de areia — ao amanhecer, antes de qualquer pessoa chegar. Caminhar pela orla de conchas com o sol nascendo sobre o porto.", "cost": "Grátis", "tip": "Vá a pé pelo porto desde o centro de Gustavia (10 min). O amanhecer é o único horário em que terá Shell Beach só para vocês. A textura das conchas no pé descalço é extraordinária — não há nada igual no Caribe." }
+    {
+      "icon": "⛵",
+      "title": "Charter à Praia de Colombier",
+      "description": "Alugue um catamarã ou lancha privativa até Colombier — a praia mais preservada e isolada de St Barts, acessível apenas por barco ou trilha de 25 minutos. Ancore na baía, faça snorkel no recife e tome rosé gelado.",
+      "cost": "$600–$1.200 em charter privativo de dia",
+      "tip": "Saia até as 9h — Colombier fica à sombra do promontório até o fim da manhã. Após as 14h, os barcos privativos vão embora e você costuma ter a baía só para vocês."
+    },
+    {
+      "icon": "🛥️",
+      "title": "Coquetel ao pôr do sol no cais de Gustavia",
+      "description": "O cais de Gustavia ao pôr do sol — com os maiores iates do mundo atracados a um braço de distância e as luzes do vilarejo refletidas na água — é o momento de coquetel mais cinematográfico do Caribe.",
+      "cost": "Um coquetel cada (€20–€30)",
+      "tip": "Bar de l'Oubli é a instituição da praça de Gustavia. Chegue às 17h30 para garantir mesa virada para o porto antes da multidão. A luz no porto às 18h é extraordinária."
+    },
+    {
+      "icon": "🤿",
+      "title": "Snorkel em Pain de Sucre (Baía de Gustavia)",
+      "description": "As águas em torno do rochedo Pain de Sucre, na frente de Gustavia, têm o melhor snorkel de St Barts — tartarugas, raias e abundância de peixes de recife em 3 a 8 m de água clara.",
+      "cost": "$30 aluguel de caiaque; grátis nadando da Plage du Gouverneur",
+      "tip": "Melhor pela manhã, antes do vento entrar. As praias da costa sul (Gouverneur, Saline, Grand Fond) têm snorkel melhor que as do norte."
+    },
+    {
+      "icon": "🍽️",
+      "title": "Jantar no Le Gaiac (Le Toiny)",
+      "description": "A mesa de jantar mais romântica de St Barts — terraço em falésia no Le Toiny, com vista panorâmica do Atlântico e menu que parte das tradições gastronômicas gascona e basca.",
+      "cost": "€120–€200 por pessoa",
+      "tip": "Reserve com 3 semanas o terraço externo na falésia — não o salão interno. Le Gaiac serve a melhor comida da ilha. Peça o pescado local com beurre blanc."
+    },
+    {
+      "icon": "🌅",
+      "title": "Caminhada ao amanhecer em Shell Beach",
+      "description": "Shell Beach (Anse de Grand Galet), em Gustavia — uma praia única com milhões de conchinhas brancas em vez de areia — ao amanhecer, antes de qualquer pessoa chegar. Caminhar pela orla de conchas com o sol nascendo sobre o porto.",
+      "cost": "Grátis",
+      "tip": "Vá a pé pelo porto desde o centro de Gustavia (10 min). O amanhecer é o único horário em que terá Shell Beach só para vocês. A textura das conchas no pé descalço é extraordinária — não há nada igual no Caribe."
+    }
   ],
   "months": [
-    { "month": "Jan", "weather": "Perfeito: 27°C, seco, alísios", "emoji": "☀️", "crowds": "Máxima", "price": "Muito alto", "verdict": "Pico do luxo — janeiro é \"o\" mês" },
-    { "month": "Feb", "weather": "Excelente, ligeiramente menos cheio depois do recesso de fevereiro", "emoji": "☀️", "crowds": "Máxima", "price": "Muito alto", "verdict": "Ainda extraordinário" },
-    { "month": "Mar", "weather": "Excelente, esvaziando um pouco", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Bom valor dentro da temporada" },
-    { "month": "Apr", "weather": "Quente, seco, alísios diminuindo", "emoji": "☀️", "crowds": "Moderada", "price": "Médio-alto", "verdict": "Abre o ponto doce de valor" },
-    { "month": "May", "weather": "Transição, quente, sem multidões", "emoji": "🌤", "crowds": "Baixa", "price": "Médio", "verdict": "Melhor valor, leve sensação de fim de temporada" },
-    { "month": "Jun", "weather": "Começa a temporada de furacões", "emoji": "⚠️", "crowds": "Muito baixa", "price": "Baixo", "verdict": "Alguns resorts fecham — evite" },
-    { "month": "Jul", "weather": "Risco de furacão presente", "emoji": "⚠️", "crowds": "Muito baixa", "price": "Baixo", "verdict": "Várias propriedades fecham" },
-    { "month": "Aug", "weather": "Pico de risco de furacão", "emoji": "🌀", "crowds": "Muito baixa", "price": "Mínimo", "verdict": "Não reserve" },
-    { "month": "Sep", "weather": "Risco máximo de furacão", "emoji": "🌀", "crowds": "Muito baixa", "price": "Mínimo", "verdict": "Temporada fechada" },
-    { "month": "Oct", "weather": "Risco diminuindo, ilha reabrindo", "emoji": "🌤", "crowds": "Baixa", "price": "Baixo", "verdict": "Alguns resorts reabrem na pré-temporada" },
-    { "month": "Nov", "weather": "Pré-temporada, maior parte aberta", "emoji": "🌤", "crowds": "Baixa-mod.", "price": "Médio", "verdict": "Bom valor de pré-temporada" },
-    { "month": "Dec", "weather": "Temporada abre, festivo, lindo", "emoji": "☀️", "crowds": "Máxima", "price": "Muito alto", "verdict": "Natal em St Barts é extraordinário" }
+    {
+      "month": "Jan",
+      "weather": "Perfeito: 27°C, seco, alísios",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Muito alto",
+      "verdict": "Pico do luxo — janeiro é \"o\" mês"
+    },
+    {
+      "month": "Feb",
+      "weather": "Excelente, ligeiramente menos cheio depois do recesso de fevereiro",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Muito alto",
+      "verdict": "Ainda extraordinário"
+    },
+    {
+      "month": "Mar",
+      "weather": "Excelente, esvaziando um pouco",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Bom valor dentro da temporada"
+    },
+    {
+      "month": "Apr",
+      "weather": "Quente, seco, alísios diminuindo",
+      "emoji": "☀️",
+      "crowds": "Moderada",
+      "price": "Médio-alto",
+      "verdict": "Abre o ponto doce de valor"
+    },
+    {
+      "month": "May",
+      "weather": "Transição, quente, sem multidões",
+      "emoji": "🌤",
+      "crowds": "Baixa",
+      "price": "Médio",
+      "verdict": "Melhor valor, leve sensação de fim de temporada"
+    },
+    {
+      "month": "Jun",
+      "weather": "Começa a temporada de furacões",
+      "emoji": "⚠️",
+      "crowds": "Muito baixa",
+      "price": "Baixo",
+      "verdict": "Alguns resorts fecham — evite"
+    },
+    {
+      "month": "Jul",
+      "weather": "Risco de furacão presente",
+      "emoji": "⚠️",
+      "crowds": "Muito baixa",
+      "price": "Baixo",
+      "verdict": "Várias propriedades fecham"
+    },
+    {
+      "month": "Aug",
+      "weather": "Pico de risco de furacão",
+      "emoji": "🌀",
+      "crowds": "Muito baixa",
+      "price": "Mínimo",
+      "verdict": "Não reserve"
+    },
+    {
+      "month": "Sep",
+      "weather": "Risco máximo de furacão",
+      "emoji": "🌀",
+      "crowds": "Muito baixa",
+      "price": "Mínimo",
+      "verdict": "Temporada fechada"
+    },
+    {
+      "month": "Oct",
+      "weather": "Risco diminuindo, ilha reabrindo",
+      "emoji": "🌤",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Alguns resorts reabrem na pré-temporada"
+    },
+    {
+      "month": "Nov",
+      "weather": "Pré-temporada, maior parte aberta",
+      "emoji": "🌤",
+      "crowds": "Baixa-mod.",
+      "price": "Médio",
+      "verdict": "Bom valor de pré-temporada"
+    },
+    {
+      "month": "Dec",
+      "weather": "Temporada abre, festivo, lindo",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Muito alto",
+      "verdict": "Natal em St Barts é extraordinário"
+    }
   ],
   "budgetTiers": [
-    { "label": "Luxo", "range": "$800–$1.500/noite", "gets": "Hotel boutique ou vila privativa com vista para o mar, piscina e ótima localização. O nível mínimo aceitável para uma lua de mel em St Barts.", "example": "Le Barthélemy Hotel & Spa, Hotel Le Village St Barth" },
-    { "label": "Ultra-luxo", "range": "$1.500–$3.500/noite", "gets": "Vila com mordomo completo ou o melhor hotel, acesso a praia privativa, spa excepcional, jantar disponível na vila.", "example": "Eden Rock St Barths, Le Toiny" },
-    { "label": "Cheval Blanc icônico", "range": "$2.500–$6.000+/noite", "gets": "O melhor hotel do Caribe — 40 quartos e vilas na Baía de Flamands, praia privativa, spa Guerlain, três restaurantes. O padrão ouro.", "example": "Cheval Blanc Isle de France" }
+    {
+      "label": "Luxo",
+      "range": "$800–$1.500/noite",
+      "gets": "Hotel boutique ou vila privativa com vista para o mar, piscina e ótima localização. O nível mínimo aceitável para uma lua de mel em St Barts.",
+      "example": "Le Barthélemy Hotel & Spa, Hotel Le Village St Barth"
+    },
+    {
+      "label": "Ultra-luxo",
+      "range": "$1.500–$3.500/noite",
+      "gets": "Vila com mordomo completo ou o melhor hotel, acesso a praia privativa, spa excepcional, jantar disponível na vila.",
+      "example": "Eden Rock St Barths, Le Toiny"
+    },
+    {
+      "label": "Cheval Blanc icônico",
+      "range": "$2.500–$6.000+/noite",
+      "gets": "O melhor hotel do Caribe — 40 quartos e vilas na Baía de Flamands, praia privativa, spa Guerlain, três restaurantes. O padrão ouro.",
+      "example": "Cheval Blanc Isle de France"
+    }
   ],
   "areas": [
-    { "name": "Praia de Flamands (noroeste)", "bestFor": "Cheval Blanc, praia mais tranquila, pôr do sol", "description": "A praia mais longa e larga da ilha. O Cheval Blanc Isle de France fica em uma das pontas. A areia é a mais fina de St Barts. Menos gente que nas praias do leste." },
-    { "name": "Praia de Saint Jean", "bestFor": "Vista para a pista do aeroporto, esportes náuticos, agitação", "description": "A praia mais ativa da ilha — os famosos pousos da pista minúscula acontecem a 20 m da areia. Animada, social, ótima para casais que querem agito junto à praia. Eden Rock fica aqui." },
-    { "name": "Gustavia (capital)", "bestFor": "Porto de iates, compras, restaurantes, vida noturna", "description": "O porto pequeno mais bonito do Caribe. Arquitetura colonial sueca e francesa, as melhores boutiques de praia do mundo e a maior densidade de restaurantes do Caribe." },
-    { "name": "Grand Cul-de-Sac (leste)", "bestFor": "Kitesurf, água calma, vibe familiar", "description": "Baía rasa e turquesa protegida por recife — a água mais calma da ilha. Melhor para SUP e kitesurf. O Guanahani Hotel fica aqui." }
+    {
+      "name": "Praia de Flamands (noroeste)",
+      "bestFor": "Cheval Blanc, praia mais tranquila, pôr do sol",
+      "description": "A praia mais longa e larga da ilha. O Cheval Blanc Isle de France fica em uma das pontas. A areia é a mais fina de St Barts. Menos gente que nas praias do leste."
+    },
+    {
+      "name": "Praia de Saint Jean",
+      "bestFor": "Vista para a pista do aeroporto, esportes náuticos, agitação",
+      "description": "A praia mais ativa da ilha — os famosos pousos da pista minúscula acontecem a 20 m da areia. Animada, social, ótima para casais que querem agito junto à praia. Eden Rock fica aqui."
+    },
+    {
+      "name": "Gustavia (capital)",
+      "bestFor": "Porto de iates, compras, restaurantes, vida noturna",
+      "description": "O porto pequeno mais bonito do Caribe. Arquitetura colonial sueca e francesa, as melhores boutiques de praia do mundo e a maior densidade de restaurantes do Caribe."
+    },
+    {
+      "name": "Grand Cul-de-Sac (leste)",
+      "bestFor": "Kitesurf, água calma, vibe familiar",
+      "description": "Baía rasa e turquesa protegida por recife — a água mais calma da ilha. Melhor para SUP e kitesurf. O Guanahani Hotel fica aqui."
+    }
   ],
   "expertTips": [
-    { "tip": "Voe via St Martin (SXM) — único caminho para St Barts", "detail": "St Barts tem uma pista minúscula (SBH) que aceita apenas aviões pequenos (até 9 lugares). Voe a Sint Maarten Princess Juliana (SXM) e pegue um ATR da Winair (10 min). Reserve 3h+ na conexão — os horários são apertados. Alternativa: ferry rápido (1h de Oyster Pond, Philipsburg) ou helicóptero privativo." },
-    { "tip": "Reserve o Cheval Blanc com 6 a 9 meses para dezembro e janeiro", "detail": "Os melhores quartos do Cheval Blanc Isle de France esgotam com hóspedes recorrentes e agentes preferenciais já em abril para a temporada seguinte. Mande e-mail direto ao hotel dizendo \"lua de mel\". Eles respondem à objetividade." },
-    { "tip": "Alugue um Mini Moke ou Smart — é o veículo da ilha", "detail": "O aluguel tradicional de St Barts é um Mini Moke (mini sem laterais) ou Smart. A ilha tem 8 km de ponta a ponta — você pode dar a volta toda em 45 minutos. Um Moke aberto pela estrada do litoral é a experiência por excelência." },
-    { "tip": "Colombier exige barco ou trilha — faça", "detail": "A caminhada de 25 minutos pela falésia até Colombier, a partir do estacionamento de Petite Anse, é uma das melhores caminhadas curtas do Caribe. A recompensa — uma praia sem acesso por estrada, água cristalina e quase sem ambulantes — é extraordinária." },
-    { "tip": "Shell Beach ao pôr do sol é o melhor programa grátis da ilha", "detail": "Enquanto Gustavia se enche de gente vinda dos iates, Shell Beach (2 min a pé pelo porto) tem as mesmas vistas e é gratuita. Leve um vinho do supermercado. Melhor que qualquer bar." }
+    {
+      "tip": "Voe via St Martin (SXM) — único caminho para St Barts",
+      "detail": "St Barts tem uma pista minúscula (SBH) que aceita apenas aviões pequenos (até 9 lugares). Voe a Sint Maarten Princess Juliana (SXM) e pegue um ATR da Winair (10 min). Reserve 3h+ na conexão — os horários são apertados. Alternativa: ferry rápido (1h de Oyster Pond, Philipsburg) ou helicóptero privativo."
+    },
+    {
+      "tip": "Reserve o Cheval Blanc com 6 a 9 meses para dezembro e janeiro",
+      "detail": "Os melhores quartos do Cheval Blanc Isle de France esgotam com hóspedes recorrentes e agentes preferenciais já em abril para a temporada seguinte. Mande e-mail direto ao hotel dizendo \"lua de mel\". Eles respondem à objetividade."
+    },
+    {
+      "tip": "Alugue um Mini Moke ou Smart — é o veículo da ilha",
+      "detail": "O aluguel tradicional de St Barts é um Mini Moke (mini sem laterais) ou Smart. A ilha tem 8 km de ponta a ponta — você pode dar a volta toda em 45 minutos. Um Moke aberto pela estrada do litoral é a experiência por excelência."
+    },
+    {
+      "tip": "Colombier exige barco ou trilha — faça",
+      "detail": "A caminhada de 25 minutos pela falésia até Colombier, a partir do estacionamento de Petite Anse, é uma das melhores caminhadas curtas do Caribe. A recompensa — uma praia sem acesso por estrada, água cristalina e quase sem ambulantes — é extraordinária."
+    },
+    {
+      "tip": "Shell Beach ao pôr do sol é o melhor programa grátis da ilha",
+      "detail": "Enquanto Gustavia se enche de gente vinda dos iates, Shell Beach (2 min a pé pelo porto) tem as mesmas vistas e é gratuita. Leve um vinho do supermercado. Melhor que qualquer bar."
+    }
   ],
   "packing": [
-    { "item": "Roupa resort sofisticada para os restaurantes", "why": "Os restaurantes de St Barts esperam casual elevado — nada formal, mas camisa de linho e vestido de verão em vez de bermuda" },
-    { "item": "Protetor solar reef-safe", "why": "Coletividade francesa com regras estritas de proteção do recife na reserva marinha" },
-    { "item": "Câmera subaquática", "why": "Snorkel em Pain de Sucre e na baía de Colombier tem ótima atividade de tartarugas e raias" },
-    { "item": "Dinheiro vivo (euros)", "why": "St Barts usa o euro. Beach bars e feirantes preferem dinheiro." },
-    { "item": "Seguro-viagem com cobertura para furacão", "why": "Inegociável fora da janela central de dez–abr" },
-    { "item": "Comprimidos para enjoo", "why": "O voo da Winair desde St Martin é curto, mas pode dar turbulência com os alísios. O ferry desde St Martin leva 1h em águas abertas." }
+    {
+      "item": "Roupa resort sofisticada para os restaurantes",
+      "why": "Os restaurantes de St Barts esperam casual elevado — nada formal, mas camisa de linho e vestido de verão em vez de bermuda"
+    },
+    {
+      "item": "Protetor solar reef-safe",
+      "why": "Coletividade francesa com regras estritas de proteção do recife na reserva marinha"
+    },
+    {
+      "item": "Câmera subaquática",
+      "why": "Snorkel em Pain de Sucre e na baía de Colombier tem ótima atividade de tartarugas e raias"
+    },
+    {
+      "item": "Dinheiro vivo (euros)",
+      "why": "St Barts usa o euro. Beach bars e feirantes preferem dinheiro."
+    },
+    {
+      "item": "Seguro-viagem com cobertura para furacão",
+      "why": "Inegociável fora da janela central de dez–abr"
+    },
+    {
+      "item": "Comprimidos para enjoo",
+      "why": "O voo da Winair desde St Martin é curto, mas pode dar turbulência com os alísios. O ferry desde St Martin leva 1h em águas abertas."
+    }
   ],
   "guide": {
     "getting": "Voe a Sint Maarten Princess Juliana (SXM). Da Europa: direto de Paris Orly pela Air Caraïbes (8h30) ou Air France (via Paris ou AMS, 9–10h no total). De Nova York: American ou Delta a SXM (3h30 direto). De SXM a St Barts: Winair (10 min, $100–$200 por trecho) ou ferry rápido Voyager (1h de Oyster Pond ou Philipsburg). Reserve no mínimo 3h de conexão em SXM.",
@@ -73,5 +251,9 @@
   "localFood": "La langouste grillée (lagosta caribenha aberta e grelhada na brasa com manteiga de ervas) em qualquer beach restaurant, accras de morue (bolinhos crioulos de bacalhau com ti-punch), mahi-mahi fresco com beurre blanc e a charcutaria extraordinária do traiteur (rotisseria) local em Gustavia. A cultura gastronômica combina alta cozinha francesa com tempero crioulo — Le Gaiac, Orega e La Guerite são os três melhores restaurantes. Não saia sem tomar um ti-punch bem feito (rum branco, limão e xarope de cana) às 11h.",
   "currency": "Euro (EUR) — é uma coletividade francesa",
   "language": "Francês (oficial). Inglês falado em todos os contextos turísticos.",
-  "timezone": "GMT-4 (Atlantic Standard Time)"
+  "timezone": "GMT-4 (Atlantic Standard Time)",
+  "seo": {
+    "title": "Lua de Mel em St Barts: 9 Hotéis Caribe Chique 2026",
+    "description": "9 hotéis boutique e vilas ranqueados. Cheval Blanc, Eden Rock, Le Toiny. De $1,200/noite. Nov-abr."
+  }
 }

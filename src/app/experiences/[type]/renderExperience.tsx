@@ -29,12 +29,104 @@ const MONTH_COLORS: Record<string, string> = {
   Avoid: 'bg-red-50 text-red-600 border border-red-100',
 }
 
+// Per-slug SEO fallbacks for experience types that have NO detailed data file.
+// Keyed by [slug][locale]. Used when getLocalizedExperience returns null.
+const EXPERIENCE_SEO_FALLBACK: Record<string, Record<Locale, { title: string; description: string }>> = {
+  romantic: {
+    en: { title: 'Romantic Honeymoon Hotels: 45+ Scored Picks (2026)', description: 'Most romantic honeymoon hotels worldwide — 45 properties scored on privacy, design, dining, and that just-us feeling. From $380 to $4,500 a night.' },
+    es: { title: 'Hoteles Románticos Luna de Miel: 45+ Selecciones 2026', description: 'Los hoteles más románticos del mundo para luna de miel: 45 propiedades evaluadas en privacidad, diseño y romance. Desde 380 $ a 4.500 $ la noche.' },
+    pt: { title: 'Hotéis Românticos Lua de Mel: 45+ Escolhas 2026', description: 'Os hotéis mais românticos do mundo para lua de mel: 45 propriedades avaliadas em privacidade, design e romance. De 380 a 4.500 USD por noite.' },
+  },
+  boutique: {
+    en: { title: 'Boutique Honeymoon Hotels: Design-Led Picks 2026', description: 'Boutique honeymoon hotels with personality — design-driven properties under 50 rooms, scored for couples who want character over chain luxury. From $600.' },
+    es: { title: 'Hoteles Boutique Luna de Miel: Diseño y Carácter 2026', description: 'Hoteles boutique con personalidad para luna de miel: propiedades de menos de 50 habitaciones, evaluadas para parejas que buscan carácter. Desde 600 $.' },
+    pt: { title: 'Hotéis Boutique Lua de Mel: Design e Caráter 2026', description: 'Hotéis boutique com personalidade para lua de mel: propriedades com menos de 50 quartos, avaliadas para casais que buscam caráter. A partir de 600 USD.' },
+  },
+  spa: {
+    en: { title: 'Spa Honeymoon Hotels: 17 Wellness Retreats Scored 2026', description: 'Spa honeymoon hotels with serious treatment menus, hammams, and couples rituals — 17 properties scored across 5 regions. From $380 a night.' },
+    es: { title: 'Hoteles Spa Luna de Miel: 17 Retiros Evaluados 2026', description: 'Hoteles spa para luna de miel con menús de tratamientos serios, hammams y rituales en pareja: 17 propiedades evaluadas en 5 regiones. Desde 380 $.' },
+    pt: { title: 'Hotéis Spa Lua de Mel: 17 Retiros Avaliados 2026', description: 'Hotéis spa para lua de mel com menus de tratamentos sérios, hammams e rituais a dois: 17 propriedades avaliadas em 5 regiões. A partir de 380 USD.' },
+  },
+  'all-inclusive': {
+    en: { title: 'All-Inclusive Honeymoon Resorts: 8 Scored Picks 2026', description: 'All-inclusive honeymoon resorts that justify the price — 8 adults-friendly properties scored on dining, drinks, and zero-hassle romance. From $350.' },
+    es: { title: 'Resorts Todo Incluido Luna de Miel: 8 Selecciones 2026', description: 'Resorts todo incluido para luna de miel que valen el precio: 8 propiedades evaluadas en gastronomía, bebidas y romance sin complicaciones. Desde 350 $.' },
+    pt: { title: 'Resorts All-Inclusive Lua de Mel: 8 Escolhas 2026', description: 'Resorts all-inclusive para lua de mel que valem o preço: 8 propriedades avaliadas em gastronomia, bebidas e romance sem complicações. A partir de 350 USD.' },
+  },
+  cultural: {
+    en: { title: 'Cultural Honeymoon Hotels: 12 Heritage Stays 2026', description: 'Cultural honeymoon hotels in Marrakech, Kyoto, Rajasthan and beyond — 12 properties scored for couples who want romance with depth. From $450 a night.' },
+    es: { title: 'Hoteles Culturales Luna de Miel: 12 Estancias 2026', description: 'Hoteles culturales para luna de miel en Marrakech, Kioto, Rajastán y más: 12 propiedades evaluadas para parejas que buscan romance con fondo. Desde 450 $.' },
+    pt: { title: 'Hotéis Culturais Lua de Mel: 12 Estadias 2026', description: 'Hotéis culturais para lua de mel em Marrakech, Quioto, Rajastão e mais: 12 propriedades avaliadas para casais que buscam romance com profundidade. De 450 USD.' },
+  },
+  historic: {
+    en: { title: 'Historic Honeymoon Hotels: 7 Heritage Properties 2026', description: 'Historic honeymoon hotels in restored palaces, castles, and grand 19th-century landmarks — 7 properties scored on romance and provenance. From $600.' },
+    es: { title: 'Hoteles Históricos Luna de Miel: 7 Propiedades 2026', description: 'Hoteles históricos para luna de miel en palacios, castillos y monumentos del s. XIX restaurados: 7 propiedades evaluadas en romance y patrimonio. Desde 600 $.' },
+    pt: { title: 'Hotéis Históricos Lua de Mel: 7 Propriedades 2026', description: 'Hotéis históricos para lua de mel em palácios, castelos e marcos do séc. XIX restaurados: 7 propriedades avaliadas em romance e patrimônio. De 600 USD.' },
+  },
+  golf: {
+    en: { title: 'Golf Honeymoon Resorts: Couples-Friendly Picks 2026', description: 'Golf honeymoon resorts where one half plays and the other half spa-and-suns — championship courses paired with serious romance. Scored picks from $1,400.' },
+    es: { title: 'Resorts de Golf Luna de Miel: Selecciones 2026', description: 'Resorts de golf para luna de miel donde uno juega y el otro disfruta del spa y la piscina: campos de campeonato y romance serio. Selecciones desde 1.400 $.' },
+    pt: { title: 'Resorts de Golfe Lua de Mel: Escolhas 2026', description: 'Resorts de golfe para lua de mel onde um joga e o outro aproveita spa e piscina: campos de campeonato e romance sério. Escolhas a partir de 1.400 USD.' },
+  },
+  adventure: {
+    en: { title: 'Adventure Honeymoon Lodges: 6 Active Picks 2026', description: 'Adventure honeymoon lodges for couples who hike, dive, and ride — 6 properties scored on access, guides, and post-trail luxury. From $450 a night.' },
+    es: { title: 'Lodges de Aventura Luna de Miel: 6 Selecciones 2026', description: 'Lodges de aventura para luna de miel: parejas que hacen senderismo, bucean y cabalgan. 6 propiedades evaluadas en acceso, guías y lujo. Desde 450 $.' },
+    pt: { title: 'Lodges de Aventura Lua de Mel: 6 Escolhas 2026', description: 'Lodges de aventura para lua de mel: casais que fazem trilhas, mergulho e cavalgadas. 6 propriedades avaliadas em acesso, guias e luxo. De 450 USD.' },
+  },
+  lake: {
+    en: { title: 'Lake Honeymoon Hotels: Como, Garda & Beyond 2026', description: 'Lake honeymoon hotels on Como, Garda and Maggiore — 5 grand belle-époque properties scored for couples wanting Italian-lake romance. From $900 a night.' },
+    es: { title: 'Hoteles de Lago Luna de Miel: Como, Garda y Más 2026', description: 'Hoteles de lago para luna de miel en Como, Garda y Maggiore: 5 propiedades belle époque evaluadas para parejas que buscan el romance italiano. Desde 900 $.' },
+    pt: { title: 'Hotéis de Lago Lua de Mel: Como, Garda e Mais 2026', description: 'Hotéis de lago para lua de mel em Como, Garda e Maggiore: 5 propriedades belle époque avaliadas para casais que buscam o romance italiano. De 900 USD.' },
+  },
+  city: {
+    en: { title: 'City Honeymoon Hotels: Urban Romance Picks 2026', description: 'City honeymoon hotels for couples who want culture, restaurants, and design over a beach — scored urban suites in major capitals. From $700 a night.' },
+    es: { title: 'Hoteles de Ciudad Luna de Miel: Romance Urbano 2026', description: 'Hoteles de ciudad para luna de miel: parejas que buscan cultura, gastronomía y diseño en lugar de playa. Suites urbanas evaluadas. Desde 700 $.' },
+    pt: { title: 'Hotéis de Cidade Lua de Mel: Romance Urbano 2026', description: 'Hotéis de cidade para lua de mel: casais que preferem cultura, gastronomia e design à praia. Suítes urbanas avaliadas. A partir de 700 USD.' },
+  },
+  'private island': {
+    en: { title: 'Private Island Honeymoon Resorts: Buyout Picks 2026', description: 'Private island honeymoon resorts where you own the address for a week — scored picks on exclusivity, service ratio, and uninterrupted ocean.' },
+    es: { title: 'Resorts en Isla Privada Luna de Miel: Selección 2026', description: 'Resorts en isla privada para luna de miel donde toda la dirección es suya por una semana: evaluados en exclusividad, ratio de servicio y océano.' },
+    pt: { title: 'Resorts em Ilha Privada Lua de Mel: Seleção 2026', description: 'Resorts em ilha privada para lua de mel onde o endereço inteiro é seu por uma semana: avaliados em exclusividade, equipe e oceano.' },
+  },
+  wilderness: {
+    en: { title: 'Wilderness Honeymoon Lodges: 6 Remote Picks 2026', description: 'Wilderness honeymoon lodges in deep nature — 6 remote properties scored for couples who want big skies, no Wi-Fi, and serious luxury. From $1,100.' },
+    es: { title: 'Lodges Wilderness Luna de Miel: 6 Selecciones 2026', description: 'Lodges wilderness para luna de miel en plena naturaleza: 6 propiedades remotas evaluadas para parejas que buscan cielos, sin wifi y lujo. Desde 1.100 $.' },
+    pt: { title: 'Lodges Wilderness Lua de Mel: 6 Escolhas 2026', description: 'Lodges wilderness para lua de mel em plena natureza: 6 propriedades remotas avaliadas para casais que buscam céus, sem wifi e luxo. De 1.100 USD.' },
+  },
+}
+
+function fallbackSeo(type: string, locale: Locale): { title: string; description: string } {
+  const entry = EXPERIENCE_SEO_FALLBACK[type]?.[locale]
+  if (entry) return entry
+  const pretty = type.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase())
+  const title = locale === 'en'
+    ? `${pretty} Honeymoon Hotels 2026`
+    : locale === 'es'
+      ? `Hoteles ${pretty} Luna de Miel 2026`
+      : `Hotéis ${pretty} Lua de Mel 2026`
+  const description = locale === 'en'
+    ? `${pretty} honeymoon hotels — scored picks for couples planning a romantic 2026 stay.`
+    : locale === 'es'
+      ? `Hoteles ${pretty} para luna de miel: selecciones evaluadas para parejas que planifican un viaje romántico en 2026.`
+      : `Hotéis ${pretty} para lua de mel: escolhas avaliadas para casais que planejam uma viagem romântica em 2026.`
+  return { title, description }
+}
+
 export async function buildExperienceMetadata(type: string, locale: Locale): Promise<Metadata> {
   const meta = getLocalizedExperience(type, locale)
   if (!meta) {
+    const fb = fallbackSeo(type, locale)
     return {
-      title: `${type.replace(/-/g, ' ')} Honeymoon Hotels`,
+      title: fb.title,
+      description: fb.description,
       alternates: buildAlternates(`/experiences/${type}`, locale),
+      openGraph: {
+        title: fb.title,
+        description: fb.description,
+        url: `${SITE_URL}${localizedPath(`/experiences/${type}`, locale)}`,
+        type: 'website',
+        siteName: 'My Honeymoon Hotel',
+      },
+      twitter: { card: 'summary_large_image', title: fb.title, description: fb.description },
     }
   }
   const titleSuffix = locale === 'en'
@@ -42,9 +134,9 @@ export async function buildExperienceMetadata(type: string, locale: Locale): Pro
     : locale === 'es'
       ? 'Hoteles para luna de miel — Guía experta y propiedades evaluadas'
       : 'Hotéis para lua de mel — Guia especializado e propriedades avaliadas'
-  const description = meta.intro.slice(0, 160)
+  const description = meta.seo?.description ?? meta.intro.slice(0, 160)
   const heroUrl = meta.hero.startsWith('http') ? meta.hero : `${SITE_URL}${meta.hero}`
-  const title = `${meta.label} ${titleSuffix}`
+  const title = meta.seo?.title ?? `${meta.label} ${titleSuffix}`
   return {
     title,
     description,

@@ -18,50 +18,225 @@
     "Não está confortável com a estrutura obrigatória de guia naturalista (exigida por lei)"
   ],
   "experiences": [
-    { "icon": "🦭", "title": "Snorkel com leões-marinhos brincalhões", "description": "Os leões-marinhos de Galápagos estão entre os mamíferos marinhos mais curiosos do mundo. Faça snorkel do zodiac em Champion Islet, Tortuga Bay ou Bartolomé e os juvenis vão girar à sua volta, espelhar seus movimentos e mordiscar gentilmente as nadadeiras. O momento subaquático que define a lua de mel.", "cost": "Incluso em todos os cruzeiros e programas de luxo", "tip": "Leões-marinhos são mais brincalhões pela manhã. Use shorty 3 mm mesmo em dez-mai — a água é mais fria do que se espera no equador." },
-    { "icon": "🐢", "title": "Encontros com tartarugas gigantes nas terras altas", "description": "As terras altas de Santa Cruz têm uma população selvagem de 200+ tartarugas gigantes (a maior espécie da Terra, até 250kg, 150 anos de vida). Caminhe entre elas no Rancho Primicias ou na El Chato. O Pikaia Lodge tem uma reserva de 12 hectares no próprio terreno.", "cost": "Tour das terras altas $80/casal; incluso para hóspedes do Pikaia", "tip": "O Pikaia Lodge é o único hotel de luxo com tartarugas na própria propriedade. Manhãs são tranquilas — os bichos acordam devagar e se alimentam." },
-    { "icon": "🐦", "title": "Atobás-de-pés-azuis e fragatas em North Seymour", "description": "Um barco de dia de 2h saindo de Santa Cruz te leva às colônias de aves marinhas de North Seymour. Atobás-de-pés-azuis fazem a famosa dança do acasalamento a 2 m da trilha. Fragatas inflam papos vermelhos do tamanho de bolas de praia. Sem cercas — as regras de Galápagos exigem 2 m de distância, mas as aves não ligam.", "cost": "Barco de Pikaia/Finch Bay $400-600/casal incluindo entrada do parque", "tip": "Visite junho-novembro para máxima atividade de nidificação. Leve teleobjetiva 200 mm ou maior — embora seu celular faça os close-ups." },
-    { "icon": "🌋", "title": "Trilha do vulcão Sierra Negra (Isabela)", "description": "O ativo Sierra Negra, em Isabela, tem a segunda maior caldeira ativa da Terra (10 km). Trilha guiada de ida e volta de 16 km circunda a borda e pode ir até as fumarolas do Volcán Chico. Campos de lava preto-e-vermelhos sobrenaturais, fumarolas, descidas dramáticas pela floresta nublada.", "cost": "Dia inteiro guiado $250/casal; incluso para hóspedes do Scalesia Lodge", "tip": "Use bota de trilha — a lava é cortante. Leve 3L de água; sol equatorial + altitude + rocha preta = desidratação séria." },
-    { "icon": "🚢", "title": "Cruzeiro expedicionário Silver Origin", "description": "Navio expedicionário de 100 hóspedes da Silversea, projetado exclusivamente para Galápagos. Oito zodiacs, 18 naturalistas (proporção 1:8), serviço de mordomo em todas as suítes, pensão completa com excursões e bebidas. Roteiros de 7 noites passam por Genovesa, Bartolomé, Floreana, Española, Fernandina, Isabela — ilhas impossíveis em base terrestre.", "cost": "Charter de 7 noites a partir de $7.000/casal all-inclusive", "tip": "Reserve a Owner's Suite pelas janelas frontais panorâmicas. Roteiros leste (Española, Floreana) para aves marinhas; oeste (Fernandina, Isabela) para iguanas marinhas e paisagens de lava." }
+    {
+      "icon": "🦭",
+      "title": "Snorkel com leões-marinhos brincalhões",
+      "description": "Os leões-marinhos de Galápagos estão entre os mamíferos marinhos mais curiosos do mundo. Faça snorkel do zodiac em Champion Islet, Tortuga Bay ou Bartolomé e os juvenis vão girar à sua volta, espelhar seus movimentos e mordiscar gentilmente as nadadeiras. O momento subaquático que define a lua de mel.",
+      "cost": "Incluso em todos os cruzeiros e programas de luxo",
+      "tip": "Leões-marinhos são mais brincalhões pela manhã. Use shorty 3 mm mesmo em dez-mai — a água é mais fria do que se espera no equador."
+    },
+    {
+      "icon": "🐢",
+      "title": "Encontros com tartarugas gigantes nas terras altas",
+      "description": "As terras altas de Santa Cruz têm uma população selvagem de 200+ tartarugas gigantes (a maior espécie da Terra, até 250kg, 150 anos de vida). Caminhe entre elas no Rancho Primicias ou na El Chato. O Pikaia Lodge tem uma reserva de 12 hectares no próprio terreno.",
+      "cost": "Tour das terras altas $80/casal; incluso para hóspedes do Pikaia",
+      "tip": "O Pikaia Lodge é o único hotel de luxo com tartarugas na própria propriedade. Manhãs são tranquilas — os bichos acordam devagar e se alimentam."
+    },
+    {
+      "icon": "🐦",
+      "title": "Atobás-de-pés-azuis e fragatas em North Seymour",
+      "description": "Um barco de dia de 2h saindo de Santa Cruz te leva às colônias de aves marinhas de North Seymour. Atobás-de-pés-azuis fazem a famosa dança do acasalamento a 2 m da trilha. Fragatas inflam papos vermelhos do tamanho de bolas de praia. Sem cercas — as regras de Galápagos exigem 2 m de distância, mas as aves não ligam.",
+      "cost": "Barco de Pikaia/Finch Bay $400-600/casal incluindo entrada do parque",
+      "tip": "Visite junho-novembro para máxima atividade de nidificação. Leve teleobjetiva 200 mm ou maior — embora seu celular faça os close-ups."
+    },
+    {
+      "icon": "🌋",
+      "title": "Trilha do vulcão Sierra Negra (Isabela)",
+      "description": "O ativo Sierra Negra, em Isabela, tem a segunda maior caldeira ativa da Terra (10 km). Trilha guiada de ida e volta de 16 km circunda a borda e pode ir até as fumarolas do Volcán Chico. Campos de lava preto-e-vermelhos sobrenaturais, fumarolas, descidas dramáticas pela floresta nublada.",
+      "cost": "Dia inteiro guiado $250/casal; incluso para hóspedes do Scalesia Lodge",
+      "tip": "Use bota de trilha — a lava é cortante. Leve 3L de água; sol equatorial + altitude + rocha preta = desidratação séria."
+    },
+    {
+      "icon": "🚢",
+      "title": "Cruzeiro expedicionário Silver Origin",
+      "description": "Navio expedicionário de 100 hóspedes da Silversea, projetado exclusivamente para Galápagos. Oito zodiacs, 18 naturalistas (proporção 1:8), serviço de mordomo em todas as suítes, pensão completa com excursões e bebidas. Roteiros de 7 noites passam por Genovesa, Bartolomé, Floreana, Española, Fernandina, Isabela — ilhas impossíveis em base terrestre.",
+      "cost": "Charter de 7 noites a partir de $7.000/casal all-inclusive",
+      "tip": "Reserve a Owner's Suite pelas janelas frontais panorâmicas. Roteiros leste (Española, Floreana) para aves marinhas; oeste (Fernandina, Isabela) para iguanas marinhas e paisagens de lava."
+    }
   ],
   "months": [
-    { "month": "Jan", "weather": "Quente úmido 24-30°C, mar calmo", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Excelente — mar calmo, cores vivas, filhotes de tartaruga marinha" },
-    { "month": "Feb", "weather": "Mais quente, tempestades pontuais", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Cores de acasalamento das iguanas marinhas; flamingos reproduzindo" },
-    { "month": "Mar", "weather": "Quente úmido, terminando", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Último mês de água quente; albatrozes chegam em Española" },
-    { "month": "Apr", "weather": "Transição, secando", "emoji": "🌤️", "crowds": "Média", "price": "Médio", "verdict": "Ponto doce — mar quente, filhotes de leão-marinho, vegetação florida" },
-    { "month": "May", "weather": "Esfriando, calmo", "emoji": "🌤️", "crowds": "Média", "price": "Médio", "verdict": "Excelente — ilhas verdes, começam danças do atobá-de-pés-azuis" },
-    { "month": "Jun", "weather": "Estação seca fria começa", "emoji": "🌥️", "crowds": "Alta", "price": "Alto", "verdict": "Garua chegando; baleias começam migração" },
-    { "month": "Jul", "weather": "Frio 19-26°C, garua", "emoji": "🌥️", "crowds": "Máxima", "price": "Máximo", "verdict": "Pico — mais lotado, ótimo para fauna marinha e aves" },
-    { "month": "Aug", "weather": "Frio seco, mar mais agitado", "emoji": "🌥️", "crowds": "Máxima", "price": "Máximo", "verdict": "Pico de baleias; travessias de canal mais ásperas" },
-    { "month": "Sep", "weather": "Frio seco, pico de garua", "emoji": "🌥️", "crowds": "Média", "price": "Alto", "verdict": "Excelente custo-benefício — céus dramáticos, alta atividade marinha" },
-    { "month": "Oct", "weather": "Frio seco, esquentando levemente", "emoji": "🌤️", "crowds": "Média", "price": "Médio", "verdict": "Mês de baixa forte; filhotes de leão-marinho em todo lugar" },
-    { "month": "Nov", "weather": "Esquentando, mar mais calmo", "emoji": "🌤️", "crowds": "Média", "price": "Médio", "verdict": "Brown noddies e atobás ainda ativos; mar mais quente" },
-    { "month": "Dec", "weather": "Quente úmido começando", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Pico de feriados — ilhas verdes, mar quente, pressão de reserva festiva" }
+    {
+      "month": "Jan",
+      "weather": "Quente úmido 24-30°C, mar calmo",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Excelente — mar calmo, cores vivas, filhotes de tartaruga marinha"
+    },
+    {
+      "month": "Feb",
+      "weather": "Mais quente, tempestades pontuais",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Cores de acasalamento das iguanas marinhas; flamingos reproduzindo"
+    },
+    {
+      "month": "Mar",
+      "weather": "Quente úmido, terminando",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Último mês de água quente; albatrozes chegam em Española"
+    },
+    {
+      "month": "Apr",
+      "weather": "Transição, secando",
+      "emoji": "🌤️",
+      "crowds": "Média",
+      "price": "Médio",
+      "verdict": "Ponto doce — mar quente, filhotes de leão-marinho, vegetação florida"
+    },
+    {
+      "month": "May",
+      "weather": "Esfriando, calmo",
+      "emoji": "🌤️",
+      "crowds": "Média",
+      "price": "Médio",
+      "verdict": "Excelente — ilhas verdes, começam danças do atobá-de-pés-azuis"
+    },
+    {
+      "month": "Jun",
+      "weather": "Estação seca fria começa",
+      "emoji": "🌥️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Garua chegando; baleias começam migração"
+    },
+    {
+      "month": "Jul",
+      "weather": "Frio 19-26°C, garua",
+      "emoji": "🌥️",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Pico — mais lotado, ótimo para fauna marinha e aves"
+    },
+    {
+      "month": "Aug",
+      "weather": "Frio seco, mar mais agitado",
+      "emoji": "🌥️",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Pico de baleias; travessias de canal mais ásperas"
+    },
+    {
+      "month": "Sep",
+      "weather": "Frio seco, pico de garua",
+      "emoji": "🌥️",
+      "crowds": "Média",
+      "price": "Alto",
+      "verdict": "Excelente custo-benefício — céus dramáticos, alta atividade marinha"
+    },
+    {
+      "month": "Oct",
+      "weather": "Frio seco, esquentando levemente",
+      "emoji": "🌤️",
+      "crowds": "Média",
+      "price": "Médio",
+      "verdict": "Mês de baixa forte; filhotes de leão-marinho em todo lugar"
+    },
+    {
+      "month": "Nov",
+      "weather": "Esquentando, mar mais calmo",
+      "emoji": "🌤️",
+      "crowds": "Média",
+      "price": "Médio",
+      "verdict": "Brown noddies e atobás ainda ativos; mar mais quente"
+    },
+    {
+      "month": "Dec",
+      "weather": "Quente úmido começando",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Pico de feriados — ilhas verdes, mar quente, pressão de reserva festiva"
+    }
   ],
   "budgetTiers": [
-    { "label": "Luxo intermediário", "range": "$400-900/noite", "gets": "Lodge charmoso ou hotel boutique em Santa Cruz ou Isabela. Barco de dia incluso; guia naturalista padrão.", "example": "Iguana Crossing, Scalesia Lodge, Royal Palm Galapagos" },
-    { "label": "Premium", "range": "$700-2.500/noite", "gets": "Lodge de design no alto ou safari camp de luxo com iate privativo para excursões e guias top.", "example": "Pikaia Lodge, Galapagos Safari Camp, Finch Bay" },
-    { "label": "Cruzeiro icônico", "range": "$5.000-15.000/casal/7 noites", "gets": "Cruzeiro expedicionário com pensão completa — todas as ilhas, todas as atividades, suítes com mordomo, naturalistas especialistas.", "example": "Silversea Silver Origin, Ecoventura Origin/Theory" }
+    {
+      "label": "Luxo intermediário",
+      "range": "$400-900/noite",
+      "gets": "Lodge charmoso ou hotel boutique em Santa Cruz ou Isabela. Barco de dia incluso; guia naturalista padrão.",
+      "example": "Iguana Crossing, Scalesia Lodge, Royal Palm Galapagos"
+    },
+    {
+      "label": "Premium",
+      "range": "$700-2.500/noite",
+      "gets": "Lodge de design no alto ou safari camp de luxo com iate privativo para excursões e guias top.",
+      "example": "Pikaia Lodge, Galapagos Safari Camp, Finch Bay"
+    },
+    {
+      "label": "Cruzeiro icônico",
+      "range": "$5.000-15.000/casal/7 noites",
+      "gets": "Cruzeiro expedicionário com pensão completa — todas as ilhas, todas as atividades, suítes com mordomo, naturalistas especialistas.",
+      "example": "Silversea Silver Origin, Ecoventura Origin/Theory"
+    }
   ],
   "areas": [
-    { "name": "Ilha de Santa Cruz (Puerto Ayora)", "bestFor": "Luxo em terra, Estação Charles Darwin, hub de barcos de dia", "description": "A ilha mais desenvolvida, no centro do arquipélago, porta de entrada para a maioria dos barcos de dia. Pikaia, Finch Bay, Royal Palm e Galapagos Safari Camp ficam aqui. 4-5 noites." },
-    { "name": "Ilha de Isabela (Puerto Villamil)", "bestFor": "Ilha menos desenvolvida, iguanas marinhas, trilhas vulcânicas", "description": "A maior ilha, pouco povoada, sensação Galápagos crua. Iguana Crossing e Scalesia Lodge aqui. Vulcão Sierra Negra e snorkel em Tintoreras." },
-    { "name": "Ilha de Floreana", "bestFor": "Bate-volta de cruzeiro; flamingos rosa, Post Office Bay", "description": "Menor ilha habitada. Raramente se pernoita; visitada como parada de cruzeiro ou barco de dia de Santa Cruz." },
-    { "name": "Ilhas externas (Genovesa, Fernandina, Española)", "bestFor": "Acesso só por cruzeiro, densidades máximas de fauna", "description": "Sem habitantes — só acessíveis em cruzeiro expedicionário. Genovesa por atobás-de-pés-vermelhos, Fernandina por iguanas marinhas, Española por albatrozes (abr-dez)." }
+    {
+      "name": "Ilha de Santa Cruz (Puerto Ayora)",
+      "bestFor": "Luxo em terra, Estação Charles Darwin, hub de barcos de dia",
+      "description": "A ilha mais desenvolvida, no centro do arquipélago, porta de entrada para a maioria dos barcos de dia. Pikaia, Finch Bay, Royal Palm e Galapagos Safari Camp ficam aqui. 4-5 noites."
+    },
+    {
+      "name": "Ilha de Isabela (Puerto Villamil)",
+      "bestFor": "Ilha menos desenvolvida, iguanas marinhas, trilhas vulcânicas",
+      "description": "A maior ilha, pouco povoada, sensação Galápagos crua. Iguana Crossing e Scalesia Lodge aqui. Vulcão Sierra Negra e snorkel em Tintoreras."
+    },
+    {
+      "name": "Ilha de Floreana",
+      "bestFor": "Bate-volta de cruzeiro; flamingos rosa, Post Office Bay",
+      "description": "Menor ilha habitada. Raramente se pernoita; visitada como parada de cruzeiro ou barco de dia de Santa Cruz."
+    },
+    {
+      "name": "Ilhas externas (Genovesa, Fernandina, Española)",
+      "bestFor": "Acesso só por cruzeiro, densidades máximas de fauna",
+      "description": "Sem habitantes — só acessíveis em cruzeiro expedicionário. Genovesa por atobás-de-pés-vermelhos, Fernandina por iguanas marinhas, Española por albatrozes (abr-dez)."
+    }
   ],
   "expertTips": [
-    { "tip": "Cruzeiro vs terrestre — escolha deliberadamente", "detail": "Terra = quartos maiores, noites longas, dias mais leves, sem enjoo. Cruzeiro = mais ilhas (sobretudo as externas), mais fauna, sem refazer mala, naturalistas 24/7. A maioria dos casais prefere cruzeiro; alguns combinam 3 noites em terra + 4 em cruzeiro." },
-    { "tip": "Reserve Silversea ou Ecoventura com 12+ meses", "detail": "Cruzeiros premium têm capacidade rigidamente regulada por regras do parque. Suítes top no Silver Origin e o iate Ecoventura Theory inteiro esgotam 12-18 meses antes, sobretudo em julho-agosto e dezembro-janeiro." },
-    { "tip": "A taxa de $200/pax do parque é à parte de tudo", "detail": "Entrada do parque Galápagos é $200/pessoa (em USD em espécie) na chegada, mais $20/pax de Transit Card em Quito ou Guayaquil. Não inclusa em cruzeiro ou hotel. Leve $440 em espécie para dois." },
-    { "tip": "Leve tudo à prova d'água", "detail": "Você ficará molhado todo dia — desembarques de zodiac (úmidos vs secos), snorkel, chuvas pontuais. Saco estanque, capa para celular, roupas de secagem rápida. Maioria dos cruzeiros fornece wetsuits, mas a numeração varia; leve o seu se tiver." },
-    { "tip": "Combine com Quito ou Mashpi no Equador continental", "detail": "Maioria dos voos é Quito (UIO) → Galápagos. Some 2 noites em Quito (hotel histórico Casa Gangotena) ou 2 noites no Mashpi Lodge na floresta nublada. Dobra a experiência de fauna e cultura." }
+    {
+      "tip": "Cruzeiro vs terrestre — escolha deliberadamente",
+      "detail": "Terra = quartos maiores, noites longas, dias mais leves, sem enjoo. Cruzeiro = mais ilhas (sobretudo as externas), mais fauna, sem refazer mala, naturalistas 24/7. A maioria dos casais prefere cruzeiro; alguns combinam 3 noites em terra + 4 em cruzeiro."
+    },
+    {
+      "tip": "Reserve Silversea ou Ecoventura com 12+ meses",
+      "detail": "Cruzeiros premium têm capacidade rigidamente regulada por regras do parque. Suítes top no Silver Origin e o iate Ecoventura Theory inteiro esgotam 12-18 meses antes, sobretudo em julho-agosto e dezembro-janeiro."
+    },
+    {
+      "tip": "A taxa de $200/pax do parque é à parte de tudo",
+      "detail": "Entrada do parque Galápagos é $200/pessoa (em USD em espécie) na chegada, mais $20/pax de Transit Card em Quito ou Guayaquil. Não inclusa em cruzeiro ou hotel. Leve $440 em espécie para dois."
+    },
+    {
+      "tip": "Leve tudo à prova d'água",
+      "detail": "Você ficará molhado todo dia — desembarques de zodiac (úmidos vs secos), snorkel, chuvas pontuais. Saco estanque, capa para celular, roupas de secagem rápida. Maioria dos cruzeiros fornece wetsuits, mas a numeração varia; leve o seu se tiver."
+    },
+    {
+      "tip": "Combine com Quito ou Mashpi no Equador continental",
+      "detail": "Maioria dos voos é Quito (UIO) → Galápagos. Some 2 noites em Quito (hotel histórico Casa Gangotena) ou 2 noites no Mashpi Lodge na floresta nublada. Dobra a experiência de fauna e cultura."
+    }
   ],
   "packing": [
-    { "item": "Protetor solar mineral reef-safe", "why": "UV equatorial é brutal; protetores químicos proibidos em áreas marinhas. FPS 50 mineral. Aplique 30 min antes de entrar na água." },
-    { "item": "Sapatos de água / Tevas / Keens", "why": "Desembarques molhados em praias rochosas exigem aderência e proteção dos dedos. Chinelos escorregam na lava; tênis de corrida se acabam. Sandália fechada de água é a resposta." },
-    { "item": "Wetsuit shorty 3 mm", "why": "Mesmo na estação quente (dez-mai), a água em Galápagos é mais fria que tropicais equivalentes. Cruzeiros costumam fornecer mas a numeração é mista; leve a sua se tiver." },
-    { "item": "Camisa UV de manga longa", "why": "Em zodiacs e caminhadas, o reflexo do sol da água e da lava é intenso. UPF50 vence a reaplicação constante." },
-    { "item": "Binóculos de qualidade", "why": "Baleias distantes, fragatas em térmicas, identificação de tentilhões. 8x42 é o formato amigável para lua de mel. Ecoventura disponibiliza a bordo; Silversea sob demanda." }
+    {
+      "item": "Protetor solar mineral reef-safe",
+      "why": "UV equatorial é brutal; protetores químicos proibidos em áreas marinhas. FPS 50 mineral. Aplique 30 min antes de entrar na água."
+    },
+    {
+      "item": "Sapatos de água / Tevas / Keens",
+      "why": "Desembarques molhados em praias rochosas exigem aderência e proteção dos dedos. Chinelos escorregam na lava; tênis de corrida se acabam. Sandália fechada de água é a resposta."
+    },
+    {
+      "item": "Wetsuit shorty 3 mm",
+      "why": "Mesmo na estação quente (dez-mai), a água em Galápagos é mais fria que tropicais equivalentes. Cruzeiros costumam fornecer mas a numeração é mista; leve a sua se tiver."
+    },
+    {
+      "item": "Camisa UV de manga longa",
+      "why": "Em zodiacs e caminhadas, o reflexo do sol da água e da lava é intenso. UPF50 vence a reaplicação constante."
+    },
+    {
+      "item": "Binóculos de qualidade",
+      "why": "Baleias distantes, fragatas em térmicas, identificação de tentilhões. 8x42 é o formato amigável para lua de mel. Ecoventura disponibiliza a bordo; Silversea sob demanda."
+    }
   ],
   "guide": {
     "getting": "Voe para Quito (UIO) ou Guayaquil (GYE) — ambos com voos internacionais de Madri, Amsterdã, Miami, NYC, Bogotá. Voos internos pela Avianca, LATAM ou Equair até Baltra (GPS) ou San Cristóbal (SCY) — 2-2,5h. A maioria dos cruzeiros parte de Baltra; hotéis de terra te encontram em Baltra ou San Cristóbal. Trânsito total da Europa ~18-22h com 1-2 conexões.",
@@ -71,5 +246,9 @@
   "localFood": "Ceviche (mais rústico que o de Lima — geralmente peixe ou camarão); encebollado (sopa de peixe + mandioca + cebola, cura-ressaca matinal); patacones (rodelas de banana-da-terra fritas); seco de chivo (cabra cozida lentamente com arroz); locro de papa (sopa de batata e queijo); arroz marinero (arroz de frutos do mar); empanadas (menores que as argentinas, muitas vezes de banana); helado de paila (sorvete andino mexido); cerveja Pilsener (lager local); canelazo (rum de cana quente com naranjilla e canela em altitude). Refeições em lodges são em geral boas — Pikaia, Galapagos Safari Camp e cruzeiros servem cozinha equatoriana-internacional refinada.",
   "currency": "Dólar dos EUA (USD) — moeda oficial desde 2000. Cartões aceitos em hotéis e grandes restaurantes; dinheiro necessário para taxas do parque, gorjetas e compras pequenas nas ilhas.",
   "language": "Espanhol (sotaque equatoriano — claro, lento); quíchua nos Andes continentais. Inglês universal em hotéis, lodges, cruzeiros e guias naturalistas.",
-  "timezone": "UTC-6 (Hora de Galápagos, 1h atrás do Equador continental, sem horário de verão)"
+  "timezone": "UTC-6 (Hora de Galápagos, 1h atrás do Equador continental, sem horário de verão)",
+  "seo": {
+    "title": "Lua de Mel em Galápagos: 8 Cruzeiros e Ecolodges 2026",
+    "description": "8 cruzeiros e ecolodges pontuados. Pikaia, Finch Bay, Silversea Origin. De $1,200/noite. Jun-dez fauna."
+  }
 }

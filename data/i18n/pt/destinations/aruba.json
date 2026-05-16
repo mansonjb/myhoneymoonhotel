@@ -56,18 +56,102 @@
     }
   ],
   "months": [
-    { "month": "Jan", "weather": "Quente, com brisa (28°C)", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Pico — reserve cedo" },
-    { "month": "Feb", "weather": "Quente, com brisa (28°C)", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Mês mais caro" },
-    { "month": "Mar", "weather": "Quente, com brisa (28°C)", "emoji": "☀️", "crowds": "Máxima", "price": "Alto", "verdict": "Multidões de spring break" },
-    { "month": "Apr", "weather": "Quente, seco (29°C)", "emoji": "☀️", "crowds": "Moderada", "price": "Médio", "verdict": "O ponto doce começa" },
-    { "month": "May", "weather": "Quente, seco (29°C)", "emoji": "☀️", "crowds": "Baixa-mod.", "price": "Médio-baixo", "verdict": "Excelente custo-benefício" },
-    { "month": "Jun", "weather": "Quente, seco (30°C)", "emoji": "☀️", "crowds": "Baixa", "price": "Baixo", "verdict": "Melhor custo-benefício do ano" },
-    { "month": "Jul", "weather": "Quente, seco (31°C)", "emoji": "☀️", "crowds": "Moderada", "price": "Médio", "verdict": "Movimento familiar, mas barato" },
-    { "month": "Aug", "weather": "Quente, seco (31°C)", "emoji": "☀️", "crowds": "Moderada", "price": "Médio", "verdict": "Alternativa segura a furacões" },
-    { "month": "Sep", "weather": "Quente, ventos mais fracos (31°C)", "emoji": "☀️", "crowds": "Baixa", "price": "Mínimo", "verdict": "Mais barato, mais calmo" },
-    { "month": "Oct", "weather": "Quente, leve risco de chuva (31°C)", "emoji": "🌤", "crowds": "Baixa", "price": "Baixo", "verdict": "Mês escondido" },
-    { "month": "Nov", "weather": "Quente, chuva ocasional (29°C)", "emoji": "🌤", "crowds": "Baixa-mod.", "price": "Médio-baixo", "verdict": "Bom custo-benefício pré-pico" },
-    { "month": "Dec", "weather": "Quente, com brisa (29°C)", "emoji": "☀️", "crowds": "Máxima", "price": "Muito alto", "verdict": "Corrida de fim de ano" }
+    {
+      "month": "Jan",
+      "weather": "Quente, com brisa (28°C)",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Pico — reserve cedo"
+    },
+    {
+      "month": "Feb",
+      "weather": "Quente, com brisa (28°C)",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Mês mais caro"
+    },
+    {
+      "month": "Mar",
+      "weather": "Quente, com brisa (28°C)",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Alto",
+      "verdict": "Multidões de spring break"
+    },
+    {
+      "month": "Apr",
+      "weather": "Quente, seco (29°C)",
+      "emoji": "☀️",
+      "crowds": "Moderada",
+      "price": "Médio",
+      "verdict": "O ponto doce começa"
+    },
+    {
+      "month": "May",
+      "weather": "Quente, seco (29°C)",
+      "emoji": "☀️",
+      "crowds": "Baixa-mod.",
+      "price": "Médio-baixo",
+      "verdict": "Excelente custo-benefício"
+    },
+    {
+      "month": "Jun",
+      "weather": "Quente, seco (30°C)",
+      "emoji": "☀️",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Melhor custo-benefício do ano"
+    },
+    {
+      "month": "Jul",
+      "weather": "Quente, seco (31°C)",
+      "emoji": "☀️",
+      "crowds": "Moderada",
+      "price": "Médio",
+      "verdict": "Movimento familiar, mas barato"
+    },
+    {
+      "month": "Aug",
+      "weather": "Quente, seco (31°C)",
+      "emoji": "☀️",
+      "crowds": "Moderada",
+      "price": "Médio",
+      "verdict": "Alternativa segura a furacões"
+    },
+    {
+      "month": "Sep",
+      "weather": "Quente, ventos mais fracos (31°C)",
+      "emoji": "☀️",
+      "crowds": "Baixa",
+      "price": "Mínimo",
+      "verdict": "Mais barato, mais calmo"
+    },
+    {
+      "month": "Oct",
+      "weather": "Quente, leve risco de chuva (31°C)",
+      "emoji": "🌤",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Mês escondido"
+    },
+    {
+      "month": "Nov",
+      "weather": "Quente, chuva ocasional (29°C)",
+      "emoji": "🌤",
+      "crowds": "Baixa-mod.",
+      "price": "Médio-baixo",
+      "verdict": "Bom custo-benefício pré-pico"
+    },
+    {
+      "month": "Dec",
+      "weather": "Quente, com brisa (29°C)",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Muito alto",
+      "verdict": "Corrida de fim de ano"
+    }
   ],
   "budgetTiers": [
     {
@@ -134,12 +218,30 @@
     }
   ],
   "packing": [
-    { "item": "Protetor reef-safe FPS 50", "why": "Sol de Aruba é intenso — a 12° do equador, e os ventos alísios escondem a queimadura até ser tarde demais" },
-    { "item": "Camadas leves para os ventos alísios", "why": "Vento constante de 25–40 km/h refresca as noites — um cardigan fino ou pareo é essencial" },
-    { "item": "Sapatos para água para o snorkel no Antilla", "why": "Snorkel em naufrágio com base em barco precisa de sapatos para o fundo do barco e qualquer entrada de pedras" },
-    { "item": "Look smart casual para o jantar", "why": "BLT Steak, Madame Janette e o jantar do Ritz esperam sapatos fechados e camisa após as 19h" },
-    { "item": "Chapéu com cordão", "why": "Uma ilha de ventos alísios leva qualquer chapéu sem amarras — e você vai precisar dele na praia" },
-    { "item": "Cartão de débito com crédito multimoeda sem taxa de FX", "why": "AWG (Florim Arubano) e USD aceitos; cartão Wise/Revolut evita o markup de câmbio do hotel" }
+    {
+      "item": "Protetor reef-safe FPS 50",
+      "why": "Sol de Aruba é intenso — a 12° do equador, e os ventos alísios escondem a queimadura até ser tarde demais"
+    },
+    {
+      "item": "Camadas leves para os ventos alísios",
+      "why": "Vento constante de 25–40 km/h refresca as noites — um cardigan fino ou pareo é essencial"
+    },
+    {
+      "item": "Sapatos para água para o snorkel no Antilla",
+      "why": "Snorkel em naufrágio com base em barco precisa de sapatos para o fundo do barco e qualquer entrada de pedras"
+    },
+    {
+      "item": "Look smart casual para o jantar",
+      "why": "BLT Steak, Madame Janette e o jantar do Ritz esperam sapatos fechados e camisa após as 19h"
+    },
+    {
+      "item": "Chapéu com cordão",
+      "why": "Uma ilha de ventos alísios leva qualquer chapéu sem amarras — e você vai precisar dele na praia"
+    },
+    {
+      "item": "Cartão de débito com crédito multimoeda sem taxa de FX",
+      "why": "AWG (Florim Arubano) e USD aceitos; cartão Wise/Revolut evita o markup de câmbio do hotel"
+    }
   ],
   "guide": {
     "getting": "O Reina Beatrix International Airport (AUA) é o único aeroporto — voos diretos de JFK, Newark, Miami, Boston, Charlotte, Atlanta, DC, Houston e a maioria dos hubs da costa leste americana em 4–5 horas. Londres é 9h via Amsterdã (KLM diário). A joia da chegada é a pré-imigração americana em AUA na partida — você voa para casa como passageiro doméstico, sem fila de alfândega em JFK/MIA/BOS. Reserve 90 min para a pré-imigração na partida.",
@@ -149,5 +251,9 @@
   "localFood": "Keshi yena (casca de queijo Edam recheada com ensopado de frango — prato nacional, fusão holandesa-caribenha); pastechi (a massa do café da manhã, frita em meia-lua recheada com queijo, carne ou frango — todo café arubano); peixe fresco no Zeerovers em Savaneta (aponte para o pescado, eles fritam no cais); funchi (polenta de fubá); pan bati (pão chato estilo panqueca). Importações incluem clássicos holandeses (bitterballen, croquetas), arepas venezuelanas e a distintiva cerveja Balashi de Aruba.",
   "currency": "Florim Arubano (AWG) e Dólar Americano — ambos amplamente aceitos",
   "language": "Holandês (oficial), Papiamento (crioulo local), inglês e espanhol universais nos hotéis",
-  "timezone": "AST (UTC-4, sem horário de verão)"
+  "timezone": "AST (UTC-4, sem horário de verão)",
+  "seo": {
+    "title": "Lua de Mel em Aruba: 6 Resorts Adults-Only 2026",
+    "description": "6 resorts em Eagle Beach e Palm Beach pontuados. Bucuti & Tara, Renaissance, Ritz-Carlton. De $400/noite."
+  }
 }

@@ -66,6 +66,7 @@ localFood: 'Caribbean food varies wildly: Barbados\' flying fish and cou-cou, Ba
 currency: 'Varies — XCD/USD/local pegged',
 language: 'English / French / Spanish / Dutch (varies)',
 timezone: 'AST/EST (UTC-4 to UTC-5)',
+  seo: { title: "Caribbean Honeymoon: 7 Top Island Resorts Scored 2026", description: "7 standout Caribbean honeymoon picks across islands. Adults-only, all-inclusive and boutique. From $400/night. Dec-Apr." },
 }
 
 export default meta

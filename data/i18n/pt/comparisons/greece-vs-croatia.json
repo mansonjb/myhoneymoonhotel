@@ -1,6 +1,10 @@
 {
   "tagline": "Caiação cicládica contra pedra adriática: o duelo da lua de mel mediterrânea.",
   "metaDescription": "Grécia contra Croácia para uma lua de mel: ilhas, gastronomia, navegação, praias, valor. Recomendações para cada casal.",
+  "seo": {
+    "title": "Grécia vs Croácia Lua de Mel: Egeu vs Adriático 2026",
+    "description": "Grécia vs Croácia para lua de mel 2026: pôr do sol nas Cíclades ou navegação dálmata. Comida, praias, valor, romance — escolhas."
+  },
   "verdict": "Os dois são destinos mediterrâneos de lua de mel de primeira linha com forte atrativo de multi-ilha, mas a alma de cada viagem é diferente. A Grécia é teatral: vilarejos cicládicos caiados que despencam em azuis impossíveis (Santorini, Mykonos, Milos), com a cultura gastronômica mais profunda do Mediterrâneo. A Croácia é pedra: cidades dálmatas medievais (Dubrovnik, Hvar, Korčula), pinhais, água cristalina e um ar mais polido e próximo do italiano. A Grécia vence em drama visual e gastronomia; a Croácia vence em clareza da água e sofisticação arquitetônica.",
   "tldr": {
     "forA": "Grécia: pelo drama cicládico, cultura gastronômica e romance do pôr do sol sobre a caldeira.",
@@ -8,20 +12,76 @@
     "tie": "Empate em infraestrutura de ferries multi-ilha e aptidão geral para lua de mel."
   },
   "criteria": [
-    { "label": "Tempo de voo (a partir da Europa)", "aDetail": "3-4h direto para Atenas/Santorini", "bDetail": "2-3h direto para Split/Dubrovnik" },
-    { "label": "Tempo de voo (a partir dos EUA)", "aDetail": "9-11h direto (NYC) ou via Frankfurt/Atenas", "bDetail": "10-12h via Frankfurt/Munique/Viena (sem direto habitualmente)" },
-    { "label": "A vista emblemática", "aDetail": "A caldeira de Santorini ao pôr do sol: possivelmente a imagem de lua de mel mais fotografada da Europa", "bDetail": "Muralhas da cidade antiga de Dubrovnik + Adriático + vista para a ilha de Lokrum" },
-    { "label": "Clareza da água", "aDetail": "Egeu: clara, azul brilhante, às vezes afetada por algas marinhas", "bDetail": "Adriático: entre as mais claras do Mediterrâneo, cristalina em muitas enseadas" },
-    { "label": "Qualidade das praias", "aDetail": "Majoritariamente vulcânicas pretas/vermelhas (Santorini), poucas praias de areia nas Cíclades", "bDetail": "Praias de seixos e enseadas rochosas: em geral, água mais limpa e clara" },
-    { "label": "Cultura gastronômica", "aDetail": "Nível mundial: peixe fresco, polvo, salada grega, mezze, a dieta mediterrânea original", "bDetail": "Excelente: influência italiana, frutos do mar frescos, trufas em Ístria, vinhos de Pelješac" },
-    { "label": "Vinho", "aDetail": "Assyrtiko (Santorini) é um dos grandes vinhos da Europa, tintos de Nemea", "bDetail": "Plavac Mali (Pelješac), Malvazija (Ístria): cena vinícola emergente" },
-    { "label": "Facilidade multi-ilha", "aDetail": "Excelente: ferries rápidos entre todas as Cíclades", "bDetail": "Excelente: ferries rápidos entre todas as ilhas dálmatas" },
-    { "label": "Profundidade cultural", "aDetail": "Acrópole, Delfos, Cnossos, Olímpia: os fundamentos da civilização ocidental", "bDetail": "Palácio de Diocleciano (Split), muralhas de Dubrovnik, Plitvice: substancial, mas menos fundacional" },
-    { "label": "Fator afluência", "aDetail": "Santorini e Mykonos podem ser brutais na alta: o pôr do sol em Oia é uma multidão", "bDetail": "A cidade antiga de Dubrovnik fica lotada, mas a maioria das ilhas parece mais calma que seus equivalentes cicládicos" },
-    { "label": "Charter de iate à vela", "aDetail": "Excelente: rotas pelas Cíclades e o Dodecaneso", "bDetail": "Nível mundial: a Croácia figura entre os primeiros destinos de navegação do planeta" },
-    { "label": "Hotéis só para adultos / boutique", "aDetail": "Muitos só para adultos de luxo (Canaves Oia, Andronis, Astra Suites)", "bDetail": "Alguns só para adultos e muitos boutique (Hotel Excelsior, Villa Dubrovnik, Lopud 1483)" },
-    { "label": "Melhor temporada", "aDetail": "Jun-set alta, mai-jun e set-out intermediária", "bDetail": "Jun-set alta, mai-jun e set-out intermediária" },
-    { "label": "Orçamento mínimo (5 estrelas)", "aDetail": "$500-800/noite na alta de Santorini", "bDetail": "$400-600/noite na alta de Dubrovnik/Hvar" }
+    {
+      "label": "Tempo de voo (a partir da Europa)",
+      "aDetail": "3-4h direto para Atenas/Santorini",
+      "bDetail": "2-3h direto para Split/Dubrovnik"
+    },
+    {
+      "label": "Tempo de voo (a partir dos EUA)",
+      "aDetail": "9-11h direto (NYC) ou via Frankfurt/Atenas",
+      "bDetail": "10-12h via Frankfurt/Munique/Viena (sem direto habitualmente)"
+    },
+    {
+      "label": "A vista emblemática",
+      "aDetail": "A caldeira de Santorini ao pôr do sol: possivelmente a imagem de lua de mel mais fotografada da Europa",
+      "bDetail": "Muralhas da cidade antiga de Dubrovnik + Adriático + vista para a ilha de Lokrum"
+    },
+    {
+      "label": "Clareza da água",
+      "aDetail": "Egeu: clara, azul brilhante, às vezes afetada por algas marinhas",
+      "bDetail": "Adriático: entre as mais claras do Mediterrâneo, cristalina em muitas enseadas"
+    },
+    {
+      "label": "Qualidade das praias",
+      "aDetail": "Majoritariamente vulcânicas pretas/vermelhas (Santorini), poucas praias de areia nas Cíclades",
+      "bDetail": "Praias de seixos e enseadas rochosas: em geral, água mais limpa e clara"
+    },
+    {
+      "label": "Cultura gastronômica",
+      "aDetail": "Nível mundial: peixe fresco, polvo, salada grega, mezze, a dieta mediterrânea original",
+      "bDetail": "Excelente: influência italiana, frutos do mar frescos, trufas em Ístria, vinhos de Pelješac"
+    },
+    {
+      "label": "Vinho",
+      "aDetail": "Assyrtiko (Santorini) é um dos grandes vinhos da Europa, tintos de Nemea",
+      "bDetail": "Plavac Mali (Pelješac), Malvazija (Ístria): cena vinícola emergente"
+    },
+    {
+      "label": "Facilidade multi-ilha",
+      "aDetail": "Excelente: ferries rápidos entre todas as Cíclades",
+      "bDetail": "Excelente: ferries rápidos entre todas as ilhas dálmatas"
+    },
+    {
+      "label": "Profundidade cultural",
+      "aDetail": "Acrópole, Delfos, Cnossos, Olímpia: os fundamentos da civilização ocidental",
+      "bDetail": "Palácio de Diocleciano (Split), muralhas de Dubrovnik, Plitvice: substancial, mas menos fundacional"
+    },
+    {
+      "label": "Fator afluência",
+      "aDetail": "Santorini e Mykonos podem ser brutais na alta: o pôr do sol em Oia é uma multidão",
+      "bDetail": "A cidade antiga de Dubrovnik fica lotada, mas a maioria das ilhas parece mais calma que seus equivalentes cicládicos"
+    },
+    {
+      "label": "Charter de iate à vela",
+      "aDetail": "Excelente: rotas pelas Cíclades e o Dodecaneso",
+      "bDetail": "Nível mundial: a Croácia figura entre os primeiros destinos de navegação do planeta"
+    },
+    {
+      "label": "Hotéis só para adultos / boutique",
+      "aDetail": "Muitos só para adultos de luxo (Canaves Oia, Andronis, Astra Suites)",
+      "bDetail": "Alguns só para adultos e muitos boutique (Hotel Excelsior, Villa Dubrovnik, Lopud 1483)"
+    },
+    {
+      "label": "Melhor temporada",
+      "aDetail": "Jun-set alta, mai-jun e set-out intermediária",
+      "bDetail": "Jun-set alta, mai-jun e set-out intermediária"
+    },
+    {
+      "label": "Orçamento mínimo (5 estrelas)",
+      "aDetail": "$500-800/noite na alta de Santorini",
+      "bDetail": "$400-600/noite na alta de Dubrovnik/Hvar"
+    }
   ],
   "pickA": {
     "title": "Escolha a Grécia se…",
@@ -44,10 +104,25 @@
     ]
   },
   "faqs": [
-    { "q": "Qual tem melhores praias?", "a": "Croácia, em termos de clareza da água e qualidade de enseadas. As ilhas gregas têm praias mais icônicas por reputação (Elafonisi, Balos, Navagio), mas as Cíclades em si têm pouca areia. As enseadas de seixos croatas são mais limpas e claras." },
-    { "q": "Qual é mais romântica?", "a": "As duas intensamente, em registros diferentes. A Grécia é romance teatral: pôr do sol em Santorini, jantar com vista para a caldeira. A Croácia é romance sofisticado: jantar à luz de velas na cidade antiga de Dubrovnik, navegar até uma enseada oculta em Vis. Estéticas diferentes." },
-    { "q": "Qual é mais econômica?", "a": "Croácia, entre 20% e 30% para uma categoria equivalente. Santorini em particular figura entre os destinos mediterrâneos mais caros no verão. A Dalmácia croata (Hvar, Vis, Korčula) oferece um luxo boutique comparável a menor custo." },
-    { "q": "Posso combinar as duas?", "a": "Possível para 12-15 dias: voo para Atenas → Santorini/Milos → Atenas → Split → Dubrovnik → casa. Acrescenta 2 dias de trânsito. A maioria dos casais escolhe uma para uma viagem de 8-10 dias." },
-    { "q": "Qual tem melhor gastronomia?", "a": "Grécia, decisivamente, para a cozinha tradicional: a dieta mediterrânea se originou aqui e as tabernas são excepcionais. A gastronomia croata é excelente (trufas ístrias, frutos do mar dálmatas), mas mais influenciada pelo italiano e menos distintivamente local." }
+    {
+      "q": "Qual tem melhores praias?",
+      "a": "Croácia, em termos de clareza da água e qualidade de enseadas. As ilhas gregas têm praias mais icônicas por reputação (Elafonisi, Balos, Navagio), mas as Cíclades em si têm pouca areia. As enseadas de seixos croatas são mais limpas e claras."
+    },
+    {
+      "q": "Qual é mais romântica?",
+      "a": "As duas intensamente, em registros diferentes. A Grécia é romance teatral: pôr do sol em Santorini, jantar com vista para a caldeira. A Croácia é romance sofisticado: jantar à luz de velas na cidade antiga de Dubrovnik, navegar até uma enseada oculta em Vis. Estéticas diferentes."
+    },
+    {
+      "q": "Qual é mais econômica?",
+      "a": "Croácia, entre 20% e 30% para uma categoria equivalente. Santorini em particular figura entre os destinos mediterrâneos mais caros no verão. A Dalmácia croata (Hvar, Vis, Korčula) oferece um luxo boutique comparável a menor custo."
+    },
+    {
+      "q": "Posso combinar as duas?",
+      "a": "Possível para 12-15 dias: voo para Atenas → Santorini/Milos → Atenas → Split → Dubrovnik → casa. Acrescenta 2 dias de trânsito. A maioria dos casais escolhe uma para uma viagem de 8-10 dias."
+    },
+    {
+      "q": "Qual tem melhor gastronomia?",
+      "a": "Grécia, decisivamente, para a cozinha tradicional: a dieta mediterrânea se originou aqui e as tabernas são excepcionais. A gastronomia croata é excelente (trufas ístrias, frutos do mar dálmatas), mas mais influenciada pelo italiano e menos distintivamente local."
+    }
   ]
 }

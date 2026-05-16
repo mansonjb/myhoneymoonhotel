@@ -56,45 +56,196 @@
     }
   ],
   "months": [
-    { "month": "Jan", "weather": "Frio, neve na Capadócia; ameno no Egeu", "emoji": "❄️", "crowds": "Baixa", "price": "Mínimo", "verdict": "Capadócia mágica na neve, mas balões cancelam muito; Bodrum fechada" },
-    { "month": "Feb", "weather": "Frio interior, ameno Egeu", "emoji": "❄️", "crowds": "Baixa", "price": "Mínimo", "verdict": "Igual a janeiro — só Capadócia, com risco de cancelamento de balão" },
-    { "month": "Mar", "weather": "Fresco, neve derretendo", "emoji": "⛅", "crowds": "Baixa", "price": "Baixo", "verdict": "Capadócia esquentando; Bodrum em sua maioria fechada" },
-    { "month": "Apr", "weather": "Ameno no interior, costa esquentando", "emoji": "🌷", "crowds": "Média", "price": "Médio", "verdict": "Capadócia no auge — flores silvestres, balões confiáveis; Bodrum reabre no fim do mês" },
-    { "month": "May", "weather": "Quente, seco, perfeito", "emoji": "☀️", "crowds": "Média", "price": "Médio", "verdict": "Ponto doce para as duas regiões — reserve com 3+ meses" },
-    { "month": "Jun", "weather": "Quente, seco", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Pico no Egeu; Capadócia quente, mas confiável para balões" },
-    { "month": "Jul", "weather": "Muito quente, cheio", "emoji": "🔥", "crowds": "Muito alta", "price": "Máximo", "verdict": "Bodrum no pico de iate-marina; Capadócia quente, mas confiável" },
-    { "month": "Aug", "weather": "Muito quente, pico de gente", "emoji": "🔥", "crowds": "Muito alta", "price": "Máximo", "verdict": "Mês mais caro — reserve com 5+ meses, espere agitação em Yalıkavak" },
-    { "month": "Sep", "weather": "Quente, seco, esvaziando", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Melhor mês do ano — mar ainda morno, multidão diminuindo" },
-    { "month": "Oct", "weather": "Ameno, seco, cor de outono", "emoji": "🍂", "crowds": "Média", "price": "Médio", "verdict": "Capadócia veste o outono lindamente; Egeu para banho até meados do mês" },
-    { "month": "Nov", "weather": "Fresco interior, ameno costa", "emoji": "⛅", "crowds": "Baixa", "price": "Baixo", "verdict": "Capadócia ainda excelente; maior parte de Bodrum fecha em meados do mês" },
-    { "month": "Dec", "weather": "Frio, Capadócia com neve", "emoji": "❄️", "crowds": "Baixa", "price": "Mínimo", "verdict": "Capadócia na neve é mágica, mas balões cancelam com frequência" }
+    {
+      "month": "Jan",
+      "weather": "Frio, neve na Capadócia; ameno no Egeu",
+      "emoji": "❄️",
+      "crowds": "Baixa",
+      "price": "Mínimo",
+      "verdict": "Capadócia mágica na neve, mas balões cancelam muito; Bodrum fechada"
+    },
+    {
+      "month": "Feb",
+      "weather": "Frio interior, ameno Egeu",
+      "emoji": "❄️",
+      "crowds": "Baixa",
+      "price": "Mínimo",
+      "verdict": "Igual a janeiro — só Capadócia, com risco de cancelamento de balão"
+    },
+    {
+      "month": "Mar",
+      "weather": "Fresco, neve derretendo",
+      "emoji": "⛅",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Capadócia esquentando; Bodrum em sua maioria fechada"
+    },
+    {
+      "month": "Apr",
+      "weather": "Ameno no interior, costa esquentando",
+      "emoji": "🌷",
+      "crowds": "Média",
+      "price": "Médio",
+      "verdict": "Capadócia no auge — flores silvestres, balões confiáveis; Bodrum reabre no fim do mês"
+    },
+    {
+      "month": "May",
+      "weather": "Quente, seco, perfeito",
+      "emoji": "☀️",
+      "crowds": "Média",
+      "price": "Médio",
+      "verdict": "Ponto doce para as duas regiões — reserve com 3+ meses"
+    },
+    {
+      "month": "Jun",
+      "weather": "Quente, seco",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Pico no Egeu; Capadócia quente, mas confiável para balões"
+    },
+    {
+      "month": "Jul",
+      "weather": "Muito quente, cheio",
+      "emoji": "🔥",
+      "crowds": "Muito alta",
+      "price": "Máximo",
+      "verdict": "Bodrum no pico de iate-marina; Capadócia quente, mas confiável"
+    },
+    {
+      "month": "Aug",
+      "weather": "Muito quente, pico de gente",
+      "emoji": "🔥",
+      "crowds": "Muito alta",
+      "price": "Máximo",
+      "verdict": "Mês mais caro — reserve com 5+ meses, espere agitação em Yalıkavak"
+    },
+    {
+      "month": "Sep",
+      "weather": "Quente, seco, esvaziando",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Melhor mês do ano — mar ainda morno, multidão diminuindo"
+    },
+    {
+      "month": "Oct",
+      "weather": "Ameno, seco, cor de outono",
+      "emoji": "🍂",
+      "crowds": "Média",
+      "price": "Médio",
+      "verdict": "Capadócia veste o outono lindamente; Egeu para banho até meados do mês"
+    },
+    {
+      "month": "Nov",
+      "weather": "Fresco interior, ameno costa",
+      "emoji": "⛅",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Capadócia ainda excelente; maior parte de Bodrum fecha em meados do mês"
+    },
+    {
+      "month": "Dec",
+      "weather": "Frio, Capadócia com neve",
+      "emoji": "❄️",
+      "crowds": "Baixa",
+      "price": "Mínimo",
+      "verdict": "Capadócia na neve é mágica, mas balões cancelam com frequência"
+    }
   ],
   "budgetTiers": [
-    { "label": "Confortável", "range": "$350–550/noite", "gets": "Hotel-caverna boutique na Capadócia + 5★ intermediário em Bodrum — lua de mel sólida e com caráter real", "example": "Kayakapi Premium Caves + Caresse Bodrum" },
-    { "label": "Elevado", "range": "$700–1.200/noite", "gets": "Hotel-caverna top + 5★ de marca no Egeu com vila com piscina", "example": "Argos in Cappadocia + Mandarin Oriental Bodrum" },
-    { "label": "Icônico", "range": "$1.500–3.500/noite", "gets": "Pasha Suite caverna + Cliff Pool Villa, gulet privativo, jantar in-villa em toda a viagem", "example": "Museum Hotel Pasha Suite + Six Senses Kaplankaya Cliff Villa" }
+    {
+      "label": "Confortável",
+      "range": "$350–550/noite",
+      "gets": "Hotel-caverna boutique na Capadócia + 5★ intermediário em Bodrum — lua de mel sólida e com caráter real",
+      "example": "Kayakapi Premium Caves + Caresse Bodrum"
+    },
+    {
+      "label": "Elevado",
+      "range": "$700–1.200/noite",
+      "gets": "Hotel-caverna top + 5★ de marca no Egeu com vila com piscina",
+      "example": "Argos in Cappadocia + Mandarin Oriental Bodrum"
+    },
+    {
+      "label": "Icônico",
+      "range": "$1.500–3.500/noite",
+      "gets": "Pasha Suite caverna + Cliff Pool Villa, gulet privativo, jantar in-villa em toda a viagem",
+      "example": "Museum Hotel Pasha Suite + Six Senses Kaplankaya Cliff Villa"
+    }
   ],
   "areas": [
-    { "name": "Capadócia (Uçhisar)", "bestFor": "Melhores vistas do corredor de balões, hotéis-caverna top", "description": "A vila no alto, sob o castelo de Uçhisar, é onde estão Argos e Museum Hotel — terraços virados a leste com linha direta para o exército de balões ao amanhecer sobre o Vale dos Pombos. O endereço sério dos hotéis-caverna." },
-    { "name": "Capadócia (Ürgüp)", "bestFor": "Imersão autêntica em vila, custo um pouco melhor", "description": "Cidade maior, 15 min a leste de Uçhisar — Kayakapi Premium Caves e Sultan Cave Suites estão aqui. Mais perto da cerâmica de Avanos e do Vale Devrent, um pouco mais longe das zonas de decolagem." },
-    { "name": "Costa norte de Bodrum (Cennet Koyu / Yalıkavak)", "bestFor": "5★ internacional polido, cena de iates", "description": "A península do norte, onde fica o Mandarin Oriental Bodrum. A marina de Yalıkavak é o Mônaco regional — superiates, butiques italianas, alta gastronomia." },
-    { "name": "Kaplankaya e Datça", "bestFor": "Bem-estar, isolamento, design", "description": "75 minutos ao norte do aeroporto de Bodrum, em cabo privativo. O Six Senses Kaplankaya é o flagship de bem-estar; a vila mais próxima fica a 25 minutos. Escolha para um reset transformador." }
+    {
+      "name": "Capadócia (Uçhisar)",
+      "bestFor": "Melhores vistas do corredor de balões, hotéis-caverna top",
+      "description": "A vila no alto, sob o castelo de Uçhisar, é onde estão Argos e Museum Hotel — terraços virados a leste com linha direta para o exército de balões ao amanhecer sobre o Vale dos Pombos. O endereço sério dos hotéis-caverna."
+    },
+    {
+      "name": "Capadócia (Ürgüp)",
+      "bestFor": "Imersão autêntica em vila, custo um pouco melhor",
+      "description": "Cidade maior, 15 min a leste de Uçhisar — Kayakapi Premium Caves e Sultan Cave Suites estão aqui. Mais perto da cerâmica de Avanos e do Vale Devrent, um pouco mais longe das zonas de decolagem."
+    },
+    {
+      "name": "Costa norte de Bodrum (Cennet Koyu / Yalıkavak)",
+      "bestFor": "5★ internacional polido, cena de iates",
+      "description": "A península do norte, onde fica o Mandarin Oriental Bodrum. A marina de Yalıkavak é o Mônaco regional — superiates, butiques italianas, alta gastronomia."
+    },
+    {
+      "name": "Kaplankaya e Datça",
+      "bestFor": "Bem-estar, isolamento, design",
+      "description": "75 minutos ao norte do aeroporto de Bodrum, em cabo privativo. O Six Senses Kaplankaya é o flagship de bem-estar; a vila mais próxima fica a 25 minutos. Escolha para um reset transformador."
+    }
   ],
   "expertTips": [
-    { "tip": "Divida a viagem — três noites na Capadócia, quatro no Egeu (ou vice-versa)", "detail": "A Capadócia recompensa 3 a 4 noites (mais é demais no interior); Bodrum, 4 a 5 noites de praia lenta. O voo doméstico de 1h via Istambul torna isso a estrutura padrão." },
-    { "tip": "Reserve seu balão para o dia 2, não o 6", "detail": "Vento cancela 30–40% dos voos. Reserve para a segunda manhã para ter manhãs sobressalentes em caso de cancelamento. Hotéis remarcam sem custo." },
-    { "tip": "Some 48h em Istambul antes ou depois", "detail": "Istambul é uma das grandes cidades de lua de mel — Hagia Sophia, ferry no Bósforo, jantar em terraço de Beyoğlu e mercados de Karaköy. Duas noites no Soho House Istanbul ou no Pera Palace fecham a Turquia lindamente." },
-    { "tip": "Pague em lira turca quando possível", "detail": "Hotéis cotam em EUR ou USD, mas aceitam TRY a câmbios favoráveis. Leve dinheiro em lira para táxis, gorjetas e bazares. Cartão é universalmente aceito, mas tarifas de saque em ATM são altas." },
-    { "tip": "Inverno na Capadócia é romântico, mas arriscado para balão", "detail": "Neve nas chaminés é de tirar o fôlego, mas dez–fev tem mais de 50% de cancelamentos. Em lua de mel de inverno, planeje várias manhãs de margem ou aceite que o voo pode não acontecer." }
+    {
+      "tip": "Divida a viagem — três noites na Capadócia, quatro no Egeu (ou vice-versa)",
+      "detail": "A Capadócia recompensa 3 a 4 noites (mais é demais no interior); Bodrum, 4 a 5 noites de praia lenta. O voo doméstico de 1h via Istambul torna isso a estrutura padrão."
+    },
+    {
+      "tip": "Reserve seu balão para o dia 2, não o 6",
+      "detail": "Vento cancela 30–40% dos voos. Reserve para a segunda manhã para ter manhãs sobressalentes em caso de cancelamento. Hotéis remarcam sem custo."
+    },
+    {
+      "tip": "Some 48h em Istambul antes ou depois",
+      "detail": "Istambul é uma das grandes cidades de lua de mel — Hagia Sophia, ferry no Bósforo, jantar em terraço de Beyoğlu e mercados de Karaköy. Duas noites no Soho House Istanbul ou no Pera Palace fecham a Turquia lindamente."
+    },
+    {
+      "tip": "Pague em lira turca quando possível",
+      "detail": "Hotéis cotam em EUR ou USD, mas aceitam TRY a câmbios favoráveis. Leve dinheiro em lira para táxis, gorjetas e bazares. Cartão é universalmente aceito, mas tarifas de saque em ATM são altas."
+    },
+    {
+      "tip": "Inverno na Capadócia é romântico, mas arriscado para balão",
+      "detail": "Neve nas chaminés é de tirar o fôlego, mas dez–fev tem mais de 50% de cancelamentos. Em lua de mel de inverno, planeje várias manhãs de margem ou aceite que o voo pode não acontecer."
+    }
   ],
   "packing": [
-    { "item": "Camadas para a Capadócia", "why": "As decolagens antes do amanhecer são frias até no verão (5–10°C); à noite cai rápido a 1.300 m de altitude." },
-    { "item": "Sapato firme para escadas dos hotéis-caverna", "why": "As suítes-caverna têm degraus de pedra íngremes; soleiras irregulares tornam chinelo perigoso." },
-    { "item": "Protetor solar reef-safe (FPS 50)", "why": "O sol do Egeu é intenso e queimadura nos dias de gulet é a queixa de lua de mel mais comum." },
-    { "item": "Saída de braços e pernas para igrejas anatólias", "why": "Algumas mesquitas ativas e igrejas rurais da Capadócia pedem ombros e joelhos cobertos." },
-    { "item": "Look smart-casual para o jantar", "why": "Sintra (Mandarin Oriental), Lil'a (Museum Hotel) e a maioria das casas finas seguem dress code smart-casual." },
-    { "item": "Sapato aquático", "why": "As praias de Bodrum têm seixos, não areia fina; com sapato a entrada fica bem mais confortável." },
-    { "item": "Dinheiro em lira (notas pequenas) e euros", "why": "Gorjetas, extras nos balões, capitães de gulet e bazares funcionam todos no dinheiro." }
+    {
+      "item": "Camadas para a Capadócia",
+      "why": "As decolagens antes do amanhecer são frias até no verão (5–10°C); à noite cai rápido a 1.300 m de altitude."
+    },
+    {
+      "item": "Sapato firme para escadas dos hotéis-caverna",
+      "why": "As suítes-caverna têm degraus de pedra íngremes; soleiras irregulares tornam chinelo perigoso."
+    },
+    {
+      "item": "Protetor solar reef-safe (FPS 50)",
+      "why": "O sol do Egeu é intenso e queimadura nos dias de gulet é a queixa de lua de mel mais comum."
+    },
+    {
+      "item": "Saída de braços e pernas para igrejas anatólias",
+      "why": "Algumas mesquitas ativas e igrejas rurais da Capadócia pedem ombros e joelhos cobertos."
+    },
+    {
+      "item": "Look smart-casual para o jantar",
+      "why": "Sintra (Mandarin Oriental), Lil'a (Museum Hotel) e a maioria das casas finas seguem dress code smart-casual."
+    },
+    {
+      "item": "Sapato aquático",
+      "why": "As praias de Bodrum têm seixos, não areia fina; com sapato a entrada fica bem mais confortável."
+    },
+    {
+      "item": "Dinheiro em lira (notas pequenas) e euros",
+      "why": "Gorjetas, extras nos balões, capitães de gulet e bazares funcionam todos no dinheiro."
+    }
   ],
   "guide": {
     "getting": "Voe a Istambul (IST ou SAW) da Europa (4h Londres, 3h Frankfurt) ou da Costa Leste dos EUA (10h JFK). Conexão doméstica para Kayseri (ASR, Capadócia) ou Bodrum (BJV, Egeu) — Turkish Airlines e Pegasus operam de hora em hora. O roteiro padrão é IST → ASR → BJV → IST. Voos diretos sazonais de Londres e da Alemanha atendem BJV no verão.",
@@ -104,5 +255,9 @@
   "localFood": "A comida turca é uma das grandes cozinhas do mundo e varia muito por região. A Capadócia se especializa em pratos lentos em panela de barro (testi kebabı, quebrada na mesa), manti e vinhos de uvas indígenas (Kalecik Karası, Öküzgözü, Emir). A costa do Egeu é guiada por mezzes — fava, börek, carpaccio de polvo, levrek e çupra grelhados, regados com rakı com gelo. Não perca o menemen no café da manhã, lokum (delícia turca) da Hacı Bekir em Istambul e baklava de pistache da Karaköy Güllüoğlu.",
   "currency": "Lira turca (TRY) — USD/EUR amplamente aceitos no turismo",
   "language": "Turco — inglês muito falado em resorts",
-  "timezone": "TRT (UTC+3, sem horário de verão)"
+  "timezone": "TRT (UTC+3, sem horário de verão)",
+  "seo": {
+    "title": "Lua de Mel na Turquia: 6 Hotéis Capadócia e Litoral",
+    "description": "6 estadias em cavernas da Capadócia e costa Egeia pontuadas. Argos, Mandarin Oriental Bodrum. De $400/noite."
+  }
 }

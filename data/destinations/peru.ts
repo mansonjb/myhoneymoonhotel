@@ -106,6 +106,7 @@ localFood: 'Ceviche (raw fish in tiger\'s milk lime cure — Lima\'s defining di
 currency: 'Peruvian Sol (PEN). USD widely accepted at hotels and tour operators; cards accepted in cities. Bring fresh small USD bills for tips and small purchases.',
 language: 'Spanish (Peruvian accent — clear, mid-paced); Quechua in Andean villages. English at hotels and major restaurants; less in markets and rural areas.',
 timezone: 'UTC-5 year-round (no daylight saving)',
+  seo: { title: "Peru Honeymoon: 8 Sacred Valley & Machu Picchu Hotels", description: "8 Cusco, Sacred Valley, Lake Titicaca stays scored. Belmond, Inkaterra, Tambo del Inka. From $400/night. May-Oct." },
 }
 
 export default meta

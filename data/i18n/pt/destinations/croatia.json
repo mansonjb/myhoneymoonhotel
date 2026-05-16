@@ -18,51 +18,230 @@
     "Você prefere base única em resort à logística entre ilhas"
   ],
   "experiences": [
-    { "icon": "🏰", "title": "Caminhada ao amanhecer nas muralhas de Dubrovnik", "description": "A volta de 2 km pelas muralhas medievais de Dubrovnik às 8h, antes da chegada dos cruzeiros — telhados terracota, torres de igrejas alaranjadas e o Adriático embaixo. Um dos 90 minutos mais finos da Europa. As muralhas fecham ao pôr do sol, então a manhã é a única hora de vê-las em paz.", "cost": "€35 por pessoa", "tip": "Compre os ingressos online na noite anterior para garantir a abertura das 8h. Cruzeiros atracam às 9h e as muralhas ficam muito cheias por volta das 10h. Essa janela de uma hora é transformadora." },
-    { "icon": "⛵", "title": "Charter privativo de veleiro saindo de Hvar", "description": "Alugue um veleiro de madeira tradicional com skipper e passe o dia entre ilhas — Pakleni para banhos em enseadas escondidas, Vis para almoço de peixe fresco, e volta a Hvar ao pôr do sol com vinho. A melhor maneira de ver a costa dálmata.", "cost": "€400–€800/dia (6-8 pessoas, mas reserve em privativo)", "tip": "Alugue o barco inteiro como casal em vez de entrar num grupo — a diferença ($200 a mais) compensa a liberdade total de escolher enseadas, horários e almoços." },
-    { "icon": "🦪", "title": "Ostras frescas em Mali Ston", "description": "Mali Ston, vilarejo fortificado a 50 km de Dubrovnik, cultiva ostras em sua baía limpa há séculos. As ostras são colhidas naquela manhã e servidas com limão e uma taça de Malvasia branca. Algumas das melhores ostras da Europa, em ambiente medieval.", "cost": "€15–€25 por dúzia", "tip": "Os restaurantes Kapetanova Kuća e Vila Koruna são os mais respeitados. Combine com uma volta pela rota dos vinhos da península de Pelješac no mesmo dia." },
-    { "icon": "🍷", "title": "Estrada do vinho da Península de Pelješac", "description": "Uma península de 100 km projetada da costa dálmata cultiva o Plavac Mali — o tinto mais distinto do Adriático. As vinícolas abrem para degustações em belas casas de pedra. Mike's Winery e Saints Hills são as estrelas. Combine com as ostras de Ston para o dia perfeito de comida e vinho.", "cost": "€20–€40 por pessoa nas degustações", "tip": "Alugue um carro em Dubrovnik para o dia em vez de pegar tour — a liberdade de parar em vinícolas familiares aleatórias é metade da experiência." },
-    { "icon": "🏊", "title": "Caverna Azul e bate-volta a Vis", "description": "A Caverna Azul na ilha de Biševo produz um efeito de luz azul sobrenatural quando o sol refrata pela água ao meio-dia. Combine com almoço em Vis — a ilha habitada mais autêntica do Adriático, mal tocada pelo turismo de massa, com konobas extraordinárias.", "cost": "€50–€100 por pessoa (tour de Hvar ou Split)", "tip": "A entrada na Caverna Azul é em bote pequeno e fica lotada em julho/agosto — vá em maio, junho ou setembro para uma experiência mais íntima." }
+    {
+      "icon": "🏰",
+      "title": "Caminhada ao amanhecer nas muralhas de Dubrovnik",
+      "description": "A volta de 2 km pelas muralhas medievais de Dubrovnik às 8h, antes da chegada dos cruzeiros — telhados terracota, torres de igrejas alaranjadas e o Adriático embaixo. Um dos 90 minutos mais finos da Europa. As muralhas fecham ao pôr do sol, então a manhã é a única hora de vê-las em paz.",
+      "cost": "€35 por pessoa",
+      "tip": "Compre os ingressos online na noite anterior para garantir a abertura das 8h. Cruzeiros atracam às 9h e as muralhas ficam muito cheias por volta das 10h. Essa janela de uma hora é transformadora."
+    },
+    {
+      "icon": "⛵",
+      "title": "Charter privativo de veleiro saindo de Hvar",
+      "description": "Alugue um veleiro de madeira tradicional com skipper e passe o dia entre ilhas — Pakleni para banhos em enseadas escondidas, Vis para almoço de peixe fresco, e volta a Hvar ao pôr do sol com vinho. A melhor maneira de ver a costa dálmata.",
+      "cost": "€400–€800/dia (6-8 pessoas, mas reserve em privativo)",
+      "tip": "Alugue o barco inteiro como casal em vez de entrar num grupo — a diferença ($200 a mais) compensa a liberdade total de escolher enseadas, horários e almoços."
+    },
+    {
+      "icon": "🦪",
+      "title": "Ostras frescas em Mali Ston",
+      "description": "Mali Ston, vilarejo fortificado a 50 km de Dubrovnik, cultiva ostras em sua baía limpa há séculos. As ostras são colhidas naquela manhã e servidas com limão e uma taça de Malvasia branca. Algumas das melhores ostras da Europa, em ambiente medieval.",
+      "cost": "€15–€25 por dúzia",
+      "tip": "Os restaurantes Kapetanova Kuća e Vila Koruna são os mais respeitados. Combine com uma volta pela rota dos vinhos da península de Pelješac no mesmo dia."
+    },
+    {
+      "icon": "🍷",
+      "title": "Estrada do vinho da Península de Pelješac",
+      "description": "Uma península de 100 km projetada da costa dálmata cultiva o Plavac Mali — o tinto mais distinto do Adriático. As vinícolas abrem para degustações em belas casas de pedra. Mike's Winery e Saints Hills são as estrelas. Combine com as ostras de Ston para o dia perfeito de comida e vinho.",
+      "cost": "€20–€40 por pessoa nas degustações",
+      "tip": "Alugue um carro em Dubrovnik para o dia em vez de pegar tour — a liberdade de parar em vinícolas familiares aleatórias é metade da experiência."
+    },
+    {
+      "icon": "🏊",
+      "title": "Caverna Azul e bate-volta a Vis",
+      "description": "A Caverna Azul na ilha de Biševo produz um efeito de luz azul sobrenatural quando o sol refrata pela água ao meio-dia. Combine com almoço em Vis — a ilha habitada mais autêntica do Adriático, mal tocada pelo turismo de massa, com konobas extraordinárias.",
+      "cost": "€50–€100 por pessoa (tour de Hvar ou Split)",
+      "tip": "A entrada na Caverna Azul é em bote pequeno e fica lotada em julho/agosto — vá em maio, junho ou setembro para uma experiência mais íntima."
+    }
   ],
   "months": [
-    { "month": "Jan", "weather": "Frio, ventoso, fora de temporada", "emoji": "🌨", "crowds": "Muito baixa", "price": "Muito baixo", "verdict": "Quase tudo fechado" },
-    { "month": "Feb", "weather": "Frio, dramático, poucos turistas", "emoji": "❄️", "crowds": "Muito baixa", "price": "Mínimo", "verdict": "Apenas para city break" },
-    { "month": "Mar", "weather": "Ameno, fresco, primavera começando", "emoji": "🌱", "crowds": "Muito baixa", "price": "Baixo", "verdict": "Fora de temporada, mas abrindo" },
-    { "month": "Apr", "weather": "Lindo, verde, alguma chuva", "emoji": "🌤", "crowds": "Baixa", "price": "Baixo-médio", "verdict": "Excelente para trilhas e cidades velhas" },
-    { "month": "May", "weather": "Quente, ensolarado, perfeito", "emoji": "☀️", "crowds": "Média", "price": "Médio", "verdict": "Melhor mês de baixa — soberbo" },
-    { "month": "Jun", "weather": "Quente, seco, glorioso", "emoji": "☀️", "crowds": "Média-alta", "price": "Médio-alto", "verdict": "Excelente antes do auge" },
-    { "month": "Jul", "weather": "Auge do verão, muito quente", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Lindo, mas muito lotado" },
-    { "month": "Aug", "weather": "Mês mais quente, mais cheio", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Melhor clima, pior multidão" },
-    { "month": "Sep", "weather": "Quente, secando, mar ainda morno", "emoji": "🌤", "crowds": "Média", "price": "Médio-alto", "verdict": "Melhor mês geral — ideal" },
-    { "month": "Oct", "weather": "Ameno, alguma chuva, esvaziando", "emoji": "⛅", "crowds": "Baixa", "price": "Médio", "verdict": "Bom custo-benefício, menos turistas" },
-    { "month": "Nov", "weather": "Esfriando, alguns fechamentos", "emoji": "🌦", "crowds": "Muito baixa", "price": "Baixo", "verdict": "Esvaziando — só city break" },
-    { "month": "Dec", "weather": "Frio, festivo em Dubrovnik", "emoji": "🌨", "crowds": "Baixa", "price": "Baixo-médio", "verdict": "Mercados de Natal apenas em Dubrovnik" }
+    {
+      "month": "Jan",
+      "weather": "Frio, ventoso, fora de temporada",
+      "emoji": "🌨",
+      "crowds": "Muito baixa",
+      "price": "Muito baixo",
+      "verdict": "Quase tudo fechado"
+    },
+    {
+      "month": "Feb",
+      "weather": "Frio, dramático, poucos turistas",
+      "emoji": "❄️",
+      "crowds": "Muito baixa",
+      "price": "Mínimo",
+      "verdict": "Apenas para city break"
+    },
+    {
+      "month": "Mar",
+      "weather": "Ameno, fresco, primavera começando",
+      "emoji": "🌱",
+      "crowds": "Muito baixa",
+      "price": "Baixo",
+      "verdict": "Fora de temporada, mas abrindo"
+    },
+    {
+      "month": "Apr",
+      "weather": "Lindo, verde, alguma chuva",
+      "emoji": "🌤",
+      "crowds": "Baixa",
+      "price": "Baixo-médio",
+      "verdict": "Excelente para trilhas e cidades velhas"
+    },
+    {
+      "month": "May",
+      "weather": "Quente, ensolarado, perfeito",
+      "emoji": "☀️",
+      "crowds": "Média",
+      "price": "Médio",
+      "verdict": "Melhor mês de baixa — soberbo"
+    },
+    {
+      "month": "Jun",
+      "weather": "Quente, seco, glorioso",
+      "emoji": "☀️",
+      "crowds": "Média-alta",
+      "price": "Médio-alto",
+      "verdict": "Excelente antes do auge"
+    },
+    {
+      "month": "Jul",
+      "weather": "Auge do verão, muito quente",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Lindo, mas muito lotado"
+    },
+    {
+      "month": "Aug",
+      "weather": "Mês mais quente, mais cheio",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Melhor clima, pior multidão"
+    },
+    {
+      "month": "Sep",
+      "weather": "Quente, secando, mar ainda morno",
+      "emoji": "🌤",
+      "crowds": "Média",
+      "price": "Médio-alto",
+      "verdict": "Melhor mês geral — ideal"
+    },
+    {
+      "month": "Oct",
+      "weather": "Ameno, alguma chuva, esvaziando",
+      "emoji": "⛅",
+      "crowds": "Baixa",
+      "price": "Médio",
+      "verdict": "Bom custo-benefício, menos turistas"
+    },
+    {
+      "month": "Nov",
+      "weather": "Esfriando, alguns fechamentos",
+      "emoji": "🌦",
+      "crowds": "Muito baixa",
+      "price": "Baixo",
+      "verdict": "Esvaziando — só city break"
+    },
+    {
+      "month": "Dec",
+      "weather": "Frio, festivo em Dubrovnik",
+      "emoji": "🌨",
+      "crowds": "Baixa",
+      "price": "Baixo-médio",
+      "verdict": "Mercados de Natal apenas em Dubrovnik"
+    }
   ],
   "budgetTiers": [
-    { "label": "Hotel boutique", "range": "€200–€400/noite", "gets": "Lindo boutique de pedra em cidade velha, ótimo restaurante, terraço com vista para o mar. Excelente custo-benefício frente a destinos europeus comparáveis.", "example": "Lesic Dimitri Palace (Korčula), Hotel Stari Grad (Hvar), Hotel Kompas (Dubrovnik)" },
-    { "label": "Premium", "range": "€400–€800/noite", "gets": "Hotel-vila no alto da falésia com piscina privativa, mordomo, vista para o mar e acesso direto ao mar. A experiência de luxo dálmata propriamente dita.", "example": "Adriana Hvar Spa Hotel, Villa Dubrovnik, Rixos Premium Dubrovnik" },
-    { "label": "Aluguel de vila", "range": "€300–€1.500+/noite", "gets": "Vila de pedra privativa com piscina sobre o Adriático — a opção mais romântica para casais que querem privacidade em vez de serviço de hotel.", "example": "Via The Unique Collection ou Oliver's Travels — centenas de vilas privativas espetaculares" }
+    {
+      "label": "Hotel boutique",
+      "range": "€200–€400/noite",
+      "gets": "Lindo boutique de pedra em cidade velha, ótimo restaurante, terraço com vista para o mar. Excelente custo-benefício frente a destinos europeus comparáveis.",
+      "example": "Lesic Dimitri Palace (Korčula), Hotel Stari Grad (Hvar), Hotel Kompas (Dubrovnik)"
+    },
+    {
+      "label": "Premium",
+      "range": "€400–€800/noite",
+      "gets": "Hotel-vila no alto da falésia com piscina privativa, mordomo, vista para o mar e acesso direto ao mar. A experiência de luxo dálmata propriamente dita.",
+      "example": "Adriana Hvar Spa Hotel, Villa Dubrovnik, Rixos Premium Dubrovnik"
+    },
+    {
+      "label": "Aluguel de vila",
+      "range": "€300–€1.500+/noite",
+      "gets": "Vila de pedra privativa com piscina sobre o Adriático — a opção mais romântica para casais que querem privacidade em vez de serviço de hotel.",
+      "example": "Via The Unique Collection ou Oliver's Travels — centenas de vilas privativas espetaculares"
+    }
   ],
   "areas": [
-    { "name": "Dubrovnik", "bestFor": "Cidade velha mais icônica, muralhas UNESCO", "description": "O destino mais famoso da costa — a cidade medieval muralhada perfeitamente preservada é genuinamente extraordinária, sobretudo ao nascer do sol antes dos cruzeiros. Faça base aqui para parte da lua de mel, não para a viagem inteira." },
-    { "name": "Hvar", "bestFor": "Praias, vida noturna, lavanda, mais social", "description": "A ilha mais glamourosa — uma faixa longa e estreita de campos de lavanda, enseadas escondidas de seixos e uma cidadezinha portuária movimentada. As Pakleni logo em frente são perfeitas para banhos privativos. Melhor noite da Croácia. Um pouco abarrotada em julho/agosto." },
-    { "name": "Korčula", "bestFor": "Vinho, calma, autenticidade, mais romântica", "description": "Uma versão em miniatura, mais autêntica e tranquila, de Dubrovnik. A cidade velha fica em uma pequena península com mar turquesa nos três lados. Excelentes brancos locais Grk e Pošip. Marco Polo supostamente nasceu aqui. A ilha mais romântica da costa." },
-    { "name": "Split", "bestFor": "Base no continente, Palácio de Diocleciano, hub de transporte", "description": "Uma cidade construída literalmente dentro do palácio de aposentadoria de um imperador romano — as paredes do Palácio de Diocleciano abrigam restaurantes, bares e apartamentos hoje. Ótimas conexões de ferry e catamarã para todas as ilhas. Mais local e autêntica que Dubrovnik." },
-    { "name": "Brač", "bestFor": "Praia de Zlatni Rat, acesso à Caverna Azul", "description": "Ilha mais próxima de Split — abriga a famosa praia Zlatni Rat (uma língua de seixos brancos que muda de direção com o vento). Mais tranquila que Hvar, com excelentes hotéis boutique no interior." }
+    {
+      "name": "Dubrovnik",
+      "bestFor": "Cidade velha mais icônica, muralhas UNESCO",
+      "description": "O destino mais famoso da costa — a cidade medieval muralhada perfeitamente preservada é genuinamente extraordinária, sobretudo ao nascer do sol antes dos cruzeiros. Faça base aqui para parte da lua de mel, não para a viagem inteira."
+    },
+    {
+      "name": "Hvar",
+      "bestFor": "Praias, vida noturna, lavanda, mais social",
+      "description": "A ilha mais glamourosa — uma faixa longa e estreita de campos de lavanda, enseadas escondidas de seixos e uma cidadezinha portuária movimentada. As Pakleni logo em frente são perfeitas para banhos privativos. Melhor noite da Croácia. Um pouco abarrotada em julho/agosto."
+    },
+    {
+      "name": "Korčula",
+      "bestFor": "Vinho, calma, autenticidade, mais romântica",
+      "description": "Uma versão em miniatura, mais autêntica e tranquila, de Dubrovnik. A cidade velha fica em uma pequena península com mar turquesa nos três lados. Excelentes brancos locais Grk e Pošip. Marco Polo supostamente nasceu aqui. A ilha mais romântica da costa."
+    },
+    {
+      "name": "Split",
+      "bestFor": "Base no continente, Palácio de Diocleciano, hub de transporte",
+      "description": "Uma cidade construída literalmente dentro do palácio de aposentadoria de um imperador romano — as paredes do Palácio de Diocleciano abrigam restaurantes, bares e apartamentos hoje. Ótimas conexões de ferry e catamarã para todas as ilhas. Mais local e autêntica que Dubrovnik."
+    },
+    {
+      "name": "Brač",
+      "bestFor": "Praia de Zlatni Rat, acesso à Caverna Azul",
+      "description": "Ilha mais próxima de Split — abriga a famosa praia Zlatni Rat (uma língua de seixos brancos que muda de direção com o vento). Mais tranquila que Hvar, com excelentes hotéis boutique no interior."
+    }
   ],
   "expertTips": [
-    { "tip": "Evite Dubrovnik em julho-agosto", "detail": "Dubrovnik tem a cidade velha mais protegida pela UNESCO da Europa e 40 mil habitantes. No pico do verão recebe 10 mil passageiros de cruzeiro por dia além dos hóspedes. As muralhas, vielas e restaurantes ficam genuinamente desagradáveis. Maio, junho e setembro são os únicos meses em que Dubrovnik é mágica em vez de miserável." },
-    { "tip": "Use a rede de catamarãs como seu roteiro", "detail": "Jadrolinija e Krilo Jet conectam Split-Hvar-Korčula-Dubrovnik diariamente. Compre o bilhete um dia antes (não no dia, no verão). Roteiro de 10 noites: Dubrovnik (3n) → catamarã para Korčula (3n) → catamarã para Hvar (2n) → catamarã para Split (2n). Perfeito." },
-    { "tip": "Coma tarde — o ritmo croata é mediterrâneo", "detail": "Restaurantes em Dubrovnik e Hvar estão vazios às 19h e cheios às 21h30. Aceite. A atmosfera de uma konoba de pedra às 22h com uma jarra de Plavac Mali, brancin grelhado e ninguém apressando você é a melhor experiência de restaurante na Europa." },
-    { "tip": "Reserve hospedagem em Dubrovnik com 6+ meses", "detail": "Dubrovnik tem oferta limitada de bons hotéis dentro ou ao lado da cidade velha. Villa Dubrovnik, Hotel Stari Grad e o Pucić Palace esgotam até o Natal para o verão seguinte. Para maio e junho, reserve em fevereiro." },
-    { "tip": "Korčula é uma base subestimada", "detail": "A maioria dos casais opta por Dubrovnik e Hvar. Korčula é mais tranquila, romântica e autêntica, tem vinho melhor e o Lesic Dimitri Palace é um dos melhores boutiques da Europa. Também é parada de catamarã, fácil de encaixar. Considere transformá-la na sua base principal." }
+    {
+      "tip": "Evite Dubrovnik em julho-agosto",
+      "detail": "Dubrovnik tem a cidade velha mais protegida pela UNESCO da Europa e 40 mil habitantes. No pico do verão recebe 10 mil passageiros de cruzeiro por dia além dos hóspedes. As muralhas, vielas e restaurantes ficam genuinamente desagradáveis. Maio, junho e setembro são os únicos meses em que Dubrovnik é mágica em vez de miserável."
+    },
+    {
+      "tip": "Use a rede de catamarãs como seu roteiro",
+      "detail": "Jadrolinija e Krilo Jet conectam Split-Hvar-Korčula-Dubrovnik diariamente. Compre o bilhete um dia antes (não no dia, no verão). Roteiro de 10 noites: Dubrovnik (3n) → catamarã para Korčula (3n) → catamarã para Hvar (2n) → catamarã para Split (2n). Perfeito."
+    },
+    {
+      "tip": "Coma tarde — o ritmo croata é mediterrâneo",
+      "detail": "Restaurantes em Dubrovnik e Hvar estão vazios às 19h e cheios às 21h30. Aceite. A atmosfera de uma konoba de pedra às 22h com uma jarra de Plavac Mali, brancin grelhado e ninguém apressando você é a melhor experiência de restaurante na Europa."
+    },
+    {
+      "tip": "Reserve hospedagem em Dubrovnik com 6+ meses",
+      "detail": "Dubrovnik tem oferta limitada de bons hotéis dentro ou ao lado da cidade velha. Villa Dubrovnik, Hotel Stari Grad e o Pucić Palace esgotam até o Natal para o verão seguinte. Para maio e junho, reserve em fevereiro."
+    },
+    {
+      "tip": "Korčula é uma base subestimada",
+      "detail": "A maioria dos casais opta por Dubrovnik e Hvar. Korčula é mais tranquila, romântica e autêntica, tem vinho melhor e o Lesic Dimitri Palace é um dos melhores boutiques da Europa. Também é parada de catamarã, fácil de encaixar. Considere transformá-la na sua base principal."
+    }
   ],
   "packing": [
-    { "item": "Sapatilhas para água", "why": "A maioria das praias croatas é de seixo ou pedra — um par fino de sapatilhas transforma o conforto na entrada do mar" },
-    { "item": "Camisa/vestido de linho para a noite", "why": "Restaurantes em Dubrovnik e Hvar têm cultura de vestir informal mas elegante — smart casual é apropriado, traje de praia não" },
-    { "item": "Mochila pequena para passeio", "why": "As cidades velhas de Dubrovnik e Korčula são labirintos sem carros — uma mochila leve para protetor solar, água e câmera é essencial nas muralhas" },
-    { "item": "Garrafa de água reutilizável", "why": "A água da torneira croata é excelente — abasteça ao longo do dia em vez de comprar garrafas de plástico, caras a preço turístico" },
-    { "item": "Capa de chuva leve", "why": "Maio e início de junho podem trazer trovoadas vespertinas súbitas — uma camada compacta cabe em qualquer bolsa e transforma a tempestade em parada de café" }
+    {
+      "item": "Sapatilhas para água",
+      "why": "A maioria das praias croatas é de seixo ou pedra — um par fino de sapatilhas transforma o conforto na entrada do mar"
+    },
+    {
+      "item": "Camisa/vestido de linho para a noite",
+      "why": "Restaurantes em Dubrovnik e Hvar têm cultura de vestir informal mas elegante — smart casual é apropriado, traje de praia não"
+    },
+    {
+      "item": "Mochila pequena para passeio",
+      "why": "As cidades velhas de Dubrovnik e Korčula são labirintos sem carros — uma mochila leve para protetor solar, água e câmera é essencial nas muralhas"
+    },
+    {
+      "item": "Garrafa de água reutilizável",
+      "why": "A água da torneira croata é excelente — abasteça ao longo do dia em vez de comprar garrafas de plástico, caras a preço turístico"
+    },
+    {
+      "item": "Capa de chuva leve",
+      "why": "Maio e início de junho podem trazer trovoadas vespertinas súbitas — uma camada compacta cabe em qualquer bolsa e transforma a tempestade em parada de café"
+    }
   ],
   "guide": {
     "getting": "Voe para Dubrovnik (DBV) ou Split (SPU) — ambas bem servidas a partir do norte da Europa. Ryanair, EasyJet, British Airways, Lufthansa e Croatia Airlines operam rotas a partir de UK, Alemanha, Holanda, França e além. De DBV, táxis até a cidade velha levam 30 min ($25-35). De SPU, o centro de Split fica a 30 min de ônibus ou 15 min de táxi. Transporte interno: ferries Jadrolinija e catamarãs Krilo/Nona Ana conectam todas as grandes ilhas — rápidos, confiáveis e baratos.",
@@ -72,5 +251,9 @@
   "localFood": "Risoto preto (crni rižot) com tinta de choco e frutos do mar frescos do Adriático na cidade velha de Dubrovnik, peixe grelhado (brancin/robalo) com blitva (acelga e batata), peka (cordeiro ou polvo cozido lentamente sob sino com brasas), tinto Plavac Mali da península de Pelješac e ostras frescas da baía de Ston — algumas das melhores da Europa.",
   "currency": "Euro (EUR) desde 2023",
   "language": "Croata (inglês falado amplamente no turismo)",
-  "timezone": "UTC+1 (CET) / UTC+2 (CEST)"
+  "timezone": "UTC+1 (CET) / UTC+2 (CEST)",
+  "seo": {
+    "title": "Lua de Mel na Croácia: 8 Hotéis na Costa Adriática",
+    "description": "8 hotéis em Dubrovnik, Hvar e Ístria pontuados. Esplanade, Excelsior, Maslina. De $400/noite. Mai-set."
+  }
 }

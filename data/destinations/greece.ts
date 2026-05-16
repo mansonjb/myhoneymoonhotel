@@ -77,6 +77,7 @@ localFood: 'Fresh-caught grilled octopus drizzled with lemon (on every terrace),
 currency: 'Euro (EUR)',
 language: 'Greek. English widely spoken in all tourist areas.',
 timezone: 'GMT+2 (Eastern European Time) / GMT+3 in summer',
+  seo: { title: "Greece Honeymoon: 8 Island & Mainland Resorts 2026", description: "8 Mykonos, Crete, Peloponnese resorts scored. Amanzoe, Four Seasons Astir. From $500/night. May-Oct picks." },
 }
 
 export default meta

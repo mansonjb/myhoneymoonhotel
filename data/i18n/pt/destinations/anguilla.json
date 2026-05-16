@@ -19,51 +19,229 @@
     "Apelo amplo e familiar: Anguilla pende para adultos e silêncio em todas as frentes"
   ],
   "experiences": [
-    { "icon": "🐠", "title": "Dia de praia em Shoal Bay East", "description": "Três quilômetros de areia branca finíssima na costa nordeste, com o melhor recife de snorkel da ilha bem à frente. Tartarugas marinhas, peixes tropicais e um recife saudável a 3–5m de profundidade — a praia gratuita de snorkel mais subestimada do Caribe.", "cost": "Entrada gratuita; almoço $30–50/casal no Uncle Ernie's ou Gwen's", "tip": "Vá antes das 11h para a água mais clara, antes dos visitantes vindos de cruzeiros em SXM. As costelas de churrasco do Uncle Ernie's são uma instituição de 30 anos." },
-    { "icon": "🏝️", "title": "Bate-volta a Sandy Island", "description": "Um pequeno banco de areia a 15 minutos de barco de Sandy Ground, com um único restaurante de cabana na praia. Você come lagosta grelhada em uma mesa de madeira sobre uma faixa de areia cercada por turquesa em 360 graus — a foto que define Anguilla.", "cost": "$80–150 por casal (barco + almoço de lagosta)", "tip": "Os barcos saem continuamente das 10h às 16h de Sandy Ground; reserve o almoço de lagosta com antecedência por telefone. Sandy Island fecha na temporada de furacões set–out." },
-    { "icon": "⛵", "title": "Dia de catamarã em Prickly Pear", "description": "Charter de dia inteiro em catamarã para os Prickly Pear Cays — duas ilhotas desabitadas a uma hora a nordeste, com o recife de snorkel mais limpo de Anguilla. Almoço de lagosta grelhada na praia, ponche de rum no caminho, água calma.", "cost": "$200–400 por casal (dia inteiro com almoço)", "tip": "Johnno's e Calypso operam os principais charters de Sandy Ground; reserve os barcos menores, não os catamarãs de festa, para privacidade de lua de mel." },
-    { "icon": "🍽️", "title": "Menu degustação no Veya ou Hibernia", "description": "Veya em Sandy Ground (chef Carrie Bogar, menu degustação caribenho, galeria iluminada por velas no andar de cima) e Hibernia em Island Harbour (chef Raoul Rodriguez, fusão asiático-caribenha em seu jardim) são consistentemente os melhores restaurantes de Anguilla — e rivalizam com qualquer lugar do Caribe.", "cost": "$200–350 por casal por jantar", "tip": "Os dois fecham segunda/terça na baixa temporada — reserve com 2 semanas de antecedência. Hibernia é traga-sua-bebida ou compre da seleção; Veya tem uma carta de vinhos profunda." },
-    { "icon": "🌅", "title": "Pôr do sol no Sunshine Shack em Rendezvous Bay", "description": "O Sunshine Shack do Garvey em Rendezvous Bay é a lendária cabana de praia com reggae, rum e costelas — cadeiras de plástico, costelas de churrasco, ponche de rum e som que sobe por volta das 17h. Todo mundo em Anguilla acaba indo lá no pôr do sol.", "cost": "$30–60 por casal (bebidas + costelas)", "tip": "Domingo à tarde tem reggae ao vivo de Bankie Banx no Dune Preserve ao lado — a única noite em que Anguilla tem algo parecido com vida noturna." }
+    {
+      "icon": "🐠",
+      "title": "Dia de praia em Shoal Bay East",
+      "description": "Três quilômetros de areia branca finíssima na costa nordeste, com o melhor recife de snorkel da ilha bem à frente. Tartarugas marinhas, peixes tropicais e um recife saudável a 3–5m de profundidade — a praia gratuita de snorkel mais subestimada do Caribe.",
+      "cost": "Entrada gratuita; almoço $30–50/casal no Uncle Ernie's ou Gwen's",
+      "tip": "Vá antes das 11h para a água mais clara, antes dos visitantes vindos de cruzeiros em SXM. As costelas de churrasco do Uncle Ernie's são uma instituição de 30 anos."
+    },
+    {
+      "icon": "🏝️",
+      "title": "Bate-volta a Sandy Island",
+      "description": "Um pequeno banco de areia a 15 minutos de barco de Sandy Ground, com um único restaurante de cabana na praia. Você come lagosta grelhada em uma mesa de madeira sobre uma faixa de areia cercada por turquesa em 360 graus — a foto que define Anguilla.",
+      "cost": "$80–150 por casal (barco + almoço de lagosta)",
+      "tip": "Os barcos saem continuamente das 10h às 16h de Sandy Ground; reserve o almoço de lagosta com antecedência por telefone. Sandy Island fecha na temporada de furacões set–out."
+    },
+    {
+      "icon": "⛵",
+      "title": "Dia de catamarã em Prickly Pear",
+      "description": "Charter de dia inteiro em catamarã para os Prickly Pear Cays — duas ilhotas desabitadas a uma hora a nordeste, com o recife de snorkel mais limpo de Anguilla. Almoço de lagosta grelhada na praia, ponche de rum no caminho, água calma.",
+      "cost": "$200–400 por casal (dia inteiro com almoço)",
+      "tip": "Johnno's e Calypso operam os principais charters de Sandy Ground; reserve os barcos menores, não os catamarãs de festa, para privacidade de lua de mel."
+    },
+    {
+      "icon": "🍽️",
+      "title": "Menu degustação no Veya ou Hibernia",
+      "description": "Veya em Sandy Ground (chef Carrie Bogar, menu degustação caribenho, galeria iluminada por velas no andar de cima) e Hibernia em Island Harbour (chef Raoul Rodriguez, fusão asiático-caribenha em seu jardim) são consistentemente os melhores restaurantes de Anguilla — e rivalizam com qualquer lugar do Caribe.",
+      "cost": "$200–350 por casal por jantar",
+      "tip": "Os dois fecham segunda/terça na baixa temporada — reserve com 2 semanas de antecedência. Hibernia é traga-sua-bebida ou compre da seleção; Veya tem uma carta de vinhos profunda."
+    },
+    {
+      "icon": "🌅",
+      "title": "Pôr do sol no Sunshine Shack em Rendezvous Bay",
+      "description": "O Sunshine Shack do Garvey em Rendezvous Bay é a lendária cabana de praia com reggae, rum e costelas — cadeiras de plástico, costelas de churrasco, ponche de rum e som que sobe por volta das 17h. Todo mundo em Anguilla acaba indo lá no pôr do sol.",
+      "cost": "$30–60 por casal (bebidas + costelas)",
+      "tip": "Domingo à tarde tem reggae ao vivo de Bankie Banx no Dune Preserve ao lado — a única noite em que Anguilla tem algo parecido com vida noturna."
+    }
   ],
   "months": [
-    { "month": "Jan", "weather": "Seco, quente, refrescado por ventos alísios", "emoji": "☀️", "crowds": "Máxima", "price": "Muito alto", "verdict": "Mês auge de lua de mel — reserve com 6 meses" },
-    { "month": "Feb", "weather": "Seco, perfeito, com brisa", "emoji": "☀️", "crowds": "Máxima", "price": "Muito alto", "verdict": "Premium do Valentine's — o mês mais caro" },
-    { "month": "Mar", "weather": "Seco, quente, clima ideal", "emoji": "☀️", "crowds": "Máxima", "price": "Muito alto", "verdict": "Multidões de spring break, clima perfeito" },
-    { "month": "Apr", "weather": "Seco, ideal, leve aumento de umidade", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Pico de Páscoa, depois esvazia — último mês de alta" },
-    { "month": "May", "weather": "Quente, mar calmo, chuva ocasional", "emoji": "🌤", "crowds": "Moderada", "price": "Médio", "verdict": "Excelente custo-benefício — melhor combinação de mês/preço" },
-    { "month": "Jun", "weather": "Quente, úmido, mar calmo", "emoji": "🌤", "crowds": "Baixa", "price": "Médio-baixo", "verdict": "Mês mais tranquilo pré-furacão, ótimas tarifas" },
-    { "month": "Jul", "weather": "Calorento, úmido, começa risco de furacão", "emoji": "⛅", "crowds": "Baixa", "price": "Baixo", "verdict": "Barato, mas risco de tempestade — reserve com flexibilidade" },
-    { "month": "Aug", "weather": "Pico de calor, pico de risco de furacão", "emoji": "🌀", "crowds": "Muito baixa", "price": "Mínimo", "verdict": "Evite — muitos restaurantes fecham, risco máximo" },
-    { "month": "Sep", "weather": "Auge da temporada de furacões", "emoji": "🌀", "crowds": "Muito baixa", "price": "Mínimo", "verdict": "Maioria dos resorts fecha (Cap Juluca fecha anualmente)" },
-    { "month": "Oct", "weather": "Risco de furacão diminuindo, úmido", "emoji": "🌧", "crowds": "Muito baixa", "price": "Baixo", "verdict": "Reaberturas tardias, restaurantes voltando" },
-    { "month": "Nov", "weather": "Secando, ideal no fim do mês", "emoji": "🌤", "crowds": "Baixa-mod.", "price": "Médio", "verdict": "Mês de reabertura — excelente custo-benefício, clima seco volta" },
-    { "month": "Dec", "weather": "Seco, com brisa, perfeito", "emoji": "☀️", "crowds": "Máxima", "price": "Muito alto", "verdict": "Pico de festas — reserve com 8 meses para o Natal" }
+    {
+      "month": "Jan",
+      "weather": "Seco, quente, refrescado por ventos alísios",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Muito alto",
+      "verdict": "Mês auge de lua de mel — reserve com 6 meses"
+    },
+    {
+      "month": "Feb",
+      "weather": "Seco, perfeito, com brisa",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Muito alto",
+      "verdict": "Premium do Valentine's — o mês mais caro"
+    },
+    {
+      "month": "Mar",
+      "weather": "Seco, quente, clima ideal",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Muito alto",
+      "verdict": "Multidões de spring break, clima perfeito"
+    },
+    {
+      "month": "Apr",
+      "weather": "Seco, ideal, leve aumento de umidade",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Pico de Páscoa, depois esvazia — último mês de alta"
+    },
+    {
+      "month": "May",
+      "weather": "Quente, mar calmo, chuva ocasional",
+      "emoji": "🌤",
+      "crowds": "Moderada",
+      "price": "Médio",
+      "verdict": "Excelente custo-benefício — melhor combinação de mês/preço"
+    },
+    {
+      "month": "Jun",
+      "weather": "Quente, úmido, mar calmo",
+      "emoji": "🌤",
+      "crowds": "Baixa",
+      "price": "Médio-baixo",
+      "verdict": "Mês mais tranquilo pré-furacão, ótimas tarifas"
+    },
+    {
+      "month": "Jul",
+      "weather": "Calorento, úmido, começa risco de furacão",
+      "emoji": "⛅",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Barato, mas risco de tempestade — reserve com flexibilidade"
+    },
+    {
+      "month": "Aug",
+      "weather": "Pico de calor, pico de risco de furacão",
+      "emoji": "🌀",
+      "crowds": "Muito baixa",
+      "price": "Mínimo",
+      "verdict": "Evite — muitos restaurantes fecham, risco máximo"
+    },
+    {
+      "month": "Sep",
+      "weather": "Auge da temporada de furacões",
+      "emoji": "🌀",
+      "crowds": "Muito baixa",
+      "price": "Mínimo",
+      "verdict": "Maioria dos resorts fecha (Cap Juluca fecha anualmente)"
+    },
+    {
+      "month": "Oct",
+      "weather": "Risco de furacão diminuindo, úmido",
+      "emoji": "🌧",
+      "crowds": "Muito baixa",
+      "price": "Baixo",
+      "verdict": "Reaberturas tardias, restaurantes voltando"
+    },
+    {
+      "month": "Nov",
+      "weather": "Secando, ideal no fim do mês",
+      "emoji": "🌤",
+      "crowds": "Baixa-mod.",
+      "price": "Médio",
+      "verdict": "Mês de reabertura — excelente custo-benefício, clima seco volta"
+    },
+    {
+      "month": "Dec",
+      "weather": "Seco, com brisa, perfeito",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Muito alto",
+      "verdict": "Pico de festas — reserve com 8 meses para o Natal"
+    }
   ],
   "budgetTiers": [
-    { "label": "Premium", "range": "$700–1.200/noite", "gets": "Suíte pé na areia ou junior pool suite em propriedade 5 estrelas — acesso direto à praia, sem piscina privativa, mas com serviço ultraluxo completo.", "example": "Quintessence (suíte de entrada), Zemi Beach House, Malliouhana Junior Pool Suite" },
-    { "label": "Luxo", "range": "$1.200–2.500/noite", "gets": "Categoria padrão dos flagships de Anguilla, com piscina privativa e acesso direto à praia, serviço estilo butler completo.", "example": "Aurora Beachfront Pool Villa, Four Seasons standard Oceanfront Villa with Pool" },
-    { "label": "Ultra-luxo", "range": "$2.500+/noite", "gets": "Vilas pé na areia ou acomodações signature nas propriedades mais altas de Anguilla — piscina privativa, butler, as maiores categorias de vila.", "example": "Cap Juluca Beachfront Pool Villa, Four Seasons signature Oceanfront Villa, Quintessence Master Suite" }
+    {
+      "label": "Premium",
+      "range": "$700–1.200/noite",
+      "gets": "Suíte pé na areia ou junior pool suite em propriedade 5 estrelas — acesso direto à praia, sem piscina privativa, mas com serviço ultraluxo completo.",
+      "example": "Quintessence (suíte de entrada), Zemi Beach House, Malliouhana Junior Pool Suite"
+    },
+    {
+      "label": "Luxo",
+      "range": "$1.200–2.500/noite",
+      "gets": "Categoria padrão dos flagships de Anguilla, com piscina privativa e acesso direto à praia, serviço estilo butler completo.",
+      "example": "Aurora Beachfront Pool Villa, Four Seasons standard Oceanfront Villa with Pool"
+    },
+    {
+      "label": "Ultra-luxo",
+      "range": "$2.500+/noite",
+      "gets": "Vilas pé na areia ou acomodações signature nas propriedades mais altas de Anguilla — piscina privativa, butler, as maiores categorias de vila.",
+      "example": "Cap Juluca Beachfront Pool Villa, Four Seasons signature Oceanfront Villa, Quintessence Master Suite"
+    }
   ],
   "areas": [
-    { "name": "Maundays Bay (Oeste)", "bestFor": "Praia em meia-lua icônica, lar do Cap Juluca", "description": "A meia-lua sudoeste de 2,5 km que define a fotografia de Anguilla — areia fina, turquesa calma protegida por recifes, sem outro resort dividindo a baía. O Belmond Cap Juluca ocupa toda a praia com vilas brancas de arcos mouriscos espaçadas ao longo da curva." },
-    { "name": "Meads Bay (Centro)", "bestFor": "Cluster de resorts de luxo, cena de praia caminhável", "description": "A praia central de 1,6 km com o cluster de hotéis de luxo mais denso — Malliouhana no penhasco em uma extremidade, Carimar no meio, Four Seasons na ponta oeste. Blanchards Beach Shack é o lendário restaurante casual na areia." },
-    { "name": "Shoal Bay East (Nordeste)", "bestFor": "Melhor praia para snorkel, amigável ao público", "description": "Três quilômetros de areia fina na costa nordeste, com o melhor recife de snorkel da ilha logo à frente. Praia pública com cabanas clássicas (Uncle Ernie's, Gwen's) e o Zemi Beach House na ponta oeste." },
-    { "name": "Rendezvous Bay (Sul)", "bestFor": "Praia longa e silenciosa, cena de cabana ao pôr do sol", "description": "Trecho de 3 km na costa sul — Aurora Anguilla ocupa a ponta leste, Bankie Banx's Dune Preserve e Sunshine Shack ancoram a ponta oeste com a única música ao vivo consistente da ilha. Mais quieta que Meads Bay." }
+    {
+      "name": "Maundays Bay (Oeste)",
+      "bestFor": "Praia em meia-lua icônica, lar do Cap Juluca",
+      "description": "A meia-lua sudoeste de 2,5 km que define a fotografia de Anguilla — areia fina, turquesa calma protegida por recifes, sem outro resort dividindo a baía. O Belmond Cap Juluca ocupa toda a praia com vilas brancas de arcos mouriscos espaçadas ao longo da curva."
+    },
+    {
+      "name": "Meads Bay (Centro)",
+      "bestFor": "Cluster de resorts de luxo, cena de praia caminhável",
+      "description": "A praia central de 1,6 km com o cluster de hotéis de luxo mais denso — Malliouhana no penhasco em uma extremidade, Carimar no meio, Four Seasons na ponta oeste. Blanchards Beach Shack é o lendário restaurante casual na areia."
+    },
+    {
+      "name": "Shoal Bay East (Nordeste)",
+      "bestFor": "Melhor praia para snorkel, amigável ao público",
+      "description": "Três quilômetros de areia fina na costa nordeste, com o melhor recife de snorkel da ilha logo à frente. Praia pública com cabanas clássicas (Uncle Ernie's, Gwen's) e o Zemi Beach House na ponta oeste."
+    },
+    {
+      "name": "Rendezvous Bay (Sul)",
+      "bestFor": "Praia longa e silenciosa, cena de cabana ao pôr do sol",
+      "description": "Trecho de 3 km na costa sul — Aurora Anguilla ocupa a ponta leste, Bankie Banx's Dune Preserve e Sunshine Shack ancoram a ponta oeste com a única música ao vivo consistente da ilha. Mais quieta que Meads Bay."
+    }
   ],
   "expertTips": [
-    { "tip": "Reserve SXM-Anguilla pela Calypso Charters, não pelo ferry público", "detail": "O ferry público de 25 minutos saindo de Marigot é ok, mas adiciona 90+ minutos porta-a-porta (táxi até Marigot, ferry, táxi de Blowing Point). Calypso Charters e Tradewind operam voos charter privativos de 7 minutos direto do aeroporto SXM por $300–700/casal — economiza 90 minutos cada trecho, e o voo é a chegada icônica em Anguilla." },
-    { "tip": "Faça reservas de restaurante com 2 semanas de antecedência", "detail": "As mesas top de Anguilla (Veya, Hibernia, Blanchards, Leon's, Cip's) lotam totalmente na alta temporada. E-mail ou ligação direta com 2 semanas — não há sistemas de reserva online para a maioria. O concierge do hotel pode ajudar, mas antes é melhor que no check-in." },
-    { "tip": "Muitos restaurantes fecham segunda e/ou terça na baixa temporada", "detail": "Maio–junho e novembro–dezembro veem a maioria dos restaurantes não-resort fechar 1–2 dias por semana. Veya, Hibernia, Tasty's, Picante alternam — confirme por telefone 1–2 dias antes. Restaurantes de resort ficam abertos o ano todo." },
-    { "tip": "Alugue um 4x4 por meio dia para o circuito de praias", "detail": "Anguilla é pequena o suficiente para que um aluguel de meio dia ($60–80) permita dirigir o circuito completo — Maundays, Cove, Rendezvous, Shoal Bay East, Meads — e escolher sua favorita. As estradas são boas, mas não sinalizadas; Google Maps offline é essencial." },
-    { "tip": "Dê gorjeta em USD em dinheiro — XCD é a moeda oficial, mas USD é universal", "detail": "O Eastern Caribbean Dollar (XCD) é a moeda oficial de Anguilla, fixa em 2,7 por 1 USD, mas todo restaurante, táxi e resort aceita USD ao par. Leve USD em dinheiro para gorjetas — a equipe prefere. Os caixas eletrônicos dispensam XCD, que é difícil de gastar fora da ilha." }
+    {
+      "tip": "Reserve SXM-Anguilla pela Calypso Charters, não pelo ferry público",
+      "detail": "O ferry público de 25 minutos saindo de Marigot é ok, mas adiciona 90+ minutos porta-a-porta (táxi até Marigot, ferry, táxi de Blowing Point). Calypso Charters e Tradewind operam voos charter privativos de 7 minutos direto do aeroporto SXM por $300–700/casal — economiza 90 minutos cada trecho, e o voo é a chegada icônica em Anguilla."
+    },
+    {
+      "tip": "Faça reservas de restaurante com 2 semanas de antecedência",
+      "detail": "As mesas top de Anguilla (Veya, Hibernia, Blanchards, Leon's, Cip's) lotam totalmente na alta temporada. E-mail ou ligação direta com 2 semanas — não há sistemas de reserva online para a maioria. O concierge do hotel pode ajudar, mas antes é melhor que no check-in."
+    },
+    {
+      "tip": "Muitos restaurantes fecham segunda e/ou terça na baixa temporada",
+      "detail": "Maio–junho e novembro–dezembro veem a maioria dos restaurantes não-resort fechar 1–2 dias por semana. Veya, Hibernia, Tasty's, Picante alternam — confirme por telefone 1–2 dias antes. Restaurantes de resort ficam abertos o ano todo."
+    },
+    {
+      "tip": "Alugue um 4x4 por meio dia para o circuito de praias",
+      "detail": "Anguilla é pequena o suficiente para que um aluguel de meio dia ($60–80) permita dirigir o circuito completo — Maundays, Cove, Rendezvous, Shoal Bay East, Meads — e escolher sua favorita. As estradas são boas, mas não sinalizadas; Google Maps offline é essencial."
+    },
+    {
+      "tip": "Dê gorjeta em USD em dinheiro — XCD é a moeda oficial, mas USD é universal",
+      "detail": "O Eastern Caribbean Dollar (XCD) é a moeda oficial de Anguilla, fixa em 2,7 por 1 USD, mas todo restaurante, táxi e resort aceita USD ao par. Leve USD em dinheiro para gorjetas — a equipe prefere. Os caixas eletrônicos dispensam XCD, que é difícil de gastar fora da ilha."
+    }
   ],
   "packing": [
-    { "item": "Protetor solar mineral seguro para recifes", "why": "Há recifes de coral em Shoal Bay e Prickly Pear — protetor químico danifica, e os resorts maiores estão começando a exigir reef-safe" },
-    { "item": "Um look smart casual para o jantar", "why": "Veya, Hibernia, Cip's e Leon's têm dress code casual elegante — camisa de gola e calça, vestido de verão, sem shorts no jantar" },
-    { "item": "Sandálias resistentes (Tevas / Chacos)", "why": "Pedras do recife em Shoal Bay, mesa de madeira em Sandy Island, entrada de coral em Prickly Pear — chinelos não bastam" },
-    { "item": "Máscara de snorkel e nadadeiras (ou alugue na ilha)", "why": "Shoal Bay East tem o melhor recife gratuito de snorkel de Anguilla — equipamento de aluguel é ok, mas leve a sua máscara se tiver" },
-    { "item": "Cardigan ou lenço leve para os ventos alísios", "why": "Os ventos alísios refrescam à noite para 22–24°C no inverno — restaurantes ao ar livre ficam ventosos" },
-    { "item": "USD em dinheiro para gorjetas", "why": "XCD é oficial, mas USD universal; ATMs dispensam XCD, que é difícil de usar fora da ilha" }
+    {
+      "item": "Protetor solar mineral seguro para recifes",
+      "why": "Há recifes de coral em Shoal Bay e Prickly Pear — protetor químico danifica, e os resorts maiores estão começando a exigir reef-safe"
+    },
+    {
+      "item": "Um look smart casual para o jantar",
+      "why": "Veya, Hibernia, Cip's e Leon's têm dress code casual elegante — camisa de gola e calça, vestido de verão, sem shorts no jantar"
+    },
+    {
+      "item": "Sandálias resistentes (Tevas / Chacos)",
+      "why": "Pedras do recife em Shoal Bay, mesa de madeira em Sandy Island, entrada de coral em Prickly Pear — chinelos não bastam"
+    },
+    {
+      "item": "Máscara de snorkel e nadadeiras (ou alugue na ilha)",
+      "why": "Shoal Bay East tem o melhor recife gratuito de snorkel de Anguilla — equipamento de aluguel é ok, mas leve a sua máscara se tiver"
+    },
+    {
+      "item": "Cardigan ou lenço leve para os ventos alísios",
+      "why": "Os ventos alísios refrescam à noite para 22–24°C no inverno — restaurantes ao ar livre ficam ventosos"
+    },
+    {
+      "item": "USD em dinheiro para gorjetas",
+      "why": "XCD é oficial, mas USD universal; ATMs dispensam XCD, que é difícil de usar fora da ilha"
+    }
   ],
   "guide": {
     "getting": "Todos os voos internacionais conectam via Sint Maarten (SXM) — direto da costa leste dos EUA (5h de JFK/MIA), Londres Heathrow (8h), Paris CDG (9h). De SXM, escolha entre um ferry público de 25 minutos saindo de Marigot ($25/pessoa, mais $20 de táxi cada lado, das 7h às 19h) ou um voo charter privativo de 7 minutos para o Clayton Lloyd International (AXA) de Anguilla via Tradewind, Anguilla Air Services ou Calypso Charters ($300–700 por casal). A maioria dos resorts ultraluxo organiza o charter diretamente. O voo é a chegada icônica em Anguilla — voa baixo sobre a lagoa e pousa na pista pequena de AXA.",
@@ -73,5 +251,9 @@
   "localFood": "Rock crab back (a casca de caranguejo recheada apimentada é a entrada clássica anguillana), mahi ou wahoo grelhado (o peixe do dia), johnnycakes (pequenos pãezinhos fritos com manteiga), costelas de churrasco (Sunshine Shack em Rendezvous Bay é o templo), crayfish anguillana (o equivalente local da lagosta) e Pyrat rum (a marca premium de Patrick Mendes foi concebida em Anguilla — uma geração de anguillanos toma puro). O alto astral está no Veya, Hibernia, Blanchards, Cip's; o casual no Sunshine Shack, Uncle Ernie's BBQ, Gwen's Reggae Grill, Tasty's.",
   "currency": "Eastern Caribbean Dollar (XCD) — fixo em 2,7 XCD por 1 USD. USD universalmente aceito ao par em todo restaurante, táxi e resort.",
   "language": "Inglês (oficial e universal — Anguilla é Território Britânico Ultramarino)",
-  "timezone": "AST (Atlantic Standard Time, UTC-4) — sem horário de verão"
+  "timezone": "AST (Atlantic Standard Time, UTC-4) — sem horário de verão",
+  "seo": {
+    "title": "Lua de Mel em Anguilla: 6 Resorts Caribe Tranquilo 2026",
+    "description": "6 resorts em areias finas pontuados. Belmond Cap Juluca, Four Seasons, Malliouhana. De $800/noite. Dez-abr."
+  }
 }

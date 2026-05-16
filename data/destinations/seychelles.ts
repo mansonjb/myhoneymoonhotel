@@ -79,6 +79,7 @@ localFood: 'Ladob (banana in coconut milk), shark chutney, fruit bat curry (a de
 currency: 'Seychellois Rupee (SCR). USD, EUR, and GBP widely accepted at resorts.',
 language: 'Seychellois Creole, English, and French.',
 timezone: 'GMT+4 (Seychelles Time)',
+  seo: { title: "Seychelles Honeymoon: 10 Private Island Resorts 2026", description: "10 private-island and granite-beach resorts scored. North Island, Fregate, Six Senses Zil Pasyon. From $1,500/night. Apr-Oct." },
 }
 
 export default meta

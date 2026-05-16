@@ -151,6 +151,7 @@ localFood: 'Poke bowls with fresh ahi tuna, plate lunches with kalua pork, shave
 currency: 'US Dollar (USD)',
 language: 'English (Hawaiian spoken)',
 timezone: 'UTC-10 (HST, no DST)',
+  seo: { title: "Hawaii Honeymoon: 8 Luxury Island Resorts Scored 2026", description: "8 Maui, Kauai, Big Island resorts ranked. Four Seasons Hualalai, Montage Kapalua. From $700/night. Apr-Oct dry verdicts." },
 }
 
 export default meta

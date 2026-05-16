@@ -20,11 +20,8 @@ export default function HotelSchema({ hotel, locale = 'en' }: HotelSchemaProps) 
     description: hotel.content.verdict.slice(0, 200),
     image: heroPhoto?.url,
     priceRange: `$${hotel.price_per_night_usd.min}–$${hotel.price_per_night_usd.max} per night`,
-    author: {
-      '@type': 'Person',
-      name: 'Jean-Baptiste Manson',
-      url: 'https://myhoneymoonhotel.com/about',
-    },
+    // author moved to a separate Article node below — LodgingBusiness spec
+    // does NOT accept `author` (Google ignores it; risks Rich-Results warnings).
     starRating: {
       '@type': 'Rating',
       ratingValue: hotel.stars,
@@ -76,9 +73,30 @@ export default function HotelSchema({ hotel, locale = 'en' }: HotelSchemaProps) 
     ],
   }
 
+  // Article node carries the author + dateModified E-E-A-T signal. Linked
+  // to the LodgingBusiness via `about`. This is the schema-valid way to
+  // attribute editorial reviews of a business entity.
+  const article = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: `${hotel.name} — Honeymoon Review`,
+    about: { '@type': 'LodgingBusiness', name: hotel.name },
+    author: {
+      '@type': 'Person',
+      name: 'Jean-Baptiste Manson',
+      url: 'https://myhoneymoonhotel.com/about',
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'My Honeymoon Hotel',
+      logo: { '@type': 'ImageObject', url: 'https://myhoneymoonhotel.com/icon.png' },
+    },
+  }
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(lodgingBusiness) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(article) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqPage) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakable) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />

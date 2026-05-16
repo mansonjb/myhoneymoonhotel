@@ -66,6 +66,7 @@ localFood: 'Poisson cru is the national dish — raw tuna marinated in lime juic
 currency: 'CFP Franc (XPF) — €1 ≈ 119 XPF (pegged)',
 language: 'French / Tahitian (Reo Tahiti)',
 timezone: 'TAHT (UTC-10)',
+  seo: { title: "French Polynesia Honeymoon: 12 Overwater Resorts 2026", description: "12 Tahiti, Moorea, Bora Bora resorts ranked. The Brando, Four Seasons, St Regis. From $800/night. May-Oct dry." },
 }
 
 export default meta

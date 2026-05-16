@@ -77,6 +77,7 @@ localFood: 'Piri piri prawns (the finest in Africa — Mozambique piri piri is t
 currency: 'Mozambican Metical (MZN). USD and South African Rand widely accepted at island resorts.',
 language: 'Portuguese (official). English at resort level. Local dialects vary by region.',
 timezone: 'GMT+2 (Central Africa Time)',
+  seo: { title: "Mozambique Honeymoon: 6 Private Island Lodges 2026", description: "6 Bazaruto and Quirimbas island lodges scored. Azura, &Beyond Benguerra, Anantara Medjumbe. From $1,000/night. Jun-Oct." },
 }
 
 export default meta

@@ -1,6 +1,10 @@
 {
   "tagline": "Ilha espiritual selvática contra o paraíso de atóis com villas sobre a água: escolha a alma da sua lua de mel.",
   "metaDescription": "Bali ou Maldivas para uma lua de mel? Arrozais de Ubud contra villas sobre a água. Climas opostos. Qual combina com o seu casal?",
+  "seo": {
+    "title": "Bali vs Maldivas Lua de Mel: Guia de Vibe 2026",
+    "description": "Bali vs Maldivas para lua de mel 2026: terraços de arroz de Ubud ou vilas sobre a água. Custo, vibe, voos, cultura — veredicto honesto."
+  },
   "verdict": "Estes destinos não competem de verdade: respondem a perguntas opostas. Bali é sobre espiritualidade, cultura, gastronomia, selva e atividade. Maldivas é sobre não fazer nada em uma villa sobre águas de clareza perfeita. Os casais que querem fazer e explorar escolhem Bali. Os que querem desligar e simplesmente ser escolhem Maldivas. Se não conseguem decidir, provavelmente queiram os dois: 4 noites em Bali + 5 nas Maldivas em uma só viagem de 10 dias (com voos bem conectados via Singapura).",
   "tldr": {
     "forA": "Bali: a espiritualidade de Ubud, as falésias de Uluwatu, cultura, gastronomia e um valor de luxo extraordinário.",
@@ -8,17 +12,61 @@
     "tie": "Os dois oferecem luxo boutique excepcional com sólidas propostas de bem-estar (COMO, Six Senses e Aman têm presença em ambos)."
   },
   "criteria": [
-    { "label": "Clima", "aDetail": "Ativo, espiritual, cultural, social", "bDetail": "Passivo, oceânico, luxuoso, isolado" },
-    { "label": "Villas sobre a água", "aDetail": "Não existem em Bali", "bDetail": "O destino por antonomásia para villas sobre a água" },
-    { "label": "Selva / arrozais", "aDetail": "Ubud é a paisagem selvática-templária mais fotogênica", "bDetail": "Atóis planos, sem variedade vegetal" },
-    { "label": "Cultura", "aDetail": "Templos hindu-balineses, cerimônias, mercados, Galungan, Nyepi", "bDetail": "Mínima: bolha do resort" },
-    { "label": "Gastronomia", "aDetail": "Excelente cozinha indonésia + internacional (COMO Uma, Locavore)", "bDetail": "Só de resort, cara, variada, mas limitada" },
-    { "label": "Preço para 5 estrelas", "aDetail": "$400-1500/noite em propriedades de nível mundial (Amandari, Capella)", "bDetail": "$800-5000/noite no mínimo para autêntico luxo" },
-    { "label": "Tempo de voo (Europa)", "aDetail": "16-18h com escala", "bDetail": "10-11h com escala" },
-    { "label": "Clareza da água", "aDetail": "Variável, frequentes praias de areia preta", "bDetail": "Visibilidade de 25-30 m, cristalina" },
-    { "label": "Bem-estar", "aDetail": "Ubud tem a maior concentração mundial de retiros de bem-estar (COMO Shambhala, Fivelements)", "bDetail": "Os spas dos resorts são excelentes, mas limitados a um único resort" },
-    { "label": "Variedade em uma mesma viagem", "aDetail": "Ubud + Uluwatu + Canggu + Sanur em uma semana", "bDetail": "Um resort, um atol, uma experiência" },
-    { "label": "Foco romântico", "aDetail": "Villa sobre falésias com arrozais + ritual de bênção no templo", "bDetail": "Villa sobre a água + banheira de hidromassagem + plunge pool" }
+    {
+      "label": "Clima",
+      "aDetail": "Ativo, espiritual, cultural, social",
+      "bDetail": "Passivo, oceânico, luxuoso, isolado"
+    },
+    {
+      "label": "Villas sobre a água",
+      "aDetail": "Não existem em Bali",
+      "bDetail": "O destino por antonomásia para villas sobre a água"
+    },
+    {
+      "label": "Selva / arrozais",
+      "aDetail": "Ubud é a paisagem selvática-templária mais fotogênica",
+      "bDetail": "Atóis planos, sem variedade vegetal"
+    },
+    {
+      "label": "Cultura",
+      "aDetail": "Templos hindu-balineses, cerimônias, mercados, Galungan, Nyepi",
+      "bDetail": "Mínima: bolha do resort"
+    },
+    {
+      "label": "Gastronomia",
+      "aDetail": "Excelente cozinha indonésia + internacional (COMO Uma, Locavore)",
+      "bDetail": "Só de resort, cara, variada, mas limitada"
+    },
+    {
+      "label": "Preço para 5 estrelas",
+      "aDetail": "$400-1500/noite em propriedades de nível mundial (Amandari, Capella)",
+      "bDetail": "$800-5000/noite no mínimo para autêntico luxo"
+    },
+    {
+      "label": "Tempo de voo (Europa)",
+      "aDetail": "16-18h com escala",
+      "bDetail": "10-11h com escala"
+    },
+    {
+      "label": "Clareza da água",
+      "aDetail": "Variável, frequentes praias de areia preta",
+      "bDetail": "Visibilidade de 25-30 m, cristalina"
+    },
+    {
+      "label": "Bem-estar",
+      "aDetail": "Ubud tem a maior concentração mundial de retiros de bem-estar (COMO Shambhala, Fivelements)",
+      "bDetail": "Os spas dos resorts são excelentes, mas limitados a um único resort"
+    },
+    {
+      "label": "Variedade em uma mesma viagem",
+      "aDetail": "Ubud + Uluwatu + Canggu + Sanur em uma semana",
+      "bDetail": "Um resort, um atol, uma experiência"
+    },
+    {
+      "label": "Foco romântico",
+      "aDetail": "Villa sobre falésias com arrozais + ritual de bênção no templo",
+      "bDetail": "Villa sobre a água + banheira de hidromassagem + plunge pool"
+    }
   ],
   "pickA": {
     "title": "Escolha Bali se…",
@@ -41,9 +89,21 @@
     ]
   },
   "faqs": [
-    { "q": "Posso combinar Bali e Maldivas?", "a": "Sim: é uma combinação clássica de lua de mel de 10-14 dias. Voe Europa-Bali (16h), passe 4-5 noites em Bali, voe Bali-Maldivas via Singapura ou Colombo (8-9h), passe 5-6 noites nas Maldivas e voe Maldivas-Europa (10h). No total são 2-3 dias extras de viagem em comparação com um destino único." },
-    { "q": "Qual é mais econômico?", "a": "Bali, significativamente. O luxo top de Bali (Amandari, Capella Ubud, Mandapa) gira em torno de $800-1500/noite. Maldivas comparável (Cheval Blanc, Velaa, Soneva Jani) gira em torno de $2000-5000/noite. Bali oferece entre 60% e 70% do luxo das Maldivas a 40% do custo." },
-    { "q": "Qual tem melhor clima?", "a": "Os dois são tropicais com estações seca/chuvosa marcadas. Seca em Bali: mai-set. Seca nas Maldivas: dez-mar. Se planeja uma lua de mel de verão, ganha Bali. De inverno, ganham as Maldivas." },
-    { "q": "Algum é melhor para uma viagem mais longa?", "a": "Maldivas para 5-7 noites no máximo (a fadiga de ilha aparece após uma semana). Bali aguenta tranquilamente 10-14 noites com regiões diversas. Para 2 semanas, dividir entre Bali + Maldivas." }
+    {
+      "q": "Posso combinar Bali e Maldivas?",
+      "a": "Sim: é uma combinação clássica de lua de mel de 10-14 dias. Voe Europa-Bali (16h), passe 4-5 noites em Bali, voe Bali-Maldivas via Singapura ou Colombo (8-9h), passe 5-6 noites nas Maldivas e voe Maldivas-Europa (10h). No total são 2-3 dias extras de viagem em comparação com um destino único."
+    },
+    {
+      "q": "Qual é mais econômico?",
+      "a": "Bali, significativamente. O luxo top de Bali (Amandari, Capella Ubud, Mandapa) gira em torno de $800-1500/noite. Maldivas comparável (Cheval Blanc, Velaa, Soneva Jani) gira em torno de $2000-5000/noite. Bali oferece entre 60% e 70% do luxo das Maldivas a 40% do custo."
+    },
+    {
+      "q": "Qual tem melhor clima?",
+      "a": "Os dois são tropicais com estações seca/chuvosa marcadas. Seca em Bali: mai-set. Seca nas Maldivas: dez-mar. Se planeja uma lua de mel de verão, ganha Bali. De inverno, ganham as Maldivas."
+    },
+    {
+      "q": "Algum é melhor para uma viagem mais longa?",
+      "a": "Maldivas para 5-7 noites no máximo (a fadiga de ilha aparece após uma semana). Bali aguenta tranquilamente 10-14 noites com regiões diversas. Para 2 semanas, dividir entre Bali + Maldivas."
+    }
   ]
 }

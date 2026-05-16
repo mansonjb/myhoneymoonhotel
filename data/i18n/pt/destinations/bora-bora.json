@@ -56,18 +56,102 @@
     }
   ],
   "months": [
-    { "month": "Jan", "weather": "Quente, úmido, chuva ocasional", "emoji": "🌦", "crowds": "Baixa", "price": "Baixo", "verdict": "Boa oferta, alguma chuva" },
-    { "month": "Feb", "weather": "Quente, mês mais chuvoso", "emoji": "🌧", "crowds": "Baixa", "price": "Mínimo", "verdict": "Escolha econômica, espere chuva" },
-    { "month": "Mar", "weather": "Transição, secando", "emoji": "⛅", "crowds": "Baixa", "price": "Baixo", "verdict": "Mês shoulder subestimado" },
-    { "month": "Apr", "weather": "Cada vez mais seco, lindo", "emoji": "🌤", "crowds": "Baixa", "price": "Baixo-médio", "verdict": "O ponto doce começa aqui" },
-    { "month": "May", "weather": "Estação seca começa, perfeito", "emoji": "☀️", "crowds": "Moderada", "price": "Médio", "verdict": "Excelente em geral" },
-    { "month": "Jun", "weather": "Seco, com brisa, ideal", "emoji": "☀️", "crowds": "Moderada", "price": "Médio-alto", "verdict": "Um dos melhores meses" },
-    { "month": "Jul", "weather": "Pico da seca, impecável", "emoji": "☀️", "crowds": "Máxima", "price": "Alto", "verdict": "Perfeito mas lotado" },
-    { "month": "Aug", "weather": "Impecável, mês mais movimentado", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Lindo, mais caro" },
-    { "month": "Sep", "weather": "Ainda seco, esvaziando", "emoji": "☀️", "crowds": "Moderada", "price": "Médio-alto", "verdict": "Melhor custo-benefício na seca" },
-    { "month": "Oct", "weather": "Fim da seca, perfeito", "emoji": "🌤", "crowds": "Baixa-mod.", "price": "Médio", "verdict": "Mês escondido" },
-    { "month": "Nov", "weather": "Transição, possível chuva", "emoji": "⛅", "crowds": "Baixa", "price": "Baixo-médio", "verdict": "Boas ofertas, leve risco" },
-    { "month": "Dec", "weather": "Quente, corrida de feriado, risco de chuva", "emoji": "🌦", "crowds": "Alta", "price": "Muito alto", "verdict": "Caro para um mês chuvoso" }
+    {
+      "month": "Jan",
+      "weather": "Quente, úmido, chuva ocasional",
+      "emoji": "🌦",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Boa oferta, alguma chuva"
+    },
+    {
+      "month": "Feb",
+      "weather": "Quente, mês mais chuvoso",
+      "emoji": "🌧",
+      "crowds": "Baixa",
+      "price": "Mínimo",
+      "verdict": "Escolha econômica, espere chuva"
+    },
+    {
+      "month": "Mar",
+      "weather": "Transição, secando",
+      "emoji": "⛅",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Mês shoulder subestimado"
+    },
+    {
+      "month": "Apr",
+      "weather": "Cada vez mais seco, lindo",
+      "emoji": "🌤",
+      "crowds": "Baixa",
+      "price": "Baixo-médio",
+      "verdict": "O ponto doce começa aqui"
+    },
+    {
+      "month": "May",
+      "weather": "Estação seca começa, perfeito",
+      "emoji": "☀️",
+      "crowds": "Moderada",
+      "price": "Médio",
+      "verdict": "Excelente em geral"
+    },
+    {
+      "month": "Jun",
+      "weather": "Seco, com brisa, ideal",
+      "emoji": "☀️",
+      "crowds": "Moderada",
+      "price": "Médio-alto",
+      "verdict": "Um dos melhores meses"
+    },
+    {
+      "month": "Jul",
+      "weather": "Pico da seca, impecável",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Alto",
+      "verdict": "Perfeito mas lotado"
+    },
+    {
+      "month": "Aug",
+      "weather": "Impecável, mês mais movimentado",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Lindo, mais caro"
+    },
+    {
+      "month": "Sep",
+      "weather": "Ainda seco, esvaziando",
+      "emoji": "☀️",
+      "crowds": "Moderada",
+      "price": "Médio-alto",
+      "verdict": "Melhor custo-benefício na seca"
+    },
+    {
+      "month": "Oct",
+      "weather": "Fim da seca, perfeito",
+      "emoji": "🌤",
+      "crowds": "Baixa-mod.",
+      "price": "Médio",
+      "verdict": "Mês escondido"
+    },
+    {
+      "month": "Nov",
+      "weather": "Transição, possível chuva",
+      "emoji": "⛅",
+      "crowds": "Baixa",
+      "price": "Baixo-médio",
+      "verdict": "Boas ofertas, leve risco"
+    },
+    {
+      "month": "Dec",
+      "weather": "Quente, corrida de feriado, risco de chuva",
+      "emoji": "🌦",
+      "crowds": "Alta",
+      "price": "Muito alto",
+      "verdict": "Caro para um mês chuvoso"
+    }
   ],
   "budgetTiers": [
     {
@@ -134,14 +218,38 @@
     }
   ],
   "packing": [
-    { "item": "Protetor solar mineral reef-safe", "why": "Protetor químico é proibido — você será multado e o recife agradece" },
-    { "item": "GoPro ou câmera submarina", "why": "Câmera de celular não sobrevive à lagoa. Os tubarões merecem mais." },
-    { "item": "Camiseta com proteção UV (×2)", "why": "Dias inteiros na água em dias consecutivos — moda de banho regular queima" },
-    { "item": "Capa impermeável para celular", "why": "Para caiaque, transfers de barco e momentos na vila com piso de vidro" },
-    { "item": "Um look smart casual para o jantar", "why": "Dress code de jantar do resort: sem moda de banho, mas sem necessidade de jaqueta" },
-    { "item": "Sandálias de recife ou sapatos de água", "why": "Pontos de entrada de coral pelas escadas das vilas são afiados sem proteção" },
-    { "item": "Dinheiro (USD) ou cartão sem taxa de FX", "why": "CFP Franc é a moeda. USD aceito em todo lugar. Evite taxas de ATM com cartão Wise ou Revolut." },
-    { "item": "Repelente leve", "why": "Noites após o sol, especialmente perto da vegetação na ilha principal" }
+    {
+      "item": "Protetor solar mineral reef-safe",
+      "why": "Protetor químico é proibido — você será multado e o recife agradece"
+    },
+    {
+      "item": "GoPro ou câmera submarina",
+      "why": "Câmera de celular não sobrevive à lagoa. Os tubarões merecem mais."
+    },
+    {
+      "item": "Camiseta com proteção UV (×2)",
+      "why": "Dias inteiros na água em dias consecutivos — moda de banho regular queima"
+    },
+    {
+      "item": "Capa impermeável para celular",
+      "why": "Para caiaque, transfers de barco e momentos na vila com piso de vidro"
+    },
+    {
+      "item": "Um look smart casual para o jantar",
+      "why": "Dress code de jantar do resort: sem moda de banho, mas sem necessidade de jaqueta"
+    },
+    {
+      "item": "Sandálias de recife ou sapatos de água",
+      "why": "Pontos de entrada de coral pelas escadas das vilas são afiados sem proteção"
+    },
+    {
+      "item": "Dinheiro (USD) ou cartão sem taxa de FX",
+      "why": "CFP Franc é a moeda. USD aceito em todo lugar. Evite taxas de ATM com cartão Wise ou Revolut."
+    },
+    {
+      "item": "Repelente leve",
+      "why": "Noites após o sol, especialmente perto da vegetação na ilha principal"
+    }
   ],
   "guide": {
     "getting": "Voe para Papeete (PPT) no Taiti — direto de Los Angeles (8h), Paris CDG (17h), ou via Auckland. Depois um voo de hélice da Air Tahiti de 45 min para o aeroporto de Bora Bora (BOB) em um motu. Seu resort organiza um barco ou hidroavião para a lagoa principal (gaste no hidroavião — $500 a mais, vale cada centavo).",
@@ -151,5 +259,9 @@
   "localFood": "Poisson cru (atum cru no leite de coco) é o prato nacional da Polinésia Francesa — extraordinariamente fresco. Chevreffes (camarões de água doce), fruta-pão, fafaru (peixe fermentado — gosto adquirido) e doces excepcionais com influência francesa. Os jantares dos resorts são de classe mundial; o restaurante Bloody Mary's na ilha principal é a lendária instituição local.",
   "currency": "Franco CFP (XPF) — atrelado ao Euro. USD amplamente aceito.",
   "language": "Francês e taitiano. Inglês falado em todo nível de resort.",
-  "timezone": "GMT-10 (Hora Padrão da Polinésia Francesa)"
+  "timezone": "GMT-10 (Hora Padrão da Polinésia Francesa)",
+  "seo": {
+    "title": "Lua de Mel em Bora Bora: 15 Vilas Overwater 2026",
+    "description": "15 resorts com vilas sobre a água ranqueados. Four Seasons, St Regis, Conrad. De $900/noite. Melhores vistas, temporada mai-out."
+  }
 }

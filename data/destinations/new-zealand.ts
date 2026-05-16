@@ -77,6 +77,7 @@ localFood: 'New Zealand cuisine is anchored by extraordinary raw materials — g
 currency: 'New Zealand Dollar (NZD) — NZ$1 ≈ $0.60',
 language: 'English / Te Reo Māori',
 timezone: 'NZST (UTC+12) / NZDT (UTC+13)',
+  seo: { title: "New Zealand Honeymoon: 10 Lodge & Vineyard Stays 2026", description: "10 Queenstown, Bay of Islands, Wanaka lodges ranked. Huka, Helena Bay, Blanket Bay. From $1,000/night. Nov-Apr." },
 }
 
 export default meta

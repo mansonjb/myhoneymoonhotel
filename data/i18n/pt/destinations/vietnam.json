@@ -55,43 +55,189 @@
     }
   ],
   "months": [
-    { "month": "Jan", "weather": "Fresco no norte, quente e seco no sul", "emoji": "🌤", "crowds": "Baixa-mod.", "price": "Baixo-médio", "verdict": "Excelente no sul, Hanói fresca" },
-    { "month": "Feb", "weather": "Festival do Tet, melhorando, centro seco", "emoji": "🧧", "crowds": "Alta", "price": "Alto", "verdict": "Tet é mágico, mas transporte caótico" },
-    { "month": "Mar", "weather": "Quente, seco, melhor clima do país", "emoji": "☀️", "crowds": "Moderada", "price": "Médio", "verdict": "Ótimo mês geral" },
-    { "month": "Apr", "weather": "Quente, seco, ideal para praia", "emoji": "☀️", "crowds": "Moderada", "price": "Médio", "verdict": "Um dos melhores meses" },
-    { "month": "May", "weather": "Quente, pré-monção, praia central", "emoji": "🌤", "crowds": "Baixa-mod.", "price": "Baixo-médio", "verdict": "Bom tempo de praia, calor administrável" },
-    { "month": "Jun", "weather": "Estação chuvosa no sul, quente no norte", "emoji": "🌧", "crowds": "Baixa", "price": "Baixo", "verdict": "Evite o centro; Con Dao ainda boa" },
-    { "month": "Jul", "weather": "Monção sul, risco de tufão central", "emoji": "🌀", "crowds": "Baixa", "price": "Baixo", "verdict": "Difícil para a maioria das áreas" },
-    { "month": "Aug", "weather": "Risco de tufão central, chuvoso", "emoji": "🌀", "crowds": "Baixa", "price": "Baixo", "verdict": "Evite Hoi An e Danang" },
-    { "month": "Sep", "weather": "Risco de tufão segue no centro", "emoji": "🌀", "crowds": "Baixa", "price": "Baixo", "verdict": "Costa central ainda complicada" },
-    { "month": "Oct", "weather": "Hoi An com risco de cheias, Halong melhora", "emoji": "🌦", "crowds": "Baixa", "price": "Baixo-médio", "verdict": "Halong excelente, centro arriscado" },
-    { "month": "Nov", "weather": "Começa estação seca, Hanói fria", "emoji": "⛅", "crowds": "Moderada", "price": "Médio", "verdict": "Bom para o sul; Halong excelente" },
-    { "month": "Dec", "weather": "Norte fresco, sul quente, centro seco", "emoji": "🌤", "crowds": "Alta", "price": "Alto", "verdict": "Excelente temporada; multidões festivas" }
+    {
+      "month": "Jan",
+      "weather": "Fresco no norte, quente e seco no sul",
+      "emoji": "🌤",
+      "crowds": "Baixa-mod.",
+      "price": "Baixo-médio",
+      "verdict": "Excelente no sul, Hanói fresca"
+    },
+    {
+      "month": "Feb",
+      "weather": "Festival do Tet, melhorando, centro seco",
+      "emoji": "🧧",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Tet é mágico, mas transporte caótico"
+    },
+    {
+      "month": "Mar",
+      "weather": "Quente, seco, melhor clima do país",
+      "emoji": "☀️",
+      "crowds": "Moderada",
+      "price": "Médio",
+      "verdict": "Ótimo mês geral"
+    },
+    {
+      "month": "Apr",
+      "weather": "Quente, seco, ideal para praia",
+      "emoji": "☀️",
+      "crowds": "Moderada",
+      "price": "Médio",
+      "verdict": "Um dos melhores meses"
+    },
+    {
+      "month": "May",
+      "weather": "Quente, pré-monção, praia central",
+      "emoji": "🌤",
+      "crowds": "Baixa-mod.",
+      "price": "Baixo-médio",
+      "verdict": "Bom tempo de praia, calor administrável"
+    },
+    {
+      "month": "Jun",
+      "weather": "Estação chuvosa no sul, quente no norte",
+      "emoji": "🌧",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Evite o centro; Con Dao ainda boa"
+    },
+    {
+      "month": "Jul",
+      "weather": "Monção sul, risco de tufão central",
+      "emoji": "🌀",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Difícil para a maioria das áreas"
+    },
+    {
+      "month": "Aug",
+      "weather": "Risco de tufão central, chuvoso",
+      "emoji": "🌀",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Evite Hoi An e Danang"
+    },
+    {
+      "month": "Sep",
+      "weather": "Risco de tufão segue no centro",
+      "emoji": "🌀",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Costa central ainda complicada"
+    },
+    {
+      "month": "Oct",
+      "weather": "Hoi An com risco de cheias, Halong melhora",
+      "emoji": "🌦",
+      "crowds": "Baixa",
+      "price": "Baixo-médio",
+      "verdict": "Halong excelente, centro arriscado"
+    },
+    {
+      "month": "Nov",
+      "weather": "Começa estação seca, Hanói fria",
+      "emoji": "⛅",
+      "crowds": "Moderada",
+      "price": "Médio",
+      "verdict": "Bom para o sul; Halong excelente"
+    },
+    {
+      "month": "Dec",
+      "weather": "Norte fresco, sul quente, centro seco",
+      "emoji": "🌤",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Excelente temporada; multidões festivas"
+    }
   ],
   "budgetTiers": [
-    { "label": "Hotéis boutique e lifestyle", "range": "$100–$300/noite", "gets": "Hotel boutique de design impecável no centro de Hoi An ou resort de praia. Bom serviço, ótima comida, ótima localização. Custo notável.", "example": "Anantara Hoi An, The Nam Hai (vilas de praia), Fusion Maia Danang" },
-    { "label": "Premium", "range": "$300–$800/noite", "gets": "Vila com piscina privativa e acesso à praia ou baía. Spa excepcional, restaurantes e excursões curadas. Valor classe mundial pela qualidade.", "example": "Four Seasons The Nam Hai, Victoria Hoi An Beach Resort, Six Senses Con Dao" },
-    { "label": "Ultra-luxo", "range": "$800–$1.500+/noite", "gets": "Nível Aman. Pavilhão privativo na encosta sobre baía protegida. Isolamento total, design extraordinário, acesso a parque nacional.", "example": "Amanoi Ninh Thuan, The Reverie Saigon (cidade), Banyan Tree Lang Co" }
+    {
+      "label": "Hotéis boutique e lifestyle",
+      "range": "$100–$300/noite",
+      "gets": "Hotel boutique de design impecável no centro de Hoi An ou resort de praia. Bom serviço, ótima comida, ótima localização. Custo notável.",
+      "example": "Anantara Hoi An, The Nam Hai (vilas de praia), Fusion Maia Danang"
+    },
+    {
+      "label": "Premium",
+      "range": "$300–$800/noite",
+      "gets": "Vila com piscina privativa e acesso à praia ou baía. Spa excepcional, restaurantes e excursões curadas. Valor classe mundial pela qualidade.",
+      "example": "Four Seasons The Nam Hai, Victoria Hoi An Beach Resort, Six Senses Con Dao"
+    },
+    {
+      "label": "Ultra-luxo",
+      "range": "$800–$1.500+/noite",
+      "gets": "Nível Aman. Pavilhão privativo na encosta sobre baía protegida. Isolamento total, design extraordinário, acesso a parque nacional.",
+      "example": "Amanoi Ninh Thuan, The Reverie Saigon (cidade), Banyan Tree Lang Co"
+    }
   ],
   "areas": [
-    { "name": "Hoi An", "bestFor": "Cidade antiga UNESCO, alfaiates, praias", "description": "A cidade mais romântica do Vietnã. Mínimo 3 noites — a old town à noite, a Praia de An Bang de dia e uma aula de cozinha entre as duas. O distrito dos alfaiates por si só vale uma manhã dedicada." },
-    { "name": "Da Nang", "bestFor": "Praia urbana, luxo moderno, base para Hoi An", "description": "A cidade que mais cresce no Vietnã, com longa praia de areia e hotéis cada vez melhores. Boa base para explorar Hoi An (30 min) e as Marble Mountains." },
-    { "name": "Con Dao", "bestFor": "Ilha remota, tartarugas marinhas, intocada", "description": "O arquipélago remoto mais espetacular do Vietnã. O Six Senses é o único hotel de luxo. Voo de Ho Chi Minh em 50 min. Mínimo 3 noites — vale 5." },
-    { "name": "Phu Quoc", "bestFor": "Resort de ilha desenvolvido, pôr do sol, snorkel", "description": "A maior ilha do país, com cena de luxo crescente. Long Beach para o pôr do sol, Sao Beach pela beleza. Mais acessível que Con Dao, mas bem mais movimentada." },
-    { "name": "Baía de Halong", "bestFor": "Calcário cárstico, cruzeiro com pernoite", "description": "A paisagem vietnamita-mor — 3.000 ilhas emergindo de água verde-jade. Só faz sentido como cruzeiro de luxo com pernoite. Voe a Hanói e faça transfer de 3h30, ou pegue um hidroavião." }
+    {
+      "name": "Hoi An",
+      "bestFor": "Cidade antiga UNESCO, alfaiates, praias",
+      "description": "A cidade mais romântica do Vietnã. Mínimo 3 noites — a old town à noite, a Praia de An Bang de dia e uma aula de cozinha entre as duas. O distrito dos alfaiates por si só vale uma manhã dedicada."
+    },
+    {
+      "name": "Da Nang",
+      "bestFor": "Praia urbana, luxo moderno, base para Hoi An",
+      "description": "A cidade que mais cresce no Vietnã, com longa praia de areia e hotéis cada vez melhores. Boa base para explorar Hoi An (30 min) e as Marble Mountains."
+    },
+    {
+      "name": "Con Dao",
+      "bestFor": "Ilha remota, tartarugas marinhas, intocada",
+      "description": "O arquipélago remoto mais espetacular do Vietnã. O Six Senses é o único hotel de luxo. Voo de Ho Chi Minh em 50 min. Mínimo 3 noites — vale 5."
+    },
+    {
+      "name": "Phu Quoc",
+      "bestFor": "Resort de ilha desenvolvido, pôr do sol, snorkel",
+      "description": "A maior ilha do país, com cena de luxo crescente. Long Beach para o pôr do sol, Sao Beach pela beleza. Mais acessível que Con Dao, mas bem mais movimentada."
+    },
+    {
+      "name": "Baía de Halong",
+      "bestFor": "Calcário cárstico, cruzeiro com pernoite",
+      "description": "A paisagem vietnamita-mor — 3.000 ilhas emergindo de água verde-jade. Só faz sentido como cruzeiro de luxo com pernoite. Voe a Hanói e faça transfer de 3h30, ou pegue um hidroavião."
+    }
   ],
   "expertTips": [
-    { "tip": "O clima do Vietnã é regional — planeje seu roteiro", "detail": "O norte (Hanói, Halong) e o sul (Ho Chi Minh, Phu Quoc) têm estações opostas. O centro (Hoi An, Danang) é seco de fevereiro a agosto. Planeje o roteiro para seguir o clima seco rumo norte ou sul." },
-    { "tip": "Encomende roupas sob medida em Hoi An", "detail": "Os alfaiates de Hoi An entregam terno, vestido ou ao dai em 48h, com qualidade extraordinária por $60–$300. Encomende no dia 1, primeira prova no dia 2, retire no dia 3." },
-    { "tip": "Faça upgrade no cruzeiro de Halong — faz muita diferença", "detail": "Um junco de $200/noite e um de $800/noite navegam a mesma baía. A diferença está na comida, na cabine, no serviço e na quantidade de outros barcos por perto. Escolha bem." },
-    { "tip": "VietJet e Bamboo Airlines para voos domésticos", "detail": "Voos Hanói–Da Nang–Ho Chi Minh custam $30–$80 e saem de hora em hora. Trem-leito de Hanói a Hue (Livitrans) é uma alternativa romântica por $40–$80/p." }
+    {
+      "tip": "O clima do Vietnã é regional — planeje seu roteiro",
+      "detail": "O norte (Hanói, Halong) e o sul (Ho Chi Minh, Phu Quoc) têm estações opostas. O centro (Hoi An, Danang) é seco de fevereiro a agosto. Planeje o roteiro para seguir o clima seco rumo norte ou sul."
+    },
+    {
+      "tip": "Encomende roupas sob medida em Hoi An",
+      "detail": "Os alfaiates de Hoi An entregam terno, vestido ou ao dai em 48h, com qualidade extraordinária por $60–$300. Encomende no dia 1, primeira prova no dia 2, retire no dia 3."
+    },
+    {
+      "tip": "Faça upgrade no cruzeiro de Halong — faz muita diferença",
+      "detail": "Um junco de $200/noite e um de $800/noite navegam a mesma baía. A diferença está na comida, na cabine, no serviço e na quantidade de outros barcos por perto. Escolha bem."
+    },
+    {
+      "tip": "VietJet e Bamboo Airlines para voos domésticos",
+      "detail": "Voos Hanói–Da Nang–Ho Chi Minh custam $30–$80 e saem de hora em hora. Trem-leito de Hanói a Hue (Livitrans) é uma alternativa romântica por $40–$80/p."
+    }
   ],
   "packing": [
-    { "item": "Roupas leves de linho", "why": "A umidade do Vietnã (especialmente sul) exige tecido respirável. Linho seca rápido e fica elegante em restaurantes na praia." },
-    { "item": "Sandálias aquáticas e tênis de caminhada", "why": "Você vai alternar entre paralelepípedos de cidades antigas, calçadões de praia e conveses de barco. Os dois calçados são necessários todos os dias." },
-    { "item": "Capa de chuva leve", "why": "Mesmo na estação seca, pancadas tropicais aparecem. Uma jaqueta dobrável é menor que um guarda-chuva e mais útil em moto." },
-    { "item": "Echarpe ou wrap leve", "why": "Necessário em templos e como cobertura educada em áreas tradicionais. Serve também como sarongue na praia." },
-    { "item": "Frasebook de vietnamita ou tradução offline", "why": "Fora dos polos turísticos, o inglês é limitado. Google Tradutor funciona bem nas cidades; um frasebook é útil em barracas de comida." }
+    {
+      "item": "Roupas leves de linho",
+      "why": "A umidade do Vietnã (especialmente sul) exige tecido respirável. Linho seca rápido e fica elegante em restaurantes na praia."
+    },
+    {
+      "item": "Sandálias aquáticas e tênis de caminhada",
+      "why": "Você vai alternar entre paralelepípedos de cidades antigas, calçadões de praia e conveses de barco. Os dois calçados são necessários todos os dias."
+    },
+    {
+      "item": "Capa de chuva leve",
+      "why": "Mesmo na estação seca, pancadas tropicais aparecem. Uma jaqueta dobrável é menor que um guarda-chuva e mais útil em moto."
+    },
+    {
+      "item": "Echarpe ou wrap leve",
+      "why": "Necessário em templos e como cobertura educada em áreas tradicionais. Serve também como sarongue na praia."
+    },
+    {
+      "item": "Frasebook de vietnamita ou tradução offline",
+      "why": "Fora dos polos turísticos, o inglês é limitado. Google Tradutor funciona bem nas cidades; um frasebook é útil em barracas de comida."
+    }
   ],
   "guide": {
     "getting": "Voe para Hanói (HAN) ou Ho Chi Minh / Saigon (SGN). Da Europa: 11–13h via Singapura (Singapore Airlines, 13h direto), Dubai (Emirates, 12h) ou Doha (Qatar, 11h). Da Austrália: Singapore Airlines via Singapura (8h de Sydney). Voos domésticos entre Hanói, Danang (para Hoi An) e Ho Chi Minh são frequentes e baratos ($30–$80 na VietJet/Bamboo). De Danang a Hoi An: táxi de 30 min ($10).",
@@ -101,5 +247,9 @@
   "localFood": "Pho bo (sopa de macarrão com carne icônica de Hanói num banquinho de plástico de rua às 7h), banh mi (o melhor sanduíche do mundo — baguete francesa com patê, vegetais em conserva e pimenta), cao lau (prato-símbolo de Hoi An, feito com água de um único poço antigo), white rose dumplings (só de Hoi An), bun cha (porco grelhado com vermicelli em Hanói — o que Obama e Bourdain comeram) e um ca phe trung (café com gema de Hanói) como sobremesa da tarde. A culinária vietnamita tem variação regional extraordinária — toda cidade tem um prato que nenhuma outra reproduz.",
   "currency": "Dong vietnamita (VND) — hotéis e tours costumam cotar em USD",
   "language": "Vietnamita. Inglês falado em todas as áreas turísticas.",
-  "timezone": "UTC+7 (Indochina Time)"
+  "timezone": "UTC+7 (Indochina Time)",
+  "seo": {
+    "title": "Lua de Mel no Vietnã: 8 Hotéis Litoral e Patrimônio",
+    "description": "8 estadias em Hoi An, Phu Quoc e Hanói pontuadas. Six Senses Con Dao, JW Marriott. De $300/noite. Nov-abr."
+  }
 }

@@ -55,18 +55,102 @@
     }
   ],
   "months": [
-    { "month": "Jan", "weather": "Frío, seco, cielos cristalinos", "emoji": "❄️", "crowds": "Baja", "price": "Bajo", "verdict": "Las mejores vistas del Fuji y templos en calma" },
-    { "month": "Feb", "weather": "Mes más frío, comienzan los ciruelos en flor", "emoji": "❄️", "crowds": "Baja", "price": "Bajo", "verdict": "Tranquilo y bello durante la temporada de ciruelos" },
-    { "month": "Mar", "weather": "Templándose, cerezos en flor a finales", "emoji": "🌸", "crowds": "Alta", "price": "Alto", "verdict": "Mágico si se acierta con el momento" },
-    { "month": "Apr", "weather": "Pico de cerezos en flor, primavera cálida", "emoji": "🌸", "crowds": "Máxima", "price": "Máximo", "verdict": "El más romántico: reserve con un año de antelación" },
-    { "month": "May", "weather": "Cálido, verde fresco, Golden Week ajetreada", "emoji": "🌿", "crowds": "Alta", "price": "Alto", "verdict": "Bello, pero la Golden Week es caótica" },
-    { "month": "Jun", "weather": "Comienza la temporada de lluvias (tsuyu)", "emoji": "🌧", "crowds": "Baja", "price": "Bajo-medio", "verdict": "Buenas ofertas, florecen las hortensias" },
-    { "month": "Jul", "weather": "Caluroso, húmedo, terminan las lluvias", "emoji": "☀️", "crowds": "Moderada", "price": "Medio", "verdict": "Festivales y fuegos artificiales, pero calor" },
-    { "month": "Aug", "weather": "Muy caluroso y húmedo", "emoji": "🥵", "crowds": "Alta", "price": "Alto", "verdict": "Festivales Obon hermosos; el calor es real" },
-    { "month": "Sep", "weather": "Refrescando, riesgo menor de tifón", "emoji": "🌀", "crowds": "Baja", "price": "Bajo-medio", "verdict": "Buena relación calidad-precio, leve riesgo de tifón" },
-    { "month": "Oct", "weather": "Otoño perfecto", "emoji": "🍂", "crowds": "Moderada", "price": "Medio-alto", "verdict": "Excelente temporada media" },
-    { "month": "Nov", "weather": "Pico de follaje otoñal, espectacular", "emoji": "🍁", "crowds": "Máxima", "price": "Máximo", "verdict": "Tan mágico como la temporada de cerezos" },
-    { "month": "Dec", "weather": "Fresco a frío, festivo, sin multitudes", "emoji": "⛩️", "crowds": "Baja", "price": "Medio", "verdict": "Infravalorado: tranquilo y bello" }
+    {
+      "month": "Jan",
+      "weather": "Frío, seco, cielos cristalinos",
+      "emoji": "❄️",
+      "crowds": "Baja",
+      "price": "Bajo",
+      "verdict": "Las mejores vistas del Fuji y templos en calma"
+    },
+    {
+      "month": "Feb",
+      "weather": "Mes más frío, comienzan los ciruelos en flor",
+      "emoji": "❄️",
+      "crowds": "Baja",
+      "price": "Bajo",
+      "verdict": "Tranquilo y bello durante la temporada de ciruelos"
+    },
+    {
+      "month": "Mar",
+      "weather": "Templándose, cerezos en flor a finales",
+      "emoji": "🌸",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Mágico si se acierta con el momento"
+    },
+    {
+      "month": "Apr",
+      "weather": "Pico de cerezos en flor, primavera cálida",
+      "emoji": "🌸",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "El más romántico: reserve con un año de antelación"
+    },
+    {
+      "month": "May",
+      "weather": "Cálido, verde fresco, Golden Week ajetreada",
+      "emoji": "🌿",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Bello, pero la Golden Week es caótica"
+    },
+    {
+      "month": "Jun",
+      "weather": "Comienza la temporada de lluvias (tsuyu)",
+      "emoji": "🌧",
+      "crowds": "Baja",
+      "price": "Bajo-medio",
+      "verdict": "Buenas ofertas, florecen las hortensias"
+    },
+    {
+      "month": "Jul",
+      "weather": "Caluroso, húmedo, terminan las lluvias",
+      "emoji": "☀️",
+      "crowds": "Moderada",
+      "price": "Medio",
+      "verdict": "Festivales y fuegos artificiales, pero calor"
+    },
+    {
+      "month": "Aug",
+      "weather": "Muy caluroso y húmedo",
+      "emoji": "🥵",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Festivales Obon hermosos; el calor es real"
+    },
+    {
+      "month": "Sep",
+      "weather": "Refrescando, riesgo menor de tifón",
+      "emoji": "🌀",
+      "crowds": "Baja",
+      "price": "Bajo-medio",
+      "verdict": "Buena relación calidad-precio, leve riesgo de tifón"
+    },
+    {
+      "month": "Oct",
+      "weather": "Otoño perfecto",
+      "emoji": "🍂",
+      "crowds": "Moderada",
+      "price": "Medio-alto",
+      "verdict": "Excelente temporada media"
+    },
+    {
+      "month": "Nov",
+      "weather": "Pico de follaje otoñal, espectacular",
+      "emoji": "🍁",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Tan mágico como la temporada de cerezos"
+    },
+    {
+      "month": "Dec",
+      "weather": "Fresco a frío, festivo, sin multitudes",
+      "emoji": "⛩️",
+      "crowds": "Baja",
+      "price": "Medio",
+      "verdict": "Infravalorado: tranquilo y bello"
+    }
   ],
   "budgetTiers": [
     {
@@ -138,11 +222,26 @@
     }
   ],
   "packing": [
-    { "item": "Calzado fácil de quitar", "why": "Se descalzará decenas de veces al día en templos, ryokan y restaurantes. Los cordones se vuelven exasperantes al segundo día." },
-    { "item": "Capas ligeras", "why": "La calefacción y refrigeración interiores en Japón son agresivas. Los templos no tienen calefacción en invierno. Los veranos son tropicales. Vístase por capas constantemente." },
-    { "item": "Tarjeta IC (Suica o Pasmo)", "why": "Cargue ¥5,000 al llegar en cualquier estación. Funciona en metro, autobuses y la mayoría de tiendas de conveniencia. Más rápido que comprar billetes individuales." },
-    { "item": "Paraguas plegable", "why": "Japón tiene chaparrones breves frecuentes durante todo el año. Tan esencial como su teléfono." },
-    { "item": "Mochila pequeña de día", "why": "Las calles y el transporte japonés premian el equipaje compacto. Una mochila pequeña para las salidas diarias evita los problemas de consigna." }
+    {
+      "item": "Calzado fácil de quitar",
+      "why": "Se descalzará decenas de veces al día en templos, ryokan y restaurantes. Los cordones se vuelven exasperantes al segundo día."
+    },
+    {
+      "item": "Capas ligeras",
+      "why": "La calefacción y refrigeración interiores en Japón son agresivas. Los templos no tienen calefacción en invierno. Los veranos son tropicales. Vístase por capas constantemente."
+    },
+    {
+      "item": "Tarjeta IC (Suica o Pasmo)",
+      "why": "Cargue ¥5,000 al llegar en cualquier estación. Funciona en metro, autobuses y la mayoría de tiendas de conveniencia. Más rápido que comprar billetes individuales."
+    },
+    {
+      "item": "Paraguas plegable",
+      "why": "Japón tiene chaparrones breves frecuentes durante todo el año. Tan esencial como su teléfono."
+    },
+    {
+      "item": "Mochila pequeña de día",
+      "why": "Las calles y el transporte japonés premian el equipaje compacto. Una mochila pequeña para las salidas diarias evita los problemas de consigna."
+    }
   ],
   "guide": {
     "getting": "Vuele a Tokio Narita (NRT) o Haneda (HND); Haneda está más cerca de la ciudad. Desde Londres: directo con JAL/ANA/BA (12h). Desde Europa: conexiones vía Ámsterdam, París, Fráncfort (13–14h en total). Desde EE.UU.: directo desde LAX, SFO, JFK (11–14h). Tome el Narita Express ($30) o el Limousine Bus a su hotel. Tokio a Kioto: Shinkansen Nozomi (2h15m, ~$130 por trayecto); reserve los asientos con antelación.",
@@ -152,5 +251,9 @@
   "localFood": "Kaiseki (la alta cocina japonesa: una ceremonia estacional de 10 o más platos), ramen en un pequeño local de 8 asientos en un sótano, obanzai de Kioto (pequeños platos estacionales de encurtidos, tofu y pescado a la parrilla), takoyaki y okonomiyaki de Osaka, sukiyaki de wagyu en un especialista de Ginza, todo lo de matcha en Uji, cerca de Kioto. Japón tiene más restaurantes con estrellas Michelin que Francia. Incluso un onigiri de ¥700 de una tienda de conveniencia es trascendente.",
   "currency": "Yen japonés (JPY); economía en gran parte en metálico; tarjetas aceptadas en hoteles",
   "language": "Japonés. Inglés en zonas turísticas; el modo cámara de Google Translate es esencial fuera de ellas.",
-  "timezone": "UTC+9 (hora estándar de Japón)"
+  "timezone": "UTC+9 (hora estándar de Japón)",
+  "seo": {
+    "title": "Luna de Miel en Japón: 8 Ryokan y Hoteles Urbanos 2026",
+    "description": "8 estancias en Tokio, Kioto y Hakone clasificadas. Aman, Hoshinoya, Park Hyatt. Desde $500/noche. Mar-May cerezos."
+  }
 }

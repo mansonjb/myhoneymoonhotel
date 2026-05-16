@@ -78,6 +78,7 @@ localFood: 'Zebu (the humped Malagasy cattle) is the staple protein — grilled 
 currency: 'Malagasy Ariary (MGA). Euros (EUR) widely accepted at lodges and tourist sites — bring cash Euros for tipping and rural transactions.',
 language: 'Malagasy (official). French (the lingua franca) widely spoken in tourism. English is patchy outside top-end lodges.',
 timezone: 'East Africa Time (EAT, UTC+3) — no daylight saving',
+  seo: { title: "Madagascar Honeymoon: 6 Island & Rainforest Lodges", description: "6 Nosy Be, Andasibe, Anjajavy lodges scored. Anjajavy, Time + Tide Miavana, Constance Tsarabanjina. From $500/night." },
 }
 
 export default meta

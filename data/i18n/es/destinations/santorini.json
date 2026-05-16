@@ -55,18 +55,102 @@
     }
   ],
   "months": [
-    { "month": "Jan", "weather": "Fresco, 12-15 °C, lluvia, muchos cierres", "emoji": "🌧", "crowds": "Ninguna", "price": "Mínimo", "verdict": "Temporada baja: opciones limitadas" },
-    { "month": "Feb", "weather": "Frío, flores silvestres, algo de sol", "emoji": "⛅", "crowds": "Mínima", "price": "Muy bajo", "verdict": "No es mes de luna de miel" },
-    { "month": "Mar", "weather": "Templado, 16 °C, comienzan las reaperturas", "emoji": "🌤", "crowds": "Baja", "price": "Bajo", "verdict": "Mes para los más madrugadores" },
-    { "month": "Apr", "weather": "Cálido, 20 °C, todo reabre", "emoji": "☀️", "crowds": "Baja-mod.", "price": "Medio", "verdict": "Excelente temporada media" },
-    { "month": "May", "weather": "Perfecto, 24 °C, días largos y cálidos", "emoji": "☀️", "crowds": "Moderada", "price": "Medio-alto", "verdict": "Mejor mes de temporada media" },
-    { "month": "Jun", "weather": "Caluroso, 28 °C, repuntando", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Magnífico, pero ya con bullicio" },
-    { "month": "Jul", "weather": "32 °C, vientos Meltemi, máximo turístico", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Icónico, pero extremadamente concurrido" },
-    { "month": "Aug", "weather": "34 °C, el mes más concurrido del planeta", "emoji": "🌞", "crowds": "Extrema", "price": "Máximo", "verdict": "Icónico, pero abrumador" },
-    { "month": "Sep", "weather": "Ideal: 29 °C, mar cálido, menos gente", "emoji": "☀️", "crowds": "Moderada", "price": "Alto", "verdict": "Mejor mes: mismas vistas, menos gente" },
-    { "month": "Oct", "weather": "Cálido, 24 °C, muy tranquilo", "emoji": "🌤", "crowds": "Baja", "price": "Medio", "verdict": "Mes joya escondida" },
-    { "month": "Nov", "weather": "Refrescando, lluvia, muchos hoteles cierran", "emoji": "⛅", "crowds": "Muy baja", "price": "Bajo", "verdict": "Muchos hoteles cierran" },
-    { "month": "Dec", "weather": "Fresco, 14 °C, tranquilo", "emoji": "🌧", "crowds": "Muy baja", "price": "Muy bajo", "verdict": "Temporada baja: limitada" }
+    {
+      "month": "Jan",
+      "weather": "Fresco, 12-15 °C, lluvia, muchos cierres",
+      "emoji": "🌧",
+      "crowds": "Ninguna",
+      "price": "Mínimo",
+      "verdict": "Temporada baja: opciones limitadas"
+    },
+    {
+      "month": "Feb",
+      "weather": "Frío, flores silvestres, algo de sol",
+      "emoji": "⛅",
+      "crowds": "Mínima",
+      "price": "Muy bajo",
+      "verdict": "No es mes de luna de miel"
+    },
+    {
+      "month": "Mar",
+      "weather": "Templado, 16 °C, comienzan las reaperturas",
+      "emoji": "🌤",
+      "crowds": "Baja",
+      "price": "Bajo",
+      "verdict": "Mes para los más madrugadores"
+    },
+    {
+      "month": "Apr",
+      "weather": "Cálido, 20 °C, todo reabre",
+      "emoji": "☀️",
+      "crowds": "Baja-mod.",
+      "price": "Medio",
+      "verdict": "Excelente temporada media"
+    },
+    {
+      "month": "May",
+      "weather": "Perfecto, 24 °C, días largos y cálidos",
+      "emoji": "☀️",
+      "crowds": "Moderada",
+      "price": "Medio-alto",
+      "verdict": "Mejor mes de temporada media"
+    },
+    {
+      "month": "Jun",
+      "weather": "Caluroso, 28 °C, repuntando",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Magnífico, pero ya con bullicio"
+    },
+    {
+      "month": "Jul",
+      "weather": "32 °C, vientos Meltemi, máximo turístico",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Icónico, pero extremadamente concurrido"
+    },
+    {
+      "month": "Aug",
+      "weather": "34 °C, el mes más concurrido del planeta",
+      "emoji": "🌞",
+      "crowds": "Extrema",
+      "price": "Máximo",
+      "verdict": "Icónico, pero abrumador"
+    },
+    {
+      "month": "Sep",
+      "weather": "Ideal: 29 °C, mar cálido, menos gente",
+      "emoji": "☀️",
+      "crowds": "Moderada",
+      "price": "Alto",
+      "verdict": "Mejor mes: mismas vistas, menos gente"
+    },
+    {
+      "month": "Oct",
+      "weather": "Cálido, 24 °C, muy tranquilo",
+      "emoji": "🌤",
+      "crowds": "Baja",
+      "price": "Medio",
+      "verdict": "Mes joya escondida"
+    },
+    {
+      "month": "Nov",
+      "weather": "Refrescando, lluvia, muchos hoteles cierran",
+      "emoji": "⛅",
+      "crowds": "Muy baja",
+      "price": "Bajo",
+      "verdict": "Muchos hoteles cierran"
+    },
+    {
+      "month": "Dec",
+      "weather": "Fresco, 14 °C, tranquilo",
+      "emoji": "🌧",
+      "crowds": "Muy baja",
+      "price": "Muy bajo",
+      "verdict": "Temporada baja: limitada"
+    }
   ],
   "budgetTiers": [
     {
@@ -111,18 +195,48 @@
     }
   ],
   "expertTips": [
-    { "tip": "Reserve la suite cueva con vista a la caldera con 4-6 meses de antelación entre mayo y septiembre", "detail": "Hay menos de 200 suites genuinas con piscina infinita y vista a la caldera en toda la isla. Las 50 mejores unidades en Canaves, Mystique y Aenaon se agotan con clientes recurrentes y agentes especializados. Reserve directamente con el hotel lo antes posible y mencione que es luna de miel: las cortesías ocurren." },
-    { "tip": "Septiembre supera a agosto en todo lo medible", "detail": "Mismas vistas, mismo atardecer, mismo vino, mismo tiempo perfecto, pero un 35% menos de turistas, precios un 20-25% más bajos, noches más frescas para pasear y mar templado (24 °C). Si tiene flexibilidad, septiembre es objetivamente el mejor mes para una luna de miel en Santorini." },
-    { "tip": "El viento Meltemi es un factor real en julio y agosto", "detail": "El viento estival del norte (Meltemi) sopla a 30-40 km/h sobre la caldera entre julio y agosto. El lado de la caldera de Oia está resguardado, pero las playas del este se encrespan. Planifique en consecuencia: si la vela o el catamarán le importan, viaje en junio o septiembre." },
-    { "tip": "Baje a Ammoudi Bay para el mejor almuerzo de la isla", "detail": "La diminuta bahía pesquera, 214 escalones por debajo de Oia, tiene 5 tabernas que sirven pulpo a la brasa, ensalada de erizos y pescado recién pescado en el muelle. Comer aquí, con los barcos meciéndose y el muro de la caldera arriba, supera cualquier restaurante con vista de 300 €. Baje a pie, vuelva en teleférico." },
-    { "tip": "Alquile un quad o scooter: no dependa de los taxis", "detail": "La oferta de taxis en Santorini es catastróficamente insuficiente para el volumen turístico estival. Esperas de 2-4 h son habituales. Alquilar un quad (30-50 USD/día) le da total libertad y resulta genuinamente divertido en las carreteras costeras. Tome la carretera principal de la caldera a las 7:00, antes del tráfico." }
+    {
+      "tip": "Reserve la suite cueva con vista a la caldera con 4-6 meses de antelación entre mayo y septiembre",
+      "detail": "Hay menos de 200 suites genuinas con piscina infinita y vista a la caldera en toda la isla. Las 50 mejores unidades en Canaves, Mystique y Aenaon se agotan con clientes recurrentes y agentes especializados. Reserve directamente con el hotel lo antes posible y mencione que es luna de miel: las cortesías ocurren."
+    },
+    {
+      "tip": "Septiembre supera a agosto en todo lo medible",
+      "detail": "Mismas vistas, mismo atardecer, mismo vino, mismo tiempo perfecto, pero un 35% menos de turistas, precios un 20-25% más bajos, noches más frescas para pasear y mar templado (24 °C). Si tiene flexibilidad, septiembre es objetivamente el mejor mes para una luna de miel en Santorini."
+    },
+    {
+      "tip": "El viento Meltemi es un factor real en julio y agosto",
+      "detail": "El viento estival del norte (Meltemi) sopla a 30-40 km/h sobre la caldera entre julio y agosto. El lado de la caldera de Oia está resguardado, pero las playas del este se encrespan. Planifique en consecuencia: si la vela o el catamarán le importan, viaje en junio o septiembre."
+    },
+    {
+      "tip": "Baje a Ammoudi Bay para el mejor almuerzo de la isla",
+      "detail": "La diminuta bahía pesquera, 214 escalones por debajo de Oia, tiene 5 tabernas que sirven pulpo a la brasa, ensalada de erizos y pescado recién pescado en el muelle. Comer aquí, con los barcos meciéndose y el muro de la caldera arriba, supera cualquier restaurante con vista de 300 €. Baje a pie, vuelva en teleférico."
+    },
+    {
+      "tip": "Alquile un quad o scooter: no dependa de los taxis",
+      "detail": "La oferta de taxis en Santorini es catastróficamente insuficiente para el volumen turístico estival. Esperas de 2-4 h son habituales. Alquilar un quad (30-50 USD/día) le da total libertad y resulta genuinamente divertido en las carreteras costeras. Tome la carretera principal de la caldera a las 7:00, antes del tráfico."
+    }
   ],
   "packing": [
-    { "item": "Buenas sandalias de paseo", "why": "Los escalones de la caldera, las callejuelas adoquinadas de Oia y la caminata Fira-Oia exigen calzado adecuado: las chanclas le destrozarán los pies" },
-    { "item": "Ropa ligera de lino", "why": "El código en los restaurantes de la caldera es smart casual: el lino mantiene el frescor en una cena a 30 °C" },
-    { "item": "Protector solar de SPF alto y sombrero", "why": "Las superficies blancas reflejan el UV desde todas direcciones: el riesgo de quemadura es mayor de lo esperado en la caldera" },
-    { "item": "Gafas de sol polarizadas", "why": "La luz reflejada del Egeo sobre las superficies blancas sin polarización es dolorosa: invierta en óptica de calidad" },
-    { "item": "Algo de efectivo (€)", "why": "Alquiler de quad, tabernas locales, teleférico y taxis acuáticos suelen preferir el efectivo. Los cajeros de Fira y Oia tienen colas en temporada alta." }
+    {
+      "item": "Buenas sandalias de paseo",
+      "why": "Los escalones de la caldera, las callejuelas adoquinadas de Oia y la caminata Fira-Oia exigen calzado adecuado: las chanclas le destrozarán los pies"
+    },
+    {
+      "item": "Ropa ligera de lino",
+      "why": "El código en los restaurantes de la caldera es smart casual: el lino mantiene el frescor en una cena a 30 °C"
+    },
+    {
+      "item": "Protector solar de SPF alto y sombrero",
+      "why": "Las superficies blancas reflejan el UV desde todas direcciones: el riesgo de quemadura es mayor de lo esperado en la caldera"
+    },
+    {
+      "item": "Gafas de sol polarizadas",
+      "why": "La luz reflejada del Egeo sobre las superficies blancas sin polarización es dolorosa: invierta en óptica de calidad"
+    },
+    {
+      "item": "Algo de efectivo (€)",
+      "why": "Alquiler de quad, tabernas locales, teleférico y taxis acuáticos suelen preferir el efectivo. Los cajeros de Fira y Oia tienen colas en temporada alta."
+    }
   ],
   "guide": {
     "getting": "Vuele directo al aeropuerto de Santorini (JTR): 3-4 h desde la mayoría de las capitales europeas. Vuelos directos desde Londres Heathrow y Gatwick (British Airways, EasyJet), París CDG, Ámsterdam, Fráncfort, Roma y otras 20 ciudades europeas. El aeropuerto está a 10 km de Oia: reserve un taxi por adelantado (25-35 €) o alquile un quad en la terminal. Alternativamente, Atenas (ATH) a Santorini con Aegean Air son 45 minutos (desde 50 € por trayecto). El ferry rápido desde el Pireo a Santorini son 5-8 h: la llegada más lenta y panorámica.",
@@ -132,5 +246,9 @@
   "localFood": "La cocina de Santorini se define por su suelo volcánico: la isla produce algunos de los ingredientes más distintivos de Grecia. Tomates cherry (pomodori) cultivados en tierra volcánica, intensamente dulces y pequeños, en ensaladas y como pasta. Fava: puré amarillo de guisantes partidos, plato emblema de la isla, hecho con legumbres cultivadas aquí desde hace 3.500 años. Berenjena blanca (melitzana aspri), exclusiva de Santorini, menos amarga. Pulpo a la brasa en cualquier taberna con terraza. Vinsanto: el dulce de postre elaborado con uvas Assyrtiko y Aidani secadas al sol, extraordinario. En restaurantes: Kapari Wine Restaurant en Imerovigli para una buena relación calidad-precio con vistas, las tabernas de pescado de Ammoudi para el mejor marisco y Selene en Fira para la cocina más seria de Santorini.",
   "currency": "Euro (EUR)",
   "language": "Griego. Inglés hablado en todos los niveles turísticos.",
-  "timezone": "UTC+2 (Eastern European Time) / UTC+3 (EEST in summer, late March–late October)"
+  "timezone": "UTC+2 (Eastern European Time) / UTC+3 (EEST in summer, late March–late October)",
+  "seo": {
+    "title": "Luna de Miel en Santorini: 24 Cuevas en Acantilado",
+    "description": "24 hoteles con vista a la caldera clasificados. Oia, Imerovigli, Firostefani. Desde $400/noche. Mejores suites al atardecer, May-Oct."
+  }
 }

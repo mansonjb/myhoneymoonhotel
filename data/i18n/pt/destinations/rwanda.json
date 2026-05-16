@@ -56,46 +56,201 @@
     }
   ],
   "months": [
-    { "month": "Jan", "weather": "Estação seca curta, quente", "emoji": "☀️", "crowds": "Moderada", "price": "Alto", "verdict": "Excelente — seca curta" },
-    { "month": "Feb", "weather": "Seca curta, calor em baixa altitude", "emoji": "☀️", "crowds": "Moderada", "price": "Alto", "verdict": "Melhor da seca curta" },
-    { "month": "Mar", "weather": "Começam as chuvas longas", "emoji": "🌧", "crowds": "Baixa", "price": "Baixo-médio", "verdict": "Úmido, trilhas com lama" },
-    { "month": "Apr", "weather": "Chuvas fortes", "emoji": "🌧", "crowds": "Mínima", "price": "Mínimo", "verdict": "Tarifas mínimas, trilhas mais difíceis" },
-    { "month": "May", "weather": "Chuvas diminuindo", "emoji": "⛅", "crowds": "Baixa", "price": "Baixo", "verdict": "Úmido, mas verdejando" },
-    { "month": "Jun", "weather": "Começa a estação seca longa", "emoji": "☀️", "crowds": "Moderada", "price": "Alto", "verdict": "Abre a melhor temporada" },
-    { "month": "Jul", "weather": "Fresco, seco, alta temporada", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Tempo perfeito para trilhas" },
-    { "month": "Aug", "weather": "Fresco, seco, alta temporada", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Pico — reserve com 9 a 12 meses" },
-    { "month": "Sep", "weather": "Fresco, seco, perfeito", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Excelente até meados de outubro" },
-    { "month": "Oct", "weather": "Pequenas chuvas começam tarde", "emoji": "🌤", "crowds": "Mod. (início de out)", "price": "Alto (início)", "verdict": "Início de out ótimo, fim chuvoso" },
-    { "month": "Nov", "weather": "Pequenas chuvas, lamacento", "emoji": "🌧", "crowds": "Baixa", "price": "Médio", "verdict": "Úmido, mas verde" },
-    { "month": "Dec", "weather": "Secando, tarifas de feriado", "emoji": "⛅", "crowds": "Mod. (Natal)", "price": "Alto", "verdict": "Final de dez seca" }
+    {
+      "month": "Jan",
+      "weather": "Estação seca curta, quente",
+      "emoji": "☀️",
+      "crowds": "Moderada",
+      "price": "Alto",
+      "verdict": "Excelente — seca curta"
+    },
+    {
+      "month": "Feb",
+      "weather": "Seca curta, calor em baixa altitude",
+      "emoji": "☀️",
+      "crowds": "Moderada",
+      "price": "Alto",
+      "verdict": "Melhor da seca curta"
+    },
+    {
+      "month": "Mar",
+      "weather": "Começam as chuvas longas",
+      "emoji": "🌧",
+      "crowds": "Baixa",
+      "price": "Baixo-médio",
+      "verdict": "Úmido, trilhas com lama"
+    },
+    {
+      "month": "Apr",
+      "weather": "Chuvas fortes",
+      "emoji": "🌧",
+      "crowds": "Mínima",
+      "price": "Mínimo",
+      "verdict": "Tarifas mínimas, trilhas mais difíceis"
+    },
+    {
+      "month": "May",
+      "weather": "Chuvas diminuindo",
+      "emoji": "⛅",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Úmido, mas verdejando"
+    },
+    {
+      "month": "Jun",
+      "weather": "Começa a estação seca longa",
+      "emoji": "☀️",
+      "crowds": "Moderada",
+      "price": "Alto",
+      "verdict": "Abre a melhor temporada"
+    },
+    {
+      "month": "Jul",
+      "weather": "Fresco, seco, alta temporada",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Tempo perfeito para trilhas"
+    },
+    {
+      "month": "Aug",
+      "weather": "Fresco, seco, alta temporada",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Pico — reserve com 9 a 12 meses"
+    },
+    {
+      "month": "Sep",
+      "weather": "Fresco, seco, perfeito",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Excelente até meados de outubro"
+    },
+    {
+      "month": "Oct",
+      "weather": "Pequenas chuvas começam tarde",
+      "emoji": "🌤",
+      "crowds": "Mod. (início de out)",
+      "price": "Alto (início)",
+      "verdict": "Início de out ótimo, fim chuvoso"
+    },
+    {
+      "month": "Nov",
+      "weather": "Pequenas chuvas, lamacento",
+      "emoji": "🌧",
+      "crowds": "Baixa",
+      "price": "Médio",
+      "verdict": "Úmido, mas verde"
+    },
+    {
+      "month": "Dec",
+      "weather": "Secando, tarifas de feriado",
+      "emoji": "⛅",
+      "crowds": "Mod. (Natal)",
+      "price": "Alto",
+      "verdict": "Final de dez seca"
+    }
   ],
   "budgetTiers": [
-    { "label": "Confortável", "range": "$300–$900/noite por casal", "gets": "Boutique em Kigali (The Retreat) ou 5 estrelas internacional (Kigali Marriott). Use só nas noites de chegada/saída.", "example": "The Retreat by Heaven, Kigali Marriott" },
-    { "label": "Lodges premium", "range": "$1.200–$2.000/noite por casal", "gets": "Lodge full-service com todas as atividades inclusas. Sabyinyo Silverback, Magashi, One&Only Nyungwe.", "example": "Sabyinyo Silverback Lodge, Magashi Camp, One&Only Nyungwe House" },
-    { "label": "Ultra-luxo nos Vulcões", "range": "$2.000–$5.000/noite por casal", "gets": "Singita, Bisate, One&Only Gorilla's Nest. All-inclusive com refeições, bebidas premium, spa no quarto e transfers. Permissões à parte.", "example": "Singita Kwitonda, Bisate Lodge, One&Only Gorilla's Nest" }
+    {
+      "label": "Confortável",
+      "range": "$300–$900/noite por casal",
+      "gets": "Boutique em Kigali (The Retreat) ou 5 estrelas internacional (Kigali Marriott). Use só nas noites de chegada/saída.",
+      "example": "The Retreat by Heaven, Kigali Marriott"
+    },
+    {
+      "label": "Lodges premium",
+      "range": "$1.200–$2.000/noite por casal",
+      "gets": "Lodge full-service com todas as atividades inclusas. Sabyinyo Silverback, Magashi, One&Only Nyungwe.",
+      "example": "Sabyinyo Silverback Lodge, Magashi Camp, One&Only Nyungwe House"
+    },
+    {
+      "label": "Ultra-luxo nos Vulcões",
+      "range": "$2.000–$5.000/noite por casal",
+      "gets": "Singita, Bisate, One&Only Gorilla's Nest. All-inclusive com refeições, bebidas premium, spa no quarto e transfers. Permissões à parte.",
+      "example": "Singita Kwitonda, Bisate Lodge, One&Only Gorilla's Nest"
+    }
   ],
   "areas": [
-    { "name": "Parque Nacional dos Vulcões (norte)", "bestFor": "Trekking dos gorilas", "description": "2h30 de carro de Kigali. Singita Kwitonda, One&Only Gorilla's Nest, Bisate e Sabyinyo Silverback ficam todos perto da vila de Kinigi. Clima fresco de montanha (10–22°C), altitude superior a 2.500 m." },
-    { "name": "Parque Nacional Akagera (leste)", "bestFor": "Complemento Big 5 de safári", "description": "2h30 de carro de Kigali ou 1h de voo dos Vulcões. O Magashi Camp é o único lodge de luxo. Clima quente de savana (28–34°C), baixa altitude." },
-    { "name": "Parque Nacional Nyungwe (sudoeste)", "bestFor": "Trekking dos chimpanzés + passarela na copa", "description": "5h de carro de Kigali. O One&Only Nyungwe House é a opção de luxo. Clima fresco de floresta tropical. Melhor como detour de 2 a 3 noites no sul." },
-    { "name": "Kigali (capital)", "bestFor": "Chegada/saída + Memorial do Genocídio", "description": "A capital africana mais limpa e segura. Kigali Marriott e The Retreat by Heaven são os melhores hotéis. 1 a 2 noites no início ou no fim da viagem." },
-    { "name": "Lago Kivu (oeste)", "bestFor": "Relaxamento estilo praia", "description": "O 6º maior lago da África. Estadias boutique à beira-lago no Lake Kivu Serena ou Cleo Lake Kivu para casais que querem 2 a 3 dias de descanso após a trilha dos Vulcões." }
+    {
+      "name": "Parque Nacional dos Vulcões (norte)",
+      "bestFor": "Trekking dos gorilas",
+      "description": "2h30 de carro de Kigali. Singita Kwitonda, One&Only Gorilla's Nest, Bisate e Sabyinyo Silverback ficam todos perto da vila de Kinigi. Clima fresco de montanha (10–22°C), altitude superior a 2.500 m."
+    },
+    {
+      "name": "Parque Nacional Akagera (leste)",
+      "bestFor": "Complemento Big 5 de safári",
+      "description": "2h30 de carro de Kigali ou 1h de voo dos Vulcões. O Magashi Camp é o único lodge de luxo. Clima quente de savana (28–34°C), baixa altitude."
+    },
+    {
+      "name": "Parque Nacional Nyungwe (sudoeste)",
+      "bestFor": "Trekking dos chimpanzés + passarela na copa",
+      "description": "5h de carro de Kigali. O One&Only Nyungwe House é a opção de luxo. Clima fresco de floresta tropical. Melhor como detour de 2 a 3 noites no sul."
+    },
+    {
+      "name": "Kigali (capital)",
+      "bestFor": "Chegada/saída + Memorial do Genocídio",
+      "description": "A capital africana mais limpa e segura. Kigali Marriott e The Retreat by Heaven são os melhores hotéis. 1 a 2 noites no início ou no fim da viagem."
+    },
+    {
+      "name": "Lago Kivu (oeste)",
+      "bestFor": "Relaxamento estilo praia",
+      "description": "O 6º maior lago da África. Estadias boutique à beira-lago no Lake Kivu Serena ou Cleo Lake Kivu para casais que querem 2 a 3 dias de descanso após a trilha dos Vulcões."
+    }
   ],
   "expertTips": [
-    { "tip": "Reserve com 9 a 12 meses — as permissões são limitadas a 96/dia em todo o país", "detail": "As permissões de gorilas são vendidas pelo Rwanda Development Board aos operadores em cota diária estrita. O lodge garante a permissão ao reservar; tentar adicionar depois pode falhar." },
-    { "tip": "Aclimate-se 24h antes da primeira trilha", "detail": "Os lodges dos Vulcões ficam a 2.500–2.700 m. Passar o dia 1 no lodge (sem trilha) antes de encarar o dia 2 melhora muito a experiência." },
-    { "tip": "Dê $25–$50 de gorjeta ao seu carregador por trilha", "detail": "Carregadores levam sua mochila, ajudam em trechos íngremes e ganham a maior parte da renda em gorjetas. Muitos são ex-caçadores convertidos em guias — apoiá-los protege os gorilas." },
-    { "tip": "Combine 4 noites nos Vulcões + 2 a 3 em Akagera", "detail": "Lua de mel clássica de 7 noites em Ruanda: chegada Kigali (1) → Vulcões (3–4 noites, 2 trilhas de gorilas) → Akagera (2 noites de savana) → saída Kigali (1). Não inclua Nyungwe a menos que tenha 9+ noites no total." },
-    { "tip": "Visite o Memorial do Genocídio de Kigali — mas no dia da partida", "detail": "É contexto essencial para entender a Ruanda moderna, mas é emocionalmente pesado. Melhor visitar no último dia, não antes da trilha dos gorilas." }
+    {
+      "tip": "Reserve com 9 a 12 meses — as permissões são limitadas a 96/dia em todo o país",
+      "detail": "As permissões de gorilas são vendidas pelo Rwanda Development Board aos operadores em cota diária estrita. O lodge garante a permissão ao reservar; tentar adicionar depois pode falhar."
+    },
+    {
+      "tip": "Aclimate-se 24h antes da primeira trilha",
+      "detail": "Os lodges dos Vulcões ficam a 2.500–2.700 m. Passar o dia 1 no lodge (sem trilha) antes de encarar o dia 2 melhora muito a experiência."
+    },
+    {
+      "tip": "Dê $25–$50 de gorjeta ao seu carregador por trilha",
+      "detail": "Carregadores levam sua mochila, ajudam em trechos íngremes e ganham a maior parte da renda em gorjetas. Muitos são ex-caçadores convertidos em guias — apoiá-los protege os gorilas."
+    },
+    {
+      "tip": "Combine 4 noites nos Vulcões + 2 a 3 em Akagera",
+      "detail": "Lua de mel clássica de 7 noites em Ruanda: chegada Kigali (1) → Vulcões (3–4 noites, 2 trilhas de gorilas) → Akagera (2 noites de savana) → saída Kigali (1). Não inclua Nyungwe a menos que tenha 9+ noites no total."
+    },
+    {
+      "tip": "Visite o Memorial do Genocídio de Kigali — mas no dia da partida",
+      "detail": "É contexto essencial para entender a Ruanda moderna, mas é emocionalmente pesado. Melhor visitar no último dia, não antes da trilha dos gorilas."
+    }
   ],
   "packing": [
-    { "item": "Botas de trilha impermeáveis e amaciadas", "why": "As trilhas dos Vulcões têm lama, raízes e são íngremes — apoio de tornozelo é essencial" },
-    { "item": "Camadas de trekking respiráveis e de manga longa", "why": "Proteção contra bambu e urtiga; clima fresco de montanha" },
-    { "item": "Luvas leves de jardinagem", "why": "Para se segurar em galhos sem levar picada de urtiga durante a trilha" },
-    { "item": "Capa de chuva de qualidade (Gore-Tex)", "why": "O tempo nos Vulcões muda rápido — até trilhas em estação seca podem pegar pancadas" },
-    { "item": "Câmera com lente 70–200 mm", "why": "Você fica a 7 m dos gorilas; celular não dá conta dos close-ups" },
-    { "item": "Dinheiro em USD para gorjetas ($300–$500)", "why": "Carregadores, guias, motoristas — gorjeta é esperada e dólar preferido" },
-    { "item": "Repelente (DEET 30%+)", "why": "Mosquitos em Akagera são o vetor principal de malária; faça profilaxia também" }
+    {
+      "item": "Botas de trilha impermeáveis e amaciadas",
+      "why": "As trilhas dos Vulcões têm lama, raízes e são íngremes — apoio de tornozelo é essencial"
+    },
+    {
+      "item": "Camadas de trekking respiráveis e de manga longa",
+      "why": "Proteção contra bambu e urtiga; clima fresco de montanha"
+    },
+    {
+      "item": "Luvas leves de jardinagem",
+      "why": "Para se segurar em galhos sem levar picada de urtiga durante a trilha"
+    },
+    {
+      "item": "Capa de chuva de qualidade (Gore-Tex)",
+      "why": "O tempo nos Vulcões muda rápido — até trilhas em estação seca podem pegar pancadas"
+    },
+    {
+      "item": "Câmera com lente 70–200 mm",
+      "why": "Você fica a 7 m dos gorilas; celular não dá conta dos close-ups"
+    },
+    {
+      "item": "Dinheiro em USD para gorjetas ($300–$500)",
+      "why": "Carregadores, guias, motoristas — gorjeta é esperada e dólar preferido"
+    },
+    {
+      "item": "Repelente (DEET 30%+)",
+      "why": "Mosquitos em Akagera são o vetor principal de malária; faça profilaxia também"
+    }
   ],
   "guide": {
     "getting": "Voe para Kigali International (KGL) — direto de Bruxelas (Brussels Airlines, 8h), Doha (Qatar Airways, 7h), Adis Abeba (Ethiopian, 2h), Nairóbi (Kenya Airways/RwandAir, 1h30), Amsterdã (KLM, 8h), Istambul (Turkish, 8h). Os lodges organizam transfers terrestres ($200–$400 por trecho) ou voos charter entre regiões ($600–$1.200/casal).",
@@ -105,5 +260,9 @@
   "localFood": "Cozinha ruandesa: isombe (folhas de mandioca amassadas com pasta de amendoim), brochettes (espetos de carne grelhada), ubugali (mingau de mandioca), igitoki (banana de cozinhar), Akabanga (o lendário óleo de pimenta ruandês). Sambaza do Lago Kivu (peixinhos) é a especialidade local. O café é excepcional — Ruanda é uma das principais origens single-origin do mundo. Os destaques gastronômicos são Heaven (Kigali), Repub Lounge (Kigali) e a culinária dos lodges.",
   "currency": "Franco ruandês (RWF). USD amplamente aceito em lodges e atrações; cartão funciona em Kigali, mas precisa de dinheiro em áreas rurais. Gorjeta em USD para staff internacional, RWF para carregadores locais.",
   "language": "Kinyarwanda é a língua nacional. Francês e inglês são oficiais. Inglês é universal nos lodges; aprender \"Muraho\" (olá) e \"Murakoze\" (obrigado) é apreciado.",
-  "timezone": "UTC+2 (Central Africa Time, sem horário de verão)"
+  "timezone": "UTC+2 (Central Africa Time, sem horário de verão)",
+  "seo": {
+    "title": "Lua de Mel em Ruanda: 8 Lodges Trekking de Gorilas 2026",
+    "description": "8 lodges em Vulcões e Nyungwe pontuados. Singita, Bisate, One&Only. De $1,500/noite. Jun-set seco."
+  }
 }

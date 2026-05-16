@@ -79,6 +79,7 @@ localFood: 'Green fig and saltfish (the national dish), bouyon (hearty broth), a
 currency: 'Eastern Caribbean Dollar (XCD). USD accepted everywhere.',
 language: 'English (official). French Creole patois widely spoken.',
 timezone: 'GMT-4 (Atlantic Standard Time)',
+  seo: { title: "St Lucia Honeymoon: 14 Piton-View Resorts Scored 2026", description: "14 adults-only and all-inclusive resorts ranked. Jade Mountain, Sugar Beach, Ladera. From $400/night. Dec-Apr dry season." },
 }
 
 export default meta

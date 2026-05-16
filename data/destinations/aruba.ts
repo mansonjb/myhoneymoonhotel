@@ -153,6 +153,7 @@ localFood: 'Keshi yena (Edam-cheese rind stuffed with chicken stew — the natio
 currency: 'Aruban Florin (AWG) and US Dollar — both widely accepted',
 language: 'Dutch (official), Papiamento (local creole), English and Spanish universal at hotels',
 timezone: 'AST (UTC-4, no daylight saving)',
+  seo: { title: "Aruba Honeymoon: 6 Adults-Only Beach Resorts 2026", description: "6 Eagle Beach and Palm Beach resorts scored. Bucuti & Tara, Renaissance, Ritz-Carlton. From $400/night. Year-round dry." },
 }
 
 export default meta

@@ -106,6 +106,7 @@ localFood: 'Al Harees (slow-cooked wheat and meat, traditional Ramadan dish); Lu
 currency: 'UAE Dirham (AED) — pegged to USD at 3.67. Cards accepted everywhere.',
 language: 'Arabic is official; English is universal. Menus, signs, and hotel staff all default to English.',
 timezone: 'UTC+4 (Gulf Standard Time)',
+  seo: { title: "UAE Honeymoon: 9 Dubai & Abu Dhabi Resorts Scored", description: "9 desert, beach and skyscraper hotels ranked. Bvlgari, Burj Al Arab, Al Maha. From $400/night. Nov-Mar peak comfort." },
 }
 
 export default meta

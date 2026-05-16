@@ -3,8 +3,8 @@ import HomePage from '../page'
 import { buildAlternates } from '@/lib/alternates'
 
 export const metadata: Metadata = {
-  title: 'My Honeymoon Hotel — Find Your Perfect Honeymoon',
-  description: 'Every hotel scored for romance. Real verdicts, room picks, 7-night itineraries and the email to send before arrival.',
+  title: 'Hotéis para Lua de Mel — 611 Resorts Pontuados (2026)',
+  description: 'Cada hotel pontuado em 9 critérios de romantismo. Veredictos honestos, melhor quarto, roteiros de 7 noites e e-mail pré-chegada. Sem placement pago.',
   alternates: buildAlternates('/', 'pt'),
 }
 

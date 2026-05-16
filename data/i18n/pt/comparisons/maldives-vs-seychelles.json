@@ -1,6 +1,10 @@
 {
   "tagline": "Paraíso de atóis planos contra praias de rochas graníticas: dois oceanos Índicos muito diferentes.",
   "metaDescription": "Maldivas ou Seychelles para a sua lua de mel? Villas sobre a água contra praias de rochas graníticas, vida marinha, privacidade e custo. Comparação completa.",
+  "seo": {
+    "title": "Maldivas vs Seychelles Lua de Mel: Decisão 2026",
+    "description": "Maldivas vs Seychelles para lua de mel: vilas sobre a água ou praias de granito. Vida marinha, privacidade, voos, custo. Veredicto 2026."
+  },
   "verdict": "As Maldivas oferecem a água mais pura, a maior variedade de resorts e a experiência de villa sobre a água mais autêntica. As Seychelles oferecem paisagens mais variadas: rochas graníticas espetaculares, picos de selva exuberantes e ilhas realmente caminháveis com cultura e vida local. Se você quer descansar em uma villa sobre águas cristalinas durante 7 dias, escolha Maldivas. Se quer combinar praia, montanha, cultura e fauna (tartarugas gigantes!) em uma única viagem, escolha Seychelles.",
   "tldr": {
     "forA": "Maldivas: pela pureza das villas sobre a água, vida marinha e imersão total no resort.",
@@ -8,17 +12,61 @@
     "tie": "Mesmo romantismo, mesma privacidade. Caracteres diferentes."
   },
   "criteria": [
-    { "label": "Tempo de voo (a partir da Europa)", "aDetail": "10-11h via hub do Golfo", "bDetail": "9-10h direto de Paris/Londres" },
-    { "label": "Villas sobre a água", "aDetail": "Centenas de opções, o destino por definição", "bDetail": "Apenas um punhado (Waldorf Astoria Platte, outros). Não é o principal atrativo." },
-    { "label": "Praias", "aDetail": "Atóis brancos planos, todos com aspecto similar", "bDetail": "Anse Source d'Argent, Anse Lazio: as praias mais fotografadas do mundo, com rochas graníticas" },
-    { "label": "Natureza / trilhas", "aDetail": "Sem trilhas; os atóis são planos", "bDetail": "Parque Nacional Morne Seychellois, trilhas pela selva, coco-de-mer" },
-    { "label": "Fauna", "aDetail": "Tubarões-baleia e arraias-manta", "bDetail": "Tartarugas gigantes de Aldabra, com 150 anos, em meio às quais se pode caminhar" },
-    { "label": "Clareza da água", "aDetail": "Visibilidade de 25-30 m, mais pura", "bDetail": "15-20 m, muito boa, mas sem alcançar as Maldivas" },
-    { "label": "Cultura / vida local", "aDetail": "Mínima fora de Malé", "bDetail": "Mahé, Praslin e La Digue são habitadas: cozinha local, música e gente cordial" },
-    { "label": "Variedade de resorts", "aDetail": "Mais de 120 resorts, em todas as categorias", "bDetail": "Cerca de 20 resorts de luxo sérios" },
-    { "label": "Privacidade", "aDetail": "A sua própria ilha", "bDetail": "Boa, mas os resorts compartilham as ilhas principais" },
-    { "label": "Combinação com outras viagens", "aDetail": "Difícil: só atóis", "bDetail": "Fácil emparelhar Mahé + Praslin + La Digue em uma mesma lua de mel" },
-    { "label": "Preço", "aDetail": "Categoria de luxo similar, $800-4000/noite", "bDetail": "Similar, $600-3500/noite" }
+    {
+      "label": "Tempo de voo (a partir da Europa)",
+      "aDetail": "10-11h via hub do Golfo",
+      "bDetail": "9-10h direto de Paris/Londres"
+    },
+    {
+      "label": "Villas sobre a água",
+      "aDetail": "Centenas de opções, o destino por definição",
+      "bDetail": "Apenas um punhado (Waldorf Astoria Platte, outros). Não é o principal atrativo."
+    },
+    {
+      "label": "Praias",
+      "aDetail": "Atóis brancos planos, todos com aspecto similar",
+      "bDetail": "Anse Source d'Argent, Anse Lazio: as praias mais fotografadas do mundo, com rochas graníticas"
+    },
+    {
+      "label": "Natureza / trilhas",
+      "aDetail": "Sem trilhas; os atóis são planos",
+      "bDetail": "Parque Nacional Morne Seychellois, trilhas pela selva, coco-de-mer"
+    },
+    {
+      "label": "Fauna",
+      "aDetail": "Tubarões-baleia e arraias-manta",
+      "bDetail": "Tartarugas gigantes de Aldabra, com 150 anos, em meio às quais se pode caminhar"
+    },
+    {
+      "label": "Clareza da água",
+      "aDetail": "Visibilidade de 25-30 m, mais pura",
+      "bDetail": "15-20 m, muito boa, mas sem alcançar as Maldivas"
+    },
+    {
+      "label": "Cultura / vida local",
+      "aDetail": "Mínima fora de Malé",
+      "bDetail": "Mahé, Praslin e La Digue são habitadas: cozinha local, música e gente cordial"
+    },
+    {
+      "label": "Variedade de resorts",
+      "aDetail": "Mais de 120 resorts, em todas as categorias",
+      "bDetail": "Cerca de 20 resorts de luxo sérios"
+    },
+    {
+      "label": "Privacidade",
+      "aDetail": "A sua própria ilha",
+      "bDetail": "Boa, mas os resorts compartilham as ilhas principais"
+    },
+    {
+      "label": "Combinação com outras viagens",
+      "aDetail": "Difícil: só atóis",
+      "bDetail": "Fácil emparelhar Mahé + Praslin + La Digue em uma mesma lua de mel"
+    },
+    {
+      "label": "Preço",
+      "aDetail": "Categoria de luxo similar, $800-4000/noite",
+      "bDetail": "Similar, $600-3500/noite"
+    }
   ],
   "pickA": {
     "title": "Escolha as Maldivas se…",
@@ -39,8 +87,17 @@
     ]
   },
   "faqs": [
-    { "q": "Qual tem melhores praias?", "a": "Seychelles. Anse Source d'Argent (La Digue) e Anse Lazio (Praslin) figuram sistematicamente entre as duas praias mais belas do mundo. As praias dos atóis das Maldivas são uniformemente belas, mas visualmente parecidas entre si; as praias das Seychelles têm, cada uma, sua própria personalidade com espetaculares rochas graníticas." },
-    { "q": "Qual é melhor para snorkel?", "a": "Maldivas. A cobertura coralina, a visibilidade e a megafauna marinha (tubarões-baleia, arraias-manta) são de nível mundial. Seychelles tem recifes encantadores, mas o branqueamento os afetou com mais intensidade e a densidade é menor." },
-    { "q": "Posso combinar Maldivas + Seychelles?", "a": "Sim: ambos estão no corredor aéreo do oceano Índico. Uma combinação habitual são 5 noites nas Maldivas + 5 noites nas Seychelles com um voo de conexão Mahé-Malé. Considere o custo do voo adicional (~$400-700 por pessoa) e a logística do DMC." }
+    {
+      "q": "Qual tem melhores praias?",
+      "a": "Seychelles. Anse Source d'Argent (La Digue) e Anse Lazio (Praslin) figuram sistematicamente entre as duas praias mais belas do mundo. As praias dos atóis das Maldivas são uniformemente belas, mas visualmente parecidas entre si; as praias das Seychelles têm, cada uma, sua própria personalidade com espetaculares rochas graníticas."
+    },
+    {
+      "q": "Qual é melhor para snorkel?",
+      "a": "Maldivas. A cobertura coralina, a visibilidade e a megafauna marinha (tubarões-baleia, arraias-manta) são de nível mundial. Seychelles tem recifes encantadores, mas o branqueamento os afetou com mais intensidade e a densidade é menor."
+    },
+    {
+      "q": "Posso combinar Maldivas + Seychelles?",
+      "a": "Sim: ambos estão no corredor aéreo do oceano Índico. Uma combinação habitual são 5 noites nas Maldivas + 5 noites nas Seychelles com um voo de conexão Mahé-Malé. Considere o custo do voo adicional (~$400-700 por pessoa) e a logística do DMC."
+    }
   ]
 }

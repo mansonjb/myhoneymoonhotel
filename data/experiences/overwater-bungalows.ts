@@ -2,6 +2,10 @@ import type { ExperienceMeta } from '@/types/experience'
 
 const meta: ExperienceMeta = {
   label: 'Overwater Villas',
+  seo: {
+    title: 'Overwater Bungalows: 63 Honeymoon Villas Scored 2026',
+    description: 'Overwater bungalow honeymoons across Maldives, Bora Bora, Fiji and 8 more lagoons — 63 villas scored from $300 to $4,000 a night. Picks for every couple.',
+  },
   tagline: 'Sleep above the most beautiful water on earth',
   hero: '/images/hotels/four-seasons-bora-bora/hero.webp',
   intro: 'The overwater bungalow is the defining honeymoon experience — a private villa suspended above a turquoise lagoon, where you slip into the water directly from your deck, watch fish through a glass floor panel, and fall asleep to the sound of the Pacific or Indian Ocean. Invented in Bora Bora in the 1960s, perfected in the Maldives in the 1990s, and now available at over 50 destinations worldwide, the overwater villa remains the most sought-after room type in luxury travel.',

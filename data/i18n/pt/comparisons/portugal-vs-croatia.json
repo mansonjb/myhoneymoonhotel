@@ -1,6 +1,10 @@
 {
   "tagline": "Encanto atlântico do Algarve contra elegância adriática das ilhas de pedra.",
   "metaDescription": "Portugal contra Croácia para uma lua de mel: costa, gastronomia, vinho, valor. Comparação lado a lado e recomendações.",
+  "seo": {
+    "title": "Portugal vs Croácia Lua de Mel: Costa e Valor 2026",
+    "description": "Portugal vs Croácia para lua de mel 2026: Algarve e Douro vs ilhas dálmatas. Costa, comida, vinho, valor — escolhas honestas."
+  },
   "verdict": "Dois destinos europeus subestimados que oferecem romance costeiro a bom preço, mas apontando em direções opostas. Portugal é atlântico: Lisboa-Porto-Algarve, costa de surfe, região do vinho do Porto e o minimalismo da Comporta convertido em favorito do luxo discreto. A Croácia é adriática: ilhas dálmatas medievais de pedra, as águas mediterrâneas mais claras do mundo, sofisticação próxima do italiano. Portugal vence em variedade cultural (cidade + vinho + costa) e gastronomia. A Croácia vence em água e romance multi-ilha.",
   "tldr": {
     "forA": "Portugal: pela variedade Lisboa-Porto-Algarve, vinho do Porto e costa de surfe atlântica.",
@@ -8,20 +12,76 @@
     "tie": "Empate em valor geral frente a Grécia/Itália."
   },
   "criteria": [
-    { "label": "Tempo de voo (a partir da Europa)", "aDetail": "2-3h para Lisboa/Faro a partir da maioria dos hubs", "bDetail": "2-3h para Split/Dubrovnik a partir da maioria dos hubs" },
-    { "label": "Tempo de voo (a partir dos EUA)", "aDetail": "7-8h direto (NYC, EWR, Boston, Miami)", "bDetail": "10-12h via Frankfurt/Munique/Viena (sem direto habitualmente)" },
-    { "label": "Formato de costa", "aDetail": "Costa atlântica: surfe, falésias espetaculares, praias amplas (Algarve, Comporta)", "bDetail": "Ilhas e baías adriáticas: mais calmas, mais claras, mais navegação" },
-    { "label": "Clareza da água", "aDetail": "Atlântico, mais fresco, menos claro que o Mediterrâneo", "bDetail": "Adriático: entre as mais claras do Mediterrâneo" },
-    { "label": "Qualidade das praias", "aDetail": "Amplas praias de areia no Algarve e Comporta", "bDetail": "Praias de seixos e enseadas rochosas: menos praias de areia" },
-    { "label": "Gastronomia e vinho", "aDetail": "Nível mundial: vinho do Porto, vale do Douro, frutos do mar frescos, pastéis de nata, gastronomia de Lisboa", "bDetail": "Excelente: trufas ístrias, vinhos de Pelješac, frutos do mar dálmatas" },
-    { "label": "Combinação cidade + costa", "aDetail": "O trio Lisboa-Porto-Algarve é a rota clássica de lua de mel em Portugal", "bDetail": "Split-Dubrovnik-ilhas funciona, mas centrado em costa" },
-    { "label": "Região vinícola", "aDetail": "O vale do Douro figura entre as regiões vinícolas mais belas da Europa", "bDetail": "Pelješac e Ístria emergem, mas em menor escala" },
-    { "label": "Cultura do surfe", "aDetail": "Nível mundial: Nazaré (a maior onda de surfe do planeta), Ericeira, breaks do Algarve", "bDetail": "Limitada: o Adriático é calmo por natureza" },
-    { "label": "Charter de iate à vela", "aDetail": "Limitado: o Atlântico é mais bravo, menos rotas de navegação", "bDetail": "Nível mundial: a Croácia é um dos primeiros destinos de navegação do planeta" },
-    { "label": "Cena de hotéis boutique", "aDetail": "Excepcional: Six Senses Douro Valley, Vermelho Comporta, Sublime Comporta, Bela Vista Algarve, Octant Group", "bDetail": "Excelente: Hotel Excelsior, Villa Dubrovnik, Lopud 1483, Maslina Resort Hvar" },
-    { "label": "Fator afluência", "aDetail": "Lisboa e Algarve lotados no verão; Comporta e Alentejo de baixa densidade", "bDetail": "Dubrovnik lotada, a maioria das ilhas mais calmas" },
-    { "label": "Melhor temporada", "aDetail": "Mai-out (Algarve), o ano todo para cidades", "bDetail": "Mai-out (costa), o ano todo para cidades" },
-    { "label": "Orçamento mínimo (5 estrelas)", "aDetail": "$300-500/noite para 5 estrelas", "bDetail": "$400-600/noite para 5 estrelas (alta)" }
+    {
+      "label": "Tempo de voo (a partir da Europa)",
+      "aDetail": "2-3h para Lisboa/Faro a partir da maioria dos hubs",
+      "bDetail": "2-3h para Split/Dubrovnik a partir da maioria dos hubs"
+    },
+    {
+      "label": "Tempo de voo (a partir dos EUA)",
+      "aDetail": "7-8h direto (NYC, EWR, Boston, Miami)",
+      "bDetail": "10-12h via Frankfurt/Munique/Viena (sem direto habitualmente)"
+    },
+    {
+      "label": "Formato de costa",
+      "aDetail": "Costa atlântica: surfe, falésias espetaculares, praias amplas (Algarve, Comporta)",
+      "bDetail": "Ilhas e baías adriáticas: mais calmas, mais claras, mais navegação"
+    },
+    {
+      "label": "Clareza da água",
+      "aDetail": "Atlântico, mais fresco, menos claro que o Mediterrâneo",
+      "bDetail": "Adriático: entre as mais claras do Mediterrâneo"
+    },
+    {
+      "label": "Qualidade das praias",
+      "aDetail": "Amplas praias de areia no Algarve e Comporta",
+      "bDetail": "Praias de seixos e enseadas rochosas: menos praias de areia"
+    },
+    {
+      "label": "Gastronomia e vinho",
+      "aDetail": "Nível mundial: vinho do Porto, vale do Douro, frutos do mar frescos, pastéis de nata, gastronomia de Lisboa",
+      "bDetail": "Excelente: trufas ístrias, vinhos de Pelješac, frutos do mar dálmatas"
+    },
+    {
+      "label": "Combinação cidade + costa",
+      "aDetail": "O trio Lisboa-Porto-Algarve é a rota clássica de lua de mel em Portugal",
+      "bDetail": "Split-Dubrovnik-ilhas funciona, mas centrado em costa"
+    },
+    {
+      "label": "Região vinícola",
+      "aDetail": "O vale do Douro figura entre as regiões vinícolas mais belas da Europa",
+      "bDetail": "Pelješac e Ístria emergem, mas em menor escala"
+    },
+    {
+      "label": "Cultura do surfe",
+      "aDetail": "Nível mundial: Nazaré (a maior onda de surfe do planeta), Ericeira, breaks do Algarve",
+      "bDetail": "Limitada: o Adriático é calmo por natureza"
+    },
+    {
+      "label": "Charter de iate à vela",
+      "aDetail": "Limitado: o Atlântico é mais bravo, menos rotas de navegação",
+      "bDetail": "Nível mundial: a Croácia é um dos primeiros destinos de navegação do planeta"
+    },
+    {
+      "label": "Cena de hotéis boutique",
+      "aDetail": "Excepcional: Six Senses Douro Valley, Vermelho Comporta, Sublime Comporta, Bela Vista Algarve, Octant Group",
+      "bDetail": "Excelente: Hotel Excelsior, Villa Dubrovnik, Lopud 1483, Maslina Resort Hvar"
+    },
+    {
+      "label": "Fator afluência",
+      "aDetail": "Lisboa e Algarve lotados no verão; Comporta e Alentejo de baixa densidade",
+      "bDetail": "Dubrovnik lotada, a maioria das ilhas mais calmas"
+    },
+    {
+      "label": "Melhor temporada",
+      "aDetail": "Mai-out (Algarve), o ano todo para cidades",
+      "bDetail": "Mai-out (costa), o ano todo para cidades"
+    },
+    {
+      "label": "Orçamento mínimo (5 estrelas)",
+      "aDetail": "$300-500/noite para 5 estrelas",
+      "bDetail": "$400-600/noite para 5 estrelas (alta)"
+    }
   ],
   "pickA": {
     "title": "Escolha Portugal se…",
@@ -44,10 +104,25 @@
     ]
   },
   "faqs": [
-    { "q": "Qual oferece melhor valor para uma lua de mel?", "a": "Os dois oferecem excelente valor frente a equivalentes gregos/italianos/franceses. Portugal é ligeiramente mais econômico fora do verão alto do Algarve; a Croácia dispara em julho-agosto, mas a temporada intermediária (mai-jun, set-out) é drasticamente mais barata." },
-    { "q": "Qual é melhor para uma lua de mel de 10 dias?", "a": "Portugal pode sustentar 10 dias com facilidade: Lisboa (2-3) + vale do Douro (2-3) + Algarve ou Comporta (4-5). A Croácia é ideal para 7-9 dias; mais que isso pareceria excessivo em costa." },
-    { "q": "Qual tem melhores praias?", "a": "O Algarve português tem praias mais espetaculares e variadas (Praia da Marinha, Benagil); a Croácia tem águas mais limpas e enseadas mais belas, mas menos praias de areia. Formatos diferentes." },
-    { "q": "Qual tem melhor gastronomia?", "a": "Portugal: maior variedade (cataplana de frutos do mar, francesinha, cordeiro do Douro), melhor região vinícola, confeitaria de nível mundial. A Croácia é excelente, mas mais influenciada pelo italiano e mais estreita." },
-    { "q": "Qual é mais romântica?", "a": "Empate: vibes diferentes. O romance português é Lisboa-fado-e-vinho-do-Porto, serões à luz de velas sobre paralelepípedos. O romance croata é navegar até uma enseada oculta, jantar sob muralhas de pedra. Os dois intensamente." }
+    {
+      "q": "Qual oferece melhor valor para uma lua de mel?",
+      "a": "Os dois oferecem excelente valor frente a equivalentes gregos/italianos/franceses. Portugal é ligeiramente mais econômico fora do verão alto do Algarve; a Croácia dispara em julho-agosto, mas a temporada intermediária (mai-jun, set-out) é drasticamente mais barata."
+    },
+    {
+      "q": "Qual é melhor para uma lua de mel de 10 dias?",
+      "a": "Portugal pode sustentar 10 dias com facilidade: Lisboa (2-3) + vale do Douro (2-3) + Algarve ou Comporta (4-5). A Croácia é ideal para 7-9 dias; mais que isso pareceria excessivo em costa."
+    },
+    {
+      "q": "Qual tem melhores praias?",
+      "a": "O Algarve português tem praias mais espetaculares e variadas (Praia da Marinha, Benagil); a Croácia tem águas mais limpas e enseadas mais belas, mas menos praias de areia. Formatos diferentes."
+    },
+    {
+      "q": "Qual tem melhor gastronomia?",
+      "a": "Portugal: maior variedade (cataplana de frutos do mar, francesinha, cordeiro do Douro), melhor região vinícola, confeitaria de nível mundial. A Croácia é excelente, mas mais influenciada pelo italiano e mais estreita."
+    },
+    {
+      "q": "Qual é mais romântica?",
+      "a": "Empate: vibes diferentes. O romance português é Lisboa-fado-e-vinho-do-Porto, serões à luz de velas sobre paralelepípedos. O romance croata é navegar até uma enseada oculta, jantar sob muralhas de pedra. Os dois intensamente."
+    }
   ]
 }

@@ -55,43 +55,188 @@
     }
   ],
   "months": [
-    { "month": "Jan", "weather": "Quente, seco, excelente", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Pico, vale a pena" },
-    { "month": "Feb", "weather": "Quente e seco, ideal", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Melhor clima de praia" },
-    { "month": "Mar", "weather": "Umidade subindo, chuvas se formando", "emoji": "⛅", "crowds": "Moderada", "price": "Médio", "verdict": "Vá no início do mês" },
-    { "month": "Apr", "weather": "Chuvas longas, pancadas pesadas", "emoji": "🌧", "crowds": "Muito baixa", "price": "Mínimo", "verdict": "Evite — chuva forte" },
-    { "month": "May", "weather": "Ainda chuvoso, diminuindo", "emoji": "🌦", "crowds": "Muito baixa", "price": "Muito baixo", "verdict": "Só para caça às promoções" },
-    { "month": "Jun", "weather": "Começa estação seca, ventoso", "emoji": "🌤", "crowds": "Moderada", "price": "Médio", "verdict": "Excelente meia estação" },
-    { "month": "Jul", "weather": "Seco e ventoso, quase perfeito", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Alta temporada" },
-    { "month": "Aug", "weather": "Seco, melhor vento de kite, lindo", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Melhor mês geral" },
-    { "month": "Sep", "weather": "Ainda seco, esvaziando", "emoji": "☀️", "crowds": "Moderada", "price": "Médio-alto", "verdict": "Ponto doce de valor" },
-    { "month": "Oct", "weather": "Chuvas curtas possíveis", "emoji": "⛅", "crowds": "Baixa", "price": "Médio", "verdict": "Aposta, mas costuma estar bom" },
-    { "month": "Nov", "weather": "Chuvas curtas, imprevisíveis", "emoji": "🌦", "crowds": "Baixa", "price": "Baixo", "verdict": "Arriscado — confira a previsão" },
-    { "month": "Dec", "weather": "Seco, quente, multidões festivas", "emoji": "☀️", "crowds": "Muito alta", "price": "Máximo", "verdict": "Lindo, mas caro" }
+    {
+      "month": "Jan",
+      "weather": "Quente, seco, excelente",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Pico, vale a pena"
+    },
+    {
+      "month": "Feb",
+      "weather": "Quente e seco, ideal",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Melhor clima de praia"
+    },
+    {
+      "month": "Mar",
+      "weather": "Umidade subindo, chuvas se formando",
+      "emoji": "⛅",
+      "crowds": "Moderada",
+      "price": "Médio",
+      "verdict": "Vá no início do mês"
+    },
+    {
+      "month": "Apr",
+      "weather": "Chuvas longas, pancadas pesadas",
+      "emoji": "🌧",
+      "crowds": "Muito baixa",
+      "price": "Mínimo",
+      "verdict": "Evite — chuva forte"
+    },
+    {
+      "month": "May",
+      "weather": "Ainda chuvoso, diminuindo",
+      "emoji": "🌦",
+      "crowds": "Muito baixa",
+      "price": "Muito baixo",
+      "verdict": "Só para caça às promoções"
+    },
+    {
+      "month": "Jun",
+      "weather": "Começa estação seca, ventoso",
+      "emoji": "🌤",
+      "crowds": "Moderada",
+      "price": "Médio",
+      "verdict": "Excelente meia estação"
+    },
+    {
+      "month": "Jul",
+      "weather": "Seco e ventoso, quase perfeito",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Alta temporada"
+    },
+    {
+      "month": "Aug",
+      "weather": "Seco, melhor vento de kite, lindo",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Melhor mês geral"
+    },
+    {
+      "month": "Sep",
+      "weather": "Ainda seco, esvaziando",
+      "emoji": "☀️",
+      "crowds": "Moderada",
+      "price": "Médio-alto",
+      "verdict": "Ponto doce de valor"
+    },
+    {
+      "month": "Oct",
+      "weather": "Chuvas curtas possíveis",
+      "emoji": "⛅",
+      "crowds": "Baixa",
+      "price": "Médio",
+      "verdict": "Aposta, mas costuma estar bom"
+    },
+    {
+      "month": "Nov",
+      "weather": "Chuvas curtas, imprevisíveis",
+      "emoji": "🌦",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Arriscado — confira a previsão"
+    },
+    {
+      "month": "Dec",
+      "weather": "Seco, quente, multidões festivas",
+      "emoji": "☀️",
+      "crowds": "Muito alta",
+      "price": "Máximo",
+      "verdict": "Lindo, mas caro"
+    }
   ],
   "budgetTiers": [
-    { "label": "Boutique de praia", "range": "$200–$500/noite", "gets": "Hotel boutique charmoso na costa leste ou norte, piscina, ótima comida. A melhor lua de mel custo-benefício do Índico nessa faixa.", "example": "Baraza Resort & Spa, Matemwe Lodge, White Sand Luxury Villas" },
-    { "label": "Premium", "range": "$500–$1.200/noite", "gets": "Luxo sério — plunge pools privativas, beach butlers, design suaíli excepcional. Melhor que equivalentes europeus pelo mesmo preço.", "example": "Zuri Zanzibar, Melia Zanzibar, Gold Zanzibar" },
-    { "label": "Ultra-luxo", "range": "$1.200–$3.500+/noite", "gets": "Ilha privativa ou propriedade exclusiva à beira-mar, isolamento total, acesso incrível ao recife, experiências all-inclusive. Os melhores hotéis de praia da África Oriental.", "example": "&Beyond Mnemba Island, Thanda Island" }
+    {
+      "label": "Boutique de praia",
+      "range": "$200–$500/noite",
+      "gets": "Hotel boutique charmoso na costa leste ou norte, piscina, ótima comida. A melhor lua de mel custo-benefício do Índico nessa faixa.",
+      "example": "Baraza Resort & Spa, Matemwe Lodge, White Sand Luxury Villas"
+    },
+    {
+      "label": "Premium",
+      "range": "$500–$1.200/noite",
+      "gets": "Luxo sério — plunge pools privativas, beach butlers, design suaíli excepcional. Melhor que equivalentes europeus pelo mesmo preço.",
+      "example": "Zuri Zanzibar, Melia Zanzibar, Gold Zanzibar"
+    },
+    {
+      "label": "Ultra-luxo",
+      "range": "$1.200–$3.500+/noite",
+      "gets": "Ilha privativa ou propriedade exclusiva à beira-mar, isolamento total, acesso incrível ao recife, experiências all-inclusive. Os melhores hotéis de praia da África Oriental.",
+      "example": "&Beyond Mnemba Island, Thanda Island"
+    }
   ],
   "areas": [
-    { "name": "Stone Town", "bestFor": "Cultura UNESCO, história, gastronomia", "description": "O coração histórico de Zanzibar — labirinto patrimônio da UNESCO de arquitetura árabe, persa, indiana e europeia. Sem hotéis de praia aqui, mas essencial passar uma ou duas noites pela cultura, mercado noturno e melhores restaurantes." },
-    { "name": "Norte (Nungwi e Kendwa)", "bestFor": "Melhores praias, banho, vida noturna", "description": "A ponta norte tem as praias mais propícias ao banho de Zanzibar — sem baixa-mar extrema, água turquesa o dia todo. Nungwi tem alma de vila de pescadores com ruas de restaurantes; Kendwa é mais tranquila. Ambas com os melhores hotéis para banho a partir da praia." },
-    { "name": "Leste (Paje e Bwejuu)", "bestFor": "Kitesurf, hotéis boutique, vibe local", "description": "A costa leste tem laguna de marés — linda na maré cheia, com pedras na baixa — mas a cena boutique aqui é charmosa e autêntica. Paje é a capital do kite. Bwejuu é mais tranquila. Ambas atraem público mais jovem e aventureiro." },
-    { "name": "Sul (Jambiani e além)", "bestFor": "Luxo silencioso, fazendas de algas, vida local", "description": "A parte mais tranquila da ilha, com excelentes resorts focados em isolamento. Vilas de pescadores ainda trabalham com algas nas marés baixas. Realmente fora do circuito turístico." }
+    {
+      "name": "Stone Town",
+      "bestFor": "Cultura UNESCO, história, gastronomia",
+      "description": "O coração histórico de Zanzibar — labirinto patrimônio da UNESCO de arquitetura árabe, persa, indiana e europeia. Sem hotéis de praia aqui, mas essencial passar uma ou duas noites pela cultura, mercado noturno e melhores restaurantes."
+    },
+    {
+      "name": "Norte (Nungwi e Kendwa)",
+      "bestFor": "Melhores praias, banho, vida noturna",
+      "description": "A ponta norte tem as praias mais propícias ao banho de Zanzibar — sem baixa-mar extrema, água turquesa o dia todo. Nungwi tem alma de vila de pescadores com ruas de restaurantes; Kendwa é mais tranquila. Ambas com os melhores hotéis para banho a partir da praia."
+    },
+    {
+      "name": "Leste (Paje e Bwejuu)",
+      "bestFor": "Kitesurf, hotéis boutique, vibe local",
+      "description": "A costa leste tem laguna de marés — linda na maré cheia, com pedras na baixa — mas a cena boutique aqui é charmosa e autêntica. Paje é a capital do kite. Bwejuu é mais tranquila. Ambas atraem público mais jovem e aventureiro."
+    },
+    {
+      "name": "Sul (Jambiani e além)",
+      "bestFor": "Luxo silencioso, fazendas de algas, vida local",
+      "description": "A parte mais tranquila da ilha, com excelentes resorts focados em isolamento. Vilas de pescadores ainda trabalham com algas nas marés baixas. Realmente fora do circuito turístico."
+    }
   ],
   "expertTips": [
-    { "tip": "Combine com safári na Tanzânia", "detail": "Zanzibar fica a 40 min de avião de Dar es Salaam e 90 min de Kilimanjaro. 4 noites de safári no Serengeti ou Ngorongoro seguidas de 5 em Zanzibar é uma das grandes combinações de lua de mel do mundo. Operadores em Arusha organizam tudo." },
-    { "tip": "Pernoite em Stone Town", "detail": "Mesmo com base em hotel de praia, passe uma ou duas noites em Stone Town no início ou no fim. Emerson Spice (com restaurante no rooftop) e 236 Hurumzi são os melhores hotéis. Conheça a cidade antes de se recolher à praia." },
-    { "tip": "Reserve no norte para banho garantido", "detail": "A costa leste é linda, mas a variação de marés é extrema — na baixa, são 400 m até a água. Se banho diário na praia importa, fique em Nungwi ou Kendwa, com pouca variação." },
-    { "tip": "Forodhani Gardens à noite é imperdível", "detail": "O mercado noturno na orla acontece todas as noites a partir das 18h. Por $3–$5 você come pizza de Zanzibar, suco de cana, lagosta grelhada e espetos de polvo no meio de centenas de locais. Uma das melhores experiências de comida barata da África." },
-    { "tip": "Respeite o dress code em Stone Town", "detail": "Zanzibar é uma ilha predominantemente muçulmana. Na Stone Town, mulheres devem cobrir ombros e joelhos; homens devem evitar bermudas na medina. Na praia, tudo bem — os locais toleram bem a roupa de praia nos resorts." }
+    {
+      "tip": "Combine com safári na Tanzânia",
+      "detail": "Zanzibar fica a 40 min de avião de Dar es Salaam e 90 min de Kilimanjaro. 4 noites de safári no Serengeti ou Ngorongoro seguidas de 5 em Zanzibar é uma das grandes combinações de lua de mel do mundo. Operadores em Arusha organizam tudo."
+    },
+    {
+      "tip": "Pernoite em Stone Town",
+      "detail": "Mesmo com base em hotel de praia, passe uma ou duas noites em Stone Town no início ou no fim. Emerson Spice (com restaurante no rooftop) e 236 Hurumzi são os melhores hotéis. Conheça a cidade antes de se recolher à praia."
+    },
+    {
+      "tip": "Reserve no norte para banho garantido",
+      "detail": "A costa leste é linda, mas a variação de marés é extrema — na baixa, são 400 m até a água. Se banho diário na praia importa, fique em Nungwi ou Kendwa, com pouca variação."
+    },
+    {
+      "tip": "Forodhani Gardens à noite é imperdível",
+      "detail": "O mercado noturno na orla acontece todas as noites a partir das 18h. Por $3–$5 você come pizza de Zanzibar, suco de cana, lagosta grelhada e espetos de polvo no meio de centenas de locais. Uma das melhores experiências de comida barata da África."
+    },
+    {
+      "tip": "Respeite o dress code em Stone Town",
+      "detail": "Zanzibar é uma ilha predominantemente muçulmana. Na Stone Town, mulheres devem cobrir ombros e joelhos; homens devem evitar bermudas na medina. Na praia, tudo bem — os locais toleram bem a roupa de praia nos resorts."
+    }
   ],
   "packing": [
-    { "item": "Saída modesta para Stone Town", "why": "Necessária para visitar mesquitas e ser respeitoso na medina — linho leve funciona perfeitamente no calor" },
-    { "item": "Protetor solar reef-safe de FPS alto", "why": "O sol equatorial é extremo e os recifes precisam de proteção — muitos resorts já exigem produtos reef-safe" },
-    { "item": "Máscara de snorkel (própria)", "why": "O equipamento do hotel funciona, mas a sua serve melhor — essencial nas visitas ao atol de Mnemba" },
-    { "item": "Repelente (DEET 30%+)", "why": "Há malária em Zanzibar — faça profilaxia e use repelente ao amanhecer e ao anoitecer" },
-    { "item": "Saco estanque (dry bag)", "why": "Passeios de dhow e snorkel são em barcos abertos — essencial para celular e câmera" }
+    {
+      "item": "Saída modesta para Stone Town",
+      "why": "Necessária para visitar mesquitas e ser respeitoso na medina — linho leve funciona perfeitamente no calor"
+    },
+    {
+      "item": "Protetor solar reef-safe de FPS alto",
+      "why": "O sol equatorial é extremo e os recifes precisam de proteção — muitos resorts já exigem produtos reef-safe"
+    },
+    {
+      "item": "Máscara de snorkel (própria)",
+      "why": "O equipamento do hotel funciona, mas a sua serve melhor — essencial nas visitas ao atol de Mnemba"
+    },
+    {
+      "item": "Repelente (DEET 30%+)",
+      "why": "Há malária em Zanzibar — faça profilaxia e use repelente ao amanhecer e ao anoitecer"
+    },
+    {
+      "item": "Saco estanque (dry bag)",
+      "why": "Passeios de dhow e snorkel são em barcos abertos — essencial para celular e câmera"
+    }
   ],
   "guide": {
     "getting": "Voe ao Zanzibar Abeid Amani Karume International (ZNZ). Voos diretos da Europa: Kenya Airways via Nairóbi, Ethiopian Airlines via Adis Abeba, Turkish Airlines via Istambul (todos 8–11h no total). Do Reino Unido: sem voo direto — melhor rota via Nairóbi pela Kenya Airways ou via Dubai pela flydubai. Voos internos de Dar es Salaam (DAR) levam 35 min e custam $60–$100. Táxis do aeroporto ZNZ a Stone Town levam 20 min ($10–$15 tarifa fixa); aos hotéis do norte, 45–60 min ($25–$40).",
@@ -101,5 +246,9 @@
   "localFood": "Pizza de Zanzibar (pão folhado recheado de ovo, carne e queijo no mercado dos Forodhani Gardens), sopa urojo (mistura azedinha de Zanzibar), atum grelhado fresco com molho de tamarindo, biryani com especiarias inteiras e chai com cardamomo e gengibre. O Spice Tour às fazendas de cravo, noz-moscada e baunilha é um destaque de meio-dia.",
   "currency": "Xelim tanzaniano (TZS) — hotéis cotam em USD",
   "language": "Suaíli e inglês",
-  "timezone": "UTC+3"
+  "timezone": "UTC+3",
+  "seo": {
+    "title": "Lua de Mel em Zanzibar: 8 Resorts na Ilha de Especiarias",
+    "description": "8 resorts na costa leste e Stone Town pontuados. &Beyond Mnemba, Zuri, Park Hyatt. De $400/noite. Jun-out."
+  }
 }

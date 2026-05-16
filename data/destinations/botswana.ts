@@ -106,6 +106,7 @@ localFood: 'Seswaa (pounded salted beef, Botswana\'s national dish, often served
 currency: 'Botswana Pula (BWP) — meaning "rain," Botswana\'s most precious thing. Camps quote and accept USD; local currency needed only for tipping support staff and lodge shop purchases.',
 language: 'English is official and universal; Setswana is the mother tongue for most Batswana.',
 timezone: 'UTC+2 (Central Africa Time, no daylight saving)',
+  seo: { title: "Botswana Honeymoon: 9 Okavango Safari Camps 2026", description: "9 Delta and Linyanti tented camps ranked. Mombo, Vumbura, Jao, Sandibe. From $1,500/night. May-Oct dry-season verdicts." },
 }
 
 export default meta

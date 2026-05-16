@@ -18,52 +18,234 @@
     "Quer lua de mel com base única"
   ],
   "experiences": [
-    { "icon": "🌋", "title": "Águas termais do vulcão Arenal", "description": "Mergulhe em piscinas térmicas ricas em minerais aos pés de um vulcão de cone quase perfeito. Nayara, Tabacón e Springs Resort têm fontes termais privativas.", "cost": "Grátis para hóspedes; day pass $80-120", "tip": "Vá depois do pôr do sol, quando o ar esfria" },
-    { "icon": "🦥", "title": "Caminhada de fauna em Manuel Antonio", "description": "Uma caminhada matinal guiada quase garante bichos-preguiça, macacos-prego e esquilo, iguanas e tucanos na primeira hora.", "cost": "$80-120 por casal", "tip": "Contrate guia com luneta" },
-    { "icon": "🌿", "title": "Pontes suspensas da floresta nublada de Monteverde", "description": "Caminhe acima do dossel por uma rede de pontes suspensas em meio à floresta nublada.", "cost": "$50-90 por pessoa", "tip": "Selvatura e Sky Adventures vendem combo; vá cedo" },
-    { "icon": "🐢", "title": "Desova de tartarugas em Tortuguero (jul-out)", "description": "Veja tartarugas-verdes saírem do mar na praia caribenha à noite para desovar.", "cost": "$30-50 por pessoa, caminhada guiada", "tip": "Mínimo 2 noites em lodge na selva" },
-    { "icon": "🏄", "title": "Surfe e pôr do sol em Santa Teresa", "description": "Tenha aula privativa de surfe em Playa Carmen e termine na areia com uma Imperial gelada.", "cost": "$60-90 por pessoa, aula privativa de 2h", "tip": "Hospede-se no Nantipa ou Pranamar" }
+    {
+      "icon": "🌋",
+      "title": "Águas termais do vulcão Arenal",
+      "description": "Mergulhe em piscinas térmicas ricas em minerais aos pés de um vulcão de cone quase perfeito. Nayara, Tabacón e Springs Resort têm fontes termais privativas.",
+      "cost": "Grátis para hóspedes; day pass $80-120",
+      "tip": "Vá depois do pôr do sol, quando o ar esfria"
+    },
+    {
+      "icon": "🦥",
+      "title": "Caminhada de fauna em Manuel Antonio",
+      "description": "Uma caminhada matinal guiada quase garante bichos-preguiça, macacos-prego e esquilo, iguanas e tucanos na primeira hora.",
+      "cost": "$80-120 por casal",
+      "tip": "Contrate guia com luneta"
+    },
+    {
+      "icon": "🌿",
+      "title": "Pontes suspensas da floresta nublada de Monteverde",
+      "description": "Caminhe acima do dossel por uma rede de pontes suspensas em meio à floresta nublada.",
+      "cost": "$50-90 por pessoa",
+      "tip": "Selvatura e Sky Adventures vendem combo; vá cedo"
+    },
+    {
+      "icon": "🐢",
+      "title": "Desova de tartarugas em Tortuguero (jul-out)",
+      "description": "Veja tartarugas-verdes saírem do mar na praia caribenha à noite para desovar.",
+      "cost": "$30-50 por pessoa, caminhada guiada",
+      "tip": "Mínimo 2 noites em lodge na selva"
+    },
+    {
+      "icon": "🏄",
+      "title": "Surfe e pôr do sol em Santa Teresa",
+      "description": "Tenha aula privativa de surfe em Playa Carmen e termine na areia com uma Imperial gelada.",
+      "cost": "$60-90 por pessoa, aula privativa de 2h",
+      "tip": "Hospede-se no Nantipa ou Pranamar"
+    }
   ],
   "months": [
-    { "month": "Jan", "weather": "24-29°C, seco e ensolarado", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Clima de cartão-postal, reserve com 6+ meses" },
-    { "month": "Feb", "weather": "24-31°C, mês mais seco", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Melhores condições gerais" },
-    { "month": "Mar", "weather": "25-31°C, quente e seco", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Ótimo surfe, praias quentes" },
-    { "month": "Apr", "weather": "26-32°C, fim da estação seca", "emoji": "🌤️", "crowds": "Média", "price": "Alto", "verdict": "Quente no interior, mas excelente clima de praia" },
-    { "month": "May", "weather": "24-31°C, começam chuvas vespertinas", "emoji": "⛅", "crowds": "Baixa", "price": "Baixo", "verdict": "Ponto doce — começa a estação verde, preços caem" },
-    { "month": "Jun", "weather": "24-29°C, chuva diária", "emoji": "🌧️", "crowds": "Baixa", "price": "Baixo", "verdict": "Verde e dramático; ótimo surfe no Pacífico" },
-    { "month": "Jul", "weather": "24-29°C, mini-verão de meio de ano", "emoji": "🌤️", "crowds": "Média", "price": "Médio", "verdict": "Veranillo, breve trecho seco; tartarugas em Tortuguero" },
-    { "month": "Aug", "weather": "24-29°C, chuvoso", "emoji": "🌧️", "crowds": "Média", "price": "Médio", "verdict": "Úmido mas exuberante; pico de baleias" },
-    { "month": "Sep", "weather": "23-29°C, o mais úmido", "emoji": "🌧️", "crowds": "Baixa", "price": "Baixo", "verdict": "Pule o Caribe; Pacífico com chuva forte mas preços mais baixos" },
-    { "month": "Oct", "weather": "23-29°C, muito úmido", "emoji": "🌧️", "crowds": "Baixa", "price": "Baixo", "verdict": "Costa caribenha ensolarada enquanto Pacífico alaga" },
-    { "month": "Nov", "weather": "23-29°C, chuvas diminuem", "emoji": "⛅", "crowds": "Baixa", "price": "Baixo", "verdict": "Joia escondida — paisagem verde, tarifas baixas" },
-    { "month": "Dec", "weather": "23-29°C, volta a estação seca", "emoji": "☀️", "crowds": "Alta", "price": "Máximo", "verdict": "Mágico antes do Natal; semanas de feriado, reserve com 1 ano" }
+    {
+      "month": "Jan",
+      "weather": "24-29°C, seco e ensolarado",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Clima de cartão-postal, reserve com 6+ meses"
+    },
+    {
+      "month": "Feb",
+      "weather": "24-31°C, mês mais seco",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Melhores condições gerais"
+    },
+    {
+      "month": "Mar",
+      "weather": "25-31°C, quente e seco",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Ótimo surfe, praias quentes"
+    },
+    {
+      "month": "Apr",
+      "weather": "26-32°C, fim da estação seca",
+      "emoji": "🌤️",
+      "crowds": "Média",
+      "price": "Alto",
+      "verdict": "Quente no interior, mas excelente clima de praia"
+    },
+    {
+      "month": "May",
+      "weather": "24-31°C, começam chuvas vespertinas",
+      "emoji": "⛅",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Ponto doce — começa a estação verde, preços caem"
+    },
+    {
+      "month": "Jun",
+      "weather": "24-29°C, chuva diária",
+      "emoji": "🌧️",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Verde e dramático; ótimo surfe no Pacífico"
+    },
+    {
+      "month": "Jul",
+      "weather": "24-29°C, mini-verão de meio de ano",
+      "emoji": "🌤️",
+      "crowds": "Média",
+      "price": "Médio",
+      "verdict": "Veranillo, breve trecho seco; tartarugas em Tortuguero"
+    },
+    {
+      "month": "Aug",
+      "weather": "24-29°C, chuvoso",
+      "emoji": "🌧️",
+      "crowds": "Média",
+      "price": "Médio",
+      "verdict": "Úmido mas exuberante; pico de baleias"
+    },
+    {
+      "month": "Sep",
+      "weather": "23-29°C, o mais úmido",
+      "emoji": "🌧️",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Pule o Caribe; Pacífico com chuva forte mas preços mais baixos"
+    },
+    {
+      "month": "Oct",
+      "weather": "23-29°C, muito úmido",
+      "emoji": "🌧️",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Costa caribenha ensolarada enquanto Pacífico alaga"
+    },
+    {
+      "month": "Nov",
+      "weather": "23-29°C, chuvas diminuem",
+      "emoji": "⛅",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Joia escondida — paisagem verde, tarifas baixas"
+    },
+    {
+      "month": "Dec",
+      "weather": "23-29°C, volta a estação seca",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Máximo",
+      "verdict": "Mágico antes do Natal; semanas de feriado, reserve com 1 ano"
+    }
   ],
   "budgetTiers": [
-    { "label": "Confortável", "range": "$300-500/noite", "gets": "Eco-lodges boutique, bangalôs na selva, hotéis de praia", "example": "Tifakara Boutique Hotel Arenal, Latitude 10 Santa Teresa" },
-    { "label": "Luxo", "range": "$700-1.200/noite", "gets": "Eco-lodges top com plunge pool privativa, pensão completa, atividades guiadas", "example": "Nayara Tented Camp, Lapa Rios, Origins Lodge" },
-    { "label": "Ultra", "range": "$1.500-3.500/noite", "gets": "Vilas pé na areia, mordomo, guias privativos", "example": "Four Seasons Papagayo, presidencial Andaz Papagayo" }
+    {
+      "label": "Confortável",
+      "range": "$300-500/noite",
+      "gets": "Eco-lodges boutique, bangalôs na selva, hotéis de praia",
+      "example": "Tifakara Boutique Hotel Arenal, Latitude 10 Santa Teresa"
+    },
+    {
+      "label": "Luxo",
+      "range": "$700-1.200/noite",
+      "gets": "Eco-lodges top com plunge pool privativa, pensão completa, atividades guiadas",
+      "example": "Nayara Tented Camp, Lapa Rios, Origins Lodge"
+    },
+    {
+      "label": "Ultra",
+      "range": "$1.500-3.500/noite",
+      "gets": "Vilas pé na areia, mordomo, guias privativos",
+      "example": "Four Seasons Papagayo, presidencial Andaz Papagayo"
+    }
   ],
   "areas": [
-    { "name": "Arenal / La Fortuna", "bestFor": "Vista do vulcão, águas termais, pontes suspensas", "description": "A abertura clássica da Costa Rica. Vulcão de cone perfeito, piscinas geotérmicas, 3h de San José." },
-    { "name": "Monteverde", "bestFor": "Floresta nublada, tirolesas, quetzais, noites mais frescas", "description": "Floresta nublada de montanha a 1.370 m com pontes suspensas e avifauna rara." },
-    { "name": "Manuel Antonio", "bestFor": "Combo fácil de praia + selva, bichos-preguiça", "description": "Pequeno parque nacional onde a floresta tropical tomba sobre uma praia do Pacífico. Bichos-preguiça e macacos nas trilhas." },
-    { "name": "Península de Osa", "bestFor": "Floresta mais biodiversa do planeta, natureza profunda", "description": "Remoto e inesquecível. Acesso por avião pequeno até Puerto Jiménez. Lapa Rios é realeza dos eco-lodges." },
-    { "name": "Nicoya / Papagayo", "bestFor": "Lua de mel pé na areia, surfe e yoga, bem-estar Blue Zone", "description": "Papagayo abriga Four Seasons e Andaz; Santa Teresa e Nosara entregam energia boêmia de surfe e yoga." }
+    {
+      "name": "Arenal / La Fortuna",
+      "bestFor": "Vista do vulcão, águas termais, pontes suspensas",
+      "description": "A abertura clássica da Costa Rica. Vulcão de cone perfeito, piscinas geotérmicas, 3h de San José."
+    },
+    {
+      "name": "Monteverde",
+      "bestFor": "Floresta nublada, tirolesas, quetzais, noites mais frescas",
+      "description": "Floresta nublada de montanha a 1.370 m com pontes suspensas e avifauna rara."
+    },
+    {
+      "name": "Manuel Antonio",
+      "bestFor": "Combo fácil de praia + selva, bichos-preguiça",
+      "description": "Pequeno parque nacional onde a floresta tropical tomba sobre uma praia do Pacífico. Bichos-preguiça e macacos nas trilhas."
+    },
+    {
+      "name": "Península de Osa",
+      "bestFor": "Floresta mais biodiversa do planeta, natureza profunda",
+      "description": "Remoto e inesquecível. Acesso por avião pequeno até Puerto Jiménez. Lapa Rios é realeza dos eco-lodges."
+    },
+    {
+      "name": "Nicoya / Papagayo",
+      "bestFor": "Lua de mel pé na areia, surfe e yoga, bem-estar Blue Zone",
+      "description": "Papagayo abriga Four Seasons e Andaz; Santa Teresa e Nosara entregam energia boêmia de surfe e yoga."
+    }
   ],
   "expertTips": [
-    { "tip": "Combine duas regiões, não três", "detail": "Uma lua de mel de 10 noites funciona melhor como 4 noites em Arenal + 5-6 noites de praia. Adicionar Monteverde ou Osa empurra para muitos dias de transfer." },
-    { "tip": "Voe para um aeroporto e saia pelo outro", "detail": "Open-jaw entrando em SJO e saindo de LIR (ou vice-versa) economiza mais de 5h dirigindo." },
-    { "tip": "Use voos domésticos da Sansa para Osa", "detail": "Um voo de 50 min até Puerto Jiménez supera 8h de carro." },
-    { "tip": "Contrate guias locais — você verá 10x mais", "detail": "Um naturalista com luneta transforma uma trilha tranquila em um bufê de fauna." },
-    { "tip": "Aproveite a estação verde com inteligência", "detail": "Maio, junho e novembro têm grande economia. Manhãs costumam ser ensolaradas; chuva chega em pancadas à tarde." }
+    {
+      "tip": "Combine duas regiões, não três",
+      "detail": "Uma lua de mel de 10 noites funciona melhor como 4 noites em Arenal + 5-6 noites de praia. Adicionar Monteverde ou Osa empurra para muitos dias de transfer."
+    },
+    {
+      "tip": "Voe para um aeroporto e saia pelo outro",
+      "detail": "Open-jaw entrando em SJO e saindo de LIR (ou vice-versa) economiza mais de 5h dirigindo."
+    },
+    {
+      "tip": "Use voos domésticos da Sansa para Osa",
+      "detail": "Um voo de 50 min até Puerto Jiménez supera 8h de carro."
+    },
+    {
+      "tip": "Contrate guias locais — você verá 10x mais",
+      "detail": "Um naturalista com luneta transforma uma trilha tranquila em um bufê de fauna."
+    },
+    {
+      "tip": "Aproveite a estação verde com inteligência",
+      "detail": "Maio, junho e novembro têm grande economia. Manhãs costumam ser ensolaradas; chuva chega em pancadas à tarde."
+    }
   ],
   "packing": [
-    { "item": "Calça e camisa de trilha de secagem rápida", "why": "Algodão fica molhado por horas na umidade da floresta" },
-    { "item": "Capa de chuva leve", "why": "Mesmo a estação seca tem pancadas surpresa" },
-    { "item": "Sandálias de trilha à prova d'água (Chacos/Tevas)", "why": "Você vai cruzar rios, escalar cachoeiras" },
-    { "item": "Protetor solar reef-safe e repelente sem DEET", "why": "Exigido em parques nacionais; mosquitos são reais nas selvas baixas" },
-    { "item": "Binóculos (compactos)", "why": "A fauna costuma estar a 30 m de altura no dossel" },
-    { "item": "Saco estanque ou bolsa impermeável para celular", "why": "Para tirolesas, descidas de rio, transfers de barco" }
+    {
+      "item": "Calça e camisa de trilha de secagem rápida",
+      "why": "Algodão fica molhado por horas na umidade da floresta"
+    },
+    {
+      "item": "Capa de chuva leve",
+      "why": "Mesmo a estação seca tem pancadas surpresa"
+    },
+    {
+      "item": "Sandálias de trilha à prova d'água (Chacos/Tevas)",
+      "why": "Você vai cruzar rios, escalar cachoeiras"
+    },
+    {
+      "item": "Protetor solar reef-safe e repelente sem DEET",
+      "why": "Exigido em parques nacionais; mosquitos são reais nas selvas baixas"
+    },
+    {
+      "item": "Binóculos (compactos)",
+      "why": "A fauna costuma estar a 30 m de altura no dossel"
+    },
+    {
+      "item": "Saco estanque ou bolsa impermeável para celular",
+      "why": "Para tirolesas, descidas de rio, transfers de barco"
+    }
   ],
   "guide": {
     "getting": "Voe para San José (SJO) para Arenal, Monteverde, Manuel Antonio, ou Liberia (LIR) para Papagayo, Nicoya. Trajeto interno via 4x4 alugado, transfer privativo ($150-250 entre regiões) ou voos curtos da Sansa.",
@@ -73,5 +255,9 @@
   "localFood": "A comida costarriquenha é humilde e honesta: gallo pinto no café, casado no almoço, ceviche de peixe fresco nas costas. Não perca o tres leches, a yuca frita e o café coado no chorreador de Tarrazú — entre os melhores do mundo.",
   "currency": "Colón costarriquenho (CRC); USD amplamente aceito",
   "language": "Espanhol (inglês no turismo)",
-  "timezone": "CST (UTC-6)"
+  "timezone": "CST (UTC-6)",
+  "seo": {
+    "title": "Lua de Mel na Costa Rica: 7 Lodges Selva e Praia 2026",
+    "description": "7 ecolodges em Nicoya, Osa e Arenal pontuados. Nayara Tented, Lapa Rios, Andaz Papagayo. De $400/noite."
+  }
 }

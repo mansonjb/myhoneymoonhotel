@@ -2,6 +2,10 @@ import type { ExperienceMeta } from '@/types/experience'
 
 const meta: ExperienceMeta = {
   label: 'Wellness & Spa Honeymoons',
+  seo: {
+    title: 'Wellness Honeymoon Resorts: 384 Spa & Onsen Picks 2026',
+    description: 'Wellness honeymoon resorts across 54 destinations — 384 properties scored on spa depth, sleep programs, cuisine and ritual. From $150 to $5,000 a night.',
+  },
   tagline: 'The honeymoon that changes how you feel, not just where you go',
   hero: '/images/hotels/six-senses-zil-pasyon-seychelles/hero.webp',
   intro: 'Wellness honeymoons are the fastest-growing category in luxury travel — couples increasingly want to arrive home from their honeymoon feeling genuinely better than when they left, not just rested. The best wellness-focused properties offer not just world-class spas, but a full sensory architecture: extraordinary cuisine, sleep programmes, movement and yoga, and spa treatments drawn from traditional healing systems that have been refined over centuries.',

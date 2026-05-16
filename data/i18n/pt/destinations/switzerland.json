@@ -55,44 +55,193 @@
     }
   ],
   "months": [
-    { "month": "Jan", "weather": "–10°C, neve farta, sol seco", "emoji": "❄️", "crowds": "Máxima", "price": "Máximo", "verdict": "Pico de esqui — reserve com 1 ano" },
-    { "month": "Feb", "weather": "–8°C, condições perfeitas para esquiar", "emoji": "⛷️", "crowds": "Máxima", "price": "Máximo", "verdict": "Melhor mês de esqui, melhor gelo no lago de St. Moritz" },
-    { "month": "Mar", "weather": "–2°C, dias mais longos, esqui excelente", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Esqui de primavera — condições mais perdoadoras" },
-    { "month": "Apr", "weather": "Começa o degelo, lama em altitudes mais baixas", "emoji": "🌦", "crowds": "Baixa", "price": "Baixo", "verdict": "Hotéis costumam fechar em meados de abril" },
-    { "month": "May", "weather": "15°C nos vales, neve acima de 2.500 m", "emoji": "🌱", "crowds": "Baixa", "price": "Baixo", "verdict": "Baixa estação — tranquilo e mais acessível" },
-    { "month": "Jun", "weather": "20°C, pico de flores silvestres", "emoji": "🌸", "crowds": "Moderada", "price": "Médio", "verdict": "Subestimado — colinas verdes, pouca gente" },
-    { "month": "Jul", "weather": "25°C, tempo perfeito para trilhas", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Pico de verão — reserve com antecedência" },
-    { "month": "Aug", "weather": "Quente e ensolarado, algumas tempestades à tarde", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Lindo, mas mês mais cheio do verão" },
-    { "month": "Sep", "weather": "Fresco a 18°C, lariços dourados no fim do mês", "emoji": "🍂", "crowds": "Moderada", "price": "Médio-alto", "verdict": "Melhor mês geral — trilhas + valor" },
-    { "month": "Oct", "weather": "Frio a 10°C, cores de outono, primeira neve", "emoji": "🍁", "crowds": "Baixa", "price": "Baixo-médio", "verdict": "Meia estação tranquila — muitos hotéis fecham no fim do mês" },
-    { "month": "Nov", "weather": "0°C, frequentemente cinzento nos vales", "emoji": "🌫", "crowds": "Baixa", "price": "Baixo", "verdict": "Pule — maior parte dos hotéis fechada" },
-    { "month": "Dec", "weather": "–5°C, neve fresca, mercados de Natal", "emoji": "🎄", "crowds": "Máxima", "price": "Máximo", "verdict": "Mágico se nevar — prêmio de Natal" }
+    {
+      "month": "Jan",
+      "weather": "–10°C, neve farta, sol seco",
+      "emoji": "❄️",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Pico de esqui — reserve com 1 ano"
+    },
+    {
+      "month": "Feb",
+      "weather": "–8°C, condições perfeitas para esquiar",
+      "emoji": "⛷️",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Melhor mês de esqui, melhor gelo no lago de St. Moritz"
+    },
+    {
+      "month": "Mar",
+      "weather": "–2°C, dias mais longos, esqui excelente",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Esqui de primavera — condições mais perdoadoras"
+    },
+    {
+      "month": "Apr",
+      "weather": "Começa o degelo, lama em altitudes mais baixas",
+      "emoji": "🌦",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Hotéis costumam fechar em meados de abril"
+    },
+    {
+      "month": "May",
+      "weather": "15°C nos vales, neve acima de 2.500 m",
+      "emoji": "🌱",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Baixa estação — tranquilo e mais acessível"
+    },
+    {
+      "month": "Jun",
+      "weather": "20°C, pico de flores silvestres",
+      "emoji": "🌸",
+      "crowds": "Moderada",
+      "price": "Médio",
+      "verdict": "Subestimado — colinas verdes, pouca gente"
+    },
+    {
+      "month": "Jul",
+      "weather": "25°C, tempo perfeito para trilhas",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Pico de verão — reserve com antecedência"
+    },
+    {
+      "month": "Aug",
+      "weather": "Quente e ensolarado, algumas tempestades à tarde",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Lindo, mas mês mais cheio do verão"
+    },
+    {
+      "month": "Sep",
+      "weather": "Fresco a 18°C, lariços dourados no fim do mês",
+      "emoji": "🍂",
+      "crowds": "Moderada",
+      "price": "Médio-alto",
+      "verdict": "Melhor mês geral — trilhas + valor"
+    },
+    {
+      "month": "Oct",
+      "weather": "Frio a 10°C, cores de outono, primeira neve",
+      "emoji": "🍁",
+      "crowds": "Baixa",
+      "price": "Baixo-médio",
+      "verdict": "Meia estação tranquila — muitos hotéis fecham no fim do mês"
+    },
+    {
+      "month": "Nov",
+      "weather": "0°C, frequentemente cinzento nos vales",
+      "emoji": "🌫",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Pule — maior parte dos hotéis fechada"
+    },
+    {
+      "month": "Dec",
+      "weather": "–5°C, neve fresca, mercados de Natal",
+      "emoji": "🎄",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Mágico se nevar — prêmio de Natal"
+    }
   ],
   "budgetTiers": [
-    { "label": "4★ sofisticado", "range": "$400–$800/noite", "gets": "4★ boutique ou de rede confortável em vilarejo top. Bom serviço, luxo modesto.", "example": "Hotel Crystal Zermatt, Schweizerhof St. Moritz, vizinhos do Parkhotel Vitznau" },
-    { "label": "Grande Dama 5★", "range": "$800–$2.500/noite", "gets": "Palácio centenário com torres — salas de jantar Belle Époque, mesas 2 estrelas Michelin, concierge de esqui.", "example": "Badrutt's Palace, Kulm Hotel St. Moritz, Gstaad Palace, Mont Cervin Palace" },
-    { "label": "Chalé e suíte ultra-luxo", "range": "$1.500–$5.000/noite", "gets": "Luxo moderno orientado ao design, spa Six Senses, mordomo de esqui privativo, Rolls-Royce com motorista entre pista e restaurante.", "example": "The Alpina Gstaad, The Chedi Andermatt, Bürgenstock Private Residences" }
+    {
+      "label": "4★ sofisticado",
+      "range": "$400–$800/noite",
+      "gets": "4★ boutique ou de rede confortável em vilarejo top. Bom serviço, luxo modesto.",
+      "example": "Hotel Crystal Zermatt, Schweizerhof St. Moritz, vizinhos do Parkhotel Vitznau"
+    },
+    {
+      "label": "Grande Dama 5★",
+      "range": "$800–$2.500/noite",
+      "gets": "Palácio centenário com torres — salas de jantar Belle Époque, mesas 2 estrelas Michelin, concierge de esqui.",
+      "example": "Badrutt's Palace, Kulm Hotel St. Moritz, Gstaad Palace, Mont Cervin Palace"
+    },
+    {
+      "label": "Chalé e suíte ultra-luxo",
+      "range": "$1.500–$5.000/noite",
+      "gets": "Luxo moderno orientado ao design, spa Six Senses, mordomo de esqui privativo, Rolls-Royce com motorista entre pista e restaurante.",
+      "example": "The Alpina Gstaad, The Chedi Andermatt, Bürgenstock Private Residences"
+    }
   ],
   "areas": [
-    { "name": "St. Moritz / Engadin", "bestFor": "Glamour, patinação no lago, Badrutt's Palace", "description": "Capital de inverno do jet-set desde 1864. Lar de Badrutt's Palace, Kulm e Suvretta House. White Turf no lago congelado em fevereiro. Em altitude (1.800 m): seca, ensolarada e fria." },
-    { "name": "Zermatt", "bestFor": "Vista do Matterhorn, vilarejo sem carros, esqui em geleira", "description": "A silhueta alpina mais icônica da Suíça. Sem carros (apenas e-táxis). A ferrovia do Gornergrat é obrigatória. Hospede-se no Mont Cervin Palace ou Riffelalp Resort, a 2.222 m." },
-    { "name": "Gstaad / Saanenland", "bestFor": "Luxo discreto, atmosfera de chalé", "description": "Vilarejo favorito das celebridades, preservado em estilo de chalé de madeira (sem prédios modernos permitidos). Lar de Gstaad Palace e The Alpina Gstaad. Esqui no inverno, trilhas em fazendas de queijo no verão." },
-    { "name": "Lago de Lucerna / Bürgenstock", "bestFor": "Vistas do lago, bem-estar, romance de verão", "description": "A crista de Bürgenstock, a 500 m, tem a melhor combinação lago-Alpes da Suíça. A piscina de borda em vidro do Alpine Spa é uma das mais fotografadas da Europa." },
-    { "name": "Lago Genebra / Lausanne", "bestFor": "Estadia cultural cidade-lago, região vinícola", "description": "Beau-Rivage Palace, vinhedos em terraços de Lavaux (UNESCO), Museu Chaplin's World. Logística mais fácil que nas montanhas — 50 min do aeroporto de Genebra." }
+    {
+      "name": "St. Moritz / Engadin",
+      "bestFor": "Glamour, patinação no lago, Badrutt's Palace",
+      "description": "Capital de inverno do jet-set desde 1864. Lar de Badrutt's Palace, Kulm e Suvretta House. White Turf no lago congelado em fevereiro. Em altitude (1.800 m): seca, ensolarada e fria."
+    },
+    {
+      "name": "Zermatt",
+      "bestFor": "Vista do Matterhorn, vilarejo sem carros, esqui em geleira",
+      "description": "A silhueta alpina mais icônica da Suíça. Sem carros (apenas e-táxis). A ferrovia do Gornergrat é obrigatória. Hospede-se no Mont Cervin Palace ou Riffelalp Resort, a 2.222 m."
+    },
+    {
+      "name": "Gstaad / Saanenland",
+      "bestFor": "Luxo discreto, atmosfera de chalé",
+      "description": "Vilarejo favorito das celebridades, preservado em estilo de chalé de madeira (sem prédios modernos permitidos). Lar de Gstaad Palace e The Alpina Gstaad. Esqui no inverno, trilhas em fazendas de queijo no verão."
+    },
+    {
+      "name": "Lago de Lucerna / Bürgenstock",
+      "bestFor": "Vistas do lago, bem-estar, romance de verão",
+      "description": "A crista de Bürgenstock, a 500 m, tem a melhor combinação lago-Alpes da Suíça. A piscina de borda em vidro do Alpine Spa é uma das mais fotografadas da Europa."
+    },
+    {
+      "name": "Lago Genebra / Lausanne",
+      "bestFor": "Estadia cultural cidade-lago, região vinícola",
+      "description": "Beau-Rivage Palace, vinhedos em terraços de Lavaux (UNESCO), Museu Chaplin's World. Logística mais fácil que nas montanhas — 50 min do aeroporto de Genebra."
+    }
   ],
   "expertTips": [
-    { "tip": "Compre o Swiss Travel Pass se for circular", "detail": "Um Swiss Travel Pass (3 a 15 dias) cobre todos os trens, ônibus e barcos, mais entrada em museus e descontos em montanhas. Para 3+ vilarejos alpinos, é bem mais barato que ingressos individuais. Compre antes de voar." },
-    { "tip": "Reservas de jantar são inegociáveis", "detail": "Os melhores restaurantes suíços (Restaurant de l'Hôtel de Ville Crissier, Schauenstein, Sommet no Alpina, Cheval Blanc no Baur) lotam com 3 a 6 meses. Reserve junto com o hotel." },
-    { "tip": "Lógica do passe de esqui — compre o regional", "detail": "Em St. Moritz, o passe Corviglia/Corvatsch/Diavolezza cobre 350 km de pistas por $80/dia. O Matterhorn Ski Paradise de Zermatt cobre 360 km e cruza para a Itália. Passes de pista única são desperdício." },
-    { "tip": "Vilarejos sem carro implicam chegada de trem", "detail": "Zermatt, Saas-Fee e Wengen não têm acesso de carro. Estacione na entrada do vale (Täsch para Zermatt) e pegue o trem-shuttle. Alugar carro é pior do que inútil aqui." },
-    { "tip": "Novembro e fim de abril estão fechados", "detail": "A maioria dos resorts alpinos fecha do começo de novembro ao começo de dezembro e novamente do começo de abril a meados de junho. Não planeje uma lua de mel nas montanhas suíças nessas janelas — encontrará vilarejos vazios." }
+    {
+      "tip": "Compre o Swiss Travel Pass se for circular",
+      "detail": "Um Swiss Travel Pass (3 a 15 dias) cobre todos os trens, ônibus e barcos, mais entrada em museus e descontos em montanhas. Para 3+ vilarejos alpinos, é bem mais barato que ingressos individuais. Compre antes de voar."
+    },
+    {
+      "tip": "Reservas de jantar são inegociáveis",
+      "detail": "Os melhores restaurantes suíços (Restaurant de l'Hôtel de Ville Crissier, Schauenstein, Sommet no Alpina, Cheval Blanc no Baur) lotam com 3 a 6 meses. Reserve junto com o hotel."
+    },
+    {
+      "tip": "Lógica do passe de esqui — compre o regional",
+      "detail": "Em St. Moritz, o passe Corviglia/Corvatsch/Diavolezza cobre 350 km de pistas por $80/dia. O Matterhorn Ski Paradise de Zermatt cobre 360 km e cruza para a Itália. Passes de pista única são desperdício."
+    },
+    {
+      "tip": "Vilarejos sem carro implicam chegada de trem",
+      "detail": "Zermatt, Saas-Fee e Wengen não têm acesso de carro. Estacione na entrada do vale (Täsch para Zermatt) e pegue o trem-shuttle. Alugar carro é pior do que inútil aqui."
+    },
+    {
+      "tip": "Novembro e fim de abril estão fechados",
+      "detail": "A maioria dos resorts alpinos fecha do começo de novembro ao começo de dezembro e novamente do começo de abril a meados de junho. Não planeje uma lua de mel nas montanhas suíças nessas janelas — encontrará vilarejos vazios."
+    }
   ],
   "packing": [
-    { "item": "Botas de neve impermeáveis de qualidade", "why": "As ruas dos vilarejos em Zermatt e St. Moritz têm gelo de dezembro a março. Botas fashion escorregam; modelos tipo sorel são o padrão." },
-    { "item": "Camadas térmicas", "why": "Subidas de teleférico a –15°C expõem você a sensação térmica séria. Bases em merino são necessidade, não luxo, em lua de mel." },
-    { "item": "Óculos de sol com proteção UV alpina", "why": "Neve e gelo glacial refletem UV em níveis ofuscantes. Categoria 3 no mínimo; categoria 4 para esqui em geleira." },
-    { "item": "Maiô — sim, mesmo no inverno", "why": "Todo bom hotel suíço tem piscina interna/externa aquecida. Você usa mais que imagina." },
-    { "item": "Roupa elegante para a noite", "why": "Os jantares nas Grandes Damas são para se arrumar. Paletó para homem, vestido para mulher no Chesa Veglia, Sommet e Anne-Sophie Pic. Nada de roupa esportiva depois das 18h." }
+    {
+      "item": "Botas de neve impermeáveis de qualidade",
+      "why": "As ruas dos vilarejos em Zermatt e St. Moritz têm gelo de dezembro a março. Botas fashion escorregam; modelos tipo sorel são o padrão."
+    },
+    {
+      "item": "Camadas térmicas",
+      "why": "Subidas de teleférico a –15°C expõem você a sensação térmica séria. Bases em merino são necessidade, não luxo, em lua de mel."
+    },
+    {
+      "item": "Óculos de sol com proteção UV alpina",
+      "why": "Neve e gelo glacial refletem UV em níveis ofuscantes. Categoria 3 no mínimo; categoria 4 para esqui em geleira."
+    },
+    {
+      "item": "Maiô — sim, mesmo no inverno",
+      "why": "Todo bom hotel suíço tem piscina interna/externa aquecida. Você usa mais que imagina."
+    },
+    {
+      "item": "Roupa elegante para a noite",
+      "why": "Os jantares nas Grandes Damas são para se arrumar. Paletó para homem, vestido para mulher no Chesa Veglia, Sommet e Anne-Sophie Pic. Nada de roupa esportiva depois das 18h."
+    }
   ],
   "guide": {
     "getting": "Aeroportos principais: Zurique (ZRH) para St. Moritz, Andermatt e Alpes orientais; Genebra (GVA) para Gstaad, Zermatt e Alpes ocidentais. De Londres: 1h45 a qualquer um. De NYC: 8h direto pela Swiss ou United. Do aeroporto ao vilarejo de trem: Zurique a St. Moritz 3h15 (2 baldeações, sensação de Glacier Express); Genebra a Zermatt 3h30 (baldeação em Visp). A ferrovia suíça é lendária pela pontualidade e pelas vistas panorâmicas.",
@@ -102,5 +251,9 @@
   "localFood": "Fondue Moitié-Moitié (Gruyère + Vacherin Fribourgeois, servido no Chesa Veglia com pianista); Raclette (queijo raspado com batatas e cebolinhas em conserva — o jantar informal); Rösti (panqueca de batata suíço-alemã, melhor no Kronenhalle Zurich); Älplermagronen (macarrão alpino com creme, batatas e molho de maçã ao lado); Bündner Gerstensuppe (sopa de cevada do cantão de Graubünden); chocolate na Sprüngli Zurich (os macarons Luxemburgerli) e Teuscher (trufas de champanhe). A Suíça tem mais estrelas Michelin per capita do que quase qualquer país — 128 estrelas para cerca de 9 milhões de pessoas.",
   "currency": "Franco suíço (CHF) — a Suíça está fora da Zona do Euro. Euros são aceitos em áreas turísticas a câmbios desfavoráveis.",
   "language": "Alemão (66%), francês (23%), italiano (8%), romanche (0,5%). Inglês é universal nas áreas turísticas.",
-  "timezone": "UTC+1 (CET) / UTC+2 (CEST, verão)"
+  "timezone": "UTC+1 (CET) / UTC+2 (CEST, verão)",
+  "seo": {
+    "title": "Lua de Mel na Suíça: 9 Grand Hotéis Alpinos 2026",
+    "description": "9 estadias em St Moritz, Zermatt e Lausanne pontuadas. Badrutts, Mont Cervin, Beau-Rivage. De $500/noite."
+  }
 }

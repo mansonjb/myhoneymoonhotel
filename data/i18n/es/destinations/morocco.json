@@ -55,18 +55,102 @@
     }
   ],
   "months": [
-    { "month": "Jan", "weather": "Noches frescas, días despejados, Sáhara frío", "emoji": "❄️", "crowds": "Baja", "price": "Bajo", "verdict": "Bien para las medinas, desierto frío" },
-    { "month": "Feb", "weather": "Templándose, cielos despejados, gran luz", "emoji": "🌤", "crowds": "Baja", "price": "Bajo-medio", "verdict": "Buena relación calidad-precio, luz excelente" },
-    { "month": "Mar", "weather": "Cálido, flores, casi perfecto", "emoji": "🌸", "crowds": "Moderada", "price": "Medio", "verdict": "Uno de los mejores meses" },
-    { "month": "Apr", "weather": "Cálido, festival de las rosas, Atlas exuberante", "emoji": "🌹", "crowds": "Moderada", "price": "Medio", "verdict": "Cosecha de rosas en el valle del Dades: mágica" },
-    { "month": "May", "weather": "Caluroso en el sur, perfecto en el norte", "emoji": "☀️", "crowds": "Moderada", "price": "Medio-alto", "verdict": "Excelente en general" },
-    { "month": "Jun", "weather": "Muy caluroso en Marrakech, calor en aumento", "emoji": "🌡️", "crowds": "Baja-mod.", "price": "Medio", "verdict": "Caluroso pero manejable a primera hora" },
-    { "month": "Jul", "weather": "Calor extremo en el sur (42°C+)", "emoji": "🔥", "crowds": "Baja", "price": "Bajo", "verdict": "Demasiado calor: evite el sur" },
-    { "month": "Aug", "weather": "Mes más caluroso, Marrakech brutal", "emoji": "🔥", "crowds": "Baja", "price": "Mínimo", "verdict": "Solo Essaouira costera resulta tolerable" },
-    { "month": "Sep", "weather": "Refrescando, excelente, Sáhara perfecto", "emoji": "☀️", "crowds": "Moderada", "price": "Medio", "verdict": "Vuelve el mes ideal" },
-    { "month": "Oct", "weather": "Perfecto: días cálidos, noches frescas", "emoji": "☀️", "crowds": "Alta", "price": "Medio-alto", "verdict": "El mejor mes del año" },
-    { "month": "Nov", "weather": "Días cálidos, noches frescas, cielos despejados", "emoji": "🌤", "crowds": "Moderada", "price": "Medio", "verdict": "Excelente relación calidad-precio en temporada media" },
-    { "month": "Dec", "weather": "Fresco, despejado, Navidad en las medinas", "emoji": "⛅", "crowds": "Moderada", "price": "Medio", "verdict": "Romántico en los zocos" }
+    {
+      "month": "Jan",
+      "weather": "Noches frescas, días despejados, Sáhara frío",
+      "emoji": "❄️",
+      "crowds": "Baja",
+      "price": "Bajo",
+      "verdict": "Bien para las medinas, desierto frío"
+    },
+    {
+      "month": "Feb",
+      "weather": "Templándose, cielos despejados, gran luz",
+      "emoji": "🌤",
+      "crowds": "Baja",
+      "price": "Bajo-medio",
+      "verdict": "Buena relación calidad-precio, luz excelente"
+    },
+    {
+      "month": "Mar",
+      "weather": "Cálido, flores, casi perfecto",
+      "emoji": "🌸",
+      "crowds": "Moderada",
+      "price": "Medio",
+      "verdict": "Uno de los mejores meses"
+    },
+    {
+      "month": "Apr",
+      "weather": "Cálido, festival de las rosas, Atlas exuberante",
+      "emoji": "🌹",
+      "crowds": "Moderada",
+      "price": "Medio",
+      "verdict": "Cosecha de rosas en el valle del Dades: mágica"
+    },
+    {
+      "month": "May",
+      "weather": "Caluroso en el sur, perfecto en el norte",
+      "emoji": "☀️",
+      "crowds": "Moderada",
+      "price": "Medio-alto",
+      "verdict": "Excelente en general"
+    },
+    {
+      "month": "Jun",
+      "weather": "Muy caluroso en Marrakech, calor en aumento",
+      "emoji": "🌡️",
+      "crowds": "Baja-mod.",
+      "price": "Medio",
+      "verdict": "Caluroso pero manejable a primera hora"
+    },
+    {
+      "month": "Jul",
+      "weather": "Calor extremo en el sur (42°C+)",
+      "emoji": "🔥",
+      "crowds": "Baja",
+      "price": "Bajo",
+      "verdict": "Demasiado calor: evite el sur"
+    },
+    {
+      "month": "Aug",
+      "weather": "Mes más caluroso, Marrakech brutal",
+      "emoji": "🔥",
+      "crowds": "Baja",
+      "price": "Mínimo",
+      "verdict": "Solo Essaouira costera resulta tolerable"
+    },
+    {
+      "month": "Sep",
+      "weather": "Refrescando, excelente, Sáhara perfecto",
+      "emoji": "☀️",
+      "crowds": "Moderada",
+      "price": "Medio",
+      "verdict": "Vuelve el mes ideal"
+    },
+    {
+      "month": "Oct",
+      "weather": "Perfecto: días cálidos, noches frescas",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Medio-alto",
+      "verdict": "El mejor mes del año"
+    },
+    {
+      "month": "Nov",
+      "weather": "Días cálidos, noches frescas, cielos despejados",
+      "emoji": "🌤",
+      "crowds": "Moderada",
+      "price": "Medio",
+      "verdict": "Excelente relación calidad-precio en temporada media"
+    },
+    {
+      "month": "Dec",
+      "weather": "Fresco, despejado, Navidad en las medinas",
+      "emoji": "⛅",
+      "crowds": "Moderada",
+      "price": "Medio",
+      "verdict": "Romántico en los zocos"
+    }
   ],
   "budgetTiers": [
     {
@@ -138,11 +222,26 @@
     }
   ],
   "packing": [
-    { "item": "Ropa modesta para las medinas (mujeres: hombros y rodillas cubiertos)", "why": "Marruecos es un país musulmán: hombros y rodillas cubiertos son respetuosos en las medinas y obligatorios para visitar mezquitas; la ropa de playa solo en las piscinas del resort" },
-    { "item": "Calzado plano cerrado y cómodo", "why": "Los adoquines de la medina y los suelos de los zocos son irregulares, resbaladizos por el agua derramada y a menudo cubiertos de residuos animales: las sandalias suponen un peligro real en los barrios antiguos de Fez y Marrakech" },
-    { "item": "Pequeña cartera con efectivo (MAD)", "why": "Las compras en el zoco son solo en efectivo y los cajeros no siempre son accesibles dentro de las medinas: lleve dírhams en denominaciones pequeñas separados de su billetera principal" },
-    { "item": "Capa de abrigo para las noches en el Sáhara", "why": "Las temperaturas del desierto caen drásticamente tras el atardecer: incluso en verano, las noches en el Sáhara llegan a 10-15°C; en primavera pueden estar cerca de la helada" },
-    { "item": "Medicación antidiarreica", "why": "La comida marroquí es extraordinaria, pero la comida callejera y el agua entrañan un riesgo real para estómagos no preparados: lleve Imodium y sobres de rehidratación por más cuidadoso que sea" }
+    {
+      "item": "Ropa modesta para las medinas (mujeres: hombros y rodillas cubiertos)",
+      "why": "Marruecos es un país musulmán: hombros y rodillas cubiertos son respetuosos en las medinas y obligatorios para visitar mezquitas; la ropa de playa solo en las piscinas del resort"
+    },
+    {
+      "item": "Calzado plano cerrado y cómodo",
+      "why": "Los adoquines de la medina y los suelos de los zocos son irregulares, resbaladizos por el agua derramada y a menudo cubiertos de residuos animales: las sandalias suponen un peligro real en los barrios antiguos de Fez y Marrakech"
+    },
+    {
+      "item": "Pequeña cartera con efectivo (MAD)",
+      "why": "Las compras en el zoco son solo en efectivo y los cajeros no siempre son accesibles dentro de las medinas: lleve dírhams en denominaciones pequeñas separados de su billetera principal"
+    },
+    {
+      "item": "Capa de abrigo para las noches en el Sáhara",
+      "why": "Las temperaturas del desierto caen drásticamente tras el atardecer: incluso en verano, las noches en el Sáhara llegan a 10-15°C; en primavera pueden estar cerca de la helada"
+    },
+    {
+      "item": "Medicación antidiarreica",
+      "why": "La comida marroquí es extraordinaria, pero la comida callejera y el agua entrañan un riesgo real para estómagos no preparados: lleve Imodium y sobres de rehidratación por más cuidadoso que sea"
+    }
   ],
   "guide": {
     "getting": "Vuele a Marrakech Menara (RAK) directo desde la mayoría de las ciudades europeas con Ryanair, easyJet, Royal Air Maroc y British Airways (2,5-4h). Desde RAK, los taxis a la medina tienen tarifa fija: 5-10 € por el trayecto de 15 minutos (acuerde antes de subir o use el mostrador de taxis del aeropuerto). Para Fez, vuele directo a Fes-Saïss (FEZ) desde París, Madrid y algunos aeropuertos del Reino Unido. Transporte interno: autocares CTM entre Marrakech y Fez (8h, 15 €) o vuelo con Royal Air Maroc (1h, 40-80 €). Para el Sáhara: vuele de Marrakech a Errachidia en lugar de conducir.",
@@ -152,5 +251,9 @@
   "localFood": "Tagine de cordero con limón confitado y aceitunas cocinado a fuego lento en cazuela de barro, bastilla (hojaldre relleno de pichón o pollo, almendras y canela espolvoreada con azúcar glas), té de menta fresco servido desde altura en la entrada de cada riad, sopa harira (tomate, garbanzos y cordero) durante el Ramadán y todo el año, y el legendario zumo de naranja recién exprimido por 4 dirhams el vaso en Djemaa el-Fna.",
   "currency": "Moroccan Dirham (MAD)",
   "language": "Árabe y amazigh (francés y español ampliamente hablados, algo de inglés)",
-  "timezone": "UTC+1 (Marruecos no observa DST de manera consistente)"
+  "timezone": "UTC+1 (Marruecos no observa DST de manera consistente)",
+  "seo": {
+    "title": "Luna de Miel en Marruecos: 12 Riads y Campamentos 2026",
+    "description": "12 refugios en Marrakech, Atlas y Sáhara clasificados. Royal Mansour, La Mamounia. Desde $300/noche. Oct-Abr."
+  }
 }

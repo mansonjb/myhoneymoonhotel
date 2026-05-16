@@ -55,18 +55,102 @@
     }
   ],
   "months": [
-    { "month": "Jan", "weather": "Seco y cálido, condiciones ideales", "emoji": "☀️", "crowds": "Moderada", "price": "Medio", "verdict": "Excelente: pico de la mejor temporada" },
-    { "month": "Feb", "weather": "El mejor mes en general, seco y despejado", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "El mes más fino en Filipinas" },
-    { "month": "Mar", "weather": "Cálido, seco, mejor visibilidad de buceo", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Excelente, abre la temporada de Tubbataha" },
-    { "month": "Apr", "weather": "Muy cálido, pico de Semana Santa", "emoji": "🥵", "crowds": "Máxima", "price": "Máximo", "verdict": "Caluroso pero hermoso: reserve con antelación" },
-    { "month": "May", "weather": "Transición, cálido, pre-estación húmeda", "emoji": "🌤", "crowds": "Baja-mod", "price": "Medio", "verdict": "Buena relación calidad-precio, Siargao perfecto" },
-    { "month": "Jun", "weather": "Empieza la estación húmeda, riesgo de tifón", "emoji": "🌧", "crowds": "Baja", "price": "Bajo", "verdict": "Manejable en el sur, arriesgado en el norte" },
-    { "month": "Jul", "weather": "Pico de temporada de tifones", "emoji": "🌀", "crowds": "Baja", "price": "Mínimo", "verdict": "Evite la mayoría de destinos" },
-    { "month": "Aug", "weather": "Alto riesgo de tifón", "emoji": "🌀", "crowds": "Baja", "price": "Mínimo", "verdict": "No recomendable para luna de miel" },
-    { "month": "Sep", "weather": "Riesgo de tifón, pico de surf en Siargao", "emoji": "🌊", "crowds": "Baja", "price": "Bajo", "verdict": "Solo para surfistas; el resto, evitar" },
-    { "month": "Oct", "weather": "Cola de la temporada de tifones", "emoji": "⛅", "crowds": "Baja", "price": "Bajo-medio", "verdict": "Mejorando, pero con algo de riesgo" },
-    { "month": "Nov", "weather": "Empieza la estación seca, abre Palawan", "emoji": "🌤", "crowds": "Moderada", "price": "Medio", "verdict": "Excelente arranque de temporada" },
-    { "month": "Dec", "weather": "Seco, cálido, ambiente festivo", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Temporada festiva, clima espléndido" }
+    {
+      "month": "Jan",
+      "weather": "Seco y cálido, condiciones ideales",
+      "emoji": "☀️",
+      "crowds": "Moderada",
+      "price": "Medio",
+      "verdict": "Excelente: pico de la mejor temporada"
+    },
+    {
+      "month": "Feb",
+      "weather": "El mejor mes en general, seco y despejado",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "El mes más fino en Filipinas"
+    },
+    {
+      "month": "Mar",
+      "weather": "Cálido, seco, mejor visibilidad de buceo",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Excelente, abre la temporada de Tubbataha"
+    },
+    {
+      "month": "Apr",
+      "weather": "Muy cálido, pico de Semana Santa",
+      "emoji": "🥵",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Caluroso pero hermoso: reserve con antelación"
+    },
+    {
+      "month": "May",
+      "weather": "Transición, cálido, pre-estación húmeda",
+      "emoji": "🌤",
+      "crowds": "Baja-mod",
+      "price": "Medio",
+      "verdict": "Buena relación calidad-precio, Siargao perfecto"
+    },
+    {
+      "month": "Jun",
+      "weather": "Empieza la estación húmeda, riesgo de tifón",
+      "emoji": "🌧",
+      "crowds": "Baja",
+      "price": "Bajo",
+      "verdict": "Manejable en el sur, arriesgado en el norte"
+    },
+    {
+      "month": "Jul",
+      "weather": "Pico de temporada de tifones",
+      "emoji": "🌀",
+      "crowds": "Baja",
+      "price": "Mínimo",
+      "verdict": "Evite la mayoría de destinos"
+    },
+    {
+      "month": "Aug",
+      "weather": "Alto riesgo de tifón",
+      "emoji": "🌀",
+      "crowds": "Baja",
+      "price": "Mínimo",
+      "verdict": "No recomendable para luna de miel"
+    },
+    {
+      "month": "Sep",
+      "weather": "Riesgo de tifón, pico de surf en Siargao",
+      "emoji": "🌊",
+      "crowds": "Baja",
+      "price": "Bajo",
+      "verdict": "Solo para surfistas; el resto, evitar"
+    },
+    {
+      "month": "Oct",
+      "weather": "Cola de la temporada de tifones",
+      "emoji": "⛅",
+      "crowds": "Baja",
+      "price": "Bajo-medio",
+      "verdict": "Mejorando, pero con algo de riesgo"
+    },
+    {
+      "month": "Nov",
+      "weather": "Empieza la estación seca, abre Palawan",
+      "emoji": "🌤",
+      "crowds": "Moderada",
+      "price": "Medio",
+      "verdict": "Excelente arranque de temporada"
+    },
+    {
+      "month": "Dec",
+      "weather": "Seco, cálido, ambiente festivo",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Temporada festiva, clima espléndido"
+    }
   ],
   "budgetTiers": [
     {
@@ -129,11 +213,26 @@
     }
   ],
   "packing": [
-    { "item": "Protector solar mineral respetuoso con el arrecife", "why": "El Nido y Tubbataha prohíben el protector químico. El mineral es obligatorio y difícil de encontrar localmente." },
-    { "item": "Bolsa estanca", "why": "Los bangka reciben rocío en cada jornada de island-hopping. Su cámara y teléfono necesitan plena protección." },
-    { "item": "Lycra/rashguard ligera", "why": "Esnórquel de 4+ horas bajo el sol tropical sin lycra produce quemaduras severas." },
-    { "item": "Sobres de electrolitos", "why": "El calor y la actividad provocan deshidratación rápida. Una bebida diaria de electrolitos previene los dolores de cabeza que arruinan tardes de playa." },
-    { "item": "Repelente biodegradable de insectos", "why": "Los mosquitos al amanecer y al ocaso son notables, especialmente en Siargao y el interior de Palawan." }
+    {
+      "item": "Protector solar mineral respetuoso con el arrecife",
+      "why": "El Nido y Tubbataha prohíben el protector químico. El mineral es obligatorio y difícil de encontrar localmente."
+    },
+    {
+      "item": "Bolsa estanca",
+      "why": "Los bangka reciben rocío en cada jornada de island-hopping. Su cámara y teléfono necesitan plena protección."
+    },
+    {
+      "item": "Lycra/rashguard ligera",
+      "why": "Esnórquel de 4+ horas bajo el sol tropical sin lycra produce quemaduras severas."
+    },
+    {
+      "item": "Sobres de electrolitos",
+      "why": "El calor y la actividad provocan deshidratación rápida. Una bebida diaria de electrolitos previene los dolores de cabeza que arruinan tardes de playa."
+    },
+    {
+      "item": "Repelente biodegradable de insectos",
+      "why": "Los mosquitos al amanecer y al ocaso son notables, especialmente en Siargao y el interior de Palawan."
+    }
   ],
   "guide": {
     "getting": "Vuele a Manila (MNL) o Cebú (CEB). Desde Europa: 13–16h vía Singapur, Hong Kong o Dubái. Desde Australia: directo desde Sídney a Manila (8h). Conexiones domésticas: Manila a El Nido vía Busuanga con AirSwift (1h15m); Manila a Siargao vía Cebú (90 min en total); Manila a Coron directo (1h15m). Reserve todos los tramos domésticos de inmediato: son los que se llenan más rápido.",
@@ -143,5 +242,9 @@
   "localFood": "Kinilaw (ceviche filipino con atún fresco en vinagre y calamansi: extraordinario), marisco a la parrilla con arroz al ajo y salsa sawsawan, lechon (cerdo asado entero al estilo Cebú: el plato más célebre del país), sinigang (sopa agria de tamarindo con gambas o cerdo), buko fresco (coco joven) bebido directamente de la cáscara en la playa.",
   "currency": "Peso filipino (PHP): los resorts y tours suelen cotizar en USD",
   "language": "Filipino e inglés: el inglés es lengua oficial y se habla universalmente",
-  "timezone": "UTC+8 (Hora estándar de Filipinas)"
+  "timezone": "UTC+8 (Hora estándar de Filipinas)",
+  "seo": {
+    "title": "Luna de Miel en Filipinas: 8 Resorts Playa Privada 2026",
+    "description": "8 resorts en Palawan, Cebú y Boracay clasificados. Amanpulo, El Nido, Shangri-La Boracay. Desde $500/noche. Dic-May."
+  }
 }

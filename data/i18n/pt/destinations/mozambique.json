@@ -19,51 +19,229 @@
     "Orçamento muito apertado — resorts em ilhas são caros e all-inclusive necessário"
   ],
   "experiences": [
-    { "icon": "🐠", "title": "Mergulhar nos recifes do arquipélago de Bazaruto", "description": "Os sistemas de recife do Parque Nacional de Bazaruto estão entre os ambientes de coral menos perturbados do Índico ocidental. Jardins intocados de coral mole, garoupa-batata gigante e mantas em Two Mile Reef.", "cost": "$80-150 por pessoa (mergulho duplo)", "tip": "Mergulho melhor entre junho e novembro (visibilidade mais clara). Two Mile Reef e os recifes do sul de Benguerra são os pontos mais finos. andBeyond tem centro PADI próprio na ilha." },
-    { "icon": "🦈", "title": "Snorkel com tubarão-baleia (jun-nov)", "description": "Os canais entre as ilhas Bazaruto são área de alimentação para tubarões-baleia de junho a novembro. Snorkel ao lado do maior peixe do mundo em água quente e clara.", "cost": "Incluso no andBeyond Benguerra", "tip": "Tubarões-baleia mais confiavelmente presentes ago-out. O biólogo marinho do andBeyond conhece os padrões melhor que ninguém. Saída ao amanhecer para maior taxa de encontro." },
-    { "icon": "🐋", "title": "Observação de baleias jubarte (jul-out)", "description": "Baleias jubarte migram pela costa de Moçambique de julho a outubro. O canal de Bazaruto tem avistamentos diários de barco — e ocasionalmente da praia.", "cost": "Incluso nas atividades do andBeyond", "tip": "Atividade de baleias mais intensa ago-set. Peça excursão dedicada de observação em vez de encontros incidentais em outras atividades." },
-    { "icon": "🦭", "title": "Busca por dugongos (dhow ao amanhecer)", "description": "Uma das últimas populações selvagens viáveis de dugongo do Índico ocidental pasta nas pradarias de algas de Bazaruto. Excursão de dhow ao amanhecer com o biólogo marinho residente é privilégio raro.", "cost": "Incluso no andBeyond Benguerra", "tip": "Avistamentos não garantidos — são tímidos. O biólogo marinho conhece as áreas de pastagem. Junho-agosto tem maior probabilidade." },
-    { "icon": "🏖️", "title": "Piquenique privativo de champanhe em banco de areia", "description": "Lancha privativa te deixa em banco de areia branco no meio do Índico com piquenique de champanhe, equipamento de snorkel e ninguém num raio de 10 km.", "cost": "Incluso no andBeyond Benguerra", "tip": "Os melhores bancos ficam a 30-45 min de barco de Benguerra. Peça a opção mais remota — os mais distantes têm a água mais clara e estão completamente desertos." }
+    {
+      "icon": "🐠",
+      "title": "Mergulhar nos recifes do arquipélago de Bazaruto",
+      "description": "Os sistemas de recife do Parque Nacional de Bazaruto estão entre os ambientes de coral menos perturbados do Índico ocidental. Jardins intocados de coral mole, garoupa-batata gigante e mantas em Two Mile Reef.",
+      "cost": "$80-150 por pessoa (mergulho duplo)",
+      "tip": "Mergulho melhor entre junho e novembro (visibilidade mais clara). Two Mile Reef e os recifes do sul de Benguerra são os pontos mais finos. andBeyond tem centro PADI próprio na ilha."
+    },
+    {
+      "icon": "🦈",
+      "title": "Snorkel com tubarão-baleia (jun-nov)",
+      "description": "Os canais entre as ilhas Bazaruto são área de alimentação para tubarões-baleia de junho a novembro. Snorkel ao lado do maior peixe do mundo em água quente e clara.",
+      "cost": "Incluso no andBeyond Benguerra",
+      "tip": "Tubarões-baleia mais confiavelmente presentes ago-out. O biólogo marinho do andBeyond conhece os padrões melhor que ninguém. Saída ao amanhecer para maior taxa de encontro."
+    },
+    {
+      "icon": "🐋",
+      "title": "Observação de baleias jubarte (jul-out)",
+      "description": "Baleias jubarte migram pela costa de Moçambique de julho a outubro. O canal de Bazaruto tem avistamentos diários de barco — e ocasionalmente da praia.",
+      "cost": "Incluso nas atividades do andBeyond",
+      "tip": "Atividade de baleias mais intensa ago-set. Peça excursão dedicada de observação em vez de encontros incidentais em outras atividades."
+    },
+    {
+      "icon": "🦭",
+      "title": "Busca por dugongos (dhow ao amanhecer)",
+      "description": "Uma das últimas populações selvagens viáveis de dugongo do Índico ocidental pasta nas pradarias de algas de Bazaruto. Excursão de dhow ao amanhecer com o biólogo marinho residente é privilégio raro.",
+      "cost": "Incluso no andBeyond Benguerra",
+      "tip": "Avistamentos não garantidos — são tímidos. O biólogo marinho conhece as áreas de pastagem. Junho-agosto tem maior probabilidade."
+    },
+    {
+      "icon": "🏖️",
+      "title": "Piquenique privativo de champanhe em banco de areia",
+      "description": "Lancha privativa te deixa em banco de areia branco no meio do Índico com piquenique de champanhe, equipamento de snorkel e ninguém num raio de 10 km.",
+      "cost": "Incluso no andBeyond Benguerra",
+      "tip": "Os melhores bancos ficam a 30-45 min de barco de Benguerra. Peça a opção mais remota — os mais distantes têm a água mais clara e estão completamente desertos."
+    }
   ],
   "months": [
-    { "month": "Jan", "weather": "Estação úmida, chuva forte, quente", "emoji": "🌧", "crowds": "Muito baixa", "price": "Baixo", "verdict": "Evite — estação úmida" },
-    { "month": "Feb", "weather": "Úmido, risco pontual de ciclone", "emoji": "🌧", "crowds": "Muito baixa", "price": "Mínimo", "verdict": "Não reserve" },
-    { "month": "Mar", "weather": "Estação úmida diminuindo", "emoji": "🌦", "crowds": "Baixa", "price": "Baixo", "verdict": "Ainda úmido — espere" },
-    { "month": "Apr", "weather": "Transição, melhorando", "emoji": "🌤", "crowds": "Baixa", "price": "Baixo-médio", "verdict": "Melhorando, baixa" },
-    { "month": "May", "weather": "Estação seca começa, 26°C", "emoji": "☀️", "crowds": "Baixa", "price": "Médio", "verdict": "Seca começa — bom custo-benefício" },
-    { "month": "Jun", "weather": "Seco, quente, jubartes chegando", "emoji": "☀️", "crowds": "Média", "price": "Médio", "verdict": "Tubarões-baleia começam" },
-    { "month": "Jul", "weather": "Seco, tubarões-baleia ativos", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Pico de jubartes e tubarões-baleia" },
-    { "month": "Aug", "weather": "Condições de pico em toda a fauna", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Melhor mês — todas as espécies ativas" },
-    { "month": "Sep", "weather": "Seco, condições marinhas excelentes", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Densidade máxima de tubarões-baleia" },
-    { "month": "Oct", "weather": "Seco, jubartes partindo", "emoji": "☀️", "crowds": "Média", "price": "Médio-alto", "verdict": "Ainda excelente, um pouco mais tranquilo" },
-    { "month": "Nov", "weather": "Transição, primeiras chuvas possíveis", "emoji": "🌤", "crowds": "Baixa", "price": "Médio", "verdict": "Último mês bom antes da estação úmida" },
-    { "month": "Dec", "weather": "Estação úmida volta", "emoji": "🌦", "crowds": "Baixa", "price": "Baixo-médio", "verdict": "Estação úmida começando" }
+    {
+      "month": "Jan",
+      "weather": "Estação úmida, chuva forte, quente",
+      "emoji": "🌧",
+      "crowds": "Muito baixa",
+      "price": "Baixo",
+      "verdict": "Evite — estação úmida"
+    },
+    {
+      "month": "Feb",
+      "weather": "Úmido, risco pontual de ciclone",
+      "emoji": "🌧",
+      "crowds": "Muito baixa",
+      "price": "Mínimo",
+      "verdict": "Não reserve"
+    },
+    {
+      "month": "Mar",
+      "weather": "Estação úmida diminuindo",
+      "emoji": "🌦",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Ainda úmido — espere"
+    },
+    {
+      "month": "Apr",
+      "weather": "Transição, melhorando",
+      "emoji": "🌤",
+      "crowds": "Baixa",
+      "price": "Baixo-médio",
+      "verdict": "Melhorando, baixa"
+    },
+    {
+      "month": "May",
+      "weather": "Estação seca começa, 26°C",
+      "emoji": "☀️",
+      "crowds": "Baixa",
+      "price": "Médio",
+      "verdict": "Seca começa — bom custo-benefício"
+    },
+    {
+      "month": "Jun",
+      "weather": "Seco, quente, jubartes chegando",
+      "emoji": "☀️",
+      "crowds": "Média",
+      "price": "Médio",
+      "verdict": "Tubarões-baleia começam"
+    },
+    {
+      "month": "Jul",
+      "weather": "Seco, tubarões-baleia ativos",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Pico de jubartes e tubarões-baleia"
+    },
+    {
+      "month": "Aug",
+      "weather": "Condições de pico em toda a fauna",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Melhor mês — todas as espécies ativas"
+    },
+    {
+      "month": "Sep",
+      "weather": "Seco, condições marinhas excelentes",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Densidade máxima de tubarões-baleia"
+    },
+    {
+      "month": "Oct",
+      "weather": "Seco, jubartes partindo",
+      "emoji": "☀️",
+      "crowds": "Média",
+      "price": "Médio-alto",
+      "verdict": "Ainda excelente, um pouco mais tranquilo"
+    },
+    {
+      "month": "Nov",
+      "weather": "Transição, primeiras chuvas possíveis",
+      "emoji": "🌤",
+      "crowds": "Baixa",
+      "price": "Médio",
+      "verdict": "Último mês bom antes da estação úmida"
+    },
+    {
+      "month": "Dec",
+      "weather": "Estação úmida volta",
+      "emoji": "🌦",
+      "crowds": "Baixa",
+      "price": "Baixo-médio",
+      "verdict": "Estação úmida começando"
+    }
   ],
   "budgetTiers": [
-    { "label": "Ilha boutique", "range": "$400-800/noite", "gets": "Lodge pé na areia menor em ilha de Bazaruto, acesso ao recife, passeios de barco. Menos mordomo mas o ambiente marinho é idêntico.", "example": "Bazaruto Lodge, Azura Benguerra" },
-    { "label": "All-inclusive premium", "range": "$800-1.500/noite (AI)", "gets": "AI completo com atividades marinhas, excursões de tubarão-baleia, mergulho e excelente cozinha do Índico.", "example": "andBeyond Benguerra Island" },
-    { "label": "Uso exclusivo", "range": "$5.000-8.000+/noite", "gets": "Resort de ilha inteiro exclusivamente — todos os chalés, todo o staff, concessão marinha privativa. A experiência mais privada do Índico.", "example": "andBeyond Benguerra uso exclusivo" }
+    {
+      "label": "Ilha boutique",
+      "range": "$400-800/noite",
+      "gets": "Lodge pé na areia menor em ilha de Bazaruto, acesso ao recife, passeios de barco. Menos mordomo mas o ambiente marinho é idêntico.",
+      "example": "Bazaruto Lodge, Azura Benguerra"
+    },
+    {
+      "label": "All-inclusive premium",
+      "range": "$800-1.500/noite (AI)",
+      "gets": "AI completo com atividades marinhas, excursões de tubarão-baleia, mergulho e excelente cozinha do Índico.",
+      "example": "andBeyond Benguerra Island"
+    },
+    {
+      "label": "Uso exclusivo",
+      "range": "$5.000-8.000+/noite",
+      "gets": "Resort de ilha inteiro exclusivamente — todos os chalés, todo o staff, concessão marinha privativa. A experiência mais privada do Índico.",
+      "example": "andBeyond Benguerra uso exclusivo"
+    }
   ],
   "areas": [
-    { "name": "Ilha de Benguerra", "bestFor": "Melhor resort, tubarões-baleia, dugongos", "description": "Segunda maior ilha do Arquipélago de Bazaruto. andBeyond e Azura ficam aqui. Melhor portfólio geral de fauna do arquipélago." },
-    { "name": "Ilha de Bazaruto", "bestFor": "Maior ilha, terreno mais variado, melhor mergulho", "description": "Âncora norte do arquipélago. Bazaruto Lodge fica aqui. A ilha tem lagos de água doce (flamingos rosa), sistemas extensos de dunas e o recife mais biodiverso do parque." },
-    { "name": "Ilha de Magaruque", "bestFor": "Mais reclusa, menor multidão", "description": "Menor ilha habitada. Anantara Bazaruto fica aqui. A mais remota das acessíveis com excelente snorkel da praia." },
-    { "name": "Vilankulo (continente)", "bestFor": "Ponto de partida, cultura local", "description": "Cidade no continente de onde partem todos os barcos e aviões leves de Bazaruto. Uma noite aqui antes ou depois da ilha dá contexto à cultura pesqueira local." }
+    {
+      "name": "Ilha de Benguerra",
+      "bestFor": "Melhor resort, tubarões-baleia, dugongos",
+      "description": "Segunda maior ilha do Arquipélago de Bazaruto. andBeyond e Azura ficam aqui. Melhor portfólio geral de fauna do arquipélago."
+    },
+    {
+      "name": "Ilha de Bazaruto",
+      "bestFor": "Maior ilha, terreno mais variado, melhor mergulho",
+      "description": "Âncora norte do arquipélago. Bazaruto Lodge fica aqui. A ilha tem lagos de água doce (flamingos rosa), sistemas extensos de dunas e o recife mais biodiverso do parque."
+    },
+    {
+      "name": "Ilha de Magaruque",
+      "bestFor": "Mais reclusa, menor multidão",
+      "description": "Menor ilha habitada. Anantara Bazaruto fica aqui. A mais remota das acessíveis com excelente snorkel da praia."
+    },
+    {
+      "name": "Vilankulo (continente)",
+      "bestFor": "Ponto de partida, cultura local",
+      "description": "Cidade no continente de onde partem todos os barcos e aviões leves de Bazaruto. Uma noite aqui antes ou depois da ilha dá contexto à cultura pesqueira local."
+    }
   ],
   "expertTips": [
-    { "tip": "Combine com safári no Zimbábue ou África do Sul para a lua de mel africana perfeita", "detail": "Moçambique funciona perfeitamente como componente de praia: 4 noites em Cataratas Vitória ou Kruger + 5 noites em Bazaruto. Contraste extraordinário. Conexões via Joanesburgo." },
-    { "tip": "Agosto-setembro é o pico absoluto da fauna marinha", "detail": "Tubarões-baleia, jubartes, mantas e golfinhos ativos simultaneamente em ago-set. Planeje em torno dessa janela se fauna é prioridade." },
-    { "tip": "O biólogo marinho no andBeyond transforma a experiência", "detail": "andBeyond emprega biólogo marinho residente em Benguerra que conhece cada área de alimentação, padrão de tubarão e história de recuperação de coral. Reserve briefing privativo no primeiro dia." },
-    { "tip": "Energia e conectividade limitadas — abrace", "detail": "Moçambique é remoto. andBeyond Benguerra tem energia solar mas quedas acontecem. WiFi é intermitente. Não é defeito — é o feature. Desconecte completamente." },
-    { "tip": "A tarifa all-inclusive vale — não há onde mais comer ou comprar", "detail": "Diferente das Maldivas, as ilhas Bazaruto não têm outros restaurantes ou lojas. AI elimina ansiedade e a cozinha andBeyond é excelente. Calcule no orçamento desde o início." }
+    {
+      "tip": "Combine com safári no Zimbábue ou África do Sul para a lua de mel africana perfeita",
+      "detail": "Moçambique funciona perfeitamente como componente de praia: 4 noites em Cataratas Vitória ou Kruger + 5 noites em Bazaruto. Contraste extraordinário. Conexões via Joanesburgo."
+    },
+    {
+      "tip": "Agosto-setembro é o pico absoluto da fauna marinha",
+      "detail": "Tubarões-baleia, jubartes, mantas e golfinhos ativos simultaneamente em ago-set. Planeje em torno dessa janela se fauna é prioridade."
+    },
+    {
+      "tip": "O biólogo marinho no andBeyond transforma a experiência",
+      "detail": "andBeyond emprega biólogo marinho residente em Benguerra que conhece cada área de alimentação, padrão de tubarão e história de recuperação de coral. Reserve briefing privativo no primeiro dia."
+    },
+    {
+      "tip": "Energia e conectividade limitadas — abrace",
+      "detail": "Moçambique é remoto. andBeyond Benguerra tem energia solar mas quedas acontecem. WiFi é intermitente. Não é defeito — é o feature. Desconecte completamente."
+    },
+    {
+      "tip": "A tarifa all-inclusive vale — não há onde mais comer ou comprar",
+      "detail": "Diferente das Maldivas, as ilhas Bazaruto não têm outros restaurantes ou lojas. AI elimina ansiedade e a cozinha andBeyond é excelente. Calcule no orçamento desde o início."
+    }
   ],
   "packing": [
-    { "item": "Protetor solar reef-safe", "why": "Parque Nacional de Bazaruto tem regras estritas — leve protetor aprovado de casa" },
-    { "item": "Câmera subaquática (grande angular)", "why": "Encontros com tubarão-baleia e mergulho com mantas exigem grande angular pelo tamanho dos animais" },
-    { "item": "Antimalárico", "why": "Moçambique tem risco de malária — converse com seu médico sobre profilaxia 2 semanas antes" },
-    { "item": "Saco estanque", "why": "Transfers entre ilhas e bancos de areia envolvem spray significativo" },
-    { "item": "Power bank", "why": "Energia solar nas ilhas significa pontos limitados de carga. Leve seu próprio backup." },
-    { "item": "Roupa modesta (para Vilankulo)", "why": "Bazaruto é predominantemente muçulmana — cubra-se na cidade" }
+    {
+      "item": "Protetor solar reef-safe",
+      "why": "Parque Nacional de Bazaruto tem regras estritas — leve protetor aprovado de casa"
+    },
+    {
+      "item": "Câmera subaquática (grande angular)",
+      "why": "Encontros com tubarão-baleia e mergulho com mantas exigem grande angular pelo tamanho dos animais"
+    },
+    {
+      "item": "Antimalárico",
+      "why": "Moçambique tem risco de malária — converse com seu médico sobre profilaxia 2 semanas antes"
+    },
+    {
+      "item": "Saco estanque",
+      "why": "Transfers entre ilhas e bancos de areia envolvem spray significativo"
+    },
+    {
+      "item": "Power bank",
+      "why": "Energia solar nas ilhas significa pontos limitados de carga. Leve seu próprio backup."
+    },
+    {
+      "item": "Roupa modesta (para Vilankulo)",
+      "why": "Bazaruto é predominantemente muçulmana — cubra-se na cidade"
+    }
   ],
   "guide": {
     "getting": "Voe para Joanesburgo (JNB) e conecte para Vilankulo (VNX) na Mozambique Airlines ou LAM (1,5h). De Vilankulo: andBeyond Benguerra está a 20 min de lancha ou 15 min de avião leve. Tempo total de Londres: aproximadamente 14-16h com conexões. andBeyond cuida de toda a logística Vilankulo-ilha.",
@@ -73,5 +251,9 @@
   "localFood": "Camarões piri piri (os melhores da África — o piri piri moçambicano é o original, antes de o Nando's globalizar), lagosta grelhada do canal, matapa (folhas de mandioca com molho de amendoim) e atum-amarelo fresco. Cozinha do andBeyond usa pesca diária do recife e produtos orgânicos do continente. Os camarões piri piri ao pôr do sol na praia de Benguerra é a refeição essencial moçambicana.",
   "currency": "Metical moçambicano (MZN). USD e rand sul-africano amplamente aceitos em resorts.",
   "language": "Português (oficial). Inglês em resorts. Dialetos locais variam por região.",
-  "timezone": "GMT+2 (Hora da África Central)"
+  "timezone": "GMT+2 (Hora da África Central)",
+  "seo": {
+    "title": "Lua de Mel em Moçambique: 6 Lodges em Ilhas Privadas",
+    "description": "6 lodges em Bazaruto e Quirimbas pontuados. Azura, &Beyond Benguerra, Anantara Medjumbe. De $1,000/noite. Jun-out."
+  }
 }

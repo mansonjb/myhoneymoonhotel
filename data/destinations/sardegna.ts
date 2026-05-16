@@ -106,6 +106,7 @@ localFood: 'Culurgiones (hand-pinched potato-mint ravioli, a Sardinian miracle);
 currency: 'Euro (EUR). Cards accepted at hotels and restaurants; carry some cash for small beach-bar purchases and tips.',
 language: 'Italian is official; Sardinian (Sardo) is spoken in villages. English is widely spoken in hotels and tourist areas.',
 timezone: 'UTC+1 (CET); UTC+2 during daylight saving (Mar–Oct)',
+  seo: { title: "Sardinia Honeymoon: 8 Costa Smeralda Resorts 2026", description: "8 Porto Cervo, Pelosa, southern coast resorts ranked. 7Pines, Hotel Cala di Volpe. From $600/night. May-Sep verdicts." },
 }
 
 export default meta

@@ -55,18 +55,102 @@
     }
   ],
   "months": [
-    { "month": "Jan", "weather": "Frío, ventoso, fuera de temporada", "emoji": "🌨", "crowds": "Muy baja", "price": "Muy bajo", "verdict": "Casi todo cerrado" },
-    { "month": "Feb", "weather": "Frío, dramático, pocos turistas", "emoji": "❄️", "crowds": "Muy baja", "price": "Mínimo", "verdict": "Solo para escapadas urbanas" },
-    { "month": "Mar", "weather": "Templado, fresco, comienza la primavera", "emoji": "🌱", "crowds": "Muy baja", "price": "Bajo", "verdict": "Aún temporada baja, pero abriendo" },
-    { "month": "Apr", "weather": "Bello, verde, alguna lluvia", "emoji": "🌤", "crowds": "Baja", "price": "Bajo-medio", "verdict": "Excelente para senderismo y cascos antiguos" },
-    { "month": "May", "weather": "Cálido, soleado, perfecto", "emoji": "☀️", "crowds": "Moderada", "price": "Medio", "verdict": "Mejor mes de transición: soberbio" },
-    { "month": "Jun", "weather": "Caluroso, seco, glorioso", "emoji": "☀️", "crowds": "Moderada-alta", "price": "Medio-alto", "verdict": "Excelente, antes del pico" },
-    { "month": "Jul", "weather": "Pleno verano, muy caluroso", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Bello pero muy concurrido" },
-    { "month": "Aug", "weather": "El mes más caluroso, el más concurrido", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Mejor clima, peor masificación" },
-    { "month": "Sep", "weather": "Cálido, secándose, mar aún templado", "emoji": "🌤", "crowds": "Moderada", "price": "Medio-alto", "verdict": "El mejor mes en general: ideal" },
-    { "month": "Oct", "weather": "Templado, alguna lluvia, calmándose", "emoji": "⛅", "crowds": "Baja", "price": "Medio", "verdict": "Buena relación calidad-precio, menos turistas" },
-    { "month": "Nov", "weather": "Refrescando, algunos cierres", "emoji": "🌦", "crowds": "Muy baja", "price": "Bajo", "verdict": "Tranquilo: solo escapada urbana" },
-    { "month": "Dec", "weather": "Frío, festivo en Dubrovnik", "emoji": "🌨", "crowds": "Baja", "price": "Bajo-medio", "verdict": "Mercados de Navidad solo en Dubrovnik" }
+    {
+      "month": "Jan",
+      "weather": "Frío, ventoso, fuera de temporada",
+      "emoji": "🌨",
+      "crowds": "Muy baja",
+      "price": "Muy bajo",
+      "verdict": "Casi todo cerrado"
+    },
+    {
+      "month": "Feb",
+      "weather": "Frío, dramático, pocos turistas",
+      "emoji": "❄️",
+      "crowds": "Muy baja",
+      "price": "Mínimo",
+      "verdict": "Solo para escapadas urbanas"
+    },
+    {
+      "month": "Mar",
+      "weather": "Templado, fresco, comienza la primavera",
+      "emoji": "🌱",
+      "crowds": "Muy baja",
+      "price": "Bajo",
+      "verdict": "Aún temporada baja, pero abriendo"
+    },
+    {
+      "month": "Apr",
+      "weather": "Bello, verde, alguna lluvia",
+      "emoji": "🌤",
+      "crowds": "Baja",
+      "price": "Bajo-medio",
+      "verdict": "Excelente para senderismo y cascos antiguos"
+    },
+    {
+      "month": "May",
+      "weather": "Cálido, soleado, perfecto",
+      "emoji": "☀️",
+      "crowds": "Moderada",
+      "price": "Medio",
+      "verdict": "Mejor mes de transición: soberbio"
+    },
+    {
+      "month": "Jun",
+      "weather": "Caluroso, seco, glorioso",
+      "emoji": "☀️",
+      "crowds": "Moderada-alta",
+      "price": "Medio-alto",
+      "verdict": "Excelente, antes del pico"
+    },
+    {
+      "month": "Jul",
+      "weather": "Pleno verano, muy caluroso",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Bello pero muy concurrido"
+    },
+    {
+      "month": "Aug",
+      "weather": "El mes más caluroso, el más concurrido",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Mejor clima, peor masificación"
+    },
+    {
+      "month": "Sep",
+      "weather": "Cálido, secándose, mar aún templado",
+      "emoji": "🌤",
+      "crowds": "Moderada",
+      "price": "Medio-alto",
+      "verdict": "El mejor mes en general: ideal"
+    },
+    {
+      "month": "Oct",
+      "weather": "Templado, alguna lluvia, calmándose",
+      "emoji": "⛅",
+      "crowds": "Baja",
+      "price": "Medio",
+      "verdict": "Buena relación calidad-precio, menos turistas"
+    },
+    {
+      "month": "Nov",
+      "weather": "Refrescando, algunos cierres",
+      "emoji": "🌦",
+      "crowds": "Muy baja",
+      "price": "Bajo",
+      "verdict": "Tranquilo: solo escapada urbana"
+    },
+    {
+      "month": "Dec",
+      "weather": "Frío, festivo en Dubrovnik",
+      "emoji": "🌨",
+      "crowds": "Baja",
+      "price": "Bajo-medio",
+      "verdict": "Mercados de Navidad solo en Dubrovnik"
+    }
   ],
   "budgetTiers": [
     {
@@ -138,11 +222,26 @@
     }
   ],
   "packing": [
-    { "item": "Escarpines (zapatillas de agua)", "why": "La mayoría de las playas croatas son de guijarros o roca: unos escarpines finos transforman la comodidad para entrar al agua" },
-    { "item": "Camisa o vestido de lino para la noche", "why": "Los restaurantes de Dubrovnik y Hvar tienen una etiqueta informal pero estilosa: smart casual es lo apropiado, la ropa de playa no" },
-    { "item": "Mochila pequeña de día", "why": "Los cascos antiguos de Dubrovnik y Korcula son laberintos peatonales: una mochila ligera para crema solar, agua y cámara es esencial para los paseos por las murallas" },
-    { "item": "Botella reutilizable", "why": "El agua del grifo croata es excelente: rellénela durante el día en lugar de comprar botellas de plástico, caras a precio turístico" },
-    { "item": "Chubasquero ligero", "why": "Mayo y comienzos de junio pueden traer chubascos vespertinos repentinos: una capa impermeable plegable transforma una tormenta súbita de problema a parada en café" }
+    {
+      "item": "Escarpines (zapatillas de agua)",
+      "why": "La mayoría de las playas croatas son de guijarros o roca: unos escarpines finos transforman la comodidad para entrar al agua"
+    },
+    {
+      "item": "Camisa o vestido de lino para la noche",
+      "why": "Los restaurantes de Dubrovnik y Hvar tienen una etiqueta informal pero estilosa: smart casual es lo apropiado, la ropa de playa no"
+    },
+    {
+      "item": "Mochila pequeña de día",
+      "why": "Los cascos antiguos de Dubrovnik y Korcula son laberintos peatonales: una mochila ligera para crema solar, agua y cámara es esencial para los paseos por las murallas"
+    },
+    {
+      "item": "Botella reutilizable",
+      "why": "El agua del grifo croata es excelente: rellénela durante el día en lugar de comprar botellas de plástico, caras a precio turístico"
+    },
+    {
+      "item": "Chubasquero ligero",
+      "why": "Mayo y comienzos de junio pueden traer chubascos vespertinos repentinos: una capa impermeable plegable transforma una tormenta súbita de problema a parada en café"
+    }
   ],
   "guide": {
     "getting": "Vuele a Dubrovnik (DBV) o Split (SPU): ambos bien conectados desde el norte de Europa. Ryanair, EasyJet, British Airways, Lufthansa y Croatia Airlines operan rutas desde Reino Unido, Alemania, Países Bajos, Francia y más. Desde DBV, los taxis al casco antiguo son 30 minutos ($25-$35). Desde SPU, el centro de Split son 30 minutos en autobús o 15 en taxi. Transporte interno: los ferries Jadrolinija y los catamaranes Krilo/Nona Ana conectan todas las islas principales: rápidos, fiables y económicos.",
@@ -150,5 +249,9 @@
     "when": "Mayo y junio son los meses ideales de luna de miel: cálidos pero no opresivos, multitudes manejables, mar a 22°C+, restaurantes y ferries en plena operación. Septiembre es igualmente excelente: persiste la calidez veraniega, los niños vuelven al colegio y los precios bajan un 20-30% respecto a los picos de agosto. Evite julio-agosto específicamente en Dubrovnik."
   },
   "localFood": "Risotto negro (crni rižot) elaborado con tinta de sepia y mariscos frescos del Adriático en el casco antiguo de Dubrovnik, pescado a la parrilla (brancin/lubina) con blitva (acelgas con patata), peka (cordero o pulpo lentamente asado bajo campana de hierro con brasas), tinto Plavac Mali de la península de Pelješac y ostras frescas de la bahía de Ston: de las mejores de Europa.",
-  "language": "Croata (inglés muy hablado en el ámbito turístico)"
+  "language": "Croata (inglés muy hablado en el ámbito turístico)",
+  "seo": {
+    "title": "Luna de Miel en Croacia: 8 Hoteles Costa Adriática 2026",
+    "description": "8 hoteles en Dubrovnik, Hvar e Istria clasificados. Esplanade, Excelsior, Maslina. Desde $400/noche. May-Sep."
+  }
 }

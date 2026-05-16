@@ -18,52 +18,234 @@
     "Está reservando junho–novembro e tem aversão a furacões"
   ],
   "experiences": [
-    { "icon": "🐷", "title": "Nade com os porcos dos Exumas", "description": "Os famosos porcos selvagens nadadores de Big Major Cay vão até os barcos em água turquesa na altura da cintura. Melhor cedo, antes da armada de bate-voltas chegar de Nassau.", "cost": "$400–700/casal dia inteiro de Staniel Cay; $1.200+ de Nassau", "tip": "Pernoite no Staniel Cay Yacht Club para sair às 7h e ter os porcos só para você." },
-    { "icon": "🌅", "title": "Caminhe na Pink Sands Beach ao nascer do sol", "description": "A praia de 5 km de Harbour Island fica rosa-dourada às primeiras luzes, quando o sol baixo bate na areia rosa. Caminhe a extensão inteira descalço — a praia mais fotografada do Caribe por um motivo.", "cost": "Grátis; praia é de acesso público", "tip": "Hospede-se do lado da praia (Pink Sands Resort ou The Dunmore) para sair pelo portão às 6h30." },
-    { "icon": "🤿", "title": "Snorkel na Thunderball Grotto", "description": "Sistema natural de cavernas submarinas nos Exumas, iluminado por buracos no teto de calcário. Apareceu em Thunderball e Never Say Never Again. Cardumes de sergeant majors giram nos feixes de luz.", "cost": "Incluso na maioria dos charters dos Exumas; $40–60 por conta", "tip": "Vá na maré parada — correntes ficam fortes no auge de enchente e vazante. Leve uma lanterna submarina." },
-    { "icon": "🌊", "title": "Atravesse a Glass Window Bridge", "description": "Faixa estreita de Eleuthera onde o azul-marinho profundo do Atlântico encontra o turquesa pálido do Caribe — separados por talvez 9 metros de estrada. O contraste é genuinamente surreal de perto.", "cost": "Grátis; carro alugado necessário (~$75/dia)", "tip": "Dirija 10 minutos ao sul até as piscinas naturais de Queen's Bath — banheiras naturais no calcário, melhor na maré baixa." },
-    { "icon": "🎣", "title": "Pesca de bonefish nos flats de Andros", "description": "Andros é a capital mundial da pesca de bonefish — flats rasos infinitos, guias de classe mundial e os \"fantasmas dos flats\" que tiram 90 metros de linha em segundos.", "cost": "$650–900/dia para skiff guiado com dois pescadores", "tip": "Reserve pelo Tiamo ou um lodge dedicado — guias são a diferença entre 20 peixes e zero." }
+    {
+      "icon": "🐷",
+      "title": "Nade com os porcos dos Exumas",
+      "description": "Os famosos porcos selvagens nadadores de Big Major Cay vão até os barcos em água turquesa na altura da cintura. Melhor cedo, antes da armada de bate-voltas chegar de Nassau.",
+      "cost": "$400–700/casal dia inteiro de Staniel Cay; $1.200+ de Nassau",
+      "tip": "Pernoite no Staniel Cay Yacht Club para sair às 7h e ter os porcos só para você."
+    },
+    {
+      "icon": "🌅",
+      "title": "Caminhe na Pink Sands Beach ao nascer do sol",
+      "description": "A praia de 5 km de Harbour Island fica rosa-dourada às primeiras luzes, quando o sol baixo bate na areia rosa. Caminhe a extensão inteira descalço — a praia mais fotografada do Caribe por um motivo.",
+      "cost": "Grátis; praia é de acesso público",
+      "tip": "Hospede-se do lado da praia (Pink Sands Resort ou The Dunmore) para sair pelo portão às 6h30."
+    },
+    {
+      "icon": "🤿",
+      "title": "Snorkel na Thunderball Grotto",
+      "description": "Sistema natural de cavernas submarinas nos Exumas, iluminado por buracos no teto de calcário. Apareceu em Thunderball e Never Say Never Again. Cardumes de sergeant majors giram nos feixes de luz.",
+      "cost": "Incluso na maioria dos charters dos Exumas; $40–60 por conta",
+      "tip": "Vá na maré parada — correntes ficam fortes no auge de enchente e vazante. Leve uma lanterna submarina."
+    },
+    {
+      "icon": "🌊",
+      "title": "Atravesse a Glass Window Bridge",
+      "description": "Faixa estreita de Eleuthera onde o azul-marinho profundo do Atlântico encontra o turquesa pálido do Caribe — separados por talvez 9 metros de estrada. O contraste é genuinamente surreal de perto.",
+      "cost": "Grátis; carro alugado necessário (~$75/dia)",
+      "tip": "Dirija 10 minutos ao sul até as piscinas naturais de Queen's Bath — banheiras naturais no calcário, melhor na maré baixa."
+    },
+    {
+      "icon": "🎣",
+      "title": "Pesca de bonefish nos flats de Andros",
+      "description": "Andros é a capital mundial da pesca de bonefish — flats rasos infinitos, guias de classe mundial e os \"fantasmas dos flats\" que tiram 90 metros de linha em segundos.",
+      "cost": "$650–900/dia para skiff guiado com dois pescadores",
+      "tip": "Reserve pelo Tiamo ou um lodge dedicado — guias são a diferença entre 20 peixes e zero."
+    }
   ],
   "months": [
-    { "month": "Jan", "weather": "22–25°C, seco, com brisa", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Fresco mas confiável; leve uma camada leve para a noite" },
-    { "month": "Feb", "weather": "23–26°C, seco", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Premium do Valentine's; reserve com 6+ meses" },
-    { "month": "Mar", "weather": "24–27°C, seco", "emoji": "☀️", "crowds": "Muito alta", "price": "Máximo", "verdict": "Spring break em Nassau; Out Islands ainda calmas" },
-    { "month": "Apr", "weather": "24–28°C, seco, esquentando", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Ponto doce — água quente, queda pós-Páscoa nas tarifas" },
-    { "month": "May", "weather": "26–29°C, chuvas ocasionais", "emoji": "⛅", "crowds": "Moderada", "price": "Alto", "verdict": "Melhor custo-benefício do ano; água é morna" },
-    { "month": "Jun", "weather": "27–30°C, úmido, tempestades curtas", "emoji": "⛅", "crowds": "Moderada", "price": "Médio", "verdict": "Temporada de furacões começa, mas risco baixo; ótimas tarifas" },
-    { "month": "Jul", "weather": "28–31°C, úmido", "emoji": "⛅", "crowds": "Moderada", "price": "Médio", "verdict": "Quente e abafado, mas tempestades ainda raras" },
-    { "month": "Aug", "weather": "28–32°C, úmido, tempestades possíveis", "emoji": "⛈️", "crowds": "Moderada", "price": "Médio", "verdict": "Pico de risco de furacão começa; reserve com reembolso" },
-    { "month": "Sep", "weather": "27–31°C, tempestuoso", "emoji": "⛈️", "crowds": "Quieto", "price": "Mínimo", "verdict": "Evite — pico de furacões, muitos resorts fecham" },
-    { "month": "Oct", "weather": "26–29°C, melhorando no fim", "emoji": "⛈️", "crowds": "Quieto", "price": "Médio", "verdict": "Ainda arriscado no início; segunda metade estabiliza" },
-    { "month": "Nov", "weather": "24–28°C, seco volta", "emoji": "☀️", "crowds": "Crescendo", "price": "Alto", "verdict": "Excelente após dia 15 — começa a estação seca, preços razoáveis" },
-    { "month": "Dec", "weather": "23–26°C, seco", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Junkanoo no Boxing Day é imperdível; tarifas de feriado" }
+    {
+      "month": "Jan",
+      "weather": "22–25°C, seco, com brisa",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Fresco mas confiável; leve uma camada leve para a noite"
+    },
+    {
+      "month": "Feb",
+      "weather": "23–26°C, seco",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Premium do Valentine's; reserve com 6+ meses"
+    },
+    {
+      "month": "Mar",
+      "weather": "24–27°C, seco",
+      "emoji": "☀️",
+      "crowds": "Muito alta",
+      "price": "Máximo",
+      "verdict": "Spring break em Nassau; Out Islands ainda calmas"
+    },
+    {
+      "month": "Apr",
+      "weather": "24–28°C, seco, esquentando",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Ponto doce — água quente, queda pós-Páscoa nas tarifas"
+    },
+    {
+      "month": "May",
+      "weather": "26–29°C, chuvas ocasionais",
+      "emoji": "⛅",
+      "crowds": "Moderada",
+      "price": "Alto",
+      "verdict": "Melhor custo-benefício do ano; água é morna"
+    },
+    {
+      "month": "Jun",
+      "weather": "27–30°C, úmido, tempestades curtas",
+      "emoji": "⛅",
+      "crowds": "Moderada",
+      "price": "Médio",
+      "verdict": "Temporada de furacões começa, mas risco baixo; ótimas tarifas"
+    },
+    {
+      "month": "Jul",
+      "weather": "28–31°C, úmido",
+      "emoji": "⛅",
+      "crowds": "Moderada",
+      "price": "Médio",
+      "verdict": "Quente e abafado, mas tempestades ainda raras"
+    },
+    {
+      "month": "Aug",
+      "weather": "28–32°C, úmido, tempestades possíveis",
+      "emoji": "⛈️",
+      "crowds": "Moderada",
+      "price": "Médio",
+      "verdict": "Pico de risco de furacão começa; reserve com reembolso"
+    },
+    {
+      "month": "Sep",
+      "weather": "27–31°C, tempestuoso",
+      "emoji": "⛈️",
+      "crowds": "Quieto",
+      "price": "Mínimo",
+      "verdict": "Evite — pico de furacões, muitos resorts fecham"
+    },
+    {
+      "month": "Oct",
+      "weather": "26–29°C, melhorando no fim",
+      "emoji": "⛈️",
+      "crowds": "Quieto",
+      "price": "Médio",
+      "verdict": "Ainda arriscado no início; segunda metade estabiliza"
+    },
+    {
+      "month": "Nov",
+      "weather": "24–28°C, seco volta",
+      "emoji": "☀️",
+      "crowds": "Crescendo",
+      "price": "Alto",
+      "verdict": "Excelente após dia 15 — começa a estação seca, preços razoáveis"
+    },
+    {
+      "month": "Dec",
+      "weather": "23–26°C, seco",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Junkanoo no Boxing Day é imperdível; tarifas de feriado"
+    }
   ],
   "budgetTiers": [
-    { "label": "Conforto", "range": "$450–700/noite", "gets": "Boutique 4 estrelas em Eleuthera ou Harbour Island, café da manhã, acesso à praia. Pule Nassau nessa faixa.", "example": "The Dunmore em Harbour Island — charme colonial a passos da Pink Sands Beach" },
-    { "label": "Luxo", "range": "$900–1.800/noite", "gets": "Resorts top em Paradise Island ou Eleuthera, suítes vista mar, vários restaurantes, spa completo", "example": "Rosewood Baha Mar (Nassau) ou The Cove Eleuthera" },
-    { "label": "Ultra-luxo", "range": "$2.500–8.000/noite", "gets": "Ilha privativa ou resorts só de vilas, butler, barcos privativos, all-inclusive de comida e bebida", "example": "Kamalame Cay (ilha privativa em Andros) ou Tiamo Resort (eco-luxo off-grid em Andros)" }
+    {
+      "label": "Conforto",
+      "range": "$450–700/noite",
+      "gets": "Boutique 4 estrelas em Eleuthera ou Harbour Island, café da manhã, acesso à praia. Pule Nassau nessa faixa.",
+      "example": "The Dunmore em Harbour Island — charme colonial a passos da Pink Sands Beach"
+    },
+    {
+      "label": "Luxo",
+      "range": "$900–1.800/noite",
+      "gets": "Resorts top em Paradise Island ou Eleuthera, suítes vista mar, vários restaurantes, spa completo",
+      "example": "Rosewood Baha Mar (Nassau) ou The Cove Eleuthera"
+    },
+    {
+      "label": "Ultra-luxo",
+      "range": "$2.500–8.000/noite",
+      "gets": "Ilha privativa ou resorts só de vilas, butler, barcos privativos, all-inclusive de comida e bebida",
+      "example": "Kamalame Cay (ilha privativa em Andros) ou Tiamo Resort (eco-luxo off-grid em Andros)"
+    }
   ],
   "areas": [
-    { "name": "Nassau & Paradise Island", "bestFor": "Primeira viagem, noites de cassino, logística fácil", "description": "A capital e sua ilha-irmã conectada hospedam os maiores resorts do país — Atlantis, Baha Mar, Ocean Club. Voos diretos de uma dúzia de cidades americanas." },
-    { "name": "Harbour Island", "bestFor": "Lua de mel boutique, fotógrafos, amantes de praia", "description": "Faixa de areia rosa de 5,5 km ao largo de North Eleuthera. Só carrinhos de golfe, sem grandes resorts, energia de editorial de moda." },
-    { "name": "Eleuthera", "bestFor": "Sofisticação silenciosa, casais road-trip, surf e snorkel", "description": "180 km de comprimento, quase despovoada, com Glass Window Bridge, Lighthouse Beach, French Leave Beach." },
-    { "name": "Os Exumas", "bestFor": "Barco, porcos nadadores, fãs de James Bond", "description": "365 cays de águas rasas impossivelmente claras. Base em Staniel Cay ou Great Exuma; a magia está na água." },
-    { "name": "Andros", "bestFor": "Pescadores de fly, mergulhadores, casais de fuga total", "description": "Maior ilha bahamense, quase totalmente intocada, terceira maior barreira de coral do mundo logo à frente." }
+    {
+      "name": "Nassau & Paradise Island",
+      "bestFor": "Primeira viagem, noites de cassino, logística fácil",
+      "description": "A capital e sua ilha-irmã conectada hospedam os maiores resorts do país — Atlantis, Baha Mar, Ocean Club. Voos diretos de uma dúzia de cidades americanas."
+    },
+    {
+      "name": "Harbour Island",
+      "bestFor": "Lua de mel boutique, fotógrafos, amantes de praia",
+      "description": "Faixa de areia rosa de 5,5 km ao largo de North Eleuthera. Só carrinhos de golfe, sem grandes resorts, energia de editorial de moda."
+    },
+    {
+      "name": "Eleuthera",
+      "bestFor": "Sofisticação silenciosa, casais road-trip, surf e snorkel",
+      "description": "180 km de comprimento, quase despovoada, com Glass Window Bridge, Lighthouse Beach, French Leave Beach."
+    },
+    {
+      "name": "Os Exumas",
+      "bestFor": "Barco, porcos nadadores, fãs de James Bond",
+      "description": "365 cays de águas rasas impossivelmente claras. Base em Staniel Cay ou Great Exuma; a magia está na água."
+    },
+    {
+      "name": "Andros",
+      "bestFor": "Pescadores de fly, mergulhadores, casais de fuga total",
+      "description": "Maior ilha bahamense, quase totalmente intocada, terceira maior barreira de coral do mundo logo à frente."
+    }
   ],
   "expertTips": [
-    { "tip": "Reserve voos para Out Islands com o resort, não separados", "detail": "Voos domésticos das Bahamas são um circo de pequenas companhias, limites de peso e cancelamentos. A maioria dos resorts das Out Islands tem balcões de transfer que cuidam de toda a corrente — pague o premium." },
-    { "tip": "Pule a praça de alimentação do aeroporto de Nassau", "detail": "Lynden Pindling tem filas notoriamente lentas e comida ruim. Se vai conectar para uma Out Island, coma antes de chegar." },
-    { "tip": "Junkanoo é no Boxing Day e Réveillon, não no Natal", "detail": "Se quer ver as paradas, mire 26 dez ou 1 jan em Nassau. Bay Street com taças de Goombay Punch, fantasias construídas durante meses." },
-    { "tip": "Bate-volta aos Exumas a partir de Nassau é exaustivo", "detail": "Operadores vendem combos de 12 horas: 90 minutos de barco cada lado, três paradas, você volta às 19h destruído. Durma nos Exumas pelo menos uma noite." },
-    { "tip": "Gorjeta é esperada e frequentemente não inclusa", "detail": "Diferente de outros destinos caribenhos, a gratuita nem sempre vem na tarifa do resort. Reserve 15–20% para restaurantes, $5–10/mala para carregadores." }
+    {
+      "tip": "Reserve voos para Out Islands com o resort, não separados",
+      "detail": "Voos domésticos das Bahamas são um circo de pequenas companhias, limites de peso e cancelamentos. A maioria dos resorts das Out Islands tem balcões de transfer que cuidam de toda a corrente — pague o premium."
+    },
+    {
+      "tip": "Pule a praça de alimentação do aeroporto de Nassau",
+      "detail": "Lynden Pindling tem filas notoriamente lentas e comida ruim. Se vai conectar para uma Out Island, coma antes de chegar."
+    },
+    {
+      "tip": "Junkanoo é no Boxing Day e Réveillon, não no Natal",
+      "detail": "Se quer ver as paradas, mire 26 dez ou 1 jan em Nassau. Bay Street com taças de Goombay Punch, fantasias construídas durante meses."
+    },
+    {
+      "tip": "Bate-volta aos Exumas a partir de Nassau é exaustivo",
+      "detail": "Operadores vendem combos de 12 horas: 90 minutos de barco cada lado, três paradas, você volta às 19h destruído. Durma nos Exumas pelo menos uma noite."
+    },
+    {
+      "tip": "Gorjeta é esperada e frequentemente não inclusa",
+      "detail": "Diferente de outros destinos caribenhos, a gratuita nem sempre vem na tarifa do resort. Reserve 15–20% para restaurantes, $5–10/mala para carregadores."
+    }
   ],
   "packing": [
-    { "item": "Protetor reef-safe (mineral, sem oxibenzona)", "why": "Exigido por lei em alguns parques marinhos; o sol refletindo na areia branca queima duas vezes." },
-    { "item": "Câmera submarina ou GoPro", "why": "Porcos, grutas, tubarões em Compass Cay — as Bahamas são destino de foto submarina." },
-    { "item": "Camada leve para a noite", "why": "Noites de dezembro–março caem para 18°C, e o ar-condicionado nos restaurantes é brutal." },
-    { "item": "Equipamento de snorkel se tiver", "why": "Aluguel de resort é mediano; o ajuste da máscara importa, e sapatos de água ajudam em entradas com pedras." },
-    { "item": "Dinheiro em notas pequenas USD", "why": "Gorjetas, táxis e lojas das Out Islands rodam em dinheiro; ATMs são incertos fora de Nassau." },
-    { "item": "Dramamine ou pulseiras antienjoo", "why": "Mesmo em dia calmo, barcos nos Exumas podem balançar; o canal entre New Providence e as Out Islands fica agitado." }
+    {
+      "item": "Protetor reef-safe (mineral, sem oxibenzona)",
+      "why": "Exigido por lei em alguns parques marinhos; o sol refletindo na areia branca queima duas vezes."
+    },
+    {
+      "item": "Câmera submarina ou GoPro",
+      "why": "Porcos, grutas, tubarões em Compass Cay — as Bahamas são destino de foto submarina."
+    },
+    {
+      "item": "Camada leve para a noite",
+      "why": "Noites de dezembro–março caem para 18°C, e o ar-condicionado nos restaurantes é brutal."
+    },
+    {
+      "item": "Equipamento de snorkel se tiver",
+      "why": "Aluguel de resort é mediano; o ajuste da máscara importa, e sapatos de água ajudam em entradas com pedras."
+    },
+    {
+      "item": "Dinheiro em notas pequenas USD",
+      "why": "Gorjetas, táxis e lojas das Out Islands rodam em dinheiro; ATMs são incertos fora de Nassau."
+    },
+    {
+      "item": "Dramamine ou pulseiras antienjoo",
+      "why": "Mesmo em dia calmo, barcos nos Exumas podem balançar; o canal entre New Providence e as Out Islands fica agitado."
+    }
   ],
   "guide": {
     "getting": "Voe para Nassau (NAS) da maioria dos hubs da costa leste americana em menos de 3 horas; voos diretos também de Toronto, Londres (BA sazonal) e Atlanta. Para Out Islands, conecte para North Eleuthera (ELH), Staniel Cay (TYM), Great Exuma (GGT) ou Andros pela Bahamasair, Western Air ou charter. Muitos resorts de luxo organizam charters privativos direto da Flórida, evitando Nassau — vale os $400–800/pessoa.",
@@ -73,5 +255,9 @@
   "localFood": "O conch é a obsessão bahamense — comido como frituras, em \"salada\" crua picante com limão e bird pepper, batido (martelado e frito) ou em ensopado. Garoupa grelhada, lagosta (na temporada ago–mar) e arroz com feijão são básicos. Não deixe de provar bolo de rum, guava duff de sobremesa e os coquetéis locais: Sky Juice (gin, água de coco, leite condensado) e Goombay Punch.",
   "currency": "Dólar Bahamense (BSD) — fixo 1:1 com USD; USD universalmente aceito",
   "language": "Inglês",
-  "timezone": "EST (UTC-5)"
+  "timezone": "EST (UTC-5)",
+  "seo": {
+    "title": "Lua de Mel nas Bahamas: 11 Resorts em Ilhas Privadas",
+    "description": "11 resorts em Out Islands e Exuma pontuados. Kamalame Cay, The Cove, Fowl Cay. De $500/noite. Nov-abr."
+  }
 }

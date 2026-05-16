@@ -152,6 +152,7 @@ localFood: 'Pho bo (Hanoi\'s iconic beef noodle soup at a plastic-stool street s
 currency: 'Vietnamese Dong (VND) — hotels and tours often quote USD',
 language: 'Vietnamese. English spoken in all tourist areas.',
 timezone: 'UTC+7 (Indochina Time)',
+  seo: { title: "Vietnam Honeymoon: 8 Coast & Heritage Hotels 2026", description: "8 Hoi An, Phu Quoc, Hanoi stays scored. Six Senses Con Dao, JW Marriott, InterContinental. From $300/night. Nov-Apr." },
 }
 
 export default meta

@@ -18,51 +18,230 @@
     "Precisa de vida noturna até as 4h — Kyoto silencia cedo"
   ],
   "experiences": [
-    { "icon": "♨️", "title": "Onsen privativo ao amanhecer", "description": "Reserve um rotenburo privativo (banho termal externo) no seu ryokan para 6h. Vapor subindo da água mineral, pinheiros emoldurando, silêncio absoluto. Os 45 minutos mais íntimos do Japão.", "cost": "Geralmente incluso em ryokans top; horário privativo $30-80 extra", "tip": "Reserve no check-in — esgota até a tarde. A água mineral é mais rica pela manhã." },
-    { "icon": "🌸", "title": "Caminhada de amanhecer em Arashiyama", "description": "O bambuzal de Kyoto e a ponte Togetsukyo às 6h, antes dos grupos. No fim de março, o parque Nakanoshima se enche de cerejeiras refletidas no rio Katsura.", "cost": "Grátis", "tip": "Caminhe a partir do ryokan se estiver em Arashiyama. Volte de riquixá — os condutores conhecem caminhos secundários." },
-    { "icon": "🍱", "title": "Jantar kaiseki no quarto tatami", "description": "Jantar japonês sazonal de 12 pratos servido no quarto por atendente dedicado. Cada prato é uma miniatura cronometrada à estação. A harmonização com saquê transforma em cerimônia de 3h.", "cost": "Incluso na maioria dos ryokans top ($300-600 de valor)", "tip": "Avise o ryokan sobre restrições alimentares com 48h. Tempos de wagyu podem ser somados por $80-120." },
-    { "icon": "🗻", "title": "Vista do Fuji desde Hakone", "description": "Da crista de onsen de Hakone numa manhã clara, o Fuji surge perfeitamente simétrico sobre o lago Ashi. Combine com o Hakone Open Air Museum e um ryokan com banho privativo voltado ao Fuji.", "cost": "Bate-volta de Tóquio $80-200 com transporte; ryokan em Hakone a partir de $400/noite", "tip": "Fuji é mais claro no inverno e início da primavera. Out-mar dá melhor visibilidade. Verão tem nuvens pesadas." },
-    { "icon": "🏮", "title": "Caminhada noturna em Gion", "description": "O distrito das gueixas de Kyoto ao crepúsculo — machiya de madeira, rua Hanamikoji em pedra, lanternas de papel. Com sorte, você verá uma geiko ou maiko se apressando para um compromisso.", "cost": "Caminhar é grátis; jantar em kaiseki de Gion $150-400 por pessoa", "tip": "Visite em dia de semana. Não fotografe gueixas sem permissão. Fique ao norte de Shijo para a atmosfera mais autêntica." }
+    {
+      "icon": "♨️",
+      "title": "Onsen privativo ao amanhecer",
+      "description": "Reserve um rotenburo privativo (banho termal externo) no seu ryokan para 6h. Vapor subindo da água mineral, pinheiros emoldurando, silêncio absoluto. Os 45 minutos mais íntimos do Japão.",
+      "cost": "Geralmente incluso em ryokans top; horário privativo $30-80 extra",
+      "tip": "Reserve no check-in — esgota até a tarde. A água mineral é mais rica pela manhã."
+    },
+    {
+      "icon": "🌸",
+      "title": "Caminhada de amanhecer em Arashiyama",
+      "description": "O bambuzal de Kyoto e a ponte Togetsukyo às 6h, antes dos grupos. No fim de março, o parque Nakanoshima se enche de cerejeiras refletidas no rio Katsura.",
+      "cost": "Grátis",
+      "tip": "Caminhe a partir do ryokan se estiver em Arashiyama. Volte de riquixá — os condutores conhecem caminhos secundários."
+    },
+    {
+      "icon": "🍱",
+      "title": "Jantar kaiseki no quarto tatami",
+      "description": "Jantar japonês sazonal de 12 pratos servido no quarto por atendente dedicado. Cada prato é uma miniatura cronometrada à estação. A harmonização com saquê transforma em cerimônia de 3h.",
+      "cost": "Incluso na maioria dos ryokans top ($300-600 de valor)",
+      "tip": "Avise o ryokan sobre restrições alimentares com 48h. Tempos de wagyu podem ser somados por $80-120."
+    },
+    {
+      "icon": "🗻",
+      "title": "Vista do Fuji desde Hakone",
+      "description": "Da crista de onsen de Hakone numa manhã clara, o Fuji surge perfeitamente simétrico sobre o lago Ashi. Combine com o Hakone Open Air Museum e um ryokan com banho privativo voltado ao Fuji.",
+      "cost": "Bate-volta de Tóquio $80-200 com transporte; ryokan em Hakone a partir de $400/noite",
+      "tip": "Fuji é mais claro no inverno e início da primavera. Out-mar dá melhor visibilidade. Verão tem nuvens pesadas."
+    },
+    {
+      "icon": "🏮",
+      "title": "Caminhada noturna em Gion",
+      "description": "O distrito das gueixas de Kyoto ao crepúsculo — machiya de madeira, rua Hanamikoji em pedra, lanternas de papel. Com sorte, você verá uma geiko ou maiko se apressando para um compromisso.",
+      "cost": "Caminhar é grátis; jantar em kaiseki de Gion $150-400 por pessoa",
+      "tip": "Visite em dia de semana. Não fotografe gueixas sem permissão. Fique ao norte de Shijo para a atmosfera mais autêntica."
+    }
   ],
   "months": [
-    { "month": "Jan", "weather": "Frio, seco, céu de cristal", "emoji": "❄️", "crowds": "Baixa", "price": "Baixo", "verdict": "Melhores vistas do Fuji, templos pacíficos" },
-    { "month": "Feb", "weather": "Mês mais frio, ameixeiras florescem", "emoji": "❄️", "crowds": "Baixa", "price": "Baixo", "verdict": "Estação de ameixeiras tranquila e bela" },
-    { "month": "Mar", "weather": "Esquentando, cerejeiras no fim do mês", "emoji": "🌸", "crowds": "Alta", "price": "Alto", "verdict": "Mágico se o timing acertar" },
-    { "month": "Apr", "weather": "Pico das cerejeiras, primavera quente", "emoji": "🌸", "crowds": "Máxima", "price": "Máximo", "verdict": "Mais romântico — reserve com 1 ano" },
-    { "month": "May", "weather": "Quente, verde fresco, Golden Week cheia", "emoji": "🌿", "crowds": "Alta", "price": "Alto", "verdict": "Lindo, mas Golden Week é caótica" },
-    { "month": "Jun", "weather": "Estação chuvosa (tsuyu) começa", "emoji": "🌧", "crowds": "Baixa", "price": "Baixo-médio", "verdict": "Boas ofertas, hortênsias florescem" },
-    { "month": "Jul", "weather": "Quente, úmido, fim das chuvas", "emoji": "☀️", "crowds": "Média", "price": "Médio", "verdict": "Festivais e fogos, mas calor real" },
-    { "month": "Aug", "weather": "Muito quente e úmido", "emoji": "🥵", "crowds": "Alta", "price": "Alto", "verdict": "Festivais Obon lindos, calor é real" },
-    { "month": "Sep", "weather": "Esfriando, leve risco de tufão", "emoji": "🌀", "crowds": "Baixa", "price": "Baixo-médio", "verdict": "Bom custo-benefício, leve risco de tufão" },
-    { "month": "Oct", "weather": "Outono perfeito", "emoji": "🍂", "crowds": "Média", "price": "Médio-alto", "verdict": "Excelente baixa" },
-    { "month": "Nov", "weather": "Pico da folhagem de outono, deslumbrante", "emoji": "🍁", "crowds": "Máxima", "price": "Máximo", "verdict": "Tão mágico quanto a estação das cerejeiras" },
-    { "month": "Dec", "weather": "Fresco a frio, festivo, vazio", "emoji": "⛩️", "crowds": "Baixa", "price": "Médio", "verdict": "Subestimado — silencioso e bonito" }
+    {
+      "month": "Jan",
+      "weather": "Frio, seco, céu de cristal",
+      "emoji": "❄️",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Melhores vistas do Fuji, templos pacíficos"
+    },
+    {
+      "month": "Feb",
+      "weather": "Mês mais frio, ameixeiras florescem",
+      "emoji": "❄️",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Estação de ameixeiras tranquila e bela"
+    },
+    {
+      "month": "Mar",
+      "weather": "Esquentando, cerejeiras no fim do mês",
+      "emoji": "🌸",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Mágico se o timing acertar"
+    },
+    {
+      "month": "Apr",
+      "weather": "Pico das cerejeiras, primavera quente",
+      "emoji": "🌸",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Mais romântico — reserve com 1 ano"
+    },
+    {
+      "month": "May",
+      "weather": "Quente, verde fresco, Golden Week cheia",
+      "emoji": "🌿",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Lindo, mas Golden Week é caótica"
+    },
+    {
+      "month": "Jun",
+      "weather": "Estação chuvosa (tsuyu) começa",
+      "emoji": "🌧",
+      "crowds": "Baixa",
+      "price": "Baixo-médio",
+      "verdict": "Boas ofertas, hortênsias florescem"
+    },
+    {
+      "month": "Jul",
+      "weather": "Quente, úmido, fim das chuvas",
+      "emoji": "☀️",
+      "crowds": "Média",
+      "price": "Médio",
+      "verdict": "Festivais e fogos, mas calor real"
+    },
+    {
+      "month": "Aug",
+      "weather": "Muito quente e úmido",
+      "emoji": "🥵",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Festivais Obon lindos, calor é real"
+    },
+    {
+      "month": "Sep",
+      "weather": "Esfriando, leve risco de tufão",
+      "emoji": "🌀",
+      "crowds": "Baixa",
+      "price": "Baixo-médio",
+      "verdict": "Bom custo-benefício, leve risco de tufão"
+    },
+    {
+      "month": "Oct",
+      "weather": "Outono perfeito",
+      "emoji": "🍂",
+      "crowds": "Média",
+      "price": "Médio-alto",
+      "verdict": "Excelente baixa"
+    },
+    {
+      "month": "Nov",
+      "weather": "Pico da folhagem de outono, deslumbrante",
+      "emoji": "🍁",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Tão mágico quanto a estação das cerejeiras"
+    },
+    {
+      "month": "Dec",
+      "weather": "Fresco a frio, festivo, vazio",
+      "emoji": "⛩️",
+      "crowds": "Baixa",
+      "price": "Médio",
+      "verdict": "Subestimado — silencioso e bonito"
+    }
   ],
   "budgetTiers": [
-    { "label": "Hotéis boutique e business", "range": "$200-500/noite", "gets": "Hotel de qualidade com excelente localização. Bom serviço, sem tatami de ryokan. Base perfeita em Tóquio.", "example": "Hyatt Regency Kyoto, Park Hotel Tokyo, Trunk Hotel Shibuya" },
-    { "label": "Ryokan premium e luxo urbano", "range": "$500-1.200/noite", "gets": "Ryokan tradicional com tatami, jantar kaiseki, acesso a onsen privativo. A lua de mel autêntica japonesa.", "example": "Hoshinoya Kyoto, Gora Kadan Hakone, Palace Hotel Tokyo" },
-    { "label": "Ryokan ultra-luxo", "range": "$1.200-2.500+/noite", "gets": "Vila ryokan privativa, kaiseki no quarto, atendente dedicado, onsen externo privativo. O ápice da hospitalidade japonesa.", "example": "Aman Kyoto, Suiran Kyoto, Beniya Mukayu Kanazawa" }
+    {
+      "label": "Hotéis boutique e business",
+      "range": "$200-500/noite",
+      "gets": "Hotel de qualidade com excelente localização. Bom serviço, sem tatami de ryokan. Base perfeita em Tóquio.",
+      "example": "Hyatt Regency Kyoto, Park Hotel Tokyo, Trunk Hotel Shibuya"
+    },
+    {
+      "label": "Ryokan premium e luxo urbano",
+      "range": "$500-1.200/noite",
+      "gets": "Ryokan tradicional com tatami, jantar kaiseki, acesso a onsen privativo. A lua de mel autêntica japonesa.",
+      "example": "Hoshinoya Kyoto, Gora Kadan Hakone, Palace Hotel Tokyo"
+    },
+    {
+      "label": "Ryokan ultra-luxo",
+      "range": "$1.200-2.500+/noite",
+      "gets": "Vila ryokan privativa, kaiseki no quarto, atendente dedicado, onsen externo privativo. O ápice da hospitalidade japonesa.",
+      "example": "Aman Kyoto, Suiran Kyoto, Beniya Mukayu Kanazawa"
+    }
   ],
   "areas": [
-    { "name": "Kyoto", "bestFor": "Templos, ryokan, cultura das gueixas", "description": "O coração cultural do Japão. Hospede-se em Arashiyama ou Higashiyama para imersão em ryokan. Mínimo 3 noites; 5 é melhor. Evite a área da estação para romance." },
-    { "name": "Tóquio", "bestFor": "Glamour urbano, comida, gastronomia Michelin", "description": "Duas a três noites somam contraste elétrico à serenidade de Kyoto. Shinjuku, Ginza e Yanaka oferecem energias completamente diferentes. A cena gastronômica sozinha justifica a parada." },
-    { "name": "Hakone", "bestFor": "Vistas do Monte Fuji, onsen", "description": "Uma a duas noites entre Tóquio e Kyoto. A experiência clássica de ryokan com onsen tendo a montanha mais icônica do Japão como pano de fundo. Manhãs de inverno claras são de tirar o fôlego." },
-    { "name": "Nara", "bestFor": "Templos antigos, parque dos cervos", "description": "Meio dia de Kyoto. Cervos andam livremente entre templos do século VIII. O Grande Buda do Todai-ji é o maior do Japão. Ritmo gentil e meditativo — espaço perfeito no meio da viagem." },
-    { "name": "Osaka", "bestFor": "Comida de rua, energia, Dotonbori", "description": "Capital culinária do Japão. Some uma noite antes de voltar. Takoyaki, ramen, kushikatsu — o jantar final mais indulgente do país." }
+    {
+      "name": "Kyoto",
+      "bestFor": "Templos, ryokan, cultura das gueixas",
+      "description": "O coração cultural do Japão. Hospede-se em Arashiyama ou Higashiyama para imersão em ryokan. Mínimo 3 noites; 5 é melhor. Evite a área da estação para romance."
+    },
+    {
+      "name": "Tóquio",
+      "bestFor": "Glamour urbano, comida, gastronomia Michelin",
+      "description": "Duas a três noites somam contraste elétrico à serenidade de Kyoto. Shinjuku, Ginza e Yanaka oferecem energias completamente diferentes. A cena gastronômica sozinha justifica a parada."
+    },
+    {
+      "name": "Hakone",
+      "bestFor": "Vistas do Monte Fuji, onsen",
+      "description": "Uma a duas noites entre Tóquio e Kyoto. A experiência clássica de ryokan com onsen tendo a montanha mais icônica do Japão como pano de fundo. Manhãs de inverno claras são de tirar o fôlego."
+    },
+    {
+      "name": "Nara",
+      "bestFor": "Templos antigos, parque dos cervos",
+      "description": "Meio dia de Kyoto. Cervos andam livremente entre templos do século VIII. O Grande Buda do Todai-ji é o maior do Japão. Ritmo gentil e meditativo — espaço perfeito no meio da viagem."
+    },
+    {
+      "name": "Osaka",
+      "bestFor": "Comida de rua, energia, Dotonbori",
+      "description": "Capital culinária do Japão. Some uma noite antes de voltar. Takoyaki, ramen, kushikatsu — o jantar final mais indulgente do país."
+    }
   ],
   "expertTips": [
-    { "tip": "Compre o JR Pass de 7 dias antes de sair de casa", "detail": "O JR Pass cobre todo o Shinkansen e só está disponível para turistas que compram fora do Japão. Ida e volta Tóquio-Kyoto sozinha custa mais que o passe." },
-    { "tip": "Reserve ryokan com 3-6 meses na temporada das cerejeiras", "detail": "As propriedades top em Kyoto e Hakone no fim de março-início de abril esgotam em horas. Reserve no dia em que as datas abrem." },
-    { "tip": "Pegue um pocket WiFi no aeroporto", "detail": "O WiFi público japonês é instável. Aluguel de pocket WiFi ($5-8/dia) dá dados ilimitados para mapas, traduções e reservas. Essencial para navegação independente." },
-    { "tip": "Leve dinheiro — o Japão ainda é majoritariamente em espécie", "detail": "Muitos ryokans, templos e vendedores aceitam só dinheiro. Saque ¥50.000-100.000 nos caixas 7-Eleven na chegada — aceitam cartões estrangeiros com confiança." },
-    { "tip": "O ritmo do ryokan é tudo — entregue-se", "detail": "Check-in até 15h, banho antes do jantar, vista o yukata a noite inteira, durma cedo, banho ao amanhecer. A experiência só funciona se você se entregar ao ritmo." }
+    {
+      "tip": "Compre o JR Pass de 7 dias antes de sair de casa",
+      "detail": "O JR Pass cobre todo o Shinkansen e só está disponível para turistas que compram fora do Japão. Ida e volta Tóquio-Kyoto sozinha custa mais que o passe."
+    },
+    {
+      "tip": "Reserve ryokan com 3-6 meses na temporada das cerejeiras",
+      "detail": "As propriedades top em Kyoto e Hakone no fim de março-início de abril esgotam em horas. Reserve no dia em que as datas abrem."
+    },
+    {
+      "tip": "Pegue um pocket WiFi no aeroporto",
+      "detail": "O WiFi público japonês é instável. Aluguel de pocket WiFi ($5-8/dia) dá dados ilimitados para mapas, traduções e reservas. Essencial para navegação independente."
+    },
+    {
+      "tip": "Leve dinheiro — o Japão ainda é majoritariamente em espécie",
+      "detail": "Muitos ryokans, templos e vendedores aceitam só dinheiro. Saque ¥50.000-100.000 nos caixas 7-Eleven na chegada — aceitam cartões estrangeiros com confiança."
+    },
+    {
+      "tip": "O ritmo do ryokan é tudo — entregue-se",
+      "detail": "Check-in até 15h, banho antes do jantar, vista o yukata a noite inteira, durma cedo, banho ao amanhecer. A experiência só funciona se você se entregar ao ritmo."
+    }
   ],
   "packing": [
-    { "item": "Sapatos de fácil entrada/saída", "why": "Você descalça dezenas de vezes ao dia em templos, ryokans e restaurantes. Cadarços viram tortura no segundo dia." },
-    { "item": "Camadas leves", "why": "Aquecimento e ar-condicionado internos são agressivos. Templos não têm aquecimento no inverno. Verões são tropicais. Camadas constantes." },
-    { "item": "Cartão IC (Suica ou Pasmo)", "why": "Carregue ¥5.000 na chegada em qualquer estação. Funciona em todo metrô, ônibus e na maioria das conveniências. Mais rápido que comprar passagens individuais." },
-    { "item": "Guarda-chuva compacto", "why": "O Japão tem chuvas breves frequentes o ano todo. Tão essencial quanto o celular." },
-    { "item": "Mochila pequena de passeio", "why": "Ruas e transportes japoneses recompensam bagagem compacta. Mochila pequena para passeios diários evita transtornos com guarda-volumes." }
+    {
+      "item": "Sapatos de fácil entrada/saída",
+      "why": "Você descalça dezenas de vezes ao dia em templos, ryokans e restaurantes. Cadarços viram tortura no segundo dia."
+    },
+    {
+      "item": "Camadas leves",
+      "why": "Aquecimento e ar-condicionado internos são agressivos. Templos não têm aquecimento no inverno. Verões são tropicais. Camadas constantes."
+    },
+    {
+      "item": "Cartão IC (Suica ou Pasmo)",
+      "why": "Carregue ¥5.000 na chegada em qualquer estação. Funciona em todo metrô, ônibus e na maioria das conveniências. Mais rápido que comprar passagens individuais."
+    },
+    {
+      "item": "Guarda-chuva compacto",
+      "why": "O Japão tem chuvas breves frequentes o ano todo. Tão essencial quanto o celular."
+    },
+    {
+      "item": "Mochila pequena de passeio",
+      "why": "Ruas e transportes japoneses recompensam bagagem compacta. Mochila pequena para passeios diários evita transtornos com guarda-volumes."
+    }
   ],
   "guide": {
     "getting": "Voe para Tóquio Narita (NRT) ou Haneda (HND) — Haneda fica mais perto. De Londres: direto pela JAL/ANA/BA (12h). Da Europa: conexões via Amsterdã, Paris, Frankfurt (13-14h total). Dos EUA: direto de LAX, SFO, JFK (11-14h). Pegue o Narita Express ($30) ou Limousine Bus. Tóquio-Kyoto: Shinkansen Nozomi (2h15, ~$130 só ida) — reserve assento.",
@@ -72,5 +251,9 @@
   "localFood": "Kaiseki (alta gastronomia japonesa — cerimônia sazonal de 10+ tempos), ramen num porão de 8 lugares, obanzai de Kyoto (pequenos pratos sazonais com picles, tofu e peixe grelhado), takoyaki e okonomiyaki de Osaka, sukiyaki de wagyu num especialista de Ginza, matcha em tudo em Uji perto de Kyoto. O Japão tem mais restaurantes com estrelas Michelin que a França. Até um onigiri de ¥700 é transcendente.",
   "currency": "Iene japonês (JPY) — economia largamente em dinheiro; cartões aceitos em hotéis",
   "language": "Japonês. Inglês falado em áreas turísticas; modo câmera do Google Translate é essencial fora delas.",
-  "timezone": "UTC+9 (Hora Padrão do Japão)"
+  "timezone": "UTC+9 (Hora Padrão do Japão)",
+  "seo": {
+    "title": "Lua de Mel no Japão: 8 Ryokan e Hotéis Urbanos 2026",
+    "description": "8 estadias em Tóquio, Quioto e Hakone pontuadas. Aman, Hoshinoya, Park Hyatt. De $500/noite. Mar-mai cerejeiras."
+  }
 }

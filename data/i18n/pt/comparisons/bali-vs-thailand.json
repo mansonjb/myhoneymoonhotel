@@ -1,6 +1,10 @@
 {
   "tagline": "Ilha espiritual hindu contra a variedade do Sudeste Asiático: onde está a sua lua de mel?",
   "metaDescription": "Bali ou Tailândia para uma lua de mel? Ubud espiritual contra as praias e a cultura tailandesa. Hotéis, gastronomia, preço e atividades. Comparação honesta.",
+  "seo": {
+    "title": "Bali vs Tailândia Lua de Mel: Comparação 2026",
+    "description": "Bali vs Tailândia para lua de mel 2026: espiritualidade de Ubud ou ilhas tailandesas. Custos reais, hotéis, comida, voos, atividades."
+  },
   "verdict": "Bali é uma única ilha com uma concentração extraordinária: arrozais, templos, praias de falésias, selva e alguns dos melhores hotéis boutique de luxo do mundo, tudo a 2-3 horas de distância. A Tailândia é um país inteiro com uma variedade enorme: as ilhas de Phuket, as praias de Koh Samui, os templos de Chiang Mai, a cena gastronômica de Bangkok. Se quer uma lua de mel concentrada, espiritual e romântica em uma única ilha com hotéis de design soberbos, escolha Bali. Se busca variedade multidestino, mais profundidade cultural e a melhor comida de rua da Ásia, escolha Tailândia.",
   "tldr": {
     "forA": "Bali: pelos retiros de bem-estar entre os arrozais de Ubud, as piscinas com vista para as falésias de Uluwatu e a intensidade de uma única ilha.",
@@ -8,16 +12,56 @@
     "tie": "Os dois oferecem um valor extraordinário para luas de mel abaixo de $500/noite."
   },
   "criteria": [
-    { "label": "Tempo de voo (a partir da Europa)", "aDetail": "16-18h com 1 escala", "bDetail": "11-13h, vários voos diretos (Thai Airways BKK)" },
-    { "label": "Melhores hotéis de luxo", "aDetail": "Aman, COMO, Four Seasons Sayan, Capella, Bulgari: uma concentração impressionante", "bDetail": "Amanpuri, Six Senses Yao Noi, Rosewood Phuket: excelentes, mas menos numerosos" },
-    { "label": "Gastronomia", "aDetail": "Boa, mas menos celebrada que a tailandesa", "bDetail": "Paraíso da comida de rua, BKK com estrelas Michelin, pad thai numa roulotte" },
-    { "label": "Praias", "aDetail": "Areia escura, muitas vezes lotadas, ondulação para surfistas", "bDetail": "Areia branca em Koh Samui, Krabi, Koh Lipe: tropical clássica" },
-    { "label": "Cultura e templos", "aDetail": "Templos hindu-balineses por todo lado, Galungan, Nyepi", "bDetail": "Templos budistas, Lanternas de Chiang Mai, Loy Krathong" },
-    { "label": "Variedade em uma mesma viagem", "aDetail": "Uma única ilha: muito a 3h de carro", "bDetail": "Um país inteiro: praia + cidade + selva + montanhas" },
-    { "label": "Preço mínimo (5 estrelas)", "aDetail": "$250-500/noite para 5 estrelas boutique", "bDetail": "Mesma faixa, ligeiramente mais econômico para a mesma qualidade" },
-    { "label": "Preço máximo", "aDetail": "Amandari, COMO Shambhala, Capella Ubud: $1500-3500/noite", "bDetail": "Amanpuri, Six Senses: $1200-3000/noite" },
-    { "label": "Fator romântico", "aDetail": "Selva de Ubud + arrozais + templos para casamentos = romantismo máximo", "bDetail": "Centrada na praia, menos introspectiva" },
-    { "label": "Multidões", "aDetail": "Muito turística em Canggu/Ubud: o trânsito pode arruinar dias inteiros", "bDetail": "É mais fácil escapar das multidões nas ilhas exteriores e na região de Krabi" }
+    {
+      "label": "Tempo de voo (a partir da Europa)",
+      "aDetail": "16-18h com 1 escala",
+      "bDetail": "11-13h, vários voos diretos (Thai Airways BKK)"
+    },
+    {
+      "label": "Melhores hotéis de luxo",
+      "aDetail": "Aman, COMO, Four Seasons Sayan, Capella, Bulgari: uma concentração impressionante",
+      "bDetail": "Amanpuri, Six Senses Yao Noi, Rosewood Phuket: excelentes, mas menos numerosos"
+    },
+    {
+      "label": "Gastronomia",
+      "aDetail": "Boa, mas menos celebrada que a tailandesa",
+      "bDetail": "Paraíso da comida de rua, BKK com estrelas Michelin, pad thai numa roulotte"
+    },
+    {
+      "label": "Praias",
+      "aDetail": "Areia escura, muitas vezes lotadas, ondulação para surfistas",
+      "bDetail": "Areia branca em Koh Samui, Krabi, Koh Lipe: tropical clássica"
+    },
+    {
+      "label": "Cultura e templos",
+      "aDetail": "Templos hindu-balineses por todo lado, Galungan, Nyepi",
+      "bDetail": "Templos budistas, Lanternas de Chiang Mai, Loy Krathong"
+    },
+    {
+      "label": "Variedade em uma mesma viagem",
+      "aDetail": "Uma única ilha: muito a 3h de carro",
+      "bDetail": "Um país inteiro: praia + cidade + selva + montanhas"
+    },
+    {
+      "label": "Preço mínimo (5 estrelas)",
+      "aDetail": "$250-500/noite para 5 estrelas boutique",
+      "bDetail": "Mesma faixa, ligeiramente mais econômico para a mesma qualidade"
+    },
+    {
+      "label": "Preço máximo",
+      "aDetail": "Amandari, COMO Shambhala, Capella Ubud: $1500-3500/noite",
+      "bDetail": "Amanpuri, Six Senses: $1200-3000/noite"
+    },
+    {
+      "label": "Fator romântico",
+      "aDetail": "Selva de Ubud + arrozais + templos para casamentos = romantismo máximo",
+      "bDetail": "Centrada na praia, menos introspectiva"
+    },
+    {
+      "label": "Multidões",
+      "aDetail": "Muito turística em Canggu/Ubud: o trânsito pode arruinar dias inteiros",
+      "bDetail": "É mais fácil escapar das multidões nas ilhas exteriores e na região de Krabi"
+    }
   ],
   "pickA": {
     "title": "Escolha Bali se…",
@@ -38,9 +82,21 @@
     ]
   },
   "faqs": [
-    { "q": "Qual é mais econômico?", "a": "A Tailândia é entre 15% e 20% mais barata, em média, para o mesmo nível de hotel, comida e atividade. Os resorts de luxo de Bali estão num patamar de preço alto tipo Maldivas/Indonésia; a Tailândia oferece melhor valor em 4 estrelas." },
-    { "q": "Qual tem melhor clima?", "a": "Os dois são tropicais, com estações seca e chuvosa. A estação seca de Bali vai de maio a outubro; a da Tailândia varia conforme a costa (Andamão/Phuket: nov-abr; Golfo/Koh Samui: jan-set). Consulte os guias individuais de cada destino." },
-    { "q": "Qual tem menos turismo?", "a": "Tailândia, porque tem muitos mais destinos. Canggu/Ubud, em Bali, são notoriamente lotadas. As ilhas tailandesas exteriores como Koh Kood ou Koh Lipe ainda parecem recônditas." },
-    { "q": "Posso combinar Bali + Tailândia?", "a": "Sim, fácil: Bangkok-Denpasar é um voo direto de 4h30. Uma lua de mel de 10-14 noites pode dedicar 5 noites a Ubud (Bali) e 5 noites a uma praia tailandesa com todo conforto." }
+    {
+      "q": "Qual é mais econômico?",
+      "a": "A Tailândia é entre 15% e 20% mais barata, em média, para o mesmo nível de hotel, comida e atividade. Os resorts de luxo de Bali estão num patamar de preço alto tipo Maldivas/Indonésia; a Tailândia oferece melhor valor em 4 estrelas."
+    },
+    {
+      "q": "Qual tem melhor clima?",
+      "a": "Os dois são tropicais, com estações seca e chuvosa. A estação seca de Bali vai de maio a outubro; a da Tailândia varia conforme a costa (Andamão/Phuket: nov-abr; Golfo/Koh Samui: jan-set). Consulte os guias individuais de cada destino."
+    },
+    {
+      "q": "Qual tem menos turismo?",
+      "a": "Tailândia, porque tem muitos mais destinos. Canggu/Ubud, em Bali, são notoriamente lotadas. As ilhas tailandesas exteriores como Koh Kood ou Koh Lipe ainda parecem recônditas."
+    },
+    {
+      "q": "Posso combinar Bali + Tailândia?",
+      "a": "Sim, fácil: Bangkok-Denpasar é um voo direto de 4h30. Uma lua de mel de 10-14 noites pode dedicar 5 noites a Ubud (Bali) e 5 noites a uma praia tailandesa com todo conforto."
+    }
   ]
 }

@@ -18,52 +18,234 @@
     "Você quer simplicidade de um único destino"
   ],
   "experiences": [
-    { "icon": "🍷", "title": "Visita privativa à vinícola Marqués de Riscal, Rioja", "description": "Suba à Rioja Alavesa para um tour privativo na propriedade desenhada por Frank Gehry, com prova de barrica e almoço entre as vinhas.", "cost": "€350–600 por casal", "tip": "Reserve a suíte no rooftop do Hotel Marqués de Riscal" },
-    { "icon": "🍤", "title": "Rota de pintxos em San Sebastián", "description": "Caminhada de 4h pela Parte Vieja à noite, passando por 5 a 6 dos bares lendários — Ganbara, Bar Néstor, Gandarias.", "cost": "€180–250 por casal", "tip": "Coma em pé no balcão como um local; nunca peça mais de dois pintxos por parada" },
-    { "icon": "🕌", "title": "Tour privativo noturno na Alhambra", "description": "Pule as multidões com visita guiada ao entardecer aos Palácios Nasridas e aos jardins do Generalife.", "cost": "€280–450 por casal", "tip": "Hospede-se no Parador de Granada, dentro do conjunto da Alhambra" },
-    { "icon": "⛵", "title": "Dia de gulet privativo pela costa Tramuntana, Mallorca", "description": "Alugue um barco tradicional de madeira em Port de Sóller e navegue pela costa patrimônio da UNESCO.", "cost": "€1.200–2.000 pelo dia", "tip": "Vá meio de semana e comece cedo para garantir as melhores enseadas" },
-    { "icon": "💃", "title": "Tablao íntimo de flamenco em Triana, Sevilha", "description": "Apresentação em sala pequena na Casa de la Memoria — cante jondo cru de verdade, não a versão para turistas.", "cost": "€90–150 por casal", "tip": "Sente na primeira fila — flamenco é para sentir" }
+    {
+      "icon": "🍷",
+      "title": "Visita privativa à vinícola Marqués de Riscal, Rioja",
+      "description": "Suba à Rioja Alavesa para um tour privativo na propriedade desenhada por Frank Gehry, com prova de barrica e almoço entre as vinhas.",
+      "cost": "€350–600 por casal",
+      "tip": "Reserve a suíte no rooftop do Hotel Marqués de Riscal"
+    },
+    {
+      "icon": "🍤",
+      "title": "Rota de pintxos em San Sebastián",
+      "description": "Caminhada de 4h pela Parte Vieja à noite, passando por 5 a 6 dos bares lendários — Ganbara, Bar Néstor, Gandarias.",
+      "cost": "€180–250 por casal",
+      "tip": "Coma em pé no balcão como um local; nunca peça mais de dois pintxos por parada"
+    },
+    {
+      "icon": "🕌",
+      "title": "Tour privativo noturno na Alhambra",
+      "description": "Pule as multidões com visita guiada ao entardecer aos Palácios Nasridas e aos jardins do Generalife.",
+      "cost": "€280–450 por casal",
+      "tip": "Hospede-se no Parador de Granada, dentro do conjunto da Alhambra"
+    },
+    {
+      "icon": "⛵",
+      "title": "Dia de gulet privativo pela costa Tramuntana, Mallorca",
+      "description": "Alugue um barco tradicional de madeira em Port de Sóller e navegue pela costa patrimônio da UNESCO.",
+      "cost": "€1.200–2.000 pelo dia",
+      "tip": "Vá meio de semana e comece cedo para garantir as melhores enseadas"
+    },
+    {
+      "icon": "💃",
+      "title": "Tablao íntimo de flamenco em Triana, Sevilha",
+      "description": "Apresentação em sala pequena na Casa de la Memoria — cante jondo cru de verdade, não a versão para turistas.",
+      "cost": "€90–150 por casal",
+      "tip": "Sente na primeira fila — flamenco é para sentir"
+    }
   ],
   "months": [
-    { "month": "January", "weather": "8–15°C, fresco, chuva ocasional", "emoji": "🌥️", "crowds": "Muito baixa", "price": "€", "verdict": "Só cidades — costa e ilhas estão dormentes" },
-    { "month": "February", "weather": "9–16°C, ameno no sul, frio no norte", "emoji": "🌤️", "crowds": "Baixa", "price": "€", "verdict": "A Andaluzia começa a despertar" },
-    { "month": "March", "weather": "12–19°C, primavera chega", "emoji": "🌸", "crowds": "Baixa", "price": "€€", "verdict": "Linda na Andaluzia; Semana Santa se a Páscoa cair em março" },
-    { "month": "April", "weather": "15–22°C, dias quentes, noites frescas", "emoji": "🌷", "crowds": "Moderada", "price": "€€", "verdict": "Meia estação magnífica; Feria de Abril em Sevilha" },
-    { "month": "May", "weather": "18–26°C, quase perfeito", "emoji": "☀️", "crowds": "Moderada", "price": "€€€", "verdict": "Ponto doce — mares começam a esquentar" },
-    { "month": "June", "weather": "22–30°C, quente e seco", "emoji": "☀️", "crowds": "Alta", "price": "€€€", "verdict": "Excelente antes das férias escolares" },
-    { "month": "July", "weather": "26–35°C, muito quente", "emoji": "🔥", "crowds": "Muito alta", "price": "€€€€", "verdict": "Costa e ilhas lotadas" },
-    { "month": "August", "weather": "28–40°C, pico de calor", "emoji": "🔥", "crowds": "Máxima", "price": "€€€€", "verdict": "Evite, salvo se você ama multidões" },
-    { "month": "September", "weather": "24–30°C, mar morno", "emoji": "🌞", "crowds": "Alta", "price": "€€€", "verdict": "Possivelmente o melhor mês — mar à temperatura de banho" },
-    { "month": "October", "weather": "18–25°C, luz dourada", "emoji": "🍂", "crowds": "Moderada", "price": "€€", "verdict": "Mágico para Andaluzia e País Basco" },
-    { "month": "November", "weather": "12–19°C, mais fresco", "emoji": "🍁", "crowds": "Baixa", "price": "€€", "verdict": "Só cidades e gastronomia" },
-    { "month": "December", "weather": "9–15°C, fresco, festivo", "emoji": "✨", "crowds": "Moderada (cidades)", "price": "€€", "verdict": "Mercados de Natal em Madri e Barcelona" }
+    {
+      "month": "January",
+      "weather": "8–15°C, fresco, chuva ocasional",
+      "emoji": "🌥️",
+      "crowds": "Muito baixa",
+      "price": "€",
+      "verdict": "Só cidades — costa e ilhas estão dormentes"
+    },
+    {
+      "month": "February",
+      "weather": "9–16°C, ameno no sul, frio no norte",
+      "emoji": "🌤️",
+      "crowds": "Baixa",
+      "price": "€",
+      "verdict": "A Andaluzia começa a despertar"
+    },
+    {
+      "month": "March",
+      "weather": "12–19°C, primavera chega",
+      "emoji": "🌸",
+      "crowds": "Baixa",
+      "price": "€€",
+      "verdict": "Linda na Andaluzia; Semana Santa se a Páscoa cair em março"
+    },
+    {
+      "month": "April",
+      "weather": "15–22°C, dias quentes, noites frescas",
+      "emoji": "🌷",
+      "crowds": "Moderada",
+      "price": "€€",
+      "verdict": "Meia estação magnífica; Feria de Abril em Sevilha"
+    },
+    {
+      "month": "May",
+      "weather": "18–26°C, quase perfeito",
+      "emoji": "☀️",
+      "crowds": "Moderada",
+      "price": "€€€",
+      "verdict": "Ponto doce — mares começam a esquentar"
+    },
+    {
+      "month": "June",
+      "weather": "22–30°C, quente e seco",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "€€€",
+      "verdict": "Excelente antes das férias escolares"
+    },
+    {
+      "month": "July",
+      "weather": "26–35°C, muito quente",
+      "emoji": "🔥",
+      "crowds": "Muito alta",
+      "price": "€€€€",
+      "verdict": "Costa e ilhas lotadas"
+    },
+    {
+      "month": "August",
+      "weather": "28–40°C, pico de calor",
+      "emoji": "🔥",
+      "crowds": "Máxima",
+      "price": "€€€€",
+      "verdict": "Evite, salvo se você ama multidões"
+    },
+    {
+      "month": "September",
+      "weather": "24–30°C, mar morno",
+      "emoji": "🌞",
+      "crowds": "Alta",
+      "price": "€€€",
+      "verdict": "Possivelmente o melhor mês — mar à temperatura de banho"
+    },
+    {
+      "month": "October",
+      "weather": "18–25°C, luz dourada",
+      "emoji": "🍂",
+      "crowds": "Moderada",
+      "price": "€€",
+      "verdict": "Mágico para Andaluzia e País Basco"
+    },
+    {
+      "month": "November",
+      "weather": "12–19°C, mais fresco",
+      "emoji": "🍁",
+      "crowds": "Baixa",
+      "price": "€€",
+      "verdict": "Só cidades e gastronomia"
+    },
+    {
+      "month": "December",
+      "weather": "9–15°C, fresco, festivo",
+      "emoji": "✨",
+      "crowds": "Moderada (cidades)",
+      "price": "€€",
+      "verdict": "Mercados de Natal em Madri e Barcelona"
+    }
   ],
   "budgetTiers": [
-    { "label": "Sofisticado", "range": "€450–800/noite", "gets": "Hotéis boutique em bairros históricos, tudo a pé", "example": "Hotel Alfonso XIII Sevilha ou Mercer Barcelona" },
-    { "label": "Luxo", "range": "€800–1.800/noite", "gets": "Resorts 5 estrelas icônicos, suítes vista mar, jantar Michelin, rituais de spa", "example": "Belmond La Residencia Deià, Marbella Club, Six Senses Ibiza" },
-    { "label": "Ultra-luxo", "range": "€1.800–5.000+/noite", "gets": "Vilas-fortaleza privativas, mordomo, transfers de helicóptero", "example": "Cap Rocat suíte privativa em falésia, Finca Cortesin Grand Villa" }
+    {
+      "label": "Sofisticado",
+      "range": "€450–800/noite",
+      "gets": "Hotéis boutique em bairros históricos, tudo a pé",
+      "example": "Hotel Alfonso XIII Sevilha ou Mercer Barcelona"
+    },
+    {
+      "label": "Luxo",
+      "range": "€800–1.800/noite",
+      "gets": "Resorts 5 estrelas icônicos, suítes vista mar, jantar Michelin, rituais de spa",
+      "example": "Belmond La Residencia Deià, Marbella Club, Six Senses Ibiza"
+    },
+    {
+      "label": "Ultra-luxo",
+      "range": "€1.800–5.000+/noite",
+      "gets": "Vilas-fortaleza privativas, mordomo, transfers de helicóptero",
+      "example": "Cap Rocat suíte privativa em falésia, Finca Cortesin Grand Villa"
+    }
   ],
   "areas": [
-    { "name": "Mallorca", "bestFor": "Beleza mediterrânea de conto de fadas, drives pela Tramuntana, calas escondidas", "description": "A ilha de lua de mel por excelência — montanhas patrimônio da UNESCO mergulhando em água turquesa, vilarejos de pedra como Deià." },
-    { "name": "Ibiza (norte)", "bestFor": "Sofisticação boho-luxo, rituais de pôr do sol, calas", "description": "O norte de Ibiza é só pinheiros, mercados hippies e jantares farm-to-table absurdamente chiques." },
-    { "name": "Andaluzia", "bestFor": "Arquitetura moura, flamenco, vilarejos brancos, jamón", "description": "A Espanha do imaginário — Alhambra, Alcázar de Sevilha, Marbella Club, Finca Cortesin." },
-    { "name": "País Basco e Rioja", "bestFor": "Gastronomia de classe mundial, costa verde dramática, região vinícola", "description": "San Sebastián tem mais estrelas Michelin per capita do que quase qualquer lugar da Terra." },
-    { "name": "Barcelona e Costa Brava", "bestFor": "Gaudí, energia urbana com acesso à praia", "description": "A única grande cidade europeia que também é cidade de praia. Três dias e dirija 90 minutos ao norte para a Costa Brava." }
+    {
+      "name": "Mallorca",
+      "bestFor": "Beleza mediterrânea de conto de fadas, drives pela Tramuntana, calas escondidas",
+      "description": "A ilha de lua de mel por excelência — montanhas patrimônio da UNESCO mergulhando em água turquesa, vilarejos de pedra como Deià."
+    },
+    {
+      "name": "Ibiza (norte)",
+      "bestFor": "Sofisticação boho-luxo, rituais de pôr do sol, calas",
+      "description": "O norte de Ibiza é só pinheiros, mercados hippies e jantares farm-to-table absurdamente chiques."
+    },
+    {
+      "name": "Andaluzia",
+      "bestFor": "Arquitetura moura, flamenco, vilarejos brancos, jamón",
+      "description": "A Espanha do imaginário — Alhambra, Alcázar de Sevilha, Marbella Club, Finca Cortesin."
+    },
+    {
+      "name": "País Basco e Rioja",
+      "bestFor": "Gastronomia de classe mundial, costa verde dramática, região vinícola",
+      "description": "San Sebastián tem mais estrelas Michelin per capita do que quase qualquer lugar da Terra."
+    },
+    {
+      "name": "Barcelona e Costa Brava",
+      "bestFor": "Gaudí, energia urbana com acesso à praia",
+      "description": "A única grande cidade europeia que também é cidade de praia. Três dias e dirija 90 minutos ao norte para a Costa Brava."
+    }
   ],
   "expertTips": [
-    { "tip": "Coma no horário espanhol ou vai sofrer", "detail": "Almoço é entre 14h e 16h, jantar começa às 21h–22h. Restaurantes servindo às 19h são armadilha para turistas." },
-    { "tip": "Não faça Andaluzia e ilhas em agosto", "detail": "Andaluzia interior bate 42°C e Mallorca/Ibiza estão no pico de lotação." },
-    { "tip": "Reserve menus-degustação Michelin com 60 a 90 dias", "detail": "Akelarre, Arzak, Mugaritz e Disfrutar liberam mesas com cerca de 2 meses de antecedência." },
-    { "tip": "Alugue carro em todo lugar, exceto cidades", "detail": "Mallorca, Andaluzia, Costa Brava e Rioja são essencialmente indecifráveis sem carro." },
-    { "tip": "Combine duas regiões, não cinco", "detail": "Escolha um par contrastante — Andaluzia + Mallorca, ou Barcelona + País Basco — e mergulhe fundo." }
+    {
+      "tip": "Coma no horário espanhol ou vai sofrer",
+      "detail": "Almoço é entre 14h e 16h, jantar começa às 21h–22h. Restaurantes servindo às 19h são armadilha para turistas."
+    },
+    {
+      "tip": "Não faça Andaluzia e ilhas em agosto",
+      "detail": "Andaluzia interior bate 42°C e Mallorca/Ibiza estão no pico de lotação."
+    },
+    {
+      "tip": "Reserve menus-degustação Michelin com 60 a 90 dias",
+      "detail": "Akelarre, Arzak, Mugaritz e Disfrutar liberam mesas com cerca de 2 meses de antecedência."
+    },
+    {
+      "tip": "Alugue carro em todo lugar, exceto cidades",
+      "detail": "Mallorca, Andaluzia, Costa Brava e Rioja são essencialmente indecifráveis sem carro."
+    },
+    {
+      "tip": "Combine duas regiões, não cinco",
+      "detail": "Escolha um par contrastante — Andaluzia + Mallorca, ou Barcelona + País Basco — e mergulhe fundo."
+    }
   ],
   "packing": [
-    { "item": "Linho leve para o dia, smart para a noite", "why": "Os espanhóis se vestem bem para o jantar — nada de bermuda em restaurantes sérios" },
-    { "item": "Sapatos confortáveis para os paralelepípedos", "why": "Os centros históricos de Sevilha, Granada e Palma têm pedras irregulares" },
-    { "item": "Maiô decente e saída de praia", "why": "Beach clubs e piscinas de hotel são para ver e ser visto" },
-    { "item": "Camadas leves para a noite", "why": "Noites costeiras esfriam rápido; o interior da Andaluzia cai 15°C depois de escurecer" },
-    { "item": "Proteção solar: chapéu, FPS 50, óculos polarizados", "why": "O sol ibérico não brinca de maio a outubro" },
-    { "item": "Bolsa pequena transversal", "why": "Roubos de carteira são reais nos metrôs de Barcelona e Madri" }
+    {
+      "item": "Linho leve para o dia, smart para a noite",
+      "why": "Os espanhóis se vestem bem para o jantar — nada de bermuda em restaurantes sérios"
+    },
+    {
+      "item": "Sapatos confortáveis para os paralelepípedos",
+      "why": "Os centros históricos de Sevilha, Granada e Palma têm pedras irregulares"
+    },
+    {
+      "item": "Maiô decente e saída de praia",
+      "why": "Beach clubs e piscinas de hotel são para ver e ser visto"
+    },
+    {
+      "item": "Camadas leves para a noite",
+      "why": "Noites costeiras esfriam rápido; o interior da Andaluzia cai 15°C depois de escurecer"
+    },
+    {
+      "item": "Proteção solar: chapéu, FPS 50, óculos polarizados",
+      "why": "O sol ibérico não brinca de maio a outubro"
+    },
+    {
+      "item": "Bolsa pequena transversal",
+      "why": "Roubos de carteira são reais nos metrôs de Barcelona e Madri"
+    }
   ],
   "guide": {
     "getting": "Os hubs são Madri (MAD) e Barcelona (BCN), com voos diretos da maioria das cidades da Costa Leste dos EUA (7–8h). Para a região onde você começa: Palma (PMI), Ibiza (IBZ), Málaga (AGP), Bilbao (BIO).",
@@ -73,5 +255,9 @@
   "localFood": "A Espanha é o país de gastronomia mais empolgante do mundo agora. Essenciais para lua de mel: jamón Ibérico de bellota com fino, paella em Valência, txuleta no País Basco, rota de pintxos em San Sebastián, salmorejo na Andaluzia, vermut às 13h, churros con chocolate à meia-noite.",
   "currency": "Euro (€)",
   "language": "Espanhol (castelhano) / regional (catalão, basco, galego)",
-  "timezone": "CET (UTC+1) / CEST (UTC+2)"
+  "timezone": "CET (UTC+1) / CEST (UTC+2)",
+  "seo": {
+    "title": "Lua de Mel na Espanha: 7 Hotéis Litoral e Patrimônio",
+    "description": "7 estadias em Mallorca, Ibiza e Andaluzia pontuadas. Cap Rocat, La Residencia, Marbella Club. De $500/noite."
+  }
 }

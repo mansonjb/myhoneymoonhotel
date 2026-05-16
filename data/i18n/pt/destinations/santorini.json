@@ -55,43 +55,188 @@
     }
   ],
   "months": [
-    { "month": "Jan", "weather": "Fresco, 12–15°C, chuva, maioria fechada", "emoji": "🌧", "crowds": "Nenhuma", "price": "Mínimo", "verdict": "Baixa estação — opções limitadas" },
-    { "month": "Feb", "weather": "Frio, flores silvestres, algum sol", "emoji": "⛅", "crowds": "Mínima", "price": "Muito baixo", "verdict": "Não é mês de lua de mel" },
-    { "month": "Mar", "weather": "Ameno, 16°C, começam as reaberturas", "emoji": "🌤", "crowds": "Baixa", "price": "Baixo", "verdict": "Mês para os antecipados" },
-    { "month": "Apr", "weather": "Quente, 20°C, tudo reabre", "emoji": "☀️", "crowds": "Baixa-mod.", "price": "Médio", "verdict": "Excelente meia estação" },
-    { "month": "May", "weather": "Perfeito, 24°C, dias longos e quentes", "emoji": "☀️", "crowds": "Moderada", "price": "Médio-alto", "verdict": "Melhor mês de meia estação" },
-    { "month": "Jun", "weather": "Quente, 28°C, pico se aproximando", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Ótimo, mas ficando movimentado" },
-    { "month": "Jul", "weather": "32°C, ventos Meltemi, pico turístico", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Icônico, mas extremamente lotado" },
-    { "month": "Aug", "weather": "34°C, mês mais cheio do mundo", "emoji": "🌞", "crowds": "Extrema", "price": "Máximo", "verdict": "Icônico — mas avassalador" },
-    { "month": "Sep", "weather": "Ideal — 29°C, mar morno, esvaziando", "emoji": "☀️", "crowds": "Moderada", "price": "Alto", "verdict": "Melhor mês — mesmas vistas, menos gente" },
-    { "month": "Oct", "weather": "Quente, 24°C, muito tranquilo", "emoji": "🌤", "crowds": "Baixa", "price": "Médio", "verdict": "Joia escondida" },
-    { "month": "Nov", "weather": "Esfriando, chuva, vários hotéis fechando", "emoji": "⛅", "crowds": "Muito baixa", "price": "Baixo", "verdict": "Muitos hotéis fecham" },
-    { "month": "Dec", "weather": "Fresco, 14°C, tranquilo", "emoji": "🌧", "crowds": "Muito baixa", "price": "Muito baixo", "verdict": "Baixa estação — limitado" }
+    {
+      "month": "Jan",
+      "weather": "Fresco, 12–15°C, chuva, maioria fechada",
+      "emoji": "🌧",
+      "crowds": "Nenhuma",
+      "price": "Mínimo",
+      "verdict": "Baixa estação — opções limitadas"
+    },
+    {
+      "month": "Feb",
+      "weather": "Frio, flores silvestres, algum sol",
+      "emoji": "⛅",
+      "crowds": "Mínima",
+      "price": "Muito baixo",
+      "verdict": "Não é mês de lua de mel"
+    },
+    {
+      "month": "Mar",
+      "weather": "Ameno, 16°C, começam as reaberturas",
+      "emoji": "🌤",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Mês para os antecipados"
+    },
+    {
+      "month": "Apr",
+      "weather": "Quente, 20°C, tudo reabre",
+      "emoji": "☀️",
+      "crowds": "Baixa-mod.",
+      "price": "Médio",
+      "verdict": "Excelente meia estação"
+    },
+    {
+      "month": "May",
+      "weather": "Perfeito, 24°C, dias longos e quentes",
+      "emoji": "☀️",
+      "crowds": "Moderada",
+      "price": "Médio-alto",
+      "verdict": "Melhor mês de meia estação"
+    },
+    {
+      "month": "Jun",
+      "weather": "Quente, 28°C, pico se aproximando",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Ótimo, mas ficando movimentado"
+    },
+    {
+      "month": "Jul",
+      "weather": "32°C, ventos Meltemi, pico turístico",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Icônico, mas extremamente lotado"
+    },
+    {
+      "month": "Aug",
+      "weather": "34°C, mês mais cheio do mundo",
+      "emoji": "🌞",
+      "crowds": "Extrema",
+      "price": "Máximo",
+      "verdict": "Icônico — mas avassalador"
+    },
+    {
+      "month": "Sep",
+      "weather": "Ideal — 29°C, mar morno, esvaziando",
+      "emoji": "☀️",
+      "crowds": "Moderada",
+      "price": "Alto",
+      "verdict": "Melhor mês — mesmas vistas, menos gente"
+    },
+    {
+      "month": "Oct",
+      "weather": "Quente, 24°C, muito tranquilo",
+      "emoji": "🌤",
+      "crowds": "Baixa",
+      "price": "Médio",
+      "verdict": "Joia escondida"
+    },
+    {
+      "month": "Nov",
+      "weather": "Esfriando, chuva, vários hotéis fechando",
+      "emoji": "⛅",
+      "crowds": "Muito baixa",
+      "price": "Baixo",
+      "verdict": "Muitos hotéis fecham"
+    },
+    {
+      "month": "Dec",
+      "weather": "Fresco, 14°C, tranquilo",
+      "emoji": "🌧",
+      "crowds": "Muito baixa",
+      "price": "Muito baixo",
+      "verdict": "Baixa estação — limitado"
+    }
   ],
   "budgetTiers": [
-    { "label": "Boutique na caldeira", "range": "€300–€700/noite", "gets": "Suíte caverna com vista parcial ou total para a caldeira, terraço pequeno ou plunge pool. O cenário é espetacular; o serviço é nível hotel boutique, não resort.", "example": "Katikies Garden, Grace Santorini, Andronis Concept" },
-    { "label": "Premium na caldeira", "range": "€700–€2.000/noite", "gets": "Suíte com piscina infinita privativa direto na borda da caldeira, mordomo, café da manhã excepcional incluso. A lua de mel definitiva em Santorini — a vista da piscina é a imagem definitiva do luxo hoteleiro europeu.", "example": "Canaves Oia Suites, Mystique, Andronis Luxury Suites" },
-    { "label": "Ultra-luxo", "range": "€2.000+/noite", "gets": "As maiores e mais exclusivas vilas-caverna — algumas com jacuzzi privativa, ambientes integrados e a vista mais ampla da caldeira na ilha. Privacidade total, serviço excepcional.", "example": "Canaves Oia Epitome, Aenaon Villas, Vedema Resort" }
+    {
+      "label": "Boutique na caldeira",
+      "range": "€300–€700/noite",
+      "gets": "Suíte caverna com vista parcial ou total para a caldeira, terraço pequeno ou plunge pool. O cenário é espetacular; o serviço é nível hotel boutique, não resort.",
+      "example": "Katikies Garden, Grace Santorini, Andronis Concept"
+    },
+    {
+      "label": "Premium na caldeira",
+      "range": "€700–€2.000/noite",
+      "gets": "Suíte com piscina infinita privativa direto na borda da caldeira, mordomo, café da manhã excepcional incluso. A lua de mel definitiva em Santorini — a vista da piscina é a imagem definitiva do luxo hoteleiro europeu.",
+      "example": "Canaves Oia Suites, Mystique, Andronis Luxury Suites"
+    },
+    {
+      "label": "Ultra-luxo",
+      "range": "€2.000+/noite",
+      "gets": "As maiores e mais exclusivas vilas-caverna — algumas com jacuzzi privativa, ambientes integrados e a vista mais ampla da caldeira na ilha. Privacidade total, serviço excepcional.",
+      "example": "Canaves Oia Epitome, Aenaon Villas, Vedema Resort"
+    }
   ],
   "areas": [
-    { "name": "Oia", "bestFor": "O pôr do sol icônico, caldeira mais dramática, hotéis-caverna de luxo", "description": "A ponta norte da borda da caldeira — o vilarejo mais bonito e fotografado da Grécia. Igrejinhas de cúpula azul, ruelas brancas e hotéis-caverna em terraços na falésia de 300 m. Canaves Oia Suites e Mystique ficam aqui. A vista das ruínas do castelo no pôr do sol atrai gente de toda a ilha." },
-    { "name": "Imerovigli", "bestFor": "Ponto mais alto da caldeira, mais romântico e tranquilo", "description": "O vilarejo logo ao sul de Oia, na borda da caldeira — o ponto mais alto da ilha (300 m acima do mar). Menos turistas que Oia, com vistas idênticas. Aenaon Villas e Chromata Hotel ficam aqui. A caminhada à Skaros Rock (castelo bizantino em ruínas) leva 20 minutos e tem a vista mais panorâmica." },
-    { "name": "Fira", "bestFor": "Melhores restaurantes, vida noturna, mais central", "description": "A capital da ilha. Maior concentração de restaurantes, bares e lojas com vista para a caldeira. Mais barulhento que Oia, com mais variedade gastronômica. Bom acesso por teleférico ao porto antigo. A vista da caldeira do principal caminho de Fira é um pouco menos dramática que a de Oia, mas a cidade é mais animada." },
-    { "name": "Kamari e Perissa (leste)", "bestFor": "Praia de areia preta, banho calmo, vida de vilarejo", "description": "As cidades de praia da costa leste, com areia preta vulcânica — calmas, abrigadas, bom banho de mar e bem mais baratas que a borda da caldeira. Sem vistas para a caldeira, mas com atmosfera local mais autêntica. Conectadas ao sítio antigo de Mesa Vouno (ruínas de Tera) no alto." }
+    {
+      "name": "Oia",
+      "bestFor": "O pôr do sol icônico, caldeira mais dramática, hotéis-caverna de luxo",
+      "description": "A ponta norte da borda da caldeira — o vilarejo mais bonito e fotografado da Grécia. Igrejinhas de cúpula azul, ruelas brancas e hotéis-caverna em terraços na falésia de 300 m. Canaves Oia Suites e Mystique ficam aqui. A vista das ruínas do castelo no pôr do sol atrai gente de toda a ilha."
+    },
+    {
+      "name": "Imerovigli",
+      "bestFor": "Ponto mais alto da caldeira, mais romântico e tranquilo",
+      "description": "O vilarejo logo ao sul de Oia, na borda da caldeira — o ponto mais alto da ilha (300 m acima do mar). Menos turistas que Oia, com vistas idênticas. Aenaon Villas e Chromata Hotel ficam aqui. A caminhada à Skaros Rock (castelo bizantino em ruínas) leva 20 minutos e tem a vista mais panorâmica."
+    },
+    {
+      "name": "Fira",
+      "bestFor": "Melhores restaurantes, vida noturna, mais central",
+      "description": "A capital da ilha. Maior concentração de restaurantes, bares e lojas com vista para a caldeira. Mais barulhento que Oia, com mais variedade gastronômica. Bom acesso por teleférico ao porto antigo. A vista da caldeira do principal caminho de Fira é um pouco menos dramática que a de Oia, mas a cidade é mais animada."
+    },
+    {
+      "name": "Kamari e Perissa (leste)",
+      "bestFor": "Praia de areia preta, banho calmo, vida de vilarejo",
+      "description": "As cidades de praia da costa leste, com areia preta vulcânica — calmas, abrigadas, bom banho de mar e bem mais baratas que a borda da caldeira. Sem vistas para a caldeira, mas com atmosfera local mais autêntica. Conectadas ao sítio antigo de Mesa Vouno (ruínas de Tera) no alto."
+    }
   ],
   "expertTips": [
-    { "tip": "Reserve a suíte-caverna na caldeira com 4 a 6 meses para maio–setembro", "detail": "Há menos de 200 suítes com piscina infinita realmente com vista para a caldeira em toda a ilha. As 50 melhores no Canaves, Mystique e Aenaon esgotam com hóspedes recorrentes e agentes especializados. Reserve diretamente com o hotel o quanto antes e diga que é lua de mel — upgrades acontecem." },
-    { "tip": "Setembro vence agosto em todos os critérios mensuráveis", "detail": "Mesmas vistas, mesmo pôr do sol, mesmo vinho, mesmo clima perfeito — mas 35% menos turistas, preços 20–25% menores, noites mais frescas para caminhar e mar morno (24°C). Se houver flexibilidade, setembro é objetivamente o melhor mês de lua de mel em Santorini." },
-    { "tip": "O Meltemi é fator real em julho–agosto", "detail": "O vento norte do verão (Meltemi) sopra a 30–40 km/h sobre a caldeira de julho a agosto. O lado da caldeira em Oia é abrigado, mas as praias do leste ficam agitadas. Planeje — se velejar ou catamarã importa, vá em junho ou setembro." },
-    { "tip": "Desça à Baía de Ammoudi para o melhor almoço da ilha", "detail": "A pequena baía de pesca 214 degraus abaixo de Oia tem 5 tavernas com polvo grelhado, salada de ouriço e peixe fresco no cais. Almoço aqui com os barcos balançando e o paredão da caldeira acima é superior a qualquer restaurante de €300 com vista. Desça a pé, suba pelo teleférico." },
-    { "tip": "Alugue um quadriciclo ou scooter — não dependa de táxis", "detail": "A oferta de táxis em Santorini é catastroficamente insuficiente para o volume de verão. Esperas de 2 a 4 h são comuns. Um quadriciclo ($30–$50/dia) dá liberdade total e é genuinamente divertido nas estradas costeiras. Pegue a estrada principal da caldeira às 7h, antes do trânsito." }
+    {
+      "tip": "Reserve a suíte-caverna na caldeira com 4 a 6 meses para maio–setembro",
+      "detail": "Há menos de 200 suítes com piscina infinita realmente com vista para a caldeira em toda a ilha. As 50 melhores no Canaves, Mystique e Aenaon esgotam com hóspedes recorrentes e agentes especializados. Reserve diretamente com o hotel o quanto antes e diga que é lua de mel — upgrades acontecem."
+    },
+    {
+      "tip": "Setembro vence agosto em todos os critérios mensuráveis",
+      "detail": "Mesmas vistas, mesmo pôr do sol, mesmo vinho, mesmo clima perfeito — mas 35% menos turistas, preços 20–25% menores, noites mais frescas para caminhar e mar morno (24°C). Se houver flexibilidade, setembro é objetivamente o melhor mês de lua de mel em Santorini."
+    },
+    {
+      "tip": "O Meltemi é fator real em julho–agosto",
+      "detail": "O vento norte do verão (Meltemi) sopra a 30–40 km/h sobre a caldeira de julho a agosto. O lado da caldeira em Oia é abrigado, mas as praias do leste ficam agitadas. Planeje — se velejar ou catamarã importa, vá em junho ou setembro."
+    },
+    {
+      "tip": "Desça à Baía de Ammoudi para o melhor almoço da ilha",
+      "detail": "A pequena baía de pesca 214 degraus abaixo de Oia tem 5 tavernas com polvo grelhado, salada de ouriço e peixe fresco no cais. Almoço aqui com os barcos balançando e o paredão da caldeira acima é superior a qualquer restaurante de €300 com vista. Desça a pé, suba pelo teleférico."
+    },
+    {
+      "tip": "Alugue um quadriciclo ou scooter — não dependa de táxis",
+      "detail": "A oferta de táxis em Santorini é catastroficamente insuficiente para o volume de verão. Esperas de 2 a 4 h são comuns. Um quadriciclo ($30–$50/dia) dá liberdade total e é genuinamente divertido nas estradas costeiras. Pegue a estrada principal da caldeira às 7h, antes do trânsito."
+    }
   ],
   "packing": [
-    { "item": "Sandálias confortáveis para caminhar", "why": "Os degraus da caldeira, as ruelas de pedra de Oia e a trilha Fira–Oia exigem calçado adequado — chinelo destrói os pés" },
-    { "item": "Roupas leves de linho", "why": "Smart casual é o dress code dos restaurantes na caldeira — o linho é fresco no jantar a 30°C" },
-    { "item": "Protetor solar de FPS alto e chapéu", "why": "As superfícies brancas refletem UV de todos os lados — o risco de queimadura é maior do que se imagina na caldeira" },
-    { "item": "Óculos polarizados", "why": "A luz refletida do Egeu nas superfícies brancas, sem polarização, é dolorosa — invista em boa óptica" },
-    { "item": "Dinheiro vivo (€)", "why": "Aluguel de quadriciclo, tavernas locais, teleférico e barcos costumam preferir dinheiro. ATMs em Fira e Oia têm filas na alta." }
+    {
+      "item": "Sandálias confortáveis para caminhar",
+      "why": "Os degraus da caldeira, as ruelas de pedra de Oia e a trilha Fira–Oia exigem calçado adequado — chinelo destrói os pés"
+    },
+    {
+      "item": "Roupas leves de linho",
+      "why": "Smart casual é o dress code dos restaurantes na caldeira — o linho é fresco no jantar a 30°C"
+    },
+    {
+      "item": "Protetor solar de FPS alto e chapéu",
+      "why": "As superfícies brancas refletem UV de todos os lados — o risco de queimadura é maior do que se imagina na caldeira"
+    },
+    {
+      "item": "Óculos polarizados",
+      "why": "A luz refletida do Egeu nas superfícies brancas, sem polarização, é dolorosa — invista em boa óptica"
+    },
+    {
+      "item": "Dinheiro vivo (€)",
+      "why": "Aluguel de quadriciclo, tavernas locais, teleférico e barcos costumam preferir dinheiro. ATMs em Fira e Oia têm filas na alta."
+    }
   ],
   "guide": {
     "getting": "Voe direto ao aeroporto de Santorini Thira (JTR) — 3 a 4h da maioria das capitais europeias. Voos diretos de Londres Heathrow e Gatwick (British Airways, EasyJet), Paris CDG, Amsterdã, Frankfurt, Roma e mais de 20 cidades europeias. O aeroporto fica a 10 km de Oia — pré-reserve táxi (€25–€35) ou alugue quadriciclo no terminal. Como alternativa, Atenas (ATH) a Santorini pela Aegean Air leva 45 minutos (a partir de €50 por trecho). O ferry rápido de Atenas-Pireu a Santorini leva 5 a 8h — a chegada mais lenta, mas mais cênica.",
@@ -101,5 +246,9 @@
   "localFood": "A culinária de Santorini é definida pelo solo vulcânico — a ilha produz alguns dos ingredientes mais distintos da Grécia. Tomates-cereja (pomodori) — cultivados em terra vulcânica, intensamente doces e pequenos, em saladas e em pasta. Fava — purê amarelo de ervilha-partida, prato-símbolo, feito com leguminosas cultivadas aqui há 3.500 anos. Berinjela branca (melitzana aspri) — exclusiva de Santorini, menos amarga. Polvo grelhado em qualquer taverna de terraço. Vinsanto — o vinho doce de sobremesa feito com Assyrtiko e Aidani secos ao sol, extraordinário. Para restaurantes: Kapari Wine Restaurant em Imerovigli para vista com bom custo, tavernas de peixe em Ammoudi para o melhor pescado e Selene em Fira para a cozinha mais séria de Santorini.",
   "currency": "Euro (EUR)",
   "language": "Grego. Inglês falado em todos os níveis turísticos.",
-  "timezone": "UTC+2 (EET) / UTC+3 (EEST no verão, fim de março a fim de outubro)"
+  "timezone": "UTC+2 (EET) / UTC+3 (EEST no verão, fim de março a fim de outubro)",
+  "seo": {
+    "title": "Lua de Mel em Santorini: 24 Suítes Caverna 2026",
+    "description": "24 hotéis com vista da caldera ranqueados. Oia, Imerovigli, Firostefani. De $400/noite. Melhores suítes ao pôr do sol, mai-out."
+  }
 }

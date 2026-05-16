@@ -77,6 +77,7 @@ localFood: 'Conch is the Bahamian obsession — eaten as fritters, in zesty raw 
 currency: 'Bahamian Dollar (BSD) — pegged 1:1 to USD; USD universally accepted',
 language: 'English',
 timezone: 'EST (UTC-5)',
+  seo: { title: "Bahamas Honeymoon: 11 Private Island Resorts 2026", description: "11 Out Islands and Exuma resorts ranked. Kamalame Cay, The Cove, Fowl Cay. From $500/night. Nov-Apr peak." },
 }
 
 export default meta

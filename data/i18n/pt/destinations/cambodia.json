@@ -18,52 +18,234 @@
     "Detesta calor e umidade mesmo na estação fresca"
   ],
   "experiences": [
-    { "icon": "🛕", "title": "Nascer do sol em Angkor Wat com guia privativo", "description": "Chegue às 5h antes das multidões, veja o sol surgir atrás das cinco torres refletidas no lago de lótus e depois explore os baixos-relevos enquanto a luz se torna dourada.", "cost": "$150-300 por casal", "tip": "Pule a multidão do lago principal — seu guia conhece um espelho d'água mais tranquilo 200m à esquerda" },
-    { "icon": "🌳", "title": "Ta Prohm e os templos da selva", "description": "O templo de Tomb Raider, onde figueiras estranguladoras e árvores-sumaúma centenárias consomem fisicamente o arenito.", "cost": "Incluso no passe Angkor de 3 dias por $62", "tip": "Peça Beng Mealea ou Koh Ker como adicional do segundo dia — ainda mais tomados pela selva" },
-    { "icon": "🚤", "title": "Vilas flutuantes do Tonle Sap em barco privativo", "description": "Kampong Phluk ou Kampong Khleang — vilas inteiras sobre palafitas, 8 metros acima do solo na estação seca.", "cost": "$80-120 por casal", "tip": "Vá à tarde para a luz dourada" },
-    { "icon": "🏝️", "title": "Refúgio em ilha privativa no Song Saa ou Krabey", "description": "Encerre a viagem com três noites em uma pequena ilha privativa no arquipélago de Koh Rong.", "cost": "$1.200-2.500 por noite, all-inclusive", "tip": "Voe de Siem Reap para Sihanoukville e depois 45 min de lancha — reserve os transfers pelo hotel" },
-    { "icon": "🎭", "title": "Phare, o Circo Cambojano", "description": "Uma performance teatral impressionante de formados de uma ONG de artes que acolhe jovens cambojanos em situação de risco.", "cost": "$18-38 por ingresso", "tip": "Reserve o tier premium — melhor visão e a renda financia educação artística gratuita" }
+    {
+      "icon": "🛕",
+      "title": "Nascer do sol em Angkor Wat com guia privativo",
+      "description": "Chegue às 5h antes das multidões, veja o sol surgir atrás das cinco torres refletidas no lago de lótus e depois explore os baixos-relevos enquanto a luz se torna dourada.",
+      "cost": "$150-300 por casal",
+      "tip": "Pule a multidão do lago principal — seu guia conhece um espelho d'água mais tranquilo 200m à esquerda"
+    },
+    {
+      "icon": "🌳",
+      "title": "Ta Prohm e os templos da selva",
+      "description": "O templo de Tomb Raider, onde figueiras estranguladoras e árvores-sumaúma centenárias consomem fisicamente o arenito.",
+      "cost": "Incluso no passe Angkor de 3 dias por $62",
+      "tip": "Peça Beng Mealea ou Koh Ker como adicional do segundo dia — ainda mais tomados pela selva"
+    },
+    {
+      "icon": "🚤",
+      "title": "Vilas flutuantes do Tonle Sap em barco privativo",
+      "description": "Kampong Phluk ou Kampong Khleang — vilas inteiras sobre palafitas, 8 metros acima do solo na estação seca.",
+      "cost": "$80-120 por casal",
+      "tip": "Vá à tarde para a luz dourada"
+    },
+    {
+      "icon": "🏝️",
+      "title": "Refúgio em ilha privativa no Song Saa ou Krabey",
+      "description": "Encerre a viagem com três noites em uma pequena ilha privativa no arquipélago de Koh Rong.",
+      "cost": "$1.200-2.500 por noite, all-inclusive",
+      "tip": "Voe de Siem Reap para Sihanoukville e depois 45 min de lancha — reserve os transfers pelo hotel"
+    },
+    {
+      "icon": "🎭",
+      "title": "Phare, o Circo Cambojano",
+      "description": "Uma performance teatral impressionante de formados de uma ONG de artes que acolhe jovens cambojanos em situação de risco.",
+      "cost": "$18-38 por ingresso",
+      "tip": "Reserve o tier premium — melhor visão e a renda financia educação artística gratuita"
+    }
   ],
   "months": [
-    { "month": "Jan", "weather": "Seco, fresco, 22-30°C", "emoji": "☀️", "crowds": "Máxima", "price": "$$$$", "verdict": "Clima ideal, preços máximos" },
-    { "month": "Feb", "weather": "Seco, esquentando, 23-32°C", "emoji": "☀️", "crowds": "Máxima", "price": "$$$$", "verdict": "Últimos dias da estação fresca — vá agora" },
-    { "month": "Mar", "weather": "Quente, seco, 26-35°C", "emoji": "🌞", "crowds": "Alta", "price": "$$$", "verdict": "Lindo, mas começa a sufocar ao meio-dia" },
-    { "month": "Apr", "weather": "Muito quente, 28-38°C", "emoji": "🥵", "crowds": "Média", "price": "$$", "verdict": "Ano-novo Khmer no meio do mês — bônus cultural, calor brutal" },
-    { "month": "May", "weather": "Quente, primeiras chuvas, 27-35°C", "emoji": "⛈️", "crowds": "Baixa", "price": "$$", "verdict": "Começam as ofertas de baixa, tempestades de tarde refrescam os templos" },
-    { "month": "Jun", "weather": "Início da estação úmida, 26-33°C", "emoji": "🌧️", "crowds": "Baixa", "price": "$", "verdict": "Verde exuberante — subestimado" },
-    { "month": "Jul", "weather": "Úmido, 26-32°C", "emoji": "🌧️", "crowds": "Baixa", "price": "$", "verdict": "Arrozais verdíssimos — temporada secreta dos fotógrafos" },
-    { "month": "Aug", "weather": "Úmido, 26-32°C", "emoji": "🌧️", "crowds": "Baixa", "price": "$", "verdict": "Mês mais barato, espere 1-2 horas de chuva quase todo dia" },
-    { "month": "Sep", "weather": "O mais úmido, 25-31°C", "emoji": "⛈️", "crowds": "Baixa", "price": "$", "verdict": "Pule — alagamentos podem fechar alguns templos" },
-    { "month": "Oct", "weather": "Chuvas diminuindo, 25-31°C", "emoji": "🌦️", "crowds": "Média", "price": "$$", "verdict": "Tonle Sap em cheia máxima — ideal para vilas flutuantes" },
-    { "month": "Nov", "weather": "Volta da estação seca, 24-31°C", "emoji": "☀️", "crowds": "Alta", "price": "$$$", "verdict": "Ponto doce — paisagem verde, tempo seco" },
-    { "month": "Dec", "weather": "Seco, fresco, 22-30°C", "emoji": "☀️", "crowds": "Máxima", "price": "$$$$", "verdict": "Clima espetacular, sobretaxas de feriado a partir de 20/12" }
+    {
+      "month": "Jan",
+      "weather": "Seco, fresco, 22-30°C",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "$$$$",
+      "verdict": "Clima ideal, preços máximos"
+    },
+    {
+      "month": "Feb",
+      "weather": "Seco, esquentando, 23-32°C",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "$$$$",
+      "verdict": "Últimos dias da estação fresca — vá agora"
+    },
+    {
+      "month": "Mar",
+      "weather": "Quente, seco, 26-35°C",
+      "emoji": "🌞",
+      "crowds": "Alta",
+      "price": "$$$",
+      "verdict": "Lindo, mas começa a sufocar ao meio-dia"
+    },
+    {
+      "month": "Apr",
+      "weather": "Muito quente, 28-38°C",
+      "emoji": "🥵",
+      "crowds": "Média",
+      "price": "$$",
+      "verdict": "Ano-novo Khmer no meio do mês — bônus cultural, calor brutal"
+    },
+    {
+      "month": "May",
+      "weather": "Quente, primeiras chuvas, 27-35°C",
+      "emoji": "⛈️",
+      "crowds": "Baixa",
+      "price": "$$",
+      "verdict": "Começam as ofertas de baixa, tempestades de tarde refrescam os templos"
+    },
+    {
+      "month": "Jun",
+      "weather": "Início da estação úmida, 26-33°C",
+      "emoji": "🌧️",
+      "crowds": "Baixa",
+      "price": "$",
+      "verdict": "Verde exuberante — subestimado"
+    },
+    {
+      "month": "Jul",
+      "weather": "Úmido, 26-32°C",
+      "emoji": "🌧️",
+      "crowds": "Baixa",
+      "price": "$",
+      "verdict": "Arrozais verdíssimos — temporada secreta dos fotógrafos"
+    },
+    {
+      "month": "Aug",
+      "weather": "Úmido, 26-32°C",
+      "emoji": "🌧️",
+      "crowds": "Baixa",
+      "price": "$",
+      "verdict": "Mês mais barato, espere 1-2 horas de chuva quase todo dia"
+    },
+    {
+      "month": "Sep",
+      "weather": "O mais úmido, 25-31°C",
+      "emoji": "⛈️",
+      "crowds": "Baixa",
+      "price": "$",
+      "verdict": "Pule — alagamentos podem fechar alguns templos"
+    },
+    {
+      "month": "Oct",
+      "weather": "Chuvas diminuindo, 25-31°C",
+      "emoji": "🌦️",
+      "crowds": "Média",
+      "price": "$$",
+      "verdict": "Tonle Sap em cheia máxima — ideal para vilas flutuantes"
+    },
+    {
+      "month": "Nov",
+      "weather": "Volta da estação seca, 24-31°C",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "$$$",
+      "verdict": "Ponto doce — paisagem verde, tempo seco"
+    },
+    {
+      "month": "Dec",
+      "weather": "Seco, fresco, 22-30°C",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "$$$$",
+      "verdict": "Clima espetacular, sobretaxas de feriado a partir de 20/12"
+    }
   ],
   "budgetTiers": [
-    { "label": "Refinado", "range": "$300-500/noite", "gets": "Boutique 5 estrelas como Templation ou Park Hyatt Siem Reap, guia privativo nos templos, café da manhã incluído", "example": "Templation Hotel — vilas modernistas com piscina em Siem Reap" },
-    { "label": "Luxo", "range": "$600-1.200/noite", "gets": "Vilas em arrozal do Phum Baitang, Belmond La Résidence d'Angkor, Raffles Phnom Penh", "example": "Phum Baitang — vilas de madeira em palafitas sobre arrozais ativos" },
-    { "label": "Ultra", "range": "$1.500-3.500/noite", "gets": "Casa de hóspedes real Amansara com entrada privativa em Angkor, Song Saa ou Six Senses Krabey em ilha privativa", "example": "Amansara — 24 suítes na antiga vila de Sihanouk, all-inclusive" }
+    {
+      "label": "Refinado",
+      "range": "$300-500/noite",
+      "gets": "Boutique 5 estrelas como Templation ou Park Hyatt Siem Reap, guia privativo nos templos, café da manhã incluído",
+      "example": "Templation Hotel — vilas modernistas com piscina em Siem Reap"
+    },
+    {
+      "label": "Luxo",
+      "range": "$600-1.200/noite",
+      "gets": "Vilas em arrozal do Phum Baitang, Belmond La Résidence d'Angkor, Raffles Phnom Penh",
+      "example": "Phum Baitang — vilas de madeira em palafitas sobre arrozais ativos"
+    },
+    {
+      "label": "Ultra",
+      "range": "$1.500-3.500/noite",
+      "gets": "Casa de hóspedes real Amansara com entrada privativa em Angkor, Song Saa ou Six Senses Krabey em ilha privativa",
+      "example": "Amansara — 24 suítes na antiga vila de Sihanouk, all-inclusive"
+    }
   ],
   "areas": [
-    { "name": "Siem Reap", "bestFor": "Templos — sua âncora de lua de mel por 3-5 noites", "description": "Centro antigo compacto e caminhável, cercado por arrozais e pelo Parque Arqueológico de Angkor." },
-    { "name": "Phnom Penh", "bestFor": "Parada cultural de 1-2 noites — Palácio Real, S-21, Mercado Russo", "description": "Capital à beira-rio com ossatura colonial francesa. O Raffles Phnom Penh é o endereço." },
-    { "name": "Kep e Kampot", "bestFor": "Desvio sonolento à beira-mar — fazendas de pimenta, mercado de caranguejos", "description": "Três horas ao sul de Phnom Penh. O Knai Bang Chatt restaurou um conjunto de vilas modernistas dos anos 1960." },
-    { "name": "Arquipélago de Koh Rong", "bestFor": "Reta final em ilha privativa, 3-5 noites", "description": "Song Saa Private Island e Six Senses Krabey ocupam suas próprias ilhotas em frente a Sihanoukville." },
-    { "name": "Battambang", "bestFor": "Bate-volta fora do circuito turístico", "description": "A 3 horas de carro de Siem Reap. A mais tranquila das grandes cidades, com centro colonial caminhável." }
+    {
+      "name": "Siem Reap",
+      "bestFor": "Templos — sua âncora de lua de mel por 3-5 noites",
+      "description": "Centro antigo compacto e caminhável, cercado por arrozais e pelo Parque Arqueológico de Angkor."
+    },
+    {
+      "name": "Phnom Penh",
+      "bestFor": "Parada cultural de 1-2 noites — Palácio Real, S-21, Mercado Russo",
+      "description": "Capital à beira-rio com ossatura colonial francesa. O Raffles Phnom Penh é o endereço."
+    },
+    {
+      "name": "Kep e Kampot",
+      "bestFor": "Desvio sonolento à beira-mar — fazendas de pimenta, mercado de caranguejos",
+      "description": "Três horas ao sul de Phnom Penh. O Knai Bang Chatt restaurou um conjunto de vilas modernistas dos anos 1960."
+    },
+    {
+      "name": "Arquipélago de Koh Rong",
+      "bestFor": "Reta final em ilha privativa, 3-5 noites",
+      "description": "Song Saa Private Island e Six Senses Krabey ocupam suas próprias ilhotas em frente a Sihanoukville."
+    },
+    {
+      "name": "Battambang",
+      "bestFor": "Bate-volta fora do circuito turístico",
+      "description": "A 3 horas de carro de Siem Reap. A mais tranquila das grandes cidades, com centro colonial caminhável."
+    }
   ],
   "expertTips": [
-    { "tip": "Compre o passe Angkor de 3 dias, não o de 1 dia", "detail": "Os templos merecem pelo menos 2 dias inteiros mais uma tarde. O passe de 3 dias ($62) é válido por 10 dias." },
-    { "tip": "USD é universal — leve cédulas impecáveis", "detail": "O Camboja opera quase inteiramente em dólares americanos. As cédulas precisam estar sem marcas e sem rasgos." },
-    { "tip": "O código de vestimenta nos templos é fiscalizado", "detail": "Ombros e joelhos cobertos para entrar no nível superior de Angkor Wat. Leve um lenço leve e calça comprida." },
-    { "tip": "Gorjeie generosamente seu motorista de tuk-tuk como guia", "detail": "Um ótimo motorista-guia para o dia inteiro custa $25-35 e vale o quádruplo." },
-    { "tip": "Não pule Tuol Sleng, mesmo em lua de mel", "detail": "É pesado, mas entender o que o Camboja sobreviveu recontextualiza tudo o mais." }
+    {
+      "tip": "Compre o passe Angkor de 3 dias, não o de 1 dia",
+      "detail": "Os templos merecem pelo menos 2 dias inteiros mais uma tarde. O passe de 3 dias ($62) é válido por 10 dias."
+    },
+    {
+      "tip": "USD é universal — leve cédulas impecáveis",
+      "detail": "O Camboja opera quase inteiramente em dólares americanos. As cédulas precisam estar sem marcas e sem rasgos."
+    },
+    {
+      "tip": "O código de vestimenta nos templos é fiscalizado",
+      "detail": "Ombros e joelhos cobertos para entrar no nível superior de Angkor Wat. Leve um lenço leve e calça comprida."
+    },
+    {
+      "tip": "Gorjeie generosamente seu motorista de tuk-tuk como guia",
+      "detail": "Um ótimo motorista-guia para o dia inteiro custa $25-35 e vale o quádruplo."
+    },
+    {
+      "tip": "Não pule Tuol Sleng, mesmo em lua de mel",
+      "detail": "É pesado, mas entender o que o Camboja sobreviveu recontextualiza tudo o mais."
+    }
   ],
   "packing": [
-    { "item": "Camadas modestas e adequadas a templos", "why": "Ombros e joelhos cobertos são exigidos no nível superior de Angkor Wat" },
-    { "item": "Sandálias de caminhada de qualidade", "why": "Você vai cobrir 8-15km/dia em arenito irregular" },
-    { "item": "Protetor solar reef-safe", "why": "O sol equatorial é brutal mesmo na estação fresca" },
-    { "item": "Lanterna de cabeça ou lanterna potente do celular", "why": "Visitas de nascer do sol nos templos começam no escuro absoluto" },
-    { "item": "Cédulas USD impecáveis e sem marcas, em pequenas denominações", "why": "Notas rasgadas ou marcadas são rotineiramente recusadas" },
-    { "item": "Pastilhas de eletrólitos", "why": "Você vai suar 4 litros por dia nos templos" }
+    {
+      "item": "Camadas modestas e adequadas a templos",
+      "why": "Ombros e joelhos cobertos são exigidos no nível superior de Angkor Wat"
+    },
+    {
+      "item": "Sandálias de caminhada de qualidade",
+      "why": "Você vai cobrir 8-15km/dia em arenito irregular"
+    },
+    {
+      "item": "Protetor solar reef-safe",
+      "why": "O sol equatorial é brutal mesmo na estação fresca"
+    },
+    {
+      "item": "Lanterna de cabeça ou lanterna potente do celular",
+      "why": "Visitas de nascer do sol nos templos começam no escuro absoluto"
+    },
+    {
+      "item": "Cédulas USD impecáveis e sem marcas, em pequenas denominações",
+      "why": "Notas rasgadas ou marcadas são rotineiramente recusadas"
+    },
+    {
+      "item": "Pastilhas de eletrólitos",
+      "why": "Você vai suar 4 litros por dia nos templos"
+    }
   ],
   "guide": {
     "getting": "Não há voos diretos da América do Norte ou Europa. Conecte por Seul, Cingapura, Bangcoc ou Hong Kong até Siem Reap (REP) ou Phnom Penh (PNH). E-visa disponível online por $36.",
@@ -73,5 +255,9 @@
   "localFood": "A cozinha khmer é mais suave que a tailandesa, menos focada em ervas que a vietnamita — uma coisa silenciosamente sua. Peça fish amok (curry de coco e cúrcuma cozido em folha de bananeira), lok lak (carne com pimenta e molho de limão e pimenta) e num banh chok. A pimenta de Kampot merece sua reputação UNESCO.",
   "currency": "Riel cambojano (KHR); USD universal",
   "language": "Khmer (inglês no turismo)",
-  "timezone": "ICT (UTC+7)"
+  "timezone": "ICT (UTC+7)",
+  "seo": {
+    "title": "Lua de Mel no Camboja: 9 Hotéis Templos e Praia 2026",
+    "description": "9 estadias em Siem Reap, Phnom Penh e Koh Rong pontuadas. Amansara, Six Senses, Song Saa. De $400/noite."
+  }
 }

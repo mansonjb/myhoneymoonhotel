@@ -106,6 +106,7 @@ localFood: 'Bife de chorizo and ojo de bife (grilled sirloin and ribeye, the gol
 currency: 'Argentine Peso (ARS) — highly inflationary. Most honeymoon hotels and restaurants quote in USD and accept USD cash or credit card at the MEP rate. Bring fresh, undamaged $100 bills for personal expenses.',
 language: 'Spanish (Rioplatense accent — distinctive "ll" pronounced "sh"). English widely spoken in hotels and top restaurants; less in taxis and small businesses.',
 timezone: 'UTC-3 year-round (no daylight saving)',
+  seo: { title: "Argentina Honeymoon: 8 Patagonia & Vineyard Hotels", description: "8 Mendoza, Bariloche, Iguazu stays scored. Cavas Wine Lodge, Llao Llao, Awasi. From $400/night. Oct-Apr verdicts." },
 }
 
 export default meta

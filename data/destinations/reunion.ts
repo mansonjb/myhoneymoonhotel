@@ -77,6 +77,7 @@ localFood: 'Carry (Réunion\'s unique curry — different from Indian, Malagasy 
 currency: 'Euro (EUR) — it is a French department',
 language: 'French (official). Réunionnais Creole widely spoken.',
 timezone: 'GMT+4 (Réunion Time — no daylight saving)',
+  seo: { title: "Reunion Island Honeymoon: 8 Volcano & Beach Hotels", description: "8 hotels across cirques, lagoons and volcanic peaks scored. From $200/night. May-Nov dry-season verdicts and hike picks." },
 }
 
 export default meta

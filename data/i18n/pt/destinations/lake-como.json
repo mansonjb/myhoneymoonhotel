@@ -19,53 +19,240 @@
     "Visita em novembro-março — a maioria dos hotéis de luxo fecha na temporada"
   ],
   "experiences": [
-    { "icon": "🛥️", "title": "Tour pelo lago em Riva Aquarama vintage", "description": "Lancha de mogno Riva Aquarama ou Tritone privativa, alugada por meio dia em Bellagio, Como ou direto do píer do hotel. Capitão te leva a Villa Balbianello (a vila de James Bond), Bellagio, Tremezzo e Cernobbio.", "cost": "$1.500-3.500 por casal meio dia", "tip": "Reserve pelo hotel — operadores confiáveis. Peça especificamente a Aquarama (a Tritone maior tem menos do perfil icônico). Leve cesta de champanhe." },
-    { "icon": "🏛️", "title": "Jardins da Villa Carlotta + Villa Balbianello", "description": "Dois grandes jardins botânicos italianos — Carlotta (Tremezzo) pelas camélias e Balbianello (Lenno) pelo romantismo em socalcos numa península. Balbianello aparece em Star Wars Episódio II e Casino Royale.", "cost": "€20 por entrada de vila; guia privativo dia inteiro ~€400", "tip": "Visite Balbianello terça a domingo (segunda fechado). A subida de 1 km do píer é íngreme — alugue o ônibus elétrico se necessário." },
-    { "icon": "🍷", "title": "Aperitivo em Bellagio + pôr do sol em Punta Spartivento", "description": "Pegue a balsa ou barco privativo até Bellagio, percorra ruas de paralelepípedo, aperitivo no La Punta ou Bar Rossi enquanto o sol cai sobre o Y do lago da ponta mais ao norte do vilarejo.", "cost": "€30-60 por casal", "tip": "Evite Bellagio entre 11h e 15h em julho-agosto (turistas de cruzeiro). Fim da tarde e noite são quando os locais saem." },
-    { "icon": "🚁", "title": "Helicóptero a Milão para ópera no La Scala", "description": "Helicóptero de 25 min do gramado do hotel a Milão Linate, jantar no Cracco ou Antica Trattoria della Pesa, ópera no La Scala, helicóptero de volta. A noite mais decadente que a Itália pode oferecer em uma lua de mel.", "cost": "$3.000-5.000 por casal completo", "tip": "Reserve ingressos da ópera com pelo menos 2 meses no site do La Scala. Concierges de hotel (Tremezzo, Mandarin) cuidam do charter." },
-    { "icon": "🥾", "title": "Trilha Sentiero del Viandante", "description": "O \"Caminho do Viandante\" pela margem leste — 45 km no total, mas caminhável em trechos de 5 km. Lierna a Varenna é o clássico de 4h com vistas constantes do lago e almoço-recompensa em Varenna.", "cost": "Grátis (ou guia de hotel ~€200)", "tip": "Pegue o trem de Como a Lierna pela manhã, caminhe até Varenna, almoce no Il Cavatappi, balsa de volta ao píer do hotel. Use tênis de trilha — trechos com pedras." }
+    {
+      "icon": "🛥️",
+      "title": "Tour pelo lago em Riva Aquarama vintage",
+      "description": "Lancha de mogno Riva Aquarama ou Tritone privativa, alugada por meio dia em Bellagio, Como ou direto do píer do hotel. Capitão te leva a Villa Balbianello (a vila de James Bond), Bellagio, Tremezzo e Cernobbio.",
+      "cost": "$1.500-3.500 por casal meio dia",
+      "tip": "Reserve pelo hotel — operadores confiáveis. Peça especificamente a Aquarama (a Tritone maior tem menos do perfil icônico). Leve cesta de champanhe."
+    },
+    {
+      "icon": "🏛️",
+      "title": "Jardins da Villa Carlotta + Villa Balbianello",
+      "description": "Dois grandes jardins botânicos italianos — Carlotta (Tremezzo) pelas camélias e Balbianello (Lenno) pelo romantismo em socalcos numa península. Balbianello aparece em Star Wars Episódio II e Casino Royale.",
+      "cost": "€20 por entrada de vila; guia privativo dia inteiro ~€400",
+      "tip": "Visite Balbianello terça a domingo (segunda fechado). A subida de 1 km do píer é íngreme — alugue o ônibus elétrico se necessário."
+    },
+    {
+      "icon": "🍷",
+      "title": "Aperitivo em Bellagio + pôr do sol em Punta Spartivento",
+      "description": "Pegue a balsa ou barco privativo até Bellagio, percorra ruas de paralelepípedo, aperitivo no La Punta ou Bar Rossi enquanto o sol cai sobre o Y do lago da ponta mais ao norte do vilarejo.",
+      "cost": "€30-60 por casal",
+      "tip": "Evite Bellagio entre 11h e 15h em julho-agosto (turistas de cruzeiro). Fim da tarde e noite são quando os locais saem."
+    },
+    {
+      "icon": "🚁",
+      "title": "Helicóptero a Milão para ópera no La Scala",
+      "description": "Helicóptero de 25 min do gramado do hotel a Milão Linate, jantar no Cracco ou Antica Trattoria della Pesa, ópera no La Scala, helicóptero de volta. A noite mais decadente que a Itália pode oferecer em uma lua de mel.",
+      "cost": "$3.000-5.000 por casal completo",
+      "tip": "Reserve ingressos da ópera com pelo menos 2 meses no site do La Scala. Concierges de hotel (Tremezzo, Mandarin) cuidam do charter."
+    },
+    {
+      "icon": "🥾",
+      "title": "Trilha Sentiero del Viandante",
+      "description": "O \"Caminho do Viandante\" pela margem leste — 45 km no total, mas caminhável em trechos de 5 km. Lierna a Varenna é o clássico de 4h com vistas constantes do lago e almoço-recompensa em Varenna.",
+      "cost": "Grátis (ou guia de hotel ~€200)",
+      "tip": "Pegue o trem de Como a Lierna pela manhã, caminhe até Varenna, almoce no Il Cavatappi, balsa de volta ao píer do hotel. Use tênis de trilha — trechos com pedras."
+    }
   ],
   "months": [
-    { "month": "Jan", "weather": "Frio, a maioria fechada", "emoji": "❄️", "crowds": "Mínima", "price": "N/A", "verdict": "Maioria dos hotéis de luxo fechada" },
-    { "month": "Feb", "weather": "Frio, a maioria fechada", "emoji": "❄️", "crowds": "Mínima", "price": "N/A", "verdict": "Maioria dos hotéis de luxo fechada" },
-    { "month": "Mar", "weather": "Transição da primavera", "emoji": "⛅", "crowds": "Baixa", "price": "Baixo", "verdict": "Hotéis reabrem em meados de março" },
-    { "month": "Apr", "weather": "Ameno, jardins florescendo", "emoji": "🌤", "crowds": "Baixa", "price": "Baixo-médio", "verdict": "Baixa tranquila, jardins abertos" },
-    { "month": "May", "weather": "Quente, perfeito", "emoji": "🌤", "crowds": "Média (subindo)", "price": "Médio-alto", "verdict": "Ponto doce começa em meados de maio" },
-    { "month": "Jun", "weather": "Quente, banho começa", "emoji": "☀️", "crowds": "Média", "price": "Alto", "verdict": "Melhor mês — quente + tolerável" },
-    { "month": "Jul", "weather": "Quente, lotado", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Espetacular mas movimentado" },
-    { "month": "Aug", "weather": "Quente, muito lotado", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Feriado italiano — tudo cheio" },
-    { "month": "Sep", "weather": "Quente, mais calmo", "emoji": "🌤", "crowds": "Média-alta", "price": "Alto", "verdict": "Ponto doce gêmeo de junho" },
-    { "month": "Oct", "weather": "Esfriando, cores de outono", "emoji": "🍂", "crowds": "Média (caindo)", "price": "Médio", "verdict": "Mês final subestimado" },
-    { "month": "Nov", "weather": "Fresco, hotéis fechando", "emoji": "⛅", "crowds": "Baixa", "price": "Baixo", "verdict": "Maioria fecha em meados do mês" },
-    { "month": "Dec", "weather": "Frio, fechado", "emoji": "❄️", "crowds": "Mínima", "price": "N/A", "verdict": "Maioria dos hotéis de luxo fechada" }
+    {
+      "month": "Jan",
+      "weather": "Frio, a maioria fechada",
+      "emoji": "❄️",
+      "crowds": "Mínima",
+      "price": "N/A",
+      "verdict": "Maioria dos hotéis de luxo fechada"
+    },
+    {
+      "month": "Feb",
+      "weather": "Frio, a maioria fechada",
+      "emoji": "❄️",
+      "crowds": "Mínima",
+      "price": "N/A",
+      "verdict": "Maioria dos hotéis de luxo fechada"
+    },
+    {
+      "month": "Mar",
+      "weather": "Transição da primavera",
+      "emoji": "⛅",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Hotéis reabrem em meados de março"
+    },
+    {
+      "month": "Apr",
+      "weather": "Ameno, jardins florescendo",
+      "emoji": "🌤",
+      "crowds": "Baixa",
+      "price": "Baixo-médio",
+      "verdict": "Baixa tranquila, jardins abertos"
+    },
+    {
+      "month": "May",
+      "weather": "Quente, perfeito",
+      "emoji": "🌤",
+      "crowds": "Média (subindo)",
+      "price": "Médio-alto",
+      "verdict": "Ponto doce começa em meados de maio"
+    },
+    {
+      "month": "Jun",
+      "weather": "Quente, banho começa",
+      "emoji": "☀️",
+      "crowds": "Média",
+      "price": "Alto",
+      "verdict": "Melhor mês — quente + tolerável"
+    },
+    {
+      "month": "Jul",
+      "weather": "Quente, lotado",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Espetacular mas movimentado"
+    },
+    {
+      "month": "Aug",
+      "weather": "Quente, muito lotado",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Feriado italiano — tudo cheio"
+    },
+    {
+      "month": "Sep",
+      "weather": "Quente, mais calmo",
+      "emoji": "🌤",
+      "crowds": "Média-alta",
+      "price": "Alto",
+      "verdict": "Ponto doce gêmeo de junho"
+    },
+    {
+      "month": "Oct",
+      "weather": "Esfriando, cores de outono",
+      "emoji": "🍂",
+      "crowds": "Média (caindo)",
+      "price": "Médio",
+      "verdict": "Mês final subestimado"
+    },
+    {
+      "month": "Nov",
+      "weather": "Fresco, hotéis fechando",
+      "emoji": "⛅",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Maioria fecha em meados do mês"
+    },
+    {
+      "month": "Dec",
+      "weather": "Frio, fechado",
+      "emoji": "❄️",
+      "crowds": "Mínima",
+      "price": "N/A",
+      "verdict": "Maioria dos hotéis de luxo fechada"
+    }
   ],
   "budgetTiers": [
-    { "label": "Luxo acessível", "range": "$400-700/noite", "gets": "4★ com vista do lago como Filario em Lezzeno ou pequenos hotéis-vila em Menaggio.", "example": "Hotel Filario, Hotel Belvedere Bellagio" },
-    { "label": "Premium", "range": "$700-1.500/noite", "gets": "Suíte com vista do lago em 5★, café da manhã, spa, piscina à beira do lago.", "example": "CastaDiva Resort, Grand Hotel Villa Serbelloni Bellagio, Il Sereno" },
-    { "label": "Ultra-luxo", "range": "$1.500-5.000/noite", "gets": "Quartos em vila icônica, mordomo, gastronomia multi-Michelin in loco, barco privativo incluso.", "example": "Villa d'Este, Grand Hotel Tremezzo, Passalacqua, Mandarin Oriental" },
-    { "label": "Uso exclusivo", "range": "$5.000-15.000/noite", "gets": "Vila histórica inteira com staff só para você — Villa Sola Cabiati, vila privativa gerida pelo Tremezzo.", "example": "Villa Sola Cabiati" }
+    {
+      "label": "Luxo acessível",
+      "range": "$400-700/noite",
+      "gets": "4★ com vista do lago como Filario em Lezzeno ou pequenos hotéis-vila em Menaggio.",
+      "example": "Hotel Filario, Hotel Belvedere Bellagio"
+    },
+    {
+      "label": "Premium",
+      "range": "$700-1.500/noite",
+      "gets": "Suíte com vista do lago em 5★, café da manhã, spa, piscina à beira do lago.",
+      "example": "CastaDiva Resort, Grand Hotel Villa Serbelloni Bellagio, Il Sereno"
+    },
+    {
+      "label": "Ultra-luxo",
+      "range": "$1.500-5.000/noite",
+      "gets": "Quartos em vila icônica, mordomo, gastronomia multi-Michelin in loco, barco privativo incluso.",
+      "example": "Villa d'Este, Grand Hotel Tremezzo, Passalacqua, Mandarin Oriental"
+    },
+    {
+      "label": "Uso exclusivo",
+      "range": "$5.000-15.000/noite",
+      "gets": "Vila histórica inteira com staff só para você — Villa Sola Cabiati, vila privativa gerida pelo Tremezzo.",
+      "example": "Villa Sola Cabiati"
+    }
   ],
   "areas": [
-    { "name": "Cernobbio (oeste, sul)", "bestFor": "Era das grandes-damas", "description": "Villa d'Este e CastaDiva ficam aqui. Mais perto da cidade de Como (10 min). Atmosfera noturna calma; rede de balsas à porta." },
-    { "name": "Tremezzina (oeste, central)", "bestFor": "Melhores vistas de Bellagio desde a margem oeste", "description": "Grand Hotel Tremezzo e Passalacqua. De frente para Bellagio — o ângulo mais fotografado. A pé dos jardins da Villa Carlotta." },
-    { "name": "Bellagio (península central, leste)", "bestFor": "\"A pérola do lago\"", "description": "O Grand Hotel Villa Serbelloni ocupa o promontório. A pé de todos os restaurantes. Melhor base se quiser ritmo de noite com ruas de paralelepípedo." },
-    { "name": "Torno e Blevio (leste, sul)", "bestFor": "Luxo contemporâneo", "description": "Il Sereno e Mandarin Oriental viram a margem oeste (sombra à tarde, brilho do pôr do sol). Mais tranquilos, residenciais. 15 min de barco até Como." },
-    { "name": "Varenna e Menaggio (vilarejos do meio do lago)", "bestFor": "Estadas autênticas em vila", "description": "Hotéis boutique menores (Hotel du Lac Varenna, Royal Victoria). Mais acessíveis. Excelentes conexões de balsa para todos os ícones." }
+    {
+      "name": "Cernobbio (oeste, sul)",
+      "bestFor": "Era das grandes-damas",
+      "description": "Villa d'Este e CastaDiva ficam aqui. Mais perto da cidade de Como (10 min). Atmosfera noturna calma; rede de balsas à porta."
+    },
+    {
+      "name": "Tremezzina (oeste, central)",
+      "bestFor": "Melhores vistas de Bellagio desde a margem oeste",
+      "description": "Grand Hotel Tremezzo e Passalacqua. De frente para Bellagio — o ângulo mais fotografado. A pé dos jardins da Villa Carlotta."
+    },
+    {
+      "name": "Bellagio (península central, leste)",
+      "bestFor": "\"A pérola do lago\"",
+      "description": "O Grand Hotel Villa Serbelloni ocupa o promontório. A pé de todos os restaurantes. Melhor base se quiser ritmo de noite com ruas de paralelepípedo."
+    },
+    {
+      "name": "Torno e Blevio (leste, sul)",
+      "bestFor": "Luxo contemporâneo",
+      "description": "Il Sereno e Mandarin Oriental viram a margem oeste (sombra à tarde, brilho do pôr do sol). Mais tranquilos, residenciais. 15 min de barco até Como."
+    },
+    {
+      "name": "Varenna e Menaggio (vilarejos do meio do lago)",
+      "bestFor": "Estadas autênticas em vila",
+      "description": "Hotéis boutique menores (Hotel du Lac Varenna, Royal Victoria). Mais acessíveis. Excelentes conexões de balsa para todos os ícones."
+    }
   ],
   "expertTips": [
-    { "tip": "Reserve o barco privativo do hotel por pelo menos meio dia", "detail": "Balsas públicas são baratas e frequentes, mas o meio dia em Riva vintage é a experiência que define a viagem. Tremezzo, Mandarin e Il Sereno mantêm frotas vintage para hóspedes." },
-    { "tip": "Almoce em vilarejos de pescadores, jante no hotel", "detail": "Os restaurantes do hotel são nível Michelin mas caros. Almoce em Varenna (Il Cavatappi), Bellagio (La Punta), Lenno (Sant'Anna) — €60-100 por casal, perca fresca e risoto, vinho local." },
-    { "tip": "Evite Bellagio no meio do dia no verão", "detail": "Bate-volta de cruzeiro lota Bellagio entre 11h e 15h em jul-ago. Visite no fim da tarde ou cedo. Idem Villa Balbianello." },
-    { "tip": "Contrate motorista de Milão, não carro alugado", "detail": "Motorista privativo de Milão até o hotel ($300 cada trecho) poupa você do estacionamento e do trânsito da margem do lago. Vale cada euro." },
-    { "tip": "Visite o \"Bellagio da margem oeste\" — Argegno e Lenno", "detail": "Os subturísticos vilarejos da margem oeste, Argegno e Lenno, têm 70% da paisagem de Bellagio com 20% das multidões. Bate-volta de balsa por meio dia." }
+    {
+      "tip": "Reserve o barco privativo do hotel por pelo menos meio dia",
+      "detail": "Balsas públicas são baratas e frequentes, mas o meio dia em Riva vintage é a experiência que define a viagem. Tremezzo, Mandarin e Il Sereno mantêm frotas vintage para hóspedes."
+    },
+    {
+      "tip": "Almoce em vilarejos de pescadores, jante no hotel",
+      "detail": "Os restaurantes do hotel são nível Michelin mas caros. Almoce em Varenna (Il Cavatappi), Bellagio (La Punta), Lenno (Sant'Anna) — €60-100 por casal, perca fresca e risoto, vinho local."
+    },
+    {
+      "tip": "Evite Bellagio no meio do dia no verão",
+      "detail": "Bate-volta de cruzeiro lota Bellagio entre 11h e 15h em jul-ago. Visite no fim da tarde ou cedo. Idem Villa Balbianello."
+    },
+    {
+      "tip": "Contrate motorista de Milão, não carro alugado",
+      "detail": "Motorista privativo de Milão até o hotel ($300 cada trecho) poupa você do estacionamento e do trânsito da margem do lago. Vale cada euro."
+    },
+    {
+      "tip": "Visite o \"Bellagio da margem oeste\" — Argegno e Lenno",
+      "detail": "Os subturísticos vilarejos da margem oeste, Argegno e Lenno, têm 70% da paisagem de Bellagio com 20% das multidões. Bate-volta de balsa por meio dia."
+    }
   ],
   "packing": [
-    { "item": "Roupa smart-casual para a noite", "why": "Restaurantes de hotel exigem dress code \"elegante\" — paletó para homem no Tremezzo, vestido para mulher" },
-    { "item": "Suéter leve para a noite", "why": "A brisa do lago derruba a temperatura 8-10°C após o pôr do sol mesmo em julho" },
-    { "item": "Óculos de sol polarizados", "why": "Reflexo do lago ao meio-dia é intenso — proteja a vista nos passeios de barco" },
-    { "item": "Sapatos para caminhar (não sandálias)", "why": "Paralelepípedos em Bellagio, trilha Sentiero del Viandante, subida na Villa Balbianello" },
-    { "item": "Protetor solar reef-safe", "why": "Você ficará na água com frequência; o lago é alimentado por geleiras e muito claro" },
-    { "item": "Adaptador italiano (Tipo C/F)", "why": "Pino europeu padrão funciona na maioria; propriedades antigas têm Tipo L (3 pinos italianos)" }
+    {
+      "item": "Roupa smart-casual para a noite",
+      "why": "Restaurantes de hotel exigem dress code \"elegante\" — paletó para homem no Tremezzo, vestido para mulher"
+    },
+    {
+      "item": "Suéter leve para a noite",
+      "why": "A brisa do lago derruba a temperatura 8-10°C após o pôr do sol mesmo em julho"
+    },
+    {
+      "item": "Óculos de sol polarizados",
+      "why": "Reflexo do lago ao meio-dia é intenso — proteja a vista nos passeios de barco"
+    },
+    {
+      "item": "Sapatos para caminhar (não sandálias)",
+      "why": "Paralelepípedos em Bellagio, trilha Sentiero del Viandante, subida na Villa Balbianello"
+    },
+    {
+      "item": "Protetor solar reef-safe",
+      "why": "Você ficará na água com frequência; o lago é alimentado por geleiras e muito claro"
+    },
+    {
+      "item": "Adaptador italiano (Tipo C/F)",
+      "why": "Pino europeu padrão funciona na maioria; propriedades antigas têm Tipo L (3 pinos italianos)"
+    }
   ],
   "guide": {
     "getting": "Voe para Milão Malpensa (MXP, 60-90 min de carro até o lago) ou Linate (LIN, 80-100 min). Trens de Milão Centrale a Como S. Giovanni (40 min) — mais cênico. A maioria dos hotéis oferece transfer privativo ($300-500 cada trecho) ou lancha de Como ($200). Helicóptero de Milão até helipontos à beira do lago disponível por ~$1.500 só ida.",
@@ -75,5 +262,9 @@
   "localFood": "Cozinha do Como: missoltini (peixe agone seco ao sol, raro), risoto com filé de perca, pizzoccheri (massa de trigo-sarraceno do Valtellina vizinho), brasato de boi, polenta uncia. Queijos: Bitto, Casera, taleggio. Vinhos: Lugana branco do Lago de Garda vizinho, Inferno tinto do Valtellina. Cultura do café: espresso em pé no balcão, jamais sentado.",
   "currency": "Euro (EUR). Cartões em todo lugar; dinheiro útil para pequenas compras de vila e bilhetes de balsa.",
   "language": "Italiano. Inglês amplamente falado em todos os hotéis de luxo e restaurantes turísticos. Frases básicas em italiano encantam locais.",
-  "timezone": "UTC+1 (UTC+2 no verão com horário de verão)"
+  "timezone": "UTC+1 (UTC+2 no verão com horário de verão)",
+  "seo": {
+    "title": "Lua de Mel no Lago de Como: 8 Villas Junto ao Lago",
+    "description": "8 villas em Bellagio, Cernobbio e Tremezzo ranqueadas. Villa dEste, Grand Tremezzo. De $1,000/noite. Mai-set."
+  }
 }

@@ -77,6 +77,7 @@ localFood: 'La langouste grillée (grilled Caribbean lobster, split and charcoal
 currency: 'Euro (EUR) — it is a French collectivity',
 language: 'French (official). English spoken widely in all tourist contexts.',
 timezone: 'GMT-4 (Atlantic Standard Time)',
+  seo: { title: "St Barts Honeymoon: 9 Caribbean Chic Hotels Scored", description: "9 boutique hotels and villas ranked. Cheval Blanc, Eden Rock, Le Toiny. From $1,200/night. Nov-Apr verdicts." },
 }
 
 export default meta

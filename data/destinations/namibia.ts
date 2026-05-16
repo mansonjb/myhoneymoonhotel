@@ -106,6 +106,7 @@ localFood: 'Game meat (kudu fillet, oryx steak, springbok carpaccio, eland — b
 currency: 'Namibian Dollar (NAD) pegged 1:1 to South African Rand (ZAR) — both circulate. Cards accepted at lodges, hotels, and city restaurants; cash useful for tipping (US dollars at lodges, NAD/ZAR in town). ATMs widely available at airports and Windhoek.',
 language: 'English is official; Afrikaans and German widely spoken (Namibia was a German colony until 1915); local languages include Oshiwambo, Otjiherero, and Khoekhoe. Lodge staff speak fluent English.',
 timezone: 'UTC+2 year-round (Namibia abolished daylight saving in 2017)',
+  seo: { title: "Namibia Honeymoon: 8 Desert & Sossusvlei Lodges 2026", description: "8 Sossusvlei, Skeleton Coast, Damaraland camps ranked. Wolwedans, Hoanib, Sonop. From $800/night. May-Oct dry." },
 }
 
 export default meta

@@ -18,51 +18,230 @@
     "Espera fazer Machu Picchu em meio dia — merece nascer do sol completo + visita de retorno"
   ],
   "experiences": [
-    { "icon": "🌄", "title": "Nascer do sol em Machu Picchu", "description": "Hóspedes do Belmond Sanctuary Lodge têm acesso pré-6h à cidadela antes dos primeiros bate-volta no trem das 5h30 de Cusco. Você entra sozinho com um guia, vendo a neblina queimar do pico Huayna Picchu enquanto o sol emerge da crista leste. Não há momento comparável em viagem de lua de mel.", "cost": "Sanctuary Lodge a partir de $1.500/noite inclui acesso antecipado; tour padrão de Aguas Calientes $200/pax", "tip": "Reserve Sanctuary Lodge — 31 quartos só, acesso pré-amanhecer reservado a hóspedes. Fique 2 noites para também ver pôr do sol." },
-    { "icon": "🚂", "title": "Trem-leito Belmond Andean Explorer", "description": "Primeiro trem-leito de luxo da América do Sul: Cusco → Lago Titicaca (Puno) → Colca Canyon → Arequipa em 2 noites e 3 dias. 24 cabines, Spa Car a bordo em altitude, vagão de observação com coquetéis enquanto o trem sobe a 4.800 m no passo La Raya. Chegue em Arequipa pelo centro colonial de pedra branco-vulcânica.", "cost": "2 noites Cusco-Arequipa a partir de $2.500/cabine (acomoda 2)", "tip": "Reserve uma Suite Cabin — upgrade compra suíte privativa com janelas dos dois lados e o dobro do espaço. Cabines Junior compartilham banheiros." },
-    { "icon": "🏛️", "title": "Visita privada após horário a Saqsayhuamán", "description": "Belmond Palacio Nazarenas e Hotel Monasterio organizam visitas privadas após horário a Saqsayhuamán, fortaleza ciclópica inca acima de Cusco. Só com seu guia e o céu noturno, as paredes de pedra de 200 toneladas são bem mais emocionantes que com multidões diurnas.", "cost": "Guia privativo + arranjo após horário $400/casal", "tip": "Combine com jantar privativo à luz de velas dentro da fortaleza — Belmond organiza. Genuinamente uma vez na vida." },
-    { "icon": "🦙", "title": "Cavalgada no Vale Sagrado", "description": "Sol y Luna Lodge opera o programa equestre mais bem avaliado do Peru — 40 cavalos paso peruano (raça única com andamento lateral de quatro tempos, surpreendentemente macio). Cavalgada de 2-3h por socalcos do Vale Sagrado e ruínas incas, terminando em piquenique à beira do rio.", "cost": "Tarifa de hóspede $250/casal por meio dia com piquenique", "tip": "Reserve o Wayra Equestrian Show uma noite — show de paso peruano da casa é uma das performances mais polidas da América do Sul." },
-    { "icon": "🍽️", "title": "Menu degustação em Lima no Maido ou Central", "description": "Lima é uma das três grandes cidades gastronômicas do mundo. Central (Virgilio Martínez) e Maido (Mitsuharu Tsumura, nikkei nipo-peruano) trocam regularmente posições #1-#5 no World's 50 Best. A degustação de 13 tempos com tema de altitude no Central é a mais conceitual; a degustação nikkei do Maido é a mais saborosa.", "cost": "$200-300/pessoa degustação; harmonização $150", "tip": "Reserve com 2-3 meses pelo concierge ou direto. Mayta (Jaime Pesaque) é a terceira opção mais fácil de reservar e quase tão boa." }
+    {
+      "icon": "🌄",
+      "title": "Nascer do sol em Machu Picchu",
+      "description": "Hóspedes do Belmond Sanctuary Lodge têm acesso pré-6h à cidadela antes dos primeiros bate-volta no trem das 5h30 de Cusco. Você entra sozinho com um guia, vendo a neblina queimar do pico Huayna Picchu enquanto o sol emerge da crista leste. Não há momento comparável em viagem de lua de mel.",
+      "cost": "Sanctuary Lodge a partir de $1.500/noite inclui acesso antecipado; tour padrão de Aguas Calientes $200/pax",
+      "tip": "Reserve Sanctuary Lodge — 31 quartos só, acesso pré-amanhecer reservado a hóspedes. Fique 2 noites para também ver pôr do sol."
+    },
+    {
+      "icon": "🚂",
+      "title": "Trem-leito Belmond Andean Explorer",
+      "description": "Primeiro trem-leito de luxo da América do Sul: Cusco → Lago Titicaca (Puno) → Colca Canyon → Arequipa em 2 noites e 3 dias. 24 cabines, Spa Car a bordo em altitude, vagão de observação com coquetéis enquanto o trem sobe a 4.800 m no passo La Raya. Chegue em Arequipa pelo centro colonial de pedra branco-vulcânica.",
+      "cost": "2 noites Cusco-Arequipa a partir de $2.500/cabine (acomoda 2)",
+      "tip": "Reserve uma Suite Cabin — upgrade compra suíte privativa com janelas dos dois lados e o dobro do espaço. Cabines Junior compartilham banheiros."
+    },
+    {
+      "icon": "🏛️",
+      "title": "Visita privada após horário a Saqsayhuamán",
+      "description": "Belmond Palacio Nazarenas e Hotel Monasterio organizam visitas privadas após horário a Saqsayhuamán, fortaleza ciclópica inca acima de Cusco. Só com seu guia e o céu noturno, as paredes de pedra de 200 toneladas são bem mais emocionantes que com multidões diurnas.",
+      "cost": "Guia privativo + arranjo após horário $400/casal",
+      "tip": "Combine com jantar privativo à luz de velas dentro da fortaleza — Belmond organiza. Genuinamente uma vez na vida."
+    },
+    {
+      "icon": "🦙",
+      "title": "Cavalgada no Vale Sagrado",
+      "description": "Sol y Luna Lodge opera o programa equestre mais bem avaliado do Peru — 40 cavalos paso peruano (raça única com andamento lateral de quatro tempos, surpreendentemente macio). Cavalgada de 2-3h por socalcos do Vale Sagrado e ruínas incas, terminando em piquenique à beira do rio.",
+      "cost": "Tarifa de hóspede $250/casal por meio dia com piquenique",
+      "tip": "Reserve o Wayra Equestrian Show uma noite — show de paso peruano da casa é uma das performances mais polidas da América do Sul."
+    },
+    {
+      "icon": "🍽️",
+      "title": "Menu degustação em Lima no Maido ou Central",
+      "description": "Lima é uma das três grandes cidades gastronômicas do mundo. Central (Virgilio Martínez) e Maido (Mitsuharu Tsumura, nikkei nipo-peruano) trocam regularmente posições #1-#5 no World's 50 Best. A degustação de 13 tempos com tema de altitude no Central é a mais conceitual; a degustação nikkei do Maido é a mais saborosa.",
+      "cost": "$200-300/pessoa degustação; harmonização $150",
+      "tip": "Reserve com 2-3 meses pelo concierge ou direto. Mayta (Jaime Pesaque) é a terceira opção mais fácil de reservar e quase tão boa."
+    }
   ],
   "months": [
-    { "month": "Jan", "weather": "Estação úmida, chuva diária", "emoji": "🌧️", "crowds": "Baixa", "price": "Baixo", "verdict": "Pule se possível — trilhas lamacentas, vistas obscurecidas" },
-    { "month": "Feb", "weather": "Chuva mais forte", "emoji": "🌧️", "crowds": "Mínima", "price": "Mínimo", "verdict": "Pule — Trilha Inca fechada para manutenção" },
-    { "month": "Mar", "weather": "Úmido mas diminuindo", "emoji": "🌦", "crowds": "Baixa", "price": "Baixo", "verdict": "Melhorando mas instável; tarifas baratas" },
-    { "month": "Apr", "weather": "Transição, secando", "emoji": "🌤️", "crowds": "Média", "price": "Médio", "verdict": "Excelente custo-benefício — Trilha Inca reabre, vales exuberantes" },
-    { "month": "May", "weather": "Seca clara, noites frescas", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Ponto doce — céu mais claro, todas as trilhas abertas, menos gente que jun-ago" },
-    { "month": "Jun", "weather": "Seca fria, festival Inti Raymi", "emoji": "☀️", "crowds": "Máxima", "price": "Alto", "verdict": "Excelente + festival Inti Raymi em Cusco no fim de junho" },
-    { "month": "Jul", "weather": "Mais seco, noites mais frias", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Pico — dias claros e brilhantes, noites frias em altitude" },
-    { "month": "Aug", "weather": "Seco, levemente esquentando", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Último mês de pico — reserve com 6 meses" },
-    { "month": "Sep", "weather": "Secando, ameno", "emoji": "🌤️", "crowds": "Alta", "price": "Alto", "verdict": "Excelente baixa — menos gente, todas as trilhas abertas" },
-    { "month": "Oct", "weather": "Seca amena, chuvas pontuais", "emoji": "🌤️", "crowds": "Média", "price": "Médio", "verdict": "Ponto doce de custo-benefício — seco mas mais tranquilo" },
-    { "month": "Nov", "weather": "Estação úmida começando", "emoji": "🌦", "crowds": "Média", "price": "Médio", "verdict": "Bom custo-benefício; chuvas vespertinas se tornando confiáveis" },
-    { "month": "Dec", "weather": "Úmido, calor de verão", "emoji": "🌧️", "crowds": "Alta", "price": "Alto", "verdict": "Turistas de Natal em Cusco; chuva diária à tarde" }
+    {
+      "month": "Jan",
+      "weather": "Estação úmida, chuva diária",
+      "emoji": "🌧️",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Pule se possível — trilhas lamacentas, vistas obscurecidas"
+    },
+    {
+      "month": "Feb",
+      "weather": "Chuva mais forte",
+      "emoji": "🌧️",
+      "crowds": "Mínima",
+      "price": "Mínimo",
+      "verdict": "Pule — Trilha Inca fechada para manutenção"
+    },
+    {
+      "month": "Mar",
+      "weather": "Úmido mas diminuindo",
+      "emoji": "🌦",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Melhorando mas instável; tarifas baratas"
+    },
+    {
+      "month": "Apr",
+      "weather": "Transição, secando",
+      "emoji": "🌤️",
+      "crowds": "Média",
+      "price": "Médio",
+      "verdict": "Excelente custo-benefício — Trilha Inca reabre, vales exuberantes"
+    },
+    {
+      "month": "May",
+      "weather": "Seca clara, noites frescas",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Ponto doce — céu mais claro, todas as trilhas abertas, menos gente que jun-ago"
+    },
+    {
+      "month": "Jun",
+      "weather": "Seca fria, festival Inti Raymi",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Alto",
+      "verdict": "Excelente + festival Inti Raymi em Cusco no fim de junho"
+    },
+    {
+      "month": "Jul",
+      "weather": "Mais seco, noites mais frias",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Pico — dias claros e brilhantes, noites frias em altitude"
+    },
+    {
+      "month": "Aug",
+      "weather": "Seco, levemente esquentando",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Último mês de pico — reserve com 6 meses"
+    },
+    {
+      "month": "Sep",
+      "weather": "Secando, ameno",
+      "emoji": "🌤️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Excelente baixa — menos gente, todas as trilhas abertas"
+    },
+    {
+      "month": "Oct",
+      "weather": "Seca amena, chuvas pontuais",
+      "emoji": "🌤️",
+      "crowds": "Média",
+      "price": "Médio",
+      "verdict": "Ponto doce de custo-benefício — seco mas mais tranquilo"
+    },
+    {
+      "month": "Nov",
+      "weather": "Estação úmida começando",
+      "emoji": "🌦",
+      "crowds": "Média",
+      "price": "Médio",
+      "verdict": "Bom custo-benefício; chuvas vespertinas se tornando confiáveis"
+    },
+    {
+      "month": "Dec",
+      "weather": "Úmido, calor de verão",
+      "emoji": "🌧️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Turistas de Natal em Cusco; chuva diária à tarde"
+    }
   ],
   "budgetTiers": [
-    { "label": "Luxo intermediário", "range": "$400-900/noite", "gets": "Boutique em Cusco ou lodge no Vale Sagrado com pensão completa. Excelente café da manhã; spa básico.", "example": "Inkaterra Machu Picchu Pueblo, Tambo del Inka, Hotel B Lima" },
-    { "label": "Premium", "range": "$700-2.000/noite", "gets": "Hotéis do circuito Belmond — convento Monasterio, casitas Sol y Luna, experiências guiadas completas.", "example": "Belmond Hotel Monasterio, Sol y Luna Lodge & Spa, Belmond Palacio Nazarenas" },
-    { "label": "Icônico", "range": "$1.500-5.000/noite", "gets": "Sanctuary Lodge nos portões da cidadela ou o Belmond Andean Explorer multi-day completo.", "example": "Belmond Sanctuary Lodge, Belmond Andean Explorer" }
+    {
+      "label": "Luxo intermediário",
+      "range": "$400-900/noite",
+      "gets": "Boutique em Cusco ou lodge no Vale Sagrado com pensão completa. Excelente café da manhã; spa básico.",
+      "example": "Inkaterra Machu Picchu Pueblo, Tambo del Inka, Hotel B Lima"
+    },
+    {
+      "label": "Premium",
+      "range": "$700-2.000/noite",
+      "gets": "Hotéis do circuito Belmond — convento Monasterio, casitas Sol y Luna, experiências guiadas completas.",
+      "example": "Belmond Hotel Monasterio, Sol y Luna Lodge & Spa, Belmond Palacio Nazarenas"
+    },
+    {
+      "label": "Icônico",
+      "range": "$1.500-5.000/noite",
+      "gets": "Sanctuary Lodge nos portões da cidadela ou o Belmond Andean Explorer multi-day completo.",
+      "example": "Belmond Sanctuary Lodge, Belmond Andean Explorer"
+    }
   ],
   "areas": [
-    { "name": "Lima", "bestFor": "Chegada, capital gastronômica, cultura da costa pacífica", "description": "A primeira parada. Distrito de arte de Barranco (Hotel B), falésia de Miraflores (Belmond Miraflores Park), ruínas de Pachacamac. 1-2 noites para ajustar jet lag e jantar no Maido ou Central." },
-    { "name": "Cusco", "bestFor": "Capital inca, aclimatação à altitude, arquitetura colonial", "description": "Ponto de partida para qualquer roteiro do Vale Sagrado. 3.400 m de altitude — precisa de 2 noites mínimo para aclimatar. Belmond Monasterio e Palacio Nazarenas são as estadas icônicas." },
-    { "name": "Vale Sagrado (Urubamba)", "bestFor": "Transição em altitude mais baixa, ruínas incas, lodges à beira-rio", "description": "2.800 m — mais fácil de respirar que Cusco. Pisac e Ollantaytambo, vilas de tecelagem, Sol y Luna e Tambo del Inka. 2-3 noites." },
-    { "name": "Aguas Calientes / Machu Picchu", "bestFor": "Nascer do sol da cidadela, floresta nublada, fontes termais", "description": "Vila no fundo do rio, 400 m abaixo de Machu Picchu. Inkaterra Machu Picchu Pueblo (casitas em floresta nublada) e Belmond Sanctuary Lodge (literalmente nos portões). 1-2 noites." },
-    { "name": "Lago Titicaca / Arequipa", "bestFor": "Reta final no altiplano, destino do Andean Explorer", "description": "Extensão opcional de 2-3 dias via trem-leito de luxo. Ilhas de junco do Titicaca, centro colonial de pedra branca de Arequipa, condores no Colca Canyon." }
+    {
+      "name": "Lima",
+      "bestFor": "Chegada, capital gastronômica, cultura da costa pacífica",
+      "description": "A primeira parada. Distrito de arte de Barranco (Hotel B), falésia de Miraflores (Belmond Miraflores Park), ruínas de Pachacamac. 1-2 noites para ajustar jet lag e jantar no Maido ou Central."
+    },
+    {
+      "name": "Cusco",
+      "bestFor": "Capital inca, aclimatação à altitude, arquitetura colonial",
+      "description": "Ponto de partida para qualquer roteiro do Vale Sagrado. 3.400 m de altitude — precisa de 2 noites mínimo para aclimatar. Belmond Monasterio e Palacio Nazarenas são as estadas icônicas."
+    },
+    {
+      "name": "Vale Sagrado (Urubamba)",
+      "bestFor": "Transição em altitude mais baixa, ruínas incas, lodges à beira-rio",
+      "description": "2.800 m — mais fácil de respirar que Cusco. Pisac e Ollantaytambo, vilas de tecelagem, Sol y Luna e Tambo del Inka. 2-3 noites."
+    },
+    {
+      "name": "Aguas Calientes / Machu Picchu",
+      "bestFor": "Nascer do sol da cidadela, floresta nublada, fontes termais",
+      "description": "Vila no fundo do rio, 400 m abaixo de Machu Picchu. Inkaterra Machu Picchu Pueblo (casitas em floresta nublada) e Belmond Sanctuary Lodge (literalmente nos portões). 1-2 noites."
+    },
+    {
+      "name": "Lago Titicaca / Arequipa",
+      "bestFor": "Reta final no altiplano, destino do Andean Explorer",
+      "description": "Extensão opcional de 2-3 dias via trem-leito de luxo. Ilhas de junco do Titicaca, centro colonial de pedra branca de Arequipa, condores no Colca Canyon."
+    }
   ],
   "expertTips": [
-    { "tip": "Aclimatize 2 noites em Cusco antes de Machu Picchu", "detail": "Não voe Cusco → Machu Picchu no mesmo dia. Cusco é 3.400 m — até viajantes em forma sentem. Duas noites de caminhada lenta, chá de coca e quartos enriquecidos com oxigênio do Belmond tornam o resto da viagem agradável." },
-    { "tip": "Reserve Sanctuary Lodge ou Inkaterra com pelo menos 6 meses", "detail": "Sanctuary Lodge tem 31 quartos e é o único hotel na cidadela — mai-out esgota com 9+ meses. Inkaterra Machu Picchu Pueblo é a forte segunda escolha e levemente mais fácil de reservar." },
-    { "tip": "Faça Huayna Picchu (ou Machu Picchu Mountain) na segunda manhã", "detail": "Maioria faz nascer do sol Dia 1, depois retorna Dia 2 para a trilha Huayna Picchu (o pico íngreme da foto famosa). 400 permits/dia, deve reservar com meses." },
-    { "tip": "Leve notas pequenas (10/20 soles)", "detail": "Gorjeta em hotéis e restaurantes é padrão. Muitos pequenos museus, barracas de mercado e vilas do Vale Sagrado não pegam cartão. Saque soles pequenos em ATMs do aeroporto." },
-    { "tip": "Pacote para clima em camadas em altitude", "detail": "Cusco de manhã é 0°C, sol do meio-dia é 22°C, noite cai para 5°C. Mesmo dia. Camadas de merino + casca dura + chapéu de sol é a fórmula. UV em altitude é brutal — protetor próprio e lip balm." }
+    {
+      "tip": "Aclimatize 2 noites em Cusco antes de Machu Picchu",
+      "detail": "Não voe Cusco → Machu Picchu no mesmo dia. Cusco é 3.400 m — até viajantes em forma sentem. Duas noites de caminhada lenta, chá de coca e quartos enriquecidos com oxigênio do Belmond tornam o resto da viagem agradável."
+    },
+    {
+      "tip": "Reserve Sanctuary Lodge ou Inkaterra com pelo menos 6 meses",
+      "detail": "Sanctuary Lodge tem 31 quartos e é o único hotel na cidadela — mai-out esgota com 9+ meses. Inkaterra Machu Picchu Pueblo é a forte segunda escolha e levemente mais fácil de reservar."
+    },
+    {
+      "tip": "Faça Huayna Picchu (ou Machu Picchu Mountain) na segunda manhã",
+      "detail": "Maioria faz nascer do sol Dia 1, depois retorna Dia 2 para a trilha Huayna Picchu (o pico íngreme da foto famosa). 400 permits/dia, deve reservar com meses."
+    },
+    {
+      "tip": "Leve notas pequenas (10/20 soles)",
+      "detail": "Gorjeta em hotéis e restaurantes é padrão. Muitos pequenos museus, barracas de mercado e vilas do Vale Sagrado não pegam cartão. Saque soles pequenos em ATMs do aeroporto."
+    },
+    {
+      "tip": "Pacote para clima em camadas em altitude",
+      "detail": "Cusco de manhã é 0°C, sol do meio-dia é 22°C, noite cai para 5°C. Mesmo dia. Camadas de merino + casca dura + chapéu de sol é a fórmula. UV em altitude é brutal — protetor próprio e lip balm."
+    }
   ],
   "packing": [
-    { "item": "Bota ou tênis de trilha amaciados", "why": "Caminhos da cidadela de Machu Picchu são pedras incas irregulares. Day-hikes do Sol y Luna ou Vale Sagrado exigem aderência real." },
-    { "item": "Roupa em camadas para variações de altitude", "why": "Variações de 15°C no mesmo dia são normais. Base de merino + fleece + casca leve é a fórmula." },
-    { "item": "Protetor solar UV forte (FPS 50+) e lip balm", "why": "UV a 3.400 m é dramaticamente mais forte que ao nível do mar. FPS mineral reef-friendly e lip balm com FPS são essenciais." },
-    { "item": "Medicação para altitude (Diamox)", "why": "Pré-trilha do seu médico. Muitos casais beneficiam, sobretudo indo direto para Cusco. Chá de coca ajuda mas Diamox é a solução real." },
-    { "item": "Day pack com bolsa de hidratação", "why": "Você ficará em pé 4-6h/dia em altitude. 2L de água mínimo; o sol do Vale Sagrado desidrata." }
+    {
+      "item": "Bota ou tênis de trilha amaciados",
+      "why": "Caminhos da cidadela de Machu Picchu são pedras incas irregulares. Day-hikes do Sol y Luna ou Vale Sagrado exigem aderência real."
+    },
+    {
+      "item": "Roupa em camadas para variações de altitude",
+      "why": "Variações de 15°C no mesmo dia são normais. Base de merino + fleece + casca leve é a fórmula."
+    },
+    {
+      "item": "Protetor solar UV forte (FPS 50+) e lip balm",
+      "why": "UV a 3.400 m é dramaticamente mais forte que ao nível do mar. FPS mineral reef-friendly e lip balm com FPS são essenciais."
+    },
+    {
+      "item": "Medicação para altitude (Diamox)",
+      "why": "Pré-trilha do seu médico. Muitos casais beneficiam, sobretudo indo direto para Cusco. Chá de coca ajuda mas Diamox é a solução real."
+    },
+    {
+      "item": "Day pack com bolsa de hidratação",
+      "why": "Você ficará em pé 4-6h/dia em altitude. 2L de água mínimo; o sol do Vale Sagrado desidrata."
+    }
   ],
   "guide": {
     "getting": "Voe para Lima (LIM) — maioria dos voos internacionais da Europa (Iberia, Air Europa, KLM) ou EUA (LATAM, American, Delta). 12-14h da Europa com uma conexão. Voos internos LATAM e Sky até Cusco (CUZ) — 1h, várias diárias. Maioria dos roteiros: chegue Lima → 1 noite Lima → voe Cusco de manhã → transfer para Vale Sagrado (altitude mais baixa, aclimatação mais fácil). Andean Explorer parte de Cusco; Belmond também opera Hiram Bingham, trem de luxo de dia para Machu Picchu.",
@@ -72,5 +251,9 @@
   "localFood": "Ceviche (peixe cru em leche de tigre — prato definidor de Lima); lomo saltado (refogado sino-peruano de boi sobre arroz e batata); ají de gallina (frango cremoso com pimenta amarela); cuy (porquinho-da-índia — prato andino tradicional, muitas vezes assado inteiro, visão adquirida); anticuchos (espetinhos de coração de boi); causa (terrinas frias de batata); pisco sour (coquetel nacional); chicha morada (bebida doce de milho roxo); chá de coca (mate de coca — remédio para altitude); Inca Kola (refrigerante amarelo sabor chiclete); café peruano de Chanchamayo; bifes de alpaca em lodges do Vale Sagrado. O top de Lima — Central, Maido, Mayta, Astrid y Gastón — é genuinamente líder mundial.",
   "currency": "Sol peruano (PEN). USD amplamente aceito em hotéis e operadores; cartões em cidades. Leve notas USD pequenas e novas para gorjetas e pequenas compras.",
   "language": "Espanhol (sotaque peruano — claro, ritmo médio); quíchua em vilas andinas. Inglês em hotéis e restaurantes principais; menos em mercados e zonas rurais.",
-  "timezone": "UTC-5 o ano todo (sem horário de verão)"
+  "timezone": "UTC-5 o ano todo (sem horário de verão)",
+  "seo": {
+    "title": "Lua de Mel no Peru: 8 Hotéis Vale Sagrado e Machu Picchu",
+    "description": "8 estadias em Cusco, Vale Sagrado e Titicaca pontuadas. Belmond, Inkaterra. De $400/noite. Mai-out."
+  }
 }

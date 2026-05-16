@@ -16,6 +16,7 @@ export interface Comparison {
   b: { destination: string; label: string }
   tagline: string
   metaDescription: string
+  seo?: { title?: string; description?: string }
   verdict: string
   tldr: { forA: string; forB: string; tie: string }
   criteria: ComparisonCriterion[]
@@ -32,6 +33,10 @@ export const COMPARISONS: Comparison[] = [
     b: { destination: 'bora-bora', label: 'Bora Bora' },
     tagline: 'The two overwater villa kingdoms — which is your honeymoon?',
     metaDescription: 'Maldives or Bora Bora for a honeymoon? Side-by-side on flights, overwater villas, water, food, price, privacy. Picks for every type of couple.',
+    seo: {
+      title: 'Maldives vs Bora Bora Honeymoon: 2026 Honest Verdict',
+      description: 'Maldives or Bora Bora for honeymoon? Real comparison on flights, overwater villas, water clarity, food, and price for 2026. Picks for each type of couple.',
+    },
     verdict: 'Both are bucket-list overwater villa destinations, but they answer different questions. The Maldives wins on water clarity, sheer choice, and pure privacy — each resort occupies its own private atoll. Bora Bora wins on backdrop (Mount Otemanu is the most cinematic mountain over a lagoon on earth) and cultural richness. If your honeymoon photo is the single most important output, pick Bora Bora. If underwater life and total isolation are everything, pick the Maldives.',
     tldr: {
       forA: 'The Maldives — if you want the purest water, the widest choice of resorts, and the feeling of being alone on an island.',
@@ -90,6 +95,10 @@ export const COMPARISONS: Comparison[] = [
     b: { destination: 'seychelles', label: 'Seychelles' },
     tagline: 'Flat atoll paradise vs granite-boulder beaches — two very different Indian Oceans.',
     metaDescription: 'Maldives or Seychelles for your honeymoon? Overwater villas vs granite boulder beaches, marine life, privacy, cost. Full comparison.',
+    seo: {
+      title: 'Maldives vs Seychelles Honeymoon: 2026 Decision Guide',
+      description: 'Maldives vs Seychelles for honeymoon: overwater villas or granite-boulder beaches? Side-by-side on marine life, privacy, flights, cost. 2026 verdict.',
+    },
     verdict: 'The Maldives offer the purest water, the widest resort choice, and the purest overwater villa experience. The Seychelles offer more varied landscapes — dramatic granite boulders, lush jungle-covered peaks, actual hikable islands with culture and local life. If you want to laze in a villa above crystal water for 7 days, pick the Maldives. If you want beach + mountain + culture + wildlife (giant tortoises!) in one trip, pick the Seychelles.',
     tldr: {
       forA: 'The Maldives — for overwater villa purity, marine life, and total resort immersion.',
@@ -141,6 +150,10 @@ export const COMPARISONS: Comparison[] = [
     b: { destination: 'thailand', label: 'Thailand' },
     tagline: 'Spiritual Hindu island versus Southeast Asian variety — where\'s your honeymoon?',
     metaDescription: 'Bali or Thailand for a honeymoon? Spiritual Ubud vs Thai beaches and culture. Hotels, food, price, activities. Honest side-by-side.',
+    seo: {
+      title: 'Bali vs Thailand Honeymoon: Real Cost Comparison 2026',
+      description: 'Bali vs Thailand for honeymoon 2026: Ubud spirituality vs Thai islands. Real costs, hotels, food, flights, activities — picks for each kind of couple.',
+    },
     verdict: 'Bali is a single island of remarkable concentration — rice terraces, temples, cliff beaches, jungle, and some of the world\'s best boutique luxury within 2-3 hours of each other. Thailand is a whole country with huge variety: Phuket\'s islands, Koh Samui\'s beaches, Chiang Mai\'s temples, Bangkok\'s food scene. If you want a focused spiritual-romantic honeymoon on one island with superb design-forward hotels, pick Bali. If you want multi-city variety, deeper culture, and the best street food in Asia, pick Thailand.',
     tldr: {
       forA: 'Bali — for Ubud\'s rice-terrace wellness retreats, Uluwatu\'s cliff pools, one-island intensity.',
@@ -192,6 +205,10 @@ export const COMPARISONS: Comparison[] = [
     b: { destination: 'amalfi', label: 'Amalfi Coast' },
     tagline: 'Cyclades caldera white vs Italian cliffside dolce vita — Europe\'s two most iconic coastlines.',
     metaDescription: 'Santorini or the Amalfi Coast for your honeymoon? Sunsets, hotels, food, crowds, prices. Side-by-side for couples deciding.',
+    seo: {
+      title: 'Santorini vs Amalfi Honeymoon: 2026 Decision Guide',
+      description: 'Santorini vs Amalfi Coast for honeymoon 2026: caldera sunsets vs cliffside lemon groves. Hotels, food, crowds, prices — honest side-by-side verdict.',
+    },
     verdict: 'Both are postcard destinations and both will deliver a romantic honeymoon. Santorini is more visually iconic (the caldera view, blue domes, white villages, volcanic sunsets) and more hotel-concentrated on adults-only cliffside properties. The Amalfi Coast is more varied (Positano, Ravello, Capri, Sorrento, Capri), has deeper food culture, and feels less overrun if you choose smaller towns. If the perfect sunset photo matters most, pick Santorini. If you want multi-village variety, limoncello terraces, and Italian dolce vita, pick Amalfi.',
     tldr: {
       forA: 'Santorini — if the sunset photo and adults-only cliffside suite is your honeymoon image.',
@@ -243,6 +260,10 @@ export const COMPARISONS: Comparison[] = [
     b: { destination: 'tanzania', label: 'Tanzania' },
     tagline: 'Maasai Mara or Serengeti — where\'s your Big Five honeymoon?',
     metaDescription: 'Kenya or Tanzania for a honeymoon safari? Maasai Mara vs Serengeti, lodges, wildlife, price, access. Expert side-by-side.',
+    seo: {
+      title: 'Kenya vs Tanzania Safari Honeymoon: Which Wins 2026?',
+      description: 'Kenya vs Tanzania safari honeymoon 2026: Maasai Mara vs Serengeti, lodges, Big Five density, price and access. Expert verdict for newlyweds.',
+    },
     verdict: 'Kenya and Tanzania share the same ecosystem — the Great Migration moves between them seasonally. Kenya wins on accessibility (easier to reach, cheaper flights) and diversity of private conservancies. Tanzania wins on sheer scale (Serengeti + Ngorongoro + Kilimanjaro + Zanzibar beach extension in one trip). Both have world-class lodges. For first-time Africa honeymooners coming from Europe, Kenya is slightly easier. For a longer trip combining safari + beach, Tanzania is unbeatable.',
     tldr: {
       forA: 'Kenya — easier logistics, Maasai Mara conservancies, shorter safari-only trip.',
@@ -294,6 +315,10 @@ export const COMPARISONS: Comparison[] = [
     b: { destination: 'mauritius', label: 'Mauritius' },
     tagline: 'Private-atoll overwater paradise vs lagoon-ringed island of variety.',
     metaDescription: 'Maldives or Mauritius for a honeymoon? Overwater villas, excursions, culture, food, value. Side-by-side expert guide.',
+    seo: {
+      title: 'Maldives vs Mauritius Honeymoon: 2026 Value Verdict',
+      description: 'Maldives vs Mauritius for honeymoon 2026: overwater isolation vs island-with-things-to-do. Hotels, excursions, food, value. Expert picks per couple.',
+    },
     verdict: 'The Maldives win on the overwater villa experience and pure ocean clarity. Mauritius wins on variety (mountains, hikes, waterfalls, tea plantations, markets, food culture) and value. The Maldives is a focused "resort as destination" experience; Mauritius feels like a whole country you\'re exploring. If you want to disappear into a villa, pick the Maldives. If you want resort + excursions + culture, pick Mauritius.',
     tldr: {
       forA: 'The Maldives — overwater villa purity, total resort immersion.',
@@ -342,6 +367,10 @@ export const COMPARISONS: Comparison[] = [
     b: { destination: 'fiji', label: 'Fiji' },
     tagline: 'Iconic overwater lagoon vs private island luxury — two South Pacific fantasies.',
     metaDescription: 'Bora Bora or Fiji for a honeymoon? Overwater villas, private islands, water, culture, flights. Which is right for your couple?',
+    seo: {
+      title: 'Bora Bora vs Fiji Honeymoon: 2026 Pacific Verdict',
+      description: 'Bora Bora vs Fiji for honeymoon 2026: iconic Otemanu vs Fijian private islands. Overwater villas, culture, flights, price. Picks for each couple.',
+    },
     verdict: 'Bora Bora delivers the iconic overwater bungalow with Mount Otemanu as backdrop — a single-image destination that\'s been marketed as "paradise" for 50 years. Fiji offers private-island resorts where you\'re often the only guests on your own patch of reef — Laucala, Kokomo, Vatulele. Bora Bora is more polished and photogenic; Fiji is more intimate and adventurous. If you want the bucket-list photo, Bora Bora. If you want utter seclusion on a private island, Fiji.',
     tldr: {
       forA: 'Bora Bora — for the iconic Otemanu backdrop and definitive overwater villa photograph.',
@@ -396,6 +425,10 @@ export const COMPARISONS: Comparison[] = [
     b: { destination: 'turks-and-caicos', label: 'Turks & Caicos' },
     tagline: 'Dramatic Pitons & rainforest vs flat turquoise perfection — two very different Caribbeans.',
     metaDescription: 'St Lucia or Turks and Caicos for a honeymoon? Pitons drama vs Grace Bay perfection. Flights, hotels, beaches, adventure. Full comparison.',
+    seo: {
+      title: 'St Lucia vs Turks & Caicos Honeymoon: 2026 Verdict',
+      description: 'St Lucia vs Turks & Caicos for honeymoon 2026: Pitons drama or Grace Bay sand? Hotels, beaches, flights, adventure factor. Real Caribbean picks.',
+    },
     verdict: 'St. Lucia is the most dramatic Caribbean island — the Pitons rise 700m out of the sea, rainforests, sulphur springs, and chocolate-making jungle estates. Turks & Caicos is the most beach-perfect — Grace Bay consistently ranks #1 beach in the world, flat turquoise shallow water for miles. St. Lucia is for adventure + dramatic romance; Turks & Caicos is for pure beach bliss and the cleanest water in the Caribbean.',
     tldr: {
       forA: 'St. Lucia — for the Pitons view, jungle adventures, and dramatic landscape.',
@@ -451,6 +484,10 @@ export const COMPARISONS: Comparison[] = [
     b: { destination: 'maldives', label: 'Maldives' },
     tagline: 'Spiritual jungle island vs overwater atoll paradise — pick your honeymoon soul.',
     metaDescription: 'Bali or Maldives for a honeymoon? Ubud rice terraces vs overwater villas. Different vibes entirely. Which suits your couple?',
+    seo: {
+      title: 'Bali vs Maldives Honeymoon: 2026 Vibe Decision Guide',
+      description: 'Bali vs Maldives for honeymoon 2026: Ubud rice terraces or overwater villas? Cost, vibe, flights, culture — opposite trips, one honest verdict.',
+    },
     verdict: 'These destinations don\'t really compete — they answer opposite questions. Bali is about spirituality, culture, food, jungle, and activity. The Maldives is about doing nothing in a villa over water with perfect clarity. Couples who want to do and explore pick Bali. Couples who want to disconnect and be pick Maldives. If you can\'t decide, you likely want both — do 4 nights Bali + 5 nights Maldives on a single 10-day trip (well-connected flights via Singapore).',
     tldr: {
       forA: 'Bali — spiritual Ubud, Uluwatu cliffs, culture, food, and incredible value luxury.',
@@ -505,6 +542,10 @@ export const COMPARISONS: Comparison[] = [
     b: { destination: 'jordan', label: 'Jordan' },
     tagline: 'Riad romance & Atlas desert vs Petra & Wadi Rum — the MENA honeymoon showdown.',
     metaDescription: 'Morocco or Jordan for a honeymoon? Marrakech riads, Sahara sunsets, Petra, Wadi Rum. Culture, romance, logistics. Full comparison.',
+    seo: {
+      title: 'Morocco vs Jordan Honeymoon: 2026 Desert Verdict',
+      description: 'Morocco vs Jordan for honeymoon 2026: Marrakech riads and Sahara dunes vs Petra and Wadi Rum. Culture, romance, logistics — expert side-by-side.',
+    },
     verdict: 'Morocco offers the most concentrated luxury in North Africa — Marrakech\'s royal riads (Royal Mansour, La Mamounia, Amanjena) are some of the finest hotels on earth. Jordan offers the most dramatic archaeology and landscape in the Middle East — Petra is a once-in-a-lifetime sight, Wadi Rum looks like Mars. Morocco is romance-on-rails, Jordan is adventure-honeymoon. If you want hammams, candlelit palace dinners, and dessert sunsets, Morocco. If you want to horse-ride through Petra at dawn and sleep under the stars in a Martian valley, Jordan.',
     tldr: {
       forA: 'Morocco — for the world\'s most opulent riads, Marrakech souks, and Sahara camel treks.',
@@ -558,6 +599,10 @@ export const COMPARISONS: Comparison[] = [
     b: { destination: 'switzerland', label: 'Switzerland' },
     tagline: 'Otherworldly volcanic Arctic vs Alpine grand-hotel glamour — cold honeymoons done right.',
     metaDescription: 'Iceland or Switzerland for a honeymoon? Northern Lights vs Matterhorn. Geothermal vs grand hotels. Full honeymoon comparison.',
+    seo: {
+      title: 'Iceland vs Switzerland Honeymoon: 2026 Cold Verdict',
+      description: 'Iceland vs Switzerland for honeymoon 2026: Northern Lights and lava fields vs Matterhorn and grand hotels. Season, cost, romance — full comparison.',
+    },
     verdict: 'Iceland is another planet — volcanic landscapes, Northern Lights, geothermal lagoons, glaciers. Switzerland is Europe at its most polished — Matterhorn-view suites, century-old grand dames, fondue by candlelight in car-free villages. Iceland is for couples who want awe and adventure. Switzerland is for couples who want romance and refinement. Iceland under $800/night feels adventurous; Switzerland under $800/night feels cramped.',
     tldr: {
       forA: 'Iceland — for awe, Northern Lights, and volcanic landscape drama.',
@@ -612,6 +657,10 @@ export const COMPARISONS: Comparison[] = [
     b: { destination: 'amalfi', label: 'Italy' },
     tagline: 'Aegean caldera whites vs Italian dolce vita — the Mediterranean showdown.',
     metaDescription: 'Greece or Italy for a honeymoon? Santorini sunsets vs Amalfi Coast. Islands vs mainland. Food, romance, logistics. Full comparison.',
+    seo: {
+      title: 'Greece vs Italy Honeymoon: 2026 Mediterranean Verdict',
+      description: 'Greece vs Italy for honeymoon 2026: island-hopping vs Amalfi cliffs. Food, romance, hotels, costs and logistics — honest Mediterranean picks.',
+    },
     verdict: 'Greece is about islands (Santorini, Mykonos, Milos) and caldera romance. Italy is about coastlines (Amalfi, Cinque Terre, Capri) and multi-city variety (Rome + Tuscany + Venice). Greek islands are more focused — single-island, single-resort honeymoons. Italy is more of a grand tour. Greece wins on concentrated romance (sunset cliffside suite, one island, no driving). Italy wins on depth and cultural richness — you can do Rome + Amalfi + Tuscany in 10 days.',
     tldr: {
       forA: 'Greece — for focused single-island romance, Oia sunsets, adults-only caldera suites.',
@@ -666,6 +715,10 @@ export const COMPARISONS: Comparison[] = [
     b: { destination: 'caribbean', label: 'Caribbean' },
     tagline: 'Tulum cenotes & Baja deserts vs island-hopping paradise — where\'s your easy-flight honeymoon?',
     metaDescription: 'Mexico or Caribbean for a honeymoon? Los Cabos vs Antigua, Tulum vs Bahamas. Flights, cuisine, culture, prices. Expert comparison.',
+    seo: {
+      title: 'Mexico vs Caribbean Honeymoon: Cost & Flight Pick 2026',
+      description: 'Mexico vs Caribbean for honeymoon 2026: Los Cabos, Tulum or Antigua, Bahamas? Flights, cuisine, all-inclusive value, culture — expert side-by-side.',
+    },
     verdict: 'Both are easy-flight options from the US east and west coasts. Mexico offers far more variety (desert, jungle, cenotes, cities, beach, food culture) within one country. The Caribbean offers the classic island-hopping honeymoon — each island has a distinct personality (Antigua, Anguilla, Nevis, Barbados). Mexico wins on value, cuisine, and depth. The Caribbean wins on exclusivity, English-speaking ease, and beach quality.',
     tldr: {
       forA: 'Mexico — for variety, cuisine, affordability, and experiences beyond the beach.',
@@ -719,6 +772,10 @@ export const COMPARISONS: Comparison[] = [
     b: { destination: 'french-polynesia', label: 'French Polynesia' },
     tagline: 'Indian Ocean atolls vs South Pacific volcanic islands — the two overwater kingdoms.',
     metaDescription: 'Maldives or French Polynesia for your honeymoon? Atoll resorts vs Bora Bora / Moorea / Tikehau island-hopping. Full comparison.',
+    seo: {
+      title: 'Maldives vs French Polynesia Honeymoon: 2026 Verdict',
+      description: 'Maldives vs French Polynesia for honeymoon 2026: single atoll resort vs Bora Bora–Moorea–Tikehau island-hop. Flights, cost, vibe — honest picks.',
+    },
     verdict: 'The Maldives is a focused single-country overwater-villa destination — 120+ resorts, pure white atolls, world-class marine life. French Polynesia is a multi-island archipelago where you can combine Bora Bora (lagoon glamour) + Moorea (dramatic peaks) + Tikehau (off-grid atoll) + Tetiaroa (The Brando). The Maldives is more consistent and polished; French Polynesia is more varied and culturally rich. For a single 7-night resort stay, the Maldives. For a 10-14 night island-hopping trip, French Polynesia.',
     tldr: {
       forA: 'Maldives — for a focused 5-7 night overwater villa honeymoon with marine life.',
@@ -773,6 +830,10 @@ export const COMPARISONS: Comparison[] = [
     b: { destination: 'st-lucia', label: 'St Lucia' },
     tagline: 'Two adults-only honeymoon kingdoms — Riviera Maya cenotes or Pitons jungle?',
     metaDescription: 'Mexico vs St Lucia for a honeymoon: flights, adults-only resorts, scenery, food, all-inclusive value, romance factor. Side-by-side picks.',
+    seo: {
+      title: 'Mexico vs St Lucia Honeymoon: 2026 All-Inclusive Pick',
+      description: 'Mexico vs St Lucia for honeymoon 2026: adults-only resorts, flights, scenery, all-inclusive value, romance. Side-by-side picks for newlyweds.',
+    },
     verdict: 'Both are adults-only-resort heavyweights, but the experience is opposite. Mexico (Riviera Maya, Los Cabos) gives you cenotes, Mayan ruins, world-class food, and the broadest luxury choice (Belmond Maroma, One&Only Palmilla, Rosewood). St Lucia gives you the most cinematic landscape in the Caribbean (the Pitons) and intimate plantation-style resorts where the rainforest meets the beach. Mexico wins on variety and price; St Lucia wins on landscape drama and intimacy.',
     tldr: {
       forA: 'Mexico — for adults-only resort variety, food culture, cenotes/ruins, and shorter US flights.',
@@ -830,6 +891,10 @@ export const COMPARISONS: Comparison[] = [
     b: { destination: 'maldives', label: 'Maldives' },
     tagline: 'Mexican luxury beach vs Maldivian overwater villa — two visions of paradise.',
     metaDescription: 'Mexico or Maldives for honeymoon? Compare luxury resorts, overwater villas, food, flights, price and culture. Picks for every type of couple.',
+    seo: {
+      title: 'Mexico vs Maldives Honeymoon: 2026 Reach & Cost Pick',
+      description: 'Mexico vs Maldives for honeymoon 2026: short-haul luxury or long-haul overwater? Resorts, food, flights, price, culture — picks for each couple.',
+    },
     verdict: 'These don\'t answer the same question. The Maldives is a single experience executed perfectly — overwater villa, no mainland, total immersion in water. Mexico is a portfolio destination — beach, ruins, food, mezcal, urban culture, all reachable. If your honeymoon image is the overwater bungalow with glass floors, the Maldives wins outright. If you want a richer, more varied, more affordable trip with world-class food and culture, Mexico wins. They\'re both right answers to different questions.',
     tldr: {
       forA: 'Mexico — for variety, food, ruins, mezcal, and significantly better value.',
@@ -888,6 +953,10 @@ export const COMPARISONS: Comparison[] = [
     b: { destination: 'bali', label: 'Bali' },
     tagline: 'Riviera Maya vs Ubud — two cultural-honeymoon heavyweights compared.',
     metaDescription: 'Mexico or Bali for honeymoon: flights, luxury resorts, culture, food, beaches, value. Side-by-side comparison and picks.',
+    seo: {
+      title: 'Mexico vs Bali Honeymoon: Cost, Flight, Verdict 2026',
+      description: 'Mexico vs Bali for honeymoon 2026: 4-hour Cabos vs 22-hour Ubud. Real costs, luxury resorts, culture, food, beaches — expert picks per couple.',
+    },
     verdict: 'Both are top-tier cultural honeymoon destinations with strong luxury inventory and deep food cultures, but they\'re mirror opposites by geography. For US couples, Mexico is short-haul and obvious. For Australian, European, and Asian couples, Bali is closer. The experience differs too: Mexico is beach-and-ruins (Mayan civilization, cenotes, Cabo coastline), Bali is jungle-and-temple (rice terraces, water temples, Ubud spiritual vibe). Pick based on geography first, then on whether your honeymoon image is "Caribbean turquoise" or "rice paddies and incense".',
     tldr: {
       forA: 'Mexico — short flight from the Americas, world-class food, beach + culture combo.',
@@ -947,6 +1016,10 @@ export const COMPARISONS: Comparison[] = [
     b: { destination: 'fiji', label: 'Fiji' },
     tagline: 'Two overwater villa kingdoms — Indian Ocean precision or Pacific warmth?',
     metaDescription: 'Maldives or Fiji for a honeymoon? Compare overwater villas, water clarity, flights, food, culture, price. Picks for every type of couple.',
+    seo: {
+      title: 'Maldives vs Fiji Honeymoon: 2026 Overwater Verdict',
+      description: 'Maldives vs Fiji for honeymoon 2026: glass-water atolls vs Fijian island warmth. Overwater villas, flights, food, culture, price — honest picks.',
+    },
     verdict: 'Both deliver the iconic overwater bungalow honeymoon, but the soul of each trip is opposite. The Maldives is precise, polished, and quiet — each resort a private island, no host culture, the focus entirely on the room and the water. Fiji is warm, social, and culturally rich — Fijian people are widely considered the most welcoming hosts in tourism, and resorts integrate village visits, kava ceremonies, and meke dance. Maldives wins on water clarity and design execution; Fiji wins on human warmth and cultural depth at a much lower price point.',
     tldr: {
       forA: 'Maldives — for the purest water, design-magazine resorts, and total resort-as-island privacy.',
@@ -1006,6 +1079,10 @@ export const COMPARISONS: Comparison[] = [
     b: { destination: 'mauritius', label: 'Mauritius' },
     tagline: 'Mount Otemanu volcanic drama or Mauritian Creole melting pot?',
     metaDescription: 'Bora Bora vs Mauritius for a honeymoon: flights, overwater villas, beaches, culture, food, price. Side-by-side picks.',
+    seo: {
+      title: 'Bora Bora vs Mauritius Honeymoon: 2026 Real Verdict',
+      description: 'Bora Bora vs Mauritius for honeymoon 2026: iconic overwater photograph vs island-with-everything. Flights, beaches, culture, price — clear picks.',
+    },
     verdict: 'Two volcanic islands with overwater inventory, but they answer completely different questions. Bora Bora is a destination — a single iconic image (Mount Otemanu rising over the lagoon) and a polished French Polynesian welcome. Mauritius is a country — Creole culture, Hindu temples, Chinese pagodas, French colonial architecture, golf, six biospheres, and the most cosmopolitan tropical mix anywhere. Pick Bora Bora for the photograph, the lagoon, and the sheer geographic drama. Pick Mauritius for cultural depth, golf, dining variety, and 30-50% better value.',
     tldr: {
       forA: 'Bora Bora — for Mount Otemanu, French Polynesian polish, the iconic overwater photo.',
@@ -1064,6 +1141,10 @@ export const COMPARISONS: Comparison[] = [
     b: { destination: 'seychelles', label: 'Seychelles' },
     tagline: 'Two Indian Ocean honeymoon staples — variety and value or pure granite-and-sand drama?',
     metaDescription: 'Mauritius vs Seychelles for a honeymoon: flights, beaches, overwater, culture, value. Side-by-side comparison and picks.',
+    seo: {
+      title: 'Mauritius vs Seychelles Honeymoon: 2026 Island Pick',
+      description: 'Mauritius vs Seychelles for honeymoon 2026: lively Creole island vs granite-boulder isolation. Beaches, hotels, value, flights — side-by-side picks.',
+    },
     verdict: 'Both Indian Ocean island nations, both world-class honeymoon destinations, but very different propositions. Mauritius is a varied, cosmopolitan, larger country with cultural depth, golf, food fusion, and excellent value. Seychelles is smaller in scope but unmatched in raw beauty — the granite-boulder beaches of La Digue and Praslin (Anse Source d\'Argent, Anse Lazio) are arguably the most beautiful tropical beaches on earth, period. Mauritius wins on variety and value; Seychelles wins on the photograph and the sheer wow factor.',
     tldr: {
       forA: 'Mauritius — for cultural variety, food, golf, and 30-40% better value.',
@@ -1123,6 +1204,10 @@ export const COMPARISONS: Comparison[] = [
     b: { destination: 'south-africa', label: 'South Africa' },
     tagline: 'Maasai Mara migration drama vs South African safari + wine + coast trifecta.',
     metaDescription: 'Kenya vs South Africa for honeymoon safari: wildlife, lodges, multi-stop trips, food, value. Side-by-side picks.',
+    seo: {
+      title: 'Kenya vs South Africa Safari Honeymoon: 2026 Verdict',
+      description: 'Kenya vs South Africa safari honeymoon 2026: Maasai Mara vs Kruger and Cape Town. Wildlife density, lodges, multi-stop trips, food, value — picks.',
+    },
     verdict: 'Kenya is a pure safari country — the Maasai Mara hosts the world\'s greatest wildlife spectacle (the Great Migration), and Kenyan camp culture is the original safari romance. South Africa is a portfolio: world-class safari (Sabi Sand, Kruger) plus Cape Town, the Winelands, the Garden Route, and Camps Bay beaches — a 14-day honeymoon can feel like three trips in one. Pick Kenya for migration purity and pioneer-camp romance. Pick South Africa for variety and infrastructure.',
     tldr: {
       forA: 'Kenya — for the Great Migration and pure-safari honeymoon.',
@@ -1180,6 +1265,10 @@ export const COMPARISONS: Comparison[] = [
     b: { destination: 'botswana', label: 'Botswana' },
     tagline: 'Serengeti drama or Okavango Delta exclusivity — premium safari head-to-head.',
     metaDescription: 'Tanzania vs Botswana for honeymoon safari: Serengeti vs Okavango, lodges, value, wildlife, scenery. Side-by-side picks.',
+    seo: {
+      title: 'Tanzania vs Botswana Safari Honeymoon: 2026 Verdict',
+      description: 'Tanzania vs Botswana safari honeymoon 2026: Serengeti and Migration vs Okavango Delta water-game. Lodges, value, wildlife, scenery — honest picks.',
+    },
     verdict: 'Both deliver world-class safari, but the format is opposite. Tanzania (Serengeti, Ngorongoro) is large-scale spectacle — vast plains, the Great Migration, Mount Kilimanjaro on the horizon. Botswana (Okavango Delta) is intimate exclusivity — the world\'s largest inland delta is a UNESCO wonder where you safari by mokoro canoe through papyrus channels and there are 5x fewer tourists per square mile than the Serengeti. Tanzania wins on landscape and migration; Botswana wins on exclusivity and water-based safari.',
     tldr: {
       forA: 'Tanzania — for Serengeti scale, the Great Migration, and Zanzibar beach extension.',
@@ -1237,6 +1326,10 @@ export const COMPARISONS: Comparison[] = [
     b: { destination: 'croatia', label: 'Croatia' },
     tagline: 'Cycladic whitewash vs Adriatic stone — the Mediterranean honeymoon duel.',
     metaDescription: 'Greece vs Croatia for honeymoon: islands, food, sailing, beaches, value. Side-by-side picks for every couple.',
+    seo: {
+      title: 'Greece vs Croatia Honeymoon: 2026 Adriatic vs Aegean',
+      description: 'Greece vs Croatia for honeymoon 2026: Cyclades sunsets vs Dalmatian island sailing. Food, beaches, value, romance — picks for each kind of couple.',
+    },
     verdict: 'Both are top-tier Mediterranean honeymoon destinations with strong island-hopping appeal, but the soul of each trip is different. Greece is theatrical — Cycladic whitewashed villages tumbling into impossible blue (Santorini, Mykonos, Milos), with the deepest food culture in the Med. Croatia is stone — Dalmatian medieval cities (Dubrovnik, Hvar, Korčula), pine forests, crystal-clear water, and a more polished, Italian-adjacent feel. Greece wins on visual drama and food; Croatia wins on water clarity and architectural sophistication.',
     tldr: {
       forA: 'Greece — for Cycladic drama, food culture, and sunset-over-Caldera romance.',
@@ -1295,6 +1388,10 @@ export const COMPARISONS: Comparison[] = [
     b: { destination: 'croatia', label: 'Croatia' },
     tagline: 'Atlantic Algarve charm vs Adriatic stone-island elegance.',
     metaDescription: 'Portugal vs Croatia for honeymoon: coast, food, wine, value. Side-by-side comparison and picks.',
+    seo: {
+      title: 'Portugal vs Croatia Honeymoon: 2026 Value Coast Pick',
+      description: 'Portugal vs Croatia for honeymoon 2026: Algarve and Douro vs Dalmatian islands. Coast, food, wine, value — honest side-by-side picks.',
+    },
     verdict: 'Two underrated European honeymoon destinations both delivering coastal romance at relative value, but pointing in opposite directions. Portugal is Atlantic — Lisbon-Porto-Algarve, surf coast, port wine country, and the Comporta minimalism that\'s become a quiet luxury favourite. Croatia is Adriatic — medieval-stone Dalmatian islands, the world\'s clearest Mediterranean water, Italian-adjacent sophistication. Portugal wins on cultural variety (city + wine + coast) and food. Croatia wins on water and island-hopping romance.',
     tldr: {
       forA: 'Portugal — for Lisbon-Porto-Algarve variety, port wine, and Atlantic surf-coast cool.',
@@ -1353,6 +1450,10 @@ export const COMPARISONS: Comparison[] = [
     b: { destination: 'vietnam', label: 'Vietnam' },
     tagline: 'Phuket beach polish vs Ha Long Bay drama — Southeast Asia honeymoon duel.',
     metaDescription: 'Thailand vs Vietnam for honeymoon: islands, food, beach, culture, value. Side-by-side picks.',
+    seo: {
+      title: 'Thailand vs Vietnam Honeymoon: 2026 Southeast Asia Pick',
+      description: 'Thailand vs Vietnam for honeymoon 2026: Phuket islands and Bangkok vs Hoi An and Ha Long Bay. Food, beach, culture, value — clear picks per couple.',
+    },
     verdict: 'Both are exceptional Southeast Asian honeymoon destinations with rich food cultures and substantial luxury hotel inventory, but they offer different experiences. Thailand is polished tropical luxury — Phuket, Krabi, Koh Samui have decades of resort sophistication and the format is well-honed. Vietnam is variety and drama — Ha Long Bay, the imperial cities of Hue and Hoi An, Phu Quoc beaches, and the Mekong Delta in one country. Thailand wins on resort polish and beach inventory; Vietnam wins on cultural variety and visual drama.',
     tldr: {
       forA: 'Thailand — for polished beach luxury, Phuket/Koh Samui resort variety, and easy travel.',
@@ -1411,6 +1512,10 @@ export const COMPARISONS: Comparison[] = [
     b: { destination: 'bali', label: 'Bali' },
     tagline: 'Kyoto cherry-blossom precision or Ubud rice-terrace serenity?',
     metaDescription: 'Japan vs Bali for honeymoon: culture, wellness, food, value, romance. Side-by-side comparison and picks.',
+    seo: {
+      title: 'Japan vs Bali Honeymoon: Culture vs Tropical Verdict',
+      description: 'Japan vs Bali for honeymoon 2026: ryokans and Kyoto vs Ubud villas and rice terraces. Culture, wellness, food, value, romance — honest picks.',
+    },
     verdict: 'These two destinations represent the most distinctive cultural honeymoons in Asia, and they answer completely different questions. Japan is polished, ritualistic, four-season cultural depth — onsen ryokans, kaiseki dining, cherry blossoms, temples, Tokyo neon, Kyoto silence. Bali is tropical, spiritual, year-round wellness — rice terraces, Hindu temples, jungle villas, beach cliffs, the world capital of yoga and wellness retreats. Japan wins on cultural sophistication and seasonality. Bali wins on tropical romance and wellness depth.',
     tldr: {
       forA: 'Japan — for cultural depth, ryokan onsen romance, four-season variety, world-leading food.',

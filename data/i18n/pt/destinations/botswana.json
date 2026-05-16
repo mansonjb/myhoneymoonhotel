@@ -55,44 +55,193 @@
     }
   ],
   "months": [
-    { "month": "Jan", "weather": "Estação chuvosa quente, verde exuberante", "emoji": "🌧", "crowds": "Baixa", "price": "Baixo", "verdict": "Muitos campos fechados; fauna mais difícil de avistar" },
-    { "month": "Feb", "weather": "Chuvas continuam, céus dramáticos", "emoji": "🌧", "crowds": "Baixa", "price": "Baixo", "verdict": "Temporada de filhotes — ótimo para animais bebês" },
-    { "month": "Mar", "weather": "Chuvas afinando, verde em todo lugar", "emoji": "🌦", "crowds": "Baixa", "price": "Baixo", "verdict": "Shoulder — bom custo-benefício, fotografia da estação verde" },
-    { "month": "Apr", "weather": "Estação seca começa, cheia chega", "emoji": "☀️", "crowds": "Moderada", "price": "Médio", "verdict": "Delta começa a inundar — timing crucial" },
-    { "month": "May", "weather": "Fresco, seco, cheia no auge", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Níveis perfeitos do Delta, menos mosquitos" },
-    { "month": "Jun", "weather": "Dias frescos secos, noites frias 5°C", "emoji": "❄️", "crowds": "Alta", "price": "Alto", "verdict": "Excelente avistamento, leve camadas quentes" },
-    { "month": "Jul", "weather": "Noites frias e cristalinas, dias ensolarados", "emoji": "❄️", "crowds": "Máxima", "price": "Máximo", "verdict": "Pico começa — reserve com um ano" },
-    { "month": "Aug", "weather": "Seco, esquentando, animais se concentram", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Mês clássico de safári — fauna lendária" },
-    { "month": "Sep", "weather": "Dias quentes, animais se aglomeram na água", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Melhor avistamento do ano — reserve cedo" },
-    { "month": "Oct", "weather": "Muito quente 35°C+, fauna intensa", "emoji": "🥵", "crowds": "Alta", "price": "Alto", "verdict": "Calor brutal mas avistamentos inacreditáveis" },
-    { "month": "Nov", "weather": "Primeiras chuvas, verde volta", "emoji": "🌦", "crowds": "Baixa", "price": "Médio", "verdict": "Shoulder — preços caindo, transição esmeralda" },
-    { "month": "Dec", "weather": "Chuvoso, animais bebês, aves migrantes", "emoji": "🌧", "crowds": "Baixa", "price": "Baixo-médio", "verdict": "Estação verde com exceção de feriados" }
+    {
+      "month": "Jan",
+      "weather": "Estação chuvosa quente, verde exuberante",
+      "emoji": "🌧",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Muitos campos fechados; fauna mais difícil de avistar"
+    },
+    {
+      "month": "Feb",
+      "weather": "Chuvas continuam, céus dramáticos",
+      "emoji": "🌧",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Temporada de filhotes — ótimo para animais bebês"
+    },
+    {
+      "month": "Mar",
+      "weather": "Chuvas afinando, verde em todo lugar",
+      "emoji": "🌦",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Shoulder — bom custo-benefício, fotografia da estação verde"
+    },
+    {
+      "month": "Apr",
+      "weather": "Estação seca começa, cheia chega",
+      "emoji": "☀️",
+      "crowds": "Moderada",
+      "price": "Médio",
+      "verdict": "Delta começa a inundar — timing crucial"
+    },
+    {
+      "month": "May",
+      "weather": "Fresco, seco, cheia no auge",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Níveis perfeitos do Delta, menos mosquitos"
+    },
+    {
+      "month": "Jun",
+      "weather": "Dias frescos secos, noites frias 5°C",
+      "emoji": "❄️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Excelente avistamento, leve camadas quentes"
+    },
+    {
+      "month": "Jul",
+      "weather": "Noites frias e cristalinas, dias ensolarados",
+      "emoji": "❄️",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Pico começa — reserve com um ano"
+    },
+    {
+      "month": "Aug",
+      "weather": "Seco, esquentando, animais se concentram",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Mês clássico de safári — fauna lendária"
+    },
+    {
+      "month": "Sep",
+      "weather": "Dias quentes, animais se aglomeram na água",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Melhor avistamento do ano — reserve cedo"
+    },
+    {
+      "month": "Oct",
+      "weather": "Muito quente 35°C+, fauna intensa",
+      "emoji": "🥵",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Calor brutal mas avistamentos inacreditáveis"
+    },
+    {
+      "month": "Nov",
+      "weather": "Primeiras chuvas, verde volta",
+      "emoji": "🌦",
+      "crowds": "Baixa",
+      "price": "Médio",
+      "verdict": "Shoulder — preços caindo, transição esmeralda"
+    },
+    {
+      "month": "Dec",
+      "weather": "Chuvoso, animais bebês, aves migrantes",
+      "emoji": "🌧",
+      "crowds": "Baixa",
+      "price": "Baixo-médio",
+      "verdict": "Estação verde com exceção de feriados"
+    }
   ],
   "budgetTiers": [
-    { "label": "Safári luxo entrada", "range": "$800–$1.500/pessoa/noite", "gets": "Excelente acampamento de tendas em concessão pública ou semi-privada. Pensão completa, drives, transfers, bebidas.", "example": "Machaba Camp, Khwai Bush Camp, Camp Moremi" },
-    { "label": "Concessão privada premium", "range": "$1.500–$3.000/pessoa/noite", "gets": "Campo flagship em terra exclusiva. Drives noturnos, off-road, opção de helicóptero.", "example": "Sandibe, Eagle Island, Vumbura, Tuludi, Xigera" },
-    { "label": "Ícone ultra-premium", "range": "$2.500–$5.500/pessoa/noite", "gets": "Nome lendário — Mombo, Jao, Zarafa, Duba Plains. 6–10 hóspedes por campo, guia dedicado, veículo privativo, serviço concierge.", "example": "Mombo Camp, Jao Camp, Zarafa Camp, Duba Plains Camp" }
+    {
+      "label": "Safári luxo entrada",
+      "range": "$800–$1.500/pessoa/noite",
+      "gets": "Excelente acampamento de tendas em concessão pública ou semi-privada. Pensão completa, drives, transfers, bebidas.",
+      "example": "Machaba Camp, Khwai Bush Camp, Camp Moremi"
+    },
+    {
+      "label": "Concessão privada premium",
+      "range": "$1.500–$3.000/pessoa/noite",
+      "gets": "Campo flagship em terra exclusiva. Drives noturnos, off-road, opção de helicóptero.",
+      "example": "Sandibe, Eagle Island, Vumbura, Tuludi, Xigera"
+    },
+    {
+      "label": "Ícone ultra-premium",
+      "range": "$2.500–$5.500/pessoa/noite",
+      "gets": "Nome lendário — Mombo, Jao, Zarafa, Duba Plains. 6–10 hóspedes por campo, guia dedicado, veículo privativo, serviço concierge.",
+      "example": "Mombo Camp, Jao Camp, Zarafa Camp, Duba Plains Camp"
+    }
   ],
   "areas": [
-    { "name": "Delta do Okavango — Moremi & Chief's Island", "bestFor": "Delta clássico, Big Five, Mombo Camp", "description": "O coração da fauna do Delta. A Reserva Moremi e as concessões Mombo/Chitabe têm a maior densidade de predadores da África. 3 noites mínimo; 4 é melhor." },
-    { "name": "Delta do Okavango — Norte / Vumbura / Jao", "bestFor": "Safári com foco em água, mokoro, campos flagship remotos", "description": "A zona norte com água permanente. Vumbura, Jao e Duba Plains ficam aqui. Água o ano todo significa mokoros, cruzeiros de barco e trilha sonora de águias-pesqueiras mesmo na seca." },
-    { "name": "Selinda & Linyanti", "bestFor": "Drives noturnos, elefantes, Zarafa", "description": "Entre o Delta e Chobe. Great Plains Conservation opera Zarafa, Duba Plains e Selinda Camp aqui. Excelente ação de predadores e grandes manadas de elefantes. Combine com Chobe." },
-    { "name": "Parque Nacional de Chobe", "bestFor": "Espetáculo de elefantes, cruzeiros, dia 1/último dia", "description": "Maior população de elefantes do mundo. Acesso pelo aeroporto de Kasane (voos diretos de Joanesburgo). Tipicamente 1–2 noites como pontas de uma viagem ao Delta." },
-    { "name": "Salinas de Makgadikgadi", "bestFor": "Paisagem de outro mundo, quadriciclo, suricatos", "description": "O maior sistema de salinas do mundo, visível do espaço. Pernoite no Jack's Camp ou San Camp — luxo de safári vintage com pernoites nas salinas e colônias habituadas de suricatos." }
+    {
+      "name": "Delta do Okavango — Moremi & Chief's Island",
+      "bestFor": "Delta clássico, Big Five, Mombo Camp",
+      "description": "O coração da fauna do Delta. A Reserva Moremi e as concessões Mombo/Chitabe têm a maior densidade de predadores da África. 3 noites mínimo; 4 é melhor."
+    },
+    {
+      "name": "Delta do Okavango — Norte / Vumbura / Jao",
+      "bestFor": "Safári com foco em água, mokoro, campos flagship remotos",
+      "description": "A zona norte com água permanente. Vumbura, Jao e Duba Plains ficam aqui. Água o ano todo significa mokoros, cruzeiros de barco e trilha sonora de águias-pesqueiras mesmo na seca."
+    },
+    {
+      "name": "Selinda & Linyanti",
+      "bestFor": "Drives noturnos, elefantes, Zarafa",
+      "description": "Entre o Delta e Chobe. Great Plains Conservation opera Zarafa, Duba Plains e Selinda Camp aqui. Excelente ação de predadores e grandes manadas de elefantes. Combine com Chobe."
+    },
+    {
+      "name": "Parque Nacional de Chobe",
+      "bestFor": "Espetáculo de elefantes, cruzeiros, dia 1/último dia",
+      "description": "Maior população de elefantes do mundo. Acesso pelo aeroporto de Kasane (voos diretos de Joanesburgo). Tipicamente 1–2 noites como pontas de uma viagem ao Delta."
+    },
+    {
+      "name": "Salinas de Makgadikgadi",
+      "bestFor": "Paisagem de outro mundo, quadriciclo, suricatos",
+      "description": "O maior sistema de salinas do mundo, visível do espaço. Pernoite no Jack's Camp ou San Camp — luxo de safári vintage com pernoites nas salinas e colônias habituadas de suricatos."
+    }
   ],
   "expertTips": [
-    { "tip": "Use um operador especialista em safári", "detail": "Não reserve Botsuana DIY — a logística de voos entre campos, coordenação de dietas e equilíbrio dos tipos de campo exige expertise. Operadores como Wilderness, Great Plains e Natural Selection vendem via agentes especialistas (Africa Odyssey, Extraordinary Journeys). Espere pagar $25–40 mil por uma viagem de 10 dias para casal all-in." },
-    { "tip": "Dois campos contrastantes, não quatro similares", "detail": "A tentação é reservar 4 noites em cada um de 3 campos. Melhor: 4 noites em campo de água do Delta (Jao, Vumbura) + 3 em campo terrestre de predadores (Mombo, Duba Plains). Não visite 3 campos similares de água do Delta — retornos decrescentes." },
-    { "tip": "Faça mala só com saco macio", "detail": "Transfers em aviões pequenos têm limite estrito de 20 kg em saco macio por pessoa, incluindo equipamento de câmera. Malas duras são proibidas. Lavanderia é inclusa em todos os campos — leve metade do que pensa precisar." },
-    { "tip": "Gorjetas são significativas", "detail": "Planeje $30–$40 por casal por dia para guia e tracker, mais $20/dia para o pool da equipe geral. Para 7 noites, orçe $500–$800 em USD em dinheiro. Os campos não dão gorjeta por você." },
-    { "tip": "Profilaxia da malária é exigida o ano todo", "detail": "Botsuana é zona de malária. Tome Malarone (atovaquona-proguanil) ou doxiciclina pela duração mais 7 dias depois. Zika e febre amarela não são preocupação. Vacinação só exigida se chegando de país com febre amarela." }
+    {
+      "tip": "Use um operador especialista em safári",
+      "detail": "Não reserve Botsuana DIY — a logística de voos entre campos, coordenação de dietas e equilíbrio dos tipos de campo exige expertise. Operadores como Wilderness, Great Plains e Natural Selection vendem via agentes especialistas (Africa Odyssey, Extraordinary Journeys). Espere pagar $25–40 mil por uma viagem de 10 dias para casal all-in."
+    },
+    {
+      "tip": "Dois campos contrastantes, não quatro similares",
+      "detail": "A tentação é reservar 4 noites em cada um de 3 campos. Melhor: 4 noites em campo de água do Delta (Jao, Vumbura) + 3 em campo terrestre de predadores (Mombo, Duba Plains). Não visite 3 campos similares de água do Delta — retornos decrescentes."
+    },
+    {
+      "tip": "Faça mala só com saco macio",
+      "detail": "Transfers em aviões pequenos têm limite estrito de 20 kg em saco macio por pessoa, incluindo equipamento de câmera. Malas duras são proibidas. Lavanderia é inclusa em todos os campos — leve metade do que pensa precisar."
+    },
+    {
+      "tip": "Gorjetas são significativas",
+      "detail": "Planeje $30–$40 por casal por dia para guia e tracker, mais $20/dia para o pool da equipe geral. Para 7 noites, orçe $500–$800 em USD em dinheiro. Os campos não dão gorjeta por você."
+    },
+    {
+      "tip": "Profilaxia da malária é exigida o ano todo",
+      "detail": "Botsuana é zona de malária. Tome Malarone (atovaquona-proguanil) ou doxiciclina pela duração mais 7 dias depois. Zika e febre amarela não são preocupação. Vacinação só exigida se chegando de país com febre amarela."
+    }
   ],
   "packing": [
-    { "item": "Saco duffel macio (máx. 20 kg total)", "why": "Aviões pequenos têm limites estritos de peso em saco macio. Samsonites serão recusadas na pista." },
-    { "item": "Roupas neutras de safári (caqui, oliva, pedra)", "why": "Evite branco (ímã de poeira), azul e preto (atraem moscas tsé-tsé) e camuflado (reservado para militares em alguns países africanos)." },
-    { "item": "Fleece quente e gorro para o inverno", "why": "Manhãs de maio–agosto podem ter 5°C. Drives às 6h em Land Cruiser aberto são genuinamente frios." },
-    { "item": "Binóculos (8×42 mínimo)", "why": "Guias dos campos têm um único par sobressalente. Você vai lamentar não ter o seu na primeira hora." },
-    { "item": "Lanterna de cabeça + pilhas extras", "why": "Para caminhar entre sua tenda e o salão principal à noite. A maioria dos campos fornece, mas a sua é essencial." }
+    {
+      "item": "Saco duffel macio (máx. 20 kg total)",
+      "why": "Aviões pequenos têm limites estritos de peso em saco macio. Samsonites serão recusadas na pista."
+    },
+    {
+      "item": "Roupas neutras de safári (caqui, oliva, pedra)",
+      "why": "Evite branco (ímã de poeira), azul e preto (atraem moscas tsé-tsé) e camuflado (reservado para militares em alguns países africanos)."
+    },
+    {
+      "item": "Fleece quente e gorro para o inverno",
+      "why": "Manhãs de maio–agosto podem ter 5°C. Drives às 6h em Land Cruiser aberto são genuinamente frios."
+    },
+    {
+      "item": "Binóculos (8×42 mínimo)",
+      "why": "Guias dos campos têm um único par sobressalente. Você vai lamentar não ter o seu na primeira hora."
+    },
+    {
+      "item": "Lanterna de cabeça + pilhas extras",
+      "why": "Para caminhar entre sua tenda e o salão principal à noite. A maioria dos campos fornece, mas a sua é essencial."
+    }
   ],
   "guide": {
     "getting": "Voe para Joanesburgo (JNB) na SAA, BA, Delta, Virgin ou Lufthansa (11h de Londres, 16h de NYC, 11h de Frankfurt). Depois conecte na Airlink para Maun (MUB) ou Kasane (BBK) — ambos ~1h30 de Joanesburgo, 3 voos diários. De Maun, o avião do primeiro campo (Mack Air, Moremi Air, Wilderness Air) te leva à pista em um Cessna de 6–12 lugares. Total porta-a-porta de Londres é ~18h.",
@@ -102,5 +251,9 @@
   "localFood": "Seswaa (carne salgada amassada, prato nacional de Botsuana, frequentemente servido em café da manhã no mato); Bogobe (mingau de sorgo); caça selvagem onde permitida (filé de cudo, carpaccio de impala, salsicha de javali); bream fresco do Okavango; vinhos sul-africanos (Stellenbosch e Franschhoek estão a 2h de voo e em todas as listas dos campos); G&Ts ao pôr do sol com xarope tônico do campo e gin local (Boatswain's Gin de Gaborone); menus degustação conduzidos por chef em Mombo, Jao e Zarafa que ganhariam estrelas Michelin na Europa. Os chefs dos campos são genuinamente excelentes — espere almoços de 4 e jantares de 6 pratos no mato.",
   "currency": "Pula de Botsuana (BWP) — significa \"chuva\", a coisa mais preciosa de Botsuana. Campos cotam e aceitam USD; moeda local só necessária para gorjetas da equipe de apoio e compras na lojinha do lodge.",
   "language": "Inglês é oficial e universal; Setswana é a língua materna da maioria dos batswana.",
-  "timezone": "UTC+2 (Hora da África Central, sem horário de verão)"
+  "timezone": "UTC+2 (Hora da África Central, sem horário de verão)",
+  "seo": {
+    "title": "Lua de Mel em Botsuana: 9 Acampamentos no Okavango",
+    "description": "9 acampamentos no Delta e Linyanti ranqueados. Mombo, Vumbura, Jao, Sandibe. De $1,500/noite. Mai-out."
+  }
 }

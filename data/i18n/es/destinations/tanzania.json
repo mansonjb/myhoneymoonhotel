@@ -55,18 +55,102 @@
     }
   ],
   "months": [
-    { "month": "Jan", "weather": "Seco, cálido, comienzan los partos", "emoji": "🐃", "crowds": "Baja-mod.", "price": "Medio", "verdict": "Excelente para crías recién nacidas y depredadores" },
-    { "month": "Feb", "weather": "Seco, cálido, pico de partos, gran actividad de depredadores", "emoji": "🦁", "crowds": "Moderada", "price": "Medio-alto", "verdict": "Pico de partos: la acción depredadora más dramática" },
-    { "month": "Mar", "weather": "Comienzan las lluvias cortas, verde, frondoso", "emoji": "🌿", "crowds": "Baja", "price": "Bajo-medio", "verdict": "Buenas tarifas, paisaje verde, algo de lluvia" },
-    { "month": "Apr", "weather": "Lluvias largas, algunos lodges cierran", "emoji": "🌧", "crowds": "Baja", "price": "Mínimo", "verdict": "Evítelo: el acceso puede complicarse" },
-    { "month": "May", "weather": "Acaban las lluvias largas, verde y frondoso", "emoji": "🌧", "crowds": "Baja", "price": "Bajo", "verdict": "Buena relación calidad-precio, mejorando a fin de mes" },
-    { "month": "Jun", "weather": "Empieza la estación seca, manadas hacia el norte", "emoji": "🌤", "crowds": "Moderada", "price": "Medio-alto", "verdict": "Migración en marcha, fauna excelente" },
-    { "month": "Jul", "weather": "Seco, comienzan los cruces de río, temporada alta", "emoji": "🐃", "crowds": "Alta", "price": "Alto", "verdict": "Cruces de río: el clímax de la Migración" },
-    { "month": "Aug", "weather": "Seco, pico de cruces, mejor mes", "emoji": "🐃", "crowds": "Máxima", "price": "Máximo", "verdict": "Lo mejor de la Gran Migración" },
-    { "month": "Sep", "weather": "Seco, continúan los cruces, excelente", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Excelente: cruces y menos gente" },
-    { "month": "Oct", "weather": "Seco, manadas iniciando descenso al sur", "emoji": "🌤", "crowds": "Moderada", "price": "Medio", "verdict": "Buena fauna, excelente valor" },
-    { "month": "Nov", "weather": "Lluvias cortas, paisaje verde y frondoso", "emoji": "🌦", "crowds": "Baja", "price": "Bajo-medio", "verdict": "Estación verde: bella y tranquila" },
-    { "month": "Dec", "weather": "Acaban las lluvias cortas, manadas en el sur", "emoji": "⛅", "crowds": "Moderada", "price": "Medio-alto", "verdict": "Festividades: las manadas llegan al sur del Serengeti" }
+    {
+      "month": "Jan",
+      "weather": "Seco, cálido, comienzan los partos",
+      "emoji": "🐃",
+      "crowds": "Baja-mod.",
+      "price": "Medio",
+      "verdict": "Excelente para crías recién nacidas y depredadores"
+    },
+    {
+      "month": "Feb",
+      "weather": "Seco, cálido, pico de partos, gran actividad de depredadores",
+      "emoji": "🦁",
+      "crowds": "Moderada",
+      "price": "Medio-alto",
+      "verdict": "Pico de partos: la acción depredadora más dramática"
+    },
+    {
+      "month": "Mar",
+      "weather": "Comienzan las lluvias cortas, verde, frondoso",
+      "emoji": "🌿",
+      "crowds": "Baja",
+      "price": "Bajo-medio",
+      "verdict": "Buenas tarifas, paisaje verde, algo de lluvia"
+    },
+    {
+      "month": "Apr",
+      "weather": "Lluvias largas, algunos lodges cierran",
+      "emoji": "🌧",
+      "crowds": "Baja",
+      "price": "Mínimo",
+      "verdict": "Evítelo: el acceso puede complicarse"
+    },
+    {
+      "month": "May",
+      "weather": "Acaban las lluvias largas, verde y frondoso",
+      "emoji": "🌧",
+      "crowds": "Baja",
+      "price": "Bajo",
+      "verdict": "Buena relación calidad-precio, mejorando a fin de mes"
+    },
+    {
+      "month": "Jun",
+      "weather": "Empieza la estación seca, manadas hacia el norte",
+      "emoji": "🌤",
+      "crowds": "Moderada",
+      "price": "Medio-alto",
+      "verdict": "Migración en marcha, fauna excelente"
+    },
+    {
+      "month": "Jul",
+      "weather": "Seco, comienzan los cruces de río, temporada alta",
+      "emoji": "🐃",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Cruces de río: el clímax de la Migración"
+    },
+    {
+      "month": "Aug",
+      "weather": "Seco, pico de cruces, mejor mes",
+      "emoji": "🐃",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "Lo mejor de la Gran Migración"
+    },
+    {
+      "month": "Sep",
+      "weather": "Seco, continúan los cruces, excelente",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Excelente: cruces y menos gente"
+    },
+    {
+      "month": "Oct",
+      "weather": "Seco, manadas iniciando descenso al sur",
+      "emoji": "🌤",
+      "crowds": "Moderada",
+      "price": "Medio",
+      "verdict": "Buena fauna, excelente valor"
+    },
+    {
+      "month": "Nov",
+      "weather": "Lluvias cortas, paisaje verde y frondoso",
+      "emoji": "🌦",
+      "crowds": "Baja",
+      "price": "Bajo-medio",
+      "verdict": "Estación verde: bella y tranquila"
+    },
+    {
+      "month": "Dec",
+      "weather": "Acaban las lluvias cortas, manadas en el sur",
+      "emoji": "⛅",
+      "crowds": "Moderada",
+      "price": "Medio-alto",
+      "verdict": "Festividades: las manadas llegan al sur del Serengeti"
+    }
   ],
   "budgetTiers": [
     {
@@ -134,11 +218,26 @@
     }
   ],
   "packing": [
-    { "item": "Ropa de safari en tonos neutros (caqui u oliva)", "why": "Esencial para safaris en vehículo abierto. Evite el blanco (se mancha de polvo) y los colores vivos (alteran a la fauna)." },
-    { "item": "Forro polar para los safaris al amanecer", "why": "Incluso en julio-agosto, el Serengeti al alba en vehículo abierto puede sorprender por el frío. Un polar o pluma ligera es esencial." },
-    { "item": "Repelente DEET 50%+", "why": "La prevención de la malaria al alba y al ocaso es crítica. Úselo junto con la profilaxis: no confíe en uno solo." },
-    { "item": "Prismáticos (8x42 recomendados)", "why": "Las llanuras del Serengeti son inmensas. Permiten ver muertes lejanas, guepardos en kopjes y aves que su ranger señale." },
-    { "item": "Ropa de playa para Zanzíbar", "why": "La transición del bush a la playa es brusca y deliciosa. Lleve una bolsa pequeña aparte con lo esencial de playa para dejar en el hotel de Zanzíbar." }
+    {
+      "item": "Ropa de safari en tonos neutros (caqui u oliva)",
+      "why": "Esencial para safaris en vehículo abierto. Evite el blanco (se mancha de polvo) y los colores vivos (alteran a la fauna)."
+    },
+    {
+      "item": "Forro polar para los safaris al amanecer",
+      "why": "Incluso en julio-agosto, el Serengeti al alba en vehículo abierto puede sorprender por el frío. Un polar o pluma ligera es esencial."
+    },
+    {
+      "item": "Repelente DEET 50%+",
+      "why": "La prevención de la malaria al alba y al ocaso es crítica. Úselo junto con la profilaxis: no confíe en uno solo."
+    },
+    {
+      "item": "Prismáticos (8x42 recomendados)",
+      "why": "Las llanuras del Serengeti son inmensas. Permiten ver muertes lejanas, guepardos en kopjes y aves que su ranger señale."
+    },
+    {
+      "item": "Ropa de playa para Zanzíbar",
+      "why": "La transición del bush a la playa es brusca y deliciosa. Lleve una bolsa pequeña aparte con lo esencial de playa para dejar en el hotel de Zanzíbar."
+    }
   ],
   "guide": {
     "getting": "Vuele al Aeropuerto Internacional de Kilimanjaro (JRO) o al Julius Nyerere de Dar es-Salam (DAR). Desde Europa: directos desde Ámsterdam (KLM, 9h), Londres (varios, 9-10h), París, Fráncfort. Desde JRO: traslado por carretera o vuelo chárter al Serengeti (1,5 h). Desde DAR: vuelo chárter a Selous/Ruaha. Zanzíbar tiene su propio aeropuerto internacional (ZNZ): vuele directo desde Europa vía Nairobi o conecte desde DAR.",
@@ -148,5 +247,9 @@
   "localFood": "Nyama choma (cabra o ternera a la brasa estilo suajili, servida con ugali y verduras sukuma wiki: el plato nacional al fuego), pilau de Zanzíbar (arroz especiado con carne, cocinado en olla de barro con cardamomo y canela), urojo (mezcla callejera zanzibarí: sopa de lentejas con yuca y huevo duro), pargo rojo recién hecho a la parrilla en el mercado nocturno de Zanzíbar y una cerveza Kilimanjaro al ocaso tras un día de safari. El tour de las especias en Zanzíbar muestra el origen de la vainilla, el clavo, la pimienta negra y la nuez moscada, que aún crecen en el interior de la isla.",
   "currency": "Tanzanian Shilling (TZS) — safari camps and lodges quote USD",
   "language": "Suajili e inglés. El inglés se habla ampliamente en todos los contextos turísticos.",
-  "timezone": "UTC+3 (East Africa Time)"
+  "timezone": "UTC+3 (East Africa Time)",
+  "seo": {
+    "title": "Luna de Miel en Tanzania: 9 Campamentos y Playas 2026",
+    "description": "9 combinaciones Serengeti, Ngorongoro y Zanzíbar clasificadas. Singita, Four Seasons. Desde $1,000/noche. Jun-Oct."
+  }
 }

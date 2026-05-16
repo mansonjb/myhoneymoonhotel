@@ -106,6 +106,7 @@ localFood: 'Ema datshi (chili-and-cheese stew, the national dish — Bhutanese e
 currency: 'Bhutanese Ngultrum (BTN) pegged 1:1 to Indian Rupee. INR widely accepted. USD and EUR cash useful for SDF payments and tips; cards rare outside top hotels in Paro/Thimphu.',
 language: 'Dzongkha (national); English is universal at lodges, with all guides fluent. Hindi widely understood.',
 timezone: 'UTC+6 (Bhutan Time, no daylight saving)',
+  seo: { title: "Bhutan Honeymoon: 8 Himalayan Luxury Lodges 2026", description: "8 Aman, Six Senses and Como lodges across Paro, Thimphu, Punakha. From $1,800/night all-inclusive. Mar-May, Sep-Nov." },
 }
 
 export default meta

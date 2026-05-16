@@ -77,6 +77,7 @@ localFood: 'Pepperpot stew with ducana (sweet potato dumplings) and fungee (corn
 currency: 'East Caribbean Dollar (XCD) — USD widely accepted',
 language: 'English',
 timezone: 'AST (UTC-4)',
+  seo: { title: "Antigua Honeymoon: 8 Adults-Only Beach Resorts 2026", description: "8 Antigua resorts on 365 beaches scored. Jumby Bay, Hermitage Bay, Curtain Bluff. From $500/night. Dec-Apr peak." },
 }
 
 export default meta

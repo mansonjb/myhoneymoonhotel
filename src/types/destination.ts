@@ -18,4 +18,5 @@ export interface DestinationMeta {
   currency: string
   language: string
   timezone: string
+  seo?: { title?: string; description?: string }
 }

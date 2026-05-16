@@ -79,6 +79,7 @@ localFood: 'Conch is the national food — cracked, in salad, as fritters. Da Co
 currency: 'USD (official currency). No exchange needed from the US.',
 language: 'English (official).',
 timezone: 'GMT-5 (Eastern Standard Time)',
+  seo: { title: "Turks & Caicos Honeymoon: 12 Beachfront Resorts 2026", description: "12 honeymoon resorts on Grace Bay scored. Amanyara, COMO Parrot Cay, The Palms. From $700/night. Nov-Apr ideal window." },
 }
 
 export default meta

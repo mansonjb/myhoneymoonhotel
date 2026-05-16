@@ -105,6 +105,7 @@ localFood: 'Dholl puri (split pea flatbread with curry) from roadside stalls, ro
 currency: 'Mauritian Rupee (MUR) — hotels quote EUR/USD',
 language: 'French and English (both official)',
 timezone: 'UTC+4',
+  seo: { title: "Mauritius Honeymoon: 8 Lagoon Beach Resorts Scored 2026", description: "8 luxury resorts on coral lagoons ranked. One&Only Le Saint Geran, LUX, Constance. From $400/night. May-Dec verdicts." },
 }
 
 export default meta

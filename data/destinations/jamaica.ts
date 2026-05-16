@@ -77,6 +77,7 @@ localFood: 'Jamaican cuisine punches far above its island weight. Jerk chicken a
 currency: 'Jamaican Dollar (JMD) — USD widely accepted',
 language: 'English / Jamaican Patois',
 timezone: 'EST (UTC-5)',
+  seo: { title: "Jamaica Honeymoon: 8 Adults-Only Beach Resorts 2026", description: "8 Negril, Ocho Rios, Montego Bay resorts ranked. Round Hill, Jamaica Inn, Couples. From $400/night. Dec-Apr dry." },
 }
 
 export default meta

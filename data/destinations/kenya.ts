@@ -151,6 +151,7 @@ localFood: 'Nyama choma (roasted goat or beef) at a local butchery restaurant, u
 currency: 'Kenyan Shilling (KES) — safaris quote USD',
 language: 'English and Swahili (both official)',
 timezone: 'UTC+3',
+  seo: { title: "Kenya Honeymoon: 8 Safari Camps & Beach Lodges 2026", description: "8 Masai Mara and coast camps scored. Angama Mara, Giraffe Manor, Mahali Mzuri. From $600/night. Jul-Oct migration." },
 }
 
 export default meta

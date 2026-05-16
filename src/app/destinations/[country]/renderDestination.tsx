@@ -29,10 +29,11 @@ export async function buildDestinationMetadata(country: string, locale: Locale):
   const proper = name.charAt(0).toUpperCase() + name.slice(1)
 
   const titleEn = `Best Honeymoon Hotels in ${proper} — Scored & Ranked | MyHoneymoonHotel`
-  const title = locale === 'en'
+  const fallbackTitle = locale === 'en'
     ? titleEn
     : fmt(tx(m, 'dest.metaTitle', 'Best Honeymoon Hotels in {dest} | MyHoneymoonHotel'), { dest: proper })
-  const description = meta?.tagline ?? `The definitive guide to honeymoon hotels in ${proper}.`
+  const title = meta?.seo?.title ?? fallbackTitle
+  const description = meta?.seo?.description ?? meta?.tagline ?? `The definitive guide to honeymoon hotels in ${proper}.`
   const heroUrl = meta?.hero
     ? (meta.hero.startsWith('http') ? meta.hero : `${SITE_URL}${meta.hero}`)
     : undefined

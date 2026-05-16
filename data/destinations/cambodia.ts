@@ -66,6 +66,7 @@ localFood: 'Khmer cuisine is gentler than Thai, less herb-forward than Vietnames
 currency: 'Cambodian Riel (KHR); USD universal',
 language: 'Khmer (English in tourism)',
 timezone: 'ICT (UTC+7)',
+  seo: { title: "Cambodia Honeymoon: 9 Temple & Beach Hotels Scored", description: "9 Siem Reap, Phnom Penh, Koh Rong stays ranked. Amansara, Six Senses, Song Saa. From $400/night. Nov-Mar." },
 }
 
 export default meta

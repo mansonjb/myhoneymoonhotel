@@ -66,6 +66,7 @@ localFood: 'Spain is the world\'s most exciting food country right now. Honeymoo
 currency: 'Euro (€)',
 language: 'Spanish (Castilian) / regional (Catalan, Basque, Galician)',
 timezone: 'CET (UTC+1) / CEST (UTC+2)',
+  seo: { title: "Spain Honeymoon: 7 Coast & Heritage Hotels Scored 2026", description: "7 Mallorca, Ibiza, Andalusia stays ranked. Cap Rocat, La Residencia, Marbella Club. From $500/night. Apr-Oct." },
 }
 
 export default meta

@@ -156,6 +156,7 @@ localFood: 'Massaman curry with beef and peanuts at a Phuket Muslim restaurant, 
 currency: 'Thai Baht (THB)',
 language: 'Thai (English in tourist areas)',
 timezone: 'UTC+7',
+  seo: { title: "Thailand Honeymoon: 8 Adults-Only Beach Resorts 2026", description: "8 Phuket, Koh Samui, Krabi resorts scored. Rosewood, Six Senses, Soneva Kiri. From $300/night. Nov-Mar dry season." },
 }
 
 export default meta

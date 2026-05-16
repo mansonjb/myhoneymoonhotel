@@ -105,6 +105,7 @@ localFood: 'Ceviche (more rustic than Lima\'s — usually fish or shrimp); enceb
 currency: 'US Dollar (USD) — official currency since 2000. Cards accepted at hotels and major restaurants; cash needed for park fees, tips, and small island purchases.',
 language: 'Spanish (Ecuadorian accent — clear, slow); Quichua in Andean mainland. English universal at hotels, lodges, cruises, and naturalist guides.',
 timezone: 'UTC-6 (Galápagos Time, 1h behind mainland Ecuador, no daylight saving)',
+  seo: { title: "Galapagos Honeymoon: 8 Cruise & Island Lodges 2026", description: "8 cruises and island ecolodges scored. Pikaia, Finch Bay, Silversea Origin. From $1,200/night. Jun-Dec wildlife verdicts." },
 }
 
 export default meta

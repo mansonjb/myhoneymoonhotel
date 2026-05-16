@@ -106,6 +106,7 @@ localFood: 'Mansaf (lamb with jameed — fermented-yoghurt sauce — over rice, 
 currency: 'Jordanian Dinar (JOD) — pegged at 1 JOD ≈ $1.41. Cards widely accepted; carry 50–100 JOD cash for tips and rural taxis.',
 language: 'Arabic is official; English is widely spoken at hotels, restaurants, and tourist sites. Road signs are bilingual.',
 timezone: 'UTC+3 (no daylight saving as of 2022)',
+  seo: { title: "Jordan Honeymoon: 8 Desert & Petra Hotels Scored 2026", description: "8 Wadi Rum bubble camps, Petra and Dead Sea hotels ranked. From $200/night. Mar-May and Sep-Nov best months." },
 }
 
 export default meta

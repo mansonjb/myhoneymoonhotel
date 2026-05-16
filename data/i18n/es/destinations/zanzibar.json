@@ -55,18 +55,102 @@
     }
   ],
   "months": [
-    { "month": "Jan", "weather": "Caluroso, seco, excelente", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Pico de temporada, merece la pena" },
-    { "month": "Feb", "weather": "Caluroso y seco, ideal", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Mejor tiempo de playa" },
-    { "month": "Mar", "weather": "Húmedo, lluvias asomando", "emoji": "⛅", "crowds": "Moderada", "price": "Medio", "verdict": "Mejor a inicios de mes" },
-    { "month": "Apr", "weather": "Lluvias largas, chubascos intensos", "emoji": "🌧", "crowds": "Muy baja", "price": "Mínimo", "verdict": "Evítelo: lluvia seria" },
-    { "month": "May", "weather": "Aún lluvioso, suavizándose", "emoji": "🌦", "crowds": "Muy baja", "price": "Muy bajo", "verdict": "Solo para cazaofertas" },
-    { "month": "Jun", "weather": "Empieza la estación seca, brisa", "emoji": "🌤", "crowds": "Moderada", "price": "Medio", "verdict": "Excelente opción de temporada media" },
-    { "month": "Jul", "weather": "Seco y con brisa, casi perfecto", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Plena temporada" },
-    { "month": "Aug", "weather": "Seco, mejor viento de kite, hermoso", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Mejor mes en general" },
-    { "month": "Sep", "weather": "Aún seco, suavizándose", "emoji": "☀️", "crowds": "Moderada", "price": "Medio-alto", "verdict": "Punto dulce de calidad-precio" },
-    { "month": "Oct", "weather": "Lluvias cortas posibles", "emoji": "⛅", "crowds": "Baja", "price": "Medio", "verdict": "Apuesta, pero suele estar bien" },
-    { "month": "Nov", "weather": "Lluvias cortas, impredecibles", "emoji": "🌦", "crowds": "Baja", "price": "Bajo", "verdict": "Arriesgado: revise el parte" },
-    { "month": "Dec", "weather": "Seco, caluroso, multitudes festivas", "emoji": "☀️", "crowds": "Muy alta", "price": "Máximo", "verdict": "Bonito, pero caro" }
+    {
+      "month": "Jan",
+      "weather": "Caluroso, seco, excelente",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Pico de temporada, merece la pena"
+    },
+    {
+      "month": "Feb",
+      "weather": "Caluroso y seco, ideal",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Mejor tiempo de playa"
+    },
+    {
+      "month": "Mar",
+      "weather": "Húmedo, lluvias asomando",
+      "emoji": "⛅",
+      "crowds": "Moderada",
+      "price": "Medio",
+      "verdict": "Mejor a inicios de mes"
+    },
+    {
+      "month": "Apr",
+      "weather": "Lluvias largas, chubascos intensos",
+      "emoji": "🌧",
+      "crowds": "Muy baja",
+      "price": "Mínimo",
+      "verdict": "Evítelo: lluvia seria"
+    },
+    {
+      "month": "May",
+      "weather": "Aún lluvioso, suavizándose",
+      "emoji": "🌦",
+      "crowds": "Muy baja",
+      "price": "Muy bajo",
+      "verdict": "Solo para cazaofertas"
+    },
+    {
+      "month": "Jun",
+      "weather": "Empieza la estación seca, brisa",
+      "emoji": "🌤",
+      "crowds": "Moderada",
+      "price": "Medio",
+      "verdict": "Excelente opción de temporada media"
+    },
+    {
+      "month": "Jul",
+      "weather": "Seco y con brisa, casi perfecto",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Plena temporada"
+    },
+    {
+      "month": "Aug",
+      "weather": "Seco, mejor viento de kite, hermoso",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Mejor mes en general"
+    },
+    {
+      "month": "Sep",
+      "weather": "Aún seco, suavizándose",
+      "emoji": "☀️",
+      "crowds": "Moderada",
+      "price": "Medio-alto",
+      "verdict": "Punto dulce de calidad-precio"
+    },
+    {
+      "month": "Oct",
+      "weather": "Lluvias cortas posibles",
+      "emoji": "⛅",
+      "crowds": "Baja",
+      "price": "Medio",
+      "verdict": "Apuesta, pero suele estar bien"
+    },
+    {
+      "month": "Nov",
+      "weather": "Lluvias cortas, impredecibles",
+      "emoji": "🌦",
+      "crowds": "Baja",
+      "price": "Bajo",
+      "verdict": "Arriesgado: revise el parte"
+    },
+    {
+      "month": "Dec",
+      "weather": "Seco, caluroso, multitudes festivas",
+      "emoji": "☀️",
+      "crowds": "Muy alta",
+      "price": "Máximo",
+      "verdict": "Bonito, pero caro"
+    }
   ],
   "budgetTiers": [
     {
@@ -133,11 +217,26 @@
     }
   ],
   "packing": [
-    { "item": "Cubierta modesta para Stone Town", "why": "Necesaria para visitar mezquitas y respetuosa en la medina: el lino ligero funciona perfectamente con el calor" },
-    { "item": "Protector solar de alto factor apto para arrecifes", "why": "El sol ecuatorial es extremo y los arrecifes necesitan protección: muchos resorts ya exigen productos aptos para arrecifes" },
-    { "item": "Máscara de snorkel propia", "why": "El equipo del hotel es funcional, pero la suya ajusta mejor: imprescindible para las visitas al atolón de Mnemba" },
-    { "item": "Repelente de insectos (DEET 30%+)", "why": "La malaria está presente en Zanzíbar: tome profilaxis y use repelente al alba y al ocaso" },
-    { "item": "Bolsa estanca", "why": "Los paseos en dhow y el snorkel implican embarcaciones abiertas: esencial para teléfonos y cámaras" }
+    {
+      "item": "Cubierta modesta para Stone Town",
+      "why": "Necesaria para visitar mezquitas y respetuosa en la medina: el lino ligero funciona perfectamente con el calor"
+    },
+    {
+      "item": "Protector solar de alto factor apto para arrecifes",
+      "why": "El sol ecuatorial es extremo y los arrecifes necesitan protección: muchos resorts ya exigen productos aptos para arrecifes"
+    },
+    {
+      "item": "Máscara de snorkel propia",
+      "why": "El equipo del hotel es funcional, pero la suya ajusta mejor: imprescindible para las visitas al atolón de Mnemba"
+    },
+    {
+      "item": "Repelente de insectos (DEET 30%+)",
+      "why": "La malaria está presente en Zanzíbar: tome profilaxis y use repelente al alba y al ocaso"
+    },
+    {
+      "item": "Bolsa estanca",
+      "why": "Los paseos en dhow y el snorkel implican embarcaciones abiertas: esencial para teléfonos y cámaras"
+    }
   ],
   "guide": {
     "getting": "Vuele al Aeropuerto Internacional Abeid Amani Karume de Zanzíbar (ZNZ). Vuelos directos desde Europa: Kenya Airways vía Nairobi, Ethiopian Airlines vía Adís Abeba, Turkish Airlines vía Estambul (todos 8-11h en total). Desde el Reino Unido: sin servicio directo; lo mejor es vía Nairobi con Kenya Airways o vía Dubái con flydubai. Los vuelos internos desde Dar es-Salam (DAR) duran 35 minutos y cuestan 60-100 USD. Los taxis del aeropuerto ZNZ a Stone Town son 20 minutos (10-15 USD a tarifa fija); a los hoteles del norte, 45-60 minutos (25-40 USD).",
@@ -147,5 +246,9 @@
   "localFood": "Pizza zanzibarí (panecillo relleno con huevo, carne y queso del mercado nocturno de Forodhani Gardens), urojo (sopa zanzibarí mixta con punto cítrico), atún fresco a la brasa con salsa de tamarindo, biryani de arroz cocinado con especias enteras y chai especiado con cardamomo y jengibre. El Tour de las Especias por las plantaciones de clavo, nuez moscada y vainilla es una media jornada destacada.",
   "currency": "Tanzanian Shilling (TZS) — hotels quote USD",
   "language": "Suajili e inglés",
-  "timezone": "UTC+3"
+  "timezone": "UTC+3",
+  "seo": {
+    "title": "Luna de Miel en Zanzíbar: 8 Resorts Isla de Especias",
+    "description": "8 resorts en la costa este y Stone Town clasificados. &Beyond Mnemba, Zuri, Park Hyatt. Desde $400/noche. Jun-Oct."
+  }
 }

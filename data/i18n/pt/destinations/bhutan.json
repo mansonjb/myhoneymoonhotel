@@ -55,44 +55,193 @@
     }
   ],
   "months": [
-    { "month": "Jan", "weather": "Frio seco, -5°C a 12°C", "emoji": "❄️", "crowds": "Baixa", "price": "Médio", "verdict": "Grous ainda em Phobjikha; trilhas com neve" },
-    { "month": "Feb", "weather": "Frio mas esquentando, céu claro", "emoji": "❄️", "crowds": "Baixa", "price": "Médio", "verdict": "Últimos grous; vistas claras do Himalaia" },
-    { "month": "Mar", "weather": "5–18°C, jacarandás em flor", "emoji": "🌸", "crowds": "Alta", "price": "Alto", "verdict": "Primavera espetacular — começa a alta" },
-    { "month": "Apr", "weather": "8–20°C, rododendros em flor", "emoji": "🌸", "crowds": "Máxima", "price": "Máximo", "verdict": "O mês clássico do Butão — reserve com 6 meses" },
-    { "month": "May", "weather": "12–24°C, pré-monção", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Quente e bonito, última semana cada vez mais úmida" },
-    { "month": "Jun", "weather": "Monção chega, sanguessugas", "emoji": "🌧️", "crowds": "Baixa", "price": "Baixo", "verdict": "Pule — molhado, lamacento, vistas perdidas" },
-    { "month": "Jul", "weather": "Monção pesada, 18–25°C", "emoji": "🌧️", "crowds": "Baixa", "price": "Baixo", "verdict": "Pule — pico da monção; trilhas perigosas" },
-    { "month": "Aug", "weather": "Fim da monção", "emoji": "🌧️", "crowds": "Baixa", "price": "Baixo", "verdict": "Melhorando, mas instável; festival do cogumelo matsutake" },
-    { "month": "Sep", "weather": "Limpando, 12–22°C", "emoji": "🌤️", "crowds": "Alta", "price": "Alto", "verdict": "Excelente — dourado da colheita do arroz" },
-    { "month": "Oct", "weather": "8–20°C, clareza máxima", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "O outro mês de pico — festival Thimphu Tshechu" },
-    { "month": "Nov", "weather": "5–18°C, grous voltam", "emoji": "🍂", "crowds": "Alta", "price": "Alto", "verdict": "Festival dos grous em Phobjikha — experiência única" },
-    { "month": "Dec", "weather": "Frio seco, -2°C a 14°C", "emoji": "❄️", "crowds": "Baixa", "price": "Médio", "verdict": "Quieto, claro, frio mas recompensador" }
+    {
+      "month": "Jan",
+      "weather": "Frio seco, -5°C a 12°C",
+      "emoji": "❄️",
+      "crowds": "Baixa",
+      "price": "Médio",
+      "verdict": "Grous ainda em Phobjikha; trilhas com neve"
+    },
+    {
+      "month": "Feb",
+      "weather": "Frio mas esquentando, céu claro",
+      "emoji": "❄️",
+      "crowds": "Baixa",
+      "price": "Médio",
+      "verdict": "Últimos grous; vistas claras do Himalaia"
+    },
+    {
+      "month": "Mar",
+      "weather": "5–18°C, jacarandás em flor",
+      "emoji": "🌸",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Primavera espetacular — começa a alta"
+    },
+    {
+      "month": "Apr",
+      "weather": "8–20°C, rododendros em flor",
+      "emoji": "🌸",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "O mês clássico do Butão — reserve com 6 meses"
+    },
+    {
+      "month": "May",
+      "weather": "12–24°C, pré-monção",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Quente e bonito, última semana cada vez mais úmida"
+    },
+    {
+      "month": "Jun",
+      "weather": "Monção chega, sanguessugas",
+      "emoji": "🌧️",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Pule — molhado, lamacento, vistas perdidas"
+    },
+    {
+      "month": "Jul",
+      "weather": "Monção pesada, 18–25°C",
+      "emoji": "🌧️",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Pule — pico da monção; trilhas perigosas"
+    },
+    {
+      "month": "Aug",
+      "weather": "Fim da monção",
+      "emoji": "🌧️",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Melhorando, mas instável; festival do cogumelo matsutake"
+    },
+    {
+      "month": "Sep",
+      "weather": "Limpando, 12–22°C",
+      "emoji": "🌤️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Excelente — dourado da colheita do arroz"
+    },
+    {
+      "month": "Oct",
+      "weather": "8–20°C, clareza máxima",
+      "emoji": "☀️",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "O outro mês de pico — festival Thimphu Tshechu"
+    },
+    {
+      "month": "Nov",
+      "weather": "5–18°C, grous voltam",
+      "emoji": "🍂",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Festival dos grous em Phobjikha — experiência única"
+    },
+    {
+      "month": "Dec",
+      "weather": "Frio seco, -2°C a 14°C",
+      "emoji": "❄️",
+      "crowds": "Baixa",
+      "price": "Médio",
+      "verdict": "Quieto, claro, frio mas recompensador"
+    }
   ],
   "budgetTiers": [
-    { "label": "Premium", "range": "$700–$1.800/noite", "gets": "Suíte no alto da colina do COMO Uma Paro — bem precificado em relação a Aman/Six Senses, pensão completa excelente.", "example": "COMO Uma Paro" },
-    { "label": "Ultra-luxo", "range": "$1.800–$4.200/noite", "gets": "Estadias em lodge único Six Senses Paro/Punakha ou um lodge Amankora. All-inclusive de guia, refeições, transfers, tratamentos.", "example": "Six Senses Paro, Six Senses Punakha, Amankora Thimphu, Amankora Bumthang" },
-    { "label": "Circuito icônico", "range": "$2.000–$4.500/noite", "gets": "Circuito multi-lodge Aman ou Six Senses (3–5 lodges em 7–14 noites). A lua de mel definidora do Butão.", "example": "Circuito 5 lodges Amankora, Six Senses multi-lodge" }
+    {
+      "label": "Premium",
+      "range": "$700–$1.800/noite",
+      "gets": "Suíte no alto da colina do COMO Uma Paro — bem precificado em relação a Aman/Six Senses, pensão completa excelente.",
+      "example": "COMO Uma Paro"
+    },
+    {
+      "label": "Ultra-luxo",
+      "range": "$1.800–$4.200/noite",
+      "gets": "Estadias em lodge único Six Senses Paro/Punakha ou um lodge Amankora. All-inclusive de guia, refeições, transfers, tratamentos.",
+      "example": "Six Senses Paro, Six Senses Punakha, Amankora Thimphu, Amankora Bumthang"
+    },
+    {
+      "label": "Circuito icônico",
+      "range": "$2.000–$4.500/noite",
+      "gets": "Circuito multi-lodge Aman ou Six Senses (3–5 lodges em 7–14 noites). A lua de mel definidora do Butão.",
+      "example": "Circuito 5 lodges Amankora, Six Senses multi-lodge"
+    }
   ],
   "areas": [
-    { "name": "Paro", "bestFor": "Chegada, Tiger's Nest, vistas do Himalaia", "description": "O vale do aeroporto internacional e base para Tiger's Nest. Amankora Paro e Six Senses Paro estão aqui. 2–3 noites no mínimo." },
-    { "name": "Thimphu", "bestFor": "Cultura da capital, dzong, mercado de fim de semana", "description": "A charmosa capital do Butão (100 mil habitantes) — pedestres dirigindo o trânsito, um chorten no centro, Tashichho Dzong, o Memorial Chorten Nacional. 1–2 noites." },
-    { "name": "Punakha", "bestFor": "Vale subtropical, Punakha Dzong, ponte suspensa", "description": "Vale mais quente em altitude mais baixa (1.200 m) com o dzong mais fotogênico do Butão. Six Senses Punakha e Amankora Punakha aqui. 2 noites." },
-    { "name": "Phobjikha (Gangtey)", "bestFor": "Grous-de-pescoço-preto, serenidade remota", "description": "Vale glacial a 3.000 m, sem eletricidade até 2008. Amankora Gangtey é o único luxo aqui. 1–2 noites." },
-    { "name": "Bumthang", "bestFor": "Coração espiritual, monastérios antigos", "description": "Centro religioso do Butão central — Jakar Dzong, Jambay Lhakhang, vilas tradicionais. Amankora Bumthang. 1–2 noites." }
+    {
+      "name": "Paro",
+      "bestFor": "Chegada, Tiger's Nest, vistas do Himalaia",
+      "description": "O vale do aeroporto internacional e base para Tiger's Nest. Amankora Paro e Six Senses Paro estão aqui. 2–3 noites no mínimo."
+    },
+    {
+      "name": "Thimphu",
+      "bestFor": "Cultura da capital, dzong, mercado de fim de semana",
+      "description": "A charmosa capital do Butão (100 mil habitantes) — pedestres dirigindo o trânsito, um chorten no centro, Tashichho Dzong, o Memorial Chorten Nacional. 1–2 noites."
+    },
+    {
+      "name": "Punakha",
+      "bestFor": "Vale subtropical, Punakha Dzong, ponte suspensa",
+      "description": "Vale mais quente em altitude mais baixa (1.200 m) com o dzong mais fotogênico do Butão. Six Senses Punakha e Amankora Punakha aqui. 2 noites."
+    },
+    {
+      "name": "Phobjikha (Gangtey)",
+      "bestFor": "Grous-de-pescoço-preto, serenidade remota",
+      "description": "Vale glacial a 3.000 m, sem eletricidade até 2008. Amankora Gangtey é o único luxo aqui. 1–2 noites."
+    },
+    {
+      "name": "Bumthang",
+      "bestFor": "Coração espiritual, monastérios antigos",
+      "description": "Centro religioso do Butão central — Jakar Dzong, Jambay Lhakhang, vilas tradicionais. Amankora Bumthang. 1–2 noites."
+    }
   ],
   "expertTips": [
-    { "tip": "Reserve apenas via operador oficial", "detail": "O visto do Butão exige um operador butanês registrado. Aman e Six Senses cuidam disso de forma transparente — visto, SDF, voos internos, guia e motorista vêm em pacote. Viagem independente é impossível." },
-    { "tip": "A SDF é $200/pessoa/dia além da hospedagem", "detail": "A Taxa de Desenvolvimento Sustentável é uma taxa fixa de $200/pessoa/dia paga ao governo independentemente do hotel. Lodges cotam separadamente ou incluem. Faça as contas — 7 noites = $2.800 de SDF para dois além das tarifas." },
-    { "tip": "Aclimate-se em Paro (2.200 m) antes de Bumthang (2.800 m)", "detail": "As altitudes butanesas são reais. O circuito padrão Aman/Six Senses sobe gradualmente — Paro → Thimphu → Punakha (baixo) → Phobjikha (alto) → Bumthang. Não inverta." },
-    { "tip": "Voos da Drukair dependem do clima", "detail": "O aeroporto de Paro fica encaixado em montanhas e só ~12 pilotos são certificados a pousar lá. Cancelamentos acontecem. Tenha um buffer de 24h no início e fim da viagem em Délhi ou Bangkok." },
-    { "tip": "Internet é fraca nos lodges Aman (intencionalmente)", "detail": "As propriedades Amankora oferecem deliberadamente Wi-Fi mínimo como parte do ethos slow-luxury. Se precisa trabalhar, COMO Uma Paro tem conexão mais forte. Lodges Six Senses são intermediários." }
+    {
+      "tip": "Reserve apenas via operador oficial",
+      "detail": "O visto do Butão exige um operador butanês registrado. Aman e Six Senses cuidam disso de forma transparente — visto, SDF, voos internos, guia e motorista vêm em pacote. Viagem independente é impossível."
+    },
+    {
+      "tip": "A SDF é $200/pessoa/dia além da hospedagem",
+      "detail": "A Taxa de Desenvolvimento Sustentável é uma taxa fixa de $200/pessoa/dia paga ao governo independentemente do hotel. Lodges cotam separadamente ou incluem. Faça as contas — 7 noites = $2.800 de SDF para dois além das tarifas."
+    },
+    {
+      "tip": "Aclimate-se em Paro (2.200 m) antes de Bumthang (2.800 m)",
+      "detail": "As altitudes butanesas são reais. O circuito padrão Aman/Six Senses sobe gradualmente — Paro → Thimphu → Punakha (baixo) → Phobjikha (alto) → Bumthang. Não inverta."
+    },
+    {
+      "tip": "Voos da Drukair dependem do clima",
+      "detail": "O aeroporto de Paro fica encaixado em montanhas e só ~12 pilotos são certificados a pousar lá. Cancelamentos acontecem. Tenha um buffer de 24h no início e fim da viagem em Délhi ou Bangkok."
+    },
+    {
+      "tip": "Internet é fraca nos lodges Aman (intencionalmente)",
+      "detail": "As propriedades Amankora oferecem deliberadamente Wi-Fi mínimo como parte do ethos slow-luxury. Se precisa trabalhar, COMO Uma Paro tem conexão mais forte. Lodges Six Senses são intermediários."
+    }
   ],
   "packing": [
-    { "item": "Botas de trilha amaciadas", "why": "Tiger's Nest é trilha não negociável. Botas novas = bolhas que arruínam a viagem." },
-    { "item": "Roupas de trilha em camadas", "why": "Variações de 15°C entre manhã e tarde. Primeira camada de merino + fleece + shell leve é a fórmula." },
-    { "item": "Roupa modesta para monastérios", "why": "Calças/mangas longas exigidas em todos os dzongs e monastérios. Sem shorts, sem ombros à mostra. Mulheres levem um lenço." },
-    { "item": "Medicamento para altitude (Diamox) opcional", "why": "A maioria dos lodges fica entre 2.200–3.000 m. Altitude leve é normal. Diamox ajuda se você é sensível — converse com seu médico." },
-    { "item": "Pequenos presentes para guias e motoristas", "why": "A hospitalidade butanesa é generosa e recíproca. Livros do seu país, fotos ou chocolates de qualidade são apreciados mais que dinheiro." }
+    {
+      "item": "Botas de trilha amaciadas",
+      "why": "Tiger's Nest é trilha não negociável. Botas novas = bolhas que arruínam a viagem."
+    },
+    {
+      "item": "Roupas de trilha em camadas",
+      "why": "Variações de 15°C entre manhã e tarde. Primeira camada de merino + fleece + shell leve é a fórmula."
+    },
+    {
+      "item": "Roupa modesta para monastérios",
+      "why": "Calças/mangas longas exigidas em todos os dzongs e monastérios. Sem shorts, sem ombros à mostra. Mulheres levem um lenço."
+    },
+    {
+      "item": "Medicamento para altitude (Diamox) opcional",
+      "why": "A maioria dos lodges fica entre 2.200–3.000 m. Altitude leve é normal. Diamox ajuda se você é sensível — converse com seu médico."
+    },
+    {
+      "item": "Pequenos presentes para guias e motoristas",
+      "why": "A hospitalidade butanesa é generosa e recíproca. Livros do seu país, fotos ou chocolates de qualidade são apreciados mais que dinheiro."
+    }
   ],
   "guide": {
     "getting": "Drukair e Bhutan Airlines voam para Paro (PBH) apenas saindo de Délhi, Bangkok, Catmandu e Singapura. A maioria dos casais conecta via Délhi (4h de voo + 1–2h de conexão) ou Bangkok (3h). Tempo total de trânsito da Europa é 14–18h. Dentro do Butão, o transporte interno é por SUV com seu guia designado — não há voos domésticos que valham a pena. O circuito Aman ou Six Senses cuida de toda a logística.",
@@ -102,5 +251,9 @@
   "localFood": "Ema datshi (ensopado de pimenta e queijo, prato nacional — butaneses comem três vezes ao dia); arroz vermelho do Vale de Paro (denso e amendoado); momos (dumplings cozidos no vapor estilo tibetano); shakam paa (carne seca com pimentas e rabanetes); jasha maru (ensopado picante de frango); chá de manteiga (suja — manteiga de iaque rançosa, sal; gosto adquirido); ara (destilado de arroz ou trigo, frequentemente servido morno com manteiga e ovo); cerveja Druk 11000 (a lager local). Os jantares dos lodges adaptam sabores butaneses para paladares internacionais — a intensidade da pimenta é reduzida por padrão; peça mais picante.",
   "currency": "Ngultrum Butanês (BTN) fixo 1:1 com a Rupia Indiana. INR amplamente aceita. USD e EUR em dinheiro úteis para SDF e gorjetas; cartões raros fora dos hotéis top em Paro/Thimphu.",
   "language": "Dzongkha (nacional); inglês é universal nos lodges, com todos os guias fluentes. Hindi amplamente compreendido.",
-  "timezone": "UTC+6 (Hora do Butão, sem horário de verão)"
+  "timezone": "UTC+6 (Hora do Butão, sem horário de verão)",
+  "seo": {
+    "title": "Lua de Mel no Butão: 8 Lodges de Luxo no Himalaia",
+    "description": "8 lodges Aman, Six Senses e Como em Paro, Thimphu e Punakha. De $1,800/noite all-inclusive. Mar-mai, set-nov."
+  }
 }

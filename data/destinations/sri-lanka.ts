@@ -66,6 +66,7 @@ localFood: 'Sri Lankan food is bolder and more varied than its Indian neighbor â
 currency: 'Sri Lankan Rupee (LKR)',
 language: 'Sinhala / Tamil (English widely spoken)',
 timezone: 'IST (UTC+5:30)',
+  seo: { title: "Sri Lanka Honeymoon: 8 Tea Country & Beach Hotels", description: "8 Galle, Ella, Yala stays scored. Cape Weligama, Ceylon Tea Trails, Wild Coast Tented. From $300/night. Dec-Mar." },
 }
 
 export default meta

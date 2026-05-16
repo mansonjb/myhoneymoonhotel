@@ -1,6 +1,10 @@
 {
   "tagline": "Dois clássicos de lua de mel do Índico: variedade e valor ou puro drama de granito e areia?",
   "metaDescription": "Maurício contra Seychelles para uma lua de mel: voos, praias, sobre a água, cultura, valor. Comparação lado a lado e recomendações.",
+  "seo": {
+    "title": "Maurício vs Seychelles Lua de Mel: Ilha 2026",
+    "description": "Maurício vs Seychelles para lua de mel 2026: ilha crioula animada ou isolamento de granito. Praias, hotéis, valor, voos — escolhas."
+  },
   "verdict": "Os dois são países insulares do oceano Índico, ambos destinos de lua de mel de nível mundial, mas com propostas muito diferentes. Maurício é um país variado, cosmopolita e mais extenso, com profundidade cultural, golfe, fusão gastronômica e excelente valor. Seychelles tem alcance menor, mas é insuperável em beleza pura: as praias com blocos de granito de La Digue e Praslin (Anse Source d'Argent, Anse Lazio) são possivelmente as praias tropicais mais belas do planeta, sem discussão. Maurício vence em variedade e valor; Seychelles vence na fotografia e no fator wow puro.",
   "tldr": {
     "forA": "Maurício: pela variedade cultural, gastronomia, golfe e um valor 30-40% melhor.",
@@ -8,21 +12,81 @@
     "tie": "Empate em qualidade de hotéis de luxo e oferta de resorts só para adultos."
   },
   "criteria": [
-    { "label": "Tempo de voo (a partir da Europa)", "aDetail": "11-12h direto de Paris/Londres", "bDetail": "10-11h direto de Londres (BA) ou via Dubai/Doha" },
-    { "label": "Tempo de voo (a partir dos EUA)", "aDetail": "20h+ via Paris ou Dubai", "bDetail": "20h+ via Doha ou Dubai" },
-    { "label": "A praia emblemática", "aDetail": "Trou aux Biches, Belle Mare: bonita areia branca", "bDetail": "Anse Source d'Argent (La Digue), Anse Lazio (Praslin): blocos de granito + areia fina, frequentemente nas listas de \"praias mais belas do mundo\"" },
-    { "label": "Profundidade cultural", "aDetail": "Crioula, indiana, chinesa, francesa: diversidade extraordinária, templos hindus, mesquitas, pagodes", "bDetail": "Mistura crioula-francesa-africana, menor variedade que Maurício" },
-    { "label": "Gastronomia", "aDetail": "Fusão de nível mundial: entre as melhores do Índico", "bDetail": "Boa cozinha crioula, frutos do mar frescos, mas variedade mais limitada" },
-    { "label": "Villas sobre a água", "aDetail": "Cerca de 5 resorts com villas sobre a água (Constance Le Prince Maurice, St Regis, LUX*)", "bDetail": "Não há villas sobre a água em Seychelles: só frente à praia ou em colina" },
-    { "label": "Lua de mel multi-ilha", "aDetail": "Uma única ilha principal, excursões de dia para Île aux Cerfs", "bDetail": "Três ilhas principais (Mahé, Praslin, La Digue): itinerário natural multi-ilha" },
-    { "label": "Praias de blocos de granito", "aDetail": "Nenhuma: linha costeira coralina plana", "bDetail": "Icônicas: os blocos de granito são a assinatura visual do país" },
-    { "label": "Snorkel/mergulho", "aDetail": "Vida de recife decente, pesca de marlim azul, majoritariamente lagunar", "bDetail": "Excelente: atol de Aldabra (UNESCO), ilhas exteriores prístinas, recifes de granito" },
-    { "label": "Oferta só para adultos", "aDetail": "Vários (LUX* Le Morne, Heritage Awali, Constance só para adultos)", "bDetail": "Vários (Six Senses Zil Pasyon, North Island, Fregate, Anantara Maia)" },
-    { "label": "Golfe", "aDetail": "Nível mundial: 8 campos de campeonato", "bDetail": "Limitado (campo do Constance Lemuria e pouco mais)" },
-    { "label": "Fauna e natureza", "aDetail": "Black River Gorges, Île aux Aigrettes, ranchos de cervos", "bDetail": "Tartarugas gigantes de Aldabra, coco-de-mer no Vallée de Mai (UNESCO), 13 espécies endêmicas de aves" },
-    { "label": "Melhor temporada", "aDetail": "Mai-Dez (seca, alta), Jan-Abr (quente e úmida)", "bDetail": "Abr-Out (seca), Nov-Mar (chuvosa)" },
-    { "label": "Orçamento mínimo (5 estrelas)", "aDetail": "$400/noite de entrada em 5 estrelas", "bDetail": "$700-900/noite de entrada em 5 estrelas (Seychelles é estruturalmente mais cara)" },
-    { "label": "Orçamento máximo", "aDetail": "$2500/noite no máximo (Constance Le Prince Maurice, One&Only Le Saint Géran)", "bDetail": "$10 000+/noite possível (North Island, Fregate Private Island, Six Senses Zil Pasyon)" }
+    {
+      "label": "Tempo de voo (a partir da Europa)",
+      "aDetail": "11-12h direto de Paris/Londres",
+      "bDetail": "10-11h direto de Londres (BA) ou via Dubai/Doha"
+    },
+    {
+      "label": "Tempo de voo (a partir dos EUA)",
+      "aDetail": "20h+ via Paris ou Dubai",
+      "bDetail": "20h+ via Doha ou Dubai"
+    },
+    {
+      "label": "A praia emblemática",
+      "aDetail": "Trou aux Biches, Belle Mare: bonita areia branca",
+      "bDetail": "Anse Source d'Argent (La Digue), Anse Lazio (Praslin): blocos de granito + areia fina, frequentemente nas listas de \"praias mais belas do mundo\""
+    },
+    {
+      "label": "Profundidade cultural",
+      "aDetail": "Crioula, indiana, chinesa, francesa: diversidade extraordinária, templos hindus, mesquitas, pagodes",
+      "bDetail": "Mistura crioula-francesa-africana, menor variedade que Maurício"
+    },
+    {
+      "label": "Gastronomia",
+      "aDetail": "Fusão de nível mundial: entre as melhores do Índico",
+      "bDetail": "Boa cozinha crioula, frutos do mar frescos, mas variedade mais limitada"
+    },
+    {
+      "label": "Villas sobre a água",
+      "aDetail": "Cerca de 5 resorts com villas sobre a água (Constance Le Prince Maurice, St Regis, LUX*)",
+      "bDetail": "Não há villas sobre a água em Seychelles: só frente à praia ou em colina"
+    },
+    {
+      "label": "Lua de mel multi-ilha",
+      "aDetail": "Uma única ilha principal, excursões de dia para Île aux Cerfs",
+      "bDetail": "Três ilhas principais (Mahé, Praslin, La Digue): itinerário natural multi-ilha"
+    },
+    {
+      "label": "Praias de blocos de granito",
+      "aDetail": "Nenhuma: linha costeira coralina plana",
+      "bDetail": "Icônicas: os blocos de granito são a assinatura visual do país"
+    },
+    {
+      "label": "Snorkel/mergulho",
+      "aDetail": "Vida de recife decente, pesca de marlim azul, majoritariamente lagunar",
+      "bDetail": "Excelente: atol de Aldabra (UNESCO), ilhas exteriores prístinas, recifes de granito"
+    },
+    {
+      "label": "Oferta só para adultos",
+      "aDetail": "Vários (LUX* Le Morne, Heritage Awali, Constance só para adultos)",
+      "bDetail": "Vários (Six Senses Zil Pasyon, North Island, Fregate, Anantara Maia)"
+    },
+    {
+      "label": "Golfe",
+      "aDetail": "Nível mundial: 8 campos de campeonato",
+      "bDetail": "Limitado (campo do Constance Lemuria e pouco mais)"
+    },
+    {
+      "label": "Fauna e natureza",
+      "aDetail": "Black River Gorges, Île aux Aigrettes, ranchos de cervos",
+      "bDetail": "Tartarugas gigantes de Aldabra, coco-de-mer no Vallée de Mai (UNESCO), 13 espécies endêmicas de aves"
+    },
+    {
+      "label": "Melhor temporada",
+      "aDetail": "Mai-Dez (seca, alta), Jan-Abr (quente e úmida)",
+      "bDetail": "Abr-Out (seca), Nov-Mar (chuvosa)"
+    },
+    {
+      "label": "Orçamento mínimo (5 estrelas)",
+      "aDetail": "$400/noite de entrada em 5 estrelas",
+      "bDetail": "$700-900/noite de entrada em 5 estrelas (Seychelles é estruturalmente mais cara)"
+    },
+    {
+      "label": "Orçamento máximo",
+      "aDetail": "$2500/noite no máximo (Constance Le Prince Maurice, One&Only Le Saint Géran)",
+      "bDetail": "$10 000+/noite possível (North Island, Fregate Private Island, Six Senses Zil Pasyon)"
+    }
   ],
   "pickA": {
     "title": "Escolha Maurício se…",
@@ -45,10 +109,25 @@
     ]
   },
   "faqs": [
-    { "q": "Qual tem praias mais belas?", "a": "Seychelles, segundo a maioria dos rankings: os blocos de granito combinados com areia fina e água turquesa criam uma assinatura visual única que Maurício (litoral coralino plano) não consegue igualar. Os dois países têm costas extraordinariamente belas; Seychelles vence na fotografia." },
-    { "q": "Qual é mais cara?", "a": "Seychelles, entre 30% e 40%. O país tem uma tarifação hoteleira estruturalmente mais alta: menos ilhas desenvolvidas, inventário menor, grande parte dele ultraluxo. Maurício oferece autêntico luxo 5 estrelas a partir de $400/noite; Seychelles começa em torno de $700-900." },
-    { "q": "Posso me hospedar em uma villa sobre a água em Seychelles?", "a": "Não: Seychelles não tem bangalôs sobre a água. A batimetria das ilhas graníticas não é apta para construção sobre a água. Para lua de mel sobre a água, você precisa de Maldivas, Bora Bora, Fiji ou alguns resorts de Maurício." },
-    { "q": "Qual é melhor para uma lua de mel multi-ilha?", "a": "Seychelles, decisivamente. O trio Mahé + Praslin + La Digue é o itinerário natural seichelense, com curtos saltos de ferry entre elas. Maurício é uma única ilha principal; o formato multi-ilha não é o seu." },
-    { "q": "Qual tem melhor gastronomia?", "a": "Maurício, decisivamente. A fusão mauriciana de crioulo + indiano + chinês + francês é um dos grandes caldeirões culinários do mundo. A gastronomia seichelense é crioula fresca e agradável, mas mais limitada." }
+    {
+      "q": "Qual tem praias mais belas?",
+      "a": "Seychelles, segundo a maioria dos rankings: os blocos de granito combinados com areia fina e água turquesa criam uma assinatura visual única que Maurício (litoral coralino plano) não consegue igualar. Os dois países têm costas extraordinariamente belas; Seychelles vence na fotografia."
+    },
+    {
+      "q": "Qual é mais cara?",
+      "a": "Seychelles, entre 30% e 40%. O país tem uma tarifação hoteleira estruturalmente mais alta: menos ilhas desenvolvidas, inventário menor, grande parte dele ultraluxo. Maurício oferece autêntico luxo 5 estrelas a partir de $400/noite; Seychelles começa em torno de $700-900."
+    },
+    {
+      "q": "Posso me hospedar em uma villa sobre a água em Seychelles?",
+      "a": "Não: Seychelles não tem bangalôs sobre a água. A batimetria das ilhas graníticas não é apta para construção sobre a água. Para lua de mel sobre a água, você precisa de Maldivas, Bora Bora, Fiji ou alguns resorts de Maurício."
+    },
+    {
+      "q": "Qual é melhor para uma lua de mel multi-ilha?",
+      "a": "Seychelles, decisivamente. O trio Mahé + Praslin + La Digue é o itinerário natural seichelense, com curtos saltos de ferry entre elas. Maurício é uma única ilha principal; o formato multi-ilha não é o seu."
+    },
+    {
+      "q": "Qual tem melhor gastronomia?",
+      "a": "Maurício, decisivamente. A fusão mauriciana de crioulo + indiano + chinês + francês é um dos grandes caldeirões culinários do mundo. A gastronomia seichelense é crioula fresca e agradável, mas mais limitada."
+    }
   ]
 }

@@ -55,18 +55,102 @@
     }
   ],
   "months": [
-    { "month": "Jan", "weather": "Fresco, tranquilo, alguns fechamentos", "emoji": "⛅", "crowds": "Mínima", "price": "Mínimo", "verdict": "Atmosférico, mas limitado" },
-    { "month": "Feb", "weather": "Fresco, muito tranquilo", "emoji": "⛅", "crowds": "Mínima", "price": "Muito baixo", "verdict": "Para românticos resistentes" },
-    { "month": "Mar", "weather": "Esquentando, flores de primavera", "emoji": "🌤", "crowds": "Baixa", "price": "Baixo", "verdict": "Encantador, se não se importar com água fria" },
-    { "month": "Apr", "weather": "Primavera perfeita, limoeiros em flor", "emoji": "☀️", "crowds": "Moderada", "price": "Médio", "verdict": "Excelente: a temporada começa de verdade" },
-    { "month": "May", "weather": "Ideal: quente, claro, sem calor excessivo", "emoji": "☀️", "crowds": "Moderada", "price": "Médio-alto", "verdict": "Um dos dois melhores meses" },
-    { "month": "Jun", "weather": "Quente, mar para banho, começa o Festival de Ravello", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Lindíssimo: reserve os concertos já" },
-    { "month": "Jul", "weather": "Calorento, muito lotado, trânsito intenso", "emoji": "🌡️", "crowds": "Máxima", "price": "Muito alto", "verdict": "Evitar: calor e agitação demais" },
-    { "month": "Aug", "weather": "O mais quente, multidões no auge", "emoji": "🌡️", "crowds": "Máxima", "price": "Máximo", "verdict": "O pior mês: genuinamente desagradável" },
-    { "month": "Sep", "weather": "Quente, mar morno, menos gente", "emoji": "☀️", "crowds": "Moderada", "price": "Alto", "verdict": "Melhor relação luxo-preço do ano" },
-    { "month": "Oct", "weather": "Temperaturas perfeitas, luz dourada", "emoji": "🌤", "crowds": "Baixa-mod.", "price": "Médio", "verdict": "O melhor mês secreto" },
-    { "month": "Nov", "weather": "Esfriando, alguns fechamentos começam", "emoji": "⛅", "crowds": "Baixa", "price": "Baixo", "verdict": "Atmosférico, opções limitadas" },
-    { "month": "Dec", "weather": "Fresco, tranquilo, atmosfera natalina", "emoji": "🎄", "crowds": "Baixa", "price": "Baixo-médio", "verdict": "Romântico e tranquilo" }
+    {
+      "month": "Jan",
+      "weather": "Fresco, tranquilo, alguns fechamentos",
+      "emoji": "⛅",
+      "crowds": "Mínima",
+      "price": "Mínimo",
+      "verdict": "Atmosférico, mas limitado"
+    },
+    {
+      "month": "Feb",
+      "weather": "Fresco, muito tranquilo",
+      "emoji": "⛅",
+      "crowds": "Mínima",
+      "price": "Muito baixo",
+      "verdict": "Para românticos resistentes"
+    },
+    {
+      "month": "Mar",
+      "weather": "Esquentando, flores de primavera",
+      "emoji": "🌤",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Encantador, se não se importar com água fria"
+    },
+    {
+      "month": "Apr",
+      "weather": "Primavera perfeita, limoeiros em flor",
+      "emoji": "☀️",
+      "crowds": "Moderada",
+      "price": "Médio",
+      "verdict": "Excelente: a temporada começa de verdade"
+    },
+    {
+      "month": "May",
+      "weather": "Ideal: quente, claro, sem calor excessivo",
+      "emoji": "☀️",
+      "crowds": "Moderada",
+      "price": "Médio-alto",
+      "verdict": "Um dos dois melhores meses"
+    },
+    {
+      "month": "Jun",
+      "weather": "Quente, mar para banho, começa o Festival de Ravello",
+      "emoji": "☀️",
+      "crowds": "Alta",
+      "price": "Alto",
+      "verdict": "Lindíssimo: reserve os concertos já"
+    },
+    {
+      "month": "Jul",
+      "weather": "Calorento, muito lotado, trânsito intenso",
+      "emoji": "🌡️",
+      "crowds": "Máxima",
+      "price": "Muito alto",
+      "verdict": "Evitar: calor e agitação demais"
+    },
+    {
+      "month": "Aug",
+      "weather": "O mais quente, multidões no auge",
+      "emoji": "🌡️",
+      "crowds": "Máxima",
+      "price": "Máximo",
+      "verdict": "O pior mês: genuinamente desagradável"
+    },
+    {
+      "month": "Sep",
+      "weather": "Quente, mar morno, menos gente",
+      "emoji": "☀️",
+      "crowds": "Moderada",
+      "price": "Alto",
+      "verdict": "Melhor relação luxo-preço do ano"
+    },
+    {
+      "month": "Oct",
+      "weather": "Temperaturas perfeitas, luz dourada",
+      "emoji": "🌤",
+      "crowds": "Baixa-mod.",
+      "price": "Médio",
+      "verdict": "O melhor mês secreto"
+    },
+    {
+      "month": "Nov",
+      "weather": "Esfriando, alguns fechamentos começam",
+      "emoji": "⛅",
+      "crowds": "Baixa",
+      "price": "Baixo",
+      "verdict": "Atmosférico, opções limitadas"
+    },
+    {
+      "month": "Dec",
+      "weather": "Fresco, tranquilo, atmosfera natalina",
+      "emoji": "🎄",
+      "crowds": "Baixa",
+      "price": "Baixo-médio",
+      "verdict": "Romântico e tranquilo"
+    }
   ],
   "budgetTiers": [
     {
@@ -138,11 +222,26 @@
     }
   ],
   "packing": [
-    { "item": "Calçado confortável com boa aderência", "why": "A Costa Amalfitana é pavimentada com degraus de pedra polida. No calor e com sandália, viram uma armadilha. Um tênis leve de trilha ou com sola aderente é essencial." },
-    { "item": "Roupa elegante para a noite", "why": "Os restaurantes de Positano e o bar do Le Sirenuse exigem certa etiqueta. Calça de linho e vestido de seda são o padrão local. Nada de chinelos no jantar." },
-    { "item": "Chapéu leve para o sol", "why": "O reflexo das paredes brancas e do mar ao meio-dia é intenso. Um chapéu protege o rosto e fica bem nas fotos." },
-    { "item": "Bolsa pequena transversal", "why": "Você vai subir e descer escadas com as duas mãos livres. Mochilas são desconfortáveis em escadas estreitas. Uma bolsinha de couro a tiracolo é a escolha certa." },
-    { "item": "Comprimidos para enjoo", "why": "O ferry SITA com mar agitado e os ônibus da estrada costeira têm sua fama. Mesmo quem não costuma enjoar de carro às vezes sofre nas curvas fechadas." }
+    {
+      "item": "Calçado confortável com boa aderência",
+      "why": "A Costa Amalfitana é pavimentada com degraus de pedra polida. No calor e com sandália, viram uma armadilha. Um tênis leve de trilha ou com sola aderente é essencial."
+    },
+    {
+      "item": "Roupa elegante para a noite",
+      "why": "Os restaurantes de Positano e o bar do Le Sirenuse exigem certa etiqueta. Calça de linho e vestido de seda são o padrão local. Nada de chinelos no jantar."
+    },
+    {
+      "item": "Chapéu leve para o sol",
+      "why": "O reflexo das paredes brancas e do mar ao meio-dia é intenso. Um chapéu protege o rosto e fica bem nas fotos."
+    },
+    {
+      "item": "Bolsa pequena transversal",
+      "why": "Você vai subir e descer escadas com as duas mãos livres. Mochilas são desconfortáveis em escadas estreitas. Uma bolsinha de couro a tiracolo é a escolha certa."
+    },
+    {
+      "item": "Comprimidos para enjoo",
+      "why": "O ferry SITA com mar agitado e os ônibus da estrada costeira têm sua fama. Mesmo quem não costuma enjoar de carro às vezes sofre nas curvas fechadas."
+    }
   ],
   "guide": {
     "getting": "Voe para o aeroporto internacional de Nápoles (NAP). Do norte da Europa: voos diretos com easyJet, Ryanair, British Airways, Lufthansa (1,5–3h). Dos EUA: conexão em Roma (FCO) ou Milão (MXP), ou direto a Nápoles pela Delta saindo de JFK (9h). Do aeroporto de Nápoles: táxi até Sorrento (50 min, €80) e depois ferry, ou transfer privativo direto a Positano (90 min, €150–€200).",
@@ -152,5 +251,9 @@
   "localFood": "Linguine alle vongole (vôngoles com alho e vinho branco) em uma trattoria de Positano sobre a falésia, limoncello de sfusato amalfitano, mozzarella di bufala fresca das fazendas da Campânia, menu degustação no Don Alfonso 1890 (duas estrelas Michelin) acima de Sorrento, e sfogliatelle (massa folhada com ricota) de uma pasticceria napolitana antes de pegar o ferry.",
   "currency": "Euro (EUR)",
   "language": "Italiano (inglês nos hotéis)",
-  "timezone": "UTC+1 (CET) / UTC+2 (CEST no verão)"
+  "timezone": "UTC+1 (CET) / UTC+2 (CEST no verão)",
+  "seo": {
+    "title": "Lua de Mel na Costa Amalfitana: 8 Hotéis em Falésia",
+    "description": "8 hotéis em Positano, Ravello e Praiano pontuados. Le Sirenuse, Caruso, San Pietro. De $800/noite. Mai-set."
+  }
 }
