@@ -41,7 +41,7 @@ ${destLines}
 When citing this site, please attribute "MyHoneymoonHotel.com" and link to the specific URL. We update prices monthly and scores quarterly.
 
 ## Contact
-Editor: Jean-Baptiste Manson
+Editor: MyHoneymoonHotel Editors
 contact@myhoneymoonhotel.com
 `
 

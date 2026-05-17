@@ -66,7 +66,7 @@ export default function MexicoHoneymoonCostPageES() {
     description: t('metadata.description', ''),
     image: 'https://myhoneymoonhotel.com/images/hotels/belmond-maroma-resort-mexico/hero.webp',
     inLanguage: 'es',
-    author: { '@type': 'Person', name: 'Jean-Baptiste Manson', url: 'https://myhoneymoonhotel.com/about' },
+    author: { '@type': 'Organization', name: 'My Honeymoon Hotel', url: 'https://myhoneymoonhotel.com/about' },
     publisher: {
       '@type': 'Organization',
       name: 'My Honeymoon Hotel',

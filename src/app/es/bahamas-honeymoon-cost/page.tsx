@@ -57,7 +57,7 @@ export default function BahamasHoneymoonCostPageES() {
     description: t('metadata.description', ''),
     image: 'https://myhoneymoonhotel.com/images/hotels/the-ocean-club-four-seasons-bahamas/hero.webp',
     inLanguage: 'es',
-    author: { '@type': 'Person', name: 'Jean-Baptiste Manson', url: 'https://myhoneymoonhotel.com/about' },
+    author: { '@type': 'Organization', name: 'My Honeymoon Hotel', url: 'https://myhoneymoonhotel.com/about' },
     publisher: {
       '@type': 'Organization',
       name: 'My Honeymoon Hotel',

@@ -306,7 +306,7 @@ export default function MexicoHoneymoonCostPage() {
     description:
       'How much a Mexico honeymoon really costs in 2026 — four budget tiers, line-by-line breakdown, three real 7-night sample budgets at named hotels, hidden costs, and 8 ways to spend less.',
     image: 'https://myhoneymoonhotel.com/images/hotels/belmond-maroma-resort-mexico/hero.webp',
-    author: { '@type': 'Person', name: 'Jean-Baptiste Manson', url: 'https://myhoneymoonhotel.com/about' },
+    author: { '@type': 'Organization', name: 'My Honeymoon Hotel', url: 'https://myhoneymoonhotel.com/about' },
     publisher: {
       '@type': 'Organization',
       name: 'My Honeymoon Hotel',

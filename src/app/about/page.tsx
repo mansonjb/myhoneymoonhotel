@@ -8,43 +8,47 @@ export const metadata: Metadata = {
   alternates: buildAlternates('/about'),
 }
 
-const personSchema = {
+const orgSchema = {
   '@context': 'https://schema.org',
-  '@type': 'Person',
-  name: 'Jean-Baptiste Manson',
-  jobTitle: 'Founder & Editor',
-  worksFor: { '@type': 'Organization', name: 'My Honeymoon Hotel' },
-  url: 'https://myhoneymoonhotel.com/about',
-  sameAs: [],
+  '@type': 'Organization',
+  name: 'My Honeymoon Hotel',
+  alternateName: 'MyHoneymoonHotel',
+  url: 'https://myhoneymoonhotel.com',
+  logo: 'https://myhoneymoonhotel.com/icon.png',
+  description: 'The honest guide to honeymoon hotels. 624 properties scored on 9 romance-specific criteria across 77 destinations. Never paid placement.',
+  email: 'contact@myhoneymoonhotel.com',
+  foundingDate: '2026',
+  sameAs: [
+    'https://www.linkedin.com/company/myhoneymoonhotel',
+    'https://www.pinterest.com/myhoneymoonhotel',
+  ],
 }
 
 export default function AboutPage() {
   return (
     <div className="max-w-3xl mx-auto px-6 py-20">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }} />
       <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">About</p>
       <h1 className="font-display text-4xl sm:text-5xl text-zinc-900 mb-8">
         The honeymoon guide we wished we had.
       </h1>
 
-      {/* AUTHOR BIO */}
+      {/* EDITORIAL TEAM CARD */}
       <section className="my-10 flex items-start gap-5 p-6 rounded-2xl bg-rose-50/60 border border-rose-100">
-        <div className="w-20 h-20 shrink-0 rounded-full bg-rose-100 flex items-center justify-center text-rose-500 font-display text-2xl">
-          JB
+        <div className="w-20 h-20 shrink-0 rounded-full bg-rose-100 flex items-center justify-center text-rose-500 text-3xl">
+          ◆
         </div>
         <div className="text-sm text-zinc-700 leading-relaxed">
-          <div className="font-semibold text-zinc-900 text-base">Jean-Baptiste Manson</div>
-          <div className="text-zinc-500 text-xs uppercase tracking-[0.15em] mt-1">Founder &amp; Editor</div>
+          <div className="font-semibold text-zinc-900 text-base">MyHoneymoonHotel Editors</div>
+          <div className="text-zinc-500 text-xs uppercase tracking-[0.15em] mt-1">Editorial team</div>
           <p className="mt-3">
-            10+ years in travel editorial, with a background spanning luxury hospitality coverage, SEO,
-            and software. Specialises in luxury romance travel and the unglamorous logistics that make
-            it actually work — overwater villa transfers, adults-only verification, monsoon-shoulder
-            pricing, and the difference between a brochure suite and the one worth booking.
+            A small team with a background in travel editorial, SEO, and software. We specialise in
+            luxury romance travel and the unglamorous logistics that make it actually work —
+            overwater villa transfers, adults-only verification, monsoon-shoulder pricing, and the
+            difference between a brochure suite and the one worth booking.
           </p>
           <p className="mt-3 text-zinc-600">
-            Reach me directly: <a href="mailto:contact@myhoneymoonhotel.com" className="text-rose-500 underline">contact@myhoneymoonhotel.com</a>
-            {' · '}
-            <a href="#" className="text-rose-500 underline">LinkedIn</a>
+            Reach us: <a href="mailto:contact@myhoneymoonhotel.com" className="text-rose-500 underline">contact@myhoneymoonhotel.com</a>
           </p>
         </div>
       </section>

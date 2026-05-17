@@ -314,7 +314,7 @@ export default function TurksAndCaicosHoneymoonCostPage() {
     description:
       'How much a Turks and Caicos honeymoon really costs in 2026 — four budget tiers, line-by-line breakdown, four real 7-night sample budgets, hidden costs (12% GHST), and 8 ways to spend less.',
     image: 'https://myhoneymoonhotel.com/images/hotels/amanyara-turks-caicos/hero.webp',
-    author: { '@type': 'Person', name: 'Jean-Baptiste Manson', url: 'https://myhoneymoonhotel.com/about' },
+    author: { '@type': 'Organization', name: 'My Honeymoon Hotel', url: 'https://myhoneymoonhotel.com/about' },
     publisher: {
       '@type': 'Organization',
       name: 'My Honeymoon Hotel',

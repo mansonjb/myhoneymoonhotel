@@ -272,7 +272,7 @@ export default function HowToPlanAHoneymoonPage() {
     description:
       'A 12-month honeymoon planning timeline, real budget numbers, the destination framework, the 7 hotel types, and the 10 mistakes that ruin honeymoons.',
     image: 'https://myhoneymoonhotel.com/images/hotels/four-seasons-bora-bora/hero.webp',
-    author: { '@type': 'Person', name: 'Jean-Baptiste Manson', url: 'https://myhoneymoonhotel.com/about' },
+    author: { '@type': 'Organization', name: 'My Honeymoon Hotel', url: 'https://myhoneymoonhotel.com/about' },
     publisher: {
       '@type': 'Organization',
       name: 'My Honeymoon Hotel',

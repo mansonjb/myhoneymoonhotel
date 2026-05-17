@@ -412,7 +412,7 @@ export default function BestHoneymoonResorts2026Page() {
     description:
       'The definitive 2026 ranking of the world’s best honeymoon resorts. 1,200+ properties scored on adults-only, romance, spa, beach and couples reviews.',
     image: 'https://myhoneymoonhotel.com/images/hotels/soneva-jani-maldives/hero.webp',
-    author: { '@type': 'Person', name: 'Jean-Baptiste Manson', url: 'https://myhoneymoonhotel.com/about' },
+    author: { '@type': 'Organization', name: 'My Honeymoon Hotel', url: 'https://myhoneymoonhotel.com/about' },
     publisher: {
       '@type': 'Organization',
       name: 'My Honeymoon Hotel',

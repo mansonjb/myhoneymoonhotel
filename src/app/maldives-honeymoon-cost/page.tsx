@@ -314,7 +314,7 @@ export default function MaldivesHoneymoonCostPage() {
     description:
       'How much a Maldives honeymoon really costs in 2026 — four budget tiers, line-by-line breakdown, four real 7-night sample budgets, hidden costs, and 8 ways to spend less.',
     image: 'https://myhoneymoonhotel.com/images/hotels/soneva-jani-maldives/hero.webp',
-    author: { '@type': 'Person', name: 'Jean-Baptiste Manson', url: 'https://myhoneymoonhotel.com/about' },
+    author: { '@type': 'Organization', name: 'My Honeymoon Hotel', url: 'https://myhoneymoonhotel.com/about' },
     publisher: {
       '@type': 'Organization',
       name: 'My Honeymoon Hotel',

@@ -82,8 +82,8 @@ export default function HotelSchema({ hotel, locale = 'en' }: HotelSchemaProps) 
     headline: `${hotel.name} — Honeymoon Review`,
     about: { '@type': 'LodgingBusiness', name: hotel.name },
     author: {
-      '@type': 'Person',
-      name: 'Jean-Baptiste Manson',
+      '@type': 'Organization',
+      name: 'My Honeymoon Hotel',
       url: 'https://myhoneymoonhotel.com/about',
     },
     publisher: {

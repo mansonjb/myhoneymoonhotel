@@ -57,7 +57,7 @@ export default function TurksAndCaicosHoneymoonCostPagePT() {
     description: t('metadata.description', ''),
     image: 'https://myhoneymoonhotel.com/images/hotels/amanyara-turks-caicos/hero.webp',
     inLanguage: 'pt',
-    author: { '@type': 'Person', name: 'Jean-Baptiste Manson', url: 'https://myhoneymoonhotel.com/about' },
+    author: { '@type': 'Organization', name: 'My Honeymoon Hotel', url: 'https://myhoneymoonhotel.com/about' },
     publisher: {
       '@type': 'Organization',
       name: 'My Honeymoon Hotel',

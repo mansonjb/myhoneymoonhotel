@@ -32,8 +32,8 @@ const DEST_HERO: Record<string, string> = {
   'st-lucia': '/images/hotels/jade-mountain-st-lucia/hero.webp',
   'turks-and-caicos': '/images/hotels/amanyara-turks-caicos/hero.webp',
   morocco: '/images/hotels/royal-mansour-marrakech-morocco/hero.webp',
-  jordan: 'https://images.unsplash.com/photo-1544087931-1ec5d5e7e8be?w=1400&q=80',
-  iceland: 'https://images.unsplash.com/photo-1504893524553-b855bce32c67?w=1400&q=80',
+  jordan: '/images/hotels/kempinski-ishtar-dead-sea-jordan/hero.webp',
+  iceland: '/images/hotels/deplar-farm-fljot-valley-iceland/hero.webp',
   switzerland: '/images/hotels/badrutts-palace-hotel-st-moritz-switzerland/hero.webp',
   greece: '/images/hotels/amanzoe-porto-heli-greece/hero.webp',
   mexico: '/images/hotels/las-ventanas-al-paraiso-mexico/hero.webp',
@@ -59,11 +59,16 @@ export async function renderComparisonPage(slug: string, locale: Locale) {
   if (!cmp) notFound()
   const m = getMessages(locale)
 
-  const heroA = DEST_HERO[cmp.a.destination] ?? '/images/hotels/four-seasons-bora-bora/hero.webp'
-  const heroB = DEST_HERO[cmp.b.destination] ?? '/images/hotels/velaa-private-island-maldives/hero.webp'
-
   const hotelsA = getHotelsByDestination(cmp.a.destination).slice(0, 3)
   const hotelsB = getHotelsByDestination(cmp.b.destination).slice(0, 3)
+
+  // Bulletproof hero resolution: explicit map → first hotel hero → generic fallback.
+  // Prevents broken-image icons when a comparison destination has no entry in DEST_HERO.
+  const heroFromHotels = (dest: string): string | undefined =>
+    getHotelsByDestination(dest)[0]?.photos.find(p => p.type === 'hero')?.url
+    ?? getHotelsByDestination(dest)[0]?.photos[0]?.url
+  const heroA = DEST_HERO[cmp.a.destination] ?? heroFromHotels(cmp.a.destination) ?? '/images/hotels/four-seasons-bora-bora/hero.webp'
+  const heroB = DEST_HERO[cmp.b.destination] ?? heroFromHotels(cmp.b.destination) ?? '/images/hotels/velaa-private-island-maldives/hero.webp'
 
   const aWins = cmp.criteria.filter(c => c.aWins === true).length
   const bWins = cmp.criteria.filter(c => c.aWins === false).length
@@ -81,7 +86,7 @@ export async function renderComparisonPage(slug: string, locale: Locale) {
               '@type': 'Article',
               headline: `${cmp.a.label} vs ${cmp.b.label} — Honeymoon Comparison`,
               description: cmp.metaDescription,
-              author: { '@type': 'Person', name: 'Jean-Baptiste Manson', url: `${SITE_URL}/about` },
+              author: { '@type': 'Organization', name: 'My Honeymoon Hotel', url: `${SITE_URL}/about` },
               publisher: {
                 '@type': 'Organization',
                 name: 'My Honeymoon Hotel',

@@ -313,7 +313,7 @@ export default function BahamasHoneymoonCostPage() {
     description:
       'How much a Bahamas honeymoon really costs in 2026 — four budget tiers, line-by-line breakdown, four real 7-night sample budgets, hidden costs (12% VAT), and 8 ways to spend less.',
     image: 'https://myhoneymoonhotel.com/images/hotels/the-ocean-club-four-seasons-bahamas/hero.webp',
-    author: { '@type': 'Person', name: 'Jean-Baptiste Manson', url: 'https://myhoneymoonhotel.com/about' },
+    author: { '@type': 'Organization', name: 'My Honeymoon Hotel', url: 'https://myhoneymoonhotel.com/about' },
     publisher: {
       '@type': 'Organization',
       name: 'My Honeymoon Hotel',
