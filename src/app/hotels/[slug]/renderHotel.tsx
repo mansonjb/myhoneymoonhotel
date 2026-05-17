@@ -1,5 +1,4 @@
 import type { Metadata } from 'next'
-import Image from 'next/image'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { getAllHotels, getRelatedHotels } from '@/lib/hotels'
@@ -10,6 +9,8 @@ import HotelCard from '@/components/HotelCard'
 import CopyButton from '@/components/CopyButton'
 import StickyBookingBar from '@/components/StickyBookingBar'
 import HeroImage from '@/components/HeroImage'
+import HotelGalleryLightbox from '@/components/HotelGalleryLightbox'
+import RecordView from '@/components/RecordView'
 import { getMessages, type Messages } from '@/i18n/getMessages'
 import { buildAlternates, localizedPath } from '@/lib/alternates'
 import type { Locale } from '@/i18n/locales'
@@ -169,19 +170,18 @@ export async function renderHotelPage(slug: string, locale: Locale) {
           </div>
         </div>
 
+        <RecordView
+          slug={hotel.slug}
+          name={hotel.name}
+          hero={heroPhoto?.url ?? ''}
+          score={hotel.honeymoon_score}
+        />
+
         {galleryPhotos.length > 0 && (
-          <div className={`grid gap-1.5 px-1.5 mt-1.5 ${
-            galleryPhotos.length === 1 ? 'grid-cols-1 max-w-2xl mx-auto' :
-            galleryPhotos.length === 2 ? 'grid-cols-2' :
-            galleryPhotos.length === 3 ? 'grid-cols-3' :
-            'grid-cols-4'
-          }`}>
-            {galleryPhotos.map((photo, i) => (
-              <div key={i} className="relative aspect-[4/3] overflow-hidden rounded-xl">
-                <Image src={photo.url} alt={photo.alt} fill loading="lazy" className="object-cover hover:scale-105 transition-transform duration-500" sizes={galleryPhotos.length === 1 ? '50vw' : '25vw'} />
-              </div>
-            ))}
-          </div>
+          <HotelGalleryLightbox
+            photos={galleryPhotos.map(p => ({ url: p.url, alt: p.alt }))}
+            hotelName={hotel.name}
+          />
         )}
 
         <div className="max-w-5xl mx-auto px-6 mt-14 space-y-20">

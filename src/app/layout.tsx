@@ -5,9 +5,13 @@ import Link from 'next/link'
 import Script from 'next/script'
 import { headers } from 'next/headers'
 import CookieBanner from '@/components/CookieBanner'
+import ExitIntentModal from '@/components/ExitIntentModal'
+import MobileStickyQuizCTA from '@/components/MobileStickyQuizCTA'
 import GoogleAnalytics from '@/components/GoogleAnalytics'
+import MicrosoftClarity from '@/components/MicrosoftClarity'
 import NewsletterCapture from '@/components/NewsletterCapture'
 import HeaderNav from '@/components/HeaderNav'
+import HeaderSearch from '@/components/HeaderSearch'
 import { getAllHotels } from '@/lib/hotels'
 import { HTML_LANG, type Locale } from '@/i18n/locales'
 import { getMessages } from '@/i18n/getMessages'
@@ -180,6 +184,8 @@ export default async function RootLayout({ children }: { children: React.ReactNo
 
         {/* GA4 — gated by cookie consent (GDPR/ePrivacy). See src/components/GoogleAnalytics.tsx. */}
         <GoogleAnalytics />
+        {/* Microsoft Clarity — heatmaps + session replays. Consent-gated. */}
+        <MicrosoftClarity />
 
         {/* Stay22 LetMeAllez — lazy-loaded (only needed when user is about to click an outbound booking link).
             Saves ~110 KiB off the critical path and removes 134ms of forced-layout from the main thread. */}
@@ -209,12 +215,18 @@ export default async function RootLayout({ children }: { children: React.ReactNo
 
             <HeaderNav destinations={destinations} experiences={EXPERIENCES} locale={locale} />
 
-            <Link
-              href={lp('/quiz')}
-              className="text-[13px] font-medium text-white bg-rose-500 hover:bg-rose-600 px-5 py-2 rounded-full transition-colors"
-            >
-              {m['nav.findMyHotel'] ?? 'Find My Hotel'}
-            </Link>
+            <div className="flex items-center gap-2">
+              {/* Mobile-only search trigger (desktop search lives inside HeaderNav). */}
+              <div className="md:hidden">
+                <HeaderSearch />
+              </div>
+              <Link
+                href={lp('/quiz')}
+                className="text-[13px] font-medium text-white bg-rose-500 hover:bg-rose-600 px-5 py-2 rounded-full transition-colors"
+              >
+                {m['nav.findMyHotel'] ?? 'Find My Hotel'}
+              </Link>
+            </div>
           </div>
         </header>
 
@@ -286,6 +298,8 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         </footer>
 
         <CookieBanner />
+        <ExitIntentModal />
+        <MobileStickyQuizCTA />
       </body>
     </html>
   )

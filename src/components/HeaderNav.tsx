@@ -1,7 +1,11 @@
 'use client'
 import Link from 'next/link'
+import dynamic from 'next/dynamic'
 import { useState, useEffect, useRef } from 'react'
 import type { Locale } from '@/i18n/locales'
+
+// Lazy-load the search modal — keeps the initial header JS lean.
+const HeaderSearch = dynamic(() => import('./HeaderSearch'), { ssr: false })
 import en from '@/i18n/messages/en.json'
 import es from '@/i18n/messages/es.json'
 import pt from '@/i18n/messages/pt.json'
@@ -97,6 +101,9 @@ export default function HeaderNav({ destinations, experiences, locale = 'en' }: 
       <Link href={lp('/compare')} className="hover:text-zinc-900 transition-colors">{tx(locale, 'nav.compare', 'Compare')}</Link>
       <Link href={lp('/quiz')} className="hover:text-zinc-900 transition-colors">{tx(locale, 'nav.quiz', 'Quiz')}</Link>
       <Link href={lp('/about')} className="hover:text-zinc-900 transition-colors">{tx(locale, 'nav.about', 'About')}</Link>
+
+      {/* Global search — opens a fuzzy-match modal across hotels, destinations, experiences. */}
+      <HeaderSearch />
 
       {/* Destinations mega dropdown — grouped by Region → Country → Destinations */}
       {open === 'dest' && (

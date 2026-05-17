@@ -341,11 +341,22 @@ export default function MexicoHoneymoonCostPage() {
     ],
   }
 
+  const speakableSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    '@id': 'https://myhoneymoonhotel.com/mexico-honeymoon-cost#speakable',
+    speakable: {
+      '@type': 'SpeakableSpecification',
+      cssSelector: ['#tldr'],
+    },
+  }
+
   return (
     <article>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema) }} />
 
       {/* HERO */}
       <section className="relative h-[70vh] min-h-[520px] flex items-end overflow-hidden">
@@ -384,6 +395,20 @@ export default function MexicoHoneymoonCostPage() {
         <AuthorByline />
       </div>
 
+      <div className="max-w-3xl mx-auto px-6">
+        <aside id="tldr" className="my-8 p-6 rounded-2xl bg-rose-50/60 border border-rose-100">
+          <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-500 mb-2">TL;DR</p>
+          <p className="text-zinc-900 text-lg leading-relaxed font-medium">
+            A Mexico honeymoon costs $4,000 to $50,000+ for 7 nights, 2 people. Riviera Maya all-inclusives (Secrets, Excellence, Unico) run $4k–$10k. Los Cabos adults-only resorts (Las Ventanas, Esperanza) sit at $10k–$25k. Punta Mita private-villa or ultra-luxury (Four Seasons, One&amp;Only Mandarina) lands at $20k–$50k+. Short flight from any US hub plus the dollar's strength against the peso make Mexico the highest-leverage honeymoon in the Western Hemisphere.
+          </p>
+          <ul className="mt-4 grid grid-cols-1 sm:grid-cols-3 gap-3 text-sm text-zinc-600">
+            <li><strong className="block text-zinc-900 text-xs uppercase tracking-wider mb-1">For</strong>Short-flight US couples wanting beach + adventure</li>
+            <li><strong className="block text-zinc-900 text-xs uppercase tracking-wider mb-1">Cost</strong>$4k–$50k+</li>
+            <li><strong className="block text-zinc-900 text-xs uppercase tracking-wider mb-1">Best month</strong>Nov–Apr</li>
+          </ul>
+        </aside>
+      </div>
+
       {/* INTRO + TL;DR */}
       <section className="max-w-3xl mx-auto px-6 py-14 prose prose-zinc bg-gradient-to-b from-rose-50/60 via-white to-white -mt-2">
         <p className="text-lg text-zinc-700 leading-relaxed">
@@ -411,7 +436,7 @@ export default function MexicoHoneymoonCostPage() {
         <div className="not-prose my-12 bg-zinc-50 border border-zinc-100 rounded-2xl p-7">
           <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-500 mb-4">In this guide</p>
           <ol className="text-sm text-zinc-700 space-y-2 leading-relaxed list-decimal pl-5">
-            <li><a className="hover:text-rose-500" href="#tldr">The four budget tiers — TL;DR table</a></li>
+            <li><a className="hover:text-rose-500" href="#tldr-tiers">The four budget tiers — TL;DR table</a></li>
             <li><a className="hover:text-rose-500" href="#drivers">The five cost drivers</a></li>
             <li><a className="hover:text-rose-500" href="#line-items">Line-by-line cost breakdown</a></li>
             <li><a className="hover:text-rose-500" href="#samples">Three real 7-night sample budgets</a></li>
@@ -425,7 +450,7 @@ export default function MexicoHoneymoonCostPage() {
       </section>
 
       {/* 1. TL;DR */}
-      <section id="tldr" className="bg-zinc-50 py-20">
+      <section id="tldr-tiers" className="bg-zinc-50 py-20">
         <div className="max-w-4xl mx-auto px-6">
           <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-500 mb-3">Section 01</p>
           <h2 className="font-display text-4xl sm:text-5xl text-zinc-900 mb-6 leading-tight">

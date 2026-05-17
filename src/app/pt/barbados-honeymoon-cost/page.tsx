@@ -102,11 +102,23 @@ export default function BarbadosHoneymoonCostPagePT() {
     ],
   }
 
+  const speakableSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    '@id': 'https://myhoneymoonhotel.com/pt/barbados-honeymoon-cost#speakable',
+    inLanguage: 'pt',
+    speakable: {
+      '@type': 'SpeakableSpecification',
+      cssSelector: ['#tldr'],
+    },
+  }
+
   return (
     <article>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema) }} />
 
       <section className="relative h-[70vh] min-h-[520px] flex items-end overflow-hidden">
         <Image
@@ -136,6 +148,20 @@ export default function BarbadosHoneymoonCostPagePT() {
         <span className="text-zinc-900">{t('breadcrumb.current', 'Coste de luna de miel en Barbados')}</span>
       </nav>
 
+      <div className="max-w-3xl mx-auto px-6">
+        <aside id="tldr" className="my-8 p-6 rounded-2xl bg-rose-50/60 border border-rose-100">
+          <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-500 mb-2">TL;DR</p>
+          <p className="text-zinc-900 text-lg leading-relaxed font-medium">
+            {t('tldr.answer', '')}
+          </p>
+          <ul className="mt-4 grid grid-cols-1 sm:grid-cols-3 gap-3 text-sm text-zinc-600">
+            <li><strong className="block text-zinc-900 text-xs uppercase tracking-wider mb-1">{t('tldr.forLabel', 'For')}</strong>{t('tldr.forValue', '')}</li>
+            <li><strong className="block text-zinc-900 text-xs uppercase tracking-wider mb-1">{t('tldr.costLabel', 'Cost')}</strong>{t('tldr.costValue', '')}</li>
+            <li><strong className="block text-zinc-900 text-xs uppercase tracking-wider mb-1">{t('tldr.monthLabel', 'Best month')}</strong>{t('tldr.monthValue', '')}</li>
+          </ul>
+        </aside>
+      </div>
+
       <section className="max-w-3xl mx-auto px-6 py-14 prose prose-zinc">
         <p className="text-lg text-zinc-700 leading-relaxed">
           {t('intro.p1.before', '')} <strong>{t('intro.p1.bold', '$4000 a $28 000+')}</strong> {t('intro.p1.after', '')}
@@ -155,7 +181,7 @@ export default function BarbadosHoneymoonCostPagePT() {
         <div className="not-prose my-12 bg-zinc-50 border border-zinc-100 rounded-2xl p-7">
           <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-500 mb-4">{t('toc.kicker', 'En esta guía')}</p>
           <ol className="text-sm text-zinc-700 space-y-2 leading-relaxed list-decimal pl-5">
-            <li><a className="hover:text-rose-500" href="#tldr">{t('toc.1', '')}</a></li>
+            <li><a className="hover:text-rose-500" href="#tldr-tiers">{t('toc.1', '')}</a></li>
             <li><a className="hover:text-rose-500" href="#drivers">{t('toc.2', '')}</a></li>
             <li><a className="hover:text-rose-500" href="#line-items">{t('toc.3', '')}</a></li>
             <li><a className="hover:text-rose-500" href="#samples">{t('toc.4', '')}</a></li>
@@ -168,7 +194,7 @@ export default function BarbadosHoneymoonCostPagePT() {
         </div>
       </section>
 
-      <section id="tldr" className="bg-zinc-50 py-20">
+      <section id="tldr-tiers" className="bg-zinc-50 py-20">
         <div className="max-w-4xl mx-auto px-6">
           <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-500 mb-3">{t('section.tldr.kicker', 'Sección 01')}</p>
           <h2 className="font-display text-4xl sm:text-5xl text-zinc-900 mb-6 leading-tight">

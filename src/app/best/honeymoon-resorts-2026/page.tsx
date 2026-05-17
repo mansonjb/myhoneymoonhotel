@@ -448,12 +448,23 @@ export default function BestHoneymoonResorts2026Page() {
     ],
   }
 
+  const speakableSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    '@id': 'https://myhoneymoonhotel.com/best/honeymoon-resorts-2026#speakable',
+    speakable: {
+      '@type': 'SpeakableSpecification',
+      cssSelector: ['#tldr'],
+    },
+  }
+
   return (
     <article>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema) }} />
 
       {/* HERO */}
       <section className="relative h-[70vh] min-h-[520px] flex items-end overflow-hidden">
@@ -492,6 +503,20 @@ export default function BestHoneymoonResorts2026Page() {
 
       <div className="max-w-4xl mx-auto px-6">
         <AuthorByline />
+      </div>
+
+      <div className="max-w-3xl mx-auto px-6">
+        <aside id="tldr" className="my-8 p-6 rounded-2xl bg-rose-50/60 border border-rose-100">
+          <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-500 mb-2">TL;DR</p>
+          <p className="text-zinc-900 text-lg leading-relaxed font-medium">
+            The best honeymoon resorts of 2026 are picked from 624 scored properties across 77 destinations on nine romance-specific criteria — privacy, view, food, spa, room design, beach, service, photo-quality, and price-to-quality. We rank the top 10 across categories: overwater, adults-only, safari, cliffside, private island, all-inclusive, wellness, ultra-luxury, value, and family-friendly-couples. Updated every season with on-the-ground stays.
+          </p>
+          <ul className="mt-4 grid grid-cols-1 sm:grid-cols-3 gap-3 text-sm text-zinc-600">
+            <li><strong className="block text-zinc-900 text-xs uppercase tracking-wider mb-1">For</strong>Couples comparing the year's top-ranked honeymoon hotels</li>
+            <li><strong className="block text-zinc-900 text-xs uppercase tracking-wider mb-1">Cost</strong>$3k–$80k+</li>
+            <li><strong className="block text-zinc-900 text-xs uppercase tracking-wider mb-1">Best month</strong>See per-resort guide</li>
+          </ul>
+        </aside>
       </div>
 
       {/* INTRO */}

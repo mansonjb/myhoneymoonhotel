@@ -322,12 +322,23 @@ export default function HowToPlanAHoneymoonPage() {
     ],
   }
 
+  const speakableSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    '@id': 'https://myhoneymoonhotel.com/how-to-plan-a-honeymoon#speakable',
+    speakable: {
+      '@type': 'SpeakableSpecification',
+      cssSelector: ['#tldr'],
+    },
+  }
+
   return (
     <article>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema) }} />
 
       {/* HERO */}
       <section className="relative h-[70vh] min-h-[520px] flex items-end overflow-hidden">
@@ -363,6 +374,20 @@ export default function HowToPlanAHoneymoonPage() {
 
       <div className="max-w-4xl mx-auto px-6">
         <AuthorByline />
+      </div>
+
+      <div className="max-w-3xl mx-auto px-6">
+        <aside id="tldr" className="my-8 p-6 rounded-2xl bg-rose-50/60 border border-rose-100">
+          <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-500 mb-2">TL;DR</p>
+          <p className="text-zinc-900 text-lg leading-relaxed font-medium">
+            A great honeymoon plan starts 6–9 months before the wedding and answers five questions: total budget tier ($5k / $15k / $30k+), traveller archetype (sun, wellness, adventure, culture), flight tolerance (under 6h / 6–12h / 12h+), preferred room style (overwater, villa-with-pool, safari tent, suite), and the best month at your destination. Lock the destination first, the resort second, the flights third — never the reverse.
+          </p>
+          <ul className="mt-4 grid grid-cols-1 sm:grid-cols-3 gap-3 text-sm text-zinc-600">
+            <li><strong className="block text-zinc-900 text-xs uppercase tracking-wider mb-1">For</strong>Engaged couples planning 6–9 months out</li>
+            <li><strong className="block text-zinc-900 text-xs uppercase tracking-wider mb-1">Cost</strong>$5k–$50k+</li>
+            <li><strong className="block text-zinc-900 text-xs uppercase tracking-wider mb-1">Best month</strong>6 months before destination peak</li>
+          </ul>
+        </aside>
       </div>
 
       {/* INTRO + TOC */}

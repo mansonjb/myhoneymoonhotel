@@ -339,11 +339,22 @@ export default function BarbadosHoneymoonCostPage() {
     ],
   }
 
+  const speakableSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    '@id': 'https://myhoneymoonhotel.com/barbados-honeymoon-cost#speakable',
+    speakable: {
+      '@type': 'SpeakableSpecification',
+      cssSelector: ['#tldr'],
+    },
+  }
+
   return (
     <article>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema) }} />
 
       {/* HERO */}
       <section className="relative h-[70vh] min-h-[520px] flex items-end overflow-hidden">
@@ -382,6 +393,20 @@ export default function BarbadosHoneymoonCostPage() {
         <AuthorByline />
       </div>
 
+      <div className="max-w-3xl mx-auto px-6">
+        <aside id="tldr" className="my-8 p-6 rounded-2xl bg-rose-50/60 border border-rose-100">
+          <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-500 mb-2">TL;DR</p>
+          <p className="text-zinc-900 text-lg leading-relaxed font-medium">
+            A Barbados honeymoon costs $5,500 to $35,000+ for 7 nights, 2 people. East-coast surf-and-boutique stays run $5.5k–$9k; west-coast Platinum-Coast classics (Sandy Lane, Cobblers Cove, Coral Reef Club) sit at $14k–$28k; ultra-luxury villas reach $35k+. The 17.5% VAT plus 10% service charge is real money on every drink, dinner, and spa line. From US Midwest plan an 11-hour two-stop day; direct flights operate from NYC, Miami, and London.
+          </p>
+          <ul className="mt-4 grid grid-cols-1 sm:grid-cols-3 gap-3 text-sm text-zinc-600">
+            <li><strong className="block text-zinc-900 text-xs uppercase tracking-wider mb-1">For</strong>Couples wanting British-Caribbean polish + food culture</li>
+            <li><strong className="block text-zinc-900 text-xs uppercase tracking-wider mb-1">Cost</strong>$5.5k–$35k+</li>
+            <li><strong className="block text-zinc-900 text-xs uppercase tracking-wider mb-1">Best month</strong>Mid-Dec to Apr</li>
+          </ul>
+        </aside>
+      </div>
+
       {/* INTRO + TL;DR */}
       <section className="max-w-3xl mx-auto px-6 py-14 prose prose-zinc">
         <p className="text-lg text-zinc-700 leading-relaxed">
@@ -412,7 +437,7 @@ export default function BarbadosHoneymoonCostPage() {
         <div className="not-prose my-12 bg-zinc-50 border border-zinc-100 rounded-2xl p-7">
           <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-500 mb-4">In this guide</p>
           <ol className="text-sm text-zinc-700 space-y-2 leading-relaxed list-decimal pl-5">
-            <li><a className="hover:text-rose-500" href="#tldr">The four budget tiers — TL;DR table</a></li>
+            <li><a className="hover:text-rose-500" href="#tldr-tiers">The four budget tiers — TL;DR table</a></li>
             <li><a className="hover:text-rose-500" href="#drivers">The five cost drivers</a></li>
             <li><a className="hover:text-rose-500" href="#line-items">Line-by-line cost breakdown</a></li>
             <li><a className="hover:text-rose-500" href="#samples">Three real 7-night sample budgets</a></li>
@@ -426,7 +451,7 @@ export default function BarbadosHoneymoonCostPage() {
       </section>
 
       {/* 1. TL;DR */}
-      <section id="tldr" className="bg-zinc-50 py-20">
+      <section id="tldr-tiers" className="bg-zinc-50 py-20">
         <div className="max-w-4xl mx-auto px-6">
           <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-500 mb-3">Section 01</p>
           <h2 className="font-display text-4xl sm:text-5xl text-zinc-900 mb-6 leading-tight">

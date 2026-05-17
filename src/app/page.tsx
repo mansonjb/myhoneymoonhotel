@@ -5,6 +5,7 @@ import { headers } from 'next/headers'
 import { getAllHotels, getAllDestinations } from '@/lib/hotels'
 import HotelCard from '@/components/HotelCard'
 import DestinationPicker from '@/components/DestinationPicker'
+import RecentlyViewedRail from '@/components/RecentlyViewedRail'
 import Stay22MapWidget from '@/components/Stay22MapWidget'
 import { buildAlternates } from '@/lib/alternates'
 import { detectLocaleFromPath, localizedHref } from '@/lib/locale-paths'
@@ -247,6 +248,8 @@ export default async function HomePage() {
           />
         </div>
       </section>
+
+      <RecentlyViewedRail />
 
       {/* ── WHY SECTION ── */}
       <section className="bg-zinc-950 text-white py-28">

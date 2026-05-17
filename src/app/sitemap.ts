@@ -73,6 +73,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: 'weekly',
     priority: 0.8,
   }))
+  const DEST_MONTH_TARGETS = [
+    'maldives', 'bora-bora', 'bali', 'santorini', 'st-lucia', 'turks-and-caicos',
+    'mauritius', 'seychelles', 'mexico', 'jamaica', 'fiji', 'bahamas',
+    'anguilla', 'antigua', 'barbados', 'sicily', 'amalfi', 'lake-como',
+    'hawaii', 'costa-rica',
+  ]
+  const DEST_MONTHS = [
+    'january', 'february', 'march', 'april', 'may', 'june',
+    'july', 'august', 'september', 'october', 'november', 'december',
+  ]
+  const destMonthPaths: PathEntry[] = DEST_MONTH_TARGETS.flatMap(d =>
+    DEST_MONTHS.map(m => ({
+      path: `/destinations/${d}/${m}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.6,
+    }))
+  )
   const expPaths: PathEntry[] = experiences.map(e => ({
     path: `/experiences/${e}`,
     lastModified: new Date(),
@@ -92,5 +110,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }))
 
-  return [...staticPaths, ...cmpPaths, ...hotelCmpPaths, ...destPaths, ...expPaths, ...hotelPaths].map(entry)
+  return [...staticPaths, ...cmpPaths, ...hotelCmpPaths, ...destPaths, ...destMonthPaths, ...expPaths, ...hotelPaths].map(entry)
 }
