@@ -5,6 +5,7 @@ import { headers } from 'next/headers'
 import { getAllHotels, getAllDestinations } from '@/lib/hotels'
 import HotelCard from '@/components/HotelCard'
 import DestinationPicker from '@/components/DestinationPicker'
+import Stay22MapWidget from '@/components/Stay22MapWidget'
 import { buildAlternates } from '@/lib/alternates'
 import { detectLocaleFromPath, localizedHref } from '@/lib/locale-paths'
 
@@ -85,6 +86,15 @@ export default async function HomePage() {
   const locale = detectLocaleFromPath(h.get('x-pathname'))
   const allHotels = getAllHotels()
   const topHotels = allHotels.slice(0, 6)
+
+  // Featured-on-map destination: Maldives is our densest catalog (31 hotels)
+  // and the highest-intent honeymoon SERP. Anchor the embed to the top-scored
+  // property so Stay22 centers the lagoon properly (not the country centroid).
+  const maldivesHotels = allHotels.filter(x => x.destination === 'maldives')
+  const featuredAnchor = [...maldivesHotels].sort((a, b) => b.honeymoon_score - a.honeymoon_score)[0]?.name
+  const featuredDestSlug = 'maldives'
+  const featuredDestLabel = 'Maldives'
+  const featuredDestCount = maldivesHotels.length
 
   // Build destination list with live counts, grouped by region
   const destCounts = allHotels.reduce((acc, h) => {
@@ -186,6 +196,34 @@ export default async function HomePage() {
             <p className="text-zinc-400">Hotels coming soon. Run the pipeline to populate.</p>
           </div>
         )}
+      </section>
+
+      {/* ── EXPLORE-ON-MAP — featured destination ── */}
+      <section className="bg-zinc-50 py-24">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-6 mb-10">
+            <div>
+              <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">Explore on the Map</p>
+              <h2 className="font-display text-4xl sm:text-5xl text-zinc-900">{featuredDestCount} {featuredDestLabel} resorts<br />pinned for you</h2>
+              <p className="text-zinc-500 mt-4 max-w-lg leading-relaxed">
+                Zoom into the lagoon. Click any pin for live availability — we compare every booking platform behind the scenes and redirect to the lowest price.
+              </p>
+            </div>
+            <Link
+              href={localizedHref(`/destinations/${featuredDestSlug}`, locale)}
+              className="self-start sm:self-end inline-flex items-center gap-2 bg-zinc-900 hover:bg-zinc-700 text-white font-semibold text-sm px-6 py-3 rounded-full transition-colors whitespace-nowrap"
+            >
+              See full {featuredDestLabel} guide →
+            </Link>
+          </div>
+          <Stay22MapWidget
+            location={featuredDestLabel}
+            anchorHotelName={featuredAnchor}
+            country={featuredDestLabel}
+            height={520}
+            locale={locale}
+          />
+        </div>
       </section>
 
       {/* ── WHY SECTION ── */}
