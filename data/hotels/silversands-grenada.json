@@ -41,11 +41,31 @@
     "concierge"
   ],
   "photos": [
-    { "url": "/images/hotels/silversands-grenada/hero.webp", "alt": "silversands-grenada — hero", "type": "hero" },
-    { "url": "/images/hotels/silversands-grenada/room.webp", "alt": "silversands-grenada — room", "type": "room" },
-    { "url": "/images/hotels/silversands-grenada/pool.webp", "alt": "silversands-grenada — pool", "type": "pool" },
-    { "url": "/images/hotels/silversands-grenada/spa.webp", "alt": "silversands-grenada — spa", "type": "spa" },
-    { "url": "/images/hotels/silversands-grenada/dining.webp", "alt": "silversands-grenada — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/silversands-grenada/hero.webp",
+      "alt": "silversands-grenada — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/silversands-grenada/room.webp",
+      "alt": "silversands-grenada — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/silversands-grenada/pool.webp",
+      "alt": "silversands-grenada — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/silversands-grenada/spa.webp",
+      "alt": "silversands-grenada — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/silversands-grenada/dining.webp",
+      "alt": "silversands-grenada — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.4,
   "tripadvisor_award": true,

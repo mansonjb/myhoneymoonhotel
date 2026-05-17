@@ -7,7 +7,12 @@
     "title": "Sanctuary Rarotonga: Adults-Only Cook Islands Honeymoon 2026",
     "description": "Adults-only beachfront on Rarotonga's west coast at Black Rock. From $500/night. Best sunset address on the island. 2026 honeymoon verdict."
   },
-  "experience_types": ["beach", "luxury", "adults-only", "romantic"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "adults-only",
+    "romantic"
+  ],
   "honeymoon_score": 86,
   "score_breakdown": {
     "adults_only": 10,
@@ -21,7 +26,10 @@
     "luxury": 0
   },
   "stars": 4,
-  "price_per_night_usd": { "min": 500, "max": 1200 },
+  "price_per_night_usd": {
+    "min": 500,
+    "max": 1200
+  },
   "adults_only": true,
   "amenities": [
     "spa",
@@ -34,11 +42,31 @@
     "fitness centre"
   ],
   "photos": [
-    { "url": "/images/hotels/sanctuary-rarotonga-cook-islands/hero.webp", "alt": "sanctuary-rarotonga-cook-islands — hero", "type": "hero" },
-    { "url": "/images/hotels/sanctuary-rarotonga-cook-islands/room.webp", "alt": "sanctuary-rarotonga-cook-islands — room", "type": "room" },
-    { "url": "/images/hotels/sanctuary-rarotonga-cook-islands/pool.webp", "alt": "sanctuary-rarotonga-cook-islands — pool", "type": "pool" },
-    { "url": "/images/hotels/sanctuary-rarotonga-cook-islands/spa.webp", "alt": "sanctuary-rarotonga-cook-islands — spa", "type": "spa" },
-    { "url": "/images/hotels/sanctuary-rarotonga-cook-islands/dining.webp", "alt": "sanctuary-rarotonga-cook-islands — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/sanctuary-rarotonga-cook-islands/hero.webp",
+      "alt": "sanctuary-rarotonga-cook-islands — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/sanctuary-rarotonga-cook-islands/room.webp",
+      "alt": "sanctuary-rarotonga-cook-islands — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/sanctuary-rarotonga-cook-islands/pool.webp",
+      "alt": "sanctuary-rarotonga-cook-islands — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/sanctuary-rarotonga-cook-islands/spa.webp",
+      "alt": "sanctuary-rarotonga-cook-islands — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/sanctuary-rarotonga-cook-islands/dining.webp",
+      "alt": "sanctuary-rarotonga-cook-islands — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.2,
   "tripadvisor_award": true,

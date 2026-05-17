@@ -1,0 +1,83 @@
+import type { DestinationMeta } from '@/types/destination'
+
+const meta: DestinationMeta = {
+hero: '/images/hotels/silversands-grenada/hero.webp',
+tagline: 'The Caribbean\'s Spice Isle — Grand Anse Beach, calm lagoons, no cruise crowds, the quiet luxury alternative to St Lucia.',
+intro: 'Grenada is the Caribbean\'s "Spice Isle" — a 21-mile volcanic island at the southern end of the Lesser Antilles that produces a third of the world\'s nutmeg and supplies the global trade with cocoa, mace, cinnamon, and bay leaf. The geography defines the honeymoon: two-mile Grand Anse Beach is consistently rated a top-five Caribbean beach (powder white sand, calm leeward-coast water, no cruise-ship dominance), the south coast hides a string of small calm coves (L\'Anse aux Epines, True Blue Bay, Pink Gin Beach), and the volcanic interior delivers Belmont Estate\'s cocoa plantation, Annandale Falls, and Grand Etang crater-lake rainforest. Direct service from US East Coast in 4 hours via Maurice Bishop International (GND) makes Grenada quicker to reach than the more crowded St Lucia or Antigua, and the absence of a major cruise-ship port keeps the island\'s pace genuinely quiet. This is the premium-but-quieter alternative for couples who want Caribbean perfection without the scene.',
+bestTime: 'Dec–May (dry, breezy)',
+flightFrom: '4h from East Coast US — direct JFK/MIA. Via SLU or BGI from EU',
+topExperience: 'Grand Anse Beach + Spice Estate',
+perfectFor: [
+  'Returning honeymooners who have done St Lucia or Barbados and want the quieter Caribbean alternative',
+  'Couples wanting beach-perfection paired with bush-walks, waterfalls, and rainforest',
+  'Foodies drawn to cocoa, nutmeg, spice provenance and Belmont Estate bean-to-bar production',
+  'No-cruise-ship purists who want a Caribbean island the day-trip economy has not flattened',
+  'Sailors heading to Carriacou and the southern Grenadines (Tobago Cays) for catamaran charter',
+],
+skipIf: [
+  'You want lively nightlife, clubs, or a party scene — Grenada is genuinely quiet',
+  'Ski, snow, or winter-sport adjacency is part of the trip',
+  'You want an ultra-luxury private island like Mustique or Petit St Vincent',
+  'Broad family appeal with kids clubs and theme-park amenities is a priority',
+  'You expect a big restaurant scene outside the resorts — fine dining is limited',
+],
+experiences: [
+  { icon: '🍫', title: 'Belmont Estate Cocoa-to-Bar Tour', description: '400-year-old cocoa and spice plantation in St Patrick — full tour of cocoa pod harvest, fermentation, sun-drying on rolling boucan trays, and the Grenada Chocolate Company bean-to-bar production. The estate creole buffet lunch on the verandah (oildown, callaloo, fresh juices) is the day\'s highlight.', cost: '$45 per person tour, $30 per person lunch', tip: 'Tuesday and Thursday have the most active production days — workers turning trays, pods being broken, fermentation bins emptied. Book in advance through your resort concierge.' },
+  { icon: '🏖️', title: 'Grand Anse Beach Day', description: 'Two-mile crescent of powder white sand on the southwest coast, consistently rated a top-five Caribbean beach. Calm leeward-coast water, walkable end-to-end in 35 minutes, with Spice Island and Silversands at the northern end and Mount Cinnamon\'s beach club at the southern end.', cost: 'Free entry; lunch $30-60/couple at Umbrellas Beach Bar or BB\'s Crabback', tip: 'Best sunset is from the southern hillside above Mount Cinnamon. The middle stretch (in front of Spice Island) has the calmest water for swimming.' },
+  { icon: '🐠', title: 'Underwater Sculpture Park Snorkel', description: 'Jason deCaires Taylor\'s Molinere Bay installation — the world\'s first underwater sculpture park, with human figures in 3-8m of clear water that have colonised with coral and reef life. Three-hour boat trip from Grand Anse with stops at Dragon Bay and Flamingo Bay reefs.', cost: '$60 per person guided trip', tip: 'Go before 11am for the clearest water and least boat traffic. Most trips include snorkel gear and a guide; full PADI scuba certified trips also available from Aquanauts.' },
+  { icon: '💧', title: 'Annandale Falls + Grand Etang Rainforest', description: 'Annandale Falls is a 10-metre cascade in a green amphitheatre 30 minutes from St George\'s — quick stop. Grand Etang National Park is the crater lake at the island\'s volcanic centre with rainforest trails, the Mona monkeys descending at feeding time, and the Concord Falls hike option.', cost: '$35 per person guided half-day', tip: 'Pair with Belmont Estate on the same day — both are in the northern interior. Wear closed shoes for the Grand Etang trail.' },
+  { icon: '⛵', title: 'Sunset Sail to Carriacou', description: 'Full-day private catamaran charter from Grand Anse north to Carriacou (Grenada\'s quieter sister island, 45 minutes by fast cat). Snorkel at Sandy Island, lunch at Off the Hook beach bar on Paradise Beach, sunset return to Grand Anse Bay. Alternatively, the southern run to the Tobago Cays for the best snorkel in the region.', cost: '$120 per person shared charter, $1,200-2,000 private full-day', tip: 'Smaller boats (not the party catamarans) for honeymoon privacy. December-April has the calmest seas for the longer crossing.' },
+],
+months: [
+  { month: 'Jan', weather: 'Dry, warm, trade-wind cooled', emoji: '☀️', crowds: 'Peak', price: 'Very high', verdict: 'Peak honeymoon month — book 6 months ahead' },
+  { month: 'Feb', weather: 'Dry, perfect, breezy', emoji: '☀️', crowds: 'Peak', price: 'Very high', verdict: 'Valentine\'s premium — most expensive week of year' },
+  { month: 'Mar', weather: 'Dry, warm, ideal weather', emoji: '☀️', crowds: 'Peak', price: 'Very high', verdict: 'Spring break crowds elsewhere — Grenada stays quieter' },
+  { month: 'Apr', weather: 'Dry, ideal, slight humidity rise', emoji: '☀️', crowds: 'High', price: 'High', verdict: 'Easter peak then thinning — last peak month' },
+  { month: 'May', weather: 'Warm, calm seas, occasional shower', emoji: '🌤', crowds: 'Moderate', price: 'Mid', verdict: 'Excellent shoulder value — best month/price combination' },
+  { month: 'Jun', weather: 'Warm, humid, calm seas', emoji: '🌤', crowds: 'Low', price: 'Mid-low', verdict: 'Quietest pre-hurricane month, great rates' },
+  { month: 'Jul', weather: 'Hot, humid, hurricane risk begins', emoji: '⛅', crowds: 'Low', price: 'Low', verdict: 'Cheap but storm risk — book flexible' },
+  { month: 'Aug', weather: 'Peak heat, peak hurricane risk', emoji: '🌀', crowds: 'Very low', price: 'Lowest', verdict: 'Storm-risk peak — Grenada Carnival "Spicemas" is the highlight' },
+  { month: 'Sep', weather: 'Peak hurricane season', emoji: '🌀', crowds: 'Very low', price: 'Lowest', verdict: 'Most resorts close (Spice Island, Calabash close annually)' },
+  { month: 'Oct', weather: 'Hurricane risk easing, humid', emoji: '🌧', crowds: 'Very low', price: 'Low', verdict: 'Late re-openings, restaurants returning' },
+  { month: 'Nov', weather: 'Drying out, ideal late month', emoji: '🌤', crowds: 'Low-mod', price: 'Mid', verdict: 'Re-opening month — excellent value, dry weather returns' },
+  { month: 'Dec', weather: 'Dry, breezy, perfect', emoji: '☀️', crowds: 'Peak', price: 'Very high', verdict: 'Holiday peak — book 8 months ahead for Christmas' },
+],
+budgetTiers: [
+  { label: 'Premium', range: '$350-600/night', gets: 'Boutique hillside or eco-luxury rooms with private terraces and pool access — full Caribbean character at value rates.', example: 'True Blue Bay Pool Cottage, Mount Cinnamon hillside Pool Suite' },
+  { label: 'Luxury', range: '$600-1,400/night', gets: 'Standard suite categories at the Grenada flagships with private plunge pools, butler-style service, and all-inclusive options.', example: 'Calabash Pool Suite, Sandals Beachfront Walkout, Spice Island Sea Grape Beachfront Suite' },
+  { label: 'Ultra-Luxury', range: '$1,400+/night', gets: 'Beachfront villas or signature suites at the apex Grenada properties — private pools, butler service, the largest accommodation categories.', example: 'Silversands Beachfront Villa, Spice Island Saffron or Cinnamon Pool Suite' },
+],
+areas: [
+  { name: 'Grand Anse Bay (southwest)', bestFor: 'Best beach, luxury resort cluster, sunset views', description: 'The two-mile southwest crescent that defines Grenada — powder white sand, calm leeward water, no cruise-ship dominance. Silversands at the north, Spice Island Beach Resort in the centre, Mount Cinnamon\'s beach club at the south. Walkable end-to-end with a string of small beach bars.' },
+  { name: 'L\'Anse aux Epines (south)', bestFor: 'Calm cove, intimate boutique scale', description: 'A small calm horseshoe cove on the south coast home to Calabash Luxury Boutique Hotel and a cluster of villa rentals. Quieter and more residential than Grand Anse, with the closest access to Maurice Bishop International (6-10 minutes).' },
+  { name: 'True Blue Bay (south coast)', bestFor: 'South coast value, eco-luxury', description: 'A smaller cove east of L\'Anse aux Epines with True Blue Bay Boutique Resort and a working True Blue rum distillery. Quieter and more local-feeling than the Grand Anse cluster, with the Indigo Yoga programme and Dodgy Dock restaurant on stilts.' },
+  { name: 'St George\'s (capital)', bestFor: 'Capital, port, spice market', description: 'The photogenic horseshoe-port capital — pastel colonial buildings along the Carenage harbourfront, the spice market on Market Square, Fort George above the town, and Grand Anse 10 minutes south. Day-trip destination, not a stay destination.' },
+],
+expertTips: [
+  { tip: 'Book early for the December-April peak', detail: 'Grenada has limited luxury inventory compared to St Lucia or Antigua — Silversands, Spice Island, and Calabash together represent only about 140 suites. Christmas, Valentine\'s, and Easter sell out 6-9 months ahead. Book by August for the following peak winter.' },
+  { tip: 'Restaurants outside resorts close Sunday and Monday', detail: 'Grenada\'s fine-dining scene outside the resorts is small and most restaurants (BB\'s Crabback, Aquarium, Coconut Beach) close Sunday and Monday. Plan resort dining or order delivery on those days. Resort restaurants stay open seven days.' },
+  { tip: 'Rent a car for spice estate days', detail: 'Belmont Estate, Annandale Falls, and the spice plantations are 60-90 minutes from the south coast resorts — a private driver costs $150-200 per day, which is fine for one or two excursions, but a rental car ($60-80/day from Maurice Bishop) gives more flexibility for the longer interior days.' },
+  { tip: 'USD cash is widely accepted; XCD is the official currency', detail: 'Eastern Caribbean Dollar (XCD) is fixed at 2.7 to 1 USD, but every restaurant, taxi, and resort accepts USD at par or near-par. Bring USD cash for tipping at smaller restaurants and tour drivers. ATMs dispense XCD which is awkward off-island.' },
+  { tip: 'Maurice Bishop (GND) is small — confirm connections via SLU/MIA/JFK', detail: 'GND is a small international airport with direct service from JFK, MIA, ATL (seasonal), and LGW. European travellers without a direct usually connect via St Lucia (SLU) or Barbados (BGI). Connections add 90 minutes to 3 hours; budget time.' },
+],
+packing: [
+  { item: 'Reef-safe mineral sunscreen', why: 'Underwater Sculpture Park and Dragon Bay reef require reef-safe sunscreen — chemical formulas damage the coral that has colonised the sculptures over 20 years' },
+  { item: 'Sturdy beach sandals (Tevas / Chacos)', why: 'Annandale Falls trail, Grand Etang rainforest, Belmont Estate plantation walks all need closed-toe or sturdy sandals — flip-flops are not enough' },
+  { item: 'Light cardigan or scarf for trade winds', why: 'Trade winds cool evenings on hillside properties (Mount Cinnamon) and open-air resort restaurants down to 22-24°C in winter — a light layer matters' },
+  { item: 'One dressy-casual dinner outfit', why: 'Rhodes Restaurant, Oliver\'s at Spice Island, and Sandals\' specialty restaurants have a smart-casual code — collared shirt and chinos, sundress level, no shorts at dinner' },
+  { item: 'Snorkel mask and fins (or rent on island)', why: 'Underwater Sculpture Park and the small Grand Anse offshore reef reward a comfortable mask — rental gear is fine but bring your own mask if you have one' },
+  { item: 'USD cash for tipping and small purchases', why: 'XCD is official but USD universal at par; ATMs dispense XCD which is awkward off-island and not all small establishments accept cards' },
+],
+guide: {
+  getting: 'Maurice Bishop International (GND) is on the south coast, 6-15 minutes from all the south-coast resorts (Calabash 6 min, Spice Island 10 min, Silversands 12 min, Sandals 15 min). Direct flights operate year-round from JFK (American, JetBlue), Miami (American), Atlanta (Delta seasonally), and London Gatwick (British Airways). European travellers without a direct usually connect via St Lucia (SLU) or Barbados (BGI), adding 90 minutes to 3 hours. All resorts arrange private airport transfers, typically included in honeymoon packages.',
+  where: 'For first-time honeymooners the canonical Grenada itinerary is 7 nights at one south-coast property. Grand Anse cluster (Silversands, Spice Island, Mount Cinnamon) is the standard for beach-perfection; L\'Anse aux Epines (Calabash) is the choice for calm-cove boutique; True Blue Bay is the value-eco choice; Pink Gin Beach (Sandals) is the couples-only all-inclusive. All within 15 minutes of each other and of GND, so day-trips elsewhere are simple. Sleep in one place.',
+  when: 'December through April is peak dry season — sunny, breezy, calm seas, ideal weather. March and April have the most stable conditions. May and early June are excellent shoulder months with warm water, lower rates, and quieter beaches. November is the re-opening month after hurricane season with good value. Avoid September completely (peak hurricane risk; Spice Island, Calabash, and Mount Cinnamon all close annually for renovation).',
+},
+localFood: 'Oildown (the national dish: salt pork, breadfruit, dumplings, callaloo, and turmeric slow-cooked in coconut milk until the liquid cooks down to oil), nutmeg ice cream (a Grenadian invention served everywhere from Belmont Estate to Spice Island), lambi (conch in creole sauce, the southern Caribbean alternative to lobster), callaloo soup (the green leafy starter that anchors most Grenadian menus), fresh-caught mahi or wahoo grilled with green seasoning, and Westerhall rum (the premium Grenadian rum brand alongside True Blue\'s distillery output). The high end is at Rhodes Restaurant (Calabash) and Oliver\'s (Spice Island); the casual side at BB\'s Crabback, Coconut Beach, and Umbrellas on Grand Anse.',
+currency: 'XCD/USD — Eastern Caribbean Dollar (XCD) is the official currency, fixed at 2.7 XCD to 1 USD. USD is universally accepted at par or near-par at restaurants, taxis, and resorts.',
+language: 'English (creole undertones in rural areas)',
+timezone: 'AST (Atlantic Standard Time, UTC-4) — no daylight saving',
+  seo: { title: "Grenada Honeymoon 2026: 6 Spice Isle Resorts Scored", description: "Grand Anse Beach, Spice Island Beach Resort, Silversands, Sandals. 6 resorts scored 50–100, real cost, best villa, 7-night Grenada itinerary." },
+}
+
+export default meta

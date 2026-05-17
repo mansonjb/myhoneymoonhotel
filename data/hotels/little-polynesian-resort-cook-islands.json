@@ -7,7 +7,11 @@
     "title": "Little Polynesian Resort: Adults-Only Rarotonga Honeymoon 2026",
     "description": "Adults-only boutique on Titikaveka, Rarotonga's quietest south coast lagoon. From $350/night. The best-value Cook Islands honeymoon. 2026 verdict."
   },
-  "experience_types": ["beach", "adults-only", "romantic"],
+  "experience_types": [
+    "beach",
+    "adults-only",
+    "romantic"
+  ],
   "honeymoon_score": 82,
   "score_breakdown": {
     "adults_only": 10,
@@ -21,7 +25,10 @@
     "luxury": 2
   },
   "stars": 4,
-  "price_per_night_usd": { "min": 350, "max": 700 },
+  "price_per_night_usd": {
+    "min": 350,
+    "max": 700
+  },
   "adults_only": true,
   "amenities": [
     "private beach",
@@ -34,11 +41,31 @@
     "ceiling fans"
   ],
   "photos": [
-    { "url": "/images/hotels/little-polynesian-resort-cook-islands/hero.webp", "alt": "little-polynesian-resort-cook-islands — hero", "type": "hero" },
-    { "url": "/images/hotels/little-polynesian-resort-cook-islands/room.webp", "alt": "little-polynesian-resort-cook-islands — room", "type": "room" },
-    { "url": "/images/hotels/little-polynesian-resort-cook-islands/pool.webp", "alt": "little-polynesian-resort-cook-islands — pool", "type": "pool" },
-    { "url": "/images/hotels/little-polynesian-resort-cook-islands/spa.webp", "alt": "little-polynesian-resort-cook-islands — spa", "type": "spa" },
-    { "url": "/images/hotels/little-polynesian-resort-cook-islands/dining.webp", "alt": "little-polynesian-resort-cook-islands — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/little-polynesian-resort-cook-islands/hero.webp",
+      "alt": "little-polynesian-resort-cook-islands — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/little-polynesian-resort-cook-islands/room.webp",
+      "alt": "little-polynesian-resort-cook-islands — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/little-polynesian-resort-cook-islands/pool.webp",
+      "alt": "little-polynesian-resort-cook-islands — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/little-polynesian-resort-cook-islands/spa.webp",
+      "alt": "little-polynesian-resort-cook-islands — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/little-polynesian-resort-cook-islands/dining.webp",
+      "alt": "little-polynesian-resort-cook-islands — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.4,
   "tripadvisor_award": true,

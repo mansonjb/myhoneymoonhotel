@@ -1,0 +1,83 @@
+import type { DestinationMeta } from '@/types/destination'
+
+const meta: DestinationMeta = {
+hero: '/images/hotels/aitutaki-lagoon-private-island-resort-cook-islands/hero.webp',
+tagline: 'The Pacific\'s quiet luxury alternative — Aitutaki\'s lagoon, no high-rises, no Bora Bora prices.',
+intro: 'The Cook Islands are the Pacific\'s quiet luxury alternative to Bora Bora — a sovereign nation of 15 islands in free association with New Zealand, sharing the same Polynesian beauty as French Polynesia but at a calmer, lower-density, more friendly tempo. Aitutaki\'s lagoon has been repeatedly named the most beautiful in the world by Conde Nast Traveller and Travel + Leisure, and is shallower, calmer, and more vividly turquoise than Bora Bora\'s. There are no high-rises in the country, no cruise-ship port, no resort overcrowding. The country uses the New Zealand Dollar, which means USD-strong honeymooners save 30-40% compared to French Polynesia for an equivalent level of luxury. Cook Islanders are sovereign citizens of their own self-governing nation since 1965, fiercely culturally proud, and own and staff almost every resort on the islands — the Polynesian welcome here is genuine rather than performed for tourists. Easier from Australia and New Zealand than French Polynesia, and far quieter than Hawaii.',
+bestTime: 'Apr–Oct (dry, cooler, no cyclone risk)',
+flightFrom: 'From US: via Auckland AKL — ~14h total. From Australia: 6h direct Sydney→RAR. From EU: ~24h via LAX or AKL.',
+topExperience: 'Aitutaki Lagoon Day Trip',
+perfectFor: [
+  'Returning honeymooners who have done Bora Bora and want a quieter Polynesian alternative',
+  'Couples on an extended Pacific itinerary combining New Zealand and the Cook Islands',
+  'Foodies of fresh Pacific fish, ika mata, and authentic Polynesian cuisine',
+  'Snorkellers seeking the best lagoon in the Pacific (Aitutaki is widely rated #1)',
+  'Couples with New Zealand or Australia-based family who want a shared destination',
+],
+skipIf: [
+  'You want nightlife, clubs, or a social beach-bar scene — the Cook Islands are genuinely quiet',
+  'You\'re ultra-luxury bungalow obsessed — Bora Bora has more over-water inventory',
+  'You have a tight 5-night honeymoon — the Aitutaki transfer fragments short trips',
+  'Budget is under $500 per night — there is no genuine mid-range honeymoon-tier inventory',
+  'You prefer European luxury infrastructure (Italian fine dining, designer spas)',
+],
+experiences: [
+  { icon: '⛵', title: 'Aitutaki Lagoon Cruise + One Foot Island lunch', description: 'Full-day catamaran cruise stopping at Maina (giant clam snorkel), Honeymoon Island, and One Foot Island for the famous passport stamp at the smallest post office in the world. BBQ lunch on the sand.', cost: '~$150 per person', tip: 'Book through your resort — Bishop\'s and Wet & Wild Cruises both run the daily lagoon cruise circuit.' },
+  { icon: '🐠', title: 'Snorkel Maina and Honeymoon Island', description: 'Shallow turquoise snorkel inside the protected Aitutaki lagoon — giant clams at Maina, healthy coral inside the barrier reef, calm flat water year-round.', cost: 'Included in lagoon cruise', tip: 'Bring your own mask — rental sets can be patchy on small motu stops.' },
+  { icon: '🥾', title: 'Rarotonga Cross-Island Trek', description: 'Guided 4-5 hour walk over the Te Rua Manga (the Needle) ridge from the north coast to Wigmore\'s Waterfall on the south coast — Rarotonga\'s signature hike through tropical rainforest.', cost: '~$80 per person, half-day guided', tip: 'Pa\'s Mountain Walks runs the canonical guided tour daily in dry season.' },
+  { icon: '🛒', title: 'Punanga Nui Saturday Market', description: 'Cook Islands\' best food and crafts market in Avarua every Saturday 6am-noon — fresh ika mata, pawpaw, fish, Tivaevae quilts, live local music.', cost: 'Free entry', tip: 'Go early (7-8am) for the best fresh fish; live music kicks in around 9am.' },
+  { icon: '🌅', title: 'Sunset BBQ at Muri Beach', description: 'The Mooring Fish Café and Sails Restaurant directly on Muri Beach are the best casual seafood at sunset on Rarotonga — fresh tuna sashimi, ika mata, cold Matutu beer.', cost: '$30-60 per couple', tip: 'Sails takes reservations; the Mooring is walk-up and worth the wait.' },
+],
+months: [
+  { month: 'Jan', weather: '26-30°C, humid, frequent showers', emoji: '🌧️', crowds: 'Low', price: 'Mid', verdict: 'Wet season — green and humid' },
+  { month: 'Feb', weather: '26-30°C, peak cyclone risk', emoji: '🌀', crowds: 'Low', price: 'Low', verdict: 'Cheapest month but wettest — avoid if weather-sensitive' },
+  { month: 'Mar', weather: '26-30°C, humidity easing', emoji: '🌧️', crowds: 'Low', price: 'Low', verdict: 'End of wet season — deals available, weather improving' },
+  { month: 'Apr', weather: '24-28°C, transition to dry', emoji: '⛅', crowds: 'Low-Mid', price: 'Mid', verdict: 'Shoulder sweet spot — dry season begins, low crowds' },
+  { month: 'May', weather: '23-27°C, dry, breezy', emoji: '☀️', crowds: 'Mid', price: 'Mid', verdict: 'Excellent — humidity drops, ideal for lagoon cruising' },
+  { month: 'Jun', weather: '21-26°C, dry, cool evenings', emoji: '☀️', crowds: 'Mid', price: 'High', verdict: 'Peak dry — bring a light layer for evenings' },
+  { month: 'Jul', weather: '20-25°C, dry, cool', emoji: '☀️', crowds: 'High', price: 'High', verdict: 'Peak season — book 6+ months ahead' },
+  { month: 'Aug', weather: '20-25°C, dry, clearest skies', emoji: '☀️', crowds: 'High', price: 'High', verdict: 'Peak weather and peak crowds — book early' },
+  { month: 'Sep', weather: '21-26°C, dry, warming', emoji: '☀️', crowds: 'Mid-High', price: 'High', verdict: 'Arguably the best month — great weather, easing crowds' },
+  { month: 'Oct', weather: '23-27°C, dry winding down', emoji: '⛅', crowds: 'Mid', price: 'Mid', verdict: 'Excellent shoulder — last reliably dry month' },
+  { month: 'Nov', weather: '24-29°C, humidity rising', emoji: '⛅', crowds: 'Low', price: 'Mid', verdict: 'Transition to wet season — rates dipping' },
+  { month: 'Dec', weather: '26-30°C, festive but humid', emoji: '🌧️', crowds: 'Mid', price: 'High', verdict: 'Holiday surcharges return; afternoon showers common' },
+],
+budgetTiers: [
+  { label: 'Premium', range: '$350-600/night', gets: 'Adults-only boutique beachfront bungalow on Rarotonga with private outdoor bath; pool villa on Muri Beach', example: 'Little Polynesian Resort (Titikaveka), Te Manava Beachfront Pool Villa (Muri Beach)' },
+  { label: 'Luxury', range: '$600-1,100/night', gets: 'Adults-only beachfront pool villa or boutique 8-villa property on Aitutaki main island', example: 'Sanctuary Rarotonga, Etu Moana Beach Villas (Aitutaki), Pacific Resort Aitutaki Nui' },
+  { label: 'Ultra-Luxury', range: '$1,100+/night', gets: 'Only over-water bungalow in the Cook Islands on a private motu inside the Aitutaki lagoon', example: 'Aitutaki Lagoon Private Island Resort — Premium Overwater Bungalow' },
+],
+areas: [
+  { name: 'Aitutaki', bestFor: 'The world-famous lagoon, fly-in honeymoon', description: 'A 50-minute Air Rarotonga flight north of Rarotonga, Aitutaki is the visual signature of the Cook Islands — a triangular lagoon repeatedly named the most beautiful in the world, calmer and shallower than Bora Bora. All but one of the resorts here are on the main island; the only over-water bungalows in the country are on Akitua Motu.' },
+  { name: 'Rarotonga — Muri Beach', bestFor: 'Best beach scene on Rarotonga', description: 'The south-east coast of Rarotonga with the shallowest, calmest, most kayak-friendly lagoon on the main island, four motus offshore, and the best casual seafood restaurants (Mooring Fish Café, Sails). The honeymoon beach base of choice for couples on Rarotonga.' },
+  { name: 'Rarotonga — Titikaveka', bestFor: 'Quieter south coast, best snorkel reef', description: 'The protected Aroa Marine Reserve runs along the south coast at Titikaveka, the quietest side of Rarotonga with the highest concentration of tropical fish on the island. Wigmore\'s Waterfall and Maire Nui Botanical Gardens are nearby.' },
+  { name: 'Rarotonga — Black Rock (north-west)', bestFor: 'Best sunsets and snorkel reef', description: 'The basalt outcrop of Black Rock (Tuoro) on the north-west coast is the spiritual launching point in Cook Islands Māori tradition for souls returning to Avaiki, and the best sunset address on the island with strong snorkel reef directly offshore.' },
+],
+expertTips: [
+  { tip: 'Split your honeymoon 2 nights Rarotonga + 5 nights Aitutaki', detail: 'The canonical 7-night Cook Islands honeymoon split — Rarotonga delivers cultural variety (market, trekking, restaurants) and Aitutaki delivers the world-famous lagoon. The reverse order (Aitutaki first) also works.' },
+  { tip: 'Book Air Rarotonga flights to Aitutaki early', detail: 'Air Rarotonga uses small turboprop aircraft on the Rarotonga–Aitutaki route with limited daily seats and strict baggage weight limits (20kg checked typically). Book at booking time, not on arrival.' },
+  { tip: 'No ATMs on Aitutaki — bring NZD cash from Rarotonga', detail: 'Aitutaki has extremely limited ATM coverage. Withdraw NZD cash on Rarotonga before your flight for any off-resort tips, market spend, and small village purchases.' },
+  { tip: 'Most restaurants close by 9pm', detail: 'Cook Islander pace runs early — even on Muri Beach the popular restaurants stop seating around 8:30-9pm. Book dinner reservations for 7-7:30pm to be safe.' },
+  { tip: 'US passport holders need no visa', detail: 'US, UK, EU, Australian, and New Zealand passport holders receive a free 31-day visitor permit on arrival. Just bring an onward ticket and proof of accommodation.' },
+],
+packing: [
+  { item: 'Reef-safe mineral sunscreen', why: 'Cook Islands reefs are fragile and increasingly protected — chemical sunscreens damage coral' },
+  { item: 'Tropical-strength mosquito repellent', why: 'Mosquitoes are prevalent at dusk on both Rarotonga and Aitutaki — essential, not optional' },
+  { item: 'Beach sandals (Tevas or Chacos)', why: 'Coral entries at Black Rock, Maina sandbar, and One Foot Island — flip-flops are not enough' },
+  { item: 'Light rain shell', why: 'Trade-wind showers pass through quickly even in dry season; useful on the inter-island flight' },
+  { item: 'NZD cash', why: 'No ATMs on Aitutaki — withdraw on Rarotonga before your domestic flight' },
+  { item: 'Snorkel mask', why: 'Rental gear at small motu stops is patchy; bring your own fitting mask if you have one' },
+],
+guide: {
+  getting: 'Auckland (AKL) is the main gateway — Air New Zealand operates the only direct LAX–Rarotonga (RAR) flight (10h, weekly). From the US most couples fly LAX–AKL (14h) then AKL–RAR (4h direct, daily). Sydney has a 6-hour direct to RAR. To reach Aitutaki, connect from Rarotonga (RAR) on the 50-minute Air Rarotonga turboprop to Aitutaki (AIT) — daily flights, small aircraft, weight-limited.',
+  where: 'The canonical 7-night honeymoon splits Aitutaki and Rarotonga — Aitutaki for the lagoon perfection (5 nights), Rarotonga for the cultural variety, the market, the Cross-Island Trek, and restaurant choice (2 nights). Stay at Aitutaki Lagoon Private Island Resort for over-water bungalows, or Etu Moana / Pacific Resort Aitutaki Nui for adults-only beachfront. On Rarotonga choose Sanctuary (Black Rock), Te Manava (Muri), or Little Polynesian (Titikaveka).',
+  when: 'April through October is the dry season and ideal honeymoon window. May through September is the peak dry — cooler, less humid, no cyclone risk. Avoid February-March (peak cyclone risk and the wettest months). November is a value shoulder month before holiday surcharges hit December.',
+},
+localFood: 'Ika mata is the national dish — fresh raw fish (usually tuna or wahoo) marinated in lime juice and coconut cream, served with onion and cucumber. Ota ika is the Aitutaki variation. Taro root and breadfruit are the Polynesian staples, often slow-cooked in an umu earth oven for the Friday Island Night feast. Fresh yellowfin tuna sashimi is the apex casual seafood — the catch is daily. Banana cake and pawpaw are common breakfast staples. New Zealand wine is widely served (Marlborough Sauvignon Blanc is the default white); local Matutu and Cooks Lager are the beers.',
+currency: 'NZD (USD accepted at resorts; 1 USD ≈ 1.65 NZD)',
+language: 'English + Cook Islands Māori',
+timezone: 'CKT (UTC-10), same as Hawaii',
+  seo: { title: "Cook Islands Honeymoon 2026: 6 Aitutaki & Rarotonga Resorts", description: "Pacific's quiet luxury alt to Bora Bora. Aitutaki Lagoon, adults-only resorts, NZD prices. Honest 2026 verdict, real cost, 7-night itinerary." },
+}
+
+export default meta

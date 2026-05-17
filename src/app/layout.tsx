@@ -30,6 +30,7 @@ const DEST_META: Record<string, { region: string; country: string }> = {
   'fiji':              { region: 'South Pacific', country: 'Fiji' },
   'new-zealand':       { region: 'South Pacific', country: 'New Zealand' },
   'australia':         { region: 'South Pacific', country: 'Australia' },
+  'cook-islands':      { region: 'South Pacific', country: 'Cook Islands' },
   // Caribbean & Americas
   'st-lucia':          { region: 'Caribbean & Americas', country: 'St. Lucia' },
   'turks-and-caicos':  { region: 'Caribbean & Americas', country: 'Turks & Caicos' },
@@ -43,6 +44,7 @@ const DEST_META: Record<string, { region: string; country: string }> = {
   'bahamas':           { region: 'Caribbean & Americas', country: 'Bahamas' },
   'barbados':          { region: 'Caribbean & Americas', country: 'Barbados' },
   'aruba':             { region: 'Caribbean & Americas', country: 'Aruba' },
+  'grenada':           { region: 'Caribbean & Americas', country: 'Grenada' },
   // Europe
   'santorini':  { region: 'Europe', country: 'Greece' },
   'greece':     { region: 'Europe', country: 'Greece' },

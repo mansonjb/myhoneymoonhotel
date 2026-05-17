@@ -67,6 +67,8 @@ const MAP_LOCATION_OVERRIDE: Record<string, string> = {
   barbados:          'Holetown, Barbados',
   aruba:             'Palm Beach, Aruba',
   turkey:            'Bodrum, Turkey',
+  'cook-islands':    'Aitutaki, Cook Islands',
+  grenada:           'Grand Anse, Grenada',
 }
 
 function resolveMapLocation(input: string): string {

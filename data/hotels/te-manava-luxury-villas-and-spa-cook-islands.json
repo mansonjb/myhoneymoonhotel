@@ -7,7 +7,11 @@
     "title": "Te Manava Luxury Villas & Spa: Muri Beach Honeymoon 2026",
     "description": "Private pool villas on Rarotonga's Muri Beach, Cook Islands. From $450/night. The best beach side of Rarotonga. 2026 honeymoon verdict."
   },
-  "experience_types": ["beach", "luxury", "romantic"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "romantic"
+  ],
   "honeymoon_score": 84,
   "score_breakdown": {
     "adults_only": 0,
@@ -21,7 +25,10 @@
     "luxury": 7
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 450, "max": 900 },
+  "price_per_night_usd": {
+    "min": 450,
+    "max": 900
+  },
   "adults_only": false,
   "amenities": [
     "spa",
@@ -34,19 +41,38 @@
     "lagoon access"
   ],
   "photos": [
-    { "url": "/images/hotels/te-manava-luxury-villas-and-spa-cook-islands/hero.webp", "alt": "te-manava-luxury-villas-and-spa-cook-islands — hero", "type": "hero" },
-    { "url": "/images/hotels/te-manava-luxury-villas-and-spa-cook-islands/room.webp", "alt": "te-manava-luxury-villas-and-spa-cook-islands — room", "type": "room" },
-    { "url": "/images/hotels/te-manava-luxury-villas-and-spa-cook-islands/pool.webp", "alt": "te-manava-luxury-villas-and-spa-cook-islands — pool", "type": "pool" },
-    { "url": "/images/hotels/te-manava-luxury-villas-and-spa-cook-islands/spa.webp", "alt": "te-manava-luxury-villas-and-spa-cook-islands — spa", "type": "spa" },
-    { "url": "/images/hotels/te-manava-luxury-villas-and-spa-cook-islands/dining.webp", "alt": "te-manava-luxury-villas-and-spa-cook-islands — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/te-manava-luxury-villas-and-spa-cook-islands/hero.webp",
+      "alt": "te-manava-luxury-villas-and-spa-cook-islands — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/te-manava-luxury-villas-and-spa-cook-islands/room.webp",
+      "alt": "te-manava-luxury-villas-and-spa-cook-islands — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/te-manava-luxury-villas-and-spa-cook-islands/pool.webp",
+      "alt": "te-manava-luxury-villas-and-spa-cook-islands — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/te-manava-luxury-villas-and-spa-cook-islands/spa.webp",
+      "alt": "te-manava-luxury-villas-and-spa-cook-islands — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/te-manava-luxury-villas-and-spa-cook-islands/dining.webp",
+      "alt": "te-manava-luxury-villas-and-spa-cook-islands — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.3,
   "tripadvisor_award": true,
   "couples_review_pct": 72,
   "content": {
     "verdict": "Te Manava Luxury Villas & Spa is the private-pool-villa specialist on Rarotonga's Muri Beach — the south-east coast lagoon that is the best beach on the main island and where Cook Islander families come to swim on Sundays. The property is part of the Pacific Resort family of Cook Islander-owned properties (the same group behind Pacific Resort Aitutaki and Sanctuary Rarotonga) and shares facilities with the neighbouring Pacific Resort Rarotonga, meaning Te Manava guests have access to the larger resort's restaurants, pools, and activity desk while staying in dedicated villa accommodation a quieter step removed. The Cook Islands' sovereignty as a self-governing nation in free association with New Zealand produces a quietly local-owned hotel culture across the resort group — staff are Cook Islanders, suppliers are local, and the cultural Friday Island Night is genuine Cook Islander rather than imported. Muri Beach itself is the visual signature: a shallow turquoise lagoon protected by four small motus offshore, ideal for kayaking, paddleboarding, and snorkelling with virtually no wave action; the Mooring Fish Café and Sails Restaurant directly on the beach are the best casual seafood addresses on Rarotonga. Te Manava's villas are Polynesian-thatch standalone units with private plunge pools — the only widely available pool-villa inventory on Rarotonga at this price level. The property is technically not adults-only (the shared Pacific Resort component welcomes families), but the villa section skews heavily honeymoon and couple guests, and the villa privacy means cross-traffic is rare. For honeymooners who want a Rarotonga base on the best beach side, with a private plunge pool and full resort facilities at meaningfully lower prices than Aitutaki options, this is the choice. Pair with 5 nights on Aitutaki for the canonical 7-night Cook Islands honeymoon.",
-    "best_room": "The Beachfront Pool Villa is the signature honeymoon room — a standalone thatched villa on the sand with private plunge pool, outdoor shower, and direct walk-on access to Muri Lagoon. Beachfront category is essential; the Garden Pool Villas trade the lagoon view for a modest price drop and are inferior for honeymooners. The Premier Beachfront Pool Villa adds a larger living area and slightly more privacy. Avoid the standard Pacific Resort Rarotonga rooms next door — Te Manava villa inventory is the reason to book this property."
-  ,
+    "best_room": "The Beachfront Pool Villa is the signature honeymoon room — a standalone thatched villa on the sand with private plunge pool, outdoor shower, and direct walk-on access to Muri Lagoon. Beachfront category is essential; the Garden Pool Villas trade the lagoon view for a modest price drop and are inferior for honeymooners. The Premier Beachfront Pool Villa adds a larger living area and slightly more privacy. Avoid the standard Pacific Resort Rarotonga rooms next door — Te Manava villa inventory is the reason to book this property.",
     "itinerary_7_nights": [
       {
         "day": 1,

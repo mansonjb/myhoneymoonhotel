@@ -7,7 +7,12 @@
     "title": "Etu Moana Beach Villas: Adults-Only Aitutaki Honeymoon 2026",
     "description": "Boutique 8-villa adults-only retreat on Aitutaki lagoon, Cook Islands. From $600/night. Honest 2026 honeymoon verdict and itinerary."
   },
-  "experience_types": ["beach", "luxury", "adults-only", "romantic"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "adults-only",
+    "romantic"
+  ],
   "honeymoon_score": 88,
   "score_breakdown": {
     "adults_only": 10,
@@ -21,7 +26,10 @@
     "luxury": 4
   },
   "stars": 4,
-  "price_per_night_usd": { "min": 600, "max": 1100 },
+  "price_per_night_usd": {
+    "min": 600,
+    "max": 1100
+  },
   "adults_only": true,
   "amenities": [
     "pool",
@@ -34,11 +42,31 @@
     "private villas"
   ],
   "photos": [
-    { "url": "/images/hotels/etu-moana-beach-villas-cook-islands/hero.webp", "alt": "etu-moana-beach-villas-cook-islands — hero", "type": "hero" },
-    { "url": "/images/hotels/etu-moana-beach-villas-cook-islands/room.webp", "alt": "etu-moana-beach-villas-cook-islands — room", "type": "room" },
-    { "url": "/images/hotels/etu-moana-beach-villas-cook-islands/pool.webp", "alt": "etu-moana-beach-villas-cook-islands — pool", "type": "pool" },
-    { "url": "/images/hotels/etu-moana-beach-villas-cook-islands/spa.webp", "alt": "etu-moana-beach-villas-cook-islands — spa", "type": "spa" },
-    { "url": "/images/hotels/etu-moana-beach-villas-cook-islands/dining.webp", "alt": "etu-moana-beach-villas-cook-islands — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/etu-moana-beach-villas-cook-islands/hero.webp",
+      "alt": "etu-moana-beach-villas-cook-islands — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/etu-moana-beach-villas-cook-islands/room.webp",
+      "alt": "etu-moana-beach-villas-cook-islands — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/etu-moana-beach-villas-cook-islands/pool.webp",
+      "alt": "etu-moana-beach-villas-cook-islands — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/etu-moana-beach-villas-cook-islands/spa.webp",
+      "alt": "etu-moana-beach-villas-cook-islands — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/etu-moana-beach-villas-cook-islands/dining.webp",
+      "alt": "etu-moana-beach-villas-cook-islands — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.5,
   "tripadvisor_award": true,

@@ -75,6 +75,8 @@ const DEST_FALLBACK: Record<string, string> = {
   'antigua':           'https://images.unsplash.com/photo-1548574505-5e239809ee19?w=800&q=80',
   'bahamas':           'https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=800&q=80',
   'aruba':             'https://images.unsplash.com/photo-1559496417-e7f25cb247f3?w=800&q=80',
+  'cook-islands':      'https://images.unsplash.com/photo-1505761671935-60b3a7427bad?w=800&q=80',
+  'grenada':           'https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=800&q=80',
 }
 
 const DEFAULT_FALLBACK = 'https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=800&q=80'

@@ -7,7 +7,13 @@
     "title": "Aitutaki Lagoon Private Island Resort: Honeymoon Review 2026",
     "description": "Adults-only private island resort on Akitua, Cook Islands. The only overwater bungalows in the country. From $850/night. Honest 2026 verdict."
   },
-  "experience_types": ["beach", "luxury", "adults-only", "romantic", "overwater-bungalows"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "adults-only",
+    "romantic",
+    "overwater-bungalows"
+  ],
   "honeymoon_score": 92,
   "score_breakdown": {
     "adults_only": 10,
@@ -21,7 +27,10 @@
     "luxury": 4
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 850, "max": 2000 },
+  "price_per_night_usd": {
+    "min": 850,
+    "max": 2000
+  },
   "adults_only": true,
   "amenities": [
     "spa",
@@ -35,11 +44,31 @@
     "private island"
   ],
   "photos": [
-    { "url": "/images/hotels/aitutaki-lagoon-private-island-resort-cook-islands/hero.webp", "alt": "aitutaki-lagoon-private-island-resort-cook-islands — hero", "type": "hero" },
-    { "url": "/images/hotels/aitutaki-lagoon-private-island-resort-cook-islands/room.webp", "alt": "aitutaki-lagoon-private-island-resort-cook-islands — room", "type": "room" },
-    { "url": "/images/hotels/aitutaki-lagoon-private-island-resort-cook-islands/pool.webp", "alt": "aitutaki-lagoon-private-island-resort-cook-islands — pool", "type": "pool" },
-    { "url": "/images/hotels/aitutaki-lagoon-private-island-resort-cook-islands/spa.webp", "alt": "aitutaki-lagoon-private-island-resort-cook-islands — spa", "type": "spa" },
-    { "url": "/images/hotels/aitutaki-lagoon-private-island-resort-cook-islands/dining.webp", "alt": "aitutaki-lagoon-private-island-resort-cook-islands — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/aitutaki-lagoon-private-island-resort-cook-islands/hero.webp",
+      "alt": "aitutaki-lagoon-private-island-resort-cook-islands — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/aitutaki-lagoon-private-island-resort-cook-islands/room.webp",
+      "alt": "aitutaki-lagoon-private-island-resort-cook-islands — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/aitutaki-lagoon-private-island-resort-cook-islands/pool.webp",
+      "alt": "aitutaki-lagoon-private-island-resort-cook-islands — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/aitutaki-lagoon-private-island-resort-cook-islands/spa.webp",
+      "alt": "aitutaki-lagoon-private-island-resort-cook-islands — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/aitutaki-lagoon-private-island-resort-cook-islands/dining.webp",
+      "alt": "aitutaki-lagoon-private-island-resort-cook-islands — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.4,
   "tripadvisor_award": true,

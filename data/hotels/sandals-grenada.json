@@ -42,11 +42,31 @@
     "multiple restaurants"
   ],
   "photos": [
-    { "url": "/images/hotels/sandals-grenada/hero.webp", "alt": "sandals-grenada — hero", "type": "hero" },
-    { "url": "/images/hotels/sandals-grenada/room.webp", "alt": "sandals-grenada — room", "type": "room" },
-    { "url": "/images/hotels/sandals-grenada/pool.webp", "alt": "sandals-grenada — pool", "type": "pool" },
-    { "url": "/images/hotels/sandals-grenada/spa.webp", "alt": "sandals-grenada — spa", "type": "spa" },
-    { "url": "/images/hotels/sandals-grenada/dining.webp", "alt": "sandals-grenada — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/sandals-grenada/hero.webp",
+      "alt": "sandals-grenada — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/sandals-grenada/room.webp",
+      "alt": "sandals-grenada — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/sandals-grenada/pool.webp",
+      "alt": "sandals-grenada — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/sandals-grenada/spa.webp",
+      "alt": "sandals-grenada — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/sandals-grenada/dining.webp",
+      "alt": "sandals-grenada — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.3,
   "tripadvisor_award": true,

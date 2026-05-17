@@ -7,7 +7,12 @@
     "title": "Pacific Resort Aitutaki Nui: Adults-Only Honeymoon Review 2026",
     "description": "Adults-only luxury beachfront on Aitutaki main island, Cook Islands. 27 bungalows facing the lagoon. From $700/night. Honest 2026 verdict."
   },
-  "experience_types": ["beach", "luxury", "adults-only", "romantic"],
+  "experience_types": [
+    "beach",
+    "luxury",
+    "adults-only",
+    "romantic"
+  ],
   "honeymoon_score": 90,
   "score_breakdown": {
     "adults_only": 10,
@@ -21,7 +26,10 @@
     "luxury": 1
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 700, "max": 1500 },
+  "price_per_night_usd": {
+    "min": 700,
+    "max": 1500
+  },
   "adults_only": true,
   "amenities": [
     "spa",
@@ -35,11 +43,31 @@
     "fitness centre"
   ],
   "photos": [
-    { "url": "/images/hotels/pacific-resort-aitutaki-nui-cook-islands/hero.webp", "alt": "pacific-resort-aitutaki-nui-cook-islands — hero", "type": "hero" },
-    { "url": "/images/hotels/pacific-resort-aitutaki-nui-cook-islands/room.webp", "alt": "pacific-resort-aitutaki-nui-cook-islands — room", "type": "room" },
-    { "url": "/images/hotels/pacific-resort-aitutaki-nui-cook-islands/pool.webp", "alt": "pacific-resort-aitutaki-nui-cook-islands — pool", "type": "pool" },
-    { "url": "/images/hotels/pacific-resort-aitutaki-nui-cook-islands/spa.webp", "alt": "pacific-resort-aitutaki-nui-cook-islands — spa", "type": "spa" },
-    { "url": "/images/hotels/pacific-resort-aitutaki-nui-cook-islands/dining.webp", "alt": "pacific-resort-aitutaki-nui-cook-islands — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/pacific-resort-aitutaki-nui-cook-islands/hero.webp",
+      "alt": "pacific-resort-aitutaki-nui-cook-islands — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/pacific-resort-aitutaki-nui-cook-islands/room.webp",
+      "alt": "pacific-resort-aitutaki-nui-cook-islands — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/pacific-resort-aitutaki-nui-cook-islands/pool.webp",
+      "alt": "pacific-resort-aitutaki-nui-cook-islands — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/pacific-resort-aitutaki-nui-cook-islands/spa.webp",
+      "alt": "pacific-resort-aitutaki-nui-cook-islands — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/pacific-resort-aitutaki-nui-cook-islands/dining.webp",
+      "alt": "pacific-resort-aitutaki-nui-cook-islands — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 9.3,
   "tripadvisor_award": true,
