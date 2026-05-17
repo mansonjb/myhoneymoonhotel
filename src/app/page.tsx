@@ -87,14 +87,31 @@ export default async function HomePage() {
   const allHotels = getAllHotels()
   const topHotels = allHotels.slice(0, 6)
 
-  // Featured-on-map destination: Maldives is our densest catalog (31 hotels)
-  // and the highest-intent honeymoon SERP. Anchor the embed to the top-scored
-  // property so Stay22 centers the lagoon properly (not the country centroid).
-  const maldivesHotels = allHotels.filter(x => x.destination === 'maldives')
-  const featuredAnchor = [...maldivesHotels].sort((a, b) => b.honeymoon_score - a.honeymoon_score)[0]?.name
-  const featuredDestSlug = 'maldives'
-  const featuredDestLabel = 'Maldives'
-  const featuredDestCount = maldivesHotels.length
+  // Destination of the month — rotates with the calendar. Each pick is timed to
+  // its best honeymoon-weather window so the rec stays honest, not random.
+  const DESTINATION_OF_THE_MONTH: Array<{ slug: string; label: string; why: string }> = [
+    { slug: 'maldives',         label: 'Maldives',        why: 'Peak dry season — flat seas, zero rain, the lagoon at its bluest.' },
+    { slug: 'bora-bora',        label: 'Bora Bora',       why: 'Driest month in French Polynesia — the postcard window.' },
+    { slug: 'santorini',        label: 'Santorini',       why: 'Spring sun, almond blossoms, half the cruise crowds of summer.' },
+    { slug: 'bali',             label: 'Bali',            why: 'Dry season begins — rice terraces emerald, surf clean, prices still off-peak.' },
+    { slug: 'sicily',           label: 'Sicily',          why: 'Cliffside Belmonds at their most romantic — warm sea, lemon blossom, pre-July crowds.' },
+    { slug: 'iceland',          label: 'Iceland',         why: 'Midnight sun + open Highland roads. The only month for a true 24h honeymoon.' },
+    { slug: 'amalfi',           label: 'Amalfi Coast',    why: 'Hot but the lemon coast is at peak romance — book early, dine late.' },
+    { slug: 'kenya',            label: 'Kenya',           why: 'Great Migration in the Maasai Mara — wildlife and luxury under canvas at their peak.' },
+    { slug: 'greece',           label: 'Mykonos & Mainland', why: 'September shoulder — warm sea, thinning crowds, restaurants finally able to seat you.' },
+    { slug: 'madagascar',       label: 'Madagascar',      why: 'Humpback whale season + dry weather on Nosy Be. Time + Tide Miavana at its finest.' },
+    { slug: 'mauritius',        label: 'Mauritius',       why: 'Warming up, calm sea, well before the peak Dec rush.' },
+    { slug: 'st-lucia',         label: 'St. Lucia',       why: 'Caribbean dry season hits — Jade Mountain at peak Pitons weather.' },
+  ]
+  const month = new Date().getMonth() // 0..11
+  const pick = DESTINATION_OF_THE_MONTH[month]
+  const featuredHotels = allHotels.filter(x => x.destination === pick.slug)
+  const featuredAnchor = [...featuredHotels].sort((a, b) => b.honeymoon_score - a.honeymoon_score)[0]?.name
+  const featuredDestSlug = pick.slug
+  const featuredDestLabel = pick.label
+  const featuredDestCount = featuredHotels.length
+  const featuredWhy = pick.why
+  const monthLabel = new Date().toLocaleString('en-US', { month: 'long' })
 
   // Build destination list with live counts, grouped by region
   const destCounts = allHotels.reduce((acc, h) => {
@@ -198,22 +215,27 @@ export default async function HomePage() {
         )}
       </section>
 
-      {/* ── EXPLORE-ON-MAP — featured destination ── */}
+      {/* ── DESTINATION OF THE MONTH ── */}
       <section className="bg-zinc-50 py-24">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-6 mb-10">
-            <div>
-              <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">Explore on the Map</p>
-              <h2 className="font-display text-4xl sm:text-5xl text-zinc-900">{featuredDestCount} {featuredDestLabel} resorts<br />pinned for you</h2>
-              <p className="text-zinc-500 mt-4 max-w-lg leading-relaxed">
-                Zoom into the lagoon. Click any pin for live availability — we compare every booking platform behind the scenes and redirect to the lowest price.
+            <div className="max-w-2xl">
+              <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">
+                Destination of the Month · {monthLabel}
+              </p>
+              <h2 className="font-display text-4xl sm:text-5xl text-zinc-900 leading-tight">
+                Why <em className="font-display not-italic text-rose-500">{featuredDestLabel}</em> right now
+              </h2>
+              <p className="text-zinc-600 mt-5 text-lg leading-relaxed">{featuredWhy}</p>
+              <p className="text-zinc-400 mt-3 text-sm">
+                {featuredDestCount} resorts scored for romance · Click any pin on the map to compare live prices.
               </p>
             </div>
             <Link
               href={localizedHref(`/destinations/${featuredDestSlug}`, locale)}
               className="self-start sm:self-end inline-flex items-center gap-2 bg-zinc-900 hover:bg-zinc-700 text-white font-semibold text-sm px-6 py-3 rounded-full transition-colors whitespace-nowrap"
             >
-              See full {featuredDestLabel} guide →
+              See the {featuredDestLabel} guide →
             </Link>
           </div>
           <Stay22MapWidget
