@@ -6,7 +6,7 @@ const COOKIE_KEY = 'mhh_cookie_consent'
 // Microsoft Clarity project ID — set when you create the project at
 // https://clarity.microsoft.com. Heatmaps + session recordings, free,
 // no sampling, GDPR-compliant when gated by consent.
-const CLARITY_ID = process.env.NEXT_PUBLIC_CLARITY_ID || 'tjmkjsoxtu'
+const CLARITY_ID = process.env.NEXT_PUBLIC_CLARITY_ID || 'wtntak1br9'
 
 /**
  * GDPR-compliant Microsoft Clarity loader.
@@ -32,15 +32,18 @@ export default function MicrosoftClarity() {
   if (!enabled || !CLARITY_ID) return null
 
   return (
+    // Loaded in <head> via `strategy="beforeInteractive"` so the
+    // Clarity tag is in place as early as Next.js allows for client-side
+    // injection. The component itself stays consent-gated for GDPR.
     <Script
       id="ms-clarity"
-      strategy="afterInteractive"
+      strategy="beforeInteractive"
       dangerouslySetInnerHTML={{
         __html: `(function(c,l,a,r,i,t,y){
-          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-        })(window, document, "clarity", "script", "${CLARITY_ID}");`,
+    c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+})(window, document, "clarity", "script", "${CLARITY_ID}");`,
       }}
     />
   )
