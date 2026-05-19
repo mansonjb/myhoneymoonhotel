@@ -194,6 +194,20 @@ export default async function RootLayout({ children }: { children: React.ReactNo
 })(window, document, "clarity", "script", "wtntak1br9");`,
           }}
         />
+
+        {/* emrldtp tracking — 3rd-party loader, async. */}
+        <Script
+          id="emrldtp-loader"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `(function () {
+    var script = document.createElement("script");
+    script.async = 1;
+    script.src = 'https://emrldtp.com/NTMwOTEw.js?t=530910';
+    document.head.appendChild(script);
+})();`,
+          }}
+        />
       </head>
       <body className="bg-white text-zinc-900 antialiased">
 
