@@ -629,6 +629,12 @@ export default function MexicoHoneymoonCostPage() {
               part of Mexico where the savings genuinely come with disruption risk; the rest of the country
               quietly hands you 35–50% off with no real downside.
             </p>
+            <p className="text-zinc-600 text-sm mt-3">
+              See the cross-destination view in our{' '}
+              <Link href="/best-time-to-honeymoon" className="text-rose-500 hover:text-rose-600 underline underline-offset-2">
+                2026 honeymoon calendar
+              </Link>.
+            </p>
           </div>
         </div>
       </section>

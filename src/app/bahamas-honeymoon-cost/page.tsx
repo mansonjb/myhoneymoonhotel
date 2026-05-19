@@ -635,6 +635,12 @@ export default function BahamasHoneymoonCostPage() {
               $300/pp NYE gala. If your wedding falls in mid-December, push the honeymoon to mid-January or
               all the way to early November the following year — the romance does not depreciate.
             </p>
+            <p className="text-zinc-600 text-sm mt-3">
+              See the cross-destination view in our{' '}
+              <Link href="/best-time-to-honeymoon" className="text-rose-500 hover:text-rose-600 underline underline-offset-2">
+                2026 honeymoon calendar
+              </Link>.
+            </p>
           </div>
         </div>
       </section>

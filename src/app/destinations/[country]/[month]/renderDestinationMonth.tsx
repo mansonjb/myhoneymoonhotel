@@ -243,8 +243,10 @@ export async function renderDestinationMonthPage(country: string, month: string,
             <div className="w-full h-full bg-zinc-200" />
           )}
           <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/30 to-transparent" />
-          <nav className="absolute top-6 left-8 sm:left-12 flex items-center gap-2 text-white/60 text-xs">
+          <nav className="absolute top-6 left-8 sm:left-12 flex items-center gap-2 text-white/60 text-xs flex-wrap">
             <Link href={homePath} className="hover:text-white">Home</Link>
+            <span>/</span>
+            <Link href={localizedPath('/best-time-to-honeymoon', locale)} className="hover:text-white">Calendar</Link>
             <span>/</span>
             <Link href={localizedPath('/destinations', locale)} className="hover:text-white">Destinations</Link>
             <span>/</span>

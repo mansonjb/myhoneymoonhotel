@@ -53,7 +53,7 @@ const FAQS: { q: string; a: string }[] = [
   },
   {
     q: "What's the best month for a honeymoon?",
-    a: 'May, June, September, and October are the global "shoulder-season sweet spot" — good weather almost everywhere, lower prices, fewer crowds. Avoid July–August in Europe (heat, crowds), June–October in the Caribbean (hurricane season), and December–March in Bali (rainy season). Maldives is best November–April, French Polynesia May–October.',
+    a: 'May, June, September, and October are the global "shoulder-season sweet spot" — good weather almost everywhere, lower prices, fewer crowds. Avoid July–August in Europe (heat, crowds), June–October in the Caribbean (hurricane season), and December–March in Bali (rainy season). Maldives is best November–April, French Polynesia May–October. For a destination-by-destination breakdown across every month, see our full 2026 honeymoon calendar at /best-time-to-honeymoon.',
   },
   {
     q: 'Should we tell the hotel it is our honeymoon?',
@@ -685,7 +685,11 @@ export default function HowToPlanAHoneymoonPage() {
           <p className="text-zinc-700 text-base leading-relaxed mb-8">
             Booking too early is fine for hotels and almost never costs more. Booking too late costs in three ways:
             inferior rooms, sold-out restaurants, surge-priced flights. The discipline below is the result of
-            tracking flight prices across 2,000 honeymoon itineraries.
+            tracking flight prices across 2,000 honeymoon itineraries. For the destination-by-destination breakdown
+            of every month, see our full{' '}
+            <Link href="/best-time-to-honeymoon" className="text-rose-500 hover:text-rose-600 underline underline-offset-2">
+              2026 honeymoon calendar
+            </Link>.
           </p>
 
           <h3 className="font-display text-2xl text-zinc-900 mb-3">Flights — the 90-day rule</h3>

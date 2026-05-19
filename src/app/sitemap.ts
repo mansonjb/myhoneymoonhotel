@@ -46,6 +46,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/destinations', lastModified: new Date(), changeFrequency: 'weekly', priority: 0.85 },
     { path: '/quiz', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
     { path: '/how-to-plan-a-honeymoon', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { path: '/best-time-to-honeymoon', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
     { path: '/maldives-honeymoon-cost', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.85 },
     { path: '/bali-honeymoon-cost', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.85 },
     { path: '/bahamas-honeymoon-cost', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.85 },
