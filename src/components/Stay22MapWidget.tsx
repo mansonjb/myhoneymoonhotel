@@ -69,6 +69,8 @@ const MAP_LOCATION_OVERRIDE: Record<string, string> = {
   turkey:            'Bodrum, Turkey',
   'cook-islands':    'Aitutaki, Cook Islands',
   grenada:           'Grand Anse, Grenada',
+  crete:             'Elounda, Crete',
+  curacao:           'Willemstad, Curacao',
 }
 
 function resolveMapLocation(input: string): string {

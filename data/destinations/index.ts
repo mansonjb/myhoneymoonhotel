@@ -67,6 +67,8 @@ import madagascar from './madagascar'
 import anguilla from './anguilla'
 import cookIslands from './cook-islands'
 import grenada from './grenada'
+import crete from './crete'
+import curacao from './curacao'
 
 export const DESTINATION_META: Record<string, DestinationMeta> = {
   'bora-bora': boraBora,
@@ -137,4 +139,6 @@ export const DESTINATION_META: Record<string, DestinationMeta> = {
   'anguilla': anguilla,
   'cook-islands': cookIslands,
   'grenada': grenada,
+  'crete': crete,
+  curacao: curacao,
 }
