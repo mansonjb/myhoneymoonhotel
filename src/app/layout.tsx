@@ -8,6 +8,8 @@ import CookieBanner from '@/components/CookieBanner'
 import ExitIntentModal from '@/components/ExitIntentModal'
 import MobileStickyQuizCTA from '@/components/MobileStickyQuizCTA'
 import GoogleAnalytics from '@/components/GoogleAnalytics'
+import MicrosoftClarity from '@/components/MicrosoftClarity'
+import EmrldtpTracker from '@/components/EmrldtpTracker'
 import NewsletterCapture from '@/components/NewsletterCapture'
 import HeaderNav from '@/components/HeaderNav'
 import HeaderSearch from '@/components/HeaderSearch'
@@ -187,41 +189,14 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         <link rel="dns-prefetch" href="https://www.booking.com" />
         <link rel="dns-prefetch" href="https://www.hotels.com" />
 
-        {/* Microsoft Clarity — heatmaps + session recordings. Loaded in <head>,
-            not consent-gated for now. If GDPR compliance for EU traffic
-            becomes a need, swap back to the <MicrosoftClarity /> client
-            component which gates on the cookie banner. */}
-        <Script
-          id="ms-clarity"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `(function(c,l,a,r,i,t,y){
-    c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-})(window, document, "clarity", "script", "wtntak1br9");`,
-          }}
-        />
-
-        {/* emrldtp tracking — 3rd-party loader, async. */}
-        <Script
-          id="emrldtp-loader"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `(function () {
-    var script = document.createElement("script");
-    script.async = 1;
-    script.src = 'https://emrldtp.com/NTMwOTEw.js?t=530910';
-    document.head.appendChild(script);
-})();`,
-          }}
-        />
+        {/* Analytics scripts now consent-gated in <body> — see ConsentScripts.tsx. */}
       </head>
       <body className="bg-white text-zinc-900 antialiased">
 
-        {/* GA4 — gated by cookie consent (GDPR/ePrivacy). See src/components/GoogleAnalytics.tsx. */}
+        {/* All analytics gated by cookie consent (GDPR/ePrivacy compliant). */}
         <GoogleAnalytics />
-        {/* Clarity now lives in <head> above — see comment there. */}
+        <MicrosoftClarity />
+        <EmrldtpTracker />
 
         {/* Stay22 LetMeAllez — lazy-loaded (only needed when user is about to click an outbound booking link).
             Saves ~110 KiB off the critical path and removes 134ms of forced-layout from the main thread. */}
