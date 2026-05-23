@@ -53,6 +53,7 @@ const DEST_META: Record<string, { region: string; country: string }> = {
   'santorini':  { region: 'Europe', country: 'Greece' },
   'greece':     { region: 'Europe', country: 'Greece' },
   'crete':      { region: 'Europe', country: 'Greece' },
+  'cyprus':     { region: 'Europe', country: 'Cyprus' },
   'amalfi':     { region: 'Europe', country: 'Italy' },
   'sardegna':   { region: 'Europe', country: 'Italy' },
   'lake-como':  { region: 'Europe', country: 'Italy' },
@@ -61,6 +62,7 @@ const DEST_META: Record<string, { region: string; country: string }> = {
   'sicily':     { region: 'Europe', country: 'Italy' },
   'croatia':    { region: 'Europe', country: 'Croatia' },
   'portugal':   { region: 'Europe', country: 'Portugal' },
+  'madeira':    { region: 'Europe', country: 'Portugal' },
   'spain':      { region: 'Europe', country: 'Spain' },
   'switzerland':  { region: 'Europe', country: 'Switzerland' },
   'iceland':    { region: 'Europe', country: 'Iceland' },
@@ -74,6 +76,7 @@ const DEST_META: Record<string, { region: string; country: string }> = {
   'brazil':     { region: 'South America', country: 'Brazil' },
   // North America
   'hawaii':     { region: 'North America', country: 'USA — Hawaii' },
+  'bermuda':    { region: 'North America', country: 'Bermuda' },
   // Middle East
   'oman':    { region: 'Middle East', country: 'Oman' },
   'uae':     { region: 'Middle East', country: 'United Arab Emirates' },

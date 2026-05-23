@@ -1,0 +1,111 @@
+{
+  "tagline": "Arena rosa del Atlántico — a 2 horas de vuelo de Nueva York, calma colonial británica, sin all-inclusive.",
+  "intro": "Bermudas es el gran malentendido geográfico del mapa de lunas de miel: un archipiélago de 55 km² varado en mitad del Atlántico, a 1.000 km al este de Carolina del Norte, archivado mentalmente como \"Caribe\" por estadounidenses que jamás pusieron un pie allí. No es Caribe — es un Territorio Británico de Ultramar templado por la corriente del Golfo, colonizado en 1609, definido por cottages coloniales en tonos pastel con tejados blancos escalonados de piedra caliza, playas de arena rosa labradas en la costa sur, y una cultura que prefiere discretamente el té de la tarde al ron y el código de chaqueta y corbata al swim-up bar. La propuesta de luna de miel es muy concreta: un vuelo de dos horas desde JFK o Boston te deposita en un lugar que se siente genuinamente extranjero — se conduce por la izquierda, libra esterlina equivalente al dólar, sólo se permite alquilar motos porque los visitantes no pueden conducir coches. La costa sur de Horseshoe Bay a Elbow Beach es una cinta continua de arena rosa color helado de fresa, agua turquesa en las calas e índigo mar adentro, con el arrecife más septentrional del Atlántico. Hamilton, la pequeña capital portuaria, vive de bancos, barcos y reservas de cena. No hay resorts all-inclusive en Bermudas — nunca los ha habido — y no hay mega-propiedades; el inventario de lujo no llega a una docena de hoteles, desde el histórico \"Pink Palace\" Hamilton Princess hasta refugios boutique como The Loren. Los precios reflejan la escasez: no existe la luna de miel económica en Bermudas, sólo premium, lujo y ultra-lujo. Quienes van esperando Caribe se decepcionan; quienes van esperando calma colonial británica, arena rosa, golf de primer nivel y el vuelo premium más fácil desde la Costa Este de EE.UU. regresan planeando volver.",
+  "bestTime": "Mayo–octubre (cálido), abril/noviembre temporada media",
+  "flightFrom": "2h Nueva York/Boston, 7h Londres — a L.F. Wade International (BDA)",
+  "topExperience": "Luna de miel en playas de arena rosa",
+  "perfectFor": [
+    "Parejas de la Costa Este de EE.UU. que quieren un destino genuinamente extranjero en menos de 2h",
+    "Lunas de miel con mentalidad anti-mega-resort y anti-all-inclusive",
+    "Parejas golf+playa: Bermudas tiene más campos por km² que ningún otro lugar",
+    "Viajeros enamorados del entorno colonial histórico, casitas pastel, tejados blancos escalonados",
+    "Amantes del lujo boutique cansados de las megaestructuras caribeñas de marca"
+  ],
+  "skipIf": [
+    "Luna de miel con presupuesto ajustado: en Bermudas todo es genuinamente caro",
+    "Esperan un resort all-inclusive: simplemente no existen aquí",
+    "Buscan un ambiente tropical selvático: Bermudas es manicurada, pastel, inglesa",
+    "Necesitan calor todo el año: el invierno es fresco (15-18°C), el mar demasiado frío para bañarse",
+    "Vida nocturna animada o ambiente de fiesta: Bermudas duerme antes de las 23h"
+  ],
+  "experiences": [
+    {
+      "icon": "🌸",
+      "title": "Amanecer en Horseshoe Bay",
+      "description": "El creciente de arena rosa más fotografiado del Atlántico, enmarcado por afloramientos de piedra caliza con calas ocultas en marea baja. Caminen por el sendero conector hacia el este, pasando por Jobson Cove y Warwick Long Bay, para una hora de playa vacía antes de que lleguen los visitantes del día.",
+      "cost": "Gratis; alquiler de sillas 25 $",
+      "tip": "Lleguen antes de las 9h. El rosa de coral triturado es más vivo con la luz rasante de la mañana; el sol fuerte del mediodía lo apaga."
+    },
+    {
+      "icon": "🕳️",
+      "title": "Crystal & Fantasy Caves",
+      "description": "Un par de cavernas subterráneas de piedra caliza descubiertas en 1907 por dos niños persiguiendo una pelota de críquet — lagos subterráneos cristalinos a 17 metros de profundidad, techos de estalactitas, pasarelas de madera flotantes. Visitas guiadas de 20 minutos, genuinamente mágicas.",
+      "cost": "35 $/pareja entrada combinada",
+      "tip": "Combinen con Tom Moore's Tavern al lado — el restaurante más antiguo de Bermudas (1652) en una casita del siglo XVII. Reserven la cena con dos semanas, chaqueta obligatoria para hombres."
+    },
+    {
+      "icon": "🗼",
+      "title": "Subir al Faro Gibbs Hill",
+      "description": "Faro de hierro fundido de 1846, 36 metros de escalera helicoidal — y arriba, la única vista 360° del archipiélago. Arena rosa al sur, arrecife al norte, Great Sound al oeste. Un momento auténtico de \"estoy en medio del Atlántico\".",
+      "cost": "5 $/persona",
+      "tip": "Visita al atardecer combinada con cena en el Lighthouse Tea Room (reserva imprescindible). Lleven una capa ligera — el viento azota arriba."
+    },
+    {
+      "icon": "🏛️",
+      "title": "Paseo UNESCO por St George's",
+      "description": "La capital de 1612, Patrimonio de la Humanidad UNESCO con callejones empedrados, casas pastel georgianas y la ciudad inglesa más antigua del Nuevo Mundo. King's Square, St Peter's Church (iglesia anglicana más antigua fuera del Reino Unido, 1612) y la recreación de la silla de inmersión.",
+      "cost": "Paseo gratis; tours 30 $",
+      "tip": "Los domingos son los más tranquilos. El ferry desde Hamilton (45 min, 5 $) es la forma más bonita de llegar."
+    },
+    {
+      "icon": "⛵",
+      "title": "Crucero al atardecer por el Great Sound",
+      "description": "Catamarán de dos horas desde el puerto de Hamilton hacia el Great Sound — el mar interior protegido salpicado de islotes privados. Champagne, baño en una cala resguardada, regreso al atardecer pasando por el Royal Naval Dockyard.",
+      "cost": "120-180 $ por pareja",
+      "tip": "Restless Native y Aristocrat operan salidas en grupos pequeños — eviten los barcos de fiesta. Miércoles de mayo a septiembre coinciden con el regreso de la flota de regatas a Hamilton."
+    }
+  ],
+  "months": [
+    { "month": "Ene", "weather": "20°C / 14°C, fresco y ventoso", "emoji": "🌬️", "crowds": "Mínima", "price": "Mínimo", "verdict": "Temporada baja — muchos restaurantes cierran, mar muy frío para bañarse, golf aún jugable" },
+    { "month": "Feb", "weather": "19°C / 14°C, fresco", "emoji": "🌬️", "crowds": "Mínima", "price": "Mínimo", "verdict": "Mes más barato pero también el más frío — saltar para luna de miel salvo por el golf" },
+    { "month": "Mar", "weather": "20°C / 14°C, templándose", "emoji": "⛅", "crowds": "Baja", "price": "Bajo", "verdict": "Aún fresco para la playa pero flores empezando — bueno para golf y caminatas" },
+    { "month": "Abr", "weather": "22°C / 17°C, suave", "emoji": "⛅", "crowds": "Media", "price": "Medio", "verdict": "Temporada media — bermudianas en flor, mar templándose, tarifas moderadas" },
+    { "month": "May", "weather": "24°C / 19°C, cálido", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Punto dulce — mar suficientemente cálido, tarifas subiendo, hoteles plenamente abiertos" },
+    { "month": "Jun", "weather": "27°C / 22°C, cálido y húmedo", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Mes pico de luna de miel — clima de baño perfecto, reserven con 4+ meses" },
+    { "month": "Jul", "weather": "29°C / 24°C, caluroso, empieza riesgo huracanes", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Caluroso, mar glorioso — pero comienza la temporada de huracanes" },
+    { "month": "Ago", "weather": "29°C / 24°C, máximo calor, riesgo huracanes", "emoji": "🌀", "crowds": "Máxima", "price": "Máximo", "verdict": "Cup Match a finales de julio; riesgo real de huracanes — contraten seguro" },
+    { "month": "Sep", "weather": "28°C / 23°C, pico de huracanes", "emoji": "🌀", "crowds": "Media", "price": "Alto", "verdict": "Pico atlántico de huracanes — sólo con reservas flexibles" },
+    { "month": "Oct", "weather": "26°C / 21°C, cálido, riesgo lluvia bajando", "emoji": "⛅", "crowds": "Media", "price": "Medio-alto", "verdict": "Magia de temporada media — agua aún cálida, huracanes amainando" },
+    { "month": "Nov", "weather": "23°C / 18°C, suave", "emoji": "⛅", "crowds": "Baja", "price": "Medio", "verdict": "Fresco pero precioso — último mes apto para baño, Rugby Classic a mediados" },
+    { "month": "Dic", "weather": "21°C / 16°C, fresco", "emoji": "🌬️", "crowds": "Baja (pico Navidad/Año Nuevo)", "price": "Medio (pico festividades)", "verdict": "Mes fresco salvo el suplemento festivo — mar demasiado frío para la mayoría" }
+  ],
+  "budgetTiers": [
+    { "label": "Premium", "range": "500-900 $/noche", "gets": "Habitación boutique 4 estrellas o vista al puerto en hotel histórico: desayuno completo incluido, caminable hasta Hamilton, sin tasas pero sin frente al mar.", "example": "Newstead Belmont Hills Resort o Hamilton Princess king vista ciudad" },
+    { "label": "Lujo", "range": "900-1.800 $/noche", "gets": "Hotel 5 estrellas frente a arena rosa o boutique de acantilado: vista al mar completa, spa de firma, club de playa, gastronomía de primer nivel en propiedad.", "example": "The Loren at Pink Beach o suite frente al puerto en Hamilton Princess" },
+    { "label": "Ultra-lujo", "range": "1.800 $+/noche", "gets": "Cottage privado o suite en los buques insignia de Bermudas: terraza privada, servicio de mayordomo, la mejor ubicación frente a la playa de la isla.", "example": "Beach Cottage de Rosewood Bermuda o suite frente al mar del St. Regis" }
+  ],
+  "areas": [
+    { "name": "Hamilton & Parroquia de Paget", "bestFor": "Restaurantes, vida portuaria, base central", "description": "La capital y la parroquia adyacente — Hamilton Princess frente al puerto, Newstead y Coral Beach en Paget. Gastronomía caminable, acceso al ferry, 15 minutos en moto hasta las playas de la costa sur. Mejor base si la cena fuera importa más que la playa al pie del hotel." },
+    { "name": "Tucker's Point (Parroquia de Hamilton)", "bestFor": "Enclave resort, golf, calas resguardadas", "description": "Distrito resort del extremo este anclado por Rosewood Bermuda — club de playa privado, campo de golf, tenis, spa. Tranquilo, residencial, requiere moto o taxi para Hamilton (25 min)." },
+    { "name": "Southampton y Costa Sur", "bestFor": "Playas de arena rosa al pie del hotel", "description": "El tramo de costa sur de Horseshoe Bay hasta Warwick Long Bay — The Reefs y The Loren ocupan posiciones de acantilado y playa. Lo más cerca que se puede dormir de la arena rosa." },
+    { "name": "Parroquia de Sandys (extremo oeste)", "bestFor": "Tranquilidad sólo-adultos, ferry de Dockyard, cottages", "description": "La parroquia occidental en forma de gancho — Cambridge Beaches es la propiedad histórica aquí, un grupo de cottages coloniales rosas alrededor de una península privada. Royal Naval Dockyard, atardeceres hacia el Atlántico abierto. Más lejos de Hamilton (40 min en moto)." }
+  ],
+  "expertTips": [
+    { "tip": "No pueden alquilar coche — alquilen moto o usen los autobuses rosas", "detail": "La ley bermudiana prohíbe a los visitantes alquilar coches; las únicas opciones son motos (unos 60 $/día, casco incluido gratis), el excelente sistema de autobuses públicos rosas (5 $ pase diario, 19 $ semanal) o los Twizy eléctricos de dos plazas." },
+    { "tip": "Hamilton Princess es el ancla social — aunque no se alojen ahí", "detail": "El \"Pink Palace\" desde 1885, el Princess concentra la mejor gastronomía portuaria (Marcus, Crown & Anchor), el único puerto deportivo moderno de la capital y la mejor terraza para observar a la gente. Hasta los huéspedes de Rosewood o Cambridge vienen a cenar aquí." },
+    { "tip": "Chaqueta obligatoria en la mayoría de restaurantes de alta cocina", "detail": "Bermudas es uno de los últimos lugares del mundo donde los hombres aún necesitan chaqueta (y a menudo corbata) en los mejores restaurantes — Tom Moore's Tavern, Marcus en el Princess, Lighthouse. Lleven al menos un blazer ligero de lino; no se alquilan." },
+    { "tip": "Autobuses y ferries son excelentes y baratos", "detail": "El sistema de autobús rosa llega a todas las parroquias; el ferry (Hamilton–Dockyard–St George's) es panorámico y evita la fatiga de moto. Un pase de 19 $ cubre siete días de bus + ferry ilimitados. El ferry a St George's es uno de los trayectos más bonitos del Atlántico." },
+    { "tip": "La arena rosa cubre TODA la costa sur — no sólo Horseshoe Bay", "detail": "La mayoría de visitantes sólo ve Horseshoe Bay y se pierde la docena de calas que la conectan al este — Jobson, Stonehole, Warwick Long Bay, Chaplin, Elbow. Caminen el sendero conector de la costa sur con marea baja y enlazarán cuatro o cinco playas rosas en dos horas con apenas otra alma." }
+  ],
+  "packing": [
+    { "item": "Cárdigan ligero o pañuelo para las noches", "why": "Incluso en verano, las noches en Bermudas pueden bajar a 19-20°C con brisa atlántica; las terrazas al aire libre se ventilan" },
+    { "item": "Chaqueta elegante (hombres)", "why": "Tom Moore's, Marcus, Lighthouse Tea Room, Waterlot Inn exigen chaqueta en cena; sin excepciones" },
+    { "item": "Vestido elegante-informal de cena (mujeres)", "why": "La alta cocina bermudiana sigue un código smart — vestido veraniego con sandalias bien, pareo de playa no" },
+    { "item": "Bañadores (varios juegos)", "why": "Estarán en la playa o piscina a diario de mayo a octubre; un set no se seca en una noche con la humedad" },
+    { "item": "Zapatos cómodos para andar", "why": "Adoquines de St George's, subida al faro, paseos entre paradas de moto — las sandalias solas no bastan" },
+    { "item": "Chubasquero ligero", "why": "El clima de Bermudas cambia rápido; los chubascos tropicales pasan y se van en 20 minutos todo el año — el casco lo proveen con la moto, no hace falta llevarlo" }
+  ],
+  "guide": {
+    "getting": "El aeropuerto internacional L.F. Wade (BDA) en el extremo este es la única puerta de entrada. Vuelos directos desde JFK (2h), Newark, Boston (2h), Filadelfia, Toronto, Miami; un British Airways diario desde London Gatwick (6h45). Sin conexiones regionales — Bermudas no es un hub. Taxis desde BDA cuestan 35-50 $ hasta Hamilton, 40-60 $ hasta la costa sur. Los hoteles organizan traslados.",
+    "where": "Para una primera luna de miel, basarse en la costa sur (The Loren, The Reefs, Rosewood) para tener playa al pie, o Hamilton (Hamilton Princess, Newstead) si los restaurantes y la vida portuaria importan más. Cambridge Beaches si quieren tranquilidad sólo-adultos de cottage en el extremo oeste. Las estancias divididas son innecesarias; la isla mide 33 km de punta a punta y una moto o autobús llega a todo en menos de una hora.",
+    "when": "Abril, mayo, septiembre y octubre son las ventanas canónicas de temporada media — suficientemente cálidos para nadar, menos caros que el pico, menos multitudes. Junio, julio y agosto son clima de baño perfecto pero los más caros y solapan con la temporada atlántica de huracanes. Noviembre es el último mes cómodo de playa. De diciembre a marzo hace fresco y muchos hoteles y restaurantes cierran — vayan sólo si el golf es el foco."
+  },
+  "localFood": "La cocina bermudiana es un híbrido genuino: raíces coloniales británicas, influencia portuguesa-azoriana, especia caribeña y mariscos atlánticos. La sopa de pescado — oscura, con jerez y ron, servida con ron negro y guindillas en jerez aparte — es el plato nacional; Henry VIII y Hog Penny hacen versiones clásicas. El bacalao con patatas (bacalao salado, plátano, huevo duro, salsa de tomate) es el desayuno tradicional del domingo. El Dark 'n Stormy (ron Gosling's Black Seal y ginger beer) y el rum swizzle son los dos cócteles nacionales. Hot cross buns en Viernes Santo con un vaso de cassava pie. Casual: Art Mel's para fish sandwich, Bailey's Bay Ice Cream. Alta cocina: Marcus en el Princess, Tom Moore's Tavern, Bolero.",
+  "currency": "Dólar bermudiano (BMD) — paridad 1:1 con USD, ambos aceptados",
+  "language": "Inglés",
+  "timezone": "Hora del Atlántico (UTC-4)",
+  "seo": {
+    "title": "Luna de Miel en Bermudas: 6 Hoteles Boutique Arena Rosa 2026",
+    "description": "6 hoteles boutique clasificados. Rosewood, Hamilton Princess, The Loren, St. Regis. Desde 500 $/noche. May-Oct, 2h desde NYC."
+  }
+}

@@ -71,6 +71,9 @@ const MAP_LOCATION_OVERRIDE: Record<string, string> = {
   grenada:           'Grand Anse, Grenada',
   crete:             'Elounda, Crete',
   curacao:           'Willemstad, Curacao',
+  bermuda:           'Hamilton, Bermuda',
+  cyprus:            'Paphos, Cyprus',
+  madeira:           'Funchal, Madeira',
 }
 
 function resolveMapLocation(input: string): string {

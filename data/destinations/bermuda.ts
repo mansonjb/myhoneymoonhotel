@@ -1,0 +1,83 @@
+import type { DestinationMeta } from '@/types/destination'
+
+const meta: DestinationMeta = {
+  hero: '/images/hotels/rosewood-bermuda/hero.webp',
+  tagline: 'Pink-sand Atlantic — 2-hour flight from NYC, British colonial calm, no all-inclusives ever.',
+  intro: 'Bermuda is the great geographic misunderstanding of the honeymoon map: a 21-square-mile archipelago marooned in the mid-Atlantic 650 miles east of North Carolina, often mentally filed under "Caribbean" by Americans who have never set foot there. It is not Caribbean — it is a British Overseas Territory cooled by the Gulf Stream, settled in 1609, defined by pastel colonial cottages with white-stepped limestone roofs, terraced pink-sand beaches carved into the south shore, and a culture that quietly prefers afternoon tea over rum punch and a jacket-and-tie dress code over a swim-up bar. The honeymoon proposition is unusual and quite specific: a two-hour flight from JFK or Boston deposits you somewhere that genuinely feels foreign — driving on the left, English currency at par with the US dollar, scooter-only rentals because no foreigner is allowed to rent a car. The south shore from Horseshoe Bay through Warwick Long Bay to Elbow Beach is a continuous ribbon of crushed-coral pink sand the colour of strawberry ice cream, the water turquoise in the coves and indigo offshore, and the reef system the northernmost in the Atlantic. Hamilton, the small harbour capital, runs on banks, boats and dinner reservations. There are no all-inclusive resorts on Bermuda — there never have been, the culture rejects them — and no mega-properties; the entire luxury inventory comprises maybe six to eight hotels of consequence, ranging from the historic "Pink Palace" Hamilton Princess to boutique cliffside hideaways like The Loren. Pricing reflects the scarcity: there is no budget honeymoon in Bermuda, only premium, luxury, and ultra-luxury. Couples who go in expecting Caribbean leave disappointed; couples who go in expecting British colonial calm, pink sand, world-class golf and the easiest premium honeymoon flight from the US East Coast leave plotting their return.',
+  bestTime: 'May–Oct (warm), Apr/Nov shoulder',
+  flightFrom: '2h NYC/Boston, 7h London — to L.F. Wade International (BDA)',
+  topExperience: 'Pink-Sand Beach Honeymoon',
+  perfectFor: [
+    'Short-flight US East Coast couples wanting somewhere genuinely foreign in under 2h',
+    'Honeymooners with a no-mega-resort, no-all-inclusive mindset',
+    'Golf-and-beach couples — Bermuda has more golf per square mile than anywhere',
+    'Travellers who love historic colonial settings, pastel cottages, white-stepped roofs',
+    'Boutique-only luxury seekers tired of branded Caribbean megastructures',
+  ],
+  skipIf: [
+    'You\'re on a budget honeymoon — everything in Bermuda is genuinely expensive',
+    'You expect all-inclusive resorts — they simply do not exist here',
+    'You want a tropical jungle vibe — Bermuda is manicured, pastel, English',
+    'You need year-round warm — winter is cool (60s°F), sea is too chilly to swim',
+    'You want a party scene or buzzing nightlife — Bermuda is quiet by 11pm',
+  ],
+  experiences: [
+    { icon: '🌸', title: 'Sunrise at Horseshoe Bay', description: 'The most photographed pink-sand crescent in the Atlantic, framed by limestone outcrops with hidden coves at low tide. Walk the connecting trail east through Jobson Cove and Warwick Long Bay for an empty-beach hour before the day-trippers arrive.', cost: 'Free; rent chairs $25', tip: 'Get there before 9am. The crushed-coral pink is most vivid in low-angle morning light; harsh midday sun washes it out.' },
+    { icon: '🕳️', title: 'Crystal & Fantasy Caves tour', description: 'A pair of subterranean limestone caverns discovered in 1907 by two boys chasing a cricket ball — clear underground lakes 55 feet down, stalactite ceilings, floating wooden walkways. Twenty-minute guided tours, genuinely magical.', cost: '$35/couple combined ticket', tip: 'Combine with Tom Moore\'s Tavern next door — Bermuda\'s oldest restaurant (1652) in a 17th-century cottage. Book dinner two weeks ahead, jackets required.' },
+    { icon: '🗼', title: 'Climb Gibbs Hill Lighthouse', description: 'Cast iron lighthouse from 1846, 117 feet of cast-iron spiral staircase up — and at the top, the only 360° view of the entire archipelago. South shore pink sand, north reef, Great Sound. A genuine "I am in the middle of the Atlantic" moment.', cost: '$5/person', tip: 'Sunset visit pairs with dinner at the Lighthouse Tea Room (reservations essential). Bring a light layer — the wind whips at the top.' },
+    { icon: '🏛️', title: 'St George\'s UNESCO walk', description: 'The 1612 capital, a UNESCO World Heritage site of cobbled lanes, pastel Georgian houses, and the unbroken oldest English town in the New World. King\'s Square, St Peter\'s Church (oldest Anglican church outside the UK, 1612), and the Ducking Stool re-enactment.', cost: 'Free walking; tours $30', tip: 'Sundays are quietest. The ferry from Hamilton (45 min, $5) is the scenic way to arrive.' },
+    { icon: '⛵', title: 'Sunset cruise on the Great Sound', description: 'Two-hour catamaran charter from Hamilton harbour into the Great Sound — the protected inland sea dotted with private islets. Champagne, swimming stop at a sheltered cove, sunset returning past the Royal Naval Dockyard.', cost: '$120-180 per couple', tip: 'Restless Native and Aristocrat run small-group sunset sails — avoid the larger party boats. Wednesdays from May–Sep include the post-race sailing fleet returning to Hamilton.' },
+  ],
+  months: [
+    { month: 'Jan', weather: '68°F / 58°F, cool & windy', emoji: '🌬️', crowds: 'Lowest', price: 'Lowest', verdict: 'Off-season — many restaurants close, sea too cold to swim, golf still playable' },
+    { month: 'Feb', weather: '67°F / 57°F, cool', emoji: '🌬️', crowds: 'Lowest', price: 'Lowest', verdict: 'Cheapest month but coolest — skip for honeymoon unless golf is the goal' },
+    { month: 'Mar', weather: '68°F / 58°F, warming', emoji: '⛅', crowds: 'Low', price: 'Low', verdict: 'Still chilly for beach but flowers blooming — good for golf and walks' },
+    { month: 'Apr', weather: '72°F / 62°F, mild', emoji: '⛅', crowds: 'Medium', price: 'Mid', verdict: 'Shoulder season — Bermudiana flowers, sea warming, rates still moderate' },
+    { month: 'May', weather: '76°F / 67°F, warm', emoji: '☀️', crowds: 'High', price: 'High', verdict: 'Sweet spot — sea warm enough to swim, rates climbing, hotels fully open' },
+    { month: 'Jun', weather: '81°F / 72°F, warm & humid', emoji: '☀️', crowds: 'Peak', price: 'Highest', verdict: 'Peak honeymoon month — perfect swim weather, book 4+ months ahead' },
+    { month: 'Jul', weather: '84°F / 75°F, hot, hurricane risk begins', emoji: '☀️', crowds: 'Peak', price: 'Highest', verdict: 'Hot, glorious sea — but hurricane season opens; track storms' },
+    { month: 'Aug', weather: '85°F / 76°F, hottest, hurricane risk', emoji: '🌀', crowds: 'Peak', price: 'Highest', verdict: 'Cup Match holiday late July; hurricane risk real — buy travel insurance' },
+    { month: 'Sep', weather: '82°F / 73°F, peak hurricane month', emoji: '🌀', crowds: 'Medium', price: 'High', verdict: 'Peak Atlantic hurricane month — flexible bookings only' },
+    { month: 'Oct', weather: '78°F / 69°F, warm, rain risk easing', emoji: '⛅', crowds: 'Medium', price: 'Mid-High', verdict: 'Shoulder magic — water still warm, hurricanes winding down, rates softening' },
+    { month: 'Nov', weather: '73°F / 64°F, mild', emoji: '⛅', crowds: 'Low', price: 'Mid', verdict: 'Cool but lovely — last swim-feasible month, World Rugby Classic mid-month' },
+    { month: 'Dec', weather: '70°F / 60°F, cool', emoji: '🌬️', crowds: 'Low (peak Xmas/NYE)', price: 'Mid (peak holidays)', verdict: 'Cool month except Christmas/NYE festive premium — sea too cold for most' },
+  ],
+  budgetTiers: [
+    { label: 'Premium', range: '$500-900/night', gets: 'Boutique 4-star or harbour-view room in a heritage hotel: full breakfast included, walkable to Hamilton dining, no resort fees but no oceanfront either.', example: 'Newstead Belmont Hills Resort or Hamilton Princess city-view king' },
+    { label: 'Luxury', range: '$900-1,800/night', gets: 'Pink-sand-fronting 5-star or boutique cliffside hotel: full ocean view, signature spa, often a beach club, world-class dining on property.', example: 'The Loren at Pink Beach or Hamilton Princess harbourfront suite' },
+    { label: 'Ultra-Luxury', range: '$1,800+/night', gets: 'Private cottage or suite at one of Bermuda\'s flagship resorts, often with private terrace, butler service, and the best beachfront real estate on the island.', example: 'Rosewood Bermuda Beach Cottage or St. Regis ocean-front suite' },
+  ],
+  areas: [
+    { name: 'Hamilton & Paget Parish', bestFor: 'Restaurants, harbour life, central base', description: 'The capital and adjacent parish — Hamilton Princess on the harbour, Newstead and Coral Beach in Paget. Walkable dining, ferry access, 15 minutes by scooter to south shore beaches. Best base if dining out matters more than beach-on-doorstep.' },
+    { name: 'Tucker\'s Point (Hamilton Parish)', bestFor: 'Resort enclave, golf, secluded coves', description: 'East end resort district anchored by Rosewood Bermuda — private beach club, championship golf course, tennis, spa. Quiet, residential, requires scooter or taxi for Hamilton (25 min west).' },
+    { name: 'Southampton & South Shore', bestFor: 'Pink-sand beaches at your doorstep', description: 'The south coast stretch from Horseshoe Bay east through Warwick Long Bay — The Reefs and The Loren occupy cliff and beach positions on this ribbon. Closest you can sleep to the pink sand itself.' },
+    { name: 'Sandys Parish (west end)', bestFor: 'Adults-only quiet, Dockyard ferry, cottage cluster', description: 'The hook-shaped western parish — Cambridge Beaches is the legacy property here, a cluster of pink colonial cottages around a private peninsula. Royal Naval Dockyard, sunset views toward the open Atlantic. Furthest from Hamilton (40 min by scooter).' },
+  ],
+  expertTips: [
+    { tip: 'You cannot rent a car — rent a scooter or take pink buses', detail: 'Bermuda law forbids visitors from renting cars; the only options are scooters (around $60/day, helmets provided free, light training given) or the excellent pink public bus system ($5 day pass, $19 weekly). Two-seat electric "Twizy" rentals are an alternative if you want some weather protection.' },
+    { tip: 'Hamilton Princess is the social anchor — even if you don\'t stay there', detail: 'The "Pink Palace" since 1885, the Princess holds the best harbour dining (Marcus, Crown & Anchor), the only modern marina in the capital, and the city\'s best people-watching terrace. Even guests of Rosewood or Cambridge come here for a dinner during their stay.' },
+    { tip: 'Jacket required for most fine dining', detail: 'Bermuda is one of the last places in the world where men still need a jacket (and often tie) at top restaurants — Tom Moore\'s Tavern, the Princess\'s Marcus, the Lighthouse. Bring at least one lightweight linen blazer; you cannot rent one.' },
+    { tip: 'Public buses and ferries are excellent and cheap', detail: 'The pink bus system reaches every parish; the ferry (Hamilton–Dockyard–St George\'s–Rockaway) is scenic and avoids scooter fatigue. A $19 transport pass covers seven days of unlimited bus + ferry. The ferry to St George\'s is one of the prettiest harbour rides in the Atlantic.' },
+    { tip: 'The pink sand stretches the entire south shore — not just Horseshoe Bay', detail: 'Most visitors only see Horseshoe Bay and miss the dozen coves connecting it east — Jobson, Stonehole, Warwick Long Bay, Chaplin, Elbow. Walk the south shore connecting trail at low tide and you can string four or five pink beaches in two hours with barely another soul on most.' },
+  ],
+  packing: [
+    { item: 'Light cardigan or wrap for evenings', why: 'Even in summer, Bermuda evenings can drop into the upper 60s°F with Atlantic breeze; outdoor terraces ventilate' },
+    { item: 'Dressy dinner jacket / blazer (men)', why: 'Tom Moore\'s, Marcus, Lighthouse Tea Room, Waterlot Inn all require jackets at dinner; no exceptions' },
+    { item: 'Smart-casual dinner dress (women)', why: 'Bermuda fine dining still observes a smart code — sundress with sandals fine, beach cover-up not' },
+    { item: 'Swimwear (multiple sets)', why: 'You\'ll be at the beach or pool daily May–October; one set won\'t dry overnight in humid heat' },
+    { item: 'Comfortable walking shoes', why: 'St George\'s cobbles, lighthouse climbs, scooter walking between stops — sandals alone won\'t do it' },
+    { item: 'Light rain jacket', why: 'Bermuda weather flips fast; tropical showers blow through and leave in 20 minutes year-round — helmets are provided with scooter rentals so don\'t pack one' },
+  ],
+  guide: {
+    getting: 'L.F. Wade International Airport (BDA) on the east end is the single gateway. Direct flights from JFK (2h), Newark, Boston (2h), Philadelphia, Toronto, Miami; one daily British Airways from London Gatwick (6h45). No regional connections — Bermuda is not a hub. Taxis from BDA run $35-50 to Hamilton, $40-60 to south shore. Hotels arrange transfers.',
+    where: 'For first-time honeymoon, base on the south shore (The Loren, The Reefs, Rosewood) for beach-on-doorstep, or Hamilton (Hamilton Princess, Newstead) if restaurants and harbour life matter more. Cambridge Beaches if you want adults-only-cottage quiet at the far west. Split stays are unnecessary; the island is 21 miles end-to-end and a scooter or bus reaches everywhere in under an hour.',
+    when: 'April, May, September and October are the canonical shoulder windows — warm enough to swim, less expensive than peak, smaller crowds. June, July, August are perfect swim weather but priciest and overlap with Atlantic hurricane season (July onward). November is the last comfortable beach month. December through March is chilly and many hotels and restaurants close — go only if golf is the focus.',
+  },
+  localFood: 'Bermudian cuisine is a genuine hybrid: British colonial roots, Portuguese-Azorean immigrant influence, Caribbean spice and Atlantic seafood. Fish chowder — dark, sherry-and-rum-spiked, served with black rum and sherry peppers on the side — is the national dish; Henry VIII and Hog Penny do classic versions. Codfish and potatoes (salt cod, banana, hard-boiled egg, tomato sauce) is the traditional Sunday breakfast. The Dark \'n Stormy (Gosling\'s Black Seal rum and ginger beer) and the rum swizzle (Bermuda\'s answer to the daiquiri) are the two national cocktails. Hot cross buns appear on Good Friday with a glass of cassava pie. Casual: Art Mel\'s for fish sandwich, Bailey\'s Bay Ice Cream Parlour. Fine: Marcus at the Princess, Tom Moore\'s Tavern, Bolero.',
+  currency: 'Bermudian Dollar (BMD) — pegged 1:1 to USD, both accepted everywhere',
+  language: 'English',
+  timezone: 'Atlantic Standard Time (UTC-4)',
+  seo: { title: 'Bermuda Honeymoon: 6 Pink-Sand Boutique Hotels 2026', description: '6 boutique hotels ranked. Rosewood, Hamilton Princess, The Loren, St. Regis. From $500/night. May–Oct, 2h from NYC.' },
+}
+
+export default meta

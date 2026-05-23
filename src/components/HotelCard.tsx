@@ -79,6 +79,9 @@ const DEST_FALLBACK: Record<string, string> = {
   'grenada':           'https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=800&q=80',
   'crete':             'https://images.unsplash.com/photo-1601581875309-fafbf2d3ed3a?w=800&q=80',
   'curacao':           'https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=800&q=80',
+  'bermuda':           'https://images.unsplash.com/photo-1592609931095-54a2168ae893?w=800&q=80',
+  'cyprus':            'https://images.unsplash.com/photo-1591491653056-4e0db1d0ebef?w=800&q=80',
+  'madeira':           'https://images.unsplash.com/photo-1591456669708-d5fd1d9c1d40?w=800&q=80',
 }
 
 const DEFAULT_FALLBACK = 'https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=800&q=80'
