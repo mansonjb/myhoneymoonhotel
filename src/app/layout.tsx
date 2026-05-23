@@ -49,6 +49,7 @@ const DEST_META: Record<string, { region: string; country: string }> = {
   'aruba':             { region: 'Caribbean & Americas', country: 'Aruba' },
   'grenada':           { region: 'Caribbean & Americas', country: 'Grenada' },
   'curacao':           { region: 'Caribbean & Americas', country: 'Curaçao' },
+  'belize':            { region: 'Caribbean & Americas', country: 'Belize' },
   // Europe
   'santorini':  { region: 'Europe', country: 'Greece' },
   'greece':     { region: 'Europe', country: 'Greece' },
@@ -63,6 +64,8 @@ const DEST_META: Record<string, { region: string; country: string }> = {
   'croatia':    { region: 'Europe', country: 'Croatia' },
   'portugal':   { region: 'Europe', country: 'Portugal' },
   'madeira':    { region: 'Europe', country: 'Portugal' },
+  'provence':   { region: 'Europe', country: 'France' },
+  'cinque-terre': { region: 'Europe', country: 'Italy' },
   'spain':      { region: 'Europe', country: 'Spain' },
   'switzerland':  { region: 'Europe', country: 'Switzerland' },
   'iceland':    { region: 'Europe', country: 'Iceland' },

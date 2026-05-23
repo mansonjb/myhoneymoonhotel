@@ -82,6 +82,9 @@ const DEST_FALLBACK: Record<string, string> = {
   'bermuda':           'https://images.unsplash.com/photo-1592609931095-54a2168ae893?w=800&q=80',
   'cyprus':            'https://images.unsplash.com/photo-1591491653056-4e0db1d0ebef?w=800&q=80',
   'madeira':           'https://images.unsplash.com/photo-1591456669708-d5fd1d9c1d40?w=800&q=80',
+  'belize':            'https://images.unsplash.com/photo-1518105779142-d975f22f1b0a?w=800&q=80',
+  'provence':          'https://images.unsplash.com/photo-1583224944844-5b268c057b72?w=800&q=80',
+  'cinque-terre':      'https://images.unsplash.com/photo-1559867587-26b7c3b94d5b?w=800&q=80',
 }
 
 const DEFAULT_FALLBACK = 'https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=800&q=80'

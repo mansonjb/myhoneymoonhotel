@@ -72,6 +72,9 @@ import curacao from './curacao'
 import bermuda from './bermuda'
 import cyprus from './cyprus'
 import madeira from './madeira'
+import belize from './belize'
+import provence from './provence'
+import cinqueTerre from './cinque-terre'
 
 export const DESTINATION_META: Record<string, DestinationMeta> = {
   'bora-bora': boraBora,
@@ -147,4 +150,7 @@ export const DESTINATION_META: Record<string, DestinationMeta> = {
   'bermuda': bermuda,
   'cyprus': cyprus,
   'madeira': madeira,
+  'belize': belize,
+  'provence': provence,
+  'cinque-terre': cinqueTerre,
 }

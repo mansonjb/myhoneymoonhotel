@@ -74,6 +74,9 @@ const MAP_LOCATION_OVERRIDE: Record<string, string> = {
   bermuda:           'Hamilton, Bermuda',
   cyprus:            'Paphos, Cyprus',
   madeira:           'Funchal, Madeira',
+  belize:            'San Pedro, Ambergris Caye, Belize',
+  provence:          'Gordes, France',
+  'cinque-terre':    'Monterosso al Mare, Italy',
 }
 
 function resolveMapLocation(input: string): string {
