@@ -5,6 +5,7 @@ import { notFound } from 'next/navigation'
 import { getHotelsByDestination } from '@/lib/hotels'
 import HotelCard from '@/components/HotelCard'
 import Stay22MapWidget from '@/components/Stay22MapWidget'
+import FlightSearchWidget from '@/components/FlightSearchWidget'
 import RecentlyViewedRail from '@/components/RecentlyViewedRail'
 import { getLocalizedDestination } from '@/lib/getLocalizedDestination'
 import { getMessages, type Messages } from '@/i18n/getMessages'
@@ -199,6 +200,8 @@ export async function renderDestinationPage(country: string, locale: Locale) {
             locale={locale}
           />
         </section>
+
+        <FlightSearchWidget destination={destProper} locale={locale} />
 
         {/* ── INTRO + QUICK FACTS ── */}
         {meta && (

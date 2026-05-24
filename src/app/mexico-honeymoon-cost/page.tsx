@@ -3,6 +3,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import { buildAlternates } from '@/lib/alternates'
 import AuthorByline from '@/components/AuthorByline'
+import FlightSearchWidget from '@/components/FlightSearchWidget'
 
 export const metadata: Metadata = {
   title: 'Mexico Honeymoon Cost: 2026 Real Numbers ($4k–$50k+)',
@@ -448,6 +449,10 @@ export default function MexicoHoneymoonCostPage() {
           </ol>
         </div>
       </section>
+
+      <div className="max-w-3xl mx-auto px-6">
+        <FlightSearchWidget destination="Mexico" />
+      </div>
 
       {/* 1. TL;DR */}
       <section id="tldr-tiers" className="bg-zinc-50 py-20">

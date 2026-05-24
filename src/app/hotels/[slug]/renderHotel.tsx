@@ -5,6 +5,7 @@ import { getAllHotels, getRelatedHotels } from '@/lib/hotels'
 import { getLocalizedHotel } from '@/lib/getLocalizedHotel'
 import HotelSchema from '@/components/HotelSchema'
 import Stay22MapWidget from '@/components/Stay22MapWidget'
+import FlightSearchWidget from '@/components/FlightSearchWidget'
 import HotelCard from '@/components/HotelCard'
 import CopyButton from '@/components/CopyButton'
 import StickyBookingBar from '@/components/StickyBookingBar'
@@ -256,6 +257,8 @@ export async function renderHotelPage(slug: string, locale: Locale) {
               locale={locale}
             />
           </section>
+
+          <FlightSearchWidget destination={destinationLabel} locale={locale} />
 
           <section>
             <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-6">{tx(m, 'hotel.atAGlance', 'At a Glance')}</p>

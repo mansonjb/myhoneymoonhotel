@@ -3,6 +3,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import { buildAlternates } from '@/lib/alternates'
 import AuthorByline from '@/components/AuthorByline'
+import FlightSearchWidget from '@/components/FlightSearchWidget'
 
 export const metadata: Metadata = {
   title: 'Best Time to Honeymoon: The 2026 Month-by-Month Calendar',
@@ -681,6 +682,10 @@ export default function BestTimeToHoneymoonPage() {
           </ol>
         </div>
       </section>
+
+      <div className="max-w-3xl mx-auto px-6">
+        <FlightSearchWidget />
+      </div>
 
       {/* CALENDAR — 12 MONTHS, EACH WITH 20-DEST GRID */}
       <section id="calendar" className="max-w-6xl mx-auto px-6 py-16">

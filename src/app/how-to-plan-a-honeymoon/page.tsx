@@ -3,6 +3,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import { buildAlternates } from '@/lib/alternates'
 import AuthorByline from '@/components/AuthorByline'
+import FlightSearchWidget from '@/components/FlightSearchWidget'
 
 export const metadata: Metadata = {
   title: 'How to Plan a Honeymoon: The Complete 2026 Guide (Timeline, Budget, Destinations)',
@@ -674,6 +675,10 @@ export default function HowToPlanAHoneymoonPage() {
           </Link>.
         </p>
       </section>
+
+      <div className="max-w-3xl mx-auto px-6">
+        <FlightSearchWidget />
+      </div>
 
       {/* 6. BOOKING TIMING */}
       <section id="booking-timing" className="bg-zinc-50 py-20">
