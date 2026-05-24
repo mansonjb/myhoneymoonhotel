@@ -69,6 +69,7 @@ const DEST_META: Record<string, { region: string; country: string }> = {
   'provence':   { region: 'Europe', country: 'France' },
   'cinque-terre': { region: 'Europe', country: 'Italy' },
   'spain':      { region: 'Europe', country: 'Spain' },
+  'mallorca':   { region: 'Europe', country: 'Spain' },
   'switzerland':  { region: 'Europe', country: 'Switzerland' },
   'iceland':    { region: 'Europe', country: 'Iceland' },
   'norway':     { region: 'Europe', country: 'Norway' },
@@ -76,6 +77,7 @@ const DEST_META: Record<string, { region: string; country: string }> = {
   'turkey':     { region: 'Europe', country: 'Turkey' },
   // South America
   'argentina':  { region: 'South America', country: 'Argentina' },
+  'patagonia-chile': { region: 'South America', country: 'Chile' },
   'peru':       { region: 'South America', country: 'Peru' },
   'galapagos':  { region: 'South America', country: 'Ecuador' },
   'brazil':     { region: 'South America', country: 'Brazil' },

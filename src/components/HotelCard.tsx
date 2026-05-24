@@ -66,6 +66,7 @@ const DEST_FALLBACK: Record<string, string> = {
   'iceland':           'https://images.unsplash.com/photo-1531168556467-80aace0d0144?w=800&q=80',
   'sardegna':          'https://images.unsplash.com/photo-1534308143481-c55f00be8bd7?w=800&q=80',
   'argentina':         'https://images.unsplash.com/photo-1607627000458-210e8d2bdb1d?w=800&q=80',
+  'patagonia-chile':   'https://images.unsplash.com/photo-1531627915-7ed1d2b89be0?w=800&q=80',
   'italy':             'https://images.unsplash.com/photo-1534308143481-c55f00be8bd7?w=800&q=80',
   'tuscany':           'https://images.unsplash.com/photo-1543429775-e7c89eddffd5?w=800&q=80',
   'sicily':            'https://images.unsplash.com/photo-1558642084-fd07fae5282e?w=800&q=80',
@@ -85,6 +86,7 @@ const DEST_FALLBACK: Record<string, string> = {
   'belize':            'https://images.unsplash.com/photo-1518105779142-d975f22f1b0a?w=800&q=80',
   'provence':          'https://images.unsplash.com/photo-1583224944844-5b268c057b72?w=800&q=80',
   'cinque-terre':      'https://images.unsplash.com/photo-1559867587-26b7c3b94d5b?w=800&q=80',
+  'mallorca':          'https://images.unsplash.com/photo-1543783207-ec64e4d95325?w=800&q=80',
 }
 
 const DEFAULT_FALLBACK = 'https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=800&q=80'

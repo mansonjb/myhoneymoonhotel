@@ -1,0 +1,109 @@
+{
+  "tagline": "A lua de mel selvagem do Chile — granito das Torres del Paine, trilhas em geleiras, lodges all-inclusive e céus do fim do mundo.",
+  "intro": "A Patagônia chilena é a lua de mel para casais que querem a paisagem de granito e gelo mais dramática do planeta, combinada com alguns dos lodges all-inclusive de natureza mais bem realizados arquitetonicamente do mundo. A viagem gira em torno do Parque Nacional Torres del Paine — três torres verticais de granito que se erguem 2.800 metros acima da estepe patagônica, geleiras suspensas caindo do maciço Paine, a face de desprendimento da geleira Grey caindo em um lago azul-leitoso, e uma população de pumas, condores, guanacos e emas que dá vida à estepe. Os lodges definem a experiência: o arco de madeira do Tierra Patagonia no lago Sarmiento, o edifício pioneiro do Explora na cachoeira Salto Chico, o modelo de guia privado por villa do Awasi e a planta frigorífica eduardiana reconvertida do The Singular no fiorde Última Esperança. Todos operam com tarifas all-inclusive de pensão completa que cobrem as excursões guiadas diárias, eliminando completamente a logística da lua de mel. O lado chileno é mais remoto que a Patagônia argentina vizinha — menos cidades, menos voos, mais clima — mas a contrapartida é o melhor parque de trilhas do mundo, céus escuros para observar estrelas e a rara experiência moderna de estar genuinamente desconectado por uma semana com a pessoa amada.",
+  "bestTime": "Nov-Mar (primavera/verão austral)",
+  "flightFrom": "20h+ da Europa via Santiago, depois Punta Arenas + 4h de carro",
+  "topExperience": "Lua de mel em lodge nas Torres del Paine",
+  "perfectFor": [
+    "Casais aventureiros que querem trilhas, geleiras e natureza selvagem como eixo da viagem",
+    "Apaixonados por lodges remotos all-inclusive — excursões diárias, pensão completa, zero decisões cotidianas",
+    "Casais observadores de céus escuros — a Patagônia tem alguns dos céus menos poluídos do mundo",
+    "Casais de trilhas e cavalgadas que querem combinar ambos em uma única viagem",
+    "Fotógrafos — a luz sobre as torres de granito e as nuvens é um dos grandes temas fotográficos do planeta"
+  ],
+  "skipIf": [
+    "Você quer uma lua de mel de praia e sol — a Patagônia é fria, ventosa e interior",
+    "Você tem menos de 8 dias — o compromisso de voo e o traslado de 4h exigem uma viagem mais longa",
+    "Você quer um casulo de altíssimo luxo — os lodges são excelentes mas aventureiros, não resorts de spa cinco estrelas",
+    "Você não gosta de caminhar — a maioria das excursões dos lodges são caminhadas de 8-22 km em terreno irregular",
+    "Você enjoa em estradas esburacadas — o traslado de chegada é asfaltado, mas as estradas do parque são de cascalho áspero"
+  ],
+  "experiences": [
+    {
+      "icon": "⛰️",
+      "title": "Trilha de dia até a Base das Torres",
+      "description": "O dia patagônico por excelência — uma trilha de 19 km ida e volta até a lagoa de base sob as três torres de granito. A última hora subindo o pedral é íngreme e exposta, mas a recompensa é uma das vistas montanhosas icônicas do planeta, com as torres saindo diretamente da lagoa azul-leitosa.",
+      "cost": "Grátis com entrada do parque (~US$35/pessoa); guia US$200/casal",
+      "tip": "Saia às 7h para estar na lagoa antes das nuvens do meio-dia. Os guias do Tierra, Explora, Awasi e Las Torres fazem essa trilha em ritmo privado; Las Torres tem o início da trilha no próprio hotel para uma partida alpina às 5h se as condições estiverem claras."
+    },
+    {
+      "icon": "🛶",
+      "title": "Caiaque na geleira Grey",
+      "description": "Remar entre os icebergs na face de desprendimento da geleira Grey — três paredes de gelo azul caindo no lago Grey vindas do Campo de Gelo Sul Patagônico. O passeio de 2,5 horas a partir da margem sul do lago se aproxima respeitosamente de icebergs mais altos que o seu caiaque.",
+      "cost": "Caiaque US$200/pessoa, adicional à excursão do lodge",
+      "tip": "Reservado conforme o vento da manhã; o vento pode cancelá-lo. Vista todas as camadas que o lodge fornecer mais sua camada base de merino — sentar em um caiaque sobre água glaciar com vento patagônico é genuinamente frio mesmo em janeiro."
+    },
+    {
+      "icon": "💧",
+      "title": "Mirante do Salto Grande",
+      "description": "Uma curta caminhada de 30 minutos ida e volta a partir do estacionamento de Pudeto até a cachoeira Salto Grande, onde o rio Paine ruge entre os lagos Nordenskjöld e Pehoé. O mirante enquadra os Cuernos del Paine através da espuma — a vista dramática mais acessível do parque.",
+      "cost": "Grátis com entrada do parque",
+      "tip": "Todos os lodges incluem isso nos dias de Grey Glacier e Vale Francês. A melhor luz é no fim da tarde com o sol às suas costas. Cinco minutos a mais a pé está o segundo mirante — igualmente bom, metade da multidão."
+    },
+    {
+      "icon": "🥾",
+      "title": "Trekking do Vale Francês",
+      "description": "Uma trilha de dia completo de 22 km — barco pelo lago Pehoé até Paine Grande, depois caminhada subindo o Vale Francês até o anfiteatro-catedral de granito na cabeceira. As geleiras suspensas se desprendem da face oeste do Paine Grande ao longo de toda a caminhada. O dia mais dramático em Torres del Paine.",
+      "cost": "Catamarã do lago Pehoé US$50/pessoa; guia do lodge US$250/casal",
+      "tip": "Um dia sério de 8 horas em trilha irregular — só tente se você for um caminhante confiante. O Mirador Británico na cabeceira do vale é o prêmio; volte no Mirador Francés se a energia estiver baixa (igualmente espetacular e 4 horas mais curto)."
+    },
+    {
+      "icon": "🐎",
+      "title": "Cavalgada gaúcha em estância",
+      "description": "Cavalgada de meio dia pela estepe patagônica com um gaúcho de trabalho — entre rebanhos de guanacos, sob falésias de condores, terminando em um asado tradicional onde o cordeiro é cozido al palo em cruzes de ferro sobre fogo aberto. A maneira mais suave de sentir a paisagem patagônica após vários dias duros de trilha.",
+      "cost": "Incluído no Tierra, Explora, Awasi e Las Torres em dias de excursão",
+      "tip": "Mesmo cavaleiros iniciantes são bem-vindos — os cavalos patagônicos são calmos e andam a passo. Peça ao lodge para organizar o asado como parte da cavalgada em vez de voltar para comer no hotel; o cordeiro no fogo aberto é o destaque."
+    }
+  ],
+  "months": [
+    { "month": "Jan", "weather": "Verão de pico 18°C, muito ventoso", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Longa luz do dia (pôr-do-sol 23h), trilhas mais cheias — reserve com 9 meses" },
+    { "month": "Feb", "weather": "Quente 17°C, ventos máximos", "emoji": "☀️", "crowds": "Máxima", "price": "Máximo", "verdict": "Melhor janela climática mas as semanas mais ventosas; lodges totalmente lotados" },
+    { "month": "Mar", "weather": "Mais fresco 14°C, mais calmo, cores de outono", "emoji": "🍂", "crowds": "Alta", "price": "Alto", "verdict": "O melhor mês para muitos — vento mais calmo, lengas douradas, menos gente" },
+    { "month": "Apr", "weather": "Frio 8°C, fim do outono", "emoji": "🍂", "crowds": "Moderada", "price": "Médio", "verdict": "Últimas semanas de lodge — muitos fecham em meados de abril; linda luz de outono" },
+    { "month": "May", "weather": "Frio 4°C, lodges fechando", "emoji": "❄️", "crowds": "Fechado", "price": "Baixo", "verdict": "A maioria dos lodges fechada para o inverno; não é um mês viável de lua de mel" },
+    { "month": "Jun", "weather": "Inverno -2°C, escuro e frio", "emoji": "❄️", "crowds": "Fechado", "price": "Baixo", "verdict": "Todos os lodges fechados; parque em grande parte inacessível" },
+    { "month": "Jul", "weather": "Mais frio -3°C, dias curtos", "emoji": "❄️", "crowds": "Fechado", "price": "Baixo", "verdict": "Fechado; somente operadores especializados de inverno com raquetes de neve" },
+    { "month": "Aug", "weather": "Frio 0°C, dias se alongando", "emoji": "❄️", "crowds": "Fechado", "price": "Baixo", "verdict": "Fechado; o último mês de inverno" },
+    { "month": "Sep", "weather": "Primavera 5°C, neve nos picos", "emoji": "🌸", "crowds": "Fechado", "price": "Baixo", "verdict": "Maioria dos lodges ainda fechada; Singular e Remota em Puerto Natales reabrem" },
+    { "month": "Oct", "weather": "Primavera 10°C, fresca e verde", "emoji": "🌸", "crowds": "Baixa", "price": "Médio", "verdict": "Lodges reabrindo, flores silvestres, sem multidões — excelente valor de meia temporada" },
+    { "month": "Nov", "weather": "Primavera tardia 13°C, dias mais longos", "emoji": "☀️", "crowds": "Moderada", "price": "Médio", "verdict": "Janela de meia temporada — lodges totalmente abertos, bom valor, clima esquentando" },
+    { "month": "Dec", "weather": "Verão inicial 16°C, pico começa", "emoji": "☀️", "crowds": "Alta", "price": "Alto", "verdict": "Temporada de pico começa; lodges totalmente reservados a partir de meados de dezembro" }
+  ],
+  "budgetTiers": [
+    { "label": "Premium all-inclusive", "range": "US$700-1.200/noite", "gets": "Lodge top all-inclusive com excursões guiadas e pensão completa. O formato padrão de luxo patagônico.", "example": "Tierra Patagonia, Explora Patagonia (tarifas de entrada), Hotel Las Torres (com pacote)" },
+    { "label": "Luxo all-inclusive", "range": "US$1.200-2.500/noite", "gets": "Tarifas superiores nos lodges-bandeira, quartos suíte, harmonização premium de vinhos, excursões assinatura.", "example": "Suite Tierra Patagonia, Exploradores Suite do Explora, Suite Patagónica do The Singular" },
+    { "label": "Ultra-exclusivo privado", "range": "US$2.500+/noite", "gets": "Guia privado e 4×4 por villa, a hospedagem em villa única mais exclusiva da Patagônia.", "example": "Awasi Patagonia (villa privada + guia privado + veículo privado)" }
+  ],
+  "areas": [
+    { "name": "Parque Nacional Torres del Paine (interior)", "bestFor": "Estadias em lodges dentro do parque, vistas diárias das torres", "description": "Dentro do limite do parque — Explora na cachoeira Salto Chico, Hotel Las Torres no início da trilha das torres. Acorde cercado pelo parque. A experiência patagônica clássica." },
+    { "name": "Borda leste do parque — Lago Sarmiento", "bestFor": "Melhores lodges arquitetônicos, vista lago e torres", "description": "Logo fora do limite leste do parque, no lago Sarmiento. Tierra Patagonia e Awasi ficam aqui. Torres do outro lado do lago vistas de cada janela, mais tranquilo que dentro do parque, fácil para guia privado." },
+    { "name": "Estuário de Puerto Bories", "bestFor": "Base em hotel patrimonial, cruzeiros pelo fiorde", "description": "Um pequeno assentamento patrimonial 5 km ao norte de Puerto Natales, no fiorde Última Esperança. The Singular Patagonia, em uma planta frigorífica reconvertida, fica aqui. A 1h30 do parque; ideal para casais que preferem o conforto de um hotel-base à imersão profunda no parque." },
+    { "name": "Puerto Natales — cidade portal", "bestFor": "Luas de mel com base em cidade, restaurantes, melhor valor", "description": "A cidade patagônica de trabalho que serve de portal para o parque. Remota e vários pequenos hotéis-boutique ficam aqui. Restaurantes, o cais do fiorde, a caverna do milodonte por perto. A 1h30 de carro de Torres del Paine." }
+  ],
+  "expertTips": [
+    { "tip": "Reserve os lodges com 9 meses de antecedência — o inventário é genuinamente limitado", "detail": "Tierra tem 40 quartos, Explora 49, Awasi 12 villas, Las Torres 84 e The Singular 57. Em todo o segmento de altíssimo luxo de Torres del Paine há menos de 250 quartos. A temporada de pico (dezembro-fevereiro) esgota em abril para o ano seguinte. Reserve assim que as datas do casamento forem confirmadas. Awasi é o mais difícil — só 12 villas — e frequentemente esgota 12 meses antes." },
+    { "tip": "O preço all-inclusive do lodge genuinamente inclui tudo", "detail": "Diferente do \"all-inclusive\" caribenho — a tarifa de Tierra, Explora e Awasi cobre realmente todas as refeições, bar aberto completo com vinhos chilenos premium, todo o programa diário de excursões com guias, traslados de Punta Arenas e as instalações de bem-estar. Entradas do parque (US$35/pessoa) e alguns extras pontuais (caiaque na Grey, helicóptero, tratamentos de spa mais profundos) são à parte. A transparência orçamentária é incomum e bem-vinda." },
+    { "tip": "O vento patagônico é brutal — leve corta-vento, não só impermeável", "detail": "O famoso vento patagônico atinge regularmente 60-80 km/h nas trilhas do parque e pode passar de 100 km/h em cumes expostos. Uma jaqueta de chuva padrão é insuficiente — você precisa de uma hardshell propriamente corta-vento Gore-Tex ou equivalente, uma camada base corta-vento e uma camada intermediária isolante. Óculos escuros são obrigatórios (o vento carrega areia). Buffs para proteger o rosto não são opcionais." },
+    { "tip": "A maioria dos lodges exige estadia mínima de 4 noites", "detail": "Tierra, Explora e Awasi exigem mínimos de 4 noites o ano todo. De qualquer modo é a duração correta — dias com mau tempo são inevitáveis e você precisa de margem para completar Base Torres, Grey Glacier e Vale Francês. Os lodges às vezes oferecem pacotes de 3 noites em meses de meia temporada, mas o formato de 4 noites é o design." },
+    { "tip": "Você voa para Punta Arenas (PUQ), não Santiago — e depois dirige", "detail": "Um erro comum de reserva. Punta Arenas fica a um voo de 3h30 LATAM/Sky ao sul de Santiago; de PUQ são mais 4-5 horas de traslado rodoviário ao norte até os lodges do parque. O tempo total do dia de chegada de um voo de Santiago às 6h até o lodge é cerca de 12 horas. Reserve pelo menos uma noite-tampão em Santiago em cada ponta para absorver as conexões internacionais." }
+  ],
+  "packing": [
+    { "item": "Jaqueta hardshell Gore-Tex corta-vento", "why": "Inegociável. O vento patagônico é a condição que define a viagem — uma jaqueta de chuva sozinha não basta. Uma Gore-Tex propriamente corta-vento com capuz ajustável é a peça de equipamento mais importante." },
+    { "item": "Botas de trilha resistentes, já amaciadas", "why": "As trilhas de Base Torres, Vale Francês e Grey Glacier são rochosas, às vezes lamacentas, às vezes com manchas de neve. Sustentação de tornozelo e sola adequada são obrigatórias. Trail runners não bastam. Não traga botas novas — amacie-as em casa primeiro." },
+    { "item": "Camadas base de merino (parte de cima e baixo)", "why": "O tempo muda hora a hora — começar uma trilha a 5°C e terminar a 18°C. O merino regula a temperatura, seca rápido e não retém cheiro ao longo de vários dias de uso." },
+    { "item": "Chapéu com cordão e protetor solar SPF 50+", "why": "O UV patagônico é extremo devido ao ozônio fino sobre as latitudes austrais; queimadura solar em 20 minutos é rotina. Um chapéu com cordão de queixo (o vento arranca chapéus sem ele) e protetor solar de alto SPF reaplicado durante o dia." },
+    { "item": "Garrafa térmica de água (1L+)", "why": "As trilhas duram 6-10 horas; a hidratação é crítica na altitude e no vento. Os lodges enchem garrafas toda manhã. A térmica mantém a água fresca no sol de verão e descongelada nos meses de meia temporada." },
+    { "item": "Polainas", "why": "As trilhas podem estar lamacentas ou com manchas de neve mesmo no verão; as polainas mantêm a areia e a água fora das botas em Base Torres e Vale Francês. Um par leve basta." }
+  ],
+  "guide": {
+    "getting": "Voe para Santiago (SCL) — normalmente 14-16h da Europa via Madri ou São Paulo, 12h direto de Miami pela LATAM ou American, 9h de Atlanta pela Delta. Da Austrália ou Nova Zelândia, a LATAM opera voos diretos para SCL de Sydney e Auckland (12h). Em Santiago, conecte na LATAM ou Sky Airline para o voo doméstico de 3h30 ao sul até Punta Arenas (PUQ). De PUQ, os shuttles dos lodges ou traslados privados seguem 4h30 ao norte pela Rota 9 asfaltada até Torres del Paine, ou 3h até Puerto Natales. Pernoite sempre em Santiago em cada ponta da viagem para absorver as conexões internacionais.",
+    "where": "Para os ícones de Torres del Paine: hospede-se no Tierra, Explora, Awasi ou Las Torres por 4-5 noites dentro ou na borda leste do parque, onde a vista ao despertar e a proximidade da trilha são o ponto principal. Para uma lua de mel com base hoteleira: The Singular Patagonia em Puerto Bories ou Remota em Puerto Natales por 4-5 noites, com excursões de dia ao parque. Lua de mel patagônica clássica de 10 noites: 4 noites no Tierra ou Explora + 3 noites no The Singular + 3 noites em Buenos Aires (para o contraste urbano) ou estendendo para El Chaltén na Patagônia argentina para o Fitz Roy.",
+    "when": "De dezembro a fevereiro é a temporada de pico — maior luz do dia (pôr-do-sol às 23h em dezembro), temperaturas mais quentes e trilhas mais movimentadas; reserve com 9 meses de antecedência. Março é a janela tranquila e ideal — vento mais calmo, cores de outono nas florestas de lenga, menos gente e lodges ainda totalmente abertos. Novembro é a janela de valor de meia temporada com lodges reabertos, condições primaveris frescas e disponibilidade notavelmente melhor. Evite maio a setembro — a maioria dos lodges fecha para o inverno austral e o parque praticamente se encerra."
+  },
+  "localFood": "Cordero al palo (cordeiro patagônico cozido em cruzes de ferro sobre fogo aberto, a assinatura regional); congrio (o congro magalhânico, peixe local de eleição, normalmente selado na manteiga); centolla (caranguejo-real magalhânico das águas frias do canal de Beagle — doce, pescado de forma sustentável e prato de celebração); pisco sour de calafate (a baga patagônica indígena, púrpura escura, agridoce, transformada em um pisco sour que é o drink de boas-vindas regional); merken (a mistura mapuche de pimenta defumada e coentro, polvilhada sobre tudo, de cordeiro a ceviche); cervejas artesanais patagônicas das microcervejarias de Puerto Natales (Baguales é a original). As cozinhas dos lodges Tierra, Explora, Awasi e The Singular pegam tudo isso e traduzem em menus sérios de autor harmonizados com os melhores vinhos chilenos — Carménère, Cabernet Sauvignon de Maipo e Colchagua e os Sauvignon Blancs de clima fresco de Casablanca.",
+  "language": "Espanhol (sotaque chileno — fala rápida característica e consoantes finais suavizadas). Inglês é amplamente falado nos lodges e hotéis com clientela internacional; menos em lojas urbanas, táxis e áreas rurais. Os guias dos lodges são todos fluentes em inglês.",
+  "seo": {
+    "title": "Lua de Mel Patagônia (Chile): 6 Lodges das Torres del Paine",
+    "description": "6 lodges da Patagônia chilena pontuados. Tierra, Explora, Awasi, Singular, Las Torres, Remota. A partir de US$450/noite. Veredictos nov-mar."
+  }
+}

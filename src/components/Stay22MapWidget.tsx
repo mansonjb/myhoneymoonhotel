@@ -24,6 +24,7 @@ const MAP_LOCATION_OVERRIDE: Record<string, string> = {
   switzerland:       'Zermatt, Switzerland',
   botswana:          'Maun, Botswana',
   argentina:         'Buenos Aires, Argentina',
+  'patagonia-chile': 'Puerto Natales, Chile',
   'new-zealand':     'Queenstown, New Zealand',
   'new zealand':     'Queenstown, New Zealand',
   jordan:            'Petra, Jordan',
@@ -77,6 +78,7 @@ const MAP_LOCATION_OVERRIDE: Record<string, string> = {
   belize:            'San Pedro, Ambergris Caye, Belize',
   provence:          'Gordes, France',
   'cinque-terre':    'Monterosso al Mare, Italy',
+  mallorca:          'Deia, Mallorca',
 }
 
 function resolveMapLocation(input: string): string {
