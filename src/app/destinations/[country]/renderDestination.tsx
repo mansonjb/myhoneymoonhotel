@@ -172,6 +172,34 @@ export async function renderDestinationPage(country: string, locale: Locale) {
       {/* ── MAIN CONTENT ── */}
       <div className="max-w-6xl mx-auto px-6 sm:px-12 space-y-24 pb-32">
 
+        {/* ── HOTEL GRID — above the fold, first thing visitors see after at-a-glance ── */}
+        <section id="hotels">
+          <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-8">
+            <div>
+              <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-2">{tx(m, 'dest.kickerAllHotels', 'All Hotels')}</p>
+              <h2 className="font-display text-3xl sm:text-4xl">{fmt(tx(m, 'dest.allHotelsTitle', 'Honeymoon Hotels in {dest}'), { dest: destProper })}</h2>
+            </div>
+            <p className="text-zinc-400 text-sm">{hotels.length} {tx(m, 'card.hotels', 'hotels')}</p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {sortedHotels.map(h => (
+              <HotelCard key={h.slug} hotel={h} locale={locale} />
+            ))}
+          </div>
+        </section>
+
+        {/* ── MAP — paired with hotel grid for visual context ── */}
+        <section>
+          <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">{tx(m, 'dest.kickerMap', 'Map')}</p>
+          <h2 className="font-display text-3xl sm:text-4xl mb-6">{fmt(tx(m, 'dest.mapTitle', 'Hotels in {dest}'), { dest: destProper })}</h2>
+          <Stay22MapWidget
+            location={destProper}
+            anchorHotelName={[...hotels].sort((a, b) => b.honeymoon_score - a.honeymoon_score)[0]?.name}
+            height={480}
+            locale={locale}
+          />
+        </section>
+
         {/* ── INTRO + QUICK FACTS ── */}
         {meta && (
           <section className="grid lg:grid-cols-[1fr_300px] gap-12 items-start">
@@ -326,33 +354,7 @@ export async function renderDestinationPage(country: string, locale: Locale) {
           </section>
         )}
 
-        {/* ── HOTEL GRID ── */}
-        <section id="hotels">
-          <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-8">
-            <div>
-              <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-2">{tx(m, 'dest.kickerAllHotels', 'All Hotels')}</p>
-              <h2 className="font-display text-3xl sm:text-4xl">{fmt(tx(m, 'dest.allHotelsTitle', 'Honeymoon Hotels in {dest}'), { dest: destProper })}</h2>
-            </div>
-            <p className="text-zinc-400 text-sm">{hotels.length} {tx(m, 'card.hotels', 'hotels')}</p>
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            {sortedHotels.map(h => (
-              <HotelCard key={h.slug} hotel={h} locale={locale} />
-            ))}
-          </div>
-        </section>
-
-        {/* ── MAP ── */}
-        <section>
-          <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">{tx(m, 'dest.kickerMap', 'Map')}</p>
-          <h2 className="font-display text-3xl sm:text-4xl mb-6">{fmt(tx(m, 'dest.mapTitle', 'Hotels in {dest}'), { dest: destProper })}</h2>
-          <Stay22MapWidget
-            location={destProper}
-            anchorHotelName={[...hotels].sort((a, b) => b.honeymoon_score - a.honeymoon_score)[0]?.name}
-            height={480}
-            locale={locale}
-          />
-        </section>
+        {/* Hotel grid + Map moved to the top, just after At-a-glance cards. */}
 
         {/* ── COMPARISON TABLE ── */}
         {topHotels.length >= 2 && (
