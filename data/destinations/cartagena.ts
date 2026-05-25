@@ -1,0 +1,86 @@
+import type { DestinationMeta } from '@/types/destination'
+
+const meta: DestinationMeta = {
+  hero: '/images/hotels/sofitel-legend-santa-clara-cartagena/hero.webp',
+  tagline: "Colombia's bougainvillea-draped walled city — colonial boutique hotels, Caribbean offshore islands, cumbia at sunset.",
+  intro: "Cartagena de Indias is the rarest thing in Caribbean honeymoons: a beach destination where the city itself, not the sand, is the headline. Founded in 1533 as Spain's gold-shipping fortress on the Colombian coast, the walled Centro Histórico is a UNESCO World Heritage maze of ochre and indigo facades, bougainvillea spilling over wooden balconies, horse-drawn carriages clattering across cobblestones, and palenquera women in tropical dresses balancing bowls of fruit on their heads. The boutique hotels here are restored 17th-century convents, merchant houses, and colonial mansions — Sofitel Legend Santa Clara was a Clarisse convent (the same one Gabriel García Márquez set Of Love and Other Demons in), Casa San Agustin spans three colonial homes around a colonnaded courtyard, Tcherassi Hotel is a Silvia Tcherassi fashion-house transformation. Caribbean beach access is offshore — the Rosario Islands are a 45-minute boat ride to clear water and white sand, leaving the city free to be itself: dinner at La Vitrola with live Cuban music, sunset cocktails at Café del Mar on the wall above the sea, salsa at Donde Fidel until the cumbia takes over. Couples come for the cultural density a beach resort cannot deliver, the photographs no Instagram filter improves, and the romance of a city built explicitly for love letters. Cartagena is the fastest-growing US honeymoon destination outside the traditional Caribbean for one reason: there is nothing else like it in the Americas under a six-hour flight from New York.",
+  bestTime: 'Dec-Apr (dry season, no rain) — Jan-Mar is the photographic peak',
+  flightFrom: '3.5h Miami / 5.5h NYC / 11h London via Madrid or Bogota — to Rafael Núñez (CTG)',
+  topExperience: 'Colonial Old Town Boutique Honeymoon',
+  perfectFor: [
+    'Culture-and-history honeymooners who want a destination, not just a beach',
+    'Short-flight Americas couples wanting Caribbean character without 10+ hour travel',
+    'Boutique-only luxury seekers who would never set foot in an all-inclusive',
+    'Salsa, cumbia, and Latin music lovers — Cartagena dances every night',
+    'Photographers, designers, and aesthetes — the walled city is endlessly shootable',
+  ],
+  skipIf: [
+    'You expect a pure beach resort with sand outside your room — Caribbean here is offshore',
+    'You want Costa Rica or Belize jungle and rainforest tropics — Cartagena is dry and urban',
+    'All-inclusive resort mindset — Cartagena is restaurants, bars, and walking-out culture',
+    'Mobility limits make cobblestones and uneven colonial floors genuinely difficult',
+    "You're looking for the big-resort scene with mega-pools and casino nightlife",
+  ],
+  experiences: [
+    { icon: '🌅', title: 'Old Town walking tour at sunset', description: 'Walk the Centro Histórico as the heat breaks and the golden hour lights up the ochre facades. Start at Plaza Santo Domingo, drift through Plaza San Diego and Plaza Fernández de Madrid, climb the walls (Las Murallas) at Café del Mar for the final sun-drop over the Caribbean.', cost: 'Free, $50-80 with private guide', tip: 'Do this on night one to map the Old Town. Go again on night three for the cocktails — Alquímico rooftop has the best wall view.' },
+    { icon: '⛵', title: 'Rosario Islands day trip', description: 'A 45-minute speedboat ride southwest to the coral archipelago of Islas del Rosario — clear turquoise water, white sand cays, and private day-club beaches like Bora Bora Beach Club or Isla del Encanto. Snorkel the protected marine park, lunch on grilled lobster, return by 5pm.', cost: '$150-300 per couple, private boat $600-1,200', tip: "Skip the cheap shared tours from Muelle de la Bodeguita — they're overcrowded. Book through your hotel or Blue Apple Beach for the small-group experience." },
+    { icon: '🍹', title: 'Café del Mar sundowner on the wall', description: 'The most famous sunset spot in Colombia — bar built into the colonial fortification wall itself, facing the Caribbean. Cumbia and chill-out music, mojitos, the sun dropping behind the sea. Arrive by 5:30pm for a wall-edge table.', cost: '$15-25 per cocktail', tip: 'They do not take reservations — show up early or accept the second row. The view from any seat on the wall is still extraordinary.' },
+    { icon: '🍫', title: 'ChocoMuseo bean-to-bar class', description: 'Colombia is a single-origin cacao producer; ChocoMuseo in the Old Town runs a two-hour class where couples roast, grind, and temper their own chocolate bars to take home. Hands-on, fun, and unexpectedly romantic.', cost: '$30-40 per person', tip: 'Book the 4pm class so you finish in time to walk to Café del Mar for sunset with your fresh chocolate.' },
+    { icon: '🌋', title: 'Volcán del Totumo mud bath', description: 'A 50-minute drive north to a 50-foot-tall mud volcano you can climb into and float in the warm, dense mineral mud. Local women wash you off in the lagoon below afterward. Genuinely strange and genuinely fun.', cost: '$40-60 with transport', tip: 'Wear a swimsuit you do not love — mud stains. Half-day morning trip is the move; afternoon heat is brutal.' },
+  ],
+  months: [
+    { month: 'Jan', weather: '88°F / 75°F, dry', emoji: '☀️', crowds: 'Peak', price: 'Highest', verdict: 'Photographic peak — bluest skies, no rain, peak holiday demand' },
+    { month: 'Feb', weather: '88°F / 75°F, dry', emoji: '☀️', crowds: 'Peak', price: 'Highest', verdict: 'Hay Festival in late Jan/early Feb pulls a literary crowd — book ahead' },
+    { month: 'Mar', weather: '89°F / 76°F, dry', emoji: '☀️', crowds: 'Very High', price: 'Highest', verdict: 'Hot, dry, and gorgeous — spring break US crowds in the Old Town' },
+    { month: 'Apr', weather: '89°F / 77°F, dry early', emoji: '☀️', crowds: 'High', price: 'High', verdict: 'Last clean dry month — Holy Week (Semana Santa) is busy and joyful' },
+    { month: 'May', weather: '88°F / 77°F, afternoon showers', emoji: '⛅', crowds: 'Medium', price: 'Mid', verdict: 'Wet season begins gently — mornings clear, brief afternoon rain' },
+    { month: 'Jun', weather: '88°F / 77°F, wet', emoji: '🌧️', crowds: 'Low', price: 'Mid', verdict: 'Real rainy season — value rates but pack for daily showers' },
+    { month: 'Jul', weather: '89°F / 78°F, wet', emoji: '🌧️', crowds: 'Medium', price: 'High', verdict: 'Brief Veranillo de San Juan dry window mid-month — popular with Colombians' },
+    { month: 'Aug', weather: '89°F / 78°F, wet', emoji: '🌧️', crowds: 'Medium', price: 'High', verdict: 'Hot, humid, festive — Independence Day on August 7 turns the city up' },
+    { month: 'Sep', weather: '88°F / 77°F, very wet', emoji: '🌧️', crowds: 'Low', price: 'Lowest', verdict: 'Wettest month — skip unless you love empty plazas and steep discounts' },
+    { month: 'Oct', weather: '88°F / 77°F, wet', emoji: '🌧️', crowds: 'Low', price: 'Lowest', verdict: 'Still wet, but rain comes in afternoon bursts — value is excellent' },
+    { month: 'Nov', weather: '88°F / 76°F, drying', emoji: '⛅', crowds: 'High', price: 'High', verdict: 'Independence of Cartagena Nov 11 — costumed parades, busiest local week' },
+    { month: 'Dec', weather: '88°F / 75°F, dry', emoji: '☀️', crowds: 'Peak', price: 'Highest', verdict: 'Dry season returns — Christmas and New Year sell out by September' },
+  ],
+  budgetTiers: [
+    { label: 'Premium', range: '$250-500/night', gets: 'Beautifully restored boutique hotels inside the walled city — colonial courtyards, plunge pools, dramatically better value than Caribbean island equivalents.', example: 'Hotel Bóvedas de Santa Clara or Casa Pestagua' },
+    { label: 'Luxury', range: '$500-1,200/night', gets: 'Iconic boutique heritage properties — restored 17th-century mansions, full spa, rooftop pools with Caribbean views, design-led.', example: 'Casa San Agustin or Tcherassi Hotel + Spa' },
+    { label: 'Ultra-Luxury', range: '$1,200+/night', gets: 'Cartagena\'s grandes dames — restored convents, presidential suites, the rooms heads of state book. Still much cheaper than St. Barts or Anguilla equivalents.', example: 'Sofitel Legend Santa Clara or Casa San Agustin Master Suite' },
+  ],
+  areas: [
+    { name: 'Centro Histórico', bestFor: 'Where every honeymooner should stay — colonial boutique hotels inside the walls', description: 'The UNESCO walled Old Town — a maze of colonial mansions, plazas, churches, and bougainvillea-covered balconies. Every boutique hotel of note is here. Walkable, magical, photographer\'s dream.' },
+    { name: 'Getsemaní', bestFor: 'Hipster-adjacent, street art, younger crowd, cheaper restaurants', description: 'Just outside the walls — formerly working-class, now Cartagena\'s hippest neighborhood. Plaza Trinidad fills at night, street murals everywhere, salsa bars and craft cocktails. Great for an evening walk-over from the Old Town.' },
+    { name: 'Bocagrande', bestFor: 'Beach access if you must, big-hotel scene', description: 'A Miami-style high-rise peninsula 10 minutes from the Old Town, with the city\'s main beach. Honeymooners generally avoid it — the beach is mediocre, the architecture is generic. Stay here only for a specific big-hotel brand.' },
+    { name: 'Rosario Islands', bestFor: 'Offshore beach overnight or day trip', description: '45 minutes by boat into the Caribbean — coral cays with clear water and white sand. A few boutique island hotels (Blue Apple Beach, Casa Lola) allow a 2-night beach interlude before returning to the Old Town. Most honeymooners do this as a day trip only.' },
+  ],
+  expertTips: [
+    { tip: 'Stay INSIDE the walled city — never Bocagrande', detail: 'The entire reason to come to Cartagena is the Centro Histórico atmosphere. Bocagrande high-rises are 10 minutes away by taxi and feel like generic Miami — you lose the magic. Pay the boutique premium for an Old Town hotel.' },
+    { tip: 'Visa-free 90 days for most nationalities', detail: 'US, EU, UK, Canada, Australia, and most Latin American passports get 90 days visa-free on arrival. Just need 6 months passport validity and proof of onward travel.' },
+    { tip: 'Tap water is filtered in good hotels — fine to drink', detail: 'All Old Town boutique hotels filter their water; bottled is provided regardless. Street stalls and roadside food are generally safe in the Old Town, less so in the periphery.' },
+    { tip: 'Spanish helps but English is widespread in the Old Town', detail: 'Tourism is Cartagena\'s industry; staff at boutique hotels, top restaurants, and tour operators speak English. Learn buenas, gracias, and un mojito por favor — locals appreciate the effort enormously.' },
+    { tip: 'Uber works fluidly — taxis can be uneven', detail: 'Uber is legal-grey but ubiquitous in Cartagena and far easier than negotiating taxi fares. Use it for the airport transfer ($5-8 to the Old Town), Bocagrande beach runs, and night returns. Cash tip the driver $1-2.' },
+  ],
+  packing: [
+    { item: 'Comfortable cobble-friendly shoes', why: 'The Old Town is uneven 17th-century cobblestone. Heels are punishment — pack flat sandals or stylish sneakers for everything except the fanciest dinner.' },
+    { item: 'Light linen and breathable fabrics', why: 'Cartagena is hot and humid year-round (75-90°F, 80% humidity). Linen, cotton, and loose silhouettes are dramatically more comfortable than synthetics.' },
+    { item: 'Bug repellent', why: 'Mosquitoes are negligible in the Old Town but real on Rosario Islands and Volcán del Totumo. Bring DEET or picaridin for excursions; Zika risk has fallen but is still worth precaution for pregnant honeymooners.' },
+    { item: 'Spanish phrasebook or app', why: 'Outside hotel staff and top restaurants, Spanish is the default. Google Translate offline mode and a few key phrases unlock a much warmer trip.' },
+    { item: 'USD or COP cash for small purchases', why: 'Card acceptance is excellent in hotels and good restaurants, but street artisans, palenquera vendors, and small bars are cash-only. USD is widely accepted as backup.' },
+    { item: 'Light fan or scarf for indoor cooling', why: 'Restaurants and bars range from full AC to open-air. A small handheld fan helps for afternoon walks; a light scarf softens aggressive restaurant AC at dinner.' },
+  ],
+  guide: {
+    getting: 'Rafael Núñez International (CTG) is 15 minutes from the Old Town — direct flights from Miami (3.5h), New York JFK (5.5h), Atlanta, Fort Lauderdale, Toronto, and connections through Bogota for everywhere else. From Europe, route via Madrid (Iberia/Avianca) or Bogota. Uber from the airport to the Old Town is $5-8; pre-arranged hotel transfers $25-50.',
+    where: 'Inside the walled Centro Histórico, full stop. Sofitel Legend Santa Clara for the ultra-luxury convent experience, Casa San Agustin for the boutique-of-the-year title, Tcherassi for design-forward fashion-led elegance, Casa Pestagua for heritage romance, Bastion Luxury Hotel for adults-only intimacy, Bóvedas de Santa Clara for the best mid-luxury value.',
+    when: 'January through March is the photographic peak — bluest skies, zero rain, low humidity. December and April are also excellent. May through November is wet season (afternoon storms, not all-day rain) with much better rates — June-July and November have value windows worth considering.',
+  },
+  localFood: 'Cartagena cuisine is Afro-Caribbean-Spanish — coastal, coconut-heavy, and unapologetically flavorful. Sancocho (chunky chicken or fish stew with plantain and yuca) is the soul dish. Ceviche cartagenero uses shrimp, coconut milk, and lime. Posta cartagenera is slow-braised beef in tamarind-Coca-Cola sauce, deceptively delicious. Street food: arepa de huevo (deep-fried corn cake stuffed with egg), buñuelos, and the palenqueras\' fresh fruit bowls. Drinks: aguardiente (anise spirit, the national pour), limonada de coco (coconut lemonade — order one within an hour of arrival), and Colombian rum. Top tables: La Vitrola, Carmen, Celele, Alquímico.',
+  currency: 'Colombian Peso (COP) — USD widely accepted in tourist areas',
+  language: 'Spanish — English widespread in Old Town tourism',
+  timezone: 'COT (UTC-5) — same as US Eastern, no DST',
+  seo: {
+    title: 'Cartagena Honeymoon: 6 Old Town Boutique Hotels 2026',
+    description: '6 colonial walled-city boutique hotels ranked. Sofitel Legend Santa Clara, Casa San Agustin, Tcherassi. From $250/night. Dec-Apr dry season.',
+  },
+}
+
+export default meta

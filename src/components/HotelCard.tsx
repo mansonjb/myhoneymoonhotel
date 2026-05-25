@@ -87,6 +87,8 @@ const DEST_FALLBACK: Record<string, string> = {
   'provence':          'https://images.unsplash.com/photo-1583224944844-5b268c057b72?w=800&q=80',
   'cinque-terre':      'https://images.unsplash.com/photo-1559867587-26b7c3b94d5b?w=800&q=80',
   'mallorca':          'https://images.unsplash.com/photo-1543783207-ec64e4d95325?w=800&q=80',
+  'cartagena':         'https://images.unsplash.com/photo-1583531352515-8884af319dc7?w=800&q=80',
+  'saint-vincent-grenadines': 'https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=800&q=80',
 }
 
 const DEFAULT_FALLBACK = 'https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=800&q=80'

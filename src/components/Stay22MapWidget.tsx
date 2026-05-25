@@ -79,6 +79,8 @@ const MAP_LOCATION_OVERRIDE: Record<string, string> = {
   provence:          'Gordes, France',
   'cinque-terre':    'Monterosso al Mare, Italy',
   mallorca:          'Deia, Mallorca',
+  cartagena:         'Cartagena, Colombia',
+  'saint-vincent-grenadines': 'Mustique, Saint Vincent and the Grenadines',
 }
 
 function resolveMapLocation(input: string): string {
