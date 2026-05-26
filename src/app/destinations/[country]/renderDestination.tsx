@@ -184,7 +184,7 @@ export async function renderDestinationPage(country: string, locale: Locale) {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {sortedHotels.map(h => (
-              <HotelCard key={h.slug} hotel={h} locale={locale} />
+              <HotelCard key={h.slug} hotel={h} locale={locale} isEditorsPick={topHotels.includes(h)} />
             ))}
           </div>
         </section>

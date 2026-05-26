@@ -7,6 +7,7 @@ import HotelSchema from '@/components/HotelSchema'
 import Stay22MapWidget from '@/components/Stay22MapWidget'
 import FlightSearchWidget from '@/components/FlightSearchWidget'
 import HotelCard from '@/components/HotelCard'
+import PriceDropAlert from '@/components/PriceDropAlert'
 import CopyButton from '@/components/CopyButton'
 import StickyBookingBar from '@/components/StickyBookingBar'
 import HeroImage from '@/components/HeroImage'
@@ -254,6 +255,12 @@ export async function renderHotelPage(slug: string, locale: Locale) {
               hotelName={hotel.name}
               country={hotel.country}
               directBookingOnly={(hotel as { direct_booking_only?: boolean }).direct_booking_only ?? false}
+              locale={locale}
+            />
+            <PriceDropAlert
+              hotelSlug={hotel.slug}
+              hotelName={hotel.name}
+              currentPrice={hotel.price_per_night_usd.min}
               locale={locale}
             />
           </section>

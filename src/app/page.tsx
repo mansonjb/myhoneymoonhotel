@@ -206,7 +206,7 @@ export default async function HomePage() {
 
         {topHotels.length > 0 ? (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            {topHotels.map(hotel => <HotelCard key={hotel.slug} hotel={hotel} />)}
+            {topHotels.map(hotel => <HotelCard key={hotel.slug} hotel={hotel} isEditorsPick={true} />)}
           </div>
         ) : (
           <div className="text-center py-24 text-zinc-300">

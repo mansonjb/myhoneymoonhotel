@@ -81,6 +81,8 @@ const MAP_LOCATION_OVERRIDE: Record<string, string> = {
   mallorca:          'Deia, Mallorca',
   cartagena:         'Cartagena, Colombia',
   'saint-vincent-grenadines': 'Mustique, Saint Vincent and the Grenadines',
+  'dominican-republic': 'Punta Cana, Dominican Republic',
+  'faroe-islands':   'Tórshavn, Faroe Islands',
 }
 
 function resolveMapLocation(input: string): string {

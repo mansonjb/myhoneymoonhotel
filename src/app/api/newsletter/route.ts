@@ -7,12 +7,23 @@ import { NextResponse } from 'next/server'
  */
 export async function POST(req: Request) {
   try {
-    const { email } = await req.json() as { email?: string }
+    const body = await req.json() as {
+      email?: string
+      source?: string
+      hotelSlug?: string
+      hotelName?: string
+      currentPrice?: number
+    }
+    const { email, source, hotelSlug, hotelName, currentPrice } = body
     if (!email || !email.includes('@')) {
       return NextResponse.json({ ok: false, error: 'invalid_email' }, { status: 400 })
     }
     // TODO: forward to your ESP. For now, log so Vercel captures it.
-    console.log(`[newsletter] new subscriber: ${email} at ${new Date().toISOString()}`)
+    if (source === 'price-drop') {
+      console.log(`[newsletter] price-drop alert: ${email} for ${hotelSlug} (${hotelName}) @ $${currentPrice} at ${new Date().toISOString()}`)
+    } else {
+      console.log(`[newsletter] new subscriber: ${email} at ${new Date().toISOString()}`)
+    }
     return NextResponse.json({ ok: true })
   } catch {
     return NextResponse.json({ ok: false }, { status: 500 })

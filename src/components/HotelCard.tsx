@@ -1,12 +1,13 @@
 'use client'
 import Image from 'next/image'
 import Link from 'next/link'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Hotel } from '../../types/hotel'
 import type { Locale } from '@/i18n/locales'
 import en from '@/i18n/messages/en.json'
 import es from '@/i18n/messages/es.json'
 import pt from '@/i18n/messages/pt.json'
+import { isSavedHotel, toggleSavedHotel } from '@/lib/savedHotels'
 
 const DICT: Record<Locale, Record<string, string>> = {
   en: en as Record<string, string>,
@@ -89,6 +90,8 @@ const DEST_FALLBACK: Record<string, string> = {
   'mallorca':          'https://images.unsplash.com/photo-1543783207-ec64e4d95325?w=800&q=80',
   'cartagena':         'https://images.unsplash.com/photo-1583531352515-8884af319dc7?w=800&q=80',
   'saint-vincent-grenadines': 'https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=800&q=80',
+  'dominican-republic': 'https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=800&q=80',
+  'faroe-islands':     'https://images.unsplash.com/photo-1583255448585-3e2d6b50e63b?w=800&q=80',
 }
 
 const DEFAULT_FALLBACK = 'https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=800&q=80'
@@ -96,13 +99,44 @@ const DEFAULT_FALLBACK = 'https://images.unsplash.com/photo-1571003123894-1f0594
 interface HotelCardProps {
   hotel: Hotel
   locale?: Locale
+  isEditorsPick?: boolean
 }
 
-export default function HotelCard({ hotel, locale = 'en' }: HotelCardProps) {
+function editorsPickLabel(locale: Locale): string {
+  if (locale === 'es') return 'Selección Editor'
+  if (locale === 'pt') return 'Escolha do Editor'
+  return "Editor's Pick"
+}
+
+function saveTooltip(locale: Locale, saved: boolean): string {
+  if (locale === 'es') return saved ? 'Guardado' : 'Guardar para después'
+  if (locale === 'pt') return saved ? 'Guardado' : 'Guardar para depois'
+  return saved ? 'Saved' : 'Save for later'
+}
+
+export default function HotelCard({ hotel, locale = 'en', isEditorsPick = false }: HotelCardProps) {
   const heroPhoto = hotel.photos.find(p => p.type === 'hero') || hotel.photos[0]
   const fallbackSrc = DEST_FALLBACK[hotel.destination] ?? DEFAULT_FALLBACK
   const [imgSrc, setImgSrc] = useState(heroPhoto?.url ?? fallbackSrc)
+  const [saved, setSaved] = useState(false)
+  const [pulse, setPulse] = useState(false)
   const href = locale === 'en' ? `/hotels/${hotel.slug}` : `/${locale}/hotels/${hotel.slug}`
+
+  useEffect(() => {
+    setSaved(isSavedHotel(hotel.slug))
+    const onChange = () => setSaved(isSavedHotel(hotel.slug))
+    window.addEventListener('mhh:saved-hotels-changed', onChange)
+    return () => window.removeEventListener('mhh:saved-hotels-changed', onChange)
+  }, [hotel.slug])
+
+  function handleToggleSave(e: React.MouseEvent) {
+    e.preventDefault()
+    e.stopPropagation()
+    const next = toggleSavedHotel(hotel.slug)
+    setSaved(next)
+    setPulse(true)
+    setTimeout(() => setPulse(false), 250)
+  }
 
   return (
     <Link href={href} className="group block">
@@ -124,17 +158,43 @@ export default function HotelCard({ hotel, locale = 'en' }: HotelCardProps) {
           </div>
         )}
 
-        {/* Overlay — only top right score */}
-        <div className="absolute top-3 right-3 bg-black/50 backdrop-blur-sm text-white text-xs font-semibold px-2.5 py-1.5 rounded-xl tabular-nums">
-          {hotel.honeymoon_score}<span className="text-white/50 font-normal">/100</span>
+        {/* Top right: heart + score stacked */}
+        <div className="absolute top-3 right-3 flex flex-col items-end gap-2">
+          <button
+            type="button"
+            onClick={handleToggleSave}
+            aria-label={saveTooltip(locale, saved)}
+            title={saveTooltip(locale, saved)}
+            className={`w-9 h-9 rounded-full bg-white/85 backdrop-blur-sm flex items-center justify-center shadow-sm hover:bg-white transition-all ${pulse ? 'scale-125' : 'scale-100'}`}
+          >
+            {saved ? (
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="#f43f5e" stroke="#f43f5e" strokeWidth="1.5" aria-hidden>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 21s-7-4.35-9.5-8.5C.9 9.85 2.5 6 6 6c2 0 3.5 1 4 2.5C10.5 7 12 6 14 6c3.5 0 5.1 3.85 3.5 6.5C19 16.65 12 21 12 21z" />
+              </svg>
+            ) : (
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#3f3f46" strokeWidth="1.8" aria-hidden>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 21s-7-4.35-9.5-8.5C.9 9.85 2.5 6 6 6c2 0 3.5 1 4 2.5C10.5 7 12 6 14 6c3.5 0 5.1 3.85 3.5 6.5C19 16.65 12 21 12 21z" />
+              </svg>
+            )}
+          </button>
+          <div className="bg-black/50 backdrop-blur-sm text-white text-xs font-semibold px-2.5 py-1.5 rounded-xl tabular-nums">
+            {hotel.honeymoon_score}<span className="text-white/50 font-normal">/100</span>
+          </div>
         </div>
 
-        {/* Adults-only pill — top left, only if true */}
-        {hotel.adults_only && (
-          <div className="absolute top-3 left-3 bg-black/50 backdrop-blur-sm text-white text-[11px] font-medium px-2.5 py-1.5 rounded-xl">
-            {tx(locale, 'card.adultsOnly', 'Adults-Only')}
-          </div>
-        )}
+        {/* Top left: Adults-only + Editor's Pick stacked */}
+        <div className="absolute top-3 left-3 flex flex-col items-start gap-1.5">
+          {hotel.adults_only && (
+            <div className="bg-black/50 backdrop-blur-sm text-white text-[11px] font-medium px-2.5 py-1.5 rounded-xl">
+              {tx(locale, 'card.adultsOnly', 'Adults-Only')}
+            </div>
+          )}
+          {isEditorsPick && (
+            <div className="bg-rose-500 text-white text-[10px] font-semibold px-2 py-1 rounded-lg shadow-sm tracking-wide">
+              ★ {editorsPickLabel(locale)}
+            </div>
+          )}
+        </div>
       </div>
 
       {/* Text */}
