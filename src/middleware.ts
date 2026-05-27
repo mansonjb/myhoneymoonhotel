@@ -10,7 +10,7 @@ import { NextRequest, NextResponse } from 'next/server'
  *      preserve SEO indexability of every locale's URL set.
  */
 
-const SUPPORTED = ['es', 'pt'] as const
+const SUPPORTED = ['es', 'pt', 'fr'] as const
 type Locale = typeof SUPPORTED[number]
 
 // Match common search-engine + social crawlers — they MUST see content as-is
@@ -26,7 +26,7 @@ function pickLocaleFromAcceptLang(header: string | null): Locale | null {
   }).filter(p => p.tag).sort((a, b) => b.q - a.q)
   for (const { tag } of parts) {
     const primary = tag.split('-')[0] // pt-BR → pt
-    if (primary === 'es' || primary === 'pt') return primary as Locale
+    if (primary === 'es' || primary === 'pt' || primary === 'fr') return primary as Locale
   }
   return null
 }

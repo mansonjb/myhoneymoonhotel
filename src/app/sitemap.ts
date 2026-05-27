@@ -5,8 +5,8 @@ import { getAllHotelComparisonSlugs } from '../../data/hotel-comparisons'
 
 const SITE_URL = 'https://myhoneymoonhotel.com'
 
-// Locales that have a fully-rendered tree alongside English. Spanish + Portuguese live.
-const LIVE_LOCALES = ['es', 'pt'] as const
+// Locales that have a fully-rendered tree alongside English. Spanish + Portuguese + French live.
+const LIVE_LOCALES = ['es', 'pt', 'fr'] as const
 
 interface PathEntry {
   path: string

@@ -2,16 +2,18 @@ import 'server-only'
 import en from './messages/en.json'
 import esRaw from './messages/es.json'
 import ptRaw from './messages/pt.json'
+import frRaw from './messages/fr.json'
 import type { Locale } from './locales'
 
 export type Messages = typeof en
 export type MessageKey = keyof Messages
 
-// es/pt start as partial overlays — fall back to English for missing keys.
+// es/pt/fr start as partial overlays — fall back to English for missing keys.
 const es = esRaw as Partial<Messages>
 const pt = ptRaw as Partial<Messages>
+const fr = frRaw as Partial<Messages>
 
-const dict: Record<Locale, Partial<Messages>> = { en, es, pt }
+const dict: Record<Locale, Partial<Messages>> = { en, es, pt, fr }
 
 export function getMessages(locale: Locale): Messages {
   // Merge English defaults with locale overrides so the returned object always

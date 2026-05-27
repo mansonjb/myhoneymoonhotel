@@ -5,7 +5,7 @@ interface FlightSearchWidgetProps {
   /** Optional destination label shown in the heading + prefilled in search (e.g. "Maldives") */
   destination?: string
   /** Locale of the host page — passed to Travelpayouts widget */
-  locale?: 'en' | 'es' | 'pt'
+  locale?: 'en' | 'es' | 'pt' | 'fr'
   /** Compact variant for sidebars (smaller heading, less padding) */
   compact?: boolean
 }

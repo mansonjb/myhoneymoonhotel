@@ -31,7 +31,7 @@ const MONTH_COLORS: Record<string, string> = {
 
 // Per-slug SEO fallbacks for experience types that have NO detailed data file.
 // Keyed by [slug][locale]. Used when getLocalizedExperience returns null.
-const EXPERIENCE_SEO_FALLBACK: Record<string, Record<Locale, { title: string; description: string }>> = {
+const EXPERIENCE_SEO_FALLBACK: Record<string, Partial<Record<Locale, { title: string; description: string }>>> = {
   romantic: {
     en: { title: 'Romantic Honeymoon Hotels: 45+ Scored Picks (2026)', description: 'Most romantic honeymoon hotels worldwide — 45 properties scored on privacy, design, dining, and that just-us feeling. From $380 to $4,500 a night.' },
     es: { title: 'Hoteles Románticos Luna de Miel: 45+ Selecciones 2026', description: 'Los hoteles más románticos del mundo para luna de miel: 45 propiedades evaluadas en privacidad, diseño y romance. Desde 380 $ a 4.500 $ la noche.' },

@@ -9,11 +9,13 @@ const HeaderSearch = dynamic(() => import('./HeaderSearch'), { ssr: false })
 import en from '@/i18n/messages/en.json'
 import es from '@/i18n/messages/es.json'
 import pt from '@/i18n/messages/pt.json'
+import fr from '@/i18n/messages/fr.json'
 
 const DICT: Record<Locale, Record<string, string>> = {
   en: en as Record<string, string>,
   es: es as Record<string, string>,
   pt: pt as Record<string, string>,
+  fr: fr as Record<string, string>,
 }
 function tx(loc: Locale, key: string, fb: string): string {
   const v = DICT[loc]?.[key] ?? DICT.en[key]

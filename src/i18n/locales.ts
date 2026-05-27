@@ -1,4 +1,4 @@
-export const LOCALES = ['en', 'es', 'pt'] as const
+export const LOCALES = ['en', 'es', 'pt', 'fr'] as const
 export type Locale = typeof LOCALES[number]
 export const DEFAULT_LOCALE: Locale = 'en'
 
@@ -11,6 +11,7 @@ export const HTML_LANG: Record<Locale, string> = {
   en: 'en',
   es: 'es',
   pt: 'pt-BR',
+  fr: 'fr',
 }
 
 // Pretty label for locale switcher
@@ -18,4 +19,5 @@ export const LOCALE_LABEL: Record<Locale, string> = {
   en: 'English',
   es: 'Español',
   pt: 'Português',
+  fr: 'Français',
 }

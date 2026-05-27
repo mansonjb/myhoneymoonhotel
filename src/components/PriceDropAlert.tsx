@@ -6,7 +6,7 @@ interface PriceDropAlertProps {
   hotelSlug: string
   hotelName: string
   currentPrice: number
-  locale: 'en' | 'es' | 'pt'
+  locale: 'en' | 'es' | 'pt' | 'fr'
 }
 
 type Status = 'idle' | 'loading' | 'success' | 'error'
@@ -41,6 +41,16 @@ const COPY = {
     success: '✓ Avisaremos por email. Alerta média: 3 semanas.',
     error: 'Não foi possível inscrever — tente novamente.',
     label: 'Email para alertas de redução de preço',
+  },
+  fr: {
+    title: (name: string) => `Suivre ${name}`,
+    sub: 'Nous vous avertirons en cas de baisse de prix.',
+    placeholder: 'votre@email.com',
+    cta: 'Activer l\'alerte →',
+    footer: 'Moyenne : 3 semaines · Gratuit · Désabonnement à tout moment',
+    success: '✓ Nous vous écrirons. Délai moyen : 3 semaines.',
+    error: 'Échec de l\'inscription — veuillez réessayer.',
+    label: 'E-mail pour les alertes de baisse de prix',
   },
 } as const
 

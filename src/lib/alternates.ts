@@ -38,7 +38,7 @@ export function buildAlternates(
   // availableLocales is provided, restrict alternates to that set (plus en,
   // which is always the canonical default). This prevents Google from seeing
   // broken hreflang promises (which trigger 404s + canonical mismatch reports).
-  const defaultLive: Locale[] = ['en', 'es', 'pt']
+  const defaultLive: Locale[] = ['en', 'es', 'pt', 'fr']
   const liveLocales: Locale[] = availableLocales
     ? defaultLive.filter(l => l === DEFAULT_LOCALE || availableLocales.includes(l))
     : defaultLive

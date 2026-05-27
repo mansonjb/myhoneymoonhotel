@@ -9,7 +9,7 @@ interface Props {
   slug: string
   destination: string
   country: string
-  locale?: 'en' | 'es' | 'pt'
+  locale?: 'en' | 'es' | 'pt' | 'fr'
   scoreLabel?: string
   fromLabel?: string
   perNightLabel?: string

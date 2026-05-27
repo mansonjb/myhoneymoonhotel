@@ -9,7 +9,7 @@ interface Stay22MapWidgetProps {
   height?: number
   directBookingOnly?: boolean // when true (ultra-luxury lodges not on OTAs): center map on destination,
                               // hide OTA grid, show "Book direct" notice instead.
-  locale?: 'en' | 'es' | 'pt' // localizes the embedded map UI + Allez deep-links.
+  locale?: 'en' | 'es' | 'pt' | 'fr' // localizes the embedded map UI + Allez deep-links.
 }
 
 /**

@@ -11,8 +11,8 @@
 export const STAY22_AID = process.env.NEXT_PUBLIC_STAY22_PARTNER_ID || 'myhoneymoonhotel'
 
 // Map our internal locale → Stay22 BCP-47 lang param. Brazilian PT rolls up to 'pt'.
-type StayLocale = 'en' | 'es' | 'pt'
-const STAY22_LANG: Record<StayLocale, string> = { en: 'en', es: 'es', pt: 'pt' }
+type StayLocale = 'en' | 'es' | 'pt' | 'fr'
+const STAY22_LANG: Record<StayLocale, string> = { en: 'en', es: 'es', pt: 'pt', fr: 'fr' }
 
 /** Direct deep-link for a specific hotel. Opens the exact hotel page on the best OTA. */
 export function buildAllezHotelLink(
