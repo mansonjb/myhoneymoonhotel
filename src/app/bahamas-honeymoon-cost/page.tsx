@@ -674,7 +674,7 @@ export default function BahamasHoneymoonCostPage() {
         <p className="text-zinc-700 text-base leading-relaxed mt-10">
           The all-inclusive math is the highest-leverage tip on this list for couples wavering between
           Atlantis Cove and Sandals. See our deep-dive on the{' '}
-          <Link href="/experiences/all-inclusive" className="text-rose-500 hover:text-rose-600 underline underline-offset-2">
+          <Link href="/best/honeymoon-resorts-2026" className="text-rose-500 hover:text-rose-600 underline underline-offset-2">
             all-inclusive resort experience
           </Link>{' '}
           for the full breakdown — and the case against AI on Harbour Island and Nassau.

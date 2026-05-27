@@ -675,7 +675,7 @@ export default function TurksAndCaicosHoneymoonCostPage() {
         <p className="text-zinc-700 text-base leading-relaxed mt-10">
           The skip-the-AI math is the highest-leverage tip on this list for couples wavering between
           Beaches and a 5★ Grace Bay product. See our deep-dive on the{' '}
-          <Link href="/experiences/all-inclusive" className="text-rose-500 hover:text-rose-600 underline underline-offset-2">
+          <Link href="/best/honeymoon-resorts-2026" className="text-rose-500 hover:text-rose-600 underline underline-offset-2">
             all-inclusive resort experience
           </Link>{' '}
           for the full breakdown — including the case against AI on Grace Bay specifically.

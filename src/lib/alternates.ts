@@ -24,6 +24,7 @@ const SITE_URL = 'https://myhoneymoonhotel.com'
 export function buildAlternates(
   logicalPath: string,
   locale: Locale = DEFAULT_LOCALE,
+  availableLocales?: Locale[],
 ): { canonical: string; languages: Record<string, string> } {
   const cleanPath = logicalPath.startsWith('/') ? logicalPath : `/${logicalPath}`
   const root = cleanPath === '/' ? '' : cleanPath
@@ -33,7 +34,14 @@ export function buildAlternates(
   const languages: Record<string, string> = {}
   // Use BCP-47 codes from HTML_LANG so hreflang matches the <html lang> attribute
   // (en, es, pt-BR). Without this, Google warns about "language code mismatch".
-  const liveLocales: Locale[] = ['en', 'es', 'pt']
+  // Only advertise hreflang for locales where the page actually renders. When
+  // availableLocales is provided, restrict alternates to that set (plus en,
+  // which is always the canonical default). This prevents Google from seeing
+  // broken hreflang promises (which trigger 404s + canonical mismatch reports).
+  const defaultLive: Locale[] = ['en', 'es', 'pt']
+  const liveLocales: Locale[] = availableLocales
+    ? defaultLive.filter(l => l === DEFAULT_LOCALE || availableLocales.includes(l))
+    : defaultLive
   for (const loc of LOCALES) {
     if (!liveLocales.includes(loc)) continue
     languages[HTML_LANG[loc]] = buildUrl(loc)

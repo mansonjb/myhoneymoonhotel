@@ -1,4 +1,6 @@
 import type { Metadata } from 'next'
+import * as fs from 'fs'
+import * as path from 'path'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { getAllHotels, getRelatedHotels } from '@/lib/hotels'
@@ -18,6 +20,19 @@ import { buildAlternates, localizedPath } from '@/lib/alternates'
 import type { Locale } from '@/i18n/locales'
 
 const SITE_URL = 'https://myhoneymoonhotel.com'
+
+// Determine which locale overlays exist for a given hotel slug. We only
+// advertise hreflang alternates for locales where the page actually renders
+// (the ES/PT routes have dynamicParams=false + generateStaticParams filtered
+// to overlay-available slugs, so promising a missing locale yields a 404).
+function getAvailableHotelLocales(slug: string): Locale[] {
+  const available: Locale[] = ['en']
+  for (const loc of ['es', 'pt'] as const) {
+    const p = path.join(process.cwd(), 'data', 'i18n', loc, 'hotels', `${slug}.json`)
+    if (fs.existsSync(p)) available.push(loc)
+  }
+  return available
+}
 
 function tx(messages: Messages, key: string, fallback: string): string {
   const v = (messages as unknown as Record<string, unknown>)[key]
@@ -42,7 +57,7 @@ export async function buildHotelMetadata(slug: string, locale: Locale): Promise<
   return {
     title,
     description,
-    alternates: buildAlternates(`/hotels/${hotel.slug}`, locale),
+    alternates: buildAlternates(`/hotels/${hotel.slug}`, locale, getAvailableHotelLocales(hotel.slug)),
     openGraph: {
       title,
       description,

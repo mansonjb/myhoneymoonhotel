@@ -755,8 +755,8 @@ export default function CapeVerdeHoneymoonCostPage() {
 
         <p className="text-zinc-700 text-base leading-relaxed mt-8">
           Dive deeper into the alternatives:{' '}
-          <Link href="/destinations/canary-islands" className="text-rose-500 hover:text-rose-600 underline underline-offset-2">
-            Canary Islands
+          <Link href="/destinations/madeira" className="text-rose-500 hover:text-rose-600 underline underline-offset-2">
+            Madeira
           </Link>
           ,{' '}
           <Link href="/destinations/zanzibar" className="text-rose-500 hover:text-rose-600 underline underline-offset-2">

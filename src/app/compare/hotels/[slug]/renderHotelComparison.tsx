@@ -1,8 +1,10 @@
 import type { Metadata } from 'next'
+import * as fs from 'fs'
+import * as path from 'path'
 import Image from 'next/image'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
-import { HOTEL_COMPARISONS } from '@/../data/hotel-comparisons'
+import { HOTEL_COMPARISONS, getHotelComparisonBySlug } from '@/../data/hotel-comparisons'
 import { getHotelComparison } from '@/lib/getHotelComparison'
 import { getMessages, type Messages } from '@/i18n/getMessages'
 import { buildAlternates, localizedPath } from '@/lib/alternates'
@@ -10,6 +12,22 @@ import type { Locale } from '@/i18n/locales'
 import type { Hotel } from '@/../types/hotel'
 
 const SITE_URL = 'https://myhoneymoonhotel.com'
+
+// Which locale overlays exist for a hotel-comparison pair? A locale version
+// only ships when BOTH hotels in the pair have an overlay (otherwise the
+// page renders English content under /es/ or /pt/, triggering Google
+// "Duplicate, Google chose different canonical").
+function getAvailableHotelComparisonLocales(slug: string): Locale[] {
+  const available: Locale[] = ['en']
+  const pair = getHotelComparisonBySlug(slug)
+  if (!pair) return available
+  for (const loc of ['es', 'pt'] as const) {
+    const aP = path.join(process.cwd(), 'data', 'i18n', loc, 'hotels', `${pair.a}.json`)
+    const bP = path.join(process.cwd(), 'data', 'i18n', loc, 'hotels', `${pair.b}.json`)
+    if (fs.existsSync(aP) && fs.existsSync(bP)) available.push(loc)
+  }
+  return available
+}
 
 function tx(messages: Messages, key: string, fallback: string): string {
   const v = (messages as unknown as Record<string, unknown>)[key]
@@ -285,7 +303,7 @@ export async function buildHotelComparisonMetadata(slug: string, locale: Locale)
     title,
     description,
     openGraph: { title, description, type: 'article' },
-    alternates: buildAlternates(`/compare/hotels/${slug}`, locale),
+    alternates: buildAlternates(`/compare/hotels/${slug}`, locale, getAvailableHotelComparisonLocales(slug)),
   }
 }
 
