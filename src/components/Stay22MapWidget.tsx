@@ -1,3 +1,5 @@
+'use client'
+import { useMemo, useState } from 'react'
 import { buildAllezHotelLink, buildProviderUrls, buildStay22MapSrc } from '@/lib/stay22'
 
 interface Stay22MapWidgetProps {
@@ -63,7 +65,7 @@ const MAP_LOCATION_OVERRIDE: Record<string, string> = {
   sicily:            'Taormina, Italy',
   jamaica:           'Montego Bay, Jamaica',
   anguilla:          'Meads Bay, Anguilla',
-  antigua:           'St John\'s, Antigua',
+  antigua:           "St John's, Antigua",
   bahamas:           'Nassau, Bahamas',
   barbados:          'Holetown, Barbados',
   aruba:             'Palm Beach, Aruba',
@@ -90,6 +92,42 @@ function resolveMapLocation(input: string): string {
   return MAP_LOCATION_OVERRIDE[key] ?? input
 }
 
+function isoDateOffset(days: number): string {
+  const d = new Date()
+  d.setDate(d.getDate() + days)
+  return d.toISOString().slice(0, 10)
+}
+
+const DATE_LABELS: Record<string, { checkin: string; checkout: string }> = {
+  en: { checkin: 'Check-in', checkout: 'Check-out' },
+  es: { checkin: 'Entrada', checkout: 'Salida' },
+  pt: { checkin: 'Entrada', checkout: 'Saída' },
+  fr: { checkin: 'Arrivée', checkout: 'Départ' },
+}
+
+const CTA_LABELS: Record<string, { primary: string; subtitle: string; orPick: string }> = {
+  en: {
+    primary: 'Compare 5 sites — usually $80–$200/night cheaper →',
+    subtitle: 'Stay22 checks Booking, Expedia, Hotels.com, Agoda, and TripAdvisor in one click. No extra fees.',
+    orPick: 'Or choose your platform',
+  },
+  es: {
+    primary: 'Compara 5 sitios — habitualmente $80–$200/noche más barato →',
+    subtitle: 'Stay22 revisa Booking, Expedia, Hotels.com, Agoda y TripAdvisor en un clic. Sin tarifas extra.',
+    orPick: 'O elige tu plataforma',
+  },
+  pt: {
+    primary: 'Compare 5 sites — geralmente $80–$200/noite mais barato →',
+    subtitle: 'Stay22 verifica Booking, Expedia, Hotels.com, Agoda e TripAdvisor com um clique. Sem taxas extras.',
+    orPick: 'Ou escolha sua plataforma',
+  },
+  fr: {
+    primary: 'Comparer 5 sites — généralement 80–200 $/nuit moins cher →',
+    subtitle: 'Stay22 vérifie Booking, Expedia, Hotels.com, Agoda et TripAdvisor en un clic. Sans frais supplémentaires.',
+    orPick: 'Ou choisissez votre plateforme',
+  },
+}
+
 export default function Stay22MapWidget({
   location,
   hotelName,
@@ -99,6 +137,9 @@ export default function Stay22MapWidget({
   directBookingOnly = false,
   locale = 'en',
 }: Stay22MapWidgetProps) {
+  const [checkin, setCheckin] = useState<string>(() => isoDateOffset(30))
+  const [checkout, setCheckout] = useState<string>(() => isoDateOffset(37))
+
   // Three priorities for the embed map's search query:
   // 1. Hotel page (hotelName provided + on OTAs) → exact hotel + location
   // 2. Destination page with a known top hotel (anchorHotelName) → center on that hotel,
@@ -112,15 +153,24 @@ export default function Stay22MapWidget({
   const src = buildStay22MapSrc(embedQuery, 'hotelpage', locale)
 
   // Smart primary CTA — Stay22 Allez Roam picks the best OTA automatically
-  const smartUrl = (hotelName && !directBookingOnly)
-    ? buildAllezHotelLink(hotelName, location, country, 'hotelpage-smart', locale)
-    : undefined
+  const smartUrl = useMemo(
+    () => (hotelName && !directBookingOnly)
+      ? buildAllezHotelLink(hotelName, location, country, 'hotelpage-smart', locale, checkin, checkout)
+      : undefined,
+    [hotelName, directBookingOnly, location, country, locale, checkin, checkout],
+  )
 
   // Per-provider direct URLs — lets the user choose their preferred OTA.
   // LetMeAllez intercepts every outbound click and adds affiliate tracking.
-  const providers = (hotelName && !directBookingOnly)
-    ? buildProviderUrls(hotelName, location.replace(/-/g, ' '), country.replace(/-/g, ' '))
-    : undefined
+  const providers = useMemo(
+    () => (hotelName && !directBookingOnly)
+      ? buildProviderUrls(hotelName, location.replace(/-/g, ' '), country.replace(/-/g, ' '), checkin, checkout)
+      : undefined,
+    [hotelName, directBookingOnly, location, country, checkin, checkout],
+  )
+
+  const dateLabels = DATE_LABELS[locale] ?? DATE_LABELS.en
+  const ctaLabels = CTA_LABELS[locale] ?? CTA_LABELS.en
 
   return (
     <div className="space-y-5">
@@ -148,6 +198,42 @@ export default function Stay22MapWidget({
 
       {hotelName && smartUrl && providers && (
         <div>
+          {/* Date pickers */}
+          <div className="grid grid-cols-2 gap-3 mb-4">
+            <label className="flex flex-col">
+              <span className="text-[11px] font-semibold uppercase tracking-wider text-rose-500 mb-1.5">
+                {dateLabels.checkin}
+              </span>
+              <input
+                type="date"
+                value={checkin}
+                min={isoDateOffset(0)}
+                onChange={e => {
+                  const v = e.target.value
+                  setCheckin(v)
+                  if (v >= checkout) {
+                    const d = new Date(v)
+                    d.setDate(d.getDate() + 7)
+                    setCheckout(d.toISOString().slice(0, 10))
+                  }
+                }}
+                className="border border-rose-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-rose-300 bg-white"
+              />
+            </label>
+            <label className="flex flex-col">
+              <span className="text-[11px] font-semibold uppercase tracking-wider text-rose-500 mb-1.5">
+                {dateLabels.checkout}
+              </span>
+              <input
+                type="date"
+                value={checkout}
+                min={checkin}
+                onChange={e => setCheckout(e.target.value)}
+                className="border border-rose-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-rose-300 bg-white"
+              />
+            </label>
+          </div>
+
           {/* Primary — smart best-price CTA */}
           <a
             href={smartUrl}
@@ -155,15 +241,15 @@ export default function Stay22MapWidget({
             rel="noopener noreferrer"
             className="block w-full bg-rose-500 hover:bg-rose-600 text-white font-semibold text-base px-6 py-4 rounded-full transition-colors text-center shadow-sm"
           >
-            ✨ Find the best price →
+            {ctaLabels.primary}
           </a>
           <p className="text-center text-xs text-zinc-400 mt-2 mb-5">
-            We compare {hotelName.split(' ').slice(0, 2).join(' ')} across partners and redirect to the cheapest option.
+            {ctaLabels.subtitle}
           </p>
 
           {/* Or pick a preferred platform */}
           <div className="text-center mb-3">
-            <span className="text-[11px] font-semibold uppercase tracking-widest text-zinc-400">Or choose your platform</span>
+            <span className="text-[11px] font-semibold uppercase tracking-widest text-zinc-400">{ctaLabels.orPick}</span>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-2.5">
             <ProviderButton href={providers.booking} label="Booking.com" accent="bg-[#003580]" />

@@ -21,6 +21,8 @@ export function buildAllezHotelLink(
   country: string,
   campaign = 'hotelpage',
   locale: StayLocale = 'en',
+  checkin?: string,
+  checkout?: string,
 ): string {
   const address = `${destination.replace(/-/g, ' ')} ${country.replace(/-/g, ' ')}`
   const params = new URLSearchParams({
@@ -30,6 +32,8 @@ export function buildAllezHotelLink(
     address,
     lang: STAY22_LANG[locale],
   })
+  if (checkin) params.set('checkin', checkin)
+  if (checkout) params.set('checkout', checkout)
   return `https://www.stay22.com/allez/roam?${params.toString()}`
 }
 
@@ -55,7 +59,13 @@ export function buildAllezDestLink(
  * clicks on these and rewrites them into affiliate-tracked redirects — commission tracked
  * on whichever provider the user chooses.
  */
-export function buildProviderUrls(hotelName: string, destinationLabel: string, countryLabel: string) {
+export function buildProviderUrls(
+  hotelName: string,
+  destinationLabel: string,
+  countryLabel: string,
+  checkin?: string,
+  checkout?: string,
+) {
   const locationQuery = `${destinationLabel} ${countryLabel}`.trim()
   const fullQuery = `${hotelName} ${locationQuery}`.trim()
 
@@ -69,6 +79,8 @@ export function buildProviderUrls(hotelName: string, destinationLabel: string, c
     search_selected: 'true',
     from_ss: '1',
   })
+  if (checkin) bookingParams.set('checkin', checkin)
+  if (checkout) bookingParams.set('checkout', checkout)
   const booking = `https://www.booking.com/searchresults.html?${bookingParams.toString()}`
 
   // Hotels.com — q-destination searches the catalog; exact name hits match the hotel
@@ -78,6 +90,8 @@ export function buildProviderUrls(hotelName: string, destinationLabel: string, c
     'q-room-0-adults': '2',
     'q-room-0-children': '0',
   })
+  if (checkin) hotelsComParams.set('q-check-in', checkin)
+  if (checkout) hotelsComParams.set('q-check-out', checkout)
   const hotelsCom = `https://www.hotels.com/Hotel-Search?${hotelsComParams.toString()}`
 
   // Expedia
@@ -85,15 +99,18 @@ export function buildProviderUrls(hotelName: string, destinationLabel: string, c
     destination: fullQuery,
     adults: '2',
   })
+  if (checkin) expediaParams.set('startDate', checkin)
+  if (checkout) expediaParams.set('endDate', checkout)
   const expedia = `https://www.expedia.com/Hotel-Search?${expediaParams.toString()}`
 
   // Agoda
   const agodaParams = new URLSearchParams({
     city: hotelName,
-    checkIn: '',
     los: '7',
     adults: '2',
   })
+  if (checkin) agodaParams.set('checkIn', checkin)
+  if (checkout) agodaParams.set('checkOut', checkout)
   const agoda = `https://www.agoda.com/search?${agodaParams.toString()}`
 
   // TripAdvisor

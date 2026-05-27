@@ -249,7 +249,9 @@ export default async function HomePage() {
         </div>
       </section>
 
-      <RecentlyViewedRail />
+      <div className="hidden md:block">
+        <RecentlyViewedRail />
+      </div>
 
       {/* ── WHY SECTION ── */}
       <section className="bg-zinc-950 text-white py-28">

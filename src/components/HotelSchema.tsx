@@ -2,6 +2,7 @@ import { Hotel } from '../../types/hotel'
 import type { Locale } from '@/i18n/locales'
 import { localizedUrl } from '@/lib/alternates'
 import { getMessages } from '@/i18n/getMessages'
+import { AUTHOR } from '@/data/author'
 
 interface HotelSchemaProps {
   hotel: Hotel
@@ -82,9 +83,10 @@ export default function HotelSchema({ hotel, locale = 'en' }: HotelSchemaProps) 
     headline: `${hotel.name} — Honeymoon Review`,
     about: { '@type': 'LodgingBusiness', name: hotel.name },
     author: {
-      '@type': 'Organization',
-      name: 'My Honeymoon Hotel',
-      url: 'https://myhoneymoonhotel.com/about',
+      '@type': 'Person',
+      name: AUTHOR.name,
+      url: AUTHOR.url,
+      jobTitle: AUTHOR.role,
     },
     publisher: {
       '@type': 'Organization',

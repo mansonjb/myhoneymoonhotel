@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildAlternates } from '@/lib/alternates'
+import { AUTHOR } from '@/data/author'
 
 export const metadata: Metadata = {
   title: 'About — The Honeymoon Hotel Guide',
@@ -24,14 +25,45 @@ const orgSchema = {
   ],
 }
 
+const personSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: AUTHOR.name,
+  jobTitle: AUTHOR.role,
+  url: AUTHOR.url,
+  description: AUTHOR.bio,
+  worksFor: {
+    '@type': 'Organization',
+    name: 'My Honeymoon Hotel',
+    url: 'https://myhoneymoonhotel.com',
+  },
+}
+
 export default function AboutPage() {
   return (
     <div className="max-w-3xl mx-auto px-6 py-20">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }} />
       <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">About</p>
       <h1 className="font-display text-4xl sm:text-5xl text-zinc-900 mb-8">
         The honeymoon guide we wished we had.
       </h1>
+
+      {/* MEET PIERRE */}
+      <section className="my-10 p-6 rounded-2xl bg-white border border-rose-100 shadow-sm">
+        <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-4">Meet Pierre</p>
+        <div className="flex items-start gap-5">
+          <div className="w-20 h-20 shrink-0 rounded-full bg-rose-100 flex items-center justify-center text-rose-600 text-2xl font-semibold">
+            {AUTHOR.avatarInitials}
+          </div>
+          <div className="text-sm text-zinc-700 leading-relaxed">
+            <div className="font-semibold text-zinc-900 text-base">{AUTHOR.name}</div>
+            <div className="text-zinc-500 text-xs uppercase tracking-[0.15em] mt-1">{AUTHOR.role}</div>
+            <p className="mt-3">{AUTHOR.bio}</p>
+            <p className="mt-3 text-zinc-500 text-xs italic">{AUTHOR.credentials}</p>
+          </div>
+        </div>
+      </section>
 
       {/* EDITORIAL TEAM CARD */}
       <section className="my-10 flex items-start gap-5 p-6 rounded-2xl bg-rose-50/60 border border-rose-100">

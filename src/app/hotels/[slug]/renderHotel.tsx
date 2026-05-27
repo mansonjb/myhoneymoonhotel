@@ -272,12 +272,14 @@ export async function renderHotelPage(slug: string, locale: Locale) {
               directBookingOnly={(hotel as { direct_booking_only?: boolean }).direct_booking_only ?? false}
               locale={locale}
             />
-            <PriceDropAlert
-              hotelSlug={hotel.slug}
-              hotelName={hotel.name}
-              currentPrice={hotel.price_per_night_usd.min}
-              locale={locale}
-            />
+            <div className="hidden md:block">
+              <PriceDropAlert
+                hotelSlug={hotel.slug}
+                hotelName={hotel.name}
+                currentPrice={hotel.price_per_night_usd.min}
+                locale={locale}
+              />
+            </div>
           </section>
 
           <FlightSearchWidget destination={destinationLabel} locale={locale} />
@@ -320,6 +322,15 @@ export async function renderHotelPage(slug: string, locale: Locale) {
           <section>
             <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">{tx(m, 'hotel.trueCostKicker', 'No Surprises')}</p>
             <h2 className="font-display text-3xl text-zinc-900 mb-2">{tx(m, 'hotel.trueCostTitle', 'True cost breakdown — 7 nights for two')}</h2>
+            <div className="text-xs text-zinc-500 italic mb-2">
+              {locale === 'es'
+                ? 'Estimado del gasto típico de una luna de miel de 7 noches — el desglose específico de cada propiedad llegará pronto.'
+                : locale === 'pt'
+                ? 'Estimado a partir do gasto típico de uma lua de mel de 7 noites — detalhamento específico do hotel em breve.'
+                : locale === 'fr'
+                ? 'Estimé à partir d\'une lune de miel typique de 7 nuits — détails spécifiques à la propriété à venir.'
+                : 'Estimated from typical 7-night honeymoon spend — full property-specific breakdown coming soon.'}
+            </div>
             <p className="text-zinc-400 text-sm mb-6">{tx(m, 'hotel.trueCostSub', 'Based on mid-range rooms, premium-economy flights from Europe, full dining and signature experiences. Adjust for your actual travel profile.')}</p>
             <div className="border border-zinc-100 rounded-2xl overflow-hidden">
               <table className="w-full text-sm">
