@@ -34,6 +34,8 @@ const MAP_LOCATION_OVERRIDE: Record<string, string> = {
   uae:               'Dubai, UAE',
   morocco:           'Marrakech, Morocco',
   sardegna:          'Olbia, Sardinia',
+  kerala:            'Alleppey, Kerala',
+  slovenia:          'Lake Bled, Slovenia',
   caribbean:         'Antigua, Caribbean',
   'french-polynesia':'Tahiti, French Polynesia',
   'rest of french polynesia': 'Moorea, French Polynesia',

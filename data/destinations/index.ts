@@ -81,6 +81,8 @@ import cartagena from './cartagena'
 import saintVincentGrenadines from './saint-vincent-grenadines'
 import dominicanRepublic from './dominican-republic'
 import faroeIslands from './faroe-islands'
+import kerala from './kerala'
+import slovenia from './slovenia'
 
 export const DESTINATION_META: Record<string, DestinationMeta> = {
   'bora-bora': boraBora,
@@ -165,4 +167,6 @@ export const DESTINATION_META: Record<string, DestinationMeta> = {
   'saint-vincent-grenadines': saintVincentGrenadines,
   'dominican-republic': dominicanRepublic,
   'faroe-islands': faroeIslands,
+  'kerala': kerala,
+  'slovenia': slovenia,
 }

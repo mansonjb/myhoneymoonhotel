@@ -1,0 +1,73 @@
+{
+  "slug": "hotel-cubo-ljubljana-slovenia",
+  "name": "Hotel Cubo, Ljubljana",
+  "destination": "slovenia",
+  "country": "slovenia",
+  "seo": {
+    "title": "Hotel Cubo Ljubljana: Design Boutique Honeymoon Review",
+    "description": "Hotel Cubo Ljubljana review. Design-led boutique steps from Plečnik\\'s Triple Bridge. Score 78/100, from $180/night. Honest 2026 verdict."
+  },
+  "experience_types": ["boutique"],
+  "honeymoon_score": 78,
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 15,
+    "spa": 5,
+    "award": 11,
+    "pool": 0,
+    "beach": 0,
+    "room_service": 6,
+    "stars": 8,
+    "luxury": 11
+  },
+  "stars": 4,
+  "price_per_night_usd": { "min": 180, "max": 400 },
+  "adults_only": false,
+  "amenities": [
+    "design",
+    "city-center",
+    "fine-dining",
+    "boutique",
+    "concierge",
+    "fitness-center",
+    "river-views"
+  ],
+  "photos": [
+    { "url": "/images/hotels/hotel-cubo-ljubljana-slovenia/hero.webp", "alt": "Hotel Cubo Ljubljana — hero", "type": "hero" },
+    { "url": "/images/hotels/hotel-cubo-ljubljana-slovenia/room.webp", "alt": "Hotel Cubo — room", "type": "room" },
+    { "url": "/images/hotels/hotel-cubo-ljubljana-slovenia/pool.webp", "alt": "Hotel Cubo — lobby", "type": "pool" },
+    { "url": "/images/hotels/hotel-cubo-ljubljana-slovenia/spa.webp", "alt": "Hotel Cubo — fitness", "type": "spa" },
+    { "url": "/images/hotels/hotel-cubo-ljubljana-slovenia/dining.webp", "alt": "Hotel Cubo — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 4.6,
+  "tripadvisor_award": true,
+  "couples_review_pct": 80,
+  "content": {
+    "verdict": "Hotel Cubo is the design-led boutique that Ljubljana needed — a 26-room hotel on a quiet corner two blocks from Plečnik\\'s Triple Bridge and the riverside cafés that define the city. The aesthetic is deliberate, restrained, and Scandinavian-influenced: dark wood, white linen, walnut accents, hand-thrown ceramic, and a quiet ground-floor restaurant (Cubo Restaurant) that has a faithful following among Ljubljana locals as well as guests. The location is the unbeatable advantage — you walk out the front door and within 90 seconds you are at the river, at the market, at Atelje (the best modern Slovenian tasting menu in the city), or at the funicular up to the castle. For a honeymoon couple this is the right Ljubljana base for 2 nights bookending a Bled stay. It is not the hotel for wellness or a pool day (there is no spa, no pool — this is a city hotel), and the rooms are sized for European city standards rather than American resort comfort. But for atmosphere, location, food, and the chance to do a proper European city honeymoon without staying at a Marriott, Cubo gets every detail right. Pair it with 3–4 nights at Bled and 1–2 in Bohinj or Jezersko for the full Slovenia.",
+    "best_room": "A Junior Suite — wider room, separate seating area, river-side view through narrow streets. For a slight splurge the Premium Suite adds a small terrace. Avoid the smallest standard rooms; while perfectly designed, they are tight for two with luggage.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival Ljubljana, riverside dinner", "description": "Drive from LJU airport (25 min). Check-in to Junior Suite. Walking sunset along the Ljubljanica river. Dinner at Atelje — modern Slovenian tasting menu." },
+      { "day": 2, "title": "Ljubljana day, castle and Plečnik", "description": "Morning walking tour of Plečnik\\'s architecture — Triple Bridge, National & University Library, market colonnade. Lunch at the market. Funicular up to Ljubljana Castle, sunset on the ramparts. Dinner at Strelec in the castle." },
+      { "day": 3, "title": "Drive to Bled", "description": "45-minute drive to Lake Bled. Check-in at Vila Bled. Pletna boat to Bled Island, 99 steps. Castle visit. Park Restaurant dinner." },
+      { "day": 4, "title": "Bled lake day", "description": "Vintgar Gorge early morning. Lake swim, lunch at Mlino. Afternoon walk around the lake. Kremšnita at Park Hotel. Dinner at Mayer." },
+      { "day": 5, "title": "Bohinj day trip", "description": "Drive 25 minutes to Lake Bohinj. Kayak the lake. Lunch in Stara Fužina. Vogel cable car. Return to Bled for dinner." },
+      { "day": 6, "title": "Soča Valley and Hiša Franko", "description": "Drive 90 minutes through the Soča Valley. Lunch at the emerald river. Dinner tasting menu at Hiša Franko. Overnight at Hiša Polonka." },
+      { "day": 7, "title": "Drive back, departure", "description": "Late breakfast. Drive 2 hours back to Ljubljana. Lunch in the old town. Taxi to LJU airport for the evening flight home." }
+    ],
+    "caveats": [
+      "No spa, pool, or fitness facilities beyond a small gym.",
+      "Standard rooms are tight for two with large luggage — book the Junior Suite up.",
+      "Some street noise from the corner location; ask for a quieter inner-courtyard room if light sleepers."
+    ],
+    "faqs": [
+      { "question": "Is Hotel Cubo really better than Vander Urbani Resort?", "answer": "Slightly more design-led; Vander has a small rooftop plunge pool. Both are valid Ljubljana boutique choices." },
+      { "question": "Where should we eat in Ljubljana?", "answer": "Atelje for the tasting-menu dinner, Strelec at the castle for sunset, the market for lunch, Ek bistro for the best riverside lunch, Vodnikova klet for traditional Slovenian." },
+      { "question": "How far is it from the airport?", "answer": "25 minutes by taxi (€30) or pre-booked shuttle (€15/person). Ljubljana is one of the smallest, friendliest European capitals — no airport stress." },
+      { "question": "Can we walk everywhere?", "answer": "Yes — Ljubljana centre is pedestrianised. Triple Bridge, market, castle funicular, all within 5 minutes on foot from Cubo." },
+      { "question": "Children?", "answer": "Allowed but rare — this is a city design hotel that suits couples and design travellers." },
+      { "question": "When is the best time?", "answer": "April through October. Summer is buzziest. December has lovely Christmas markets along the river. Avoid January–February as the city goes quiet." }
+    ],
+    "email_template": "Subject: Honeymoon booking — Hotel Cubo Ljubljana\n\nHello,\n\nWe would like to book 2 nights at Hotel Cubo to start our Slovenian honeymoon ([DATES]).\n\nCould you please confirm:\n1. Best available rate on a Junior Suite, quieter inner-courtyard room preferred\n2. Honeymoon turndown amenities\n3. Reservation at Cubo Restaurant for the first night\n4. Recommendation and reservation for Atelje and Strelec\n5. Pre-booked airport transfer from LJU\n\nThank you,\n[Your names]"
+  },
+  "last_updated": "2026-05-30T00:00:00.000Z"
+}
