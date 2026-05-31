@@ -87,6 +87,8 @@ const MAP_LOCATION_OVERRIDE: Record<string, string> = {
   'saint-vincent-grenadines': 'Mustique, Saint Vincent and the Grenadines',
   'dominican-republic': 'Punta Cana, Dominican Republic',
   'faroe-islands':   'Tórshavn, Faroe Islands',
+  ireland:           'Killarney, Ireland',
+  banff:             'Banff, Alberta, Canada',
 }
 
 function resolveMapLocation(input: string): string {

@@ -78,6 +78,7 @@ const DEST_META: Record<string, { region: string; country: string }> = {
   'lapland':    { region: 'Europe', country: 'Finland' },
   'turkey':     { region: 'Europe', country: 'Turkey' },
   'faroe-islands': { region: 'Europe', country: 'Faroe Islands' },
+  'ireland':    { region: 'Europe', country: 'Ireland' },
   // South America
   'argentina':  { region: 'South America', country: 'Argentina' },
   'patagonia-chile': { region: 'South America', country: 'Chile' },
@@ -88,6 +89,7 @@ const DEST_META: Record<string, { region: string; country: string }> = {
   // North America
   'hawaii':     { region: 'North America', country: 'USA — Hawaii' },
   'bermuda':    { region: 'North America', country: 'Bermuda' },
+  'banff':      { region: 'North America', country: 'Canada' },
   // Middle East
   'oman':    { region: 'Middle East', country: 'Oman' },
   'uae':     { region: 'Middle East', country: 'United Arab Emirates' },
