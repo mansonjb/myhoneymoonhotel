@@ -11,6 +11,7 @@ export const metadata: Metadata = {
 }
 
 const SISTER_SITE = 'https://hotelswithpets.com'
+const SISTER_GUIDE = 'https://hotelswithpets.com/guides/honeymoon-with-pet'
 
 const articleSchema = {
   '@context': 'https://schema.org',
@@ -108,9 +109,12 @@ export default function HoneymoonWithDogPage() {
             HotelsWithPets.com
           </a>{' '}
           maintains the most thorough database of tier-two and tier-three properties, with pet policies, fees, weight
-          limits, and on-the-ground notes for every entry. If you’re serious about a pet-inclusive honeymoon, that’s
-          the catalog to work from — it’s built by the same editorial team behind My Honeymoon Hotel, with the same
-          honest scoring approach.
+          limits, and on-the-ground notes for every entry. Their companion guide,{' '}
+          <a href={SISTER_GUIDE} target="_blank" rel="noopener">
+            Honeymoon with a pet
+          </a>
+          , covers the property side of the same question we tackle here from the destination side — it’s the catalog
+          to work from once you’ve picked the country.
         </p>
 
         <h2>Destinations that genuinely work</h2>
@@ -121,10 +125,10 @@ export default function HoneymoonWithDogPage() {
           trains carry them, and most luxury properties — from Domaine de la Baume to the smaller mas in the
           Luberon — treat them as guests rather than logistics. Pair with a rental car, a slow week of vineyards and
           marchés, and a sunset terrace in Gordes. Our{' '}
-          <Link href="/destinations/provence">Provence honeymoon guide</Link> covers the romantic angles; for the
-          property-by-property pet policies, see{' '}
-          <a href={`${SISTER_SITE}/destinations/provence`} target="_blank" rel="noopener">
-            HotelsWithPets.com&apos;s Provence list
+          <Link href="/destinations/provence">Provence honeymoon guide</Link> covers the romantic angles; the
+          property-by-property pet policies are covered in{' '}
+          <a href={SISTER_GUIDE} target="_blank" rel="noopener">
+            the HotelsWithPets honeymoon guide
           </a>
           .
         </p>
@@ -136,9 +140,10 @@ export default function HoneymoonWithDogPage() {
           Reschio: all three accept dogs, all three have grounds where the dog can be the dog. Add a Florence
           two-night opener and a Val d’Orcia drive between cypresses, and you have one of the easiest dog-honeymoons
           in Europe. See our{' '}
-          <Link href="/destinations/tuscany">Tuscany honeymoon guide</Link> and the corresponding{' '}
-          <a href={`${SISTER_SITE}/destinations/tuscany`} target="_blank" rel="noopener">
-            pet-friendly Tuscany picks
+          <Link href="/destinations/tuscany">Tuscany honeymoon guide</Link> for the romantic angle, paired with the
+          property-level pet research in the{' '}
+          <a href={SISTER_GUIDE} target="_blank" rel="noopener">
+            HotelsWithPets honeymoon guide
           </a>
           .
         </p>
@@ -158,37 +163,19 @@ export default function HoneymoonWithDogPage() {
           dogs sit on the terrace at breakfast, ride in the wine-tour SUV, and sleep on a real bed.
         </p>
 
-        <h2>What to read next on HotelsWithPets.com</h2>
+        <h2>The companion guide on HotelsWithPets.com</h2>
         <p>
-          For property-level detail — pet fees, weight limits, breed restrictions, off-leash zones, and which suite
-          the front-desk reserves for dogs — these are the most useful resources our sister site maintains:
+          Where this article covers the destination side — which countries, which cities, which logistics — our
+          sister publication covers the property side. If you have the destination locked and you need to know which
+          specific hotel will actually welcome your dog as a guest rather than as a logistics problem, the canonical
+          piece is{' '}
+          <a href={SISTER_GUIDE} target="_blank" rel="noopener">
+            <strong>Honeymoon with your pet</strong> on HotelsWithPets.com
+          </a>
+          . Same editorial team, same honest scoring approach, applied to pet policies, fees, weight limits,
+          off-leash zones, and the small details (in-room dog beds, restaurant terraces, vet on call) that decide
+          whether a honeymoon with a dog is restful or stressful.
         </p>
-        <ul>
-          <li>
-            <a href={`${SISTER_SITE}/the-50-best-luxury-dog-friendly-hotels`} target="_blank" rel="noopener">
-              The 50 best luxury dog-friendly hotels
-            </a>{' '}
-            — the editorial flagship list.
-          </li>
-          <li>
-            <a href={`${SISTER_SITE}/destinations/france`} target="_blank" rel="noopener">
-              Pet-friendly hotels in France
-            </a>{' '}
-            — by far the easiest country for a dog honeymoon.
-          </li>
-          <li>
-            <a href={`${SISTER_SITE}/guides/flying-with-a-dog`} target="_blank" rel="noopener">
-              Flying with your dog: cabin vs. cargo
-            </a>{' '}
-            — the practical question that decides the honeymoon.
-          </li>
-          <li>
-            <a href={`${SISTER_SITE}`} target="_blank" rel="noopener">
-              The full pet-friendly hotel directory
-            </a>{' '}
-            — scored on the same honest criteria we use here.
-          </li>
-        </ul>
 
         <h2>Practical realities most guides skip</h2>
         <ul>
@@ -214,12 +201,13 @@ export default function HoneymoonWithDogPage() {
         <p>
           A honeymoon with your dog isn’t a compromised honeymoon — it’s a different shape of honeymoon. Slower,
           more domestic, with more terraces and fewer activity packages. The couples who do it well start with the
-          dog, choose one of the few countries that actually accommodates pets at the luxury level, and use{' '}
-          <a href={SISTER_SITE} target="_blank" rel="noopener">
-            HotelsWithPets.com
-          </a>{' '}
-          to find the properties built for it. The result is usually the most relaxing honeymoon either partner has
-          ever taken — which, when you think about it, is the point.
+          dog, choose one of the few countries that actually accommodates pets at the luxury level, and pair this
+          guide with the property-side companion piece,{' '}
+          <a href={SISTER_GUIDE} target="_blank" rel="noopener">
+            Honeymoon with a pet on HotelsWithPets.com
+          </a>
+          . The result is usually the most relaxing honeymoon either partner has ever taken — which, when you think
+          about it, is the point.
         </p>
 
       </div>
@@ -235,12 +223,12 @@ export default function HoneymoonWithDogPage() {
           start there.
         </p>
         <a
-          href={SISTER_SITE}
+          href={SISTER_GUIDE}
           target="_blank"
           rel="noopener"
           className="inline-block bg-rose-500 hover:bg-rose-600 text-white font-semibold text-sm px-6 py-3 rounded-full transition-colors"
         >
-          Visit HotelsWithPets.com →
+          Read the companion guide on HotelsWithPets.com →
         </a>
       </div>
 
