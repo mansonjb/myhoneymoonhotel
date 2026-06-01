@@ -16,6 +16,7 @@ const SISTER_GUIDE = 'https://hotelswithpets.com/guides/honeymoon-with-pet'
 const articleSchema = {
   '@context': 'https://schema.org',
   '@type': 'Article',
+  inLanguage: 'en',
   headline: 'Honeymoon With Your Dog: The Honest Guide',
   description:
     'A practical guide to planning a honeymoon that includes your dog, from pet-friendly luxury hotels to destinations that actually work.',
@@ -33,6 +34,40 @@ const articleSchema = {
   datePublished: '2026-05-28',
   dateModified: '2026-05-28',
   mainEntityOfPage: 'https://myhoneymoonhotel.com/honeymoon-with-dog',
+}
+
+const faqs = [
+  {
+    question: 'Can I bring my dog to a luxury honeymoon hotel?',
+    answer:
+      'Yes, but only at a small subset of properties. There are three tiers — tolerated, welcomed, and built-for-dogs. Most "pet-friendly" hotels merely tolerate dogs; the ones that genuinely welcome them (Belmond, Rosewood, the small luxury inns of Tuscany, Provence and the Cotswolds) are the ones worth booking for a honeymoon.',
+  },
+  {
+    question: "What's the easiest country in Europe for a dog honeymoon?",
+    answer:
+      'France. Restaurants welcome dogs by default, trains carry them, and most luxury properties — from Domaine de la Baume to the smaller mas in the Luberon — treat them as guests rather than logistics. Italy (Tuscany in particular) is a close second.',
+  },
+  {
+    question: 'Do I need a pet passport for a European honeymoon?',
+    answer:
+      'EU travel requires an up-to-date EU pet passport or an Animal Health Certificate, and US re-entry now requires a CDC import form. Both take weeks to obtain — start the paperwork at least three months before departure.',
+  },
+  {
+    question: 'Can my dog fly in the cabin for our honeymoon?',
+    answer:
+      'Only small dogs (typically under 8 kg, depending on the airline) on a handful of carriers, and almost never on long-haul. For most couples, this rules out destinations like the Maldives, Bora Bora, or the Seychelles and points the honeymoon toward drivable Europe or domestic luxe instead.',
+  },
+]
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  inLanguage: 'en',
+  mainEntity: faqs.map(f => ({
+    '@type': 'Question',
+    name: f.question,
+    acceptedAnswer: { '@type': 'Answer', text: f.answer },
+  })),
 }
 
 const breadcrumbSchema = {
@@ -54,6 +89,7 @@ export default function HoneymoonWithDogPage() {
     <div className="max-w-3xl mx-auto px-6 py-20">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
       <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">Planning Guide</p>
       <h1 className="font-display text-4xl sm:text-5xl text-zinc-900 mb-6 leading-tight">
@@ -211,6 +247,24 @@ export default function HoneymoonWithDogPage() {
         </p>
 
       </div>
+
+      <section className="mt-16">
+        <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">FAQ</p>
+        <h2 className="font-display text-3xl text-zinc-900 mb-8">Frequently asked questions</h2>
+        <div className="space-y-3">
+          {faqs.map((faq, i) => (
+            <details key={i} className="group border border-zinc-100 rounded-2xl overflow-hidden">
+              <summary className="flex items-center justify-between px-6 py-5 cursor-pointer font-medium text-zinc-900 text-sm hover:bg-zinc-50 transition-colors list-none">
+                <span>{faq.question}</span>
+                <svg className="w-4 h-4 text-zinc-400 shrink-0 ml-4 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7"/></svg>
+              </summary>
+              <div className="px-6 pb-6 pt-2">
+                <p className="text-zinc-500 text-sm leading-relaxed">{faq.answer}</p>
+              </div>
+            </details>
+          ))}
+        </div>
+      </section>
 
       <div className="mt-16 bg-rose-50/40 border border-rose-100 rounded-2xl p-7">
         <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-500 mb-3">Sister Site</p>
