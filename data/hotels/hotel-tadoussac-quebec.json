@@ -1,0 +1,66 @@
+{
+  "slug": "hotel-tadoussac-quebec",
+  "name": "Hôtel Tadoussac",
+  "destination": "quebec",
+  "country": "canada",
+  "seo": {
+    "title": "Hôtel Tadoussac: Saguenay Whale-Watching Honeymoon Review",
+    "description": "Historic red-roofed clapboard hotel at the Saguenay fjord. Score 78/100, from $250/night. Verdict, room pick, 7-night plan."
+  },
+  "experience_types": ["historic", "wilderness", "boutique"],
+  "honeymoon_score": 78,
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 12,
+    "spa": 6,
+    "award": 10,
+    "pool": 8,
+    "beach": 5,
+    "room_service": 8,
+    "stars": 11,
+    "luxury": 11
+  },
+  "stars": 4,
+  "price_per_night_usd": { "min": 250, "max": 800 },
+  "adults_only": false,
+  "amenities": ["outdoor-pool", "fine-dining", "fireside-bar", "river-views", "whale-watching", "concierge", "tennis", "historic", "golf-nearby", "kayak"],
+  "photos": [
+    { "url": "/images/hotels/hotel-tadoussac-quebec/hero.webp", "alt": "hotel-tadoussac-quebec — hero", "type": "hero" },
+    { "url": "/images/hotels/hotel-tadoussac-quebec/room.webp", "alt": "hotel-tadoussac-quebec — room", "type": "room" },
+    { "url": "/images/hotels/hotel-tadoussac-quebec/pool.webp", "alt": "hotel-tadoussac-quebec — pool", "type": "pool" },
+    { "url": "/images/hotels/hotel-tadoussac-quebec/spa.webp", "alt": "hotel-tadoussac-quebec — spa", "type": "spa" },
+    { "url": "/images/hotels/hotel-tadoussac-quebec/dining.webp", "alt": "hotel-tadoussac-quebec — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 4.5,
+  "tripadvisor_award": true,
+  "couples_review_pct": 68,
+  "content": {
+    "verdict": "Hôtel Tadoussac is the historic red-roofed clapboard hotel that defines the village of Tadoussac at the confluence of the Saguenay fjord and the St Lawrence, three hours northeast of Quebec City and arguably the most reliable whale-watching location on the Atlantic seaboard of North America. The hotel was built in 1864 by Canada Steamship Lines, expanded in 1942, and operates seasonally (mid-May to mid-October) as a 149-room family-owned resort that remains the only honeymoon-grade accommodation in Tadoussac. The honeymoon proposition is entirely the location: from May through October, beluga, minke, fin, and blue whales feed in the cold mineral-rich waters where the Saguenay meets the St Lawrence — zodiacs depart from the village pier 200m from the hotel for 3-hour expeditions that consistently deliver close encounters with whales. The hotel itself is functional rather than chic — the building has historic charm (the famous red roof, the dining room with original ironwork, the long sea-facing terrace), the rooms are simple and well-maintained but not luxurious, and the food is good but unambitious. The outdoor pool faces the river, the lawn runs to the sand beach in front of the village, and the Saguenay fjord cruise leaves from the village wharf for the day-long trip up to Cap-Trinité. The honeymoon move is two nights only — Tadoussac is a wildlife destination, not a soak-in-luxury destination — booked as part of a wider Charlevoix-and-Quebec-City honeymoon. The honeymoon-defining moment is the August zodiac trip, water flat, fog burning off, when a blue whale (the largest animal that has ever existed on earth, 30m long) surfaces ten metres from your boat.",
+    "best_room": "A river-facing room on the third floor (the historic hotel’s top floor with the best views) is the honeymoon pick. For more budget, the Junior Suite Saguenay-facing with the small private balcony. Avoid the rear rooms — the river is the entire reason to be here.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival from Quebec City", "description": "Drive Quebec City 3h northeast via Tadoussac ferry (free, 10 min crossing). Check-in to a river-facing room. Dinner in the main dining room (jacket suggested)." },
+      { "day": 2, "title": "Zodiac whale-watching", "description": "Morning 3h zodiac trip — beluga, minke, fin, and (Aug-Oct) blue whales. Lunch back at the hotel. Afternoon walk on the Tadoussac sand beach. Evening cocktails on the terrace." },
+      { "day": 3, "title": "Saguenay fjord cruise", "description": "Full-day boat trip up the Saguenay fjord — to Cap-Trinité, with picnic lunch. Returns 4pm. Dinner at La Galouïne (better than the hotel dining room)." },
+      { "day": 4, "title": "Onward to Charlevoix", "description": "1h 30min drive south to Charlevoix — check in to Manoir Richelieu or Le Germain Charlevoix for the next 2–3 nights." },
+      { "day": 5, "title": "Charlevoix foliage drive", "description": "Drive Route 362 Baie-Saint-Paul to Les Éboulements. Lunch at Le Mouton Noir." },
+      { "day": 6, "title": "Cheese trail", "description": "Laiterie Charlevoix, Maurice Dufour, Migneron. Spa evening at your Charlevoix base." },
+      { "day": 7, "title": "Return to Quebec City", "description": "1h 30min drive back to Quebec City for departure." }
+    ],
+    "caveats": [
+      "Hôtel Tadoussac is operationally functional, not luxurious — historic charm and view, but not Relais-grade service or rooms. Two nights only.",
+      "Operates seasonally — typically open mid-May to mid-October only. Closed November to early May.",
+      "Tadoussac village is tiny (~800 residents) — dining is limited beyond the hotel (La Galouïne is the one alternative). This is a wildlife destination, not a culinary one."
+    ],
+    "faqs": [
+      { "question": "Good for honeymooners?", "answer": "Yes for two nights as part of a wider trip — the whale-watching is unique. Not for a full honeymoon base; pair with Charlevoix or Quebec City." },
+      { "question": "Best time to visit?", "answer": "Late July to early October for the full whale variety including blue whales. May–June for belugas and minkes. September is the secret best month (blue whales + Charlevoix foliage en route)." },
+      { "question": "Book in advance?", "answer": "Whale season (Jul–Sep) river-view rooms: 4–6 months ahead. Zodiac trips through the hotel concierge or directly with Croisières AML — book 2–3 weeks ahead." },
+      { "question": "Adults-only?", "answer": "No. Hôtel Tadoussac is family-friendly. The whale-watching itself is the adult experience." },
+      { "question": "Best room type?", "answer": "River-facing third-floor rooms or the Junior Suite Saguenay-facing. Skip rear rooms." },
+      { "question": "How to get there?", "answer": "Quebec City (YQB) is 3h northeast by car including the free Tadoussac ferry. No useful public transport. Hire car essential." }
+    ],
+    "email_template": "Subject: Honeymoon inquiry — Hôtel Tadoussac\n\nDear Hôtel Tadoussac reservations,\n\nWe’d like 2 nights for our honeymoon [DATES] in a river-facing room or Junior Suite Saguenay-facing.\n\nQuestions:\n1. Honeymoon arrival turndown (champagne, flowers)?\n2. Confirmed zodiac whale-watching booking for [DATE] morning?\n3. Saguenay fjord cruise booking?\n4. Dinner reservation in the main dining room with river view?\n5. Late checkout on departure?\n\nThank you,\n[Your names]"
+  },
+  "booking_urls": {},
+  "last_updated": "2026-06-01T00:00:00.000Z"
+}

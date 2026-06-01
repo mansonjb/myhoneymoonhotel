@@ -1,0 +1,66 @@
+{
+  "slug": "cromlix-dunblane-scotland",
+  "name": "Cromlix",
+  "destination": "scotland",
+  "country": "scotland",
+  "seo": {
+    "title": "Cromlix: Andy Murray's Perthshire Hotel Honeymoon Review",
+    "description": "15-room Victorian mansion owned by Andy Murray. Score 85/100, from $650/night. Verdict, suite pick, 7-night plan."
+  },
+  "experience_types": ["luxury", "countryside", "boutique"],
+  "honeymoon_score": 85,
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 16,
+    "spa": 9,
+    "award": 13,
+    "pool": 0,
+    "beach": 0,
+    "room_service": 10,
+    "stars": 14,
+    "luxury": 13
+  },
+  "stars": 5,
+  "price_per_night_usd": { "min": 650, "max": 1800 },
+  "adults_only": false,
+  "amenities": ["fine-dining", "tennis", "fireside-bar", "chapel", "loch", "boutique", "concierge", "afternoon-tea", "library", "estate-walks"],
+  "photos": [
+    { "url": "/images/hotels/cromlix-dunblane-scotland/hero.webp", "alt": "cromlix-dunblane-scotland — hero", "type": "hero" },
+    { "url": "/images/hotels/cromlix-dunblane-scotland/room.webp", "alt": "cromlix-dunblane-scotland — room", "type": "room" },
+    { "url": "/images/hotels/cromlix-dunblane-scotland/pool.webp", "alt": "cromlix-dunblane-scotland — pool", "type": "pool" },
+    { "url": "/images/hotels/cromlix-dunblane-scotland/spa.webp", "alt": "cromlix-dunblane-scotland — spa", "type": "spa" },
+    { "url": "/images/hotels/cromlix-dunblane-scotland/dining.webp", "alt": "cromlix-dunblane-scotland — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 4.8,
+  "tripadvisor_award": true,
+  "couples_review_pct": 84,
+  "content": {
+    "verdict": "Cromlix is the most photogenic small luxury hotel in Perthshire — a Victorian sandstone mansion built in 1880 in 34 acres of woodland on the edge of the village of Dunblane, owned since 2013 by the tennis player Andy Murray (who got married there) and operated as a 15-room boutique country-house hotel with the Glasshouse restaurant overseen by chef Albert Roux until his death in 2021 (and now by his successors at the Roux family group). The honeymoon proposition is the scale — fifteen rooms is one-fifteenth of Gleneagles — and the intimacy of the public rooms: a drawing room with working fireplace and Murray’s framed Wimbledon shirt, a library with antique chess sets, a chapel in the grounds that hosts weddings most weekends (book away from those), and a tennis court (genuinely playable) on the lawn. The Glasshouse restaurant has its own conservatory dining room with garden views; the kitchen is one of the most consistent in Scotland at this scale. Bedrooms are individually decorated in country-house tradition — four-posters, Victorian fireplaces, deep claw-foot baths in many. The honeymoon move is the Master Suite (the largest, with a separate sitting room and the best garden view) and 4 nights minimum. The location is excellent for a Highland-perimeter honeymoon: 45 minutes from Edinburgh, 1h from Glasgow, 1h from Gleneagles, 2h to the start of the Highlands — making Cromlix the ideal first or last stop on a Scottish honeymoon route. The caveats are real: Cromlix is on the small side and books many weddings (verify your dates are wedding-free); it lacks a spa and pool; and the village of Dunblane is functional rather than scenic. But for couples who want a 15-room Scottish country house run with serious culinary ambition and zero corporate feel, Cromlix is the call.",
+    "best_room": "The Master Suite (largest room, separate sitting area, garden-facing four-poster, claw-foot bath) is the honeymoon room. For a smaller budget, any of the Deluxe rooms in the main house gives you four-poster grandeur and a real fireplace. Skip the Cromlix Lodge rooms (separate building) — they’re fine but you lose the mansion experience.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival and Glasshouse dinner", "description": "Drive Edinburgh (EDI) to Cromlix, 45 min north. Check-in to the Master Suite, welcome champagne. Dinner at the Glasshouse (book Albert Roux’s signature soufflé)." },
+      { "day": 2, "title": "Stirling Castle and the Wallace Monument", "description": "20-minute drive to Stirling — the castle (one of the great medieval fortresses in Scotland), lunch at Hermann’s, the Wallace Monument. Return for tennis on the lawn." },
+      { "day": 3, "title": "Loch Lomond day", "description": "45-minute drive to Loch Lomond. Boat trip from Balloch, lunch at Mhor 84 or the Cameron House. Walk along the loch shore. Return for cocktails in the library." },
+      { "day": 4, "title": "Trossachs walk", "description": "1h drive to the Trossachs National Park — the Bracklinn Falls walk from Callander, lunch at the Roman Camp. Whisky tasting back at Cromlix with the sommelier." },
+      { "day": 5, "title": "Edinburgh day trip", "description": "Train Dunblane to Edinburgh (1h direct). Royal Mile, castle, lunch at the Witchery. Return for dinner in the main house." },
+      { "day": 6, "title": "Spa morning and chapel walk", "description": "In-suite spa treatments by the visiting therapist. Walk to the chapel in the grounds and around the loch on the estate. Final dinner at the Glasshouse — tasting menu with paired wines." },
+      { "day": 7, "title": "Slow departure", "description": "Late breakfast in the conservatory, last walk on the estate, drive 45 min back to Edinburgh airport." }
+    ],
+    "caveats": [
+      "Cromlix hosts many weddings (the chapel in the grounds is a draw) — verify your dates are wedding-free or you may share the property with a wedding party.",
+      "No spa building — in-suite treatments only. No pool or thermal facilities.",
+      "The village of Dunblane is functional rather than scenic — the honeymoon experience is entirely inside the estate gates."
+    ],
+    "faqs": [
+      { "question": "Good for honeymooners?", "answer": "Yes — particularly for couples who want an intimate 15-room country house with serious dining and zero corporate feel. The Master Suite is the honeymoon pick." },
+      { "question": "Best time to visit?", "answer": "May, June, September, and October are ideal — long days, lowest rain, full operations. December for festive country-house atmosphere with fires and a tree in the drawing room." },
+      { "question": "Book in advance?", "answer": "Master Suite for May–September: 6–9 months ahead. Deluxe rooms: 3–5 months. Verify wedding bookings on your dates before confirming." },
+      { "question": "Adults-only?", "answer": "No. Children are welcome but the property’s small scale keeps families minimal." },
+      { "question": "Best room type?", "answer": "Master Suite in the main house. For smaller budget, any Deluxe room in the original mansion. Skip the Lodge building." },
+      { "question": "How to get there?", "answer": "Edinburgh airport (EDI) is 45 min by car. Glasgow airport (GLA) is 1h. Train to Dunblane station from Edinburgh is 1h — hotel will collect from the station." }
+    ],
+    "email_template": "Subject: Honeymoon inquiry — Cromlix\n\nDear Cromlix reservations,\n\nWe’d like 4 to 5 nights for our honeymoon [DATES] in the Master Suite if available.\n\nQuestions:\n1. Are there weddings booked on our dates? If so, can you suggest alternative dates wedding-free?\n2. Honeymoon arrival turndown (champagne, flowers)?\n3. Glasshouse tasting menu reservation for the first night?\n4. In-suite spa treatment for two?\n5. Transfer from Edinburgh airport?\n\nThank you,\n[Your names]"
+  },
+  "booking_urls": {},
+  "last_updated": "2026-06-01T00:00:00.000Z"
+}

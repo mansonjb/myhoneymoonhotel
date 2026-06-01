@@ -1,0 +1,66 @@
+{
+  "slug": "inverlochy-castle-fort-william-scotland",
+  "name": "Inverlochy Castle",
+  "destination": "scotland",
+  "country": "scotland",
+  "seo": {
+    "title": "Inverlochy Castle: Highland Castle Honeymoon Review",
+    "description": "17-room Highland castle below Ben Nevis. Score 88/100, from $700/night. Honest verdict, best suite, 7-night itinerary, falconry & email."
+  },
+  "experience_types": ["castle", "luxury", "countryside"],
+  "honeymoon_score": 88,
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 16,
+    "spa": 8,
+    "award": 14,
+    "pool": 0,
+    "beach": 0,
+    "room_service": 10,
+    "stars": 15,
+    "luxury": 14
+  },
+  "stars": 5,
+  "price_per_night_usd": { "min": 700, "max": 2200 },
+  "adults_only": false,
+  "amenities": ["fine-dining", "michelin-recommended", "fireside-bar", "castle", "loch-views", "country-pursuits", "boutique", "concierge", "afternoon-tea", "library"],
+  "photos": [
+    { "url": "/images/hotels/inverlochy-castle-fort-william-scotland/hero.webp", "alt": "inverlochy-castle-fort-william-scotland — hero", "type": "hero" },
+    { "url": "/images/hotels/inverlochy-castle-fort-william-scotland/room.webp", "alt": "inverlochy-castle-fort-william-scotland — room", "type": "room" },
+    { "url": "/images/hotels/inverlochy-castle-fort-william-scotland/pool.webp", "alt": "inverlochy-castle-fort-william-scotland — pool", "type": "pool" },
+    { "url": "/images/hotels/inverlochy-castle-fort-william-scotland/spa.webp", "alt": "inverlochy-castle-fort-william-scotland — spa", "type": "spa" },
+    { "url": "/images/hotels/inverlochy-castle-fort-william-scotland/dining.webp", "alt": "inverlochy-castle-fort-william-scotland — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 4.7,
+  "tripadvisor_award": true,
+  "couples_review_pct": 86,
+  "content": {
+    "verdict": "Inverlochy Castle is the Highland castle hotel in its purest form — a 19th-century baronial pile built in 1863 in 500 acres of parkland on the shore of Loch Linnhe, directly below the Mamores ridge and 5 miles north of Fort William, with seventeen rooms only, three formal dining rooms, and a guest experience that has been consistently rated among the best in Scotland for thirty years. Queen Victoria stayed here in 1873 and wrote in her diary that she had never seen a lovelier or more romantic spot. The castle is part of the Inverlochy Castle Hotels group (alongside Greywalls in East Lothian and Rocpool Reserve in Inverness), but operates entirely autonomously — the famously tight service standards (jackets at dinner, no children under eight in the dining rooms after 7pm, drawing-room afternoon tea poured by the butler) are intact. The honeymoon experience is built around the dining (Michelin-recommended, served on Wedgwood china from a service gifted to the King of Norway, three formal rooms running concurrently); the views across Loch Linnhe to the Mamores from the front rooms; and the proximity to the West Highlands and Glencoe — 30 minutes south to Glencoe village, 40 minutes north to the Road to the Isles and the Glenfinnan viaduct. The hotel has no spa and no pool, which is the right call for the building and the clientele. Caveats are limited but real: standard rooms at the back of the castle have no loch view; the dress code is strict and surprises some American guests; and the wider Fort William town is unattractive (you stay on the estate). The honeymoon-defining move is the Top of the Castle suite, October mid-week, with dinner in the Drawing Room and the Mamores reddening through the windows.",
+    "best_room": "The Top of the Castle suite (the entire top floor, panoramic loch view, separate sitting room, four-poster bed) is the honeymoon room. For a smaller budget, any of the front-of-castle Loch View rooms (Rooms 1–6) are excellent. Avoid the Cottage rooms in the gatehouse buildings — they’re lovely but you miss the castle proper.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival and Drawing Room dinner", "description": "Fly Edinburgh or Glasgow — 3 to 3.5 hour drive to Fort William. Check-in to your Loch View room, fire lit, welcome cocktail. Dinner in the Drawing Room (jacket required)." },
+      { "day": 2, "title": "Glencoe and the Three Sisters", "description": "30-minute drive south to Glencoe — walk the Devil’s Staircase trail (4h, moderate) or the easier Lochan Trail. Lunch at the Clachaig Inn. Afternoon tea on the lawn at Inverlochy." },
+      { "day": 3, "title": "Glenfinnan viaduct and Road to the Isles", "description": "45-minute drive to Glenfinnan — watch the Jacobite steam train cross the viaduct (Harry Potter scene). Continue along Loch Shiel to Arisaig and the white-sand Camusdarach beach. Picnic packed by the kitchen." },
+      { "day": 4, "title": "Ben Nevis or Steall Falls", "description": "For climbers: ascent of Ben Nevis (full day, fitness required). For others: easier walk to Steall Falls through Nevis Gorge (3h round trip). Dinner in the Great Hall." },
+      { "day": 5, "title": "Loch Ness day trip", "description": "1h 30min drive to Loch Ness — boat trip from Drumnadrochit, lunch at Cobbs at Foyers, return via Fort Augustus and the Caledonian Canal. Whisky tasting back at Inverlochy with the head butler." },
+      { "day": 6, "title": "Slow day on the estate", "description": "Long morning in the library and gardens. Afternoon walking around Loch Linnhe shore. Final dinner in the Drawing Room — 6-course tasting menu with paired wines from the cellar." },
+      { "day": 7, "title": "Slow departure", "description": "Final breakfast in the conservatory, last walk to the loch shore, drive back to Edinburgh or Glasgow." }
+    ],
+    "caveats": [
+      "Strict evening dress code — jacket required for men in all three dining rooms, smart attire for women. Inverlochy will turn away guests in casual clothes.",
+      "No spa, no pool. This is a country-house hotel of the old school — if your honeymoon needs a wellness centre, look elsewhere.",
+      "Fort William town is the closest urban centre and is unattractive — a working aluminium-smelting town with cheap tourist infrastructure. Stay on the estate."
+    ],
+    "faqs": [
+      { "question": "Good for honeymooners?", "answer": "Inverlochy is one of the top three honeymoon hotels in Scotland — a genuine Highland castle with operational polish, dramatic views, and the right scale (17 rooms) for couple-focused intimacy." },
+      { "question": "Best time to visit?", "answer": "May, June, September, and early October are the ideal months — long days, lowest rain, full hotel access. Closed November to March most years." },
+      { "question": "Book in advance?", "answer": "Top of the Castle suite for May–September: 9–12 months ahead. Standard Loch View rooms: 4–6 months. Email the reservations team directly for the best honeymoon package." },
+      { "question": "Adults-only?", "answer": "No, but children under eight are not allowed in the dining rooms after 7pm — the evening hotel is effectively adult-only." },
+      { "question": "Best room type?", "answer": "Top of the Castle suite (whole top floor, panoramic loch view) for honeymooners. For smaller budget, any Loch View room in the original castle (Rooms 1–6)." },
+      { "question": "How to get there?", "answer": "Edinburgh (EDI) and Glasgow (GLA) airports are both 3 to 3.5h by car. Inverness (INV) is 2h. Inverlochy arranges chauffeur transfer from Glasgow or Edinburgh (£450–£550)." }
+    ],
+    "email_template": "Subject: Honeymoon inquiry — Inverlochy Castle\n\nDear Inverlochy Castle reservations,\n\nWe’d like to book 5–6 nights for our honeymoon [DATES] in the Top of the Castle suite or, if unavailable, a Loch View room.\n\nQuestions:\n1. Honeymoon arrival turndown (champagne, in-suite flowers)?\n2. Confirmed seating in the Drawing Room for dinner each evening?\n3. Whisky tasting with the head butler one afternoon?\n4. Chauffeur transfer from Glasgow airport?\n5. Any restrictions or notes on the dining-room dress code for guests?\n\nThank you,\n[Your names]"
+  },
+  "booking_urls": {},
+  "last_updated": "2026-06-01T00:00:00.000Z"
+}

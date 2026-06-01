@@ -89,6 +89,11 @@ const MAP_LOCATION_OVERRIDE: Record<string, string> = {
   'faroe-islands':   'Tórshavn, Faroe Islands',
   ireland:           'Killarney, Ireland',
   banff:             'Banff, Alberta, Canada',
+  scotland:          'Inverness, Scotland',
+  quebec:            'Quebec City, Canada',
+  'lake-garda':      'Sirmione, Lake Garda, Italy',
+  'big-sur':         'Big Sur, California',
+  bavaria:           'Garmisch-Partenkirchen, Germany',
 }
 
 function resolveMapLocation(input: string): string {

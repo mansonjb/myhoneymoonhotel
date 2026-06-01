@@ -1,0 +1,66 @@
+{
+  "slug": "schloss-elmau-bavaria",
+  "name": "Schloss Elmau Luxury Spa Retreat & Cultural Hideaway",
+  "destination": "bavaria",
+  "country": "germany",
+  "seo": {
+    "title": "Schloss Elmau: Bavarian Alpine Luxury Honeymoon Review",
+    "description": "Cultural-wellness retreat below the Wetterstein. Score 92/100, from $900/night. Verdict, suite pick, 7-night plan."
+  },
+  "experience_types": ["luxury", "wellness", "cultural"],
+  "honeymoon_score": 92,
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 16,
+    "spa": 15,
+    "award": 15,
+    "pool": 10,
+    "beach": 0,
+    "room_service": 10,
+    "stars": 15,
+    "luxury": 15
+  },
+  "stars": 5,
+  "price_per_night_usd": { "min": 900, "max": 3200 },
+  "adults_only": false,
+  "amenities": ["spa", "indoor-pool", "outdoor-pool", "five-spas", "fine-dining", "michelin-star", "concert-hall", "mountain-views", "yoga", "library"],
+  "photos": [
+    { "url": "/images/hotels/schloss-elmau-bavaria/hero.webp", "alt": "schloss-elmau-bavaria — hero", "type": "hero" },
+    { "url": "/images/hotels/schloss-elmau-bavaria/room.webp", "alt": "schloss-elmau-bavaria — room", "type": "room" },
+    { "url": "/images/hotels/schloss-elmau-bavaria/pool.webp", "alt": "schloss-elmau-bavaria — pool", "type": "pool" },
+    { "url": "/images/hotels/schloss-elmau-bavaria/spa.webp", "alt": "schloss-elmau-bavaria — spa", "type": "spa" },
+    { "url": "/images/hotels/schloss-elmau-bavaria/dining.webp", "alt": "schloss-elmau-bavaria — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 4.8,
+  "tripadvisor_award": true,
+  "couples_review_pct": 80,
+  "content": {
+    "verdict": "Schloss Elmau is the most ambitious luxury hotel in Germany and arguably in the Alps — a 19th-century manor and a contemporary Retreat wing in a quiet alpine valley between Garmisch-Partenkirchen and the Wetterstein massif, owned and operated by the Müller-Elmau family (Dietmar Mueller-Elmau is the hands-on owner-operator), holding two G7 summits (2015 and 2022), and consistently ranked the best resort in Germany and one of the top 25 hotels in the world. The proposition is the genuine combination of five things that almost never co-exist: a concert hall that programmes 200+ classical and jazz concerts a year with international musicians (Anne-Sophie Mutter, Christian Tetzlaff, Yo-Yo Ma have all played here); a Michelin-starred restaurant (Luce d’Oro, two stars) plus six other excellent restaurants on the property; five separate spas including the adults-only Retreat Spa (the Retreat wing is configured as a couples-only experience with no children at all); a 9-mile network of immediate-access walking trails directly into the Wetterstein; and a library with 12,000 books and the largest chess collection in Bavaria. The hotel’s structure deliberately separates the family hotel (the historic schloss) from the adults-only Retreat wing — which is the honeymoon side and the way you book this hotel for a honeymoon. The Retreat has its own restaurants, its own spa with rooftop infinity pool (the Badehaus, with arguably the most photographed pool view in the Alps), and its own dedicated entrance and lobby. Caveats are limited: the price is genuine ultra-luxury (Retreat Junior Suites from €900+ a night with half-board); the location is genuinely remote (1h from Munich by car, no useful public transport from Klais station); and the breadth of programming means you’ll want to plan around specific concerts and treatments rather than just turn up. But for couples whose honeymoon image is alpine luxury, serious wellness, world-class music, and a Michelin tasting menu — Schloss Elmau is the best honeymoon in Germany.",
+    "best_room": "A Retreat Junior Suite in the adults-only Retreat wing (private balcony, mountain view, Badehaus access, no children encounters) is the honeymoon room. For the full splurge, the Retreat Suite or the Penthouse. Avoid the schloss family-hotel rooms — they’re lovely but you’ll encounter families.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival and Fidelio dinner", "description": "Fly Munich (MUC) — 1h 30min chauffeur to Klais. Check-in to your Retreat Junior Suite, welcome aperitivo. Dinner at Fidelio (Retreat brasserie) or Luce d’Oro (2 Michelin stars)." },
+      { "day": 2, "title": "Spa morning and concert evening", "description": "Long morning at the Badehaus rooftop pool and Retreat Spa — couples’ treatment, Finnish sauna, infinity pool. Lunch on the Retreat terrace. Evening classical concert in the concert hall (book at reservation, programme runs year-round)." },
+      { "day": 3, "title": "Wetterstein walking day", "description": "Guided walk in the Wetterstein — Ferchensee or the Schachen royal hunting lodge (4h moderate). Picnic packed by the kitchen. Evening yoga, then dinner at La Salle." },
+      { "day": 4, "title": "Garmisch and Zugspitze", "description": "30-min drive to Garmisch-Partenkirchen — cable car to the Zugspitze summit (2,962m, Germany’s highest mountain). Lunch at the summit. Return for evening at the spa." },
+      { "day": 5, "title": "Slow chess and library day", "description": "Long morning in the library and chess hall. Lunch on the terrace. Afternoon in-suite spa treatment. Final dinner at Luce d’Oro — full tasting menu with paired wines." },
+      { "day": 6, "title": "Mittenwald day trip", "description": "20-min drive to Mittenwald village — the violin-making museum, the painted houses, lunch at the Alpenrose. Return for spa and dinner." },
+      { "day": 7, "title": "Slow departure", "description": "Final breakfast in the Retreat dining room, walk into the meadow, drive 1h 30min back to Munich airport." }
+    ],
+    "caveats": [
+      "Not adults-only as a whole property — but the Retreat wing operates as adults-only with separate facilities and entry. Book Retreat, not Schloss.",
+      "Remote alpine location — 1h 30min drive from Munich; no useful direct rail. Drive or chauffeur transfer is essential.",
+      "Concert programme is the highlight — book at the time of room reservation, not on arrival. Look at the Schloss Elmau calendar to plan around specific musicians."
+    ],
+    "faqs": [
+      { "question": "Good for honeymooners?", "answer": "Yes — among the top three honeymoon hotels in mainland Europe. The Retreat Junior Suite is the honeymoon move. The cultural programming is the differentiator." },
+      { "question": "Best time to visit?", "answer": "May, June, and September are ideal alpine months. July–August busy but full operations. December for snow and Christmas concerts. The hotel is open year-round." },
+      { "question": "Book in advance?", "answer": "Retreat suites for May–Sept and Christmas: 9–12 months ahead. Concert tickets: at time of room reservation. Standard rooms: 6 months." },
+      { "question": "Adults-only?", "answer": "The Retreat wing is adults-only with separate entry. The main schloss is family-friendly. Book Retreat for the honeymoon." },
+      { "question": "Best room type?", "answer": "Retreat Junior Suite for sensible budget. Retreat Suite or Penthouse for splurge. Do not book schloss rooms for a honeymoon." },
+      { "question": "How to get there?", "answer": "Munich (MUC) 1h 30min by car — the only practical entry. Train Munich → Klais → 5-min taxi works but logistics are awkward. Hotel chauffeur from MUC (€350)." }
+    ],
+    "email_template": "Subject: Honeymoon inquiry — Schloss Elmau (Retreat)\n\nDear Schloss Elmau reservations,\n\nWe’d like 5 to 7 nights for our honeymoon [DATES] in a Retreat Junior Suite or Retreat Suite (adults-only Retreat wing — NOT the family schloss).\n\nQuestions:\n1. Honeymoon arrival turndown (champagne, flowers)?\n2. Concert programme during our dates — which evenings should we attend?\n3. Luce d’Oro tasting menu reservation?\n4. Couples’ treatment at the Retreat Spa with Badehaus rooftop pool access?\n5. Chauffeur transfer from Munich airport?\n\nThank you,\n[Your names]"
+  },
+  "booking_urls": {},
+  "last_updated": "2026-06-01T00:00:00.000Z"
+}

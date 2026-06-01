@@ -1,0 +1,66 @@
+{
+  "slug": "hotel-de-glace-quebec",
+  "name": "Hôtel de Glace",
+  "destination": "quebec",
+  "country": "canada",
+  "seo": {
+    "title": "Hôtel de Glace: Quebec Ice Hotel Honeymoon Review",
+    "description": "North America's only ice hotel, rebuilt every winter near Quebec City. Score 75/100, from $400/night. Verdict, room pick, plan."
+  },
+  "experience_types": ["unique", "winter", "boutique"],
+  "honeymoon_score": 75,
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 14,
+    "spa": 8,
+    "award": 10,
+    "pool": 0,
+    "beach": 0,
+    "room_service": 5,
+    "stars": 12,
+    "luxury": 12
+  },
+  "stars": 4,
+  "price_per_night_usd": { "min": 400, "max": 1200 },
+  "adults_only": false,
+  "amenities": ["hot-tub", "sauna", "ice-bar", "ice-chapel", "fireside-bar", "concierge", "winter-only", "art-collection", "fine-dining-nearby", "unique-experience"],
+  "photos": [
+    { "url": "/images/hotels/hotel-de-glace-quebec/hero.webp", "alt": "hotel-de-glace-quebec — hero", "type": "hero" },
+    { "url": "/images/hotels/hotel-de-glace-quebec/room.webp", "alt": "hotel-de-glace-quebec — room", "type": "room" },
+    { "url": "/images/hotels/hotel-de-glace-quebec/pool.webp", "alt": "hotel-de-glace-quebec — pool", "type": "pool" },
+    { "url": "/images/hotels/hotel-de-glace-quebec/spa.webp", "alt": "hotel-de-glace-quebec — spa", "type": "spa" },
+    { "url": "/images/hotels/hotel-de-glace-quebec/dining.webp", "alt": "hotel-de-glace-quebec — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 4.4,
+  "tripadvisor_award": false,
+  "couples_review_pct": 78,
+  "content": {
+    "verdict": "Hôtel de Glace is the only ice hotel in North America — rebuilt every winter from scratch by the Valcartier resort 30 minutes northwest of Quebec City, using 30,000 tonnes of snow and 500 tonnes of ice carved by a team of sculptors and architects who design each year’s structure around a new theme. The hotel operates roughly from January 5 to mid-March, weather permitting. The honeymoon proposition is the experience, not the comfort: 21 to 44 rooms (the number varies by year) including signature suites with sculpted ice fireplaces (yes, real flames in stone hearths set inside the ice), private spa-suites with their own hot tub and sauna behind the ice walls, and chapel for the small number of weddings that happen on-site each season. The temperature inside the rooms is consistently -3°C to -5°C; guests sleep in mummy-style sleeping bags rated to -30°C on a bed carved from solid ice and topped with reindeer fur and a foam mattress. The hot tub and sauna at the on-site Valcartier Vacation Village (which operates the hotel) are mandatory pre-bed warming, and breakfast and a hot bag of sleeping kit are provided. The honeymoon move is one night only — the experience is genuinely amazing but is, fundamentally, one night of an unusual sleep. Most couples book one night here and three at the Frontenac or Manoir Richelieu. The hotel’s ice bar (cocktails served in carved-ice glasses) and ice chapel are visit-worthy even for non-overnight guests. Caveats are clear: the sleep is colder than the marketing makes obvious; the rooms have no plumbing (bathrooms and showers are in heated buildings 50m away); and the Valcartier complex is family-focused, so the honeymoon vibe relies entirely on the romance of the ice itself. But for couples who want one of the world’s most distinctive winter honeymoon nights — there’s no equivalent in North America.",
+    "best_room": "An Ice Spa Suite with private hot tub and sauna behind the ice walls is the honeymoon room — you have privacy, your own warming facilities, and the most spectacular ice sculpture of any room category. The standard rooms are colder and less private. One night is the right dose.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Quebec City arrival — Château Frontenac", "description": "Arrive Quebec City — 3 nights at the Frontenac in a Fairmont Gold St Lawrence View room. Carnaval de Québec if early February." },
+      { "day": 2, "title": "Old Quebec walking day", "description": "Petit-Champlain, Upper Town, Plains of Abraham. Dinner at Le Saint-Amour." },
+      { "day": 3, "title": "Carnaval or Charlevoix day trip", "description": "Carnaval activities (early Feb) or drive 1h 30min to Charlevoix for a snowy day." },
+      { "day": 4, "title": "Transfer to Hôtel de Glace", "description": "30-min drive northwest from Quebec City to Valcartier. Check-in to your Ice Spa Suite, dinner at the Auberge’s warm restaurant. Hot tub, sauna, then sleeping bag in your ice suite." },
+      { "day": 5, "title": "Return to Quebec City — final two nights", "description": "Morning at the ice hotel’s installations and ice bar. Late morning transfer back to the Frontenac for two final nights." },
+      { "day": 6, "title": "Spa and final Quebec dining", "description": "Morning at the Frontenac’s Moment Spa. Walking afternoon Old Quebec. Final dinner at Légende." },
+      { "day": 7, "title": "Slow departure", "description": "Late breakfast Fairmont Gold lounge, taxi to YQB for departure." }
+    ],
+    "caveats": [
+      "The Hôtel de Glace operates ONLY from approximately January 5 to mid-March each year — verify dates before booking the wider honeymoon.",
+      "Cold sleep is real — temperatures inside the ice rooms are -3°C to -5°C. The sleeping bags work but the experience is bracing. Not for everyone.",
+      "No private bathrooms inside the ice rooms — toilets and showers in heated buildings 50m away. Hot tub and sauna are at the main Auberge."
+    ],
+    "faqs": [
+      { "question": "Good for honeymooners?", "answer": "Yes for one extraordinary night as part of a wider Quebec winter honeymoon. The Ice Spa Suite is the move. Not a destination for multiple nights." },
+      { "question": "Best time to visit?", "answer": "Mid-January to early March is the operating window, peak sculpture quality late January to mid-February. Combine with Carnaval de Québec (first two weekends of February)." },
+      { "question": "Book in advance?", "answer": "Ice Spa Suites for the operating window: 6–9 months ahead. Standard rooms: 3–4 months. Carnaval week: 9–12 months ahead." },
+      { "question": "Adults-only?", "answer": "No. The wider Valcartier complex caters to families, but the ice hotel itself naturally skews adult given the cold and the bag-sleep experience." },
+      { "question": "Best room type?", "answer": "Ice Spa Suite with private hot tub and sauna. The standard rooms are colder and lack the private warming." },
+      { "question": "How to get there?", "answer": "Quebec City (YQB) is 30 min northwest by car. The Valcartier complex provides shuttle from Quebec City hotels for guests." }
+    ],
+    "email_template": "Subject: Honeymoon inquiry — Hôtel de Glace\n\nDear Hôtel de Glace reservations,\n\nWe’d like one night for our honeymoon [DATE] in an Ice Spa Suite with private hot tub and sauna.\n\nQuestions:\n1. Confirmation of the ice hotel operating dates for our trip window?\n2. Honeymoon arrival turndown (sleeping kit, champagne)?\n3. Private dinner at the Auberge’s warm restaurant before the ice night?\n4. Ice chapel availability for a private moment?\n5. Shuttle from our Old Quebec hotel?\n\nThank you,\n[Your names]"
+  },
+  "booking_urls": {},
+  "last_updated": "2026-06-01T00:00:00.000Z"
+}

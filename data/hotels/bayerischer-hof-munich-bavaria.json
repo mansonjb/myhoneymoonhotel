@@ -1,0 +1,66 @@
+{
+  "slug": "bayerischer-hof-munich-bavaria",
+  "name": "Hotel Bayerischer Hof",
+  "destination": "bavaria",
+  "country": "germany",
+  "seo": {
+    "title": "Bayerischer Hof: Munich Grand Honeymoon Review",
+    "description": "Munich's grande dame hotel — 1841 family-owned palace in the Altstadt. Score 85/100, from $600/night. Verdict, suite pick, plan."
+  },
+  "experience_types": ["luxury", "city", "historic"],
+  "honeymoon_score": 85,
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 13,
+    "spa": 12,
+    "award": 14,
+    "pool": 9,
+    "beach": 0,
+    "room_service": 10,
+    "stars": 14,
+    "luxury": 13
+  },
+  "stars": 5,
+  "price_per_night_usd": { "min": 600, "max": 3000 },
+  "adults_only": false,
+  "amenities": ["spa", "rooftop-pool", "fine-dining", "michelin-star", "concierge", "afternoon-tea", "historic", "fitness", "city-center", "jazz-bar"],
+  "photos": [
+    { "url": "/images/hotels/bayerischer-hof-munich-bavaria/hero.webp", "alt": "bayerischer-hof-munich-bavaria — hero", "type": "hero" },
+    { "url": "/images/hotels/bayerischer-hof-munich-bavaria/room.webp", "alt": "bayerischer-hof-munich-bavaria — room", "type": "room" },
+    { "url": "/images/hotels/bayerischer-hof-munich-bavaria/pool.webp", "alt": "bayerischer-hof-munich-bavaria — pool", "type": "pool" },
+    { "url": "/images/hotels/bayerischer-hof-munich-bavaria/spa.webp", "alt": "bayerischer-hof-munich-bavaria — spa", "type": "spa" },
+    { "url": "/images/hotels/bayerischer-hof-munich-bavaria/dining.webp", "alt": "bayerischer-hof-munich-bavaria — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 4.6,
+  "tripadvisor_award": true,
+  "couples_review_pct": 74,
+  "content": {
+    "verdict": "Hotel Bayerischer Hof is Munich’s grande dame — a 337-room family-owned (since 1897) grand hotel in the heart of the Altstadt facing the Frauenkirche, founded in 1841 as a private palace and operated continuously since then by the Volkhardt family, now in its fifth generation. The proposition is the unique combination of grand-historic architecture, serious operational scale (337 rooms with 70+ suites, five restaurants, the famous Falk’s Bar, the Night Club basement jazz venue), and what may be Munich’s most extraordinary rooftop: the open-air rooftop pool with panoramic views to the Frauenkirche towers, supplemented by the Garden Atrium and the Blue Spa designed by Andrée Putman. The dining is the second proposition: Atelier (chef Jan Hartwig, three Michelin stars from 2018 to 2023; the chef left in 2023 and the star situation is now in transition under new chef Anton Gschwendtner) is one of the most celebrated dining rooms in Germany; Garden Restaurant, the Trader Vic’s in the basement, and the Falk’s Bar round out the property. The honeymoon proposition is the historic grandeur and full-amenity scale — at Bayerischer Hof you get the full grand-hotel experience with no compromises on amenities. The Mascha-Voss Suites and the Penthouse Suites with Frauenkirche views are some of the most spectacular hotel rooms in Germany. Caveats: at 337 rooms it’s a large hotel with conference and group business — service consistency can drop at peak; the room types vary considerably from charming to disappointing — choose suites or Master Rooms, avoid the cheaper standard categories; and the dining situation at Atelier is currently transitional (verify current Michelin status before counting on it as the Michelin night). The honeymoon move is a Master Suite or Mascha-Voss Suite, 2–3 nights, with a rooftop pool morning and Atelier or Tantris dinner.",
+    "best_room": "A Mascha-Voss Suite (designed by the late designer Mascha Maria Voss) with Frauenkirche view is the honeymoon room — generous square footage, separate sitting room, marble bathroom. For full splurge, the Penthouse Suite. Avoid the cheaper standard categories — they’re fine but lose the grandeur.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival and Atelier dinner", "description": "Fly Munich (MUC) — 30-min taxi to Bayerischer Hof. Check-in to your Mascha-Voss Suite, welcome champagne. Dinner at Atelier (verify current Michelin status; alternatively Garden Restaurant)." },
+      { "day": 2, "title": "Munich walking day", "description": "Walk Marienplatz, the Residenz, the Pinakothek museums. Lunch at Augustiner Stammhaus. Englischer Garten in afternoon. Evening at Falk’s Bar or the Night Club for jazz." },
+      { "day": 3, "title": "Bavarian State Opera evening", "description": "Pinakothek der Moderne morning, lunch at Tantris (2 stars). Evening at the Bayerische Staatsoper — opera or ballet (book 3–6 months ahead)." },
+      { "day": 4, "title": "Day trip to Neuschwanstein", "description": "Pre-booked train + tour. Return by 7pm. Dinner at Garden Restaurant on the rooftop." },
+      { "day": 5, "title": "Transfer to alpine half", "description": "Drive 1h 30min to Schloss Elmau, Bachmair Weissach, or Kempinski Berchtesgaden." },
+      { "day": 6, "title": "Alpine day", "description": "Spa, walking, dinner at chosen alpine base." },
+      { "day": 7, "title": "Slow departure", "description": "Drive back to MUC for departure." }
+    ],
+    "caveats": [
+      "Large 337-room hotel — service consistency varies and peak-time lobby is busy.",
+      "Room categories vary widely from disappointing-standard to outstanding-suite. Choose suites or Master Rooms; avoid the cheaper categories at this price point.",
+      "Atelier’s Michelin situation is in transition — verify current star status before counting on it as the Michelin night."
+    ],
+    "faqs": [
+      { "question": "Good for honeymooners?", "answer": "Yes for the city portion of a Bavarian honeymoon — particularly for couples who want grand-historic Munich. Choose suites; skip standard rooms." },
+      { "question": "Best time to visit?", "answer": "May, June, September for Munich. December for Christmas markets — the rooftop pool at Christmas with the Frauenkirche lit is iconic. Avoid Oktoberfest unless that’s the trip." },
+      { "question": "Book in advance?", "answer": "Mascha-Voss Suites and Master Rooms for peak months and December: 3–5 months ahead. Penthouse: 6–9 months. Oktoberfest: 12 months." },
+      { "question": "Adults-only?", "answer": "No. Family-friendly grande dame — but the suite floors are naturally adult-skewing." },
+      { "question": "Best room type?", "answer": "Mascha-Voss Suite or Master Room with Frauenkirche view. For full splurge, Penthouse. Avoid cheap standard rooms at this price." },
+      { "question": "How to get there?", "answer": "Munich airport (MUC) 30 min by taxi or 40 min by S-Bahn (Marienplatz station 3-min walk from hotel)." }
+    ],
+    "email_template": "Subject: Honeymoon inquiry — Hotel Bayerischer Hof\n\nDear Bayerischer Hof reservations,\n\nWe’d like 2 to 3 nights for the city portion of our honeymoon [DATES] in a Mascha-Voss Suite or Master Room with Frauenkirche view.\n\nQuestions:\n1. Honeymoon arrival turndown (champagne, flowers)?\n2. Atelier reservation on the first evening (current Michelin status please)?\n3. Couples’ treatment at the Blue Spa with rooftop pool access?\n4. Bayerische Staatsoper ticket coordination?\n5. Transfer to our alpine hotel on departure day?\n\nThank you,\n[Your names]"
+  },
+  "booking_urls": {},
+  "last_updated": "2026-06-01T00:00:00.000Z"
+}

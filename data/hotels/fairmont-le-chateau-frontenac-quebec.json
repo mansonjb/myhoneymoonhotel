@@ -1,0 +1,66 @@
+{
+  "slug": "fairmont-le-chateau-frontenac-quebec",
+  "name": "Fairmont Le Château Frontenac",
+  "destination": "quebec",
+  "country": "canada",
+  "seo": {
+    "title": "Château Frontenac: Quebec City Castle Honeymoon Review",
+    "description": "Iconic 1893 castle hotel on the cliffs above the St Lawrence. Score 88/100, from $500/night. Verdict, suite pick, 7-night plan."
+  },
+  "experience_types": ["castle", "luxury", "city"],
+  "honeymoon_score": 88,
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 13,
+    "spa": 11,
+    "award": 15,
+    "pool": 10,
+    "beach": 0,
+    "room_service": 10,
+    "stars": 15,
+    "luxury": 14
+  },
+  "stars": 5,
+  "price_per_night_usd": { "min": 500, "max": 2200 },
+  "adults_only": false,
+  "amenities": ["spa", "indoor-pool", "fine-dining", "concierge", "afternoon-tea", "fireside-bar", "river-views", "gym", "Fairmont-Gold", "historic"],
+  "photos": [
+    { "url": "/images/hotels/fairmont-le-chateau-frontenac-quebec/hero.webp", "alt": "fairmont-le-chateau-frontenac-quebec — hero", "type": "hero" },
+    { "url": "/images/hotels/fairmont-le-chateau-frontenac-quebec/room.webp", "alt": "fairmont-le-chateau-frontenac-quebec — room", "type": "room" },
+    { "url": "/images/hotels/fairmont-le-chateau-frontenac-quebec/pool.webp", "alt": "fairmont-le-chateau-frontenac-quebec — pool", "type": "pool" },
+    { "url": "/images/hotels/fairmont-le-chateau-frontenac-quebec/spa.webp", "alt": "fairmont-le-chateau-frontenac-quebec — spa", "type": "spa" },
+    { "url": "/images/hotels/fairmont-le-chateau-frontenac-quebec/dining.webp", "alt": "fairmont-le-chateau-frontenac-quebec — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 4.6,
+  "tripadvisor_award": true,
+  "couples_review_pct": 76,
+  "content": {
+    "verdict": "Fairmont Le Château Frontenac is the most photographed hotel in the world (per its own marketing — and arguably true), a Scottish-baronial copper-roofed castle commissioned by William Van Horne of the Canadian Pacific Railway in 1893 to anchor the Quebec end of his transcontinental line, expanded continuously through to the 1990s, and now a 610-room Fairmont property that defines the silhouette of Old Quebec City from every direction. The location is the entire honeymoon proposition: the castle sits on Cap Diamant, a cliff above the St Lawrence River that forms the southeast wall of Old Quebec — walk out the front door and you’re on the Terrasse Dufferin (the wooden boardwalk along the river); walk out the back and you’re in the Place d’Armes at the heart of the walled Upper Town. Inside the building: 14 restaurants and bars, an Art Nouveau staircase, a Champlain dining room with views over the river, the 1608 Bar (Quebec’s oldest), an indoor pool and Fairmont Spa, and the Fairmont Gold concierge floor (private lounge, complimentary breakfast and evening canapés, dedicated check-in) — which is the honeymoon move for couples who want a sub-experience within the larger hotel. The caveats are the size (610 rooms means lobby crowds, cruise-ship and conference traffic, and impersonal service at peak times), the wide price variation between room types (a city-view room is half the price of a river-view, with vastly different honeymoon impact), and the soft service standard relative to a Relais & Châteaux. But for a couple whose Quebec honeymoon hinges on staying inside the most iconic hotel in Canada, in Old Quebec’s historic centre, with the St Lawrence framing the bed — the Frontenac in a Fairmont Gold St Lawrence-view room is the only call. The defining moment: morning coffee on the room balcony with the river fog burning off, the cruise ship in the basin below, and the Terrasse Dufferin not yet crowded.",
+    "best_room": "A Fairmont Gold Signature St Lawrence View room (Fairmont Gold floor concierge, private lounge, complimentary breakfast and evening canapés, river-facing window) is the honeymoon move at sensible budget. For full splurge, the Frontenac Suite or the Royal Suite. Avoid interior-facing city-view rooms — they’re 50% of the cost and 20% of the experience.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival and Champlain dinner", "description": "Fly Quebec City (YQB) — 25-min taxi to the Frontenac. Check-in to Fairmont Gold St Lawrence View, welcome cocktails in the Gold Lounge. Dinner at Le Champlain (river-facing dining room)." },
+      { "day": 2, "title": "Old Quebec walking day", "description": "Morning walk Upper Town — Place d’Armes, Quartier des Artistes, Place Royale. Lunch at Aux Anciens Canadiens (tourtière and game). Afternoon funicular to Lower Town and Petit-Champlain. Cocktails at the 1608 Bar." },
+      { "day": 3, "title": "Île d’Orléans day", "description": "Drive 20 min east to Île d’Orléans — the cider houses (Cassis Monna et Filles, Domaine Steinbach), Saint-Pierre wineries, lunch at La Goéliche with river view. Return for spa treatment at the Fairmont Spa." },
+      { "day": 4, "title": "Montmorency Falls and Wendake", "description": "Morning at Montmorency Falls (higher than Niagara). Lunch at Sagamité in Wendake First Nation village. Afternoon at the Huron-Wendat Museum. Dinner at Le Saint-Amour back in Old Quebec." },
+      { "day": 5, "title": "Day trip to Charlevoix", "description": "1h 30min drive to Baie-Saint-Paul — Le Germain Charlevoix for lunch, Laiterie Charlevoix for cheese tasting, Carrefour Mondial de l’Accordéon if in town. Return for cocktails at the bar." },
+      { "day": 6, "title": "Spa day at the Frontenac", "description": "Long morning at Moment Spa (couples’ treatment in the lavender suite). Lunch poolside. Afternoon in the Gold Lounge with a book. Final dinner at Bistro Le Sam." },
+      { "day": 7, "title": "Slow departure", "description": "Final breakfast in the Gold Lounge, walk on the Plains of Abraham, taxi to YQB for departure." }
+    ],
+    "caveats": [
+      "Large hotel (610 rooms) — lobby and elevators are busy at peak. Fairmont Gold floor is the antidote.",
+      "Massive price variation by room category — city-view rooms are half the price of river-view but the view is the entire reason to be here. Budget for the upgrade.",
+      "Not adults-only — families with children are common, especially during Canadian school holidays (March break, July, late December)."
+    ],
+    "faqs": [
+      { "question": "Good for honeymooners?", "answer": "Yes — particularly for the Fairmont Gold St Lawrence View. The Old Quebec setting and the river view at sunrise are the honeymoon experience. Not for couples who want intimacy of a Relais-scale hotel." },
+      { "question": "Best time to visit?", "answer": "Late September to mid-October for foliage; June–August for warm weather; December for Christmas markets and Carnaval; February for Carnaval de Québec." },
+      { "question": "Book in advance?", "answer": "Fairmont Gold St Lawrence View for peak months (June–Oct, December): 4–6 months ahead. Suites: 6–9 months. Carnaval week (early Feb): 9 months ahead." },
+      { "question": "Adults-only?", "answer": "No. Fairmont Gold floor is the closest you get to an adults-only experience." },
+      { "question": "Best room type?", "answer": "Fairmont Gold Signature St Lawrence View. For splurge, Frontenac Suite. Skip the interior city-view rooms." },
+      { "question": "How to get there?", "answer": "Quebec City Jean Lesage (YQB) is 25-min taxi (~$30 CAD). Montreal (YUL) is 2h 45min drive or 3h train. Major US/EU airlines connect via YUL or YYZ." }
+    ],
+    "email_template": "Subject: Honeymoon inquiry — Fairmont Le Château Frontenac\n\nDear Fairmont Le Château Frontenac reservations,\n\nWe’d like 4 to 6 nights for our honeymoon [DATES] in a Fairmont Gold Signature St Lawrence View room.\n\nQuestions:\n1. Honeymoon arrival turndown (champagne, in-suite dessert)?\n2. Le Champlain reservation with river view on the first evening?\n3. Couples’ treatment at Moment Spa?\n4. Day trip arrangements to Île d’Orléans or Charlevoix?\n5. Late checkout on departure day?\n\nThank you,\n[Your names]"
+  },
+  "booking_urls": {},
+  "last_updated": "2026-06-01T00:00:00.000Z"
+}

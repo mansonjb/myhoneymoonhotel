@@ -85,6 +85,11 @@ import kerala from './kerala'
 import slovenia from './slovenia'
 import ireland from './ireland'
 import banff from './banff'
+import scotland from './scotland'
+import quebec from './quebec'
+import lakeGarda from './lake-garda'
+import bigSur from './big-sur'
+import bavaria from './bavaria'
 
 export const DESTINATION_META: Record<string, DestinationMeta> = {
   'bora-bora': boraBora,
@@ -173,4 +178,9 @@ export const DESTINATION_META: Record<string, DestinationMeta> = {
   'slovenia': slovenia,
   'ireland': ireland,
   'banff': banff,
+  'scotland': scotland,
+  'quebec': quebec,
+  'lake-garda': lakeGarda,
+  'big-sur': bigSur,
+  'bavaria': bavaria,
 }

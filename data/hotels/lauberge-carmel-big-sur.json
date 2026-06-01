@@ -1,0 +1,66 @@
+{
+  "slug": "lauberge-carmel-big-sur",
+  "name": "L'Auberge Carmel",
+  "destination": "big-sur",
+  "country": "usa",
+  "seo": {
+    "title": "L'Auberge Carmel: Carmel-by-the-Sea Honeymoon Review",
+    "description": "20-room Relais & Châteaux inn in Carmel village. Score 88/100, from $800/night. Verdict, suite pick, 7-night plan."
+  },
+  "experience_types": ["boutique", "luxury", "village"],
+  "honeymoon_score": 88,
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 18,
+    "spa": 9,
+    "award": 14,
+    "pool": 0,
+    "beach": 0,
+    "room_service": 10,
+    "stars": 14,
+    "luxury": 14
+  },
+  "stars": 5,
+  "price_per_night_usd": { "min": 800, "max": 2400 },
+  "adults_only": false,
+  "amenities": ["fine-dining", "michelin-star", "boutique", "fireside-bar", "concierge", "library", "in-suite-spa", "wine-cellar", "garden", "village-walk"],
+  "photos": [
+    { "url": "/images/hotels/lauberge-carmel-big-sur/hero.webp", "alt": "lauberge-carmel-big-sur — hero", "type": "hero" },
+    { "url": "/images/hotels/lauberge-carmel-big-sur/room.webp", "alt": "lauberge-carmel-big-sur — room", "type": "room" },
+    { "url": "/images/hotels/lauberge-carmel-big-sur/pool.webp", "alt": "lauberge-carmel-big-sur — pool", "type": "pool" },
+    { "url": "/images/hotels/lauberge-carmel-big-sur/spa.webp", "alt": "lauberge-carmel-big-sur — spa", "type": "spa" },
+    { "url": "/images/hotels/lauberge-carmel-big-sur/dining.webp", "alt": "lauberge-carmel-big-sur — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 4.9,
+  "tripadvisor_award": true,
+  "couples_review_pct": 88,
+  "content": {
+    "verdict": "L’Auberge Carmel is the most consistently celebrated small luxury hotel on the Monterey Peninsula — a 20-room Relais & Châteaux inn in a 1929 Mediterranean-Revival mansion in the heart of Carmel-by-the-Sea, four blocks from the beach and three from the village shopping district, owned by the Mirassou family (of the Mirassou wine dynasty) and operated as the rare combination of small-scale country inn and serious culinary destination. The lodging is intentionally small: 20 individually decorated rooms, no two alike, with restored 1929 architectural details (original tiled bathrooms, hardwood floors, archways), goose-down bedding, and Carmel-village garden views. There is no pool, no full spa (in-suite massages only), and no fitness centre — the inn is deliberately not trying to be a resort. What it is, is the food: Aubergine restaurant has held a Michelin star since 2011 and is widely considered the best fine-dining room in Carmel, with a 10-course tasting menu and a wine cellar of 4,500 selections including the deepest Carmel Valley pinot collection in the region. The honeymoon proposition is the contrast with the cliff-edge Big Sur hotels: where Post Ranch and Ventana are about scenery, L’Auberge is about food and village. The walk from your room to Carmel Beach (white sand, dogs running, cypress trees twisted by the wind) is five minutes; the Carmel village gallery scene (over 100 galleries) is two minutes; and the dining at Aubergine is at the level of any restaurant in San Francisco. The honeymoon move is 3 nights here paired with 3 nights at Post Ranch — village then cliff. Caveats: no pool, no view (it’s a village inn), and the room sizes vary considerably across the 20 (some are smaller than the price suggests).",
+    "best_room": "A Premier Suite (the largest category, with separate sitting area and the best garden view) is the honeymoon room. For smaller budget, any Premier King room. The room differences are significant — ask reservations for specific room recommendations or photos.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival and Aubergine dinner", "description": "Fly Monterey (MRY) — 15-min drive to Carmel. Check-in to your Premier Suite, welcome champagne. Dinner at Aubergine (10-course tasting menu with paired wines)." },
+      { "day": 2, "title": "Carmel village and beach day", "description": "Walk Carmel-by-the-Sea — galleries, the historic Tor House, Carmel Beach at sunset. Lunch at La Bicyclette. Evening at the inn’s drawing room with the wine cellar." },
+      { "day": 3, "title": "17-Mile Drive and Pebble Beach", "description": "Drive the 17-Mile Drive — Lone Cypress, Spanish Bay, Pebble Beach Lodge for lunch. Afternoon at the Monterey Bay Aquarium." },
+      { "day": 4, "title": "Carmel Valley wine day", "description": "30-min drive to Carmel Valley — Bernardus, Talbott, Holman Ranch tastings. Lunch at Lucia at Bernardus. Return for dinner at Aubergine (request a different table)." },
+      { "day": 5, "title": "Transfer to Big Sur cliff", "description": "Drive 1h south on Highway 1 to Post Ranch Inn for the cliff half of the honeymoon." },
+      { "day": 6, "title": "Big Sur drive", "description": "Highway 1 — Bixby Bridge, Pfeiffer Beach, McWay Falls, Nepenthe lunch." },
+      { "day": 7, "title": "Slow departure", "description": "Final breakfast at Post Ranch, drive 1h to Monterey airport." }
+    ],
+    "caveats": [
+      "No pool, no spa building — in-suite massages only. For pool, Bernardus Lodge is 30 min inland.",
+      "Room sizes vary considerably — some are smaller than the price suggests. Confirm room category and ask for specific photos.",
+      "Not adults-only — but the 20-room scale and Aubergine clientele keep the property naturally adult."
+    ],
+    "faqs": [
+      { "question": "Good for honeymooners?", "answer": "Yes — particularly for couples who prioritise food and village over view and amenities. The Aubergine dinner, Carmel walks, and Premier Suite are the honeymoon trifecta." },
+      { "question": "Best time to visit?", "answer": "April–October. September and October are the secret best months — fog burns off by late morning, low crowds. Avoid August fog." },
+      { "question": "Book in advance?", "answer": "Premier Suite for peak months: 6–9 months ahead. Premier King: 3–5 months. Aubergine dinner reservations: book at the time of room reservation." },
+      { "question": "Adults-only?", "answer": "No, but the 20-room scale and refined atmosphere keep families minimal." },
+      { "question": "Best room type?", "answer": "Premier Suite for the largest room. The Premier Kings are well-decorated but more compact. Request specific room photos from reservations." },
+      { "question": "How to get there?", "answer": "Monterey (MRY) 15 min by car. SFO 2h. SJC 1h 30min. Hotel arranges transfer." }
+    ],
+    "email_template": "Subject: Honeymoon inquiry — L'Auberge Carmel\n\nDear L’Auberge Carmel reservations,\n\nWe’d like 3 to 4 nights for our honeymoon [DATES] in a Premier Suite.\n\nQuestions:\n1. Could you confirm specific room availability and photos of the Premier Suite category?\n2. Honeymoon arrival turndown (champagne, dessert)?\n3. Aubergine tasting menu reservation on the first evening?\n4. In-suite couples’ massage?\n5. Carmel Valley wine-tour driver for one day?\n\nThank you,\n[Your names]"
+  },
+  "booking_urls": {},
+  "last_updated": "2026-06-01T00:00:00.000Z"
+}

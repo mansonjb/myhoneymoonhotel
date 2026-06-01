@@ -1,0 +1,66 @@
+{
+  "slug": "carmel-valley-ranch-big-sur",
+  "name": "Carmel Valley Ranch",
+  "destination": "big-sur",
+  "country": "usa",
+  "seo": {
+    "title": "Carmel Valley Ranch: Wine-Country Honeymoon Review",
+    "description": "Hyatt luxury resort on 500 valley acres with golf and spa. Score 82/100, from $600/night. Verdict, suite pick, 7-night plan."
+  },
+  "experience_types": ["luxury", "wine-country", "ranch"],
+  "honeymoon_score": 82,
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 13,
+    "spa": 12,
+    "award": 11,
+    "pool": 10,
+    "beach": 0,
+    "room_service": 9,
+    "stars": 13,
+    "luxury": 12
+  },
+  "stars": 5,
+  "price_per_night_usd": { "min": 600, "max": 1800 },
+  "adults_only": false,
+  "amenities": ["spa", "outdoor-pool", "championship-golf", "tennis", "vineyard", "fine-dining", "concierge", "lavender-farm", "hiking", "yoga"],
+  "photos": [
+    { "url": "/images/hotels/carmel-valley-ranch-big-sur/hero.webp", "alt": "carmel-valley-ranch-big-sur — hero", "type": "hero" },
+    { "url": "/images/hotels/carmel-valley-ranch-big-sur/room.webp", "alt": "carmel-valley-ranch-big-sur — room", "type": "room" },
+    { "url": "/images/hotels/carmel-valley-ranch-big-sur/pool.webp", "alt": "carmel-valley-ranch-big-sur — pool", "type": "pool" },
+    { "url": "/images/hotels/carmel-valley-ranch-big-sur/spa.webp", "alt": "carmel-valley-ranch-big-sur — spa", "type": "spa" },
+    { "url": "/images/hotels/carmel-valley-ranch-big-sur/dining.webp", "alt": "carmel-valley-ranch-big-sur — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 4.5,
+  "tripadvisor_award": false,
+  "couples_review_pct": 66,
+  "content": {
+    "verdict": "Carmel Valley Ranch is the most generously scaled luxury resort in Carmel Valley — a 139-suite Hyatt property on 500 acres of valley meadow, oak, and vineyard, with a Pete Dye-designed championship golf course wrapping the resort, a working bee yard (the on-site beekeeping programme is unusual and genuinely fun), a saltwater pool with mountain view, a 10,000m² spa (Spa Aiyana with Native Californian wellness traditions), and lavender fields in summer. The property is positioned as a luxury family-and-couples resort — not adults-only, but the suites are widely spaced across the 500-acre property in clusters so the couples areas (pool, spa, vineyard, lavender garden) operate in different parts of the property from the family areas. The honeymoon proposition is the price-to-amenity ratio: at roughly $600–$1,200 per night, Carmel Valley Ranch delivers a serious 5-star resort experience at half the cost of Bernardus Lodge next door. Caveats: the Hyatt operating standard is good but not Relais & Châteaux — service consistency varies; the resort is large (139 suites means it can feel busy at peak); and the dining at Valley Kitchen is good but not destination-level. For honeymoon, choose Bernardus or L’Auberge if budget permits. But for couples on a sensible budget who want the wine-country experience with serious amenities — the Vineyard Suite at Carmel Valley Ranch is excellent value, and the bee-and-lavender programme is a uniquely fun honeymoon addition. The honeymoon move is the Vineyard Suite for 3 nights paired with a Big Sur cliff hotel for 3 nights.",
+    "best_room": "A Vineyard Suite (best position on the property with vineyard view and private deck) is the honeymoon room. For more splurge, the Lavender Suite during summer (Jun–Aug). Skip the standard Spa Suites — fine but lose the view differentiator.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival and Valley Kitchen dinner", "description": "Fly Monterey (MRY) — 30-min drive inland. Check-in to your Vineyard Suite, welcome aperitivo. Dinner at Valley Kitchen with a vineyard view." },
+      { "day": 2, "title": "Spa and golf or bee day", "description": "Morning at the spa, lunch at the pool. Afternoon golf on the Pete Dye course or the resort’s bee-keeping experience (50-min programme with the resident beekeeper)." },
+      { "day": 3, "title": "Carmel Valley wine day", "description": "Visit 3 vineyards — Bernardus, Talbott, Holman Ranch. Lunch at Lucia at Bernardus. Spa afternoon." },
+      { "day": 4, "title": "Carmel-by-the-Sea day", "description": "30-min drive to Carmel-by-the-Sea — beach walk, gallery browsing, lunch at La Bicyclette. Return for the resort’s lavender garden in summer." },
+      { "day": 5, "title": "Transfer to Big Sur", "description": "Drive 1h south to Post Ranch or Ventana for the cliff-edge half." },
+      { "day": 6, "title": "Big Sur drive day", "description": "Highway 1 — Bixby, Pfeiffer Beach, McWay Falls, Nepenthe lunch." },
+      { "day": 7, "title": "Slow departure", "description": "Cliff breakfast, drive 1h to Monterey airport." }
+    ],
+    "caveats": [
+      "Hyatt operating standard — good but service consistency varies. Bernardus next door is a step up at higher price.",
+      "Family-friendly resort, not adults-only — but the 500-acre footprint means families and couples occupy different zones.",
+      "Lavender programme is summer-only (Jun–Aug) — the lavender harvest is genuinely magical but not available the rest of the year."
+    ],
+    "faqs": [
+      { "question": "Good for honeymooners?", "answer": "Yes as the affordable end of Carmel Valley wine country — particularly for couples who want serious amenities (golf, large spa) at sensible price. Step up to Bernardus if budget allows." },
+      { "question": "Best time to visit?", "answer": "April–October. June–August for lavender. September–October are the secret best months — harvest, warm, low coastal fog." },
+      { "question": "Book in advance?", "answer": "Vineyard Suite for peak months: 3–5 months ahead. Lavender Suite (summer-only): 6–9 months. Standard rooms: 2–3 months." },
+      { "question": "Adults-only?", "answer": "No. Family-friendly but the 500-acre scale means families and couples don’t overlap much." },
+      { "question": "Best room type?", "answer": "Vineyard Suite. Lavender Suite in summer. Skip Spa Suites without view." },
+      { "question": "How to get there?", "answer": "Monterey (MRY) 30 min by car. SFO 2h. SJC 1h 30min. Hotel arranges transfer." }
+    ],
+    "email_template": "Subject: Honeymoon inquiry — Carmel Valley Ranch\n\nDear Carmel Valley Ranch reservations,\n\nWe’d like 3 to 4 nights for our honeymoon [DATES] in a Vineyard Suite or Lavender Suite (if Jun–Aug).\n\nQuestions:\n1. Honeymoon arrival turndown (champagne, flowers)?\n2. Couples’ treatment at Spa Aiyana?\n3. Bee-keeping experience for two?\n4. Golf-or-vineyard driver-day arrangements?\n5. Late checkout on departure?\n\nThank you,\n[Your names]"
+  },
+  "booking_urls": {},
+  "last_updated": "2026-06-01T00:00:00.000Z"
+}

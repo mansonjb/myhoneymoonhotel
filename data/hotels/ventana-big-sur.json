@@ -1,0 +1,66 @@
+{
+  "slug": "ventana-big-sur",
+  "name": "Ventana Big Sur",
+  "destination": "big-sur",
+  "country": "usa",
+  "seo": {
+    "title": "Ventana Big Sur: Adults-Only Coast Honeymoon Review",
+    "description": "Adults-only Alila resort on Big Sur cliffs. Score 89/100, from $1,200/night. Verdict, suite pick, 7-night plan."
+  },
+  "experience_types": ["adults-only", "luxury", "cliff-edge"],
+  "honeymoon_score": 89,
+  "score_breakdown": {
+    "adults_only": 10,
+    "couples_pct": 20,
+    "spa": 13,
+    "award": 13,
+    "pool": 10,
+    "beach": 0,
+    "room_service": 9,
+    "stars": 13,
+    "luxury": 14
+  },
+  "stars": 5,
+  "price_per_night_usd": { "min": 1200, "max": 3800 },
+  "adults_only": true,
+  "amenities": ["adults-only", "spa", "outdoor-pool", "fine-dining", "ocean-views", "yoga", "concierge", "stargazing", "glamping", "redwood-forest"],
+  "photos": [
+    { "url": "/images/hotels/ventana-big-sur/hero.webp", "alt": "ventana-big-sur — hero", "type": "hero" },
+    { "url": "/images/hotels/ventana-big-sur/room.webp", "alt": "ventana-big-sur — room", "type": "room" },
+    { "url": "/images/hotels/ventana-big-sur/pool.webp", "alt": "ventana-big-sur — pool", "type": "pool" },
+    { "url": "/images/hotels/ventana-big-sur/spa.webp", "alt": "ventana-big-sur — spa", "type": "spa" },
+    { "url": "/images/hotels/ventana-big-sur/dining.webp", "alt": "ventana-big-sur — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 4.7,
+  "tripadvisor_award": true,
+  "couples_review_pct": 90,
+  "content": {
+    "verdict": "Ventana Big Sur is the second great cliff-edge adults-only resort on the Big Sur coast — a 59-room Alila by Hyatt property on 160 acres immediately south of Post Ranch Inn, sharing the same headland and effectively the same view, with a more contemporary architectural language and roughly two-thirds the per-night price. Opened in 1975 and substantially rebuilt in 2017 when Alila took over, Ventana now operates as adults-only (minimum age 18), all-inclusive (rates include breakfast, lunch, and unlimited wine and beer through the day — a genuine differentiator), and with a more relaxed atmosphere than the highly choreographed Post Ranch. Rooms are distributed across the cliff in clusters connected by wooded paths — the highest-grade Vista Suites have ocean views, private decks, fireplaces, and freestanding baths; the Glampsites (luxury safari-style canvas tents on platforms in the redwood grove) are an unusual and genuinely fun honeymoon option for one or two nights of the trip; and the Sur House restaurant has terrace dining with the Pacific in front. Two pools (one heated upper, one Japanese soaking bath), the Spa Alila (six treatment rooms, signature redwood-essence massage), and walking trails through the property to the cliff-edge meditation deck and the sunset terrace round out the proposition. The honeymoon move at Ventana is the Vista Suite for 3 nights, with one Glampsite night for variety, with daily yoga and a Sierra Mar non-resident dinner reservation at Post Ranch one evening for the special-occasion moment. Caveats: Ventana is not Post Ranch — the architecture is good rather than transcendent, the cliff-edge moments are slightly less dramatic, and the dining at Sur House is good rather than world-class. But for 70% of the experience at 60% of the price with all-inclusive food and drink — Ventana is the smart honeymoon move.",
+    "best_room": "A Vista Suite (premier ocean-view room with private deck, fireplace, freestanding bath) is the honeymoon room. For variety, swap one night for a luxury Glampsite in the redwood grove. Avoid the Garden Suites without ocean view — the view is the differentiator.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival and Sur House dinner", "description": "Fly Monterey (MRY) — 1h drive south. Check-in to your Vista Suite, welcome champagne. Dinner at Sur House on the terrace." },
+      { "day": 2, "title": "Big Sur drive south", "description": "Drive Highway 1 south — Bixby Bridge, Pfeiffer Beach, McWay Falls. Lunch at Nepenthe. Return for sunset at the upper pool." },
+      { "day": 3, "title": "Spa day", "description": "Morning yoga at the cliff-edge deck. Long midday at the Spa Alila — couples’ redwood-essence massage. Lunch on your deck. Evening Japanese soaking bath under the redwoods." },
+      { "day": 4, "title": "Sierra Mar special-occasion night", "description": "Move into a Glampsite for one night in the redwood grove. Dinner at Sierra Mar next door at Post Ranch (book 60 days ahead — non-resident dinner reservations are rare but possible). Return for stargazing." },
+      { "day": 5, "title": "Carmel-by-the-Sea day", "description": "Drive 30 min north to Carmel — beach walk, gallery browsing, lunch at La Bicyclette. Return for the evening." },
+      { "day": 6, "title": "Slow cliff day", "description": "Morning at the upper pool, lunch on the deck, afternoon redwood walks. Final dinner at Sur House with paired wines." },
+      { "day": 7, "title": "Slow departure", "description": "Final breakfast on the deck, drive 1h to Monterey airport." }
+    ],
+    "caveats": [
+      "Adults-only — minimum age 18. No exceptions.",
+      "Highway 1 closure risk from mudslides — check Caltrans before flying.",
+      "Sur House dining is good but not Sierra Mar level — for the special-occasion night, book a non-resident reservation at Post Ranch’s Sierra Mar."
+    ],
+    "faqs": [
+      { "question": "Good for honeymooners?", "answer": "Yes — the second-best honeymoon hotel on Big Sur after Post Ranch, with a more relaxed atmosphere and all-inclusive value. The Vista Suite plus one Glampsite night is the honeymoon move." },
+      { "question": "Best time to visit?", "answer": "April, May, September, October — best fog burn-off and warmest weather. June–August has more coastal fog. December has storm drama and the Keyhole Rock alignment." },
+      { "question": "Book in advance?", "answer": "Vista Suites for peak months: 6–9 months ahead. Glampsites: 4–6 months. Sierra Mar non-resident dinner reservation at Post Ranch: 60 days ahead through Post Ranch concierge." },
+      { "question": "Adults-only?", "answer": "Yes. Minimum age 18." },
+      { "question": "Best room type?", "answer": "Vista Suite with ocean view, fireplace, deck. Try one Glampsite night for variety. Skip Garden Suites without view." },
+      { "question": "How to get there?", "answer": "Monterey (MRY) is 1h drive south on Highway 1. SFO 2h 45min. SJC 1h 45min. Hotel arranges transfer." }
+    ],
+    "email_template": "Subject: Honeymoon inquiry — Ventana Big Sur\n\nDear Ventana reservations,\n\nWe’d like 4 to 5 nights for our honeymoon [DATES] in a Vista Suite, plus one night in a Glampsite if availability allows.\n\nQuestions:\n1. Honeymoon arrival turndown (champagne, flowers)?\n2. Couples’ redwood-essence treatment at Spa Alila?\n3. Daily yoga schedule and reserved spots?\n4. Assistance with a Sierra Mar non-resident dinner reservation at Post Ranch?\n5. Transfer from Monterey airport?\n\nThank you,\n[Your names]"
+  },
+  "booking_urls": {},
+  "last_updated": "2026-06-01T00:00:00.000Z"
+}

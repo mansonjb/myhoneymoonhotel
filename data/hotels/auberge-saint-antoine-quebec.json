@@ -1,0 +1,66 @@
+{
+  "slug": "auberge-saint-antoine-quebec",
+  "name": "Auberge Saint-Antoine",
+  "destination": "quebec",
+  "country": "canada",
+  "seo": {
+    "title": "Auberge Saint-Antoine: Quebec City Boutique Honeymoon Review",
+    "description": "Relais & Châteaux boutique in Lower Quebec. Score 89/100, from $400/night. Verdict, suite pick, 7-night plan."
+  },
+  "experience_types": ["boutique", "luxury", "city"],
+  "honeymoon_score": 89,
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 17,
+    "spa": 10,
+    "award": 14,
+    "pool": 0,
+    "beach": 0,
+    "room_service": 10,
+    "stars": 15,
+    "luxury": 14
+  },
+  "stars": 5,
+  "price_per_night_usd": { "min": 400, "max": 1800 },
+  "adults_only": false,
+  "amenities": ["fine-dining", "fireside-bar", "boutique", "concierge", "library", "afternoon-tea", "river-views", "historic", "spa-treatments", "art-collection"],
+  "photos": [
+    { "url": "/images/hotels/auberge-saint-antoine-quebec/hero.webp", "alt": "auberge-saint-antoine-quebec — hero", "type": "hero" },
+    { "url": "/images/hotels/auberge-saint-antoine-quebec/room.webp", "alt": "auberge-saint-antoine-quebec — room", "type": "room" },
+    { "url": "/images/hotels/auberge-saint-antoine-quebec/pool.webp", "alt": "auberge-saint-antoine-quebec — pool", "type": "pool" },
+    { "url": "/images/hotels/auberge-saint-antoine-quebec/spa.webp", "alt": "auberge-saint-antoine-quebec — spa", "type": "spa" },
+    { "url": "/images/hotels/auberge-saint-antoine-quebec/dining.webp", "alt": "auberge-saint-antoine-quebec — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 4.8,
+  "tripadvisor_award": true,
+  "couples_review_pct": 86,
+  "content": {
+    "verdict": "Auberge Saint-Antoine is the boutique alternative to the Château Frontenac for couples who want a more intimate Quebec City honeymoon — a Relais & Châteaux 95-room hotel built into a complex of restored 17th- and 18th-century maritime warehouses in Lower Quebec, at the harbour end of the Petit-Champlain district, owned and operated since 1992 by the Price family (whose own family roots in Lower Town pre-date Confederation), and consistently rated the best hotel in Quebec City. The building is genuinely unique: archaeological artefacts uncovered during the construction (French and British military buttons, clay pipes, Iroquois pottery from the 14th century) are displayed in cases throughout the lobby and corridors — the hotel doubles as a small archaeological museum of pre-industrial Quebec. The rooms are individually designed, mostly with exposed limestone walls and timber ceilings from the original warehouses, many with St Lawrence River views and a few with private terraces facing the harbour and the cruise-ship basin. The Chez Muffy restaurant (Quebec farmhouse cuisine, in the converted 1822 warehouse) and Café-Bar Artefact are both excellent; the hotel sources from its own farm 30 minutes east in L’Île d’Orléans. The honeymoon proposition is the contrast with the Frontenac: where the Frontenac is iconic-but-large, Saint-Antoine is intimate-and-distinctive. The river views are equally good (the harbour view from Auberge’s premium rooms is arguably more interesting than the Frontenac’s open-river view, with ferries, cruise ships, and the Lévis cliffs across the water). The walk to Place Royale and the Funiculaire to Upper Town is two minutes. The honeymoon move is the Vue Sur Le Fleuve suite or a Premier River View room, 4–5 nights, with a dinner at Chez Muffy, a Petit-Champlain walking day, and a day in Charlevoix.",
+    "best_room": "A Premier Suite with private terrace and river view (the few of these on the harbour side are the romance picks). For a smaller budget, any Premier River View room (50m² with limestone walls and harbour view). Avoid interior-facing standard rooms — the river view is the reason to be here.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival and Chez Muffy dinner", "description": "Fly Quebec City (YQB) — 25-min taxi to Auberge. Check-in to a Premier River View room, welcome champagne. Dinner at Chez Muffy (Quebec farmhouse tasting menu)." },
+      { "day": 2, "title": "Petit-Champlain and Lower Town", "description": "Walking morning in Petit-Champlain — Quebec’s oldest commercial street. Lunch at Sapristi. Afternoon at the Musée de la Civilisation. Cocktails in the Artefact bar." },
+      { "day": 3, "title": "Upper Town and Plains of Abraham", "description": "Funiculaire to Upper Town. Walk the Terrasse Dufferin, Plains of Abraham, lunch at L’Affaire est Ketchup. Afternoon in the Musée des Beaux-Arts." },
+      { "day": 4, "title": "Île d’Orléans day", "description": "Drive 20 min east to the island — cider houses, strawberry farms, lunch at La Goéliche on the riverside. Return for dinner at Légende (one Michelin star)." },
+      { "day": 5, "title": "Charlevoix day trip", "description": "Drive 1h 30min northeast to Baie-Saint-Paul — Le Germain Charlevoix for lunch, galleries on rue Saint-Jean-Baptiste, Laiterie Charlevoix cheese tasting." },
+      { "day": 6, "title": "Spa morning and Petit-Champlain shopping", "description": "Morning in-suite spa treatment for two. Afternoon shopping in Petit-Champlain. Final dinner at Chez Muffy with paired wines." },
+      { "day": 7, "title": "Slow departure", "description": "Final breakfast in the Artefact, last walk along the harbour, taxi to YQB." }
+    ],
+    "caveats": [
+      "No pool, no full spa. Auberge offers in-suite spa treatments by a visiting team — excellent quality but no thermal facilities or pool. For pool, the Frontenac next door.",
+      "Quebec City’s Lower Town can be busy with cruise-ship arrivals (May–October) — the Auberge’s private courtyard and terraces are the antidote.",
+      "Not adults-only — families with older children are common, but the Relais scale keeps the property naturally adult."
+    ],
+    "faqs": [
+      { "question": "Good for honeymooners?", "answer": "Yes — arguably the best hotel in Quebec for couples wanting a boutique alternative to the Frontenac. The river-view rooms, Chez Muffy, and Petit-Champlain location are the honeymoon trifecta." },
+      { "question": "Best time to visit?", "answer": "Late September to mid-October for foliage; June–August for warm weather; December for Christmas atmosphere. Carnaval (early February) is uniquely magical." },
+      { "question": "Book in advance?", "answer": "River-view suites for peak months: 4–6 months ahead. Standard river-view rooms: 2–4 months. Carnaval week: 9 months ahead." },
+      { "question": "Adults-only?", "answer": "No, but the Relais & Châteaux scale (95 rooms) and operating standard keep the property naturally adult." },
+      { "question": "Best room type?", "answer": "Premier Suite with private terrace and harbour view. For smaller budget, any Premier River View room. Skip interior-facing standard rooms." },
+      { "question": "How to get there?", "answer": "Quebec City Jean Lesage (YQB) is 25-min taxi (~$30 CAD). Hotel valet parking is available if driving from Montreal." }
+    ],
+    "email_template": "Subject: Honeymoon inquiry — Auberge Saint-Antoine\n\nDear Auberge Saint-Antoine reservations,\n\nWe’d like 4 to 5 nights for our honeymoon [DATES] in a Premier Suite with terrace and harbour view, or a Premier River View room if unavailable.\n\nQuestions:\n1. Honeymoon arrival turndown (champagne, flowers)?\n2. Chez Muffy reservation on the first evening?\n3. In-suite couples’ spa treatment?\n4. Day trip to Île d’Orléans — driver and guide?\n5. Late checkout on departure?\n\nThank you,\n[Your names]"
+  },
+  "booking_urls": {},
+  "last_updated": "2026-06-01T00:00:00.000Z"
+}

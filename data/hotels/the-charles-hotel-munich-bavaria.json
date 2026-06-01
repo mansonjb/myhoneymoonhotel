@@ -1,0 +1,66 @@
+{
+  "slug": "the-charles-hotel-munich-bavaria",
+  "name": "The Charles Hotel, A Rocco Forte Hotel",
+  "destination": "bavaria",
+  "country": "germany",
+  "seo": {
+    "title": "The Charles Hotel Munich: Rocco Forte Honeymoon Review",
+    "description": "Rocco Forte boutique-luxe near Munich's Old Botanical Garden. Score 84/100, from $500/night. Verdict, suite pick, 7-night plan."
+  },
+  "experience_types": ["luxury", "city", "boutique"],
+  "honeymoon_score": 84,
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 13,
+    "spa": 12,
+    "award": 12,
+    "pool": 9,
+    "beach": 0,
+    "room_service": 10,
+    "stars": 14,
+    "luxury": 13
+  },
+  "stars": 5,
+  "price_per_night_usd": { "min": 500, "max": 2200 },
+  "adults_only": false,
+  "amenities": ["spa", "indoor-pool", "fine-dining", "concierge", "boutique", "fitness", "city-center", "garden-views", "afternoon-tea", "Rocco-Forte"],
+  "photos": [
+    { "url": "/images/hotels/the-charles-hotel-munich-bavaria/hero.webp", "alt": "the-charles-hotel-munich-bavaria — hero", "type": "hero" },
+    { "url": "/images/hotels/the-charles-hotel-munich-bavaria/room.webp", "alt": "the-charles-hotel-munich-bavaria — room", "type": "room" },
+    { "url": "/images/hotels/the-charles-hotel-munich-bavaria/pool.webp", "alt": "the-charles-hotel-munich-bavaria — pool", "type": "pool" },
+    { "url": "/images/hotels/the-charles-hotel-munich-bavaria/spa.webp", "alt": "the-charles-hotel-munich-bavaria — spa", "type": "spa" },
+    { "url": "/images/hotels/the-charles-hotel-munich-bavaria/dining.webp", "alt": "the-charles-hotel-munich-bavaria — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 4.7,
+  "tripadvisor_award": true,
+  "couples_review_pct": 76,
+  "content": {
+    "verdict": "The Charles Hotel is Rocco Forte’s Munich flagship — a 160-room contemporary luxury hotel opened in 2007 overlooking the Old Botanical Garden, three blocks west of the Marienplatz, and operated to the Rocco Forte standard (Italian-family-owned hotel group, polished but slightly more relaxed than the Mandarin or Bayerischer Hof). The proposition is the contrast with the historic central Munich hotels: where Mandarin Oriental is intimate-historic and Bayerischer Hof is grand-traditional, The Charles is contemporary-elegant, with the largest indoor pool in central Munich (25m), the most spacious modern rooms in the city centre (entry rooms are 35m² — large by Altstadt standards), and a quieter location two blocks from the Karlsplatz than the Marienplatz hotels. Sophia’s Restaurant & Bar is the in-house restaurant (urban-botanical inspired by the gardens outside the window, well-reviewed but not Michelin); the spa is good but compact. The honeymoon proposition is the better-value alternative to Mandarin or Bayerischer Hof — Premier Junior Suites at €500–€700/night versus €900+ at the Mandarin, with the same Altstadt access and a more relaxed atmosphere. Caveats: the architecture is contemporary not historic, so couples wanting the period-Munich feeling should choose Mandarin or Bayerischer Hof; service is good but not Mandarin-precise; and the dining is good rather than destination-level. But for couples on a sensible city budget who want a Rocco Forte standard in a contemporary luxury hotel — The Charles is the smart Munich move. The honeymoon move is a Junior Suite with garden view for 2–3 nights at the start of a Bavarian honeymoon.",
+    "best_room": "A Junior Suite with Old Botanical Garden view (south side of the hotel, the green tree canopy from your window) is the honeymoon room. For full splurge, the Charles Suite. Avoid the north-side standard rooms — they face an internal courtyard.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival and Sophia's dinner", "description": "Fly Munich (MUC) — 30-min taxi to the hotel. Check-in to your Junior Suite with garden view. Welcome champagne, dinner at Sophia’s." },
+      { "day": 2, "title": "Munich walking day", "description": "Walk to Marienplatz (10 min), the Residenz, the Pinakothek museums. Lunch at Augustiner Stammhaus. Englischer Garten in afternoon. Beer-hall evening at the Hofbräuhaus." },
+      { "day": 3, "title": "Day trip to Neuschwanstein", "description": "Pre-booked train + bus to the castle. Morning tour, lunch in Hohenschwangau. Return for dinner at Tantris (book ahead, 2 Michelin stars)." },
+      { "day": 4, "title": "Transfer to alpine half", "description": "Drive 1h 30min south to Schloss Elmau or Bachmair Weissach." },
+      { "day": 5, "title": "Alpine spa day", "description": "Spa morning and afternoon at chosen alpine base. Evening dinner at the alpine restaurant." },
+      { "day": 6, "title": "Alpine walking day", "description": "Walking trail or mountain cable car. Lunch at a mountain hut. Spa evening." },
+      { "day": 7, "title": "Slow departure", "description": "Alpine breakfast, drive 1h 30min back to Munich airport." }
+    ],
+    "caveats": [
+      "Contemporary architecture, not historic Munich — for period feel choose Mandarin Oriental or Bayerischer Hof.",
+      "North-side rooms face an internal courtyard with no real view — request south-side garden-view rooms only.",
+      "Not destination honeymoon material — pair with Schloss Elmau or another alpine property for the second half."
+    ],
+    "faqs": [
+      { "question": "Good for honeymooners?", "answer": "Yes for the city portion of a Bavarian honeymoon at sensible budget — better value than Mandarin Oriental with comparable service. Pair with an alpine half." },
+      { "question": "Best time to visit?", "answer": "May, June, September for Munich. December for Christmas markets. Avoid Oktoberfest unless that’s the trip." },
+      { "question": "Book in advance?", "answer": "Junior Suite garden-view for peak months: 3–4 months ahead. Standard rooms: 2–3 months. Oktoberfest: 9–12 months." },
+      { "question": "Adults-only?", "answer": "No. Family-friendly Rocco Forte property — the 160-room scale means families occasionally present but spread out." },
+      { "question": "Best room type?", "answer": "Junior Suite Garden View (south side). For full splurge, Charles Suite. Avoid north-side courtyard rooms." },
+      { "question": "How to get there?", "answer": "Munich airport (MUC) 30 min by taxi or 40 min by S-Bahn (Karlsplatz station 5-min walk from hotel)." }
+    ],
+    "email_template": "Subject: Honeymoon inquiry — The Charles Hotel\n\nDear The Charles Hotel reservations,\n\nWe’d like 2 to 3 nights for the city portion of our honeymoon [DATES] in a Junior Suite with Old Botanical Garden view (south side).\n\nQuestions:\n1. Honeymoon arrival turndown (champagne, flowers)?\n2. Sophia’s dinner reservation on the first evening?\n3. Couples’ treatment at the spa with pool access?\n4. Tantris reservation for one evening?\n5. Transfer to Schloss Elmau on departure?\n\nThank you,\n[Your names]"
+  },
+  "booking_urls": {},
+  "last_updated": "2026-06-01T00:00:00.000Z"
+}

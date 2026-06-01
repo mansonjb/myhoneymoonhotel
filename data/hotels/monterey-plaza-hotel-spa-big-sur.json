@@ -1,0 +1,66 @@
+{
+  "slug": "monterey-plaza-hotel-spa-big-sur",
+  "name": "Monterey Plaza Hotel & Spa",
+  "destination": "big-sur",
+  "country": "usa",
+  "seo": {
+    "title": "Monterey Plaza Hotel: Cannery Row Honeymoon Review",
+    "description": "Boutique luxury hotel on Monterey Bay overlooking the Pacific. Score 79/100, from $400/night. Verdict, room pick, 7-night plan."
+  },
+  "experience_types": ["luxury", "boutique", "coast"],
+  "honeymoon_score": 79,
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 13,
+    "spa": 11,
+    "award": 10,
+    "pool": 0,
+    "beach": 0,
+    "room_service": 9,
+    "stars": 12,
+    "luxury": 12
+  },
+  "stars": 4,
+  "price_per_night_usd": { "min": 400, "max": 1200 },
+  "adults_only": false,
+  "amenities": ["spa", "rooftop-spa", "fine-dining", "ocean-views", "fitness", "concierge", "afternoon-tea", "aquarium-nearby", "valet-parking", "boutique"],
+  "photos": [
+    { "url": "/images/hotels/monterey-plaza-hotel-spa-big-sur/hero.webp", "alt": "monterey-plaza-hotel-spa-big-sur — hero", "type": "hero" },
+    { "url": "/images/hotels/monterey-plaza-hotel-spa-big-sur/room.webp", "alt": "monterey-plaza-hotel-spa-big-sur — room", "type": "room" },
+    { "url": "/images/hotels/monterey-plaza-hotel-spa-big-sur/pool.webp", "alt": "monterey-plaza-hotel-spa-big-sur — pool", "type": "pool" },
+    { "url": "/images/hotels/monterey-plaza-hotel-spa-big-sur/spa.webp", "alt": "monterey-plaza-hotel-spa-big-sur — spa", "type": "spa" },
+    { "url": "/images/hotels/monterey-plaza-hotel-spa-big-sur/dining.webp", "alt": "monterey-plaza-hotel-spa-big-sur — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 4.5,
+  "tripadvisor_award": true,
+  "couples_review_pct": 68,
+  "content": {
+    "verdict": "Monterey Plaza Hotel & Spa is the arrival-night and aquarium-day base for a Big Sur honeymoon — a 290-room four-star hotel on Cannery Row directly on the edge of Monterey Bay, built into the rocks immediately above the surf line and within five minutes’ walk of the Monterey Bay Aquarium, the Pacific House Museum, and the central downtown of Monterey. The hotel has a rooftop spa with the most panoramic view in Monterey (you can see the whole bay including sea otters in the kelp forest below), an oceanfront restaurant (Schooners) with terrace dining over the water, and Cannery Row’s working sea-otter colony 10m below the hotel’s deck (the rocks immediately below Schooners are a regular otter haul-out). The honeymoon proposition is the arrival or departure overnight: Monterey Plaza is a good first or last night before driving south to the cliff-edge Big Sur properties, with the aquarium and 17-Mile Drive as the obvious day. Caveats: Monterey Plaza is not destination Big Sur honeymoon material — at 290 rooms it’s a large hotel with conference business; the architecture is good but not transcendent; and Cannery Row itself is touristy. For full honeymoon, choose Post Ranch, Ventana, Bernardus, or L’Auberge. But for an arrival night, an aquarium day, or a couple on a tighter budget who want the Monterey base, the Monterey Plaza Ocean View room is the best value 4-star on the Peninsula. The honeymoon move is one or two nights here to bookend a Big Sur cliff stay.",
+    "best_room": "An Ocean View Premier room (direct ocean-facing balcony, sea-otter colony directly below) is the honeymoon room. Skip the courtyard-facing rooms — the ocean is the entire point.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival and Schooners dinner", "description": "Fly Monterey (MRY) — 10-min taxi. Check-in to Ocean View Premier room. Dinner at Schooners on the terrace, sea-otter colony visible below." },
+      { "day": 2, "title": "Aquarium and 17-Mile Drive", "description": "Morning at the Monterey Bay Aquarium (5-min walk). Lunch at Cannery Row. Afternoon 17-Mile Drive in Pebble Beach." },
+      { "day": 3, "title": "Transfer to Big Sur", "description": "Drive 1h south on Highway 1 to Post Ranch Inn or Ventana for the cliff half — 3 nights." },
+      { "day": 4, "title": "Big Sur drive", "description": "Bixby Bridge, Pfeiffer Beach, McWay Falls, Nepenthe lunch." },
+      { "day": 5, "title": "Cliff spa day", "description": "Long morning at Post Ranch or Ventana spa, lunch on deck." },
+      { "day": 6, "title": "Cliff slow day", "description": "Sierra Mar or Sur House dinner, infinity pool sunset." },
+      { "day": 7, "title": "Slow departure", "description": "Cliff breakfast, drive 1h back to MRY for departure." }
+    ],
+    "caveats": [
+      "Large 290-room hotel with conference business — not destination honeymoon material on its own.",
+      "Cannery Row is touristy and busy — the hotel’s oceanfront deck is the antidote.",
+      "Not adults-only and the standard 4-star service standard means polish varies."
+    ],
+    "faqs": [
+      { "question": "Good for honeymooners?", "answer": "As an arrival/aquarium night before Big Sur — yes. As a full honeymoon — no; choose Post Ranch, Ventana, Bernardus, or L’Auberge instead." },
+      { "question": "Best time to visit?", "answer": "April–October. September–October are the secret best months — fog clears, low crowds. Aquarium busy summer weekends." },
+      { "question": "Book in advance?", "answer": "Ocean View Premier rooms for peak months: 2–3 months ahead. Standard rooms: 4–6 weeks." },
+      { "question": "Adults-only?", "answer": "No. Standard family-friendly 4-star hotel." },
+      { "question": "Best room type?", "answer": "Ocean View Premier with balcony. Skip courtyard rooms." },
+      { "question": "How to get there?", "answer": "Monterey (MRY) 10-min taxi. SFO 2h drive. SJC 1h 30min drive." }
+    ],
+    "email_template": "Subject: Honeymoon inquiry — Monterey Plaza Hotel & Spa\n\nDear Monterey Plaza reservations,\n\nWe’d like 1 to 2 nights for the arrival portion of our honeymoon [DATES] in an Ocean View Premier room.\n\nQuestions:\n1. Honeymoon arrival turndown (champagne, dessert)?\n2. Schooners reservation with ocean-view table?\n3. Aquarium tickets coordination?\n4. Rooftop spa couples’ treatment?\n5. Late checkout on departure day?\n\nThank you,\n[Your names]"
+  },
+  "booking_urls": {},
+  "last_updated": "2026-06-01T00:00:00.000Z"
+}
