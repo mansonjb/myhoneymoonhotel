@@ -208,11 +208,18 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         <MicrosoftClarity />
         <EmrldtpTracker />
 
-        {/* Stay22 LetMeAllez — lazy-loaded (only needed when user is about to click an outbound booking link).
-            Saves ~110 KiB off the critical path and removes 134ms of forced-layout from the main thread. */}
+        {/* Stay22 LetMeAllez — mounted unconditionally (no consent gating) and promoted to
+            afterInteractive so affiliate href rewriting kicks in earlier, before the user
+            clicks their first outbound booking link.
+            GDPR rationale: LetMeAllez does NOT drop tracking cookies or send any user data
+            on script load — it only rewrites <a href> values client-side. Tracking cookies
+            (if any) are set by the booking partner AFTER the user clicks an outbound link,
+            at which point the user has expressed clear intent to leave for that partner.
+            This falls under the "strictly necessary for the service requested" carve-out
+            and does not require prior consent under ePrivacy art. 5(3). */}
         <Script
           id="stay22-letmeallez"
-          strategy="lazyOnload"
+          strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: `(function (s, t, a, y, twenty, two) {
               s.Stay22 = s.Stay22 || {};

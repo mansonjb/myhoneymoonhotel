@@ -37,6 +37,9 @@ export default function AffiliateDisclosurePage() {
           <p className="mt-4">
             When you click a "Check availability" or "Find the best price" button, Stay22's script attributes the click to our partner ID and tracks any subsequent booking.
           </p>
+          <p className="mt-4">
+            To attribute clicks to the landing context that brought you to us, we set two strictly-necessary first-party cookies (<code>mhh_sid</code> and <code>mhh_entrance</code>) on your first visit. They contain no personally identifiable information — just a random session ID and the referrer/UTM parameters of your entry page — and you can clear them at any time via your browser settings.
+          </p>
         </section>
 
         <section>

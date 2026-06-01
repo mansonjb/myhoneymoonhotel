@@ -31,6 +31,76 @@ function pickLocaleFromAcceptLang(header: string | null): Locale | null {
   return null
 }
 
+// Edge-safe 16-char ID generator (no external dep). crypto.randomUUID is available
+// in Edge runtime and returns e.g. "1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4bed"; we strip
+// hyphens and slice to 16 hex chars.
+function makeSid(): string {
+  return crypto.randomUUID().replace(/-/g, '').slice(0, 16)
+}
+
+// Strictly-necessary first-party attribution cookies. These are required for our
+// affiliate business model (joining outbound clicks to landing context) and do NOT
+// require consent under GDPR/ePrivacy art. 5(3) "strictly necessary" carve-out.
+// No PII, no cross-site tracking, no third-party. User can clear via browser settings.
+function applyAttributionCookies(request: NextRequest, res: NextResponse): void {
+  const { pathname, searchParams } = request.nextUrl
+
+  // Skip on static / api / next internals — no attribution value, just bloat.
+  const isStatic =
+    pathname.startsWith('/_next') ||
+    pathname.startsWith('/api') ||
+    pathname.includes('.')
+  if (isStatic) return
+
+  const THIRTY_DAYS = 60 * 60 * 24 * 30
+  const nowIso = new Date().toISOString()
+
+  // 1. Session ID — random, opaque, no PII. Readable client-side for joining with
+  //    affiliate click events later (httpOnly: false intentional).
+  if (!request.cookies.get('mhh_sid')) {
+    res.cookies.set('mhh_sid', makeSid(), {
+      path: '/',
+      maxAge: THIRTY_DAYS,
+      sameSite: 'lax',
+      secure: true,
+      httpOnly: false,
+    })
+  }
+
+  // 2. First-seen timestamp — for cohort/recency math.
+  if (!request.cookies.get('mhh_first_seen')) {
+    res.cookies.set('mhh_first_seen', nowIso, {
+      path: '/',
+      maxAge: THIRTY_DAYS,
+      sameSite: 'lax',
+      secure: true,
+      httpOnly: false,
+    })
+  }
+
+  // 3. Entrance context — referrer + UTM params + landing path, captured ONCE per
+  //    session. Subsequent navigations don't overwrite (we want the FIRST touch).
+  if (!request.cookies.get('mhh_entrance')) {
+    const entrance = {
+      ref: request.headers.get('referer') || '',
+      utm_source: searchParams.get('utm_source') || '',
+      utm_medium: searchParams.get('utm_medium') || '',
+      utm_campaign: searchParams.get('utm_campaign') || '',
+      utm_term: searchParams.get('utm_term') || '',
+      utm_content: searchParams.get('utm_content') || '',
+      landing: pathname,
+      t: nowIso,
+    }
+    res.cookies.set('mhh_entrance', JSON.stringify(entrance), {
+      path: '/',
+      maxAge: THIRTY_DAYS,
+      sameSite: 'lax',
+      secure: true,
+      httpOnly: false,
+    })
+  }
+}
+
 export function middleware(request: NextRequest) {
   const { pathname, search } = request.nextUrl
   const headers = new Headers(request.headers)
@@ -65,6 +135,7 @@ export function middleware(request: NextRequest) {
         sameSite: 'lax',
         secure: true,
       })
+      applyAttributionCookies(request, res)
       return res
     }
     // No detected non-English preference → stay at EN root and remember.
@@ -75,10 +146,13 @@ export function middleware(request: NextRequest) {
       sameSite: 'lax',
       secure: true,
     })
+    applyAttributionCookies(request, res)
     return res
   }
 
-  return NextResponse.next({ request: { headers } })
+  const res = NextResponse.next({ request: { headers } })
+  applyAttributionCookies(request, res)
+  return res
 }
 
 export const config = {

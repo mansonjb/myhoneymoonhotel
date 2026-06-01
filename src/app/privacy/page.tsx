@@ -26,7 +26,7 @@ export default function PrivacyPage() {
           <h2 className="font-display text-2xl text-zinc-900 mb-3">Data we collect</h2>
           <ul className="list-disc pl-6 space-y-2">
             <li><strong>Usage analytics</strong> — anonymised page views, referrers, approximate country (via Plausible Analytics or similar). No personal identifiers.</li>
-            <li><strong>Cookies</strong> — only with your explicit consent. We use no advertising cookies and no cross-site tracking.</li>
+            <li><strong>Cookies</strong> — analytics and tracking cookies are set only with your explicit consent. We additionally set two strictly-necessary first-party cookies for affiliate attribution (<code>mhh_sid</code>, a random opaque session ID, and <code>mhh_entrance</code>, the landing referrer/UTM context); these contain no PII and you can clear them at any time via your browser settings. We use no advertising cookies and no cross-site tracking.</li>
             <li><strong>Affiliate click data</strong> — when you click a booking link, our affiliate partner (Stay22) receives the referrer URL to attribute commissions. See our <a href="/affiliate-disclosure" className="text-rose-500 underline">affiliate disclosure</a>.</li>
             <li><strong>Newsletter (optional)</strong> — if you subscribe, we store your email address solely to send you our honeymoon hotel updates. Unsubscribe link in every email.</li>
           </ul>
