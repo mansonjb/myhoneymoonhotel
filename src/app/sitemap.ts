@@ -56,6 +56,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/cape-verde-honeymoon-cost', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.85 },
     { path: '/best/honeymoon-resorts-2026', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
     { path: '/compare', lastModified: new Date(), changeFrequency: 'weekly', priority: 0.75 },
+    { path: '/honeymoon-with-dog', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
     { path: '/about', lastModified: new Date(), changeFrequency: 'yearly', priority: 0.5 },
     { path: '/contact', lastModified: new Date(), changeFrequency: 'yearly', priority: 0.4 },
     { path: '/privacy', lastModified: new Date(), changeFrequency: 'yearly', priority: 0.2 },
