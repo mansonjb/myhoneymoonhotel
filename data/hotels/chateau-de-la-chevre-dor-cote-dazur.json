@@ -1,0 +1,66 @@
+{
+  "slug": "chateau-de-la-chevre-dor-cote-dazur",
+  "name": "Château de la Chèvre d'Or",
+  "destination": "cote-dazur",
+  "country": "france",
+  "seo": {
+    "title": "Château de la Chèvre d'Or: Èze Clifftop Hotel 2026",
+    "description": "Medieval village hotel 400m above the sea in Èze. Score 87/100, from $700/night. Honest verdict, best room, 7-night Riviera itinerary."
+  },
+  "experience_types": ["luxury", "romantic", "iconic"],
+  "honeymoon_score": 87,
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 18,
+    "spa": 9,
+    "award": 13,
+    "pool": 8,
+    "beach": 0,
+    "room_service": 10,
+    "stars": 14,
+    "luxury": 13
+  },
+  "stars": 5,
+  "price_per_night_usd": { "min": 700, "max": 6000 },
+  "adults_only": false,
+  "amenities": ["spa", "outdoor-pool", "michelin", "fine-dining", "boutique", "clifftop-views", "fitness", "concierge", "wine-cellar"],
+  "photos": [
+    { "url": "/images/hotels/chateau-de-la-chevre-dor-cote-dazur/hero.webp", "alt": "chateau-de-la-chevre-dor-cote-dazur — hero", "type": "hero" },
+    { "url": "/images/hotels/chateau-de-la-chevre-dor-cote-dazur/room.webp", "alt": "chateau-de-la-chevre-dor-cote-dazur — room", "type": "room" },
+    { "url": "/images/hotels/chateau-de-la-chevre-dor-cote-dazur/pool.webp", "alt": "chateau-de-la-chevre-dor-cote-dazur — pool", "type": "pool" },
+    { "url": "/images/hotels/chateau-de-la-chevre-dor-cote-dazur/spa.webp", "alt": "chateau-de-la-chevre-dor-cote-dazur — spa", "type": "spa" },
+    { "url": "/images/hotels/chateau-de-la-chevre-dor-cote-dazur/dining.webp", "alt": "chateau-de-la-chevre-dor-cote-dazur — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 4.6,
+  "tripadvisor_award": true,
+  "couples_review_pct": 81,
+  "content": {
+    "verdict": "Château de la Chèvre d'Or is the eyrie of the Côte d'Azur — a Relais & Châteaux property spread across the medieval village of Èze, the perched stone hamlet 427m above the sea between Nice and Monaco. Forty-five rooms and suites scattered across the village houses, the two-Michelin-star main restaurant on a clifftop terrace, an infinity pool that appears to drop into the bay below, and a spa in the village vaults. Walt Disney was so taken with Èze that he based the visual language of his castle on it. The genuine point of staying at Chèvre d'Or rather than visiting Èze on a day trip is the night — after 6pm the day-tripper coaches leave, the village empties, and you have one of the most romantic medieval streets in Europe almost to yourself. Watching the sunset over the bay from the upper terrace, with the lights of Cap-Ferrat coming on 400m below and the cliffs falling away beneath your feet, is one of the unmissable Côte d'Azur experiences. The trade-off is real — Chèvre d'Or has no beach, the village houses mean significant stair-climbing between rooms and amenities (the property spans seven levels of the village), and the rooms vary widely in size, decor, and view (some are tiny, some are immense; some look at the sea, some at a wall). Choose carefully. For the right couple — short stay, sunset-drama priorities, no beach need — Chèvre d'Or is the most cinematic two or three nights on the Riviera.",
+    "best_room": "The Junior Suite categories (rooms 700-series) are the canonical honeymoon rooms with private terrace and direct sea view from the cliff. The Royal Suite has two floors and a private rooftop terrace — the once-in-a-lifetime room. Specifically request a 'sea view, upper village' room — the lower-village rooms are smaller and look toward the cliff face, not the bay. Avoid any room described as 'interior' or 'cosy' — these are the small rooms tucked into the village stones with no view.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival and Evening Èze", "description": "Land at Nice (NCE), 30-minute private transfer up the corniche to Èze village. The hotel meets you at the village gate (cars cannot enter). Check-in, welcome champagne on the upper terrace, sunset over the bay from your room. Dinner at the two-Michelin-star Château main restaurant." },
+      { "day": 2, "title": "Èze Village and the Jardin Exotique", "description": "Slow morning, the Jardin Exotique at the village summit when it opens at 9am (before tour buses arrive at 11am), and the medieval lanes. Lunch at La Chèvre d'Or pool terrace, an afternoon at the infinity pool, and a casual evening at the bistro Les Remparts." },
+      { "day": 3, "title": "Monaco Day", "description": "Drive 15 minutes east to Monaco for the day — the Casino Square, the Princely Palace, lunch at Café de Paris, and an early evening at the Hôtel de Paris for cocktails. Return to Èze in time for dinner on your terrace." },
+      { "day": 4, "title": "Sentier Nietzsche and Beach Lunch", "description": "Walk down the Sentier Nietzsche from the village to the sea (45 minutes, the philosopher composed Zarathustra on this path). Lunch at the Plage Le Galet at the bottom, an afternoon swim, and the hotel chauffeur back up the corniche (the climb is brutal)." },
+      { "day": 5, "title": "Saint-Paul-de-Vence", "description": "Drive 40 minutes inland to Saint-Paul-de-Vence — the Fondation Maeght, lunch at La Colombe d'Or, the village ramparts. Late-afternoon return to Èze for a sundown spa treatment." },
+      { "day": 6, "title": "Beaulieu and Cap-Ferrat Day", "description": "Drive 15 minutes down the corniche to Beaulieu and the Cap-Ferrat peninsula — Villa Ephrussi de Rothschild gardens in the morning, lunch at Plage de Passable, an afternoon swim from the rocks. Return to Èze for the final dinner." },
+      { "day": 7, "title": "Slow Morning and Departure", "description": "Final breakfast on the upper terrace, a last walk through the village before the coach parties arrive, and the 30-minute transfer to Nice." }
+    ],
+    "caveats": [
+      "Èze village is car-free and built on a 70° slope — the property is spread across seven levels of stone steps and the room-to-pool walk involves real stair-climbing. Mobility-limited couples should look elsewhere.",
+      "Rooms vary enormously — some are spectacular sea-view suites, some are tiny medieval-house rooms with no view. Specifically request 'sea view upper village' at booking and confirm in writing.",
+      "There is no beach and no easy beach access — the Sentier Nietzsche down to the sea is 45 minutes of steep steps. The closest practical swimming is the hotel infinity pool."
+    ],
+    "faqs": [
+      { "question": "Good for honeymooners?", "answer": "Chèvre d'Or is one of the most cinematic honeymoon hotels in France — the medieval village setting, the clifftop pool, the sunsets are extraordinary. The catch is real: it suits a short stay (2-3 nights) as part of a longer Riviera honeymoon, not a full week — there is no beach and the stair-climbing is significant." },
+      { "question": "Best time to visit?", "answer": "Late May to June and September to early October. The village heat in July-August on the south-facing cliff is genuinely punishing. May and September shoulder weeks deliver the perfect light, manageable day-tripper crowds (smaller before 11am and after 5pm), and full hotel restaurant service." },
+      { "question": "Book in advance?", "answer": "4-6 months ahead for the sea-view rooms. The Royal Suite books 6-9 months ahead. Direct via Relais & Châteaux or through the property — confirm the specific room number in writing." },
+      { "question": "Adults-only?", "answer": "No — Chèvre d'Or accepts children but the property scale, the stair-heavy layout, and the focus on the restaurant means the guest mix is heavily couples and older repeats." },
+      { "question": "Best room type?", "answer": "Junior Suite sea-view upper village (700-series). Royal Suite for the once-in-a-lifetime honeymoon. Avoid 'classic' or 'interior' rooms — these are the small medieval-village rooms with no view." },
+      { "question": "How to get there?", "answer": "Nice (NCE) is 30 minutes by private transfer (€150). The hotel meets you at the village gate — cars cannot enter Èze. By train, the SNCF station is at Èze-sur-Mer at the bottom of the cliff with a hotel shuttle up the corniche." }
+    ],
+    "email_template": "Subject: Honeymoon inquiry — Château de la Chèvre d'Or\n\nDear Château de la Chèvre d'Or reservations team,\n\nWe are planning our honeymoon for [DATES] and would love to stay 3-5 nights at Chèvre d'Or. Could you please advise on availability for a sea-view Junior Suite in the upper village (or the Royal Suite if appropriate)?\n\nA few questions:\n1. The exact room number and a description with photographs?\n2. Honeymoon turndown and welcome champagne arrangements?\n3. Reservation at the two-Michelin-star main restaurant for our most special evening?\n4. Private transfer from Nice (NCE) and luggage handling at the village gate?\n\nThank you,\n[Your names]"
+  },
+  "booking_urls": {},
+  "last_updated": "2026-06-02T00:00:00.000Z"
+}

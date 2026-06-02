@@ -1,0 +1,66 @@
+{
+  "slug": "lassiette-champenoise-champagne",
+  "name": "L'Assiette Champenoise",
+  "destination": "champagne",
+  "country": "france",
+  "seo": {
+    "title": "L'Assiette Champenoise: 3-Michelin-Star Reims Hotel 2026",
+    "description": "Three Michelin stars and 33-room boutique hotel outside Reims. Score 88/100, from €500/night. Best room, 7-night itinerary."
+  },
+  "experience_types": ["luxury", "romantic", "boutique", "michelin"],
+  "honeymoon_score": 88,
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 15,
+    "spa": 9,
+    "award": 15,
+    "pool": 8,
+    "beach": 0,
+    "room_service": 10,
+    "stars": 14,
+    "luxury": 13
+  },
+  "stars": 5,
+  "price_per_night_usd": { "min": 500, "max": 2000 },
+  "adults_only": false,
+  "amenities": ["spa", "indoor-pool", "outdoor-pool", "michelin-3-star", "fine-dining", "wine-cellar", "fitness", "boutique", "concierge", "garden"],
+  "photos": [
+    { "url": "/images/hotels/lassiette-champenoise-champagne/hero.webp", "alt": "lassiette-champenoise-champagne — hero", "type": "hero" },
+    { "url": "/images/hotels/lassiette-champenoise-champagne/room.webp", "alt": "lassiette-champenoise-champagne — room", "type": "room" },
+    { "url": "/images/hotels/lassiette-champenoise-champagne/pool.webp", "alt": "lassiette-champenoise-champagne — pool", "type": "pool" },
+    { "url": "/images/hotels/lassiette-champenoise-champagne/spa.webp", "alt": "lassiette-champenoise-champagne — spa", "type": "spa" },
+    { "url": "/images/hotels/lassiette-champenoise-champagne/dining.webp", "alt": "lassiette-champenoise-champagne — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 4.7,
+  "tripadvisor_award": true,
+  "couples_review_pct": 80,
+  "content": {
+    "verdict": "L'Assiette Champenoise is the foodie pilgrimage of Champagne — a three-Michelin-star restaurant with 33 boutique hotel rooms attached, on the western edge of Reims at Tinqueux. Chef Arnaud Lallement (third generation in the family kitchen) holds three stars since 2014 and runs what many critics consider the finest classical-modern French kitchen in northern France — the langoustine in cream with rouge des prés tomatoes is the signature, the wine list is one of the deepest in the country with 1,400 references. The hotel attached is contemporary luxury at modest scale — 33 rooms, a small spa, indoor and outdoor pools, a winter garden lounge. The differentiator versus Royal Champagne and Les Crayères is single-minded: this is a three-star kitchen with a hotel attached, not a hotel with a kitchen. For honeymoon couples whose Champagne vision is the great-restaurant evening as the trip's organising principle — and who plan to drive into Reims and Épernay for the cellar visits — L'Assiette Champenoise is the right address. The trade-off is real: the contemporary architecture lacks the historic atmosphere of Crayères and the panoramic view of Royal Champagne. The rooms are excellent but not ornate. You stay here for the dinner — and the dinner is unforgettable.",
+    "best_room": "The Suite category — 50m² with garden views and contemporary luxury fit-out. The Suite Lallement is the flagship suite with the larger sitting room. The Junior Suite is the value tier. Avoid the road-facing standard rooms — Tinqueux is a working town and street noise matters.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival and the First Three-Star Dinner", "description": "TGV from Paris Gare de l'Est to Reims Centre (45 min), 10-minute taxi west to Tinqueux. Welcome champagne, an afternoon settle, dinner at L'Assiette Champenoise — the Arnaud Lallement signature tasting menu with the cellar pairings." },
+      { "day": 2, "title": "Reims Cathedral", "description": "Drive 10 minutes east to central Reims — the Gothic cathedral (where 33 French kings were crowned), the Palais du Tau, the Saint-Rémi basilica. Lunch at Le Foch. Afternoon at Ruinart for the 1729 chalk-cave tour. Late return for spa." },
+      { "day": 3, "title": "Krug and Veuve Clicquot", "description": "The grand-house honeymoon day — a pre-booked private visit at Krug in Reims in the morning (the cask-aged base wine philosophy, prestige tastings). Lunch in town. Afternoon at Veuve Clicquot for the Madame Clicquot legacy and the chalk pits. Evening at the hotel for the second tasting menu." },
+      { "day": 4, "title": "Épernay Avenue de Champagne", "description": "Drive 30 minutes south to Épernay — Moët & Chandon's chalk cellars for the spectacle, Pol Roger for the Churchill house visit, lunch at La Cave à Champagne. Drive 10 minutes up to Hautvillers for the Dom Pérignon abbey. Late return for a casual dinner in town." },
+      { "day": 5, "title": "Côte des Blancs Vigneron Day", "description": "Hire a driver. South to Cramant, Avize, Le Mesnil-sur-Oger — tastings at Pierre Péters, Larmandier-Bernier, and Selosse. Lunch at the village. Evening at L'Assiette Champenoise for the third Lallement service — a different tasting menu pairing." },
+      { "day": 6, "title": "Bollinger and Aÿ Walk", "description": "Drive 30 minutes south-east to Aÿ — Bollinger's grand-house cellar visit in the morning, a vineyard walk in the Coteaux Champenois, lunch at the village. Late afternoon at the L'Assiette spa." },
+      { "day": 7, "title": "Slow Morning and Departure", "description": "Final breakfast in the winter garden, a last visit to the cellar for a take-home box of Lallement's signature canelés, and the 10-minute taxi to Reims station." }
+    ],
+    "caveats": [
+      "L'Assiette Champenoise is in Tinqueux, the working-town western edge of Reims — the property itself is elegant but the immediate surroundings are commercial, not country. The hotel feels like a boutique within a contemporary building.",
+      "Booking the restaurant for the most special evenings (Friday, Saturday) requires advance reservation at room booking. Walk-ins are essentially impossible.",
+      "The pools and spa are small — for a real spa day, Royal Champagne (35 min south) is the play."
+    ],
+    "faqs": [
+      { "question": "Good for honeymooners?", "answer": "L'Assiette Champenoise is the food-led Champagne honeymoon — the three-Michelin-star Lallement kitchen is the trip's organising principle. Best for couples for whom great dining is the honeymoon priority, less for couples whose vision is panoramic view or historic mansion." },
+      { "question": "Best time to visit?", "answer": "May through October. The Lallement kitchen runs year-round but the surrounding region is most beautiful in the warm months. Christmas weekends are popular with the Reims cathedral evening visits." },
+      { "question": "Book in advance?", "answer": "4-6 months ahead for the Suite category, including the restaurant reservation in the same booking. The restaurant alone is bookable 3-4 months ahead for non-hotel guests but hotel guests get priority for tables." },
+      { "question": "Adults-only?", "answer": "No — accepts families but the focus on the restaurant and the small scale mean the guest mix is overwhelmingly couples and food-focused travellers." },
+      { "question": "Best room type?", "answer": "Suite category with garden views. Suite Lallement for the honeymoon room. Junior Suite for the value tier. Avoid the road-facing rooms." },
+      { "question": "How to get there?", "answer": "TGV from Paris Gare de l'Est to Reims Centre (45 min), 10-minute taxi west to Tinqueux. The hotel arranges chauffeur transfers." }
+    ],
+    "email_template": "Subject: Honeymoon inquiry — L'Assiette Champenoise\n\nDear L'Assiette Champenoise reservations team,\n\nWe are planning our honeymoon for [DATES] and would love to stay 4-6 nights. Could you please advise on availability for a Suite (or the Suite Lallement)?\n\nA few questions:\n1. Restaurant reservations for our most special evenings — ideally three tasting-menu services across the stay with different wine pairings?\n2. Honeymoon turndown and welcome champagne?\n3. Cellar visit recommendations at Krug, Bollinger, and the Côte des Blancs growers?\n4. Private chauffeur for vineyard days?\n\nThank you,\n[Your names]"
+  },
+  "booking_urls": {},
+  "last_updated": "2026-06-02T00:00:00.000Z"
+}

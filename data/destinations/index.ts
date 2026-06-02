@@ -90,6 +90,9 @@ import quebec from './quebec'
 import lakeGarda from './lake-garda'
 import bigSur from './big-sur'
 import bavaria from './bavaria'
+import coteDazur from './cote-dazur'
+import loireValley from './loire-valley'
+import champagne from './champagne'
 
 export const DESTINATION_META: Record<string, DestinationMeta> = {
   'bora-bora': boraBora,
@@ -183,4 +186,7 @@ export const DESTINATION_META: Record<string, DestinationMeta> = {
   'lake-garda': lakeGarda,
   'big-sur': bigSur,
   'bavaria': bavaria,
+  'champagne': champagne,
+  'cote-dazur': coteDazur,
+  'loire-valley': loireValley,
 }

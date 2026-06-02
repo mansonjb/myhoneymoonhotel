@@ -1,0 +1,66 @@
+{
+  "slug": "domaine-des-hauts-de-loire-loire-valley",
+  "name": "Domaine des Hauts de Loire",
+  "destination": "loire-valley",
+  "country": "france",
+  "seo": {
+    "title": "Domaine des Hauts de Loire: Relais & Châteaux Review 2026",
+    "description": "Relais & Châteaux Loire hunting estate, Michelin star. Score 89/100, from €450/night. Best room, 7-night Loire itinerary, email."
+  },
+  "experience_types": ["luxury", "romantic", "castle", "spa"],
+  "honeymoon_score": 89,
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 17,
+    "spa": 11,
+    "award": 14,
+    "pool": 9,
+    "beach": 0,
+    "room_service": 10,
+    "stars": 13,
+    "luxury": 14
+  },
+  "stars": 5,
+  "price_per_night_usd": { "min": 450, "max": 2200 },
+  "adults_only": false,
+  "amenities": ["spa", "outdoor-pool", "michelin", "fine-dining", "park", "fishing", "wine-cellar", "fitness", "concierge", "boutique"],
+  "photos": [
+    { "url": "/images/hotels/domaine-des-hauts-de-loire-loire-valley/hero.webp", "alt": "domaine-des-hauts-de-loire-loire-valley — hero", "type": "hero" },
+    { "url": "/images/hotels/domaine-des-hauts-de-loire-loire-valley/room.webp", "alt": "domaine-des-hauts-de-loire-loire-valley — room", "type": "room" },
+    { "url": "/images/hotels/domaine-des-hauts-de-loire-loire-valley/pool.webp", "alt": "domaine-des-hauts-de-loire-loire-valley — pool", "type": "pool" },
+    { "url": "/images/hotels/domaine-des-hauts-de-loire-loire-valley/spa.webp", "alt": "domaine-des-hauts-de-loire-loire-valley — spa", "type": "spa" },
+    { "url": "/images/hotels/domaine-des-hauts-de-loire-loire-valley/dining.webp", "alt": "domaine-des-hauts-de-loire-loire-valley — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 4.7,
+  "tripadvisor_award": true,
+  "couples_review_pct": 82,
+  "content": {
+    "verdict": "Domaine des Hauts de Loire is the Relais & Châteaux flagship of the central Loire — a 19th-century hunting lodge expanded into a 25-key Relais on a 70-hectare wooded estate near Onzain, between Blois and Amboise. The property has been run by the Bonnigal-Bouché family for three generations, holds a Michelin star for the restaurant (under chef Rémy Giraud), and is the kind of slow, woodland, fishing-pond-and-walking-paths estate that defines the European country-luxury format at its best. Twenty-five rooms in the original lodge and a converted hunting cottage, an outdoor pool, a small but excellent spa, kilometres of forest paths, two stocked fishing ponds, and a kitchen garden that supplies the Michelin kitchen. The differentiator versus Artigny ten minutes south is the dining and the scale: Hauts de Loire is genuinely a Michelin destination on its own merits (the seven-course Giraud tasting menu is one of the best in the Loire), and the smaller room count means the service is properly intimate. Geographically, the location between Blois and Amboise puts you within 25 minutes of Chambord, Cheverny, Chaumont, and Amboise — the four big Loir-et-Cher châteaux — and within 35 minutes of Chenonceau. For a honeymoon couple wanting the genuine Relais experience in the heart of château country, this is the answer.",
+    "best_room": "The Suite Junior category — 50m² with a sitting area, large windows over the park, and the deepest walking-from-bed-to-the-window park views. The Suite category gives a separate sitting room and the corner-window outlook. For maximum honeymoon drama, the Suite Louis XV on the top floor of the original lodge has the painted ceiling and the four-poster bed. Avoid the standard Confort category — these face the back drive rather than the woodland.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival from Paris", "description": "TGV from Paris Gare d'Austerlitz to Onzain-Chaumont (1h 45min) or to Blois (1h 25min) plus 20-minute hotel transfer. Welcome champagne on the terrace looking into the wood, the Giraud Michelin tasting menu in the evening." },
+      { "day": 2, "title": "Chambord", "description": "Drive 25 minutes east to Chambord — the 426-room Renaissance pile that François I built as a hunting lodge, with Leonardo's double-helix staircase, 282 fireplaces, and 800 carved chimneys on the roof. Walk the roof terraces. Lunch at Maison d'à Côté in Chambord village. Late afternoon at the Hauts de Loire pool." },
+      { "day": 3, "title": "Cheverny and Chaumont", "description": "Drive 25 minutes south to Cheverny — the Marlinspike model from Hergé, the kennels with the 100-dog pack, the gardens. Lunch in the village. Continue 20 minutes to Chaumont-sur-Loire for the Festival International des Jardins gardens. Late afternoon back at the estate." },
+      { "day": 4, "title": "Chenonceau", "description": "Drive 35 minutes south to Chenonceau for the 8:30am opening — the river-spanning gallery, the gardens, the kitchens in the bridge piers. Lunch at L'Orangerie. Afternoon spa back at Hauts de Loire with a couples treatment." },
+      { "day": 5, "title": "Amboise and Clos Lucé", "description": "Drive 20 minutes south to Amboise — the royal château where the young François I was raised, the Clos Lucé manor where Leonardo lived his last three years, and the gardens of his inventions. Lunch at L'Écluse. Late afternoon at the pool." },
+      { "day": 6, "title": "Vouvray Wine Day", "description": "Drive 30 minutes south to Vouvray for the day — tastings at Domaine Huet, Champalou, and Domaine du Clos Naudin. Lunch at Restaurant Le Cèdre. Evening at Hauts de Loire for the second tasting-menu evening." },
+      { "day": 7, "title": "Slow Morning and Departure", "description": "Final breakfast on the terrace, a last walk through the park to the fishing ponds, and the transfer to Onzain station for the train back to Paris." }
+    ],
+    "caveats": [
+      "Hauts de Loire is closed mid-November through end-February — the Loire winter season is dead for tourism. May-October are the windows.",
+      "The property is rural — the nearest village (Onzain) has limited evening alternatives, so you'll eat at the property most nights. The Michelin kitchen makes this a feature rather than a constraint.",
+      "The fishing ponds are signature but the pond water is murky — the swimming pool is the only swim option. No lake or river beach access."
+    ],
+    "faqs": [
+      { "question": "Good for honeymooners?", "answer": "One of the most romantic addresses in the Loire — Relais & Châteaux polish, Michelin-starred kitchen, 70 hectares of woodland, intimate 25-key scale. The honeymoon hotel for couples wanting the proper European country-luxury experience." },
+      { "question": "Best time to visit?", "answer": "Mid-May to mid-July and September to mid-October. May for the wisteria and the gardens at peak; September for the autumn vines and the cooler evenings. The hotel closes mid-November to end-February." },
+      { "question": "Book in advance?", "answer": "4-6 months ahead for the Suite Junior and Suite categories. The Suite Louis XV books 6-9 months ahead. Direct booking via Relais & Châteaux or the hotel — honeymoon package gets a champagne welcome and a tasting-menu credit." },
+      { "question": "Adults-only?", "answer": "No — Hauts de Loire accepts children but the size, the Michelin focus, and the woodland setting mean the guest mix is overwhelmingly couples and serious-food regulars." },
+      { "question": "Best room type?", "answer": "Suite Junior in the main lodge with park views. Suite for more space. Suite Louis XV on the top floor for the canonical honeymoon room. Skip the Confort category which faces the back drive." },
+      { "question": "How to get there?", "answer": "TGV from Paris Austerlitz to Onzain-Chaumont (1h 45min) or to Blois then 20-minute taxi. Driving from Paris is about 2h 15min. Rent a car at the station for the week of château touring." }
+    ],
+    "email_template": "Subject: Honeymoon inquiry — Domaine des Hauts de Loire\n\nDear Domaine des Hauts de Loire reservations team,\n\nWe are planning our honeymoon for [DATES] and would love to stay 5-7 nights. Could you please advise on availability for a Suite Junior or Suite (or the Suite Louis XV if available)?\n\nA few questions:\n1. Honeymoon turndown (champagne, welcome amenities)?\n2. Tasting menu reservations at the Michelin restaurant for our most special evenings?\n3. Spa couples treatment availability?\n4. A picnic basket arrangement for a Chambord park day?\n\nThank you,\n[Your names]"
+  },
+  "booking_urls": {},
+  "last_updated": "2026-06-02T00:00:00.000Z"
+}

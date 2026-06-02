@@ -1,0 +1,66 @@
+{
+  "slug": "hotel-du-cap-eden-roc-cote-dazur",
+  "name": "Hôtel du Cap-Eden-Roc",
+  "destination": "cote-dazur",
+  "country": "france",
+  "seo": {
+    "title": "Hôtel du Cap-Eden-Roc: Antibes Legend Reviewed 2026",
+    "description": "The most legendary hotel on the Riviera. Score 92/100, from $2,000/night. Honest verdict, best cabana, 7-night Cap d'Antibes itinerary."
+  },
+  "experience_types": ["luxury", "romantic", "iconic"],
+  "honeymoon_score": 92,
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 18,
+    "spa": 11,
+    "award": 15,
+    "pool": 10,
+    "beach": 5,
+    "room_service": 10,
+    "stars": 15,
+    "luxury": 15
+  },
+  "stars": 5,
+  "price_per_night_usd": { "min": 2000, "max": 12000 },
+  "adults_only": false,
+  "amenities": ["spa", "seawater-pool", "private-cabanas", "fine-dining", "boutique", "fitness", "tennis", "yacht-club", "michelin", "concierge"],
+  "photos": [
+    { "url": "/images/hotels/hotel-du-cap-eden-roc-cote-dazur/hero.webp", "alt": "hotel-du-cap-eden-roc-cote-dazur — hero", "type": "hero" },
+    { "url": "/images/hotels/hotel-du-cap-eden-roc-cote-dazur/room.webp", "alt": "hotel-du-cap-eden-roc-cote-dazur — room", "type": "room" },
+    { "url": "/images/hotels/hotel-du-cap-eden-roc-cote-dazur/pool.webp", "alt": "hotel-du-cap-eden-roc-cote-dazur — pool", "type": "pool" },
+    { "url": "/images/hotels/hotel-du-cap-eden-roc-cote-dazur/spa.webp", "alt": "hotel-du-cap-eden-roc-cote-dazur — spa", "type": "spa" },
+    { "url": "/images/hotels/hotel-du-cap-eden-roc-cote-dazur/dining.webp", "alt": "hotel-du-cap-eden-roc-cote-dazur — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 4.7,
+  "tripadvisor_award": true,
+  "couples_review_pct": 80,
+  "content": {
+    "verdict": "The Hôtel du Cap-Eden-Roc is the single most legendary address on the French Riviera — and one of the most legendary hotels on earth. Built in 1870 as the Villa Soleil on the tip of the Cap d'Antibes peninsula, it became the favoured haunt of the Fitzgerald-Hemingway set in the 1920s, the unofficial annex of the Cannes Film Festival from the 1950s onward, and the address that defined French Riviera glamour through a century. Today it operates as a 117-room independent palace hotel — the main belle époque pavilion sitting above the pines, the Eden-Roc pavilion 200m down a path on its own headland with the iconic saltwater pool blasted directly into the cliff. The 22 acres of pine-shaded grounds, the 33 private cabanas overhanging the sea, the seawater-pool diving boards immortalised by Slim Aarons — this is the visual grammar of the Côte d'Azur. The hotel famously accepted only cash payment at checkout until 2007 (it now takes cards but the legend persists). The Eden-Roc Restaurant terrace at sunset is among the most photographed dinner settings in Europe; the Bellini Bar invented the Riviera version of the Venetian aperitif and serves it from 11am onward as the cinematic right of arrival. What you pay for at the Cap is the address itself — the lineage, the cabanas, the cinematic completeness. Service is excellent but not warmer than Cap-Ferrat next door; food is excellent but not better than Le Cap or Louis XV. The point is that you stay at Eden-Roc because it is Eden-Roc, and there is nothing else like it.",
+    "best_room": "The Junior Suites in the main pavilion with private balcony and full sea view are the canonical honeymoon room — generous square footage, the historic palace feel, a pool view across the pines to the Mediterranean. For maximum impact, the Eden-Roc pavilion Junior Suites (rooms 100-130) are in the lower building directly above the seawater pool — closer to the water but less classic in feel. The Bellini Suite on the top floor of the main pavilion is the celebrity-press suite with a 270° terrace. Private cabanas on the rocks are rented separately and are essential for the Eden-Roc day experience.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival and Pavilion Champagne", "description": "Land at Nice (NCE), 35-minute private transfer down the coast to Cap d'Antibes. Welcome champagne on the pavilion terrace looking out across the pine-forest grounds toward the sea. Lunch at the Eden-Roc pool grill. Afternoon swim in the famous seawater pool. Dinner at the Eden-Roc Restaurant at sunset." },
+      { "day": 2, "title": "Cabana Day on the Rocks", "description": "Book a private cabana on the Eden-Roc rocks for the full day. Hours of swimming, sunbathing, light lunches from the pool kitchen, the cinematic procession of beautiful guests, and the diving boards. The single most iconic day in the Hôtel du Cap repertoire." },
+      { "day": 3, "title": "Antibes Old Town and Picasso", "description": "Walk 25 minutes (or hotel car) into the Antibes old town for the morning — the ramparts, the Marché Provençal, the Picasso Museum in the Château Grimaldi where Picasso lived in 1946. Lunch at Le Bacon, the seafood restaurant on the Cap d'Antibes shore. Afternoon by the pool." },
+      { "day": 4, "title": "Saint-Paul-de-Vence & Fondation Maeght", "description": "Drive 45 minutes inland to Saint-Paul-de-Vence — Fondation Maeght's modern art collection in the morning, lunch at La Colombe d'Or under the fig tree, an afternoon walking the village ramparts. Return for the cocktail hour at the Bellini Bar." },
+      { "day": 5, "title": "Cannes Day and Lérins Boat", "description": "Drive 15 minutes west to Cannes for the morning — La Croisette, the Marché Forville, an early lunch at La Pizza by the harbour. Afternoon boat to the Îles de Lérins (Sainte-Marguerite for the Man-in-the-Iron-Mask fort, Saint-Honorat for the monastery). Late-afternoon return for sunset on the pavilion terrace." },
+      { "day": 6, "title": "Spa Day and the Eden-Roc Restaurant", "description": "Couples treatment at the Eden-Roc Spa in the morning, a long lunch by the pool, an afternoon of swimming, and the full Eden-Roc Restaurant tasting menu in the evening. The day to do nothing except enjoy the property itself." },
+      { "day": 7, "title": "Slow Morning and Departure", "description": "Final breakfast on the pavilion terrace, a last swim from the rocks, and the 35-minute transfer to Nice. Most couples extend with two or three nights at Cheval Blanc in Saint-Tropez for the beach-club contrast." }
+    ],
+    "caveats": [
+      "The hotel is closed mid-October to mid-April — Cap d'Antibes outside the warm-water season has limited reason to visit. May, June, September, and the first half of October are the windows.",
+      "Private cabanas are charged separately and run €500-1,500 per day depending on position. The price is per cabana, not per guest. Bookable through your concierge but not guaranteed in peak season — request at the time of room reservation.",
+      "Eden-Roc draws the wealthiest clientele on the Riviera, which means a low-key but unmissable formality at all times — no shorts at dinner, no flip-flops at the Bellini Bar, jacket for the man in the evening."
+    ],
+    "faqs": [
+      { "question": "Good for honeymooners?", "answer": "Eden-Roc is the cinematic honeymoon address of the Côte d'Azur — the legacy, the cabanas, the pool blasted into the cliff, the pavilion at sunset. The most photographed honeymoon hotel in France. The trade-off is service that is excellent rather than warm, and a guest mix that skews older than the romance might suggest." },
+      { "question": "Best time to visit?", "answer": "Late May through late June and the whole of September into early October. Cannes Film Festival week (mid-May) is best avoided unless you've come for the spectacle. The hotel closes mid-October to mid-April." },
+      { "question": "Book in advance?", "answer": "9-12 months ahead for May-October dates is the rule. The pavilion Junior Suites and the Eden-Roc pavilion rooms book out first. Direct booking via the hotel is preferred — Eden-Roc rewards loyalty with cabana priority and pool-front allocation." },
+      { "question": "Adults-only?", "answer": "Not adults-only — Eden-Roc accepts families and during French school holidays the kids' presence is real. Outside those windows the guest mix is overwhelmingly couples, longstanding repeats, and old-money Riviera regulars." },
+      { "question": "Best room type?", "answer": "Junior Suite Sea View in the main pavilion for the classic experience. Eden-Roc pavilion Junior Suites for proximity to the pool. The Bellini Suite is the press-celebrity room with the panoramic terrace. Pay up for a sea view — garden rooms feel like a different hotel." },
+      { "question": "How to get there?", "answer": "Nice (NCE) is 35 minutes by private transfer (€200-300). Cap d'Antibes has a helicopter pad — 10 minutes from Nice helipad for the cinematic arrival. From Paris, the TGV to Antibes Centre is 5h 50min." }
+    ],
+    "email_template": "Subject: Honeymoon inquiry — Hôtel du Cap-Eden-Roc\n\nDear Hôtel du Cap-Eden-Roc reservations team,\n\nWe are planning our honeymoon for [DATES] and would love to stay 5-7 nights. Could you please advise on availability for a Junior Suite Sea View in the main pavilion (or the Eden-Roc pavilion if preferable) and any honeymoon package inclusions?\n\nA few questions:\n1. Honeymoon turndown (champagne, in-room dining options)?\n2. Private cabana booking for our stay, with pricing?\n3. Dinner reservations at the Eden-Roc Restaurant for the most romantic evenings?\n4. Private transfer from Nice (NCE)?\n\nThank you,\n[Your names]"
+  },
+  "booking_urls": {},
+  "last_updated": "2026-06-02T00:00:00.000Z"
+}

@@ -1,0 +1,66 @@
+{
+  "slug": "hotel-belles-rives-cote-dazur",
+  "name": "Hotel Belles Rives",
+  "destination": "cote-dazur",
+  "country": "france",
+  "seo": {
+    "title": "Hotel Belles Rives: Fitzgerald's Juan-les-Pins Villa 2026",
+    "description": "Art Deco hotel where Fitzgerald wrote Tender Is the Night. Score 84/100, from $500/night. Honest verdict, best room, 7-night itinerary."
+  },
+  "experience_types": ["luxury", "romantic", "historic"],
+  "honeymoon_score": 84,
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 16,
+    "spa": 7,
+    "award": 12,
+    "pool": 7,
+    "beach": 8,
+    "room_service": 9,
+    "stars": 13,
+    "luxury": 12
+  },
+  "stars": 5,
+  "price_per_night_usd": { "min": 500, "max": 3500 },
+  "adults_only": false,
+  "amenities": ["private-beach", "fine-dining", "michelin", "art-deco-interiors", "boutique", "fitness", "concierge", "watersports", "yacht-pontoon"],
+  "photos": [
+    { "url": "/images/hotels/hotel-belles-rives-cote-dazur/hero.webp", "alt": "hotel-belles-rives-cote-dazur — hero", "type": "hero" },
+    { "url": "/images/hotels/hotel-belles-rives-cote-dazur/room.webp", "alt": "hotel-belles-rives-cote-dazur — room", "type": "room" },
+    { "url": "/images/hotels/hotel-belles-rives-cote-dazur/pool.webp", "alt": "hotel-belles-rives-cote-dazur — pool", "type": "pool" },
+    { "url": "/images/hotels/hotel-belles-rives-cote-dazur/spa.webp", "alt": "hotel-belles-rives-cote-dazur — spa", "type": "spa" },
+    { "url": "/images/hotels/hotel-belles-rives-cote-dazur/dining.webp", "alt": "hotel-belles-rives-cote-dazur — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 4.6,
+  "tripadvisor_award": true,
+  "couples_review_pct": 79,
+  "content": {
+    "verdict": "Hotel Belles Rives is the literary Riviera honeymoon hotel — a 1929 Art Deco beachfront villa in Juan-les-Pins, on the south side of the Cap d'Antibes peninsula, that was the rented summer home of F. Scott and Zelda Fitzgerald in 1925-1926 (where he wrote much of Tender Is the Night and inscribed his name on a beam still visible at the bar). The Belles family bought the villa and turned it into a hotel in 1929; their granddaughter Marianne Estène-Chauvin still runs it. Forty-three rooms, the one-Michelin-star La Passagère restaurant on the seafront terrace, a private wooden pontoon for swimming and watersports directly off the rocks, the iconic Fitzgerald Bar still serving the cocktails the novelist would recognise. The differentiator is the spirit — Belles Rives is not the cinematic palace Eden-Roc ten minutes away aspires to be; it is the small, characterful, family-run, lived-in Riviera hotel that the Fitzgeralds genuinely loved. The Art Deco interiors are original (not restored), the beach is small but private (a long L-shaped wooden pontoon over the rocks), and the price point is meaningfully below Eden-Roc and Cap-Ferrat for what is a real and rare piece of Riviera history. For honeymoon couples who care about story, who would rather have the bar where Fitzgerald drank than the pool where Slim Aarons shot, and who don't need belle époque palace scale, Belles Rives delivers an honest, charming, deeply atmospheric stay at half the price of the Cap headliners.",
+    "best_room": "The Suite Junior Sea View with a balcony directly over the pontoon is the canonical honeymoon room — Art Deco joinery, sea views toward Cap d'Antibes, and a small terrace. The Junior Suite Fitzgerald on the top floor is the celebrity-press room with the novelist's name. The Garden Suites lose the sea view but have larger terraces and more privacy. Avoid the standard category rooms in the back wing — these face the village and lose the entire Belles Rives experience.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival and the Fitzgerald Bar", "description": "Land at Nice (NCE), 30-minute private transfer to Juan-les-Pins. Welcome champagne in the Fitzgerald Bar (his signature beam above the counter), dinner at La Passagère on the seafront, a first swim off the pontoon in the evening light." },
+      { "day": 2, "title": "Cap d'Antibes Coastal Walk", "description": "Walk the Sentier du Littoral from Juan-les-Pins around the tip of the Cap d'Antibes peninsula (12km, the easier half is 5km from Belles Rives to the lighthouse). Lunch at the Plage de la Garoupe. Afternoon at the pontoon." },
+      { "day": 3, "title": "Antibes Old Town and Picasso", "description": "Walk 30 minutes (or hotel shuttle) into Antibes for the morning — the Marché Provençal, the ramparts, the Picasso Museum in the Château Grimaldi. Lunch at Le Bacon. Late afternoon back at the pontoon." },
+      { "day": 4, "title": "Cannes and the Lérins Islands", "description": "Drive 20 minutes west to Cannes for the day — La Croisette, La Pizza for lunch by the harbour, an afternoon boat to the Îles de Lérins. Return for a sundown cocktail at the Fitzgerald Bar." },
+      { "day": 5, "title": "Saint-Paul-de-Vence", "description": "Drive 45 minutes inland to Saint-Paul-de-Vence — Fondation Maeght modern art, lunch at La Colombe d'Or, the village ramparts. Late afternoon at the pontoon." },
+      { "day": 6, "title": "Private Boat Day", "description": "Charter a private skippered boat from the pontoon for the day — east along the coast to Nice and Beaulieu, swimming in the bays, lunch on board. Return for dinner at La Passagère." },
+      { "day": 7, "title": "Slow Morning and Departure", "description": "Final breakfast on the seafront terrace, a last swim off the pontoon, and the 30-minute transfer to Nice." }
+    ],
+    "caveats": [
+      "Belles Rives is on the Juan-les-Pins side of Cap d'Antibes — the village itself is a low-key seaside resort, not Saint-Tropez or Antibes-old-town. Lovely but lacks evening buzz beyond the hotel.",
+      "The beach is a private wooden pontoon over rocks — no sand. The pontoon is small (50 loungers maximum) and fills up by mid-morning in peak season.",
+      "The Art Deco interiors are original — beautifully preserved but the rooms can feel small by modern five-star standards. The Suite Junior categories and above give the proper space."
+    ],
+    "faqs": [
+      { "question": "Good for honeymooners?", "answer": "Belles Rives is one of the most atmospheric small-luxury hotels on the Riviera — the Fitzgerald history, the family-run intimacy, the seafront Art Deco. Best suited to couples who care about story and character more than pure palace-hotel scale. Price-to-experience is excellent." },
+      { "question": "Best time to visit?", "answer": "Late May to late June and September. The Juan-les-Pins jazz festival in mid-July is a draw if you love it (Miles Davis and Ella Fitzgerald played here) but adds significant crowds. October sees the hotel close for winter." },
+      { "question": "Book in advance?", "answer": "3-5 months ahead for sea-view Junior Suites. The Suite Fitzgerald and the Suite Belles Rives book 5-7 months ahead. Direct booking via the hotel — honeymoon package upgrades subject to availability." },
+      { "question": "Adults-only?", "answer": "No — Belles Rives accepts children but the property scale and the Art Deco character mean the guest mix is heavily couples and longtime returnees." },
+      { "question": "Best room type?", "answer": "Suite Junior Sea View with the pontoon view. Junior Suite Fitzgerald on the top floor for the literary romance. Avoid the back-village-facing standard rooms." },
+      { "question": "How to get there?", "answer": "Nice (NCE) is 30 minutes by private transfer (€150). Juan-les-Pins has its own SNCF station — 20 minutes from Nice by regional train, the station is a 10-minute walk from the hotel. TGV from Paris is 5h 45min." }
+    ],
+    "email_template": "Subject: Honeymoon inquiry — Hotel Belles Rives\n\nDear Hotel Belles Rives reservations team,\n\nWe are planning our honeymoon for [DATES] and would love to stay 5-7 nights. Could you please advise on availability for a Suite Junior Sea View (or the Junior Suite Fitzgerald if available)?\n\nA few questions:\n1. Honeymoon turndown and welcome champagne arrangements?\n2. La Passagère reservation for our most special evening?\n3. Pontoon lounger reservation for the duration of our stay?\n4. Private transfer from Nice (NCE)?\n\nThank you,\n[Your names]"
+  },
+  "booking_urls": {},
+  "last_updated": "2026-06-02T00:00:00.000Z"
+}
