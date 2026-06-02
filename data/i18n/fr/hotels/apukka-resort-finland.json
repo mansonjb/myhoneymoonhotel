@@ -1,0 +1,76 @@
+{
+  "content": {
+    "verdict": "Apukka Resort se trouve sur la rive boisée du lac Olkkajärvi, à environ 15 minutes de Rovaniemi — assez proche pour atterrir à un aéroport majeur le matin et être dans son aurora cabin à l’heure du déjeuner, assez loin pour que la rive soit véritablement sombre et silencieuse la nuit. L’aimant lune de miel, c’est l’Aurora Cabin : cabane en bois indépendante avec lit king placé sous une grande verrière de toit, pour rester au lit et regarder les aurores boréales sans sortir. Le resort possède son propre chenil de huskies, un enclos à rennes et une flotte de motoneiges, ce qui permet de mener la plupart des activités depuis la propriété plutôt que d’être tracté chez des partenaires à une demi-heure. Family-friendly par étiquette (Rovaniemi est la ville officielle du Père Noël) mais positionné sur des tarifs adultes premium, et les Aurora Cabins sont disposées dans la forêt de façon à ce que les couples se voient peu. Le cadre lacustre estival se mue en lune de miel sous le soleil de minuit complètement différente de la version neige — kayaks, paddle, et culture sauna et plongeon.",
+    "best_room": "Aurora Cabin — cabane en bois privée avec lit king sous une grande verrière de toit, fenêtres face au lac, salle d’eau et petite terrasse, conçue pour l’observation des aurores depuis le lit.",
+    "itinerary_7_nights": [
+      {
+        "day": 1,
+        "title": "Arrivée à Rovaniemi",
+        "description": "Vol jusqu’à Rovaniemi (RVN), transfert de 15 minutes jusqu’à Apukka, installation dans votre Aurora Cabin. Circuit sauna, dîner au lodge principal, et première veillée aurore depuis le lit."
+      },
+      {
+        "day": 2,
+        "title": "Huskies et rennes sur place",
+        "description": "Matinée au chenil de huskies sur site pour apprendre le mushing, après-midi à l’enclos des rennes pour une balade en traîneau, le tout sans quitter la propriété."
+      },
+      {
+        "day": 3,
+        "title": "Motoneige et pêche sur glace",
+        "description": "Journée guidée en motoneige sur les lacs gelés, session de pêche sur glace avec déjeuner chaud sur feu ouvert, et chasse aux aurores en minibus le soir."
+      },
+      {
+        "day": 4,
+        "title": "Père Noël et Cercle Polaire",
+        "description": "Excursion au Santa Claus Village et au Santa Park pour franchir la ligne du Cercle Polaire, retour pour un long sauna et une séance au hot tub au bord du lac."
+      },
+      {
+        "day": 5,
+        "title": "Ice floating et saunas",
+        "description": "Tentez l’expérience signature d’ice floating en combinaison étanche sur le lac gelé, suivie d’un rituel sauna et d’un dîner tranquille au lodge."
+      },
+      {
+        "day": 6,
+        "title": "Raquettes et photo d’aurores",
+        "description": "Balade en raquettes dans la pinède, pique-nique au bord du lac dans une kota, et atelier photo d’aurores le soir avec un guide local."
+      },
+      {
+        "day": 7,
+        "title": "Dernier petit-déjeuner au lac",
+        "description": "Long petit-déjeuner, ultime promenade au bord du lac, transfert de 15 minutes vers l’aéroport de Rovaniemi pour le vol retour."
+      }
+    ],
+    "caveats": [
+      "Apukka est family-friendly et partagé avec des groupes en tournée saison Père Noël en décembre — pour une ambiance plus adulte, réservez de janvier à mars.",
+      "L’observation des aurores dépend du ciel clair ; même les meilleures cabines à verrière ne battent pas une couverture nuageuse épaisse, prévoyez un séjour plus long pour maximiser les chances.",
+      "Les températures hivernales autour de Rovaniemi oscillent couramment entre -10 °C et -25 °C et le resort est exposé en bord de lac, alors prévoyez un équipement grand froid.",
+      "Les journées de décembre sont très courtes, soleil levé vers 11 h et couché vers 13-14 h — calez toutes les activités extérieures serré dans la lumière du jour."
+    ],
+    "faqs": [
+      {
+        "question": "Bien pour une lune de miel ?",
+        "answer": "Oui — les Aurora Cabins avec lit sous verrière sont faites pour les couples, même si le resort accueille des familles durant les semaines de pointe de Noël."
+      },
+      {
+        "question": "Verrons-nous les aurores boréales ?",
+        "answer": "Apukka est dans la zone aurorale avec une faible pollution lumineuse sur la rive, mais l’aurore reste tributaire de la météo — réservez au moins 4 à 5 nuits pour une chance correcte."
+      },
+      {
+        "question": "Meilleur mois pour les aurores ?",
+        "answer": "De septembre à mars, février et mars combinant en général des ciels plus dégagés que la moyenne et des nuits longues."
+      },
+      {
+        "question": "Meilleure période pour venir ?",
+        "answer": "Janvier à mars pour la neige et les aurores, juin pour le soleil de minuit au bord du lac, et décembre si vous voulez l’ambiance Père Noël-Laponie complète."
+      },
+      {
+        "question": "Que réserver à l’avance ?",
+        "answer": "Précisément une Aurora Cabin, les expériences huskies et rennes (qui partent du resort lui-même), et les créneaux d’ice floating ou de motoneige."
+      },
+      {
+        "question": "Comment s’y rendre ?",
+        "answer": "Vol jusqu’à Rovaniemi (RVN) et transfert de 15 minutes que le resort peut organiser directement."
+      }
+    ],
+    "email_template": "Subject : Demande de réservation lune de miel — Apukka Resort\n\nBonjour à l’équipe Réservations d’Apukka,\n\nNous organisons notre lune de miel et souhaiterions réserver 7 nuits du [DATES], de préférence en Aurora Cabin. Pourriez-vous confirmer les disponibilités, communiquer le meilleur tarif et nous conseiller sur les transferts depuis l’aéroport de Rovaniemi ?\n\nNous sommes particulièrement intéressés par les expériences huskies et rennes sur site, une session d’ice floating, une expédition en motoneige et une soirée photo d’aurores pendant notre séjour.\n\nMerci,\n[Vos noms]\n[Email] / [Téléphone]"
+  }
+}

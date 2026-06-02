@@ -1,0 +1,79 @@
+{
+  "tagline": "Un département français de l’océan Indien — volcans, cirques et cuisine créole.",
+  "intro": "La Réunion est l’île la plus spectaculaire géologiquement de l’océan Indien — un département français à 700 km à l’est de Maurice, où un volcan bouclier actif (le Piton de la Fournaise) entre en éruption plusieurs fois par an, où trois caldeiras anciennes appelées cirques comptent parmi les paysages de randonnée les plus saisissants au monde, et où la culture créole produit une cuisine qui rivalise avec celle des plus belles provinces françaises. C’est la destination de lune de miel pour les couples qui veulent du drame volcanique plutôt que du récif et de la plage.",
+  "bestTime": "Avr-nov",
+  "flightFrom": "11 h depuis Paris (direct)",
+  "topExperience": "Randonnée volcanique et culture créole française",
+  "perfectFor": [
+    "Couples en quête de randonnée volcanique et d’aventure, sans renoncer à la chaleur de l’océan Indien",
+    "Couples francophones (c’est littéralement la France)",
+    "Ceux qui veulent des paysages de montagne saisissants associés à des plages de récif corallien",
+    "Couples gastronomes — la cuisine créole de la Réunion est extraordinaire et entièrement d’influence française",
+    "Jeunes mariés qui complètent un séjour à Maurice (les deux îles sont à 1 h 30 de vol)"
+  ],
+  "skipIf": [
+    "Vous voulez un lagon plat et calme comme expérience principale",
+    "Le concept de resort de plage de l’océan Indien est votre principal attrait",
+    "Vous ne parlez pas français et l’autonomie linguistique vous importe",
+    "Décembre-mars (saison cyclonique et fortes pluies sur la côte au vent)",
+    "Un paysage volcanique et la randonnée dans les cirques vous semblent épuisants plutôt qu’exaltants"
+  ],
+  "experiences": [
+    { "title": "Randonnée d’éruption au Piton de la Fournaise", "description": "Marcher à travers un champ de lave durci jusqu’à la caldeira active de l’un des volcans les plus actifs au monde — et observer la coulée de lave à distance de sécurité si une éruption est en cours. L’une des expériences les plus primitives qui soient face à la nature.", "cost": "60-120 $ par personne (avec guide)", "tip": "Consultez le site de l’OVPF (Observatoire Volcanologique du Piton de la Fournaise) pour connaître le statut d’éruption en cours. En période d’activité, une randonnée nocturne guidée pour voir la coulée de lave est transcendante. En période de dormance, la randonnée de la caldeira reste extraordinaire." },
+    { "title": "Trek dans le cirque de Cilaos (3 jours)", "description": "Le cirque (caldeira ancienne) le plus spectaculaire de la Réunion — un cul-de-sac de 1 200 m de profondeur encerclé de parois verticales, accessible uniquement par route de montagne ou à pied. Le sentier GR R1 autour du cirque compte parmi les plus belles randonnées de plusieurs jours de l’océan Indien.", "cost": "50-80 $/nuit (hébergement en gîte de montagne)", "tip": "Le circuit GR R1 de 3 jours est l’itinéraire standard. Guidé par Réunion Randonnées pour la meilleure interprétation et la sécurité sur des sentiers vertigineux." },
+    { "title": "Parapente depuis le Piton Maïdo", "description": "Décollage depuis la falaise du Maïdo à 2 200 m (l’une des plus hautes falaises au monde au-dessus d’une zone habitée) et vol plané de 20 minutes jusqu’à la plaine côtière. La vue sur la côte ouest est extraordinaire.", "cost": "120-180 $ par personne (vol en tandem)", "tip": "Vols matinaux (9-11 h) avant la formation des thermiques de la vallée. Le panorama au décollage — 2 200 m de chute directe vers l’océan Indien — est l’une des plus belles vues depuis n’importe quel site de décollage de parapente au monde." },
+    { "title": "Saucisses rougail et festin créole (restaurant local)", "description": "Rougail (sauce tomate et piment avec porc ou saucisse), carry (curry réunionnais — différent de tout autre curry sur terre) et les extraordinaires fruits de mer frais de la côte de l’océan Indien.", "cost": "30-60 € par couple pour un déjeuner créole complet", "tip": "Les meilleurs restaurants créoles se trouvent à Saint-Pierre et à Cilaos. Évitez les restaurants touristiques du front de mer — trouvez les restaurants populaires où mangent les Réunionnais." },
+    { "title": "Plongée de nuit avec requins endormis (Saint-Gilles)", "description": "Le récif corallien de la Réunion à Saint-Gilles est l’un des plus biodiversifiés de l’océan Indien. Les plongées de nuit révèlent des requins nourrices au repos sur le fond du récif et des pieuvres de récif chassant à la lueur des torches.", "cost": "60-100 $ par personne", "tip": "Utilisez Réunion Sub Centre (Saint-Gilles) — l’opérateur le plus expérimenté et le plus soucieux de la sécurité de l’île. Les plongées de nuit nécessitent la certification Advanced Open Water." }
+  ],
+  "months": [
+    { "weather": "Saison cyclonique, fortes pluies côte est", "crowds": "Faible", "price": "Bas", "verdict": "Évitez la côte est ; Cilaos potentiellement coupé" },
+    { "weather": "Pic du risque cyclonique", "crowds": "Faible", "price": "Bas", "verdict": "Ne pas visiter — saison cyclonique" },
+    { "weather": "Risque cyclonique s’atténuant, encore humide", "crowds": "Faible", "price": "Bas", "verdict": "Amélioration progressive" },
+    { "weather": "Transition, amélioration rapide", "crowds": "Modérée", "price": "Moyen", "verdict": "Bonne valeur d’entre-saison" },
+    { "weather": "Début de la saison sèche, 25 °C", "crowds": "Modérée", "price": "Moyen", "verdict": "Excellent début de saison" },
+    { "weather": "Sec, soirées plus fraîches, 23 °C", "crowds": "Élevée", "price": "Élevé", "verdict": "Début des vacances scolaires françaises" },
+    { "weather": "Sec, 22 °C, volcan souvent actif", "crowds": "Pic", "price": "Très élevé", "verdict": "Pic des vacances scolaires — réservez à l’avance" },
+    { "weather": "Sec, excellent pour la randonnée", "crowds": "Pic", "price": "Très élevé", "verdict": "Meilleures conditions de randonnée" },
+    { "weather": "Sec, en repli, excellent", "crowds": "Élevée", "price": "Élevé", "verdict": "Excellent, moins fréquenté" },
+    { "weather": "Sec, chaud, l’un des meilleurs mois", "crowds": "Modérée", "price": "Moyen", "verdict": "Le meilleur mois caché" },
+    { "weather": "Transition, premières averses possibles", "crowds": "Faible", "price": "Bas-moyen", "verdict": "Bon rapport qualité-prix, léger risque de pluie" },
+    { "weather": "Début de saison humide, Noël fréquenté", "crowds": "Élevée", "price": "Élevé", "verdict": "Noël festif mais la pluie s’installe" }
+  ],
+  "budgetTiers": [
+    { "label": "Maison d’hôtes boutique", "daily": "120-300 €/nuit", "includes": "Gîte local ou hôtel boutique avec cuisine créole, vues côtières et hospitalité authentique. La vraie expérience réunionnaise." },
+    { "label": "Resort de luxe", "daily": "300-700 $/nuit", "includes": "Resort complet sur la côte ouest, lagon, spa, multiples restaurants, sports nautiques." },
+    { "label": "Séjour en cirque volcanique", "daily": "200-500 €/nuit", "includes": "Lodge de montagne dans le cirque de Cilaos ou hôtel boutique avec vues spectaculaires sur la caldeira et accès aux randonnées." }
+  ],
+  "areas": [
+    { "name": "Saint-Gilles / côte ouest", "description": "La côte sous le vent (sèche), avec le seul lagon protégé de l’île. L’infrastructure touristique et resort se trouve ici. Lux Saint Gilles est le plus bel hôtel. La meilleure baignade et la meilleure plongée depuis cette base." },
+    { "name": "Cirque de Cilaos", "description": "Un cul-de-sac de 1 200 m entouré de falaises de plus de 2 000 m. Sources thermales (les seules de l’océan Indien), le meilleur vin de l’île (produit en altitude) et la plus belle randonnée de plusieurs jours de l’océan Indien." },
+    { "name": "Piton de la Fournaise (sud-est)", "description": "Le volcan actif de la Plaine des Cafres. Le site naturel le plus visité de l’océan Indien. Une éruption active (plusieurs par an) rend possible la randonnée nocturne sur la lave. Extraordinaire même au repos." },
+    { "name": "Cirque de Salazie (nord)", "description": "Le cirque le plus luxuriant et le plus vert. La cascade du Voile de la Mariée est visible depuis la route principale. Hell-Bourg est l’un des plus beaux villages de patrimoine de l’océan Indien." }
+  ],
+  "expertTips": [
+    { "title": "La Réunion est idéale en combinaison Maurice + Réunion", "body": "Air Austral assure la liaison entre Maurice et la Réunion en 1 h 30. 5 nuits à Maurice (plage) + 5 nuits à la Réunion (volcan, randonnée) constituent un véritable couplage extraordinaire." },
+    { "title": "Consultez le site de l’OVPF avant de réserver votre randonnée d’éruption", "body": "Le Piton de la Fournaise entre en éruption 2 à 4 fois par an. Si une éruption est en cours, la randonnée nocturne sur la lave est ce que l’on peut faire de plus extraordinaire dans l’océan Indien. En période de dormance, la randonnée de la caldeira reste de classe mondiale." },
+    { "title": "Louez une voiture — les transports publics à la Réunion sont limités", "body": "La Réunion possède un bon réseau routier mais les bus sont peu fréquents entre les sites touristiques. Une location de voiture chez Réunion Location à l’aéroport Roland-Garros est l’approche correcte. Empruntez la Route Forestière pour le volcan." },
+    { "title": "Les cirques nécessitent 2 nuits minimum", "body": "Cilaos se trouve à 1 h 30 de route (avec 400 lacets) depuis la côte. Réservez 2 nuits pour faire la marche du GR R1 et récupérer. Y aller à la journée est épuisant et insuffisant." },
+    { "title": "La vanille Bourbon de la Réunion est la plus fine au monde", "body": "La Réunion (ancienne île Bourbon) est à l’origine de la variété de vanille Bourbon. L’acheter directement auprès d’une coopérative vanillière du nord-est est l’un des grands souvenirs gastronomiques de l’île." }
+  ],
+  "packing": [
+    { "item": "De vraies chaussures de randonnée", "why": "Les sentiers des cirques sont rocailleux, boueux et escarpés — les chaussures de trail sont limites ; des chaussures montantes sont nécessaires" },
+    { "item": "Veste imperméable", "why": "Même en saison sèche, les cirques se couvrent l’après-midi et reçoivent de la pluie. Un imperméable de qualité est essentiel." },
+    { "item": "Couches pour l’altitude", "why": "Le sommet du Piton de la Fournaise à 2 632 m est véritablement froid. Le point de vue du Maïdo à 2 200 m est froid avec le vent. Prévoyez de la mérinos." },
+    { "item": "Crème solaire sans danger pour les récifs", "why": "Le parc marin de Saint-Gilles applique des règles strictes de protection des coraux" },
+    { "item": "Espèces (euros)", "why": "C’est la France — la carte est la norme mais les espèces sont nécessaires dans les gîtes de montagne et sur les marchés locaux" },
+    { "item": "Guide de conversation français", "why": "Si le français est universel, le créole réunionnais diffère du français métropolitain. Les politesses françaises de base sont profondément appréciées." }
+  ],
+  "guide": {
+    "getting": "Volez vers l’aéroport Roland-Garros (RUN) près de Saint-Denis. Direct depuis Paris (Air Austral, Air France — 11 h). Connexions depuis Londres via Paris (12-13 h au total). Depuis Maurice : Air Austral assure une navette de 1 h 30. Louez une voiture à l’aéroport — essentiel pour toute exploration de l’île. L’île fait 220 km de circonférence et se parcourt en une journée.",
+    "where": "Côte ouest (Saint-Gilles, Saint-Leu) pour le lagon et la base resort. Cirque de Cilaos pour la montagne et la randonnée thermale. Piton de la Fournaise (sud-est) pour le volcan. Cirque de Salazie (nord) pour les cascades et le paysage vert luxuriant. Un itinéraire de 10 nuits : Saint-Gilles 3 nuits → Cilaos 3 nuits → secteur volcan 2 nuits → Salazie 2 nuits.",
+    "when": "Avril-novembre est la saison sèche. Mai et octobre sont les sweet spots : excellente météo, foules de vacances scolaires françaises plus faibles, tarifs plus bas. Juillet-août est le pic (vacances scolaires françaises — réservez 4 mois à l’avance). Décembre-mars est la saison cyclonique avec un risque réel."
+  },
+  "localFood": "Carry (le curry unique de la Réunion — différent du curry indien, malgache ou asiatique, avec des épices locales et souvent servi avec saucisses rougail et riz), samoussas (chausson frit triangulaire farci de légumes ou de viande, de la tradition indo-réunionnaise) et les extraordinaires fruits de mer frais. Le rhum agricole local (fabriqué à partir de canne fraîche, pas de mélasse) est le plus raffiné de l’océan Indien. Le rhum arrangé (rhum infusé de fruits locaux et de vanille) est la boisson sociale de l’île.",
+  "language": "Français (officiel). Créole réunionnais largement parlé.",
+  "seo": {
+    "title": "Lune de miel à la Réunion : 8 hôtels volcan et plage",
+    "description": "8 hôtels dans les cirques, lagons et sommets volcaniques notés. Dès 200 $/nuit. Verdicts de saison sèche mai-nov et choix de randonnées."
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "tagline": "Piscines à débordement aux murs blanchis, ruines antiques et la plus belle lumière du monde.",
+  "intro": "La Grèce fait le bonheur des jeunes mariés depuis trois mille ans — et la Grèce moderne a ajouté à l’un des plus beaux décors de la Méditerranée une infrastructure hôtelière de classe mondiale. La caldeira volcanique de Santorin offre l’image définitive du pays : cubes blancs, dômes bleus et une mer Égée infinie. Mais Mykonos, la Crète et le Péloponnèse proposent des expériences entièrement différentes — et souvent meilleures — sans la foule de Santorin.",
+  "bestTime": "Mai-juin, sept.-oct.",
+  "flightFrom": "3-4 h depuis Londres",
+  "topExperience": "Culture, plages et saut d’île en île",
+  "perfectFor": [
+    "Couples qui veulent la culture européenne et des plages exceptionnelles",
+    "Ceux qui souhaitent enchaîner les îles avec des ambiances radicalement différentes",
+    "Amoureux d’histoire — l’alliance entre sites antiques et luxe moderne n’a pas d’équivalent",
+    "Marins et passionnés de voile (la Grèce offre les meilleures locations en Méditerranée)",
+    "Quiconque rêve d’un coucher de soleil méditerranéen — Santorin tient ses promesses"
+  ],
+  "skipIf": [
+    "Vous visitez Santorin en juillet-août — Oia est saturée par les bateaux de croisière",
+    "Vous voulez une seule destination plutôt qu’un parcours multi-îles",
+    "Le budget est très serré — les îles grecques ne sont plus bon marché",
+    "Les plages de sable sont indispensables — beaucoup de plages grecques sont de galets",
+    "Vous avez déjà fait Santorin et cherchez vraiment autre chose"
+  ],
+  "experiences": [
+    { "title": "Coucher de soleil sur la caldeira de Santorin (depuis Oia)", "description": "Le coucher de soleil le plus photographié au monde. La lumière rose-orangée qui frappe les murs blancs d’Oia tandis que le soleil plonge dans la caldeira. La foule en vaut la peine — il n’y a rien d’équivalent.", "cost": "Gratuit", "tip": "Arrivez au château d’Oia 2 h avant le coucher du soleil. Ou réservez une table au bord de la caldeira chez Lauda ou 1800 pour la même vue, avec champagne et sans piétiner." },
+    { "title": "Voilier privé d’une île à l’autre", "description": "Un gulet ou un voilier privé depuis Santorin jusqu’à Thirassia, le volcan et les sources chaudes. Les îles grecques vues depuis l’eau, à votre rythme, avec des arrêts baignade.", "cost": "400-800 € pour une charter privée à la journée", "tip": "Réservez via votre hôtel. La balade en caldeira au coucher du soleil est le produit standard — préférez un départ matinal vers Thirassia pour éviter les bateaux." },
+    { "title": "Visite privée de l’Acropole à l’ouverture (Athènes)", "description": "Athènes est à 45 min en avion de Santorin. Ajouter 2 nuits avant ou après pour une visite privée de l’Acropole à 8 h (avant la foule) transforme le séjour : de vacances balnéaires en véritable périple européen.", "cost": "150-300 € pour un guide privé", "tip": "Context Travel propose les meilleures visites privées de l’Acropole. Réservez le premier créneau d’entrée — vous aurez le Parthénon presque pour vous." },
+    { "title": "Dégustation de vins volcaniques de Santorin", "description": "L’assyrtiko, vin blanc cultivé dans les sols cendreux et volcaniques de Santorin, ne ressemble à aucun autre vin au monde — minéral, océanique, extraordinaire. Estate Argyros et Gaia Wines proposent des dégustations privées au vignoble.", "cost": "60-120 € par couple", "tip": "Estate Argyros à Episkopi est le producteur le plus fin. Réservez une dégustation privée avec leur sommelier — elle inclut le meilleur Vinsanto que vous boirez jamais." },
+    { "title": "Snorkel à Navagio Beach (Zante)", "description": "La plage du Naufrage : un cargo rouillé sur le sable blanc, ceinturé de falaises calcaires blanches de 200 m et d’eau turquoise. L’une des plages les plus spectaculaires d’Europe, accessible uniquement en bateau.", "cost": "20-40 € par personne (sortie depuis Zante)", "tip": "Arrivez en bateau privé le matin avant 10 h. La plage est à l’ombre jusqu’en fin de matinée — tenez-en compte pour vos photos." }
+  ],
+  "months": [
+    { "weather": "Frais, 14 °C, quelques pluies, très calme", "crowds": "Très faible", "price": "Le plus bas", "verdict": "Hors saison — beaucoup de lieux fermés" },
+    { "weather": "Frais, doux, fleurs sauvages", "crowds": "Très faible", "price": "Bas", "verdict": "Hors saison romantique" },
+    { "weather": "Réchauffement, pluies occasionnelles", "crowds": "Faible", "price": "Bas", "verdict": "Les choses commencent à rouvrir" },
+    { "weather": "Printemps parfait, 20 °C", "crowds": "Modérée", "price": "Moyen", "verdict": "Magnifique, attention à la date de Pâques" },
+    { "weather": "Idéal : 24 °C, ciel clair, peu de monde", "crowds": "Modérée", "price": "Moyen-élevé", "verdict": "Meilleur mois pour Santorin" },
+    { "weather": "Chaud, 28 °C, en montée", "crowds": "Élevée", "price": "Élevé", "verdict": "Excellent, réservez tôt" },
+    { "weather": "Chaud, vent meltémi, bateaux de croisière", "crowds": "Sommet", "price": "Très élevé", "verdict": "Santorin saturée — envisagez Mykonos" },
+    { "weather": "Le plus chaud, foule maximale", "crowds": "Sommet", "price": "Maximal", "verdict": "À éviter spécifiquement à Santorin" },
+    { "weather": "Parfait : 26 °C, foule qui s’estompe", "crowds": "Élevée", "price": "Élevé", "verdict": "Le meilleur mois de l’année" },
+    { "weather": "Chaud, doré, calme", "crowds": "Modérée", "price": "Moyen", "verdict": "Le mois confidentiel par excellence" },
+    { "weather": "Frais, quelques pluies, très calme", "crowds": "Très faible", "price": "Bas", "verdict": "Beaucoup de lieux ferment fin du mois" },
+    { "weather": "Frais, ambiance festive à Athènes", "crowds": "Faible", "price": "Bas", "verdict": "Noël à Athènes est merveilleux" }
+  ],
+  "budgetTiers": [
+    { "label": "Boutique de luxe", "daily": "250-600 €/nuit", "includes": "Suite troglodyte vue caldeira à Oia ou Imerovigli, piscine privée, petit-déjeuner exceptionnel. Le cœur de l’expérience Santorin." },
+    { "label": "Premium", "daily": "600-1 500 $/nuit", "includes": "Villa avec piscine à débordement face à la caldeira, service de majordome, gastronomie sur place." },
+    { "label": "Ultra-luxe", "daily": "1 500-4 000 €+/nuit", "includes": "La plus belle villa troglodyte, transferts en hélicoptère, intimité totale au-dessus de la caldeira." }
+  ],
+  "areas": [
+    { "name": "Santorin (Oia / Imerovigli)", "description": "Oia est le village le plus photographié au monde. Imerovigli (plus haut, plus calme) est le bon compromis pour une lune de miel vue caldeira — bien moins de touristes qu’à Oia et la même vue spectaculaire. Les meilleures suites troglodytes y sont rassemblées." },
+    { "name": "Mykonos", "description": "L’île la plus glamour de Grèce. Excellente pour les couples qui veulent une scène sophistiquée en plus des plages. Agios Ioannis et Psarou sont les plages de luxe les plus tranquilles." },
+    { "name": "Crète", "description": "La plus grande île de Grèce a tout : gorges, palais antiques, longues plages de sable, gastronomie. Elounda (nord-est) concentre les hôtels les plus luxueux. La Grèce la moins « Instagram » mais la plus complète." },
+    { "name": "Amanzoe / Péloponnèse", "description": "Sur la péninsule du Péloponnèse, à 40 min de Nauplie. L’Amanzoe trône sur un promontoire avec vue à 360° sur la mer Égée. Réservé aux adultes par conception. Le luxe le plus discret de Grèce." }
+  ],
+  "expertTips": [
+    { "title": "Allez à Imerovigli plutôt qu’à Oia pour l’hôtel vue caldeira", "body": "Oia offre la vue qui a lancé un million de moodboards. Imerovigli offre presque la même vue, avec une fraction du flux piéton, et des adresses comme l’Astra Suites tout aussi belles. Oia est à 15 minutes à pied." },
+    { "title": "Athènes 2 nuits, ce n’est pas négociable", "body": "L’Acropole, le marché de Monastiraki et un dîner dans le Plaka constituent un ajout véritablement extraordinaire à toute lune de miel grecque. Athènes est à 45 minutes de Santorin avec Olympic Air. Ne sautez pas l’étape." },
+    { "title": "Le meltémi de juillet-août est l’ennemi", "body": "Le vent du nord estival de la mer Égée rend les sorties en bateau inconfortables et envoie les parasols dans la caldeira. Septembre offre la même eau chaude et le même soleil sans les rafales constantes à 30 nœuds." },
+    { "title": "Le lever du soleil sur la caldeira vaut le coucher d’Oia", "body": "Tout le monde regarde le coucher de soleil à Oia. Presque personne ne regarde le lever du soleil sur la caldeira depuis Imerovigli — la caldeira illuminée par la lumière de l’aube, sans un seul touriste. Mettez un réveil." },
+    { "title": "Prenez le téléphérique de Fira une fois et c’est tout", "body": "Les ânes qui transportent les touristes du port à Fira posent un vrai problème de bien-être animal. Le téléphérique prend 3 minutes. Prenez-le, sans culpabilité." }
+  ],
+  "packing": [
+    { "item": "Chaussures de marche confortables", "why": "Les chemins des îles grecques sont des pavés irréguliers — les sandales conviennent pour les villages, mais il faut de vraies semelles pour les randonnées" },
+    { "item": "Couches légères pour le soir", "why": "Les soirées à Santorin et Mykonos peuvent être fraîches avec le meltémi, même en juillet. Une veste légère pour dîner dehors." },
+    { "item": "Tenues sobres pour les églises", "why": "Les églises aux dômes bleus exigent épaules et genoux couverts pour entrer" },
+    { "item": "Médicaments anti-mal de mer", "why": "Les traversées en ferry sur l’Égée en été (saison du meltémi) peuvent être agitées" },
+    { "item": "Euros en espèces", "why": "Les tavernes insulaires, opérateurs de bateaux et marchés préfèrent largement le cash. Les distributeurs des petites îles tombent à sec." },
+    { "item": "Batterie externe", "why": "L’architecture des suites troglodytes signifie peu de prises. Une charge complète avant la balade est essentielle." }
+  ],
+  "guide": {
+    "getting": "Vol vers Athènes (ATH) — direct depuis la plupart des grandes villes européennes (2-4 h depuis le Royaume-Uni). Puis correspondance vers Santorin (JTR, 45 min en Olympic Air), Mykonos (MYK, 40 min) ou Héraklion/Crète (HER, 1 h). Alternative : ferry rapide depuis le Pirée vers Santorin (5 h en SeaJet) ou vol Aegean Airlines. Les ferries inter-îles relient toutes les principales Cyclades.",
+    "where": "Santorin (Imerovigli et Oia pour les hôtels vue caldeira). Mykonos (Psarou et Agios Ioannis pour le luxe en bord de plage). Crète (péninsule d’Elounda pour la concentration de resorts). Amanzoe (Péloponnèse continental, le plus isolé). Un circuit multi-îles : Athènes 2 nuits → Santorin 4 nuits → Crète ou Mykonos 3 nuits est l’itinéraire classique.",
+    "when": "Mai-juin est l’idéal : météo parfaite, tout est ouvert, foule gérable. Septembre est le meilleur mois confidentiel — eau chaude, lumière dorée, 30 % de touristes en moins qu’en août. Juillet-août est trop bondé pour Santorin spécifiquement ; gérable pour la Crète ou l’Amanzoe."
+  },
+  "localFood": "Poulpe grillé pêché du jour arrosé de citron (sur toutes les terrasses), saganaki (fromage frit), dakos (bruschetta crétoise), moussaka bien faite et un meze de fruits de mer extraordinaire dans une taverne en bord de mer, accompagné d’ouzo local. Les tomates cerises de Santorin (poussées en sol volcanique) sont les plus sucrées de Grèce. La fava (purée jaune de pois cassés) de Santorin est une spécialité locale. Le vin blanc assyrtiko est le meilleur accord pour tout cela.",
+  "language": "Grec. L’anglais est largement parlé dans toutes les zones touristiques.",
+  "seo": {
+    "title": "Lune de miel en Grèce : 8 resorts insulaires et continentaux 2026",
+    "description": "8 resorts de Mykonos, Crète et Péloponnèse notés. Amanzoe, Four Seasons Astir. À partir de 500 $/nuit. Sélections mai-oct."
+  }
+}

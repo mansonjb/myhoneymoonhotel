@@ -7,7 +7,9 @@
     "title": "Garden Village Bled: Glamping Treehouse Honeymoon Review",
     "description": "Garden Village Bled review. Treehouses & glamping tents minutes from the lake. Score 79/100, from $220/night. Honest 2026 verdict."
   },
-  "experience_types": ["boutique"],
+  "experience_types": [
+    "boutique"
+  ],
   "honeymoon_score": 79,
   "score_breakdown": {
     "adults_only": 0,
@@ -21,7 +23,10 @@
     "luxury": 9
   },
   "stars": 4,
-  "price_per_night_usd": { "min": 220, "max": 550 },
+  "price_per_night_usd": {
+    "min": 220,
+    "max": 550
+  },
   "adults_only": false,
   "amenities": [
     "treehouses",
@@ -34,11 +39,31 @@
     "private-decks"
   ],
   "photos": [
-    { "url": "/images/hotels/garden-village-bled-slovenia/hero.webp", "alt": "Garden Village Bled — hero", "type": "hero" },
-    { "url": "/images/hotels/garden-village-bled-slovenia/room.webp", "alt": "Garden Village — treehouse", "type": "room" },
-    { "url": "/images/hotels/garden-village-bled-slovenia/pool.webp", "alt": "Garden Village — stream pool", "type": "pool" },
-    { "url": "/images/hotels/garden-village-bled-slovenia/spa.webp", "alt": "Garden Village — sauna", "type": "spa" },
-    { "url": "/images/hotels/garden-village-bled-slovenia/dining.webp", "alt": "Garden Village — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/garden-village-bled-slovenia/hero.webp",
+      "alt": "garden-village-bled-slovenia — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/garden-village-bled-slovenia/room.webp",
+      "alt": "garden-village-bled-slovenia — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/garden-village-bled-slovenia/pool.webp",
+      "alt": "garden-village-bled-slovenia — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/garden-village-bled-slovenia/spa.webp",
+      "alt": "garden-village-bled-slovenia — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/garden-village-bled-slovenia/dining.webp",
+      "alt": "garden-village-bled-slovenia — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 4.7,
   "tripadvisor_award": true,
@@ -47,13 +72,41 @@
     "verdict": "Garden Village is the design-led glamping site that put Bled on the boutique-stay map about a decade ago — 27 accommodations split between elevated wooden treehouses (the honeymoon picks), glamping tents on stilts, and pier tents perched above a babbling stream that runs through the property. It is 8 minutes\\' walk from Lake Bled itself, set in a private meadow with vegetable gardens, a small natural-water swimming pool, and a kitchen that takes its farm-to-table positioning seriously (most ingredients come from the garden you walk past on the way to dinner). For a couple, the right move is to book a Pier Tent or Treehouse — both come with a private deck, the sound of the stream all night, and very real privacy from neighbours. The aesthetic is Scandinavian-meets-alpine: pale wood, white linen, woollen blankets, hand-thrown ceramic. The food is the surprise — a proper restaurant menu with seasonal Slovenian dishes, paired wines, and a kitchen garden walk on request. The catch: this is glamping, not a hotel. The bathrooms in the treehouses are excellent but the rooms themselves are smaller; the climate from October through April means the open-air aspects close; and the pool is for refreshing dips rather than serious laps. For a honeymoon couple wanting a romantic 2–3 nights of design glamping rather than a grand hotel, this is the most rewarded address in Slovenia.",
     "best_room": "A Pier Tent above the stream — falling asleep to the water below is the entire reason to be here. For a slight splurge a Premium Treehouse adds more space and a wider deck. Avoid the standard ground-level glamping tents; the elevated rooms are the experience.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival, garden dinner", "description": "Drive from LJU airport (45 min). Check-in to Pier Tent. Welcome drink in the orchard. Dinner in the garden — kitchen tasting menu." },
-      { "day": 2, "title": "Bled lake and pletna island", "description": "8-minute walk to Lake Bled. Lake circuit anti-clockwise. Pletna boat to Bled Island, 99 steps. Castle visit sunset, dinner at the castle restaurant." },
-      { "day": 3, "title": "Vintgar Gorge and lake swim", "description": "Early Vintgar Gorge boardwalk. Lake swim afternoon at Mlino beach. Kremšnita at Park Hotel. Sauna evening at Garden Village. Dinner in." },
-      { "day": 4, "title": "Bohinj day trip", "description": "Drive 25 minutes. Kayak Lake Bohinj. Lunch in Stara Fužina. Vogel cable car. Return for dinner." },
-      { "day": 5, "title": "Ljubljana day, return to Bled", "description": "Drive 45 minutes to Ljubljana. Walking tour, market, Plečnik. Lunch at Atelje. Afternoon return. Dinner at Mayer." },
-      { "day": 6, "title": "Hiša Franko in Soča Valley", "description": "90-minute drive through Soča Valley. Lunch at the emerald river. Hiša Franko tasting menu. Overnight Hiša Polonka." },
-      { "day": 7, "title": "Return drive, departure", "description": "Drive back to LJU airport (2 hours) for the afternoon flight home." }
+      {
+        "day": 1,
+        "title": "Arrival, garden dinner",
+        "description": "Drive from LJU airport (45 min). Check-in to Pier Tent. Welcome drink in the orchard. Dinner in the garden — kitchen tasting menu."
+      },
+      {
+        "day": 2,
+        "title": "Bled lake and pletna island",
+        "description": "8-minute walk to Lake Bled. Lake circuit anti-clockwise. Pletna boat to Bled Island, 99 steps. Castle visit sunset, dinner at the castle restaurant."
+      },
+      {
+        "day": 3,
+        "title": "Vintgar Gorge and lake swim",
+        "description": "Early Vintgar Gorge boardwalk. Lake swim afternoon at Mlino beach. Kremšnita at Park Hotel. Sauna evening at Garden Village. Dinner in."
+      },
+      {
+        "day": 4,
+        "title": "Bohinj day trip",
+        "description": "Drive 25 minutes. Kayak Lake Bohinj. Lunch in Stara Fužina. Vogel cable car. Return for dinner."
+      },
+      {
+        "day": 5,
+        "title": "Ljubljana day, return to Bled",
+        "description": "Drive 45 minutes to Ljubljana. Walking tour, market, Plečnik. Lunch at Atelje. Afternoon return. Dinner at Mayer."
+      },
+      {
+        "day": 6,
+        "title": "Hiša Franko in Soča Valley",
+        "description": "90-minute drive through Soča Valley. Lunch at the emerald river. Hiša Franko tasting menu. Overnight Hiša Polonka."
+      },
+      {
+        "day": 7,
+        "title": "Return drive, departure",
+        "description": "Drive back to LJU airport (2 hours) for the afternoon flight home."
+      }
     ],
     "caveats": [
       "This is glamping, not a 5-star hotel — perfect for 2–3 nights, less so for a full week.",
@@ -61,12 +114,30 @@
       "The pool is small and stream-fed (cool) — not a lounger pool."
     ],
     "faqs": [
-      { "question": "Glamping or proper hotel for our honeymoon?", "answer": "Best of both — combine 2 nights at Garden Village with 2 nights at Vila Bled or Mayer to get both registers." },
-      { "question": "How private are the treehouses?", "answer": "Genuinely private — set among orchard trees with screening between units. The stream noise masks neighbours entirely." },
-      { "question": "Is the food really as good as the reviews say?", "answer": "Yes — the kitchen takes farm-to-table positioning seriously. The tasting menu is one of the best at this price tier in Bled." },
-      { "question": "Can you walk to the lake?", "answer": "Yes — 8 minutes through a quiet residential lane to the lake circuit. Perfect for an early-morning walk." },
-      { "question": "When is the best time?", "answer": "May through September only. Closed for much of the cold season — verify dates when booking." },
-      { "question": "Children?", "answer": "Allowed and present, especially in summer school holidays — pick another property if you want adults-only quiet." }
+      {
+        "question": "Glamping or proper hotel for our honeymoon?",
+        "answer": "Best of both — combine 2 nights at Garden Village with 2 nights at Vila Bled or Mayer to get both registers."
+      },
+      {
+        "question": "How private are the treehouses?",
+        "answer": "Genuinely private — set among orchard trees with screening between units. The stream noise masks neighbours entirely."
+      },
+      {
+        "question": "Is the food really as good as the reviews say?",
+        "answer": "Yes — the kitchen takes farm-to-table positioning seriously. The tasting menu is one of the best at this price tier in Bled."
+      },
+      {
+        "question": "Can you walk to the lake?",
+        "answer": "Yes — 8 minutes through a quiet residential lane to the lake circuit. Perfect for an early-morning walk."
+      },
+      {
+        "question": "When is the best time?",
+        "answer": "May through September only. Closed for much of the cold season — verify dates when booking."
+      },
+      {
+        "question": "Children?",
+        "answer": "Allowed and present, especially in summer school holidays — pick another property if you want adults-only quiet."
+      }
     ],
     "email_template": "Subject: Honeymoon booking — Garden Village Bled\n\nHello,\n\nWe would like to book 2 or 3 nights at Garden Village during our Slovenian honeymoon ([DATES]).\n\nCould you please confirm:\n1. Best available rate on a Pier Tent above the stream\n2. Honeymoon turndown — flowers, in-room amenities\n3. Reservation in the garden restaurant for first and last nights\n4. Kitchen garden walk and any seasonal events\n5. Driving directions from LJU airport\n\nThank you,\n[Your names]"
   },

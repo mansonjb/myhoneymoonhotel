@@ -1,0 +1,68 @@
+{
+  "tagline": "Royaumes anciens, collines de thé brumeuses et plages bordées de palmiers sur une île en forme de larme",
+  "intro": "Le Sri Lanka concentre une variété absurde dans un pays plus petit que l’Irlande. En une seule semaine, vous pouvez gravir une forteresse rocheuse du Vᵉ siècle au lever du jour, prendre un train bleu nonchalant à travers des plantations de thé émeraude, suivre des léopards à Yala et finir la journée à observer des baleines au large de Mirissa. Le Triangle culturel ancre 2 500 ans de civilisation bouddhiste — Sigiriya, Dambulla, Polonnaruwa, Anuradhapura — tandis que le Hill Country offre un air frais, des bungalows coloniaux et certains des trajets ferroviaires les plus photogéniques de la planète. La côte sud-ouest enchaîne le fort de Galle classé à l’UNESCO, les plages de palmiers ondulants de Tangalle et Weligama. Deux systèmes de mousson distincts rendent le timing crucial : le sud-ouest et le Hill Country brillent de décembre à mars, tandis que la côte est culmine de mai à septembre. La cuisine est criminellement sous-estimée : egg hoppers au petit-déjeuner, kottu roti le soir, currys de poisson au lait de coco. La faune est véritablement de classe mondiale — le Sri Lanka possède la plus haute densité de léopards de la planète à Yala.",
+  "bestTime": "Décembre à mars pour le sud, l’ouest et le Hill Country ; mai à septembre pour la côte est",
+  "flightFrom": "NYC ~17 h via Doha/Dubaï ; LON ~11 h direct ou via le Golfe. Bandaranaike (CMB) est la seule porte d’entrée internationale.",
+  "topExperience": "Gravir la forteresse rocheuse de Sigiriya à l’aube, puis prendre le train matinal de Kandy à Ella à travers le pays du thé",
+  "perfectFor": ["Combinateurs culture-et-nature", "Photographes animaliers", "Passionnés de thé et de trains", "Surfeurs en quête d’eau chaude", "Adeptes d’ayurveda et de bien-être"],
+  "skipIf": ["Vous voulez uniquement la plage sans rien faire", "Vous détestez les routes de montagne sinueuses", "Vous avez besoin d’une météo prévisible partout en même temps", "Vous attendez la qualité finition plage des Maldives"],
+  "experiences": [
+    { "title": "Sigiriya au lever du jour", "description": "Gravissez les 1 200 marches de la forteresse du Rocher du Lion du Vᵉ siècle avant la chaleur et l’arrivée des bus.", "cost": "30 $ d’entrée", "tip": "Soyez à la grille à 6 h 30 pile ; envisagez Pidurangala juste à côté pour la photo iconique" },
+    { "title": "Train Kandy-Ella", "description": "Sept heures à travers plantations de thé, cascades et le pont Nine Arches — l’un des trajets ferroviaires les plus pittoresques au monde.", "cost": "10-25 $ en place réservée", "tip": "Réservez des places de seconde classe plusieurs semaines à l’avance" },
+    { "title": "Safari léopards à Yala", "description": "Le Bloc 1 de Yala possède la plus haute densité de léopards au monde.", "cost": "80-150 $ en jeep partagée", "tip": "Logez dans le parc ou à proximité (Wild Coast Tented Lodge)" },
+    { "title": "Promenade au fort de Galle", "description": "Un fort colonial hollandais parfaitement préservé, en saillie sur l’océan Indien.", "cost": "Marche gratuite", "tip": "Passez la nuit à l’intérieur des murs (Amangalla ou Fort Bazaar)" },
+    { "title": "Séjour dans une plantation de thé", "description": "Dormez dans un bungalow de planteur restauré au Ceylon Tea Trails ou Tea Trails Hatton.", "cost": "600-1 200 $/nuit tout inclus", "tip": "Réservez le bungalow Castlereagh ou Summerville" }
+  ],
+  "months": [
+    { "weather": "27 °C, sec au sud/ouest", "crowds": "Pic", "price": "Maximum", "verdict": "Heure de pointe — réservez 6 mois à l’avance" },
+    { "weather": "28 °C, sec et clair", "crowds": "Pic", "price": "Maximum", "verdict": "Meilleur mois global pour les premières fois" },
+    { "weather": "29 °C, réchauffement", "crowds": "Élevée", "price": "Élevé", "verdict": "Excellent — légère montée d’humidité" },
+    { "weather": "30 °C, chaleur pré-mousson", "crowds": "Moyenne", "price": "Moyen", "verdict": "Chaud mais ambiance Nouvel An cinghalais/tamoul" },
+    { "weather": "29 °C, début de la mousson du sud-ouest", "crowds": "Faible", "price": "Bas", "verdict": "La côte est s’ouvre — évitez le sud" },
+    { "weather": "28 °C, sud-ouest humide", "crowds": "Faible", "price": "Bas", "verdict": "Triangle culturel et côte est uniquement" },
+    { "weather": "28 °C, Esala Perahera", "crowds": "Moyenne", "price": "Moyen", "verdict": "Le festival de Kandy est spectaculaire" },
+    { "weather": "28 °C, plus sec au nord", "crowds": "Moyenne", "price": "Moyen", "verdict": "Idéal pour les safaris et les plages de l’est" },
+    { "weather": "28 °C, transition", "crowds": "Faible", "price": "Bas", "verdict": "Entre-saison calme" },
+    { "weather": "27 °C, arrivée de la mousson du nord-est", "crowds": "Faible", "price": "Bas", "verdict": "Mois le plus humide à l’échelle de l’île — à éviter" },
+    { "weather": "27 °C, éclaircie au sud", "crowds": "Moyenne", "price": "Moyen", "verdict": "La côte sud rouvre en fin de mois" },
+    { "weather": "27 °C, sec et festif", "crowds": "Pic", "price": "Maximum", "verdict": "Noël/Nouvel An se réserve un an à l’avance" }
+  ],
+  "budgetTiers": [
+    { "label": "Confortable", "daily": "200-400 $/nuit", "includes": "Maisons d’hôtes coloniales boutique, resorts de plage milieu de gamme, chauffeur-guide privé" },
+    { "label": "Luxe", "daily": "500-900 $/nuit", "includes": "Collection Resplendent Ceylon, villas au design abouti, butler dédié" },
+    { "label": "Ultra-luxe", "daily": "1 000-2 500 $/nuit", "includes": "Propriétés Aman, bungalows de thé tout inclus, transferts hélicoptère" }
+  ],
+  "areas": [
+    { "name": "Triangle culturel", "description": "Cœur de la zone sèche avec Sigiriya, les grottes de Dambulla, Polonnaruwa dans un rayon de 90 minutes. L’Heritance Kandalama est la base iconique." },
+    { "name": "Kandy et Hill Country", "description": "Le Temple de la Dent à Kandy, puis montée vers Nuwara Eliya et Hatton pour les plantations de thé et le train d’Ella." },
+    { "name": "Galle et côte sud", "description": "Le fort de Galle ancre un littoral de plages de palmiers de Bentota à Tangalle. Cape Weligama et Amangalla s’y regroupent." },
+    { "name": "Yala et sud-est", "description": "Le premier parc national du Sri Lanka pour les léopards. Le Wild Coast Tented Lodge se distingue." },
+    { "name": "Côte est", "description": "Quand le sud-ouest est humide, la plage de Nilaveli à Trinco et Pasikuda offrent une baignade sèche et ensoleillée." }
+  ],
+  "expertTips": [
+    { "title": "Engagez un chauffeur-guide, ne conduisez pas vous-même", "body": "Les routes sont chaotiques, la signalisation lacunaire. Un bon chauffeur coûte 60-90 $/jour, son hébergement compris." },
+    { "title": "Suivez les moussons, ne les combattez pas", "body": "Déc-mars : sud, ouest, collines. Mai-sept : côte est et Triangle culturel. Octobre est véritablement misérable à l’échelle nationale." },
+    { "title": "Prévoyez des jours tampons entre les régions", "body": "Les distances semblent courtes sur la carte, mais Colombo à Ella peut prendre 7 heures." },
+    { "title": "Évitez l’orphelinat d’éléphants de Pinnawala", "body": "C’est éthiquement discutable. Voyez plutôt les éléphants sauvages à Udawalawe ou au « Gathering » de Minneriya." },
+    { "title": "Réservez les safaris de Yala via votre hôtel", "body": "Les jeeps organisées par les hôtels connaissent les pisteurs et obtiennent la priorité à la grille." }
+  ],
+  "packing": [
+    { "item": "Tenue modeste pour les temples", "why": "Épaules et genoux couverts pour les sites bouddhistes" },
+    { "item": "Couches légères pour les collines", "why": "Nuwara Eliya et Ella descendent à un chiffre la nuit" },
+    { "item": "Crème solaire sans danger pour les récifs", "why": "Les UV sont brutaux toute l’année près de l’équateur" },
+    { "item": "Répulsif anti-moustiques au DEET", "why": "La dengue est présente dans les zones de plaine" },
+    { "item": "Chaussettes anti-sangsues pour les randonnées en colline", "why": "Si vous randonnez dans la forêt tropicale de Sinharaja, les sangsues sont garanties" },
+    { "item": "Espèces en petites coupures LKR", "why": "Tuk-tuks et stands de bord de route fonctionnent en petites coupures" }
+  ],
+  "guide": {
+    "getting": "Tous les vols internationaux atterrissent à Bandaranaike (CMB). La plupart des voyageurs de luxe sautent Colombo — organisez à l’avance un chauffeur-guide pour filer directement à Sigiriya (4 h) ou au sud à Galle (2-3 h).",
+    "where": "Une boucle classique de 10-14 jours : secteur de Sigiriya (2-3 nuits), Kandy (1-2 nuits), pays du thé (2 nuits au Ceylon Tea Trails), Yala (1-2 nuits), côte sud (3-4 nuits à Cape Weligama ou Amangalla).",
+    "when": "Pour les premières fois sur la boucle sud-et-collines, visez fin janvier à mi-mars. Si votre priorité est Yala + côte est, basculez sur juin-août. L’Esala Perahera à Kandy (fin juillet) est l’un des grands spectacles culturels d’Asie."
+  },
+  "localFood": "La cuisine sri-lankaise est plus audacieuse et plus variée que celle de son voisin indien — coco, feuilles de curry, pandan et cannelle définissent le palais. Le petit-déjeuner, ce sont des egg hoppers ou string hoppers avec dhal et pol sambol. Le déjeuner, c’est riz et curry — typiquement 5-7 petits plats. Le kottu roti tard le soir est le plat-réconfort national.",
+  "language": "Cinghalais / tamoul (anglais largement parlé)",
+  "seo": {
+    "title": "Lune de miel au Sri Lanka : 8 hôtels pays du thé et plage",
+    "description": "8 séjours à Galle, Ella, Yala notés. Cape Weligama, Ceylon Tea Trails, Wild Coast Tented. Dès 300 $/nuit. Déc-mars."
+  }
+}

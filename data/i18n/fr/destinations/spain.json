@@ -1,0 +1,68 @@
+{
+  "tagline": "Là où littoraux gorgés de soleil, cuisines de classe mondiale et romance mauresque se rejoignent",
+  "intro": "L’Espagne ne fait pas les lunes de miel à voix basse. Elle vous séduit par les patios andalous parfumés à la fleur d’oranger, les criques baléares couleur de verre fondu et les menus dégustation basques qui ont réécrit les règles de la haute cuisine. Peu de pays concentrent autant de contraste régional dans un seul voyage — vous vous réveillez sous la brume des Tramuntana au-dessus de Deià un matin, sirotez un vermut sur une place de Barcelone le lendemain, et finissez la semaine à regarder le soleil fondre derrière Es Vedrà depuis une terrasse en falaise à Ibiza. L’Espagne est, selon la plupart des critères sérieux, le pays gastronomique le plus passionnant de la planète actuellement — trois des plus grands menus dégustation du monde se trouvent à moins d’une heure de Saint-Sébastien, le jamón ibérico de bellota est traité avec la révérence que d’autres cultures réservent au vin. Pour les couples, la magie réside dans le rythme : déjeuners tardifs qui s’étirent en sieste, paseos main dans la main au coucher du soleil, dîner à 22 h suivi d’un dernier verre de fino sous une guirlande de lanternes.",
+  "bestTime": "Mai-juin et septembre-début octobre — mers chaudes, longues journées, foules gérables",
+  "flightFrom": "NYC : 7-8 h vers Madrid/Barcelone ; LA : 11-12 h via correspondance ; Londres : 2-2 h 30 direct",
+  "topExperience": "Une croisière privée au coucher du soleil le long de la côte nord-ouest de Majorque, mouillage dans une cala cachée pour une baignade avant un dîner au Belmond La Residencia",
+  "perfectFor": ["Couples obsédés par la cuisine, en quête des meilleurs menus dégustation du monde", "Amateurs de design qui veulent Gaudí, palais mauresques et hôtels boutique", "Hybrides plage-et-culture qui refusent de choisir", "Voyageurs multi-régions avec 10-14 jours", "Couches-tard qui s’épanouissent autour des dîners à 22 h"],
+  "skipIf": ["Vous voulez la solitude garantie en plein juillet-août", "Vous ne supportez pas la chaleur — l’Andalousie dépasse 40 °C en été", "Vous préférez les dîners tôt et le coucher à 21 h", "Vous voulez la simplicité d’une seule étape"],
+  "experiences": [
+    { "title": "Visite privée d’un vignoble Rioja avec Marqués de Riscal", "description": "Rendez-vous dans la Rioja Alavesa pour une visite privée du domaine signé Frank Gehry, dégustation au fût et déjeuner parmi les vignes.", "cost": "350-600 € par couple", "tip": "Réservez la suite rooftop de l’Hôtel Marqués de Riscal" },
+    { "title": "Tournée des pintxos à Saint-Sébastien", "description": "Une marche de 4 heures en soirée à travers la Parte Vieja, en passant par 5-6 des bars à pintxos légendaires de la ville — Ganbara, Bar Néstor, Gandarias.", "cost": "180-250 € par couple", "tip": "Mangez debout au bar comme un local ; ne commandez jamais plus de deux pintxos par arrêt" },
+    { "title": "Visite privée nocturne de l’Alhambra", "description": "Évitez les foules diurnes avec une visite guidée du soir des palais nasrides et des jardins du Generalife.", "cost": "280-450 € par couple", "tip": "Logez au Parador de Granada, à l’intérieur de l’enceinte de l’Alhambra" },
+    { "title": "Journée privée en gulet le long de la côte Tramuntana de Majorque", "description": "Affrétez un bateau traditionnel en bois depuis Port de Sóller et naviguez le long du littoral classé à l’UNESCO.", "cost": "1 200-2 000 € pour la journée", "tip": "Partez en milieu de semaine et tôt pour vous emparer des plus belles criques" },
+    { "title": "Tablao flamenco intime à Triana, Séville", "description": "Une représentation en petite salle à la Casa de la Memoria — du véritable cante jondo brut, pas la version touristique.", "cost": "90-150 € par couple", "tip": "Asseyez-vous au premier rang — le flamenco se ressent" }
+  ],
+  "months": [
+    { "weather": "8-15 °C, frais, pluie occasionnelle", "crowds": "Très faible", "price": "€", "verdict": "Villes uniquement — la côte et les îles s’endorment" },
+    { "weather": "9-16 °C, doux au sud, froid au nord", "crowds": "Faible", "price": "€", "verdict": "L’Andalousie commence à s’éveiller" },
+    { "weather": "12-19 °C, le printemps arrive", "crowds": "Faible", "price": "€€", "verdict": "Magnifique en Andalousie ; Semaine sainte si Pâques tombe ici" },
+    { "weather": "15-22 °C, journées chaudes, nuits fraîches", "crowds": "Modérée", "price": "€€", "verdict": "Entre-saison superbe ; Feria de Abril à Séville" },
+    { "weather": "18-26 °C, presque parfait", "crowds": "Modérée", "price": "€€€", "verdict": "Sweet spot — les mers commencent à se réchauffer" },
+    { "weather": "22-30 °C, chaud et sec", "crowds": "Élevée", "price": "€€€", "verdict": "Excellent avant les vacances scolaires" },
+    { "weather": "26-35 °C, très chaud", "crowds": "Très élevée", "price": "€€€€", "verdict": "Côte et îles saturées" },
+    { "weather": "28-40 °C, pic de chaleur", "crowds": "Pic", "price": "€€€€", "verdict": "À éviter sauf si vous adorez les foules" },
+    { "weather": "24-30 °C, mers chaudes", "crowds": "Élevée", "price": "€€€", "verdict": "Sans doute le meilleur mois — la mer est à température de bain" },
+    { "weather": "18-25 °C, lumière dorée", "crowds": "Modérée", "price": "€€", "verdict": "Magique pour l’Andalousie et le Pays basque" },
+    { "weather": "12-19 °C, plus frais", "crowds": "Faible", "price": "€€", "verdict": "Villes et gastronomie uniquement" },
+    { "weather": "9-15 °C, frais, festif", "crowds": "Modérée (villes)", "price": "€€", "verdict": "Marchés de Noël à Madrid et Barcelone" }
+  ],
+  "budgetTiers": [
+    { "label": "Raffiné", "daily": "450-800 €/nuit", "includes": "Hôtels boutique dans les quartiers historiques, accessibles à pied à tout" },
+    { "label": "Luxe", "daily": "800-1 800 €/nuit", "includes": "Resorts 5-étoiles iconiques, suites vue mer, restaurants étoilés, rituels spa" },
+    { "label": "Ultra-luxe", "daily": "1 800-5 000 €+/nuit", "includes": "Villas-forteresses privées, service majordome, transferts hélicoptère" }
+  ],
+  "areas": [
+    { "name": "Majorque", "description": "L’île de lune de miel par excellence — montagnes classées à l’UNESCO plongeant dans une eau turquoise, villages de pierre comme Deià." },
+    { "name": "Ibiza (nord)", "description": "Le nord d’Ibiza, c’est forêts de pins, marchés bohèmes et tables fermières d’une élégance impossible." },
+    { "name": "Andalousie", "description": "L’Espagne de l’imaginaire — l’Alhambra, l’Alcázar de Séville, le Marbella Club, Finca Cortesin." },
+    { "name": "Pays basque et Rioja", "description": "Saint-Sébastien compte parmi les plus fortes densités d’étoiles Michelin par habitant au monde." },
+    { "name": "Barcelone et Costa Brava", "description": "La seule grande ville européenne qui soit aussi une ville balnéaire. Trois jours, puis 90 minutes de route vers le nord jusqu’à la Costa Brava." }
+  ],
+  "expertTips": [
+    { "title": "Mangez à l’heure espagnole ou vous souffrirez", "body": "Le déjeuner est de 14 à 16 h, le dîner commence à 21-22 h. Les restaurants qui servent à 19 h sont des pièges à touristes." },
+    { "title": "Ne faites pas l’Andalousie et les îles en août", "body": "L’Andalousie intérieure dépasse 42 °C et Majorque/Ibiza atteignent leur densité maximale." },
+    { "title": "Réservez les menus dégustation Michelin 60-90 jours à l’avance", "body": "Akelarre, Arzak, Mugaritz, Disfrutar libèrent leurs tables ~2 mois à l’avance." },
+    { "title": "Louez une voiture partout sauf en ville", "body": "Majorque, l’Andalousie, la Costa Brava, la Rioja sont essentiellement impossibles à découvrir sans voiture." },
+    { "title": "Combinez deux régions, pas cinq", "body": "Choisissez un duo contrasté — Andalousie + Majorque, ou Barcelone + Pays basque — et plongez en profondeur." }
+  ],
+  "packing": [
+    { "item": "Lin léger pour le jour, élégant pour le soir", "why": "Les Espagnols s’habillent magnifiquement pour le dîner — pas de short dans les vraies tables" },
+    { "item": "Chaussures de marche confortables pour les pavés", "why": "Les vieilles villes de Séville, Grenade, Palma sont de pierre inégale" },
+    { "item": "Un vrai maillot de bain et un paréo", "why": "Les beach clubs et piscines d’hôtel sont des lieux où l’on se montre" },
+    { "item": "Couches légères pour les soirées", "why": "Les nuits côtières se rafraîchissent vite ; l’Andalousie intérieure perd 15 °C après la tombée du jour" },
+    { "item": "Protection solaire : chapeau, SPF 50, lunettes polarisées", "why": "Le soleil ibérique ne pardonne pas de mai à octobre" },
+    { "item": "Une petite besace en bandoulière", "why": "Le pickpocketing est réel dans les métros de Barcelone et de Madrid" }
+  ],
+  "guide": {
+    "getting": "Les grands hubs sont Madrid (MAD) et Barcelone (BCN), avec des vols directs depuis la plupart des villes de la côte est des États-Unis (7-8 h). Pour la région où vous commencez : Palma (PMI), Ibiza (IBZ), Málaga (AGP), Bilbao (BIO).",
+    "where": "Répartissez 10 nuits entre deux régions contrastées. Préférée : 5 nuits Andalousie (Séville + Marbella Club ou Finca Cortesin) + 5 nuits Majorque (Belmond La Residencia ou Cap Rocat).",
+    "when": "Mai, juin et septembre sont les vainqueurs incontestés. Début octobre est une perle pour la gastronomie andalouse et basque. Évitez août sauf si vous êtes engagés sur les îles."
+  },
+  "localFood": "L’Espagne est le pays gastronomique le plus passionnant du monde actuellement. Essentiels de lune de miel : jamón ibérico de bellota avec un fino, paella à Valence, txuleta basque, tournée de pintxos à Saint-Sébastien, salmorejo en Andalousie, vermut à 13 h, churros con chocolate à minuit.",
+  "language": "Espagnol (castillan) / régional (catalan, basque, galicien)",
+  "seo": {
+    "title": "Lune de miel en Espagne : 7 hôtels côte et patrimoine notés 2026",
+    "description": "7 séjours à Majorque, Ibiza, Andalousie classés. Cap Rocat, La Residencia, Marbella Club. Dès 500 $/nuit. Avr-oct."
+  }
+}

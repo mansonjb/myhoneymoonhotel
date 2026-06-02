@@ -1,0 +1,106 @@
+{
+  "tagline": "La plus belle plage du monde, le récif le plus sain des Caraïbes, et zéro compromis.",
+  "intro": "Grace Bay a été élue plus belle plage du monde sur TripAdvisor plus que toute autre bande de sable. L’eau ici — turquoise, 28 °C, calme — est littéralement la couleur que les gens utilisent par défaut comme fond d’écran plage. Mais les Turks-et-Caïcos offrent plus que des paysages : les systèmes récifaux au large de la côte ouest sont parmi les plus sains de l’hémisphère, la densité d’hôtels ultra-luxe est extraordinaire, et l’atmosphère est calme, lente, entièrement tournée vers le type de relaxation profonde qu’exige une lune de miel.",
+  "bestTime": "Déc-mai",
+  "flightFrom": "9-10 h depuis Londres",
+  "topExperience": "Luxe et plongée",
+  "perfectFor": [
+    "Les couples qui veulent la plus belle plage du monde sans compromis",
+    "Les plongeurs et passionnés de snorkeling — le récif ici est vraiment de classe mondiale",
+    "Les chercheurs d’ultra-luxe — la densité de resorts au sommet est exceptionnelle",
+    "Vol facile depuis la côte est des États-Unis (2 h 30 depuis NY, 1 h 30 depuis Miami)",
+    "Les couples qui veulent des options adults-only avec un véritable luxe balnéaire"
+  ],
+  "skipIf": [
+    "Budget inférieur à 500 $/nuit — il n’existe aucune option abordable sur Grace Bay",
+    "Vous cherchez une profondeur culturelle ou une authenticité locale — TCI est une destination resort",
+    "Vous voulez une vie nocturne variée — ici, c’est soirées calmes et lever tôt",
+    "Une destination uniquement plage vous semble trop unidimensionnelle pour 7 nuits",
+    "Vous voyagez d’août à octobre — le risque d’ouragan est réel et les tarifs ne le reflètent pas"
+  ],
+  "experiences": [
+    {
+      "title": "Catamaran au coucher de soleil avec dauphins",
+      "description": "Les dauphins fileurs se rassemblent au large de Grace Bay la plupart des soirs avant le coucher du soleil. Les sorties catamaran chronomètrent leur départ pour les intercepter, avec champagne et la plus belle lumière de la journée.",
+      "cost": "120-200 $ par personne",
+      "tip": "Réservez via Silverdeep ou Island Vibes — le taux de rencontre dauphin le plus constant."
+    },
+    {
+      "title": "Plongée sur le tombant à West Caicos",
+      "description": "Le mur vertical de West Caicos est l’un des 10 meilleurs sites de plongée des Caraïbes — un mur de corail vertical qui descend à 2 000 m, avec requins, raies aigle et tortues.",
+      "cost": "150-250 $ par personne (sortie 2 plongées)",
+      "tip": "Big Blue Unlimited opère les meilleures journées à West Caicos. Réservez une semaine à l’avance en pic de saison."
+    },
+    {
+      "title": "Affrètement privé vers Little Water Cay",
+      "description": "Une réserve naturelle protégée où les iguanes sauvages sont plus nombreux que les humains. Affrétez un bateau privé pour vous deux, pique-niquez sur une plage déserte, snorkelez dans l’eau la plus limpide de l’archipel.",
+      "cost": "400-800 $ pour l’affrètement privé",
+      "tip": "À combiner avec un arrêt à Iguana Island (Little Water Cay) pour la faune. Les iguanes sont vraiment amicaux."
+    },
+    {
+      "title": "Plongée avec les requins à French Cay",
+      "description": "La population de requins à French Cay (sud des TCI) est extraordinaire — requins de récif des Caraïbes, requins nourrices, requins citron. L’un des rares endroits où plonger de façon fiable avec plusieurs espèces.",
+      "cost": "200-350 $ par personne",
+      "tip": "Réservé aux plongeurs certifiés. PADI Open Water minimum. Les requins sont curieux, pas agressifs."
+    },
+    {
+      "title": "Paddle au lever du soleil sur Grace Bay",
+      "description": "Avant que le soleil ne monte et que le vent ne se lève, Grace Bay à 7 h est l’endroit le plus méditatif des Caraïbes. L’eau est si claire que vous voyez l’ombre de votre planche sur le sable en dessous.",
+      "cost": "Gratuit ou 30 $ de location",
+      "tip": "Les resorts fournissent les planches gratuitement aux clients. La fenêtre de 30 min avant 8 h est nettement meilleure que plus tard."
+    }
+  ],
+  "months": [
+    { "weather": "Parfait : 27 °C, sec, alizés doux", "crowds": "Élevée", "price": "Élevé", "verdict": "Perfection en pleine saison" },
+    { "weather": "Le plus sec, le plus parfait", "crowds": "Pic", "price": "Très élevé", "verdict": "Meilleur mois global" },
+    { "weather": "Excellent, légèrement venteux", "crowds": "Élevée", "price": "Élevé", "verdict": "Excellent, réservez tôt" },
+    { "weather": "Toujours excellent, en accalmie", "crowds": "Modérée", "price": "Moyen-élevé", "verdict": "Belle fenêtre rapport qualité-prix" },
+    { "weather": "Chaud, peu humide, calme", "crowds": "Faible", "price": "Moyen", "verdict": "Sous-estimé — meilleure valeur" },
+    { "weather": "Chaud, calme, peu fréquenté", "crowds": "Faible", "price": "Bas à moyen", "verdict": "Excellent pour les plongeurs" },
+    { "weather": "Chaud, humide, début de la saison des ouragans", "crowds": "Faible", "price": "Bas", "verdict": "Le risque commence, bons prix" },
+    { "weather": "Pic du risque d’ouragan", "crowds": "Faible", "price": "Bas", "verdict": "À éviter sauf flexibilité" },
+    { "weather": "Mois au plus haut risque d’ouragan", "crowds": "Très faible", "price": "Le plus bas", "verdict": "Ne réservez pas ce mois-ci" },
+    { "weather": "Risque d’ouragan qui décroît", "crowds": "Faible", "price": "Bas", "verdict": "Encore risqué — vérifiez votre police" },
+    { "weather": "La saison revient, amélioration rapide", "crowds": "Modérée", "price": "Moyen", "verdict": "Bonne valeur d’épaule" },
+    { "weather": "Pleine saison, tarifs de fêtes", "crowds": "Élevée", "price": "Très élevé", "verdict": "Magnifique, cher, festif" }
+  ],
+  "budgetTiers": [
+    { "label": "Luxe", "daily": "600-1 200 $/nuit", "includes": "Suite en bord de plage avec service complet, piscine, accès spa. Le point d’entrée au luxe de Grace Bay. Seven Stars et Beaches dans cette fourchette." },
+    { "label": "Ultra-luxe", "daily": "1 200-3 000 $/nuit", "includes": "Service majordome, section de plage privée, spa de classe mondiale, format tout-suites. Le porte-étendard de Grace Bay." },
+    { "label": "Île privée", "daily": "3 000+ $/nuit (tout inclus)", "includes": "Votre propre île : transfert bateau, tous les repas, activités, isolement total. Rien de comparable dans les Caraïbes." }
+  ],
+  "areas": [
+    { "name": "Grace Bay (NE Providenciales)", "description": "La bande de 19 km où se trouvent tous les meilleurs resorts. Calme, turquoise, parfaitement protégée. Tout ce pour quoi vous êtes venu est là." },
+    { "name": "Côte ouest (zone Amanyara)", "description": "La côte ouest moins fréquentée abrite Amanyara — l’un des meilleurs resorts adults-only au monde — et un accès direct aux meilleurs sites de plongée des TCI. Plus calme, plus privé, plus méditatif." },
+    { "name": "South Caicos", "description": "Un vol intérieur de 20 minutes. Le Salterra (Luxury Collection) s’y trouve. Le récif est immaculé et à peine plongé. Pour les couples qui ont déjà fait Grace Bay et veulent quelque chose d’authentiquement hors du commun." },
+    { "name": "North Caicos", "description": "Reliée à Middle Caicos par une chaussée. Flamants roses, plages vides, grottes à explorer. Pas d’hôtels de luxe — uniquement en excursion, mais l’expérience la plus authentique des Turks-et-Caïcos." }
+  ],
+  "expertTips": [
+    { "title": "Préférez le Wymara au Palms pour un budget similaire", "body": "Politique adults-only (18+), 60 chambres contre 72, même front de mer à Grace Bay, meilleur spa selon la plupart. Le Wymara surclasse systématiquement son rapport qualité-prix pour les lunes de miel." },
+    { "title": "Louez une voiturette de golf, pas une voiture", "body": "Providenciales est assez petite pour s’explorer en voiturette pour la zone plages-resorts. Moins cher qu’une voiture, plus facile à garer, et vous n’êtes jamais à plus de 10 minutes de l’endroit où vous devez aller." },
+    { "title": "Le récif à l’ouest de Grace Bay est meilleur qu’à l’est", "body": "Là où commence la carte du matériel de snorkeling — près de la zone Coral Gardens — c’est nettement meilleur que devant la plage des hôtels. 15 minutes de marche vers l’ouest changent tout." },
+    { "title": "Da Conch Shack n’est pas optionnel", "body": "La meilleure salade de conque au monde, dans une cabane en bord de mer. La pêche à la conque est l’épine dorsale culturelle des îles. Un déjeuner ici est plus authentiquement TCI qu’une semaine au resort." },
+    { "title": "Pour Ambergris Cay, réservez au minimum 5 nuits", "body": "Le transfert en bateau (50 min) et la transition vers le mode île font que 3 nuits ne suffisent jamais. Il en faut 5 à 7 pour vraiment souffler dans l’expérience Ambergris." }
+  ],
+  "packing": [
+    { "item": "Lunettes de soleil polarisées (essentielles)", "why": "Le reflet de l’eau de Grace Bay est aveuglant sans elles" },
+    { "item": "Crème solaire reef-safe", "why": "Les récifs ici sont en bonne santé — gardons-les ainsi" },
+    { "item": "Carte de certification de plongée (PADI/NAUI)", "why": "Les meilleures plongées exigent le niveau Open Water — n’arrivez pas sans" },
+    { "item": "Appareil photo sous-marin", "why": "La visibilité à French Cay dépasse 40 m — il vous faut une bonne optique" },
+    { "item": "Assurance voyage avec clause ouragan", "why": "Non négociable pour toute réservation de juillet à novembre" },
+    { "item": "Sac de plage (grand, imperméable)", "why": "Vous trimballerez tout du bungalow à la plage toute la journée" },
+    { "item": "Lin léger pour les soirées", "why": "La climatisation est agressive dans les resorts des TCI — prévoyez une couche pour le dîner" },
+    { "item": "Sac sec pour les excursions en bateau", "why": "Les bateaux d’affrètement et de plongée n’ont aucune protection contre les éclaboussures" }
+  ],
+  "guide": {
+    "getting": "Volez jusqu’à Providenciales International Airport (PLS). Vols directs depuis New York JFK (2 h 30), Miami (1 h 30), Boston (3 h), Toronto et Londres (9 h 30 avec correspondance). Pas besoin d’hydravion — la plupart des resorts sont à 15-30 minutes de l’aéroport. Ambergris Cay ajoute un transfert bateau de 50 min.",
+    "where": "Grace Bay (nord-est de Providenciales) regroupe tous les grands hôtels resorts. La côte ouest (Amanyara) est plus calme et meilleure pour la plongée. South Caicos (Salterra) est l’option éloignée qui demande un court vol intérieur. North Caicos n’est faisable qu’en excursion.",
+    "when": "Décembre-mai est le pic avec des conditions parfaites. Juin est sous-estimé — calme, sec, chaud, moins cher. D’août à octobre c’est la saison des ouragans, avec un risque réel. De janvier à avril, c’est la fenêtre statistiquement optimale."
+  },
+  "localFood": "La conque est l’aliment national — croquée, en salade, en accras. Da Conch Shack sur Grace Bay est l’institution. Langouste fraîche (en saison oct-juil), vivaneau, mérou. La Turks Head est la bière locale. Hors resort, dîner au Coco Bistro (Grace Bay) est la meilleure table non hôtelière de l’île.",
+  "language": "Anglais (langue officielle).",
+  "seo": {
+    "title": "Lune de miel aux Turks-et-Caïcos : 12 resorts plage 2026",
+    "description": "12 resorts pour lune de miel sur Grace Bay notés. Amanyara, COMO Parrot Cay, The Palms. À partir de 700 $/nuit. Nov.-avr. fenêtre idéale."
+  }
+}

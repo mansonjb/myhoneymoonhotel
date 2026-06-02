@@ -1,0 +1,75 @@
+{
+  "tagline": "Des lunes de miel Pura Vida où volcans, forêts de nuages et deux océans se rencontrent",
+  "intro": "Le Costa Rica est la rare destination de lune de miel qui livre l’aventure et la sérénité à parts égales. Vous vous réveillez aux singes hurleurs à l’aube, baignez dans des sources chaudes volcaniques au crépuscule et vous endormez au son du ressac du Pacifique — sans jamais vous sentir bousculés. Ce petit pays d’Amérique centrale protège 25 % de son territoire en parcs nationaux et réserves. La région d’Arenal délivre la fantaisie iconique volcan-et-sources chaudes, avec des adresses comme Nayara Tented Camp et ses bassins thermaux fumants alimentés par le volcan lui-même. La forêt de nuages de Monteverde est hors du monde. Plus au sud, sur la péninsule d’Osa, Lapa Rios surplombe Corcovado, l’endroit biologiquement le plus dense de la planète. La péninsule de Nicoya, l’une des cinq Zones Bleues de la planète, mêle surf, yoga et bien-être. La péninsule de Papagayo offre un luxe balnéaire policé au Four Seasons et à l’Andaz. L’ethos Pura Vida : les journées se déroulent sans urgence.",
+  "bestTime": "De mi-décembre à avril (saison sèche) ; mai-juin et novembre sont des moments en or",
+  "flightFrom": "5-6 h depuis Miami/Houston, 7-8 h depuis NYC, 11-12 h depuis Londres",
+  "topExperience": "Tremper dans les sources thermales naturelles au pied du volcan Arenal au coucher du soleil",
+  "perfectFor": [
+    "Les couples aventureux qui veulent jungle et plage dans un même voyage",
+    "Les amoureux de la faune en quête de paresseux, de quetzals et de tortues marines",
+    "Les jeunes mariés tournés bien-être, attirés par le yoga, le surf et l’art de vivre Zone Bleue",
+    "Les couples qui préfèrent les éco-lodges luxueux aux méga-resorts policés",
+    "Les voyageurs qui valorisent la durabilité"
+  ],
+  "skipIf": [
+    "Vous voulez du soleil garanti chaque jour",
+    "Vous attendez des resorts all-inclusive style Caraïbes",
+    "Vous détestez les insectes, l’humidité ou les routes non goudronnées",
+    "Vous voulez une lune de miel à pied-à-terre unique"
+  ],
+  "experiences": [
+    { "title": "Sources chaudes du volcan Arenal", "description": "Trempage dans des bassins thermaux riches en minéraux au pied d’un volcan au cône presque parfait. Nayara, Tabacón et Springs Resort disposent chacun de leurs propres sources privées.", "cost": "Gratuit pour les clients de l’hôtel ; pass à la journée 80-120 $", "tip": "Allez-y après le coucher du soleil, quand l’air refroidit" },
+    { "title": "Observation de la faune à Manuel Antonio", "description": "Une marche guidée matinale garantit quasi systématiquement paresseux, capucins, singes-écureuils, iguanes et toucans dans la première heure.", "cost": "80-120 $ par couple", "tip": "Engagez un guide avec longue-vue" },
+    { "title": "Ponts suspendus de Monteverde", "description": "Marchez au-dessus de la canopée sur un réseau de ponts suspendus à travers une forêt de nuages embrumée.", "cost": "50-90 $ par personne", "tip": "Selvatura et Sky Adventures proposent des combos ; allez-y tôt" },
+    { "title": "Ponte des tortues à Tortuguero (juillet-octobre)", "description": "Regardez les tortues vertes se hisser de nuit sur les plages caraïbes pour pondre.", "cost": "30-50 $ par personne pour la marche guidée sur la plage", "tip": "Restez 2 nuits minimum dans un lodge de jungle" },
+    { "title": "Surf et coucher de soleil à Santa Teresa", "description": "Prenez un cours de surf privé sur la Playa Carmen, puis installez-vous sur le sable avec une Imperial bien fraîche.", "cost": "60-90 $ par personne pour 2 h de cours privé", "tip": "Logez au Nantipa ou au Pranamar" }
+  ],
+  "months": [
+    { "weather": "24-29 °C, sec et ensoleillé", "crowds": "Pic", "price": "Très haute", "verdict": "Météo de carte postale mais réservez 6 mois à l’avance" },
+    { "weather": "24-31 °C, le mois le plus sec", "crowds": "Pic", "price": "Très haute", "verdict": "Meilleures conditions générales" },
+    { "weather": "25-31 °C, chaud et sec", "crowds": "Élevée", "price": "Haute", "verdict": "Belle vague, plages chaudes" },
+    { "weather": "26-32 °C, fin de saison sèche", "crowds": "Modérée", "price": "Haute", "verdict": "Chaud à l’intérieur mais météo plage excellente" },
+    { "weather": "24-31 °C, début des averses d’après-midi", "crowds": "Faible", "price": "Basse", "verdict": "Moment en or — la saison verte démarre, les prix baissent" },
+    { "weather": "24-29 °C, pluie quotidienne", "crowds": "Faible", "price": "Basse", "verdict": "Luxuriant et dramatique ; belle vague Pacifique" },
+    { "weather": "24-29 °C, mini-été de mi-année", "crowds": "Modérée", "price": "Moyenne", "verdict": "Veranillo, brève fenêtre sèche ; tortues à Tortuguero" },
+    { "weather": "24-29 °C, pluvieux", "crowds": "Modérée", "price": "Moyenne", "verdict": "Humide mais luxuriant ; pic d’observation des baleines" },
+    { "weather": "23-29 °C, le plus humide", "crowds": "Faible", "price": "Basse", "verdict": "Évitez la Caraïbe ; pluie dense sur le Pacifique, mais prix planchers" },
+    { "weather": "23-29 °C, très humide", "crowds": "Faible", "price": "Basse", "verdict": "Côte caraïbe ensoleillée pendant que le Pacifique est noyé" },
+    { "weather": "23-29 °C, pluies qui se calment", "crowds": "Faible", "price": "Basse", "verdict": "Trésor caché — paysages verts, tarifs bas" },
+    { "weather": "23-29 °C, retour de la saison sèche", "crowds": "Élevée", "price": "Très haute", "verdict": "Magique avant Noël ; réservez les semaines de fêtes un an à l’avance" }
+  ],
+  "budgetTiers": [
+    { "label": "Confort", "daily": "300-500 $/nuit", "includes": "Éco-lodges boutiques, bungalows de jungle, hôtels de plage. Exemple : Tifakara Boutique Hotel Arenal, Latitude 10 Santa Teresa" },
+    { "label": "Luxe", "daily": "700-1 200 $/nuit", "includes": "Top éco-lodges avec piscines privées, pension complète, activités guidées. Exemple : Nayara Tented Camp, Lapa Rios, Origins Lodge" },
+    { "label": "Ultra", "daily": "1 500-3 500 $/nuit", "includes": "Villas en front de mer, service de majordome, guides privés. Exemple : Four Seasons Papagayo, suite présidentielle de l’Andaz Papagayo" }
+  ],
+  "areas": [
+    { "name": "Arenal / La Fortuna", "description": "L’ouverture classique au Costa Rica. Cône volcanique parfait, bassins géothermiques, à 3 h de San José." },
+    { "name": "Monteverde", "description": "Une forêt de nuages brumeuse à 1 400 m, avec ponts suspendus et avifaune rare." },
+    { "name": "Manuel Antonio", "description": "Un petit parc national où la forêt tropicale descend jusqu’à une plage du Pacifique. Paresseux et singes sur les sentiers." },
+    { "name": "Péninsule d’Osa", "description": "Reculée et inoubliable. Accessible en petit avion vers Puerto Jiménez. Lapa Rios est la royauté des éco-lodges." },
+    { "name": "Nicoya / Papagayo", "description": "Papagayo abrite Four Seasons et Andaz ; Santa Teresa et Nosara délivrent l’énergie bohème surf-yoga." }
+  ],
+  "expertTips": [
+    { "title": "Associez deux régions, pas trois", "body": "Une lune de miel de 10 nuits fonctionne mieux en 4 nuits Arenal + 5-6 nuits plage. Y ajouter Monteverde ou Osa multiplie les jours de transfert." },
+    { "title": "Atterrir à un aéroport, repartir de l’autre", "body": "Open-jaw SJO/LIR (ou inverse) économise 5 heures de route." },
+    { "title": "Utilisez les vols domestiques Sansa pour Osa", "body": "Cinquante minutes de vol vers Puerto Jiménez valent mieux que 8 heures de route." },
+    { "title": "Engagez des guides locaux — vous verrez 10 fois plus", "body": "Un guide naturaliste avec longue-vue transforme un sentier calme en buffet faunique." },
+    { "title": "Parcourez la saison verte intelligemment", "body": "Mai, juin et novembre offrent des économies massives. Les matinées sont en général ensoleillées ; la pluie arrive en averses d’après-midi." }
+  ],
+  "packing": [
+    { "item": "Pantalons et chemises de randonnée à séchage rapide", "why": "Le coton reste mouillé des heures dans l’humidité de la forêt tropicale" },
+    { "item": "Veste de pluie légère", "why": "Même la saison sèche réserve des averses surprises" },
+    { "item": "Sandales de randonnée étanches (Chacos/Tevas)", "why": "Vous traverserez des rivières, escaladerez des cascades" },
+    { "item": "Crème solaire respectueuse des récifs et répulsif sans DEET", "why": "Exigés dans les parcs nationaux ; les moustiques sont bien réels en jungle basse" },
+    { "item": "Jumelles compactes", "why": "La faune est souvent à 30 mètres dans la canopée" },
+    { "item": "Sac étanche ou pochette pour téléphone", "why": "Pour les tyroliennes, descentes de rivière et transferts en bateau" }
+  ],
+  "guide": "Atterrissez à San José (SJO) pour Arenal, Monteverde, Manuel Antonio, ou à Liberia (LIR) pour Papagayo et Nicoya. Transport interne en 4x4 de location, transfert privé (150-250 $ entre régions) ou courts vols domestiques Sansa. Pour le logement : prévoyez 2 régions — une base aventure intérieure (Arenal au Nayara Tented Camp ou Monteverde) et une base plage (Papagayo, Santa Teresa au Nantipa, ou Osa à Lapa Rios). Quand venir : de mi-décembre à avril, c’est le pic. Mai, juin et novembre sont les fenêtres de valeur les plus intelligentes. Évitez septembre et octobre sur la côte Pacifique.",
+  "localFood": "La cuisine costaricienne est humble et honnête : gallo pinto au petit-déjeuner, casado au déjeuner, ceviche de poisson frais sur les côtes. Ne manquez pas le tres leches, la yuca frite et le café Tarrazú filtré au chorreador — parmi les meilleurs au monde.",
+  "language": "Espagnol (anglais dans le tourisme)",
+  "seo": {
+    "title": "Lune de miel au Costa Rica : 7 lodges jungle et plage 2026",
+    "description": "7 éco-lodges Nicoya, Osa, Arenal classés. Nayara Tented, Lapa Rios, Andaz Papagayo. À partir de 400 $/nuit. Saison sèche décembre-avril."
+  }
+}

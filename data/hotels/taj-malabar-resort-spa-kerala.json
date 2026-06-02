@@ -7,7 +7,10 @@
     "title": "Taj Malabar Cochin: 5-Star Honeymoon Review 2026",
     "description": "Taj Malabar Cochin honeymoon review. Heritage harbour wing, Jiva spa, sunset cruises. Score 86/100, from $250/night. Real verdict."
   },
-  "experience_types": ["luxury", "spa"],
+  "experience_types": [
+    "luxury",
+    "spa"
+  ],
   "honeymoon_score": 86,
   "score_breakdown": {
     "adults_only": 0,
@@ -21,7 +24,10 @@
     "luxury": 14
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 250, "max": 850 },
+  "price_per_night_usd": {
+    "min": 250,
+    "max": 850
+  },
   "adults_only": false,
   "amenities": [
     "spa",
@@ -35,11 +41,31 @@
     "yoga"
   ],
   "photos": [
-    { "url": "/images/hotels/taj-malabar-resort-spa-kerala/hero.webp", "alt": "Taj Malabar Cochin — hero", "type": "hero" },
-    { "url": "/images/hotels/taj-malabar-resort-spa-kerala/room.webp", "alt": "Taj Malabar Cochin — room", "type": "room" },
-    { "url": "/images/hotels/taj-malabar-resort-spa-kerala/pool.webp", "alt": "Taj Malabar Cochin — pool", "type": "pool" },
-    { "url": "/images/hotels/taj-malabar-resort-spa-kerala/spa.webp", "alt": "Taj Malabar Cochin — spa", "type": "spa" },
-    { "url": "/images/hotels/taj-malabar-resort-spa-kerala/dining.webp", "alt": "Taj Malabar Cochin — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/taj-malabar-resort-spa-kerala/hero.webp",
+      "alt": "taj-malabar-resort-spa-kerala — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/taj-malabar-resort-spa-kerala/room.webp",
+      "alt": "taj-malabar-resort-spa-kerala — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/taj-malabar-resort-spa-kerala/pool.webp",
+      "alt": "taj-malabar-resort-spa-kerala — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/taj-malabar-resort-spa-kerala/spa.webp",
+      "alt": "taj-malabar-resort-spa-kerala — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/taj-malabar-resort-spa-kerala/dining.webp",
+      "alt": "taj-malabar-resort-spa-kerala — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 4.6,
   "tripadvisor_award": true,
@@ -48,13 +74,41 @@
     "verdict": "The Taj Malabar sits on the tip of Willingdon Island in Cochin harbour, facing directly at the famous Chinese fishing nets and Fort Kochi's heritage waterfront — and it is the easiest first-night Kerala honeymoon hotel in the state. Built in 1935 by the British as a colonial guesthouse and lovingly extended by the Taj group, it splits into two wings: the original heritage block (low-ceilinged, teak-floored, deeply atmospheric) and the modern tower (proper sea-view balconies, contemporary furnishings, more reliable plumbing). For a honeymoon you want the heritage wing — specifically a Sea View Deluxe with a balcony onto the harbour. Watching the cargo ships and dawn fishermen with a tray of South Indian breakfast and filter coffee on day one of a Kerala trip sets the entire register of the holiday. The Jiva Spa offers a serious Ayurveda menu (consultations included for full packages), the infinity pool overhangs the water, and the Rice Boat restaurant — half-converted kettuvallam, half-veranda — serves the best traditional Kerala food in Cochin. It is not, by any modern luxury measure, a perfect hotel: the pool is small for the size of the property and the older rooms can feel tired. But for atmosphere, location, and Kerala-style hospitality, no other Cochin hotel comes close. Use it as the arrival and departure bookends of a 7–10 night Kerala honeymoon and you will remember why people fall in love with this country.",
     "best_room": "A Sea View Premium Room in the heritage Harbour Wing — direct harbour balcony, Chinese fishing-net views, and teak character. For a splurge the Taj Club Suite adds club lounge access (sunset cocktails on the rooftop) and a separate sitting room. Avoid the inland-facing rooms in the modern tower; they overlook the car park.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival, harbour sunset, Rice Boat dinner", "description": "Driver collects from COK airport (45 min). Check in to Sea View Deluxe in heritage wing. Pool dip, sundowner on the rooftop bar watching the Chinese nets light up. Dinner at Rice Boat — order karimeen pollichathu and prawn moilee." },
-      { "day": 2, "title": "Fort Kochi heritage walking morning", "description": "Hotel ferry across to Fort Kochi. Walk the Dutch quarter, Jewish synagogue, spice market. Lunch at Kashi Art Café. Afternoon Ayurveda introductory consultation at Jiva Spa. Kathakali show 6pm at Greenix Village." },
-      { "day": 3, "title": "Drive to Munnar tea hills", "description": "4-hour drive up into the Western Ghats with your driver. Stops at Cheeyappara waterfalls. Check in at Windermere Estate or Tea County Munnar. Evening walk through the tea estate, candlelit dinner on the bungalow veranda." },
-      { "day": 4, "title": "Munnar tea estate day", "description": "Dawn coffee on the veranda. Tea factory tour at KDHP Museum, plantation walk with a planter. Lunch at the Tea Sanctuary. Afternoon visit to Mattupetty dam, viewpoint at Top Station for sunset." },
-      { "day": 5, "title": "Drive to Alleppey, board kettuvallam", "description": "5-hour drive down to Alleppey via Thekkady. Board a private Spice Coast Cruises or Lakes & Lagoons kettuvallam at 12pm. Lunch on deck, slow afternoon through small canals, dawn-coffee mooring." },
-      { "day": 6, "title": "Disembark to Marari Beach", "description": "Disembark 10am, 45-minute drive to Marari Beach Resort or Niraamaya Backwaters & Beyond. Beach hammock afternoon. Sunset walk to watch the fishermen pull in nets. Dinner of grilled karimeen on the beach." },
-      { "day": 7, "title": "Marari beach day, transfer back to Cochin", "description": "Long beach morning, final couples Ayurveda massage. Lunch at the resort. 90-minute drive back to Taj Malabar for one final harbour-view night, or direct to COK airport for evening flight." }
+      {
+        "day": 1,
+        "title": "Arrival, harbour sunset, Rice Boat dinner",
+        "description": "Driver collects from COK airport (45 min). Check in to Sea View Deluxe in heritage wing. Pool dip, sundowner on the rooftop bar watching the Chinese nets light up. Dinner at Rice Boat — order karimeen pollichathu and prawn moilee."
+      },
+      {
+        "day": 2,
+        "title": "Fort Kochi heritage walking morning",
+        "description": "Hotel ferry across to Fort Kochi. Walk the Dutch quarter, Jewish synagogue, spice market. Lunch at Kashi Art Café. Afternoon Ayurveda introductory consultation at Jiva Spa. Kathakali show 6pm at Greenix Village."
+      },
+      {
+        "day": 3,
+        "title": "Drive to Munnar tea hills",
+        "description": "4-hour drive up into the Western Ghats with your driver. Stops at Cheeyappara waterfalls. Check in at Windermere Estate or Tea County Munnar. Evening walk through the tea estate, candlelit dinner on the bungalow veranda."
+      },
+      {
+        "day": 4,
+        "title": "Munnar tea estate day",
+        "description": "Dawn coffee on the veranda. Tea factory tour at KDHP Museum, plantation walk with a planter. Lunch at the Tea Sanctuary. Afternoon visit to Mattupetty dam, viewpoint at Top Station for sunset."
+      },
+      {
+        "day": 5,
+        "title": "Drive to Alleppey, board kettuvallam",
+        "description": "5-hour drive down to Alleppey via Thekkady. Board a private Spice Coast Cruises or Lakes & Lagoons kettuvallam at 12pm. Lunch on deck, slow afternoon through small canals, dawn-coffee mooring."
+      },
+      {
+        "day": 6,
+        "title": "Disembark to Marari Beach",
+        "description": "Disembark 10am, 45-minute drive to Marari Beach Resort or Niraamaya Backwaters & Beyond. Beach hammock afternoon. Sunset walk to watch the fishermen pull in nets. Dinner of grilled karimeen on the beach."
+      },
+      {
+        "day": 7,
+        "title": "Marari beach day, transfer back to Cochin",
+        "description": "Long beach morning, final couples Ayurveda massage. Lunch at the resort. 90-minute drive back to Taj Malabar for one final harbour-view night, or direct to COK airport for evening flight."
+      }
     ],
     "caveats": [
       "The hotel is on Willingdon Island, not Fort Kochi itself — the ferry takes 5 minutes but it is not walkable to the historic quarter.",
@@ -62,12 +116,30 @@
       "The pool is small relative to the property's footprint — at peak times you may share it with a wedding party."
     ],
     "faqs": [
-      { "question": "Heritage Wing or Tower Wing — which is better for a honeymoon?", "answer": "Heritage wing, without question. The character, balconies, and harbour views are why you came. The tower has newer plumbing but the soul is in the colonial block." },
-      { "question": "Is the Ayurveda spa programme worth booking?", "answer": "The introductory consultation and 90-minute Abhyanga are excellent for a first-time taster. For a serious cleanse stay 7+ nights in Marari at a dedicated Ayurveda resort instead." },
-      { "question": "Do we need a car or can we walk to Fort Kochi?", "answer": "Use the hotel ferry — 5 minutes across the harbour, free for guests, runs every 30 minutes. Far better than driving around." },
-      { "question": "Is the harbour view really worth the upgrade?", "answer": "Yes. The Chinese fishing nets, the cargo ships at dawn, and the sunset over the water are the reason you stay here. Inland rooms overlook a car park." },
-      { "question": "Is there a beach?", "answer": "No — Taj Malabar is a harbour hotel, not a beach hotel. Pair it with 2–3 nights at Marari Beach Resort for the beach component of your honeymoon." },
-      { "question": "When is the best time to stay?", "answer": "November through early March — dry, warm days, cool nights, full hotel operations. December and January are peak; book 3+ months ahead." }
+      {
+        "question": "Heritage Wing or Tower Wing — which is better for a honeymoon?",
+        "answer": "Heritage wing, without question. The character, balconies, and harbour views are why you came. The tower has newer plumbing but the soul is in the colonial block."
+      },
+      {
+        "question": "Is the Ayurveda spa programme worth booking?",
+        "answer": "The introductory consultation and 90-minute Abhyanga are excellent for a first-time taster. For a serious cleanse stay 7+ nights in Marari at a dedicated Ayurveda resort instead."
+      },
+      {
+        "question": "Do we need a car or can we walk to Fort Kochi?",
+        "answer": "Use the hotel ferry — 5 minutes across the harbour, free for guests, runs every 30 minutes. Far better than driving around."
+      },
+      {
+        "question": "Is the harbour view really worth the upgrade?",
+        "answer": "Yes. The Chinese fishing nets, the cargo ships at dawn, and the sunset over the water are the reason you stay here. Inland rooms overlook a car park."
+      },
+      {
+        "question": "Is there a beach?",
+        "answer": "No — Taj Malabar is a harbour hotel, not a beach hotel. Pair it with 2–3 nights at Marari Beach Resort for the beach component of your honeymoon."
+      },
+      {
+        "question": "When is the best time to stay?",
+        "answer": "November through early March — dry, warm days, cool nights, full hotel operations. December and January are peak; book 3+ months ahead."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Taj Malabar Cochin\n\nHello,\n\nWe are planning a 7-night Kerala honeymoon for [DATES] and would like to begin and end at Taj Malabar (2 nights opening, 1 night closing).\n\nCould you please confirm:\n1. Best available rate for a Sea View Premium Room in the Heritage Harbour Wing\n2. Honeymoon package — flowers, champagne, in-room amenities?\n3. Availability of a Jiva Spa consultation on arrival day\n4. Hotel ferry timings to Fort Kochi\n5. Earliest possible check-in given an early morning flight arrival\n\nThank you,\n[Your names]"
   },

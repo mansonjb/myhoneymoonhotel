@@ -1,0 +1,78 @@
+{
+  "tagline": "La dernière grande nature sauvage au monde — Okavango, Kalahari et les camps de safari les plus exclusifs du continent.",
+  "intro": "Le Botswana est la destination de lune de miel ultime d’Afrique — et ce n’est même pas serré. L’Okavango est le seul delta intérieur de la planète (un fleuve qui n’atteint jamais la mer, s’épanouissant sur 15 000 km² de chenaux, plaines inondables et îles bordées de palmiers), et la politique du Botswana de tourisme à haute valeur / faible volume signifie que vous le partagerez avec presque personne. Les camps ici — Mombo, Jao, Zarafa, Duba Plains — opèrent à un tout autre niveau qu’ailleurs en Afrique : camps de 6 hôtes sur concessions privées où les Big Five vous trouvent (et non l’inverse), villas-piscines à baignoires de cuivre suspendues au-dessus des plaines inondables, et table d’auteur rivalisant avec les étoiles Michelin. Ajoutez les salines de Makgadikgadi, les troupeaux d’éléphants de Chobe et le Kalahari central pour l’expérience sauvage ultra-luxe complète.",
+  "bestTime": "Mai-oct. (saison sèche)",
+  "flightFrom": "11-13 h depuis l’Europe (via JNB)",
+  "topExperience": "Safari ultra-premium",
+  "perfectFor": [
+    "Couples dans le safari d’une vie — luxe sans considération financière",
+    "Voyageurs obsédés par la photographie — les chenaux du Delta à l’heure dorée sont inégalés",
+    "Romantiques off-grid — ces camps n’ont pas d’enfants de moins de 8 ans, pas de signal mobile, pas de Wi-Fi dans les tentes",
+    "Chasseurs des Big Five (à l’appareil photo) — la densité de prédateurs est la plus élevée d’Afrique",
+    "Ceux qui veulent l’exclusivité des concessions privées — 50 000 hectares pour 24 hôtes typiquement"
+  ],
+  "skipIf": [
+    "Votre budget est inférieur à 1 000 $/pers./nuit — le Botswana commence là où le Kenya et l’Afrique du Sud s’arrêtent",
+    "Vous voulez de la plage dans le même voyage — c’est l’Afrique australe enclavée",
+    "Vous avez besoin d’un Wi-Fi constant — la plupart des camps sont véritablement hors ligne",
+    "Vous n’aimez pas les petits avions — les transferts inter-camps se font en Cessna 12 places"
+  ],
+  "experiences": [
+    { "title": "Mokoro au lever du soleil dans l’Okavango", "description": "Un mokoro est une pirogue traditionnelle, désormais en fibre de verre pour la conservation, propulsée à la perche par un guide local à travers les chenaux bordés de papyrus. Une glissade en mokoro à 6 h à Jao ou Sandibe, observant le Delta s’éveiller (un lechwe rouge qui bondit, une grenouille des roseaux peinte, un jacana sur son nénuphar), est le moment signature de la lune de miel dans l’Okavango.", "cost": "Inclus dans tous les camps du Delta", "tip": "Demandez le plus long circuit en mokoro disponible — 3 heures aller jusqu’à une île de déjeuner, pique-nique en pirogue, 3 heures retour. Seuls certains camps (Jao, Vumbura, Chitabe) le proposent." },
+    { "title": "Safari en hélicoptère depuis Eagle Island", "description": "Le safari en hélicoptère du Belmond Eagle Island Lodge est unique au Botswana — vous décollez de l’héliport privé du camp, ôtez les portes et photographiez troupeaux d’éléphants, lechwes et le labyrinthe de chenaux du Delta à 200 m. Un vol de 45 minutes est la meilleure expérience aérienne de faune en Afrique.", "cost": "650 $/personne pour un hélico partagé ; 3 500 $ charter privé", "tip": "Allez-y en fin d’après-midi pour la lumière dorée qui frappe l’eau — un look « chameaux dans le désert » mais avec des prédateurs africains." },
+    { "title": "Game drive nocturne sur concession privée", "description": "Les parcs nationaux du Botswana n’autorisent pas les game drives nocturnes, mais les concessions privées (Selinda, Khwai Private, Kwando) le font. Une sortie à 19 h avec spot à filtre rouge révèle chasses de léopard, fouille de l’oryctérope et civette africaine — animaux invisibles le jour.", "cost": "Inclus dans les camps de concession", "tip": "Réservez un camp comme Tuludi (Khwai Private), Zarafa (Selinda) ou Duba Plains (Great Plains) spécifiquement pour ça. Les camps sur terres publiques ne peuvent pas l’offrir." },
+    { "title": "Coucher de soleil avec éléphants à Chobe", "description": "Le parc national de Chobe abrite 120 000 éléphants — la plus grande concentration de la planète. Une croisière en fin d’après-midi sur la rivière Chobe observe des troupeaux de 200+ éléphants traversant de la Namibie au Botswana pour leur abreuvement du soir. Sundowner gin tonic sur le pont, éléphants éclaboussant à 30 m.", "cost": "80-180 $ par personne pour un sundowner en bateau partagé", "tip": "Logez à Chobe Chilwero ou Muchenje pour une nuit après le Delta — la densité y est d’un autre monde." },
+    { "title": "Observation des étoiles dans le Kalahari central", "description": "La Central Kalahari Game Reserve (52 800 km²) est l’un des ciels les plus sombres de la planète. Une nuit à la belle étoile sous la Voie lactée à Kalahari Plains Camp, avec la Grande Ourse à la verticale et la Croix du Sud à l’horizon, est véritablement transcendant.", "cost": "Terrasse de couchage incluse dans de nombreux camps du Kalahari", "tip": "Allez-y en août ou septembre pour les ciels les plus sombres et les meilleures constellations. Un guide local vous montrera les noms san des étoiles." }
+  ],
+  "months": [
+    { "weather": "Saison des pluies chaude, vert luxuriant", "crowds": "Faible", "price": "Bas", "verdict": "Beaucoup de camps ferment ; la faune est plus difficile à repérer" },
+    { "weather": "Pluies continues, ciels dramatiques", "crowds": "Faible", "price": "Bas", "verdict": "Saison des naissances — formidable pour les bébés animaux" },
+    { "weather": "Pluies qui se calment, vert partout", "crowds": "Faible", "price": "Bas", "verdict": "Intersaison — bon rapport qualité-prix, photographie de saison verte" },
+    { "weather": "Début de la saison sèche, la crue arrive", "crowds": "Modérée", "price": "Moyen", "verdict": "Le Delta commence à se remplir — le timing est crucial" },
+    { "weather": "Frais, sec, crue à son maximum", "crowds": "Élevée", "price": "Élevé", "verdict": "Niveaux d’eau parfaits, moins de moustiques" },
+    { "weather": "Journées fraîches sèches, nuits froides à 5 °C", "crowds": "Élevée", "price": "Élevé", "verdict": "Excellente observation, prévoyez des couches chaudes" },
+    { "weather": "Nuits froides cristallines, journées ensoleillées", "crowds": "Maximale", "price": "Maximum", "verdict": "La haute saison commence — réservez un an à l’avance" },
+    { "weather": "Sec, qui se réchauffe, la faune se concentre", "crowds": "Maximale", "price": "Maximum", "verdict": "Mois safari classique — faune légendaire" },
+    { "weather": "Journées chaudes, animaux pressés autour de l’eau", "crowds": "Maximale", "price": "Maximum", "verdict": "Meilleure observation de l’année — réservez tôt" },
+    { "weather": "Très chaud 35 °C+, faune intense", "crowds": "Élevée", "price": "Élevé", "verdict": "Chaleur brutale mais observations incroyables" },
+    { "weather": "Premières pluies, le vert revient", "crowds": "Faible", "price": "Moyen", "verdict": "Intersaison — prix en baisse, transition émeraude" },
+    { "weather": "Pluvieux, bébés animaux, oiseaux migrateurs", "crowds": "Faible", "price": "Bas-moyen", "verdict": "Saison verte avec exception des surcharges fêtes" }
+  ],
+  "budgetTiers": [
+    { "label": "Safari de luxe entrée de gamme", "daily": "800-1 500 $/pers./nuit", "includes": "Excellent camp de tentes sur concession publique ou semi-privée. Pension complète, game drives, transferts, boissons. Machaba Camp, Khwai Bush Camp, Camp Moremi." },
+    { "label": "Premium concession privée", "daily": "1 500-3 000 $/pers./nuit", "includes": "Camp phare sur terre exclusive. Game drives nocturnes, hors-piste, options hélicoptère. Sandibe, Eagle Island, Vumbura, Tuludi, Xigera." },
+    { "label": "Ultra-premium icône", "daily": "2 500-5 500 $/pers./nuit", "includes": "Nom légendaire — Mombo, Jao, Zarafa, Duba Plains. 6-10 hôtes par camp, guide dédié, véhicule privé, service conciergerie. Mombo Camp, Jao Camp, Zarafa Camp, Duba Plains Camp." }
+  ],
+  "areas": [
+    { "name": "Okavango — Moremi et Chief’s Island", "description": "Le cœur faunique du Delta. La réserve de Moremi et les concessions Mombo/Chitabe hébergent la plus haute densité de prédateurs d’Afrique. 3 nuits minimum ; 4 c’est mieux." },
+    { "name": "Okavango — Nord / Vumbura / Jao", "description": "La zone d’eau permanente du nord. Vumbura, Jao et Duba Plains s’y trouvent. L’eau à l’année permet mokoros, croisières et bande-son d’aigles pêcheurs même en saison sèche." },
+    { "name": "Selinda et Linyanti", "description": "Entre le Delta et Chobe. Great Plains Conservation y exploite Zarafa, Duba Plains et Selinda Camp. Excellente activité des prédateurs et grands troupeaux d’éléphants. À associer avec Chobe." },
+    { "name": "Parc national de Chobe", "description": "Plus grande population d’éléphants au monde. Accès par l’aéroport de Kasane (vols directs depuis Johannesburg). Typiquement 1-2 nuits comme bornes d’un voyage dans le Delta." },
+    { "name": "Salines de Makgadikgadi", "description": "Le plus grand système de salines de la planète, visible depuis l’espace. Logez à Jack’s Camp ou San Camp — luxe safari vintage avec nuits à la belle étoile sur les pans et colonies de suricates habituées." }
+  ],
+  "expertTips": [
+    { "title": "Utilisez un opérateur safari spécialisé", "body": "Ne réservez pas le Botswana en DIY — la logistique des vols inter-camps, la coordination des régimes alimentaires et l’équilibre des types de camps demandent une expertise. Des opérateurs comme Wilderness, Great Plains et Natural Selection vendent via des agents spécialisés (Africa Odyssey, Extraordinary Journeys). Comptez 25 000-40 000 $ pour 10 jours en couple, tout compris." },
+    { "title": "Deux camps contrastés, pas quatre similaires", "body": "La tentation est de réserver 4 nuits dans chacun des 3 camps. Mieux : 4 nuits dans un camp d’eau du Delta (Jao, Vumbura) + 3 nuits dans un camp prédateurs en terre sèche (Mombo, Duba Plains). Ne visitez pas 3 camps d’eau Delta similaires — rendements décroissants." },
+    { "title": "N’emportez qu’un sac souple", "body": "Les transferts en petit avion ont une limite stricte de 20 kg en bagage souple par personne, matériel photo inclus. Les valises rigides sont interdites. La blanchisserie est incluse dans tous les camps — n’emportez que la moitié de ce que vous croyez nécessaire." },
+    { "title": "Le pourboire est significatif", "body": "Comptez 30-40 $ par couple par jour pour votre guide et pisteur, plus 20 $/jour pour la cagnotte du personnel du camp. Pour un séjour de 7 nuits, budgétez 500-800 $ en cash USD de pourboires. Les camps ne donneront pas de pourboires à votre place." },
+    { "title": "La prophylaxie antipaludique est obligatoire toute l’année", "body": "Le Botswana est une zone palustre. Prenez de la Malarone (atovaquone-proguanil) ou de la doxycycline pour la durée plus 7 jours après. Zika et fièvre jaune ne sont pas des préoccupations. Vaccination exigée uniquement si vous arrivez via un pays à fièvre jaune." }
+  ],
+  "packing": [
+    { "item": "Sac de voyage souple (max 20 kg total)", "why": "Les petits avions ont des limites strictes de poids en bagage souple. Les Samsonite seront refusés à la piste." },
+    { "item": "Tenues safari neutres (kaki, olive, pierre)", "why": "Évitez le blanc (aimant à poussière), le bleu et le noir (attirent les mouches tsé-tsé) et le camouflage (réservé aux militaires dans certains pays africains)." },
+    { "item": "Polaire chaude et bonnet pour l’hiver", "why": "Les matins de mai à août peuvent descendre à 5 °C. Les game drives à 6 h dans un Land Cruiser ouvert sont véritablement froids." },
+    { "item": "Jumelles (8×42 minimum)", "why": "Les guides du camp n’ont qu’une seule paire de rechange. Vous regretterez de ne pas avoir les vôtres dans la première heure." },
+    { "item": "Lampe frontale + piles de rechange", "why": "Marche entre votre tente et le mess principal la nuit. La plupart des camps en fournissent une, mais une frontale personnelle est essentielle." }
+  ],
+  "guide": {
+    "getting": "Volez à Johannesburg (JNB) sur SAA, BA, Delta, Virgin ou Lufthansa (11 h depuis Londres, 16 h depuis NYC, 11 h depuis Francfort). Puis correspondance sur Airlink vers Maun (MUB) ou Kasane (BBK) — tous deux à ~1 h 30 de Johannesburg, 3 vols par jour. Depuis Maun, l’avion de brousse du premier camp (Mack Air, Moremi Air, Wilderness Air) vous transfère vers la piste dans un Cessna de 6-12 places. Total porte-à-porte depuis Londres : ~18 h.",
+    "where": "Lune de miel classique de 7 nuits : 3 nuits dans un camp d’eau du Delta (Jao, Vumbura, Sandibe) → 3 nuits dans un camp Delta/Moremi en terre sèche (Mombo, Chitabe, Xigera) → 1 nuit Kasane/Chobe si extension Vic Falls. Version 10 nuits : ajoutez Great Plains (Zarafa ou Duba Plains). Ajoutez les chutes Victoria (côté Zimbabwe, Royal Livingstone) en extension de 2 nuits avant ou après si l’envie y est.",
+    "when": "Juillet-octobre est le pic de saison sèche — meilleure observation (les animaux se concentrent près des points d’eau restants), matins clairs, nuits froides. Mai-juin est le sweet spot — la crue est à son maximum dans le Delta, les nuits sont fraîches, les prix 20 % plus bas qu’au pic de juillet. Novembre-avril est la saison verte — ciels dramatiques, bébés animaux, certains camps fermés, observation plus difficile mais 40-60 % moins cher. Évitez février pour la plupart des camps."
+  },
+  "localFood": "Seswaa (bœuf salé pilé, plat national du Botswana, souvent servi au petit-déjeuner en brousse) ; bogobe (porridge de sorgho) ; gibier sauvage là où c’est légal (filet de koudou, carpaccio d’impala, saucisses de phacochère) ; brème fraîche de l’Okavango ; vins sud-africains (Stellenbosch et Franschhoek sont à 2 h de vol et figurent sur chaque carte de camp) ; gin tonic au coucher du soleil avec sirop de tonic maison et gin local (Boatswain’s Gin de Gaborone) ; menus dégustation d’auteur à Mombo, Jao et Zarafa qui mériteraient des étoiles Michelin en Europe. Les chefs des camps sont véritablement excellents — attendez-vous à des déjeuners 4 services et des dîners 6 services en pleine brousse.",
+  "language": "L’anglais est officiel et universel ; le setswana est la langue maternelle de la plupart des Batswana.",
+  "seo": {
+    "title": "Lune de miel au Botswana : 9 camps safari Okavango 2026",
+    "description": "9 camps de tentes du Delta et de Linyanti classés. Mombo, Vumbura, Jao, Sandibe. À partir de 1 500 $/nuit. Mai-oct."
+  }
+}

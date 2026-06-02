@@ -7,7 +7,11 @@
     "title": "The Merrion Dublin: 5-Star Honeymoon Review (2026)",
     "description": "Georgian townhouse luxury in central Dublin. Score 83/100, from $750/night. Verdict, best suite, art collection, dining & email."
   },
-  "experience_types": ["luxury", "romantic", "boutique"],
+  "experience_types": [
+    "luxury",
+    "romantic",
+    "boutique"
+  ],
   "honeymoon_score": 83,
   "score_breakdown": {
     "adults_only": 0,
@@ -21,7 +25,10 @@
     "luxury": 12
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 750, "max": 2800 },
+  "price_per_night_usd": {
+    "min": 750,
+    "max": 2800
+  },
   "adults_only": false,
   "amenities": [
     "spa",
@@ -36,11 +43,31 @@
     "butler-service"
   ],
   "photos": [
-    { "url": "/images/hotels/the-merrion-dublin-ireland/hero.webp", "alt": "the-merrion-dublin-ireland — hero", "type": "hero" },
-    { "url": "/images/hotels/the-merrion-dublin-ireland/room.webp", "alt": "the-merrion-dublin-ireland — room", "type": "room" },
-    { "url": "/images/hotels/the-merrion-dublin-ireland/pool.webp", "alt": "the-merrion-dublin-ireland — pool", "type": "pool" },
-    { "url": "/images/hotels/the-merrion-dublin-ireland/spa.webp", "alt": "the-merrion-dublin-ireland — spa", "type": "spa" },
-    { "url": "/images/hotels/the-merrion-dublin-ireland/dining.webp", "alt": "the-merrion-dublin-ireland — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/the-merrion-dublin-ireland/hero.webp",
+      "alt": "the-merrion-dublin-ireland — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/the-merrion-dublin-ireland/room.webp",
+      "alt": "the-merrion-dublin-ireland — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/the-merrion-dublin-ireland/pool.webp",
+      "alt": "the-merrion-dublin-ireland — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/the-merrion-dublin-ireland/spa.webp",
+      "alt": "the-merrion-dublin-ireland — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/the-merrion-dublin-ireland/dining.webp",
+      "alt": "the-merrion-dublin-ireland — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 4.8,
   "tripadvisor_award": true,
@@ -49,13 +76,41 @@
     "verdict": "The Merrion is Dublin's grande dame — four Georgian townhouses on Upper Merrion Street, opposite the Government Buildings and Leinster House, restored in 1997 into 142 rooms and suites that house Ireland's most important hotel art collection (one of the largest private collections of 19th-and-20th-century Irish art on public view, including Jack B. Yeats and Louis le Brocquy). For a Dublin honeymoon, this is the address — quieter and more elegant than the Westbury or Conrad, central enough to walk to Trinity College, Grafton Street, the National Gallery, and the Iveagh Gardens, and home to Restaurant Patrick Guilbaud (Ireland's only two-Michelin-star restaurant since 1989). The 23m basement pool, full spa, and the celebrated Art Tea (afternoon tea with pastries themed on the hotel's art collection) are all destination-quality. The two-night Dublin honeymoon bookend (one before the west-coast castles, one after) is the right move — the Merrion's location at the corner of Merrion Square (the most beautiful Georgian square in the city) puts you steps from the Yeats's birthplace, Wilde's childhood home, and the best of the National Gallery. The Garden Wing rooms (overlooking the formal garden) are quieter than the main-house street-facing rooms. The Tara Suite (the original Penthouse) and the Lord Holland Suite are the suite-of-suites. Service is unfussy, polished, and very Irish — the staff want to chat, they know everyone in the city, and the concierge desk has a long-standing reputation as the best in the country for difficult-restaurant reservations. The honeymoon weakness: Dublin in July rains, and the hotel pool/spa, while excellent, doesn't match the country-estate alternatives on the west coast. The honeymoon strength: this is the most cultured, civilized hotel in Ireland, and the start-or-end of a trip should anchor here.",
     "best_room": "A Garden View Junior Suite — quiet, looking out over the formal garden, with the cleanest light. The Tara Suite (the original Penthouse) and the Lord Holland Suite are the showstoppers but cost commensurately. Avoid the standard interior rooms; the view-having rooms are dramatically better.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival and Trinity walk", "description": "Dublin Airport (DUB) is 30 min by taxi. Check-in, walk to Trinity College for the Book of Kells. Dinner at Chapter One (Michelin-starred, 8-min walk)." },
-      { "day": 2, "title": "Art and Patrick Guilbaud", "description": "Morning at the National Gallery (next door). Long lunch at Patrick Guilbaud (Ireland's only 2-star Michelin, in-house). Afternoon at the National Museum. Cocktails at the No.23 Bar." },
-      { "day": 3, "title": "Day trip to Glendalough", "description": "Drive or guided car to the Wicklow Mountains, the 6th-century monastic site at Glendalough. Lunch at the Wicklow Heather. Return to the Merrion for spa and Art Tea." },
-      { "day": 4, "title": "Whiskey day", "description": "Roe & Co distillery tour and tasting in the Liberties. Lunch at Variety Jones. Afternoon at the Guinness Storehouse rooftop. Dinner at Liath." },
-      { "day": 5, "title": "Howth and the coast", "description": "DART train (30 min) to Howth — cliff walk, lighthouse, seafood lunch at The House. Return for cocktails and dinner at Hugo's." },
-      { "day": 6, "title": "Slow day in Dublin", "description": "Hugh Lane Gallery, lunch at the Winding Stair overlooking the Liffey, afternoon at Marsh's Library (Dublin's most beautiful library). Final dinner at Patrick Guilbaud's tasting menu." },
-      { "day": 7, "title": "Departure", "description": "Breakfast in the Garden Room, taxi to Dublin Airport." }
+      {
+        "day": 1,
+        "title": "Arrival and Trinity walk",
+        "description": "Dublin Airport (DUB) is 30 min by taxi. Check-in, walk to Trinity College for the Book of Kells. Dinner at Chapter One (Michelin-starred, 8-min walk)."
+      },
+      {
+        "day": 2,
+        "title": "Art and Patrick Guilbaud",
+        "description": "Morning at the National Gallery (next door). Long lunch at Patrick Guilbaud (Ireland's only 2-star Michelin, in-house). Afternoon at the National Museum. Cocktails at the No.23 Bar."
+      },
+      {
+        "day": 3,
+        "title": "Day trip to Glendalough",
+        "description": "Drive or guided car to the Wicklow Mountains, the 6th-century monastic site at Glendalough. Lunch at the Wicklow Heather. Return to the Merrion for spa and Art Tea."
+      },
+      {
+        "day": 4,
+        "title": "Whiskey day",
+        "description": "Roe & Co distillery tour and tasting in the Liberties. Lunch at Variety Jones. Afternoon at the Guinness Storehouse rooftop. Dinner at Liath."
+      },
+      {
+        "day": 5,
+        "title": "Howth and the coast",
+        "description": "DART train (30 min) to Howth — cliff walk, lighthouse, seafood lunch at The House. Return for cocktails and dinner at Hugo's."
+      },
+      {
+        "day": 6,
+        "title": "Slow day in Dublin",
+        "description": "Hugh Lane Gallery, lunch at the Winding Stair overlooking the Liffey, afternoon at Marsh's Library (Dublin's most beautiful library). Final dinner at Patrick Guilbaud's tasting menu."
+      },
+      {
+        "day": 7,
+        "title": "Departure",
+        "description": "Breakfast in the Garden Room, taxi to Dublin Airport."
+      }
     ],
     "caveats": [
       "Dublin gets fully booked for rugby internationals (Feb–March), Bloomsday (16 June), and Christmas — rates spike heavily.",
@@ -63,12 +118,30 @@
       "Patrick Guilbaud requires 4–6 months advance booking for evening Saturday tables."
     ],
     "faqs": [
-      { "question": "Good for honeymooners?", "answer": "Yes for a Dublin city interlude. Pair with a west-coast castle for the full Ireland honeymoon." },
-      { "question": "Best time to visit?", "answer": "May, June, September — long evenings, mild weather. December has Christmas magic and lower midweek rates." },
-      { "question": "Book in advance?", "answer": "Suites: 3–4 months ahead. Patrick Guilbaud separately, 4–6 months ahead." },
-      { "question": "Adults-only?", "answer": "No, but the property is genuinely civilised — children stay but are seldom seen." },
-      { "question": "Best room type?", "answer": "Garden View Junior Suite. Tara Suite for splurge." },
-      { "question": "How to get there?", "answer": "Dublin Airport (DUB) is 30 min by taxi (~$45). The Aircoach bus stops 5 min from the hotel ($12). Direct flights from JFK, EWR, ORD, BOS, SFO, LAX." }
+      {
+        "question": "Good for honeymooners?",
+        "answer": "Yes for a Dublin city interlude. Pair with a west-coast castle for the full Ireland honeymoon."
+      },
+      {
+        "question": "Best time to visit?",
+        "answer": "May, June, September — long evenings, mild weather. December has Christmas magic and lower midweek rates."
+      },
+      {
+        "question": "Book in advance?",
+        "answer": "Suites: 3–4 months ahead. Patrick Guilbaud separately, 4–6 months ahead."
+      },
+      {
+        "question": "Adults-only?",
+        "answer": "No, but the property is genuinely civilised — children stay but are seldom seen."
+      },
+      {
+        "question": "Best room type?",
+        "answer": "Garden View Junior Suite. Tara Suite for splurge."
+      },
+      {
+        "question": "How to get there?",
+        "answer": "Dublin Airport (DUB) is 30 min by taxi (~$45). The Aircoach bus stops 5 min from the hotel ($12). Direct flights from JFK, EWR, ORD, BOS, SFO, LAX."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — The Merrion Dublin\n\nDear Merrion reservations,\n\nWe'd like to stay 2 to 4 nights for our honeymoon [DATES] in a Garden View Junior Suite. Could you confirm rates and any honeymoon arrangements?\n\nQuestions:\n1. Honeymoon arrival turndown (champagne, in-suite dinner)?\n2. Patrick Guilbaud reservation on a specific evening — can you assist?\n3. Spa couples treatment?\n4. Art Tea reservation?\n\nThank you,\n[Your names]"
   },

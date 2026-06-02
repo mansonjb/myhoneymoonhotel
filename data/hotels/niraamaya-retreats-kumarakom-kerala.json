@@ -7,7 +7,10 @@
     "title": "Niraamaya Kumarakom: Backwater Honeymoon Review 2026",
     "description": "Niraamaya Backwaters Kumarakom review. Private villas on Vembanad lake, Ayurveda. Score 89/100, from $400/night. Honest 2026 verdict."
   },
-  "experience_types": ["spa", "luxury"],
+  "experience_types": [
+    "spa",
+    "luxury"
+  ],
   "honeymoon_score": 89,
   "score_breakdown": {
     "adults_only": 0,
@@ -21,7 +24,10 @@
     "luxury": 13
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 400, "max": 1300 },
+  "price_per_night_usd": {
+    "min": 400,
+    "max": 1300
+  },
   "adults_only": false,
   "amenities": [
     "spa",
@@ -36,11 +42,31 @@
     "boat-jetty"
   ],
   "photos": [
-    { "url": "/images/hotels/niraamaya-retreats-kumarakom-kerala/hero.webp", "alt": "Niraamaya Kumarakom — hero", "type": "hero" },
-    { "url": "/images/hotels/niraamaya-retreats-kumarakom-kerala/room.webp", "alt": "Niraamaya Kumarakom — villa", "type": "room" },
-    { "url": "/images/hotels/niraamaya-retreats-kumarakom-kerala/pool.webp", "alt": "Niraamaya Kumarakom — pool", "type": "pool" },
-    { "url": "/images/hotels/niraamaya-retreats-kumarakom-kerala/spa.webp", "alt": "Niraamaya Kumarakom — spa", "type": "spa" },
-    { "url": "/images/hotels/niraamaya-retreats-kumarakom-kerala/dining.webp", "alt": "Niraamaya Kumarakom — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/niraamaya-retreats-kumarakom-kerala/hero.webp",
+      "alt": "niraamaya-retreats-kumarakom-kerala — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/niraamaya-retreats-kumarakom-kerala/room.webp",
+      "alt": "niraamaya-retreats-kumarakom-kerala — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/niraamaya-retreats-kumarakom-kerala/pool.webp",
+      "alt": "niraamaya-retreats-kumarakom-kerala — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/niraamaya-retreats-kumarakom-kerala/spa.webp",
+      "alt": "niraamaya-retreats-kumarakom-kerala — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/niraamaya-retreats-kumarakom-kerala/dining.webp",
+      "alt": "niraamaya-retreats-kumarakom-kerala — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 4.7,
   "tripadvisor_award": true,
@@ -49,13 +75,41 @@
     "verdict": "Niraamaya Kumarakom is the romantic version of a Kerala backwater stay — a 27-villa boutique resort on the eastern shore of Vembanad Lake where wooden private cottages with thatched roofs and individual plunge pools sit between palm trees, and the lake itself glides past at the end of every private deck. Where the larger Kumarakom Lake Resort across the bay impresses with scale (78 villas, three pools), Niraamaya commits to intimacy: silent, all-villa, lake-edge, with the most serious Ayurveda doctor on this side of the water. The honeymoon math is simple — book a Pool Villa, you get a private deck looking at the lake, a small but immaculate plunge pool, an outdoor shower under a coconut palm, and a hammock that no one will disturb. The Niraamaya Spa includes a resident Ayurveda doctor who builds a multi-day programme around you (3-night taster to 14-night cleanse), and the food — slow Kerala cuisine, plus a serious wine list — is among the best of any honeymoon resort in India. Combine this with one private kettuvallam night through their partner Spice Coast Cruises, then 2–3 nights at Marari Beach, and you have the perfect Kerala honeymoon. The single caveat is the location: it is 90 minutes from the airport and another 45 minutes from Alleppey houseboat jetties, so build time into the schedule.",
     "best_room": "A Pool Villa with private deck onto the lake — the honeymoon room of the resort. Plunge pool, outdoor shower, king bed framing the lake view. For a splurge, the two-bedroom Lakefront Villa adds proper bathtub and a wider deck. Avoid the inland Garden Villas; the whole point is the water.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Drive from Cochin, arrival ritual", "description": "90-minute drive from COK airport with a stop at Kumarakom Bird Sanctuary if afternoon. Check-in, welcome coconut, Ayurveda doctor consultation. Sunset cruise on the resort\\'s small barge. Dinner in the open-air dining pavilion." },
-      { "day": 2, "title": "First Ayurveda day, evening lake", "description": "Dawn yoga on the deck, breakfast in the villa. 90-minute Abhyanga couples\\' massage. Lazy lunch, afternoon reading on hammocks. Cooking class at 4pm — make your own Kerala fish curry. Dinner under the stars." },
-      { "day": 3, "title": "Houseboat day", "description": "Driver to Alleppey jetty (45 min). Board private Spice Coast Cruises kettuvallam at 12pm. Lunch on deck, slow afternoon through small canals. Overnight on the boat with cardamom moilee and karimeen dinner." },
-      { "day": 4, "title": "Disembark, return to Niraamaya", "description": "10am disembark. Quick stop at Alleppey beach, drive back to Niraamaya by 1pm. Long lunch, afternoon Shirodhara (oil-on-forehead) treatment. Yoga sunset session, dinner in villa on the deck." },
-      { "day": 5, "title": "Kumarakom Bird Sanctuary and Vembanad", "description": "Dawn boat trip into the sanctuary — kingfishers, darters, sometimes the rare Siberian crane. Mid-morning swim in the resort pool. Lunch, spa treatment. Cocktails at the jetty bar." },
-      { "day": 6, "title": "Slow last full day", "description": "Sleep in. Long breakfast, full-day villa pool and hammock. Final dinner at the chef\\'s table — the resort\\'s 7-course tasting of regional dishes paired with Indian wines." },
-      { "day": 7, "title": "Departure or transit to Marari", "description": "Either: 90-minute drive back to COK for the evening flight home. Or: 60-minute drive to Marari Beach Resort for the beach component of your trip." }
+      {
+        "day": 1,
+        "title": "Drive from Cochin, arrival ritual",
+        "description": "90-minute drive from COK airport with a stop at Kumarakom Bird Sanctuary if afternoon. Check-in, welcome coconut, Ayurveda doctor consultation. Sunset cruise on the resort\\'s small barge. Dinner in the open-air dining pavilion."
+      },
+      {
+        "day": 2,
+        "title": "First Ayurveda day, evening lake",
+        "description": "Dawn yoga on the deck, breakfast in the villa. 90-minute Abhyanga couples\\' massage. Lazy lunch, afternoon reading on hammocks. Cooking class at 4pm — make your own Kerala fish curry. Dinner under the stars."
+      },
+      {
+        "day": 3,
+        "title": "Houseboat day",
+        "description": "Driver to Alleppey jetty (45 min). Board private Spice Coast Cruises kettuvallam at 12pm. Lunch on deck, slow afternoon through small canals. Overnight on the boat with cardamom moilee and karimeen dinner."
+      },
+      {
+        "day": 4,
+        "title": "Disembark, return to Niraamaya",
+        "description": "10am disembark. Quick stop at Alleppey beach, drive back to Niraamaya by 1pm. Long lunch, afternoon Shirodhara (oil-on-forehead) treatment. Yoga sunset session, dinner in villa on the deck."
+      },
+      {
+        "day": 5,
+        "title": "Kumarakom Bird Sanctuary and Vembanad",
+        "description": "Dawn boat trip into the sanctuary — kingfishers, darters, sometimes the rare Siberian crane. Mid-morning swim in the resort pool. Lunch, spa treatment. Cocktails at the jetty bar."
+      },
+      {
+        "day": 6,
+        "title": "Slow last full day",
+        "description": "Sleep in. Long breakfast, full-day villa pool and hammock. Final dinner at the chef\\'s table — the resort\\'s 7-course tasting of regional dishes paired with Indian wines."
+      },
+      {
+        "day": 7,
+        "title": "Departure or transit to Marari",
+        "description": "Either: 90-minute drive back to COK for the evening flight home. Or: 60-minute drive to Marari Beach Resort for the beach component of your trip."
+      }
     ],
     "caveats": [
       "Boat noise during the day from passing cargo and houseboats — peace returns after 6pm.",
@@ -63,12 +117,30 @@
       "The drive from Cochin airport is 90 minutes; not a quick first-night option."
     ],
     "faqs": [
-      { "question": "Is Niraamaya better than Kumarakom Lake Resort?", "answer": "More intimate (27 villas vs 78), more design-led, and a stronger Ayurveda programme. Kumarakom Lake Resort wins on scale and the iconic meandering villa-on-water — pick on what matters to you." },
-      { "question": "Do we need to commit to an Ayurveda programme?", "answer": "No — you can take individual treatments à la carte. But Niraamaya is at its best when you commit to at least a 3-day signature programme with the in-house doctor." },
-      { "question": "Can we combine a houseboat night here?", "answer": "Yes — Niraamaya partners with Spice Coast Cruises and can arrange a 24-hour private kettuvallam mid-stay. Book in advance." },
-      { "question": "Is the food spicy?", "answer": "Authentic Kerala cuisine has heat, but the kitchen is happy to dial down. The chef\\'s tasting menu can be customised on consultation." },
-      { "question": "Are children present?", "answer": "Occasionally — it is not adults-only, but the all-villa layout and slow pace keep families rare. Honeymooners and wellness couples dominate." },
-      { "question": "When is the best time to visit?", "answer": "November through March. December–January are peak. February and November give 20% better rates with the same weather." }
+      {
+        "question": "Is Niraamaya better than Kumarakom Lake Resort?",
+        "answer": "More intimate (27 villas vs 78), more design-led, and a stronger Ayurveda programme. Kumarakom Lake Resort wins on scale and the iconic meandering villa-on-water — pick on what matters to you."
+      },
+      {
+        "question": "Do we need to commit to an Ayurveda programme?",
+        "answer": "No — you can take individual treatments à la carte. But Niraamaya is at its best when you commit to at least a 3-day signature programme with the in-house doctor."
+      },
+      {
+        "question": "Can we combine a houseboat night here?",
+        "answer": "Yes — Niraamaya partners with Spice Coast Cruises and can arrange a 24-hour private kettuvallam mid-stay. Book in advance."
+      },
+      {
+        "question": "Is the food spicy?",
+        "answer": "Authentic Kerala cuisine has heat, but the kitchen is happy to dial down. The chef\\'s tasting menu can be customised on consultation."
+      },
+      {
+        "question": "Are children present?",
+        "answer": "Occasionally — it is not adults-only, but the all-villa layout and slow pace keep families rare. Honeymooners and wellness couples dominate."
+      },
+      {
+        "question": "When is the best time to visit?",
+        "answer": "November through March. December–January are peak. February and November give 20% better rates with the same weather."
+      }
     ],
     "email_template": "Subject: Honeymoon booking inquiry — Niraamaya Retreats Kumarakom\n\nHello,\n\nWe would like to book 3 nights at Niraamaya as part of a Kerala honeymoon for [DATES].\n\nCould you please confirm:\n1. Best available rate on a Pool Villa with lake view\n2. Honeymoon package details (romantic in-villa dinner, flowers, champagne)\n3. Ayurveda doctor consultation availability on arrival day\n4. Partner houseboat arrangements with Spice Coast Cruises for one night mid-stay\n5. Driver transfer from Cochin airport\n\nThank you,\n[Your names]"
   },

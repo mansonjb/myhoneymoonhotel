@@ -1,0 +1,79 @@
+{
+  "tagline": "Dix îles volcaniques, âme afro-portugaise, soleil toute l’année",
+  "intro": "Le Cap-Vert occupe un coin étrange et merveilleux de l’Atlantique — à 600 km au large des côtes ouest-africaines, mais spirituellement amarré au Portugal, au Brésil et aux Caraïbes à la fois. L’archipel de dix îles est resté inhabité jusqu’en 1462, devenant la première colonie tropicale européenne. De ce creuset a émergé une culture entièrement à elle : la langue créole, la morna (les ballades mélancoliques de Cesária Évora), la cachupa et un rythme de vie que les locaux appellent « no stress, no pressure ». Sal et Boa Vista livrent la carte postale : plages de sable blanc, resorts all-inclusive, kitesurf, alizés fiables. Le désert de Viana sur Boa Vista — véritables dunes du Sahara rencontrant l’océan turquoise — donne l’impression d’un bug géographique. Les autres îles récompensent les couples prêts à sauter d’île en île : Santo Antão a des sommets volcaniques émeraude spectaculaires ; Mindelo sur São Vicente est la capitale culturelle avec de la musique live chaque soir. Les vols sont courts (4-5 heures depuis Lisbonne ou Londres Gatwick).",
+  "bestTime": "Novembre à juin — sec, ensoleillé, 24-27 °C",
+  "flightFrom": "4-5 h direct depuis Lisbonne/Londres Gatwick/Manchester vers Sal ou Boa Vista",
+  "topExperience": "Flotter dans le cratère salin de Pedra de Lume à Sal, puis cocktails au coucher du soleil sur la plage de Santa Maria",
+  "perfectFor": [
+    "Couples voulant des plages caribéennes sans le long-courrier",
+    "Amateurs de musique attirés par la morna et la vie nocturne de Mindelo",
+    "Kitesurfeurs et véliplanchistes en quête d’alizés fiables",
+    "Jeunes mariés aventureux prêts à sauter d’île en île",
+    "Voyageurs cherchant la culture créole afro-portugaise hors radar"
+  ],
+  "skipIf": [
+    "Vous attendez une jungle tropicale luxuriante — Sal et Boa Vista sont arides",
+    "Vous avez besoin d’infrastructures ultra-luxe cinq étoiles",
+    "Vous voulez une vie nocturne vibrante hors de Mindelo et Santa Maria",
+    "Vous n’aimez pas le vent persistant"
+  ],
+  "experiences": [
+    { "title": "Morna live dans un bar de Mindelo", "description": "São Vicente est le berceau de Cesária Évora et le cœur battant de la musique capverdienne.", "cost": "10-25 € par couple boissons comprises", "tip": "Allez au Café Musical Sodade après 22 h" },
+    { "title": "Nidification des tortues sur Boa Vista", "description": "Entre juin et octobre, les tortues caouannes pondent sur les 55 km de plages de Boa Vista.", "cost": "35-50 € par personne via la Turtle Foundation", "tip": "Réservez uniquement via des ONG accréditées" },
+    { "title": "Flotter dans le cratère salin de Pedra de Lume", "description": "Un cratère volcanique effondré sur Sal rempli d’eau hyper-saline — plus dense que la mer Morte.", "cost": "5 € l’entrée, 15 € avec soin à la boue", "tip": "Allez-y en fin d’après-midi quand les foules de l’excursion sont parties" },
+    { "title": "Randonnée au Pico do Fogo", "description": "L’île de Fogo est dominée par un volcan actif de 2 829 m. Randonnée jusqu’au cratère ou nuit à Chã das Caldeiras.", "cost": "60-90 € par personne avec guide", "tip": "Achetez une bouteille de vin de Chã à la coopérative" },
+    { "title": "Quad dans le désert de Viana", "description": "Le désert de Viana sur Boa Vista — véritables champs de dunes rencontrant des lagons turquoise.", "cost": "70-95 € par personne pour un tour demi-journée", "tip": "Portez des chaussures fermées et un buff" }
+  ],
+  "months": [
+    { "weather": "22-25 °C, sec, venteux", "crowds": "Animée", "price": "€€€", "verdict": "Haute saison — réservez tôt" },
+    { "weather": "22-25 °C, venteux", "crowds": "Animée", "price": "€€€", "verdict": "Carnaval de Mindelo — extraordinaire" },
+    { "weather": "23-26 °C, sec, venteux", "crowds": "Animée", "price": "€€€", "verdict": "Pic de la saison kitesurf" },
+    { "weather": "23-26 °C, sec, vent plus léger", "crowds": "Modérée", "price": "€€", "verdict": "Sweet spot — belle météo, moins de foule" },
+    { "weather": "24-27 °C, sec, plus calme", "crowds": "Calme", "price": "€€", "verdict": "Excellent rapport qualité-prix, mers calmes" },
+    { "weather": "25-28 °C, qui se réchauffe", "crowds": "Calme", "price": "€€", "verdict": "La nidification des tortues commence à Boa Vista" },
+    { "weather": "26-29 °C, humide", "crowds": "Modérée", "price": "€€", "verdict": "Chaud mais supportable ; vacances scolaires européennes" },
+    { "weather": "27-30 °C, humide, brèves averses", "crowds": "Modérée", "price": "€€", "verdict": "Mois le plus chaud ; festival musical Baía das Gatas" },
+    { "weather": "27-30 °C, humide", "crowds": "Calme", "price": "€", "verdict": "Brève saison des pluies — tarifs les plus bas" },
+    { "weather": "26-29 °C, en train de sécher", "crowds": "Calme", "price": "€€", "verdict": "Dernières éclosions de tortues, retour du soleil" },
+    { "weather": "24-27 °C, sec, venteux", "crowds": "Modérée", "price": "€€", "verdict": "Retour des alizés — mois idéal honeymoon" },
+    { "weather": "23-26 °C, sec, venteux", "crowds": "Animée", "price": "€€€", "verdict": "Festif mais tarifs premium" }
+  ],
+  "budgetTiers": [
+    { "label": "Confortable", "daily": "1 800-2 800 € par couple par semaine", "includes": "All-inclusive milieu de gamme à Sal ou Boa Vista, chambre vue jardin, buffet. Hotel Morabeza, Sal — front de mer, demi-pension." },
+    { "label": "Sweet spot", "daily": "2 800-4 500 € par couple par semaine", "includes": "All-inclusive premium, chambre vue océan, restaurants à la carte, 2-3 excursions. Meliá Dunas Beach Resort ou Iberostar Boa Vista." },
+    { "label": "Occasion spéciale", "daily": "4 500-7 500+ € par couple par semaine", "includes": "Suite Hilton ou Riu Palace, service de majordome, table premium, vols inter-îles. Hilton Cabo Verde Sal Resort — suite avec piscine à débordement." }
+  ],
+  "areas": [
+    { "name": "Santa Maria, Sal", "description": "8 km de plage de sable blanc, la meilleure scène de restaurants et la plupart des grands resorts. Centre-ville piéton." },
+    { "name": "Sal Rei et plages, Boa Vista", "description": "Moins développée que Sal, avec de plus longues plages désertes et le désert de Viana." },
+    { "name": "Mindelo, São Vicente", "description": "Capitale culturelle du Cap-Vert. Architecture coloniale, musique live chaque soir." },
+    { "name": "Santo Antão", "description": "Un court ferry depuis São Vicente révèle des sommets émeraude, des vallées en terrasses, la meilleure randonnée du Cap-Vert." },
+    { "name": "Cidade Velha, Santiago", "description": "Première ville tropicale construite par les Européens, fondée en 1462. Rues pavées, forteresse sur la colline." }
+  ],
+  "expertTips": [
+    { "title": "Volez sur la bonne île", "body": "Sal et Boa Vista ont des aéroports internationaux. Les vols inter-îles ajoutent 100-180 € et une demi-journée." },
+    { "title": "Apportez des euros, pas des dollars", "body": "L’escudo est arrimé à l’euro à 110:1, et les euros sont largement acceptés dans les zones touristiques." },
+    { "title": "Le vent est une caractéristique, pas un défaut", "body": "Les alizés soufflent quasi toute l’année. Cela maintient les températures confortables mais signifie des plages ventées." },
+    { "title": "Donnez un pourboire en cash, modestement", "body": "1-2 € par verre, 5-10 € pour un excellent service au dîner, 5 € par guide d’excursion." },
+    { "title": "Goûtez la grogue avec précaution", "body": "Le rhum de canne local titre 40-50 %. La plus douce vient de Santo Antão." }
+  ],
+  "packing": [
+    { "item": "Crème solaire reef-safe SPF 50", "why": "Le soleil équatorial est féroce même quand le vent le fait paraître doux" },
+    { "item": "Coupe-vent léger ou pashmina", "why": "Les alizés rafraîchissent les soirées, surtout en terrasse" },
+    { "item": "Chaussures de marche fermées", "why": "Essentielles pour le terrain volcanique de Fogo, les randonnées de Santo Antão, le désert de Viana" },
+    { "item": "Buff ou foulard", "why": "Le sable poussé par le vent sur les plages de Boa Vista est incessant" },
+    { "item": "Gourde réutilisable", "why": "L’eau du robinet est dessalée et pas toujours agréable au goût" },
+    { "item": "Adaptateur (type C/F, européen)", "why": "Mêmes prises qu’en Europe continentale, tension 220 V" }
+  ],
+  "guide": {
+    "getting": "TAP Portugal, easyJet, TUI volent direct depuis Lisbonne (3 h 30) et Londres Gatwick (5 h 30) vers Sal (SID) et Boa Vista (BVC). Inter-îles via Binter Cabo Verde ou BestFly (80-180 €).",
+    "where": "Sal pour les primo-visiteurs voulant plage plus variété de restaurants. Boa Vista pour des plages plus calmes et le désert. Pour culture et musique, Mindelo et ferry vers Santo Antão. Combinez 5 nuits resort avec 3 nuits culturelles.",
+    "when": "De novembre à juin, c’est le sweet spot. Avril-mai et octobre-novembre offrent le meilleur équilibre. Février apporte le carnaval de Mindelo. La nidification des tortues sur Boa Vista se déroule de juin à octobre."
+  },
+  "localFood": "La cachupa est le plat national — un ragoût mijoté longuement de maïs, haricots, patate douce, et poisson ou porc. Le thon frais et la langouste sont abondants ; essayez la lagosta grelhada à Sal. Le pastel com diabo dentro est un chausson épicé au thon. Arrosez le tout de grogue ou de bière Strela.",
+  "language": "Portugais / créole capverdien",
+  "seo": {
+    "title": "Lune de miel au Cap-Vert : 9 resorts atlantiques 2026",
+    "description": "9 resorts Sal, Boa Vista, Santiago classés. Hilton, Melia Llana, Robinson Cabo Verde. À partir de 200 $/nuit. Nov.-juin."
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "tagline": "Des baies turquoise de Phuket aux palmiers de Koh Samui — la destination plage de luxe ultime d’Asie du Sud-Est.",
+  "intro": "La Thaïlande est depuis trente ans la destination phare de lune de miel balnéaire en Asie — et elle ne cesse de se réinventer au sommet. Phuket dispose d’hôtels de classe mondiale qui rivalisent avec n’importe quel autre lieu (Amanpuri, Trisara, Sri Panwa) sur la mer d’Andaman, dans une eau cristalline et une chaleur permanente. Koh Samui offre l’expérience villa de luxe sous les palmiers par excellence. Koh Phangan et Koh Lanta proposent une alternative plus détendue, axée sur le bien-être. Et au-delà des îles, Chiang Mai et Bangkok comptent parmi les deux villes les plus extraordinaires d’Asie pour les couples qui veulent de la culture à côté de la plage.",
+  "bestTime": "Nov-avr",
+  "flightFrom": "11-13 h depuis l’Europe",
+  "topExperience": "Plage et bien-être",
+  "perfectFor": [
+    "Les couples qui veulent un rapport qualité-prix exceptionnel — la Thaïlande offre du luxe niveau Maldives à une fraction du prix",
+    "Les gourmets — la street food et la gastronomie thaïe sont toutes deux de niveau mondial",
+    "Les adeptes du bien-être — massage thaï traditionnel et culture du spa de luxe inégalés",
+    "Les couples qui veulent culture et plage à la fois (temples, marchés, éléphants de Chiang Mai)",
+    "Ceux qui veulent de la variété — îles, villes et paysages multiples dans un même pays"
+  ],
+  "skipIf": [
+    "Vous voulez une bulle de resort totalement isolée — la Thaïlande a une infrastructure touristique conséquente",
+    "Vous voyagez entre juin et octobre et visez le côté Andaman (Phuket, Krabi) — c’est leur saison humide",
+    "Vous avez besoin d’une culture entièrement anglophone sans barrière linguistique",
+    "Vous êtes sensible à la chaleur et l’humidité — cela peut être intense en avril-mai"
+  ],
+  "experiences": [
+    {
+      "title": "Saut d’îles privé en long-tail (Krabi)",
+      "description": "Un long-tail privé à travers les îles karstiques de la baie de Phang Nga — dont James Bond Island, des grottes émeraude et des lagons cachés. Le paysage marin thaïlandais le plus iconique.",
+      "cost": "150-300 $ par couple (affrètement privé)",
+      "tip": "Réservez un bateau privé, pas un tour groupé. Le pilote attend pendant que vous explorez chaque île. Partez avant 7 h pour devancer les bateaux des tours sur les spots célèbres."
+    },
+    {
+      "title": "Retraite spa thaï de luxe",
+      "description": "Une journée complète de soins dans un spa d’hôtel — massage thaï traditionnel, compresses aux herbes, soin du visage et bain de fleurs. Les spas de l’Amanpuri et du Banyan Tree Phuket sont véritablement parmi les plus beaux du monde.",
+      "cost": "200-500 $ par couple",
+      "tip": "Réservez à l’avance et demandez la salle de soin couple. Certains spas (Six Senses Yao Noi) proposent des programmes wellness sur plusieurs jours qui sont transformateurs."
+    },
+    {
+      "title": "Sanctuaire éthique d’éléphants (Chiang Mai)",
+      "description": "Passer une matinée avec des éléphants sauvés dans un sanctuaire éthique — les nourrir, les baigner dans la rivière, marcher dans la jungle. Pas les monter. L’expérience animalière la plus profonde d’Asie du Sud-Est.",
+      "cost": "80-150 $ par personne",
+      "tip": "Elephant Nature Park et Patara Elephant Farm sont la référence éthique. Évitez tout sanctuaire proposant monte ou spectacles — c’est signe de mauvais traitement."
+    },
+    {
+      "title": "Snorkeling à l’aube aux îles Phi Phi",
+      "description": "Snorkeling dans les eaux cristallines autour des îles Phi Phi avant l’arrivée des bateaux de jour. Les jardins coralliens de Hin Klang et de Viking Cave sont extraordinaires dans la lumière du matin.",
+      "cost": "100-200 $ par personne (affrètement privé)",
+      "tip": "Phi Phi Don a un petit village pour le dîner. Phi Phi Leh (l’inhabitée) est où La Plage a été tournée — snorkelisez là, ne grimpez pas au point de vue à midi."
+    },
+    {
+      "title": "Cours de cuisine à Chiang Mai",
+      "description": "Une demi-journée de visite de marché suivie de la cuisine de 6 plats thaïs authentiques dans un sala en bois traditionnel. Vous ferez pad thai, curry massaman et riz gluant à la mangue de A à Z — et mangerez tout.",
+      "cost": "50-100 $ par personne",
+      "tip": "Zabb E Lee et Thai Farm Cooking School sont les mieux notés. Réservez la session du matin pour déjeuner sur place et avoir l’après-midi libre."
+    }
+  ],
+  "months": [
+    { "weather": "Pic de saison sèche, frais et clair", "crowds": "Pic", "price": "Élevé", "verdict": "Météo parfaite, fréquenté et cher" },
+    { "weather": "Idéal — sec, pas trop chaud", "crowds": "Élevée", "price": "Élevé", "verdict": "Meilleur mois de l’année" },
+    { "weather": "Chaud, encore sec", "crowds": "Modérée", "price": "Moyen-élevé", "verdict": "Excellent, un peu plus calme" },
+    { "weather": "Chaud, fête de l’eau Songkran", "crowds": "Modérée", "price": "Moyen", "verdict": "Songkran est magique si vous y êtes" },
+    { "weather": "Pré-mousson, humide, premières averses", "crowds": "Faible", "price": "Bas", "verdict": "Bonnes affaires, quelques pluies l’après-midi" },
+    { "weather": "Début de mousson (côté Andaman)", "crowds": "Faible", "price": "Le plus bas", "verdict": "Phuket/Krabi humides, Samui bon" },
+    { "weather": "Mousson (Andaman), Samui plus sec", "crowds": "Faible", "price": "Bas", "verdict": "Basculez côté Golfe" },
+    { "weather": "Similaire à juillet", "crowds": "Faible", "price": "Bas", "verdict": "Samui et Phangan meilleurs choix" },
+    { "weather": "Mois le plus humide côté Andaman, Samui OK", "crowds": "Le plus faible", "price": "Le plus bas", "verdict": "Non recommandé pour la plage côté Andaman" },
+    { "weather": "Transition, Samui se mouille", "crowds": "Faible", "price": "Bas à moyen", "verdict": "Fin de mousson côté Andaman" },
+    { "weather": "La saison sèche revient à Phuket", "crowds": "Modérée", "price": "Moyen", "verdict": "Excellent — la saison s’ouvre" },
+    { "weather": "Pic de saison sèche, ruée des fêtes", "crowds": "Pic", "price": "Très élevé", "verdict": "Météo parfaite, réservez très tôt" }
+  ],
+  "budgetTiers": [
+    { "label": "Luxe abordable", "daily": "200-500 $/nuit", "includes": "Boutique-hôtels avec villas-piscine et service exceptionnel. La Thaïlande joue très au-dessus de sa catégorie à ce niveau — des choses qui coûteraient 1 500 $ aux Maldives." },
+    { "label": "Premium", "daily": "500-1 500 $/nuit", "includes": "Villa privée avec piscine et majordome, accès plage, spa de classe mondiale. C’est ici que la Thaïlande rivalise sincèrement avec les Maldives à moitié prix." },
+    { "label": "Ultra-luxe", "daily": "1 500+ $/nuit", "includes": "L’isolement à la Amanpuri, la plus belle hospitalité thaïe, plages privées, villas à plusieurs chambres. Vraiment parmi les meilleurs resorts du monde." }
+  ],
+  "areas": [
+    { "name": "Phuket — côte ouest (Kamala, Surin, Bang Tao)", "description": "La côte ouest de Phuket fait face à la mer d’Andaman et offre l’eau la plus constamment limpide et les plus beaux couchers de soleil. Kamala Bay (Amanpuri, Trisara) est la plus calme et la plus exclusive. Surin et Bang Tao sont un peu plus animées. Patong est la plus commerciale — à éviter pour une lune de miel." },
+    { "name": "Koh Samui", "description": "La deuxième plus grande île de Thaïlande dispose d’une excellente infrastructure, d’un bon aéroport international et de quelques hôtels remarquables (Four Seasons, Banyan Tree, Six Senses). Meilleure météo de novembre à avril. Chaweng est la plage la plus animée — logez à Choeng Mon ou Maenam pour plus de tranquillité." },
+    { "name": "Koh Phangan", "description": "Célèbre pour sa Full Moon Party mais de plus en plus connue pour ses retraites bien-être de classe mondiale. Srithanu sur la côte ouest est le hub wellness — yoga, raw food, programmes détox. Les plages au sud et à l’est sont magnifiques et calmes." },
+    { "name": "Krabi — Railay et Koh Lanta", "description": "Railay n’est accessible qu’en bateau — falaises calcaires spectaculaires, excellent snorkeling et atmosphère détendue. Koh Lanta est plus grande, plus calme, avec d’excellents éco-resorts pour longs séjours. Idéal pour les couples qui privilégient la beauté naturelle à l’infrastructure hôtelière." },
+    { "name": "Koh Phi Phi", "description": "Les deux baies jumelles de Phi Phi Don sont des paysages thaïs emblématiques. Très animée et populaire auprès des plus jeunes. Les eaux environnantes offrent le meilleur snorkeling de Thaïlande. Mieux pour un séjour de 3-4 nuits qu’en base de lune de miel complète." }
+  ],
+  "expertTips": [
+    { "title": "Les deux côtes ont des moussons opposées — planifiez en conséquence", "body": "Le côté Andaman (Phuket, Krabi, Phi Phi) est meilleur de novembre à avril. Le côté Golfe (Koh Samui, Koh Phangan) est meilleur de décembre à septembre. Si vous voyagez entre juin et octobre, basez-vous côté Golfe." },
+    { "title": "Ajoutez 2 nuits à Bangkok en début de voyage", "body": "Mandarin Oriental Bangkok, The Peninsula et Capella Bangkok comptent parmi les plus beaux city-hôtels d’Asie. Même si vous êtes orientés plage, Bangkok donne à votre voyage une dimension culturelle qui enrichit le reste." },
+    { "title": "Affrétez un bateau privé pour la journée, pas un tour", "body": "Un long-tail ou speedboat privé coûte 150-300 $ pour la journée et transforme votre exploration des îles. Vous allez où vous voulez, vous vous arrêtez quand vous voulez, et zéro autre touriste sur vos photos." },
+    { "title": "La culture du spa est l’âme du luxe thaï", "body": "Ne traitez pas le spa comme une option. Une journée complète de soins en couple dans un grand spa thaï — massage thaï, compresses aux herbes, gommage, bain floral — est l’une des plus belles expériences de toute destination de lune de miel." },
+    { "title": "Téléchargez Google Translate avec le thaï hors ligne", "body": "Hors zones touristiques, très peu d’anglais. La traduction caméra traduit les menus en temps réel et aide vraiment à trouver le vrai resto local plutôt que le piège à touristes." }
+  ],
+  "packing": [
+    { "item": "Vêtements légers en lin ou coton", "why": "L’humidité est extrême — les synthétiques deviennent insupportables. Les fibres naturelles légères respirent correctement." },
+    { "item": "Crème solaire reef-safe", "why": "Les récifs coralliens thaïs sont sous forte pression. La crème minérale est le choix éthique." },
+    { "item": "Anti-moustiques (DEET)", "why": "La dengue est présente — un répulsif à base de DEET pour les soirées près de la végétation n’est pas négociable." },
+    { "item": "Tenue couvrante pour les temples", "why": "Épaules et genoux doivent être couverts au Wat Phra Kaew (Bangkok) et dans la plupart des temples bouddhistes. Une écharpe légère règle la question." },
+    { "item": "Sandales imperméables", "why": "Monter dans un long-tail implique de patauger dans l’eau. Des sandales reef-safe protègent les pieds et n’en souffrent pas." }
+  ],
+  "guide": {
+    "getting": "Volez à Phuket International (HKT) côté Andaman, ou à Bangkok Suvarnabhumi (BKK) puis correspondance vers Samui (USM) sur Bangkok Airways côté Golfe. Depuis l’Europe : vols directs vers Phuket depuis Londres, Francfort et Paris. Depuis les États-Unis : correspondance via Bangkok, Singapour ou Hong Kong. Connexions domestiques sur Bangkok Airways, Thai AirAsia et Nok Air.",
+    "where": "Côte ouest de Phuket (Kamala, Surin, Bang Tao) pour le luxe Andaman. Koh Samui pour l’expérience resort couple côté Golfe de Thaïlande. Six Senses Yao Noi (entre Phuket et Krabi, accessible en speedboat) pour le cadre le plus spectaculaire de Thaïlande.",
+    "when": "Novembre-avril est la saison sèche côté Andaman et le choix le plus sûr pour une lune de miel. Décembre-mars est le plus sec et le plus cher. Avril offre un excellent rapport qualité-prix avec moins de monde. Mai-octobre côté Andaman = mousson — basculez côté Golfe ou profitez des prix de saison verte."
+  },
+  "localFood": "Curry massaman au bœuf et aux cacahuètes dans un restaurant musulman de Phuket, pad thai frais d’un chariot de rue au marché nocturne de Koh Samui, crevettes géantes grillées sauce nam jim, riz gluant à la mangue à la crème de coco, et tom kha gai (soupe au lait de coco et galanga). La street food thaïe est sincèrement la meilleure d’Asie aux prix les plus bas.",
+  "language": "Thaï (anglais dans les zones touristiques)",
+  "seo": {
+    "title": "Lune de miel en Thaïlande : 8 resorts plage adults-only 2026",
+    "description": "8 resorts Phuket, Koh Samui, Krabi notés. Rosewood, Six Senses, Soneva Kiri. À partir de 300 $/nuit. Saison sèche nov.-mars."
+  }
+}

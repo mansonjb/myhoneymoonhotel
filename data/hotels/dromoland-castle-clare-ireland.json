@@ -7,7 +7,11 @@
     "title": "Dromoland Castle: 5-Star Irish Honeymoon Review (2026)",
     "description": "16th-century castle near Shannon. Score 86/100, from $700/night. Honest verdict, best suite, falconry, 7-night itinerary & email."
   },
-  "experience_types": ["castle", "luxury", "romantic"],
+  "experience_types": [
+    "castle",
+    "luxury",
+    "romantic"
+  ],
   "honeymoon_score": 86,
   "score_breakdown": {
     "adults_only": 0,
@@ -21,7 +25,10 @@
     "luxury": 12
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 700, "max": 2800 },
+  "price_per_night_usd": {
+    "min": 700,
+    "max": 2800
+  },
   "adults_only": false,
   "amenities": [
     "spa",
@@ -36,11 +43,31 @@
     "tennis"
   ],
   "photos": [
-    { "url": "/images/hotels/dromoland-castle-clare-ireland/hero.webp", "alt": "dromoland-castle-clare-ireland — hero", "type": "hero" },
-    { "url": "/images/hotels/dromoland-castle-clare-ireland/room.webp", "alt": "dromoland-castle-clare-ireland — room", "type": "room" },
-    { "url": "/images/hotels/dromoland-castle-clare-ireland/pool.webp", "alt": "dromoland-castle-clare-ireland — pool", "type": "pool" },
-    { "url": "/images/hotels/dromoland-castle-clare-ireland/spa.webp", "alt": "dromoland-castle-clare-ireland — spa", "type": "spa" },
-    { "url": "/images/hotels/dromoland-castle-clare-ireland/dining.webp", "alt": "dromoland-castle-clare-ireland — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/dromoland-castle-clare-ireland/hero.webp",
+      "alt": "dromoland-castle-clare-ireland — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/dromoland-castle-clare-ireland/room.webp",
+      "alt": "dromoland-castle-clare-ireland — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/dromoland-castle-clare-ireland/pool.webp",
+      "alt": "dromoland-castle-clare-ireland — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/dromoland-castle-clare-ireland/spa.webp",
+      "alt": "dromoland-castle-clare-ireland — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/dromoland-castle-clare-ireland/dining.webp",
+      "alt": "dromoland-castle-clare-ireland — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 4.7,
   "tripadvisor_award": true,
@@ -49,13 +76,41 @@
     "verdict": "Dromoland Castle is the value play in Ireland's castle-hotel league — a 16th-century baronial pile that was the ancestral seat of the O'Brien clan (direct descendants of Brian Boru, the 11th-century High King of Ireland) and is now an exceptionally comfortable 100-room luxury hotel on a 450-acre estate in County Clare, eight miles from Shannon Airport. The proposition vs Ashford and Adare: 30 to 40 per cent lower room rates for a genuinely castle-like experience, with a championship golf course (Dromoland was the first Irish course to host a major LPGA event), falconry school, lake fishing, archery, and a spa that, while not as ambitious as Adare's, hits every honeymoon note. The Earl of Thomond restaurant is the formal dining room (jacket required, classical menu); the Gallery is the relaxed all-day option with the bay-window view over the lake. The State Suites in the original castle wing (Brian Boru, Lord Inchiquin) have the four-poster-and-fireplace drama you came for; the rooms in the newer wing are perfectly comfortable but lose the castle atmosphere. What Dromoland sacrifices vs the top two: a slightly less luminous service operation (the Newenham family sold to the Slattery hospitality group in 2020 and the polish is still being reset), a smaller spa, and less destination-quality dining. What it gains: actual proximity to Shannon Airport (you can land and be in your suite within 30 min), and rates that make a 5-night honeymoon roughly the cost of three nights at Ashford. For first-time Ireland visitors, this is the smartest castle move.",
     "best_room": "A State Room or Junior Suite in the original castle wing (Brian Boru, Lord Inchiquin, or Lady Augusta) is the honeymoon room — four-poster, working fireplace, generous bathroom, lake or estate view. The Castle Suite is the maximal splurge. Avoid the Garden Wing standard rooms if castle atmosphere matters to you.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival and fireside whiskey", "description": "Shannon Airport is 15 minutes away by transfer. Check-in to your state room, welcome whiskey in the Library Bar. Dinner at the Earl of Thomond, the castle's grand dining room." },
-      { "day": 2, "title": "Falconry walk and lake fishing", "description": "Morning falconry walk on the estate. Afternoon trout fishing on Dromoland Lake. Sunset cocktails on the terrace, dinner at the Gallery." },
-      { "day": 3, "title": "Cliffs of Moher and the Burren", "description": "1h drive north to the Cliffs of Moher. Doolin ferry for the boat view from below. Lunch at Gus O'Connor's pub. Burren walk in the afternoon (the limestone karst landscape)." },
-      { "day": 4, "title": "Golf or spa day", "description": "Round on the championship Dromoland course (for golfers) or full spa day (couples treatments, the indoor pool, the relaxation rooms). Long lunch on the terrace." },
-      { "day": 5, "title": "Limerick and Adare village", "description": "Day trip to King John's Castle in Limerick city, lunch at the Limerick Strand, afternoon strolling thatched Adare village. Back to Dromoland for dinner." },
-      { "day": 6, "title": "Bunratty Castle banquet", "description": "Quick visit to Bunratty Castle (10 min from Dromoland) for the Medieval Banquet — gimmicky but genuinely fun, with mead, harpists, and four-course feast at the long table." },
-      { "day": 7, "title": "Slow morning and departure", "description": "Breakfast in the dining room, last walk through the walled garden, 15-minute transfer to Shannon." }
+      {
+        "day": 1,
+        "title": "Arrival and fireside whiskey",
+        "description": "Shannon Airport is 15 minutes away by transfer. Check-in to your state room, welcome whiskey in the Library Bar. Dinner at the Earl of Thomond, the castle's grand dining room."
+      },
+      {
+        "day": 2,
+        "title": "Falconry walk and lake fishing",
+        "description": "Morning falconry walk on the estate. Afternoon trout fishing on Dromoland Lake. Sunset cocktails on the terrace, dinner at the Gallery."
+      },
+      {
+        "day": 3,
+        "title": "Cliffs of Moher and the Burren",
+        "description": "1h drive north to the Cliffs of Moher. Doolin ferry for the boat view from below. Lunch at Gus O'Connor's pub. Burren walk in the afternoon (the limestone karst landscape)."
+      },
+      {
+        "day": 4,
+        "title": "Golf or spa day",
+        "description": "Round on the championship Dromoland course (for golfers) or full spa day (couples treatments, the indoor pool, the relaxation rooms). Long lunch on the terrace."
+      },
+      {
+        "day": 5,
+        "title": "Limerick and Adare village",
+        "description": "Day trip to King John's Castle in Limerick city, lunch at the Limerick Strand, afternoon strolling thatched Adare village. Back to Dromoland for dinner."
+      },
+      {
+        "day": 6,
+        "title": "Bunratty Castle banquet",
+        "description": "Quick visit to Bunratty Castle (10 min from Dromoland) for the Medieval Banquet — gimmicky but genuinely fun, with mead, harpists, and four-course feast at the long table."
+      },
+      {
+        "day": 7,
+        "title": "Slow morning and departure",
+        "description": "Breakfast in the dining room, last walk through the walled garden, 15-minute transfer to Shannon."
+      }
     ],
     "caveats": [
       "Service polish lags Ashford and Adare — perfectly good but not flawless. Set expectations correctly.",
@@ -63,12 +118,30 @@
       "Dromoland is not adults-only and does cater to families with golf packages — book honeymoon dates outside the Irish school holidays for best vibe."
     ],
     "faqs": [
-      { "question": "Good for honeymooners?", "answer": "Yes — particularly for first-time Ireland visitors who want a real castle experience at a price point well below Ashford/Adare. The state rooms deliver the romance; the estate gives you full activity programming." },
-      { "question": "Best time to visit?", "answer": "May, June, September — long days, low rain. Christmas at the castle is also genuinely festive." },
-      { "question": "Book in advance?", "answer": "State rooms in the original castle for May–September should be booked 6 months ahead." },
-      { "question": "Adults-only?", "answer": "No. The vibe stays mostly adult except during Irish school holidays (mid-July to end August)." },
-      { "question": "Best room type?", "answer": "A State Room or Junior Suite in the original castle wing. The Castle Suite for maximum splurge." },
-      { "question": "How to get there?", "answer": "Shannon Airport (SNN) is 15 minutes; the hotel arranges transfers (~$90). Direct flights to Shannon from Boston, JFK, Newark, Chicago, London." }
+      {
+        "question": "Good for honeymooners?",
+        "answer": "Yes — particularly for first-time Ireland visitors who want a real castle experience at a price point well below Ashford/Adare. The state rooms deliver the romance; the estate gives you full activity programming."
+      },
+      {
+        "question": "Best time to visit?",
+        "answer": "May, June, September — long days, low rain. Christmas at the castle is also genuinely festive."
+      },
+      {
+        "question": "Book in advance?",
+        "answer": "State rooms in the original castle for May–September should be booked 6 months ahead."
+      },
+      {
+        "question": "Adults-only?",
+        "answer": "No. The vibe stays mostly adult except during Irish school holidays (mid-July to end August)."
+      },
+      {
+        "question": "Best room type?",
+        "answer": "A State Room or Junior Suite in the original castle wing. The Castle Suite for maximum splurge."
+      },
+      {
+        "question": "How to get there?",
+        "answer": "Shannon Airport (SNN) is 15 minutes; the hotel arranges transfers (~$90). Direct flights to Shannon from Boston, JFK, Newark, Chicago, London."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — Dromoland Castle\n\nDear Dromoland reservations,\n\nWe'd like a State Room or Junior Suite in the original castle wing for [DATES], 5 nights. Could you confirm rates and any honeymoon package?\n\nQuestions:\n1. Honeymoon turndown (champagne, in-suite dinner)?\n2. Falconry walk first morning?\n3. Earl of Thomond dinner reservation?\n4. Transfer from Shannon Airport?\n\nThank you,\n[Your names]"
   },

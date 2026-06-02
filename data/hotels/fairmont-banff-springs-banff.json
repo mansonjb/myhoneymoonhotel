@@ -7,7 +7,12 @@
     "title": "Fairmont Banff Springs: Castle in the Rockies Review",
     "description": "1888 Castle in the Rockies, 5-star Fairmont. Score 89/100, from $600 CAD/night. Honest verdict, best suite, 7-night itinerary & email."
   },
-  "experience_types": ["castle", "luxury", "mountain", "spa"],
+  "experience_types": [
+    "castle",
+    "luxury",
+    "mountain",
+    "spa"
+  ],
   "honeymoon_score": 89,
   "score_breakdown": {
     "adults_only": 0,
@@ -21,7 +26,10 @@
     "luxury": 13
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 500, "max": 1800 },
+  "price_per_night_usd": {
+    "min": 500,
+    "max": 1800
+  },
   "adults_only": false,
   "amenities": [
     "spa",
@@ -36,11 +44,31 @@
     "michelin-recommended"
   ],
   "photos": [
-    { "url": "/images/hotels/fairmont-banff-springs-banff/hero.webp", "alt": "fairmont-banff-springs-banff — hero", "type": "hero" },
-    { "url": "/images/hotels/fairmont-banff-springs-banff/room.webp", "alt": "fairmont-banff-springs-banff — room", "type": "room" },
-    { "url": "/images/hotels/fairmont-banff-springs-banff/pool.webp", "alt": "fairmont-banff-springs-banff — pool", "type": "pool" },
-    { "url": "/images/hotels/fairmont-banff-springs-banff/spa.webp", "alt": "fairmont-banff-springs-banff — spa", "type": "spa" },
-    { "url": "/images/hotels/fairmont-banff-springs-banff/dining.webp", "alt": "fairmont-banff-springs-banff — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/fairmont-banff-springs-banff/hero.webp",
+      "alt": "fairmont-banff-springs-banff — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/fairmont-banff-springs-banff/room.webp",
+      "alt": "fairmont-banff-springs-banff — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/fairmont-banff-springs-banff/pool.webp",
+      "alt": "fairmont-banff-springs-banff — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/fairmont-banff-springs-banff/spa.webp",
+      "alt": "fairmont-banff-springs-banff — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/fairmont-banff-springs-banff/dining.webp",
+      "alt": "fairmont-banff-springs-banff — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 4.6,
   "tripadvisor_award": true,
@@ -49,13 +77,41 @@
     "verdict": "The Fairmont Banff Springs is the original Castle in the Rockies — a Scottish-baronial sandstone fortress built by the Canadian Pacific Railway in 1888 to lure 19th-century tourists to the new transcontinental line, and now a 757-room Fairmont property that remains the most iconic hotel in Canada. Sat on a bluff above the confluence of the Bow and Spray rivers with a view directly into Mount Rundle, the castle has the kind of presence that makes guests audibly gasp at the first sight from the access road. The honeymoon proposition has two halves. First, the castle itself: vaulted ceilings, the Mt Stephen Hall (a 90-foot-long medieval-baronial banquet space), 14 restaurants and bars including the 1888 Chop House (genuinely one of the best steakhouses in North America, with Alberta-aged rib eyes and a 600-label wine list) and Castello (Italian, with an outdoor terrace facing the mountains), the Willow Stream Spa (one of Canada's largest, with outdoor mineral pools), and a Stanley Thompson-designed championship golf course often ranked Canada's number-one resort course. Second, the location: walking distance to Banff Avenue and the Banff Gondola, 5 min by hotel shuttle to the Banff Upper Hot Springs, 45 min to Lake Louise, 1h to Moraine Lake. The castle works year-round — summer for hiking, golf, helicopter days; December–March for skiing the Banff Sunshine/Lake Louise/Norquay tri-area lift ticket and the Christmas-in-the-castle atmosphere that fills the lobby with candles, choir, and a 25-foot tree. The honeymoon caveats are real: at 757 rooms this is by far the largest hotel in the Canadian Rockies, and the lobby/restaurant scene during conference periods can feel busy. Book the Signature Mountain View rooms (with private balconies facing Mt Rundle) rather than the standard interior options — the difference in honeymoon experience is enormous. The best honeymoon move is the 5–7 night stay split 3 nights here + 3 nights Lake Louise/Post Hotel: the Banff Springs gives you the castle drama and amenities, Lake Louise gives you the lake.",
     "best_room": "A Fairmont Gold Signature Mountain View room (the Fairmont Gold concierge floor, dedicated lounge, complimentary breakfast and evening canapés, balcony facing Mt Rundle) is the honeymoon move at sensible budget. For maximum splurge, the Signature Mountain View Suite, or the legendary Royal Suite in the original castle. Avoid standard Fairmont rooms without mountain view — the view is the whole point.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival and Castle dinner", "description": "Calgary Airport (YYC), 1h 30min drive west on the Trans-Canada Highway 1. Check-in to your Mountain View room, welcome cocktail. Dinner at 1888 Chop House." },
-      { "day": 2, "title": "Banff Gondola and Upper Hot Springs", "description": "Morning Banff Gondola to the top of Sulphur Mountain for the boardwalk and views. Lunch at the Sky Bistro. Late afternoon at the Banff Upper Hot Springs (5 min shuttle). Castello for dinner." },
-      { "day": 3, "title": "Lake Louise and Moraine Lake", "description": "45-min drive north to Lake Louise. Canoe rental, walk to the lakeshore. Shuttle to Moraine Lake (pre-booked Parks Canada). Lunch at the Chateau Lake Louise's Walliser Stube. Return for dinner at Waldhaus." },
-      { "day": 4, "title": "Helicopter to a glacier", "description": "Drive 1h to Canmore for the Rockies Heli base. 90-min experience to a Continental Divide glacier with Champagne picnic. Late lunch at Eden in Canmore. Spa evening." },
-      { "day": 5, "title": "Spa day and golf or hike", "description": "For golfers: round at the Stanley Thompson course. For non-golfers: hike to Sundance Canyon. Long lunch on the terrace, afternoon at the Willow Stream Spa." },
-      { "day": 6, "title": "Johnston Canyon and ice walk", "description": "Drive to Johnston Canyon for the catwalk hike to the Upper Falls (in winter, the falls are frozen and you walk on them). Lunch at Baker Creek. Return for cocktails in the Rundle Bar." },
-      { "day": 7, "title": "Slow departure", "description": "Final breakfast in the Vermillion Room, last walk to the river confluence, 1h 30min drive back to Calgary." }
+      {
+        "day": 1,
+        "title": "Arrival and Castle dinner",
+        "description": "Calgary Airport (YYC), 1h 30min drive west on the Trans-Canada Highway 1. Check-in to your Mountain View room, welcome cocktail. Dinner at 1888 Chop House."
+      },
+      {
+        "day": 2,
+        "title": "Banff Gondola and Upper Hot Springs",
+        "description": "Morning Banff Gondola to the top of Sulphur Mountain for the boardwalk and views. Lunch at the Sky Bistro. Late afternoon at the Banff Upper Hot Springs (5 min shuttle). Castello for dinner."
+      },
+      {
+        "day": 3,
+        "title": "Lake Louise and Moraine Lake",
+        "description": "45-min drive north to Lake Louise. Canoe rental, walk to the lakeshore. Shuttle to Moraine Lake (pre-booked Parks Canada). Lunch at the Chateau Lake Louise's Walliser Stube. Return for dinner at Waldhaus."
+      },
+      {
+        "day": 4,
+        "title": "Helicopter to a glacier",
+        "description": "Drive 1h to Canmore for the Rockies Heli base. 90-min experience to a Continental Divide glacier with Champagne picnic. Late lunch at Eden in Canmore. Spa evening."
+      },
+      {
+        "day": 5,
+        "title": "Spa day and golf or hike",
+        "description": "For golfers: round at the Stanley Thompson course. For non-golfers: hike to Sundance Canyon. Long lunch on the terrace, afternoon at the Willow Stream Spa."
+      },
+      {
+        "day": 6,
+        "title": "Johnston Canyon and ice walk",
+        "description": "Drive to Johnston Canyon for the catwalk hike to the Upper Falls (in winter, the falls are frozen and you walk on them). Lunch at Baker Creek. Return for cocktails in the Rundle Bar."
+      },
+      {
+        "day": 7,
+        "title": "Slow departure",
+        "description": "Final breakfast in the Vermillion Room, last walk to the river confluence, 1h 30min drive back to Calgary."
+      }
     ],
     "caveats": [
       "Large hotel (757 rooms) — at peak the lobby can feel busy. Fairmont Gold floor is the honeymoon antidote.",
@@ -63,12 +119,30 @@
       "Standard interior rooms have no mountain view — pay up for Mountain View or Fairmont Gold; the view is the entire reason to be here."
     ],
     "faqs": [
-      { "question": "Good for honeymooners?", "answer": "Yes — particularly for couples who want a year-round mountain castle with full amenities. Best paired with 2–3 nights at Lake Louise/Post Hotel for variety." },
-      { "question": "Best time to visit?", "answer": "June–September for lakes/hiking; December 15–March 15 for skiing and Christmas magic. Mid-September (golden larches) is the secret window." },
-      { "question": "Book in advance?", "answer": "Signature Mountain View rooms and suites: 9–12 months ahead for July–Aug and Christmas week. Standard rooms more flexible." },
-      { "question": "Adults-only?", "answer": "No. Fairmont Gold floor is the closest you get to an adults-only feel." },
-      { "question": "Best room type?", "answer": "Fairmont Gold Signature Mountain View. For splurge, Signature Mountain View Suite or Royal Suite." },
-      { "question": "How to get there?", "answer": "Calgary International (YYC) is 1h 30min by rental car. Banff Airporter shuttle is $90 one-way. No train." }
+      {
+        "question": "Good for honeymooners?",
+        "answer": "Yes — particularly for couples who want a year-round mountain castle with full amenities. Best paired with 2–3 nights at Lake Louise/Post Hotel for variety."
+      },
+      {
+        "question": "Best time to visit?",
+        "answer": "June–September for lakes/hiking; December 15–March 15 for skiing and Christmas magic. Mid-September (golden larches) is the secret window."
+      },
+      {
+        "question": "Book in advance?",
+        "answer": "Signature Mountain View rooms and suites: 9–12 months ahead for July–Aug and Christmas week. Standard rooms more flexible."
+      },
+      {
+        "question": "Adults-only?",
+        "answer": "No. Fairmont Gold floor is the closest you get to an adults-only feel."
+      },
+      {
+        "question": "Best room type?",
+        "answer": "Fairmont Gold Signature Mountain View. For splurge, Signature Mountain View Suite or Royal Suite."
+      },
+      {
+        "question": "How to get there?",
+        "answer": "Calgary International (YYC) is 1h 30min by rental car. Banff Airporter shuttle is $90 one-way. No train."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — Fairmont Banff Springs\n\nDear Fairmont Banff Springs reservations,\n\nWe'd like to stay 4 to 6 nights for our honeymoon [DATES] in a Fairmont Gold Signature Mountain View room. Could you confirm rates and any honeymoon package?\n\nQuestions:\n1. Honeymoon arrival turndown (champagne, in-suite dinner)?\n2. 1888 Chop House reservation first night?\n3. Willow Stream Spa couples treatment?\n4. Banff Airporter or private transfer from YYC?\n\nThank you,\n[Your names]"
   },

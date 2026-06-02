@@ -1,0 +1,79 @@
+{
+  "tagline": "700 îles de sable rose, cochons nageurs et eau turquoise à 30 minutes de Miami",
+  "intro": "Les Bahamas sont cette rare destination de lune de miel où vous pouvez siroter un Sky Juice sur une plage de sable rose trois heures après avoir quitté JFK. L’archipel s’étend sur 260 000 km² de l’Atlantique — 700 îles, 2 400 cayes, dont seulement 16 sont habitées — ce qui creuse un fossé immense entre le bouillonnement casino de Nassau et les croissants blancs déserts d’Eleuthera ou des Exumas, bien qu’ils partagent un drapeau et une monnaie. La plupart des couples ne s’aventurent jamais au-delà de Paradise Island, et c’est une occasion manquée : les Out Islands sont là où le pays se révèle. Les trois miles de Pink Sands Beach à Harbour Island brillent véritablement rose au lever du soleil, fruit de coquilles de foraminifères broyées mélangées à du corail blanc. Eleuthera fait 180 km de long et à peine 3 km de large, l’Atlantique fracassant une rive et la mer des Caraïbes léchant l’autre — le Glass Window Bridge permet de voir les deux d’un coup d’œil. Les Exumas, c’est la carte postale : 365 cayes éparpillées sur des hauts-fonds d’une clarté impossible, abritant les célèbres cochons nageurs de Big Major Cay, le réseau de grottes sous-marines Thunderball Grotto (où Bond a été tourné) et des îles couvertes d’iguanes que vous pouvez avoir entièrement pour vous. Andros, la plus grande et la moins visitée, est un lieu de pèlerinage pour le bonefishing, criblée de trous bleus. Au-delà des plages, la culture est typiquement bahamienne : les parades Junkanoo explosent dans les rues à Boxing Day et au Nouvel An, le conch est l’obsession nationale (beignets, salade, attendri, en chaudrée) et la musique rake-and-scrape a un rythme qu’on n’entend nulle part ailleurs.",
+  "bestTime": "Mi-nov. à mi-avr. — saison sèche, 24-28 °C, sans risque cyclonique",
+  "flightFrom": "3 h NYC, 1 h Miami, 8 h 30 Londres — Nassau (NAS) ou aéroports des Out Islands",
+  "topExperience": "Affrétez un bateau depuis Staniel Cay pour les cochons nageurs + Thunderball Grotto + requins-nourrices à Compass Cay",
+  "perfectFor": [
+    "Couples qui veulent une lune de miel tropicale sans 10 heures de vol",
+    "Maximalistes de la plage en quête du sable et de l’eau les plus photogéniques du monde",
+    "Passionnés de bateau et de snorkeling cherchant un accès à l’island-hopping",
+    "Couples partageant leur séjour entre Nassau animée et une Out Island tranquille",
+    "Foodies amateurs de fruits de mer — conch, langouste, mérou et cocktails au rhum"
+  ],
+  "skipIf": [
+    "Vous voulez forêt tropicale, montagnes ou diversité paysagère spectaculaire",
+    "Vous cherchez une immersion culturelle profonde ou des ruines antiques",
+    "Vous voulez une destination mono-île avec tout accessible à pied",
+    "Vous réservez en juin-novembre et craignez les ouragans"
+  ],
+  "experiences": [
+    { "title": "Nager avec les cochons des Exumas", "description": "Les célèbres cochons nageurs sauvages de Big Major Cay nagent à la rencontre des bateaux dans une eau turquoise à hauteur de taille. À faire tôt le matin avant l’armada des excursions de Nassau.", "cost": "400-700 $/couple à la journée depuis Staniel Cay ; 1 200+ $ depuis Nassau", "tip": "Logez au Staniel Cay Yacht Club pour partir à 7 h et avoir les cochons rien qu’à vous." },
+    { "title": "Marchez sur Pink Sands Beach au lever du soleil", "description": "La plage de 5 km de Harbour Island se teinte de rose doré aux premières lueurs, lorsque le soleil bas frappe le sable rose coquillage. Parcourez-la pieds nus dans toute sa longueur — la plage la plus photographiée des Caraïbes, à raison.", "cost": "Gratuit ; plage en accès public", "tip": "Logez côté plage (Pink Sands Resort ou The Dunmore) pour sortir par la grille à 6 h 30." },
+    { "title": "Snorkeling à Thunderball Grotto", "description": "Un réseau naturel de grottes sous-marines aux Exumas, éclairé par les trous du plafond calcaire. Apparu dans Thunderball et Jamais plus jamais. Des bancs de sergents-majors tournoient dans les rais de lumière.", "cost": "Inclus dans la plupart des charters des Exumas ; 40-60 $ en indépendant", "tip": "Programmez votre visite à l’étale — les courants déchirent à marée haute et basse. Apportez une lampe sous-marine." },
+    { "title": "Traversez le Glass Window Bridge", "description": "Une étroite bande d’Eleuthera où l’Atlantique bleu marine rencontre les Caraïbes turquoise pâle — séparées par à peine 10 m de route. Le contraste est véritablement surréaliste en vrai.", "cost": "Gratuit ; voiture de location nécessaire (~75 $/jour)", "tip": "Descendez 10 minutes au sud jusqu’aux bassins de marée de Queen’s Bath — jacuzzis naturels dans le calcaire, parfaits à marée basse." },
+    { "title": "Pêchez le bonefish sur les flats d’Andros", "description": "Andros est la capitale mondiale du bonefishing — flats peu profonds à perte de vue, guides de classe mondiale et « fantômes des flats » qui arrachent 90 m de fil en quelques secondes.", "cost": "650-900 $/jour pour un skiff guidé avec deux pêcheurs", "tip": "Réservez via Tiamo ou un lodge dédié — les guides font la différence entre 20 poissons et zéro." }
+  ],
+  "months": [
+    { "weather": "22-25 °C, sec, venteux", "crowds": "Maximale", "price": "Maximum", "verdict": "Frais mais fiable ; emportez une couche pour les soirées" },
+    { "weather": "23-26 °C, sec", "crowds": "Maximale", "price": "Maximum", "verdict": "Surcoûts Saint-Valentin — réservez 6 mois et plus à l’avance" },
+    { "weather": "24-27 °C, sec", "crowds": "Très animée", "price": "Maximum", "verdict": "Foules de spring break à Nassau ; les Out Islands restent calmes" },
+    { "weather": "24-28 °C, sec, qui se réchauffe", "crowds": "Animée", "price": "Élevé", "verdict": "Sweet spot — eau tiède, baisse post-Pâques des tarifs" },
+    { "weather": "26-29 °C, averses occasionnelles", "crowds": "Modérée", "price": "Élevé", "verdict": "Meilleur rapport qualité-prix de l’année ; eau à température de bain" },
+    { "weather": "27-30 °C, humide, brèves averses", "crowds": "Modérée", "price": "Moyen", "verdict": "La saison cyclonique débute mais le risque est faible ; belles affaires" },
+    { "weather": "28-31 °C, humide", "crowds": "Modérée", "price": "Moyen", "verdict": "Chaud et collant mais les tempêtes restent rares" },
+    { "weather": "28-32 °C, humide, tempêtes possibles", "crowds": "Modérée", "price": "Moyen", "verdict": "Le pic du risque cyclonique débute ; réservez en remboursable" },
+    { "weather": "27-31 °C, orageux", "crowds": "Calme", "price": "Minimum", "verdict": "À éviter — pic cyclonique, nombreux resorts fermés" },
+    { "weather": "26-29 °C, amélioration en fin de mois", "crowds": "Calme", "price": "Moyen", "verdict": "Encore risqué en début de mois ; la seconde moitié se stabilise" },
+    { "weather": "24-28 °C, retour du sec", "crowds": "En hausse", "price": "Élevé", "verdict": "Excellent après le 15 — début de saison sèche, tarifs raisonnables" },
+    { "weather": "23-26 °C, sec", "crowds": "Maximale", "price": "Maximum", "verdict": "Le Junkanoo à Boxing Day est incontournable ; tarifs de fêtes" }
+  ],
+  "budgetTiers": [
+    { "label": "Confort", "daily": "450-700 $/nuit", "includes": "Boutique 4 étoiles à Eleuthera ou Harbour Island, petit-déjeuner, accès plage. Évitez Nassau à ce niveau. The Dunmore à Harbour Island — charme de cottage colonial à deux pas de Pink Sands Beach." },
+    { "label": "Luxe", "daily": "900-1 800 $/nuit", "includes": "Resorts haut de gamme à Paradise Island ou Eleuthera, suites vue mer, plusieurs restaurants, spa complet. Rosewood Baha Mar (Nassau) ou The Cove Eleuthera." },
+    { "label": "Ultra-luxe", "daily": "2 500-8 000 $/nuit", "includes": "Île privée ou resort tout-villas, service de majordome, bateaux privés, repas et boissons tout compris. Kamalame Cay (île privée au large d’Andros) ou Tiamo Resort (éco-luxe off-grid à Andros)." }
+  ],
+  "areas": [
+    { "name": "Nassau et Paradise Island", "description": "La capitale et son île jumelle accueillent les plus grands resorts du pays — Atlantis, Baha Mar, Ocean Club. Vols directs depuis une douzaine de villes américaines." },
+    { "name": "Harbour Island", "description": "Une bande de sable rose de 5,5 km au large du nord d’Eleuthera. Voiturettes de golf uniquement, pas de grands resorts, énergie shoot de mode." },
+    { "name": "Eleuthera", "description": "180 km de long, à peine peuplée, avec le Glass Window Bridge, Lighthouse Beach, French Leave Beach." },
+    { "name": "Les Exumas", "description": "365 cayes aux eaux d’une clarté impossible. Basez-vous à Staniel Cay ou Great Exuma ; la magie se trouve sur l’eau." },
+    { "name": "Andros", "description": "La plus grande île bahamienne, presque entièrement vierge, troisième plus longue barrière de corail au monde au large." }
+  ],
+  "expertTips": [
+    { "title": "Réservez les vols vers les Out Islands avec le resort, pas séparément", "body": "Les vols intérieurs aux Bahamas sont un cirque de petites compagnies, limites de poids et annulations. La plupart des resorts des Out Islands gèrent toute la chaîne — payez le supplément." },
+    { "title": "Évitez le food court de l’aéroport de Nassau", "body": "Lynden Pindling est notoirement lent et mal achalandé. Si vous avez une correspondance vers une Out Island, mangez avant d’arriver." },
+    { "title": "Le Junkanoo, c’est Boxing Day et le Nouvel An, pas Noël", "body": "Pour voir les parades, visez le 26 décembre ou le 1er janvier à Nassau. Bay Street, gobelets de Goombay Punch, costumes confectionnés pendant des mois." },
+    { "title": "L’excursion d’une journée aux Exumas depuis Nassau est épuisante", "body": "Les opérateurs vendent des combos de 12 heures : 1 h 30 de bateau dans chaque sens, trois arrêts insulaires, retour à 19 h éreintés. Dormez aux Exumas au moins une nuit." },
+    { "title": "Le pourboire est attendu et souvent non inclus", "body": "Contrairement à certaines destinations caribéennes, le service n’est pas toujours intégré aux tarifs. Comptez 15-20 % en restauration, 5-10 $/bagage pour les portiers." }
+  ],
+  "packing": [
+    { "item": "Crème solaire reef-safe (minérale, sans oxybenzone)", "why": "Exigée par la loi dans certains parcs marins ; le soleil réfléchi par le sable blanc vous brûle deux fois." },
+    { "item": "Caméra sous-marine ou GoPro", "why": "Cochons, grottes, requins à Compass Cay — les Bahamas, c’est une destination de photo sous-marine." },
+    { "item": "Couche légère pour les soirées", "why": "Les nuits de décembre à mars descendent à 18 °C et la climatisation des restaurants est brutale." },
+    { "item": "Matériel de snorkeling si vous en avez", "why": "Les locations en resort sont médiocres ; l’ajustement du masque compte et les chaussures de récif aident sur les entrées rocheuses." },
+    { "item": "Espèces en petites coupures USD", "why": "Pourboires, taxis et boutiques des Out Islands fonctionnent souvent au cash ; ATM peu fiables hors de Nassau." },
+    { "item": "Dramamine ou bracelets anti-nausée", "why": "Même par temps calme, les sorties bateau aux Exumas peuvent secouer ; le canal entre New Providence et les Out Islands se hache." }
+  ],
+  "guide": {
+    "getting": "Volez à Nassau (NAS) depuis la plupart des hubs de la côte est américaine en moins de 3 heures ; vols directs aussi depuis Toronto, Londres (BA saisonnier) et Atlanta. Pour les Out Islands, correspondance vers North Eleuthera (ELH), Staniel Cay (TYM), Great Exuma (GGT) ou Andros sur Bahamasair, Western Air ou en charter. De nombreux resorts luxe organisent des charters privés directs depuis la Floride en contournant Nassau — 400-800 $/personne, ça en vaut la peine.",
+    "where": "Pour une lune de miel de 7 nuits, partagez entre deux îles : 3 nuits à Nassau ou Paradise Island, puis 4 nuits à Harbour Island, Eleuthera ou aux Exumas. Les couples qui veulent du calme pur devraient sauter Nassau. Andros et les Exumas conviennent aux couples bateau-pêche ; Eleuthera et Harbour Island gagnent côté plage-boutique.",
+    "when": "De mi-novembre à avril, c’est la fenêtre sèche, chaude et sans ouragan. Mai et début juin offrent un excellent rapport qualité-prix avec une eau à température de bain. Évitez août-octobre. Noël/Nouvel An se réservent 9 mois et plus à l’avance."
+  },
+  "localFood": "Le conch est l’obsession bahamienne — consommé en beignets, en « salade » crue zestée avec citron vert et bird pepper, attendri (martelé et frit) ou en chaudrée. Mérou grillé, langouste (en saison août-mars) et peas-and-rice sont des piliers. Ne manquez pas le rum cake, le guava duff en dessert, et les cocktails locaux : Sky Juice (gin, eau de coco, lait sucré) et Goombay Punch.",
+  "language": "Anglais",
+  "seo": {
+    "title": "Lune de miel aux Bahamas : 11 resorts îles privées 2026",
+    "description": "11 resorts des Out Islands et des Exumas classés. Kamalame Cay, The Cove, Fowl Cay. À partir de 500 $/nuit. Pic nov.-avr."
+  }
+}

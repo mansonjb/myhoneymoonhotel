@@ -1,0 +1,78 @@
+{
+  "tagline": "Le secret le mieux gardé de la péninsule arabique — déserts, fjords et routes de l’encens vieilles de 5 000 ans.",
+  "intro": "Oman est devenu en silence la destination moyen-orientale la plus convaincante. Pendant que Dubaï court après les gratte-ciel, Oman garde son âme ancienne : les wadis ocre du Jabal Akhdar à 2 000 m, les khors fjordiens du Musandam où les dauphins l’emportent en nombre sur les bateaux, les bosquets d’encens de Salalah qui parfument le monde depuis 3 000 ans avant J.-C., et un littoral qui rivalise avec l’océan Indien sans aucune foule. Ajoutez un casting de resorts authentiquement de classe mondiale — Six Senses Zighy Bay, Alila Jabal Akhdar, The Chedi Muscat — et vous tenez une destination qui offre désert, montagne et mer en un seul voyage, sans jamais compromettre le luxe.",
+  "bestTime": "Oct-avr",
+  "flightFrom": "6-7 h depuis l’Europe",
+  "topExperience": "Romance désert et mer",
+  "perfectFor": [
+    "Les couples qui veulent le Moyen-Orient sans le strass de Dubaï — luxe sobre et digne",
+    "Ceux qui rêvent de combiner désert, montagne et mer en une seule lune de miel",
+    "Les jeunes mariés sportifs — bains de wadi, dunes en 4×4, arrivée en parapente",
+    "Les amateurs d’histoire — routes de l’encens millénaires, fort de Nizwa, Bahla UNESCO",
+    "Les photographes — les canyons du Jabal Akhdar et le Wahiba Sands sont irréels"
+  ],
+  "skipIf": [
+    "Vous avez besoin d’une vie nocturne déchaînée — Oman est fièrement calme et conservateur",
+    "Vous voulez le spectacle dubaïote et le shopping à chaque coin de rue",
+    "Vous comptez voyager de mai à septembre — les températures à l’intérieur dépassent 45 °C",
+    "Vous voulez du adults-only par défaut — la plupart des resorts omanais sont family-friendly"
+  ],
+  "experiences": [
+    { "title": "Arrivée en parapente au Six Senses Zighy Bay", "description": "L’arrivée d’hôtel la plus théâtrale du monde : parapente biplace depuis la crête de 293 m au-dessus du Musandam, atterrissage sur la plage privée de votre pool villa. Trois minutes de vol, un souvenir à vie.", "cost": "300-400 $ par personne (organisé par l’hôtel)", "tip": "Réservez le créneau du lever du soleil — les vents sont les plus purs et vous atterrissez à temps pour le petit déjeuner en deck." },
+    { "title": "Récolte des roses du Jabal Akhdar", "description": "Chaque avril, les villages en terrasses à 2 000 m se couvrent de roses de Damas qui servent à distiller l’eau de rose omanaise. Marche dans les terrasses à l’aube avec un guide villageois ; le parfum au lever du soleil est inoubliable.", "cost": "Marche libre gratuite ; visite guidée 60-120 $", "tip": "Séjournez à Alila Jabal Akhdar ou Anantara — tous deux organisent des pique-niques privés au bord du canyon pendant la récolte." },
+    { "title": "Croisière en dhow au Musandam", "description": "La péninsule nord du Musandam est la « Norvège d’Arabie » — falaises vertigineuses plongeant dans des khors turquoise. Affrétez un dhow traditionnel pour la journée : snorkeling avec les dauphins, baignades dans des criques cachées, hammour grillé sur le pont.", "cost": "180-350 $ par couple pour une charter privée à la journée", "tip": "Quittez le port de Khasab à 8 h pour croiser les pods de dauphins en alimentation dans le Khor Sham." },
+    { "title": "Nuit dans le Wahiba Sands", "description": "Dunes orange à perte de vue, camp de style bédouin sous 5 000 étoiles, balades à dos de chameau au coucher du soleil et virées 4×4 dans les dunes à l’aube. L’expérience arabique archétypale — à trois heures de Mascate.", "cost": "Camp à partir de 300 $/nuit ; pack depuis Mascate 450-700 $", "tip": "Dormez en tente deluxe au Desert Nights Camp. N’optez pas pour les tentes « budget » — trop proches de la route et bruyantes." },
+    { "title": "Grande Mosquée Sultan Qaboos, Mascate", "description": "L’un des plus beaux édifices religieux au monde. La salle de prière principale abrite un tapis persan de 21 tonnes et un lustre Swarovski de plus de 14 m de large. Ouverte aux non-musulmans du samedi au jeudi matin.", "cost": "Gratuit", "tip": "Arrivez à 8 h pour la lumière idéale dans les vitraux. Le code vestimentaire est strict — foulard et manches longues pour les femmes." }
+  ],
+  "months": [
+    { "weather": "Jours chauds, nuits fraîches, parfait", "crowds": "Élevée", "price": "Élevé", "verdict": "Pic — réservez tôt" },
+    { "weather": "Chaud et sec, idéal partout", "crowds": "Élevée", "price": "Élevé", "verdict": "Meilleur mois intérieur + côte" },
+    { "weather": "Réchauffement, encore confortable", "crowds": "Élevée", "price": "Élevé", "verdict": "Excellent, début de saison des requins-baleines" },
+    { "weather": "Côte chaude, températures montagne parfaites", "crowds": "Modérée", "price": "Moyen", "verdict": "Récolte des roses au Jabal Akhdar — magique" },
+    { "weather": "Très chaud sur la côte, montagne ok", "crowds": "Faible", "price": "Bas", "verdict": "Évitez l’intérieur ; montagnes uniquement" },
+    { "weather": "Chaleur extrême 45 °C+ à l’intérieur", "crowds": "Faible", "price": "Bas", "verdict": "À éviter sauf Salalah" },
+    { "weather": "Mousson khareef à Salalah, sud verdoyant", "crowds": "Modérée", "price": "Moyen", "verdict": "Salalah se transforme — oasis tropicale" },
+    { "weather": "Khareef poursuit à Salalah", "crowds": "Élevée", "price": "Élevé", "verdict": "Pic de Salalah — réservez 6 mois à l’avance" },
+    { "weather": "Fin du khareef, chaud ailleurs", "crowds": "Modérée", "price": "Moyen", "verdict": "Dernier khareef ; côte encore chaude" },
+    { "weather": "Refroidissement, début de demi-saison", "crowds": "Modérée", "price": "Moyen", "verdict": "Excellent rapport, météo qui se perfectionne" },
+    { "weather": "Journées chaudes sèches, nuits fraîches", "crowds": "Élevée", "price": "Élevé", "verdict": "Demi-saison premium — idéale" },
+    { "weather": "Parfait, journées courtes", "crowds": "Maximale", "price": "Le plus élevé", "verdict": "Surcoût fêtes mais météo impeccable" }
+  ],
+  "budgetTiers": [
+    { "label": "Mi-gamme ville et plage", "daily": "250-500 $/nuit", "includes": "Bon 4-5 étoiles à Mascate ou sur la plage de Salalah. Confortable, pas design-led. Exemples : Crowne Plaza Muscat, Hilton Salalah, Kempinski Muscat." },
+    { "label": "Premium luxe", "daily": "500-1 200 $/nuit", "includes": "Resort emblématique avec spa, plusieurs restaurants, plage privée ou vue canyon. Le sweet spot. Exemples : The Chedi Muscat, Al Bustan Palace Ritz-Carlton, Anantara Al Jabal Al Akhdar." },
+    { "label": "Ultra-luxe et iconique", "daily": "1 200-4 000 $/nuit", "includes": "Villa indépendante avec piscine privée, majordome, arrivée en parapente, suite en bord de canyon, ou le resort le plus haut perché du Moyen-Orient. Exemples : Six Senses Zighy Bay, Alila Jabal Akhdar, Shangri-La Al Husn adults-only." }
+  ],
+  "areas": [
+    { "name": "Mascate", "description": "Base d’arrivée, culture, ville-plage. La capitale — architecture basse blanchie à la chaux, Grande Mosquée, souk de Mutrah et chapelet de 5 étoiles côtiers. Deux à trois nuits pour décompresser et visiter la ville." },
+    { "name": "Jabal Akhdar (Montagne verte)", "description": "Canyons spectaculaires, air frais de montagne, récolte des roses. Plateau à 2 000 m, à 2 h 30 de Mascate. Températures 15 °C plus fraîches qu’à la côte. Alila et Anantara y siègent — deux des meilleurs resorts de montagne au monde." },
+    { "name": "Péninsule du Musandam", "description": "Décor de fjord, dauphins, luxe reculé. Exclave nord d’Oman, bordée par les Émirats. Accès par vol Mascate-Khasab (2 h) ou par la route depuis Dubaï (4 h). Six Senses Zighy Bay est la propriété mythique." },
+    { "name": "Wahiba Sands", "description": "Une nuit dans le désert. À trois heures au sud de Mascate. Mer de dunes dorées classique avec camps en tentes bédouines. Couplez avec le fort de Nizwa à l’aller, Wadi Bani Khalid au retour." },
+    { "name": "Salalah", "description": "Évasion sud à la mousson, histoire de l’encens. À 1 h 30 de vol au sud. Plages tropicales, plantations de bananiers et la plus ancienne route mondiale de l’encens (ruines UNESCO d’Al Baleed). La mousson khareef (juil-sep) transforme le paysage en émeraude." }
+  ],
+  "expertTips": [
+    { "title": "Combinez côte + montagne en un seul voyage", "body": "Trois nuits à Mascate + trois nuits au Jabal Akhdar : le tempo idéal pour une semaine. Le trajet de 2 h 30 entre les deux est scénique (via le fort de Nizwa). Ne consacrez pas toute la semaine à la plage — la montagne est la raison d’être du voyage." },
+    { "title": "Louez un 4×4 pour l’intérieur", "body": "Un Toyota Prado ou Land Cruiser est indispensable au Jabal Akhdar (la route finale exige du 4×4) et dans le Wahiba Sands (pistes désertiques). Comptez 80-130 $/jour. Permis international requis." },
+    { "title": "Le code vestimentaire est sincèrement conservateur", "body": "Hors piscine de resort, épaules et genoux doivent être couverts pour hommes et femmes. Particulièrement respecté au souk de Mutrah, à la Grande Mosquée et à Nizwa. Les resorts eux-mêmes sont décontractés." },
+    { "title": "L’alcool est limité mais disponible dans les resorts", "body": "Tous les 5 étoiles internationaux servent de l’alcool. Pas en supermarché. Franchise duty-free de 2 litres par visiteur non musulman à l’arrivée — profitez-en pour le vin en villa." },
+    { "title": "Obtenez l’e-visa omanais avant l’embarquement", "body": "La plupart des nationalités ont besoin d’un e-visa via evisa.rop.gov.om. Délai 24-72 h. N’arrivez pas sans — la délivrance à l’arrivée n’est plus universelle." }
+  ],
+  "packing": [
+    { "item": "Chemises légères à manches longues", "why": "Protection solaire sur la côte, modestie en ville et dans les mosquées. Le lin est l’uniforme universel d’Oman." },
+    { "item": "Foulard (pour les femmes)", "why": "Requis pour les mosquées, apprécié dans les souks traditionnels et les villages." },
+    { "item": "Chaussures de randonnée fermées", "why": "Les wadis (Wadi Shab, Wadi Bani Khalid) ont des rochers glissants. Les sandales ne suffisent pas." },
+    { "item": "Couche chaude", "why": "Les soirées au Jabal Akhdar tombent à 10 °C même en été. Les nuits du Wahiba peuvent atteindre 5 °C en hiver." },
+    { "item": "Crème solaire reef-safe", "why": "L’indice UV est extrême. Le reef-safe protège les sites de snorkeling du Musandam et des îles Daymaniyat." }
+  ],
+  "guide": {
+    "getting": "Vol pour Mascate (MCT) sur Oman Air (direct depuis Londres 7 h, Paris 7 h, Francfort 6 h 30, Zurich 7 h), ou correspondance via Dubaï (saut de 45 min sur Emirates/flydubai) ou Doha (Qatar Airways). Depuis l’Amérique du Nord : correspondances via Francfort, Doha ou Dubaï ; 14-17 h depuis la côte Est. Oman Air opère un direct de 8 h depuis Bangkok. L’aéroport de Mascate est à 30 minutes des principaux hôtels ; taxi 20-30 $.",
+    "where": "Itinéraire classique d’une semaine : 3 nuits à Mascate (The Chedi, Al Bustan ou Al Husn) → 3 nuits au Jabal Akhdar (Alila ou Anantara) → 1 nuit facultative en camp dans le Wahiba Sands. Pour 10 jours, ajoutez le Musandam via Six Senses Zighy Bay. De décembre à mars, envisagez de basculer la partie montagne sur Salalah si vous préférez plage.",
+    "when": "Octobre-avril est la seule fenêtre raisonnable — 22-30 °C sur la côte, 15-25 °C au Jabal Akhdar, 25-35 °C dans le désert. Pic de mi-novembre à mi-mars. Évitez mai-septembre, sauf à viser Salalah pour le khareef (juil-sep), une expérience spectaculaire en soi."
+  },
+  "localFood": "Shuwa — agneau mariné 24 h dans les épices omanaises puis cuit sous terre pendant 24 h (traditionnellement à l’Aïd, mais les bons hôtels l’ont à la carte) ; majboos (riz épicé à la viande) ; hammour grillé de la mer d’Arabie ; chameau dans un camp bédouin (plus gibier que le bœuf, plus riche que l’agneau) ; halwa à la semoule parfumée à l’eau de rose et au safran ; dattes de Nizwa (essayez la variété khalas) ; café omanais (kahwa) servi avec des dattes, un rituel d’hospitalité quotidien.",
+  "language": "L’arabe est officiel ; l’anglais est largement parlé dans les hôtels, restaurants et sites touristiques.",
+  "seo": {
+    "title": "Lune de Miel à Oman 2026 : 9 Resorts Désert & Côte",
+    "description": "9 resorts Mascate, Musandam, Quartier vide classés. Six Senses Zighy Bay, Anantara Al Jabal. À partir de 400 $/nuit. Oct-mars."
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "tagline": "La Grande Migration, safaris Big Five et certains des camps tentés les plus romantiques au monde.",
+  "intro": "Le Kenya est le pays où le safari de luxe moderne a été inventé — et où il continue d’être perfectionné. Les plaines infinies du Maasai Mara accueillent le plus grand spectacle animalier de la planète — 1,5 million de gnous traversant la rivière Mara chaque année — tandis que les conservatoires privés autour de Laikipia offrent des rencontres intimes et exclusives avec éléphants, lions et rhinocéros, sans aucun autre véhicule en vue. Logez dans un camp tenté dont les parois en toile laissent entrer le rugissement des lions à 3 h du matin, regardez le soleil se lever sur l’escarpement avec un café chaud, et asseyez-vous autour du feu sous le ciel le plus dense d’étoiles que vous ayez jamais vu. C’est l’aventure, la romance et le sauvage à parts égales.",
+  "bestTime": "Juil.-oct. et janv.-fév.",
+  "flightFrom": "8-10 h depuis l’Europe",
+  "topExperience": "Safari de luxe",
+  "perfectFor": [
+    "Obsédés de faune sauvage — le Maasai Mara est la meilleure destination Big Five au monde",
+    "Couples qui veulent un luxe intime : dîners de brousse aux chandelles, game drives privés à l’aube",
+    "Lunes de miel d’aventure prêts à troquer la plage contre quelque chose d’extraordinaire",
+    "Photographes — la lumière sur les plaines du Mara à l’heure dorée n’a pas d’équivalent",
+    "Ceux qui veulent combiner safari et Zanzibar ou Diani Beach pour la lune de miel ultime en Afrique"
+  ],
+  "skipIf": [
+    "La plage est non négociable — le Kenya est un pays de safari intérieur (même si la côte existe)",
+    "Budget sous 500 $/nuit — les camps tentés de luxe sont véritablement chers, et le justifient",
+    "Vous préférez l’exploration urbaine, le shopping et la variété de restaurants à la nature sauvage",
+    "Poussière, insectes et réveils avant l’aube ne sont pas votre idée d’une lune de miel"
+  ],
+  "experiences": [
+    { "title": "Game drive privé à l’aube, Maasai Mara", "description": "Quittez le camp aux premières lueurs avec votre propre guide et véhicule — pas de jeep partagée, pas de foule. Observez les lionceaux jouer dans la lumière dorée, les éléphants au point d’eau et le guépard à la chasse. Les conservatoires privés hors de la réserve principale autorisent la conduite hors-piste.", "cost": "Inclus dans la plupart des camps de luxe", "tip": "Préférez un camp en conservatoire privé plutôt que dans la réserve — vous obtenez l’accès hors-piste, les drives nocturnes et les safaris à pied interdits dans la réserve nationale." },
+    { "title": "Vol en montgolfière au-dessus du Mara", "description": "Une heure flottant au-dessus de la savane au lever du soleil, tandis que les troupeaux de gnous se déplacent en silence en dessous. Petit-déjeuner au champagne sur les plaines après l’atterrissage. L’une des expériences africaines par excellence — l’échelle de la migration vue d’en haut est incompréhensible.", "cost": "450-650 $ par personne", "tip": "Réservez directement chez Governors’ Balloon Safaris ou Kichwa Tembo Balloon Safaris — ils ont la meilleure réputation de sécurité et les pilotes les plus expérimentés." },
+    { "title": "Marche en brousse avec un guide maasaï", "description": "Une marche de 2-3 h avec un guerrier maasaï qui lit le paysage — pistage des animaux, identification des plantes, récit de la manière dont son peuple vit aux côtés des lions depuis des siècles. Le Kenya au ras du sol est complètement différent depuis un véhicule.", "cost": "80-150 $ par couple", "tip": "Demandez un jeune guide maasaï parlant aussi un bon anglais — la combinaison de savoir traditionnel et de communication moderne donne lieu à des conversations extraordinaires." },
+    { "title": "Amboseli au lever du soleil avec le Kilimandjaro", "description": "L’image qui définit le Kenya : une centaine d’éléphants paissant devant la masse blanche du Kilimandjaro à l’aube. Le parc national d’Amboseli concentre la plus grande densité d’éléphants d’Afrique de l’Est, et la montagne est visible par matin clair d’octobre à mars.", "cost": "Inclus dans les tarifs des camps — vol depuis Nairobi Wilson (80-150 $)", "tip": "Logez au Tortilis Camp ou au Tawi Lodge — tous deux offrent des vues extraordinaires sur le Kilimandjaro. Réservez d’octobre à février pour la meilleure visibilité de la montagne." },
+    { "title": "Sundowner sur l’escarpement", "description": "À 18 h, votre guide vous conduit à l’escarpement d’Oloololo — le bord de la vallée du Rift — et débouche le champagne tandis que le soleil disparaît à l’horizon. En dessous, 50 km de plaines du Mara prennent une lueur ambrée. Les hippopotames grognent depuis la rivière. Ce moment-là, c’est la raison pour laquelle on vient au Kenya.", "cost": "Inclus à l’Angama Mara et dans la plupart des grands camps", "tip": "Les sundowners sur la terrasse de l’Angama Mara, depuis le camp lui-même, sont tout aussi spectaculaires — demandez la table la plus proche du bord vitré." }
+  ],
+  "months": [
+    { "weather": "Sec et chaud, excellent", "crowds": "Élevée", "price": "Élevé", "verdict": "Qualité au sommet, très bon" },
+    { "weather": "Sec, chaud, faune superbe", "crowds": "Modérée", "price": "Moyen-élevé", "verdict": "Meilleur rapport qualité-prix en haute saison" },
+    { "weather": "Approche des longues pluies", "crowds": "Faible", "price": "Moyen", "verdict": "Bonnes affaires, léger risque" },
+    { "weather": "Longues pluies, fortes", "crowds": "Très faible", "price": "Le plus bas", "verdict": "À éviter — la plupart des camps ferment" },
+    { "weather": "Encore pluvieux, luxuriant et vert", "crowds": "Très faible", "price": "Très bas", "verdict": "De nombreux camps fermés" },
+    { "weather": "Assèchement, arrivée de la migration", "crowds": "Modérée", "price": "Moyen", "verdict": "La migration s’installe — bon rapport" },
+    { "weather": "Sec, pic de la Grande Migration", "crowds": "Sommet", "price": "Maximal", "verdict": "Le plus grand spectacle de la Terre" },
+    { "weather": "Sec, pic des traversées de rivière", "crowds": "Sommet", "price": "Maximal", "verdict": "Migration la plus spectaculaire" },
+    { "weather": "Sec, migration encore présente", "crowds": "Élevée", "price": "Élevé", "verdict": "Excellent, légèrement moins de monde" },
+    { "weather": "Début des petites pluies", "crowds": "Modérée", "price": "Moyen", "verdict": "Belle faune, prix plus bas" },
+    { "weather": "Petites pluies, paysage verdoyant", "crowds": "Faible", "price": "Bas-moyen", "verdict": "Mara vert magnifique, bonnes affaires" },
+    { "weather": "Retour au sec, fêtes de fin d’année", "crowds": "Élevée", "price": "Élevé", "verdict": "Excellent, réservez un an à l’avance" }
+  ],
+  "budgetTiers": [
+    { "label": "Safari intermédiaire", "daily": "350-600 $/nuit tout inclus", "includes": "Camp tenté confortable, game drives partagés, pension complète. Excellent accès à la faune — beaucoup de camps remarquables du Mara à ce niveau." },
+    { "label": "Camp tenté de luxe", "daily": "600-1 500 $/nuit tout inclus", "includes": "Suite tentée privée, salle de bains, terrasse, dîners de brousse, meilleurs guides, toutes activités incluses. La lune de miel kényane par excellence." },
+    { "label": "Conservatoire ultra-privé", "daily": "1 500-4 000 $+/nuit tout inclus", "includes": "Conservatoire privé exclusif, pas de drives partagés, safaris nocturnes, safaris à pied avec rangers armés, guides privés. Isolement absolu en brousse." }
+  ],
+  "areas": [
+    { "name": "Maasai Mara", "description": "La réserve la plus célèbre du Kenya — et la meilleure destination Big Five au monde pendant la migration de juillet à octobre. Les conservatoires privés en bordure (Olare Motorogi, Mara North, Naboisho) offrent des expériences bien plus exclusives, avec conduite hors-piste et moins de véhicules." },
+    { "name": "Amboseli", "description": "Connu pour son extraordinaire population d’éléphants (200+ individus, étudiés depuis 50 ans) et la vue iconique du Kilimandjaro derrière les troupeaux. Plus petit et plus intime que le Mara. Idéal en saison sèche, quand les éléphants se rassemblent autour des sources." },
+    { "name": "Plateau de Laikipia", "description": "Plateau privé au nord du mont Kenya, abritant certains des meilleurs conservatoires privés d’Afrique — Ol Pejeta, Lewa, Solio et Borana. Les dernières populations saines de rhinocéros noirs du Kenya y vivent. Pas de tourisme de masse — expériences véritablement exclusives et intimes, avec très peu de clients." },
+    { "name": "Samburu", "description": "Le nord aride offre des espèces qu’on ne voit pas dans le Mara : girafe réticulée, zèbre de Grévy, oryx beisa, autruche de Somalie, gérénuk. Paysage sec d’une beauté extraordinaire. À combiner avec le Mara pour le tableau complet de la faune kényane." }
+  ],
+  "expertTips": [
+    { "title": "Réservez des camps en conservatoire privé, pas dans la réserve principale", "body": "La réserve nationale du Maasai Mara est bondée — 50 véhicules autour de chaque mise à mort en haute saison. Les conservatoires privés en périphérie offrent la même faune avec une fraction des véhicules, plus les drives nocturnes et les safaris à pied. Payez la prime." },
+    { "title": "Volez entre les parcs — jamais en voiture", "body": "Les routes du Kenya sont brutales. Nairobi-Mara par la route prend 5-6 h sur du goudron déplorable. En petit avion depuis Wilson Airport : 45 minutes au-dessus de la vallée du Rift avec vues sur l’escarpement. Tous les camps de luxe incluent ou organisent les transferts en avion." },
+    { "title": "Soyez flexibles sur le timing de la migration", "body": "La Grande Migration n’est pas un événement calendaire fixe — les traversées de la Mara River peuvent intervenir entre juillet et octobre, et le moment varie chaque année. Réservez juillet-septembre pour la probabilité la plus haute. Faites confiance au renseignement en temps réel de votre camp plutôt qu’à un itinéraire figé." },
+    { "title": "Emportez une doudoune pour les matinées", "body": "Les game drives à l’aube en juin-août démarrent à 5 h 30, et les véhicules ouverts roulent vite — il fait véritablement froid sur les plaines du Mara en altitude. La plupart des clients sous-estiment et grelottent pendant leurs meilleures observations. Apportez plus de couches que vous ne pensez." },
+    { "title": "Ajoutez une extension à Zanzibar", "body": "Nairobi-Zanzibar prend 90 minutes en avion à hélices (ou 2 h via Dar es-Salaam). La combinaison 5 nuits safari au Kenya + 5 nuits plage à Zanzibar est l’un des grands itinéraires de lune de miel au monde — culture, faune et océan Indien en un seul voyage." }
+  ],
+  "packing": [
+    { "item": "Couleurs safari neutres (kaki, olive, beige)", "why": "Les couleurs sombres attirent les mouches tsé-tsé ; le blanc effraie les animaux — le code vestimentaire est pragmatique, pas esthétique" },
+    { "item": "Jumelles (10x42)", "why": "Non négociables en safari — même les meilleurs guides ne peuvent pas vous approcher suffisamment pour voir les détails sans elles" },
+    { "item": "Doudoune ou polaire", "why": "Les drives à 5 h 30 en altitude sont véritablement froids — emportez plus de chaleur que vous ne pensez en avoir besoin" },
+    { "item": "Sac photo anti-poussière", "why": "La saison sèche du Mara enrobe tout — un sac étanche protège les objectifs entre les drives" },
+    { "item": "Certificat de vaccination contre la fièvre jaune", "why": "Requis à l’entrée si vous arrivez de certains pays — vérifiez les exigences et portez la carte papier" }
+  ],
+  "guide": {
+    "getting": "Vol vers Nairobi Jomo Kenyatta International (NBO) — bien desservi depuis l’Europe avec KLM (Amsterdam, 8 h 30 direct), British Airways (Londres, 8 h 30 direct), Ethiopian Airlines (Addis-Abeba) et Kenya Airways. Depuis NBO, transfert vers Wilson Airport (30 min) pour les vols en petit avion vers les pistes de brousse. La plupart des camps de luxe vous accueillent à Wilson. Vols intérieurs plusieurs fois par jour vers tous les grands parcs (80-200 $ l’aller). N’essayez pas de conduire entre les parcs — volez.",
+    "where": "Première fois : conservatoire privé du Maasai Mara (Olare Motorogi ou Mara North) pour 4 nuits. Extension : Amboseli (2 nuits) pour les éléphants et le Kilimandjaro. Version longue : ajoutez Laikipia (2 nuits) pour le rhinocéros et l’exclusivité. Meilleurs camps : Angama Mara (les plus belles vues), Cottar’s 1920s Camp (le plus romantique), Sanctuary Olonana (au bord de la rivière). Tous en tout inclus — pas de mauvaises surprises.",
+    "when": "Juillet-octobre pour les traversées de rivière de la Grande Migration — l’expérience animalière au sommet. Janvier-février pour la clarté de la saison sèche, l’excellente activité des prédateurs et des prix plus bas qu’au pic. Mars et novembre sont des intersaisons avec une bonne faune et moins de touristes. Évitez avril-mai (longues pluies — beaucoup de camps ferment)."
+  },
+  "localFood": "Nyama choma (chèvre ou bœuf rôti) dans une boucherie-restaurant, ugali (porridge de maïs) accompagné de sukuma wiki (chou cavalier) et haricots mijotés, mandazi (beignets à la noix de coco) avec un chai au lever du soleil, café kényan AA des hauts plateaux de Nyeri, et Tusker à l’apéritif du camp. Les chefs des camps tentés de luxe produisent en brousse des dîners en plusieurs services véritablement extraordinaires.",
+  "language": "Anglais et swahili (les deux officiels)",
+  "seo": {
+    "title": "Lune de miel au Kenya : 8 camps de safari et lodges balnéaires 2026",
+    "description": "8 camps du Masai Mara et de la côte notés. Angama Mara, Giraffe Manor, Mahali Mzuri. À partir de 600 $/nuit. Migration juil.-oct."
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "tagline": "L’alternative discrète du Pacifique — le lagon d’Aitutaki, sans gratte-ciels, sans les prix de Bora Bora.",
+  "intro": "Les îles Cook sont l’alternative discrète et luxueuse du Pacifique à Bora Bora — une nation souveraine de 15 îles en libre association avec la Nouvelle-Zélande, partageant la même beauté polynésienne que la Polynésie française, mais à un tempo plus calme, moins dense et plus amical. Le lagon d’Aitutaki a été désigné à plusieurs reprises comme le plus beau du monde par Condé Nast Traveller et Travel + Leisure, plus peu profond, plus calme et plus turquoise que celui de Bora Bora. Pas de gratte-ciels dans le pays, pas de port de croisière, pas de saturation. Le pays utilise le dollar néo-zélandais, ce qui permet aux jeunes mariés en USD d’économiser 30-40 % par rapport à la Polynésie française pour un niveau de luxe équivalent. Les Cookiens sont citoyens souverains de leur propre nation auto-gouvernée depuis 1965, profondément fiers de leur culture, et possèdent et animent presque chaque resort — l’accueil polynésien est ici sincère, pas joué pour les touristes. Plus accessible depuis l’Australie et la Nouvelle-Zélande que la Polynésie française, et bien plus paisible qu’Hawaï.",
+  "bestTime": "Avril-octobre (sec, frais, sans risque cyclonique)",
+  "flightFrom": "Depuis les États-Unis : via Auckland AKL — ~14 h au total. Depuis l’Australie : 6 h direct Sydney-RAR. Depuis l’Europe : ~24 h via LAX ou AKL.",
+  "topExperience": "Journée sur le lagon d’Aitutaki",
+  "perfectFor": [
+    "Les jeunes mariés récidivistes qui ont déjà fait Bora Bora et veulent une alternative polynésienne plus calme",
+    "Les couples sur un itinéraire pacifique étendu combinant Nouvelle-Zélande et îles Cook",
+    "Les gourmets de poisson frais, d’ika mata et de cuisine polynésienne authentique",
+    "Les amateurs de snorkeling en quête du plus beau lagon du Pacifique (Aitutaki est largement classé n°1)",
+    "Les couples avec famille basée en Nouvelle-Zélande ou en Australie qui veulent une destination partagée"
+  ],
+  "skipIf": [
+    "Vous voulez vie nocturne, clubs ou scène festive de beach bar — les îles Cook sont sincèrement silencieuses",
+    "Vous êtes obsédés par les bungalows ultra-luxe sur pilotis — Bora Bora a plus d’inventaire over-water",
+    "Vous avez 5 nuits serrées — le transfert vers Aitutaki fragmente les courts séjours",
+    "Votre budget est inférieur à 500 $ la nuit — il n’y a pas de vrai inventaire milieu de gamme pour lune de miel",
+    "Vous préférez l’infrastructure de luxe européenne (fine dining italien, spas griffés)"
+  ],
+  "experiences": [
+    { "title": "Croisière sur le lagon d’Aitutaki + déjeuner à One Foot Island", "description": "Croisière catamaran à la journée avec arrêts à Maina (snorkeling avec bénitiers géants), Honeymoon Island et One Foot Island pour le célèbre tampon de passeport dans le plus petit bureau de poste du monde. Barbecue sur le sable.", "cost": "~150 $ par personne", "tip": "Passez par votre resort — Bishop’s et Wet & Wild Cruises assurent le circuit lagon quotidien." },
+    { "title": "Snorkeling à Maina et Honeymoon Island", "description": "Plongée libre dans une eau turquoise peu profonde, à l’intérieur du lagon protégé d’Aitutaki — bénitiers géants à Maina, corail en bonne santé à l’intérieur de la barrière, eau calme et plate toute l’année.", "cost": "Inclus dans la croisière lagon", "tip": "Apportez votre masque — le matériel de location aux petits motus peut être inégal." },
+    { "title": "Traversée de Rarotonga", "description": "Marche guidée de 4-5 heures par la crête du Te Rua Manga (l’Aiguille) depuis la côte nord jusqu’à la cascade de Wigmore sur la côte sud — la randonnée signature de Rarotonga à travers la forêt tropicale.", "cost": "~80 $ par personne, demi-journée guidée", "tip": "Pa’s Mountain Walks assure la sortie guidée canonique chaque jour en saison sèche." },
+    { "title": "Marché du samedi de Punanga Nui", "description": "Le meilleur marché de gastronomie et d’artisanat des îles Cook à Avarua, chaque samedi de 6 h à midi — ika mata frais, papaye, poisson, tivaevae quilts, musique locale en live.", "cost": "Entrée gratuite", "tip": "Allez-y tôt (7-8 h) pour le meilleur poisson frais ; la musique démarre vers 9 h." },
+    { "title": "Barbecue au coucher du soleil à Muri Beach", "description": "The Mooring Fish Café et Sails Restaurant, en bord direct de Muri Beach, servent les meilleurs fruits de mer décontractés au coucher du soleil à Rarotonga — sashimi de thon, ika mata, Matutu glacée.", "cost": "30-60 $ par couple", "tip": "Sails prend les réservations ; le Mooring est sur place et vaut l’attente." }
+  ],
+  "months": [
+    { "weather": "26-30 °C, humide, averses fréquentes", "crowds": "Faible", "price": "Moyenne", "verdict": "Saison humide — vert et moite" },
+    { "weather": "26-30 °C, pic du risque cyclonique", "crowds": "Faible", "price": "Basse", "verdict": "Mois le moins cher mais le plus humide — à éviter si vous êtes sensible à la météo" },
+    { "weather": "26-30 °C, humidité qui s’atténue", "crowds": "Faible", "price": "Basse", "verdict": "Fin de la saison humide — bonnes affaires, météo qui s’améliore" },
+    { "weather": "24-28 °C, transition vers le sec", "crowds": "Faible à moyenne", "price": "Moyenne", "verdict": "Moment en or — la saison sèche démarre, peu de monde" },
+    { "weather": "23-27 °C, sec, brise", "crowds": "Moyenne", "price": "Moyenne", "verdict": "Excellent — l’humidité chute, idéal pour les croisières lagon" },
+    { "weather": "21-26 °C, sec, soirées fraîches", "crowds": "Moyenne", "price": "Haute", "verdict": "Pic du sec — emportez une couche légère pour le soir" },
+    { "weather": "20-25 °C, sec, frais", "crowds": "Élevée", "price": "Haute", "verdict": "Haute saison — réservez 6 mois à l’avance" },
+    { "weather": "20-25 °C, sec, ciels les plus clairs", "crowds": "Élevée", "price": "Haute", "verdict": "Pic météo et pic d’affluence — réservez tôt" },
+    { "weather": "21-26 °C, sec, qui se réchauffe", "crowds": "Moyenne à élevée", "price": "Haute", "verdict": "Sans doute le meilleur mois — météo superbe, foule en baisse" },
+    { "weather": "23-27 °C, fin du sec", "crowds": "Moyenne", "price": "Moyenne", "verdict": "Excellente moyenne saison — dernier mois fiablement sec" },
+    { "weather": "24-29 °C, humidité en hausse", "crowds": "Faible", "price": "Moyenne", "verdict": "Transition vers la saison humide — les tarifs reculent" },
+    { "weather": "26-30 °C, festif mais humide", "crowds": "Moyenne", "price": "Haute", "verdict": "Suppléments fêtes ; averses fréquentes l’après-midi" }
+  ],
+  "budgetTiers": [
+    { "label": "Premium", "daily": "350-600 $/nuit", "includes": "Bungalow boutique adults-only en front de mer à Rarotonga, avec bain extérieur privé ; villa avec piscine sur Muri Beach. Exemple : Little Polynesian Resort (Titikaveka), Te Manava Beachfront Pool Villa (Muri Beach)" },
+    { "label": "Luxe", "daily": "600-1 100 $/nuit", "includes": "Villa avec piscine en front de mer, adults-only, ou propriété boutique de 8 villas sur l’île principale d’Aitutaki. Exemple : Sanctuary Rarotonga, Etu Moana Beach Villas (Aitutaki), Pacific Resort Aitutaki Nui" },
+    { "label": "Ultra-luxe", "daily": "1 100+ $/nuit", "includes": "Seul bungalow over-water des îles Cook, sur un motu privé dans le lagon d’Aitutaki. Exemple : Aitutaki Lagoon Private Island Resort — Premium Overwater Bungalow" }
+  ],
+  "areas": [
+    { "name": "Aitutaki", "description": "À 50 minutes de vol Air Rarotonga au nord de Rarotonga, Aitutaki est la signature visuelle des îles Cook — un lagon triangulaire désigné à plusieurs reprises comme le plus beau du monde, plus calme et plus peu profond que Bora Bora. Tous les resorts sauf un sont sur l’île principale ; les seuls bungalows over-water du pays sont sur Akitua Motu." },
+    { "name": "Rarotonga — Muri Beach", "description": "La côte sud-est de Rarotonga avec le lagon le plus peu profond, le plus calme et le plus propice au kayak de l’île principale, quatre motus au large, et les meilleurs restaurants décontractés (Mooring Fish Café, Sails). Le pied-à-terre balnéaire de prédilection sur Rarotonga." },
+    { "name": "Rarotonga — Titikaveka", "description": "La réserve marine d’Aroa s’étire le long de la côte sud à Titikaveka, le côté le plus calme de Rarotonga avec la plus forte concentration de poissons tropicaux de l’île. La cascade de Wigmore et les jardins botaniques de Maire Nui sont à proximité." },
+    { "name": "Rarotonga — Black Rock (nord-ouest)", "description": "Le piton basaltique de Black Rock (Tuoro) sur la côte nord-ouest est, dans la tradition maori des îles Cook, le point spirituel d’élan des âmes retournant à Avaiki, et la meilleure adresse de couchers de soleil de l’île, avec un récif solide juste au large." }
+  ],
+  "expertTips": [
+    { "title": "Découpez votre lune de miel en 2 nuits Rarotonga + 5 nuits Aitutaki", "body": "Le découpage canonique en 7 nuits — Rarotonga apporte la variété culturelle (marché, randonnée, restaurants) et Aitutaki livre le lagon mondialement célèbre. L’ordre inverse (Aitutaki d’abord) fonctionne aussi." },
+    { "title": "Réservez tôt les vols Air Rarotonga vers Aitutaki", "body": "Air Rarotonga utilise de petits turbopropulseurs sur la liaison Rarotonga-Aitutaki avec un nombre limité de sièges quotidiens et des limites de bagages strictes (20 kg en soute en général). Réservez au moment de la réservation, pas à l’arrivée." },
+    { "title": "Pas de DAB à Aitutaki — emportez du cash NZD depuis Rarotonga", "body": "Aitutaki dispose d’une couverture DAB extrêmement limitée. Retirez des NZD à Rarotonga avant votre vol pour les pourboires hors resort, les dépenses au marché et les petits achats de village." },
+    { "title": "La plupart des restaurants ferment à 21 h", "body": "Le rythme cookien est précoce — même à Muri Beach, les restaurants populaires arrêtent les services autour de 20 h 30-21 h. Réservez votre dîner pour 19 h-19 h 30 pour être tranquille." },
+    { "title": "Pas de visa pour les passeports américains", "body": "Les passeports américains, britanniques, européens, australiens et néo-zélandais reçoivent un permis de visiteur gratuit de 31 jours à l’arrivée. Apportez simplement un billet retour et un justificatif d’hébergement." }
+  ],
+  "packing": [
+    { "item": "Crème solaire minérale respectueuse des récifs", "why": "Les récifs des îles Cook sont fragiles et de plus en plus protégés — les écrans chimiques endommagent les coraux" },
+    { "item": "Répulsif anti-moustiques puissant", "why": "Les moustiques sont nombreux au crépuscule à Rarotonga comme à Aitutaki — essentiel, pas optionnel" },
+    { "item": "Sandales de plage (Tevas ou Chacos)", "why": "Entrées coralliennes à Black Rock, banc de sable de Maina et One Foot Island — les tongs ne suffisent pas" },
+    { "item": "Coque de pluie légère", "why": "Les averses d’alizés passent rapidement même en saison sèche ; utile sur le vol inter-îles" },
+    { "item": "Espèces en NZD", "why": "Pas de DAB à Aitutaki — retirez à Rarotonga avant votre vol domestique" },
+    { "item": "Masque de plongée", "why": "Le matériel de location aux petits motus est inégal ; emportez votre propre masque s’il vous va bien" }
+  ],
+  "guide": "Auckland (AKL) est la porte d’entrée principale — Air New Zealand opère le seul vol direct LAX-Rarotonga (RAR) (10 h, hebdomadaire). Depuis les États-Unis, la plupart des couples passent par LAX-AKL (14 h) puis AKL-RAR (4 h direct, quotidien). Sydney offre un vol direct de 6 h vers RAR. Pour rejoindre Aitutaki, correspondance depuis Rarotonga (RAR) sur le turbopropulseur Air Rarotonga de 50 minutes vers Aitutaki (AIT) — vols quotidiens, petits appareils, bagages limités. Pour le logement : la lune de miel canonique de 7 nuits se découpe entre Aitutaki et Rarotonga — Aitutaki pour la perfection du lagon (5 nuits), Rarotonga pour la variété culturelle, le marché, la traversée de l’île et le choix de restaurants (2 nuits). À Aitutaki, descendez à l’Aitutaki Lagoon Private Island Resort pour les bungalows over-water, ou à Etu Moana / Pacific Resort Aitutaki Nui pour de l’adults-only en front de mer. À Rarotonga, choisissez le Sanctuary (Black Rock), le Te Manava (Muri) ou le Little Polynesian (Titikaveka). Quand venir : d’avril à octobre, c’est la saison sèche et la fenêtre idéale pour une lune de miel. De mai à septembre, c’est le pic du sec — plus frais, moins humide, sans risque cyclonique. Évitez février-mars (pic cyclonique et mois les plus humides). Novembre est une moyenne saison de valeur avant les suppléments des fêtes de décembre.",
+  "localFood": "L’ika mata est le plat national — poisson cru frais (généralement thon ou wahoo) mariné au citron vert et au lait de coco, servi avec oignon et concombre. L’ota ika en est la variante d’Aitutaki. Le taro et le fruit à pain sont les staples polynésiens, souvent cuits lentement dans un four umu pour le festin du vendredi soir Island Night. Le sashimi de thon jaune frais est le sommet des fruits de mer décontractés — la pêche est quotidienne. Cake à la banane et papaye sont des petits-déjeuners courants. Le vin néo-zélandais est largement servi (sauvignon blanc de Marlborough en blanc par défaut) ; les bières locales sont Matutu et Cooks Lager.",
+  "language": "Anglais + maori des îles Cook",
+  "seo": {
+    "title": "Lune de miel aux îles Cook 2026 : 6 resorts d’Aitutaki et Rarotonga",
+    "description": "L’alternative discrète à Bora Bora dans le Pacifique. Lagon d’Aitutaki, resorts adults-only, prix en NZD. Verdict 2026 honnête, coût réel, itinéraire 7 nuits."
+  }
+}

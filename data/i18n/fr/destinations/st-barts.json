@@ -1,0 +1,104 @@
+{
+  "tagline": "L’île la plus en vue des Caraïbes — Chanel le matin, rosé au coucher du soleil.",
+  "intro": "Saint-Barthélemy est l’île la plus glamour des Caraïbes — une collectivité française de 21 km² où les yachts des célébrités mouillent dans le port de Gustavia, où chaque plage a son beach club de créateur, et dont la culture gastronomique rivalise avec n’importe quelle ville étoilée Michelin. C’est ici que les personnalités les plus en vue du monde viennent passer leur lune de miel. Le Cheval Blanc Isle de France — le plus bel hôtel des Caraïbes — se dresse sur la plus belle baie de l’île.",
+  "bestTime": "Déc-avr",
+  "flightFrom": "9 h depuis Paris, 4 h depuis New York (via Saint-Martin)",
+  "topExperience": "Plage et gastronomie ultra-luxe",
+  "perfectFor": [
+    "Les couples en quête de l’expérience caribéenne la plus glamour et la plus stylée",
+    "Les gourmets — la densité et la qualité des restaurants ici rivalisent avec Paris pour une île minuscule",
+    "Ceux qui veulent du luxe caribéen sans le volume touristique des plus grandes îles",
+    "Les couples qui veulent la confidentialité et le service dignes des célébrités",
+    "Quiconque pour qui le style européen et le soleil des Caraïbes forment la combinaison ultime"
+  ],
+  "skipIf": [
+    "Votre budget est inférieur à 800 $/nuit — il n’y a rien ici en deçà",
+    "Vous cherchez une destination paisible, centrée sur la culture locale",
+    "L’idée de partager les plages avec des superyachts et des célébrités vous stresse plus qu’elle ne vous amuse",
+    "Vous voyagez entre juin et novembre (saison des ouragans)",
+    "Vous voulez des activités de plein air variées au-delà de la plage et de l’eau — Saint-Barth est petite et très ciblée"
+  ],
+  "experiences": [
+    {
+      "title": "Croisière privée à la plage de Colombier",
+      "description": "Affrétez un catamaran ou un bateau à moteur privé jusqu’à Colombier — la plage la plus préservée et la plus secrète de Saint-Barth, accessible uniquement par la mer ou après 25 minutes de marche. Jetez l’ancre dans la baie, faites du snorkeling sur le corail et savourez un rosé bien frais.",
+      "cost": "600-1 200 $ pour une journée en charter privé",
+      "tip": "Partez avant 9 h — la plage de Colombier reste à l’ombre du promontoire jusqu’en fin de matinée. Vers 14 h, les bateaux privés sont repartis et vous avez souvent la baie pour vous seuls."
+    },
+    {
+      "title": "Cocktail au coucher du soleil sur le quai du port de Gustavia",
+      "description": "Le quai du port de Gustavia au crépuscule — avec les plus grands yachts du monde amarrés à portée de main et les lumières du village qui se reflètent dans l’eau — offre le moment cocktail le plus cinématographique des Caraïbes.",
+      "cost": "Un cocktail chacun (20-30 €)",
+      "tip": "Le Bar de l’Oubli est l’institution de la place de Gustavia. Arrivez à 17 h 30 pour obtenir une table face au port avant la foule du soir. La lumière sur le port à 18 h est extraordinaire."
+    },
+    {
+      "title": "Snorkeling à Pain de Sucre (baie de Gustavia)",
+      "description": "Les eaux qui entourent le rocher du Pain de Sucre, au large de Gustavia, offrent l’un des meilleurs snorkelings de Saint-Barth — tortues, raies pastenagues et poissons de récif en abondance dans 3 à 8 m d’eau cristalline.",
+      "cost": "30 $ la location de kayak ; gratuit à la nage depuis la Plage du Gouverneur",
+      "tip": "Le matin de préférence, avant que le vent ne se lève. Les plages de la côte sud (Gouverneur, Saline, Grand Fond) offrent un meilleur snorkeling que celles du nord."
+    },
+    {
+      "title": "Dîner au Gaïac (Le Toiny)",
+      "description": "La table la plus romantique de Saint-Barth — une terrasse perchée en haut de la falaise de l’hôtel Le Toiny, avec une vue panoramique sur l’Atlantique et une carte qui puise dans les traditions culinaires gasconne et basque.",
+      "cost": "120-200 € par personne",
+      "tip": "Réservez 3 semaines à l’avance pour la terrasse extérieure en surplomb — pas la salle intérieure. Le Gaïac sert la plus belle cuisine de l’île. Commandez la pêche du jour au beurre blanc."
+    },
+    {
+      "title": "Promenade à l’aube sur Shell Beach",
+      "description": "Shell Beach (Anse de Grand Galet) à Gustavia — une plage unique faite de millions de coquillages blancs au lieu de sable — à l’aube, avant l’arrivée de quiconque. Marcher sur les coquillages tandis que le soleil se lève sur le port.",
+      "cost": "Gratuit",
+      "tip": "Contournez le port à pied depuis le centre de Gustavia (10 minutes). L’aube est la seule heure où vous aurez Shell Beach pour vous seuls. La texture des coquillages sous les pieds nus est extraordinaire — incomparable dans les Caraïbes."
+    }
+  ],
+  "months": [
+    { "weather": "Parfait : 27 °C, sec, alizés", "crowds": "Pic", "price": "Très élevé", "verdict": "Pleine saison luxe — janvier est «  le  » mois" },
+    { "weather": "Excellent, légèrement plus calme après les vacances de février", "crowds": "Pic", "price": "Très élevé", "verdict": "Toujours extraordinaire" },
+    { "weather": "Excellent, fréquentation en léger recul", "crowds": "Élevée", "price": "Élevé", "verdict": "Excellent rapport qualité-prix en pleine saison" },
+    { "weather": "Chaud, sec, alizés en train de s’adoucir", "crowds": "Modérée", "price": "Moyen-élevé", "verdict": "La fenêtre du meilleur rapport qualité-prix s’ouvre" },
+    { "weather": "Transition, chaud, peu fréquenté", "crowds": "Faible", "price": "Moyen", "verdict": "Meilleur rapport qualité-prix, léger parfum de fin de saison" },
+    { "weather": "La saison des ouragans commence", "crowds": "Très faible", "price": "Bas", "verdict": "Certains resorts ferment — à éviter" },
+    { "weather": "Risque d’ouragan présent", "crowds": "Très faible", "price": "Bas", "verdict": "Beaucoup d’établissements ferment" },
+    { "weather": "Pic du risque d’ouragan", "crowds": "Très faible", "price": "Le plus bas", "verdict": "Ne pas réserver" },
+    { "weather": "Risque d’ouragan à son maximum", "crowds": "Très faible", "price": "Le plus bas", "verdict": "La saison est fermée" },
+    { "weather": "Risque qui s’estompe, l’île rouvre", "crowds": "Faible", "price": "Bas", "verdict": "Quelques resorts rouvrent en avant-saison" },
+    { "weather": "Avant-saison, presque tout est ouvert", "crowds": "Faible à mod.", "price": "Moyen", "verdict": "Belle valeur en avant-saison" },
+    { "weather": "Ouverture de la saison, festif, magnifique", "crowds": "Pic", "price": "Très élevé", "verdict": "Noël à Saint-Barth est extraordinaire" }
+  ],
+  "budgetTiers": [
+    { "label": "Luxe", "daily": "800-1 500 $/nuit", "includes": "Hôtel boutique ou villa privée avec vue mer, piscine, excellent emplacement. Le niveau minimum acceptable pour une lune de miel à Saint-Barth." },
+    { "label": "Ultra-luxe", "daily": "1 500-3 500 $/nuit", "includes": "Villa avec majordome ou meilleur hôtel, accès plage privée, spa d’exception, dîner servi en villa." },
+    { "label": "L’iconique Cheval Blanc", "daily": "2 500-6 000+ $/nuit", "includes": "Le plus bel hôtel des Caraïbes — 40 chambres et villas sur la baie des Flamands, plage privée, spa Guerlain, trois restaurants. La référence absolue." }
+  ],
+  "areas": [
+    { "name": "Plage des Flamands (nord-ouest)", "description": "La plus longue et la plus large plage de l’île. Le Cheval Blanc Isle de France se dresse à l’une de ses extrémités. Le sable est le plus fin de Saint-Barth. Moins de monde que sur les plages de la côte est." },
+    { "name": "Plage de Saint-Jean", "description": "La plage la plus animée de l’île — la fameuse piste minuscule de l’aéroport accueille des avions qui atterrissent à 20 m du sable. Vivante, sociale, idéale pour les couples qui veulent de l’effervescence au bord de la plage. L’Eden Rock est ici." },
+    { "name": "Gustavia (capitale)", "description": "Le plus beau petit port des Caraïbes. Architecture coloniale suédoise et française, les plus belles boutiques de plage au monde, et la plus forte densité de restaurants des Caraïbes." },
+    { "name": "Grand Cul-de-Sac (est)", "description": "Une baie turquoise peu profonde protégée par un récif — l’eau la plus calme de l’île. Idéale pour le paddle et le kitesurf. L’hôtel Guanahani est ici." }
+  ],
+  "expertTips": [
+    { "title": "Volez via Saint-Martin (SXM) — la seule façon d’atteindre Saint-Barth", "body": "Saint-Barth dispose d’une piste minuscule (SBH) qui n’accueille que de petits appareils (9 places maximum). Volez jusqu’à Sint Maarten Princess Juliana (SXM), puis 10 minutes en ATR Winair. Comptez 3 h minimum pour la correspondance — les horaires sont serrés. Sinon, le ferry rapide (1 h depuis Oyster Pond, Philipsburg) ou un hélicoptère privé." },
+    { "title": "Réservez le Cheval Blanc 6 à 9 mois à l’avance pour décembre et janvier", "body": "Les plus belles chambres du Cheval Blanc Isle de France partent auprès des habitués et des agents partenaires dès avril pour la saison suivante. Écrivez directement à l’hôtel et dites «  lune de miel  ». Ils répondent à la franchise." },
+    { "title": "Louez une Mini Moke ou une Smart — ce sont les véhicules de l’île", "body": "La location traditionnelle à Saint-Barth est la Mini Moke (Mini à carrosserie ouverte) ou la Smart. L’île fait 8 km de large — vous pouvez en faire tout le tour en 45 minutes. Une Moke toit ouvert le long de la route côtière, c’est l’expérience par excellence." },
+    { "title": "Colombier exige le bateau ou la marche — faites-le", "body": "Les 25 minutes de marche sur la falaise jusqu’à Colombier, depuis le parking de Petite Anse, comptent parmi les plus belles courtes randonnées des Caraïbes. La récompense — une plage sans accès routier, à l’eau cristalline et quasiment sans marchands — est extraordinaire." },
+    { "title": "Shell Beach au coucher du soleil est ce qu’il y a de mieux gratuit sur l’île", "body": "Pendant que Gustavia se remplit des équipages de yachts qui arrivent, Shell Beach (à 2 minutes à pied en contournant le port) offre la même vue sur le port et c’est gratuit. Apportez du vin d’une supérette. C’est mieux que n’importe quel bar." }
+  ],
+  "packing": [
+    { "item": "Tenue resort chic pour les restaurants", "why": "Les restaurants de Saint-Barth attendent un casual élevé — pas formel, mais chemises en lin et robes d’été plutôt que shorts de plage" },
+    { "item": "Crème solaire reef-safe", "why": "Collectivité française avec une réglementation stricte de protection des récifs autour de la réserve marine" },
+    { "item": "Appareil photo sous-marin", "why": "Le snorkeling au Pain de Sucre et dans la baie de Colombier offre une excellente activité de tortues et de raies" },
+    { "item": "Un peu de liquide (en euros)", "why": "Saint-Barth utilise l’euro. Les bars de plage et les vendeurs des marchés préfèrent le liquide." },
+    { "item": "Assurance voyage avec couverture ouragan", "why": "Non négociable pour toute réservation hors de la fenêtre centrale décembre-avril" },
+    { "item": "Comprimés contre le mal des transports", "why": "Le vol Winair depuis Saint-Martin est court mais peut être turbulent par alizés. Le ferry depuis Saint-Martin, c’est 1 h en mer ouverte." }
+  ],
+  "guide": {
+    "getting": "Volez jusqu’à Sint Maarten Princess Juliana (SXM). Depuis l’Europe : direct depuis Paris Orly avec Air Caraïbes (8 h 30) ou Air France (via Paris ou AMS, 9-10 h au total). Depuis New York : American ou Delta jusqu’à SXM (3 h 30 en direct). De SXM à Saint-Barth : Winair (10 min, 100-200 $ l’aller) ou Voyager fast ferry (1 h depuis Oyster Pond ou Philipsburg). Prévoyez 3 h minimum de correspondance à SXM.",
+    "where": "Flamands (Cheval Blanc, la plus large des plages, la plus tranquille). Saint-Jean (Eden Rock, le plus animé, vue sur l’aéroport). Grand Cul-de-Sac (Guanahani, eau calme, kitesurf). Gustavia (port, restaurants, yachts). Plages du Gouverneur et de Saline (plus sauvages, plus authentiques, meilleur snorkeling). Pour 7 nuits : installez-vous au Cheval Blanc Flamands et explorez chaque jour en voiture de location.",
+    "when": "Décembre-avril est la saison sèche et mondaine. Janvier est «  le  » mois — les plus beaux yachts du monde, les meilleures réservations de restaurants et l’atmosphère la plus extraordinaire. Décembre (semaine de Noël) et le Nouvel An sont spectaculaires mais exigent de réserver un an à l’avance. Mai offre un excellent rapport qualité-prix. Juin-novembre est la saison des ouragans — beaucoup d’établissements ferment."
+  },
+  "localFood": "La langouste grillée (langouste des Caraïbes ouverte en deux et grillée au charbon avec un beurre aux herbes) dans n’importe quel restaurant de plage, les accras de morue (beignets créoles servis avec un ti-punch), la dorade coryphène pêchée du jour au beurre blanc, et l’extraordinaire charcuterie du traiteur local à Gustavia. La culture culinaire marie la gastronomie française aux épices créoles — Le Gaïac, Orega et La Guérite sont les trois meilleures tables. Ne repartez pas sans avoir bu un ti-punch correctement préparé (rhum blanc, citron vert, sirop de canne) à 11 h du matin.",
+  "language": "Français (langue officielle). L’anglais est largement parlé dans tous les contextes touristiques.",
+  "seo": {
+    "title": "Lune de miel à Saint-Barth : 9 hôtels chic des Caraïbes notés",
+    "description": "9 hôtels boutique et villas classés. Cheval Blanc, Eden Rock, Le Toiny. À partir de 1 200 $/nuit. Verdicts nov.-avr."
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "tagline": "Safari le jour, piscine à débordement la nuit — la lune de miel Big Five originelle sur Terre.",
+  "intro": "L’Afrique du Sud est la destination de lune de miel la plus complète au monde : safari Big Five dans la Sabi Sand, dégustations dans les vallées dorées de Stellenbosch, plages spectaculaires et observation des baleines sur la côte du Cap, et Le Cap — sans doute la plus belle ville du monde — le tout dans un seul pays. Singita et les meilleurs lodges de la Sabi Sand fixent le standard mondial du luxe en safari. Aucune autre destination de safari ne combine densité de faune, qualité hôtelière, culture gastronomique et variété naturelle de cette manière.",
+  "bestTime": "Mai-sept (saison sèche, meilleure faune)",
+  "flightFrom": "11-12 h depuis l’Europe",
+  "topExperience": "Safari Big Five",
+  "perfectFor": [
+    "Couples qui veulent des rencontres faunistiques avec un véritable luxe cinq étoiles",
+    "Amoureux de la gastronomie et du vin — les Winelands du Cap rivalisent avec Bordeaux et Bourgogne",
+    "Ceux qui veulent une variété maximale : safari, ville, plage et montagne en un seul voyage",
+    "Couples qui planifient déjà une lune de miel-coup-de-cœur d’une vie",
+    "Amateurs de photographie — la lumière dans la Sabi Sand à l’aube est extraordinaire"
+  ],
+  "skipIf": [
+    "Le safari ne vous attire pas — c’est la pièce maîtresse, difficile à remplacer",
+    "Vous voulez une météo de plage garantie toute l’année — la côte du Cap a des saisons",
+    "Le budget est très serré — les meilleurs lodges de la Sabi Sand démarrent à 1 500 $/nuit par personne tout inclus",
+    "Vous voyagez de décembre à février avec des attentes balnéaires non négociables — c’est le pic d’été mais aussi des foules"
+  ],
+  "experiences": [
+    {
+      "title": "Game drive Big Five à l’aube",
+      "description": "Départ du lodge à 5 h 30 dans un Land Rover ouvert, un pisteur sur le capot. La première heure de lumière — lions terminant une proie, éléphants au point d’eau, léopard dans un marula — c’est l’expérience africaine définitive.",
+      "cost": "Inclus dans les lodges tout inclus (1 200-2 500 $/nuit par personne)",
+      "tip": "Demandez un véhicule privé si vous logez dans un lodge qui propose des sorties partagées. Maximum deux couples change radicalement l’expérience. Pourboire de 200-400 ZAR par personne et par jour au ranger et au pisteur."
+    },
+    {
+      "title": "Sortie léopard nocturne à Sabi Sand",
+      "description": "La réserve de Sabi Sand possède la plus haute densité de léopards de toute zone protégée d’Afrique. Les sorties nocturnes au phare révèlent léopards, hyènes, civettes et engoulevents dans l’obscurité.",
+      "cost": "Inclus dans les lodges tout inclus",
+      "tip": "Demandez spécifiquement à votre ranger des observations de léopards. Les lodges de Sabi Sand partagent les informations d’observation — un bon ranger aura le renseignement avant de quitter le camp."
+    },
+    {
+      "title": "Dégustation privée dans les Winelands du Cap",
+      "description": "Stellenbosch et Franschhoek produisent du Chenin Blanc, du Cabernet Sauvignon et du Pinotage de classe mondiale. Une dégustation privée à Waterford, Babylonstoren ou La Motte avec un sommelier et une vue sur les monts Drakenstein.",
+      "cost": "500-1 500 ZAR ou $ pour une visite et dégustation privée",
+      "tip": "Logez à Babylonstoren pour l’expérience de ferme la plus romantique. Réservez le restaurant Babel 4 semaines à l’avance — le déjeuner de la ferme à la table, sous les montagnes, est l’un des grands repas d’Afrique du Sud."
+    },
+    {
+      "title": "Observation des baleines à Hermanus",
+      "description": "Les baleines franches australes visitent Walker Bay de juin à novembre — la meilleure observation des baleines depuis la terre au monde. Depuis les falaises d’Hermanus, les baleines sautent et nourrissent leurs baleineaux à quelques mètres du rivage.",
+      "cost": "Gratuit depuis les sentiers côtiers ; sorties en bateau 1 200-2 500 ZAR ou $ par couple",
+      "tip": "Septembre-octobre pour les pics de population. Une chambre à la Birkenhead House surplombe la baie — vous pouvez observer depuis votre baignoire."
+    },
+    {
+      "title": "Table Mountain au lever du jour",
+      "description": "Le téléphérique jusqu’au sommet de Table Mountain à 6 h 30, avant que les nuages ne roulent et que les groupes touristiques n’arrivent. Vues à 360° sur Le Cap, l’Atlantic Seaboard et la colonie de manchots de Boulders.",
+      "cost": "350 ZAR par personne aller-retour",
+      "tip": "Vérifiez la météo la veille — la montagne a son propre microclimat et est masquée 30 % des jours. Le téléphérique démarre à 8 h ; arrivez à 7 h 45 pour être dans la première rotation."
+    }
+  ],
+  "months": [
+    { "weather": "Été sec et chaud au Cap, game drives chauds", "crowds": "Élevée", "price": "Élevé", "verdict": "Pic d’été, fréquenté et cher" },
+    { "weather": "Chaud, sec, météo excellente au Cap", "crowds": "Élevée", "price": "Élevé", "verdict": "Magnifique mais bondé et coûteux" },
+    { "weather": "Chaud, début d’automne, excellent", "crowds": "Modérée", "price": "Moyen", "verdict": "Sous-estimé — chaud et moins fréquenté" },
+    { "weather": "Plus frais, couleurs d’automne dans les Winelands", "crowds": "Faible-modérée", "price": "Bas-moyen", "verdict": "Excellent pour les Winelands et la ville" },
+    { "weather": "Début de la saison sèche, le safari s’améliore", "crowds": "Faible", "price": "Bas-moyen", "verdict": "La faune se concentre, beau rapport qualité-prix" },
+    { "weather": "Sec, frais, arrivée des baleines, meilleur safari", "crowds": "Faible", "price": "Moyen", "verdict": "Début du sweet spot baleines + safari" },
+    { "weather": "Sec, frais, pic de faune, pic de baleines", "crowds": "Modérée", "price": "Moyen-élevé", "verdict": "Excellente faune, matinées plus fraîches" },
+    { "weather": "Sec, frais, excellente observation faunistique", "crowds": "Modérée", "price": "Moyen-élevé", "verdict": "Safari superbe, baleines toujours excellentes" },
+    { "weather": "Sec, réchauffement, meilleur mois global", "crowds": "Modérée", "price": "Élevé", "verdict": "Le meilleur mois en Afrique du Sud" },
+    { "weather": "Printemps, fleurs sauvages, jeunes animaux", "crowds": "Modérée", "price": "Élevé", "verdict": "Magnifique — nouveau-nés et fleurs" },
+    { "weather": "Début de saison verte, luxuriant mais risque de pluie", "crowds": "Faible", "price": "Moyen", "verdict": "Bon rapport qualité-prix, orages occasionnels" },
+    { "weather": "Chaud, humide dans la brousse, été au Cap", "crowds": "Pic", "price": "Maximum", "verdict": "Le Cap excellent ; la brousse est moite" }
+  ],
+  "budgetTiers": [
+    {
+      "label": "Safari et ville accessibles",
+      "daily": "300-700 $/nuit",
+      "includes": "Lodge de safari milieu de gamme avec game drives inclus. Bonne faune. Hôtel boutique au Cap. L’expérience Afrique du Sud sans la tarification Singita."
+    },
+    {
+      "label": "Premium",
+      "daily": "700-1 500 $/nuit par personne",
+      "includes": "Lodge de safari haut de gamme dans une réserve de premier plan. Tous les repas, sorties et boissons inclus. Hôtel ultra-luxe au Cap."
+    },
+    {
+      "label": "Ultra-luxe",
+      "daily": "1 500-3 000 $+/nuit par personne",
+      "includes": "Tout inclus de niveau Singita. Véhicule privé, gastronomie de classe mondiale, butler, bassin plongeant, les plus hauts standards de faune sur le continent."
+    }
+  ],
+  "areas": [
+    {
+      "name": "Sabi Sand / Kruger",
+      "description": "Sabi Sand partage une frontière non clôturée avec Kruger. La plus haute concentration de léopards d’Afrique, plus lions, éléphants, rhinos et buffles. Singita et Lion Sands y ont leur base."
+    },
+    {
+      "name": "Winelands du Cap",
+      "description": "Stellenbosch (domaines viticoles, restaurants), Franschhoek (la capitale gastronomique) et Paarl (le plus spectaculaire écrin montagneux). 45 minutes du Cap. Deux nuits minimum."
+    },
+    {
+      "name": "Le Cap",
+      "description": "L’une des plus belles villes du monde. Le V&A Waterfront, la plage de Camps Bay, la colonie de manchots de Boulders et la péninsule du Cap. Prévoyez 3 nuits minimum."
+    },
+    {
+      "name": "Hermanus",
+      "description": "La meilleure observation des baleines depuis la terre au monde, juin-novembre. La Garden Route s’étend vers l’est depuis ici. La Birkenhead House est l’un des plus beaux hôtels boutique d’Afrique du Sud."
+    }
+  ],
+  "expertTips": [
+    {
+      "title": "Combinez safari et Le Cap — ils ne sont qu’à 2 h en avion",
+      "body": "La lune de miel classique : 4 nuits de safari à Sabi Sand → vol vers Le Cap → 3 nuits au Cap → 2 nuits dans les Winelands. Parfaitement rythmé, couvrant les plus grands succès d’Afrique du Sud."
+    },
+    {
+      "title": "Le véhicule privé en safari vaut chaque rand",
+      "body": "Les sorties partagées (4-8 invités) sont excellentes. Un véhicule privé (supplément de 200-400 $/jour) signifie que vous restez aussi longtemps que vous voulez, allez où vous voulez, et que le guide ne travaille que pour vous."
+    },
+    {
+      "title": "Les Big Five sont en réalité les Dangerous Five — pas juste une liste de taille",
+      "body": "Lion, léopard, éléphant, buffle d’Afrique et rhinocéros ont été nommés pour être les plus dangereux à chasser à pied. Comprendre le classement change la portée de chaque observation."
+    },
+    {
+      "title": "Réservez le téléphérique de Table Mountain en ligne la veille",
+      "body": "Les files d’attente sur place en été dépassent 2 heures. La pré-réservation en ligne (380 ZAR/pers.) donne une entrée à heure fixe. Vérifiez tout de même la météo — si c’est nuageux, replanifiez."
+    }
+  ],
+  "packing": [
+    { "item": "Tenues de safari neutres (kaki, olive, beige)", "why": "Les couleurs sombres attirent les mouches tsé-tsé. Les couleurs vives perturbent la faune et les autres invités. Les tons neutres sont à la fois pratiques et confortables." },
+    { "item": "Couche chaude pour les sorties matinales", "why": "Les véhicules de game drive ouverts à 5 h 30 en juin-août peuvent descendre à 5-10 °C. Les lodges fournissent des couvertures mais une polaire ou un gilet en duvet est essentiel en hiver." },
+    { "item": "Chapeau à large bord et SPF élevé", "why": "Le soleil sud-africain en altitude (Kruger est à 400 m) est féroce. Un chapeau pliable et SPF 50 sont non négociables pour les sorties d’après-midi." },
+    { "item": "Jumelles (8x42 minimum)", "why": "Repérer les animaux lointains avant le ranger fait partie des plaisirs du safari. Une bonne paire transforme votre observation." },
+    { "item": "Smart-casual pour Le Cap", "why": "Les bonnes tables du Cap appliquent un standard smart-casual décontracté. Une tenue habillée évite toute gêne au dîner." }
+  ],
+  "guide": {
+    "getting": "Vol vers Johannesburg O.R. Tambo (JNB) ou Cape Town International (CPT). Depuis Londres : direct sur British Airways, South African Airways ou Virgin (11 h). Depuis l’Europe : direct depuis Amsterdam (KLM), Francfort (Lufthansa), Paris (Air France). Depuis JNB : correspondance vers Kruger Mpumalanga Airport (MQP) ou Hoedspruit (HDS) pour Sabi Sand — vol de 45 min ou 4 h de route. NE conduisez PAS de JNB à la brousse après la tombée de la nuit. Itinéraire standard : vol vers JNB → transfert lodge → vol vers CPT → programme au Cap → retour.",
+    "where": "Pour le safari : Sabi Sand est le choix premium. Phinda, Timbavati et Thornybush sont d’excellentes alternatives. Pour Le Cap : De Waterkant, V&A Waterfront et Camps Bay sont les trois quartiers les plus romantiques. Logez dans les Winelands à Babylonstoren ou à La Residence à Franschhoek pour l’expérience la plus spéciale.",
+    "when": "Mai-septembre, c’est la saison sèche — la meilleure observation faunistique (les animaux se concentrent aux points d’eau) et les températures les plus agréables pour les sorties matinales. Septembre-octobre est superbe : fleurs sauvages de printemps et jeunes animaux. Juin-novembre pour les baleines à Hermanus. Le Cap est toute l’année mais novembre-mars est le pic d’été avec la meilleure météo de plage."
+  },
+  "localFood": "Braai (le barbecue sud-africain — bavette de bœuf, côtelettes d’agneau et saucisse boerewors au feu de bois — une religion nationale), biltong (viande séchée affinée, l’encas parfait pour le safari), bunny chow (pain creusé garni de curry, spécialité de Durban), bobotie cap-malais (viande hachée épicée recouverte d’une crème d’œuf — le plat le plus typique du Cap), Chenin Blanc de Stellenbosch avec un accord chocolat Waterford. La scène gastronomique des Winelands — Le Quartier Français à Franschhoek, Jordan Wine Estate, The Pot Luck Club au Cap — est véritablement de classe mondiale.",
+  "language": "L’anglais est l’une des 11 langues officielles et est universellement utilisé dans le tourisme",
+  "seo": {
+    "title": "Lune de miel en Afrique du Sud : 8 lodges safari et séjours au Cap",
+    "description": "8 séjours à Kruger, au Cap et dans les Winelands notés. Singita, Royal Malewane, Ellerman House. Dès 700 $/nuit. Mai-oct."
+  }
+}

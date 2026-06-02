@@ -1,0 +1,73 @@
+{
+  "tagline": "Îles privées, hospitalité mélanésienne chaleureuse et l’eau la plus turquoise que vous ayez jamais vue.",
+  "intro": "Les Fidji sont le cœur chaud du Pacifique Sud — 333 îles éparpillées sur une mer si intensément turquoise qu’elle semble retouchée, peuplées d’habitants dont la chaleur et la joie naturelles sont sincèrement uniques au monde. La scène des resorts de luxe est exceptionnelle à tous les niveaux de prix, du bungalow pieds-nus des Mamanucas à Laucala Island — l’un des resorts d’île privée les plus extraordinaires au monde. Le récif compte parmi les plus sains du Pacifique, les cérémonies de kava sont une véritable expérience culturelle, et le « Bula ! » qu’on vous lancera cent fois par jour sonne toujours sincère. Les Fidji fonctionnent en lune de miel autonome ou comme étape pacifique sur une route via Los Angeles ou Sydney.",
+  "bestTime": "Mai-octobre",
+  "flightFrom": "18-22 h depuis l’Europe / 10 h depuis Los Angeles",
+  "topExperience": "Luxe en île privée",
+  "perfectFor": [
+    "Les rêveurs d’île privée — les Fidji concentrent plus de resorts d’îles privées accessibles que n’importe où",
+    "Les couples partant de ou via Los Angeles, Sydney ou Auckland — les Fidji sont une escale naturelle",
+    "Les plongeurs et amateurs de snorkeling — la Coral Coast et Kadavu offrent des récifs de classe mondiale",
+    "Ceux qui veulent une chaleur culturelle sincère en plus du luxe balnéaire",
+    "Les couples qui veulent l’isolement total sans les 20 h de vol pour la Polynésie française"
+  ],
+  "skipIf": [
+    "Vous êtes basé en Europe sans autre raison pacifique de voyager — 22 h pour la plage, c’est loin",
+    "Vous voulez des restaurants de ville et de la variété culturelle entre les journées plage",
+    "Voyager en saison cyclonique (novembre-avril) vous angoisse — le risque est réel",
+    "Le budget est très serré — même un milieu de gamme aux Fidji exige 300+ $/nuit"
+  ],
+  "experiences": [
+    { "title": "Excursion à la journée sur une île privée, Yasawa", "description": "Affrétez un speedboat vers l’une des îles Yasawa inhabitées — sable blanc, jardin de corail juste au large, et personne d’autre. Votre hôtel prépare un panier gourmet, le matériel de snorkeling et vous récupère au coucher du soleil. L’expérience la plus essentiellement fidjienne.", "cost": "200-500 $ par couple (charter)", "tip": "Demandez à votre hôtel de mettre un lovo traditionnel fidjien dans le panier à côté du Champagne — un mariage unique auquel peu pensent." },
+    { "title": "Plongée sur le Great Astrolabe Reef", "description": "Le Great Astrolabe Reef au large de Kadavu est l’une des plus grandes barrières de corail du Pacifique — 90 km de murs de corail vierges, raies manta, requins-marteaux et extraordinaires jardins de coraux mous, avec une visibilité supérieure à 30 m.", "cost": "80-150 $ pour deux bouteilles", "tip": "Logez dans un lodge de plongée à Kadavu plutôt qu’en excursion à la journée depuis Nadi — le récif est à 45 minutes en speedboat du lodge, pas 3 heures depuis l’île principale." },
+    { "title": "Cérémonie traditionnelle de kava", "description": "Chaque arrivée dans un village ou un resort fidjien comporte une cérémonie de kava — échange formel de cadeaux et de discours, puis partage du yaqona (boisson de racine de kava) dans un bol communautaire en bois. C’est terreux, légèrement engourdissant et véritablement signifiant.", "cost": "Généralement inclus dans tous les resorts", "tip": "Participez pleinement — un clap avant de boire, un « bula ! » fort, et videz la coupe. Le manque d’engagement se voit et la cérémonie perd son sens. La boisson est totalement sûre et sans alcool." },
+    { "title": "Festin traditionnel lovo", "description": "Nourriture cuite lentement la nuit sur des pierres volcaniques brûlantes enterrées — poulet, poisson, taro et patate douce enveloppés dans des feuilles de bananier et déterrés pour le festin. Tout resort de luxe en propose un ; la version cérémonielle avec contes de village et danse meke est extraordinaire.", "cost": "Inclus dans la plupart des resorts (événement hebdomadaire)", "tip": "Demandez si votre resort fait un lovo au village plutôt qu’en interne — se déplacer dans un village voisin change toute l’expérience." },
+    { "title": "Surf à Cloudbreak ou Restaurants", "description": "Les Fidji accueillent deux des spots de surf les plus célèbres au monde — Cloudbreak et Restaurants (île Tavarua). Cloudbreak est une gauche sérieuse pour surfeurs expérimentés ; Restaurants est plus accessible. Le Tavarua Island Resort organise les meilleurs charters.", "cost": "150-400 $ par jour (charter bateau)", "tip": "Non-surfeurs : la sortie en bateau jusqu’à Cloudbreak pour regarder les vagues depuis le chenal est un spectacle authentique, même si vous ne mettez jamais un pied à l’eau." }
+  ],
+  "months": [
+    { "weather": "Saison cyclonique, chaud et humide", "crowds": "Faible à modérée", "price": "Basse", "verdict": "Risque cyclonique — à éviter si possible" },
+    { "weather": "Mois le plus humide, risque cyclonique", "crowds": "Faible", "price": "La plus basse", "verdict": "Risque cyclonique maximal" },
+    { "weather": "Encore humide, en baisse", "crowds": "Faible", "price": "Basse", "verdict": "S’améliore lentement" },
+    { "weather": "Transition — qui sèche bien", "crowds": "Faible", "price": "Basse-moyenne", "verdict": "Intersaison sous-estimée" },
+    { "weather": "Début de la saison sèche, excellent", "crowds": "Modérée", "price": "Moyenne", "verdict": "Choix d’ouverture parfait" },
+    { "weather": "Sec, chaud, idéal", "crowds": "Modérée", "price": "Moyenne", "verdict": "Excellent partout" },
+    { "weather": "Pic de saison sèche, parfait", "crowds": "Élevée", "price": "Haute", "verdict": "Meilleure météo, plus populaire" },
+    { "weather": "Sec et superbe", "crowds": "Pic", "price": "La plus haute", "verdict": "Vacances scolaires — très chargé" },
+    { "weather": "Encore excellent, foule en baisse", "crowds": "Modérée", "price": "Moyenne-haute", "verdict": "Moment en or — excellent rapport" },
+    { "weather": "Fin de saison sèche, toujours bon", "crowds": "Faible à modérée", "price": "Moyenne", "verdict": "Bonnes affaires disponibles" },
+    { "weather": "Saison humide qui s’installe", "crowds": "Faible", "price": "Basse-moyenne", "verdict": "Un peu de risque, prix plus bas" },
+    { "weather": "Humide, festif, ouverture de la saison cyclonique", "crowds": "Élevée", "price": "Haute", "verdict": "Prime des fêtes, risque météo" }
+  ],
+  "budgetTiers": [
+    { "label": "Resort des îles Mamanuca", "daily": "300-600 $/nuit", "includes": "Beau resort insulaire, piscine, snorkeling sur récif, excellente cuisine, transferts en speedboat depuis Nadi. Excellent rapport qualité-prix pour une sensation d’île privée. Exemple : Tokoriki Island Resort, Mana Island Resort, Likuliku Lagoon" },
+    { "label": "Yasawa premium", "daily": "600-1 500 $/nuit tout compris", "includes": "Île plus reculée, plus de retrait, restauration et activités all-inclusive, récif superbe, moins d’invités. La vraie expérience-lune-de-miel aux Fidji. Exemple : Yasawa Island Resort, Qamea Resort & Spa, Vatulele Island Resort" },
+    { "label": "Île privée ultra", "daily": "2 000-10 000+ $/nuit", "includes": "L’un des resorts d’île privée les plus extraordinaires au monde — exclusivité complète, transfert en avion privé, ratio personnel supérieur aux invités, chaque souhait anticipé. Exemple : Laucala Island, Turtle Island, Kokomo Private Island" }
+  ],
+  "areas": [
+    { "name": "Îles Mamanuca", "description": "Une chaîne de petites îles à 30-60 minutes en speedboat de l’aéroport international de Nadi. La zone-resorts la plus développée, avec le plus large choix à tous les prix. Likuliku Lagoon est le seul resort over-water bungalow des Fidji." },
+    { "name": "Îles Yasawa", "description": "Une chaîne de 90 km d’îles volcaniques à 2-3 h en catamaran rapide ou 30 minutes en hydravion depuis Nadi. Plus reculée, plus dramatique, moins de touristes. Yasawa Island Resort et Qamea figurent parmi les plus belles adresses." },
+    { "name": "Vanua Levu (Nord)", "description": "La deuxième plus grande île des Fidji — bien moins fréquentée que Viti Levu. Koro Sun Resort et Cousteau Resort proposent un éco-luxe avec excellente plongée. Un coin sincèrement vierge des Fidji pour les couples en quête d’authenticité." },
+    { "name": "Kadavu", "description": "Île reculée au sud de Viti Levu, avec le Great Astrolabe Reef à sa porte. Quasi aucun tourisme de passage — uniquement des lodges de plongée dédiés. L’une des premières destinations de plongée du Pacifique pour raies manta, requins de récif et corail vierge." }
+  ],
+  "expertTips": [
+    { "title": "Volez via Los Angeles ou Sydney pour gagner du temps", "body": "Depuis l’Europe, les Fidji exigent un transit — Los Angeles (Fiji Airways) ou Sydney (Fiji Airways) sont les hubs naturels. Utiliser votre escale pacifique pour 2 nuits dans chaque sens transforme le voyage en partie de la lune de miel plutôt qu’en épreuve." },
+    { "title": "Les transferts en hydravion sont une expérience en soi", "body": "Turtle Airways et Pacific Island Air relient Nadi aux resorts reculés par hydravion — 15-40 minutes de vol à basse altitude au-dessus de systèmes de récifs incroyablement turquoise. L’approche à l’atterrissage sur l’eau de votre île est spectaculaire. Réservez en même temps que le resort." },
+    { "title": "Réservez en tarif tout compris", "body": "Les resorts insulaires reculés n’ont pas d’alternative pour la restauration — tout est sur la propriété. Les tarifs all-inclusive évitent les surprises et permettent une vraie détente. Yasawa et Mamanuca affichent souvent des tarifs par personne incluant repas et activités au plus haut." },
+    { "title": "Participez sincèrement à la culture fidjienne", "body": "La cérémonie de kava, le festin lovo et la danse meke ne sont pas des spectacles touristiques — ce sont de véritables pratiques culturelles que les Fidjiens accomplissent avec fierté. Une participation sincère (apprendre les claps, tenter les mots, accepter la coupe) transforme l’expérience et est profondément appréciée." },
+    { "title": "Vérifiez l’assurance cyclone avant de réserver", "body": "La saison cyclonique aux Fidji va de novembre à avril. Si vous devez voyager sur cette fenêtre, assurez-vous que votre assurance couvre explicitement les perturbations cycloniques — beaucoup excluent les tempêtes tropicales nommées. Les Mamanuca sont les plus exposées aux trajectoires cycloniques directes." }
+  ],
+  "packing": [
+    { "item": "Crème solaire respectueuse des récifs uniquement", "why": "Les récifs des Fidji sont protégés par la loi — beaucoup de resorts et la loi fidjienne interdisent les écrans chimiques ; le minéral est exigé" },
+    { "item": "Sulu (paréo)", "why": "Obligatoire pour entrer dans tout village fidjien — un drap modeste autour de la taille est essentiel ; les resorts en prêtent, mais le vôtre est plus confortable" },
+    { "item": "Caisson sous-marin pour appareil photo", "why": "Le snorkeling et la plongée sont trop extraordinaires pour s’arrêter aux photos en surface — même un simple boîtier étanche transforme la photo de récif" },
+    { "item": "Répulsif (DEET)", "why": "Les moustiques sont présents surtout à l’aube et au crépuscule — risque de dengue existant ; couvrez-vous à ces moments" },
+    { "item": "Sac étanche pour les water taxis", "why": "Tous les transferts inter-îles se font en speedboat ouvert — protection essentielle pour appareils photo, téléphones et passeports" }
+  ],
+  "guide": "Vol vers l’aéroport international de Nadi (NAN) — la porte principale. Fiji Airways vole en direct depuis Los Angeles (10 h), Sydney (4 h), Auckland (3 h) et Tokyo (7 h). Depuis l’Europe : transit via Los Angeles (idéal), Sydney ou Singapour. Depuis NAN, votre resort organise les transferts : speedboat (30-90 min, 50-200 $ l’aller) pour les Mamanuca/Yasawa, ou hydravion (200-500 $ l’aller) pour les propriétés plus reculées. Tous les resorts de luxe organisent le ramassage — confirmez en amont. Pour le logement : premiers voyageurs — Mamanuca pour l’accessibilité et le choix. Le plus romantique — Likuliku Lagoon (seuls bungalows over-water des Fidji) ou Yasawa Island Resort. Meilleure plongée — lodges de Kadavu ou Qamea Resort. Fantaisie d’île privée — Laucala Island (réservez un an à l’avance, budget en conséquence). Pour 10 nuits : 7 nuits Yasawa + 3 nuits Nadi/Mamanuca pour un accès aéroport facile. Quand venir : mai à octobre est la saison sèche — la seule fenêtre à réserver en confiance. Juillet-août sont au pic avec une météo parfaite. Septembre est le moment en or : saison sèche, prix plus bas, foule plus fine. Évitez novembre-avril si possible — la saison cyclonique génère un vrai risque de perturbation même les années sans frappe directe.",
+  "localFood": "Kokoda (le ceviche fidjien — poisson cru mariné dans la crème de coco et le citron vert), festin lovo (cuisson lente sur pierres chaudes enterrées), palusami (crème de coco enveloppée de feuilles de taro et cuite au four de terre), papaye fraîche au citron vert au petit-déjeuner et cérémonie de kava (boisson traditionnelle à la racine de poivrier) partagée avec vos hôtes. Tous les resorts de luxe proposent un lovo traditionnel et un accueil au kava.",
+  "language": "Anglais, fidjien, hindi (toutes officielles)",
+  "seo": {
+    "title": "Lune de miel aux Fidji : 8 resorts d’îles privées notés 2026",
+    "description": "8 resorts d’îles privées fidjiens classés. Laucala, Vomo, Turtle Island. À partir de 1 000 $/nuit. Sélections saison sèche mai-octobre."
+  }
+}

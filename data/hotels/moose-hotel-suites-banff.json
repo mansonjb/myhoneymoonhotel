@@ -7,7 +7,11 @@
     "title": "Moose Hotel & Suites Banff: Honeymoon Review (2026)",
     "description": "Modern 4-star in central Banff with rooftop hot pools. Score 76/100, from $350 CAD/night. Verdict, suite, itinerary & email."
   },
-  "experience_types": ["mountain", "boutique", "romantic"],
+  "experience_types": [
+    "mountain",
+    "boutique",
+    "romantic"
+  ],
   "honeymoon_score": 76,
   "score_breakdown": {
     "adults_only": 0,
@@ -21,7 +25,10 @@
     "luxury": 9
   },
   "stars": 4,
-  "price_per_night_usd": { "min": 350, "max": 900 },
+  "price_per_night_usd": {
+    "min": 350,
+    "max": 900
+  },
   "adults_only": false,
   "amenities": [
     "rooftop-hot-pools",
@@ -35,11 +42,31 @@
     "free-parking"
   ],
   "photos": [
-    { "url": "/images/hotels/moose-hotel-suites-banff/hero.webp", "alt": "moose-hotel-suites-banff — hero", "type": "hero" },
-    { "url": "/images/hotels/moose-hotel-suites-banff/room.webp", "alt": "moose-hotel-suites-banff — room", "type": "room" },
-    { "url": "/images/hotels/moose-hotel-suites-banff/pool.webp", "alt": "moose-hotel-suites-banff — pool", "type": "pool" },
-    { "url": "/images/hotels/moose-hotel-suites-banff/spa.webp", "alt": "moose-hotel-suites-banff — spa", "type": "spa" },
-    { "url": "/images/hotels/moose-hotel-suites-banff/dining.webp", "alt": "moose-hotel-suites-banff — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/moose-hotel-suites-banff/hero.webp",
+      "alt": "moose-hotel-suites-banff — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/moose-hotel-suites-banff/room.webp",
+      "alt": "moose-hotel-suites-banff — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/moose-hotel-suites-banff/pool.webp",
+      "alt": "moose-hotel-suites-banff — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/moose-hotel-suites-banff/spa.webp",
+      "alt": "moose-hotel-suites-banff — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/moose-hotel-suites-banff/dining.webp",
+      "alt": "moose-hotel-suites-banff — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 4.7,
   "tripadvisor_award": true,
@@ -48,13 +75,41 @@
     "verdict": "Moose Hotel & Suites is Banff town's smartest mid-luxury hotel — a 4-star contemporary lodge that opened in 2016 right on Banff Avenue, two blocks from the gondola shuttle stop and walking distance to every restaurant in town. What sets the Moose apart from the dozen other Banff Avenue hotels is two specific features: a pair of rooftop outdoor hot pools (mountain view, open in -30°C, with the steam rising into the night and the Rundle peaks above you), and the in-house Meatball Pizza Wine restaurant which has become one of the best casual dinners in Banff. The 174 rooms and suites are contemporary mountain — exposed timber, leather and linen, gas fireplaces in suites, and the larger Premium Mountain View Suites with private balconies facing Mt Rundle deliver genuine view-from-the-bed honeymoon atmosphere. The 5,000 sq ft Meadow Spa is a real spa (not just a treatment room) with steam, sauna, eucalyptus showers, and a serious treatment menu. What you give up vs the Fairmont Banff Springs across the river: castle drama, scale, the 1888 Chop House. What you gain: a hotel built in 2016 (no ancient plumbing or layout quirks), a Banff Avenue location that means you walk to dinner instead of shuttle, and rates 30–50% lower than the Fairmont. For honeymooners who want the Banff experience without castle rates, or as a 2-night urban interlude between Lake Louise stays, the Moose is the smart mid-luxury move. The honeymoon-best ritual is the rooftop hot pool after dinner — late November to March it's a cold-weather magic that no other Banff property offers at this price point.",
     "best_room": "A Premium Mountain View Suite — separate living room, gas fireplace, balcony facing Mt Rundle, larger bath. The Family Mountain View Suite (with kitchenette) is the splurge for longer stays. Avoid standard Mountain Side rooms — view is half the experience.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival and rooftop hot pool", "description": "Calgary Airport (1h 30min drive), check-in. Dinner at Meatball Pizza Wine downstairs. Late-night rooftop hot pool soak under the stars." },
-      { "day": 2, "title": "Banff Gondola and Bow Falls", "description": "Walk to the Banff Gondola for Sulphur Mountain. Lunch at the Sky Bistro. Afternoon walk to Bow Falls and Surprise Corner. Cocktails at the Bison Restaurant." },
-      { "day": 3, "title": "Lake Louise day trip", "description": "Drive 45 min to Lake Louise. Canoe rental, walk to the lakeshore. Shuttle to Moraine Lake. Lunch at the Chateau Lake Louise. Return for the rooftop pool." },
-      { "day": 4, "title": "Upper Hot Springs and spa", "description": "Morning at the Banff Upper Hot Springs (5 min by car). Long lunch on Banff Avenue. Afternoon at the Meadow Spa for couples treatments." },
-      { "day": 5, "title": "Helicopter day", "description": "Drive 30 min to Canmore for Rockies Heli — 90-min glacier picnic. Lunch at Eden. Return for spa and dinner at Sky Bistro." },
-      { "day": 6, "title": "Johnston Canyon and Banff Avenue", "description": "Drive to Johnston Canyon for the catwalk hike. Lunch at Baker Creek. Late afternoon shopping on Banff Avenue. Dinner at the Bison." },
-      { "day": 7, "title": "Slow departure", "description": "Final breakfast at the hotel, last walk along the Bow River, 1h 30min drive to Calgary." }
+      {
+        "day": 1,
+        "title": "Arrival and rooftop hot pool",
+        "description": "Calgary Airport (1h 30min drive), check-in. Dinner at Meatball Pizza Wine downstairs. Late-night rooftop hot pool soak under the stars."
+      },
+      {
+        "day": 2,
+        "title": "Banff Gondola and Bow Falls",
+        "description": "Walk to the Banff Gondola for Sulphur Mountain. Lunch at the Sky Bistro. Afternoon walk to Bow Falls and Surprise Corner. Cocktails at the Bison Restaurant."
+      },
+      {
+        "day": 3,
+        "title": "Lake Louise day trip",
+        "description": "Drive 45 min to Lake Louise. Canoe rental, walk to the lakeshore. Shuttle to Moraine Lake. Lunch at the Chateau Lake Louise. Return for the rooftop pool."
+      },
+      {
+        "day": 4,
+        "title": "Upper Hot Springs and spa",
+        "description": "Morning at the Banff Upper Hot Springs (5 min by car). Long lunch on Banff Avenue. Afternoon at the Meadow Spa for couples treatments."
+      },
+      {
+        "day": 5,
+        "title": "Helicopter day",
+        "description": "Drive 30 min to Canmore for Rockies Heli — 90-min glacier picnic. Lunch at Eden. Return for spa and dinner at Sky Bistro."
+      },
+      {
+        "day": 6,
+        "title": "Johnston Canyon and Banff Avenue",
+        "description": "Drive to Johnston Canyon for the catwalk hike. Lunch at Baker Creek. Late afternoon shopping on Banff Avenue. Dinner at the Bison."
+      },
+      {
+        "day": 7,
+        "title": "Slow departure",
+        "description": "Final breakfast at the hotel, last walk along the Bow River, 1h 30min drive to Calgary."
+      }
     ],
     "caveats": [
       "Not a castle and doesn't pretend to be — Moose is contemporary mountain lodge, not 1888 Fairmont drama.",
@@ -62,12 +117,30 @@
       "Rooftop hot pools are popular and small — go early evening or late night for the quietest experience."
     ],
     "faqs": [
-      { "question": "Good for honeymooners?", "answer": "Yes — the rooftop hot pool, gas fireplace suites, and central location make it a strong mid-luxury choice for couples who don't need castle drama." },
-      { "question": "Best time to visit?", "answer": "All year. Winter (Dec–Mar) is magical for the steaming rooftop pools; summer (Jun–Sep) for hiking and long evenings." },
-      { "question": "Book in advance?", "answer": "Premium Mountain View Suites for July–August and Christmas: 4–6 months ahead." },
-      { "question": "Adults-only?", "answer": "No — Moose is family-friendly. Couples can request a higher-floor suite to avoid family floors." },
-      { "question": "Best room type?", "answer": "Premium Mountain View Suite with gas fireplace and balcony." },
-      { "question": "How to get there?", "answer": "Calgary International (YYC) is 1h 30min by car or Banff Airporter shuttle ($90)." }
+      {
+        "question": "Good for honeymooners?",
+        "answer": "Yes — the rooftop hot pool, gas fireplace suites, and central location make it a strong mid-luxury choice for couples who don't need castle drama."
+      },
+      {
+        "question": "Best time to visit?",
+        "answer": "All year. Winter (Dec–Mar) is magical for the steaming rooftop pools; summer (Jun–Sep) for hiking and long evenings."
+      },
+      {
+        "question": "Book in advance?",
+        "answer": "Premium Mountain View Suites for July–August and Christmas: 4–6 months ahead."
+      },
+      {
+        "question": "Adults-only?",
+        "answer": "No — Moose is family-friendly. Couples can request a higher-floor suite to avoid family floors."
+      },
+      {
+        "question": "Best room type?",
+        "answer": "Premium Mountain View Suite with gas fireplace and balcony."
+      },
+      {
+        "question": "How to get there?",
+        "answer": "Calgary International (YYC) is 1h 30min by car or Banff Airporter shuttle ($90)."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — Moose Hotel & Suites, Banff\n\nDear Moose Hotel reservations,\n\nWe'd like a Premium Mountain View Suite for [DATES], 4 to 5 nights. Could you confirm rates and any honeymoon arrangements?\n\nQuestions:\n1. Honeymoon arrival turndown?\n2. Couples spa treatment at Meadow Spa?\n3. Higher-floor suite preferred?\n4. Banff Airporter or private transfer help from YYC?\n\nThank you,\n[Your names]"
   },

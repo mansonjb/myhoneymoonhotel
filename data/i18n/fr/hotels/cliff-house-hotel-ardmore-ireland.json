@@ -1,0 +1,29 @@
+{
+  "content": {
+    "verdict": "Le Cliff House Hotel est l’outlier moderniste de la carte luxe d’Irlande — un hôtel design contemporain de 39 chambres littéralement bâti dans la falaise au-dessus de la baie d’Ardmore, dans le comté de Waterford, deux heures au sud-est de Cork. Chaque chambre offre une vue mer toute hauteur, et l’architecture en cascades de la propriété descend la falaise de sorte que le spa, la piscine intérieure et le restaurant étoilé The House se trouvent au niveau le plus bas, leurs vitres à portée d’embruns de l’Atlantique. C’est le seul vrai hôtel de luxe en bord de falaise d’Irlande, et il occupe une position différente de la tradition château/manoir : design d’abord, cuisine d’abord, et installation spectaculaire plutôt que lit à baldaquin et cheminée. The House Restaurant tient une étoile Michelin depuis de longues années sous différents chefs et est la table-destination du sud-est de l’Irlande. Les produits de la mer (homard de Helvick, coquilles Saint-Jacques de Bantry Bay, turbot de Dungarvan Bay) sont franchement parmi les meilleurs de l’île. Le village d’Ardmore lui-même est une minuscule communauté côtière de pêche, avec une tour ronde du XIIᵉ siècle, deux pubs solides, et une longue plage de sable à 5 minutes à pied. Le Cliff Walk le long de la pointe est un sentier cinématographique de 6 km face à l’Atlantique. Ce que vous perdez par rapport à Ashford/Adare : la dramaturgie du château, la fauconnerie, le grand domaine. Ce que vous gagnez : un design contemporain, des tarifs plus bas, la table étoilée, et le seul vrai hôtel de falaise atlantique du pays. Pour les couples voulant une escapade côtière irlandaise de 3 nuits plutôt qu’une semaine complète en château, ou une dernière nuit atlantique après un tour Wicklow/Kilkenny, Cliff House est l’hôtel de luxe le plus discret d’Irlande.",
+    "best_room": "Une Cliff Suite — chambre d’angle aux deux murs vitrés face à la baie, baignoire îlot positionnée pour la vue, balcon privé. L’Atlantic Suite est la plus vaste et la plus spectaculaire mais il n’en existe qu’une. Évitez les chambres vue mer de catégorie standard ; les Cliff Suites sont nettement mieux positionnées.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrivée et Cliff Walk", "description": "Aéroport de Cork (CRK) à 1 h de route. Installation dans votre Cliff Suite, promenade en fin d’après-midi sur le Cliff Walk jusqu’au puits de Saint-Declan. Dîner au House (menu dégustation Michelin)." },
+      { "day": 2, "title": "Plage d’Ardmore et Helvick Head", "description": "Matinée à la plage d’Ardmore, déjeuner au Cliff Bar surplombant la mer. Après-midi en voiture vers Helvick Head et Dungarvan. Séance spa avant le dîner." },
+      { "day": 3, "title": "Journée à Waterford", "description": "Ville de Waterford (1 h de route) — Viking Triangle, visite de la fabrique de cristal Waterford, déjeuner à La Boheme. Retour pour les cocktails." },
+      { "day": 4, "title": "Cobh et Cork", "description": "Cobh (dernier port d’escale du Titanic), maisons colorées, cathédrale. Déjeuner au food court de l’English Market de Cork. Retour pour le spa." },
+      { "day": 5, "title": "Excursion à Kilkenny", "description": "1 h 45 de route jusqu’à Kilkenny — ville médiévale, château de Kilkenny, visite de la brasserie Smithwick’s, déjeuner chez Campagne. Retour pour le House Restaurant." },
+      { "day": 6, "title": "Péninsule de Dingle ou dîner en cave", "description": "Soit 2 h 30 de route à l’ouest pour passer la journée sur la péninsule de Dingle, soit rester pour le spa complet et réserver un dîner en cave à vins au House." },
+      { "day": 7, "title": "Départ tranquille", "description": "Petit-déjeuner face à la baie, dernier Cliff Walk, transfert vers Cork ou continuation jusqu’à Dublin." }
+    ],
+    "caveats": [
+      "Pas un château — les couples attendant lits à baldaquin et cheminées seront déçus. Cliff House est moderniste et orienté design.",
+      "Ardmore est véritablement petit ; si vous avez besoin d’énergie urbaine ou de shopping, ce n’est pas le bon choix. Roulez jusqu’à Waterford ou Cork.",
+      "L’Atlantique est splendide mais froid — même en août, il oscille entre 14 et 15 °C. La piscine de l’hôtel est faite pour nager."
+    ],
+    "faqs": [
+      { "question": "Convient-il aux jeunes mariés ?", "answer": "Oui pour les couples sensibles au design qui veulent la dramaturgie atlantique, la cuisine étoilée et une alternative plus calme aux châteaux." },
+      { "question": "Quelle est la meilleure période ?", "answer": "Mai, juin, septembre — longues journées, foules réduites. Juillet-août est plus animé mais vivant." },
+      { "question": "Faut-il réserver à l’avance ?", "answer": "Cliff Suites : 4 à 6 mois à l’avance pour mai-septembre." },
+      { "question": "Adults-only ?", "answer": "Non, mais l’ambiance est très adulte — l’architecture et le positionnement tarifaire s’en chargent." },
+      { "question": "Quel type de chambre choisir ?", "answer": "Une Cliff Suite. L’Atlantic Suite si disponible." },
+      { "question": "Comment s’y rendre ?", "answer": "Aéroport de Cork (CRK) à 1 h de route — meilleures connexions UE. Aéroport de Dublin (DUB) à 2 h 30 de route." }
+    ],
+    "email_template": "Objet : Demande lune de miel — Cliff House Hotel, Ardmore\n\nChère équipe réservations de Cliff House,\n\nNous aimerions séjourner 3 à 5 nuits pour notre lune de miel [DATES]. Pourriez-vous nous envoyer les tarifs pour une Cliff Suite et tout forfait lune de miel ?\n\nQuestions :\n1. Turndown lune de miel à l’arrivée ?\n2. Menu dégustation au House Restaurant le premier soir ?\n3. Disponibilité d’un soin en couple au spa ?\n4. Transfert depuis l’aéroport de Cork ?\n\nMerci,\n[Vos noms]"
+  }
+}

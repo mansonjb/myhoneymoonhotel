@@ -1,0 +1,76 @@
+{
+  "tagline": "Au-delà de Bali — les plages sauvages de Sumba, les dragons de Komodo et le littoral préservé de Lombok.",
+  "intro": "Tandis que Bali monopolise la conversation, les îles périphériques d’Indonésie offrent quelque chose de plus rare : un isolement véritable, une biodiversité extraordinaire et certains des lodges de luxe au design le plus spectaculaire au monde. Le resort Nihi de Sumba a été plusieurs fois élu meilleur hôtel du monde — et l’île elle-même, avec ses villages d’ikat, ses chevaux sauvages sur la plage et ses baies de surf désertes, dessine la matrice du paradis intact. Ajoutez les dragons préhistoriques de Komodo, les sommets volcaniques de Lombok et les eaux turquoise des îles Gili : vous obtenez un archipel qui récompense les couples prêts à dépasser l’évidence.",
+  "bestTime": "Mai-oct.",
+  "flightFrom": "16-20 h depuis l’Europe (via Bali ou Jakarta)",
+  "topExperience": "Aventure sur des îles reculées",
+  "perfectFor": [
+    "Couples aventureux qui veulent s’écarter complètement des sentiers touristiques",
+    "Passionnés de plongée — Komodo offre l’une des meilleures plongées en dérive au monde",
+    "Ceux qui cherchent un luxe extraordinaire dans un cadre véritablement sauvage et reculé",
+    "Amoureux de la faune — dragons de Komodo, tortues marines et raies manta",
+    "Couples qui veulent un luxe digne de Bali avec une fraction de la foule"
+  ],
+  "skipIf": [
+    "Vous voulez une accessibilité facile et des correspondances courtes",
+    "La moindre rusticité vous angoisse — Sumba est reculée",
+    "Vous avez besoin de restaurants fiables au-delà de votre lodge",
+    "Le mal de mer sur les petits bateaux est une vraie préoccupation"
+  ],
+  "experiences": [
+    { "title": "Trek du dragon de Komodo à l’aube", "description": "Marchez avec un ranger dans le parc national de Komodo à l’aube, quand les dragons sont les plus actifs. Voir un prédateur préhistorique de 3 mètres à dix mètres de soi est humiliant et extraordinaire.", "cost": "50-80 $ entrée du parc + ranger ; charter de bateau 150-400 $/jour", "tip": "Essayez l’île de Rinca, moins visitée — moins de touristes que Komodo. Pink Beach, à côté, est la plage la plus photogénique d’Indonésie." },
+    { "title": "Surf exclusif à Nihi Sumba", "description": "La vague d’Occy’s Left, face au Nihi, est l’un des grands tubes d’Indonésie. Les clients y accèdent en exclusivité par bateau depuis le ponton du resort — sans jamais de foule.", "cost": "Inclus pour les clients du Nihi ; charter privé 200-400 $ pour les non-résidents", "tip": "Non-surfeurs : la balade à cheval sur les plages sauvages de Sumba à l’aube est tout aussi extraordinaire." },
+    { "title": "Rencontre avec les raies manta à Manta Point", "description": "Le Manta Point de Komodo concentre des dizaines de raies manta océaniques toute l’année. Faire du snorkel en surface pendant qu’elles glissent sous vous est l’une des rencontres animales les plus sereines qui soient.", "cost": "50-80 $/pers. en sortie guidée snorkel", "tip": "Octobre-février pour les plus grandes concentrations de mantas. Les sorties du matin offrent l’eau la plus claire." },
+    { "title": "Lever du soleil sur le Rinjani (Lombok)", "description": "Une ascension de 2 jours jusqu’au bord du cratère du mont Rinjani (3 726 m) récompense par l’un des paysages volcaniques les plus saisissants d’Asie du Sud-Est et un lac de cratère à 2 600 m.", "cost": "150-300 $/pers. en trek guidé de 2 jours", "tip": "Faisable pour des couples sportifs sans expérience technique. Prévoyez des couches chaudes — le bord du cratère descend à 5 °C la nuit." },
+    { "title": "Village de tisserands d’ikat à Sumba", "description": "Visitez un village traditionnel sumbanais où des femmes tissent à la main des étoffes d’ikat teintes selon des techniques inchangées depuis des siècles. Achetez directement auprès des tisserandes — chaque pièce demande des mois.", "cost": "Droit d’entrée du village 10-20 $ ; étoffes 50-500 $ selon la complexité", "tip": "Demandez à votre lodge d’organiser une introduction. Débarquer sans contact local paraît intrusif." }
+  ],
+  "months": [
+    { "weather": "Saison des pluies, fortes pluies possibles", "crowds": "Faible", "price": "Bas", "verdict": "Quelques pluies, super tarifs" },
+    { "weather": "Humide, mer parfois agitée", "crowds": "Faible", "price": "Le plus bas", "verdict": "Difficile pour les bateaux et la plongée" },
+    { "weather": "Transition, amélioration", "crowds": "Faible", "price": "Bas", "verdict": "À la loterie" },
+    { "weather": "Assèchement, meilleure visibilité", "crowds": "Faible", "price": "Bas-moyen", "verdict": "Intersaison sous-estimée" },
+    { "weather": "Début de la saison sèche, excellent", "crowds": "Modérée", "price": "Moyen", "verdict": "Idéal pour entamer la saison sèche" },
+    { "weather": "Sec, dégagé, conditions parfaites", "crowds": "Modérée", "price": "Moyen-élevé", "verdict": "Excellent partout" },
+    { "weather": "Pic de saison sèche, meilleure plongée", "crowds": "Sommet", "price": "Élevé", "verdict": "Meilleures conditions, période la plus chargée" },
+    { "weather": "Impeccable, mois le plus fréquenté", "crowds": "Sommet", "price": "Maximal", "verdict": "Parfait, mais tarifs premium" },
+    { "weather": "Toujours excellent, foule en baisse", "crowds": "Modérée", "price": "Moyen-élevé", "verdict": "Meilleur rapport en haute saison" },
+    { "weather": "Fin de saison sèche, encore très bien", "crowds": "Faible-modérée", "price": "Moyen", "verdict": "Forte intersaison" },
+    { "weather": "Transition, quelques pluies", "crowds": "Faible", "price": "Bas-moyen", "verdict": "Bonnes affaires, léger risque" },
+    { "weather": "Début de la saison des pluies", "crowds": "Faible-modérée", "price": "Moyen", "verdict": "Fermetures de Noël ; vérifiez les disponibilités" }
+  ],
+  "budgetTiers": [
+    { "label": "Boutiques et maisons d’hôtes", "daily": "80-250 $/nuit", "includes": "Bungalow bien situé à Lombok ou aux Gili. Bel accès au snorkel, valeur sincère." },
+    { "label": "Lodges de luxe", "daily": "400-900 $/nuit", "includes": "Villa privée avec piscine, activités guidées incluses, cadre naturel extraordinaire. Le bon créneau pour un luxe aventureux." },
+    { "label": "Ultra-luxe", "daily": "900-2 500 $+/nuit", "includes": "Niveau Nihi Sumba — l’hôtel le plus primé au monde sur une île déserte. Tout inclus, accès exclusif au surf, isolement total." }
+  ],
+  "areas": [
+    { "name": "Sumba", "description": "Le Nihi Sumba est la pièce maîtresse, mais l’île entière offre culture du cheval, villages traditionnels et plages désertes. Vol via Bali (1 h 30). La destination la plus extraordinaire de l’archipel." },
+    { "name": "Komodo & Flores", "description": "Vol vers Labuan Bajo (Flores). Base à terre ou en liveaboard. Le parc national de Komodo, Manta Point, Pink Beach et le point de vue de Padar Island sont tous accessibles à la journée." },
+    { "name": "Lombok", "description": "Moins développée que Bali. Le volcan Rinjani pour les couples actifs, Gili Meno et Gili Air pour les jours de plage. La zone sud de Kuta abrite des hôtels boutiques de plus en plus remarquables." },
+    { "name": "Java (Borobudur)", "description": "Ajoutez une nuit à l’Amanjiwo, face à Borobudur, le plus grand temple bouddhique du monde, au lever du soleil. Une tout autre dimension de la culture indonésienne, à une heure de vol de Bali." }
+  ],
+  "expertTips": [
+    { "title": "Nihi Sumba se remplit vite — vérifiez les disponibilités tout de suite", "body": "Le resort limite strictement le nombre de clients. Pour juillet-août, certains réservent 12 à 18 mois à l’avance. Vérifiez immédiatement si Nihi est votre premier choix." },
+    { "title": "Un liveaboard à Komodo est une option extraordinaire pour une lune de miel", "body": "Dormir sur un phinisi traditionnel entre les sites de plongée, se réveiller chaque matin dans une baie différente — l’une des grandes expériences romantiques d’Asie du Sud-Est à 300-800 $/nuit tout compris." },
+    { "title": "Combinez Komodo et Sumba via le hub de Bali", "body": "Vol Labuan Bajo → Bali (1 h) → Sumba (1 h 30). Une semaine partagée entre les deux îles est la lune de miel « îles périphériques » par excellence." },
+    { "title": "Emportez des chaussures de récif pour Komodo", "body": "Les plages autour de Komodo ont des roches volcaniques tranchantes. Les chaussures de récif sont indispensables pour entrer et sortir des bateaux. Achetez-les à Bali avant de continuer vers l’est." }
+  ],
+  "packing": [
+    { "item": "Crème solaire minérale reef-safe", "why": "Le parc national de Komodo interdit les crèmes chimiques. Une crème SPF50 minérale est difficile à trouver localement — apportez-la." },
+    { "item": "Médicaments anti-mal de mer", "why": "Les traversées à Komodo peuvent être agitées, surtout en juillet-août quand la houle monte. Stugeron ou Dramamine évite une journée gâchée." },
+    { "item": "Sac étanche", "why": "Entrer et sortir des bateaux avec appareils et objets de valeur impose un vrai sac étanche. Non négociable pour les itinéraires à Komodo." },
+    { "item": "Chemise légère à manches longues", "why": "Protection solaire sur les bateaux et tenue requise pour les visites de mosquées ou temples. Le lin léger est parfait." },
+    { "item": "Appareil photo étanche ou GoPro", "why": "Les raies manta de Komodo et les tortues marines des Gili sont la faune la plus photogénique d’Asie du Sud-Est." }
+  ],
+  "guide": {
+    "getting": "Vol vers Bali (DPS) comme hub. Depuis l’Europe : 14-18 h via Dubaï, Singapour ou Doha. Depuis l’Australie : direct 3 h depuis Perth, 6 h depuis Sydney. Depuis Bali : vol vers Labuan Bajo (Flores) pour Komodo avec Garuda/Wings Air (1 h 30) ; vol vers Tambolaka pour Sumba (1 h 30 depuis Bali). Les vols intérieurs se remplissent en haute saison — réservez avant de partir.",
+    "where": "Pour Komodo : base à Labuan Bajo ou liveaboard. Pour Sumba : les resorts Nihi ou Lelewatu sont en tout inclus et constituent l’intérêt même du voyage. Meilleure combinaison : 3 nuits en liveaboard à Komodo + 4 nuits à Sumba.",
+    "when": "Mai-octobre est la fenêtre non négociable. Juillet-août est le pic de plongée à Komodo — meilleure visibilité, plus de mantas. Septembre est superbe avec moins de monde. Évitez novembre-mars : mers agitées rendant Komodo dangereuse et Sumba avec des semaines de fortes pluies."
+  },
+  "localFood": "Ayam betutu (poulet épicé balinais cuit lentement) ; poisson grillé frais au sambal sur n’importe quelle plage des Gili ; bebek goreng (canard croustillant) dans les grands warungs d’Ubud ; thon frais dans un restaurant en bord d’eau de Labuan Bajo au coucher du soleil. La seule variété indonésienne de sambals — plus de 300 types régionaux — justifie le voyage.",
+  "language": "Bahasa Indonesia. L’anglais est parlé dans toutes les zones touristiques.",
+  "seo": {
+    "title": "Lune de miel en Indonésie : 9 retraites insulaires 2026",
+    "description": "9 retraites de Komodo, Sumba et Lombok classées. Nihi, Amanwana, Bawah Reserve. À partir de 600 $/nuit. Verdicts secs avr.-oct."
+  }
+}

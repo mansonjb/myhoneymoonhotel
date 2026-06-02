@@ -7,7 +7,10 @@
     "title": "Bohinj ECO Hotel: Wild Lake Alpine Honeymoon Review",
     "description": "Bohinj ECO Hotel review. Triglav National Park, alpine pool, wild lake. Score 80/100, from $200/night. Real 2026 verdict."
   },
-  "experience_types": ["spa", "boutique"],
+  "experience_types": [
+    "spa",
+    "boutique"
+  ],
   "honeymoon_score": 80,
   "score_breakdown": {
     "adults_only": 0,
@@ -21,7 +24,10 @@
     "luxury": 9
   },
   "stars": 4,
-  "price_per_night_usd": { "min": 200, "max": 480 },
+  "price_per_night_usd": {
+    "min": 200,
+    "max": 480
+  },
   "adults_only": false,
   "amenities": [
     "spa",
@@ -34,11 +40,31 @@
     "national-park"
   ],
   "photos": [
-    { "url": "/images/hotels/bohinj-eco-hotel-slovenia/hero.webp", "alt": "Bohinj ECO Hotel — hero", "type": "hero" },
-    { "url": "/images/hotels/bohinj-eco-hotel-slovenia/room.webp", "alt": "Bohinj ECO Hotel — room", "type": "room" },
-    { "url": "/images/hotels/bohinj-eco-hotel-slovenia/pool.webp", "alt": "Bohinj ECO Hotel — pool", "type": "pool" },
-    { "url": "/images/hotels/bohinj-eco-hotel-slovenia/spa.webp", "alt": "Bohinj ECO Hotel — spa", "type": "spa" },
-    { "url": "/images/hotels/bohinj-eco-hotel-slovenia/dining.webp", "alt": "Bohinj ECO Hotel — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/bohinj-eco-hotel-slovenia/hero.webp",
+      "alt": "bohinj-eco-hotel-slovenia — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/bohinj-eco-hotel-slovenia/room.webp",
+      "alt": "bohinj-eco-hotel-slovenia — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/bohinj-eco-hotel-slovenia/pool.webp",
+      "alt": "bohinj-eco-hotel-slovenia — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/bohinj-eco-hotel-slovenia/spa.webp",
+      "alt": "bohinj-eco-hotel-slovenia — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/bohinj-eco-hotel-slovenia/dining.webp",
+      "alt": "bohinj-eco-hotel-slovenia — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 4.5,
   "tripadvisor_award": true,
@@ -47,13 +73,41 @@
     "verdict": "Bohinj ECO Hotel is the right base for the half-day or 1-night detour to Slovenia\\'s wilder twin lake. Where Bled is the postcard, Bohinj is the real Triglav National Park — bigger, colder, mostly undeveloped, surrounded by 2,500-metre peaks, and free of pletna boats, casino lights, or tour-bus crowds. The hotel is a contemporary 4-star property in Bohinjska Bistrica village, 5 minutes\\' drive from the lake itself, built to the ECO standard (geothermal heating, low-impact construction, locally sourced materials). The wellness centre is genuinely good for the price point — indoor pool with mountain-glass window walls, four saunas, salt room, and treatment rooms. The restaurant offers a credible regional menu with local Bohinj trout, beef tartare, and the štruklji you should be eating in this part of the country. For a honeymoon couple this is not a Vila Bled or Vila Planinka — the rooms are modern-functional rather than character-rich. But it is the right hotel for a 1–2 night Bohinj component of a longer Slovenian honeymoon: kayak the lake morning, cable car up Vogel afternoon, hot tub and dinner in the evening. Combine with 3 nights at Bled and 2 nights in Ljubljana for the full Slovenia. The Garden Village glamping site on Lake Bled itself is the more design-led alternative if Bohinj feels too remote.",
     "best_room": "An Alpine Suite — top floor, balcony, full mountain view. For a slight splurge the Family Suite is genuinely spacious for two. Avoid the smallest standard rooms; the views are the point.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival Bled, lake settle", "description": "Drive from LJU airport (45 min) to Vila Bled. Pletna boat to Bled Island, 99 steps. Dinner at Park Restaurant." },
-      { "day": 2, "title": "Bled lake day", "description": "Vintgar Gorge early. Lake circuit walk. Castle visit sunset, dinner at castle restaurant." },
-      { "day": 3, "title": "Drive to Bohinj", "description": "25-minute drive. Check-in at Bohinj ECO. Afternoon kayak the western (quieter) shore. Sunset at the St. John\\'s Church. Dinner at hotel." },
-      { "day": 4, "title": "Vogel cable car, Triglav views", "description": "Cable car up Vogel (1535m) for the Julian Alps panorama. Mountain hut lunch. Afternoon hike to Mostnica gorge. Wellness evening — saunas, plunge, treatment." },
-      { "day": 5, "title": "Return to Bled, lake swim", "description": "Drive back 25 minutes. Lunch at Mlino. Afternoon swim and final pletna ride. Dinner at Mayer or Vila Bled." },
-      { "day": 6, "title": "Ljubljana day", "description": "Drive 45 minutes. Check in at Hotel Cubo. Walking tour, Plečnik buildings, market. Atelje dinner." },
-      { "day": 7, "title": "Castle morning, departure", "description": "Funicular to Ljubljana castle. Lunch by the river. Taxi to LJU airport." }
+      {
+        "day": 1,
+        "title": "Arrival Bled, lake settle",
+        "description": "Drive from LJU airport (45 min) to Vila Bled. Pletna boat to Bled Island, 99 steps. Dinner at Park Restaurant."
+      },
+      {
+        "day": 2,
+        "title": "Bled lake day",
+        "description": "Vintgar Gorge early. Lake circuit walk. Castle visit sunset, dinner at castle restaurant."
+      },
+      {
+        "day": 3,
+        "title": "Drive to Bohinj",
+        "description": "25-minute drive. Check-in at Bohinj ECO. Afternoon kayak the western (quieter) shore. Sunset at the St. John\\'s Church. Dinner at hotel."
+      },
+      {
+        "day": 4,
+        "title": "Vogel cable car, Triglav views",
+        "description": "Cable car up Vogel (1535m) for the Julian Alps panorama. Mountain hut lunch. Afternoon hike to Mostnica gorge. Wellness evening — saunas, plunge, treatment."
+      },
+      {
+        "day": 5,
+        "title": "Return to Bled, lake swim",
+        "description": "Drive back 25 minutes. Lunch at Mlino. Afternoon swim and final pletna ride. Dinner at Mayer or Vila Bled."
+      },
+      {
+        "day": 6,
+        "title": "Ljubljana day",
+        "description": "Drive 45 minutes. Check in at Hotel Cubo. Walking tour, Plečnik buildings, market. Atelje dinner."
+      },
+      {
+        "day": 7,
+        "title": "Castle morning, departure",
+        "description": "Funicular to Ljubljana castle. Lunch by the river. Taxi to LJU airport."
+      }
     ],
     "caveats": [
       "Rooms are modern-functional rather than design-rich — book on location, not aesthetic.",
@@ -61,12 +115,30 @@
       "Lake Bohinj water is genuinely colder than Bled — peak swim only July–August."
     ],
     "faqs": [
-      { "question": "Bohinj ECO or stay at Bled and day-trip?", "answer": "Day-tripping is fine if time is tight. Staying 1–2 nights gives you the dawn and dusk lake, which is the magical part." },
-      { "question": "How wild is Lake Bohinj really?", "answer": "Genuinely wild — inside Triglav National Park, no resorts, just one church, kayaks, and mountains rising from the water." },
-      { "question": "Is the wellness centre worth using?", "answer": "Yes — four saunas, indoor pool with mountain views, salt room. For the 4-star price tier it is very good." },
-      { "question": "Can we hike from the hotel?", "answer": "Direct hikes start a short drive away — Mostnica gorge, Slap Savica waterfall, Vogel cable car." },
-      { "question": "Children?", "answer": "Common — this is a family-friendly hotel as well as honeymoon. Pick another property if you want adults-only quiet." },
-      { "question": "When is the best time?", "answer": "June through September. May and October are pretty but lake too cold for swimming. Winter for skiing." }
+      {
+        "question": "Bohinj ECO or stay at Bled and day-trip?",
+        "answer": "Day-tripping is fine if time is tight. Staying 1–2 nights gives you the dawn and dusk lake, which is the magical part."
+      },
+      {
+        "question": "How wild is Lake Bohinj really?",
+        "answer": "Genuinely wild — inside Triglav National Park, no resorts, just one church, kayaks, and mountains rising from the water."
+      },
+      {
+        "question": "Is the wellness centre worth using?",
+        "answer": "Yes — four saunas, indoor pool with mountain views, salt room. For the 4-star price tier it is very good."
+      },
+      {
+        "question": "Can we hike from the hotel?",
+        "answer": "Direct hikes start a short drive away — Mostnica gorge, Slap Savica waterfall, Vogel cable car."
+      },
+      {
+        "question": "Children?",
+        "answer": "Common — this is a family-friendly hotel as well as honeymoon. Pick another property if you want adults-only quiet."
+      },
+      {
+        "question": "When is the best time?",
+        "answer": "June through September. May and October are pretty but lake too cold for swimming. Winter for skiing."
+      }
     ],
     "email_template": "Subject: Honeymoon booking — Bohinj ECO Hotel\n\nHello,\n\nWe would like to book 2 nights at Bohinj ECO Hotel during our Slovenian honeymoon ([DATES]).\n\nCould you please confirm:\n1. Best available rate on an Alpine Suite, top floor\n2. Honeymoon turndown amenities\n3. Spa treatment availability — couples massage\n4. Kayak rental and Vogel cable car arrangements\n5. Restaurant reservations\n\nThank you,\n[Your names]"
   },

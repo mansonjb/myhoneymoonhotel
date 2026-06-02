@@ -7,7 +7,12 @@
     "title": "Rimrock Resort Banff: Honeymoon Review (2026)",
     "description": "5-star mountainside resort above Banff with valley views. Score 82/100, from $450 CAD/night. Verdict, suite, itinerary & email."
   },
-  "experience_types": ["luxury", "mountain", "spa", "romantic"],
+  "experience_types": [
+    "luxury",
+    "mountain",
+    "spa",
+    "romantic"
+  ],
   "honeymoon_score": 82,
   "score_breakdown": {
     "adults_only": 0,
@@ -21,7 +26,10 @@
     "luxury": 11
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 450, "max": 1500 },
+  "price_per_night_usd": {
+    "min": 450,
+    "max": 1500
+  },
   "adults_only": false,
   "amenities": [
     "spa",
@@ -36,11 +44,21 @@
     "hot-tub"
   ],
   "photos": [
-    { "url": "/images/hotels/rimrock-resort-hotel-banff/hero.webp", "alt": "rimrock-resort-hotel-banff — hero", "type": "hero" },
-    { "url": "/images/hotels/rimrock-resort-hotel-banff/room.webp", "alt": "rimrock-resort-hotel-banff — room", "type": "room" },
-    { "url": "/images/hotels/rimrock-resort-hotel-banff/pool.webp", "alt": "rimrock-resort-hotel-banff — pool", "type": "pool" },
-    { "url": "/images/hotels/rimrock-resort-hotel-banff/spa.webp", "alt": "rimrock-resort-hotel-banff — spa", "type": "spa" },
-    { "url": "/images/hotels/rimrock-resort-hotel-banff/dining.webp", "alt": "rimrock-resort-hotel-banff — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/rimrock-resort-hotel-banff/hero.webp",
+      "alt": "rimrock-resort-hotel-banff — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/rimrock-resort-hotel-banff/room.webp",
+      "alt": "rimrock-resort-hotel-banff — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/rimrock-resort-hotel-banff/pool.webp",
+      "alt": "rimrock-resort-hotel-banff — pool",
+      "type": "pool"
+    }
   ],
   "tripadvisor_rating": 4.5,
   "tripadvisor_award": true,
@@ -49,13 +67,41 @@
     "verdict": "The Rimrock Resort Hotel sits on the mid-flank of Sulphur Mountain at 1,565 m altitude, 5 minutes' drive above Banff town and right next door to the Banff Upper Hot Springs and the Banff Gondola base station. The 333-room hotel has the most spectacular wall-of-glass lobby in the Canadian Rockies — a four-storey atrium with floor-to-ceiling windows facing east into the Bow Valley and the Fairholme Mountain Range, with eagles and elk occasionally visible from the breakfast tables. Rooms are smartly contemporary (refurbished 2022), the higher floors with valley-view balconies that look down 200 m on the Bow River and the Castle in the Rockies opposite. The Eden Restaurant is the property's fine-dining flagship — French tasting menu, mountain-side window, and the kind of seven-course experience that takes three hours and ends with a Cognac on the terrace. The Rimrock's two big amenities are the indoor pool (vaulted-ceiling, mountain-view, with a separate hot tub and steam) and the location: walk-out access to the Upper Hot Springs and Sulphur Mountain Gondola, with the Banff Avenue restaurants 5 min by complimentary shuttle. The honeymoon proposition is geographic privacy — by sitting on the mountainside above the town, you wake up to a view no in-town hotel can match, and you walk to the Hot Springs in slippers. What the Rimrock sacrifices vs the Fairmont Banff Springs: the actual castle architecture, the 1888 Chop House, the historical romance. What it gains: a contemporary refurbishment, dramatic valley views from every Mountain View room, and a quieter operation. The honeymoon-best move is a Mountain View Premier room on the highest possible floor with a balcony — and the early-morning ritual of breakfast in the room watching the valley sun-up.",
     "best_room": "A Mountain View Premier room on the highest floor with a balcony — valley sun-up, eagles below, the Castle in the Rockies opposite. The Signature Suites (corner) have the broadest valley view. Avoid standard rooms without balcony or mountain view; the view is the entire reason to stay here.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival and Eden tasting menu", "description": "Calgary Airport (1h 30min drive), check-in. Welcome cocktail at the Larkspur Bar. 7-course tasting at Eden Restaurant." },
-      { "day": 2, "title": "Banff Gondola and Hot Springs", "description": "Walk to the Banff Gondola (next door) for Sulphur Mountain top. Lunch at the Sky Bistro. Walk back via the Banff Upper Hot Springs (5 min)." },
-      { "day": 3, "title": "Lake Louise and Moraine Lake", "description": "Drive 45 min north. Canoe rental at Lake Louise, lakeshore walk. Moraine Lake shuttle. Lunch at the Chateau Lake Louise. Return for the spa." },
-      { "day": 4, "title": "Icefields Parkway day", "description": "Drive Highway 93 north — Bow Lake, Peyto Lake, Crowfoot Glacier. Lunch at Num-Ti-Jah Lodge. Return for cocktails on the lobby terrace." },
-      { "day": 5, "title": "Helicopter day", "description": "Drive 30 min to Canmore for Rockies Heli — 90-min glacier picnic. Lunch at Eden in Canmore. Return for spa and dinner at Eden Restaurant." },
-      { "day": 6, "title": "Johnston Canyon and Banff Avenue", "description": "Drive to Johnston Canyon for the catwalk hike. Lunch at Baker Creek. Shuttle to Banff Avenue for shopping. Dinner at the Bison." },
-      { "day": 7, "title": "Slow departure", "description": "Final breakfast looking at the valley, 1h 30min drive to Calgary." }
+      {
+        "day": 1,
+        "title": "Arrival and Eden tasting menu",
+        "description": "Calgary Airport (1h 30min drive), check-in. Welcome cocktail at the Larkspur Bar. 7-course tasting at Eden Restaurant."
+      },
+      {
+        "day": 2,
+        "title": "Banff Gondola and Hot Springs",
+        "description": "Walk to the Banff Gondola (next door) for Sulphur Mountain top. Lunch at the Sky Bistro. Walk back via the Banff Upper Hot Springs (5 min)."
+      },
+      {
+        "day": 3,
+        "title": "Lake Louise and Moraine Lake",
+        "description": "Drive 45 min north. Canoe rental at Lake Louise, lakeshore walk. Moraine Lake shuttle. Lunch at the Chateau Lake Louise. Return for the spa."
+      },
+      {
+        "day": 4,
+        "title": "Icefields Parkway day",
+        "description": "Drive Highway 93 north — Bow Lake, Peyto Lake, Crowfoot Glacier. Lunch at Num-Ti-Jah Lodge. Return for cocktails on the lobby terrace."
+      },
+      {
+        "day": 5,
+        "title": "Helicopter day",
+        "description": "Drive 30 min to Canmore for Rockies Heli — 90-min glacier picnic. Lunch at Eden in Canmore. Return for spa and dinner at Eden Restaurant."
+      },
+      {
+        "day": 6,
+        "title": "Johnston Canyon and Banff Avenue",
+        "description": "Drive to Johnston Canyon for the catwalk hike. Lunch at Baker Creek. Shuttle to Banff Avenue for shopping. Dinner at the Bison."
+      },
+      {
+        "day": 7,
+        "title": "Slow departure",
+        "description": "Final breakfast looking at the valley, 1h 30min drive to Calgary."
+      }
     ],
     "caveats": [
       "Mountainside, not in-town — you depend on the shuttle or car for Banff Avenue. Wonderful for the views, less spontaneous for restaurant choice.",
@@ -63,12 +109,30 @@
       "Eden Restaurant is excellent but the in-room dining is comfortable rather than exceptional."
     ],
     "faqs": [
-      { "question": "Good for honeymooners?", "answer": "Yes for couples who prioritise dramatic mountain view from the room over town-walking. The Mountain View Premier with balcony is honeymoon-perfect." },
-      { "question": "Best time to visit?", "answer": "June–September for hiking and long evenings. December–March for skiing (Sunshine Village shuttle stop next door). Mid-September for golden larches." },
-      { "question": "Book in advance?", "answer": "Mountain View Premier and Signature Suites: 4–6 months ahead for July–August." },
-      { "question": "Adults-only?", "answer": "No. Families do stay; vibe stays mostly adult outside Canadian school holidays." },
-      { "question": "Best room type?", "answer": "Mountain View Premier on highest floor with balcony, or a corner Signature Suite." },
-      { "question": "How to get there?", "answer": "Calgary International (YYC) is 1h 30min by car. The Rimrock arranges Banff Airporter pickup or private transfer." }
+      {
+        "question": "Good for honeymooners?",
+        "answer": "Yes for couples who prioritise dramatic mountain view from the room over town-walking. The Mountain View Premier with balcony is honeymoon-perfect."
+      },
+      {
+        "question": "Best time to visit?",
+        "answer": "June–September for hiking and long evenings. December–March for skiing (Sunshine Village shuttle stop next door). Mid-September for golden larches."
+      },
+      {
+        "question": "Book in advance?",
+        "answer": "Mountain View Premier and Signature Suites: 4–6 months ahead for July–August."
+      },
+      {
+        "question": "Adults-only?",
+        "answer": "No. Families do stay; vibe stays mostly adult outside Canadian school holidays."
+      },
+      {
+        "question": "Best room type?",
+        "answer": "Mountain View Premier on highest floor with balcony, or a corner Signature Suite."
+      },
+      {
+        "question": "How to get there?",
+        "answer": "Calgary International (YYC) is 1h 30min by car. The Rimrock arranges Banff Airporter pickup or private transfer."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — Rimrock Resort Hotel, Banff\n\nDear Rimrock reservations,\n\nWe'd like a Mountain View Premier room (highest possible floor with balcony) or a corner Signature Suite for [DATES], 4 to 6 nights. Could you confirm rates and any honeymoon arrangements?\n\nQuestions:\n1. Honeymoon arrival turndown?\n2. Eden Restaurant tasting menu reservation (window table)?\n3. Couples spa treatment?\n4. Transfer help from Calgary Airport?\n\nThank you,\n[Your names]"
   },

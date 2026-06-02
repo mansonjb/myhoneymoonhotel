@@ -7,7 +7,10 @@
     "title": "Brunton Boatyard Fort Kochi: Heritage Hotel Review 2026",
     "description": "Brunton Boatyard Fort Kochi honeymoon review. CGH Earth heritage hotel on the harbour. Score 82/100, from $200/night. Real 2026 verdict."
   },
-  "experience_types": ["boutique", "luxury"],
+  "experience_types": [
+    "boutique",
+    "luxury"
+  ],
   "honeymoon_score": 82,
   "score_breakdown": {
     "adults_only": 0,
@@ -21,7 +24,10 @@
     "luxury": 12
   },
   "stars": 4,
-  "price_per_night_usd": { "min": 200, "max": 550 },
+  "price_per_night_usd": {
+    "min": 200,
+    "max": 550
+  },
   "adults_only": false,
   "amenities": [
     "harbour-views",
@@ -34,11 +40,31 @@
     "ferry-jetty"
   ],
   "photos": [
-    { "url": "/images/hotels/brunton-boatyard-fort-kochi-kerala/hero.webp", "alt": "Brunton Boatyard — hero", "type": "hero" },
-    { "url": "/images/hotels/brunton-boatyard-fort-kochi-kerala/room.webp", "alt": "Brunton Boatyard — room", "type": "room" },
-    { "url": "/images/hotels/brunton-boatyard-fort-kochi-kerala/pool.webp", "alt": "Brunton Boatyard — pool", "type": "pool" },
-    { "url": "/images/hotels/brunton-boatyard-fort-kochi-kerala/spa.webp", "alt": "Brunton Boatyard — spa", "type": "spa" },
-    { "url": "/images/hotels/brunton-boatyard-fort-kochi-kerala/dining.webp", "alt": "Brunton Boatyard — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/brunton-boatyard-fort-kochi-kerala/hero.webp",
+      "alt": "brunton-boatyard-fort-kochi-kerala — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/brunton-boatyard-fort-kochi-kerala/room.webp",
+      "alt": "brunton-boatyard-fort-kochi-kerala — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/brunton-boatyard-fort-kochi-kerala/pool.webp",
+      "alt": "brunton-boatyard-fort-kochi-kerala — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/brunton-boatyard-fort-kochi-kerala/spa.webp",
+      "alt": "brunton-boatyard-fort-kochi-kerala — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/brunton-boatyard-fort-kochi-kerala/dining.webp",
+      "alt": "brunton-boatyard-fort-kochi-kerala — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 4.6,
   "tripadvisor_award": true,
@@ -47,13 +73,41 @@
     "verdict": "Brunton Boatyard is the heritage hotel at the heart of Fort Kochi — built on the site of a 19th-century shipyard, designed in Portuguese-Dutch-British colonial style with broad teak verandas overlooking the harbour and the Chinese fishing nets. It belongs to the CGH Earth group (the same people who run Spice Coast Cruises and Marari Beach Resort), and shares their unmistakable formula: heritage-led architecture, regional food taken seriously, no over-designed wellness gimmicks, and a calm sense that the hotel is part of the town rather than imposed on it. For a Kerala honeymoon it is the ideal arrival hotel — direct harbour-view rooms with antique four-posters and shuttered louver windows, a pool facing the water, two outstanding restaurants (the History serves Kerala-Portuguese fusion, the Armoury Café does casual harbour-front lunches), and a 60-second walk to the spice quarter, the synagogue, and the Kathakali theatre. Pair it with one or two nights at the start of a Kerala trip plus a last-night return on departure. It will never be as plush as the Taj Malabar across the harbour, but it has more soul and more interesting food. Pick Brunton if you care about heritage and atmosphere; pick the Taj if you care about full international-luxury polish.",
     "best_room": "A Sea View room on the harbour side, top floor — wider veranda, better light, the famous sunset over the Chinese nets directly framed. Avoid the courtyard-view rooms; while quieter, they lack the central reason to stay here.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival, Fort Kochi walking sunset", "description": "Driver from COK airport (45 min). Check-in to a Sea View room. Welcome lime soda. Walking sunset along the Chinese-net promenade. Dinner at the History restaurant — order the Mappila biryani and prawn moilee." },
-      { "day": 2, "title": "Fort Kochi heritage day", "description": "Heritage walking tour from the hotel — Mattancherry Palace, Jewish synagogue, spice market. Lunch at Kashi Art Café. Afternoon visit to Pepper House. Kathakali performance at Greenix Village 6pm. Late dinner at Fort House Hotel for harbour grilled seafood." },
-      { "day": 3, "title": "Drive to Munnar", "description": "4-hour scenic drive up to the tea hills. Check-in at Windermere Estate. Sunset on the bungalow veranda. Candlelit dinner." },
-      { "day": 4, "title": "Munnar tea estate day", "description": "Plantation walk, tea factory tour, picnic lunch. Mattupetty dam, sunset at Top Station. Dinner in the planter\\'s dining room." },
-      { "day": 5, "title": "Drive down to Kumarakom", "description": "5-hour drive via Thekkady to the backwaters. Check-in at Niraamaya or Kumarakom Lake Resort. Sunset cruise on the lake." },
-      { "day": 6, "title": "Houseboat day on Spice Coast", "description": "Mid-stay private kettuvallam — board at Alleppey at 12pm. Slow afternoon, dawn-village mooring, dinner under stars." },
-      { "day": 7, "title": "Disembark, drive back to Cochin", "description": "Disembark 9am. Drive back to Fort Kochi for one final night at Brunton, or direct to COK airport." }
+      {
+        "day": 1,
+        "title": "Arrival, Fort Kochi walking sunset",
+        "description": "Driver from COK airport (45 min). Check-in to a Sea View room. Welcome lime soda. Walking sunset along the Chinese-net promenade. Dinner at the History restaurant — order the Mappila biryani and prawn moilee."
+      },
+      {
+        "day": 2,
+        "title": "Fort Kochi heritage day",
+        "description": "Heritage walking tour from the hotel — Mattancherry Palace, Jewish synagogue, spice market. Lunch at Kashi Art Café. Afternoon visit to Pepper House. Kathakali performance at Greenix Village 6pm. Late dinner at Fort House Hotel for harbour grilled seafood."
+      },
+      {
+        "day": 3,
+        "title": "Drive to Munnar",
+        "description": "4-hour scenic drive up to the tea hills. Check-in at Windermere Estate. Sunset on the bungalow veranda. Candlelit dinner."
+      },
+      {
+        "day": 4,
+        "title": "Munnar tea estate day",
+        "description": "Plantation walk, tea factory tour, picnic lunch. Mattupetty dam, sunset at Top Station. Dinner in the planter\\'s dining room."
+      },
+      {
+        "day": 5,
+        "title": "Drive down to Kumarakom",
+        "description": "5-hour drive via Thekkady to the backwaters. Check-in at Niraamaya or Kumarakom Lake Resort. Sunset cruise on the lake."
+      },
+      {
+        "day": 6,
+        "title": "Houseboat day on Spice Coast",
+        "description": "Mid-stay private kettuvallam — board at Alleppey at 12pm. Slow afternoon, dawn-village mooring, dinner under stars."
+      },
+      {
+        "day": 7,
+        "title": "Disembark, drive back to Cochin",
+        "description": "Disembark 9am. Drive back to Fort Kochi for one final night at Brunton, or direct to COK airport."
+      }
     ],
     "caveats": [
       "Some bathrooms still have the original colonial layout — characterful but not luxurious.",
@@ -61,12 +115,30 @@
       "The pool is small and overlooks the harbour rather than being a sun-drenched lounger pool."
     ],
     "faqs": [
-      { "question": "Brunton Boatyard or Taj Malabar?", "answer": "Brunton has more character and is in Fort Kochi itself — walkable to everything. Taj Malabar has glossier rooms but is on Willingdon Island, requiring the ferry." },
-      { "question": "Is the History restaurant worth booking ahead?", "answer": "Yes — book for your first or last night. Their fusion menu (Mappila, Cochin Jewish, Portuguese-Kerala) is the most ambitious in town." },
-      { "question": "Can we walk to the Chinese fishing nets?", "answer": "Yes — 2 minutes along the promenade from the hotel entrance." },
-      { "question": "Does the spa do real Ayurveda?", "answer": "Yes — a proper CGH Earth Ayurveda menu with consultation. For a serious programme stay at Coconut Lagoon or Marari instead." },
-      { "question": "Children?", "answer": "Allowed but rare — the heritage layout doesn\\'t suit families. Honeymooners and design travellers dominate." },
-      { "question": "When is the best time?", "answer": "November through March. December and January are peak. Avoid May–September monsoon." }
+      {
+        "question": "Brunton Boatyard or Taj Malabar?",
+        "answer": "Brunton has more character and is in Fort Kochi itself — walkable to everything. Taj Malabar has glossier rooms but is on Willingdon Island, requiring the ferry."
+      },
+      {
+        "question": "Is the History restaurant worth booking ahead?",
+        "answer": "Yes — book for your first or last night. Their fusion menu (Mappila, Cochin Jewish, Portuguese-Kerala) is the most ambitious in town."
+      },
+      {
+        "question": "Can we walk to the Chinese fishing nets?",
+        "answer": "Yes — 2 minutes along the promenade from the hotel entrance."
+      },
+      {
+        "question": "Does the spa do real Ayurveda?",
+        "answer": "Yes — a proper CGH Earth Ayurveda menu with consultation. For a serious programme stay at Coconut Lagoon or Marari instead."
+      },
+      {
+        "question": "Children?",
+        "answer": "Allowed but rare — the heritage layout doesn\\'t suit families. Honeymooners and design travellers dominate."
+      },
+      {
+        "question": "When is the best time?",
+        "answer": "November through March. December and January are peak. Avoid May–September monsoon."
+      }
     ],
     "email_template": "Subject: Honeymoon booking — Brunton Boatyard, Fort Kochi\n\nHello,\n\nWe would like to book 2 nights at Brunton Boatyard at the start of our Kerala honeymoon, plus 1 night on return ([DATES]).\n\nCould you please confirm:\n1. Best available rate for a Sea View harbour room, top floor preferred\n2. Honeymoon turndown and in-room amenities\n3. Reservation at History restaurant for first night dinner\n4. Heritage walking tour from the hotel\n5. Driver pickup from COK airport\n\nThank you,\n[Your names]"
   },

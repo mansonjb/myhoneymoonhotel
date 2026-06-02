@@ -1,0 +1,100 @@
+{
+  "tagline": "Choisissez votre île, choisissez votre lune de miel : plus de 30 nations, une seule mer chaude",
+  "intro": "Les Caraïbes ne sont pas une destination — c’est un choix entre trente destinations très différentes. Au-delà des noms qui font les couvertures s’étend un archipel où chaque île a sculpté sa propre personnalité de lune de miel. Anguilla est le pari du luxe discret : 33 plages d’une blancheur de poudre, sans gratte-ciels, sans navires de croisière. La Barbade est la Caraïbe britannique policée : Sandy Lane sur la Platinum Coast, le rhum Mount Gay depuis 1703. Grenade — l’île aux Épices — exhale la noix de muscade et offre Grand Anse Beach plus le Calabash, favori des initiés. Les Îles Vierges britanniques sont pour les couples qui veulent dormir sur l’eau : charter de yacht entre les Baths de Virgin Gorda, les bars de plage de Jost Van Dyke, Necker pour les budgets à la Branson. La Dominique est la carte sauvage — volcanique, forestière, presque sans plages, mais terre d’accueil de Secret Bay et Coulibri Ridge. Nevis est le charme assoupi à l’ancienne, ancré par le Four Seasons. La vérité commune : une eau à 26-29 °C toute l’année, des vols de 3 à 5 heures depuis la côte Est américaine et un éventail de sensations stupéfiant en une seule semaine.",
+  "bestTime": "De décembre à avril (sec, 26-29 °C) ; mai et novembre sont des moments en or",
+  "flightFrom": "NYC/Miami 3-5 h en direct ; Londres 8-9 h vers la Barbade/Antigua ; les petites îles exigent une correspondance",
+  "topExperience": "Sauter d’île en île en bateau privé ou en petit avion — Anguilla à Saint-Barth en 25 min, charter dans les BVI sur 4 îles en 5 jours",
+  "perfectFor": [
+    "Les couples qui veulent des options — chaque île convient à une humeur différente",
+    "Les puristes de la plage attentifs à la qualité du sable",
+    "Les marins et adeptes du charter de yacht (les BVI en sont la capitale mondiale)",
+    "Les couples aventureux en quête de jungle, volcan et baleines (la Dominique)",
+    "Les habitués des Caraïbes prêts à délaisser les îles évidentes"
+  ],
+  "skipIf": [
+    "Vous voulez une réponse unique — choisir la bonne île ici est tout l’enjeu",
+    "Vous voyagez de juin à novembre et redoutez les ouragans",
+    "Vous voulez une lune de miel d’un seul vol, sans jamais quitter votre hôtel",
+    "L’immersion culturelle compte plus pour vous que la plage et le rhum"
+  ],
+  "experiences": [
+    {
+      "title": "Charter de yacht dans les BVI, 5 nuits",
+      "description": "Catamaran avec équipage au départ de Tortola, à travers les Baths, Jost Van Dyke, Anegada — la référence absolue.",
+      "cost": "8 000-18 000 $ pour le bateau (couchage pour 2 avec équipage)",
+      "tip": "Réservez un charter avec chef à bord ; Horizon et Dream Yacht sont fiables"
+    },
+    {
+      "title": "Le circuit des plages d’Anguilla",
+      "description": "Consacrez une journée à parcourir les 33 plages — Shoal Bay East, Meads Bay (Blanchards), Little Bay.",
+      "cost": "80 $ de location de voiture + 200 $ de déjeuner pour deux",
+      "tip": "Louez chez Bryan’s — ils livrent à votre hôtel"
+    },
+    {
+      "title": "Randonnée du Boiling Lake, Dominique",
+      "description": "Huit heures de trek guidé jusqu’au deuxième plus grand lac bouillant du monde — l’aventure la plus sérieuse des Caraïbes.",
+      "cost": "120 $ par personne avec guide",
+      "tip": "Logez à Secret Bay ou Coulibri Ridge avant et après"
+    },
+    {
+      "title": "Domaine de rhum Mount Gay, Barbade",
+      "description": "La plus ancienne distillerie de rhum du monde (1703) ; les dégustations Cockspur et celles du maître assembleur sont infiniment supérieures à la visite de base.",
+      "cost": "120 $ par personne pour la dégustation premium",
+      "tip": "Associez à un déjeuner au Cliff ou au Champers"
+    },
+    {
+      "title": "Nager avec les cachalots, Dominique",
+      "description": "Seul endroit au monde autorisé pour des rencontres en eau libre avec les cachalots résidents — pic de novembre à mars.",
+      "cost": "300-400 $ par personne, sortie en bateau à la journée",
+      "tip": "Réservez avec Dive Dominica ; emportez un appareil sous-marin, sans flash"
+    }
+  ],
+  "months": [
+    { "weather": "26 °C, sec, brise légère", "crowds": "Très élevée", "price": "Très haute", "verdict": "Météo de carte postale, prix de carte postale" },
+    { "weather": "26 °C, sec", "crowds": "Pic (Saint-Valentin)", "price": "Très haute+", "verdict": "Réservez un an à l’avance ou passez votre tour" },
+    { "weather": "27 °C, sec", "crowds": "Haute (spring break)", "price": "Très haute", "verdict": "Évitez les deux premières semaines si vous fuyez la foule" },
+    { "weather": "28 °C, sec", "crowds": "Modérée après Pâques", "price": "Haute", "verdict": "Moment en or — le temps tient, la foule s’éclaircit" },
+    { "weather": "28 °C, averse occasionnelle", "crowds": "Faible", "price": "Moyenne", "verdict": "Le meilleur rapport qualité-prix de l’année" },
+    { "weather": "29 °C, humide", "crowds": "Faible", "price": "Basse", "verdict": "Début de la saison cyclonique — risque faible" },
+    { "weather": "29 °C, humide", "crowds": "Modérée", "price": "Basse-moyenne", "verdict": "Caraïbes du sud (Aruba, Curaçao) plus sûres" },
+    { "weather": "30 °C, très humide", "crowds": "Modérée", "price": "Basse", "verdict": "Début du pic cyclonique — souscrivez une assurance voyage" },
+    { "weather": "29 °C, orageux", "crowds": "Minimale", "price": "Plancher", "verdict": "Statistiquement le pire mois" },
+    { "weather": "29 °C, en amélioration", "crowds": "Faible", "price": "Basse", "verdict": "Première moitié risquée, seconde correcte" },
+    { "weather": "28 °C, redevient sec", "crowds": "Faible mais en hausse", "price": "Moyenne", "verdict": "Mois trésor caché — réservez après le 15 novembre" },
+    { "weather": "27 °C, sec", "crowds": "Pic après le 20", "price": "Moyenne → très haute", "verdict": "Les deux premières semaines sont le meilleur rapport de l’année" }
+  ],
+  "budgetTiers": [
+    { "label": "Luxe accessible", "daily": "500-800 $/nuit", "includes": "Boutique 4 étoiles sur une île plus tranquille ; exemple : Calabash Grenade, suite jardin à 650 $/nuit" },
+    { "label": "Caraïbes iconiques", "daily": "1 200-2 500 $/nuit", "includes": "Les noms qui ont défini la région — Cap Juluca, Sandy Lane, Four Seasons Nevis, Secret Bay ; exemple : junior suite face mer à Cap Juluca, 1 800 $/nuit en basse saison" },
+    { "label": "Île privée / villa", "daily": "5 000-50 000+ $/nuit", "includes": "Privatisation complète de Necker Island, méga-yacht dans les BVI ; exemple : privatisation de Necker à 108 000 $/nuit pour jusqu’à 34 invités" }
+  ],
+  "areas": [
+    { "name": "Anguilla", "description": "Trente-trois plages d’une blancheur de farine, sans gratte-ciels, sans port de croisière. Cap Juluca et Belmond sur Maundays Bay." },
+    { "name": "Barbade", "description": "En direct depuis Londres (9 h). La Platinum Coast pour Sandy Lane et Coral Reef Club. Rhum Mount Gay, fish fry d’Oistins." },
+    { "name": "Grenade", "description": "Sous-estimée, sous-cotée. Grand Anse Beach, Calabash Hotel. Au sud de la ceinture cyclonique." },
+    { "name": "Îles Vierges britanniques", "description": "Le plus grand terrain de charter au monde. Tortola, Virgin Gorda pour les Baths, Jost Van Dyke." },
+    { "name": "Dominique et Nevis", "description": "La Dominique est volcanique — Secret Bay et Coulibri Ridge. Nevis offre le charme assoupi des anciennes plantations au Four Seasons Pinney’s Beach." }
+  ],
+  "expertTips": [
+    { "title": "Choisissez l’île selon votre profil d’activité, pas selon Instagram", "body": "Puriste de la plage ? Anguilla. Marin ? Les BVI. Aventurier ? La Dominique. Gourmet ? La Barbade." },
+    { "title": "Combinez deux îles si vous disposez de 7 nuits ou plus", "body": "Anguilla + Saint-Barth (ferry de 25 min), Nevis + Saint-Kitts (ferry de 45 min)." },
+    { "title": "L’assurance voyage est non négociable de juin à novembre", "body": "Le risque cyclonique est faible mais réel. Les polices « annulation pour quelque motif que ce soit » coûtent 8 à 12 % du voyage." },
+    { "title": "Les vols inter-îles font partie de l’expérience", "body": "Tradewind, WinAir et InterCaribbean font voler de petits appareils. Prévoyez 3 heures de battement." },
+    { "title": "Pourboires en USD sur la plupart des îles", "body": "Le XCD et les autres monnaies caribéennes sont indexées sur le dollar ; le cash en USD est universellement accepté." }
+  ],
+  "packing": [
+    { "item": "Crème solaire respectueuse des récifs", "why": "Obligatoire dans les BVI et de plus en plus ailleurs" },
+    { "item": "Au minimum deux maillots par personne", "why": "L’humidité tropicale fait que celui de la veille est encore mouillé" },
+    { "item": "Chemise en lin et short habillé (messieurs), une jolie robe (mesdames)", "why": "Sandy Lane, Cap Juluca et Four Seasons appliquent un code vestimentaire le soir" },
+    { "item": "Appareil photo étanche ou GoPro", "why": "Snorkeling sur les récifs, cachalots (Dominique), rencontres avec les tortues" },
+    { "item": "Chaussures d’eau solides", "why": "Îles volcaniques, marches sur les récifs, plateformes de baignade des yachts" },
+    { "item": "Répulsif sans DEET (picaridine)", "why": "Les no-see-ums au crépuscule sont le véritable fléau des Caraïbes" }
+  ],
+  "guide": "La plupart des villes de la côte Est américaine rejoignent Antigua, la Barbade, Saint-Martin ou San Juan en 3 à 5 heures direct. Les compagnies inter-îles (Tradewind, WinAir, InterCaribbean, Cape Air) desservent les plus petites îles en 20 à 45 minutes. Pour le logement : Maundays Bay ou Meads Bay à Anguilla ; la Platinum Coast à la Barbade ; Grand Anse à Grenade ; Tortola pour le départ en charter dans les BVI ; la Dominique pour Secret Bay ; Nevis autour de Pinney’s Beach. Quand partir : de mi-décembre à mi-avril, c’est blindé mais le plus cher. Mai, fin novembre et les deux premières semaines de décembre sont les fenêtres en or. Les Caraïbes du sud sont en deçà de la principale ceinture cyclonique.",
+  "localFood": "La cuisine caribéenne varie immensément : le poisson volant et le cou-cou de la Barbade, le macaroni pie bajan ; la langouste épineuse d’Anguilla grillée chez Smokey’s ; l’oil down de Grenade épicé à la noix de muscade (plat national) ; le callaloo de la Dominique. Le rhum punch partout — Mount Gay (Barbade), Westerhall (Grenade), Pusser’s (BVI).",
+  "language": "Anglais / français / espagnol / néerlandais (variable)",
+  "seo": {
+    "title": "Lune de miel aux Caraïbes : 7 resorts insulaires d’élite, notés pour 2026",
+    "description": "7 adresses caribéennes d’exception, d’île en île. Adults-only, all-inclusive et boutique. À partir de 400 $/nuit. Décembre-avril."
+  }
+}

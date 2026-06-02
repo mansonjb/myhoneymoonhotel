@@ -1,0 +1,81 @@
+{
+  "tagline": "La référence mondiale des lunes de miel en villa sur pilotis. Île privée, lagon privé, monde privé.",
+  "intro": "Les Maldives sont la référence mondiale des lunes de miel en villa sur pilotis — 1 200 îles coralliennes éparpillées dans l’océan Indien, chaque resort posé sur sa propre île privée, sans trafic, sans ville, sans autre programme que vous deux. L’eau y est la plus claire de la planète, les récifs grouillent de raies manta et de requins-baleines, et la villa sur pilotis reste la catégorie d’hébergement la plus romantique jamais inventée.",
+  "bestTime": "Novembre-avril",
+  "flightFrom": "10-14 h depuis l’Europe",
+  "topExperience": "Villas sur pilotis",
+  "perfectFor": [
+    "Les couples qui veulent une réclusion totale — aucune raison de quitter l’île",
+    "Les passionnés de fonds marins (le snorkeling et la plongée sont d’un niveau mondial)",
+    "Les amoureux des villas sur pilotis — les Maldives en restent l’étalon mondial",
+    "Le luxe absolu sans compromis — majordome, spa, plage privée",
+    "Les rencontres avec requins-baleines et raies manta (atolls de Baa et de South Ari)"
+  ],
+  "skipIf": [
+    "Vous cherchez une immersion culturelle — les Maldives sont une bulle balnéaire",
+    "Votre budget est serré — il n’existe quasiment aucune option économique",
+    "Vous saturez vite sur une île — la plupart des resorts comptent 30 à 100 villas",
+    "Vous voulez varier les restaurants en dehors de l’hôtel — votre île est votre monde",
+    "Vous préférez la montagne, la jungle ou l’énergie urbaine"
+  ],
+  "experiences": [
+    { "title": "Petit déjeuner sur banc de sable au lever du jour", "description": "Un banc de sable privé au milieu de l’océan, dressé d’une table, de champagne et de rien d’autre à 360 degrés. La matinée la plus romantique du monde.", "cost": "200-400 $ par couple", "tip": "Réservez au moins 48 h à l’avance — les plus beaux bancs de sable partent vite." },
+    { "title": "Nage avec les requins-baleines (South Ari / Baa)", "description": "Nager aux côtés du plus grand poisson au monde en pleine eau. Les Maldives concentrent la plus forte densité d’observations de requins-baleines de la planète, surtout dans les atolls de Baa et de South Ari.", "cost": "100-200 $ par personne", "tip": "Le LUX South Ari Atoll dispose d’un biologiste marin résident et du meilleur programme dédié aux requins-baleines." },
+    { "title": "Plongée de nuit ou nage bioluminescente", "description": "Après le coucher du soleil, le plancton des eaux maldiviennes prend une teinte bleu électrique. Entrer dans le lagon à 21 h est l’un des spectacles les plus saisissants qui soient.", "cost": "Gratuit depuis les marches de votre villa", "tip": "L’île de Vaadhoo est célèbre pour ce phénomène, mais il se produit dans tous les atolls dès que l’eau est claire et calme." },
+    { "title": "Croisière dauphins au crépuscule", "description": "Chaque soir, les dauphins à long bec se rassemblent pour chasser au drop-off. Le bateau du resort les suit tandis que le ciel vire à l’orange. Champagne facultatif mais obligatoire.", "cost": "150-300 $ par couple", "tip": "Demandez de quel côté les dauphins apparaissent généralement et choisissez un bungalow orienté vers le coucher de soleil." },
+    { "title": "Paddle au lever du jour", "description": "Le lagon est parfaitement lisse avant 7 h. Pagayer en silence au-dessus du corail, observer les poissons sous la planche — un moment profondément ressourçant. Les boards sont gratuits dans la plupart des resorts.", "cost": "Inclus dans la plupart des resorts", "tip": "Sortez avant le petit déjeuner, avant que le vent ne se lève. La lumière du matin sur le lagon est extraordinaire." }
+  ],
+  "months": [
+    { "weather": "Sec, chaud, mer plate", "crowds": "Maximale", "price": "Très élevé", "verdict": "Parfait mais coûteux" },
+    { "weather": "Pic de saison sèche", "crowds": "Maximale", "price": "Très élevé", "verdict": "La meilleure météo de l’année" },
+    { "weather": "Encore sec, chaud", "crowds": "Élevée", "price": "Élevé", "verdict": "Excellent, légèrement moins fréquenté" },
+    { "weather": "Transition, quelques averses", "crowds": "Modérée", "price": "Moyen", "verdict": "Bon démarrage en rapport qualité-prix" },
+    { "weather": "Début de la mousson de sud-ouest", "crowds": "Faible", "price": "Bas", "verdict": "Les requins-baleines arrivent (atoll d’Ari)" },
+    { "weather": "Mousson, mer plus agitée", "crowds": "Faible", "price": "Le plus bas", "verdict": "Meilleures offres, un peu de pluie" },
+    { "weather": "Mousson, plus calme qu’en juin", "crowds": "Faible", "price": "Bas", "verdict": "Pic des raies manta (atoll de Baa)" },
+    { "weather": "Apaisement, chaud", "crowds": "Modérée", "price": "Bas à moyen", "verdict": "Mois caché à découvrir" },
+    { "weather": "Retour à la saison sèche", "crowds": "Modérée", "price": "Moyen", "verdict": "Bon équilibre" },
+    { "weather": "Transition, mitigée", "crowds": "Faible à modérée", "price": "Moyen", "verdict": "Demi-saison sous-estimée" },
+    { "weather": "Retour de la saison sèche", "crowds": "Modérée", "price": "Moyen à élevé", "verdict": "La saison sèche s’installe" },
+    { "weather": "Pic de saison sèche, affluence des fêtes", "crowds": "Maximale", "price": "Très élevé", "verdict": "Superbe, réservez très en avance" }
+  ],
+  "budgetTiers": [
+    { "label": "Luxe accessible", "daily": "500-1 200 $/nuit", "includes": "Villa sur pilotis ou de plage, équipements partagés, accès au récif, spa. Sans majordome. Gamme Conrad, Anantara Veli. Exemples : Anantara Veli, LUX South Ari Atoll." },
+    { "label": "Premium", "daily": "1 200-3 000 $/nuit", "includes": "Villa avec piscine privée, service majordome, restauration incluse ou demi-pension. Le rêve maldivien classique. Exemples : Four Seasons Kuda Huraa, St Regis Vommuli." },
+    { "label": "Ultra-luxe", "daily": "3 000 $ et plus/nuit", "includes": "Plus grandes villas sur plages privées, tout inclus, accès en hélicoptère, équipe de majordomes dédiée. Exemples : Soneva Jani, Conrad Two-Bedroom Water Villa." }
+  ],
+  "areas": [
+    { "name": "Atoll de Malé Nord", "description": "Le plus proche de l’aéroport. Four Seasons Kuda Huraa et de nombreux resorts emblématiques s’y trouvent. Accès le plus facile, trafic maritime légèrement plus visible." },
+    { "name": "Atoll de Malé Sud", "description": "À 45 minutes de hors-bord depuis l’aéroport. Anantara Veli, Cocoa Island. Atmosphère un peu plus reculée sans le surcoût de l’hydravion." },
+    { "name": "Atoll de Baa (UNESCO)", "description": "À 25 minutes d’hydravion. Anantara Kihavah, Four Seasons Landaa Giraavaru. Abrite Hanifaru Bay — le plus grand rassemblement de raies manta au monde (juillet-novembre)." },
+    { "name": "Atolls de Noonu / Raa", "description": "À 40-45 minutes d’hydravion. Le territoire de Soneva Jani et Joali Being. Les plus éloignés de Malé et les resorts les plus exclusifs au monde." }
+  ],
+  "expertTips": [
+    { "title": "Réservez votre hydravion avec votre villa, pas après", "body": "Les hydravions affichent complet des mois à l’avance en haute saison. En attendant trop, vous écoperez d’un transfert de 2 h en hors-bord là où 25 minutes auraient suffi." },
+    { "title": "Demandez une villa orientée à l’est", "body": "Lever de soleil sur l’océan Indien depuis votre deck privé, droit dans le lagon. La plupart des couples se contentent de la « meilleure vue » — précisez l’orientation." },
+    { "title": "Apportez un vrai appareil étanche, pas seulement une GoPro", "body": "Les GoPro font le job, mais un Olympus TG-7 ou équivalent vous offre du 4K sans caisson. L’eau maldivienne est si transparente que même un smartphone fonctionne à 2 m." },
+    { "title": "Le choix demi-pension/pension complète compte vraiment ici", "body": "Contrairement à un city hôtel, impossible d’aller dîner à l’extérieur. La pension complète à 200-400 $/jour par couple coûte cher mais supprime toute angoisse d’addition." },
+    { "title": "Envoyez vos demandes spécifiques au resort 2 semaines avant", "body": "Petit déjeuner sur banc de sable, pétales de rose, champagne d’accueil, sortie dauphins le matin de votre choix. Ils répondent à la précision avec une attention extraordinaire." }
+  ],
+  "packing": [
+    { "item": "Lunettes polarisées", "why": "Sans elles, la réverbération du lagon à midi vous brûle les yeux" },
+    { "item": "Crème solaire reef-safe", "why": "Comme à Bora Bora — la protection des coraux est prioritaire" },
+    { "item": "Appareil photo étanche (gamme Olympus TG)", "why": "Le snorkeling est trop beau pour se contenter d’un smartphone flou" },
+    { "item": "Coupe-vent léger imperméable", "why": "Les averses de mousson passent en 20 minutes, mais sont spectaculaires" },
+    { "item": "Comprimés contre le mal de mer", "why": "Les transferts en hors-bord en saison de mousson (mai-octobre) peuvent secouer" },
+    { "item": "Deux maillots par jour", "why": "Vous serez constamment dans l’eau. Un seul maillot sèche dans la nuit avec l’humidité — peut-être" },
+    { "item": "Liseuse ou contenus hors ligne", "why": "Le but est de déconnecter. Acceptez-le. Mais 7 nuits, c’est long" },
+    { "item": "Bon répulsif anti-insectes", "why": "Les phlébotomes sortent au crépuscule près de la végétation. Une formule sans DEET suffit" }
+  ],
+  "guide": {
+    "getting": "Vol pour Velana International Airport (MLE) à Malé. De là, votre resort organise soit un transfert en hydravion (20-45 minutes, spectaculaire — à réserver avec la villa), soit un hors-bord (45-120 minutes selon l’atoll). Les hydravions ne volent qu’en plein jour : arrivez avant 15 h si votre resort est en hydravion.",
+    "where": "Atoll de Malé Nord (le plus accessible, 20 min en hors-bord), atoll de Malé Sud (45 min, plus calme), atoll de Baa (réserve UNESCO, 25 min d’hydravion, meilleur pour les raies manta), atolls de Noonu/Raa (35-45 min d’hydravion, les plus exclusifs — territoire Soneva Jani).",
+    "when": "Novembre à avril, c’est la saison sèche — mer plate, visibilité exceptionnelle, pas de pluie, tarifs au sommet. Mai à octobre apporte la mousson de sud-ouest — tarifs en baisse de 30 à 50 %, averses tropicales brèves, mais South Ari et Baa atteignent leur pic en requins-baleines et raies manta."
+  },
+  "localFood": "Cuisine maldivienne : mas huni (petit déjeuner thon-coco), garudhiya (bouillon de poisson), bis keemiya (samoussas). La plupart des resorts proposent une cuisine internationale. Petit déjeuner au restaurant sur pilotis au lever du soleil : le rituel essentiel.",
+  "language": "Dhivehi et anglais. L’anglais est parlé couramment dans tous les resorts.",
+  "seo": {
+    "title": "Lune de Miel aux Maldives 2026 : 31 Resorts sur Pilotis Notés",
+    "description": "31 resorts notés 50-100. De 500 à 5 500 $/nuit. Verdicts réels, meilleures villas, itinéraires 7 nuits. Saison nov-avr signalée."
+  }
+}

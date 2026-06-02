@@ -1,0 +1,79 @@
+{
+  "tagline": "L’île des Dieux — où l’hindouisme, les rizières en terrasses et le luxe balnéaire coexistent à la perfection.",
+  "intro": "Bali est la destination de lune de miel la plus chargée spirituellement d’Asie — une île hindoue dans le plus grand pays musulman du monde, où cérémonies de temple, promenades dans les rizières et randonnées au lever du soleil sur les volcans côtoient des resorts de classe mondiale perchés sur des falaises surplombant l’océan Indien. Le Bulgari d’Uluwatu et le COMO Shambhala Estate près d’Ubud représentent deux expériences balinaises totalement différentes mais également extraordinaires.",
+  "bestTime": "Mai-sept.",
+  "flightFrom": "14-15 h depuis l’Europe",
+  "topExperience": "Culture, bien-être et plage",
+  "perfectFor": [
+    "Couples qui veulent culture exotique, bien-être et plage en une seule destination",
+    "Amateurs de yoga et de spa — Bali a inventé la retraite bien-être boutique",
+    "Ceux qui veulent quelque chose de véritablement différent d’une bulle resort",
+    "Surfeurs — la péninsule de Bukit offre des vagues de classe mondiale pour tous niveaux",
+    "Couples qui veulent un rapport qualité-prix exceptionnel pour un hébergement de luxe"
+  ],
+  "skipIf": [
+    "Vous visitez Kuta/Seminyak en juin-août — c’est essentiellement Ibiza avec des temples",
+    "Vous voulez une solitude garantie — Bali est véritablement populaire",
+    "Vous visitez en novembre-mars (saison des pluies, inondations dans les zones basses)",
+    "La simplicité d’un resort tout compris vous suffit",
+    "Le vol de 15 heures semble excessif pour un séjour de 7 nuits"
+  ],
+  "experiences": [
+    { "title": "Randonnée du lever de soleil au Mont Batur", "description": "Réveil à 2 h, randonnée d’1 h 30 jusqu’au cratère du volcan actif, et lever de soleil sur le lac de caldeira et le Rinjani lointain en sirotant un café préparé sur la vapeur volcanique. La plus belle aube d’Asie du Sud-Est.", "cost": "40-80 $ par personne (guide)", "tip": "Réservez via votre hôtel plutôt qu’avec un guide racoleur. Le départ à 2 h depuis Ubud est rude — assurez-vous d’avoir un guide accrédité avec l’équipement adéquat." },
+    { "title": "Marche au lever du soleil dans les rizières de Tegallalang", "description": "Parcourir les rizières en terrasses de Tegallalang, classées à l’UNESCO, à 6 h — avant les photographes de drone et les perches à selfie. La géométrie verte étagée dans la brume du matin est l’une des grandes expériences visuelles d’Asie.", "cost": "Gratuit (don symbolique aux fermiers)", "tip": "La meilleure alternative est Jatiluwih — plus loin d’Ubud mais plus vaste, moins visitée, et véritablement plus belle à la lumière du matin." },
+    { "title": "Danse du feu Kecak au temple d’Uluwatu au coucher du soleil", "description": "L’ancien temple maritime sur une falaise de 70 m au-dessus de l’océan Indien, avec la danse du feu kecak interprétée alors que le soleil plonge dans la mer. L’expérience culturelle la plus atmosphérique de Bali.", "cost": "15-20 $ par personne", "tip": "Arrivez 45 minutes en avance pour les bonnes places en bord de falaise. La représentation commence au coucher du soleil — l’horaire varie selon la saison. Vérifiez avec votre hôtel." },
+    { "title": "Retraite bien-être au COMO Shambhala Estate", "description": "4 nuits au domaine bien-être balinais par excellence — consultations ayurvédiques, promenades en bord de ruisseau, pavillons de méditation et le programme spa le plus complet d’Asie. Transformateur.", "cost": "700-1 500 $/nuit", "tip": "Réservez la consultation ayurvédique avant l’arrivée — le plan de soin se développe sur 2-3 jours et vous voulez le temps maximum pour absorber le programme." },
+    { "title": "Leçon de surf à Padang Padang ou Bingin (Bukit)", "description": "Les vagues de récif de la péninsule de Bukit — Uluwatu, Bingin, Padang Padang — comptent parmi les spots de surf les plus constants et beaux d’Asie. Les vagues adaptées aux débutants se trouvent à Seminyak et Medewi.", "cost": "40-80 $ par personne (leçon de 2 h)", "tip": "Débutants : écoles de surf sur la plage de Seminyak. Intermédiaires/avancés : Bingin et Impossibles sont extraordinaires. Ne surfez jamais Uluwatu sans guide local — l’entrée sur le récif est dangereuse." }
+  ],
+  "months": [
+    { "weather": "Saison humide, 28 °C, pluie quotidienne", "crowds": "Faible", "price": "Bas", "verdict": "Humide — vert et luxuriant mais parapluie essentiel" },
+    { "weather": "Humide, inondations possibles en zones basses", "crowds": "Faible", "price": "Bas", "verdict": "Évitez les zones basses" },
+    { "weather": "Fin de la saison humide", "crowds": "Faible", "price": "Bas-moyen", "verdict": "Amélioration, bonnes affaires" },
+    { "weather": "Transition — mélange soleil et pluie", "crowds": "Modérée", "price": "Moyen", "verdict": "Bonne intersaison" },
+    { "weather": "Début de la saison sèche, 27 °C", "crowds": "Modérée", "price": "Moyen", "verdict": "Excellent début de saison sèche" },
+    { "weather": "Sec, chaud, parfait", "crowds": "Élevée", "price": "Élevé", "verdict": "L’un des meilleurs mois" },
+    { "weather": "Pic de saison sèche, animé", "crowds": "Maximale", "price": "Très élevé", "verdict": "Mois le plus populaire — très fréquenté" },
+    { "weather": "Sec, chaud, pic d’affluence", "crowds": "Maximale", "price": "Maximum", "verdict": "Magnifique mais réservez des mois à l’avance" },
+    { "weather": "Sec, affluence en baisse", "crowds": "Élevée", "price": "Élevé", "verdict": "Toujours excellent, légèrement plus calme" },
+    { "weather": "Fin du sec, premières pluies possibles", "crowds": "Modérée", "price": "Moyen", "verdict": "Bon rapport qualité-prix, faible risque de pluie" },
+    { "weather": "Début de la saison humide", "crowds": "Faible", "price": "Bas-moyen", "verdict": "De plus en plus humide — vérifiez la zone du resort" },
+    { "weather": "Humide, festif, plages animées", "crowds": "Élevée", "price": "Élevé", "verdict": "Noël à Uluwatu est magnifique malgré la pluie" }
+  ],
+  "budgetTiers": [
+    { "label": "Villa boutique", "daily": "200-500 $/nuit", "includes": "Villa privée avec piscine et vue rizières ou jungle, petit-déjeuner quotidien, soins spa à la demande. La proposition extraordinaire de Bali. Komaneka at Bisma (Ubud), Alila Manggis." },
+    { "label": "Luxe falaise", "daily": "500-1 200 $/nuit", "includes": "Villa avec piscine à débordement sur falaise et vue océan Indien, majordome, spa de classe mondiale. L’expérience définitive d’Uluwatu. Bulgari Resort Bali, Alila Villas Uluwatu." },
+    { "label": "Ultra-luxe bien-être", "daily": "700-1 500 $/nuit", "includes": "Programmes bien-être complets, consultations ayurvédiques, spa au bord de la rivière, cuisine de la ferme. COMO Shambhala Estate, Six Senses Uluwatu." }
+  ],
+  "areas": [
+    { "name": "Uluwatu (péninsule de Bukit)", "description": "Les falaises calcaires de la péninsule de Bukit tombent de 70 m dans l’océan Indien. Bulgari Resort, Alila Villas et Six Senses sont ici. Le cadre de resort le plus spectaculaire de Bali." },
+    { "name": "Ubud (centre de Bali)", "description": "Le cœur culturel de Bali. Cérémonies de temple, musique gamelan, COMO Shambhala Estate et les rizières de Tegallalang. La meilleure base pour les couples qui veulent culture et luxe." },
+    { "name": "Seminyak / Canggu", "description": "La bande balnéaire à la mode. Meilleurs restaurants et bars du coucher du soleil de Bali. Plus social et urbain qu’Uluwatu. Bon pour les couples qui veulent mêler vie de plage et scène culinaire." },
+    { "name": "Nusa Penida / Lembongan", "description": "Les îles au sud-est de Bali offrent le meilleur snorkeling (raies manta, mola-mola). Crystal Bay et Manta Point sont deux des plus beaux sites de snorkeling d’Asie du Sud-Est. Excursion à la journée ou échappée de 2 nuits." }
+  ],
+  "expertTips": [
+    { "title": "Combinez Ubud et Uluwatu — seulement 90 minutes les séparent", "body": "La lune de miel balinaise parfaite : 3 nuits à Ubud (culture, bien-être, rizières) + 4 nuits à Uluwatu (resort sur falaise, coucher de soleil, surf). Deux Bali totalement différents en un seul voyage." },
+    { "title": "Réservez un chauffeur privé pour tout le séjour", "body": "Un chauffeur privé de confiance à Bali coûte 50-80 $/jour et résout tous les défis logistiques. Demandez la recommandation à votre hôtel — les bons sont vite réservés en haute saison." },
+    { "title": "L’étiquette aux cérémonies de temple est importante", "body": "Si vous êtes invités à une cérémonie (ou en croisez une) : portez sarong et ceinture (fournis aux temples), n’entrez pas dans le sanctuaire intérieur sauf invitation, et ne pointez pas les pieds vers les autels. Les Balinais apprécient profondément la curiosité respectueuse." },
+    { "title": "Les raies manta de Nusa Penida sont une excursion non négociable", "body": "Les raies manta de Manta Point au large de Nusa Penida sont les plus grandes (jusqu’à 4 m) et les plus régulièrement présentes d’Asie du Sud-Est. 45 minutes de bateau rapide depuis Sanur, 2 heures de snorkeling, retour à 14 h." },
+    { "title": "La saison sèche concerne aussi l’est de Bali — sortez d’Ubud", "body": "La côte est (Amed, Candidasa, Tulamben) est quasi inconnue des touristes, abrite les meilleures plongées de Bali (épave de l’USAT Liberty) et offre des vues extraordinaires de plages de sable noir sur le volcan Agung." }
+  ],
+  "packing": [
+    { "item": "Sarong/sulu (×2)", "why": "Exigé dans tous les temples et attendu aux cérémonies de village. Beaucoup de temples les fournissent mais avoir le sien est respectueux." },
+    { "item": "Anti-moustique (DEET)", "why": "Le risque de dengue est réel à Bali, surtout en saison humide. Même en saison sèche, appliquez au crépuscule." },
+    { "item": "Crème solaire reef-safe", "why": "Le parc marin de Nusa Penida et Manta Point ont des règles de conservation des récifs" },
+    { "item": "Veste de pluie légère", "why": "Ubud reçoit des averses l’après-midi même en saison sèche — emportez une shell compacte" },
+    { "item": "Caméra sous-marine", "why": "Le snorkeling à Manta Point et la plongée sur l’épave du Liberty sont des occasions photographiques extraordinaires" },
+    { "item": "Espèces (roupies indonésiennes)", "why": "Les warungs locaux, l’entrée des rizières et les petits villages sont cash uniquement. Les DAB de Seminyak et Ubud sont nombreux." }
+  ],
+  "guide": {
+    "getting": "Volez à l’aéroport international Ngurah Rai (DPS). Vols directs depuis Londres (14 h via Singapour — Singapore Airlines, Cathay Pacific via HK). Pas de vols directs Europe-Bali sauf charter occasionnel depuis Amsterdam. Depuis l’Australie : 6 h direct. Depuis Singapour : 2 h 30. Transport intérieur : prenez un chauffeur privé depuis l’aéroport (15-25 $ vers Seminyak, 25-35 $ vers Ubud, 30-40 $ vers Uluwatu).",
+    "where": "Uluwatu/Bukit (zone de resort sur falaise océan, meilleures vues). Ubud (centre culturel et bien-être). Seminyak/Canggu (bars de plage, surf, restaurants). Nusa Penida/Lembongan (excursions snorkeling). Lune de miel classique de 10 nuits : Ubud 3 nuits → Uluwatu 5 nuits → excursion Nusa Penida → dernière nuit à Seminyak avant le départ.",
+    "when": "Mai-septembre est la saison sèche et le bon moment pour visiter. Juillet-août est le pic (fréquenté, plus cher). Juin et septembre sont les sweet spots : sec, chaud, moins de touristes. Évitez novembre-mars sauf si vous embrassez le vert luxuriant et que la pluie quotidienne de l’après-midi ne vous dérange pas."
+  },
+  "localFood": "Nasi goreng (riz frit — le petit-déjeuner national balinais), babi guling (cochon de lait rôti à la balinaise — la meilleure version est chez Ibu Oka à Ubud), satay lilit (satay de poisson haché à la balinaise), pudding de riz noir à la crème de coco pour le petit-déjeuner, et eau de coco fraîche partout. Le meilleur repas de Bali est au Locavore à Ubud — cuisine balinaise contemporaine aux ingrédients saisonniers impeccables. À noter : la culture santé d’Ubud est aussi extraordinaire — les smoothie bowls et la cuisine crue chez Sayuri ou Clear valent vraiment le détour.",
+  "language": "Balinais et indonésien (bahasa indonesia). L’anglais est largement parlé dans les zones touristiques.",
+  "seo": {
+    "title": "Lune de miel à Bali : 26 villas jungle et plage 2026",
+    "description": "26 villas Ubud, Seminyak, Uluwatu classées. Bulgari, Capella, Four Seasons Sayan. À partir de 300 $/nuit. Saison sèche mai-sept."
+  }
+}

@@ -7,7 +7,12 @@
     "title": "Fairmont Chateau Lake Louise: Honeymoon Review (2026)",
     "description": "5-star Fairmont on the turquoise lake. Score 87/100, from $550 CAD/night. Honest verdict, lakeview suite, canoe, itinerary & email."
   },
-  "experience_types": ["luxury", "mountain", "lake", "romantic"],
+  "experience_types": [
+    "luxury",
+    "mountain",
+    "lake",
+    "romantic"
+  ],
   "honeymoon_score": 87,
   "score_breakdown": {
     "adults_only": 0,
@@ -21,7 +26,10 @@
     "luxury": 14
   },
   "stars": 5,
-  "price_per_night_usd": { "min": 550, "max": 2200 },
+  "price_per_night_usd": {
+    "min": 550,
+    "max": 2200
+  },
   "adults_only": false,
   "amenities": [
     "spa",
@@ -36,11 +44,31 @@
     "ski-access"
   ],
   "photos": [
-    { "url": "/images/hotels/fairmont-chateau-lake-louise-banff/hero.webp", "alt": "fairmont-chateau-lake-louise-banff — hero", "type": "hero" },
-    { "url": "/images/hotels/fairmont-chateau-lake-louise-banff/room.webp", "alt": "fairmont-chateau-lake-louise-banff — room", "type": "room" },
-    { "url": "/images/hotels/fairmont-chateau-lake-louise-banff/pool.webp", "alt": "fairmont-chateau-lake-louise-banff — pool", "type": "pool" },
-    { "url": "/images/hotels/fairmont-chateau-lake-louise-banff/spa.webp", "alt": "fairmont-chateau-lake-louise-banff — spa", "type": "spa" },
-    { "url": "/images/hotels/fairmont-chateau-lake-louise-banff/dining.webp", "alt": "fairmont-chateau-lake-louise-banff — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/fairmont-chateau-lake-louise-banff/hero.webp",
+      "alt": "fairmont-chateau-lake-louise-banff — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/fairmont-chateau-lake-louise-banff/room.webp",
+      "alt": "fairmont-chateau-lake-louise-banff — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/fairmont-chateau-lake-louise-banff/pool.webp",
+      "alt": "fairmont-chateau-lake-louise-banff — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/fairmont-chateau-lake-louise-banff/spa.webp",
+      "alt": "fairmont-chateau-lake-louise-banff — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/fairmont-chateau-lake-louise-banff/dining.webp",
+      "alt": "fairmont-chateau-lake-louise-banff — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 4.6,
   "tripadvisor_award": true,
@@ -49,13 +77,41 @@
     "verdict": "The Fairmont Chateau Lake Louise sits directly on the shoreline of the most photographed lake in North America — Lake Louise, the 2.5 km-long turquoise glacial lake under Victoria Glacier at 1,750 m altitude. The proposition is geographic before architectural: this is the hotel that sits where the photographs are taken from, with 553 rooms in a railway-built grand-dame style (Canadian Pacific opened the first lodge here in 1890, the present building dates from 1924) whose lakeview rooms look directly onto the water. The hotel's private boathouse rents the iconic red wooden canoes that fill every Lake Louise Instagram — guests have first access from 7am, before the day-trippers arrive from Calgary on the day-tour buses. The Walliser Stube (Swiss fondue and raclette in a wood-panelled alpine room), the Fairview Dining Room (Canadian fine dining with the lake view), the Lakeview Lounge (afternoon tea with the same view), and the spa are all comfortable but not destination-quality — the dining at the smaller Post Hotel & Spa across the village is appreciably better. What the Chateau owns is the lake. Walking out the door to the lakeshore in your slippers at 5am to watch dawn light Victoria Glacier in pink before anyone else is up is the defining honeymoon moment of the Canadian Rockies; no other hotel in the world delivers it. The hotel is busy by day (the public day-trip crowd descends on the Chateau's lobby, dining rooms, and lakeshore from 9am to 6pm) and beautifully quiet by night. The Lakeview Suites with private terraces over the water are the honeymoon room of the Rockies. For a full Lake Louise honeymoon, three nights here plus three nights at the smaller, fine-dining-led Post Hotel & Spa nearby is the best split. Avoid Glacier View rooms without lake access — the view is the entire reason to pay the rate.",
     "best_room": "A Lakeview Room or Lakeview Suite — terrace or balcony facing Lake Louise and Victoria Glacier. The Mt Temple Wing top-floor Lakeview Suites have the deepest balconies. The Belvedere Suite is the splurge. Mountain View rooms face the forest behind — perfectly nice but you're paying $1,500/night for a lake you can't see from bed.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival and dawn-canoe brief", "description": "Arrive from Calgary (2h drive) or transfer from Banff Springs (45 min). Check-in, sunset on the lake, book a 7am canoe slot at the boathouse. Dinner at the Walliser Stube fondue room." },
-      { "day": 2, "title": "Sunrise canoe and Plain of Six Glaciers hike", "description": "5am wake-up for the dawn canoe (you'll have the lake to yourselves). Breakfast in the suite, then hike the 14 km return Plain of Six Glaciers trail to the Lake Agnes Tea House for scones above the lake. Spa evening." },
-      { "day": 3, "title": "Moraine Lake morning + Post Hotel dinner", "description": "Pre-booked Parks Canada shuttle at 5:30am to Moraine Lake for the sunrise — the Ten Peaks light up gold. Back for breakfast. Lazy afternoon at the lake. Walk to the Post Hotel for dinner in the wine cellar." },
-      { "day": 4, "title": "Icefields Parkway day trip", "description": "Drive north on Highway 93 to the Columbia Icefield — Crowfoot Glacier, Bow Lake, Peyto Lake. Lunch at Num-Ti-Jah Lodge. Optional Glacier Skywalk. Back for late dinner at the Fairview." },
-      { "day": 5, "title": "Helicopter to a glacier", "description": "Drive to Canmore (1h 15min) for Rockies Heli. 90-min experience to a Continental Divide glacier with Champagne picnic. Lunch back in Banff at Eden. Return for spa." },
-      { "day": 6, "title": "Larch Valley hike (Sep–Oct) or canoe lounging", "description": "In mid-Sep to early Oct, hike the Larch Valley/Sentinel Pass trail from Moraine Lake (10 km, golden larches). Other seasons: a long canoe day on Lake Louise. Final dinner at the Post Hotel cellar." },
-      { "day": 7, "title": "Slow departure", "description": "Final breakfast facing the lake, last walk to the boathouse, transfer back to Calgary (2h)." }
+      {
+        "day": 1,
+        "title": "Arrival and dawn-canoe brief",
+        "description": "Arrive from Calgary (2h drive) or transfer from Banff Springs (45 min). Check-in, sunset on the lake, book a 7am canoe slot at the boathouse. Dinner at the Walliser Stube fondue room."
+      },
+      {
+        "day": 2,
+        "title": "Sunrise canoe and Plain of Six Glaciers hike",
+        "description": "5am wake-up for the dawn canoe (you'll have the lake to yourselves). Breakfast in the suite, then hike the 14 km return Plain of Six Glaciers trail to the Lake Agnes Tea House for scones above the lake. Spa evening."
+      },
+      {
+        "day": 3,
+        "title": "Moraine Lake morning + Post Hotel dinner",
+        "description": "Pre-booked Parks Canada shuttle at 5:30am to Moraine Lake for the sunrise — the Ten Peaks light up gold. Back for breakfast. Lazy afternoon at the lake. Walk to the Post Hotel for dinner in the wine cellar."
+      },
+      {
+        "day": 4,
+        "title": "Icefields Parkway day trip",
+        "description": "Drive north on Highway 93 to the Columbia Icefield — Crowfoot Glacier, Bow Lake, Peyto Lake. Lunch at Num-Ti-Jah Lodge. Optional Glacier Skywalk. Back for late dinner at the Fairview."
+      },
+      {
+        "day": 5,
+        "title": "Helicopter to a glacier",
+        "description": "Drive to Canmore (1h 15min) for Rockies Heli. 90-min experience to a Continental Divide glacier with Champagne picnic. Lunch back in Banff at Eden. Return for spa."
+      },
+      {
+        "day": 6,
+        "title": "Larch Valley hike (Sep–Oct) or canoe lounging",
+        "description": "In mid-Sep to early Oct, hike the Larch Valley/Sentinel Pass trail from Moraine Lake (10 km, golden larches). Other seasons: a long canoe day on Lake Louise. Final dinner at the Post Hotel cellar."
+      },
+      {
+        "day": 7,
+        "title": "Slow departure",
+        "description": "Final breakfast facing the lake, last walk to the boathouse, transfer back to Calgary (2h)."
+      }
     ],
     "caveats": [
       "Day-tripper crowds descend on the property between 9am and 6pm — the lobby and lakeshore are busy at midday. Honeymoon-best hours are pre-9am and post-6pm.",
@@ -63,12 +119,30 @@
       "Standard Mountain View rooms face the forest, not the lake. Pay up for Lakeview, or stay elsewhere."
     ],
     "faqs": [
-      { "question": "Good for honeymooners?", "answer": "Yes — the lakefront setting is unmatched anywhere in the Rockies. The Lakeview Suite balcony, the dawn canoe, and the easy lakeside walk are honeymoon-defining." },
-      { "question": "Best time to visit?", "answer": "Late June to mid-September for the turquoise lake colour. Mid-September for golden larches. December–March for skiing and frozen-lake skating." },
-      { "question": "Book in advance?", "answer": "Lakeview Suites for July–August and Christmas: 9–12 months ahead. Mountain View rooms more flexible." },
-      { "question": "Adults-only?", "answer": "No. Families do stay; Fairmont Gold floor offers the closest to an adults-only experience." },
-      { "question": "Best room type?", "answer": "Lakeview Room or Suite. Mt Temple Wing top-floor Lakeview Suites have deepest balconies." },
-      { "question": "How to get there?", "answer": "Calgary International (YYC) is 2h drive. Rental car best; Brewster bus is the no-car alternative ($90)." }
+      {
+        "question": "Good for honeymooners?",
+        "answer": "Yes — the lakefront setting is unmatched anywhere in the Rockies. The Lakeview Suite balcony, the dawn canoe, and the easy lakeside walk are honeymoon-defining."
+      },
+      {
+        "question": "Best time to visit?",
+        "answer": "Late June to mid-September for the turquoise lake colour. Mid-September for golden larches. December–March for skiing and frozen-lake skating."
+      },
+      {
+        "question": "Book in advance?",
+        "answer": "Lakeview Suites for July–August and Christmas: 9–12 months ahead. Mountain View rooms more flexible."
+      },
+      {
+        "question": "Adults-only?",
+        "answer": "No. Families do stay; Fairmont Gold floor offers the closest to an adults-only experience."
+      },
+      {
+        "question": "Best room type?",
+        "answer": "Lakeview Room or Suite. Mt Temple Wing top-floor Lakeview Suites have deepest balconies."
+      },
+      {
+        "question": "How to get there?",
+        "answer": "Calgary International (YYC) is 2h drive. Rental car best; Brewster bus is the no-car alternative ($90)."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — Fairmont Chateau Lake Louise\n\nDear Fairmont Chateau Lake Louise reservations,\n\nWe'd like a Lakeview Room or Lakeview Suite for [DATES], 4 to 5 nights. Could you confirm rates and any honeymoon package?\n\nQuestions:\n1. Honeymoon arrival turndown?\n2. 7am dawn canoe reservation (we'd like the first slot)?\n3. Moraine Lake sunrise shuttle help?\n4. Walliser Stube fondue dinner reservation?\n\nThank you,\n[Your names]"
   },

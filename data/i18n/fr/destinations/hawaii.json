@@ -1,0 +1,77 @@
+{
+  "tagline": "Le paradis perfectionné — drame volcanique et Pacifique turquoise sur 8 îles spectaculaires.",
+  "intro": "Hawaï est la seule destination de lune de miel américaine qui rivalise véritablement avec les plus belles du monde. Huit îles, chacune avec sa personnalité : Maui pour les resorts de luxe en bord de plage et le drame de la route de Hana, la Big Island pour les coulées de lave actives et la magnificence de la côte Kohala, Kauai pour les falaises de Na Pali et la beauté brute de la jungle, et Oahu pour l’énergie de Honolulu et la quiétude de la North Shore. Comme nulle autre destination tropicale, vous y trouvez une gastronomie de classe mondiale, aucune obligation de passeport pour les Américains et une culture de l’aloha sincèrement, inexplicablement chaleureuse.",
+  "bestTime": "Avr.-juin & sept.-nov.",
+  "flightFrom": "10-12 h depuis les États-Unis continentaux / 17-20 h depuis l’Europe",
+  "topExperience": "Plage et paysages volcaniques",
+  "perfectFor": [
+    "Couples qui veulent le rêve tropical sans passeport — particulièrement les voyageurs américains",
+    "Gourmets — la cuisine farm-to-table de Maui et de la Big Island est de classe mondiale",
+    "Aventuriers en quête de randonnées volcaniques, de survols en hélicoptère et de snorkel avec les raies manta",
+    "Couples qui veulent de la variété — l’itinéraire multi-îles offre plusieurs personnalités en un seul voyage",
+    "Ceux qui veulent des resorts de luxe au niveau des plus beaux au monde"
+  ],
+  "skipIf": [
+    "Vous voulez un isolement total, loin des autres touristes — les resorts de plage de Maui peuvent paraître animés",
+    "Le budget est la priorité — le haut de gamme à Hawaï est comparable au prix des Maldives",
+    "Vous voulez une escapade rapide — le voyage depuis l’Europe est véritablement long",
+    "Vous préférez la culture et l’architecture du Vieux Continent"
+  ],
+  "experiences": [
+    { "title": "Survol en hélicoptère d’une coulée de lave active (Big Island)", "description": "Survoler le Kilauea de nuit et regarder la lave se jeter dans l’océan est l’une des choses les plus extraordinaires qu’un être humain puisse vivre. Blue Hawaiian Helicopters propose l’excursion de référence.", "cost": "300-600 $ par personne", "tip": "Réservez l’hélicoptère portes ouvertes pour la photo. Les vols du soir captent au mieux la lueur de la lave — arrivez sur l’île la veille pour éviter le décalage horaire." },
+    { "title": "Observation des baleines depuis Maui (janv.-mars)", "description": "Les baleines à bosse migrent chaque hiver dans les eaux de Maui — la Pacific Whale Foundation propose d’excellentes sorties depuis Maalaea Harbor. Voir une baleine de 40 tonnes bondir à 30 mètres de votre bateau est inoubliable.", "cost": "50-120 $ par personne", "tip": "Les sorties du matin offrent une mer plus calme. Les baleines sont les plus actives de janvier à mars." },
+    { "title": "Snorkel nocturne avec les raies manta (Big Island)", "description": "Nager au-dessus de raies manta géantes qui se nourrissent de plancton dans l’obscurité, à Keauhou Bay. Les mantas ont jusqu’à 5 m d’envergure et glissent juste sous vous. L’une des rencontres animales les plus magiques au monde.", "cost": "80-130 $ par personne", "tip": "Réservez chez Jack’s Diving Locker ou Manta Ray Advocates — leur briefing est sérieux et leurs guides remarquables." },
+    { "title": "Lever du soleil sur le Haleakala (Maui)", "description": "Monter au sommet à 3 000 m du Haleakala avant l’aube et regarder le soleil se lever au-dessus des nuages est un rite de passage. Le paysage ressemble à Mars. Le silence est absolu.", "cost": "30 $ d’entrée du parc par voiture", "tip": "Réservez le permis pour le lever du soleil sur recreation.gov — il se vend des semaines à l’avance. Apportez une doudoune : il fait véritablement froid au sommet." },
+    { "title": "Cours de surf privé à Waikiki", "description": "Waikiki offre les vagues les plus indulgentes au monde pour apprendre. Des cours privés avec un instructeur local sur un longboard, avec Diamond Head en toile de fond — c’est ici que le surf est né.", "cost": "120-200 $ par personne (cours privé)", "tip": "Réservez un cours privé, pas un cours collectif. L’attention personnelle fait toute la différence entre se mettre debout ou non." }
+  ],
+  "months": [
+    { "weather": "Chaud, quelques pluies sur les côtes au vent", "crowds": "Élevée", "price": "Élevé", "verdict": "Début de la saison des baleines — ça en vaut la peine" },
+    { "weather": "Chaud, pic des baleines", "crowds": "Élevée", "price": "Élevé", "verdict": "Meilleure observation de baleines de l’année" },
+    { "weather": "Réchauffement, fin de saison des baleines", "crowds": "Élevée", "price": "Élevé", "verdict": "Foule du spring break, toujours excellent" },
+    { "weather": "Idéal — sec, pas trop chaud", "crowds": "Modérée", "price": "Moyen", "verdict": "Le bon créneau démarre ici" },
+    { "weather": "Températures parfaites, peu de pluie", "crowds": "Faible-modérée", "price": "Moyen", "verdict": "L’un des meilleurs mois" },
+    { "weather": "Saison sèche bien installée", "crowds": "Modérée", "price": "Moyen-élevé", "verdict": "Excellent à tous points de vue" },
+    { "weather": "Chaud, pic estival animé", "crowds": "Sommet", "price": "Élevé", "verdict": "Magnifique mais bondé" },
+    { "weather": "Chaud, plein été", "crowds": "Sommet", "price": "Maximal", "verdict": "Meilleure météo, prix le plus élevé" },
+    { "weather": "Chaud, foule qui s’estompe", "crowds": "Modérée", "price": "Moyen-élevé", "verdict": "Pépite — même météo, moins de monde" },
+    { "weather": "Températures idéales, peu de monde", "crowds": "Faible-modérée", "price": "Moyen", "verdict": "Meilleur rapport qualité-prix en haute saison" },
+    { "weather": "Légèrement plus pluvieux, confortable", "crowds": "Faible", "price": "Bas-moyen", "verdict": "Bonnes affaires, toujours agréable" },
+    { "weather": "Affluence des fêtes, quelques pluies", "crowds": "Élevée", "price": "Très élevé", "verdict": "Cher, magie de Noël" }
+  ],
+  "budgetTiers": [
+    { "label": "Luxe", "daily": "500-1 000 $/nuit", "includes": "Excellents resorts en bord des plus belles plages — Andaz Maui, Westin Hapuna. Équipements complets, bonne restauration, magnifiques piscines." },
+    { "label": "Premium", "daily": "1 000-2 000 $/nuit", "includes": "Territoire Four Seasons et Ritz-Carlton. Piscines privées, service de quasi-majordome, meilleurs emplacements en bord de plage." },
+    { "label": "Ultra-luxe", "daily": "2 000 $+/nuit", "includes": "Four Seasons Hualalai sur la Big Island — le resort le plus intime et le plus beau de Hawaï. Bungalows dans d’anciens champs de lave face au Pacifique." }
+  ],
+  "areas": [
+    { "name": "Maui — Wailea / Kaanapali", "description": "Wailea, sur la côte sud, est la plus belle enfilade de resorts de Hawaï — Four Seasons, Fairmont Kea Lani, Andaz Maui. Kaanapali, à l’ouest, est légèrement plus animée avec le célèbre snorkel de Black Rock. Toutes deux à l’abri des alizés, avec une eau calme et baignable." },
+    { "name": "Big Island — Kona / Kohala Coast", "description": "La Kohala Coast déroule 50 km de plages immaculées sur fond d’anciens champs de lave noire. Le Four Seasons Hualalai, le Mauna Kea Beach Hotel et le Fairmont Orchid s’y trouvent. L’observation des étoiles depuis le Mauna Kea (4 200 m) est la meilleure au monde." },
+    { "name": "Kauai — North Shore / Poipu", "description": "L’Île-Jardin est la plus belle de Hawaï. La côte de Na Pali n’est accessible qu’en bateau ou en hélicoptère. Hanalei Bay, au nord, est l’une des plus belles plages du Pacifique. Poipu, au sud, est plus ensoleillée et abrite le Grand Hyatt Kauai." },
+    { "name": "Oahu — Honolulu / North Shore", "description": "Waikiki est animée mais iconique — Diamond Head, cours de surf, gastronomie de classe mondiale. Le Halekulani reste le plus bel hôtel d’Oahu. La North Shore offre le meilleur surf de grosses vagues au monde (nov.-fév.) et la légendaire shave ice de Matsumoto." }
+  ],
+  "expertTips": [
+    { "title": "Faites deux îles en 10 nuits — c’est le bon dosage", "body": "Atterrissez à Maui, passez-y 5-6 nuits, puis un vol inter-îles de 40 min vers la Big Island pour 4-5 nuits. Vous obtenez deux expériences de Hawaï complètement différentes sans que la logistique ne devienne contraignante." },
+    { "title": "Réservez les hélicoptères au volcan le plus tôt possible", "body": "Blue Hawaiian et Paradise Helicopters affichent complet plusieurs semaines à l’avance en haute saison. L’activité des coulées de lave évolue — consultez le site de l’USGS Hawaii Volcano Observatory la semaine précédente pour confirmer l’activité." },
+    { "title": "Les côtes ouest et sud de chaque île sont toujours plus sèches", "body": "Les alizés apportent la pluie sur les côtes est et nord (au vent). Tous les meilleurs resorts sont sur les côtes sous le vent (ouest/sud) pour cette raison. Si un hôtel est au vent, sachez à quoi vous attendre." },
+    { "title": "Louez une voiture sur toutes les îles sauf Oahu", "body": "Maui, la Big Island et Kauai sont impossibles à explorer sans voiture. Réservez à l’avance — les agences locales (Harper, Paradise) sont moins chères et mieux entretenues que les chaînes nationales de l’aéroport." },
+    { "title": "La route de Hana est une demi-journée, pas une journée entière", "body": "Quittez votre hôtel de Wailea à 7 h. Allez à Hana, arrêtez-vous aux Seven Sacred Pools et revenez par la route du sud (via Ulupalakua). Vous serez de retour à 17 h. Le faire en aller-retour depuis Kaanapali ajoute 3 h de route avant même de commencer." }
+  ],
+  "packing": [
+    { "item": "Crème solaire reef-safe (minérale)", "why": "Hawaï a été le premier État américain à interdire les crèmes solaires à l’oxybenzone. Vous serez verbalisés dans les parcs d’État sans le bon produit." },
+    { "item": "Doudoune légère", "why": "Pour le sommet du Haleakala (Maui) et celui du Mauna Kea (Big Island) — tous deux au-dessus de 3 000 m, véritablement froids au lever du soleil." },
+    { "item": "Appareil photo étanche", "why": "Le snorkel nocturne avec les raies manta et le snorkel au cratère de Molokini méritent mieux qu’un téléphone." },
+    { "item": "Sandales de randonnée ou trail runners", "why": "Le terrain de lave de la Big Island est tranchant comme un rasoir — les tongs ne survivront pas au Kilauea Iki Trail." },
+    { "item": "Gourde réutilisable", "why": "Il fait chaud à Hawaï, les randonnées sont sérieuses. L’eau du robinet sur toutes les îles est excellente et sûre." }
+  ],
+  "guide": {
+    "getting": "Atterrissez à Kahului (OGG) pour Maui, Kona (KOA) pour la côte ouest de la Big Island, Lihue (LIH) pour Kauai ou Honolulu (HNL) pour Oahu. Depuis les États-Unis continentaux : vols directs en Hawaiian Airlines, Delta, United et American depuis la plupart des grands hubs. Depuis l’Europe : correspondance par LAX, SFO ou SEA. Les vols inter-îles avec Hawaiian Airlines ou Mokulele prennent 20-50 min.",
+    "where": "Maui Wailea (meilleure expérience globale de resort de luxe), Big Island Kohala Coast (le plus spectaculaire, le plus exclusif), Kauai North Shore (beauté brute, Hanalei Bay), Oahu Waikiki (iconique, animée, fond Diamond Head). Pour une lune de miel, Maui + Big Island est la combinaison optimale.",
+    "when": "Avril-juin et septembre-novembre sont les bons créneaux — sec, chaud, moins de monde qu’en été, prix plus bas qu’en pic d’hiver. Janvier-mars apporte les baleines, mais aussi les vacances scolaires et des tarifs plus élevés. Juillet-août est la période la plus animée et la plus chère."
+  },
+  "localFood": "Bols de poke au thon ahi frais, plate lunches au kalua pork, shave ice chez Matsumoto sur la North Shore d’Oahu, café Kona aux pancakes à la noix de macadamia, loco moco (riz, steak haché, œuf et sauce brune) et malasadas fraîches de la Leonard’s Bakery. Les restaurants farm-to-table de Maui et de la Big Island sont véritablement de classe mondiale.",
+  "language": "Anglais (hawaïen parlé)",
+  "seo": {
+    "title": "Lune de miel à Hawaï : 8 resorts insulaires de luxe notés 2026",
+    "description": "8 resorts de Maui, Kauai et Big Island classés. Four Seasons Hualalai, Montage Kapalua. À partir de 700 $/nuit. Verdicts secs avr.-oct."
+  }
+}

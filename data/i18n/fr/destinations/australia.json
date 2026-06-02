@@ -1,0 +1,107 @@
+{
+  "tagline": "Une lune de miel à l’échelle d’un continent — Grande Barrière de Corail, Uluru, port de Sydney, nature tasmanienne. Le voyage multi-étapes le plus varié de la planète.",
+  "intro": "L’Australie est la lune de miel d’une vie — un continent qui exige plusieurs vols intérieurs et 14 jours ou plus pour lui rendre justice. Le tryptique honeymoon : une ville iconique (Sydney pour la vue sur l’Opéra), la Grande Barrière de Corail (Lizard Island en île privée, qualia adults-only dans les Whitsundays) et le Centre rouge (Longitude 131° et ses pavillons-tentes face à Uluru). Ajoutez la Tasmanie (Saffire Freycinet, Southern Ocean Lodge sur Kangaroo Island) pour l’étape sauvage du Sud, ou le pays viticole de Margaret River pour le final occidental. Aucun autre pays ne permet de voir corail, désert, vignobles et métropole en 14 jours.",
+  "bestTime": "Sept-nov. et mars-mai (intersaisons)",
+  "flightFrom": "20-24 h depuis l’Europe, 14 h depuis LAX",
+  "topExperience": "Multi-étapes à l’échelle d’un continent",
+  "perfectFor": [
+    "Couples disposant de 14 à 21 jours et prêts à enchaîner 3 à 5 vols intérieurs",
+    "Amateurs de plages et de récifs (la Grande Barrière de Corail est la plus vaste du monde)",
+    "Couples œnophiles — Margaret River, Hunter Valley, McLaren Vale, Tasmanie",
+    "Photographes de paysages cinématographiques (lever de soleil sur Uluru, Whitehaven Beach, Wineglass Bay)",
+    "Lunes de miel grande ville (Sydney est l’une des villes les plus photographiées au monde)"
+  ],
+  "skipIf": [
+    "Vous disposez de moins de 12 nuits — l’Australie est trop vaste pour les courts séjours",
+    "Les vols longs (20 h et plus) sont rédhibitoires",
+    "Votre budget est inférieur à 5 000 $/personne tout compris (vols internationaux + lodges 5 étoiles)",
+    "Vous voulez une lune de miel mono-resort (qualia ou Lizard Island fonctionnent seuls, mais vous manqueriez le pays)",
+    "Vous voulez la garantie d’une météo parfaite — les saisons australiennes inversent celles de l’hémisphère nord"
+  ],
+  "experiences": [
+    {
+      "title": "Snorkeling et plongée sur la Grande Barrière de Corail",
+      "description": "Le plus grand écosystème corallien du monde (2 300 km, visible depuis l’espace). Lizard Island vous donne un accès direct en annexe ; qualia et la marina de Hamilton Island desservent les catamarans vers le récif extérieur ; Sailaway depuis Port Douglas est l’option à la journée. Cod Hole, Bait Reef, Hardy Reef sont les sites légendaires.",
+      "cost": "Demi-journée snorkeling à partir de 200 $/couple ; accès île privée 1 500+ $/couple/nuit",
+      "tip": "Visitez de mai à octobre pour des mers calmes et la meilleure visibilité (25 m+). De novembre à avril, c’est la saison des cyclones — réservez les sorties au récif extérieur comme options flexibles, pas comme activités fixes."
+    },
+    {
+      "title": "Lever de soleil sur Uluru + Field of Light",
+      "description": "Regarder Uluru passer du bleu au rouge tandis que le soleil se lève est le moment qui définit le Centre rouge. Field of Light (l’installation de 50 000 tiges désertiques de Bruce Munro, de nuit) et le dîner sur la dune Tabletop au Longitude 131° transforment le monolithe de grès en l’arrière-plan le plus cinématographique d’Australie.",
+      "cost": "Field of Light 50 $/personne ; dîner Tabletop inclus avec le séjour à Longitude 131°",
+      "tip": "Logez à Longitude 131° (16 pavillons-tentes face à Uluru) — aucun autre hébergement n’offre la même vue. Réservez 9 à 12 mois à l’avance."
+    },
+    {
+      "title": "Dîner à l’Opéra de Sydney + BridgeClimb",
+      "description": "Dîner au Bennelong (à l’intérieur d’une voile de l’Opéra), suivi d’un opéra contemporain ou d’un ballet, puis retour à pied par Circular Quay. Le lendemain matin, BridgeClimb au sommet du Sydney Harbour Bridge pour des photos à 360°. Le Park Hyatt Sydney est le seul hôtel face à l’Opéra de l’autre côté de l’eau.",
+      "cost": "BridgeClimb 300-400 $/personne ; dîner au Bennelong 200-300 $/couple",
+      "tip": "Réservez le Bennelong en formule « before show » si vous assistez à l’opéra le même soir. Réservez BridgeClimb tôt le matin pour la meilleure lumière sur le port."
+    },
+    {
+      "title": "Journée vinicole à Margaret River ou en Tasmanie",
+      "description": "Margaret River (3 h de Perth) pour le Cabernet Sauvignon, le Chardonnay et le surf ; la Tasmanie pour le Pinot Noir et les effervescents. Excursions avec chauffeur privé depuis votre hôtel-base, 4 à 5 caves et un long déjeuner au domaine.",
+      "cost": "Guide privé 500-1 000 $/couple à la journée",
+      "tip": "Margaret River fonctionne en escapade de 2-3 nuits depuis Perth (Crown Towers) ; les vins tasmaniens se découvrent au mieux depuis Saffire Freycinet, intégré au parcours de la côte est."
+    },
+    {
+      "title": "Faune de Kangaroo Island + Southern Ocean Lodge",
+      "description": "Lions de mer australiens sur la plage de Seal Bay, koalas sauvages sur les sentiers du lodge, diables de Tasmanie en sanctuaire. Southern Ocean Lodge (rouvert en 2023 après les incendies) est la base spectaculaire en bord de falaise.",
+      "cost": "2 500-5 500 $/nuit par couple au Southern Ocean Lodge (tout inclus)",
+      "tip": "Combinez avec 2-3 nuits à Adélaïde pour le pays viticole de la Barossa Valley. Réservez Southern Ocean Lodge 9-12 mois à l’avance — seulement 25 suites."
+    }
+  ],
+  "months": [
+    { "weather": "Chaud, vacances d’été", "crowds": "Maximale", "price": "Maximum", "verdict": "Pic plages — mais humide + risque cyclonique au nord" },
+    { "weather": "Chaud, humide, cyclones", "crowds": "Modérée (rentrée scolaire)", "price": "Élevé", "verdict": "Évitez les zones de récif au nord" },
+    { "weather": "Rafraîchissement, humide au nord", "crowds": "Modérée", "price": "Moyen-élevé", "verdict": "Sydney + Tas excellents ; récif en intersaison" },
+    { "weather": "Automne doux", "crowds": "Modérée", "price": "Moyen", "verdict": "Sweet spot automnal pour Sydney + Uluru" },
+    { "weather": "Frais, sec, parfait", "crowds": "Modérée-faible", "price": "Moyen", "verdict": "Meilleur mois de la saison sèche" },
+    { "weather": "Frais sec, l’hiver commence", "crowds": "Faible-modérée", "price": "Moyen", "verdict": "Excellent pour Uluru + récif" },
+    { "weather": "Frais sec, arrivée des baleines", "crowds": "Modérée (vacances scolaires)", "price": "Moyen-élevé", "verdict": "Pic baleines ; nuits fraîches au sud" },
+    { "weather": "Frais sec, parfait", "crowds": "Modérée", "price": "Moyen-élevé", "verdict": "Meilleur mois multi-régions pour une lune de miel" },
+    { "weather": "Printemps qui se réchauffe", "crowds": "Modérée", "price": "Élevé", "verdict": "Sweet spot — chaleur + peu de pluie" },
+    { "weather": "Printemps chaud, floraisons", "crowds": "Élevée (en hausse)", "price": "Élevé", "verdict": "Excellent dans toutes les régions" },
+    { "weather": "Chaud, chaleur qui monte", "crowds": "Élevée", "price": "Élevé", "verdict": "Fin de printemps encore superbe ; récif qui se réchauffe" },
+    { "weather": "Chaud, vacances d’été", "crowds": "Maximale", "price": "Maximum", "verdict": "Pic plages — chaos de Noël-Nouvel An à Sydney" }
+  ],
+  "budgetTiers": [
+    { "label": "Luxe urbain", "daily": "700-2 200 $/nuit", "includes": "Park Hyatt Sydney (vue Opéra), Capella Sydney, Crown Towers Perth — 5 étoiles tout équipés avec vues, spas et fine dining." },
+    { "label": "Lodges iconiques", "daily": "1 500-3 500 $/nuit par couple tout inclus", "includes": "Saffire Freycinet, qualia, Lizard Island, Capella Lodge — lodges de destination avec activités incluses et la plupart des repas." },
+    { "label": "Sauvage ultra-luxe", "daily": "2 500-5 500 $/nuit par couple tout inclus", "includes": "Longitude 131° (Uluru), Southern Ocean Lodge (Kangaroo Island) — fleuron Baillie Lodges avec hélicoptère et expériences signature." }
+  ],
+  "areas": [
+    { "name": "Sydney + NSW (est)", "description": "Park Hyatt Sydney pour les lunes de miel avec vue sur l’Opéra ; Capella Sydney pour le design dans un patrimoine. 3-4 nuits à Sydney avec une journée vinicole en Hunter Valley constitue l’étape urbaine classique." },
+    { "name": "Whitsundays + Grande Barrière de Corail (Queensland)", "description": "qualia (adults-only à Hamilton Island) et Lizard Island (île privée) sont les icônes. Whitehaven Beach, Heart Reef en hélicoptère, journées snorkeling au récif extérieur. 4-5 nuits minimum." },
+    { "name": "Uluru + Centre rouge (Territoire du Nord)", "description": "Longitude 131° est la seule option luxe. 2-3 nuits pour la marche au pied d’Uluru, la randonnée de Kata Tjuta, Field of Light, dîner Tabletop." },
+    { "name": "Tasmanie (Saffire + Southern Ocean Lodge)", "description": "Saffire Freycinet (côte est) et Southern Ocean Lodge sur Kangaroo Island (techniquement Australie-Méridionale, souvent associée à la Tasmanie) sont le niveau sauvage du Sud. Ajoutez 5 à 7 nuits." },
+    { "name": "Perth + Margaret River (Australie-Occidentale)", "description": "Crown Towers Perth comme base urbaine, puis 3 jours dans le pays viticole de Margaret River. Ajoute 5-6 nuits et l’expérience œnologique la plus diversifiée d’Australie." }
+  ],
+  "expertTips": [
+    { "title": "Construisez le voyage autour de 3 régions maximum, pas 5", "body": "Tenter Sydney + Récif + Uluru + Tasmanie + Perth en 14 nuits, c’est trop. Choisissez-en 3 — typiquement Sydney + Récif + Uluru pour la boucle iconique, OU Sydney + Tasmanie + Récif pour la boucle sauvage." },
+    { "title": "Réservez les vols intérieurs avec Qantas, pas low-cost", "body": "Qantas opère les horaires les plus fiables entre Sydney, Cairns, Hamilton Island, Ayers Rock, Hobart et Perth. Le « rabais » Jetstar se paie en retards et en transferts manqués vers les lodges." },
+    { "title": "Pour le récif, choisissez Lizard Island OU qualia, pas les deux", "body": "Les deux relèvent du luxe île privée / Whitsundays. Lizard pour l’immersion récif (5 nuits de snorkeling et plongée) ; qualia pour le poli adults-only (5 nuits de pavillons, piscine, Pebble Beach Club)." },
+    { "title": "Comptez 3 nuits minimum à Longitude 131°", "body": "Uluru mérite 3 nuits : marche au pied au lever du jour, journée Kata Tjuta, Field of Light + Tabletop. 2 nuits ici semblent précipitées ; 4, luxueuses." },
+    { "title": "Réservez la dégustation ABC (Australian Bush Tucker) à Longitude 131°", "body": "Les dégustations culturelles anangu et les ateliers de peinture à points au Cultural Centre sont un contexte essentiel. Pré-réservez via votre concierge." }
+  ],
+  "packing": [
+    { "item": "Crème solaire reef-safe (Stream2Sea ou équivalent)", "why": "Les zones de récif australiennes interdisent les crèmes à base d’oxybenzone ; les UV sont intenses toute l’année" },
+    { "item": "Chemises légères à manches longues (UPF 50+)", "why": "La protection solaire sur les bateaux du récif et lors des randonnées à Uluru est plus importante qu’un bronzage" },
+    { "item": "Chaussures de randonnée + chaussures d’eau", "why": "Randonnée pour la marche au pied d’Uluru et les sentiers tasmaniens ; chaussures d’eau pour le snorkeling depuis la plage" },
+    { "item": "Couches pour les écarts de température désertiques", "why": "Uluru peut atteindre 35 °C le jour et 5 °C la nuit, même en hiver" },
+    { "item": "Adaptateur électrique australien (Type I)", "why": "L’Australie utilise des prises à 3 broches inclinées uniques — emportez un adaptateur multi-régions" },
+    { "item": "Lunettes polarisées", "why": "Reflets du récif, du désert, du port de Sydney — non négociables" },
+    { "item": "Tenues smart-casual pour les dîners à Sydney + qualia", "why": "Bennelong, Aria, Long Pavilion à qualia imposent un dress code soigné" },
+    { "item": "Appareil photo de qualité (sans miroir de préférence)", "why": "Vous volez 20 h pour photographier Uluru et l’Opéra — les appareils photo de téléphone déçoivent" }
+  ],
+  "guide": {
+    "getting": "Volez à Sydney (SYD) ou Melbourne (MEL) comme portes d’entrée internationales. Depuis l’Europe : ~24 h via Singapour (SQ), Doha (QR) ou Dubaï (EK). Depuis la côte ouest américaine : 14 h direct via Qantas, United ou American. Vols intérieurs via Qantas et Jetstar vers toutes les grandes villes et aéroports de resort (Hamilton Island HTI, Ayers Rock AYQ, Hobart HBA, Cairns CNS, Perth PER).",
+    "where": "Lune de miel classique de 14 nuits : 4 nuits à Sydney (Park Hyatt) → 5 nuits au récif (qualia ou Lizard Island) → 3 nuits à Uluru (Longitude 131°) → 2 nuits à Sydney au retour. Version sauvage 21 nuits : ajoutez 5 nuits en Tasmanie + 3 nuits sur Kangaroo Island. Version vin : 14 nuits avec 3 nuits à Margaret River à la place du récif.",
+    "when": "Septembre-novembre (printemps australien) et mars-mai (automne) sont les sweet spots — assez chauds pour le récif, assez frais pour le Centre rouge. Évitez décembre-février au nord (risque cyclonique) et juin-août en Tasmanie (humide/froid) sauf si l’hiver tasmanien vous séduit."
+  },
+  "localFood": "Cuisine australienne moderne : ingrédients indigènes (kangourou, crocodile, finger lime, lemon myrtle, poivre indigène) cuisinés selon des techniques internationales. Restaurants de classe mondiale : Quay (Sydney), Tetsuya’s (Sydney), Vue de Monde (Melbourne), Brae (Birregurra), Fervor (dîners pop-up en pleine nature). Vin : Cab/Chardonnay de Margaret River, Sémillon de Hunter Valley, Pinot tasmanien, effervescents de la Yarra Valley. La culture du café est parmi les meilleures du monde — flat whites partout.",
+  "language": "Anglais. Vocabulaire australien caractéristique (brekkie = petit-déjeuner, arvo = après-midi, servo = station-service). Les langues aborigènes sont encore parlées dans certaines communautés ; apprendre « bonjour » en pitjantjatjara à Uluru est un geste apprécié.",
+  "seo": {
+    "title": "Lune de miel en Australie : 10 lodges récif et outback",
+    "description": "10 séjours Grande Barrière, Tasmanie, Uluru classés. Lizard Island, Saffire, Longitude 131. À partir de 700 $/nuit."
+  }
+}

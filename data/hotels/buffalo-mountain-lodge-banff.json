@@ -7,7 +7,12 @@
     "title": "Buffalo Mountain Lodge Banff: Honeymoon Review (2026)",
     "description": "Log-cabin luxury on Tunnel Mountain. Score 78/100, from $300 CAD/night. Honest verdict, fireside suite, 7-night itinerary & email."
   },
-  "experience_types": ["mountain", "romantic", "nature", "boutique"],
+  "experience_types": [
+    "mountain",
+    "romantic",
+    "nature",
+    "boutique"
+  ],
   "honeymoon_score": 78,
   "score_breakdown": {
     "adults_only": 0,
@@ -21,7 +26,10 @@
     "luxury": 10
   },
   "stars": 4,
-  "price_per_night_usd": { "min": 300, "max": 900 },
+  "price_per_night_usd": {
+    "min": 300,
+    "max": 900
+  },
   "adults_only": false,
   "amenities": [
     "fine-dining",
@@ -35,11 +43,31 @@
     "shuttle"
   ],
   "photos": [
-    { "url": "/images/hotels/buffalo-mountain-lodge-banff/hero.webp", "alt": "buffalo-mountain-lodge-banff — hero", "type": "hero" },
-    { "url": "/images/hotels/buffalo-mountain-lodge-banff/room.webp", "alt": "buffalo-mountain-lodge-banff — room", "type": "room" },
-    { "url": "/images/hotels/buffalo-mountain-lodge-banff/pool.webp", "alt": "buffalo-mountain-lodge-banff — pool", "type": "pool" },
-    { "url": "/images/hotels/buffalo-mountain-lodge-banff/spa.webp", "alt": "buffalo-mountain-lodge-banff — spa", "type": "spa" },
-    { "url": "/images/hotels/buffalo-mountain-lodge-banff/dining.webp", "alt": "buffalo-mountain-lodge-banff — dining", "type": "dining" }
+    {
+      "url": "/images/hotels/buffalo-mountain-lodge-banff/hero.webp",
+      "alt": "buffalo-mountain-lodge-banff — hero",
+      "type": "hero"
+    },
+    {
+      "url": "/images/hotels/buffalo-mountain-lodge-banff/room.webp",
+      "alt": "buffalo-mountain-lodge-banff — room",
+      "type": "room"
+    },
+    {
+      "url": "/images/hotels/buffalo-mountain-lodge-banff/pool.webp",
+      "alt": "buffalo-mountain-lodge-banff — pool",
+      "type": "pool"
+    },
+    {
+      "url": "/images/hotels/buffalo-mountain-lodge-banff/spa.webp",
+      "alt": "buffalo-mountain-lodge-banff — spa",
+      "type": "spa"
+    },
+    {
+      "url": "/images/hotels/buffalo-mountain-lodge-banff/dining.webp",
+      "alt": "buffalo-mountain-lodge-banff — dining",
+      "type": "dining"
+    }
   ],
   "tripadvisor_rating": 4.5,
   "tripadvisor_award": true,
@@ -48,13 +76,41 @@
     "verdict": "Buffalo Mountain Lodge is the romantic log-cabin honeymoon address in Banff that doesn't try to be a castle — an 108-room hand-built timber-and-stone lodge on the forested slope of Tunnel Mountain, 10 minutes by hotel shuttle from Banff Avenue, owned by the Banff-based Canadian Rocky Mountain Resorts family group. The proposition is straightforward: traditional log-cabin Canadian Rockies lodging at half the rate of the Fairmont Banff Springs, with the rare benefit that every room has a wood-burning stone fireplace (you light it yourself; the bellhop delivers a fresh basket of split lodgepole pine to your door each afternoon). Rooms split between the original lodge (slightly smaller, deeper character, log walls and beam ceilings), the newer wing (more space, balcony, the same fireplace), and the standalone Trapper's Cabins (private, but pricier and on a separate parcel). The dining room — Sleeping Buffalo — is the in-house steakhouse and is genuinely good, with Alberta game (elk, venison, bison) and the same supplier network that feeds the group's other properties. The location is the lodge's biggest practical asset: 10 min by complimentary shuttle to Banff Avenue, walking distance through pine forest to Cascade Pond and the Surprise Corner viewpoint over the Bow Falls and the Fairmont Banff Springs, and easy 5-min drive to the Banff Upper Hot Springs. The wider Banff National Park sits at the door. What Buffalo Mountain doesn't have: a spa to write home about, a swimming pool, or the lakefront proximity of the Lake Louise properties. What it has: cabin atmosphere, an outdoor hot tub under the stars, the fireplace in the room, real value vs the Fairmont properties, and a romance that comes from the wood-smoke smell on your sweater rather than chandeliers. For couples on a tighter luxury budget, or as a midweek interlude before splurging at the Chateau Lake Louise, this is the smart move.",
     "best_room": "A Premier Loft Suite — top-floor with vaulted timber ceiling, wood-burning fireplace, mountain view, and the largest bath. The Trapper's Cabin Suites are standalone log structures with extra privacy but are positioned slightly away from the main lodge. Avoid standard Premier rooms on the lower level — no balcony, less view.",
     "itinerary_7_nights": [
-      { "day": 1, "title": "Arrival and fireside settling-in", "description": "Calgary Airport (1h 30min drive), check-in to your suite, light the fire, dinner at the Sleeping Buffalo dining room (elk medallions and the Sleeping Buffalo Cabernet)." },
-      { "day": 2, "title": "Banff Avenue and Upper Hot Springs", "description": "Shuttle into Banff Avenue, walk along the Bow River, lunch at the Bison Restaurant. Late afternoon at the Banff Upper Hot Springs. Back for the lodge's outdoor hot tub before dinner." },
-      { "day": 3, "title": "Lake Louise and Moraine Lake", "description": "Drive 45 min north to Lake Louise. Canoe rental, lakeshore walk. Shuttle to Moraine Lake. Lunch at the Chateau's Walliser Stube. Return for fireside dinner." },
-      { "day": 4, "title": "Banff Gondola and Cave & Basin", "description": "Banff Gondola to the top of Sulphur Mountain — boardwalk and views. Lunch at the Sky Bistro. Cave & Basin National Historic Site (the original hot spring that founded Banff). Cocktails at the Park Distillery." },
-      { "day": 5, "title": "Helicopter to a glacier", "description": "Drive to Canmore for Rockies Heli — 90-min glacier picnic. Lunch at Eden. Return to the lodge for an early dinner and the fireplace." },
-      { "day": 6, "title": "Johnston Canyon and Bow Valley", "description": "Drive to Johnston Canyon for the catwalk hike. Lunch at Baker Creek. Return for the spa (Buffalo Mountain Lodge has a small in-room massage service) and fireside cocktails." },
-      { "day": 7, "title": "Slow departure", "description": "Final breakfast at the lodge, last walk in the pine forest, 1h 30min drive to Calgary." }
+      {
+        "day": 1,
+        "title": "Arrival and fireside settling-in",
+        "description": "Calgary Airport (1h 30min drive), check-in to your suite, light the fire, dinner at the Sleeping Buffalo dining room (elk medallions and the Sleeping Buffalo Cabernet)."
+      },
+      {
+        "day": 2,
+        "title": "Banff Avenue and Upper Hot Springs",
+        "description": "Shuttle into Banff Avenue, walk along the Bow River, lunch at the Bison Restaurant. Late afternoon at the Banff Upper Hot Springs. Back for the lodge's outdoor hot tub before dinner."
+      },
+      {
+        "day": 3,
+        "title": "Lake Louise and Moraine Lake",
+        "description": "Drive 45 min north to Lake Louise. Canoe rental, lakeshore walk. Shuttle to Moraine Lake. Lunch at the Chateau's Walliser Stube. Return for fireside dinner."
+      },
+      {
+        "day": 4,
+        "title": "Banff Gondola and Cave & Basin",
+        "description": "Banff Gondola to the top of Sulphur Mountain — boardwalk and views. Lunch at the Sky Bistro. Cave & Basin National Historic Site (the original hot spring that founded Banff). Cocktails at the Park Distillery."
+      },
+      {
+        "day": 5,
+        "title": "Helicopter to a glacier",
+        "description": "Drive to Canmore for Rockies Heli — 90-min glacier picnic. Lunch at Eden. Return to the lodge for an early dinner and the fireplace."
+      },
+      {
+        "day": 6,
+        "title": "Johnston Canyon and Bow Valley",
+        "description": "Drive to Johnston Canyon for the catwalk hike. Lunch at Baker Creek. Return for the spa (Buffalo Mountain Lodge has a small in-room massage service) and fireside cocktails."
+      },
+      {
+        "day": 7,
+        "title": "Slow departure",
+        "description": "Final breakfast at the lodge, last walk in the pine forest, 1h 30min drive to Calgary."
+      }
     ],
     "caveats": [
       "No pool, no real spa — book the in-room massage if you want bodywork.",
@@ -62,12 +118,30 @@
       "Trapper's Cabins are a 5-min walk from the main lodge dining/lobby — wonderful in summer, more inconvenient in -20°C January."
     ],
     "faqs": [
-      { "question": "Good for honeymooners?", "answer": "Yes for couples wanting genuine log-cabin atmosphere with a fireplace in every room at half the Fairmont rate. Best at non-peak rates ($300–$500/night) — premium periods erode the value." },
-      { "question": "Best time to visit?", "answer": "September through May for the fireplace season. June–August is also fine but the fireplace becomes ornamental." },
-      { "question": "Book in advance?", "answer": "Premier Loft Suites and Trapper's Cabins for July–August: 4–6 months ahead. Off-peak more flexible." },
-      { "question": "Adults-only?", "answer": "No. Families do stay but the lodge naturally skews couples and adults." },
-      { "question": "Best room type?", "answer": "Premier Loft Suite or Trapper's Cabin Suite." },
-      { "question": "How to get there?", "answer": "Calgary (YYC) 1h 30min by rental car. The lodge runs a complimentary shuttle to Banff Avenue every 30 min." }
+      {
+        "question": "Good for honeymooners?",
+        "answer": "Yes for couples wanting genuine log-cabin atmosphere with a fireplace in every room at half the Fairmont rate. Best at non-peak rates ($300–$500/night) — premium periods erode the value."
+      },
+      {
+        "question": "Best time to visit?",
+        "answer": "September through May for the fireplace season. June–August is also fine but the fireplace becomes ornamental."
+      },
+      {
+        "question": "Book in advance?",
+        "answer": "Premier Loft Suites and Trapper's Cabins for July–August: 4–6 months ahead. Off-peak more flexible."
+      },
+      {
+        "question": "Adults-only?",
+        "answer": "No. Families do stay but the lodge naturally skews couples and adults."
+      },
+      {
+        "question": "Best room type?",
+        "answer": "Premier Loft Suite or Trapper's Cabin Suite."
+      },
+      {
+        "question": "How to get there?",
+        "answer": "Calgary (YYC) 1h 30min by rental car. The lodge runs a complimentary shuttle to Banff Avenue every 30 min."
+      }
     ],
     "email_template": "Subject: Honeymoon inquiry — Buffalo Mountain Lodge\n\nDear Buffalo Mountain Lodge reservations,\n\nWe'd like a Premier Loft Suite or Trapper's Cabin Suite for [DATES], 4 to 6 nights. Could you confirm rates and any honeymoon arrangements?\n\nQuestions:\n1. Honeymoon arrival turndown?\n2. In-room couples massage availability?\n3. Sleeping Buffalo dinner reservation?\n4. Airport shuttle options from Calgary?\n\nThank you,\n[Your names]"
   },

@@ -1,0 +1,76 @@
+{
+  "tagline": "Plus de 7 000 îles, atolls privés et certaines des eaux les plus claires d’Asie — l’archipel des rêves.",
+  "intro": "Les Philippines sont le secret luxe le mieux gardé d’Asie du Sud-Est. Pendant que la Thaïlande et Bali absorbent les foules, les baies karstiques classées UNESCO de Palawan, les bosquets de cocotiers de Siargao et l’atoll privé Aman de Pamalican offrent certains des paysages insulaires les plus spectaculaires et préservés au monde. Amanpulo, à Pamalican, abrite les casitas de plage privées les plus extraordinaires d’Asie. Les lacs cristallins de Coron et ses épaves de la Seconde Guerre mondiale sont uniques sur Terre. Les Philippines récompensent les couples qui regardent au-delà de la surface.",
+  "bestTime": "Nov-mai",
+  "flightFrom": "13-16 h depuis l’Europe (via Singapour ou Hong Kong)",
+  "topExperience": "Île privée et plongée",
+  "perfectFor": [
+    "Les couples en quête d’une vraie réclusion sur île privée — Amanpulo n’accepte aucun visiteur extérieur",
+    "Les passionnés de plongée — Tubbataha Reef est l’un des trois meilleurs sites au monde",
+    "Les accros au island-hopping d’El Nido — le décor côtier le plus spectaculaire d’Asie",
+    "Les surfeurs qui veulent une destination romantique avec vagues de classe mondiale (Siargao)",
+    "Ceux qui cherchent le plus beau luxe balnéaire d’Asie à des tarifs inférieurs aux Maldives"
+  ],
+  "skipIf": [
+    "Vous voyagez de juin à octobre — la saison des typhons rend le nord risqué",
+    "La logistique facile prime — les liaisons inter-îles demandent de la planification",
+    "Vous voulez de la culture urbaine en plus de la plage — Manille est à éviter",
+    "Votre budget est sous 200 $/nuit — le meilleur des Philippines est accessible mais pas bon marché"
+  ],
+  "experiences": [
+    { "title": "El Nido Tour C en island-hopping", "description": "La journée la plus spectaculaire dans l’archipel de Bacuit — Hidden Beach, Secret Lagoon et Big Lagoon en bangka entre les pitons calcaires qui surgissent d’une mer émeraude. Rien d’équivalent en Asie.", "cost": "25-60 $/personne en partagé ; charter privé 200-400 $", "tip": "Démarrez à 6 h en charter privé pour atteindre Hidden Beach avant la flottille. Les Tours A et C sont les deux incontournables." },
+    { "title": "Plongée sur épaves WWII à Coron", "description": "La baie de Coron abrite une flotte de navires japonais de la Seconde Guerre mondiale à 15-35 m, désormais recouverts de coraux et habités d’énormes mérous. Le Kogyo Maru et l’Okikawa Maru figurent parmi les meilleures épaves au monde.", "cost": "60-100 $/personne en plongée guidée", "tip": "Combinez avec Kayangan Lake — réputé le lac le plus propre d’Asie, aux parois calcaires saisissantes." },
+    { "title": "Cloud 9, surf à Siargao", "description": "Le reef break le plus célèbre d’Asie — une droite creuse et puissante qui accueille des championnats internationaux. Les débutants apprennent à Jacking Horse ou Stimpy’s, pas à Cloud 9.", "cost": "Cours 20-30 $ ; location de planche 10-15 $/jour", "tip": "Septembre voit Cloud 9 à son maximum. Mai-juin offre l’ambiance sans la foule." },
+    { "title": "Liveaboard à Tubbataha Reef", "description": "L’un des récifs coralliens les plus protégés de l’UNESCO — accessible uniquement de mars à juin en liveaboard depuis Puerto Princesa. Requins, raies manta et tombants intacts.", "cost": "3 000-5 000 $ par couple pour 5 nuits", "tip": "Réservez avant novembre pour l’année suivante — les permis sont strictement limités." },
+    { "title": "Coucher de soleil sur l’île privée d’Amanpulo", "description": "Les 40 casitas de plage et de colline de l’île de Pamalican, avec majordome et piscines privées. Coucher de soleil sur la plage sans un autre client visible — le fantasme d’île privée à l’état pur.", "cost": "1 500-3 000 $/nuit (équivalent tout-compris)", "tip": "Choisissez la Beach Casita plutôt que Hillside pour l’accès direct au sable. Le snorkeling sur le récif maison figure parmi les meilleurs du pays." }
+  ],
+  "months": [
+    { "weather": "Sec et chaud, conditions idéales", "crowds": "Modérée", "price": "Moyen", "verdict": "Excellent — pic de la meilleure saison" },
+    { "weather": "Le meilleur mois, sec et clair", "crowds": "Élevée", "price": "Élevé", "verdict": "Le plus beau mois aux Philippines" },
+    { "weather": "Chaud, sec, meilleure visibilité plongée", "crowds": "Élevée", "price": "Élevé", "verdict": "Excellent, ouverture de la saison Tubbataha" },
+    { "weather": "Très chaud, foules de Pâques", "crowds": "Maximale", "price": "Le plus élevé", "verdict": "Chaud mais magnifique — réservez en amont" },
+    { "weather": "Transition, chaud, pré-saison humide", "crowds": "Faible à modérée", "price": "Moyen", "verdict": "Bon rapport, Siargao parfait" },
+    { "weather": "Début de saison humide, risque de typhon", "crowds": "Faible", "price": "Bas", "verdict": "Gérable au sud, risqué au nord" },
+    { "weather": "Pic de saison des typhons", "crowds": "Faible", "price": "Le plus bas", "verdict": "Évitez la plupart des destinations" },
+    { "weather": "Risque élevé de typhon", "crowds": "Faible", "price": "Le plus bas", "verdict": "Déconseillé pour une lune de miel" },
+    { "weather": "Risque de typhon, pic du surf à Siargao", "crowds": "Faible", "price": "Bas", "verdict": "Surfeurs seulement ; les autres évitent" },
+    { "weather": "Fin de saison des typhons", "crowds": "Faible", "price": "Bas à moyen", "verdict": "Amélioration mais risque résiduel" },
+    { "weather": "Début de saison sèche, Palawan ouvre", "crowds": "Modérée", "price": "Moyen", "verdict": "Excellent démarrage de saison" },
+    { "weather": "Sec, chaud, ambiance festive", "crowds": "Élevée", "price": "Élevé", "verdict": "Saison festive, météo superbe" }
+  ],
+  "budgetTiers": [
+    { "label": "Îles boutique", "daily": "120-350 $/nuit", "includes": "Cottage joliment dessiné sur une belle plage. Options pension complète, snorkeling depuis la plage. Excellent rapport pour le cadre. Exemples : El Nido Resorts Apulit Island, Bohol Beach Club, guesthouses boutiques d’El Nido." },
+    { "label": "Îles privées premium", "daily": "400-900 $/nuit", "includes": "Villa avec piscine privée sur île isolée. Plongée et snorkeling de qualité inclus. Nombre de clients limité. Exemples : Huma Island Resort, Club Paradise Dimakya, Badian Island Wellness Resort." },
+    { "label": "Ultra-luxe", "daily": "1 500-3 000 $ et plus/nuit", "includes": "Île privée façon Aman. Majordome, plage privée, récif maison. Le plus exclusif d’Asie du Sud-Est. Exemples : Amanpulo Pamalican, Dedon Island Siargao." }
+  ],
+  "areas": [
+    { "name": "Palawan / El Nido", "description": "Karst calcaire, littoral UNESCO. Le décor côtier le plus spectaculaire d’Asie. El Nido est la base pour le island-hopping dans l’archipel de Bacuit. Vol direct depuis Manille (1 h 15). 3 nuits minimum." },
+    { "name": "Siargao", "description": "Surf, cocotiers, romance détendue. La capitale du surf en Asie, désormais connue aussi pour ses paysages de cocotiers, ses lagunes bleues et ses resorts détendus. General Luna offre d’excellents restaurants. Vol via Cebu." },
+    { "name": "Bohol", "description": "Chocolate Hills, faune, plongée. Célèbre pour ses Chocolate Hills et le plus petit primate du monde (le tarsier). Les plages de Panglao Island sont excellentes. Vol vers Tagbilaran depuis Manille ou Cebu." },
+    { "name": "Coron", "description": "Épaves, lacs cristallins, isolement. L’île la plus sous-estimée des Philippines. Kayangan Lake, plongée à Barracuda Lake et les meilleures épaves WWII au monde. Vol depuis Manille (1 h 15)." }
+  ],
+  "expertTips": [
+    { "title": "Évitez Manille — volez direct vers l’île choisie", "body": "Manille n’offre pas grand-chose aux honeymooners. Réservez les vols directs vers El Nido via Busuanga, Siargao ou Coron. Cebu est un hub correct." },
+    { "title": "Les vols intérieurs se remplissent des semaines à l’avance en pic", "body": "AirSwift, Cebu Pacific et PAL Express vers El Nido et Siargao sont en nombre limité. Réservez tous les vols domestiques avant de partir." },
+    { "title": "Les lagons d’El Nido à 5 h 30 sont un autre monde", "body": "La Secret Lagoon est saturée de bateaux dès 10 h. Affrétez une bangka privée pour démarrer tôt et vous aurez les baies calcaires pour vous." },
+    { "title": "Les distributeurs d’El Nido tombent en panne le week-end", "body": "Apportez assez de liquide depuis Puerto Princesa ou Manille. Beaucoup de restaurants et de charters bateau sont en espèces uniquement." }
+  ],
+  "packing": [
+    { "item": "Crème solaire minérale reef-safe", "why": "El Nido et Tubbataha bannissent les crèmes chimiques. Le minéral est requis et difficile à trouver sur place" },
+    { "item": "Sac étanche", "why": "Les bangkas reçoivent des embruns à chaque journée d’island-hopping. Appareil photo et téléphone exigent une protection totale" },
+    { "item": "Rash guard léger", "why": "Snorkeling pendant 4 h et plus en soleil tropical sans rash guard provoque de sévères coups de soleil" },
+    { "item": "Sachets d’électrolytes", "why": "La chaleur et l’activité déshydratent vite. Une boisson électrolytique quotidienne prévient les maux de tête qui gâchent les après-midi" },
+    { "item": "Répulsif anti-insectes biodégradable", "why": "Les moustiques au lever et au coucher du soleil sont marqués, en particulier à Siargao et à l’intérieur de Palawan" }
+  ],
+  "guide": {
+    "getting": "Vol pour Manille (MNL) ou Cebu (CEB). Depuis l’Europe : 13-16 h via Singapour, Hong Kong ou Dubaï. Depuis l’Australie : direct Sydney-Manille (8 h). Correspondances intérieures : Manille-El Nido via Busuanga sur AirSwift (1 h 15) ; Manille-Siargao via Cebu (1 h 30 au total) ; Manille-Coron direct (1 h 15). Réservez les vols domestiques en premier — ce sont les plus tendus.",
+    "where": "El Nido est le fleuron — 3-4 nuits, avec extension possible de 2 nuits à Coron en hors-bord ou en avion léger. Siargao pour les couples qui veulent culture surf et romance — 3-4 nuits à General Luna. Amanpulo fonctionne en séjour autonome de 4 nuits. Classique : 4 nuits à El Nido → 2 nuits à Coron, ou 4 nuits à El Nido → 3 nuits à Amanpulo.",
+    "when": "Novembre à mai est la saison sèche. Février-mars est le pic absolu pour la météo, la plongée et la plage. Avril est chaud mais magnifique. Évitez juin-octobre pour le nord de Palawan et Siargao — risque de typhons réel. Coron, mieux abritée, reste parfois accessible toute l’année."
+  },
+  "localFood": "Kinilaw (ceviche philippin au thon frais, vinaigre et calamansi — extraordinaire), fruits de mer grillés avec riz à l’ail et sawsawan, lechon (cochon entier rôti à la mode de Cebu — plat le plus célébré du pays), sinigang (soupe acidulée au tamarin avec crevettes ou porc), buko frais (jeune coco) bu directement à la coque sur la plage.",
+  "language": "Filipino et anglais — l’anglais est langue officielle, universellement parlé",
+  "seo": {
+    "title": "Lune de Miel aux Philippines 2026 : 8 Resorts de Plage Privée",
+    "description": "8 resorts Palawan, Cebu, Boracay notés. Amanpulo, El Nido, Shangri-La Boracay. À partir de 500 $/nuit. Saison sèche déc-mai."
+  }
+}

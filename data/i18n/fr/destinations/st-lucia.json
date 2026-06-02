@@ -1,0 +1,106 @@
+{
+  "tagline": "Les Pitons. Aucune autre île des Caraïbes n’a cela. Rien n’en approche.",
+  "intro": "Sainte-Lucie, c’est ce qui arrive quand une île des Caraïbes refuse l’ordinaire. Les deux pics jumeaux des Pitons — patrimoine mondial de l’UNESCO, dressés à 770 m au-dessus de la mer — ont attiré architectes et hôteliers qui y ont construit leurs plus belles œuvres. Le résultat : des hôtels comme Jade Mountain qui suppriment carrément le quatrième mur, pour que votre piscine à débordement privée s’ouvre directement sur les sommets. Volcanique, spectaculaire et totalement différente de toute autre destination de lune de miel.",
+  "bestTime": "Déc-avr",
+  "flightFrom": "8-9 h depuis Londres",
+  "topExperience": "Luxe réservé aux adultes",
+  "perfectFor": [
+    "Les couples qui veulent du spectaculaire — les Pitons sont la plus impressionnante toile de fond hôtelière des Caraïbes",
+    "Les amateurs d’architecture et de design — Jade Mountain et Sugar Beach sont des chefs-d’œuvre",
+    "Les couples tournés vers la nature (randonnée du volcan, sources sulfureuses, forêt tropicale)",
+    "Les amateurs de Sandals en quête d’un véritable all-inclusive romantique aux belles plages",
+    "Ceux qui veulent les Caraïbes plus quelque chose de plus aventureux qu’une simple bande de plage"
+  ],
+  "skipIf": [
+    "Vous voulez la plage caribéenne la plus plate et la plus blanche — les plus belles plages de Sainte-Lucie sont en sable volcanique",
+    "Il vous faut une vie nocturne trépidante ou une variété cosmopolite de restaurants",
+    "La route sinueuse de 2 heures depuis l’aéroport du sud est rédhibitoire",
+    "Vous voulez une destination resort plate, baignée de soleil",
+    "Budget inférieur à 400 $/nuit — les meilleurs hôtels d’ici sont chers pour ce qu’ils offrent"
+  ],
+  "experiences": [
+    {
+      "title": "Volcan drive-in et sources sulfureuses",
+      "description": "Le seul volcan au monde où l’on entre en voiture, à Soufrière. Bains de boue dans des piscines sulfureuses volcaniques réputées tout guérir. Étrange, spectaculaire, inoubliable. À 30 minutes des hôtels des Pitons.",
+      "cost": "30-60 $ par couple (entrée)",
+      "tip": "Allez-y tôt le matin avant les groupes. Combinez avec la cascade de Toraille pour une journée complète."
+    },
+    {
+      "title": "Ascension du Gros Piton",
+      "description": "2 h 30 de randonnée guidée jusqu’à 738 m, avec vue sur tout l’archipel. Pas facile. Cela en vaut totalement la peine. L’une des plus belles choses que deux personnes puissent partager en lune de miel.",
+      "cost": "80-120 $ par couple (guide obligatoire)",
+      "tip": "Partez à 6 h du matin pour atteindre le sommet avant les nuages et la chaleur. Emportez de l’eau et un coupe-pluie, même en saison sèche."
+    },
+    {
+      "title": "Voile en catamaran au pied des Pitons",
+      "description": "Naviguer le long de la côte au coucher du soleil, les Pitons jumeaux dans le dos, une coupe de champagne à la main. De nombreux opérateurs proposent une version journée complète avec snorkeling et arrêts plage.",
+      "cost": "150-350 $ par couple",
+      "tip": "La traversée d’une journée de Castries à Soufrière et retour est la journée classique à Sainte-Lucie. Réservez via votre hôtel."
+    },
+    {
+      "title": "Tyrolienne et passerelle dans la forêt",
+      "description": "L’intérieur de Sainte-Lucie est une jungle dense et luxuriante. Les tyroliennes à travers la canopée sont franchement exaltantes — rien à voir avec les versions caribéennes plus sages d’ailleurs.",
+      "cost": "80-120 $ par personne",
+      "tip": "Rainforest Adventures est le meilleur opérateur. Réservez le créneau matinal (8 h) pour apercevoir la faune."
+    },
+    {
+      "title": "Observation des tortues la nuit (juin-sept.)",
+      "description": "Les tortues luths et imbriquées nichent sur les plages de Sainte-Lucie de juin à septembre. Un guide agréé vous emmène voir les pontes ou les éclosions à la nuit tombée. Profondément émouvant.",
+      "cost": "40-80 $ par personne",
+      "tip": "Via le St Lucia Heritage Tourism Programme. Les places sont limitées — réservez plusieurs semaines à l’avance."
+    }
+  ],
+  "months": [
+    { "weather": "Sec, 27 °C, pluies minimes", "crowds": "Élevée", "price": "Élevé", "verdict": "Pleine saison, excellent" },
+    { "weather": "Le mois le plus sec de l’année", "crowds": "Élevée", "price": "Élevé", "verdict": "Meilleure météo" },
+    { "weather": "Sec, chaud, agréable", "crowds": "Modérée", "price": "Moyen-élevé", "verdict": "Un peu moins fréquenté" },
+    { "weather": "Fin de saison sèche", "crowds": "Modérée", "price": "Moyen", "verdict": "Le meilleur rapport qualité-prix" },
+    { "weather": "Transition, averses occasionnelles", "crowds": "Faible", "price": "Bas", "verdict": "Bonnes affaires, un peu de pluie" },
+    { "weather": "Plus humide, la saison des tortues commence", "crowds": "Faible", "price": "Le plus bas", "verdict": "Choix budget, observation des tortues" },
+    { "weather": "Saison humide, chaude", "crowds": "Faible", "price": "Bas", "verdict": "Meilleurs tarifs, mais pluie en contrepartie" },
+    { "weather": "Risque d’ouragan faible, chaud", "crowds": "Faible à mod.", "price": "Bas", "verdict": "Ouragan rare mais possible" },
+    { "weather": "Mois de pic des ouragans", "crowds": "Faible", "price": "Le plus bas", "verdict": "À éviter si vous êtes prudent" },
+    { "weather": "Apaisement, encore un peu de pluie", "crowds": "Faible", "price": "Bas", "verdict": "Sous-estimé, bonnes affaires" },
+    { "weather": "S’assèche, conditions qui s’améliorent", "crowds": "Faible à mod.", "price": "Moyen", "verdict": "Bonne valeur avant le pic" },
+    { "weather": "Retour de la saison sèche, ambiance festive", "crowds": "Élevée", "price": "Très élevé", "verdict": "Magnifique, réservez tôt" }
+  ],
+  "budgetTiers": [
+    { "label": "Boutique mid-luxe", "daily": "400-800 $/nuit", "includes": "Vue sur les Pitons, villa avec piscine, bon petit-déjeuner. Moins de chouchoutage, mais un cadre tout aussi spectaculaire." },
+    { "label": "All-inclusive de luxe", "daily": "600-1 500 $/nuit", "includes": "Formule Sandals : restauration illimitée, sports nautiques, excursions et massages en couple. Zéro angoisse à la note." },
+    { "label": "Ultra-luxe", "daily": "1 200-4 000+ $/nuit", "includes": "Un sanctuaire ouvert sur l’extérieur avec votre propre piscine à débordement pointée vers les Pitons. La chambre d’hôtel la plus spectaculaire des Caraïbes." }
+  ],
+  "areas": [
+    { "name": "Soufrière (côte sud-ouest)", "description": "Le cœur de la Sainte-Lucie pour lune de miel. Jade Mountain, Anse Chastanet, Sugar Beach et Stonefield sont tous ici. Les Pitons à quelques minutes. La zone la plus romantique de l’île." },
+    { "name": "Marigot Bay", "description": "Une vallée fluviale ennoyée qui forme l’un des ports naturels les mieux protégés des Caraïbes. Petits hôtels de charme, base de location de yachts, atmosphère totalement isolée." },
+    { "name": "Rodney Bay (nord)", "description": "Proche du petit aéroport nord (SLU), marina, allée de restaurants. Plus commercial. Moins romantique que le sud mais pratique pour de courts séjours ou des voyages combinés." },
+    { "name": "Cap Estate (pointe nord)", "description": "La pointe la plus septentrionale de l’île. Le resort Cap Maison s’y trouve — piscines en bord de falaise, plage accessible uniquement par bateau, intime. À 30 minutes de l’aéroport nord." }
+  ],
+  "expertTips": [
+    { "title": "Atterrissez au bon aéroport pour votre hôtel", "body": "Hewanorra (UVF) au sud : 2 h de route jusqu’à la zone des Pitons, ou 15 min en hélicoptère. George FL Charles (SLU) au nord : aéroport minuscule, 20 min jusqu’aux hôtels de la côte nord. Se tromper coûte très cher." },
+    { "title": "Réservez le transfert hélicoptère depuis UVF", "body": "Papillon Helicopters opère un transfert de 15 minutes entre Hewanorra et Soufrière pour environ 400 $/couple. Après 10 heures de trajet, ces 15 minutes face à 2 heures de route de montagne valent tout l’or du monde." },
+    { "title": "Demandez une Star Sanctuary au Jade Mountain", "body": "Toutes les chambres du Jade Mountain sont extraordinaires, mais les Star Sanctuaries font face aux Pitons le plus directement et possèdent les plus grandes piscines à débordement. Demandez cette catégorie par son nom à la réservation." },
+    { "title": "Allez déjeuner à la Fond Doux Plantation", "body": "Une ferme bio en activité (cacao et autres cultures) au pied des Pitons. Le meilleur rhum punch de l’île, un déjeuner créole d’exception, et l’expérience la plus authentiquement saint-lucienne à proximité des grands hôtels." },
+    { "title": "La saison des pluies est plus verte et moins chère", "body": "Les tarifs de mai à juillet sont 30-50 % plus bas. La jungle est luxuriante. Les Pitons sont à leur plus spectaculaire dans la brume. Les averses sont en général courtes et la chaleur moindre. Pas le choix conventionnel, mais vraiment magnifique." }
+  ],
+  "packing": [
+    { "item": "Chaussures de randonnée ou de trail", "why": "L’ascension des Pitons et les sentiers du volcan sont des terrains sérieux — les sandales ne suffiront pas" },
+    { "item": "Crème solaire reef-safe", "why": "Le corail d’Anse Chastanet est parmi les mieux préservés des Caraïbes" },
+    { "item": "Coupe-vent imperméable léger", "why": "Même en saison sèche, Soufrière reçoit de brèves averses l’après-midi" },
+    { "item": "Anti-moustiques (DEET)", "why": "Les soirées dans la jungle sont un territoire à moustiques — prenez un répulsif sérieux" },
+    { "item": "Jumelles", "why": "Sainte-Lucie compte plus de 170 espèces d’oiseaux, dont le perroquet endémique" },
+    { "item": "Sac sec étanche", "why": "Pour les transferts en bateau, les sorties snorkeling et les éclaboussures inévitables du catamaran" },
+    { "item": "Tenue smart casual (pas formelle) pour le dîner", "why": "Les tables avec vue sur les Pitons au Jade Mountain acceptent même les pieds nus. Le dress code est «  resort romantique  »." },
+    { "item": "Comprimés contre le mal de mer", "why": "La sortie en catamaran autour de la pointe peut être agitée en saison des alizés" }
+  ],
+  "guide": {
+    "getting": "Volez jusqu’à Hewanorra International (UVF) au sud — 2 h de route ou 15 min d’hélicoptère jusqu’à Soufrière. La plupart des resorts de la zone des Pitons organisent des transferts privés. Le vol Papillon revient à 350-450 $/couple et vaut chaque centime après un long voyage. Sinon, atterrissez à George FL Charles (SLU) au nord si vous séjournez au Cap Maison ou dans les hôtels de Rodney Bay.",
+    "where": "La zone Soufrière/Pitons (sud-ouest) est où se trouvent tous les meilleurs hôtels de lune de miel — Jade Mountain, Sugar Beach, Anse Chastanet. Le nord (Castries, Rodney Bay) est plus accessible mais moins romantique. Cap Estate (Cap Maison) est l’alternative boutique au nord.",
+    "when": "Décembre-avril est le pic de la saison sèche. Mai-juin est l’épaule — un peu moins cher, plus vert, averses occasionnelles. Juillet-septembre est la saison des ouragans aux Caraïbes ; Sainte-Lucie est relativement au sud et moins exposée, mais août-septembre comportent un risque réel."
+  },
+  "localFood": "Le green fig and saltfish (le plat national à base de banane verte et de morue), le bouyon (bouillon copieux), les accras de morue, et la pêche du jour grillée partout. La cuisine créole est excellente. La street party du vendredi soir à Gros Islet est l’expérience locale la plus authentique.",
+  "language": "Anglais (langue officielle). Le créole français y est largement parlé.",
+  "seo": {
+    "title": "Lune de miel à Sainte-Lucie : 14 resorts avec vue sur les Pitons notés 2026",
+    "description": "14 resorts adults-only et all-inclusive classés. Jade Mountain, Sugar Beach, Ladera. À partir de 400 $/nuit. Saison sèche déc.-avr."
+  }
+}

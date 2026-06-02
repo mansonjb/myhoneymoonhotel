@@ -1,0 +1,81 @@
+{
+  "tagline": "Le lac le plus photographié d’Italie — villas grandes dames dorées, Riva vintage, couchers de soleil sur Bellagio.",
+  "intro": "Le lac de Côme est la lune de miel européenne pour les couples qui veulent le glamour classique italien sans la foule de Capri ou de Positano. Le lac, en forme d’Y inversé, est ceint de villas du XIXe siècle reconverties en certains des hôtels les plus romantiques d’Italie — Villa d’Este (depuis 1873), Grand Hotel Tremezzo, Passalacqua (n°1 mondial en 2023), Mandarin Oriental, Il Sereno. Le rythme de lune de miel : baignade matinale dans une piscine à débordement en bord de lac, déjeuner dans une trattoria de village de pêcheurs sur l’autre rive en Riva vintage, sieste, apéro au coucher du soleil, dîner italien de trois heures. Répétez sept jours.",
+  "bestTime": "Fin mai-début juillet et septembre",
+  "flightFrom": "60-90 min depuis Milan Malpensa",
+  "topExperience": "Hôtels-villas en bord de lac",
+  "perfectFor": [
+    "Couples amoureux du style italien classique — plafonds à fresques, chambres meublées d’antiquités, piscines en bord de lac",
+    "Honeymooners au rythme lent — ici, ce sont les repas, les baignades, les siestes et les couchers de soleil",
+    "Premiers voyages en Italie avec un budget généreux (1 000 $/nuit minimum pour les meilleures adresses)",
+    "Passionnés de bateaux vintage — les Cantieri Riva en acajou sont l’icône du lac",
+    "Couples qui font un itinéraire multi-étapes en Italie (Milan + Côme + Florence/Toscane fonctionne parfaitement)"
+  ],
+  "skipIf": [
+    "Vous voulez une plage — c’est un lac (froid, profond, sans sable)",
+    "Votre budget est sous 700 $/nuit — le milieu de gamme à Côme tourne autour de 400 $, ce qui paraît modeste après les icônes",
+    "Vous détestez conduire sur les routes étroites en bord de lac — la circulation l’été est dense, prenez un chauffeur",
+    "Vous voulez de la vie nocturne — le lac se referme à 23 h, rythme italien classique",
+    "Vous voyagez de novembre à mars — la plupart des hôtels de luxe ferment hors saison"
+  ],
+  "experiences": [
+    { "title": "Tour du lac en Riva Aquarama vintage", "description": "Un Riva Aquarama ou Tritone en acajou, loué en privé pour une demi-journée depuis Bellagio, Côme ou directement depuis le ponton de votre hôtel. Le capitaine vous emmène à la Villa Balbianello (la villa James Bond), Bellagio, Tremezzo et Cernobbio.", "cost": "1 500-3 500 $ par couple pour une demi-journée", "tip": "Réservez via votre hôtel — il connaît les opérateurs de confiance. Demandez l’Aquarama (le Tritone, plus grand, a moins de profil iconique). Préparez un panier champagne." },
+    { "title": "Jardins de la Villa Carlotta + Villa Balbianello", "description": "Deux des grands jardins botaniques italiens — Carlotta (Tremezzo) pour les camélias et Balbianello (Lenno) pour son romantisme en terrasses sur une péninsule. Balbianello a servi à Star Wars Épisode II et Casino Royale.", "cost": "20 € l’entrée par villa ; guide privé à la journée ~400 €", "tip": "Visitez Balbianello du mardi au dimanche uniquement (fermé le lundi). La montée d’1 km depuis le ponton est raide — louez la petite navette électrique si besoin." },
+    { "title": "Apéritif à Bellagio + coucher de soleil à Punta Spartivento", "description": "Prenez le ferry ou un bateau privé pour Bellagio, arpentez les ruelles pavées, apéritif chez La Punta ou au Bar Rossi tandis que le soleil descend sur l’Y du lac, depuis la pointe nord du village.", "cost": "30-60 € par couple", "tip": "Évitez Bellagio entre 11 h et 15 h en juillet-août (les touristes de croisière). C’est en fin d’après-midi et le soir que les locaux ressortent." },
+    { "title": "Hélicoptère vers Milan pour un opéra à la Scala", "description": "Un hélicoptère de 25 min depuis la pelouse de votre hôtel vers Milan Linate, dîner chez Cracco ou à l’Antica Trattoria della Pesa, opéra à la Scala, retour en hélicoptère. La soirée de lune de miel la plus décadente que l’Italie puisse offrir.", "cost": "3 000-5 000 $ par couple tout compris", "tip": "Réservez les billets d’opéra au moins 2 mois à l’avance sur le site de la Scala. Les concierges des hôtels (Tremezzo, Mandarin) gèrent le charter." },
+    { "title": "Randonnée du Sentiero del Viandante", "description": "Le « Sentier du voyageur » le long de la rive est — 45 km au total mais praticables par tronçons de 5 km à la journée. Lierna-Varenna est l’étape classique de 4 h, avec des vues constantes sur le lac et un déjeuner-récompense à Varenna.", "cost": "Gratuit (ou guide via l’hôtel ~200 €)", "tip": "Prenez le train de Côme à Lierna le matin, marchez jusqu’à Varenna, déjeuner à Il Cavatappi, retour en ferry au ponton de votre hôtel. Portez des chaussures de trail — certaines sections sont rocailleuses." }
+  ],
+  "months": [
+    { "weather": "Froid, le plus souvent fermé", "crowds": "La plus faible", "price": "N/A", "verdict": "La plupart des hôtels de luxe sont fermés" },
+    { "weather": "Froid, le plus souvent fermé", "crowds": "La plus faible", "price": "N/A", "verdict": "La plupart des hôtels de luxe sont fermés" },
+    { "weather": "Transition printanière", "crowds": "Faible", "price": "Bas", "verdict": "Les hôtels rouvrent à la mi-mars" },
+    { "weather": "Doux, jardins en fleur", "crowds": "Faible", "price": "Bas-moyen", "verdict": "Intersaison calme, jardins ouverts" },
+    { "weather": "Chaud, parfait", "crowds": "Modérée (en hausse)", "price": "Moyen-élevé", "verdict": "Le bon créneau démarre mi-mai" },
+    { "weather": "Chaud, début des baignades", "crowds": "Modérée", "price": "Élevé", "verdict": "Le meilleur mois — chaud + gérable" },
+    { "weather": "Chaud, bondé", "crowds": "Sommet", "price": "Maximal", "verdict": "Spectaculaire mais animé" },
+    { "weather": "Chaud, très bondé", "crowds": "Sommet", "price": "Maximal", "verdict": "Vacances italiennes — saturé partout" },
+    { "weather": "Chaud, plus calme", "crowds": "Modérée à élevée", "price": "Élevé", "verdict": "Bon créneau jumeau de juin" },
+    { "weather": "Rafraîchissement, couleurs d’automne", "crowds": "Modérée (en baisse)", "price": "Moyen", "verdict": "Dernier mois sous-estimé" },
+    { "weather": "Frais, hôtels qui ferment", "crowds": "Faible", "price": "Bas", "verdict": "La plupart ferment à la mi-novembre" },
+    { "weather": "Froid, fermé", "crowds": "La plus faible", "price": "N/A", "verdict": "La plupart des hôtels de luxe sont fermés" }
+  ],
+  "budgetTiers": [
+    { "label": "Luxe accessible", "daily": "400-700 $/nuit", "includes": "4★ vue lac comme le Filario à Lezzeno ou de plus petits hôtels-villas à Menaggio." },
+    { "label": "Premium", "daily": "700-1 500 $/nuit", "includes": "Suite vue lac dans un 5★, petit-déjeuner inclus, accès spa, piscine en bord de lac." },
+    { "label": "Ultra-luxe", "daily": "1 500-5 000 $/nuit", "includes": "Chambres dans une villa iconique, service de majordome, restauration multi-étoilée sur place, bateau privé inclus." },
+    { "label": "Privatisation exclusive", "daily": "5 000-15 000 $/nuit", "includes": "Toute une villa historique avec personnel pour deux — Villa Sola Cabiati, propriété privée gérée par le Tremezzo." }
+  ],
+  "areas": [
+    { "name": "Cernobbio (ouest, sud)", "description": "Villa d’Este et CastaDiva s’y trouvent. Le plus proche de la ville de Côme (10 min). Atmosphère calme le soir ; réseau de ferries à la porte." },
+    { "name": "Tremezzina (ouest, centre)", "description": "Grand Hotel Tremezzo et Passalacqua. Face à Bellagio depuis la rive ouest — l’angle le plus photographié. À distance de marche des jardins de la Villa Carlotta." },
+    { "name": "Bellagio (centre, péninsule est)", "description": "La « perle du lac ». Le Grand Hotel Villa Serbelloni occupe le promontoire. Tout le village se fait à pied. La meilleure base pour vivre les soirées sur ruelles pavées." },
+    { "name": "Torno et Blevio (est, sud)", "description": "Le Sereno et le Mandarin Oriental font face à la rive ouest (ombre l’après-midi, soleil couchant doré). Plus calmes, plus résidentiels. 15 min en bateau de Côme." },
+    { "name": "Varenna et Menaggio (villages du milieu du lac)", "description": "Plus petits hôtels boutiques (Hotel du Lac Varenna, Royal Victoria). Plus abordables. Excellentes correspondances en ferry vers toutes les icônes." }
+  ],
+  "expertTips": [
+    { "title": "Réservez le bateau privé de votre hôtel pour au moins une demi-journée", "body": "Les ferries publics sont bon marché et fréquents, mais la demi-journée en Riva vintage est l’expérience qui définit le voyage. Tremezzo, Mandarin et Il Sereno entretiennent tous une flotte de Riva pour leurs clients." },
+    { "title": "Déjeunez dans les villages de pêcheurs, dînez à l’hôtel", "body": "Les restaurants des hôtels jouent dans la cour Michelin, mais ils sont chers. Déjeunez à Varenna (Il Cavatappi), à Bellagio (La Punta), à Lenno (Sant’Anna) — 60-100 € par couple, perche fraîche et risotto, vin local." },
+    { "title": "Évitez Bellagio en milieu de journée l’été", "body": "Les excursionnistes des bateaux de croisière saturent Bellagio entre 11 h et 15 h en juillet-août. Préférez la fin d’après-midi ou tôt le matin. Idem pour la Villa Balbianello." },
+    { "title": "Engagez un chauffeur depuis Milan plutôt qu’une location", "body": "Un chauffeur privé de Milan à votre hôtel du lac de Côme (300 $ l’aller) vous épargne le stress de l’autoroute italienne et de la circulation lacustre. Vaut chaque euro." },
+    { "title": "Visitez le « Bellagio de la rive ouest » — Argegno et Lenno", "body": "Les villages confidentiels d’Argegno et Lenno sur la rive ouest sont 70 % aussi photogéniques que Bellagio avec 20 % de la foule. Excursions d’une demi-journée en ferry." }
+  ],
+  "packing": [
+    { "item": "Garde-robe smart-casual pour le soir", "why": "Les restaurants d’hôtel imposent un dress code « élégant » — veste pour les hommes au Tremezzo, robe pour les femmes" },
+    { "item": "Pull léger pour le soir", "why": "Les brises du lac font chuter la température de 8-10 °C après le coucher du soleil, même en juillet" },
+    { "item": "Lunettes de soleil polarisées", "why": "Le reflet du lac à midi est intense — protégez vos yeux pour les tours en bateau" },
+    { "item": "Chaussures de marche (pas des sandales)", "why": "Pavés de Bellagio, Sentiero del Viandante, montée à la Villa Balbianello" },
+    { "item": "Crème solaire reef-safe", "why": "Vous serez souvent dans l’eau ; le lac est alimenté par les glaciers et très limpide" },
+    { "item": "Adaptateur électrique italien (Type C/F)", "why": "La prise UE 2 broches fonctionne dans la plupart des prises ; les propriétés anciennes ont du Type L (italien 3 broches)" }
+  ],
+  "guide": {
+    "getting": "Vol vers Milan Malpensa (MXP, 60-90 min de voiture jusqu’au lac) ou Linate (LIN, 80-100 min). Trains de Milan Centrale à Como S. Giovanni (40 min) — l’option la plus pittoresque. La plupart des hôtels de luxe proposent un transfert privé (300-500 $ l’aller) ou un hors-bord depuis Côme (200 $). Un hélicoptère depuis l’héliport de Milan vers les héliports lacustres est disponible pour ~1 500 $ l’aller.",
+    "where": "Itinéraire classique de 7 nuits : 3 nuits dans une icône de la rive Tremezzina (Tremezzo, Passalacqua) + 2 nuits dans une adresse de la péninsule de Bellagio (Villa Serbelloni) + 2 nuits dans un classique de Cernobbio (Villa d’Este). Ou base unique : 7 nuits dans une seule icône, exploration quotidienne en ferry/bateau.",
+    "when": "Mai-début juillet et septembre sont parfaits (chaud, en fleur, moins de monde). Fin juillet-août est le pic (chaud, bondé, cher — surtout pendant le mois d’août italien). Octobre offre des couleurs d’automne et une foule en baisse. La plupart des hôtels de luxe ferment de la mi-novembre à la mi-mars."
+  },
+  "localFood": "Cuisine du lac de Côme : missoltini (alose séchée au soleil, rare), risotto au filet de perche, pizzoccheri (pâtes au sarrasin de la Valteline voisine), brasato de bœuf, polenta uncia. Fromages : Bitto, Casera, taleggio. Vins : Lugana blanc du lac de Garde voisin, Inferno rouge de Valteline. Culture du café : expresso debout au comptoir, jamais assis.",
+  "language": "Italien. L’anglais est largement parlé dans tous les hôtels de luxe et restaurants destinés aux touristes. Quelques phrases d’italien ravissent les locaux.",
+  "seo": {
+    "title": "Lune de miel au lac de Côme : 8 grandes villas lacustres 2026",
+    "description": "8 villas de Bellagio, Cernobbio, Tremezzo classées. Villa d’Este, Grand Tremezzo, Passalacqua. À partir de 1 000 $/nuit. Mai-sept."
+  }
+}

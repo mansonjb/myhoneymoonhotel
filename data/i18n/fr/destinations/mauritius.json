@@ -1,0 +1,77 @@
+{
+  "tagline": "Lagons turquoise à perte de vue et un service cinq étoiles sans accroc — l’île la plus polie de l’océan Indien pour une lune de miel.",
+  "intro": "Maurice est le lieu où l’élégance française, la chaleur indienne et l’âme créole se rejoignent sur une île ceinturée par certains des plus parfaits lagons coralliens du monde. À la différence des Maldives — bulle de resorts coupée de toute culture réelle —, Maurice vous offre les deux : une eau turquoise digne d’une villa sur pilotis ET des marchés aux épices, des distilleries de rhum, des montagnes classées à l’UNESCO et une scène culinaire qui fusionne quatre cuisines en quelque chose d’extraordinaire. La côte est, le long du couloir de Belle Mare, abrite le lagon le plus clair et le plus plat de l’océan Indien. Le sud-ouest du Morne donne le drame. Couplée à des liaisons safari africaines, Maurice trône au sommet de la hiérarchie des lunes de miel de l’océan Indien.",
+  "bestTime": "Mai-déc",
+  "flightFrom": "11-13 h depuis l’Europe",
+  "topExperience": "Luxe balnéaire en lagon",
+  "perfectFor": [
+    "Les couples qui veulent une eau digne des Maldives avec une vraie culture et une profondeur culinaire",
+    "Les amoureux de plages qui veulent aussi explorer — hauts plateaux, marchés, distilleries de rhum",
+    "Les jeunes mariés combinant Maurice avec un safari africain (escale parfaite dans l’océan Indien)",
+    "Les gourmets séduits par la cuisine fusion indienne-créole-chinoise-française",
+    "Les kitesurfeurs et plongeurs en quête de conditions de classe mondiale à côté de resorts luxueux"
+  ],
+  "skipIf": [
+    "Vous voyagez de janvier à mars — la saison cyclonique est réelle et peut gâcher tout le séjour",
+    "Vous voulez une vraie immersion en pleine nature — Maurice est une île développée, avec routes et villes",
+    "Le bungalow sur pilotis est non négociable — ici, les villas de lagon sont sur la plage, pas au-dessus de l’eau",
+    "Votre budget est très serré — les meilleurs resorts s’alignent sur les tarifs maldiviens"
+  ],
+  "experiences": [
+    { "title": "Nage avec les dauphins sauvages à Tamarin Bay", "description": "Les dauphins à long bec se rassemblent chaque matin dans la baie de Tamarin avant de partir chasser au large. De petits bateaux locaux vous emmènent nager à leurs côtés en pleine eau — totalement sauvage, totalement non scénarisé. L’une des rencontres animalières les plus émouvantes accessibles depuis un hôtel de l’océan Indien.", "cost": "50-80 $ par personne", "tip": "Réservez directement avec Captain Blacky ou d’autres petits opérateurs de Tamarin — pas via votre hôtel. Les hôtels facturent 150-200 € pour la même expérience. Départ à 7 h pour la plus forte densité de dauphins." },
+    { "title": "Survol de la cascade sous-marine en hélicoptère", "description": "Au large du Morne Brabant, un flux de sable et de limon crée l’illusion d’une cascade sous-marine visible uniquement vue du ciel. Le survol de la péninsule du Morne, avec le lagon de chaque côté et l’illusion en dessous, est l’un des grands spectacles naturels de l’océan Indien.", "cost": "150-250 € par personne", "tip": "Les ULM volent moins haut et coûtent moins cher — meilleur rendu visuel. Réservez via votre hôtel pour bénéficier des opérateurs les plus sûrs et les mieux positionnés." },
+    { "title": "Kitesurf au Morne", "description": "Le lagon du Morne, à la pointe sud-ouest de l’île, est la capitale du kitesurf de l’océan Indien — alizés constants, eau chaude et plate, et une montagne UNESCO en décor. Même les complets débutants peuvent décoller en deux jours dans les écoles du Kite Lagoon.", "cost": "80-120 € la leçon", "tip": "De juin à septembre, les vents sont les plus forts et les plus réguliers. Les écoles certifiées IKO du Morne figurent parmi les plus pros au monde." },
+    { "title": "Visite de la plantation de thé Bois Chéri", "description": "Maurice produit d’excellents thés monocrus depuis ses plantations d’altitude. L’usine Bois Chéri, dans le sud, propose une visite guidée du processus puis une dégustation sur une terrasse en surplomb de la côte sud.", "cost": "15-25 € par personne", "tip": "Combinez avec la Rhumerie de Chamarel toute proche — les deux sont dans les hautes terres du sud et forment une parfaite journée d’excursion." },
+    { "title": "Plongée dans le parc marin de Blue Bay", "description": "Le parc marin de Blue Bay, au sud-est, abrite l’un des coraux les plus protégés de l’océan Indien — staghorns branchus, coraux cerveau massifs et visibilité dépassant souvent 25 m. L’épave du Stella Maris, à 18 m, est tapissée de coraux mous et entourée de tortues et de barracudas.", "cost": "60-100 € par personne (2 plongées)", "tip": "Dive Attitude à Mahébourg est le meilleur opérateur. Blue Bay est sur la côte sud-est — accès facile depuis Le Touessrok, Heritage Awali ou Heritage Le Telfair." }
+  ],
+  "months": [
+    { "weather": "Chaud, humide, risque cyclonique", "crowds": "Modérée", "price": "Moyen à élevé", "verdict": "Saison cyclonique — souscrivez une assurance complète" },
+    { "weather": "Pic de risque cyclonique, pluies fortes possibles", "crowds": "Faible", "price": "Bas", "verdict": "Mois le plus risqué — envisagez de décaler" },
+    { "weather": "Risque cyclonique en baisse, encore humide", "crowds": "Faible", "price": "Bas à moyen", "verdict": "Amélioration mais encore risqué" },
+    { "weather": "Transition, chaud, moins de pluie", "crowds": "Modérée", "price": "Moyen", "verdict": "Bonne demi-saison" },
+    { "weather": "Début de saison sèche, 24 °C", "crowds": "Modérée", "price": "Moyen", "verdict": "Excellent — la saison sèche s’ouvre" },
+    { "weather": "Sec, 22 °C, alizés qui montent", "crowds": "Modérée", "price": "Moyen", "verdict": "Très bonnes conditions" },
+    { "weather": "Sec, mois le plus frais (20 °C), venteux", "crowds": "Élevée", "price": "Moyen à élevé", "verdict": "Pic européen — réservez en amont" },
+    { "weather": "Sec, venteux, kitesurf parfait", "crowds": "Élevée", "price": "Élevé", "verdict": "Animé mais magnifique" },
+    { "weather": "Réchauffement, sec, visibilité excellente", "crowds": "Modérée", "price": "Moyen", "verdict": "Le mois sweet spot" },
+    { "weather": "Chaud, très sec, lagon optimal", "crowds": "Modérée", "price": "Moyen à élevé", "verdict": "Le meilleur mois caché" },
+    { "weather": "Chaud, sec, montée en puissance", "crowds": "Modérée", "price": "Moyen à élevé", "verdict": "Qualité maximale avant la saison cyclonique" },
+    { "weather": "Chaud, festif, retour timide du risque cyclonique", "crowds": "Élevée", "price": "Très élevé", "verdict": "Excellent mais surveillez la météo" }
+  ],
+  "budgetTiers": [
+    { "label": "Luxe", "daily": "400-800 $/nuit", "includes": "Resort en front de plage avec plage privée, piscines multiples, spa, sports nautiques. Maurice offre un rapport qualité-prix remarquable à ce niveau — meilleur que les comparables aux Maldives. Exemples : Constance Prince Maurice, Shangri-La Mauritius, Veranda Paul & Virginie." },
+    { "label": "Premium", "daily": "800-2 000 $/nuit", "includes": "Villa ou suite avec piscine privée, service majordome, spa de classe mondiale, options tout-compris. La plus belle expérience balnéaire de l’océan Indien hors îles privées. Exemples : One&Only Le Saint Géran, Four Seasons Mauritius at Anahita, Oberoi Mauritius." },
+    { "label": "Ultra-luxe", "daily": "2 000 $ et plus/nuit", "includes": "Possibilité de privatisation, villas de plage privées, chef à domicile, transferts en hélicoptère. Le sommet absolu du luxe terrestre de l’océan Indien. Exemples : villas privées du Lux* Grand Gaube, suites présidentielles du Shanti Maurice." }
+  ],
+  "areas": [
+    { "name": "Côte est (Belle Mare / Trou d’Eau Douce)", "description": "Le lagon le plus plat et le plus clair de Maurice — abrité des alizés par le récif oriental. Four Seasons, One&Only Le Saint Géran et Constance Prince Maurice s’alignent sur ces 15 km. Choix évident pour les couples plage." },
+    { "name": "Nord (Grand Baie)", "description": "La zone la plus développée — meilleure variété de restaurants, boutiques et accès facile aux îlots de snorkeling en eau plate (Île aux Cerfs, Coin de Mire). Moins reculé que l’est mais plus diversifié pour les couples actifs." },
+    { "name": "Sud (Le Morne / Bel Ombre)", "description": "Le Morne Brabant, classé à l’UNESCO, signe le décor le plus dramatique de l’île. Les alizés y font la capitale du kitesurf de l’océan Indien. Lux Le Morne et les Heritage Hotels s’y trouvent. Vues aériennes extraordinaires des deux côtés de la péninsule." },
+    { "name": "Ouest (Flic en Flac)", "description": "La côte ouest capture les plus beaux couchers de soleil et offre les plongées récifales les plus accessibles. Bande hôtelière moins prestigieuse que l’est, mais villes mauriciennes authentiques, restaurants locaux et tarifs inférieurs au couloir de Belle Mare." }
+  ],
+  "expertTips": [
+    { "title": "Est pour le lagon, sud-ouest pour le décor", "body": "La côte est (couloir de Belle Mare) propose les eaux les plus calmes et claires et la meilleure densité de resorts. Le sud-ouest (Le Morne) offre un décor montagneux plus dramatique et les meilleures conditions de kitesurf. Choisissez votre priorité avant de réserver." },
+    { "title": "Louez une voiture au moins une journée — l’île récompense l’exploration", "body": "Maurice se traverse en 90 minutes. Les hauts plateaux de Chamarel (distillerie de rhum, Terres des Sept Couleurs, plantation de thé), le marché central de Port-Louis et le parc national des Gorges de la Rivière Noire sont accessibles depuis tous les hôtels." },
+    { "title": "Le marché central de Port-Louis vaut le déplacement", "body": "Le marché principal de la capitale est l’un des plus beaux de l’océan Indien — épices, street food, poissons frais, textiles mauriciens. Allez-y le samedi matin et goûtez le dholl puri des étals devant. Combinez avec une balade sur le Caudan Waterfront." },
+    { "title": "Réservez la nage avec dauphins en direct auprès d’opérateurs locaux", "body": "Les hôtels facturent 150-200 € par couple la nage avec dauphins à Tamarin Bay. Captain Blacky et les opérateurs locaux la facturent 50-80 $ pour une expérience identique (souvent meilleure). Les dauphins sont sauvages — aucun opérateur ne peut les garantir, quel que soit le prix." },
+    { "title": "Maurice mange comme aucune autre île de l’océan Indien", "body": "La fusion indienne-créole-chinoise-française fait de chaque repas une découverte. Dînez deux fois au moins à une table d’hôte créole, goûtez le dholl puri à un stand de bord de route et buvez du rhum agricole de Chamarel — meilleur que la plupart des équivalents caribéens." }
+  ],
+  "packing": [
+    { "item": "Crème solaire reef-safe", "why": "Le parc marin de Blue Bay et d’autres zones protégées restreignent les filtres chimiques — apportez une SPF minérale" },
+    { "item": "Chaussures de randonnée légères", "why": "L’ascension du Morne Brabant et les sentiers des Gorges de la Rivière Noire exigent un vrai chaussant — les sandales ne suffisent pas" },
+    { "item": "Coupe-vent", "why": "Les alizés au Morne et la brise du soir sur la côte est sont plus frais qu’on l’imagine, surtout de juin à août" },
+    { "item": "Appareil photo étanche", "why": "Les jardins coralliens de Blue Bay et l’épave du Stella Maris méritent une vraie photo sous-marine — la visibilité est exceptionnelle" },
+    { "item": "Espèces en roupies mauriciennes", "why": "Restaurants locaux, vendeurs de dholl puri, marchés et bus exigent du liquide. Les hôtels acceptent la carte, mais la vraie Maurice se vit en roupies" }
+  ],
+  "guide": {
+    "getting": "Vol pour l’aéroport international Sir Seewoosagur Ramgoolam (MRU), côte sud-est. Vols directs depuis Londres Heathrow (British Airways, Air Mauritius, ~11-12 h), Paris CDG (Air Mauritius, ~11 h), Francfort, Zurich et Amsterdam. Depuis MRU : 30-45 min jusqu’à la côte est, 45 min jusqu’au nord, 1 h jusqu’au Morne au sud-ouest. Tous les hôtels organisent des transferts privés.",
+    "where": "Côte est (couloir de Belle Mare) pour le meilleur lagon et les plus beaux resorts — le choix dominant pour la lune de miel. Sud-ouest (Le Morne) pour les décors de montagne et le kitesurf. Nord (Grand Baie) pour l’ambiance la plus vivante et la variété culinaire. Ouest (Flic en Flac) pour les sunsets, la plongée et un meilleur rapport qualité-prix.",
+    "when": "Mai à décembre constitue la saison sèche — la fenêtre sûre. Octobre et novembre sont le sweet spot absolu : chaud, sec, visibilité excellente, avant la saison cyclonique, et moins cher que le pic de janvier. Évitez janvier-mars sans une assurance cyclone complète."
+  },
+  "localFood": "Dholl puri (galette aux pois cassés et curry) des stands de bord de route, rougaille (ragoût créole tomate-poisson ou saucisses), curry de poulpe au curcuma et au gingembre, alouda (lait à la rose aux graines de basilic) et gâteaux piment frais avec une Star au bord de l’eau à Grand Baie. La fusion des cuisines indienne, créole, chinoise et française rend la cuisine mauricienne unique.",
+  "language": "Français et anglais (les deux officiels)",
+  "seo": {
+    "title": "Lune de Miel à Maurice 2026 : 8 Resorts en Lagon Notés",
+    "description": "8 resorts de luxe sur lagons coralliens classés. One&Only Le Saint Géran, LUX, Constance. À partir de 400 $/nuit. Verdicts mai-déc."
+  }
+}

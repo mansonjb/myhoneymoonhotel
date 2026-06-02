@@ -1,0 +1,102 @@
+{
+  "tagline": "Sable corallien blanc, océan Indien turquoise et une Stone Town parfumée aux épices — l’île la plus romantique d’Afrique de l’Est.",
+  "intro": "Zanzibar, c’est là où l’océan Indien rencontre l’Afrique de la façon la plus romantique qui soit. La Stone Town classée UNESCO est un labyrinthe de portes en bois sculpté, d’architecture arabe et de marchés aux épices qui commercent depuis le IXe siècle. Sortez de cette cité ancienne et vous découvrez certains des meilleurs hôtels de plage au monde — un sable corallien si blanc qu’il réfléchit le soleil, une eau si claire que vous comptez les poissons depuis votre transat. Ajoutez le Tour des Épices, une croisière en dhow au coucher du soleil et les Forodhani Gardens la nuit, et vous obtenez une lune de miel qui sollicite chaque sens.",
+  "bestTime": "Juin-oct et déc-mars",
+  "flightFrom": "8-11 h depuis l’Europe",
+  "topExperience": "Plage et culture",
+  "perfectFor": [
+    "Les couples qui veulent des plages exceptionnelles avec une vraie profondeur culturelle",
+    "Lune de miel safari add-on — Zanzibar se marie à merveille avec la Tanzanie continentale",
+    "Ceux qui cherchent le luxe de l’océan Indien à des prix nettement inférieurs aux Maldives",
+    "Amoureux de la cuisine attirés par la culture des épices swahilis et les fruits de mer frais",
+    "Couples aventureux qui veulent kitesurf, snorkeling et navigation en dhow"
+  ],
+  "skipIf": [
+    "Vous voulez un soleil garanti et ininterrompu — les grandes pluies (avril-mai) sont fortes",
+    "Les bungalows sur pilotis ultra-luxe sont non négociables — ici, c’est plage, pas lagon",
+    "Vous êtes mal à l’aise avec la chaleur et l’humidité toute l’année",
+    "La vie nocturne et l’animation du resort sont importantes pour vous"
+  ],
+  "experiences": [
+    {
+      "title": "Visite d’une plantation d’épices",
+      "description": "Une demi-journée de marche guidée à travers des plantations en activité de clous de girofle, de muscade, de vanille et de cannelle avec un guide local qui vous fait sentir, goûter et identifier chaque épice. Se termine par un déjeuner swahili cuisiné avec tout ce que vous venez de voir.",
+      "cost": "30-60 $ par personne",
+      "tip": "Réservez avec un opérateur basé à Stone Town plutôt que par votre hôtel — l’expérience est identique et vous soutenez directement les entreprises locales."
+    },
+    {
+      "title": "Coucher de soleil en dhow traditionnel",
+      "description": "Naviguez dans l’océan Indien au coucher du soleil sur un dhow en bois sculpté à la main, avec champagne et fruits frais. La silhouette de Stone Town derrière vous tandis que le soleil tombe dans l’océan est l’une des plus belles scènes d’Afrique.",
+      "cost": "80-150 $ par couple",
+      "tip": "Partez du front de mer de Stone Town plutôt que de votre hôtel — l’approche vers la vieille ville au crépuscule est la vraie expérience."
+    },
+    {
+      "title": "Stone Town à la nuit tombée",
+      "description": "Marchez dans les ruelles labyrinthiques de la vieille ville UNESCO la nuit, lorsque la chaleur tombe — portes sculptées éclairées aux lanternes, l’appel à la prière qui résonne, et les Forodhani Gardens en marché de nuit avec leurs stands de pizza de Zanzibar et de fruits de mer frais.",
+      "cost": "Gratuit (nourriture 5-15 $)",
+      "tip": "Allez-y un vendredi soir, quand le marché est au plus animé. Engagez un guide local pour 20 $ — il déverrouille des bâtiments et des récits que vous longeriez sans les voir."
+    },
+    {
+      "title": "Snorkeling à l’atoll de Mnemba",
+      "description": "Les eaux autour de l’île de Mnemba — un atoll privé au nord-est — comptent parmi les récifs les plus riches d’Afrique de l’Est. Tortues vertes, dauphins et des centaines d’espèces de poissons de récif dans une visibilité cristalline.",
+      "cost": "60-120 $ par personne",
+      "tip": "Allez-y le matin, avant que le vent ne se lève. Si vous logez au &Beyond Mnemba Island, le récif est littéralement devant votre plage."
+    },
+    {
+      "title": "Kitesurf à Paje",
+      "description": "La côte sud-est à Paje a un lagon peu profond, des alizés constants (juin-septembre) et une scène kite développée. Même les débutants peuvent être sur l’eau en une journée. L’ambiance de la côte est est détendue et jeune.",
+      "cost": "80-120 $ par leçon",
+      "tip": "Logez dans l’un des boutique-hôtels de Paje même si vous ne faites pas de kite — la plage y est moins fréquentée qu’au nord."
+    }
+  ],
+  "months": [
+    { "weather": "Chaud, sec, excellent", "crowds": "Élevée", "price": "Élevé", "verdict": "Pleine saison, ça vaut le coup" },
+    { "weather": "Chaud et sec, idéal", "crowds": "Élevée", "price": "Élevé", "verdict": "Meilleure météo plage" },
+    { "weather": "Humide, les pluies s’installent", "crowds": "Modérée", "price": "Moyen", "verdict": "Allez-y en début de mois" },
+    { "weather": "Grandes pluies, fortes averses", "crowds": "Très faible", "price": "Le plus bas", "verdict": "À éviter — pluie sérieuse" },
+    { "weather": "Encore pluvieux, en accalmie", "crowds": "Très faible", "price": "Très bas", "verdict": "Pour chasseurs de budget seulement" },
+    { "weather": "Début de saison sèche, brise", "crowds": "Modérée", "price": "Moyen", "verdict": "Excellent choix d’épaule" },
+    { "weather": "Sec et venteux, presque parfait", "crowds": "Élevée", "price": "Élevé", "verdict": "Pleine saison" },
+    { "weather": "Sec, meilleur vent pour le kite, magnifique", "crowds": "Élevée", "price": "Élevé", "verdict": "Meilleur mois global" },
+    { "weather": "Toujours sec, en accalmie", "crowds": "Modérée", "price": "Moyen-élevé", "verdict": "Sweet spot rapport qualité-prix" },
+    { "weather": "Petites pluies possibles", "crowds": "Faible", "price": "Moyen", "verdict": "Pari, mais souvent OK" },
+    { "weather": "Petites pluies, imprévisible", "crowds": "Faible", "price": "Bas", "verdict": "Risqué — vérifiez les prévisions" },
+    { "weather": "Sec, chaud, foules festives", "crowds": "Très élevée", "price": "Le plus élevé", "verdict": "Magnifique mais cher" }
+  ],
+  "budgetTiers": [
+    { "label": "Boutique plage", "daily": "200-500 $/nuit", "includes": "Boutique-hôtel charmant sur la côte est ou nord, piscine, excellente cuisine. La meilleure lune de miel dans l’océan Indien à ce prix." },
+    { "label": "Premium", "daily": "500-1 200 $/nuit", "includes": "Vrai luxe — piscines plunge privées, beach butlers, design swahili exceptionnel. Mieux qu’en Europe à équivalent prix." },
+    { "label": "Ultra-luxe", "daily": "1 200-3 500+ $/nuit", "includes": "Île privée ou propriété de plage exclusive, isolement total, accès récifal incroyable, expériences tout inclus. Les plus beaux hôtels de plage d’Afrique de l’Est." }
+  ],
+  "areas": [
+    { "name": "Stone Town", "description": "Le cœur historique de Zanzibar — un dédale UNESCO d’architecture arabe, perse, indienne et européenne. Pas d’hôtels de plage ici, mais essentiel pour une nuit ou deux pour la culture, le marché de nuit et les meilleurs restaurants de l’île." },
+    { "name": "Nord (Nungwi et Kendwa)", "description": "La pointe nord a les plages les plus baignables de Zanzibar — pas d’estran à marée basse, eau turquoise toute la journée. Nungwi a une atmosphère de village de pêcheurs avec une allée de restaurants animée. Kendwa est plus calme. Tous deux ont les meilleurs hôtels pour nager depuis la plage." },
+    { "name": "Est (Paje et Bwejuu)", "description": "La côte est a un lagon à marées — magnifique à marée haute, rocheuse à marée basse — mais la scène boutique-hôtels y est charmante et authentique. Paje est la capitale du kitesurf. Bwejuu est plus calme. Toutes deux attirent une clientèle plus jeune et aventureuse." },
+    { "name": "Sud (Jambiani et au-delà)", "description": "La partie la plus calme de l’île avec quelques excellents resorts haut de gamme qui se positionnent sur l’isolement. Les villages de pêcheurs locaux exploitent encore des fermes d’algues dans les bas-fonds. Vraiment hors des circuits touristiques." }
+  ],
+  "expertTips": [
+    { "title": "Combinez avec un safari en Tanzanie", "body": "Zanzibar est à 40 minutes d’avion à hélices de Dar es Salaam et 90 minutes du Kilimandjaro. Un safari de 4 nuits dans le Serengeti ou au Ngorongoro suivi de 5 nuits à Zanzibar est l’une des plus belles combinaisons de lune de miel au monde. Les tour-opérateurs d’Arusha organisent l’ensemble." },
+    { "title": "Passez une nuit à Stone Town", "body": "Même si votre base principale est un hôtel de plage, passez une ou deux nuits à Stone Town en début ou fin de séjour. Emerson Spice rooftop et 236 Hurumzi sont les meilleurs hôtels. Vivez la ville avant de vous replier sur la plage." },
+    { "title": "Réservez au nord pour la baignade garantie", "body": "La côte est est magnifique mais l’amplitude des marées est extrême — à marée basse, c’est une marche de 400 m jusqu’à l’eau. Si la baignade quotidienne est importante, logez à Nungwi ou Kendwa, où la variation est minimale." },
+    { "title": "Les Forodhani Gardens la nuit, c’est incontournable", "body": "Le marché de nuit en bord de mer ouvre chaque soir vers 18 h. Pour 3-5 $ vous mangez pizza de Zanzibar, jus de canne à sucre, langouste grillée et brochettes de poulpe entourés de centaines de locaux. L’une des meilleures expériences culinaires bon marché d’Afrique." },
+    { "title": "Respectez les codes vestimentaires à Stone Town", "body": "Zanzibar est une île majoritairement musulmane. À Stone Town, les femmes devraient couvrir épaules et genoux ; les hommes éviter les shorts dans la médina. Sur la plage, c’est libre — les locaux sont très tolérants face aux tenues de plage des touristes dans les resorts." }
+  ],
+  "packing": [
+    { "item": "Tenue couvrante pour Stone Town", "why": "Requise pour les visites de mosquées et respectueuse dans la médina — le lin léger fonctionne parfaitement par la chaleur" },
+    { "item": "Crème solaire reef-safe à fort indice", "why": "Le soleil équatorial est extrême et les récifs ont besoin de protection — beaucoup de resorts exigent désormais des produits reef-safe" },
+    { "item": "Masque de snorkeling personnel", "why": "Le matériel de l’hôtel est fonctionnel mais le vôtre s’ajustera mieux — essentiel pour les sorties à l’atoll de Mnemba" },
+    { "item": "Anti-moustiques (DEET 30 % et plus)", "why": "Le paludisme est présent à Zanzibar — prenez le traitement préventif et appliquez du répulsif à l’aube et au crépuscule" },
+    { "item": "Sac sec étanche", "why": "Sorties en dhow et snorkeling impliquent des bateaux ouverts — indispensable pour téléphones et appareils photo" }
+  ],
+  "guide": {
+    "getting": "Volez à Zanzibar Abeid Amani Karume International (ZNZ). Vols directs depuis l’Europe : Kenya Airways via Nairobi, Ethiopian Airlines via Addis-Abeba, Turkish Airlines via Istanbul (8-11 h au total). Depuis le Royaume-Uni : pas de direct — meilleure option via Nairobi avec Kenya Airways ou via Dubaï avec flydubai. Vols intérieurs depuis Dar es Salaam (DAR) : 35 minutes et 60-100 $. Taxis depuis ZNZ vers Stone Town : 20 minutes (10-15 $ tarif fixe) ; vers les hôtels du nord, 45-60 minutes (25-40 $).",
+    "where": "Côte nord (Nungwi/Kendwa) pour la meilleure baignade et la scène la plus animée — meilleur choix global pour une première visite. Côte est (Paje) pour le kitesurf, les boutique-hôtels et une ambiance plus jeune. Sud pour l’isolement total et le luxe premium. Combinez : 2 nuits à Stone Town + 5 nuits dans un hôtel de plage. Pour l’ultra-luxe : &Beyond Mnemba Island est la plus belle adresse — réservez un an à l’avance.",
+    "when": "De juin à octobre, c’est la première saison sèche — journées chaudes (28 °C), soleil fiable et le meilleur vent kite sur la côte est. De décembre à mars (hors grandes pluies d’avril-mai) c’est tout aussi beau et un peu plus chaud. Janvier et février sont les mois les plus chauds et les plus secs — excellents pour la plage. Évitez avril et mai entièrement."
+  },
+  "localFood": "Pizza de Zanzibar (galette farcie d’œuf, de viande et de fromage des Forodhani Gardens), soupe urojo (mix soup zanzibarite acidulée), thon grillé frais à la sauce tamarin, biryani aux épices entières et chai épicé à la cardamome et au gingembre. Le Tour des Épices vers les plantations de clous de girofle, de muscade et de vanille est l’un des temps forts d’une demi-journée.",
+  "language": "Swahili et anglais",
+  "seo": {
+    "title": "Lune de miel à Zanzibar : 8 resorts plage de l’île aux épices 2026",
+    "description": "8 resorts côte est et Stone Town notés. &Beyond Mnemba, Zuri, Park Hyatt. À partir de 400 $/nuit. Juin-oct. idéal."
+  }
+}

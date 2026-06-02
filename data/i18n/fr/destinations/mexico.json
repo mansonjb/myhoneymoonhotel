@@ -1,0 +1,77 @@
+{
+  "tagline": "Des falaises désertiques de la Basse-Californie aux cenotes en pleine jungle de la Riviera Maya — le Mexique excelle dans le luxe comme personne.",
+  "intro": "Le Mexique est la destination de lune de miel la plus diversifiée du continent américain. Los Cabos, à la pointe de la Basse-Californie, offre la rencontre désert-océan avec des resorts de classe mondiale comme Las Ventanas al Paraíso et Esperanza — arches rocheuses, pêche au marlin bleu et couchers de soleil au mezcal. La Riviera Maya livre l’eau turquoise des Caraïbes, les ruines mayas et la baignade souterraine dans les cenotes. Tulum est devenue une destination éco-luxe authentiquement extraordinaire. Et San Miguel de Allende incarne le Mexique colonial dans toute sa romance — pavés, cloches d’église et dîners en rooftop sous les étoiles.",
+  "bestTime": "Nov-mai",
+  "flightFrom": "10-14 h depuis l’Europe / 2-5 h depuis les États-Unis",
+  "topExperience": "Luxe plage et cenote",
+  "perfectFor": [
+    "Les couples basés aux États-Unis en quête de luxe sans long-courrier",
+    "Les gourmets — la cuisine mexicaine (notamment oaxaqueña et yucatèque) figure parmi les grandes cultures gastronomiques du monde",
+    "Les couples qui veulent de la variété — désert, jungle, plage caribéenne, villes coloniales",
+    "Les amateurs d’architecture et de design — le Mexique offre certains des resorts les plus créatifs du monde",
+    "Ceux qui veulent une immersion culturelle authentique en plus du luxe balnéaire"
+  ],
+  "skipIf": [
+    "La sécurité est votre priorité — étudiez sérieusement votre destination spécifique avant de réserver",
+    "Vous voulez quitter le resort et explorer librement sans préparation (certaines zones demandent plus de vigilance)",
+    "Vous cherchez la sophistication urbaine et la culture café à l’européenne",
+    "Vous supportez mal la chaleur — la Riviera Maya en été est très chaude et très humide"
+  ],
+  "experiences": [
+    { "title": "Baignade privée en cenote (Riviera Maya)", "description": "Le Mexique compte des milliers de gouffres souterrains remplis d’eau douce cristalline, connectés au plus grand réseau de cavernes immergées au monde. Nager dans un cenote privé aux chandelles à Tulum est totalement irréel.", "cost": "50-200 $ par personne (accès privé)", "tip": "Les cenotes Dos Ojos, Gran Cenote et Ik Kil près de Chichén Itzá sont les plus beaux. Réservez une session privée du soir dans un cenote boutique pour le moment le plus romantique." },
+    { "title": "Lever de soleil à Chichén Itzá", "description": "La pyramide maya d’El Castillo à l’aube, avant l’arrivée des cars, avec un archéologue privé qui décrypte la précision astronomique de l’édifice. L’une des expériences les plus émouvantes des Amériques.", "cost": "150-300 $ par couple (guide privé, accès anticipé)", "tip": "Le site ouvre à 8 h, mais les visites privées débutent à 7 h. Réservez via le concierge de votre hôtel — il a des accords avec les responsables du site archéologique." },
+    { "title": "Nage avec les requins-baleines (Isla Mujeres, juin-sep)", "description": "Les eaux au large d’Isla Mujeres accueillent la plus grande concentration de requins-baleines au monde de juin à septembre. Nager au milieu de 20 individus simultanément est l’une des expériences animalières les plus extraordinaires de la planète.", "cost": "100-180 $ par personne", "tip": "Pic en juillet-août. Les bateaux partent d’Isla Mujeres — prenez le départ matinal (6 h) chez un petit opérateur (8 personnes max par bateau)." },
+    { "title": "Coucher de soleil à El Arco (Los Cabos)", "description": "L’iconique arche rocheuse de Land’s End, là où le Pacifique rencontre la mer de Cortez — spectaculaire, photogénique et propre à la Basse-Californie. Prenez un water taxi jusqu’à l’arche au coucher de soleil pour une soirée cinématographique.", "cost": "80-150 $ par couple", "tip": "L’arche n’est accessible qu’en bateau depuis Medano Beach. Partez à 16 h, regardez le sunset depuis le bateau, puis dîner sur la marina de Cabo San Lucas." },
+    { "title": "Dégustation de mezcal à Oaxaca", "description": "Oaxaca produit le plus fin mezcal du monde. Une visite guidée du centre historique, chez des mezcaleros artisanaux et dans le meilleur restaurant du Mexique (Los Danzantes ou Casa Oaxaca), est une expérience gastronomique qui change la vie.", "cost": "100-200 $ par couple (visite guidée)", "tip": "Oaxaca est à 1 h de vol de Mexico. La combinaison mezcal, mole negro et la cathédrale du Zócalo de nuit en fait la ville la plus romantique du Mexique." }
+  ],
+  "months": [
+    { "weather": "Parfait — sec, chaud, clair", "crowds": "Élevée", "price": "Élevé", "verdict": "Pic — réservez bien en avance" },
+    { "weather": "Idéal, pic de saison sèche", "crowds": "Élevée", "price": "Élevé", "verdict": "La meilleure météo de l’année" },
+    { "weather": "Foules du spring break, toujours superbe", "crowds": "Très élevée", "price": "Très élevé", "verdict": "Beau mais le plus fréquenté" },
+    { "weather": "Chaud, foules de Pâques puis calme", "crowds": "Modérée", "price": "Moyen à élevé", "verdict": "L’après-Pâques est un sweet spot" },
+    { "weather": "Chaud, pré-saison cyclonique", "crowds": "Faible", "price": "Moyen", "verdict": "Bon rapport qualité-prix avant l’été" },
+    { "weather": "Début de la saison des requins-baleines, humide", "crowds": "Faible", "price": "Bas", "verdict": "Arrivée des requins-baleines — moment spécial" },
+    { "weather": "Chaud, humide, début de risque cyclonique", "crowds": "Modérée", "price": "Bas à moyen", "verdict": "Été familial, risque présent" },
+    { "weather": "Le plus chaud, risque cyclonique maximal", "crowds": "Modérée", "price": "Bas", "verdict": "Déconseillé pour la Riviera Maya" },
+    { "weather": "Pic de saison cyclonique", "crowds": "Faible", "price": "Le plus bas", "verdict": "À éviter côté Caraïbes" },
+    { "weather": "Fin de saison cyclonique, transition", "crowds": "Faible", "price": "Bas à moyen", "verdict": "Basse-Californie (Los Cabos) ok en octobre" },
+    { "weather": "Retour de la saison sèche, démarrage parfait", "crowds": "Modérée", "price": "Moyen", "verdict": "Excellent — la saison s’ouvre" },
+    { "weather": "Pic de saison sèche, tarifs des fêtes", "crowds": "Maximale", "price": "Très élevé", "verdict": "Météo parfaite, réservez un an à l’avance" }
+  ],
+  "budgetTiers": [
+    { "label": "All-inclusive de luxe", "daily": "400-800 $/nuit", "includes": "Resorts all-inclusive premium à Cancún ou en Riviera Maya. Excellence Playa Mujeres, Secrets Maroma — un rapport qualité-prix vraiment exceptionnel, tout inclus (repas, boissons, activités). Exemples : Excellence Playa Mujeres, Secrets Maroma Beach." },
+    { "label": "Boutique premium", "daily": "800-2 000 $/nuit", "includes": "Suites avec piscine privée, service exceptionnel, cuisine remarquable. Le meilleur de l’éco-luxe de Tulum ou des boutique-hôtels de Los Cabos. Exemples : Esperanza Auberge (Los Cabos), Azulik Tulum, Nomade Tulum." },
+    { "label": "Ultra-luxe", "daily": "2 000 $ et plus/nuit", "includes": "Niveau Las Ventanas al Paraíso — service majordome, plage privée, télescope dédié, et l’hospitalité la plus créative du Mexique. Exemples : Las Ventanas al Paraíso (Los Cabos), One&Only Palmilla." }
+  ],
+  "areas": [
+    { "name": "Los Cabos (Basse-Californie du Sud)", "description": "À la pointe de la péninsule de Basse-Californie, le Pacifique rencontre la mer de Cortez. Paysage de désert et de montagne, mer dramatique plus que calme. Les meilleurs resorts s’alignent sur le Corredor entre San José et Cabo San Lucas. Soleil toute l’année, risque cyclonique minimal." },
+    { "name": "Riviera Maya (Cancún à Tulum)", "description": "La côte caribéenne, de Cancún à Tulum, offre une eau plate, calme et turquoise, idéale pour la baignade et le snorkeling. Playa del Carmen et Tulum sont les plus sophistiquées. Chichén Itzá est à 2 h à l’intérieur. À préférer de novembre à mai pour éviter la saison cyclonique." },
+    { "name": "Tulum", "description": "Tulum a évolué du baroudeur à un éco-luxe vraiment extraordinaire. Les ruines mayas en falaise au-dessus des Caraïbes, la baignade en cenote et la Hotel Zone (petits boutiques, sans télévision, beaucoup de bougies) en font un lieu uniquement romantique." },
+    { "name": "San Miguel de Allende", "description": "Ville coloniale classée au patrimoine mondial de l’UNESCO, dans les montagnes de Guanajuato — église baroque, rues pavées, restaurants en rooftop et scène artistique vibrante. Casa de Sierra Nevada et Rosewood San Miguel de Allende figurent parmi les plus beaux boutique-hôtels du Mexique." }
+  ],
+  "expertTips": [
+    { "title": "Los Cabos n’a quasi aucun risque cyclonique — la Riviera Maya, si", "body": "Si vous voyagez de juin à novembre, Los Cabos est nettement plus sûr face aux tempêtes tropicales que toute destination mexicaine donnant sur les Caraïbes. L’exposition pacifique et le paysage désertique limitent fortement le développement de tempêtes." },
+    { "title": "La cuisine des meilleurs resorts mexicains est extraordinaire", "body": "Las Ventanas al Paraíso, Nobu Los Cabos et Casa Dragones rivalisent avec les meilleures tables du monde. Ne vous contentez pas des quesadillas au bord de la piscine — la scène culinaire mexicaine est l’un des grands attraits." },
+    { "title": "Louez une voiture à Los Cabos mais prenez le taxi à Tulum", "body": "Le Corredor entre San José del Cabo et Cabo San Lucas se traverse en 20 min. La Hotel Zone de Tulum est piétonne ou se fait en tuk-tuk. Conduire à Mexico est déconseillé aux visiteurs." },
+    { "title": "Réservez votre cenote 48 h à l’avance", "body": "Les meilleurs cenotes (Dos Ojos, Gran Cenote) limitent les créneaux d’accès privé. Les sessions du matin avant 10 h offrent la plus belle lumière filtrée par la voûte calcaire et l’eau la plus claire." },
+    { "title": "Le Día de Muertos (1-2 novembre) à Oaxaca est extraordinaire", "body": "Si votre voyage chevauche le Día de Muertos à Oaxaca, les veillées au cimetière et les autels couverts de calendulas sont parmi les événements culturels les plus émouvants au monde. Les hôtels affichent complet un an à l’avance." }
+  ],
+  "packing": [
+    { "item": "Crème solaire reef-safe", "why": "Le Mexique a adopté en 2021 des lois de protection des récifs — la crème chimique est interdite dans de nombreux cenotes et récifs protégés" },
+    { "item": "Lin léger", "why": "L’humidité d’été en Riviera Maya est intense. Les fibres naturelles sont indispensables" },
+    { "item": "Chaussures d’eau pour les cenotes", "why": "Les accès aux cenotes sont souvent rocheux et glissants. Les chaussettes aquatiques ou reef shoes protègent et accrochent" },
+    { "item": "Répulsif anti-insectes (DEET)", "why": "La jungle de la Riviera Maya abrite moustiques et phlébotomes occasionnels au crépuscule" },
+    { "item": "Sac étanche", "why": "Pour la baignade en cenote, les sorties en bateau à El Arco et toute activité aquatique en Riviera Maya" }
+  ],
+  "guide": {
+    "getting": "Vol pour Los Cabos International (SJD) pour la Basse-Californie ou Cancún International (CUN) pour la Riviera Maya et Tulum. Depuis les États-Unis : vols directs depuis la plupart des grandes villes avec American, Delta, United, Southwest et Volaris. Depuis l’Europe : direct depuis Londres et Madrid vers Cancún avec British Airways et Iberia ; sinon, via Mexico (MEX) ou Miami. Vols intérieurs sur Aeromexico, Volaris et VivaAerobus.",
+    "where": "Corredor de Los Cabos (entre San José et Cabo) pour le luxe désertique de Basse-Californie. Playa del Carmen ou Akumal pour la base Riviera Maya. Hotel Zone de Tulum pour l’éco-luxe bohème. San Miguel de Allende pour la romance coloniale hors plage.",
+    "when": "Novembre à mai est la fenêtre la plus sûre, à la fois pour la Basse-Californie et la côte caribéenne. Décembre-mars offre la plus belle météo mais les tarifs les plus élevés. Avril est un excellent rapport qualité-prix. Juin-octobre, côté caribéen, comporte un risque cyclonique — Los Cabos reste sûr toute l’année."
+  },
+  "localFood": "Langouste grillée fraîche à Puerto Nuevo près d’Ensenada, tacos al pastor à la plancha dans les bars à tacos de Los Cabos, ceviches et tostadas façon Contramar, mole negro de Oaxaca avec dinde, guacamole préparé à table au resort. Les cocktails au mezcal au coucher du soleil sont un rituel à Los Cabos.",
+  "language": "Espagnol (anglais dans les resorts)",
+  "seo": {
+    "title": "Lune de Miel au Mexique 2026 : 8 Resorts Adults-Only",
+    "description": "8 hôtels Riviera Maya, Los Cabos, Tulum classés. Esperanza, Rosewood Mayakoba. À partir de 500 $/nuit. Pic nov-avr."
+  }
+}

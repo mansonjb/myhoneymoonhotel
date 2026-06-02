@@ -1,0 +1,79 @@
+{
+  "tagline": "La nature marine la plus préservée d’Afrique sur un archipel reculé de l’océan Indien.",
+  "intro": "Le Mozambique est le secret le mieux gardé de l’océan Indien — un pays dont l’archipel de Bazaruto recèle certains des systèmes coralliens les plus préservés au monde, où les dugongs paissent encore dans les herbiers et où les requins-baleines croisent dans les chenaux. L’archipel donne l’impression de l’océan Indien d’avant le tourisme de masse. andBeyond Benguerra Island figure parmi les plus belles propriétés d’Afrique.",
+  "bestTime": "Mai-nov",
+  "flightFrom": "11-13 h depuis l’Europe (via Johannesburg)",
+  "topExperience": "Vie marine et luxe reculé",
+  "perfectFor": [
+    "Les couples qui veulent combiner safari est-africain et plage de l’océan Indien (Tanzanie/Kenya + Mozambique)",
+    "Les passionnés de vie marine — dugongs, requins-baleines et baleines à bosse",
+    "Ceux qui cherchent une île de l’océan Indien sans la foule des Maldives ou des Seychelles",
+    "Les couples prêts à voyager pour un wilderness vraiment reculé",
+    "Les plongeurs — les récifs de Bazaruto sont parmi les moins fréquentés de l’océan Indien"
+  ],
+  "skipIf": [
+    "Les correspondances multiples via Johannesburg sont rédhibitoires",
+    "La fiabilité des infrastructures vous est indispensable — le Mozambique se développe et les coupures de courant arrivent",
+    "Vous voulez une bande hôtelière de luxe avec variété de restaurants et vie nocturne",
+    "La saison des pluies (déc-mars) est votre seule fenêtre",
+    "Le budget est très serré — les resorts insulaires sont chers et le tout-compris est nécessaire"
+  ],
+  "experiences": [
+    { "title": "Plongée sur les récifs de l’archipel de Bazaruto", "description": "Les récifs du parc national de Bazaruto comptent parmi les environnements coralliens les moins perturbés de l’ouest de l’océan Indien. Jardins de coraux mous intacts, mérous géants et raies manta sur Two Mile Reef.", "cost": "80-150 $ par personne (2 plongées)", "tip": "La plongée est meilleure de juin à novembre (visibilité maximale). Two Mile Reef et les récifs sud de Benguerra sont les plus beaux sites. andBeyond dispose de son propre centre PADI sur l’île." },
+    { "title": "Nage avec les requins-baleines (juin-nov)", "description": "Les chenaux entre les îles de Bazaruto sont des zones d’alimentation pour les requins-baleines de juin à novembre. Nager au côté du plus grand poisson du monde dans une eau chaude et limpide de l’océan Indien.", "cost": "Inclus à andBeyond Benguerra", "tip": "Les requins-baleines sont les plus présents d’août à octobre. Le biologiste marin d’andBeyond connaît leurs schémas d’alimentation mieux que personne. Départ à l’aube pour le meilleur taux de rencontres." },
+    { "title": "Observation des baleines à bosse (juil-oct)", "description": "Les baleines à bosse longent la côte mozambicaine de juillet à octobre. Le chenal de Bazaruto offre des observations quotidiennes depuis les bateaux — et parfois depuis la plage de l’île elle-même.", "cost": "Inclus dans les activités du resort à andBeyond", "tip": "L’activité est la plus intense d’août à septembre. Demandez une sortie dédiée plutôt qu’une rencontre fortuite lors d’autres activités." },
+    { "title": "Recherche de dugongs (sortie en dhow à l’aube)", "description": "L’une des dernières populations sauvages viables de dugongs de l’ouest de l’océan Indien broute dans les herbiers de Bazaruto. Une sortie en dhow à l’aube avec le biologiste marin résident est un privilège rare.", "cost": "Inclus à andBeyond Benguerra", "tip": "Les dugongs ne sont pas garantis — ils sont timides. Le biologiste marin connaît les zones de pâturage. De juin à août, la probabilité de rencontre est la plus haute." },
+    { "title": "Pique-nique champagne sur banc de sable privé", "description": "Un bateau privé vous dépose sur un banc de sable blanc dérivant au milieu de l’océan Indien avec un pique-nique champagne, un kit de snorkeling et personne d’autre à 10 km à la ronde.", "cost": "Inclus à andBeyond Benguerra", "tip": "Les plus beaux bancs de sable sont à 30-45 minutes en bateau depuis Benguerra. Demandez l’option la plus reculée — eaux les plus claires, totalement désertes." }
+  ],
+  "months": [
+    { "weather": "Saison des pluies, fortes précipitations, chaud", "crowds": "Très faible", "price": "Bas", "verdict": "À éviter — saison humide" },
+    { "weather": "Humide, risque cyclonique occasionnel", "crowds": "Très faible", "price": "Le plus bas", "verdict": "À ne pas réserver" },
+    { "weather": "Pluies en baisse", "crowds": "Faible", "price": "Bas", "verdict": "Toujours humide — attendez" },
+    { "weather": "Transition, amélioration", "crowds": "Faible", "price": "Bas à moyen", "verdict": "Ça s’améliore, demi-saison" },
+    { "weather": "Début de saison sèche, 26 °C", "crowds": "Faible", "price": "Moyen", "verdict": "Démarrage de la saison sèche — bon rapport" },
+    { "weather": "Sec, chaud, arrivée des baleines à bosse", "crowds": "Modérée", "price": "Moyen", "verdict": "Début des requins-baleines" },
+    { "weather": "Sec, requins-baleines actifs", "crowds": "Élevée", "price": "Élevé", "verdict": "Pic des baleines et des requins-baleines" },
+    { "weather": "Conditions optimales pour toute la faune", "crowds": "Élevée", "price": "Élevé", "verdict": "Le meilleur mois — toutes les espèces actives" },
+    { "weather": "Sec, conditions marines excellentes", "crowds": "Élevée", "price": "Élevé", "verdict": "Densité maximale des requins-baleines" },
+    { "weather": "Sec, départ des baleines à bosse", "crowds": "Modérée", "price": "Moyen à élevé", "verdict": "Encore excellent, un peu plus calme" },
+    { "weather": "Transition, premières pluies possibles", "crowds": "Faible", "price": "Moyen", "verdict": "Dernier bon mois avant la saison humide" },
+    { "weather": "Retour de la saison des pluies", "crowds": "Faible", "price": "Bas à moyen", "verdict": "Saison humide qui commence" }
+  ],
+  "budgetTiers": [
+    { "label": "Lodge insulaire boutique", "daily": "400-800 $/nuit", "includes": "Plus petit lodge en front de mer sur une île de Bazaruto, accès aux récifs, sorties bateau. Moins de service majordome mais l’environnement marin est identique. Exemples : Bazaruto Lodge, Azura Benguerra." },
+    { "label": "Premium tout-compris", "daily": "800-1 500 $/nuit (TI)", "includes": "Tout-compris avec activités marines, sorties requins-baleines, plongée et excellente cuisine de l’océan Indien. Exemple : andBeyond Benguerra Island." },
+    { "label": "Privatisation", "daily": "5 000-8 000 $ et plus/nuit", "includes": "Resort entièrement privatisé — tous les chalets, tout le personnel, concession marine privée. L’expérience la plus privée de l’océan Indien. Exemple : andBeyond Benguerra en exclusive use." }
+  ],
+  "areas": [
+    { "name": "Île de Benguerra", "description": "La deuxième plus grande île de l’archipel de Bazaruto. andBeyond et Azura y sont implantés. Le meilleur portefeuille de faune de l’archipel." },
+    { "name": "Île de Bazaruto", "description": "L’ancre nord de l’archipel. Bazaruto Lodge s’y trouve. L’île abrite des lacs d’eau douce (flamants roses), de vastes systèmes dunaires et le récif le plus biodiversifié du parc." },
+    { "name": "Île de Magaruque", "description": "La plus petite île habitée de l’archipel. Anantara Bazaruto y exploite une propriété. La plus reculée des îles accessibles, avec un excellent snorkeling depuis la plage." },
+    { "name": "Vilankulo (continent)", "description": "La ville côtière d’où partent tous les bateaux et avions légers vers Bazaruto. Une nuit ici avant ou après l’île donne du contexte sur la culture pêcheuse locale." }
+  ],
+  "expertTips": [
+    { "title": "Combinez avec un safari au Zimbabwe ou en Afrique du Sud", "body": "Le Mozambique fonctionne parfaitement comme volet plage d’un voyage africain : 4 nuits aux chutes Victoria ou au Kruger + 5 nuits à Bazaruto. Le contraste est extraordinaire. Toutes les correspondances passent par Johannesburg." },
+    { "title": "Août-septembre est le pic absolu pour la vie marine", "body": "Requins-baleines, baleines à bosse, raies manta et dauphins sont tous actifs en même temps en août-septembre. Planifiez votre voyage autour de cette fenêtre si la faune est la priorité." },
+    { "title": "Le biologiste marin d’andBeyond transforme l’expérience", "body": "andBeyond emploie un biologiste marin résident à Benguerra qui connaît chaque zone de chasse, schéma de requin et récit de récupération corallienne. Réservez un briefing privé dès le premier jour." },
+    { "title": "Électricité et connectivité limitées — acceptez-le", "body": "Le Mozambique est reculé. andBeyond Benguerra fonctionne au solaire mais des coupures arrivent. Le wifi est intermittent. Ce n’est pas un défaut — c’est la grâce. Déconnectez complètement pour la durée du séjour." },
+    { "title": "Le tarif tout-compris vaut son prix — rien d’autre à manger ou à acheter", "body": "Contrairement aux Maldives, les îles de Bazaruto n’ont aucun autre restaurant ou boutique. Le tout-compris supprime l’anxiété et la cuisine d’andBeyond est excellente. Intégrez-le dès le départ au budget." }
+  ],
+  "packing": [
+    { "item": "Crème solaire reef-safe", "why": "Le parc national de Bazaruto applique des règles strictes — apportez une crème agréée depuis chez vous" },
+    { "item": "Appareil photo étanche (grand-angle)", "why": "Les rencontres de requins-baleines et de raies manta exigent un grand-angle à la mesure des animaux" },
+    { "item": "Médicament antipaludique", "why": "Le Mozambique présente un risque palustre — consultez votre médecin 2 semaines avant le départ" },
+    { "item": "Sac étanche", "why": "Les transferts en bateau entre îles et vers les bancs de sable impliquent beaucoup d’embruns" },
+    { "item": "Batterie externe", "why": "L’alimentation solaire limite les prises. Apportez votre propre sauvegarde" },
+    { "item": "Tenues couvertes (pour la ville de Vilankulo)", "why": "Le Mozambique est majoritairement musulman à Bazaruto — couvrez-vous en ville" }
+  ],
+  "guide": {
+    "getting": "Vol pour Johannesburg (JNB) et correspondance vers Vilankulo (VNX) sur Mozambique Airlines ou LAM (1 h 30). Depuis Vilankulo : andBeyond Benguerra est à 20 minutes en hors-bord ou 15 minutes en avion léger. Temps total depuis Londres : environ 14-16 h correspondances comprises. andBeyond organise toute la logistique Vilankulo-île.",
+    "where": "Île de Benguerra (meilleur portefeuille faunique, andBeyond). Île de Bazaruto (la plus grande, meilleure plongée, lacs d’eau douce). Magaruque (la plus reculée). Vilankulo sur le continent (base d’arrivée). Toutes les îles sont à 30-45 min en bateau les unes des autres.",
+    "when": "Mai-novembre est la saison sèche. Août-octobre est le pic absolu pour la faune marine (requins-baleines, baleines à bosse, dugongs, raies manta simultanément). Juin-juillet est idéal pour ceux qui visent des tarifs plus bas pendant la saison sèche. Évitez décembre-avril (saison humide)."
+  },
+  "localFood": "Crevettes piri-piri (les meilleures d’Afrique — le piri-piri mozambicain est l’original, avant que Nando’s ne le mondialise), langouste grillée du chenal, matapa (feuilles de manioc à la sauce d’arachide) et thon jaune frais. La cuisine d’andBeyond utilise la pêche du jour du récif et les meilleurs produits bio du continent. Les crevettes piri-piri sur la plage de Benguerra au coucher du soleil sont le repas essentiel du Mozambique.",
+  "language": "Portugais (officiel). Anglais dans les resorts. Dialectes locaux selon la région.",
+  "seo": {
+    "title": "Lune de Miel au Mozambique 2026 : 6 Lodges d’Îles Privées",
+    "description": "6 lodges des archipels de Bazaruto et Quirimbas notés. Azura, &Beyond Benguerra, Anantara Medjumbe. À partir de 1 000 $/nuit. Juin-oct."
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "tagline": "Au-delà de Bora Bora — îles vanille, atolls de sable rose et le paradis privé de Brando",
+  "intro": "La Polynésie française s’étend sur un territoire océanique de la taille de l’Europe, et pourtant la plupart des voyageurs n’en voient qu’une seule des 118 îles. Au-delà de la renommée carte postale de Bora Bora s’étend un archipel d’une variété stupéfiante — pics volcaniques drapés de jungle, plantations de vanille parfumant les alizés, et atolls si reculés qu’ils ressemblent au bord du monde. Tahiti, la plus grande île, ancre le territoire avec sa capitale Papeete — le Marché de Pape’ete déborde de fleurs de tiare, de perles noires et de paréos à l’aube. À 30 minutes de ferry, Moorea s’élève comme une cathédrale verte depuis la mer, ses huit pics cerclant les baies de Cook et d’Opunohu. Naviguez vers le nord et vous gagnez le cœur plus calme des îles de la Société : Taha’a, l’île à la vanille, et Raiatea, l’île sacrée, qui abrite Marae Taputapuatea — le site cérémoniel inscrit à l’UNESCO considéré comme le berceau spirituel de toute la Polynésie. Pour plongeurs et rêveurs, les atolls des Tuamotu appellent : Rangiroa, deuxième plus grand lagon du monde, où les dauphins surfent la passe de Tiputa à marée montante ; Tikehau, cerclée de sable corallien rose. Et puis il y a Tetiaroa — l’atoll privé de Marlon Brando, aujourd’hui The Brando.",
+  "bestTime": "De mai à octobre — saison sèche, humidité plus faible, mer calme",
+  "flightFrom": "LAX 8 h direct vers Papeete (PPT) ; Paris 22 h via LAX ou Tokyo",
+  "topExperience": "Ferry vers Moorea au lever du soleil, puis route jusqu’au belvédère de Belvedere pour la vue sur le Mt Rotui",
+  "perfectFor": [
+    "Les couples en quête d’une alternative plus calme à Bora Bora",
+    "Les voyageurs culturels attirés par l’héritage polynésien et les sites UNESCO",
+    "Les plongeurs en quête de raies manta et de passes à dauphins",
+    "Les jeunes mariés qui sautent d’île en île en yacht ou en petit avion",
+    "Les amateurs d’éco-luxe prêts à splurger sur The Brando"
+  ],
+  "skipIf": [
+    "Vous voulez du court-courrier — les vols sont longs depuis partout",
+    "Vous êtes à budget serré — tout est importé et tarifé en conséquence",
+    "Il vous faut une vie nocturne vibrante et des quartiers shopping",
+    "Vous attendez l’anglais partout — le français et le tahitien dominent"
+  ],
+  "experiences": [
+    { "title": "Observation des dauphins à la passe de Tiputa, Rangiroa", "description": "Postez-vous au bord du chenal à marée montante et regardez les grands dauphins sauvages surfer le courant entrant dans le lagon.", "cost": "8 000-12 000 XPF (67-100 €)", "tip": "Allez-y à marée montante entre 8 h et 10 h, quand les dauphins sont les plus actifs" },
+    { "title": "Visite d’une plantation de vanille à Taha’a", "description": "Parcourez les lianes d’orchidées vanille pollinisées à la main et découvrez le processus de neuf mois d’affinage à la source de 80 % de la vanille du territoire.", "cost": "3 500 XPF (29 €) avec dégustation", "tip": "Achetez les gousses sous vide directement chez le producteur" },
+    { "title": "Naviguez aux îles de la Société en catamaran", "description": "Affrétez un cat avec équipage depuis Raiatea pour contourner Taha’a à l’intérieur du lagon partagé, snorkeling à la dérive sur le Jardin de corail.", "cost": "À partir de 280 000 XPF (2 350 €) pour un charter de 4 jours", "tip": "Réservez chez Dream Yacht Charter — Raiatea est le hub inter-îles de la voile" },
+    { "title": "Marche jusqu’au belvédère de Belvedere, Moorea", "description": "Roulez à travers les champs d’ananas jusqu’au panorama où le Mt Rotui s’élève entre les baies de Cook et d’Opunohu.", "cost": "Gratuit ; location 4x4 ~10 000 XPF (84 €)/jour", "tip": "À combiner avec la halte au jus d’ananas de l’École d’agriculture" },
+    { "title": "Visite de Marae Taputapuatea, Raiatea", "description": "Foulez les pierres de basalte du plus sacré temple polynésien — site inscrit au patrimoine mondial UNESCO.", "cost": "Entrée gratuite ; visites guidées à partir de 4 000 XPF", "tip": "Engagez un guide local par le centre des visiteurs — les pierres paraissent banales sans les récits" }
+  ],
+  "months": [
+    { "weather": "27-31 °C, humide, averses fréquentes", "crowds": "Faible", "price": "Moyenne", "verdict": "Saison humide — vert et luxuriant" },
+    { "weather": "27-32 °C, pic du risque cyclonique", "crowds": "Faible", "price": "Basse", "verdict": "Mois le moins cher mais le plus humide" },
+    { "weather": "27-31 °C, humidité qui s’atténue", "crowds": "Faible", "price": "Basse", "verdict": "Fin de saison humide — bons plans" },
+    { "weather": "26-30 °C, mois de transition", "crowds": "Faible", "price": "Moyenne", "verdict": "Moment en or — météo qui s’améliore, tarifs encore doux" },
+    { "weather": "25-29 °C, début de la saison sèche", "crowds": "Moyenne", "price": "Moyenne", "verdict": "Excellent — l’humidité tombe, idéal pour la voile" },
+    { "weather": "24-28 °C, sec et brise", "crowds": "Moyenne", "price": "Haute", "verdict": "Belle météo — emportez une couche légère" },
+    { "weather": "23-28 °C, pic de la saison sèche", "crowds": "Élevée", "price": "Haute", "verdict": "Festival Heiva à Papeete — culture au sommet" },
+    { "weather": "23-28 °C, sec et clair", "crowds": "Élevée", "price": "Haute", "verdict": "Haute saison — réservez les bungalows over-water 6 mois à l’avance" },
+    { "weather": "24-29 °C, fin du sec", "crowds": "Moyenne", "price": "Haute", "verdict": "Sans doute le meilleur mois — belle météo, moins de monde" },
+    { "weather": "25-30 °C, réchauffement", "crowds": "Moyenne", "price": "Moyenne", "verdict": "Fin de saison sèche — baleines à bosse jusque fin octobre" },
+    { "weather": "26-31 °C, humidité en hausse", "crowds": "Faible", "price": "Moyenne", "verdict": "Transition vers la saison humide — les prix reculent" },
+    { "weather": "27-31 °C, festif mais pluvieux", "crowds": "Moyenne", "price": "Haute", "verdict": "Suppléments fêtes ; attendez-vous à des averses d’après-midi" }
+  ],
+  "budgetTiers": [
+    { "label": "Confort", "daily": "350-600 €/nuit", "includes": "Bungalow jardin dans un resort 4 étoiles, petit-déjeuner, transferts en ferry. Exemple : Manava Beach Resort Moorea — bungalow jardin avec vue piscine" },
+    { "label": "Premium", "daily": "700-1 400 €/nuit", "includes": "Bungalow over-water au Hilton ou au Sofitel, demi-pension, excursions lagon. Exemple : Hilton Moorea Lagoon Resort — bungalow over-water à plancher vitré" },
+    { "label": "Ultra-luxe", "daily": "3 500-20 000 €/nuit", "includes": "Villa privée tout compris, majordome, bateau dédié, spa. Exemple : The Brando sur Tetiaroa — villa en front de mer, tout inclus" }
+  ],
+  "areas": [
+    { "name": "Tahiti & Papeete", "description": "La plus grande île et la porte d’entrée — passez une nuit de part et d’autre des vols inter-îles pour explorer le marché et les cascades de la côte est sauvage." },
+    { "name": "Moorea", "description": "À 30 minutes de ferry de Tahiti, Moorea offre des pics dramatiques, deux baies jumelles et les bungalows over-water au meilleur rapport qualité-prix du territoire." },
+    { "name": "Taha’a et Raiatea", "description": "Ces deux îles partagent un même lagon, parfait pour les charters catamaran. Taha’a est célèbre pour la vanille ; Raiatea abrite le marae UNESCO." },
+    { "name": "Rangiroa", "description": "Le deuxième plus grand atoll du monde — vaste lagon turquoise cerclé de motus, avec deux passes qui canalisent requins, dauphins et raies manta." },
+    { "name": "Tetiaroa", "description": "L’atoll privé de Marlon Brando, aujourd’hui The Brando — accessible uniquement par avion privé, c’est du domaine du rêve à cocher." }
+  ],
+  "expertTips": [
+    { "title": "Achetez un pass multi-îles Air Tahiti avant l’arrivée", "body": "Les pass multi-îles économisent 30-50 % par rapport aux tarifs point à point ; réservez sur airtahiti.com avant le départ." },
+    { "title": "Le pourboire n’est pas d’usage", "body": "La culture polynésienne juge le pourboire gênant — le service est inclus dans les prix. Un chaleureux « maururu » est le bon geste." },
+    { "title": "Emportez des euros ou des cartes, pas des USD", "body": "Le franc Pacifique est indexé sur l’euro ; les DAB sont rares sur les îles éloignées — retirez du cash à Papeete avant de sauter d’île en île." },
+    { "title": "Le dimanche, tout ferme", "body": "Restaurants, boutiques et activités ferment le dimanche — prévoyez une journée resort ou réservez un brunch à l’avance." },
+    { "title": "Apportez une crème solaire respectueuse des récifs — c’est la loi", "body": "La Polynésie française a interdit les crèmes à l’oxybenzone et à l’octinoxate ; apportez du zinc minéral ou achetez sur place à l’arrivée." }
+  ],
+  "packing": [
+    { "item": "Crème solaire minérale respectueuse des récifs", "why": "Les crèmes chimiques sont interdites ; le zinc minéral est difficile à trouver et cher localement" },
+    { "item": "Paréo ou sarong", "why": "Sert de cover-up de plage, de serviette et de tenue respectueuse pour les visites de marae" },
+    { "item": "Chaussons de récif", "why": "Coraux et oursins sont courants dans les hauts-fonds ; les tongs ne suffisent pas" },
+    { "item": "Coque de pluie légère", "why": "Les averses passent vite même en saison sèche" },
+    { "item": "Appareil photo sous-marin ou GoPro", "why": "Les lagons l’exigent — les snorkelings à la dérive au Jardin de corail sont inoubliables" },
+    { "item": "Répulsif avec DEET", "why": "Moustiques et nonos (phlébotomes) sont bien réels sur les motus, surtout au crépuscule" }
+  ],
+  "guide": "Vol vers Faaa International (PPT) près de Papeete — Air Tahiti Nui depuis LAX (8 h), Paris (22 h via LAX). Le transport inter-îles se fait en turbopropulseur Air Tahiti ou, entre Tahiti et Moorea, par le ferry Aremiti de 30 minutes. Pour le logement : passez une nuit à Tahiti de part et d’autre, puis partagez entre Moorea (drame volcanique) et un atoll des Tuamotu comme Rangiroa ou Tikehau. The Brando sur Tetiaroa est à 20 minutes en vol privé depuis Papeete. Quand venir : de mai à octobre, c’est la saison sèche. Juillet-août sont au pic (réservez 6 mois à l’avance). Septembre est le moment en or. Évitez janvier-mars pour le risque cyclonique.",
+  "localFood": "Le poisson cru est le plat national — thon cru mariné au citron vert et au lait de coco. Ne manquez pas le ahi ma’a, le festin polynésien traditionnel cuit dans un four de pierres enterré — souvent servi le dimanche dans les resorts. Vanille fraîche, sashimi de mahi-mahi et chevrettes complètent la carte, accompagnés d’une Hinano bien fraîche.",
+  "language": "Français / tahitien (Reo Tahiti)",
+  "seo": {
+    "title": "Lune de miel en Polynésie française : 12 resorts over-water 2026",
+    "description": "12 resorts de Tahiti, Moorea, Bora Bora classés. The Brando, Four Seasons, St Regis. À partir de 800 $/nuit. Saison sèche mai-octobre."
+  }
+}

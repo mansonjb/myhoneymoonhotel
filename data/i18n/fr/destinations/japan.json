@@ -1,0 +1,78 @@
+{
+  "tagline": "Cerisiers en fleurs, onsen privés et dîners en ryokan — la culture de lune de miel la plus raffinée au monde.",
+  "intro": "Le Japon récompense les jeunes mariés par un paradoxe extraordinaire : à la fois la destination la plus ancienne et la plus moderne de la planète. À Kyoto, des chambres de ryokan aux cloisons de papier donnent sur des jardins de mousse inchangés depuis 400 ans. À Tokyo, des tables étoilées Michelin occupent les étages de tours au-dessus de rues néon. À Hakone, des bains onsen privés avec vue directe sur le mont Fuji offrent la matinée la plus romantique d’Asie. Aucune autre destination ne marie aussi bien profondeur culturelle, excellence culinaire, beauté naturelle et hospitalité de luxe.",
+  "bestTime": "Mars-avril (cerisiers) et novembre (érables d’automne)",
+  "flightFrom": "12-14 h depuis l’Europe",
+  "topExperience": "Romance du ryokan et de l’onsen",
+  "perfectFor": [
+    "Couples qui veulent une profondeur culturelle alliée au luxe mondial",
+    "Voyageurs obsédés de gastronomie — le Japon compte plus d’étoiles Michelin que tout autre pays",
+    "Romantiques des cerisiers — l’expérience des sakuras change vraiment une vie",
+    "Ceux qui veulent mêler temples anciens et énergie urbaine hypermoderne",
+    "Jeunes mariés en quête de l’hospitalité du ryokan — le service le plus attentif au monde"
+  ],
+  "skipIf": [
+    "Vous voulez des vacances plage-piscine — le Japon est actif et stimulant",
+    "Voyager dans un pays non anglophone vous stresse — la signalétique est difficile hors des grandes villes",
+    "Votre budget est extrêmement serré — les meilleurs ryokan facturent 600-2 000 $+ la nuit",
+    "Vous avez besoin de vie nocturne jusqu’à 4 h du matin — Kyoto se calme tôt"
+  ],
+  "experiences": [
+    { "title": "Onsen privé à l’aube", "description": "Réservez un rotenburo privé (bain chaud extérieur) dans votre ryokan pour 6 h. La vapeur qui s’élève d’une eau minérale, les pins en cadre, le silence absolu. Les 45 minutes les plus intimes du Japon.", "cost": "Souvent inclus dans les meilleurs ryokan ; créneau privé 30-80 $ en supplément", "tip": "Réservez le créneau de l’aube à l’arrivée — il se remplit dans l’après-midi. L’eau minérale est la plus dense le matin." },
+    { "title": "Promenade matinale à Arashiyama", "description": "La bambouseraie de Kyoto et le pont Togetsukyo à 6 h, avant l’arrivée des groupes. Fin mars, le parc de Nakanoshima se remplit de cerisiers reflétés dans la rivière Katsura.", "cost": "Gratuit", "tip": "Marchez depuis votre ryokan si vous logez à Arashiyama. Reprenez un rickshaw au retour — les conducteurs connaissent les meilleurs sentiers secondaires." },
+    { "title": "Dîner kaiseki dans votre chambre à tatami", "description": "Un dîner japonais saisonnier en 12 services, servi dans votre chambre par un préposé dédié. Chaque plat est une œuvre miniature, accordée à la saison. L’accord saké en fait une cérémonie de 3 heures.", "cost": "Inclus dans les tarifs des meilleurs ryokan (valeur 300-600 $)", "tip": "Signalez vos contraintes alimentaires 48 h à l’avance. Les services au wagyu peuvent généralement être ajoutés pour 80-120 $." },
+    { "title": "Vue sur le mont Fuji depuis Hakone", "description": "Depuis la crête onsen de Hakone, par matin clair, le Fuji s’élève parfaitement symétrique au-dessus du lac Ashi. Combinez avec le Hakone Open Air Museum et un ryokan doté d’un bain privé face au Fuji.", "cost": "Excursion à la journée depuis Tokyo 80-200 $ transport compris ; ryokan à Hakone à partir de 400 $/nuit", "tip": "Le Fuji est le plus clair en hiver et au début du printemps. Octobre-mars offre la meilleure visibilité. L’été apporte une épaisse couverture nuageuse." },
+    { "title": "Balade nocturne dans Gion", "description": "Le quartier des geishas de Kyoto au crépuscule — maisons machiya en bois, pavés de la rue Hanamikoji, lanternes en papier. Avec un peu de chance, vous apercevrez une geiko ou une maiko se hâtant vers un engagement.", "cost": "Gratuit à arpenter ; dîner kaiseki à Gion 150-400 $/pers.", "tip": "Visitez en semaine. Ne photographiez pas les geishas sans autorisation. Restez au nord de la rue Shijo pour l’atmosphère la plus authentique." }
+  ],
+  "months": [
+    { "weather": "Froid, sec, ciel cristallin", "crowds": "Faible", "price": "Bas", "verdict": "Meilleures vues du Fuji, temples paisibles" },
+    { "weather": "Le mois le plus froid, début des pruniers en fleur", "crowds": "Faible", "price": "Bas", "verdict": "Saison des pruniers, calme et splendide" },
+    { "weather": "Réchauffement, cerisiers en fin de mois", "crowds": "Élevée", "price": "Élevé", "verdict": "Magique si le timing est bon" },
+    { "weather": "Pic des cerisiers, printemps doux", "crowds": "Sommet", "price": "Maximal", "verdict": "Le plus romantique — réservez un an à l’avance" },
+    { "weather": "Doux, verdure fraîche, Golden Week chargée", "crowds": "Élevée", "price": "Élevé", "verdict": "Magnifique, mais la Golden Week est chaotique" },
+    { "weather": "Début de la saison des pluies (tsuyu)", "crowds": "Faible", "price": "Bas-moyen", "verdict": "Bonnes affaires, floraison des hortensias" },
+    { "weather": "Chaud, humide, fin de la saison des pluies", "crowds": "Modérée", "price": "Moyen", "verdict": "Festivals et feux d’artifice, mais chaud" },
+    { "weather": "Très chaud et humide", "crowds": "Élevée", "price": "Élevé", "verdict": "Festivals d’Obon magnifiques, chaleur bien réelle" },
+    { "weather": "Rafraîchissement, léger risque de typhon", "crowds": "Faible", "price": "Bas-moyen", "verdict": "Bonne valeur, risque mineur de typhon" },
+    { "weather": "Météo automnale parfaite", "crowds": "Modérée", "price": "Moyen-élevé", "verdict": "Excellente intersaison" },
+    { "weather": "Pic des érables d’automne, splendide", "crowds": "Sommet", "price": "Maximal", "verdict": "Aussi magique que la saison des cerisiers" },
+    { "weather": "Frais à froid, festif, peu fréquenté", "crowds": "Faible", "price": "Moyen", "verdict": "Sous-estimé — calme et magnifique" }
+  ],
+  "budgetTiers": [
+    { "label": "Boutiques et business hotels", "daily": "200-500 $/nuit", "includes": "Hôtel de qualité, excellent emplacement. Bon service, pas d’expérience ryokan en tatami. Base parfaite à Tokyo." },
+    { "label": "Ryokan premium et luxe urbain", "daily": "500-1 200 $/nuit", "includes": "Ryokan traditionnel avec chambres tatami, dîner kaiseki, accès onsen privé. L’authentique lune de miel japonaise." },
+    { "label": "Ryokan ultra-luxe", "daily": "1 200-2 500 $+/nuit", "includes": "Ryokan villa privée, kaiseki en chambre, préposé dédié, onsen extérieur privé. Le sommet de l’hospitalité japonaise." }
+  ],
+  "areas": [
+    { "name": "Kyoto", "description": "Le cœur culturel du Japon. Logez à Arashiyama ou Higashiyama pour vivre le ryokan. Trois nuits minimum ; cinq, c’est mieux. Évitez absolument la zone de la gare pour la romance." },
+    { "name": "Tokyo", "description": "Deux à trois nuits ajoutent un contraste électrique à la sérénité de Kyoto. Shinjuku, Ginza et Yanaka offrent des énergies complètement différentes. La scène gastronomique justifie à elle seule l’étape." },
+    { "name": "Hakone", "description": "Une à deux nuits entre Tokyo et Kyoto. L’expérience classique ryokan-onsen avec, en toile de fond, la plus iconique montagne du Japon. Les matins clairs d’hiver sont à couper le souffle." },
+    { "name": "Nara", "description": "Une demi-journée depuis Kyoto. Les cerfs y errent librement parmi les temples du VIIIe siècle. Le Grand Bouddha de Todai-ji est le plus grand du Japon. Doux, méditatif — une parenthèse parfaite au milieu du voyage." },
+    { "name": "Osaka", "description": "Capitale culinaire du Japon. Ajoutez une nuit avant le départ. Takoyaki, ramen, kushikatsu — le dîner final le plus gourmand du pays." }
+  ],
+  "expertTips": [
+    { "title": "Achetez un JR Pass de 7 jours avant de quitter chez vous", "body": "Le JR Pass couvre tous les Shinkansen et n’est vendu qu’aux touristes l’achetant hors du Japon. L’aller-retour Tokyo-Kyoto coûte à lui seul plus que le pass." },
+    { "title": "Réservez les ryokan 3 à 6 mois à l’avance pour la saison des cerisiers", "body": "Les meilleures adresses de Kyoto et Hakone fin mars-début avril se vendent en quelques heures à l’ouverture des réservations. Réservez le jour où les dates s’ouvrent." },
+    { "title": "Prenez un pocket WiFi à l’aéroport", "body": "Le WiFi public japonais est peu fiable. Une location de pocket WiFi (5-8 $/jour) offre des données illimitées pour les cartes, traductions et réservations. Essentiel pour naviguer en autonomie." },
+    { "title": "Emportez du liquide — le Japon reste largement cash", "body": "Beaucoup de ryokan, temples et vendeurs n’acceptent que les espèces. Retirez 50 000-100 000 ¥ aux distributeurs 7-Eleven à l’arrivée — ils acceptent les cartes étrangères de manière fiable." },
+    { "title": "Le rythme du ryokan est tout — abandonnez-vous y", "body": "Arrivée vers 15 h, bain avant le dîner, yukata toute la soirée, coucher tôt, bain à l’aube. L’expérience du ryokan ne fonctionne que si vous épousez le tempo." }
+  ],
+  "packing": [
+    { "item": "Chaussures faciles à enfiler", "why": "On se déchausse des dizaines de fois par jour — temples, ryokan, restaurants. Les lacets deviennent insupportables dès le deuxième jour." },
+    { "item": "Couches légères", "why": "Le chauffage et la climatisation intérieurs du Japon sont agressifs. Les temples ne sont pas chauffés en hiver. Les étés sont tropicaux. Empilez les couches en permanence." },
+    { "item": "Carte IC (Suica ou Pasmo)", "why": "Chargez 5 000 ¥ à l’arrivée dans n’importe quelle gare. Valable sur métro, bus et la plupart des konbini. Plus rapide que d’acheter un ticket à chaque fois." },
+    { "item": "Parapluie compact", "why": "Le Japon a de brèves averses fréquentes toute l’année. Aussi essentiel que votre téléphone." },
+    { "item": "Petit sac à dos", "why": "Les rues et transports japonais récompensent les bagages compacts. Un petit sac pour la journée évite les soucis de consignes." }
+  ],
+  "guide": {
+    "getting": "Vol vers Tokyo Narita (NRT) ou Haneda (HND) — Haneda est plus proche de la ville. Depuis Londres : direct sur JAL/ANA/BA (12 h). Depuis l’Europe : correspondances via Amsterdam, Paris, Francfort (13-14 h au total). Depuis les États-Unis : direct depuis LAX, SFO, JFK (11-14 h). Prenez le Narita Express (30 $) ou le Limousine Bus pour rejoindre votre hôtel. Tokyo-Kyoto : Shinkansen Nozomi (2 h 15, ~130 $ l’aller) — réservez vos sièges à l’avance.",
+    "where": "Kyoto : logez à Arashiyama (la plus sereine) ou Higashiyama (la plus centrale pour les temples). Tokyo : Shinjuku ou Ginza pour le luxe ; Aoyama pour le style boutique. Hakone : n’importe où sur la crête de Kowakidani. Itinéraire classique : 2 nuits Tokyo → 1 nuit Hakone → 3 nuits Kyoto → 1 nuit Osaka.",
+    "when": "Les cerisiers (fin mars-début avril) sont magiques mais tarifés au pic. Les érables d’automne (mi-novembre) sont tout aussi beaux avec un peu moins de monde. Mai est sous-estimé — verdure fraîche, douceur, après le grand rush. Décembre est paisible et atmosphérique. Évitez la Golden Week (fin avril-début mai) et Obon (mi-août) sauf à réserver très en avance."
+  },
+  "localFood": "Kaiseki (la haute cuisine japonaise — cérémonie saisonnière en 10 services et plus), ramen dans un sous-sol de 8 places, obanzai kyotois (petits plats saisonniers de pickles, tofu et poissons grillés), takoyaki et okonomiyaki à Osaka, sukiyaki au bœuf wagyu chez un spécialiste de Ginza, matcha sous toutes ses formes à Uji près de Kyoto. Le Japon compte plus de restaurants étoilés que la France. Même un onigiri à 700 ¥ au konbini est transcendant.",
+  "language": "Japonais. L’anglais est parlé dans les zones touristiques ; le mode caméra de Google Translate est essentiel ailleurs.",
+  "seo": {
+    "title": "Lune de miel au Japon : 8 ryokan et hôtels urbains notés 2026",
+    "description": "8 adresses de Tokyo, Kyoto, Hakone classées. Aman, Hoshinoya, Park Hyatt. À partir de 500 $/nuit. Cerisiers mars-mai, érables oct.-nov."
+  }
+}

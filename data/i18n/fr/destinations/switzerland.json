@@ -1,0 +1,103 @@
+{
+  "tagline": "Matins face au Cervin, glamour de Saint-Moritz et les Grandes Dames de la lune de miel alpine.",
+  "intro": "La Suisse, c’est la destination qui rappelle pourquoi la lune de miel a été inventée. Les Grandes Dames — Badrutt’s Palace, Kulm, Gstaad Palace, Beau-Rivage — accueillent les jeunes mariés depuis la Belle Époque, et leurs rituels (afternoon tea avec vue sur le Mont-Blanc, table du chef dans une ferme tricentenaire, onsen privé sur une arête glaciaire) restent l’étalon-or du luxe européen. Ajoutez l’hiver (ski à Saint-Moritz le matin, spa sur le lac des Quatre-Cantons au coucher du soleil) ou l’été (randonnées au Cervin, paddle sur le Léman, prés fleuris de l’Engadine), et vous obtenez une destination où chaque journée est une carte postale. C’est du luxe vrai, discret, vieux de quatre siècles — celui que les Suisses ont inventé.",
+  "bestTime": "Déc-mars (ski) et juin-sept. (été alpin)",
+  "flightFrom": "1 h 30-2 h depuis les capitales européennes",
+  "topExperience": "Luxe alpin",
+  "perfectFor": [
+    "Les couples qui veulent du luxe patrimonial — les Grandes Dames vieilles de 150 ans dans leur meilleure forme",
+    "Skieurs et snowboardeurs — Saint-Moritz, Zermatt, Verbier et Andermatt sont de calibre mondial",
+    "Randonneurs estivaux — les Alpes de juin à septembre sont un terrain de jeu en plein air",
+    "Adeptes du bien-être — la culture spa suisse (Six Senses Gstaad, Alpine Spa Bürgenstock) est inégalée",
+    "Gourmets — la Suisse a le plus haut ratio d’étoiles Michelin par habitant au monde"
+  ],
+  "skipIf": [
+    "Votre budget est serré — il n’existe vraiment pas de Suisse bon marché pour une lune de miel 5★",
+    "Vous voulez du romantisme balnéaire au chaud — ce n’est pas cette destination",
+    "Vous détestez le froid — les températures hivernales peuvent atteindre –20 °C en Engadine",
+    "Votre style de voyage est chaotique et spontané — la Suisse récompense les planificateurs"
+  ],
+  "experiences": [
+    {
+      "title": "Glacier Express, Saint-Moritz à Zermatt",
+      "description": "Le train lent le plus spectaculaire du monde — 8 heures sur 291 ponts et à travers 91 tunnels, reliant les deux villages alpins les plus célèbres de Suisse. Réservez la classe Excellence (siège unique de chaque côté, champagne, déjeuner 5 services, concierge personnel).",
+      "cost": "Classe Excellence 590 $/personne ; première classe standard 160 $/personne",
+      "tip": "Voyagez en hiver, quand les montagnes sont enneigées et que les deux côtés du wagon sont cinématographiques. Réservez 3 mois à l’avance pour la classe Excellence."
+    },
+    {
+      "title": "Aube sur le Cervin depuis le Gornergrat",
+      "description": "Les 9 minutes du chemin de fer à crémaillère de Zermatt au Gornergrat (3 089 m) constituent l’un des trajets alpins les plus romantiques. Prenez le premier train (7 h 30 en hiver, 7 h en été) et regardez la première lumière toucher le Cervin tandis que la terrasse du sommet n’est qu’à vous.",
+      "cost": "Aller-retour 140 $/personne ; petit-déjeuner au Kulmhotel 3100 à 45 $/personne",
+      "tip": "Réservez la Matterhorn Suite au Kulmhotel 3100 pour une nuit — le seul hôtel d’altitude avec une chambre face au Cervin. Un lever de soleil qui change une vie."
+    },
+    {
+      "title": "Spa Six Senses à The Alpina Gstaad",
+      "description": "Un temple du bien-être de 2 000 m² — piscines intérieures et extérieures chauffées, salle de sel de l’Himalaya, hammam à pierres chauffées, salle de neige et chambre de cryothérapie. Le massage signature Alpina Thai dure 90 minutes face au Mont-Blanc.",
+      "cost": "Accès inclus pour les clients ; soins à partir de 300 $",
+      "tip": "Réservez le créneau de l’aube — le spa ouvre à 7 h et vous pouvez avoir la piscine à débordement à vous seuls en regardant le soleil toucher les montagnes de Lauenen."
+    },
+    {
+      "title": "Dîner fondue à la Chesa Veglia",
+      "description": "La ferme du XVIIe siècle du Badrutt’s Palace — le plus ancien restaurant alpin du monde — sert une fondue Moitié-Moitié (Gruyère + Vacherin fribourgeois) devant un feu de bois, accompagnée par un pianiste. C’est le repas le plus romantique des Alpes.",
+      "cost": "Menu fondue à partir de 160 $/personne avec accord vins suisses",
+      "tip": "Réservez la table en mezzanine au-dessus du feu pour la meilleure atmosphère ; évitez les samedis de pleine saison, quand l’endroit se remplit de la clientèle de la Cresta Run."
+    },
+    {
+      "title": "Patinage sur le lac de Saint-Moritz",
+      "description": "Le lac gelé de Saint-Moritz accueille la plus ancienne tradition de patinage en plein air de Suisse (depuis 1878), ainsi que les courses de chevaux du White Turf chaque février et un tournoi de cricket sur glace centenaire.",
+      "cost": "Patinage libre avec patins en location 15 $ ; billets White Turf 80-400 $",
+      "tip": "La glace est fiable de fin décembre à mi-février. Allez-y au crépuscule, quand les lumières du village s’allument — l’heure la plus photogénique."
+    }
+  ],
+  "months": [
+    { "weather": "–10 °C, neige abondante, soleil vif", "crowds": "Pic", "price": "Le plus élevé", "verdict": "Pic ski — réservez un an à l’avance" },
+    { "weather": "–8 °C, conditions de ski parfaites", "crowds": "Pic", "price": "Le plus élevé", "verdict": "Meilleur mois de ski, meilleure glace sur le lac de Saint-Moritz" },
+    { "weather": "–2 °C, journées plus longues, excellent ski", "crowds": "Élevée", "price": "Élevé", "verdict": "Ski de printemps — conditions les plus indulgentes" },
+    { "weather": "Le dégel commence, saison boueuse à basse altitude", "crowds": "Faible", "price": "Bas", "verdict": "Les hôtels ferment souvent à la mi-avril" },
+    { "weather": "15 °C dans les vallées, neige au-dessus de 2 500 m", "crowds": "Faible", "price": "Bas", "verdict": "Basse saison — calme et abordable" },
+    { "weather": "20 °C, pic des fleurs sauvages", "crowds": "Modérée", "price": "Moyen", "verdict": "Sous-estimé — collines vertes, peu de monde" },
+    { "weather": "25 °C, météo parfaite pour la randonnée", "crowds": "Élevée", "price": "Élevé", "verdict": "Pic estival — réservez à l’avance" },
+    { "weather": "Chaud et ensoleillé, quelques orages l’après-midi", "crowds": "Pic", "price": "Le plus élevé", "verdict": "Magnifique mais le mois d’été le plus fréquenté" },
+    { "weather": "18 °C vifs, mélèzes dorés en fin de mois", "crowds": "Modérée", "price": "Moyen-élevé", "verdict": "Le meilleur mois global — randonnée et valeur" },
+    { "weather": "10 °C frais, couleurs d’automne, premières neiges", "crowds": "Faible", "price": "Bas à moyen", "verdict": "Épaule calme — beaucoup d’hôtels ferment en fin de mois" },
+    { "weather": "0 °C, souvent grisâtre en vallée", "crowds": "Faible", "price": "Bas", "verdict": "À éviter — la plupart des hôtels alpins ferment" },
+    { "weather": "–5 °C, neige fraîche, marchés de Noël", "crowds": "Pic", "price": "Le plus élevé", "verdict": "Magique si la neige est au rendez-vous — surprix de Noël" }
+  ],
+  "budgetTiers": [
+    { "label": "4★ haut de gamme", "daily": "400-800 $/nuit", "includes": "Boutique-hôtel ou enseigne 4★ confortable dans un village de premier ordre. Bon service, luxe modéré." },
+    { "label": "Grande Dame 5★", "daily": "800-2 500 $/nuit", "includes": "Palace à tourelles centenaire — salles à manger Belle Époque, tables 2 étoiles Michelin, concierge ski." },
+    { "label": "Chalet et suite ultra-luxe", "daily": "1 500-5 000 $/nuit", "includes": "Luxe design contemporain, spa Six Senses, ski-butler privé, Rolls-Royce avec chauffeur entre piste et restaurant." }
+  ],
+  "areas": [
+    { "name": "Saint-Moritz / Engadine", "description": "Capitale hivernale de la jet-set depuis 1864. Abrite Badrutt’s Palace, Kulm et Suvretta House. Les courses du White Turf sur le lac gelé en février. À haute altitude (1 800 m), donc sec, ensoleillé et froid." },
+    { "name": "Zermatt", "description": "La silhouette alpine la plus iconique de Suisse. Village sans voitures (uniquement des taxis électriques). Le train du Gornergrat est incontournable. Logez au Mont Cervin Palace ou au Riffelalp Resort à 2 222 m." },
+    { "name": "Gstaad / Saanenland", "description": "Village favori des célébrités, préservé en style chalet de bois (aucun bâtiment moderne autorisé). Abrite le Gstaad Palace et The Alpina Gstaad. Ski l’hiver, randonnées en alpage l’été." },
+    { "name": "Lac des Quatre-Cantons / Bürgenstock", "description": "L’arête du Bürgenstock à 500 m offre la meilleure combinaison lac-Alpes de Suisse. La piscine à bord de verre de l’Alpine Spa est l’un des espaces wellness les plus photographiés d’Europe." },
+    { "name": "Lac Léman / Lausanne", "description": "Beau-Rivage Palace, vignobles en terrasses de Lavaux (UNESCO), musée Chaplin’s World. Logistique plus facile qu’à la montagne — 50 min de l’aéroport de Genève." }
+  ],
+  "expertTips": [
+    { "title": "Achetez un Swiss Travel Pass si vous bougez", "body": "Le Swiss Travel Pass (3 à 15 jours) couvre tous les trains, bus, bateaux, l’entrée des musées et des réductions en montagne. Pour 3 villages alpins ou plus, c’est nettement moins cher que des billets individuels. À acheter avant le départ." },
+    { "title": "Les réservations de dîner ne se négocient pas", "body": "Les meilleures tables suisses (Restaurant de l’Hôtel de Ville à Crissier, Schauenstein, Sommet à l’Alpina, Cheval Blanc au Baur) sont complètes 3 à 6 mois à l’avance. Réservez en même temps que l’hôtel." },
+    { "title": "Forfait ski — prenez le pass régional", "body": "À Saint-Moritz, le forfait Corviglia/Corvatsch/Diavolezza couvre 350 km de pistes pour 80 $/jour. Le Matterhorn Ski Paradise à Zermatt couvre 360 km et passe en Italie. Les forfaits mono-pente sont du gaspillage." },
+    { "title": "Villages sans voitures = arrivée en train", "body": "Zermatt, Saas-Fee et Wengen sont fermés aux voitures. Garez-vous à la porte de la vallée (Täsch pour Zermatt) et prenez le train-navette. Louer une voiture y est pire qu’inutile." },
+    { "title": "Novembre et fin avril sont fermés", "body": "La plupart des stations alpines ferment de début novembre à début décembre, et de nouveau de début avril à mi-juin. N’organisez pas une lune de miel en montagne suisse sur ces fenêtres — vous trouverez des villages vides." }
+  ],
+  "packing": [
+    { "item": "Bottes de neige imperméables de qualité", "why": "Les rues de Zermatt et de Saint-Moritz sont verglacées de décembre à mars. Les bottes mode glissent ; les paires style Sorel sont la norme." },
+    { "item": "Sous-vêtements thermiques", "why": "Les remontées à –15 °C exposent à un vrai froid éolien. Les couches mérinos sont une nécessité de lune de miel, pas un luxe." },
+    { "item": "Lunettes de soleil à protection UV alpine", "why": "La neige et la glace des glaciers réfléchissent les UV à un niveau aveuglant. Catégorie 3 minimum ; catégorie 4 pour le ski glaciaire." },
+    { "item": "Maillot de bain — oui, même en hiver", "why": "Tout grand hôtel suisse a une piscine intérieure/extérieure chaude. Vous l’utiliserez plus que vous ne le pensez." },
+    { "item": "Tenue de soirée chic", "why": "Les dîners en Grande Dame sont habillés. Veste pour Monsieur, robe pour Madame à la Chesa Veglia, au Sommet et chez Anne-Sophie Pic. Pas de tenue de sport après 18 h." }
+  ],
+  "guide": {
+    "getting": "Principaux aéroports : Zurich (ZRH) pour Saint-Moritz, Andermatt et les Alpes orientales ; Genève (GVA) pour Gstaad, Zermatt et les Alpes occidentales. Depuis Londres : 1 h 45 vers les deux. Depuis New York : 8 h en direct sur Swiss ou United. De l’aéroport au village en train : Zurich-Saint-Moritz en 3 h 15 (2 changements, sensation Glacier Express) ; Genève-Zermatt en 3 h 30 (changement à Viège). Le rail suisse est légendaire pour sa ponctualité et ses panoramas.",
+    "where": "Semaine classique : 3 nuits à Saint-Moritz (Badrutt’s Palace ou Kulm) → trajet Glacier Express → 3 nuits à Zermatt (Mont Cervin Palace, Riffelalp). Pour l’été : Lac des Quatre-Cantons (Bürgenstock) 3 nuits → Gstaad 3 nuits → 2 nuits optionnelles au Tessin (Ascona Castello del Sole) pour la chaleur. Pour un séjour plus court : 4 nuits à Gstaad + excursion d’une journée au Cervin.",
+    "when": "L’hiver (déc.-mars) est pour les couples mordus de ski — cher, en pic d’affluence, mais magique. L’été (juin-sept.) est pour les randonneurs et amoureux des lacs — un peu moins cher, journées plus longues, fleurs sauvages. Septembre est le meilleur mois global : air vif, couleurs d’automne, moins de monde, prix plus bas, la plupart des restaurants encore ouverts. Évitez novembre et mai — la plupart des hôtels alpins sont fermés pour la maintenance saisonnière."
+  },
+  "localFood": "Fondue Moitié-Moitié (Gruyère + Vacherin fribourgeois, servie à la Chesa Veglia avec accompagnement au piano) ; raclette (fromage raclé avec pommes de terre et oignons au vinaigre — le dîner informel) ; rösti (galette de pommes de terre suisse-allemande, la meilleure à la Kronenhalle Zurich) ; Älplermagronen (macaronis alpins à la crème, pommes de terre et compote de pommes en accompagnement) ; Bündner Gerstensuppe (soupe d’orge des Grisons) ; chocolat chez Sprüngli Zurich (les Luxemburgerli) et Teuscher (truffes au champagne). La Suisse compte plus d’étoiles Michelin par habitant que presque tout autre pays — 128 étoiles pour environ 9 millions d’habitants.",
+  "language": "Allemand (66 %), français (23 %), italien (8 %), romanche (0,5 %). L’anglais est universel en zone touristique.",
+  "seo": {
+    "title": "Lune de miel en Suisse : 9 grands hôtels alpins 2026",
+    "description": "9 adresses à Saint-Moritz, Zermatt, Lausanne notées. Badrutt’s, Mont Cervin, Beau-Rivage. À partir de 500 $/nuit. Déc.-mars ski, juin-sept. rando."
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "tagline": "La destination originelle du bungalow sur pilotis. Rien d’autre n’en approche.",
+  "intro": "Bora-Bora est la destination qui a inventé le bungalow sur pilotis en 1968 — et après plus de 50 ans, rien ne l’a surpassée. Le mont Otemanu s’élève à 727 m au-dessus du lagon le plus turquoise de la planète, ceinturé par une barrière de corail et un chapelet de motus de sable blanc où chaque resort de luxe rivalise pour vous offrir la lune de miel la plus cinématographique possible. C’est là où les couples viennent quand ils veulent que la photographie soit à la hauteur de l’émotion.",
+  "bestTime": "Mai-oct.",
+  "flightFrom": "16-20 h depuis l’Europe",
+  "topExperience": "Bungalows sur pilotis",
+  "perfectFor": [
+    "Le rêve du bungalow sur pilotis — Bora-Bora l’a inventé et le fait encore le mieux",
+    "Couples qui veulent snorkeling et activités nautiques de classe mondiale depuis le bungalow",
+    "Une lune de miel marquante, une fois dans une vie, avec un décor iconique",
+    "Couples obsédés par la photographie (le Mont Otemanu au lever du soleil change une vie)",
+    "Ceux qui veulent un cocon resort autosuffisant sans aucun compromis sur le luxe"
+  ],
+  "skipIf": [
+    "L’adults-only est une priorité — la plupart des resorts de Bora-Bora acceptent les familles",
+    "Votre budget est inférieur à 1 500 $/nuit — il n’existe véritablement pas de milieu de gamme ici",
+    "Vous voulez explorer la culture locale, les marchés et la vie polynésienne authentique",
+    "Vous avez besoin de vie nocturne ou de variété de restaurants hors resort",
+    "Un trajet de 20 heures dans chaque sens semble disproportionné pour un séjour de 5 nuits"
+  ],
+  "experiences": [
+    { "title": "Voile privée au coucher du soleil sur le lagon", "description": "Un catamaran privé avec champagne et amuse-bouches sillonnant le lagon tandis que le soleil descend derrière l’Otemanu. Les 2 heures les plus romantiques de Polynésie française.", "cost": "200-450 $ par couple", "tip": "Réservez via votre hôtel — les bateaux indépendants sont corrects mais le passage par l’hôtel est plus sûr pour une lune de miel." },
+    { "title": "Nager avec les requins et les raies", "description": "Snorkeling dans le Coral Garden avec requins à pointes noires et raies aigles dans moins d’un mètre d’eau. Totalement sûr, parfaitement surréaliste. Tours guidés quotidiens.", "cost": "80-150 $ par personne", "tip": "Allez-y tôt le matin (7-8 h) avant l’arrivée des bateaux. La clarté de l’eau est la meilleure avant 10 h." },
+    { "title": "Hélicoptère au-dessus du Mont Otemanu", "description": "20 minutes qui changeront votre regard sur l’île. La vue aérienne de la barrière de corail, des passes du lagon et du chapelet de motus est la photographie qui définit Bora-Bora.", "cost": "400-650 $ par couple", "tip": "Demandez un vol matinal (7-9 h) pour la meilleure lumière et une chaleur minimale. Demandez au pilote de tourner deux fois autour du sommet." },
+    { "title": "Pique-nique sur motu privé", "description": "Votre hôtel vous dépose sur un banc de sable désert avec un pique-nique gourmet, du matériel de snorkeling et personne d’autre. On vient vous rechercher 3 heures plus tard. L’une des meilleures demi-journées que vous passerez jamais.", "cost": "350-600 $ par couple", "tip": "Demandez ça pour le 3ᵉ ou 4ᵉ jour — après vous être installés. Le ressenti est différent une fois pleinement détendus." },
+    { "title": "Snorkeling au lever du soleil au Coral Garden", "description": "Le Coral Garden entre l’île principale et les motus des resorts est l’un des écosystèmes de récif les plus riches du Pacifique. Faites-le avant le petit-déjeuner pour l’expérience la plus immaculée.", "cost": "60-100 $ par personne (guidé) ou gratuit depuis la villa sur pilotis", "tip": "Les Anantara et Four Seasons ont le meilleur accès direct au récif. Au St Regis, prenez le bateau de l’hôtel." }
+  ],
+  "months": [
+    { "weather": "Chaud, humide, pluies occasionnelles", "crowds": "Faible", "price": "Bas", "verdict": "Bonne affaire, un peu de pluie" },
+    { "weather": "Chaud, mois le plus pluvieux", "crowds": "Faible", "price": "Minimum", "verdict": "Choix budget, attendez-vous à la pluie" },
+    { "weather": "Transition, en train de sécher", "crowds": "Faible", "price": "Bas", "verdict": "Intersaison sous-estimée" },
+    { "weather": "De plus en plus sec, magnifique", "crowds": "Faible", "price": "Bas-moyen", "verdict": "Le sweet spot s’ouvre ici" },
+    { "weather": "Début de la saison sèche, parfait", "crowds": "Modérée", "price": "Moyen", "verdict": "Excellent tous critères" },
+    { "weather": "Sec, venteux, idéal", "crowds": "Modérée", "price": "Moyen-élevé", "verdict": "L’un des meilleurs mois" },
+    { "weather": "Pic de saison sèche, irréprochable", "crowds": "Maximale", "price": "Élevé", "verdict": "Parfait mais fréquenté" },
+    { "weather": "Irréprochable, mois le plus animé", "crowds": "Maximale", "price": "Maximum", "verdict": "Magnifique, le plus cher" },
+    { "weather": "Encore sec, foule en baisse", "crowds": "Modérée", "price": "Moyen-élevé", "verdict": "Meilleur rapport qualité-prix de la saison sèche" },
+    { "weather": "Fin de saison sèche, parfait", "crowds": "Faible-modérée", "price": "Moyen", "verdict": "Mois trésor caché" },
+    { "weather": "Transition, pluie possible", "crowds": "Faible", "price": "Bas-moyen", "verdict": "Bonnes affaires, léger risque" },
+    { "weather": "Chaud, affluence des fêtes, risque de pluie", "crowds": "Élevée", "price": "Très élevé", "verdict": "Cher pour un mois pluvieux" }
+  ],
+  "budgetTiers": [
+    { "label": "Luxe accessible", "daily": "1 200-2 000 $/nuit", "includes": "Bungalow sur pilotis avec accès lagon, sans piscine privée. Plage et équipements partagés. Excellent pour les primo-visiteurs. InterContinental Le Moana, Le Bora Bora by Pearl Resorts." },
+    { "label": "Premium", "daily": "2 000-4 000 $/nuit", "includes": "Villa sur pilotis avec piscine à débordement privée, marches directes dans le lagon, majordome sur appel. L’expérience Bora-Bora définitive. Four Seasons, Conrad Bora Bora Nui, InterContinental Thalasso." },
+    { "label": "Ultra-luxe", "daily": "4 000+ $/nuit", "includes": "Les plus grandes villas sur pilotis, service de majordome complet, repas en villa de série, isolement total. Le meilleur du meilleur. St Regis Royal Estate Villa, Four Seasons Otemanu Villa." }
+  ],
+  "areas": [
+    { "name": "Motus côté est (lever de soleil)", "description": "Les motus de la barrière de corail à l’est du lagon font directement face à la montagne. La lumière du matin sur l’Otemanu depuis votre terrasse est l’image qui définit Bora-Bora. Le Four Seasons et la plupart des grands resorts sont ici." },
+    { "name": "Motus côté ouest (coucher de soleil)", "description": "L’InterContinental Thalasso Spa siège sur le motu nord-ouest avec vues sur le coucher du soleil. Vous voyez la montagne en silhouette au crépuscule. Vue Otemanu un peu moins spectaculaire mais des couchers de soleil extraordinaires." },
+    { "name": "Île principale (Vaitape)", "description": "L’île principale abrite la ville de Vaitape, un marché de produits frais, des perlières et une poignée de restaurants locaux. Pas d’hôtels resort ici — mais une demi-journée à vélo ou en 4×4 vaut le détour." },
+    { "name": "Matira Beach", "description": "La seule plage publique de sable blanc sur Bora-Bora même. L’InterContinental Le Moana est à côté. Idéal pour les couples qui veulent l’accès aux motus ET une plage piétonne. La seule zone à l’ambiance détendue, non-resort." }
+  ],
+  "expertTips": [
+    { "title": "Écrivez à l’hôtel 3 semaines avant l’arrivée", "body": "Demandez nommément une unité face au Mont Otemanu — pas seulement « meilleure vue ». Précisez orientation est. Les propriétés priorisent les jeunes mariés qui communiquent clairement plutôt que ceux qui demandent au check-in." },
+    { "title": "L’hydravion depuis Papeete coûte 500 $ de plus. Prenez-le.", "body": "Voler bas au-dessus du lagon et amerrir à côté de votre resort est l’une des grandes expériences d’arrivée du voyage. Le transfert en bateau est correct mais l’hydravion atterrit à une altitude émotionnelle totalement différente." },
+    { "title": "La crème solaire reef-safe n’est pas optionnelle", "body": "La Polynésie française a interdit les crèmes solaires à base d’oxybenzone pour protéger le corail. Emportez Badger, Raw Elements ou Stream2Sea avant de partir — les boutiques des resorts facturent 3× le prix des marques approuvées." },
+    { "title": "Réservez le tour requins et raies pour le jour 2, pas le jour 1", "body": "Le premier jour est pour récupérer du voyage et tomber amoureux de votre bungalow. Le jour 2 vous êtes prêts pour l’aventure. Les snorkeleurs du jour 1 manquent souvent le meilleur de l’expérience." },
+    { "title": "Demandez le petit-déjeuner sur pilotis, pas le room service", "body": "La différence entre manger à l’intérieur et manger sur votre terrasse avec le lagon à 60 cm en dessous est totale. Dites à l’hôtel à la réservation que vous voulez le petit-déjeuner sur pilotis chaque matin." }
+  ],
+  "packing": [
+    { "item": "Crème solaire minérale reef-safe", "why": "La crème chimique est interdite — vous serez verbalisés et le récif vous remerciera" },
+    { "item": "GoPro ou caméra sous-marine", "why": "L’appareil photo de votre téléphone ne survivra pas au lagon. Les requins méritent mieux de toute façon." },
+    { "item": "Rashguard (×2)", "why": "Journées complètes dans l’eau plusieurs jours d’affilée — le maillot classique brûle" },
+    { "item": "Pochette étanche pour téléphone", "why": "Pour le kayak, les transferts en bateau et les moments du bungalow à plancher en verre" },
+    { "item": "Une tenue de dîner smart-casual", "why": "Dress code de dîner du resort : pas de maillot de bain, mais pas non plus besoin de veste" },
+    { "item": "Sandales de récif ou chaussures d’eau", "why": "Les points d’entrée corail depuis les échelles du bungalow sont coupants sans protection" },
+    { "item": "Cash (USD) ou carte sans frais de change", "why": "Le franc CFP est la monnaie. L’USD est accepté partout. Évitez les frais ATM avec une carte Wise ou Revolut." },
+    { "item": "Anti-moustique léger", "why": "Soirées après le coucher du soleil, surtout près de la végétation sur l’île principale" }
+  ],
+  "guide": {
+    "getting": "Volez à Papeete (PPT) à Tahiti — direct depuis Los Angeles (8 h), Paris CDG (17 h), ou via Auckland. Puis un vol Air Tahiti à hélice de 45 min jusqu’à l’aéroport de Bora-Bora (BOB) sur un îlot motu. Votre resort organise un transfert en bateau ou en hydravion vers le lagon principal (offrez-vous l’hydravion — 500 $ de plus, chaque centime en vaut la peine).",
+    "where": "Tous les grands resorts sont sur des motus de la barrière de corail, faisant face au lagon et au Mont Otemanu. Côté est (Four Seasons, Conrad) offre les vues les plus spectaculaires d’Otemanu au lever du soleil. Côté ouest (InterContinental Thalasso) fait face au coucher du soleil. Le Taha’a est sur une île voisine — encore plus reculée, sans vue Otemanu, spectaculaire à sa manière.",
+    "when": "Mai-octobre est la saison sèche avec des alizés constants (24-29 °C). Juillet-août est le pic, fréquenté. Septembre-octobre offre une météo parfaite avec 30 % de clients en moins. Novembre-avril apporte plus de pluie mais des collines verdoyantes et des tarifs 25-40 % plus bas."
+  },
+  "localFood": "Le poisson cru au lait de coco est le plat national de la Polynésie française — extraordinaire de fraîcheur. Chevrettes (crevettes d’eau douce), fruit de l’arbre à pain, fafaru (poisson fermenté — goût qui s’acquiert), et exceptionnelles pâtisseries d’influence française. La table des resorts est de classe mondiale ; le restaurant Bloody Mary’s sur l’île principale est l’institution locale légendaire.",
+  "language": "Français et tahitien. Anglais parlé dans tous les resorts.",
+  "seo": {
+    "title": "Lune de miel à Bora-Bora : 15 villas sur pilotis 2026",
+    "description": "15 resorts à villas sur pilotis classés. Four Seasons, St Regis, Conrad. À partir de 900 $/nuit. Meilleures vues lagon, mai-oct."
+  }
+}

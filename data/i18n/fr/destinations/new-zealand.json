@@ -1,0 +1,79 @@
+{
+  "tagline": "La Terre du Milieu en vrai — fjords, lacs alpins et lodges qui redéfinissent le luxe au bout du monde",
+  "intro": "La Nouvelle-Zélande est la destination de lune de miel qui vous gâche toutes les autres. Deux îles longues et étroites au bout du monde concentrent plus de variété de paysages que des continents entiers : lacs glaciaires turquoise, fjords primordiaux profonds d’un kilomètre, Alpes du Sud poudrées de neige, plateaux dorés à tussock, plages subtropicales de la Bay of Islands, vallées géothermiques où la terre respire littéralement. Le pays a inventé le tourisme d’aventure (le saut à l’élastique est né à Queenstown) mais sa vraie magie tient désormais à ses petits lodges familiaux — Huka, Blanket Bay, Helena Bay, Kauri Cliffs — installés sur des domaines privés de milliers d’hectares et opérant à un niveau d’intimité et d’artisanat qui rivalise avec ce qui se fait de mieux. On y arrive décalé d’un vol de 13 heures et, en 48 heures, on est en pique-nique héliporté sur un glacier, en dégustation de pinot noir en Central Otago, devant une performance culturelle maorie à Rotorua, ou sur une portion de la Routeburn Track sans croiser un humain. Les distances paraissent modestes sur la carte, mais la Nouvelle-Zélande récompense la lenteur : louez une voiture, prenez la Highway 6 de Wanaka à Te Anau, et arrêtez-vous toutes les vingt minutes parce que le belvédère suivant est encore plus beau. Les couples viennent pour Le Seigneur des Anneaux (oui, Hobbiton à Matamata se visite) et restent pour la cuisine — agneau d’élevage à l’herbe, huîtres de Bluff, sauvignon blanc de Marlborough — et pour les gens, immanquablement chaleureux sans jamais en faire trop. Le vol est long. Il vaut chaque heure.",
+  "bestTime": "Fin février à avril — foules estivales parties, météo stable, couleurs d’automne",
+  "flightFrom": "NYC : 18-22 h via LAX ; LA : 13 h direct vers Auckland ; Londres : 24 h et plus via Singapour ou Dubaï",
+  "topExperience": "Croisière de nuit dans le Milford Sound — à bord d’un petit bateau dans le fjord",
+  "perfectFor": [
+    "Couples actifs qui veulent l’aventure (héli-randonnée, kayak, glaciers) couplée à un sérieux luxe en lodge",
+    "Obsédés du vin et de la table, prêts à boire le pinot noir d’Otago et le sauvignon de Marlborough à la source",
+    "Fans du Seigneur des Anneaux, photographes de paysages, quiconque a rêvé de se tenir dans une matte painting de Tolkien",
+    "Lunes de miel prêtes à un long-courrier pour un isolement réel — des lodges sans voisins à des kilomètres",
+    "Voyageurs qui veulent l’aisance d’un pays anglophone, une hospitalité de classe mondiale, zéro souci de sécurité"
+  ],
+  "skipIf": [
+    "Vous n’avez qu’une semaine — le vol dévore deux jours dans chaque sens, et le pays mérite au moins 12 nuits",
+    "Vous voulez vous prélasser sur des plages chaudes — même les étés du nord sont doux et l’eau de l’île du Sud est alpine",
+    "Vous détestez conduire — les lodges sont éparpillés et l’auto est de loin la meilleure formule",
+    "Vous attendez des tarifs cassés — les lodges de luxe vont de 1 500 à 3 500 $/nuit"
+  ],
+  "experiences": [
+    { "title": "Pique-nique héliporté sur un glacier reculé", "description": "Décollez de Queenstown ou Glenorchy, survolez les Alpes du Sud et posez-vous sur un glacier ou une prairie alpine cachée pour champagne et déjeuner préparé par le chef.", "cost": "1 200-2 500 $/couple", "tip": "Réservez via votre lodge — Blanket Bay et Matakauri travaillent avec des opérateurs privilégiés et peuvent rebooker instantanément si la météo bouge." },
+    { "title": "Croisière de nuit dans le Milford ou le Doubtful Sound", "description": "La journée à Milford signifie bus et foules ; la croisière de nuit (Real Journeys) vous donne le fjord au crépuscule et à l’aube, kayak parmi phoques et dauphins.", "cost": "600-900 $/couple", "tip": "Le Doubtful Sound est trois fois plus grand et bien moins visité que le Milford — choisissez-le pour la vraie solitude." },
+    { "title": "Tournée privée pinot noir en Central Otago", "description": "Bouclez la boucle depuis Queenstown via Gibbston Valley, Bannockburn et Felton Road. Felton Road et Rippon font des dégustations sur rendez-vous qui justifient à elles seules le voyage.", "cost": "300-500 $/couple + chauffeur", "tip": "Engagez un chauffeur — les routes sont sinueuses et les dégustations généreuses. Le concierge d’Eichardt’s s’en charge." },
+    { "title": "Section d’une journée sur la Routeburn ou la Kepler", "description": "Les Great Walks sont mondialement réputées, mais les meilleurs points de vue se rejoignent en une journée guidée. Hélicoptère à l’aller, marche au retour.", "cost": "500-1 000 $/couple guidé", "tip": "Ultimate Hikes propose une Routeburn héliportée d’une journée qui atteint le col alpin — demandez à Blanket Bay de coordonner." },
+    { "title": "Soirée culturelle maorie et dîner géothermique", "description": "Tamaki Maori Village et Mitai proposent un hangi (cuisson souterraine à la chaleur géothermique) avec une vraie performance culturelle.", "cost": "200-300 $/couple", "tip": "Couplez avec une matinée à Wai-O-Tapu — la Champagne Pool au lever du soleil est irréelle." }
+  ],
+  "months": [
+    { "weather": "21-26 °C, longues journées", "crowds": "Maximale — vacances d’été kiwies", "price": "Le plus élevé", "verdict": "À éviter sans réserver 9 mois à l’avance" },
+    { "weather": "21-25 °C, eaux les plus chaudes", "crowds": "Élevée première moitié", "price": "Élevé", "verdict": "Fin février est vraiment idéal" },
+    { "weather": "18-22 °C, stable, clair", "crowds": "Modérée", "price": "Élevé", "verdict": "Meilleur mois global — météo + espace" },
+    { "weather": "14-19 °C, pic de couleurs d’automne", "crowds": "Faible", "price": "Moyen", "verdict": "Spectaculaire en Central Otago — foncez" },
+    { "weather": "10-16 °C, frais, journées plus courtes", "crowds": "Très faible", "price": "Le plus bas", "verdict": "Tranquille et atmosphérique, offres sur les lodges" },
+    { "weather": "4-11 °C, début de saison de ski", "crowds": "Faible (hausse à Queenstown)", "price": "Moyen", "verdict": "Lune de miel héli-ski — niche mais spectaculaire" },
+    { "weather": "3-10 °C, pic de ski", "crowds": "Élevée dans les stations seulement", "price": "Élevé Queenstown", "verdict": "Seulement si vous skiez — sinon humide" },
+    { "weather": "4-11 °C, dernier mois de ski", "crowds": "Foules de ski modérées", "price": "Élevé Queenstown", "verdict": "Le combo ski + fjord fonctionne bien" },
+    { "weather": "9-14 °C, floraisons printanières", "crowds": "Faible", "price": "Moyen", "verdict": "Sous-estimé — agneaux partout, neige sur les sommets" },
+    { "weather": "11-17 °C, réchauffement", "crowds": "En hausse", "price": "Moyen", "verdict": "Choix solide, bon rapport qualité-prix" },
+    { "weather": "14-20 °C, retour des journées longues", "crowds": "Modérée", "price": "Élevé", "verdict": "Excellent — sweet spot pré-été" },
+    { "weather": "18-23 °C, l’été arrive", "crowds": "Maximale dès le 26", "price": "Le plus élevé", "verdict": "Trois premières semaines superbes, puis chaos" }
+  ],
+  "budgetTiers": [
+    { "label": "Raffiné", "daily": "700-1 200 $/nuit", "includes": "Chambres boutique au bord du lac, petit déjeuner inclus, emplacements en ville. Exemple : Eichardt’s Private Hotel à Queenstown — 12 suites sur le lac Wakatipu." },
+    { "label": "Niveau lodge", "daily": "1 500-2 500 $/nuit tout compris", "includes": "Pension complète avec vin, activités quotidiennes, domaine privé, 8-15 suites. Exemple : Matakauri Lodge ou Azur Lodge au-dessus de Queenstown, ou Huka Lodge sur la rivière Waikato." },
+    { "label": "Trophée", "daily": "3 000-5 500 $/nuit tout compris", "includes": "Cottage ou villa propriétaire, personnel dédié, hélicoptère inclus, golf et tir au pigeon sur le domaine. Exemple : Helena Bay Lodge dans le Northland ou Owner’s Cottage à Cape Kidnappers." }
+  ],
+  "areas": [
+    { "name": "Queenstown et lac Wakatipu", "description": "La capitale de l’aventure, avec des tables sérieuses et quatre lodges exceptionnels (Eichardt’s, Matakauri, Azur, plus Blanket Bay à proximité)." },
+    { "name": "Glenorchy et la vallée du Dart", "description": "À 45 minutes de Queenstown — la route est l’une des plus belles du monde, et Blanket Bay siège en tête du lac." },
+    { "name": "Lac Taupo et plateau central", "description": "Base nord qui combine le géothermique Rotorua et la pêche à la truite. Huka Lodge sur la Waikato est le lodge de luxe néo-zélandais originel — pêche, hélicoptères, 60 ans d’histoire." },
+    { "name": "Bay of Islands et Northland", "description": "Trois heures au nord d’Auckland — Helena Bay et Kauri Cliffs occupent d’immenses domaines côtiers avec golf en falaise." },
+    { "name": "Hawke’s Bay et Cape Kidnappers", "description": "Vignobles + golf links sur falaises spectaculaires. Napier Art déco, des dizaines de caves (Craggy Range, Te Mata) et The Farm at Cape Kidnappers, l’un des meilleurs parcours du monde." }
+  ],
+  "expertTips": [
+    { "title": "Atterrissez à Auckland, repartez de Queenstown (ou l’inverse)", "body": "Les billets open-jaw coûtent le même prix et économisent une journée de retour. Air New Zealand est excellente et les lignes intérieures fiables." },
+    { "title": "Prévoyez deux jours tampons pour Milford et toute activité héliportée", "body": "Le Fiordland reçoit plus de 7 mètres de pluie par an. Verrouillez la croisière du fjord tôt dans l’itinéraire pour pouvoir rebooker si la météo se ferme." },
+    { "title": "Conduisez vous-mêmes sur l’île du Sud, prenez un chauffeur sur l’île du Nord", "body": "Les routes de l’île du Sud sont calmes, bien entretenues et les trajets font le voyage. L’île du Nord est plus trafiquée, et les domaines viticoles méritent un chauffeur." },
+    { "title": "Réservez Hobbiton au coucher du soleil, pas à midi", "body": "L’Evening Banquet Tour de 17 h vous laisse arpenter la Comté pendant que les lanternes s’allument, et inclut un festin au Green Dragon — bien mieux que le défilé de la journée." },
+    { "title": "Pourboires légers, ou pas du tout", "body": "La Nouvelle-Zélande n’est pas une culture de pourboire. Le personnel des lodges est correctement payé. Une petite enveloppe au départ (50-100 NZ$) est appréciée mais jamais attendue." }
+  ],
+  "packing": [
+    { "item": "Des couches, des couches, des couches", "why": "Vous pouvez vivre les quatre saisons dans la même journée — t-shirt, polaire et coupe-vent durant la même randonnée" },
+    { "item": "Veste vraiment imperméable (pas hydrofuge)", "why": "Le Fiordland et la côte ouest reçoivent une pluie sérieuse ; une coque Gore-Tex fait la différence entre magie et misère" },
+    { "item": "Chaussures de randonnée ou trail rodées", "why": "Même les balades autour des lodges se font sur terrain irrégulier — vous voudrez de l’accroche et du maintien tous les jours" },
+    { "item": "Lunettes polarisées et crème solaire haute protection", "why": "Le trou dans la couche d’ozone est réel — les UV sont environ 40 % plus forts qu’aux latitudes équivalentes de l’hémisphère nord" },
+    { "item": "Adaptateur US/NZ (Type I)", "why": "La Nouvelle-Zélande utilise la même prise à trois broches inclinées que l’Australie — différente des US, du Royaume-Uni et de l’UE" },
+    { "item": "Tenue smart-casual pour les dîners", "why": "Pas de veste exigée, mais Huka, Blanket Bay et Helena Bay servent des dîners en table commune où l’on a envie de bien paraître" }
+  ],
+  "guide": {
+    "getting": "La plupart des voyageurs américains transitent par LAX ou SFO vers Auckland (AKL) sur Air New Zealand ou United — environ 13 h en direct depuis la côte ouest, 18-22 h depuis la côte est. Queenstown (ZQN) a des vols directs depuis Sydney, Melbourne, Brisbane et Auckland. Depuis le Royaume-Uni, vol via Singapour, Hong Kong ou Dubaï — 24 h et plus au total. NZeTA requis (en ligne, 23 NZ$). Louez une voiture pour l’île du Sud.",
+    "where": "Comptez 4-5 nuits autour de Queenstown (Eichardt’s en ville, Matakauri ou Azur pour les vues, Blanket Bay pour l’isolement de Glenorchy). Ajoutez 2-3 nuits à Huka Lodge sur le lac Taupo couplé à Rotorua. Terminez par 3 nuits dans la Bay of Islands (Helena Bay, Kauri Cliffs) ou Hawke’s Bay (Cape Kidnappers). Classique 12 nuits : 5 à Queenstown, 3 à Taupo/Rotorua, 4 dans la Bay of Islands.",
+    "when": "Février à avril, c’est le sweet spot — météo stable, couleurs d’automne, foules en baisse. Novembre est la meilleure fenêtre pré-été. Évitez fin décembre à mi-janvier (vacances scolaires kiwies + pic international, tarifs doublés, lodges complets un an à l’avance)."
+  },
+  "localFood": "La cuisine néo-zélandaise s’ancre dans des matières premières extraordinaires — agneau élevé à l’herbe, huîtres de Bluff (mars-août), moules à lèvres vertes, langouste et venaison élevée sur les hauts plateaux. Ne manquez pas un hangi (cuisson dans un four de terre, généralement lors d’une soirée maorie), une vraie pavlova et le miel de manuka sur tout. À arroser de pinot noir de Central Otago et de sauvignon blanc de Marlborough.",
+  "language": "Anglais / te reo māori",
+  "seo": {
+    "title": "Lune de Miel en Nouvelle-Zélande 2026 : 10 Lodges & Vignobles",
+    "description": "10 lodges de Queenstown, Bay of Islands, Wanaka classés. Huka, Helena Bay, Blanket Bay. À partir de 1 000 $/nuit. Nov-avr."
+  }
+}

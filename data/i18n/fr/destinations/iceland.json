@@ -1,0 +1,78 @@
+{
+  "tagline": "Aurore boréale depuis une suite posée sur un champ de lave, baignade dans un lagon géothermal à l’aube et le paysage de lune de miel le plus cinématographique de la planète.",
+  "intro": "L’Islande est la lune de miel qui semble empruntée à une autre planète. En une seule semaine, vous pouvez vous tremper dans un lagon géothermal privé taillé dans une lave de 800 ans, regarder l’aurore onduler en vert et violet depuis le lit d’une suite aux parois de verre, chevaucher un cheval islandais à travers des champs de lupins violets sous le soleil de minuit, et vous tenir seuls au bord d’une cascade qu’aucun car de tourisme n’atteint. La scène du luxe a mûri rapidement — The Retreat at Blue Lagoon, Deplar Farm, Torfhús, Hotel Rangá — et offre désormais l’understatement scandinave à des niveaux mondiaux. La table de Moss, Óx et Dill atteint véritablement le niveau Michelin. L’Islande est cette rare destination aussi spectaculaire en janvier (aurores, champs de lave enneigés) qu’en juillet (soleil de minuit, randonnée, macareux). Réservez l’une ou l’autre.",
+  "bestTime": "Juin-août (soleil de minuit) + oct.-mars (aurores)",
+  "flightFrom": "3 h depuis Londres, 6 h depuis NYC",
+  "topExperience": "Aurores boréales et bains géothermaux",
+  "perfectFor": [
+    "Couples qui rêvent d’aurore boréale depuis leur propre lit",
+    "Lunes de miel qui veulent l’aventure (grottes de glace, glaciers, chevaux) et l’ultra-luxe spa en un seul voyage",
+    "Voyageurs design — l’architecture islandaise est extraordinaire",
+    "Couples en quête d’aventure court-courrier (depuis l’Europe) ou moyen-courrier (depuis la côte Est américaine)",
+    "Photographes — toutes les 20 minutes de route révèlent un nouveau paysage à photographier"
+  ],
+  "skipIf": [
+    "Vous avez besoin d’une plage chaude garantie — la moyenne estivale est de 13 °C",
+    "Vous voyagez avec un budget serré — l’Islande est parmi les destinations les plus chères du monde",
+    "Vous voulez une vie nocturne animée et une grande effervescence urbaine",
+    "Vous êtes sensible à la dépression saisonnière et voyagez en janvier — il n’y a que 4-5 h de jour"
+  ],
+  "experiences": [
+    { "title": "Rituel privé au lagon du Retreat", "description": "Le lagon privé réservé aux clients du Retreat at Blue Lagoon est le bain géothermal le plus calme et le plus romantique d’Islande. Flotter en apesanteur dans une eau minérale à 38 °C, masque à la silice, coupe de champagne à la main, sous un ciel violet contusion — c’est l’un des grands moments spa du voyage.", "cost": "Suite Retreat à partir de 1 400 $/nuit avec accès complet ; spa Retreat à la journée 200 $/pers.", "tip": "Restez la nuit. Le Retreat en visite à la journée est ravissant, mais le lagon réservé aux clients à 22 h, une fois tout le monde parti, c’est une expérience complètement différente." },
+    { "title": "Aurores boréales depuis le lit", "description": "Le Hotel Rangá emploie son propre astronome et propose un service de réveil aurore 24 h/24 ; l’emplacement isolé du Deplar Farm sur la péninsule du Troll signifie moins de pollution lumineuse que presque partout ailleurs en Islande. D’octobre à mars, la probabilité est élevée si vous restez 3 nuits ou plus et restez flexibles sur les horaires.", "cost": "Service de réveil au Rangá offert ; chasse privée aux aurores depuis le Rangá 350-500 $/couple", "tip": "Trois nuits minimum — la météo islandaise est capricieuse et il faut multiplier les chances. Vérifiez quotidiennement l’app de prévision Vedur." },
+    { "title": "Randonnée équestre à cheval islandais au Torfhús", "description": "Le Torfhús Retreat héberge une écurie de 32 chevaux islandais — une petite race ancienne, propre à l’île, dotée d’une cinquième allure (le tölt) qui rend le canter incroyablement doux. Une randonnée de 2 h à travers les champs de lave et rivières du Cercle d’Or avec l’un des dresseurs du Torfhús est l’expérience islandaise estivale par excellence.", "cost": "Tarif client hôtel ~250 $/couple", "tip": "Même si vous n’avez jamais monté — les chevaux islandais sont petits, doux et sûrs. Demandez un cours de tölt." },
+    { "title": "Grotte de glace à Vatnajökull", "description": "Chaque année d’octobre à mars, le Vatnajökull (le plus grand glacier d’Europe) creuse en lui-même de nouvelles grottes de glace cristalline d’un bleu électrique. Une visite guidée de 2 h via Jökulsárlón est le quart d’heure le plus photogénique d’Islande.", "cost": "250-400 $/pers. en petit groupe guidé", "tip": "Réservez uniquement chez Local Guide ou Guide to Iceland — les gros opérateurs en bus n’accèdent pas aux meilleures grottes. Portez de vrais crampons (fournis) et apportez une batterie supplémentaire pour le froid." },
+    { "title": "Dîner au restaurant Moss", "description": "Plaque Michelin, taillé dans le champ de lave du Blue Lagoon, Moss est la table emblématique de la haute cuisine islandaise. Un menu en 7 services — langoustine, omble chevalier, agneau de la ferme familiale du chef, chocolat aux pousses de mousse — qui reflète le paysage par la fenêtre.", "cost": "Menu 7 services 220 $/pers. ; accord mets-vins 120 $", "tip": "Réservez le service de 18 h pour la dernière lumière sur la lave. Demandez une table près de la baie ; la vue sur le lagon au crépuscule est extraordinaire." }
+  ],
+  "months": [
+    { "weather": "Froid -5 °C à 2 °C, 4-5 h de jour", "crowds": "Faible", "price": "Moyen", "verdict": "Meilleure probabilité d’aurores, grottes de glace ouvertes" },
+    { "weather": "Semblable à janvier, jour qui s’allonge", "crowds": "Faible", "price": "Moyen", "verdict": "Le bon créneau — aurores + journées plus exploitables" },
+    { "weather": "-2 °C à 4 °C, ~11 h de jour", "crowds": "Faible", "price": "Moyen", "verdict": "Dernier mois d’aurores ; grottes de glace ferment fin mars" },
+    { "weather": "2-6 °C, le paysage dégèle", "crowds": "Faible", "price": "Bas", "verdict": "Intersaison ingrate — pas d’aurore, pas de soleil de minuit" },
+    { "weather": "6-10 °C, paysages verdissants", "crowds": "Modérée", "price": "Moyen", "verdict": "Excellent rapport, agneaux nés, routes qui rouvrent" },
+    { "weather": "9-13 °C, début du soleil de minuit", "crowds": "Élevée", "price": "Élevé", "verdict": "Meilleur mois d’été — journées longues, fleurs sauvages" },
+    { "weather": "10-14 °C, pic du soleil de minuit", "crowds": "Sommet", "price": "Maximal", "verdict": "Parfait mais cher et chargé" },
+    { "weather": "9-13 °C", "crowds": "Sommet", "price": "Maximal", "verdict": "Dernier mois d’été — macareux qui partent fin août" },
+    { "weather": "6-10 °C, couleurs d’automne", "crowds": "Modérée", "price": "Moyen", "verdict": "Retour des aurores — intersaison magique" },
+    { "weather": "2-8 °C, première neige possible", "crowds": "Modérée", "price": "Moyen", "verdict": "Excellent — aurores et accessibilité" },
+    { "weather": "-2 °C à 4 °C", "crowds": "Faible", "price": "Moyen", "verdict": "Mois fort en aurores, grottes de glace ouvertes" },
+    { "weather": "-4 °C à 2 °C, marchés de Noël", "crowds": "Élevée", "price": "Élevé", "verdict": "Festif et riche en aurores, mais journées courtes" }
+  ],
+  "budgetTiers": [
+    { "label": "Luxe intermédiaire", "daily": "400-800 $/nuit", "includes": "Hôtel boutique design à Reykjavík ou 4★ orienté aurores au sud. Petit-déjeuner complet ; spa limité." },
+    { "label": "Premium", "daily": "800-2 000 $/nuit", "includes": "Suite iconique près du Blue Lagoon avec accès au lagon privé, ou retraite en chalet de tourbe avec bain extérieur." },
+    { "label": "Ultra-luxe", "daily": "1 500-6 000 $/nuit", "includes": "Suite sur champ de lave au Retreat, ou ranch Eleven Experience pour héliski en pension complète." }
+  ],
+  "areas": [
+    { "name": "Reykjavík", "description": "Capitale islandaise au format poche et au charme certain (environ 130 000 habitants). Centre piétonnier sur le port, excellents restaurants (Dill, Óx, Sumac). 1 à 2 nuits suffisent." },
+    { "name": "Blue Lagoon / Reykjanes", "description": "La zone spa du champ de lave, à 20 min de l’aéroport de Keflavík. The Retreat et Silica sont les deux adresses de luxe ; le Blue Lagoon en lui-même se visite en ~90 min." },
+    { "name": "Cercle d’Or / côte sud", "description": "La boucle classique des premières visites, 3 h de route. Parc national de Þingvellir, Geysir, cascade de Gullfoss, Seljalandsfoss, plage noire de Reynisfjara. Torfhús et ION en bases de luxe." },
+    { "name": "Péninsule de Snæfellsnes", "description": "À l’ouest de Reykjavík, 2 h de route. Le Hotel Búðir près de l’iconique église noire, la « pyramide » de Kirkjufell, tunnels de lave. 1 à 2 nuits." },
+    { "name": "Nord de l’Islande / Tröllaskagi", "description": "À 1 h de vol + route depuis Reykjavík. Deplar Farm dans la vallée de Fljót y représente le luxe isolé — extrêmement privé, centré sur l’activité. 4 nuits et plus." }
+  ],
+  "expertTips": [
+    { "title": "Restez 3 nuits minimum pour avoir des aurores", "body": "Les aurores boréales sont une affaire de météo. Une seule nuit peut être nuageuse ou à KP faible. Trois nuits (l’hiver uniquement) sont le minimum pour une chance réaliste ; cinq nuits sont plus sûres. L’équipe d’astronomes du Hotel Rangá appelle votre chambre dès qu’une aurore visible se déclenche." },
+    { "title": "Louez un 4x4 en hiver — pas une voiture classique", "body": "La météo islandaise change en quelques minutes. En hiver (oct.-avr.), un 4x4 avec pneus cloutés est non négociable pour rouler hors de la péninsule de Reykjanes. Budget 200-350 $/jour ; réservez bien à l’avance." },
+    { "title": "Le lagon privé du Retreat est le coup gagnant", "body": "Le Blue Lagoon public est ravissant, mais bondé. Les clients en suite au Retreat ont accès à un lagon privé riche en minéraux, avec beaucoup moins de monde. Une seule nuit en suite Retreat vaut mieux que trois jours de visites au lagon public." },
+    { "title": "Les tables de Reykjavík se réservent 8 à 12 semaines à l’avance", "body": "Dill, Óx, Moss, Sumac — les meilleures adresses se remplissent vite, surtout de décembre à mars. Réservez avant de partir. Une réservation dimanche au Dill est plus dure à décrocher qu’un 3★ Michelin londonien." },
+    { "title": "L’alcool est cher et le duty-free économise vraiment", "body": "La taxe islandaise sur l’alcool est punitive (20 $ pour un verre de vin de maison). Faites le plein au duty-free de Keflavík à l’arrivée — la franchise est généreuse et les hôtels ne facturent généralement pas le droit de bouchon en chambre." }
+  ],
+  "packing": [
+    { "item": "Bottes de randonnée imperméables", "why": "Non négociables. L’Islande est humide sous les pieds toute l’année. Seljalandsfoss, Reynisfjara et même les allées du Blue Lagoon exigent de l’adhérence." },
+    { "item": "Sous-couches en mérinos", "why": "Les écarts de température sont spectaculaires. Le mérinos régule de 0 °C à 20 °C dans les restaurants chauffés. Apportez deux jeux — un épais, un intermédiaire." },
+    { "item": "Veste imperméable hardshell", "why": "La météo islandaise est faite de pluie poussée par le vent. Une veste Gore-Tex est plus importante qu’une grosse doudoune." },
+    { "item": "Maillot de bain et serviette microfibre", "why": "Vous vous baignerez chaque jour — les bassins géothermaux sont partout, du Blue Lagoon aux petits bains de village. La plupart des hôtels fournissent des serviettes ; une microfibre est utile pour les excursions à la journée." },
+    { "item": "Masque de sommeil (pour l’été)", "why": "Le soleil de minuit de juin à août maintient le ciel clair à 1 h du matin. Un masque fait la différence entre dormir et souffrir dans la plupart des chambres." }
+  ],
+  "guide": {
+    "getting": "Vol vers Keflavík International (KEF) — à 45 min de Reykjavík. Icelandair (3 h depuis Londres, 5-6 h depuis NYC/Boston), Play, British Airways, easyJet et United desservent KEF. L’aéroport est à 20 min du Blue Lagoon — de nombreux jeunes mariés atterrissent, vont au spa et dorment au Retreat avant même de rejoindre Reykjavík. Un comptoir de location de voitures à KEF est la norme ; la navette Flybus coûte 40 $ pour Reykjavík à défaut de location.",
+    "where": "Itinéraire classique de 7 nuits : 1 nuit dans la zone Keflavík (The Retreat) → 2 nuits à Reykjavík (Edition) → 3 nuits côte sud/Cercle d’Or (Torfhús + Rangá) → 1 nuit avant le départ au Blue Lagoon (Silica). Version hiver-aurores : 4 nuits Rangá/Torfhús + 2 nuits Blue Lagoon. Version aventure été : 4 nuits Deplar Farm + 2 nuits Retreat.",
+    "when": "Deux lunes de miel très différentes, toutes deux spectaculaires. Juin-août offre 24 h de lumière, fleurs sauvages, macareux, hauts plateaux accessibles et les températures les plus douces (9-14 °C). Octobre-mars apporte les aurores, les grottes de glace, la lave saupoudrée de neige et des tarifs nettement plus bas en semaine — mais 4 à 7 h de jour et une météo qui peut fermer les routes. Avril-mai et septembre sont des intersaisons — moins spectaculaires mais véritablement avantageuses."
+  },
+  "localFood": "Langoustine (humar, le homard islandais — plus sucrée que l’atlantique) ; omble chevalier (sauvage, souvent servi avec une rhubarbe au vinaigre) ; agneau (libre, pâturant herbes sauvages, sans doute le meilleur d’Europe) ; skyr (laitage épais façon yaourt pour le petit-déjeuner) ; rúgbrauð (pain noir traditionnel cuit à la vapeur géothermale) ; requin fermenté (hákarl — fameux pari islandais, pas pour la lune de miel) ; Brennivín (schnaps au cumin) ; chocolat Omnom de Reykjavík ; bières artisanales Borg, Einstök et Kaldi. La scène fine dining de Reykjavík — Dill, Óx, Moss, Sumac, Matur og Drykkur — est véritablement de classe mondiale.",
+  "language": "L’islandais est officiel ; l’anglais est universel à l’hôtel, au restaurant et chez les guides.",
+  "seo": {
+    "title": "Lune de miel en Islande : 8 hôtels aurores et lagons notés",
+    "description": "8 hôtels de Reykjavík, côte sud et Highlands classés. Deplar Farm, The Retreat at Blue Lagoon. À partir de 400 $/nuit. Aurores sept.-mars."
+  }
+}
