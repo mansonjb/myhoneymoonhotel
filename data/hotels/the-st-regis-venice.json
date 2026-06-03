@@ -1,0 +1,66 @@
+{
+  "slug": "the-st-regis-venice",
+  "name": "The St. Regis Venice",
+  "destination": "venice",
+  "country": "italy",
+  "seo": {
+    "title": "The St. Regis Venice: Grand Canal Butler Honeymoon Review",
+    "description": "5 historic palazzi on the Grand Canal with butler service. Score 81/100, from $1,100/night. Verdict, suite pick, 7-night itinerary."
+  },
+  "experience_types": ["luxury", "city", "historic"],
+  "honeymoon_score": 81,
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 16,
+    "spa": 10,
+    "award": 11,
+    "pool": 0,
+    "beach": 0,
+    "room_service": 10,
+    "stars": 15,
+    "luxury": 12
+  },
+  "stars": 5,
+  "price_per_night_usd": { "min": 1100, "max": 7000 },
+  "adults_only": false,
+  "amenities": ["historic-palazzo", "grand-canal-frontage", "butler-service", "fine-dining", "private-water-gate", "concierge", "spa-treatments", "terrace-dining", "library", "luxury-collection"],
+  "photos": [
+    { "url": "/images/hotels/the-st-regis-venice/hero.webp", "alt": "the-st-regis-venice — hero", "type": "hero" },
+    { "url": "/images/hotels/the-st-regis-venice/room.webp", "alt": "the-st-regis-venice — room", "type": "room" },
+    { "url": "/images/hotels/the-st-regis-venice/terrace.webp", "alt": "the-st-regis-venice — terrace", "type": "exterior" },
+    { "url": "/images/hotels/the-st-regis-venice/spa.webp", "alt": "the-st-regis-venice — spa", "type": "spa" },
+    { "url": "/images/hotels/the-st-regis-venice/dining.webp", "alt": "the-st-regis-venice — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 4.6,
+  "tripadvisor_award": true,
+  "couples_review_pct": 72,
+  "content": {
+    "verdict": "The St. Regis Venice is the most thoroughly modernised of the great Grand Canal palace hotels — a 169-room property occupying five connected historic palazzi (including the 17th-century Palazzo Pisani-Gritti and Casa San Maurizio) on the same Santa Maria del Giglio bend of the Grand Canal as the Gritti, immediately next door. The hotel reopened in 2019 after a complete two-year, $300-million restoration that essentially rebuilt the interiors from the ground up under Italian architect Pierre-Yves Rochon — the result is contemporary Venetian rather than historicist, with terrazzo floors, modern Murano glasswork commissioned for the property, original 18th-century palazzo ceilings preserved overhead, and a coherent design language that feels closer to a great Milanese hotel than to the maximalist Gritti or the museum-grade Aman. The defining feature is butler service — the St. Regis brand’s signature; each room gets a 24-hour Butler on call (unpacking, packing, drawing baths, last-minute restaurant bookings) that fundamentally changes the rhythm of a Venetian honeymoon. The Gio’s rooftop terrace and the Arts Bar inside (with its commissioned Vik Muniz portrait of Salvador Dalí at the bar) are the hotel’s social anchors. The food operation is solid (Gio’s, the rooftop, with a panoramic view of Salute, Punta della Dogana and the lagoon) but not Michelin-aspirational — use the hotel’s sister-property restaurants in the city for the great Venetian meals. The honeymoon move is a Grand Canal Deluxe Suite with private terrace, or the spectacular St. Regis Suite with its Salute-facing wraparound balcony. The defining moment: butler-arranged candlelit dinner on your private Grand Canal terrace at sunset. Caveats: 169 rooms means scale rather than intimacy — the Aman, Gritti and Ca’Sagredo all feel more personal; the contemporary interiors are not for guests who want overt Venetian baroque; and the Luxury Collection corporate operation comes through in small ways. But for honeymooners who want the only butler service on the Grand Canal and the most polished modern interiors of the great palace hotels, the St. Regis is the clear choice.",
+    "best_room": "A Grand Canal Deluxe Suite with private terrace (on the Grand Canal directly, upper floors). For the absolute pinnacle, the St. Regis Suite with the Salute-facing wraparound balcony. Avoid the interior-courtyard Junior Suites — lovely interiors but no canal view, which is the entire point of staying at this address.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Grand Canal arrival", "description": "Private water taxi from VCE direct to the St. Regis water-gate. Butler welcome with champagne in your suite. Aperitivo at the Arts Bar. Dinner at Gio’s on the rooftop terrace." },
+      { "day": 2, "title": "San Marco and the Doge’s Palace", "description": "Eight-minute walk to San Marco. Private morning Doge’s Palace and Basilica. Butler-arranged lunch at Quadri. Afternoon at the Peggy Guggenheim. Dinner at Vini da Gigio." },
+      { "day": 3, "title": "Gondola at dawn", "description": "Butler-arranged 7am private gondola from the St. Regis water-gate. Late breakfast on the terrace. Cicchetti crawl in Cannaregio in the evening." },
+      { "day": 4, "title": "Lagoon day", "description": "Butler-arranged private bragozzo to Torcello and Burano. Lunch at Locanda Cipriani. Return for spa and a candlelit dinner on your private terrace (butler-arranged)." },
+      { "day": 5, "title": "Dorsoduro and contemporary art", "description": "Punta della Dogana, Accademia, and Squero di San Trovaso (the gondola workshop). Lunch at Riviera. Dinner at Osteria alle Testiere." },
+      { "day": 6, "title": "Murano and the glass", "description": "Berengo Studio glass demonstration. Lunch at Venissa (1 Michelin star) on Mazzorbo. Afternoon at the Punta della Dogana. Final dinner at Gio’s rooftop." },
+      { "day": 7, "title": "Slow departure", "description": "Butler-packed luggage. Final breakfast on the terrace. Private water taxi from the St. Regis water-gate back to Marco Polo." }
+    ],
+    "caveats": [
+      "169 rooms means scale and slight corporate feel — the Aman and Ca’Sagredo are far more intimate.",
+      "Contemporary interiors are coherent and beautiful but lack the historic Venetian baroque of the Gritti.",
+      "Gio’s rooftop is excellent but not Michelin-aspirational — use city restaurants for great meals."
+    ],
+    "faqs": [
+      { "question": "Good for honeymooners?", "answer": "Excellent for couples who want butler service, modern polished interiors, and a Grand Canal address. Less atmospheric than the Aman or Gritti but more comfortable." },
+      { "question": "Best time to visit?", "answer": "May, June, September and October. Open year-round including Carnevale. Avoid July–August." },
+      { "question": "Book in advance?", "answer": "Grand Canal Deluxe Suites and St. Regis Suite 6–9 months for May–September. Standard rooms 4 months. Butler service requires 48 hours advance notice for major requests." },
+      { "question": "Adults-only?", "answer": "No — the St. Regis brand globally is family-friendly. Expect some families in summer school holidays." },
+      { "question": "Best room type?", "answer": "Grand Canal Deluxe Suite with private terrace. St. Regis Suite for the pinnacle. Avoid interior-courtyard rooms." },
+      { "question": "How to get there?", "answer": "Marco Polo (VCE). Private water taxi 25 min direct to the St. Regis water-gate — butler will meet you." }
+    ],
+    "email_template": "Subject: Honeymoon inquiry — The St. Regis Venice\n\nDear St. Regis Venice reservations,\n\nWe would like to book 5 to 7 nights for our honeymoon [DATES] in a Grand Canal Deluxe Suite with private terrace if available, or the St. Regis Suite.\n\nQuestions:\n1. Honeymoon butler turndown (champagne, in-suite flowers)?\n2. Confirmed dinner reservations at Gio’s rooftop?\n3. Private water taxi from Marco Polo to the water-gate?\n4. Butler-arranged candlelit dinner on our private terrace?\n5. Private gondola at dawn from the water-gate?\n\nThank you,\n[Your names]"
+  },
+  "booking_urls": {},
+  "last_updated": "2026-06-03T00:00:00.000Z"
+}

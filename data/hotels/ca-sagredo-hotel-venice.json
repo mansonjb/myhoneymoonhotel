@@ -1,0 +1,66 @@
+{
+  "slug": "ca-sagredo-hotel-venice",
+  "name": "Ca'Sagredo Hotel",
+  "destination": "venice",
+  "country": "italy",
+  "seo": {
+    "title": "Ca'Sagredo Hotel: Grand Canal Boutique Honeymoon (2026)",
+    "description": "15th-century palazzo museum-hotel on the Grand Canal. Score 76/100, from $550/night. Verdict, suite pick, 7-night itinerary."
+  },
+  "experience_types": ["boutique", "city", "historic"],
+  "honeymoon_score": 76,
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 14,
+    "spa": 6,
+    "award": 10,
+    "pool": 0,
+    "beach": 0,
+    "room_service": 9,
+    "stars": 14,
+    "luxury": 11
+  },
+  "stars": 5,
+  "price_per_night_usd": { "min": 550, "max": 3500 },
+  "adults_only": false,
+  "amenities": ["historic-palazzo", "grand-canal-frontage", "fine-dining", "private-water-gate", "concierge", "library", "art-collection", "terrace-dining", "national-monument", "boutique"],
+  "photos": [
+    { "url": "/images/hotels/ca-sagredo-hotel-venice/hero.webp", "alt": "ca-sagredo-hotel-venice — hero", "type": "hero" },
+    { "url": "/images/hotels/ca-sagredo-hotel-venice/room.webp", "alt": "ca-sagredo-hotel-venice — room", "type": "room" },
+    { "url": "/images/hotels/ca-sagredo-hotel-venice/lobby.webp", "alt": "ca-sagredo-hotel-venice — lobby", "type": "exterior" },
+    { "url": "/images/hotels/ca-sagredo-hotel-venice/terrace.webp", "alt": "ca-sagredo-hotel-venice — terrace", "type": "exterior" },
+    { "url": "/images/hotels/ca-sagredo-hotel-venice/dining.webp", "alt": "ca-sagredo-hotel-venice — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 4.5,
+  "tripadvisor_award": true,
+  "couples_review_pct": 71,
+  "content": {
+    "verdict": "Ca’Sagredo is the hidden discovery of Grand Canal hotels — a 15th-century Gothic-Byzantine palazzo on the Cannaregio side directly opposite the Rialto fish market, that was the residence of the patrician Sagredo family for four centuries (one of whom was Doge in 1675) and is officially recognised by the Italian state as a national monument. Forty-two rooms and suites only — substantially more intimate than the Danieli or Gritti — and the public rooms are not merely beautiful but genuinely museological: a Sebastiano Ricci staircase fresco (one of the most important works of 18th-century Venetian decorative painting), a Niccolò Bambini ballroom ceiling, original Murano chandeliers documented to the 18th century, and a Pietro Longhi portrait gallery. You sleep in a museum. The Grand Canal facade has a long colonnaded terrace where breakfast and aperitivi are served directly over the water, with the Rialto market 200m to the right and the Ca d’Oro 100m to the left. The L’Alcova restaurant on the Grand Canal terrace is the dining centerpiece — not Michelin-starred but with excellent Venetian classics (linguine alle vongole, fritto misto) at considerably more accessible prices than the great palace hotels. The price point is the genuine selling point: a Grand Canal-facing Junior Suite at Ca’Sagredo is roughly half the price of the equivalent room at the Gritti, and three times less than the Aman, while delivering 80% of the experience. The honeymoon move is a Grand Canal Deluxe Junior Suite with a view directly onto the canal. The defining moment: breakfast on the colonnaded terrace at 9am with the gondolas crossing in front of you and the Rialto fish market in full swing 200m away. Caveats: no swimming pool, no spa, no rooftop bar; service operates at four-star polish rather than five-star choreography; and the immediate area outside (Campo Santa Sofia) is more local-residential than glamorous. But for honeymooners who want a genuinely historic Grand Canal palazzo at half the price of the famous palace hotels, Ca’Sagredo is the secret.",
+    "best_room": "The Grand Canal Deluxe Junior Suite (third floor, with a window directly onto the Grand Canal and a view to the Rialto). The Doge Suite is the absolute pinnacle if budget allows. Avoid the courtyard-facing standard rooms — they’re still lovely, but the Grand Canal view is the entire reason to stay here.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Cannaregio arrival", "description": "Private water taxi from VCE direct to the Ca’Sagredo water-gate. Welcome Prosecco. Aperitivo and dinner on the colonnaded Grand Canal terrace." },
+      { "day": 2, "title": "Rialto market and San Marco", "description": "8am walk to the Rialto fish market (2 minutes away). Coffee at All’Arco. Vaporetto or walk to San Marco. Private morning Doge’s Palace and Basilica. Lunch at Quadri." },
+      { "day": 3, "title": "Cannaregio cicchetti day", "description": "Walking exploration of Cannaregio — the Ghetto, the long fondamentas, the Madonna dell’Orto church. Cicchetti lunch at La Vedova. Dinner at Vini da Gigio (3 minutes’ walk)." },
+      { "day": 4, "title": "Dorsoduro art day", "description": "Vaporetto to Salute. Peggy Guggenheim, Accademia, Punta della Dogana. Lunch at Riviera. Dinner at Osteria alle Testiere in Castello." },
+      { "day": 5, "title": "Lagoon day", "description": "Private bragozzo to Torcello and Burano. Lunch at Locanda Cipriani. Return for an early dinner at L’Alcova on the terrace." },
+      { "day": 6, "title": "Gondola at dawn", "description": "7am private gondola from the Ca’Sagredo water-gate through the small canals of Cannaregio. Late breakfast on the terrace. Afternoon at the Ca d’Oro gallery (next door). Final dinner at Vini da Gigio." },
+      { "day": 7, "title": "Slow departure", "description": "Final breakfast on the colonnaded terrace. Private water taxi from the Ca’Sagredo water-gate back to Marco Polo." }
+    ],
+    "caveats": [
+      "No swimming pool, no spa, no rooftop bar — this is a museum-grade palazzo, not a resort.",
+      "Service at four-star polish rather than five-star choreography. The Aman or Gritti choreography is on another level.",
+      "Campo Santa Sofia outside is local-residential rather than glamorous. The Gritti area is more polished."
+    ],
+    "faqs": [
+      { "question": "Good for honeymooners?", "answer": "Excellent for couples who want a genuinely historic palazzo on the Grand Canal at half the price of the Gritti or a third of the Aman. The Sebastiano Ricci staircase is genuinely unique." },
+      { "question": "Best time to visit?", "answer": "May, June, September and October. Open year-round including Carnevale. Avoid July–August." },
+      { "question": "Book in advance?", "answer": "Grand Canal-facing rooms book 4–6 months for high season. Doge Suite 9–12 months. Less competition than the great palace hotels." },
+      { "question": "Adults-only?", "answer": "No, but the intimate 42-room scale and museum-like interiors mean families are rare. Atmosphere is adult." },
+      { "question": "Best room type?", "answer": "Grand Canal Deluxe Junior Suite on the third floor. Doge Suite for the pinnacle. Avoid courtyard-facing standards." },
+      { "question": "How to get there?", "answer": "Marco Polo (VCE). Private water taxi 25 min direct to the Ca’Sagredo water-gate — the only correct arrival." }
+    ],
+    "email_template": "Subject: Honeymoon inquiry — Ca'Sagredo Hotel\n\nDear Ca’Sagredo reservations,\n\nWe would like to book 5 to 7 nights for our honeymoon [DATES] in a Grand Canal Deluxe Junior Suite if available, or the Doge Suite.\n\nQuestions:\n1. Honeymoon turndown (Prosecco, flowers)?\n2. Confirmed dinner reservations at L’Alcova on the Grand Canal terrace?\n3. Private water taxi from Marco Polo to the water-gate?\n4. Private gondola at dawn from the water-gate?\n5. Private morning tour of the Sebastiano Ricci staircase and the Bambini ballroom?\n\nThank you,\n[Your names]"
+  },
+  "booking_urls": {},
+  "last_updated": "2026-06-03T00:00:00.000Z"
+}

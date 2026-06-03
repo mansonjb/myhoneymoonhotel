@@ -97,6 +97,9 @@ const MAP_LOCATION_OVERRIDE: Record<string, string> = {
   'lake-garda':      'Sirmione, Lake Garda, Italy',
   'big-sur':         'Big Sur, California',
   bavaria:           'Garmisch-Partenkirchen, Germany',
+  venice:            'Venice, Italy',
+  puglia:            'Polignano a Mare, Puglia, Italy',
+  capri:             'Capri, Italy',
 }
 
 function resolveMapLocation(input: string): string {
