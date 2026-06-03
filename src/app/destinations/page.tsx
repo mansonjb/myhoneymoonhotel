@@ -2,7 +2,14 @@ import { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
 import { getAllHotels } from '@/lib/hotels'
+import { getCountriesWithHotels } from '@/lib/countries'
 import { buildAlternates } from '@/lib/alternates'
+
+const COUNTRY_PILL_SLUGS = [
+  'italy', 'france', 'maldives', 'greece', 'mexico', 'indonesia', 'thailand',
+  'portugal', 'spain', 'st-lucia', 'turks-and-caicos', 'french-polynesia',
+  'tanzania', 'usa', 'morocco',
+]
 
 // Same region mapping as the home page (kept in sync)
 const REGION_OF: Record<string, string> = {
@@ -118,6 +125,11 @@ export default function DestinationsIndexPage() {
   const totalDestinations = destinations.length
   const totalHotels = allHotels.length
 
+  const countryGroups = getCountriesWithHotels()
+  const countryPills = COUNTRY_PILL_SLUGS
+    .map(slug => countryGroups.find(c => c.slug === slug))
+    .filter((c): c is NonNullable<typeof c> => Boolean(c))
+
   return (
     <div>
       {/* ── HEADER ── */}
@@ -131,6 +143,22 @@ export default function DestinationsIndexPage() {
             {totalHotels} hand-scored hotels across {totalDestinations} destinations and {byRegion.length} regions —
             from overwater bungalows to safari camps and clifftop villas. Pick a region or a country and dive in.
           </p>
+          {countryPills.length > 0 && (
+            <div className="mt-8">
+              <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-500 mb-3">Browse by country</p>
+              <div className="flex flex-wrap gap-2">
+                {countryPills.map(c => (
+                  <Link
+                    key={c.slug}
+                    href={`/honeymoon-in/${c.slug}`}
+                    className="inline-block border border-zinc-200 hover:border-rose-300 hover:text-rose-500 text-zinc-700 px-4 py-1.5 rounded-full text-sm font-medium transition"
+                  >
+                    {c.displayName}
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       </section>
 

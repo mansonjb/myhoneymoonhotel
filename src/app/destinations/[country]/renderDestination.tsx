@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { getHotelsByDestination } from '@/lib/hotels'
+import { getCountrySlug, getCountryDisplayName } from '@/lib/countries'
 import HotelCard from '@/components/HotelCard'
 import Stay22MapWidget from '@/components/Stay22MapWidget'
 import FlightSearchWidget from '@/components/FlightSearchWidget'
@@ -477,6 +478,20 @@ export async function renderDestinationPage(country: string, locale: Locale) {
             ))}
           </div>
         </section>
+
+        {/* ── COUNTRY PILLAR CROSS-LINK (EN only) ── */}
+        {locale === 'en' && hotels[0]?.country && (() => {
+          const countrySlug = getCountrySlug(hotels[0].country)
+          const countryName = getCountryDisplayName(countrySlug)
+          const href = countrySlug === 'france' ? '/honeymoon-in-france' : `/honeymoon-in/${countrySlug}`
+          return (
+            <section className="border-t border-zinc-100 pt-10 text-center">
+              <Link href={href} className="inline-flex items-center gap-2 text-rose-500 hover:text-rose-600 font-medium text-lg">
+                More honeymoon hotels in {countryName} →
+              </Link>
+            </section>
+          )
+        })()}
 
       </div>
       <RecentlyViewedRail />

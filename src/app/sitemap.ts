@@ -1,5 +1,6 @@
 import { MetadataRoute } from 'next'
 import { getAllHotels, getAllDestinations, getAllExperienceTypes } from '@/lib/hotels'
+import { getCountriesWithHotels } from '@/lib/countries'
 import { getAllComparisonSlugs } from '../../data/comparisons'
 import { getAllHotelComparisonSlugs } from '../../data/hotel-comparisons'
 
@@ -113,5 +114,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }))
 
-  return [...staticPaths, ...cmpPaths, ...hotelCmpPaths, ...destPaths, ...destMonthPaths, ...expPaths, ...hotelPaths].map(entry)
+  const countryGuidePaths: PathEntry[] = getCountriesWithHotels()
+    .filter(c => c.slug !== 'france') // France has its own artisanal page in staticPaths
+    .map(c => ({
+      path: `/honeymoon-in/${c.slug}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+    }))
+
+  return [...staticPaths, ...cmpPaths, ...hotelCmpPaths, ...destPaths, ...destMonthPaths, ...expPaths, ...countryGuidePaths, ...hotelPaths].map(entry)
 }
