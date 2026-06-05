@@ -1,0 +1,66 @@
+{
+  "slug": "hostellerie-du-chapeau-rouge-dijon-burgundy",
+  "name": "Hostellerie du Chapeau Rouge",
+  "destination": "burgundy",
+  "country": "france",
+  "seo": {
+    "title": "Hostellerie du Chapeau Rouge: Dijon Honeymoon Review",
+    "description": "1863 Dijon hotel with Michelin restaurant, 30 rooms. Score 81/100, from $350/night. Best room, 7-night plan."
+  },
+  "experience_types": ["luxury", "historic", "wine"],
+  "honeymoon_score": 81,
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 13,
+    "spa": 9,
+    "award": 13,
+    "pool": 0,
+    "beach": 0,
+    "room_service": 10,
+    "stars": 13,
+    "luxury": 11
+  },
+  "stars": 4,
+  "price_per_night_usd": { "min": 350, "max": 1100 },
+  "adults_only": false,
+  "amenities": ["michelin", "fine-dining", "wine-cellar", "historic", "concierge", "boutique", "bar", "spa", "central-location", "breakfast"],
+  "photos": [
+    { "url": "/images/hotels/hostellerie-du-chapeau-rouge-dijon-burgundy/hero.webp", "alt": "hostellerie-du-chapeau-rouge-dijon-burgundy — hero", "type": "hero" },
+    { "url": "/images/hotels/hostellerie-du-chapeau-rouge-dijon-burgundy/room.webp", "alt": "hostellerie-du-chapeau-rouge-dijon-burgundy — room", "type": "room" },
+    { "url": "/images/hotels/hostellerie-du-chapeau-rouge-dijon-burgundy/pool.webp", "alt": "hostellerie-du-chapeau-rouge-dijon-burgundy — pool", "type": "pool" },
+    { "url": "/images/hotels/hostellerie-du-chapeau-rouge-dijon-burgundy/spa.webp", "alt": "hostellerie-du-chapeau-rouge-dijon-burgundy — spa", "type": "spa" },
+    { "url": "/images/hotels/hostellerie-du-chapeau-rouge-dijon-burgundy/dining.webp", "alt": "hostellerie-du-chapeau-rouge-dijon-burgundy — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 4.5,
+  "tripadvisor_award": true,
+  "couples_review_pct": 78,
+  "content": {
+    "verdict": "Hostellerie du Chapeau Rouge is the most historically continuous hotel in Dijon — a 30-room property in the heart of the old town that has operated as a coaching inn since 1863, opposite the Notre-Dame church and 200 metres from the Palais des Ducs. The Michelin restaurant under chef William Frachot (one star since 2005, two stars between 2013 and 2020 before strategic refocus) is one of the serious dining addresses in Burgundy outside the Côte d'Or — modern Burgundian cuisine with a strong herb and vegetable focus from a kitchen garden on the edge of Dijon. The honeymoon proposition is the urban Burgundy alternative: most honeymoon couples reflexively base in Beaune (which is correct for cellar-focused trips), but Dijon offers a serious historic city with the Palais des Ducs, the half-timbered streets, the great mustard heritage, and excellent restaurants — and Chapeau Rouge is the only properly elevated hotel inside the medieval walls. The 30 rooms have been progressively updated in the 2010s — contemporary calm in the historic shell, marble bathrooms, good beds. The spa is small (3 treatment rooms, hammam, sauna, small hydrotherapy pool) but proper. The differentiator versus L'Hôtel Le Cep in Beaune is city character — Dijon is a proper city with cultural depth (the museums, the half-timbered quarter, the Saturday market on Place du Marché is the largest in Burgundy), where Beaune is a beautiful but tourist-skewed wine town. The location also wins on TGV access (Paris Gare de Lyon to Dijon is 1h 40min direct, 30 minutes faster than Beaune). The caveats are real: there is no swimming pool, the spa is small, and the urban Dijon location means no garden or country walks — couples wanting outdoor space should base at Levernois or Rymska. The Côte d'Or grand cru villages are 20-30 minutes south by car, slightly further than from Beaune. And the restaurant, while excellent, is one Michelin star rather than the two-star it held — the kitchen is still very good but at a lower price point than the Levernois or Lameloise dining experiences. For couples who want the urban Burgundy honeymoon with serious gastronomy and easy Côte d'Or access, Chapeau Rouge is the strongest pick. The honeymoon move is four nights in a Suite Junior, dinner at the Michelin restaurant on night one and four, the Dijon mustard and market morning, a Côte de Nuits driving day, and a slow Sunday lunch at Loiseau des Ducs.",
+    "best_room": "A Suite Junior on the upper floors — quieter than ground-floor rooms, larger bathrooms, courtyard views away from the rue Michelet. The Suite Présidentielle is the trophy room with a separate sitting area and the largest bathroom. Avoid the small Classic rooms on the street side — Dijon old-town noise carries until midnight on weekends.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival and the Michelin dinner", "description": "TGV from Paris Gare de Lyon direct to Dijon (1h 40min), 5 min taxi or 15 min walk through the old town. Check-in to your Suite Junior. Dinner at the Michelin restaurant — Frachot's tasting menu with wine pairings from sommelier David Le Mée." },
+      { "day": 2, "title": "Dijon old town and mustard", "description": "Morning at the Palais des Ducs (Musée des Beaux-Arts is one of the best regional museums in France). La Moutarderie Edmond Fallot for the mustard tasting. Lunch at Loiseau des Ducs. Afternoon walk through the half-timbered streets. Light dinner at the bar." },
+      { "day": 3, "title": "Côte de Nuits grand cru drive", "description": "Hire a driver. South through Marsannay, Fixin, Gevrey-Chambertin (Pierre Damoy or Drouhin-Laroze tasting), Vougeot (Château du Clos de Vougeot), Vosne-Romanée (Romanée-Conti gate, tasting at Méo-Camuzet if booked). Lunch at La Sommellerie. Return for late dinner at Loiseau Rive Gauche." },
+      { "day": 4, "title": "Saturday market and Beaune", "description": "Saturday market on Place du Marché in Dijon (largest in Burgundy). Drive 45 min south to Beaune for the Hospices Hôtel-Dieu in the afternoon. Late lunch at Ma Cuisine in Beaune. Return for dinner at Chapeau Rouge." },
+      { "day": 5, "title": "Côte de Beaune whites day", "description": "Driver day. Pommard, Volnay, Meursault, Puligny-Montrachet. Tastings at Domaine de Montille and Olivier Leflaive. Lunch at Le Chevreuil in Meursault. Return for spa hammam." },
+      { "day": 6, "title": "Cluny and Mâconnais", "description": "Drive 1h 30min south to Cluny Abbey for the morning. Lunch in the Mâconnais — Lameloise if you have the energy for three stars (1h 20min south of Dijon, book 8-10 weeks ahead). Return for final dinner — chef's tasting in the Michelin room." },
+      { "day": 7, "title": "Slow morning", "description": "Long breakfast in the historic dining room, last mustard purchase at Fallot, train back to Paris from Dijon Ville." }
+    ],
+    "caveats": [
+      "Hostellerie du Chapeau Rouge has no swimming pool and the spa is small (3 treatment rooms). Couples wanting full spa or pool should choose Levernois, Rymska, or Le Cep instead.",
+      "The central Dijon location means some old-town noise on weekend evenings — book upper-floor courtyard-facing rooms for quiet.",
+      "Dijon is north of the great Côte d'Or villages — 20-30 min drive to Gevrey-Chambertin and Vosne-Romanée, 45 min to Beaune. Slightly further than from Beaune itself."
+    ],
+    "faqs": [
+      { "question": "Good for honeymooners?", "answer": "Yes — particularly for couples wanting the urban Burgundy honeymoon with serious gastronomy and easy access to both Dijon's cultural depth and the Côte de Nuits cellars. The Michelin restaurant alone justifies the stay." },
+      { "question": "Best time to visit?", "answer": "Mid-May to mid-July and September to mid-October. The Foire Gastronomique (November) is the biggest culinary fair in France and worth scheduling around. The Vendanges third weekend of September is busy in the cellars but Dijon is calm." },
+      { "question": "Book in advance?", "answer": "Suite Junior for May-September: 3-5 months. Suite Présidentielle: 6-8 months. Michelin dinner reservations: 6-8 weeks. Lameloise lunch: 8-10 weeks." },
+      { "question": "Adults-only?", "answer": "No, but the gastronomic focus means the guest mix is overwhelmingly adult couples and business travellers. Children are accepted but rare." },
+      { "question": "Best room type?", "answer": "Suite Junior on the upper floors with courtyard view. Suite Présidentielle for the trophy room. Avoid Classic rooms on the rue Michelet street side." },
+      { "question": "How to get there?", "answer": "TGV from Paris Gare de Lyon direct to Dijon (1h 40min) — 5 min taxi or 15 min walk to the hotel. Dijon airport handles regional flights only; for international, fly Paris and TGV. Chauffeur transfers from Dijon station and CDG can be arranged." }
+    ],
+    "email_template": "Subject: Honeymoon inquiry — Hostellerie du Chapeau Rouge\n\nDear Hostellerie du Chapeau Rouge reservations,\n\nWe are planning our honeymoon for [DATES] and would love 4 nights in a Suite Junior on the upper floors with courtyard view (or the Suite Présidentielle if available).\n\nQuestions:\n1. Honeymoon turndown (champagne in suite)?\n2. Spa couples' treatment availability?\n3. Reservations in the Michelin restaurant for arrival and one other evening — full tasting menu both?\n4. Concierge introductions for Côte de Nuits cellar visits — Drouhin-Laroze (Gevrey), Méo-Camuzet (Vosne-Romanée)?\n5. Lameloise lunch booking one day?\n\nThank you,\n[Your names]"
+  },
+  "booking_urls": {},
+  "last_updated": "2026-06-05T00:00:00.000Z"
+}

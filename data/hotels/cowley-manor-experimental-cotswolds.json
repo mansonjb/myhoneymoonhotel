@@ -1,0 +1,66 @@
+{
+  "slug": "cowley-manor-experimental-cotswolds",
+  "name": "Cowley Manor Experimental",
+  "destination": "cotswolds",
+  "country": "england",
+  "seo": {
+    "title": "Cowley Manor Experimental: Cotswolds Design Hotel Review",
+    "description": "Experimental Group revival of Italianate Cotswolds manor with spa. Score 82/100, from $500/night. Best room, 7-night plan."
+  },
+  "experience_types": ["luxury", "wellness", "countryside"],
+  "honeymoon_score": 82,
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 12,
+    "spa": 14,
+    "award": 11,
+    "pool": 10,
+    "beach": 0,
+    "room_service": 9,
+    "stars": 13,
+    "luxury": 11
+  },
+  "stars": 5,
+  "price_per_night_usd": { "min": 500, "max": 1800 },
+  "adults_only": false,
+  "amenities": ["spa", "indoor-pool", "outdoor-pool", "fine-dining", "concierge", "boutique", "pet-friendly", "gardens", "lake", "yoga"],
+  "photos": [
+    { "url": "/images/hotels/cowley-manor-experimental-cotswolds/hero.webp", "alt": "cowley-manor-experimental-cotswolds — hero", "type": "hero" },
+    { "url": "/images/hotels/cowley-manor-experimental-cotswolds/room.webp", "alt": "cowley-manor-experimental-cotswolds — room", "type": "room" },
+    { "url": "/images/hotels/cowley-manor-experimental-cotswolds/pool.webp", "alt": "cowley-manor-experimental-cotswolds — pool", "type": "pool" },
+    { "url": "/images/hotels/cowley-manor-experimental-cotswolds/spa.webp", "alt": "cowley-manor-experimental-cotswolds — spa", "type": "spa" },
+    { "url": "/images/hotels/cowley-manor-experimental-cotswolds/dining.webp", "alt": "cowley-manor-experimental-cotswolds — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 4.4,
+  "tripadvisor_award": false,
+  "couples_review_pct": 81,
+  "content": {
+    "verdict": "Cowley Manor Experimental is the most design-forward country hotel in the Cotswolds — a 2023 takeover by the Experimental Group (the Paris-based hospitality company behind the Experimental Cocktail Club, Grand Pigalle, and several boutique hotels across Paris and London) of the long-standing Cowley Manor, an Italianate 19th-century estate in 55 acres outside Cheltenham. Experimental brought their characteristic aesthetic — saturated colours, modernist furniture, French art-deco lighting against original Victorian shells — and reworked the 30 rooms, the C-Side Spa (originally a 2003 architectural set piece by Sybarite and still one of the best-designed hotel spas in Britain), and the restaurant under chef Jackson Boxer's influence. The honeymoon proposition is the combination: the spa is genuinely architecture-grade (an outdoor heated pool that meets the lawn with a sharp infinity edge, an indoor pool under skylights, a glass-walled relaxation room over the gardens), the design of the bedrooms is the most distinctive in the Cotswolds (no chintz, no oak panels, no four-posters — instead bold colour, modernist furniture, and contemporary art), and the food is contemporary European with a serious bar programme borrowed from the Experimental cocktail bars. The differentiator versus the other Cotswolds 5-stars is design language — Cowley Manor Experimental is contemporary and Mediterranean-leaning where Foxhill and Lygon are heritage British, and Thyme is more biodynamic-wellness than design-fashion. The position outside Cheltenham is south Cotswolds rather than the iconic central villages — closer to Bath as a day trip than to Stow or Bourton. The caveats are real: this is a new operation (relaunched 2023) and service polish is still bedding in compared to Foxhill or Lime Wood. The location is south Cotswolds, which means longer drives to the photographic villages of the north. And the design-forward aesthetic is not for couples who want chintzy English-country comfort — they should pick the Lygon instead. For honeymoon couples who want contemporary design, a serious spa, and a cocktail-bar attitude in a country-house wrapper, Cowley Manor Experimental is the most distinctive Cotswolds choice. The honeymoon move is four nights in a Garden Suite, two long spa mornings, dinner at the restaurant most nights, and a Bath day trip.",
+    "best_room": "A Garden Suite — large rooms on the ground floor with French doors opening onto the lawn and the gardens, freestanding baths in the bedroom, and the most direct connection to the spa pool just across the terrace. The Penthouse Suite is the trophy room with views across the estate and a private terrace. Avoid the small Manor Rooms — fine but lose the Experimental design statement at scale.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival and the cocktail bar", "description": "Drive 2h from London Heathrow or train Paddington to Cheltenham Spa (2h) then 15 min taxi. Check-in, cocktails at the bar (the Experimental signature programme is excellent). Dinner at the restaurant — contemporary European menu." },
+      { "day": 2, "title": "Long spa morning", "description": "Long spa morning at C-Side — outdoor and indoor pools, sauna, steam, couples' treatment in the architectural treatment rooms. Lunch by the pool. Afternoon walk in the 55-acre gardens. Dinner at the bar." },
+      { "day": 3, "title": "Bath day trip", "description": "Drive 50 min to Bath for the Roman Baths, the Royal Crescent walk, Sally Lunn's for the famous bun. Lunch at The Ivy or Sotto Sotto. Afternoon at Thermae Bath Spa for the rooftop pool with city views. Return for late dinner." },
+      { "day": 4, "title": "Painswick and Slad", "description": "Drive 25 min to Painswick for the Rococo Garden and St Mary's Church (the yew tree ring). Lunch at The Woolpack in Slad (Laurie Lee's pub). Cotswold Way ridge walk in the afternoon. Spa evening." },
+      { "day": 5, "title": "Cirencester and Highgrove", "description": "Drive 25 min to Cirencester — the Roman museum, the Saturday market, the Made by Bob bistro for lunch. If you can secure a Highgrove Garden tour (King Charles's estate), this is the day for it. Return for sunset cocktails." },
+      { "day": 6, "title": "Northern Cotswolds day", "description": "Drive 45 min to Burford for the High Street, then Bibury for Arlington Row, lunch at The Swan in Bibury. Daylesford Organic in the afternoon to shop. Final dinner at Cowley Manor — chef's tasting menu." },
+      { "day": 7, "title": "Slow departure", "description": "Final spa morning, late breakfast in the conservatory, drive to London or train from Cheltenham Spa." }
+    ],
+    "caveats": [
+      "Cowley Manor Experimental relaunched in 2023 — service polish is still bedding in compared to longer-established Cotswolds 5-stars. Check recent reviews before booking.",
+      "The location is south Cotswolds outside Cheltenham — 35-50 min from the iconic villages of Bourton, Stow, and Broadway. Better as a Bath-and-Cotswolds combination base than for the northern villages.",
+      "The contemporary Experimental design aesthetic is the love-or-hate divider — couples wanting chintzy English-country comfort should choose the Lygon Arms or the Pig at Combe instead."
+    ],
+    "faqs": [
+      { "question": "Good for honeymooners?", "answer": "Yes — particularly for design-loving couples wanting contemporary aesthetic, a serious spa, and a cocktail-bar attitude. The C-Side Spa is one of the best-designed hotel spas in Britain. Couples wanting traditional country-house should choose Foxhill or Lygon instead." },
+      { "question": "Best time to visit?", "answer": "May, June, and September for the outdoor pool and the gardens. October for autumn colour. The indoor pool and spa work year-round, but the outdoor pool defines the property and shuts in winter." },
+      { "question": "Book in advance?", "answer": "Garden Suites for May-September: 3-5 months ahead. Penthouse Suite: 6-8 months. Spa couples' treatment: 2-3 weeks. The property is still building its weekend baseline so weekday weeks have better availability." },
+      { "question": "Adults-only?", "answer": "No, but the design-forward, cocktail-bar atmosphere skews the guest mix adult. Off-school-holiday weeks are essentially adult-only in practice." },
+      { "question": "Best room type?", "answer": "Garden Suite for the direct garden access and spa proximity. Penthouse Suite for the estate views and private terrace. Avoid the small Manor Rooms." },
+      { "question": "How to get there?", "answer": "London Heathrow 2h drive, London Paddington train to Cheltenham Spa 2h then 15 min taxi. Bristol airport also works (1h drive). The property arranges transfers from Cheltenham Spa station." }
+    ],
+    "email_template": "Subject: Honeymoon inquiry — Cowley Manor Experimental\n\nDear Cowley Manor reservations,\n\nWe're planning our honeymoon for [DATES] and would love 4 nights in a Garden Suite (or the Penthouse Suite if available).\n\nQuestions:\n1. Honeymoon arrival turndown (champagne, in-suite dining option)?\n2. C-Side Spa couples' treatment availability?\n3. Chef's tasting menu booking one evening?\n4. A Highgrove Garden tour during our dates (if running)?\n5. Transfer from Cheltenham Spa station?\n\nThank you,\n[Your names]"
+  },
+  "booking_urls": {},
+  "last_updated": "2026-06-05T00:00:00.000Z"
+}

@@ -23,6 +23,8 @@ interface Stay22MapWidgetProps {
  */
 const MAP_LOCATION_OVERRIDE: Record<string, string> = {
   iceland:           'Reykjavik, Iceland',
+  cotswolds:         'Bourton-on-the-Water, Cotswolds, England',
+  burgundy:          'Beaune, Burgundy, France',
   switzerland:       'Zermatt, Switzerland',
   botswana:          'Maun, Botswana',
   argentina:         'Buenos Aires, Argentina',

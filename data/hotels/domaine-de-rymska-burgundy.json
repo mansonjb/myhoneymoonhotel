@@ -1,0 +1,66 @@
+{
+  "slug": "domaine-de-rymska-burgundy",
+  "name": "Domaine de Rymska",
+  "destination": "burgundy",
+  "country": "france",
+  "seo": {
+    "title": "Domaine de Rymska: Burgundy Country Estate Hotel Review",
+    "description": "Equestrian estate hotel south of Beaune, Michelin restaurant, spa. Score 86/100, from $600/night. 7-night plan."
+  },
+  "experience_types": ["luxury", "countryside", "wellness"],
+  "honeymoon_score": 86,
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 15,
+    "spa": 13,
+    "award": 13,
+    "pool": 10,
+    "beach": 0,
+    "room_service": 10,
+    "stars": 14,
+    "luxury": 13
+  },
+  "stars": 5,
+  "price_per_night_usd": { "min": 600, "max": 2200 },
+  "adults_only": false,
+  "amenities": ["spa", "outdoor-pool", "indoor-pool", "michelin", "fine-dining", "equestrian", "concierge", "gardens", "boutique", "pet-friendly"],
+  "photos": [
+    { "url": "/images/hotels/domaine-de-rymska-burgundy/hero.webp", "alt": "domaine-de-rymska-burgundy — hero", "type": "hero" },
+    { "url": "/images/hotels/domaine-de-rymska-burgundy/room.webp", "alt": "domaine-de-rymska-burgundy — room", "type": "room" },
+    { "url": "/images/hotels/domaine-de-rymska-burgundy/pool.webp", "alt": "domaine-de-rymska-burgundy — pool", "type": "pool" },
+    { "url": "/images/hotels/domaine-de-rymska-burgundy/spa.webp", "alt": "domaine-de-rymska-burgundy — spa", "type": "spa" },
+    { "url": "/images/hotels/domaine-de-rymska-burgundy/dining.webp", "alt": "domaine-de-rymska-burgundy — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 4.8,
+  "tripadvisor_award": true,
+  "couples_review_pct": 87,
+  "content": {
+    "verdict": "Domaine de Rymska is the most distinctive country-estate hotel in Burgundy and the strongest pick for honeymoon couples who want the wine region but in a setting that feels more like a private country friend's farm than a polished Relais & Châteaux — a 170-hectare working estate in Saint-Jean-de-Trézy (25 minutes south of Beaune in the Côte Chalonnaise) with 15 rooms in a converted farmhouse complex, a one-Michelin-star restaurant under chef Cédric Burtin (a Bocuse alumnus working with the estate's own production), and an active equestrian centre with French Trotter horses bred on-site. The honeymoon proposition is the integration: the kitchen serves the estate's own beef, lamb, vegetables, and game (the property runs as a working farm), the cellar holds the estate's own wines and a deep collection from neighbouring Côte Chalonnaise producers (Domaine Joblot in Givry, Bruno Lorenzon in Mercurey), and the morning ride or carriage drive across the estate is a genuine farm experience rather than a hotel activity. The spa is small but excellent (the Cinq Mondes treatment line, a 12m indoor pool, a sauna) and the outdoor pool in summer faces the equestrian paddocks. The differentiator versus Levernois is character — Levernois is polished R&C; Rymska is genuinely rustic-luxury in the way only family-owned French country estates can be. The location in the Côte Chalonnaise is the secret weapon: the great Côte d'Or grand cru villages are 25-40 minutes north, but the immediately surrounding Mercurey, Rully, and Givry vineyards produce excellent value Pinot Noir and Chardonnay at a quarter of Côte d'Or prices, and the estate concierge can introduce you to producers there directly. The caveats are real: it is rural — the nearest village (Saint-Jean-de-Trézy) has nothing beyond the boulangerie, and you drive 25 minutes for Beaune. The 15-room scale and the Michelin focus mean dinner in the main restaurant books out in summer. And the equestrian focus is wasted if you don't ride — though the hacking and carriage rides are open to absolute beginners. For couples wanting a more genuine country experience than Levernois at a similar price point, Rymska is the strongest pick. The honeymoon move is five nights in a Suite Manor House, the Michelin dinner on nights one and four, a morning ride or carriage drive together, a half-day spa, and a Côte d'Or day trip up to Beaune and Pommard.",
+    "best_room": "A Suite in the converted Manor House — large rooms with beam ceilings, four-poster beds, freestanding baths, garden views. The Cottage Suites in separate converted outbuildings (former gardener's house, dovecote) are the most private with their own entrances. The Suite Rymska is the trophy room with a private garden. Avoid the small Classic rooms — fine but lose the Rymska estate magic.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival and the Michelin dinner", "description": "TGV from Paris to Chalon-sur-Saône (1h 30min) or Dijon (1h 40min), rental car or chauffeur 30-40 min to Saint-Jean-de-Trézy. Welcome champagne. Dinner at the Michelin restaurant — Burtin's tasting menu using the estate's own production." },
+      { "day": 2, "title": "Morning ride or carriage drive", "description": "Morning hacking through the estate (or carriage drive for non-riders) — 90 min to the highest viewpoint with views to the Mâconnais. Lunch on the terrace by the pool. Afternoon at the spa — couples' treatment in the Cinq Mondes suite. Casual dinner at the bistro." },
+      { "day": 3, "title": "Côte Chalonnaise vigneron day", "description": "Hire a driver. Tastings at Domaine Joblot in Givry, Bruno Lorenzon in Mercurey, Domaine de Villaine in Bouzeron. Lunch at La Table de Suzanne in Mercurey. Return for spa evening. Dinner in the restaurant." },
+      { "day": 4, "title": "Cluny and Roche de Solutré", "description": "Drive 45 min south to Cluny Abbey for the morning. Lunch at a Mâconnais bistro. Afternoon at the Roche de Solutré viewpoint (Mitterrand's favourite walk). Return for fireside drinks." },
+      { "day": 5, "title": "Côte de Beaune day", "description": "Drive 40 min north to Beaune for the Hospices Hôtel-Dieu morning. Lunch at Ma Cuisine. Afternoon at Pommard and Volnay — tasting at Domaine de Montille. Return for late dinner at the bistro." },
+      { "day": 6, "title": "Lameloise lunch", "description": "Drive 25 min to Chagny for lunch at Maison Lameloise (three Michelin stars, book 8-10 weeks ahead). Slow afternoon return through the Côte Chalonnaise. Final dinner at the Rymska Michelin restaurant." },
+      { "day": 7, "title": "Slow morning", "description": "Long breakfast on the terrace, last walk in the estate, drive back to Chalon-sur-Saône or Dijon for the TGV to Paris." }
+    ],
+    "caveats": [
+      "Domaine de Rymska is rural — no walkable amenities, you drive everywhere. The nearest serious town is Chagny (15 min). A rental car is essential for the full Burgundy experience.",
+      "The Michelin restaurant has 30 covers and books out in summer Saturdays — lock in your dinner dates at room booking, not on arrival.",
+      "The Côte Chalonnaise location means the iconic Côte d'Or grand cru villages are 30-45 minutes north. Couples wanting daily Grand Cru access should base at Levernois instead."
+    ],
+    "faqs": [
+      { "question": "Good for honeymooners?", "answer": "Yes — particularly for couples wanting a more genuine, working-country-estate feel than the polished Relais & Châteaux properties. The integration of estate production, equestrian, spa, and Michelin dining is unique in Burgundy." },
+      { "question": "Best time to visit?", "answer": "Mid-May to mid-July and September to mid-October — long days, outdoor pool open, riding conditions perfect. The Vendanges third weekend of September is magical. Winter is atmospheric but the outdoor pool closes." },
+      { "question": "Book in advance?", "answer": "Manor House Suites for May-September: 5-7 months. Suite Rymska: 8-10 months. Michelin dinner: at room booking. Riding/carriage drive: 2-3 weeks." },
+      { "question": "Adults-only?", "answer": "No, but the rural Michelin focus means the guest mix is overwhelmingly couples and small adult parties. Children are accepted but rare." },
+      { "question": "Best room type?", "answer": "Manor House Suite for the largest characterful room. Cottage Suites for the most private experience. Suite Rymska for the trophy room with private garden. Avoid the small Classic rooms." },
+      { "question": "How to get there?", "answer": "TGV from Paris Gare de Lyon to Chalon-sur-Saône (1h 30min) then 30 min taxi. Or to Dijon (1h 40min) then 40 min south. The estate arranges chauffeur transfers from either station." }
+    ],
+    "email_template": "Subject: Honeymoon inquiry — Domaine de Rymska\n\nDear Domaine de Rymska reservations,\n\nWe are planning our honeymoon for [DATES] and would love 5 nights in a Manor House Suite (or one of the Cottage Suites for more privacy).\n\nQuestions:\n1. Honeymoon turndown (champagne, in-suite romantic dinner option)?\n2. Spa couples' treatment in the Cinq Mondes suite?\n3. Morning carriage drive or guided hack across the estate (one is a non-rider)?\n4. Michelin restaurant reservations for arrival and one other evening — chef's tasting both?\n5. Concierge introductions for Côte Chalonnaise vigneron visits (Joblot, Lorenzon)?\n6. Chauffeur transfer from Chalon-sur-Saône TGV station?\n\nThank you,\n[Your names]"
+  },
+  "booking_urls": {},
+  "last_updated": "2026-06-05T00:00:00.000Z"
+}

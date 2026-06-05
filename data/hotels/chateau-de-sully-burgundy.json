@@ -1,0 +1,66 @@
+{
+  "slug": "chateau-de-sully-burgundy",
+  "name": "Château de Sully",
+  "destination": "burgundy",
+  "country": "france",
+  "seo": {
+    "title": "Château de Sully: Saône-et-Loire Burgundy Château Stay",
+    "description": "Sleep in a 16th-century Renaissance château in southern Burgundy. Score 85/100, from $450/night. 7-night plan."
+  },
+  "experience_types": ["luxury", "historic", "countryside"],
+  "honeymoon_score": 85,
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 16,
+    "spa": 10,
+    "award": 13,
+    "pool": 10,
+    "beach": 0,
+    "room_service": 9,
+    "stars": 13,
+    "luxury": 14
+  },
+  "stars": 4,
+  "price_per_night_usd": { "min": 450, "max": 1800 },
+  "adults_only": false,
+  "amenities": ["historic", "outdoor-pool", "fine-dining", "concierge", "gardens", "boutique", "library", "fireplaces", "tennis", "park"],
+  "photos": [
+    { "url": "/images/hotels/chateau-de-sully-burgundy/hero.webp", "alt": "chateau-de-sully-burgundy — hero", "type": "hero" },
+    { "url": "/images/hotels/chateau-de-sully-burgundy/room.webp", "alt": "chateau-de-sully-burgundy — room", "type": "room" },
+    { "url": "/images/hotels/chateau-de-sully-burgundy/pool.webp", "alt": "chateau-de-sully-burgundy — pool", "type": "pool" },
+    { "url": "/images/hotels/chateau-de-sully-burgundy/spa.webp", "alt": "chateau-de-sully-burgundy — spa", "type": "spa" },
+    { "url": "/images/hotels/chateau-de-sully-burgundy/dining.webp", "alt": "chateau-de-sully-burgundy — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 4.7,
+  "tripadvisor_award": true,
+  "couples_review_pct": 84,
+  "content": {
+    "verdict": "Château de Sully is the most cinematic small château hotel in southern Burgundy and the strongest pick for honeymoon couples whose vision is genuinely the sleep-in-a-French-Renaissance-château fantasy — a 16th-century moated château in Saône-et-Loire (30 minutes west of Beaune, 1h south of Dijon) that was the birthplace of Mac-Mahon (President of the French Third Republic, 1873-1879) and remains in the family today, with the public château visit running as the day operation and a small number of guest apartments and rooms available for overnight stays in the private wings and converted outbuildings. The property is set in 90 hectares of formal French gardens and English landscaped park designed by Bühler (the same designer as the Bois de Boulogne), with a moat, ornamental ponds, mature woodland, and an outdoor heated swimming pool tucked discreetly behind hedging on the south side. The honeymoon proposition is unambiguous: this is the genuine sleep-in-the-château experience — your bedroom is in the historic building or the adjacent former orangery, the breakfast is served in the painted Salon des Tapisseries, and the gardens are yours after the day visitors leave at 6pm. The food operation is more domestic-style (a small restaurant in the orangery serving Burgundian classics rather than a Michelin operation), which is appropriate to the property — for haute cuisine you drive 30 minutes to Lameloise or 35 to Beaune. The differentiator versus the Loire Valley châteaux is style and crowd — Sully is genuinely lived-in family château rather than a polished hotel château, and Burgundy gets a fraction of the Loire's tourist volume, so the gardens are properly private after hours. The location in the Saône-et-Loire is the secret strength: 30 min to Beaune for cellars, 30 min to Maison Lameloise in Chagny for the three-star dinner, 1h to Cluny Abbey, and central to the Morvan national park for walking and quiet drives. The caveats are real: the operation is small and family-run, which means service is genuinely warm but less polished than Levernois or Lameloise. There is no spa, and the restaurant is country-domestic rather than gastronomic. The bedrooms vary in size and updating — book the trophy apartments or you risk a small attic room. And the location is rural — you need a car for everything. For couples whose Burgundy honeymoon vision is to sleep in a Renaissance château and use it as a base for the wine region, no other property delivers. The honeymoon move is four nights in the Suite Mac-Mahon or Suite Tapisseries, a slow afternoon by the pool after the day visitors leave, a Lameloise lunch, two cellar days to the Côte d'Or, and the gardens at dawn.",
+    "best_room": "The Suite Mac-Mahon — the largest historic apartment in the main château with painted ceiling, four-poster bed, dressing room, and view across the moat and parkland. The Suite Tapisseries is the second trophy room with original tapestries. The Orangery apartments are larger but less historic. Avoid the small Attic rooms — fine but lose the château magic at scale.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival in the château", "description": "TGV from Paris Gare de Lyon to Le Creusot-Montchanin (1h 20min — direct, faster than Beaune) or Dijon (1h 40min), rental car 30-45 min to Sully. Welcome champagne in the Salon des Tapisseries. Dinner at the orangery — Burgundian classics, the family's own house wine." },
+      { "day": 2, "title": "Lameloise lunch and Côte de Beaune", "description": "Drive 25 min to Chagny for lunch at Maison Lameloise (three Michelin stars, book 8-10 weeks ahead). Slow afternoon through Pommard and Volnay — a tasting at Domaine de Montille. Return for fireside drinks in the library." },
+      { "day": 3, "title": "Beaune morning, garden afternoon", "description": "Drive 30 min to Beaune for the Hospices Hôtel-Dieu (9am) and Marché aux Vins. Lunch at Ma Cuisine. Return early — long afternoon in the château gardens after the day visitors leave at 6pm. The pool to yourselves." },
+      { "day": 4, "title": "Côte de Nuits grand cru day", "description": "Hire a driver. Gevrey-Chambertin (Drouhin-Laroze), Vougeot (Château du Clos de Vougeot), Vosne-Romanée (Romanée-Conti gate, Méo-Camuzet tasting if booked). Lunch at La Sommellerie. Return for dinner at the orangery." },
+      { "day": 5, "title": "Cluny and Morvan", "description": "Drive 1h south to Cluny Abbey for the morning. Lunch in a Mâconnais village. Afternoon at the Roche de Solutré viewpoint. Return through the Morvan park. Picnic supper in your suite if weather permits a garden table." },
+      { "day": 6, "title": "Autun and Roman Burgundy", "description": "Drive 30 min south to Autun — the Roman cathedral of Saint-Lazare, the medieval ramparts. Lunch at Le Chapitre. Afternoon at Sully gardens, swimming. Final dinner — chef's choice plate." },
+      { "day": 7, "title": "Slow morning", "description": "Final breakfast in the Salon des Tapisseries, last walk in the park, drive back to Le Creusot-Montchanin or Dijon for the TGV to Paris." }
+    ],
+    "caveats": [
+      "Château de Sully runs as a public château with day visitors until 6pm — your room is private but the gardens are shared until evening. The compensation is dawn and after-6pm access to the whole estate alone.",
+      "The food operation is country-domestic, not gastronomic — for the serious meals you drive to Lameloise (25 min) or Beaune (30 min). Lock in those reservations before you book the room.",
+      "Bedroom standards vary by category — the historic apartments are excellent but the smaller attic rooms are modest. Book the named suites for the proper experience."
+    ],
+    "faqs": [
+      { "question": "Good for honeymooners?", "answer": "Château de Sully is the strongest pick in Burgundy for couples whose vision is genuinely sleeping in a Renaissance château. The gardens, the historic apartments, the family-run warmth, and the proximity to the Côte d'Or make it unique." },
+      { "question": "Best time to visit?", "answer": "Mid-May to mid-September when the gardens are at their peak and the outdoor pool is open. The château public visit operates April through October. November to March many of the historic rooms are closed for heating reasons." },
+      { "question": "Book in advance?", "answer": "Suite Mac-Mahon and Suite Tapisseries for May-September: 4-6 months. Standard rooms: 2-3 months. Lameloise lunch: 8-10 weeks." },
+      { "question": "Adults-only?", "answer": "No — families are welcome and the château runs children's tours. The guest mix in the bedroom operation skews adult couples but is not exclusive." },
+      { "question": "Best room type?", "answer": "Suite Mac-Mahon or Suite Tapisseries for the historic château apartments. Orangery apartments for more contemporary space. Avoid the small Attic rooms." },
+      { "question": "How to get there?", "answer": "TGV from Paris Gare de Lyon to Le Creusot-Montchanin (1h 20min direct) then 35 min taxi. Or to Dijon (1h 40min) then 1h south by car. Chauffeur transfers arranged from either station." }
+    ],
+    "email_template": "Subject: Honeymoon inquiry — Château de Sully\n\nDear Château de Sully reservations,\n\nWe are planning our honeymoon for [DATES] and would love 4-5 nights in the Suite Mac-Mahon (or the Suite Tapisseries if available).\n\nQuestions:\n1. Honeymoon turndown (champagne in suite)?\n2. Private after-hours garden access on at least one evening?\n3. Recommendations and introductions for cellar visits in the Côte d'Or (Drouhin-Laroze, Méo-Camuzet, Domaine de Montille)?\n4. Lameloise lunch booking and Ma Cuisine in Beaune?\n5. Chauffeur transfer from Le Creusot-Montchanin TGV station?\n\nThank you,\n[Your names]"
+  },
+  "booking_urls": {},
+  "last_updated": "2026-06-05T00:00:00.000Z"
+}

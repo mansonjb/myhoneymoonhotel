@@ -1,0 +1,66 @@
+{
+  "slug": "soho-farmhouse-great-tew-cotswolds",
+  "name": "Soho Farmhouse",
+  "destination": "cotswolds",
+  "country": "england",
+  "seo": {
+    "title": "Soho Farmhouse: Great Tew Members' Club Honeymoon Review",
+    "description": "100-acre Cotswolds Members' Club retreat, log cabins, lake, spa. Score 87/100, from $900/night. Best cabin, 7-night plan."
+  },
+  "experience_types": ["luxury", "countryside", "wellness"],
+  "honeymoon_score": 87,
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 13,
+    "spa": 14,
+    "award": 13,
+    "pool": 10,
+    "beach": 0,
+    "room_service": 10,
+    "stars": 14,
+    "luxury": 13
+  },
+  "stars": 5,
+  "price_per_night_usd": { "min": 900, "max": 3200 },
+  "adults_only": false,
+  "amenities": ["spa", "indoor-pool", "outdoor-pool", "lake", "fine-dining", "cinema", "gym", "concierge", "boutique", "pet-friendly"],
+  "photos": [
+    { "url": "/images/hotels/soho-farmhouse-great-tew-cotswolds/hero.webp", "alt": "soho-farmhouse-great-tew-cotswolds — hero", "type": "hero" },
+    { "url": "/images/hotels/soho-farmhouse-great-tew-cotswolds/room.webp", "alt": "soho-farmhouse-great-tew-cotswolds — room", "type": "room" },
+    { "url": "/images/hotels/soho-farmhouse-great-tew-cotswolds/pool.webp", "alt": "soho-farmhouse-great-tew-cotswolds — pool", "type": "pool" },
+    { "url": "/images/hotels/soho-farmhouse-great-tew-cotswolds/spa.webp", "alt": "soho-farmhouse-great-tew-cotswolds — spa", "type": "spa" },
+    { "url": "/images/hotels/soho-farmhouse-great-tew-cotswolds/dining.webp", "alt": "soho-farmhouse-great-tew-cotswolds — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 4.6,
+  "tripadvisor_award": true,
+  "couples_review_pct": 82,
+  "content": {
+    "verdict": "Soho Farmhouse is the most fashionable country retreat in Britain — Nick Jones's 2015 conversion of a 100-acre Great Tew Estate farm into a Soho House-branded members' club with 70 oak-clad log cabins, a converted Cowshed Spa, indoor and outdoor pools, an actual lake with a boathouse, a stables-turned-gym, a cinema, three restaurants, and a guest list that includes most of the entertainment industry of London and New York. It is open to non-members for hotel bookings — and that is the only way most honeymoon couples will experience it, since membership has a multi-year waitlist. The honeymoon proposition is the combination: the cabins (genuinely beautiful — Scandinavian-modern interiors in original farm timber buildings, wood-burning stoves, claw-foot baths, no televisions in the bedrooms) are spaced for privacy across the estate, with electric buggies for transport between your cabin and the central farmyard. The food is excellent across the board — The Farmhouse main restaurant is country comfort done properly, Pen Yen serves a robata-grilled Japanese menu in a converted barn, and the bakery does breakfast pastries that justify their reputation. The Cowshed Spa is the original Soho House wellness brand at its highest expression — proper massages, a 22m indoor lap pool, a hot tub overlooking fields. What makes it genuinely honeymoon-fit rather than just a weekend club is the scale: the property is large enough that you can disappear for 24 hours on your terrace, and the buggy paths and the lake walk mean you genuinely escape into the Oxfordshire countryside between meals. The caveats are real: this is a members' club, and you will share the property with members — many of whom bring children, dogs, and entertainment-industry energy. Honeymoon couples wanting hushed, butler-served, country-house formality should choose Foxhill Manor or Lime Wood instead. For couples who want the fashion-set Cotswolds experience with the comfort of a great hotel, Soho Farmhouse is the only address. The honeymoon move is four nights in a Big Cabin, a pre-booked Cowshed couples' treatment, dinner at Pen Yen on night one and the Farmhouse on night two, the lake walk at dawn, and Daylesford Organic for the Saturday lunch trip.",
+    "best_room": "A Big Cabin — the larger one- or two-bedroom log cabins set away from the central farmyard, with private outdoor wood-fired hot tub, log-burning stove, and the most privacy on the estate. The Honeymoon Cabin (specifically branded) has a four-poster, a copper bath, and a particularly secluded position. Skip the Farmhouse rooms in the main hotel — they're fine but lose the cabin magic. The Boathouse on the lake is the trophy room — books out a year ahead.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival and Pen Yen dinner", "description": "Drive 90 min from London Heathrow or 30 min from Kingham station. Check-in to your Big Cabin, electric buggy tour. Welcome drinks at the Mainhouse Bar, dinner at Pen Yen (book at reservation, robata Japanese menu)." },
+      { "day": 2, "title": "Cowshed Spa morning, Daylesford lunch", "description": "Long morning at the Cowshed Spa — indoor lap pool, hot tub, couples' deep-tissue treatment. Drive 25 min to Daylesford Organic for lunch in the farm restaurant, shop the hampers. Return for evening swim in the cabin hot tub." },
+      { "day": 3, "title": "Bourton and Burford day", "description": "Morning at Bourton-on-the-Water before the coaches arrive (9am). Drive to Burford for antique browsing on the High Street, lunch at The Bull at Charlbury (book ahead). Afternoon at the outdoor pool. Dinner at The Farmhouse restaurant." },
+      { "day": 4, "title": "Lake walk and cinema night", "description": "Dawn walk around the lake, breakfast pastries at the bakery. Afternoon at the boathouse on the lake — paddleboards, swimming. Pre-dinner film in the cinema with cocktails. Late dinner at the Mainhouse Bar." },
+      { "day": 5, "title": "Soho Farmhouse equestrian or Blenheim Palace", "description": "Either ride from the on-site stables across the estate, or drive 20 min to Blenheim Palace for the morning State Rooms tour. Lunch in Woodstock at The Feathers. Return for sunset cabin time." },
+      { "day": 6, "title": "Cotswold Way half-day walk", "description": "Drive 35 min to Broadway, walk to Broadway Tower and Stanton (5 miles, 3h). Lunch at The Mount Inn in Stanton. Late afternoon at the spa, final dinner at Pen Yen." },
+      { "day": 7, "title": "Slow departure", "description": "Final bakery breakfast, last lake walk, electric buggy ride back to the car, drive to London or train from Kingham." }
+    ],
+    "caveats": [
+      "Soho Farmhouse is a members' club open to non-member hotel guests — the energy is fashionable, not hushed. Honeymoon couples wanting library-and-fireside calm should choose Foxhill Manor or Lime Wood.",
+      "Not adults-only — members bring families, particularly in school holidays. Off-school-holiday weeks are the adult-skewing windows.",
+      "The cabin layout means walking between your room and the main farmyard for every meal — fine in summer, less fun in November rain. Bring boots."
+    ],
+    "faqs": [
+      { "question": "Good for honeymooners?", "answer": "Yes — particularly for couples wanting the fashionable, Soho-set Cotswolds experience with the comfort of a serious hotel. The Big Cabins deliver real privacy and the spa is excellent. Couples wanting hushed country-house formality should choose Foxhill Manor instead." },
+      { "question": "Best time to visit?", "answer": "May, June, and September are ideal — long days, full outdoor pool and lake season, lower midweek member traffic. December for the festive country-house Christmas with cabins decorated and snow possible." },
+      { "question": "Book in advance?", "answer": "Big Cabins for May-September: 4-6 months ahead. The Boathouse and Honeymoon Cabin: 9-12 months. Cowshed treatments: book at reservation. Pen Yen dinner: at booking." },
+      { "question": "Do I need a Soho House membership?", "answer": "No — Soho Farmhouse hotel rooms and cabins are bookable by non-members. You get access to all property facilities. Membership is a multi-year waitlist." },
+      { "question": "Best room type?", "answer": "Big Cabin with private wood-fired hot tub and stove. Honeymoon Cabin or Boathouse for the trophy rooms. Skip the Farmhouse rooms in the main hotel — they're fine but miss the cabin experience." },
+      { "question": "How to get there?", "answer": "London Heathrow 90 min drive, London Paddington train to Kingham 80 min then 25 min taxi. The property arranges chauffeur transfers from Heathrow." }
+    ],
+    "email_template": "Subject: Honeymoon inquiry — Soho Farmhouse\n\nDear Soho Farmhouse reservations,\n\nWe're planning our honeymoon for [DATES] and would love to stay 4-5 nights in a Big Cabin (or the Honeymoon Cabin if available).\n\nQuestions:\n1. Honeymoon turndown (champagne, in-cabin dinner option)?\n2. Cowshed Spa couples' treatment availability?\n3. Pen Yen and Farmhouse dinner reservations across the stay?\n4. Cinema room private hire one evening?\n5. Chauffeur transfer from London Heathrow?\n\nThank you,\n[Your names]"
+  },
+  "booking_urls": {},
+  "last_updated": "2026-06-05T00:00:00.000Z"
+}

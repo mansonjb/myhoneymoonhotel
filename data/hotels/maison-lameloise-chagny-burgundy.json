@@ -1,0 +1,66 @@
+{
+  "slug": "maison-lameloise-chagny-burgundy",
+  "name": "Maison Lameloise",
+  "destination": "burgundy",
+  "country": "france",
+  "seo": {
+    "title": "Maison Lameloise: 3-Star Michelin Chagny Review 2026",
+    "description": "16-room hotel above three-Michelin-star restaurant in Chagny. Score 92/100, from $700/night. Best room, 7-night plan."
+  },
+  "experience_types": ["luxury", "romantic", "wine"],
+  "honeymoon_score": 92,
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 19,
+    "spa": 8,
+    "award": 15,
+    "pool": 0,
+    "beach": 0,
+    "room_service": 10,
+    "stars": 15,
+    "luxury": 15
+  },
+  "stars": 5,
+  "price_per_night_usd": { "min": 700, "max": 2400 },
+  "adults_only": false,
+  "amenities": ["michelin-3-star", "fine-dining", "wine-cellar", "historic", "concierge", "boutique", "bar", "library", "breakfast", "sommelier"],
+  "photos": [
+    { "url": "/images/hotels/maison-lameloise-chagny-burgundy/hero.webp", "alt": "maison-lameloise-chagny-burgundy — hero", "type": "hero" },
+    { "url": "/images/hotels/maison-lameloise-chagny-burgundy/room.webp", "alt": "maison-lameloise-chagny-burgundy — room", "type": "room" },
+    { "url": "/images/hotels/maison-lameloise-chagny-burgundy/pool.webp", "alt": "maison-lameloise-chagny-burgundy — pool", "type": "pool" },
+    { "url": "/images/hotels/maison-lameloise-chagny-burgundy/spa.webp", "alt": "maison-lameloise-chagny-burgundy — spa", "type": "spa" },
+    { "url": "/images/hotels/maison-lameloise-chagny-burgundy/dining.webp", "alt": "maison-lameloise-chagny-burgundy — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 4.9,
+  "tripadvisor_award": true,
+  "couples_review_pct": 93,
+  "content": {
+    "verdict": "Maison Lameloise is one of the great gastronomic addresses of France and the most serious honeymoon-fit hotel in southern Burgundy — a Relais & Châteaux property in Chagny (15 minutes south of Beaune) that has held three Michelin stars under three successive chefs since 1979, currently under Éric Pras (Bocuse d'Or 2004, MOF 2004), with 16 bedrooms above the restaurant in the original 15th-century coaching inn building. The proposition is unambiguous: this is fundamentally a three-star restaurant that happens to have a hotel above it, and the honeymoon move is to book a multi-night stay so you can eat in the dining room without packing a suitcase between. The cuisine is contemporary Burgundian — Bresse poultry, écrevisses from the Saône, Charolais beef, and a wine list curated by sommelier Pierre Vidal that holds 1,400 references with serious depth in Burgundy back vintages. The Junior Suites are properly designed (the 2016 renovation by interior architect Jean-Michel Wilmotte gave the rooms a contemporary calm without losing the historic shell — natural wood, neutral fabrics, marble bathrooms), and the breakfast in the small dining room is the most precise of any Burgundy hotel — eggs cooked your way, pastries warm from the oven, Comté from the Jura, fruit from a producer in Chassagne. The differentiator versus Hostellerie de Levernois is gastronomic depth — Lameloise is the dining destination; Levernois is the country-house resort with serious dining. For honeymoon couples building the trip around the kitchen rather than around the cellars, Lameloise is unambiguous. The location in central Chagny is walkable to the Saturday market and to the train station (the SNCF stops 5 minutes' walk away), with the Côte de Beaune 15 minutes north and the Côte Chalonnaise immediately south. The caveats are real: there is no spa, no pool, no gardens to walk in — this is a historic in-town hotel above a restaurant, not a country resort. The town of Chagny itself is small and unremarkable beyond Lameloise. And the booking-out timelines for dinner are serious — the restaurant takes reservations 12 weeks ahead and the prime weekend slots disappear immediately. For the right couples, Lameloise is the most extraordinary hotel-dining honeymoon experience in France. The move is four nights in a Junior Suite, the tasting menu in the main dining room twice, a cellar visit at Domaine Leflaive in Puligny, a lunch at Ma Cuisine in Beaune, and the Saturday market in Chagny.",
+    "best_room": "A Junior Suite (categories Suite Junior or Suite Senior) on the south side — quietest rooms, garden-facing, the largest bathrooms with marble bath. The Suite Lameloise on the top floor is the trophy room with private terrace and the historic library. Avoid the smaller Classic rooms — fine for one night but lose the Lameloise experience at scale.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival and the tasting menu", "description": "TGV from Paris Gare de Lyon direct to Chagny (1h 45min — yes, direct), 5 min walk to Lameloise. Check-in to your Junior Suite. Dinner in the main dining room — the full 9-course tasting menu with the sommelier's wine pairing." },
+      { "day": 2, "title": "Saturday market and slow afternoon", "description": "Saturday morning market in Chagny — small but excellent for cheeses, vegetables, and a working-village atmosphere. Lunch at the Lameloise bistro Pierre & Jean (Éric Pras's casual second restaurant). Afternoon nap, evening drink in the bar, light dinner from the bistro menu." },
+      { "day": 3, "title": "Côte des Blancs cellar day", "description": "Hire a driver for the day. North to Meursault, Puligny-Montrachet, Chassagne-Montrachet for the great whites. Cellar visit at Domaine Leflaive (if booked). Lunch at Olivier Leflaive in Puligny. Return for a casual dinner at the bar." },
+      { "day": 4, "title": "Beaune day", "description": "Drive 15 min north to Beaune. Hospices Hôtel-Dieu in the morning, lunch at Ma Cuisine (boeuf bourguignon, book 6-8 weeks ahead). Afternoon Marché aux Vins tasting and antique browsing. Return for the second Lameloise tasting menu dinner." },
+      { "day": 5, "title": "Côte de Nuits grand cru day", "description": "Driver for the day. North via Pommard, Volnay, Beaune, then into the Côte de Nuits — Vosne-Romanée gate photo, tasting at Méo-Camuzet (if booked), lunch at La Sommellerie in Gevrey-Chambertin. Return for light dinner at the bistro." },
+      { "day": 6, "title": "Cluny and the Mâconnais", "description": "Drive 45 min south to Cluny Abbey for the morning. Lunch at a village bistro in the Mâconnais. Afternoon at the Roche de Solutré viewpoint. Return for the bar before final dinner — chef's table option if available." },
+      { "day": 7, "title": "Slow departure", "description": "Long breakfast in the small dining room, last walk through Chagny, train back to Paris from the local station." }
+    ],
+    "caveats": [
+      "Maison Lameloise has no spa, no pool, no gardens — it is fundamentally a three-star restaurant with rooms above. Couples wanting resort facilities should choose Hostellerie de Levernois or Domaine de Rymska.",
+      "Dinner in the main dining room books 12 weeks ahead and the prime Friday-Saturday slots disappear immediately. Lock in your dinner dates before you book the room.",
+      "Chagny itself is a small working town without the medieval charm of Beaune — fine as a Lameloise base but you'll drive 15 minutes for sightseeing."
+    ],
+    "faqs": [
+      { "question": "Good for honeymooners?", "answer": "Lameloise is the most extraordinary hotel-dining honeymoon experience in Burgundy. Best for couples whose honeymoon is fundamentally a gastronomic pilgrimage. Couples wanting spa, pool, and country grounds should choose Levernois instead." },
+      { "question": "Best time to visit?", "answer": "Mid-May to mid-July and September to mid-October. The Vendanges third weekend of September is magical but books out by spring. August is wrong — too many surrounding domaines closed. November Hospices auction weekend is iconic." },
+      { "question": "Book in advance?", "answer": "Junior Suites for May-September: 6-9 months ahead. Suite Lameloise: 9-12 months. Dinner reservations: 12 weeks ahead (the booking opens on the 1st of the month three months before)." },
+      { "question": "Adults-only?", "answer": "No, but the three-star-restaurant focus means the guest mix is overwhelmingly adult couples. Children are accepted but extremely rare." },
+      { "question": "Best room type?", "answer": "Junior Suite on the south side for quiet and garden view. Suite Lameloise for the top-floor trophy room with private terrace. Avoid the small Classic rooms." },
+      { "question": "How to get there?", "answer": "TGV from Paris Gare de Lyon direct to Chagny (1h 45min, no change) — 5 min walk from the station. Or TGV to Beaune (2h 15min) then 15 min taxi south. Chauffeur transfers arranged from either." }
+    ],
+    "email_template": "Subject: Honeymoon inquiry — Maison Lameloise\n\nDear Maison Lameloise reservations,\n\nWe are planning our honeymoon for [DATES] and would love 4 nights in a Junior Suite on the south side (or the Suite Lameloise if available).\n\nQuestions:\n1. Dinner reservations in the main dining room for arrival night and one other — full tasting menu both?\n2. Honeymoon turndown (champagne in suite)?\n3. Wine pairings with chef's input across both dinners?\n4. Recommendations for cellar visits — Domaine Leflaive (Puligny), Méo-Camuzet (Vosne-Romanée) — that you can introduce us to?\n5. Chauffeur transfer from Chagny TGV station?\n\nThank you,\n[Your names]"
+  },
+  "booking_urls": {},
+  "last_updated": "2026-06-05T00:00:00.000Z"
+}

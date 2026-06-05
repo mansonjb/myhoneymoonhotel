@@ -1,0 +1,66 @@
+{
+  "slug": "hostellerie-de-levernois-burgundy",
+  "name": "Hostellerie de Levernois",
+  "destination": "burgundy",
+  "country": "france",
+  "seo": {
+    "title": "Hostellerie de Levernois: Beaune Relais & Châteaux Review",
+    "description": "Relais & Châteaux country house 8 min from Beaune with Michelin restaurant. Score 88/100, from $500/night. 7-night plan."
+  },
+  "experience_types": ["luxury", "romantic", "wine"],
+  "honeymoon_score": 88,
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 17,
+    "spa": 11,
+    "award": 14,
+    "pool": 10,
+    "beach": 0,
+    "room_service": 10,
+    "stars": 14,
+    "luxury": 13
+  },
+  "stars": 5,
+  "price_per_night_usd": { "min": 500, "max": 2000 },
+  "adults_only": false,
+  "amenities": ["spa", "outdoor-pool", "michelin", "fine-dining", "wine-cellar", "concierge", "gardens", "tennis", "boutique", "pet-friendly"],
+  "photos": [
+    { "url": "/images/hotels/hostellerie-de-levernois-burgundy/hero.webp", "alt": "hostellerie-de-levernois-burgundy — hero", "type": "hero" },
+    { "url": "/images/hotels/hostellerie-de-levernois-burgundy/room.webp", "alt": "hostellerie-de-levernois-burgundy — room", "type": "room" },
+    { "url": "/images/hotels/hostellerie-de-levernois-burgundy/pool.webp", "alt": "hostellerie-de-levernois-burgundy — pool", "type": "pool" },
+    { "url": "/images/hotels/hostellerie-de-levernois-burgundy/spa.webp", "alt": "hostellerie-de-levernois-burgundy — spa", "type": "spa" },
+    { "url": "/images/hotels/hostellerie-de-levernois-burgundy/dining.webp", "alt": "hostellerie-de-levernois-burgundy — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 4.7,
+  "tripadvisor_award": true,
+  "couples_review_pct": 85,
+  "content": {
+    "verdict": "Hostellerie de Levernois is the most polished Relais & Châteaux property in Burgundy and the obvious honeymoon base for couples building their stay around the great Côte d'Or cellars — a 25-room country house in the village of Levernois, 8 minutes south of Beaune across the flat farmland of the Saône valley, with a one-Michelin-star restaurant under chef Philippe Augé (Bocuse alumni), a casual bistro called Le Bistrot du Bord de l'Eau in a separate building on the river, an outdoor heated pool surrounded by mature parkland, and an excellent small spa. The property has been Relais & Châteaux since 1988 and shows the institutional polish — the staff genuinely know every domaine in the Côte d'Or, the concierge can secure cellar visits at Méo-Camuzet and Comte Liger-Belair that you cannot book directly, and the 800-label cellar in the main dining room is a serious resource. The honeymoon proposition is the combination: the location is perfect (5-minute drive to Beaune, 15 minutes to Pommard and Volnay, 25 minutes to Gevrey-Chambertin), the restaurant is excellent and at a sensible price point versus three-star Lameloise, the bedrooms in the historic main house are properly romantic (parquet floors, four-poster beds, garden views), and the breakfast on the terrace with the fountain is the best slow morning in Burgundy. The differentiator versus Maison Lameloise is operational scope — Lameloise is fundamentally a three-star restaurant with rooms above; Levernois is fundamentally a country-house hotel with a one-star restaurant. For honeymoon couples who want the pool and spa and the country-park morning walk alongside the cellar visits, Levernois is the right call. The caveats are real: it is a Relais & Châteaux property running on Relais & Châteaux service expectations, which some North American couples find slightly formal — the dining-room dress code is jacket required, the breakfast is plated not buffet, and the staff use the third person. The village of Levernois itself is tiny — you must drive everywhere. And the famous Côte d'Or grand cru villages are 15-25 minutes north, not on the doorstep. The honeymoon move is five nights in a Junior Suite in the main house, dinner in the Michelin restaurant on night one and four, the bistro on night two for the lighter night, a half-day cellar tour booked through concierge, and the pool every afternoon.",
+    "best_room": "A Junior Suite in the main historic house — large rooms with parquet floors, four-poster bed, marble bathroom, garden view. The Suite Eugénie is the trophy room on the corner with a wraparound view of the park. The garden cottages in the annex building are larger but less atmospheric — pick them only if you want maximum space. Avoid the small Standard rooms in the modern wing.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival from Paris", "description": "TGV from Paris Gare de Lyon to Dijon (1h 40min), rental car or chauffeur 30 min south to Levernois. Welcome champagne (a Bouchard Père et Fils Beaune Premier Cru) in the drawing room. Dinner at the Michelin restaurant — 5-course tasting menu." },
+      { "day": 2, "title": "Beaune morning, Côte de Beaune afternoon", "description": "Drive 8 min to Beaune for the Hospices Hôtel-Dieu (9am opening to beat coaches), Marché aux Vins tasting in the Cordeliers cellars. Lunch at La Maison de la Truffe. Afternoon at Pommard and Volnay — a tasting at Domaine de Montille or Domaine Comte Armand." },
+      { "day": 3, "title": "Côte de Nuits grand cru drive", "description": "Hire a driver for the day. Gevrey-Chambertin (Pierre Damoy or Drouhin-Laroze), Vougeot (Château du Clos de Vougeot), Vosne-Romanée (the Romanée-Conti gate photo, tasting at Méo-Camuzet if booked). Lunch at La Sommellerie in Gevrey. Return for dinner at the bistro." },
+      { "day": 4, "title": "Saturday market and Ma Cuisine lunch", "description": "Saturday market in Beaune on Place de la Halle — Époisses cheese, Charolais beef, oysters. Long lunch at Ma Cuisine (book at reservation) — order boeuf bourguignon. Afternoon at the Levernois pool. Dinner at the Michelin restaurant." },
+      { "day": 5, "title": "Côte des Blancs whites", "description": "Drive south to Meursault, Puligny-Montrachet, Chassagne-Montrachet for the great whites. Tastings at Domaine Leflaive (if booked), Olivier Leflaive bistro for lunch in Puligny. Afternoon at Santenay. Return for spa treatment." },
+      { "day": 6, "title": "Cluny and Chagny", "description": "Drive 1h south to Cluny Abbey for the morning. Lunch at Maison Lameloise in Chagny (three Michelin stars — book at reservation). Slow drive back through the Côte Chalonnaise. Light dinner at the bistro." },
+      { "day": 7, "title": "Slow morning", "description": "Final breakfast on the terrace, last walk in the park, drive back to Dijon for the TGV to Paris." }
+    ],
+    "caveats": [
+      "Hostellerie de Levernois is properly Relais & Châteaux formal — jacket required at dinner in the Michelin restaurant, plated breakfast, third-person service. Couples wanting casual should choose Domaine de Rymska or stay in central Beaune at Le Cep instead.",
+      "The village of Levernois is tiny with no walkable amenities — you drive everywhere, including the 5 minutes into Beaune. A rental car is essential.",
+      "Top domaine cellar visits (Méo-Camuzet, Comte Liger-Belair, Drouhin-Laroze) need to be requested via the hotel concierge 3-6 months ahead. Last-minute requests rarely succeed."
+    ],
+    "faqs": [
+      { "question": "Good for honeymooners?", "answer": "Yes — Hostellerie de Levernois is the strongest Relais & Châteaux honeymoon address in Burgundy. The combination of Michelin dining, polished service, the spa and pool, and the proximity to Beaune is unmatched in the region." },
+      { "question": "Best time to visit?", "answer": "Mid-May to mid-July and September to mid-October. The Vendanges (third weekend of September) is magical for wine lovers but requires booking by spring. August is wrong — many domaines are closed. November Hospices auction weekend is iconic but books out a year ahead." },
+      { "question": "Book in advance?", "answer": "Junior Suites for May-September: 6-9 months ahead. Suite Eugénie: 9-12 months. Cellar visits via concierge: 3-6 months. Lameloise lunch: 8-10 weeks." },
+      { "question": "Adults-only?", "answer": "No, but the Relais & Châteaux model and the wine-tourism nature mean the guest mix is overwhelmingly couples. Children are accepted but rare." },
+      { "question": "Best room type?", "answer": "Junior Suite in the historic main house. Suite Eugénie for the corner trophy room. Garden cottages for maximum space. Avoid the small Standard rooms in the modern wing." },
+      { "question": "How to get there?", "answer": "TGV from Paris Gare de Lyon to Dijon (1h 40min) then 30 min taxi south. Or TGV to Beaune (2h 15min direct) then 8 min taxi. The hotel arranges chauffeur transfers from either station." }
+    ],
+    "email_template": "Subject: Honeymoon inquiry — Hostellerie de Levernois\n\nDear Hostellerie de Levernois reservations,\n\nWe are planning our honeymoon for [DATES] and would love to stay 5-6 nights in a Junior Suite in the main house (or the Suite Eugénie if available).\n\nQuestions:\n1. Honeymoon turndown (champagne, in-suite romantic dinner option)?\n2. Spa couples' treatment availability?\n3. Reservations at the Michelin restaurant for arrival and one other evening?\n4. Concierge introduction for cellar visits — Méo-Camuzet, Comte Liger-Belair, Drouhin-Laroze, Domaine Leflaive?\n5. Lameloise lunch booking one day, and Ma Cuisine in Beaune another?\n6. Chauffeur transfer from Dijon TGV station?\n\nThank you,\n[Your names]"
+  },
+  "booking_urls": {},
+  "last_updated": "2026-06-05T00:00:00.000Z"
+}

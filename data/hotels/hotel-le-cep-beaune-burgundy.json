@@ -1,0 +1,66 @@
+{
+  "slug": "hotel-le-cep-beaune-burgundy",
+  "name": "L'Hôtel Le Cep",
+  "destination": "burgundy",
+  "country": "france",
+  "seo": {
+    "title": "L'Hôtel Le Cep: Beaune Historic Hotel Review 2026",
+    "description": "16th-century Beaune hotel in the medieval quarter, Marc Veyrat spa. Score 83/100, from $400/night. 7-night plan."
+  },
+  "experience_types": ["luxury", "historic", "wine"],
+  "honeymoon_score": 83,
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 14,
+    "spa": 12,
+    "award": 12,
+    "pool": 0,
+    "beach": 0,
+    "room_service": 10,
+    "stars": 13,
+    "luxury": 12
+  },
+  "stars": 5,
+  "price_per_night_usd": { "min": 400, "max": 1500 },
+  "adults_only": false,
+  "amenities": ["spa", "fine-dining", "wine-cellar", "historic", "concierge", "boutique", "bar", "library", "courtyard", "central-location"],
+  "photos": [
+    { "url": "/images/hotels/hotel-le-cep-beaune-burgundy/hero.webp", "alt": "hotel-le-cep-beaune-burgundy — hero", "type": "hero" },
+    { "url": "/images/hotels/hotel-le-cep-beaune-burgundy/room.webp", "alt": "hotel-le-cep-beaune-burgundy — room", "type": "room" },
+    { "url": "/images/hotels/hotel-le-cep-beaune-burgundy/pool.webp", "alt": "hotel-le-cep-beaune-burgundy — pool", "type": "pool" },
+    { "url": "/images/hotels/hotel-le-cep-beaune-burgundy/spa.webp", "alt": "hotel-le-cep-beaune-burgundy — spa", "type": "spa" },
+    { "url": "/images/hotels/hotel-le-cep-beaune-burgundy/dining.webp", "alt": "hotel-le-cep-beaune-burgundy — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 4.6,
+  "tripadvisor_award": true,
+  "couples_review_pct": 82,
+  "content": {
+    "verdict": "L'Hôtel Le Cep is the most historically resonant address inside the medieval walls of Beaune — a 64-room 5-star hotel woven across three connected hôtels particuliers (private mansions) dating from the 14th, 16th, and 18th centuries, arranged around a Renaissance courtyard with a stone spiral tower staircase that is one of the most photographed in Burgundy. The hotel is owned by Veuve Ambal (the Burgundy crémant producer) and has been carefully restored to preserve the original character — beamed ceilings, painted timber, ancient tapestries — while inserting a serious spa (the Marc Veyrat-branded wellness centre), a respectable restaurant under chef Eric Pernot, and proper modern bathrooms. The honeymoon proposition is the location and the historic atmosphere: Le Cep sits 50 metres from the Hospices Hôtel-Dieu, 100 metres from the Marché aux Vins, and 200 metres from Place Carnot — the heart of Beaune. You can walk to dinner at Ma Cuisine, walk to the Saturday market, walk to the Bouchard Père et Fils cellars. The bedrooms in the historic wings are properly atmospheric — high beamed ceilings, four-poster beds, period furniture in the renovated tradition. The Marc Veyrat Spa is excellent (treatments using the chef's herbal preparations, hammam, sauna, an indoor relaxation pool though no full swimming pool). The differentiator versus Hostellerie de Levernois is location and price — Le Cep is the walkable urban Beaune base; Levernois is the country-house resort. For couples whose Burgundy honeymoon is fundamentally about cellars, restaurants, and the Hospices, Le Cep is the right answer. The caveats are real: there is no proper swimming pool (the relaxation pool is small), the property is large by Burgundy standards (64 rooms) so it lacks the boutique intimacy of Levernois or Lameloise, and the central location means some street noise (mitigate by booking a courtyard-facing room). And the restaurant is good but not at Levernois or Lameloise level — the honeymoon move is to eat in Beaune's better restaurants and use Le Cep for sleeping. The move is four nights in a Junior Suite in the historic Hôtel Particulier wing, dinner at Ma Cuisine and Caves Madeleine on alternate nights, a long Hospices morning, the Saturday market, and a cellar tour at Bouchard Père et Fils on your doorstep.",
+    "best_room": "A Junior Suite in the Hôtel Particulier (the 16th-century wing) on the courtyard side — large rooms with beamed ceilings, four-poster beds, period furniture, courtyard view (the quietest position). The Suite Nicolas Rolin is the trophy room with the historic painted ceiling. Avoid rooms on the rue Maufoux side — street noise carries until midnight in summer.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival and Ma Cuisine dinner", "description": "TGV from Paris Gare de Lyon direct to Beaune (2h 15min), 8 min walk from the station with luggage assistance. Check-in to your Junior Suite, welcome glass of Veuve Ambal crémant in the courtyard. Dinner at Ma Cuisine — boeuf bourguignon, book 6-8 weeks ahead." },
+      { "day": 2, "title": "Hospices and Marché aux Vins", "description": "Walk 50 m to the Hospices Hôtel-Dieu (9am opening). Lunch at La Maison de la Truffe. Afternoon at the Marché aux Vins tasting in the Cordeliers cellars. Pre-dinner crémant in the Le Cep courtyard. Dinner at Caves Madeleine." },
+      { "day": 3, "title": "Côte de Nuits grand cru drive", "description": "Hire a driver for the day. Gevrey-Chambertin (Pierre Damoy or Drouhin-Laroze), Vougeot (Château du Clos de Vougeot), Vosne-Romanée (Romanée-Conti gate, tasting at Méo-Camuzet if booked). Lunch at La Sommellerie. Return for spa and casual dinner." },
+      { "day": 4, "title": "Saturday market and Lameloise lunch", "description": "Saturday market in Beaune on Place de la Halle. Drive 15 min south to Maison Lameloise in Chagny for lunch (three Michelin stars, book 8-10 weeks ahead). Slow afternoon return. Light dinner at the hotel bar." },
+      { "day": 5, "title": "Côte de Beaune whites day", "description": "Hire a driver. Pommard, Volnay, Meursault, Puligny-Montrachet, Chassagne-Montrachet. Tastings at Domaine de Montille and Olivier Leflaive. Lunch at Le Chevreuil in Meursault. Return for spa hammam." },
+      { "day": 6, "title": "Dijon day", "description": "TGV 25 min to Dijon for the Palais des Ducs, mustard museum, half-timbered old quarter. Lunch at Stéphane Derbord. Late afternoon return to Beaune. Final dinner at Le Bénaton or back at Ma Cuisine." },
+      { "day": 7, "title": "Slow morning", "description": "Long breakfast in the courtyard, last walk through the Beaune ramparts, train back to Paris from Beaune station." }
+    ],
+    "caveats": [
+      "L'Hôtel Le Cep has no proper swimming pool — the spa relaxation pool is small. Couples wanting a real pool should choose Levernois or Rymska.",
+      "The 64-room scale and the central Beaune location mean it lacks boutique intimacy and has some street noise — book a courtyard-facing room in the historic wing for the proper atmosphere.",
+      "The on-site restaurant is good but not at Levernois or Lameloise standard — the play is to use Le Cep for sleeping and eat at Beaune's better independent restaurants."
+    ],
+    "faqs": [
+      { "question": "Good for honeymooners?", "answer": "Yes — particularly for couples whose Burgundy honeymoon is fundamentally about Beaune itself, the Hospices, the markets, and the walkable cellar visits. The historic atmosphere of the courtyard and the Hôtel Particulier wing is genuinely special." },
+      { "question": "Best time to visit?", "answer": "Mid-May to mid-July and September to mid-October. The Vendanges third weekend of September is busy but magical. November Hospices auction weekend is iconic but books out 12 months ahead at premium rates." },
+      { "question": "Book in advance?", "answer": "Junior Suites in the Hôtel Particulier wing for May-September: 4-6 months. Suite Nicolas Rolin: 8-10 months. Hospices auction weekend rooms: 12 months ahead." },
+      { "question": "Adults-only?", "answer": "No, but the wine-focused atmosphere and central Beaune location mean the guest mix is overwhelmingly couples and wine travellers. Children are accepted but rare." },
+      { "question": "Best room type?", "answer": "Junior Suite in the Hôtel Particulier wing on the courtyard side. Suite Nicolas Rolin for the trophy historic room. Avoid rooms on the rue Maufoux side for street noise." },
+      { "question": "How to get there?", "answer": "TGV from Paris Gare de Lyon direct to Beaune (2h 15min) — 8 minute walk from the station. Or TGV to Dijon then 25 min south by car. The hotel arranges luggage assistance from Beaune station and transfers from Dijon TGV." }
+    ],
+    "email_template": "Subject: Honeymoon inquiry — L'Hôtel Le Cep\n\nDear L'Hôtel Le Cep reservations,\n\nWe are planning our honeymoon for [DATES] and would love 4-5 nights in a Junior Suite in the Hôtel Particulier wing on the courtyard side (or the Suite Nicolas Rolin if available).\n\nQuestions:\n1. Honeymoon turndown (champagne in suite)?\n2. Marc Veyrat Spa couples' treatment availability?\n3. Concierge introductions for cellar visits — Bouchard Père et Fils on the doorstep, plus Côte de Nuits grand cru?\n4. Ma Cuisine, Caves Madeleine, and Lameloise lunch reservations?\n5. Luggage assistance from Beaune TGV station?\n\nThank you,\n[Your names]"
+  },
+  "booking_urls": {},
+  "last_updated": "2026-06-05T00:00:00.000Z"
+}

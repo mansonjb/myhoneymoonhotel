@@ -75,6 +75,8 @@ const DEST_META: Record<string, { region: string; country: string }> = {
   'cote-dazur': { region: 'Europe', country: 'France' },
   'loire-valley': { region: 'Europe', country: 'France' },
   'champagne':  { region: 'Europe', country: 'France' },
+  'burgundy':   { region: 'Europe', country: 'France' },
+  'cotswolds':  { region: 'Europe', country: 'England' },
   'cinque-terre': { region: 'Europe', country: 'Italy' },
   'spain':      { region: 'Europe', country: 'Spain' },
   'mallorca':   { region: 'Europe', country: 'Spain' },

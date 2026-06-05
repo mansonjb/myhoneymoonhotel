@@ -1,0 +1,66 @@
+{
+  "slug": "the-lygon-arms-broadway-cotswolds",
+  "name": "The Lygon Arms",
+  "destination": "cotswolds",
+  "country": "england",
+  "seo": {
+    "title": "The Lygon Arms: Broadway Historic Coaching Inn Review",
+    "description": "16th-century coaching inn on Broadway High Street, restored 2018. Score 84/100, from $400/night. Best suite, 7-night plan."
+  },
+  "experience_types": ["luxury", "romantic", "historic"],
+  "honeymoon_score": 84,
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 12,
+    "spa": 13,
+    "award": 12,
+    "pool": 9,
+    "beach": 0,
+    "room_service": 10,
+    "stars": 13,
+    "luxury": 12
+  },
+  "stars": 5,
+  "price_per_night_usd": { "min": 400, "max": 1600 },
+  "adults_only": false,
+  "amenities": ["spa", "indoor-pool", "fine-dining", "historic", "concierge", "boutique", "pet-friendly", "gardens", "fireplaces", "afternoon-tea"],
+  "photos": [
+    { "url": "/images/hotels/the-lygon-arms-broadway-cotswolds/hero.webp", "alt": "the-lygon-arms-broadway-cotswolds — hero", "type": "hero" },
+    { "url": "/images/hotels/the-lygon-arms-broadway-cotswolds/room.webp", "alt": "the-lygon-arms-broadway-cotswolds — room", "type": "room" },
+    { "url": "/images/hotels/the-lygon-arms-broadway-cotswolds/pool.webp", "alt": "the-lygon-arms-broadway-cotswolds — pool", "type": "pool" },
+    { "url": "/images/hotels/the-lygon-arms-broadway-cotswolds/spa.webp", "alt": "the-lygon-arms-broadway-cotswolds — spa", "type": "spa" },
+    { "url": "/images/hotels/the-lygon-arms-broadway-cotswolds/dining.webp", "alt": "the-lygon-arms-broadway-cotswolds — dining", "type": "dining" }
+  ],
+  "tripadvisor_rating": 4.5,
+  "tripadvisor_award": true,
+  "couples_review_pct": 79,
+  "content": {
+    "verdict": "The Lygon Arms is the most historically resonant hotel in the Cotswolds — a 16th-century coaching inn on Broadway's wide green High Street where Charles I drank in 1645, Oliver Cromwell stayed in 1651 the night before the Battle of Worcester, and four centuries of travellers since have stopped on the Worcester-London road. The 2018 restoration by Iconic Luxury Hotels (also Cliveden and Chewton Glen) returned the inn to a serious 5-star standard with 86 rooms and suites, a proper spa with indoor pool, a snug bar with low beams and a roaring fire, and two restaurants — the Lygon Bar & Grill (steaks and pub classics) and the Lygon Wine Bar (lighter modern menu). The honeymoon proposition is the historic atmosphere: the original 1532 timber-framed building survives at the front, the Inglenook fireplace in the lounge is original, and the named rooms (Charles I, Cromwell, Elizabeth Taylor) carry genuine provenance. Broadway itself is the most beautifully proportioned Cotswold village High Street — wide, green, lined with antique shops, tea rooms, and the Lygon as the obvious centrepiece. You can walk to dinner, walk to the Cotswold Way trailhead at Broadway Tower, and the rail station at Honeybourne is 10 minutes by taxi. The differentiator versus Foxhill Manor (also on the Farncombe Estate above Broadway) is scale and accessibility — Lygon is a proper hotel with 86 rooms, a restaurant open to the public, walk-in afternoon tea, and a price point that opens it to couples who can't justify Foxhill's £1,200 a night. The caveats are real: this is a busy hotel with regular non-staying restaurant trade, weddings, and high-street footfall — the energy is bustling, not hushed. The spa is good but compact. And the named historic rooms book out a year ahead. For honeymoon couples who want the genuine historic Cotswolds inn experience with serious luxury polish and a sensible price point, the Lygon is the strongest pick. The honeymoon move is a four- or five-night stay in a Junior Suite or Charles I Suite, dinner at the Lygon Bar & Grill on arrival, an afternoon tea in the lounge by the fire, a day at the spa, and the Broadway Tower walk straight from the front door.",
+    "best_room": "A Junior Suite in the original 16th-century building — characterful low beams, four-poster beds, fireplaces. The Charles I Suite (with provenance to the 1645 royal stay) is the trophy room with original linenfold panelling. The Garden Wing suites are larger and more modern with garden access — pick depending on whether you want history or space. Avoid the smaller Standard rooms in the modern wing — fine but lose the Lygon atmosphere.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Arrival and Lygon Bar & Grill", "description": "Drive 90 min from London Heathrow or train Paddington to Honeybourne (100 min) then 10 min taxi. Check-in to your Junior Suite, welcome drinks by the Inglenook fire. Dinner at the Lygon Bar & Grill — order the Cotswold lamb and a Burgundy from the cellar." },
+      { "day": 2, "title": "Broadway Tower walk and spa", "description": "Walk from the front door up the Cotswold Way to Broadway Tower (5 miles round trip, 3 hours). Lunch back in the village at The Crown & Trumpet. Afternoon at the Lygon spa — indoor pool, sauna, couples' treatment. Dinner at the Lygon Wine Bar." },
+      { "day": 3, "title": "Chipping Campden and Hidcote", "description": "Drive 15 min to Chipping Campden — the medieval Market Hall and St James's Church. Hidcote Manor Gardens for the morning. Lunch at The Eight Bells. Afternoon antique browsing in Broadway High Street. Afternoon tea in the lounge." },
+      { "day": 4, "title": "Stow and Bourton villages", "description": "Drive 25 min to Stow-on-the-Wold for the ancient market square and St Edward's Church (the famous tree-flanked door). Lunch at The Old Stocks Inn. Afternoon at Bourton-on-the-Water for the river bridges (arrive before 11am). Return for spa." },
+      { "day": 5, "title": "Stratford-upon-Avon day", "description": "Drive 40 min to Stratford for Shakespeare's birthplace, Anne Hathaway's Cottage, the RSC theatre. Lunch at The Townhouse. Afternoon performance if available. Return for late dinner at the Lygon Bar & Grill." },
+      { "day": 6, "title": "Cotswold villages drive", "description": "Drive south through Bibury (Arlington Row), Burford (High Street antiques), and Stanton. Lunch at The Mount Inn in Stanton. Afternoon in Broadway. Final dinner at the Lygon Wine Bar with the tasting menu." },
+      { "day": 7, "title": "Slow morning", "description": "Long breakfast in the conservatory, last antique browse on Broadway High Street, drive to London or train from Honeybourne." }
+    ],
+    "caveats": [
+      "The Lygon Arms is a busy hotel with non-staying restaurant trade and regular weddings — the energy is bustling, not hushed. Honeymoon couples wanting quiet should choose Foxhill Manor or Thyme.",
+      "The spa is good but compact (4 treatment rooms, single pool) — fine for a treatment and a swim, not a full spa-day destination.",
+      "Broadway High Street is a popular day-tripper destination — Saturday daytimes can be loud just outside the front door. Book a Garden Wing room for quieter sleeping."
+    ],
+    "faqs": [
+      { "question": "Good for honeymooners?", "answer": "Yes — particularly for couples wanting the historic English coaching inn experience at a more accessible price point than Foxhill or Lime Wood. The named historic suites deliver genuine atmosphere and the village walkability is unique among Cotswolds 5-stars." },
+      { "question": "Best time to visit?", "answer": "May, June, and September for the best weather and long days. December for the Broadway Christmas atmosphere — the village lights, fireside afternoon tea, Christmas market in nearby Chipping Campden." },
+      { "question": "Book in advance?", "answer": "Junior Suites in the historic building for May-September: 4-6 months. Charles I and named historic suites: 8-12 months. Spa couples' treatment: 2-3 weeks." },
+      { "question": "Adults-only?", "answer": "No — families and dogs are welcomed. The guest mix is broad. The Garden Wing rooms tend to skew adult; the family-suite rooms in the modern wing are where children cluster." },
+      { "question": "Best room type?", "answer": "Junior Suite in the original 16th-century building. Charles I Suite for the trophy historic room. Garden Wing suites for more space and quiet sleeping. Avoid the small Standard rooms in the modern wing." },
+      { "question": "How to get there?", "answer": "London Heathrow 90 min drive, London Paddington train to Honeybourne 100 min then 10 min taxi, or to Moreton-in-Marsh 95 min then 25 min taxi. The property arranges transfers from either station and Heathrow." }
+    ],
+    "email_template": "Subject: Honeymoon inquiry — The Lygon Arms\n\nDear Lygon Arms reservations,\n\nWe're planning our honeymoon for [DATES] and would love 4-5 nights in a Junior Suite in the original 16th-century building (or the Charles I Suite if available).\n\nQuestions:\n1. Honeymoon turndown (champagne, fireside table for two)?\n2. Are weddings booked across our dates?\n3. Spa couples' treatment availability?\n4. Afternoon tea reservation in the lounge for one afternoon?\n5. Transfer from Honeybourne station or London Heathrow?\n\nThank you,\n[Your names]"
+  },
+  "booking_urls": {},
+  "last_updated": "2026-06-05T00:00:00.000Z"
+}
