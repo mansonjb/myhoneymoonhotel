@@ -1,0 +1,66 @@
+{
+  "slug": "forestis-dolomites",
+  "name": "Forestis Dolomites",
+  "destination": "dolomites",
+  "country": "italy",
+  "seo": {
+    "title": "Forestis Dolomites: 62-Suite Glass-Spa Sanctuary Review",
+    "description": "62 suites at 1,800m above Brixen with a cantilevered glass spa. Score 92/100, from €1,200/night. Suite pick + 7 nights."
+  },
+  "experience_types": ["luxury", "wellness", "boutique"],
+  "honeymoon_score": 92,
+  "score_breakdown": {
+    "adults_only": 10,
+    "couples_pct": 20,
+    "spa": 15,
+    "award": 14,
+    "pool": 8,
+    "beach": 0,
+    "room_service": 9,
+    "stars": 15,
+    "luxury": 15
+  },
+  "stars": 5,
+  "price_per_night_usd": { "min": 1200, "max": 6500 },
+  "adults_only": true,
+  "amenities": ["adults-only", "all-suite", "glass-spa", "infinity-pool", "panoramic-views", "stone-pine-treatments", "fine-dining", "half-board", "wellness-rituals", "hiking-trails"],
+  "photos": [
+    { "url": "/images/hotels/forestis-dolomites/hero.webp", "alt": "forestis-dolomites — towers", "type": "hero" },
+    { "url": "/images/hotels/forestis-dolomites/room.webp", "alt": "forestis-dolomites — penthouse suite", "type": "room" },
+    { "url": "/images/hotels/forestis-dolomites/spa.webp", "alt": "forestis-dolomites — glass spa", "type": "spa" },
+    { "url": "/images/hotels/forestis-dolomites/dining.webp", "alt": "forestis-dolomites — restaurant", "type": "dining" },
+    { "url": "/images/hotels/forestis-dolomites/activity.webp", "alt": "forestis-dolomites — infinity pool dolomites", "type": "activity" }
+  ],
+  "tripadvisor_rating": 4.9,
+  "tripadvisor_award": true,
+  "couples_review_pct": 93,
+  "content": {
+    "verdict": "Forestis Dolomites is the single most arresting hotel in the Alps and one of the four or five most distinctive resort hotels in Europe — a 62-suite-and-chalet adults-only retreat perched at 1,800 metres on the Plose plateau above Brixen, with three connected vertical larch-and-stone towers and a 2,000-square-metre glass spa cantilevered into the void above the valley. The original 1912 building was a tuberculosis sanatorium chosen for the purity of its alpine air; the 2020 reconstruction by the Vienna-based Stefan Hitthaler Architekten and the South Tyrolean owners (the Hinteregger family) is a piece of architecture that has redefined what a mountain hotel can be. Every accommodation is a suite or chalet — no standard rooms — and every one faces directly onto the UNESCO Dolomite peaks, with floor-to-ceiling glass framing the Sass de Putia, the Peitlerkofel, and the Geisler/Odle range. The defining spaces are the three pools: the indoor 25-metre lap pool with the panoramic glass wall, the outdoor heated infinity pool with the most photographed mountain view in the Alps (a steam-edged infinity over the Plose valley), and the Auriga rooftop pool with the open-air panorama. The spa philosophy is based on the four trees of the mountain — stone pine (for sleep), spruce (for vitality), larch (for strength), and mountain pine (for breath) — and the signature treatments use needles and oils harvested from the property's own forest. The restaurant is one of the best half-board kitchens in the region — modern Alpine cuisine drawing on the Hinteregger family farms below — and is included in the rate. For honeymooners, the rooms split: the Tower Suite (538 sq ft) at entry, the Forest Penthouse (1,076 sq ft, top floor, the freestanding bath at the glass wall facing the peaks) as the move, and the standalone Forest Chalet (1,615 sq ft, private sauna and steam) as the destination splurge. The hotel is adults-only (16+), which is unusual in the Dolomites and a major honeymoon plus. Caveats: the rate is the highest in the Dolomites; the location at 1,800m is 20 minutes' drive from Brixen and a serious commitment to wellness over sightseeing; and a stay is best paired with a second valley (Alta Badia or Cortina) to access the famous trails like Tre Cime. But the wellness, the architecture, and the view from your bed — there is nothing else like it in the Alps. The single most strongly honeymoon-fit mountain hotel in Europe.",
+    "best_room": "The Forest Penthouse (1,076 sq ft) on the top floor of one of the three towers is the room — the freestanding stone bath set into the glass wall facing the Sass de Putia, the panoramic 270-degree mountain view, and the private terrace with the daybeds. For the splurge, the standalone Forest Chalet with private sauna and steam room. The Tower Suite (entry tier) is excellent but ask for upper floors. Avoid the lower 2 floors of any tower — the view above the treeline is the point.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Plose plateau arrival", "description": "Private transfer from Venice (2h30) or Innsbruck (1h45). Welcome stone-pine tea in the lobby. Sunset infinity pool. Half-board dinner in the panoramic restaurant. Watch the enrosadira (the alpine glow) on the Sass de Putia from your room." },
+      { "day": 2, "title": "Spa day and short walks", "description": "Slow morning. Stone-pine signature treatment (90 min). Long lunch on the terrace. Afternoon walk on the Plose trail to Rifugio Plose for a coffee. Dinner half-board. Final hour in the outdoor infinity pool." },
+      { "day": 3, "title": "Brixen and the Eisack Valley", "description": "Drive down to Brixen for the cloister and the Abbazia di Novacella (the 12th-century monastery and one of South Tyrol's great wineries). Lunch at Stiftskeller Novacella. Afternoon back at the spa." },
+      { "day": 4, "title": "Seceda day in Val Gardena", "description": "Drive to Ortisei (1h). Two-stage cable car to the Seceda ridge (2,518m). The famous Geisler peaks panorama. Lunch at Rifugio Sofie. Return for spa evening." },
+      { "day": 5, "title": "Lago di Braies day", "description": "Drive to Lago di Braies (1h45). Early morning rowing boat on the lake (pre-9am to beat the crowd). Lunch at a Pragser Wildsee guesthouse. Afternoon return for the Auriga rooftop pool at sunset." },
+      { "day": 6, "title": "Mountain hike or transfer", "description": "Full-day hike to the Adolf Munkel Trail beneath the Geisler peaks (10km, easy). Picnic from the hotel. OR transfer to Rosa Alpina Belmond in Alta Badia for the second leg of the honeymoon." },
+      { "day": 7, "title": "Final morning and departure", "description": "Final breakfast on the terrace. Last sauna ritual. Private transfer to Venice or Innsbruck." }
+    ],
+    "caveats": [
+      "Highest rate in the Dolomites — entry-level Tower Suites from €1,200 in shoulder months.",
+      "1,800m altitude location is 20 minutes' drive from Brixen — a wellness retreat, not a touring base.",
+      "Adults-only (16+) — no children under 16 permitted."
+    ],
+    "faqs": [
+      { "question": "Good for honeymooners?", "answer": "Among the top three honeymoon mountain hotels in Europe. Adults-only, all-suite, the glass spa and outdoor infinity pool with the Sass de Putia view make it peerless." },
+      { "question": "Best time to visit?", "answer": "July–September for summer (wildflowers, all trails open, golden September light). December–March for ski (Plose ski area accessible). AVOID April–May and October–November (closed shoulder)." },
+      { "question": "Book in advance?", "answer": "Tower Suites 4–6 months out for July–September. Forest Penthouses 6–9 months for high season. Forest Chalets 9–12 months — there are only a handful." },
+      { "question": "Adults-only?", "answer": "Yes — Forestis is strictly 16+ year-round. One of very few Dolomites adults-only hotels and a major honeymoon plus." },
+      { "question": "Best room type?", "answer": "Tower Suite for value (upper floors). Forest Penthouse for the freestanding-bath-at-the-glass-wall moment. Forest Chalet for the standalone-with-sauna splurge." },
+      { "question": "How to get there?", "answer": "Venice Marco Polo (VCE) is 2h30 by car via the A22. Innsbruck (INN) is 1h45 via the Brenner Pass. Brixen train station is 25 minutes; the hotel arranges Mercedes E-Class transfers from any of the three (€220–€450)." }
+    ],
+    "email_template": "Subject: Honeymoon inquiry — Forestis Dolomites\n\nDear Forestis reservations,\n\nWe would like to book 5 to 7 nights for our honeymoon [DATES] — interested in a Forest Penthouse on the top floor, or a Forest Chalet if available.\n\nQuestions:\n1. Honeymoon arrival amenity (stone-pine welcome, in-room turndown)?\n2. Mercedes transfer from Venice Marco Polo (VCE)?\n3. Highest-floor Forest Penthouse for the Sass de Putia view?\n4. Stone-pine signature spa treatment for two?\n5. Private outdoor infinity pool slot at sunset (enrosadira)?\n\nThank you,\n[Your names]"
+  },
+  "booking_urls": {},
+  "last_updated": "2026-06-06T00:00:00.000Z"
+}

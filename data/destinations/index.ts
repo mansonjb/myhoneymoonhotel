@@ -98,6 +98,8 @@ import puglia from './puglia'
 import capri from './capri'
 import burgundy from './burgundy'
 import cotswolds from './cotswolds'
+import dolomites from './dolomites'
+import singapore from './singapore'
 
 export const DESTINATION_META: Record<string, DestinationMeta> = {
   'bora-bora': boraBora,
@@ -199,4 +201,6 @@ export const DESTINATION_META: Record<string, DestinationMeta> = {
   'capri': capri,
   'burgundy': burgundy,
   'cotswolds': cotswolds,
+  'dolomites': dolomites,
+  'singapore': singapore,
 }

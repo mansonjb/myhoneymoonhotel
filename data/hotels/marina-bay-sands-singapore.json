@@ -1,0 +1,66 @@
+{
+  "slug": "marina-bay-sands-singapore",
+  "name": "Marina Bay Sands",
+  "destination": "singapore",
+  "country": "singapore",
+  "seo": {
+    "title": "Marina Bay Sands: World's Most Iconic Infinity Pool Review",
+    "description": "2,560-room Moshe Safdie icon with the 150m rooftop infinity pool. Score 85/100, from $550/night. Suite pick, 7-night plan."
+  },
+  "experience_types": ["luxury", "city"],
+  "honeymoon_score": 85,
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 15,
+    "spa": 10,
+    "award": 13,
+    "pool": 10,
+    "beach": 0,
+    "room_service": 9,
+    "stars": 14,
+    "luxury": 14
+  },
+  "stars": 5,
+  "price_per_night_usd": { "min": 550, "max": 12000 },
+  "adults_only": false,
+  "amenities": ["infinity-pool", "rooftop-skypark", "casino", "fine-dining", "celebrity-chefs", "shopping-mall", "convention-centre", "concierge", "spa-treatments", "club-lounge"],
+  "photos": [
+    { "url": "/images/hotels/marina-bay-sands-singapore/hero.webp", "alt": "marina-bay-sands — iconic skypark", "type": "hero" },
+    { "url": "/images/hotels/marina-bay-sands-singapore/room.webp", "alt": "marina-bay-sands — premier room", "type": "room" },
+    { "url": "/images/hotels/marina-bay-sands-singapore/spa.webp", "alt": "marina-bay-sands — banyan tree spa", "type": "spa" },
+    { "url": "/images/hotels/marina-bay-sands-singapore/dining.webp", "alt": "marina-bay-sands — spago restaurant", "type": "dining" },
+    { "url": "/images/hotels/marina-bay-sands-singapore/activity.webp", "alt": "marina-bay-sands — infinity pool", "type": "activity" }
+  ],
+  "tripadvisor_rating": 4.6,
+  "tripadvisor_award": true,
+  "couples_review_pct": 79,
+  "content": {
+    "verdict": "Marina Bay Sands is the most photographed hotel in Asia and one of the half-dozen most recognisable buildings on earth — Moshe Safdie's three 55-storey towers crowned by the 1.2-hectare SkyPark and the 150-metre infinity pool that defines modern Singapore. The hotel is not a boutique; it is a city — 2,560 rooms, a mall with three Cartier boutiques, the world's largest atrium casino, two theatres, four celebrity-chef restaurants (Wolfgang Puck's Spago, Tetsuya, Bread Street Kitchen, db Bistro), and the Sands Expo & Convention Centre. The architecture is the experience: every aspect of every honeymoon at the Sands revolves around the rooftop infinity pool (open only to hotel guests, 6am–11pm) where you swim 200 metres above the city with the financial district skyline filling the horizon. It is not exaggeration to say this is the single most spectacular swimming pool on earth. For honeymooners, the calculus is precise: stay 2 nights, get the iconic photos, do the Marina Bay basics, then move to Capella Sentosa or Raffles for the second half of the trip. The room categories are extensive: the entry-level Premier Room (444 sq ft) is excellent for the price — large bed, marble bathroom, full Sands service; the Premier Bay View has the Gardens by the Bay panorama; and the Sands Suite category (Orchid, Hibiscus, the spectacular Presidential and Paiza Sky Suites at $12,000+) delivers private pools, butler, and club access. The dining: Spago by Wolfgang Puck on the SkyPark for sunset, CÉ LA VI nightclub on the rooftop, Waku Ghin (2-Michelin Tetsuya) for the splurge dinner, and Bread Street Kitchen by Gordon Ramsay for the casual. The Banyan Tree Spa wraps around the 55th floor with views over the bay — book a couples 90-minute. Caveats: the property is enormous and can feel like a convention hotel during peak weeks; the casino is real and visible (skip the entire wing if you want zero gambling presence); and the famous infinity pool gets very busy (sunrise — 6.30am — is the only time it's empty for photos). But the SkyPark at sunset, the Spectra light show over the bay at 8 and 9pm seen from the pool, and that single photograph of the two of you with the Singapore skyline behind — there is nothing else in the world quite like it.",
+    "best_room": "The Premier Bay View room (444 sq ft) is the value pick — fronting Gardens by the Bay with the most dramatic city panorama. For a club tier, the Club Premier on the higher floors with Sands Club lounge access (breakfast, evening cocktails, the 55th-floor view) is worth the upgrade. For honeymoon splurge, the Orchid Suite (1,830 sq ft) on the 55th floor with butler and SkyPark access. The Paiza Sky Suite (5,930 sq ft, private 25m pool) is the top-tier celebrity option at $35,000+/night.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Iconic arrival and the SkyPark", "description": "Private transfer from Changi (25 min). Check into the Premier Bay View room. Sunrise SkyPark infinity pool the next morning. Sunset cocktails at CÉ LA VI rooftop. Dinner at Spago with the Spectra 8pm light show below." },
+      { "day": 2, "title": "Gardens by the Bay and the Spectra night", "description": "Morning at Gardens by the Bay (Cloud Forest, Flower Dome). Lunch at Satay by the Bay. Afternoon rest by the infinity pool. Dinner at Waku Ghin (2-Michelin Tetsuya). 8.45pm Garden Rhapsody light show at the Supertree Grove." },
+      { "day": 3, "title": "Move to Raffles or Capella", "description": "Late morning check-out (extend if possible to a 3pm). Lunch at Bread Street Kitchen. Transfer to Capella Sentosa or Raffles for the second leg of the honeymoon." },
+      { "day": 4, "title": "Sentosa or heritage day at the next hotel", "description": "Full day at Capella's cascading pools or at Raffles Long Bar — depending on the move. Couples spa. Hawker dinner at Newton Food Centre (chilli crab)." },
+      { "day": 5, "title": "Chinatown and Tiong Bahru", "description": "Morning at Buddha Tooth Relic Temple. Lunch at Maxwell hawker centre. Afternoon in Tiong Bahru. Dinner at Burnt Ends or Odette (3-Michelin)." },
+      { "day": 6, "title": "Little India and rooftops", "description": "Tekka Centre morning. Komala Vilas lunch. Sultan Mosque and Haji Lane afternoon. Cocktails at Atlas. Dinner at the second hotel." },
+      { "day": 7, "title": "Final morning and departure", "description": "Final breakfast. Private transfer to Changi — allow 4 hours for Jewel Changi (Rain Vortex, Canopy Park) before the flight." }
+    ],
+    "caveats": [
+      "Property is enormous (2,560 rooms) — convention atmosphere during peak weeks.",
+      "Casino is fully visible from the public spaces — skip if a deal-breaker.",
+      "Infinity pool can be busy 9am–9pm; sunrise 6.30am is the only quiet window."
+    ],
+    "faqs": [
+      { "question": "Good for honeymooners?", "answer": "For 2–3 nights at the start of a Singapore trip — yes, the infinity pool and skyline view are unrepeatable. Combine with a smaller honeymoon hotel (Capella, Raffles) for the second leg." },
+      { "question": "Best time to visit?", "answer": "February–April for dry weather. AVOID the mid-September F1 weekend (rates triple, Marina Bay closes for the circuit) and November–January monsoon." },
+      { "question": "Book in advance?", "answer": "Premier Rooms 1–2 months ahead. Sands Suites 3–4 months ahead. Suites with SkyPark access book out months in advance for school holidays." },
+      { "question": "Adults-only?", "answer": "No — the Sands is a family hotel during school holidays. The Sands Club tier and the suite-only wing remain more adult-skewing." },
+      { "question": "Best room type?", "answer": "Premier Bay View for value, Club Premier for the lounge upgrade, Orchid Suite for the honeymoon splurge. Tower 3 has the best skyline views." },
+      { "question": "How to get there?", "answer": "Changi (SIN) is 25 minutes by Grab (S$30) or 20 minutes by MRT (Bayfront station, in the basement). Hotel limousine is S$200." }
+    ],
+    "email_template": "Subject: Honeymoon inquiry — Marina Bay Sands\n\nDear Marina Bay Sands reservations,\n\nWe would like to book 2 to 3 nights for our honeymoon [DATES] — interested in a Club Premier Bay View room with Sands Club access, ideally Tower 3 high floor.\n\nQuestions:\n1. Honeymoon arrival amenity (champagne, in-room turndown)?\n2. Best Tower for skyline views — Tower 1 or 3?\n3. SkyPark infinity pool quietest hours (sunrise access)?\n4. Confirmed dinner at Spago for sunset (Spectra at 8pm)?\n5. Couples spa treatment at Banyan Tree Spa (55th floor)?\n\nThank you,\n[Your names]"
+  },
+  "booking_urls": {},
+  "last_updated": "2026-06-06T00:00:00.000Z"
+}

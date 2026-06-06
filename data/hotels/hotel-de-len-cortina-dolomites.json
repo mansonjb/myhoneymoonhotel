@@ -1,0 +1,66 @@
+{
+  "slug": "hotel-de-len-cortina-dolomites",
+  "name": "Hotel de Len",
+  "destination": "dolomites",
+  "country": "italy",
+  "seo": {
+    "title": "Hotel de Len Cortina: 24-Room Eco-Design Boutique Review",
+    "description": "24-room Cortina eco-design boutique with rooftop dining. Score 84/100, from €490/night. Best room and 5-night plan."
+  },
+  "experience_types": ["luxury", "boutique", "wellness"],
+  "honeymoon_score": 84,
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 19,
+    "spa": 11,
+    "award": 12,
+    "pool": 4,
+    "beach": 0,
+    "room_service": 9,
+    "stars": 14,
+    "luxury": 15
+  },
+  "stars": 4,
+  "price_per_night_usd": { "min": 490, "max": 2200 },
+  "adults_only": false,
+  "amenities": ["eco-design", "rooftop-restaurant", "spa-treatments", "fine-dining", "alpine-larch-architecture", "concierge", "boutique-scale", "in-town-location", "sustainable-design", "afternoon-tea"],
+  "photos": [
+    { "url": "/images/hotels/hotel-de-len-cortina-dolomites/hero.webp", "alt": "hotel-de-len — larch facade", "type": "hero" },
+    { "url": "/images/hotels/hotel-de-len-cortina-dolomites/room.webp", "alt": "hotel-de-len — deluxe room", "type": "room" },
+    { "url": "/images/hotels/hotel-de-len-cortina-dolomites/spa.webp", "alt": "hotel-de-len — spa", "type": "spa" },
+    { "url": "/images/hotels/hotel-de-len-cortina-dolomites/dining.webp", "alt": "hotel-de-len — rooftop restaurant", "type": "dining" },
+    { "url": "/images/hotels/hotel-de-len-cortina-dolomites/activity.webp", "alt": "hotel-de-len — corso italia", "type": "activity" }
+  ],
+  "tripadvisor_rating": 4.8,
+  "tripadvisor_award": true,
+  "couples_review_pct": 88,
+  "content": {
+    "verdict": "Hotel de Len is the most architecturally interesting new hotel in Cortina — a 24-room eco-design boutique that opened in 2022 in a contemporary larch-wood-clad building on Corso Italia, the pedestrianised main street of the village, with a 6th-floor rooftop restaurant that frames the Tofane and Sorapis peaks across an open-air bar. The name means \"of wood\" in Ladin, and the entire architectural concept is a celebration of South Tyrolean larch — local-sourced, the structural larch beams visible in every room, the larch-tiled spa, the larch-clad bar — with concrete, glass, and pale stone as accents. The architect Flaviano Capriotti has produced something that the Dolomites had been missing: a properly contemporary 4-star Superior boutique that competes on design rather than chasing the Cristallo's heritage glamour. For honeymooners, the value proposition is sharp: at €490–€800/night, this is the most design-led Cortina hotel at a sub-Cristallo price, and the 24-room scale means real intimacy. The accommodations split into Classic, Deluxe, and Junior Suite categories — all with the larch-and-stone palette, every one with a Cortina village or mountain view. The signature space is the 6th-floor SanBrite restaurant — chef Riccardo Gaspari's evolution of his original SanBrite farm-restaurant (1-Michelin-starred) above Cortina — with the wraparound roof terrace for sunset cocktails. The spa is small (3 treatment rooms, a Finnish sauna, a Turkish steam, no pool) — this is a boutique, not a destination spa property. The honeymoon move: a Deluxe Room (the larger category) with the Cortina village + Tofane view, or a Junior Suite for the larger space. The location is the property's defining advantage: directly on Corso Italia, walkable to every restaurant, every boutique, the cable car for the Faloria ski area, and the Cortina town hall. Caveats: no swimming pool (this is a boutique in the heart of town, not a resort); the rooftop restaurant gets booked out months in advance (book at booking, not on arrival); and the lower-floor rooms can have street activity until 11pm in high season. But for couples who want the most design-led, most contemporary, and most centrally located Cortina honeymoon at the strongest €/sq-ft value, Hotel de Len is the move. Combine with 2 nights at Forestis or Rosa Alpina for the perfect 5-night Dolomites.",
+    "best_room": "The Deluxe Room (377 sq ft) with the Tofane view is the value-honeymoon move — the larch-and-stone palette, the spacious larch-clad bath, the village + mountain view. For the splurge, the Junior Suite (538 sq ft) with the separate sitting area. Avoid the ground-floor Classic Rooms — they face the street and can have late-night Cortina activity. Request rooms on floors 4 or 5 for the best views and quiet.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Cortina arrival and SanBrite", "description": "Private transfer from Venice (2h). Settle into the larch-clad room. Cocktails at the rooftop bar. Dinner at SanBrite (the rooftop restaurant — book at booking). Walk Corso Italia at night." },
+      { "day": 2, "title": "Tre Cime day", "description": "Drive to Misurina (45 min). Toll road to Rifugio Auronzo. The 10km Tre Cime loop — lunch at Rifugio Locatelli. Return via Lago di Misurina. Aperitivo at Cortina's Hotel de la Poste bar. Dinner at Tivoli (1-Michelin, 10-min taxi)." },
+      { "day": 3, "title": "Lago di Braies and slow day", "description": "Early morning to Lago di Braies (1h drive, 6am departure). Rowing boat at sunrise. Breakfast at the lake. Return for couples treatment at Hotel de Len spa. Light lunch. Afternoon nap. Dinner at SanBrite." },
+      { "day": 4, "title": "Cinque Torri and Lagazuoi", "description": "Drive to Passo Falzarego (30 min). Cable car to Lagazuoi. WWI tunnels. Lunch at Rifugio Lagazuoi. Afternoon at Cinque Torri Open-Air Museum. Return for rooftop sundown. Dinner at El Brite de Larieto (mountain hut dining)." },
+      { "day": 5, "title": "Final morning in Cortina", "description": "Final breakfast at the hotel. Shopping on Corso Italia (cashmere, Italian leather, ski couture). Lunch at Cooperativa di Cortina. Private transfer to Venice (or move to Forestis/Rosa Alpina for the second leg of the honeymoon)." },
+      { "day": 6, "title": "Optional Forestis or Rosa Alpina leg", "description": "If pairing with a second valley: arrive at Forestis (2h drive) or Rosa Alpina (1h45). Full afternoon at the new property. Half-board dinner." },
+      { "day": 7, "title": "Departure", "description": "Final breakfast. Private transfer to Venice or Innsbruck from the second-leg property." }
+    ],
+    "caveats": [
+      "No swimming pool (Cristallo or Forestis if pool is essential).",
+      "Rooftop SanBrite restaurant books 1–2 months ahead in high season.",
+      "Lower-floor street-facing rooms have Friday/Saturday Corso Italia activity until 11pm."
+    ],
+    "faqs": [
+      { "question": "Good for honeymooners?", "answer": "Strongly — small scale (24 rooms), modern design, in-village location, and 88% couples reviewer rating. Best paired with a second mountain-resort property for variety." },
+      { "question": "Best time to visit?", "answer": "July–September for summer hiking. December–March for ski (cable car for Faloria is 5-minute walk). AVOID April–May and October–November shoulder closures." },
+      { "question": "Book in advance?", "answer": "Deluxe Rooms 2–3 months out for July–September and Christmas. Junior Suites 4 months for peak season." },
+      { "question": "Adults-only?", "answer": "No — but the boutique scale (24 rooms) and the rooftop restaurant atmosphere skew predominantly adult." },
+      { "question": "Best room type?", "answer": "Deluxe Room with Tofane view on floor 4 or 5 for value. Junior Suite for the splurge. Avoid ground-floor street-facing Classic Rooms on weekends." },
+      { "question": "How to get there?", "answer": "Venice Marco Polo (VCE) is 2h by car. Innsbruck (INN) is 2h30. The hotel arranges transfers from VCE (€380) or INN (€450)." }
+    ],
+    "email_template": "Subject: Honeymoon inquiry — Hotel de Len Cortina\n\nDear Hotel de Len reservations,\n\nWe would like to book 4 to 5 nights for our honeymoon [DATES] — interested in a Deluxe Room on the 4th or 5th floor with Tofane view, or a Junior Suite if available.\n\nQuestions:\n1. Honeymoon arrival amenity (champagne, in-room turndown)?\n2. Mercedes transfer from Venice Marco Polo (VCE)?\n3. CONFIRMED dinner at SanBrite (the rooftop) one of our nights?\n4. Couples treatment at the spa?\n5. Quietest floor (away from Corso Italia weekend activity)?\n\nThank you,\n[Your names]"
+  },
+  "booking_urls": {},
+  "last_updated": "2026-06-06T00:00:00.000Z"
+}

@@ -102,6 +102,8 @@ const MAP_LOCATION_OVERRIDE: Record<string, string> = {
   venice:            'Venice, Italy',
   puglia:            'Polignano a Mare, Puglia, Italy',
   capri:             'Capri, Italy',
+  singapore:         'Marina Bay, Singapore',
+  dolomites:         'Cortina d\'Ampezzo, Italy',
 }
 
 function resolveMapLocation(input: string): string {

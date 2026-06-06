@@ -1,0 +1,66 @@
+{
+  "slug": "fullerton-bay-singapore",
+  "name": "The Fullerton Bay Hotel",
+  "destination": "singapore",
+  "country": "singapore",
+  "seo": {
+    "title": "Fullerton Bay Hotel: Marina Bay Glass-Box 5★ Review 2026",
+    "description": "100-room André Fu glass-pavilion 5★ on the water at Clifford Pier. Score 86/100, from $620/night. Suite pick + 7 nights."
+  },
+  "experience_types": ["luxury", "city", "boutique"],
+  "honeymoon_score": 86,
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 18,
+    "spa": 11,
+    "award": 13,
+    "pool": 9,
+    "beach": 0,
+    "room_service": 10,
+    "stars": 14,
+    "luxury": 13
+  },
+  "stars": 5,
+  "price_per_night_usd": { "min": 620, "max": 6500 },
+  "adults_only": false,
+  "amenities": ["marina-view", "rooftop-pool", "spa-treatments", "fine-dining", "michelin-restaurant", "lantern-bar", "concierge", "butler-service", "fitness-centre", "cocktail-lounge"],
+  "photos": [
+    { "url": "/images/hotels/fullerton-bay-singapore/hero.webp", "alt": "fullerton-bay — glass facade", "type": "hero" },
+    { "url": "/images/hotels/fullerton-bay-singapore/room.webp", "alt": "fullerton-bay — premier bay view", "type": "room" },
+    { "url": "/images/hotels/fullerton-bay-singapore/spa.webp", "alt": "fullerton-bay — spa", "type": "spa" },
+    { "url": "/images/hotels/fullerton-bay-singapore/dining.webp", "alt": "fullerton-bay — la brasserie", "type": "dining" },
+    { "url": "/images/hotels/fullerton-bay-singapore/activity.webp", "alt": "fullerton-bay — lantern rooftop", "type": "activity" }
+  ],
+  "tripadvisor_rating": 4.7,
+  "tripadvisor_award": true,
+  "couples_review_pct": 84,
+  "content": {
+    "verdict": "The Fullerton Bay Hotel is the most architecturally ambitious five-star in Singapore — a 100-room glass and bronze pavilion designed by André Fu, sitting on the water at the historic Clifford Pier on the Marina Bay waterfront, with the famous Lantern rooftop bar suspended above it. Every room faces the bay. The hotel is structurally connected (by a covered bridge) to its older sister, the Fullerton Hotel (the 400-room neo-classical former General Post Office) — but the Bay property is the one to choose for honeymooners. It is smaller (100 rooms vs 400), more design-led, has direct waterfront access, and the Lantern rooftop pool with the iconic Marina Bay Sands view across the water is one of the most romantic sundown spots in the city. The rooms are André Fu — pale parquet, bronze fittings, raw silk, walk-in showers with bay views — and every room has a floor-to-ceiling glass wall onto Marina Bay. The signature is the 6th-floor Lantern bar and infinity pool, perched on a structural bronze lantern over Clifford Pier — sunsets here, with the Sands directly across the water turning gold, then violet, are a Singapore honeymoon ritual. The dining lineup is exceptional: La Brasserie (French, by André Chiang protégés) is one of the city's best classical-European rooms; Clifford Pier (the historic seafood restaurant) does dim sum and seafood with bay views; and the Landing Point ground-floor lounge is the city's most underrated afternoon-tea room. Spa treatments are at The Fullerton Spa (in the sister hotel across the bridge) — fine but not the property's strongest suit. The honeymoon room picks are clear: the Premier Bay View on floors 5 and 6 for the full glass-front Sands panorama, the Loft (1,184 sq ft, vaulted ceiling, oversized bath) for the architectural splurge, or the Presidential Suite for the destination. Caveats: the property is intensely urban (no beach, no rainforest); the spa is across the bridge in the older sister; and the older Fullerton next door can feel touristic by comparison. But for couples who want the most design-forward, most photogenic Marina Bay address — the Fullerton Bay is the move.",
+    "best_room": "The Premier Bay View room (484 sq ft) on floors 5 or 6 — the full floor-to-ceiling glass wall onto Marina Bay, André Fu's pale-parquet design, the freestanding bath set into the bay-facing window. For the splurge, the Loft (1,184 sq ft) with vaulted ceiling and oversized bath. The Presidential Suite (1,884 sq ft) faces the Sands directly. Avoid rooms numbered _01 to _10 on the lower floors — partial views and pier-side noise.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Glass-pavilion arrival and the Lantern", "description": "Private transfer from Changi (25 min). Welcome champagne in the bay-view room. Lantern rooftop pool at sunset (4–6pm). Cocktails at Lantern bar. Dinner at La Brasserie." },
+      { "day": 2, "title": "Marina Bay across the water", "description": "Morning walk along the bay loop (15 min to Marina Bay Sands). National Gallery lunch. Afternoon at the ArtScience Museum. Sunset at CÉ LA VI rooftop atop Sands. 8pm Spectra light show from the Helix Bridge. Late dinner back at Clifford Pier dim sum." },
+      { "day": 3, "title": "Chinatown and Maxwell", "description": "Morning at Buddha Tooth Relic Temple. Lunch at Maxwell hawker centre. Afternoon at Tiong Bahru. Couples spa treatment at The Fullerton Spa. Dinner at Burnt Ends (1-Michelin)." },
+      { "day": 4, "title": "Sentosa day", "description": "Cable car to Sentosa. Capella day pass at the cascading pools. Lunch at Cliff. Afternoon at Tanjong Beach Club. Cable car back. Dinner at Odette (3-Michelin)." },
+      { "day": 5, "title": "Gardens by the Bay and lazy day", "description": "Morning at Gardens by the Bay (Cloud Forest, Flower Dome). Lazy afternoon at the Lantern pool. Afternoon tea at the Landing Point. 8.45pm Garden Rhapsody light show. Dinner at Waku Ghin (2-Michelin Tetsuya)." },
+      { "day": 6, "title": "Little India and Kampong Glam", "description": "Tekka Centre morning. Komala Vilas lunch. Sultan Mosque and Haji Lane afternoon. Cocktails at Atlas. Dinner at La Brasserie." },
+      { "day": 7, "title": "Final morning and departure", "description": "Final breakfast at the Landing Point. Last morning at the Lantern pool. Private transfer to Changi (allow 4 hours for Jewel Changi)." }
+    ],
+    "caveats": [
+      "No beach, no rainforest — pure urban Marina Bay address.",
+      "Spa is across the covered bridge at the older sister Fullerton Hotel.",
+      "Lantern rooftop pool is small (25 m) and can be busy 11am–4pm; sunrise and sunset are best."
+    ],
+    "faqs": [
+      { "question": "Good for honeymooners?", "answer": "The most design-led Marina Bay hotel and one of the most photogenic in Asia. The Lantern rooftop at sunset and the floor-to-ceiling glass bay views from the bed make it strongly honeymoon-fit." },
+      { "question": "Best time to visit?", "answer": "February–April and July for dry weather. Avoid November–January monsoon and the F1 weekend in mid-September." },
+      { "question": "Book in advance?", "answer": "Premier Bay View rooms 2–3 months ahead. Lofts 4 months for peak season. Presidential Suite 6+ months out." },
+      { "question": "Adults-only?", "answer": "No, but the property scales small (100 rooms) and the room rate keeps the atmosphere intensely adult." },
+      { "question": "Best room type?", "answer": "Premier Bay View on floor 5 or 6 for the iconic Sands view. Loft for the architectural splurge. Presidential Suite for the destination splurge." },
+      { "question": "How to get there?", "answer": "Changi (SIN) is 25 minutes by Grab (S$30) or 18 minutes by MRT (Raffles Place station, 5-minute walk via the underground pass). Hotel limousine S$180." }
+    ],
+    "email_template": "Subject: Honeymoon inquiry — The Fullerton Bay Hotel\n\nDear Fullerton Bay reservations,\n\nWe would like to book 4 to 5 nights for our honeymoon [DATES] — interested in a Premier Bay View on the 5th or 6th floor, or a Loft if available.\n\nQuestions:\n1. Honeymoon arrival amenity (champagne, in-room turndown)?\n2. Highest available floor for the Sands view?\n3. Lantern rooftop pool reservation for sunset?\n4. Confirmed dinner at La Brasserie?\n5. Couples treatment at The Fullerton Spa (across the bridge)?\n\nThank you,\n[Your names]"
+  },
+  "booking_urls": {},
+  "last_updated": "2026-06-06T00:00:00.000Z"
+}

@@ -127,7 +127,9 @@ const DEST_META: Record<string, { region: string; country: string }> = {
   'japan':        { region: 'Asia', country: 'Japan' },
   'bhutan':       { region: 'Asia', country: 'Bhutan' },
   'kerala':       { region: 'Asia', country: 'India' },
+  'singapore':    { region: 'Asia', country: 'Singapore' },
   'slovenia':     { region: 'Europe', country: 'Slovenia' },
+  'dolomites':    { region: 'Europe', country: 'Italy' },
 }
 
 // Pretty destination label (e.g. "santorini" → "Santorini", "st-barts" → "St. Barts")

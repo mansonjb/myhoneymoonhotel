@@ -1,0 +1,66 @@
+{
+  "slug": "adler-lodge-ritten-dolomites",
+  "name": "Adler Lodge Ritten",
+  "destination": "dolomites",
+  "country": "italy",
+  "seo": {
+    "title": "Adler Lodge Ritten: 20-Chalet Soprabolzano Sanctuary Review",
+    "description": "20 chalets on the Renon plateau at 1,200m with infinity pool and forest spa. Score 89/100, from €750/night."
+  },
+  "experience_types": ["luxury", "wellness", "boutique"],
+  "honeymoon_score": 89,
+  "score_breakdown": {
+    "adults_only": 10,
+    "couples_pct": 19,
+    "spa": 14,
+    "award": 13,
+    "pool": 9,
+    "beach": 0,
+    "room_service": 8,
+    "stars": 14,
+    "luxury": 13
+  },
+  "stars": 5,
+  "price_per_night_usd": { "min": 750, "max": 3500 },
+  "adults_only": true,
+  "amenities": ["adults-only", "standalone-chalets", "infinity-pool", "forest-spa", "saltwater-pool", "panoramic-views", "fine-dining", "half-board", "wellness-rituals", "hiking-trails"],
+  "photos": [
+    { "url": "/images/hotels/adler-lodge-ritten-dolomites/hero.webp", "alt": "adler-lodge-ritten — chalets", "type": "hero" },
+    { "url": "/images/hotels/adler-lodge-ritten-dolomites/room.webp", "alt": "adler-lodge-ritten — chalet interior", "type": "room" },
+    { "url": "/images/hotels/adler-lodge-ritten-dolomites/spa.webp", "alt": "adler-lodge-ritten — forest spa", "type": "spa" },
+    { "url": "/images/hotels/adler-lodge-ritten-dolomites/dining.webp", "alt": "adler-lodge-ritten — dining room", "type": "dining" },
+    { "url": "/images/hotels/adler-lodge-ritten-dolomites/activity.webp", "alt": "adler-lodge-ritten — outdoor pool", "type": "activity" }
+  ],
+  "tripadvisor_rating": 4.9,
+  "tripadvisor_award": true,
+  "couples_review_pct": 92,
+  "content": {
+    "verdict": "Adler Lodge Ritten is the most secluded luxury hotel in the Dolomites — 20 standalone larch-and-stone chalets and 30 main-building rooms scattered across a forested clearing on the Renon plateau at 1,200 metres above Bolzano, with a year-round heated outdoor saltwater infinity pool that frames the Latemar peaks like a postcard. The Sanoner family — fifth-generation South Tyrolean hoteliers who also operate the sister Adler Spa Resort Dolomiti in Ortisei — opened this property in 2017 as their adult-only wellness flagship, and the clarity of vision is total: there are no televisions in the chalets, no children under 14, no day visitors, no Wi-Fi in the common areas (only in the rooms, by request), and the entire 5-acre property is car-free (you walk from a central drop-off). The signature spaces are the outdoor saltwater infinity pool with the Latemar view (open year-round, heated to 32°C), the forest spa with its panoramic Finnish sauna, biosauna, herbal steam, salt-and-stone room, ice grotto, and a series of treatment rooms with floor-to-ceiling forest views. The chalets are standalone 538-sq-ft larch wood structures with a private terrace, a freestanding bath at the window, a fireplace, and direct access to the forest paths. Hiking is the second hour-of-the-day activity here — the Ritten / Renon plateau is famous for its earth pyramids (the eroded geological columns at Soprabolzano), the cable car down to Bolzano (8 minutes for the historic Old Town), and the gentlest meadow hikes in the Alps. For honeymooners, the moves are: a Chalet (the 538-sq-ft entry tier) is excellent value; the Chalet Penthouse (the top-floor of one of the main buildings, with private terrace) is the upgrade; and the Family Suites are larger but rarely needed for couples. Dining is included as half-board — modern South Tyrolean cuisine drawing on the Sanoner family farms — and is genuinely excellent without chasing Michelin stars. Caveats: the location at Soprabolzano is 12 minutes from Bolzano by cable car and 1h–1h30 from Cortina or Alta Badia by car — this is a base for the western Dolomites (Latemar, Catinaccio, Schlern), not the famous Tre Cime side; the rate is high but not Forestis-high; and the architecture, while beautiful, is less photographed than Forestis. But for couples who want the gentlest, quietest, most genuinely intimate Dolomites honeymoon — adult-only, chalet-led, with a saltwater infinity pool framing the Latemar at sunset — Adler Lodge Ritten is the most strongly honeymoon-fit property in the region.",
+    "best_room": "The Chalet (538 sq ft) is the entry tier and the experience — standalone larch wood, private terrace, freestanding bath at the window, fireplace, all the privacy of a villa with the service of a hotel. For the upgrade, the Chalet Penthouse in one of the main buildings adds the higher floor and the panoramic Latemar view. Family Suites are larger but unnecessary for couples. Request a chalet at the forest edge (not the central courtyard) for the best privacy and forest views.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Renon plateau arrival", "description": "Private transfer from Venice (2h45) or Innsbruck (2h). Welcome herbal tea. Settle into the chalet. Sunset infinity pool with the Latemar view. Half-board dinner." },
+      { "day": 2, "title": "Spa day and the earth pyramids", "description": "Slow morning. Sauna ritual. Light lunch. Afternoon walk to the Soprabolzano earth pyramids (90 min round trip). Couples treatment at the spa. Half-board dinner." },
+      { "day": 3, "title": "Bolzano historic day", "description": "Cable car down to Bolzano (8 min). The South Tyrol Museum of Archaeology (the Iceman Ötzi). Lunch in the Old Town. Afternoon at the Bolzano weekly market on Piazza Erbe. Cable car back. Outdoor pool at sunset." },
+      { "day": 4, "title": "Alpe di Siusi day", "description": "Drive to Compatsch (1h). Cable car / chairlift onto the Alpe di Siusi (the largest high meadow in Europe). Lunch at Rifugio Sanon overlooking the Schlern. Return for spa evening." },
+      { "day": 5, "title": "Latemar / Catinaccio day", "description": "Drive to Carezza (45 min). Cable car up to the Latemar plateau. Walk the Lago di Carezza loop (one of the great alpine lakes). Lunch at the Schloss Hotel Korb. Return for the saltwater infinity pool." },
+      { "day": 6, "title": "Wine and slow day", "description": "Drive to Eppan / Kaltern (45 min) for the South Tyrol wine road. Lunch at Tenuta Castel Sallegg. Wine tasting at J. Hofstätter. Return for sauna sundown ritual." },
+      { "day": 7, "title": "Final spa and departure", "description": "Final breakfast. Last sauna ritual or pool. Private transfer to Venice or Innsbruck." }
+    ],
+    "caveats": [
+      "Soprabolzano location is for the WESTERN Dolomites — Tre Cime is 2h+ drive.",
+      "Half-board only (no à la carte standalone) — exceptional but a fixed format.",
+      "Adults-only (14+) — no children under 14 permitted."
+    ],
+    "faqs": [
+      { "question": "Good for honeymooners?", "answer": "Among the very strongest honeymoon-fit Dolomites hotels. Adults-only chalets, year-round outdoor infinity pool with the Latemar view, exceptional spa, total quiet." },
+      { "question": "Best time to visit?", "answer": "Year-round — outdoor pool is heated and open in winter (one of its signatures). June–September for hiking, December–March for ski (closer to Carezza and Obereggen ski areas)." },
+      { "question": "Book in advance?", "answer": "Chalets 4 months out for July–September and Christmas. Chalet Penthouses 6+ months for peak. Christmas–New Year books a year in advance." },
+      { "question": "Adults-only?", "answer": "Yes — strictly 14+. One of the very few Dolomites adults-only hotels and a key honeymoon advantage." },
+      { "question": "Best room type?", "answer": "Chalet for the standalone experience (forest-edge). Chalet Penthouse for the upgrade with the panoramic top-floor view." },
+      { "question": "How to get there?", "answer": "Venice Marco Polo (VCE) is 2h45. Innsbruck (INN) is 2h via the Brenner. Bolzano train station is 30 minutes by car or cable car (8 minutes from Soprabolzano station). The hotel arranges transfers from any of the three." }
+    ],
+    "email_template": "Subject: Honeymoon inquiry — Adler Lodge Ritten\n\nDear Adler Lodge Ritten reservations,\n\nWe would like to book 5 to 7 nights for our honeymoon [DATES] — interested in a Chalet at the forest edge, or a Chalet Penthouse if available.\n\nQuestions:\n1. Honeymoon arrival amenity (champagne, in-room turndown)?\n2. Forest-edge chalet placement (away from the central courtyard)?\n3. Mercedes transfer from Venice Marco Polo (VCE)?\n4. Couples treatment in the spa with the panoramic view?\n5. Sauna sundown ritual schedule?\n\nThank you,\n[Your names]"
+  },
+  "booking_urls": {},
+  "last_updated": "2026-06-06T00:00:00.000Z"
+}

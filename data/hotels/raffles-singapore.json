@@ -1,0 +1,66 @@
+{
+  "slug": "raffles-singapore",
+  "name": "Raffles Singapore",
+  "destination": "singapore",
+  "country": "singapore",
+  "seo": {
+    "title": "Raffles Singapore: Suite-Only Heritage Hotel Review 2026",
+    "description": "115-suite colonial grande dame on Beach Road. Score 91/100, from $1,400/night. Verdict, suite pick, 7-night itinerary."
+  },
+  "experience_types": ["luxury", "city", "wellness"],
+  "honeymoon_score": 91,
+  "score_breakdown": {
+    "adults_only": 0,
+    "couples_pct": 18,
+    "spa": 12,
+    "award": 15,
+    "pool": 7,
+    "beach": 0,
+    "room_service": 10,
+    "stars": 15,
+    "luxury": 14
+  },
+  "stars": 5,
+  "price_per_night_usd": { "min": 1400, "max": 9500 },
+  "adults_only": false,
+  "amenities": ["historic-property", "all-suite", "butler-service", "spa-treatments", "fine-dining", "courtyard-pool", "long-bar", "library", "concierge", "afternoon-tea"],
+  "photos": [
+    { "url": "/images/hotels/raffles-singapore/hero.webp", "alt": "raffles-singapore — colonial facade", "type": "hero" },
+    { "url": "/images/hotels/raffles-singapore/room.webp", "alt": "raffles-singapore — state suite", "type": "room" },
+    { "url": "/images/hotels/raffles-singapore/spa.webp", "alt": "raffles-singapore — spa", "type": "spa" },
+    { "url": "/images/hotels/raffles-singapore/dining.webp", "alt": "raffles-singapore — tiffin room", "type": "dining" },
+    { "url": "/images/hotels/raffles-singapore/activity.webp", "alt": "raffles-singapore — long bar", "type": "activity" }
+  ],
+  "tripadvisor_rating": 4.8,
+  "tripadvisor_award": true,
+  "couples_review_pct": 84,
+  "content": {
+    "verdict": "Raffles Singapore is the most storied hotel in Asia — a colonnaded, gleaming-white colonial palace on Beach Road that has been the address since 1887, where Joseph Conrad, Somerset Maugham and Rudyard Kipling actually stayed (not the marketing version), where the Singapore Sling was mixed in 1915, and where, after a 2017–2019 floor-to-ceiling restoration, every one of the 115 keys is a suite. There is no standard room. The smallest accommodation (the Courtyard Suite, 484 sq ft) is larger than the Presidential Suite at most modern five-stars. The property is structured as a series of low-rise blocks around landscaped courtyards, the pool, and the original Bar & Billiard Room — meaning you wander a small colonial village rather than ride elevators, and every room opens onto verandah or courtyard. The butler service is genuine 24-hour Raffles butler — unpacking, restaurant booking, the works — and the dining is exceptional across all six restaurants and bars: Long Bar for the Sling ritual, Tiffin Room for North Indian, Yi by Jereme Leung for high-end Cantonese, BBR by Alain Ducasse for Mediterranean, the Writers Bar for the elegant cocktail, and the iconic Grand Lobby for afternoon tea (book ahead — sells out 2 weeks in advance). For honeymooners, the moves are clear: the State Room Suite is the heritage-romance choice, with its mahogany floors and verandah; the Personality Suite (named for one of the writers — Maugham, Coward, Conrad, etc.) is the bibliophile choice; and the spectacular Presidential Suite (the only 4-bedroom suite of its kind in the world) is the destination splurge. Caveats: the location on Beach Road is heritage Civic District, not Marina Bay or Orchard, so you walk 15 minutes or grab a taxi for shopping and the Sands skyline; the swimming pool is small (this is a heritage property, not a resort); and the room rate is the highest in Singapore. None of which matters. The Long Bar at 6pm, the Sikh doorman in white uniform, dinner at Tiffin Room beneath the iron chandeliers, and the courtyard pool at sunrise — these are honeymoon memories nothing else in Asia replicates. The most romantic city hotel in Southeast Asia, full stop.",
+    "best_room": "The State Room Suite is the sweet spot — 614 sq ft of polished mahogany and high ceilings, with the Raffles teak four-poster bed and a verandah onto the courtyard. For the writer-romantics, the Personality Suites (Somerset Maugham, Noel Coward, Joseph Conrad, Charlie Chaplin) are the move — each themed to its namesake's stays. For the splurge, the 4-bedroom Presidential Suite (the world's only of its kind) at $9,500/night. Avoid the entry-level Courtyard Suite during low-season construction periods — verify which courtyard before booking.",
+    "itinerary_7_nights": [
+      { "day": 1, "title": "Heritage arrival and the Long Bar", "description": "Private transfer from Changi (25 min). Butler unpacking. Walk Raffles' colonial verandahs. Singapore Sling at the Long Bar at 6pm (the original 1915 recipe). Dinner at Tiffin Room — the North Indian thali under iron chandeliers." },
+      { "day": 2, "title": "Marina Bay and the Helix Bridge", "description": "Morning at the National Gallery (5 minutes' walk). Lunch at CÉ LA VI on top of Marina Bay Sands (52nd floor). Late afternoon nap in the suite. Sunset across the Helix Bridge to Gardens by the Bay for the 8.45pm Garden Rhapsody light show. Late dinner at BBR by Alain Ducasse back at Raffles." },
+      { "day": 3, "title": "Tiong Bahru and Chinatown", "description": "Breakfast in the Grand Lobby. Taxi to Tiong Bahru — Tiong Bahru Bakery croissants, the art deco housing walk. Lunch at the Maxwell Food Centre (Tian Tian chicken rice). Afternoon at Buddha Tooth Relic Temple. Couples spa treatment at Raffles Spa. Dinner at Yi by Jereme Leung." },
+      { "day": 4, "title": "Sentosa Day", "description": "Cable car from Mount Faber to Sentosa. Day pass at Capella Sentosa's beach pool. Lunch at Cliff. Afternoon at Tanjong Beach Club. Return for sunset at the Writers Bar. Late hawker dinner at Newton Food Centre (chilli crab at Liang Court)." },
+      { "day": 5, "title": "Slow Singapore day", "description": "Sleep late. Afternoon tea in the Grand Lobby (book 2 weeks ahead). Couples massage in Raffles Spa. Wander the Raffles Arcade boutiques. Dinner at La Dame de Pic (3-Michelin Anne-Sophie Pic at the Sands)." },
+      { "day": 6, "title": "Little India and Kampong Glam", "description": "Morning at Tekka Centre and Sri Veeramakaliamman Temple. Lunch at Komala Vilas (vegetarian thali). Afternoon at the Sultan Mosque and Haji Lane shopping. Cocktails on the rooftop at Atlas. Dinner at Odette (3-Michelin)." },
+      { "day": 7, "title": "Final Sling and slow departure", "description": "Breakfast in suite. One last Singapore Sling at the Long Bar. Private transfer to Changi (allow 4 hours for Jewel Changi exploration before the flight)." }
+    ],
+    "caveats": [
+      "Pool is small and courtyard-style — not a Sentosa-resort experience.",
+      "Beach Road location is heritage Civic District; Marina Bay nightlife is a 15-minute walk or taxi.",
+      "Rates are the highest in Singapore — entry-level Courtyard Suites start at $1,400 in shoulder months."
+    ],
+    "faqs": [
+      { "question": "Good for honeymooners?", "answer": "The most romantic heritage hotel in Asia. Suite-only, butler-led, the Long Bar/Tiffin Room/Grand Lobby rituals — peerless for couples who want colonial-era romance." },
+      { "question": "Best time to visit?", "answer": "February–April and July are ideal — drier, less afternoon rain. Avoid November–January (monsoon) and the F1 weekend in mid-September (rate triples)." },
+      { "question": "Book in advance?", "answer": "State Suites 4–6 months ahead for Feb–April. Personality Suites 6+ months for high season. Presidential Suite books 9–12 months out." },
+      { "question": "Adults-only?", "answer": "No — the property accepts families, but the rate point and suite-only structure mean the atmosphere is overwhelmingly adult." },
+      { "question": "Best room type?", "answer": "State Room Suite for value heritage; Personality Suite for the literary romance; Grand Hotel Suite for the splurge with two verandahs." },
+      { "question": "How to get there?", "answer": "Changi Airport (SIN) is 25 minutes by Raffles private transfer (S$200) or 20 minutes by MRT to City Hall. The hotel arranges complimentary BMW Series 7 transfers for State Suites and above." }
+    ],
+    "email_template": "Subject: Honeymoon inquiry — Raffles Singapore\n\nDear Raffles reservations,\n\nWe would like to book 3 to 4 nights for our honeymoon [DATES]. We are interested in the State Room Suite, or a Personality Suite if available.\n\nQuestions:\n1. Honeymoon arrival turndown (champagne, bath drawn, in-suite flowers)?\n2. Complimentary BMW transfer from Changi?\n3. Confirmed table at Tiffin Room and BBR by Alain Ducasse?\n4. Afternoon tea reservation in the Grand Lobby?\n5. Couples treatment availability in Raffles Spa?\n\nThank you,\n[Your names]"
+  },
+  "booking_urls": {},
+  "last_updated": "2026-06-06T00:00:00.000Z"
+}
