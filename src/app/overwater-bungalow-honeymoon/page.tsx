@@ -313,7 +313,14 @@ export default function OverwaterBungalowHoneymoonPage() {
         </Link>
       </div>
 
-      <div className="mt-12 text-center">
+      <div className="mt-12 text-center text-sm text-zinc-500">
+        Related guides:{' '}
+        <Link href="/luxury-honeymoon" className="text-rose-500 hover:underline">luxury honeymoon</Link>{' '}·{' '}
+        <Link href="/all-inclusive-honeymoon" className="text-rose-500 hover:underline">all-inclusive honeymoon</Link>{' '}·{' '}
+        <Link href="/itineraries/maldives" className="text-rose-500 hover:underline">Maldives itinerary</Link>
+      </div>
+
+      <div className="mt-8 text-center">
         <Link href="/destinations" className="text-rose-500 hover:underline text-sm font-semibold">
           ← Back to all honeymoon destinations
         </Link>

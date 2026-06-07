@@ -303,7 +303,14 @@ export default function AllInclusiveHoneymoonPage() {
         </Link>
       </div>
 
-      <div className="mt-12 text-center">
+      <div className="mt-12 text-center text-sm text-zinc-500">
+        Related guides:{' '}
+        <Link href="/honeymoon-on-a-budget" className="text-rose-500 hover:underline">honeymoon on a budget</Link>{' '}·{' '}
+        <Link href="/luxury-honeymoon" className="text-rose-500 hover:underline">luxury honeymoon</Link>{' '}·{' '}
+        <Link href="/last-minute-honeymoon" className="text-rose-500 hover:underline">last-minute honeymoon</Link>
+      </div>
+
+      <div className="mt-8 text-center">
         <Link href="/destinations" className="text-rose-500 hover:underline text-sm font-semibold">
           ← Back to all honeymoon destinations
         </Link>

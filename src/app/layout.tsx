@@ -289,7 +289,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
               </div>
 
               {/* Links grid */}
-              <div className="grid grid-cols-2 sm:grid-cols-3 gap-8">
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-8">
                 <div>
                   <h3 className="text-xs font-semibold uppercase tracking-widest text-zinc-400 mb-4">{m['footer.destinations'] ?? 'Destinations'}</h3>
                   <ul className="space-y-2.5 text-sm text-zinc-500">
@@ -304,6 +304,15 @@ export default async function RootLayout({ children }: { children: React.ReactNo
                     {[['Overwater Villas','overwater-bungalows'],['Adults-Only','adults-only'],['Safari','safari'],['Ultra-Luxury','luxury'],['Beach','beach'],['Wellness','wellness']].map(([l,s])=>(
                       <li key={s}><Link href={lp(`/experiences/${s}`)} className="hover:text-zinc-900 transition-colors">{l}</Link></li>
                     ))}
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-xs font-semibold uppercase tracking-widest text-zinc-400 mb-4">Guides</h3>
+                  <ul className="space-y-2.5 text-sm text-zinc-500">
+                    <li><Link href={lp('/luxury-honeymoon')} className="hover:text-zinc-900 transition-colors">Luxury honeymoon</Link></li>
+                    <li><Link href={lp('/honeymoon-on-a-budget')} className="hover:text-zinc-900 transition-colors">Honeymoon on a budget</Link></li>
+                    <li><Link href={lp('/honeymoon-packing-list')} className="hover:text-zinc-900 transition-colors">Honeymoon packing list</Link></li>
+                    <li><Link href={lp('/last-minute-honeymoon')} className="hover:text-zinc-900 transition-colors">Last-minute honeymoon</Link></li>
                   </ul>
                 </div>
                 <div>

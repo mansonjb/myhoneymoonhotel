@@ -283,7 +283,14 @@ export default function HoneymoonInFrancePage() {
         </Link>
       </div>
 
-      <div className="mt-12 text-center">
+      <div className="mt-12 text-center text-sm text-zinc-500">
+        Related guides:{' '}
+        <Link href="/itineraries/provence" className="text-rose-500 hover:underline">Provence itinerary</Link>{' '}·{' '}
+        <Link href="/luxury-honeymoon" className="text-rose-500 hover:underline">luxury honeymoon</Link>{' '}·{' '}
+        <Link href="/compare/destinations/tuscany-vs-provence" className="text-rose-500 hover:underline">Tuscany vs Provence</Link>
+      </div>
+
+      <div className="mt-8 text-center">
         <Link href="/destinations" className="text-rose-500 hover:underline text-sm font-semibold">
           ← Back to all honeymoon destinations
         </Link>
