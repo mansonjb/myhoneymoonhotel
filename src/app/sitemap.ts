@@ -59,6 +59,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/compare', lastModified: new Date(), changeFrequency: 'weekly', priority: 0.75 },
     { path: '/honeymoon-with-dog', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
     { path: '/honeymoon-in-france', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.85 },
+    { path: '/overwater-bungalow-honeymoon', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.85 },
+    { path: '/all-inclusive-honeymoon', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.85 },
     { path: '/about', lastModified: new Date(), changeFrequency: 'yearly', priority: 0.5 },
     { path: '/contact', lastModified: new Date(), changeFrequency: 'yearly', priority: 0.4 },
     { path: '/privacy', lastModified: new Date(), changeFrequency: 'yearly', priority: 0.2 },

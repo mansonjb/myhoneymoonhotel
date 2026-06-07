@@ -312,6 +312,8 @@ export default async function RootLayout({ children }: { children: React.ReactNo
                     <li><Link href={lp('/about')} className="hover:text-zinc-900 transition-colors">{m['footer.ourStory'] ?? 'Our story'}</Link></li>
                     <li><Link href={lp('/quiz')} className="hover:text-zinc-900 transition-colors">{m['footer.findMyHotel'] ?? 'Find my hotel'}</Link></li>
                     <li><Link href={lp('/honeymoon-with-dog')} className="hover:text-zinc-900 transition-colors">Honeymoon with a dog</Link></li>
+                    <li><Link href={lp('/overwater-bungalow-honeymoon')} className="hover:text-zinc-900 transition-colors">Overwater bungalow honeymoon</Link></li>
+                    <li><Link href={lp('/all-inclusive-honeymoon')} className="hover:text-zinc-900 transition-colors">All-inclusive honeymoon</Link></li>
                     <li><a href="https://hotelswithpets.com" target="_blank" rel="noopener" className="hover:text-zinc-900 transition-colors">Hotels with pets ↗</a></li>
                     <li><Link href={lp('/contact')} className="hover:text-zinc-900 transition-colors">{m['footer.contact'] ?? 'Contact'}</Link></li>
                     <li><Link href={lp('/affiliate-disclosure')} className="hover:text-zinc-900 transition-colors">{m['footer.affiliateDisclosure'] ?? 'Affiliate disclosure'}</Link></li>
