@@ -14,6 +14,7 @@ import { getAllHotels } from '@/lib/hotels'
 import { BUDGET_CONTENT } from '@/lib/longtail-content/budget'
 import { MONTH_CONTENT } from '@/lib/longtail-content/month'
 import { DURATION_CONTENT } from '@/lib/longtail-content/duration'
+import { PERSONA_CONTENT } from '@/lib/longtail-content/persona'
 import { DESTINATION_META } from '../../../data/destinations'
 
 export const dynamicParams = false
@@ -461,51 +462,68 @@ function PersonaPage({ slug, persona }: { slug: string; persona: string }) {
   const desc = `Honeymoon ideas tuned for ${label.toLowerCase()} — the destinations and hotels we'd actually book.`
   const { article, breadcrumb } = commonSchemas(slug, headline, desc, `Honeymoon for ${label}`)
 
-  const intro: Record<string, string> = {
-    foodies: 'A foodie honeymoon is not a tasting menu every night — it’s a destination where the everyday food culture is the romance. The five regions below qualify; everywhere else you’re importing the food onto the honeymoon, which never quite works.',
-    'adventure-seekers': 'Adventure honeymoons get a bad name from the generic version (Costa Rica zip-line + spa). The good version pairs a real wilderness with a single extraordinary lodge as base. These five do it.',
-    introverts: 'Honeymoons can be exhausting if the destination is built for socializing. The five places below let you genuinely disappear — private villas, low guest counts, no scenes to be seen in.',
-    'second-marriage': 'A second-marriage honeymoon doesn’t need to repeat the first one’s mistakes. The five destinations below reward couples who know what they actually like.',
-    'over-40': 'The honeymoons designed for couples in their twenties don’t work as well in your forties. The five below are the ones we’d book for adult couples who want quiet, refined, no club music after 10pm.',
-  }
+  const content = PERSONA_CONTENT[persona]
+  const allHotels = getAllHotels()
+  const hotels: Hotel[] = content
+    ? content.hotelSlugs.map(s => allHotels.find(h => h.slug === s)).filter((h): h is Hotel => Boolean(h))
+    : []
+  const faqs = content?.faqs ?? []
 
-  const faqs = [
-    { question: `What makes a destination good for ${label.toLowerCase()}?`, answer: `The five above share specific traits: ${persona === 'foodies' ? 'a deep everyday food culture, walkable markets, and hotels with kitchens worth eating in.' : persona === 'adventure-seekers' ? 'genuine wilderness paired with a single base lodge of real quality.' : persona === 'introverts' ? 'low guest counts, private accommodations, and no expectation of socializing.' : persona === 'second-marriage' ? 'confident, design-led properties with adult pacing and no apology for being expensive.' : 'no club music after 10pm, real spa programs, and the assumption that you’d rather read than party.'}` },
-    { question: 'Should I look anywhere else?', answer: 'The list is intentionally tight. Adding more would dilute the recommendation. If none of these five resonates, the issue is usually that one of the partners wants a different style of honeymoon — worth resolving before booking.' },
-    { question: 'What about the hotels?', answer: 'Each destination links to its full guide where the top properties are scored. We avoided listing specific hotels here because the right one depends on dates and budget — but the destination page does the property work properly.' },
-    { question: 'Is this list season-specific?', answer: 'No — these are persona fits, not seasonal fits. Cross-reference with the destination’s month-by-month table once you have travel dates.' },
-  ]
+  if (!content) {
+    return (
+      <Shell eyebrow="By Style" h1={headline} intro={desc} schemas={[article, breadcrumb]}>
+        <p>Content for this persona is being prepared.</p>
+      </Shell>
+    )
+  }
 
   return (
     <>
       <Shell
         eyebrow="By Style"
         h1={headline}
-        intro={intro[persona]}
-        schemas={[article, breadcrumb, faqSchema(faqs)]}
+        intro={content.intro}
+        schemas={[article, breadcrumb, hotelItemListSchema(hotels), faqSchema(faqs)]}
       >
-        <h2>The five destinations that fit</h2>
-        <ul>
-          {recs.map(r => (
-            <li key={r.slug}>
-              <Link href={`/destinations/${r.slug}`}>{r.label}</Link> — {r.why}
-            </li>
-          ))}
-        </ul>
+        <h2>The editorial angle</h2>
+        <p>{content.angle}</p>
 
-        <h2>How to pick between them</h2>
-        <p>
-          Start with flight time. After that, the question is usually one of pacing — the slower destinations
-          (Tuscany, Provence, Bhutan, the Cotswolds) reward couples who genuinely want to sit still; the more active
-          ones (Patagonia, Iceland, Kenya, New Zealand) reward couples whose idea of romance involves movement.
-        </p>
+        <h2>The {hotels.length} hotels that fit</h2>
+        <p>Picked from our catalogue for the specific traits that matter to {label.toLowerCase()} — verified slugs, real properties.</p>
+        <div className="not-prose mt-6">
+          {hotels.length === 0 ? (
+            <p className="text-zinc-500">Catalog data missing for one or more picks.</p>
+          ) : (
+            hotels.map(h => <HotelCardSimple key={h.slug} h={h} />)
+          )}
+        </div>
+
+        <h2>Destination patterns that work</h2>
+        {content.destinationClusters.map((c, i) => (
+          <div key={i} className="mb-6">
+            <h3 className="font-display text-xl text-zinc-900 mt-6">{c.title}</h3>
+            <p>{c.body}</p>
+          </div>
+        ))}
+
+        <h2>What to skip</h2>
+        <p>{content.whatToSkip}</p>
 
         <h2>The honest take</h2>
-        <p>
-          Persona honeymoons work because they’re an editing tool. Most honeymoons fail not on the hotel choice but
-          on a mismatch between the destination’s pace and the couple’s actual habits. The five above are the ones
-          we’d book.
-        </p>
+        <p>{content.closing}</p>
+
+        {recs.length > 0 && (
+          <>
+            <h2>Related destinations</h2>
+            <ul>
+              {recs.map(r => (
+                <li key={r.slug}>
+                  <Link href={`/destinations/${r.slug}`}>{r.label}</Link> — {r.why}
+                </li>
+              ))}
+            </ul>
+          </>
+        )}
 
         <p>
           Related: <Link href="/quiz">find my hotel quiz</Link> ·{' '}
