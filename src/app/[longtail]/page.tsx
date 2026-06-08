@@ -16,6 +16,11 @@ import { MONTH_CONTENT } from '@/lib/longtail-content/month'
 import { DURATION_CONTENT } from '@/lib/longtail-content/duration'
 import { PERSONA_CONTENT } from '@/lib/longtail-content/persona'
 import { DESTINATION_META } from '../../../data/destinations'
+import HotelPickCard from '@/components/longtail/HotelPickCard'
+import DestinationPickCard from '@/components/longtail/DestinationPickCard'
+import Stay22InlineCTA from '@/components/longtail/Stay22InlineCTA'
+import FAQAccordion from '@/components/longtail/FAQAccordion'
+import SectionDivider from '@/components/longtail/SectionDivider'
 
 export const dynamicParams = false
 
@@ -119,6 +124,12 @@ export async function generateMetadata(
 
 function cap(s: string): string { return s.charAt(0).toUpperCase() + s.slice(1) }
 
+// ---------- helpers ----------
+function countryForDestination(destSlug: string, allHotels: Hotel[]): string {
+  const h = allHotels.find(x => x.destination === destSlug)
+  return h?.country ?? ''
+}
+
 // ---------- page ----------
 export default async function LongtailPage(
   { params }: { params: Promise<Params> },
@@ -135,50 +146,47 @@ export default async function LongtailPage(
 }
 
 // ---------- shared ui ----------
-function Shell({
-  eyebrow, h1, intro, schemas, children,
+function Hero({
+  eyebrow, h1, intro, tldr,
 }: {
   eyebrow: string
   h1: string
   intro: string
-  schemas: object[]
-  children: React.ReactNode
+  tldr?: string
 }) {
   return (
-    <div className="max-w-3xl mx-auto px-6 py-20">
-      {schemas.map((s, i) => (
-        <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(s) }} />
-      ))}
+    <header className="max-w-3xl mx-auto px-6 pt-20 pb-8">
       <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">{eyebrow}</p>
       <h1 className="font-display text-4xl sm:text-5xl text-zinc-900 mb-6 leading-tight">{h1}</h1>
-      <p className="text-zinc-500 text-lg leading-relaxed mb-2">{intro}</p>
+      <p className="text-zinc-500 text-lg leading-relaxed mb-6">{intro}</p>
       <AuthorByline />
-      <div className="prose prose-zinc max-w-none prose-headings:font-display prose-headings:text-zinc-900 prose-p:text-zinc-600 prose-p:leading-relaxed prose-a:text-rose-500 prose-a:no-underline hover:prose-a:underline mt-10">
-        {children}
-      </div>
-    </div>
+      {tldr && (
+        <div className="mt-10 bg-rose-50/60 border border-rose-100 rounded-2xl p-6">
+          <p className="text-xs font-semibold uppercase tracking-widest text-rose-500 mb-2">In short</p>
+          <p className="text-zinc-700 leading-relaxed">{tldr}</p>
+        </div>
+      )}
+    </header>
   )
 }
 
-function FAQSection({ faqs }: { faqs: { question: string; answer: string }[] }) {
+function Schemas({ schemas }: { schemas: object[] }) {
   return (
-    <section className="mt-16 max-w-3xl mx-auto px-6">
-      <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">FAQ</p>
-      <h2 className="font-display text-3xl text-zinc-900 mb-8">Frequently asked questions</h2>
-      <div className="space-y-3">
-        {faqs.map((faq, i) => (
-          <details key={i} className="group border border-zinc-100 rounded-2xl overflow-hidden">
-            <summary className="flex items-center justify-between px-6 py-5 cursor-pointer font-medium text-zinc-900 text-sm hover:bg-zinc-50 transition-colors list-none">
-              <span>{faq.question}</span>
-              <svg className="w-4 h-4 text-zinc-400 shrink-0 ml-4 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7"/></svg>
-            </summary>
-            <div className="px-6 pb-6 pt-2">
-              <p className="text-zinc-500 text-sm leading-relaxed">{faq.answer}</p>
-            </div>
-          </details>
-        ))}
+    <>
+      {schemas.map((s, i) => (
+        <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(s) }} />
+      ))}
+    </>
+  )
+}
+
+function ProseBlock({ children }: { children: React.ReactNode }) {
+  return (
+    <div className="max-w-3xl mx-auto px-6">
+      <div className="prose prose-zinc max-w-none prose-headings:font-display prose-headings:text-zinc-900 prose-p:text-zinc-600 prose-p:leading-relaxed prose-a:text-rose-500 prose-a:no-underline hover:prose-a:underline">
+        {children}
       </div>
-    </section>
+    </div>
   )
 }
 
@@ -235,29 +243,19 @@ function hotelItemListSchema(hotels: Hotel[]) {
   }
 }
 
-function HotelCardSimple({ h }: { h: Hotel }) {
+function FAQSection({ faqs }: { faqs: { question: string; answer: string }[] }) {
+  if (faqs.length === 0) return null
   return (
-    <div className="border border-zinc-100 rounded-2xl p-5 mb-4 not-prose">
-      <div className="flex items-start justify-between gap-4">
-        <div>
-          <Link href={`/hotels/${h.slug}`} className="font-display text-xl text-zinc-900 hover:underline">{h.name}</Link>
-          <p className="text-xs uppercase tracking-wider text-zinc-400 mt-1">
-            {prettyDest(h.destination)} · {h.stars}★ · score {h.honeymoon_score}/100
-          </p>
-        </div>
-        <div className="text-right shrink-0">
-          <p className="text-rose-500 font-semibold text-sm">from ${h.price_per_night_usd.min}/night</p>
-        </div>
-      </div>
-      {h.content?.verdict && (
-        <p className="text-zinc-500 text-sm leading-relaxed mt-3">{h.content.verdict.slice(0, 240)}{h.content.verdict.length > 240 ? '…' : ''}</p>
-      )}
-    </div>
+    <section className="max-w-3xl mx-auto px-6 mt-20 pb-24">
+      <SectionDivider label="FAQ" />
+      <h2 className="font-display text-3xl text-zinc-900 mb-8">Frequently asked questions</h2>
+      <FAQAccordion items={faqs} />
+    </section>
   )
 }
 
 // ============================================================================
-// 1. BUDGET PAGE — consumes BUDGET_CONTENT module
+// 1. BUDGET PAGE
 // ============================================================================
 function BudgetPage({ slug, budget }: { slug: string; budget: number }) {
   const content = BUDGET_CONTENT[budget]
@@ -273,20 +271,26 @@ function BudgetPage({ slug, budget }: { slug: string; budget: number }) {
 
   if (!content) {
     return (
-      <Shell eyebrow="Budget Guide" h1={headline} intro={desc} schemas={[article, breadcrumb]}>
-        <p>Content for this budget tier is being prepared.</p>
-      </Shell>
+      <>
+        <Schemas schemas={[article, breadcrumb]} />
+        <Hero eyebrow="Budget Guide" h1={headline} intro={desc} />
+        <ProseBlock><p>Content for this budget tier is being prepared.</p></ProseBlock>
+      </>
     )
   }
 
+  // Destination clusters from hotels — group by destination
+  const destSet = new Set<string>()
+  hotels.forEach(h => destSet.add(h.destination))
+  const destinations = Array.from(destSet).slice(0, 6)
+
   return (
     <>
-      <Shell
-        eyebrow="Budget Guide"
-        h1={headline}
-        intro={content.intro}
-        schemas={[article, breadcrumb, hotelItemListSchema(hotels), faqSchema(faqs)]}
-      >
+      <Schemas schemas={[article, breadcrumb, hotelItemListSchema(hotels), faqSchema(faqs)]} />
+      <Hero eyebrow="Budget Guide" h1={headline} intro={content.intro} tldr={content.whatItBuys.split('. ').slice(0, 2).join('. ') + '.'} />
+
+      <ProseBlock>
+        <SectionDivider label="The math" />
         <h2>What this budget actually buys</h2>
         <p>{content.whatItBuys}</p>
         <div className="not-prose mt-6 border border-zinc-100 rounded-2xl overflow-hidden">
@@ -301,17 +305,49 @@ function BudgetPage({ slug, budget }: { slug: string; budget: number }) {
             </tbody>
           </table>
         </div>
+      </ProseBlock>
 
-        <h2 className="mt-10">The {hotels.length} hotels that fit this budget</h2>
-        <p>Real picks from our catalog where the math — 7 nights + flights + extras — credibly fits inside ${budget.toLocaleString()}.</p>
-        <div className="not-prose mt-6">
-          {hotels.length === 0 ? (
-            <p className="text-zinc-500">Catalog data missing for one or more picks at this tier.</p>
-          ) : (
-            hotels.map(h => <HotelCardSimple key={h.slug} h={h} />)
-          )}
-        </div>
+      <section className="max-w-6xl mx-auto px-6 mt-16">
+        <SectionDivider label="Hotels that fit" />
+        <h2 className="font-display text-3xl text-zinc-900 mb-3">The {hotels.length} hotels that fit this budget</h2>
+        <p className="text-zinc-500 max-w-3xl mb-8">Real picks from our catalog where the math — 7 nights + flights + extras — credibly fits inside ${budget.toLocaleString()}.</p>
+        {hotels.length === 0 ? (
+          <p className="text-zinc-500">Catalog data missing for one or more picks at this tier.</p>
+        ) : (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {hotels.map(h => <HotelPickCard key={h.slug} hotel={h} />)}
+          </div>
+        )}
+      </section>
 
+      {destinations.length > 0 && (
+        <section className="max-w-6xl mx-auto px-6 mt-16">
+          <SectionDivider label="Destinations where it works" />
+          <h2 className="font-display text-3xl text-zinc-900 mb-8">Destinations where this budget actually fits</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {destinations.map(d => (
+              <DestinationPickCard
+                key={d}
+                slug={d}
+                displayLabel={prettyDest(d)}
+                whyHere={`A confident 5-star at $${budget.toLocaleString()}/trip math actually works here.`}
+              />
+            ))}
+          </div>
+        </section>
+      )}
+
+      <div className="max-w-3xl mx-auto px-6">
+        <Stay22InlineCTA
+          destination={destinations[0] ?? 'caribbean'}
+          country={countryForDestination(destinations[0] ?? '', allHotels)}
+          headline={`Live prices for under-$${budget.toLocaleString()} honeymoon stays`}
+          subline="Stay22 pulls the best current OTA rate across Booking, Expedia, Hotels.com and Agoda. We get a small commission; you don't pay more."
+          campaign={`budget-${budget}`}
+        />
+      </div>
+
+      <ProseBlock>
         <h2>Where to splurge, where to save</h2>
         <p>{content.splurgeVsSave}</p>
 
@@ -323,14 +359,15 @@ function BudgetPage({ slug, budget }: { slug: string; budget: number }) {
           <Link href="/luxury-honeymoon">luxury honeymoon</Link> ·{' '}
           <Link href="/all-inclusive-honeymoon">all-inclusive honeymoon</Link>
         </p>
-      </Shell>
+      </ProseBlock>
+
       <FAQSection faqs={faqs} />
     </>
   )
 }
 
 // ============================================================================
-// 2. MONTH PAGE — consumes MONTH_CONTENT module
+// 2. MONTH PAGE
 // ============================================================================
 function MonthPage({ slug, month }: { slug: string; month: string; idx: number }) {
   const content = MONTH_CONTENT[month]
@@ -340,50 +377,83 @@ function MonthPage({ slug, month }: { slug: string; month: string; idx: number }
   const { article, breadcrumb } = commonSchemas(slug, headline, desc, `Honeymoon in ${monthCap}`)
   const faqs = content?.faqs ?? []
 
-  // Collect hotels for schema ItemList
   const allHotels = getAllHotels()
   const destSlugs = content?.whereToGo.map(d => d.destSlug) ?? []
-  const topHotels: Hotel[] = allHotels.filter(h => destSlugs.includes(h.destination)).slice(0, 6)
+  const topHotels: Hotel[] = []
+  destSlugs.forEach(ds => {
+    const best = allHotels
+      .filter(h => h.destination === ds)
+      .sort((a, b) => b.honeymoon_score - a.honeymoon_score)[0]
+    if (best) topHotels.push(best)
+  })
 
   if (!content) {
     return (
-      <Shell eyebrow="By Month" h1={headline} intro={desc} schemas={[article, breadcrumb]}>
-        <p>Content for this month is being prepared.</p>
-      </Shell>
+      <>
+        <Schemas schemas={[article, breadcrumb]} />
+        <Hero eyebrow="By Month" h1={headline} intro={desc} />
+        <ProseBlock><p>Content for this month is being prepared.</p></ProseBlock>
+      </>
     )
   }
 
+  const firstDest = destSlugs[0] ?? ''
+
   return (
     <>
-      <Shell
-        eyebrow="By Month"
-        h1={headline}
-        intro={content.intro}
-        schemas={[article, breadcrumb, hotelItemListSchema(topHotels), faqSchema(faqs)]}
-      >
-        <h2>Where to go in {monthCap}</h2>
-        <ul>
+      <Schemas schemas={[article, breadcrumb, hotelItemListSchema(topHotels), faqSchema(faqs)]} />
+      <Hero eyebrow="By Month" h1={headline} intro={content.intro} tldr={content.whatsSpecial.split('. ').slice(0, 2).join('. ') + '.'} />
+
+      <section className="max-w-6xl mx-auto px-6 mt-12">
+        <SectionDivider label={`Where to go in ${monthCap}`} />
+        <h2 className="font-display text-3xl text-zinc-900 mb-8">Top destinations for {monthCap}</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {content.whereToGo.map(d => (
-            <li key={d.destSlug}>
-              {DESTINATION_META[d.destSlug] ? (
-                <Link href={`/destinations/${d.destSlug}`}>{prettyDest(d.destSlug)}</Link>
-              ) : (
-                <strong>{prettyDest(d.destSlug)}</strong>
-              )}
-              {' '}— {d.rationale}
-            </li>
+            <DestinationPickCard
+              key={d.destSlug}
+              slug={d.destSlug}
+              displayLabel={prettyDest(d.destSlug)}
+              whyHere={d.rationale}
+            />
           ))}
-        </ul>
+        </div>
+      </section>
 
-        <h2>Where to skip in {monthCap}</h2>
-        <ul>
+      {topHotels.length > 0 && (
+        <section className="max-w-6xl mx-auto px-6 mt-16">
+          <SectionDivider label="Hotels at their best" />
+          <h2 className="font-display text-3xl text-zinc-900 mb-8">Hotels at their best in {monthCap}</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {topHotels.map(h => <HotelPickCard key={h.slug} hotel={h} />)}
+          </div>
+        </section>
+      )}
+
+      <div className="max-w-3xl mx-auto px-6">
+        <Stay22InlineCTA
+          destination={firstDest}
+          country={countryForDestination(firstDest, allHotels)}
+          headline={`Live prices for ${monthCap} 2026`}
+          subline={`Check current rates for honeymoon-grade hotels in ${prettyDest(firstDest)} on the dates you care about.`}
+          campaign={`month-${month}`}
+        />
+      </div>
+
+      <section className="max-w-6xl mx-auto px-6 mt-12">
+        <SectionDivider label={`Skip in ${monthCap}`} />
+        <h2 className="font-display text-3xl text-zinc-900 mb-8">Where to skip in {monthCap}</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
           {content.whereToSkip.map(d => (
-            <li key={d.destSlug}>
-              <strong>{prettyDest(d.destSlug)}</strong> — {d.reason}
-            </li>
+            <div key={d.destSlug} className="border-l-4 border-red-300 bg-red-50/40 rounded-r-xl p-5">
+              <h3 className="font-display text-lg text-zinc-900">{prettyDest(d.destSlug)}</h3>
+              <p className="text-sm text-zinc-600 mt-2 leading-relaxed">{d.reason}</p>
+            </div>
           ))}
-        </ul>
+        </div>
+      </section>
 
+      <ProseBlock>
+        <SectionDivider label="What's special" />
         <h2>What&rsquo;s special this month</h2>
         <p>{content.whatsSpecial}</p>
 
@@ -393,14 +463,15 @@ function MonthPage({ slug, month }: { slug: string; month: string; idx: number }
         <p>
           Related: <Link href="/best-time-to-honeymoon">best time to honeymoon</Link>
         </p>
-      </Shell>
+      </ProseBlock>
+
       <FAQSection faqs={faqs} />
     </>
   )
 }
 
 // ============================================================================
-// 3. DURATION PAGE — consumes DURATION_CONTENT module
+// 3. DURATION PAGE
 // ============================================================================
 function DurationPage({ slug, days }: { slug: string; days: number }) {
   const content = DURATION_CONTENT[days]
@@ -409,34 +480,77 @@ function DurationPage({ slug, days }: { slug: string; days: number }) {
   const { article, breadcrumb } = commonSchemas(slug, headline, desc, `${days}-day honeymoon`)
   const faqs = content?.faqs ?? []
 
+  const allHotels = getAllHotels()
+
   if (!content) {
     return (
-      <Shell eyebrow="By Duration" h1={headline} intro={desc} schemas={[article, breadcrumb]}>
-        <p>Content for this duration is being prepared.</p>
-      </Shell>
+      <>
+        <Schemas schemas={[article, breadcrumb]} />
+        <Hero eyebrow="By Duration" h1={headline} intro={desc} />
+        <ProseBlock><p>Content for this duration is being prepared.</p></ProseBlock>
+      </>
     )
   }
 
+  // Pull hotels from routings if they have hotelSlugs
+  const routingHotels: Hotel[] = content.routings
+    .map(r => r.hotelSlug ? allHotels.find(h => h.slug === r.hotelSlug) : undefined)
+    .filter((h): h is Hotel => Boolean(h))
+
   return (
     <>
-      <Shell
-        eyebrow="By Duration"
-        h1={headline}
-        intro={content.intro}
-        schemas={[article, breadcrumb, faqSchema(faqs)]}
-      >
+      <Schemas schemas={[article, breadcrumb, faqSchema(faqs)]} />
+      <Hero eyebrow="By Duration" h1={headline} intro={content.intro} tldr={content.whoFor.split('. ').slice(0, 2).join('. ') + '.'} />
+
+      <ProseBlock>
+        <SectionDivider label="Who it's for" />
         <h2>Who this duration is for</h2>
         <p>{content.whoFor}</p>
+      </ProseBlock>
 
-        <h2>Three real routings for {days} days</h2>
-        {content.routings.map((r, i) => (
-          <div key={i} className="mb-6">
-            <h3 className="font-display text-xl text-zinc-900 mt-6">{r.title}</h3>
-            <p>{r.body}</p>
+      <section className="max-w-6xl mx-auto px-6 mt-16">
+        <SectionDivider label="Recommended routings" />
+        <h2 className="font-display text-3xl text-zinc-900 mb-8">Three real routings for {days} days</h2>
+        <div className="space-y-6">
+          {content.routings.map((r, i) => (
+            <div key={i} className="border border-zinc-100 rounded-2xl p-7 bg-white hover:shadow-md transition-shadow">
+              <div className="flex items-start gap-4">
+                <div className="shrink-0 w-10 h-10 rounded-full bg-rose-50 text-rose-500 flex items-center justify-center font-display text-lg">
+                  {i + 1}
+                </div>
+                <div className="flex-1">
+                  <h3 className="font-display text-2xl text-zinc-900 mb-3">{r.title}</h3>
+                  <p className="text-zinc-600 leading-relaxed">{r.body}</p>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {routingHotels.length > 0 && (
+        <section className="max-w-6xl mx-auto px-6 mt-16">
+          <SectionDivider label="Anchor hotels" />
+          <h2 className="font-display text-3xl text-zinc-900 mb-8">The anchor hotels for these routings</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {routingHotels.map(h => <HotelPickCard key={h.slug} hotel={h} />)}
           </div>
-        ))}
+        </section>
+      )}
 
-        <h2>The math</h2>
+      <div className="max-w-3xl mx-auto px-6">
+        <Stay22InlineCTA
+          destination={routingHotels[0]?.destination ?? 'maldives'}
+          country={routingHotels[0]?.country ?? ''}
+          headline={`Browse ${days}-day honeymoon options`}
+          subline="See live prices across the destinations that fit this duration."
+          campaign={`duration-${days}`}
+        />
+      </div>
+
+      <ProseBlock>
+        <SectionDivider label="The math" />
+        <h2>The honest math</h2>
         <p>{content.theMath}</p>
 
         <h2>The honest take</h2>
@@ -446,14 +560,15 @@ function DurationPage({ slug, days }: { slug: string; days: number }) {
           Related: <Link href="/how-to-plan-a-honeymoon">how to plan a honeymoon</Link> ·{' '}
           <Link href="/luxury-honeymoon">luxury honeymoon</Link>
         </p>
-      </Shell>
+      </ProseBlock>
+
       <FAQSection faqs={faqs} />
     </>
   )
 }
 
 // ============================================================================
-// 4. PERSONA PAGE — unchanged (covered by previous editorial)
+// 4. PERSONA PAGE
 // ============================================================================
 function PersonaPage({ slug, persona }: { slug: string; persona: string }) {
   const recs = getDestinationsForPersona(persona)
@@ -471,65 +586,96 @@ function PersonaPage({ slug, persona }: { slug: string; persona: string }) {
 
   if (!content) {
     return (
-      <Shell eyebrow="By Style" h1={headline} intro={desc} schemas={[article, breadcrumb]}>
-        <p>Content for this persona is being prepared.</p>
-      </Shell>
+      <>
+        <Schemas schemas={[article, breadcrumb]} />
+        <Hero eyebrow="By Style" h1={headline} intro={desc} />
+        <ProseBlock><p>Content for this persona is being prepared.</p></ProseBlock>
+      </>
     )
   }
 
+  const firstDest = hotels[0]?.destination ?? recs[0]?.slug ?? ''
+
   return (
     <>
-      <Shell
-        eyebrow="By Style"
-        h1={headline}
-        intro={content.intro}
-        schemas={[article, breadcrumb, hotelItemListSchema(hotels), faqSchema(faqs)]}
-      >
+      <Schemas schemas={[article, breadcrumb, hotelItemListSchema(hotels), faqSchema(faqs)]} />
+      <Hero eyebrow="By Style" h1={headline} intro={content.intro} tldr={content.angle.split('. ').slice(0, 2).join('. ') + '.'} />
+
+      <ProseBlock>
+        <SectionDivider label="The editorial angle" />
         <h2>The editorial angle</h2>
         <p>{content.angle}</p>
+      </ProseBlock>
 
-        <h2>The {hotels.length} hotels that fit</h2>
-        <p>Picked from our catalogue for the specific traits that matter to {label.toLowerCase()} — verified slugs, real properties.</p>
-        <div className="not-prose mt-6">
-          {hotels.length === 0 ? (
-            <p className="text-zinc-500">Catalog data missing for one or more picks.</p>
-          ) : (
-            hotels.map(h => <HotelCardSimple key={h.slug} h={h} />)
-          )}
-        </div>
-
-        <h2>Destination patterns that work</h2>
-        {content.destinationClusters.map((c, i) => (
-          <div key={i} className="mb-6">
-            <h3 className="font-display text-xl text-zinc-900 mt-6">{c.title}</h3>
-            <p>{c.body}</p>
+      <section className="max-w-6xl mx-auto px-6 mt-16">
+        <SectionDivider label="Your top hotels" />
+        <h2 className="font-display text-3xl text-zinc-900 mb-3">The {hotels.length} hotels that fit</h2>
+        <p className="text-zinc-500 max-w-3xl mb-8">Picked from our catalogue for the specific traits that matter to {label.toLowerCase()}.</p>
+        {hotels.length === 0 ? (
+          <p className="text-zinc-500">Catalog data missing for one or more picks.</p>
+        ) : (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {hotels.map(h => <HotelPickCard key={h.slug} hotel={h} />)}
           </div>
-        ))}
+        )}
+      </section>
 
+      <section className="max-w-6xl mx-auto px-6 mt-16">
+        <SectionDivider label="Destinations that fit" />
+        <h2 className="font-display text-3xl text-zinc-900 mb-8">Destination patterns that work</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {content.destinationClusters.map((c, i) => (
+            <div key={i} className="border border-zinc-100 rounded-2xl p-7 bg-white">
+              <h3 className="font-display text-xl text-zinc-900 mb-3">{c.title}</h3>
+              <p className="text-zinc-600 text-sm leading-relaxed">{c.body}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {recs.length > 0 && (
+        <section className="max-w-6xl mx-auto px-6 mt-16">
+          <SectionDivider label="More destinations" />
+          <h2 className="font-display text-3xl text-zinc-900 mb-8">More destinations to consider</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {recs.slice(0, 6).map(r => (
+              <DestinationPickCard
+                key={r.slug}
+                slug={r.slug}
+                displayLabel={r.label}
+                whyHere={r.why}
+              />
+            ))}
+          </div>
+        </section>
+      )}
+
+      <div className="max-w-3xl mx-auto px-6">
+        <Stay22InlineCTA
+          destination={firstDest}
+          country={countryForDestination(firstDest, allHotels)}
+          headline={`Live prices for ${label.toLowerCase()}`}
+          subline="See current rates across the destinations and properties tuned for this style."
+          campaign={`persona-${persona}`}
+        />
+      </div>
+
+      <ProseBlock>
+        <SectionDivider label="Skip these" />
         <h2>What to skip</h2>
-        <p>{content.whatToSkip}</p>
+        <div className="not-prose border-l-4 border-red-300 bg-red-50/40 rounded-r-xl p-6 my-4">
+          <p className="text-zinc-700 leading-relaxed">{content.whatToSkip}</p>
+        </div>
 
         <h2>The honest take</h2>
         <p>{content.closing}</p>
-
-        {recs.length > 0 && (
-          <>
-            <h2>Related destinations</h2>
-            <ul>
-              {recs.map(r => (
-                <li key={r.slug}>
-                  <Link href={`/destinations/${r.slug}`}>{r.label}</Link> — {r.why}
-                </li>
-              ))}
-            </ul>
-          </>
-        )}
 
         <p>
           Related: <Link href="/quiz">find my hotel quiz</Link> ·{' '}
           <Link href="/luxury-honeymoon">luxury honeymoon</Link>
         </p>
-      </Shell>
+      </ProseBlock>
+
       <FAQSection faqs={faqs} />
     </>
   )

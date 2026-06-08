@@ -4,6 +4,8 @@ import { buildAlternates } from '@/lib/alternates'
 import AuthorByline from '@/components/AuthorByline'
 import { AUTHOR } from '@/data/author'
 import { PACKING_CONTENT, type PackingItem } from '@/lib/longtail-content/packing'
+import FAQAccordion from '@/components/longtail/FAQAccordion'
+import SectionDivider from '@/components/longtail/SectionDivider'
 
 export const metadata: Metadata = {
   title: 'The Honeymoon Packing List: Tropical, Safari, City and Cold-Weather',
@@ -15,16 +17,26 @@ const url = 'https://myhoneymoonhotel.com/honeymoon-packing-list'
 
 function ItemList({ items }: { items: PackingItem[] }) {
   return (
-    <ul className="not-prose mt-4 space-y-3">
+    <ul className="not-prose mt-4 grid grid-cols-1 md:grid-cols-2 gap-3">
       {items.map((it, i) => (
-        <li key={i} className="border border-zinc-100 rounded-xl px-5 py-4">
-          <p className="font-semibold text-zinc-900 text-sm">{it.item}</p>
-          <p className="text-zinc-500 text-sm mt-1 leading-relaxed">{it.note}</p>
+        <li key={i} className="border border-zinc-100 rounded-xl px-5 py-4 bg-white hover:border-rose-100 transition-colors">
+          <p className="font-semibold text-zinc-900 text-sm flex items-start gap-2">
+            <span className="text-rose-400 shrink-0">◆</span>
+            <span>{it.item}</span>
+          </p>
+          <p className="text-zinc-500 text-sm mt-1.5 leading-relaxed pl-5">{it.note}</p>
         </li>
       ))}
     </ul>
   )
 }
+
+const CLIMATES = [
+  { id: 'tropical', label: 'Tropical', sub: 'Maldives · Bora Bora · Caribbean · Bali' },
+  { id: 'safari', label: 'Safari', sub: 'Kenya · Tanzania · Botswana · Rwanda' },
+  { id: 'city', label: 'City', sub: 'Venice · Paris · Tokyo · Lisbon' },
+  { id: 'cold', label: 'Cold-weather', sub: 'Iceland · Lapland · Patagonia · Banff' },
+] as const
 
 export default function HoneymoonPackingListPage() {
   const c = PACKING_CONTENT
@@ -60,57 +72,99 @@ export default function HoneymoonPackingListPage() {
     ],
   }
 
+  const climateMap: Record<string, { intro: string; items: PackingItem[] }> = {
+    tropical: c.tropical,
+    safari: c.safari,
+    city: c.city,
+    cold: c.cold,
+  }
+
   return (
     <>
-      <div className="max-w-3xl mx-auto px-6 py-20">
-        {[articleSchema, breadcrumbSchema, howToSchema, faqSchemaJson].map((s, i) => (
-          <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(s) }} />
-        ))}
+      {[articleSchema, breadcrumbSchema, howToSchema, faqSchemaJson].map((s, i) => (
+        <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(s) }} />
+      ))}
+
+      <header className="max-w-3xl mx-auto px-6 pt-20 pb-8">
         <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">Planning Guide</p>
         <h1 className="font-display text-4xl sm:text-5xl text-zinc-900 mb-6 leading-tight">
-          The honeymoon packing list, by climate type.
+          The honeymoon packing list, by climate type
         </h1>
-        <p className="text-zinc-500 text-lg leading-relaxed mb-2">{c.intro}</p>
+        <p className="text-zinc-500 text-lg leading-relaxed mb-6">{c.intro}</p>
         <AuthorByline />
+        <div className="mt-10 bg-rose-50/60 border border-rose-100 rounded-2xl p-6">
+          <p className="text-xs font-semibold uppercase tracking-widest text-rose-500 mb-2">In short</p>
+          <p className="text-zinc-700 leading-relaxed">
+            One universal layer plus a climate overlay (tropical, safari, city, cold-weather). Pack the eight universals every time, then add only the climate section that matches your destination. Skip the heels.
+          </p>
+        </div>
+      </header>
 
-        <div className="prose prose-zinc max-w-none prose-headings:font-display prose-headings:text-zinc-900 prose-p:text-zinc-600 prose-p:leading-relaxed prose-a:text-rose-500 prose-a:no-underline hover:prose-a:underline mt-10">
+      <section className="max-w-5xl mx-auto px-6 mt-12">
+        <SectionDivider label="Universal kit" />
+        <h2 className="font-display text-3xl text-zinc-900 mb-3">The universal kit (every honeymoon)</h2>
+        <p className="text-zinc-500 max-w-3xl mb-6">Eight items that travel on every honeymoon regardless of destination.</p>
+        <ItemList items={c.universal} />
+      </section>
 
-          <h2>The universal kit (every honeymoon)</h2>
-          <p>The eight items below go on every trip regardless of destination — they cover documents, health, sleep and the small detail items that come up everywhere.</p>
-          <ItemList items={c.universal} />
+      <section className="max-w-5xl mx-auto px-6 mt-16">
+        <SectionDivider label="By climate" />
+        <h2 className="font-display text-3xl text-zinc-900 mb-3">Climate overlays</h2>
+        <p className="text-zinc-500 max-w-3xl mb-8">Pick the one that matches your trip and add it to the universal kit.</p>
 
-          <h2>Tropical — Maldives, Bora Bora, Caribbean, Bali, Seychelles</h2>
-          <p>{c.tropical.intro}</p>
-          <ItemList items={c.tropical.items} />
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-10">
+          {CLIMATES.map(cl => (
+            <a key={cl.id} href={`#${cl.id}`} className="block border border-zinc-100 rounded-2xl p-4 bg-white hover:border-rose-200 hover:bg-rose-50/30 transition-colors">
+              <p className="font-display text-lg text-zinc-900">{cl.label}</p>
+              <p className="text-zinc-500 text-xs mt-1 leading-relaxed">{cl.sub}</p>
+            </a>
+          ))}
+        </div>
 
-          <h2>Safari — Kenya, Tanzania, Botswana, South Africa, Rwanda</h2>
-          <p>{c.safari.intro}</p>
-          <ItemList items={c.safari.items} />
+        {CLIMATES.map(cl => {
+          const block = climateMap[cl.id]
+          return (
+            <div key={cl.id} id={cl.id} className="mt-12 scroll-mt-24">
+              <h3 className="font-display text-2xl text-zinc-900 mb-2">{cl.label} — <span className="text-zinc-500 font-normal text-lg">{cl.sub}</span></h3>
+              <p className="text-zinc-600 leading-relaxed">{block.intro}</p>
+              <ItemList items={block.items} />
+            </div>
+          )
+        })}
+      </section>
 
-          <h2>City — Venice, Paris, Tokyo, New York, Lisbon</h2>
-          <p>{c.city.intro}</p>
-          <ItemList items={c.city.items} />
-
-          <h2>Cold-weather — Iceland, Lapland, Norway, Patagonia, Banff</h2>
-          <p>{c.cold.intro}</p>
-          <ItemList items={c.cold.items} />
-
-          <h2>What nobody packs but should</h2>
-          <p>The small category of items that turn a generic trip into a smooth one. None of these is essential; all of them solve a specific honeymoon failure mode.</p>
+      <section className="max-w-5xl mx-auto px-6 mt-16">
+        <SectionDivider label="Nobody packs but should" />
+        <div className="bg-rose-50/60 border border-rose-100 rounded-2xl p-6">
+          <h2 className="font-display text-2xl text-zinc-900 mb-2">What nobody packs but should</h2>
+          <p className="text-zinc-600 mb-2 leading-relaxed">The small category that turns a generic trip into a smooth one.</p>
           <ItemList items={c.nobodyPacks} />
+        </div>
+      </section>
 
-          <h2>What to skip</h2>
-          <p>The items that come home unworn on 90% of honeymoons. Removing these saves 3-4 kg of luggage weight and most of the second suitcase.</p>
+      <section className="max-w-5xl mx-auto px-6 mt-12">
+        <SectionDivider label="Skip these" />
+        <div className="border-l-4 border-red-300 bg-red-50/40 rounded-r-2xl p-6">
+          <h2 className="font-display text-2xl text-zinc-900 mb-2">What to skip</h2>
+          <p className="text-zinc-600 mb-2 leading-relaxed">Items that come home unworn on 90% of honeymoons.</p>
           <ItemList items={c.whatToSkip} />
+        </div>
+      </section>
 
+      <section className="max-w-3xl mx-auto px-6 mt-16">
+        <div className="bg-gradient-to-br from-rose-50 to-amber-50/40 border border-rose-100 rounded-2xl p-8 text-center">
+          <h2 className="font-display text-2xl text-zinc-900 mb-3">Get the printable PDF</h2>
+          <p className="text-zinc-600 mb-5 leading-relaxed">Sign up for the newsletter and we&rsquo;ll send the one-page printable version (universal + all four climate overlays + the &lsquo;nobody packs but should&rsquo; list).</p>
+          <Link href="/#newsletter-heading" className="inline-block bg-rose-500 hover:bg-rose-600 text-white font-semibold text-sm px-6 py-3 rounded-full transition-colors">
+            Subscribe and get the PDF →
+          </Link>
+        </div>
+      </section>
+
+      <div className="max-w-3xl mx-auto px-6 mt-12">
+        <div className="prose prose-zinc max-w-none prose-headings:font-display prose-headings:text-zinc-900 prose-p:text-zinc-600 prose-p:leading-relaxed prose-a:text-rose-500 prose-a:no-underline hover:prose-a:underline">
           <h2>The honest take</h2>
           <p>{c.closing}</p>
-
-          <h2>Get the printable PDF</h2>
-          <p>Sign up for the newsletter and we&rsquo;ll send the one-page printable version (universal + all four climate overlays + the &lsquo;nobody packs but should&rsquo; list).</p>
-          <p>
-            <Link href="/#newsletter-heading" className="not-prose inline-block bg-rose-500 hover:bg-rose-600 text-white font-semibold text-sm px-6 py-3 rounded-full transition-colors">Subscribe and get the PDF →</Link>
-          </p>
 
           <p>
             Related: <Link href="/how-to-plan-a-honeymoon">how to plan a honeymoon</Link> ·{' '}
@@ -119,22 +173,10 @@ export default function HoneymoonPackingListPage() {
         </div>
       </div>
 
-      <section className="mt-16 max-w-3xl mx-auto px-6">
-        <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">FAQ</p>
+      <section className="max-w-3xl mx-auto px-6 mt-20 pb-24">
+        <SectionDivider label="FAQ" />
         <h2 className="font-display text-3xl text-zinc-900 mb-8">Frequently asked questions</h2>
-        <div className="space-y-3">
-          {c.faqs.map((f, i) => (
-            <details key={i} className="group border border-zinc-100 rounded-2xl overflow-hidden">
-              <summary className="flex items-center justify-between px-6 py-5 cursor-pointer font-medium text-zinc-900 text-sm hover:bg-zinc-50 transition-colors list-none">
-                <span>{f.question}</span>
-                <svg className="w-4 h-4 text-zinc-400 shrink-0 ml-4 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7"/></svg>
-              </summary>
-              <div className="px-6 pb-6 pt-2">
-                <p className="text-zinc-500 text-sm leading-relaxed">{f.answer}</p>
-              </div>
-            </details>
-          ))}
-        </div>
+        <FAQAccordion items={c.faqs} />
       </section>
     </>
   )
