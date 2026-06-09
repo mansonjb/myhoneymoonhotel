@@ -104,6 +104,10 @@ const MAP_LOCATION_OVERRIDE: Record<string, string> = {
   capri:             'Capri, Italy',
   singapore:         'Marina Bay, Singapore',
   dolomites:         'Cortina d\'Ampezzo, Italy',
+  'riviera-maya':    'Tulum, Mexico',
+  'riviera maya':    'Tulum, Mexico',
+  tasmania:          'Coles Bay, Tasmania, Australia',
+  algarve:           'Lagos, Algarve, Portugal',
 }
 
 function resolveMapLocation(input: string): string {

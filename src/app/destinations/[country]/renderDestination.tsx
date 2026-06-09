@@ -297,6 +297,15 @@ export async function renderDestinationPage(country: string, locale: Locale) {
           </section>
         )}
 
+        {/* ── HONEST WHEN TO GO ── */}
+        {meta?.bestMonthsHonest && (
+          <section className="bg-rose-50 border-l-4 border-rose-300 rounded-r-2xl p-6 sm:p-8">
+            <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-500 mb-2">The Honest Truth</p>
+            <h2 className="font-display text-2xl sm:text-3xl mb-4">When to go to {destProper}</h2>
+            <p className="text-zinc-700 text-base leading-relaxed">{meta.bestMonthsHonest}</p>
+          </section>
+        )}
+
         {/* ── MONTH BY MONTH ── */}
         {meta?.months && (
           <section>
@@ -315,6 +324,28 @@ export async function renderDestinationPage(country: string, locale: Locale) {
                   </div>
                 )
               })}
+            </div>
+          </section>
+        )}
+
+        {/* ── WEEKLY MICRO-WINDOWS ── */}
+        {meta?.weeklyMicroWindows && (
+          <section>
+            <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">Insider Calendar</p>
+            <h2 className="font-display text-3xl sm:text-4xl mb-8">The Perfect Weeks in {destProper}</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {meta.weeklyMicroWindows.map((w, i) => (
+                <div key={i} className="border border-zinc-100 rounded-2xl p-6 hover:border-rose-200 transition-colors">
+                  <div className="flex items-start justify-between gap-3 mb-2">
+                    <div className="font-display text-xl text-zinc-900">{w.range}</div>
+                    <div className="flex shrink-0">{Array.from({ length: 5 }).map((_, k) => (
+                      <span key={k} className={k < w.rating ? 'text-rose-400' : 'text-zinc-200'}>★</span>
+                    ))}</div>
+                  </div>
+                  <p className="text-rose-500 text-xs font-medium uppercase tracking-wider mb-3">{w.vibe}</p>
+                  <p className="text-zinc-600 text-sm leading-relaxed">{w.why}</p>
+                </div>
+              ))}
             </div>
           </section>
         )}
@@ -410,6 +441,121 @@ export async function renderDestinationPage(country: string, locale: Locale) {
                     <h3 className="font-semibold text-zinc-900 mb-2">{tip.tip}</h3>
                     <p className="text-zinc-500 text-sm leading-relaxed">{tip.detail}</p>
                   </div>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* ── RESTAURANTS ── */}
+        {meta?.restaurants && (
+          <section>
+            <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">Where to Eat</p>
+            <h2 className="font-display text-3xl sm:text-4xl mb-8">Restaurants in {destProper}</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+              {meta.restaurants.map((r, i) => (
+                <div key={i} className="border border-zinc-100 rounded-2xl p-6 hover:border-zinc-300 transition-colors">
+                  <div className="flex items-start justify-between gap-3 mb-2">
+                    <h3 className="font-semibold text-zinc-900">{r.name}</h3>
+                    <span className="text-[11px] font-medium text-zinc-500 bg-zinc-50 px-2.5 py-1 rounded-full shrink-0 whitespace-nowrap">{r.priceRange}</span>
+                  </div>
+                  <p className="text-rose-500 text-xs font-medium uppercase tracking-wider mb-3">{r.cuisine} · {r.location}</p>
+                  <p className="text-zinc-700 text-sm leading-relaxed mb-3"><span className="font-medium">Signature: </span>{r.signature}</p>
+                  <p className="text-zinc-500 text-xs leading-relaxed"><span className="font-semibold text-rose-400 uppercase tracking-wider">Booking: </span>{r.bookingTip}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* ── PHOTOGRAPHY SPOTS ── */}
+        {meta?.photographySpots && (
+          <section>
+            <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">Photography</p>
+            <h2 className="font-display text-3xl sm:text-4xl mb-8">Best Photo Spots in {destProper}</h2>
+            <div className="space-y-3">
+              {meta.photographySpots.map((p, i) => {
+                const icon = p.type === 'sunrise' ? '🌅' : p.type === 'sunset' ? '🌇' : p.type === 'golden hour' ? '☀️' : p.type === 'blue hour' ? '🌆' : '🌞'
+                return (
+                  <div key={i} className="grid sm:grid-cols-[auto_1fr] gap-4 sm:gap-6 items-start border border-zinc-100 rounded-2xl p-5">
+                    <div className="text-3xl">{icon}</div>
+                    <div>
+                      <div className="flex items-center gap-3 mb-1 flex-wrap">
+                        <h3 className="font-semibold text-zinc-900">{p.name}</h3>
+                        <span className="text-[10px] font-semibold text-rose-500 bg-rose-50 px-2 py-0.5 rounded-full uppercase tracking-wider">{p.type}</span>
+                      </div>
+                      <p className="text-zinc-600 text-sm leading-relaxed mb-2">{p.what}</p>
+                      <p className="text-zinc-400 text-xs leading-relaxed"><span className="font-semibold text-rose-400 uppercase tracking-wider">Tip: </span>{p.tip}</p>
+                    </div>
+                  </div>
+                )
+              })}
+            </div>
+          </section>
+        )}
+
+        {/* ── LOGISTICS ── */}
+        {meta?.logistics && (
+          <section>
+            <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">Practical Logistics</p>
+            <h2 className="font-display text-3xl sm:text-4xl mb-8">Travel Essentials for {destProper}</h2>
+            <div className="bg-zinc-50 border border-zinc-100 rounded-2xl overflow-hidden">
+              <table className="w-full text-sm">
+                <tbody>
+                  {[
+                    ['Visa', meta.logistics.visa],
+                    ['Vaccines', meta.logistics.vaccines],
+                    ['Currency', meta.logistics.currency],
+                    ['Power plug', meta.logistics.plug],
+                    ['SIM / connectivity', meta.logistics.sim],
+                    ['Drive side', meta.logistics.driveSide === 'left' ? 'Left' : 'Right'],
+                    ['Tipping', meta.logistics.tippingNorm],
+                    ['Tap water', meta.logistics.tapwater === 'safe' ? 'Safe to drink' : meta.logistics.tapwater === 'avoid' ? 'Avoid — use bottled' : 'Use bottled'],
+                    ['Airport transfer', meta.logistics.averageTransferTime],
+                  ].map(([k, v]) => (
+                    <tr key={k} className="border-b border-zinc-100 last:border-0">
+                      <td className="px-5 py-3 text-zinc-400 font-medium align-top w-1/3 sm:w-1/4">{k}</td>
+                      <td className="px-5 py-3 text-zinc-700 leading-relaxed">{v}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </section>
+        )}
+
+        {/* ── LOCAL ETIQUETTE ── */}
+        {meta?.localEtiquette && (
+          <section>
+            <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">Local Etiquette</p>
+            <h2 className="font-display text-3xl sm:text-4xl mb-8">Do&apos;s and Don&apos;ts in {destProper}</h2>
+            <div className="grid sm:grid-cols-2 gap-4">
+              {meta.localEtiquette.map((e, i) => (
+                <div key={i} className="space-y-3">
+                  <div className="flex items-start gap-3 bg-emerald-50 border border-emerald-100 rounded-xl p-4">
+                    <span className="text-emerald-600 font-bold text-lg shrink-0 leading-none mt-0.5">✓</span>
+                    <p className="text-emerald-900 text-sm leading-relaxed">{e.do}</p>
+                  </div>
+                  <div className="flex items-start gap-3 bg-red-50 border border-red-100 rounded-xl p-4">
+                    <span className="text-red-500 font-bold text-lg shrink-0 leading-none mt-0.5">✕</span>
+                    <p className="text-red-900 text-sm leading-relaxed">{e.dont}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* ── INSIDER TIPS ── */}
+        {meta?.insiderTips && (
+          <section>
+            <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-400 mb-3">Off the Beaten Path</p>
+            <h2 className="font-display text-3xl sm:text-4xl mb-8">Insider Picks for {destProper}</h2>
+            <div className="bg-rose-50 border border-rose-100 rounded-2xl p-6 sm:p-8 space-y-4">
+              {meta.insiderTips.map((tip, i) => (
+                <div key={i} className="flex items-start gap-4">
+                  <span className="font-display text-2xl text-rose-400 tabular-nums shrink-0 leading-none">{String(i + 1).padStart(2, '0')}</span>
+                  <p className="text-zinc-700 text-sm leading-relaxed pt-1">{tip}</p>
                 </div>
               ))}
             </div>

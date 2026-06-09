@@ -35,6 +35,7 @@ const DEST_META: Record<string, { region: string; country: string }> = {
   'fiji':              { region: 'South Pacific', country: 'Fiji' },
   'new-zealand':       { region: 'South Pacific', country: 'New Zealand' },
   'australia':         { region: 'South Pacific', country: 'Australia' },
+  'tasmania':          { region: 'South Pacific', country: 'Australia' },
   'cook-islands':      { region: 'South Pacific', country: 'Cook Islands' },
   // Caribbean & Americas
   'st-lucia':          { region: 'Caribbean & Americas', country: 'St. Lucia' },
@@ -42,6 +43,7 @@ const DEST_META: Record<string, { region: string; country: string }> = {
   'st-barts':          { region: 'Caribbean & Americas', country: 'St. Barts' },
   'caribbean':         { region: 'Caribbean & Americas', country: 'Caribbean' },
   'mexico':            { region: 'Caribbean & Americas', country: 'Mexico' },
+  'riviera-maya':      { region: 'Caribbean & Americas', country: 'Mexico' },
   'costa-rica':        { region: 'Caribbean & Americas', country: 'Costa Rica' },
   'jamaica':           { region: 'Caribbean & Americas', country: 'Jamaica' },
   'anguilla':          { region: 'Caribbean & Americas', country: 'Anguilla' },
@@ -70,6 +72,7 @@ const DEST_META: Record<string, { region: string; country: string }> = {
   'sicily':     { region: 'Europe', country: 'Italy' },
   'croatia':    { region: 'Europe', country: 'Croatia' },
   'portugal':   { region: 'Europe', country: 'Portugal' },
+  'algarve':    { region: 'Europe', country: 'Portugal' },
   'madeira':    { region: 'Europe', country: 'Portugal' },
   'provence':   { region: 'Europe', country: 'France' },
   'cote-dazur': { region: 'Europe', country: 'France' },

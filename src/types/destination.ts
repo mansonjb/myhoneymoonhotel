@@ -19,4 +19,22 @@ export interface DestinationMeta {
   language: string
   timezone: string
   seo?: { title?: string; description?: string }
+  // Ultra-enrichment optional fields
+  weeklyMicroWindows?: { range: string; vibe: string; rating: 1 | 2 | 3 | 4 | 5; why: string }[]
+  restaurants?: { name: string; cuisine: string; priceRange: string; signature: string; bookingTip: string; location: string }[]
+  photographySpots?: { name: string; type: 'sunrise' | 'sunset' | 'golden hour' | 'blue hour' | 'midday'; what: string; tip: string }[]
+  logistics?: {
+    visa: string
+    vaccines: string
+    currency: string
+    plug: string
+    sim: string
+    driveSide: 'left' | 'right'
+    tippingNorm: string
+    tapwater: 'safe' | 'avoid' | 'use bottled'
+    averageTransferTime: string
+  }
+  localEtiquette?: { do: string; dont: string }[]
+  insiderTips?: string[]
+  bestMonthsHonest?: string
 }

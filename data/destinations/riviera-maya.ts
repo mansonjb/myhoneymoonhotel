@@ -1,0 +1,213 @@
+import type { DestinationMeta } from '@/types/destination'
+
+const meta: DestinationMeta = {
+  hero: '/images/hotels/rosewood-mayakoba-riviera-maya/hero.webp',
+  tagline: 'Tulum, Mayakoba, Cancún — Caribbean luxury meets Maya jungle and cenote-blue water.',
+  intro: 'The Riviera Maya is a 130-kilometre strip of the Yucatán Caribbean coast running from Cancún south to Tulum and the edge of the Sian Ka\'an biosphere. It is the only stretch of luxury Caribbean coastline directly accessible to North America without a long-haul flight, and the only honeymoon destination in the world where you can dive cenotes (freshwater caves of impossible blue) in the morning, swim Mayan ruins at noon, and watch the moon rise over a powder-white beach at night. Mayakoba — a 600-hectare canal-and-lagoon resort complex — is home to Rosewood, Banyan Tree, Andaz and Fairmont. Tulum is the bohemian-chic counterweight where Be Tulum, Hotel Esencia, and Casa Malca anchor the jungle-meets-beach aesthetic that has shaped global resort design for a decade. Cancún\'s hotel zone holds Nizuc, the Ritz, and the new wave of adults-only ultra-luxe. The food — Hartwood, Posada Margherita, Casa Jaguar — is among the most exciting in the Americas. This is the most accessible serious-luxury honeymoon on the planet.',
+  bestTime: 'Nov–Apr',
+  flightFrom: '4–5h from US East Coast, 10h from Europe',
+  topExperience: 'Cenote Diving & Jungle-Beach Luxury',
+  perfectFor: [
+    'North American couples who want a serious luxury Caribbean honeymoon without a long-haul flight',
+    'Divers and snorkellers — cenotes here are unique on earth, and the Mesoamerican reef is the world\'s second-largest',
+    'Couples who want both jungle and beach in one trip — Tulum delivers exactly that',
+    'Foodies — Tulum and Playa del Carmen have one of the most exciting restaurant scenes in Latin America',
+    'Honeymooners who want Maya culture (Tulum ruins, Chichen Itza, Cobá) layered into a beach trip',
+  ],
+  skipIf: [
+    'You\'re traveling May–October — hurricane season and sargassum (smelly seaweed) make the beaches unusable',
+    'You want pristine isolation — even Tulum has gotten busy; choose Mukan or Sian Ka\'an for solitude',
+    'You\'re nervous about safety — the resort corridor is safe but the broader region has well-publicised issues',
+    'You want a sleepy fishing village — this is a developed luxury coast, not a hidden gem',
+  ],
+  experiences: [
+    {
+      icon: '💧',
+      title: 'Cenote diving at Dos Ojos or Gran Cenote',
+      description: 'The Yucatán is honeycombed with cenotes — collapsed limestone caves filled with crystalline freshwater. Dos Ojos and Gran Cenote (near Tulum) are the most beautiful. The light beams cutting through the cathedral chambers are unlike anything else in nature.',
+      cost: '$120–$250 per couple (guided snorkel) / $250–$450 (certified dive)',
+      tip: 'Go early — first slot 9am. By 11am tour buses arrive and the magic evaporates. Bring a GoPro. Avoid weekends. Hotel Esencia and Rosewood arrange private guides.',
+    },
+    {
+      icon: '🏛️',
+      title: 'Sunrise at Tulum ruins',
+      description: 'The Tulum archaeological site — a Mayan walled city perched on a cliff above the Caribbean — opens at 8am. Arriving at opening is the difference between a magical private experience and a crowded miserable one.',
+      cost: '$30 per couple (entry) + $80–$150 private guide',
+      tip: 'Hotel-arranged private guide gets you in 30 minutes before official opening if you tip well. Take the back path down to the small beach below the cliff. Bring water — there is none for sale on site.',
+    },
+    {
+      icon: '🛥️',
+      title: 'Sian Ka\'an biosphere boat day',
+      description: 'A UNESCO biosphere reserve south of Tulum — 1.3 million acres of mangrove, lagoon, reef, and Maya canal system. The drift-snorkel through the ancient Maya canal at Muyil is one of the great experiences in Mexico.',
+      cost: '$300–$500 per couple (full day with private guide)',
+      tip: 'Book through CESiaK or Community Tours Sian Ka\'an — local NGOs, not commercial operators. Long day (7am–5pm). Bring real sunscreen (reef-safe required).',
+    },
+    {
+      icon: '🍽️',
+      title: 'Dinner at Hartwood (Tulum)',
+      description: 'Eric Werner\'s wood-fire-only restaurant on the Tulum beach road is the defining meal of the Riviera Maya. No electricity, candle-lit jungle setting, daily menu chalked on a board. One of the world\'s 50 most influential restaurants in the last decade.',
+      cost: '$180–$280 per couple',
+      tip: 'Bookings open 30 days in advance at hartwoodtulum.com — set a reminder. Walk-in queue starts at 3pm for a 5:30pm seating. Order the jungle pork ribs and the catch of the day.',
+    },
+    {
+      icon: '🐢',
+      title: 'Snorkel with sea turtles at Akumal',
+      description: 'Akumal bay (between Playa del Carmen and Tulum) has a resident green sea turtle population that grazes on the seagrass in shallow water year-round. Swimming with them is genuinely moving, not a contrived experience.',
+      cost: '$80–$150 per couple (guided, mandatory)',
+      tip: 'Guides are required by Mexican law now — for turtle protection. Go at 8am before the day-trippers. The Centro Ecológico Akumal trains the legitimate operators. Wear a life vest (also required) so you don\'t kick the turtles.',
+    },
+  ],
+  months: [
+    { month: 'Jan', weather: 'Dry, 26°C, lowest humidity', emoji: '☀️', crowds: 'Peak', price: 'Highest', verdict: 'Excellent weather, expensive' },
+    { month: 'Feb', weather: 'Dry, 27°C, perfect', emoji: '☀️', crowds: 'Peak', price: 'Highest', verdict: 'The perfect month' },
+    { month: 'Mar', weather: 'Warming, still dry, spring breakers', emoji: '☀️', crowds: 'Peak', price: 'Very high', verdict: 'Great weather, avoid spring break weeks' },
+    { month: 'Apr', weather: 'Hot, sargassum may begin late month', emoji: '☀️', crowds: 'High', price: 'High', verdict: 'Last great month before the season turns' },
+    { month: 'May', weather: 'Hot, sargassum likely, brief rains', emoji: '🌡️', crowds: 'Moderate', price: 'Mid', verdict: 'Risky — sargassum is a coin toss' },
+    { month: 'Jun', weather: 'Very hot, humid, sargassum, rains', emoji: '🌧️', crowds: 'Low', price: 'Low', verdict: 'Skip' },
+    { month: 'Jul', weather: 'Very hot, humid, hurricane risk begins', emoji: '🌧️', crowds: 'Mod (family)', price: 'Mid', verdict: 'Skip for honeymoon' },
+    { month: 'Aug', weather: 'Peak hurricane season, peak sargassum', emoji: '🌀', crowds: 'Low', price: 'Low', verdict: 'Avoid entirely' },
+    { month: 'Sep', weather: 'Peak hurricane risk, mostly closed', emoji: '🌀', crowds: 'Minimal', price: 'Lowest', verdict: 'The worst month — do not go' },
+    { month: 'Oct', weather: 'Hurricane risk, sargassum easing', emoji: '🌧️', crowds: 'Low', price: 'Low', verdict: 'Risky but recovering' },
+    { month: 'Nov', weather: 'Dry season returns, 27°C', emoji: '☀️', crowds: 'Moderate', price: 'Mid-high', verdict: 'The secret best month — perfect weather, fewer crowds' },
+    { month: 'Dec', weather: 'Dry, perfect, holiday peak', emoji: '☀️', crowds: 'Peak', price: 'Highest', verdict: 'Excellent but prices peak after Dec 18' },
+  ],
+  budgetTiers: [
+    {
+      label: 'Boutique Luxury',
+      range: '$400–$800/night',
+      gets: 'Jungle-chic boutique hotels in Tulum, well-located 4★ in Playa del Carmen, garden-view rooms at Mayakoba properties. Excellent value compared to other Caribbean luxury markets.',
+      example: 'Casa Malca (garden room), Andaz Mayakoba',
+    },
+    {
+      label: 'Premium',
+      range: '$800–$1,800/night',
+      gets: 'Lagoon suites at Rosewood Mayakoba, beachfront at Be Tulum, oceanfront at Nizuc Cancún. The Riviera Maya sweet spot — world-class luxury for less than half the Caribbean ultra-luxe price.',
+      example: 'Rosewood Mayakoba, Belmond Maroma, Nizuc',
+    },
+    {
+      label: 'Ultra-Luxury',
+      range: '$1,800+/night',
+      gets: 'Overwater lagoon suites at Rosewood, Hotel Esencia\'s beachfront cottages, Mukan\'s private peninsula. Top-tier privacy and exclusivity, comparable to Maldives at slightly lower price.',
+      example: 'Hotel Esencia, Mukan Resort, Rosewood Mayakoba Lagoon Studio',
+    },
+  ],
+  areas: [
+    {
+      name: 'Tulum (Beach Road / Zona Hotelera)',
+      bestFor: 'Bohemian-chic, jungle-beach aesthetic, best food scene',
+      description: 'A 10km strip of palm-thatched beach hotels south of Tulum town. No grid power for much of it (solar, generators). Be Tulum, Casa Malca, Hotel Esencia (just south). The vibe is candle-lit, low-rise, jungle-meets-sea. Defines current global resort design.',
+    },
+    {
+      name: 'Mayakoba',
+      bestFor: 'Polished mega-luxury with private canals and ecology',
+      description: 'A 600-hectare master-planned resort estate north of Playa del Carmen. Rosewood, Banyan Tree, Andaz and Fairmont share 240 acres of mangrove canals, lagoons, and one of the most considered beach strips on the coast. Mature, polished, very honeymoon-friendly.',
+    },
+    {
+      name: 'Cancún Hotel Zone (Punta Nizuc end)',
+      bestFor: 'Ultra-modern, direct ocean, easy airport access',
+      description: 'Skip the northern party-crowd end. The southern tip — Punta Nizuc — has Nizuc Resort and the Ritz, both serious luxury, both 15 minutes from Cancún airport. Best choice for short trips where transfer time matters.',
+    },
+    {
+      name: 'Sian Ka\'an',
+      bestFor: 'Total isolation, biosphere, true wilderness escape',
+      description: '1.3 million acres of UNESCO biosphere south of Tulum. Mukan Resort is the only true luxury option — accessible only by boat or sand track. No wifi, no neighbors, no light pollution. The Riviera Maya for couples who want to disappear.',
+    },
+    {
+      name: 'Xpu-Ha (between Playa del Carmen and Tulum)',
+      bestFor: 'Quietest beach with the best sand on the Riviera Maya',
+      description: 'A small cove with the finest beach on the coast — fewer sargassum issues, calmer water, near-zero development. Hotel Esencia is the only luxury hotel here, on a private 50-acre estate. Best choice if pure beach quality is the priority.',
+    },
+  ],
+  expertTips: [
+    {
+      tip: 'Fly into Cancún (CUN), not Tulum (TQO)',
+      detail: 'Tulum\'s new airport opened in 2023 but has limited routes and inflated taxi prices. Cancún is the practical hub for everywhere on the Riviera Maya. CUN to Tulum is a 90-minute private transfer ($120–$180), CUN to Mayakoba is 50 minutes.',
+    },
+    {
+      tip: 'November is the secret best month',
+      detail: 'Sargassum has cleared, hurricane season ends Nov 1, the dry season has begun, and pre-holiday prices haven\'t kicked in yet. The first three weeks of November are the single best window of the year. Almost no one books then.',
+    },
+    {
+      tip: 'Pre-book Hartwood, Posada Margherita, and Casa Jaguar before you board the plane',
+      detail: 'These three Tulum restaurants are booked solid every night November–April. Hartwood opens 30 days in advance, Posada Margherita 21 days. Set a calendar alert. Hotel concierges cannot get you in last-minute — this is not a "ask the concierge" market.',
+    },
+    {
+      tip: 'Avoid the highway, hire a hotel car for cenotes',
+      detail: 'Highway 307 is fine in daylight but you don\'t want to drive Mexican roads at night. Hotel-arranged car-and-driver for cenote and ruin day trips is $250–$400 per day and the right call. Cell coverage drops in cenote zones.',
+    },
+    {
+      tip: 'Sargassum varies hotel-to-hotel — choose carefully',
+      detail: 'Even within the same week, some beaches have sargassum and some don\'t — depends on currents and seaweed-barrier installations. Hotel Esencia, Mayakoba, and Nizuc invest heavily in barriers. Tulum hotels generally less. Check sargassum-monitor sites the month before.',
+    },
+  ],
+  packing: [
+    { item: 'Reef-safe sunscreen (chemical sunscreens are banned)', why: 'Mexican biosphere law forbids oxybenzone and octinoxate sunscreens. Cenotes, Akumal, and Sian Ka\'an reject visitors without compliant sunscreen. Stream2Sea or Sun Bum mineral are reliable.' },
+    { item: 'Light long sleeves for cenotes and jungle', why: 'Mosquitos at Cobá and Sian Ka\'an are aggressive at dawn/dusk. Cenote air is also cool. A thin linen shirt solves both.' },
+    { item: 'Waterproof phone case or GoPro', why: 'Cenote photos with a phone in a Lifeproof case are some of the best memories you\'ll bring back. GoPro Hero with a stick is even better.' },
+    { item: 'Cash in small US dollars and Mexican pesos', why: 'Tulum is widely USD-priced but small vendors, beach clubs, and tips want pesos. ATMs are unreliable in Tulum beach road. Bring $300–$500 cash in mixed denominations.' },
+    { item: 'Insect repellent with DEET or picaridin', why: 'Especially September–November (sargassum recovery period coincides with mosquito season). Hotels stock weak versions. Bring 30% DEET from home.' },
+  ],
+  guide: {
+    getting: 'Fly into Cancún International (CUN) — by far the busiest gateway, with direct service from every major US hub and from Europe (London, Madrid, Frankfurt). From CUN: private transfer to Playa del Carmen / Mayakoba (50 min, $120), Tulum (90 min, $180), Cancún Hotel Zone (15 min, $60). Tulum International (TQO) opened 2023 with limited routes — fine if your itinerary aligns but rarely cheaper or faster.',
+    where: 'Tulum beach road (Be Tulum, Casa Malca, Hotel Esencia just south) for the bohemian jungle-beach aesthetic. Mayakoba (Rosewood, Banyan Tree, Andaz, Fairmont) for polished mega-luxury. Cancún Punta Nizuc (Nizuc, Ritz) for short trips with minimal transfer. Sian Ka\'an (Mukan) for total isolation.',
+    when: 'November is the perfect month — sargassum gone, hurricane season over, prices not yet at peak. February is the second-best — driest air, perfect 27°C, but priciest. Avoid May through October entirely: sargassum, hurricanes, and humidity make even the best hotels miserable.',
+  },
+  localFood: 'Cochinita pibil (Yucatecan slow-roasted pork in achiote and bitter orange) at a Tulum cenote-side restaurant, fresh ceviche at Hartwood, wood-fire octopus and the catch of the day at Posada Margherita (Italian-Mexican on Tulum beach), tlayudas at Casa Jaguar, and a margarita at Gitano under the giant ceiba tree. Mezcal is the local pour, not tequila.',
+  currency: 'Mexican Peso (MXN); USD widely accepted',
+  language: 'Spanish (English in resorts)',
+  timezone: 'UTC-5 (EST)',
+  seo: {
+    title: 'Riviera Maya Honeymoon: 10 Tulum & Mayakoba Hotels 2026',
+    description: '10 Tulum, Mayakoba, Cancún hotels scored. Rosewood, Be Tulum, Esencia. From $400/night. Cenotes, Maya ruins, honest sargassum verdicts.',
+  },
+  // Ultra-enrichment
+  weeklyMicroWindows: [
+    { range: 'Nov 1–14', vibe: 'Hurricane season over, sargassum cleared, peak prices not yet set, no crowds', rating: 5, why: 'The single best window of the year. Dry air, 27°C, beach clear, restaurants take walk-ins, and rates are still mid-season. Veterans book this fortnight a year ahead and tell no one.' },
+    { range: 'Jan 8–25', vibe: 'Post-holiday quiet, perfect dry season, full operations', rating: 5, why: 'Holiday families have gone home, US spring break has not started, weather is at its driest and most reliable. The classic Riviera Maya honeymoon window — book by August.' },
+    { range: 'Feb 5–20', vibe: 'Peak weather, peak prices, peak booking pressure', rating: 4, why: 'The most reliable weather of the entire year and the most photographed light. But Hartwood, Esencia, and Rosewood Mayakoba lagoon studios are all sold out 4+ months ahead. Plan accordingly.' },
+    { range: 'Apr 1–15', vibe: 'Pre-sargassum window, warm sea, prices easing', rating: 4, why: 'The Mesoamerican reef is at its warmest swimmable temperature and sargassum has not yet begun in earnest. Easter aside, the first half of April is excellent value with the same 5-star weather as February.' },
+  ],
+  restaurants: [
+    { name: 'Hartwood', cuisine: 'Wood-fire Yucatecan / New American', priceRange: '$$$$ ($90–$140/pp)', signature: 'Wood-fired jungle pork ribs; daily catch with chiltomate', bookingTip: 'Online bookings open exactly 30 days in advance at 11am EST at hartwoodtulum.com — set an alarm. No-shows lose their table after 15 minutes.', location: 'Tulum beach road, km 7.6' },
+    { name: 'Posada Margherita', cuisine: 'Coastal Italian on Mayan beach', priceRange: '$$$ ($70–$110/pp)', signature: 'Hand-rolled pasta with octopus; whole grilled snapper', bookingTip: 'Phone bookings 21 days out. Ask for a sand-floor table at sunset (book the 6:30pm seating). Walk-ins at 4pm sometimes get a 9pm slot.', location: 'Tulum beach road, km 4.5' },
+    { name: 'Casa Jaguar', cuisine: 'Modern Mexican, jungle setting', priceRange: '$$$ ($60–$95/pp)', signature: 'Mezcal-flight tasting; tlayudas with huitlacoche', bookingTip: 'OpenTable works. Ask for a jungle-table near the central fire. The Thursday-night live jazz is the best night of the week.', location: 'Tulum beach road jungle side' },
+    { name: 'Arca', cuisine: 'Open-fire fine dining', priceRange: '$$$$ ($110–$160/pp)', signature: 'Chef\'s 7-course wood-fire tasting menu', bookingTip: 'Book 2 weeks ahead via concierge. Request the chef\'s counter — six seats only, watching the fire pits.', location: 'Tulum beach road, jungle side' },
+    { name: 'Cetli', cuisine: 'Authentic regional Mexican', priceRange: '$$ ($35–$55/pp)', signature: 'Mole tasting; chiles en nogada in season', bookingTip: 'Reservations by WhatsApp only — concierge handles it. Cash only. The most honest Mexican meal you\'ll have in the Riviera Maya.', location: 'Tulum town (not beach road)' },
+    { name: 'Casa Banyan (Rosewood Mayakoba)', cuisine: 'Coastal Mexican fine dining', priceRange: '$$$$ ($120–$180/pp)', signature: 'Tableside guacamole; lagoon-caught snook ceviche', bookingTip: 'Open to non-guests with 3 days notice. Book the sunset terrace facing the lagoon.', location: 'Mayakoba (Rosewood)' },
+  ],
+  photographySpots: [
+    { name: 'Tulum ruins from the south path', type: 'sunrise', what: 'The castillo silhouetted against the Caribbean as the sun comes up behind it — the defining Riviera Maya image', tip: 'Enter at official 8am opening, walk straight to the cliff edge south of the Castillo. Bring a 24-70mm. Ten minutes only before tour groups arrive.' },
+    { name: 'Gran Cenote light beam chamber', type: 'midday', what: 'The vertical sunbeam piercing the cave water between 11am and 1pm — pure cathedral light', tip: 'You need 12pm exactly. Avoid weekends. Wear a black swimsuit (won\'t reflect). GoPro on a 30cm stick gets the best angle.' },
+    { name: 'Mayakoba canal at the Rosewood', type: 'golden hour', what: 'Mangrove-canal reflections with overwater bungalows along the water', tip: 'Take the resort\'s electric boat at 5:30pm in winter. The light hits the mangrove wall and bounces back onto the water.' },
+    { name: 'Sian Ka\'an Muyil canal', type: 'golden hour', what: 'The ancient Mayan canal cut through reed lagoons stretching to the horizon', tip: 'You need an afternoon-return tour to catch this light. Most operators end at 4pm. CESiaK does a sunset extension on request — worth the upgrade.' },
+    { name: 'Cobá pyramid summit', type: 'sunrise', what: '42-metre Maya pyramid above unbroken Yucatán jungle canopy', tip: 'Note: pyramid climbing was restricted in 2020 but the base view at sunrise remains spectacular. 5am hotel departure from Tulum. Bring water — there is none at the site.' },
+    { name: 'Be Tulum sand-floor bar at blue hour', type: 'blue hour', what: 'Driftwood-and-candle bar with hammocks, jungle behind, sea in front, exactly between sunset and dark', tip: 'The 15-minute window is real. Order a mezcal-tonic, sit at the bar facing the sea. iPhone in night mode handles it beautifully.' },
+  ],
+  logistics: {
+    visa: 'Visa-free for US, EU, UK, Canada, Australia (180 days). FMM tourist permit issued at airport — keep the slip until departure.',
+    vaccines: 'None required. Hep A and routine vaccines recommended. No malaria risk in resort areas.',
+    currency: 'Mexican Peso (MXN). USD widely accepted in tourist zones at unfavorable rates. ATMs in Playa del Carmen and Cancún reliable; Tulum beach-road ATMs unreliable and high-fee. Use bank-affiliated ATMs only (Santander, BBVA). Visa/Mastercard widely accepted; bring backup card.',
+    plug: 'Type A and B (US-style), 110V — same as US and Canada',
+    sim: 'Telcel at Cancún airport kiosk (best coverage), or eSIM via Airalo or Holafly before arrival. AT&T Mexico works. Resort wifi is excellent but cenotes and Sian Ka\'an have no signal.',
+    driveSide: 'right',
+    tippingNorm: '10–15% restaurants (sometimes auto-added — check). Concierge $20–$50 for serious bookings. Bag porters $2–$5 per bag. Driver/guide $10–$20 per couple per day. Cash USD or pesos both fine.',
+    tapwater: 'avoid',
+    averageTransferTime: 'Cancún airport (CUN) → Tulum: 90 min ($150–$180 private). CUN → Mayakoba: 50 min ($120). CUN → Cancún Hotel Zone: 15–25 min ($60). Tulum airport (TQO) → Tulum: 25 min but limited flight routes.',
+  },
+  localEtiquette: [
+    { do: 'Tip in cash, ideally pesos — service workers see less of card tips', dont: 'Don\'t haggle aggressively in markets — a small smile and a counter-offer is welcomed, hard bargaining is rude' },
+    { do: 'Greet with "buenos días/tardes" before any request, even in English', dont: 'Don\'t expect punctuality — Mexico runs on "ahorita" (any time soon). Build buffer.' },
+    { do: 'Carry small bills for street vendors at ruins — change is genuinely scarce', dont: 'Don\'t touch or climb Maya structures — illegal at all sites since 2020' },
+    { do: 'Ask before photographing Mayan people, especially in markets and small villages', dont: 'Don\'t wear chemical sunscreen near cenotes or reef — it\'s confiscated at the entrance' },
+  ],
+  insiderTips: [
+    'Akiin Beach Club (Tulum) is the only public beach club with consistently sargassum-free sand all winter — they have aggressive barriers and daily mechanical raking',
+    'The 8am pyramid sunrise at Cobá is genuinely empty until 9:30 — book a 5am pickup from Tulum and you\'ll have the site to yourselves',
+    'Yaxche restaurant in Playa del Carmen is the locals\' pick for serious Mayan cooking — better, cheaper, and less touristy than anything on the Tulum beach road',
+    'Cenote Carwash (proper name: Aktun Ha) is the cheapest, prettiest, and least-visited cenote near Tulum — locals swim here, tourists go to Gran Cenote',
+    'Hotels in Mayakoba operate "free guest reciprocity" — staying at Rosewood lets you use Banyan Tree\'s spa and Andaz\'s pools. Most guests don\'t know this. Ask at check-in.',
+  ],
+  bestMonthsHonest: 'The honest truth: the Riviera Maya has one perfect season and you should plan around it ruthlessly. November 1 to April 15 is the only window that delivers what you came for — clear water, no sargassum on the beach, low hurricane risk, dry air. Within that, the first two weeks of November and the first two weeks of January are the secret-best for the rare combination of perfect weather and not-yet-peak prices. February is peak-perfect but everyone knows it — Hartwood is fully booked, Rosewood lagoon suites are sold out. Mid-April is the last good window before sargassum begins. May through October the beach can become a stinking yellow-brown mat of decomposing seaweed and even the best hotels with full-time rakers cannot win. Hotels will tell you sargassum is "manageable." It is not. Do not honeymoon here outside the dry season.',
+}
+
+export default meta
