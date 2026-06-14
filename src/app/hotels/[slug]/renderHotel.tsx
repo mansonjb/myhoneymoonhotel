@@ -18,8 +18,28 @@ import RecordView from '@/components/RecordView'
 import { getMessages, type Messages } from '@/i18n/getMessages'
 import { buildAlternates, localizedPath } from '@/lib/alternates'
 import type { Locale } from '@/i18n/locales'
+import { AUTHOR } from '@/data/author'
+import type { Hotel } from '../../../../types/hotel'
 
 const SITE_URL = 'https://myhoneymoonhotel.com'
+
+function buildScoreSourcesLine(hotel: Hotel): string {
+  const parts: string[] = []
+  if (typeof hotel.couples_review_pct === 'number') {
+    parts.push(`TripAdvisor couples-review breakdown (${hotel.couples_review_pct}% couples)`)
+  } else {
+    parts.push('TripAdvisor traveler-type breakdown')
+  }
+  parts.push('Booking.com Guest Reviews')
+  if ((hotel.score_breakdown?.award ?? 0) >= 8) {
+    parts.push('Conde Nast Gold List / Travel and Leisure World\'s Best (verified)')
+  }
+  if (hotel.tripadvisor_award) {
+    parts.push('TripAdvisor Travellers\' Choice')
+  }
+  parts.push('on-ground reporting')
+  return parts.join(' · ')
+}
 
 // Determine which locale overlays exist for a given hotel slug. We only
 // advertise hreflang alternates for locales where the page actually renders
@@ -71,6 +91,12 @@ export async function buildHotelMetadata(slug: string, locale: Locale): Promise<
       title,
       description,
       images: heroUrl ? [heroUrl] : undefined,
+    },
+    other: {
+      citation_author: AUTHOR.name,
+      citation_publication_date: hotel.last_updated,
+      citation_title: `${hotel.name} — Honeymoon Score ${hotel.honeymoon_score}/100`,
+      citation_journal_title: 'MyHoneymoonHotel.com',
     },
   }
 }
@@ -259,6 +285,12 @@ export async function renderHotelPage(slug: string, locale: Locale) {
                   )
                 })}
               </div>
+              <p className="mt-5 text-[11px] italic text-zinc-400 leading-relaxed">
+                Score sources: {buildScoreSourcesLine(hotel)}. Methodology:{' '}
+                <Link href={localizedPath('/methodology', locale)} className="underline hover:text-zinc-600">
+                  how we score
+                </Link>.
+              </p>
             </section>
           </div>
 

@@ -322,6 +322,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
                   <h3 className="text-xs font-semibold uppercase tracking-widest text-zinc-400 mb-4">{m['footer.about'] ?? 'About'}</h3>
                   <ul className="space-y-2.5 text-sm text-zinc-500">
                     <li><Link href={lp('/about')} className="hover:text-zinc-900 transition-colors">{m['footer.ourStory'] ?? 'Our story'}</Link></li>
+                    <li><Link href={lp('/methodology')} className="hover:text-zinc-900 transition-colors">Methodology</Link></li>
                     <li><Link href={lp('/quiz')} className="hover:text-zinc-900 transition-colors">{m['footer.findMyHotel'] ?? 'Find my hotel'}</Link></li>
                     <li><Link href={lp('/honeymoon-with-dog')} className="hover:text-zinc-900 transition-colors">Honeymoon with a dog</Link></li>
                     <li><Link href={lp('/overwater-bungalow-honeymoon')} className="hover:text-zinc-900 transition-colors">Overwater bungalow honeymoon</Link></li>

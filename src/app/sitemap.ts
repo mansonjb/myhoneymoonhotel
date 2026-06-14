@@ -129,6 +129,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/itineraries/sicily', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
     { path: '/itineraries/mykonos-greece', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
     { path: '/about', lastModified: new Date(), changeFrequency: 'yearly', priority: 0.5 },
+    { path: '/methodology', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
     { path: '/contact', lastModified: new Date(), changeFrequency: 'yearly', priority: 0.4 },
     { path: '/privacy', lastModified: new Date(), changeFrequency: 'yearly', priority: 0.2 },
     { path: '/terms', lastModified: new Date(), changeFrequency: 'yearly', priority: 0.2 },
