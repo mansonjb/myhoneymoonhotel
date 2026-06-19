@@ -3,10 +3,16 @@ import { getAllHotels, getAllDestinations, getAllExperienceTypes } from '@/lib/h
 import { getCountriesWithHotels } from '@/lib/countries'
 import { getAllComparisonSlugs } from '../../data/comparisons'
 import { getAllHotelComparisonSlugs } from '../../data/hotel-comparisons'
+import { hasLocaleOverlay } from '@/lib/localeOverlay'
 
 const SITE_URL = 'https://myhoneymoonhotel.com'
 
-// Locales that have a fully-rendered tree alongside English. Spanish + Portuguese + French live.
+// Locales that have at least partial rendered trees. We emit hreflang
+// alternates per-URL ONLY when an overlay actually exists — see
+// `hasLocaleOverlay`. Blindly emitting alternates for every locale on every
+// URL is what caused the May 31 2026 GSC traffic crash (-94% in one day):
+// Google detected ~13.5k near-duplicate URLs (4.5k × 3 locales) most of which
+// rendered EN content because translations didn't exist yet.
 const LIVE_LOCALES = ['es', 'pt', 'fr'] as const
 
 interface PathEntry {
@@ -17,14 +23,19 @@ interface PathEntry {
 }
 
 function entry(p: PathEntry): MetadataRoute.Sitemap[number] {
-  // Spread English + every live alternate locale. hreflang lives in `alternates.languages`.
   const url = `${SITE_URL}${p.path === '/' ? '' : p.path}` || SITE_URL
+  // Always emit EN + x-default. hreflang `language` map only includes a locale
+  // when `data/i18n/<locale>/<kind>/<slug>.json` exists (hotels/destinations/
+  // comparisons) or the path is a known per-locale route (home, about, quiz,
+  // the 4 multilingual pillar pages, cost pages…).
   const languages: Record<string, string> = {
     en: url,
     'x-default': url,
   }
   for (const loc of LIVE_LOCALES) {
-    languages[loc] = `${SITE_URL}/${loc}${p.path === '/' ? '' : p.path}`
+    if (hasLocaleOverlay(p.path, loc)) {
+      languages[loc] = `${SITE_URL}/${loc}${p.path === '/' ? '' : p.path}`
+    }
   }
   return {
     url,

@@ -47,7 +47,7 @@ function buildScoreSourcesLine(hotel: Hotel): string {
 // to overlay-available slugs, so promising a missing locale yields a 404).
 function getAvailableHotelLocales(slug: string): Locale[] {
   const available: Locale[] = ['en']
-  for (const loc of ['es', 'pt'] as const) {
+  for (const loc of ['es', 'pt', 'fr'] as const) {
     const p = path.join(process.cwd(), 'data', 'i18n', loc, 'hotels', `${slug}.json`)
     if (fs.existsSync(p)) available.push(loc)
   }
