@@ -31,13 +31,16 @@ export default function MicrosoftClarity() {
 
   if (!enabled || !CLARITY_ID) return null
 
+  // Next.js docs: `beforeInteractive` ONLY works in the root layout as a
+  // server component. In a `'use client'` component it is silently
+  // downgraded / ignored — which is why Clarity recorded zero sessions
+  // for 3 weeks while GA4 (using `afterInteractive`) captured 22.
+  // `afterInteractive` is the correct strategy for a consent-gated client
+  // component.
   return (
-    // Loaded in <head> via `strategy="beforeInteractive"` so the
-    // Clarity tag is in place as early as Next.js allows for client-side
-    // injection. The component itself stays consent-gated for GDPR.
     <Script
       id="ms-clarity"
-      strategy="beforeInteractive"
+      strategy="afterInteractive"
       dangerouslySetInnerHTML={{
         __html: `(function(c,l,a,r,i,t,y){
     c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
