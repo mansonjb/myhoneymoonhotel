@@ -372,6 +372,11 @@ export default function HowToChooseHoneymoonDestinationPagePt() {
           </p>
 
           {/* 2 */}
+          <div className="my-16 flex items-center gap-4">
+            <div className="h-px flex-1 bg-rose-200" />
+            <span className="text-rose-400 text-xs font-semibold uppercase tracking-[0.25em]">Realidade</span>
+            <div className="h-px flex-1 bg-rose-200" />
+          </div>
           <h2>O erro mais comum dos casais</h2>
           <blockquote className="not-prose my-12 pl-6 border-l-4 border-rose-500 text-2xl md:text-3xl font-display italic text-zinc-700 leading-snug">
             O destino é decidido com emoção; a viagem é então engenheirada para trás para justificar a decisão.
@@ -404,6 +409,11 @@ export default function HowToChooseHoneymoonDestinationPagePt() {
           </p>
 
           {/* 3 */}
+          <div className="my-16 flex items-center gap-4">
+            <div className="h-px flex-1 bg-rose-200" />
+            <span className="text-rose-400 text-xs font-semibold uppercase tracking-[0.25em]">O método</span>
+            <div className="h-px flex-1 bg-rose-200" />
+          </div>
           <h2 id="framework">O framework de decisão em 7 perguntas</h2>
           <p>
             Percorram estas sete perguntas com o seu parceiro, idealmente em uma noite tranquila, idealmente com uma
@@ -411,120 +421,181 @@ export default function HowToChooseHoneymoonDestinationPagePt() {
             terão uma shortlist de três a cinco destinos que realmente combinam. Aí olhem as fotos.
           </p>
 
-          <h3>Q1. Qual é o orçamento honesto de vocês?</h3>
-          <p>
-            Não o orçamento que vocês gostariam de ter, o orçamento que existe. Definam um teto que inclua voos,
-            hotéis, comida, transferes, atividades, gorjetas e 10 por cento de contingência. Três faixas cobrem
-            honestamente quase todo mundo:
-          </p>
-          <ul>
-            <li><strong>Confortável, $8.000 a $12.000:</strong> Bali (Ubud mais uma área de praia), Grécia (continente mais uma ilha secundária), México (all-inclusive na Riviera Maya mais Tulum), Cabo Verde, Sicília, Maiorca. Para o piso dessa faixa, vejam nosso guia completo em <Link href="/honeymoon-on-a-budget">lua de mel econômica</Link>.</li>
-            <li><strong>Premium, $15.000 a $25.000:</strong> Water villa nas Maldivas (resort único), safári no leste da África (um camp mais Zanzibar), Polinésia Francesa (Bora Bora mais Taiti), circuito de ryokans no Japão, Itália (Costa Amalfitana mais Toscana).</li>
-            <li><strong>Ultra, $30.000 ou mais:</strong> Ilha privada nas Maldivas ou em Fiji, circuito Aman (Tóquio mais Quioto mais Niseko), Singita no Serengeti, multi-parada Polinésia Francesa mais Nova Zelândia, rota de helicóptero pelo Butão.</li>
-          </ul>
-          <p>
-            Para detalhamentos de custo por destino, mantemos páginas com números reais: <Link href="/honeymoon-under-5000">abaixo de $5 mil</Link>, <Link href="/honeymoon-under-10000">abaixo de $10 mil</Link>, <Link href="/honeymoon-under-15000">abaixo de $15 mil</Link>, <Link href="/honeymoon-under-20000">abaixo de $20 mil</Link>, além das páginas por destino para <Link href="/pt/maldives-honeymoon-cost">Maldivas</Link>, <Link href="/pt/bali-honeymoon-cost">Bali</Link>, <Link href="/pt/mexico-honeymoon-cost">México</Link>, <Link href="/pt/turks-and-caicos-honeymoon-cost">Turks and Caicos</Link>, <Link href="/pt/bahamas-honeymoon-cost">Bahamas</Link>, <Link href="/pt/barbados-honeymoon-cost">Barbados</Link> e <Link href="/pt/cape-verde-honeymoon-cost">Cabo Verde</Link>.
-          </p>
+          <div className="my-10 bg-white border border-rose-100 rounded-2xl p-6 md:p-8 shadow-sm">
+            <div className="flex items-start gap-4 mb-4">
+              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-rose-500 text-white flex items-center justify-center font-display text-xl font-bold">1</div>
+              <div className="flex-1">
+                <h3 className="font-display text-2xl md:text-3xl text-zinc-900 m-0">Q1. Qual é o orçamento honesto de vocês?</h3>
+              </div>
+            </div>
+            <p>
+              Não o orçamento que vocês gostariam de ter, o orçamento que existe. Definam um teto que inclua voos,
+              hotéis, comida, transferes, atividades, gorjetas e 10 por cento de contingência. Três faixas cobrem
+              honestamente quase todo mundo:
+            </p>
+            <ul>
+              <li><strong>Confortável, $8.000 a $12.000:</strong> Bali (Ubud mais uma área de praia), Grécia (continente mais uma ilha secundária), México (all-inclusive na Riviera Maya mais Tulum), Cabo Verde, Sicília, Maiorca. Para o piso dessa faixa, vejam nosso guia completo em <Link href="/honeymoon-on-a-budget">lua de mel econômica</Link>.</li>
+              <li><strong>Premium, $15.000 a $25.000:</strong> Water villa nas Maldivas (resort único), safári no leste da África (um camp mais Zanzibar), Polinésia Francesa (Bora Bora mais Taiti), circuito de ryokans no Japão, Itália (Costa Amalfitana mais Toscana).</li>
+              <li><strong>Ultra, $30.000 ou mais:</strong> Ilha privada nas Maldivas ou em Fiji, circuito Aman (Tóquio mais Quioto mais Niseko), Singita no Serengeti, multi-parada Polinésia Francesa mais Nova Zelândia, rota de helicóptero pelo Butão.</li>
+            </ul>
+            <p>
+              Para detalhamentos de custo por destino, mantemos páginas com números reais: <Link href="/honeymoon-under-5000">abaixo de $5 mil</Link>, <Link href="/honeymoon-under-10000">abaixo de $10 mil</Link>, <Link href="/honeymoon-under-15000">abaixo de $15 mil</Link>, <Link href="/honeymoon-under-20000">abaixo de $20 mil</Link>, além das páginas por destino para <Link href="/pt/maldives-honeymoon-cost">Maldivas</Link>, <Link href="/pt/bali-honeymoon-cost">Bali</Link>, <Link href="/pt/mexico-honeymoon-cost">México</Link>, <Link href="/pt/turks-and-caicos-honeymoon-cost">Turks and Caicos</Link>, <Link href="/pt/bahamas-honeymoon-cost">Bahamas</Link>, <Link href="/pt/barbados-honeymoon-cost">Barbados</Link> e <Link href="/pt/cape-verde-honeymoon-cost">Cabo Verde</Link>.
+            </p>
 
-          <h3>Q2. Quantas noites vocês conseguem se comprometer?</h3>
-          <p>
-            Tempo importa mais que dinheiro em uma lua de mel. Uma viagem de 5 noites para as Maldivas é um insulto
-            logístico ao destino: 36 horas de trânsito consomem 30 por cento da viagem. As faixas honestas:
-          </p>
-          <ul>
-            <li><strong>Abaixo de 7 noites:</strong> fiquem regionais. Itália ou Grécia para europeus, México ou Caribe para americanos, Bali ou Tailândia para australianos, Maurício para sul-africanos. Longa distância em menos de 7 noites é um imposto que vocês cobram de vocês mesmos.</li>
-            <li><strong>7 a 10 noites:</strong> um resort de longa distância, uma única parada. Esta é a lua de mel canônica de Maldivas, Bora Bora, Fiji, Seicheles.</li>
-            <li><strong>10 a 14 noites:</strong> longa distância em duas paradas. Safári mais praia (Tanzânia mais Zanzibar), cidade mais resort (Tóquio mais Maldivas), aventura mais relaxamento (Patagônia mais Atacama).</li>
-            <li><strong>14 noites ou mais:</strong> no máximo três paradas. Mais que três e vocês passam a lua de mel em aeroportos. Exceção é o mergulho profundo em um único país, como um circuito do Butão ou um cross-country pela África do Sul.</li>
-          </ul>
-          <p>
-            Para roteiros por duração, vejam nossos planners de <Link href="/3-day-honeymoon">3 dias</Link>, <Link href="/5-day-honeymoon">5 dias</Link>, <Link href="/7-day-honeymoon">7 dias</Link>, <Link href="/10-day-honeymoon">10 dias</Link> e <Link href="/14-day-honeymoon">14 dias</Link>.
-          </p>
+          </div>
 
-          <h3>Q3. Quanto tempo de viagem vocês toleram?</h3>
-          <p>
-            Um dos filtros mais subestimados. Um casal que acha um voo de 5 horas desconfortável não deveria reservar
-            Maldivas saindo de Nova York (16 horas mais um transfer de hidroavião). As faixas honestas:
-          </p>
-          <ul>
-            <li><strong>Abaixo de 6 horas:</strong> a partir da costa leste dos EUA, Caribe e México. A partir da Europa, Mediterrâneo e norte da África. A partir da Austrália, Bali, Fiji, Nova Zelândia.</li>
-            <li><strong>6 a 12 horas:</strong> a partir da costa leste dos EUA, Europa e norte da América do Sul. A partir da Europa, Maldivas, Seicheles, leste da África. A partir da costa oeste dos EUA, Tóquio e Bora Bora.</li>
-            <li><strong>Acima de 12 horas:</strong> a partir dos EUA, Polinésia Francesa, Maldivas, Seicheles, Bali, Austrália. A partir da Europa, Austrália, Polinésia Francesa, Ilhas Cook, Pacífico profundo.</li>
-          </ul>
-          <p>
-            Premium economy ou classe executiva mudam a conta. Um voo de 16 horas em assento-cama na executiva é uma
-            experiência diferente do mesmo voo na econômica. Se o orçamento sustenta lie-flat em uma das pernas
-            (frequentemente viável via pontos), façam a ida longa na executiva e a volta no padrão, quando a fadiga
-            importa menos.
-          </p>
+          <div className="my-10 bg-white border border-rose-100 rounded-2xl p-6 md:p-8 shadow-sm">
+            <div className="flex items-start gap-4 mb-4">
+              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-rose-500 text-white flex items-center justify-center font-display text-xl font-bold">2</div>
+              <div className="flex-1">
+                <h3 className="font-display text-2xl md:text-3xl text-zinc-900 m-0">Q2. Quantas noites vocês conseguem se comprometer?</h3>
+              </div>
+            </div>
+            <p>
+              Tempo importa mais que dinheiro em uma lua de mel. Uma viagem de 5 noites para as Maldivas é um insulto
+              logístico ao destino: 36 horas de trânsito consomem 30 por cento da viagem. As faixas honestas:
+            </p>
+            <ul>
+              <li><strong>Abaixo de 7 noites:</strong> fiquem regionais. Itália ou Grécia para europeus, México ou Caribe para americanos, Bali ou Tailândia para australianos, Maurício para sul-africanos. Longa distância em menos de 7 noites é um imposto que vocês cobram de vocês mesmos.</li>
+              <li><strong>7 a 10 noites:</strong> um resort de longa distância, uma única parada. Esta é a lua de mel canônica de Maldivas, Bora Bora, Fiji, Seicheles.</li>
+              <li><strong>10 a 14 noites:</strong> longa distância em duas paradas. Safári mais praia (Tanzânia mais Zanzibar), cidade mais resort (Tóquio mais Maldivas), aventura mais relaxamento (Patagônia mais Atacama).</li>
+              <li><strong>14 noites ou mais:</strong> no máximo três paradas. Mais que três e vocês passam a lua de mel em aeroportos. Exceção é o mergulho profundo em um único país, como um circuito do Butão ou um cross-country pela África do Sul.</li>
+            </ul>
+            <p>
+              Para roteiros por duração, vejam nossos planners de <Link href="/3-day-honeymoon">3 dias</Link>, <Link href="/5-day-honeymoon">5 dias</Link>, <Link href="/7-day-honeymoon">7 dias</Link>, <Link href="/10-day-honeymoon">10 dias</Link> e <Link href="/14-day-honeymoon">14 dias</Link>.
+            </p>
 
-          <h3>Q4. Em qual estação vocês vão viajar?</h3>
-          <p>
-            Encaixem o destino na sua janela de viagem, não o contrário. A maneira mais rápida de estragar uma lua de
-            mel nas Maldivas é reservar maio porque é quando o casamento acontece. As grandes janelas:
-          </p>
-          <ul>
-            <li><strong>Dezembro a março:</strong> pico em Maldivas, Bali (seca), Tailândia, Maurício, Seicheles. Caribe confiável.</li>
-            <li><strong>Abril a junho:</strong> meia-estação no Mediterrâneo (o ponto doce), cerejeiras no Japão, estação verde no leste da África.</li>
-            <li><strong>Julho a agosto:</strong> Polinésia Francesa, Islândia, Escandinávia, estação seca no leste da África, inverno no sul da África (ótimo para safári). Evitem o Mediterrâneo a menos que amem multidão.</li>
-            <li><strong>Setembro a novembro:</strong> meia-estação no Mediterrâneo de novo (o segundo ponto doce), meia-estação nas Maldivas, abertura da Patagônia, meia-estação em Galápagos.</li>
-          </ul>
-          <p>
-            Para um mapeamento mês a mês, vejam nosso planner em <Link href="/pt/best-time-to-honeymoon">melhor época para a lua de mel</Link>, além das páginas mensais de <Link href="/honeymoon-in-january">janeiro</Link>, <Link href="/honeymoon-in-february">fevereiro</Link>, <Link href="/honeymoon-in-march">março</Link>, <Link href="/honeymoon-in-april">abril</Link>, <Link href="/honeymoon-in-may">maio</Link>, <Link href="/honeymoon-in-june">junho</Link>, <Link href="/honeymoon-in-july">julho</Link>, <Link href="/honeymoon-in-august">agosto</Link>, <Link href="/honeymoon-in-september">setembro</Link>, <Link href="/honeymoon-in-october">outubro</Link>, <Link href="/honeymoon-in-november">novembro</Link> e <Link href="/honeymoon-in-december">dezembro</Link>.
-          </p>
+          </div>
 
-          <h3>Q5. Qual energia vocês querem?</h3>
-          <p>
-            É aqui que a maioria dos casais escorrega. Existem cinco energias honestas de lua de mel. A maioria
-            consegue misturar duas; quase ninguém consegue misturar mais de duas numa única viagem.
-          </p>
-          <ul>
-            <li><strong>Praia-e-spa:</strong> tempo horizontal, sol, água, massagens, sem agenda. Maldivas, Bora Bora, Maurício, Caribe.</li>
-            <li><strong>Ativa:</strong> caminhadas, mergulho, exploração, dias variados. Costa Rica, Nova Zelândia, Havaí, Bali (Ubud mais surfe).</li>
-            <li><strong>Cultural:</strong> museus, história, comida, cidades caminháveis. Japão, Itália, Portugal, Cidade do México mais Oaxaca, Marrakesh.</li>
-            <li><strong>Espiritual ou bem-estar:</strong> retiros, ryokans, ayurveda, slow travel profundo. Butão, Kerala, Bali Ubud, Hakone, algumas propriedades Aman.</li>
-            <li><strong>Aventura:</strong> safári, geleiras, paisagens remotas, nível de expedição. Leste da África, Patagônia, Islândia, Galápagos, Butão.</li>
-          </ul>
-          <p>
-            As misturas clássicas em dupla: safári mais praia, cidade mais resort, aventura mais relaxamento, cultural
-            mais praia. O erro clássico: tentar misturar três ou mais e terminar uma viagem de 14 noites em sete
-            aeroportos.
-          </p>
+          <div className="my-10 bg-white border border-rose-100 rounded-2xl p-6 md:p-8 shadow-sm">
+            <div className="flex items-start gap-4 mb-4">
+              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-rose-500 text-white flex items-center justify-center font-display text-xl font-bold">3</div>
+              <div className="flex-1">
+                <h3 className="font-display text-2xl md:text-3xl text-zinc-900 m-0">Q3. Quanto tempo de viagem vocês toleram?</h3>
+              </div>
+            </div>
+            <p>
+              Um dos filtros mais subestimados. Um casal que acha um voo de 5 horas desconfortável não deveria reservar
+              Maldivas saindo de Nova York (16 horas mais um transfer de hidroavião). As faixas honestas:
+            </p>
+            <ul>
+              <li><strong>Abaixo de 6 horas:</strong> a partir da costa leste dos EUA, Caribe e México. A partir da Europa, Mediterrâneo e norte da África. A partir da Austrália, Bali, Fiji, Nova Zelândia.</li>
+              <li><strong>6 a 12 horas:</strong> a partir da costa leste dos EUA, Europa e norte da América do Sul. A partir da Europa, Maldivas, Seicheles, leste da África. A partir da costa oeste dos EUA, Tóquio e Bora Bora.</li>
+              <li><strong>Acima de 12 horas:</strong> a partir dos EUA, Polinésia Francesa, Maldivas, Seicheles, Bali, Austrália. A partir da Europa, Austrália, Polinésia Francesa, Ilhas Cook, Pacífico profundo.</li>
+            </ul>
+            <p>
+              Premium economy ou classe executiva mudam a conta. Um voo de 16 horas em assento-cama na executiva é uma
+              experiência diferente do mesmo voo na econômica. Se o orçamento sustenta lie-flat em uma das pernas
+              (frequentemente viável via pontos), façam a ida longa na executiva e a volta no padrão, quando a fadiga
+              importa menos.
+            </p>
 
-          <h3>Q6. Qual é o piso de comida e conforto de vocês?</h3>
-          <p>
-            Esta pergunta raramente é feita em voz alta e importa enormemente. Um tented camp em Botsuana é uma
-            experiência "de luxo", mas vocês dormem sob lona e tomam banho de balde. Um ryokan em Hakone é luxo, mas
-            vocês dormem em um futon, o jantar é um kaiseki fixo às 18h30 e não existe opção de café da manhã
-            ocidental. Um eco-resort na selva em Bali é lindíssimo, mas há insetos na vila aberta e 4 horas de carro
-            do aeroporto.
-          </p>
-          <p>
-            Se os dois forem honestamente "piso de conforto alto", inclinem-se para vilas sobre a água, all-inclusives
-            no Caribe, Mediterrâneo e hotéis 5 estrelas urbanos em Tóquio ou Paris. Se um ou os dois forem "piso de
-            conforto flexível", o mundo se abre: safári, selva, ryokan, cruzeiro de expedição, tudo passa a ser
-            viável. Se vocês estão descalibrados nesse eixo, nomeiem isso e escolham um destino que atenda ao piso
-            mais alto. O inverso (o parceiro de conforto alto cerrando os dentes em um tented camp) é uma causa comum
-            de rancor pós-lua de mel.
-          </p>
+          </div>
 
-          <h3>Q7. Vocês dois são viajantes de longa distância de primeira viagem ou veteranos?</h3>
-          <p>
-            A pergunta mais negligenciada das sete. Viajantes de longa distância de primeira viagem se beneficiam
-            enormemente de destinos com resorts que falam inglês, simplicidade de moeda única, logística previsível e
-            um único hotel para a viagem inteira. A lua de mel nas Maldivas em resort único é quase engenheirada para
-            quem nunca foi. O mesmo vale para Maurício, Santa Lúcia, Bali Ubud mais Uluwatu e o all-inclusive da
-            Riviera Maya.
-          </p>
-          <p>
-            Veteranos dão conta de roteiros multi-parada com self-drive, barreiras de língua e transferes complexos.
-            Patagônia mais Atacama, Butão mais Índia, Madagascar mais Reunião e Japão mais Coreia são todas luas de
-            mel legítimas de veteranos. Se um de vocês é veterano e o outro é estreante, vão para o padrão amigável
-            a estreantes. O veterano já fez isso antes; o estreante está fazendo pela primeira vez, na viagem mais
-            carregada emocionalmente da vida até agora.
-          </p>
+          <div className="my-10 bg-white border border-rose-100 rounded-2xl p-6 md:p-8 shadow-sm">
+            <div className="flex items-start gap-4 mb-4">
+              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-rose-500 text-white flex items-center justify-center font-display text-xl font-bold">4</div>
+              <div className="flex-1">
+                <h3 className="font-display text-2xl md:text-3xl text-zinc-900 m-0">Q4. Em qual estação vocês vão viajar?</h3>
+              </div>
+            </div>
+            <p>
+              Encaixem o destino na sua janela de viagem, não o contrário. A maneira mais rápida de estragar uma lua de
+              mel nas Maldivas é reservar maio porque é quando o casamento acontece. As grandes janelas:
+            </p>
+            <ul>
+              <li><strong>Dezembro a março:</strong> pico em Maldivas, Bali (seca), Tailândia, Maurício, Seicheles. Caribe confiável.</li>
+              <li><strong>Abril a junho:</strong> meia-estação no Mediterrâneo (o ponto doce), cerejeiras no Japão, estação verde no leste da África.</li>
+              <li><strong>Julho a agosto:</strong> Polinésia Francesa, Islândia, Escandinávia, estação seca no leste da África, inverno no sul da África (ótimo para safári). Evitem o Mediterrâneo a menos que amem multidão.</li>
+              <li><strong>Setembro a novembro:</strong> meia-estação no Mediterrâneo de novo (o segundo ponto doce), meia-estação nas Maldivas, abertura da Patagônia, meia-estação em Galápagos.</li>
+            </ul>
+            <p>
+              Para um mapeamento mês a mês, vejam nosso planner em <Link href="/pt/best-time-to-honeymoon">melhor época para a lua de mel</Link>, além das páginas mensais de <Link href="/honeymoon-in-january">janeiro</Link>, <Link href="/honeymoon-in-february">fevereiro</Link>, <Link href="/honeymoon-in-march">março</Link>, <Link href="/honeymoon-in-april">abril</Link>, <Link href="/honeymoon-in-may">maio</Link>, <Link href="/honeymoon-in-june">junho</Link>, <Link href="/honeymoon-in-july">julho</Link>, <Link href="/honeymoon-in-august">agosto</Link>, <Link href="/honeymoon-in-september">setembro</Link>, <Link href="/honeymoon-in-october">outubro</Link>, <Link href="/honeymoon-in-november">novembro</Link> e <Link href="/honeymoon-in-december">dezembro</Link>.
+            </p>
+
+          </div>
+
+          <div className="my-10 bg-white border border-rose-100 rounded-2xl p-6 md:p-8 shadow-sm">
+            <div className="flex items-start gap-4 mb-4">
+              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-rose-500 text-white flex items-center justify-center font-display text-xl font-bold">5</div>
+              <div className="flex-1">
+                <h3 className="font-display text-2xl md:text-3xl text-zinc-900 m-0">Q5. Qual energia vocês querem?</h3>
+              </div>
+            </div>
+            <p>
+              É aqui que a maioria dos casais escorrega. Existem cinco energias honestas de lua de mel. A maioria
+              consegue misturar duas; quase ninguém consegue misturar mais de duas numa única viagem.
+            </p>
+            <ul>
+              <li><strong>Praia-e-spa:</strong> tempo horizontal, sol, água, massagens, sem agenda. Maldivas, Bora Bora, Maurício, Caribe.</li>
+              <li><strong>Ativa:</strong> caminhadas, mergulho, exploração, dias variados. Costa Rica, Nova Zelândia, Havaí, Bali (Ubud mais surfe).</li>
+              <li><strong>Cultural:</strong> museus, história, comida, cidades caminháveis. Japão, Itália, Portugal, Cidade do México mais Oaxaca, Marrakesh.</li>
+              <li><strong>Espiritual ou bem-estar:</strong> retiros, ryokans, ayurveda, slow travel profundo. Butão, Kerala, Bali Ubud, Hakone, algumas propriedades Aman.</li>
+              <li><strong>Aventura:</strong> safári, geleiras, paisagens remotas, nível de expedição. Leste da África, Patagônia, Islândia, Galápagos, Butão.</li>
+            </ul>
+            <p>
+              As misturas clássicas em dupla: safári mais praia, cidade mais resort, aventura mais relaxamento, cultural
+              mais praia. O erro clássico: tentar misturar três ou mais e terminar uma viagem de 14 noites em sete
+              aeroportos.
+            </p>
+
+          </div>
+
+          <div className="my-10 bg-white border border-rose-100 rounded-2xl p-6 md:p-8 shadow-sm">
+            <div className="flex items-start gap-4 mb-4">
+              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-rose-500 text-white flex items-center justify-center font-display text-xl font-bold">6</div>
+              <div className="flex-1">
+                <h3 className="font-display text-2xl md:text-3xl text-zinc-900 m-0">Q6. Qual é o piso de comida e conforto de vocês?</h3>
+              </div>
+            </div>
+            <p>
+              Esta pergunta raramente é feita em voz alta e importa enormemente. Um tented camp em Botsuana é uma
+              experiência "de luxo", mas vocês dormem sob lona e tomam banho de balde. Um ryokan em Hakone é luxo, mas
+              vocês dormem em um futon, o jantar é um kaiseki fixo às 18h30 e não existe opção de café da manhã
+              ocidental. Um eco-resort na selva em Bali é lindíssimo, mas há insetos na vila aberta e 4 horas de carro
+              do aeroporto.
+            </p>
+            <p>
+              Se os dois forem honestamente "piso de conforto alto", inclinem-se para vilas sobre a água, all-inclusives
+              no Caribe, Mediterrâneo e hotéis 5 estrelas urbanos em Tóquio ou Paris. Se um ou os dois forem "piso de
+              conforto flexível", o mundo se abre: safári, selva, ryokan, cruzeiro de expedição, tudo passa a ser
+              viável. Se vocês estão descalibrados nesse eixo, nomeiem isso e escolham um destino que atenda ao piso
+              mais alto. O inverso (o parceiro de conforto alto cerrando os dentes em um tented camp) é uma causa comum
+              de rancor pós-lua de mel.
+            </p>
+
+          </div>
+
+          <div className="my-10 bg-white border border-rose-100 rounded-2xl p-6 md:p-8 shadow-sm">
+            <div className="flex items-start gap-4 mb-4">
+              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-rose-500 text-white flex items-center justify-center font-display text-xl font-bold">7</div>
+              <div className="flex-1">
+                <h3 className="font-display text-2xl md:text-3xl text-zinc-900 m-0">Q7. Vocês dois são viajantes de longa distância de primeira viagem ou veteranos?</h3>
+              </div>
+            </div>
+            <p>
+              A pergunta mais negligenciada das sete. Viajantes de longa distância de primeira viagem se beneficiam
+              enormemente de destinos com resorts que falam inglês, simplicidade de moeda única, logística previsível e
+              um único hotel para a viagem inteira. A lua de mel nas Maldivas em resort único é quase engenheirada para
+              quem nunca foi. O mesmo vale para Maurício, Santa Lúcia, Bali Ubud mais Uluwatu e o all-inclusive da
+              Riviera Maya.
+            </p>
+            <p>
+              Veteranos dão conta de roteiros multi-parada com self-drive, barreiras de língua e transferes complexos.
+              Patagônia mais Atacama, Butão mais Índia, Madagascar mais Reunião e Japão mais Coreia são todas luas de
+              mel legítimas de veteranos. Se um de vocês é veterano e o outro é estreante, vão para o padrão amigável
+              a estreantes. O veterano já fez isso antes; o estreante está fazendo pela primeira vez, na viagem mais
+              carregada emocionalmente da vida até agora.
+            </p>
+
+          </div>
 
           {/* 4 ARCHETYPES */}
+          <div className="my-16 flex items-center gap-4">
+            <div className="h-px flex-1 bg-rose-200" />
+            <span className="text-rose-400 text-xs font-semibold uppercase tracking-[0.25em]">Arquétipos</span>
+            <div className="h-px flex-1 bg-rose-200" />
+          </div>
           <h2 id="archetypes">Os 8 arquétipos de lua de mel</h2>
           <p>
             Depois de rodar as sete perguntas, suas respostas mapeiam quase limpamente para um destes oito arquétipos.
@@ -569,6 +640,11 @@ export default function HowToChooseHoneymoonDestinationPagePt() {
           </div>
 
           {/* 5 DEAL-BREAKERS */}
+          <div className="my-16 flex items-center gap-4">
+            <div className="h-px flex-1 bg-rose-200" />
+            <span className="text-rose-400 text-xs font-semibold uppercase tracking-[0.25em]">Obstáculos</span>
+            <div className="h-px flex-1 bg-rose-200" />
+          </div>
           <h2>Os 5 dealbreakers comuns e como lidar</h2>
 
           <h3>1. Uma pessoa quer praia, a outra quer cidade</h3>
@@ -620,6 +696,11 @@ export default function HowToChooseHoneymoonDestinationPagePt() {
           </p>
 
           {/* 6 PERSONAS */}
+          <div className="my-16 flex items-center gap-4">
+            <div className="h-px flex-1 bg-rose-200" />
+            <span className="text-rose-400 text-xs font-semibold uppercase tracking-[0.25em]">Personalidades</span>
+            <div className="h-px flex-1 bg-rose-200" />
+          </div>
           <h2 id="personas">Por personalidade de lua de mel</h2>
           <p>
             Além do framework de 7 perguntas, aqui estão quatro tipos de personalidade com orientação concreta de
@@ -638,6 +719,11 @@ export default function HowToChooseHoneymoonDestinationPagePt() {
           </div>
 
           {/* 7 PARTNER QUESTIONS */}
+          <div className="my-16 flex items-center gap-4">
+            <div className="h-px flex-1 bg-rose-200" />
+            <span className="text-rose-400 text-xs font-semibold uppercase tracking-[0.25em]">Perguntas a fazer</span>
+            <div className="h-px flex-1 bg-rose-200" />
+          </div>
           <h2>As 5 perguntas para fazerem um ao outro antes de reservar</h2>
           <p>
             Antes de colocar um sinal, sentem-se com o seu parceiro sem notebook, sem celular, sem mood board. Façam
@@ -653,6 +739,11 @@ export default function HowToChooseHoneymoonDestinationPagePt() {
           </ol>
 
           {/* 8 CASE STUDIES */}
+          <div className="my-16 flex items-center gap-4">
+            <div className="h-px flex-1 bg-rose-200" />
+            <span className="text-rose-400 text-xs font-semibold uppercase tracking-[0.25em]">Casais reais</span>
+            <div className="h-px flex-1 bg-rose-200" />
+          </div>
           <h2 id="case-studies">Três casos reais</h2>
           <p>
             Três casais com quem trabalhamos (detalhes e nomes compostos e alterados por privacidade). As decisões que
@@ -719,6 +810,11 @@ export default function HowToChooseHoneymoonDestinationPagePt() {
           </div>
 
           {/* 9 INSTAGRAM */}
+          <div className="my-16 flex items-center gap-4">
+            <div className="h-px flex-1 bg-rose-200" />
+            <span className="text-rose-400 text-xs font-semibold uppercase tracking-[0.25em]">Sem filtros</span>
+            <div className="h-px flex-1 bg-rose-200" />
+          </div>
           <h2 id="instagram-honest">A visão honesta sobre destinos movidos pelo Instagram</h2>
           <blockquote className="not-prose my-12 pl-6 border-l-4 border-rose-500 text-2xl md:text-3xl font-display italic text-zinc-700 leading-snug">
             A foto icônica que perseguiram existe por uns noventa minutos por dia, cercada de tripés.
@@ -760,6 +856,11 @@ export default function HowToChooseHoneymoonDestinationPagePt() {
           </p>
 
           {/* 10 DECISION TREE */}
+          <div className="my-16 flex items-center gap-4">
+            <div className="h-px flex-1 bg-rose-200" />
+            <span className="text-rose-400 text-xs font-semibold uppercase tracking-[0.25em]">Árvore de decisão</span>
+            <div className="h-px flex-1 bg-rose-200" />
+          </div>
           <h2 id="tree">Árvore de decisão em resumo</h2>
           <p>A forma mais rápida de transformar o framework em ação. Leiam de cima para baixo; parem na primeira linha que combina com vocês.</p>
           <ol className="not-prose my-8 space-y-4 list-none p-0">
@@ -781,6 +882,11 @@ export default function HowToChooseHoneymoonDestinationPagePt() {
           />
 
           {/* 11 FAQ */}
+          <div className="my-16 flex items-center gap-4">
+            <div className="h-px flex-1 bg-rose-200" />
+            <span className="text-rose-400 text-xs font-semibold uppercase tracking-[0.25em]">FAQ</span>
+            <div className="h-px flex-1 bg-rose-200" />
+          </div>
           <h2 id="faq" className="sr-only">Perguntas frequentes</h2>
           <div className="not-prose my-12 bg-white border border-zinc-200 rounded-2xl p-7 md:p-8">
             <h3 className="font-display text-2xl text-zinc-900 mb-6 flex items-center gap-2"><span className="text-rose-500">▸</span> Perguntas frequentes</h3>

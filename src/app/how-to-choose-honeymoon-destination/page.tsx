@@ -371,6 +371,11 @@ export default function HowToChooseHoneymoonDestinationPage() {
           </p>
 
           {/* 2 */}
+          <div className="my-16 flex items-center gap-4">
+            <div className="h-px flex-1 bg-rose-200" />
+            <span className="text-rose-400 text-xs font-semibold uppercase tracking-[0.25em]">Reality check</span>
+            <div className="h-px flex-1 bg-rose-200" />
+          </div>
           <h2>The mistake most couples make</h2>
           <blockquote className="not-prose my-12 pl-6 border-l-4 border-rose-500 text-2xl md:text-3xl font-display italic text-zinc-700 leading-snug">
             The destination is decided emotionally; the trip is then engineered backward to justify it.
@@ -402,6 +407,11 @@ export default function HowToChooseHoneymoonDestinationPage() {
           </p>
 
           {/* 3 */}
+          <div className="my-16 flex items-center gap-4">
+            <div className="h-px flex-1 bg-rose-200" />
+            <span className="text-rose-400 text-xs font-semibold uppercase tracking-[0.25em]">The framework</span>
+            <div className="h-px flex-1 bg-rose-200" />
+          </div>
           <h2 id="framework">The 7-question decision framework</h2>
           <p>
             Run through these seven questions with your partner, ideally on a quiet evening, ideally with a glass of
@@ -410,117 +420,178 @@ export default function HowToChooseHoneymoonDestinationPage() {
             photos.
           </p>
 
-          <h3>Q1. What is your honest budget?</h3>
-          <p>
-            Not the budget you wish you had, the budget that exists. Pick a ceiling that includes flights, hotels,
-            food, transfers, activities, tips, and a 10 percent contingency. Three tiers honestly cover almost
-            everyone:
-          </p>
-          <ul>
-            <li><strong>Comfortable, $8,000 to $12,000:</strong> Bali (Ubud plus a beach area), Greece (mainland plus a secondary island), Mexico (Riviera Maya all-inclusive plus Tulum), Cape Verde, Sicily, Mallorca. For the lowest end of this range, see our full guide at <Link href="/honeymoon-on-a-budget">honeymoon on a budget</Link>.</li>
-            <li><strong>Premium, $15,000 to $25,000:</strong> Maldives water villa (single resort), East African safari (one camp plus Zanzibar), French Polynesia (Bora Bora plus Tahiti), Japan ryokan circuit, Italy (Amalfi plus Tuscany).</li>
-            <li><strong>Ultra, $30,000 and up:</strong> Private island in the Maldives or Fiji, Aman circuit (Tokyo plus Kyoto plus Niseko), Singita in the Serengeti, a French Polynesia plus New Zealand multi-stop, a Bhutan-by-helicopter route.</li>
-          </ul>
-          <p>
-            For destination-specific budget breakdowns, we maintain real-numbers cost pages: <Link href="/honeymoon-under-5000">under $5k</Link>, <Link href="/honeymoon-under-10000">under $10k</Link>, <Link href="/honeymoon-under-15000">under $15k</Link>, <Link href="/honeymoon-under-20000">under $20k</Link>, plus per-destination pages for the <Link href="/maldives-honeymoon-cost">Maldives</Link>, <Link href="/bali-honeymoon-cost">Bali</Link>, <Link href="/mexico-honeymoon-cost">Mexico</Link>, <Link href="/turks-and-caicos-honeymoon-cost">Turks and Caicos</Link>, <Link href="/bahamas-honeymoon-cost">the Bahamas</Link>, <Link href="/barbados-honeymoon-cost">Barbados</Link>, and <Link href="/cape-verde-honeymoon-cost">Cape Verde</Link>.
-          </p>
+          <div className="my-10 bg-white border border-rose-100 rounded-2xl p-6 md:p-8 shadow-sm">
+            <div className="flex items-start gap-4 mb-4">
+              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-rose-500 text-white flex items-center justify-center font-display text-xl font-bold">1</div>
+              <div className="flex-1">
+                <h3 className="font-display text-2xl md:text-3xl text-zinc-900 m-0">Q1. What is your honest budget?</h3>
+              </div>
+            </div>
+            <p>
+              Not the budget you wish you had, the budget that exists. Pick a ceiling that includes flights, hotels,
+              food, transfers, activities, tips, and a 10 percent contingency. Three tiers honestly cover almost
+              everyone:
+            </p>
+            <ul>
+              <li><strong>Comfortable, $8,000 to $12,000:</strong> Bali (Ubud plus a beach area), Greece (mainland plus a secondary island), Mexico (Riviera Maya all-inclusive plus Tulum), Cape Verde, Sicily, Mallorca. For the lowest end of this range, see our full guide at <Link href="/honeymoon-on-a-budget">honeymoon on a budget</Link>.</li>
+              <li><strong>Premium, $15,000 to $25,000:</strong> Maldives water villa (single resort), East African safari (one camp plus Zanzibar), French Polynesia (Bora Bora plus Tahiti), Japan ryokan circuit, Italy (Amalfi plus Tuscany).</li>
+              <li><strong>Ultra, $30,000 and up:</strong> Private island in the Maldives or Fiji, Aman circuit (Tokyo plus Kyoto plus Niseko), Singita in the Serengeti, a French Polynesia plus New Zealand multi-stop, a Bhutan-by-helicopter route.</li>
+            </ul>
+            <p>
+              For destination-specific budget breakdowns, we maintain real-numbers cost pages: <Link href="/honeymoon-under-5000">under $5k</Link>, <Link href="/honeymoon-under-10000">under $10k</Link>, <Link href="/honeymoon-under-15000">under $15k</Link>, <Link href="/honeymoon-under-20000">under $20k</Link>, plus per-destination pages for the <Link href="/maldives-honeymoon-cost">Maldives</Link>, <Link href="/bali-honeymoon-cost">Bali</Link>, <Link href="/mexico-honeymoon-cost">Mexico</Link>, <Link href="/turks-and-caicos-honeymoon-cost">Turks and Caicos</Link>, <Link href="/bahamas-honeymoon-cost">the Bahamas</Link>, <Link href="/barbados-honeymoon-cost">Barbados</Link>, and <Link href="/cape-verde-honeymoon-cost">Cape Verde</Link>.
+            </p>
 
-          <h3>Q2. How many nights can you commit?</h3>
-          <p>
-            Time matters more than money on a honeymoon. A 5-night trip to the Maldives is a logistical insult to the
-            destination: 36 hours of transit consume 30 percent of the trip. The honest brackets:
-          </p>
-          <ul>
-            <li><strong>Under 7 nights:</strong> stay regional. Italy or Greece from Europe, Mexico or Caribbean from the US, Bali or Thailand from Australia, Mauritius from South Africa. Long-haul under 7 nights is a tax on yourselves.</li>
-            <li><strong>7 to 10 nights:</strong> one long-haul resort, single stop. This is the canonical Maldives, Bora Bora, Fiji, Seychelles honeymoon.</li>
-            <li><strong>10 to 14 nights:</strong> two-stop long-haul. Safari plus beach (Tanzania plus Zanzibar), city plus resort (Tokyo plus Maldives), adventure plus relaxation (Patagonia plus Atacama).</li>
-            <li><strong>14 nights or more:</strong> three stops maximum. More than three and you spend the honeymoon in airports. The exception is a single-country deep dive like a Bhutan circuit or a South Africa cross-country.</li>
-          </ul>
-          <p>
-            For duration-specific itineraries, see our <Link href="/3-day-honeymoon">3-day</Link>, <Link href="/5-day-honeymoon">5-day</Link>, <Link href="/7-day-honeymoon">7-day</Link>, <Link href="/10-day-honeymoon">10-day</Link>, and <Link href="/14-day-honeymoon">14-day</Link> honeymoon planners.
-          </p>
+          </div>
 
-          <h3>Q3. How much travel time do you tolerate?</h3>
-          <p>
-            One of the most underestimated filters. A couple who finds a 5-hour flight uncomfortable should not book
-            the Maldives from New York (16 hours plus a seaplane transfer). The honest tiers:
-          </p>
-          <ul>
-            <li><strong>Under 6 hours:</strong> from US east coast, the Caribbean and Mexico. From Europe, the Mediterranean and North Africa. From Australia, Bali, Fiji, New Zealand.</li>
-            <li><strong>6 to 12 hours:</strong> from US east coast, Europe and northern South America. From Europe, the Maldives, Seychelles, East Africa. From the US west coast, Tokyo and Bora Bora.</li>
-            <li><strong>Over 12 hours:</strong> from the US, French Polynesia, Maldives, Seychelles, Bali, Australia. From Europe, Australia, French Polynesia, the Cook Islands, deep Pacific.</li>
-          </ul>
-          <p>
-            Premium economy or business class changes the calculus. A 16-hour flight in lie-flat business is a different
-            experience from the same flight in economy. If the budget supports lie-flat one way (often achievable via
-            points), do the long leg out and standard back, when fatigue matters less.
-          </p>
+          <div className="my-10 bg-white border border-rose-100 rounded-2xl p-6 md:p-8 shadow-sm">
+            <div className="flex items-start gap-4 mb-4">
+              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-rose-500 text-white flex items-center justify-center font-display text-xl font-bold">2</div>
+              <div className="flex-1">
+                <h3 className="font-display text-2xl md:text-3xl text-zinc-900 m-0">Q2. How many nights can you commit?</h3>
+              </div>
+            </div>
+            <p>
+              Time matters more than money on a honeymoon. A 5-night trip to the Maldives is a logistical insult to the
+              destination: 36 hours of transit consume 30 percent of the trip. The honest brackets:
+            </p>
+            <ul>
+              <li><strong>Under 7 nights:</strong> stay regional. Italy or Greece from Europe, Mexico or Caribbean from the US, Bali or Thailand from Australia, Mauritius from South Africa. Long-haul under 7 nights is a tax on yourselves.</li>
+              <li><strong>7 to 10 nights:</strong> one long-haul resort, single stop. This is the canonical Maldives, Bora Bora, Fiji, Seychelles honeymoon.</li>
+              <li><strong>10 to 14 nights:</strong> two-stop long-haul. Safari plus beach (Tanzania plus Zanzibar), city plus resort (Tokyo plus Maldives), adventure plus relaxation (Patagonia plus Atacama).</li>
+              <li><strong>14 nights or more:</strong> three stops maximum. More than three and you spend the honeymoon in airports. The exception is a single-country deep dive like a Bhutan circuit or a South Africa cross-country.</li>
+            </ul>
+            <p>
+              For duration-specific itineraries, see our <Link href="/3-day-honeymoon">3-day</Link>, <Link href="/5-day-honeymoon">5-day</Link>, <Link href="/7-day-honeymoon">7-day</Link>, <Link href="/10-day-honeymoon">10-day</Link>, and <Link href="/14-day-honeymoon">14-day</Link> honeymoon planners.
+            </p>
 
-          <h3>Q4. What season are you traveling?</h3>
-          <p>
-            Match the destination to your travel window, not the reverse. The fastest way to ruin a Maldives honeymoon
-            is to book May because that is when your wedding is. The big windows:
-          </p>
-          <ul>
-            <li><strong>December to March:</strong> Maldives, Bali (dry), Thailand, Mauritius, Seychelles peak. Caribbean reliable.</li>
-            <li><strong>April to June:</strong> Mediterranean shoulder (the sweet spot), Japan cherry blossom, East African green season.</li>
-            <li><strong>July to August:</strong> French Polynesia, Iceland, Scandinavia, East African dry season, southern Africa winter (good for safari). Avoid Mediterranean unless you love crowds.</li>
-            <li><strong>September to November:</strong> Mediterranean shoulder again (the second sweet spot), Maldives shoulder, Patagonia opening, Galapagos shoulder.</li>
-          </ul>
-          <p>
-            For month-by-month destination matching, see our planner at <Link href="/best-time-to-honeymoon">best time to honeymoon</Link>, plus the per-month pages for <Link href="/honeymoon-in-january">January</Link>, <Link href="/honeymoon-in-february">February</Link>, <Link href="/honeymoon-in-march">March</Link>, <Link href="/honeymoon-in-april">April</Link>, <Link href="/honeymoon-in-may">May</Link>, <Link href="/honeymoon-in-june">June</Link>, <Link href="/honeymoon-in-july">July</Link>, <Link href="/honeymoon-in-august">August</Link>, <Link href="/honeymoon-in-september">September</Link>, <Link href="/honeymoon-in-october">October</Link>, <Link href="/honeymoon-in-november">November</Link>, and <Link href="/honeymoon-in-december">December</Link>.
-          </p>
+          </div>
 
-          <h3>Q5. What energy do you want?</h3>
-          <p>
-            This is where most couples gloss. There are five honest honeymoon energies. Most couples can blend two;
-            almost none can blend more than two in a single trip.
-          </p>
-          <ul>
-            <li><strong>Beach-and-spa:</strong> horizontal time, sun, water, massages, no schedule. Maldives, Bora Bora, Mauritius, Caribbean.</li>
-            <li><strong>Active:</strong> hiking, diving, exploring, varied days. Costa Rica, New Zealand, Hawaii, Bali (Ubud plus surf).</li>
-            <li><strong>Cultural:</strong> museums, history, food, walking cities. Japan, Italy, Portugal, Mexico City plus Oaxaca, Marrakech.</li>
-            <li><strong>Spiritual or wellness:</strong> retreats, ryokans, ayurveda, deep slow travel. Bhutan, Kerala, Bali Ubud, Hakone, certain Aman properties.</li>
-            <li><strong>Adventure:</strong> safari, glaciers, remote landscapes, expedition-level. East Africa, Patagonia, Iceland, Galapagos, Bhutan.</li>
-          </ul>
-          <p>
-            The classic two-blend honeymoons: safari plus beach, city plus resort, adventure plus relaxation, cultural
-            plus beach. The classic mistake: trying to blend three or more, ending up with a 14-night trip in seven
-            airports.
-          </p>
+          <div className="my-10 bg-white border border-rose-100 rounded-2xl p-6 md:p-8 shadow-sm">
+            <div className="flex items-start gap-4 mb-4">
+              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-rose-500 text-white flex items-center justify-center font-display text-xl font-bold">3</div>
+              <div className="flex-1">
+                <h3 className="font-display text-2xl md:text-3xl text-zinc-900 m-0">Q3. How much travel time do you tolerate?</h3>
+              </div>
+            </div>
+            <p>
+              One of the most underestimated filters. A couple who finds a 5-hour flight uncomfortable should not book
+              the Maldives from New York (16 hours plus a seaplane transfer). The honest tiers:
+            </p>
+            <ul>
+              <li><strong>Under 6 hours:</strong> from US east coast, the Caribbean and Mexico. From Europe, the Mediterranean and North Africa. From Australia, Bali, Fiji, New Zealand.</li>
+              <li><strong>6 to 12 hours:</strong> from US east coast, Europe and northern South America. From Europe, the Maldives, Seychelles, East Africa. From the US west coast, Tokyo and Bora Bora.</li>
+              <li><strong>Over 12 hours:</strong> from the US, French Polynesia, Maldives, Seychelles, Bali, Australia. From Europe, Australia, French Polynesia, the Cook Islands, deep Pacific.</li>
+            </ul>
+            <p>
+              Premium economy or business class changes the calculus. A 16-hour flight in lie-flat business is a different
+              experience from the same flight in economy. If the budget supports lie-flat one way (often achievable via
+              points), do the long leg out and standard back, when fatigue matters less.
+            </p>
 
-          <h3>Q6. How adventurous is your food and comfort baseline?</h3>
-          <p>
-            This question is rarely asked aloud and matters enormously. A tented camp in Botswana is a "luxury"
-            experience but you sleep under canvas and shower in a bucket. A ryokan in Hakone is luxury but you sleep on
-            a futon, dinner is a fixed kaiseki at 6:30, and there is no Western breakfast option. A jungle eco-resort
-            in Bali is gorgeous but there are bugs in the open-air villa and a 4-hour drive from the airport.
-          </p>
-          <p>
-            If both partners are honest "comfort baseline high" travelers, lean toward overwater villas, Caribbean
-            all-inclusives, the Mediterranean, and 5-star urban hotels in Tokyo or Paris. If one or both is "comfort
-            baseline flexible," the world opens up: safari, jungle, ryokan, expedition cruise, all become viable. If
-            you are mismatched on this axis, name it, and pick a destination that meets the higher baseline. The
-            inverse (the comfort-baseline-high partner gritted teeth in a tented camp) is a common cause of post-
-            honeymoon resentment.
-          </p>
+          </div>
 
-          <h3>Q7. Are you both first-time long-haul travelers, or veterans?</h3>
-          <p>
-            The most overlooked question of the seven. First-time long-haul travelers benefit enormously from
-            destinations with English-friendly resorts, single-currency simplicity, predictable logistics, and one
-            single hotel for the whole trip. The Maldives single-resort honeymoon is almost engineered for first-
-            timers. So is Mauritius, St. Lucia, Bali Ubud-plus-Uluwatu, and the Riviera Maya all-inclusive.
-          </p>
-          <p>
-            Veterans can handle multi-stop itineraries with self-drive, language hurdles, and complex transfers.
-            Patagonia plus Atacama, Bhutan plus India, Madagascar plus Reunion, and Japan plus Korea are all
-            legitimate veteran honeymoons. If one of you is a veteran and the other is first-time, default to first-
-            time-friendly. The veteran has done it before; the first-timer is doing it for the first time, on the
-            most emotionally loaded trip of their life so far.
-          </p>
+          <div className="my-10 bg-white border border-rose-100 rounded-2xl p-6 md:p-8 shadow-sm">
+            <div className="flex items-start gap-4 mb-4">
+              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-rose-500 text-white flex items-center justify-center font-display text-xl font-bold">4</div>
+              <div className="flex-1">
+                <h3 className="font-display text-2xl md:text-3xl text-zinc-900 m-0">Q4. What season are you traveling?</h3>
+              </div>
+            </div>
+            <p>
+              Match the destination to your travel window, not the reverse. The fastest way to ruin a Maldives honeymoon
+              is to book May because that is when your wedding is. The big windows:
+            </p>
+            <ul>
+              <li><strong>December to March:</strong> Maldives, Bali (dry), Thailand, Mauritius, Seychelles peak. Caribbean reliable.</li>
+              <li><strong>April to June:</strong> Mediterranean shoulder (the sweet spot), Japan cherry blossom, East African green season.</li>
+              <li><strong>July to August:</strong> French Polynesia, Iceland, Scandinavia, East African dry season, southern Africa winter (good for safari). Avoid Mediterranean unless you love crowds.</li>
+              <li><strong>September to November:</strong> Mediterranean shoulder again (the second sweet spot), Maldives shoulder, Patagonia opening, Galapagos shoulder.</li>
+            </ul>
+            <p>
+              For month-by-month destination matching, see our planner at <Link href="/best-time-to-honeymoon">best time to honeymoon</Link>, plus the per-month pages for <Link href="/honeymoon-in-january">January</Link>, <Link href="/honeymoon-in-february">February</Link>, <Link href="/honeymoon-in-march">March</Link>, <Link href="/honeymoon-in-april">April</Link>, <Link href="/honeymoon-in-may">May</Link>, <Link href="/honeymoon-in-june">June</Link>, <Link href="/honeymoon-in-july">July</Link>, <Link href="/honeymoon-in-august">August</Link>, <Link href="/honeymoon-in-september">September</Link>, <Link href="/honeymoon-in-october">October</Link>, <Link href="/honeymoon-in-november">November</Link>, and <Link href="/honeymoon-in-december">December</Link>.
+            </p>
+
+          </div>
+
+          <div className="my-10 bg-white border border-rose-100 rounded-2xl p-6 md:p-8 shadow-sm">
+            <div className="flex items-start gap-4 mb-4">
+              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-rose-500 text-white flex items-center justify-center font-display text-xl font-bold">5</div>
+              <div className="flex-1">
+                <h3 className="font-display text-2xl md:text-3xl text-zinc-900 m-0">Q5. What energy do you want?</h3>
+              </div>
+            </div>
+            <p>
+              This is where most couples gloss. There are five honest honeymoon energies. Most couples can blend two;
+              almost none can blend more than two in a single trip.
+            </p>
+            <ul>
+              <li><strong>Beach-and-spa:</strong> horizontal time, sun, water, massages, no schedule. Maldives, Bora Bora, Mauritius, Caribbean.</li>
+              <li><strong>Active:</strong> hiking, diving, exploring, varied days. Costa Rica, New Zealand, Hawaii, Bali (Ubud plus surf).</li>
+              <li><strong>Cultural:</strong> museums, history, food, walking cities. Japan, Italy, Portugal, Mexico City plus Oaxaca, Marrakech.</li>
+              <li><strong>Spiritual or wellness:</strong> retreats, ryokans, ayurveda, deep slow travel. Bhutan, Kerala, Bali Ubud, Hakone, certain Aman properties.</li>
+              <li><strong>Adventure:</strong> safari, glaciers, remote landscapes, expedition-level. East Africa, Patagonia, Iceland, Galapagos, Bhutan.</li>
+            </ul>
+            <p>
+              The classic two-blend honeymoons: safari plus beach, city plus resort, adventure plus relaxation, cultural
+              plus beach. The classic mistake: trying to blend three or more, ending up with a 14-night trip in seven
+              airports.
+            </p>
+
+          </div>
+
+          <div className="my-10 bg-white border border-rose-100 rounded-2xl p-6 md:p-8 shadow-sm">
+            <div className="flex items-start gap-4 mb-4">
+              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-rose-500 text-white flex items-center justify-center font-display text-xl font-bold">6</div>
+              <div className="flex-1">
+                <h3 className="font-display text-2xl md:text-3xl text-zinc-900 m-0">Q6. How adventurous is your food and comfort baseline?</h3>
+              </div>
+            </div>
+            <p>
+              This question is rarely asked aloud and matters enormously. A tented camp in Botswana is a "luxury"
+              experience but you sleep under canvas and shower in a bucket. A ryokan in Hakone is luxury but you sleep on
+              a futon, dinner is a fixed kaiseki at 6:30, and there is no Western breakfast option. A jungle eco-resort
+              in Bali is gorgeous but there are bugs in the open-air villa and a 4-hour drive from the airport.
+            </p>
+            <p>
+              If both partners are honest "comfort baseline high" travelers, lean toward overwater villas, Caribbean
+              all-inclusives, the Mediterranean, and 5-star urban hotels in Tokyo or Paris. If one or both is "comfort
+              baseline flexible," the world opens up: safari, jungle, ryokan, expedition cruise, all become viable. If
+              you are mismatched on this axis, name it, and pick a destination that meets the higher baseline. The
+              inverse (the comfort-baseline-high partner gritted teeth in a tented camp) is a common cause of post-
+              honeymoon resentment.
+            </p>
+
+          </div>
+
+          <div className="my-10 bg-white border border-rose-100 rounded-2xl p-6 md:p-8 shadow-sm">
+            <div className="flex items-start gap-4 mb-4">
+              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-rose-500 text-white flex items-center justify-center font-display text-xl font-bold">7</div>
+              <div className="flex-1">
+                <h3 className="font-display text-2xl md:text-3xl text-zinc-900 m-0">Q7. Are you both first-time long-haul travelers, or veterans?</h3>
+              </div>
+            </div>
+            <p>
+              The most overlooked question of the seven. First-time long-haul travelers benefit enormously from
+              destinations with English-friendly resorts, single-currency simplicity, predictable logistics, and one
+              single hotel for the whole trip. The Maldives single-resort honeymoon is almost engineered for first-
+              timers. So is Mauritius, St. Lucia, Bali Ubud-plus-Uluwatu, and the Riviera Maya all-inclusive.
+            </p>
+            <p>
+              Veterans can handle multi-stop itineraries with self-drive, language hurdles, and complex transfers.
+              Patagonia plus Atacama, Bhutan plus India, Madagascar plus Reunion, and Japan plus Korea are all
+              legitimate veteran honeymoons. If one of you is a veteran and the other is first-time, default to first-
+              time-friendly. The veteran has done it before; the first-timer is doing it for the first time, on the
+              most emotionally loaded trip of their life so far.
+            </p>
+
+          </div>
 
           {/* 4 ARCHETYPES */}
+          <div className="my-16 flex items-center gap-4">
+            <div className="h-px flex-1 bg-rose-200" />
+            <span className="text-rose-400 text-xs font-semibold uppercase tracking-[0.25em]">Archetypes</span>
+            <div className="h-px flex-1 bg-rose-200" />
+          </div>
           <h2 id="archetypes">The 8 honeymoon archetypes</h2>
           <p>
             Once you have run the seven questions, your answers map almost cleanly to one of these eight archetypes.
@@ -565,6 +636,11 @@ export default function HowToChooseHoneymoonDestinationPage() {
           </div>
 
           {/* 5 DEAL-BREAKERS */}
+          <div className="my-16 flex items-center gap-4">
+            <div className="h-px flex-1 bg-rose-200" />
+            <span className="text-rose-400 text-xs font-semibold uppercase tracking-[0.25em]">Deal-breakers</span>
+            <div className="h-px flex-1 bg-rose-200" />
+          </div>
           <h2>The 5 common deal-breakers and how to handle them</h2>
 
           <h3>1. One partner wants beach, the other wants city</h3>
@@ -615,6 +691,11 @@ export default function HowToChooseHoneymoonDestinationPage() {
           </p>
 
           {/* 6 PERSONAS */}
+          <div className="my-16 flex items-center gap-4">
+            <div className="h-px flex-1 bg-rose-200" />
+            <span className="text-rose-400 text-xs font-semibold uppercase tracking-[0.25em]">Personalities</span>
+            <div className="h-px flex-1 bg-rose-200" />
+          </div>
           <h2 id="personas">By honeymoon personality</h2>
           <p>
             Beyond the seven-question framework, here are four personality types with concrete destination guidance.
@@ -633,6 +714,11 @@ export default function HowToChooseHoneymoonDestinationPage() {
           </div>
 
           {/* 7 PARTNER QUESTIONS */}
+          <div className="my-16 flex items-center gap-4">
+            <div className="h-px flex-1 bg-rose-200" />
+            <span className="text-rose-400 text-xs font-semibold uppercase tracking-[0.25em]">Questions to ask</span>
+            <div className="h-px flex-1 bg-rose-200" />
+          </div>
           <h2>The 5 questions to ask each other before booking</h2>
           <p>
             Before you place a deposit, sit down with your partner with no laptop, no phone, no inspiration board.
@@ -648,6 +734,11 @@ export default function HowToChooseHoneymoonDestinationPage() {
           </ol>
 
           {/* 8 CASE STUDIES */}
+          <div className="my-16 flex items-center gap-4">
+            <div className="h-px flex-1 bg-rose-200" />
+            <span className="text-rose-400 text-xs font-semibold uppercase tracking-[0.25em]">Real couples</span>
+            <div className="h-px flex-1 bg-rose-200" />
+          </div>
           <h2 id="case-studies">Three real case studies</h2>
           <p>
             Three couples we have worked with (details and names composited and changed for privacy). The decisions
@@ -713,6 +804,11 @@ export default function HowToChooseHoneymoonDestinationPage() {
           </div>
 
           {/* 9 INSTAGRAM */}
+          <div className="my-16 flex items-center gap-4">
+            <div className="h-px flex-1 bg-rose-200" />
+            <span className="text-rose-400 text-xs font-semibold uppercase tracking-[0.25em]">Honest take</span>
+            <div className="h-px flex-1 bg-rose-200" />
+          </div>
           <h2 id="instagram-honest">The honest take on Instagram-driven destinations</h2>
           <blockquote className="not-prose my-12 pl-6 border-l-4 border-rose-500 text-2xl md:text-3xl font-display italic text-zinc-700 leading-snug">
             The iconic photo they chased exists for about ninety minutes per day, surrounded by tripods.
@@ -752,6 +848,11 @@ export default function HowToChooseHoneymoonDestinationPage() {
           </p>
 
           {/* 10 DECISION TREE */}
+          <div className="my-16 flex items-center gap-4">
+            <div className="h-px flex-1 bg-rose-200" />
+            <span className="text-rose-400 text-xs font-semibold uppercase tracking-[0.25em]">Decision tree</span>
+            <div className="h-px flex-1 bg-rose-200" />
+          </div>
           <h2 id="tree">Decision tree summary</h2>
           <p>The fastest way to convert the framework into action. Read top to bottom; stop at the first line that fits you.</p>
           <ol className="not-prose my-8 space-y-4 list-none p-0">
@@ -772,6 +873,11 @@ export default function HowToChooseHoneymoonDestinationPage() {
           />
 
           {/* 11 FAQ */}
+          <div className="my-16 flex items-center gap-4">
+            <div className="h-px flex-1 bg-rose-200" />
+            <span className="text-rose-400 text-xs font-semibold uppercase tracking-[0.25em]">FAQ</span>
+            <div className="h-px flex-1 bg-rose-200" />
+          </div>
           <h2 id="faq" className="sr-only">Frequently asked questions</h2>
           <div className="not-prose my-12 bg-white border border-zinc-200 rounded-2xl p-7 md:p-8">
             <h3 className="font-display text-2xl text-zinc-900 mb-6 flex items-center gap-2"><span className="text-rose-500">▸</span> Frequently asked questions</h3>
