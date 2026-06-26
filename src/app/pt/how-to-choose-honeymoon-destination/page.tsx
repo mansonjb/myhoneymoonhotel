@@ -6,6 +6,12 @@ import AuthorByline from '@/components/AuthorByline'
 import { AUTHOR } from '@/data/author'
 import FAQAccordion from '@/components/longtail/FAQAccordion'
 import Stay22InlineCTA from '@/components/longtail/Stay22InlineCTA'
+import DestinationPickCard from '@/components/longtail/DestinationPickCard'
+import HotelPickCard from '@/components/longtail/HotelPickCard'
+import Stay22MapInline from '@/components/longtail/Stay22MapInline'
+import { getHotelBySlug } from '@/lib/hotels'
+
+const ARCHETYPE_DEST_SLUGS = ['maldives', 'st-lucia', 'amalfi', 'tuscany', 'kenya', 'bali', 'patagonia-chile', 'iceland'] as const
 
 export const metadata: Metadata = {
   title: 'Como escolher o destino da sua lua de mel (2026)',
@@ -293,6 +299,12 @@ export default function HowToChooseHoneymoonDestinationPagePt() {
     ],
   }
 
+  const sonevaJani = getHotelBySlug('soneva-jani-maldives')
+  const hyattCV = getHotelBySlug('hyatt-regency-cabo-verde-cape-verde')
+  const barosMaldives = getHotelBySlug('baros-maldives-resort')
+  const awasiPatagonia = getHotelBySlug('awasi-patagonia-patagonia-chile')
+  const amanKyoto = getHotelBySlug('aman-kyoto-japan')
+
   return (
     <article>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
@@ -350,6 +362,15 @@ export default function HowToChooseHoneymoonDestinationPagePt() {
             discordam, montem um roteiro de duas paradas. Se ainda travarem, façam nosso quiz em <Link href="/pt/quiz" className="underline underline-offset-4 decoration-rose-300 hover:decoration-rose-500">/pt/quiz</Link>.
           </p>
         </aside>
+      </div>
+
+      <div className="max-w-3xl mx-auto px-6">
+        <div className="my-8 flex flex-wrap gap-2">
+          <Link href="/pt/quiz" className="inline-flex items-center bg-rose-500 text-white px-4 py-2 rounded-full text-sm font-semibold hover:bg-rose-600 transition">Fazer o quiz de 60 segundos</Link>
+          <Link href="/pt/destinations" className="inline-flex items-center bg-white border border-rose-200 text-rose-600 px-4 py-2 rounded-full text-sm font-semibold hover:bg-rose-50 transition">Ver os 115 destinos</Link>
+          <Link href="/pt/luxury-honeymoon" className="inline-flex items-center bg-white border border-rose-200 text-rose-600 px-4 py-2 rounded-full text-sm font-semibold hover:bg-rose-50 transition">Seleção luxo</Link>
+          <Link href="/pt/honeymoon-on-a-budget" className="inline-flex items-center bg-white border border-rose-200 text-rose-600 px-4 py-2 rounded-full text-sm font-semibold hover:bg-rose-50 transition">Seleção econômica</Link>
+        </div>
       </div>
 
       <article className="max-w-3xl mx-auto px-6 pb-20">
@@ -443,6 +464,11 @@ export default function HowToChooseHoneymoonDestinationPagePt() {
             </p>
 
           </div>
+          <div className="not-prose my-6 grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <DestinationPickCard slug="cape-verde" displayLabel="Cabo Verde" whyHere="Faixa menos de 10 000 $" />
+            <DestinationPickCard slug="mauritius" displayLabel="Maurício" whyHere="Faixa 10 000-20 000 $" />
+            <DestinationPickCard slug="maldives" displayLabel="Maldivas" whyHere="Faixa 20 000 $+" />
+          </div>
 
           <div className="my-10 bg-white border border-rose-100 rounded-2xl p-6 md:p-8 shadow-sm">
             <div className="flex items-start gap-4 mb-4">
@@ -514,6 +540,14 @@ export default function HowToChooseHoneymoonDestinationPagePt() {
             </p>
 
           </div>
+          <Stay22InlineCTA
+            destination="amalfi"
+            country="Italy"
+            headline="Disponibilidade em maio ou junho?"
+            subline="A temporada média no Mediterrâneo é o momento ideal. Veja tarifas em tempo real."
+            campaign="how-to-choose-season"
+            locale="pt"
+          />
 
           <div className="my-10 bg-white border border-rose-100 rounded-2xl p-6 md:p-8 shadow-sm">
             <div className="flex items-start gap-4 mb-4">
@@ -539,6 +573,12 @@ export default function HowToChooseHoneymoonDestinationPagePt() {
               aeroportos.
             </p>
 
+          </div>
+          <div className="not-prose my-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            <DestinationPickCard slug="maldives" displayLabel="Maldivas" whyHere="Energia praia + spa" />
+            <DestinationPickCard slug="patagonia-chile" displayLabel="Patagônia" whyHere="Energia ativa" />
+            <DestinationPickCard slug="bali" displayLabel="Bali" whyHere="Energia espiritual" />
+            <DestinationPickCard slug="japan" displayLabel="Japão" whyHere="Energia cultural" />
           </div>
 
           <div className="my-10 bg-white border border-rose-100 rounded-2xl p-6 md:p-8 shadow-sm">
@@ -629,11 +669,14 @@ export default function HowToChooseHoneymoonDestinationPagePt() {
                       <p>{a.flagshipHotel}</p>
                     </div>
                   </div>
-                  <div className="mt-auto bg-rose-50/60 rounded-xl p-4 text-sm">
+                  <div className="bg-rose-50/60 rounded-xl p-4 text-sm">
                     <p className="text-xs uppercase tracking-widest text-rose-500 font-semibold mb-1">Custo real</p>
                     <p className="text-zinc-700 mb-2">{a.cost}</p>
                     <Link href={a.pillarLink} className="text-rose-500 hover:underline">{a.pillarLink}</Link>
                   </div>
+                  <Link href={`/pt/destinations/${ARCHETYPE_DEST_SLUGS[idx]}`} className="mt-3 inline-block text-rose-500 hover:text-rose-600 text-sm font-medium">
+                    Ver o destino →
+                  </Link>
                 </div>
               )
             })}
@@ -655,6 +698,12 @@ export default function HowToChooseHoneymoonDestinationPagePt() {
             5 noites na Cidade do México mais 5 noites na Riviera Maya. A pessoa da praia tem sua semana; a pessoa
             da cidade tem sua dose cultural; ninguém se contorce em um destino que não satisfaz nenhum dos dois.
           </p>
+          <div className="not-prose my-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            <DestinationPickCard slug="japan" displayLabel="Japão" whyHere="Tóquio para a parada urbana" />
+            <DestinationPickCard slug="maldives" displayLabel="Maldivas" whyHere="A recompensa praia" />
+            <DestinationPickCard slug="patagonia-chile" displayLabel="Patagônia" whyHere="Para a aventura" />
+            <DestinationPickCard slug="riviera-maya" displayLabel="Riviera Maya" whyHere="Cidade do México + praia" />
+          </div>
 
           <h3>2. Gap entre expectativa de orçamento e realidade</h3>
           <p>
@@ -666,6 +715,18 @@ export default function HowToChooseHoneymoonDestinationPagePt() {
             destino pelo seu análogo mais próximo: Cabo Verde pelo clima de Maldivas a um terço do custo, Albânia pelo
             cenário das ilhas gregas, Sicília pela Costa Amalfitana, Maurício no lugar das Seicheles.
           </p>
+          {sonevaJani && hyattCV && barosMaldives && (
+            <div className="not-prose my-6 grid grid-cols-1 md:grid-cols-3 gap-4">
+              <HotelPickCard hotel={sonevaJani} rationale="O alvo aspiracional. 4 000 $+/noite." locale="pt" />
+              <HotelPickCard hotel={hyattCV} rationale="O compromisso inteligente. 400 $/noite. Mesma vibe overwater a 1/10 do preço." locale="pt" />
+              <HotelPickCard hotel={barosMaldives} rationale="Villa jardim, entrada. 600-900 $/noite. 80% da experiência Maldivas." locale="pt" />
+            </div>
+          )}
+          <div className="not-prose my-6 grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <DestinationPickCard slug="cape-verde" displayLabel="Cabo Verde" whyHere="Vibe Maldivas, 1/3 do preço" />
+            <DestinationPickCard slug="sicily" displayLabel="Sicília" whyHere="Alternativa a Amalfi" />
+            <DestinationPickCard slug="mauritius" displayLabel="Maurício" whyHere="Alternativa às Seicheles" />
+          </div>
 
           <h3>3. Uma pessoa não gosta de voos longos</h3>
           <p>
@@ -674,6 +735,12 @@ export default function HowToChooseHoneymoonDestinationPagePt() {
             EUA. Bali para australianos. Cabo Verde para o oeste da Europa (5h30, sem jet lag, clima de water villa).
             México de qualquer ponto do continente. Nada disso é segunda opção. É diferente.
           </p>
+          <div className="not-prose my-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            <DestinationPickCard slug="amalfi" displayLabel="Costa Amalfitana" whyHere="Voo curto desde a Europa" />
+            <DestinationPickCard slug="antigua" displayLabel="Antígua" whyHere="Voo curto desde a costa leste dos EUA" />
+            <DestinationPickCard slug="bali" displayLabel="Bali" whyHere="Voo curto desde a Austrália" />
+            <DestinationPickCard slug="cape-verde" displayLabel="Cabo Verde" whyHere="5,5 horas desde a Europa Ocidental" />
+          </div>
 
           <h3>4. Visto, passaporte ou burocracia</h3>
           <p>
@@ -684,6 +751,14 @@ export default function HowToChooseHoneymoonDestinationPagePt() {
             número de casais que dão um sinal não reembolsável em um destino em que não conseguem entrar a tempo é
             diferente de zero.
           </p>
+          <Stay22InlineCTA
+            destination="mexico"
+            country="Mexico"
+            headline="Precisa de um destino sem visto agora?"
+            subline="México, Caraíbas e a maior parte da Europa não exigem visto para passaportes US/UK/UE."
+            campaign="how-to-choose-visa"
+            locale="pt"
+          />
 
           <h3>5. Estação fora de sincronia com a data do casamento</h3>
           <p>
@@ -694,6 +769,10 @@ export default function HowToChooseHoneymoonDestinationPagePt() {
             de junho, Polinésia Francesa no começo de novembro. Terceira, adiar a lua de mel por 3 a 6 meses. Uma lua
             de mel adiada na estação certa bate uma lua de mel em data perfeita debaixo da monção, todas as vezes.
           </p>
+          <Stay22MapInline destination="maldives" headline="Maldivas em temporada média: ver disponibilidade" />
+          <div className="not-prose my-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <DestinationPickCard slug="amalfi" displayLabel="Amalfi (maio)" whyHere="Temporada média, menos gente" />
+          </div>
 
           {/* 6 PERSONAS */}
           <div className="my-16 flex items-center gap-4">
@@ -769,6 +848,11 @@ export default function HowToChooseHoneymoonDestinationPagePt() {
             <Link href="/pt/cape-verde-honeymoon-cost"> custo de lua de mel em Cabo Verde</Link>.
           </p>
           </div>
+          {hyattCV && (
+            <div className="not-prose my-6">
+              <HotelPickCard hotel={hyattCV} rationale="Hotel âncora para este cenário" locale="pt" />
+            </div>
+          )}
 
           <div className="not-prose my-10 bg-zinc-50 border border-zinc-200 rounded-2xl p-7 md:p-8 prose prose-zinc max-w-none">
           <h3 className="font-display text-2xl mt-0">Caso B: $25.000 de orçamento, 12 noites, os dois viajantes experientes</h3>
@@ -788,6 +872,11 @@ export default function HowToChooseHoneymoonDestinationPagePt() {
             destinos que nenhum dos dois teria escolhido sozinho.
           </p>
           </div>
+          {awasiPatagonia && (
+            <div className="not-prose my-6">
+              <HotelPickCard hotel={awasiPatagonia} rationale="Hotel âncora para este cenário" locale="pt" />
+            </div>
+          )}
 
           <div className="not-prose my-10 bg-zinc-50 border border-zinc-200 rounded-2xl p-7 md:p-8 prose prose-zinc max-w-none">
           <h3 className="font-display text-2xl mt-0">Caso C: $50.000 de orçamento, 14 noites, os dois 45+, segundo casamento</h3>
@@ -808,6 +897,11 @@ export default function HowToChooseHoneymoonDestinationPagePt() {
             que $50 mil compram quando são gastos com precisão.
           </p>
           </div>
+          {amanKyoto && (
+            <div className="not-prose my-6">
+              <HotelPickCard hotel={amanKyoto} rationale="Hotel âncora para este cenário" locale="pt" />
+            </div>
+          )}
 
           {/* 9 INSTAGRAM */}
           <div className="my-16 flex items-center gap-4">
