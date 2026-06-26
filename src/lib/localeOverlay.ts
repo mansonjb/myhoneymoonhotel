@@ -57,7 +57,7 @@ export function hasLocaleOverlay(p: string, locale: Locale): boolean {
     '/honeymoon-in-france',
     '/overwater-bungalow-honeymoon',
     '/all-inclusive-honeymoon',
-    // '/how-to-choose-honeymoon-destination', // re-enable when FR/ES/PT translations ship
+    '/how-to-choose-honeymoon-destination',
     // Cost pages (FR routes exist, ES/PT too)
     '/maldives-honeymoon-cost',
     '/bali-honeymoon-cost',
