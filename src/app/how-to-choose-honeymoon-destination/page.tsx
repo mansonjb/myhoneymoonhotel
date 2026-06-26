@@ -301,26 +301,28 @@ export default function HowToChooseHoneymoonDestinationPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       {/* HERO */}
-      <section className="relative h-[70vh] min-h-[520px] flex items-end overflow-hidden">
+      <section className="relative h-[480px] md:h-[600px] rounded-3xl overflow-hidden my-6 mx-auto max-w-6xl">
         <Image
           src="/images/hotels/four-seasons-bora-bora/hero.webp"
-          alt="How to choose your honeymoon destination — overwater villa at sunset"
+          alt="How to choose your honeymoon destination, overwater villa at sunset"
           fill
           className="object-cover"
           priority
           sizes="100vw"
           quality={75}
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
-        <div className="relative z-10 px-8 sm:px-12 pb-16 max-w-4xl">
-          <p className="text-white/60 text-xs tracking-[0.2em] uppercase mb-5">The Decision Guide</p>
-          <h1 className="font-display text-4xl sm:text-6xl lg:text-7xl text-white leading-[1.05] mb-6">
-            How to choose your<br />honeymoon destination.
-          </h1>
-          <p className="text-white/75 text-base sm:text-lg max-w-2xl leading-relaxed">
-            The honest 2026 guide. A 7-question framework, eight honeymoon archetypes, three real case studies, and the
-            takes Instagram will not give you. Pick a destination you will actually love, not the one your feed insists on.
-          </p>
+        <div className="absolute inset-0 bg-gradient-to-b from-zinc-900/60 via-zinc-900/30 to-zinc-900/70" />
+        <div className="absolute inset-0 flex items-center justify-center text-center px-6">
+          <div className="max-w-3xl">
+            <p className="text-rose-400 uppercase tracking-[0.3em] text-xs font-semibold mb-5">Planning Guide</p>
+            <h1 className="font-display text-5xl md:text-7xl text-white leading-[1.05] mb-6">
+              How to choose your honeymoon destination.
+            </h1>
+            <p className="text-white/90 text-lg md:text-xl leading-relaxed">
+              The honest 2026 guide. A 7-question framework, eight honeymoon archetypes, three real case studies, and the
+              takes Instagram will not give you. Pick a destination you will actually love, not the one your feed insists on.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -337,9 +339,9 @@ export default function HowToChooseHoneymoonDestinationPage() {
 
       {/* TL;DR */}
       <div className="max-w-3xl mx-auto px-6">
-        <aside id="tldr" className="my-8 p-6 rounded-2xl bg-rose-50/60 border border-rose-100">
-          <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-500 mb-2">TL;DR</p>
-          <p className="text-zinc-900 text-lg leading-relaxed font-medium">
+        <aside id="tldr" className="my-12 bg-rose-50/60 border-l-4 border-rose-500 rounded-r-2xl p-7 md:p-8">
+          <p className="text-xs font-semibold tracking-widest uppercase text-rose-500 mb-3">TL;DR</p>
+          <p className="text-zinc-700 text-lg leading-relaxed">
             Most couples pick a honeymoon destination from Instagram, then panic when reality, budget, or weather refuses
             to cooperate. The opposite approach works better: answer seven honest questions (budget, nights, flight
             tolerance, season, energy, comfort baseline, travel experience), then map your answers to one of eight
@@ -370,6 +372,10 @@ export default function HowToChooseHoneymoonDestinationPage() {
 
           {/* 2 */}
           <h2>The mistake most couples make</h2>
+          <blockquote className="not-prose my-12 pl-6 border-l-4 border-rose-500 text-2xl md:text-3xl font-display italic text-zinc-700 leading-snug">
+            The destination is decided emotionally; the trip is then engineered backward to justify it.
+          </blockquote>
+          <p className="text-rose-400 text-sm mt-2">Pierre Lambert, editor</p>
           <p>
             The single most common honeymoon mistake is not flying the same day as the wedding (that is mistake number
             two). It is picking the destination from Instagram, then trying to make your budget, your wedding season,
@@ -522,38 +528,41 @@ export default function HowToChooseHoneymoonDestinationPage() {
             the couples it is wrong for. We have linked to the dedicated pillar where relevant.
           </p>
 
-          {ARCHETYPES.map((a) => (
-            <div key={a.title} className="not-prose my-10 border border-zinc-100 rounded-2xl p-6 sm:p-8 bg-white">
-              <h3 className="font-display text-2xl text-zinc-900 mb-3">{a.title}</h3>
-              <p className="text-zinc-700 text-base mb-4 italic">{a.vibe}</p>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm text-zinc-700 mb-4">
-                <div>
-                  <p className="text-xs uppercase tracking-widest text-rose-500 font-semibold mb-1">Who it is for</p>
-                  <p>{a.whoFor}</p>
+          <div className="not-prose grid grid-cols-1 md:grid-cols-2 gap-6 my-10">
+            {ARCHETYPES.map((a, idx) => {
+              const emojis = ['🏝️', '🌴', '🌊', '🏞️', '🦒', '🕉️', '🏔️', '✨']
+              return (
+                <div key={a.title} className="bg-white border border-zinc-200 rounded-2xl p-6 flex flex-col">
+                  <div className="w-14 h-14 rounded-full bg-rose-100 text-3xl flex items-center justify-center mb-4">{emojis[idx]}</div>
+                  <h3 className="font-display text-2xl text-zinc-900 mb-2">{a.title}</h3>
+                  <p className="italic text-zinc-500 mb-4">{a.vibe}</p>
+                  <div className="text-sm text-zinc-700 space-y-3 mb-4">
+                    <div>
+                      <p className="text-xs uppercase tracking-widest text-rose-500 font-semibold mb-1">Who it is for</p>
+                      <p>{a.whoFor}</p>
+                    </div>
+                    <div>
+                      <p className="text-xs uppercase tracking-widest text-rose-500 font-semibold mb-1">Who should skip</p>
+                      <p>{a.whoSkip}</p>
+                    </div>
+                    <div>
+                      <p className="text-xs uppercase tracking-widest text-rose-500 font-semibold mb-1">Destinations</p>
+                      <p>{a.destinations.join(', ')}</p>
+                    </div>
+                    <div>
+                      <p className="text-xs uppercase tracking-widest text-rose-500 font-semibold mb-1">Flagship</p>
+                      <p>{a.flagshipHotel}</p>
+                    </div>
+                  </div>
+                  <div className="mt-auto bg-rose-50/60 rounded-xl p-4 text-sm">
+                    <p className="text-xs uppercase tracking-widest text-rose-500 font-semibold mb-1">Real cost</p>
+                    <p className="text-zinc-700 mb-2">{a.cost}</p>
+                    <Link href={a.pillarLink} className="text-rose-500 hover:underline">{a.pillarLink}</Link>
+                  </div>
                 </div>
-                <div>
-                  <p className="text-xs uppercase tracking-widest text-rose-500 font-semibold mb-1">Who should skip</p>
-                  <p>{a.whoSkip}</p>
-                </div>
-                <div>
-                  <p className="text-xs uppercase tracking-widest text-rose-500 font-semibold mb-1">Destinations</p>
-                  <p>{a.destinations.join(', ')}</p>
-                </div>
-                <div>
-                  <p className="text-xs uppercase tracking-widest text-rose-500 font-semibold mb-1">Flagship</p>
-                  <p>{a.flagshipHotel}</p>
-                </div>
-                <div>
-                  <p className="text-xs uppercase tracking-widest text-rose-500 font-semibold mb-1">Real cost</p>
-                  <p>{a.cost}</p>
-                </div>
-                <div>
-                  <p className="text-xs uppercase tracking-widest text-rose-500 font-semibold mb-1">Read more</p>
-                  <p><Link href={a.pillarLink} className="text-rose-500 hover:underline">{a.pillarLink}</Link></p>
-                </div>
-              </div>
-            </div>
-          ))}
+              )
+            })}
+          </div>
 
           {/* 5 DEAL-BREAKERS */}
           <h2>The 5 common deal-breakers and how to handle them</h2>
@@ -612,14 +621,16 @@ export default function HowToChooseHoneymoonDestinationPage() {
             Each links to our dedicated persona pillar with a longer list.
           </p>
 
-          {PERSONAS.map((p) => (
-            <div key={p.label} className="not-prose my-6 border-l-2 border-rose-200 pl-5">
-              <h3 className="font-display text-xl text-zinc-900 mb-2">
-                <Link href={p.link} className="hover:text-rose-500">{p.label} →</Link>
-              </h3>
-              <p className="text-zinc-700 text-sm leading-relaxed">{p.text}</p>
-            </div>
-          ))}
+          <div className="not-prose grid grid-cols-1 md:grid-cols-2 gap-4 my-10">
+            {PERSONAS.map((p) => (
+              <div key={p.label} className="bg-rose-50 border border-rose-100 rounded-xl p-5">
+                <h3 className="font-display text-xl text-zinc-900 mb-2">
+                  <Link href={p.link} className="hover:text-rose-500">{p.label} →</Link>
+                </h3>
+                <p className="text-zinc-700 text-sm leading-relaxed">{p.text}</p>
+              </div>
+            ))}
+          </div>
 
           {/* 7 PARTNER QUESTIONS */}
           <h2>The 5 questions to ask each other before booking</h2>
@@ -643,7 +654,8 @@ export default function HowToChooseHoneymoonDestinationPage() {
             they ran through the seven-question framework. The destinations the framework actually produced.
           </p>
 
-          <h3>Case A: Brooklyn couple, $8,000 budget, 7 nights, first long-haul</h3>
+          <div className="not-prose my-10 bg-zinc-50 border border-zinc-200 rounded-2xl p-7 md:p-8 prose prose-zinc max-w-none">
+          <h3 className="font-display text-2xl mt-0">Case A: Brooklyn couple, $8,000 budget, 7 nights, first long-haul</h3>
           <p>
             Mia and Daniel, both 31, marrying in October. $8,000 ceiling for the honeymoon. Both anxious about
             multi-stop logistics. Neither has flown over 8 hours before. Dream destination: Maldives. Budget reality:
@@ -659,8 +671,10 @@ export default function HowToChooseHoneymoonDestinationPage() {
             They came home glad they had not chased the Maldives photo at twice the price. See our full
             <Link href="/cape-verde-honeymoon-cost"> Cape Verde honeymoon cost guide</Link>.
           </p>
+          </div>
 
-          <h3>Case B: $25,000 budget, 12 nights, both seasoned travelers</h3>
+          <div className="not-prose my-10 bg-zinc-50 border border-zinc-200 rounded-2xl p-7 md:p-8 prose prose-zinc max-w-none">
+          <h3 className="font-display text-2xl mt-0">Case B: $25,000 budget, 12 nights, both seasoned travelers</h3>
           <p>
             Ana and Tom, mid-thirties, marrying in November. $25,000 ceiling. Both have done the obvious destinations
             (Bali, Thailand, Mexico, Italy). Neither wants a beach-only trip. Both fluent in two stops. Q1: $25k. Q2:
@@ -676,8 +690,10 @@ export default function HowToChooseHoneymoonDestinationPage() {
             actual exhaustion, glaciers at sunrise, salt flats at moonrise, and two destinations neither would have
             picked alone.
           </p>
+          </div>
 
-          <h3>Case C: $50,000 budget, 14 nights, both 45-plus, second marriage</h3>
+          <div className="not-prose my-10 bg-zinc-50 border border-zinc-200 rounded-2xl p-7 md:p-8 prose prose-zinc max-w-none">
+          <h3 className="font-display text-2xl mt-0">Case C: $50,000 budget, 14 nights, both 45-plus, second marriage</h3>
           <p>
             Helen and James, both 47, marrying in late February (her wedding ten months prior was the first). Both
             have done the Maldives, Bora Bora, Tuscany, Provence, Japan once. Both want depth and a destination that
@@ -694,9 +710,14 @@ export default function HowToChooseHoneymoonDestinationPage() {
             sense that "the second wedding was a celebration; the honeymoon was the actual statement." That is what
             $50k buys when it is spent precisely.
           </p>
+          </div>
 
           {/* 9 INSTAGRAM */}
           <h2 id="instagram-honest">The honest take on Instagram-driven destinations</h2>
+          <blockquote className="not-prose my-12 pl-6 border-l-4 border-rose-500 text-2xl md:text-3xl font-display italic text-zinc-700 leading-snug">
+            The iconic photo they chased exists for about ninety minutes per day, surrounded by tripods.
+          </blockquote>
+          <p className="text-rose-400 text-sm mt-2">Pierre Lambert, editor</p>
           <p>
             Five destinations whose Instagram representation diverges most from reality, in our experience. Worth
             naming because they account for a disproportionate share of post-honeymoon disappointment.
@@ -733,9 +754,14 @@ export default function HowToChooseHoneymoonDestinationPage() {
           {/* 10 DECISION TREE */}
           <h2 id="tree">Decision tree summary</h2>
           <p>The fastest way to convert the framework into action. Read top to bottom; stop at the first line that fits you.</p>
-          <ul>
-            {DECISION_TREE.map((line, i) => <li key={i}>{line}</li>)}
-          </ul>
+          <ol className="not-prose my-8 space-y-4 list-none p-0">
+            {DECISION_TREE.map((line, i) => (
+              <li key={i} className="bg-white border border-rose-100 rounded-xl p-5 flex gap-4">
+                <div className="w-8 h-8 rounded-full bg-rose-500 text-white text-sm font-bold flex items-center justify-center shrink-0">{i + 1}</div>
+                <p className="text-zinc-700 m-0">{line}</p>
+              </li>
+            ))}
+          </ol>
 
           <Stay22InlineCTA
             destination="maldives"
@@ -746,18 +772,27 @@ export default function HowToChooseHoneymoonDestinationPage() {
           />
 
           {/* 11 FAQ */}
-          <h2 id="faq">Frequently asked questions</h2>
-          <FAQAccordion items={FAQS} />
+          <h2 id="faq" className="sr-only">Frequently asked questions</h2>
+          <div className="not-prose my-12 bg-white border border-zinc-200 rounded-2xl p-7 md:p-8">
+            <h3 className="font-display text-2xl text-zinc-900 mb-6 flex items-center gap-2"><span className="text-rose-500">▸</span> Frequently asked questions</h3>
+            <FAQAccordion items={FAQS} />
+          </div>
 
           {/* 12 CTA */}
-          <h2 id="cta">Still stuck? Two next steps</h2>
-          <p>
-            If you have run the framework and still cannot decide, the next two steps are useful. First, take our short
-            quiz at <Link href="/quiz">the honeymoon quiz</Link>. It runs the seven questions in interactive form and
-            outputs a ranked shortlist tied to specific hotels we score. Second, browse our <Link href="/destinations">destination
-            atlas</Link> with the shortlist in mind, and read the destination page top to bottom before placing a
-            deposit. Honeymoon destinations reward the couple who chose them deliberately. Pick yours that way.
-          </p>
+          <div className="not-prose my-16 bg-gradient-to-br from-rose-500 to-rose-600 text-white rounded-3xl p-8 md:p-12 text-center">
+            <h2 id="cta" className="font-display text-3xl md:text-4xl text-white mb-4">Still stuck? Two next steps</h2>
+            <p className="text-white/90 text-lg max-w-2xl mx-auto mb-8">
+              If you have run the framework and still cannot decide, the next two steps are useful. First, take our short
+              quiz at the honeymoon quiz. It runs the seven questions in interactive form and outputs a ranked shortlist
+              tied to specific hotels we score. Second, browse our destination atlas with the shortlist in mind, and read
+              the destination page top to bottom before placing a deposit. Honeymoon destinations reward the couple who
+              chose them deliberately. Pick yours that way.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link href="/quiz" className="bg-white text-rose-600 px-8 py-4 rounded-full font-semibold hover:bg-rose-50 transition">Take the quiz</Link>
+              <Link href="/destinations" className="text-white underline underline-offset-4 self-center">Browse destinations</Link>
+            </div>
+          </div>
           <p className="mt-8">
             For the rest of the planning playbook, see <Link href="/how-to-plan-a-honeymoon">how to plan a honeymoon</Link>:
             the 12-month timeline, the budget breakdowns, the registry, insurance, packing, and the 10 mistakes that

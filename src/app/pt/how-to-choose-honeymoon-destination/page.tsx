@@ -301,7 +301,7 @@ export default function HowToChooseHoneymoonDestinationPagePt() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       {/* HERO */}
-      <section className="relative h-[70vh] min-h-[520px] flex items-end overflow-hidden">
+      <section className="relative h-[480px] md:h-[600px] rounded-3xl overflow-hidden my-6 mx-auto max-w-6xl">
         <Image
           src="/images/hotels/four-seasons-bora-bora/hero.webp"
           alt="Como escolher o destino da sua lua de mel, vila sobre a água ao pôr do sol"
@@ -311,17 +311,19 @@ export default function HowToChooseHoneymoonDestinationPagePt() {
           sizes="100vw"
           quality={75}
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
-        <div className="relative z-10 px-8 sm:px-12 pb-16 max-w-4xl">
-          <p className="text-white/60 text-xs tracking-[0.2em] uppercase mb-5">O guia de decisão</p>
-          <h1 className="font-display text-4xl sm:text-6xl lg:text-7xl text-white leading-[1.05] mb-6">
-            Como escolher o<br />destino da sua lua de mel.
-          </h1>
-          <p className="text-white/75 text-base sm:text-lg max-w-2xl leading-relaxed">
-            O guia honesto de 2026. Um framework de 7 perguntas, oito arquétipos de lua de mel, três casos reais e
-            as opiniões que o Instagram não vai dar. Escolham um destino que vocês realmente vão amar, não aquele
-            que o feed insiste em mostrar.
-          </p>
+        <div className="absolute inset-0 bg-gradient-to-b from-zinc-900/60 via-zinc-900/30 to-zinc-900/70" />
+        <div className="absolute inset-0 flex items-center justify-center text-center px-6">
+          <div className="max-w-3xl">
+            <p className="text-rose-400 uppercase tracking-[0.3em] text-xs font-semibold mb-5">Guia de planejamento</p>
+            <h1 className="font-display text-5xl md:text-7xl text-white leading-[1.05] mb-6">
+              Como escolher o destino da sua lua de mel.
+            </h1>
+            <p className="text-white/90 text-lg md:text-xl leading-relaxed">
+              O guia honesto de 2026. Um framework de 7 perguntas, oito arquétipos de lua de mel, três casos reais e
+              as opiniões que o Instagram não vai dar. Escolham um destino que vocês realmente vão amar, não aquele
+              que o feed insiste em mostrar.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -338,9 +340,9 @@ export default function HowToChooseHoneymoonDestinationPagePt() {
 
       {/* TL;DR */}
       <div className="max-w-3xl mx-auto px-6">
-        <aside id="tldr" className="my-8 p-6 rounded-2xl bg-rose-50/60 border border-rose-100">
-          <p className="text-xs font-semibold tracking-[0.2em] uppercase text-rose-500 mb-2">TL;DR</p>
-          <p className="text-zinc-900 text-lg leading-relaxed font-medium">
+        <aside id="tldr" className="my-12 bg-rose-50/60 border-l-4 border-rose-500 rounded-r-2xl p-7 md:p-8">
+          <p className="text-xs font-semibold tracking-widest uppercase text-rose-500 mb-3">TL;DR</p>
+          <p className="text-zinc-700 text-lg leading-relaxed">
             A maioria dos casais escolhe o destino da lua de mel pelo Instagram e depois entra em pânico quando a
             realidade, o orçamento ou o clima se recusam a cooperar. O caminho inverso funciona melhor: respondam
             a sete perguntas honestas (orçamento, noites, tolerância a voo, estação, energia, piso de conforto,
@@ -371,6 +373,10 @@ export default function HowToChooseHoneymoonDestinationPagePt() {
 
           {/* 2 */}
           <h2>O erro mais comum dos casais</h2>
+          <blockquote className="not-prose my-12 pl-6 border-l-4 border-rose-500 text-2xl md:text-3xl font-display italic text-zinc-700 leading-snug">
+            O destino é decidido com emoção; a viagem é então engenheirada para trás para justificar a decisão.
+          </blockquote>
+          <p className="text-rose-400 text-sm mt-2">Pierre Lambert, editor</p>
           <p>
             O erro mais comum de uma lua de mel não é viajar no mesmo dia do casamento (esse é o erro número dois). É
             escolher o destino pelo Instagram e tentar fazer o seu orçamento, a estação do seu casamento, sua tolerância
@@ -526,38 +532,41 @@ export default function HowToChooseHoneymoonDestinationPagePt() {
             define e os casais para quem ele está errado. Linkamos para o pilar dedicado quando relevante.
           </p>
 
-          {ARCHETYPES.map((a) => (
-            <div key={a.title} className="not-prose my-10 border border-zinc-100 rounded-2xl p-6 sm:p-8 bg-white">
-              <h3 className="font-display text-2xl text-zinc-900 mb-3">{a.title}</h3>
-              <p className="text-zinc-700 text-base mb-4 italic">{a.vibe}</p>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm text-zinc-700 mb-4">
-                <div>
-                  <p className="text-xs uppercase tracking-widest text-rose-500 font-semibold mb-1">Para quem é</p>
-                  <p>{a.whoFor}</p>
+          <div className="not-prose grid grid-cols-1 md:grid-cols-2 gap-6 my-10">
+            {ARCHETYPES.map((a, idx) => {
+              const emojis = ['🏝️', '🌴', '🌊', '🏞️', '🦒', '🕉️', '🏔️', '✨']
+              return (
+                <div key={a.title} className="bg-white border border-zinc-200 rounded-2xl p-6 flex flex-col">
+                  <div className="w-14 h-14 rounded-full bg-rose-100 text-3xl flex items-center justify-center mb-4">{emojis[idx]}</div>
+                  <h3 className="font-display text-2xl text-zinc-900 mb-2">{a.title}</h3>
+                  <p className="italic text-zinc-500 mb-4">{a.vibe}</p>
+                  <div className="text-sm text-zinc-700 space-y-3 mb-4">
+                    <div>
+                      <p className="text-xs uppercase tracking-widest text-rose-500 font-semibold mb-1">Para quem é</p>
+                      <p>{a.whoFor}</p>
+                    </div>
+                    <div>
+                      <p className="text-xs uppercase tracking-widest text-rose-500 font-semibold mb-1">Quem deve pular</p>
+                      <p>{a.whoSkip}</p>
+                    </div>
+                    <div>
+                      <p className="text-xs uppercase tracking-widest text-rose-500 font-semibold mb-1">Destinos</p>
+                      <p>{a.destinations.join(', ')}</p>
+                    </div>
+                    <div>
+                      <p className="text-xs uppercase tracking-widest text-rose-500 font-semibold mb-1">Carro-chefe</p>
+                      <p>{a.flagshipHotel}</p>
+                    </div>
+                  </div>
+                  <div className="mt-auto bg-rose-50/60 rounded-xl p-4 text-sm">
+                    <p className="text-xs uppercase tracking-widest text-rose-500 font-semibold mb-1">Custo real</p>
+                    <p className="text-zinc-700 mb-2">{a.cost}</p>
+                    <Link href={a.pillarLink} className="text-rose-500 hover:underline">{a.pillarLink}</Link>
+                  </div>
                 </div>
-                <div>
-                  <p className="text-xs uppercase tracking-widest text-rose-500 font-semibold mb-1">Quem deve pular</p>
-                  <p>{a.whoSkip}</p>
-                </div>
-                <div>
-                  <p className="text-xs uppercase tracking-widest text-rose-500 font-semibold mb-1">Destinos</p>
-                  <p>{a.destinations.join(', ')}</p>
-                </div>
-                <div>
-                  <p className="text-xs uppercase tracking-widest text-rose-500 font-semibold mb-1">Carro-chefe</p>
-                  <p>{a.flagshipHotel}</p>
-                </div>
-                <div>
-                  <p className="text-xs uppercase tracking-widest text-rose-500 font-semibold mb-1">Custo real</p>
-                  <p>{a.cost}</p>
-                </div>
-                <div>
-                  <p className="text-xs uppercase tracking-widest text-rose-500 font-semibold mb-1">Saiba mais</p>
-                  <p><Link href={a.pillarLink} className="text-rose-500 hover:underline">{a.pillarLink}</Link></p>
-                </div>
-              </div>
-            </div>
-          ))}
+              )
+            })}
+          </div>
 
           {/* 5 DEAL-BREAKERS */}
           <h2>Os 5 dealbreakers comuns e como lidar</h2>
@@ -617,14 +626,16 @@ export default function HowToChooseHoneymoonDestinationPagePt() {
             destino. Cada um aponta para o nosso pilar dedicado, com listas mais longas.
           </p>
 
-          {PERSONAS.map((p) => (
-            <div key={p.label} className="not-prose my-6 border-l-2 border-rose-200 pl-5">
-              <h3 className="font-display text-xl text-zinc-900 mb-2">
-                <Link href={p.link} className="hover:text-rose-500">{p.label} →</Link>
-              </h3>
-              <p className="text-zinc-700 text-sm leading-relaxed">{p.text}</p>
-            </div>
-          ))}
+          <div className="not-prose grid grid-cols-1 md:grid-cols-2 gap-4 my-10">
+            {PERSONAS.map((p) => (
+              <div key={p.label} className="bg-rose-50 border border-rose-100 rounded-xl p-5">
+                <h3 className="font-display text-xl text-zinc-900 mb-2">
+                  <Link href={p.link} className="hover:text-rose-500">{p.label} →</Link>
+                </h3>
+                <p className="text-zinc-700 text-sm leading-relaxed">{p.text}</p>
+              </div>
+            ))}
+          </div>
 
           {/* 7 PARTNER QUESTIONS */}
           <h2>As 5 perguntas para fazerem um ao outro antes de reservar</h2>
@@ -648,7 +659,8 @@ export default function HowToChooseHoneymoonDestinationPagePt() {
             rodaram pelo framework de 7 perguntas. Os destinos que o framework de fato produziu.
           </p>
 
-          <h3>Caso A: casal do Brooklyn, $8.000 de orçamento, 7 noites, primeira longa distância</h3>
+          <div className="not-prose my-10 bg-zinc-50 border border-zinc-200 rounded-2xl p-7 md:p-8 prose prose-zinc max-w-none">
+          <h3 className="font-display text-2xl mt-0">Caso A: casal do Brooklyn, $8.000 de orçamento, 7 noites, primeira longa distância</h3>
           <p>
             Mia e Daniel, ambos com 31, casando em outubro. Teto de $8.000 para a lua de mel. Os dois ansiosos com
             logística multi-parada. Nenhum dos dois voou mais de 8 horas. Destino dos sonhos: Maldivas. Realidade
@@ -665,8 +677,10 @@ export default function HowToChooseHoneymoonDestinationPagePt() {
             Maldivas pelo dobro do preço. Vejam nosso guia completo de
             <Link href="/pt/cape-verde-honeymoon-cost"> custo de lua de mel em Cabo Verde</Link>.
           </p>
+          </div>
 
-          <h3>Caso B: $25.000 de orçamento, 12 noites, os dois viajantes experientes</h3>
+          <div className="not-prose my-10 bg-zinc-50 border border-zinc-200 rounded-2xl p-7 md:p-8 prose prose-zinc max-w-none">
+          <h3 className="font-display text-2xl mt-0">Caso B: $25.000 de orçamento, 12 noites, os dois viajantes experientes</h3>
           <p>
             Ana e Tom, na casa dos 30 e poucos, casando em novembro. Teto de $25.000. Os dois já fizeram os destinos
             óbvios (Bali, Tailândia, México, Itália). Nenhum quer viagem só de praia. Os dois fluentes em duas paradas.
@@ -682,8 +696,10 @@ export default function HowToChooseHoneymoonDestinationPagePt() {
             mais praia não teria entregue: exaustão de verdade, geleiras ao nascer do sol, salar ao luar e dois
             destinos que nenhum dos dois teria escolhido sozinho.
           </p>
+          </div>
 
-          <h3>Caso C: $50.000 de orçamento, 14 noites, os dois 45+, segundo casamento</h3>
+          <div className="not-prose my-10 bg-zinc-50 border border-zinc-200 rounded-2xl p-7 md:p-8 prose prose-zinc max-w-none">
+          <h3 className="font-display text-2xl mt-0">Caso C: $50.000 de orçamento, 14 noites, os dois 45+, segundo casamento</h3>
           <p>
             Helen e James, ambos com 47, casando no fim de fevereiro (o casamento dela dez meses antes foi o primeiro).
             Os dois já fizeram Maldivas, Bora Bora, Toscana, Provença, Japão uma vez. Os dois querem profundidade e
@@ -700,9 +716,14 @@ export default function HowToChooseHoneymoonDestinationPagePt() {
             sensação de que "o segundo casamento foi uma celebração; a lua de mel foi a declaração de verdade". É o
             que $50 mil compram quando são gastos com precisão.
           </p>
+          </div>
 
           {/* 9 INSTAGRAM */}
           <h2 id="instagram-honest">A visão honesta sobre destinos movidos pelo Instagram</h2>
+          <blockquote className="not-prose my-12 pl-6 border-l-4 border-rose-500 text-2xl md:text-3xl font-display italic text-zinc-700 leading-snug">
+            A foto icônica que perseguiram existe por uns noventa minutos por dia, cercada de tripés.
+          </blockquote>
+          <p className="text-rose-400 text-sm mt-2">Pierre Lambert, editor</p>
           <p>
             Cinco destinos cuja representação no Instagram mais diverge da realidade, na nossa experiência. Vale
             nomear porque eles respondem por uma fatia desproporcional das decepções pós-lua de mel.
@@ -741,9 +762,14 @@ export default function HowToChooseHoneymoonDestinationPagePt() {
           {/* 10 DECISION TREE */}
           <h2 id="tree">Árvore de decisão em resumo</h2>
           <p>A forma mais rápida de transformar o framework em ação. Leiam de cima para baixo; parem na primeira linha que combina com vocês.</p>
-          <ul>
-            {DECISION_TREE.map((line, i) => <li key={i}>{line}</li>)}
-          </ul>
+          <ol className="not-prose my-8 space-y-4 list-none p-0">
+            {DECISION_TREE.map((line, i) => (
+              <li key={i} className="bg-white border border-rose-100 rounded-xl p-5 flex gap-4">
+                <div className="w-8 h-8 rounded-full bg-rose-500 text-white text-sm font-bold flex items-center justify-center shrink-0">{i + 1}</div>
+                <p className="text-zinc-700 m-0">{line}</p>
+              </li>
+            ))}
+          </ol>
 
           <Stay22InlineCTA
             destination="maldives"
@@ -755,19 +781,28 @@ export default function HowToChooseHoneymoonDestinationPagePt() {
           />
 
           {/* 11 FAQ */}
-          <h2 id="faq">Perguntas frequentes</h2>
-          <FAQAccordion items={FAQS} />
+          <h2 id="faq" className="sr-only">Perguntas frequentes</h2>
+          <div className="not-prose my-12 bg-white border border-zinc-200 rounded-2xl p-7 md:p-8">
+            <h3 className="font-display text-2xl text-zinc-900 mb-6 flex items-center gap-2"><span className="text-rose-500">▸</span> Perguntas frequentes</h3>
+            <FAQAccordion items={FAQS} />
+          </div>
 
           {/* 12 CTA */}
-          <h2 id="cta">Ainda travados? Dois próximos passos</h2>
-          <p>
-            Se rodaram o framework e ainda não conseguem decidir, os próximos dois passos ajudam. Primeiro, façam
-            nosso quiz curto em <Link href="/pt/quiz">o quiz da lua de mel</Link>. Ele aplica as sete perguntas em
-            formato interativo e devolve uma shortlist ranqueada amarrada a hotéis específicos que pontuamos.
-            Segundo, naveguem pelo nosso <Link href="/pt/destinations">atlas de destinos</Link> com a shortlist em
-            mente e leiam a página do destino de ponta a ponta antes de pagar o sinal. Destinos de lua de mel
-            recompensam o casal que os escolheu de maneira deliberada. Escolham o de vocês assim.
-          </p>
+          <div className="not-prose my-16 bg-gradient-to-br from-rose-500 to-rose-600 text-white rounded-3xl p-8 md:p-12 text-center">
+            <h2 id="cta" className="font-display text-3xl md:text-4xl text-white mb-4">Ainda travados? Dois próximos passos</h2>
+            <p className="text-white/90 text-lg max-w-2xl mx-auto mb-8">
+              Se rodaram o framework e ainda não conseguem decidir, os próximos dois passos ajudam. Primeiro, façam
+              nosso quiz curto em o quiz da lua de mel. Ele aplica as sete perguntas em formato interativo e devolve
+              uma shortlist ranqueada amarrada a hotéis específicos que pontuamos. Segundo, naveguem pelo nosso atlas
+              de destinos com a shortlist em mente e leiam a página do destino de ponta a ponta antes de pagar o sinal.
+              Destinos de lua de mel recompensam o casal que os escolheu de maneira deliberada. Escolham o de vocês
+              assim.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link href="/pt/quiz" className="bg-white text-rose-600 px-8 py-4 rounded-full font-semibold hover:bg-rose-50 transition">Fazer o quiz</Link>
+              <Link href="/pt/destinations" className="text-white underline underline-offset-4 self-center">Explorar destinos</Link>
+            </div>
+          </div>
           <p className="mt-8">
             Para o resto do playbook de planejamento, vejam <Link href="/pt/how-to-plan-a-honeymoon">como planejar uma
             lua de mel</Link>: o cronograma de 12 meses, os detalhamentos de orçamento, a lista de presentes, seguro,
