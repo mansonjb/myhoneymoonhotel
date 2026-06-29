@@ -8,6 +8,7 @@ import HotelCard from '@/components/HotelCard'
 import Stay22MapWidget from '@/components/Stay22MapWidget'
 import FlightSearchWidget from '@/components/FlightSearchWidget'
 import RecentlyViewedRail from '@/components/RecentlyViewedRail'
+import SisterSiteLinks from '@/components/SisterSiteLinks'
 import { getLocalizedDestination } from '@/lib/getLocalizedDestination'
 import { getMessages, type Messages } from '@/i18n/getMessages'
 import { buildAlternates, localizedPath } from '@/lib/alternates'
@@ -638,6 +639,9 @@ export async function renderDestinationPage(country: string, locale: Locale) {
             </section>
           )
         })()}
+
+        {/* ── SISTER SITE BACKLINKS ── */}
+        <SisterSiteLinks destinationSlug={country} destinationLabel={destProper} locale={locale} />
 
       </div>
       <RecentlyViewedRail />
