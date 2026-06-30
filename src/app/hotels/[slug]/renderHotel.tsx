@@ -9,6 +9,7 @@ import HotelSchema from '@/components/HotelSchema'
 import Stay22MapWidget from '@/components/Stay22MapWidget'
 import FlightSearchWidget from '@/components/FlightSearchWidget'
 import HotelCard from '@/components/HotelCard'
+import SimilarHotelsGrid from '@/components/destinations/SimilarHotelsGrid'
 import PriceDropAlert from '@/components/PriceDropAlert'
 import CopyButton from '@/components/CopyButton'
 import StickyBookingBar from '@/components/StickyBookingBar'
@@ -454,6 +455,13 @@ export async function renderHotelPage(slug: string, locale: Locale) {
               ))}
             </div>
           </section>
+
+          <SimilarHotelsGrid
+            currentHotelSlug={hotel.slug}
+            destination={hotel.destination}
+            experienceTypes={hotel.experience_types}
+            locale={locale}
+          />
 
           {(sameStyle.length > 0 || sameDestination.length > 0) && (
             <section>

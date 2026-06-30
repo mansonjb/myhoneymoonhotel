@@ -9,6 +9,10 @@ import Stay22MapWidget from '@/components/Stay22MapWidget'
 import FlightSearchWidget from '@/components/FlightSearchWidget'
 import RecentlyViewedRail from '@/components/RecentlyViewedRail'
 import SisterSiteLinks from '@/components/SisterSiteLinks'
+import SemanticClusterPills from '@/components/destinations/SemanticClusterPills'
+import SimilarDestinationsGrid from '@/components/destinations/SimilarDestinationsGrid'
+import RelatedTopicCocoon from '@/components/destinations/RelatedTopicCocoon'
+import { getOtherDestinationsInCluster, getClustersForDestination } from '../../../../data/destination-clusters'
 import { getLocalizedDestination } from '@/lib/getLocalizedDestination'
 import { getMessages, type Messages } from '@/i18n/getMessages'
 import { buildAlternates, localizedPath } from '@/lib/alternates'
@@ -119,6 +123,22 @@ export async function renderDestinationPage(country: string, locale: Locale) {
 
   const homePath = localizedPath('/', locale)
 
+  // ── Semantic mesh data ──
+  const destClusters = getClustersForDestination(country)
+  const otherInCluster = destClusters[0]
+    ? getOtherDestinationsInCluster(destClusters[0].slug, country, 5)
+    : []
+  const goodMonths = (meta?.months ?? [])
+    .filter(mn => {
+      const v = mn.verdict.toLowerCase()
+      return v.includes('best') || v.includes('excellent') || v.includes('perfect')
+    })
+    .slice(0, 4)
+    .map(mn => mn.month.toLowerCase())
+  const fallbackMonths = (meta?.months ?? []).slice(0, 3).map(mn => mn.month.toLowerCase())
+  const bestMonthsForCocoon = goodMonths.length > 0 ? goodMonths : fallbackMonths
+  const localePrefix = locale === 'en' ? '' : `/${locale}`
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
@@ -171,6 +191,11 @@ export async function renderDestinationPage(country: string, locale: Locale) {
           ))}
         </div>
       </section>
+
+      {/* ── SEMANTIC CLUSTER PILLS (top of body) ── */}
+      <div className="max-w-6xl mx-auto px-6 sm:px-12 -mt-2 mb-2">
+        <SemanticClusterPills slug={country} locale={locale} />
+      </div>
 
       {/* ── MAIN CONTENT ── */}
       <div className="max-w-6xl mx-auto px-6 sm:px-12 space-y-24 pb-32">
@@ -329,6 +354,24 @@ export async function renderDestinationPage(country: string, locale: Locale) {
           </section>
         )}
 
+        {/* ── INLINE BEST-MONTHS ROW ── */}
+        {bestMonthsForCocoon.length > 0 && (
+          <section className="border-l-4 border-amber-300 bg-amber-50/60 rounded-r-2xl p-5 flex flex-wrap items-center gap-2">
+            <span className="text-xs font-semibold uppercase tracking-[0.2em] text-amber-700 mr-2">
+              📅 Or honeymoon in {destProper} in:
+            </span>
+            {bestMonthsForCocoon.map(mn => (
+              <Link
+                key={mn}
+                href={`${localePrefix}/destinations/${country}/${mn}`}
+                className="inline-flex items-center bg-white hover:bg-amber-50 border border-amber-200 rounded-full px-3 py-1 text-xs font-semibold text-amber-800 transition-colors capitalize"
+              >
+                {mn}
+              </Link>
+            ))}
+          </section>
+        )}
+
         {/* ── WEEKLY MICRO-WINDOWS ── */}
         {meta?.weeklyMicroWindows && (
           <section>
@@ -387,6 +430,24 @@ export async function renderDestinationPage(country: string, locale: Locale) {
                 </div>
               ))}
             </div>
+          </section>
+        )}
+
+        {/* ── INLINE CLUSTER ROW: other regions in this cluster ── */}
+        {otherInCluster.length > 0 && destClusters[0] && (
+          <section className="bg-rose-50/50 border border-rose-100 rounded-2xl p-5 flex flex-wrap items-center gap-2">
+            <span className="text-xs font-semibold uppercase tracking-[0.2em] text-rose-500 mr-2">
+              {destClusters[0].emoji} Other {destClusters[0].label.toLowerCase()} destinations:
+            </span>
+            {otherInCluster.map(d => (
+              <Link
+                key={d}
+                href={`${localePrefix}/destinations/${d}`}
+                className="inline-flex items-center bg-white hover:bg-rose-50 border border-rose-200 rounded-full px-3 py-1 text-xs font-semibold text-rose-700 transition-colors capitalize"
+              >
+                {d.replace(/-/g, ' ')}
+              </Link>
+            ))}
           </section>
         )}
 
@@ -639,6 +700,12 @@ export async function renderDestinationPage(country: string, locale: Locale) {
             </section>
           )
         })()}
+
+        {/* ── SIMILAR DESTINATIONS GRID ── */}
+        <SimilarDestinationsGrid slug={country} displayLabel={destProper} locale={locale} />
+
+        {/* ── TOPIC COCOON ── */}
+        <RelatedTopicCocoon slug={country} bestMonths={bestMonthsForCocoon} locale={locale} />
 
         {/* ── SISTER SITE BACKLINKS ── */}
         <SisterSiteLinks destinationSlug={country} destinationLabel={destProper} locale={locale} />
