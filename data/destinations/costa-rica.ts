@@ -1,7 +1,7 @@
 import type { DestinationMeta } from '@/types/destination'
 
 const meta: DestinationMeta = {
-hero: '/images/hotels/nayara-tented-camp-costa-rica/hero.webp',
+hero: '/images/hotels/nayara-springs-costa-rica/hero.webp',
 tagline: 'Pura Vida honeymoons where volcanoes, cloud forests, and two oceans meet',
 intro: 'Costa Rica is the rare honeymoon destination that delivers adventure and serenity in equal measure. You can wake up to howler monkeys at dawn, soak in volcanic hot springs by sunset, and fall asleep to the sound of Pacific surf, all without ever feeling rushed. This small Central American country protects 25% of its land as national parks and reserves. The Arenal region delivers the iconic volcano-and-hot-springs fantasy, with properties like Nayara Tented Camp offering steaming thermal pools fed by the volcano itself. Monteverde\'s cloud forest is otherworldly. Down on the Osa Peninsula, Lapa Rios sits on the edge of Corcovado, the most biologically intense place on earth. The Nicoya Peninsula, one of the world\'s five Blue Zones, blends surf with yoga and wellness. The Papagayo Peninsula offers polished beach-resort luxury at Four Seasons and Andaz. The Pura Vida ethos: days unfold without urgency.',
 bestTime: 'Mid-December to April (dry season); May-June and November are sweet spots',

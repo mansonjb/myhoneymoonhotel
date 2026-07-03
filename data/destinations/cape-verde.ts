@@ -1,7 +1,7 @@
 import type { DestinationMeta } from '@/types/destination'
 
 const meta: DestinationMeta = {
-hero: '/images/hotels/hilton-cabo-verde-sal-resort/hero.webp',
+hero: '/images/hotels/hilton-cabo-verde-sal-resort-cape-verde/hero.webp',
 tagline: 'Ten volcanic islands, African-Portuguese soul, year-round sunshine',
 intro: 'Cape Verde occupies a strange and wonderful corner of the Atlantic — 600km off the West African coast, but spiritually tethered to Portugal, Brazil, and the Caribbean all at once. The ten-island archipelago was uninhabited until 1462, then became the first European tropical colony. From that crucible emerged a culture entirely its own: Crioulo language, morna music (Cesária Évora\'s mournful ballads), cachupa stew, and a pace of life locals call "no stress, no pressure". Sal and Boa Vista deliver the postcard: white sand beaches, all-inclusive resorts, kitesurfing, reliable trade winds. Boa Vista\'s Viana Desert — actual Sahara dunes meeting turquoise ocean — feels like a geographic glitch. The other islands reward couples willing to island-hop: Santo Antão has dramatic emerald volcanic peaks; São Vicente\'s Mindelo is the cultural capital with live music every night. Flights are short (4-5 hours from Lisbon or London Gatwick).',
 bestTime: 'November to June — dry, sunny, 24-27°C',

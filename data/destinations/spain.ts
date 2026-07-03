@@ -1,7 +1,7 @@
 import type { DestinationMeta } from '@/types/destination'
 
 const meta: DestinationMeta = {
-hero: '/images/hotels/marbella-club-spain/hero.webp',
+hero: '/images/hotels/marbella-club-hotel-spain/hero.webp',
 tagline: 'Where sun-soaked coastlines, world-class kitchens, and Moorish romance collide',
 intro: 'Spain doesn\'t do honeymoons quietly. It seduces with Andalucían courtyards perfumed by orange blossom, Balearic coves the color of melted glass, and Basque tasting menus that have rewritten the rules of fine dining. Few countries pack this much regional contrast into a single trip — wake up to Tramuntana mountain mist over Deià one morning, sip vermut in a Barcelona plaza the next, and end the week watching the sun melt into Es Vedrà from a cliff-top terrace in Ibiza. Spain is, by most serious measures, the planet\'s most exciting culinary country right now — three of the world\'s top tasting menus sit within an hour of San Sebastián, jamón Ibérico de bellota is treated with the reverence other cultures reserve for wine. For couples, the magic is in the rhythm: late lunches that stretch into siestas, sunset paseos hand-in-hand, dinner at 10pm followed by a nightcap of fino sherry under a string of lanterns.',
 bestTime: 'May–June and September–early October — warm seas, long days, manageable crowds',

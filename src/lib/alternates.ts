@@ -14,7 +14,7 @@ const SITE_URL = 'https://myhoneymoonhotel.com'
  *     content for this path (per `hasLocaleOverlay`). Promising /fr/X when /fr/X
  *     just renders EN content tanks the page in Google.
  *   - When rendering a locale-prefixed page that DOESN'T have an overlay
- *     (e.g. /fr/hotels/conrad-maldives when the FR overlay doesn't exist), the
+ *     (e.g. /fr/hotels/conrad-maldives-rangali-island when the FR overlay doesn't exist), the
  *     canonical is forced back to the EN URL so Google treats the EN version
  *     as the source of truth.
  */

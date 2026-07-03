@@ -101,10 +101,54 @@ function applyAttributionCookies(request: NextRequest, res: NextResponse): void 
   }
 }
 
+// Long-tail routes that only exist in EN. When Google hits a /fr/, /es/, or
+// /pt/ variant, 301-redirect to the EN equivalent instead of 404. Root cause:
+// prior to the June 21 hreflang fix, the sitemap advertised /fr/xxx alternates
+// blindly. Google indexed ~319 of these locale-prefixed URLs; they now 404
+// because the Next.js route tree only ships the EN version. 301s clean the
+// index and preserve link juice.
+const LOCALE_ONLY_EN_PATTERNS: readonly RegExp[] = [
+  /^\/(fr|es|pt)\/honeymoon-under-\d+$/,
+  /^\/(fr|es|pt)\/honeymoon-in-(january|february|march|april|may|june|july|august|september|october|november|december)$/,
+  /^\/(fr|es|pt)\/\d+-day-honeymoon$/,
+  /^\/(fr|es|pt)\/honeymoon-for-[^/]+$/,
+  /^\/(fr|es|pt)\/itineraries(?:\/.+)?$/,
+  /^\/(fr|es|pt)\/compare\/destinations\/.+$/,
+  /^\/(fr|es|pt)\/compare\/hotels\/.+$/,
+  /^\/(fr|es|pt)\/honeymoon-in\/[^/]+$/,
+  /^\/(fr|es|pt)\/experiences(?:\/.+)?$/,
+  /^\/(fr|es|pt)\/honeymoon-on-a-budget$/,
+  /^\/(fr|es|pt)\/honeymoon-packing-list$/,
+  /^\/(fr|es|pt)\/last-minute-honeymoon$/,
+  /^\/(fr|es|pt)\/luxury-honeymoon$/,
+]
+
+// Destinations that never shipped FR/ES/PT overlay content but were briefly
+// advertised via hreflang. Redirect their locale URLs to EN.
+const LOCALE_ONLY_EN_DESTINATIONS_RE = /^\/(fr|es|pt)\/destinations\/(austria|hokkaido|andalusia|kerala|slovenia|ireland|banff|scotland|quebec|lake-garda|big-sur|bavaria|venice|puglia|capri|cotswolds|burgundy|singapore|dolomites|riviera-maya|tasmania|algarve|cook-islands|dominican-republic|saint-vincent-grenadines|faroe-islands|grenada|crete|cyprus|curacao|bermuda|mallorca|cartagena|belize|provence|cinque-terre|madeira|patagonia-chile|cote-dazur|loire-valley|champagne)(?:\/.+)?$/
+
+function shouldRedirectLocaleToEn(pathname: string): string | null {
+  if (LOCALE_ONLY_EN_PATTERNS.some(re => re.test(pathname))) {
+    return pathname.replace(/^\/(fr|es|pt)/, '')
+  }
+  if (LOCALE_ONLY_EN_DESTINATIONS_RE.test(pathname)) {
+    return pathname.replace(/^\/(fr|es|pt)/, '')
+  }
+  return null
+}
+
 export function middleware(request: NextRequest) {
   const { pathname, search } = request.nextUrl
   const headers = new Headers(request.headers)
   headers.set('x-pathname', pathname)
+
+  // 301 stale locale-prefixed URLs (Google-indexed pre-June-21) to their EN
+  // equivalent — closes the ~319 GSC 404s reported after the hreflang fix.
+  const enTarget = shouldRedirectLocaleToEn(pathname)
+  if (enTarget) {
+    const target = new URL(`${enTarget}${search}`, request.url)
+    return NextResponse.redirect(target, 301)
+  }
 
   // Skip locale detection on static / api / files / next internals — handled by matcher,
   // but be defensive in case matcher list changes.

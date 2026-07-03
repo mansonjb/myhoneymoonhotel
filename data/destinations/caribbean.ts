@@ -1,7 +1,7 @@
 import type { DestinationMeta } from '@/types/destination'
 
 const meta: DestinationMeta = {
-hero: '/images/hotels/cap-juluca-anguilla/hero.webp',
+hero: '/images/hotels/belmond-cap-juluca-anguilla/hero.webp',
 tagline: 'Choose your island, choose your honeymoon: 30+ nations, one warm sea',
 intro: 'The Caribbean is not a destination — it is a choice between thirty very different ones. Beyond the headline names lies an archipelago where each island has carved out its own honeymoon personality. Anguilla is the quiet luxury play: 33 powder-white beaches, no high-rises, no cruise ships. Barbados is the polished British Caribbean: Sandy Lane on the Platinum Coast, Mount Gay rum since 1703. Grenada — the Spice Island — smells like nutmeg and offers Grand Anse Beach plus the cult-favorite Calabash. The British Virgin Islands are for couples who want to sleep on water: yacht charters between the Baths at Virgin Gorda, Jost Van Dyke beach bars, Necker for Branson budgets. Dominica is the wild card — volcanic, jungled, almost beach-less, but home to Secret Bay and Coulibri Ridge. Nevis is sleepy old-world charm anchored by the Four Seasons. The unifying truth: water 79-84F year-round, flights from US East Coast 3-5 hours, an astonishing range of feel within a single week.',
 bestTime: 'December to April (dry, 78-84F); May and November are sweet spots',
